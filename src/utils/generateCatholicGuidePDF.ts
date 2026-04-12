@@ -58,25 +58,25 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   const addFooter = () => {
     doc.setFontSize(8);
     doc.setTextColor(128, 128, 128);
-    centerText("Guia da Vida Católica | Bom Católico", pageHeight - 15, 8);
+    centerText("Catholic Life Guide | Good Catholic", pageHeight - 15, 8);
     doc.setFontSize(9);
     doc.setTextColor(12, 75, 148);
-    centerText("www.bomcatolico.com.br", pageHeight - 8, 9);
+    centerText("www.good-catholic.com", pageHeight - 8, 9);
     doc.setTextColor(0, 0, 0);
   };
 
   // ===============================
-  // PÁGINA 1 - CAPA
+  // PAGE 1 - COVER
   // ===============================
   doc.setFillColor(12, 75, 148);
   doc.rect(0, 0, pageWidth, 80, "F");
   
   doc.setTextColor(255, 255, 255);
   doc.setFont("helvetica", "bold");
-  centerText("GUIA COMPLETO", 35, 28);
-  centerText("DA VIDA CATÓLICA", 50, 24);
+  centerText("COMPLETE GUIDE", 35, 28);
+  centerText("TO CATHOLIC LIFE", 50, 24);
   doc.setFont("helvetica", "normal");
-  centerText("Orações, Devoções e Ensinamentos da Igreja", 65, 12);
+  centerText("Prayers, Devotions and Church Teachings", 65, 12);
   
   doc.setTextColor(0, 0, 0);
   
@@ -87,7 +87,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   doc.line(pageWidth / 2 - 15, 115, pageWidth / 2 + 15, 115);
   
   doc.setFontSize(14);
-  centerText(`Preparado especialmente para`, 160, 14);
+  centerText(`Specially prepared for`, 160, 14);
   doc.setFont("helvetica", "bold");
   doc.setTextColor(12, 75, 148);
   centerText(userName, 175, 20);
@@ -95,54 +95,54 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   doc.setTextColor(0, 0, 0);
   doc.setFont("helvetica", "normal");
   doc.setFontSize(12);
-  centerText(`Resultado do Quiz: ${score}%`, 195, 12);
-  centerText(`Nível: ${levelTitle}`, 205, 12);
+  centerText(`Quiz Result: ${score}%`, 195, 12);
+  centerText(`Level: ${levelTitle}`, 205, 12);
   
   doc.setFontSize(10);
   doc.setTextColor(128, 128, 128);
-  centerText('"Buscai em primeiro lugar o Reino de Deus"', 230, 11);
-  centerText("— Mateus 6,33", 240, 10);
+  centerText('"Seek first the Kingdom of God"', 230, 11);
+  centerText("— Matthew 6:33", 240, 10);
   
   addFooter();
   addPageNumber(1);
 
   // ===============================
-  // PÁGINA 2 - INTRODUÇÃO
+  // PAGE 2 - INTRODUCTION
   // ===============================
   doc.addPage();
-  addTitle("Introdução: O Chamado à Santidade", 30);
+  addTitle("Introduction: The Call to Holiness", 30);
   
   let y = 50;
-  y = addParagraph(`Querido(a) ${firstName},`, y);
+  y = addParagraph(`Dear ${firstName},`, y);
   y += 8;
   
   y = addParagraph(
-    "Este Guia foi preparado com muito carinho para ajudá-lo(a) em sua caminhada de fé. A Igreja Católica, fundada por Nosso Senhor Jesus Cristo, é a depositária da plenitude da verdade revelada e dos meios de salvação.",
+    "This Guide was prepared with great care to help you on your faith journey. The Catholic Church, founded by Our Lord Jesus Christ, is the repository of the fullness of revealed truth and the means of salvation.",
     y
   );
   y += 10;
   
   y = addParagraph(
-    "O Concílio Vaticano II nos lembra que todos os fiéis são chamados à santidade: \"Todos os fiéis de qualquer estado ou condição são chamados à plenitude da vida cristã e à perfeição da caridade\" (Lumen Gentium, 40). Este não é um privilégio de poucos, mas vocação de todos os batizados.",
+    "The Second Vatican Council reminds us that all the faithful are called to holiness: \"All the faithful of whatever state or condition are called to the fullness of Christian life and to the perfection of charity\" (Lumen Gentium, 40). This is not a privilege of the few, but the vocation of all the baptized.",
     y
   );
   y += 10;
   
   y = addParagraph(
-    "Neste guia você encontrará: orações fundamentais da tradição católica, explicações sobre os Sacramentos, devoções marianas, práticas de piedade, e orientações para crescer na vida espiritual. Tudo fundamentado no Catecismo da Igreja Católica e na Sagrada Tradição.",
+    "In this guide you will find: fundamental prayers of the Catholic tradition, explanations about the Sacraments, Marian devotions, practices of piety, and guidance for growing in spiritual life. Everything is based on the Catechism of the Catholic Church and Sacred Tradition.",
     y
   );
   y += 10;
   
-  y = addSubtitle("Como usar este Guia", y);
+  y = addSubtitle("How to use this Guide", y);
   y = addParagraph(
-    "• Reserve um momento do dia para a leitura e oração\n• Não tenha pressa - assimile cada ensinamento\n• Pratique as orações diariamente\n• Busque a confissão e a Eucaristia com frequência\n• Peça a intercessão de Nossa Senhora",
+    "• Set aside a moment of the day for reading and prayer\n• Don't rush - absorb each teaching\n• Practice the prayers daily\n• Seek confession and the Eucharist frequently\n• Ask for the intercession of Our Lady",
     y
   );
   y += 10;
   
   y = addParagraph(
-    "\"A oração é a elevação da alma a Deus ou o pedido a Deus dos bens convenientes\" (São João Damasceno). Que este guia seja instrumento de graça em sua vida.",
+    "\"Prayer is the raising of one's mind and heart to God or the requesting of good things from God\" (St. John Damascene). May this guide be an instrument of grace in your life.",
     y
   );
   
@@ -150,58 +150,58 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(2);
 
   // ===============================
-  // PÁGINA 3 - ORAÇÕES FUNDAMENTAIS
+  // PAGE 3 - FUNDAMENTAL PRAYERS
   // ===============================
   doc.addPage();
-  addTitle("Orações Fundamentais do Católico", 30);
+  addTitle("Fundamental Catholic Prayers", 30);
   
   y = 45;
-  y = addSubtitle("Sinal da Cruz", y);
+  y = addSubtitle("Sign of the Cross", y);
   y = addParagraph(
-    "Em nome do Pai, e do Filho, e do Espírito Santo. Amém.",
+    "In the name of the Father, and of the Son, and of the Holy Spirit. Amen.",
     y
   );
   y += 5;
   y = addParagraph(
-    "O Sinal da Cruz é a primeira oração que aprendemos e a marca distintiva do cristão. Fazendo-o, professamos a fé na Santíssima Trindade e recordamos a Paixão de Cristo.",
+    "The Sign of the Cross is the first prayer we learn and the distinctive mark of the Christian. By making it, we profess faith in the Holy Trinity and remember the Passion of Christ.",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("Pai-Nosso", y);
+  y = addSubtitle("Our Father", y);
   y = addParagraph(
-    "Pai nosso que estais no Céu, santificado seja o vosso Nome, venha a nós o vosso Reino, seja feita a vossa vontade assim na terra como no Céu. O pão nosso de cada dia nos dai hoje, perdoai-nos as nossas ofensas assim como nós perdoamos a quem nos tem ofendido, e não nos deixeis cair em tentação, mas livrai-nos do Mal. Amém.",
+    "Our Father, who art in heaven, hallowed be thy name; thy kingdom come; thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.",
     y
   );
   y += 5;
   y = addParagraph(
-    "Esta oração foi ensinada pelo próprio Jesus aos Apóstolos. É chamada \"Oração do Senhor\" e contém todas as petições necessárias à nossa salvação.",
+    "This prayer was taught by Jesus himself to the Apostles. It is called the \"Lord's Prayer\" and contains all the petitions necessary for our salvation.",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("Ave-Maria", y);
+  y = addSubtitle("Hail Mary", y);
   y = addParagraph(
-    "Ave Maria, cheia de graça, o Senhor é convosco. Bendita sois vós entre as mulheres, e bendito é o fruto do vosso ventre, Jesus. Santa Maria, Mãe de Deus, rogai por nós pecadores, agora e na hora da nossa morte. Amém.",
+    "Hail Mary, full of grace, the Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.",
     y
   );
   y += 5;
   y = addParagraph(
-    "A primeira parte é a saudação do Arcanjo Gabriel e de Santa Isabel a Maria. A segunda é a súplica da Igreja à Mãe de Deus.",
+    "The first part is the greeting of the Archangel Gabriel and St. Elizabeth to Mary. The second is the Church's supplication to the Mother of God.",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("Glória ao Pai", y);
+  y = addSubtitle("Glory Be", y);
   y = addParagraph(
-    "Glória ao Pai, ao Filho e ao Espírito Santo. Como era no princípio, agora e sempre. Amém.",
+    "Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.",
     y
   );
   
   y += 8;
-  y = addSubtitle("Credo Apostólico", y);
+  y = addSubtitle("Apostles' Creed", y);
   y = addParagraph(
-    "Creio em Deus Pai todo-poderoso, Criador do céu e da terra; e em Jesus Cristo, seu único Filho, nosso Senhor; que foi concebido pelo poder do Espírito Santo; nasceu da Virgem Maria; padeceu sob Pôncio Pilatos, foi crucificado, morto e sepultado; desceu à mansão dos mortos; ressuscitou ao terceiro dia; subiu aos Céus, está sentado à direita de Deus Pai todo-poderoso, donde há de vir a julgar os vivos e os mortos. Creio no Espírito Santo, na santa Igreja Católica, na comunhão dos Santos, na remissão dos pecados, na ressurreição da carne, na vida eterna. Amém.",
+    "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.",
     y, 10
   );
   
@@ -209,63 +209,63 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(3);
 
   // ===============================
-  // PÁGINA 4 - OS SETE SACRAMENTOS
+  // PAGE 4 - THE SEVEN SACRAMENTS
   // ===============================
   doc.addPage();
-  addTitle("Os Sete Sacramentos da Igreja", 30);
+  addTitle("The Seven Sacraments of the Church", 30);
   
   y = 45;
   y = addParagraph(
-    "Os Sacramentos são sinais sensíveis e eficazes da graça, instituídos por Cristo e confiados à Igreja. Através deles, a vida divina nos é comunicada. São sete os Sacramentos:",
+    "The Sacraments are sensible and efficacious signs of grace, instituted by Christ and entrusted to the Church. Through them, divine life is communicated to us. There are seven Sacraments:",
     y
   );
   y += 10;
   
-  y = addSubtitle("1. Batismo", y);
+  y = addSubtitle("1. Baptism", y);
   y = addParagraph(
-    "Porta de entrada na vida cristã. Pelo Batismo somos libertos do pecado original, renascemos como filhos de Deus e nos tornamos membros da Igreja. \"Quem crer e for batizado será salvo\" (Mc 16,16).",
+    "Gateway to Christian life. Through Baptism we are freed from original sin, reborn as children of God and become members of the Church. \"Whoever believes and is baptized will be saved\" (Mk 16:16).",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("2. Crisma (Confirmação)", y);
+  y = addSubtitle("2. Confirmation", y);
   y = addParagraph(
-    "Sacramento que completa o Batismo e nos confere o Espírito Santo de modo especial, fortalecendo-nos para sermos testemunhas de Cristo. Recebemos os sete dons do Espírito Santo.",
+    "Sacrament that completes Baptism and confers the Holy Spirit in a special way, strengthening us to be witnesses of Christ. We receive the seven gifts of the Holy Spirit.",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("3. Eucaristia", y);
+  y = addSubtitle("3. Eucharist", y);
   y = addParagraph(
-    "\"Fonte e cume de toda a vida cristã\" (LG 11). Na Eucaristia, recebemos o próprio Corpo e Sangue de Cristo sob as espécies do pão e do vinho. É o Sacramento do Amor.",
+    "\"Source and summit of all Christian life\" (LG 11). In the Eucharist, we receive the very Body and Blood of Christ under the species of bread and wine. It is the Sacrament of Love.",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("4. Penitência (Confissão)", y);
+  y = addSubtitle("4. Penance (Confession)", y);
   y = addParagraph(
-    "Sacramento da reconciliação com Deus e com a Igreja. Através da confissão sincera e da absolvição do sacerdote, nossos pecados são perdoados. \"A quem perdoardes os pecados, serão perdoados\" (Jo 20,23).",
+    "Sacrament of reconciliation with God and with the Church. Through sincere confession and the priest's absolution, our sins are forgiven. \"Whose sins you forgive are forgiven\" (Jn 20:23).",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("5. Unção dos Enfermos", y);
+  y = addSubtitle("5. Anointing of the Sick", y);
   y = addParagraph(
-    "Sacramento que confere graça especial aos fiéis que enfrentam doença grave ou velhice. Fortalece a alma e pode trazer a cura do corpo, se for da vontade de Deus.",
+    "Sacrament that confers special grace to the faithful facing serious illness or old age. It strengthens the soul and can bring healing of the body, if it is God's will.",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("6. Ordem", y);
+  y = addSubtitle("6. Holy Orders", y);
   y = addParagraph(
-    "Sacramento pelo qual homens são ordenados bispos, presbíteros ou diáconos, recebendo poder sagrado para exercer o ministério em nome de Cristo.",
+    "Sacrament by which men are ordained bishops, priests or deacons, receiving sacred power to exercise ministry in the name of Christ.",
     y, 10
   );
   y += 8;
   
-  y = addSubtitle("7. Matrimônio", y);
+  y = addSubtitle("7. Matrimony", y);
   y = addParagraph(
-    "Sacramento que une homem e mulher em aliança indissolúvel, tornando-os cooperadores de Deus na transmissão da vida. \"O que Deus uniu, o homem não separe\" (Mt 19,6).",
+    "Sacrament that unites man and woman in an indissoluble covenant, making them cooperators with God in the transmission of life. \"What God has joined together, let no one separate\" (Mt 19:6).",
     y, 10
   );
   
@@ -273,52 +273,52 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(4);
 
   // ===============================
-  // PÁGINA 5 - DEVOÇÃO A NOSSA SENHORA
+  // PAGE 5 - DEVOTION TO OUR LADY
   // ===============================
   doc.addPage();
-  addTitle("Devoção a Nossa Senhora", 30);
+  addTitle("Devotion to Our Lady", 30);
   
   y = 45;
   y = addParagraph(
-    "A Virgem Maria ocupa lugar central na fé católica. Ela é Mãe de Deus (Theotókos), Mãe da Igreja e nossa Mãe espiritual. Jesus, do alto da Cruz, entregou-a a nós: \"Eis aí tua Mãe\" (Jo 19,27).",
+    "The Virgin Mary occupies a central place in the Catholic faith. She is Mother of God (Theotokos), Mother of the Church and our spiritual Mother. Jesus, from the height of the Cross, entrusted her to us: \"Behold, your mother\" (Jn 19:27).",
     y
   );
   y += 10;
   
-  y = addSubtitle("Os Dogmas Marianos", y);
+  y = addSubtitle("The Marian Dogmas", y);
   y = addParagraph(
-    "• Maternidade Divina: Maria é verdadeiramente Mãe de Deus\n• Virgindade Perpétua: Maria foi virgem antes, durante e depois do parto\n• Imaculada Conceição: Maria foi preservada do pecado original\n• Assunção: Maria foi elevada ao Céu em corpo e alma",
+    "• Divine Motherhood: Mary is truly Mother of God\n• Perpetual Virginity: Mary was virgin before, during and after childbirth\n• Immaculate Conception: Mary was preserved from original sin\n• Assumption: Mary was taken up to Heaven in body and soul",
     y, 10
   );
   y += 10;
   
-  y = addSubtitle("O Santo Rosário", y);
+  y = addSubtitle("The Holy Rosary", y);
   y = addParagraph(
-    "O Rosário é a oração mais recomendada pela Igreja para honrar Nossa Senhora. São Pio de Pietrelcina dizia: \"O Rosário é a arma destes tempos\". Ele consiste na meditação dos mistérios da vida de Cristo e de Maria.",
+    "The Rosary is the prayer most recommended by the Church to honor Our Lady. St. Pio of Pietrelcina said: \"The Rosary is the weapon of these times.\" It consists of meditation on the mysteries of the life of Christ and Mary.",
     y
   );
   y += 8;
   
   y = addParagraph(
-    "MISTÉRIOS GOZOSOS (segunda e sábado):\n1. Anunciação do Anjo a Maria\n2. Visitação de Maria a Isabel\n3. Nascimento de Jesus\n4. Apresentação de Jesus no Templo\n5. Encontro de Jesus no Templo",
+    "JOYFUL MYSTERIES (Monday and Saturday):\n1. The Annunciation\n2. The Visitation\n3. The Nativity\n4. The Presentation\n5. Finding in the Temple",
     y, 10
   );
   y += 8;
   
   y = addParagraph(
-    "MISTÉRIOS DOLOROSOS (terça e sexta):\n1. Agonia de Jesus no Horto\n2. Flagelação de Jesus\n3. Coroação de Espinhos\n4. Jesus carrega a Cruz\n5. Crucificação e Morte de Jesus",
+    "SORROWFUL MYSTERIES (Tuesday and Friday):\n1. The Agony in the Garden\n2. The Scourging at the Pillar\n3. The Crowning with Thorns\n4. The Carrying of the Cross\n5. The Crucifixion",
     y, 10
   );
   y += 8;
   
   y = addParagraph(
-    "MISTÉRIOS GLORIOSOS (quarta e domingo):\n1. Ressurreição de Jesus\n2. Ascensão de Jesus ao Céu\n3. Vinda do Espírito Santo\n4. Assunção de Nossa Senhora\n5. Coroação de Maria como Rainha",
+    "GLORIOUS MYSTERIES (Wednesday and Sunday):\n1. The Resurrection\n2. The Ascension\n3. The Descent of the Holy Spirit\n4. The Assumption of Mary\n5. The Coronation of Mary",
     y, 10
   );
   y += 8;
   
   y = addParagraph(
-    "MISTÉRIOS LUMINOSOS (quinta):\n1. Batismo de Jesus no Jordão\n2. Bodas de Caná\n3. Anúncio do Reino de Deus\n4. Transfiguração de Jesus\n5. Instituição da Eucaristia",
+    "LUMINOUS MYSTERIES (Thursday):\n1. The Baptism in the Jordan\n2. The Wedding at Cana\n3. The Proclamation of the Kingdom\n4. The Transfiguration\n5. The Institution of the Eucharist",
     y, 10
   );
   
@@ -326,52 +326,52 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(5);
 
   // ===============================
-  // PÁGINA 6 - A SANTA MISSA
+  // PAGE 6 - HOLY MASS
   // ===============================
   doc.addPage();
-  addTitle("A Santa Missa: Fonte e Cume", 30);
+  addTitle("Holy Mass: Source and Summit", 30);
   
   y = 45;
   y = addParagraph(
-    "A Santa Missa é a renovação incruenta do Sacrifício de Cristo no Calvário. Nela, Jesus se oferece ao Pai pelas mãos do sacerdote para nossa salvação. O Concílio Vaticano II ensina que a Eucaristia é \"fonte e cume de toda a vida cristã\" (Lumen Gentium, 11).",
+    "Holy Mass is the unbloody renewal of Christ's Sacrifice on Calvary. In it, Jesus offers himself to the Father through the hands of the priest for our salvation. The Second Vatican Council teaches that the Eucharist is \"source and summit of all Christian life\" (Lumen Gentium, 11).",
     y
   );
   y += 10;
   
-  y = addSubtitle("Estrutura da Missa", y);
+  y = addSubtitle("Structure of the Mass", y);
   y = addParagraph(
-    "RITOS INICIAIS:\n• Entrada e Saudação\n• Ato Penitencial (Confiteor)\n• Glória (domingos e festas)\n• Oração Coleta",
+    "INTRODUCTORY RITES:\n• Entrance and Greeting\n• Penitential Act\n• Gloria (Sundays and feasts)\n• Collect Prayer",
     y, 10
   );
   y += 8;
   
   y = addParagraph(
-    "LITURGIA DA PALAVRA:\n• Primeira Leitura (Antigo Testamento)\n• Salmo Responsorial\n• Segunda Leitura (Epístolas)\n• Aclamação ao Evangelho (Aleluia)\n• Evangelho\n• Homilia\n• Profissão de Fé (Credo)\n• Oração dos Fiéis",
+    "LITURGY OF THE WORD:\n• First Reading (Old Testament)\n• Responsorial Psalm\n• Second Reading (Epistles)\n• Gospel Acclamation (Alleluia)\n• Gospel\n• Homily\n• Profession of Faith (Creed)\n• Prayer of the Faithful",
     y, 10
   );
   y += 8;
   
   y = addParagraph(
-    "LITURGIA EUCARÍSTICA:\n• Ofertório (apresentação dos dons)\n• Oração sobre as Oferendas\n• Prefácio e Santo\n• Oração Eucarística (Consagração)\n• Pai-Nosso\n• Rito da Paz\n• Fração do Pão (Cordeiro de Deus)\n• Comunhão",
+    "LITURGY OF THE EUCHARIST:\n• Offertory (presentation of gifts)\n• Prayer over the Offerings\n• Preface and Holy\n• Eucharistic Prayer (Consecration)\n• Our Father\n• Sign of Peace\n• Breaking of Bread (Lamb of God)\n• Communion",
     y, 10
   );
   y += 8;
   
   y = addParagraph(
-    "RITOS FINAIS:\n• Avisos\n• Bênção Final\n• Despedida",
+    "CONCLUDING RITES:\n• Announcements\n• Final Blessing\n• Dismissal",
     y, 10
   );
   y += 10;
   
-  y = addSubtitle("Disposições para a Comunhão", y);
+  y = addSubtitle("Dispositions for Communion", y);
   y = addParagraph(
-    "Para comungar dignamente é preciso:\n• Estar em estado de graça (sem pecado mortal)\n• Observar o jejum eucarístico de 1 hora\n• Ter reta intenção e devoção",
+    "To receive Communion worthily one must:\n• Be in a state of grace (without mortal sin)\n• Observe the Eucharistic fast of 1 hour\n• Have right intention and devotion",
     y, 10
   );
   y += 8;
   
   y = addParagraph(
-    "São Pio de Pietrelcina afirmava: \"Seria mais fácil a terra existir sem o sol do que sem a Santa Missa\". Não deixe de participar ao menos todo domingo e dias santos de guarda.",
+    "St. Pio of Pietrelcina stated: \"It would be easier for the earth to exist without the sun than without Holy Mass.\" Do not fail to participate at least every Sunday and holy days of obligation.",
     y
   );
   
@@ -379,59 +379,59 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(6);
 
   // ===============================
-  // PÁGINA 7 - CONFISSÃO
+  // PAGE 7 - CONFESSION
   // ===============================
   doc.addPage();
-  addTitle("O Sacramento da Confissão", 30);
+  addTitle("The Sacrament of Confession", 30);
   
   y = 45;
   y = addParagraph(
-    "\"Recebei o Espírito Santo. A quem perdoardes os pecados, serão perdoados\" (Jo 20,22-23). Jesus instituiu o Sacramento da Confissão para que, mesmo após o Batismo, possamos obter o perdão dos pecados cometidos.",
+    "\"Receive the Holy Spirit. Whose sins you forgive are forgiven\" (Jn 20:22-23). Jesus instituted the Sacrament of Confession so that, even after Baptism, we can obtain forgiveness of sins committed.",
     y
   );
   y += 10;
   
-  y = addSubtitle("Como fazer uma boa Confissão", y);
+  y = addSubtitle("How to make a good Confession", y);
   y = addParagraph(
-    "1. EXAME DE CONSCIÊNCIA: Antes da confissão, examine sua consciência à luz dos Dez Mandamentos e dos preceitos da Igreja. Peça ao Espírito Santo que ilumine sua memória.",
+    "1. EXAMINATION OF CONSCIENCE: Before confession, examine your conscience in light of the Ten Commandments and the precepts of the Church. Ask the Holy Spirit to enlighten your memory.",
     y, 10
   );
   y += 6;
   
   y = addParagraph(
-    "2. ARREPENDIMENTO: Tenha dor sincera pelos pecados cometidos, não apenas por medo do castigo, mas por ter ofendido a Deus que é infinitamente bom.",
+    "2. CONTRITION: Have sincere sorrow for sins committed, not only for fear of punishment, but for having offended God who is infinitely good.",
     y, 10
   );
   y += 6;
   
   y = addParagraph(
-    "3. PROPÓSITO DE EMENDA: Tenha firme intenção de não mais pecar e de evitar as ocasiões de pecado.",
+    "3. FIRM PURPOSE OF AMENDMENT: Have firm intention to sin no more and to avoid occasions of sin.",
     y, 10
   );
   y += 6;
   
   y = addParagraph(
-    "4. CONFISSÃO: Declare todos os pecados mortais ao sacerdote, em número, espécie e circunstâncias que mudem a natureza do pecado.",
+    "4. CONFESSION: Declare all mortal sins to the priest, in number, kind and circumstances that change the nature of the sin.",
     y, 10
   );
   y += 6;
   
   y = addParagraph(
-    "5. PENITÊNCIA: Cumpra a penitência dada pelo confessor como reparação pelos pecados.",
+    "5. PENANCE: Fulfill the penance given by the confessor as reparation for sins.",
     y, 10
   );
   y += 10;
   
-  y = addSubtitle("Ato de Contrição", y);
+  y = addSubtitle("Act of Contrition", y);
   y = addParagraph(
-    "Meu Deus, eu me arrependo de todo o coração de Vos ter ofendido, porque sois infinitamente bom e amável, e o pecado Vos desagrada. Proponho firmemente, com o auxílio da Vossa graça, fazer penitência, não mais pecar e evitar as ocasiões de pecado. Amém.",
+    "O my God, I am heartily sorry for having offended You, because You are infinitely good and lovable, and sin displeases You. I firmly resolve, with the help of Your grace, to do penance, to sin no more, and to avoid the occasions of sin. Amen.",
     y
   );
   y += 10;
   
-  y = addSubtitle("Os Dez Mandamentos", y);
+  y = addSubtitle("The Ten Commandments", y);
   y = addParagraph(
-    "1º Amar a Deus sobre todas as coisas\n2º Não tomar Seu santo Nome em vão\n3º Guardar domingos e festas de guarda\n4º Honrar pai e mãe\n5º Não matar\n6º Não pecar contra a castidade\n7º Não furtar\n8º Não levantar falso testemunho\n9º Não desejar a mulher do próximo\n10º Não cobiçar as coisas alheias",
+    "1. I am the Lord your God: you shall not have strange gods before me\n2. You shall not take the name of the Lord your God in vain\n3. Remember to keep holy the Lord's Day\n4. Honor your father and your mother\n5. You shall not kill\n6. You shall not commit adultery\n7. You shall not steal\n8. You shall not bear false witness\n9. You shall not covet your neighbor's wife\n10. You shall not covet your neighbor's goods",
     y, 10
   );
   
@@ -439,42 +439,42 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(7);
 
   // ===============================
-  // PÁGINA 8 - VIDA DE ORAÇÃO
+  // PAGE 8 - PRAYER LIFE
   // ===============================
   doc.addPage();
-  addTitle("Vida de Oração", 30);
+  addTitle("Life of Prayer", 30);
   
   y = 45;
   y = addParagraph(
-    "\"Orai sem cessar\" (1Ts 5,17). A oração é o respirar da alma cristã. Sem oração, a vida espiritual definha. Santa Teresa de Ávila ensinava que \"a oração é um trato de amizade com Deus\".",
+    "\"Pray without ceasing\" (1 Thess 5:17). Prayer is the breathing of the Christian soul. Without prayer, spiritual life withers. St. Teresa of Avila taught that \"prayer is a relationship of friendship with God.\"",
     y
   );
   y += 10;
   
-  y = addSubtitle("Oração da Manhã", y);
+  y = addSubtitle("Morning Prayer", y);
   y = addParagraph(
-    "Meu Deus, eu Vos adoro e Vos amo de todo o meu coração. Agradeço-Vos por me terdes criado, feito cristão e conservado nesta noite. Ofereço-Vos as ações do dia de hoje; fazei que sejam todas segundo a Vossa santa vontade e para maior glória Vossa. Preservai-me do pecado e de todo o mal. A Vossa graça esteja sempre comigo e com todos os meus. Amém.",
+    "My God, I adore You and love You with all my heart. I thank You for having created me, made me a Christian and preserved me this night. I offer You the actions of this day; grant that they may all be according to Your holy will and for Your greater glory. Preserve me from sin and all evil. May Your grace be always with me and with all my loved ones. Amen.",
     y
   );
   y += 10;
   
-  y = addSubtitle("Oração da Noite", y);
+  y = addSubtitle("Evening Prayer", y);
   y = addParagraph(
-    "Meu Deus, eu Vos agradeço por todos os benefícios que de Vós recebi hoje. Peço-Vos perdão pelos pecados que neste dia cometi. Guardai-me durante esta noite e preservai-me de todo o mal. Maria, minha Mãe, amparai-me. Santo Anjo do Senhor, meu zeloso guardador, velai por mim. Amém.",
+    "My God, I thank You for all the benefits I have received from You today. I ask Your forgiveness for the sins I have committed this day. Watch over me during this night and preserve me from all evil. Mary, my Mother, protect me. Holy Angel of the Lord, my zealous guardian, watch over me. Amen.",
     y
   );
   y += 10;
   
-  y = addSubtitle("O Ângelus", y);
+  y = addSubtitle("The Angelus", y);
   y = addParagraph(
-    "V. O Anjo do Senhor anunciou a Maria.\nR. E Ela concebeu do Espírito Santo. (Ave-Maria)\n\nV. Eis aqui a serva do Senhor.\nR. Faça-se em mim segundo a Vossa palavra. (Ave-Maria)\n\nV. E o Verbo Se fez carne.\nR. E habitou entre nós. (Ave-Maria)\n\nV. Rogai por nós, Santa Mãe de Deus.\nR. Para que sejamos dignos das promessas de Cristo.\n\nOREMOS: Infundi, Senhor, a Vossa graça em nossas almas, para que nós, que pelo anúncio do Anjo conhecemos a Encarnação de Cristo, Vosso Filho, por Sua Paixão e Cruz sejamos levados à glória da ressurreição. Por Cristo, Senhor nosso. Amém.",
+    "V. The Angel of the Lord declared unto Mary.\nR. And she conceived of the Holy Spirit. (Hail Mary)\n\nV. Behold the handmaid of the Lord.\nR. Be it done unto me according to thy word. (Hail Mary)\n\nV. And the Word was made Flesh.\nR. And dwelt among us. (Hail Mary)\n\nV. Pray for us, O holy Mother of God.\nR. That we may be made worthy of the promises of Christ.\n\nLet us pray: Pour forth, we beseech You, O Lord, Your grace into our hearts, that we to whom the Incarnation of Christ Your Son was made known by the message of an angel, may by His Passion and Cross be brought to the glory of His Resurrection. Through the same Christ our Lord. Amen.",
     y, 10
   );
   y += 10;
   
-  y = addSubtitle("Oração a São Miguel Arcanjo", y);
+  y = addSubtitle("Prayer to St. Michael the Archangel", y);
   y = addParagraph(
-    "São Miguel Arcanjo, defendei-nos no combate, sede nosso refúgio contra a maldade e as ciladas do demônio. Ordene-lhe Deus, instantemente o pedimos, e vós, Príncipe da milícia celeste, pelo poder divino, precipitai no inferno a Satanás e aos outros espíritos malignos que andam pelo mundo para perder as almas. Amém.",
+    "St. Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray, and do thou, O Prince of the heavenly hosts, by the power of God, thrust into hell Satan and all the evil spirits who prowl about the world seeking the ruin of souls. Amen.",
     y, 10
   );
   
@@ -482,49 +482,49 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(8);
 
   // ===============================
-  // PÁGINA 9 - OS SANTOS E A COMUNHÃO DOS SANTOS
+  // PAGE 9 - SAINTS AND INTERCESSION
   // ===============================
   doc.addPage();
-  addTitle("Os Santos e a Intercessão", 30);
+  addTitle("The Saints and Intercession", 30);
   
   y = 45;
   y = addParagraph(
-    "A Igreja é composta por três partes: a Igreja Militante (nós, na terra), a Igreja Padecente (as almas do Purgatório) e a Igreja Triunfante (os Santos no Céu). Estamos todos unidos no Corpo Místico de Cristo.",
+    "The Church is composed of three parts: the Church Militant (us, on earth), the Church Suffering (the souls in Purgatory) and the Church Triumphant (the Saints in Heaven). We are all united in the Mystical Body of Christ.",
     y
   );
   y += 10;
   
-  y = addSubtitle("Por que rezar aos Santos?", y);
+  y = addSubtitle("Why pray to the Saints?", y);
   y = addParagraph(
-    "Os Santos, por estarem diante de Deus, podem interceder por nós. Como o livro do Apocalipse mostra, eles apresentam nossas orações a Deus (Ap 5,8). Não adoramos os Santos - a adoração é devida somente a Deus - mas os veneramos e pedimos sua intercessão.",
+    "The Saints, being before God, can intercede for us. As the book of Revelation shows, they present our prayers to God (Rev 5:8). We do not worship the Saints - worship is due to God alone - but we venerate them and ask for their intercession.",
     y
   );
   y += 10;
   
-  y = addSubtitle("Alguns Santos Intercessores", y);
+  y = addSubtitle("Some Intercessor Saints", y);
   y = addParagraph(
-    "• São José: Patrono da Igreja Universal, das famílias e do trabalho\n• Santo Antônio: Causas impossíveis e objetos perdidos\n• Santa Rita: Causas impossíveis\n• São Judas Tadeu: Causas desesperadas\n• Santa Teresinha: Missionários e doentes\n• Padre Pio: Cura e conversão\n• São Francisco de Assis: Ecologia e animais",
+    "• St. Joseph: Patron of the Universal Church, families and workers\n• St. Anthony: Impossible causes and lost objects\n• St. Rita: Impossible causes\n• St. Jude Thaddeus: Desperate causes\n• St. Therese: Missionaries and the sick\n• Padre Pio: Healing and conversion\n• St. Francis of Assisi: Ecology and animals",
     y, 10
   );
   y += 10;
   
-  y = addSubtitle("Oração a São José", y);
+  y = addSubtitle("Prayer to St. Joseph", y);
   y = addParagraph(
-    "A vós, São José, recorremos na nossa tribulação e, depois de implorar o auxílio de vossa Santíssima Esposa, cheios de confiança solicitamos também o vosso patrocínio. Por esse laço sagrado de caridade que vos uniu à Virgem Imaculada Mãe de Deus, e pelo paternal amor que tivestes ao Menino Jesus, ardentemente vos suplicamos que lanceis um olhar benigno à herança que Jesus Cristo conquistou com o Seu Sangue, e nos socorrais em nossas necessidades com o vosso poder e auxílio.",
+    "To you, St. Joseph, we come in our tribulation, and having implored the help of your most holy Spouse, we confidently invoke your patronage also. Through that sacred bond of charity which united you to the Immaculate Virgin Mother of God and through the paternal love with which you embraced the Child Jesus, we humbly beg you to look graciously upon the inheritance which Jesus Christ has purchased by his Blood, and with your power and strength to aid us in our necessities.",
     y, 10
   );
   y += 10;
   
-  y = addSubtitle("Oração ao Anjo da Guarda", y);
+  y = addSubtitle("Prayer to the Guardian Angel", y);
   y = addParagraph(
-    "Santo Anjo do Senhor, meu zeloso guardador, se a ti me confiou a piedade divina, sempre me rege, guarda, governa e ilumina. Amém.",
+    "Angel of God, my guardian dear, to whom God's love commits me here, ever this day be at my side, to light and guard, to rule and guide. Amen.",
     y
   );
   y += 10;
   
-  y = addSubtitle("Oração pelas Almas do Purgatório", y);
+  y = addSubtitle("Prayer for the Souls in Purgatory", y);
   y = addParagraph(
-    "Senhor, dai-lhes o eterno descanso e brilhe para elas a Vossa luz. Descansem em paz. Amém.\n\nLembrai-vos de rezar pelas almas do Purgatório, especialmente por seus familiares falecidos. A caridade para com os defuntos é obra de grande mérito.",
+    "Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May they rest in peace. Amen.\n\nRemember to pray for the souls in Purgatory, especially for your deceased family members. Charity toward the deceased is a work of great merit.",
     y, 10
   );
   
@@ -532,46 +532,46 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(9);
 
   // ===============================
-  // PÁGINA 10 - CONCLUSÃO E PLANO DE VIDA
+  // PAGE 10 - CONCLUSION AND LIFE PLAN
   // ===============================
   doc.addPage();
-  addTitle("Seu Plano de Vida Espiritual", 30);
+  addTitle("Your Spiritual Life Plan", 30);
   
   y = 45;
   y = addParagraph(
-    `Querido(a) ${firstName}, ao concluir este Guia, convido você a estabelecer um plano de vida espiritual. A vida cristã não é improviso - requer dedicação e constância. Como dizia São Josemaría Escrivá: "Santidade é fazer bem as coisas de cada dia".`,
+    `Dear ${firstName}, as you conclude this Guide, I invite you to establish a spiritual life plan. Christian life is not improvised - it requires dedication and constancy. As St. Josemaria Escriva said: "Holiness is doing the things of each day well".`,
     y
   );
   y += 10;
   
-  y = addSubtitle("Proposta de Rotina Diária", y);
+  y = addSubtitle("Daily Routine Proposal", y);
   y = addParagraph(
-    "MANHÃ:\n• Ao acordar: Sinal da Cruz e oferecimento do dia\n• Oração da manhã (5-10 minutos)\n• Leitura espiritual ou Evangelho do dia\n\nAO LONGO DO DIA:\n• Ângelus (6h, 12h, 18h) ou pelo menos ao meio-dia\n• Jaculatórias (pequenas orações ao longo do dia)\n• Exame de consciência rápido antes do almoço\n\nNOITE:\n• Terço (20 minutos)\n• Exame de consciência\n• Oração da noite e Salve-Rainha",
+    "MORNING:\n• Upon waking: Sign of the Cross and offering of the day\n• Morning prayer (5-10 minutes)\n• Spiritual reading or Gospel of the day\n\nTHROUGHOUT THE DAY:\n• Angelus (6am, 12pm, 6pm) or at least at noon\n• Ejaculations (short prayers throughout the day)\n• Quick examination of conscience before lunch\n\nEVENING:\n• Rosary (20 minutes)\n• Examination of conscience\n• Evening prayer and Hail Holy Queen",
     y, 10
   );
   y += 10;
   
-  y = addSubtitle("Proposta Semanal", y);
+  y = addSubtitle("Weekly Proposal", y);
   y = addParagraph(
-    "• Domingo: Santa Missa (obrigatória)\n• Ao menos uma Missa durante a semana\n• Confissão: no mínimo mensal, idealmente quinzenal\n• Adoração ao Santíssimo: ao menos 1 hora por semana\n• Leitura espiritual: um livro por mês",
+    "• Sunday: Holy Mass (obligatory)\n• At least one Mass during the week\n• Confession: at least monthly, ideally biweekly\n• Adoration of the Blessed Sacrament: at least 1 hour per week\n• Spiritual reading: one book per month",
     y, 10
   );
   y += 10;
   
-  y = addSubtitle("Compromisso Pessoal", y);
+  y = addSubtitle("Personal Commitment", y);
   y = addParagraph(
-    `Eu, ${userName}, comprometo-me a:\n\n1. Participar da Santa Missa todo domingo\n2. Confessar-me ao menos uma vez por mês\n3. Rezar o Terço diariamente\n4. Fazer exame de consciência toda noite\n5. Crescer no conhecimento da fé católica`,
+    `I, ${userName}, commit myself to:\n\n1. Participate in Holy Mass every Sunday\n2. Go to Confession at least once a month\n3. Pray the Rosary daily\n4. Make an examination of conscience every night\n5. Grow in knowledge of the Catholic faith`,
     y, 10
   );
   y += 10;
   
-  // Citação final
+  // Final quote
   doc.setFillColor(12, 75, 148);
   doc.rect(margin, y, contentWidth, 35, "F");
   doc.setTextColor(255, 255, 255);
   doc.setFont("helvetica", "italic");
   doc.setFontSize(11);
-  const finalQuote = "\"Não tenhais medo! Abri, escancarai as portas a Cristo!\" — São João Paulo II";
+  const finalQuote = "\"Do not be afraid! Open wide the doors to Christ!\" — St. John Paul II";
   const quoteLines = doc.splitTextToSize(finalQuote, contentWidth - 10);
   doc.text(quoteLines, margin + 5, y + 15);
   
@@ -581,6 +581,6 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addFooter();
   addPageNumber(10);
 
-  // Salvar o PDF
-  doc.save("Guia-da-Vida-Catolica.pdf");
+  // Save the PDF
+  doc.save("Catholic-Life-Guide.pdf");
 };

@@ -11,7 +11,7 @@ export default function WhatIsPurgatory() {
         <>
             <Helmet>
                 <title>What is Purgatory? Truths of Faith | Good Catholic</title>
-                <link rel="canonical" href="https://goodcatholic.com/blog/what-is-purgatory" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/what-is-purgatory/" />
             </Helmet>
             <div className="min-h-screen bg-background">
                 <header className="bg-primary text-button-text py-4">

@@ -11,7 +11,7 @@ export default function HowToLiveLent() {
         <>
             <Helmet>
                 <title>How to Live Lent with Spiritual Fruits | Good Catholic</title>
-                <link rel="canonical" href="https://goodcatholic.com/blog/how-to-live-lent" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/how-to-live-lent/" />
             </Helmet>
             <div className="min-h-screen bg-background">
                 <header className="bg-primary text-button-text py-4">

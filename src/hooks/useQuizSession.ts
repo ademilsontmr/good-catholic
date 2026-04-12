@@ -83,7 +83,7 @@ export function useQuizSession() {
       }
     } catch (err) {
       console.error("Error loading session:", err);
-      setError("Erro ao carregar sessão");
+      setError("Error loading session");
     } finally {
       setLoading(false);
     }
@@ -107,7 +107,7 @@ export function useQuizSession() {
       return newSession;
     } catch (err) {
       console.error("Error creating session:", err);
-      setError("Erro ao criar sessão");
+      setError("Error creating session");
       return null;
     } finally {
       setLoading(false);

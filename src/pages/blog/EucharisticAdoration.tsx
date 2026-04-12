@@ -12,7 +12,7 @@ export default function EucharisticAdoration() {
             <Helmet>
                 <title>The Importance of Eucharistic Adoration | Good Catholic</title>
                 <meta name="description" content="Discover the spiritual benefits of spending time before the Blessed Sacrament. A guide on how to make a good holy hour." />
-                <link rel="canonical" href="https://goodcatholic.com/blog/eucharistic-adoration" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/eucharistic-adoration/" />
             </Helmet>
             <div className="min-h-screen bg-background">
                 <header className="bg-primary text-button-text py-4">

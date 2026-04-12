@@ -13,7 +13,7 @@ export default function SevenSacraments() {
         <title>The 7 Sacraments of the Catholic Church Explained | Good Catholic</title>
         <meta name="description" content="Understand the importance and meaning of each of the seven sacraments instituted by Christ: Baptism, Eucharist, Confirmation, Confession, Anointing, Holy Orders, and Matrimony." />
         <meta name="keywords" content="what are the 7 sacraments, seven sacraments of the catholic church, baptism eucharist confirmation confession, sacraments explained, what are sacraments" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/seven-sacraments" />
+        <link rel="canonical" href="https://goodcatholic.com/blog/seven-sacraments/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

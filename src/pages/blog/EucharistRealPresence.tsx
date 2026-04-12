@@ -13,7 +13,7 @@ export default function EucharistRealPresence() {
                 <title>The Eucharist: Real Presence of Jesus in Bread and Wine | Good Catholic</title>
                 <meta name="description" content="Understand the dogma of Transubstantiation and the importance of the Eucharist as source and summit of Christian life. Discover why Jesus is truly present in the Holy Host." />
                 <meta name="keywords" content="real presence of jesus in eucharist, what is transubstantiation, body and blood of christ, host is jesus, blessed sacrament, catholic communion" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/eucharist-real-presence" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/eucharist-real-presence/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

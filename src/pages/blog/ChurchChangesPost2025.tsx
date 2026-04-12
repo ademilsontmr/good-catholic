@@ -13,7 +13,7 @@ export default function ChurchChangesPost2025() {
                 <title>What Changes in the Church After the Holy Year of 2025? | Good Catholic</title>
                 <meta name="description" content="Analysis of perspectives and changes in the Catholic Church for 2026 after the closing of the Jubilee. What to expect from the pontificate and dioceses." />
                 <meta name="keywords" content="Catholic church 2026, changes in church, pope francis, synodality, future of Catholic church, synod, laudato si, fratelli tutti, new bishops, digital Catholic evangelization" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/church-changes-post-2025" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/church-changes-post-2025/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

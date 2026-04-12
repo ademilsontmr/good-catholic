@@ -13,7 +13,7 @@ export default function VocationalDiscernment() {
                 <title>How to Discern God's Will in Your Life | Good Catholic</title>
                 <meta name="description" content="Learn the principles of spiritual discernment to discover God's plan for you. Practical tips for making decisions in the light of faith." />
                 <meta name="keywords" content="how to know my vocation, catholic vocational discernment, god's will for my life, how to discern, priestly religious matrimonial vocation" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/vocational-discernment" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/vocational-discernment/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

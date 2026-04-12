@@ -394,6 +394,7 @@ export default function BlogPage() {
       <Helmet>
         <title>Blog - Good Catholic</title>
         <meta name="description" content="Explore articles about Catholic faith, spirituality, sacraments, and Christian living." />
+        <link rel="canonical" href={`https://goodcatholic.com/blog/page/${currentPage}/`} />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -427,10 +428,10 @@ export default function BlogPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">
-                Catholic Faith Blog
+                Good Catholic Blog
               </h1>
               <p className="text-xl text-text-muted max-w-2xl mx-auto">
-                Deepen your understanding of the Catholic faith with articles on spirituality, sacraments, and Christian living.
+                Articles, reflections and teachings to strengthen your faith and deepen your knowledge of Catholic doctrine.
               </p>
             </div>
 
@@ -450,29 +451,29 @@ export default function BlogPage() {
               ))}
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
               {currentPosts.map((post) => {
                 const Icon = post.icon;
                 return (
                   <Link
                     key={post.id}
-                    to={`/blog/${post.slug}`}
-                    className="group bg-surface rounded-2xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-lg"
+                    to={`/blog/${post.slug}/`}
+                    className="group bg-surface rounded-3xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-xl"
                   >
-                    <div className={`${post.bgColor} p-8 flex items-center justify-center`}>
-                      <Icon className={`w-16 h-16 ${post.iconColor}`} strokeWidth={1.5} />
+                    <div className={`${post.bgColor} p-16 flex items-center justify-center`}>
+                      <Icon className={`w-20 h-20 ${post.iconColor}`} strokeWidth={1.5} />
                     </div>
-                    <div className="p-6">
-                      <div className="flex items-center gap-4 text-xs text-text-muted mb-3">
-                        <span className="bg-accent/10 text-accent px-2 py-1 rounded-full">
+                    <div className="p-8">
+                      <div className="flex items-center gap-4 text-xs text-text-muted mb-4">
+                        <span className="text-accent font-medium">
                           {post.category}
                         </span>
                         <span className="flex items-center gap-1">
                           <Calendar className="w-3 h-3" />
                           {new Date(post.date).toLocaleDateString('en-US', { 
-                            month: 'short', 
-                            day: 'numeric', 
-                            year: 'numeric' 
+                            day: 'numeric',
+                            month: 'short',
+                            year: 'numeric'
                           })}
                         </span>
                         <span className="flex items-center gap-1">
@@ -480,18 +481,12 @@ export default function BlogPage() {
                           {post.readTime}
                         </span>
                       </div>
-                      <h3 className="font-display text-xl font-bold text-text mb-2 group-hover:text-accent transition-colors">
+                      <h3 className="font-display text-xl font-bold text-text mb-3 group-hover:text-accent transition-colors leading-tight">
                         {post.title}
                       </h3>
-                      <p className="text-text-muted text-sm line-clamp-3 mb-4">
+                      <p className="text-text-muted text-sm leading-relaxed line-clamp-3">
                         {post.excerpt}
                       </p>
-                      <span className="text-accent text-sm font-medium inline-flex items-center gap-1">
-                        Read More
-                        <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                        </svg>
-                      </span>
                     </div>
                   </Link>
                 );

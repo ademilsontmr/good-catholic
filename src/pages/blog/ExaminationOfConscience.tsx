@@ -13,7 +13,7 @@ export default function ExaminationOfConscience() {
                 <title>How to Make a Good Examination of Conscience for Confession | Good Catholic</title>
                 <meta name="description" content="Practical guide to perform a deep and sincere examination of conscience. Prepare for the sacrament of Reconciliation with this spiritual roadmap." />
                 <meta name="keywords" content="complete examination of conscience, how to examine conscience, list of sins for confession, preparation for confession, mortal and venial sins" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/examination-conscience" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/examination-conscience/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

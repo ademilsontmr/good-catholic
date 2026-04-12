@@ -13,7 +13,7 @@ export default function LectioDivina() {
                 <title>A Importância da Leitura Orante da Bíblia (Lectio Divina) | Bom Católico</title>
                 <meta name="description" content="Aprenda a praticar a Lectio Divina, o método milenar de leitura orante da Bíblia. Transforme sua leitura das Escrituras em um encontro pessoal com Deus." />
                 <meta name="keywords" content="o que é lectio divina, como fazer lectio divina, leitura orante da bíblia, meditação bíblica católica, oração com a palavra de deus" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/lectio-divina" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/lectio-divina/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

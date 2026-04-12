@@ -13,7 +13,7 @@ export default function ImportanceOfConfession() {
         <title>The Importance of Confession: Why Confess Regularly? | Good Catholic</title>
         <meta name="description" content="Discover the spiritual benefits of frequent confession. Learn how to confess well and why this sacrament transforms our Christian life." />
         <meta name="keywords" content="why confess to a priest, importance of confession, frequent confession, benefits of confession, how to make a good confession, examination of conscience" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/importance-confession" />
+        <link rel="canonical" href="https://goodcatholic.com/blog/importance-confession/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

@@ -13,7 +13,7 @@ export default function SocialDoctrine() {
                 <title>The Social Doctrine of the Church: The Catholic View on Society | Good Catholic</title>
                 <meta name="description" content="Learn the fundamental principles of the Church's Social Doctrine. Understand how Catholic faith proposes solutions to social, political, and economic challenges." />
                 <meta name="keywords" content="what is church social doctrine, social doctrine principles, common good, solidarity, subsidiarity, human dignity, church and politics" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/social-doctrine" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/social-doctrine/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

@@ -184,39 +184,39 @@ const App = () => (
             <Route path="/quiz" element={<QuizPage />} />
             <Route path="/checkout" element={<CheckoutPage />} />
             <Route path="/payment-success" element={<PaymentSuccessPage />} />
-            <Route path="/resultado" element={<ResultadoPage />} />
+            <Route path="/result" element={<ResultadoPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/page/:page" element={<BlogPage />} />
             <Route path="/termos" element={<TermsOfUse />} />
             <Route path="/privacidade" element={<PrivacyPolicy />} />
             <Route path="/contato" element={<Contact />} />
-            <Route path="/blog/how-to-pray-rosary" element={<HowToPrayRosary />} />
-            <Route path="/blog/seven-sacraments" element={<SevenSacraments />} />
-            <Route path="/blog/importance-confession" element={<ImportanceOfConfession />} />
-            <Route path="/blog/patron-saints" element={<PatronSaints />} />
-            <Route path="/blog/fasting-abstinence" element={<FastingAndAbstinence />} />
-            <Route path="/blog/sunday-mass" element={<SundayMass />} />
-            <Route path="/blog/prayer-life" element={<PrayerLife />} />
-            <Route path="/blog/meaning-mass" element={<MeaningOfMass />} />
-            <Route path="/blog/examination-conscience" element={<ExaminationOfConscience />} />
-            <Route path="/blog/virgin-mary" element={<VirginMary />} />
-            <Route path="/blog/gifts-holy-spirit" element={<GiftsOfHolySpirit />} />
-            <Route path="/blog/lectio-divina" element={<LectioDivina />} />
-            <Route path="/blog/chastity-modern-world" element={<ChastityModernWorld />} />
-            <Route path="/blog/social-doctrine" element={<SocialDoctrine />} />
-            <Route path="/blog/vocational-discernment" element={<VocationalDiscernment />} />
-            <Route path="/blog/eucharist-real-presence" element={<EucharistRealPresence />} />
-            <Route path="/blog/eucharistic-adoration" element={<EucharisticAdoration />} />
-            <Route path="/blog/what-is-purgatory" element={<WhatIsPurgatory />} />
-            <Route path="/blog/how-to-live-lent" element={<HowToLiveLent />} />
-            <Route path="/blog/guardian-angels" element={<GuardianAngels />} />
-            <Route path="/blog/meaning-of-crucifix" element={<MeaningOfCrucifix />} />
-            <Route path="/blog/jubilee-2025-legacy" element={<Jubilee2025Legacy />} />
-            <Route path="/blog/plenary-indulgence-guide" element={<PlenaryIndulgenceGuide />} />
-            <Route path="/blog/church-changes-post-2025" element={<ChurchChangesPost2025 />} />
-            <Route path="/blog/prayers-of-hope-2026" element={<PrayersOfHope2026 />} />
-            <Route path="/blog/local-pilgrimage" element={<LocalPilgrimage />} />
-            <Route path="/blog/faith-mental-health" element={<FaithMentalHealth />} />
+            <Route path="/blog/how-to-pray-rosary/" element={<HowToPrayRosary />} />
+            <Route path="/blog/seven-sacraments/" element={<SevenSacraments />} />
+            <Route path="/blog/importance-confession/" element={<ImportanceOfConfession />} />
+            <Route path="/blog/patron-saints/" element={<PatronSaints />} />
+            <Route path="/blog/fasting-abstinence/" element={<FastingAndAbstinence />} />
+            <Route path="/blog/sunday-mass/" element={<SundayMass />} />
+            <Route path="/blog/prayer-life/" element={<PrayerLife />} />
+            <Route path="/blog/meaning-mass/" element={<MeaningOfMass />} />
+            <Route path="/blog/examination-conscience/" element={<ExaminationOfConscience />} />
+            <Route path="/blog/virgin-mary/" element={<VirginMary />} />
+            <Route path="/blog/gifts-holy-spirit/" element={<GiftsOfHolySpirit />} />
+            <Route path="/blog/lectio-divina/" element={<LectioDivina />} />
+            <Route path="/blog/chastity-modern-world/" element={<ChastityModernWorld />} />
+            <Route path="/blog/social-doctrine/" element={<SocialDoctrine />} />
+            <Route path="/blog/vocational-discernment/" element={<VocationalDiscernment />} />
+            <Route path="/blog/eucharist-real-presence/" element={<EucharistRealPresence />} />
+            <Route path="/blog/eucharistic-adoration/" element={<EucharisticAdoration />} />
+            <Route path="/blog/what-is-purgatory/" element={<WhatIsPurgatory />} />
+            <Route path="/blog/how-to-live-lent/" element={<HowToLiveLent />} />
+            <Route path="/blog/guardian-angels/" element={<GuardianAngels />} />
+            <Route path="/blog/meaning-of-crucifix/" element={<MeaningOfCrucifix />} />
+            <Route path="/blog/jubilee-2025-legacy/" element={<Jubilee2025Legacy />} />
+            <Route path="/blog/plenary-indulgence-guide/" element={<PlenaryIndulgenceGuide />} />
+            <Route path="/blog/church-changes-post-2025/" element={<ChurchChangesPost2025 />} />
+            <Route path="/blog/prayers-of-hope-2026/" element={<PrayersOfHope2026 />} />
+            <Route path="/blog/local-pilgrimage/" element={<LocalPilgrimage />} />
+            <Route path="/blog/faith-mental-health/" element={<FaithMentalHealth />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

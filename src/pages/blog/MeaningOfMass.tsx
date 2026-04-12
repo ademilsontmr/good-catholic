@@ -13,7 +13,7 @@ export default function MeaningOfMass() {
                 <title>The Meaning of Holy Mass: Understanding Each Part of the Liturgy | Good Catholic</title>
                 <meta name="description" content="Learn the profound meaning of each moment of Holy Mass. A complete guide to the liturgy to participate with more awareness and devotion." />
                 <meta name="keywords" content="parts of mass explained, meaning of catholic mass, mass liturgy, what happens at mass, mass rites, how to participate in mass" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/meaning-mass" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/meaning-mass/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

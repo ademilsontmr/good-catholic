@@ -13,7 +13,7 @@ export default function PlenaryIndulgenceGuide() {
                 <title>Plenary Indulgence: Complete Guide for the Final Days of the Jubilee | Good Catholic</title>
                 <meta name="description" content="There's still time! Learn how to obtain plenary indulgence at the closing of Jubilee 2025 and understand the spiritual value of this grace." />
                 <meta name="keywords" content="what is plenary indulgence, how to gain indulgence, jubilee 2025, conditions for indulgence, indulgence for souls in purgatory, holy door, Catholic holy year, forgiveness of penalties, partial and plenary indulgence, jubilee works of mercy" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/plenary-indulgence-guide" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/plenary-indulgence-guide/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

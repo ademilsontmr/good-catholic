@@ -13,7 +13,7 @@ export default function PrayersOfHope2026() {
                 <title>Prayers of Hope for Times of Crisis in 2026 | Good Catholic</title>
                 <meta name="description" content="Find consolation and strength in traditional and contemporary Catholic prayers focused on the virtue of hope to face the challenges of 2026." />
                 <meta name="keywords" content="prayers of hope, prayer for difficult times, prayer of abandonment, psalm 23, saint teresa of avila nothing disturb you, prayer in times of crisis, how to have hope, Catholic prayer, trust in God, pope francis prayer" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/prayers-of-hope-2026" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/prayers-of-hope-2026/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

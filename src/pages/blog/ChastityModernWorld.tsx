@@ -13,7 +13,7 @@ export default function ChastityModernWorld() {
                 <title>Living Chastity in the Modern World: Challenges and Graces | Good Catholic</title>
                 <meta name="description" content="Understand the true meaning of Christian chastity and how to live it in today's world. An invitation to freedom and authentic love according to the Gospel." />
                 <meta name="keywords" content="how to live chastity, chastity in modern world, catholic sexual purity, why be chaste, chastity before marriage, true love" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/chastity-modern-world" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/chastity-modern-world/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

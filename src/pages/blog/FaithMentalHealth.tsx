@@ -13,7 +13,7 @@ export default function FaithMentalHealth() {
                 <title>Faith and Mental Health: How Catholic Spirituality Helps Overcome Anxiety? | Good Catholic</title>
                 <meta name="description" content="Discover how Catholic faith and prayer life can be powerful allies in combating anxiety and seeking emotional balance." />
                 <meta name="keywords" content="faith and anxiety, prayer for anxiety, Catholic with anxiety, spirituality and mental health, how to have inner peace, faith helps depression" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/faith-mental-health" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/faith-mental-health/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

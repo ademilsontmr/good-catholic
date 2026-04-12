@@ -13,7 +13,7 @@ export default function MeaningOfCrucifix() {
                 <title>The History and Meaning of the Crucifix | Good Catholic</title>
                 <meta name="description" content="Understand why the crucifix is the central symbol of Catholic faith. Learn about its history, symbolism, and the importance of having it in our homes." />
                 <meta name="keywords" content="meaning of crucifix, difference between cross and crucifix, why Catholics use crucifix, crucifix at home, symbol of the cross, passion of Christ, INRI meaning, Catholic cross, having crucifix in bedroom, sign of the cross" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/meaning-of-crucifix" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/meaning-of-crucifix/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

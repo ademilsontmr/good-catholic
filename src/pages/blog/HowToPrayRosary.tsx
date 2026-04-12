@@ -13,7 +13,7 @@ export default function HowToPrayRosary() {
         <title>How to Pray the Holy Rosary: Complete Guide for Beginners | Good Catholic</title>
         <meta name="description" content="Learn step by step how to pray the Holy Rosary correctly. Complete guide with mysteries, prayers and meditations to strengthen your Marian devotion." />
         <meta name="keywords" content="how to pray the rosary step by step, complete holy rosary, mysteries of the rosary, catholic rosary, rosary prayer, hail mary" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/how-to-pray-rosary" />
+        <link rel="canonical" href="https://goodcatholic.com/blog/how-to-pray-rosary/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

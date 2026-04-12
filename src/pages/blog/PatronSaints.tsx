@@ -13,7 +13,7 @@ export default function PatronSaints() {
         <title>Patron Saints: How to Choose and Honor Yours | Good Catholic</title>
         <meta name="description" content="Learn about the tradition of patron saints in the Catholic Church. Discover how to choose your patron saint and how to honor them to receive their intercession." />
         <meta name="keywords" content="how to choose patron saint, patron saints, saint protector, intercession of saints, devotion to saints, saint of my name" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/patron-saints" />
+        <link rel="canonical" href="https://goodcatholic.com/blog/patron-saints/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

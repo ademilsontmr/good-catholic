@@ -32,12 +32,21 @@ const CheckoutPage = () => {
   const score = locationState?.score ?? answers.reduce((a, b) => a + b, 0);
   const maxScore = locationState?.maxScore ?? answers.length * 3;
 
-  // Guard: redirect if no session or no answers
+  // Guard: redirect if no session or no answers (check both state and session)
   useEffect(() => {
-    if (!loading && (!sessionId || !session?.answers || session.answers.length === 0)) {
+    if (!loading && !sessionId) {
+      navigate("/quiz");
+      return;
+    }
+    
+    // Allow if we have answers in location state OR in session
+    const hasAnswers = (locationState?.answers && locationState.answers.length > 0) || 
+                       (session?.answers && session.answers.length > 0);
+    
+    if (!loading && !hasAnswers) {
       navigate("/quiz");
     }
-  }, [sessionId, session, loading, navigate]);
+  }, [sessionId, session, loading, navigate, locationState]);
 
   const handleLeadSubmit = async (data: CustomerData) => {
     setIsSubmitting(true);
@@ -88,12 +97,14 @@ const CheckoutPage = () => {
     });
   };
 
-  if (loading || !session) {
+  // Only show loading if we don't have data in location state
+  const hasDataInState = locationState?.answers && locationState.answers.length > 0;
+  if (loading && !hasDataInState) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
           <Loader2 className="w-8 h-8 animate-spin text-accent mx-auto mb-4" />
-          <p className="text-text-muted">Carregando...</p>
+          <p className="text-text-muted">Loading...</p>
         </div>
       </div>
     );
@@ -128,7 +139,7 @@ const CheckoutPage = () => {
 
         <footer className="py-6 text-center">
           <p className="text-sm text-text-muted">
-            © 2024 Bom Católico · Todos os direitos reservados
+            © 2024 Good Catholic · All rights reserved
           </p>
         </footer>
       </div>

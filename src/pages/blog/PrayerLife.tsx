@@ -13,7 +13,7 @@ export default function PrayerLife() {
         <title>The Life of Prayer: How to Cultivate Intimacy with God | Good Catholic</title>
         <meta name="description" content="Discover how to develop a deep and constant prayer life. Practical and spiritual tips to strengthen your friendship with God daily." />
         <meta name="keywords" content="how to have a prayer life, how to pray better, intimacy with god, daily catholic prayer, types of prayer, how to pray every day" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/prayer-life" />
+        <link rel="canonical" href="https://goodcatholic.com/blog/prayer-life/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

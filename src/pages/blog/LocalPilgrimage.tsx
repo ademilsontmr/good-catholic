@@ -13,7 +13,7 @@ export default function LocalPilgrimage() {
                 <title>How to Organize a Local Pilgrimage in Your Diocese | Good Catholic</title>
                 <meta name="description" content="Practical and spiritual guide to organizing pilgrimages to local shrines and jubilee churches, strengthening community faith in 2026." />
                 <meta name="keywords" content="how to organize pilgrimage, Catholic pilgrimage, shrines, religious tourism Catholic, pilgrimage, how to make pilgrimage, jubilee churches, walking pilgrimage, pilgrimage route, Marian shrines" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/local-pilgrimage" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/local-pilgrimage/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

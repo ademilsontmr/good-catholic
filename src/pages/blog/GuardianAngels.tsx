@@ -11,7 +11,7 @@ export default function GuardianAngels() {
         <>
             <Helmet>
                 <title>The Role of Guardian Angels in Our Life | Good Catholic</title>
-                <link rel="canonical" href="https://goodcatholic.com/blog/guardian-angels" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/guardian-angels/" />
             </Helmet>
             <div className="min-h-screen bg-background">
                 <header className="bg-primary text-button-text py-4">

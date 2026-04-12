@@ -13,7 +13,7 @@ export default function Jubilee2025Legacy() {
                 <title>The Legacy of Jubilee 2025: How to Continue Being a Pilgrim of Hope? | Good Catholic</title>
                 <meta name="description" content="The Holy Year of 2025 has ended, but its mission continues. Discover how to keep the flame of hope alive in your Christian life in 2026." />
                 <meta name="keywords" content="jubilee 2025 what was it, pilgrims of hope, holy year 2025, holy door, pope francis jubilee, jubilee indulgence, how to live after jubilee, fruits of holy year, Christian hope, Catholic church 2026" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/jubilee-2025-legacy" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/jubilee-2025-legacy/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

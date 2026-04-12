@@ -43,35 +43,35 @@ const getAreaScores = (answers: number[]) => {
   };
 };
 
-// Diagnóstico personalizado baseado na pontuação da área
+// Personalized diagnosis based on area score
 const getDiagnostico = (area: string, percent: number, userName: string) => {
   const firstName = userName.split(" ")[0];
   
   const diagnosticos: Record<string, { high: string; medium: string; low: string }> = {
     eucaristica: {
-      high: `${firstName}, você vive a Eucaristia como centro da sua fé! A Santa Missa é verdadeiramente a "fonte e cume" da sua vida cristã, como ensina o Concílio Vaticano II. Continue participando com essa devoção.`,
-      medium: `${firstName}, você tem uma boa participação na vida eucarística, mas há espaço para crescer. Procure chegar mais cedo para a Missa, fazer uma preparação em oração e agradecer após a comunhão.`,
-      low: `${firstName}, a Eucaristia é o maior tesouro que Jesus nos deixou. "Sem a Missa, a terra não poderia subsistir" (São Pio de Pietrelcina). Busque participar mais ativamente da Santa Missa dominical.`,
+      high: `${firstName}, you live the Eucharist as the center of your faith! Holy Mass is truly the "source and summit" of your Christian life, as taught by Vatican Council II. Continue participating with this devotion.`,
+      medium: `${firstName}, you have good participation in Eucharistic life, but there's room to grow. Try arriving earlier for Mass, preparing in prayer, and giving thanks after Communion.`,
+      low: `${firstName}, the Eucharist is the greatest treasure Jesus left us. "Without the Mass, the earth could not subsist" (St. Pio of Pietrelcina). Seek to participate more actively in Sunday Mass.`,
     },
     oracao: {
-      high: `${firstName}, você cultiva uma bela vida de oração! Como Santa Teresa de Ávila dizia: "A oração é um trato de amizade com Deus". Continue nesse diálogo constante com o Senhor.`,
-      medium: `${firstName}, sua vida de oração está em desenvolvimento. Estabeleça horários fixos para rezar e inclua o Santo Terço em sua rotina - Nossa Senhora intercederá por você.`,
-      low: `${firstName}, a oração é o respirar da alma. Comece com pequenos momentos: uma Ave-Maria ao acordar, um Pai-Nosso antes de dormir. "Rezai sem cessar" (1Ts 5,17).`,
+      high: `${firstName}, you cultivate a beautiful prayer life! As St. Teresa of Avila said: "Prayer is a relationship of friendship with God." Continue in this constant dialogue with the Lord.`,
+      medium: `${firstName}, your prayer life is developing. Establish fixed times to pray and include the Holy Rosary in your routine - Our Lady will intercede for you.`,
+      low: `${firstName}, prayer is the breathing of the soul. Start with small moments: a Hail Mary upon waking, an Our Father before sleeping. "Pray without ceasing" (1 Thess 5:17).`,
     },
     formacao: {
-      high: `${firstName}, você busca conhecer profundamente a fé! O Catecismo e os Sacramentos são pilares da sua vida espiritual. Continue estudando e vivendo os ensinamentos da Igreja.`,
-      medium: `${firstName}, você tem bom conhecimento da doutrina. Para crescer, leia o Catecismo da Igreja Católica e busque grupos de formação na sua paróquia.`,
-      low: `${firstName}, conhecer a fé é fundamental. "A fé que não é pensada não é uma fé plena" (São João Paulo II). Comece pelo Catecismo Jovem (YouCat) ou participe da catequese para adultos.`,
+      high: `${firstName}, you seek to know the faith deeply! The Catechism and the Sacraments are pillars of your spiritual life. Continue studying and living the Church's teachings.`,
+      medium: `${firstName}, you have good knowledge of doctrine. To grow, read the Catechism of the Catholic Church and seek formation groups in your parish.`,
+      low: `${firstName}, knowing the faith is fundamental. "Faith that is not thought through is not a full faith" (St. John Paul II). Start with the Youth Catechism (YouCat) or participate in adult catechesis.`,
     },
     devocoes: {
-      high: `${firstName}, suas devoções demonstram um amor profundo pela Tradição da Igreja! A devoção a Nossa Senhora e aos Santos fortalece sua caminhada de fé.`,
-      medium: `${firstName}, você tem boas práticas devocionais. Considere fazer a Consagração a Nossa Senhora e cultivar a devoção ao seu Santo padroeiro.`,
-      low: `${firstName}, as devoções são auxílios preciosos na vida espiritual. Comece rezando o Terço diariamente - "o Rosário é a arma destes tempos" (São Pio de Pietrelcina).`,
+      high: `${firstName}, your devotions demonstrate a deep love for the Church's Tradition! Devotion to Our Lady and the Saints strengthens your faith journey.`,
+      medium: `${firstName}, you have good devotional practices. Consider making the Consecration to Our Lady and cultivating devotion to your patron saint.`,
+      low: `${firstName}, devotions are precious aids in spiritual life. Start by praying the Rosary daily - "the Rosary is the weapon of these times" (St. Pio of Pietrelcina).`,
     },
     testemunho: {
-      high: `${firstName}, você é um verdadeiro apóstolo! "Ide e fazei discípulos" (Mt 28,19). Seu testemunho e generosidade edificam a Igreja. Continue sendo luz do mundo!`,
-      medium: `${firstName}, você vive valores cristãos. Busque oportunidades de servir na comunidade e partilhar sua fé com alegria e naturalidade.`,
-      low: `${firstName}, somos chamados a ser "sal da terra e luz do mundo". Comece vivendo o Evangelho em casa e no trabalho - o melhor testemunho é o exemplo de vida.`,
+      high: `${firstName}, you are a true apostle! "Go and make disciples" (Mt 28:19). Your witness and generosity build up the Church. Continue being light to the world!`,
+      medium: `${firstName}, you live Christian values. Seek opportunities to serve in the community and share your faith with joy and naturalness.`,
+      low: `${firstName}, we are called to be "salt of the earth and light of the world." Start by living the Gospel at home and at work - the best witness is the example of life.`,
     },
   };
 
@@ -80,248 +80,248 @@ const getDiagnostico = (area: string, percent: number, userName: string) => {
   return diagnosticos[area].low;
 };
 
-// Recomendações personalizadas
+// Personalized recommendations
 const getRecomendacoes = (areaScores: ReturnType<typeof getAreaScores>) => {
   const recomendacoes: string[] = [];
   
   if (areaScores.eucaristica < 60) {
-    recomendacoes.push("Participe da Santa Missa ao menos todo domingo e, se possível, durante a semana.");
-    recomendacoes.push("Faça adoração ao Santíssimo Sacramento semanalmente.");
+    recomendacoes.push("Attend Holy Mass at least every Sunday and, if possible, during the week.");
+    recomendacoes.push("Make weekly adoration of the Blessed Sacrament.");
   }
   
   if (areaScores.oracao < 60) {
-    recomendacoes.push("Estabeleça um horário fixo diário para oração pessoal (manhã ou noite).");
-    recomendacoes.push("Reze o Santo Terço diariamente, meditando os mistérios.");
+    recomendacoes.push("Establish a fixed daily time for personal prayer (morning or evening).");
+    recomendacoes.push("Pray the Holy Rosary daily, meditating on the mysteries.");
   }
   
   if (areaScores.formacao < 60) {
-    recomendacoes.push("Confesse-se ao menos mensalmente para viver em estado de graça.");
-    recomendacoes.push("Leia o Catecismo da Igreja Católica ou participe de grupos de estudo.");
+    recomendacoes.push("Go to Confession at least monthly to live in a state of grace.");
+    recomendacoes.push("Read the Catechism of the Catholic Church or participate in study groups.");
   }
   
   if (areaScores.devocoes < 60) {
-    recomendacoes.push("Faça a Consagração a Nossa Senhora (método de São Luís de Montfort).");
-    recomendacoes.push("Cultive a devoção ao seu Santo padroeiro e peça sua intercessão.");
+    recomendacoes.push("Make the Consecration to Our Lady (St. Louis de Montfort method).");
+    recomendacoes.push("Cultivate devotion to your patron saint and ask for their intercession.");
   }
   
   if (areaScores.testemunho < 60) {
-    recomendacoes.push("Contribua com o dízimo e participe de algum grupo ou pastoral.");
-    recomendacoes.push("Compartilhe sua fé com familiares e amigos através do seu testemunho.");
+    recomendacoes.push("Contribute with tithing and participate in a group or ministry.");
+    recomendacoes.push("Share your faith with family and friends through your witness.");
   }
 
   if (recomendacoes.length === 0) {
-    recomendacoes.push("Continue aprofundando sua vida de oração com a Liturgia das Horas.");
-    recomendacoes.push("Considere fazer um retiro espiritual anual para renovar sua fé.");
-    recomendacoes.push("Seja um multiplicador: ajude outros a crescerem na fé católica.");
+    recomendacoes.push("Continue deepening your prayer life with the Liturgy of the Hours.");
+    recomendacoes.push("Consider making an annual spiritual retreat to renew your faith.");
+    recomendacoes.push("Be a multiplier: help others grow in the Catholic faith.");
   }
 
   return recomendacoes.slice(0, 5);
 };
 
-// Orações sugeridas por nível
+// Suggested prayers by level
 const getOracoesSugeridas = (score: number) => {
   if (score >= 75) {
     return [
-      "Liturgia das Horas (Laudes e Vésperas)",
-      "Lectio Divina diária",
-      "Meditação dos Santos Padres",
-      "Novena ao Espírito Santo",
-      "Consagração diária a Nossa Senhora",
+      "Liturgy of the Hours (Lauds and Vespers)",
+      "Daily Lectio Divina",
+      "Meditation on the Church Fathers",
+      "Novena to the Holy Spirit",
+      "Daily Consecration to Our Lady",
     ];
   }
   if (score >= 50) {
     return [
-      "Santo Terço diário",
-      "Oração do Ângelus (6h, 12h, 18h)",
-      "Exame de Consciência noturno",
-      "Novenas aos Santos",
-      "Oração em família",
+      "Daily Holy Rosary",
+      "Angelus Prayer (6am, 12pm, 6pm)",
+      "Evening Examination of Conscience",
+      "Novenas to the Saints",
+      "Family Prayer",
     ];
   }
   return [
-    "Pai-Nosso, Ave-Maria e Glória (manhã e noite)",
-    "Oração antes das refeições",
-    "Santo Terço (ao menos aos sábados)",
-    "Visita ao Santíssimo quando passar por uma Igreja",
-    "Oração do Anjo da Guarda",
+    "Our Father, Hail Mary and Glory Be (morning and evening)",
+    "Prayer before meals",
+    "Holy Rosary (at least on Saturdays)",
+    "Visit the Blessed Sacrament when passing by a Church",
+    "Guardian Angel Prayer",
   ];
 };
 
-// Citações de Santos baseadas no nível
+// Saint quotes based on level
 const getSantoCitacao = (score: number) => {
   if (score >= 75) {
     return {
-      citacao: "Não basta ser bom, é preciso ser santo. A santidade não é luxo de poucos, é um dever de todos.",
-      santo: "São João Paulo II",
-      reflexao: "Você está no caminho da santidade! Continue perseverando."
+      citacao: "It is not enough to be good, one must be holy. Holiness is not a luxury for the few, it is a duty for all.",
+      santo: "St. John Paul II",
+      reflexao: "You are on the path to holiness! Keep persevering."
     };
   }
   if (score >= 60) {
     return {
-      citacao: "Tenha paciência com tudo, mas principalmente consigo mesmo. Não desanime ao considerar suas imperfeições.",
-      santo: "São Francisco de Sales",
-      reflexao: "Crescer na fé é um processo. Deus está trabalhando em você."
+      citacao: "Have patience with all things, but chiefly have patience with yourself. Do not lose courage in considering your own imperfections.",
+      santo: "St. Francis de Sales",
+      reflexao: "Growing in faith is a process. God is working in you."
     };
   }
   if (score >= 40) {
     return {
-      citacao: "Você não pode fazer coisas grandes, mas pode fazer coisas pequenas com grande amor.",
-      santo: "Santa Teresa de Calcutá",
-      reflexao: "Cada pequeno passo na direção de Deus é uma grande vitória."
+      citacao: "You cannot do great things, but you can do small things with great love.",
+      santo: "St. Teresa of Calcutta",
+      reflexao: "Every small step toward God is a great victory."
     };
   }
   return {
-    citacao: "Nunca é tarde demais para retornar a Deus. O amor de Deus por você é infinito.",
-    santo: "Santo Agostinho",
-    reflexao: "O próprio Santo Agostinho teve uma conversão tardia e se tornou um dos maiores santos da Igreja."
+    citacao: "It is never too late to return to God. God's love for you is infinite.",
+    santo: "St. Augustine",
+    reflexao: "St. Augustine himself had a late conversion and became one of the greatest saints of the Church."
   };
 };
 
-// Versículo bíblico personalizado
+// Personalized Bible verse
 const getVersiculoPersonalizado = (score: number, areaScores: ReturnType<typeof getAreaScores>) => {
   const weakestArea = Object.entries(areaScores).reduce((a, b) => a[1] < b[1] ? a : b)[0];
   
   const versiculos: Record<string, { texto: string; referencia: string }> = {
     eucaristica: {
-      texto: "Eu sou o pão vivo que desceu do céu. Quem come deste pão viverá eternamente.",
-      referencia: "João 6,51"
+      texto: "I am the living bread that came down from heaven. Whoever eats this bread will live forever.",
+      referencia: "John 6:51"
     },
     oracao: {
-      texto: "Pedi e vos será dado; buscai e encontrareis; batei e abrir-se-vos-á.",
-      referencia: "Mateus 7,7"
+      texto: "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.",
+      referencia: "Matthew 7:7"
     },
     formacao: {
-      texto: "Conhecereis a verdade, e a verdade vos libertará.",
-      referencia: "João 8,32"
+      texto: "You will know the truth, and the truth will set you free.",
+      referencia: "John 8:32"
     },
     devocoes: {
-      texto: "Eis aqui a tua mãe. E dessa hora em diante, o discípulo a recebeu em sua casa.",
-      referencia: "João 19,27"
+      texto: "Here is your mother. And from that time on, the disciple took her into his home.",
+      referencia: "John 19:27"
     },
     testemunho: {
-      texto: "Vós sois a luz do mundo. Não se pode esconder uma cidade situada sobre um monte.",
-      referencia: "Mateus 5,14"
+      texto: "You are the light of the world. A city on a hill cannot be hidden.",
+      referencia: "Matthew 5:14"
     }
   };
   
   return versiculos[weakestArea] || versiculos.oracao;
 };
 
-// Plano de 7 dias personalizado
+// Personalized 7-day plan
 const getPlano7Dias = (areaScores: ReturnType<typeof getAreaScores>) => {
   const weakestArea = Object.entries(areaScores).reduce((a, b) => a[1] < b[1] ? a : b)[0];
   
   const planos: Record<string, Array<{ dia: string; acao: string; tempo: string }>> = {
     eucaristica: [
-      { dia: "Domingo", acao: "Participe da Santa Missa com atenção especial", tempo: "1h" },
-      { dia: "Segunda", acao: "Leia sobre a Eucaristia no Catecismo (parágrafos 1322-1419)", tempo: "15min" },
-      { dia: "Terça", acao: "Faça uma Comunhão Espiritual durante o dia", tempo: "5min" },
-      { dia: "Quarta", acao: "Visite o Santíssimo Sacramento na Igreja mais próxima", tempo: "15min" },
-      { dia: "Quinta", acao: "Participe de uma Missa durante a semana (se possível)", tempo: "45min" },
-      { dia: "Sexta", acao: "Reze diante do Sacrário, agradecendo pela Eucaristia", tempo: "10min" },
-      { dia: "Sábado", acao: "Prepare-se para a Missa de domingo com exame de consciência", tempo: "10min" },
+      { dia: "Sunday", acao: "Attend Holy Mass with special attention", tempo: "1h" },
+      { dia: "Monday", acao: "Read about the Eucharist in the Catechism (paragraphs 1322-1419)", tempo: "15min" },
+      { dia: "Tuesday", acao: "Make a Spiritual Communion during the day", tempo: "5min" },
+      { dia: "Wednesday", acao: "Visit the Blessed Sacrament at the nearest Church", tempo: "15min" },
+      { dia: "Thursday", acao: "Attend a weekday Mass (if possible)", tempo: "45min" },
+      { dia: "Friday", acao: "Pray before the Tabernacle, giving thanks for the Eucharist", tempo: "10min" },
+      { dia: "Saturday", acao: "Prepare for Sunday Mass with examination of conscience", tempo: "10min" },
     ],
     oracao: [
-      { dia: "Domingo", acao: "Reserve 15 minutos de oração em silêncio pela manhã", tempo: "15min" },
-      { dia: "Segunda", acao: "Reze o Terço meditando os Mistérios Gozosos", tempo: "20min" },
-      { dia: "Terça", acao: "Faça o Ângelus às 12h (onde quer que esteja)", tempo: "3min" },
-      { dia: "Quarta", acao: "Leia e medite um Salmo (sugestão: Salmo 23)", tempo: "10min" },
-      { dia: "Quinta", acao: "Reze pela sua família e amigos", tempo: "10min" },
-      { dia: "Sexta", acao: "Faça exame de consciência antes de dormir", tempo: "10min" },
-      { dia: "Sábado", acao: "Reze o Terço meditando os Mistérios Gloriosos", tempo: "20min" },
+      { dia: "Sunday", acao: "Reserve 15 minutes of silent prayer in the morning", tempo: "15min" },
+      { dia: "Monday", acao: "Pray the Rosary meditating on the Joyful Mysteries", tempo: "20min" },
+      { dia: "Tuesday", acao: "Pray the Angelus at noon (wherever you are)", tempo: "3min" },
+      { dia: "Wednesday", acao: "Read and meditate on a Psalm (suggestion: Psalm 23)", tempo: "10min" },
+      { dia: "Thursday", acao: "Pray for your family and friends", tempo: "10min" },
+      { dia: "Friday", acao: "Make an examination of conscience before sleeping", tempo: "10min" },
+      { dia: "Saturday", acao: "Pray the Rosary meditating on the Glorious Mysteries", tempo: "20min" },
     ],
     formacao: [
-      { dia: "Domingo", acao: "Leia o Evangelho do dia e reflita", tempo: "15min" },
-      { dia: "Segunda", acao: "Estude sobre o Sacramento da Eucaristia", tempo: "20min" },
-      { dia: "Terça", acao: "Leia sobre a vida de um Santo (sugestão: São José)", tempo: "15min" },
-      { dia: "Quarta", acao: "Estude sobre o Sacramento da Confissão", tempo: "20min" },
-      { dia: "Quinta", acao: "Pesquise sobre a história da sua paróquia", tempo: "15min" },
-      { dia: "Sexta", acao: "Leia uma encíclica ou documento da Igreja", tempo: "20min" },
-      { dia: "Sábado", acao: "Marque uma confissão para a próxima semana", tempo: "5min" },
+      { dia: "Sunday", acao: "Read the Gospel of the day and reflect", tempo: "15min" },
+      { dia: "Monday", acao: "Study about the Sacrament of the Eucharist", tempo: "20min" },
+      { dia: "Tuesday", acao: "Read about the life of a Saint (suggestion: St. Joseph)", tempo: "15min" },
+      { dia: "Wednesday", acao: "Study about the Sacrament of Confession", tempo: "20min" },
+      { dia: "Thursday", acao: "Research the history of your parish", tempo: "15min" },
+      { dia: "Friday", acao: "Read an encyclical or Church document", tempo: "20min" },
+      { dia: "Saturday", acao: "Schedule a confession for next week", tempo: "5min" },
     ],
     devocoes: [
-      { dia: "Domingo", acao: "Reze o Terço em família ou sozinho", tempo: "20min" },
-      { dia: "Segunda", acao: "Acenda uma vela e reze a Nossa Senhora", tempo: "10min" },
-      { dia: "Terça", acao: "Pesquise sobre seu Santo padroeiro", tempo: "15min" },
-      { dia: "Quarta", acao: "Comece uma Novena a um Santo de sua devoção", tempo: "10min" },
-      { dia: "Quinta", acao: "Use água benta ao sair de casa, benzendo-se", tempo: "1min" },
-      { dia: "Sexta", acao: "Reze a Via-Sacra (mesmo que sozinho)", tempo: "30min" },
-      { dia: "Sábado", acao: "Reze o Terço meditando os Mistérios Luminosos", tempo: "20min" },
+      { dia: "Sunday", acao: "Pray the Rosary with family or alone", tempo: "20min" },
+      { dia: "Monday", acao: "Light a candle and pray to Our Lady", tempo: "10min" },
+      { dia: "Tuesday", acao: "Research about your patron saint", tempo: "15min" },
+      { dia: "Wednesday", acao: "Begin a Novena to a Saint of your devotion", tempo: "10min" },
+      { dia: "Thursday", acao: "Use holy water when leaving home, blessing yourself", tempo: "1min" },
+      { dia: "Friday", acao: "Pray the Stations of the Cross (even alone)", tempo: "30min" },
+      { dia: "Saturday", acao: "Pray the Rosary meditating on the Luminous Mysteries", tempo: "20min" },
     ],
     testemunho: [
-      { dia: "Domingo", acao: "Convide alguém para ir à Missa com você", tempo: "varies" },
-      { dia: "Segunda", acao: "Faça um ato de caridade (ajude alguém em necessidade)", tempo: "30min" },
-      { dia: "Terça", acao: "Compartilhe uma reflexão católica nas redes sociais", tempo: "5min" },
-      { dia: "Quarta", acao: "Perdoe alguém que te magoou (em oração)", tempo: "10min" },
-      { dia: "Quinta", acao: "Doe algo para a Igreja ou para os pobres", tempo: "varies" },
-      { dia: "Sexta", acao: "Pratique o jejum ou abstinência em reparação", tempo: "todo o dia" },
-      { dia: "Sábado", acao: "Reze por um familiar afastado da fé", tempo: "10min" },
+      { dia: "Sunday", acao: "Invite someone to go to Mass with you", tempo: "varies" },
+      { dia: "Monday", acao: "Do an act of charity (help someone in need)", tempo: "30min" },
+      { dia: "Tuesday", acao: "Share a Catholic reflection on social media", tempo: "5min" },
+      { dia: "Wednesday", acao: "Forgive someone who hurt you (in prayer)", tempo: "10min" },
+      { dia: "Thursday", acao: "Donate something to the Church or to the poor", tempo: "varies" },
+      { dia: "Friday", acao: "Practice fasting or abstinence in reparation", tempo: "all day" },
+      { dia: "Saturday", acao: "Pray for a family member away from the faith", tempo: "10min" },
     ],
   };
   
   return planos[weakestArea] || planos.oracao;
 };
 
-// Santos Protetores por área
+// Patron Saints by area
 const getSantoProtetor = (areaScores: ReturnType<typeof getAreaScores>) => {
   const weakestArea = Object.entries(areaScores).reduce((a, b) => a[1] < b[1] ? a : b)[0];
   
   const santos: Record<string, { nome: string; titulo: string; oracao: string }> = {
     eucaristica: {
-      nome: "São Pio de Pietrelcina",
-      titulo: "Apóstolo da Eucaristia",
-      oracao: "São Pio de Pietrelcina, vós que vivestes cada Missa como se fosse a primeira e a última, ajudai-me a amar a Eucaristia como vós a amastes. Amém."
+      nome: "St. Pio of Pietrelcina",
+      titulo: "Apostle of the Eucharist",
+      oracao: "St. Pio of Pietrelcina, you who lived each Mass as if it were the first and the last, help me to love the Eucharist as you loved it. Amen."
     },
     oracao: {
-      nome: "Santa Teresa de Ávila",
-      titulo: "Doutora da Oração",
-      oracao: "Santa Teresa de Ávila, mestra da vida interior, ensinai-me a cultivar a amizade com Deus através da oração. Ajudai-me a nunca abandonar esse trato de amor. Amém."
+      nome: "St. Teresa of Avila",
+      titulo: "Doctor of Prayer",
+      oracao: "St. Teresa of Avila, master of the interior life, teach me to cultivate friendship with God through prayer. Help me never to abandon this relationship of love. Amen."
     },
     formacao: {
-      nome: "Santo Tomás de Aquino",
-      titulo: "Doutor Angélico",
-      oracao: "Santo Tomás de Aquino, que unistes fé e razão de modo admirável, iluminai minha mente para conhecer mais profundamente a doutrina da Igreja. Amém."
+      nome: "St. Thomas Aquinas",
+      titulo: "Angelic Doctor",
+      oracao: "St. Thomas Aquinas, who united faith and reason in an admirable way, enlighten my mind to know more deeply the doctrine of the Church. Amen."
     },
     devocoes: {
-      nome: "São Luís Maria Grignion de Montfort",
-      titulo: "Apóstolo de Maria",
-      oracao: "São Luís de Montfort, que nos ensinastes o caminho a Jesus por Maria, ajudai-me a crescer na devoção à Santíssima Virgem. Amém."
+      nome: "St. Louis Marie Grignion de Montfort",
+      titulo: "Apostle of Mary",
+      oracao: "St. Louis de Montfort, who taught us the way to Jesus through Mary, help me to grow in devotion to the Blessed Virgin. Amen."
     },
     testemunho: {
-      nome: "São Francisco de Assis",
-      titulo: "Patrono da Paz",
-      oracao: "São Francisco de Assis, que pregastes o Evangelho com vossa vida antes das palavras, ajudai-me a ser testemunha viva de Cristo no mundo. Amém."
+      nome: "St. Francis of Assisi",
+      titulo: "Patron of Peace",
+      oracao: "St. Francis of Assisi, who preached the Gospel with your life before words, help me to be a living witness of Christ in the world. Amen."
     },
   };
   
   return santos[weakestArea] || santos.oracao;
 };
 
-// Virtudes a desenvolver
+// Virtues to develop
 const getVirtudes = (score: number, areaScores: ReturnType<typeof getAreaScores>) => {
   const virtudes = [];
   
   if (areaScores.eucaristica < 60) {
-    virtudes.push({ nome: "Piedade", descricao: "Reverência e amor às coisas sagradas" });
+    virtudes.push({ nome: "Piety", descricao: "Reverence and love for sacred things" });
   }
   if (areaScores.oracao < 60) {
-    virtudes.push({ nome: "Perseverança", descricao: "Constância na vida de oração" });
+    virtudes.push({ nome: "Perseverance", descricao: "Constancy in prayer life" });
   }
   if (areaScores.formacao < 60) {
-    virtudes.push({ nome: "Prudência", descricao: "Discernimento para conhecer a vontade de Deus" });
+    virtudes.push({ nome: "Prudence", descricao: "Discernment to know God's will" });
   }
   if (areaScores.devocoes < 60) {
-    virtudes.push({ nome: "Devoção", descricao: "Prontidão para servir a Deus" });
+    virtudes.push({ nome: "Devotion", descricao: "Readiness to serve God" });
   }
   if (areaScores.testemunho < 60) {
-    virtudes.push({ nome: "Caridade", descricao: "Amor a Deus e ao próximo" });
+    virtudes.push({ nome: "Charity", descricao: "Love of God and neighbor" });
   }
   
   if (virtudes.length === 0) {
     virtudes.push(
-      { nome: "Humildade", descricao: "Reconhecer que todo bem vem de Deus" },
-      { nome: "Fortaleza", descricao: "Perseverar nas tribulações" },
-      { nome: "Esperança", descricao: "Confiança nas promessas de Deus" }
+      { nome: "Humility", descricao: "Recognizing that all good comes from God" },
+      { nome: "Fortitude", descricao: "Persevering through tribulations" },
+      { nome: "Hope", descricao: "Trust in God's promises" }
     );
   }
   
@@ -354,21 +354,22 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
   };
 
   const handleShare = async () => {
-    const text = `I took the "How is your Catholic life?" quiz and scored ${score}% - ${level.title}! Take it too!`;
+    const text = `I discovered how my Catholic life is going! Take the quiz too at Good Catholic and see your result.`;
+    const url = 'https://good-catholic.com';
     
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Catholic Life Quiz",
+          title: "Good Catholic - Catholic Life Quiz",
           text,
-          url: window.location.href,
+          url,
         });
       } catch {
         // User cancelled sharing
       }
     } else {
-      await navigator.clipboard.writeText(text);
-      toast.success("Text copied to share!");
+      await navigator.clipboard.writeText(`${text} ${url}`);
+      toast.success("Link copied to share!");
     }
   };
 
@@ -564,7 +565,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         <div className="bg-secondary/30 rounded-xl p-4">
           <h5 className="font-semibold text-foreground mb-2 flex items-center gap-2">
             <Cross className="w-4 h-4 text-primary" />
-            Oração ao seu Santo Protetor
+            Prayer to your Patron Saint
           </h5>
           <p className="text-muted-foreground italic leading-relaxed">
             {santoProtetor.oracao}
@@ -665,19 +666,19 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           <div className="text-center">
             <span className="text-5xl mb-3 block">{level.emoji}</span>
             <h4 className="font-display text-2xl text-primary mb-2">{level.title}</h4>
-            <p className="text-muted-foreground">{firstName}, you are at level:</p>
+            <p className="text-muted-foreground">{firstName}, you are at this level:</p>
           </div>
         </div>
 
-        {/* Escala visual de níveis */}
+        {/* Visual scale of levels */}
         <div className="space-y-2 mb-6">
           {[
-            { title: "Católico Praticante Exemplar", min: 90, emoji: "🏆" },
-            { title: "Católico Comprometido", min: 75, emoji: "⭐" },
-            { title: "Católico em Crescimento", min: 60, emoji: "🌱" },
-            { title: "Católico em Busca", min: 40, emoji: "🔍" },
-            { title: "Católico Distante", min: 20, emoji: "🏠" },
-            { title: "Início da Jornada", min: 0, emoji: "✨" },
+            { title: "Exemplary Practicing Catholic", min: 90, emoji: "🏆" },
+            { title: "Committed Catholic", min: 75, emoji: "⭐" },
+            { title: "Growing Catholic", min: 60, emoji: "🌱" },
+            { title: "Seeking Catholic", min: 40, emoji: "🔍" },
+            { title: "Distant Catholic", min: 20, emoji: "🏠" },
+            { title: "Beginning of the Journey", min: 0, emoji: "✨" },
           ].map((lvl) => (
             <div
               key={lvl.title}
@@ -709,7 +710,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           </div>
         </div>
 
-        {/* Recomendações práticas */}
+        {/* Practical recommendations */}
         <div className="mb-8">
           <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-accent" />
@@ -727,7 +728,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           </ul>
         </div>
 
-        {/* Orações sugeridas */}
+        {/* Suggested prayers */}
         <div className="mb-8">
           <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
             <Cross className="w-5 h-5 text-primary" />
@@ -744,7 +745,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         </div>
       </div>
 
-      {/* CTA - Download do Guia PDF */}
+      {/* CTA - Download PDF Guide */}
       <div className="bg-gradient-to-br from-primary via-primary to-accent rounded-2xl p-6 md:p-8 mb-6 text-primary-foreground relative overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
         <div className="relative z-10 text-center">
@@ -768,7 +769,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         </div>
       </div>
 
-      {/* Ações secundárias */}
+      {/* Secondary actions */}
       <div className="flex flex-col sm:flex-row gap-3 mb-6">
         <Button
           onClick={handleShare}
@@ -788,17 +789,18 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         </Button>
       </div>
 
-      {/* Card final */}
+      {/* Final card - Evangelization invitation */}
       <div className="bg-primary text-primary-foreground rounded-2xl p-6 text-center">
-        <h4 className="font-display text-xl mb-2">Continue your Faith Journey, {firstName}!</h4>
+        <h4 className="font-display text-xl mb-2">Share the Faith with Your Friends!</h4>
         <p className="text-primary-foreground/80 text-sm mb-4">
-          Follow our content and receive daily reflections to grow spiritually.
+          Help your friends and colleagues discover how their Catholic life is going. Share this quiz and evangelize through your witness!
         </p>
         <Button
-          variant="secondary"
+          onClick={handleShare}
           className="bg-accent text-accent-foreground hover:bg-accent/90"
         >
-          Follow on Instagram
+          <Share2 className="w-4 h-4 mr-2" />
+          Share Site
         </Button>
       </div>
     </div>
