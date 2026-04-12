@@ -3,33 +3,33 @@ import { Heart, Target, BookOpen, Users, Star, Trophy } from "lucide-react";
 const benefits = [
   {
     icon: Target,
-    title: "Diagnóstico Completo",
-    description: "Avalie sua participação na vida sacramental, oração e devoções da Igreja Católica.",
+    title: "Complete Assessment",
+    description: "Evaluate your participation in sacramental life, prayer, and devotions of the Catholic Church.",
   },
   {
     icon: Star,
-    title: "Classificação Personalizada",
-    description: "Descubra seu nível de praticante: de 'Início da Jornada' a 'Católico Exemplar'.",
+    title: "Personalized Classification",
+    description: "Discover your practitioner level: from 'Beginning of the Journey' to 'Exemplary Catholic'.",
   },
   {
     icon: BookOpen,
-    title: "Guia Exclusivo",
-    description: "Receba um PDF com orações, devoções e dicas práticas para crescer na fé.",
+    title: "Exclusive Guide",
+    description: "Receive a PDF with prayers, devotions, and practical tips to grow in faith.",
   },
   {
     icon: Heart,
-    title: "Reflexão Espiritual",
-    description: "30 perguntas que vão te fazer refletir sobre sua relação com Deus e a Igreja.",
+    title: "Spiritual Reflection",
+    description: "30 questions that will make you reflect on your relationship with God and the Church.",
   },
   {
     icon: Users,
-    title: "Comunidade de Fé",
-    description: "Faça parte de milhares de católicos buscando viver melhor sua fé.",
+    title: "Faith Community",
+    description: "Join thousands of Catholics seeking to live their faith better.",
   },
   {
     icon: Trophy,
-    title: "Acompanhamento",
-    description: "Receba conteúdos exclusivos para continuar sua jornada espiritual.",
+    title: "Follow-up",
+    description: "Receive exclusive content to continue your spiritual journey.",
   },
 ];
 
@@ -40,13 +40,13 @@ export function BenefitsSection() {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            Por que fazer o quiz?
+            Why take the quiz?
           </span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-primary mt-3 mb-4">
-            Conheça os Benefícios
+            Discover the Benefits
           </h2>
           <p className="text-text-muted text-lg">
-            Mais do que um quiz, uma oportunidade de refletir e crescer na sua vida cristã.
+            More than a quiz, an opportunity to reflect and grow in your Christian life.
           </p>
         </div>
 

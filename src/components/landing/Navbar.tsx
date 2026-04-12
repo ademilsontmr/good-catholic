@@ -23,7 +23,7 @@ export function Navbar() {
             <div className="w-8 h-8 rounded-full bg-gradient-accent flex items-center justify-center">
               <Cross className="w-4 h-4 text-button-text" />
             </div>
-            <span className="font-display text-xl font-bold text-accent">Bom Católico</span>
+            <span className="font-display text-xl font-bold text-accent">Good Catholic</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -32,19 +32,19 @@ export function Navbar() {
               onClick={() => scrollToSection("beneficios")}
               className="text-text-muted hover:text-text transition-colors"
             >
-              Benefícios
+              Benefits
             </button>
             <button
               onClick={() => scrollToSection("como-funciona")}
               className="text-text-muted hover:text-text transition-colors"
             >
-              Como Funciona
+              How It Works
             </button>
             <button
               onClick={() => scrollToSection("depoimentos")}
               className="text-text-muted hover:text-text transition-colors"
             >
-              Depoimentos
+              Testimonials
             </button>
             <Link
               to="/blog"
@@ -54,7 +54,7 @@ export function Navbar() {
             </Link>
             <Link to="/quiz">
               <Button className="bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
-                Fazer o Quiz
+                Take the Quiz
               </Button>
             </Link>
           </div>
@@ -80,19 +80,19 @@ export function Navbar() {
                 onClick={() => scrollToSection("beneficios")}
                 className="text-left py-2 text-text-muted hover:text-text transition-colors"
               >
-                Benefícios
+                Benefits
               </button>
               <button
                 onClick={() => scrollToSection("como-funciona")}
                 className="text-left py-2 text-text-muted hover:text-text transition-colors"
               >
-                Como Funciona
+                How It Works
               </button>
               <button
                 onClick={() => scrollToSection("depoimentos")}
                 className="text-left py-2 text-text-muted hover:text-text transition-colors"
               >
-                Depoimentos
+                Testimonials
               </button>
               <Link
                 to="/blog"
@@ -103,7 +103,7 @@ export function Navbar() {
               </Link>
               <Link to="/quiz" onClick={() => setIsOpen(false)}>
                 <Button className="w-full bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
-                  Fazer o Quiz
+                  Take the Quiz
                 </Button>
               </Link>
             </div>

@@ -86,7 +86,7 @@ const QuizPage = () => {
             className="text-text-muted hover:text-text"
           >
             <ArrowLeft className="w-4 h-4 mr-2" />
-            Voltar
+            Back
           </Button>
         </div>
 
@@ -104,7 +104,7 @@ const QuizPage = () => {
 
         <footer className="py-6 text-center">
           <p className="text-sm text-text-muted">
-            © 2024 Bom Católico · Todos os direitos reservados
+            © 2024 Good Catholic · All rights reserved
           </p>
         </footer>
       </div>

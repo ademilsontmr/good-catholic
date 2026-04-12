@@ -1,19 +1,19 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Cross, Calendar, Clock, ArrowLeft, Users } from "lucide-react";
+import { Cross, Calendar, Clock, ArrowLeft, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 
-export default function CastidadeMundoModerno() {
+export default function LocalPilgrimage() {
     return (
         <>
             <Helmet>
-                <title>Viver a Castidade no Mundo Moderno: Desafios e Graças | Bom Católico</title>
-                <meta name="description" content="Entenda o verdadeiro significado da castidade cristã e como vivê-la no mundo atual. Um convite à liberdade e ao amor autêntico segundo o Evangelho." />
-                <meta name="keywords" content="como viver a castidade, castidade no mundo moderno, pureza sexual católica, por que ser casto, castidade antes do casamento, amor verdadeiro" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/castidade-mundo-moderno" />
+                <title>How to Organize a Local Pilgrimage in Your Diocese | Good Catholic</title>
+                <meta name="description" content="Practical and spiritual guide to organizing pilgrimages to local shrines and jubilee churches, strengthening community faith in 2026." />
+                <meta name="keywords" content="how to organize pilgrimage, Catholic pilgrimage, shrines, religious tourism Catholic, pilgrimage, how to make pilgrimage, jubilee churches, walking pilgrimage, pilgrimage route, Marian shrines" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/local-pilgrimage" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,11 +23,11 @@ export default function CastidadeMundoModerno() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Bom Católico</span>
+                            <span className="font-display text-xl font-bold">Good Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">
-                                Fazer o Quiz
+                                Take the Quiz
                             </Button>
                         </Link>
                     </div>
@@ -40,7 +40,7 @@ export default function CastidadeMundoModerno() {
                             <span>/</span>
                             <Link to="/blog" className="hover:text-accent">Blog</Link>
                             <span>/</span>
-                            <span className="text-text">Castidade no Mundo Moderno</span>
+                            <span className="text-text">Local Pilgrimage</span>
                         </nav>
                     </div>
                 </div>
@@ -49,102 +49,103 @@ export default function CastidadeMundoModerno() {
                     <div className="container mx-auto px-4 max-w-4xl">
                         <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
                             <ArrowLeft className="w-4 h-4" />
-                            Voltar ao Blog
+                            Back to Blog
                         </Link>
 
                         <header className="mb-8">
                             <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                                    Formação
+                                    Devotions
                                 </span>
                                 <span className="flex items-center gap-1">
                                     <Calendar className="w-4 h-4" />
-                                    29 de Dezembro, 2024
+                                    January 15, 2026
                                 </span>
                                 <span className="flex items-center gap-1">
                                     <Clock className="w-4 h-4" />
-                                    9 min de leitura
+                                    8 min read
                                 </span>
                             </div>
 
                             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                                Viver a Castidade no Mundo Moderno: Desafios e Graças
+                                How to Organize a Local Pilgrimage in Your Diocese
                             </h1>
 
                             <p className="text-xl text-text-muted leading-relaxed">
-                                A castidade não é um "não" ao prazer, mas um "sim" ao amor verdadeiro. Descubra como esta virtude liberta o coração para amar como Cristo amou.
+                                You don't need to go to Rome to be a pilgrim. Discover how to organize a journey of faith to the shrines in your region.
                             </p>
                         </header>
 
-                        <div className="aspect-video bg-amber-100 rounded-2xl flex items-center justify-center mb-10">
-                            <Users className="w-24 h-24 text-amber-400" strokeWidth={1.5} />
+                        <div className="aspect-video bg-emerald-100 rounded-2xl flex items-center justify-center mb-10">
+                            <MapPin className="w-24 h-24 text-emerald-400" strokeWidth={1.5} />
                         </div>
 
                         <div className="prose prose-lg max-w-none">
                             <p className="text-text leading-relaxed mb-6">
-                                Falar de castidade hoje parece, para muitos, um anacronismo. Em uma cultura que prega a satisfação imediata de todos os impulsos, a proposta cristã da pureza é frequentemente ridicularizada ou mal compreendida. No entanto, a castidade é a virtude que ordena a nossa afetividade e sexualidade, integrando-as na pessoa humana para o bem do amor autêntico.
-                            </p>
-
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                O Que é Realmente a Castidade?
-                            </h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                O Catecismo da Igreja Católica ensina que a castidade significa a integração bem-sucedida da sexualidade na pessoa. Ela não é a negação da sexualidade, mas o seu domínio de si. Um coração casto é um coração livre, que não usa o outro como objeto de prazer, mas o respeita como imagem e semelhança de Deus.
+                                Pilgrimage is a metaphor for Christian life: we are on our way to the Heavenly Homeland. Organizing a local pilgrimage is an excellent way to unite the community, rediscover the history of faith in your region, and obtain jubilee graces without great costs.
                             </p>
 
                             <QuizCTA
-                                title="Como está sua busca pela pureza de coração?"
-                                description="A castidade é a liberdade para amar de verdade. Faça nosso quiz e receba uma orientação sobre como fortalecer suas virtudes e viver o amor cristão com integridade no mundo atual."
+                                title="Are you ready to walk with faith?"
+                                description="Pilgrimage is about leaving your comfort zone to encounter God. Take our quiz and discover which type of spiritual journey best suits your current life moment."
                             />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Castidade para Todos os Estados de Vida
+                                1. Define the Objective and Destination
                             </h2>
                             <p className="text-text leading-relaxed mb-6">
-                                Muitos pensam que a castidade é apenas para os solteiros ou consagrados. Na verdade, todos os cristãos são chamados à castidade segundo o seu estado de vida:
+                                Choose a place that has spiritual significance: the diocesan Cathedral, a Marian shrine, or the church of a local patron saint. The objective should be clear: is it a journey of penance, thanksgiving, or petition for graces?
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                                2. Spiritual Planning
+                            </h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                A pilgrimage is not a tourist outing. Prepare a prayer itinerary for the journey:
                             </p>
                             <ul className="list-disc list-inside text-text space-y-2 mb-6">
-                                <li><strong>Solteiros:</strong> Vivem a castidade na continência, preparando o coração para uma entrega futura ou para o serviço a Deus.</li>
-                                <li><strong>Casados:</strong> Vivem a castidade na fidelidade conjugal e na abertura à vida, amando o cônjuge com um amor exclusivo e sacrificial.</li>
-                                <li><strong>Consagrados:</strong> Vivem a castidade no celibato pelo Reino dos Céus, como sinal da união futura com Deus.</li>
+                                <li><strong>Opening Prayer:</strong> Blessing of sending by the parish priest.</li>
+                                <li><strong>Holy Rosary:</strong> Meditated during the walk or journey.</li>
+                                <li><strong>Songs:</strong> Hymns that help elevate the soul.</li>
+                                <li><strong>Confession and Mass:</strong> The high point of arrival at the destination.</li>
                             </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Os Desafios do Mundo Digital
+                                3. Logistics and Organization
                             </h2>
                             <p className="text-text leading-relaxed mb-6">
-                                Hoje, a batalha pela pureza passa, em grande parte, pelas telas. A pornografia e a erotização precoce das redes sociais são venenos para a alma. Viver a castidade exige "custódia dos olhos" e prudência no uso da tecnologia. É preciso coragem para ser "contracorrente".
+                                Think about practical details so nothing disrupts the moment of faith: transportation (bus or walking), food, support points, and pilgrim kit (prayer booklet, water, identification).
                             </p>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Meios para Viver a Pureza
+                                4. Post-Pilgrimage
                             </h2>
                             <p className="text-text leading-relaxed mb-6">
-                                Ninguém é casto por esforço próprio. A castidade é um dom de Deus e uma tarefa humana. Os meios fundamentais são: a oração humilde, a confissão frequente (que cura nossas quedas), a Eucaristia (que fortalece a carne e o espírito) e a devoção à Virgem Maria, a Toda Pura.
+                                Upon return, set aside a moment to share the fruits of the journey. How did this experience change the participants' vision of faith? What concrete commitments does the community assume from now on?
                             </p>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">
-                                    "A castidade é a flor das virtudes."
+                                    "To pilgrimage is to leave your comfort zone to encounter God and your brothers and sisters."
                                 </p>
                                 <p className="text-text-muted text-center mt-2">
-                                    — São Francisco de Sales
+                                    — Christian Popular Wisdom
                                 </p>
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="castidade-mundo-moderno" />
+                        <RelatedArticles currentSlug="local-pilgrimage" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">
-                                Como está sua busca pela santidade?
+                                What is your pilgrim profile?
                             </h3>
                             <p className="text-text-muted mb-6">
-                                Faça nosso quiz e receba uma orientação sobre como viver as virtudes cristãs e fortalecer seu caráter no seguimento de Jesus.
+                                Take our quiz and discover which types of spiritual experiences and pilgrimage destinations best match your current faith moment.
                             </p>
                             <Link to="/quiz">
                                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                                    Fazer o Quiz Agora
+                                    Take the Quiz Now
                                 </Button>
                             </Link>
                         </div>

@@ -1,19 +1,19 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Cross, Calendar, Clock, ArrowLeft, Flame } from "lucide-react";
+import { Cross, Calendar, Clock, ArrowLeft, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 
-export default function ComoViverQuaresma() {
+export default function PrayersOfHope2026() {
     return (
         <>
             <Helmet>
-                <title>Como Viver a Quaresma com Frutos Espirituais | Bom Católico</title>
-                <meta name="description" content="Prepare-se para a Páscoa com este guia prático sobre como viver bem a Quaresma através da oração, jejum e caridade." />
-                <meta name="keywords" content="como viver a quaresma, o que fazer na quaresma, oração jejum e esmola, quaresma católica, penitência quaresmal, via sacra, quarta-feira de cinzas, preparação para páscoa, conversão quaresma, jejum na quaresma o que comer" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/como-viver-quaresma" />
+                <title>Prayers of Hope for Times of Crisis in 2026 | Good Catholic</title>
+                <meta name="description" content="Find consolation and strength in traditional and contemporary Catholic prayers focused on the virtue of hope to face the challenges of 2026." />
+                <meta name="keywords" content="prayers of hope, prayer for difficult times, prayer of abandonment, psalm 23, saint teresa of avila nothing disturb you, prayer in times of crisis, how to have hope, Catholic prayer, trust in God, pope francis prayer" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/prayers-of-hope-2026" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,11 +23,11 @@ export default function ComoViverQuaresma() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Bom Católico</span>
+                            <span className="font-display text-xl font-bold">Good Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">
-                                Fazer o Quiz
+                                Take the Quiz
                             </Button>
                         </Link>
                     </div>
@@ -40,7 +40,7 @@ export default function ComoViverQuaresma() {
                             <span>/</span>
                             <Link to="/blog" className="hover:text-accent">Blog</Link>
                             <span>/</span>
-                            <span className="text-text">Como Viver a Quaresma</span>
+                            <span className="text-text">Prayers of Hope</span>
                         </nav>
                     </div>
                 </div>
@@ -49,100 +49,101 @@ export default function ComoViverQuaresma() {
                     <div className="container mx-auto px-4 max-w-4xl">
                         <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
                             <ArrowLeft className="w-4 h-4" />
-                            Voltar ao Blog
+                            Back to Blog
                         </Link>
 
                         <header className="mb-8">
                             <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                                    Espiritualidade
+                                    Prayers
                                 </span>
                                 <span className="flex items-center gap-1">
                                     <Calendar className="w-4 h-4" />
-                                    29 de Dezembro, 2024
+                                    January 10, 2026
                                 </span>
                                 <span className="flex items-center gap-1">
                                     <Clock className="w-4 h-4" />
-                                    9 min de leitura
+                                    6 min read
                                 </span>
                             </div>
 
                             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                                Como Viver a Quaresma com Frutos Espirituais
+                                Prayers of Hope for Times of Crisis in 2026
                             </h1>
 
                             <p className="text-xl text-text-muted leading-relaxed">
-                                A Quaresma não é um tempo de tristeza, mas de renovação. Descubra como os pilares quaresmais podem transformar seu coração para a Páscoa.
+                                When strength seems exhausted, prayer is our refuge. Discover powerful prayers to renew your trust in God.
                             </p>
                         </header>
 
-                        <div className="aspect-video bg-orange-100 rounded-2xl flex items-center justify-center mb-10">
-                            <Flame className="w-24 h-24 text-orange-400" strokeWidth={1.5} />
+                        <div className="aspect-video bg-rose-100 rounded-2xl flex items-center justify-center mb-10">
+                            <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
                         </div>
 
                         <div className="prose prose-lg max-w-none">
                             <p className="text-text leading-relaxed mb-6">
-                                A Quaresma é o tempo litúrgico de quarenta dias que precede a Páscoa. É um convite à conversão, um "retiro espiritual" que a Igreja nos oferece para que possamos morrer para o pecado e ressuscitar com Cristo. Para viver bem este tempo, a Igreja nos propõe três pilares fundamentais: a Oração, o Jejum e a Esmola (Caridade).
-                            </p>
-
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                1. Oração: O Diálogo com o Pai
-                            </h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                Na Quaresma, somos chamados a intensificar nossa vida de oração. Não se trata apenas de rezar mais, mas de rezar melhor. É o momento de silenciar as vozes do mundo para ouvir a voz de Deus. Experimente a Lectio Divina, a Via-Sacra ou o Rosário diário.
+                                Hope is a theological virtue, which means it is a gift from God. In times of personal, family, or social crisis, hope prevents us from falling into despair. Praying does not necessarily change the external situation immediately, but it changes our heart to face the storm with serenity.
                             </p>
 
                             <QuizCTA
-                                title="Sua Quaresma está dando frutos?"
-                                description="A conversão é um caminho contínuo. Faça nosso quiz e receba um direcionamento sobre como viver os pilares da oração, jejum e caridade de forma mais profunda e transformadora."
+                                title="How is your trust in God?"
+                                description="Hope is the anchor of the soul amid storms. Take our quiz and discover which prayer method can strengthen your faith in times of difficulty."
                             />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                2. Jejum: O Domínio de Si
+                                Prayer of Abandonment (St. Charles de Foucauld)
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                O jejum não é uma dieta, mas um exercício espiritual. Ao privarmos o corpo de algo lícito (como comida ou entretenimento), mostramos à nossa alma que ela é quem deve governar nossos impulsos. O jejum nos torna mais sensíveis à fome de Deus e à fome dos nossos irmãos.
+                            <p className="text-text leading-relaxed mb-4 italic bg-surface p-6 rounded-xl border border-border">
+                                "Father, I abandon myself into Your hands; do with me what You will. Whatever You may do, I thank You: I am ready for all, I accept all. Let only Your will be done in me, and in all Your creatures. I wish no more than this, O Lord."
                             </p>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                3. Esmola: A Prática da Caridade
+                                Prayer for Hope (Pope Francis)
                             </h2>
                             <p className="text-text leading-relaxed mb-6">
-                                A caridade é o fruto natural da oração e do jejum. O que "economizamos" com o jejum deve ser revertido em favor dos pobres. A esmola nos liberta do egoísmo e do apego aos bens materiais, abrindo nosso coração para o amor concreto ao próximo.
+                                This prayer was widely spread during the Jubilee and continues to be a balm for the soul:
+                                <br /><br />
+                                "Lord, give us the grace to be pilgrims of hope. May we be light amid the darkness of the world. May we be consolation amid despair. Do not allow them to steal our hope, for it is the anchor of our soul in You."
                             </p>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Dicas Práticas para sua Quaresma
+                                Psalm 23: The Lord is My Shepherd
+                            </h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                Psalm 23 is the prayer of trust par excellence. Reciting it slowly, meditating on each verse, brings deep peace: "Even though I walk through the valley of the shadow of death, I will fear no evil, for You are with me."
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                                Tips for Effective Prayer
                             </h2>
                             <ul className="list-disc list-inside text-text space-y-2 mb-6">
-                                <li><strong>Escolha uma penitência concreta:</strong> Algo que realmente custe, mas que seja possível cumprir.</li>
-                                <li><strong>Faça um bom exame de consciência:</strong> E procure o sacramento da Confissão.</li>
-                                <li><strong>Participe da Via-Sacra:</strong> Meditar a Paixão de Cristo nos ajuda a entender o preço da nossa salvação.</li>
-                                <li><strong>Reduza o ruído digital:</strong> Menos redes sociais, mais tempo de silêncio e leitura bíblica.</li>
+                                <li><strong>Constancy:</strong> Pray even when you don't feel like it. Prayer is a commitment, not just a feeling.</li>
+                                <li><strong>Sincerity:</strong> Tell God exactly how you feel. He already knows, but wants to hear it from you.</li>
+                                <li><strong>Silence:</strong> After speaking, be silent. Let God's peace fill the emptiness of your soul.</li>
                             </ul>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">
-                                    "Lembra-te que és pó e ao pó hás de voltar."
+                                    "Let nothing disturb you, let nothing frighten you, all things pass away: God never changes. Patience obtains all things; whoever has God lacks nothing: God alone suffices."
                                 </p>
                                 <p className="text-text-muted text-center mt-2">
-                                    — Quarta-feira de Cinzas
+                                    — St. Teresa of Ávila
                                 </p>
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="como-viver-quaresma" />
+                        <RelatedArticles currentSlug="prayers-of-hope-2026" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">
-                                Como está sua caminhada de conversão?
+                                How is your dialogue with God?
                             </h3>
                             <p className="text-text-muted mb-6">
-                                Faça nosso quiz e receba uma orientação sobre como você pode viver melhor este tempo de graça e se preparar para a alegria da Ressurreição.
+                                Take our quiz and discover which prayer method best suits your current life moment and how to strengthen your intimacy with the Father.
                             </p>
                             <Link to="/quiz">
                                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                                    Fazer o Quiz Agora
+                                    Take the Quiz Now
                                 </Button>
                             </Link>
                         </div>

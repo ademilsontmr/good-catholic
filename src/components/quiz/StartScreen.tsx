@@ -20,19 +20,19 @@ export function StartScreen({ onStart }: StartScreenProps) {
         </div>
 
         <h1 className="font-display text-4xl md:text-5xl font-bold text-primary mb-4 leading-tight">
-          Como é a sua{" "}
-          <span className="text-gradient-accent">vivência católica</span>?
+          How is your{" "}
+          <span className="text-gradient-accent">Catholic life</span>?
         </h1>
 
         <p className="text-lg text-text-muted mb-8 max-w-md mx-auto">
-          Descubra como está sua caminhada de fé através deste quiz simples e sincero.
+          Discover how your faith journey is going through this simple and sincere quiz.
         </p>
       </div>
 
       {/* Info Card */}
       <div className="bg-surface rounded-2xl shadow-soft p-6 md:p-8 border border-border/50 mb-8">
         <h2 className="font-display text-xl text-center text-text mb-6">
-          O que você vai descobrir
+          What you will discover
         </h2>
 
         <div className="space-y-4 mb-8">
@@ -41,9 +41,9 @@ export function StartScreen({ onStart }: StartScreenProps) {
               <CheckCircle className="w-5 h-5 text-accent" />
             </div>
             <div>
-              <h3 className="font-semibold text-text">Diagnóstico da sua Fé</h3>
+              <h3 className="font-semibold text-text">Your Faith Assessment</h3>
               <p className="text-sm text-text-muted">
-                Avalie sua participação na vida sacramental da Igreja
+                Evaluate your participation in the sacramental life of the Church
               </p>
             </div>
           </div>
@@ -53,9 +53,9 @@ export function StartScreen({ onStart }: StartScreenProps) {
               <Award className="w-5 h-5 text-primary" />
             </div>
             <div>
-              <h3 className="font-semibold text-text">Seu Nível de Praticante</h3>
+              <h3 className="font-semibold text-text">Your Practitioner Level</h3>
               <p className="text-sm text-text-muted">
-                Descubra onde você está na sua jornada espiritual
+                Discover where you are on your spiritual journey
               </p>
             </div>
           </div>
@@ -65,9 +65,9 @@ export function StartScreen({ onStart }: StartScreenProps) {
               <BookOpen className="w-5 h-5 text-accent" />
             </div>
             <div>
-              <h3 className="font-semibold text-text">Guia Exclusivo</h3>
+              <h3 className="font-semibold text-text">Exclusive Guide</h3>
               <p className="text-sm text-text-muted">
-                Receba dicas personalizadas para crescer na fé
+                Receive personalized tips to grow in faith
               </p>
             </div>
           </div>
@@ -77,12 +77,12 @@ export function StartScreen({ onStart }: StartScreenProps) {
         <div className="flex items-center justify-center gap-6 py-4 border-y border-border mb-6">
           <div className="flex items-center gap-2 text-text-muted">
             <Clock className="w-4 h-4" />
-            <span className="text-sm">~5 minutos</span>
+            <span className="text-sm">~5 minutes</span>
           </div>
           <div className="w-px h-4 bg-border" />
           <div className="flex items-center gap-2 text-text-muted">
             <CheckCircle className="w-4 h-4" />
-            <span className="text-sm">30 perguntas</span>
+            <span className="text-sm">30 questions</span>
           </div>
         </div>
 
@@ -91,11 +91,11 @@ export function StartScreen({ onStart }: StartScreenProps) {
           size="lg"
           className="w-full h-14 bg-gradient-accent hover:opacity-90 text-accent-foreground font-semibold text-lg shadow-glow transition-all duration-300"
         >
-          Começar o Quiz
+          Start the Quiz
         </Button>
 
         <p className="text-xs text-center text-text-muted mt-4">
-          Suas respostas são confidenciais e não serão compartilhadas.
+          Your answers are confidential and will not be shared.
         </p>
       </div>
     </div>

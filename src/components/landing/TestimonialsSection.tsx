@@ -3,38 +3,38 @@ const testimonials = [{
   name: "Maria Fernanda",
   location: "São Paulo, SP",
   rating: 5,
-  text: "O quiz me fez perceber que preciso voltar a rezar o terço diariamente. Muito edificante!",
-  level: "Católico em Crescimento"
+  text: "The quiz made me realize I need to pray the rosary daily again. Very edifying!",
+  level: "Growing Catholic"
 }, {
   name: "José Roberto",
   location: "Rio de Janeiro, RJ",
   rating: 5,
-  text: "Excelente ferramenta para fazer um exame de consciência sobre nossa vida de fé. Recomendo!",
-  level: "Católico Comprometido"
+  text: "Excellent tool for examining our faith life. I highly recommend it!",
+  level: "Committed Catholic"
 }, {
   name: "Ana Carolina",
   location: "Belo Horizonte, MG",
   rating: 5,
-  text: "O guia que recebi está me ajudando muito a organizar minha vida de oração. Gratidão!",
-  level: "Católico Praticante Exemplar"
+  text: "The guide I received is helping me a lot to organize my prayer life. Gratitude!",
+  level: "Exemplary Practicing Catholic"
 }, {
   name: "Pedro Henrique",
   location: "Curitiba, PR",
   rating: 5,
-  text: "Fiquei surpreso com o resultado! Me motivou a participar mais da vida da minha paróquia.",
-  level: "Católico em Busca"
+  text: "I was surprised by the result! It motivated me to participate more in my parish life.",
+  level: "Seeking Catholic"
 }, {
   name: "Lucia Helena",
   location: "Porto Alegre, RS",
   rating: 5,
-  text: "As perguntas são muito bem elaboradas. Me fizeram refletir profundamente sobre minha fé.",
-  level: "Católico Comprometido"
+  text: "The questions are very well crafted. They made me reflect deeply on my faith.",
+  level: "Committed Catholic"
 }, {
   name: "Francisco Carlos",
   location: "Fortaleza, CE",
   rating: 5,
-  text: "Compartilhei com meu grupo de oração. Todos amaram e estão usando para crescer na fé!",
-  level: "Católico Praticante Exemplar"
+  text: "I shared it with my prayer group. Everyone loved it and is using it to grow in faith!",
+  level: "Exemplary Practicing Catholic"
 }];
 export function TestimonialsSection() {
   return <section id="depoimentos" className="py-20 md:py-32 bg-primary text-button-text">
@@ -42,13 +42,13 @@ export function TestimonialsSection() {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            Depoimentos
+            Testimonials
           </span>
           <h2 className="font-display text-3xl md:text-4xl font-bold mt-3 mb-4">
-            O Que Dizem os Participantes
+            What Participants Say
           </h2>
           <p className="text-button-text/80 text-lg">
-            Milhares de católicos já fizeram o quiz e estão crescendo na fé.
+            Thousands of Catholics have already taken the quiz and are growing in faith.
           </p>
         </div>
 

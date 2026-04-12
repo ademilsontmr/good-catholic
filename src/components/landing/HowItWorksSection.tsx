@@ -6,20 +6,20 @@ const steps = [
   {
     number: "01",
     icon: ClipboardList,
-    title: "Responda 30 Perguntas",
-    description: "Perguntas simples sobre sua vida de oração, participação na Missa, sacramentos e devoções.",
+    title: "Answer 30 Questions",
+    description: "Simple questions about your prayer life, Mass attendance, sacraments, and devotions.",
   },
   {
     number: "02",
     icon: UserCheck,
-    title: "Receba Seu Diagnóstico",
-    description: "Descubra seu nível de vivência católica com base nas suas respostas sinceras.",
+    title: "Receive Your Assessment",
+    description: "Discover your level of Catholic life based on your honest answers.",
   },
   {
     number: "03",
     icon: Gift,
-    title: "Baixe Seu Guia",
-    description: "Receba um guia exclusivo com orações e dicas para fortalecer sua caminhada de fé.",
+    title: "Download Your Guide",
+    description: "Receive an exclusive guide with prayers and tips to strengthen your faith journey.",
   },
 ];
 
@@ -30,13 +30,13 @@ export function HowItWorksSection() {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider">
-            Simples e Rápido
+            Simple and Fast
           </span>
           <h2 className="font-display text-3xl md:text-4xl font-bold text-primary mt-3 mb-4">
-            Como Funciona?
+            How Does It Work?
           </h2>
           <p className="text-text-muted text-lg">
-            Em apenas 5 minutos você terá uma visão clara da sua vida espiritual.
+            In just 5 minutes you'll have a clear view of your spiritual life.
           </p>
         </div>
 
@@ -78,7 +78,7 @@ export function HowItWorksSection() {
               size="lg"
               className="h-14 px-10 bg-gradient-accent hover:opacity-90 text-accent-foreground font-semibold text-lg shadow-glow transition-all duration-300 group"
             >
-              Começar Agora
+              Start Now
               <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
           </Link>

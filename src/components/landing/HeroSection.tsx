@@ -17,7 +17,7 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-secondary/80 backdrop-blur-sm px-4 py-2 rounded-full mb-8 animate-fade-in">
             <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm font-medium text-text">Quiz Católico</span>
+            <span className="text-sm font-medium text-text">Catholic Quiz</span>
           </div>
 
           {/* Icons */}
@@ -34,16 +34,16 @@ export function HeroSection() {
 
           {/* Headline */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 leading-tight animate-slide-up">
-            Descubra como está sua{" "}
-            <span className="text-gradient-accent">caminhada de fé</span>
+            Discover how your{" "}
+            <span className="text-gradient-accent">faith journey</span> is going
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-text-muted mb-10 max-w-2xl mx-auto animate-slide-up" style={{
           animationDelay: "0.1s"
         }}>
-            Faça o quiz e receba um diagnóstico completo da sua vivência católica. 
-            Mais de <strong className="text-text">10.000 católicos</strong> já descobriram seu nível de prática da fé.
+            Take the quiz and receive a complete assessment of your Catholic life. 
+            More than <strong className="text-text">10,000 Catholics</strong> have already discovered their level of faith practice.
           </p>
 
           {/* CTA Buttons */}
@@ -52,14 +52,14 @@ export function HeroSection() {
         }}>
             <Link to="/quiz">
               <Button size="lg" className="h-14 px-8 bg-gradient-accent hover:opacity-90 text-accent-foreground font-semibold text-lg shadow-glow transition-all duration-300 group">
-                Começar o Quiz Agora
+                Start the Quiz Now
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
             <button onClick={() => document.getElementById("como-funciona")?.scrollIntoView({
             behavior: "smooth"
           })} className="text-primary font-medium hover:underline flex items-center gap-2">
-              Como funciona?
+              How does it work?
             </button>
           </div>
 
@@ -69,19 +69,19 @@ export function HeroSection() {
         }}>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-green-500" />
-              <span>Rápido e Fácil</span>
+              <span>Quick and Easy</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-accent" />
-              <span>5 minutos</span>
+              <span>5 minutes</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-primary" />
-              <span>Resultado Imediato</span>
+              <span>Instant Results</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 rounded-full bg-emerald-500" />
-              <span>Sem Cadastro</span>
+              <span>No Registration</span>
             </div>
           </div>
         </div>

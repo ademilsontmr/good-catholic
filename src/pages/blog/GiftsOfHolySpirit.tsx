@@ -6,14 +6,14 @@ import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 
-export default function DonsEspiritoSanto() {
+export default function GiftsOfHolySpirit() {
     return (
         <>
             <Helmet>
-                <title>Os Dons do Espírito Santo: Como Identificá-los e Usá-los | Bom Católico</title>
-                <meta name="description" content="Conheça os sete dons do Espírito Santo e saiba como eles atuam em sua vida para guiá-lo no caminho da santidade e do serviço ao próximo." />
-                <meta name="keywords" content="quais são os sete dons do espírito santo, dom da sabedoria, dom do entendimento, dom do conselho, dom da fortaleza, dom da ciência, dom da piedade, dom do temor de deus" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/sete-dons-espirito-santo-como-usar" />
+                <title>The Gifts of the Holy Spirit: How to Identify and Use Them | Good Catholic</title>
+                <meta name="description" content="Learn about the seven gifts of the Holy Spirit and how they work in your life to guide you on the path of holiness and service to others." />
+                <meta name="keywords" content="what are the seven gifts of the holy spirit, gift of wisdom, gift of understanding, gift of counsel, gift of fortitude, gift of knowledge, gift of piety, gift of fear of the lord" />
+                <link rel="canonical" href="https://goodcatholic.com/blog/gifts-holy-spirit" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,11 +23,11 @@ export default function DonsEspiritoSanto() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Bom Católico</span>
+                            <span className="font-display text-xl font-bold">Good Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">
-                                Fazer o Quiz
+                                Take the Quiz
                             </Button>
                         </Link>
                     </div>
@@ -40,7 +40,7 @@ export default function DonsEspiritoSanto() {
                             <span>/</span>
                             <Link to="/blog" className="hover:text-accent">Blog</Link>
                             <span>/</span>
-                            <span className="text-text">Os Dons do Espírito Santo</span>
+                            <span className="text-text">The Gifts of the Holy Spirit</span>
                         </nav>
                     </div>
                 </div>
@@ -49,30 +49,30 @@ export default function DonsEspiritoSanto() {
                     <div className="container mx-auto px-4 max-w-4xl">
                         <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
                             <ArrowLeft className="w-4 h-4" />
-                            Voltar ao Blog
+                            Back to Blog
                         </Link>
 
                         <header className="mb-8">
                             <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                                    Formação
+                                    Formation
                                 </span>
                                 <span className="flex items-center gap-1">
                                     <Calendar className="w-4 h-4" />
-                                    15 de Abril, 2026
+                                    April 15, 2026
                                 </span>
                                 <span className="flex items-center gap-1">
                                     <Clock className="w-4 h-4" />
-                                    10 min de leitura
+                                    10 min read
                                 </span>
                             </div>
 
                             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                                Os Dons do Espírito Santo e Como Eles Atuam em Nossa Vida
+                                The Gifts of the Holy Spirit and How They Work in Our Lives
                             </h1>
 
                             <p className="text-xl text-text-muted leading-relaxed">
-                                O Espírito Santo é o "Doce Hóspede da Alma". Descubra como Seus sete dons transformam nossa inteligência e vontade para vivermos como verdadeiros filhos de Deus.
+                                The Holy Spirit is the "Sweet Guest of the Soul." Discover how His seven gifts transform our intelligence and will to live as true children of God.
                             </p>
                         </header>
 
@@ -82,105 +82,105 @@ export default function DonsEspiritoSanto() {
 
                         <div className="prose prose-lg max-w-none">
                             <p className="text-text leading-relaxed mb-6">
-                                No dia do nosso Batismo, e de forma plena na Confirmação (Crisma), recebemos o Espírito Santo com Seus sete dons. Eles não são talentos naturais, mas disposições sobrenaturais que tornam o homem dócil para seguir as inspirações divinas. São como as velas de um barco que, abertas, permitem que o sopro do Espírito nos conduza ao mar alto da santidade. Muitos católicos recebem esses dons e nunca os usam – é como ter um tesouro enterrado no quintal e nunca cavar para encontrá-lo.
+                                On the day of our Baptism, and fully at Confirmation, we receive the Holy Spirit with His seven gifts. They are not natural talents, but supernatural dispositions that make man docile to follow divine inspirations. They are like the sails of a boat that, when opened, allow the breath of the Spirit to lead us to the high seas of holiness. Many Catholics receive these gifts and never use them – it is like having a treasure buried in the backyard and never digging to find it.
                             </p>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Os Sete Dons Explicados
+                                The Seven Gifts Explained
                             </h2>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                1. Sabedoria
+                                1. Wisdom
                             </h3>
                             <p className="text-text leading-relaxed mb-6">
-                                Não é o acúmulo de conhecimento, mas o "gosto" pelas coisas de Deus. O dom da Sabedoria nos permite ver o mundo, as pessoas e os acontecimentos através do olhar de Deus. Quando você tem sabedoria, entende que as riquezas passam, que a fama é vã, que o que realmente importa é a amizade com Deus.
+                                It is not the accumulation of knowledge, but the "taste" for the things of God. The gift of Wisdom allows us to see the world, people, and events through God's eyes. When you have wisdom, you understand that riches pass, that fame is vain, that what really matters is friendship with God.
                             </p>
 
                             <QuizCTA
-                                title="Você conhece os dons que recebeu no Crisma?"
-                                description="O Espírito Santo nos capacita com Seus sete dons. Faça nosso quiz e descubra qual desses dons você mais precisa cultivar neste momento para crescer em santidade e serviço."
+                                title="Do you know the gifts you received at Confirmation?"
+                                description="The Holy Spirit empowers us with His seven gifts. Take our quiz and discover which of these gifts you most need to cultivate right now to grow in holiness and service."
                             />
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                2. Entendimento (ou Inteligência)
+                                2. Understanding (or Intelligence)
                             </h3>
                             <p className="text-text leading-relaxed mb-6">
-                                Ajuda-nos a penetrar no sentido profundo das verdades reveladas e dos mistérios da fé, indo além das aparências. Quando você tem entendimento, consegue compreender por que a Igreja ensina o que ensina, por que os sacramentos são tão importantes, por que a moral católica leva à verdadeira felicidade.
+                                Helps us penetrate the deep meaning of revealed truths and the mysteries of faith, going beyond appearances. When you have understanding, you can comprehend why the Church teaches what it teaches, why the sacraments are so important, why Catholic morality leads to true happiness.
                             </p>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                3. Conselho
+                                3. Counsel
                             </h3>
                             <p className="text-text leading-relaxed mb-6">
-                                É a luz que o Espírito nos dá para discernir o que é correto fazer em situações complexas da vida, escolhendo sempre o caminho que mais agrada a Deus. Quando você está em dúvida sobre uma decisão importante, o dom do Conselho o ilumina para escolher bem.
+                                It is the light the Spirit gives us to discern what is right to do in complex life situations, always choosing the path that most pleases God. When you are in doubt about an important decision, the gift of Counsel enlightens you to choose well.
                             </p>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                4. Fortaleza
+                                4. Fortitude
                             </h3>
                             <p className="text-text leading-relaxed mb-6">
-                                Dá-nos a coragem e a perseverança necessárias para enfrentar as dificuldades, perseguições e tentações, mantendo-nos fiéis a Cristo até o fim. É o dom que permite ao mártir enfrentar a morte com alegria, ao jovem resistir à pressão dos colegas, ao cristão permanecer fiel em tempos de crise.
+                                Gives us the courage and perseverance necessary to face difficulties, persecutions, and temptations, keeping us faithful to Christ until the end. It is the gift that allows the martyr to face death with joy, the young person to resist peer pressure, the Christian to remain faithful in times of crisis.
                             </p>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                5. Ciência
+                                5. Knowledge
                             </h3>
                             <p className="text-text leading-relaxed mb-6">
-                                Permite-nos julgar retamente as coisas criadas, vendo nelas o reflexo do Criador e não as transformando em ídolos. Com o dom da Ciência, você vê a beleza de uma flor e louva o Criador; vê a tecnologia e a usa para o bem, não para o mal.
+                                Allows us to judge created things rightly, seeing in them the reflection of the Creator and not transforming them into idols. With the gift of Knowledge, you see the beauty of a flower and praise the Creator; you see technology and use it for good, not for evil.
                             </p>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                6. Piedade
+                                6. Piety
                             </h3>
                             <p className="text-text leading-relaxed mb-6">
-                                Cura nosso coração da dureza e nos dá um afeto filial para com Deus e uma fraternidade sincera para com o próximo. É o dom que nos faz amar a Deus como um filho ama seu pai, e que nos faz servir o próximo com ternura.
+                                Heals our heart from hardness and gives us a filial affection for God and sincere fraternity toward our neighbor. It is the gift that makes us love God as a child loves their father, and that makes us serve our neighbor with tenderness.
                             </p>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                7. Temor de Deus
+                                7. Fear of the Lord
                             </h3>
                             <p className="text-text leading-relaxed mb-6">
-                                Não é medo de um castigo, mas o receio amoroso de ofender a Deus, que é nosso Pai e nos ama infinitamente. É o início da verdadeira sabedoria. Quando você tem temor de Deus, evita o pecado não por medo do inferno, mas porque não quer magoar Aquele que o ama.
+                                It is not fear of punishment, but the loving fear of offending God, who is our Father and loves us infinitely. It is the beginning of true wisdom. When you have fear of the Lord, you avoid sin not out of fear of hell, but because you do not want to hurt the One who loves you.
                             </p>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Como Cultivar a Presença do Espírito?
+                                How to Cultivate the Presence of the Spirit?
                             </h2>
                             <p className="text-text leading-relaxed mb-6">
-                                O Espírito Santo é uma pessoa divina com quem podemos e devemos conversar. Peça diariamente: "Vinde, Espírito Santo!". Mantenha-se em estado de graça através da confissão frequente e busque o silêncio interior para ouvir Suas moções. Quanto mais você se abre aos dons do Espírito, mais Ele age em você, transformando-o em instrumento de Sua vontade.
+                                The Holy Spirit is a divine person with whom we can and should converse. Ask daily: "Come, Holy Spirit!" Remain in a state of grace through frequent confession and seek interior silence to hear His movements. The more you open yourself to the gifts of the Spirit, the more He acts in you, transforming you into an instrument of His will.
                             </p>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">
-                                    "O Espírito Santo é o mestre interior que nos conduz à verdade plena."
+                                    "The Holy Spirit is the interior master who leads us to the full truth."
                                 </p>
                                 <p className="text-text-muted text-center mt-2">
-                                    — São João Paulo II
+                                    — Saint John Paul II
                                 </p>
                             </div>
 
                             <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
                                 <p className="text-text italic text-center">
-                                    "Vinde, Espírito Santo, enchei os corações dos vossos fiéis e acendei neles o fogo do vosso amor."
+                                    "Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love."
                                 </p>
                                 <p className="text-text-muted text-center mt-2">
-                                    — Sequência de Pentecostes
+                                    — Pentecost Sequence
                                 </p>
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="sete-dons-espirito-santo-como-usar" />
+                        <RelatedArticles currentSlug="gifts-holy-spirit" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">
-                                Você conhece os frutos do Espírito em sua vida?
+                                Do you know the fruits of the Spirit in your life?
                             </h3>
                             <p className="text-text-muted mb-6">
-                                Faça nosso quiz e descubra como os dons do Espírito Santo estão atuando em sua jornada de fé e como você pode se abrir mais à Sua graça.
+                                Take our quiz and discover how the gifts of the Holy Spirit are working in your faith journey and how you can open yourself more to His grace.
                             </p>
                             <Link to="/quiz">
                                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                                    Fazer o Quiz Agora
+                                    Take the Quiz Now
                                 </Button>
                             </Link>
                         </div>

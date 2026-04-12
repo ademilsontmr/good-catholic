@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
-import { Cross, Calendar, Clock, ArrowRight, Heart, BookOpen, Book, Lightbulb, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Anchor, Smartphone, GraduationCap, Home, ShieldCheck, Shield, Coins, Star, MessageCircle, ChevronLeft, ChevronRight, Leaf, type LucideIcon } from "lucide-react";
+import { Link, useParams, useNavigate } from "react-router-dom";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, ChevronLeft, ChevronRight, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 
@@ -20,853 +20,133 @@ interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: 72,
-    slug: "sao-francisco-ecologia-integral",
-    title: "São Francisco de Assis e a Ecologia Integral: Cuidar da Casa Comum",
-    excerpt: "O \"Pobrezinho de Assis\" não amava a natureza por um vago sentimentalismo, mas porque via nela a assinatura do Criador.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Espiritualidade",
-    icon: Leaf,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 73,
-    slug: "como-fazer-retiro-espiritual-em-casa",
-    title: "Guia Prático: Como Fazer um Retiro Espiritual em Casa",
-    excerpt: "Nem sempre podemos ir a um mosteiro, mas podemos transformar nosso lar em um deserto fértil para ouvir a voz de Deus.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Oração",
-    icon: Home,
-    bgColor: "bg-amber-50",
-    iconColor: "text-amber-400"
-  },
-  {
-    id: 74,
-    slug: "importancia-direcao-espiritual-caminhada-fe",
-    title: "A Importância da Direção Espiritual na Caminhada de Fé",
-    excerpt: "Ninguém chega ao Céu sozinho. Ter um guia para a alma é uma das tradições mais sábias e frutuosas da Igreja Católica.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Formação",
-    icon: Users,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 75,
-    slug: "santa-teresinha-pequena-via-santidade",
-    title: "Santa Teresinha do Menino Jesus e a Pequena Via da Santidade",
-    excerpt: "A santidade não consiste em fazer coisas extraordinárias, mas em fazer as coisas comuns com um amor extraordinário.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Santos",
-    icon: Heart,
-    bgColor: "bg-rose-50",
-    iconColor: "text-rose-400"
-  },
-  {
-    id: 76,
-    slug: "protagonismo-leigos-missao-igreja-hoje",
-    title: "O Protagonismo dos Leigos na Missão da Igreja Hoje",
-    excerpt: "A Igreja não é feita apenas de clérigos. Os leigos são a linha de frente da fé no mundo, chamados a santificar o trabalho, a família e a sociedade.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Missão",
-    icon: Users,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 77,
-    slug: "beleza-liturgia-simbolos-ritos-importancia",
-    title: "A Beleza da Liturgia: Por que os Símbolos e Ritos são Importantes?",
-    excerpt: "A liturgia não é um teatro, mas a oração oficial da Igreja que nos transporta para a eternidade através dos sentidos.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Liturgia",
-    icon: Sun,
-    bgColor: "bg-yellow-50",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 78,
-    slug: "biblia-ciencia-dialogo-fe-razao-igreja",
-    title: "Bíblia e Ciência: O Diálogo entre a Fé e a Razão na Igreja Católica",
-    excerpt: "A verdade não pode contradizer a verdade. Descubra por que a Igreja nunca viu a ciência como uma inimiga, mas como uma aliada na busca pelo conhecimento.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Formação",
-    icon: Lightbulb,
-    bgColor: "bg-yellow-50",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 79,
-    slug: "combate-espiritual-vencer-vicios-graca-deus",
-    title: "Combate Espiritual: Como Vencer os Vícios com a Graça de Deus",
-    excerpt: "A vida cristã é uma guerra invisível. Para vencer, precisamos conhecer nossas fraquezas e usar as armas que a Igreja nos oferece.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Formação",
-    icon: Shield,
-    bgColor: "bg-slate-50",
-    iconColor: "text-slate-400"
-  },
-  {
-    id: 80,
-    slug: "santa-faustina-divina-misericordia-apelo-jesus",
-    title: "Santa Faustina e a Divina Misericórdia: O Apelo de Jesus para o Mundo",
-    excerpt: "\"A humanidade não encontrará a paz enquanto não se voltar com confiança para a Minha misericórdia.\"",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Santos",
-    icon: Flame,
-    bgColor: "bg-orange-50",
-    iconColor: "text-orange-400"
-  },
-  {
-    id: 81,
-    slug: "sao-jose-modelo-pai-protetor",
-    title: "São José: O Modelo de Pai e Protetor para a Família Moderna",
-    excerpt: "No silêncio de Nazaré, São José nos ensina que a verdadeira grandeza de um pai está no serviço humilde e na obediência a Deus.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Família",
-    icon: Users,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 22,
-    slug: "legado-jubileu-2025",
-    title: "O Legado do Jubileu 2025: Como Continuar Sendo um Peregrino da Esperança?",
-    excerpt: "As Portas Santas se fecharam, mas o coração do cristão deve permanecer aberto. Descubra como levar os frutos do Ano Santo para o seu dia a dia em 2026.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Jubileu 2025",
-    icon: Sun,
-    bgColor: "bg-yellow-100",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 23,
-    slug: "guia-indulgencia-plenaria",
-    title: "Indulgência Plenária: Guia Completo para os Últimos Dias do Jubileu",
-    excerpt: "A Igreja abre seus tesouros de graça de forma especial no Jubileu. Entenda como receber a remissão total das penas devidas aos seus pecados.",
-    date: "2025-12-28",
-    readTime: "10 min",
-    category: "Formação",
-    icon: BookOpen,
-    bgColor: "bg-blue-100",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 24,
-    slug: "mudancas-igreja-pos-2025",
-    title: "O Que Muda na Igreja Após o Ano Santo de 2025?",
-    excerpt: "O encerramento do Jubileu não é um ponto final, mas um novo fôlego para a missão. Entenda as tendências e desafios da Igreja para 2026.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Atualidades",
-    icon: Church,
-    bgColor: "bg-violet-100",
-    iconColor: "text-violet-400"
-  },
-  {
-    id: 25,
-    slug: "oracoes-esperanca-2026",
-    title: "Orações de Esperança para Momentos de Crise em 2026",
-    excerpt: "Quando as forças parecem esgotar, a oração é o nosso refúgio. Conheça preces poderosas para renovar sua confiança em Deus.",
-    date: "2025-12-29",
-    readTime: "6 min",
-    category: "Orações",
-    icon: Heart,
-    bgColor: "bg-rose-100",
-    iconColor: "text-rose-400"
-  },
-  {
-    id: 26,
-    slug: "peregrinacao-local",
-    title: "Como Organizar uma Peregrinação Local em Sua Diocese",
-    excerpt: "Você não precisa ir a Roma para ser um peregrino. Descubra como organizar uma jornada de fé para os santuários da sua região.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Devoções",
-    icon: MapPin,
-    bgColor: "bg-emerald-100",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 27,
-    slug: "fe-e-saude-mental-ansiedade",
-    title: "Fé e Saúde Mental: Como a Espiritualidade Católica Ajuda a Vencer a Ansiedade?",
-    excerpt: "Em um mundo hiperconectado e ansioso, a tradição católica oferece tesouros milenares para o equilíbrio da mente e da alma.",
-    date: "2025-12-29",
-    readTime: "12 min",
-    category: "Saúde Mental",
-    icon: HeartPulse,
-    bgColor: "bg-rose-50",
-    iconColor: "text-rose-400"
-  },
-  {
-    id: 28,
-    slug: "poder-do-silencio-burnout",
-    title: "O Poder do Silêncio: Retiros Espirituais para Curar o Burnout",
-    excerpt: "No ruído ensurdecedor do século XXI, o silêncio não é um luxo, mas uma necessidade vital para a sobrevivência da alma.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Espiritualidade",
-    icon: Wind,
-    bgColor: "bg-slate-100",
-    iconColor: "text-slate-400"
-  },
-  {
-    id: 29,
-    slug: "santos-depressao-noite-escura",
-    title: "Santos que Enfrentaram a Depressão e a Noite Escura da Alma",
-    excerpt: "A santidade não é ausência de sofrimento psíquico, mas a capacidade de amar a Deus mesmo em meio à escuridão da mente.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Hagiografia",
-    icon: Cloud,
-    bgColor: "bg-indigo-50",
-    iconColor: "text-indigo-400"
-  },
-  {
-    id: 30,
-    slug: "oracao-vs-mindfulness-cristao",
-    title: "Oração e Mindfulness: A Diferença entre Meditação Cristã e Práticas Seculares",
-    excerpt: "Atenção plena ou presença de Deus? Entenda por que a meditação católica vai muito além do relaxamento mental.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Formação",
-    icon: Brain,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 31,
-    slug: "como-lidar-com-luto-fe-crista",
-    title: "Como Lidar com o Luto: O Consolo da Fé na Vida Eterna",
-    excerpt: "A morte não é o fim, mas uma passagem. Aprenda como a esperança cristã transforma a dor da saudade em oração e confiança.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Espiritualidade",
-    icon: Anchor,
-    bgColor: "bg-cyan-50",
-    iconColor: "text-cyan-400"
-  },
-  {
-    id: 32,
-    slug: "como-transmitir-fe-filhos-era-digital",
-    title: "Como Transmitir a Fé Católica aos Filhos na Era das Telas?",
-    excerpt: "Educar para o céu nunca foi tão desafiador. Descubra como competir com o algoritmo e plantar sementes de eternidade no coração dos seus filhos.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Família",
-    icon: Smartphone,
-    bgColor: "bg-indigo-50",
-    iconColor: "text-indigo-400"
-  },
-  {
-    id: 33,
-    slug: "igreja-domestica-oracao-familia",
-    title: "Igreja Doméstica: Passos Práticos para Rezar em Família",
-    excerpt: "\"Família que reza unida, permanece unida\". Descubra como criar um ambiente de fé e oração dentro da sua própria casa.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Família",
-    icon: Home,
-    bgColor: "bg-amber-50",
-    iconColor: "text-amber-400"
-  },
-  {
-    id: 34,
-    slug: "homeschooling-catolico-educacao-classica",
-    title: "Educação Clássica e Católica: Por que o Homeschooling Cresce no Brasil?",
-    excerpt: "Mais do que uma alternativa escolar, o homeschooling católico é um resgate da missão dos pais como primeiros educadores.",
-    date: "2025-12-29",
-    readTime: "12 min",
-    category: "Educação",
-    icon: GraduationCap,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 35,
-    slug: "namoro-santo-castidade-2026",
-    title: "Namoro Santo em 2026: Desafios da Castidade no Mundo Digital",
-    excerpt: "É possível viver a castidade em um mundo que a ridiculariza? Descubra como construir um relacionamento baseado no amor real e não apenas na atração passageira.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Juventude",
-    icon: Heart,
-    bgColor: "bg-rose-50",
-    iconColor: "text-rose-400"
-  },
-  {
-    id: 36,
-    slug: "papel-dos-avos-transmissao-fe",
-    title: "O Papel dos Avós na Transmissão da Tradição Cristã",
-    excerpt: "Os avós são os guardiões da memória e as raízes que sustentam a árvore da família. Saiba como sua influência é insubstituível na vida dos netos.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Família",
-    icon: Users,
-    bgColor: "bg-orange-50",
-    iconColor: "text-orange-400"
-  },
-  {
-    id: 37,
-    slug: "poder-da-confissao-guia-preparacao",
-    title: "O Poder da Confissão: Como se Preparar para uma Confissão que Muda a Vida",
-    excerpt: "A Confissão não é um tribunal de condenação, mas um hospital de cura. Aprenda a abrir o coração para a misericórdia que renova todas as coisas.",
-    date: "2025-12-29",
-    readTime: "12 min",
-    category: "Sacramentos",
-    icon: Flame,
-    bgColor: "bg-orange-50",
-    iconColor: "text-orange-400"
-  },
-  {
-    id: 38,
-    slug: "eucaristia-missa-diaria-segredo-santos",
-    title: "A Eucaristia no Dia a Dia: Por que a Missa Diária é o Segredo dos Santos?",
-    excerpt: "Receber o Pão do Céu todos os dias não é um privilégio de poucos, mas um convite de amor para todos os que buscam a santidade.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Sacramentos",
-    icon: Sun,
-    bgColor: "bg-yellow-50",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 39,
-    slug: "como-rezar-terco-sem-distracoes",
-    title: "Como Rezar o Terço sem Distrações: Dicas de Concentração",
-    excerpt: "Rezar o Terço não é apenas repetir palavras, mas contemplar o rosto de Cristo com Maria. Saiba como vencer as batalhas da mente.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Oração",
-    icon: Heart,
-    bgColor: "bg-rose-50",
-    iconColor: "text-rose-400"
-  },
-  {
-    id: 40,
-    slug: "significado-sacramentais-catolicos",
-    title: "O Significado dos Sacramentais: Água Benta, Escapulário e Medalhas",
-    excerpt: "Sacramentais não são \"amuletos da sorte\", mas sinais sagrados que nos ajudam a viver em estado de graça. Entenda como usá-los.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Doutrina",
-    icon: ShieldCheck,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 41,
-    slug: "lectio-divina-guia-passo-a-passo",
-    title: "Lectio Divina: Guia Passo a Passo para Ler a Bíblia com o Coração",
-    excerpt: "A Bíblia não é um livro de história, mas uma carta de amor de Deus para você. Aprenda a ouvi-Lo através da Leitura Orante.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Oração",
-    icon: BookOpen,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 42,
-    slug: "o-que-e-graca-santificante-amizade-deus",
-    title: "O Que é a Graça Santificante? Como Viver em Estado de Amizade com Deus",
-    excerpt: "A graça não é apenas uma ajuda externa, mas a própria vida de Deus habitando em nossa alma. Descubra como preservar esse tesouro infinito.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Doutrina",
-    icon: Flame,
-    bgColor: "bg-orange-50",
-    iconColor: "text-orange-400"
-  },
-  {
-    id: 43,
-    slug: "virtudes-cardeais-guia-pratico-cotidiano",
-    title: "As Virtudes Cardeais: Justiça, Prudência, Fortaleza e Temperança no Cotidiano",
-    excerpt: "As virtudes são os \"músculos\" da alma. Descubra como exercitá-las para viver com integridade e equilíbrio no mundo moderno.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Formação",
-    icon: Shield,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 44,
-    slug: "sete-dons-espirito-santo-como-usar",
-    title: "Os Dons do Espírito Santo: Como Identificá-los e Usá-los",
-    excerpt: "O Espírito Santo é o \"Doce Hóspede da Alma\". Conheça as sete ferramentas divinas que Ele nos dá para vivermos como verdadeiros cristãos.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Doutrina",
-    icon: Flame,
-    bgColor: "bg-orange-50",
-    iconColor: "text-orange-400"
-  },
-  {
-    id: 45,
-    slug: "doutrina-purgatorio-purificacao-final",
-    title: "O Purgatório: O que a Igreja Realmente Ensina sobre a Purificação Final",
-    excerpt: "O Purgatório não é um \"segundo inferno\", mas a ante-sala do Céu. Descubra por que este dogma é uma das maiores provas do amor de Deus.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Doutrina",
-    icon: BookOpen,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 46,
-    slug: "importancia-dizimo-caridade-crista",
-    title: "A Importância do Dízimo e da Caridade: O Cristão e o Uso do Dinheiro",
-    excerpt: "O dízimo não é uma taxa, mas um ato de gratidão. Entenda como a generosidade liberta o coração do apego material e nos aproxima de Deus.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Vida Cristã",
-    icon: Coins,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 47,
-    slug: "santos-pais-maes-santidade-matrimonio",
-    title: "Santos que Foram Pais e Mães: A Santidade no Matrimônio",
-    excerpt: "A santidade não é exclusividade de padres e freiras. Descubra como homens e mulheres alcançaram o céu através do amor conjugal e da educação dos filhos.",
-    date: "2025-12-29",
-    readTime: "12 min",
-    category: "Santos",
-    icon: Users,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 48,
-    slug: "carlo-acutis-padroeiro-internet-eucaristia",
-    title: "Carlo Acutis: O Padroeiro da Internet e a Eucaristia",
-    excerpt: "Carlo Acutis nos mostrou que é possível ser um jovem moderno, gostar de videogames e computadores, e ser profundamente apaixonado por Deus.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Santos",
-    icon: Smartphone,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 49,
-    slug: "santa-dulce-dos-pobres-legado-caridade",
-    title: "Santa Dulce dos Pobres: O Legado de Caridade no Brasil",
-    excerpt: "Irmã Dulce não esperava as condições ideais para ajudar; ela transformava galinheiros em hospitais e a indiferença em amor.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Santos",
-    icon: Heart,
-    bgColor: "bg-rose-50",
-    iconColor: "text-rose-400"
-  },
-  {
-    id: 50,
-    slug: "como-escolher-santo-padroeiro-guia",
-    title: "Como Escolher um Santo Padroeiro para 2026: Um Guia Espiritual",
-    excerpt: "Ter um santo padroeiro não é apenas uma tradição, mas uma amizade espiritual que nos ajuda a caminhar seguros em direção ao Céu.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Espiritualidade",
-    icon: Star,
-    bgColor: "bg-yellow-50",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 51,
-    slug: "vida-sao-bento-protecao-contra-mal",
-    title: "A Vida de São Bento e a Proteção contra o Mal",
-    excerpt: "São Bento não é apenas o santo da medalha, mas o mestre da vida espiritual que nos ensina a vencer as ciladas do inimigo com a oração e o trabalho.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Santos",
-    icon: ShieldCheck,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 52,
-    slug: "como-ler-biblia-em-um-ano-plano-2026",
-    title: "Como Ler a Bíblia em um Ano: Um Plano Prático para 2026",
-    excerpt: "Ler a Bíblia inteira parece uma tarefa impossível? Com o método certo e constância, você pode mergulhar na Palavra de Deus de Gênesis ao Apocalipse.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Bíblia",
-    icon: BookOpen,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 53,
-    slug: "os-quatro-evangelhos-diferencas-riquezas",
-    title: "Os 4 Evangelhos: Diferenças e Riquezas de Cada Relato",
-    excerpt: "Por que temos quatro livros para contar a mesma história? Descubra como cada evangelista pintou um retrato único do Salvador.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Bíblia",
-    icon: Book,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 54,
-    slug: "parabolas-jesus-licoes-sabedoria-moderna",
-    title: "Parábolas de Jesus: Lições de Sabedoria para o Mundo Moderno",
-    excerpt: "Jesus não falava por conceitos abstratos, mas por histórias que tocavam o coração. Descubra o que Ele tem a nos dizer hoje através das parábolas.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Bíblia",
-    icon: Lightbulb,
-    bgColor: "bg-yellow-50",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 55,
-    slug: "como-falar-de-deus-amigos-nao-crentes",
-    title: "Como Falar de Deus para Amigos Não Crentes sem Ser Chato",
-    excerpt: "Evangelizar não é \"ganhar discussões\", mas compartilhar uma alegria. Saiba como ser uma testemunha autêntica no seu círculo de amizades.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Missão",
-    icon: MessageCircle,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 56,
-    slug: "importancia-pertencer-comunidade-paroquial",
-    title: "A Importância de Pertencer a uma Comunidade Paroquial",
-    excerpt: "Ninguém se salva sozinho. A paróquia é a nossa família espiritual, o lugar onde a fé se torna concreta e o amor se faz serviço.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Vida Cristã",
-    icon: Church,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 57,
-    slug: "ano-liturgico-guia-cores-tempos",
-    title: "O Ano Litúrgico: Entenda as Cores e os Tempos da Igreja",
-    excerpt: "Para o cristão, o tempo não é apenas um relógio que corre, mas um caminho de santificação. Descubra como a Igreja nos conduz através da vida de Cristo.",
-    date: "2025-12-29",
-    readTime: "12 min",
-    category: "Liturgia",
-    icon: Sun,
-    bgColor: "bg-purple-50",
-    iconColor: "text-purple-400"
-  },
-  {
-    id: 58,
-    slug: "advento-quaresma-como-se-preparar",
-    title: "Advento e Quaresma: Como se Preparar para as Grandes Festas",
-    excerpt: "Não deixe que as festas passem em branco. Descubra como os tempos de preparação podem transformar seu coração para receber o Senhor.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Liturgia",
-    icon: Wind,
-    bgColor: "bg-purple-50",
-    iconColor: "text-purple-400"
-  },
-  {
-    id: 59,
-    slug: "significado-vigilia-pascal-noite-santa",
-    title: "O Significado da Vigília Pascal: A Noite mais Santa do Ano",
-    excerpt: "A Vigília Pascal é a \"mãe de todas as vigílias\". Descubra a beleza dos ritos que celebram a vitória definitiva da vida sobre a morte.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Liturgia",
-    icon: Flame,
-    bgColor: "bg-orange-50",
-    iconColor: "text-orange-400"
-  },
-  {
-    id: 60,
-    slug: "corpus-christi-presenca-real-jesus-eucaristia",
-    title: "Corpus Christi: A Fé na Presença Real de Jesus na Eucaristia",
-    excerpt: "Corpus Christi não é apenas um feriado ou uma tradição de tapetes coloridos. É a proclamação pública de que Deus caminha conosco.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Doutrina",
-    icon: Sun,
-    bgColor: "bg-yellow-50",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 61,
-    slug: "como-viver-domingo-dia-do-senhor",
-    title: "Como Viver o Domingo como o Dia do Senhor em 2026",
-    excerpt: "O domingo não é apenas o fim de semana, mas o \"oitavo dia\", o dia da Ressurreição. Saiba como resgatar a sacralidade deste dia em sua rotina.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Vida Cristã",
-    icon: Home,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 62,
-    slug: "por-que-catolicos-honram-maria-dogma-devocao",
-    title: "Por que os Católicos Honram Maria? Entenda o Dogma e a Devoção",
-    excerpt: "Maria não afasta de Jesus; ela é o caminho mais curto para chegar a Ele. Entenda por que a \"Cheia de Graça\" ocupa um lugar central em nossa fé.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Doutrina",
-    icon: Heart,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 63,
-    slug: "rosario-arma-espiritual-desafios-2026",
-    title: "O Rosário: Uma Arma Espiritual para os Desafios de 2026",
-    excerpt: "Em um mundo agitado e cheio de incertezas, o Rosário é a âncora que nos mantém unidos a Deus através das mãos de Maria.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Oração",
-    icon: Shield,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 64,
-    slug: "nossa-senhora-fatima-mensagem-oracao-penitencia",
-    title: "Nossa Senhora de Fátima: A Mensagem de Oração e Penitência",
-    excerpt: "Mais do que profecias sobre o futuro, Fátima é um apelo urgente à conversão do coração. Descubra o que a Virgem tem a nos dizer hoje.",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Devoção",
-    icon: Sun,
-    bgColor: "bg-yellow-50",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 65,
-    slug: "escapulario-carmo-significado-promessas",
-    title: "O Escapulário do Carmo: Significado e Promessas de Proteção",
-    excerpt: "O Escapulário não é um amuleto mágico, mas um sinal de pertença a Maria e um compromisso de seguir a Jesus.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Devoção",
-    icon: ShieldCheck,
-    bgColor: "bg-emerald-50",
-    iconColor: "text-emerald-400"
-  },
-  {
-    id: 66,
-    slug: "consagracao-nossa-senhora-guia-pratico",
-    title: "Consagração a Nossa Senhora: O que é e Como Fazer",
-    excerpt: "Consagrar-se a Maria é entregar as chaves da sua vida para aquela que melhor soube dizer \"Sim\" a Deus.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Espiritualidade",
-    icon: Anchor,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 67,
-    slug: "o-que-acontece-depois-da-morte-ceu-inferno-purgatorio",
-    title: "O que Acontece Depois da Morte? Céu, Inferno e Purgatório",
-    excerpt: "A morte não é o fim, mas o nascimento para a eternidade. Descubra o que a Igreja ensina sobre o destino final de cada alma.",
-    date: "2025-12-29",
-    readTime: "12 min",
-    category: "Doutrina",
-    icon: Cloud,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 68,
-    slug: "segunda-vinda-cristo-fim-dos-tempos-parusia",
-    title: "A Segunda Vinda de Cristo: Como a Igreja Entende o Fim dos Tempos",
-    excerpt: "\"Maranathá! Vem, Senhor Jesus!\" Descubra o que a Igreja ensina sobre a Parusia e a consumação da história.",
-    date: "2025-12-29",
-    readTime: "11 min",
-    category: "Doutrina",
-    icon: Sun,
-    bgColor: "bg-yellow-50",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 69,
-    slug: "juizo-particular-e-juizo-final-diferencas",
-    title: "O Juízo Particular e o Juízo Final: Qual a Diferença?",
-    excerpt: "Seremos julgados uma ou duas vezes? Entenda como a Igreja explica os momentos em que prestaremos contas de nossa vida a Deus.",
-    date: "2025-12-29",
-    readTime: "10 min",
-    category: "Doutrina",
-    icon: Shield,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 70,
-    slug: "ressurreicao-da-carne-nossa-esperanca-vida-eterna",
-    title: "A Ressurreição da Carne: Nossa Esperança na Vida Eterna",
-    excerpt: "\"Creio na ressurreição da carne\". O que essa frase do Credo realmente significa para o nosso futuro?",
-    date: "2025-12-29",
-    readTime: "9 min",
-    category: "Doutrina",
-    icon: Flame,
-    bgColor: "bg-orange-50",
-    iconColor: "text-orange-400"
-  },
-  {
-    id: 71,
-    slug: "como-se-preparar-para-eternidade-dia-a-dia",
-    title: "Como se Preparar para a Eternidade no Dia a Dia de 2026",
-    excerpt: "Viver com o \"olhar no Céu e os pés na terra\". Saiba como manter a perspectiva eterna em um mundo que só pensa no agora.",
-    date: "2025-12-29",
-    readTime: "8 min",
-    category: "Vida Cristã",
-    icon: Anchor,
-    bgColor: "bg-blue-50",
-    iconColor: "text-blue-400"
-  },
-  {
     id: 1,
-    slug: "como-rezar-rosario",
-    title: "Como Rezar o Santo Rosário: Guia Completo para Iniciantes",
-    excerpt: "Aprenda passo a passo como rezar o Santo Rosário e fortalecer sua devoção mariana com este guia prático e espiritual.",
-    date: "2024-12-05",
+    slug: "how-to-pray-rosary",
+    title: "How to Pray the Holy Rosary: Complete Guide for Beginners",
+    excerpt: "Learn step by step how to pray the Holy Rosary and strengthen your Marian devotion with this practical and spiritual guide.",
+    date: "2026-04-12",
     readTime: "8 min",
-    category: "Orações",
+    category: "Prayers",
     icon: Heart,
     bgColor: "bg-rose-100",
     iconColor: "text-rose-400"
   },
   {
     id: 2,
-    slug: "sete-sacramentos",
-    title: "Os 7 Sacramentos da Igreja Católica Explicados",
-    excerpt: "Entenda a importância e o significado de cada um dos sete sacramentos instituídos por Cristo para nossa salvação.",
-    date: "2024-12-03",
+    slug: "seven-sacraments",
+    title: "The 7 Sacraments of the Catholic Church Explained",
+    excerpt: "Understand the importance and meaning of each of the seven sacraments instituted by Christ for our salvation.",
+    date: "2026-04-12",
     readTime: "12 min",
-    category: "Formação",
+    category: "Formation",
     icon: BookOpen,
     bgColor: "bg-blue-100",
     iconColor: "text-blue-400"
   },
   {
     id: 3,
-    slug: "importancia-confissao",
-    title: "A Importância da Confissão: Por Que Confessar Regularmente?",
-    excerpt: "Descubra os benefícios espirituais da confissão frequente e como ela transforma nossa vida cristã.",
-    date: "2024-11-28",
+    slug: "importance-confession",
+    title: "The Importance of Confession: Why Confess Regularly?",
+    excerpt: "Discover the spiritual benefits of frequent confession and how it transforms our Christian life.",
+    date: "2026-04-12",
     readTime: "6 min",
-    category: "Sacramentos",
+    category: "Sacraments",
     icon: Church,
     bgColor: "bg-violet-100",
     iconColor: "text-violet-400"
   },
   {
     id: 4,
-    slug: "santos-padroeiros",
-    title: "Santos Padroeiros: Como Escolher e Honrar o Seu",
-    excerpt: "Conheça a tradição dos santos padroeiros e como eles podem interceder por você em sua jornada de fé.",
-    date: "2024-11-25",
+    slug: "patron-saints",
+    title: "Patron Saints: How to Choose and Honor Yours",
+    excerpt: "Learn about the tradition of patron saints and how they can intercede for you on your faith journey.",
+    date: "2026-04-12",
     readTime: "7 min",
-    category: "Devoções",
+    category: "Devotions",
     icon: Users,
     bgColor: "bg-amber-100",
     iconColor: "text-amber-400"
   },
   {
     id: 5,
-    slug: "jejum-abstinencia",
-    title: "Jejum e Abstinência: Práticas Que Fortalecem a Alma",
-    excerpt: "Aprenda sobre as práticas de jejum e abstinência na Igreja Católica e como elas nos aproximam de Deus.",
-    date: "2024-11-20",
+    slug: "fasting-abstinence",
+    title: "Fasting and Abstinence: Practices That Strengthen the Soul",
+    excerpt: "Learn about the practices of fasting and abstinence in the Catholic Church and how they bring us closer to God.",
+    date: "2026-04-12",
     readTime: "5 min",
-    category: "Espiritualidade",
+    category: "Spirituality",
     icon: Flame,
     bgColor: "bg-orange-100",
     iconColor: "text-orange-400"
   },
   {
     id: 6,
-    slug: "missa-dominical",
-    title: "A Missa Dominical: Centro da Vida Cristã",
-    excerpt: "Por que a participação na Missa aos domingos é essencial para todo católico e como aproveitá-la melhor.",
-    date: "2024-11-15",
+    slug: "sunday-mass",
+    title: "Sunday Mass: Center of Christian Life",
+    excerpt: "Why participation in Sunday Mass is essential for every Catholic and how to make the most of it.",
+    date: "2026-04-12",
     readTime: "9 min",
-    category: "Liturgia",
+    category: "Liturgy",
     icon: Sun,
     bgColor: "bg-yellow-100",
     iconColor: "text-yellow-400"
   },
   {
     id: 7,
-    slug: "vida-oracao",
-    title: "A Vida de Oração: Como Cultivar uma Intimidade com Deus",
-    excerpt: "Aprenda como transformar seu diálogo com Deus em uma fonte de vida e paz através da oração constante.",
-    date: "2024-12-29",
-    readTime: "7 min",
-    category: "Espiritualidade",
+    slug: "prayer-life",
+    title: "Prayer Life: How to Cultivate Intimacy with God",
+    excerpt: "Learn how to transform your dialogue with God into a source of life and peace through consistent prayer.",
+    date: "2026-04-12",
+    readTime: "10 min",
+    category: "Prayer",
     icon: Heart,
     bgColor: "bg-rose-100",
     iconColor: "text-rose-400"
   },
   {
     id: 8,
-    slug: "significado-missa",
-    title: "O Significado da Santa Missa: Entenda Cada Parte da Liturgia",
-    excerpt: "Descubra a riqueza teológica e espiritual contida em cada gesto e palavra da celebração eucarística.",
-    date: "2024-12-29",
-    readTime: "10 min",
-    category: "Liturgia",
-    icon: BookOpen,
-    bgColor: "bg-blue-100",
-    iconColor: "text-blue-400"
-  },
-  {
-    id: 9,
-    slug: "exame-consciencia",
-    title: "Como Fazer um Bom Exame de Consciência para a Confissão",
-    excerpt: "Um guia prático e espiritual para preparar seu coração para o sacramento da Reconciliação.",
-    date: "2024-12-29",
-    readTime: "8 min",
-    category: "Sacramentos",
+    slug: "meaning-mass",
+    title: "Understanding the Mass: A Journey Through the Liturgy",
+    excerpt: "Discover the deep meaning behind each part of the Mass and how to participate more fully.",
+    date: "2026-04-12",
+    readTime: "11 min",
+    category: "Liturgy",
     icon: Church,
     bgColor: "bg-violet-100",
     iconColor: "text-violet-400"
   },
   {
+    id: 9,
+    slug: "examination-conscience",
+    title: "Examination of Conscience: Daily Practice for Spiritual Growth",
+    excerpt: "Learn how to examine your conscience daily and grow in holiness through self-reflection.",
+    date: "2026-04-12",
+    readTime: "7 min",
+    category: "Spirituality",
+    icon: BookOpen,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
     id: 10,
-    slug: "virgem-maria",
-    title: "A Virgem Maria na Doutrina Católica: Dogmas e Devoção",
-    excerpt: "Entenda o papel fundamental de Nossa Senhora no plano de salvação e os pilares da fé mariana.",
-    date: "2024-12-29",
+    slug: "virgin-mary",
+    title: "The Virgin Mary: Mother of God and Our Mother",
+    excerpt: "Explore the role of Mary in salvation history and how she continues to intercede for us today.",
+    date: "2026-04-12",
     readTime: "9 min",
-    category: "Devoções",
+    category: "Devotions",
     icon: Heart,
-    bgColor: "bg-rose-100",
-    iconColor: "text-rose-400"
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
   },
   {
     id: 11,
-    slug: "dons-espirito-santo",
-    title: "Os Dons do Espírito Santo e Como Eles Atuam em Nossa Vida",
-    excerpt: "Descubra como os sete dons do Espírito Santo fortalecem a alma e nos conduzem à santidade.",
-    date: "2024-12-29",
-    readTime: "10 min",
-    category: "Formação",
+    slug: "gifts-holy-spirit",
+    title: "The Seven Gifts of the Holy Spirit",
+    excerpt: "Understand the seven gifts the Holy Spirit bestows upon us at Confirmation and how to use them.",
+    date: "2026-04-12",
+    readTime: "8 min",
+    category: "Formation",
     icon: Flame,
     bgColor: "bg-orange-100",
     iconColor: "text-orange-400"
@@ -874,374 +154,396 @@ export const blogPosts: BlogPost[] = [
   {
     id: 12,
     slug: "lectio-divina",
-    title: "A Importância da Leitura Orante da Bíblia (Lectio Divina)",
-    excerpt: "Aprenda o método milenar de leitura orante das Escrituras para um encontro pessoal com Deus.",
-    date: "2024-12-29",
-    readTime: "7 min",
-    category: "Espiritualidade",
+    title: "Lectio Divina: Praying with Scripture",
+    excerpt: "Discover the ancient practice of Lectio Divina and how to pray with the Word of God.",
+    date: "2026-04-12",
+    readTime: "10 min",
+    category: "Prayer",
     icon: BookOpen,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
+  {
+    id: 13,
+    slug: "chastity-modern-world",
+    title: "Chastity in the Modern World: Living Purity Today",
+    excerpt: "Practical guidance on living the virtue of chastity in contemporary society.",
+    date: "2026-04-12",
+    readTime: "12 min",
+    category: "Christian Life",
+    icon: Shield,
     bgColor: "bg-blue-100",
     iconColor: "text-blue-400"
   },
   {
-    id: 13,
-    slug: "castidade-mundo-moderno",
-    title: "Viver a Castidade no Mundo Moderno: Desafios e Graças",
-    excerpt: "A castidade como um caminho de liberdade e amor autêntico em meio aos desafios da cultura atual.",
-    date: "2024-12-29",
-    readTime: "9 min",
-    category: "Formação",
-    icon: Users,
-    bgColor: "bg-amber-100",
-    iconColor: "text-amber-400"
-  },
-  {
     id: 14,
-    slug: "doutrina-social",
-    title: "A Doutrina Social da Igreja: O Olhar Católico sobre a Sociedade",
-    excerpt: "Conheça os princípios católicos para a construção de uma sociedade mais justa e solidária.",
-    date: "2024-12-29",
-    readTime: "10 min",
-    category: "Formação",
+    slug: "social-doctrine",
+    title: "Catholic Social Doctrine: Faith in Action",
+    excerpt: "Learn about the Church's social teaching and how to apply it in your daily life.",
+    date: "2026-04-12",
+    readTime: "11 min",
+    category: "Formation",
     icon: Users,
-    bgColor: "bg-amber-100",
-    iconColor: "text-amber-400"
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
   },
   {
     id: 15,
-    slug: "discernimento-vocacional",
-    title: "Como Discernir a Vontade de Deus em Sua Vida",
-    excerpt: "Dicas práticas e espirituais para descobrir o plano de amor que Deus tem para você.",
-    date: "2024-12-29",
-    readTime: "8 min",
-    category: "Espiritualidade",
-    icon: Sun,
-    bgColor: "bg-yellow-100",
-    iconColor: "text-yellow-400"
-  },
-  {
-    id: 16,
-    slug: "eucaristia-presenca-real",
-    title: "A Eucaristia: Presença Real de Jesus no Pão e no Vinho",
-    excerpt: "Entenda o mistério da Transubstanciação e a importância da Eucaristia na vida do cristão.",
-    date: "2024-12-29",
-    readTime: "10 min",
-    category: "Sacramentos",
-    icon: Church,
+    slug: "vocational-discernment",
+    title: "Vocational Discernment: Finding God's Call",
+    excerpt: "Guidance on discerning your vocation and discovering God's plan for your life.",
+    date: "2026-04-12",
+    readTime: "13 min",
+    category: "Vocation",
+    icon: MapPin,
     bgColor: "bg-violet-100",
     iconColor: "text-violet-400"
   },
   {
-    id: 17,
-    slug: "adoracao-eucaristica",
-    title: "A Importância da Adoração Eucarística",
-    excerpt: "Descubra os benefícios espirituais de passar um tempo diante do Santíssimo Sacramento. Um guia sobre como fazer uma boa hora santa.",
-    date: "2024-12-29",
-    readTime: "8 min",
-    category: "Espiritualidade",
+    id: 16,
+    slug: "eucharist-real-presence",
+    title: "The Eucharist: Understanding the Real Presence",
+    excerpt: "Explore the Catholic teaching on the Real Presence of Christ in the Eucharist.",
+    date: "2026-04-12",
+    readTime: "10 min",
+    category: "Sacraments",
     icon: Sun,
     bgColor: "bg-yellow-100",
     iconColor: "text-yellow-400"
   },
   {
+    id: 17,
+    slug: "eucharistic-adoration",
+    title: "Eucharistic Adoration: Time with Jesus",
+    excerpt: "Discover the beauty and power of spending time in Eucharistic Adoration.",
+    date: "2026-04-12",
+    readTime: "8 min",
+    category: "Prayer",
+    icon: Sun,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
     id: 18,
-    slug: "o-que-e-purgatorio",
-    title: "O Que é o Purgatório? Verdades de Fé",
-    excerpt: "Entenda o dogma do Purgatório, por que ele existe e qual a importância de rezarmos pelas almas que lá estão.",
-    date: "2024-12-29",
-    readTime: "10 min",
-    category: "Formação",
-    icon: BookOpen,
+    slug: "what-is-purgatory",
+    title: "What is Purgatory? Understanding Catholic Teaching",
+    excerpt: "Learn about the Catholic doctrine of Purgatory and its role in our salvation.",
+    date: "2026-04-12",
+    readTime: "9 min",
+    category: "Doctrine",
+    icon: Cloud,
     bgColor: "bg-blue-100",
     iconColor: "text-blue-400"
   },
   {
     id: 19,
-    slug: "como-viver-quaresma",
-    title: "Como Viver a Quaresma com Frutos Espirituais",
-    excerpt: "Prepare-se para a Páscoa com este guia prático sobre como viver bem a Quaresma através da oração, jejum e caridade.",
-    date: "2024-12-29",
-    readTime: "9 min",
-    category: "Espiritualidade",
-    icon: Flame,
-    bgColor: "bg-orange-100",
-    iconColor: "text-orange-400"
+    slug: "how-to-live-lent",
+    title: "How to Live Lent: A Season of Conversion",
+    excerpt: "Practical tips for making the most of the Lenten season and growing closer to God.",
+    date: "2026-04-12",
+    readTime: "11 min",
+    category: "Liturgy",
+    icon: Wind,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-400"
   },
   {
     id: 20,
-    slug: "anjos-da-guarda",
-    title: "O Papel dos Anjos da Guarda em Nossa Vida",
-    excerpt: "Conheça a doutrina católica sobre os Anjos da Guarda. Saiba como eles nos protegem, guiam e intercedem por nós.",
-    date: "2024-12-29",
+    slug: "guardian-angels",
+    title: "Guardian Angels: Our Heavenly Companions",
+    excerpt: "Learn about the role of guardian angels in our lives and how to develop devotion to them.",
+    date: "2026-04-12",
     readTime: "7 min",
-    category: "Devoções",
-    icon: Users,
-    bgColor: "bg-amber-100",
-    iconColor: "text-amber-400"
+    category: "Devotions",
+    icon: Shield,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
   },
   {
     id: 21,
-    slug: "significado-crucifixo",
-    title: "A História e o Significado do Crucifixo",
-    excerpt: "Entenda por que o crucifixo é o símbolo central da fé católica. Conheça sua história, simbolismo e importância.",
-    date: "2024-12-29",
+    slug: "meaning-of-crucifix",
+    title: "The History and Meaning of the Crucifix",
+    excerpt: "Understand why the crucifix is the central symbol of Catholic faith and its importance in our homes.",
+    date: "2026-04-12",
     readTime: "6 min",
-    category: "Devoções",
+    category: "Devotions",
     icon: Church,
     bgColor: "bg-violet-100",
     iconColor: "text-violet-400"
   },
-  // Doutrina Profunda
-  { id: 83, slug: "pecado-original-redencao", title: "O Pecado Original e a Redenção", excerpt: "Entenda o dogma do pecado original e como Cristo nos redimiu.", date: "2025-12-30", readTime: "12 min", category: "Doutrina", icon: BookOpen, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 84, slug: "ceu-inferno-purgatorio", title: "Céu, Inferno e Purgatório: Os Novíssimos", excerpt: "O que a Igreja ensina sobre o destino eterno das almas.", date: "2025-12-30", readTime: "14 min", category: "Doutrina", icon: Cloud, bgColor: "bg-indigo-50", iconColor: "text-indigo-400" },
-  { id: 85, slug: "igreja-corpo-cristo", title: "A Igreja como Corpo de Cristo", excerpt: "Entenda por que a Igreja é o Corpo Místico de Cristo.", date: "2025-12-30", readTime: "10 min", category: "Doutrina", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
-  // Prosperidade
-  { id: 86, slug: "prosperidade-espiritual-vs-material", title: "Prosperidade Espiritual vs Material", excerpt: "A visão católica sobre riqueza e o verdadeiro tesouro.", date: "2025-12-30", readTime: "10 min", category: "Vida Cristã", icon: Coins, bgColor: "bg-emerald-50", iconColor: "text-emerald-400" },
-  { id: 87, slug: "trabalho-digno-vocacao", title: "O Trabalho Digno como Vocação", excerpt: "Como santificar o trabalho diário.", date: "2025-12-30", readTime: "9 min", category: "Vida Cristã", icon: Sun, bgColor: "bg-yellow-50", iconColor: "text-yellow-400" },
-  { id: 88, slug: "generosidade-desprendimento", title: "Generosidade e Desprendimento", excerpt: "Viver a caridade e o desprendimento material.", date: "2025-12-30", readTime: "8 min", category: "Vida Cristã", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
-  // Artigos Populares
-  { id: 89, slug: "por-que-catolicos-rezam-santos", title: "Por Que Católicos Rezam para os Santos?", excerpt: "Entenda a doutrina da intercessão dos santos.", date: "2025-12-30", readTime: "10 min", category: "Doutrina", icon: Users, bgColor: "bg-amber-100", iconColor: "text-amber-400" },
-  { id: 90, slug: "diferenca-catolicos-evangelicos", title: "Diferença entre Católicos e Evangélicos", excerpt: "As principais diferenças doutrinárias explicadas.", date: "2025-12-30", readTime: "12 min", category: "Formação", icon: BookOpen, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 91, slug: "como-se-confessar-guia-completo", title: "Como se Confessar: Guia Completo", excerpt: "Tudo para fazer uma boa confissão sacramental.", date: "2025-12-30", readTime: "15 min", category: "Sacramentos", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
-  // 7 Sacramentos
-  { id: 92, slug: "sacramento-batismo", title: "Sacramento do Batismo", excerpt: "A porta de entrada para a vida cristã e a Igreja.", date: "2025-12-30", readTime: "10 min", category: "Sacramentos", icon: Church, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 93, slug: "sacramento-crisma", title: "Sacramento da Crisma", excerpt: "A confirmação e os dons do Espírito Santo.", date: "2025-12-30", readTime: "10 min", category: "Sacramentos", icon: Flame, bgColor: "bg-orange-100", iconColor: "text-orange-400" },
-  { id: 94, slug: "sacramento-eucaristia", title: "Sacramento da Eucaristia", excerpt: "O corpo e sangue de Cristo, fonte de vida eterna.", date: "2025-12-30", readTime: "12 min", category: "Sacramentos", icon: Sun, bgColor: "bg-yellow-100", iconColor: "text-yellow-400" },
-  { id: 95, slug: "sacramento-confissao", title: "Sacramento da Confissão", excerpt: "A reconciliação com Deus e a Igreja.", date: "2025-12-30", readTime: "10 min", category: "Sacramentos", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
-  { id: 96, slug: "sacramento-uncao-enfermos", title: "Sacramento da Unção dos Enfermos", excerpt: "Conforto e graça para os doentes.", date: "2025-12-30", readTime: "8 min", category: "Sacramentos", icon: HeartPulse, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
-  { id: 97, slug: "sacramento-ordem", title: "Sacramento da Ordem", excerpt: "O sacerdócio ministerial na Igreja.", date: "2025-12-30", readTime: "10 min", category: "Sacramentos", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
-  { id: 98, slug: "sacramento-matrimonio", title: "Sacramento do Matrimônio", excerpt: "A união sagrada entre homem e mulher.", date: "2025-12-30", readTime: "10 min", category: "Sacramentos", icon: Users, bgColor: "bg-amber-100", iconColor: "text-amber-400" },
-  // 10 Mandamentos
-  { id: 99, slug: "primeiro-mandamento-amar-deus", title: "1º Mandamento: Amar a Deus sobre Todas as Coisas", excerpt: "O fundamento de toda a lei divina.", date: "2025-12-30", readTime: "10 min", category: "Mandamentos", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
-  { id: 100, slug: "segundo-mandamento-nome-deus", title: "2º Mandamento: Não Tomar o Nome de Deus em Vão", excerpt: "O respeito ao nome santo de Deus.", date: "2025-12-30", readTime: "8 min", category: "Mandamentos", icon: BookOpen, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 101, slug: "terceiro-mandamento-dia-senhor", title: "3º Mandamento: Guardar o Dia do Senhor", excerpt: "A santificação do domingo.", date: "2025-12-30", readTime: "9 min", category: "Mandamentos", icon: Sun, bgColor: "bg-yellow-100", iconColor: "text-yellow-400" },
-  { id: 102, slug: "quarto-mandamento-honrar-pais", title: "4º Mandamento: Honrar Pai e Mãe", excerpt: "O respeito e amor aos pais.", date: "2025-12-30", readTime: "9 min", category: "Mandamentos", icon: Users, bgColor: "bg-amber-100", iconColor: "text-amber-400" },
-  { id: 103, slug: "quinto-mandamento-nao-matar", title: "5º Mandamento: Não Matarás", excerpt: "A defesa da vida humana.", date: "2025-12-30", readTime: "10 min", category: "Mandamentos", icon: Shield, bgColor: "bg-blue-50", iconColor: "text-blue-400" },
-  { id: 104, slug: "sexto-mandamento-castidade", title: "6º Mandamento: Não Pecar Contra a Castidade", excerpt: "A pureza do corpo e da alma.", date: "2025-12-30", readTime: "10 min", category: "Mandamentos", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
-  { id: 105, slug: "setimo-mandamento-nao-roubar", title: "7º Mandamento: Não Roubarás", excerpt: "A justiça e o respeito aos bens alheios.", date: "2025-12-30", readTime: "9 min", category: "Mandamentos", icon: Coins, bgColor: "bg-emerald-50", iconColor: "text-emerald-400" },
-  { id: 106, slug: "oitavo-mandamento-verdade", title: "8º Mandamento: Não Levantar Falso Testemunho", excerpt: "A verdade e a honestidade.", date: "2025-12-30", readTime: "9 min", category: "Mandamentos", icon: BookOpen, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 107, slug: "nono-mandamento-nao-cobicar", title: "9º Mandamento: Não Cobiçar a Mulher do Próximo", excerpt: "A pureza do coração.", date: "2025-12-30", readTime: "8 min", category: "Mandamentos", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
-  { id: 108, slug: "decimo-mandamento-nao-cobicar-bens", title: "10º Mandamento: Não Cobiçar os Bens Alheios", excerpt: "O desprendimento material.", date: "2025-12-30", readTime: "8 min", category: "Mandamentos", icon: Coins, bgColor: "bg-emerald-50", iconColor: "text-emerald-400" },
-  // 7 Dons do Espírito Santo
-  { id: 109, slug: "dom-sabedoria-espirito-santo", title: "Dom da Sabedoria", excerpt: "Ver tudo com os olhos de Deus.", date: "2025-12-30", readTime: "8 min", category: "Dons", icon: Lightbulb, bgColor: "bg-yellow-50", iconColor: "text-yellow-400" },
-  { id: 110, slug: "dom-entendimento-espirito-santo", title: "Dom do Entendimento", excerpt: "Penetrar nas verdades da fé.", date: "2025-12-30", readTime: "8 min", category: "Dons", icon: Brain, bgColor: "bg-emerald-50", iconColor: "text-emerald-400" },
-  { id: 111, slug: "dom-conselho-espirito-santo", title: "Dom do Conselho", excerpt: "Discernir a vontade de Deus.", date: "2025-12-30", readTime: "8 min", category: "Dons", icon: MessageCircle, bgColor: "bg-blue-50", iconColor: "text-blue-400" },
-  { id: 112, slug: "dom-fortaleza-espirito-santo", title: "Dom da Fortaleza", excerpt: "Coragem para enfrentar dificuldades.", date: "2025-12-30", readTime: "8 min", category: "Dons", icon: Shield, bgColor: "bg-slate-50", iconColor: "text-slate-400" },
-  { id: 113, slug: "dom-ciencia-espirito-santo", title: "Dom da Ciência", excerpt: "Conhecer o valor das criaturas.", date: "2025-12-30", readTime: "8 min", category: "Dons", icon: BookOpen, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 114, slug: "dom-piedade-espirito-santo", title: "Dom da Piedade", excerpt: "Tratar Deus como Pai amoroso.", date: "2025-12-30", readTime: "8 min", category: "Dons", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
-  { id: 115, slug: "dom-temor-deus-espirito-santo", title: "Dom do Temor de Deus", excerpt: "Evitar o pecado por amor a Deus.", date: "2025-12-30", readTime: "8 min", category: "Dons", icon: Anchor, bgColor: "bg-cyan-50", iconColor: "text-cyan-400" },
-  // 7 Pecados Capitais
-  { id: 116, slug: "pecado-soberba", title: "Pecado da Soberba", excerpt: "A raiz de todos os pecados.", date: "2025-12-30", readTime: "9 min", category: "Pecados", icon: Shield, bgColor: "bg-slate-100", iconColor: "text-slate-400" },
-  { id: 117, slug: "pecado-avareza", title: "Pecado da Avareza", excerpt: "O apego desordenado aos bens materiais.", date: "2025-12-30", readTime: "9 min", category: "Pecados", icon: Coins, bgColor: "bg-emerald-50", iconColor: "text-emerald-400" },
-  { id: 118, slug: "pecado-luxuria", title: "Pecado da Luxúria", excerpt: "O desejo desordenado pelo prazer sexual.", date: "2025-12-30", readTime: "9 min", category: "Pecados", icon: Flame, bgColor: "bg-orange-100", iconColor: "text-orange-400" },
-  { id: 119, slug: "pecado-inveja", title: "Pecado da Inveja", excerpt: "A tristeza pelo bem alheio.", date: "2025-12-30", readTime: "9 min", category: "Pecados", icon: Cloud, bgColor: "bg-indigo-50", iconColor: "text-indigo-400" },
-  { id: 120, slug: "pecado-gula", title: "Pecado da Gula", excerpt: "O excesso na comida e bebida.", date: "2025-12-30", readTime: "9 min", category: "Pecados", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
-  { id: 121, slug: "pecado-ira", title: "Pecado da Ira", excerpt: "A raiva descontrolada.", date: "2025-12-30", readTime: "9 min", category: "Pecados", icon: Flame, bgColor: "bg-red-50", iconColor: "text-red-400" },
-  { id: 122, slug: "pecado-preguica", title: "Pecado da Preguiça", excerpt: "A negligência espiritual.", date: "2025-12-30", readTime: "9 min", category: "Pecados", icon: Wind, bgColor: "bg-slate-50", iconColor: "text-slate-400" },
-  // 20 Orações
-  { id: 123, slug: "oracao-pai-nosso", title: "Oração do Pai Nosso", excerpt: "A oração que Jesus nos ensinou.", date: "2025-12-30", readTime: "8 min", category: "Orações", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
-  { id: 124, slug: "oracao-ave-maria", title: "Oração da Ave Maria", excerpt: "A saudação angélica a Nossa Senhora.", date: "2025-12-30", readTime: "8 min", category: "Orações", icon: Heart, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 125, slug: "oracao-credo-apostolico", title: "Credo Apostólico", excerpt: "A profissão de fé da Igreja.", date: "2025-12-30", readTime: "10 min", category: "Orações", icon: BookOpen, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 126, slug: "oracao-sinal-da-cruz", title: "Oração do Sinal da Cruz", excerpt: "O gesto que nos identifica como cristãos.", date: "2025-12-30", readTime: "6 min", category: "Orações", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
-  { id: 127, slug: "oracao-gloria-ao-pai", title: "Oração do Glória ao Pai", excerpt: "A doxologia que glorifica a Santíssima Trindade.", date: "2025-12-30", readTime: "6 min", category: "Orações", icon: Sun, bgColor: "bg-yellow-100", iconColor: "text-yellow-400" },
-  { id: 128, slug: "oracao-ato-contricao", title: "Ato de Contrição", excerpt: "A oração de arrependimento.", date: "2025-12-30", readTime: "7 min", category: "Orações", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
-  { id: 129, slug: "oracao-espirito-santo", title: "Oração ao Espírito Santo", excerpt: "Invocação ao Divino Consolador.", date: "2025-12-30", readTime: "7 min", category: "Orações", icon: Flame, bgColor: "bg-orange-100", iconColor: "text-orange-400" },
-  { id: 130, slug: "oracao-salve-rainha", title: "Oração da Salve Rainha", excerpt: "Súplica a Nossa Senhora.", date: "2025-12-30", readTime: "7 min", category: "Orações", icon: Heart, bgColor: "bg-blue-50", iconColor: "text-blue-400" },
-  { id: 131, slug: "oracao-magnificat", title: "Oração do Magnificat", excerpt: "O cântico de Maria.", date: "2025-12-30", readTime: "8 min", category: "Orações", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
-  { id: 132, slug: "oracao-fatima", title: "Oração de Fátima", excerpt: "As orações ensinadas pelo Anjo e Nossa Senhora.", date: "2025-12-30", readTime: "7 min", category: "Orações", icon: Sun, bgColor: "bg-yellow-50", iconColor: "text-yellow-400" },
-  { id: 133, slug: "oracao-confesso", title: "Oração do Confesso", excerpt: "A confissão geral dos pecados.", date: "2025-12-30", readTime: "6 min", category: "Orações", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
-  { id: 134, slug: "oracao-gloria-missa", title: "Glória da Missa", excerpt: "O hino de louvor da liturgia.", date: "2025-12-30", readTime: "7 min", category: "Orações", icon: Sun, bgColor: "bg-yellow-100", iconColor: "text-yellow-400" },
-  { id: 135, slug: "oracao-santo", title: "Oração do Santo", excerpt: "O Sanctus da Missa.", date: "2025-12-30", readTime: "6 min", category: "Orações", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
-  { id: 136, slug: "oracao-cordeiro-de-deus", title: "Oração do Cordeiro de Deus", excerpt: "O Agnus Dei da liturgia.", date: "2025-12-30", readTime: "6 min", category: "Orações", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
-  { id: 137, slug: "oracao-comunhao-espiritual", title: "Oração de Comunhão Espiritual", excerpt: "Quando não podemos comungar sacramentalmente.", date: "2025-12-30", readTime: "6 min", category: "Orações", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
-  { id: 138, slug: "oracao-sao-francisco", title: "Oração de São Francisco", excerpt: "Senhor, fazei-me instrumento de vossa paz.", date: "2025-12-30", readTime: "7 min", category: "Orações", icon: Leaf, bgColor: "bg-emerald-50", iconColor: "text-emerald-400" },
-  { id: 139, slug: "oracao-alma-de-cristo", title: "Oração Alma de Cristo", excerpt: "Anima Christi, a oração de Santo Inácio.", date: "2025-12-30", readTime: "7 min", category: "Orações", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
-  { id: 140, slug: "oracao-vinde-espirito-criador", title: "Vinde Espírito Criador", excerpt: "O hino Veni Creator Spiritus.", date: "2025-12-30", readTime: "8 min", category: "Orações", icon: Flame, bgColor: "bg-orange-100", iconColor: "text-orange-400" },
-  { id: 141, slug: "oracao-te-deum", title: "Oração Te Deum", excerpt: "O hino de ação de graças.", date: "2025-12-30", readTime: "8 min", category: "Orações", icon: Sun, bgColor: "bg-yellow-100", iconColor: "text-yellow-400" },
-  { id: 142, slug: "oracao-anjo-da-guarda", title: "Oração ao Anjo da Guarda", excerpt: "Santo Anjo do Senhor, meu zeloso guardador.", date: "2025-12-30", readTime: "6 min", category: "Orações", icon: Users, bgColor: "bg-amber-100", iconColor: "text-amber-400" },
-  // 10 Novenas
-  { id: 143, slug: "novena-nossa-senhora-aparecida", title: "Novena de Nossa Senhora Aparecida", excerpt: "Padroeira do Brasil, muito rezada em outubro.", date: "2025-12-30", readTime: "12 min", category: "Novenas", icon: Heart, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 144, slug: "novena-sagrado-coracao-jesus", title: "Novena do Sagrado Coração de Jesus", excerpt: "Amor, misericórdia e reparação.", date: "2025-12-30", readTime: "12 min", category: "Novenas", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
-  { id: 145, slug: "novena-sao-jose", title: "Novena de São José", excerpt: "Padroeiro das famílias e trabalhadores.", date: "2025-12-30", readTime: "12 min", category: "Novenas", icon: Users, bgColor: "bg-amber-100", iconColor: "text-amber-400" },
-  { id: 146, slug: "novena-nossa-senhora-gracas", title: "Novena de Nossa Senhora das Graças", excerpt: "Ligada à Medalha Milagrosa.", date: "2025-12-30", readTime: "10 min", category: "Novenas", icon: Heart, bgColor: "bg-blue-50", iconColor: "text-blue-400" },
-  { id: 147, slug: "novena-santo-antonio", title: "Novena de Santo Antônio", excerpt: "O santo casamenteiro, celebrado em junho.", date: "2025-12-30", readTime: "10 min", category: "Novenas", icon: Heart, bgColor: "bg-amber-50", iconColor: "text-amber-400" },
-  { id: 148, slug: "novena-sao-judas-tadeu", title: "Novena de São Judas Tadeu", excerpt: "Padroeiro das causas impossíveis.", date: "2025-12-30", readTime: "10 min", category: "Novenas", icon: Shield, bgColor: "bg-green-50", iconColor: "text-green-400" },
-  { id: 149, slug: "novena-nossa-senhora-perpetuo-socorro", title: "Novena de Nossa Senhora do Perpétuo Socorro", excerpt: "Tradicionalmente rezada às quartas-feiras.", date: "2025-12-30", readTime: "10 min", category: "Novenas", icon: Heart, bgColor: "bg-red-50", iconColor: "text-red-400" },
-  { id: 150, slug: "novena-divino-espirito-santo", title: "Novena do Divino Espírito Santo", excerpt: "Renovação espiritual e Pentecostes.", date: "2025-12-30", readTime: "12 min", category: "Novenas", icon: Flame, bgColor: "bg-orange-100", iconColor: "text-orange-400" },
-  { id: 151, slug: "novena-nossa-senhora-rosario", title: "Novena de Nossa Senhora do Rosário", excerpt: "Tradicional em outubro, mês do Rosário.", date: "2025-12-30", readTime: "10 min", category: "Novenas", icon: Heart, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
-  { id: 152, slug: "novena-natal", title: "Novena de Natal", excerpt: "Preparação para o nascimento de Jesus.", date: "2025-12-30", readTime: "12 min", category: "Novenas", icon: Star, bgColor: "bg-yellow-50", iconColor: "text-yellow-400" },
-  // Quaresma de São Miguel
-  { id: 153, slug: "quaresma-sao-miguel-arcanjo", title: "Quaresma de São Miguel Arcanjo", excerpt: "40 dias de preparação para a festa do Arcanjo.", date: "2025-12-30", readTime: "18 min", category: "Devoções", icon: Shield, bgColor: "bg-blue-100", iconColor: "text-blue-400" }
+  {
+    id: 22,
+    slug: "jubilee-2025-legacy",
+    title: "The Legacy of Jubilee 2025: How to Continue Being a Pilgrim of Hope?",
+    excerpt: "The Holy Doors have closed, but the Christian's heart must remain open. Discover how to carry the fruits of the Holy Year into 2026.",
+    date: "2026-04-12",
+    readTime: "8 min",
+    category: "Jubilee 2025",
+    icon: Sun,
+    bgColor: "bg-yellow-100",
+    iconColor: "text-yellow-400"
+  },
+  {
+    id: 23,
+    slug: "plenary-indulgence-guide",
+    title: "Plenary Indulgence: Complete Guide for the Final Days of the Jubilee",
+    excerpt: "The Church opens its treasures of grace in a special way during the Jubilee. Understand how to receive total remission.",
+    date: "2026-04-12",
+    readTime: "10 min",
+    category: "Formation",
+    icon: BookOpen,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 24,
+    slug: "church-changes-post-2025",
+    title: "What Changes in the Church After the Holy Year of 2025?",
+    excerpt: "The closing of the Jubilee is not a period, but a new breath for the mission. Understand the trends and challenges for 2026.",
+    date: "2026-04-12",
+    readTime: "9 min",
+    category: "Current Affairs",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
+  },
+  {
+    id: 25,
+    slug: "prayers-of-hope-2026",
+    title: "Prayers of Hope for Times of Crisis in 2026",
+    excerpt: "When strength seems exhausted, prayer is our refuge. Discover powerful prayers to renew your trust in God.",
+    date: "2026-04-12",
+    readTime: "6 min",
+    category: "Prayers",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 26,
+    slug: "local-pilgrimage",
+    title: "How to Organize a Local Pilgrimage in Your Diocese",
+    excerpt: "You don't need to go to Rome to be a pilgrim. Discover how to organize a journey of faith to shrines in your region.",
+    date: "2026-04-12",
+    readTime: "8 min",
+    category: "Devotions",
+    icon: MapPin,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
+  {
+    id: 27,
+    slug: "faith-mental-health",
+    title: "Faith and Mental Health: How Catholic Spirituality Helps Overcome Anxiety?",
+    excerpt: "In a hyperconnected and anxious world, the Catholic tradition offers ancient treasures for the balance of mind and soul.",
+    date: "2026-04-12",
+    readTime: "12 min",
+    category: "Mental Health",
+    icon: HeartPulse,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-400"
+  }
 ];
 
-// Pagination settings
-const POSTS_PER_PAGE = 9;
-
 export default function BlogPage() {
-  const [currentPage, setCurrentPage] = useState(1);
-
+  const { page } = useParams<{ page?: string }>();
+  const navigate = useNavigate();
+  const [selectedCategory, setSelectedCategory] = useState<string>("All");
+  const currentPage = parseInt(page || "1", 10);
+  const postsPerPage = 9;
+  
+  const categories = ["All", ...Array.from(new Set(blogPosts.map(post => post.category)))];
+  
+  // Sort posts by date (most recent first)
+  const sortedPosts = [...blogPosts].sort((a, b) => 
+    new Date(b.date).getTime() - new Date(a.date).getTime()
+  );
+  
+  const filteredPosts = selectedCategory === "All" 
+    ? sortedPosts 
+    : sortedPosts.filter(post => post.category === selectedCategory);
+  
   // Calculate pagination
-  const totalPages = Math.ceil(blogPosts.length / POSTS_PER_PAGE);
-  const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
-  const currentPosts = blogPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
-
-  // Scroll to top when page changes
+  const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+  const startIndex = (currentPage - 1) * postsPerPage;
+  const endIndex = startIndex + postsPerPage;
+  const currentPosts = filteredPosts.slice(startIndex, endIndex);
+  
+  // Redirect to page 1 if no page specified or invalid page
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [currentPage]);
+    if (!page) {
+      navigate('/blog/page/1/', { replace: true });
+    } else if (currentPage < 1 || currentPage > totalPages) {
+      navigate('/blog/page/1/', { replace: true });
+    }
+  }, [page, currentPage, totalPages, navigate]);
+  
+  // Reset to page 1 when category changes
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(category);
+    navigate('/blog/page/1/');
+  };
+  
+  const handlePageChange = (page: number) => {
+    navigate(`/blog/page/${page}/`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <>
       <Helmet>
-        <title>Blog | Bom Católico - Artigos sobre Fé Católica</title>
-        <meta name="description" content="Artigos, reflexões e ensinamentos sobre a fé católica apostólica romana. Orações, sacramentos, devoções e formação espiritual." />
+        <title>Blog - Good Catholic</title>
+        <meta name="description" content="Explore articles about Catholic faith, spirituality, sacraments, and Christian living." />
       </Helmet>
 
       <div className="min-h-screen bg-background">
-        {/* Header */}
         <header className="bg-primary text-button-text py-4">
           <div className="container mx-auto px-4 flex items-center justify-between">
             <Link to="/" className="flex items-center gap-2">
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-xl font-bold">Bom Católico</span>
+              <span className="font-display text-xl font-bold">Good Catholic</span>
             </Link>
             <Link to="/quiz">
               <Button variant="secondary" size="sm">
-                Fazer o Quiz
+                Take the Quiz
               </Button>
             </Link>
           </div>
         </header>
 
-        {/* Hero */}
-        <section className="bg-gradient-to-b from-accent/10 to-background py-16">
-          <div className="container mx-auto px-4 text-center">
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">
-              Blog Bom Católico
-            </h1>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto">
-              Artigos, reflexões e ensinamentos para fortalecer sua fé e
-              aprofundar seu conhecimento da doutrina católica.
-            </p>
-          </div>
-        </section>
-
-        {/* Blog Posts */}
-        <section className="py-16">
+        <div className="bg-background-muted/50 py-3">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {currentPosts.map((post) => (
-                <Link to={`/blog/${post.slug}`} key={post.id}>
-                  <article className="bg-surface rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow group h-full">
-                    <div className={`aspect-video flex items-center justify-center ${post.bgColor}`}>
-                      <post.icon className={`w-16 h-16 ${post.iconColor} group-hover:scale-110 transition-transform duration-300`} strokeWidth={1.5} />
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <span className="text-text">Blog</span>
+            </nav>
+          </div>
+        </div>
+
+        <div className="py-12">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">
+                Catholic Faith Blog
+              </h1>
+              <p className="text-xl text-text-muted max-w-2xl mx-auto">
+                Deepen your understanding of the Catholic faith with articles on spirituality, sacraments, and Christian living.
+              </p>
+            </div>
+
+            <div className="flex flex-wrap gap-2 justify-center mb-12">
+              {categories.map((category) => (
+                <button
+                  key={category}
+                  onClick={() => handleCategoryChange(category)}
+                  className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                    selectedCategory === category
+                      ? "bg-accent text-button-text"
+                      : "bg-background-muted text-text-muted hover:bg-accent/10"
+                  }`}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+              {currentPosts.map((post) => {
+                const Icon = post.icon;
+                return (
+                  <Link
+                    key={post.id}
+                    to={`/blog/${post.slug}`}
+                    className="group bg-surface rounded-2xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-lg"
+                  >
+                    <div className={`${post.bgColor} p-8 flex items-center justify-center`}>
+                      <Icon className={`w-16 h-16 ${post.iconColor}`} strokeWidth={1.5} />
                     </div>
                     <div className="p-6">
-                      <div className="flex items-center gap-4 text-sm text-text-muted mb-3">
-                        <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                      <div className="flex items-center gap-4 text-xs text-text-muted mb-3">
+                        <span className="bg-accent/10 text-accent px-2 py-1 rounded-full">
                           {post.category}
                         </span>
                         <span className="flex items-center gap-1">
-                          <Calendar className="w-4 h-4" />
-                          {new Date(post.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' })}
+                          <Calendar className="w-3 h-3" />
+                          {new Date(post.date).toLocaleDateString('en-US', { 
+                            month: 'short', 
+                            day: 'numeric', 
+                            year: 'numeric' 
+                          })}
                         </span>
                         <span className="flex items-center gap-1">
-                          <Clock className="w-4 h-4" />
+                          <Clock className="w-3 h-3" />
                           {post.readTime}
                         </span>
                       </div>
-                      <h2 className="font-display text-xl font-semibold text-text mb-2 line-clamp-2 group-hover:text-accent transition-colors">
+                      <h3 className="font-display text-xl font-bold text-text mb-2 group-hover:text-accent transition-colors">
                         {post.title}
-                      </h2>
+                      </h3>
                       <p className="text-text-muted text-sm line-clamp-3 mb-4">
                         {post.excerpt}
                       </p>
-                      <span className="inline-flex items-center text-accent hover:text-accent/80">
-                        Ler mais <ArrowRight className="w-4 h-4 ml-1" />
+                      <span className="text-accent text-sm font-medium inline-flex items-center gap-1">
+                        Read More
+                        <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                        </svg>
                       </span>
                     </div>
-                  </article>
-                </Link>
-              ))}
+                  </Link>
+                );
+              })}
             </div>
 
             {/* Pagination */}
             {totalPages > 1 && (
-              <div className="mt-16 flex items-center justify-center gap-4">
-                <Button
-                  variant="outline"
-                  onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+              <div className="flex items-center justify-center gap-2">
+                <button
+                  onClick={() => handlePageChange(currentPage - 1)}
                   disabled={currentPage === 1}
-                  className="rounded-full gap-2 px-4 hover:bg-accent/5 transition-all duration-300"
+                  className={`p-2 rounded-lg border transition-colors ${
+                    currentPage === 1
+                      ? "border-border text-text-muted cursor-not-allowed opacity-50"
+                      : "border-border text-text hover:bg-accent hover:text-button-text hover:border-accent"
+                  }`}
                 >
-                  <ChevronLeft className="w-4 h-4" />
-                  <span className="hidden sm:inline">Anterior</span>
-                </Button>
+                  <ChevronLeft className="w-5 h-5" />
+                </button>
 
-                <div className="flex items-center gap-2">
-                  {(() => {
-                    const maxVisible = 5;
-                    let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
-                    let endPage = Math.min(totalPages, startPage + maxVisible - 1);
-                    
-                    if (endPage - startPage + 1 < maxVisible) {
-                      startPage = Math.max(1, endPage - maxVisible + 1);
-                    }
-                    
-                    const pages = [];
-                    
-                    if (startPage > 1) {
-                      pages.push(
-                        <button key={1} onClick={() => setCurrentPage(1)} className="w-10 h-10 rounded-full text-sm font-medium text-text-muted hover:bg-accent/10 hover:text-accent transition-all duration-300">1</button>
-                      );
-                      if (startPage > 2) {
-                        pages.push(<span key="dots1" className="text-text-muted">...</span>);
-                      }
-                    }
-                    
-                    for (let page = startPage; page <= endPage; page++) {
-                      pages.push(
-                        <button
-                          key={page}
-                          onClick={() => setCurrentPage(page)}
-                          className={`w-10 h-10 rounded-full text-sm font-medium transition-all duration-300 ${currentPage === page
-                            ? "bg-accent text-button-text shadow-lg shadow-accent/20 scale-110"
-                            : "text-text-muted hover:bg-accent/10 hover:text-accent"
-                          }`}
-                        >
-                          {page}
-                        </button>
-                      );
-                    }
-                    
-                    if (endPage < totalPages) {
-                      if (endPage < totalPages - 1) {
-                        pages.push(<span key="dots2" className="text-text-muted">...</span>);
-                      }
-                      pages.push(
-                        <button key={totalPages} onClick={() => setCurrentPage(totalPages)} className="w-10 h-10 rounded-full text-sm font-medium text-text-muted hover:bg-accent/10 hover:text-accent transition-all duration-300">{totalPages}</button>
-                      );
-                    }
-                    
-                    return pages;
-                  })()}
+                <div className="flex gap-2">
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                    <button
+                      key={page}
+                      onClick={() => handlePageChange(page)}
+                      className={`w-10 h-10 rounded-lg border font-medium transition-colors ${
+                        currentPage === page
+                          ? "bg-accent text-button-text border-accent"
+                          : "border-border text-text hover:bg-accent/10 hover:border-accent"
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  ))}
                 </div>
 
-                <Button
-                  variant="outline"
-                  onClick={() => setCurrentPage(prev => Math.min(totalPages, prev + 1))}
+                <button
+                  onClick={() => handlePageChange(currentPage + 1)}
                   disabled={currentPage === totalPages}
-                  className="rounded-full gap-2 px-4 hover:bg-accent/5 transition-all duration-300"
+                  className={`p-2 rounded-lg border transition-colors ${
+                    currentPage === totalPages
+                      ? "border-border text-text-muted cursor-not-allowed opacity-50"
+                      : "border-border text-text hover:bg-accent hover:text-button-text hover:border-accent"
+                  }`}
                 >
-                  <span className="hidden sm:inline">Próximo</span>
-                  <ChevronRight className="w-4 h-4" />
-                </Button>
+                  <ChevronRight className="w-5 h-5" />
+                </button>
               </div>
             )}
           </div>
-        </section>
+        </div>
 
         <Footer />
       </div>

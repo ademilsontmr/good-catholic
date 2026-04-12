@@ -10,31 +10,33 @@ import CheckoutPage from "./pages/CheckoutPage";
 import ResultadoPage from "./pages/ResultadoPage";
 import PaymentSuccessPage from "./pages/PaymentSuccessPage";
 import BlogPage from "./pages/BlogPage";
-import ComoRezarRosario from "./pages/blog/ComoRezarRosario";
-import SeteSacramentos from "./pages/blog/SeteSacramentos";
-import ImportanciaConfissao from "./pages/blog/ImportanciaConfissao";
-import SantosPadroeiros from "./pages/blog/SantosPadroeiros";
-import JejumAbstinencia from "./pages/blog/JejumAbstinencia";
-import MissaDominical from "./pages/blog/MissaDominical";
-import VidaOracao from "./pages/blog/VidaOracao";
-import SignificadoMissa from "./pages/blog/SignificadoMissa";
-import ExameConsciencia from "./pages/blog/ExameConsciencia";
-import VirgemMaria from "./pages/blog/VirgemMaria";
-import DonsEspiritoSanto from "./pages/blog/DonsEspiritoSanto";
+import HowToPrayRosary from "./pages/blog/HowToPrayRosary";
+import SevenSacraments from "./pages/blog/SevenSacraments";
+import ImportanceOfConfession from "./pages/blog/ImportanceOfConfession";
+import PatronSaints from "./pages/blog/PatronSaints";
+import FastingAndAbstinence from "./pages/blog/FastingAndAbstinence";
+import SundayMass from "./pages/blog/SundayMass";
+import PrayerLife from "./pages/blog/PrayerLife";
+import MeaningOfMass from "./pages/blog/MeaningOfMass";
+import ExaminationOfConscience from "./pages/blog/ExaminationOfConscience";
+import VirginMary from "./pages/blog/VirginMary";
+import GiftsOfHolySpirit from "./pages/blog/GiftsOfHolySpirit";
 import LectioDivina from "./pages/blog/LectioDivina";
-import CastidadeMundoModerno from "./pages/blog/CastidadeMundoModerno";
-import DoutrinaSocial from "./pages/blog/DoutrinaSocial";
-import DiscernimentoVocacional from "./pages/blog/DiscernimentoVocacional";
-import EucaristiaPresencaReal from "./pages/blog/EucaristiaPresencaReal";
-import AdoracaoEucaristica from "./pages/blog/AdoracaoEucaristica";
-import OQueEPurgatorio from "./pages/blog/OQueEPurgatorio";
-import ComoViverQuaresma from "./pages/blog/ComoViverQuaresma";
-import AnjosDaGuarda from "./pages/blog/AnjosDaGuarda";
-import SignificadoCrucifixo from "./pages/blog/SignificadoCrucifixo";
-import LegadoJubileu2025 from "./pages/blog/LegadoJubileu2025";
-import GuiaIndulgenciaPlenaria from "./pages/blog/GuiaIndulgenciaPlenaria";
-import MudancasIgrejaPos2025 from "./pages/blog/MudancasIgrejaPos2025";
-import OracoesEsperanca2026 from "./pages/blog/OracoesEsperanca2026";
+import ChastityModernWorld from "./pages/blog/ChastityModernWorld";
+import SocialDoctrine from "./pages/blog/SocialDoctrine";
+import VocationalDiscernment from "./pages/blog/VocationalDiscernment";
+import EucharistRealPresence from "./pages/blog/EucharistRealPresence";
+import EucharisticAdoration from "./pages/blog/EucharisticAdoration";
+import WhatIsPurgatory from "./pages/blog/WhatIsPurgatory";
+import HowToLiveLent from "./pages/blog/HowToLiveLent";
+import GuardianAngels from "./pages/blog/GuardianAngels";
+import MeaningOfCrucifix from "./pages/blog/MeaningOfCrucifix";
+import Jubilee2025Legacy from "./pages/blog/Jubilee2025Legacy";
+import PlenaryIndulgenceGuide from "./pages/blog/PlenaryIndulgenceGuide";
+import ChurchChangesPost2025 from "./pages/blog/ChurchChangesPost2025";
+import PrayersOfHope2026 from "./pages/blog/PrayersOfHope2026";
+import LocalPilgrimage from "./pages/blog/LocalPilgrimage";
+import FaithMentalHealth from "./pages/blog/FaithMentalHealth";
 import PeregrinacaoLocal from "./pages/blog/PeregrinacaoLocal";
 import FeSaudeMental from "./pages/blog/FeSaudeMental";
 import PoderDoSilencio from "./pages/blog/PoderDoSilencio";
@@ -184,163 +186,37 @@ const App = () => (
             <Route path="/payment-success" element={<PaymentSuccessPage />} />
             <Route path="/resultado" element={<ResultadoPage />} />
             <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/page/:page" element={<BlogPage />} />
             <Route path="/termos" element={<TermsOfUse />} />
             <Route path="/privacidade" element={<PrivacyPolicy />} />
             <Route path="/contato" element={<Contact />} />
-            <Route path="/blog/como-rezar-rosario" element={<ComoRezarRosario />} />
-            <Route path="/blog/sete-sacramentos" element={<SeteSacramentos />} />
-            <Route path="/blog/importancia-confissao" element={<ImportanciaConfissao />} />
-            <Route path="/blog/santos-padroeiros" element={<SantosPadroeiros />} />
-            <Route path="/blog/jejum-abstinencia" element={<JejumAbstinencia />} />
-            <Route path="/blog/missa-dominical" element={<MissaDominical />} />
-            <Route path="/blog/vida-oracao" element={<VidaOracao />} />
-            <Route path="/blog/significado-missa" element={<SignificadoMissa />} />
-            <Route path="/blog/exame-consciencia" element={<ExameConsciencia />} />
-            <Route path="/blog/virgem-maria" element={<VirgemMaria />} />
-            <Route path="/blog/dons-espirito-santo" element={<DonsEspiritoSanto />} />
+            <Route path="/blog/how-to-pray-rosary" element={<HowToPrayRosary />} />
+            <Route path="/blog/seven-sacraments" element={<SevenSacraments />} />
+            <Route path="/blog/importance-confession" element={<ImportanceOfConfession />} />
+            <Route path="/blog/patron-saints" element={<PatronSaints />} />
+            <Route path="/blog/fasting-abstinence" element={<FastingAndAbstinence />} />
+            <Route path="/blog/sunday-mass" element={<SundayMass />} />
+            <Route path="/blog/prayer-life" element={<PrayerLife />} />
+            <Route path="/blog/meaning-mass" element={<MeaningOfMass />} />
+            <Route path="/blog/examination-conscience" element={<ExaminationOfConscience />} />
+            <Route path="/blog/virgin-mary" element={<VirginMary />} />
+            <Route path="/blog/gifts-holy-spirit" element={<GiftsOfHolySpirit />} />
             <Route path="/blog/lectio-divina" element={<LectioDivina />} />
-            <Route path="/blog/castidade-mundo-moderno" element={<CastidadeMundoModerno />} />
-            <Route path="/blog/doutrina-social" element={<DoutrinaSocial />} />
-            <Route path="/blog/discernimento-vocacional" element={<DiscernimentoVocacional />} />
-            <Route path="/blog/eucaristia-presenca-real" element={<EucaristiaPresencaReal />} />
-            <Route path="/blog/adoracao-eucaristica" element={<AdoracaoEucaristica />} />
-            <Route path="/blog/o-que-e-purgatorio" element={<OQueEPurgatorio />} />
-            <Route path="/blog/como-viver-quaresma" element={<ComoViverQuaresma />} />
-            <Route path="/blog/anjos-da-guarda" element={<AnjosDaGuarda />} />
-            <Route path="/blog/significado-crucifixo" element={<SignificadoCrucifixo />} />
-            <Route path="/blog/legado-jubileu-2025" element={<LegadoJubileu2025 />} />
-            <Route path="/blog/guia-indulgencia-plenaria" element={<GuiaIndulgenciaPlenaria />} />
-            <Route path="/blog/mudancas-igreja-pos-2025" element={<MudancasIgrejaPos2025 />} />
-            <Route path="/blog/oracoes-esperanca-2026" element={<OracoesEsperanca2026 />} />
-            <Route path="/blog/peregrinacao-local" element={<PeregrinacaoLocal />} />
-            <Route path="/blog/fe-e-saude-mental-ansiedade" element={<FeSaudeMental />} />
-            <Route path="/blog/poder-do-silencio-burnout" element={<PoderDoSilencio />} />
-            <Route path="/blog/santos-depressao-noite-escura" element={<SantosEDepressao />} />
-            <Route path="/blog/oracao-vs-mindfulness-cristao" element={<OracaoEMindfulness />} />
-            <Route path="/blog/como-lidar-com-luto-fe-crista" element={<LidandoComLuto />} />
-            <Route path="/blog/como-transmitir-fe-filhos-era-digital" element={<FeFilhosEraDigital />} />
-            <Route path="/blog/igreja-domestica-oracao-familia" element={<IgrejaDomestica />} />
-            <Route path="/blog/homeschooling-catolico-educacao-classica" element={<HomeschoolingCatolico />} />
-            <Route path="/blog/namoro-santo-castidade-2026" element={<NamoroSanto2026 />} />
-            <Route path="/blog/papel-dos-avos-transmissao-fe" element={<PapelDosAvos />} />
-            <Route path="/blog/poder-da-confissao-guia-preparacao" element={<PoderDaConfissao />} />
-            <Route path="/blog/eucaristia-missa-diaria-segredo-santos" element={<EucaristiaDiaADia />} />
-            <Route path="/blog/como-rezar-terco-sem-distracoes" element={<TercoSemDistracao />} />
-            <Route path="/blog/significado-sacramentais-catolicos" element={<SignificadoSacramentais />} />
-            <Route path="/blog/lectio-divina-guia-passo-a-passo" element={<LectioDivinaGuia />} />
-            <Route path="/blog/o-que-e-graca-santificante-amizade-deus" element={<GracaSantificante />} />
-            <Route path="/blog/virtudes-cardeais-guia-pratico-cotidiano" element={<VirtudesCardeais />} />
-            <Route path="/blog/sete-dons-espirito-santo-como-usar" element={<DonsEspiritoSanto />} />
-            <Route path="/blog/doutrina-purgatorio-purificacao-final" element={<DoutrinaPurgatorio />} />
-            <Route path="/blog/importancia-dizimo-caridade-crista" element={<DizimoECaridade />} />
-            <Route path="/blog/santos-pais-maes-santidade-matrimonio" element={<SantosPaisEMaes />} />
-            <Route path="/blog/carlo-acutis-padroeiro-internet-eucaristia" element={<CarloAcutisInternet />} />
-            <Route path="/blog/santa-dulce-dos-pobres-legado-caridade" element={<SantaDulcePobres />} />
-            <Route path="/blog/como-escolher-santo-padroeiro-guia" element={<EscolherSantoPadroeiro />} />
-            <Route path="/blog/vida-sao-bento-protecao-contra-mal" element={<SaoBentoProtecao />} />
-            <Route path="/blog/como-ler-biblia-em-um-ano-plano-2026" element={<PlanoLeituraBiblia2026 />} />
-            <Route path="/blog/os-quatro-evangelhos-diferencas-riquezas" element={<OsQuatroEvangelhos />} />
-            <Route path="/blog/parabolas-jesus-licoes-sabedoria-moderna" element={<ParabolasDeJesus />} />
-            <Route path="/blog/como-falar-de-deus-amigos-nao-crentes" element={<EvangelizarAmigos />} />
-            <Route path="/blog/importancia-pertencer-comunidade-paroquial" element={<ComunidadeParoquial />} />
-            <Route path="/blog/ano-liturgico-guia-cores-tempos" element={<AnoLiturgicoGuia />} />
-            <Route path="/blog/advento-quaresma-como-se-preparar" element={<AdventoQuaresmaPreparacao />} />
-            <Route path="/blog/significado-vigilia-pascal-noite-santa" element={<VigiliaPascalSignificado />} />
-            <Route path="/blog/corpus-christi-presenca-real-jesus-eucaristia" element={<CorpusChristiPresencaReal />} />
-            <Route path="/blog/como-viver-domingo-dia-do-senhor" element={<DomingoDiaDoSenhor />} />
-            <Route path="/blog/por-que-catolicos-honram-maria-dogma-devocao" element={<PorQueHonrarMaria />} />
-            <Route path="/blog/rosario-arma-espiritual-desafios-2026" element={<RosarioArmaEspiritual />} />
-            <Route path="/blog/nossa-senhora-fatima-mensagem-oracao-penitencia" element={<NossaSenhoraFatimaMensagem />} />
-            <Route path="/blog/escapulario-carmo-significado-promessas" element={<EscapularioCarmoSignificado />} />
-            <Route path="/blog/consagracao-nossa-senhora-guia-pratico" element={<ConsagracaoMarianaGuia />} />
-            <Route path="/blog/o-que-acontece-depois-da-morte-ceu-inferno-purgatorio" element={<OQueAconteceDepoisMorte />} />
-            <Route path="/blog/segunda-vinda-cristo-fim-dos-tempos-parusia" element={<SegundaVindaCristoFimTempos />} />
-            <Route path="/blog/juizo-particular-e-juizo-final-diferencas" element={<JuizoParticularEFinal />} />
-            <Route path="/blog/ressurreicao-da-carne-nossa-esperanca-vida-eterna" element={<RessurreicaoDaCarneEsperanca />} />
-            <Route path="/blog/como-se-preparar-para-eternidade-dia-a-dia" element={<PrepararParaEternidade2026 />} />
-            <Route path="/blog/sao-francisco-ecologia-integral" element={<SaoFranciscoEcologia />} />
-            <Route path="/blog/como-fazer-retiro-espiritual-em-casa" element={<RetiroEspiritualEmCasa />} />
-            <Route path="/blog/importancia-direcao-espiritual-caminhada-fe" element={<DirecaoEspiritualImportancia />} />
-            <Route path="/blog/santa-teresinha-pequena-via-santidade" element={<SantaTeresinhaPequenaVia />} />
-            <Route path="/blog/protagonismo-leigos-missao-igreja-hoje" element={<PapelDosLeigosNaIgreja />} />
-            <Route path="/blog/beleza-liturgia-simbolos-ritos-importancia" element={<BelezaDaLiturgia />} />
-            <Route path="/blog/biblia-ciencia-dialogo-fe-razao-igreja" element={<BibliaECiencia />} />
-            <Route path="/blog/combate-espiritual-vencer-vicios-graca-deus" element={<CombateEspiritualVicios />} />
-            <Route path="/blog/santa-faustina-divina-misericordia-apelo-jesus" element={<SantaFaustinaMisericordia />} />
-            <Route path="/blog/sao-jose-modelo-pai-protetor" element={<SaoJoseModeloPai />} />
-            <Route path="/blog/pecado-original-redencao" element={<OPecadoOriginalRedencao />} />
-            <Route path="/blog/ceu-inferno-purgatorio" element={<OInfernoCeuPurgatorio />} />
-            <Route path="/blog/igreja-corpo-cristo" element={<AIgrejaCorpoDeCristo />} />
-            <Route path="/blog/prosperidade-espiritual-vs-material" element={<ProsperidadeEspiritualVsMaterial />} />
-            <Route path="/blog/trabalho-digno-vocacao" element={<TrabalhoDignoVocacao />} />
-            <Route path="/blog/generosidade-desprendimento" element={<GenerosidadeDesprendimento />} />
-            <Route path="/blog/por-que-catolicos-rezam-santos" element={<PorQueRezarParaSantos />} />
-            <Route path="/blog/diferenca-catolicos-evangelicos" element={<DiferencaCatolicosEvangelicos />} />
-            <Route path="/blog/como-se-confessar-guia-completo" element={<ComoSeConfessarGuia />} />
-            <Route path="/blog/sacramento-batismo" element={<SacramentoBatismo />} />
-            <Route path="/blog/sacramento-crisma" element={<SacramentoCrisma />} />
-            <Route path="/blog/sacramento-eucaristia" element={<SacramentoEucaristia />} />
-            <Route path="/blog/sacramento-confissao" element={<SacramentoConfissao />} />
-            <Route path="/blog/sacramento-uncao-enfermos" element={<SacramentoUncaoEnfermos />} />
-            <Route path="/blog/sacramento-ordem" element={<SacramentoOrdem />} />
-            <Route path="/blog/sacramento-matrimonio" element={<SacramentoMatrimonio />} />
-            <Route path="/blog/primeiro-mandamento-amar-deus" element={<PrimeiroMandamento />} />
-            <Route path="/blog/segundo-mandamento-nome-deus" element={<SegundoMandamento />} />
-            <Route path="/blog/terceiro-mandamento-dia-senhor" element={<TerceiroMandamento />} />
-            <Route path="/blog/quarto-mandamento-honrar-pais" element={<QuartoMandamento />} />
-            <Route path="/blog/quinto-mandamento-nao-matar" element={<QuintoMandamento />} />
-            <Route path="/blog/sexto-mandamento-castidade" element={<SextoMandamento />} />
-            <Route path="/blog/setimo-mandamento-nao-roubar" element={<SetimoMandamento />} />
-            <Route path="/blog/oitavo-mandamento-verdade" element={<OitavoMandamento />} />
-            <Route path="/blog/nono-mandamento-nao-cobicar" element={<NonoMandamento />} />
-            <Route path="/blog/decimo-mandamento-nao-cobicar-bens" element={<DecimoMandamento />} />
-            <Route path="/blog/dom-sabedoria-espirito-santo" element={<DomSabedoria />} />
-            <Route path="/blog/dom-entendimento-espirito-santo" element={<DomEntendimento />} />
-            <Route path="/blog/dom-conselho-espirito-santo" element={<DomConselho />} />
-            <Route path="/blog/dom-fortaleza-espirito-santo" element={<DomFortaleza />} />
-            <Route path="/blog/dom-ciencia-espirito-santo" element={<DomCiencia />} />
-            <Route path="/blog/dom-piedade-espirito-santo" element={<DomPiedade />} />
-            <Route path="/blog/dom-temor-deus-espirito-santo" element={<DomTemorDeus />} />
-            <Route path="/blog/pecado-soberba" element={<PecadoSoberba />} />
-            <Route path="/blog/pecado-avareza" element={<PecadoAvareza />} />
-            <Route path="/blog/pecado-luxuria" element={<PecadoLuxuria />} />
-            <Route path="/blog/pecado-inveja" element={<PecadoInveja />} />
-            <Route path="/blog/pecado-gula" element={<PecadoGula />} />
-            <Route path="/blog/pecado-ira" element={<PecadoIra />} />
-            <Route path="/blog/pecado-preguica" element={<PecadoPreguica />} />
-            {/* Prayer Articles */}
-            <Route path="/blog/oracao-pai-nosso" element={<OracaoPaiNosso />} />
-            <Route path="/blog/oracao-ave-maria" element={<OracaoAveMaria />} />
-            <Route path="/blog/oracao-credo-apostolico" element={<OracaoCredoApostolico />} />
-            <Route path="/blog/oracao-sinal-da-cruz" element={<OracaoSinalDaCruz />} />
-            <Route path="/blog/oracao-gloria-ao-pai" element={<OracaoGloriaAoPai />} />
-            <Route path="/blog/oracao-ato-contricao" element={<OracaoAtoContricao />} />
-            <Route path="/blog/oracao-espirito-santo" element={<OracaoEspiritoSanto />} />
-            <Route path="/blog/oracao-salve-rainha" element={<OracaoSalveRainha />} />
-            <Route path="/blog/oracao-magnificat" element={<OracaoMagnificat />} />
-            <Route path="/blog/oracao-fatima" element={<OracaoFatima />} />
-            <Route path="/blog/oracao-confesso" element={<OracaoConfesso />} />
-            <Route path="/blog/oracao-gloria-missa" element={<OracaoGloriaMissa />} />
-            <Route path="/blog/oracao-santo" element={<OracaoSanto />} />
-            <Route path="/blog/oracao-cordeiro-de-deus" element={<OracaoCordeiroDeDeus />} />
-            <Route path="/blog/oracao-comunhao-espiritual" element={<OracaoComunhaoEspiritual />} />
-            <Route path="/blog/oracao-sao-francisco" element={<OracaoSaoFrancisco />} />
-            <Route path="/blog/oracao-alma-de-cristo" element={<OracaoAlmaDeCristo />} />
-            <Route path="/blog/oracao-vinde-espirito-criador" element={<OracaoVindeEspiritoCriador />} />
-            <Route path="/blog/oracao-te-deum" element={<OracaoTeDeum />} />
-            <Route path="/blog/oracao-anjo-da-guarda" element={<OracaoAnjoGuarda />} />
-            {/* Novena Articles */}
-            <Route path="/blog/novena-nossa-senhora-aparecida" element={<NovenaNossaSenhoraAparecida />} />
-            <Route path="/blog/novena-sagrado-coracao-jesus" element={<NovenaSagradoCoracao />} />
-            <Route path="/blog/novena-sao-jose" element={<NovenaSaoJose />} />
-            <Route path="/blog/novena-nossa-senhora-gracas" element={<NovenaNossaSenhoraGracas />} />
-            <Route path="/blog/novena-santo-antonio" element={<NovenaSantoAntonio />} />
-            <Route path="/blog/novena-sao-judas-tadeu" element={<NovenaSaoJudasTadeu />} />
-            <Route path="/blog/novena-nossa-senhora-perpetuo-socorro" element={<NovenaNossaSenhoraPerpetuoSocorro />} />
-            <Route path="/blog/novena-divino-espirito-santo" element={<NovenaDivinoEspiritoSanto />} />
-            <Route path="/blog/novena-nossa-senhora-rosario" element={<NovenaNossaSenhoraRosario />} />
-            <Route path="/blog/novena-natal" element={<NovenaNatal />} />
-            <Route path="/blog/quaresma-sao-miguel-arcanjo" element={<QuaresmaSaoMiguelArcanjo />} />
+            <Route path="/blog/chastity-modern-world" element={<ChastityModernWorld />} />
+            <Route path="/blog/social-doctrine" element={<SocialDoctrine />} />
+            <Route path="/blog/vocational-discernment" element={<VocationalDiscernment />} />
+            <Route path="/blog/eucharist-real-presence" element={<EucharistRealPresence />} />
+            <Route path="/blog/eucharistic-adoration" element={<EucharisticAdoration />} />
+            <Route path="/blog/what-is-purgatory" element={<WhatIsPurgatory />} />
+            <Route path="/blog/how-to-live-lent" element={<HowToLiveLent />} />
+            <Route path="/blog/guardian-angels" element={<GuardianAngels />} />
+            <Route path="/blog/meaning-of-crucifix" element={<MeaningOfCrucifix />} />
+            <Route path="/blog/jubilee-2025-legacy" element={<Jubilee2025Legacy />} />
+            <Route path="/blog/plenary-indulgence-guide" element={<PlenaryIndulgenceGuide />} />
+            <Route path="/blog/church-changes-post-2025" element={<ChurchChangesPost2025 />} />
+            <Route path="/blog/prayers-of-hope-2026" element={<PrayersOfHope2026 />} />
+            <Route path="/blog/local-pilgrimage" element={<LocalPilgrimage />} />
+            <Route path="/blog/faith-mental-health" element={<FaithMentalHealth />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

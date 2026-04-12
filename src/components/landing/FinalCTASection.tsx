@@ -22,27 +22,27 @@ export function FinalCTASection() {
 
             {/* Headline */}
             <h2 className="font-display text-3xl md:text-4xl font-bold text-primary mb-4">
-              Pronto para Descobrir seu Nível de Fé?
+              Ready to Discover Your Faith Level?
             </h2>
             
             <p className="text-lg text-text-muted mb-8 max-w-xl mx-auto">
-              Faça o quiz agora e receba um diagnóstico completo da sua vivência católica. 
-              É rápido e transformador.
+              Take the quiz now and receive a complete assessment of your Catholic life. 
+              It's quick and transformative.
             </p>
 
             {/* Trust badges */}
             <div className="flex flex-wrap items-center justify-center gap-6 mb-8 text-sm text-text-muted">
               <div className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-accent" />
-                <span>Apenas 5 minutos</span>
+                <span>Only 5 minutes</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-success" />
-                <span>30 perguntas</span>
+                <span>30 questions</span>
               </div>
               <div className="flex items-center gap-2">
                 <Shield className="w-4 h-4 text-primary" />
-                <span>100% seguro</span>
+                <span>100% secure</span>
               </div>
             </div>
 
@@ -52,13 +52,13 @@ export function FinalCTASection() {
                 size="lg"
                 className="h-16 px-12 bg-gradient-accent hover:opacity-90 text-accent-foreground font-bold text-xl shadow-glow transition-all duration-300 group"
               >
-                Começar o Quiz Agora
+                Start the Quiz Now
                 <ChevronRight className="w-6 h-6 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
 
             <p className="mt-6 text-sm text-text-muted">
-              Suas respostas são confidenciais e não serão compartilhadas.
+              Your answers are confidential and will not be shared.
             </p>
           </div>
         </div>

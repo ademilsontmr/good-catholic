@@ -12,11 +12,11 @@ export function Footer() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-2xl font-bold">Bom Católico</span>
+              <span className="font-display text-2xl font-bold">Good Catholic</span>
             </div>
             <p className="text-button-text/70 max-w-md mb-6">
-              Ajudando católicos a viverem sua fé de forma mais profunda e consciente.
-              Conteúdos, orações e ferramentas para sua caminhada espiritual.
+              Helping Catholics live their faith more deeply and consciously.
+              Content, prayers, and tools for your spiritual journey.
             </p>
             <div className="flex gap-4">
               <a
@@ -46,17 +46,17 @@ export function Footer() {
             <ul className="space-y-2 text-button-text/70">
               <li>
                 <Link to="/quiz" className="hover:text-button-text transition-colors">
-                  Fazer o Quiz
+                  Take the Quiz
                 </Link>
               </li>
               <li>
                 <a href="#como-funciona" className="hover:text-button-text transition-colors">
-                  Como Funciona
+                  How It Works
                 </a>
               </li>
               <li>
                 <a href="#depoimentos" className="hover:text-button-text transition-colors">
-                  Depoimentos
+                  Testimonials
                 </a>
               </li>
               <li>
@@ -73,17 +73,17 @@ export function Footer() {
             <ul className="space-y-2 text-button-text/70">
               <li>
                 <Link to="/termos" className="hover:text-button-text transition-colors">
-                  Termos de Uso
+                  Terms of Use
                 </Link>
               </li>
               <li>
                 <Link to="/privacidade" className="hover:text-button-text transition-colors">
-                  Política de Privacidade
+                  Privacy Policy
                 </Link>
               </li>
               <li>
                 <Link to="/contato" className="hover:text-button-text transition-colors">
-                  Contato
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -91,9 +91,9 @@ export function Footer() {
         </div>
 
         <div className="border-t border-button-text/20 mt-12 pt-8 text-center text-sm text-button-text/60">
-          <p>© 2024 Bom Católico. Todos os direitos reservados.</p>
+          <p>© 2024 Good Catholic. All rights reserved.</p>
           <p className="mt-2">
-            Feito com ❤️ para a glória de Deus
+            Made with ❤️ for the glory of God
           </p>
         </div>
       </div>

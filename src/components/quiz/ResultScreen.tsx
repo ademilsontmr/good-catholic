@@ -346,20 +346,20 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         score,
         levelTitle: level.title,
       });
-      toast.success("PDF gerado com sucesso! Verifique seus downloads.");
+      toast.success("PDF generated successfully! Check your downloads.");
     } catch (error) {
       console.error("Error generating PDF:", error);
-      toast.error("Erro ao gerar o PDF. Tente novamente.");
+      toast.error("Error generating PDF. Please try again.");
     }
   };
 
   const handleShare = async () => {
-    const text = `Fiz o quiz "Como é a sua vivência católica?" e obtive ${score}% - ${level.title}! Faça você também!`;
+    const text = `I took the "How is your Catholic life?" quiz and scored ${score}% - ${level.title}! Take it too!`;
     
     if (navigator.share) {
       try {
         await navigator.share({
-          title: "Quiz da Vivência Católica",
+          title: "Catholic Life Quiz",
           text,
           url: window.location.href,
         });
@@ -368,7 +368,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
       }
     } else {
       await navigator.clipboard.writeText(text);
-      toast.success("Texto copiado para compartilhar!");
+      toast.success("Text copied to share!");
     }
   };
 
@@ -385,11 +385,11 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
   };
 
   const areas = [
-    { key: "eucaristica", label: "Vida Eucarística", icon: Church, score: areaScores.eucaristica },
-    { key: "oracao", label: "Vida de Oração", icon: HandHeart, score: areaScores.oracao },
-    { key: "formacao", label: "Formação e Sacramentos", icon: BookOpen, score: areaScores.formacao },
-    { key: "devocoes", label: "Devoções", icon: Heart, score: areaScores.devocoes },
-    { key: "testemunho", label: "Testemunho Cristão", icon: Star, score: areaScores.testemunho },
+    { key: "eucaristica", label: "Eucharistic Life", icon: Church, score: areaScores.eucaristica },
+    { key: "oracao", label: "Prayer Life", icon: HandHeart, score: areaScores.oracao },
+    { key: "formacao", label: "Formation and Sacraments", icon: BookOpen, score: areaScores.formacao },
+    { key: "devocoes", label: "Devotions", icon: Heart, score: areaScores.devocoes },
+    { key: "testemunho", label: "Christian Witness", icon: Star, score: areaScores.testemunho },
   ];
 
   return (
@@ -399,7 +399,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         <div className="text-center mb-8">
           <div className="text-6xl mb-4">{level.emoji}</div>
           <h2 className="font-display text-xl text-muted-foreground mb-2">
-            Parabéns, {firstName}!
+            Congratulations, {firstName}!
           </h2>
           <h3 className="font-display text-2xl md:text-3xl text-primary mb-4">
             {level.title}
@@ -439,7 +439,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
               <span className={`text-4xl font-bold ${getScoreColor()}`}>
                 {score}%
               </span>
-              <span className="text-sm text-muted-foreground">pontuação</span>
+              <span className="text-sm text-muted-foreground">score</span>
             </div>
           </div>
 
@@ -452,17 +452,17 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         <div className="grid grid-cols-3 gap-4 mb-6">
           <div className="bg-secondary/50 rounded-xl p-4 text-center">
             <Trophy className="w-6 h-6 text-accent mx-auto mb-2" />
-            <span className="text-sm text-muted-foreground">Nível</span>
+            <span className="text-sm text-muted-foreground">Level</span>
             <p className="font-semibold text-foreground text-sm">{level.title.split(" ").slice(-1)}</p>
           </div>
           <div className="bg-secondary/50 rounded-xl p-4 text-center">
             <Target className="w-6 h-6 text-primary mx-auto mb-2" />
-            <span className="text-sm text-muted-foreground">Perguntas</span>
+            <span className="text-sm text-muted-foreground">Questions</span>
             <p className="font-semibold text-foreground">30/30</p>
           </div>
           <div className="bg-secondary/50 rounded-xl p-4 text-center">
             <BookOpen className="w-6 h-6 text-accent mx-auto mb-2" />
-            <span className="text-sm text-muted-foreground">Pontos</span>
+            <span className="text-sm text-muted-foreground">Points</span>
             <p className="font-semibold text-foreground">{Math.round(score * 0.9)}/90</p>
           </div>
         </div>
@@ -479,7 +479,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
               <Crown className="w-6 h-6 text-primary" />
             </div>
             <div>
-              <h3 className="font-display text-lg text-primary">Palavra de um Santo para Você</h3>
+              <h3 className="font-display text-lg text-primary">Word from a Saint for You</h3>
               <p className="text-sm text-muted-foreground">{santoCitacao.santo}</p>
             </div>
           </div>
@@ -499,8 +499,8 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             <Target className="w-6 h-6 text-accent-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Diagnóstico Completo</h3>
-            <p className="text-sm text-muted-foreground">Avaliação detalhada da sua vivência católica</p>
+            <h3 className="font-display text-xl text-primary">Complete Assessment</h3>
+            <p className="text-sm text-muted-foreground">Detailed evaluation of your Catholic life</p>
           </div>
         </div>
 
@@ -548,8 +548,8 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             <Shield className="w-6 h-6 text-primary-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Seu Santo Protetor</h3>
-            <p className="text-sm text-muted-foreground">Intercessor especial para sua caminhada</p>
+            <h3 className="font-display text-xl text-primary">Your Patron Saint</h3>
+            <p className="text-sm text-muted-foreground">Special intercessor for your journey</p>
           </div>
         </div>
 
@@ -579,8 +579,8 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             <Flame className="w-6 h-6 text-accent-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Virtudes para Desenvolver</h3>
-            <p className="text-sm text-muted-foreground">Foco para seu crescimento espiritual</p>
+            <h3 className="font-display text-xl text-primary">Virtues to Develop</h3>
+            <p className="text-sm text-muted-foreground">Focus for your spiritual growth</p>
           </div>
         </div>
 
@@ -604,8 +604,8 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             <Calendar className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Plano de 7 Dias para {firstName}</h3>
-            <p className="text-sm text-muted-foreground">Desafio personalizado para fortalecer sua fé</p>
+            <h3 className="font-display text-xl text-primary">7-Day Plan for {firstName}</h3>
+            <p className="text-sm text-muted-foreground">Personalized challenge to strengthen your faith</p>
           </div>
         </div>
 
@@ -613,7 +613,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           {plano7Dias.map((dia, index) => (
             <div key={index} className="flex items-center gap-4 bg-secondary/30 rounded-xl p-4">
               <div className="w-16 h-16 rounded-xl bg-primary/10 flex flex-col items-center justify-center shrink-0">
-                <span className="text-xs text-muted-foreground uppercase">Dia</span>
+                <span className="text-xs text-muted-foreground uppercase">Day</span>
                 <span className="text-2xl font-bold text-primary">{index + 1}</span>
               </div>
               <div className="flex-1">
@@ -635,8 +635,8 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             <Scroll className="w-6 h-6 text-accent-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Palavra de Deus para Você</h3>
-            <p className="text-sm text-muted-foreground">Versículo para meditar esta semana</p>
+            <h3 className="font-display text-xl text-primary">God's Word for You</h3>
+            <p className="text-sm text-muted-foreground">Verse to meditate on this week</p>
           </div>
         </div>
 
@@ -656,8 +656,8 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             <Star className="w-6 h-6 text-primary-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Classificação Personalizada</h3>
-            <p className="text-sm text-muted-foreground">Seu nível na caminhada de fé</p>
+            <h3 className="font-display text-xl text-primary">Personalized Classification</h3>
+            <p className="text-sm text-muted-foreground">Your level on the faith journey</p>
           </div>
         </div>
 
@@ -665,7 +665,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           <div className="text-center">
             <span className="text-5xl mb-3 block">{level.emoji}</span>
             <h4 className="font-display text-2xl text-primary mb-2">{level.title}</h4>
-            <p className="text-muted-foreground">{firstName}, você está no nível:</p>
+            <p className="text-muted-foreground">{firstName}, you are at level:</p>
           </div>
         </div>
 
@@ -704,8 +704,8 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             <BookOpen className="w-6 h-6 text-accent-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Guia Exclusivo para {firstName}</h3>
-            <p className="text-sm text-muted-foreground">Orações e recomendações personalizadas</p>
+            <h3 className="font-display text-xl text-primary">Exclusive Guide for {firstName}</h3>
+            <p className="text-sm text-muted-foreground">Personalized prayers and recommendations</p>
           </div>
         </div>
 
@@ -713,7 +713,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         <div className="mb-8">
           <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-accent" />
-            Recomendações para seu crescimento espiritual
+            Recommendations for your spiritual growth
           </h4>
           <ul className="space-y-3">
             {recomendacoes.map((rec, index) => (
@@ -731,7 +731,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         <div className="mb-8">
           <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
             <Cross className="w-5 h-5 text-primary" />
-            Orações sugeridas para o seu nível
+            Suggested prayers for your level
           </h4>
           <div className="grid md:grid-cols-2 gap-3">
             {oracoes.map((oracao, index) => (
@@ -752,10 +752,10 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             <Download className="w-8 h-8" />
           </div>
           <h4 className="font-display text-2xl mb-2">
-            Baixe o Guia Completo da Vida Católica
+            Download the Complete Catholic Life Guide
           </h4>
           <p className="text-primary-foreground/80 mb-6 max-w-lg mx-auto">
-            PDF exclusivo de 10 páginas com orações diárias, devoções, ensinamentos da Igreja e muito mais para aprofundar sua fé.
+            Exclusive 10-page PDF with daily prayers, devotions, Church teachings and much more to deepen your faith.
           </p>
           
           <Button
@@ -763,7 +763,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
             className="h-12 sm:h-14 px-6 sm:px-10 bg-white text-primary hover:bg-white/90 font-semibold text-base sm:text-lg shadow-lg transition-all duration-300 w-full sm:w-auto"
           >
             <Download className="w-5 h-5 mr-2 shrink-0" />
-            <span className="truncate">Baixar Guia (PDF)</span>
+            <span className="truncate">Download Guide (PDF)</span>
           </Button>
         </div>
       </div>
@@ -776,7 +776,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           className="flex-1 h-12 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
         >
           <Share2 className="w-4 h-4 mr-2" />
-          Compartilhar Resultado
+          Share Result
         </Button>
         <Button
           onClick={onRestart}
@@ -784,21 +784,21 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           className="flex-1 h-12 border-border text-foreground hover:bg-secondary"
         >
           <RotateCcw className="w-4 h-4 mr-2" />
-          Refazer Quiz
+          Retake Quiz
         </Button>
       </div>
 
       {/* Card final */}
       <div className="bg-primary text-primary-foreground rounded-2xl p-6 text-center">
-        <h4 className="font-display text-xl mb-2">Continue sua Jornada de Fé, {firstName}!</h4>
+        <h4 className="font-display text-xl mb-2">Continue your Faith Journey, {firstName}!</h4>
         <p className="text-primary-foreground/80 text-sm mb-4">
-          Acompanhe nosso conteúdo e receba reflexões diárias para crescer espiritualmente.
+          Follow our content and receive daily reflections to grow spiritually.
         </p>
         <Button
           variant="secondary"
           className="bg-accent text-accent-foreground hover:bg-accent/90"
         >
-          Seguir no Instagram
+          Follow on Instagram
         </Button>
       </div>
     </div>
