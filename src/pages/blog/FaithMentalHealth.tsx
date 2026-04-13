@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function FaithMentalHealth() {
     return (
@@ -139,6 +140,29 @@ export default function FaithMentalHealth() {
                         </div>
 
                         <RelatedArticles currentSlug="faith-mental-health" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "Does the Catholic Church recognize mental illness?",
+                            answer: "Yes. The Church fully recognizes mental illness as a real medical condition. The Catechism acknowledges that psychological factors can diminish moral responsibility. Catholics are encouraged to seek professional mental health care alongside spiritual support — faith and medicine are complementary, not opposed."
+                          },
+                          {
+                            question: "Can prayer and faith help with anxiety and depression?",
+                            answer: "Research consistently shows that religious practice correlates with better mental health outcomes. Prayer, community, meaning, and hope are powerful psychological resources. However, faith is not a substitute for professional treatment when needed. Many saints suffered from depression and anxiety — it is not a sign of weak faith."
+                          },
+                          {
+                            question: "What does the Church say about suicide?",
+                            answer: "The Church teaches that suicide is gravely wrong as it contradicts the natural inclination to preserve life. However, the Catechism also recognizes that 'grave psychological disturbances, anguish, or grave fear' can diminish responsibility (CCC 2282). The Church prays for those who die by suicide and entrusts them to God's mercy."
+                          },
+                          {
+                            question: "Which saints struggled with mental health?",
+                            answer: "Many saints experienced what we would today recognize as mental health struggles: St. Teresa of Avila described severe depression, St. John of the Cross wrote about the 'dark night of the soul,' St. Thérèse of Lisieux suffered profound spiritual desolation, and Bl. Pier Giorgio Frassati battled anxiety. Their struggles became paths to holiness."
+                          },
+                          {
+                            question: "How can a Catholic parish support members with mental illness?",
+                            answer: "Parishes can: train volunteers in mental health first aid, create support groups, connect parishioners with Catholic counselors, reduce stigma through preaching and education, offer pastoral care visits, and partner with Catholic Charities mental health services. A welcoming community is itself therapeutic."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

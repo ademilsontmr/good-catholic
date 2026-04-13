@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function LocalPilgrimage() {
     return (
@@ -135,6 +136,29 @@ export default function LocalPilgrimage() {
                         </div>
 
                         <RelatedArticles currentSlug="local-pilgrimage" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is a Catholic pilgrimage?",
+                            answer: "A pilgrimage is a journey to a sacred place for spiritual purposes — prayer, penance, thanksgiving, or seeking healing. It is an ancient Christian practice that symbolizes our earthly journey toward Heaven. The pilgrim leaves behind the familiar to seek God in a special way."
+                          },
+                          {
+                            question: "What are the most important Catholic pilgrimage sites in the United States?",
+                            answer: "Major US pilgrimage sites include: the National Shrine of the Immaculate Conception (Washington D.C.), the Shrine of Our Lady of Guadalupe (La Crosse, WI), the National Shrine of St. Elizabeth Ann Seton (Emmitsburg, MD), the Shrine of St. Kateri Tekakwitha (NY), and the San Xavier del Bac Mission (Tucson, AZ)."
+                          },
+                          {
+                            question: "Do I need to travel far to make a pilgrimage?",
+                            answer: "No. A pilgrimage can be to your local cathedral, a nearby shrine, or even a special church in your diocese. What matters is the spirit of pilgrimage — intentional travel with prayer, sacrifice, and openness to God's grace. Even walking to your parish church with intention can be a mini-pilgrimage."
+                          },
+                          {
+                            question: "What should I do to prepare for a pilgrimage?",
+                            answer: "Prepare spiritually through prayer and Confession before departing. Research the history and significance of the site. Set a clear spiritual intention. Bring a rosary, prayer book, and journal. Travel with a spirit of openness and detachment. Many pilgrims fast on the day of travel."
+                          },
+                          {
+                            question: "What are the spiritual benefits of pilgrimage?",
+                            answer: "Pilgrimage offers: physical sacrifice that unites us to Christ's suffering, removal from daily distractions, encounter with the communion of saints, special graces attached to holy places, renewal of faith, and often the opportunity to gain indulgences. Many pilgrims report profound conversions and healings."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">
