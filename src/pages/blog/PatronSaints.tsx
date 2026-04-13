@@ -236,7 +236,7 @@ export default function PatronSaints() {
                 Discover How Your Faith Life Is Going
               </h3>
               <p className="text-text-muted mb-6">
-                Take our free quiz and receive a personalized diagnosis of your Catholic journey.
+                Take our quiz and receive a personalized diagnosis of your Catholic journey.
               </p>
               <Link to="/quiz">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

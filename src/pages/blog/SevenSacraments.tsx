@@ -92,7 +92,7 @@ export default function SevenSacraments() {
 
               <QuizCTA
                 title="Are you living the grace of the sacraments?"
-                description="The sacraments are channels of divine life in our soul. Take our free quiz and receive a personalized diagnosis of your sacramental journey and faith."
+                description="The sacraments are channels of divine life in our soul. Take our quiz and receive a personalized diagnosis of your sacramental journey and faith."
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
@@ -225,7 +225,7 @@ export default function SevenSacraments() {
                 Discover How Your Faith Life Is Going
               </h3>
               <p className="text-text-muted mb-6">
-                Take our free quiz and receive a personalized diagnosis of your Catholic journey.
+                Take our quiz and receive a personalized diagnosis of your Catholic journey.
               </p>
               <Link to="/quiz">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

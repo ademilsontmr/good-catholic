@@ -66,7 +66,7 @@ export default function QuizIntro() {
             <div className="text-center mb-12">
               <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full mb-6 animate-pulse">
                 <Sparkles className="w-4 h-4" />
-                <span className="text-sm font-medium">Free Catholic Life Assessment</span>
+                <span className="text-sm font-medium">Catholic Life Assessment</span>
               </div>
               
               <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-text mb-6">
@@ -81,7 +81,7 @@ export default function QuizIntro() {
               {/* CTA Above the Fold */}
               <Link to="/quiz">
                 <Button size="lg" className="text-lg px-8 py-6 h-auto group mb-6">
-                  Start Your Free Assessment Now
+                  Start Your Assessment Now
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -276,7 +276,7 @@ export default function QuizIntro() {
               </p>
               <Link to="/quiz">
                 <Button size="lg" className="text-lg px-8 py-6 h-auto group">
-                  Begin Your Free Assessment
+                  Begin Your Assessment
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
