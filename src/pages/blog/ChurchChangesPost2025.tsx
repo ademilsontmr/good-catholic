@@ -91,41 +91,59 @@ export default function ChurchChangesPost2025() {
                                 description="The Church is always renewing itself and you are part of this mission. Take our quiz and discover how your gifts can help build a more vibrant and missionary community."
                             />
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                The Consolidation of Synodality
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Church's Unchanging Foundation</h2>
                             <p className="text-text leading-relaxed mb-6">
-                                One of the great legacies of the 2024-2025 period was the Synod on Synodality. In 2026, we will see the practical application of synodal guidelines in parishes: greater participation of the laity, active listening, and a more missionary and less bureaucratic Church.
+                                Before discussing changes, it is essential to affirm what never changes: Catholic doctrine on faith and morals is immutable. The deposit of faith — Scripture and Sacred Tradition — cannot be altered. What develops is the Church's understanding and expression of doctrine (doctrinal development), not the doctrine itself. Disciplines can change; dogmas cannot.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                Christ promised: "The gates of hell shall not prevail against it" (Matthew 16:18). This is not a guarantee of human perfection in the Church, but of divine protection of the truth. Catholics can navigate change with confidence because the Church's foundation is Christ, not any particular pope, bishop, or theological trend.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Focus on Integral Ecology and Social Justice
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Consolidation of Synodality</h2>
                             <p className="text-text leading-relaxed mb-6">
-                                Pope Francis will continue to promote the themes of *Laudato Si'* and *Fratelli Tutti*. In 2026, the Church should intensify its voice on climate issues and in defense of migrants, seeing in these causes a concrete way to live Christian charity in the contemporary world.
+                                One of the great legacies of the 2021-2025 period was the Synod on Synodality — a global consultation process that asked Catholics worldwide: "How is God calling us to be a more missionary, listening Church?" In 2026, we will see the practical application of synodal guidelines in parishes: greater participation of the laity, active listening, and a more missionary and less bureaucratic Church.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                Synodality does not mean changing doctrine by popular vote. It means the Church listening more carefully to the Holy Spirit speaking through all the faithful — clergy, religious, and laity — while maintaining the hierarchical structure Christ established.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Renewal of the Episcopate
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Focus on Integral Ecology and Social Justice</h2>
                             <p className="text-text leading-relaxed mb-6">
-                                In many regions, 2026 will be a year of transition in several important dioceses. With the resignation of bishops who reach the age limit, the Pope will have the opportunity to appoint new shepherds aligned with the vision of a "Church going forth," focused on existential peripheries.
+                                Pope Francis will continue to promote the themes of Laudato Si' (2015) and Fratelli Tutti (2020). The Church's engagement with ecological and social justice issues is not a departure from the Gospel but an expression of it. Care for creation is care for the poor — those most affected by environmental degradation are always the most vulnerable.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Digital Challenges and Evangelization
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Digital Evangelization and New Media</h2>
                             <p className="text-text leading-relaxed mb-6">
-                                The Church will continue to explore digital frontiers. The use of Artificial Intelligence for formation and the presence of Catholic influencers will be central themes to reach new generations seeking meaning in a hyperconnected world.
+                                The Church will continue to explore digital frontiers. Blessed Carlo Acutis, beatified in 2020 and canonized in 2025, is the patron of the internet — a sign that the Church embraces digital culture as a field of evangelization. Catholic podcasts, YouTube channels, social media accounts, and apps are reaching millions who would never enter a church building.
                             </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                The challenge is maintaining depth and authenticity in a medium that rewards superficiality. The most effective Catholic digital evangelists are those who combine genuine holiness with digital fluency — not those who simply replicate secular content with a religious veneer.
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Catholics Should Respond to Change</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                Change in the Church can be unsettling, especially for those who love the tradition. Here is a framework for navigating change with faith and charity:
+                            </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>Distinguish doctrine from discipline:</strong> Doctrines (what we believe) are unchangeable. Disciplines (how we practice) can change. Know the difference.</li>
+                                <li><strong>Stay close to the sacraments:</strong> Whatever changes in the Church's external life, the sacraments remain the channels of grace. Mass, Confession, and Eucharistic Adoration are your anchors.</li>
+                                <li><strong>Study the faith:</strong> The Catechism of the Catholic Church is your reference point. Know what the Church actually teaches, not what media reports say it teaches.</li>
+                                <li><strong>Maintain unity:</strong> Disagreement with specific decisions is possible while maintaining communion with the Church. Schism — breaking from the Church — is never the answer.</li>
+                                <li><strong>Pray for the Pope and bishops:</strong> They carry an enormous burden. Pray for them daily, even when you disagree with them.</li>
+                            </ul>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">
                                     "The Church does not grow by proselytism, but by attraction."
                                 </p>
-                                <p className="text-text-muted text-center mt-2">
-                                    — Benedict XVI, frequently quoted by Pope Francis
+                                <p className="text-text-muted text-center mt-2">— Benedict XVI, frequently quoted by Pope Francis</p>
+                            </div>
+
+                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                                <p className="text-text italic text-center">
+                                    "The gates of hell shall not prevail against it."
                                 </p>
+                                <p className="text-text-muted text-center mt-2">— Jesus Christ (Matthew 16:18)</p>
                             </div>
                         </div>
 

@@ -91,37 +91,70 @@ export default function MeaningOfCrucifix() {
                                 description="The crucifix is the summary of our faith and God's love. Take our quiz and reflect on how you have been carrying your own cross in following Jesus Christ."
                             />
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                The Difference Between Cross and Crucifix
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The History of the Crucifix</h2>
                             <p className="text-text leading-relaxed mb-6">
-                                While the empty cross emphasizes the Resurrection, the crucifix emphasizes the Sacrifice. The Catholic Church uses the crucifix to keep us focused on Christ's Passion, because there is no Resurrection without Calvary. Looking at the crucifix is looking at the Love that gave itself for us.
+                                The cross was originally a Roman instrument of execution — one of the most shameful and painful deaths imaginable. For the first Christians, displaying a crucifix would have seemed scandalous. St. Paul acknowledged this: "We preach Christ crucified: a stumbling block to Jews and foolishness to Gentiles" (1 Corinthians 1:23).
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                The earliest known depiction of the crucifixion dates to around 200 AD — a graffito mocking a Christian, showing a man worshipping a crucified figure with a donkey's head. This "Alexamenos graffito" reveals that early Christians were indeed known for venerating the cross, even when it was considered absurd.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                After Emperor Constantine's Edict of Milan (313 AD) legalized Christianity, the cross became the central symbol of the faith. The discovery of the True Cross by St. Helena (Constantine's mother) in Jerusalem around 326 AD further elevated the cross's significance. By the 6th century, crucifixes — crosses with the corpus (body of Christ) — became common in churches and homes.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Symbolism of the Crucifix
-                            </h2>
-                            <ul className="list-disc list-inside text-text space-y-2 mb-6">
-                                <li><strong>The Title (INRI):</strong> "Jesus of Nazareth, King of the Jews," proclaiming His divine kingship.</li>
-                                <li><strong>The Open Arms:</strong> God's desire to embrace all humanity and reconcile it to Himself.</li>
-                                <li><strong>The Wounds:</strong> Signs of our healing; "by His wounds we were healed."</li>
-                                <li><strong>The Vertical and Horizontal:</strong> The union between heaven and earth, between God and humanity.</li>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Difference Between Cross and Crucifix</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                While the empty cross emphasizes the Resurrection, the crucifix emphasizes the Sacrifice. Both are valid and beautiful symbols, but they accent different aspects of the same mystery. The Catholic Church uses the crucifix to keep us focused on Christ's Passion, because there is no Resurrection without Calvary. Looking at the crucifix is looking at the Love that gave itself for us.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                Many Protestant traditions prefer the empty cross, emphasizing that Christ is risen and no longer on the cross. Catholics agree that Christ is risen — but we also believe that His sacrifice is perpetually present in the Eucharist, and the crucifix keeps that reality before our eyes.
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Rich Symbolism of the Crucifix</h2>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>INRI (Iesus Nazarenus Rex Iudaeorum):</strong> "Jesus of Nazareth, King of the Jews" — the title Pilate placed on the cross, written in Hebrew, Latin, and Greek. What Pilate meant as mockery, God turned into proclamation of truth.</li>
+                                <li><strong>The Open Arms:</strong> Christ's outstretched arms symbolize God's desire to embrace all humanity. "When I am lifted up from the earth, I will draw all people to myself" (John 12:32).</li>
+                                <li><strong>The Five Wounds:</strong> The wounds in Christ's hands, feet, and side are signs of our healing. "By His wounds we were healed" (Isaiah 53:5). The Risen Christ retained these wounds as eternal signs of His love.</li>
+                                <li><strong>The Vertical and Horizontal:</strong> The vertical beam represents the union between Heaven and earth; the horizontal beam represents the reconciliation of all humanity. The cross is the meeting point of God and man.</li>
+                                <li><strong>The Crown of Thorns:</strong> The mockery of earthly kingship becomes the crown of the true King. Christ reigns from the cross.</li>
                             </ul>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Why Have a Crucifix at Home?
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Famous Crucifixes in Catholic History</h2>
                             <p className="text-text leading-relaxed mb-6">
-                                Having a crucifix in a prominent place in the home (an "oratory" or above the door) sanctifies the environment. It serves as a reminder to pray, a consolation in times of pain, and protection against the forces of evil. It is the sign that this house belongs to Christ.
+                                Throughout history, certain crucifixes have become particularly beloved and associated with miracles and conversions:
                             </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>The San Damiano Cross:</strong> The Byzantine-style crucifix before which St. Francis of Assisi heard Christ say "Rebuild my Church." It depicts Christ in glory even on the cross, surrounded by witnesses to the Resurrection.</li>
+                                <li><strong>The Miraculous Crucifix of Limpias (Spain):</strong> In 1919, thousands of witnesses reported seeing the eyes of the crucified Christ move and expressions of agony on His face.</li>
+                                <li><strong>The Crucifix of St. John of God:</strong> The crucifix that spoke to St. John of God, calling him to serve the sick and poor.</li>
+                                <li><strong>The Crucifix of St. Thomas More:</strong> The crucifix More held as he was executed for refusing to deny the Pope's authority.</li>
+                            </ul>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Have a Crucifix at Home?</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                Having a crucifix in a prominent place in the home sanctifies the environment and serves multiple spiritual purposes:
+                            </p>
+                            <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                                <li>It is a constant reminder of God's love and the price of our salvation</li>
+                                <li>It serves as a focal point for family prayer</li>
+                                <li>It provides consolation in times of suffering — we can look at Christ and know He understands our pain</li>
+                                <li>It is a sign that this house belongs to Christ and is under His protection</li>
+                                <li>It witnesses to visitors that this is a Christian home</li>
+                                <li>A blessed crucifix is a sacramental that can protect against evil</li>
+                            </ul>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">
                                     "Ave Crux, Spes Unica" (Hail the Cross, our only hope).
                                 </p>
-                                <p className="text-text-muted text-center mt-2">
-                                    — Motto of the Order of the Holy Cross
+                                <p className="text-text-muted text-center mt-2">— Motto of the Order of the Holy Cross</p>
+                            </div>
+
+                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                                <p className="text-text italic text-center">
+                                    "The cross is the school of love."
                                 </p>
+                                <p className="text-text-muted text-center mt-2">— St. Maximilian Kolbe</p>
                             </div>
                         </div>
 
