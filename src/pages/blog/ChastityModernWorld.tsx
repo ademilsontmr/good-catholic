@@ -86,9 +86,52 @@ export default function ChastityModernWorld() {
                                 The Catechism of the Catholic Church teaches that chastity means the successful integration of sexuality within the person. It is not the denial of sexuality, but its self-mastery. A chaste heart is a free heart, which does not use the other as an object of pleasure, but respects them as the image and likeness of God.
                             </p>
 
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Chastity According to Your State in Life</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                Chastity is not a one-size-fits-all virtue. The Church teaches that it is lived differently according to one's state in life:
+                            </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>For the unmarried:</strong> Chastity means abstaining from sexual activity and cultivating purity of heart, mind, and body while preparing for marriage or discerning a vocation.</li>
+                                <li><strong>For the married:</strong> Chastity means faithful, exclusive, and open-to-life love between spouses. It excludes adultery, contraception, and the use of one's spouse as a mere object of pleasure.</li>
+                                <li><strong>For the consecrated:</strong> Priests, religious sisters, and brothers live chastity as celibacy — a total gift of self to God and His people, a sign of the Kingdom of Heaven.</li>
+                                <li><strong>For widows and widowers:</strong> Chastity means living faithfully to the memory of their spouse while remaining open to God's will for their future.</li>
+                            </ul>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theology of the Body</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                St. John Paul II's "Theology of the Body" — a series of 129 Wednesday audiences delivered between 1979 and 1984 — is the most profound Catholic reflection on human sexuality ever written. He argued that the human body is not a prison for the soul but a sacrament — a visible sign of invisible spiritual realities. The body reveals the person, and the sexual union of husband and wife is meant to be an image of the Trinitarian love of God.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                This vision transforms how we understand chastity. It is not a negative prohibition but a positive vision: the body is made for love, and chastity protects the body's capacity to express genuine, self-giving love rather than selfish use.
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Steps for Living Chastity</h2>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>Frequent Confession:</strong> The Sacrament of Penance restores grace and gives strength to resist temptation. Many saints went to Confession weekly.</li>
+                                <li><strong>Daily prayer and Rosary:</strong> Our Lady is the model of purity. Ask her intercession daily.</li>
+                                <li><strong>Custody of the eyes:</strong> Be intentional about what you watch, read, and look at. "The eye is the lamp of the body" (Matthew 6:22).</li>
+                                <li><strong>Avoid near occasions of sin:</strong> Identify the situations, places, and relationships that lead you toward unchastity and avoid them.</li>
+                                <li><strong>Internet accountability:</strong> Use filters and accountability software. Tell a trusted friend about your struggles.</li>
+                                <li><strong>Cultivate deep friendships:</strong> Loneliness is one of the greatest drivers of sexual sin. Build genuine, non-romantic friendships.</li>
+                                <li><strong>Physical exercise and healthy habits:</strong> A disciplined body is more easily a chaste body.</li>
+                            </ul>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When You Fall: Starting Over</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                Chastity is a virtue that must be cultivated over time, and falls are part of the journey for most people. The concept of "secondary virginity" — a renewed commitment to chastity after failure — is recognized and encouraged by the Church. God's mercy is always greater than our failures. The Sacrament of Confession is not just for forgiveness but for healing and strengthening.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                St. Augustine, who struggled deeply with sexual sin before his conversion, wrote: "Our heart is restless until it rests in You." The restlessness that drives people to sexual sin is ultimately a hunger for God — and only God can satisfy it.
+                            </p>
+
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">"Chastity is the flower of virtues."</p>
                                 <p className="text-text-muted text-center mt-2">— Saint Francis de Sales</p>
+                            </div>
+
+                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                                <p className="text-text italic text-center">"Our heart is restless until it rests in You."</p>
+                                <p className="text-text-muted text-center mt-2">— Saint Augustine</p>
                             </div>
                         </div>
 

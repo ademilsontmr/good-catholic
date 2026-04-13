@@ -81,14 +81,66 @@ export default function VocationalDiscernment() {
                                 description="Discernment is a path of listening and peace. Take our quiz and receive light on how to identify the signs of divine will in your life and make decisions with more spiritual security."
                             />
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Pillars of Discernment</h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Vocations in the Catholic Church</h2>
                             <p className="text-text leading-relaxed mb-6">
-                                Saint Ignatius of Loyola, master of discernment, teaches that we should look in three directions: Prayer (Dialogue), Reality (Signs), and Interior Peace (Confirmation).
+                                Every baptized person has a vocation — a specific call from God to love and serve in a particular way. The Church recognizes four primary vocations:
                             </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>Marriage:</strong> The vocation of most Catholics, called to reflect the love of Christ for His Church through faithful, fruitful, and permanent union</li>
+                                <li><strong>Holy Orders:</strong> The vocation to priesthood or diaconate, serving the Church through the sacraments and pastoral ministry</li>
+                                <li><strong>Consecrated Life:</strong> Religious sisters, brothers, monks, and nuns who give their lives entirely to God through vows of poverty, chastity, and obedience</li>
+                                <li><strong>Single Life:</strong> A vocation in itself for those called to serve God and neighbor without the specific commitments of marriage or religious life</li>
+                            </ul>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Ignatian Method of Discernment</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                St. Ignatius of Loyola, founder of the Jesuits and master of spiritual discernment, developed a systematic method for discovering God's will. His Spiritual Exercises remain one of the most powerful tools for discernment in the Church's history. The Ignatian method involves:
+                            </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>Indifference:</strong> Cultivating interior freedom from attachments so that you can choose what God wills rather than what you prefer</li>
+                                <li><strong>Consolation and Desolation:</strong> Learning to recognize the movements of the Holy Spirit (consolation — peace, joy, love) versus the movements of the enemy (desolation — anxiety, confusion, darkness)</li>
+                                <li><strong>The Two Standards:</strong> Meditating on the contrast between Christ's way (humility, poverty, service) and the world's way (riches, honor, pride)</li>
+                                <li><strong>The Three Times of Election:</strong> Recognizing whether God is calling you through clarity, through consolations and desolations, or through rational deliberation</li>
+                            </ul>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Signs of a Genuine Vocation</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                While God calls each person uniquely, spiritual directors and the Church's tradition identify several common signs of a genuine vocation:
+                            </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>Persistent attraction:</strong> A consistent, recurring draw toward a particular way of life over time — not just a passing feeling</li>
+                                <li><strong>Interior peace:</strong> When you imagine yourself in a particular vocation, do you experience deep peace or anxiety? Peace is generally a sign of God's will</li>
+                                <li><strong>Fitness:</strong> Do you have the natural and spiritual qualities needed for this vocation? God generally calls people who have the capacity to live the vocation well</li>
+                                <li><strong>External confirmation:</strong> Do others — especially a spiritual director, confessor, or community — affirm what you are sensing?</li>
+                                <li><strong>Desire to serve:</strong> A genuine vocation is always oriented toward love and service, not personal fulfillment alone</li>
+                            </ul>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Role of a Spiritual Director</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                A spiritual director is perhaps the most important human resource in vocational discernment. This is a trained guide — usually a priest, deacon, or experienced religious — who helps you recognize God's movements in your soul, distinguish genuine calls from personal desires or fears, and make decisions with greater clarity and peace.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                Finding a good spiritual director takes time and prayer. Ask your pastor for recommendations, contact your diocesan vocations office, or reach out to a religious community. Meet with several directors before committing to one. The relationship should be characterized by trust, honesty, and a shared commitment to seeking God's will.
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Steps for Discernment</h2>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>Pray daily:</strong> You cannot hear God's voice if you never listen. Set aside time each day for silent prayer.</li>
+                                <li><strong>Receive the sacraments frequently:</strong> Confession and Communion open the soul to God's grace and clarity.</li>
+                                <li><strong>Make a retreat:</strong> A silent retreat — even a weekend — can provide the space needed to hear God's voice clearly.</li>
+                                <li><strong>Visit communities:</strong> If discerning religious life, visit seminaries, monasteries, and convents. If discerning marriage, spend time with holy married couples.</li>
+                                <li><strong>Keep a journal:</strong> Write down your prayers, feelings, and insights. Patterns often emerge over time.</li>
+                                <li><strong>Be patient:</strong> Discernment takes time. Trust God's timing and resist the pressure to decide before you are ready.</li>
+                            </ul>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">"Lord, what do you want me to do?"</p>
                                 <p className="text-text-muted text-center mt-2">— Saint Francis of Assisi</p>
+                            </div>
+
+                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                                <p className="text-text italic text-center">"The will of God is not a burden to be carried but a path to be walked — and it always leads to joy."</p>
+                                <p className="text-text-muted text-center mt-2">— St. John Paul II</p>
                             </div>
                         </div>
 

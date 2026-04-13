@@ -82,18 +82,56 @@ export default function EucharistRealPresence() {
                             <p className="text-text leading-relaxed mb-6">
                                 This theological term, defined by the Council of Trent, explains the miracle that occurs at every Mass: the change of the entire substance of bread into the substance of Christ's Body and the entire substance of wine into the substance of His Blood. The "appearances" or "accidents" (taste, color, smell, form) remain the same, but the deep reality – the substance – has changed completely.
                             </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                The Catechism of the Catholic Church states: "The Council of Trent summarizes the Catholic faith by declaring: 'Because Christ our Redeemer said that it was truly his body that he was offering under the species of bread, it has always been the conviction of the Church of God, and this holy Council now declares again, that by the consecration of the bread and wine there takes place a change of the whole substance of the bread into the substance of the body of Christ our Lord and of the whole substance of the wine into the substance of his blood'" (CCC 1376).
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Foundation of the Real Presence</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                The Real Presence is not a medieval invention — it is rooted in the explicit words of Jesus Himself:
+                            </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>John 6:51-58 (The Bread of Life Discourse):</strong> "I am the living bread that came down from heaven... Whoever eats my flesh and drinks my blood has eternal life." When many disciples left because of this teaching, Jesus did not soften His words — He let them go.</li>
+                                <li><strong>Matthew 26:26-28 (The Last Supper):</strong> "This IS my body... This IS my blood." Jesus used the present tense, not "this represents" or "this symbolizes."</li>
+                                <li><strong>1 Corinthians 11:27-29:</strong> St. Paul warns that eating the Eucharist unworthily is "sinning against the Body and Blood of the Lord" — language that makes no sense if the Eucharist were merely symbolic.</li>
+                            </ul>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Eucharistic Miracles</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                Throughout history, the Church has documented numerous Eucharistic miracles — extraordinary events in which the Real Presence became visible to human senses. The most famous is the Miracle of Lanciano (8th century, Italy), where the consecrated Host transformed into visible flesh and the wine into visible blood. Scientific analysis in 1970 confirmed that the flesh is human cardiac muscle tissue and the blood is type AB — the same blood type found on the Shroud of Turin.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                Blessed Carlo Acutis, the young Italian who died in 2006 and was beatified in 2020, created a website cataloguing Eucharistic miracles from around the world. He said: "The Eucharist is my highway to Heaven."
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Receive Communion Worthily</h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                Because the Eucharist is truly Jesus Christ, the Church requires that Catholics receive Communion with proper dispositions:
+                            </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                                <li><strong>State of grace:</strong> You must not be conscious of any unconfessed mortal sin. If you are, go to Confession before receiving Communion.</li>
+                                <li><strong>Eucharistic fast:</strong> Abstain from food and drink (except water and medicine) for one hour before receiving Communion.</li>
+                                <li><strong>Catholic faith:</strong> You must believe in the Real Presence. Non-Catholics generally should not receive Catholic Communion.</li>
+                                <li><strong>Right intention:</strong> Receive Communion to unite yourself with Christ, not out of habit or social pressure.</li>
+                            </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Effects of Holy Communion</h2>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                                <li><strong>Intimate union with Christ:</strong> Communion incorporates us into Jesus in a real way.</li>
-                                <li><strong>Increase of Sanctifying Grace:</strong> The Eucharist strengthens and increases divine life in us.</li>
-                                <li><strong>Remission of Venial Sins:</strong> The fire of Christ's love purifies our light faults.</li>
-                                <li><strong>Preservation against Mortal Sins:</strong> Frequent communion gives us strength to resist grave temptations.</li>
+                                <li><strong>Intimate union with Christ:</strong> Communion incorporates us into Jesus in a real way — "He who eats my flesh and drinks my blood abides in me, and I in him" (John 6:56)</li>
+                                <li><strong>Increase of Sanctifying Grace:</strong> The Eucharist strengthens and increases divine life in the soul</li>
+                                <li><strong>Remission of Venial Sins:</strong> The fire of Christ's love purifies our light faults</li>
+                                <li><strong>Preservation against Mortal Sins:</strong> Frequent Communion gives us strength to resist grave temptations</li>
+                                <li><strong>Pledge of eternal life:</strong> "Whoever eats my flesh and drinks my blood has eternal life, and I will raise him up at the last day" (John 6:54)</li>
                             </ul>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">"The Eucharist is the shortest path to Heaven."</p>
                                 <p className="text-text-muted text-center mt-2">— Saint Pius X</p>
+                            </div>
+
+                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                                <p className="text-text italic text-center">"It would be easier for the world to survive without the sun than to do without Holy Mass."</p>
+                                <p className="text-text-muted text-center mt-2">— Saint Padre Pio</p>
                             </div>
                         </div>
 
