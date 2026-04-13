@@ -1,185 +1,128 @@
-import { useState, useEffect, useCallback, useRef } from "react";
-import { supabase } from "@/integrations/supabase/client";
+import { useState, useEffect, useCallback } from "react";
 
 const SESSION_KEY = "quiz_session_id";
+const ANSWERS_KEY = "quiz_answers";
+const SCORE_KEY = "quiz_score";
 
 interface QuizSession {
   id: string;
-  user_name: string | null;
-  user_whatsapp: string | null;
-  answers: number[];
-  completed_at: string | null;
+  answers: Record<number, string>;
+  score: number | null;
   paid: boolean;
-  payment_id: string | null;
   created_at: string;
-  updated_at: string;
 }
 
-export function useQuizSession() {
-  const [sessionId, setSessionId] = useState<string | null>(() => {
-    // Initialize from localStorage synchronously to avoid delay
-    return localStorage.getItem(SESSION_KEY);
-  });
+export const useQuizSession = () => {
+  const [sessionId, setSessionId] = useState<string | null>(null);
   const [session, setSession] = useState<QuizSession | null>(null);
-  const [loading, setLoading] = useState(false); // Start as false to show UI immediately
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const loadedRef = useRef(false);
 
-  // Initialize or restore session - non-blocking
+  // Load session from localStorage on mount
   useEffect(() => {
-    if (loadedRef.current) return;
-    loadedRef.current = true;
-    
     const storedSessionId = localStorage.getItem(SESSION_KEY);
     if (storedSessionId) {
-      // Load session in background without blocking UI
+      setSessionId(storedSessionId);
       loadSession(storedSessionId);
     }
   }, []);
 
-  // Subscribe to realtime updates
-  useEffect(() => {
-    if (!sessionId) return;
-
-    const channel = supabase
-      .channel(`quiz_session_${sessionId}`)
-      .on(
-        "postgres_changes",
-        {
-          event: "UPDATE",
-          schema: "public",
-          table: "quiz_sessions",
-          filter: `id=eq.${sessionId}`,
-        },
-        (payload) => {
-          console.log("Session updated:", payload.new);
-          setSession(payload.new as QuizSession);
-        }
-      )
-      .subscribe();
-
-    return () => {
-      supabase.removeChannel(channel);
-    };
-  }, [sessionId]);
-
-  const loadSession = async (id: string) => {
+  const loadSession = useCallback(async (id: string) => {
     try {
       setLoading(true);
-      const { data, error } = await supabase
-        .from("quiz_sessions")
-        .select("*")
-        .eq("id", id)
-        .maybeSingle();
-
-      if (error) throw error;
+      const answers = JSON.parse(localStorage.getItem(ANSWERS_KEY) || "{}");
+      const score = localStorage.getItem(SCORE_KEY);
       
-      if (data) {
-        setSession(data as QuizSession);
-      } else {
-        // Session not found, clear localStorage
-        localStorage.removeItem(SESSION_KEY);
-        setSessionId(null);
-      }
+      const sessionData: QuizSession = {
+        id,
+        answers,
+        score: score ? parseFloat(score) : null,
+        paid: false,
+        created_at: new Date().toISOString(),
+      };
+      
+      setSession(sessionData);
+      setError(null);
     } catch (err) {
       console.error("Error loading session:", err);
-      setError("Error loading session");
+      setError("Failed to load session");
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
 
   const createSession = useCallback(async () => {
     try {
       setLoading(true);
-      const { data, error } = await supabase
-        .from("quiz_sessions")
-        .insert({})
-        .select()
-        .single();
-
-      if (error) throw error;
-
-      const newSession = data as QuizSession;
-      localStorage.setItem(SESSION_KEY, newSession.id);
-      setSessionId(newSession.id);
-      setSession(newSession);
-      return newSession;
+      const newSessionId = `session_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+      
+      localStorage.setItem(SESSION_KEY, newSessionId);
+      localStorage.setItem(ANSWERS_KEY, "{}");
+      localStorage.removeItem(SCORE_KEY);
+      
+      setSessionId(newSessionId);
+      await loadSession(newSessionId);
+      
+      return newSessionId;
     } catch (err) {
       console.error("Error creating session:", err);
-      setError("Error creating session");
+      setError("Failed to create session");
       return null;
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [loadSession]);
 
-  const updateAnswers = useCallback(async (answers: number[]) => {
-    if (!sessionId) return false;
+  const updateAnswers = useCallback(async (answers: Record<number, string>) => {
+    if (!sessionId) return;
 
     try {
-      const { error } = await supabase
-        .from("quiz_sessions")
-        .update({ answers })
-        .eq("id", sessionId);
-
-      if (error) throw error;
-      return true;
+      localStorage.setItem(ANSWERS_KEY, JSON.stringify(answers));
+      
+      if (session) {
+        setSession({ ...session, answers });
+      }
     } catch (err) {
       console.error("Error updating answers:", err);
-      return false;
+      setError("Failed to update answers");
     }
-  }, [sessionId]);
+  }, [sessionId, session]);
 
-  const updateUserData = useCallback(async (name: string, whatsapp: string) => {
-    if (!sessionId) return false;
+  const updateScore = useCallback(async (score: number) => {
+    if (!sessionId) return;
 
     try {
-      const { error } = await supabase
-        .from("quiz_sessions")
-        .update({ 
-          user_name: name, 
-          user_whatsapp: whatsapp,
-          completed_at: new Date().toISOString()
-        })
-        .eq("id", sessionId);
-
-      if (error) throw error;
-      return true;
+      localStorage.setItem(SCORE_KEY, score.toString());
+      
+      if (session) {
+        setSession({ ...session, score });
+      }
     } catch (err) {
-      console.error("Error updating user data:", err);
-      return false;
+      console.error("Error updating score:", err);
+      setError("Failed to update score");
     }
-  }, [sessionId]);
+  }, [sessionId, session]);
 
   const markAsPaid = useCallback(async () => {
-    if (!sessionId) return false;
+    if (!sessionId) return;
 
     try {
-      const { error } = await supabase
-        .from("quiz_sessions")
-        .update({ paid: true })
-        .eq("id", sessionId);
-
-      if (error) throw error;
-      return true;
+      if (session) {
+        setSession({ ...session, paid: true });
+      }
     } catch (err) {
       console.error("Error marking as paid:", err);
-      return false;
+      setError("Failed to mark as paid");
     }
-  }, [sessionId]);
+  }, [sessionId, session]);
 
   const clearSession = useCallback(() => {
     localStorage.removeItem(SESSION_KEY);
+    localStorage.removeItem(ANSWERS_KEY);
+    localStorage.removeItem(SCORE_KEY);
     setSessionId(null);
     setSession(null);
   }, []);
-
-  const refreshSession = useCallback(async () => {
-    if (sessionId) {
-      await loadSession(sessionId);
-    }
-  }, [sessionId]);
 
   return {
     sessionId,
@@ -188,9 +131,8 @@ export function useQuizSession() {
     error,
     createSession,
     updateAnswers,
-    updateUserData,
+    updateScore,
     markAsPaid,
     clearSession,
-    refreshSession,
   };
-}
+};

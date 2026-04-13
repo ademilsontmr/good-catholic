@@ -8,7 +8,6 @@ import Index from "./pages/Index";
 import QuizPage from "./pages/QuizPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import ResultadoPage from "./pages/ResultadoPage";
-import PaymentSuccessPage from "./pages/PaymentSuccessPage";
 import BlogPage from "./pages/BlogPage";
 import HowToPrayRosary from "./pages/blog/HowToPrayRosary";
 import SevenSacraments from "./pages/blog/SevenSacraments";
@@ -183,7 +182,6 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/quiz" element={<QuizPage />} />
             <Route path="/checkout" element={<CheckoutPage />} />
-            <Route path="/payment-success" element={<PaymentSuccessPage />} />
             <Route path="/result" element={<ResultadoPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/page/:page" element={<BlogPage />} />
