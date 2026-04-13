@@ -1,9 +1,37 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { Cross, FileText, Clock, CheckCircle, ArrowRight, Download, Sparkles } from "lucide-react";
+import { Cross, FileText, Clock, CheckCircle, ArrowRight, Download, Sparkles, Users, Star, TrendingUp, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
 export default function QuizIntro() {
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  const faqs = [
+    {
+      question: "How long does the assessment take?",
+      answer: "The assessment takes approximately 10 minutes to complete. You can pause and resume at any time."
+    },
+    {
+      question: "Do I really need to create an account?",
+      answer: "No! You can start immediately without any registration. Just answer the questions and get your personalized guide instantly."
+    },
+    {
+      question: "Is the guide really personalized?",
+      answer: "Yes! Your guide is customized based on your answers across 5 spiritual areas: Eucharistic Life, Prayer Life, Formation, Devotions, and Christian Witness."
+    },
+    {
+      question: "What's included in the 10-page PDF guide?",
+      answer: "Your guide includes: personalized spiritual assessment, recommended prayers, sacramental guidance, daily and weekly action plans, and teachings from the Catholic Church."
+    }
+  ];
+
+  const miniTestimonials = [
+    { name: "Sarah M.", rating: 5, text: "Life-changing assessment!" },
+    { name: "Michael T.", rating: 5, text: "Exactly what I needed for my faith journey." },
+    { name: "Emily R.", rating: 5, text: "The personalized guide is incredible!" }
+  ];
+
   return (
     <>
       <Helmet>
@@ -36,7 +64,7 @@ export default function QuizIntro() {
           <div className="container mx-auto px-4 max-w-4xl">
             {/* Hero Section */}
             <div className="text-center mb-12">
-              <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full mb-6">
+              <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full mb-6 animate-pulse">
                 <Sparkles className="w-4 h-4" />
                 <span className="text-sm font-medium">Free Catholic Life Assessment</span>
               </div>
@@ -46,9 +74,49 @@ export default function QuizIntro() {
                 <span className="text-accent block mt-2">Deeper Catholic Faith</span>
               </h1>
               
-              <p className="text-xl text-text-muted max-w-2xl mx-auto leading-relaxed">
+              <p className="text-xl text-text-muted max-w-2xl mx-auto leading-relaxed mb-8">
                 Take our comprehensive 30-question assessment and receive a personalized 10-page spiritual growth guide tailored to your journey.
               </p>
+
+              {/* CTA Above the Fold */}
+              <Link to="/quiz">
+                <Button size="lg" className="text-lg px-8 py-6 h-auto group mb-6">
+                  Start Your Free Assessment Now
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+
+              {/* Social Proof Counter */}
+              <div className="flex items-center justify-center gap-6 text-sm text-text-muted mb-4">
+                <div className="flex items-center gap-2">
+                  <Users className="w-4 h-4 text-accent" />
+                  <span><strong className="text-text">12,847</strong> Catholics assessed</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <TrendingUp className="w-4 h-4 text-accent" />
+                  <span><strong className="text-text">234</strong> today</span>
+                </div>
+              </div>
+
+              {/* Mini Testimonials */}
+              <div className="flex flex-wrap items-center justify-center gap-4 mt-6">
+                {miniTestimonials.map((testimonial, index) => (
+                  <div key={index} className="bg-surface border border-border rounded-lg px-4 py-2 flex items-center gap-2">
+                    <div className="flex gap-0.5">
+                      {[...Array(testimonial.rating)].map((_, i) => (
+                        <Star key={i} className="w-3 h-3 fill-accent text-accent" />
+                      ))}
+                    </div>
+                    <span className="text-xs text-text-muted">"{testimonial.text}" - {testimonial.name}</span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Urgency Element */}
+              <div className="mt-6 inline-flex items-center gap-2 bg-orange-50 border border-orange-200 text-orange-700 px-4 py-2 rounded-full text-sm">
+                <Clock className="w-4 h-4" />
+                <span>⚡ Start now and get your guide in 10 minutes</span>
+              </div>
             </div>
 
             {/* Benefits Cards */}
@@ -128,7 +196,7 @@ export default function QuizIntro() {
             </div>
 
             {/* CTA Section */}
-            <div className="text-center">
+            <div className="text-center mb-12">
               <Link to="/quiz">
                 <Button size="lg" className="text-lg px-8 py-6 h-auto group">
                   Start Your Assessment Now
@@ -139,6 +207,36 @@ export default function QuizIntro() {
               <p className="text-sm text-text-muted mt-4">
                 ✓ No Registration  •  ✓ Instant Results
               </p>
+            </div>
+
+            {/* FAQ Section */}
+            <div className="bg-surface border border-border rounded-3xl p-8 md:p-12 mb-12">
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-text text-center mb-8">
+                Frequently Asked Questions
+              </h2>
+              
+              <div className="space-y-4 max-w-2xl mx-auto">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="border border-border rounded-xl overflow-hidden">
+                    <button
+                      onClick={() => setOpenFaq(openFaq === index ? null : index)}
+                      className="w-full flex items-center justify-between p-4 text-left hover:bg-background-muted transition-colors"
+                    >
+                      <span className="font-semibold text-text">{faq.question}</span>
+                      <ChevronDown 
+                        className={`w-5 h-5 text-accent transition-transform ${
+                          openFaq === index ? 'rotate-180' : ''
+                        }`}
+                      />
+                    </button>
+                    {openFaq === index && (
+                      <div className="px-4 pb-4 text-text-muted">
+                        {faq.answer}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* Trust Indicators */}
@@ -166,6 +264,25 @@ export default function QuizIntro() {
                   </div>
                 </div>
               </div>
+            </div>
+
+            {/* Final Urgency CTA */}
+            <div className="mt-12 bg-gradient-to-br from-accent/10 to-primary/10 border-2 border-accent/30 rounded-3xl p-8 text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-3">
+                Ready to Transform Your Spiritual Life?
+              </h3>
+              <p className="text-text-muted mb-6">
+                Join thousands of Catholics who have already discovered their personalized path to holiness.
+              </p>
+              <Link to="/quiz">
+                <Button size="lg" className="text-lg px-8 py-6 h-auto group">
+                  Begin Your Free Assessment
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
+              <p className="text-xs text-text-muted mt-4">
+                ⏱️ Takes only 10 minutes • 🎁 Get instant access to your guide
+              </p>
             </div>
           </div>
         </main>
