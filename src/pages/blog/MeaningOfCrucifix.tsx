@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function MeaningOfCrucifix() {
     return (
@@ -125,6 +126,29 @@ export default function MeaningOfCrucifix() {
                         </div>
 
                         <RelatedArticles currentSlug="meaning-of-crucifix" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is the difference between a cross and a crucifix?",
+                            answer: "A cross is an empty cross, symbolizing the Resurrection. A crucifix displays the body of Christ (corpus), emphasizing His sacrifice on Calvary. Catholics traditionally use crucifixes to keep the reality of Christ's suffering and redemption before their eyes."
+                          },
+                          {
+                            question: "Why do Catholics display crucifixes in their homes?",
+                            answer: "A crucifix in the home is a constant reminder of God's love, Christ's sacrifice, and our redemption. It sanctifies the home, invites God's blessing, and serves as a focal point for family prayer. The Church encourages having a crucifix in every room."
+                          },
+                          {
+                            question: "What does INRI mean on the crucifix?",
+                            answer: "INRI is an abbreviation of the Latin 'Iesus Nazarenus Rex Iudaeorum' — 'Jesus of Nazareth, King of the Jews.' This was the inscription Pontius Pilate ordered placed on the cross (John 19:19-20), written in Hebrew, Latin, and Greek."
+                          },
+                          {
+                            question: "Is it superstitious to wear a crucifix?",
+                            answer: "No. Wearing a crucifix is a sacramental — a sacred sign that disposes us to receive grace and sanctifies various occasions in life. It is an act of faith and a public witness to Christianity. The Church encourages wearing blessed crucifixes and religious medals."
+                          },
+                          {
+                            question: "What is the San Damiano Cross?",
+                            answer: "The San Damiano Cross is the Byzantine-style crucifix before which St. Francis of Assisi prayed when he heard Christ say 'Rebuild my Church.' It depicts Christ in glory even on the cross, surrounded by witnesses to the Resurrection. It is one of the most beloved crucifixes in Catholic history."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function PlenaryIndulgenceGuide() {
     return (
@@ -134,6 +135,29 @@ export default function PlenaryIndulgenceGuide() {
                         </div>
 
                         <RelatedArticles currentSlug="plenary-indulgence-guide" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is a plenary indulgence?",
+                            answer: "A plenary indulgence is the full remission of the temporal punishment due to sins already forgiven. It does not forgive sins (that requires Confession) but removes the punishment that remains after forgiveness. It can be applied to oneself or to a soul in Purgatory."
+                          },
+                          {
+                            question: "What are the conditions for gaining a plenary indulgence?",
+                            answer: "To gain a plenary indulgence you must: (1) be in a state of grace, (2) perform the prescribed indulgenced work, (3) receive sacramental Confession within 20 days, (4) receive Holy Communion, and (5) pray for the Pope's intentions. All attachment to sin must be absent."
+                          },
+                          {
+                            question: "What is the difference between a plenary and partial indulgence?",
+                            answer: "A plenary indulgence removes all temporal punishment due to sin. A partial indulgence removes some of the temporal punishment. The Church grants partial indulgences for many pious acts, prayers, and works of mercy performed with a contrite heart."
+                          },
+                          {
+                            question: "Can I gain a plenary indulgence for a deceased person?",
+                            answer: "Yes. Indulgences can be applied to the souls in Purgatory by way of suffrage (intercession), not by jurisdiction. The Church encourages gaining indulgences for the Holy Souls, especially during November and on All Souls' Day (November 2)."
+                          },
+                          {
+                            question: "Are indulgences the same as buying forgiveness?",
+                            answer: "No. The Church has never taught that indulgences can be purchased. The abuses of selling indulgences in the Middle Ages were condemned by the Council of Trent. An indulgence is a spiritual benefit gained through prayer and good works, never through money."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function PrayersOfHope2026() {
     return (
@@ -133,6 +134,29 @@ export default function PrayersOfHope2026() {
                         </div>
 
                         <RelatedArticles currentSlug="prayers-of-hope-2026" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What does the Catholic Church teach about hope?",
+                            answer: "Hope is one of the three theological virtues (along with faith and charity). The Catechism defines it as 'the theological virtue by which we desire the Kingdom of Heaven and eternal life as our happiness, placing our trust in Christ's promises and relying not on our own strength, but on the help of the Holy Spirit' (CCC 1817)."
+                          },
+                          {
+                            question: "What prayers are most powerful in times of crisis?",
+                            answer: "The most powerful prayers in times of crisis include: the Rosary, the Divine Mercy Chaplet, the Litany of the Saints, the Prayer to St. Michael, the Memorare, and the Anima Christi. Regular Mass attendance and Confession are also essential spiritual weapons."
+                          },
+                          {
+                            question: "How do I pray when I feel God is not listening?",
+                            answer: "Persevere in prayer even in dryness. Jesus taught the parable of the persistent widow (Luke 18:1-8) to show we must pray without losing heart. Spiritual dryness is not a sign of God's absence but often a sign of spiritual growth. Trust His timing, not your feelings."
+                          },
+                          {
+                            question: "What is the Divine Mercy Chaplet?",
+                            answer: "The Divine Mercy Chaplet is a prayer revealed by Jesus to St. Faustina Kowalska in the 1930s. It is prayed on rosary beads and focuses on God's infinite mercy. Jesus promised extraordinary graces to those who pray it, especially at the 3 PM 'Hour of Mercy.'"
+                          },
+                          {
+                            question: "How can prayer help with anxiety and fear?",
+                            answer: "St. Paul wrote: 'Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts' (Philippians 4:6-7). Prayer redirects our focus from problems to God's power."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

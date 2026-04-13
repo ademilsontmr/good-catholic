@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function ChurchChangesPost2025() {
     return (
@@ -129,6 +130,29 @@ export default function ChurchChangesPost2025() {
                         </div>
 
                         <RelatedArticles currentSlug="church-changes-post-2025" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What major changes has the Catholic Church made in recent years?",
+                            answer: "Recent years have seen: the publication of Fiducia Supplicans (2023) on blessings, ongoing synodal processes, continued liturgical discussions about the Traditional Latin Mass, increased emphasis on synodality, and the Church's response to global challenges like climate change and migration."
+                          },
+                          {
+                            question: "What is the Synod on Synodality?",
+                            answer: "The Synod on Synodality (2021-2024) was a global consultation process initiated by Pope Francis to discern how the Church can better listen to all its members. It emphasized participation, communion, and mission, while reaffirming core Catholic doctrine."
+                          },
+                          {
+                            question: "Has the Church changed any doctrines recently?",
+                            answer: "No. Catholic doctrine on faith and morals is unchangeable. What develops is the Church's understanding and expression of doctrine (doctrinal development), not the doctrine itself. Disciplines (like liturgical practices) can change; dogmas cannot."
+                          },
+                          {
+                            question: "What is the future of the Traditional Latin Mass?",
+                            answer: "Pope Francis's Traditionis Custodes (2021) restricted the Traditional Latin Mass, requiring bishop approval. This remains a point of discussion. The Church continues to navigate the balance between liturgical unity and pastoral care for communities attached to the traditional form."
+                          },
+                          {
+                            question: "How should Catholics respond to changes in the Church?",
+                            answer: "With faith, prayer, and charity. Catholics are called to trust in Christ's promise that 'the gates of hell shall not prevail' against the Church (Matthew 16:18). Stay close to the sacraments, study the faith, and maintain unity with your bishop and the Pope."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

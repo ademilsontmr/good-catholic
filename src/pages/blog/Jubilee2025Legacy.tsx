@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function Jubilee2025Legacy() {
     return (
@@ -124,6 +125,29 @@ export default function Jubilee2025Legacy() {
                         </div>
 
                         <RelatedArticles currentSlug="jubilee-2025-legacy" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is a Catholic Jubilee Year?",
+                            answer: "A Jubilee Year is a special year of grace proclaimed by the Pope, rooted in the Old Testament tradition (Leviticus 25). It is a time of special indulgences, pilgrimage, reconciliation, and renewal. Ordinary Jubilees occur every 25 years; Extraordinary Jubilees can be called at any time."
+                          },
+                          {
+                            question: "What was the theme of the 2025 Jubilee?",
+                            answer: "The 2025 Jubilee was proclaimed by Pope Francis with the theme 'Pilgrims of Hope.' It called Catholics worldwide to renew their hope in Christ amid the challenges of the modern world, emphasizing reconciliation, care for the poor, and ecological conversion."
+                          },
+                          {
+                            question: "What is a Holy Door and why is it significant?",
+                            answer: "Holy Doors are special doors at the four major basilicas in Rome (St. Peter's, St. John Lateran, St. Mary Major, St. Paul Outside the Walls) opened only during Jubilee Years. Passing through them while in a state of grace and fulfilling certain conditions gains a plenary indulgence."
+                          },
+                          {
+                            question: "How can I continue living the Jubilee spirit after 2025?",
+                            answer: "Continue the Jubilee spirit through: regular Confession and Communion, works of mercy, prayer for peace, care for the poor, ecological responsibility, and maintaining the pilgrim mindset — always journeying toward God. The Jubilee ends, but the call to holiness never does."
+                          },
+                          {
+                            question: "When is the next Catholic Jubilee Year?",
+                            answer: "Following the 2025 Ordinary Jubilee, the next Ordinary Jubilee would be in 2050. However, the Pope can call an Extraordinary Jubilee at any time for special occasions, as Pope Francis did in 2015-2016 with the Extraordinary Jubilee of Mercy."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">
