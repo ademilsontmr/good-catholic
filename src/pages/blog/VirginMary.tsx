@@ -10,10 +10,10 @@ export default function VirginMary() {
     return (
         <>
             <Helmet>
-                <title>The Virgin Mary in Catholic Doctrine: Dogmas and Devotion | Good Catholic</title>
+                <title>The Virgin Mary in Catholic Doctrine: Dogmas and Devotion | Guide Catholic</title>
                 <meta name="description" content="Learn about the four Marian dogmas and the importance of Our Lady in salvation history. Understand why Catholics honor the Mother of God." />
                 <meta name="keywords" content="virgin mary in catholic church, marian dogmas, why catholics venerate mary, our lady mother of god, immaculate conception, assumption of mary" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/virgin-mary/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/virgin-mary/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function VirginMary() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

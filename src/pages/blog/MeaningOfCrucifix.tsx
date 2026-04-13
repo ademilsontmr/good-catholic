@@ -10,10 +10,10 @@ export default function MeaningOfCrucifix() {
     return (
         <>
             <Helmet>
-                <title>The History and Meaning of the Crucifix | Good Catholic</title>
+                <title>The History and Meaning of the Crucifix | Guide Catholic</title>
                 <meta name="description" content="Understand why the crucifix is the central symbol of Catholic faith. Learn about its history, symbolism, and the importance of having it in our homes." />
                 <meta name="keywords" content="meaning of crucifix, difference between cross and crucifix, why Catholics use crucifix, crucifix at home, symbol of the cross, passion of Christ, INRI meaning, Catholic cross, having crucifix in bedroom, sign of the cross" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/meaning-of-crucifix/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/meaning-of-crucifix/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function MeaningOfCrucifix() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

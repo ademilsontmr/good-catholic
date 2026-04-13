@@ -23,7 +23,7 @@ export function Navbar() {
             <div className="w-8 h-8 rounded-full bg-gradient-accent flex items-center justify-center">
               <Cross className="w-4 h-4 text-button-text" />
             </div>
-            <span className="font-display text-xl font-bold text-accent">Good Catholic</span>
+            <span className="font-display text-xl font-bold text-accent">Guide Catholic</span>
           </Link>
 
           {/* Desktop Navigation */}

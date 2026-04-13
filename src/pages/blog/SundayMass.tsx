@@ -10,10 +10,10 @@ export default function SundayMass() {
   return (
     <>
       <Helmet>
-        <title>Sunday Mass: The Center of Christian Life | Good Catholic</title>
+        <title>Sunday Mass: The Center of Christian Life | Guide Catholic</title>
         <meta name="description" content="Discover why participation in Sunday Mass is essential for every Catholic. Learn how to make the most of Holy Mass and grow in faith." />
         <meta name="keywords" content="sunday mass obligatory, why go to mass, catholic holy mass, sunday precept, not going to mass is sin, sunday eucharist" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/sunday-mass/" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/sunday-mass/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function SundayMass() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-xl font-bold">Good Catholic</span>
+              <span className="font-display text-xl font-bold">Guide Catholic</span>
             </Link>
             <Link to="/quiz">
               <Button variant="secondary" size="sm">

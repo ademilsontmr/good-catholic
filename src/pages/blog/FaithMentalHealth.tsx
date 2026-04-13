@@ -10,10 +10,10 @@ export default function FaithMentalHealth() {
     return (
         <>
             <Helmet>
-                <title>Faith and Mental Health: How Catholic Spirituality Helps Overcome Anxiety? | Good Catholic</title>
+                <title>Faith and Mental Health: How Catholic Spirituality Helps Overcome Anxiety? | Guide Catholic</title>
                 <meta name="description" content="Discover how Catholic faith and prayer life can be powerful allies in combating anxiety and seeking emotional balance." />
                 <meta name="keywords" content="faith and anxiety, prayer for anxiety, Catholic with anxiety, spirituality and mental health, how to have inner peace, faith helps depression" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/faith-mental-health/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/faith-mental-health/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function FaithMentalHealth() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

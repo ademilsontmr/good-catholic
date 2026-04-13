@@ -10,10 +10,10 @@ export default function ChastityModernWorld() {
     return (
         <>
             <Helmet>
-                <title>Living Chastity in the Modern World: Challenges and Graces | Good Catholic</title>
+                <title>Living Chastity in the Modern World: Challenges and Graces | Guide Catholic</title>
                 <meta name="description" content="Understand the true meaning of Christian chastity and how to live it in today's world. An invitation to freedom and authentic love according to the Gospel." />
                 <meta name="keywords" content="how to live chastity, chastity in modern world, catholic sexual purity, why be chaste, chastity before marriage, true love" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/chastity-modern-world/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/chastity-modern-world/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function ChastityModernWorld() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">Take the Quiz</Button>

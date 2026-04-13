@@ -10,10 +10,10 @@ export default function ChurchChangesPost2025() {
     return (
         <>
             <Helmet>
-                <title>What Changes in the Church After the Holy Year of 2025? | Good Catholic</title>
+                <title>What Changes in the Church After the Holy Year of 2025? | Guide Catholic</title>
                 <meta name="description" content="Analysis of perspectives and changes in the Catholic Church for 2026 after the closing of the Jubilee. What to expect from the pontificate and dioceses." />
                 <meta name="keywords" content="Catholic church 2026, changes in church, pope francis, synodality, future of Catholic church, synod, laudato si, fratelli tutti, new bishops, digital Catholic evangelization" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/church-changes-post-2025/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/church-changes-post-2025/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function ChurchChangesPost2025() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

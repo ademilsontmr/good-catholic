@@ -10,10 +10,10 @@ export default function VocationalDiscernment() {
     return (
         <>
             <Helmet>
-                <title>How to Discern God's Will in Your Life | Good Catholic</title>
+                <title>How to Discern God's Will in Your Life | Guide Catholic</title>
                 <meta name="description" content="Learn the principles of spiritual discernment to discover God's plan for you. Practical tips for making decisions in the light of faith." />
                 <meta name="keywords" content="how to know my vocation, catholic vocational discernment, god's will for my life, how to discern, priestly religious matrimonial vocation" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/vocational-discernment/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/vocational-discernment/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function VocationalDiscernment() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">Take the Quiz</Button>

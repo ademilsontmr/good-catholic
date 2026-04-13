@@ -10,10 +10,10 @@ export default function Jubilee2025Legacy() {
     return (
         <>
             <Helmet>
-                <title>The Legacy of Jubilee 2025: How to Continue Being a Pilgrim of Hope? | Good Catholic</title>
+                <title>The Legacy of Jubilee 2025: How to Continue Being a Pilgrim of Hope? | Guide Catholic</title>
                 <meta name="description" content="The Holy Year of 2025 has ended, but its mission continues. Discover how to keep the flame of hope alive in your Christian life in 2026." />
                 <meta name="keywords" content="jubilee 2025 what was it, pilgrims of hope, holy year 2025, holy door, pope francis jubilee, jubilee indulgence, how to live after jubilee, fruits of holy year, Christian hope, Catholic church 2026" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/jubilee-2025-legacy/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/jubilee-2025-legacy/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function Jubilee2025Legacy() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

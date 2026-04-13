@@ -10,10 +10,10 @@ export default function ImportanceOfConfession() {
   return (
     <>
       <Helmet>
-        <title>The Importance of Confession: Why Confess Regularly? | Good Catholic</title>
+        <title>The Importance of Confession: Why Confess Regularly? | Guide Catholic</title>
         <meta name="description" content="Discover the spiritual benefits of frequent confession. Learn how to confess well and why this sacrament transforms our Christian life." />
         <meta name="keywords" content="why confess to a priest, importance of confession, frequent confession, benefits of confession, how to make a good confession, examination of conscience" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/importance-confession/" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/importance-confession/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function ImportanceOfConfession() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-xl font-bold">Good Catholic</span>
+              <span className="font-display text-xl font-bold">Guide Catholic</span>
             </Link>
             <Link to="/quiz">
               <Button variant="secondary" size="sm">

@@ -11,7 +11,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Quiz: How is your Catholic life? | Good Catholic</title>
+        <title>Quiz: How is your Catholic life? | Guide Catholic</title>
         <meta name="description" content="Discover how your faith journey is going through this simple and sincere quiz. Evaluate your participation in the sacramental life of the Catholic Church." />
         <meta name="keywords" content="catholic quiz, catholic faith, christian life, sacraments, mass, prayer, rosary, confession, faith test, spiritual assessment" />
         <link rel="canonical" href="https://bomcatolico.com.br/" />

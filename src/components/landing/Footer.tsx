@@ -12,7 +12,7 @@ export function Footer() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-2xl font-bold">Good Catholic</span>
+              <span className="font-display text-2xl font-bold">Guide Catholic</span>
             </div>
             <p className="text-button-text/70 max-w-md mb-6">
               Helping Catholics live their faith more deeply and consciously.
@@ -91,7 +91,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-button-text/20 mt-12 pt-8 text-center text-sm text-button-text/60">
-          <p>© 2024 Good Catholic. All rights reserved.</p>
+          <p>© 2024 Guide Catholic. All rights reserved.</p>
           <p className="mt-2">
             Made with ❤️ for the glory of God
           </p>

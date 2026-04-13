@@ -392,9 +392,9 @@ export default function BlogPage() {
   return (
     <>
       <Helmet>
-        <title>Blog - Good Catholic</title>
+        <title>Blog - Guide Catholic</title>
         <meta name="description" content="Explore articles about Catholic faith, spirituality, sacraments, and Christian living." />
-        <link rel="canonical" href={`https://goodcatholic.com/blog/page/${currentPage}/`} />
+        <link rel="canonical" href={`https://guidecatholic.com/blog/page/${currentPage}/`} />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -404,7 +404,7 @@ export default function BlogPage() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-xl font-bold">Good Catholic</span>
+              <span className="font-display text-xl font-bold">Guide Catholic</span>
             </Link>
             <Link to="/quiz">
               <Button variant="secondary" size="sm">
@@ -428,7 +428,7 @@ export default function BlogPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
               <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">
-                Good Catholic Blog
+                Guide Catholic Blog
               </h1>
               <p className="text-xl text-text-muted max-w-2xl mx-auto">
                 Articles, reflections and teachings to strengthen your faith and deepen your knowledge of Catholic doctrine.

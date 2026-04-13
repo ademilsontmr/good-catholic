@@ -10,9 +10,9 @@ export default function EucharisticAdoration() {
     return (
         <>
             <Helmet>
-                <title>The Importance of Eucharistic Adoration | Good Catholic</title>
+                <title>The Importance of Eucharistic Adoration | Guide Catholic</title>
                 <meta name="description" content="Discover the spiritual benefits of spending time before the Blessed Sacrament. A guide on how to make a good holy hour." />
-                <link rel="canonical" href="https://goodcatholic.com/blog/eucharistic-adoration/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/eucharistic-adoration/" />
             </Helmet>
             <div className="min-h-screen bg-background">
                 <header className="bg-primary text-button-text py-4">
@@ -21,7 +21,7 @@ export default function EucharisticAdoration() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz"><Button variant="secondary" size="sm">Take the Quiz</Button></Link>
                     </div>

@@ -10,10 +10,10 @@ export default function PlenaryIndulgenceGuide() {
     return (
         <>
             <Helmet>
-                <title>Plenary Indulgence: Complete Guide for the Final Days of the Jubilee | Good Catholic</title>
+                <title>Plenary Indulgence: Complete Guide for the Final Days of the Jubilee | Guide Catholic</title>
                 <meta name="description" content="There's still time! Learn how to obtain plenary indulgence at the closing of Jubilee 2025 and understand the spiritual value of this grace." />
                 <meta name="keywords" content="what is plenary indulgence, how to gain indulgence, jubilee 2025, conditions for indulgence, indulgence for souls in purgatory, holy door, Catholic holy year, forgiveness of penalties, partial and plenary indulgence, jubilee works of mercy" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/plenary-indulgence-guide/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/plenary-indulgence-guide/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function PlenaryIndulgenceGuide() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

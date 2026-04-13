@@ -10,10 +10,10 @@ export default function ExaminationOfConscience() {
     return (
         <>
             <Helmet>
-                <title>How to Make a Good Examination of Conscience for Confession | Good Catholic</title>
+                <title>How to Make a Good Examination of Conscience for Confession | Guide Catholic</title>
                 <meta name="description" content="Practical guide to perform a deep and sincere examination of conscience. Prepare for the sacrament of Reconciliation with this spiritual roadmap." />
                 <meta name="keywords" content="complete examination of conscience, how to examine conscience, list of sins for confession, preparation for confession, mortal and venial sins" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/examination-conscience/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/examination-conscience/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function ExaminationOfConscience() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

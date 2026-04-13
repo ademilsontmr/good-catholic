@@ -106,7 +106,7 @@ const QuizPage = () => {
 
         <footer className="py-6 text-center">
           <p className="text-sm text-text-muted">
-            © 2024 Good Catholic · All rights reserved
+            © 2024 Guide Catholic · All rights reserved
           </p>
         </footer>
       </div>

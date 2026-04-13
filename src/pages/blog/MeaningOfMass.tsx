@@ -10,10 +10,10 @@ export default function MeaningOfMass() {
     return (
         <>
             <Helmet>
-                <title>The Meaning of Holy Mass: Understanding Each Part of the Liturgy | Good Catholic</title>
+                <title>The Meaning of Holy Mass: Understanding Each Part of the Liturgy | Guide Catholic</title>
                 <meta name="description" content="Learn the profound meaning of each moment of Holy Mass. A complete guide to the liturgy to participate with more awareness and devotion." />
                 <meta name="keywords" content="parts of mass explained, meaning of catholic mass, mass liturgy, what happens at mass, mass rites, how to participate in mass" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/meaning-mass/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/meaning-mass/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function MeaningOfMass() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

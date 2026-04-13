@@ -10,10 +10,10 @@ export default function GiftsOfHolySpirit() {
     return (
         <>
             <Helmet>
-                <title>The Gifts of the Holy Spirit: How to Identify and Use Them | Good Catholic</title>
+                <title>The Gifts of the Holy Spirit: How to Identify and Use Them | Guide Catholic</title>
                 <meta name="description" content="Learn about the seven gifts of the Holy Spirit and how they work in your life to guide you on the path of holiness and service to others." />
                 <meta name="keywords" content="what are the seven gifts of the holy spirit, gift of wisdom, gift of understanding, gift of counsel, gift of fortitude, gift of knowledge, gift of piety, gift of fear of the lord" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/gifts-holy-spirit/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/gifts-holy-spirit/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function GiftsOfHolySpirit() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

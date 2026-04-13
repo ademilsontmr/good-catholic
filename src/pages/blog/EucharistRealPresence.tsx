@@ -10,10 +10,10 @@ export default function EucharistRealPresence() {
     return (
         <>
             <Helmet>
-                <title>The Eucharist: Real Presence of Jesus in Bread and Wine | Good Catholic</title>
+                <title>The Eucharist: Real Presence of Jesus in Bread and Wine | Guide Catholic</title>
                 <meta name="description" content="Understand the dogma of Transubstantiation and the importance of the Eucharist as source and summit of Christian life. Discover why Jesus is truly present in the Holy Host." />
                 <meta name="keywords" content="real presence of jesus in eucharist, what is transubstantiation, body and blood of christ, host is jesus, blessed sacrament, catholic communion" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/eucharist-real-presence/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/eucharist-real-presence/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function EucharistRealPresence() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz"><Button variant="secondary" size="sm">Take the Quiz</Button></Link>
                     </div>

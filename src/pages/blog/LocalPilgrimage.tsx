@@ -10,10 +10,10 @@ export default function LocalPilgrimage() {
     return (
         <>
             <Helmet>
-                <title>How to Organize a Local Pilgrimage in Your Diocese | Good Catholic</title>
+                <title>How to Organize a Local Pilgrimage in Your Diocese | Guide Catholic</title>
                 <meta name="description" content="Practical and spiritual guide to organizing pilgrimages to local shrines and jubilee churches, strengthening community faith in 2026." />
                 <meta name="keywords" content="how to organize pilgrimage, Catholic pilgrimage, shrines, religious tourism Catholic, pilgrimage, how to make pilgrimage, jubilee churches, walking pilgrimage, pilgrimage route, Marian shrines" />
-                <link rel="canonical" href="https://goodcatholic.com/blog/local-pilgrimage/" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/local-pilgrimage/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function LocalPilgrimage() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz">
                             <Button variant="secondary" size="sm">

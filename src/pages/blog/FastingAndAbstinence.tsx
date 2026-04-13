@@ -10,10 +10,10 @@ export default function FastingAndAbstinence() {
   return (
     <>
       <Helmet>
-        <title>Fasting and Abstinence: Practices That Strengthen the Soul | Good Catholic</title>
+        <title>Fasting and Abstinence: Practices That Strengthen the Soul | Guide Catholic</title>
         <meta name="description" content="Learn about the practices of fasting and abstinence in the Catholic Church. Discover when and how to fast correctly to grow in spiritual life." />
         <meta name="keywords" content="catholic fasting how to, meat abstinence friday, when to fast, lent fasting, days of fasting and abstinence, catholic penance" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/fasting-abstinence/" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/fasting-abstinence/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function FastingAndAbstinence() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-xl font-bold">Good Catholic</span>
+              <span className="font-display text-xl font-bold">Guide Catholic</span>
             </Link>
             <Link to="/quiz">
               <Button variant="secondary" size="sm">

@@ -10,10 +10,10 @@ export default function HowToPrayRosary() {
   return (
     <>
       <Helmet>
-        <title>How to Pray the Holy Rosary: Complete Guide for Beginners | Good Catholic</title>
+        <title>How to Pray the Holy Rosary: Complete Guide for Beginners | Guide Catholic</title>
         <meta name="description" content="Learn step by step how to pray the Holy Rosary correctly. Complete guide with mysteries, prayers and meditations to strengthen your Marian devotion." />
         <meta name="keywords" content="how to pray the rosary step by step, complete holy rosary, mysteries of the rosary, catholic rosary, rosary prayer, hail mary" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/how-to-pray-rosary/" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-rosary/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -24,7 +24,7 @@ export default function HowToPrayRosary() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-xl font-bold">Good Catholic</span>
+              <span className="font-display text-xl font-bold">Guide Catholic</span>
             </Link>
             <Link to="/quiz">
               <Button variant="secondary" size="sm">

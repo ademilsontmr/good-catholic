@@ -10,8 +10,8 @@ export default function HowToLiveLent() {
     return (
         <>
             <Helmet>
-                <title>How to Live Lent with Spiritual Fruits | Good Catholic</title>
-                <link rel="canonical" href="https://goodcatholic.com/blog/how-to-live-lent/" />
+                <title>How to Live Lent with Spiritual Fruits | Guide Catholic</title>
+                <link rel="canonical" href="https://guidecatholic.com/blog/how-to-live-lent/" />
             </Helmet>
             <div className="min-h-screen bg-background">
                 <header className="bg-primary text-button-text py-4">
@@ -20,7 +20,7 @@ export default function HowToLiveLent() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Good Catholic</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
                         <Link to="/quiz"><Button variant="secondary" size="sm">Take the Quiz</Button></Link>
                     </div>

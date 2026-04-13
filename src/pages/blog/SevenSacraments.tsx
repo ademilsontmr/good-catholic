@@ -10,10 +10,10 @@ export default function SevenSacraments() {
   return (
     <>
       <Helmet>
-        <title>The 7 Sacraments of the Catholic Church Explained | Good Catholic</title>
+        <title>The 7 Sacraments of the Catholic Church Explained | Guide Catholic</title>
         <meta name="description" content="Understand the importance and meaning of each of the seven sacraments instituted by Christ: Baptism, Eucharist, Confirmation, Confession, Anointing, Holy Orders, and Matrimony." />
         <meta name="keywords" content="what are the 7 sacraments, seven sacraments of the catholic church, baptism eucharist confirmation confession, sacraments explained, what are sacraments" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/seven-sacraments/" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/seven-sacraments/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -24,7 +24,7 @@ export default function SevenSacraments() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-xl font-bold">Good Catholic</span>
+              <span className="font-display text-xl font-bold">Guide Catholic</span>
             </Link>
             <Link to="/quiz">
               <Button variant="secondary" size="sm">

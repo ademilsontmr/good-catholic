@@ -10,10 +10,10 @@ export default function PatronSaints() {
   return (
     <>
       <Helmet>
-        <title>Patron Saints: How to Choose and Honor Yours | Good Catholic</title>
+        <title>Patron Saints: How to Choose and Honor Yours | Guide Catholic</title>
         <meta name="description" content="Learn about the tradition of patron saints in the Catholic Church. Discover how to choose your patron saint and how to honor them to receive their intercession." />
         <meta name="keywords" content="how to choose patron saint, patron saints, saint protector, intercession of saints, devotion to saints, saint of my name" />
-        <link rel="canonical" href="https://goodcatholic.com/blog/patron-saints/" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/patron-saints/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -23,7 +23,7 @@ export default function PatronSaints() {
               <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                 <Cross className="w-5 h-5 text-button-text" />
               </div>
-              <span className="font-display text-xl font-bold">Good Catholic</span>
+              <span className="font-display text-xl font-bold">Guide Catholic</span>
             </Link>
             <Link to="/quiz">
               <Button variant="secondary" size="sm">
