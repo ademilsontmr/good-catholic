@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function FastingAndAbstinence() {
   return (
@@ -201,6 +202,29 @@ export default function FastingAndAbstinence() {
             </div>
 
             <RelatedArticles currentSlug="fasting-abstinence" />
+
+            <BlogFAQ faqs={[
+              {
+                question: "What is the difference between fasting and abstinence?",
+                answer: "Fasting means limiting food intake to one full meal and two smaller meals that together don't equal a full meal. Abstinence means refraining from eating meat. They are distinct practices: fasting affects quantity, abstinence affects type of food."
+              },
+              {
+                question: "Who is required to fast and abstain in the Catholic Church?",
+                answer: "Catholics aged 18–59 are bound to fast on Ash Wednesday and Good Friday. Catholics aged 14 and older must abstain from meat on Ash Wednesday and all Fridays of Lent. Those with health conditions or other serious reasons are exempt."
+              },
+              {
+                question: "Why do Catholics abstain from meat on Fridays?",
+                answer: "Friday abstinence is a penitential practice commemorating Christ's death on Good Friday. It is a small sacrifice that unites us to Christ's suffering and reminds us of our dependence on God. Outside Lent, Catholics may substitute another penance."
+              },
+              {
+                question: "Does drinking water or coffee break the Eucharistic fast?",
+                answer: "The Eucharistic fast (required before receiving Communion) requires abstaining from food and drink except water and medicine for one hour before receiving. Plain water does not break the fast. Coffee with milk or sugar does break it."
+              },
+              {
+                question: "What are the spiritual benefits of fasting?",
+                answer: "Fasting strengthens self-discipline, increases sensitivity to God's voice, expresses repentance, and unites us with the poor. Jesus said some demons can only be driven out by prayer and fasting (Matthew 17:21). It is a powerful spiritual weapon."
+              }
+            ]} />
 
             {/* CTA */}
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

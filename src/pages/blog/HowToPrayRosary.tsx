@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function HowToPrayRosary() {
   return (
@@ -263,6 +264,29 @@ export default function HowToPrayRosary() {
             </div>
 
             <RelatedArticles currentSlug="how-to-pray-rosary" />
+
+            <BlogFAQ faqs={[
+              {
+                question: "How many mysteries does the Holy Rosary have?",
+                answer: "The Holy Rosary has 20 mysteries divided into four groups: 5 Joyful Mysteries (Monday and Saturday), 5 Luminous Mysteries (Thursday), 5 Sorrowful Mysteries (Tuesday and Friday), and 5 Glorious Mysteries (Wednesday and Sunday)."
+              },
+              {
+                question: "How long does it take to pray the full Rosary?",
+                answer: "Praying one set of 5 mysteries takes approximately 15–20 minutes. The full 20-mystery Rosary takes about 60–80 minutes. Most Catholics pray one set of 5 mysteries per day."
+              },
+              {
+                question: "Do I need a physical rosary to pray?",
+                answer: "While a physical rosary helps you keep count and focus, it is not strictly required. You can count the prayers on your fingers or use a rosary app. However, using a blessed rosary is recommended as it is a sacramental."
+              },
+              {
+                question: "Can children pray the Rosary?",
+                answer: "Absolutely! The Rosary is suitable for all ages. For young children, start with just one decade (10 Hail Marys) and gradually increase. The family Rosary is one of the most powerful spiritual practices a Catholic household can adopt."
+              },
+              {
+                question: "What are the promises Our Lady made to those who pray the Rosary?",
+                answer: "Our Lady promised 15 graces to those who pray the Rosary devoutly, including: special protection from Mary, peace in families, perseverance in virtue, protection from hell, and the grace of final perseverance (dying in a state of grace)."
+              }
+            ]} />
 
             {/* CTA */}
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

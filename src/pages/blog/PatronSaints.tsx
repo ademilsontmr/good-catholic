@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function PatronSaints() {
   return (
@@ -205,6 +206,29 @@ export default function PatronSaints() {
             </div>
 
             <RelatedArticles currentSlug="patron-saints" />
+
+            <BlogFAQ faqs={[
+              {
+                question: "What is a patron saint?",
+                answer: "A patron saint is a saint who is believed to have a special affinity for a particular person, place, profession, or cause. Catholics ask patron saints to intercede for them before God, similar to asking a holy friend to pray on your behalf."
+              },
+              {
+                question: "How do I choose my patron saint?",
+                answer: "You can choose a patron saint based on your baptismal or confirmation name, your profession, a cause you care about, or simply a saint whose life inspires you. You can also pray and ask God to guide you to the right patron."
+              },
+              {
+                question: "Is praying to saints the same as worshipping them?",
+                answer: "No. Catholics worship God alone. Asking saints to intercede is like asking a holy friend to pray for you. Saints are alive in Heaven and can present our prayers to God. This is called 'veneration,' which is entirely different from worship (latria)."
+              },
+              {
+                question: "Who is the patron saint of the United States?",
+                answer: "The Immaculate Conception of the Blessed Virgin Mary is the patroness of the United States, declared by Pope Pius IX in 1847. The National Shrine of the Immaculate Conception in Washington D.C. is dedicated to her."
+              },
+              {
+                question: "Can I have more than one patron saint?",
+                answer: "Yes! Catholics often have multiple patron saints — one from Baptism, one from Confirmation, a patron of their profession, and others they feel drawn to. There is no limit to the number of saints you can ask for intercession."
+              }
+            ]} />
 
             {/* CTA */}
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

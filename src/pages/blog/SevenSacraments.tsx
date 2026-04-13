@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function SevenSacraments() {
   return (
@@ -194,6 +195,29 @@ export default function SevenSacraments() {
             </div>
 
             <RelatedArticles currentSlug="seven-sacraments" />
+
+            <BlogFAQ faqs={[
+              {
+                question: "What are the 7 Sacraments of the Catholic Church?",
+                answer: "The seven sacraments are: Baptism, Confirmation, Eucharist, Penance (Confession), Anointing of the Sick, Holy Orders, and Matrimony. Each was instituted by Jesus Christ and entrusts visible signs that confer the grace they signify."
+              },
+              {
+                question: "Which sacraments can be received only once?",
+                answer: "Baptism, Confirmation, and Holy Orders can only be received once because they imprint a permanent spiritual mark (character) on the soul. The other four sacraments can be received multiple times."
+              },
+              {
+                question: "What is the most important sacrament?",
+                answer: "The Eucharist is considered the 'source and summit of all Christian life' (Lumen Gentium 11). However, Baptism is the gateway to all other sacraments, making it foundational to the entire sacramental life."
+              },
+              {
+                question: "Can non-Catholics receive the sacraments?",
+                answer: "Generally, the sacraments are for Catholics in good standing. However, in danger of death, a non-Catholic Christian may receive Anointing of the Sick, Penance, and Eucharist if they cannot access their own minister and ask on their own initiative."
+              },
+              {
+                question: "How often should Catholics receive the Eucharist?",
+                answer: "The Church requires Catholics to receive Communion at least once a year during the Easter season. However, the Church strongly encourages frequent, even daily, reception of the Eucharist for those properly disposed."
+              }
+            ]} />
 
             {/* CTA */}
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

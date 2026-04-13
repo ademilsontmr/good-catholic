@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function ImportanceOfConfession() {
   return (
@@ -221,6 +222,29 @@ export default function ImportanceOfConfession() {
             </div>
 
             <RelatedArticles currentSlug="importance-confession" />
+
+            <BlogFAQ faqs={[
+              {
+                question: "How often should Catholics go to Confession?",
+                answer: "The Church requires Confession at least once a year for those in mortal sin. However, the Church strongly recommends monthly Confession for spiritual growth. Many saints went weekly. Pope John Paul II went every week."
+              },
+              {
+                question: "What sins must be confessed in Confession?",
+                answer: "All mortal sins must be confessed, specifying the type of sin and the number of times committed. Venial sins are encouraged to be confessed but are not strictly required. A mortal sin involves grave matter, full knowledge, and deliberate consent."
+              },
+              {
+                question: "Is Confession really necessary if I'm sorry in my heart?",
+                answer: "Yes. Jesus specifically instituted the Sacrament of Confession when He said to the Apostles: 'Whose sins you forgive are forgiven them' (John 20:23). Perfect contrition can restore grace in an emergency, but one must still intend to go to Confession."
+              },
+              {
+                question: "What happens if I forget to confess a sin?",
+                answer: "If you forget a sin in good faith, it is forgiven through the absolution. However, when you remember it, you should mention it in your next Confession. Deliberately hiding a mortal sin makes the entire Confession invalid."
+              },
+              {
+                question: "Can a priest ever reveal what is said in Confession?",
+                answer: "Absolutely not. The seal of Confession is absolute and inviolable. A priest is forbidden under any circumstances to reveal anything heard in Confession. This is called the 'sacramental seal' and breaking it results in automatic excommunication."
+              }
+            ]} />
 
             {/* CTA */}
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
