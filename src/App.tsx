@@ -188,8 +188,11 @@ const App = () => (
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/page/:page" element={<BlogPage />} />
             <Route path="/termos" element={<TermsOfUse />} />
+            <Route path="/terms" element={<TermsOfUse />} />
             <Route path="/privacidade" element={<PrivacyPolicy />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/contato" element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="/blog/how-to-pray-rosary/" element={<HowToPrayRosary />} />
             <Route path="/blog/seven-sacraments/" element={<SevenSacraments />} />
             <Route path="/blog/importance-confession/" element={<ImportanceOfConfession />} />

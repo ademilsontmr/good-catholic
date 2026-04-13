@@ -8,9 +8,9 @@ export default function PrivacyPolicy() {
     return (
         <>
             <Helmet>
-                <title>Política de Privacidade | Bom Católico</title>
-                <meta name="description" content="Leia a política de privacidade do site Bom Católico. Saiba como coletamos, usamos e protegemos suas informações pessoais." />
-                <link rel="canonical" href="https://bomcatolico.com.br/privacidade" />
+                <title>Privacy Policy | Guide Catholic</title>
+                <meta name="description" content="Read the Privacy Policy for Guide Catholic. Learn how we collect, use, and protect your personal information." />
+                <link rel="canonical" href="https://guidecatholic.com/privacy/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -20,12 +20,10 @@ export default function PrivacyPolicy() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Bom Católico</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
-                        <Link to="/quiz">
-                            <Button variant="secondary" size="sm">
-                                Fazer o Quiz
-                            </Button>
+                        <Link to="/quiz-intro">
+                            <Button variant="secondary" size="sm">Take the Quiz</Button>
                         </Link>
                     </div>
                 </header>
@@ -35,7 +33,7 @@ export default function PrivacyPolicy() {
                         <nav className="flex items-center gap-2 text-sm text-text-muted">
                             <Link to="/" className="hover:text-accent">Home</Link>
                             <span>/</span>
-                            <span className="text-text">Política de Privacidade</span>
+                            <span className="text-text">Privacy Policy</span>
                         </nav>
                     </div>
                 </div>
@@ -44,87 +42,75 @@ export default function PrivacyPolicy() {
                     <div className="container mx-auto px-4 max-w-4xl">
                         <Link to="/" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
                             <ArrowLeft className="w-4 h-4" />
-                            Voltar para Home
+                            Back to Home
                         </Link>
 
                         <header className="mb-8">
                             <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
-                                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                                    Legal
-                                </span>
+                                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Legal</span>
                                 <span className="flex items-center gap-1">
                                     <ShieldCheck className="w-4 h-4" />
-                                    Atualizado em 29 de Dezembro, 2024
+                                    Updated April 12, 2026
                                 </span>
                             </div>
-
                             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                                Política de Privacidade
+                                Privacy Policy
                             </h1>
                         </header>
 
                         <div className="prose prose-lg max-w-none text-text">
                             <p className="leading-relaxed mb-6">
-                                No Bom Católico, a sua privacidade é de extrema importância para nós. Esta Política de Privacidade descreve os tipos de informações pessoais que coletamos, como as utilizamos e as medidas que tomamos para protegê-las.
+                                At Guide Catholic, your privacy is extremely important to us. This Privacy Policy describes the types of personal information we collect, how we use it, and the measures we take to protect it.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                1. Coleta de Informações
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">1. Information We Collect</h2>
                             <p className="leading-relaxed mb-6">
-                                Coletamos informações que você nos fornece voluntariamente ao participar de nosso quiz, inscrever-se em nossa newsletter ou entrar em contato conosco. Isso pode incluir seu nome, endereço de e-mail e respostas fornecidas no quiz.
+                                We collect information you voluntarily provide when participating in our quiz or contacting us. This may include your name and quiz responses. We do not require account creation or email registration to use our services.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                2. Uso das Informações
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">2. How We Use Your Information</h2>
                             <p className="leading-relaxed mb-6">
-                                As informações coletadas são utilizadas para:
+                                The information collected is used to:
                             </p>
                             <ul className="list-disc list-inside space-y-2 mb-6">
-                                <li>Fornecer resultados personalizados do quiz e orientações espirituais.</li>
-                                <li>Enviar conteúdos relevantes, atualizações e newsletters (caso você tenha optado por recebê-los).</li>
-                                <li>Responder a suas dúvidas e solicitações de contato.</li>
-                                <li>Melhorar a experiência do usuário e o conteúdo de nosso site.</li>
+                                <li>Provide personalized quiz results and spiritual guidance.</li>
+                                <li>Generate your personalized Catholic Life Guide PDF.</li>
+                                <li>Respond to your questions and contact requests.</li>
+                                <li>Improve user experience and website content.</li>
                             </ul>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                3. Proteção de Dados
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">3. Data Storage</h2>
                             <p className="leading-relaxed mb-6">
-                                Implementamos uma variedade de medidas de segurança para manter a segurança de suas informações pessoais. Seus dados são armazenados em ambientes seguros e o acesso é limitado a colaboradores autorizados que precisam dessas informações para realizar suas tarefas.
+                                Guide Catholic stores quiz data locally in your browser (localStorage). We do not transmit your quiz answers or personal information to external servers. Your data remains on your device and is not shared with third parties.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                4. Compartilhamento com Terceiros
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">4. Third-Party Sharing</h2>
                             <p className="leading-relaxed mb-6">
-                                Não vendemos, trocamos ou transferimos suas informações de identificação pessoal para terceiros sem o seu consentimento, exceto quando necessário para cumprir a lei ou proteger nossos direitos. Podemos utilizar serviços de terceiros confiáveis para nos ajudar a operar nosso site ou conduzir nossos negócios, desde que essas partes concordem em manter essas informações confidenciais.
+                                We do not sell, trade, or transfer your personally identifiable information to third parties. We may use trusted third-party services to help operate our website, provided those parties agree to keep this information confidential.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                5. Cookies
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">5. Cookies</h2>
                             <p className="leading-relaxed mb-6">
-                                Podemos usar cookies para melhorar sua experiência de navegação. Cookies são pequenos arquivos que um site ou seu provedor de serviços transfere para o disco rígido do seu computador através do seu navegador (se você permitir) que permite que os sistemas do site ou do provedor de serviços reconheçam seu navegador e capturem e lembrem certas informações.
+                                We may use cookies to enhance your browsing experience. Cookies are small files that a website transfers to your device through your browser (if you allow) that enable the website's systems to recognize your browser and remember certain information. You can choose to disable cookies through your browser settings.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                6. Seus Direitos
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">6. Your Rights</h2>
                             <p className="leading-relaxed mb-6">
-                                Você tem o direito de acessar, corrigir ou excluir suas informações pessoais que temos em nosso poder. Se desejar exercer esses direitos, entre em contato conosco.
+                                You have the right to access, correct, or delete your personal information. Since we store data locally in your browser, you can clear your browser's localStorage at any time to remove all stored data. If you have additional questions, please <Link to="/contact/" className="text-accent hover:underline">contact us</Link>.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                7. Alterações nesta Política
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">7. Children's Privacy</h2>
                             <p className="leading-relaxed mb-6">
-                                Reservamo-nos o direito de atualizar esta Política de Privacidade a qualquer momento. Quaisquer alterações serão publicadas nesta página com a data de atualização revisada.
+                                Our website is intended for general audiences. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will promptly remove it.
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">8. Changes to This Policy</h2>
+                            <p className="leading-relaxed mb-6">
+                                We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page with a revised update date. We encourage you to review this policy periodically.
                             </p>
 
                             <p className="mt-12 text-sm text-text-muted italic">
-                                Se você tiver alguma dúvida sobre nossa Política de Privacidade, entre em contato conosco através da nossa página de Contato.
+                                Last updated: April 12, 2026
                             </p>
                         </div>
                     </div>

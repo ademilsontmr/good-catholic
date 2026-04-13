@@ -8,9 +8,9 @@ export default function TermsOfUse() {
     return (
         <>
             <Helmet>
-                <title>Termos de Uso | Bom Católico</title>
-                <meta name="description" content="Leia os termos de uso do site Bom Católico. Entenda as regras e diretrizes para utilização de nossos conteúdos e serviços." />
-                <link rel="canonical" href="https://bomcatolico.com.br/termos" />
+                <title>Terms of Use | Guide Catholic</title>
+                <meta name="description" content="Read the Terms of Use for Guide Catholic. Understand the rules and guidelines for using our content and services." />
+                <link rel="canonical" href="https://guidecatholic.com/terms/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
@@ -20,12 +20,10 @@ export default function TermsOfUse() {
                             <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
                                 <Cross className="w-5 h-5 text-button-text" />
                             </div>
-                            <span className="font-display text-xl font-bold">Bom Católico</span>
+                            <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
-                        <Link to="/quiz">
-                            <Button variant="secondary" size="sm">
-                                Fazer o Quiz
-                            </Button>
+                        <Link to="/quiz-intro">
+                            <Button variant="secondary" size="sm">Take the Quiz</Button>
                         </Link>
                     </div>
                 </header>
@@ -35,7 +33,7 @@ export default function TermsOfUse() {
                         <nav className="flex items-center gap-2 text-sm text-text-muted">
                             <Link to="/" className="hover:text-accent">Home</Link>
                             <span>/</span>
-                            <span className="text-text">Termos de Uso</span>
+                            <span className="text-text">Terms of Use</span>
                         </nav>
                     </div>
                 </div>
@@ -44,81 +42,69 @@ export default function TermsOfUse() {
                     <div className="container mx-auto px-4 max-w-4xl">
                         <Link to="/" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
                             <ArrowLeft className="w-4 h-4" />
-                            Voltar para Home
+                            Back to Home
                         </Link>
 
                         <header className="mb-8">
                             <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
-                                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                                    Legal
-                                </span>
+                                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Legal</span>
                                 <span className="flex items-center gap-1">
                                     <FileText className="w-4 h-4" />
-                                    Atualizado em 29 de Dezembro, 2024
+                                    Updated April 12, 2026
                                 </span>
                             </div>
-
                             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                                Termos de Uso
+                                Terms of Use
                             </h1>
                         </header>
 
                         <div className="prose prose-lg max-w-none text-text">
                             <p className="leading-relaxed mb-6">
-                                Bem-vindo ao Bom Católico. Ao acessar e utilizar este site, você concorda em cumprir e estar vinculado aos seguintes termos e condições de uso. Se você não concordar com qualquer parte destes termos, por favor, não utilize nosso site.
+                                Welcome to Guide Catholic. By accessing and using this website, you agree to comply with and be bound by the following terms and conditions of use. If you do not agree with any part of these terms, please do not use our website.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                1. Aceitação dos Termos
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">1. Acceptance of Terms</h2>
                             <p className="leading-relaxed mb-6">
-                                O uso deste site constitui a aceitação plena e sem reservas de todos os termos e condições aqui estabelecidos. Reservamo-nos o direito de modificar estes termos a qualquer momento, sem aviso prévio. Recomendamos a revisão periódica desta página.
+                                Use of this website constitutes full and unreserved acceptance of all terms and conditions set forth herein. We reserve the right to modify these terms at any time without prior notice. We recommend periodic review of this page.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                2. Propriedade Intelectual
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">2. Intellectual Property</h2>
                             <p className="leading-relaxed mb-6">
-                                Todo o conteúdo presente neste site, incluindo textos, gráficos, logotipos, ícones, imagens e software, é de propriedade do Bom Católico ou de seus fornecedores de conteúdo e está protegido pelas leis brasileiras e internacionais de direitos autorais. A reprodução, distribuição ou modificação de qualquer conteúdo sem autorização prévia por escrito é estritamente proibida.
+                                All content on this website, including texts, graphics, logos, icons, images, and software, is the property of Guide Catholic or its content providers and is protected by applicable copyright laws. Reproduction, distribution, or modification of any content without prior written authorization is strictly prohibited.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                3. Uso do Conteúdo
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">3. Use of Content</h2>
                             <p className="leading-relaxed mb-6">
-                                O conteúdo deste site é fornecido apenas para fins informativos e de formação espiritual. Você pode visualizar, baixar e imprimir partes do conteúdo para seu uso pessoal e não comercial, desde que mantenha intactos todos os avisos de direitos autorais e outros avisos de propriedade.
+                                The content of this website is provided for informational and spiritual formation purposes only. You may view, download, and print portions of the content for your personal, non-commercial use, provided you keep intact all copyright notices and other proprietary notices.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                4. Isenção de Responsabilidade
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">4. Disclaimer of Warranties</h2>
                             <p className="leading-relaxed mb-6">
-                                Embora nos esforcemos para fornecer informações precisas e atualizadas, o Bom Católico não garante a exatidão, integridade ou adequação das informações contidas neste site. O uso das informações é por sua conta e risco. Não nos responsabilizamos por quaisquer danos diretos ou indiretos decorrentes do uso ou da incapacidade de usar este site.
+                                While we strive to provide accurate and up-to-date information, Guide Catholic makes no warranties regarding the accuracy, completeness, or suitability of the information contained on this website. Use of the information is at your own risk. We are not responsible for any direct or indirect damages arising from the use or inability to use this website.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                5. Links para Terceiros
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">5. Third-Party Links</h2>
                             <p className="leading-relaxed mb-6">
-                                Nosso site pode conter links para sites de terceiros. Esses links são fornecidos apenas para sua conveniência. Não temos controle sobre o conteúdo desses sites e não assumimos qualquer responsabilidade por eles ou por qualquer perda ou dano que possa surgir do seu uso.
+                                Our website may contain links to third-party websites. These links are provided for your convenience only. We have no control over the content of those websites and assume no responsibility for them or for any loss or damage that may arise from your use of them.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                6. Privacidade
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">6. Privacy</h2>
                             <p className="leading-relaxed mb-6">
-                                O uso deste site também é regido pela nossa Política de Privacidade, que descreve como coletamos, usamos e protegemos suas informações pessoais.
+                                Use of this website is also governed by our <Link to="/privacy/" className="text-accent hover:underline">Privacy Policy</Link>, which describes how we collect, use, and protect your personal information.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                7. Lei Aplicável
-                            </h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">7. Governing Law</h2>
                             <p className="leading-relaxed mb-6">
-                                Estes termos são regidos e interpretados de acordo com as leis da República Federativa do Brasil. Qualquer disputa decorrente destes termos será submetida à jurisdição exclusiva dos tribunais competentes no Brasil.
+                                These terms are governed by and construed in accordance with applicable laws. Any dispute arising from these terms will be subject to the exclusive jurisdiction of the competent courts.
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">8. Contact</h2>
+                            <p className="leading-relaxed mb-6">
+                                If you have any questions about these Terms of Use, please <Link to="/contact/" className="text-accent hover:underline">contact us</Link>.
                             </p>
 
                             <p className="mt-12 text-sm text-text-muted italic">
-                                Se você tiver alguma dúvida sobre estes Termos de Uso, entre em contato conosco através da nossa página de Contato.
+                                Last updated: April 12, 2026
                             </p>
                         </div>
                     </div>
