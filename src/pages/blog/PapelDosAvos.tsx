@@ -13,7 +13,7 @@ export default function PapelDosAvos() {
                 <title>O Papel dos Avós na Transmissão da Tradição Cristã | Bom Católico</title>
                 <meta name="description" content="Descubra a importância vital dos avós como guardiões da memória e da fé na família católica, e como eles podem influenciar positivamente os netos em 2026." />
                 <meta name="keywords" content="papel dos avós na família, avós e transmissão da fé, como ensinar fé aos netos, família católica, tradição cristã, educação religiosa" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/papel-dos-avos-transmissao-fe" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/papel-dos-avos/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

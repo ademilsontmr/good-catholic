@@ -13,7 +13,7 @@ export default function OracaoComunhaoEspiritual() {
                 <title>Comunhão Espiritual: Quando Não Podemos Comungar | Bom Católico</title>
                 <meta name="description" content="Aprenda a oração da Comunhão Espiritual e descubra como receber Jesus espiritualmente quando não é possível comungar sacramentalmente na Missa." />
                 <meta name="keywords" content="comunhão espiritual, oração comunhão espiritual, quando não pode comungar, desejo de comungar, comunhão de desejo, missa online, comunhão sacramental, eucaristia espiritual, receber jesus, comunhão católica" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-comunhao-espiritual" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-comunhao-espiritual/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

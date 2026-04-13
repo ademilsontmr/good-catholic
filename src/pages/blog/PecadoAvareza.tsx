@@ -13,7 +13,7 @@ export default function PecadoAvareza() {
         <title>Avareza: O Amor Desordenado aos Bens | Bom Católico</title>
         <meta name="description" content="Entenda a Avareza, o pecado capital do apego excessivo aos bens materiais. Como reconhecê-la e combatê-la com a generosidade cristã." />
         <meta name="keywords" content="avareza pecado capital, o que é avareza, ganância é pecado, apego ao dinheiro, como vencer a avareza, generosidade cristã, sete pecados capitais" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/pecado-avareza" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/pecado-avareza/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

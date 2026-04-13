@@ -13,7 +13,7 @@ export default function OracaoAveMaria() {
                 <title>Ave Maria: A Saudação Angélica Completa | Bom Católico</title>
                 <meta name="description" content="Aprenda a Ave Maria completa e descubra a origem bíblica e o significado profundo desta oração mariana que une as palavras do Anjo Gabriel e de Santa Isabel." />
                 <meta name="keywords" content="ave maria, oração da ave maria, ave maria cheia de graça, como rezar ave maria, saudação angélica, santa maria mãe de deus, oração mariana, ave maria completa, bendita sois vós entre as mulheres" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-ave-maria" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-ave-maria/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

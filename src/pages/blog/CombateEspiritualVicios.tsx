@@ -13,7 +13,7 @@ export default function CombateEspiritualVicios() {
                 <title>Combate Espiritual: Como Vencer os Vícios | Bom Católico</title>
                 <meta name="description" content="Aprenda as estratégias da tradição católica para o combate espiritual. Descubra como vencer os vícios e crescer nas virtudes com o auxílio da graça divina." />
                 <meta name="keywords" content="como vencer vícios, combate espiritual católico, luta contra o pecado, virtudes cristãs, graça de deus, oração e jejum, tentações" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/combate-espiritual-vencer-vicios-graca-deus" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/combate-espiritual-vicios/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

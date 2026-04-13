@@ -13,7 +13,7 @@ export default function NovenaNatal() {
                 <title>Novena de Natal: Preparação para o Nascimento de Jesus | Bom Católico</title>
                 <meta name="description" content="Reze a Novena de Natal completa. Tradição brasileira de preparação para o nascimento de Jesus, muito rezada em família de 16 a 24 de dezembro." />
                 <meta name="keywords" content="novena de natal, novena natal completa, como rezar novena natal, preparação natal católico, 16 a 24 dezembro, nascimento jesus, presépio, advento, novena natal família, tradição natal brasil, oração natal" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-natal" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-natal/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

@@ -13,7 +13,7 @@ export default function ConsagracaoMarianaGuia() {
                 <title>Consagração a Nossa Senhora: O que é e Como Fazer | Bom Católico</title>
                 <meta name="description" content="Aprenda o significado da consagração total a Jesus por Maria, segundo o método de São Luís Maria Grignion de Montfort. Um guia para quem deseja se entregar inteiramente a Deus." />
                 <meta name="keywords" content="consagração a nossa senhora, como fazer consagração mariana, 33 dias de preparação, são luís montfort, tratado da verdadeira devoção, totus tuus, escravidão de amor a maria, consagração mariana passo a passo, o que é consagração mariana, devoção a maria" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/consagracao-nossa-senhora-guia-pratico" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/consagracao-mariana-guia/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

@@ -13,7 +13,7 @@ export default function PrepararParaEternidade2026() {
                 <title>Como se Preparar para a Eternidade no Dia a Dia de 2026 | Bom Católico</title>
                 <meta name="description" content="Descubra como viver com o olhar fixo no Céu sem descuidar das responsabilidades terrenas. Dicas práticas de espiritualidade para manter a perspectiva eterna em meio à correria moderna." />
                 <meta name="keywords" content="como se preparar para a morte, viver para a eternidade, santidade no dia a dia, céu, propósito de vida cristã, memento mori" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/como-se-preparar-para-eternidade-dia-a-dia" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/preparar-para-eternidade2026/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

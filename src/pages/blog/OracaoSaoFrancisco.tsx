@@ -13,7 +13,7 @@ export default function OracaoSaoFrancisco() {
                 <title>Oração de São Francisco: Senhor, Fazei-me Instrumento | Bom Católico</title>
                 <meta name="description" content="Aprenda a Oração de São Francisco completa e descubra o significado desta bela prece que nos ensina a ser instrumentos de paz, amor e perdão no mundo." />
                 <meta name="keywords" content="oração de são francisco, senhor fazei-me instrumento, oração da paz, são francisco de assis, instrumento da paz, onde houver ódio, oração franciscana, paz e bem, oração completa, espiritualidade franciscana" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-sao-francisco" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-sao-francisco/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

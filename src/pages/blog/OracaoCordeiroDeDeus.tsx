@@ -13,7 +13,7 @@ export default function OracaoCordeiroDeDeus() {
                 <title>Cordeiro de Deus: A Oração Antes da Comunhão | Bom Católico</title>
                 <meta name="description" content="Aprenda o Cordeiro de Deus (Agnus Dei) completo e descubra o significado desta oração que rezamos na Missa antes de receber a Sagrada Comunhão." />
                 <meta name="keywords" content="cordeiro de deus, agnus dei, oração da missa, cordeiro de deus que tirais, tende piedade de nós, antes da comunhão, missa católica, fração do pão, dai-nos a paz, comunhão eucarística" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-cordeiro-de-deus" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-cordeiro-de-deus/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

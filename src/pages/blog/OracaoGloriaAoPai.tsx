@@ -13,7 +13,7 @@ export default function OracaoGloriaAoPai() {
                 <title>Glória ao Pai: A Doxologia que Glorifica a Trindade | Bom Católico</title>
                 <meta name="description" content="Aprenda o Glória ao Pai completo e descubra o significado desta pequena doxologia que louva a Santíssima Trindade e é rezada no Terço e na Liturgia das Horas." />
                 <meta name="keywords" content="glória ao pai, gloria patri, doxologia, glória ao pai ao filho, como rezar glória, oração da trindade, glória ao pai completo, terço rosário, liturgia das horas, louvor a deus" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-gloria-ao-pai" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-gloria-ao-pai/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

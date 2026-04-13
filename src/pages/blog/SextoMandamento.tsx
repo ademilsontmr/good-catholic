@@ -13,7 +13,7 @@ export default function SextoMandamento() {
         <title>6º Mandamento: Não Pecar Contra a Castidade | Bom Católico</title>
         <meta name="description" content="Entenda o Sexto Mandamento da Lei de Deus. A virtude da castidade, pureza, sexualidade no plano de Deus e como viver a castidade em cada estado de vida." />
         <meta name="keywords" content="sexto mandamento, não pecar contra a castidade, pureza sexual católica, sexo antes do casamento é pecado, pornografia é pecado, fidelidade conjugal, mandamentos da lei de deus" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/sexto-mandamento-castidade" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/sexto-mandamento/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

@@ -13,7 +13,7 @@ export default function PecadoInveja() {
         <title>Inveja: A Tristeza pelo Bem Alheio | Bom Católico</title>
         <meta name="description" content="Entenda a Inveja, o pecado capital que se entristece com o bem do próximo. Como reconhecê-la e combatê-la com a caridade fraterna." />
         <meta name="keywords" content="inveja pecado capital, o que é inveja, inveja é pecado, como vencer a inveja, caridade fraterna, alegrar-se com o bem alheio, sete pecados capitais" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/pecado-inveja" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/pecado-inveja/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

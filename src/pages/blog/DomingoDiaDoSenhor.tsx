@@ -13,7 +13,7 @@ export default function DomingoDiaDoSenhor() {
                 <title>Como Viver o Domingo como o Dia do Senhor em 2026 | Bom Católico</title>
                 <meta name="description" content="Descubra o significado teológico do domingo e receba dicas práticas para santificar este dia, equilibrando descanso, família e vida espiritual." />
                 <meta name="keywords" content="por que ir à missa no domingo, domingo dia do senhor, santificar o domingo, é pecado não ir à missa, descanso dominical, terceiro mandamento, missa dominical obrigatória, como viver o domingo, família no domingo, guardar o domingo" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/como-viver-domingo-dia-do-senhor" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/domingo-dia-do-senhor/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

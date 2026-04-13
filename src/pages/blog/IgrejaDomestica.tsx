@@ -13,7 +13,7 @@ export default function IgrejaDomestica() {
                 <title>Igreja Doméstica: Passos Práticos para Rezar em Família | Bom Católico</title>
                 <meta name="description" content="Transforme seu lar em uma verdadeira Igreja Doméstica. Dicas práticas e roteiros simples para iniciar e manter o hábito da oração em família." />
                 <meta name="keywords" content="igreja doméstica, como rezar em família, oração familiar católica, lar cristão, catequese em casa, espiritualidade familiar, altar em casa" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/igreja-domestica-oracao-familia" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/igreja-domestica/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

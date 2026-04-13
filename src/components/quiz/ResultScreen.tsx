@@ -355,7 +355,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
 
   const handleShare = async () => {
     const text = `I discovered how my Catholic life is going! Take the quiz too at Guide Catholic and see your result.`;
-    const url = 'https://good-catholic.com';
+    const url = 'https://guidecatholic.com';
     
     if (navigator.share) {
       try {

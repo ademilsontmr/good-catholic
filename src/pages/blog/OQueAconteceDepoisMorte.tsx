@@ -13,7 +13,7 @@ export default function OQueAconteceDepoisMorte() {
                 <title>O que Acontece Depois da Morte? Céu, Inferno e Purgatório | Bom Católico</title>
                 <meta name="description" content="Explore a visão católica sobre os novíssimos do homem. Entenda o que a Igreja ensina sobre o Céu, o Inferno e o Purgatório, e como nossa vida terrena determina nosso destino eterno." />
                 <meta name="keywords" content="o que acontece depois da morte, vida após a morte católica, céu inferno purgatório, novíssimos do homem, escatologia católica, julgamento após morte" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/o-que-acontece-depois-da-morte-ceu-inferno-purgatorio" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/o-que-acontece-depois-morte/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

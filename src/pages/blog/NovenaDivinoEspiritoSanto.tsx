@@ -13,7 +13,7 @@ export default function NovenaDivinoEspiritoSanto() {
                 <title>Novena do Divino Espírito Santo: Renovação Espiritual | Bom Católico</title>
                 <meta name="description" content="Reze a Novena do Divino Espírito Santo completa. Forte tradição no Brasil, especialmente no Sudeste e Centro-Oeste, ligada à renovação espiritual e Pentecostes." />
                 <meta name="keywords" content="novena divino espírito santo, novena espírito santo, pentecostes novena, festa do divino, sete dons espírito santo, novena renovação espiritual, como rezar novena espírito santo, pomba divino, bandeira do divino, folias do divino" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-divino-espirito-santo" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-divino-espirito-santo/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

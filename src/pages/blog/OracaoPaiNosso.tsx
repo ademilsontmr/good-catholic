@@ -13,7 +13,7 @@ export default function OracaoPaiNosso() {
                 <title>Pai Nosso: A Oração que Jesus nos Ensinou | Bom Católico</title>
                 <meta name="description" content="Aprenda o Pai Nosso completo e descubra o significado profundo de cada pedido desta oração ensinada pelo próprio Jesus Cristo aos seus discípulos." />
                 <meta name="keywords" content="pai nosso, oração do pai nosso, pai nosso que estais no céu, como rezar o pai nosso, significado do pai nosso, oração de jesus, pai nosso completo, oração dominical, venha a nós o vosso reino" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-pai-nosso" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-pai-nosso/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

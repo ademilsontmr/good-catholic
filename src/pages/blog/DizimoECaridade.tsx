@@ -13,7 +13,7 @@ export default function DizimoECaridade() {
                 <title>A Importância do Dízimo e da Caridade: O Cristão e o Dinheiro | Bom Católico</title>
                 <meta name="description" content="Descubra a visão cristã sobre o uso do dinheiro, a importância do dízimo para a manutenção da Igreja e o papel central da caridade na vida do fiel." />
                 <meta name="keywords" content="o que é dízimo católico, dízimo é obrigatório, como dar o dízimo, caridade cristã, esmola na bíblia, católico deve dar dízimo, generosidade cristã, ajudar os pobres, dinheiro e fé, manutenção da paróquia" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/importancia-dizimo-caridade-crista" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/dizimo-e-caridade/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

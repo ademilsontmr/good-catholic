@@ -13,7 +13,7 @@ export default function NonoMandamento() {
         <title>9º Mandamento: Não Cobiçar a Mulher do Próximo | Bom Católico</title>
         <meta name="description" content="Entenda o Nono Mandamento da Lei de Deus. A pureza do coração, pensamentos impuros, concupiscência e como guardar o coração na castidade." />
         <meta name="keywords" content="nono mandamento, não cobiçar a mulher do próximo, pureza de coração, pensamentos impuros é pecado, concupiscência, adultério no coração, mandamentos da lei de deus" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/nono-mandamento-nao-cobicar" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/nono-mandamento/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

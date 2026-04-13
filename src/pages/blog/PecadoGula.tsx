@@ -13,7 +13,7 @@ export default function PecadoGula() {
         <title>Gula: O Excesso na Comida e Bebida | Bom Católico</title>
         <meta name="description" content="Entenda a Gula, o pecado capital do excesso na comida e bebida. Como reconhecê-la e combatê-la com a temperança cristã." />
         <meta name="keywords" content="gula pecado capital, o que é gula, comer demais é pecado, como vencer a gula, temperança, jejum católico, moderação, sete pecados capitais" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/pecado-gula" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/pecado-gula/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

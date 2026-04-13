@@ -13,7 +13,7 @@ export default function OPecadoOriginalRedencao() {
         <title>O Pecado Original e a Redenção: O Plano de Deus para Salvar a Humanidade | Bom Católico</title>
         <meta name="description" content="Entenda o mistério do pecado original, por que Deus permitiu, e como Cristo nos redimiu através de Sua morte e ressurreição. A história da salvação explicada." />
         <meta name="keywords" content="o que é pecado original, adão e eva pecado, por que jesus morreu na cruz, redenção de cristo, história da salvação, batismo apaga pecado original" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/pecado-original-redencao" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/o-pecado-original-redencao/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

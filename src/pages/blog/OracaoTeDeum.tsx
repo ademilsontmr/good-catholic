@@ -13,7 +13,7 @@ export default function OracaoTeDeum() {
                 <title>Te Deum: O Grande Hino de Ação de Graças | Bom Católico</title>
                 <meta name="description" content="Aprenda o Te Deum completo e descubra o significado deste hino milenar de ação de graças cantado em momentos solenes de gratidão a Deus." />
                 <meta name="keywords" content="te deum, te deum laudamus, hino de ação de graças, a vós ó deus louvamos, hino católico, ano novo, ação de graças, liturgia das horas, hino solene, louvor a deus" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-te-deum" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-te-deum/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

@@ -13,7 +13,7 @@ export default function DoutrinaPurgatorio() {
                 <title>O Purgatório: O que a Igreja Realmente Ensina sobre a Purificação Final | Bom Católico</title>
                 <meta name="description" content="Entenda o dogma do Purgatório, por que ele é uma manifestação da misericórdia de Deus e como podemos ajudar as almas que estão se purificando para o Céu." />
                 <meta name="keywords" content="o que é purgatório, purgatório existe, purgatório na bíblia, como ajudar almas do purgatório, oração pelos mortos, missa pelos falecidos, indulgência pelas almas, purgatório católico, purificação após a morte, comunhão dos santos" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/doutrina-purgatorio-purificacao-final" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/doutrina-purgatorio/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

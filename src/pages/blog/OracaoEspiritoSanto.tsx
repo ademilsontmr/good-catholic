@@ -13,7 +13,7 @@ export default function OracaoEspiritoSanto() {
                 <title>Oração ao Espírito Santo: Vinde Espírito Santo | Bom Católico</title>
                 <meta name="description" content="Aprenda a Oração ao Espírito Santo completa e descubra como invocar o Paráclito para iluminar sua mente, inflamar seu coração e guiar seus passos." />
                 <meta name="keywords" content="oração ao espírito santo, vinde espírito santo, oração do espírito santo, como invocar espírito santo, paráclito, fogo do amor, dons do espírito santo, pentecostes, oração católica, espírito consolador" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-espirito-santo" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-espirito-santo/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

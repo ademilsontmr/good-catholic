@@ -13,7 +13,7 @@ export default function OracaoSinalDaCruz() {
                 <title>Sinal da Cruz: O Gesto que Marca Nossa Fé | Bom Católico</title>
                 <meta name="description" content="Aprenda o Sinal da Cruz corretamente e descubra o significado profundo deste gesto que nos identifica como cristãos e invoca a Santíssima Trindade." />
                 <meta name="keywords" content="sinal da cruz, como fazer sinal da cruz, em nome do pai, santíssima trindade, gesto católico, sinal da cruz significado, oração católica, benzimento, sinal da cruz correto, cruz católica" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-sinal-da-cruz" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-sinal-da-cruz/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

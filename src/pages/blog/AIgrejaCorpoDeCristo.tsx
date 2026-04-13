@@ -13,7 +13,7 @@ export default function AIgrejaCorpoDeCristo() {
         <title>A Igreja: O Corpo de Cristo e a Comunhão dos Santos | Bom Católico</title>
         <meta name="description" content="Entenda o mistério da Igreja como Corpo de Cristo. A importância da comunidade cristã, a comunhão dos santos, e como você faz parte dessa realidade viva." />
         <meta name="keywords" content="igreja corpo de cristo, o que é a igreja católica, comunhão dos santos, por que pertencer à igreja, unidade da igreja, povo de deus" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/igreja-corpo-cristo" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/a-igreja-corpo-de-cristo/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

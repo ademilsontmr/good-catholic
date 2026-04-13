@@ -13,7 +13,7 @@ export default function QuaresmaSaoMiguelArcanjo() {
                 <title>Quaresma de São Miguel Arcanjo: Guia Completo de 15 de Agosto a 29 de Setembro | Bom Católico</title>
                 <meta name="description" content="Aprenda tudo sobre a Quaresma de São Miguel Arcanjo: o que é, como rezar, orações diárias, história e significado espiritual. Preparação de 40 dias para a festa do Arcanjo em 29 de setembro." />
                 <meta name="keywords" content="quaresma de são miguel arcanjo, quaresma são miguel, 40 dias são miguel arcanjo, como rezar quaresma são miguel, oração são miguel arcanjo, 29 de setembro são miguel, terço são miguel arcanjo, chapelinha são miguel, proteção espiritual, combate espiritual, exorcismo são miguel, príncipe da milícia celeste, anjos e arcanjos" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/quaresma-sao-miguel-arcanjo" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/quaresma-sao-miguel-arcanjo/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

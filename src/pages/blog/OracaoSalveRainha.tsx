@@ -13,7 +13,7 @@ export default function OracaoSalveRainha() {
                 <title>Salve Rainha: A Oração à Mãe de Misericórdia | Bom Católico</title>
                 <meta name="description" content="Aprenda a Salve Rainha completa e descubra o significado desta bela oração mariana que invoca Nossa Senhora como Mãe de misericórdia e nossa advogada." />
                 <meta name="keywords" content="salve rainha, salve rainha oração, mãe de misericórdia, oração mariana, nossa senhora rainha, salve rainha completa, como rezar salve rainha, vida doçura esperança, advogada nossa, terço rosário" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-salve-rainha" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-salve-rainha/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

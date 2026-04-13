@@ -13,7 +13,7 @@ export default function NovenaNossaSenhoraRosario() {
                 <title>Novena de Nossa Senhora do Rosário: Mês de Outubro | Bom Católico</title>
                 <meta name="description" content="Reze a Novena de Nossa Senhora do Rosário completa. Tradicional em outubro, mês do Rosário, ligada à devoção do Santo Terço e à Batalha de Lepanto." />
                 <meta name="keywords" content="novena nossa senhora rosário, novena do rosário, mês do rosário outubro, nossa senhora do rosário, como rezar o terço, santo rosário, batalha de lepanto, 7 de outubro, novena terço, mistérios do rosário" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-nossa-senhora-rosario" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-nossa-senhora-rosario/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

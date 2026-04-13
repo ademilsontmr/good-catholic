@@ -13,7 +13,7 @@ export default function NovenaNossaSenhoraGracas() {
                 <title>Novena de Nossa Senhora das Graças: Medalha Milagrosa | Bom Católico</title>
                 <meta name="description" content="Reze a Novena de Nossa Senhora das Graças completa. Ligada à Medalha Milagrosa, esta novena reforça a confiança em Maria e pede graças e conversão." />
                 <meta name="keywords" content="novena nossa senhora das graças, medalha milagrosa, 27 de novembro, nossa senhora das graças, santa catarina labouré, novena medalha milagrosa, ó maria concebida sem pecado, graças de maria, conversão, novena completa" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-nossa-senhora-gracas" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-nossa-senhora-gracas/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

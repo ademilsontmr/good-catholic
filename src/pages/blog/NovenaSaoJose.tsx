@@ -13,7 +13,7 @@ export default function NovenaSaoJose() {
                 <title>Novena de São José: Padroeiro das Famílias e Trabalhadores | Bom Católico</title>
                 <meta name="description" content="Reze a Novena de São José completa. Padroeiro das famílias, trabalhadores e da boa morte, muito rezada em março antes do dia 19." />
                 <meta name="keywords" content="novena são josé, novena de são josé, 19 de março, padroeiro das famílias, padroeiro dos trabalhadores, são josé operário, pai adotivo de jesus, esposo de maria, novena completa são josé, oração são josé" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-sao-jose" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-sao-jose/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

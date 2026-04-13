@@ -13,7 +13,7 @@ export default function PorQueRezarParaSantos() {
         <title>Por Que os Católicos Rezam para os Santos? Entenda a Intercessão | Bom Católico</title>
         <meta name="description" content="Entenda por que os católicos pedem a intercessão dos santos. A diferença entre adoração e veneração, e como os santos intercedem por nós no Céu." />
         <meta name="keywords" content="por que católicos rezam para santos, intercessão dos santos, católicos adoram santos, diferença adoração veneração, comunhão dos santos, santos intercedem" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/por-que-catolicos-rezam-santos" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/por-que-rezar-para-santos/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

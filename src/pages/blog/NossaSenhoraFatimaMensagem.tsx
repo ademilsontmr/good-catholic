@@ -13,7 +13,7 @@ export default function NossaSenhoraFatimaMensagem() {
                 <title>Nossa Senhora de Fátima: A Mensagem de Oração e Penitência | Bom Católico</title>
                 <meta name="description" content="Entenda a profundidade da mensagem de Fátima para o mundo atual. Saiba o que Nossa Senhora pediu aos pastorinhos e como viver esses pedidos em 2026." />
                 <meta name="keywords" content="nossa senhora de fátima, mensagem de fátima, pastorinhos de fátima, três segredos de fátima, terço de fátima, consagração ao imaculado coração, aparições de fátima, lúcia francisco jacinta, milagre do sol fátima, penitência e oração" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/nossa-senhora-fatima-mensagem-oracao-penitencia" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/nossa-senhora-fatima-mensagem/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

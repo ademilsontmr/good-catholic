@@ -13,7 +13,7 @@ export default function OracaoConfesso() {
                 <title>Confesso a Deus: O Ato Penitencial da Missa | Bom Católico</title>
                 <meta name="description" content="Aprenda o Confesso a Deus completo e descubra o significado desta oração do ato penitencial que rezamos no início da Santa Missa para reconhecer nossos pecados." />
                 <meta name="keywords" content="confesso a deus, confiteor, ato penitencial, missa católica, minha culpa, confesso a deus todo poderoso, oração da missa, início da missa, pecados veniais, confesso completo" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-confesso" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-confesso/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

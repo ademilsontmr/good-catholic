@@ -13,7 +13,7 @@ export default function CorpusChristiPresencaReal() {
                 <title>Corpus Christi: A Fé na Presença Real de Jesus na Eucaristia | Bom Católico</title>
                 <meta name="description" content="Entenda a origem e o significado da festa de Corpus Christi. Descubra por que os católicos acreditam na presença real de Cristo sob as espécies do pão e do vinho." />
                 <meta name="keywords" content="o que é corpus christi, presença real de jesus na eucaristia, transubstanciação, procissão de corpus christi, tapetes de corpus christi, por que católicos adoram a hóstia, corpo e sangue de cristo, festa de corpus christi, eucaristia católica, adoração ao santíssimo" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/corpus-christi-presenca-real-jesus-eucaristia" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/corpus-christi-presenca-real/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

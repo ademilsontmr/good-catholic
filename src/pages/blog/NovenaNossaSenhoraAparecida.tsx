@@ -13,7 +13,7 @@ export default function NovenaNossaSenhoraAparecida() {
                 <title>Novena de Nossa Senhora Aparecida: Padroeira do Brasil | Bom Católico</title>
                 <meta name="description" content="Reze a Novena de Nossa Senhora Aparecida completa. Aprenda como fazer a novena à Padroeira do Brasil, muito rezada em outubro e em família." />
                 <meta name="keywords" content="novena nossa senhora aparecida, novena aparecida, padroeira do brasil, 12 de outubro, como rezar novena aparecida, nossa senhora aparecida oração, novena completa aparecida, mãe aparecida, santuário aparecida, devoção mariana brasil" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-nossa-senhora-aparecida" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-nossa-senhora-aparecida/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

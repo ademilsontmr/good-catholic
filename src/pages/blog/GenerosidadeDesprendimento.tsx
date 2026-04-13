@@ -13,7 +13,7 @@ export default function GenerosidadeDesprendimento() {
         <title>Generosidade e Desprendimento: A Verdadeira Riqueza do Coração | Bom Católico</title>
         <meta name="description" content="Aprenda sobre a virtude da generosidade e do desprendimento. Como dar sem esperar retorno e encontrar alegria em servir aos outros." />
         <meta name="keywords" content="generosidade cristã, como ser mais generoso, desprendimento dos bens, caridade católica, dar esmola, servir ao próximo, desapego material" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/generosidade-desprendimento" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/generosidade-desprendimento/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

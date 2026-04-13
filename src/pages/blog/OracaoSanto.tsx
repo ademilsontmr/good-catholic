@@ -13,7 +13,7 @@ export default function OracaoSanto() {
                 <title>Santo, Santo, Santo: O Hino dos Anjos na Missa | Bom Católico</title>
                 <meta name="description" content="Aprenda o Santo (Sanctus) completo e descubra o significado deste hino celestial que cantamos na Missa, unindo nossa voz ao coro dos anjos que adoram a Deus." />
                 <meta name="keywords" content="santo santo santo, sanctus, hino da missa, santo senhor deus do universo, hosana nas alturas, oração eucarística, missa católica, canto dos anjos, adoração a deus, bendito o que vem" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-santo" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-santo/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

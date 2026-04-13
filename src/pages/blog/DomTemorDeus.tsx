@@ -13,7 +13,7 @@ export default function DomTemorDeus() {
         <title>Dom do Temor de Deus: Reverência e Amor | Bom Católico</title>
         <meta name="description" content="Descubra o Dom do Temor de Deus, que nos faz reverenciar a Deus e evitar o pecado por amor. Como este dom nos protege e nos aproxima de Deus." />
         <meta name="keywords" content="dom do temor de deus, sete dons do espírito santo, santo temor, reverência a deus, medo de pecar, evitar o pecado por amor, respeito a deus" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/dom-temor-deus-espirito-santo" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/dom-temor-deus/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

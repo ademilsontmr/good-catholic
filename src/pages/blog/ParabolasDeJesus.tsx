@@ -13,7 +13,7 @@ export default function ParabolasDeJesus() {
                 <title>Parábolas de Jesus: Lições de Sabedoria para o Mundo Moderno | Bom Católico</title>
                 <meta name="description" content="Explore o significado profundo das parábolas de Jesus e como suas histórias simples continuam a desafiar e transformar nossas vidas hoje." />
                 <meta name="keywords" content="parábolas de jesus, o que são parábolas, parábola do filho pródigo, parábola do bom samaritano, parábola do semeador, ensinamentos de jesus, significado das parábolas, parábolas do evangelho, jesus ensinava em parábolas, reino de deus parábolas" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/parabolas-jesus-licoes-sabedoria-moderna" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/parabolas-de-jesus/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

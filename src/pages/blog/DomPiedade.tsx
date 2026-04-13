@@ -13,7 +13,7 @@ export default function DomPiedade() {
         <title>Dom da Piedade: Amor Filial a Deus Pai | Bom Católico</title>
         <meta name="description" content="Descubra o Dom da Piedade, que nos faz amar a Deus como Pai e aos outros como irmãos. Como este dom transforma nossa relação com Deus e o próximo." />
         <meta name="keywords" content="dom da piedade, sete dons do espírito santo, deus é pai, amor filial a deus, oração filial, fraternidade cristã, devoção católica" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/dom-piedade-espirito-santo" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/dom-piedade/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

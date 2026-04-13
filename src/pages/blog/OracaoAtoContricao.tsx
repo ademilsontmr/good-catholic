@@ -13,7 +13,7 @@ export default function OracaoAtoContricao() {
                 <title>Ato de Contrição: A Oração do Arrependimento | Bom Católico</title>
                 <meta name="description" content="Aprenda o Ato de Contrição completo e descubra como esta oração expressa nosso arrependimento sincero e nos prepara para receber o perdão de Deus na Confissão." />
                 <meta name="keywords" content="ato de contrição, oração de arrependimento, meu deus eu me arrependo, confissão católica, como se arrepender, contrição perfeita, perdão dos pecados, oração antes da confissão, ato de contrição completo" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-ato-contricao" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-ato-contricao/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

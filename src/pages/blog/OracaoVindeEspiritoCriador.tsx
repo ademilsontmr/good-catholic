@@ -13,7 +13,7 @@ export default function OracaoVindeEspiritoCriador() {
                 <title>Vinde Espírito Criador: O Hino de Pentecostes | Bom Católico</title>
                 <meta name="description" content="Aprenda o Veni Creator Spiritus completo e descubra o significado deste hino milenar que invoca o Espírito Santo em ordenações, concílios e momentos solenes." />
                 <meta name="keywords" content="veni creator spiritus, vinde espírito criador, hino ao espírito santo, pentecostes, ordenação sacerdotal, crisma, espírito santo, hino católico, oração espírito santo, sete dons" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-vinde-espirito-criador" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-vinde-espirito-criador/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

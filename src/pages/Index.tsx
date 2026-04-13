@@ -11,14 +11,30 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Quiz: How is your Catholic life? | Guide Catholic</title>
-        <meta name="description" content="Discover how your faith journey is going through this simple and sincere quiz. Evaluate your participation in the sacramental life of the Catholic Church." />
-        <meta name="keywords" content="catholic quiz, catholic faith, christian life, sacraments, mass, prayer, rosary, confession, faith test, spiritual assessment" />
-        <link rel="canonical" href="https://bomcatolico.com.br/" />
-        <meta property="og:title" content="Quiz: How is your Catholic life?" />
-        <meta property="og:description" content="Discover how your faith journey is going through this simple and sincere quiz." />
+        <title>Catholic Life Assessment Quiz | Guide Catholic</title>
+        <meta name="description" content="Discover how your Catholic faith journey is going. Take our 30-question assessment and receive a personalized 10-page spiritual growth guide." />
+        <meta name="keywords" content="catholic quiz, catholic faith assessment, christian life, sacraments, mass, prayer, rosary, confession, faith test, spiritual assessment, catholic life guide" />
+        <link rel="canonical" href="https://guidecatholic.com/" />
+        <meta property="og:title" content="Catholic Life Assessment | Guide Catholic" />
+        <meta property="og:description" content="Take our 30-question Catholic life assessment and receive a personalized spiritual growth guide tailored to your journey." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://bomcatolico.com.br/" />
+        <meta property="og:url" content="https://guidecatholic.com/" />
+        <meta property="og:site_name" content="Guide Catholic" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Catholic Life Assessment | Guide Catholic" />
+        <meta name="twitter:description" content="Take our 30-question Catholic life assessment and receive a personalized spiritual growth guide." />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Guide Catholic",
+          "url": "https://guidecatholic.com",
+          "description": "Catholic life assessment and spiritual growth guides",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Guide Catholic",
+            "url": "https://guidecatholic.com"
+          }
+        })}</script>
       </Helmet>
       <div className="min-h-screen bg-background">
       <Navbar />

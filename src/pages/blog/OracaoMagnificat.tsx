@@ -13,7 +13,7 @@ export default function OracaoMagnificat() {
                 <title>Magnificat: O Cântico de Maria | Bom Católico</title>
                 <meta name="description" content="Aprenda o Magnificat completo, o cântico de louvor de Nossa Senhora na Visitação a Isabel. Descubra o significado desta oração bíblica que exalta a grandeza de Deus." />
                 <meta name="keywords" content="magnificat, cântico de maria, minha alma engrandece o senhor, oração de maria, visitação isabel, magnificat completo, lucas 1, oração mariana, louvor a deus, cântico bíblico" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-magnificat" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-magnificat/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

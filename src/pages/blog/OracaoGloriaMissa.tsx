@@ -13,7 +13,7 @@ export default function OracaoGloriaMissa() {
                 <title>Glória a Deus nas Alturas: O Hino de Louvor da Missa | Bom Católico</title>
                 <meta name="description" content="Aprenda o Glória a Deus nas Alturas completo e descubra o significado deste hino de louvor cantado na Missa dominical e nas festas litúrgicas." />
                 <meta name="keywords" content="glória a deus nas alturas, gloria in excelsis deo, hino da missa, glória missa, louvor a deus, missa dominical, canto dos anjos, natal, glória completo, liturgia católica" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-gloria-missa" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-gloria-missa/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

@@ -13,7 +13,7 @@ export default function NovenaSagradoCoracao() {
                 <title>Novena do Sagrado Coração de Jesus: Amor e Misericórdia | Bom Católico</title>
                 <meta name="description" content="Reze a Novena do Sagrado Coração de Jesus completa. Uma das novenas mais antigas da Igreja, focada no amor, misericórdia e reparação ao Coração de Cristo." />
                 <meta name="keywords" content="novena sagrado coração de jesus, sagrado coração, coração de jesus, novena das sextas-feiras, primeiras sextas-feiras, reparação ao coração de jesus, amor de jesus, misericórdia divina, devoção ao sagrado coração, promessas do sagrado coração" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-sagrado-coracao-jesus" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-sagrado-coracao/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

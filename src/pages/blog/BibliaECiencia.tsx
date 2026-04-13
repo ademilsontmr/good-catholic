@@ -13,7 +13,7 @@ export default function BibliaECiencia() {
                 <title>Bíblia e Ciência: Fé e Razão em Diálogo | Bom Católico</title>
                 <meta name="description" content="Descubra como a Igreja Católica entende a relação entre a Bíblia e a Ciência. Entenda por que a fé e a razão são como duas asas que nos elevam à verdade." />
                 <meta name="keywords" content="bíblia e ciência, fé e razão, a igreja católica aceita evolução, criação ou evolução, cientistas católicos, big bang e igreja, como ler a bíblia, gênesis é literal, fides et ratio, igreja contra ciência mito" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/biblia-ciencia-dialogo-fe-razao-igreja" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/biblia-e-ciencia/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

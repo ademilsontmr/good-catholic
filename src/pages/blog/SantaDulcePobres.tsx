@@ -13,7 +13,7 @@ export default function SantaDulcePobres() {
                 <title>Santa Dulce dos Pobres: O Legado de Caridade no Brasil | Bom Católico</title>
                 <meta name="description" content="Conheça a história inspiradora do 'Anjo Bom da Bahia', a primeira santa nascida no Brasil, e seu exemplo de amor incondicional aos mais necessitados." />
                 <meta name="keywords" content="santa dulce dos pobres, irmã dulce, anjo bom da bahia, primeira santa brasileira, obras sociais irmã dulce, caridade cristã, santos do brasil, canonização irmã dulce, história de santa dulce, milagres de irmã dulce" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/santa-dulce-dos-pobres-legado-caridade" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/santa-dulce-pobres/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

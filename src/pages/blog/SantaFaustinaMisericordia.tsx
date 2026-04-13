@@ -13,7 +13,7 @@ export default function SantaFaustinaMisericordia() {
                 <title>Santa Faustina e a Divina Misericórdia | Bom Católico</title>
                 <meta name="description" content="Conheça a vida de Santa Faustina Kowalska e a mensagem da Divina Misericórdia. Descubra como confiar no amor infinito de Jesus em tempos difíceis." />
                 <meta name="keywords" content="santa faustina, divina misericórdia, jesus eu confio em vós, terço da misericórdia, como rezar o terço da misericórdia, hora da misericórdia 15h, diário de santa faustina, imagem de jesus misericordioso, festa da misericórdia, domingo da misericórdia" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/santa-faustina-divina-misericordia-apelo-jesus" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/santa-faustina-misericordia/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

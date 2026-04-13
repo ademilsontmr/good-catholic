@@ -13,7 +13,7 @@ export default function NovenaSantoAntonio() {
                 <title>Novena de Santo Antônio: Padroeiro dos Pobres e Casamenteiro | Bom Católico</title>
                 <meta name="description" content="Reze a Novena de Santo Antônio completa. Popular no Brasil, especialmente em junho, para pedidos de casamento, trabalho e causas urgentes." />
                 <meta name="keywords" content="novena santo antônio, santo antônio casamenteiro, 13 de junho, novena de santo antônio completa, santo antônio de pádua, padroeiro dos pobres, oração para encontrar marido, oração para encontrar esposa, festa junina santo antônio, trezena santo antônio, santo antônio achados e perdidos" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-santo-antonio" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-santo-antonio/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

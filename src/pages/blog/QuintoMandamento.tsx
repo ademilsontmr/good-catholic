@@ -13,7 +13,7 @@ export default function QuintoMandamento() {
         <title>5º Mandamento: Não Matarás | Bom Católico</title>
         <meta name="description" content="Entenda o Quinto Mandamento da Lei de Deus. A sacralidade da vida humana, aborto, eutanásia, legítima defesa e o respeito à vida desde a concepção até a morte natural." />
         <meta name="keywords" content="quinto mandamento, não matarás, aborto é pecado, eutanásia, legítima defesa, santidade da vida humana, respeito à vida, mandamentos da lei de deus" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/quinto-mandamento-nao-mataras" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/quinto-mandamento/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

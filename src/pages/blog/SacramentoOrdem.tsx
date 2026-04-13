@@ -13,7 +13,7 @@ export default function SacramentoOrdem() {
         <title>O Sacramento da Ordem: Bispos, Padres e Diáconos | Bom Católico</title>
         <meta name="description" content="Entenda o Sacramento da Ordem na Igreja Católica. Os três graus do sacerdócio, a vocação sacerdotal, o celibato e a missão dos ministros ordenados." />
         <meta name="keywords" content="sacramento da ordem, o que é ordenação sacerdotal, como ser padre, vocação sacerdotal, diácono, bispo, celibato, sete sacramentos" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/sacramento-ordem" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/sacramento-ordem/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

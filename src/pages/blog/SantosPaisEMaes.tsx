@@ -13,7 +13,7 @@ export default function SantosPaisEMaes() {
                 <title>Santos que Foram Pais e Mães: A Santidade no Matrimônio | Bom Católico</title>
                 <meta name="description" content="Conheça a história de santos que viveram a vocação matrimonial e educaram seus filhos na fé, provando que a santidade é possível na vida familiar cotidiana." />
                 <meta name="keywords" content="santos casados, santidade no matrimônio, pais de santa teresinha, santos luís e zélia martin, santa gianna beretta molla, família católica, vocação matrimonial, igreja doméstica, casais santos, como ser santo no casamento" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/santos-pais-maes-santidade-matrimonio" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/santos-pais-e-maes/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

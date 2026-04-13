@@ -13,7 +13,7 @@ export default function AnoLiturgicoGuia() {
                 <title>O Ano Litúrgico: Entenda as Cores e os Tempos da Igreja | Bom Católico</title>
                 <meta name="description" content="Descubra como a Igreja organiza o tempo para celebrar os mistérios de Cristo. Conheça o significado das cores litúrgicas e dos tempos de Advento, Natal, Quaresma, Páscoa e Comum." />
                 <meta name="keywords" content="ano litúrgico católico, o que é ano litúrgico, cores litúrgicas significado, quando começa o ano litúrgico, tempo comum, tempo pascal, tempo do advento, cor roxa na missa, cor verde na missa, calendário litúrgico 2026" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/ano-liturgico-guia-cores-tempos" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/ano-liturgico-guia/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

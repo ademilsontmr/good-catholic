@@ -13,7 +13,7 @@ export default function ComunidadeParoquial() {
                 <title>A Importância de Pertencer a uma Comunidade Paroquial | Bom Católico</title>
                 <meta name="description" content="Descubra por que a fé cristã não pode ser vivida de forma isolada e como a participação ativa em uma paróquia fortalece nossa caminhada espiritual e social." />
                 <meta name="keywords" content="o que é paróquia, importância da comunidade católica, como participar da paróquia, pastorais da igreja, por que ir à missa, vida em comunidade cristã, como servir na igreja, grupos paroquiais, evangelii gaudium, católico sem igreja" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/importancia-pertencer-comunidade-paroquial" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/comunidade-paroquial/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

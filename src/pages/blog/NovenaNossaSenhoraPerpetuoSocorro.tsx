@@ -13,7 +13,7 @@ export default function NovenaNossaSenhoraPerpetuoSocorro() {
                 <title>Novena de Nossa Senhora do Perpétuo Socorro | Bom Católico</title>
                 <meta name="description" content="Reze a Novena de Nossa Senhora do Perpétuo Socorro completa. Tradicionalmente rezada às quartas-feiras, muito presente nas igrejas redentoristas." />
                 <meta name="keywords" content="novena nossa senhora perpétuo socorro, novena perpétuo socorro, oração perpétuo socorro, quarta-feira perpétuo socorro, mãe do perpétuo socorro, novena redentorista, ícone perpétuo socorro, nossa senhora do perpétuo socorro milagres, como rezar novena perpétuo socorro" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-nossa-senhora-perpetuo-socorro" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-nossa-senhora-perpetuo-socorro/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

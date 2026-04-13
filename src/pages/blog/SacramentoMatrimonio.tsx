@@ -13,7 +13,7 @@ export default function SacramentoMatrimonio() {
         <title>O Sacramento do Matrimônio: O Amor que Santifica | Bom Católico</title>
         <meta name="description" content="Entenda o Sacramento do Matrimônio na Igreja Católica. A vocação ao casamento, preparação, indissolubilidade e como viver um casamento santo." />
         <meta name="keywords" content="sacramento do matrimônio, casamento católico, como casar na igreja, casamento religioso, indissolubilidade do casamento, família cristã, sete sacramentos" />
-        <link rel="canonical" href="https://bomcatolico.com.br/blog/sacramento-matrimonio" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/sacramento-matrimonio/" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

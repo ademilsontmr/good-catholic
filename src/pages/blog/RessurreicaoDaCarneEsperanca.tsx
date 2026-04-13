@@ -13,7 +13,7 @@ export default function RessurreicaoDaCarneEsperanca() {
                 <title>A Ressurreição da Carne: Nossa Esperança na Vida Eterna | Bom Católico</title>
                 <meta name="description" content="Entenda o que significa a ressurreição dos corpos no fim dos tempos. Saiba como será nosso corpo glorioso e por que esta é a promessa central da fé cristã." />
                 <meta name="keywords" content="ressurreição da carne, o que é ressurreição dos mortos, corpo glorioso, como será o corpo ressuscitado, creio na ressurreição da carne, vida eterna católica, escatologia católica, fim dos tempos, ressurreição de jesus, corpo e alma" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/ressurreicao-da-carne-nossa-esperanca-vida-eterna" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/ressurreicao-da-carne-esperanca/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

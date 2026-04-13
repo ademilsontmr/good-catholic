@@ -13,7 +13,7 @@ export default function BelezaDaLiturgia() {
                 <title>A Beleza da Liturgia: Símbolos e Ritos | Bom Católico</title>
                 <meta name="description" content="Entenda por que a liturgia católica é rica em símbolos, ritos e beleza. Descubra como a forma de celebrar nos ajuda a mergulhar no mistério de Deus." />
                 <meta name="keywords" content="o que é liturgia católica, símbolos da missa, significado do incenso na missa, por que a missa é assim, ritos católicos, lex orandi lex credendi, participação na missa, beleza da liturgia, música sacra, arte sacra católica" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/beleza-liturgia-simbolos-ritos-importancia" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/beleza-da-liturgia/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

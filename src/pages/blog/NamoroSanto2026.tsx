@@ -13,7 +13,7 @@ export default function NamoroSanto2026() {
                 <title>Namoro Santo em 2026: Desafios da Castidade no Mundo Digital | Bom Católico</title>
                 <meta name="description" content="Como viver um namoro santo e casto em 2026? Dicas para jovens católicos sobre aplicativos de relacionamento, redes sociais e a busca pelo matrimônio." />
                 <meta name="keywords" content="namoro católico, como namorar com castidade, namoro santo, sexo antes do casamento é pecado, relacionamento cristão, jovens católicos" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/namoro-santo-castidade-2026" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/namoro-santo2026/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

@@ -13,7 +13,7 @@ export default function OracaoAlmaDeCristo() {
                 <title>Alma de Cristo: A Oração de União com Jesus | Bom Católico</title>
                 <meta name="description" content="Aprenda a oração Alma de Cristo (Anima Christi) completa e descubra o significado desta bela prece que nos une intimamente a Jesus e Sua Paixão." />
                 <meta name="keywords" content="alma de cristo, anima christi, oração alma de cristo, santificai-me, corpo de cristo salvai-me, oração eucarística, paixão de cristo, oração católica, santo inácio, exercícios espirituais" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-alma-de-cristo" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-alma-de-cristo/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

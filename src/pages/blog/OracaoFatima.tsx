@@ -13,7 +13,7 @@ export default function OracaoFatima() {
                 <title>Oração de Fátima: Ó Meu Jesus, Perdoai-nos | Bom Católico</title>
                 <meta name="description" content="Aprenda a Oração de Fátima completa, ensinada por Nossa Senhora aos pastorinhos. Descubra o significado desta oração rezada após cada dezena do Terço." />
                 <meta name="keywords" content="oração de fátima, ó meu jesus perdoai-nos, oração do terço, nossa senhora de fátima, pastorinhos de fátima, oração após dezena, livrai-nos do fogo do inferno, terço rosário, aparições de fátima, oração católica" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-fatima" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-fatima/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

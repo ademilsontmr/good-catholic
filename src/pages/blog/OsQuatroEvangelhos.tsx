@@ -13,7 +13,7 @@ export default function OsQuatroEvangelhos() {
                 <title>Os 4 Evangelhos: Diferenças e Riquezas de Cada Relato | Bom Católico</title>
                 <meta name="description" content="Entenda as características únicas de Mateus, Marcos, Lucas e João, e como cada evangelista apresenta uma faceta diferente do mistério de Jesus Cristo." />
                 <meta name="keywords" content="quatro evangelhos, diferença entre os evangelhos, mateus marcos lucas joão, evangelhos sinóticos, evangelho de joão, símbolos dos evangelistas, quem escreveu os evangelhos, por que quatro evangelhos, vida de jesus na bíblia, novo testamento" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/os-quatro-evangelhos-diferencas-riquezas" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/os-quatro-evangelhos/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

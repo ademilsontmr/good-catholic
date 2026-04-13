@@ -13,7 +13,7 @@ export default function EscapularioCarmoSignificado() {
                 <title>O Escapulário do Carmo: Significado e Promessas de Proteção | Bom Católico</title>
                 <meta name="description" content="Descubra a história e o valor espiritual do Escapulário de Nossa Senhora do Carmo. Entenda as promessas de proteção e o compromisso de vida que este sacramental exige." />
                 <meta name="keywords" content="o que é escapulário, escapulário do carmo, nossa senhora do carmo, promessa do escapulário, privilégio sabatino, como usar escapulário, escapulário é amuleto, são simão stock, imposição do escapulário, escapulário marrom significado" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/escapulario-carmo-significado-promessas" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/escapulario-carmo-significado/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

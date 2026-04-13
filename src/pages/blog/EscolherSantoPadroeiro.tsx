@@ -13,7 +13,7 @@ export default function EscolherSantoPadroeiro() {
                 <title>Como Escolher um Santo Padroeiro para 2026: Um Guia Espiritual | Bom Católico</title>
                 <meta name="description" content="Descubra a importância de ter um santo padroeiro e aprenda como escolher um intercessor celestial que combine com sua vocação, profissão ou momento de vida." />
                 <meta name="keywords" content="como escolher santo padroeiro, santo do meu nome, santo padroeiro das profissões, intercessão dos santos, comunhão dos santos, santo para cada situação, como ter devoção a um santo, santos católicos, padroeiro do ano, amizade com os santos" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/como-escolher-santo-padroeiro-guia" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/escolher-santo-padroeiro/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

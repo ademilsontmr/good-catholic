@@ -13,7 +13,7 @@ export default function OracaoCredoApostolico() {
                 <title>Credo dos Apóstolos: A Profissão de Fé Católica | Bom Católico</title>
                 <meta name="description" content="Aprenda o Credo dos Apóstolos completo e entenda o significado de cada artigo desta profissão de fé que resume as verdades fundamentais do cristianismo." />
                 <meta name="keywords" content="credo, credo dos apóstolos, creio em deus pai, profissão de fé, símbolo dos apóstolos, credo católico, creio em deus pai todo poderoso, artigos do credo, fé católica, credo completo" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-credo-apostolico" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-credo-apostolico/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

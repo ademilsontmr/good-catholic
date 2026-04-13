@@ -13,7 +13,7 @@ export default function RetiroEspiritualEmCasa() {
                 <title>Como Fazer um Retiro Espiritual em Casa | Bom Católico</title>
                 <meta name="description" content="Aprenda como organizar e viver um retiro espiritual profundo sem sair de casa. Dicas de silêncio, oração e roteiro para um encontro pessoal com Deus." />
                 <meta name="keywords" content="como fazer retiro espiritual em casa, retiro espiritual sozinho, roteiro de retiro, jejum digital, silêncio e oração, deserto espiritual, dia de oração em casa, retiro católico, como rezar em silêncio, exercícios espirituais em casa" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/como-fazer-retiro-espiritual-em-casa" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/retiro-espiritual-em-casa/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

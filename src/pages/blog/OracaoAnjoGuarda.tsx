@@ -13,7 +13,7 @@ export default function OracaoAnjoGuarda() {
                 <title>Oração do Anjo da Guarda: Santo Anjo do Senhor | Bom Católico</title>
                 <meta name="description" content="Aprenda a Oração do Anjo da Guarda completa e descubra como seu anjo protetor cuida de você. Reze todos os dias pedindo sua proteção e orientação." />
                 <meta name="keywords" content="oração do anjo da guarda, santo anjo do senhor, meu zeloso guardador, anjo protetor, oração ao anjo, como rezar ao anjo da guarda, anjo da guarda católico, proteção angelical, oração de proteção, anjo custódio" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/oracao-anjo-da-guarda" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/oracao-anjo-guarda/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">

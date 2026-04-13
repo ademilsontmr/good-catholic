@@ -13,7 +13,7 @@ export default function NovenaSaoJudasTadeu() {
                 <title>Novena de São Judas Tadeu: Padroeiro das Causas Impossíveis | Bom Católico</title>
                 <meta name="description" content="Reze a Novena de São Judas Tadeu completa. Padroeiro das causas impossíveis e desesperadas, muito invocado em situações difíceis." />
                 <meta name="keywords" content="novena são judas tadeu, são judas tadeu causas impossíveis, oração são judas tadeu, 28 de outubro, novena causas desesperadas, santo das causas perdidas, oração para causas urgentes, são judas tadeu milagres, novena poderosa são judas" />
-                <link rel="canonical" href="https://bomcatolico.com.br/blog/novena-sao-judas-tadeu" />
+                <link rel="canonical" href="https://guidecatholic.com/blog/novena-sao-judas-tadeu/" />
             </Helmet>
 
             <div className="min-h-screen bg-background">
