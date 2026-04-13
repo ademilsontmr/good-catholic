@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function EucharisticAdoration() {
     return (
@@ -36,6 +37,29 @@ export default function EucharisticAdoration() {
                             <QuizCTA title="How is your life of adoration?" description="Being before the Blessed Sacrament is transforming. Take our quiz." />
                         </div>
                         <RelatedArticles currentSlug="eucharistic-adoration" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is Eucharistic Adoration?",
+                            answer: "Eucharistic Adoration is the practice of praying before the Blessed Sacrament — the consecrated Host — exposed in a monstrance or reserved in the tabernacle. Since Jesus is truly present, adoration is literally spending time with Him."
+                          },
+                          {
+                            question: "What is Perpetual Adoration?",
+                            answer: "Perpetual Adoration is when a parish or religious community maintains continuous adoration 24 hours a day, 7 days a week. Parishioners sign up for one-hour slots to ensure Jesus is never left alone. There are thousands of perpetual adoration chapels worldwide."
+                          },
+                          {
+                            question: "What should I do during Eucharistic Adoration?",
+                            answer: "You can pray the Rosary, read Scripture, use a prayer book, journal, or simply sit in silence. St. John Vianney described a parishioner who spent hours in adoration: 'I look at Him and He looks at me.' Simply being present with love is enough."
+                          },
+                          {
+                            question: "How long should I spend in Eucharistic Adoration?",
+                            answer: "Even 15–30 minutes is spiritually powerful. Many saints recommend at least one hour per week. Jesus asked His disciples: 'Could you not watch one hour with me?' (Matthew 26:40). Start with whatever time you can commit to consistently."
+                          },
+                          {
+                            question: "What are the spiritual benefits of Eucharistic Adoration?",
+                            answer: "Regular adorers report: deeper peace, clarity in decision-making, healing of emotional wounds, stronger prayer life, and greater love for others. St. Peter Julian Eymard said: 'The Eucharist is the summary of all God's love.' Many conversions and vocations have been born in adoration."
+                          }
+                        ]} />
                     </div>
                 </article>
                 <Footer />

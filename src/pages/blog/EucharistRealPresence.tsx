@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function EucharistRealPresence() {
     return (
@@ -97,6 +98,29 @@ export default function EucharistRealPresence() {
                         </div>
 
                         <RelatedArticles currentSlug="eucharist-real-presence" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is the Real Presence of Christ in the Eucharist?",
+                            answer: "The Real Presence means that Jesus Christ is truly, really, and substantially present — Body, Blood, Soul, and Divinity — under the appearances of bread and wine after the Consecration at Mass. This is not symbolic; it is a literal transformation called transubstantiation."
+                          },
+                          {
+                            question: "What is transubstantiation?",
+                            answer: "Transubstantiation is the term the Church uses to describe how the bread and wine become the Body and Blood of Christ at the Consecration. The outward appearances (accidents) remain the same, but the substance is entirely changed into Christ's Body and Blood."
+                          },
+                          {
+                            question: "How long is Jesus present in the Eucharist after Mass?",
+                            answer: "Jesus remains truly present in the consecrated hosts reserved in the tabernacle for as long as the appearances of bread remain. This is why Catholics genuflect before the tabernacle and why Eucharistic Adoration is possible outside of Mass."
+                          },
+                          {
+                            question: "What does the Bible say about the Real Presence?",
+                            answer: "Jesus said clearly: 'My flesh is real food and my blood is real drink' (John 6:55). At the Last Supper He said: 'This IS my body' (Matthew 26:26). St. Paul warns that eating unworthily is 'sinning against the Body and Blood of the Lord' (1 Corinthians 11:27)."
+                          },
+                          {
+                            question: "Why do some Christians not believe in the Real Presence?",
+                            answer: "Most Protestant denominations interpret Jesus's words symbolically, a view that emerged during the Reformation in the 16th century. Catholics, Eastern Orthodox, and some Lutherans maintain the ancient Christian belief in the Real Presence, which was universal in the early Church."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">Do you value the Bread of Life?</h3>

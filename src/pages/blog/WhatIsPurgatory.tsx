@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function WhatIsPurgatory() {
     return (
@@ -33,6 +34,29 @@ export default function WhatIsPurgatory() {
                             <QuizCTA title="Do you know the mercy of Purgatory?" description="Take our quiz and deepen your knowledge." />
                         </div>
                         <RelatedArticles currentSlug="what-is-purgatory" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is Purgatory according to Catholic teaching?",
+                            answer: "Purgatory is a state of final purification after death for those who die in God's grace but are not yet fully purified. It is not a second chance at salvation, but a cleansing process for those already saved, preparing them for the full joy of Heaven."
+                          },
+                          {
+                            question: "Is Purgatory in the Bible?",
+                            answer: "Yes. 2 Maccabees 12:46 speaks of praying for the dead so they may be freed from sin. Matthew 12:32 mentions sins forgiven 'in the age to come.' 1 Corinthians 3:15 describes being 'saved, but only as through fire.' The early Church universally prayed for the dead."
+                          },
+                          {
+                            question: "How long does Purgatory last?",
+                            answer: "The Church does not specify a duration. Time in Purgatory may not correspond to earthly time. Our prayers, Masses, and indulgences offered for the souls in Purgatory can shorten their purification. The Church encourages praying for the dead, especially in November."
+                          },
+                          {
+                            question: "Can we help souls in Purgatory?",
+                            answer: "Yes! We can help the Holy Souls through: offering Mass for them, praying the Rosary, gaining indulgences on their behalf, fasting, and performing works of charity. November is traditionally dedicated to praying for the souls in Purgatory."
+                          },
+                          {
+                            question: "Do Protestants believe in Purgatory?",
+                            answer: "Most Protestant denominations reject Purgatory, as it was one of the doctrines disputed during the Reformation. However, some Anglican and Lutheran theologians have expressed openness to the concept. The Catholic and Eastern Orthodox churches both affirm a state of purification after death."
+                          }
+                        ]} />
                     </div>
                 </article>
                 <Footer />
