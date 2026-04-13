@@ -52,7 +52,7 @@ export function Navbar() {
             >
               Blog
             </Link>
-            <Link to="/quiz">
+            <Link to="/quiz-intro">
               <Button className="bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
                 Take the Quiz
               </Button>
@@ -101,7 +101,7 @@ export function Navbar() {
               >
                 Blog
               </Link>
-              <Link to="/quiz" onClick={() => setIsOpen(false)}>
+              <Link to="/quiz-intro" onClick={() => setIsOpen(false)}>
                 <Button className="w-full bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
                   Take the Quiz
                 </Button>

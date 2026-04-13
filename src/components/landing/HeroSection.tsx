@@ -50,7 +50,7 @@ export function HeroSection() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style={{
           animationDelay: "0.2s"
         }}>
-            <Link to="/quiz">
+            <Link to="/quiz-intro">
               <Button size="lg" className="h-14 px-8 bg-gradient-accent hover:opacity-90 text-accent-foreground font-semibold text-lg shadow-glow transition-all duration-300 group">
                 Start the Quiz Now
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />

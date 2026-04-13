@@ -47,7 +47,7 @@ export function FinalCTASection() {
             </div>
 
             {/* CTA Button */}
-            <Link to="/quiz">
+            <Link to="/quiz-intro">
               <Button
                 size="lg"
                 className="h-16 px-12 bg-gradient-accent hover:opacity-90 text-accent-foreground font-bold text-xl shadow-glow transition-all duration-300 group"
