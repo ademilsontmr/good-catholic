@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function MeaningOfMass() {
     return (
@@ -139,6 +140,29 @@ export default function MeaningOfMass() {
                         </div>
 
                         <RelatedArticles currentSlug="meaning-mass" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is the most important part of the Mass?",
+                            answer: "The Liturgy of the Eucharist, specifically the Consecration, is the most sacred moment of the Mass. At the words of consecration, the bread and wine truly become the Body and Blood of Christ — this is the Real Presence."
+                          },
+                          {
+                            question: "Why does the priest face the altar during parts of the Mass?",
+                            answer: "In the traditional form, the priest faces east (ad orientem) together with the people, symbolizing that all are facing God together. In the ordinary form, the priest typically faces the people to emphasize the communal nature of the celebration."
+                          },
+                          {
+                            question: "What is the difference between the Ordinary and Extraordinary Form of the Mass?",
+                            answer: "The Ordinary Form (Novus Ordo) was promulgated by Pope Paul VI in 1969 and is celebrated in the vernacular. The Extraordinary Form (Traditional Latin Mass) follows the 1962 Missal and is celebrated in Latin. Both are valid forms of the Roman Rite."
+                          },
+                          {
+                            question: "Why do we say 'Amen' before receiving Communion?",
+                            answer: "When the minister says 'The Body of Christ,' your 'Amen' is a profound act of faith — you are affirming belief in the Real Presence of Christ in the Eucharist. St. Augustine said: 'Be what you see, and receive what you are.'"
+                          },
+                          {
+                            question: "What should I do if I arrive late to Mass?",
+                            answer: "If you arrive after the Gospel, you have not fulfilled your Sunday obligation and should attend another Mass if possible. If you arrive before the Offertory, you have generally fulfilled the obligation, though arriving on time is always the ideal."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

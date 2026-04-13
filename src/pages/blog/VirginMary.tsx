@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function VirginMary() {
     return (
@@ -168,6 +169,29 @@ export default function VirginMary() {
                         </div>
 
                         <RelatedArticles currentSlug="virgin-mary" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "Why do Catholics call Mary the Mother of God?",
+                            answer: "Mary is called the Mother of God (Theotokos) because she is the mother of Jesus, who is truly God. This title was defined at the Council of Ephesus in 431 AD. It does not mean Mary existed before God, but that the child she bore is a divine Person."
+                          },
+                          {
+                            question: "What is the Immaculate Conception?",
+                            answer: "The Immaculate Conception is the dogma that Mary was conceived without original sin, preserved by God in anticipation of Christ's merits. It was defined as dogma by Pope Pius IX in 1854. It is not the same as the Virgin Birth of Jesus."
+                          },
+                          {
+                            question: "What is the Assumption of Mary?",
+                            answer: "The Assumption is the dogma that at the end of her earthly life, Mary was taken up body and soul into heavenly glory. Defined by Pope Pius XII in 1950, it is celebrated on August 15. It is a holy day of obligation in the Catholic Church."
+                          },
+                          {
+                            question: "Is devotion to Mary required for Catholics?",
+                            answer: "While specific Marian devotions are not strictly required, the Church strongly encourages devotion to Mary as our spiritual mother. The Second Vatican Council dedicated an entire chapter of Lumen Gentium to Mary's role in the Church."
+                          },
+                          {
+                            question: "What are the main Marian apparitions recognized by the Church?",
+                            answer: "The Church has approved several Marian apparitions, including: Our Lady of Guadalupe (Mexico, 1531), Our Lady of Lourdes (France, 1858), Our Lady of Fatima (Portugal, 1917), and Our Lady of Knock (Ireland, 1879). These are approved as worthy of belief but not required."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

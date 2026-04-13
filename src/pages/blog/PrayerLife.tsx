@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function PrayerLife() {
   return (
@@ -194,6 +195,29 @@ export default function PrayerLife() {
             </div>
 
             <RelatedArticles currentSlug="prayer-life" />
+
+            <BlogFAQ faqs={[
+              {
+                question: "How much time should I spend in prayer each day?",
+                answer: "The Church does not set a minimum, but spiritual directors commonly recommend at least 15–30 minutes of mental prayer daily, plus the Liturgy of the Hours if possible. Quality matters more than quantity — even 10 focused minutes surpasses an hour of distracted prayer."
+              },
+              {
+                question: "What is the difference between vocal prayer and mental prayer?",
+                answer: "Vocal prayer uses set words (Our Father, Hail Mary, Rosary). Mental prayer is a personal, interior conversation with God — meditation and contemplation. Both are essential. St. Teresa of Avila defined mental prayer as 'a close sharing between friends.'"
+              },
+              {
+                question: "What should I do when I feel nothing during prayer?",
+                answer: "Spiritual dryness is normal and even spiritually valuable. St. John of the Cross called it the 'dark night of the soul.' Continue praying faithfully even without consolation. God is purifying your love, making it less dependent on feelings and more rooted in faith."
+              },
+              {
+                question: "Is the Liturgy of the Hours (Divine Office) only for priests and religious?",
+                answer: "No! The Liturgy of the Hours is the official prayer of the whole Church. Laypeople are encouraged to pray it, especially Morning Prayer (Lauds) and Evening Prayer (Vespers). Many apps make it accessible for everyone."
+              },
+              {
+                question: "How do I build a consistent prayer habit?",
+                answer: "Set a fixed time and place each day. Start small — even 5 minutes consistently beats 1 hour occasionally. Use a prayer journal, a rosary, or a prayer book to help focus. Link prayer to an existing habit (morning coffee, before bed). Accountability with a prayer partner also helps."
+              }
+            ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

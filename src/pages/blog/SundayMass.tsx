@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function SundayMass() {
   return (
@@ -167,6 +168,29 @@ export default function SundayMass() {
             </div>
 
             <RelatedArticles currentSlug="sunday-mass" />
+
+            <BlogFAQ faqs={[
+              {
+                question: "Is missing Sunday Mass a mortal sin?",
+                answer: "Yes, deliberately missing Sunday Mass without a serious reason (illness, caring for a sick person, no access to a church) is considered a mortal sin in Catholic teaching. The Third Commandment obliges us to keep holy the Lord's Day."
+              },
+              {
+                question: "What counts as fulfilling the Sunday Mass obligation?",
+                answer: "You fulfill the obligation by attending any valid Catholic Mass on Sunday or on Saturday evening (the vigil Mass). The Mass must be celebrated by a validly ordained priest. Watching Mass on TV does not fulfill the obligation unless you are homebound."
+              },
+              {
+                question: "Can I receive Communion at every Mass?",
+                answer: "You may receive Communion up to twice per day, provided you are in a state of grace, have observed the one-hour Eucharistic fast, and are a baptized Catholic. You must not be under any canonical penalty such as excommunication."
+              },
+              {
+                question: "Why do Catholics go to Mass every Sunday?",
+                answer: "Sunday Mass is the center of Catholic life because it re-presents Christ's sacrifice on Calvary, nourishes us with His Body and Blood, unites us as the Body of Christ, and fulfills our duty of worship to God. It is the highest form of prayer."
+              },
+              {
+                question: "What should I do if I cannot attend Mass on Sunday?",
+                answer: "If you have a serious reason (illness, travel with no church nearby, caring for someone), you are dispensed from the obligation. You should still pray, read Scripture, and observe Sunday as a day of rest and family. Seek a dispensation from your pastor if needed."
+              }
+            ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

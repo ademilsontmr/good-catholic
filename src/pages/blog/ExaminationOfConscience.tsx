@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function ExaminationOfConscience() {
     return (
@@ -142,6 +143,29 @@ export default function ExaminationOfConscience() {
                         </div>
 
                         <RelatedArticles currentSlug="examination-conscience" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is an examination of conscience?",
+                            answer: "An examination of conscience is a prayerful review of your thoughts, words, and actions in light of God's commandments and the teachings of the Church. It is an essential preparation for the Sacrament of Confession and a daily spiritual practice."
+                          },
+                          {
+                            question: "How often should I examine my conscience?",
+                            answer: "St. Ignatius of Loyola recommended a brief examination twice daily — at noon and before bed. At minimum, a thorough examination before each Confession is essential. Daily practice helps develop a sensitive conscience and awareness of sin."
+                          },
+                          {
+                            question: "What is the difference between a daily examen and preparing for Confession?",
+                            answer: "The daily examen (Ignatian) focuses on gratitude, reviewing the day, and noticing God's presence. Preparation for Confession is a more thorough review of sins against the Ten Commandments and Church precepts since your last Confession."
+                          },
+                          {
+                            question: "What if I can't remember all my sins?",
+                            answer: "Confess what you remember with sincere sorrow. Forgotten sins are forgiven through the absolution. However, if you remember a serious sin later, mention it in your next Confession. The key is honest effort, not perfect recall."
+                          },
+                          {
+                            question: "Can children do an examination of conscience?",
+                            answer: "Yes! Children preparing for First Confession should learn a simple examination of conscience. Age-appropriate guides help them review the Ten Commandments in simple language. This builds lifelong habits of moral reflection."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">
