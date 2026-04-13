@@ -1,37 +1,37 @@
 import { Star, Quote } from "lucide-react";
 const testimonials = [{
-  name: "Maria Fernanda",
-  location: "São Paulo, SP",
+  name: "Sarah Mitchell",
+  location: "Austin, TX",
   rating: 5,
   text: "The quiz made me realize I need to pray the rosary daily again. Very edifying!",
   level: "Growing Catholic"
 }, {
-  name: "José Roberto",
-  location: "Rio de Janeiro, RJ",
+  name: "Michael Thompson",
+  location: "Denver, CO",
   rating: 5,
   text: "Excellent tool for examining our faith life. I highly recommend it!",
   level: "Committed Catholic"
 }, {
-  name: "Ana Carolina",
-  location: "Belo Horizonte, MG",
+  name: "Emily Rodriguez",
+  location: "Phoenix, AZ",
   rating: 5,
   text: "The guide I received is helping me a lot to organize my prayer life. Gratitude!",
   level: "Exemplary Practicing Catholic"
 }, {
-  name: "Pedro Henrique",
-  location: "Curitiba, PR",
+  name: "David Anderson",
+  location: "Nashville, TN",
   rating: 5,
   text: "I was surprised by the result! It motivated me to participate more in my parish life.",
   level: "Seeking Catholic"
 }, {
-  name: "Lucia Helena",
-  location: "Porto Alegre, RS",
+  name: "Jennifer Martinez",
+  location: "Portland, OR",
   rating: 5,
   text: "The questions are very well crafted. They made me reflect deeply on my faith.",
   level: "Committed Catholic"
 }, {
-  name: "Francisco Carlos",
-  location: "Fortaleza, CE",
+  name: "Robert O'Connor",
+  location: "Boston, MA",
   rating: 5,
   text: "I shared it with my prayer group. Everyone loved it and is using it to grow in faith!",
   level: "Exemplary Practicing Catholic"
