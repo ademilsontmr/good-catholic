@@ -43,7 +43,7 @@ export function BlogFAQ({ faqs }: BlogFAQProps) {
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                 className="w-full flex items-center justify-between p-4 text-left hover:bg-background-muted/50 transition-colors"
               >
-                <span className="font-semibold text-text pr-4">{faq.question}</span>
+                <h3 className="font-semibold text-text pr-4 text-base">{faq.question}</h3>
                 <ChevronDown
                   className={`w-5 h-5 text-accent flex-shrink-0 transition-transform duration-200 ${
                     openIndex === index ? "rotate-180" : ""
