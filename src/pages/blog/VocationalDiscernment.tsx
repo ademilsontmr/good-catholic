@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function VocationalDiscernment() {
     return (
@@ -92,6 +93,29 @@ export default function VocationalDiscernment() {
                         </div>
 
                         <RelatedArticles currentSlug="vocational-discernment" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What are the vocations in the Catholic Church?",
+                            answer: "The Church recognizes four main vocations: Marriage, Holy Orders (priesthood/diaconate), Consecrated Life (religious sisters, brothers, monks), and Single Life lived in service to God. Every baptized person has a vocation — a specific call from God."
+                          },
+                          {
+                            question: "How do I know if God is calling me to the priesthood or religious life?",
+                            answer: "Signs of a religious vocation include: a persistent attraction to prayer and service, a desire to give your life entirely to God, peace when considering this path, and affirmation from a spiritual director. Spending time in prayer, retreats, and visiting communities helps clarify the call."
+                          },
+                          {
+                            question: "What is the role of a spiritual director in discernment?",
+                            answer: "A spiritual director is a trained guide who helps you recognize God's movements in your soul. They help you distinguish between genuine divine calls and personal desires or fears. Regular meetings with a spiritual director are essential for serious vocational discernment."
+                          },
+                          {
+                            question: "Can I discern my vocation if I have a sinful past?",
+                            answer: "Yes. God calls people from all backgrounds. Many saints had troubled pasts before their conversion. What matters is your current relationship with God and your openness to His will. The Sacrament of Confession restores grace and opens the door to any vocation."
+                          },
+                          {
+                            question: "How long does vocational discernment take?",
+                            answer: "There is no fixed timeline. Some people know their vocation early; others discern for years. The important thing is to remain open, pray consistently, seek spiritual direction, and take concrete steps (visiting seminaries, attending discernment retreats) rather than waiting for absolute certainty."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">Do you know God's purpose for you?</h3>

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function GiftsOfHolySpirit() {
     return (
@@ -170,6 +171,29 @@ export default function GiftsOfHolySpirit() {
                         </div>
 
                         <RelatedArticles currentSlug="gifts-holy-spirit" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What are the 7 gifts of the Holy Spirit?",
+                            answer: "The seven gifts are: Wisdom, Understanding, Counsel, Fortitude, Knowledge, Piety, and Fear of the Lord. They are given at Baptism and strengthened at Confirmation, enabling us to respond readily to God's grace."
+                          },
+                          {
+                            question: "How are the gifts of the Holy Spirit different from the fruits?",
+                            answer: "The gifts are supernatural dispositions that help us act according to God's will. The fruits (love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control) are the visible results of living by the gifts. Gifts are the roots; fruits are what grows from them."
+                          },
+                          {
+                            question: "Can I lose the gifts of the Holy Spirit?",
+                            answer: "Mortal sin causes the loss of sanctifying grace and weakens the gifts. The gifts are restored through sincere repentance and the Sacrament of Confession. Venial sin does not remove the gifts but can diminish their effectiveness in our lives."
+                          },
+                          {
+                            question: "Which gift of the Holy Spirit is most important?",
+                            answer: "Wisdom is considered the highest gift because it enables us to judge all things from God's perspective. However, all seven gifts work together and are equally necessary for a complete Christian life. Fear of the Lord is the beginning of wisdom (Proverbs 9:10)."
+                          },
+                          {
+                            question: "How do I grow in the gifts of the Holy Spirit?",
+                            answer: "Growth in the gifts comes through prayer, frequent reception of the sacraments, reading Scripture, practicing virtue, and openness to the Holy Spirit. Ask the Holy Spirit daily to activate His gifts in you. The Novena to the Holy Spirit before Pentecost is especially powerful."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

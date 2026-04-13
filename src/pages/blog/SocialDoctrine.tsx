@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function SocialDoctrine() {
     return (
@@ -90,6 +91,29 @@ export default function SocialDoctrine() {
                         </div>
 
                         <RelatedArticles currentSlug="social-doctrine" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is Catholic Social Doctrine?",
+                            answer: "Catholic Social Doctrine (CSD) is the body of Church teaching on social, economic, and political matters. It is rooted in Scripture and natural law, developed through papal encyclicals since Leo XIII's Rerum Novarum (1891). Its core principles include human dignity, solidarity, subsidiarity, and the common good."
+                          },
+                          {
+                            question: "What are the main principles of Catholic Social Teaching?",
+                            answer: "The key principles are: Human Dignity (every person has inherent worth), Common Good (society must serve all), Subsidiarity (decisions at the lowest appropriate level), Solidarity (we are responsible for one another), Preferential Option for the Poor, and Care for Creation."
+                          },
+                          {
+                            question: "Does the Church support capitalism or socialism?",
+                            answer: "Neither exclusively. The Church rejects both unbridled capitalism (which ignores the poor) and Marxist socialism (which denies private property and religious freedom). Catholic Social Teaching proposes a 'third way' centered on human dignity, just wages, and the universal destination of goods."
+                          },
+                          {
+                            question: "What does the Church say about workers' rights?",
+                            answer: "The Church strongly defends workers' rights: the right to a just wage, safe working conditions, rest, and the right to form unions. Leo XIII's Rerum Novarum (1891) was the first major social encyclical defending workers against exploitation by both capital and the state."
+                          },
+                          {
+                            question: "How can ordinary Catholics live Catholic Social Teaching?",
+                            answer: "Through: voting according to Catholic principles, supporting fair trade, volunteering at food banks and shelters, advocating for just laws, treating employees and coworkers with dignity, supporting Catholic charities, and living simply to share with those in need."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">Do you live your faith in society?</h3>

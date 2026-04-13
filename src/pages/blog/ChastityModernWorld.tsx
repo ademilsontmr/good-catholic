@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function ChastityModernWorld() {
     return (
@@ -92,6 +93,29 @@ export default function ChastityModernWorld() {
                         </div>
 
                         <RelatedArticles currentSlug="chastity-modern-world" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What does chastity mean in Catholic teaching?",
+                            answer: "Chastity is the virtue that integrates sexuality according to one's state in life. For married couples, it means faithful, open-to-life love. For single people, it means abstinence. For consecrated religious, it means celibacy. It is not the absence of sexuality but its proper ordering."
+                          },
+                          {
+                            question: "Is chastity only about avoiding sex?",
+                            answer: "No. Chastity encompasses all aspects of sexuality — thoughts, words, and actions. It includes modesty in dress and behavior, purity of heart, custody of the eyes, and avoiding pornography. The Catechism calls chastity 'the successful integration of sexuality within the person' (CCC 2337)."
+                          },
+                          {
+                            question: "How can I practice chastity in today's culture?",
+                            answer: "Practical steps include: frequent Confession and Communion, daily prayer and Rosary, avoiding near occasions of sin, using internet filters, cultivating deep friendships, practicing custody of the eyes, and reading about the theology of the body (St. John Paul II)."
+                          },
+                          {
+                            question: "What is the Church's teaching on pornography?",
+                            answer: "The Church teaches that pornography is gravely immoral. It offends against chastity, degrades human dignity, and can create serious addiction. The Catechism states it 'does grave injury to the dignity of its participants' (CCC 2354). Confession and professional help are recommended for those struggling."
+                          },
+                          {
+                            question: "Can someone who has failed in chastity start over?",
+                            answer: "Absolutely. The virtue of chastity can always be recovered through sincere repentance and the Sacrament of Confession. The concept of 'secondary virginity' — a renewed commitment to chastity — is recognized and encouraged. God's mercy is always greater than our failures."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">How is your pursuit of holiness?</h3>

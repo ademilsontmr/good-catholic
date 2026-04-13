@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
 
 export default function LectioDivina() {
     return (
@@ -155,6 +156,29 @@ export default function LectioDivina() {
                         </div>
 
                         <RelatedArticles currentSlug="lectio-divina" />
+
+                        <BlogFAQ faqs={[
+                          {
+                            question: "What is Lectio Divina?",
+                            answer: "Lectio Divina (Latin for 'Divine Reading') is an ancient method of praying with Scripture practiced since the early Church. It involves four steps: Lectio (reading), Meditatio (meditation), Oratio (prayer), and Contemplatio (contemplation)."
+                          },
+                          {
+                            question: "How long should a Lectio Divina session last?",
+                            answer: "A typical Lectio Divina session lasts 20–30 minutes, though beginners can start with 10–15 minutes. The goal is depth, not length. Even a few verses prayed slowly and attentively is more fruitful than reading many chapters quickly."
+                          },
+                          {
+                            question: "What Scripture passages are best for Lectio Divina?",
+                            answer: "The daily Mass readings are an excellent starting point. The Psalms, the Gospels, and the Letters of St. Paul are particularly rich for Lectio Divina. Many Catholics follow the Church's liturgical calendar, praying with the readings of the day."
+                          },
+                          {
+                            question: "Is Lectio Divina the same as Bible study?",
+                            answer: "No. Bible study is primarily intellectual — analyzing the text, its history, and meaning. Lectio Divina is primarily prayerful — listening for God's personal word to you. Both are valuable, but Lectio Divina is a form of prayer, not academic study."
+                          },
+                          {
+                            question: "Can Lectio Divina be done in a group?",
+                            answer: "Yes! Group Lectio Divina is a beautiful practice for families, prayer groups, and parishes. Each person shares a word or phrase that struck them, then reflections, then prayers. It deepens community bonds and enriches personal prayer."
+                          }
+                        ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">
