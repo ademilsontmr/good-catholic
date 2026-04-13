@@ -61,7 +61,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
     centerText("Catholic Life Guide | Guide Catholic", pageHeight - 15, 8);
     doc.setFontSize(9);
     doc.setTextColor(12, 75, 148);
-    centerText("www.guide-catholic.com", pageHeight - 8, 9);
+    centerText("www.guidecatholic.com", pageHeight - 8, 9);
     doc.setTextColor(0, 0, 0);
   };
 
