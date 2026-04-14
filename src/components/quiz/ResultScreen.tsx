@@ -329,7 +329,7 @@ const getVirtudes = (score: number, areaScores: ReturnType<typeof getAreaScores>
 };
 
 export function ResultScreen({ score, level, userName, answers, onRestart }: ResultScreenProps) {
-  const firstName = userName.split(" ")[0];
+  const firstName = userName.split(" ")[0] || "Friend";
   const areaScores = getAreaScores(answers);
   const recomendacoes = getRecomendacoes(areaScores);
   const oracoes = getOracoesSugeridas(score);
@@ -339,13 +339,13 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
   const santoProtetor = getSantoProtetor(areaScores);
   const virtudes = getVirtudes(score, areaScores);
 
+  // Normalize score to percentage (score is raw points, max is 90)
+  const maxPoints = answers.length * 3 || 90;
+  const scorePercent = Math.min(100, Math.round((score / maxPoints) * 100));
+
   const handleDownloadGuide = () => {
     try {
-      generateCatholicGuidePDF({
-        userName,
-        score,
-        levelTitle: level.title,
-      });
+      generateCatholicGuidePDF({ userName, score: scorePercent, levelTitle: level.title });
       toast.success("PDF generated successfully! Check your downloads.");
     } catch (error) {
       console.error("Error generating PDF:", error);
@@ -354,29 +354,14 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
   };
 
   const handleShare = async () => {
-    const text = `I discovered how my Catholic life is going! Take the quiz too at Guide Catholic and see your result.`;
+    const text = `I just discovered how my Catholic life is going! Take the quiz too at Guide Catholic.`;
     const url = 'https://guidecatholic.com';
-    
     if (navigator.share) {
-      try {
-        await navigator.share({
-          title: "Guide Catholic - Catholic Life Quiz",
-          text,
-          url,
-        });
-      } catch {
-        // User cancelled sharing
-      }
+      try { await navigator.share({ title: "Guide Catholic", text, url }); } catch {}
     } else {
       await navigator.clipboard.writeText(`${text} ${url}`);
-      toast.success("Link copied to share!");
+      toast.success("Link copied!");
     }
-  };
-
-  const getScoreColor = () => {
-    if (score >= 75) return "text-green-600";
-    if (score >= 50) return "text-accent";
-    return "text-primary";
   };
 
   const getAreaColor = (percent: number) => {
@@ -388,135 +373,117 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
   const areas = [
     { key: "eucaristica", label: "Eucharistic Life", icon: Church, score: areaScores.eucaristica },
     { key: "oracao", label: "Prayer Life", icon: HandHeart, score: areaScores.oracao },
-    { key: "formacao", label: "Formation and Sacraments", icon: BookOpen, score: areaScores.formacao },
+    { key: "formacao", label: "Formation & Sacraments", icon: BookOpen, score: areaScores.formacao },
     { key: "devocoes", label: "Devotions", icon: Heart, score: areaScores.devocoes },
     { key: "testemunho", label: "Christian Witness", icon: Star, score: areaScores.testemunho },
   ];
 
   return (
-    <div className="w-full max-w-4xl mx-auto px-4 animate-slide-up">
-      {/* Header com resultado principal */}
-      <div className="bg-card rounded-2xl shadow-sacred p-6 md:p-8 border border-border/50 mb-6">
-        <div className="text-center mb-8">
-          <div className="text-6xl mb-4">{level.emoji}</div>
-          <h2 className="font-display text-xl text-muted-foreground mb-2">
-            Congratulations, {firstName}!
-          </h2>
-          <h3 className="font-display text-2xl md:text-3xl text-primary mb-4">
-            {level.title}
-          </h3>
-          
-          {/* Score Circle */}
-          <div className="relative w-36 h-36 mx-auto mb-6">
-            <svg className="w-full h-full transform -rotate-90">
+    <div className="w-full max-w-4xl mx-auto px-4 py-8 animate-slide-up">
+
+      {/* ── 1. HERO: Score + Level ── */}
+      <div className="relative bg-gradient-to-br from-primary via-primary to-accent rounded-3xl p-8 md:p-12 mb-6 text-primary-foreground overflow-hidden text-center">
+        <div className="absolute inset-0 bg-white/5 rounded-3xl" />
+        <div className="relative z-10">
+          <p className="text-primary-foreground/70 text-sm uppercase tracking-widest mb-2">Your Result</p>
+          <h2 className="font-display text-3xl md:text-4xl font-bold mb-1">{firstName},</h2>
+          <h3 className="font-display text-xl md:text-2xl text-primary-foreground/90 mb-8">{level.title}</h3>
+
+          {/* Score circle */}
+          <div className="relative w-40 h-40 mx-auto mb-6">
+            <svg className="w-full h-full -rotate-90" viewBox="0 0 120 120">
+              <circle cx="60" cy="60" r="50" fill="none" stroke="rgba(255,255,255,0.2)" strokeWidth="10" />
               <circle
-                cx="72"
-                cy="72"
-                r="64"
-                stroke="currentColor"
-                strokeWidth="12"
-                fill="none"
-                className="text-secondary"
-              />
-              <circle
-                cx="72"
-                cy="72"
-                r="64"
-                stroke="url(#goldGradient)"
-                strokeWidth="12"
-                fill="none"
-                strokeDasharray={`${(score / 100) * 402} 402`}
+                cx="60" cy="60" r="50" fill="none" stroke="white" strokeWidth="10"
                 strokeLinecap="round"
+                strokeDasharray={`${2 * Math.PI * 50}`}
+                strokeDashoffset={`${2 * Math.PI * 50 * (1 - scorePercent / 100)}`}
                 className="transition-all duration-1000 ease-out"
               />
               <defs>
-                <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="hsl(43 82% 46%)" />
-                  <stop offset="100%" stopColor="hsl(38 90% 55%)" />
+                <linearGradient id="scoreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="hsl(43 82% 70%)" />
+                  <stop offset="100%" stopColor="white" />
                 </linearGradient>
               </defs>
             </svg>
             <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <span className={`text-4xl font-bold ${getScoreColor()}`}>
-                {score}%
-              </span>
-              <span className="text-sm text-muted-foreground">score</span>
+              <span className="text-5xl font-bold text-white">{scorePercent}%</span>
+              <span className="text-xs text-primary-foreground/70">score</span>
             </div>
           </div>
 
-          <p className="text-foreground text-lg leading-relaxed max-w-2xl mx-auto">
-            {level.description}
-          </p>
-        </div>
+          <p className="text-primary-foreground/80 text-lg max-w-xl mx-auto mb-8">{level.description}</p>
 
-        {/* Stats rápidos */}
-        <div className="grid grid-cols-3 gap-4 mb-6">
-          <div className="bg-secondary/50 rounded-xl p-4 text-center">
-            <Trophy className="w-6 h-6 text-accent mx-auto mb-2" />
-            <span className="text-sm text-muted-foreground">Level</span>
-            <p className="font-semibold text-foreground text-sm">{level.title.split(" ").slice(-1)}</p>
+          {/* Quick stats */}
+          <div className="grid grid-cols-3 gap-3 max-w-sm mx-auto mb-8">
+            {[
+              { icon: Trophy, label: "Level", value: level.title.split(" ").slice(-1)[0] },
+              { icon: Target, label: "Questions", value: "30/30" },
+              { icon: BookOpen, label: "Points", value: `${Math.round(scorePercent * 0.9)}/90` },
+            ].map(({ icon: Icon, label, value }) => (
+              <div key={label} className="bg-white/10 rounded-xl p-3">
+                <Icon className="w-5 h-5 mx-auto mb-1 text-primary-foreground/70" />
+                <p className="text-xs text-primary-foreground/60">{label}</p>
+                <p className="font-bold text-sm">{value}</p>
+              </div>
+            ))}
           </div>
-          <div className="bg-secondary/50 rounded-xl p-4 text-center">
-            <Target className="w-6 h-6 text-primary mx-auto mb-2" />
-            <span className="text-sm text-muted-foreground">Questions</span>
-            <p className="font-semibold text-foreground">30/30</p>
-          </div>
-          <div className="bg-secondary/50 rounded-xl p-4 text-center">
-            <BookOpen className="w-6 h-6 text-accent mx-auto mb-2" />
-            <span className="text-sm text-muted-foreground">Points</span>
-            <p className="font-semibold text-foreground">{Math.round(score * 0.9)}/90</p>
-          </div>
+
+          {/* Primary CTA — above the fold */}
+          <Button
+            onClick={handleDownloadGuide}
+            className="h-14 px-10 bg-white text-primary hover:bg-white/90 font-bold text-lg shadow-xl w-full sm:w-auto"
+          >
+            <Download className="w-5 h-5 mr-2" />
+            Download My Personalized Guide (PDF)
+          </Button>
+          <p className="text-xs text-primary-foreground/50 mt-3">10-page guide · Instant download · Made for {firstName}</p>
         </div>
       </div>
 
-      {/* CITAÇÃO DO SANTO - NOVO */}
-      <div className="bg-gradient-to-br from-primary/10 via-accent/5 to-primary/10 rounded-2xl p-6 md:p-8 border border-primary/20 mb-6 relative overflow-hidden">
-        <div className="absolute top-4 right-4 text-6xl text-primary/10">
-          <Quote className="w-16 h-16" />
-        </div>
-        <div className="relative z-10">
-          <div className="flex items-center gap-3 mb-4">
-            <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
-              <Crown className="w-6 h-6 text-primary" />
-            </div>
-            <div>
-              <h3 className="font-display text-lg text-primary">Word from a Saint for You</h3>
-              <p className="text-sm text-muted-foreground">{santoCitacao.santo}</p>
-            </div>
-          </div>
-          <blockquote className="text-xl italic text-foreground mb-4 leading-relaxed">
-            "{santoCitacao.citacao}"
-          </blockquote>
-          <p className="text-muted-foreground text-sm bg-background/50 rounded-lg p-3">
-            💡 {santoCitacao.reflexao}
-          </p>
-        </div>
-      </div>
-
-      {/* DIAGNÓSTICO COMPLETO */}
-      <div className="bg-card rounded-2xl shadow-sacred p-6 md:p-8 border border-border/50 mb-6">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 rounded-xl bg-gold-gradient flex items-center justify-center">
-            <Target className="w-6 h-6 text-accent-foreground" />
+      {/* ── 2. SAINT QUOTE ── */}
+      <div className="bg-gradient-to-br from-primary/10 via-accent/5 to-primary/10 rounded-2xl p-6 border border-primary/20 mb-6 relative overflow-hidden">
+        <Quote className="absolute top-4 right-4 w-14 h-14 text-primary/10" />
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+            <Crown className="w-5 h-5 text-primary" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Complete Assessment</h3>
-            <p className="text-sm text-muted-foreground">Detailed evaluation of your Catholic life</p>
+            <p className="font-semibold text-primary text-sm">Word from a Saint for You</p>
+            <p className="text-xs text-muted-foreground">{santoCitacao.santo}</p>
+          </div>
+        </div>
+        <blockquote className="text-lg italic text-foreground mb-3 leading-relaxed">"{santoCitacao.citacao}"</blockquote>
+        <p className="text-sm text-muted-foreground bg-background/50 rounded-lg p-3">💡 {santoCitacao.reflexao}</p>
+      </div>
+
+      {/* ── 3. AREA BREAKDOWN ── */}
+      <div className="bg-card rounded-2xl p-6 border border-border/50 mb-6">
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-10 h-10 rounded-xl bg-accent/20 flex items-center justify-center">
+            <Target className="w-5 h-5 text-accent" />
+          </div>
+          <div>
+            <h3 className="font-display text-lg text-primary">Complete Assessment</h3>
+            <p className="text-sm text-muted-foreground">Your 5 spiritual areas</p>
           </div>
         </div>
 
-        {/* Barras de progresso por área */}
-        <div className="space-y-4 mb-8">
+        {/* Progress bars */}
+        <div className="space-y-4 mb-6">
           {areas.map((area) => (
             <div key={area.key}>
-              <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center justify-between mb-1.5">
                 <div className="flex items-center gap-2">
                   <area.icon className="w-4 h-4 text-primary" />
                   <span className="text-sm font-medium text-foreground">{area.label}</span>
                 </div>
-                <span className="text-sm font-bold text-foreground">{area.score}%</span>
+                <span className={`text-sm font-bold ${area.score >= 70 ? "text-green-600" : area.score >= 40 ? "text-accent" : "text-primary"}`}>
+                  {area.score}%
+                </span>
               </div>
-              <div className="h-3 bg-secondary rounded-full overflow-hidden">
+              <div className="h-2.5 bg-secondary rounded-full overflow-hidden">
                 <div
                   className={`h-full rounded-full transition-all duration-1000 ease-out ${getAreaColor(area.score)}`}
                   style={{ width: `${area.score}%` }}
@@ -526,100 +493,98 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           ))}
         </div>
 
-        {/* Diagnósticos detalhados */}
-        <div className="space-y-4">
-          {areas.map((area) => (
-            <div key={area.key} className="bg-secondary/30 rounded-xl p-4">
+        {/* Detailed diagnostics — alternating background */}
+        <div className="space-y-3">
+          {areas.map((area, i) => (
+            <div key={area.key} className={`rounded-xl p-4 ${i % 2 === 0 ? "bg-secondary/30" : "bg-primary/5"}`}>
               <div className="flex items-center gap-2 mb-2">
-                <area.icon className="w-5 h-5 text-accent" />
-                <h4 className="font-semibold text-foreground">{area.label}</h4>
+                <area.icon className="w-4 h-4 text-accent" />
+                <h4 className="font-semibold text-foreground text-sm">{area.label}</h4>
+                <span className={`ml-auto text-xs px-2 py-0.5 rounded-full font-medium ${
+                  area.score >= 70 ? "bg-green-100 text-green-700" :
+                  area.score >= 40 ? "bg-amber-100 text-amber-700" :
+                  "bg-red-100 text-red-700"
+                }`}>
+                  {area.score >= 70 ? "Strong" : area.score >= 40 ? "Growing" : "Needs attention"}
+                </span>
               </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {getDiagnostico(area.key, area.score, userName)}
-              </p>
+              <p className="text-sm text-muted-foreground leading-relaxed">{getDiagnostico(area.key, area.score, userName)}</p>
             </div>
           ))}
         </div>
       </div>
 
-      {/* SANTO PROTETOR - NOVO */}
-      <div className="bg-card rounded-2xl shadow-sacred p-6 md:p-8 border border-border/50 mb-6">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 rounded-xl bg-primary flex items-center justify-center">
-            <Shield className="w-6 h-6 text-primary-foreground" />
+      {/* ── 4. PATRON SAINT ── */}
+      <div className="bg-card rounded-2xl p-6 border border-border/50 mb-6">
+        <div className="flex items-center gap-3 mb-5">
+          <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
+            <Shield className="w-5 h-5 text-primary-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Your Patron Saint</h3>
+            <h3 className="font-display text-lg text-primary">Your Patron Saint</h3>
             <p className="text-sm text-muted-foreground">Special intercessor for your journey</p>
           </div>
         </div>
-
-        <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl p-6 text-center mb-4">
-          <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-accent/20 flex items-center justify-center">
-            <Users className="w-10 h-10 text-accent" />
+        <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl p-5 text-center mb-4">
+          <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-accent/20 flex items-center justify-center">
+            <Users className="w-8 h-8 text-accent" />
           </div>
-          <h4 className="font-display text-2xl text-primary mb-1">{santoProtetor.nome}</h4>
-          <p className="text-accent font-medium">{santoProtetor.titulo}</p>
+          <h4 className="font-display text-xl text-primary mb-0.5">{santoProtetor.nome}</h4>
+          <p className="text-accent text-sm font-medium">{santoProtetor.titulo}</p>
         </div>
-
         <div className="bg-secondary/30 rounded-xl p-4">
-          <h5 className="font-semibold text-foreground mb-2 flex items-center gap-2">
-            <Cross className="w-4 h-4 text-primary" />
-            Prayer to your Patron Saint
-          </h5>
-          <p className="text-muted-foreground italic leading-relaxed">
-            {santoProtetor.oracao}
+          <p className="text-xs font-semibold text-foreground mb-2 flex items-center gap-1">
+            <Cross className="w-3 h-3 text-primary" /> Prayer to your Patron Saint
           </p>
+          <p className="text-sm text-muted-foreground italic leading-relaxed">{santoProtetor.oracao}</p>
         </div>
       </div>
 
-      {/* VIRTUDES A DESENVOLVER - NOVO */}
-      <div className="bg-card rounded-2xl shadow-sacred p-6 md:p-8 border border-border/50 mb-6">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center">
-            <Flame className="w-6 h-6 text-accent-foreground" />
+      {/* ── 5. VIRTUES ── */}
+      <div className="bg-card rounded-2xl p-6 border border-border/50 mb-6">
+        <div className="flex items-center gap-3 mb-5">
+          <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center">
+            <Flame className="w-5 h-5 text-accent-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Virtues to Develop</h3>
+            <h3 className="font-display text-lg text-primary">Virtues to Develop</h3>
             <p className="text-sm text-muted-foreground">Focus for your spiritual growth</p>
           </div>
         </div>
-
         <div className="grid md:grid-cols-3 gap-4">
-          {virtudes.map((virtude, index) => (
-            <div key={index} className="bg-secondary/30 rounded-xl p-4 text-center">
-              <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-accent/20 flex items-center justify-center">
-                <Star className="w-6 h-6 text-accent" />
+          {virtudes.map((virtude, i) => (
+            <div key={i} className="bg-secondary/30 rounded-xl p-4 text-center">
+              <div className="w-10 h-10 mx-auto mb-2 rounded-full bg-accent/20 flex items-center justify-center">
+                <Star className="w-5 h-5 text-accent" />
               </div>
-              <h4 className="font-semibold text-foreground mb-1">{virtude.nome}</h4>
-              <p className="text-sm text-muted-foreground">{virtude.descricao}</p>
+              <h4 className="font-semibold text-foreground text-sm mb-1">{virtude.nome}</h4>
+              <p className="text-xs text-muted-foreground">{virtude.descricao}</p>
             </div>
           ))}
         </div>
       </div>
 
-      {/* PLANO DE 7 DIAS - NOVO */}
-      <div className="bg-card rounded-2xl shadow-sacred p-6 md:p-8 border border-border/50 mb-6">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 rounded-xl bg-green-600 flex items-center justify-center">
-            <Calendar className="w-6 h-6 text-white" />
+      {/* ── 6. 7-DAY PLAN ── */}
+      <div className="bg-card rounded-2xl p-6 border border-border/50 mb-6">
+        <div className="flex items-center gap-3 mb-5">
+          <div className="w-10 h-10 rounded-xl bg-green-600 flex items-center justify-center">
+            <Calendar className="w-5 h-5 text-white" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">7-Day Plan for {firstName}</h3>
+            <h3 className="font-display text-lg text-primary">7-Day Plan for {firstName}</h3>
             <p className="text-sm text-muted-foreground">Personalized challenge to strengthen your faith</p>
           </div>
         </div>
-
-        <div className="space-y-3">
-          {plano7Dias.map((dia, index) => (
-            <div key={index} className="flex items-center gap-4 bg-secondary/30 rounded-xl p-4">
-              <div className="w-16 h-16 rounded-xl bg-primary/10 flex flex-col items-center justify-center shrink-0">
-                <span className="text-xs text-muted-foreground uppercase">Day</span>
-                <span className="text-2xl font-bold text-primary">{index + 1}</span>
+        <div className="space-y-2">
+          {plano7Dias.map((dia, i) => (
+            <div key={i} className={`flex items-center gap-4 rounded-xl p-3 ${i % 2 === 0 ? "bg-secondary/30" : "bg-green-50"}`}>
+              <div className="w-12 h-12 rounded-xl bg-primary/10 flex flex-col items-center justify-center flex-shrink-0">
+                <span className="text-xs text-muted-foreground">Day</span>
+                <span className="text-xl font-bold text-primary">{i + 1}</span>
               </div>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="font-semibold text-foreground">{dia.dia}</span>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 mb-0.5">
+                  <span className="font-semibold text-foreground text-sm">{dia.dia}</span>
                   <span className="text-xs bg-accent/20 text-accent px-2 py-0.5 rounded-full">{dia.tempo}</span>
                 </div>
                 <p className="text-sm text-muted-foreground">{dia.acao}</p>
@@ -629,147 +594,79 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         </div>
       </div>
 
-      {/* VERSÍCULO PERSONALIZADO - NOVO */}
-      <div className="bg-gradient-to-r from-accent/20 to-primary/20 rounded-2xl p-6 md:p-8 border border-accent/30 mb-6">
+      {/* ── 7. BIBLE VERSE ── */}
+      <div className="bg-gradient-to-r from-accent/20 to-primary/20 rounded-2xl p-6 border border-accent/30 mb-6">
         <div className="flex items-center gap-3 mb-4">
-          <div className="w-12 h-12 rounded-xl bg-accent flex items-center justify-center">
-            <Scroll className="w-6 h-6 text-accent-foreground" />
+          <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center">
+            <Scroll className="w-5 h-5 text-accent-foreground" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">God's Word for You</h3>
+            <h3 className="font-display text-lg text-primary">God's Word for You</h3>
             <p className="text-sm text-muted-foreground">Verse to meditate on this week</p>
           </div>
         </div>
-
-        <div className="bg-background/50 rounded-xl p-6 text-center">
-          <Cross className="w-10 h-10 text-primary mx-auto mb-4" />
-          <blockquote className="text-xl italic text-foreground mb-3 leading-relaxed">
-            "{versiculoPersonalizado.texto}"
-          </blockquote>
-          <cite className="text-accent font-semibold">— {versiculoPersonalizado.referencia}</cite>
+        <div className="bg-background/60 rounded-xl p-5 text-center">
+          <Cross className="w-8 h-8 text-primary mx-auto mb-3" />
+          <blockquote className="text-lg italic text-foreground mb-2 leading-relaxed">"{versiculoPersonalizado.texto}"</blockquote>
+          <cite className="text-accent font-semibold text-sm">— {versiculoPersonalizado.referencia}</cite>
         </div>
       </div>
 
-      {/* CLASSIFICAÇÃO PERSONALIZADA */}
-      <div className="bg-card rounded-2xl shadow-sacred p-6 md:p-8 border border-border/50 mb-6">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 rounded-xl bg-blue-gradient flex items-center justify-center">
-            <Star className="w-6 h-6 text-primary-foreground" />
+      {/* ── 8. RECOMMENDATIONS + PRAYERS ── */}
+      <div className="bg-card rounded-2xl p-6 border border-border/50 mb-6">
+        <div className="flex items-center gap-3 mb-5">
+          <div className="w-10 h-10 rounded-xl bg-accent/20 flex items-center justify-center">
+            <Sparkles className="w-5 h-5 text-accent" />
           </div>
           <div>
-            <h3 className="font-display text-xl text-primary">Personalized Classification</h3>
-            <p className="text-sm text-muted-foreground">Your level on the faith journey</p>
+            <h3 className="font-display text-lg text-primary">Your Spiritual Growth Plan</h3>
+            <p className="text-sm text-muted-foreground">Recommendations and prayers for your level</p>
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-xl p-6 mb-6">
-          <div className="text-center">
-            <span className="text-5xl mb-3 block">{level.emoji}</span>
-            <h4 className="font-display text-2xl text-primary mb-2">{level.title}</h4>
-            <p className="text-muted-foreground">{firstName}, you are at this level:</p>
-          </div>
-        </div>
+        <h4 className="font-semibold text-foreground text-sm mb-3">Recommendations</h4>
+        <ul className="space-y-2 mb-6">
+          {recomendacoes.map((rec, i) => (
+            <li key={i} className="flex items-start gap-3 bg-secondary/30 rounded-lg p-3">
+              <span className="w-5 h-5 rounded-full bg-accent text-accent-foreground flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">{i + 1}</span>
+              <span className="text-sm text-foreground">{rec}</span>
+            </li>
+          ))}
+        </ul>
 
-        {/* Visual scale of levels */}
-        <div className="space-y-2 mb-6">
-          {[
-            { title: "Exemplary Practicing Catholic", min: 90, emoji: "🏆" },
-            { title: "Committed Catholic", min: 75, emoji: "⭐" },
-            { title: "Growing Catholic", min: 60, emoji: "🌱" },
-            { title: "Seeking Catholic", min: 40, emoji: "🔍" },
-            { title: "Distant Catholic", min: 20, emoji: "🏠" },
-            { title: "Beginning of the Journey", min: 0, emoji: "✨" },
-          ].map((lvl) => (
-            <div
-              key={lvl.title}
-              className={`flex items-center gap-3 p-3 rounded-lg transition-all ${
-                level.title === lvl.title
-                  ? "bg-gold-gradient text-accent-foreground"
-                  : "bg-secondary/30 text-muted-foreground"
-              }`}
-            >
-              <span className="text-xl">{lvl.emoji}</span>
-              <span className={`flex-1 ${level.title === lvl.title ? "font-semibold" : ""}`}>
-                {lvl.title}
-              </span>
-              <span className="text-sm">{lvl.min}%+</span>
+        <h4 className="font-semibold text-foreground text-sm mb-3">Suggested Prayers</h4>
+        <div className="grid md:grid-cols-2 gap-2">
+          {oracoes.map((oracao, i) => (
+            <div key={i} className="flex items-center gap-2 bg-primary/5 rounded-lg p-3">
+              <Heart className="w-4 h-4 text-accent flex-shrink-0" />
+              <span className="text-sm text-foreground">{oracao}</span>
             </div>
           ))}
         </div>
       </div>
 
-      {/* GUIA EXCLUSIVO */}
-      <div className="bg-card rounded-2xl shadow-sacred p-6 md:p-8 border border-border/50 mb-6">
-        <div className="flex items-center gap-3 mb-6">
-          <div className="w-12 h-12 rounded-xl bg-gold-gradient flex items-center justify-center">
-            <BookOpen className="w-6 h-6 text-accent-foreground" />
+      {/* ── 9. DOWNLOAD CTA (repeated at bottom) ── */}
+      <div className="bg-gradient-to-br from-primary via-primary to-accent rounded-2xl p-6 md:p-8 mb-6 text-primary-foreground text-center relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-48 h-48 bg-white/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
+        <div className="relative z-10">
+          <div className="w-14 h-14 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
+            <Download className="w-7 h-7" />
           </div>
-          <div>
-            <h3 className="font-display text-xl text-primary">Exclusive Guide for {firstName}</h3>
-            <p className="text-sm text-muted-foreground">Personalized prayers and recommendations</p>
-          </div>
-        </div>
-
-        {/* Practical recommendations */}
-        <div className="mb-8">
-          <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
-            <Sparkles className="w-5 h-5 text-accent" />
-            Recommendations for your spiritual growth
-          </h4>
-          <ul className="space-y-3">
-            {recomendacoes.map((rec, index) => (
-              <li key={index} className="flex items-start gap-3 bg-secondary/30 rounded-lg p-3">
-                <span className="w-6 h-6 rounded-full bg-accent text-accent-foreground flex items-center justify-center text-sm font-bold shrink-0">
-                  {index + 1}
-                </span>
-                <span className="text-foreground">{rec}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Suggested prayers */}
-        <div className="mb-8">
-          <h4 className="font-semibold text-foreground mb-4 flex items-center gap-2">
-            <Cross className="w-5 h-5 text-primary" />
-            Suggested prayers for your level
-          </h4>
-          <div className="grid md:grid-cols-2 gap-3">
-            {oracoes.map((oracao, index) => (
-              <div key={index} className="flex items-center gap-3 bg-primary/5 rounded-lg p-3">
-                <Heart className="w-4 h-4 text-accent shrink-0" />
-                <span className="text-foreground text-sm">{oracao}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* CTA - Download PDF Guide */}
-      <div className="bg-gradient-to-br from-primary via-primary to-accent rounded-2xl p-6 md:p-8 mb-6 text-primary-foreground relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
-        <div className="relative z-10 text-center">
-          <div className="w-16 h-16 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
-            <Download className="w-8 h-8" />
-          </div>
-          <h4 className="font-display text-2xl mb-2">
-            Download the Complete Catholic Life Guide
-          </h4>
-          <p className="text-primary-foreground/80 mb-6 max-w-lg mx-auto">
-            Exclusive 10-page PDF with daily prayers, devotions, Church teachings and much more to deepen your faith.
+          <h4 className="font-display text-xl mb-2">Download the Complete Catholic Life Guide</h4>
+          <p className="text-primary-foreground/70 text-sm mb-5 max-w-md mx-auto">
+            10-page PDF with daily prayers, devotions, Church teachings and your personalized plan.
           </p>
-          
           <Button
             onClick={handleDownloadGuide}
-            className="h-12 sm:h-14 px-6 sm:px-10 bg-white text-primary hover:bg-white/90 font-semibold text-base sm:text-lg shadow-lg transition-all duration-300 w-full sm:w-auto"
+            className="h-12 px-8 bg-white text-primary hover:bg-white/90 font-bold shadow-lg w-full sm:w-auto"
           >
-            <Download className="w-5 h-5 mr-2 shrink-0" />
-            <span className="truncate">Download Guide (PDF)</span>
+            <Download className="w-4 h-4 mr-2" />
+            Download Guide (PDF)
           </Button>
         </div>
       </div>
 
-      {/* Secondary actions */}
+      {/* ── 10. SECONDARY ACTIONS ── */}
       <div className="flex flex-col sm:flex-row gap-3 mb-6">
         <Button
           onClick={handleShare}
@@ -777,32 +674,30 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
           className="flex-1 h-12 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
         >
           <Share2 className="w-4 h-4 mr-2" />
-          Share Result
+          Share with Friends
         </Button>
         <Button
           onClick={onRestart}
-          variant="outline"
-          className="flex-1 h-12 border-border text-foreground hover:bg-secondary"
+          variant="ghost"
+          className="flex-1 h-12 text-muted-foreground hover:text-foreground"
         >
           <RotateCcw className="w-4 h-4 mr-2" />
           Retake Quiz
         </Button>
       </div>
 
-      {/* Final card - Evangelization invitation */}
+      {/* ── 11. EVANGELIZATION ── */}
       <div className="bg-primary text-primary-foreground rounded-2xl p-6 text-center">
-        <h4 className="font-display text-xl mb-2">Share the Faith with Your Friends!</h4>
-        <p className="text-primary-foreground/80 text-sm mb-4">
-          Help your friends and colleagues discover how their Catholic life is going. Share this quiz and evangelize through your witness!
+        <h4 className="font-display text-lg mb-2">Share the Faith with Your Friends!</h4>
+        <p className="text-primary-foreground/70 text-sm mb-4">
+          Help your friends discover how their Catholic life is going. Share this quiz and evangelize through your witness!
         </p>
-        <Button
-          onClick={handleShare}
-          className="bg-accent text-accent-foreground hover:bg-accent/90"
-        >
+        <Button onClick={handleShare} className="bg-accent text-accent-foreground hover:bg-accent/90">
           <Share2 className="w-4 h-4 mr-2" />
-          Share Site
+          Share guidecatholic.com
         </Button>
       </div>
+
     </div>
   );
 }
