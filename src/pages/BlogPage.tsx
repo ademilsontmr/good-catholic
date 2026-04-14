@@ -343,6 +343,66 @@ export const blogPosts: BlogPost[] = [
     icon: HeartPulse,
     bgColor: "bg-rose-50",
     iconColor: "text-rose-400"
+  },
+  {
+    id: 28,
+    slug: "divine-mercy-chaplet",
+    title: "How to Pray the Divine Mercy Chaplet: Complete Guide",
+    excerpt: "Learn how to pray the Divine Mercy Chaplet step by step. Complete guide with prayers, history, and the significance of the 3pm Hour of Mercy as revealed to St. Faustina.",
+    date: "2026-04-14",
+    readTime: "9 min",
+    category: "Prayers",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 29,
+    slug: "act-of-contrition",
+    title: "The Act of Contrition: Full Text, Meaning and How to Pray It",
+    excerpt: "Discover the full text of the Act of Contrition, its meaning, history, and how to pray it before Confession. Essential Catholic prayer for forgiveness and reconciliation.",
+    date: "2026-04-14",
+    readTime: "8 min",
+    category: "Prayers",
+    icon: BookOpen,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
+  },
+  {
+    id: 30,
+    slug: "morning-offering-prayer",
+    title: "Morning Offering Prayer: How to Start Your Day with God",
+    excerpt: "Learn the Catholic Morning Offering prayer and how to consecrate your entire day to God. Discover different versions, the history, and practical tips for making this a daily habit.",
+    date: "2026-04-14",
+    readTime: "7 min",
+    category: "Prayers",
+    icon: Sun,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 31,
+    slug: "prayer-to-st-joseph",
+    title: "Prayer to St. Joseph: Powerful Intercession for Families and Workers",
+    excerpt: "Discover powerful prayers to St. Joseph for families, workers, and those in need. Learn about his role as patron saint and how to seek his intercession in your daily life.",
+    date: "2026-04-14",
+    readTime: "9 min",
+    category: "Prayers",
+    icon: Users,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 32,
+    slug: "the-memorare-prayer",
+    title: "The Memorare: History, Full Text and How to Pray This Powerful Prayer",
+    excerpt: "Learn the full text of the Memorare prayer, its history, meaning, and how to pray it. Discover why this ancient prayer to the Virgin Mary has comforted Catholics for centuries.",
+    date: "2026-04-14",
+    readTime: "8 min",
+    category: "Prayers",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
   }
 ];
 

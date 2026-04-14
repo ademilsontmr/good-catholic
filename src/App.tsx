@@ -40,6 +40,11 @@ import PrayersOfHope2026 from "./pages/blog/PrayersOfHope2026";
 import LocalPilgrimage from "./pages/blog/LocalPilgrimage";
 import FaithMentalHealth from "./pages/blog/FaithMentalHealth";
 // Prayer Articles
+import DivineMercyChaplet from "./pages/blog/DivineMercyChaplet";
+import ActOfContrition from "./pages/blog/ActOfContrition";
+import MorningOfferingPrayer from "./pages/blog/MorningOfferingPrayer";
+import PrayerToStJoseph from "./pages/blog/PrayerToStJoseph";
+import TheMemorarePrayer from "./pages/blog/TheMemorarePrayer";
 // Novena Articles
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -98,6 +103,11 @@ const App = () => (
             <Route path="/blog/prayers-of-hope-2026/" element={<PrayersOfHope2026 />} />
             <Route path="/blog/local-pilgrimage/" element={<LocalPilgrimage />} />
             <Route path="/blog/faith-mental-health/" element={<FaithMentalHealth />} />
+            <Route path="/blog/divine-mercy-chaplet/" element={<DivineMercyChaplet />} />
+            <Route path="/blog/act-of-contrition/" element={<ActOfContrition />} />
+            <Route path="/blog/morning-offering-prayer/" element={<MorningOfferingPrayer />} />
+            <Route path="/blog/prayer-to-st-joseph/" element={<PrayerToStJoseph />} />
+            <Route path="/blog/the-memorare-prayer/" element={<TheMemorarePrayer />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
