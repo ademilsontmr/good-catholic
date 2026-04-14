@@ -69,6 +69,12 @@ import SaintThereseOfLisieux from "./pages/blog/SaintThereseOfLisieux";
 import BlessedCarloAcutis from "./pages/blog/BlessedCarloAcutis";
 import SaintMichaelArchangel from "./pages/blog/SaintMichaelArchangel";
 import SaintAnthonyOfPadua from "./pages/blog/SaintAnthonyOfPadua";
+// Catholic Life Articles Batch 6
+import HowToPrayAngelus from "./pages/blog/HowToPrayAngelus";
+import WhatIsAdvent from "./pages/blog/WhatIsAdvent";
+import WhatIsHolyWeek from "./pages/blog/WhatIsHolyWeek";
+import CatholicGraceBeforeMeals from "./pages/blog/CatholicGraceBeforeMeals";
+import SpiritualCommunion from "./pages/blog/SpiritualCommunion";
 // Novena Articles
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -152,6 +158,11 @@ const App = () => (
             <Route path="/blog/blessed-carlo-acutis/" element={<BlessedCarloAcutis />} />
             <Route path="/blog/saint-michael-archangel/" element={<SaintMichaelArchangel />} />
             <Route path="/blog/saint-anthony-of-padua/" element={<SaintAnthonyOfPadua />} />
+            <Route path="/blog/how-to-pray-the-angelus/" element={<HowToPrayAngelus />} />
+            <Route path="/blog/what-is-advent-catholic/" element={<WhatIsAdvent />} />
+            <Route path="/blog/what-is-holy-week-catholic/" element={<WhatIsHolyWeek />} />
+            <Route path="/blog/catholic-grace-before-meals/" element={<CatholicGraceBeforeMeals />} />
+            <Route path="/blog/how-to-make-spiritual-communion/" element={<SpiritualCommunion />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

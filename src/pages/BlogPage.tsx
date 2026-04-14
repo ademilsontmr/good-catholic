@@ -643,6 +643,66 @@ export const blogPosts: BlogPost[] = [
     icon: BookOpen,
     bgColor: "bg-emerald-100",
     iconColor: "text-emerald-400"
+  },
+  {
+    id: 53,
+    slug: "how-to-pray-the-angelus",
+    title: "How to Pray the Angelus: The Catholic Prayer for 6am, Noon, and 6pm",
+    excerpt: "Learn how to pray the Angelus, the ancient Catholic prayer prayed three times a day. Full text, history, the Regina Caeli, and tips for families.",
+    date: "2026-04-14",
+    readTime: "10 min",
+    category: "Prayers",
+    icon: Sun,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 54,
+    slug: "what-is-advent-catholic",
+    title: "What Is Advent? The Catholic Season of Waiting and Preparation",
+    excerpt: "What is Advent? Learn about the Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent spiritually as a family.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Liturgy",
+    icon: Wind,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-400"
+  },
+  {
+    id: 55,
+    slug: "what-is-holy-week-catholic",
+    title: "What Is Holy Week? A Complete Guide to the Most Sacred Week of the Year",
+    excerpt: "Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil. Learn how to participate fully in each day of Holy Week.",
+    date: "2026-04-14",
+    readTime: "13 min",
+    category: "Liturgy",
+    icon: Cross,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 56,
+    slug: "catholic-grace-before-meals",
+    title: "Catholic Grace Before Meals: Traditional and Modern Prayers",
+    excerpt: "Learn the traditional Catholic grace before meals — 'Bless us, O Lord' — plus other versions, the theology of blessing food, grace after meals, and tips for family mealtime prayer.",
+    date: "2026-04-14",
+    readTime: "9 min",
+    category: "Prayers",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 57,
+    slug: "how-to-make-spiritual-communion",
+    title: "How to Make a Spiritual Communion: The Prayer and Its Meaning",
+    excerpt: "Learn what spiritual communion is, the traditional prayer of St. Alphonsus Liguori, when to make it, and its theological meaning for Catholics who cannot receive the Eucharist.",
+    date: "2026-04-14",
+    readTime: "10 min",
+    category: "Prayer",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
   }
 ];
 
