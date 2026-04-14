@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate, useLocation, useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { QuizHeader } from "@/components/quiz/QuizHeader";
 import { ResultScreen } from "@/components/quiz/ResultScreen";
@@ -13,29 +13,35 @@ const ResultadoPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const [loading, setLoading] = useState(true);
   const [sessionData, setSessionData] = useState<QuizSessionData | null>(null);
   const [paymentVerified, setPaymentVerified] = useState(false);
 
   useEffect(() => {
-    // 1. Check for Stripe redirect — look for pending session in localStorage
-    const pendingSessionId = localStorage.getItem("gc_pending_session");
+    const sessions = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
 
-    if (pendingSessionId) {
-      const sessions = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
-      const data: QuizSessionData = sessions[pendingSessionId];
-
-      if (data) {
-        // Clear pending flag
-        localStorage.removeItem("gc_pending_session");
-        setSessionData(data);
-        setPaymentVerified(true);
-        setLoading(false);
-        return;
-      }
+    // 1. PRIMARY: session ID in URL ?sid=xxx (most reliable — works across tabs/devices)
+    const sidFromUrl = searchParams.get("sid");
+    if (sidFromUrl && sessions[sidFromUrl]) {
+      setSessionData(sessions[sidFromUrl]);
+      setPaymentVerified(true);
+      setLoading(false);
+      window.history.replaceState({}, "", "/result/");
+      return;
     }
 
-    // 2. Check for direct navigation with location state (dev/test mode)
+    // 2. FALLBACK: pending session in localStorage (same tab/browser)
+    const pendingSessionId = localStorage.getItem("gc_pending_session");
+    if (pendingSessionId && sessions[pendingSessionId]) {
+      localStorage.removeItem("gc_pending_session");
+      setSessionData(sessions[pendingSessionId]);
+      setPaymentVerified(true);
+      setLoading(false);
+      return;
+    }
+
+    // 3. DEV/TEST: direct navigation with location state
     const locationState = location.state as (QuizSessionData & { localMode?: boolean }) | null;
     if (locationState?.localMode && locationState.score !== undefined) {
       setSessionData({
@@ -50,7 +56,7 @@ const ResultadoPage = () => {
       return;
     }
 
-    // 3. No valid session — redirect to quiz
+    // 4. No valid session
     navigate("/quiz", { replace: true });
   }, []);
 

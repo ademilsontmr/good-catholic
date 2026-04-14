@@ -74,8 +74,10 @@ export default function GetResultPage() {
     // Save session ID separately so ResultadoPage can find it on return
     localStorage.setItem("gc_pending_session", sessionId);
 
-    // Redirect to Stripe Payment Link
-    window.location.href = STRIPE_PAYMENT_LINK;
+    // Build Stripe URL — pass sessionId as query param
+    // Stripe Payment Links inject query params into the confirmation page redirect
+    const stripeUrl = `${STRIPE_PAYMENT_LINK}?sid=${sessionId}`;
+    window.location.href = stripeUrl;
   };
 
   return (
