@@ -57,6 +57,12 @@ import DoCatholicsWorshipMary from "./pages/blog/DoCatholicsWorshipMary";
 import CatholicVsProtestant from "./pages/blog/CatholicVsProtestant";
 import WhatIsTheMassGuide from "./pages/blog/WhatIsTheMassGuide";
 import IsTheCatholicChurchTrue from "./pages/blog/IsTheCatholicChurchTrue";
+// Spiritual Life Articles Batch 4
+import DailyPrayerRoutine from "./pages/blog/DailyPrayerRoutine";
+import LectioDivinaGuideExpanded from "./pages/blog/LectioDivinaGuideExpanded";
+import RosaryCompleteGuide from "./pages/blog/RosaryCompleteGuide";
+import ExaminationOfConscienceGuide from "./pages/blog/ExaminationOfConscienceGuide";
+import CatholicFastingRules from "./pages/blog/CatholicFastingRules";
 // Novena Articles
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -130,6 +136,11 @@ const App = () => (
             <Route path="/blog/catholic-vs-protestant-differences/" element={<CatholicVsProtestant />} />
             <Route path="/blog/what-is-the-catholic-mass/" element={<WhatIsTheMassGuide />} />
             <Route path="/blog/is-the-catholic-church-the-true-church/" element={<IsTheCatholicChurchTrue />} />
+            <Route path="/blog/catholic-daily-prayer-routine/" element={<DailyPrayerRoutine />} />
+            <Route path="/blog/lectio-divina-how-to-practice/" element={<LectioDivinaGuideExpanded />} />
+            <Route path="/blog/rosary-complete-guide/" element={<RosaryCompleteGuide />} />
+            <Route path="/blog/examination-of-conscience-guide/" element={<ExaminationOfConscienceGuide />} />
+            <Route path="/blog/catholic-fasting-rules/" element={<CatholicFastingRules />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

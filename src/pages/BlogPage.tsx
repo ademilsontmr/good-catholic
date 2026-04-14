@@ -523,6 +523,66 @@ export const blogPosts: BlogPost[] = [
     icon: Cross,
     bgColor: "bg-blue-100",
     iconColor: "text-blue-400"
+  },
+  {
+    id: 43,
+    slug: "catholic-daily-prayer-routine",
+    title: "Catholic Daily Prayer Routine: How to Build a Life of Prayer",
+    excerpt: "Learn how to build a Catholic daily prayer routine with morning offering, Angelus, Rosary, and night prayer. Practical tips from the saints and a sample weekly schedule.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Prayer",
+    icon: Sun,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 44,
+    slug: "lectio-divina-how-to-practice",
+    title: "Lectio Divina: How to Pray with Scripture Step by Step",
+    excerpt: "Learn how to practice Lectio Divina step by step. Complete guide covering the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Prayer",
+    icon: BookOpen,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
+  {
+    id: 45,
+    slug: "rosary-complete-guide",
+    title: "The Holy Rosary: Complete Guide with All 20 Mysteries",
+    excerpt: "Complete guide to the Holy Rosary with all 20 mysteries and meditations, step-by-step instructions, all prayers, spiritual benefits, and tips for praying with devotion.",
+    date: "2026-04-14",
+    readTime: "15 min",
+    category: "Prayers",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 46,
+    slug: "examination-of-conscience-guide",
+    title: "How to Make an Examination of Conscience: Complete Catholic Guide",
+    excerpt: "Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Spirituality",
+    icon: BookOpen,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
+  },
+  {
+    id: 47,
+    slug: "catholic-fasting-rules",
+    title: "Catholic Fasting Rules: What the Church Requires and Why It Matters",
+    excerpt: "Learn the Catholic Church's fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent. Who is bound, fasting vs abstinence, the Eucharistic fast, and tips for beginners.",
+    date: "2026-04-14",
+    readTime: "10 min",
+    category: "Spirituality",
+    icon: Flame,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-400"
   }
 ];
 

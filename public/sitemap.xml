@@ -297,6 +297,37 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Spiritual Life Articles Batch 4 -->
+  <url>
+    <loc>https://guidecatholic.com/blog/catholic-daily-prayer-routine/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/lectio-divina-how-to-practice/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/rosary-complete-guide/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/examination-of-conscience-guide/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/catholic-fasting-rules/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Prosperity Articles (Batch 4) -->
   <!-- Popular Search Articles (Batch 5) -->
   <!-- Seven Sacraments Articles (Batch 6) -->
