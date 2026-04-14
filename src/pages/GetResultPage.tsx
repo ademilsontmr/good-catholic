@@ -87,21 +87,61 @@ export default function GetResultPage() {
 
             {/* Score teaser */}
             <div className="bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 rounded-2xl p-6 mb-6 text-center">
-              <p className="text-sm text-text-muted uppercase tracking-wide font-medium mb-2">Your Assessment Score</p>
-              <div className="flex items-center justify-center gap-3 mb-3">
-                <div className="text-5xl font-display font-bold text-primary">{percent}%</div>
-                <div className="text-left">
-                  <div className="w-32 h-3 bg-border rounded-full overflow-hidden">
-                    <div
-                      className="h-full bg-accent rounded-full transition-all"
-                      style={{ width: `${percent}%` }}
-                    />
-                  </div>
-                  <p className="text-xs text-text-muted mt-1">out of 100%</p>
+              <p className="text-sm text-text-muted uppercase tracking-wide font-medium mb-4">Your Catholic Life Assessment Score</p>
+
+              {/* Circular score */}
+              <div className="relative w-36 h-36 mx-auto mb-4">
+                <svg className="w-full h-full -rotate-90" viewBox="0 0 120 120">
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="currentColor" strokeWidth="10" className="text-border" />
+                  <circle
+                    cx="60" cy="60" r="50" fill="none" stroke="currentColor" strokeWidth="10"
+                    strokeLinecap="round"
+                    strokeDasharray={`${2 * Math.PI * 50}`}
+                    strokeDashoffset={`${2 * Math.PI * 50 * (1 - percent / 100)}`}
+                    className="text-accent/30 transition-all duration-1000"
+                  />
+                </svg>
+                <div className="absolute inset-0 flex flex-col items-center justify-center">
+                  <span className="font-display text-4xl font-bold text-text blur-sm select-none">??%</span>
+                  <span className="text-xs text-text-muted">score</span>
                 </div>
               </div>
-              <p className="text-sm text-text-muted italic">{teaserMessage}</p>
-              <p className="text-xs text-accent font-medium mt-2">↓ Unlock your full breakdown below</p>
+
+              {/* Level badge */}
+              <div className={`inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-semibold mb-3 ${
+                isHigh ? "bg-green-100 text-green-700" :
+                isMid ? "bg-amber-100 text-amber-700" :
+                "bg-blue-100 text-blue-700"
+              }`}>
+                <span>{isHigh ? "🌟" : isMid ? "📈" : "🌱"}</span>
+                <span>{isHigh ? "Strong Foundation" : isMid ? "Growing Catholic" : "Beginning the Journey"}</span>
+              </div>
+
+              <p className="text-sm text-text-muted italic mb-3">{teaserMessage}</p>
+
+              {/* Blurred area breakdown teaser */}
+              <div className="mt-4 space-y-2 text-left">
+                {[
+                  { name: "Eucharistic Life", show: true },
+                  { name: "Prayer Life", show: false },
+                  { name: "Formation", show: false },
+                  { name: "Devotions", show: false },
+                  { name: "Christian Witness", show: false },
+                ].map((area, i) => (
+                  <div key={i} className="flex items-center gap-3">
+                    <span className="text-xs text-text-muted w-32 flex-shrink-0">{area.name}</span>
+                    <div className="flex-1 h-2 bg-border rounded-full overflow-hidden">
+                      <div className={`h-full rounded-full ${area.show ? "bg-accent" : "bg-accent/30 blur-sm"}`}
+                        style={{ width: area.show ? `${Math.min(100, Math.max(20, percent + (i * 7 - 14)))}%` : "100%" }}
+                      />
+                    </div>
+                    <span className={`text-xs font-bold w-8 text-right ${area.show ? "text-text" : "text-text-muted blur-sm select-none"}`}>
+                      {area.show ? `${Math.min(100, Math.max(20, percent + (i * 7 - 14)))}%` : "??%"}
+                    </span>
+                  </div>
+                ))}
+              </div>
+              <p className="text-xs text-accent font-semibold mt-3">🔒 Unlock your full breakdown below</p>
             </div>
 
             {/* Main card */}
