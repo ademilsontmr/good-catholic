@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guidecatholic.com/sitemap.xml
+
+# Guide Catholic - Catholic Life Assessment and Spiritual Growth
+# Publisher: Guide Catholic
+# Contact: contact@guidecatholic.com

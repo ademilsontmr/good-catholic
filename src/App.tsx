@@ -9,6 +9,7 @@ import QuizIntro from "./pages/QuizIntro";
 import QuizPage from "./pages/QuizPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import ResultadoPage from "./pages/ResultadoPage";
+import GetResultPage from "./pages/GetResultPage";
 import BlogPage from "./pages/BlogPage";
 import HowToPrayRosary from "./pages/blog/HowToPrayRosary";
 import SevenSacraments from "./pages/blog/SevenSacraments";
@@ -58,6 +59,7 @@ const App = () => (
             <Route path="/quiz-intro" element={<QuizIntro />} />
             <Route path="/quiz" element={<QuizPage />} />
             <Route path="/checkout" element={<CheckoutPage />} />
+            <Route path="/get-result" element={<GetResultPage />} />
             <Route path="/result" element={<ResultadoPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/page/:page" element={<BlogPage />} />

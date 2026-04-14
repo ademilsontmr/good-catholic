@@ -4,11 +4,13 @@ import { Helmet } from "react-helmet-async";
 import { QuizHeader } from "@/components/quiz/QuizHeader";
 import { ResultScreen } from "@/components/quiz/ResultScreen";
 import { Loader2 } from "lucide-react";
+import { getResultLevel } from "@/data/quizQuestions";
 
 interface LocationState {
   score?: number;
-  answers?: Record<number, string>;
+  answers?: number[];
   localMode?: boolean;
+  userName?: string;
 }
 
 const ResultadoPage = () => {
@@ -16,20 +18,20 @@ const ResultadoPage = () => {
   const location = useLocation();
   const [loading, setLoading] = useState(true);
   const [score, setScore] = useState<number | null>(null);
-  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [answers, setAnswers] = useState<number[]>([]);
+  const [userName, setUserName] = useState<string>("");
 
   useEffect(() => {
     const locationState = location.state as LocationState | null;
 
-    // Check if we have data from location state (local mode)
     if (locationState?.localMode && locationState.score !== undefined) {
       setScore(locationState.score);
-      setAnswers(locationState.answers || {});
+      setAnswers(locationState.answers || []);
+      setUserName(locationState.userName || "Friend");
       setLoading(false);
       return;
     }
 
-    // If no data, redirect to quiz
     navigate("/quiz", { replace: true });
   }, [location.state, navigate]);
 
@@ -44,9 +46,11 @@ const ResultadoPage = () => {
     );
   }
 
-  if (score === null) {
-    return null;
-  }
+  if (score === null) return null;
+
+  const maxScore = answers.length * 3;
+  const normalizedScore = maxScore > 0 ? Math.round((score / maxScore) * 100) : 0;
+  const level = getResultLevel(normalizedScore);
 
   return (
     <>
@@ -54,14 +58,17 @@ const ResultadoPage = () => {
         <title>Your Catholic Life Assessment Results - Guide Catholic</title>
         <meta name="description" content="Discover your personalized Catholic spiritual growth plan based on your assessment results." />
         <link rel="canonical" href="https://guidecatholic.com/result/" />
+        <meta name="robots" content="noindex" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
         <QuizHeader />
-        <ResultScreen 
-          score={score} 
+        <ResultScreen
+          score={score}
+          level={level}
+          userName={userName}
           answers={answers}
-          onRetakeQuiz={() => navigate("/quiz")}
+          onRestart={() => navigate("/quiz")}
         />
       </div>
     </>

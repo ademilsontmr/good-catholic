@@ -59,13 +59,13 @@ const QuizPage = () => {
         setCurrentQuestion((prev) => prev + 1);
       } else {
         // In local mode, go directly to results
-        navigate("/result", {
+        navigate("/get-result", {
           state: {
             testType: "spiritual_gifts",
             answers: newAnswers,
             score: newAnswers.reduce((a, b) => a + b, 0),
             maxScore: newAnswers.length * 3,
-            localMode: true, // Flag to bypass payment check
+            localMode: true,
           }
         });
       }
