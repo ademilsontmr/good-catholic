@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, ChevronLeft, ChevronRight, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -763,6 +763,66 @@ export const blogPosts: BlogPost[] = [
     icon: BookOpen,
     bgColor: "bg-violet-100",
     iconColor: "text-violet-400"
+  },
+  {
+    id: 63,
+    slug: "catholic-parenting-raising-children-in-faith",
+    title: "Catholic Parenting: How to Raise Children in the Faith",
+    excerpt: "A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith. Practical tips for every age.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Family",
+    icon: Users,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 64,
+    slug: "how-to-pray-as-a-family",
+    title: "How to Pray as a Family: Building a Domestic Church",
+    excerpt: "Learn how to pray as a family — the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start when you haven't been praying together.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Family",
+    icon: Home,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
+  {
+    id: 65,
+    slug: "catholic-dating-and-courtship",
+    title: "Catholic Dating and Courtship: A Guide to Holy Relationships",
+    excerpt: "A complete guide to Catholic dating and courtship — the purpose of dating, chastity in relationships, how to find a Catholic spouse, red flags, and preparing for marriage.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Vocation",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 66,
+    slug: "what-is-rcia-for-adults",
+    title: "What Is RCIA? The Complete Guide for Adults Becoming Catholic",
+    excerpt: "Everything you need to know about RCIA — the 4 stages, timeline, Easter Vigil, who it's for, what to expect in classes, choosing a sponsor, and how to find RCIA in your parish.",
+    date: "2026-04-14",
+    readTime: "13 min",
+    category: "Formation",
+    icon: BookOpen,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 67,
+    slug: "catholic-homeschooling-guide",
+    title: "Catholic Homeschooling: A Complete Guide for Catholic Families",
+    excerpt: "A complete guide to Catholic homeschooling — top curricula, legal requirements, socialization, co-ops, integrating faith into every subject, and the liturgical year as a school calendar.",
+    date: "2026-04-14",
+    readTime: "13 min",
+    category: "Family",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-400"
   }
 ];
 

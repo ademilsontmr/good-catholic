@@ -81,6 +81,12 @@ import WhatIsTheScapular from "./pages/blog/WhatIsTheScapular";
 import CatholicPrayersForDying from "./pages/blog/CatholicPrayersForDying";
 import ConsecratYourHome from "./pages/blog/ConsecratYourHome";
 import WhatIsANovena from "./pages/blog/WhatIsANovena";
+// Family & Youth Articles Batch 8
+import CatholicParenting from "./pages/blog/CatholicParenting";
+import FamilyPrayer from "./pages/blog/FamilyPrayer";
+import CatholicDating from "./pages/blog/CatholicDating";
+import WhatIsRCIA from "./pages/blog/WhatIsRCIA";
+import CatholicHomeschooling from "./pages/blog/CatholicHomeschooling";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
@@ -173,6 +179,11 @@ const App = () => (
             <Route path="/blog/catholic-prayers-for-the-dying/" element={<CatholicPrayersForDying />} />
             <Route path="/blog/how-to-consecrate-your-home-to-god/" element={<ConsecratYourHome />} />
             <Route path="/blog/what-is-a-novena/" element={<WhatIsANovena />} />
+            <Route path="/blog/catholic-parenting-raising-children-in-faith/" element={<CatholicParenting />} />
+            <Route path="/blog/how-to-pray-as-a-family/" element={<FamilyPrayer />} />
+            <Route path="/blog/catholic-dating-and-courtship/" element={<CatholicDating />} />
+            <Route path="/blog/what-is-rcia-for-adults/" element={<WhatIsRCIA />} />
+            <Route path="/blog/catholic-homeschooling-guide/" element={<CatholicHomeschooling />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
