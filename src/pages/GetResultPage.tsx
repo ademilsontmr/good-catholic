@@ -29,6 +29,7 @@ export default function GetResultPage() {
   const state = location.state as LocationState | null;
   const [name, setName] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   if (!state?.answers) {
     navigate("/quiz");
@@ -86,15 +87,16 @@ export default function GetResultPage() {
       const data = await response.json();
 
       if (data.url) {
-        // Redirect to Stripe Checkout with unique success_url containing sessionId
         window.location.href = data.url;
       } else {
-        console.error("Stripe error:", data.error);
-        setIsSubmitting(false);
+        // Fallback to Payment Link if Worker fails
+        console.error("Worker error:", data.error);
+        window.location.href = `https://buy.stripe.com/aFa14ndms1hVgHQ6W27EQ00?sid=${sessionId}`;
       }
     } catch (err) {
+      // Fallback to Payment Link on network error
       console.error("Checkout error:", err);
-      setIsSubmitting(false);
+      window.location.href = `https://buy.stripe.com/aFa14ndms1hVgHQ6W27EQ00?sid=${sessionId}`;
     }
   };
 
@@ -295,7 +297,15 @@ export default function GetResultPage() {
                   className="w-full h-14 text-lg font-bold group bg-green-600 hover:bg-green-700 text-white"
                   disabled={!name.trim() || isSubmitting}
                 >
-                  {isSubmitting ? "Loading your results..." : "Unlock My Full Results →"}
+                  {isSubmitting ? (
+                    <span className="flex items-center gap-2">
+                      <svg className="animate-spin w-5 h-5" viewBox="0 0 24 24" fill="none">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"/>
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8z"/>
+                      </svg>
+                      Redirecting to checkout...
+                    </span>
+                  ) : "Unlock My Full Results →"}
                 </Button>
 
                 {/* Trust badges */}
