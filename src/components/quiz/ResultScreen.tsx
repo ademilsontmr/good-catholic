@@ -262,39 +262,47 @@ const getPlano7Dias = (areaScores: ReturnType<typeof getAreaScores>) => {
   return planos[weakestArea] || planos.oracao;
 };
 
-// Patron Saints by area
-const getSantoProtetor = (areaScores: ReturnType<typeof getAreaScores>) => {
+// Patron Saints — large pool, randomly selected based on score + weakest area
+const getSantoProtetor = (areaScores: ReturnType<typeof getAreaScores>, score: number) => {
   const weakestArea = Object.entries(areaScores).reduce((a, b) => a[1] < b[1] ? a : b)[0];
-  
-  const santos: Record<string, { nome: string; titulo: string; oracao: string }> = {
-    eucaristica: {
-      nome: "St. Pio of Pietrelcina",
-      titulo: "Apostle of the Eucharist",
-      oracao: "St. Pio of Pietrelcina, you who lived each Mass as if it were the first and the last, help me to love the Eucharist as you loved it. Amen."
-    },
-    oracao: {
-      nome: "St. Teresa of Avila",
-      titulo: "Doctor of Prayer",
-      oracao: "St. Teresa of Avila, master of the interior life, teach me to cultivate friendship with God through prayer. Help me never to abandon this relationship of love. Amen."
-    },
-    formacao: {
-      nome: "St. Thomas Aquinas",
-      titulo: "Angelic Doctor",
-      oracao: "St. Thomas Aquinas, who united faith and reason in an admirable way, enlighten my mind to know more deeply the doctrine of the Church. Amen."
-    },
-    devocoes: {
-      nome: "St. Louis Marie Grignion de Montfort",
-      titulo: "Apostle of Mary",
-      oracao: "St. Louis de Montfort, who taught us the way to Jesus through Mary, help me to grow in devotion to the Blessed Virgin. Amen."
-    },
-    testemunho: {
-      nome: "St. Francis of Assisi",
-      titulo: "Patron of Peace",
-      oracao: "St. Francis of Assisi, who preached the Gospel with your life before words, help me to be a living witness of Christ in the world. Amen."
-    },
+
+  const pool: Record<string, Array<{ nome: string; titulo: string; oracao: string }>> = {
+    eucaristica: [
+      { nome: "St. Pio of Pietrelcina", titulo: "Apostle of the Eucharist", oracao: "St. Pio of Pietrelcina, you who lived each Mass as if it were the first and the last, help me to love the Eucharist as you loved it. Amen." },
+      { nome: "St. Peter Julian Eymard", titulo: "Apostle of the Blessed Sacrament", oracao: "St. Peter Julian Eymard, who called the Eucharist 'the summary of all God's love,' help me to adore Jesus truly present in the Blessed Sacrament. Amen." },
+      { nome: "St. Tarcisius", titulo: "Martyr of the Eucharist", oracao: "St. Tarcisius, who gave your life to protect the Eucharist, help me to receive Jesus with the same reverence and love. Amen." },
+      { nome: "St. John Vianney", titulo: "Curé of Ars", oracao: "St. John Vianney, who spent hours before the tabernacle, teach me to find in the Eucharist the source of all holiness. Amen." },
+    ],
+    oracao: [
+      { nome: "St. Teresa of Avila", titulo: "Doctor of Prayer", oracao: "St. Teresa of Avila, master of the interior life, teach me to cultivate friendship with God through prayer. Help me never to abandon this relationship of love. Amen." },
+      { nome: "St. John of the Cross", titulo: "Doctor of the Soul", oracao: "St. John of the Cross, who passed through the dark night of the soul and found God in the depths of silence, help me to persevere in prayer even in dryness. Amen." },
+      { nome: "St. Thérèse of Lisieux", titulo: "Doctor of the Little Way", oracao: "St. Thérèse, who found God in the small things of daily life, teach me to pray with simplicity and trust, like a child before the Father. Amen." },
+      { nome: "St. Ignatius of Loyola", titulo: "Master of Discernment", oracao: "St. Ignatius of Loyola, who taught us to find God in all things, help me to cultivate a life of prayer that transforms every moment into an encounter with God. Amen." },
+    ],
+    formacao: [
+      { nome: "St. Thomas Aquinas", titulo: "Angelic Doctor", oracao: "St. Thomas Aquinas, who united faith and reason in an admirable way, enlighten my mind to know more deeply the doctrine of the Church. Amen." },
+      { nome: "St. Augustine of Hippo", titulo: "Doctor of Grace", oracao: "St. Augustine, who sought the truth with all your heart and found it in Christ, help me to deepen my knowledge of the faith and live it with conviction. Amen." },
+      { nome: "St. Robert Bellarmine", titulo: "Doctor of the Church", oracao: "St. Robert Bellarmine, defender of the faith, help me to know and love the teachings of the Church and to live them with joy. Amen." },
+      { nome: "St. Catherine of Siena", titulo: "Doctor of the Church", oracao: "St. Catherine of Siena, who received mystical wisdom directly from God, help me to grow in knowledge and love of the Catholic faith. Amen." },
+    ],
+    devocoes: [
+      { nome: "St. Louis Marie Grignion de Montfort", titulo: "Apostle of Mary", oracao: "St. Louis de Montfort, who taught us the way to Jesus through Mary, help me to grow in devotion to the Blessed Virgin. Amen." },
+      { nome: "St. Alphonsus Liguori", titulo: "Doctor of Moral Theology", oracao: "St. Alphonsus Liguori, great devotee of Our Lady, help me to cultivate tender and persevering devotion to the Mother of God. Amen." },
+      { nome: "St. Maximilian Kolbe", titulo: "Knight of the Immaculata", oracao: "St. Maximilian Kolbe, who consecrated your life to Our Lady, help me to entrust myself completely to the Immaculate Heart of Mary. Amen." },
+      { nome: "St. Bernadette Soubirous", titulo: "Visionary of Lourdes", oracao: "St. Bernadette, who saw Our Lady and kept her message in your heart, help me to deepen my Marian devotion with simplicity and faith. Amen." },
+    ],
+    testemunho: [
+      { nome: "St. Francis of Assisi", titulo: "Patron of Peace", oracao: "St. Francis of Assisi, who preached the Gospel with your life before words, help me to be a living witness of Christ in the world. Amen." },
+      { nome: "St. Paul the Apostle", titulo: "Apostle to the Nations", oracao: "St. Paul, who proclaimed Christ to the ends of the earth, give me your courage and zeal to share the faith with those around me. Amen." },
+      { nome: "Bl. Carlo Acutis", titulo: "Patron of the Internet", oracao: "Blessed Carlo Acutis, who used the internet to spread devotion to the Eucharist, help me to be a witness of Christ in the digital world. Amen." },
+      { nome: "St. Teresa of Calcutta", titulo: "Servant of the Poor", oracao: "St. Teresa of Calcutta, who saw Christ in the face of the poorest, help me to serve my neighbor with the same love and dedication. Amen." },
+    ],
   };
-  
-  return santos[weakestArea] || santos.oracao;
+
+  const candidates = pool[weakestArea] || pool.oracao;
+  // Deterministic random based on score so it's consistent per result
+  const idx = score % candidates.length;
+  return candidates[idx];
 };
 
 // Virtues to develop
@@ -336,7 +344,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
   const santoCitacao = getSantoCitacao(score);
   const versiculoPersonalizado = getVersiculoPersonalizado(score, areaScores);
   const plano7Dias = getPlano7Dias(areaScores);
-  const santoProtetor = getSantoProtetor(areaScores);
+  const santoProtetor = getSantoProtetor(areaScores, score);
   const virtudes = getVirtudes(score, areaScores);
 
   // Normalize score to percentage (score is raw points, max is 90)
