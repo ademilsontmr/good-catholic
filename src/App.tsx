@@ -81,6 +81,12 @@ import WhatIsTheScapular from "./pages/blog/WhatIsTheScapular";
 import CatholicPrayersForDying from "./pages/blog/CatholicPrayersForDying";
 import ConsecratYourHome from "./pages/blog/ConsecratYourHome";
 import WhatIsANovena from "./pages/blog/WhatIsANovena";
+// Spirituality Articles Batch 9
+import ContemplativePrayer from "./pages/blog/ContemplativePrayer";
+import SpiritualRetreatAtHome from "./pages/blog/SpiritualRetreatAtHome";
+import SpiritualDirection from "./pages/blog/SpiritualDirection";
+import DarkNightOfTheSoul from "./pages/blog/DarkNightOfTheSoul";
+import GrowingInHumility from "./pages/blog/GrowingInHumility";
 // Family & Youth Articles Batch 8
 import CatholicParenting from "./pages/blog/CatholicParenting";
 import FamilyPrayer from "./pages/blog/FamilyPrayer";
@@ -184,6 +190,11 @@ const App = () => (
             <Route path="/blog/catholic-dating-and-courtship/" element={<CatholicDating />} />
             <Route path="/blog/what-is-rcia-for-adults/" element={<WhatIsRCIA />} />
             <Route path="/blog/catholic-homeschooling-guide/" element={<CatholicHomeschooling />} />
+            <Route path="/blog/what-is-contemplative-prayer/" element={<ContemplativePrayer />} />
+            <Route path="/blog/how-to-do-spiritual-retreat-at-home/" element={<SpiritualRetreatAtHome />} />
+            <Route path="/blog/catholic-spiritual-direction/" element={<SpiritualDirection />} />
+            <Route path="/blog/dark-night-of-the-soul-catholic/" element={<DarkNightOfTheSoul />} />
+            <Route path="/blog/how-to-grow-in-humility-catholic/" element={<GrowingInHumility />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

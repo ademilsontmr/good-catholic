@@ -452,6 +452,37 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <!-- Spirituality Articles Batch 9 -->
+  <url>
+    <loc>https://guidecatholic.com/blog/what-is-contemplative-prayer/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/how-to-do-spiritual-retreat-at-home/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/catholic-spiritual-direction/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/dark-night-of-the-soul-catholic/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/how-to-grow-in-humility-catholic/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Prosperity Articles (Batch 4) -->
   <!-- Popular Search Articles (Batch 5) -->
   <!-- Seven Sacraments Articles (Batch 6) -->

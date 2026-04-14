@@ -823,6 +823,66 @@ export const blogPosts: BlogPost[] = [
     icon: BookOpen,
     bgColor: "bg-indigo-100",
     iconColor: "text-indigo-400"
+  },
+  {
+    id: 68,
+    slug: "what-is-contemplative-prayer",
+    title: "What Is Contemplative Prayer? A Catholic Guide to Silent Prayer",
+    excerpt: "Discover what contemplative prayer is in the Catholic tradition. Learn the difference between meditation and contemplation, the Carmelite tradition, infused vs acquired contemplation, and how to begin.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Prayer",
+    icon: Wind,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-400"
+  },
+  {
+    id: 69,
+    slug: "how-to-do-spiritual-retreat-at-home",
+    title: "How to Do a Spiritual Retreat at Home: A Step-by-Step Catholic Guide",
+    excerpt: "Learn how to make a Catholic spiritual retreat at home. Step-by-step guide with a sample 1-day and weekend schedule, the Ignatian approach, journaling tips, and what to do after your retreat.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Spirituality",
+    icon: BookOpen,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
+  {
+    id: 70,
+    slug: "catholic-spiritual-direction",
+    title: "Catholic Spiritual Direction: What It Is and How to Find a Director",
+    excerpt: "Learn what Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director in your diocese or online.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Spirituality",
+    icon: Users,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
+  },
+  {
+    id: 71,
+    slug: "dark-night-of-the-soul-catholic",
+    title: "The Dark Night of the Soul: What It Is and How to Navigate It",
+    excerpt: "Learn what the dark night of the soul is in Catholic spirituality. Discover St. John of the Cross's teaching, the two dark nights, how to distinguish it from depression, and how to navigate it.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Spirituality",
+    icon: Cloud,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-400"
+  },
+  {
+    id: 72,
+    slug: "how-to-grow-in-humility-catholic",
+    title: "How to Grow in Humility: The Catholic Path to True Greatness",
+    excerpt: "Learn what humility really is in Catholic spirituality, the 12 degrees of humility from St. Benedict, Jesus as the model of humility, and practical exercises for growing in this foundational virtue.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Spirituality",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
   }
 ];
 

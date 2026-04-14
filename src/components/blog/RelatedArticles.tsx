@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Shield, Cloud, Droplets, Cross, Home, type LucideIcon } from "lucide-react";
+import { ArrowRight, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Shield, Cloud, Droplets, Cross, Home, Wind, type LucideIcon } from "lucide-react";
 
 interface BlogPost {
     id: number;
@@ -75,6 +75,11 @@ const allPosts: BlogPost[] = [
     { id: 65, slug: "catholic-dating-and-courtship", title: "Catholic Dating and Courtship: A Guide to Holy Relationships", excerpt: "A complete guide to Catholic dating — the purpose of dating, chastity in relationships, how to find a Catholic spouse, and preparing for marriage.", category: "Vocation", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
     { id: 66, slug: "what-is-rcia-for-adults", title: "What Is RCIA? The Complete Guide for Adults Becoming Catholic", excerpt: "Everything you need to know about RCIA — the 4 stages, timeline, Easter Vigil, who it's for, and how to find RCIA in your parish.", category: "Formation", icon: BookOpen, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
     { id: 67, slug: "catholic-homeschooling-guide", title: "Catholic Homeschooling: A Complete Guide for Catholic Families", excerpt: "A complete guide to Catholic homeschooling — top curricula, legal requirements, socialization, co-ops, and integrating faith into every subject.", category: "Family", icon: BookOpen, bgColor: "bg-indigo-100", iconColor: "text-indigo-400" },
+    { id: 68, slug: "what-is-contemplative-prayer", title: "What Is Contemplative Prayer? A Catholic Guide to Silent Prayer", excerpt: "Discover what contemplative prayer is in the Catholic tradition — infused vs acquired contemplation, the Carmelite tradition, and how to begin.", category: "Prayer", icon: Wind, bgColor: "bg-purple-100", iconColor: "text-purple-400" },
+    { id: 69, slug: "how-to-do-spiritual-retreat-at-home", title: "How to Do a Spiritual Retreat at Home: A Step-by-Step Catholic Guide", excerpt: "Learn how to make a Catholic spiritual retreat at home with a sample 1-day schedule, the Ignatian approach, and journaling tips.", category: "Spirituality", icon: BookOpen, bgColor: "bg-emerald-100", iconColor: "text-emerald-400" },
+    { id: 70, slug: "catholic-spiritual-direction", title: "Catholic Spiritual Direction: What It Is and How to Find a Director", excerpt: "Learn what Catholic spiritual direction is, how it differs from therapy and confession, and how to find a spiritual director.", category: "Spirituality", icon: Users, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
+    { id: 71, slug: "dark-night-of-the-soul-catholic", title: "The Dark Night of the Soul: What It Is and How to Navigate It", excerpt: "Discover St. John of the Cross's teaching on the dark night, the two dark nights, and how to navigate spiritual desolation.", category: "Spirituality", icon: Cloud, bgColor: "bg-slate-100", iconColor: "text-slate-400" },
+    { id: 72, slug: "how-to-grow-in-humility-catholic", title: "How to Grow in Humility: The Catholic Path to True Greatness", excerpt: "Learn what humility really is, the 12 degrees of humility from St. Benedict, and practical exercises for growing in this foundational virtue.", category: "Spirituality", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
 ];
 
 export function RelatedArticles({ currentSlug }: { currentSlug: string }) {
