@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Cross, Calendar, Clock, ArrowLeft, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
+import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -18,21 +19,9 @@ export default function VocationalDiscernment() {
             </Helmet>
 
             <div className="min-h-screen bg-background">
-                <header className="bg-primary text-button-text py-4">
-                    <div className="container mx-auto px-4 flex items-center justify-between">
-                        <Link to="/" className="flex items-center gap-2">
-                            <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
-                                <Cross className="w-5 h-5 text-button-text" />
-                            </div>
-                            <span className="font-display text-xl font-bold">Guide Catholic</span>
-                        </Link>
-                        <Link to="/quiz">
-                            <Button variant="secondary" size="sm">Take the Quiz</Button>
-                        </Link>
-                    </div>
-                </header>
+                <Navbar />
 
-                <div className="bg-background-muted/50 py-3">
+        <div className="bg-background-muted/50 py-3 mt-16">
                     <div className="container mx-auto px-4">
                         <nav className="flex items-center gap-2 text-sm text-text-muted">
                             <Link to="/" className="hover:text-accent">Home</Link>

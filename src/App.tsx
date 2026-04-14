@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import QuizIntro from "./pages/QuizIntro";
+import DailyVersesPage from "./pages/DailyVersesPage";
 import QuizPage from "./pages/QuizPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import ResultadoPage from "./pages/ResultadoPage";
@@ -57,6 +58,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/quiz-intro" element={<QuizIntro />} />
+            <Route path="/daily-verses" element={<DailyVersesPage />} />
             <Route path="/quiz" element={<QuizPage />} />
             <Route path="/checkout" element={<CheckoutPage />} />
             <Route path="/get-result" element={<GetResultPage />} />

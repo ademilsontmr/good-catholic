@@ -64,6 +64,11 @@ export function Footer() {
                   Blog
                 </Link>
               </li>
+              <li>
+                <Link to="/daily-verses" className="hover:text-button-text transition-colors">
+                  Daily Verse
+                </Link>
+              </li>
             </ul>
           </div>
 

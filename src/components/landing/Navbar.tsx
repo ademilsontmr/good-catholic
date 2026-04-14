@@ -52,6 +52,12 @@ export function Navbar() {
             >
               Blog
             </Link>
+            <Link
+              to="/daily-verses"
+              className="text-text-muted hover:text-text transition-colors"
+            >
+              Daily Verse
+            </Link>
             <Link to="/quiz-intro">
               <Button className="bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
                 Take the Quiz
@@ -100,6 +106,13 @@ export function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Blog
+              </Link>
+              <Link
+                to="/daily-verses"
+                className="text-left py-2 text-text-muted hover:text-text transition-colors"
+                onClick={() => setIsOpen(false)}
+              >
+                Daily Verse
               </Link>
               <Link to="/quiz-intro" onClick={() => setIsOpen(false)}>
                 <Button className="w-full bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
