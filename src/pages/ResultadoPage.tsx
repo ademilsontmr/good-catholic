@@ -20,15 +20,8 @@ const ResultadoPage = () => {
   useEffect(() => {
     const sessions = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
 
-    // Debug: log what we have
-    console.log("URL params:", window.location.search);
-    console.log("localStorage pending:", localStorage.getItem("gc_pending_session"));
-    console.log("sessionStorage pending:", sessionStorage.getItem("gc_pending_session"));
-    console.log("sessions keys:", Object.keys(sessions));
-
     // 1. PRIMARY: session ID in URL ?sid=xxx
     const sidFromUrl = searchParams.get("sid");
-    console.log("sid from URL:", sidFromUrl);
     if (sidFromUrl && sessions[sidFromUrl]) {
       setSessionData(sessions[sidFromUrl]);
       setPaymentVerified(true);
@@ -77,7 +70,6 @@ const ResultadoPage = () => {
       .filter(([, d]) => now - d.createdAt < 10 * 60 * 1000) // only within 10 min
       .sort(([, a], [, b]) => b.createdAt - a.createdAt)[0];
     if (recent) {
-      console.log("Using most recent session:", recent[0]);
       setSessionData(recent[1]);
       setPaymentVerified(true);
       setLoading(false);
