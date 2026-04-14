@@ -13,7 +13,6 @@ const ResultadoPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const [searchParams] = useSearchParams();
-  const [searchParams] = useSearchParams();
   const [loading, setLoading] = useState(true);
   const [sessionData, setSessionData] = useState<QuizSessionData | null>(null);
   const [paymentVerified, setPaymentVerified] = useState(false);
