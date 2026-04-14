@@ -75,7 +75,12 @@ import WhatIsAdvent from "./pages/blog/WhatIsAdvent";
 import WhatIsHolyWeek from "./pages/blog/WhatIsHolyWeek";
 import CatholicGraceBeforeMeals from "./pages/blog/CatholicGraceBeforeMeals";
 import SpiritualCommunion from "./pages/blog/SpiritualCommunion";
-// Novena Articles
+// Catholic Life Articles Batch 7
+import StationsOfTheCross from "./pages/blog/StationsOfTheCross";
+import WhatIsTheScapular from "./pages/blog/WhatIsTheScapular";
+import CatholicPrayersForDying from "./pages/blog/CatholicPrayersForDying";
+import ConsecratYourHome from "./pages/blog/ConsecratYourHome";
+import WhatIsANovena from "./pages/blog/WhatIsANovena";
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
@@ -163,6 +168,11 @@ const App = () => (
             <Route path="/blog/what-is-holy-week-catholic/" element={<WhatIsHolyWeek />} />
             <Route path="/blog/catholic-grace-before-meals/" element={<CatholicGraceBeforeMeals />} />
             <Route path="/blog/how-to-make-spiritual-communion/" element={<SpiritualCommunion />} />
+            <Route path="/blog/stations-of-the-cross/" element={<StationsOfTheCross />} />
+            <Route path="/blog/what-is-the-brown-scapular/" element={<WhatIsTheScapular />} />
+            <Route path="/blog/catholic-prayers-for-the-dying/" element={<CatholicPrayersForDying />} />
+            <Route path="/blog/how-to-consecrate-your-home-to-god/" element={<ConsecratYourHome />} />
+            <Route path="/blog/what-is-a-novena/" element={<WhatIsANovena />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Shield, Cloud, Droplets, Cross, type LucideIcon } from "lucide-react";
+import { ArrowRight, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Shield, Cloud, Droplets, Cross, Home, type LucideIcon } from "lucide-react";
 
 interface BlogPost {
     id: number;
@@ -65,6 +65,11 @@ const allPosts: BlogPost[] = [
     { id: 55, slug: "what-is-holy-week-catholic", title: "What Is Holy Week? A Complete Guide to the Most Sacred Week of the Year", excerpt: "Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil.", category: "Liturgy", icon: Cross, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
     { id: 56, slug: "catholic-grace-before-meals", title: "Catholic Grace Before Meals: Traditional and Modern Prayers", excerpt: "Learn the traditional Catholic grace before meals — 'Bless us, O Lord' — plus other versions, the theology of blessing food, and tips for family mealtime prayer.", category: "Prayers", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
     { id: 57, slug: "how-to-make-spiritual-communion", title: "How to Make a Spiritual Communion: The Prayer and Its Meaning", excerpt: "Learn what spiritual communion is, the traditional prayer of St. Alphonsus Liguori, when to make it, and its theological meaning.", category: "Prayer", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
+    { id: 58, slug: "stations-of-the-cross", title: "Stations of the Cross: A Complete Guide to This Powerful Catholic Devotion", excerpt: "Learn the history of the Stations of the Cross, the 14 traditional stations with meditations, and how to pray them.", category: "Devotions", icon: Cross, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
+    { id: 59, slug: "what-is-the-brown-scapular", title: "What Is the Brown Scapular? History, Promises, and How to Wear It", excerpt: "Learn what the Brown Scapular is, the promises of Our Lady of Mount Carmel, how to be enrolled, and how to wear it.", category: "Devotions", icon: Shield, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
+    { id: 60, slug: "catholic-prayers-for-the-dying", title: "Catholic Prayers for the Dying: Comfort and Grace at the Hour of Death", excerpt: "Learn the Catholic prayers for the dying — the Sacrament of Anointing, Viaticum, the Apostolic Pardon, and prayers at the bedside.", category: "Prayers", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
+    { id: 61, slug: "how-to-consecrate-your-home-to-god", title: "How to Consecrate Your Home to God: A Catholic Guide", excerpt: "Learn how to consecrate your home to God — the Epiphany house blessing, sacred objects, and how to create a prayer corner.", category: "Devotions", icon: Home, bgColor: "bg-emerald-100", iconColor: "text-emerald-400" },
+    { id: 62, slug: "what-is-a-novena", title: "What Is a Novena? The Catholic Prayer of Nine Days Explained", excerpt: "Learn what a novena is, its biblical origins, the most popular novenas, and how to pray a novena with perseverance.", category: "Prayers", icon: BookOpen, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
 ];
 
 export function RelatedArticles({ currentSlug }: { currentSlug: string }) {

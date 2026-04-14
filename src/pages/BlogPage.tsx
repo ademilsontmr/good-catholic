@@ -703,6 +703,66 @@ export const blogPosts: BlogPost[] = [
     icon: Church,
     bgColor: "bg-violet-100",
     iconColor: "text-violet-400"
+  },
+  {
+    id: 58,
+    slug: "stations-of-the-cross",
+    title: "Stations of the Cross: A Complete Guide to This Powerful Catholic Devotion",
+    excerpt: "Learn the history of the Stations of the Cross, the 14 traditional stations with meditations, the 15th station added by John Paul II, how to pray them, and tips for families.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Devotions",
+    icon: Cross,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 59,
+    slug: "what-is-the-brown-scapular",
+    title: "What Is the Brown Scapular? History, Promises, and How to Wear It",
+    excerpt: "Learn what the Brown Scapular is, the history of Our Lady of Mount Carmel's apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Devotions",
+    icon: Shield,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 60,
+    slug: "catholic-prayers-for-the-dying",
+    title: "Catholic Prayers for the Dying: Comfort and Grace at the Hour of Death",
+    excerpt: "Learn the Catholic prayers for the dying — the Sacrament of Anointing, Viaticum, the Apostolic Pardon, prayers at the bedside, and what to do when someone is dying.",
+    date: "2026-04-14",
+    readTime: "13 min",
+    category: "Prayers",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 61,
+    slug: "how-to-consecrate-your-home-to-god",
+    title: "How to Consecrate Your Home to God: A Catholic Guide",
+    excerpt: "Learn how to consecrate your home to God as a Catholic — the Epiphany house blessing, the difference between blessing and consecration, sacred objects, and how to create a prayer corner.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Devotions",
+    icon: MapPin,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
+  {
+    id: 62,
+    slug: "what-is-a-novena",
+    title: "What Is a Novena? The Catholic Prayer of Nine Days Explained",
+    excerpt: "Learn what a novena is, its biblical origins in Acts 1:14, the most popular novenas, how to pray a novena, what to do if you miss a day, and the power of perseverance in prayer.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Prayers",
+    icon: BookOpen,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
   }
 ];
 
