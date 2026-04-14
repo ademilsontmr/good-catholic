@@ -45,6 +45,12 @@ import ActOfContrition from "./pages/blog/ActOfContrition";
 import MorningOfferingPrayer from "./pages/blog/MorningOfferingPrayer";
 import PrayerToStJoseph from "./pages/blog/PrayerToStJoseph";
 import TheMemorarePrayer from "./pages/blog/TheMemorarePrayer";
+// Sacraments Articles Batch 2
+import HowToGoToConfession from "./pages/blog/HowToGoToConfession";
+import HowToBecomeCatholic from "./pages/blog/HowToBecomeCatholic";
+import CatholicBaptismGuide from "./pages/blog/CatholicBaptismGuide";
+import CatholicConfirmationGuide from "./pages/blog/CatholicConfirmationGuide";
+import CatholicMarriageGuide from "./pages/blog/CatholicMarriageGuide";
 // Novena Articles
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -108,6 +114,11 @@ const App = () => (
             <Route path="/blog/morning-offering-prayer/" element={<MorningOfferingPrayer />} />
             <Route path="/blog/prayer-to-st-joseph/" element={<PrayerToStJoseph />} />
             <Route path="/blog/the-memorare-prayer/" element={<TheMemorarePrayer />} />
+            <Route path="/blog/how-to-go-to-confession/" element={<HowToGoToConfession />} />
+            <Route path="/blog/how-to-become-catholic/" element={<HowToBecomeCatholic />} />
+            <Route path="/blog/catholic-baptism-guide/" element={<CatholicBaptismGuide />} />
+            <Route path="/blog/catholic-confirmation-guide/" element={<CatholicConfirmationGuide />} />
+            <Route path="/blog/catholic-marriage-guide/" element={<CatholicMarriageGuide />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

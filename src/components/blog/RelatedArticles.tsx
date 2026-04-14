@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Shield, Cloud, type LucideIcon } from "lucide-react";
+import { ArrowRight, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Shield, Cloud, Droplets, type LucideIcon } from "lucide-react";
 
 interface BlogPost {
     id: number;
@@ -40,6 +40,11 @@ const allPosts: BlogPost[] = [
     { id: 25, slug: "prayers-of-hope-2026", title: "Prayers of Hope for Times of Crisis in 2026", excerpt: "Discover powerful prayers to renew your trust in God.", category: "Prayers", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
     { id: 26, slug: "local-pilgrimage", title: "How to Organize a Local Pilgrimage in Your Diocese", excerpt: "Discover how to organize a journey of faith to shrines in your region.", category: "Devotions", icon: MapPin, bgColor: "bg-emerald-100", iconColor: "text-emerald-400" },
     { id: 27, slug: "faith-mental-health", title: "Faith and Mental Health: How Catholic Spirituality Helps Overcome Anxiety", excerpt: "The Catholic tradition offers ancient treasures for the balance of mind and soul.", category: "Mental Health", icon: HeartPulse, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
+    { id: 33, slug: "how-to-go-to-confession", title: "How to Go to Confession: Step-by-Step Guide for Catholics", excerpt: "Complete Catholic guide covering examination of conscience, what to say, common fears, and how often to go.", category: "Sacraments", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
+    { id: 34, slug: "how-to-become-catholic", title: "How to Become Catholic: The RCIA Process Explained", excerpt: "Complete guide covering the 4 stages of RCIA, Easter Vigil, what to expect, and FAQs for converts.", category: "Formation", icon: BookOpen, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
+    { id: 35, slug: "catholic-baptism-guide", title: "Catholic Baptism: What It Is, How It Works, and Why It Matters", excerpt: "Learn the theology of baptism, infant vs adult baptism, the rite, godparents, and effects of baptism.", category: "Sacraments", icon: Droplets, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
+    { id: 36, slug: "catholic-confirmation-guide", title: "Catholic Confirmation: What It Is and How to Prepare", excerpt: "Learn what Confirmation is, the seven gifts of the Holy Spirit, how to choose a sponsor and confirmation name.", category: "Sacraments", icon: Flame, bgColor: "bg-orange-100", iconColor: "text-orange-400" },
+    { id: 37, slug: "catholic-marriage-guide", title: "Catholic Marriage: What the Church Teaches About Holy Matrimony", excerpt: "Learn about marriage as a sacrament, unity, indissolubility, marriage preparation, and natural family planning.", category: "Sacraments", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
 ];
 
 export function RelatedArticles({ currentSlug }: { currentSlug: string }) {

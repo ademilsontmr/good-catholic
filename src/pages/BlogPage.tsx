@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, ChevronLeft, ChevronRight, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, ChevronLeft, ChevronRight, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -400,6 +400,66 @@ export const blogPosts: BlogPost[] = [
     date: "2026-04-14",
     readTime: "8 min",
     category: "Prayers",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 33,
+    slug: "how-to-go-to-confession",
+    title: "How to Go to Confession: Step-by-Step Guide for Catholics",
+    excerpt: "Learn how to go to Confession step by step. Complete Catholic guide covering examination of conscience, what to say, common fears, and how often to receive the Sacrament of Reconciliation.",
+    date: "2026-04-14",
+    readTime: "10 min",
+    category: "Sacraments",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
+  },
+  {
+    id: 34,
+    slug: "how-to-become-catholic",
+    title: "How to Become Catholic: The RCIA Process Explained",
+    excerpt: "Learn how to become Catholic through the RCIA process. Complete guide covering the 4 stages of RCIA, Easter Vigil, what to expect, timeline, and FAQs for converts to Catholicism.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Formation",
+    icon: BookOpen,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 35,
+    slug: "catholic-baptism-guide",
+    title: "Catholic Baptism: What It Is, How It Works, and Why It Matters",
+    excerpt: "Complete guide to Catholic Baptism. Learn the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire.",
+    date: "2026-04-14",
+    readTime: "10 min",
+    category: "Sacraments",
+    icon: Droplets,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 36,
+    slug: "catholic-confirmation-guide",
+    title: "Catholic Confirmation: What It Is and How to Prepare",
+    excerpt: "Complete guide to Catholic Confirmation. Learn what Confirmation is, the seven gifts of the Holy Spirit, how to choose a sponsor and confirmation name, the rite, and how to prepare spiritually.",
+    date: "2026-04-14",
+    readTime: "10 min",
+    category: "Sacraments",
+    icon: Flame,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-400"
+  },
+  {
+    id: 37,
+    slug: "catholic-marriage-guide",
+    title: "Catholic Marriage: What the Church Teaches About Holy Matrimony",
+    excerpt: "Complete guide to Catholic marriage. Learn about marriage as a sacrament, unity and indissolubility, marriage preparation, natural family planning, annulment vs divorce, and mixed marriages.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Sacraments",
     icon: Heart,
     bgColor: "bg-rose-100",
     iconColor: "text-rose-400"
