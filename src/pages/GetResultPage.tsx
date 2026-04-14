@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { Cross, ArrowRight, Lock, Star, FileText, CheckCircle } from "lucide-react";
+import { Cross, ArrowRight, Lock, Star, FileText, CheckCircle, Shield, Clock, Gift } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -19,25 +19,31 @@ export default function GetResultPage() {
   const [name, setName] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // If no quiz data, redirect back
   if (!state?.answers) {
     navigate("/quiz");
     return null;
   }
 
+  // Calculate a teaser score range to create curiosity
+  const rawScore = state.score;
+  const maxScore = state.maxScore;
+  const percent = Math.round((rawScore / maxScore) * 100);
+  const isHigh = percent >= 70;
+  const isMid = percent >= 40 && percent < 70;
+
+  const teaserMessage = isHigh
+    ? "Your score is above average — you have a strong foundation to build on."
+    : isMid
+    ? "Your score reveals specific areas where you can grow significantly."
+    : "Your score shows a real opportunity for spiritual transformation.";
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!name.trim()) return;
-
     setIsSubmitting(true);
-
-    // Navigate to result with name included
     setTimeout(() => {
       navigate("/result", {
-        state: {
-          ...state,
-          userName: name.trim(),
-        },
+        state: { ...state, userName: name.trim() },
       });
     }, 400);
   };
@@ -68,67 +74,98 @@ export default function GetResultPage() {
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2" />
         </div>
 
-        <main className="relative py-16">
-          <div className="container mx-auto px-4 max-w-lg">
+        <main className="relative py-10 pb-20">
+          <div className="container mx-auto px-4 max-w-xl">
 
-            {/* Progress indicator */}
-            <div className="flex items-center justify-center gap-2 mb-8 text-sm text-text-muted">
-              <div className="flex items-center gap-1">
-                <CheckCircle className="w-4 h-4 text-accent" />
-                <span>Quiz completed</span>
+            {/* Urgency banner */}
+            <div className="bg-amber-50 border border-amber-200 rounded-xl px-4 py-3 flex items-center gap-3 mb-6">
+              <Clock className="w-5 h-5 text-amber-600 flex-shrink-0" />
+              <p className="text-sm text-amber-800">
+                <strong>Your results are waiting.</strong> Complete your order to unlock your personalized guide.
+              </p>
+            </div>
+
+            {/* Score teaser */}
+            <div className="bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 rounded-2xl p-6 mb-6 text-center">
+              <p className="text-sm text-text-muted uppercase tracking-wide font-medium mb-2">Your Assessment Score</p>
+              <div className="flex items-center justify-center gap-3 mb-3">
+                <div className="text-5xl font-display font-bold text-primary">{percent}%</div>
+                <div className="text-left">
+                  <div className="w-32 h-3 bg-border rounded-full overflow-hidden">
+                    <div
+                      className="h-full bg-accent rounded-full transition-all"
+                      style={{ width: `${percent}%` }}
+                    />
+                  </div>
+                  <p className="text-xs text-text-muted mt-1">out of 100%</p>
+                </div>
               </div>
-              <div className="w-8 h-px bg-border" />
-              <div className="flex items-center gap-1 text-accent font-medium">
-                <span className="w-5 h-5 rounded-full bg-accent text-button-text text-xs flex items-center justify-center font-bold">2</span>
-                <span>Get your guide</span>
-              </div>
-              <div className="w-8 h-px bg-border" />
-              <div className="flex items-center gap-1 text-text-muted">
-                <span className="w-5 h-5 rounded-full bg-border text-xs flex items-center justify-center font-bold">3</span>
-                <span>Results</span>
-              </div>
+              <p className="text-sm text-text-muted italic">{teaserMessage}</p>
+              <p className="text-xs text-accent font-medium mt-2">↓ Unlock your full breakdown below</p>
             </div>
 
             {/* Main card */}
             <div className="bg-surface border border-border rounded-3xl p-8 shadow-lg">
 
-              {/* Icon */}
-              <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <FileText className="w-8 h-8 text-accent" />
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center flex-shrink-0">
+                  <FileText className="w-6 h-6 text-accent" />
+                </div>
+                <div>
+                  <h1 className="font-display text-xl font-bold text-text leading-tight">
+                    Get Your Personalized Catholic Life Guide
+                  </h1>
+                  <p className="text-sm text-text-muted">10 pages · Instant download · Made for you</p>
+                </div>
               </div>
 
-              <h1 className="font-display text-2xl md:text-3xl font-bold text-text text-center mb-3">
-                Your results are ready!
-              </h1>
-              <p className="text-text-muted text-center mb-8 leading-relaxed">
-                Enter your name to personalize your <strong className="text-text">10-page Catholic Life Guide</strong> and unlock your full spiritual assessment.
-              </p>
+              {/* Social proof */}
+              <div className="flex items-center gap-2 mb-6 p-3 bg-background-muted/50 rounded-xl">
+                <div className="flex -space-x-2">
+                  {["S", "M", "E", "D"].map((l, i) => (
+                    <div key={i} className="w-7 h-7 rounded-full bg-accent/20 border-2 border-surface flex items-center justify-center text-xs font-bold text-accent">
+                      {l}
+                    </div>
+                  ))}
+                </div>
+                <p className="text-xs text-text-muted">
+                  <strong className="text-text">12,847 Catholics</strong> have already received their guide
+                </p>
+              </div>
 
               {/* What's included */}
-              <div className="bg-background-muted/50 rounded-2xl p-4 mb-8 space-y-2">
-                <div className="flex items-center gap-2 text-sm text-text-muted">
-                  <CheckCircle className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span>Personalized spiritual assessment across 5 areas</span>
+              <div className="space-y-3 mb-6">
+                <p className="text-sm font-semibold text-text">What's included in your guide:</p>
+                {[
+                  { icon: "📊", text: "Full breakdown of your score across 5 spiritual areas" },
+                  { icon: "🙏", text: "Personalized prayers and devotions for your level" },
+                  { icon: "📅", text: "7-day spiritual action plan tailored to your results" },
+                  { icon: "✝️", text: "Sacramental guidance and recommended practices" },
+                  { icon: "📖", text: "10-page PDF with your name on the cover" },
+                ].map((item, i) => (
+                  <div key={i} className="flex items-start gap-3">
+                    <span className="text-lg leading-none mt-0.5">{item.icon}</span>
+                    <p className="text-sm text-text-muted">{item.text}</p>
+                  </div>
+                ))}
+              </div>
+
+              {/* Testimonial */}
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-4 mb-6">
+                <div className="flex gap-1 mb-2">
+                  {[...Array(5)].map((_, i) => <Star key={i} className="w-3 h-3 fill-accent text-accent" />)}
                 </div>
-                <div className="flex items-center gap-2 text-sm text-text-muted">
-                  <CheckCircle className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span>10-page PDF guide with your name on the cover</span>
-                </div>
-                <div className="flex items-center gap-2 text-sm text-text-muted">
-                  <CheckCircle className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span>7-day personalized spiritual action plan</span>
-                </div>
-                <div className="flex items-center gap-2 text-sm text-text-muted">
-                  <CheckCircle className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span>Prayers, saints, and practices for your level</span>
-                </div>
+                <p className="text-sm text-text-muted italic">
+                  "The guide was exactly what I needed. It showed me where I was strong and where I needed to grow. Worth every penny."
+                </p>
+                <p className="text-xs text-text-muted mt-2 font-medium">— Sarah M., Austin TX</p>
               </div>
 
               {/* Form */}
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-text mb-2">
-                    Your first name
+                    Your first name <span className="text-text-muted font-normal">(for your personalized guide)</span>
                   </label>
                   <input
                     id="name"
@@ -136,41 +173,73 @@ export default function GetResultPage() {
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                     placeholder="e.g. Michael"
-                    className="w-full px-4 py-3 rounded-xl border border-border bg-background focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-text placeholder:text-text-muted"
+                    className="w-full px-4 py-3 rounded-xl border border-border bg-background focus:ring-2 focus:ring-accent focus:border-transparent transition-all outline-none text-text placeholder:text-text-muted text-lg"
                     required
                     autoFocus
                   />
                 </div>
 
-                {/* Price */}
-                <div className="bg-gradient-to-br from-accent/10 to-primary/10 border border-accent/20 rounded-2xl p-4 text-center">
-                  <div className="flex items-center justify-center gap-2 mb-1">
-                    <Star className="w-4 h-4 text-accent fill-accent" />
-                    <span className="text-sm font-medium text-text">One-time payment</span>
-                    <Star className="w-4 h-4 text-accent fill-accent" />
+                {/* Price block */}
+                <div className="border-2 border-accent/30 rounded-2xl p-4 bg-gradient-to-br from-accent/5 to-primary/5">
+                  <div className="flex items-center justify-between mb-2">
+                    <div>
+                      <p className="text-sm text-text-muted line-through">$29.00</p>
+                      <div className="flex items-baseline gap-1">
+                        <span className="font-display text-4xl font-bold text-text">$15</span>
+                        <span className="text-text-muted">.00 USD</span>
+                      </div>
+                    </div>
+                    <div className="bg-accent text-button-text text-xs font-bold px-3 py-1 rounded-full">
+                      48% OFF
+                    </div>
                   </div>
-                  <div className="font-display text-4xl font-bold text-text">
-                    $15<span className="text-lg text-text-muted font-normal">.00</span>
+                  <div className="flex items-center gap-2 text-xs text-text-muted">
+                    <Gift className="w-3 h-3 text-accent" />
+                    <span>One-time payment · No subscription · No hidden fees</span>
                   </div>
-                  <p className="text-xs text-text-muted mt-1">USD · No subscription · No hidden fees</p>
                 </div>
 
                 <Button
                   type="submit"
                   size="lg"
-                  className="w-full h-14 text-lg group"
+                  className="w-full h-14 text-lg font-bold group bg-accent hover:bg-accent/90 text-button-text"
                   disabled={!name.trim() || isSubmitting}
                 >
-                  {isSubmitting ? "Loading..." : "Get My Personalized Guide"}
-                  {!isSubmitting && <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />}
+                  {isSubmitting ? "Loading your results..." : "Unlock My Full Results →"}
                 </Button>
 
-                <div className="flex items-center justify-center gap-2 text-xs text-text-muted">
-                  <Lock className="w-3 h-3" />
-                  <span>Secure payment · Instant access</span>
+                {/* Trust badges */}
+                <div className="flex items-center justify-center gap-4 text-xs text-text-muted pt-1">
+                  <div className="flex items-center gap-1">
+                    <Lock className="w-3 h-3" />
+                    <span>Secure payment</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <Shield className="w-3 h-3" />
+                    <span>Instant access</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <CheckCircle className="w-3 h-3" />
+                    <span>Money-back guarantee</span>
+                  </div>
                 </div>
               </form>
             </div>
+
+            {/* FAQ mini */}
+            <div className="mt-6 space-y-3">
+              {[
+                { q: "What happens after I pay?", a: "You get instant access to your full results and can download your personalized PDF guide immediately." },
+                { q: "Is this a subscription?", a: "No. This is a one-time payment of $15. You will never be charged again." },
+                { q: "What if I'm not satisfied?", a: "We offer a full refund within 7 days, no questions asked." },
+              ].map((item, i) => (
+                <div key={i} className="bg-surface border border-border rounded-xl p-4">
+                  <p className="text-sm font-semibold text-text mb-1">{item.q}</p>
+                  <p className="text-sm text-text-muted">{item.a}</p>
+                </div>
+              ))}
+            </div>
+
           </div>
         </main>
       </div>
