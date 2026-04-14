@@ -651,56 +651,73 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
       </div>
 
       {/* ── 8. RECOMMENDATIONS + PRAYERS ── */}
-      <div className="bg-card rounded-2xl p-6 border border-border/50 mb-6">
-        <div className="flex items-center gap-3 mb-5">
+      <div className="bg-card rounded-2xl border border-border/50 mb-6 overflow-hidden">
+        {/* Header */}
+        <div className="bg-gradient-to-r from-primary/8 to-accent/8 px-6 py-5 border-b border-border/40 flex items-center gap-3">
           <div className="w-10 h-10 rounded-xl bg-accent/20 flex items-center justify-center">
             <Sparkles className="w-5 h-5 text-accent" />
           </div>
           <div>
             <h3 className="font-display text-lg text-primary">Your Spiritual Growth Plan</h3>
-            <p className="text-sm text-muted-foreground">Recommendations and prayers for your level</p>
+            <p className="text-sm text-muted-foreground">Personalized recommendations and prayers for your level</p>
           </div>
         </div>
 
-        <h4 className="font-semibold text-foreground text-sm mb-3">Recommendations</h4>
-        <ul className="space-y-2 mb-6">
-          {recomendacoes.map((rec, i) => (
-            <li key={i} className="flex items-start gap-3 bg-secondary/30 rounded-lg p-3">
-              <span className="w-5 h-5 rounded-full bg-accent text-accent-foreground flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">{i + 1}</span>
-              <span className="text-sm text-foreground">{rec}</span>
-            </li>
-          ))}
-        </ul>
+        <div className="p-6">
+          {/* Recommendations */}
+          <p className="text-xs font-bold text-muted-foreground uppercase tracking-widest mb-3">Recommendations</p>
+          <ul className="space-y-2 mb-8">
+            {recomendacoes.map((rec, i) => (
+              <li key={i} className="flex items-start gap-3 rounded-xl p-3 border border-border/50 bg-background hover:bg-secondary/20 transition-colors">
+                <span className="w-6 h-6 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">{i + 1}</span>
+                <span className="text-sm text-foreground leading-relaxed">{rec}</span>
+              </li>
+            ))}
+          </ul>
 
-        <h4 className="font-semibold text-foreground text-sm mb-3">Suggested Prayers</h4>
-        <div className="grid md:grid-cols-2 gap-2">
-          {oracoes.map((oracao, i) => (
-            <div key={i} className="flex items-center gap-2 bg-primary/5 rounded-lg p-3">
-              <Heart className="w-4 h-4 text-accent flex-shrink-0" />
-              <span className="text-sm text-foreground">{oracao}</span>
-            </div>
-          ))}
+          {/* Divider */}
+          <div className="flex items-center gap-3 mb-5">
+            <div className="flex-1 h-px bg-border" />
+            <span className="text-xs font-bold text-muted-foreground uppercase tracking-widest">Suggested Prayers</span>
+            <div className="flex-1 h-px bg-border" />
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-2">
+            {oracoes.map((oracao, i) => (
+              <div key={i} className="flex items-center gap-3 rounded-xl p-3 bg-gradient-to-r from-primary/5 to-accent/5 border border-primary/10">
+                <div className="w-7 h-7 rounded-full bg-accent/15 flex items-center justify-center flex-shrink-0">
+                  <Heart className="w-3.5 h-3.5 text-accent" />
+                </div>
+                <span className="text-sm text-foreground font-medium">{oracao}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
-      {/* ── 9. DOWNLOAD CTA (repeated at bottom) ── */}
-      <div className="bg-gradient-to-br from-primary via-primary to-accent rounded-2xl p-6 md:p-8 mb-6 text-primary-foreground text-center relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-48 h-48 bg-white/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
-        <div className="relative z-10">
-          <div className="w-14 h-14 mx-auto mb-4 bg-white/20 rounded-full flex items-center justify-center">
-            <Download className="w-7 h-7" />
+      {/* ── 9. DOWNLOAD CTA ── */}
+      <div className="relative rounded-2xl mb-6 overflow-hidden">
+        {/* Background layers */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/95 to-accent" />
+        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 20% 50%, white 1px, transparent 1px), radial-gradient(circle at 80% 20%, white 1px, transparent 1px)", backgroundSize: "40px 40px" }} />
+
+        <div className="relative z-10 p-8 text-center text-primary-foreground">
+          <div className="inline-flex items-center gap-2 bg-white/15 rounded-full px-4 py-1.5 mb-5 text-xs font-semibold tracking-wide uppercase">
+            <Download className="w-3.5 h-3.5" />
+            Exclusive PDF Guide
           </div>
-          <h4 className="font-display text-xl mb-2">Download the Complete Catholic Life Guide</h4>
-          <p className="text-primary-foreground/70 text-sm mb-5 max-w-md mx-auto">
-            10-page PDF with daily prayers, devotions, Church teachings and your personalized plan.
+          <h4 className="font-display text-2xl font-bold mb-2">Complete Catholic Life Guide</h4>
+          <p className="text-primary-foreground/70 text-sm mb-6 max-w-sm mx-auto leading-relaxed">
+            11 pages of prayers, devotions, sacraments, and your personalized spiritual plan — ready to download.
           </p>
           <Button
             onClick={handleDownloadGuide}
-            className="h-12 px-8 bg-white text-primary hover:bg-white/90 font-bold shadow-lg w-full sm:w-auto"
+            className="h-13 px-10 bg-white text-primary hover:bg-white/95 font-bold text-base shadow-xl shadow-black/20 w-full sm:w-auto transition-all hover:scale-105"
           >
             <Download className="w-4 h-4 mr-2" />
-            Download Guide (PDF)
+            Download My Guide (PDF)
           </Button>
+          <p className="text-primary-foreground/40 text-xs mt-3">Personalized for {firstName} · Instant download</p>
         </div>
       </div>
 
@@ -709,7 +726,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         <Button
           onClick={handleShare}
           variant="outline"
-          className="flex-1 h-12 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+          className="flex-1 h-12 border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground font-semibold"
         >
           <Share2 className="w-4 h-4 mr-2" />
           Share with Friends
@@ -717,20 +734,23 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
         <Button
           onClick={onRestart}
           variant="ghost"
-          className="flex-1 h-12 text-muted-foreground hover:text-foreground"
+          className="flex-1 h-12 text-muted-foreground hover:text-foreground text-sm"
         >
-          <RotateCcw className="w-4 h-4 mr-2" />
+          <RotateCcw className="w-3.5 h-3.5 mr-2" />
           Retake Quiz
         </Button>
       </div>
 
       {/* ── 11. EVANGELIZATION ── */}
-      <div className="bg-primary text-primary-foreground rounded-2xl p-6 text-center">
-        <h4 className="font-display text-lg mb-2">Share the Faith with Your Friends!</h4>
-        <p className="text-primary-foreground/70 text-sm mb-4">
-          Help your friends discover how their Catholic life is going. Share this quiz and evangelize through your witness!
+      <div className="rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5 p-6 text-center mb-8">
+        <div className="w-10 h-10 rounded-full bg-accent/15 flex items-center justify-center mx-auto mb-3">
+          <Share2 className="w-5 h-5 text-accent" />
+        </div>
+        <h4 className="font-display text-lg text-primary mb-2">Share the Faith with Your Friends</h4>
+        <p className="text-muted-foreground text-sm mb-4 max-w-sm mx-auto">
+          Help your friends discover how their Catholic life is going. Evangelization begins with a simple invitation.
         </p>
-        <Button onClick={handleShare} className="bg-accent text-accent-foreground hover:bg-accent/90">
+        <Button onClick={handleShare} variant="outline" className="border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground font-semibold">
           <Share2 className="w-4 h-4 mr-2" />
           Share guidecatholic.com
         </Button>
