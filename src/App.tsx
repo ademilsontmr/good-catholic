@@ -63,6 +63,12 @@ import LectioDivinaGuideExpanded from "./pages/blog/LectioDivinaGuideExpanded";
 import RosaryCompleteGuide from "./pages/blog/RosaryCompleteGuide";
 import ExaminationOfConscienceGuide from "./pages/blog/ExaminationOfConscienceGuide";
 import CatholicFastingRules from "./pages/blog/CatholicFastingRules";
+// Saints Articles Batch 5
+import SaintPadrePio from "./pages/blog/SaintPadrePio";
+import SaintThereseOfLisieux from "./pages/blog/SaintThereseOfLisieux";
+import BlessedCarloAcutis from "./pages/blog/BlessedCarloAcutis";
+import SaintMichaelArchangel from "./pages/blog/SaintMichaelArchangel";
+import SaintAnthonyOfPadua from "./pages/blog/SaintAnthonyOfPadua";
 // Novena Articles
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -141,6 +147,11 @@ const App = () => (
             <Route path="/blog/rosary-complete-guide/" element={<RosaryCompleteGuide />} />
             <Route path="/blog/examination-of-conscience-guide/" element={<ExaminationOfConscienceGuide />} />
             <Route path="/blog/catholic-fasting-rules/" element={<CatholicFastingRules />} />
+            <Route path="/blog/saint-padre-pio/" element={<SaintPadrePio />} />
+            <Route path="/blog/saint-therese-of-lisieux/" element={<SaintThereseOfLisieux />} />
+            <Route path="/blog/blessed-carlo-acutis/" element={<BlessedCarloAcutis />} />
+            <Route path="/blog/saint-michael-archangel/" element={<SaintMichaelArchangel />} />
+            <Route path="/blog/saint-anthony-of-padua/" element={<SaintAnthonyOfPadua />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

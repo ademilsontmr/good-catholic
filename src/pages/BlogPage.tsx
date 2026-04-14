@@ -583,6 +583,66 @@ export const blogPosts: BlogPost[] = [
     icon: Flame,
     bgColor: "bg-orange-100",
     iconColor: "text-orange-400"
+  },
+  {
+    id: 48,
+    slug: "saint-padre-pio",
+    title: "St. Padre Pio: Life, Stigmata, Miracles and Prayers",
+    excerpt: "Discover the life of St. Padre Pio: his stigmata, miracles, spiritual gifts, famous quotes, and a prayer to this beloved Capuchin friar canonized by Pope John Paul II in 2002.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Saints",
+    icon: Cross,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 49,
+    slug: "saint-therese-of-lisieux",
+    title: "St. Thérèse of Lisieux: The Little Way to Holiness",
+    excerpt: "Discover the life of St. Thérèse of Lisieux — her Little Way of spiritual childhood, her autobiography Story of a Soul, her death at 24, and her promise to spend her heaven doing good on earth.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Saints",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 50,
+    slug: "blessed-carlo-acutis",
+    title: "Blessed Carlo Acutis: The Millennial Saint and Patron of the Internet",
+    excerpt: "Discover the life of Blessed Carlo Acutis — his Eucharistic devotion, his website cataloguing Eucharistic miracles, his death from leukemia at 15, and his canonization in 2025.",
+    date: "2026-04-14",
+    readTime: "10 min",
+    category: "Saints",
+    icon: Sun,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 51,
+    slug: "saint-michael-archangel",
+    title: "St. Michael the Archangel: Prayer, Devotion and His Role in Scripture",
+    excerpt: "Learn about St. Michael the Archangel — his four roles in Scripture, the full text of the Prayer to St. Michael, its history with Pope Leo XIII, and how to develop devotion.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Devotions",
+    icon: Shield,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 52,
+    slug: "saint-anthony-of-padua",
+    title: "St. Anthony of Padua: Patron of Lost Things and Powerful Intercessor",
+    excerpt: "Discover the life of St. Anthony of Padua — his extraordinary preaching gifts, why he is patron of lost things, the Responsory Si quaeris miracula, and a prayer to St. Anthony.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Saints",
+    icon: BookOpen,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
   }
 ];
 
