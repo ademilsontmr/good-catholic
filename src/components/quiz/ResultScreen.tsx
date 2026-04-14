@@ -127,6 +127,7 @@ const getOracoesSugeridas = (score: number) => {
       "Meditation on the Church Fathers",
       "Novena to the Holy Spirit",
       "Daily Consecration to Our Lady",
+      "Chaplet of Divine Mercy",
     ];
   }
   if (score >= 50) {
@@ -136,6 +137,7 @@ const getOracoesSugeridas = (score: number) => {
       "Evening Examination of Conscience",
       "Novenas to the Saints",
       "Family Prayer",
+      "Chaplet of Divine Mercy",
     ];
   }
   return [
@@ -144,6 +146,7 @@ const getOracoesSugeridas = (score: number) => {
     "Holy Rosary (at least on Saturdays)",
     "Visit the Blessed Sacrament when passing by a Church",
     "Guardian Angel Prayer",
+    "Act of Contrition before sleeping",
   ];
 };
 
