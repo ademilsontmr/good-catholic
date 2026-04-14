@@ -5,7 +5,6 @@ import { Cross, ArrowRight, Lock, Star, FileText, CheckCircle, Shield, Clock, Gi
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/aFa14ndms1hVgHQ6W27EQ00";
 const STORAGE_KEY = "gc_quiz_session";
 
 interface LocationState {
@@ -48,7 +47,7 @@ export default function GetResultPage() {
     ? "Your score reveals specific areas where you can grow significantly."
     : "Your score shows a real opportunity for spiritual transformation.";
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!name.trim()) return;
     setIsSubmitting(true);
@@ -76,10 +75,27 @@ export default function GetResultPage() {
     // Also save in sessionStorage as backup (persists through external redirects)
     sessionStorage.setItem("gc_pending_session", sessionId);
 
-    // Build Stripe URL — pass sessionId as query param
-    // Stripe Payment Links inject query params into the confirmation page redirect
-    const stripeUrl = `${STRIPE_PAYMENT_LINK}?sid=${sessionId}`;
-    window.location.href = stripeUrl;
+    try {
+      // Call Cloudflare Worker to create Stripe Checkout Session
+      const response = await fetch("/create-checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId }),
+      });
+
+      const data = await response.json();
+
+      if (data.url) {
+        // Redirect to Stripe Checkout with unique success_url containing sessionId
+        window.location.href = data.url;
+      } else {
+        console.error("Stripe error:", data.error);
+        setIsSubmitting(false);
+      }
+    } catch (err) {
+      console.error("Checkout error:", err);
+      setIsSubmitting(false);
+    }
   };
 
   return (
