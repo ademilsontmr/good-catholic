@@ -305,35 +305,50 @@ const getSantoProtetor = (areaScores: ReturnType<typeof getAreaScores>, score: n
   return candidates[idx];
 };
 
-// Virtues to develop
+// Virtues to develop — large pool, 3 selected based on score
 const getVirtudes = (score: number, areaScores: ReturnType<typeof getAreaScores>) => {
-  const virtudes = [];
-  
-  if (areaScores.eucaristica < 60) {
-    virtudes.push({ nome: "Piety", descricao: "Reverence and love for sacred things" });
-  }
-  if (areaScores.oracao < 60) {
-    virtudes.push({ nome: "Perseverance", descricao: "Constancy in prayer life" });
-  }
-  if (areaScores.formacao < 60) {
-    virtudes.push({ nome: "Prudence", descricao: "Discernment to know God's will" });
-  }
-  if (areaScores.devocoes < 60) {
-    virtudes.push({ nome: "Devotion", descricao: "Readiness to serve God" });
-  }
-  if (areaScores.testemunho < 60) {
-    virtudes.push({ nome: "Charity", descricao: "Love of God and neighbor" });
-  }
-  
-  if (virtudes.length === 0) {
-    virtudes.push(
-      { nome: "Humility", descricao: "Recognizing that all good comes from God" },
-      { nome: "Fortitude", descricao: "Persevering through tribulations" },
-      { nome: "Hope", descricao: "Trust in God's promises" }
-    );
-  }
-  
-  return virtudes.slice(0, 3);
+  const allVirtues = [
+    // Theological virtues
+    { nome: "Faith", descricao: "Firm belief in God and all He has revealed" },
+    { nome: "Hope", descricao: "Trust in God's promises and eternal life" },
+    { nome: "Charity", descricao: "Love of God above all and neighbor as oneself" },
+    // Cardinal virtues
+    { nome: "Prudence", descricao: "Discernment to know and choose the good" },
+    { nome: "Justice", descricao: "Giving to God and neighbor what is their due" },
+    { nome: "Fortitude", descricao: "Courage to persevere through tribulations" },
+    { nome: "Temperance", descricao: "Moderation of pleasures and earthly goods" },
+    // Moral virtues
+    { nome: "Humility", descricao: "Recognizing that all good comes from God" },
+    { nome: "Purity", descricao: "Integrity of heart, mind, and body" },
+    { nome: "Obedience", descricao: "Submission to God's will and lawful authority" },
+    { nome: "Patience", descricao: "Bearing suffering with peace and trust in God" },
+    { nome: "Generosity", descricao: "Freely giving of time, talent, and treasure" },
+    { nome: "Piety", descricao: "Reverence and devotion toward God and sacred things" },
+    { nome: "Perseverance", descricao: "Constancy in prayer and the spiritual life" },
+    { nome: "Meekness", descricao: "Gentleness of spirit in dealing with others" },
+    { nome: "Gratitude", descricao: "Thankfulness to God for all His gifts" },
+    { nome: "Zeal", descricao: "Fervent desire to serve God and spread the faith" },
+    { nome: "Detachment", descricao: "Freedom from excessive attachment to earthly things" },
+    { nome: "Devotion", descricao: "Readiness and eagerness to serve God" },
+    { nome: "Compassion", descricao: "Sharing in the suffering of others with love" },
+  ];
+
+  // Use score + area scores to deterministically pick 3 different virtues
+  const seed = score + areaScores.eucaristica + areaScores.oracao;
+  const i1 = seed % allVirtues.length;
+  const i2 = (seed * 3 + 7) % allVirtues.length;
+  const i3 = (seed * 7 + 13) % allVirtues.length;
+
+  // Ensure no duplicates
+  const indices = [i1];
+  let next = i2;
+  while (indices.includes(next)) next = (next + 1) % allVirtues.length;
+  indices.push(next);
+  next = i3;
+  while (indices.includes(next)) next = (next + 1) % allVirtues.length;
+  indices.push(next);
+
+  return indices.map(i => allVirtues[i]);
 };
 
 export function ResultScreen({ score, level, userName, answers, onRestart }: ResultScreenProps) {
