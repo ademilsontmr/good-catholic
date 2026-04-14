@@ -177,34 +177,46 @@ const getSantoCitacao = (score: number) => {
   };
 };
 
-// Personalized Bible verse
+// Bible verse — large pool, selected based on score + weakest area
 const getVersiculoPersonalizado = (score: number, areaScores: ReturnType<typeof getAreaScores>) => {
   const weakestArea = Object.entries(areaScores).reduce((a, b) => a[1] < b[1] ? a : b)[0];
-  
-  const versiculos: Record<string, { texto: string; referencia: string }> = {
-    eucaristica: {
-      texto: "I am the living bread that came down from heaven. Whoever eats this bread will live forever.",
-      referencia: "John 6:51"
-    },
-    oracao: {
-      texto: "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.",
-      referencia: "Matthew 7:7"
-    },
-    formacao: {
-      texto: "You will know the truth, and the truth will set you free.",
-      referencia: "John 8:32"
-    },
-    devocoes: {
-      texto: "Here is your mother. And from that time on, the disciple took her into his home.",
-      referencia: "John 19:27"
-    },
-    testemunho: {
-      texto: "You are the light of the world. A city on a hill cannot be hidden.",
-      referencia: "Matthew 5:14"
-    }
+
+  const pool: Record<string, Array<{ texto: string; referencia: string }>> = {
+    eucaristica: [
+      { texto: "I am the living bread that came down from heaven. Whoever eats this bread will live forever.", referencia: "John 6:51" },
+      { texto: "Do this in remembrance of me.", referencia: "Luke 22:19" },
+      { texto: "My flesh is real food and my blood is real drink. Whoever eats my flesh and drinks my blood remains in me, and I in them.", referencia: "John 6:55-56" },
+      { texto: "The cup of blessing that we bless, is it not a participation in the blood of Christ?", referencia: "1 Corinthians 10:16" },
+    ],
+    oracao: [
+      { texto: "Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.", referencia: "Matthew 7:7" },
+      { texto: "Pray without ceasing.", referencia: "1 Thessalonians 5:17" },
+      { texto: "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God.", referencia: "Philippians 4:6" },
+      { texto: "The Lord is near to all who call on him, to all who call on him in truth.", referencia: "Psalm 145:18" },
+    ],
+    formacao: [
+      { texto: "You will know the truth, and the truth will set you free.", referencia: "John 8:32" },
+      { texto: "Your word is a lamp to my feet and a light to my path.", referencia: "Psalm 119:105" },
+      { texto: "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness.", referencia: "2 Timothy 3:16" },
+      { texto: "Faith comes from hearing, and hearing through the word of Christ.", referencia: "Romans 10:17" },
+    ],
+    devocoes: [
+      { texto: "Here is your mother. And from that time on, the disciple took her into his home.", referencia: "John 19:27" },
+      { texto: "Behold, I am the handmaid of the Lord; let it be to me according to your word.", referencia: "Luke 1:38" },
+      { texto: "My soul magnifies the Lord, and my spirit rejoices in God my Savior.", referencia: "Luke 1:46-47" },
+      { texto: "All generations will call me blessed.", referencia: "Luke 1:48" },
+    ],
+    testemunho: [
+      { texto: "You are the light of the world. A city on a hill cannot be hidden.", referencia: "Matthew 5:14" },
+      { texto: "Go therefore and make disciples of all nations.", referencia: "Matthew 28:19" },
+      { texto: "Let your light shine before others, so that they may see your good works and give glory to your Father in heaven.", referencia: "Matthew 5:16" },
+      { texto: "We are ambassadors for Christ, God making his appeal through us.", referencia: "2 Corinthians 5:20" },
+    ],
   };
-  
-  return versiculos[weakestArea] || versiculos.oracao;
+
+  const candidates = pool[weakestArea] || pool.oracao;
+  const idx = (score + areaScores.devocoes) % candidates.length;
+  return candidates[idx];
 };
 
 // Personalized 7-day plan
