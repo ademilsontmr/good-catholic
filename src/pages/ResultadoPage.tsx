@@ -20,8 +20,15 @@ const ResultadoPage = () => {
   useEffect(() => {
     const sessions = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
 
-    // 1. PRIMARY: session ID in URL ?sid=xxx (most reliable — works across tabs/devices)
+    // Debug: log what we have
+    console.log("URL params:", window.location.search);
+    console.log("localStorage pending:", localStorage.getItem("gc_pending_session"));
+    console.log("sessionStorage pending:", sessionStorage.getItem("gc_pending_session"));
+    console.log("sessions keys:", Object.keys(sessions));
+
+    // 1. PRIMARY: session ID in URL ?sid=xxx
     const sidFromUrl = searchParams.get("sid");
+    console.log("sid from URL:", sidFromUrl);
     if (sidFromUrl && sessions[sidFromUrl]) {
       setSessionData(sessions[sidFromUrl]);
       setPaymentVerified(true);
@@ -30,17 +37,42 @@ const ResultadoPage = () => {
       return;
     }
 
-    // 2. FALLBACK: pending session in localStorage (same tab/browser)
-    const pendingSessionId = localStorage.getItem("gc_pending_session");
-    if (pendingSessionId && sessions[pendingSessionId]) {
+    // 2. FALLBACK A: localStorage pending session
+    const pendingLS = localStorage.getItem("gc_pending_session");
+    if (pendingLS && sessions[pendingLS]) {
       localStorage.removeItem("gc_pending_session");
-      setSessionData(sessions[pendingSessionId]);
+      sessionStorage.removeItem("gc_pending_session");
+      setSessionData(sessions[pendingLS]);
       setPaymentVerified(true);
       setLoading(false);
       return;
     }
 
-    // 3. DEV/TEST: direct navigation with location state
+    // 3. FALLBACK B: sessionStorage pending session
+    const pendingSS = sessionStorage.getItem("gc_pending_session");
+    if (pendingSS && sessions[pendingSS]) {
+      localStorage.removeItem("gc_pending_session");
+      sessionStorage.removeItem("gc_pending_session");
+      setSessionData(sessions[pendingSS]);
+      setPaymentVerified(true);
+      setLoading(false);
+      return;
+    }
+
+    // 4. FALLBACK C: most recent session (last resort — within 30 min)
+    const allSessions = Object.entries(sessions) as [string, QuizSessionData][];
+    const recent = allSessions
+      .filter(([, d]) => Date.now() - d.createdAt < 30 * 60 * 1000)
+      .sort(([, a], [, b]) => b.createdAt - a.createdAt)[0];
+    if (recent) {
+      console.log("Using most recent session:", recent[0]);
+      setSessionData(recent[1]);
+      setPaymentVerified(true);
+      setLoading(false);
+      return;
+    }
+
+    // 5. DEV/TEST: direct navigation with location state
     const locationState = location.state as (QuizSessionData & { localMode?: boolean }) | null;
     if (locationState?.localMode && locationState.score !== undefined) {
       setSessionData({
@@ -55,7 +87,7 @@ const ResultadoPage = () => {
       return;
     }
 
-    // 4. No valid session
+    // 6. No valid session
     navigate("/quiz", { replace: true });
   }, []);
 

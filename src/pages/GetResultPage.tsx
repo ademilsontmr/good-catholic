@@ -5,7 +5,7 @@ import { Cross, ArrowRight, Lock, Star, FileText, CheckCircle, Shield, Clock, Gi
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
-const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/aFa14ndms1hVgHQ6W27EQ00";
+const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/test_aFa14ndms1hVgHQ6W27EQ00"; // TEST MODE
 const STORAGE_KEY = "gc_quiz_session";
 
 interface LocationState {
@@ -73,6 +73,8 @@ export default function GetResultPage() {
 
     // Save session ID separately so ResultadoPage can find it on return
     localStorage.setItem("gc_pending_session", sessionId);
+    // Also save in sessionStorage as backup (persists through external redirects)
+    sessionStorage.setItem("gc_pending_session", sessionId);
 
     // Build Stripe URL — pass sessionId as query param
     // Stripe Payment Links inject query params into the confirmation page redirect
