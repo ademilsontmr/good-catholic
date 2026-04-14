@@ -51,6 +51,12 @@ import HowToBecomeCatholic from "./pages/blog/HowToBecomeCatholic";
 import CatholicBaptismGuide from "./pages/blog/CatholicBaptismGuide";
 import CatholicConfirmationGuide from "./pages/blog/CatholicConfirmationGuide";
 import CatholicMarriageGuide from "./pages/blog/CatholicMarriageGuide";
+// FAQ Articles Batch 3
+import WhyPrayToSaints from "./pages/blog/WhyPrayToSaints";
+import DoCatholicsWorshipMary from "./pages/blog/DoCatholicsWorshipMary";
+import CatholicVsProtestant from "./pages/blog/CatholicVsProtestant";
+import WhatIsTheMassGuide from "./pages/blog/WhatIsTheMassGuide";
+import IsTheCatholicChurchTrue from "./pages/blog/IsTheCatholicChurchTrue";
 // Novena Articles
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -119,6 +125,11 @@ const App = () => (
             <Route path="/blog/catholic-baptism-guide/" element={<CatholicBaptismGuide />} />
             <Route path="/blog/catholic-confirmation-guide/" element={<CatholicConfirmationGuide />} />
             <Route path="/blog/catholic-marriage-guide/" element={<CatholicMarriageGuide />} />
+            <Route path="/blog/why-do-catholics-pray-to-saints/" element={<WhyPrayToSaints />} />
+            <Route path="/blog/do-catholics-worship-mary/" element={<DoCatholicsWorshipMary />} />
+            <Route path="/blog/catholic-vs-protestant-differences/" element={<CatholicVsProtestant />} />
+            <Route path="/blog/what-is-the-catholic-mass/" element={<WhatIsTheMassGuide />} />
+            <Route path="/blog/is-the-catholic-church-the-true-church/" element={<IsTheCatholicChurchTrue />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

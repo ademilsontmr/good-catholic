@@ -267,6 +267,36 @@
     <priority>0.8</priority>
   </url>
   <!-- New Deep Articles (Batch 3) -->
+  <url>
+    <loc>https://guidecatholic.com/blog/why-do-catholics-pray-to-saints/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/do-catholics-worship-mary/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/catholic-vs-protestant-differences/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/what-is-the-catholic-mass/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/is-the-catholic-church-the-true-church/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Prosperity Articles (Batch 4) -->
   <!-- Popular Search Articles (Batch 5) -->
   <!-- Seven Sacraments Articles (Batch 6) -->

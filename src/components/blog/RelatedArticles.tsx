@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Shield, Cloud, Droplets, type LucideIcon } from "lucide-react";
+import { ArrowRight, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Shield, Cloud, Droplets, Cross, type LucideIcon } from "lucide-react";
 
 interface BlogPost {
     id: number;
@@ -45,6 +45,11 @@ const allPosts: BlogPost[] = [
     { id: 35, slug: "catholic-baptism-guide", title: "Catholic Baptism: What It Is, How It Works, and Why It Matters", excerpt: "Learn the theology of baptism, infant vs adult baptism, the rite, godparents, and effects of baptism.", category: "Sacraments", icon: Droplets, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
     { id: 36, slug: "catholic-confirmation-guide", title: "Catholic Confirmation: What It Is and How to Prepare", excerpt: "Learn what Confirmation is, the seven gifts of the Holy Spirit, how to choose a sponsor and confirmation name.", category: "Sacraments", icon: Flame, bgColor: "bg-orange-100", iconColor: "text-orange-400" },
     { id: 37, slug: "catholic-marriage-guide", title: "Catholic Marriage: What the Church Teaches About Holy Matrimony", excerpt: "Learn about marriage as a sacrament, unity, indissolubility, marriage preparation, and natural family planning.", category: "Sacraments", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
+    { id: 38, slug: "why-do-catholics-pray-to-saints", title: "Why Do Catholics Pray to Saints? Not Worship — Intercession Explained", excerpt: "Learn the difference between worship and intercession, the biblical basis for asking saints to pray for us, and how the Communion of Saints works.", category: "Doctrine", icon: Users, bgColor: "bg-amber-100", iconColor: "text-amber-400" },
+    { id: 39, slug: "do-catholics-worship-mary", title: "Do Catholics Worship Mary? Understanding Marian Devotion", excerpt: "Learn the difference between worship and veneration, what hyperdulia means, the four Marian dogmas, and how to explain Marian devotion to non-Catholics.", category: "Doctrine", icon: Heart, bgColor: "bg-rose-100", iconColor: "text-rose-400" },
+    { id: 40, slug: "catholic-vs-protestant-differences", title: "Catholic vs Protestant: Key Differences Explained", excerpt: "Learn about Scripture and Tradition, the sacraments, the papacy, purgatory, and how to have respectful dialogue with Protestant family and friends.", category: "Formation", icon: BookOpen, bgColor: "bg-indigo-100", iconColor: "text-indigo-400" },
+    { id: 41, slug: "what-is-the-catholic-mass", title: "What Is the Catholic Mass? A Complete Guide for Beginners", excerpt: "Learn the two main parts of the Mass, what happens at each stage, what to do as a visitor, and why Catholics go every Sunday.", category: "Liturgy", icon: Church, bgColor: "bg-violet-100", iconColor: "text-violet-400" },
+    { id: 42, slug: "is-the-catholic-church-the-true-church", title: "Is the Catholic Church the True Church? What Catholics Believe", excerpt: "Learn about the four marks of the Church, apostolic succession, historical continuity from Peter, and why Catholics believe the Church was founded by Christ.", category: "Doctrine", icon: Cross, bgColor: "bg-blue-100", iconColor: "text-blue-400" },
 ];
 
 export function RelatedArticles({ currentSlug }: { currentSlug: string }) {

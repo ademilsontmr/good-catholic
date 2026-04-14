@@ -463,6 +463,66 @@ export const blogPosts: BlogPost[] = [
     icon: Heart,
     bgColor: "bg-rose-100",
     iconColor: "text-rose-400"
+  },
+  {
+    id: 38,
+    slug: "why-do-catholics-pray-to-saints",
+    title: "Why Do Catholics Pray to Saints? Not Worship — Intercession Explained",
+    excerpt: "Learn the difference between worship and intercession, the biblical basis for asking saints to pray for us, and how the Communion of Saints works.",
+    date: "2026-04-14",
+    readTime: "10 min",
+    category: "Doctrine",
+    icon: Users,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 39,
+    slug: "do-catholics-worship-mary",
+    title: "Do Catholics Worship Mary? Understanding Marian Devotion",
+    excerpt: "Do Catholics worship Mary? Learn the difference between worship and veneration, what hyperdulia means, the four Marian dogmas, and how to explain Marian devotion to non-Catholics.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Doctrine",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 40,
+    slug: "catholic-vs-protestant-differences",
+    title: "Catholic vs Protestant: Key Differences Explained",
+    excerpt: "What are the key differences between Catholic and Protestant Christianity? Learn about Scripture and Tradition, the sacraments, the papacy, purgatory, and how to have respectful dialogue.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Formation",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-400"
+  },
+  {
+    id: 41,
+    slug: "what-is-the-catholic-mass",
+    title: "What Is the Catholic Mass? A Complete Guide for Beginners",
+    excerpt: "What is the Catholic Mass? Learn the two main parts of the Mass, what happens at each stage, what to do as a visitor, and why Catholics go every Sunday.",
+    date: "2026-04-14",
+    readTime: "13 min",
+    category: "Liturgy",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
+  },
+  {
+    id: 42,
+    slug: "is-the-catholic-church-the-true-church",
+    title: "Is the Catholic Church the True Church? What Catholics Believe",
+    excerpt: "Is the Catholic Church the one true Church? Learn about the four marks of the Church, apostolic succession, historical continuity from Peter, and why Catholics believe the Church was founded by Christ.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Doctrine",
+    icon: Cross,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
   }
 ];
 
