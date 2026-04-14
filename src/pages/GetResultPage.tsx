@@ -242,7 +242,7 @@ export default function GetResultPage() {
                 <Button
                   type="submit"
                   size="lg"
-                  className="w-full h-14 text-lg font-bold group bg-accent hover:bg-accent/90 text-button-text"
+                  className="w-full h-14 text-lg font-bold group bg-green-600 hover:bg-green-700 text-white"
                   disabled={!name.trim() || isSubmitting}
                 >
                   {isSubmitting ? "Loading your results..." : "Unlock My Full Results →"}
@@ -271,7 +271,7 @@ export default function GetResultPage() {
               {[
                 { q: "What happens after I pay?", a: "You get instant access to your full results and can download your personalized PDF guide immediately." },
                 { q: "Is this a subscription?", a: "No. This is a one-time payment of $15. You will never be charged again." },
-                { q: "What if I'm not satisfied?", a: "We offer a full refund within 7 days, no questions asked." },
+                { q: "Why is this worth $15?", a: "Your guide is 100% personalized based on your 30 answers — not a generic PDF. It includes your score breakdown, a 7-day spiritual plan, patron saint, prayers, and Church teachings tailored to your level." },
               ].map((item, i) => (
                 <div key={i} className="bg-surface border border-border rounded-xl p-4">
                   <p className="text-sm font-semibold text-text mb-1">{item.q}</p>
