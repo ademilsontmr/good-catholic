@@ -3,37 +3,56 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import { QuizHeader } from "@/components/quiz/QuizHeader";
 import { ResultScreen } from "@/components/quiz/ResultScreen";
-import { Loader2 } from "lucide-react";
+import { Loader2, CheckCircle } from "lucide-react";
 import { getResultLevel } from "@/data/quizQuestions";
+import type { QuizSessionData } from "./GetResultPage";
 
-interface LocationState {
-  score?: number;
-  answers?: number[];
-  localMode?: boolean;
-  userName?: string;
-}
+const STORAGE_KEY = "gc_quiz_session";
 
 const ResultadoPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
+  const [searchParams] = useSearchParams();
   const [loading, setLoading] = useState(true);
-  const [score, setScore] = useState<number | null>(null);
-  const [answers, setAnswers] = useState<number[]>([]);
-  const [userName, setUserName] = useState<string>("");
+  const [sessionData, setSessionData] = useState<QuizSessionData | null>(null);
+  const [paymentVerified, setPaymentVerified] = useState(false);
 
   useEffect(() => {
-    const locationState = location.state as LocationState | null;
+    // 1. Check for Stripe redirect — look for pending session in localStorage
+    const pendingSessionId = localStorage.getItem("gc_pending_session");
 
+    if (pendingSessionId) {
+      const sessions = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+      const data: QuizSessionData = sessions[pendingSessionId];
+
+      if (data) {
+        // Clear pending flag
+        localStorage.removeItem("gc_pending_session");
+        setSessionData(data);
+        setPaymentVerified(true);
+        setLoading(false);
+        return;
+      }
+    }
+
+    // 2. Check for direct navigation with location state (dev/test mode)
+    const locationState = location.state as (QuizSessionData & { localMode?: boolean }) | null;
     if (locationState?.localMode && locationState.score !== undefined) {
-      setScore(locationState.score);
-      setAnswers(locationState.answers || []);
-      setUserName(locationState.userName || "Friend");
+      setSessionData({
+        userName: locationState.userName || "Friend",
+        answers: locationState.answers || [],
+        score: locationState.score,
+        maxScore: locationState.maxScore || 90,
+        localMode: true,
+        createdAt: Date.now(),
+      });
       setLoading(false);
       return;
     }
 
+    // 3. No valid session — redirect to quiz
     navigate("/quiz", { replace: true });
-  }, [location.state, navigate]);
+  }, []);
 
   if (loading) {
     return (
@@ -46,11 +65,11 @@ const ResultadoPage = () => {
     );
   }
 
-  if (score === null) return null;
+  if (!sessionData) return null;
 
-  const maxScore = answers.length * 3;
-  const normalizedScore = maxScore > 0 ? Math.round((score / maxScore) * 100) : 0;
-  const level = getResultLevel(normalizedScore);
+  const maxPoints = sessionData.answers.length * 3 || 90;
+  const scorePercent = Math.min(100, Math.round((sessionData.score / maxPoints) * 100));
+  const level = getResultLevel(scorePercent);
 
   return (
     <>
@@ -63,11 +82,22 @@ const ResultadoPage = () => {
 
       <div className="min-h-screen bg-background">
         <QuizHeader />
+
+        {/* Payment confirmed banner */}
+        {paymentVerified && (
+          <div className="bg-green-50 border-b border-green-200 py-2">
+            <div className="container mx-auto px-4 flex items-center justify-center gap-2 text-sm text-green-700">
+              <CheckCircle className="w-4 h-4" />
+              <span>Payment confirmed — your personalized guide is ready!</span>
+            </div>
+          </div>
+        )}
+
         <ResultScreen
-          score={score}
+          score={scorePercent}
           level={level}
-          userName={userName}
-          answers={answers}
+          userName={sessionData.userName}
+          answers={sessionData.answers}
           onRestart={() => navigate("/quiz")}
         />
       </div>

@@ -5,11 +5,23 @@ import { Cross, ArrowRight, Lock, Star, FileText, CheckCircle, Shield, Clock, Gi
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
+const STRIPE_PAYMENT_LINK = "https://buy.stripe.com/aFa14ndms1hVgHQ6W27EQ00";
+const STORAGE_KEY = "gc_quiz_session";
+
 interface LocationState {
   answers: number[];
   score: number;
   maxScore: number;
   localMode: boolean;
+}
+
+export interface QuizSessionData {
+  userName: string;
+  answers: number[];
+  score: number;
+  maxScore: number;
+  localMode: boolean;
+  createdAt: number;
 }
 
 export default function GetResultPage() {
@@ -24,7 +36,6 @@ export default function GetResultPage() {
     return null;
   }
 
-  // Calculate a teaser score range to create curiosity
   const rawScore = state.score;
   const maxScore = state.maxScore;
   const percent = Math.round((rawScore / maxScore) * 100);
@@ -41,11 +52,30 @@ export default function GetResultPage() {
     e.preventDefault();
     if (!name.trim()) return;
     setIsSubmitting(true);
-    setTimeout(() => {
-      navigate("/result", {
-        state: { ...state, userName: name.trim() },
-      });
-    }, 400);
+
+    // Generate unique session ID
+    const sessionId = `gc_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+
+    // Save all quiz data to localStorage
+    const sessionData: QuizSessionData = {
+      userName: name.trim(),
+      answers: state.answers,
+      score: state.score,
+      maxScore: state.maxScore,
+      localMode: true,
+      createdAt: Date.now(),
+    };
+
+    // Store with session ID as key
+    const sessions = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+    sessions[sessionId] = sessionData;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(sessions));
+
+    // Save session ID separately so ResultadoPage can find it on return
+    localStorage.setItem("gc_pending_session", sessionId);
+
+    // Redirect to Stripe Payment Link
+    window.location.href = STRIPE_PAYMENT_LINK;
   };
 
   return (
