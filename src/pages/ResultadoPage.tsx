@@ -59,10 +59,22 @@ const ResultadoPage = () => {
       return;
     }
 
-    // 4. FALLBACK C: most recent session (last resort — within 30 min)
+    // 4. FALLBACK C: most recent session (last resort — within 10 min only)
     const allSessions = Object.entries(sessions) as [string, QuizSessionData][];
-    const recent = allSessions
-      .filter(([, d]) => Date.now() - d.createdAt < 30 * 60 * 1000)
+    // Clean up old sessions (older than 2 hours)
+    const now = Date.now();
+    let cleaned = false;
+    for (const [key, data] of allSessions) {
+      if (now - data.createdAt > 2 * 60 * 60 * 1000) {
+        delete sessions[key];
+        cleaned = true;
+      }
+    }
+    if (cleaned) localStorage.setItem(STORAGE_KEY, JSON.stringify(sessions));
+
+    const freshSessions = Object.entries(sessions) as [string, QuizSessionData][];
+    const recent = freshSessions
+      .filter(([, d]) => now - d.createdAt < 10 * 60 * 1000) // only within 10 min
       .sort(([, a], [, b]) => b.createdAt - a.createdAt)[0];
     if (recent) {
       console.log("Using most recent session:", recent[0]);
