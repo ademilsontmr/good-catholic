@@ -345,7 +345,7 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
 
   const handleDownloadGuide = () => {
     try {
-      generateCatholicGuidePDF({ userName, score: scorePercent, levelTitle: level.title });
+      generateCatholicGuidePDF({ userName, score: scorePercent, levelTitle: level.title, answers });
       toast.success("PDF generated successfully! Check your downloads.");
     } catch (error) {
       console.error("Error generating PDF:", error);

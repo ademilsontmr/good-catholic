@@ -4,9 +4,10 @@ interface GuideData {
   userName: string;
   score: number;
   levelTitle: string;
+  answers?: number[];
 }
 
-export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideData) => {
+export const generateCatholicGuidePDF = ({ userName, score, levelTitle, answers = [] }: GuideData) => {
   const doc = new jsPDF();
   const pageWidth = doc.internal.pageSize.getWidth();
   const pageHeight = doc.internal.pageSize.getHeight();
@@ -14,6 +15,56 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   const contentWidth = pageWidth - margin * 2;
   
   const firstName = userName.split(" ")[0];
+
+  // Calculate area scores from answers
+  const getAreaScore = (start: number, end: number): number => {
+    const slice = answers.slice(start, end);
+    if (slice.length === 0) return score; // fallback to overall score
+    const total = slice.reduce((sum, p) => sum + (p || 0), 0);
+    const max = slice.length * 3;
+    return Math.round((total / max) * 100);
+  };
+
+  const areaScores = {
+    eucaristica: getAreaScore(0, 7),
+    oracao: getAreaScore(7, 14),
+    formacao: getAreaScore(14, 20),
+    devocoes: getAreaScore(20, 26),
+    testemunho: getAreaScore(26, 30),
+  };
+
+  const getDiagnostico = (area: string, percent: number): string => {
+    const diagnosticos: Record<string, { high: string; medium: string; low: string }> = {
+      eucaristica: {
+        high: `${firstName}, you live the Eucharist as the center of your faith! Holy Mass is truly the "source and summit" of your Christian life. Continue participating with this devotion.`,
+        medium: `${firstName}, you have good Eucharistic participation, but there is room to grow. Try arriving earlier for Mass and giving thanks after Communion.`,
+        low: `${firstName}, the Eucharist is the greatest treasure Jesus left us. Seek to participate more actively in Sunday Mass and consider weekday Mass when possible.`,
+      },
+      oracao: {
+        high: `${firstName}, you cultivate a beautiful prayer life! As St. Teresa of Avila said: "Prayer is a relationship of friendship with God." Continue in this constant dialogue with the Lord.`,
+        medium: `${firstName}, your prayer life is developing. Establish fixed times to pray and include the Holy Rosary in your routine.`,
+        low: `${firstName}, prayer is the breathing of the soul. Start with small moments: a Hail Mary upon waking, an Our Father before sleeping.`,
+      },
+      formacao: {
+        high: `${firstName}, you seek to know the faith deeply! The Catechism and the Sacraments are pillars of your spiritual life. Continue studying and living the Church's teachings.`,
+        medium: `${firstName}, you have good knowledge of doctrine. To grow, read the Catechism and seek formation groups in your parish.`,
+        low: `${firstName}, knowing the faith is fundamental. Start with the Youth Catechism (YouCat) or participate in adult catechesis in your parish.`,
+      },
+      devocoes: {
+        high: `${firstName}, your devotions demonstrate a deep love for the Church's Tradition! Devotion to Our Lady and the Saints strengthens your faith journey.`,
+        medium: `${firstName}, you have good devotional practices. Consider making the Consecration to Our Lady and cultivating devotion to your patron saint.`,
+        low: `${firstName}, devotions are precious aids in spiritual life. Start by praying the Rosary daily — "the Rosary is the weapon of these times."`,
+      },
+      testemunho: {
+        high: `${firstName}, you are a true apostle! Your witness and generosity build up the Church. Continue being light to the world!`,
+        medium: `${firstName}, you live Christian values. Seek opportunities to serve in the community and share your faith with joy.`,
+        low: `${firstName}, we are called to be "salt of the earth and light of the world." Start by living the Gospel at home and at work.`,
+      },
+    };
+    if (percent >= 70) return diagnosticos[area].high;
+    if (percent >= 40) return diagnosticos[area].medium;
+    return diagnosticos[area].low;
+  };
   
   // Helper functions
   const centerText = (text: string, y: number, size: number = 12) => {
@@ -107,12 +158,117 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   addPageNumber(1);
 
   // ===============================
-  // PAGE 2 - INTRODUCTION
+  // PAGE 2 - COMPLETE ASSESSMENT
+  // ===============================
+  doc.addPage();
+  addTitle("Your Complete Assessment", 30);
+
+  let y = 45;
+
+  // Subtitle
+  doc.setFontSize(11);
+  doc.setTextColor(100, 100, 100);
+  doc.text(`${firstName}, here is your detailed spiritual profile across 5 key areas:`, margin, y);
+  doc.setTextColor(0, 0, 0);
+  y += 12;
+
+  const areas = [
+    { key: "eucaristica", label: "Eucharistic Life", score: areaScores.eucaristica },
+    { key: "oracao", label: "Prayer Life", score: areaScores.oracao },
+    { key: "formacao", label: "Formation & Sacraments", score: areaScores.formacao },
+    { key: "devocoes", label: "Devotions", score: areaScores.devocoes },
+    { key: "testemunho", label: "Christian Witness", score: areaScores.testemunho },
+  ];
+
+  // Progress bars section
+  for (const area of areas) {
+    // Label + score
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(11);
+    doc.setTextColor(12, 75, 148);
+    doc.text(area.label, margin, y);
+    doc.setFont("helvetica", "normal");
+    doc.setTextColor(0, 0, 0);
+    doc.setFontSize(11);
+    doc.text(`${area.score}%`, pageWidth - margin - doc.getTextWidth(`${area.score}%`), y);
+    y += 5;
+
+    // Background bar
+    doc.setFillColor(220, 220, 220);
+    doc.roundedRect(margin, y, contentWidth, 5, 2, 2, "F");
+
+    // Filled bar
+    const barColor = area.score >= 70 ? [34, 197, 94] : area.score >= 40 ? [212, 160, 23] : [12, 75, 148];
+    doc.setFillColor(barColor[0], barColor[1], barColor[2]);
+    const barWidth = Math.max(4, (area.score / 100) * contentWidth);
+    doc.roundedRect(margin, y, barWidth, 5, 2, 2, "F");
+    y += 12;
+  }
+
+  y += 6;
+
+  // Divider
+  doc.setDrawColor(220, 220, 220);
+  doc.setLineWidth(0.5);
+  doc.line(margin, y, pageWidth - margin, y);
+  y += 10;
+
+  // Detailed diagnostics
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(13);
+  doc.setTextColor(12, 75, 148);
+  doc.text("Detailed Diagnosis", margin, y);
+  doc.setFont("helvetica", "normal");
+  doc.setTextColor(0, 0, 0);
+  y += 10;
+
+  for (const area of areas) {
+    // Area header with badge
+    const badgeText = area.score >= 70 ? "Strong" : area.score >= 40 ? "Growing" : "Needs Attention";
+    const badgeColor: [number, number, number] = area.score >= 70 ? [34, 197, 94] : area.score >= 40 ? [212, 160, 23] : [239, 68, 68];
+
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(11);
+    doc.setTextColor(12, 75, 148);
+    doc.text(area.label, margin, y);
+
+    // Badge
+    const badgeX = pageWidth - margin - doc.getTextWidth(badgeText) - 6;
+    doc.setFillColor(...badgeColor);
+    doc.roundedRect(badgeX - 2, y - 5, doc.getTextWidth(badgeText) + 6, 7, 2, 2, "F");
+    doc.setTextColor(255, 255, 255);
+    doc.setFontSize(9);
+    doc.text(badgeText, badgeX + 1, y);
+
+    doc.setFont("helvetica", "normal");
+    doc.setTextColor(60, 60, 60);
+    doc.setFontSize(10);
+    y += 6;
+
+    const diagText = getDiagnostico(area.key, area.score);
+    const lines = doc.splitTextToSize(diagText, contentWidth);
+    doc.text(lines, margin, y);
+    y += lines.length * 4.5 + 8;
+
+    // Check if we need a new page
+    if (y > pageHeight - 50) {
+      addFooter();
+      addPageNumber(2);
+      doc.addPage();
+      y = 30;
+    }
+  }
+
+  addFooter();
+  addPageNumber(3);
+
+  // ===============================
+  // PAGE 3 - INTRODUCTION
   // ===============================
   doc.addPage();
   addTitle("Introduction: The Call to Holiness", 30);
   
-  let y = 50;
+  y = 50;
   y = addParagraph(`Dear ${firstName},`, y);
   y += 8;
   
@@ -147,7 +303,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   );
   
   addFooter();
-  addPageNumber(2);
+  addPageNumber(3);
 
   // ===============================
   // PAGE 3 - FUNDAMENTAL PRAYERS
@@ -206,7 +362,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   );
   
   addFooter();
-  addPageNumber(3);
+  addPageNumber(4);
 
   // ===============================
   // PAGE 4 - THE SEVEN SACRAMENTS
@@ -270,7 +426,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   );
   
   addFooter();
-  addPageNumber(4);
+  addPageNumber(5);
 
   // ===============================
   // PAGE 5 - DEVOTION TO OUR LADY
@@ -323,7 +479,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   );
   
   addFooter();
-  addPageNumber(5);
+  addPageNumber(6);
 
   // ===============================
   // PAGE 6 - HOLY MASS
@@ -376,7 +532,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   );
   
   addFooter();
-  addPageNumber(6);
+  addPageNumber(7);
 
   // ===============================
   // PAGE 7 - CONFESSION
@@ -436,7 +592,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   );
   
   addFooter();
-  addPageNumber(7);
+  addPageNumber(8);
 
   // ===============================
   // PAGE 8 - PRAYER LIFE
@@ -479,7 +635,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   );
   
   addFooter();
-  addPageNumber(8);
+  addPageNumber(9);
 
   // ===============================
   // PAGE 9 - SAINTS AND INTERCESSION
@@ -529,7 +685,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   );
   
   addFooter();
-  addPageNumber(9);
+  addPageNumber(10);
 
   // ===============================
   // PAGE 10 - CONCLUSION AND LIFE PLAN
@@ -579,7 +735,7 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle }: GuideD
   doc.setFont("helvetica", "normal");
   
   addFooter();
-  addPageNumber(10);
+  addPageNumber(11);
 
   // Save the PDF
   doc.save("Catholic-Life-Guide.pdf");
