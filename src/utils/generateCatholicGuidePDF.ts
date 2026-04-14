@@ -161,16 +161,16 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle, answers 
   // PAGE 2 - COMPLETE ASSESSMENT
   // ===============================
   doc.addPage();
-  addTitle("Your Complete Assessment", 30);
+  addTitle("Your Complete Assessment", 25);
 
-  let y = 45;
+  let y = 36;
 
   // Subtitle
-  doc.setFontSize(11);
+  doc.setFontSize(9);
   doc.setTextColor(100, 100, 100);
   doc.text(`${firstName}, here is your detailed spiritual profile across 5 key areas:`, margin, y);
   doc.setTextColor(0, 0, 0);
-  y += 12;
+  y += 8;
 
   const areas = [
     { key: "eucaristica", label: "Eucharistic Life", score: areaScores.eucaristica },
@@ -180,89 +180,78 @@ export const generateCatholicGuidePDF = ({ userName, score, levelTitle, answers 
     { key: "testemunho", label: "Christian Witness", score: areaScores.testemunho },
   ];
 
-  // Progress bars section
+  // Progress bars section — compact
   for (const area of areas) {
-    // Label + score
     doc.setFont("helvetica", "bold");
-    doc.setFontSize(11);
+    doc.setFontSize(9);
     doc.setTextColor(12, 75, 148);
     doc.text(area.label, margin, y);
     doc.setFont("helvetica", "normal");
     doc.setTextColor(0, 0, 0);
-    doc.setFontSize(11);
     doc.text(`${area.score}%`, pageWidth - margin - doc.getTextWidth(`${area.score}%`), y);
-    y += 5;
+    y += 3.5;
 
     // Background bar
     doc.setFillColor(220, 220, 220);
-    doc.roundedRect(margin, y, contentWidth, 5, 2, 2, "F");
+    doc.roundedRect(margin, y, contentWidth, 3.5, 1, 1, "F");
 
     // Filled bar
     const barColor = area.score >= 70 ? [34, 197, 94] : area.score >= 40 ? [212, 160, 23] : [12, 75, 148];
     doc.setFillColor(barColor[0], barColor[1], barColor[2]);
-    const barWidth = Math.max(4, (area.score / 100) * contentWidth);
-    doc.roundedRect(margin, y, barWidth, 5, 2, 2, "F");
-    y += 12;
+    const barWidth = Math.max(3, (area.score / 100) * contentWidth);
+    doc.roundedRect(margin, y, barWidth, 3.5, 1, 1, "F");
+    y += 8;
   }
 
-  y += 6;
+  y += 3;
 
   // Divider
   doc.setDrawColor(220, 220, 220);
-  doc.setLineWidth(0.5);
+  doc.setLineWidth(0.3);
   doc.line(margin, y, pageWidth - margin, y);
-  y += 10;
+  y += 6;
 
-  // Detailed diagnostics
+  // Detailed diagnostics header
   doc.setFont("helvetica", "bold");
-  doc.setFontSize(13);
+  doc.setFontSize(11);
   doc.setTextColor(12, 75, 148);
   doc.text("Detailed Diagnosis", margin, y);
   doc.setFont("helvetica", "normal");
   doc.setTextColor(0, 0, 0);
-  y += 10;
+  y += 7;
 
   for (const area of areas) {
-    // Area header with badge
     const badgeText = area.score >= 70 ? "Strong" : area.score >= 40 ? "Growing" : "Needs Attention";
     const badgeColor: [number, number, number] = area.score >= 70 ? [34, 197, 94] : area.score >= 40 ? [212, 160, 23] : [239, 68, 68];
 
+    // Area label
     doc.setFont("helvetica", "bold");
-    doc.setFontSize(11);
+    doc.setFontSize(9.5);
     doc.setTextColor(12, 75, 148);
     doc.text(area.label, margin, y);
 
     // Badge
-    const badgeX = pageWidth - margin - doc.getTextWidth(badgeText) - 6;
+    doc.setFontSize(8);
+    const badgeW = doc.getTextWidth(badgeText) + 5;
+    const badgeX = pageWidth - margin - badgeW;
     doc.setFillColor(...badgeColor);
-    doc.roundedRect(badgeX - 2, y - 5, doc.getTextWidth(badgeText) + 6, 7, 2, 2, "F");
+    doc.roundedRect(badgeX, y - 4.5, badgeW, 6, 1.5, 1.5, "F");
     doc.setTextColor(255, 255, 255);
-    doc.setFontSize(9);
-    doc.text(badgeText, badgeX + 1, y);
+    doc.text(badgeText, badgeX + 2.5, y);
 
     doc.setFont("helvetica", "normal");
     doc.setTextColor(60, 60, 60);
-    doc.setFontSize(10);
-    y += 6;
+    doc.setFontSize(8.5);
+    y += 5;
 
     const diagText = getDiagnostico(area.key, area.score);
     const lines = doc.splitTextToSize(diagText, contentWidth);
     doc.text(lines, margin, y);
-    y += lines.length * 4.5 + 8;
-
-    // Check if we need a new page
-    if (y > pageHeight - 50) {
-      addFooter();
-      addPageNumber(2);
-      doc.addPage();
-      y = 30;
-    }
+    y += lines.length * 3.8 + 5;
   }
 
   addFooter();
-  addPageNumber(3);
-
-  // ===============================
+  addPageNumber(2);
   // PAGE 3 - INTRODUCTION
   // ===============================
   doc.addPage();
