@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function PrayersOfHope2026() {
     return (
@@ -17,6 +18,11 @@ export default function PrayersOfHope2026() {
                 <meta name="keywords" content="prayers of hope, prayer for difficult times, prayer of abandonment, psalm 23, saint teresa of avila nothing disturb you, prayer in times of crisis, how to have hope, Catholic prayer, trust in God, pope francis prayer" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/prayers-of-hope-2026/" />
             </Helmet>
+        <ArticleSchema
+          title="Prayers of Hope for Times of Crisis in 2026"
+          description="Find consolation and strength in traditional and contemporary Catholic prayers focused on the virtue of hope to face the challenges of 2026."
+          url="https://guidecatholic.com/blog/prayers-of-hope-2026/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function ConsecratYourHome() {
   return (
@@ -18,6 +19,11 @@ export default function ConsecratYourHome() {
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-consecrate-your-home-to-god/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Consecrate Your Home to God: A Catholic Guide"
+          description="Learn how to consecrate your home to God as a Catholic — the Epiphany house blessing, the difference between blessing and consecration, sacred objects, and how to create a prayer corner."
+          url="https://guidecatholic.com/blog/how-to-consecrate-your-home-to-god/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

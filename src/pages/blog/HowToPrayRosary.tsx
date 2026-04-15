@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 
 export default function HowToPrayRosary() {
   return (
@@ -17,6 +18,24 @@ export default function HowToPrayRosary() {
         <meta name="keywords" content="how to pray the rosary step by step, complete holy rosary, mysteries of the rosary, catholic rosary, rosary prayer, hail mary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-rosary/" />
       </Helmet>
+        <ArticleSchema
+          title="How to Pray the Holy Rosary: Complete Guide for Beginners"
+          description="Learn step by step how to pray the Holy Rosary correctly. Complete guide with mysteries, prayers and meditations to strengthen your Marian devotion."
+          url="https://guidecatholic.com/blog/how-to-pray-rosary/"
+        />
+        <HowToSchema
+          name="How to Pray the Holy Rosary"
+          description="Learn step by step how to pray the Holy Rosary correctly."
+          url="https://guidecatholic.com/blog/how-to-pray-rosary/"
+          totalTime="PT20M"
+          steps={[
+            {"name": "Make the Sign of the Cross", "text": "Hold the crucifix and make the Sign of the Cross: In the name of the Father, and of the Son, and of the Holy Spirit. Amen."},
+          {"name": "Pray the Apostles' Creed", "text": "Still on the crucifix, pray the Creed, professing your faith in the fundamental articles of Catholic doctrine."},
+          {"name": "Pray One Our Father, Three Hail Marys, and One Glory Be", "text": "On the initial beads, pray one Our Father, three Hail Marys, and one Glory Be."},
+          {"name": "Announce and Meditate on Each Mystery", "text": "For each decade, announce the corresponding mystery and pray one Our Father, ten Hail Marys, and the Glory Be."},
+          {"name": "Conclude with the Hail Holy Queen", "text": "After the five decades, pray the Hail Holy Queen and the final prayers."}
+          ]}
+        />
 
       <div className="min-h-screen bg-background">
         {/* Header */}

@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function LectioDivinaGuideExpanded() {
   return (
@@ -18,6 +19,11 @@ export default function LectioDivinaGuideExpanded() {
         <link rel="canonical" href="https://guidecatholic.com/blog/lectio-divina-how-to-practice/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Lectio Divina: How to Pray with Scripture Step by Step"
+          description="Learn how to practice Lectio Divina step by step. Complete guide covering the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice."
+          url="https://guidecatholic.com/blog/lectio-divina-how-to-practice/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

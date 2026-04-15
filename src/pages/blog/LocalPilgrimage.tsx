@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function LocalPilgrimage() {
     return (
@@ -17,6 +18,11 @@ export default function LocalPilgrimage() {
                 <meta name="keywords" content="how to organize pilgrimage, Catholic pilgrimage, shrines, religious tourism Catholic, pilgrimage, how to make pilgrimage, jubilee churches, walking pilgrimage, pilgrimage route, Marian shrines" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/local-pilgrimage/" />
             </Helmet>
+        <ArticleSchema
+          title="How to Organize a Local Pilgrimage in Your Diocese"
+          description="Practical and spiritual guide to organizing pilgrimages to local shrines and jubilee churches, strengthening community faith in 2026."
+          url="https://guidecatholic.com/blog/local-pilgrimage/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

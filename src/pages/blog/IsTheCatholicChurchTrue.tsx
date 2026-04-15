@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function IsTheCatholicChurchTrue() {
   return (
@@ -18,6 +19,11 @@ export default function IsTheCatholicChurchTrue() {
         <link rel="canonical" href="https://guidecatholic.com/blog/is-the-catholic-church-the-true-church/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Is the Catholic Church the True Church? What Catholics Believe"
+          description="Is the Catholic Church the true Church? Learn about the four marks of the Church, apostolic succession, historical continuity from Peter, and why Catholics believe the Church was founded by Christ."
+          url="https://guidecatholic.com/blog/is-the-catholic-church-the-true-church/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

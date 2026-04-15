@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function WhyPrayToSaints() {
   return (
@@ -18,6 +19,11 @@ export default function WhyPrayToSaints() {
         <link rel="canonical" href="https://guidecatholic.com/blog/why-do-catholics-pray-to-saints/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Why Do Catholics Pray to Saints? Not Worship — Intercession Explained"
+          description="Why do Catholics pray to saints? Learn the difference between worship and intercession, the biblical basis for asking saints to pray for us, and how the Communion of Saints works."
+          url="https://guidecatholic.com/blog/why-do-catholics-pray-to-saints/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

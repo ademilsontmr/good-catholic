@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function PlenaryIndulgenceGuide() {
     return (
@@ -17,6 +18,11 @@ export default function PlenaryIndulgenceGuide() {
                 <meta name="keywords" content="what is plenary indulgence, how to gain indulgence, jubilee 2025, conditions for indulgence, indulgence for souls in purgatory, holy door, Catholic holy year, forgiveness of penalties, partial and plenary indulgence, jubilee works of mercy" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/plenary-indulgence-guide/" />
             </Helmet>
+        <ArticleSchema
+          title="Plenary Indulgence: Complete Guide for the Final Days of the Jubilee"
+          description="There's still time! Learn how to obtain plenary indulgence at the closing of Jubilee 2025 and understand the spiritual value of this grace."
+          url="https://guidecatholic.com/blog/plenary-indulgence-guide/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

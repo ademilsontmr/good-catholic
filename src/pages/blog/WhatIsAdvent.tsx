@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function WhatIsAdvent() {
   return (
@@ -18,6 +19,11 @@ export default function WhatIsAdvent() {
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-advent-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="What Is Advent? The Catholic Season of Waiting and Preparation"
+          description="What is Advent? Learn about the Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent spiritually as a family."
+          url="https://guidecatholic.com/blog/what-is-advent-catholic/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

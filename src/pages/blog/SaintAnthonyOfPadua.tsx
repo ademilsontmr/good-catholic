@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function SaintAnthonyOfPadua() {
   return (
@@ -18,6 +19,11 @@ export default function SaintAnthonyOfPadua() {
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-anthony-of-padua/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="St. Anthony of Padua: Patron of Lost Things and Powerful Intercessor"
+          description="Discover the life of St. Anthony of Padua — his extraordinary preaching gifts, why he is patron of lost things, the Responsory Si quaeris miracula, his feast day June 13, and a prayer to St. Anthony."
+          url="https://guidecatholic.com/blog/saint-anthony-of-padua/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

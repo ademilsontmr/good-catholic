@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function MeaningOfCrucifix() {
     return (
@@ -17,6 +18,11 @@ export default function MeaningOfCrucifix() {
                 <meta name="keywords" content="meaning of crucifix, difference between cross and crucifix, why Catholics use crucifix, crucifix at home, symbol of the cross, passion of Christ, INRI meaning, Catholic cross, having crucifix in bedroom, sign of the cross" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/meaning-of-crucifix/" />
             </Helmet>
+        <ArticleSchema
+          title="The History and Meaning of the Crucifix"
+          description="Understand why the crucifix is the central symbol of Catholic faith. Learn about its history, symbolism, and the importance of having it in our homes."
+          url="https://guidecatholic.com/blog/meaning-of-crucifix/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

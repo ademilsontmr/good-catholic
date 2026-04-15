@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 
 export default function SpiritualRetreatAtHome() {
   return (
@@ -18,6 +19,25 @@ export default function SpiritualRetreatAtHome() {
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-do-spiritual-retreat-at-home/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Do a Spiritual Retreat at Home: A Step-by-Step Catholic Guide"
+          description="Learn how to make a Catholic spiritual retreat at home. Step-by-step guide with a sample 1-day and weekend schedule, the Ignatian approach, journaling tips, and what to do after your retreat."
+          url="https://guidecatholic.com/blog/how-to-do-spiritual-retreat-at-home/"
+        />
+        <HowToSchema
+          name="How to Do a Spiritual Retreat at Home"
+          description="Step-by-step guide to making a Catholic spiritual retreat at home."
+          url="https://guidecatholic.com/blog/how-to-do-spiritual-retreat-at-home/"
+          totalTime="PT8H"
+          steps={[
+            {"name": "Prepare Your Space and Materials", "text": "Choose a quiet space, gather your Bible, journal, and spiritual book. Inform your family and turn off your phone."},
+          {"name": "Begin with Morning Prayer", "text": "Start with the Morning Offering and Lauds, asking the Holy Spirit to guide your retreat."},
+          {"name": "Scripture Meditation", "text": "Read a Scripture passage slowly three times, journaling your reflections."},
+          {"name": "Silent Contemplative Prayer", "text": "Set aside your journal and rest in God's presence for 30 minutes."},
+          {"name": "Spiritual Reading", "text": "Read from a spiritual classic, pausing when something strikes you."},
+          {"name": "Evening Prayer and Review", "text": "End with the Ignatian Examen, journaling your key grace and resolution."}
+          ]}
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

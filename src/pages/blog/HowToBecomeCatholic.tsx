@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function HowToBecomeCatholic() {
   return (
@@ -18,6 +19,11 @@ export default function HowToBecomeCatholic() {
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-become-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Become Catholic: The RCIA Process Explained"
+          description="Learn how to become Catholic through the RCIA process. Complete guide covering the 4 stages of RCIA, Easter Vigil, what to expect, timeline, and FAQs for converts to Catholicism."
+          url="https://guidecatholic.com/blog/how-to-become-catholic/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

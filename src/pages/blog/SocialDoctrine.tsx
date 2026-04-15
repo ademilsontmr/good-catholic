@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function SocialDoctrine() {
     return (
@@ -17,6 +18,11 @@ export default function SocialDoctrine() {
                 <meta name="keywords" content="what is church social doctrine, social doctrine principles, common good, solidarity, subsidiarity, human dignity, church and politics" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/social-doctrine/" />
             </Helmet>
+        <ArticleSchema
+          title="The Social Doctrine of the Church: The Catholic View on Society"
+          description="Learn the fundamental principles of the Church's Social Doctrine. Understand how Catholic faith proposes solutions to social, political, and economic challenges."
+          url="https://guidecatholic.com/blog/social-doctrine/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

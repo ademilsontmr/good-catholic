@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function FastingAndAbstinence() {
   return (
@@ -17,6 +18,11 @@ export default function FastingAndAbstinence() {
         <meta name="keywords" content="catholic fasting how to, meat abstinence friday, when to fast, lent fasting, days of fasting and abstinence, catholic penance" />
         <link rel="canonical" href="https://guidecatholic.com/blog/fasting-abstinence/" />
       </Helmet>
+        <ArticleSchema
+          title="Fasting and Abstinence: Practices That Strengthen the Soul"
+          description="Learn about the practices of fasting and abstinence in the Catholic Church. Discover when and how to fast correctly to grow in spiritual life."
+          url="https://guidecatholic.com/blog/fasting-abstinence/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

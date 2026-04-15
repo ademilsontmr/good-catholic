@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function TheMemorarePrayer() {
   return (
@@ -18,6 +19,11 @@ export default function TheMemorarePrayer() {
         <link rel="canonical" href="https://guidecatholic.com/blog/the-memorare-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="The Memorare: History, Full Text and How to Pray This Powerful Prayer"
+          description="Learn the full text of the Memorare prayer, its history, meaning, and how to pray it. Discover why this ancient prayer to the Virgin Mary has comforted Catholics for centuries."
+          url="https://guidecatholic.com/blog/the-memorare-prayer/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

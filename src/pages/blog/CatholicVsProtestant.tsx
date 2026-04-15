@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicVsProtestant() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicVsProtestant() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-vs-protestant-differences/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic vs Protestant: Key Differences Explained"
+          description="What are the key differences between Catholic and Protestant Christianity? Learn about Scripture and Tradition, the sacraments, the papacy, purgatory, and how to have respectful dialogue."
+          url="https://guidecatholic.com/blog/catholic-vs-protestant-differences/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function SaintThereseOfLisieux() {
   return (
@@ -18,6 +19,11 @@ export default function SaintThereseOfLisieux() {
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-therese-of-lisieux/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="St. Thérèse of Lisieux: The Little Way to Holiness"
+          description="Discover the life of St. Thérèse of Lisieux — her Little Way of spiritual childhood, her autobiography Story of a Soul, her death at 24, and her promise to spend her heaven doing good on earth."
+          url="https://guidecatholic.com/blog/saint-therese-of-lisieux/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

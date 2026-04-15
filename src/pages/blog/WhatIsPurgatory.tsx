@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function WhatIsPurgatory() {
   return (
@@ -17,6 +18,11 @@ export default function WhatIsPurgatory() {
         <meta name="keywords" content="what is purgatory, catholic purgatory, purgatory bible, holy souls purgatory, prayers for the dead, purgatory doctrine" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-purgatory/" />
       </Helmet>
+        <ArticleSchema
+          title="What is Purgatory? Complete Guide to Catholic Teaching"
+          description="Understand the Catholic doctrine of Purgatory — what it is, what the Bible says, how we can help the Holy Souls, and why it is a sign of God's mercy."
+          url="https://guidecatholic.com/blog/what-is-purgatory/"
+        />
       <div className="min-h-screen bg-background">
         <Navbar />
 

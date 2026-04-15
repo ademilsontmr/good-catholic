@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function ChurchChangesPost2025() {
     return (
@@ -17,6 +18,11 @@ export default function ChurchChangesPost2025() {
                 <meta name="keywords" content="Catholic church 2026, changes in church, pope francis, synodality, future of Catholic church, synod, laudato si, fratelli tutti, new bishops, digital Catholic evangelization" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/church-changes-post-2025/" />
             </Helmet>
+        <ArticleSchema
+          title="What Changes in the Church After the Holy Year of 2025?"
+          description="Analysis of perspectives and changes in the Catholic Church for 2026 after the closing of the Jubilee. What to expect from the pontificate and dioceses."
+          url="https://guidecatholic.com/blog/church-changes-post-2025/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

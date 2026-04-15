@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function SaintMichaelArchangel() {
   return (
@@ -18,6 +19,11 @@ export default function SaintMichaelArchangel() {
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-michael-archangel/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="St. Michael the Archangel: Prayer, Devotion and His Role in Scripture"
+          description="Learn about St. Michael the Archangel — his four roles in Scripture, the full text of the Prayer to St. Michael, its history with Pope Leo XIII, the Chaplet of St. Michael, and how to develop devotion."
+          url="https://guidecatholic.com/blog/saint-michael-archangel/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

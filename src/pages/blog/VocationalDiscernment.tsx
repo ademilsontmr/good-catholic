@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function VocationalDiscernment() {
     return (
@@ -17,6 +18,11 @@ export default function VocationalDiscernment() {
                 <meta name="keywords" content="how to know my vocation, catholic vocational discernment, god's will for my life, how to discern, priestly religious matrimonial vocation" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/vocational-discernment/" />
             </Helmet>
+        <ArticleSchema
+          title="How to Discern God's Will in Your Life"
+          description="Learn the principles of spiritual discernment to discover God's plan for you. Practical tips for making decisions in the light of faith."
+          url="https://guidecatholic.com/blog/vocational-discernment/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

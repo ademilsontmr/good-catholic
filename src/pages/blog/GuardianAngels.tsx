@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function GuardianAngels() {
   return (
@@ -17,6 +18,11 @@ export default function GuardianAngels() {
         <meta name="keywords" content="guardian angels, catholic guardian angel, angel of god prayer, feast of guardian angels, heavenly protector, catholic angels" />
         <link rel="canonical" href="https://guidecatholic.com/blog/guardian-angels/" />
       </Helmet>
+        <ArticleSchema
+          title="Guardian Angels: Our Heavenly Companions and Protectors"
+          description="Discover the Catholic teaching on guardian angels — who they are, what they do, and how to develop a deeper relationship with your personal heavenly protector."
+          url="https://guidecatholic.com/blog/guardian-angels/"
+        />
       <div className="min-h-screen bg-background">
         <Navbar />
 

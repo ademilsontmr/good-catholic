@@ -81,6 +81,12 @@ import WhatIsTheScapular from "./pages/blog/WhatIsTheScapular";
 import CatholicPrayersForDying from "./pages/blog/CatholicPrayersForDying";
 import ConsecratYourHome from "./pages/blog/ConsecratYourHome";
 import WhatIsANovena from "./pages/blog/WhatIsANovena";
+// Doctrine Articles Batch 10
+import NaturalFamilyPlanning from "./pages/blog/NaturalFamilyPlanning";
+import CatholicTeachingAbortion from "./pages/blog/CatholicTeachingAbortion";
+import PopeRoleInChurch from "./pages/blog/PopeRoleInChurch";
+import CatholicDeathPenalty from "./pages/blog/CatholicDeathPenalty";
+import CatholicAnnulment from "./pages/blog/CatholicAnnulment";
 // Spirituality Articles Batch 9
 import ContemplativePrayer from "./pages/blog/ContemplativePrayer";
 import SpiritualRetreatAtHome from "./pages/blog/SpiritualRetreatAtHome";
@@ -195,6 +201,12 @@ const App = () => (
             <Route path="/blog/catholic-spiritual-direction/" element={<SpiritualDirection />} />
             <Route path="/blog/dark-night-of-the-soul-catholic/" element={<DarkNightOfTheSoul />} />
             <Route path="/blog/how-to-grow-in-humility-catholic/" element={<GrowingInHumility />} />
+            {/* Doctrine Articles Batch 10 */}
+            <Route path="/blog/natural-family-planning-catholic/" element={<NaturalFamilyPlanning />} />
+            <Route path="/blog/catholic-teaching-on-abortion/" element={<CatholicTeachingAbortion />} />
+            <Route path="/blog/what-is-the-popes-role-catholic-church/" element={<PopeRoleInChurch />} />
+            <Route path="/blog/catholic-teaching-on-death-penalty/" element={<CatholicDeathPenalty />} />
+            <Route path="/blog/what-is-annulment-catholic-church/" element={<CatholicAnnulment />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

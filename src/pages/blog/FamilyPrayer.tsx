@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function FamilyPrayer() {
   return (
@@ -18,6 +19,11 @@ export default function FamilyPrayer() {
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-as-a-family/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Pray as a Family: Building a Domestic Church"
+          description="Learn how to pray as a family — the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start when you haven't been praying together."
+          url="https://guidecatholic.com/blog/how-to-pray-as-a-family/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

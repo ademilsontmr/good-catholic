@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function StationsOfTheCross() {
   return (
@@ -18,6 +19,11 @@ export default function StationsOfTheCross() {
         <link rel="canonical" href="https://guidecatholic.com/blog/stations-of-the-cross/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Stations of the Cross: A Complete Guide to This Powerful Catholic Devotion"
+          description="Learn everything about the Stations of the Cross — history, the 14 traditional stations with meditations, the 15th station added by John Paul II, how to pray them, and tips for families."
+          url="https://guidecatholic.com/blog/stations-of-the-cross/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

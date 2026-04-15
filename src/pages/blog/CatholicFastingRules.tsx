@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicFastingRules() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicFastingRules() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-fasting-rules/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Fasting Rules: What the Church Requires and Why It Matters"
+          description="Learn the Catholic Church's fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent. Who is bound, what counts as fasting vs abstinence, and the Eucharistic fast explained."
+          url="https://guidecatholic.com/blog/catholic-fasting-rules/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

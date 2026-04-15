@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function WhatIsRCIA() {
   return (
@@ -18,6 +19,11 @@ export default function WhatIsRCIA() {
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-rcia-for-adults/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="What Is RCIA? The Complete Guide for Adults Becoming Catholic"
+          description="Everything you need to know about RCIA — the 4 stages, timeline, Easter Vigil, who it's for, what to expect in classes, choosing a sponsor, and how to find RCIA in your parish."
+          url="https://guidecatholic.com/blog/what-is-rcia-for-adults/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

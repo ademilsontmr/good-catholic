@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function DailyPrayerRoutine() {
   return (
@@ -18,6 +19,11 @@ export default function DailyPrayerRoutine() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-daily-prayer-routine/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Daily Prayer Routine: How to Build a Life of Prayer"
+          description="Learn how to build a Catholic daily prayer routine with morning, midday, evening, and night prayer. Practical tips from the saints and a sample weekly schedule."
+          url="https://guidecatholic.com/blog/catholic-daily-prayer-routine/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

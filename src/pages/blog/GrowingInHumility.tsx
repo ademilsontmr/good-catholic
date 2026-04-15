@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function GrowingInHumility() {
   return (
@@ -18,6 +19,11 @@ export default function GrowingInHumility() {
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-grow-in-humility-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Grow in Humility: The Catholic Path to True Greatness"
+          description="Learn what humility really is in Catholic spirituality, the 12 degrees of humility from St. Benedict, Jesus as the model of humility, and practical exercises for growing in this foundational virtue."
+          url="https://guidecatholic.com/blog/how-to-grow-in-humility-catholic/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

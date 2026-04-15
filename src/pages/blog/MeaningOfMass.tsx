@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function MeaningOfMass() {
     return (
@@ -17,6 +18,11 @@ export default function MeaningOfMass() {
                 <meta name="keywords" content="parts of mass explained, meaning of catholic mass, mass liturgy, what happens at mass, mass rites, how to participate in mass" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/meaning-mass/" />
             </Helmet>
+        <ArticleSchema
+          title="The Meaning of Holy Mass: Understanding Each Part of the Liturgy"
+          description="Learn the profound meaning of each moment of Holy Mass. A complete guide to the liturgy to participate with more awareness and devotion."
+          url="https://guidecatholic.com/blog/meaning-mass/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

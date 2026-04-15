@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function PatronSaints() {
   return (
@@ -17,6 +18,11 @@ export default function PatronSaints() {
         <meta name="keywords" content="how to choose patron saint, patron saints, saint protector, intercession of saints, devotion to saints, saint of my name" />
         <link rel="canonical" href="https://guidecatholic.com/blog/patron-saints/" />
       </Helmet>
+        <ArticleSchema
+          title="Patron Saints: How to Choose and Honor Yours"
+          description="Learn about the tradition of patron saints in the Catholic Church. Discover how to choose your patron saint and how to honor them to receive their intercession."
+          url="https://guidecatholic.com/blog/patron-saints/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

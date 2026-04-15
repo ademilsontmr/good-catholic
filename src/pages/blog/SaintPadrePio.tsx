@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function SaintPadrePio() {
   return (
@@ -18,6 +19,11 @@ export default function SaintPadrePio() {
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-padre-pio/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="St. Padre Pio: Life, Stigmata, Miracles and Prayers"
+          description="Discover the life of St. Padre Pio: his stigmata, miracles, spiritual gifts, famous quotes, and a prayer to this beloved Capuchin friar canonized by Pope John Paul II in 2002."
+          url="https://guidecatholic.com/blog/saint-padre-pio/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

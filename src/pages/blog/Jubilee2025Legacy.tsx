@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function Jubilee2025Legacy() {
     return (
@@ -17,6 +18,11 @@ export default function Jubilee2025Legacy() {
                 <meta name="keywords" content="jubilee 2025 what was it, pilgrims of hope, holy year 2025, holy door, pope francis jubilee, jubilee indulgence, how to live after jubilee, fruits of holy year, Christian hope, Catholic church 2026" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/jubilee-2025-legacy/" />
             </Helmet>
+        <ArticleSchema
+          title="The Legacy of Jubilee 2025: How to Continue Being a Pilgrim of Hope?"
+          description="The Holy Year of 2025 has ended, but its mission continues. Discover how to keep the flame of hope alive in your Christian life in 2026."
+          url="https://guidecatholic.com/blog/jubilee-2025-legacy/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

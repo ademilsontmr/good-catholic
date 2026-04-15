@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicMarriageGuide() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicMarriageGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-marriage-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Marriage: What the Church Teaches About Holy Matrimony"
+          description="Complete guide to Catholic marriage. Learn about marriage as a sacrament, unity and indissolubility, marriage preparation, natural family planning, annulment vs divorce, and mixed marriages."
+          url="https://guidecatholic.com/blog/catholic-marriage-guide/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 
 export default function DivineMercyChaplet() {
   return (
@@ -18,6 +19,23 @@ export default function DivineMercyChaplet() {
         <link rel="canonical" href="https://guidecatholic.com/blog/divine-mercy-chaplet/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Pray the Divine Mercy Chaplet: Complete Guide"
+          description="Learn how to pray the Divine Mercy Chaplet step by step. Complete guide with prayers, history, and the significance of the 3pm Hour of Mercy as revealed to St. Faustina."
+          url="https://guidecatholic.com/blog/divine-mercy-chaplet/"
+        />
+        <HowToSchema
+          name="How to Pray the Divine Mercy Chaplet"
+          description="Learn how to pray the Divine Mercy Chaplet step by step."
+          url="https://guidecatholic.com/blog/divine-mercy-chaplet/"
+          totalTime="PT15M"
+          steps={[
+            {"name": "Begin with the Sign of the Cross", "text": "Make the Sign of the Cross and pray the optional opening prayer."},
+          {"name": "Pray the Opening Prayers", "text": "On the single bead, pray the Our Father, Hail Mary, and Apostles' Creed."},
+          {"name": "Pray the Five Decades", "text": "On each large bead: Eternal Father prayer. On each small bead: For the sake of His sorrowful Passion prayer."},
+          {"name": "Conclude with the Holy God Prayer", "text": "Pray Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world — three times."}
+          ]}
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

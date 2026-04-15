@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function SevenSacraments() {
   return (
@@ -17,6 +18,11 @@ export default function SevenSacraments() {
         <meta name="keywords" content="what are the 7 sacraments, seven sacraments of the catholic church, baptism eucharist confirmation confession, sacraments explained, what are sacraments" />
         <link rel="canonical" href="https://guidecatholic.com/blog/seven-sacraments/" />
       </Helmet>
+        <ArticleSchema
+          title="The 7 Sacraments of the Catholic Church Explained"
+          description="Understand the importance and meaning of each of the seven sacraments instituted by Christ: Baptism, Eucharist, Confirmation, Confession, Anointing, Holy Orders, and Matrimony."
+          url="https://guidecatholic.com/blog/seven-sacraments/"
+        />
 
       <div className="min-h-screen bg-background">
         {/* Header */}

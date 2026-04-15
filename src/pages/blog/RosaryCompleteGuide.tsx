@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function RosaryCompleteGuide() {
   return (
@@ -18,6 +19,11 @@ export default function RosaryCompleteGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/rosary-complete-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="The Holy Rosary: Complete Guide with All 20 Mysteries"
+          description="Complete guide to the Holy Rosary with all 20 mysteries, step-by-step instructions, all prayers, spiritual benefits, and tips for praying with devotion."
+          url="https://guidecatholic.com/blog/rosary-complete-guide/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

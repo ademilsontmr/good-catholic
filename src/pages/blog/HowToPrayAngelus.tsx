@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function HowToPrayAngelus() {
   return (
@@ -18,6 +19,11 @@ export default function HowToPrayAngelus() {
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-the-angelus/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Pray the Angelus: The Catholic Prayer for 6am, Noon, and 6pm"
+          description="Learn how to pray the Angelus, the ancient Catholic prayer prayed three times a day. Full text, history, the Regina Caeli, and tips for families."
+          url="https://guidecatholic.com/blog/how-to-pray-the-angelus/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

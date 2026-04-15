@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function SundayMass() {
   return (
@@ -17,6 +18,11 @@ export default function SundayMass() {
         <meta name="keywords" content="sunday mass obligatory, why go to mass, catholic holy mass, sunday precept, not going to mass is sin, sunday eucharist" />
         <link rel="canonical" href="https://guidecatholic.com/blog/sunday-mass/" />
       </Helmet>
+        <ArticleSchema
+          title="Sunday Mass: The Center of Christian Life"
+          description="Discover why participation in Sunday Mass is essential for every Catholic. Learn how to make the most of Holy Mass and grow in faith."
+          url="https://guidecatholic.com/blog/sunday-mass/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function WhatIsTheMassGuide() {
   return (
@@ -18,6 +19,11 @@ export default function WhatIsTheMassGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-mass/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="What Is the Catholic Mass? A Complete Guide for Beginners"
+          description="What is the Catholic Mass? Learn the two main parts of the Mass, what happens at each stage, what to do as a visitor, why Catholics go every Sunday, and the Real Presence of Christ."
+          url="https://guidecatholic.com/blog/what-is-the-catholic-mass/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

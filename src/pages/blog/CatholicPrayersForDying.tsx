@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicPrayersForDying() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicPrayersForDying() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-prayers-for-the-dying/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Prayers for the Dying: Comfort and Grace at the Hour of Death"
+          description="Learn the Catholic prayers for the dying — the Sacrament of Anointing, Viaticum, the Apostolic Pardon, prayers at the bedside, and what to do when someone is dying."
+          url="https://guidecatholic.com/blog/catholic-prayers-for-the-dying/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

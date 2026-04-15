@@ -883,6 +883,67 @@ export const blogPosts: BlogPost[] = [
     icon: Heart,
     bgColor: "bg-rose-100",
     iconColor: "text-rose-400"
+  },
+  // Doctrine Articles Batch 10
+  {
+    id: 73,
+    slug: "natural-family-planning-catholic",
+    title: "Natural Family Planning: What the Catholic Church Teaches and Why",
+    excerpt: "Discover what Natural Family Planning (NFP) is, why the Catholic Church teaches it through Humanae Vitae, the three main methods, effectiveness rates, and how NFP differs from contraception.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Doctrine",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 74,
+    slug: "catholic-teaching-on-abortion",
+    title: "Catholic Teaching on Abortion: Why the Church Defends Every Human Life",
+    excerpt: "Learn the Catholic Church's consistent teaching on abortion from the earliest centuries, the theological basis in human dignity, Evangelium Vitae, and how Catholics can be pro-life in practice.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Doctrine",
+    icon: Cross,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 75,
+    slug: "what-is-the-popes-role-catholic-church",
+    title: "What Is the Pope's Role in the Catholic Church? Papal Authority Explained",
+    excerpt: "Learn about the Pope's role in the Catholic Church — Peter as the first pope, apostolic succession, the three offices, papal infallibility (what it is and isn't), and how Catholics should relate to the Pope.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Doctrine",
+    icon: Cross,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-400"
+  },
+  {
+    id: 76,
+    slug: "catholic-teaching-on-death-penalty",
+    title: "Catholic Teaching on the Death Penalty: What the Church Says Today",
+    excerpt: "Learn the Catholic Church's teaching on the death penalty, the 2018 revision of CCC 2267, why the teaching developed, the principle of human dignity, and how Catholics should engage with this issue.",
+    date: "2026-04-14",
+    readTime: "11 min",
+    category: "Doctrine",
+    icon: BookOpen,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-400"
+  },
+  {
+    id: 77,
+    slug: "what-is-annulment-catholic-church",
+    title: "What Is an Annulment in the Catholic Church? A Complete Guide",
+    excerpt: "Learn what a Catholic annulment is (declaration of nullity), how it differs from divorce, the grounds for annulment, the tribunal process, what happens to children, and pastoral care for divorced Catholics.",
+    date: "2026-04-14",
+    readTime: "12 min",
+    category: "Doctrine",
+    icon: Heart,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
   }
 ];
 

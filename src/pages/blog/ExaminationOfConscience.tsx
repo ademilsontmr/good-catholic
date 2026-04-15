@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function ExaminationOfConscience() {
     return (
@@ -17,6 +18,11 @@ export default function ExaminationOfConscience() {
                 <meta name="keywords" content="complete examination of conscience, how to examine conscience, list of sins for confession, preparation for confession, mortal and venial sins" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/examination-conscience/" />
             </Helmet>
+        <ArticleSchema
+          title="How to Make a Good Examination of Conscience for Confession"
+          description="Practical guide to perform a deep and sincere examination of conscience. Prepare for the sacrament of Reconciliation with this spiritual roadmap."
+          url="https://guidecatholic.com/blog/examination-conscience/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

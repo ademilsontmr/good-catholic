@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function HowToLiveLent() {
   return (
@@ -17,6 +18,11 @@ export default function HowToLiveLent() {
         <meta name="keywords" content="how to live lent, lent catholic, lenten practices, ash wednesday, lent fasting, lent prayer, lent almsgiving, lenten season" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-live-lent/" />
       </Helmet>
+        <ArticleSchema
+          title="How to Live Lent: A Complete Guide to the Season of Conversion"
+          description="Discover how to make the most of Lent through prayer, fasting, and almsgiving. Practical tips for a transformative Lenten season that bears lasting spiritual fruit."
+          url="https://guidecatholic.com/blog/how-to-live-lent/"
+        />
       <div className="min-h-screen bg-background">
         <Navbar />
 

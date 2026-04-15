@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function EucharistRealPresence() {
     return (
@@ -17,6 +18,11 @@ export default function EucharistRealPresence() {
                 <meta name="keywords" content="real presence of jesus in eucharist, what is transubstantiation, body and blood of christ, host is jesus, blessed sacrament, catholic communion" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/eucharist-real-presence/" />
             </Helmet>
+        <ArticleSchema
+          title="The Eucharist: Real Presence of Jesus in Bread and Wine"
+          description="Understand the dogma of Transubstantiation and the importance of the Eucharist as source and summit of Christian life. Discover why Jesus is truly present in the Holy Host."
+          url="https://guidecatholic.com/blog/eucharist-real-presence/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

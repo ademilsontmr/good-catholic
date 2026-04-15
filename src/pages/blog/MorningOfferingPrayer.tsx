@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function MorningOfferingPrayer() {
   return (
@@ -18,6 +19,11 @@ export default function MorningOfferingPrayer() {
         <link rel="canonical" href="https://guidecatholic.com/blog/morning-offering-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Morning Offering Prayer: How to Start Your Day with God"
+          description="Learn the Catholic Morning Offering prayer and how to consecrate your entire day to God. Discover different versions, the history, and practical tips for making this powerful prayer a daily habit."
+          url="https://guidecatholic.com/blog/morning-offering-prayer/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

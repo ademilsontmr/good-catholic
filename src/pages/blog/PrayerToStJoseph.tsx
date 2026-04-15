@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function PrayerToStJoseph() {
   return (
@@ -18,6 +19,11 @@ export default function PrayerToStJoseph() {
         <link rel="canonical" href="https://guidecatholic.com/blog/prayer-to-st-joseph/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Prayer to St. Joseph: Powerful Intercession for Families and Workers"
+          description="Discover powerful prayers to St. Joseph for families, workers, and those in need. Learn about his role as patron saint and how to seek his intercession in your daily life."
+          url="https://guidecatholic.com/blog/prayer-to-st-joseph/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

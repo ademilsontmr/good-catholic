@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function VirginMary() {
     return (
@@ -17,6 +18,11 @@ export default function VirginMary() {
                 <meta name="keywords" content="virgin mary in catholic church, marian dogmas, why catholics venerate mary, our lady mother of god, immaculate conception, assumption of mary" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/virgin-mary/" />
             </Helmet>
+        <ArticleSchema
+          title="The Virgin Mary in Catholic Doctrine: Dogmas and Devotion"
+          description="Learn about the four Marian dogmas and the importance of Our Lady in salvation history. Understand why Catholics honor the Mother of God."
+          url="https://guidecatholic.com/blog/virgin-mary/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

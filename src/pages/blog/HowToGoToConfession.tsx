@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 
 export default function HowToGoToConfession() {
   return (
@@ -18,6 +19,25 @@ export default function HowToGoToConfession() {
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-go-to-confession/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Go to Confession: Step-by-Step Guide for Catholics"
+          description="Learn how to go to Confession step by step. Complete Catholic guide covering examination of conscience, what to say, common fears, and how often to receive the Sacrament of Reconciliation."
+          url="https://guidecatholic.com/blog/how-to-go-to-confession/"
+        />
+        <HowToSchema
+          name="How to Go to Confession"
+          description="Step-by-step guide for Catholics on how to make a good Confession."
+          url="https://guidecatholic.com/blog/how-to-go-to-confession/"
+          totalTime="PT30M"
+          steps={[
+            {"name": "Examine Your Conscience", "text": "Review your thoughts, words, and actions in light of the Ten Commandments since your last Confession."},
+          {"name": "Have Contrition", "text": "Have sincere sorrow for your sins, motivated by love of God."},
+          {"name": "Enter the Confessional", "text": "Greet the priest and say how long it has been since your last Confession."},
+          {"name": "Confess Your Sins", "text": "Tell the priest all mortal sins in kind and number, and any venial sins you wish to confess."},
+          {"name": "Receive Absolution and Penance", "text": "Listen to the priest's counsel, accept your penance, and pray the Act of Contrition."},
+          {"name": "Complete Your Penance", "text": "Fulfill the penance given by the confessor as soon as possible."}
+          ]}
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

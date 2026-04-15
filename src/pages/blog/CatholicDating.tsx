@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicDating() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicDating() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-dating-and-courtship/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Dating and Courtship: A Guide to Holy Relationships"
+          description="A complete guide to Catholic dating and courtship — the purpose of dating, chastity in relationships, how to find a Catholic spouse, red flags, and preparing for marriage."
+          url="https://guidecatholic.com/blog/catholic-dating-and-courtship/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

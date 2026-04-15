@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicConfirmationGuide() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicConfirmationGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-confirmation-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Confirmation: What It Is and How to Prepare"
+          description="Complete guide to Catholic Confirmation. Learn what Confirmation is, the seven gifts of the Holy Spirit, how to choose a sponsor and confirmation name, the rite, and how to prepare spiritually."
+          url="https://guidecatholic.com/blog/catholic-confirmation-guide/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

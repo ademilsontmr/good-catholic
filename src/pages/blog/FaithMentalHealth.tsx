@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function FaithMentalHealth() {
     return (
@@ -17,6 +18,11 @@ export default function FaithMentalHealth() {
                 <meta name="keywords" content="faith and anxiety, prayer for anxiety, Catholic with anxiety, spirituality and mental health, how to have inner peace, faith helps depression" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/faith-mental-health/" />
             </Helmet>
+        <ArticleSchema
+          title="Faith and Mental Health: How Catholic Spirituality Helps Overcome Anxiety?"
+          description="Discover how Catholic faith and prayer life can be powerful allies in combating anxiety and seeking emotional balance."
+          url="https://guidecatholic.com/blog/faith-mental-health/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

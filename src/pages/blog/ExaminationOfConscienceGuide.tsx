@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 
 export default function ExaminationOfConscienceGuide() {
   return (
@@ -18,6 +19,24 @@ export default function ExaminationOfConscienceGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/examination-of-conscience-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="How to Make an Examination of Conscience: Complete Catholic Guide"
+          description="Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination."
+          url="https://guidecatholic.com/blog/examination-of-conscience-guide/"
+        />
+        <HowToSchema
+          name="How to Make an Examination of Conscience"
+          description="Complete Catholic guide to making a daily and pre-Confession examination of conscience."
+          url="https://guidecatholic.com/blog/examination-of-conscience-guide/"
+          totalTime="PT10M"
+          steps={[
+            {"name": "Begin with Prayer", "text": "Ask the Holy Spirit to enlighten your mind and help you see your sins clearly."},
+          {"name": "Review Your Day", "text": "Go through the events of the day, noticing where you fell short of God's will."},
+          {"name": "Examine Against the Commandments", "text": "Review your thoughts, words, and actions against the Ten Commandments and Church precepts."},
+          {"name": "Express Sorrow", "text": "Acknowledge your sins with genuine sorrow and ask God for forgiveness."},
+          {"name": "Resolve to Amend", "text": "Make a firm resolution to avoid sin and its occasions, and to go to Confession if needed."}
+          ]}
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

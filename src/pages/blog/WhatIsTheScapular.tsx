@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function WhatIsTheScapular() {
   return (
@@ -18,6 +19,11 @@ export default function WhatIsTheScapular() {
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-brown-scapular/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="What Is the Brown Scapular? History, Promises, and How to Wear It"
+          description="Learn what the Brown Scapular is, the history of Our Lady of Mount Carmel's apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it."
+          url="https://guidecatholic.com/blog/what-is-the-brown-scapular/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

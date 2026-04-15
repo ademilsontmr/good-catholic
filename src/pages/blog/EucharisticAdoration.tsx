@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function EucharisticAdoration() {
   return (
@@ -17,6 +18,11 @@ export default function EucharisticAdoration() {
         <meta name="keywords" content="eucharistic adoration, holy hour, blessed sacrament, perpetual adoration, adoration chapel, how to pray adoration, real presence" />
         <link rel="canonical" href="https://guidecatholic.com/blog/eucharistic-adoration/" />
       </Helmet>
+        <ArticleSchema
+          title="Eucharistic Adoration: A Complete Guide to the Holy Hour"
+          description="Discover the transforming power of Eucharistic Adoration. Learn what it is, how to make a holy hour, and why the saints called it the secret of holiness."
+          url="https://guidecatholic.com/blog/eucharistic-adoration/"
+        />
       <div className="min-h-screen bg-background">
         <Navbar />
 

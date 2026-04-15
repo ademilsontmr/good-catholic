@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function WhatIsHolyWeek() {
   return (
@@ -18,6 +19,11 @@ export default function WhatIsHolyWeek() {
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-holy-week-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="What Is Holy Week? A Complete Guide to the Most Sacred Week of the Year"
+          description="What is Holy Week? Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil. Learn how to participate fully in each day."
+          url="https://guidecatholic.com/blog/what-is-holy-week-catholic/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

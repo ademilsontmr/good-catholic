@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicHomeschooling() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicHomeschooling() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-homeschooling-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Homeschooling: A Complete Guide for Catholic Families"
+          description="A complete guide to Catholic homeschooling — top curricula, legal requirements, socialization, co-ops, integrating faith into every subject, and the liturgical year as a school calendar."
+          url="https://guidecatholic.com/blog/catholic-homeschooling-guide/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

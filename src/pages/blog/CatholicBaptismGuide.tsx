@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicBaptismGuide() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicBaptismGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-baptism-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Baptism: What It Is, How It Works, and Why It Matters"
+          description="Complete guide to Catholic Baptism. Learn the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire."
+          url="https://guidecatholic.com/blog/catholic-baptism-guide/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

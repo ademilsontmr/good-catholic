@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function WhatIsANovena() {
   return (
@@ -18,6 +19,11 @@ export default function WhatIsANovena() {
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-a-novena/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="What Is a Novena? The Catholic Prayer of Nine Days Explained"
+          description="Learn what a novena is, its biblical origins in Acts 1:14, the most popular novenas, how to pray a novena, what to do if you miss a day, and the power of perseverance in prayer."
+          url="https://guidecatholic.com/blog/what-is-a-novena/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

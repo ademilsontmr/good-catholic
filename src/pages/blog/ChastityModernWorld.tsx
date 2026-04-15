@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function ChastityModernWorld() {
     return (
@@ -17,6 +18,11 @@ export default function ChastityModernWorld() {
                 <meta name="keywords" content="how to live chastity, chastity in modern world, catholic sexual purity, why be chaste, chastity before marriage, true love" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/chastity-modern-world/" />
             </Helmet>
+        <ArticleSchema
+          title="Living Chastity in the Modern World: Challenges and Graces"
+          description="Understand the true meaning of Christian chastity and how to live it in today's world. An invitation to freedom and authentic love according to the Gospel."
+          url="https://guidecatholic.com/blog/chastity-modern-world/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

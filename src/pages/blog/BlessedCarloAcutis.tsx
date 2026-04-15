@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function BlessedCarloAcutis() {
   return (
@@ -18,6 +19,11 @@ export default function BlessedCarloAcutis() {
         <link rel="canonical" href="https://guidecatholic.com/blog/blessed-carlo-acutis/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Blessed Carlo Acutis: The Millennial Saint and Patron of the Internet"
+          description="Discover the life of Blessed Carlo Acutis — his Eucharistic devotion, his website cataloguing Eucharistic miracles, his death from leukemia at 15, his beatification in 2020, and canonization in 2025."
+          url="https://guidecatholic.com/blog/blessed-carlo-acutis/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

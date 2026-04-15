@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function DoCatholicsWorshipMary() {
   return (
@@ -18,6 +19,11 @@ export default function DoCatholicsWorshipMary() {
         <link rel="canonical" href="https://guidecatholic.com/blog/do-catholics-worship-mary/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Do Catholics Worship Mary? Understanding Marian Devotion"
+          description="Do Catholics worship Mary? Learn the difference between worship and veneration, what hyperdulia means, the four Marian dogmas, and how to explain Marian devotion to non-Catholics."
+          url="https://guidecatholic.com/blog/do-catholics-worship-mary/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

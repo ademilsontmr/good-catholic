@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function CatholicParenting() {
   return (
@@ -18,6 +19,11 @@ export default function CatholicParenting() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-parenting-raising-children-in-faith/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Parenting: How to Raise Children in the Faith"
+          description="A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith. Practical tips for every age."
+          url="https://guidecatholic.com/blog/catholic-parenting-raising-children-in-faith/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

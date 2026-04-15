@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function SpiritualDirection() {
   return (
@@ -18,6 +19,11 @@ export default function SpiritualDirection() {
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-spiritual-direction/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="Catholic Spiritual Direction: What It Is and How to Find a Director"
+          description="Learn what Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director in your diocese or online."
+          url="https://guidecatholic.com/blog/catholic-spiritual-direction/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function PrayerLife() {
   return (
@@ -17,6 +18,11 @@ export default function PrayerLife() {
         <meta name="keywords" content="how to have a prayer life, how to pray better, intimacy with god, daily catholic prayer, types of prayer, how to pray every day" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prayer-life/" />
       </Helmet>
+        <ArticleSchema
+          title="The Life of Prayer: How to Cultivate Intimacy with God"
+          description="Discover how to develop a deep and constant prayer life. Practical and spiritual tips to strengthen your friendship with God daily."
+          url="https://guidecatholic.com/blog/prayer-life/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

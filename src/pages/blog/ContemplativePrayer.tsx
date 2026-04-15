@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function ContemplativePrayer() {
   return (
@@ -18,6 +19,11 @@ export default function ContemplativePrayer() {
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-contemplative-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+        <ArticleSchema
+          title="What Is Contemplative Prayer? A Catholic Guide to Silent Prayer"
+          description="Discover what contemplative prayer is in the Catholic tradition. Learn the difference between meditation and contemplation, the Carmelite tradition, infused vs acquired contemplation, and how to begin."
+          url="https://guidecatholic.com/blog/what-is-contemplative-prayer/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />

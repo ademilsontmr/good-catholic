@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function GiftsOfHolySpirit() {
     return (
@@ -17,6 +18,11 @@ export default function GiftsOfHolySpirit() {
                 <meta name="keywords" content="what are the seven gifts of the holy spirit, gift of wisdom, gift of understanding, gift of counsel, gift of fortitude, gift of knowledge, gift of piety, gift of fear of the lord" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/gifts-holy-spirit/" />
             </Helmet>
+        <ArticleSchema
+          title="The Gifts of the Holy Spirit: How to Identify and Use Them"
+          description="Learn about the seven gifts of the Holy Spirit and how they work in your life to guide you on the path of holiness and service to others."
+          url="https://guidecatholic.com/blog/gifts-holy-spirit/"
+        />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

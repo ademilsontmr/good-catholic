@@ -7,6 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function ImportanceOfConfession() {
   return (
@@ -17,6 +18,11 @@ export default function ImportanceOfConfession() {
         <meta name="keywords" content="why confess to a priest, importance of confession, frequent confession, benefits of confession, how to make a good confession, examination of conscience" />
         <link rel="canonical" href="https://guidecatholic.com/blog/importance-confession/" />
       </Helmet>
+        <ArticleSchema
+          title="The Importance of Confession: Why Confess Regularly?"
+          description="Discover the spiritual benefits of frequent confession. Learn how to confess well and why this sacrament transforms our Christian life."
+          url="https://guidecatholic.com/blog/importance-confession/"
+        />
 
       <div className="min-h-screen bg-background">
         <Navbar />
