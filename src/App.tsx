@@ -140,6 +140,12 @@ import BrownScapularGuide from "./pages/blog/BrownScapularGuide";
 import SaintMichaelLent from "./pages/blog/SaintMichaelLent";
 import SacredHeartPromises from "./pages/blog/SacredHeartPromises";
 
+// New articles added to fulfill site-wide completeness
+import HowToChooseConfirmationName from "./pages/blog/HowToChooseConfirmationName";
+import HowToReturnToMass from "./pages/blog/HowToReturnToMass";
+import HowToTeachChildrenToPray from "./pages/blog/HowToTeachChildrenToPray";
+
+
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
@@ -288,7 +294,14 @@ const App = () => (
             <Route path="/blog/brown-scapular-guide/" element={<BrownScapularGuide />} />
             <Route path="/blog/st-michael-lent-guide/" element={<SaintMichaelLent />} />
             <Route path="/blog/sacred-heart-promises/" element={<SacredHeartPromises />} />
+            
+            {/* Newly activated articles */}
+            <Route path="/blog/how-to-choose-confirmation-name/" element={<HowToChooseConfirmationName />} />
+            <Route path="/blog/how-to-return-to-mass/" element={<HowToReturnToMass />} />
+            <Route path="/blog/how-to-teach-children-to-pray/" element={<HowToTeachChildrenToPray />} />
+
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
