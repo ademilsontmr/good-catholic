@@ -20,9 +20,10 @@ export default function HowToGoToConfession() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="How to Go to Confession: Step-by-Step Guide for Catholics"
-        description="Learn how to go to Confession step by step. Complete Catholic guide covering examination of conscience, what to say, and how to receive absolution."
+        title="How to Go to Confession: The Expert Guide to Reconciliation"
+        description="Master the Sacrament of Penance. Learn the 5 traditional requirements for a good confession, the power of 'In Persona Christi', and the absolute Seal of the Confessional."
         url="https://guidecatholic.com/blog/how-to-go-to-confession/"
+        author="Catholic Faith Guide Team"
       />
       <HowToSchema
         name="How to Go to Confession"
@@ -30,11 +31,11 @@ export default function HowToGoToConfession() {
         url="https://guidecatholic.com/blog/how-to-go-to-confession/"
         totalTime="PT20M"
         steps={[
-          {"name": "Examination of Conscience", "text": "Review your sins in the light of the Ten Commandments."},
-          {"name": "Contrition", "text": "Form a sincere sorrow for your sins."},
-          {"name": "Preparation", "text": "Make a firm resolution to avoid these sins in the future."},
-          {"name": "Confession", "text": "Confess your sins to the priest clearly and concisely."},
-          {"name": "Absolution and Penance", "text": "Pray the Act of Contrition and fulfill your penance."}
+          { "name": "Examination of Conscience", "text": "Review your sins in the light of the Ten Commandments." },
+          { "name": "Contrition", "text": "Form a sincere sorrow for your sins." },
+          { "name": "Preparation", "text": "Make a firm resolution to avoid these sins in the future." },
+          { "name": "Confession", "text": "Confess your sins to the priest clearly and concisely." },
+          { "name": "Absolution and Penance", "text": "Pray the Act of Contrition and fulfill your penance." }
         ]}
       />
 
@@ -63,7 +64,7 @@ export default function HowToGoToConfession() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                  Healing & Grace
+                  Sacraments
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
@@ -80,49 +81,58 @@ export default function HowToGoToConfession() {
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                "Whose sins you forgive are forgiven." With these words, Jesus created the most powerful psychological and spiritual tool in the history of humanity. Confession is not about guilt—it is about <strong>freedom</strong>.
+                "Whose sins you forgive are forgiven." With these words, Jesus created the most powerful healing tool in history. Confession is not a courtroom; it is the <strong>Sacrament of Resurrecting the Soul</strong>.
               </p>
             </header>
 
-            <div className="aspect-video bg-violet-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
-               <ShieldCheck className="w-24 h-24 text-violet-400/20 absolute -bottom-4 -right-4" />
-               <Church className="w-32 h-32 text-violet-400 relative z-10" strokeWidth={1} />
+            <div className="aspect-video bg-indigo-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+               <ShieldCheck className="w-24 h-24 text-indigo-400/20 absolute -bottom-4 -right-4" />
+               <Church className="w-32 h-32 text-indigo-500 relative z-10" strokeWidth={1} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                Confession is often the most feared sacrament, yet it is the most liberating. To go to confession is to hand over your heavy burdens to Christ and walk away with a clean slate.
+                Most Catholics view Confession as an obligation. The expert views it as a <strong>reset button for eternity</strong>. In the confessional, the priest acts <em>In Persona Christi</em>—it is not a man who hears you, but Jesus Christ Himself using the priest's vocal cords to pronounce the words of absolution.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                1. The Five Steps to a Worthy Confession
+                1. The 5 Traditional Requirements (The Latin Blueprint)
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                A holy confession requires preparation. The Church suggests five stages for a "perfect" experience:
+                The Church Fathers and Doctors developed five essential stages to ensure the sacrament is not only valid but spiritually fruitful:
               </p>
 
-              <div className="bg-violet-50 border border-violet-200 rounded-xl p-8 mb-10">
-                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
-                  <FileText className="w-6 h-6 text-violet-600" />
-                  Preparation Checklist
-                </h3>
-                <ol className="list-decimal list-inside text-text space-y-4 text-sm">
-                  <li><strong>Examination of Conscience:</strong> Spend 10 minutes in silence. Use a guide based on the 10 Commandments.</li>
-                  <li><strong>Sincere Contrition:</strong> This is sorrow of the soul. You don't need to "feel" sad, but you must "will" to be sorry.</li>
-                  <li><strong>Purpose of Amendment:</strong> A firm resolve to avoid the sins and the "near occasions of sin" (the people or places that lead you to sin).</li>
-                  <li><strong>Oral Confession:</strong> Verbalizing your sins to the priest. Naming them kills their power.</li>
-                  <li><strong>Penance:</strong> Doing the act suggested by the priest to help repair the spiritual damage.</li>
-                </ol>
+              <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div>
+                     <h4 className="font-bold text-indigo-900 mb-4 flex items-center gap-2">
+                       <FileText className="w-5 h-5" />
+                       Interior Preparation
+                     </h4>
+                     <ul className="space-y-4 text-sm text-text">
+                       <li><strong>Examen (Examination):</strong> A deep, honest review of the soul against the Decalogue (10 Commandments).</li>
+                       <li><strong>Contritio (Contrition):</strong> The heart's sorrow. Authentic contrition is a <em>judgment of the will</em> that sin was a mistake.</li>
+                       <li><strong>Propositum (Resolution):</strong> The firm intent to avoid not only the sin but the "near occasions" of sin.</li>
+                     </ul>
+                  </div>
+                  <div>
+                     <h4 className="font-bold text-indigo-900 mb-4 flex items-center gap-2">
+                       <ShieldCheck className="w-5 h-5" />
+                       External Action
+                     </h4>
+                     <ul className="space-y-4 text-sm text-text">
+                       <li><strong>Confessio (Confession):</strong> The verbalizing of sins. Explicitly naming the sin "kills" its power over your subconscious.</li>
+                       <li><strong>Satisfactio (Satisfaction):</strong> Performing the penance to heal the temporal damage caused by the sin.</li>
+                     </ul>
+                  </div>
+                </div>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. Perfect vs. Imperfect Contrition
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                <strong>Perfect Contrition</strong> is sorrow that arises purely from the love of God. <strong>Imperfect Contrition</strong> (Attritions) is sorrow that arises from a fear of Hell or the ugliness of the sin. 
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                While Perfect Contrition can forgive sins even before the sacrament (if combined with the intent to confess), Imperfect Contrition is <strong>fully sufficient</strong> within the sacrament. God meets you where you are.
+                Theology distinguishes between <strong>Contrition of Charity</strong> (Perfect) and <strong>Contrition of Fear</strong> (Imperfect, or Attrition). The miracle of the sacrament is that even if your sorrow is "imperfect" (e.g., fearing Hell), the grace of the absolution transforms it and restores your soul to the state of grace.
               </p>
 
               <QuizCTA
@@ -130,18 +140,15 @@ export default function HowToGoToConfession() {
                 description="Confession is the best spiritual hygiene. Take our quiz to prepare your heart and receive a customized examination of conscience for your next visit."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
-                 <Sparkles className="w-6 h-6 text-accent" />
-                 The Seal of the Confessional
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                3. The Inviolable Seal: The Secret of the Grave
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The priest is bound by an <strong>absolute seal</strong>. He cannot reveal a sin for any reason, even to save his own life or the lives of others. If a priest breaks this seal, he is automatically excommunicated. You can be 100% certain that your secret dies in that box.
+                The <strong>Seal of Confession</strong> is absolute and perpetual. Under Canon Law 1388, a priest who breaks the seal is automatically excommunicated. This was defended by martyrs like <strong>St. John Nepomucene</strong>, who was drowned in the Vltava River because he refused to tell the King the sins the Queen had confessed. 
               </p>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
-                <p className="text-text italic text-center leading-relaxed font-semibold">
+              <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mt-6 mb-6 font-display italic text-center text-text font-semibold">
                   "Though your sins be like scarlet, they shall be as white as snow." — Isaiah 1:18
-                </p>
               </div>
             </div>
 

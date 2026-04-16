@@ -50,94 +50,115 @@ export default function SaintMichaelArchangel() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                  Devotions
+                  Angelology
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
-                  April 14, 2026
+                  April 16, 2026
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  11 min read
+                  18 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                St. Michael the Archangel: Prayer, Devotion and His Role in Scripture
+                St. Michael the Archangel: Prince of the Heavenly Host
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                St. Michael the Archangel is the great warrior of heaven, the protector of the Church, and the champion of God's people against the forces of evil. His famous prayer — composed after a vision by Pope Leo XIII — is one of the most powerful in the Catholic tradition.
+                "Quis ut Deus?" (Who is like God?). This was the thunderous cry that defined the history of the universe. St. Michael is not just an angel; he is the champion of God's sovereignty and the eternal protector of the Church.
               </p>
             </header>
 
-            <div className="aspect-video bg-blue-100 rounded-2xl flex items-center justify-center mb-10">
-              <Shield className="w-24 h-24 text-blue-400" strokeWidth={1.5} />
+            <div className="aspect-video bg-indigo-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+               <Shield className="w-24 h-24 text-indigo-400/20 absolute -bottom-4 -right-4" />
+               <Shield className="w-32 h-32 text-indigo-500 relative z-10" strokeWidth={1} />
             </div>
-
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                In an age of spiritual warfare, the devotion to St. Michael the Archangel has never been more relevant. American Catholics have long had a special affection for this mighty archangel — the patron of soldiers, police officers, paramedics, and all who face danger in service of others. His prayer, once recited at the end of every Low Mass, was removed from the liturgy after the Second Vatican Council but has experienced a powerful revival in recent decades, with many Catholics reciting it daily as a protection against evil.
+                In an age of increasing spiritual disorientation, the figure of St. Michael the Archangel stands as a beacon of absolute loyalty to the Creator. While modern secularism often reduces angels to "decorative" figures, Catholic theology presents him as a powerful, distinct person of pure spirit — the <strong>General of the Armies of the Lord</strong>.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Michael in Scripture
+                1. "Quis ut Deus?": The Theology of the Great Cry
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                St. Michael appears by name in three books of the Bible, each time in a role of cosmic significance.
+                The name "Michael" is not merely a label, but a question and a battle cry. During the primordial rebellion of Lucifer — who said <em>"Non serviam"</em> (I will not serve) — Michael arose with the cry <strong>"Mi-ka-el?"</strong>, which in Hebrew means "Who is like God?". This act of humility was his greatest weapon, proving that his strength comes entirely from his complete submission to the Divine Will.
               </p>
 
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">The Book of Daniel</h3>
-              <p className="text-text leading-relaxed mb-6">
-                In the Book of Daniel, Michael appears as the great prince who stands guard over the people of Israel. In Daniel 10, an angel tells Daniel that Michael came to help him in a spiritual battle against the "prince of Persia" — a demonic power opposing God's purposes. In Daniel 12:1, Michael is described as "the great prince who has charge of your people," who will arise at the time of the end to deliver God's people from tribulation. This passage establishes Michael as the protector of God's people in the cosmic struggle between good and evil.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">The Letter of Jude</h3>
-              <p className="text-text leading-relaxed mb-6">
-                In the Letter of Jude (verse 9), Michael is described as disputing with the devil over the body of Moses. Even in this confrontation with Satan himself, Michael does not presume to condemn him by his own authority, but says: "The Lord rebuke you." This passage reveals Michael's humility and his complete dependence on God's authority — even the greatest of angels acts not by his own power but by the power of God.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">The Book of Revelation</h3>
-              <p className="text-text leading-relaxed mb-6">
-                The most dramatic appearance of Michael is in Revelation 12:7-9: "Now war arose in heaven, Michael and his angels fighting against the dragon. And the dragon and his angels fought back, but he was defeated, and there was no longer any place for them in heaven. And the great dragon was thrown down, that ancient serpent, who is called the devil and Satan, the deceiver of the whole world — he was thrown down to the earth, and his angels were thrown down with him." This passage is the foundation of Michael's role as the great warrior of heaven and the conqueror of Satan.
-              </p>
+              <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  The Nine Choirs of Angels
+                </h3>
+                <p className="text-sm text-text-muted mb-6 text-center italic">St. Michael is traditionally considered the leader of these celestial hierarchies</p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
+                  <div className="space-y-2">
+                    <p className="font-bold text-indigo-700">Higher Hierarchy</p>
+                    <ul className="list-disc list-inside text-text">
+                      <li>Seraphim</li>
+                      <li>Cherubim</li>
+                      <li>Thrones</li>
+                    </ul>
+                  </div>
+                  <div className="space-y-2">
+                    <p className="font-bold text-indigo-700">Middle Hierarchy</p>
+                    <ul className="list-disc list-inside text-text">
+                      <li>Dominions</li>
+                      <li>Virtues</li>
+                      <li>Powers</li>
+                    </ul>
+                  </div>
+                  <div className="space-y-2">
+                    <p className="font-bold text-indigo-700">Lower Hierarchy</p>
+                    <ul className="list-disc list-inside text-text">
+                      <li>Principalities</li>
+                      <li>Archangels</li>
+                      <li>Angels</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                His Four Roles in Catholic Tradition
+                2. The Four Offices of St. Michael
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                Catholic tradition, drawing on Scripture and the writings of the Fathers, identifies four principal roles of St. Michael:
+                Beyond the popular image of the warrior, the Church assigns Michael four distinct roles that impact every stage of a Christian's life and death:
+              </p>
+              <ul className="list-decimal list-inside text-text space-y-4 mb-8">
+                <li><strong>To fight against Satan:</strong> He is the primary opponent of the devil, continuing the battle described in Revelation 12.</li>
+                <li><strong>To rescue the souls of the faithful from the power of the enemy:</strong> Particularly at the hour of death, he protects the soul from final temptations.</li>
+                <li><strong>To be the champion of God's people:</strong> He was the patron of the Old Israel and is now the Protector of the Catholic Church.</li>
+                <li><strong>To call away from earth and bring men's souls to judgment:</strong> He is the "weighing" angel who presents the soul before the throne of God.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                3. The Historical Vision of Pope Leo XIII
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                On October 13, 1884, after celebrating Mass, Pope Leo XIII experienced a terrifying vision. He reportedly saw a dark cloud hovering over Rome and heard a guttural voice (Satan) boasting that he could destroy the Church if given a century of increased power. Shaken by the magnitude of the spiritual assault he foresaw, the Pope immediately went to his office and composed the <strong>Prayer to Saint Michael</strong>, ordering it to be recited after every Low Mass worldwide.
               </p>
 
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">1. Warrior Against Evil</h3>
-              <p className="text-text leading-relaxed mb-6">
-                Michael is the commander of the heavenly armies, the one who led the angels in the war against Lucifer and cast him out of heaven. He is invoked as a protector against demonic attack, temptation, and spiritual warfare. His name itself — "Mi-ka-el" in Hebrew — means "Who is like God?" — a battle cry that proclaims the absolute supremacy of God over all created beings, including the fallen angels.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">2. Protector of the Church</h3>
-              <p className="text-text leading-relaxed mb-6">
-                Just as Michael was the guardian of Israel in the Old Testament, he is understood in Catholic tradition to be the special protector of the Church — the new Israel. He guards the Church against the attacks of Satan and intercedes for her in the heavenly court. Many of the great apparitions and shrines associated with Michael — including Mont Saint-Michel in France and the Sanctuary of Monte Sant'Angelo in Italy — are connected to his role as protector.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">3. Weigher of Souls</h3>
-              <p className="text-text leading-relaxed mb-6">
-                In Catholic tradition, Michael is associated with the particular judgment of souls at death. He is often depicted holding a scale, weighing the souls of the departed. This role connects him to the mercy and justice of God — he presents souls before the divine tribunal and intercedes for them. Many Catholics invoke Michael at the hour of death, asking him to accompany their souls before God.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">4. Healer</h3>
-              <p className="text-text leading-relaxed mb-6">
-                In some traditions, particularly in the Eastern Church, Michael is also associated with healing. The famous healing spring at Chonae (modern Turkey) was said to have been blessed by Michael, and many miraculous healings were attributed to his intercession there. This healing role connects to his name — "Who is like God?" — for God alone is the ultimate healer of body and soul.
-              </p>
+              <div className="bg-slate-50 border border-slate-200 rounded-xl p-8 mb-10 text-center">
+                <h3 className="font-bold text-text mb-4 text-xl">The Sacred Protection</h3>
+                <p className="text-text italic leading-relaxed mb-6">
+                  "Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil..."
+                </p>
+                <Link to="/blog/saint-michael-prayer-history">
+                  <Button variant="outline" size="sm" className="rounded-full">Read the Full History</Button>
+                </Link>
+              </div>
 
               <QuizCTA
-                title="How strong is your devotion to the angels?"
-                description="The angels are our companions and protectors on the journey of faith. Take our quiz and discover how to deepen your Catholic spiritual life."
+                title="Is your spiritual armor ready?"
+                description="We are all in a spiritual battle. Take our assessment to analyze your devotion to the angels and discover how to live under their constant protection."
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Famous Prayer to St. Michael: Full Text
               </h2>
-              <p className="text-text leading-relaxed mb-4">
+              <p className="text-text leading-relaxed mb-6">
                 The Prayer to St. Michael was composed by Pope Leo XIII and ordered to be recited after Low Mass throughout the universal Church. According to tradition, the Pope composed it after a vision in which he saw a terrifying confrontation between Satan and God, in which Satan was given a period of time to try to destroy the Church. Shaken by the vision, Leo XIII composed the prayer and ordered it to be said after every Low Mass — a practice that continued until 1964.
               </p>
 

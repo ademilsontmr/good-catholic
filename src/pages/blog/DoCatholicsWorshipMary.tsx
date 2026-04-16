@@ -19,11 +19,12 @@ export default function DoCatholicsWorshipMary() {
         <link rel="canonical" href="https://guidecatholic.com/blog/do-catholics-worship-mary/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-        <ArticleSchema
-          title="Do Catholics Worship Mary? Understanding Marian Devotion"
-          description="Do Catholics worship Mary? Learn the difference between worship and veneration, what hyperdulia means, the four Marian dogmas, and how to explain Marian devotion to non-Catholics."
-          url="https://guidecatholic.com/blog/do-catholics-worship-mary/"
-        />
+      <ArticleSchema
+        title="Do Catholics Worship Mary? The Master Guide to Marian Devotion"
+        description="Master the theological distinction between worship (Latria) and veneration (Hyperdulia). Explore Biblical typology like the Ark of the Covenant and the role of the Queen Mother."
+        url="https://guidecatholic.com/blog/do-catholics-worship-mary/"
+        author="Catholic Faith Guide Team"
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />
@@ -49,55 +50,75 @@ export default function DoCatholicsWorshipMary() {
 
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
-                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                  Doctrine
+                <span className="bg-rose-100 text-rose-600 px-3 py-1 rounded-full text-xs font-medium">
+                  Mariology
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
-                  April 14, 2026
+                  April 16, 2026
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  11 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Do Catholics Worship Mary? Understanding Marian Devotion
+                Do Catholics Worship Mary? A Master Challenge to Devotion
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                "You Catholics worship Mary!" It's one of the most common accusations leveled at Catholics by Protestant Christians. The short answer is: no, Catholics do not worship Mary. But the full answer is richer and more beautiful than a simple denial.
+                "You Catholics worship Mary!" It is the most frequent accusation in 2,000 years. The short answer is: no. The expert answer is: Catholics honor the <strong>Masterpiece of God</strong> to better adore the Artist.
               </p>
             </header>
 
-            <div className="aspect-video bg-rose-100 rounded-2xl flex items-center justify-center mb-10">
-              <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
+            <div className="aspect-video bg-rose-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+               <Heart className="w-24 h-24 text-rose-400/20 absolute -bottom-4 -right-4" />
+               <Heart className="w-32 h-32 text-rose-400 relative z-10" strokeWidth={1} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                The question "Do Catholics worship Mary?" comes up constantly in conversations between Catholics and their Protestant friends, coworkers, and family members. It's a fair question — from the outside, Catholic Marian devotion can look like worship. There are statues, prayers, feast days, rosaries, and shrines dedicated to Mary. But appearances can be deceiving, and in this case, they are.
-              </p>
-
-              <p className="text-text leading-relaxed mb-6">
-                Understanding Marian devotion requires understanding what worship actually is, what the Catholic Church teaches about Mary's unique role in salvation history, and why honoring Mary is not only permitted but encouraged by Scripture and Tradition. This article will walk through all of it — clearly, charitably, and thoroughly.
+                Understanding Marian devotion is not about "rules"—it is about <strong>Biblical Typology</strong>. To the Catholic expert, Mary is not an obstacle to Jesus; she is the gateway. As a window doesn't stop the light but transmits it, Mary transmits the glory of God to us.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Fundamental Distinction: Worship vs. Veneration
+                1. Technical Distinctions: Latria vs. Hyperdulia
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                Catholic theology has always maintained a clear distinction between the honor given to God and the honor given to creatures. The technical terms come from Greek and Latin theology:
+                The Church uses precise theological language to distinguish the degrees of honor. Interchanging these is the root of the "worship" misconception:
               </p>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Latria</strong> — the worship, adoration, and sacrifice due to God alone. This is what we offer at Mass, in the Eucharist, in the act of adoration. Offering latria to anyone other than God is idolatry.</li>
-                <li><strong>Dulia</strong> — the veneration or honor given to the saints. This is the respect we give to holy men and women who lived heroic virtue and are now with God in heaven.</li>
-                <li><strong>Hyperdulia</strong> — a special, elevated form of veneration given exclusively to the Virgin Mary, because of her unique role as the Mother of God. Even hyperdulia is infinitely below latria.</li>
-              </ul>
+
+              <div className="bg-rose-50 border border-rose-100 rounded-xl p-8 mb-10">
+                <ul className="space-y-4 text-text">
+                  <li><strong>Latria (Adoration):</strong> Sacrifice and supreme worship offered to God <strong>alone</strong>. Offering this to Mary would be the grave sin of idolatry.</li>
+                  <li><strong>Dulia (Veneration):</strong> The honor given to the Saints as "friends of God."</li>
+                  <li><strong>Hyperdulia (Super-veneration):</strong> The unique honor reserved <strong>only</strong> for Mary. Because she provided the flesh for the Word, she is a category of creature unto herself.</li>
+                </ul>
+              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                2. Biblical Typology: The Ark and The Queen
+              </h2>
               <p className="text-text leading-relaxed mb-6">
-                When Catholics honor Mary, they offer her hyperdulia — the highest form of veneration given to any creature. But this is categorically different from the worship (latria) given to God. The Catholic Church has never taught that Mary is divine, that she is equal to God, or that she should be worshipped. Any Catholic who worshipped Mary would be committing idolatry — a grave sin condemned by the Church.
+                Catholics honor Mary because the Old Testament prefigured her role. Two powerful archetypes explain why she is "Blessed among women":
               </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                 <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <h4 className="font-bold text-text mb-2">The Ark of the Covenant</h4>
+                    <p className="text-sm text-text-muted leading-relaxed">The old Ark carried the stone tablets; Mary carried the Living Word. Comparing 2 Samuel 6 and Luke 1 reveals identical language: the Presence of God was held within her.</p>
+                 </div>
+                 <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+                    <h4 className="font-bold text-text mb-2">The Gebirah (Queen Mother)</h4>
+                    <p className="text-sm text-text-muted leading-relaxed">In the Kingdom of David, the King's <strong>Mother</strong> was the Queen (1 Kings 2:19). As Jesus is the King of kings, Mary is the rightful Queen Mother who intercedes for the people.</p>
+                 </div>
+              </div>
+
+              <QuizCTA
+                title="Do you see the biblical threads?"
+                description="Marian devotion is 100% Biblical when you understand typology. Take our Scripture quiz to see how the Old Testament points directly to the Mother of God."
+              />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Mary's Role in Salvation: Why She Deserves Special Honor

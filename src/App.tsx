@@ -12,7 +12,6 @@ import CheckoutPage from "./pages/CheckoutPage";
 import ResultadoPage from "./pages/ResultadoPage";
 import GetResultPage from "./pages/GetResultPage";
 import BlogPage from "./pages/BlogPage";
-import HowToPrayRosary from "./pages/blog/HowToPrayRosary";
 import SevenSacraments from "./pages/blog/SevenSacraments";
 import ImportanceOfConfession from "./pages/blog/ImportanceOfConfession";
 import PatronSaints from "./pages/blog/PatronSaints";
@@ -173,7 +172,6 @@ const App = () => (
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/contato" element={<Contact />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/blog/how-to-pray-rosary/" element={<HowToPrayRosary />} />
             <Route path="/blog/seven-sacraments/" element={<SevenSacraments />} />
             <Route path="/blog/importance-confession/" element={<ImportanceOfConfession />} />
             <Route path="/blog/patron-saints/" element={<PatronSaints />} />

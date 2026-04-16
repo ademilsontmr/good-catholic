@@ -19,11 +19,12 @@ export default function WhatIsTheMassGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-mass/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-        <ArticleSchema
-          title="What Is the Catholic Mass? A Complete Guide for Beginners"
-          description="What is the Catholic Mass? Learn the two main parts of the Mass, what happens at each stage, what to do as a visitor, why Catholics go every Sunday, and the Real Presence of Christ."
-          url="https://guidecatholic.com/blog/what-is-the-catholic-mass/"
-        />
+      <ArticleSchema
+        title="What Is the Catholic Mass? The Master Guide to the Eucharist"
+        description="Master the central act of Catholic worship. Learn about Transubstantiation, the Real Presence, and how the Mass is the re-presentation of Christ's sacrifice."
+        url="https://guidecatholic.com/blog/what-is-the-catholic-mass/"
+        author="Catholic Faith Guide Team"
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />
@@ -49,50 +50,63 @@ export default function WhatIsTheMassGuide() {
 
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
-                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                  Liturgy
+                <span className="bg-stone-100 text-stone-600 px-3 py-1 rounded-full text-xs font-medium">
+                  Liturgy & Sacraments
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
-                  April 14, 2026
+                  April 16, 2026
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  13 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                What Is the Catholic Mass? A Complete Guide for Beginners
+                What Is the Catholic Mass? A Master Guide to the Mystery
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                The Catholic Mass is the central act of worship in the Catholic Church — a sacred ritual that has been celebrated for 2,000 years. Whether you're a lifelong Catholic who wants to understand it more deeply, or a visitor attending for the first time, this guide will walk you through everything you need to know.
+                The Mass is the "Source and Summit" of the Christian life. It is not just a prayer; it is the moment where <strong>Heaven and Earth kiss</strong>.
               </p>
             </header>
 
-            <div className="aspect-video bg-violet-100 rounded-2xl flex items-center justify-center mb-10">
-              <Church className="w-24 h-24 text-violet-400" strokeWidth={1.5} />
+            <div className="aspect-video bg-stone-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+               <Church className="w-24 h-24 text-stone-400/20 absolute -bottom-4 -right-4" />
+               <Church className="w-32 h-32 text-stone-400 relative z-10" strokeWidth={1} />
             </div>
-
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                Every Sunday — and on many weekdays — Catholics around the world gather in churches to celebrate the Mass. In the United States alone, millions of Catholics attend Mass each week. But what exactly is happening during those 45 to 60 minutes? Why do Catholics stand, sit, and kneel at specific moments? What is the priest doing at the altar? And why does it matter so much?
-              </p>
-
-              <p className="text-text leading-relaxed mb-6">
-                The Mass is not simply a church service or a religious meeting. It is, according to Catholic teaching, the re-presentation of the sacrifice of Christ on Calvary — made present in an unbloody manner on the altar. It is simultaneously a sacrifice and a sacred meal, a memorial and a living reality, a human act of worship and a divine act of grace.
+                To the outside observer, the Mass looks like a series of rituals. To the expert, it is an <strong>Entry into Eternity</strong>. In every Mass, time stands still. We are not "remembering" a past event; we are present at the single, eternal sacrifice of Jesus Christ on Calvary.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Mass as Sacrifice and Meal
+                1. The Theology of Transubstantiation
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Mass has two inseparable dimensions. As a <strong>sacrifice</strong>, it makes present the one sacrifice of Christ on the Cross. Jesus does not die again at Mass — His sacrifice was once for all (Hebrews 10:10). But that one sacrifice is made present across time and space, so that every Mass is a participation in Calvary. The priest acts <em>in persona Christi</em> — in the person of Christ — offering the same sacrifice that Christ offered on the Cross.
+                The core of the Mass is the belief in the <strong>Real Presence</strong>. Catholics do not believe the bread is a "symbol." Through <strong>Transubstantiation</strong>, the <em>substance</em> of bread and wine is changed into the Body, Blood, Soul, and Divinity of Jesus, while the <em>accidents</em> (look, taste, smell) remain.
               </p>
+
+              <div className="bg-stone-50 border border-stone-200 rounded-xl p-8 mb-10">
+                 <h4 className="font-bold text-text mb-4">Understanding the Miracle</h4>
+                 <p className="text-sm text-text leading-relaxed italic mb-0">
+                    "Christ is present in this sacrament not only in His divinity... but also in His true body." — St. Thomas Aquinas. 
+                    This is the "Mystery of Faith." It is the reason Catholics kneel: they are in the physical presence of their Creator.
+                 </p>
+              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                2. Sacrifice vs. Memorial: The Anamnesis
+              </h2>
               <p className="text-text leading-relaxed mb-6">
-                As a <strong>sacred meal</strong>, the Mass fulfills Jesus's command at the Last Supper: "Do this in memory of me" (Luke 22:19). The Eucharist is the Bread of Life that Jesus promised in John 6: "Whoever eats my flesh and drinks my blood has eternal life, and I will raise them up at the last day" (John 6:54). The Mass is the fulfillment of the Passover meal, the manna in the desert, and all the sacrificial meals of the Old Testament.
+                Is the Mass a sacrifice? Yes. But it is an <strong>unbloody sacrifice</strong>. The Church calls this <em>Anamnesis</em>—a Greek word that doesn't mean "memory," but "making present." The priest, acting <em>In Persona Christi</em>, offers the same sacrifice of the Cross, not a new one. This is why the Mass has infinite value.
               </p>
+
+              <QuizCTA
+                title="Are you entering the mystery?"
+                description="The Mass is the most powerful hour of your week. Take our quiz to receive a custom guide on how to participate more actively in the Liturgy and receive more grace."
+              />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Two Main Parts of the Mass

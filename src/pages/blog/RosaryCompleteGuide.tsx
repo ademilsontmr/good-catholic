@@ -72,8 +72,8 @@ export default function RosaryCompleteGuide() {
             </header>
 
             <div className="aspect-video bg-rose-50 rounded-2xl flex items-center justify-center mb-10 relative overflow-hidden">
-               <Shield className="w-24 h-24 text-rose-400/20 absolute -bottom-4 -left-4" />
-               <Sword className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
+              <Shield className="w-24 h-24 text-rose-400/20 absolute -bottom-4 -left-4" />
+              <Sword className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
             </div>
 
             <div className="prose prose-lg max-w-none">
@@ -85,7 +85,7 @@ export default function RosaryCompleteGuide() {
                 1. The Battle that Saved Christendom: Lepanto (1571)
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Rosary isn't just a "private" prayer; it has saved empires. In 1571, the Christian West was on the verge of Islamic invasion. Pope St. Pius V asked all Christians to pray the Rosary for the success of the Holy League at the <strong>Battle of Lepanto</strong>. 
+                The Rosary isn't just a "private" prayer; it has saved empires. In 1571, the Christian West was on the verge of Islamic invasion. Pope St. Pius V asked all Christians to pray the Rosary for the success of the Holy League at the <strong>Battle of Lepanto</strong>.
               </p>
               <p className="text-text leading-relaxed mb-6">
                 Despite being outnumbered, the Christian fleet won a miraculous victory. The Pope, who was miles away, was granted a vision of the victory at the exact moment it happened. He established the feast of <strong>Our Lady of the Rosary</strong> (October 7) to commemorate this victory.
@@ -137,8 +137,8 @@ export default function RosaryCompleteGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
-                 <Heart className="w-6 h-6 text-accent" />
-                 Fatima and the "Daily Duty"
+                <Heart className="w-6 h-6 text-accent" />
+                Fatima and the "Daily Duty"
               </h2>
               <p className="text-text leading-relaxed mb-6">
                 In every single apparition at Fatima in 1917, Our Lady specifically asked: <strong>"Pray the Rosary every day."</strong> Sister Lucia, the longest-living visionary, stated that "there is no problem, I tell you, no matter how difficult it is, that we cannot resolve by the prayer of the Holy Rosary."
