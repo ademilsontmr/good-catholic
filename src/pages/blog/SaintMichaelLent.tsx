@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Sword, Calendar, Clock, ArrowLeft, ShieldCheck, Flame, Sparkles } from "lucide-react";
+import { Sword, Calendar, Clock, ArrowLeft, ShieldCheck, Flame, Sparkles, ShieldAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,15 +13,15 @@ export default function SaintMichaelLent() {
   return (
     <>
       <Helmet>
-        <title>Saint Michael's Lent: How to Pray the 40-Day Devotion | Guide Catholic</title>
-        <meta name="description" content="Discover the origins of Saint Michael's Lent, why St. Francis of Assisi loved this devotion, and a complete day-by-day guide on how to pray it." />
-        <meta name="keywords" content="st michael lent, how to pray st michael lent, quaresma de sao miguel, st francis of assisi st michael, prayer for spiritual protection, archangel michael devotion, Chaplet of st michael" />
+        <title>Saint Michael's Lent: The Expert Guide to Spiritual Warfare | Guide Catholic</title>
+        <meta name="description" content="Learn how to pray Saint Michael's Lent. Discover the origins with St. Francis of Assisi, the 9 Choirs of Angels, and the power of 40 days of fasting." />
+        <meta name="keywords" content="st michael lent, quaresma de sao miguel, st francis stigmata, spiritual warfare catholic, chaplet of st michael, archangel michael protection" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michael-lent-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Michael's Lent: A 40-Day Spiritual Journey for Protection"
-        description="Discover the origins of Saint Michael's Lent, why St. Francis of Assisi loved this devotion, and a complete day-by-day guide on how to pray it."
+        description="Discover the origins of Saint Michael's Lent, why St. Francis of Assisi loved this devotion, and a complete guide on how to pray it."
         url="https://guidecatholic.com/blog/st-michael-lent-guide/"
       />
 
@@ -54,105 +54,91 @@ export default function SaintMichaelLent() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
-                  April 16, 2026
+                  August 15 – Sept 29
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  22 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Saint Michael's Lent: The Ultimate Guide to Spiritual Victory
+                The Lent of St. Michael: 40 Days to Breaking Spiritual Chains
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                Most Catholics are familiar with the 40 days of Lent before Easter. However, there is a second "Lent" hidden in the heart of the Church's liturgical year. Popularized by the Great St. Francis of Assisi, Saint Michael’s Lent is a powerful 40-day intensive of fasting and prayer dedicated to the Prince of the Heavenly Host.
+                "Who is like unto God?" This was the battle cry of the Archangel Michael during the Great War in Heaven. Today, that same power is available to us through a devotion popularized by St. Francis of Assisi. If you are facing a spiritual wall, this 40-day "Lent" is your battering ram.
               </p>
             </header>
 
-            <div className="aspect-video bg-orange-50 rounded-2xl flex items-center justify-center mb-10">
-              <Sword className="w-24 h-24 text-orange-400" strokeWidth={1.5} />
+            <div className="aspect-video bg-orange-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+               <ShieldCheck className="w-24 h-24 text-orange-400/20 absolute -bottom-4 -right-4" />
+               <Sword className="w-32 h-32 text-orange-400 relative z-10" strokeWidth={1} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                Saint Michael’s Lent runs from <strong>August 15</strong> (the Feast of the Assumption) to <strong>September 29</strong> (the Feast of the Archangels). While it is a private devotion and not a mandatory law of the Church, it has become a "manual for spiritual warfare" for thousands of faithful seeking divine protection over their families and the world.
+                Most Catholics know the Lent before Easter, but fewer know the <strong>Lent of St. Michael</strong>. Running from the Feast of the Assumption (Aug 15) to Michaelmas (Sept 29), this is not just a prayer—it is a training camp for the soul.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Origins: Mt. La Verna and the Stigmata
+                1. The Franciscan Origins: Mount La Verna
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The devotion reached its peak through <strong>St. Francis of Assisi</strong>. Every year, Francis would retreat to Mount La Verna to spend forty days in absolute silence and rigorous fasting in honor of St. Michael, whom he loved dearly as the defender of God's honor.
+                In 1224, <strong>Saint Francis of Assisi</strong> retreated to a wild mountain called La Verna. He had a profound love for St. Michael, whom he saw as the mediator between God and man after the Virgin Mary. He decided to fast for 40 days to honor the Archangel.
               </p>
               <p className="text-text leading-relaxed mb-6">
-                It was during this exact "Michaelmas Lent" in September 1224 that Francis received the most profound grace of his life: the <strong>Stigmata</strong>. After weeks of prayer, a Seraph (often identified with St. Michael or a vision of Christ) appeared to him, and the physical wounds of the Crucifixion were impressed upon his hands, feet, and side. The Lent of St. Michael is thus forever linked to the highest possible union with the suffering of Christ.
+                It was during this specific Lent that Francis received the <strong>Stigmata</strong>—the physical wounds of Christ. This teaches us a crucial lesson: When we honor the angels, they lead us directly to the Heart of the Crucified King.
               </p>
 
               <div className="bg-orange-50 border border-orange-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
-                  <ShieldCheck className="w-6 h-6 text-orange-600" />
-                  Practical Requirements for the Devotion
+                  <ShieldAlert className="w-6 h-6 text-orange-600" />
+                  The Tripod of Victory
                 </h3>
-                <p className="text-text mb-4">You do not need to be a monk to pray this Lent. Here is the modern layout:</p>
-                <ol className="list-decimal list-inside text-text space-y-3">
-                  <li><strong>Duration:</strong> 40 days (August 15 – September 29). Sundays are feast days and not counted as fast days, just like the Great Lent.</li>
-                  <li><strong>Penance:</strong> Choose <em>one</em> physical penance (fasting from sweets, cold showers, or extra silence) and <em>one</em> spiritual work of mercy.</li>
-                  <li><strong>The Altar:</strong> If possible, place an image of St. Michael in a central place in your home with a candle to be lit during prayer.</li>
-                  <li><strong>The Chaplet of St. Michael:</strong> The core prayer of the devotion.</li>
-                </ol>
+                <p className="text-sm text-text-muted mb-6 text-center italic">To live the 40 days effectively, you need three pillars</p>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="text-center">
+                    <h4 className="font-bold text-orange-800 text-sm mb-2 uppercase">Prayer</h4>
+                    <p className="text-xs">Daily Chaplet of St. Michael and 40 days of the St. Michael Prayer.</p>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-bold text-orange-800 text-sm mb-2 uppercase">Penance</h4>
+                    <p className="text-xs">A specific fast (from social media, secular music, or sweets).</p>
+                  </div>
+                  <div className="text-center">
+                    <h4 className="font-bold text-orange-800 text-sm mb-2 uppercase">Charity</h4>
+                    <p className="text-xs">A commitment to a daily act of service or almsgiving.</p>
+                  </div>
+                </div>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Chaplet of Saint Michael: The Nine Salutations
+                2. The 9 Choirs and the Chaplet
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                In 1751, St. Michael appeared to the Portuguese servant of God, **Antonia de Astonac**. He promised that whoever prayed this Chaplet in his honor would have an <strong>escort of nine angels</strong> (one from each of the 9 choirs) when they go to Holy Communion. 
+                Central to this Lent is the <strong>Chaplet of St. Michael</strong>. Revealed to a Portuguese mystic, Antonia de Astonac, it involves nine salutations to the nine choirs of angels. 
               </p>
               <p className="text-text leading-relaxed mb-6">
-                The Chaplet consists of an Our Father and three Hail Marys for each of the nine angelic choirs: 
+                St. Michael promised that anyone who prays this before Communion will be escorted by those nine angels. For a Catholic, this isn't just "imagination"—it is the reality of the <strong>Communion of Saints</strong>. Whether you are praying against addiction, family division, or spiritual dryness, you are enlisting an army.
               </p>
-              <ul className="grid grid-cols-1 md:grid-cols-3 gap-2 text-sm text-text font-medium mb-8">
-                <li>1. Seraphim</li>
-                <li>2. Cherubim</li>
-                <li>3. Thrones</li>
-                <li>4. Dominations</li>
-                <li>5. Virtues</li>
-                <li>6. Powers</li>
-                <li>7. Principalities</li>
-                <li>8. Archangels</li>
-                <li>9. Angels</li>
-              </ul>
 
               <QuizCTA
-                title="Is your spiritual armor ready?"
-                description="Take our quiz to analyze your knowledge of the angelic hierarchy and discover how to enlist their help in your daily life."
+                title="Are you under spiritual attack?"
+                description="The first step to victory is awareness. Take our quiz to evaluate your spiritual hygiene and learn how the Archangels can protect your peace."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2 text-red-700">
-                <Flame className="w-6 h-6" />
-                Spiritual Battle Tactics
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Flame className="w-6 h-6 text-accent" />
+                 Why St. Michael is the Prince
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Prince of the Heavenly Host is the "Supreme Commander" of the Angels. When we pray this Lent, we are engaging in **Active Defense**. 
+                In <strong>Revelation 12:7-9</strong>, we see the cosmic battle. Michael doesn't win by his own power, but by the "Blood of the Lamb." This is the key to the devotion: St. Michael is the one who helps us stay faithful to the cross. He is the guardian of the Eucharist and the defender of the Church.
               </p>
-              <p className="text-text leading-relaxed mb-6">
-                Exorcists and spiritual directors often recommend St. Michael's Lent for those facing:
-              </p>
-              <ul className="list-disc list-inside text-text space-y-2 mb-8">
-                <li><strong>Ancestral Bondages:</strong> Breaking cycles of sin in the family line.</li>
-                <li><strong>Mental Oppression:</strong> Finding peace against anxiety, despair, or persistent temptation.</li>
-                <li><strong>Protection of Children:</strong> Creating a "spiritual perimeter" around the home.</li>
-              </ul>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-8 mb-10">
-                <h3 className="font-bold text-text mb-4 text-center flex items-center justify-center gap-2">
-                  <Sparkles className="w-5 h-5 text-accent" />
-                  The St. Michael Promise
-                </h3>
-                <p className="text-text italic text-center leading-relaxed">
-                  "Whoever prays this devotion will have my special protection during life and my help at the hour of death, as well as the assistance of a holy angel during the reception of the Sacraments."
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "St. Michael is the first of all the angels. He is the standard-bearer of the Holy Trinity." — St. Thomas Aquinas
                 </p>
               </div>
             </div>
@@ -161,25 +147,25 @@ export default function SaintMichaelLent() {
 
             <BlogFAQ faqs={[
               {
-                question: "Can I pray St. Michael's Lent at other times of the year?",
-                answer: "Absolutely. While the traditional period is August 15 to Sept 29, many people pray it whenever they feel a particular need for protection or before a major spiritual decision. The structure of 40 days is the most important part."
+                question: "Do I have to fast from food for 40 days?",
+                answer: "No. You should choose a penance that is challenging but sustainable for your state of life. For most, this means fasting from a specific habit (like constant notifications or idle talk) rather than strict bread and water."
               },
               {
-                question: "Do I have to do all 9 choirs every day?",
-                answer: "The Chaplet of St. Michael (which covers the 9 choirs) is the standard daily prayer. It takes about 10-12 minutes to recite. If you are very busy, even the short 'St. Michael Prayer' is better than nothing, but the Chaplet holds the specific promise of the angelic escort."
+                question: "Can I start the Lent late?",
+                answer: "Yes! If you find out about it after August 15, you can still start and finish the 40 days. The dates are traditional, but the 40-day intensive is what transforms the heart."
               },
               {
-                question: "What is the difference between this and the regular Lent?",
-                answer: "The Great Lent (before Easter) is a Liturgical Season of the Church with mandatory laws (fasting on Ash Wednesday, etc.). St. Michael's Lent is a 'Sacramental of Time'—a voluntary devotion of the heart that follows the example of the saints."
+                question: "What is the difference between an Archangel and a Guardian Angel?",
+                answer: "Archangels (Michael, Gabriel, Raphael) have cosmic missions for the whole Church. Your Guardian Angel is specifically assigned to *you* for your protection and guidance. In St. Michael's Lent, we honor both."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Enlist the Heavenly Host
+                Enlist the General of the Heavenly Host
               </h3>
               <p className="text-text-muted mb-6">
-                Victory is promised to those who remain in Christ. Take our quiz to strengthen your resolve and deepen your faith.
+                Victory is not a wish; it is a promise. Take our quiz to receive a custom plan for your spiritual Lent.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

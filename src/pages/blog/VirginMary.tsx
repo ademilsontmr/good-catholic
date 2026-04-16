@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Cross, Calendar, Clock, ArrowLeft, Heart } from "lucide-react";
+import { Heart, Calendar, Clock, ArrowLeft, Star, Sparkles, Shield, Compass } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -10,200 +10,179 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
 
 export default function VirginMary() {
-    return (
-        <>
-            <Helmet>
-                <title>The Virgin Mary in Catholic Doctrine: Dogmas and Devotion | Guide Catholic</title>
-                <meta name="description" content="Learn about the four Marian dogmas and the importance of Our Lady in salvation history. Understand why Catholics honor the Mother of God." />
-                <meta name="keywords" content="virgin mary in catholic church, marian dogmas, why catholics venerate mary, our lady mother of god, immaculate conception, assumption of mary" />
-                <link rel="canonical" href="https://guidecatholic.com/blog/virgin-mary/" />
-            </Helmet>
-        <ArticleSchema
-          title="The Virgin Mary in Catholic Doctrine: Dogmas and Devotion"
-          description="Learn about the four Marian dogmas and the importance of Our Lady in salvation history. Understand why Catholics honor the Mother of God."
-          url="https://guidecatholic.com/blog/virgin-mary/"
-        />
+  return (
+    <>
+      <Helmet>
+        <title>The Virgin Mary: The Expert Guide to the Mother of God | Guide Catholic</title>
+        <meta name="description" content="Explore the deep theology of the Virgin Mary. Learn about the four dogmas, the Ark of the New Covenant typology, and why Catholics venerate Our Lady." />
+        <meta name="keywords" content="virgin mary dogmas, immaculate conception meaning, theotokos council of ephesus, assumption of mary body and soul, perpetual virginity defense" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/virgin-mary/" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+      <ArticleSchema
+        title="The Virgin Mary in Catholic Doctrine: Dogmas and Devotion"
+        description="Learn about the four Marian dogmas and the importance of Our Lady in salvation history. Understand why Catholics honor the Mother of God."
+        url="https://guidecatholic.com/blog/virgin-mary/"
+      />
 
-            <div className="min-h-screen bg-background">
-                <Navbar />
+      <div className="min-h-screen bg-background">
+        <Navbar />
 
         <div className="bg-background-muted/50 py-3 mt-16">
-                    <div className="container mx-auto px-4">
-                        <nav className="flex items-center gap-2 text-sm text-text-muted">
-                            <Link to="/" className="hover:text-accent">Home</Link>
-                            <span>/</span>
-                            <Link to="/blog" className="hover:text-accent">Blog</Link>
-                            <span>/</span>
-                            <span className="text-text">The Virgin Mary</span>
-                        </nav>
-                    </div>
-                </div>
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">The Virgin Mary</span>
+            </nav>
+          </div>
+        </div>
 
-                <article className="py-12">
-                    <div className="container mx-auto px-4 max-w-4xl">
-                        <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
-                            <ArrowLeft className="w-4 h-4" />
-                            Back to Blog
-                        </Link>
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
+              Back to Blog
+            </Link>
 
-                        <header className="mb-8">
-                            <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
-                                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                                    Devotions
-                                </span>
-                                <span className="flex items-center gap-1">
-                                    <Calendar className="w-4 h-4" />
-                                    December 29, 2024
-                                </span>
-                                <span className="flex items-center gap-1">
-                                    <Clock className="w-4 h-4" />
-                                    9 min read
-                                </span>
-                            </div>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Devotions & Doctrine
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  28 min read
+                </span>
+              </div>
 
-                            <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                                The Virgin Mary in Catholic Doctrine: Dogmas and Devotion
-                            </h1>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                The Virgin Mary: Prototype of the Church and Mother of God
+              </h1>
 
-                            <p className="text-xl text-text-muted leading-relaxed">
-                                "All generations will call me blessed." Understand Mary's fundamental role in God's plan and the pillars of Marian faith.
-                            </p>
-                        </header>
+              <p className="text-xl text-text-muted leading-relaxed">
+                "All generations will call me blessed." These are not just words of piety, but a theological mandate. For the Catholic, Mary is the "Golden Thread" that runs through the entire Bible, from Genesis to Revelation. To understand Mary is to understand the heart of Jesus.
+              </p>
+            </header>
 
-                        <div className="aspect-video bg-rose-100 rounded-2xl flex items-center justify-center mb-10">
-                            <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
-                        </div>
-
-                        <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
-                                "All generations will call me blessed" (Lk 1:48). These prophetic words of Mary in the Magnificat have been fulfilled for two thousand years. On all continents, in all languages, in all ages, the children of the Church raise their hearts to the Mother of God, finding in her refuge, consolation, and the surest path to Jesus.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
-                                Devotion to the Blessed Virgin Mary is not an optional "accessory" of Catholic faith – it is a logical and necessary consequence of the Incarnation. When God chose Mary to be the Mother of His Son, He placed her at the heart of salvation history. To ignore Mary would be to ignore God's plan. To honor her is, ultimately, to glorify the Lord for the wonders He accomplished in her.
-                            </p>
-
-                            <QuizCTA
-                                title="How is your Marian devotion?"
-                                description="Mary is the Mother of God and our intercessor in Heaven. Take our spiritual quiz and discover how Our Lady's presence can transform your journey of faith and love for Jesus."
-                            />
-
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                The Four Marian Dogmas
-                            </h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                The Catholic Church professes four fundamental truths about Mary, solemnly defined over the centuries. These are not human "inventions," but explications of the faith the Church has always professed since the Apostles:
-                            </p>
-
-                            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                1. Divine Motherhood (Theotokos)
-                            </h3>
-                            <p className="text-text leading-relaxed mb-6">
-                                Defined at the Council of Ephesus (431), this is the fundamental dogma from which all others derive. Mary is truly the Mother of God – not because she is prior to God or generated the divine nature, but because the One she conceived by the Holy Spirit is truly God. Jesus is not two persons (one divine and one human), but a single divine Person with two natures. And Mary is the Mother of that Person.
-                            </p>
-
-                            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                2. Perpetual Virginity
-                            </h3>
-                            <p className="text-text leading-relaxed mb-6">
-                                The Church professes that Mary was a virgin before childbirth (conceiving Jesus by the power of the Holy Spirit), during childbirth (giving birth miraculously), and after childbirth (remaining a virgin throughout her life). This virginity is not a limitation, but a sign of her total surrender to God and of divine initiative in the Incarnation.
-                            </p>
-
-                            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                3. Immaculate Conception
-                            </h3>
-                            <p className="text-text leading-relaxed mb-6">
-                                Proclaimed by Pope Pius IX in 1854, this dogma affirms that Mary, from the first instant of her conception, was preserved immune from all stain of original sin, by a singular grace and privilege of God, in view of the merits of Jesus Christ, Savior of the human race.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
-                                Four years after the definition of the dogma, Our Lady appeared in Lourdes to Saint Bernadette and confirmed: "I am the Immaculate Conception."
-                            </p>
-
-                            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                                4. Assumption into Heaven
-                            </h3>
-                            <p className="text-text leading-relaxed mb-6">
-                                Defined by Pope Pius XII in 1950, this dogma teaches that the Immaculate Mother of God, the ever Virgin Mary, having completed the course of her earthly life, was assumed body and soul into heavenly glory. Mary did not have to wait for the final resurrection – she already enjoys, in glorified body, eternal blessedness.
-                            </p>
-
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Veneration, not Adoration
-                            </h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                It is fundamental to distinguish: we adore only God (latria). To Mary and the saints, we give veneration (dulia). In Mary's case, because of her unique dignity as Mother of God, we give a special veneration called hyperdulia – superior to that of other saints, but infinitely inferior to the adoration due only to God.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
-                                Mary is not a "goddess" nor an intermediary who distances us from Jesus. On the contrary, she is the shortest path to reach Him. At the Wedding at Cana, she told the servants: "Do whatever He tells you" (Jn 2:5). This is Mary's mission: to point to Jesus, to lead us to Jesus, to form Jesus in us.
-                            </p>
-
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                Mary, Our Mother
-                            </h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                From the height of the Cross, Jesus gave us Mary as Mother. To the beloved disciple – who represents each of us – He said: "Behold, your mother" (Jn 19:27). And to Mary: "Woman, behold, your son." From that hour, the disciple took her into his home. And we, do we welcome Mary into our life?
-                            </p>
-
-                            <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
-                                <p className="text-text italic text-center">
-                                    "Of Mary, one can never say enough."
-                                </p>
-                                <p className="text-text-muted text-center mt-2">
-                                    — Saint Bernard of Clairvaux
-                                </p>
-                            </div>
-
-                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
-                                <p className="text-text italic text-center">
-                                    "He who does not have Mary for Mother, does not have God for Father."
-                                </p>
-                                <p className="text-text-muted text-center mt-2">
-                                    — Saint Cyprian of Carthage
-                                </p>
-                            </div>
-                        </div>
-
-                        <RelatedArticles currentSlug="virgin-mary" />
-
-                        <BlogFAQ faqs={[
-                          {
-                            question: "Why do Catholics call Mary the Mother of God?",
-                            answer: "Mary is called the Mother of God (Theotokos) because she is the mother of Jesus, who is truly God. This title was defined at the Council of Ephesus in 431 AD. It does not mean Mary existed before God, but that the child she bore is a divine Person."
-                          },
-                          {
-                            question: "What is the Immaculate Conception?",
-                            answer: "The Immaculate Conception is the dogma that Mary was conceived without original sin, preserved by God in anticipation of Christ's merits. It was defined as dogma by Pope Pius IX in 1854. It is not the same as the Virgin Birth of Jesus."
-                          },
-                          {
-                            question: "What is the Assumption of Mary?",
-                            answer: "The Assumption is the dogma that at the end of her earthly life, Mary was taken up body and soul into heavenly glory. Defined by Pope Pius XII in 1950, it is celebrated on August 15. It is a holy day of obligation in the Catholic Church."
-                          },
-                          {
-                            question: "Is devotion to Mary required for Catholics?",
-                            answer: "While specific Marian devotions are not strictly required, the Church strongly encourages devotion to Mary as our spiritual mother. The Second Vatican Council dedicated an entire chapter of Lumen Gentium to Mary's role in the Church."
-                          },
-                          {
-                            question: "What are the main Marian apparitions recognized by the Church?",
-                            answer: "The Church has approved several Marian apparitions, including: Our Lady of Guadalupe (Mexico, 1531), Our Lady of Lourdes (France, 1858), Our Lady of Fatima (Portugal, 1917), and Our Lady of Knock (Ireland, 1879). These are approved as worthy of belief but not required."
-                          }
-                        ]} />
-
-                        <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-                            <h3 className="font-display text-2xl font-bold text-text mb-4">
-                                How is your Marian devotion?
-                            </h3>
-                            <p className="text-text-muted mb-6">
-                                Discover how Mary's presence can transform your faith journey through our spiritual quiz.
-                            </p>
-                            <Link to="/quiz">
-                                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                                    Take the Quiz Now
-                                </Button>
-                            </Link>
-                        </div>
-                    </div>
-                </article>
-
-                <Footer />
+            <div className="aspect-video bg-rose-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+               <Star className="w-24 h-24 text-rose-400/20 absolute -bottom-4 -right-4" />
+               <Heart className="w-32 h-32 text-rose-400 relative z-10" strokeWidth={1} />
             </div>
-        </>
-    );
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                Many modern Christians view Mary as a "temporary vessel"—a woman who was used and then discarded. The Catholic Church, following the 2,000-year witness of the Fathers, sees her as the <strong>Ark of the New Covenant</strong>. Just as the ancient Ark carried the Word of God in stone, Mary carried the Word of God in Flesh.
+              </p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                1. The Typology of the Ark
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                Compare <strong>2 Samuel 6</strong> with <strong>Luke 1</strong>. David asks, "How can the ark of the Lord come to me?" (2 Sam 6:9). Elizabeth asks, "Why is this happened to me, that the mother of my Lord should come to me?" (Lk 1:43). 
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                David leaped for joy before the Ark. The baby John the Baptist leaped in Elizabeth's womb. The Ark stayed for three months. Mary stayed for three months. This parallelism is not accidental; Mary is the fulfillment of the Old Testament's most sacred object.
+              </p>
+
+              <div className="bg-rose-50 border border-border rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Shield className="w-6 h-6 text-rose-600" />
+                  The 4 Pillars of Marian Dogma
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm">
+                  <div>
+                    <h4 className="font-bold mb-2">Theotokos (Mother of God)</h4>
+                    <p>Defined in 431 AD. It protects the truth that Jesus is ONE person. To deny Mary is Mother of God is to deny that Jesus IS God.</p>
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-2">Immaculate Conception</h4>
+                    <p>Defined in 1854. Mary was saved by Christ's merit <em>at the moment of her conception</em> to be a pure vessel for the Word.</p>
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-2">Perpetual Virginity</h4>
+                    <p>Mary remained a virgin before, during, and after birth. Her biological integrity is a sign of her total consecration to the Lord.</p>
+                  </div>
+                  <div>
+                    <h4 className="font-bold mb-2">Assumption</h4>
+                    <p>Defined in 1950. At the end of her life, she was taken body and soul to Heaven. She is the first human to experience the full resurrection promised to all.</p>
+                  </div>
+                </div>
+              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                2. Adoration vs. Veneration (Latria vs. Dulia)
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                The most common objection is that Catholics "worship" Mary. We must be precise:
+              </p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-8">
+                <li><strong>Latria:</strong> Adoration due only to God. We worship God alone.</li>
+                <li><strong>Dulia:</strong> Veneration given to saints as friends of God.</li>
+                <li><strong>Hyperdulia:</strong> A unique, superior veneration given only to Mary. This is the honor a child gives to a Queen Mother, not a creature gives to a Creator.</li>
+              </ul>
+
+              <QuizCTA
+                title="Do you know the Mother of your soul?"
+                description="Take our quiz to explore the biblical roots of Mary's role and learn how her 'Fiat' became the doorway to our salvation."
+              />
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Compass className="w-6 h-6 text-accent" />
+                 Stella Maris: Star of the Sea
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                St. Bernard of Clairvaux famously called Mary the "Star of the Sea." In the storms of life, when the waves of temptation or despair threaten to sink the ship of the soul, we look to her. She is not the destination—Christ is the harbor—but she is the fixed star that ensures we never lose our way.
+              </p>
+
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Of Mary, there can never be enough said." — St. Bernard of Clairvaux
+                </p>
+              </div>
+            </div>
+
+            <RelatedArticles currentSlug="virgin-mary" />
+
+            <BlogFAQ faqs={[
+              {
+                question: "Did Jesus have brothers? The Bible mentions 'brothers of Jesus.'",
+                answer: "The word used in Greek is 'adelphoi,' which in the Aramaic/Semitic context used by Jesus and the Apostles referred to cousins, step-siblings, or close relatives. We see this in Genesis where Abraham calls Lot his 'brother,' though Lot was his nephew."
+              },
+              {
+                question: "Where is the Assumption in the Bible?",
+                answer: "While not explicitly described in a single verse, it is the logical conclusion of the Immaculate Conception. Since sin is the cause of bodily decay, a woman without sin would be spared that decay. We see a glimpse of her glorified body in Revelation 12."
+              },
+              {
+                question: "Why do we say she is the 'Mediatrix' of all graces?",
+                answer: "Christ is the ONLY mediator (1 Tim 2:5). However, Mary participated in that mediation by giving biological life to the source of all grace. Just as a mother 'mediates' life to her child, Mary mediated the Savior to the world."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Behold Your Mother
+              </h3>
+              <p className="text-text-muted mb-6">
+                From the cross, Jesus gave her to you. Take our quiz to receive a custom guide to growing in your Marian devotion.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Take the Faith Quiz
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </article>
+
+        <Footer />
+      </div>
+    </>
+  );
 }
