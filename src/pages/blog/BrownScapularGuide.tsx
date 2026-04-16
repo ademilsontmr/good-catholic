@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Shield, Calendar, Clock, ArrowLeft, Heart, Star } from "lucide-react";
+import { Shield, Calendar, Clock, ArrowLeft, Heart, Star, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -58,16 +58,16 @@ export default function BrownScapularGuide() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  15 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Brown Scapular: A Complete Guide to the Garment of Grace
+                The Brown Scapular: An Expert Guide to the Garment of Salvation
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                "Whosoever dies wearing this Scapular shall not suffer eternal fire." This is the staggering promise given by Our Lady of Mount Carmel to St. Simon Stock in 1251. For nearly 800 years, the Brown Scapular has been one of the most beloved sacramentals in the Church—a sign of salvation and a safeguard in danger.
+                "Whosoever dies wearing this Scapular shall not suffer eternal fire." This staggering promise, given by Our Lady of Mount Carmel to St. Simon Stock in 1251, has made the Brown Scapular the most popular sacramental in Catholic history. But it is far more than a "ticket to heaven"—it is a silent prayer and a religious habit for the laity.
               </p>
             </header>
 
@@ -77,66 +77,95 @@ export default function BrownScapularGuide() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                The Brown Scapular is not a magic charm. It is a <strong>habit</strong>. Just as a monk wears a full scapular as part of his religious clothing, a layperson wears a smaller version to show their special consecration to Mary and their desire to live according to the Gospel.
+                The Brown Scapular is a "miniature habit" of the Carmelite Order. By wearing it, a layperson is spiritually affiliated with the Carmelites, sharing in their prayers and spiritual merits. It is an outward sign of an interior consecration to the Blessed Virgin Mary.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Apparition to Saint Simon Stock
+                The Spiritual Roots: Mount Carmel and Elijah
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                In the 13th century, the Carmelite Order was facing severe persecution. Their Superior General, <strong>Simon Stock</strong>, prayed fervently for a sign of protection. On July 16, 1251, the Virgin Mary appeared to him holding the Brown Scapular. She told him: 
+                The story of the Scapular begins not in 1251, but on Mount Carmel in Israel, centuries before Christ. The prophet <strong>Elijah</strong> lived there as a hermit, defending the faith against the prophets of Baal. 
               </p>
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8 text-center italic">
-                "Receive, my beloved son, this habit of thy Order... it shall be a sign of salvation, a protection in danger, and a pledge of peace."
-              </div>
+              <p className="text-text leading-relaxed mb-6">
+                Catholic tradition sees in the "little cloud" Elijah saw rising from the sea (1 Kings 18:44) a precursor to the Virgin Mary. The first Carmelites were hermits who followed Elijah's spirit of silence and prayer. When they were forced to flee to Europe due to the Crusades, the Order faced an identity crisis—until the Virgin intervened.
+              </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Sabbatine Privilege
+                The Miracle of 1251: St. Simon Stock
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                In addition to the promise of avoiding hell, there is a traditional belief known as the <strong>Sabbatine Privilege</strong>. Based on a papal bull from Pope John XXII, it suggests that Mary will descend into Purgatory on the Saturday (the Sabbath) after a person dies and release those who wore the Scapular faithfully.
+                On July 16, 1251, the Superior General of the Carmelites, <strong>Saint Simon Stock</strong>, received a vision of the Virgin holding the Scapular. She said: *"Receive, my beloved son, this habit... it shall be a sign of salvation, a protection in danger, and a pledge of peace."*
               </p>
               <p className="text-text leading-relaxed mb-6">
-                While the historical wording of the bull is debated, the Church has consistently authorized the Carmelites to preach this devotion—emphasizing Mary's maternal care for her children even after death.
+                This was not just a promise for the monks. Mary invited all her faithful children to wear this "apron" of service as a sign that they belong to her household.
               </p>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-bold text-text mb-3 flex items-center gap-2">
-                  <Star className="w-5 h-5 text-accent" />
-                  Requirements to Receive the Graces:
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Star className="w-6 h-6 text-amber-600" />
+                  The Sabbatine Privilege: Hope Beyond Death
                 </h3>
-                <ul className="list-disc list-inside text-text space-y-2">
-                  <li><strong>Investiture:</strong> You must be enrolled in the Scapular by a priest (a simple prayer and blessing).</li>
-                  <li><strong>Continuous Wearing:</strong> You must wear it around the neck, with one segment on the chest and the other on the back.</li>
-                  <li><strong>Chastity:</strong> You must observe chastity according to your state in life.</li>
-                  <li><strong>Daily Prayer:</strong> You must recite the Little Office of the Blessed Virgin OR pray five decades of the Rosary daily OR (with a priest's permission) abstain from meat on Wednesdays and Saturdays.</li>
-                </ul>
+                <p className="text-text mb-4">
+                  The "Sabbatine Privilege" is a traditional belief that the Virgin Mary will personally descend into Purgatory on the Saturday (the Sabbath) following a soul's death to release those who wore the Scapular.
+                </p>
+                <p className="text-text text-sm italic">
+                  While modern historians debate the specific wording of the original Papal Bull, the Church has consistently authorized the faithful to hope in this special assistance from Mary, as long as they fulfill the conditions of prayer and chastity.
+                </p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                What the Scapular is NOT
+                Rules of Engagement: Enrollment and Use
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                It is vital to understand that the Scapular is not a "free pass" to sin. A person who wears the Scapular while deliberately living in grave sin and refusing to repent cannot expect the miracle of salvation. The Scapular <strong>demands</strong> a holy life. It is a sign of our "Yes" to God, just like Mary's.
+                To receive the promises, a person must be **Invested/Enrolled** by a priest. This is a one-time rite that places the person under the mantle of Our Lady of Mount Carmel.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                <strong>The Conditions to be met:</strong>
+              </p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-8">
+                <li><strong>Wear the Scapular continuously:</strong> Day and night, except for hygiene or medical reasons.</li>
+                <li><strong>Observe Chastity:</strong> Living according to your state in life (married, single, or religious).</li>
+                <li><strong>Recite the Daily Prayer:</strong> Either the Little Office of the BVM, or (more commonly) 5 decades of the Rosary daily, as assigned by the priest during enrollment.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                <Sparkles className="w-6 h-6 text-accent" />
+                The Scapular of Saints: John Paul II
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                The most famous modern wearer was **Pope John Paul II**. He was invested in the Scapular as a boy and wore it his entire life. On the day he was shot in St. Peter's Square (May 13, 1981), he insisted on being rushed to the hospital with his Scapular still on.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                He later said that it was the hand of the Virgin that diverted the bullet, and his lifelong devotion to the Scapular was his way of "hiding" in her heart. He famously refused to let surgeons remove it during his operation.
               </p>
 
               <QuizCTA
-                title="Are you ready for your special consecration?"
-                description="Take our quiz to learn more about the Brown Scapular and how to prepare for your enrollment."
+                title="Are you called to the Carmelite way?"
+                description="The Scapular is a commitment to a life of prayer. Take our quiz to see if you are ready for this special spiritual covenant."
               />
 
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-4 text-center">A Traditional Blessing Excerpt</h3>
+                <p className="text-text italic text-sm leading-relaxed">
+                  "Receive this blessed Scapular and ask the most holy Virgin that, by her merits, it may be worn with no stain of sin and may protect thee from all harm and lead thee to everlasting life. Amen."
+                </p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Practical Advice for Wearers
+                Common Misconceptions
               </h2>
-              <ul className="list-decimal list-inside text-text space-y-3 mb-8">
-                <li><strong>Material:</strong> It must be made of 100% wool (representing the Lamb of God).</li>
-                <li><strong>Replacement:</strong> When your scapular wears out, do not throw it away. Burn it or bury it. A new scapular does not need to be blessed again—the blessing remains on the *wearer* from the first enrollment.</li>
-                <li><strong>Scapular Medal:</strong> While a metal medal is permitted in extreme cases (like for swimmers or those with skin allergies), the cloth scapular is much preferred as it is a "habit."</li>
-              </ul>
+              <p className="text-text leading-relaxed mb-6">
+                <strong>"I can't wear it if it's dirty or torn."</strong> <br/>
+                Actually, a worn-out scapular is a sign of a life of prayer. When it breaks, you should burn or bury it and simply put on a new one. The new one does not need to be blessed; the blessing remains on the *person* after the first investiture.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                <strong>"It's just for old people."</strong> <br/>
+                On the contrary! The Scapular is a "shield of protection" (Armour of God). It is especially powerful for young people facing the temptations of the modern world.
+              </p>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
-                <p className="text-text italic text-center leading-relaxed">
-                  "Let all of you, therefore, who wear the Scapular, see in it a sign of your dedication to the Blessed Virgin Mary." — Pope Pius XII
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The Scapular is a silent prayer... it says: 'Mother, I am yours.'"
                 </p>
               </div>
             </div>
@@ -145,25 +174,25 @@ export default function BrownScapularGuide() {
 
             <BlogFAQ faqs={[
               {
-                question: "Do I have to go to a special church to get enrolled?",
-                answer: "No. Any Catholic priest has the faculty to enroll a person in the Brown Scapular. You can simply ask your parish priest after Mass."
+                question: "Can children be enrolled in the Brown Scapular?",
+                answer: "Yes! Many families choose to have their children enrolled at the time of their First Holy Communion. It is a wonderful way to place them under Mary's protection from an early age."
               },
               {
-                question: "Can I take it off to shower or sleep?",
-                answer: "Yes, you can take it off for a short time for hygiene. However, the spiritual meaning is to wear it 'continuously' as a garment of protection. To receive the Sabbatine Privilege, it should be your constant companion."
+                question: "What happens if I lose my Scapular?",
+                answer: "Nothing happens to the promise. You are still enrolled. Simply purchase or make a new one (100% wool) and put it on. The enrollment is a spiritual contract that lasts your entire life."
               },
               {
-                question: "Is the Brown Scapular only for Carmelites?",
-                answer: "It is the habit of the Carmelite Order, but Mary specifically gave it through St. Simon Stock as a gift to the *whole* Church. Today, it is the most popular sacramental in the world alongside the Rosary."
+                question: "Can a non-Catholic wear it?",
+                answer: "A non-Catholic can wear it as a sign of their desire for Mary's intercession and God's grace. However, they cannot be 'enrolled' in the Carmelite affiliation until they enter the Church. It remains a powerful sacramental even for them."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Clothe Yourself in Grace
+                Begin Your Consecration Today
               </h3>
               <p className="text-text-muted mb-6">
-                The Scapular is a powerful step in your walk with God. Take our quiz to deepen your devotion.
+                Step into a 800-year tradition of grace. Take our quiz to learn more about how to live a holy life through the sacramentals of the Church.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

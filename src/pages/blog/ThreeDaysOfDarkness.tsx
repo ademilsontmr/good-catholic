@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Moon, Calendar, Clock, ArrowLeft, Shield, Flame } from "lucide-react";
+import { Moon, Calendar, Clock, ArrowLeft, Shield, Flame, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -58,16 +58,16 @@ export default function ThreeDaysOfDarkness() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  16 min read
+                  22 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Three Days of Darkness: Fact or Fiction?
+                The Three Days of Darkness: A Deep Theological and Prophetic Analysis
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                Across various private revelations from recognized Catholic mystics, a recurring and chilling prophecy appears: the "Three Days of Darkness." While it is not a dogma of the Church, its presence in the writings of holy souls has intrigued and frightened Catholics for nearly two centuries. What is it, and what should we believe?
+                Across sensory history, recognized Catholic mystics have spoken of a recurring and chilling event: the "Three Days of Darkness." While not a required dogma, its presence in the warnings of Blessed Anna Maria Taigi and Marie-Julie Jahenny serves as a profound call to spiritual vigilance.
               </p>
             </header>
 
@@ -77,79 +77,112 @@ export default function ThreeDaysOfDarkness() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                In times of global crisis, many Catholics look toward the "Last Things." Among the most discussed "minor" prophecies is the Three Days of Darkness. The Church classifies this as <strong>private revelation</strong>, meaning Catholics are free to believe it if it helps their faith, but they are not required to do so.
+                In times of global uncertainty, the human heart naturally turns toward the "Last Things." The Three Days of Darkness is classified by the Church as <strong>private revelation</strong>. This means that while it is not part of the "Deposit of Faith" (like the Trinity or the Resurrection), the Church allows the faithful to follow it as a way to grow in holiness and repentance.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Origin: Anna Maria Taigi and Marie-Julie Jahenny
+                The Primary Sources: Taigi and Jahenny
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The most well-known description of this prophecy comes from <strong>Blessed Anna Maria Taigi</strong> (1769–1837), a housewife and mother in Rome who was beatified in 1920. She was known for her "sun-globe" visions through which she saw the state of souls and future events.
+                The core of this prophecy rests on the shoulders of two holy women recognized by the Church for their extraordinary virtue.
+              </p>
+              
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-4">
+                Blessed Anna Maria Taigi (1769–1837)
+              </h3>
+              <p className="text-text leading-relaxed mb-6">
+                A simple housewife and mother in Rome, Anna Maria Taigi was beatified in 1920. For 47 years, she was accompanied by a "mystic sun"—a golden light in which she could see the state of the world and of souls. She described the Three Days as a <strong>purification</strong> of the Earth.
               </p>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed">
-                  "There shall come over the whole earth an intense darkness lasting three days and three nights. Nothing can be seen, and the air will be laden with pestilence... All the enemies of the Church, whether known or unknown, will perish over the whole earth during that universal darkness..."
+                  "There shall come over the whole earth an intense darkness lasting three days and three nights... All the enemies of the Church, whether known or unknown, will perish over the whole earth during that universal darkness, with the exception of a few whom God will soon after convert."
                 </p>
                 <p className="text-text-muted text-right mt-2">— Blessed Anna Maria Taigi</p>
               </div>
+
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-4">
+                Marie-Julie Jahenny: The Breton Stigmatist
+              </h3>
               <p className="text-text leading-relaxed mb-6">
-                Later, <strong>Marie-Julie Jahenny</strong> (1850–1941), a French mystic known as the "Breton Stigmatist," expanded on these details, describing the darkness as being supernatural in origin and so thick that even mechanical lighting would fail.
+                Marie-Julie Jahenny (1850–1941) was perhaps the most detailed chronicler of the coming chastisement. She bore the stigmata for most of her life and lived for years on nothing but the Holy Eucharist. She warned that the darkness would be so thick that <strong>"nothing would be visible"</strong> and that the "roaring of the wind" would be unlike anything in natural history.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                She spoke of a specific <strong>"Red Cloud"</strong> that would signal the beginning, and a supernatural heat that would accompany the darkness. Her revelations emphasize that the event is intended to end the "reign of sin" on Earth.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                What the Prophecy Describes
+                Biblical Foundations: From Egypt to the Apocalypse
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                According to these mystics, the Three Days will be characterized by:
+                The concept of three days of terrifying darkness is not an invention of the 19th century. It is a recurring pattern in Salvation History:
               </p>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
-                <li><strong>Absolute Darkness:</strong> A darkness so profound it cannot be illuminated by electricity or standard lamps.</li>
-                <li><strong>Supernatural Origin:</strong> It is described not as an eclipse or a volcanic cloud, but as a direct spiritual event.</li>
-                <li><strong>The "Blessed Wax Candle":</strong> Only candles made of 100% pure beeswax and blessed by a priest are said to give light during this time.</li>
-                <li><strong>Prayer and Penance:</strong> The faithful are instructed to remain inside, close their windows, pray the Rosary, and not look out.</li>
+                <li><strong>The Ninth Plague of Egypt:</strong> Exodus 10:21 describes a "darkness that could be felt" for three days. While Egypt was in terror, "all the Israelites had light in their dwellings."</li>
+                <li><strong>The Crucifixion:</strong> The Gospels record that from the sixth to the ninth hour, "darkness was over all the land" (Matthew 27:45).</li>
+                <li><strong>The Fifth Bowl of Wrath:</strong> In Revelation 16:10, the kingdom of the beast is plunged into darkness, causing men to "gnaw their tongues in agony."</li>
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Biblical Context
+                The Mystery of the Blessed Wax Candle
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                While the specific details come from private revelation, the concept of a "Day of Darkness" has biblical roots. In Exodus 10:21, a "darkness that can be felt" covered Egypt for three days. In the New Testament, Jesus prophesied that "the sun will be darkened, and the moon will not give its light" before His return (Matthew 24:29).
+                A unique element in both Taigi and Jahenny's visions is that only <strong>100% pure beeswax candles</strong>, blessed by a priest, will burn during the darkness. 
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Theologically, this has deep meaning. In the Church's ancient Liturgy, the beeswax (the fruit of the virgin bee) symbolises the **Precious Flesh** of Christ; the wick symbolises His **Soul**; and the flame His **Divinity**. To have a blessed candle burning is to physically manifest the light of Christ in a world that has turned its back on Him.
               </p>
 
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8">
-                <h3 className="font-bold text-text mb-4 text-center flex items-center justify-center gap-2">
-                  <Shield className="w-5 h-5" />
-                  How to Prepare Spiritually
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Shield className="w-6 h-6 text-amber-600" />
+                  Expert Spiritual Preparation Checklist
                 </h3>
-                <p className="text-text mb-4">
-                  The mystics who spoke of these days emphasized that <strong>spiritual preparation</strong> is more important than physical survival.
-                </p>
-                <ul className="list-decimal list-inside text-text space-y-2">
-                  <li><strong>Stay in a State of Grace:</strong> Frequent Confession is the primary preparation.</li>
-                  <li><strong>Cultivate Devotion to Mary:</strong> The Rosary is described as the weapon for these times.</li>
-                  <li><strong>Practice Charity:</strong> Darkness in the soul is more dangerous than darkness in the world.</li>
-                  <li><strong>Trust in God's Mercy:</strong> Fear is not from God. The prophecy is meant to call us to repentance, not to anxiety.</li>
-                </ul>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="font-bold text-text mb-3 flex items-center gap-2">
+                       <Flame className="w-4 h-4 text-orange-500" />
+                       External & Physical
+                    </h4>
+                    <ul className="list-disc list-inside text-text text-sm space-y-2">
+                      <li><strong>Pure Beeswax Candles:</strong> At least one or two, blessed by a priest.</li>
+                      <li><strong>Holy Water & Salt:</strong> Use them to bless the thresholds of your home.</li>
+                      <li><strong>Home Protection:</strong> An image of the Sacred Heart or the Immaculate Heart near the entrance.</li>
+                      <li><strong>Blessed Oil:</strong> (Optional) Common in many private revelations for healing and protection.</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-text mb-3 flex items-center gap-2">
+                       <Sparkles className="w-4 h-4 text-blue-500" />
+                       Internal & Sacramental
+                    </h4>
+                    <ul className="list-disc list-inside text-text text-sm space-y-2">
+                      <li><strong>Monthly Confession:</strong> The ultimate shield is a soul in a state of grace.</li>
+                      <li><strong>Mental Prayer:</strong> At least 15 minutes of daily conversation with God.</li>
+                      <li><strong>The Holy Rosary:</strong> Your "lifeline" to heaven during times of trial.</li>
+                      <li><strong>Consecration:</strong> Total entrustment of your family to Mary (St. Louis de Montfort style).</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
 
               <QuizCTA
-                title="Are you prepared for the Last Things?"
-                description="Take our quiz to reflect on your faith and discover the depth of Catholic teaching on the end of time."
+                title="Are you spiritually resilient?"
+                description="Take our quiz to analyze your prayer habits and discover areas where you can strengthen your spiritual life for the future."
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                What Does the Church Say?
+                A Call to Vigilance, Not Fear
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Church remains cautious. While Anna Maria Taigi is a <em>Blessed</em> (meaning the Church has declared she was of heroic virtue and is in heaven), this does not mean every one of her private visions is considered "official" or "infallible."
+                It is easy to become obsessed with the "survival" aspect of prophecy. However, the mystics teach that the true darkness is <strong>sin</strong>. If we are at peace with God, the three days of darkness should have no terror for us. As St. Paul says, "If God is for us, who can be against us?"
               </p>
               <p className="text-text leading-relaxed mb-6">
-                <strong>Important note:</strong> Beware of "scaremongering" or people selling "survival kits" based on these prophecies. The Church's path to peace is always through the Sacraments and the Word of God, not through sensationalism.
+                The Church's official stance, as reflected in the **Catechism (CCC 67)**, reminds us that while these revelations are not required belief, they can be "light in our path" as long as they never distract us from the Gospel and the Sacraments.
               </p>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
-                  "Look at the future with hope, not with fear. If you live in God's love, the light of the soul will never go out."
+                  "Fear is the tool of the enemy. Hope is the virtue of the children of God. Stay in the Light, and the darkness will never overcome you."
                 </p>
               </div>
             </div>
@@ -158,16 +191,16 @@ export default function ThreeDaysOfDarkness() {
 
             <BlogFAQ faqs={[
               {
-                question: "Is the Three Days of Darkness an official Church dogma?",
-                answer: "No. It is a matter of 'private revelation.' This means that while some mystics believed to be holy by the Church have spoken of it, it is not something every Catholic is strictly required to believe in as an article of faith."
+                question: "Should I be afraid of this prophecy?",
+                answer: "No. The purpose of prophecy in the Church is always the same: conversion of heart. If the prophecy leads you to pray more, go to Confession, and love your neighbor, then it has served its purpose. Fear is never from God."
               },
               {
-                question: "Why do they say only beeswax candles work?",
-                answer: "In the visions of Marie-Julie Jahenny, it was specified that only 100% pure wax candles, blessed by a priest, would give light. Symbolically, pure wax represents the pure flesh of Christ, and the light represents His divinity. Whether this is literal or symbolic is a matter of interpretation."
+                question: "Can I use any blessed candle?",
+                answer: "According to the visions of Marie-Julie Jahenny, 100% pure beeswax is required. Historically, all candles used in the Catholic Liturgy were required to be beeswax because of the beautiful symbolism of the bee (virginity) and the pure wax (Christ's flesh). Using 'cheap' paraffin is discouraged in this specific tradition."
               },
               {
-                question: "Has any Pope spoken about this?",
-                answer: "No Pope has officially endorsed the Three Days of Darkness as an upcoming historical event. However, Pope John Paul II and Pope Benedict XVI have spoken extensively about the need for spiritual vigilance and the triumph of the Immaculate Heart."
+                question: "What is the 'Illumination of Conscience'?",
+                answer: "Many mystics link the Three Days with a prior event called the 'Warning' or 'Illumination of Conscience,' where every person on Earth will see their soul as God sees it. Expansion of this topic can be found in our articles on Divine Mercy."
               }
             ]} />
 
@@ -176,7 +209,7 @@ export default function ThreeDaysOfDarkness() {
                 Walk with Confidence in Your Faith
               </h3>
               <p className="text-text-muted mb-6">
-                Faith is about love, not fear. Take our quiz to learn more about how to live a holy lives in the modern world.
+                Ready to take the next step in your spiritual journey? Take our quiz to find the best devotion for your current needs.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

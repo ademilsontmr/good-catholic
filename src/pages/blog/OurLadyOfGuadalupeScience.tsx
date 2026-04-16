@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Sun, Calendar, Clock, ArrowLeft, Star, Microscope } from "lucide-react";
+import { Sun, Calendar, Clock, ArrowLeft, Star, Microscope, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -15,7 +15,7 @@ export default function OurLadyOfGuadalupeScience() {
       <Helmet>
         <title>The Miracle of Our Lady of Guadalupe: Science and the Tilma | Guide Catholic</title>
         <meta name="description" content="Explore the scientific mysteries of the Tilma of Our Lady of Guadalupe. Learn about the miraculous preservation, the images in the eyes, and the inexplicable fibers." />
-        <meta name="keywords" content="our lady of guadalupe science, tilma of juan diego mystery, guadalupe tilma scientific study, miracle of guadalupe, images in guadalupe eyes" />
+        <meta name="keywords" content="our lady of guadalupe science, tilma of juan diego mystery, guadalupe tilma scientific study, miracle of guadalupe, images in guadalupe eyes, nahui ollin symbolism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/miracle-of-guadalupe-science/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -58,16 +58,16 @@ export default function OurLadyOfGuadalupeScience() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  15 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Miracle of Our Lady of Guadalupe: What Science Cannot Explain
+                 The Tilma of Guadalupe: A Scientific and Symbolic Masterpiece
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                In 1531, a miraculous image appeared on the rough cactus-fiber cloak (tilma) of an indigenous man named Juan Diego. Today, nearly 500 years later, that same cloak is on display in Mexico City. It hasn't decayed, the "paint" has no biological or mineral source, and modern digital technology has found human figures reflected in the Virgin's eyes. This is the miracle of Guadalupe.
+                In December 1531, on a hill in Mexico, a revolution began. Not a revolution of weapons, but of a rough cactus-fiber cloak (tilma) that appeared with an image of the Virgin Mary. Five centuries later, that tilma remains the most studied religious relic in the world, confusing Nobel Prize winners and NASA consultants alike.
               </p>
             </header>
 
@@ -77,66 +77,73 @@ export default function OurLadyOfGuadalupeScience() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                Our Lady of Guadalupe is the most visited Catholic shrine in the world. While the spiritual conversion of millions of Aztecs is the greater miracle, the physical tilma itself has become a "scientific headache" for experts across many disciplines.
+                The Image of Our Lady of Guadalupe is not just a painting; for the Aztec people, it was a <strong>codex</strong>—a book they could "read." For the modern scientist, it is a biological and physical impossibility.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                1. The Inexplicable Fabric
+                1. The Physics of the Inexplicable: Fabric and Temperature
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The tilma is made of <em>ayate</em> (fibers from the maguey cactus). Typically, this fabric is very fragile and begins to fall apart within 20 to 30 years. However, the tilma of Juan Diego has survived for 494 years in perfect condition, despite being exposed to smoke, incense, and even an acid spill in 1791 that should have eaten through the fibers instantly.
+                The tilma is made of <em>ayate</em>, a fabric derived from the maguey cactus. Scientists agree that this material typically disintegrates within 20 years. Yet, for 500 years, the tilma of Juan Diego has survived without any protective varnish, and for much of its life, it was exposed to the open air, humidity, and thousands of candles.
               </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                2. Paint Without Pigment
-              </h2>
               <p className="text-text leading-relaxed mb-6">
-                In 1979, Dr. Philip Callahan, a biophysicist from the University of Florida and NASA consultant, examined the tilma with infrared photography. He found something shocking:
+                Even more shocking is its temperature. When measured with a sensitive thermometer, the tilma consistently maintains a temperature of <strong>98.6°F (36.5°C)</strong>—the exact temperature of a living human body.
               </p>
-              <ul className="list-disc list-inside text-text space-y-3 mb-8">
-                <li><strong>No Brushstrokes:</strong> There are no visible brushstrokes on the image. It appears to have been applied all at once, "like a photograph."</li>
-                <li><strong>No Sizing:</strong> Usually, ayate fabric requires a layer of "sizing" (primer) to hold paint. The tilma has none. The colors seem to float above the surface.</li>
-                <li><strong>No Known Pigments:</strong> Analysis of the "paint" showed that the colors are neither animal, vegetable, nor mineral in origin. To this day, science does not know what physical substance makes up the colors.</li>
-              </ul>
 
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8">
-                <h3 className="font-bold text-text mb-3 flex items-center gap-2">
-                  <Microscope className="w-5 h-5 text-accent" />
-                  The Discovery in the Eyes
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Microscope className="w-6 h-6 text-amber-600" />
+                  The Micro-Miracles of the Eyes
                 </h3>
-                <p className="text-text">
-                  In the 1950s, an oculist examined the eyes of the Virgin with a high-power lens and discovered the reflection of a human figure. Later, Dr. José Aste Tonsmann, a digital imaging expert, used NASA-grade digital enhancement. In the 1/4 inch pupil, he found reflections of <strong>thirteen different people</strong>, including Juan Diego and Bishop Zumárraga. It is a "snapshot" of the moment the tilma was opened.
+                <p className="text-text mb-4">
+                  In 1979, <strong>Dr. José Aste Tonsmann</strong>, a digital imaging researcher for IBM, used NASA-grade enhancement to study the 1/4 inch cornea of the Virgin's eyes.
                 </p>
+                <ul className="list-disc list-inside text-text space-y-3">
+                  <li><strong>The Snapshot:</strong> He discovered 13 distinct human figures reflected in the eyes.</li>
+                  <li><strong>The Bishop:</strong> He identified the historical figure of Bishop Juan de Zumárraga.</li>
+                  <li><strong>The Family Group:</strong> In the center, a woman with a baby on her back and a man in a hat—suggestive of a family being blessed by the apparition.</li>
+                  <li><strong>Double Reflection:</strong> The images follow the **Purkinje-Sanson Law** of physics—the figures are reflected in both eyes with the exact distortions required by the curvature of a living cornea.</li>
+                </ul>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                3. The Constellations and the Music
+                2. No Paint, No Pigment, No Canvas
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                Astronomy and music have also found their place in the miracle. The stars on the Virgin's mantle are not random; they match exactly the position of the constellations in the sky over Mexico on the morning of December 12, 1531.
+                <strong>Dr. Philip Callahan</strong> and Nobel Prize-winning chemist <strong>Richard Kuhn</strong> investigated the image in 1979. They found no animal, mineral, or vegetable pigments. The colors, especially the turquoise "matlactli" blue, have no chemical origin known to man.
               </p>
               <p className="text-text leading-relaxed mb-6">
-                Furthermore, when the stars on the mantle and the flowers on the tunic are mapped onto a musical scale, they produce a harmonious melody, leading some to call the image a "heavenly song" frozen in time.
+                Furthermore, infrared photography showed that there is no <strong>underdrawing</strong> or signature. Usually, a painter leaves sketch marks or "sizing" to prepare the rough fabric. The tilma has none. The image appears to be "woven" into the fibers or simply hovering above them.
               </p>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Sparkles className="w-6 h-6 text-accent" />
+                 The Aztec Codex: Why Millions Converted
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                The expansion of the Catholic faith in Mexico was not due to European force, but due to the <strong>symbolism</strong> on the tilma. To the Aztecs:
+              </p>
+              <ul className="list-disc list-inside text-text space-y-4 mb-10">
+                <li><strong>The Nahui Ollin:</strong> The four-petaled flower on her womb was the Aztec symbol for the center of the universe—God. Seeing this told them she was carrying the True God.</li>
+                <li><strong>The Black Sash:</strong> This was the traditional sign of a pregnant woman. Mary was presented as the "Waiting Mother."</li>
+                <li><strong>The Blue Tunic:</strong> To the Aztecs, this color was reserved only for royalty and for the Gods.</li>
+              </ul>
+
               <QuizCTA
-                title="Do you believe in miracles?"
-                description="Take our quiz to explore how the great apparitions of history strengthen our Catholic faith."
+                title="Do you see the hand of God in history?"
+                description="Our Lady of Guadalupe converted 9 million people in 7 years. Take our quiz to learn about the power of the great apparitions."
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Bomb of 1921
+                The Bomb and the Cross: Divine Protection
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                On November 14, 1921, an anti-clerical radical hid a bomb in a basket of flowers on the altar beneath the image. The explosion was so powerful that it destroyed the marble altar, shattered windows blocks away, and even bent a heavy bronze crucifix. 
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                However, <strong>the tilma was completely untouched.</strong> Even the glass protecting it did not break. Many see the "Bent Crucifix" (which is still on display) as a sign that Jesus took the blow for His Mother.
+                In 1921, during the persecution of the Church in Mexico, a bomb was set off directly under the Image of Guadalupe. The marble altar was shattered, and a heavy bronze crucifix was bent like wax. Yet, the glass protecting the tilma and the fabric itself remained <strong>completely unharmed</strong>. This "Bent Cross" is still on display in the Basilica today as a testimony to the protection of the Virgin.
               </p>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
-                <p className="text-text italic text-center leading-relaxed">
-                  "Am I not here, who am your mother?" — Words of Our Lady to Juan Diego
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Non fecit taliter omni nationi" (He has not done thus for any other nation). — Psalm 147:20, often applied to Guadalupe.
                 </p>
               </div>
             </div>
@@ -145,25 +152,25 @@ export default function OurLadyOfGuadalupeScience() {
 
             <BlogFAQ faqs={[
               {
-                question: "Wait, is this really the original cloak from 1531?",
-                answer: "Yes. The original tilma of Juan Diego is on display in the Basilica of Our Lady of Guadalupe in Mexico City. It is protected by glass and is the same one examined by scientists for centuries."
+                question: "Wait, so is the tilma still physically warm?",
+                answer: "Yes. Multiple studies have recorded that the fabric maintains a constant temperature of around 36.5-37 degrees Celsius, which is the internal temperature of a healthy human being. This is one of the most puzzling 'biological' aspects of the relic."
               },
               {
-                question: "Has the Church ever allowed it to be studied by non-Catholics?",
-                answer: "Yes. Many of the studies, including those by Nobel prize-winning chemist Richard Kuhn and NASA consultant Philip Callahan, were conducted with the latest technology of their time. The findings have consistently confounded experts."
+                question: "Has NASA officially studied it?",
+                answer: "While NASA as an agency doesn't usually study religious relics, many individual NASA consultants and biophysicists, like Philip Callahan and Jody Brant Smith, have used NASA-grade digital and infrared imaging technology to study it and confirmed its inexplicable nature."
               },
               {
-                question: "Why is she called 'Guadalupe'?",
-                answer: "There are two theories. One is that she named herself after our Lady of Guadalupe in Spain. The more popular theory is that she used the Aztec word 'Coatlaxopeuh' (meaning 'the one who crushes the serpent'), which the Spaniards heard as 'Guadalupe'."
+                question: "What is the 'Celestial Hum'?",
+                answer: "In recent years, researchers discovered that if you map the positions of the stars on the mantle and the centers of the flowers on the tunic onto a musical staff, they produce a perfect, symmetrical, and harmonious melody. There are many recordings of this 'Music of Guadalupe' available online."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Walk with the Virgin
+                Embrace the Mother of the Americas
               </h3>
               <p className="text-text-muted mb-6">
-                Discover the beauty and the truth of the Catholic faith. Take our quiz to start your journey.
+                The miracle of Guadalupe is a calling for every soul to return to the light. Take our quiz to discover your path.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

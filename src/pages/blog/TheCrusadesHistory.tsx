@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Shield, Calendar, Clock, ArrowLeft, BookOpen, Sword } from "lucide-react";
+import { Shield, Calendar, Clock, ArrowLeft, BookOpen, Sword, Landmark, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -15,7 +15,7 @@ export default function TheCrusadesHistory() {
       <Helmet>
         <title>The Crusades: Separating Catholic Fact from Fiction | Guide Catholic</title>
         <meta name="description" content="Were the Crusades unprovoked wars of aggression? Explore the historical context, the defense of pilgrims, and the Catholic perspective on this controversial time." />
-        <meta name="keywords" content="the crusades catholic perspective, why did the crusades happen, myths about the crusades, christian defense of pilgrims, historical context crusades" />
+        <meta name="keywords" content="the crusades catholic perspective, why did the crusades happen, myths about the crusades, christian defense of pilgrims, historical context crusades, pope urban II clermont" />
         <link rel="canonical" href="https://guidecatholic.com/blog/the-crusades-fact-vs-fiction/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -58,77 +58,91 @@ export default function TheCrusadesHistory() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  18 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Crusades: Separating Catholic Fact from Fiction
+                The Crusades: An Expert Historical and Theological Defense
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                Mention "The Crusades" today, and most people think of religious fanaticism, gold-hungry knights, and unprovoked aggression. But what does the historical record actually show? While there were certainly grave sins committed by individuals, the Crusades were fundamentally a defensive response to centuries of expansion and the persecution of Christians.
+                Mention "The Crusades" today, and you are likely to hear a narrative of unprovoked aggression, religious fanaticism, and gold-hungry knights. This is the "Black Legend" of the Crusades. Modern historians, however, have begun to restore the true context: the Crusades were a desperate, defensive response to 400 years of conquest and the systematic persecution of Christian pilgrims.
               </p>
             </header>
 
             <div className="aspect-video bg-orange-50 rounded-2xl flex items-center justify-center mb-10">
-              <Sword className="w-24 h-24 text-orange-400" strokeWidth={1.5} />
+              <Landmark className="w-24 h-24 text-orange-400" strokeWidth={1.5} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                To understand the Crusades, we must look at the world of the 11th century. For over 400 years, Islamic forces had been conquering formerly Christian lands—including Egypt, Palestine, Syria, and Spain. By 1095, the Byzantine Emperor Alexius I sent a plea to the West for help against the Seljuk Turks.
+                History is not a simple game of "good guys vs. bad guys." To understand the Crusades, one must step out of the 21st century and into the 11th. At that time, the Christian world was under siege. From Spain to Jerusalem, formerly Christian lands had been conquered, and the Byzantine Empire was on the verge of collapse.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Myth #1: The Crusades were "Unprovoked Aggression"
+                The Context: A World Under Siege
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                <strong>Reality:</strong> The First Crusade was called only after Christians in the East had been slaughtered and the road for pilgrims to the Holy Sepulchre had been closed or made deadly. It was seen by the people of the time as an act of <strong>Charity</strong>—liberating fellow Christians from oppression.
+                For over four centuries, the Christian East—Asia Minor, Egypt, Palestine, and North Africa—had been systematically absorbed. Pilgrims to the Holy Sepulchre were being taxed, harassed, and in many cases, slaughtered. 
               </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Myth #2: Knights went to "Get Rich"
-              </h2>
               <p className="text-text leading-relaxed mb-6">
-                <strong>Reality:</strong> Going on a Crusade was astronomically expensive. Knights often had to mortgage their lands and spend several years of their total income just to equip themselves and their men. Most crusaders returned home in poverty, if they returned at all. It was seen as a grueling pilgrimage of penance, not a treasure hunt.
+                In 1095, the <strong>Council of Clermont</strong> was called after the Byzantine Emperor Alexius I sent a plea to <strong>Pope Urban II</strong>. The message was clear: if the West did not act, the Christian East would be completely extinguished.
               </p>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-bold text-text mb-3 flex items-center gap-2">
-                  <BookOpen className="w-5 h-5 text-accent" />
-                  The Concept of the "Just War"
+              <div className="bg-orange-50 border border-orange-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <BookOpen className="w-6 h-6 text-orange-600" />
+                  Myth-Busting the Financial Narrative
                 </h3>
-                <p className="text-text">
-                  Catholic theology (rooted in St. Augustine) developed the "Just War" theory. For a war to be just, it must be declared by a legitimate authority, have a just cause (like defense), and be fought with a right intention. The Crusades were framed as a defense of the Holy Land against those who had taken it by force.
+                <p className="text-text mb-4">
+                  Did knights go on Crusade to "get rich"? The data says the opposite.
                 </p>
+                <ul className="list-disc list-inside text-text space-y-3">
+                  <li><strong>Astronomical Costs:</strong> Equipping a single knight, his squires, and his horses for a two-year journey cost roughly <strong>five times his annual income</strong>.</li>
+                  <li><strong>Land Loss:</strong> Many knights had to mortgage or sell their ancestral lands to fund the trip. They were not "expanding" their wealth; they were sacrificing it.</li>
+                  <li><strong>Survival Rates:</strong> Death from disease, starvation, and battle was common. Most crusaders returned home in poverty, if they returned at all.</li>
+                </ul>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Mistakes and Tragedy: The Fourth Crusade
+                The "Just War" Theory in Action
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                We must be honest about our history. Not every Crusade was motivated by holiness. The most tragic example is the <strong>Fourth Crusade</strong>, where the army, burdened by debt to Venetian merchants, ended up sacking the Christian city of Constantinople. 
+                The Crusades were framed within the **Just War** criteria established by St. Augustine and later refined by St. Thomas Aquinas. For a war to be just, it required:
+              </p>
+              <ol className="list-decimal list-inside text-text space-y-3 mb-8">
+                <li><strong>Just Cause:</strong> Recovery of stolen lands and protection of the innocent (pilgrims).</li>
+                <li><strong>Right Authority:</strong> Declared by the Pope as the head of Christendom.</li>
+                <li><strong>Right Intention:</strong> The restoration of peace and the freedom of religion for Christians.</li>
+              </ol>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                The Truth About the Sacks and Massacres
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                It is a historical fact that when Jerusalem was taken in 1099, a massacre occurred. This was a tragedy and a sin, condemned by the Church then and now. However, it was also the standard, brutal military custom of the day across all cultures (both East and West).
               </p>
               <p className="text-text leading-relaxed mb-6">
-                It is important to note that <strong>Pope Innocent III excommunicated</strong> the crusaders for this act. The Church did not authorize the massacre of fellow Christians; it was a betrayal of the original mission by men who had lost their way.
+                The **Fourth Crusade** is the most misunderstood. The army ended up sacking the Christian city of Constantinople, not by order of the Pope, but in direct <strong>disobedience</strong> to him. Pope Innocent III excommunicated the crusaders for this act. Critics often blame "The Church" for the Fourth Crusade, when in reality, the Church was its most vocal opponent.
               </p>
 
               <QuizCTA
-                title="How well do you know Church history?"
-                description="Take our quiz to challenge your knowledge and discover the truth about the Catholic journey through the centuries."
+                title="Can you defend the Church's history?"
+                description="Take our quiz to identify the common myths about the Crusades and learn how to explain the true historical context to skeptics."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Why Does It Matter Today?
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Sparkles className="w-6 h-6 text-accent" />
+                 Cultural and Scientific Exchange
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                Understanding the truth about the Crusades helps us face the "black legends" that are often used to attack the faith. While we apologize for the sins of individual Catholics (as Pope John Paul II did in the year 2000), we also recognize the heroic sacrifice of those who died defending the Holy Places.
+                The Crusades were not just about war. They reopened the gates of the East, allowing the West to rediscover Greek philosophy, advanced mathematics, and medical techniques that had been preserved in Byzantium and the Islamic world. This "Great Exchange" helped spark the cultural renewal of the late Middle Ages and the Renaissance.
               </p>
 
-              <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 mt-6 mb-6">
-                <p className="text-text italic text-center leading-relaxed">
-                  "The Crusades were a response to a desperate cry for help... a pilgrimage made at great personal cost to protect what was sacred." — Thomas Madden, Historian
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The Crusades were an act of love—love for the neighbor who was being oppressed, and love for God whose holy places were being desecrated."
                 </p>
               </div>
             </div>
@@ -137,25 +151,25 @@ export default function TheCrusadesHistory() {
 
             <BlogFAQ faqs={[
               {
-                question: "Did the Church force people to convert during the Crusades?",
-                answer: "No. The official goal was the 'liberation of the Holy Places,' not the forced conversion of Muslims. In fact, Canon Law at the time explicitly forbade forced conversions. While there were individual instances of forced baptisms by rogue groups, these were condemned by the Church."
+                question: "Did the Crusaders force Muslims to become Catholic?",
+                answer: "No. The goal was political and defensive: to liberate territory. Forced baptism was strictly forbidden by Canon Law. While there were individual instances of forced conversions, these were recognized as grave sins and violations of Church order."
               },
               {
-                question: "Did the Pope promise 'Instant Salvation' for Crusaders?",
-                answer: "This is a common misunderstanding of 'Indulgences.' The Pope offered a Plenary Indulgence, which is the remission of the *temporal punishment* for sins already confessed and forgiven. It was not a 'ticket to heaven' regardless of one's heart, but a spiritual aid for those making a difficult pilgrimage."
+                question: "What was the 'People's Crusade'?",
+                answer: "The People's Crusade was an unauthorized mob of peasants and low-level knights who set off before the official crusading armies. They were responsible for many of the worst atrocities, including pogroms against Jews. The Church and the noble crusaders largely condemned them."
               },
               {
-                question: "How long did the Crusades last?",
-                answer: "The period of the major Crusades to the Holy Land lasted roughly from 1095 (Council of Clermont) to 1291 (Fall of Acre). There were smaller crusades and defensive wars in Europe (like the Reconquista in Spain) for several centuries more."
+                question: "Did the Church ever apologize for the Crusades?",
+                answer: "In the Jubilee Year 2000, St. John Paul II asked for forgiveness for the 'errors' and 'sins' committed by members of the Church during the Crusades. He apologized for the *conduct* of individuals, while the Church maintains that the original intent—defending pilgrims and the East—was a work of charity."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Defend the Truth of the Faith
+                Be an Informed Catholic
               </h3>
               <p className="text-text-muted mb-6">
-                Knowing our past is essential for building our future. Take our quiz to learn more.
+                A shallow knowledge of history is the root of many attacks on the Church. Take our quiz to deepen your understanding.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
