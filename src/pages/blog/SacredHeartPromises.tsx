@@ -15,7 +15,7 @@ export default function SacredHeartPromises() {
       <Helmet>
         <title>The 12 Promises of the Sacred Heart of Jesus | Guide Catholic</title>
         <meta name="description" content="Discover the 12 promises given by Jesus to St. Margaret Mary Alacoque for those who honor His Sacred Heart. Learn how to live this profound devotion." />
-        <meta name="keywords" content="12 promises of sacred heart, st margaret mary alacoque, sacred heart of jesus devotion, enthronement of the sacred heart, first friday devotion" />
+        <meta name="keywords" content="12 promises of sacred heart, st margaret mary alacoque, sacred heart of jesus devotion, enthronement of the sacred heart, first friday devotion, Paray-le-Monial" />
         <link rel="canonical" href="https://guidecatholic.com/blog/sacred-heart-promises/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -58,16 +58,16 @@ export default function SacredHeartPromises() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  13 min read
+                  22 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The 12 Promises of the Sacred Heart of Jesus
+                The Sacred Heart of Jesus: A Masterclass on the 12 Promises
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                In the 1670s, Jesus appeared to a humble French nun, Saint Margaret Mary Alacoque, showing her His heart—burning with love, crowned with thorns, and wounded by human indifference. He gave her twelve specific promises for those who would honor His Sacred Heart. These promises are a roadmap to peace, protection, and eternal life.
+                In the late 17th century, in a small convent in Paray-le-Monial, France, the world received one of its most profound spiritual treasures. Jesus appeared to a Visitation nun, <strong>Saint Margaret Mary Alacoque</strong>, revealing a Heart that burned with love for humanity yet felt wounded by its indifference. To encourage our return to His love, He offered twelve staggering promises.
               </p>
             </header>
 
@@ -77,72 +77,86 @@ export default function SacredHeartPromises() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                The Sacred Heart is the symbol of <strong>God's infinite and burning love</strong> for humanity. It is not just a pious image, but a call to reparation—to console Jesus for the coldness of hearts that do not love Him back.
+                The devotion to the Sacred Heart is not merely a collection of pious acts; it is a response to the "thirst" of God. Jesus complained to St. Margaret Mary that His love was ignored, mocked, and treated with coldness in the Blessed Sacrament. The 12 promises are His way of drawing us back into the "abyss of His mercy."
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The 12 Specific Promises
+                The History: The Visitations at Paray-le-Monial
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                Jesus told St. Margaret Mary: *"In the excess of the mercy of my Heart, I promise you that my all-powerful love will grant to all those who receive Communion on the First Fridays, for nine consecutive months, the grace of final repentance; they will not die under my displeasure, nor without receiving their Sacraments; my divine Heart will be their safe shelter at that last hour."* 
+                Between 1673 and 1675, Margaret Mary received four "great apparitions." In the most famous, Jesus showed her His Heart atop a throne of flames, encircled by thorns, and surmounted by a cross. He asked her for a special feast on the Friday following the Octave of Corpus Christi and for the practice of "reparation."
               </p>
-              <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-8">
+              <p className="text-text leading-relaxed mb-6">
+                Initially met with skepticism, she was supported by her confessor, <strong>St. Claude de la Colombière</strong>, a Jesuit priest who recognized the divine origin of the messages. Today, Paray-le-Monial is a place of global pilgrimage.
+              </p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                The 12 Specific Promises: A Deep Dive
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                These promises are grouped to cover every aspect of the human experience—from domestic peace to the hour of death.
+              </p>
+              <div className="bg-red-50 border border-red-200 rounded-xl p-8 mb-10">
                 <ol className="list-decimal list-inside text-text space-y-3 font-medium">
-                  <li>I will give them all the graces necessary in their state of life.</li>
-                  <li>I will establish peace in their houses.</li>
-                  <li>I will comfort them in all their afflictions.</li>
-                  <li>I will be their secure refuge during life, and above all, in death.</li>
-                  <li>I will bestow abundant blessings upon all their undertakings.</li>
-                  <li>Sinners will find in My Heart the source and infinite ocean of mercy.</li>
-                  <li>Tepid souls shall become fervent.</li>
-                  <li>Fervent souls shall quickly mount to high perfection.</li>
-                  <li>I will bless every place in which an image of My Heart is exposed and honored.</li>
-                  <li>I will give to priests the gift of touching the most hardened hearts.</li>
-                  <li>Those who shall promote this devotion shall have their names written in My Heart.</li>
-                  <li>I promise you in the excessive mercy of My Heart that My all-powerful love will grant to all those who receive Holy Communion on the First Fridays in nine consecutive months the grace of final perseverance.</li>
+                  <li className="pl-2">I will give them all the graces necessary in their state of life.</li>
+                  <li className="pl-2">I will establish peace in their houses.</li>
+                  <li className="pl-2">I will comfort them in all their afflictions.</li>
+                  <li className="pl-2">I will be their secure refuge during life, and above all, in death.</li>
+                  <li className="pl-2">I will bestow abundant blessings upon all their undertakings.</li>
+                  <li className="pl-2">Sinners will find in My Heart the source and infinite ocean of mercy.</li>
+                  <li className="pl-2">Tepid souls shall become fervent.</li>
+                  <li className="pl-2">Fervent souls shall quickly mount to high perfection.</li>
+                  <li className="pl-2">I will bless every place in which an image of My Heart is exposed and honored.</li>
+                  <li className="pl-2">I will give to priests the gift of touching the most hardened hearts.</li>
+                  <li className="pl-2">Those who shall promote this devotion shall have their names written in My Heart.</li>
+                  <li className="pl-2"><strong>The Great Promise:</strong> Final perseverance and the grace of receiving the Sacraments before death for those who complete the 9 First Fridays.</li>
                 </ol>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The First Friday Devotion
+                The "Great Promise" and the 9 First Fridays
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The 12th promise—known as the "Great Promise"—is the foundation of the <strong>First Friday Devotion</strong>. To receive this grace, one must receive Holy Communion on the first Friday of the month for nine consecutive months, with the intention of making reparation to the Sacred Heart.
+                Promise #12 is the most famous. Jesus promised that those who receive Holy Communion on the first Friday of the month for nine consecutive months would not die in His displeasure. 
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                <strong>Why nine months?</strong> In biblical numerology and Catholic tradition, the number nine represents a novena of months—a period of serious testing and persistence. It is not a "magic ritual," but a training of the heart to prioritize the Eucharist above all else.
               </p>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-bold text-text mb-3 flex items-center gap-2">
-                  <Flame className="w-5 h-5 text-red-500" />
-                  What is Reparation?
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-4 flex items-center gap-2 text-xl">
+                  <Sparkles className="w-5 h-5 text-accent" />
+                  How to Enthrone the Sacred Heart in Your Home
                 </h3>
-                <p className="text-text">
-                  Reparation is an act of love meant to "repair" the honor of God that has been insulted by sin. When we spend an hour in Adoration or pray specifically for those who mock God, we are making reparation to the Sacred Heart.
-                </p>
+                <p className="text-text mb-4">The 9th promise is the basis for the **Enthronement**, a formal recognition of Jesus as King of the family.</p>
+                <ul className="list-decimal list-inside text-text space-y-3">
+                  <li><strong>Preparation:</strong> Cleanse your home and prepare a place of honor (an altar or prominent shelf).</li>
+                  <li><strong>The Image:</strong> Have a beautiful image of the Sacred Heart blessed by a priest.</li>
+                  <li><strong>The Ceremony:</strong> Gather the family, recite the Act of Consecration, and formally place the image.</li>
+                  <li><strong>Life of Prayer:</strong> Commit to daily family prayer in front of the image to keep the "throne" active.</li>
+                </ul>
               </div>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Enthronement of the Sacred Heart
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                The 9th promise mentions "blessing every place where an image of my Heart is exposed and honored." This has led to the Catholic tradition of the <strong>Enthronement</strong>—a formal ceremony where a family places an image of the Sacred Heart in a prominent place in their home, acknowledging Jesus as the King and center of their family.
-              </p>
-
               <QuizCTA
-                title="Is Jesus the King of your heart?"
-                description="Take our quiz to reflect on your prayer life and discover how to invite the Sacred Heart into your daily routine."
+                title="Is your home a sanctuary for Christ?"
+                description="Take our quiz to reflect on your domestic church and learn how to deepen your family's relationship with the Heart of Jesus."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
-                <Sparkles className="w-6 h-6 text-accent" />
-                Conclusion: A Refuge of Love
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                The Symbolism: The Sword, the Thorns, and the Flame
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Sacred Heart is the ultimate answer to loneliness and despair. It is a heart that is <strong>open</strong> and waiting. By living this devotion, we don't just "get" things from God; we enter into a deep, personal friendship with Him.
+                The image of the Sacred Heart contains a complete theology in itself:
               </p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-8">
+                <li><strong>The Wound:</strong> The lance mark representing the side of Christ opened for us on the Cross.</li>
+                <li><strong>The Thorns:</strong> Representing our sins that pierce His heart through indifference.</li>
+                <li><strong>The Flame:</strong> Symbolizing the "furnace of charity." As Pope Pius XI said: *"Is not the Sacred Heart a summary of all our religion?"*</li>
+              </ul>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
-                <p className="text-text italic text-center leading-relaxed">
-                  "Most Sacred Heart of Jesus, have mercy on us."
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "One does not love God by halves. The Heart of Jesus is the heart of God, which is why it is an infinite source of love and peace."
                 </p>
               </div>
             </div>
@@ -151,25 +165,25 @@ export default function SacredHeartPromises() {
 
             <BlogFAQ faqs={[
               {
-                question: "What happens if I miss a month of the First Fridays?",
-                answer: "The devotion requires nine *consecutive* months. If you miss one month, you must start the count over. It is a test of perseverance and love."
+                question: "Did any Popes endorse these 12 promises?",
+                answer: "Yes. Pope Leo XIII consecrated the entire human race to the Sacred Heart in 1899. Pope Pius XI issued the encyclical 'Miserentissimus Redemptor' in 1928, emphasizing the duty of reparation to the Sacred Heart."
               },
               {
-                question: "Do I have to go to Confession on the First Friday too?",
-                answer: "While it is not strictly required for the nine Fridays if you are already in a state of grace, the Church highly recommends regular Confession as part of this devotion to ensure your heart is truly ready to receive our Lord."
+                question: "Can I receive the First Friday Communion at an evening Mass?",
+                answer: "Yes. The requirement is simply to receive Holy Communion worthily (in a state of grace) during any Mass on the first Friday of the month."
               },
               {
-                question: "Can I use any image of the Sacred Heart?",
-                answer: "Yes, as long as it is a respectful representation of the Sacred Heart of Jesus. Many families choose more traditional paintings, but some prefer modern icons. The important thing is the honor given to the Person behind the image."
+                question: "Is there a specific 'Act of Consecration' I should use?",
+                answer: "There are many, but the most traditional ones are the Consecration written by St. Margaret Mary herelf or the one mandated by Pope Leo XIII. You can find these in most traditional Catholic missals."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Surrender to His Love
+                Open Your Heart to the Infinite
               </h3>
               <p className="text-text-muted mb-6">
-                His heart is beating for you. Take our quiz to discover how you can grow closer to the Heart of Jesus.
+                Jesus is waiting to bless your undertakings. Take our quiz to learn more about the depths of His mercy.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

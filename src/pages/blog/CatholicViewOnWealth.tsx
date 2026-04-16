@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Coins, Calendar, Clock, ArrowLeft, Heart, Scale } from "lucide-react";
+import { Coins, Calendar, Clock, ArrowLeft, Heart, Scale, Landmark, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -15,7 +15,7 @@ export default function CatholicViewOnWealth() {
       <Helmet>
         <title>Catholic View on Wealth and Money: Prosperity or Poverty? | Guide Catholic</title>
         <meta name="description" content="What does the Catholic Church teach about money, wealth, and success? Explore the balance between the 'Prosperity Gospel' and the 'Vow of Poverty'." />
-        <meta name="keywords" content="catholic view on money, wealth and catholicism, prosperity gospel vs catholicism, catholic social teaching wealth, stewardship catholic" />
+        <meta name="keywords" content="catholic view on money, wealth and catholicism, prosperity gospel vs catholicism, catholic social teaching wealth, stewardship catholic, rerum novarum, universal destination of goods" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-view-on-wealth/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -58,16 +58,16 @@ export default function CatholicViewOnWealth() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  14 min read
+                  22 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Catholic View on Wealth and Money: Prosperity or Poverty?
+                Gold, God, and the Gospel: A Catholic Masterclass on Wealth
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                Is it a sin to be rich? Does God want all Christians to be poor? In a world obsessed with success and a "Prosperity Gospel" that promises wealth for faith, the Catholic Church offers a deeply balanced and challenging middle path: the way of <strong>Stewardship</strong>.
+                Is wealth a blessing or a curse? In an age of stark inequality and the loud promises of the "Prosperity Gospel," the Catholic Church offers a nuanced, 2,000-year-old wisdom. It neither condemns wealth nor ignores the poor, but introduces a revolutionary concept: <strong>The Social Mortgage</strong>.
               </p>
             </header>
 
@@ -77,65 +77,78 @@ export default function CatholicViewOnWealth() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                The Catholic Church does not hate money. In fact, many great saints were wealthy kings, queens, and merchants. However, the Church teaches that money is a <strong>dangerous tool</strong>—it can be used to build the Kingdom of Heaven or it can become a "golden calf" that leads to spiritual destruction.
+                The Catholic Social Doctrine is often called the Church's "best-kept secret." At its heart lies a radical balance between the individual's right to property and the community's right to common resources.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                1. The Concept of Stewardship
+                1. The Universal Destination of Goods
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The core of Catholic teaching on wealth is that we do not "own" anything. Everything we have—our talent, our time, and our bank account—is a gift from God. We are merely <strong>stewards</strong> (managers) of His resources.
+                According to the <strong>Catechism (CCC 2402-2406)</strong>, the Earth was given by God to the *whole* human race. This means that while private property is legitimate and necessary for human dignity, it is not an "absolute" right. 
               </p>
               <p className="text-text leading-relaxed mb-6">
-                At the end of our lives, we will have to give an account of how we used what was entrusted to us. Did we use it only for our own comfort, or did we use it to serve others?
+                St. John Paul II famously wrote that **private property has a "social mortgage."** This means that if you own land, a business, or millions of dollars, you have a moral obligation to manage those assets in a way that benefits others. In the Catholic view, you are not an "owner," but a "steward" of God's property.
               </p>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 text-red-700">
-                2. The Trap of the "Prosperity Gospel"
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                The Church rejects the modern "Prosperity Gospel"—the idea that if you have enough faith or give enough money to a ministry, God will reward you with financial wealth.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                Jesus did not promise luxury; He promised a Cross. While God does bless many people with financial success, these blessings are not a metric of holiness. Some of the holiest people in history died in utter poverty.
-              </p>
-
-              <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6 mb-8">
-                <h3 className="font-bold text-text mb-3 flex items-center gap-2">
-                  <Scale className="w-5 h-5 text-emerald-600" />
-                  The Two Pillars of Wealth:
+              <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Scale className="w-6 h-6 text-emerald-600" />
+                  The Two Pillars of Social Balance
                 </h3>
-                <ul className="list-disc list-inside text-text space-y-2">
-                  <li><strong>The Right to Private Property:</strong> The Church supports the right of individuals to own property and build wealth through honest work.</li>
-                  <li><strong>The Universal Destination of Goods:</strong> This right is balanced by the fact that the earth and its resources are intended by God for the <strong>whole</strong> human race. Excess wealth is not truly ours; it belongs to those who have nothing.</li>
-                </ul>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <h4 className="font-bold text-emerald-800 mb-2">Solidarity</h4>
+                    <p className="text-sm">The firm determination to commit oneself to the common good. We are our brother's keeper.</p>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-emerald-800 mb-2">Subsidiarity</h4>
+                    <p className="text-sm">The principle that higher authorities (like the State) should not interfere with local or family initiatives unless necessary.</p>
+                  </div>
+                </div>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                3. The Virtue of Generosity (Almsgiving)
+                2. Rerum Novarum: The Catholic Response to Modernity
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                In the Catholic view, giving to the poor is not a "nice option"—it is a <strong>demand of justice</strong>. St. John Chrysostom famously said: *"Not to share our own riches with the poor is a robbery of the poor, and a depriving them of their livelihood."*
+                In 1891, <strong>pope Leo XIII</strong> issued <em>Rerum Novarum</em>, arguably the most important document in Catholic economic history. He rejected both unbridled Capitalism (which treated workers as machines) and atheistic Socialism (which denied the right to property and family).
               </p>
               <p className="text-text leading-relaxed mb-6">
-                The Church recommends the "Tithe" (10%) as a biblical benchmark, but more than the percentage, it looks at the <strong>sacrifice</strong>. (Recall the widow's mite in Mark 12:41-44).
+                The Church proposes a "Third Way": a market economy that is centered on the <strong>human person</strong>. This includes the right to a "Just Wage," the right to unionize, and the duty of the state to protect the most vulnerable.
               </p>
-
-              <QuizCTA
-                title="How do you view your possessions?"
-                description="Take our quiz to reflect on your relationship with money and discover the freedom of Catholic stewardship."
-              />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Vow of Poverty vs. The Spirit of Poverty
+                3. Poverty vs. Misery: A Theological Nuance
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                While religious monks and nuns take a literal Vow of Poverty, every lay Catholic is called to the <strong>Spirit of Poverty</strong> (also known as Detachment). This means that even if you have a million dollars, your heart must not be "attached" to it. You must be willing to lose it all for the sake of Christ.
+                In Catholic theology, these are two very different things:
               </p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-8">
+                <li><strong>Poverty (Virtue):</strong> Being "poor in spirit." A detachment from material things so that God is your primary treasure. This is a virtue for all Catholics, rich or poor.</li>
+                <li><strong>Misery (Evil):</strong> The systemic lack of basic needs (food, water, shelter, dignity). The Church views misery as an evil that must be actively fought through charity and justice.</li>
+              </ul>
+
+              <QuizCTA
+                title="Are you a faithful steward?"
+                description="Take our quiz to reflect on your financial priorities through the lens of Catholic Social Teaching."
+              />
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Sparkles className="w-6 h-6 text-accent" />
+                 Practical Expert Advice for Laypeople
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                How should a Catholic millionaire or a middle-class worker live? 
+              </p>
+              <ul className="list-decimal list-inside text-text space-y-3 mb-10">
+                <li><strong>Ethical Investing:</strong> Check if your stocks or funds support industries that violate human life or dignity.</li>
+                <li><strong>Proportional Almsgiving:</strong> Don't give "what is left over." Build a budget that puts God and the poor first.</li>
+                <li><strong>Just Wage:</strong> If you own a business or hire a contractor, are you paying them fairly according to the local cost of living?</li>
+              </ul>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
-                <p className="text-text italic text-center leading-relaxed">
-                  "For where your treasure is, there your heart will be also." — Matthew 6:21
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "It is much more difficult to be rich and holy than to be poor and holy. But the rich man who uses his wealth for God is an apostle of the first order." — St. Josemaría Escrivá
                 </p>
               </div>
             </div>
@@ -144,25 +157,25 @@ export default function CatholicViewOnWealth() {
 
             <BlogFAQ faqs={[
               {
-                question: "Is it a sin to be a millionaire?",
-                answer: "No. Wealth itself is neutral. It is the *love of money* (avarice) that is the root of evil. If you earned your wealth honestly and use it generously to support your family, the Church, and the poor, your wealth can be a source of great virtue."
+                question: "Wait, so is Capitalism 'Catholic'?",
+                answer: "The Church supports the freedom of initiative and the market (often called 'Capitalism' or 'Free Economy'), but only if it is bounded by a strong legal and ethical framework that protects the common good. A market without ethics is, in the eyes of the Church, a 'deadly economy'."
               },
               {
-                question: "How much should I give to the Church?",
-                answer: "The 'Tithe' (10% of gross income) is a traditional Christian standard, but the Catholic Church does not have a strict mandatory law. You are called to give 'proportionately' to what you have, ensuring you support your local parish and those in need."
+                question: "What did St. Thomas Aquinas say about private property?",
+                answer: "He taught that private property is necessary for civil order and efficiency, but that regarding the *use* of things, a man should consider them not just as his own, but as common—meaning he should be ready to share them in times of another's need."
               },
               {
-                question: "Does the Church believe in Capitalism or Socialism?",
-                answer: "Neither perfectly fits. The Church supports the freedom of the market (Capitalism) but rejects its 'wild' form that ignores the poor. It rejects Socialism because it denies the right to private property and religious freedom. The Church proposes its own 'Social Doctrine' centered on the dignity of the person."
+                question: "Does the Church require tithing exactly 10%?",
+                answer: "The 10% tithe is a biblical benchmark from the Old Testament. While the New Testament and the Code of Canon Law (Can. 222) require that we support the needs of the Church and the poor, they don't specify a fixed percentage. We are called to give 'as much as our heart and means allow'."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Find Your True Wealth
+                Invest in Eternity
               </h3>
               <p className="text-text-muted mb-6">
-                True success is found in following God's will. Take our quiz to start your journey toward spiritual freedom.
+                Your relationship with money says a lot about your relationship with God. Take our quiz to find the perfect balance.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
