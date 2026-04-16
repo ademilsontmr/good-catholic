@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Sparkles, Calendar, Clock, ArrowLeft, Heart, Microscope } from "lucide-react";
+import { Sparkles, Calendar, Clock, ArrowLeft, Heart, Microscope, Landmark } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -15,7 +15,7 @@ export default function IncorruptibleSaints() {
       <Helmet>
         <title>Incorruptible Saints: The Miracle of Sacred Bodies | Guide Catholic</title>
         <meta name="description" content="What are Incorruptible Saints? Discover the miracle of Catholic saints whose bodies have not decomposed for centuries, the scientific studies, and what it means for our faith." />
-        <meta name="keywords" content="incorruptible saints, incorrupt bodies of saints, st bernadette incorrupt, padre pio incorrupt, miracles of the body catholic" />
+        <meta name="keywords" content="incorruptible saints, incorrupt bodies of saints, st bernadette incorrupt, padre pio incorrupt, miracles of the body catholic, incorruptibility science" />
         <link rel="canonical" href="https://guidecatholic.com/blog/incorruptible-saints-miracle/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -58,101 +58,89 @@ export default function IncorruptibleSaints() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  13 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Incorruptible Saints: The Miraculous Victory Over Death
+                 Incorruptible Saints: A Scientific and Theological Challenge to the Grave
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                In the crypts of ancient churches and the glass coffins of modern shrines, there lie bodies that have defied the laws of biology. Centuries after their death, these "Incorruptible Saints" appear as if they are merely sleeping. This is not a matter of mummification, but what the Church calls a "supernatural sign" of the Resurrection.
+                In the crypts of Europe and the shrines of the Americas, there are bodies that have refused to follow the laws of biology. Centuries after their death, these "Incorruptible Saints" appear as if they are merely sleeping. This is not a matter of Egyptian mummification or Arctic freezing; it is a phenomenon that has confounded medical commissions for generations.
               </p>
             </header>
 
             <div className="aspect-video bg-amber-50 rounded-2xl flex items-center justify-center mb-10">
-              <Sparkles className="w-24 h-24 text-amber-400" strokeWidth={1.5} />
+              <Microscope className="w-24 h-24 text-amber-500" strokeWidth={1.5} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                The phenomenon of "incorruptibility" is one of the most visible and physically tangible miracles in the Catholic Church. It refers to a body that, after death, does not undergo the natural process of putrefaction and decay, even without the aid of embalming or salt.
+                Incorruptibility is one of the "Sacramentals of the Body" in Catholic tradition. While most saints decay naturally, God has chosen a select few to serve as physical signs of the coming Resurrection. 
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                What Makes a Saint "Incorruptible"?
+                1. Defining the Miracle: Mummification vs. Incorruptibility
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                Not every saint who is well-preserved is considered "incorruptible" in the miraculous sense. The Church distinguishes between:
+                Skeptics often point to mummification caused by extreme heat or peat bogs. However, the Church maintains strict criteria before declaring a case miraculous:
               </p>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
-                <li><strong>Mummification:</strong> A natural process caused by extreme dryness or freezing.</li>
-                <li><strong>Adipocere:</strong> A chemical change where body fat turns into a soap-like waxy substance (common in damp environments).</li>
-                <li><strong>Miraculous Incorruptibility:</strong> The body remains lifelike, flexible, and occasionally emits a sweet fragrance (the "odor of sanctity") in environments where decay should have occurred rapidly.</li>
+                <li><strong>No Dehydration:</strong> Unlike mummies, which are dry and brittle, incorrupt bodies are often found to be <em>flexible, moist, and soft</em>.</li>
+                <li><strong>Hostile Environments:</strong> Many were buried in damp, humid conditions where bacteria should have liquefied the body in days.</li>
+                <li><strong>The Odor of Sanctity:</strong> Most incorrupt bodies emit a sweet, floral fragrance (jasmine or lilies) instead of the stench of decay.</li>
+                <li><strong>Preservation of Organs:</strong> In many exhumations, the internal organs were found to be intact and colorful, defying all forensic expectations.</li>
               </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Famous Examples Through History
-              </h2>
-              
-              <div className="space-y-6 mb-10">
-                <div className="bg-accent/5 border border-accent/20 rounded-xl p-6">
-                  <h3 className="font-bold text-text mb-2 flex items-center gap-2">
-                    <Heart className="w-5 h-5 text-red-500" />
-                    St. Bernadette Soubirous (d. 1879)
-                  </h3>
-                  <p className="text-text text-sm">
-                    The visionary of Lourdes. Her body was exhumed three times over 46 years. Each time, she was found to be completely intact, with skin that was soft and moist. Today, she lies in a glass reliquary in Nevers, France. While a thin layer of wax was later applied to her face and hands to prevent discoloration, the body beneath remains miraculous.
-                  </p>
-                </div>
-
-                <div className="bg-blue-50 border border-blue-200 rounded-xl p-6">
-                  <h3 className="font-bold text-text mb-2 flex items-center gap-2">
-                    <Microscope className="w-5 h-5 text-blue-500" />
-                    St. Catherine of Bologna (d. 1463)
-                  </h3>
-                  <p className="text-text text-sm">
-                    Her body was buried without a casket. When she was exhumed weeks later, her body was found to be flexible and emitting a sweet scent. For over 500 years, her body has been kept in a <strong>sitting position</strong> in a chair—an impossible feat for a decayed or mummified body.
-                  </p>
-                </div>
-
-                <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6">
-                  <h3 className="font-bold text-text mb-2">St. Padre Pio (d. 1968)</h3>
-                  <p className="text-text text-sm">
-                    When his body was exhumed in 2008, his hands and chin were well-preserved in a way that surprised the examiners. Today, Millions of pilgrims visit his body in San Giovanni Rotondo, seeing him as a sign of God's victory over the grave.
-                  </p>
-                </div>
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Heart className="w-6 h-6 text-red-600" />
+                  Case Study: Saint Bernadette Soubirous
+                </h3>
+                <p className="text-text mb-4">
+                  Bernadette died in 1879. Her body was first exhumed in 1909 (30 years later) for her cause of beatification.
+                </p>
+                <ul className="list-disc list-inside text-text space-y-3 text-sm">
+                  <li><strong>Medical Report (1909):</strong> Dr. Chastenet and Dr. Jourdan noted that her skin was "absolutely intact" and her hands were "of a perfect whiteness."</li>
+                  <li><strong>Second Exhumation (1919):</strong> Her body was found in the same state, despite the wooden casket having rotted away.</li>
+                  <li><strong>Modern State:</strong> Today, she lies in Nevers. A light wax mask covers her face and hands (ordered in 1925 to prevent the skin from darkening due to light exposure), but her skeletal and muscular structure beneath remains flexible and moist.</li>
+                </ul>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Science and the Church's Investigation
+                2. The "Odor of Sanctity": A Floral Mystery
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Catholic Church does not simply "declare" a body incorrupt. Since the time of Pope Benedict XIV in the 18th century, the process has involved <strong>medical doctors and forensic experts</strong>.
+                One of the most profound elements is the **fragrance**. When the tomb of <strong>St. Teresa of Avila</strong> was opened, the room was immediately filled with a scent described as a mixture of roses and violets. This scent persisted for months. Science cannot explain how a biological organism, long dead, can produce volatile floral compounds instead of the gases of putrefaction.
+              </p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Landmark className="w-6 h-6 text-accent" />
+                 The Vatican Commissions
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                The Church does not take these lightly. For every exhumation, a team of medical doctors—often including non-believers and atheists—is invited to examine the remains. 
               </p>
               <p className="text-text leading-relaxed mb-6">
-                In several cases, scientists have found that these bodies contain high levels of moisture despite being centuries old. In other cases, they have found the <strong>freshness of internal organs</strong> (like the heart of St. Teresa of Avila) that should have liquefied within days of death.
+                In 2008, when the body of <strong>St. Padre Pio</strong> was exhumed, the commission noted that his face had been exceptionally well-preserved. While modern conservation techniques are now used for public display, the initial preservation in a basement crypt for 40 years remains a significant point of interest for both faith and science.
               </p>
 
               <QuizCTA
-                title="Do you believe in the Resurrection?"
-                description="Take our quiz to explore how the physical miracles of the saints point to the ultimate promise of eternal life."
+                title="Do you believe in the impossible?"
+                description="Take our quiz to analyze the great miracles of the Church and see how they confirm the spiritual truths of the Gospel."
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Theological Meaning: Why Does God Do This?
+                Theological Meaning: The Temple of the Spirit
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Church teaches that incorruptibility is a <strong>foretaste of the Resurrection</strong>. It is a sign that the body was so united to Christ's grace during life that even death cannot fully strip it of its dignity. It reminds the faithful that we are not just souls, but "temples of the Holy Spirit" (1 Cor 6:19).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                However, incorruptibility is <strong>not a requirement for sainthood</strong>. Many great saints, including St. Thérèse of Lisieux, decayed naturally. God chooses to give this particular sign to only a few, as He sees fit for the building up of our faith.
+                Why does God preserve these bodies? The Church teaches that incorruptibility is a <strong>foretaste of the final Resurrection</strong>. It is a sign that the body of the saint was so perfectly united to the Holy Spirit that death was prevented from exercising its full claim. It reminds us that our bodies are not "trash," but destined for eternal glory.
               </p>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
-                <p className="text-text italic text-center leading-relaxed">
-                  "O Lord, who in the body of Your Saint have manifested the power of Your grace, grant that we may follow their example and one day share in the glory of the Resurrection."
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Death is swallowed up in victory. O death, where is thy sting?" — 1 Corinthians 15:55
                 </p>
               </div>
             </div>
@@ -161,25 +149,25 @@ export default function IncorruptibleSaints() {
 
             <BlogFAQ faqs={[
               {
-                question: "Is every saint's body incorrupt?",
-                answer: "No. Most saints' bodies decay in the normal way. Incorruptibility is a rare and special grace granted by God as a sign. The absence of incorruptibility does not diminish the holiness of a saint."
+                question: "Wait, so are they really 'soft and moist'?",
+                answer: "In the most famous cases, like St. Bernadette or St. Catherine of Bologna, medical reports literally describe the skin as 'soft and elastic' and the flesh as 'supple' decades after death. This is one of the primary reasons they are called miracles, as mummies are always hard and dry."
               },
               {
-                question: "Do they use wax on the bodies of saints?",
-                answer: "In many cases, such as St. Bernadette or St. John Vianney, a thin layer of wax or a silver mask has been placed over the face and hands to prevent the darkening of the skin caused by exposure to light and air. This is a matter of aesthetics for the viewing of pilgrims, not an attempt to hide decay."
+                question: "Do they use chemicals to keep them that way now?",
+                answer: "Most incorrupt bodies on public display today are kept in hermetically sealed glass cases filled with nitrogen to prevent oxidation. Some have light wax masks to ensure they remain aesthetically respectful for pilgrims. These measures are for *preservation* against the environment, not to *create* the incorruptibility."
               },
               {
-                question: "Is incorruptibility recognized by modern science?",
-                answer: "Scientists often cannot find a natural explanation for these cases, especially when the body is found in a damp or humid environment where decay should be rapid. While science can describe the *state* of the body, it cannot explain the *cause* of its preservation in many of these historical cases."
+                question: "Can anyone's body stay incorrupt naturally?",
+                answer: "Yes, in rare cases of saponification (body fat turning to wax) or extreme dryness. However, these natural phenomena result in a very different appearance—the bodies are usually gray, oily, or shriveled, and they lack the flexibility and floral fragrance found in the miraculous cases."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Deepen Your Knowledge of the Faith
+                Witness the Glory of God
               </h3>
               <p className="text-text-muted mb-6">
-                Miracles are windows into the power of God. Take our quiz for a personalized look at your Catholic journey.
+                God speaks through the physical world as much as the spiritual. Take our quiz to deepen your prayer life.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

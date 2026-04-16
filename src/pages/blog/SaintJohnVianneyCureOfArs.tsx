@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Church, Calendar, Clock, ArrowLeft, Heart, Flame } from "lucide-react";
+import { Church, Calendar, Clock, ArrowLeft, Heart, Flame, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -15,7 +15,7 @@ export default function SaintJohnVianneyCureOfArs() {
       <Helmet>
         <title>Saint John Vianney: The Curé of Ars and Patron of Priests | Guide Catholic</title>
         <meta name="description" content="Discover the life of Saint John Vianney, the humble priest who converted thousands through the confessional and battled the demonic in his small village of Ars." />
-        <meta name="keywords" content="st john vianney, cure of ars, patron saint of priests, st john vianney spiritual warfare, miracles of st john vianney" />
+        <meta name="keywords" content="st john vianney, cure of ars, patron saint of priests, st john vianney spiritual warfare, miracles of st john vianney, confessional miracle" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-john-vianney-cure-of-ars/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -58,16 +58,16 @@ export default function SaintJohnVianneyCureOfArs() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  15 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Saint John Vianney: The Curé of Ars and the Power of the Confessional
+                 The Curé of Ars: A Masterclass in Humility and Spiritual Power
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                When John Vianney was appointed to the small French village of Ars in 1818, his bishop told him: "There is little love in that parish; you will be the one to put it there." He didn't know he was sending a man who would become the "Patron Saint of Parish Priests" and transform a town through prayer and extreme penance.
+                When John Vianney was appointed to the remote French village of Ars in 1818, his bishop said: "There is little love in that parish; you will put it there." He didn't know he was sending a man who would become the "Universal Patron of Parish Priests," converting up to 20,000 pilgrims a year through the simple, grueling weapon of the confessional.
               </p>
             </header>
 
@@ -77,66 +77,60 @@ export default function SaintJohnVianneyCureOfArs() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                Saint John Vianney (1786–1859) lived through the aftermath of the French Revolution, a time when the faith was dying in the hearts of the people. He was not a brilliant scholar—in fact, he struggled to learn Latin and almost failed his seminary exams. Yet, God chose this "slow" man to shame the wise and convert thousands.
+                <strong>Saint John Vianney (1786–1859)</strong> was a man whom the world would have called a failure. He struggled with Latin, nearly failed out of the seminary, and was considered "slow" by his peers. Yet, God used his directness and extreme penance to shrivel the post-Revolutionary atheism of France.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Miracle of the Confessional
+                The Marathon of Mercy: 18-Hour Confessions
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                John Vianney’s greatest work was the Sacrament of Reconciliation. As word of his holiness and his gift of "reading souls" spread, people began traveling from all over Europe to confess to him.
+                For the last 15 years of his life, Vianney’s routine was superhuman. He would enter the confessional at 1:00 or 2:00 in the morning and remain there until late at night, often spending <strong>16 to 18 hours a day</strong> hearing the sins of the world. 
               </p>
               <p className="text-text leading-relaxed mb-6">
-                During the last 15 years of his life, he spent between <strong>16 and 18 hours a day</strong> in the confessional. He often skipped meals and slept for only 2 or 3 hours. He had an extraordinary gift from God: he could tell people their sins before they even spoke them, helping them to make a truly honest and healing confession.
+                He possessed the <em>charism</em> of **Cardiognosis** (reading of hearts). Thousands testified that before they could even speak, the humble priest would gently name the sins they had forgotten or were too ashamed to mention. Ars became a place of global pilgrimage not because of its architecture, but because of the mercy flowing from a tiny wooden box.
               </p>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 text-red-700">
-                Spiritual Warfare: The "Grappin"
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                The devil (whom John Vianney nicknamed "the Grappin") was furious with the number of souls the priest was snatching from hell. For 35 years, Vianney was physically harassed by demonic forces at night.
-              </p>
-              <ul className="list-disc list-inside text-text space-y-3 mb-8">
-                <li><strong>Noises:</strong> Screaming, knocking, and the sound of heavy furniture being moved.</li>
-                <li><strong>Physical Attacks:</strong> His bed was once set on fire by an invisible hand while he was praying.</li>
-                <li><strong>Taunts:</strong> The devil would mock his tiny village and his humble life.</li>
-              </ul>
-              <p className="text-text leading-relaxed mb-6">
-                Vianney’s response was heroic: *"The Grappin is very angry. He is like a dog that barks but cannot bite unless we let him."*
-              </p>
-
-              <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 mb-8">
-                <h3 className="font-bold text-text mb-3 flex items-center gap-2">
-                  <Flame className="w-5 h-5 text-orange-600" />
-                  The Wisdom of the Curé of Ars:
+              <div className="bg-orange-50 border border-orange-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl text-red-700">
+                  <Flame className="w-6 h-6" />
+                  Bout with the "Grappin" (The Devil)
                 </h3>
-                <p className="text-text italic mb-2">"The priesthood is the love of the heart of Jesus."</p>
-                <p className="text-text italic mb-2">"If we truly understood the priest on earth, we would die, not of fear, but of love."</p>
-                <p className="text-text italic">"Prayer is nothing else than union with God."</p>
+                <p className="text-text mb-4">
+                  The devil was so enraged by Vianney's success that he physically assaulted the priest for 35 years. Vianney nicknamed him "The Grappin."
+                </p>
+                <ul className="list-disc list-inside text-text space-y-3">
+                  <li><strong>Physical Attacks:</strong> Vianney was frequently thrown from his bed at night. Once, the devil set his bed on fire while the priest was at the altar.</li>
+                  <li><strong>Mockery:</strong> The devil would scream outside his window or mock the priest's "village simpleton" status.</li>
+                  <li><strong>The Outcome:</strong> Vianney remained unshaken, famously saying: *"The Grappin is very angry. He is like a dog that barks but cannot bite unless we let him."*</li>
+                </ul>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Miracle of the Wheat
+                The Miracle of the Granary: Feed my Sheep
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                Ars was a poor village, and Vianney opened a home for orphaned girls called "The Providence." Once, when they had no wheat to feed the children, Vianney went to the attic and prayed. Moments later, the attic was miraculously <strong>filled with wheat</strong> to the point that the floor groaned under the weight. 
+                Vianney founded "La Providence," an orphanage for girls. In times of famine, he relied entirely on God. Once, when the cook reported they had only enough flour for a single loaf, Vianney went to the attic and sprinkled some of it with a relic of St. Philomena.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Moments later, the attic was found so <strong>miraculously filled with wheat</strong> that the floorboards were groaning under the weight. This "Miracle of the Granary" was one of many signs that God was sustaining the work of His humble servant.
               </p>
 
               <QuizCTA
-                title="Do you value the Sacrament of Confession?"
-                description="Take our quiz to reflect on your spiritual habits and learn how to make a life-changing confession."
+                title="Do you hear the call to holiness?"
+                description="Take our quiz to reflect on the life of the Curé of Ars and see how his message of humility can transform your own prayer life."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                His Incorrupt Body
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Sparkles className="w-6 h-6 text-accent" />
+                 Patron of All Parish Priests
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                When Saint John Vianney died in 1859, his body remained incorrupt. Today, he can still be seen in a glass reliquary in the Basilica of Ars. His face is remarkably well-preserved, standing as a silent witness to a life spent entirely for the love of God.
+                In 1929, <strong>Pope Pius XI</strong> declared him the Patron of all Parish Priests. Vianney’s theology was simple yet profound. He taught that the priesthood is "the love of the heart of Jesus." He insisted that a priest is not for himself, but for the people—to stand between them and God as a bridge of mercy.
               </p>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
-                <p className="text-text italic text-center leading-relaxed">
-                  "I will show you the way to heaven." — The promise of St. John Vianney to a shepherd boy.
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "If we truly understood the priest on earth, we would die, not of fear, but of love." — St. John Vianney
                 </p>
               </div>
             </div>
@@ -145,25 +139,25 @@ export default function SaintJohnVianneyCureOfArs() {
 
             <BlogFAQ faqs={[
               {
-                question: "Why is he the patron of priests?",
-                answer: "Because he embodied the ideal of a humble, selfless parish priest who lived only for his flock. He proved that holiness and the salvation of souls are more important than intellectual brilliance or worldly success."
+                question: "Is his body still in Ars today?",
+                answer: "Yes. The body of Saint John Vianney is incorrupt and is preserved in a glass reliquary in the Basilica of Ars, France. Millions visit every year to pray before him."
               },
               {
-                question: "What is his feast day?",
-                answer: "His feast day is celebrated on August 4th. This is a special day to pray for your local parish priest."
+                question: "What was his diet like?",
+                answer: "His penance was extreme. For decades, his primary meal consisted of a few cold, boiled potatoes, which he would cook once a week and eat throughout the following days."
               },
               {
-                question: "What does 'Curé' mean?",
-                answer: "It is the French word for 'Parish Priest.' He is known as the Curé of Ars (the priest of the village of Ars)."
+                question: "What is the lesson for laypeople today?",
+                answer: "His life proves that intellectual brilliance is not a requirement for intimacy with God. Total surrender, frequent confession, and a love for the Eucharist are the only things needed for a soul to become a channel of miracles."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Pray for Your Priests
+                Restore Your Soul
               </h3>
               <p className="text-text-muted mb-6">
-                The world needs more souls like St. John Vianney. Take our quiz to learn how you can support your parish and grow in your own holiness.
+                Like the pilgrims of Ars, you too can find peace. Take our quiz to take the next step in your faith journey.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">

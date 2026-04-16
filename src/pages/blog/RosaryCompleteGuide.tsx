@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Heart, Calendar, Clock, ArrowLeft } from "lucide-react";
+import { Heart, Calendar, Clock, ArrowLeft, Shield, Sparkles, Sword } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,17 +13,17 @@ export default function RosaryCompleteGuide() {
   return (
     <>
       <Helmet>
-        <title>The Holy Rosary: Complete Guide with All 20 Mysteries | Guide Catholic</title>
-        <meta name="description" content="Complete guide to the Holy Rosary with all 20 mysteries, step-by-step instructions, all prayers, spiritual benefits, and tips for praying with devotion." />
-        <meta name="keywords" content="rosary complete guide, how to pray rosary, rosary mysteries, all 20 mysteries rosary, rosary prayer guide" />
+        <title>The Holy Rosary: Complete Guide and 15 Promises | Guide Catholic</title>
+        <meta name="description" content="Complete guide to the Holy Rosary with all 20 mysteries, step-by-step instructions, the 15 promises of Mary, and the history of the Battle of Lepanto." />
+        <meta name="keywords" content="rosary complete guide, how to pray rosary, rosary mysteries, 15 promises of the rosary, battle of lepanto rosary, st louis de montfort rosary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/rosary-complete-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-        <ArticleSchema
-          title="The Holy Rosary: Complete Guide with All 20 Mysteries"
-          description="Complete guide to the Holy Rosary with all 20 mysteries, step-by-step instructions, all prayers, spiritual benefits, and tips for praying with devotion."
-          url="https://guidecatholic.com/blog/rosary-complete-guide/"
-        />
+      <ArticleSchema
+        title="The Holy Rosary: Complete Guide with All 20 Mysteries"
+        description="Complete guide to the Holy Rosary with all 20 mysteries, step-by-step instructions, all prayers, spiritual benefits, and tips for praying with devotion."
+        url="https://guidecatholic.com/blog/rosary-complete-guide/"
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />
@@ -54,193 +54,130 @@ export default function RosaryCompleteGuide() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
-                  April 14, 2026
+                  April 16, 2026
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  15 min read
+                  26 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Holy Rosary: Complete Guide with All 20 Mysteries
+                The Holy Rosary: The Spiritual Weapon of the Saints
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                The Rosary is the most beloved Catholic prayer after the Mass. This complete guide covers the history, all 20 mysteries with meditations, every prayer, and practical tips for making the Rosary a transformative daily devotion.
+                "The Rosary is the weapon for these times." These words of <strong>Saint Padre Pio</strong> summarize a 1,000-year-old conviction: that 59 beads and 20 mysteries are enough to change the course of history. This is the master guide to the "School of Mary."
               </p>
             </header>
 
-            <div className="aspect-video bg-rose-100 rounded-2xl flex items-center justify-center mb-10">
-              <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
+            <div className="aspect-video bg-rose-50 rounded-2xl flex items-center justify-center mb-10 relative overflow-hidden">
+               <Shield className="w-24 h-24 text-rose-400/20 absolute -bottom-4 -left-4" />
+               <Sword className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                Pope St. John Paul II called the Rosary "my favorite prayer." St. Padre Pio held his rosary beads constantly, even while hearing confessions. St. Louis de Montfort wrote an entire book on its power. For over 800 years, the Rosary has been the prayer that Catholic families, soldiers, missionaries, and martyrs have turned to in times of joy and crisis alike.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                Yet many American Catholics feel uncertain about the Rosary. They know it involves Hail Marys and beads, but the mysteries, the structure, and the deeper meaning remain unclear. This guide will give you everything you need — the complete text of every prayer, all 20 mysteries with meditations, step-by-step instructions, and the spiritual wisdom to pray it with genuine devotion.
+                Most people see the Rosary as a set of repetitive prayers. But to the expert, the Rosary is a <strong>Scriptural Journey</strong>. It is the life of Jesus through the eyes of the one who knew Him best: His Mother.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The History of the Rosary
+                1. The Battle that Saved Christendom: Lepanto (1571)
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Rosary as we know it developed gradually over several centuries. Its roots lie in the early monastic practice of praying all 150 Psalms — a practice that illiterate laypeople adapted by substituting 150 Our Fathers or Hail Marys, counted on strings of beads. By the 12th century, the Hail Mary had become the dominant prayer, and the practice of meditating on scenes from the life of Christ and Mary while praying was well established.
+                The Rosary isn't just a "private" prayer; it has saved empires. In 1571, the Christian West was on the verge of Islamic invasion. Pope St. Pius V asked all Christians to pray the Rosary for the success of the Holy League at the <strong>Battle of Lepanto</strong>. 
               </p>
               <p className="text-text leading-relaxed mb-6">
-                Tradition attributes the Rosary's current form to St. Dominic (1170–1221), who reportedly received it from the Virgin Mary during an apparition. While historians debate the details, the Dominican Order certainly played a crucial role in spreading the Rosary throughout Europe. The great Dominican preacher Blessed Alan de la Roche (1428–1475) organized the Confraternity of the Rosary and systematized the 15 mysteries.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                In 2002, Pope John Paul II added the five Luminous Mysteries (Mysteries of Light) in his apostolic letter Rosarium Virginis Mariae, bringing the total to 20 mysteries. He described the Rosary as "a compendium of the Gospel" and called it "a contemplative prayer par excellence."
+                Despite being outnumbered, the Christian fleet won a miraculous victory. The Pope, who was miles away, was granted a vision of the victory at the exact moment it happened. He established the feast of <strong>Our Lady of the Rosary</strong> (October 7) to commemorate this victory.
               </p>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Prayers of the Rosary
-              </h2>
-
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-4">The Essential Rosary Prayers</h3>
-                <div className="space-y-4 text-text">
-                  <div>
-                    <p className="font-semibold mb-1">The Our Father (Lord's Prayer)</p>
-                    <p className="italic text-sm">Our Father, who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold mb-1">The Hail Mary</p>
-                    <p className="italic text-sm">Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold mb-1">The Glory Be (Doxology)</p>
-                    <p className="italic text-sm">Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold mb-1">The Fatima Prayer</p>
-                    <p className="italic text-sm">O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those most in need of Thy mercy.</p>
-                  </div>
-                  <div>
-                    <p className="font-semibold mb-1">Hail Holy Queen (Salve Regina)</p>
-                    <p className="italic text-sm">Hail, Holy Queen, Mother of Mercy, our life, our sweetness and our hope. To thee do we cry, poor banished children of Eve. To thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary. Pray for us, O holy Mother of God, that we may be made worthy of the promises of Christ.</p>
-                  </div>
+              <div className="bg-rose-50 border border-rose-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Sparkles className="w-6 h-6 text-rose-600" />
+                  The 15 Promises of the Rosary
+                </h3>
+                <p className="text-sm text-text-muted mb-4 text-center">Given to St. Dominic and Blessed Alan de la Roche</p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                  <ul className="list-disc list-inside space-y-2">
+                    <li>Signal graces for faithful recitation.</li>
+                    <li>Special protection and great graces.</li>
+                    <li>Power against Hell; it will destroy vice.</li>
+                    <li>The soul will flourish; virtues will sprout.</li>
+                    <li>The soul shall not perish.</li>
+                    <li>Deliverance from sudden death.</li>
+                    <li>Those truly devoted shall not die without the Sacraments.</li>
+                    <li>Divine light and fullness of grace in life and death.</li>
+                  </ul>
+                  <ul className="list-disc list-inside space-y-2">
+                    <li>Deliverance from Purgatory.</li>
+                    <li>Great glory in Heaven.</li>
+                    <li>You shall obtain all you ask of me.</li>
+                    <li>Assistance in every necessity.</li>
+                    <li>Propagation of the Rosary rewards.</li>
+                    <li>You shall be my brothers and sisters.</li>
+                    <li>A great sign of predestination.</li>
+                  </ul>
                 </div>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                2. Expert Meditation: The "Secret" of St. Louis de Montfort
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                In his book <em>The Secret of the Rosary</em>, St. Louis de Montfort warns that the greatest mistake is to pray with the lips but not with the mind. He proposes a method of "Visual Contemplation":
+              </p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-8">
+                <li><strong>The Clause Method:</strong> Adding a small descriptive phrase after the name of "Jesus" in the Hail Mary (e.g., "...and blessed is the fruit of thy womb, Jesus, *who was crowned with thorns*").</li>
+                <li><strong>The Scriptural Pause:</strong> Reading a single verse of the Bible before each decade to set the "scene" for the imagination.</li>
+              </ul>
+
               <QuizCTA
-                title="How deep is your Marian devotion?"
-                description="Take our quiz and discover how to grow in your Catholic faith through prayer, the sacraments, and devotion to Our Lady."
+                title="Is your Rosary a chore or a conversation?"
+                description="Take our quiz to analyze your prayer habits and discover new methods to make your Rosary a deep encounter with Christ."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                All 20 Mysteries of the Rosary
-              </h2>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                The Five Joyful Mysteries (Monday and Saturday)
-              </h3>
-              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
-                <li><strong>The Annunciation</strong> — The Angel Gabriel announces to Mary that she will conceive the Son of God. Meditate on Mary's perfect "yes" to God's will and ask for the grace of obedience.</li>
-                <li><strong>The Visitation</strong> — Mary visits her cousin Elizabeth, who is pregnant with John the Baptist. At Mary's greeting, John leaps in the womb. Meditate on the joy of bringing Christ to others.</li>
-                <li><strong>The Nativity</strong> — Jesus is born in Bethlehem, laid in a manger. Meditate on God's humility in becoming a helpless infant and ask for the grace of poverty of spirit.</li>
-                <li><strong>The Presentation</strong> — Mary and Joseph present the infant Jesus in the Temple. Simeon prophesies that a sword will pierce Mary's soul. Meditate on obedience to God's law and the cost of discipleship.</li>
-                <li><strong>The Finding of Jesus in the Temple</strong> — After three days of searching, Mary and Joseph find the twelve-year-old Jesus in the Temple, discussing Scripture with the teachers. Meditate on seeking God above all things.</li>
-              </ol>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                The Five Luminous Mysteries (Thursday)
-              </h3>
-              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
-                <li><strong>The Baptism of Jesus</strong> — Jesus is baptized by John in the Jordan. The Father's voice declares, "This is my beloved Son." Meditate on your own baptism and the gift of divine sonship.</li>
-                <li><strong>The Wedding at Cana</strong> — At Mary's intercession, Jesus performs His first miracle, turning water into wine. Meditate on Mary's role as intercessor and the power of her prayer.</li>
-                <li><strong>The Proclamation of the Kingdom</strong> — Jesus preaches the Kingdom of God and calls all to conversion. Meditate on the call to repentance and the joy of the Gospel.</li>
-                <li><strong>The Transfiguration</strong> — Jesus is transfigured on Mount Tabor, revealing His divine glory to Peter, James, and John. Meditate on the glory that awaits us and the importance of prayer.</li>
-                <li><strong>The Institution of the Eucharist</strong> — At the Last Supper, Jesus gives us His Body and Blood under the forms of bread and wine. Meditate on the gift of the Eucharist and the depth of Christ's love.</li>
-              </ol>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                The Five Sorrowful Mysteries (Tuesday and Friday)
-              </h3>
-              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
-                <li><strong>The Agony in the Garden</strong> — Jesus prays in Gethsemane, sweating blood, asking that the cup pass from Him, yet surrendering to the Father's will. Meditate on conformity to God's will in suffering.</li>
-                <li><strong>The Scourging at the Pillar</strong> — Jesus is brutally scourged by Roman soldiers. Meditate on His suffering for our sins of the flesh and ask for purity and mortification.</li>
-                <li><strong>The Crowning with Thorns</strong> — Soldiers mock Jesus as "King of the Jews," placing a crown of thorns on His head. Meditate on His suffering for our pride and ask for humility.</li>
-                <li><strong>The Carrying of the Cross</strong> — Jesus carries His cross to Calvary, falling three times. Meditate on bearing our own crosses with patience and trust.</li>
-                <li><strong>The Crucifixion</strong> — Jesus is nailed to the cross and dies for our sins. Meditate on the infinite love of God revealed in the Cross and ask for the grace of final perseverance.</li>
-              </ol>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                The Five Glorious Mysteries (Wednesday and Sunday)
-              </h3>
-              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
-                <li><strong>The Resurrection</strong> — Jesus rises from the dead on the third day, conquering sin and death. Meditate on the hope of our own resurrection and the joy of eternal life.</li>
-                <li><strong>The Ascension</strong> — Jesus ascends to the right hand of the Father forty days after the Resurrection. Meditate on our heavenly destiny and the call to lift our hearts above earthly things.</li>
-                <li><strong>The Descent of the Holy Spirit</strong> — The Holy Spirit descends on Mary and the Apostles at Pentecost. Meditate on the gifts of the Spirit and the birth of the Church.</li>
-                <li><strong>The Assumption of Mary</strong> — At the end of her earthly life, Mary is assumed body and soul into heaven. Meditate on the dignity of the human body and the hope of bodily resurrection.</li>
-                <li><strong>The Coronation of Mary</strong> — Mary is crowned Queen of Heaven and Earth. Meditate on Mary's intercession for us and the glory that awaits all who persevere in faith.</li>
-              </ol>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Step-by-Step Instructions for Praying the Rosary
-              </h2>
-              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
-                <li>Hold the crucifix and make the Sign of the Cross. Pray the Apostles' Creed.</li>
-                <li>On the first large bead, pray the Our Father.</li>
-                <li>On the three small beads, pray three Hail Marys (for faith, hope, and charity).</li>
-                <li>Pray the Glory Be and the Fatima Prayer.</li>
-                <li>Announce the first mystery and briefly meditate on it.</li>
-                <li>On the large bead, pray the Our Father.</li>
-                <li>On the ten small beads, pray ten Hail Marys while meditating on the mystery.</li>
-                <li>Pray the Glory Be and the Fatima Prayer.</li>
-                <li>Repeat steps 5–8 for each of the five mysteries.</li>
-                <li>After the fifth mystery, pray the Hail Holy Queen and the closing prayer.</li>
-              </ol>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Spiritual Benefits and Tips for Praying with Devotion
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Heart className="w-6 h-6 text-accent" />
+                 Fatima and the "Daily Duty"
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Rosary is not a magical formula — its power comes from the meditation on the mysteries of Christ's life. The Hail Marys are like the background music; the mysteries are the melody. To pray the Rosary well, keep your mind on the mystery even as your lips pray the words. Visualize the scene. Place yourself in it. Ask: What is Jesus doing here? What is He saying to me?
+                In every single apparition at Fatima in 1917, Our Lady specifically asked: <strong>"Pray the Rosary every day."</strong> Sister Lucia, the longest-living visionary, stated that "there is no problem, I tell you, no matter how difficult it is, that we cannot resolve by the prayer of the Holy Rosary."
               </p>
-              <p className="text-text leading-relaxed mb-6">
-                The family Rosary is one of the most powerful traditions in Catholic life. Blessed Patrick Peyton famously said, "The family that prays together stays together." Even five minutes of the Rosary prayed together as a family — perhaps just one decade — can transform the spiritual atmosphere of a home. Start small and build up.
-              </p>
+
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The Rosary is the chain that links us to God. It is the ladder to climb into the heart of Mary and find Jesus there." — St. John Paul II
+                </p>
+              </div>
             </div>
 
             <RelatedArticles currentSlug="rosary-complete-guide" />
 
             <BlogFAQ faqs={[
               {
-                question: "How long does it take to pray the full Rosary?",
-                answer: "A full five-decade Rosary takes approximately 15–20 minutes when prayed at a moderate pace. If you're new to the Rosary, start with one decade (about 3–4 minutes) and gradually build up to the full five decades. The important thing is quality of attention, not speed."
+                question: "Do I have to pray all 15 or 20 decades every day?",
+                answer: "The daily duty asked by Our Lady of Fatima is usually understood as five decades (one set of mysteries). However, many people find peace in praying the full 20 mysteries throughout the day."
               },
               {
-                question: "What are the 20 mysteries of the Rosary?",
-                answer: "The 20 mysteries are divided into four sets of five: the Joyful Mysteries (Annunciation, Visitation, Nativity, Presentation, Finding in the Temple), the Luminous Mysteries (Baptism of Jesus, Wedding at Cana, Proclamation of the Kingdom, Transfiguration, Institution of the Eucharist), the Sorrowful Mysteries (Agony in the Garden, Scourging, Crowning with Thorns, Carrying the Cross, Crucifixion), and the Glorious Mysteries (Resurrection, Ascension, Descent of the Holy Spirit, Assumption, Coronation of Mary)."
+                question: "What if my mind wanders while I pray?",
+                answer: "This happens at every level of the spiritual life. St. Therese of Lisieux even admitted to falling asleep during her prayers. The value of the Rosary is in the *will* to pray. Gently bring your mind back to the mystery and continue."
               },
               {
-                question: "Which mysteries do you pray on which days?",
-                answer: "The traditional schedule recommended by Pope John Paul II is: Joyful Mysteries on Monday and Saturday, Luminous Mysteries on Thursday, Sorrowful Mysteries on Tuesday and Friday, and Glorious Mysteries on Wednesday and Sunday. This is a recommendation, not a rule — you can pray any mysteries on any day."
-              },
-              {
-                question: "Is the Rosary in the Bible?",
-                answer: "The Rosary as a structured prayer is not in the Bible, but its prayers are deeply biblical. The Our Father comes directly from Matthew 6:9–13. The first half of the Hail Mary comes from Luke 1:28 and 1:42. The mysteries are all drawn from the Gospels. The practice of repetitive prayer is also biblical — Jesus Himself prayed the same words three times in Gethsemane (Matthew 26:44)."
-              },
-              {
-                question: "Why do Catholics pray to Mary in the Rosary?",
-                answer: "Catholics don't worship Mary — they ask her to intercede for them, just as they might ask a friend to pray for them. The Hail Mary asks Mary to 'pray for us sinners, now and at the hour of our death.' Mary is the Mother of God and our spiritual mother, and her intercession is powerful because of her unique closeness to her Son. The Rosary is ultimately a meditation on the life of Jesus, with Mary as our guide."
+                question: "I don't have a physical Rosary, can I still pray it?",
+                answer: "Absolutely. You can use your fingers (God gave us 10 for a reason!) or a phone app. The 'sacramental' beads are a beautiful tool, but the prayer is an interior act of the mind and heart."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Discover How Your Faith Life Is
+                Arm Yourself for the Day
               </h3>
               <p className="text-text-muted mb-6">
-                Take our quiz and receive a personalized assessment of your Catholic journey.
+                The Rosary is the perfect discipline for a busy world. Take our quiz to start your journey toward a consistent prayer life.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Quiz Now
+                  Take the Faith Quiz
                 </Button>
               </Link>
             </div>
