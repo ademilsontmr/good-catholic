@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -20,6 +20,42 @@ interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1013,
+    slug: "eucharistic-miracles-science",
+    title: "Eucharistic Miracles and Science: What Do the Medical Labs Say?",
+    excerpt: "Explore the scientific evidence behind Eucharistic miracles. Learn about blood types, DNA, and the medical findings that defy natural explanation.",
+    date: "2026-04-16",
+    readTime: "15 min",
+    category: "Faith & Science",
+    icon: Microscope,
+    bgColor: "bg-red-100",
+    iconColor: "text-red-400"
+  },
+  {
+    id: 1014,
+    slug: "catholic-view-on-ghosts",
+    title: "Do Catholics Believe in Ghosts? The Truth About the Paranormal",
+    excerpt: "What does the Church teach about ghosts and spirits? Learn about souls in purgatory, demonic deception, and how to protect your home.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Spiritual Warfare",
+    icon: Ghost,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-400"
+  },
+  {
+    id: 1015,
+    slug: "saint-peregrine-novena",
+    title: "Saint Peregrine Novena: The Patron Saint for Cancer Patients",
+    excerpt: "Pray the novena to the 'Cancer Saint.' Learn about the miraculous healing of St. Peregrine and how to ask for his intercession today.",
+    date: "2026-04-16",
+    readTime: "12 min",
+    category: "Saints & Healing",
+    icon: Heart,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
   {
     id: 1010,
     slug: "what-is-purgatory-guide",
