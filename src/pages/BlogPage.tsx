@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -20,6 +20,42 @@ interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1025,
+    slug: "guardian-angels-guide",
+    title: "Guardian Angels: Your Divine Protectors and the 9 Choirs",
+    excerpt: "Do you have a Guardian Angel? Discover the Catholic teaching on the nine choirs of angels and how to build a relationship with your protector.",
+    date: "2026-04-16",
+    readTime: "13 min",
+    category: "Spiritual Life",
+    icon: UserCheck,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-400"
+  },
+  {
+    id: 1026,
+    slug: "catholic-view-on-wealth",
+    title: "Catholic View on Wealth and Money: Prosperity or Poverty?",
+    excerpt: "What does the Church teach about money and success? Explore the balance between the Prosperity Gospel and the Vow of Poverty.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Social Teaching",
+    icon: Coins,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
+  {
+    id: 1027,
+    slug: "saint-john-vianney-cure-of-ars",
+    title: "Saint John Vianney: The Curé of Ars and Patron of Priests",
+    excerpt: "Discover the life of the humble priest who converted thousands through the confessional and battled the demonic in his small village.",
+    date: "2026-04-16",
+    readTime: "15 min",
+    category: "Saints",
+    icon: Church,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-400"
+  },
   {
     id: 1022,
     slug: "miracle-of-guadalupe-science",
