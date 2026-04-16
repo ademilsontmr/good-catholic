@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -20,6 +20,42 @@ interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1022,
+    slug: "miracle-of-guadalupe-science",
+    title: "The Miracle of Our Lady of Guadalupe: What Science Cannot Explain",
+    excerpt: "Explore the scientific mysteries of the Tilma of Juan Diego. Learn about the miraculous preservation and the images found in the eyes.",
+    date: "2026-04-16",
+    readTime: "15 min",
+    category: "Faith & Science",
+    icon: Sun,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 1023,
+    slug: "the-crusades-fact-vs-fiction",
+    title: "The Crusades: Separating Catholic Fact from Fiction",
+    excerpt: "Were the Crusades unprovoked wars of aggression? Explore the historical context and the defense of pilgrims in the Holy Land.",
+    date: "2026-04-16",
+    readTime: "18 min",
+    category: "History & Apologetics",
+    icon: Sword,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-400"
+  },
+  {
+    id: 1024,
+    slug: "catholicism-and-evolution-guide",
+    title: "Catholicism and Evolution: Can You Believe in Both?",
+    excerpt: "Does the Church accept evolutionary theory? Explore the official teaching of the Popes and the compatibility of science and Genesis.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Faith & Science",
+    icon: Microscope,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
   {
     id: 1019,
     slug: "our-lady-undoer-of-knots",

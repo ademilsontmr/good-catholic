@@ -127,6 +127,10 @@ import MiraculousMedalGuide from "./pages/blog/MiraculousMedalGuide";
 import OurLadyUndoerOfKnots from "./pages/blog/OurLadyUndoerOfKnots";
 import SaintDymphnaMentalHealth from "./pages/blog/SaintDymphnaMentalHealth";
 import TheProblemOfSuffering from "./pages/blog/TheProblemOfSuffering";
+// SEO Articles Lote 8
+import OurLadyOfGuadalupeScience from "./pages/blog/OurLadyOfGuadalupeScience";
+import TheCrusadesHistory from "./pages/blog/TheCrusadesHistory";
+import CatholicismAndEvolution from "./pages/blog/CatholicismAndEvolution";
 
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -264,6 +268,10 @@ const App = () => (
             <Route path="/blog/our-lady-undoer-of-knots/" element={<OurLadyUndoerOfKnots />} />
             <Route path="/blog/saint-dymphna-mental-health/" element={<SaintDymphnaMentalHealth />} />
             <Route path="/blog/why-does-god-allow-suffering/" element={<TheProblemOfSuffering />} />
+            {/* SEO Articles Lote 8 */}
+            <Route path="/blog/miracle-of-guadalupe-science/" element={<OurLadyOfGuadalupeScience />} />
+            <Route path="/blog/the-crusades-fact-vs-fiction/" element={<TheCrusadesHistory />} />
+            <Route path="/blog/catholicism-and-evolution-guide/" element={<CatholicismAndEvolution />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
