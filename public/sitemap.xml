@@ -514,16 +514,82 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- Prosperity Articles (Batch 4) -->
-  <!-- Popular Search Articles (Batch 5) -->
-  <!-- Seven Sacraments Articles (Batch 6) -->
-  <!-- Ten Commandments Articles (Batch 7) -->
-  <!-- Seven Gifts of the Holy Spirit Articles (Batch 8) -->
-  <!-- Seven Deadly Sins Articles (Batch 9) -->
-  <!-- Catholic Prayers Articles (Batch 10) -->
-  <!-- Novena Articles (Batch 11) -->
-  <!-- Special Devotions -->
-  <!-- Original Articles (id 1-21) -->
+  <!-- SEO Articles Lote 1 -->
+  <url>
+    <loc>https://guidecatholic.com/blog/are-tattoos-a-sin/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/catholic-vs-protestant-bible/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/ash-wednesday-guide/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- SEO Articles Lote 2 -->
+  <url>
+    <loc>https://guidecatholic.com/blog/seven-deadly-sins/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/apparitions-of-our-lady/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/saint-jude-thaddeus/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- SEO Articles Lote 3 -->
+  <url>
+    <loc>https://guidecatholic.com/blog/ten-commandments-catholic/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/fruits-of-the-holy-spirit/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/catholic-teaching-on-divorce/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- SEO Articles Lote 4 -->
+  <url>
+    <loc>https://guidecatholic.com/blog/what-is-purgatory-guide/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/saint-benedict-medal/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/what-is-the-nicene-creed/</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
   <!-- Footer Pages -->
   <url>
     <loc>https://guidecatholic.com/terms/</loc>

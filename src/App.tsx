@@ -99,6 +99,23 @@ import FamilyPrayer from "./pages/blog/FamilyPrayer";
 import CatholicDating from "./pages/blog/CatholicDating";
 import WhatIsRCIA from "./pages/blog/WhatIsRCIA";
 import CatholicHomeschooling from "./pages/blog/CatholicHomeschooling";
+// SEO Articles Lote 1
+import TattoosCatholicChurch from "./pages/blog/TattoosCatholicChurch";
+import CatholicVsProtestantBible from "./pages/blog/CatholicVsProtestantBible";
+import AshWednesdayGuide from "./pages/blog/AshWednesdayGuide";
+// SEO Articles Lote 2
+import SevenDeadlySins from "./pages/blog/SevenDeadlySins";
+import ApparitionsOfOurLady from "./pages/blog/ApparitionsOfOurLady";
+import SaintJudeThaddeus from "./pages/blog/SaintJudeThaddeus";
+// SEO Articles Lote 3
+import TenCommandmentsCatholic from "./pages/blog/TenCommandmentsCatholic";
+import FruitsOfHolySpirit from "./pages/blog/FruitsOfHolySpirit";
+import CatholicTeachingOnDivorce from "./pages/blog/CatholicTeachingOnDivorce";
+// SEO Articles Lote 4
+import WhatIsPurgatoryExpanded from "./pages/blog/WhatIsPurgatoryExpanded";
+import SaintBenedictMedal from "./pages/blog/SaintBenedictMedal";
+import WhatIsTheNiceneCreed from "./pages/blog/WhatIsTheNiceneCreed";
+
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
@@ -207,6 +224,22 @@ const App = () => (
             <Route path="/blog/what-is-the-popes-role-catholic-church/" element={<PopeRoleInChurch />} />
             <Route path="/blog/catholic-teaching-on-death-penalty/" element={<CatholicDeathPenalty />} />
             <Route path="/blog/what-is-annulment-catholic-church/" element={<CatholicAnnulment />} />
+            {/* SEO Articles Lote 1 */}
+            <Route path="/blog/are-tattoos-a-sin/" element={<TattoosCatholicChurch />} />
+            <Route path="/blog/catholic-vs-protestant-bible/" element={<CatholicVsProtestantBible />} />
+            <Route path="/blog/ash-wednesday-guide/" element={<AshWednesdayGuide />} />
+            {/* SEO Articles Lote 2 */}
+            <Route path="/blog/seven-deadly-sins/" element={<SevenDeadlySins />} />
+            <Route path="/blog/apparitions-of-our-lady/" element={<ApparitionsOfOurLady />} />
+            <Route path="/blog/saint-jude-thaddeus/" element={<SaintJudeThaddeus />} />
+            {/* SEO Articles Lote 3 */}
+            <Route path="/blog/ten-commandments-catholic/" element={<TenCommandmentsCatholic />} />
+            <Route path="/blog/fruits-of-the-holy-spirit/" element={<FruitsOfHolySpirit />} />
+            <Route path="/blog/catholic-teaching-on-divorce/" element={<CatholicTeachingOnDivorce />} />
+            {/* SEO Articles Lote 4 */}
+            <Route path="/blog/what-is-purgatory-guide/" element={<WhatIsPurgatoryExpanded />} />
+            <Route path="/blog/saint-benedict-medal/" element={<SaintBenedictMedal />} />
+            <Route path="/blog/what-is-the-nicene-creed/" element={<WhatIsTheNiceneCreed />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
