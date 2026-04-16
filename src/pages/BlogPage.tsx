@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -20,6 +20,42 @@ interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1019,
+    slug: "our-lady-undoer-of-knots",
+    title: "Our Lady Undoer of Knots: The History and The Novena",
+    excerpt: "Discover the 300-year-old devotion popularized by Pope Francis. Learn how to untie the difficult knots in your life through Mary's intercession.",
+    date: "2026-04-16",
+    readTime: "13 min",
+    category: "Devotions",
+    icon: Hand,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
+  {
+    id: 1020,
+    slug: "saint-dymphna-mental-health",
+    title: "Saint Dymphna: Patron Saint of Mental Health and Anxiety",
+    excerpt: "Discover the life of the 15-year-old Irish princess who became the patron saint of those suffering from depression, anxiety, and mental illness.",
+    date: "2026-04-16",
+    readTime: "12 min",
+    category: "Saints & Healing",
+    icon: Brain,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-400"
+  },
+  {
+    id: 1021,
+    slug: "why-does-god-allow-suffering",
+    title: "Why Does God Allow Suffering? A Catholic Perspective",
+    excerpt: "Exploring the deepest question of the human heart. Learn about free will, redemptive suffering, and where God is in the midst of our pain.",
+    date: "2026-04-16",
+    readTime: "15 min",
+    category: "Theology",
+    icon: HelpCircle,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
   {
     id: 1016,
     slug: "three-days-of-darkness-prophecy",

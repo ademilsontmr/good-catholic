@@ -123,6 +123,10 @@ import SaintPeregrineNovena from "./pages/blog/SaintPeregrineNovena";
 import ThreeDaysOfDarkness from "./pages/blog/ThreeDaysOfDarkness";
 import IncorruptibleSaints from "./pages/blog/IncorruptibleSaints";
 import MiraculousMedalGuide from "./pages/blog/MiraculousMedalGuide";
+// SEO Articles Lote 7
+import OurLadyUndoerOfKnots from "./pages/blog/OurLadyUndoerOfKnots";
+import SaintDymphnaMentalHealth from "./pages/blog/SaintDymphnaMentalHealth";
+import TheProblemOfSuffering from "./pages/blog/TheProblemOfSuffering";
 
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -256,6 +260,10 @@ const App = () => (
             <Route path="/blog/three-days-of-darkness-prophecy/" element={<ThreeDaysOfDarkness />} />
             <Route path="/blog/incorruptible-saints-miracle/" element={<IncorruptibleSaints />} />
             <Route path="/blog/miraculous-medal-guide/" element={<MiraculousMedalGuide />} />
+            {/* SEO Articles Lote 7 */}
+            <Route path="/blog/our-lady-undoer-of-knots/" element={<OurLadyUndoerOfKnots />} />
+            <Route path="/blog/saint-dymphna-mental-health/" element={<SaintDymphnaMentalHealth />} />
+            <Route path="/blog/why-does-god-allow-suffering/" element={<TheProblemOfSuffering />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
