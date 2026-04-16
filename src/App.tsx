@@ -59,7 +59,6 @@ import WhatIsTheMassGuide from "./pages/blog/WhatIsTheMassGuide";
 import IsTheCatholicChurchTrue from "./pages/blog/IsTheCatholicChurchTrue";
 // Spiritual Life Articles Batch 4
 import DailyPrayerRoutine from "./pages/blog/DailyPrayerRoutine";
-import LectioDivinaGuideExpanded from "./pages/blog/LectioDivinaGuideExpanded";
 import RosaryCompleteGuide from "./pages/blog/RosaryCompleteGuide";
 import ExaminationOfConscienceGuide from "./pages/blog/ExaminationOfConscienceGuide";
 import CatholicFastingRules from "./pages/blog/CatholicFastingRules";
@@ -112,7 +111,6 @@ import TenCommandmentsCatholic from "./pages/blog/TenCommandmentsCatholic";
 import FruitsOfHolySpirit from "./pages/blog/FruitsOfHolySpirit";
 import CatholicTeachingOnDivorce from "./pages/blog/CatholicTeachingOnDivorce";
 // SEO Articles Lote 4
-import WhatIsPurgatoryExpanded from "./pages/blog/WhatIsPurgatoryExpanded";
 import SaintBenedictMedal from "./pages/blog/SaintBenedictMedal";
 import WhatIsTheNiceneCreed from "./pages/blog/WhatIsTheNiceneCreed";
 // SEO Articles Lote 5
@@ -132,7 +130,6 @@ import OurLadyOfGuadalupeScience from "./pages/blog/OurLadyOfGuadalupeScience";
 import TheCrusadesHistory from "./pages/blog/TheCrusadesHistory";
 import CatholicismAndEvolution from "./pages/blog/CatholicismAndEvolution";
 // SEO Articles Lote 9
-import GuardianAngelsComplete from "./pages/blog/GuardianAngelsComplete";
 import CatholicViewOnWealth from "./pages/blog/CatholicViewOnWealth";
 import SaintJohnVianneyCureOfArs from "./pages/blog/SaintJohnVianneyCureOfArs";
 // SEO Articles Lote 10
@@ -219,7 +216,7 @@ const App = () => (
             <Route path="/blog/what-is-the-catholic-mass/" element={<WhatIsTheMassGuide />} />
             <Route path="/blog/is-the-catholic-church-the-true-church/" element={<IsTheCatholicChurchTrue />} />
             <Route path="/blog/catholic-daily-prayer-routine/" element={<DailyPrayerRoutine />} />
-            <Route path="/blog/lectio-divina-how-to-practice/" element={<LectioDivinaGuideExpanded />} />
+            <Route path="/blog/lectio-divina-how-to-practice/" element={<LectioDivina />} />
             <Route path="/blog/rosary-complete-guide/" element={<RosaryCompleteGuide />} />
             <Route path="/blog/examination-of-conscience-guide/" element={<ExaminationOfConscienceGuide />} />
             <Route path="/blog/catholic-fasting-rules/" element={<CatholicFastingRules />} />
@@ -267,7 +264,7 @@ const App = () => (
             <Route path="/blog/fruits-of-the-holy-spirit/" element={<FruitsOfHolySpirit />} />
             <Route path="/blog/catholic-teaching-on-divorce/" element={<CatholicTeachingOnDivorce />} />
             {/* SEO Articles Lote 4 */}
-            <Route path="/blog/what-is-purgatory-guide/" element={<WhatIsPurgatoryExpanded />} />
+            <Route path="/blog/what-is-purgatory-guide/" element={<WhatIsPurgatory />} />
             <Route path="/blog/saint-benedict-medal/" element={<SaintBenedictMedal />} />
             <Route path="/blog/what-is-the-nicene-creed/" element={<WhatIsTheNiceneCreed />} />
             {/* SEO Articles Lote 5 */}
@@ -287,7 +284,7 @@ const App = () => (
             <Route path="/blog/the-crusades-fact-vs-fiction/" element={<TheCrusadesHistory />} />
             <Route path="/blog/catholicism-and-evolution-guide/" element={<CatholicismAndEvolution />} />
             {/* SEO Articles Lote 9 */}
-            <Route path="/blog/guardian-angels-guide/" element={<GuardianAngelsComplete />} />
+            <Route path="/blog/guardian-angels-guide/" element={<GuardianAngels />} />
             <Route path="/blog/catholic-view-on-wealth/" element={<CatholicViewOnWealth />} />
             <Route path="/blog/saint-john-vianney-cure-of-ars/" element={<SaintJohnVianneyCureOfArs />} />
             {/* SEO Articles Lote 10 */}

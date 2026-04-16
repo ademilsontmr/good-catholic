@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 
 export default function TenCommandmentsCatholic() {
   return (
@@ -23,6 +23,14 @@ export default function TenCommandmentsCatholic() {
         title="The 10 Commandments: Catholic Version Explained"
         description="What are the 10 Commandments in the Catholic Church? Learn the full text, how Catholic numbering differs from Protestant, what each commandment means, and how to live them today."
         url="https://guidecatholic.com/blog/ten-commandments-catholic/"
+        author="Catholic Faith Guide Team"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The 10 Commandments", url: "https://guidecatholic.com/blog/ten-commandments-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

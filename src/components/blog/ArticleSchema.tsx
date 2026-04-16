@@ -4,6 +4,7 @@ interface ArticleSchemaProps {
   url: string;
   datePublished?: string;
   dateModified?: string;
+  author?: string;
   image?: string;
 }
 
@@ -13,6 +14,7 @@ export function ArticleSchema({
   url,
   datePublished = "2026-04-14",
   dateModified = "2026-04-14",
+  author = "Guide Catholic",
   image = "https://guidecatholic.com/favicon.svg",
 }: ArticleSchemaProps) {
   const schema = {
@@ -26,7 +28,7 @@ export function ArticleSchema({
     image,
     author: {
       "@type": "Organization",
-      name: "Guide Catholic",
+      name: author,
       url: "https://guidecatholic.com",
     },
     publisher: {
@@ -42,6 +44,35 @@ export function ArticleSchema({
       "@type": "WebPage",
       "@id": url,
     },
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface BreadcrumbSchemaProps {
+  items: BreadcrumbItem[];
+}
+
+export function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
   };
 
   return (

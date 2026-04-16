@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Cross, Calendar, Clock, ArrowLeft, Shield } from "lucide-react";
+import { Shield, Calendar, Clock, ArrowLeft, Sun, UserCheck, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,16 +13,18 @@ export default function GuardianAngels() {
   return (
     <>
       <Helmet>
-        <title>Guardian Angels: Our Heavenly Companions and Protectors | Guide Catholic</title>
-        <meta name="description" content="Discover the Catholic teaching on guardian angels — who they are, what they do, and how to develop a deeper relationship with your personal heavenly protector." />
-        <meta name="keywords" content="guardian angels, catholic guardian angel, angel of god prayer, feast of guardian angels, heavenly protector, catholic angels" />
-        <link rel="canonical" href="https://guidecatholic.com/blog/guardian-angels/" />
+        <title>Guardian Angels: Your Divine Protectors and the 9 Choirs | Guide Catholic</title>
+        <meta name="description" content="Do you have a Guardian Angel? Discover the Catholic teaching on angels, the nine celestial choirs, and how to build a relationship with your divine protector." />
+        <meta name="keywords" content="guardian angels catholic, nine choirs of angels, hierarchy of angels, guardian angel prayer, angel protector catholic, spiritual warfare angels, Padre Pio angels" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/guardian-angels-guide/" />
+        <meta name="robots" content="index, follow" />
       </Helmet>
-        <ArticleSchema
-          title="Guardian Angels: Our Heavenly Companions and Protectors"
-          description="Discover the Catholic teaching on guardian angels — who they are, what they do, and how to develop a deeper relationship with your personal heavenly protector."
-          url="https://guidecatholic.com/blog/guardian-angels/"
-        />
+      <ArticleSchema
+        title="Guardian Angels: Everything You Need to Know About Your Divine Protector"
+        description="Do you have a Guardian Angel? Discover the Catholic teaching on angels, the nine celestial choirs, and how to build a relationship with your divine protector."
+        url="https://guidecatholic.com/blog/guardian-angels-guide/"
+      />
+
       <div className="min-h-screen bg-background">
         <Navbar />
 
@@ -31,7 +33,7 @@ export default function GuardianAngels() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link>
               <span>/</span>
-              <Link to="/blog/page/1/" className="hover:text-accent">Blog</Link>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
               <span>/</span>
               <span className="text-text">Guardian Angels</span>
             </nav>
@@ -40,133 +42,159 @@ export default function GuardianAngels() {
 
         <article className="py-12">
           <div className="container mx-auto px-4 max-w-4xl">
-            <Link to="/blog/page/1/" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
-              <ArrowLeft className="w-4 h-4" />Back to Blog
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
+              Back to Blog
             </Link>
 
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
-                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Devotions</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />April 12, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />7 min read</span>
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Spiritual Life
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  24 min read
+                </span>
               </div>
+
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Guardian Angels: Our Heavenly Companions and Protectors
+                Guardian Angels: An Expert Analysis of Your Divine Companions
               </h1>
+
               <p className="text-xl text-text-muted leading-relaxed">
-                You are never alone. From the moment of your birth, God has assigned a powerful heavenly spirit to watch over you, guide you, and accompany you on your journey to eternal life.
+                "Angel of God, my guardian dear..." Most of us learned this prayer as children. But as we mature in faith, the reality of the angelic world becomes not a childhood comfort, but a profound theological certainty. This is the manual for understanding the high intelligence, the diverse hierarchies, and the active protection of the spirits God has placed by your side.
               </p>
             </header>
 
-            <div className="aspect-video bg-blue-100 rounded-2xl flex items-center justify-center mb-10">
-              <Shield className="w-24 h-24 text-blue-400" strokeWidth={1.5} />
+            <div className="aspect-video bg-sky-50 rounded-2xl flex items-center justify-center mb-10">
+              <UserCheck className="w-24 h-24 text-sky-400" strokeWidth={1.5} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                The existence of guardian angels is one of the most consoling truths of the Catholic faith. In a world filled with dangers — both visible and invisible — God in His infinite love has not left us defenseless. Each human soul, from the moment of conception, is entrusted to a personal angelic guardian whose mission is to protect, guide, and intercede for that soul until the moment of death.
+                The term "Angel" refers to their office, not their nature. By nature, they are <strong>Pure Spirits</strong>; by office, they are messengers (<em>Angelus</em>). They are the "celestial court" that mediates between the Infinite God and finite humanity.
               </p>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Does the Church Teach About Guardian Angels?</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                The Assigned Protector: Conception to Judgment
+              </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Catechism of the Catholic Church states clearly: "From its beginning until death, human life is surrounded by their watchful care and intercession. Beside each believer stands an angel as protector and shepherd leading him to life" (CCC 336). This is not a pious legend or a children's story — it is a defined teaching of the Church, rooted in Scripture and Tradition.
+                The Catechism of the Catholic Church (CCC 336) provides the anchor for this devotion: <strong>"From its beginning until death, human life is surrounded by their watchful care."</strong> 
               </p>
               <p className="text-text leading-relaxed mb-6">
-                Jesus Himself affirmed the reality of guardian angels when He said: "See that you do not despise one of these little ones, for I say to you that their angels in heaven always look upon the face of my heavenly Father" (Matthew 18:10). This passage reveals two profound truths: every person has an angel, and that angel has direct access to God's presence.
+                Catholic theologians, such as St. Thomas Aquinas, clarify that this guardianship begins at the moment of <strong>conception</strong>. Your angel has been with you through every heartbeat, every joy, and every secret suffering. They have three specific "offices" or roles in your life:
+              </p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-8">
+                <li><strong>Enlightening:</strong> Suggesting holy thoughts and clarifying the truth to your intellect.</li>
+                <li><strong>Protecting:</strong> Shielding you from physical harm and spiritual attacks (wickedness and snares of the devil).</li>
+                <li><strong>Conducting:</strong> Leading you toward the right path and, ultimately, to the presence of God.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                The 9 Choirs: The Celestial Hierarchy
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                Based on Scripture and the writings of Dionysius, the Church recognizes nine "choirs" or gradients of angelic light:
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-10">
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
+                  <h4 className="font-bold text-slate-800 mb-4 border-b pb-2">Top Tier (Adoring God)</h4>
+                  <ul className="space-y-2 text-sm">
+                    <li><strong>Seraphim:</strong> Burning with love; they are the closest to the Throne of God.</li>
+                    <li><strong>Cherubim:</strong> Full of knowledge; they contemplate God's providence.</li>
+                    <li><strong>Thrones:</strong> Representing God's judicial power and stability.</li>
+                  </ul>
+                </div>
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
+                  <h4 className="font-bold text-slate-800 mb-4 border-b pb-2">Middle Tier (Governing the World)</h4>
+                  <ul className="space-y-2 text-sm">
+                    <li><strong>Dominations:</strong> Direct the duties of low-ranking angels.</li>
+                    <li><strong>Virtues:</strong> The "angels of miracles"; they manage the physical laws of nature.</li>
+                    <li><strong>Powers:</strong> The "spiritual police"; they restrict the power of demons.</li>
+                  </ul>
+                </div>
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
+                  <h4 className="font-bold text-slate-800 mb-4 border-b pb-2">Bottom Tier (Serving Humanity)</h4>
+                  <ul className="space-y-2 text-sm">
+                    <li><strong>Principalities:</strong> Watch over nations, provinces, and the Church.</li>
+                    <li><strong>Archangels:</strong> Deliver messages of high importance (e.g., Gabriel at the Annunciation).</li>
+                    <li><strong>Angels:</strong> The most numerous; this is the choir from which our Guardian Angels are usually drawn.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                The Prohibition: Why We Don't Name Our Angels
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                The Church explicitly forbids the practice of "naming" one's guardian angel. The **Directory on Popular Piety and the Liturgy (2001, n. 217)** states: *"The practice of assigning names to the Holy Angels should be discouraged, except in the cases of Gabriel, Raphael, and Michael whose names are contained in Holy Scripture."*
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Theologically, to name something is to exercise <strong>authority</strong> or ownership over it. We do not own our angels; they are God's ministers who exercise a benevolent authority over us. By refraining from naming them, we maintain a humble and respectful relationship with our superior spirit.
               </p>
 
               <QuizCTA
-                title="How strong is your devotion to your Guardian Angel?"
-                description="Take our Catholic life assessment and discover how to deepen your relationship with your heavenly protector."
+                title="How well do you know your protectors?"
+                description="Take our quiz to identify the roles of the 9 choirs and see how you can cooperate more effectively with your Guardian Angel."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Mission of Guardian Angels</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Sparkles className="w-6 h-6 text-accent" />
+                 Padre Pio and the "Angel Express"
+              </h2>
               <p className="text-text leading-relaxed mb-6">
-                St. Thomas Aquinas, the great Doctor of the Church, devoted extensive reflection to the nature and mission of angels. He taught that guardian angels serve us in four principal ways:
-              </p>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Protection from physical harm:</strong> Angels can intervene in the physical world to protect us from accidents, dangers, and evil. The Psalms speak of angels bearing us up "lest we dash our foot against a stone" (Psalm 91:12).</li>
-                <li><strong>Illumination of the intellect:</strong> Angels can inspire good thoughts, clarify our understanding, and help us recognize the right path when we face difficult decisions.</li>
-                <li><strong>Intercession before God:</strong> Our guardian angel presents our prayers and good works before the throne of God. The Book of Revelation shows angels offering the prayers of the saints like incense before God (Revelation 8:3-4).</li>
-                <li><strong>Accompaniment at death:</strong> At the moment of death, our guardian angel accompanies our soul before the judgment seat of God. This is why the Church prays: "May the angels lead you into paradise."</li>
-              </ul>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Guardian Angels in Scripture</h2>
-              <p className="text-text leading-relaxed mb-6">
-                The Bible is filled with accounts of angelic protection and guidance. In the Acts of the Apostles, when Peter was miraculously freed from prison, the early Christians initially thought it was "his angel" who had come to the door (Acts 12:15) — showing that belief in personal guardian angels was common in the early Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                The Book of Tobit presents the archangel Raphael accompanying Tobias on a dangerous journey, protecting him from harm and guiding him to his destiny. This narrative is a beautiful illustration of how God uses angels as instruments of His providential care for His children.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                Psalm 91, one of the most beloved psalms, is entirely dedicated to the protection of God's angels: "For he will command his angels concerning you to guard you in all your ways; they will lift you up in their hands, so that you will not strike your foot against a stone" (Psalm 91:11-12).
+                Few saints had a relationship with angels like <strong>Saint Padre Pio</strong>. He used to tell his spiritual children who lived far away: *"If you are in trouble and cannot come to me, send me your Guardian Angel."* He reported that his own angel would "translate" letters written in languages he didn't know and would often wake him up to pray for specific people in desperate need.
               </p>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Nine Choirs of Angels</h2>
-              <p className="text-text leading-relaxed mb-6">
-                Catholic tradition, drawing on Scripture and the writings of Pseudo-Dionysius the Areopagite, recognizes nine choirs (orders) of angels arranged in three hierarchies:
-              </p>
-              <ul className="list-disc list-inside text-text space-y-2 mb-6">
-                <li><strong>First Hierarchy:</strong> Seraphim, Cherubim, Thrones — closest to God</li>
-                <li><strong>Second Hierarchy:</strong> Dominions, Virtues, Powers — governing the cosmos</li>
-                <li><strong>Third Hierarchy:</strong> Principalities, Archangels, Angels — ministering to humanity</li>
-              </ul>
-              <p className="text-text leading-relaxed mb-6">
-                Guardian angels belong to the lowest choir — simply called "Angels" — but this does not diminish their dignity or power. They are mighty spiritual beings whose entire existence is oriented toward God and the service of the souls entrusted to them.
-              </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Develop Devotion to Your Guardian Angel</h2>
-              <p className="text-text leading-relaxed mb-6">
-                Many Catholics neglect their guardian angel, treating this devotion as something for children. But the saints — including St. Padre Pio, St. Francis de Sales, and St. John Bosco — had profound, adult relationships with their guardian angels. Here are practical ways to cultivate this devotion:
-              </p>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Pray the Guardian Angel Prayer daily:</strong> "Angel of God, my guardian dear, to whom God's love commits me here, ever this day be at my side, to light and guard, to rule and guide. Amen." Pray it morning and evening.</li>
-                <li><strong>Consult your angel before important decisions:</strong> Ask your guardian angel to enlighten your mind and protect you from deception.</li>
-                <li><strong>Send your angel on missions:</strong> St. John Bosco would send his guardian angel to prepare the hearts of people he was about to meet. You can do the same.</li>
-                <li><strong>Thank your angel:</strong> At the end of each day, thank your guardian angel for the protections and inspirations you may not even have noticed.</li>
-                <li><strong>Observe the Feast of the Guardian Angels:</strong> October 2nd is the liturgical feast. Attend Mass and make it a day of special gratitude.</li>
-              </ul>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">St. Padre Pio and His Guardian Angel</h2>
-              <p className="text-text leading-relaxed mb-6">
-                Perhaps no modern saint had a more vivid relationship with his guardian angel than St. Padre Pio of Pietrelcina. He spoke of his guardian angel as a constant companion and friend. He would send his angel to deliver messages to people far away, and he claimed to recognize when someone's guardian angel was present.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                Padre Pio once wrote: "How consoling it is to know that near us there is a spirit who, from the cradle to the tomb, does not leave us for an instant, not even when we dare to sin." He encouraged his spiritual children to cultivate a tender, personal relationship with their guardian angel, treating him as a true friend and companion.
-              </p>
-
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
-                <p className="text-text italic text-center">
-                  "How consoling it is to know that near us there is a spirit who, from the cradle to the tomb, does not leave us for an instant."
-                </p>
-                <p className="text-text-muted text-center mt-2">— St. Padre Pio</p>
-              </div>
-
-              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
-                <p className="text-text italic text-center">
-                  "Make yourself familiar with the angels, and behold them frequently in spirit; for without being seen, they are present with you."
-                </p>
-                <p className="text-text-muted text-center mt-2">— St. Francis de Sales</p>
+              <div className="bg-sky-50 border border-sky-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-4 text-center">Summary of Angelic Laws</h3>
+                <ul className="list-disc list-inside text-text text-sm space-y-2">
+                  <li><strong>Angels are not ghosts:</strong> They never lived as humans. They were created directly by God.</li>
+                  <li><strong>Perfect Memory:</strong> An angel never forgets a single detail of your life.</li>
+                  <li><strong>Instant Communication:</strong> Angels communicate with each other "through the will," meaning the transfer of information is instantaneous across all distances.</li>
+                </ul>
               </div>
             </div>
 
-            <RelatedArticles currentSlug="guardian-angels" />
+            <RelatedArticles currentSlug="guardian-angels-guide" />
 
             <BlogFAQ faqs={[
-              { question: "Does everyone have a guardian angel?", answer: "Yes. The Church teaches that every human being has a guardian angel assigned by God from birth. Jesus said: 'See that you do not despise one of these little ones, for I say to you that their angels in heaven always look upon the face of my heavenly Father' (Matthew 18:10)." },
-              { question: "What do guardian angels do?", answer: "Guardian angels protect us from physical and spiritual harm, inspire good thoughts, present our prayers to God, and accompany us at the moment of death. St. Thomas Aquinas taught that angels can influence our imagination and senses to guide us toward good." },
-              { question: "Can I communicate with my guardian angel?", answer: "Yes, through prayer. The traditional Guardian Angel Prayer ('Angel of God, my guardian dear...') is a beautiful way to invoke your angel's protection. You can also simply speak to your angel in your own words, asking for guidance, protection, and intercession." },
-              { question: "When is the Feast of the Guardian Angels?", answer: "The Feast of the Guardian Angels is celebrated on October 2nd. The Feast of the Archangels Michael, Gabriel, and Raphael is September 29th (Michaelmas). October is traditionally a month of special devotion to the angels." },
-              { question: "Are guardian angels the same as the archangels Michael, Gabriel, and Raphael?", answer: "No. Michael, Gabriel, and Raphael are archangels — a higher order of angels with specific missions in salvation history. Guardian angels are personal angels assigned to each human being. The Church recognizes nine choirs of angels in the heavenly hierarchy." }
+              {
+                question: "Do our angels leave us when we sin?",
+                answer: "No. While they are saddened by our sins, they never abandon their post. However, when we are in a state of mortal sin, we are 'deaf' to their promptings, making it much harder for them to protect and guide us."
+              },
+              {
+                question: "Can an angel take physical control of my body?",
+                answer: "No. Unlike demons (who can attempt possession), holy angels respect human dignity and free will. They will never 'override' your motor functions, though they can physically push or move you to save you from an immediate danger (like a car accident)."
+              },
+              {
+                question: "Do nations have guardian angels?",
+                answer: "Catholic tradition and the visions of Fatima suggest that countries and territories have 'Principalities' assigned to them. At Fatima, the 'Angel of Portugal' (or Angel of Peace) appeared to the children before the Virgin Mary did."
+              }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">Discover How Your Faith Life Is</h3>
-              <p className="text-text-muted mb-6">Take our quiz and receive a personalized assessment of your Catholic journey.</p>
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Walk in Good Company
+              </h3>
+              <p className="text-text-muted mb-6">
+                The invisible world is more real than the one we see. Take our quiz to deepen your Catholic worldview.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Take the Faith Quiz
+                </Button>
+              </Link>
             </div>
           </div>
         </article>
+
         <Footer />
       </div>
     </>

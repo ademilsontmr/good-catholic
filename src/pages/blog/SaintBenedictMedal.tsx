@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 
 export default function SaintBenedictMedal() {
   return (
@@ -23,6 +23,14 @@ export default function SaintBenedictMedal() {
         title="The Saint Benedict Medal: History, Meaning, and How to Use It"
         description="Everything about the Saint Benedict Medal: its history, what every symbol means, the Vade Retro prayer, how to have it blessed, and how Catholics use it for spiritual protection."
         url="https://guidecatholic.com/blog/saint-benedict-medal/"
+        author="Catholic Faith Guide Team"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Saint Benedict Medal", url: "https://guidecatholic.com/blog/saint-benedict-medal/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 
 export default function AshWednesdayGuide() {
   return (
@@ -23,6 +23,14 @@ export default function AshWednesdayGuide() {
         title="Ash Wednesday: Meaning, Fasting Rules, and Catholic Guide"
         description="What is Ash Wednesday? Learn the Catholic fasting and abstinence rules, the meaning of ashes, if it's a Holy Day of Obligation, and how to start Lent."
         url="https://guidecatholic.com/blog/ash-wednesday-guide/"
+        author="Catholic Faith Guide Team"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Ash Wednesday", url: "https://guidecatholic.com/blog/ash-wednesday-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">
