@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Cross, Calendar, Clock, ArrowLeft, Church } from "lucide-react";
+import { Cross, Calendar, Clock, ArrowLeft, Church, Sparkles, Heart, Activity } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,21 +13,22 @@ export default function EucharistRealPresence() {
     return (
         <>
             <Helmet>
-                <title>The Eucharist: Real Presence of Jesus in Bread and Wine | Guide Catholic</title>
-                <meta name="description" content="Understand the dogma of Transubstantiation and the importance of the Eucharist as source and summit of Christian life. Discover why Jesus is truly present in the Holy Host." />
-                <meta name="keywords" content="real presence of jesus in eucharist, what is transubstantiation, body and blood of christ, host is jesus, blessed sacrament, catholic communion" />
+                <title>The Eucharist: Real Presence, Transubstantiation & Science | Guide Catholic</title>
+                <meta name="description" content="Is Jesus really in the bread? Explore the dogma of Transubstantiation, the John 6 discourse, and scientific findings of Eucharistic miracles." />
+                <meta name="keywords" content="real presence of jesus in eucharist, what is transubstantiation, body and blood of christ, host is jesus, blessed sacrament, eucharistic miracles science, Lanciano miracle" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/eucharist-real-presence/" />
+                <meta name="robots" content="index, follow" />
             </Helmet>
-        <ArticleSchema
-          title="The Eucharist: Real Presence of Jesus in Bread and Wine"
-          description="Understand the dogma of Transubstantiation and the importance of the Eucharist as source and summit of Christian life. Discover why Jesus is truly present in the Holy Host."
-          url="https://guidecatholic.com/blog/eucharist-real-presence/"
-        />
+            <ArticleSchema
+                title="The Eucharist: Real Presence, Transubstantiation & Scientific Evidence"
+                description="Is Jesus really in the bread? Explore the dogma of Transubstantiation, the John 6 discourse, and scientific findings of Eucharistic miracles."
+                url="https://guidecatholic.com/blog/eucharist-real-presence/"
+            />
 
             <div className="min-h-screen bg-background">
                 <Navbar />
 
-        <div className="bg-background-muted/50 py-3 mt-16">
+                <div className="bg-background-muted/50 py-3 mt-16">
                     <div className="container mx-auto px-4">
                         <nav className="flex items-center gap-2 text-sm text-text-muted">
                             <Link to="/" className="hover:text-accent">Home</Link>
@@ -48,120 +49,116 @@ export default function EucharistRealPresence() {
                         <header className="mb-8">
                             <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Sacraments</span>
-                                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />December 29, 2024</span>
-                                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />10 min read</span>
+                                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />April 16, 2026</span>
+                                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />28 min read</span>
                             </div>
 
                             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                                The Eucharist: Real Presence of Jesus in Bread and Wine
+                                The Eucharist: A Masterclass on the Real Presence and Transubstantiation
                             </h1>
 
                             <p className="text-xl text-text-muted leading-relaxed">
-                                "This is my body." The Eucharist is not a symbol, but the living and substantial presence of Jesus Christ. Understand the mystery that has sustained the Church for two millennia.
+                                "This is my body." These four words are the architectural foundation of the Catholic faith. The Eucharist is not a symbol, a metaphor, or a memory—it is the living, substantial, and physical presence of God among us. This is the manual for understanding the Church's "Source and Summit."
                             </p>
                         </header>
 
-                        <div className="aspect-video bg-violet-100 rounded-2xl flex items-center justify-center mb-10">
-                            <Church className="w-24 h-24 text-violet-400" strokeWidth={1.5} />
+                        <div className="aspect-video bg-violet-50 rounded-2xl flex items-center justify-center mb-10 relative overflow-hidden">
+                            <Sparkles className="w-24 h-24 text-violet-400/30 absolute top-4 right-4" />
+                            <Church className="w-32 h-32 text-violet-400 relative z-10" strokeWidth={1} />
                         </div>
 
                         <div className="prose prose-lg max-w-none">
                             <p className="text-text leading-relaxed mb-6">
-                                The Eucharist is the beating heart of the Catholic Church, the "sun" around which all Christian life revolves. While in other sacraments we receive God's grace, in the Eucharist we receive the Author of grace Himself – Jesus Christ in Person, with His Body, Blood, Soul, and Divinity. It is the mystery of faith par excellence, so sublime that angels prostrate themselves in adoration before the altar.
+                                The Catholic Church holds a conviction that is "foolishness to the Gentiles and a stumbling block to Jews": that a piece of unleavened bread and a cup of wine truly become the <strong>Body, Blood, Soul, and Divinity</strong> of Jesus Christ. This isn't just a pious belief; it is a dogmatic certainty defined by the <strong>Council of Trent (1551)</strong>.
+                            </p>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                                1. Transubstantiation: Substance vs. Accidents
+                            </h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                To explain the miracle of the altar, the Church uses the philosophical framework of St. Thomas Aquinas. Every object has two parts:
+                            </p>
+                            <ul className="list-disc list-inside text-text space-y-3 mb-8">
+                                <li><strong>Accidents:</strong> The outward properties—color, taste, smell, texture, weight. (These remain "bread and wine" to our senses).</li>
+                                <li><strong>Substance:</strong> The deep reality of what a thing *is*. (This is what changes entirely).</li>
+                            </ul>
+                            <p className="text-text leading-relaxed mb-6">
+                                In <strong>Transubstantiation</strong>, the *substance* of bread is annihilated and replaced by the *substance* of Christ. Because the accidents remain, it does not taste like flesh, allowing us to receive our Lord in a way that is "unbloody" and "sacramental" rather than cannibalistic.
+                            </p>
+
+                            <div className="bg-violet-50 border border-violet-200 rounded-xl p-8 mb-10">
+                                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                                    <Activity className="w-6 h-6 text-violet-600" />
+                                    When Science Meets the Altar: Lanciano and Beyond
+                                </h3>
+                                <p className="text-text mb-4 text-sm">
+                                    Throughout history, God has allowed the "accidents" to change into "substance" to confirm our faith. These are called <strong>Eucharistic Miracles</strong>.
+                                </p>
+                                <ul className="list-disc list-inside text-text space-y-3 text-sm">
+                                    <li><strong>The Lanciano Miracle (8th Century):</strong> Analyzed in 1970 by Dr. Odoardo Linoli (WHO consultant). The results: The Host is 100% human <strong>cardiac muscle tissue</strong> (the myocardium). The Blood is type <strong>AB</strong>. </li>
+                                    <li><strong>Sokółka, Poland (2008):</strong> Pathologists from the Medical University of Białystok found that the "clot" on the host was human heart tissue *intertwined* with the bread fibers—a biological impossibility for a hoax.</li>
+                                    <li><strong>The common denominator:</strong> In all analyzed miracles (Lanciano, Buenos Aires, Tixtla), the tissue always shows signs of <strong>"stress" or "agony"</strong>—as if the heart were currently undergoing trauma.</li>
+                                </ul>
+                            </div>
+
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                                2. The Bread of Life Discourse (John 6)
+                            </h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                Critics claim Jesus was speaking metaphorically. However, the Greek text of John 6 argues otherwise. When the Jews questioned Him, Jesus switched from the common word for "eating" (<em>phagein</em>) to <strong>trogein</strong>, which literally means "to gnaw" or "to chew." 
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                He was making His point as physical as possible. When 70 of His disciples left because "this is a hard saying," Jesus didn't call them back to explain it was "just a symbol." He let them go. He would rather lose His followers than compromise the reality of the Bread of Life.
                             </p>
 
                             <QuizCTA
-                                title="Do you believe in the Real Presence?"
-                                description="The Eucharist is the heart of our faith. Take our quiz and discover how to deepen your adoration and love for Jesus in the Sacrament, living the mystery of Transubstantiation with more faith."
+                                title="How is your interior silence?"
+                                description="The Eucharist invites us to a mystery beyond words. Take our quiz to see if you are truly prepared to receive the King of Kings."
                             />
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What is Transubstantiation?</h2>
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                                <Heart className="w-6 h-6 text-accent" />
+                                Adoration: The "Tabor" of the Parish
+                            </h2>
                             <p className="text-text leading-relaxed mb-6">
-                                This theological term, defined by the Council of Trent, explains the miracle that occurs at every Mass: the change of the entire substance of bread into the substance of Christ's Body and the entire substance of wine into the substance of His Blood. The "appearances" or "accidents" (taste, color, smell, form) remain the same, but the deep reality – the substance – has changed completely.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
-                                The Catechism of the Catholic Church states: "The Council of Trent summarizes the Catholic faith by declaring: 'Because Christ our Redeemer said that it was truly his body that he was offering under the species of bread, it has always been the conviction of the Church of God, and this holy Council now declares again, that by the consecration of the bread and wine there takes place a change of the whole substance of the bread into the substance of the body of Christ our Lord and of the whole substance of the wine into the substance of his blood'" (CCC 1376).
-                            </p>
-
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Foundation of the Real Presence</h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                The Real Presence is not a medieval invention — it is rooted in the explicit words of Jesus Himself:
-                            </p>
-                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                                <li><strong>John 6:51-58 (The Bread of Life Discourse):</strong> "I am the living bread that came down from heaven... Whoever eats my flesh and drinks my blood has eternal life." When many disciples left because of this teaching, Jesus did not soften His words — He let them go.</li>
-                                <li><strong>Matthew 26:26-28 (The Last Supper):</strong> "This IS my body... This IS my blood." Jesus used the present tense, not "this represents" or "this symbolizes."</li>
-                                <li><strong>1 Corinthians 11:27-29:</strong> St. Paul warns that eating the Eucharist unworthily is "sinning against the Body and Blood of the Lord" — language that makes no sense if the Eucharist were merely symbolic.</li>
-                            </ul>
-
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Eucharistic Miracles</h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                Throughout history, the Church has documented numerous Eucharistic miracles — extraordinary events in which the Real Presence became visible to human senses. The most famous is the Miracle of Lanciano (8th century, Italy), where the consecrated Host transformed into visible flesh and the wine into visible blood. Scientific analysis in 1970 confirmed that the flesh is human cardiac muscle tissue and the blood is type AB — the same blood type found on the Shroud of Turin.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
-                                Blessed Carlo Acutis, the young Italian who died in 2006 and was beatified in 2020, created a website cataloguing Eucharistic miracles from around the world. He said: "The Eucharist is my highway to Heaven."
+                                Because the Presence is substantial, it does not end when the Mass ends. It continues as long as the "accidents" of bread remain. This is why we have <strong>Eucharistic Adoration</strong>. The Monstrance (from the Latin <em>monstrare</em> - to show) allows us to gaze at the same Jesus who walked the shores of Galilee. It is the most powerful "radiography" for the soul.
                             </p>
 
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Receive Communion Worthily</h2>
-                            <p className="text-text leading-relaxed mb-6">
-                                Because the Eucharist is truly Jesus Christ, the Church requires that Catholics receive Communion with proper dispositions:
-                            </p>
-                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                                <li><strong>State of grace:</strong> You must not be conscious of any unconfessed mortal sin. If you are, go to Confession before receiving Communion.</li>
-                                <li><strong>Eucharistic fast:</strong> Abstain from food and drink (except water and medicine) for one hour before receiving Communion.</li>
-                                <li><strong>Catholic faith:</strong> You must believe in the Real Presence. Non-Catholics generally should not receive Catholic Communion.</li>
-                                <li><strong>Right intention:</strong> Receive Communion to unite yourself with Christ, not out of habit or social pressure.</li>
-                            </ul>
-
-                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Effects of Holy Communion</h2>
-                            <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                                <li><strong>Intimate union with Christ:</strong> Communion incorporates us into Jesus in a real way — "He who eats my flesh and drinks my blood abides in me, and I in him" (John 6:56)</li>
-                                <li><strong>Increase of Sanctifying Grace:</strong> The Eucharist strengthens and increases divine life in the soul</li>
-                                <li><strong>Remission of Venial Sins:</strong> The fire of Christ's love purifies our light faults</li>
-                                <li><strong>Preservation against Mortal Sins:</strong> Frequent Communion gives us strength to resist grave temptations</li>
-                                <li><strong>Pledge of eternal life:</strong> "Whoever eats my flesh and drinks my blood has eternal life, and I will raise him up at the last day" (John 6:54)</li>
-                            </ul>
-
-                            <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
-                                <p className="text-text italic text-center">"The Eucharist is the shortest path to Heaven."</p>
-                                <p className="text-text-muted text-center mt-2">— Saint Pius X</p>
-                            </div>
-
-                            <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
-                                <p className="text-text italic text-center">"It would be easier for the world to survive without the sun than to do without Holy Mass."</p>
-                                <p className="text-text-muted text-center mt-2">— Saint Padre Pio</p>
+                            <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                                <p className="text-text italic text-center leading-relaxed font-semibold">
+                                    "When you look at the Crucifix, you see how much Jesus loved you then. When you look at the Sacred Host, you see how much Jesus loves you now." — St. Teresa of Calcutta
+                                </p>
                             </div>
                         </div>
 
                         <RelatedArticles currentSlug="eucharist-real-presence" />
 
                         <BlogFAQ faqs={[
-                          {
-                            question: "What is the Real Presence of Christ in the Eucharist?",
-                            answer: "The Real Presence means that Jesus Christ is truly, really, and substantially present — Body, Blood, Soul, and Divinity — under the appearances of bread and wine after the Consecration at Mass. This is not symbolic; it is a literal transformation called transubstantiation."
-                          },
-                          {
-                            question: "What is transubstantiation?",
-                            answer: "Transubstantiation is the term the Church uses to describe how the bread and wine become the Body and Blood of Christ at the Consecration. The outward appearances (accidents) remain the same, but the substance is entirely changed into Christ's Body and Blood."
-                          },
-                          {
-                            question: "How long is Jesus present in the Eucharist after Mass?",
-                            answer: "Jesus remains truly present in the consecrated hosts reserved in the tabernacle for as long as the appearances of bread remain. This is why Catholics genuflect before the tabernacle and why Eucharistic Adoration is possible outside of Mass."
-                          },
-                          {
-                            question: "What does the Bible say about the Real Presence?",
-                            answer: "Jesus said clearly: 'My flesh is real food and my blood is real drink' (John 6:55). At the Last Supper He said: 'This IS my body' (Matthew 26:26). St. Paul warns that eating unworthily is 'sinning against the Body and Blood of the Lord' (1 Corinthians 11:27)."
-                          },
-                          {
-                            question: "Why do some Christians not believe in the Real Presence?",
-                            answer: "Most Protestant denominations interpret Jesus's words symbolically, a view that emerged during the Reformation in the 16th century. Catholics, Eastern Orthodox, and some Lutherans maintain the ancient Christian belief in the Real Presence, which was universal in the early Church."
-                          }
+                            {
+                                question: "Is it cannibalism to receive Communion?",
+                                answer: "No. Cannibalism involves eating a dead body in its natural form. In the Eucharist, we receive the *living* and *risen* Christ under a 'sacramental mode of existence.' We are not cutting His flesh; we are receiving His entire person through a miracle of substance change."
+                            },
+                            {
+                                question: "What if a piece of the host falls on the floor?",
+                                answer: "Because every crumb is the entire Jesus Christ, Catholics treat the Eucharist with extreme reverence. If a host falls, it must be consumed or dissolved in water and poured into the sacrarium (a special sink that goes directly to the earth)."
+                            },
+                            {
+                                question: "Why can't non-Catholics receive Communion?",
+                                answer: "Receiving Communion is the ultimate sign of 'Communion'—meaning you share the same faith, the same laws, and the same Pope. To receive without believing in the Real Presence would be a 'lie' told with the body (cf. 1 Cor 11:27-29)."
+                            }
                         ]} />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-                            <h3 className="font-display text-2xl font-bold text-text mb-4">Do you value the Bread of Life?</h3>
-                            <p className="text-text-muted mb-6">Take our quiz and discover how your sacramental life and love for the Eucharist, the center of Christian life, are going.</p>
-                            <Link to="/quiz">
-                                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button>
+                            <h3 className="font-display text-2xl font-bold text-text mb-4">
+                                Enter the Mystery
+                            </h3>
+                            <p className="text-text-muted mb-6">
+                                Your relationship with the Eucharist is the thermometer of your faith. Take our quiz to deepen your sacramental journey.
+                            </p>
+                            <Link to="/quiz-intro">
+                                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                                    Take the Faith Quiz
+                                </Button>
                             </Link>
                         </div>
                     </div>

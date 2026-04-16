@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { HelpCircle, Calendar, Clock, ArrowLeft, Heart, Sun } from "lucide-react";
+import { HelpCircle, Calendar, Clock, ArrowLeft, Heart, Sun, Activity, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,9 +13,9 @@ export default function TheProblemOfSuffering() {
   return (
     <>
       <Helmet>
-        <title>Why Does God Allow Suffering? A Catholic Perspective | Guide Catholic</title>
-        <meta name="description" content="Discover the Catholic teaching on the problem of evil and suffering. Learn about free will, the value of redemptive suffering, and where God is in the midst of our pain." />
-        <meta name="keywords" content="why does god allow suffering, catholic view on suffering, redemptive suffering, problem of evil catholic, why do bad things happen to good people" />
+        <title>Why Does God Allow Suffering? A Catholic Masterclass | Guide Catholic</title>
+        <meta name="description" content="Explore the Catholic response to the problem of evil. Learn about redemptive suffering, Salvifici Doloris, and how God brings good from pain." />
+        <meta name="keywords" content="why does god allow suffering, catholic view on suffering, redemptive suffering, Salvifici Doloris, problem of evil catholic, why do bad things happen to good people" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-does-god-allow-suffering/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
@@ -58,89 +58,82 @@ export default function TheProblemOfSuffering() {
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  15 min read
+                  26 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Why Does God Allow Suffering? Exploring the Catholic Perspective
+                Why Does God Allow Suffering? The Theology of the Cross
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                If God is all-good and all-powerful, why do innocent children get sick? Why do natural disasters happen? Why is there so much pain in the world? This "problem of evil" is the greatest challenge to any faith. For the Catholic, the answer isn't a formula—it's a Person.
+                "My God, my God, why have you forsaken me?" Even Jesus asked the question. The "Problem of Evil" is the most powerful argument against God's existence, yet for the Catholic, it is precisely in the depths of suffering that the most profound meaning of life is found.
               </p>
             </header>
 
-            <div className="aspect-video bg-amber-50 rounded-2xl flex items-center justify-center mb-10">
-              <HelpCircle className="w-24 h-24 text-amber-400" strokeWidth={1.5} />
+            <div className="aspect-video bg-amber-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+               <Activity className="w-24 h-24 text-amber-400/20 absolute -bottom-4 -right-4" />
+               <HelpCircle className="w-32 h-32 text-amber-400 relative z-10" strokeWidth={1} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                Philosophers call this <em>Theodicy</em>—the attempt to justify God's goodness in the face of evil. While we may never fully understand the "Why" this side of heaven, Catholic theology provides several key pillars that give meaning to our pain.
+                Philosophers call this the <strong>Epicurean Paradox</strong>: If God is willing to prevent evil but not able, He is not all-powerful. If He is able but not willing, He is not all-good. The Catholic response is not a logical equation, but a historical event: <strong>The Crucifixion</strong>.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                1. The Gift and Risk of Free Will
+                1. Moral Evil vs. Physical Evil
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                Much of the suffering in the world is "moral evil"—it comes from the choices of human beings. God created us for love, but <strong>love cannot be forced</strong>; it must be free.
+                The Church distinguishes between two types of evil:
               </p>
-              <p className="text-text leading-relaxed mb-6">
-                To give us the capacity for real love, God had to give us the capacity to choose against Him. Suffering is the tragic result of a world where people can choose to be selfish, cruel, or indifferent. God does not cause this evil, but He "permits" it because He values our freedom.
-              </p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-8">
+                <li><strong>Moral Evil:</strong> Crimes, wars, and betrayals. These are the direct result of <strong>Free Will</strong>. God respects our freedom so much that He allows us to choose even what He hates, because a world without the possibility of hate is a world without the possibility of real love.</li>
+                <li><strong>Physical Evil:</strong> Diseases, natural disasters, and death. These exist because we live in a "fallen" world—a world in labor (Romans 8:22) that is still moving toward its final perfection.</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                2. A World in Transit
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                What about "natural evil"—illness, earthquakes, and death? The Church teaches that we do not live in the world as it was originally intended. Through the "Original Sin" of our first parents, the harmony of creation was broken. 
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                This world is not our final destination; it is a "valley of tears" (as the <em>Salve Regina</em> says) that is being redeemed. Suffering is a reminder that we were made for something more—for an eternal life where "every tear will be wiped away."
-              </p>
-
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mb-8 text-center">
-                <h3 className="font-bold text-text mb-2">"God would never permit any evil if He could not also cause a greater good to emerge from it."</h3>
-                <p className="text-text-muted">— St. Augustine</p>
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Heart className="w-6 h-6 text-red-600" />
+                  Salvifici Doloris: The Gospel of Suffering
+                </h3>
+                <p className="text-text mb-4 text-sm">
+                  In 1984, <strong>Saint John Paul II</strong> wrote a definitive apostolic letter on suffering. He argued that:
+                </p>
+                <ul className="list-disc list-inside text-text space-y-3 text-sm font-medium">
+                  <li>Suffering is a "call" to the soul. It forces us to ask the big questions.</li>
+                  <li><strong>Redemptive Value:</strong> By suffering, we actually *participate* in the redemption of the world.</li>
+                  <li><strong>Colossians 1:24:</strong> St. Paul says, "I complete what is lacking in Christ's afflictions." Does Christ's sacrifice lack anything? No. But He invites *us* to be part of the work.</li>
+                </ul>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                3. Redemptive Suffering: The Power of the Cross
+                2. The "Greatest Good" Argument
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                This is the most uniquely Catholic answer to the problem. We do not have a God who stands far off from our pain. We have a God who became a man and <strong>suffered alongside us</strong>.
+                Saint Thomas Aquinas taught that God would <em>never</em> permit an evil unless He could bring a greater good out of it. 
               </p>
               <p className="text-text leading-relaxed mb-6">
-                By dying on the Cross, Jesus transformed suffering from a dead end into a <strong>bridge</strong>. When we "offer up" our pain, we unite it to Christ's sacrifice. This means that even the most lonely, hidden suffering can be used by God for the salvation of souls. No pain is ever "wasted" in the economy of grace.
+                The prime example is <strong>Good Friday</strong>. The greatest evil in history—the judicial murder of the Son of God—was used by God to accomplish the greatest good: the salvation of every human soul. From the tragedy of the Cross came the glory of the Resurrection.
               </p>
 
               <QuizCTA
-                title="Are you looking for meaning in a difficult season?"
-                description="Take our quiz to reflect on your journey and discover how the Catholic faith provides hope even in the darkest times."
+                title="Is your heart heavy today?"
+                description="Take our quiz to analyze how you handle spiritual trials and receive a personalized guide to finding peace in the middle of the storm."
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
-                <Sun className="w-6 h-6 text-accent" />
-                Where is God when it hurts?
+                 <Sparkles className="w-6 h-6 text-accent" />
+                 Victim Souls and "Offering Up"
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                St. Ignatius of Loyola suggests that God is often closest to us when we feel Him least. He is the one giving us the strength to endure, the one prompting others to show us mercy, and the one waiting to hold us at the end of the journey.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                The Resurrection of Jesus is the ultimate answer to the problem of suffering. It proves that <strong>Evil does not have the last word.</strong> Death is defeated, and every wound can be glorified.
+                In Catholic tradition, some are called to be "Victim Souls"—people who accept their chronic pain or tragedy as a specific mission for the Church. When a Catholic says <strong>"Offer it up,"</strong> they aren't being dismissive. They are saying: "Don't let this pain go to waste. Use it as currency for the salvation of your children, your friends, or the poor souls in Purgatory."
               </p>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
-                <h3 className="font-bold text-text mb-3 flex items-center gap-2">
-                   <Heart className="w-5 h-5 text-red-500" />
-                   Practical Steps for When You Suffer:
-                </h3>
-                <ul className="list-disc list-inside text-text space-y-2">
-                  <li><strong>Be Honest with God:</strong> Look at the Psalms. David cried out, complained, and even asked "Why?". God can handle your anger and your grief.</li>
-                  <li><strong>Look at the Crucifix:</strong> Remind yourself that your God is a "Man of Sorrows" who knows exactly how you feel.</li>
-                  <li><strong>Seek Community:</strong> We are the Body of Christ. We are meant to carry each other's burdens.</li>
-                </ul>
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Apart from the Cross, there is no other ladder by which we may get to heaven." — St. Rose of Lima
+                </p>
               </div>
             </div>
 
@@ -148,25 +141,25 @@ export default function TheProblemOfSuffering() {
 
             <BlogFAQ faqs={[
               {
-                question: "If God is all-powerful, why doesn't He just stop the pain?",
-                answer: "God respects our free will and the laws of the physical world He created. If He stopped every bad thing from happening, we would no longer be free agents, and our world would not be a place of growth and trial. He chooses to bring a greater good *out* of the evil rather than simply preventing it."
+                question: "If God can do anything, why doesn't He heal everyone?",
+                answer: "God often heals through miracles, but He knows that sometimes a physical trial leads to a greater spiritual healing. The goal of this life is not to stay healthy forever (since we all die anyway), but to prepare the soul for eternity."
               },
               {
-                question: "What does 'offering it up' actually mean?",
-                answer: "It is a deliberate act of the will. You say, 'Lord, I don't like this pain, but I give it to You. Use it to help someone else, to bring a sinner home, or to help a soul in Purgatory.' It gives your suffering a purpose and a mission."
+                question: "Is suffering a punishment for my previous sins?",
+                answer: "Not necessarily. Jesus specifically addressed this in the case of the blind man (John 9:3), saying it wasn't his sin or his parents' sin. Suffering is often a trial of love rather than a punishment for debt."
               },
               {
-                question: "Does God punish us with illness?",
-                answer: "Generally, no. Jesus explicitly refuted the idea that illness was always a direct punishment for sin (John 9:3). While our actions have consequences, God is a Father who wants our healing, even if He allows us to go through a trial for our spiritual growth."
+                question: "How can I help someone who is suffering without sounding insensitive?",
+                answer: "Often, the best response is the 'Ministry of Presence.' Job's friends were helpful until they started talking. Just be there. Mourn with them. And pray *for* them silently, respecting the mystery of their cross."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                There is Light Beyond the Cross
+                Walk Toward the Light
               </h3>
               <p className="text-text-muted mb-6">
-                You were never meant to walk this path alone. Take our quiz to find hope and encouragement today.
+                God is in the tears as much as in the laughter. Take our quiz to deepen your relationship with the Man of Sorrows.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
