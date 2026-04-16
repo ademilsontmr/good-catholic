@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -20,6 +20,42 @@ interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1016,
+    slug: "three-days-of-darkness-prophecy",
+    title: "The Three Days of Darkness: Catholic Prophecy Explained",
+    excerpt: "What is the Three Days of Darkness? Explore the private revelations of recognized mystics, the conditions, and how to prepare spiritually.",
+    date: "2026-04-16",
+    readTime: "16 min",
+    category: "Prophecy & Mysticism",
+    icon: Moon,
+    bgColor: "bg-neutral-900",
+    iconColor: "text-neutral-400"
+  },
+  {
+    id: 1017,
+    slug: "incorruptible-saints-miracle",
+    title: "Incorruptible Saints: The Miraculous Victory Over Death",
+    excerpt: "Discover the miracle of Catholic saints whose bodies have not decomposed for centuries. Learn about the scientific studies and the theological meaning.",
+    date: "2026-04-16",
+    readTime: "13 min",
+    category: "Saints & Miracles",
+    icon: Sparkles,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 1018,
+    slug: "miraculous-medal-guide",
+    title: "The Miraculous Medal: Every Symbol Decoded and Why it Matters",
+    excerpt: "Discover the complete history of the Miraculous Medal, its symbols, the apparitions to St. Catherine Labouré, and why millions wear it today.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Devotions & Sacramentals",
+    icon: Star,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-400"
+  },
   {
     id: 1013,
     slug: "eucharistic-miracles-science",

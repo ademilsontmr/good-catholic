@@ -119,6 +119,10 @@ import WhatIsTheNiceneCreed from "./pages/blog/WhatIsTheNiceneCreed";
 import EucharisticMiraclesScience from "./pages/blog/EucharisticMiraclesScience";
 import CatholicViewOnGhosts from "./pages/blog/CatholicViewOnGhosts";
 import SaintPeregrineNovena from "./pages/blog/SaintPeregrineNovena";
+// SEO Articles Lote 6
+import ThreeDaysOfDarkness from "./pages/blog/ThreeDaysOfDarkness";
+import IncorruptibleSaints from "./pages/blog/IncorruptibleSaints";
+import MiraculousMedalGuide from "./pages/blog/MiraculousMedalGuide";
 
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -248,6 +252,10 @@ const App = () => (
             <Route path="/blog/eucharistic-miracles-science/" element={<EucharisticMiraclesScience />} />
             <Route path="/blog/catholic-view-on-ghosts/" element={<CatholicViewOnGhosts />} />
             <Route path="/blog/saint-peregrine-novena/" element={<SaintPeregrineNovena />} />
+            {/* SEO Articles Lote 6 */}
+            <Route path="/blog/three-days-of-darkness-prophecy/" element={<ThreeDaysOfDarkness />} />
+            <Route path="/blog/incorruptible-saints-miracle/" element={<IncorruptibleSaints />} />
+            <Route path="/blog/miraculous-medal-guide/" element={<MiraculousMedalGuide />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
