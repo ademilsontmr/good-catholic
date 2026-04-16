@@ -21,6 +21,42 @@ interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1028,
+    slug: "brown-scapular-guide",
+    title: "The Brown Scapular: A Complete Guide to the Garment of Grace",
+    excerpt: "What is the Brown Scapular? Learn about the apparition to St. Simon Stock, the Sabbatine Privilege, and the requirements to wear this sacramental.",
+    date: "2026-04-16",
+    readTime: "15 min",
+    category: "Devotions",
+    icon: Shield,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-900"
+  },
+  {
+    id: 1029,
+    slug: "st-michael-lent-guide",
+    title: "Saint Michael's Lent: A 40-Day Spiritual Journey for Protection",
+    excerpt: "Discover the origins of St. Michael's Lent, why St. Francis of Assisi loved this devotion, and how to pray it for spiritual victory.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Spiritual Warfare",
+    icon: Sword,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-400"
+  },
+  {
+    id: 1030,
+    slug: "sacred-heart-promises",
+    title: "The 12 Promises of the Sacred Heart of Jesus",
+    excerpt: "Discover the 12 promises given by Jesus to St. Margaret Mary Alacoque and learn how to live the powerful First Friday devotion.",
+    date: "2026-04-16",
+    readTime: "13 min",
+    category: "Devotions",
+    icon: Heart,
+    bgColor: "bg-red-100",
+    iconColor: "text-red-400"
+  },
+  {
     id: 1025,
     slug: "guardian-angels-guide",
     title: "Guardian Angels: Your Divine Protectors and the 9 Choirs",

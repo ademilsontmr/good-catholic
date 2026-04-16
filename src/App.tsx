@@ -135,6 +135,10 @@ import CatholicismAndEvolution from "./pages/blog/CatholicismAndEvolution";
 import GuardianAngelsComplete from "./pages/blog/GuardianAngelsComplete";
 import CatholicViewOnWealth from "./pages/blog/CatholicViewOnWealth";
 import SaintJohnVianneyCureOfArs from "./pages/blog/SaintJohnVianneyCureOfArs";
+// SEO Articles Lote 10
+import BrownScapularGuide from "./pages/blog/BrownScapularGuide";
+import SaintMichaelLent from "./pages/blog/SaintMichaelLent";
+import SacredHeartPromises from "./pages/blog/SacredHeartPromises";
 
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -280,6 +284,10 @@ const App = () => (
             <Route path="/blog/guardian-angels-guide/" element={<GuardianAngelsComplete />} />
             <Route path="/blog/catholic-view-on-wealth/" element={<CatholicViewOnWealth />} />
             <Route path="/blog/saint-john-vianney-cure-of-ars/" element={<SaintJohnVianneyCureOfArs />} />
+            {/* SEO Articles Lote 10 */}
+            <Route path="/blog/brown-scapular-guide/" element={<BrownScapularGuide />} />
+            <Route path="/blog/st-michael-lent-guide/" element={<SaintMichaelLent />} />
+            <Route path="/blog/sacred-heart-promises/" element={<SacredHeartPromises />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
