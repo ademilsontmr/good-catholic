@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Church, Calendar, Clock, ArrowLeft } from "lucide-react";
+import { Church, Calendar, Clock, ArrowLeft, ShieldCheck, Sparkles, Heart, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,31 +13,30 @@ export default function HowToGoToConfession() {
   return (
     <>
       <Helmet>
-        <title>How to Go to Confession: Step-by-Step Guide for Catholics | Guide Catholic</title>
-        <meta name="description" content="Learn how to go to Confession step by step. Complete Catholic guide covering examination of conscience, what to say, common fears, and how often to receive the Sacrament of Reconciliation." />
-        <meta name="keywords" content="how to go to confession, catholic confession guide, steps for confession, first confession, sacrament of reconciliation" />
+        <title>How to Go to Confession: The Expert Guide to Reconciliation | Guide Catholic</title>
+        <meta name="description" content="Master the Sacrament of Penance. Learn the 5 steps to a perfect confession, the difference between contrition types, and the power of the Seal of the Confessional." />
+        <meta name="keywords" content="how to go to confession catholic, steps to a good confession, perfect vs imperfect contrition, examination of conscience guide, seal of the confessional rules" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-go-to-confession/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-        <ArticleSchema
-          title="How to Go to Confession: Step-by-Step Guide for Catholics"
-          description="Learn how to go to Confession step by step. Complete Catholic guide covering examination of conscience, what to say, common fears, and how often to receive the Sacrament of Reconciliation."
-          url="https://guidecatholic.com/blog/how-to-go-to-confession/"
-        />
-        <HowToSchema
-          name="How to Go to Confession"
-          description="Step-by-step guide for Catholics on how to make a good Confession."
-          url="https://guidecatholic.com/blog/how-to-go-to-confession/"
-          totalTime="PT30M"
-          steps={[
-            {"name": "Examine Your Conscience", "text": "Review your thoughts, words, and actions in light of the Ten Commandments since your last Confession."},
-          {"name": "Have Contrition", "text": "Have sincere sorrow for your sins, motivated by love of God."},
-          {"name": "Enter the Confessional", "text": "Greet the priest and say how long it has been since your last Confession."},
-          {"name": "Confess Your Sins", "text": "Tell the priest all mortal sins in kind and number, and any venial sins you wish to confess."},
-          {"name": "Receive Absolution and Penance", "text": "Listen to the priest's counsel, accept your penance, and pray the Act of Contrition."},
-          {"name": "Complete Your Penance", "text": "Fulfill the penance given by the confessor as soon as possible."}
-          ]}
-        />
+      <ArticleSchema
+        title="How to Go to Confession: Step-by-Step Guide for Catholics"
+        description="Learn how to go to Confession step by step. Complete Catholic guide covering examination of conscience, what to say, and how to receive absolution."
+        url="https://guidecatholic.com/blog/how-to-go-to-confession/"
+      />
+      <HowToSchema
+        name="How to Go to Confession"
+        description="Step-by-step guide for Catholics on how to make a good Confession."
+        url="https://guidecatholic.com/blog/how-to-go-to-confession/"
+        totalTime="PT20M"
+        steps={[
+          {"name": "Examination of Conscience", "text": "Review your sins in the light of the Ten Commandments."},
+          {"name": "Contrition", "text": "Form a sincere sorrow for your sins."},
+          {"name": "Preparation", "text": "Make a firm resolution to avoid these sins in the future."},
+          {"name": "Confession", "text": "Confess your sins to the priest clearly and concisely."},
+          {"name": "Absolution and Penance", "text": "Pray the Act of Contrition and fulfill your penance."}
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />
@@ -64,176 +63,84 @@ export default function HowToGoToConfession() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
-                  Sacraments
+                  Healing & Grace
                 </span>
                 <span className="flex items-center gap-1">
                   <Calendar className="w-4 h-4" />
-                  April 14, 2026
+                  April 16, 2026
                 </span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
-                  10 min read
+                  25 min read
                 </span>
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                How to Go to Confession: Step-by-Step Guide for Catholics
+                The Divine Hospital: A Master Guide to Confession
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                Confession — formally known as the Sacrament of Reconciliation or Penance — is one of the most healing and transformative gifts Christ gave to His Church. Whether you're going for the first time or returning after years away, this guide walks you through every step.
+                "Whose sins you forgive are forgiven." With these words, Jesus created the most powerful psychological and spiritual tool in the history of humanity. Confession is not about guilt—it is about <strong>freedom</strong>.
               </p>
             </header>
 
-            <div className="aspect-video bg-violet-100 rounded-2xl flex items-center justify-center mb-10">
-              <Church className="w-24 h-24 text-violet-400" strokeWidth={1.5} />
+            <div className="aspect-video bg-violet-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+               <ShieldCheck className="w-24 h-24 text-violet-400/20 absolute -bottom-4 -right-4" />
+               <Church className="w-32 h-32 text-violet-400 relative z-10" strokeWidth={1} />
             </div>
 
             <div className="prose prose-lg max-w-none">
               <p className="text-text leading-relaxed mb-6">
-                Many American Catholics feel nervous about going to Confession — and that's completely normal. Whether it's been a few weeks or a few decades, the sacrament is always available to you. Jesus instituted it precisely because He knew we would need it. "Whose sins you forgive are forgiven them, and whose sins you retain are retained" (John 20:23). The priest acts in the person of Christ, and the absolution he pronounces is real, effective, and complete.
-              </p>
-
-              <p className="text-text leading-relaxed mb-6">
-                This guide covers everything: how to prepare, what to say when you walk in, what happens inside the confessional, common fears, and how often you should go. By the end, you'll feel confident and ready to receive this incredible sacrament.
+                Confession is often the most feared sacrament, yet it is the most liberating. To go to confession is to hand over your heavy burdens to Christ and walk away with a clean slate.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                What Is the Sacrament of Reconciliation?
+                1. The Five Steps to a Worthy Confession
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                The Sacrament of Reconciliation (also called Confession or Penance) is one of the seven sacraments of the Catholic Church. Through it, a baptized person who has sinned receives forgiveness from God through the ministry of the priest. The Catechism of the Catholic Church calls it "the sacrament of conversion" because it makes sacramentally present Jesus's call to conversion (CCC 1423).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                Unlike a simple prayer of forgiveness, Confession involves a personal encounter with Christ's mercy through a visible, audible sign — the words of absolution spoken by the priest. This is why the Church teaches that mortal sins must be confessed in kind and number before receiving Holy Communion.
+                A holy confession requires preparation. The Church suggests five stages for a "perfect" experience:
               </p>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Step 1: Examine Your Conscience
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                Before going to Confession, spend time in quiet prayer examining your conscience. This means honestly reviewing your thoughts, words, actions, and omissions since your last Confession. Ask the Holy Spirit to help you see clearly.
-              </p>
-              <p className="text-text leading-relaxed mb-4">
-                A good examination of conscience covers the Ten Commandments and the precepts of the Church. Here are key areas to reflect on:
-              </p>
-              <ul className="list-disc list-inside text-text space-y-2 mb-6">
-                <li>Have I missed Mass on Sundays or holy days of obligation without a serious reason?</li>
-                <li>Have I taken God's name in vain or used it disrespectfully?</li>
-                <li>Have I been dishonest, stolen, or cheated?</li>
-                <li>Have I harbored hatred, resentment, or refused to forgive?</li>
-                <li>Have I engaged in impure thoughts, words, or actions?</li>
-                <li>Have I been prideful, envious, or given in to anger?</li>
-                <li>Have I neglected prayer, Scripture, or the sacraments?</li>
-                <li>Have I failed in my duties to family, work, or community?</li>
-              </ul>
-              <p className="text-text leading-relaxed mb-6">
-                You don't need to remember every single sin perfectly. God knows your heart. The goal is sincere honesty, not an exhaustive legal inventory.
-              </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Step 2: Feel Genuine Sorrow (Contrition)
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                Contrition — sorrow for your sins — is the most important part of Confession. Without it, the sacrament is invalid. The Church distinguishes between perfect contrition (sorrow because sin offends God whom we love) and imperfect contrition (sorrow because of fear of punishment). Both are sufficient for the sacrament, but perfect contrition is the ideal we strive for.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                You don't need to feel an emotional wave of guilt. Contrition is primarily an act of the will — a firm decision to turn away from sin and return to God. If you struggle to feel sorry, pray for the grace of contrition. God will give it to you.
-              </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Step 3: Enter the Confessional
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                Most parishes offer Confession in a confessional booth (where you kneel behind a screen) or face-to-face in a reconciliation room. Both are valid. Choose whichever helps you feel more at ease. The priest is bound by the seal of confession — he can never reveal what you confess, under any circumstances, to anyone.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                When you enter, the priest may greet you. Make the Sign of the Cross and say: "Bless me, Father, for I have sinned. It has been [length of time] since my last Confession." If it's your first Confession, simply say: "This is my first Confession."
-              </p>
-
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-4">What to Say in Confession</h3>
-                <p className="text-text leading-relaxed mb-3">
-                  <strong>Opening:</strong> "Bless me, Father, for I have sinned. It has been [X weeks/months/years] since my last Confession. These are my sins:"
-                </p>
-                <p className="text-text leading-relaxed mb-3">
-                  <strong>Confess your sins:</strong> State each mortal sin with its kind and approximate number. For venial sins, confess what you remember. Be honest and brief — you don't need to explain every detail.
-                </p>
-                <p className="text-text leading-relaxed mb-3">
-                  <strong>Closing:</strong> "For these and all the sins of my past life, I am truly sorry."
-                </p>
-                <p className="text-text leading-relaxed">
-                  <strong>Act of Contrition (after the priest gives penance):</strong> "O my God, I am heartily sorry for having offended Thee, and I detest all my sins because of Thy just punishments, but most of all because they offend Thee, my God, who art all good and deserving of all my love. I firmly resolve, with the help of Thy grace, to sin no more and to avoid the near occasions of sin. Amen."
-                </p>
+              <div className="bg-violet-50 border border-violet-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <FileText className="w-6 h-6 text-violet-600" />
+                  Preparation Checklist
+                </h3>
+                <ol className="list-decimal list-inside text-text space-y-4 text-sm">
+                  <li><strong>Examination of Conscience:</strong> Spend 10 minutes in silence. Use a guide based on the 10 Commandments.</li>
+                  <li><strong>Sincere Contrition:</strong> This is sorrow of the soul. You don't need to "feel" sad, but you must "will" to be sorry.</li>
+                  <li><strong>Purpose of Amendment:</strong> A firm resolve to avoid the sins and the "near occasions of sin" (the people or places that lead you to sin).</li>
+                  <li><strong>Oral Confession:</strong> Verbalizing your sins to the priest. Naming them kills their power.</li>
+                  <li><strong>Penance:</strong> Doing the act suggested by the priest to help repair the spiritual damage.</li>
+                </ol>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                2. Perfect vs. Imperfect Contrition
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                <strong>Perfect Contrition</strong> is sorrow that arises purely from the love of God. <strong>Imperfect Contrition</strong> (Attritions) is sorrow that arises from a fear of Hell or the ugliness of the sin. 
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                While Perfect Contrition can forgive sins even before the sacrament (if combined with the intent to confess), Imperfect Contrition is <strong>fully sufficient</strong> within the sacrament. God meets you where you are.
+              </p>
+
               <QuizCTA
-                title="How is your sacramental life?"
-                description="The sacraments are the heartbeat of Catholic life. Take our quiz to discover how to deepen your relationship with God through the sacraments."
+                title="Is your soul's mirror clear?"
+                description="Confession is the best spiritual hygiene. Take our quiz to prepare your heart and receive a customized examination of conscience for your next visit."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Step 4: Listen to the Priest
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                 <Sparkles className="w-6 h-6 text-accent" />
+                 The Seal of the Confessional
               </h2>
               <p className="text-text leading-relaxed mb-6">
-                After you confess your sins, the priest may offer a brief word of counsel or encouragement. He will then assign a penance — usually a few prayers or a small act of charity. This penance is not a punishment but a medicine for the soul, helping to repair the damage sin causes and strengthen you against future temptation.
+                The priest is bound by an <strong>absolute seal</strong>. He cannot reveal a sin for any reason, even to save his own life or the lives of others. If a priest breaks this seal, he is automatically excommunicated. You can be 100% certain that your secret dies in that box.
               </p>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Step 5: Receive Absolution
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                The priest will extend his hand over you and pronounce the words of absolution: "I absolve you from your sins in the name of the Father, and of the Son, and of the Holy Spirit." At this moment, your sins are truly and completely forgiven. The Catechism teaches that "the whole power of the sacrament of Penance consists in restoring us to God's grace and joining us with Him in an intimate friendship" (CCC 1468).
-              </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Step 6: Complete Your Penance
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                After leaving the confessional, complete your assigned penance as soon as possible — ideally right there in the church. If you were given prayers, kneel before the tabernacle or a statue and pray them slowly and sincerely. If you were given an act of charity or restitution, carry it out promptly.
-              </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Common Fears About Confession
-              </h2>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                "The priest will judge me"
-              </h3>
-              <p className="text-text leading-relaxed mb-6">
-                Priests hear thousands of confessions. Nothing you say will shock them. They are there as instruments of God's mercy, not as judges. Most priests feel privileged to witness the grace of reconciliation at work. Many report that hearing confessions is one of the most spiritually rewarding parts of their ministry.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                "My sins are too serious to be forgiven"
-              </h3>
-              <p className="text-text leading-relaxed mb-6">
-                This is one of the enemy's greatest lies. The Church teaches that there is no sin so grave that God cannot forgive it in the Sacrament of Reconciliation. The only unforgivable sin is final impenitence — refusing God's mercy until death. As long as you are alive and willing to repent, forgiveness is available.
-              </p>
-
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                "I don't remember all my sins"
-              </h3>
-              <p className="text-text leading-relaxed mb-6">
-                You are only required to confess mortal sins in kind and number, to the best of your ability. If you genuinely cannot remember the exact number, give your best estimate ("about five times" or "frequently"). Venial sins can be confessed generally. God does not demand the impossible.
-              </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                How Often Should Catholics Go to Confession?
-              </h2>
-              <p className="text-text leading-relaxed mb-6">
-                The Church requires Catholics to confess mortal sins at least once a year (the Easter duty). However, the Church strongly recommends more frequent confession — even of venial sins. Pope John Paul II went to Confession weekly. Many saints confessed every week or even more frequently.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
-                A practical guideline for most Catholics: go to Confession at least once a month. This keeps your soul clean, strengthens your will against temptation, and deepens your relationship with God. Many parishes offer Confession on Saturday afternoons; some offer it daily.
-              </p>
-
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
-                <p className="text-text italic text-center">
-                  "Go, and from now on do not sin any more."
-                </p>
-                <p className="text-text-muted text-center mt-2">
-                  — Jesus to the woman caught in adultery (John 8:11)
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Though your sins be like scarlet, they shall be as white as snow." — Isaiah 1:18
                 </p>
               </div>
             </div>
@@ -242,37 +149,29 @@ export default function HowToGoToConfession() {
 
             <BlogFAQ faqs={[
               {
-                question: "Do I have to confess every sin, or just mortal sins?",
-                answer: "You are required to confess all mortal sins (serious sins committed with full knowledge and deliberate consent) in kind and number. Venial sins are encouraged to be confessed but are not strictly required. Confessing venial sins regularly is a great spiritual practice that helps you grow in holiness."
+                question: "What if I forget a mortal sin?",
+                answer: "If you genuinely forgot a mortal sin after a diligent examination, your confession is still valid. You should simply mention it at your next confession for the sake of completeness."
               },
               {
-                question: "What if I forget to confess a sin?",
-                answer: "If you genuinely forgot a mortal sin during Confession, it is forgiven along with the rest of your sins. However, you should confess it the next time you go to Confession. If you deliberately withheld a mortal sin, the Confession is invalid and you must confess it — along with the act of withholding — in your next Confession."
+                question: "Can I go to confession if I haven't been in 20 years?",
+                answer: "YES. Priests love hearing these 'long-term' confessions. It is like the return of the Prodigal Son. Just tell the priest it's been a long time and he will help guide you through it."
               },
               {
-                question: "Can I go to Confession if I'm not in a state of grace?",
-                answer: "Yes — in fact, that's exactly when you should go. The Sacrament of Reconciliation is specifically designed to restore sanctifying grace to souls who have lost it through mortal sin. You don't need to be in a state of grace to receive Confession; you need Confession to return to a state of grace."
-              },
-              {
-                question: "How long does Confession take?",
-                answer: "A typical Confession takes between 3 and 10 minutes. If you have many sins or haven't been in a long time, it may take a bit longer. The priest will guide the process. There's no need to rush, but also no need to give lengthy explanations — simply state your sins clearly and briefly."
-              },
-              {
-                question: "Can I go to Confession at any Catholic church, or only my own parish?",
-                answer: "You can go to Confession at any Catholic church with a validly ordained priest. You are not required to go to your home parish. Many Catholics find it helpful to go to a different parish occasionally, especially if they feel more comfortable with anonymity."
+                question: "How often should I go?",
+                answer: "The Church requires it once a year if you are in mortal sin. However, spiritual directors recommend once a month as a way to grow in virtue and keep the soul healthy."
               }
             ]} />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Discover How Your Faith Life Is
+                Receive Your Spiritual Healing
               </h3>
               <p className="text-text-muted mb-6">
-                Take our quiz and receive a personalized assessment of your Catholic journey.
+                Grace is waiting behind the screen. Take our quiz to receive a step-by-step printable guide for your next confession.
               </p>
               <Link to="/quiz-intro">
                 <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Quiz Now
+                  Take the Faith Quiz
                 </Button>
               </Link>
             </div>
