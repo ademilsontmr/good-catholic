@@ -206,8 +206,6 @@ export default function CatholicVsProtestant() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-vs-protestant-differences" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do Catholics worship Mary?",
@@ -238,6 +236,8 @@ export default function CatholicVsProtestant() {
                 answer: "Yes, because they affect how we understand salvation, authority, and the Christian life. However, charity is essential. We can disagree strongly while still loving each other as fellow Christians and working together for the common good."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-vs-protestant-differences" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

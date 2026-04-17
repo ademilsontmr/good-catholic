@@ -153,8 +153,6 @@ export default function IsTheCatholicChurchTrue() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="is-the-catholic-church-the-true-church" />
-
             <BlogFAQ faqs={[
               {
                 question: "Didn't Constantine 'create' the Catholic Church?",
@@ -169,6 +167,8 @@ export default function IsTheCatholicChurchTrue() {
                 answer: "The Church teaches that those who, through no fault of their own, do not know the Gospel or the Church, but seek God with a sincere heart, can achieve salvation. However, all salvation flows through Christ, and Christ is united to His Body, which is the Church."
               }
             ]} />
+
+<RelatedArticles currentSlug="is-the-catholic-church-the-true-church" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

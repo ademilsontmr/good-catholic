@@ -347,8 +347,6 @@ export default function OurLadyOfLourdesGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="our-lady-of-lourdes-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Are the Lourdes apparitions approved by the Catholic Church?",
@@ -391,6 +389,8 @@ export default function OurLadyOfLourdesGuide() {
                 answer: "Pray with faith and humility, asking Mary to intercede for your healing. Remember that God's will may include spiritual healing rather than physical cure. Trust in God's plan for you."
               }
             ]} />
+
+<RelatedArticles currentSlug="our-lady-of-lourdes-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

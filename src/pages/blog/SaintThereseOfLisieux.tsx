@@ -189,8 +189,6 @@ export default function SaintThereseOfLisieux() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="saint-therese-of-lisieux" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the Little Way of St. Thérèse?",
@@ -213,6 +211,8 @@ export default function SaintThereseOfLisieux() {
                 answer: "St. Thérèse was declared a Doctor of the Church by Pope John Paul II on October 19, 1997, the centenary of her death. She was only the third woman to receive this title, after St. Teresa of Ávila and St. Catherine of Siena. Her feast day is October 1."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-therese-of-lisieux" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

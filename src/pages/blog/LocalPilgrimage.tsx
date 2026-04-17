@@ -128,8 +128,6 @@ export default function LocalPilgrimage() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="local-pilgrimage" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What is a Catholic pilgrimage?",
@@ -152,6 +150,8 @@ export default function LocalPilgrimage() {
                             answer: "Pilgrimage offers: physical sacrifice that unites us to Christ's suffering, removal from daily distractions, encounter with the communion of saints, special graces attached to holy places, renewal of faith, and often the opportunity to gain indulgences. Many pilgrims report profound conversions and healings."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="local-pilgrimage" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

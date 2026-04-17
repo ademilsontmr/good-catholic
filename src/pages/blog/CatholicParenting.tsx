@@ -239,8 +239,6 @@ export default function CatholicParenting() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-parenting-raising-children-in-faith" />
-
             <BlogFAQ faqs={[
               {
                 question: "At what age should I start teaching my child about the Catholic faith?",
@@ -263,6 +261,8 @@ export default function CatholicParenting() {
                 answer: "Research on faith transmission consistently points to three factors: regular family prayer (especially the Rosary), consistent Sunday Mass attendance, and parents who visibly live their own faith. Beyond these, building a community of Catholic friends for your children and celebrating the liturgical year with family traditions are among the most powerful tools available."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-parenting-raising-children-in-faith" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

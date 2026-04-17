@@ -236,8 +236,6 @@ export default function CatholicDating() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-dating-and-courtship" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is it okay for Catholics to use dating apps?",
@@ -260,6 +258,8 @@ export default function CatholicDating() {
                 answer: "Pre-Cana is the marriage preparation program required by the Catholic Church before a couple can be married in a Catholic ceremony. It typically involves several sessions covering communication, conflict, finances, sexuality, and the theology of marriage. It is required — not optional — and most couples find it genuinely valuable, even if they approach it with some reluctance."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-dating-and-courtship" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

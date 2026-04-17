@@ -152,8 +152,6 @@ export default function CatholicVsProtestantBible() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="catholic-vs-protestant-bible" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can Catholics read a Protestant Bible?",
@@ -172,6 +170,8 @@ export default function CatholicVsProtestantBible() {
                 answer: "Yes! The original 1611 King James Version contained the Apocrypha in a separate section between the Old and New Testaments. It wasn't until the 1800s that Protestant Bible societies started printing Bibles completely without them."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-vs-protestant-bible" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

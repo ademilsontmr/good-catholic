@@ -132,8 +132,6 @@ export default function FaithMentalHealth() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="faith-mental-health" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "Does the Catholic Church recognize mental illness?",
@@ -156,6 +154,8 @@ export default function FaithMentalHealth() {
                             answer: "Parishes can: train volunteers in mental health first aid, create support groups, connect parishioners with Catholic counselors, reduce stigma through preaching and education, offer pastoral care visits, and partner with Catholic Charities mental health services. A welcoming community is itself therapeutic."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="faith-mental-health" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

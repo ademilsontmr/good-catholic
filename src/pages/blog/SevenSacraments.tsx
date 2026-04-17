@@ -146,8 +146,6 @@ export default function SevenSacraments() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="seven-sacraments" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can I receive the Eucharist if I'm not in a state of grace?",
@@ -162,6 +160,8 @@ export default function SevenSacraments() {
                 answer: "Yes. For two baptized Christians, their marriage is a sacrament. Their love becomes a visible sign of Christ's love for the Church. The spouses are actually the ministers; the priest is the witness."
               }
             ]} />
+
+<RelatedArticles currentSlug="seven-sacraments" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -198,8 +198,6 @@ export default function SaintBenedictMedal() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="saint-benedict-medal" />
-
             <BlogFAQ faqs={[
               {
                 question: "Does the St. Benedict medal have to be blessed by a priest?",
@@ -218,6 +216,8 @@ export default function SaintBenedictMedal() {
                 answer: "The blessing of the medal is specifically directed to Catholics. However, any person of good will who respects Catholic devotion may carry or use the medal in a spirit of openness to God's protection. Many people, including non-Catholics, have reported experiencing its benefits."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-benedict-medal" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">Discover How Your Faith Life Is</h3>

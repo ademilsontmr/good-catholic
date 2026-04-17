@@ -274,8 +274,6 @@ export default function CatholicHomeschooling() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-homeschooling-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is Catholic homeschooling legal in all states?",
@@ -298,6 +296,8 @@ export default function CatholicHomeschooling() {
                 answer: "Yes. The vast majority of Catholic homeschooling parents do not have teaching degrees, and research shows that parental education level has little correlation with homeschooled children's academic outcomes. What matters most is commitment, consistency, and a good curriculum. Many excellent Catholic homeschool programs are designed to be used by parents without formal teaching training."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-homeschooling-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

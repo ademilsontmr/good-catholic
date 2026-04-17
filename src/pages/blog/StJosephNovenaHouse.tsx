@@ -260,8 +260,6 @@ export default function StJosephNovenaHouse() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="st-joseph-novena-house" />
-
             <BlogFAQ faqs={[
               {
                 question: "How long does it take for the St. Joseph Novena for buying a house to work?",
@@ -288,6 +286,8 @@ export default function StJosephNovenaHouse() {
                 answer: "Yes, the novena prayer can be adapted to your specific housing needs. The important elements are: asking for St. Joseph's intercession, stating your specific intention, and praying with trust in God's providence. Feel free to add personal details that reflect your particular situation."
               }
             ]} />
+
+<RelatedArticles currentSlug="st-joseph-novena-house" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

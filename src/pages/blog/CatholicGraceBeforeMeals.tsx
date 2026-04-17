@@ -242,8 +242,6 @@ export default function CatholicGraceBeforeMeals() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-grace-before-meals" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the traditional Catholic grace before meals?",
@@ -266,6 +264,8 @@ export default function CatholicGraceBeforeMeals() {
                 answer: "Yes. While the traditional 'Bless us, O Lord' is appropriate for any meal, there are special graces for Thanksgiving, Christmas, Easter, and other occasions. Many Catholic prayer books include seasonal meal prayers. Families can also compose their own prayers for special occasions, incorporating the specific blessings and intentions of the day."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-grace-before-meals" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -160,8 +160,6 @@ export default function SundayMass() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="sunday-mass" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is missing Sunday Mass a mortal sin?",
@@ -184,6 +182,8 @@ export default function SundayMass() {
                 answer: "If you have a serious reason (illness, travel with no church nearby, caring for someone), you are dispensed from the obligation. You should still pray, read Scripture, and observe Sunday as a day of rest and family. Seek a dispensation from your pastor if needed."
               }
             ]} />
+
+<RelatedArticles currentSlug="sunday-mass" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

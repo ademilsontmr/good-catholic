@@ -183,8 +183,6 @@ export default function CatholicDeathPenalty() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-teaching-on-death-penalty" />
-
             <BlogFAQ faqs={[
               {
                 question: "What does the Catholic Church currently teach about the death penalty?",
@@ -207,6 +205,8 @@ export default function CatholicDeathPenalty() {
                 answer: "The Church calls for a criminal justice system that protects public safety while respecting the dignity of every person, including criminals. This includes support for rehabilitation programs, humane prison conditions, restorative justice approaches, and addressing the root causes of crime. The USCCB has published extensive resources on criminal justice reform."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-teaching-on-death-penalty" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

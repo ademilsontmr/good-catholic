@@ -260,8 +260,6 @@ export default function ApparitionsOfOurLady() {
               </ul>
             </div>
 
-            <RelatedArticles currentSlug="apparitions-of-our-lady" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is it a sin not to believe in Fatima or Lourdes?",
@@ -288,6 +286,8 @@ export default function ApparitionsOfOurLady() {
                 answer: "The first two secrets (a vision of hell, and the prediction of WWII and Russia's errors) were published by Sister Lúcia in 1941. The third secret was sealed and kept in the Vatican. It was finally revealed by Pope John Paul II on June 26, 2000, and describes a vision of a bishop in white being killed, widely interpreted as the attempted assassination of Pope John Paul II on May 13, 1981."
               }
             ]} />
+
+<RelatedArticles currentSlug="apparitions-of-our-lady" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

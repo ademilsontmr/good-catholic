@@ -385,8 +385,6 @@ export default function VocationalDiscernmentGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="vocational-discernment-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "How do I know if I'm called to religious life?",
@@ -429,6 +427,8 @@ export default function VocationalDiscernmentGuide() {
                 answer: "Absolutely. Single life is a legitimate vocation when chosen freely for God's glory. Many single people serve the Church beautifully through ministry, professional work, and personal witness."
               }
             ]} />
+
+<RelatedArticles currentSlug="vocational-discernment-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

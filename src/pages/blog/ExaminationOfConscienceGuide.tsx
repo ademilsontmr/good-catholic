@@ -197,8 +197,6 @@ export default function ExaminationOfConscienceGuide() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="examination-of-conscience-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the examination of conscience?",
@@ -221,6 +219,8 @@ export default function ExaminationOfConscienceGuide() {
                 answer: "Scrupulosity is a spiritual disorder characterized by excessive anxiety about sin — repeatedly confessing the same sins, doubting forgiveness, and living in constant fear. A healthy conscience is sensitive but not paralyzed: it notices sin clearly, brings it to God with genuine sorrow, receives forgiveness with trust, and moves forward without excessive guilt. If you struggle with scrupulosity, speak with a confessor or spiritual director."
               }
             ]} />
+
+<RelatedArticles currentSlug="examination-of-conscience-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

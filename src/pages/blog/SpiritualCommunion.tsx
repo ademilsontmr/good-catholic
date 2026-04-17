@@ -216,8 +216,6 @@ export default function SpiritualCommunion() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-make-spiritual-communion" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is spiritual communion?",
@@ -240,6 +238,8 @@ export default function SpiritualCommunion() {
                 answer: "St. Alphonsus Liguori (1696–1787) was an Italian bishop, theologian, and Doctor of the Church who founded the Redemptorist order. He was deeply devoted to the Eucharist and wrote extensively about spiritual communion, composing the prayer that bears his name. He recommended making spiritual communion not only when sacramental Communion was impossible, but as a regular practice throughout the day to deepen one's love for the Eucharist."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-make-spiritual-communion" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

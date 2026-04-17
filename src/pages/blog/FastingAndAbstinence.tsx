@@ -194,8 +194,6 @@ export default function FastingAndAbstinence() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="fasting-abstinence" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the difference between fasting and abstinence?",
@@ -218,6 +216,8 @@ export default function FastingAndAbstinence() {
                 answer: "Fasting strengthens self-discipline, increases sensitivity to God's voice, expresses repentance, and unites us with the poor. Jesus said some demons can only be driven out by prayer and fasting (Matthew 17:21). It is a powerful spiritual weapon."
               }
             ]} />
+
+<RelatedArticles currentSlug="fasting-abstinence" />
 
             {/* CTA */}
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

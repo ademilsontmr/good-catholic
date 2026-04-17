@@ -198,8 +198,6 @@ export default function PatronSaints() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="patron-saints" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is a patron saint?",
@@ -222,6 +220,8 @@ export default function PatronSaints() {
                 answer: "Yes! Catholics often have multiple patron saints — one from Baptism, one from Confirmation, a patron of their profession, and others they feel drawn to. There is no limit to the number of saints you can ask for intercession."
               }
             ]} />
+
+<RelatedArticles currentSlug="patron-saints" />
 
             {/* CTA */}
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

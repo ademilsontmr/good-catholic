@@ -458,8 +458,6 @@ export default function CatholicDatingGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-dating-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "How long should I date before getting engaged?",
@@ -502,6 +500,8 @@ export default function CatholicDatingGuide() {
                 answer: "Integrate prayer into dating. Pray before dates, thank God after dates, pray for discernment, and pray together when appropriate. Dating should enhance your prayer life, not replace it."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-dating-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

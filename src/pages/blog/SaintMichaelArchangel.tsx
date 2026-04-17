@@ -231,8 +231,6 @@ export default function SaintMichaelArchangel() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="saint-michael-archangel" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the Prayer to St. Michael?",
@@ -255,6 +253,8 @@ export default function SaintMichaelArchangel() {
                 answer: "The name Michael comes from the Hebrew 'Mi-ka-el,' which means 'Who is like God?' It is understood as a battle cry — a proclamation of the absolute supremacy of God over all created beings, including the fallen angels. When Michael casts Satan out of heaven, he does so in the name of God, not by his own power."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-michael-archangel" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

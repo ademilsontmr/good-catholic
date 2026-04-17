@@ -275,8 +275,6 @@ export default function FruitsOfHolySpirit() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="fruits-of-the-holy-spirit" />
-
             <BlogFAQ faqs={[
               {
                 question: "Why are there 12 Fruits if St. Paul only lists 9?",
@@ -295,6 +293,8 @@ export default function FruitsOfHolySpirit() {
                 answer: "Charity (love) is considered the greatest fruit, just as it is the greatest commandment and the greatest of the theological virtues. St. Paul teaches in 1 Corinthians 13 that without love, all other spiritual gifts and fruits are worthless. All the other fruits flow from charity or are ordered toward it."
               }
             ]} />
+
+<RelatedArticles currentSlug="fruits-of-the-holy-spirit" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

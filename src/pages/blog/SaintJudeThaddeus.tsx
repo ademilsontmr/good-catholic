@@ -275,8 +275,6 @@ export default function SaintJudeThaddeus() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="saint-jude-thaddeus" />
-
             <BlogFAQ faqs={[
               {
                 question: "Why do people take out newspaper ads thanking St. Jude?",
@@ -303,6 +301,8 @@ export default function SaintJudeThaddeus() {
                 answer: "The primary relics of St. Jude and St. Simon are enshrined beneath the Altar of St. Joseph in St. Peter's Basilica in Vatican City, Rome. Secondary relics are distributed to many churches and shrines, most notably the National Shrine of St. Jude in Chicago."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-jude-thaddeus" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

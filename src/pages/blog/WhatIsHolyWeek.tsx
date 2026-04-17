@@ -188,8 +188,6 @@ export default function WhatIsHolyWeek() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-holy-week-catholic" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is Holy Week in the Catholic Church?",
@@ -212,6 +210,8 @@ export default function WhatIsHolyWeek() {
                 answer: "The washing of feet (the Mandatum) is a ritual performed during the Mass of the Lord's Supper on Holy Thursday, in which the priest washes the feet of twelve members of the congregation. It imitates Jesus' act of washing His disciples' feet at the Last Supper (John 13:1–15) and symbolizes humble service. The name 'Mandatum' comes from Jesus' words: 'A new commandment (mandatum) I give you: love one another as I have loved you.'"
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-holy-week-catholic" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -145,8 +145,6 @@ export default function Jubilee2025Legacy() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="jubilee-2025-legacy" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What is a Catholic Jubilee Year?",
@@ -169,6 +167,8 @@ export default function Jubilee2025Legacy() {
                             answer: "Following the 2025 Ordinary Jubilee, the next Ordinary Jubilee would be in 2050. However, the Pope can call an Extraordinary Jubilee at any time for special occasions, as Pope Francis did in 2015-2016 with the Extraordinary Jubilee of Mercy."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="jubilee-2025-legacy" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -171,8 +171,6 @@ export default function WhatIsPurgatory() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="what-is-purgatory" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do souls in Purgatory stay there forever?",
@@ -191,6 +189,8 @@ export default function WhatIsPurgatory() {
                 answer: "This is a common term for souls in Purgatory. They are 'holy' because they are confirmed in grace and will definitely see God. They can no longer sin, and they love God perfectly, even as they are purified."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-purgatory" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

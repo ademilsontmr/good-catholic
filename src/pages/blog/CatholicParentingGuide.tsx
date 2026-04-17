@@ -584,8 +584,6 @@ export default function CatholicParentingGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-parenting-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "At what age should I start teaching my children about God?",
@@ -624,6 +622,8 @@ export default function CatholicParentingGuide() {
                 answer: "You can successfully raise Catholic children as a single parent. Many saints came from single-parent homes. Focus on your relationship with God and your relationship with your children. Build a strong support network of family, friends, and parish community."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-parenting-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

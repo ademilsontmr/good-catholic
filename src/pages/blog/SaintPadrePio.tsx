@@ -208,8 +208,6 @@ export default function SaintPadrePio() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="saint-padre-pio" />
-
             <BlogFAQ faqs={[
               {
                 question: "What were the stigmata of Padre Pio?",
@@ -232,6 +230,8 @@ export default function SaintPadrePio() {
                 answer: "One of the most beloved quotes attributed to Padre Pio — often used as a prayer — is: 'Pray, hope, and don't worry. Worry is useless. God is merciful and will hear your prayer.' Many Catholics also pray a formal prayer asking for his intercession, especially for healing, conversion of sinners, and the grace of a holy death."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-padre-pio" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

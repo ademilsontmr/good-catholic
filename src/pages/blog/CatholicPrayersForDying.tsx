@@ -215,8 +215,6 @@ export default function CatholicPrayersForDying() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-prayers-for-the-dying" />
-
             <BlogFAQ faqs={[
               {
                 question: "What are the Last Rites in the Catholic Church?",
@@ -239,6 +237,8 @@ export default function CatholicPrayersForDying() {
                 answer: "The most important thing is to call a priest immediately — do not wait. Most parishes have an emergency line for this purpose. While waiting for the priest, pray aloud at the bedside, hold the dying person's hand, place a crucifix near them, and if possible, play or sing sacred music softly. After the priest has come, continue to pray the Rosary, Divine Mercy Chaplet, and other prayers for the dying person."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-prayers-for-the-dying" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -194,8 +194,6 @@ export default function MeaningOfMass() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="meaning-mass" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "Why do we kneel during the Mass?",
@@ -222,6 +220,8 @@ export default function MeaningOfMass() {
                             answer: "Latin remains the official language of the Roman Rite. It preserves unity and connects us to the ancient liturgy. The Second Vatican Council allowed use of vernacular languages but maintained Latin's primacy. Many parishes celebrate Mass in both languages."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="meaning-mass" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

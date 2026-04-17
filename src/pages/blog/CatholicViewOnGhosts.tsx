@@ -160,8 +160,6 @@ export default function CatholicViewOnGhosts() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-view-on-ghosts" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can I use a Ouija board just for fun?",
@@ -176,6 +174,8 @@ export default function CatholicViewOnGhosts() {
                 answer: "The Church does not support the idea of 'residual energy.' Every spiritual manifestation is either an intelligent soul (human) or an intelligent spirit (angelic/demonic). Treating them as mere 'energy' can make a person lower their guard against deception."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-view-on-ghosts" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

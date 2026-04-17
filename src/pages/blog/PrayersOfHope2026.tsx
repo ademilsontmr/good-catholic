@@ -148,8 +148,6 @@ export default function PrayersOfHope2026() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="prayers-of-hope-2026" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What does the Catholic Church teach about hope?",
@@ -172,6 +170,8 @@ export default function PrayersOfHope2026() {
                             answer: "St. Paul wrote: 'Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts' (Philippians 4:6-7). Prayer redirects our focus from problems to God's power."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="prayers-of-hope-2026" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -217,8 +217,6 @@ export default function LectioDivina() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="lectio-divina-how-to-practice" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is Lectio Divina?",
@@ -241,6 +239,8 @@ export default function LectioDivina() {
                 answer: "Yes, absolutely. Lectio Divina has been practiced in the Church since the early centuries and is explicitly recommended by the Second Vatican Council (Dei Verbum), Pope John Paul II, and Pope Benedict XVI. In his apostolic exhortation Verbum Domini, Benedict XVI called it 'a practice of great value' and encouraged all Catholics to make it part of their daily prayer."
               }
             ]} />
+
+<RelatedArticles currentSlug="lectio-divina-how-to-practice" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

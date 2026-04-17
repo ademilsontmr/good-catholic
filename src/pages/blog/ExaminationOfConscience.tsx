@@ -135,8 +135,6 @@ export default function ExaminationOfConscience() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="examination-conscience" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What is an examination of conscience?",
@@ -159,6 +157,8 @@ export default function ExaminationOfConscience() {
                             answer: "Yes! Children preparing for First Confession should learn a simple examination of conscience. Age-appropriate guides help them review the Ten Commandments in simple language. This builds lifelong habits of moral reflection."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="examination-conscience" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

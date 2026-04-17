@@ -207,8 +207,6 @@ export default function CatholicTeachingAbortion() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-teaching-on-abortion" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the Catholic Church's official teaching on abortion?",
@@ -231,6 +229,8 @@ export default function CatholicTeachingAbortion() {
                 answer: "Being pro-life means supporting life at every stage. Catholics can pray (40 Days for Life, March for Life), support pregnancy resource centers and maternity homes, consider adoption and foster care, advocate for policies that support mothers and families, and work to build a culture that welcomes and supports every human life."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-teaching-on-abortion" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

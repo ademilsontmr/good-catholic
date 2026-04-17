@@ -155,8 +155,6 @@ export default function HowToReturnToMass() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-return-to-mass" />
-
             <BlogFAQ faqs={[
               { question: "Do I have to go to Confession before returning to Mass?", answer: "You should go to Confession before receiving Communion if you have serious unconfessed sins. However, you can attend Mass without receiving Communion while you prepare for Confession. Simply cross your arms over your chest at Communion time to receive a blessing instead." },
               { question: "What if I have been away for decades?", answer: "It doesn't matter how long you have been away. God's mercy has no expiration date. Simply tell the priest in Confession how long you have been away, confess the serious sins you remember, and express your sorrow. The priest will guide you through the rest." },
@@ -164,6 +162,8 @@ export default function HowToReturnToMass() {
               { question: "What if I feel unwelcome or judged?", answer: "If you feel unwelcome at a particular parish, try another one. Not all parishes have the same culture. Many dioceses also have specific programs for returning Catholics. You deserve a welcoming community." },
               { question: "What is a 'Returning Catholics' program?", answer: "Many dioceses offer programs specifically designed for Catholics who have been away from the Church. These programs provide a safe space to ask questions, address doubts, and reconnect with the faith at your own pace. Contact your local diocese to find one near you." },
             ]} />
+
+<RelatedArticles currentSlug="how-to-return-to-mass" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">Discover How Your Faith Life Is</h3>

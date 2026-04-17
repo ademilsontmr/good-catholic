@@ -161,8 +161,6 @@ export default function EucharisticMiraclesScience() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="eucharistic-miracles-science" />
-
             <BlogFAQ faqs={[
               {
                 question: "Who was the main doctor behind the Lanciano study?",
@@ -177,6 +175,8 @@ export default function EucharisticMiraclesScience() {
                 answer: "In 2008, in Sokolka, Poland, a host turned into flesh. Pathologists found that the heart tissue was 'inextricably interwoven' with the bread fibers, meaning the change happened at the microscopic level—impossible to execute by human forgery."
               }
             ]} />
+
+<RelatedArticles currentSlug="eucharistic-miracles-science" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

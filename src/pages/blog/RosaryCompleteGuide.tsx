@@ -151,8 +151,6 @@ export default function RosaryCompleteGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="rosary-complete-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to pray all 15 or 20 decades every day?",
@@ -167,6 +165,8 @@ export default function RosaryCompleteGuide() {
                 answer: "Absolutely. You can use your fingers (God gave us 10 for a reason!) or a phone app. The 'sacramental' beads are a beautiful tool, but the prayer is an interior act of the mind and heart."
               }
             ]} />
+
+<RelatedArticles currentSlug="rosary-complete-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -135,8 +135,6 @@ export default function SaintJohnVianneyCureOfArs() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="saint-john-vianney-cure-of-ars" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is his body still in Ars today?",
@@ -151,6 +149,8 @@ export default function SaintJohnVianneyCureOfArs() {
                 answer: "His life proves that intellectual brilliance is not a requirement for intimacy with God. Total surrender, frequent confession, and a love for the Eucharist are the only things needed for a soul to become a channel of miracles."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-john-vianney-cure-of-ars" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

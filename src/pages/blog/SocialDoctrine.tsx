@@ -140,8 +140,6 @@ export default function SocialDoctrine() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="social-doctrine" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What is Catholic Social Doctrine?",
@@ -164,6 +162,8 @@ export default function SocialDoctrine() {
                             answer: "Through: voting according to Catholic principles, supporting fair trade, volunteering at food banks and shelters, advocating for just laws, treating employees and coworkers with dignity, supporting Catholic charities, and living simply to share with those in need."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="social-doctrine" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">Do you live your faith in society?</h3>

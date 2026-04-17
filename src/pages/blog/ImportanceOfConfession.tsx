@@ -214,8 +214,6 @@ export default function ImportanceOfConfession() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="importance-confession" />
-
             <BlogFAQ faqs={[
               {
                 question: "How often should Catholics go to Confession?",
@@ -238,6 +236,8 @@ export default function ImportanceOfConfession() {
                 answer: "Absolutely not. The seal of Confession is absolute and inviolable. A priest is forbidden under any circumstances to reveal anything heard in Confession. This is called the 'sacramental seal' and breaking it results in automatic excommunication."
               }
             ]} />
+
+<RelatedArticles currentSlug="importance-confession" />
 
             {/* CTA */}
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

@@ -150,8 +150,6 @@ export default function SacredHeartPromises() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="sacred-heart-promises" />
-
             <BlogFAQ faqs={[
               {
                 question: "What happens if I miss the 5th month of the 9 First Fridays?",
@@ -166,6 +164,8 @@ export default function SacredHeartPromises() {
                 answer: "It is a beautiful ceremony where the head of the family formally recognizes Jesus as the King of the home. Usually, it involves a priest blessing the image and the family reciting an act of consecration together."
               }
             ]} />
+
+<RelatedArticles currentSlug="sacred-heart-promises" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -238,8 +238,6 @@ export default function SaintAnthonyOfPadua() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="saint-anthony-of-padua" />
-
             <BlogFAQ faqs={[
               {
                 question: "Why is St. Anthony the patron of lost things?",
@@ -262,6 +260,8 @@ export default function SaintAnthonyOfPadua() {
                 answer: "The Bread of St. Anthony is a tradition of giving bread or money for bread to the poor in thanksgiving for favors received through Anthony's intercession. It began in 1263 when a mother whose child was miraculously revived promised to give bread to the poor equal to the child's weight. Many parishes have a St. Anthony's Bread box where parishioners can donate food or money for the poor."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-anthony-of-padua" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

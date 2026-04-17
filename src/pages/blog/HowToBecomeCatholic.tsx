@@ -213,8 +213,6 @@ export default function HowToBecomeCatholic() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-become-catholic" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to be baptized to start RCIA?",
@@ -237,6 +235,8 @@ export default function HowToBecomeCatholic() {
                 answer: "RCIA is specifically for adults (generally those 7 years and older who have reached the age of reason). Children under 7 who are being baptized follow a different process. Children between 7 and 17 who are unbaptized or uncatechized typically go through a modified RCIA process adapted for their age group, often called RCIC (Rite of Christian Initiation of Children)."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-become-catholic" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -336,8 +336,6 @@ export default function CatholicMentalHealthGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-mental-health-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is it a sin to take medication for mental health?",
@@ -380,6 +378,8 @@ export default function CatholicMentalHealthGuide() {
                 answer: "Absolutely. Mental illness doesn't diminish your dignity or worth as a Catholic. Many saints struggled with mental health issues. Your suffering can even become a source of grace for yourself and others."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-mental-health-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

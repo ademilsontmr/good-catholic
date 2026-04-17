@@ -161,8 +161,6 @@ export default function MiraculousMedalGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="miraculous-medal-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to be Catholic to wear the Miraculous Medal?",
@@ -177,6 +175,8 @@ export default function MiraculousMedalGuide() {
                 answer: "Sacramentals that are broken or no longer usable should be buried or burned, not thrown in the trash. This honors the blessing they once received."
               }
             ]} />
+
+<RelatedArticles currentSlug="miraculous-medal-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

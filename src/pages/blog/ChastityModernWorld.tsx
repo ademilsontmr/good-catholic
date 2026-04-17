@@ -130,8 +130,6 @@ export default function ChastityModernWorld() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="chastity-modern-world" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What does chastity mean in Catholic teaching?",
@@ -154,6 +152,8 @@ export default function ChastityModernWorld() {
                             answer: "Absolutely. The virtue of chastity can always be recovered through sincere repentance and the Sacrament of Confession. The concept of 'secondary virginity' — a renewed commitment to chastity — is recognized and encouraged. God's mercy is always greater than our failures."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="chastity-modern-world" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">How is your pursuit of holiness?</h3>

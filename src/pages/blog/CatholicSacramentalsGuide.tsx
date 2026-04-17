@@ -367,8 +367,6 @@ export default function CatholicSacramentalsGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-sacramentals-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "What's the difference between sacraments and sacramentals?",
@@ -411,6 +409,8 @@ export default function CatholicSacramentalsGuide() {
                 answer: "No. Sacramentals should accompany prayer, not replace it. They are tools to help us pray better and live our faith more fully."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-sacramentals-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

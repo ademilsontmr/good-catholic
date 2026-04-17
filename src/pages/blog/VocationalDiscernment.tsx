@@ -139,8 +139,6 @@ export default function VocationalDiscernment() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="vocational-discernment" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What are the vocations in the Catholic Church?",
@@ -163,6 +161,8 @@ export default function VocationalDiscernment() {
                             answer: "There is no fixed timeline. Some people know their vocation early; others discern for years. The important thing is to remain open, pray consistently, seek spiritual direction, and take concrete steps (visiting seminaries, attending discernment retreats) rather than waiting for absolute certainty."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="vocational-discernment" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">Do you know God's purpose for you?</h3>

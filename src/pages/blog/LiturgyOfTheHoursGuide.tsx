@@ -461,8 +461,6 @@ export default function LiturgyOfTheHoursGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="liturgy-of-the-hours-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to pray all seven hours?",
@@ -505,6 +503,8 @@ export default function LiturgyOfTheHoursGuide() {
                 answer: "Remember that the psalms express all human emotions. Even psalms of lament end in trust. They give voice to our struggles while pointing to God's faithfulness."
               }
             ]} />
+
+<RelatedArticles currentSlug="liturgy-of-the-hours-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

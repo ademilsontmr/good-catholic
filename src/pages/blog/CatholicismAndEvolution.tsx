@@ -138,8 +138,6 @@ export default function CatholicismAndEvolution() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholicism-and-evolution-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to read the 6 days of Genesis literally?",
@@ -154,6 +152,8 @@ export default function CatholicismAndEvolution() {
                 answer: "In the American sense of 'Young Earth Creationism' (reading the Bible as a science book), no. However, all Catholics are 'Creationists' in the sense that we believe God is the Prime Mover and Primary Cause of everything that exists."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholicism-and-evolution-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

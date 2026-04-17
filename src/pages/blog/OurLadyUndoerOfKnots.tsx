@@ -149,8 +149,6 @@ export default function OurLadyUndoerOfKnots() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="our-lady-undoer-of-knots" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can I pray this novena for someone else?",
@@ -165,6 +163,8 @@ export default function OurLadyUndoerOfKnots() {
                 answer: "Pope Francis often speaks about 'mercy' and 'closeness.' He sees Mary not as a distant queen, but as a mother who is willing to get her hands into the messy, tangled realities of our lives to help fix what we cannot fix ourselves."
               }
             ]} />
+
+<RelatedArticles currentSlug="our-lady-undoer-of-knots" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

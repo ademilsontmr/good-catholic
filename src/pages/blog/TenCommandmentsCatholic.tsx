@@ -286,8 +286,6 @@ export default function TenCommandmentsCatholic() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="ten-commandments-catholic" />
-
             <BlogFAQ faqs={[
               {
                 question: "Why don't Catholics have a commandment about graven images?",
@@ -306,6 +304,8 @@ export default function TenCommandmentsCatholic() {
                 answer: "No. Catholic teaching recognizes the concept of a 'just war' with strict conditions (just cause, right intention, proper authority, last resort, reasonable chance of success, proportionate means). It also recognizes legitimate self-defense. What is absolutely forbidden is the direct, intentional killing of innocent persons. Pope Francis and Saint John Paul II have both expressed that modern conditions leave very narrow space for war to be considered just."
               }
             ]} />
+
+<RelatedArticles currentSlug="ten-commandments-catholic" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

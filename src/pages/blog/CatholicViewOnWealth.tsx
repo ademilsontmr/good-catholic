@@ -153,8 +153,6 @@ export default function CatholicViewOnWealth() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-view-on-wealth" />
-
             <BlogFAQ faqs={[
               {
                 question: "Wait, so is Capitalism 'Catholic'?",
@@ -169,6 +167,8 @@ export default function CatholicViewOnWealth() {
                 answer: "The 10% tithe is a biblical benchmark from the Old Testament. While the New Testament and the Code of Canon Law (Can. 222) require that we support the needs of the Church and the poor, they don't specify a fixed percentage. We are called to give 'as much as our heart and means allow'."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-view-on-wealth" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

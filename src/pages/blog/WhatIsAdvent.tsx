@@ -212,8 +212,6 @@ export default function WhatIsAdvent() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-advent-catholic" />
-
             <BlogFAQ faqs={[
               {
                 question: "When does Advent start in 2026?",
@@ -236,6 +234,8 @@ export default function WhatIsAdvent() {
                 answer: "Advent is the four-week season of preparation before Christmas. Christmas is the feast itself, which begins on December 25 and lasts for twelve days, ending on the Feast of the Epiphany (January 6). The secular 'Christmas season' that begins in November is actually the Advent season in the Catholic liturgical calendar. Catholics are called to observe Advent as a time of waiting and preparation, and then to celebrate Christmas with full joy for the entire twelve days."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-advent-catholic" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

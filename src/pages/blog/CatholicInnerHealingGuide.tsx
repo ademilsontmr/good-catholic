@@ -289,8 +289,6 @@ export default function CatholicInnerHealingGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-inner-healing-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is inner healing prayer biblical?",
@@ -325,6 +323,8 @@ export default function CatholicInnerHealingGuide() {
                 answer: "Sometimes. Emotional stress can contribute to physical illness, so inner healing may help. However, always seek medical care for physical issues. God works through doctors as well as through prayer."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-inner-healing-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

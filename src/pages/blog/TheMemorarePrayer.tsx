@@ -194,8 +194,6 @@ export default function TheMemorarePrayer() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="the-memorare-prayer" />
-
             <BlogFAQ faqs={[
               {
                 question: "Who wrote the Memorare?",
@@ -218,6 +216,8 @@ export default function TheMemorarePrayer() {
                 answer: "Absolutely. The Memorare can be prayed for yourself or as an intercession for others. Many Catholics pray it for the sick, the dying, those in spiritual danger, or anyone in urgent need. You can simply add the person's name and intention before or after the prayer."
               }
             ]} />
+
+<RelatedArticles currentSlug="the-memorare-prayer" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

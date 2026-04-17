@@ -221,8 +221,6 @@ export default function SpiritualDirection() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="catholic-spiritual-direction" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is Catholic spiritual direction?",
@@ -245,6 +243,8 @@ export default function SpiritualDirection() {
                 answer: "Most spiritual directors meet with directees once a month. Some meet more frequently during times of major discernment or spiritual crisis, and less frequently during stable periods. The key is regularity — monthly meetings over a sustained period are far more beneficial than occasional meetings."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-spiritual-direction" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

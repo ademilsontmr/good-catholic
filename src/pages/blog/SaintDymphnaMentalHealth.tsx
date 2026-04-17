@@ -135,8 +135,6 @@ export default function SaintDymphnaMentalHealth() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="saint-dymphna-mental-health" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is it a sin to take medication for mental health?",
@@ -151,6 +149,8 @@ export default function SaintDymphnaMentalHealth() {
                 answer: "She is often shown with a sword (the instrument of her martyrdom) and crown (as a princess), and often holding an oil lamp or a shackled figure, representing her power over mental captivity."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-dymphna-mental-health" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

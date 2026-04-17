@@ -253,8 +253,6 @@ export default function ContemplativePrayer() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-contemplative-prayer" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is contemplative prayer in the Catholic Church?",
@@ -277,6 +275,8 @@ export default function ContemplativePrayer() {
                 answer: "Begin with 15–20 minutes of daily silent prayer. Start with a brief vocal prayer and a short Scripture reading. Then rest in God's presence, gently returning your attention to Him when your mind wanders. Persevere in this practice daily, receive the sacraments regularly, and consider seeking a spiritual director. Contemplation is a gift God gives to those who persevere in prayer."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-contemplative-prayer" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

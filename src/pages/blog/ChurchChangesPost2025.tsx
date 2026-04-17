@@ -140,8 +140,6 @@ export default function ChurchChangesPost2025() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="church-changes-post-2025" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What major changes has the Catholic Church made in recent years?",
@@ -164,6 +162,8 @@ export default function ChurchChangesPost2025() {
                             answer: "With faith, prayer, and charity. Catholics are called to trust in Christ's promise that 'the gates of hell shall not prevail' against the Church (Matthew 16:18). Stay close to the sacraments, study the faith, and maintain unity with your bishop and the Pope."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="church-changes-post-2025" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

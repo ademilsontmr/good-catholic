@@ -217,8 +217,6 @@ export default function WhyPrayToSaints() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="why-do-catholics-pray-to-saints" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is this necromancy (talking to the dead)?",
@@ -249,6 +247,8 @@ export default function WhyPrayToSaints() {
                 answer: "Start with Mary or your patron saint (the one you're named after). Read their lives and ask for their help. Relationships develop over time. The saints want to be your friends—give them a chance!"
               }
             ]} />
+
+<RelatedArticles currentSlug="why-do-catholics-pray-to-saints" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

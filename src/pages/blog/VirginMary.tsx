@@ -148,8 +148,6 @@ export default function VirginMary() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="virgin-mary" />
-
             <BlogFAQ faqs={[
               {
                 question: "Did Jesus have brothers? The Bible mentions 'brothers of Jesus.'",
@@ -164,6 +162,8 @@ export default function VirginMary() {
                 answer: "Christ is the ONLY mediator (1 Tim 2:5). However, Mary participated in that mediation by giving biological life to the source of all grace. Just as a mother 'mediates' life to her child, Mary mediated the Savior to the world."
               }
             ]} />
+
+<RelatedArticles currentSlug="virgin-mary" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

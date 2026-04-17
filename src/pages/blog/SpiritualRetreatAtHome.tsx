@@ -288,8 +288,6 @@ export default function SpiritualRetreatAtHome() {
               </ul>
             </div>
 
-            <RelatedArticles currentSlug="how-to-do-spiritual-retreat-at-home" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can I really make a spiritual retreat at home?",
@@ -312,6 +310,8 @@ export default function SpiritualRetreatAtHome() {
                 answer: "Distractions are normal and expected. Do not fight them — simply notice them, offer them to God, and gently return your attention to prayer. If a particular worry keeps returning, write it down in your journal and offer it explicitly to God. Sometimes the distraction is itself an invitation to bring that concern to prayer."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-do-spiritual-retreat-at-home" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

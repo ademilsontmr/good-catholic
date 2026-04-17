@@ -137,8 +137,6 @@ export default function TheProblemOfSuffering() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="why-does-god-allow-suffering" />
-
             <BlogFAQ faqs={[
               {
                 question: "If God can do anything, why doesn't He heal everyone?",
@@ -153,6 +151,8 @@ export default function TheProblemOfSuffering() {
                 answer: "Often, the best response is the 'Ministry of Presence.' Job's friends were helpful until they started talking. Just be there. Mourn with them. And pray *for* them silently, respecting the mystery of their cross."
               }
             ]} />
+
+<RelatedArticles currentSlug="why-does-god-allow-suffering" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

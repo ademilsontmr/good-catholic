@@ -187,8 +187,6 @@ export default function ThreeDaysOfDarkness() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="three-days-of-darkness-prophecy" />
-
             <BlogFAQ faqs={[
               {
                 question: "Should I be afraid of this prophecy?",
@@ -203,6 +201,8 @@ export default function ThreeDaysOfDarkness() {
                 answer: "Many mystics link the Three Days with a prior event called the 'Warning' or 'Illumination of Conscience,' where every person on Earth will see their soul as God sees it. Expansion of this topic can be found in our articles on Divine Mercy."
               }
             ]} />
+
+<RelatedArticles currentSlug="three-days-of-darkness-prophecy" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

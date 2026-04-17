@@ -157,8 +157,6 @@ export default function AshWednesdayGuide() {
               </ul>
             </div>
 
-            <RelatedArticles currentSlug="ash-wednesday-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is Ash Wednesday a Holy Day of Obligation?",
@@ -177,6 +175,8 @@ export default function AshWednesdayGuide() {
                 answer: "No. Chicken is meat, and therefore prohibited on Ash Wednesday (and all Fridays of Lent) for Catholics aged 14 and older."
               }
             ]} />
+
+<RelatedArticles currentSlug="ash-wednesday-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

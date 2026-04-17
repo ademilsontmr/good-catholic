@@ -228,8 +228,6 @@ export default function FamilyPrayer() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-pray-as-a-family" />
-
             <BlogFAQ faqs={[
               {
                 question: "How do I start family prayer if we've never done it before?",
@@ -252,6 +250,8 @@ export default function FamilyPrayer() {
                 answer: "Don't force it or make it a source of conflict. Pray for your spouse. Lead by example — pray with your children, maintain your own prayer life, and let your spouse see the fruits of prayer in your life. Many spouses who initially resist family prayer eventually join in when they see it becoming a natural, joyful part of family life rather than an obligation."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-pray-as-a-family" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

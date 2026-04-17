@@ -162,8 +162,6 @@ export default function GuardianAngels() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="guardian-angels-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do our angels leave us when we sin?",
@@ -178,6 +176,8 @@ export default function GuardianAngels() {
                 answer: "Catholic tradition and the visions of Fatima suggest that countries and territories have 'Principalities' assigned to them. At Fatima, the 'Angel of Portugal' (or Angel of Peace) appeared to the children before the Virgin Mary did."
               }
             ]} />
+
+<RelatedArticles currentSlug="guardian-angels-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

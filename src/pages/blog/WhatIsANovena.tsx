@@ -230,8 +230,6 @@ export default function WhatIsANovena() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-a-novena" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is a novena?",
@@ -254,6 +252,8 @@ export default function WhatIsANovena() {
                 answer: "God always hears and responds to prayer, but not always in the way we expect. Sometimes He says yes, sometimes wait, and sometimes no — because He has something better in mind. The purpose of a novena is not to force God's hand but to deepen our trust in His providence and align our will with His. Many Catholics testify that even when a novena was not answered as they hoped, the act of praying it transformed them and brought them closer to God."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-a-novena" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

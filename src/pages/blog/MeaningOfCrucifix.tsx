@@ -151,8 +151,6 @@ export default function MeaningOfCrucifix() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="meaning-of-crucifix" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What is the difference between a cross and a crucifix?",
@@ -175,6 +173,8 @@ export default function MeaningOfCrucifix() {
                             answer: "The San Damiano Cross is the Byzantine-style crucifix before which St. Francis of Assisi prayed when he heard Christ say 'Rebuild my Church.' It depicts Christ in glory even on the cross, surrounded by witnesses to the Resurrection. It is one of the most beloved crucifixes in Catholic history."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="meaning-of-crucifix" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

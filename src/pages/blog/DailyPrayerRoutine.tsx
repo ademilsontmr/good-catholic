@@ -240,8 +240,6 @@ export default function DailyPrayerRoutine() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-daily-prayer-routine" />
-
             <BlogFAQ faqs={[
               {
                 question: "How long should a Catholic daily prayer routine take?",
@@ -264,6 +262,8 @@ export default function DailyPrayerRoutine() {
                 answer: "Don't be discouraged — just start again the next day. The saints all experienced periods of inconsistency. St. Francis de Sales advised: 'Have patience with all things, but chiefly have patience with yourself.' The goal is not perfection but perseverance. Missing one day doesn't break a habit; giving up does. Simply return to your routine without guilt and keep going."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-daily-prayer-routine" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

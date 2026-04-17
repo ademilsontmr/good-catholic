@@ -168,8 +168,6 @@ export default function HowToTeachChildrenToPray() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-teach-children-to-pray" />
-
             <BlogFAQ faqs={[
               { question: "At what age should I start teaching my child to pray?", answer: "From birth. Even infants benefit from hearing prayers spoken aloud and experiencing the rhythm of prayer. The Sign of the Cross can be taught as soon as a child can imitate gestures, usually around age 2-3." },
               { question: "What if my child refuses to pray?", answer: "Don't force prayer — it creates negative associations. Instead, continue to model prayer yourself, keep family prayer brief and positive, and look for natural opportunities to pray spontaneously. Most children who resist formal prayer will eventually come around if they see prayer is genuine and joyful in their parents." },
@@ -177,6 +175,8 @@ export default function HowToTeachChildrenToPray() {
               { question: "What are the most important prayers for children to learn?", answer: "In order of priority: Sign of the Cross, Our Father, Hail Mary, Glory Be, Grace Before Meals, Guardian Angel Prayer, and Act of Contrition. These foundational prayers give children the vocabulary of Catholic prayer." },
               { question: "How do I keep teenagers engaged in prayer?", answer: "Give teenagers ownership of their prayer life. Let them choose the form of prayer, the intentions, and the time. Introduce them to Eucharistic Adoration, youth retreats, and Catholic young adult communities. Connect them with peers who take their faith seriously." },
             ]} />
+
+<RelatedArticles currentSlug="how-to-teach-children-to-pray" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">Discover How Your Faith Life Is</h3>

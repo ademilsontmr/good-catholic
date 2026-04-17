@@ -156,8 +156,6 @@ export default function DarkNightOfTheSoul() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="dark-night-of-the-soul-catholic" />
-
             <BlogFAQ faqs={[
               {
                 question: "How long does a Dark Night last?",
@@ -172,6 +170,8 @@ export default function DarkNightOfTheSoul() {
                 answer: "If handled alone, it can lead to despair. However, if handled with guidance and perseverance, it is the safest 'shortcut' to the highest levels of holiness. It is the fire that burns away the dross to reveal the gold."
               }
             ]} />
+
+<RelatedArticles currentSlug="dark-night-of-the-soul-catholic" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

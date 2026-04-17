@@ -215,8 +215,6 @@ export default function ConsecratYourHome() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-consecrate-your-home-to-god" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the difference between blessing and consecrating a home?",
@@ -239,6 +237,8 @@ export default function ConsecratYourHome() {
                 answer: "The 'domestic church' (ecclesia domestica) is a term from the Second Vatican Council that describes the family as a small community of faith — the first and most fundamental school of Christian living. In the domestic church, parents are the first teachers of the faith, prayer is offered together, the sacraments are prepared for, and the Gospel is lived out in daily life. Consecrating your home is a way of formally embracing this calling."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-consecrate-your-home-to-god" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

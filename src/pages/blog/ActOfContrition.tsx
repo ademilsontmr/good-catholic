@@ -179,8 +179,6 @@ export default function ActOfContrition() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="act-of-contrition" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is there one official version of the Act of Contrition?",
@@ -203,6 +201,8 @@ export default function ActOfContrition() {
                 answer: "Many spiritual directors recommend praying the Act of Contrition daily as part of an evening examination of conscience. This practice keeps us humble, aware of our need for God's mercy, and disposed to receive His forgiveness regularly through the Sacrament of Confession."
               }
             ]} />
+
+<RelatedArticles currentSlug="act-of-contrition" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

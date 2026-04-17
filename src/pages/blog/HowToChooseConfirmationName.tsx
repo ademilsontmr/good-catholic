@@ -170,8 +170,6 @@ export default function HowToChooseConfirmationName() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-choose-confirmation-name" />
-
             <BlogFAQ faqs={[
               { question: "Do I have to take a new name at Confirmation?", answer: "Not necessarily. Requirements vary by diocese. Some require a new saint's name; others allow you to use your baptismal name or middle name. Check with your parish or diocese about their specific requirements." },
               { question: "Can I choose any saint as my Confirmation name?", answer: "You should choose a canonized saint — someone officially recognized by the Church as being in heaven. You cannot choose a name from a non-canonized person, a fictional character, or a name with no connection to a saint." },
@@ -179,6 +177,8 @@ export default function HowToChooseConfirmationName() {
               { question: "Can I choose a saint of the opposite gender?", answer: "Traditionally, Catholics choose a saint of the same gender, but this is not a strict rule. Some dioceses allow choosing a saint of either gender. Check with your parish about their guidelines." },
               { question: "How do I learn more about a specific saint?", answer: "Excellent resources include Butler's Lives of the Saints, the Catholic Encyclopedia online, the Vatican's website, and books specifically about the saint you are considering. Your parish library may also have biographies of popular saints." },
             ]} />
+
+<RelatedArticles currentSlug="how-to-choose-confirmation-name" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">Discover How Your Faith Life Is</h3>

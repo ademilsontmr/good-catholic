@@ -143,8 +143,6 @@ export default function SaintMichaelLent() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="st-michael-lent-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to fast from food for 40 days?",
@@ -159,6 +157,8 @@ export default function SaintMichaelLent() {
                 answer: "Archangels (Michael, Gabriel, Raphael) have cosmic missions for the whole Church. Your Guardian Angel is specifically assigned to *you* for your protection and guidance. In St. Michael's Lent, we honor both."
               }
             ]} />
+
+<RelatedArticles currentSlug="st-michael-lent-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

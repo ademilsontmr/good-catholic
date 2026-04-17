@@ -376,8 +376,6 @@ export default function LiturgicalSeasonsGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="liturgical-seasons-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "When does the liturgical year begin and end?",
@@ -411,6 +409,8 @@ export default function LiturgicalSeasonsGuide() {
                 answer: "Absolutely! Many traditions are family-friendly: Advent wreaths, Jesse trees, Lenten practices, Easter celebrations. The Church encourages families to live the liturgical year together as a 'domestic church.'"
               }
             ]} />
+
+<RelatedArticles currentSlug="liturgical-seasons-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -147,8 +147,6 @@ export default function TheCrusadesHistory() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="the-crusades-fact-vs-fiction" />
-
             <BlogFAQ faqs={[
               {
                 question: "Did the Crusaders force Muslims to become Catholic?",
@@ -163,6 +161,8 @@ export default function TheCrusadesHistory() {
                 answer: "In the Jubilee Year 2000, St. John Paul II asked for forgiveness for the 'errors' and 'sins' committed by members of the Church during the Crusades. He apologized for the *conduct* of individuals, while the Church maintains that the original intent—defending pilgrims and the East—was a work of charity."
               }
             ]} />
+
+<RelatedArticles currentSlug="the-crusades-fact-vs-fiction" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

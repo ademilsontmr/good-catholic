@@ -148,8 +148,6 @@ export default function OurLadyOfGuadalupeScience() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="miracle-of-guadalupe-science" />
-
             <BlogFAQ faqs={[
               {
                 question: "Wait, so is the tilma still physically warm?",
@@ -164,6 +162,8 @@ export default function OurLadyOfGuadalupeScience() {
                 answer: "In recent years, researchers discovered that if you map the positions of the stars on the mantle and the centers of the flowers on the tunic onto a musical staff, they produce a perfect, symmetrical, and harmonious melody. There are many recordings of this 'Music of Guadalupe' available online."
               }
             ]} />
+
+<RelatedArticles currentSlug="miracle-of-guadalupe-science" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

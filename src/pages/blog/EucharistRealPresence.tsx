@@ -215,8 +215,6 @@ export default function EucharistRealPresence() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="eucharist-real-presence" />
-
                         <BlogFAQ faqs={[
                             {
                                 question: "Is it cannibalism to receive Communion?",
@@ -247,6 +245,8 @@ export default function EucharistRealPresence() {
                                 answer: "The Eucharist works regardless of feelings. The grace is real even if we don't perceive it. Growth in holiness is often gradual. The important thing is to receive with faith and gratitude, not to seek emotional experiences."
                             }
                         ]} />
+
+<RelatedArticles currentSlug="eucharist-real-presence" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

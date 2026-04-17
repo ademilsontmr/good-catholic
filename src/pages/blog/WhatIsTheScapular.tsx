@@ -189,8 +189,6 @@ export default function WhatIsTheScapular() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-the-brown-scapular" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the Brown Scapular?",
@@ -213,6 +211,8 @@ export default function WhatIsTheScapular() {
                 answer: "No. The Church teaches that the Brown Scapular is a sign of consecration and trust in Mary, not a magical guarantee of salvation. It must be worn with genuine devotion and a sincere effort to live a Christian life. The promise of Our Lady is understood in the context of a life of faith, repentance, and love — not as an automatic protection regardless of one's spiritual state."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-the-brown-scapular" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

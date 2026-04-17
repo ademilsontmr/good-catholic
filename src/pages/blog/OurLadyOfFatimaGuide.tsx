@@ -296,8 +296,6 @@ export default function OurLadyOfFatimaGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="our-lady-of-fatima-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Are the Fatima apparitions approved by the Catholic Church?",
@@ -332,6 +330,8 @@ export default function OurLadyOfFatimaGuide() {
                 answer: "Yes. The Sanctuary of Our Lady of Fatima in Portugal welcomes millions of pilgrims annually. The site includes the Chapel of the Apparitions, basilicas, and places associated with the seers."
               }
             ]} />
+
+<RelatedArticles currentSlug="our-lady-of-fatima-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

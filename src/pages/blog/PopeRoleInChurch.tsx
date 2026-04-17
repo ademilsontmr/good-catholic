@@ -219,8 +219,6 @@ export default function PopeRoleInChurch() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-the-popes-role-catholic-church" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the biblical basis for the papacy?",
@@ -243,6 +241,8 @@ export default function PopeRoleInChurch() {
                 answer: "The Orthodox Churches separated from Rome in 1054 partly over the question of papal authority — they accept a primacy of honor for the Bishop of Rome but not his universal jurisdiction. Protestants rejected the papacy in the 16th century Reformation, arguing it had no biblical basis. The Catholic Church is committed to ecumenical dialogue on these questions."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-the-popes-role-catholic-church" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

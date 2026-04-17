@@ -192,8 +192,6 @@ export default function MorningOfferingPrayer() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="morning-offering-prayer" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the Morning Offering?",
@@ -216,6 +214,8 @@ export default function MorningOfferingPrayer() {
                 answer: "Traditionally it is prayed first thing in the morning to consecrate the entire day. However, if you forget, you can pray it at any time. Some people also pray an 'Evening Offering' to consecrate the night. The important thing is the sincere intention to offer your life to God."
               }
             ]} />
+
+<RelatedArticles currentSlug="morning-offering-prayer" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

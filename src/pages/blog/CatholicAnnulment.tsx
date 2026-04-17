@@ -250,8 +250,6 @@ export default function CatholicAnnulment() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-annulment-catholic-church" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the difference between an annulment and a divorce?",
@@ -274,6 +272,8 @@ export default function CatholicAnnulment() {
                 answer: "A divorced Catholic who has not remarried is in full communion with the Church and can receive the sacraments, including Communion. A divorced Catholic who has civilly remarried without an annulment is in an irregular situation and is generally not able to receive Communion — though they are encouraged to remain active in the Church and to seek pastoral guidance."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-annulment-catholic-church" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

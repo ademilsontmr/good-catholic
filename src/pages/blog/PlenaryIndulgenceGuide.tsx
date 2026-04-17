@@ -127,8 +127,6 @@ export default function PlenaryIndulgenceGuide() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="plenary-indulgence-guide" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What is a plenary indulgence?",
@@ -151,6 +149,8 @@ export default function PlenaryIndulgenceGuide() {
                             answer: "No. The Church has never taught that indulgences can be purchased. The abuses of selling indulgences in the Middle Ages were condemned by the Council of Trent. An indulgence is a spiritual benefit gained through prayer and good works, never through money."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="plenary-indulgence-guide" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

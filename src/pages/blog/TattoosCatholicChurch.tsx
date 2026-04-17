@@ -225,8 +225,6 @@ export default function TattoosCatholicChurch() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="are-tattoos-a-sin" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can Coptic Christians get tattoos but others can't?",
@@ -245,6 +243,8 @@ export default function TattoosCatholicChurch() {
                 answer: "No. However, you must ensure the image is placed in a respectful location and used to inspire prayer, not as a mere 'accessory' that trivializes a sacred object."
               }
             ]} />
+
+<RelatedArticles currentSlug="are-tattoos-a-sin" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

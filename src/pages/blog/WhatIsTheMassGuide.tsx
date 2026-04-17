@@ -238,8 +238,6 @@ export default function WhatIsTheMassGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-the-catholic-mass" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the Catholic Mass?",
@@ -262,6 +260,8 @@ export default function WhatIsTheMassGuide() {
                 answer: "Catholics kneel as a sign of adoration and humility before God. The most important moment of kneeling is after the consecration, when the bread and wine have become the Body and Blood of Christ. Kneeling expresses the belief that Christ is truly present on the altar. Standing is the traditional posture for prayer in the early Church and is used during the Gospel and the Eucharistic Prayer in many places."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-the-catholic-mass" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

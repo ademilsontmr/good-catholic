@@ -187,8 +187,6 @@ export default function CatholicMarriageGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-marriage-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can a Catholic marry a non-Catholic in the Catholic Church?",
@@ -211,6 +209,8 @@ export default function CatholicMarriageGuide() {
                 answer: "Yes, according to Catholic teaching. The Church teaches that artificial contraception is intrinsically wrong because it deliberately separates the unitive and procreative dimensions of the marital act. This teaching is set forth in Pope Paul VI's encyclical Humanae Vitae (1968) and reaffirmed by subsequent popes. The Church proposes Natural Family Planning as a morally acceptable alternative for couples with serious reasons to space or limit pregnancies."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-marriage-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

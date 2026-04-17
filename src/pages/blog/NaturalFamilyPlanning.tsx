@@ -248,8 +248,6 @@ export default function NaturalFamilyPlanning() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="natural-family-planning-catholic" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is Natural Family Planning (NFP)?",
@@ -272,6 +270,8 @@ export default function NaturalFamilyPlanning() {
                 answer: "Yes. Modern NFP methods, particularly the Creighton Model and Billings Ovulation Method, are designed to work with irregular cycles, during breastfeeding, and approaching menopause. A certified teacher can help you learn to identify your fertile signs regardless of cycle regularity."
               }
             ]} />
+
+<RelatedArticles currentSlug="natural-family-planning-catholic" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

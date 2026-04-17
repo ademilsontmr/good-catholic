@@ -248,8 +248,6 @@ export default function WhatIsRCIA() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-rcia-for-adults" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to be baptized to start RCIA?",
@@ -272,6 +270,8 @@ export default function WhatIsRCIA() {
                 answer: "If you were baptized Catholic but never completed your sacramental initiation, you may participate in RCIA or in a separate preparation program, depending on your parish. Speak with your parish's RCIA director or pastor about your specific situation. The process will be adapted to your needs — you won't need to repeat your baptism."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-rcia-for-adults" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

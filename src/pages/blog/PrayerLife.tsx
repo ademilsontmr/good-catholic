@@ -187,8 +187,6 @@ export default function PrayerLife() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="prayer-life" />
-
             <BlogFAQ faqs={[
               {
                 question: "How much time should I spend in prayer each day?",
@@ -211,6 +209,8 @@ export default function PrayerLife() {
                 answer: "Set a fixed time and place each day. Start small — even 5 minutes consistently beats 1 hour occasionally. Use a prayer journal, a rosary, or a prayer book to help focus. Link prayer to an existing habit (morning coffee, before bed). Accountability with a prayer partner also helps."
               }
             ]} />
+
+<RelatedArticles currentSlug="prayer-life" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

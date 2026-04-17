@@ -228,8 +228,6 @@ export default function CatholicTeachingOnDivorce() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-teaching-on-divorce" />
-
             <BlogFAQ faqs={[
               {
                 question: "Does getting a civil divorce automatically excommunicate a Catholic?",
@@ -256,6 +254,8 @@ export default function CatholicTeachingOnDivorce() {
                 answer: "Yes. Canon law acknowledges that civil separation — living apart from an abusive or unfaithful spouse — may be morally legitimate and sometimes necessary for the protection of a spouse and children. This does not dissolve the marriage bond, but establishes a separate household. Separation may also be the first step toward discerning an annulment petition."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-teaching-on-divorce" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -148,8 +148,6 @@ export default function StationsOfTheCross() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="stations-of-the-cross" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to pray the 15th Station?",
@@ -164,6 +162,8 @@ export default function StationsOfTheCross() {
                 answer: "Yes! For those who are physically restricted, you can gain a plenary indulgence by spending 15 minutes devoutly reading and meditating on the Way of the Cross."
               }
             ]} />
+
+<RelatedArticles currentSlug="stations-of-the-cross" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

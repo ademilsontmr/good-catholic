@@ -136,8 +136,6 @@ export default function BrownScapularGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="brown-scapular-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Does it have to be wool?",
@@ -152,6 +150,8 @@ export default function BrownScapularGuide() {
                 answer: "Yes, you can take it off for hygiene or medical procedures. The requirement to 'wear it continuously' applies to our lifestyle and identity, not to a literal 24/7 rule that would prevent cleanliness."
               }
             ]} />
+
+<RelatedArticles currentSlug="brown-scapular-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

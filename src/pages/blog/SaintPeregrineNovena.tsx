@@ -144,8 +144,6 @@ export default function SaintPeregrineNovena() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="saint-peregrine-novena" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do miracles still happen today?",
@@ -160,6 +158,8 @@ export default function SaintPeregrineNovena() {
                 answer: "In addition to St. Peregrine, many turn to St. Luke (a physician), St. Raphael the Archangel (whose name means 'God Heals'), and St. Jude (the Patron of Impossible Causes)."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-peregrine-novena" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

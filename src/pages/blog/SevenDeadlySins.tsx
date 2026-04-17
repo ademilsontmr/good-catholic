@@ -285,8 +285,6 @@ export default function SevenDeadlySins() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="seven-deadly-sins" />
-
             <BlogFAQ faqs={[
               {
                 question: "Are the 7 deadly sins in the Bible?",
@@ -313,6 +311,8 @@ export default function SevenDeadlySins() {
                 answer: "The tradition is rooted in the 4th-century desert monk Evagrius Ponticus, who listed eight 'evil thoughts.' St. John Cassian brought his work West. Pope St. Gregory the Great reorganized the list into seven, substituting envy for vainglory and adding sloth. St. Thomas Aquinas provided the definitive theological synthesis in the 13th century."
               }
             ]} />
+
+<RelatedArticles currentSlug="seven-deadly-sins" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

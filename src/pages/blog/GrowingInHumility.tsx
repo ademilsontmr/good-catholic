@@ -232,8 +232,6 @@ export default function GrowingInHumility() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="how-to-grow-in-humility-catholic" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is humility in Catholic spirituality?",
@@ -256,6 +254,8 @@ export default function GrowingInHumility() {
                 answer: "St. Francis of Assisi gave up wealth and refused authority, calling himself 'the greatest of sinners.' St. Thérèse of Lisieux developed the 'Little Way' of spiritual childhood, embracing her smallness as the means by which God could work most powerfully. St. Joseph lived in complete hiddenness without a single recorded word in the Gospels, serving as the foster father of the Son of God in obscurity."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-grow-in-humility-catholic" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

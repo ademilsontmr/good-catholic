@@ -186,8 +186,6 @@ export default function BlessedCarloAcutis() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="blessed-carlo-acutis" />
-
             <BlogFAQ faqs={[
               {
                 question: "Who is Carlo Acutis?",
@@ -210,6 +208,8 @@ export default function BlessedCarloAcutis() {
                 answer: "Carlo Acutis is buried in the Sanctuary of the Renunciation in Assisi, Italy — the city of St. Francis, whom he deeply admired. His tomb has become a major pilgrimage site, drawing hundreds of thousands of visitors each year, particularly young people."
               }
             ]} />
+
+<RelatedArticles currentSlug="blessed-carlo-acutis" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

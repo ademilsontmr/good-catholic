@@ -145,8 +145,6 @@ export default function IncorruptibleSaints() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="incorruptible-saints-miracle" />
-
             <BlogFAQ faqs={[
               {
                 question: "Wait, so are they really 'soft and moist'?",
@@ -161,6 +159,8 @@ export default function IncorruptibleSaints() {
                 answer: "Yes, in rare cases of saponification (body fat turning to wax) or extreme dryness. However, these natural phenomena result in a very different appearance—the bodies are usually gray, oily, or shriveled, and they lack the flexibility and floral fragrance found in the miraculous cases."
               }
             ]} />
+
+<RelatedArticles currentSlug="incorruptible-saints-miracle" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

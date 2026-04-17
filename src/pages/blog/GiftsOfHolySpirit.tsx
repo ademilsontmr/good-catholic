@@ -163,8 +163,6 @@ export default function GiftsOfHolySpirit() {
                             </div>
                         </div>
 
-                        <RelatedArticles currentSlug="gifts-holy-spirit" />
-
                         <BlogFAQ faqs={[
                           {
                             question: "What are the 7 gifts of the Holy Spirit?",
@@ -187,6 +185,8 @@ export default function GiftsOfHolySpirit() {
                             answer: "Growth in the gifts comes through prayer, frequent reception of the sacraments, reading Scripture, practicing virtue, and openness to the Holy Spirit. Ask the Holy Spirit daily to activate His gifts in you. The Novena to the Holy Spirit before Pentecost is especially powerful."
                           }
                         ]} />
+
+<RelatedArticles currentSlug="gifts-holy-spirit" />
 
                         <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
                             <h3 className="font-display text-2xl font-bold text-text mb-4">

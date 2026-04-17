@@ -213,8 +213,6 @@ export default function CatholicFastingRules() {
               </ul>
             </div>
 
-            <RelatedArticles currentSlug="catholic-fasting-rules" />
-
             <BlogFAQ faqs={[
               {
                 question: "What are the Catholic fasting rules for Ash Wednesday and Good Friday?",
@@ -237,6 +235,8 @@ export default function CatholicFastingRules() {
                 answer: "Liquids, including coffee, juice, and milk, are generally permitted during the Church's required fast on Ash Wednesday and Good Friday. The fast restricts the amount of food eaten, not liquid intake. However, for the Eucharistic fast (one hour before Communion), only water and medicine are permitted — coffee, juice, and other beverages break the Eucharistic fast."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-fasting-rules" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

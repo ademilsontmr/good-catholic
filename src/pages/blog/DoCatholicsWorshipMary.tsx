@@ -243,8 +243,6 @@ export default function DoCatholicsWorshipMary() {
               </p>
             </div>
 
-            <RelatedArticles currentSlug="do-catholics-worship-mary" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do Catholics worship Mary?",
@@ -267,6 +265,8 @@ export default function DoCatholicsWorshipMary() {
                 answer: "Statues of Mary serve as visual aids for prayer and meditation, similar to how a photograph of a loved one helps us focus our thoughts. Catholics do not believe the statue itself has power — the veneration is directed to Mary herself, not the object. This is the same principle behind crucifixes and images of Christ."
               }
             ]} />
+
+<RelatedArticles currentSlug="do-catholics-worship-mary" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

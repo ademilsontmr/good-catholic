@@ -179,8 +179,6 @@ export default function CatholicBaptismGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-baptism-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can a non-Catholic baptize someone in an emergency?",
@@ -203,6 +201,8 @@ export default function CatholicBaptismGuide() {
                 answer: "While the Easter Vigil is the preferred time for adult Baptism, the Church permits adult Baptism at other times when there is a serious reason (such as danger of death or other pastoral necessity). In such cases, the full RCIA process may be abbreviated. The parish priest or RCIA director can advise on the appropriate course of action."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-baptism-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

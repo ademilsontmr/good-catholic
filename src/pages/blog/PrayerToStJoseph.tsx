@@ -186,8 +186,6 @@ export default function PrayerToStJoseph() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="prayer-to-st-joseph" />
-
             <BlogFAQ faqs={[
               {
                 question: "Why is St. Joseph so important in Catholic tradition?",
@@ -210,6 +208,8 @@ export default function PrayerToStJoseph() {
                 answer: "You can develop devotion to St. Joseph by celebrating his feast days (March 19 and May 1), praying the Litany of St. Joseph, placing his image in your home, reading 'Patris Corde' by Pope Francis, consecrating your family to him, and asking for his intercession in your daily prayers."
               }
             ]} />
+
+<RelatedArticles currentSlug="prayer-to-st-joseph" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

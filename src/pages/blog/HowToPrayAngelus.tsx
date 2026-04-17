@@ -225,8 +225,6 @@ export default function HowToPrayAngelus() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-pray-the-angelus" />
-
             <BlogFAQ faqs={[
               {
                 question: "What is the Angelus prayer?",
@@ -249,6 +247,8 @@ export default function HowToPrayAngelus() {
                 answer: "Families can pray the Angelus together by setting a shared alarm at noon (or another convenient time), gathering briefly to recite the prayer, and alternating the versicles between a leader and the rest of the family. Even young children can participate by responding 'And she conceived of the Holy Spirit' and praying the Hail Marys. It takes only about two minutes and is a beautiful way to sanctify family life."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-pray-the-angelus" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

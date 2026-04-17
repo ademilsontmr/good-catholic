@@ -185,8 +185,6 @@ export default function CatholicConfirmationGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-confirmation-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "At what age do Catholics receive Confirmation?",
@@ -209,6 +207,8 @@ export default function CatholicConfirmationGuide() {
                 answer: "Missing classes can delay your Confirmation. Most programs require a certain level of attendance and participation. If you miss sessions, communicate with your parish's religious education director as soon as possible. In some cases, you may be able to make up missed content; in others, you may need to wait until the following year's class."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-confirmation-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

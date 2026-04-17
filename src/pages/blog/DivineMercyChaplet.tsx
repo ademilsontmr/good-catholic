@@ -157,8 +157,6 @@ export default function DivineMercyChaplet() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="divine-mercy-chaplet" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to pray it at 3:00 PM?",
@@ -173,6 +171,8 @@ export default function DivineMercyChaplet() {
                 answer: "The Rosary is the pre-eminent Marian prayer. The Chaplet is a pre-eminent Eucharistic/Christocentric prayer. They complement each other perfectly. Many Catholics pray the Rosary in the morning and the Chaplet at 3:00 PM."
               }
             ]} />
+
+<RelatedArticles currentSlug="divine-mercy-chaplet" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

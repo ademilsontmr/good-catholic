@@ -134,8 +134,6 @@ export default function WhatIsTheNiceneCreed() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="what-is-the-nicene-creed" />
-
             <BlogFAQ faqs={[
               {
                 question: "Why do we bow during the Creed?",
@@ -150,6 +148,8 @@ export default function WhatIsTheNiceneCreed() {
                 answer: "The *sentences* of the Creed are all in the Bible. The *structure* was put together by the Church to summarize the Bible. Just as a map summarizes a landscape, the Creed summarizes the Gospel so we don't get lost."
               }
             ]} />
+
+<RelatedArticles currentSlug="what-is-the-nicene-creed" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

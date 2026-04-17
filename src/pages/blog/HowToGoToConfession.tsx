@@ -152,8 +152,6 @@ export default function HowToGoToConfession() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-go-to-confession" />
-
             <BlogFAQ faqs={[
               {
                 question: "What if I forget a mortal sin?",
@@ -168,6 +166,8 @@ export default function HowToGoToConfession() {
                 answer: "The Church requires it once a year if you are in mortal sin. However, spiritual directors recommend once a month as a way to grow in virtue and keep the soul healthy."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-go-to-confession" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
