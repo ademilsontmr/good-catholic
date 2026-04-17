@@ -206,8 +206,6 @@ export default function JubileePilgrimageGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="jubilee-pilgrimage-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "Can I still receive indulgences after the Jubilee ends?",
@@ -226,6 +224,8 @@ export default function JubileePilgrimageGuide() {
                 answer: "A pilgrim of hope trusts in God's promises even when the path is difficult. It means living with confidence that God guides our journey, that every step brings us closer to heaven, and that no suffering is wasted when united with Christ. It's about keeping our eyes fixed on our ultimate destination while serving others along the way."
               }
             ]} />
+
+<RelatedArticles currentSlug="jubilee-pilgrimage-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

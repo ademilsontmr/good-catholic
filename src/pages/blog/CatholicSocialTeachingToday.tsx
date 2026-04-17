@@ -174,8 +174,6 @@ export default function CatholicSocialTeachingToday() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-social-teaching-today" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is Catholic social teaching conservative or liberal?",
@@ -194,6 +192,8 @@ export default function CatholicSocialTeachingToday() {
                 answer: "This principle, articulated by Latin American bishops and affirmed by the universal Church, means that the needs of the poor and vulnerable receive priority in economic life and policy decisions. It does not mean the poor are morally superior, but that their material needs are urgent and their voices often excluded. This option challenges Catholics to examine whom their choices serve."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-social-teaching-today" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

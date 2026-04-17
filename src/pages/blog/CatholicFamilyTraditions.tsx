@@ -224,8 +224,6 @@ export default function CatholicFamilyTraditions() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-family-traditions" />
-
             <BlogFAQ faqs={[
               {
                 question: "What if my family isn't consistent with traditions?",
@@ -244,6 +242,8 @@ export default function CatholicFamilyTraditions() {
                 answer: "Absolutely! The domestic church applies to any Catholic household, regardless of composition. Singles can create prayer corners, observe liturgical seasons, and invite others to share in their faith-filled homes. The vocation differs, but the principle remains: make your dwelling a place of prayer and Christian witness."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-family-traditions" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

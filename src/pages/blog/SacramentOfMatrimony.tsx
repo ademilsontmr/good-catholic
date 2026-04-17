@@ -177,8 +177,6 @@ export default function SacramentOfMatrimony() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="sacrament-of-matrimony" />
-
             <BlogFAQ faqs={[
               {
                 question: "Why does the Church require marriage preparation?",
@@ -197,6 +195,8 @@ export default function SacramentOfMatrimony() {
                 answer: "Pray together daily, attend Mass weekly, receive confession regularly, read about Catholic marriage, attend marriage enrichment programs, communicate openly about difficulties, serve together in ministry, and seek help early when problems arise. The sacramental grace is there—access it through these practices."
               }
             ]} />
+
+<RelatedArticles currentSlug="sacrament-of-matrimony" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

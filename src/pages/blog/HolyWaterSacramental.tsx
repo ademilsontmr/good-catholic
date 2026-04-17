@@ -198,8 +198,6 @@ export default function HolyWaterSacramental() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="holy-water-sacramental" />
-
             <BlogFAQ faqs={[
               {
                 question: "Does holy water expire?",
@@ -218,6 +216,8 @@ export default function HolyWaterSacramental() {
                 answer: "The Church teaches that holy water, as a sacramental, provides protection against evil. The blessing prayers specifically invoke this protection. While not magic, holy water represents faith in Christ's power over evil and our baptismal identity as children of God, protected by His grace."
               }
             ]} />
+
+<RelatedArticles currentSlug="holy-water-sacramental" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

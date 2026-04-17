@@ -172,8 +172,6 @@ export default function ManagingDepression() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="managing-depression" />
-
             <BlogFAQ faqs={[
               {
                 question: "Is depression a punishment from God?",
@@ -192,6 +190,8 @@ export default function ManagingDepression() {
                 answer: "Seek immediate help if you have thoughts of harming yourself, cannot care for basic needs, experience psychotic symptoms, or feel unable to keep yourself safe. Call emergency services, a suicide hotline (988 in the US), or go to an emergency room. Depression can become life-threatening and requires urgent care."
               }
             ]} />
+
+<RelatedArticles currentSlug="managing-depression" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

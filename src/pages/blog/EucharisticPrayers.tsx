@@ -195,8 +195,6 @@ export default function EucharisticPrayers() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="eucharistic-prayers" />
-
             <BlogFAQ faqs={[
               {
                 question: "What should I wear to Eucharistic adoration?",
@@ -215,6 +213,8 @@ export default function EucharisticPrayers() {
                 answer: "Feelings are not necessary for effective prayer. Christ is present objectively whether you feel Him or not. Many saints experienced long periods of spiritual dryness in adoration. Continue showing up out of love and fidelity. The graces flow even when they are not perceived."
               }
             ]} />
+
+<RelatedArticles currentSlug="eucharistic-prayers" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

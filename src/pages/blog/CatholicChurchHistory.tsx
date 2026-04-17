@@ -187,8 +187,6 @@ export default function CatholicChurchHistory() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-church-history" />
-
             <BlogFAQ faqs={[
               {
                 question: "Was the Catholic Church the first Christian Church?",
@@ -207,6 +205,8 @@ export default function CatholicChurchHistory() {
                 answer: "History shows the Church always faces crises—heresies, corruption, persecution, cultural changes—and survives through renewal, saints, and fidelity to the Gospel. Current challenges (secularization, abuse crisis, division) are serious but not unprecedented. History encourages hope: the Church endures not because of human strength but Christ's promise."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-church-history" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

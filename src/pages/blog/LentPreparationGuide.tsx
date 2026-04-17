@@ -199,8 +199,6 @@ export default function LentPreparationGuide() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="lent-preparation-guide" />
-
             <BlogFAQ faqs={[
               {
                 question: "What are the official fasting rules for Lent?",
@@ -219,6 +217,8 @@ export default function LentPreparationGuide() {
                 answer: "Yes, adapted to their age. Children can give up sweets, say extra prayers, do kind deeds, or collect money for the poor. Make it positive and achievable. Teaching children Lenten discipline forms them in the faith. Family practices (like Stations of the Cross together) are especially valuable."
               }
             ]} />
+
+<RelatedArticles currentSlug="lent-preparation-guide" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -174,8 +174,6 @@ export default function FaithAndAnxiety() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="faith-and-anxiety" />
-
             <BlogFAQ faqs={[
               {
                 question: "Does anxiety mean I lack faith?",
@@ -194,6 +192,8 @@ export default function FaithAndAnxiety() {
                 answer: "During acute anxiety, simple prayers work best: the Jesus Prayer, Hail Mary, or even just 'Jesus, I trust in You.' The Memorare to Mary is also powerful. Focus on the words and your breathing. Remember that God is with you even in the anxiety."
               }
             ]} />
+
+<RelatedArticles currentSlug="faith-and-anxiety" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

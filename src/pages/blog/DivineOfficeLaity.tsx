@@ -186,8 +186,6 @@ export default function DivineOfficeLaity() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="divine-office-laity" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I need special books to pray the Divine Office?",
@@ -206,6 +204,8 @@ export default function DivineOfficeLaity() {
                 answer: "Yes. The Rosary is a private devotional prayer involving meditation on mysteries. The Divine Office is the Church's official liturgical prayer, praying the psalms and readings. Both are valuable—many Catholics pray both daily, or alternate between them depending on time and circumstances."
               }
             ]} />
+
+<RelatedArticles currentSlug="divine-office-laity" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

@@ -202,8 +202,6 @@ export default function SpiritualLifeBasics() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="spiritual-life-basics" />
-
             <BlogFAQ faqs={[
               {
                 question: "How long should I pray each day?",
@@ -222,6 +220,8 @@ export default function SpiritualLifeBasics() {
                 answer: "Spiritual direction is highly recommended for serious growth. A director helps discern God's will, navigate difficulties, and stay accountable. If you cannot find a priest director, mature lay Catholics can also provide guidance."
               }
             ]} />
+
+<RelatedArticles currentSlug="spiritual-life-basics" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

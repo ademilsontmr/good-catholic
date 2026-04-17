@@ -220,8 +220,6 @@ export default function HowToReadBible() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="how-to-read-bible" />
-
             <BlogFAQ faqs={[
               {
                 question: "How much should I read each day?",
@@ -240,6 +238,8 @@ export default function HowToReadBible() {
                 answer: "This is normal! Scripture is deep and requires study. Use commentaries, ask your priest, discuss with knowledgeable Catholics, and be patient. Over time, understanding grows. Some passages will remain mysterious—and that's okay. Faith seeks understanding, but not all mysteries are fully solved this side of heaven."
               }
             ]} />
+
+<RelatedArticles currentSlug="how-to-read-bible" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

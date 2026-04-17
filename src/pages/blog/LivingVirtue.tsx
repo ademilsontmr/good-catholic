@@ -206,8 +206,6 @@ export default function LivingVirtue() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="living-virtue" />
-
             <BlogFAQ faqs={[
               {
                 question: "How do I know which virtue to focus on?",
@@ -226,6 +224,8 @@ export default function LivingVirtue() {
                 answer: "No—one cannot have too much faith, hope, or charity. However, virtue must be balanced: courage without prudence becomes rashness; justice without mercy becomes harshness. The virtues work together, each tempering the others. Seek the whole package, not isolated extremes."
               }
             ]} />
+
+<RelatedArticles currentSlug="living-virtue" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

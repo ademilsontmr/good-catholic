@@ -176,8 +176,6 @@ export default function PropheciesOfFatima() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="prophecies-of-fatima" />
-
             <BlogFAQ faqs={[
               {
                 question: "Are the Fatima secrets fully revealed?",
@@ -196,6 +194,8 @@ export default function PropheciesOfFatima() {
                 answer: "Our Lady requested reparation for sins through the First Saturday devotion: receiving Communion, praying the Rosary, meditating on the mysteries, and spending 15 minutes with Mary on the first Saturday of five consecutive months. This devotion is closely connected to the Fatima message."
               }
             ]} />
+
+<RelatedArticles currentSlug="prophecies-of-fatima" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

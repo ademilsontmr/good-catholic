@@ -179,8 +179,6 @@ export default function SaintPadrePioMiracles() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="saint-padre-pio-miracles" />
-
             <BlogFAQ faqs={[
               {
                 question: "Did Padre Pio ever deny having the stigmata?",
@@ -199,6 +197,8 @@ export default function SaintPadrePioMiracles() {
                 answer: "Yes. The Church approved several miracles for his beatification and canonization, including miraculous healings attributed to his intercession. These were investigated thoroughly by medical and theological commissions before being approved by the Vatican."
               }
             ]} />
+
+<RelatedArticles currentSlug="saint-padre-pio-miracles" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

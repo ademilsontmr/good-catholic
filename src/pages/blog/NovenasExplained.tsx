@@ -183,8 +183,6 @@ export default function NovenasExplained() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="novenas-explained" />
-
             <BlogFAQ faqs={[
               {
                 question: "Do I have to pray a novena exactly nine consecutive days?",
@@ -203,6 +201,8 @@ export default function NovenasExplained() {
                 answer: "Yes, though it's often better to focus on one or two at a time to pray them well. If you have multiple urgent intentions, you can certainly pray several novenas simultaneously. Just be sure you can maintain the commitment to each."
               }
             ]} />
+
+<RelatedArticles currentSlug="novenas-explained" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

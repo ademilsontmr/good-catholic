@@ -275,8 +275,6 @@ export default function RosaryMysteriesMeditation() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="rosary-mysteries-meditation" />
-
             <BlogFAQ faqs={[
               {
                 question: "Which mysteries should I pray on which days?",
@@ -295,6 +293,8 @@ export default function RosaryMysteriesMeditation() {
                 answer: "Distraction is normal. When you notice your mind wandering, gently return attention to the mystery and prayers. Some find it helps to announce the mystery aloud before each decade, look at an image of the mystery, or pray more slowly. The effort to refocus is itself prayer."
               }
             ]} />
+
+<RelatedArticles currentSlug="rosary-mysteries-meditation" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">

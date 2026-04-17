@@ -232,8 +232,6 @@ export default function CatholicMarriagePreparation() {
               </div>
             </div>
 
-            <RelatedArticles currentSlug="catholic-marriage-preparation" />
-
             <BlogFAQ faqs={[
               {
                 question: "How long does Catholic marriage preparation take?",
@@ -252,6 +250,8 @@ export default function CatholicMarriagePreparation() {
                 answer: "The Church provides the essential vows that express the sacrament. You may be able to personalize vows slightly with your officiant's approval, but you cannot replace the canonical form that makes the marriage valid. The standard vows are beautiful and have sustained Catholic marriages for centuries."
               }
             ]} />
+
+<RelatedArticles currentSlug="catholic-marriage-preparation" />
 
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">
