@@ -245,7 +245,8 @@ export default function CatholicParentingGuide() {
               <h3 className="fontfont-display text-xl font-semibold text-text mt-8 mb-3">
                 Ordinary Time: Growth and Service
               </h3>
-              <li><strong>Saints' Feast Days:</strong> Learning from the saints</li>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Saints' Feast Days:</strong> Learning from the saints</li>
                 <li><strong>Mary's Months:</strong> May and October devotions</li>
                 <li><strong>Family Service Projects:</strong> Serving together as a family</li>
                 <li><strong>Ordinary Time Growth:</strong> Consistent spiritual practices</li>
@@ -381,7 +382,6 @@ export default function CatholicParentingGuide() {
                 <li><strong>Community Events:</strong> Participating in parish life</li>
                 <li><strong>Social Justice:</strong> Working for justice and peace</li>
               </ul>
-              </ul>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Catholic Friendships
@@ -498,10 +498,10 @@ export default function CatholicParentingGuide() {
                 <h3 className="font-display text-lg font-bold text-text mb-4">Recommended Books</h3>
                 <ul className="list-disc list-inside text-text space-y-2">
                   <li><strong>Catholic Parenting:</strong> By Gregory and Lisa Popcak</li>
-                  <strong>Raising Catholic Kids:</strong> By Greg and Lisa Popcak</li>
-                  <strong>The Catholic Parent's Guide:</strong> By David and Lisa Popcak</li>
-                  <strong>Parenting with Grace:</strong> By Dr. Gregory Popcak</li>
-                  <strong>Parenting with Love:</strong> By Dr. Gregory Popcak</li>
+                  <li><strong>Raising Catholic Kids:</strong> By Greg and Lisa Popcak</li>
+                  <li><strong>The Catholic Parent's Guide:</strong> By David and Lisa Popcak</li>
+                  <li><strong>Parenting with Grace:</strong> By Dr. Gregory Popcak</li>
+                  <li><strong>Parenting with Love:</strong> By Dr. Gregory Popcak</li>
                 </ul>
               </div>
               
@@ -554,8 +554,8 @@ export default function CatholicParentingGuide() {
                 <li><strong>Time Constraints:</strong> Busy schedules and competing demands</li>
                 <li><strong>Personal Struggles:</strong> Your own imperfections and limitations</li>
                 <li><strong>Family Difficulties:</strong> Family conflicts and challenges</li>
-                <li><li><strong>Financial Pressures:</strong> Economic challenges</li>
-                <li><li><li><strong>Spiritual Dryness:</strong> Periods of spiritual dryness</li>
+                <li><strong>Financial Pressures:</strong> Economic challenges</li>
+                <li><strong>Spiritual Dryness:</strong> Periods of spiritual dryness</li>
               </ul>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
