@@ -151,6 +151,27 @@ import CatholicSacramentalsGuide from "./pages/blog/CatholicSacramentalsGuide";
 import LiturgyOfTheHoursGuide from "./pages/blog/LiturgyOfTheHoursGuide";
 import CatholicDatingGuide from "./pages/blog/CatholicDatingGuide";
 import CatholicParentingGuide from "./pages/blog/CatholicParentingGuide";
+import SpiritualLifeBasics from "./pages/blog/SpiritualLifeBasics";
+import HealingThroughFaith from "./pages/blog/HealingThroughFaith";
+import DignityOfWork from "./pages/blog/DignityOfWork";
+import SaintPadrePioMiracles from "./pages/blog/SaintPadrePioMiracles";
+import PropheciesOfFatima from "./pages/blog/PropheciesOfFatima";
+import NovenasExplained from "./pages/blog/NovenasExplained";
+import DivineOfficeLaity from "./pages/blog/DivineOfficeLaity";
+import FaithAndAnxiety from "./pages/blog/FaithAndAnxiety";
+import ManagingDepression from "./pages/blog/ManagingDepression";
+import SacramentOfMatrimony from "./pages/blog/SacramentOfMatrimony";
+import EucharisticPrayers from "./pages/blog/EucharisticPrayers";
+import LentPreparationGuide from "./pages/blog/LentPreparationGuide";
+import JubileePilgrimageGuide from "./pages/blog/JubileePilgrimageGuide";
+import CatholicChurchHistory from "./pages/blog/CatholicChurchHistory";
+import HowToReadBible from "./pages/blog/HowToReadBible";
+import CatholicFamilyTraditions from "./pages/blog/CatholicFamilyTraditions";
+import HolyWaterSacramental from "./pages/blog/HolyWaterSacramental";
+import CatholicSocialTeachingToday from "./pages/blog/CatholicSocialTeachingToday";
+import LivingVirtue from "./pages/blog/LivingVirtue";
+import RosaryMysteriesMeditation from "./pages/blog/RosaryMysteriesMeditation";
+import CatholicMarriagePreparation from "./pages/blog/CatholicMarriagePreparation";
 
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -315,6 +336,27 @@ const App = () => (
             <Route path="/blog/liturgy-of-the-hours-guide/" element={<LiturgyOfTheHoursGuide />} />
             <Route path="/blog/catholic-dating-guide/" element={<CatholicDatingGuide />} />
             <Route path="/blog/catholic-parenting-guide/" element={<CatholicParentingGuide />} />
+            <Route path="/blog/spiritual-life-basics/" element={<SpiritualLifeBasics />} />
+            <Route path="/blog/healing-through-faith/" element={<HealingThroughFaith />} />
+            <Route path="/blog/dignity-of-work/" element={<DignityOfWork />} />
+            <Route path="/blog/saint-padre-pio-miracles/" element={<SaintPadrePioMiracles />} />
+            <Route path="/blog/prophecies-of-fatima/" element={<PropheciesOfFatima />} />
+            <Route path="/blog/novenas-explained/" element={<NovenasExplained />} />
+            <Route path="/blog/divine-office-laity/" element={<DivineOfficeLaity />} />
+            <Route path="/blog/faith-and-anxiety/" element={<FaithAndAnxiety />} />
+            <Route path="/blog/managing-depression/" element={<ManagingDepression />} />
+            <Route path="/blog/sacrament-of-matrimony/" element={<SacramentOfMatrimony />} />
+            <Route path="/blog/eucharistic-prayers/" element={<EucharisticPrayers />} />
+            <Route path="/blog/lent-preparation-guide/" element={<LentPreparationGuide />} />
+            <Route path="/blog/jubilee-pilgrimage-guide/" element={<JubileePilgrimageGuide />} />
+            <Route path="/blog/catholic-church-history/" element={<CatholicChurchHistory />} />
+            <Route path="/blog/how-to-read-bible/" element={<HowToReadBible />} />
+            <Route path="/blog/catholic-family-traditions/" element={<CatholicFamilyTraditions />} />
+            <Route path="/blog/holy-water-sacramental/" element={<HolyWaterSacramental />} />
+            <Route path="/blog/catholic-social-teaching-today/" element={<CatholicSocialTeachingToday />} />
+            <Route path="/blog/living-virtue/" element={<LivingVirtue />} />
+            <Route path="/blog/rosary-mysteries-meditation/" element={<RosaryMysteriesMeditation />} />
+            <Route path="/blog/catholic-marriage-preparation/" element={<CatholicMarriagePreparation />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 

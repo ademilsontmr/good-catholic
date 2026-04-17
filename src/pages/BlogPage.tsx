@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, Globe, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -1436,6 +1436,258 @@ export const blogPosts: BlogPost[] = [
     icon: Heart,
     bgColor: "bg-amber-100",
     iconColor: "text-amber-400"
+  },
+  {
+    id: 1101,
+    slug: "spiritual-life-basics",
+    title: "Spiritual Life Basics: Essential Practices for Daily Catholic Living",
+    excerpt: "Discover the foundations of Catholic spiritual life. Learn essential daily practices, prayer routines, and spiritual disciplines for growing closer to God.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Spiritual Life",
+    icon: Wind,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-600"
+  },
+  {
+    id: 1102,
+    slug: "healing-through-faith",
+    title: "Healing Through Faith: Catholic Prayers for Physical and Emotional Recovery",
+    excerpt: "Discover how faith brings healing. Learn Catholic prayers for healing, the ministry of the sick, sacraments of healing, and biblical foundations for divine healing.",
+    date: "2026-04-16",
+    readTime: "13 min",
+    category: "Spiritual Healing",
+    icon: HeartPulse,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
+  {
+    id: 1103,
+    slug: "dignity-of-work",
+    title: "The Dignity of Work: Catholic Social Teaching on Labor",
+    excerpt: "Discover Catholic social teaching on work and labor. Learn about the dignity of workers, just wages, rights of laborers, and St. Joseph the Worker as patron.",
+    date: "2026-04-16",
+    readTime: "12 min",
+    category: "Social Teaching",
+    icon: Coins,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600"
+  },
+  {
+    id: 1104,
+    slug: "saint-padre-pio-miracles",
+    title: "St. Padre Pio: Miracles, Bilocation, and the Stigmata",
+    excerpt: "Discover the extraordinary miracles of St. Padre Pio - his bilocation, healing miracles, reading of souls, and the stigmata that lasted 50 years.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Saints & Miracles",
+    icon: Sparkles,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1105,
+    slug: "prophecies-of-fatima",
+    title: "Prophecies of Fatima: The Three Secrets and Their Fulfillment",
+    excerpt: "Discover the three secrets of Fatima, their prophetic messages, and how they relate to Catholic prophecy, Russia, and the conversion of nations.",
+    date: "2026-04-16",
+    readTime: "16 min",
+    category: "Prophecy & Mysticism",
+    icon: Moon,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-600"
+  },
+  {
+    id: 1106,
+    slug: "novenas-explained",
+    title: "Novenas Explained: The Power of Nine Days of Prayer",
+    excerpt: "Discover the tradition of Catholic novenas. Learn how to pray a novena, the most powerful novenas, and why nine days of prayer brings extraordinary graces.",
+    date: "2026-04-16",
+    readTime: "12 min",
+    category: "Novena & Prayer",
+    icon: BookOpen,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-600"
+  },
+  {
+    id: 1107,
+    slug: "divine-office-laity",
+    title: "The Divine Office for Lay Catholics: How to Pray the Liturgy of the Hours",
+    excerpt: "Learn how lay Catholics can pray the Divine Office. Discover the hours of prayer, simplified versions, and how this liturgical prayer sanctifies daily life.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Prayer & Devotion",
+    icon: BookOpen,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-600"
+  },
+  {
+    id: 1108,
+    slug: "faith-and-anxiety",
+    title: "Faith and Anxiety: Finding Peace Through Catholic Spirituality",
+    excerpt: "Discover how Catholic faith helps overcome anxiety. Learn spiritual practices for mental health, when to seek professional help, and finding God's peace.",
+    date: "2026-04-16",
+    readTime: "13 min",
+    category: "Mental Health & Faith",
+    icon: Brain,
+    bgColor: "bg-teal-100",
+    iconColor: "text-teal-600"
+  },
+  {
+    id: 1109,
+    slug: "managing-depression",
+    title: "Managing Depression: A Catholic Approach to Mental Health",
+    excerpt: "Discover a Catholic approach to managing depression. Learn about spiritual resources, professional treatment, and finding hope through faith during dark times.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Mental Health",
+    icon: Brain,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-600"
+  },
+  {
+    id: 1110,
+    slug: "sacrament-of-matrimony",
+    title: "The Sacrament of Matrimony: Catholic Marriage Theology",
+    excerpt: "Discover the theology of Catholic marriage. Learn about sacramental marriage, the vows, indissolubility, and how spouses participate in God's creative love.",
+    date: "2026-04-16",
+    readTime: "15 min",
+    category: "Marriage & Family",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
+  {
+    id: 1111,
+    slug: "eucharistic-prayers",
+    title: "Eucharistic Prayers and Adoration: A Complete Guide",
+    excerpt: "Discover Eucharistic prayers, Holy Hour devotion, and the practice of adoration. Learn how to pray before the Blessed Sacrament and encounter Christ's Real Presence.",
+    date: "2026-04-16",
+    readTime: "13 min",
+    category: "Liturgy & Worship",
+    icon: Church,
+    bgColor: "bg-yellow-100",
+    iconColor: "text-yellow-600"
+  },
+  {
+    id: 1112,
+    slug: "lent-preparation-guide",
+    title: "Lent Preparation Guide: How to Make the Most of the Season",
+    excerpt: "Prepare for Lent with this complete guide. Learn how to choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation.",
+    date: "2026-04-16",
+    readTime: "12 min",
+    category: "Liturgical Year",
+    icon: Calendar,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-600"
+  },
+  {
+    id: 1113,
+    slug: "jubilee-pilgrimage-guide",
+    title: "Jubilee 2025 Pilgrimage Guide: Continuing the Pilgrimage of Hope",
+    excerpt: "Discover how to continue the Jubilee 2025 spirit. Learn about indulgences, pilgrimage traditions, and carrying the grace of the Holy Year into daily life.",
+    date: "2026-04-16",
+    readTime: "11 min",
+    category: "Jubilee 2025",
+    icon: Sun,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1114,
+    slug: "catholic-church-history",
+    title: "Catholic Church History: A Complete Timeline from Peter to Today",
+    excerpt: "Discover the history of the Catholic Church from St. Peter to Pope Francis. Learn about key figures, councils, and moments that shaped 2000 years of Catholic tradition.",
+    date: "2026-04-16",
+    readTime: "16 min",
+    category: "History & Apologetics",
+    icon: BookOpen,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-600"
+  },
+  {
+    id: 1115,
+    slug: "how-to-read-bible",
+    title: "How to Read the Bible: A Catholic Guide to Scripture Study",
+    excerpt: "Learn how to read the Bible as a Catholic. Discover study methods, the Catholic canon, approved translations, and how Scripture fits with Tradition and Magisterium.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Formation & Scriptures",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-600"
+  },
+  {
+    id: 1116,
+    slug: "catholic-family-traditions",
+    title: "Catholic Family Traditions: Building a Domestic Church",
+    excerpt: "Discover Catholic family traditions for building a domestic church. Learn about family prayers, liturgical year celebrations, and creating a Catholic home environment.",
+    date: "2026-04-16",
+    readTime: "14 min",
+    category: "Family & Parenting",
+    icon: Home,
+    bgColor: "bg-green-100",
+    iconColor: "text-green-600"
+  },
+  {
+    id: 1117,
+    slug: "holy-water-sacramental",
+    title: "Holy Water: The Power of This Ancient Catholic Sacramental",
+    excerpt: "Discover the power of holy water in Catholic tradition. Learn its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection.",
+    date: "2026-04-16",
+    readTime: "11 min",
+    category: "Devotions & Sacramentals",
+    icon: Droplets,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-600"
+  },
+  {
+    id: 1118,
+    slug: "catholic-social-teaching-today",
+    title: "Catholic Social Teaching Today: Applying Doctrine to Current Issues",
+    excerpt: "Discover how Catholic social teaching applies to today's challenges. Learn about poverty, immigration, ecology, and economic justice from a Catholic perspective.",
+    date: "2026-04-16",
+    readTime: "15 min",
+    category: "Current Affairs",
+    icon: Globe,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600"
+  },
+  {
+    id: 1119,
+    slug: "living-virtue",
+    title: "Living the Christian Life: A Practical Guide to Catholic Virtue",
+    excerpt: "Discover how to live the Christian life with practical guidance on virtues, daily holiness, and growing closer to Christ in ordinary circumstances.",
+    date: "2026-04-16",
+    readTime: "13 min",
+    category: "Christian Life",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
+  {
+    id: 1120,
+    slug: "rosary-mysteries-meditation",
+    title: "Rosary Mysteries: A Guide to Meditative Prayer on the 20 Mysteries",
+    excerpt: "Learn to meditate on all 20 Rosary mysteries. Discover the Joyful, Sorrowful, Glorious, and Luminous mysteries with reflections for deeper contemplation.",
+    date: "2026-04-16",
+    readTime: "16 min",
+    category: "Catholic Devotions",
+    icon: Heart,
+    bgColor: "bg-pink-100",
+    iconColor: "text-pink-600"
+  },
+  {
+    id: 1121,
+    slug: "catholic-marriage-preparation",
+    title: "Catholic Marriage Preparation: A Complete Guide for Engaged Couples",
+    excerpt: "Prepare for Catholic marriage with this complete guide. Learn about Pre-Cana, marriage requirements, Natural Family Planning, and building a sacramental union.",
+    date: "2026-04-16",
+    readTime: "15 min",
+    category: "Relationships & Family",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
   }
 ];
 

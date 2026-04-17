@@ -1,0 +1,221 @@
+import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
+import { Heart, Calendar, Clock, ArrowLeft, Cross, Lightbulb } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Footer } from "@/components/landing/Footer";
+import { Navbar } from "@/components/landing/Navbar";
+import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
+
+export default function LivingVirtue() {
+  return (
+    <>
+      <Helmet>
+        <title>Living the Christian Life: A Practical Guide to Catholic Virtue | Guide Catholic</title>
+        <meta name="description" content="Discover how to live the Christian life with practical guidance on virtues, daily holiness, and growing closer to Christ in ordinary circumstances." />
+        <meta name="keywords" content="Christian life, Catholic virtue, living virtue, daily holiness, practical Christianity" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/living-virtue/" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+        <ArticleSchema
+          title="Living the Christian Life: A Practical Guide to Catholic Virtue"
+          description="Discover how to live the Christian life with practical guidance on virtues, daily holiness, and growing closer to Christ in ordinary circumstances."
+          url="https://guidecatholic.com/blog/living-virtue/"
+        />
+
+      <div className="min-h-screen bg-background">
+        <Navbar />
+
+        <article className="container mx-auto px-4 py-8 max-w-4xl">
+          <nav className="text-sm mb-6 text-text-muted">
+            <Link to="/" className="hover:text-text transition-colors">Home</Link>
+            <span className="mx-2">/</span>
+            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
+            <span className="mx-2">/</span>
+            <span className="text-text">Living the Christian Life</span>
+          </nav>
+
+          <Link to="/blog/">
+            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Back to Blog
+            </Button>
+          </Link>
+
+          <header className="mb-8">
+            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
+              <Heart className="w-4 h-4" />
+              <span>Christian Life</span>
+            </div>
+            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
+              Living the Christian Life: A Practical Guide to Catholic Virtue
+            </h1>
+            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
+              <div className="flex items-center gap-1">
+                <Calendar className="w-4 h-4" />
+                <span>April 16, 2026</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <Clock className="w-4 h-4" />
+                <span>13 min read</span>
+              </div>
+            </div>
+          </header>
+
+          <div className="prose prose-lg max-w-none text-text">
+            <p className="text-xl leading-relaxed mb-8 text-text/90">
+              The Christian life is not a set of rules but a relationship with Christ that transforms character. Living virtue in daily circumstances—at work, in family, amid challenges—is the path to holiness accessible to everyone.
+            </p>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              The Universal Call to Holiness
+            </h2>
+            <p className="text-text leading-relaxed mb-6">
+              Vatican II taught that holiness is not reserved for priests and religious but is the vocation of every baptized person. St. Thérèse of Lisieux showed through her "Little Way" that ordinary life, lived with extraordinary love, becomes the path to sainthood.
+            </p>
+            <p className="text-text leading-relaxed mb-6">
+              This means your workplace, your kitchen, your commute, your conversations—all become opportunities for grace. The question is not where you are but how you love in that place.
+            </p>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              The Theological Virtues: Faith, Hope, and Charity
+            </h2>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Faith: Trusting in God's Word
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Faith is not merely intellectual assent but personal trust in God. It means believing His promises even when circumstances suggest otherwise. Daily faith involves trusting God's providence, His forgiveness, and His guidance.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Hope: Confident Expectation of Heaven
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Hope is the virtue that keeps us oriented toward heaven. Unlike optimism, which expects earthly success, hope trusts in eternal salvation. Hope sustains us through suffering, failure, and disappointment, knowing that God works all things for good.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Charity: Love of God and Neighbor
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Charity is the greatest virtue—the love that imitates Christ's self-gift. It seeks the good of others, even when inconvenient or costly. Charity transforms ordinary actions—making dinner, answering email, listening to a friend—into acts of divine love.
+            </p>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              The Cardinal Virtues: Practical Wisdom
+            </h2>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Prudence: Practical Wisdom
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Prudence is right reason applied to action—the ability to discern the good and choose the right means to achieve it. It requires reflection, counsel, and decisiveness. Prudence prevents both rash action and paralyzing indecision.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Justice: Giving God and Neighbor Their Due
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Justice involves rendering to each what is owed—worship to God, fair treatment to others, honesty in dealings. It underlies ethical business practices, faithful relationships, and civic responsibility. Justice builds community and trust.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Fortitude: Courage in Difficulty
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Fortitude enables perseverance in the face of difficulty. It is not rash bravery but steady endurance—staying faithful when faith costs something. Fortitude sustains marriage through hard years, career through setbacks, and faith through doubt.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Temperance: Moderation and Balance
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Temperance moderates the desire for pleasure—food, drink, comfort, entertainment. It prevents excess and addiction. In a consumer culture, temperance is countercultural, enabling freedom from the tyranny of desire.
+            </p>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Daily Practices for Virtue
+            </h2>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              The Morning Offering
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Begin each day by offering everything to God. This consecrates ordinary activities—making them opportunities for grace. The daily grind becomes spiritual worship when offered with love.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Examination of Conscience
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Briefly review the day: When did I love well? When did I fail? This practice increases self-awareness and prompts daily conversion. It prepares for confession and tracks growth in virtue over time.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Spiritual Reading
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Reading Scripture and spiritual classics (Imitation of Christ, Introduction to the Devout Life, writings of the saints) feeds the mind with holy thoughts. Even 15 minutes daily transforms perspective.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              The Practice of Presence
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Brother Lawrence taught to practice the presence of God—maintaining awareness of God's nearness throughout the day. This transforms washing dishes, commuting, and working into prayer.
+            </p>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Dealing with Failure
+            </h2>
+            <p className="text-text leading-relaxed mb-6">
+              Growth in virtue is not linear. Sin, weakness, and failure are part of the journey. The key is not perfection but perseverance—beginning again each day with trust in God's mercy. Confession restores grace; determination keeps us moving forward.
+            </p>
+
+            <QuizCTA />
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Frequently Asked Questions
+            </h2>
+            <BlogFAQ
+              faqs={[
+                {
+                  question: "How do I know which virtue to focus on?",
+                  answer: "Examine your life: Where do you consistently fail? What causes the most conflict? Ask those close to you for honest feedback. The virtue you most resist is often the one you most need. Focus on one at a time rather than trying to perfect all simultaneously."
+                },
+                {
+                  question: "Can I grow in virtue if I keep sinning?",
+                  answer: "Yes. Growth is gradual. Even saints continued sinning (venially) throughout life. The key is sincere effort, prompt confession when you fall, and determination to begin again. Perfection is not possible in this life; faithfulness is."
+                },
+                {
+                  question: "What about virtues like patience that seem impossible?",
+                  answer: "Patience, like all virtues, is a habit developed through practice. Start small: wait five minutes before reacting, take a breath before speaking. Ask God for the grace you lack. Over time, with grace and effort, even deep-seated impatience can yield."
+                },
+                {
+                  question: "Is it possible to be too virtuous?",
+                  answer: "No—one cannot have too much faith, hope, or charity. However, virtue must be balanced: courage without prudence becomes rashness; justice without mercy becomes harshness. The virtues work together, each tempering the others. Seek the whole package, not isolated extremes."
+                }
+              ]}
+            />
+
+            <RelatedArticles currentSlug="living-virtue" />
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-primary/20">
+            <Link to="/blog/">
+              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Back to Blog
+              </Button>
+            </Link>
+          </div>
+        </article>
+
+        <Footer />
+      </div>
+    </>
+  );
+}
