@@ -142,8 +142,10 @@ export default function WhatIsPurgatory() {
                 description="Holiness is a journey that starts here. Take our assessment to identify the 'attachments' that might be holding you back from a deeper relationship with Christ."
               />
 
-              <h2 id="helping">3. How to Help: The "Expert" Methods</h2>
-              <p>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                3. How to Help: The "Expert" Methods
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
                 The souls in Purgatory are called "Poor Souls" or "Holy Souls." They are "poor" because they can no longer help themselves; their time of merit is over. They rely entirely on the <strong>Church Militant</strong> (us on earth).
               </p>
 
