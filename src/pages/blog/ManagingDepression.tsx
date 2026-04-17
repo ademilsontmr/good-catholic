@@ -28,53 +28,58 @@ export default function ManagingDepression() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Managing Depression</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Managing Depression</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Brain className="w-4 h-4" />
-              <span>Mental Health</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Managing Depression: A Catholic Approach to Mental Health
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Mental Health
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  14 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>14 min read</span>
-              </div>
+
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Managing Depression: A Catholic Approach to Mental Health
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                Depression affects millions of people worldwide, including faithful Catholics. While spiritual resources offer profound help, understanding when and how to integrate professional mental health care is essential for authentic healing.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-blue-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Sun className="w-24 h-24 text-blue-400/20 absolute top-4 right-4" />
+              <Heart className="w-32 h-32 text-blue-400 relative z-10" strokeWidth={1} />
             </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              Depression affects millions of people, including many faithful Catholics. While the spiritual life offers profound resources for healing, understanding the biological, psychological, and spiritual dimensions of depression is essential for recovery.
-            </p>
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Understanding Depression
-            </h2>
-            <p className="text-text leading-relaxed mb-6">
-              Depression is not simply sadness or spiritual dryness—it is a clinical condition affecting mood, energy, sleep, appetite, and cognition. The Catechism acknowledges that psychological factors can diminish moral responsibility (CCC 1735), recognizing that depression is a real condition requiring compassion and treatment.
-            </p>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                Depression affects millions of people worldwide, including faithful Catholics. While spiritual resources offer profound help, understanding when and how to integrate professional mental health care is essential for authentic healing.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Saints Who Knew Darkness
@@ -148,42 +153,59 @@ export default function ManagingDepression() {
               Depression is treatable. With proper care, most people recover fully or learn to manage symptoms effectively. The darkness is not permanent. As Psalm 30 promises: "Weeping may stay for the night, but rejoicing comes in the morning."
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Is depression a punishment from God?",
-                  answer: "No. Depression is a medical condition with biological, psychological, and environmental causes. It is not a punishment for sin or a sign of weak faith. God permits suffering but does not directly cause depression as punishment. Many holy people have experienced depression while remaining close to God."
-                },
-                {
-                  question: "Can I receive Communion if I am depressed?",
-                  answer: "Yes, absolutely. The Eucharist is particularly important during depression. If attending Mass feels overwhelming, ask someone to accompany you or sit near the exit. Even brief visits to church for prayer can be valuable. You are always welcome at the Lord's Table."
-                },
-                {
-                  question: "What if prayer feels empty during depression?",
-                  answer: "This is very common. Continue praying even without consolation—the act of faithfulness itself is a prayer. Simplify your practice: just a Hail Mary, the Sign of the Cross, or sitting silently in a church. God receives these simple offerings with great love."
-                },
-                {
-                  question: "When should I seek emergency help?",
-                  answer: "Seek immediate help if you have thoughts of harming yourself, cannot care for basic needs, experience psychotic symptoms, or feel unable to keep yourself safe. Call emergency services, a suicide hotline (988 in the US), or go to an emergency room. Depression can become life-threatening and requires urgent care."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The Lord is close to the brokenhearted." - Psalm 34:18
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Weeping may stay for the night, but rejoicing comes in the morning." - Psalm 30:5
+                </p>
+              </div>
+              
+              <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Come to me, all who labor and are heavy laden." - Matthew 11:28
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="managing-depression" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Is depression a punishment from God?",
+                answer: "No. Depression is a medical condition with biological, psychological, and environmental causes. It is not a punishment for sin or a sign of weak faith. God permits suffering but does not directly cause depression as punishment. Many holy people have experienced depression while remaining close to God."
+              },
+              {
+                question: "Can I receive Communion if I am depressed?",
+                answer: "Yes, absolutely. The Eucharist is particularly important during depression. If attending Mass feels overwhelming, ask someone to accompany you or sit near the exit. Even brief visits to church for prayer can be valuable. You are always welcome at the Lord's Table."
+              },
+              {
+                question: "What if prayer feels empty during depression?",
+                answer: "This is very common. Continue praying even without consolation—the act of faithfulness itself is a prayer. Simplify your practice: just a Hail Mary, the Sign of the Cross, or sitting silently in a church. God receives these simple offerings with great love."
+              },
+              {
+                question: "When should I seek emergency help?",
+                answer: "Seek immediate help if you have thoughts of harming yourself, cannot care for basic needs, experience psychotic symptoms, or feel unable to keep yourself safe. Call emergency services, a suicide hotline (988 in the US), or go to an emergency room. Depression can become life-threatening and requires urgent care."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Begin Your Healing Journey Today
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized prayer guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

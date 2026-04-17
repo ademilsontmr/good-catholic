@@ -28,53 +28,62 @@ export default function EucharisticPrayers() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Eucharistic Prayers</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Eucharistic Prayers</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Church className="w-4 h-4" />
-              <span>Liturgy & Worship</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Eucharistic Prayers and Adoration: A Complete Guide
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Liturgy & Worship
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  14 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>13 min read</span>
-              </div>
+
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Eucharistic Prayers and Adoration: A Complete Guide
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                The Eucharist is the source and summit of the Christian life (Lumen Gentium 11). Before the Blessed Sacrament—whether exposed in the monstrance or reserved in the tabernacle—Catholics find the Real Presence of Jesus Christ, body, blood, soul, and divinity.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-amber-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Sun className="w-24 h-24 text-amber-400/20 absolute top-4 right-4" />
+              <Heart className="w-32 h-32 text-amber-400 relative z-10" strokeWidth={1} />
             </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              The Eucharist is the source and summit of Catholic life. Beyond receiving Holy Communion at Mass, Catholics can encounter Christ's Real Presence through Eucharistic adoration—a practice that transforms souls and has sustained the Church for two millennia.
-            </p>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                The Eucharist is the source and summit of the Christian life (Lumen Gentium 11). Before the Blessed Sacrament—whether exposed in the monstrance or reserved in the tabernacle—Catholics find the Real Presence of Jesus Christ, body, blood, soul, and divinity.
+              </p>
 
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Understanding Eucharistic Adoration
-            </h2>
-            <p className="text-text leading-relaxed mb-6">
-              In Eucharistic adoration, the consecrated Host is displayed in a monstrance on the altar, allowing the faithful to pray in the presence of Christ's Body, Blood, Soul, and Divinity. The practice flows from belief in the Real Presence—Jesus is truly, substantially present under the appearances of bread.
-            </p>
+              <p className="text-text leading-relaxed mb-6">
+                In Eucharistic adoration, the consecrated Host is displayed in a monstrance on the altar, allowing the faithful to pray in the presence of Christ's Body, Blood, Soul, and Divinity. The practice flows from belief in the Real Presence—Jesus is truly, substantially present under the appearances of bread.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Tradition of the Holy Hour
@@ -167,42 +176,59 @@ export default function EucharisticPrayers() {
               Check your parish bulletin or website for adoration times. If your parish doesn't offer it, ask your pastor—many are eager to begin if they know there's interest.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "What should I wear to Eucharistic adoration?",
-                  answer: "Dress modestly and respectfully, as you would for Mass. Silent, reverent behavior is appropriate. Turn off cell phones. Some people genuflect before entering the pew, others bow. Follow the customs of the particular church. The focus should be on encountering Christ, not on elaborate rituals."
-                },
-                {
-                  question: "Do I have to pray for the whole hour?",
-                  answer: "Not necessarily. Some people pray the Rosary, read Scripture, journal, or simply sit in silence. The goal is to be with Jesus. If you can only stay 15 minutes, that is better than nothing. Many parishes have sign-up sheets to ensure the Blessed Sacrament is never left alone during exposition."
-                },
-                {
-                  question: "Can non-Catholics attend adoration?",
-                  answer: "Yes, all are welcome to pray before the Blessed Sacrament. Non-Catholics cannot receive Holy Communion, but they can participate in adoration, which is a prayer of presence rather than reception. Many converts to Catholicism trace their conversion to encountering Christ in Eucharistic adoration."
-                },
-                {
-                  question: "What if I don't feel anything during adoration?",
-                  answer: "Feelings are not necessary for effective prayer. Christ is present objectively whether you feel Him or not. Many saints experienced long periods of spiritual dryness in adoration. Continue showing up out of love and fidelity. The graces flow even when they are not perceived."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "I am the bread of life." - John 6:35
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "This is my body, given for you." - Luke 22:19
+                </p>
+              </div>
+              
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Whoever eats my flesh and drinks my blood has eternal life." - John 6:54
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="eucharistic-prayers" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "What should I wear to Eucharistic adoration?",
+                answer: "Dress modestly and respectfully, as you would for Mass. Silent, reverent behavior is appropriate. Turn off cell phones. Some people genuflect before entering the pew, others bow. Follow the customs of the particular church. The focus should be on encountering Christ, not on elaborate rituals."
+              },
+              {
+                question: "Do I have to pray for the whole hour?",
+                answer: "Not necessarily. Some people pray the Rosary, read Scripture, journal, or simply sit in silence. The goal is to be with Jesus. If you can only stay 15 minutes, that is better than nothing. Many parishes have sign-up sheets to ensure the Blessed Sacrament is never left alone during exposition."
+              },
+              {
+                question: "Can non-Catholics attend adoration?",
+                answer: "Yes, all are welcome to pray before the Blessed Sacrament. Non-Catholics cannot receive Holy Communion, but they can participate in adoration, which is a prayer of presence rather than reception. Many converts to Catholicism trace their conversion to encountering Christ in Eucharistic adoration."
+              },
+              {
+                question: "What if I don't feel anything during adoration?",
+                answer: "Feelings are not necessary for effective prayer. Christ is present objectively whether you feel Him or not. Many saints experienced long periods of spiritual dryness in adoration. Continue showing up out of love and fidelity. The graces flow even when they are not perceived."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Deepen Your Eucharistic Devotion
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized prayer guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

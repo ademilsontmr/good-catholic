@@ -28,54 +28,62 @@ export default function DignityOfWork() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          {/* Breadcrumbs */}
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Dignity of Work</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Dignity of Work</span>
+            </nav>
+          </div>
+        </div>
 
-          {/* Back Button */}
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Briefcase className="w-4 h-4" />
-              <span>Social Teaching</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              The Dignity of Work: Catholic Social Teaching on Labor
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Social Teaching
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  12 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>12 min read</span>
-              </div>
+
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                The Dignity of Work: Catholic Social Teaching on Labor
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                Work is not merely a means to earn a living—it is a fundamental dimension of human dignity. Discover how Catholic social teaching elevates the dignity of workers and calls for just conditions in the workplace.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-emerald-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Briefcase className="w-24 h-24 text-emerald-400/20 absolute top-4 right-4" />
+              <Briefcase className="w-32 h-32 text-emerald-400 relative z-10" strokeWidth={1} />
             </div>
-          </header>
 
-          {/* Article Content */}
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              Work is not merely a means to earn a living—it is a fundamental dimension of human dignity. Discover how Catholic social teaching elevates the dignity of workers and calls for just conditions in the workplace.
-            </p>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                Work is not merely a means to earn a living—it is a fundamental dimension of human dignity. Discover how Catholic social teaching elevates the dignity of workers and calls for just conditions in the workplace.
+              </p>
 
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Work as Participation in Creation
-            </h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Work as Participation in Creation
+              </h2>
             <p className="text-text leading-relaxed mb-6">
               From the beginning, God placed humanity in the Garden "to cultivate and care for it" (Genesis 2:15). Work is not a punishment from the Fall—it predates it. Through work, human beings participate in God's creative activity and cooperate in the unfolding of the created world.
             </p>
@@ -183,20 +191,42 @@ export default function DignityOfWork() {
                   question: "Is unemployment a sin?",
                   answer: "No. Unemployment is often caused by economic factors beyond individual control. The Church calls society to provide support for the unemployed and help them find dignified work. The unemployed retain their full dignity and are called to offer their suffering and continue seeking employment."
                 }
-              ]}
-            />
+              ]} />
+
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The laborer deserves his wages." - 1 Timothy 5:18
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Whatever you do, work at it with all your heart, as working for the Lord." - Colossians 3:23
+                </p>
+              </div>
+              
+              <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Commit your work to the Lord, and your plans will be established." - Proverbs 16:3
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="dignity-of-work" />
-          </div>
 
-          {/* Back to Blog */}
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Discover Your Vocation
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized guide to finding meaning in your work.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Vocation Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

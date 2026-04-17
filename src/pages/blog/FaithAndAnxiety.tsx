@@ -28,52 +28,64 @@ export default function FaithAndAnxiety() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Faith and Anxiety</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Faith and Anxiety</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Brain className="w-4 h-4" />
-              <span>Mental Health & Faith</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Faith and Anxiety: Finding Peace Through Catholic Spirituality
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Mental Health & Faith
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  13 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>13 min read</span>
-              </div>
+
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Faith and Anxiety: Finding Peace Through Catholic Spirituality
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                Anxiety affects millions of Catholics worldwide. While faith offers powerful resources for peace, understanding the relationship between spiritual practice and mental health is essential for authentic healing.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-teal-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Brain className="w-24 h-24 text-teal-400/20 absolute top-4 right-4" />
+              <Heart className="w-32 h-32 text-teal-400 relative z-10" strokeWidth={1} />
             </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              Anxiety affects millions of Catholics worldwide. While faith offers powerful resources for peace, understanding the relationship between spiritual practice and mental health is essential for authentic healing.
-            </p>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                Anxiety affects millions of Catholics worldwide. While faith offers powerful resources for peace, understanding the relationship between spiritual practice and mental health is essential for authentic healing.
+              </p>
 
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Understanding Anxiety
-            </h2>
-            <p className="text-text leading-relaxed mb-6">
-              Anxiety is a natural human response to perceived threats. However, when anxiety becomes chronic, excessive, or disproportionate to actual danger, it can become a disorder requiring treatment. The Catholic Church recognizes anxiety as a real condition—St. Teresa of Calcutta and St. Padre Pio both experienced severe anxiety and spiritual dryness while remaining holy.
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Understanding Anxiety
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                Anxiety is a natural human response to perceived threats. However, when anxiety becomes chronic, excessive, or disproportionate to actual danger, it can become a disorder requiring treatment. The Catholic Church recognizes anxiety as a real condition—St. Teresa of Calcutta and St. Padre Pio both experienced severe anxiety and spiritual dryness while remaining holy.
             </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
@@ -143,42 +155,59 @@ export default function FaithAndAnxiety() {
               Catholic therapists, available through CatholicTherapists.com and similar directories, integrate faith with evidence-based treatment like CBT and medication when appropriate.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Does anxiety mean I lack faith?",
-                  answer: "Absolutely not. Anxiety is a biological and psychological condition, not a spiritual failure. Saints like Thérèse of Lisieux experienced severe anxiety while having extraordinary faith. Faith provides resources to cope with anxiety, but anxiety itself is not a sin or sign of weak belief."
-                },
-                {
-                  question: "Can prayer cure anxiety?",
-                  answer: "Prayer can significantly help manage anxiety, bringing peace and perspective. However, clinical anxiety disorders often require additional treatment including therapy and sometimes medication. Prayer works alongside professional treatment, not necessarily as a replacement for it."
-                },
-                {
-                  question: "Should I take anxiety medication as a Catholic?",
-                  answer: "Yes, if prescribed by a doctor. Taking medication for anxiety is morally permissible and often necessary. It is not 'unfaithful' to take medication—God works through medicine as well as miracles. The Church encourages appropriate medical care for mental health conditions."
-                },
-                {
-                  question: "What prayer helps with anxiety attacks?",
-                  answer: "During acute anxiety, simple prayers work best: the Jesus Prayer, Hail Mary, or even just 'Jesus, I trust in You.' The Memorare to Mary is also powerful. Focus on the words and your breathing. Remember that God is with you even in the anxiety."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Cast all your anxieties on him." - 1 Peter 5:7
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Peace I leave with you." - John 14:27
+                </p>
+              </div>
+              
+              <div className="bg-teal-50 border border-teal-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Do not be anxious about anything." - Philippians 4:6
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="faith-and-anxiety" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Does anxiety mean I lack faith?",
+                answer: "Absolutely not. Anxiety is a biological and psychological condition, not a spiritual failure. Saints like Thérèse of Lisieux experienced severe anxiety while having extraordinary faith. Faith provides resources to cope with anxiety, but anxiety itself is not a sin or sign of weak belief."
+              },
+              {
+                question: "Can prayer cure anxiety?",
+                answer: "Prayer can significantly help manage anxiety, bringing peace and perspective. However, clinical anxiety disorders often require additional treatment including therapy and sometimes medication. Prayer works alongside professional treatment, not necessarily as a replacement for it."
+              },
+              {
+                question: "Should I take anxiety medication as a Catholic?",
+                answer: "Yes, if prescribed by a doctor. Taking medication for anxiety is morally permissible and often necessary. It is not 'unfaithful' to take medication—God works through medicine as well as miracles. The Church encourages appropriate medical care for mental health conditions."
+              },
+              {
+                question: "What prayer helps with anxiety attacks?",
+                answer: "During acute anxiety, simple prayers work best: the Jesus Prayer, Hail Mary, or even just 'Jesus, I trust in You.' The Memorare to Mary is also powerful. Focus on the words and your breathing. Remember that God is with you even in the anxiety."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Begin Your Healing Journey Today
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized prayer guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

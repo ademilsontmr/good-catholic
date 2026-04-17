@@ -28,50 +28,58 @@ export default function NovenasExplained() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          {/* Breadcrumbs */}
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Novenas Explained</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Novenas Explained</span>
+            </nav>
+          </div>
+        </div>
 
-          {/* Back Button */}
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <BookOpen className="w-4 h-4" />
-              <span>Novena & Prayer</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Novenas Explained: The Power of Nine Days of Prayer
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Novena & Prayer
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  12 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>12 min read</span>
-              </div>
-            </div>
-          </header>
 
-          {/* Article Content */}
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              The novena is one of Catholicism's most beloved prayer traditions. For nine days, the faithful pour out their hearts to God or His saints, trusting in the power of persevering prayer. Discover the origins, meaning, and practice of this ancient devotion.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Novenas Explained: The Power of Nine Days of Prayer
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                The novena is one of Catholicism's most beloved prayer traditions. For nine days, the faithful pour out their hearts to God or His saints, trusting in the power of persevering prayer. Discover the origins, meaning, and practice of this ancient devotion.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-violet-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <BookOpen className="w-24 h-24 text-violet-400/20 absolute top-4 right-4" />
+              <BookOpen className="w-32 h-32 text-violet-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                The novena is one of Catholicism's most beloved prayer traditions. For nine days, the faithful pour out their hearts to God or His saints, trusting in the power of persevering prayer. Discover the origins, meaning, and practice of this ancient devotion.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Biblical Roots of the Novena
@@ -156,43 +164,59 @@ export default function NovenasExplained() {
               Sometimes novenas are answered immediately. Sometimes the answer comes later—or differently than expected. The grace of praying a novena often lies in the transformation of the one praying, learning to trust more deeply in divine providence.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Do I have to pray a novena exactly nine consecutive days?",
-                  answer: "Ideally yes, but if you miss a day, simply continue and complete nine days total. Some people add an extra day if they miss one. The goal is persevering prayer, not legalistic perfection."
-                },
-                {
-                  question: "Are novenas superstitious?",
-                  answer: "Properly understood, no. Novenas express faith and trust in God, not magical manipulation. They are approved by the Church as expressions of piety. The key is praying with faith while remaining open to God's will, which may differ from our specific requests."
-                },
-                {
-                  question: "What's the best novena to start with?",
-                  answer: "For beginners, the Divine Mercy Novena (prayed before Divine Mercy Sunday) or a simple novena to the Virgin Mary are excellent choices. The St. Jude novena is popular for urgent intentions. Choose one that resonates with your current needs or spiritual attraction."
-                },
-                {
-                  question: "Can I pray multiple novenas at once?",
-                  answer: "Yes, though it's often better to focus on one or two at a time to pray them well. If you have multiple urgent intentions, you can certainly pray several novenas simultaneously. Just be sure you can maintain the commitment to each."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "When they had prayed, the place was shaken." - Acts 4:31
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Ask and it will be given to you." - Matthew 7:7
+                </p>
+              </div>
+              
+              <div className="bg-violet-50 border border-violet-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Pray without ceasing." - 1 Thessalonians 5:17
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="novenas-explained" />
-          </div>
 
-          {/* Back to Blog */}
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Do I have to pray a novena exactly nine consecutive days?",
+                answer: "Ideally yes, but if you miss a day, simply continue and complete nine days total. Some people add an extra day if they miss one. The goal is persevering prayer, not legalistic perfection."
+              },
+              {
+                question: "Are novenas superstitious?",
+                answer: "Properly understood, no. Novenas express faith and trust in God, not magical manipulation. They are approved by the Church as expressions of piety. The key is praying with faith while remaining open to God's will, which may differ from our specific requests."
+              },
+              {
+                question: "What's the best novena to start with?",
+                answer: "For beginners, the Divine Mercy Novena (prayed before Divine Mercy Sunday) or a simple novena to the Virgin Mary are excellent choices. The St. Jude novena is popular for urgent intentions. Choose one that resonates with your current needs or spiritual attraction."
+              },
+              {
+                question: "Can I pray multiple novenas at once?",
+                answer: "Yes, though it's often better to focus on one or two at a time to pray them well. If you have multiple urgent intentions, you can certainly pray several novenas simultaneously. Just be sure you can maintain the commitment to each."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Begin Your Prayer Journey Today
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized prayer plan.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

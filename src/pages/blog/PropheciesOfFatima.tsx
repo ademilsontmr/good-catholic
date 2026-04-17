@@ -28,57 +28,58 @@ export default function PropheciesOfFatima() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          {/* Breadcrumbs */}
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Prophecies of Fatima</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Prophecies of Fatima</span>
+            </nav>
+          </div>
+        </div>
 
-          {/* Back Button */}
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Moon className="w-4 h-4" />
-              <span>Prophecy & Mysticism</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Prophecies of Fatima: The Three Secrets and Their Fulfillment
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Prophecy & Mysticism
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  16 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>16 min read</span>
-              </div>
+
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Prophecies of Fatima: The Three Secrets and Their Fulfillment
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                When Our Lady appeared to Lucia, Francisco, and Jacinta between May and October 1917, Europe was engulfed in the Great War. The children were simple shepherds from a poor peasant family, yet they were chosen to receive one of the most significant prophetic messages of the 20th century.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-indigo-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Moon className="w-24 h-24 text-indigo-400/20 absolute top-4 right-4" />
+              <Moon className="w-32 h-32 text-indigo-400 relative z-10" strokeWidth={1} />
             </div>
-          </header>
 
-          {/* Article Content */}
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              In 1917, the Virgin Mary revealed three prophetic secrets to three shepherd children in Fatima, Portugal. These secrets—visions of hell, world wars, and the attempted assassination of a pope—continue to shape Catholic understanding of prophecy and the modern world.
-            </p>
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              The Setting: World War I and Beyond
-            </h2>
-            <p className="text-text leading-relaxed mb-6">
-              When Our Lady appeared to Lucia, Francisco, and Jacinta between May and October 1917, Europe was engulfed in the Great War. The children were simple shepherds from a poor peasant family, yet they were chosen to receive one of the most significant prophetic messages of the 20th century.
-            </p>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                When Our Lady appeared to Lucia, Francisco, and Jacinta between May and October 1917, Europe was engulfed in the Great War. The children were simple shepherds from a poor peasant family, yet they were chosen to receive one of the most significant prophetic messages of the 20th century.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Three Secrets Revealed
@@ -156,38 +157,59 @@ export default function PropheciesOfFatima() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Frequently Asked Questions
             </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Are the Fatima secrets fully revealed?",
-                  answer: "The Vatican published the text of the three secrets in 2000, along with an official commentary. However, some Fatima devotees believe elements remain unfulfilled or that additional private revelations were given to Sister Lucia. The Church has approved the public revelations but urges caution regarding private interpretations."
-                },
-                {
-                  question: "Did the consecration of Russia happen as requested?",
-                  answer: "Multiple popes have consecrated Russia, most recently Pope Francis in 2022. Whether these satisfy Our Lady's specific request (that all bishops participate together) remains debated. The promised 'conversion of Russia' has not yet occurred, suggesting the fulfillment may still be in the future."
-                },
-                {
-                  question: "Can I visit Fatima today?",
-                  answer: "Yes. Fatima in Portugal is one of the most visited Marian shrines in the world. The Basilica of Our Lady of the Rosary houses the tombs of the three seers. Pilgrims can participate in daily Mass, the Rosary, and candlelight processions. The shrine remains a powerful place of prayer and conversion."
-                },
-                {
-                  question: "What is the First Saturday devotion?",
-                  answer: "Our Lady requested reparation for sins through the First Saturday devotion: receiving Communion, praying the Rosary, meditating on the mysteries, and spending 15 minutes with Mary on the first Saturday of five consecutive months. This devotion is closely connected to the Fatima message."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Behold, I am the handmaid of the Lord." - Luke 1:38
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "My Immaculate Heart will triumph." - Our Lady of Fatima
+                </p>
+              </div>
+              
+              <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Pray the Rosary every day." - Our Lady of Fatima
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="prophecies-of-fatima" />
-          </div>
 
-          {/* Back to Blog */}
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Are the Fatima secrets fully revealed?",
+                answer: "The Vatican published the text of the three secrets in 2000, along with an official commentary. However, some Fatima devotees believe elements remain unfulfilled or that additional private revelations were given to Sister Lucia. The Church has approved the public revelations but urges caution regarding private interpretations."
+              },
+              {
+                question: "Did the consecration of Russia happen as requested?",
+                answer: "Multiple popes have consecrated Russia, most recently Pope Francis in 2022. Whether these satisfy Our Lady's specific request (that all bishops participate together) remains debated. The promised 'conversion of Russia' has not yet occurred, suggesting the fulfillment may still be in the future."
+              },
+              {
+                question: "Can I visit Fatima today?",
+                answer: "Yes. Fatima in Portugal is one of the most visited Marian shrines in the world. The Basilica of Our Lady of the Rosary houses the tombs of the three seers. Pilgrims can participate in daily Mass, the Rosary, and candlelight processions. The shrine remains a powerful place of prayer and conversion."
+              },
+              {
+                question: "What is the First Saturday devotion?",
+                answer: "Our Lady requested reparation for sins through the First Saturday devotion: receiving Communion, praying the Rosary, meditating on the mysteries, and spending 15 minutes with Mary on the first Saturday of five consecutive months. This devotion is closely connected to the Fatima message."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Begin Your Journey of Faith
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized spiritual growth plan.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

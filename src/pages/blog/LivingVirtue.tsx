@@ -28,46 +28,58 @@ export default function LivingVirtue() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Living the Christian Life</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Living the Christian Life</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Heart className="w-4 h-4" />
-              <span>Christian Life</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Living the Christian Life: A Practical Guide to Catholic Virtue
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Christian Life
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  13 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>13 min read</span>
-              </div>
-            </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              The Christian life is not a set of rules but a relationship with Christ that transforms character. Living virtue in daily circumstances—at work, in family, amid challenges—is the path to holiness accessible to everyone.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Living the Christian Life: A Practical Guide to Catholic Virtue
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                The Christian life is not a set of rules but a relationship with Christ that transforms character. Living virtue in daily circumstances—at work, in family, amid challenges—is the path to holiness accessible to everyone.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-rose-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Heart className="w-24 h-24 text-rose-400/20 absolute top-4 right-4" />
+              <Cross className="w-32 h-32 text-rose-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                The Christian life is not a set of rules but a relationship with Christ that transforms character. Living virtue in daily circumstances—at work, in family, amid challenges—is the path to holiness accessible to everyone.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Universal Call to Holiness
@@ -175,42 +187,59 @@ export default function LivingVirtue() {
               Growth in virtue is not linear. Sin, weakness, and failure are part of the journey. The key is not perfection but perseverance—beginning again each day with trust in God's mercy. Confession restores grace; determination keeps us moving forward.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "How do I know which virtue to focus on?",
-                  answer: "Examine your life: Where do you consistently fail? What causes the most conflict? Ask those close to you for honest feedback. The virtue you most resist is often the one you most need. Focus on one at a time rather than trying to perfect all simultaneously."
-                },
-                {
-                  question: "Can I grow in virtue if I keep sinning?",
-                  answer: "Yes. Growth is gradual. Even saints continued sinning (venially) throughout life. The key is sincere effort, prompt confession when you fall, and determination to begin again. Perfection is not possible in this life; faithfulness is."
-                },
-                {
-                  question: "What about virtues like patience that seem impossible?",
-                  answer: "Patience, like all virtues, is a habit developed through practice. Start small: wait five minutes before reacting, take a breath before speaking. Ask God for the grace you lack. Over time, with grace and effort, even deep-seated impatience can yield."
-                },
-                {
-                  question: "Is it possible to be too virtuous?",
-                  answer: "No—one cannot have too much faith, hope, or charity. However, virtue must be balanced: courage without prudence becomes rashness; justice without mercy becomes harshness. The virtues work together, each tempering the others. Seek the whole package, not isolated extremes."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Be perfect as your heavenly Father is perfect." - Matthew 5:48
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "And now these three remain: faith, hope, and love." - 1 Corinthians 13:13
+                </p>
+              </div>
+              
+              <div className="bg-rose-50 border border-rose-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "I can do all things through Christ who strengthens me." - Philippians 4:13
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="living-virtue" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "How do I know which virtue to focus on?",
+                answer: "Examine your life: Where do you consistently fail? What causes the most conflict? Ask those close to you for honest feedback. The virtue you most resist is often the one you most need. Focus on one at a time rather than trying to perfect all simultaneously."
+              },
+              {
+                question: "Can I grow in virtue if I keep sinning?",
+                answer: "Yes. Growth is gradual. Even saints continued sinning (venially) throughout life. The key is sincere effort, prompt confession when you fall, and determination to begin again. Perfection is not possible in this life; faithfulness is."
+              },
+              {
+                question: "What about virtues like patience that seem impossible?",
+                answer: "Patience, like all virtues, is a habit developed through practice. Start small: wait five minutes before reacting, take a breath before speaking. Ask God for the grace you lack. Over time, with grace and effort, even deep-seated impatience can yield."
+              },
+              {
+                question: "Is it possible to be too virtuous?",
+                answer: "No—one cannot have too much faith, hope, or charity. However, virtue must be balanced: courage without prudence becomes rashness; justice without mercy becomes harshness. The virtues work together, each tempering the others. Seek the whole package, not isolated extremes."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Grow in Virtue Today
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized virtue growth guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

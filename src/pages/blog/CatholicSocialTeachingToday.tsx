@@ -28,46 +28,58 @@ export default function CatholicSocialTeachingToday() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Catholic Social Teaching Today</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Catholic Social Teaching Today</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Globe className="w-4 h-4" />
-              <span>Current Affairs</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Catholic Social Teaching Today: Applying Doctrine to Current Issues
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Current Affairs
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  15 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>15 min read</span>
-              </div>
-            </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              Catholic social teaching offers timeless principles for addressing contemporary challenges. From Pope Leo XIII's Rerum Novarum to Pope Francis's Laudato Si', the Church provides wisdom for navigating poverty, migration, economic inequality, and environmental crisis.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Catholic Social Teaching Today: Applying Doctrine to Current Issues
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                Catholic social teaching offers timeless principles for addressing contemporary challenges. From Pope Leo XIII's Rerum Novarum to Pope Francis's Laudato Si', the Church provides wisdom for navigating poverty, migration, economic inequality, and environmental crisis.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-green-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Globe className="w-24 h-24 text-green-400/20 absolute top-4 right-4" />
+              <Users className="w-32 h-32 text-green-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                Catholic social teaching offers timeless principles for addressing contemporary challenges. From Pope Leo XIII's Rerum Novarum to Pope Francis's Laudato Si', the Church provides wisdom for navigating poverty, migration, economic inequality, and environmental crisis.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Foundations of Catholic Social Teaching
@@ -143,42 +155,59 @@ export default function CatholicSocialTeachingToday() {
               This means Catholics can disagree in good faith about specific policies while remaining faithful to the Church's moral framework. The challenge is to think with the Church while navigating complex political realities.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Is Catholic social teaching conservative or liberal?",
-                  answer: "Neither and both. Catholic teaching defies simple political categorization. It opposes abortion and euthanasia (typically conservative positions) while supporting immigration, environmental protection, and economic redistribution (typically liberal positions). Catholics should be uncomfortable in any partisan camp, challenging both left and right when they depart from human dignity."
-                },
-                {
-                  question: "How should I vote as a Catholic?",
-                  answer: "The Church does not endorse candidates or parties. Form your conscience by studying Catholic social teaching, praying for wisdom, considering all issues (not just one), and voting according to well-formed conscience. No party perfectly aligns with Catholic teaching, so prudential judgment is necessary. The USCCB's Faithful Citizenship guide offers principles without partisan alignment."
-                },
-                {
-                  question: "Does the Church support capitalism or socialism?",
-                  answer: "Neither uncritically. The Church critiques both systems when they violate human dignity. Pure capitalism often produces unacceptable inequality; state socialism typically violates subsidiarity and personal initiative. The Church supports a market economy circumscribed by ethical limits, with strong social safety nets and respect for property rights. Economic life must serve persons, not the reverse."
-                },
-                {
-                  question: "What is the preferential option for the poor?",
-                  answer: "This principle, articulated by Latin American bishops and affirmed by the universal Church, means that the needs of the poor and vulnerable receive priority in economic life and policy decisions. It does not mean the poor are morally superior, but that their material needs are urgent and their voices often excluded. This option challenges Catholics to examine whom their choices serve."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Whatever you did for one of the least of these, you did for me." - Matthew 25:40
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The Spirit of the Lord has anointed me to bring good news to the poor." - Luke 4:18
+                </p>
+              </div>
+              
+              <div className="bg-green-50 border border-green-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Care for God's creation is a moral obligation." - Laudato Si'
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="catholic-social-teaching-today" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Is Catholic social teaching conservative or liberal?",
+                answer: "Neither and both. Catholic teaching defies simple political categorization. It opposes abortion and euthanasia (typically conservative positions) while supporting immigration, environmental protection, and economic redistribution (typically liberal positions). Catholics should be uncomfortable in any partisan camp, challenging both left and right when they depart from human dignity."
+              },
+              {
+                question: "How should I vote as a Catholic?",
+                answer: "The Church does not endorse candidates or parties. Form your conscience by studying Catholic social teaching, praying for wisdom, considering all issues (not just one), and voting according to well-formed conscience. No party perfectly aligns with Catholic teaching, so prudential judgment is necessary. The USCCB's Faithful Citizenship guide offers principles without partisan alignment."
+              },
+              {
+                question: "Does the Church support capitalism or socialism?",
+                answer: "Neither uncritically. The Church critiques both systems when they violate human dignity. Pure capitalism often produces unacceptable inequality; state socialism typically violates subsidiarity and personal initiative. The Church supports a market economy circumscribed by ethical limits, with strong social safety nets and respect for property rights. Economic life must serve persons, not the reverse."
+              },
+              {
+                question: "What is the preferential option for the poor?",
+                answer: "This principle, articulated by Latin American bishops and affirmed by the universal Church, means that the needs of the poor and vulnerable receive priority in economic life and policy decisions. It does not mean the poor are morally superior, but that their material needs are urgent and their voices often excluded. This option challenges Catholics to examine whom their choices serve."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Live Your Catholic Faith
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized faith action guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

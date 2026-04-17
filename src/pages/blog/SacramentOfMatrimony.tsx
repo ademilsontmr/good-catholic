@@ -28,53 +28,58 @@ export default function SacramentOfMatrimony() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Sacrament of Matrimony</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Sacrament of Matrimony</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Heart className="w-4 h-4" />
-              <span>Marriage & Family</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              The Sacrament of Matrimony: Catholic Marriage Theology
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Marriage & Family
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  15 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>15 min read</span>
-              </div>
+
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                The Sacrament of Matrimony: Catholic Marriage Theology
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                Marriage in the Catholic Church is not merely a contract but a sacrament—a visible sign of God's invisible grace. Understanding the theology of Catholic marriage illuminates why the Church takes this union so seriously and how spouses participate in the divine life.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-rose-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Heart className="w-24 h-24 text-rose-400/20 absolute top-4 right-4" />
+              <Heart className="w-32 h-32 text-rose-400 relative z-10" strokeWidth={1} />
             </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              Marriage in the Catholic Church is not merely a contract or a social institution—it is a sacrament, a visible sign of God's invisible grace. Understanding the theology of sacramental marriage illuminates the dignity, demands, and beauty of this vocation.
-            </p>
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Marriage as Sacrament
-            </h2>
-            <p className="text-text leading-relaxed mb-6">
-              The Catechism of the Catholic Church teaches that "the matrimonial covenant...is ordered toward the good of the spouses and the procreation and education of offspring" and "has been raised by Christ the Lord to the dignity of a sacrament" (CCC 1601). This means Christ invested marriage with special grace to help spouses live their vocation faithfully.
-            </p>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                Marriage in the Catholic Church is not merely a contract but a sacrament—a visible sign of God's invisible grace. Understanding the theology of Catholic marriage illuminates why the Church takes this union so seriously and how spouses participate in the divine life.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Consent: Making the Vows
@@ -153,42 +158,59 @@ export default function SacramentOfMatrimony() {
               <li>Support from other Catholic couples</li>
             </ul>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Why does the Church require marriage preparation?",
-                  answer: "Marriage is a lifelong commitment with profound implications. Preparation helps couples understand the theology of marriage, develop communication skills, learn Natural Family Planning, and address potential issues before vows are exchanged. This strengthens marriages and reduces divorce rates."
-                },
-                {
-                  question: "What makes a marriage sacramental?",
-                  answer: "A marriage between two baptized Christians is sacramental by nature. The sacrament is conferred by the spouses' consent, witnessed by the Church. This means God's grace is present to help the couple fulfill their vows. Between a baptized and unbaptized person, it is a valid natural marriage but not sacramental."
-                },
-                {
-                  question: "Can Catholic marriages be annulled?",
-                  answer: "Annulment is not Catholic divorce—it is a declaration that a valid marriage never existed due to some impediment or defect in consent at the time of the wedding. If a tribunal finds that essential requirements were lacking (like freedom, understanding, or openness to children), it may declare the marriage null."
-                },
-                {
-                  question: "How can we strengthen our marriage?",
-                  answer: "Pray together daily, attend Mass weekly, receive confession regularly, read about Catholic marriage, attend marriage enrichment programs, communicate openly about difficulties, serve together in ministry, and seek help early when problems arise. The sacramental grace is there—access it through these practices."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "What God has joined together, let no one separate." - Mark 10:9
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Husbands, love your wives." - Ephesians 5:25
+                </p>
+              </div>
+              
+              <div className="bg-rose-50 border border-rose-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Love is patient, love is kind." - 1 Corinthians 13:4
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="sacrament-of-matrimony" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Why does the Church require marriage preparation?",
+                answer: "Marriage is a lifelong commitment with profound implications. Preparation helps couples understand the theology of marriage, develop communication skills, learn Natural Family Planning, and address potential issues before vows are exchanged. This strengthens marriages and reduces divorce rates."
+              },
+              {
+                question: "What makes a marriage sacramental?",
+                answer: "A marriage between two baptized Christians is sacramental by nature. The sacrament is conferred by the spouses' consent, witnessed by the Church. This means God's grace is present to help the couple fulfill their vows. Between a baptized and unbaptized person, it is a valid natural marriage but not sacramental."
+              },
+              {
+                question: "Can Catholic marriages be annulled?",
+                answer: "Annulment is not Catholic divorce—it is a declaration that a valid marriage never existed due to some impediment or defect in consent at the time of the wedding. If a tribunal finds that essential requirements were lacking (like freedom, understanding, or openness to children), it may declare the marriage null."
+              },
+              {
+                question: "How can we strengthen our marriage?",
+                answer: "Pray together daily, attend Mass weekly, receive confession regularly, read about Catholic marriage, attend marriage enrichment programs, communicate openly about difficulties, serve together in ministry, and seek help early when problems arise. The sacramental grace is there—access it through these practices."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Prepare for Your Marriage
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized marriage preparation guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

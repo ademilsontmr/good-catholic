@@ -28,46 +28,58 @@ export default function HolyWaterSacramental() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Holy Water Sacramental</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Holy Water Sacramental</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Droplets className="w-4 h-4" />
-              <span>Devotions & Sacramentals</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Holy Water: The Power of This Ancient Catholic Sacramental
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Devotions & Sacramentals
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  11 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>11 min read</span>
-              </div>
-            </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              One of the oldest and most beloved Catholic sacramentals, holy water is a powerful reminder of baptism and a source of grace. This simple practice—blessing oneself with water—connects Catholics to their baptismal identity and offers spiritual protection.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Holy Water: The Power of This Ancient Catholic Sacramental
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                One of the oldest and most beloved Catholic sacramentals, holy water is a powerful reminder of baptism and a source of grace. This simple practice—blessing oneself with water—connects Catholics to their baptismal identity and offers spiritual protection.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-sky-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Droplets className="w-24 h-24 text-sky-400/20 absolute top-4 right-4" />
+              <Sparkles className="w-32 h-32 text-sky-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                One of the oldest and most beloved Catholic sacramentals, holy water is a powerful reminder of baptism and a source of grace. This simple practice—blessing oneself with water—connects Catholics to their baptismal identity and offers spiritual protection.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What Is Holy Water?
@@ -167,42 +179,59 @@ export default function HolyWaterSacramental() {
               Because holy water is blessed and associated with sacred mysteries, it should be treated with respect. Never use holy water for profane purposes. If disposing of old holy water, pour it onto the ground (preferably on soil where it won't be stepped on) rather than down drains.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Does holy water expire?",
-                  answer: "No, holy water does not lose its blessing. However, it can become contaminated with algae if left standing. Change holy water in home fonts regularly to keep it fresh. If it becomes dirty, respectfully dispose of it by pouring onto the earth and replace it with fresh blessed water."
-                },
-                {
-                  question: "Can I bless my own water?",
-                  answer: "Laypeople cannot bless holy water in the official sense—that requires priestly authority. However, you can make the Sign of the Cross over water and ask God to bless it for your personal devotion. For sacramental holy water, ask a priest to bless it or bring it from church."
-                },
-                {
-                  question: "Is holy water different from Lourdes water?",
-                  answer: "Lourdes water is a specific holy water from the spring at the shrine in Lourdes, France, associated with healing miracles. While it is holy water, its connection to Our Lady of Lourdes gives it special significance. Many Catholics keep Lourdes water for moments of special need."
-                },
-                {
-                  question: "Can holy water ward off evil spirits?",
-                  answer: "The Church teaches that holy water, as a sacramental, provides protection against evil. The blessing prayers specifically invoke this protection. While not magic, holy water represents faith in Christ's power over evil and our baptismal identity as children of God, protected by His grace."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "I will sprinkle clean water upon you." - Ezekiel 36:25
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Unless one is born of water and the Spirit." - John 3:5
+                </p>
+              </div>
+              
+              <div className="bg-sky-50 border border-sky-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Rivers of living water will flow from within him." - John 7:38
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="holy-water-sacramental" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Does holy water expire?",
+                answer: "No, holy water does not lose its blessing. However, it can become contaminated with algae if left standing. Change holy water in home fonts regularly to keep it fresh. If it becomes dirty, respectfully dispose of it by pouring onto the earth and replace it with fresh blessed water."
+              },
+              {
+                question: "Can I bless my own water?",
+                answer: "Laypeople cannot bless holy water in the official sense—that requires priestly authority. However, you can make the Sign of the Cross over water and ask God to bless it for your personal devotion. For sacramental holy water, ask a priest to bless it or bring it from church."
+              },
+              {
+                question: "Is holy water different from Lourdes water?",
+                answer: "Lourdes water is a specific holy water from the spring at the shrine in Lourdes, France, associated with healing miracles. While it is holy water, its connection to Our Lady of Lourdes gives it special significance. Many Catholics keep Lourdes water for moments of special need."
+              },
+              {
+                question: "Can holy water ward off evil spirits?",
+                answer: "The Church teaches that holy water, as a sacramental, provides protection against evil. The blessing prayers specifically invoke this protection. While not magic, holy water represents faith in Christ's power over evil and our baptismal identity as children of God, protected by His grace."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Deepen Your Catholic Devotion
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized prayer guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

@@ -28,46 +28,58 @@ export default function CatholicMarriagePreparation() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Catholic Marriage Preparation</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Catholic Marriage Preparation</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Heart className="w-4 h-4" />
-              <span>Relationships & Family</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Catholic Marriage Preparation: A Complete Guide for Engaged Couples
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Relationships & Family
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  15 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>15 min read</span>
-              </div>
-            </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              Preparing for marriage in the Catholic Church involves more than choosing flowers and venues. It requires spiritual formation, practical preparation, and understanding the sacramental nature of this lifelong commitment.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Catholic Marriage Preparation: A Complete Guide for Engaged Couples
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                Preparing for marriage in the Catholic Church involves more than choosing flowers and venues. It requires spiritual formation, practical preparation, and understanding the sacramental nature of this lifelong commitment.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-pink-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Heart className="w-24 h-24 text-pink-400/20 absolute top-4 right-4" />
+              <Church className="w-32 h-32 text-pink-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                Preparing for marriage in the Catholic Church involves more than choosing flowers and venues. It requires spiritual formation, practical preparation, and understanding the sacramental nature of this lifelong commitment.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Starting the Process: Contact Your Parish
@@ -201,42 +213,59 @@ export default function CatholicMarriagePreparation() {
               <li>Meet with a spiritual director or mentor couple</li>
             </ul>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "How long does Catholic marriage preparation take?",
-                  answer: "Typically 6-12 months. The Church requires at least six months to complete preparation programs, meetings, and paperwork. If annulments or other complications are involved, it may take longer. Start the process as soon as you're engaged—don't wait until you've booked the venue."
-                },
-                {
-                  question: "Can we get married in a garden or on a beach?",
-                  answer: "Generally no. The Church requires weddings to take place in a Catholic church or chapel (or another Catholic parish with permission). Outdoor weddings, garden ceremonies, and beach weddings are typically not permitted except in extraordinary circumstances requiring bishop's permission. This reflects the sacred nature of the sacrament."
-                },
-                {
-                  question: "What if we're already living together?",
-                  answer: "Many engaged couples live together before marriage. While this isn't the Church's ideal, it doesn't prevent you from marrying in the Church. Your priest may discuss this with you pastorally, encouraging separate living arrangements before marriage if possible, or at least refraining from sexual intimacy as you prepare for sacramental marriage."
-                },
-                {
-                  question: "Can we write our own vows?",
-                  answer: "The Church provides the essential vows that express the sacrament. You may be able to personalize vows slightly with your officiant's approval, but you cannot replace the canonical form that makes the marriage valid. The standard vows are beautiful and have sustained Catholic marriages for centuries."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "What God has joined together, let no one separate." - Mark 10:9
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Love is patient, love is kind." - 1 Corinthians 13:4
+                </p>
+              </div>
+              
+              <div className="bg-pink-50 border border-pink-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Husbands, love your wives, as Christ loved the Church." - Ephesians 5:25
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="catholic-marriage-preparation" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "How long does Catholic marriage preparation take?",
+                answer: "Typically 6-12 months. The Church requires at least six months to complete preparation programs, meetings, and paperwork. If annulments or other complications are involved, it may take longer. Start the process as soon as you're engaged—don't wait until you've booked the venue."
+              },
+              {
+                question: "Can we get married in a garden or on a beach?",
+                answer: "Generally no. The Church requires weddings to take place in a Catholic church or chapel (or another Catholic parish with permission). Outdoor weddings, garden ceremonies, and beach weddings are typically not permitted except in extraordinary circumstances requiring bishop's permission. This reflects the sacred nature of the sacrament."
+              },
+              {
+                question: "What if we're already living together?",
+                answer: "Many engaged couples live together before marriage. While this isn't the Church's ideal, it doesn't prevent you from marrying in the Church. Your priest may discuss this with you pastorally, encouraging separate living arrangements before marriage if possible, or at least refraining from sexual intimacy as you prepare for sacramental marriage."
+              },
+              {
+                question: "Can we write our own vows?",
+                answer: "The Church provides the essential vows that express the sacrament. You may be able to personalize vows slightly with your officiant's approval, but you cannot replace the canonical form that makes the marriage valid. The standard vows are beautiful and have sustained Catholic marriages for centuries."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Prepare for Your Catholic Marriage
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized marriage preparation guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

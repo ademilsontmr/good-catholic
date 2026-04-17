@@ -28,50 +28,58 @@ export default function DivineOfficeLaity() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          {/* Breadcrumbs */}
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Divine Office for Laity</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Divine Office for Laity</span>
+            </nav>
+          </div>
+        </div>
 
-          {/* Back Button */}
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <BookOpen className="w-4 h-4" />
-              <span>Prayer & Devotion</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              The Divine Office for Lay Catholics: How to Pray the Liturgy of the Hours
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Prayer & Devotion
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  14 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>14 min read</span>
-              </div>
-            </div>
-          </header>
 
-          {/* Article Content */}
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              The Liturgy of the Hours—also known as the Divine Office—is not just for priests and religious. Lay Catholics are increasingly discovering this ancient prayer of the Church, which sanctifies the entire day through psalms, readings, and intercession.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                The Divine Office for Lay Catholics: How to Pray the Liturgy of the Hours
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                The Liturgy of the Hours—also known as the Divine Office—is not just for priests and religious. Lay Catholics are increasingly discovering this ancient prayer of the Church, which sanctifies the entire day through psalms, readings, and intercession.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-purple-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Sun className="w-24 h-24 text-purple-400/20 absolute top-4 right-4" />
+              <BookOpen className="w-32 h-32 text-purple-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                The Liturgy of the Hours—also known as the Divine Office—is not just for priests and religious. Lay Catholics are increasingly discovering this ancient prayer of the Church, which sanctifies the entire day through psalms, readings, and intercession.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What Is the Divine Office?
@@ -159,43 +167,59 @@ export default function DivineOfficeLaity() {
               <li>Try an app if books feel intimidating</li>
             </ul>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Do I need special books to pray the Divine Office?",
-                  answer: "You can use the full four-volume Liturgy of the Hours, the one-volume Christian Prayer, or digital apps like iBreviary or Universalis. Many begin with apps since they automatically show the correct prayers for each day, eliminating the complexity of finding the right pages."
-                },
-                {
-                  question: "How long does it take to pray the Office?",
-                  answer: "Night Prayer takes 5-10 minutes. Morning and Evening Prayer each take 15-20 minutes when prayed fully. The shorter hours (Midday, Afternoon) take 5 minutes each. Most laypeople praying Morning, Evening, and Night spend about 30-40 minutes total per day."
-                },
-                {
-                  question: "Can families pray the Divine Office together?",
-                  answer: "Absolutely! Evening Prayer is particularly suited for family prayer. Children can participate in the responsories, the Magnificat, and the closing prayers. Many families find it a beautiful way to sanctify their evening together."
-                },
-                {
-                  question: "Is the Divine Office different from the Rosary?",
-                  answer: "Yes. The Rosary is a private devotional prayer involving meditation on mysteries. The Divine Office is the Church's official liturgical prayer, praying the psalms and readings. Both are valuable—many Catholics pray both daily, or alternate between them depending on time and circumstances."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Seven times a day I praise you." - Psalm 119:164
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Pray constantly." - 1 Thessalonians 5:17
+                </p>
+              </div>
+              
+              <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "My house shall be called a house of prayer." - Matthew 21:13
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="divine-office-laity" />
-          </div>
 
-          {/* Back to Blog */}
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Do I need special books to pray the Divine Office?",
+                answer: "You can use the full four-volume Liturgy of the Hours, the one-volume Christian Prayer, or digital apps like iBreviary or Universalis. Many begin with apps since they automatically show the correct prayers for each day, eliminating the complexity of finding the right pages."
+              },
+              {
+                question: "How long does it take to pray the Office?",
+                answer: "Night Prayer takes 5-10 minutes. Morning and Evening Prayer each take 15-20 minutes when prayed fully. The shorter hours (Midday, Afternoon) take 5 minutes each. Most laypeople praying Morning, Evening, and Night spend about 30-40 minutes total per day."
+              },
+              {
+                question: "Can families pray the Divine Office together?",
+                answer: "Absolutely! Evening Prayer is particularly suited for family prayer. Children can participate in the responsories, the Magnificat, and the closing prayers. Many families find it a beautiful way to sanctify their evening together."
+              },
+              {
+                question: "Is the Divine Office different from the Rosary?",
+                answer: "Yes. The Rosary is a private devotional prayer involving meditation on mysteries. The Divine Office is the Church's official liturgical prayer, praying the psalms and readings. Both are valuable—many Catholics pray both daily, or alternate between them depending on time and circumstances."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Begin Your Prayer Journey Today
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized prayer plan.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

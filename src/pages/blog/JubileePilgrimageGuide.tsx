@@ -28,46 +28,58 @@ export default function JubileePilgrimageGuide() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Jubilee Pilgrimage Guide</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Jubilee Pilgrimage Guide</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Sun className="w-4 h-4" />
-              <span>Jubilee 2025</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Jubilee 2025 Pilgrimage Guide: Continuing the Pilgrimage of Hope
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Jubilee 2025
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  11 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>11 min read</span>
-              </div>
-            </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              The Holy Year 2025 has concluded, but the pilgrimage of hope continues. The graces of the Jubilee extend beyond the closing of the Holy Doors. Discover how to maintain the Jubilee spirit and continue your pilgrimage of faith.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Jubilee 2025 Pilgrimage Guide: Continuing the Pilgrimage of Hope
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                The Holy Year 2025 has concluded, but the pilgrimage of hope continues. The graces of the Jubilee extend beyond the closing of the Holy Doors. Discover how to maintain the Jubilee spirit and continue your pilgrimage of faith.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-yellow-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Sun className="w-24 h-24 text-yellow-400/20 absolute top-4 right-4" />
+              <MapPin className="w-32 h-32 text-yellow-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                The Holy Year 2025 has concluded, but the pilgrimage of hope continues. The graces of the Jubilee extend beyond the closing of the Holy Doors. Discover how to maintain the Jubilee spirit and continue your pilgrimage of faith.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Jubilee Year: A Time of Grace
@@ -175,42 +187,59 @@ export default function JubileePilgrimageGuide() {
               <li><strong>Spiritual preparation:</strong> Confession, fasting, and prayer before departure</li>
             </ul>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Can I still receive indulgences after the Jubilee ends?",
-                  answer: "Yes. While the special Jubilee indulgences ended with the Holy Year, the Church offers many indulgences year-round. These include reading Scripture for 30 minutes, praying the Rosary in church, making the Stations of the Cross, and visiting a cemetery to pray for the dead during November. Check the Enchiridion of Indulgences for the complete list."
-                },
-                {
-                  question: "Do I have to travel far to make a pilgrimage?",
-                  answer: "No. While famous shrines are wonderful, any church can be a pilgrimage destination. Many saints made pilgrimages to their local parish churches. The key elements are: journeying with intention, prayer during the journey, and visiting a sacred place. Even visiting multiple churches in your own city can be a meaningful pilgrimage."
-                },
-                {
-                  question: "How can families make pilgrimages together?",
-                  answer: "Family pilgrimages create lasting memories and faith formation. Choose age-appropriate destinations. Prepare children by explaining the site's significance. Keep the journey prayerful with Rosary or hymns. Bring home holy water or devotional items. Most importantly, emphasize that the family journeying together toward God is the true pilgrimage."
-                },
-                {
-                  question: "What does it mean to be a pilgrim of hope?",
-                  answer: "A pilgrim of hope trusts in God's promises even when the path is difficult. It means living with confidence that God guides our journey, that every step brings us closer to heaven, and that no suffering is wasted when united with Christ. It's about keeping our eyes fixed on our ultimate destination while serving others along the way."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "I am the way, the truth, and the life." - John 14:6
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Come, let us go up to the mountain of the Lord." - Isaiah 2:3
+                </p>
+              </div>
+              
+              <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "For here we have no lasting city, but we seek the city that is to come." - Hebrews 13:14
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="jubilee-pilgrimage-guide" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Can I still receive indulgences after the Jubilee ends?",
+                answer: "Yes. While the special Jubilee indulgences ended with the Holy Year, the Church offers many indulgences year-round. These include reading Scripture for 30 minutes, praying the Rosary in church, making the Stations of the Cross, and visiting a cemetery to pray for the dead during November. Check the Enchiridion of Indulgences for the complete list."
+              },
+              {
+                question: "Do I have to travel far to make a pilgrimage?",
+                answer: "No. While famous shrines are wonderful, any church can be a pilgrimage destination. Many saints made pilgrimages to their local parish churches. The key elements are: journeying with intention, prayer during the journey, and visiting a sacred place. Even visiting multiple churches in your own city can be a meaningful pilgrimage."
+              },
+              {
+                question: "How can families make pilgrimages together?",
+                answer: "Family pilgrimages create lasting memories and faith formation. Choose age-appropriate destinations. Prepare children by explaining the site's significance. Keep the journey prayerful with Rosary or hymns. Bring home holy water or devotional items. Most importantly, emphasize that the family journeying together toward God is the true pilgrimage."
+              },
+              {
+                question: "What does it mean to be a pilgrim of hope?",
+                answer: "A pilgrim of hope trusts in God's promises even when the path is difficult. It means living with confidence that God guides our journey, that every step brings us closer to heaven, and that no suffering is wasted when united with Christ. It's about keeping our eyes fixed on our ultimate destination while serving others along the way."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Continue Your Pilgrimage of Hope
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized spiritual journey guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

@@ -28,50 +28,58 @@ export default function HealingThroughFaith() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          {/* Breadcrumbs */}
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Healing Through Faith</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Healing Through Faith</span>
+            </nav>
+          </div>
+        </div>
 
-          {/* Back Button */}
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <HeartPulse className="w-4 h-4" />
-              <span>Spiritual Healing</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Healing Through Faith: Catholic Prayers for Physical and Emotional Recovery
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Spiritual Healing
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  13 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>13 min read</span>
-              </div>
-            </div>
-          </header>
 
-          {/* Article Content */}
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              Faith has always been a source of healing. From Jesus' miracles in the Gospels to the sacraments of the Church today, discover how Catholic faith offers profound healing for body, mind, and soul.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Healing Through Faith: Catholic Prayers for Physical and Emotional Recovery
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                Faith has always been a source of healing. From Jesus' miracles in the Gospels to the sacraments of the Church today, discover how Catholic faith offers profound healing for body, mind, and soul.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-rose-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Sparkles className="w-24 h-24 text-rose-400/20 absolute top-4 right-4" />
+              <HeartPulse className="w-32 h-32 text-rose-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                Faith has always been a source of healing. From Jesus' miracles in the Gospels to the sacraments of the Church today, discover how Catholic faith offers profound healing for body, mind, and soul.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Biblical Foundation of Healing
@@ -189,20 +197,42 @@ export default function HealingThroughFaith() {
                   question: "Is it a lack of faith if I'm not healed?",
                   answer: "Absolutely not. Many saints lived with chronic illness and disabilities while having extraordinary faith. Lack of healing is never a sign of personal sin or insufficient faith. Trust that God works all things for good, even through suffering."
                 }
-              ]}
-            />
+              ]} />
+
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "He heals the brokenhearted and binds up their wounds." - Psalm 147:3
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "By his wounds we are healed." - Isaiah 53:5
+                </p>
+              </div>
+              
+              <div className="bg-rose-50 border border-rose-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Ask and it will be given to you; seek and you will find." - Matthew 7:7
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="healing-through-faith" />
-          </div>
 
-          {/* Back to Blog */}
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Begin Your Healing Journey Today
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized healing prayer guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Healing Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

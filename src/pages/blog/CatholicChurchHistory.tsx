@@ -28,46 +28,58 @@ export default function CatholicChurchHistory() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Catholic Church History</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Catholic Church History</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <BookOpen className="w-4 h-4" />
-              <span>History & Apologetics</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Catholic Church History: A Complete Timeline from Peter to Today
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  History & Apologetics
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  16 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>16 min read</span>
-              </div>
-            </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              The Catholic Church is the longest continuously operating institution in human history. For 2,000 years, she has survived empires, weathered crises, and shaped civilization. Understanding Church history strengthens faith and provides perspective on today's challenges.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Catholic Church History: A Complete Timeline from Peter to Today
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                The Catholic Church is the longest continuously operating institution in human history. For 2,000 years, she has survived empires, weathered crises, and shaped civilization. Understanding Church history strengthens faith and provides perspective on today's challenges.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-indigo-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <BookOpen className="w-24 h-24 text-indigo-400/20 absolute top-4 right-4" />
+              <Church className="w-32 h-32 text-indigo-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                The Catholic Church is the longest continuously operating institution in human history. For 2,000 years, she has survived empires, weathered crises, and shaped civilization. Understanding Church history strengthens faith and provides perspective on today's challenges.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Apostolic Foundation (30-100 AD)
@@ -156,42 +168,59 @@ export default function CatholicChurchHistory() {
               Church history reveals patterns: crises produce renewal, persecution strengthens faith, and the Holy Spirit guides through human weakness. The Church has survived because she is not merely human—she is Christ's Body, animated by His Spirit.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Was the Catholic Church the first Christian Church?",
-                  answer: "The Catholic Church traces its lineage directly to the apostles, with documented succession of bishops from Peter to the present pope. While various Christian traditions claim apostolic roots, the Catholic Church maintains unbroken institutional continuity through the episcopacy, liturgy, and doctrine from the first century."
-                },
-                {
-                  question: "Why did the Church and state become so intertwined?",
-                  answer: "After Constantine's conversion, the Church gained legal status and gradually assumed social functions as Roman authority collapsed. The medieval partnership of 'church and state' served mutual interests but also created problems (investiture controversies, corruption). The modern separation of church and state, properly understood, protects both institutions."
-                },
-                {
-                  question: "How has the Church changed over 2000 years?",
-                  answer: "The Church develops in understanding while maintaining essential continuity. Vatican II described this as development of doctrine, not contradiction. Practices (liturgy, clerical celibacy, religious life) have evolved. Core teachings (Trinity, Incarnation, Eucharist, moral principles) remain unchanged. The Church is both ancient and ever-young."
-                },
-                {
-                  question: "What can history teach us about current Church challenges?",
-                  answer: "History shows the Church always faces crises—heresies, corruption, persecution, cultural changes—and survives through renewal, saints, and fidelity to the Gospel. Current challenges (secularization, abuse crisis, division) are serious but not unprecedented. History encourages hope: the Church endures not because of human strength but Christ's promise."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "You are Peter, and upon this rock I will build my church." - Matthew 16:18
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The gates of hell shall not prevail against it." - Matthew 16:18
+                </p>
+              </div>
+              
+              <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "I am with you always, to the end of the age." - Matthew 28:20
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="catholic-church-history" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Was the Catholic Church the first Christian Church?",
+                answer: "The Catholic Church traces its lineage directly to the apostles, with documented succession of bishops from Peter to the present pope. While various Christian traditions claim apostolic roots, the Catholic Church maintains unbroken institutional continuity through the episcopacy, liturgy, and doctrine from the first century."
+              },
+              {
+                question: "Why did the Church and state become so intertwined?",
+                answer: "After Constantine's conversion, the Church gained legal status and gradually assumed social functions as Roman authority collapsed. The medieval partnership of 'church and state' served mutual interests but also created problems (investiture controversies, corruption). The modern separation of church and state, properly understood, protects both institutions."
+              },
+              {
+                question: "How has the Church changed over 2000 years?",
+                answer: "The Church develops in understanding while maintaining essential continuity. Vatican II described this as development of doctrine, not contradiction. Practices (liturgy, clerical celibacy, religious life) have evolved. Core teachings (Trinity, Incarnation, Eucharist, moral principles) remain unchanged. The Church is both ancient and ever-young."
+              },
+              {
+                question: "What can history teach us about current Church challenges?",
+                answer: "History shows the Church always faces crises—heresies, corruption, persecution, cultural changes—and survives through renewal, saints, and fidelity to the Gospel. Current challenges (secularization, abuse crisis, division) are serious but not unprecedented. History encourages hope: the Church endures not because of human strength but Christ's promise."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Explore Your Catholic Heritage
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized faith journey guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

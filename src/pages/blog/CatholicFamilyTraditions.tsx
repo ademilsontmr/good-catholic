@@ -28,46 +28,58 @@ export default function CatholicFamilyTraditions() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Catholic Family Traditions</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Catholic Family Traditions</span>
+            </nav>
+          </div>
+        </div>
 
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Home className="w-4 h-4" />
-              <span>Family & Parenting</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Catholic Family Traditions: Building a Domestic Church
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Family & Parenting
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  14 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>14 min read</span>
-              </div>
-            </div>
-          </header>
 
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
-              The family is called the "domestic church"—the place where faith is first learned and lived. Catholic family traditions create an environment where children encounter Christ not just on Sunday, but daily in their own homes.
-            </p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Catholic Family Traditions: Building a Domestic Church
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                The family is called the "domestic church"—the place where faith is first learned and lived. Catholic family traditions create an environment where children encounter Christ not just on Sunday, but daily in their own homes.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-orange-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Home className="w-24 h-24 text-orange-400/20 absolute top-4 right-4" />
+              <Users className="w-32 h-32 text-orange-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
+                The family is called the "domestic church"—the place where faith is first learned and lived. Catholic family traditions create an environment where children encounter Christ not just on Sunday, but daily in their own homes.
+              </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Vision: A Catholic Home
@@ -193,42 +205,59 @@ export default function CatholicFamilyTraditions() {
               First Saturday devotions, monthly family confession, blessing of throats on St. Blaise's day (February 3), and annual household blessings (on Epiphany or moving into a new home) mark time with sacred significance.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "What if my family isn't consistent with traditions?",
-                  answer: "Start small and build gradually. Better to maintain one or two traditions well than to attempt many and abandon them. If you miss a day or week, simply begin again. Children remember the effort and love, not perfect execution."
-                },
-                {
-                  question: "How do we start if we have no traditions?",
-                  answer: "Choose one daily practice (grace before meals), one weekly (Sunday Mass attendance), and one seasonal (Advent wreath). Add others gradually as these become habitual. The key is beginning, not waiting until you can do everything."
-                },
-                {
-                  question: "What about teenagers who resist family prayer?",
-                  answer: "Don't force, but don't eliminate either. Invite rather than mandate. Explain why these practices matter. Sometimes teens resist precisely because they need it most. Continue praying whether they join visibly or not—your prayer covers them. Most adults eventually appreciate the foundation their parents laid."
-                },
-                {
-                  question: "Can single people or empty nesters have domestic churches?",
-                  answer: "Absolutely! The domestic church applies to any Catholic household, regardless of composition. Singles can create prayer corners, observe liturgical seasons, and invite others to share in their faith-filled homes. The vocation differs, but the principle remains: make your dwelling a place of prayer and Christian witness."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "As for me and my house, we will serve the Lord." - Joshua 24:15
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Where two or three are gathered in my name, there am I among them." - Matthew 18:20
+                </p>
+              </div>
+              
+              <div className="bg-orange-50 border border-orange-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Train up a child in the way he should go." - Proverbs 22:6
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="catholic-family-traditions" />
-          </div>
 
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "What if my family isn't consistent with traditions?",
+                answer: "Start small and build gradually. Better to maintain one or two traditions well than to attempt many and abandon them. If you miss a day or week, simply begin again. Children remember the effort and love, not perfect execution."
+              },
+              {
+                question: "How do we start if we have no traditions?",
+                answer: "Choose one daily practice (grace before meals), one weekly (Sunday Mass attendance), and one seasonal (Advent wreath). Add others gradually as these become habitual. The key is beginning, not waiting until you can do everything."
+              },
+              {
+                question: "What about teenagers who resist family prayer?",
+                answer: "Don't force, but don't eliminate either. Invite rather than mandate. Explain why these practices matter. Sometimes teens resist precisely because they need it most. Continue praying whether they join visibly or not—your prayer covers them. Most adults eventually appreciate the foundation their parents laid."
+              },
+              {
+                question: "Can single people or empty nesters have domestic churches?",
+                answer: "Absolutely! The domestic church applies to any Catholic household, regardless of composition. Singles can create prayer corners, observe liturgical seasons, and invite others to share in their faith-filled homes. The vocation differs, but the principle remains: make your dwelling a place of prayer and Christian witness."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Build Your Domestic Church
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized family faith guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

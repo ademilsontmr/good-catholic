@@ -28,48 +28,56 @@ export default function SpiritualLifeBasics() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          {/* Breadcrumbs */}
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">Spiritual Life Basics</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">Spiritual Life Basics</span>
+            </nav>
+          </div>
+        </div>
 
-          {/* Back Button */}
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Wind className="w-4 h-4" />
-              <span>Spiritual Life</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              Spiritual Life Basics: Essential Practices for Daily Catholic Living
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Spiritual Life
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  14 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>14 min read</span>
-              </div>
-            </div>
-          </header>
 
-          {/* Article Content */}
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                Spiritual Life Basics: Essential Practices for Daily Catholic Living
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                The spiritual life is the foundation of Catholic faith. Discover the essential daily practices, prayer routines, and spiritual disciplines that help Catholics grow closer to God and live out their faith in everyday life.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-sky-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Wind className="w-24 h-24 text-sky-400/20 absolute top-4 right-4" />
+              <Wind className="w-32 h-32 text-sky-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
               The spiritual life is the foundation of Catholic faith. Discover the essential daily practices, prayer routines, and spiritual disciplines that help Catholics grow closer to God and live out their faith in everyday life.
             </p>
 
@@ -175,43 +183,59 @@ export default function SpiritualLifeBasics() {
               As St. Thérèse of Lisieux showed through her "Little Way," holiness is accessible to everyone through small acts of love done with great love. The spiritual life is the path that leads there.
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "How long should I pray each day?",
-                  answer: "The Church recommends at least 15-20 minutes of personal prayer daily, plus participation in Mass when possible. Quality matters more than quantity — a sincere 10 minutes is better than distracted hour. Start where you are and grow gradually."
-                },
-                {
-                  question: "What if I don't feel anything when I pray?",
-                  answer: "Feelings are not the measure of prayer. Faithfulness to prayer during dryness is often more meritorious than prayer in consolation. Continue your routine, trust in God's hidden presence, and remember that love is shown by fidelity, not emotions."
-                },
-                {
-                  question: "Can laypeople have a deep spiritual life?",
-                  answer: "Absolutely! Sanctity is not reserved for priests and religious. The lay vocation is to sanctify everyday life — work, family, civic duties. Many lay saints, like St. Gianna Beretta Molla and Blessed Carlo Acutis, show that deep union with God is possible in ordinary life."
-                },
-                {
-                  question: "Should I have a spiritual director?",
-                  answer: "Spiritual direction is highly recommended for serious growth. A director helps discern God's will, navigate difficulties, and stay accountable. If you cannot find a priest director, mature lay Catholics can also provide guidance."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "It is no longer I who live, but Christ who lives in me." - Galatians 2:20
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Pray without ceasing." - 1 Thessalonians 5:17
+                </p>
+              </div>
+              
+              <div className="bg-sky-50 border border-sky-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The kingdom of God is within you." - Luke 17:21
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="spiritual-life-basics" />
-          </div>
 
-          {/* Back to Blog */}
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "How long should I pray each day?",
+                answer: "The Church recommends at least 15-20 minutes of personal prayer daily, plus participation in Mass when possible. Quality matters more than quantity — a sincere 10 minutes is better than distracted hour. Start where you are and grow gradually."
+              },
+              {
+                question: "What if I don't feel anything when I pray?",
+                answer: "Feelings are not the measure of prayer. Faithfulness to prayer during dryness is often more meritorious than prayer in consolation. Continue your routine, trust in God's hidden presence, and remember that love is shown by fidelity, not emotions."
+              },
+              {
+                question: "Can laypeople have a deep spiritual life?",
+                answer: "Absolutely! Sanctity is not reserved for priests and religious. The lay vocation is to sanctify everyday life — work, family, civic duties. Many lay saints, like St. Gianna Beretta Molla and Blessed Carlo Acutis, show that deep union with God is possible in ordinary life."
+              },
+              {
+                question: "Should I have a spiritual director?",
+                answer: "Spiritual direction is highly recommended for serious growth. A director helps discern God's will, navigate difficulties, and stay accountable. If you cannot find a priest director, mature lay Catholics can also provide guidance."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Begin Your Spiritual Journey Today
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized spiritual growth plan.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Spiritual Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 

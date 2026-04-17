@@ -28,48 +28,56 @@ export default function SaintPadrePioMiracles() {
       <div className="min-h-screen bg-background">
         <Navbar />
 
-        <article className="container mx-auto px-4 py-8 max-w-4xl">
-          {/* Breadcrumbs */}
-          <nav className="text-sm mb-6 text-text-muted">
-            <Link to="/" className="hover:text-text transition-colors">Home</Link>
-            <span className="mx-2">/</span>
-            <Link to="/blog/" className="hover:text-text transition-colors">Blog</Link>
-            <span className="mx-2">/</span>
-            <span className="text-text">St. Padre Pio Miracles</span>
-          </nav>
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link>
+              <span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <span>/</span>
+              <span className="text-text">St. Padre Pio Miracles</span>
+            </nav>
+          </div>
+        </div>
 
-          {/* Back Button */}
-          <Link to="/blog/">
-            <Button variant="outline" className="mb-6 border-primary text-primary hover:bg-primary/10">
-              <ArrowLeft className="w-4 h-4 mr-2" />
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+              <ArrowLeft className="w-4 h-4" />
               Back to Blog
-            </Button>
-          </Link>
+            </Link>
 
-          {/* Article Header */}
-          <header className="mb-8">
-            <div className="flex items-center gap-2 text-sm text-primary font-semibold mb-3">
-              <Sparkles className="w-4 h-4" />
-              <span>Saints & Miracles</span>
-            </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4 leading-tight">
-              St. Padre Pio: Miracles, Bilocation, and the Stigmata
-            </h1>
-            <div className="flex flex-wrap items-center gap-4 text-text-muted text-sm">
-              <div className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
-                <span>April 16, 2026</span>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
+                  Saints & Miracles
+                </span>
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-4 h-4" />
+                  April 16, 2026
+                </span>
+                <span className="flex items-center gap-1">
+                  <Clock className="w-4 h-4" />
+                  14 min read
+                </span>
               </div>
-              <div className="flex items-center gap-1">
-                <Clock className="w-4 h-4" />
-                <span>14 min read</span>
-              </div>
-            </div>
-          </header>
 
-          {/* Article Content */}
-          <div className="prose prose-lg max-w-none text-text">
-            <p className="text-xl leading-relaxed mb-8 text-text/90">
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
+                St. Padre Pio: Miracles, Bilocation, and the Stigmata
+              </h1>
+
+              <p className="text-xl text-text-muted leading-relaxed">
+                St. Padre Pio of Pietrelcina was one of the most extraordinary saints of the 20th century. His miraculous gifts—including the stigmata, bilocation, and reading of souls—drew millions to faith and continue to inspire devotion today.
+              </p>
+            </header>
+
+            <div className="aspect-video bg-amber-50 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              <Sparkles className="w-24 h-24 text-amber-400/20 absolute top-4 right-4" />
+              <Cross className="w-32 h-32 text-amber-400 relative z-10" strokeWidth={1} />
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-text leading-relaxed mb-6">
               St. Padre Pio of Pietrelcina was one of the most extraordinary saints of the 20th century. His miraculous gifts—including the stigmata, bilocation, and reading of souls—drew millions to faith and continue to inspire devotion today.
             </p>
 
@@ -152,43 +160,59 @@ export default function SaintPadrePioMiracles() {
               His famous spiritual advice remains relevant: "Pray, hope, and don't worry. Anxiety is useless. God is merciful and will hear your prayer."
             </p>
 
-            <QuizCTA />
-
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
-            <BlogFAQ
-              faqs={[
-                {
-                  question: "Did Padre Pio ever deny having the stigmata?",
-                  answer: "No, though he was humble about the gift. Church authorities initially doubted and even restricted his ministry for years due to skepticism about the stigmata. Eventually, after thorough investigation, the Church confirmed the miraculous nature of his wounds."
-                },
-                {
-                  question: "Can I visit where Padre Pio lived?",
-                  answer: "Yes. San Giovanni Rotondo in southern Italy welcomes millions of pilgrims annually. You can visit his tomb, the church where he celebrated Mass, his cell in the friary, and the hospital he founded. The town has grown into a major pilgrimage destination."
-                },
-                {
-                  question: "How can I ask Padre Pio for help?",
-                  answer: "Simply pray to him as you would any saint. Many people use this simple prayer: 'O St. Padre Pio, who bore the wounds of Christ, intercede for me and bring my request before the throne of God. Pray for me that I may receive the grace I need. Amen.'"
-                },
-                {
-                  question: "Are there any approved miracles for his canonization?",
-                  answer: "Yes. The Church approved several miracles for his beatification and canonization, including miraculous healings attributed to his intercession. These were investigated thoroughly by medical and theological commissions before being approved by the Vatican."
-                }
-              ]}
-            />
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Pray, hope, and don't worry. Anxiety is useless. God is merciful and will hear your prayer." - St. Padre Pio
+                </p>
+              </div>
+              
+              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "By his wounds we are healed." - Isaiah 53:5
+                </p>
+              </div>
+              
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6 mt-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "The Lord is close to the brokenhearted." - Psalm 34:18
+                </p>
+              </div>
+            </div>
 
             <RelatedArticles currentSlug="saint-padre-pio-miracles" />
-          </div>
 
-          {/* Back to Blog */}
-          <div className="mt-12 pt-8 border-t border-primary/20">
-            <Link to="/blog/">
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                <ArrowLeft className="w-4 h-4 mr-2" />
-                Back to Blog
-              </Button>
-            </Link>
+            <BlogFAQ faqs={[
+              {
+                question: "Did Padre Pio ever deny having the stigmata?",
+                answer: "No, though he was humble about the gift. Church authorities initially doubted and even restricted his ministry for years due to skepticism about the stigmata. Eventually, after thorough investigation, the Church confirmed the miraculous nature of his wounds."
+              },
+              {
+                question: "Can I visit where Padre Pio lived?",
+                answer: "Yes. San Giovanni Rotondo in southern Italy welcomes millions of pilgrims annually. You can visit his tomb, the church where he celebrated Mass, his cell in the friary, and the hospital he founded. The town has grown into a major pilgrimage destination."
+              },
+              {
+                question: "How can I ask Padre Pio for help?",
+                answer: "Simply pray to him as you would any saint. Many people use this simple prayer: 'O St. Padre Pio, who bore the wounds of Christ, intercede for me and bring my request before the throne of God. Pray for me that I may receive the grace I need. Amen.'"
+              },
+              {
+                question: "Are there any approved miracles for his canonization?",
+                answer: "Yes. The Church approved several miracles for his beatification and canonization, including miraculous healings attributed to his intercession. These were investigated thoroughly by medical and theological commissions before being approved by the Vatican."
+              }
+            ]} />
+
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">
+                Begin Your Healing Journey Today
+              </h3>
+              <p className="text-text-muted mb-6">
+                Take our assessment and receive a personalized prayer guide.
+              </p>
+              <Link to="/quiz-intro">
+                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
+                  Start Assessment
+                </Button>
+              </Link>
+            </div>
           </div>
         </article>
 
