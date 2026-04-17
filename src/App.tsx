@@ -146,6 +146,11 @@ import OurLadyOfFatimaGuide from "./pages/blog/OurLadyOfFatimaGuide";
 import LiturgicalSeasonsGuide from "./pages/blog/LiturgicalSeasonsGuide";
 import VocationalDiscernmentGuide from "./pages/blog/VocationalDiscernmentGuide";
 import CatholicMentalHealthGuide from "./pages/blog/CatholicMentalHealthGuide";
+import OurLadyOfLourdesGuide from "./pages/blog/OurLadyOfLourdesGuide";
+import CatholicSacramentalsGuide from "./pages/blog/CatholicSacramentalsGuide";
+import LiturgyOfTheHoursGuide from "./pages/blog/LiturgyOfTheHoursGuide";
+import CatholicDatingGuide from "./pages/blog/CatholicDatingGuide";
+import CatholicParentingGuide from "./pages/blog/CatholicParentingGuide";
 
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -305,6 +310,11 @@ const App = () => (
             <Route path="/blog/liturgical-seasons-guide/" element={<LiturgicalSeasonsGuide />} />
             <Route path="/blog/vocational-discernment-guide/" element={<VocationalDiscernmentGuide />} />
             <Route path="/blog/catholic-mental-health-guide/" element={<CatholicMentalHealthGuide />} />
+            <Route path="/blog/our-lady-of-lourdes-guide/" element={<OurLadyOfLourdesGuide />} />
+            <Route path="/blog/catholic-sacramentals-guide/" element={<CatholicSacramentalsGuide />} />
+            <Route path="/blog/liturgy-of-the-hours-guide/" element={<LiturgyOfTheHoursGuide />} />
+            <Route path="/blog/catholic-dating-guide/" element={<CatholicDatingGuide />} />
+            <Route path="/blog/catholic-parenting-guide/" element={<CatholicParentingGuide />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
