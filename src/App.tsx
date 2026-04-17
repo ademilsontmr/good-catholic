@@ -140,7 +140,12 @@ import SacredHeartPromises from "./pages/blog/SacredHeartPromises";
 import HowToChooseConfirmationName from "./pages/blog/HowToChooseConfirmationName";
 import HowToReturnToMass from "./pages/blog/HowToReturnToMass";
 import HowToTeachChildrenToPray from "./pages/blog/HowToTeachChildrenToPray";
-
+import StJosephNovenaHouse from "./pages/blog/StJosephNovenaHouse";
+import CatholicInnerHealingGuide from "./pages/blog/CatholicInnerHealingGuide";
+import OurLadyOfFatimaGuide from "./pages/blog/OurLadyOfFatimaGuide";
+import LiturgicalSeasonsGuide from "./pages/blog/LiturgicalSeasonsGuide";
+import VocationalDiscernmentGuide from "./pages/blog/VocationalDiscernmentGuide";
+import CatholicMentalHealthGuide from "./pages/blog/CatholicMentalHealthGuide";
 
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -294,6 +299,12 @@ const App = () => (
             <Route path="/blog/how-to-choose-confirmation-name/" element={<HowToChooseConfirmationName />} />
             <Route path="/blog/how-to-return-to-mass/" element={<HowToReturnToMass />} />
             <Route path="/blog/how-to-teach-children-to-pray/" element={<HowToTeachChildrenToPray />} />
+            <Route path="/blog/st-joseph-novena-house/" element={<StJosephNovenaHouse />} />
+            <Route path="/blog/catholic-inner-healing-guide/" element={<CatholicInnerHealingGuide />} />
+            <Route path="/blog/our-lady-of-fatima-guide/" element={<OurLadyOfFatimaGuide />} />
+            <Route path="/blog/liturgical-seasons-guide/" element={<LiturgicalSeasonsGuide />} />
+            <Route path="/blog/vocational-discernment-guide/" element={<VocationalDiscernmentGuide />} />
+            <Route path="/blog/catholic-mental-health-guide/" element={<CatholicMentalHealthGuide />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 

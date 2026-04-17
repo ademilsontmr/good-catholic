@@ -69,11 +69,24 @@ export default function EucharistRealPresence() {
 
                         <div className="prose prose-lg max-w-none">
                             <p className="text-text leading-relaxed mb-6">
-                                The Catholic Church holds a conviction that is "foolishness to the Gentiles and a stumbling block to Jews": that a piece of unleavened bread and a cup of wine truly become the <strong>Body, Blood, Soul, and Divinity</strong> of Jesus Christ. This isn't just a pious belief; it is a dogmatic certainty defined by the <strong>Council of Trent (1551)</strong>.
+                                The Catholic Church holds a conviction that is "foolishness to the Gentiles and a stumbling block to Jews": that a piece of unleavened bread and a cup of wine truly become the <strong>Body, Blood, Soul, and Divinity</strong> of Jesus Christ. This isn't just a pious belief; it is a dogmatic certainty defined by the <strong>Council of Trent (1551)</strong> and believed by Christians from the earliest days.
+                            </p>
+                            
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                                The Early Church's Understanding
+                            </h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                The Real Presence wasn't invented in the Middle Ages. The earliest Christians understood the Eucharist exactly as Catholics do today. St. Ignatius of Antioch (martyred 107 AD) wrote: "Take note of those who hold heterodox opinions on the grace of Jesus Christ... They abstain from the Eucharist... because they do not confess that the Eucharist is the flesh of our Savior Jesus Christ."
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                St. Justin Martyr (150 AD) explained: "We call this food Eucharist... For we do not receive these as common bread and drink; but... the food which has been made into the Eucharist by the Eucharistic prayer set down by Him, and by the change of which our blood and flesh is nourished, is both the flesh and blood of that incarnated Jesus."
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                St. Augustine (400 AD) famously taught: "Christ bore Himself in His own hands, when He offered His body saying 'This is my body.'" The Church Fathers were unanimous in this belief.
                             </p>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                1. Transubstantiation: Substance vs. Accidents
+                                1. Transubstantiation: The Miracle of Substance Change
                             </h2>
                             <p className="text-text leading-relaxed mb-6">
                                 To explain the miracle of the altar, the Church uses the philosophical framework of St. Thomas Aquinas. Every object has two parts:
@@ -85,24 +98,43 @@ export default function EucharistRealPresence() {
                             <p className="text-text leading-relaxed mb-6">
                                 In <strong>Transubstantiation</strong>, the *substance* of bread is annihilated and replaced by the *substance* of Christ. Because the accidents remain, it does not taste like flesh, allowing us to receive our Lord in a way that is "unbloody" and "sacramental" rather than cannibalistic.
                             </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                This term was formally adopted at the Fourth Lateran Council (1215) and reaffirmed at Trent, but the reality it describes was always believed. The Council of Trent declared: "If anyone says that in the most holy sacrament of the Eucharist the substance of the bread and the wine remains... let him be anathema."
+                            </p>
+                            
+                            <div className="bg-violet-50 border border-violet-200 rounded-xl p-8 mb-10">
+                                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                                    <Sparkles className="w-6 h-6 text-violet-600" />
+                                    Other Theological Views: Why the Church Insists on Transubstantiation
+                                </h3>
+                                <p className="text-sm text-text-muted mb-4 text-center">How other Christians understand the Eucharist</p>
+                                <ul className="list-disc list-inside text-text space-y-3 text-sm">
+                                    <li><strong>Consubstantiation (Lutheran):</strong> Christ's body and blood are "in, with, and under" the bread and wine. Both substances coexist.</li>
+                                    <li><strong>Spiritual Presence (Reformed):</strong> Christ is spiritually present but the bread and wine remain only symbols.</li>
+                                    <li><strong>Memorialism (Zwinglian):</strong> The Eucharist is purely symbolic, a memorial of Christ's sacrifice.</li>
+                                    <li><strong>Catholic Position:</strong> Only transubstantiation preserves the full reality of Christ's words "This IS my body."</li>
+                                </ul>
+                            </div>
 
                             <div className="bg-violet-50 border border-violet-200 rounded-xl p-8 mb-10">
                                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
                                     <Activity className="w-6 h-6 text-violet-600" />
-                                    When Science Meets the Altar: Lanciano and Beyond
+                                    When Science Meets the Altar: Eucharistic Miracles
                                 </h3>
                                 <p className="text-text mb-4 text-sm">
                                     Throughout history, God has allowed the "accidents" to change into "substance" to confirm our faith. These are called <strong>Eucharistic Miracles</strong>.
                                 </p>
                                 <ul className="list-disc list-inside text-text space-y-3 text-sm">
-                                    <li><strong>The Lanciano Miracle (8th Century):</strong> Analyzed in 1970 by Dr. Odoardo Linoli (WHO consultant). The results: The Host is 100% human <strong>cardiac muscle tissue</strong> (the myocardium). The Blood is type <strong>AB</strong>. </li>
+                                    <li><strong>The Lanciano Miracle (8th Century):</strong> Analyzed in 1970 by Dr. Odoardo Linoli (WHO consultant). The results: The Host is 100% human <strong>cardiac muscle tissue</strong> (the myocardium). The Blood is type <strong>AB</strong>—the same blood type found on the Shroud of Turin.</li>
+                                    <li><strong>Buenos Aires, Argentina (1996):</strong> A consecrated host that began bleeding was analyzed by Dr. Ricardo Castañón. Results: human heart tissue with white blood cells—indicating the tissue was alive.</li>
                                     <li><strong>Sokółka, Poland (2008):</strong> Pathologists from the Medical University of Białystok found that the "clot" on the host was human heart tissue *intertwined* with the bread fibers—a biological impossibility for a hoax.</li>
-                                    <li><strong>The common denominator:</strong> In all analyzed miracles (Lanciano, Buenos Aires, Tixtla), the tissue always shows signs of <strong>"stress" or "agony"</strong>—as if the heart were currently undergoing trauma.</li>
+                                    <li><strong>Tixtla, Mexico (2006):</strong> Another bleeding host analyzed in Mexico showed human heart tissue with the same characteristics as the others.</li>
+                                    <li><strong>The common denominator:</strong> In all analyzed miracles, the tissue always shows signs of <strong>"stress" or "agony"</strong>—as if the heart were currently undergoing trauma, confirming the reality of Christ's ongoing sacrifice.</li>
                                 </ul>
                             </div>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                                2. The Bread of Life Discourse (John 6)
+                                2. The Bread of Life Discourse: John 6's Unambiguous Claims
                             </h2>
                             <p className="text-text leading-relaxed mb-6">
                                 Critics claim Jesus was speaking metaphorically. However, the Greek text of John 6 argues otherwise. When the Jews questioned Him, Jesus switched from the common word for "eating" (<em>phagein</em>) to <strong>trogein</strong>, which literally means "to gnaw" or "to chew." 
@@ -110,6 +142,23 @@ export default function EucharistRealPresence() {
                             <p className="text-text leading-relaxed mb-6">
                                 He was making His point as physical as possible. When 70 of His disciples left because "this is a hard saying," Jesus didn't call them back to explain it was "just a symbol." He let them go. He would rather lose His followers than compromise the reality of the Bread of Life.
                             </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                Key moments in John 6: Jesus says "I am the bread of life" (v.35), "the bread that I will give is my flesh" (v.51), "unless you eat the flesh of the Son of Man and drink his blood, you have no life in you" (v.53), and "my flesh is true food, and my blood is true drink" (v.55). The Jews understood exactly what He meant—they asked "How can this man give us his flesh to eat?" (v.52).
+                            </p>
+                            
+                            <div className="bg-violet-50 border border-violet-200 rounded-xl p-8 mb-10">
+                                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                                    <Heart className="w-6 h-6 text-violet-600" />
+                                    Other Biblical Evidence for the Real Presence
+                                </h3>
+                                <p className="text-sm text-text-muted mb-4 text-center">Beyond John 6, Scripture consistently points to the Real Presence</p>
+                                <ul className="list-disc list-inside text-text space-y-3 text-sm">
+                                    <li><strong>1 Corinthians 11:27-29:</strong> "Whoever eats the bread or drinks the cup of the Lord in an unworthy manner will be guilty concerning the body and blood of the Lord." You can't be guilty against a symbol.</li>
+                                    <li><strong>1 Corinthians 10:16:</strong> "The cup of blessing that we bless, is it not a participation in the blood of Christ? The bread that we break, is it not a participation in the body of Christ?"</li>
+                                    <li><strong>Matthew 26:26:</strong> "This IS my body" (not "this represents my body"). Jesus uses the verb of being, not symbolism.</li>
+                                    <li><strong>Acts 2:42:</strong> Early Christians devoted themselves to "the breaking of bread"—clearly more than a communal meal.</li>
+                                </ul>
+                            </div>
 
                             <QuizCTA
                                 title="How is your interior silence?"
@@ -123,10 +172,45 @@ export default function EucharistRealPresence() {
                             <p className="text-text leading-relaxed mb-6">
                                 Because the Presence is substantial, it does not end when the Mass ends. It continues as long as the "accidents" of bread remain. This is why we have <strong>Eucharistic Adoration</strong>. The Monstrance (from the Latin <em>monstrare</em> - to show) allows us to gaze at the same Jesus who walked the shores of Galilee. It is the most powerful "radiography" for the soul.
                             </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                The practice of Eucharistic adoration developed gradually but has deep roots. St. Francis of Assisi would spend hours in prayer before the Blessed Sacrament. St. Thomas Aquinas wrote the beautiful hymns "Pange Lingua" and "Tantum Ergo" for the Feast of Corpus Christi, established in 1264 to honor the Real Presence.
+                            </p>
+                            
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                                3. The Effects of Receiving the Eucharist Worthily
+                            </h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                The Catechism teaches that the Eucharist "increases our union with Christ," "separates us from sin," "preserves us from future mortal sins," and "strengthens charity" (CCC 1391-1397). When we receive Jesus in the Eucharist, we receive His divine life into our souls.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                This is why the Church requires us to be in a state of grace (free from mortal sin) before receiving Communion. St. Paul warns that receiving unworthily brings "judgment on oneself" (1 Cor 11:29). The Eucharist is not just a blessing—it is the actual Body of Christ, and it transforms those who receive it properly.
+                            </p>
+                            
+                            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                                4. The Eucharist and the End Times
+                            </h2>
+                            <p className="text-text leading-relaxed mb-6">
+                                The Eucharist is our foretaste of heaven. In the heavenly Jerusalem, there will be no more temple—"the Lord God Almighty and the Lamb are the temple" (Revelation 21:22). The Mass is our participation in the eternal worship of heaven. Every Mass brings the future into the present.
+                            </p>
+                            <p className="text-text leading-relaxed mb-6">
+                                As Pope Benedict XVI taught: "The Eucharist is the 'medicine of immortality,' the antidote to death. By receiving the Body of Christ, we become partakers of the divine nature and receive the promise of eternal life."
+                            </p>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                                 <p className="text-text italic text-center leading-relaxed font-semibold">
                                     "When you look at the Crucifix, you see how much Jesus loved you then. When you look at the Sacred Host, you see how much Jesus loves you now." — St. Teresa of Calcutta
+                                </p>
+                            </div>
+                            
+                            <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                                <p className="text-text italic text-center leading-relaxed font-semibold">
+                                    "The Eucharist is 'the source and summit of the Christian life.'" — Lumen Gentium 11
+                                </p>
+                            </div>
+                            
+                            <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                                <p className="text-text italic text-center leading-relaxed font-semibold">
+                                    "In the Eucharist, Christ gives us His body, blood, soul, and divinity. What more could He give us?" — St. Thomas Aquinas
                                 </p>
                             </div>
                         </div>
@@ -145,6 +229,22 @@ export default function EucharistRealPresence() {
                             {
                                 question: "Why can't non-Catholics receive Communion?",
                                 answer: "Receiving Communion is the ultimate sign of 'Communion'—meaning you share the same faith, the same laws, and the same Pope. To receive without believing in the Real Presence would be a 'lie' told with the body (cf. 1 Cor 11:27-29)."
+                            },
+                            {
+                                question: "How long does Jesus remain in the Eucharist?",
+                                answer: "The Real Presence continues as long as the Eucharistic species (the appearances of bread and wine) remain. This is why we reserve the Blessed Sacrament in tabernacles for adoration and for the sick."
+                            },
+                            {
+                                question: "What's the difference between the Eucharist and Communion?",
+                                answer: "The Eucharist is the entire sacrament of Christ's Body and Blood. Communion is the act of receiving the Eucharist. The Eucharist exists whether we receive it or not; Communion is our participation in it."
+                            },
+                            {
+                                question: "Why do we call it 'Holy Communion'?",
+                                answer: "Because through it we become 'one' (communio) with Christ and with all members of His Body, the Church. It unites us not only to Jesus but to every other person who receives Him."
+                            },
+                            {
+                                question: "What if I don't feel anything after receiving Communion?",
+                                answer: "The Eucharist works regardless of feelings. The grace is real even if we don't perceive it. Growth in holiness is often gradual. The important thing is to receive with faith and gratitude, not to seek emotional experiences."
                             }
                         ]} />
 

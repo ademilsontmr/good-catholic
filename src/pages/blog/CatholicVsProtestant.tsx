@@ -80,15 +80,34 @@ export default function CatholicVsProtestant() {
               <p className="text-text leading-relaxed mb-6">
                 The Protestant Reformation wasn't just a political split; it was a revolution in <strong>Epistemology</strong> (how we know what is true). While Protestants and Catholics share 90% of the Creed—including the Trinity and the Resurrection—the 10% we disagree on changes how we live our daily lives.
               </p>
+              
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                The Historical Context: Why 1517 Changed Everything
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                For 1,500 years, Christianity in the West was essentially unified (with the Eastern Orthodox split in 1054). Then Martin Luther posted his 95 Theses in Wittenberg, Germany. But this wasn't just about indulgences—it was about authority itself.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Luther's personal struggle led him to discover Romans 1:17: "The righteous shall live by faith." This became the foundation of <em>Sola Fide</em> (faith alone). But his conclusion—that the Church had corrupted the Gospel—led to a fundamental break with 1,500 years of Christian understanding.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Other reformers followed: Zwingli in Switzerland, Calvin in Geneva, Henry VIII in England. Each had different theological emphases, but all shared the rejection of papal authority and the need for an internal principle of interpretation.
+              </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                1. The Authority Crisis: Sola Scriptura
+                1. The Authority Crisis: Sola Scriptura vs. Scripture and Tradition
               </h2>
               <p className="text-text leading-relaxed mb-6">
                 Protestants hold to <em>Sola Scriptura</em> (The Bible Alone). Catholics respond with a simple historical fact: <strong>The Church preceded the Bible</strong>. 
               </p>
               <p className="text-text leading-relaxed mb-6">
                 For the first 350 years of Christianity, there was no final list of New Testament books. It was the Catholic Church, at the <strong>Councils of Hippo (393) and Carthage (397)</strong>, that determined which books were inspired. Without the infallible authority of the Church, we wouldn't even know which books belong in the Bible.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Catholics believe in <strong>Scripture and Tradition</strong> as one deposit of faith. 2 Thessalonians 2:15 instructs us to hold to "traditions which you were taught by us, either by word of mouth or by letter." The Church doesn't put Tradition above Scripture—rather, Tradition is the living context in which Scripture is properly interpreted.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                The problem with Sola Scriptura, from the Catholic perspective, is that it's self-contradictory: the Bible never teaches that the Bible alone is our only authority. And practically, it has led to thousands of denominations, each claiming to follow the Bible but reaching different conclusions.
               </p>
 
               <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
@@ -112,12 +131,48 @@ export default function CatholicVsProtestant() {
               <p className="text-text leading-relaxed mb-6">
                 Catholics do not believe we "earn" Heaven. Salvation is 100% a gift of God's grace. However, we believe that grace must transform us. Good works are not "extra credit"; they are the fruit that proves the tree is alive.
               </p>
+              <p className="text-text leading-relaxed mb-6">
+                The Catholic understanding is that justification is a process, not a one-time event. It begins with faith, is strengthened by works, and completed by God's final judgment. As Paul says in Philippians 2:12, "Work out your own salvation with fear and trembling, for it is God who works in you."
+              </p>
+              
+              <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
+                <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
+                  <Scale className="w-6 h-6 text-indigo-600" />
+                  The Three Major Protestant Traditions
+                </h3>
+                <p className="text-sm text-text-muted mb-4 text-center">Not all Protestants believe the same thing</p>
+                <ul className="list-disc list-inside text-text space-y-3 text-sm">
+                  <li><strong>Lutheran:</strong> Closest to Catholics on sacraments. Believe in consubstantiation (Christ present "in, with, and under" the elements). Retain apostolic succession in some branches.</li>
+                  <li><strong>Reformed/Calvinist:</strong> Emphasize God's sovereignty. Believe in predestination and spiritual presence in Eucharist. Strong focus on covenant theology.</li>
+                  <li><strong>Anabaptist/Evangelical:</strong> Emphasize personal conversion experience. Practice believer's baptism only. View Eucharist as purely symbolic.</li>
+                </ul>
+              </div>
 
               <QuizCTA
                 title="Do you know why you believe what you believe?"
                 description="Take our quiz to analyze your understanding of the pillars of the faith and learn how to defend the 2,000-year-old Tradition of the Church."
               />
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                3. The Sacraments: Channels of Grace vs. Symbols
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                Catholics believe in seven sacraments as outward signs that actually convey grace. Baptism truly regenerates, Confirmation truly strengthens, the Eucharist truly contains Christ. These aren't symbols—they are encounters with the living God.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Most Protestants recognize only two sacraments (Baptism and Communion) and see them primarily as symbolic acts of obedience. The Catholic view is that God works through physical matter because we are physical beings. The Incarnation validates this principle—God becoming flesh to save us.
+              </p>
+              
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                4. The Church: Visible Authority vs. Invisible Fellowship
+              </h2>
+              <p className="text-text leading-relaxed mb-6">
+                Catholics believe in the visible Church with hierarchical authority. The Pope, as successor of Peter, has the charism of infallibility when teaching on faith and morals. This prevents the Church from error in essential teachings.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Protestants typically see the Church as an invisible fellowship of all true believers. Without a central authority, interpretation of Scripture remains individual, leading to the thousands of denominations we see today.
+              </p>
+              
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
                  <Heart className="w-6 h-6 text-accent" />
                  Ecumenism: The Prayer for Unity
@@ -125,10 +180,28 @@ export default function CatholicVsProtestant() {
               <p className="text-text leading-relaxed mb-6">
                 Despite our serious differences, Jesus prayed "that they may all be one" (John 17:21). Catholics are called to engage in <strong>Ecumenism</strong>—not by compromising the truth, but by searching for common ground and praying for the day when we can all share the same Eucharistic Table.
               </p>
+              <p className="text-text leading-relaxed mb-6">
+                The Second Vatican Council's <em>Unitatis Redintegratio</em> established the principles of modern Catholic ecumenism: dialogue, prayer together, and working together on social issues. The Catholic Church now recognizes Orthodox sacraments as valid and sees Protestants as "separated brothers" in Christ.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Ecumenism doesn't mean saying differences don't matter. It means approaching each other with charity, seeking to understand rather than to win arguments, and working toward the unity Christ prayed for—even if we don't know how or when it will be achieved.
+              </p>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "The things that we have in common are greater than the things that divide us." — Pope St. John XXIII
+                </p>
+              </div>
+              
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "Unity is a gift of the Holy Spirit, but it requires our cooperation." — Pope Francis
+                </p>
+              </div>
+              
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
+                <p className="text-text italic text-center leading-relaxed font-semibold">
+                  "In essentials, unity; in non-essentials, liberty; in all things, charity." — St. Augustine
                 </p>
               </div>
             </div>
@@ -147,6 +220,22 @@ export default function CatholicVsProtestant() {
               {
                 question: "Wait, so is a Protestant saved?",
                 answer: "The Church recognizes all validly baptized Christians as our 'separated brothers.' While they lack the fullness of the means of salvation (the 7 sacraments), they are united to Christ through their baptism and faith."
+              },
+              {
+                question: "What's the difference between Catholic and Protestant Bibles?",
+                answer: "Catholic Bibles have 73 books, Protestant Bibles have 66. The 7 'missing' books (Tobit, Judith, 1&2 Maccabees, Wisdom, Sirach, Baruch) were part of the Septuagint (Greek Old Testament) used by Jesus and the Apostles. Protestants removed them in the 16th century."
+              },
+              {
+                question: "Can Catholics and Protestants pray together?",
+                answer: "Yes, and this is encouraged in ecumenical settings. We can pray the Lord's Prayer together, pray for unity, and pray for common concerns. However, Catholics cannot receive Communion in Protestant services, and Protestants cannot receive Catholic Communion."
+              },
+              {
+                question: "What about Purgatory?",
+                answer: "Catholics believe in Purgatory as a final purification for those who die in God's grace but still need cleansing from sin. Protestants reject it as unbiblical. Catholics point to 2 Maccabees 12:46, Matthew 12:32, and 1 Corinthians 3:15 as biblical support."
+              },
+              {
+                question: "Are the differences really that important?",
+                answer: "Yes, because they affect how we understand salvation, authority, and the Christian life. However, charity is essential. We can disagree strongly while still loving each other as fellow Christians and working together for the common good."
               }
             ]} />
 
