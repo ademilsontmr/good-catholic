@@ -170,9 +170,6 @@ export default function DignityOfWork() {
 
             <QuizCTA />
 
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
             <BlogFAQ
               faqs={[
                 {

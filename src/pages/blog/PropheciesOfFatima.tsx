@@ -154,9 +154,6 @@ export default function PropheciesOfFatima() {
 
             <QuizCTA />
 
-            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Frequently Asked Questions
-            </h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Behold, I am the handmaid of the Lord." - Luke 1:38
