@@ -183,6 +183,13 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// Faith Questions Series
+const WhatDoCatholicsBeliieve = lazy(() => import("./pages/blog/WhatDoCatholicsBeliieve"));
+const IsCatholicismChristian = lazy(() => import("./pages/blog/IsCatholicismChristian"));
+const WhyDoCatholics = lazy(() => import("./pages/blog/WhyDoCatholics"));
+const WhatIsTheCatholicChurch = lazy(() => import("./pages/blog/WhatIsTheCatholicChurch"));
+const WhatIsPurgatoryGuide = lazy(() => import("./pages/blog/WhatIsPurgatoryGuide"));
+
 // Mass & Sacraments Series
 const MassTimesNearMe = lazy(() => import("./pages/blog/MassTimesNearMe"));
 const HowToGoToConfessionGuide = lazy(() => import("./pages/blog/HowToGoToConfessionGuide"));
@@ -425,6 +432,13 @@ const App = () => (
             <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
+
+            {/* Faith Questions Series */}
+            <Route path="/blog/what-do-catholics-believe/" element={<WhatDoCatholicsBeliieve />} />
+            <Route path="/blog/is-catholicism-christian/" element={<IsCatholicismChristian />} />
+            <Route path="/blog/why-do-catholics/" element={<WhyDoCatholics />} />
+            <Route path="/blog/what-is-the-catholic-church/" element={<WhatIsTheCatholicChurch />} />
+            <Route path="/blog/what-is-purgatory-explained/" element={<WhatIsPurgatoryGuide />} />
 
             {/* Mass & Sacraments Series */}
             <Route path="/blog/mass-times-near-me/" element={<MassTimesNearMe />} />

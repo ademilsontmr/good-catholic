@@ -261,6 +261,66 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-violet-400"
   },
   {
+    id: 1092,
+    slug: "what-do-catholics-believe",
+    title: "What Do Catholics Believe? Core Beliefs Explained",
+    excerpt: "What do Catholics believe? A clear, complete guide to the core beliefs of the Catholic Church — God, Jesus, salvation, Mary, the sacraments, the afterlife, and more.",
+    date: "2026-04-20",
+    readTime: "22 min",
+    category: "Faith Questions",
+    icon: BookOpen,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-500"
+  },
+  {
+    id: 1093,
+    slug: "is-catholicism-christian",
+    title: "Is Catholicism Christian? The Clear Answer",
+    excerpt: "Is Catholicism a form of Christianity? Yes — and here's why. A clear, honest answer with historical and biblical evidence that Catholics are Christians.",
+    date: "2026-04-20",
+    readTime: "14 min",
+    category: "Faith Questions",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-500"
+  },
+  {
+    id: 1094,
+    slug: "why-do-catholics",
+    title: "Why Do Catholics Pray to Mary, Confess to Priests & More — Answered",
+    excerpt: "Clear answers to the most common questions about Catholic practices: Why pray to Mary? Why confess to a priest? Why call priests 'Father'? Why kneel?",
+    date: "2026-04-20",
+    readTime: "18 min",
+    category: "Faith Questions",
+    icon: HelpCircle,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-500"
+  },
+  {
+    id: 1095,
+    slug: "what-is-the-catholic-church",
+    title: "What Is the Catholic Church? History, Structure & Mission",
+    excerpt: "A complete guide to the Catholic Church — its founding by Jesus Christ, 2,000-year history, structure, the Pope, sacraments, and global mission.",
+    date: "2026-04-20",
+    readTime: "19 min",
+    category: "Faith Questions",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-600"
+  },
+  {
+    id: 1096,
+    slug: "what-is-purgatory-explained",
+    title: "What Is Purgatory? The Catholic Teaching Fully Explained",
+    excerpt: "What is Purgatory? The complete Catholic explanation — biblical basis, what Purgatory is and isn't, how to pray for the souls there, and why this doctrine reveals God's mercy.",
+    date: "2026-04-20",
+    readTime: "17 min",
+    category: "Faith Questions",
+    icon: Cloud,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-400"
+  },
+  {
     id: 1086,
     slug: "mass-times-near-me",
     title: "Mass Times Near Me: How to Find a Catholic Church & Mass Schedule",
