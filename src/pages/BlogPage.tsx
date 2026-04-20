@@ -261,6 +261,54 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-violet-400"
   },
   {
+    id: 1061,
+    slug: "how-to-choose-confirmation-name",
+    title: "How to Choose a Confirmation Name: Complete Catholic Guide",
+    excerpt: "Learn how to choose the perfect Catholic Confirmation name. Discover the tradition, how to research saints, and what your patron saint means for your faith journey.",
+    date: "2026-04-20",
+    readTime: "12 min",
+    category: "How-To",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-600"
+  },
+  {
+    id: 1062,
+    slug: "how-to-return-to-mass",
+    title: "How to Return to Mass After a Long Absence",
+    excerpt: "Thinking about returning to Mass? This step-by-step guide helps lapsed Catholics come back to the Church with confidence, grace, and a renewed sense of belonging.",
+    date: "2026-04-20",
+    readTime: "10 min",
+    category: "How-To",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-600"
+  },
+  {
+    id: 1063,
+    slug: "how-to-teach-children-to-pray",
+    title: "How to Teach Children to Pray: A Catholic Parent's Guide",
+    excerpt: "Practical, age-by-age guide for Catholic parents on teaching children to pray. From bedtime prayers to the Rosary, build a lifelong prayer habit in your kids.",
+    date: "2026-04-20",
+    readTime: "14 min",
+    category: "How-To",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
+  {
+    id: 1064,
+    slug: "how-to-find-catholic-community",
+    title: "How to Find a Catholic Community: A Practical Guide",
+    excerpt: "Feeling isolated in your faith? Learn how to find a vibrant Catholic community — from parish groups and young adult ministries to online communities and retreats.",
+    date: "2026-04-20",
+    readTime: "11 min",
+    category: "How-To",
+    icon: Users,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600"
+  },
+  {
     id: 1050,
     slug: "st-joseph-novena-house",
     title: "St. Joseph Novena for Buying a House: Complete Guide to Divine Intervention",
