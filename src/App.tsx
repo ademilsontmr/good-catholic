@@ -176,6 +176,13 @@ const LivingVirtue = lazy(() => import("./pages/blog/LivingVirtue"));
 const RosaryMysteriesMeditation = lazy(() => import("./pages/blog/RosaryMysteriesMeditation"));
 const CatholicMarriagePreparation = lazy(() => import("./pages/blog/CatholicMarriagePreparation"));
 
+// High-Priority Articles
+const PopeLeoXIV = lazy(() => import("./pages/blog/PopeLeoXIV"));
+const PopeFrancisLegacy = lazy(() => import("./pages/blog/PopeFrancisLegacy"));
+const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCatholicBibleTranslations"));
+const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
+const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
+
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
@@ -362,6 +369,13 @@ const App = () => (
             <Route path="/blog/living-virtue/" element={<LivingVirtue />} />
             <Route path="/blog/rosary-mysteries-meditation/" element={<RosaryMysteriesMeditation />} />
             <Route path="/blog/catholic-marriage-preparation/" element={<CatholicMarriagePreparation />} />
+
+            {/* High-Priority Articles Batch */}
+            <Route path="/blog/who-is-pope-leo-xiv/" element={<PopeLeoXIV />} />
+            <Route path="/blog/pope-francis-legacy/" element={<PopeFrancisLegacy />} />
+            <Route path="/blog/best-catholic-bible-translations/" element={<BestCatholicBibleTranslations />} />
+            <Route path="/blog/catholic-teaching-on-salvation/" element={<CatholicTeachingOnSalvation />} />
+            <Route path="/blog/catholic-wedding-ceremony-guide/" element={<CatholicWeddingCeremony />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 

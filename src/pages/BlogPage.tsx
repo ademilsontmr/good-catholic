@@ -141,6 +141,66 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-green-600"
   },
   {
+    id: 1051,
+    slug: "who-is-pope-leo-xiv",
+    title: "Who Is Pope Leo XIV? The First American Pope Explained",
+    excerpt: "Robert Francis Prevost, born in Chicago, was elected Pope on May 8, 2025. Learn about the first American pope in history — his Augustinian vocation, decades in Peru, and vision for the Church.",
+    date: "2026-04-20",
+    readTime: "18 min",
+    category: "Current Affairs",
+    icon: Cross,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-600"
+  },
+  {
+    id: 1052,
+    slug: "pope-francis-legacy",
+    title: "Pope Francis: Life, Legacy and His Impact on the Catholic Church",
+    excerpt: "Explore the life and legacy of Pope Francis — Jorge Mario Bergoglio — from Buenos Aires to the Vatican. His key documents, emphasis on mercy, and lasting impact on the Church.",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Current Affairs",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-600"
+  },
+  {
+    id: 1053,
+    slug: "best-catholic-bible-translations",
+    title: "Best Catholic Bible Translations: RSV, NAB, Douay-Rheims Compared",
+    excerpt: "Which Catholic Bible translation is best? Compare the Douay-Rheims, RSV-CE, NAB, NABRE, and Jerusalem Bible to find the right translation for study, prayer, and Mass.",
+    date: "2026-04-20",
+    readTime: "22 min",
+    category: "Formation",
+    icon: BookOpen,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600"
+  },
+  {
+    id: 1054,
+    slug: "catholic-teaching-on-salvation",
+    title: "What Does the Catholic Church Teach About Salvation?",
+    excerpt: "What does the Catholic Church teach about salvation? Learn about justification, sanctification, faith and works, the sacraments, and how to respond to 'are you saved?'",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Doctrine",
+    icon: Cross,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 1055,
+    slug: "catholic-wedding-ceremony-guide",
+    title: "Catholic Wedding Ceremony: A Complete Guide to Holy Matrimony",
+    excerpt: "Everything you need to know about a Catholic wedding — the Rite of Marriage, exchange of vows, Nuptial Blessing, Pre-Cana, mixed marriages, and what guests should know.",
+    date: "2026-04-20",
+    readTime: "25 min",
+    category: "Sacraments",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
+  {
     id: 1050,
     slug: "st-joseph-novena-house",
     title: "St. Joseph Novena for Buying a House: Complete Guide to Divine Intervention",
