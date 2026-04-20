@@ -91,6 +91,11 @@ import SpiritualRetreatAtHome from "./pages/blog/SpiritualRetreatAtHome";
 import SpiritualDirection from "./pages/blog/SpiritualDirection";
 import DarkNightOfTheSoul from "./pages/blog/DarkNightOfTheSoul";
 import GrowingInHumility from "./pages/blog/GrowingInHumility";
+// How-To Articles
+import HowToChooseConfirmationName from "./pages/blog/HowToChooseConfirmationName";
+import HowToReturnToMass from "./pages/blog/HowToReturnToMass";
+import HowToTeachChildrenToPray from "./pages/blog/HowToTeachChildrenToPray";
+import HowToFindCatholicCommunity from "./pages/blog/HowToFindCatholicCommunity";
 // Family & Youth Articles Batch 8
 import CatholicParenting from "./pages/blog/CatholicParenting";
 import FamilyPrayer from "./pages/blog/FamilyPrayer";
@@ -274,6 +279,10 @@ const App = () => (
             <Route path="/blog/catholic-spiritual-direction/" element={<SpiritualDirection />} />
             <Route path="/blog/dark-night-of-the-soul-catholic/" element={<DarkNightOfTheSoul />} />
             <Route path="/blog/how-to-grow-in-humility-catholic/" element={<GrowingInHumility />} />
+            <Route path="/blog/how-to-choose-confirmation-name/" element={<HowToChooseConfirmationName />} />
+            <Route path="/blog/how-to-return-to-mass/" element={<HowToReturnToMass />} />
+            <Route path="/blog/how-to-teach-children-to-pray/" element={<HowToTeachChildrenToPray />} />
+            <Route path="/blog/how-to-find-catholic-community/" element={<HowToFindCatholicCommunity />} />
             {/* Doctrine Articles Batch 10 */}
             <Route path="/blog/natural-family-planning-catholic/" element={<NaturalFamilyPlanning />} />
             <Route path="/blog/catholic-teaching-on-abortion/" element={<CatholicTeachingAbortion />} />

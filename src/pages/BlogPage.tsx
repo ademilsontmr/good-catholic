@@ -1057,7 +1057,7 @@ export const blogPosts: BlogPost[] = [
     slug: "examination-of-conscience-guide",
     title: "How to Make an Examination of Conscience: Complete Catholic Guide",
     excerpt: "Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination.",
-    date: "2026-04-14",
+    date: "2026-04-13",
     readTime: "11 min",
     category: "Spirituality",
     icon: BookOpen,
@@ -1688,7 +1688,55 @@ export const blogPosts: BlogPost[] = [
     icon: Heart,
     bgColor: "bg-rose-100",
     iconColor: "text-rose-600"
-  }
+  },
+  {
+    id: 78,
+    slug: "how-to-choose-confirmation-name",
+    title: "How to Choose a Confirmation Name: A Complete Catholic Guide",
+    excerpt: "Learn how to choose a Catholic Confirmation name — what it means, how to research saints, and how to make this important spiritual decision with prayer and discernment.",
+    date: "2026-04-15",
+    readTime: "8 min",
+    category: "Sacraments",
+    icon: Flame,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-400"
+  },
+  {
+    id: 79,
+    slug: "how-to-return-to-mass",
+    title: "How to Return to Mass After Being Away: A Guide for Lapsed Catholics",
+    excerpt: "Thinking about returning to Mass? This compassionate guide helps lapsed Catholics come back to the Church — step by step, without judgment.",
+    date: "2026-04-15",
+    readTime: "9 min",
+    category: "Liturgy",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
+  },
+  {
+    id: 80,
+    slug: "how-to-teach-children-to-pray",
+    title: "How to Teach Children to Pray: A Catholic Parent's Guide",
+    excerpt: "Learn how to teach your children to pray as Catholics — age-appropriate prayers, tips for building a prayer habit, and how to make prayer a natural part of family life.",
+    date: "2026-04-15",
+    readTime: "10 min",
+    category: "Family",
+    icon: Users,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 81,
+    slug: "how-to-find-catholic-community",
+    title: "How to Find a Catholic Community: A Guide to Parish Life",
+    excerpt: "Learn how to find a welcoming Catholic community, choose the right parish, get involved in parish life, and build lasting friendships rooted in faith.",
+    date: "2026-04-15",
+    readTime: "9 min",
+    category: "Community",
+    icon: MapPin,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-400"
+  },
 ];
 
 export default function BlogPage() {
@@ -1700,10 +1748,12 @@ export default function BlogPage() {
   
   const categories = ["All", ...Array.from(new Set(blogPosts.map(post => post.category)))];
   
-  // Sort posts by date (most recent first)
-  const sortedPosts = [...blogPosts].sort((a, b) => 
-    new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+  // Sort posts by date (most recent first), then by id descending as tiebreaker
+  const sortedPosts = [...blogPosts].sort((a, b) => {
+    const dateDiff = new Date(b.date).getTime() - new Date(a.date).getTime();
+    if (dateDiff !== 0) return dateDiff;
+    return b.id - a.id; // higher id = more recent
+  });
   
   const filteredPosts = selectedCategory === "All" 
     ? sortedPosts 
