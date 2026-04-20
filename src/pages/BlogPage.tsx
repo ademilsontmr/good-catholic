@@ -261,6 +261,66 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-violet-400"
   },
   {
+    id: 1101,
+    slug: "catholic-bible-guide",
+    title: "The Catholic Bible: Complete Guide — Books, Translations & How to Read It",
+    excerpt: "Everything about the Catholic Bible — its 73 books, the deuterocanonical books, best translations (RSV-CE, NABRE, Douay-Rheims), and how to read it as a Catholic.",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Bible & Faith",
+    icon: BookOpen,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1102,
+    slug: "daily-mass-readings-catholic",
+    title: "Daily Mass Readings Catholic: How to Follow, Apps & the Lectionary",
+    excerpt: "How to follow the Catholic daily Mass readings — what they are, the three-year cycle, the best apps and websites, and how to use them for daily prayer and Scripture study.",
+    date: "2026-04-20",
+    readTime: "14 min",
+    category: "Bible & Faith",
+    icon: Sun,
+    bgColor: "bg-yellow-100",
+    iconColor: "text-yellow-500"
+  },
+  {
+    id: 1103,
+    slug: "catholic-bible-verses",
+    title: "50 Most Important Catholic Bible Verses: Scripture for Every Occasion",
+    excerpt: "The 50 most important Catholic Bible verses — for prayer, strength, comfort, faith, love, and the sacraments. Essential Scripture every Catholic should know by heart.",
+    date: "2026-04-20",
+    readTime: "18 min",
+    category: "Bible & Faith",
+    icon: BookOpen,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600"
+  },
+  {
+    id: 1104,
+    slug: "gospel-reading-today-catholic",
+    title: "Gospel Reading Today Catholic: How to Find It, Understand It & Pray It",
+    excerpt: "How to find today's Catholic Gospel reading — the best apps, websites, and methods. Plus how to understand and pray with the Gospel reading every day.",
+    date: "2026-04-20",
+    readTime: "12 min",
+    category: "Bible & Faith",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-500"
+  },
+  {
+    id: 1105,
+    slug: "how-to-study-the-bible-catholic",
+    title: "How to Study the Bible as a Catholic: Methods, Resources & Tips",
+    excerpt: "How to study the Bible as a Catholic — Lectio Divina, the four senses of Scripture, the best study Bibles, commentaries, apps, and a practical daily reading plan.",
+    date: "2026-04-20",
+    readTime: "17 min",
+    category: "Bible & Faith",
+    icon: BookOpen,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-500"
+  },
+  {
     id: 1097,
     slug: "how-to-become-catholic",
     title: "How to Become Catholic: Complete Step-by-Step Guide",

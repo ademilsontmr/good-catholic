@@ -183,6 +183,13 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// Bible & Readings Series
+const CatholicBibleGuide = lazy(() => import("./pages/blog/CatholicBibleGuide"));
+const DailyMassReadings = lazy(() => import("./pages/blog/DailyMassReadings"));
+const CatholicBibleVerses = lazy(() => import("./pages/blog/CatholicBibleVerses"));
+const GospelReadingToday = lazy(() => import("./pages/blog/GospelReadingToday"));
+const HowToStudyBibleCatholic = lazy(() => import("./pages/blog/HowToStudyBibleCatholic"));
+
 // Conversion & RCIA Series
 const HowToBecomeCatholicGuide = lazy(() => import("./pages/blog/HowToBecomeCatholicGuide"));
 const WhatIsRCIAGuide = lazy(() => import("./pages/blog/WhatIsRCIAGuide"));
@@ -438,6 +445,13 @@ const App = () => (
             <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
+
+            {/* Bible & Readings Series */}
+            <Route path="/blog/catholic-bible-guide/" element={<CatholicBibleGuide />} />
+            <Route path="/blog/daily-mass-readings-catholic/" element={<DailyMassReadings />} />
+            <Route path="/blog/catholic-bible-verses/" element={<CatholicBibleVerses />} />
+            <Route path="/blog/gospel-reading-today-catholic/" element={<GospelReadingToday />} />
+            <Route path="/blog/how-to-study-the-bible-catholic/" element={<HowToStudyBibleCatholic />} />
 
             {/* Conversion & RCIA Series */}
             <Route path="/blog/how-to-become-catholic/" element={<HowToBecomeCatholicGuide />} />
