@@ -261,6 +261,54 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-violet-400"
   },
   {
+    id: 1122,
+    slug: "st-jude-prayer",
+    title: "St. Jude Prayer: Powerful Prayers for Impossible Cases & Desperate Situations",
+    excerpt: "The most powerful prayers to St. Jude Thaddeus — patron of impossible cases. Full texts of the St. Jude novena, the traditional prayer, and how to ask for his intercession.",
+    date: "2026-04-20",
+    readTime: "14 min",
+    category: "Saints & Intercession",
+    icon: Heart,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1123,
+    slug: "st-anthony-prayer",
+    title: "St. Anthony Prayer: For Lost Things, Lost People & Impossible Causes",
+    excerpt: "Prayers to St. Anthony of Padua — patron of lost things. The traditional prayer, the Responsory, novena, and how to ask St. Anthony to help you find what is lost.",
+    date: "2026-04-20",
+    readTime: "13 min",
+    category: "Saints & Intercession",
+    icon: MapPin,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-500"
+  },
+  {
+    id: 1124,
+    slug: "catholic-saints-list",
+    title: "Catholic Saints List: Patron Saints for Every Need & Occasion",
+    excerpt: "Complete Catholic saints list organized by patronage — saints for health, work, travel, family, and specific needs. Find your patron saint and learn how to ask for their intercession.",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Saints & Intercession",
+    icon: Users,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-500"
+  },
+  {
+    id: 1125,
+    slug: "patron-saints-guide",
+    title: "Patron Saints: What They Are, How They Help & How to Find Yours",
+    excerpt: "What are patron saints? How do they intercede for us? How do you find your patron saint? Complete Catholic guide to patron saints, their patronages, and how to develop devotion to them.",
+    date: "2026-04-20",
+    readTime: "15 min",
+    category: "Saints & Intercession",
+    icon: Star,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-500"
+  },
+  {
     id: 1101,
     slug: "catholic-bible-guide",
     title: "The Catholic Bible: Complete Guide — Books, Translations & How to Read It",

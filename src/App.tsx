@@ -183,6 +183,12 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// Saints & Intercession Series
+const StJudePrayer = lazy(() => import("./pages/blog/StJudePrayer"));
+const StAnthonyPrayer = lazy(() => import("./pages/blog/StAnthonyPrayer"));
+const CatholicSaintsList = lazy(() => import("./pages/blog/CatholicSaintsList"));
+const PatronSaintsGuide = lazy(() => import("./pages/blog/PatronSaintsGuide"));
+
 // Bible & Readings Series
 const CatholicBibleGuide = lazy(() => import("./pages/blog/CatholicBibleGuide"));
 const DailyMassReadings = lazy(() => import("./pages/blog/DailyMassReadings"));
@@ -445,6 +451,12 @@ const App = () => (
             <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
+
+            {/* Saints & Intercession Series */}
+            <Route path="/blog/st-jude-prayer/" element={<StJudePrayer />} />
+            <Route path="/blog/st-anthony-prayer/" element={<StAnthonyPrayer />} />
+            <Route path="/blog/catholic-saints-list/" element={<CatholicSaintsList />} />
+            <Route path="/blog/patron-saints-guide/" element={<PatronSaintsGuide />} />
 
             {/* Bible & Readings Series */}
             <Route path="/blog/catholic-bible-guide/" element={<CatholicBibleGuide />} />
