@@ -18,8 +18,25 @@
     <!-- Site Verification and Ownership -->
     <meta name="application-name" content="Guide Catholic" />
     <meta name="apple-mobile-web-app-title" content="Guide Catholic" />
-    
+
+    <!-- Preconnect to font origins (reduces DNS + TLS latency) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Fonts loaded via <link> instead of CSS @import (faster render) -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap"
+    />
+
+    <!-- Preload favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Critical CSS: prevents white flash before JS loads -->
+    <style>
+      body { background-color: #faf9f7; margin: 0; }
+      #root { min-height: 100vh; }
+    </style>
   </head>
 
   <body>
