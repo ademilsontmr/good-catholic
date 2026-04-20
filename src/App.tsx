@@ -183,6 +183,15 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// Prayer Articles Series
+const CatholicPrayersGuide = lazy(() => import("./pages/blog/CatholicPrayersGuide"));
+const NightPrayerCatholic = lazy(() => import("./pages/blog/NightPrayerCatholic"));
+const MorningPrayerCatholic = lazy(() => import("./pages/blog/MorningPrayerCatholic"));
+const SaintMichaelPrayer = lazy(() => import("./pages/blog/SaintMichaelPrayer"));
+const PrayersForHealingCatholic = lazy(() => import("./pages/blog/PrayersForHealingCatholic"));
+const RosaryForBeginners = lazy(() => import("./pages/blog/RosaryForBeginners"));
+const PrayerBeforeMealsCatholic = lazy(() => import("./pages/blog/PrayerBeforeMealsCatholic"));
+
 // Saints Series
 const VirginMaryGuide = lazy(() => import("./pages/blog/VirginMaryGuide"));
 const SaintJosephGuide = lazy(() => import("./pages/blog/SaintJosephGuide"));
@@ -408,6 +417,15 @@ const App = () => (
             <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
+
+            {/* Prayer Articles Series */}
+            <Route path="/blog/catholic-prayers-complete-guide/" element={<CatholicPrayersGuide />} />
+            <Route path="/blog/night-prayer-catholic/" element={<NightPrayerCatholic />} />
+            <Route path="/blog/morning-prayer-catholic/" element={<MorningPrayerCatholic />} />
+            <Route path="/blog/saint-michael-prayer/" element={<SaintMichaelPrayer />} />
+            <Route path="/blog/prayers-for-healing-catholic/" element={<PrayersForHealingCatholic />} />
+            <Route path="/blog/how-to-pray-the-rosary-step-by-step/" element={<RosaryForBeginners />} />
+            <Route path="/blog/prayer-before-meals-catholic/" element={<PrayerBeforeMealsCatholic />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />
