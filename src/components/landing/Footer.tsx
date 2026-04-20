@@ -96,7 +96,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-button-text/20 mt-12 pt-8 text-center text-sm text-button-text/60">
-          <p>© 2024 Guide Catholic. All rights reserved.</p>
+          <p>© 2026 Guide Catholic. All rights reserved.</p>
           <p className="mt-2">
             Made with ❤️ for the glory of God
           </p>
