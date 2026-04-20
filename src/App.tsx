@@ -12,171 +12,168 @@ import CheckoutPage from "./pages/CheckoutPage";
 import ResultadoPage from "./pages/ResultadoPage";
 import GetResultPage from "./pages/GetResultPage";
 import BlogPage from "./pages/BlogPage";
-import SevenSacraments from "./pages/blog/SevenSacraments";
-import ImportanceOfConfession from "./pages/blog/ImportanceOfConfession";
-import PatronSaints from "./pages/blog/PatronSaints";
-import FastingAndAbstinence from "./pages/blog/FastingAndAbstinence";
-import SundayMass from "./pages/blog/SundayMass";
-import PrayerLife from "./pages/blog/PrayerLife";
-import MeaningOfMass from "./pages/blog/MeaningOfMass";
-import ExaminationOfConscience from "./pages/blog/ExaminationOfConscience";
-import VirginMary from "./pages/blog/VirginMary";
-import GiftsOfHolySpirit from "./pages/blog/GiftsOfHolySpirit";
-import LectioDivina from "./pages/blog/LectioDivina";
-import ChastityModernWorld from "./pages/blog/ChastityModernWorld";
-import SocialDoctrine from "./pages/blog/SocialDoctrine";
-import VocationalDiscernment from "./pages/blog/VocationalDiscernment";
-import EucharistRealPresence from "./pages/blog/EucharistRealPresence";
-import EucharisticAdoration from "./pages/blog/EucharisticAdoration";
-import WhatIsPurgatory from "./pages/blog/WhatIsPurgatory";
-import HowToLiveLent from "./pages/blog/HowToLiveLent";
-import GuardianAngels from "./pages/blog/GuardianAngels";
-import MeaningOfCrucifix from "./pages/blog/MeaningOfCrucifix";
-import Jubilee2025Legacy from "./pages/blog/Jubilee2025Legacy";
-import PlenaryIndulgenceGuide from "./pages/blog/PlenaryIndulgenceGuide";
-import ChurchChangesPost2025 from "./pages/blog/ChurchChangesPost2025";
-import PrayersOfHope2026 from "./pages/blog/PrayersOfHope2026";
-import LocalPilgrimage from "./pages/blog/LocalPilgrimage";
-import FaithMentalHealth from "./pages/blog/FaithMentalHealth";
+const SevenSacraments = lazy(() => import("./pages/blog/SevenSacraments"));
+const ImportanceOfConfession = lazy(() => import("./pages/blog/ImportanceOfConfession"));
+const PatronSaints = lazy(() => import("./pages/blog/PatronSaints"));
+const FastingAndAbstinence = lazy(() => import("./pages/blog/FastingAndAbstinence"));
+const SundayMass = lazy(() => import("./pages/blog/SundayMass"));
+const PrayerLife = lazy(() => import("./pages/blog/PrayerLife"));
+const MeaningOfMass = lazy(() => import("./pages/blog/MeaningOfMass"));
+const ExaminationOfConscience = lazy(() => import("./pages/blog/ExaminationOfConscience"));
+const VirginMary = lazy(() => import("./pages/blog/VirginMary"));
+const GiftsOfHolySpirit = lazy(() => import("./pages/blog/GiftsOfHolySpirit"));
+const LectioDivina = lazy(() => import("./pages/blog/LectioDivina"));
+const ChastityModernWorld = lazy(() => import("./pages/blog/ChastityModernWorld"));
+const SocialDoctrine = lazy(() => import("./pages/blog/SocialDoctrine"));
+const VocationalDiscernment = lazy(() => import("./pages/blog/VocationalDiscernment"));
+const EucharistRealPresence = lazy(() => import("./pages/blog/EucharistRealPresence"));
+const EucharisticAdoration = lazy(() => import("./pages/blog/EucharisticAdoration"));
+const WhatIsPurgatory = lazy(() => import("./pages/blog/WhatIsPurgatory"));
+const HowToLiveLent = lazy(() => import("./pages/blog/HowToLiveLent"));
+const GuardianAngels = lazy(() => import("./pages/blog/GuardianAngels"));
+const MeaningOfCrucifix = lazy(() => import("./pages/blog/MeaningOfCrucifix"));
+const Jubilee2025Legacy = lazy(() => import("./pages/blog/Jubilee2025Legacy"));
+const PlenaryIndulgenceGuide = lazy(() => import("./pages/blog/PlenaryIndulgenceGuide"));
+const ChurchChangesPost2025 = lazy(() => import("./pages/blog/ChurchChangesPost2025"));
+const PrayersOfHope2026 = lazy(() => import("./pages/blog/PrayersOfHope2026"));
+const LocalPilgrimage = lazy(() => import("./pages/blog/LocalPilgrimage"));
+const FaithMentalHealth = lazy(() => import("./pages/blog/FaithMentalHealth"));
 // Prayer Articles
-import DivineMercyChaplet from "./pages/blog/DivineMercyChaplet";
-import ActOfContrition from "./pages/blog/ActOfContrition";
-import MorningOfferingPrayer from "./pages/blog/MorningOfferingPrayer";
-import PrayerToStJoseph from "./pages/blog/PrayerToStJoseph";
-import TheMemorarePrayer from "./pages/blog/TheMemorarePrayer";
+const DivineMercyChaplet = lazy(() => import("./pages/blog/DivineMercyChaplet"));
+const ActOfContrition = lazy(() => import("./pages/blog/ActOfContrition"));
+const MorningOfferingPrayer = lazy(() => import("./pages/blog/MorningOfferingPrayer"));
+const PrayerToStJoseph = lazy(() => import("./pages/blog/PrayerToStJoseph"));
+const TheMemorarePrayer = lazy(() => import("./pages/blog/TheMemorarePrayer"));
 // Sacraments Articles Batch 2
-import HowToGoToConfession from "./pages/blog/HowToGoToConfession";
-import HowToBecomeCatholic from "./pages/blog/HowToBecomeCatholic";
-import CatholicBaptismGuide from "./pages/blog/CatholicBaptismGuide";
-import CatholicConfirmationGuide from "./pages/blog/CatholicConfirmationGuide";
-import CatholicMarriageGuide from "./pages/blog/CatholicMarriageGuide";
+const HowToGoToConfession = lazy(() => import("./pages/blog/HowToGoToConfession"));
+const HowToBecomeCatholic = lazy(() => import("./pages/blog/HowToBecomeCatholic"));
+const CatholicBaptismGuide = lazy(() => import("./pages/blog/CatholicBaptismGuide"));
+const CatholicConfirmationGuide = lazy(() => import("./pages/blog/CatholicConfirmationGuide"));
+const CatholicMarriageGuide = lazy(() => import("./pages/blog/CatholicMarriageGuide"));
 // FAQ Articles Batch 3
-import WhyPrayToSaints from "./pages/blog/WhyPrayToSaints";
-import DoCatholicsWorshipMary from "./pages/blog/DoCatholicsWorshipMary";
-import CatholicVsProtestant from "./pages/blog/CatholicVsProtestant";
-import WhatIsTheMassGuide from "./pages/blog/WhatIsTheMassGuide";
-import IsTheCatholicChurchTrue from "./pages/blog/IsTheCatholicChurchTrue";
+const WhyPrayToSaints = lazy(() => import("./pages/blog/WhyPrayToSaints"));
+const DoCatholicsWorshipMary = lazy(() => import("./pages/blog/DoCatholicsWorshipMary"));
+const CatholicVsProtestant = lazy(() => import("./pages/blog/CatholicVsProtestant"));
+const WhatIsTheMassGuide = lazy(() => import("./pages/blog/WhatIsTheMassGuide"));
+const IsTheCatholicChurchTrue = lazy(() => import("./pages/blog/IsTheCatholicChurchTrue"));
 // Spiritual Life Articles Batch 4
-import DailyPrayerRoutine from "./pages/blog/DailyPrayerRoutine";
-import RosaryCompleteGuide from "./pages/blog/RosaryCompleteGuide";
-import ExaminationOfConscienceGuide from "./pages/blog/ExaminationOfConscienceGuide";
-import CatholicFastingRules from "./pages/blog/CatholicFastingRules";
+const DailyPrayerRoutine = lazy(() => import("./pages/blog/DailyPrayerRoutine"));
+const RosaryCompleteGuide = lazy(() => import("./pages/blog/RosaryCompleteGuide"));
+const ExaminationOfConscienceGuide = lazy(() => import("./pages/blog/ExaminationOfConscienceGuide"));
+const CatholicFastingRules = lazy(() => import("./pages/blog/CatholicFastingRules"));
 // Saints Articles Batch 5
-import SaintPadrePio from "./pages/blog/SaintPadrePio";
-import SaintThereseOfLisieux from "./pages/blog/SaintThereseOfLisieux";
-import BlessedCarloAcutis from "./pages/blog/BlessedCarloAcutis";
-import SaintMichaelArchangel from "./pages/blog/SaintMichaelArchangel";
-import SaintAnthonyOfPadua from "./pages/blog/SaintAnthonyOfPadua";
+const SaintPadrePio = lazy(() => import("./pages/blog/SaintPadrePio"));
+const SaintThereseOfLisieux = lazy(() => import("./pages/blog/SaintThereseOfLisieux"));
+const BlessedCarloAcutis = lazy(() => import("./pages/blog/BlessedCarloAcutis"));
+const SaintMichaelArchangel = lazy(() => import("./pages/blog/SaintMichaelArchangel"));
+const SaintAnthonyOfPadua = lazy(() => import("./pages/blog/SaintAnthonyOfPadua"));
 // Catholic Life Articles Batch 6
-import HowToPrayAngelus from "./pages/blog/HowToPrayAngelus";
-import WhatIsAdvent from "./pages/blog/WhatIsAdvent";
-import WhatIsHolyWeek from "./pages/blog/WhatIsHolyWeek";
-import CatholicGraceBeforeMeals from "./pages/blog/CatholicGraceBeforeMeals";
-import SpiritualCommunion from "./pages/blog/SpiritualCommunion";
+const HowToPrayAngelus = lazy(() => import("./pages/blog/HowToPrayAngelus"));
+const WhatIsAdvent = lazy(() => import("./pages/blog/WhatIsAdvent"));
+const WhatIsHolyWeek = lazy(() => import("./pages/blog/WhatIsHolyWeek"));
+const CatholicGraceBeforeMeals = lazy(() => import("./pages/blog/CatholicGraceBeforeMeals"));
+const SpiritualCommunion = lazy(() => import("./pages/blog/SpiritualCommunion"));
 // Catholic Life Articles Batch 7
-import StationsOfTheCross from "./pages/blog/StationsOfTheCross";
-import WhatIsTheScapular from "./pages/blog/WhatIsTheScapular";
-import CatholicPrayersForDying from "./pages/blog/CatholicPrayersForDying";
-import ConsecratYourHome from "./pages/blog/ConsecratYourHome";
-import WhatIsANovena from "./pages/blog/WhatIsANovena";
+const StationsOfTheCross = lazy(() => import("./pages/blog/StationsOfTheCross"));
+const WhatIsTheScapular = lazy(() => import("./pages/blog/WhatIsTheScapular"));
+const CatholicPrayersForDying = lazy(() => import("./pages/blog/CatholicPrayersForDying"));
+const ConsecratYourHome = lazy(() => import("./pages/blog/ConsecratYourHome"));
+const WhatIsANovena = lazy(() => import("./pages/blog/WhatIsANovena"));
 // Doctrine Articles Batch 10
-import NaturalFamilyPlanning from "./pages/blog/NaturalFamilyPlanning";
-import CatholicTeachingAbortion from "./pages/blog/CatholicTeachingAbortion";
-import PopeRoleInChurch from "./pages/blog/PopeRoleInChurch";
-import CatholicDeathPenalty from "./pages/blog/CatholicDeathPenalty";
-import CatholicAnnulment from "./pages/blog/CatholicAnnulment";
+const NaturalFamilyPlanning = lazy(() => import("./pages/blog/NaturalFamilyPlanning"));
+const CatholicTeachingAbortion = lazy(() => import("./pages/blog/CatholicTeachingAbortion"));
+const PopeRoleInChurch = lazy(() => import("./pages/blog/PopeRoleInChurch"));
+const CatholicDeathPenalty = lazy(() => import("./pages/blog/CatholicDeathPenalty"));
+const CatholicAnnulment = lazy(() => import("./pages/blog/CatholicAnnulment"));
 // Spirituality Articles Batch 9
-import ContemplativePrayer from "./pages/blog/ContemplativePrayer";
-import SpiritualRetreatAtHome from "./pages/blog/SpiritualRetreatAtHome";
-import SpiritualDirection from "./pages/blog/SpiritualDirection";
-import DarkNightOfTheSoul from "./pages/blog/DarkNightOfTheSoul";
-import GrowingInHumility from "./pages/blog/GrowingInHumility";
+const ContemplativePrayer = lazy(() => import("./pages/blog/ContemplativePrayer"));
+const SpiritualRetreatAtHome = lazy(() => import("./pages/blog/SpiritualRetreatAtHome"));
+const SpiritualDirection = lazy(() => import("./pages/blog/SpiritualDirection"));
+const DarkNightOfTheSoul = lazy(() => import("./pages/blog/DarkNightOfTheSoul"));
+const GrowingInHumility = lazy(() => import("./pages/blog/GrowingInHumility"));
 // How-To Articles
-import HowToChooseConfirmationName from "./pages/blog/HowToChooseConfirmationName";
-import HowToReturnToMass from "./pages/blog/HowToReturnToMass";
-import HowToTeachChildrenToPray from "./pages/blog/HowToTeachChildrenToPray";
-import HowToFindCatholicCommunity from "./pages/blog/HowToFindCatholicCommunity";
+const HowToChooseConfirmationName = lazy(() => import("./pages/blog/HowToChooseConfirmationName"));
+const HowToReturnToMass = lazy(() => import("./pages/blog/HowToReturnToMass"));
+const HowToTeachChildrenToPray = lazy(() => import("./pages/blog/HowToTeachChildrenToPray"));
+const HowToFindCatholicCommunity = lazy(() => import("./pages/blog/HowToFindCatholicCommunity"));
 // Family & Youth Articles Batch 8
-import CatholicParenting from "./pages/blog/CatholicParenting";
-import FamilyPrayer from "./pages/blog/FamilyPrayer";
-import CatholicDating from "./pages/blog/CatholicDating";
-import WhatIsRCIA from "./pages/blog/WhatIsRCIA";
-import CatholicHomeschooling from "./pages/blog/CatholicHomeschooling";
+const CatholicParenting = lazy(() => import("./pages/blog/CatholicParenting"));
+const FamilyPrayer = lazy(() => import("./pages/blog/FamilyPrayer"));
+const CatholicDating = lazy(() => import("./pages/blog/CatholicDating"));
+const WhatIsRCIA = lazy(() => import("./pages/blog/WhatIsRCIA"));
+const CatholicHomeschooling = lazy(() => import("./pages/blog/CatholicHomeschooling"));
 // SEO Articles Lote 1
-import TattoosCatholicChurch from "./pages/blog/TattoosCatholicChurch";
-import CatholicVsProtestantBible from "./pages/blog/CatholicVsProtestantBible";
-import AshWednesdayGuide from "./pages/blog/AshWednesdayGuide";
+const TattoosCatholicChurch = lazy(() => import("./pages/blog/TattoosCatholicChurch"));
+const CatholicVsProtestantBible = lazy(() => import("./pages/blog/CatholicVsProtestantBible"));
+const AshWednesdayGuide = lazy(() => import("./pages/blog/AshWednesdayGuide"));
 // SEO Articles Lote 2
-import SevenDeadlySins from "./pages/blog/SevenDeadlySins";
-import ApparitionsOfOurLady from "./pages/blog/ApparitionsOfOurLady";
-import SaintJudeThaddeus from "./pages/blog/SaintJudeThaddeus";
+const SevenDeadlySins = lazy(() => import("./pages/blog/SevenDeadlySins"));
+const ApparitionsOfOurLady = lazy(() => import("./pages/blog/ApparitionsOfOurLady"));
+const SaintJudeThaddeus = lazy(() => import("./pages/blog/SaintJudeThaddeus"));
 // SEO Articles Lote 3
-import TenCommandmentsCatholic from "./pages/blog/TenCommandmentsCatholic";
-import FruitsOfHolySpirit from "./pages/blog/FruitsOfHolySpirit";
-import CatholicTeachingOnDivorce from "./pages/blog/CatholicTeachingOnDivorce";
+const TenCommandmentsCatholic = lazy(() => import("./pages/blog/TenCommandmentsCatholic"));
+const FruitsOfHolySpirit = lazy(() => import("./pages/blog/FruitsOfHolySpirit"));
+const CatholicTeachingOnDivorce = lazy(() => import("./pages/blog/CatholicTeachingOnDivorce"));
 // SEO Articles Lote 4
-import SaintBenedictMedal from "./pages/blog/SaintBenedictMedal";
-import WhatIsTheNiceneCreed from "./pages/blog/WhatIsTheNiceneCreed";
+const SaintBenedictMedal = lazy(() => import("./pages/blog/SaintBenedictMedal"));
+const WhatIsTheNiceneCreed = lazy(() => import("./pages/blog/WhatIsTheNiceneCreed"));
 // SEO Articles Lote 5
-import EucharisticMiraclesScience from "./pages/blog/EucharisticMiraclesScience";
-import CatholicViewOnGhosts from "./pages/blog/CatholicViewOnGhosts";
-import SaintPeregrineNovena from "./pages/blog/SaintPeregrineNovena";
+const EucharisticMiraclesScience = lazy(() => import("./pages/blog/EucharisticMiraclesScience"));
+const CatholicViewOnGhosts = lazy(() => import("./pages/blog/CatholicViewOnGhosts"));
+const SaintPeregrineNovena = lazy(() => import("./pages/blog/SaintPeregrineNovena"));
 // SEO Articles Lote 6
-import ThreeDaysOfDarkness from "./pages/blog/ThreeDaysOfDarkness";
-import IncorruptibleSaints from "./pages/blog/IncorruptibleSaints";
-import MiraculousMedalGuide from "./pages/blog/MiraculousMedalGuide";
+const ThreeDaysOfDarkness = lazy(() => import("./pages/blog/ThreeDaysOfDarkness"));
+const IncorruptibleSaints = lazy(() => import("./pages/blog/IncorruptibleSaints"));
+const MiraculousMedalGuide = lazy(() => import("./pages/blog/MiraculousMedalGuide"));
 // SEO Articles Lote 7
-import OurLadyUndoerOfKnots from "./pages/blog/OurLadyUndoerOfKnots";
-import SaintDymphnaMentalHealth from "./pages/blog/SaintDymphnaMentalHealth";
-import TheProblemOfSuffering from "./pages/blog/TheProblemOfSuffering";
+const OurLadyUndoerOfKnots = lazy(() => import("./pages/blog/OurLadyUndoerOfKnots"));
+const SaintDymphnaMentalHealth = lazy(() => import("./pages/blog/SaintDymphnaMentalHealth"));
+const TheProblemOfSuffering = lazy(() => import("./pages/blog/TheProblemOfSuffering"));
 // SEO Articles Lote 8
-import OurLadyOfGuadalupeScience from "./pages/blog/OurLadyOfGuadalupeScience";
-import TheCrusadesHistory from "./pages/blog/TheCrusadesHistory";
-import CatholicismAndEvolution from "./pages/blog/CatholicismAndEvolution";
+const OurLadyOfGuadalupeScience = lazy(() => import("./pages/blog/OurLadyOfGuadalupeScience"));
+const TheCrusadesHistory = lazy(() => import("./pages/blog/TheCrusadesHistory"));
+const CatholicismAndEvolution = lazy(() => import("./pages/blog/CatholicismAndEvolution"));
 // SEO Articles Lote 9
-import CatholicViewOnWealth from "./pages/blog/CatholicViewOnWealth";
-import SaintJohnVianneyCureOfArs from "./pages/blog/SaintJohnVianneyCureOfArs";
+const CatholicViewOnWealth = lazy(() => import("./pages/blog/CatholicViewOnWealth"));
+const SaintJohnVianneyCureOfArs = lazy(() => import("./pages/blog/SaintJohnVianneyCureOfArs"));
 // SEO Articles Lote 10
-import BrownScapularGuide from "./pages/blog/BrownScapularGuide";
-import SaintMichaelLent from "./pages/blog/SaintMichaelLent";
-import SacredHeartPromises from "./pages/blog/SacredHeartPromises";
+const BrownScapularGuide = lazy(() => import("./pages/blog/BrownScapularGuide"));
+const SaintMichaelLent = lazy(() => import("./pages/blog/SaintMichaelLent"));
+const SacredHeartPromises = lazy(() => import("./pages/blog/SacredHeartPromises"));
 
 // New articles added to fulfill site-wide completeness
-import HowToChooseConfirmationName from "./pages/blog/HowToChooseConfirmationName";
-import HowToReturnToMass from "./pages/blog/HowToReturnToMass";
-import HowToTeachChildrenToPray from "./pages/blog/HowToTeachChildrenToPray";
-import StJosephNovenaHouse from "./pages/blog/StJosephNovenaHouse";
-import CatholicInnerHealingGuide from "./pages/blog/CatholicInnerHealingGuide";
-import OurLadyOfFatimaGuide from "./pages/blog/OurLadyOfFatimaGuide";
-import LiturgicalSeasonsGuide from "./pages/blog/LiturgicalSeasonsGuide";
-import VocationalDiscernmentGuide from "./pages/blog/VocationalDiscernmentGuide";
-import CatholicMentalHealthGuide from "./pages/blog/CatholicMentalHealthGuide";
-import OurLadyOfLourdesGuide from "./pages/blog/OurLadyOfLourdesGuide";
-import CatholicSacramentalsGuide from "./pages/blog/CatholicSacramentalsGuide";
-import LiturgyOfTheHoursGuide from "./pages/blog/LiturgyOfTheHoursGuide";
-import CatholicDatingGuide from "./pages/blog/CatholicDatingGuide";
-import CatholicParentingGuide from "./pages/blog/CatholicParentingGuide";
-import SpiritualLifeBasics from "./pages/blog/SpiritualLifeBasics";
-import HealingThroughFaith from "./pages/blog/HealingThroughFaith";
-import DignityOfWork from "./pages/blog/DignityOfWork";
-import SaintPadrePioMiracles from "./pages/blog/SaintPadrePioMiracles";
-import PropheciesOfFatima from "./pages/blog/PropheciesOfFatima";
-import NovenasExplained from "./pages/blog/NovenasExplained";
-import DivineOfficeLaity from "./pages/blog/DivineOfficeLaity";
-import FaithAndAnxiety from "./pages/blog/FaithAndAnxiety";
-import ManagingDepression from "./pages/blog/ManagingDepression";
-import SacramentOfMatrimony from "./pages/blog/SacramentOfMatrimony";
-import EucharisticPrayers from "./pages/blog/EucharisticPrayers";
-import LentPreparationGuide from "./pages/blog/LentPreparationGuide";
-import JubileePilgrimageGuide from "./pages/blog/JubileePilgrimageGuide";
-import CatholicChurchHistory from "./pages/blog/CatholicChurchHistory";
-import HowToReadBible from "./pages/blog/HowToReadBible";
-import CatholicFamilyTraditions from "./pages/blog/CatholicFamilyTraditions";
-import HolyWaterSacramental from "./pages/blog/HolyWaterSacramental";
-import CatholicSocialTeachingToday from "./pages/blog/CatholicSocialTeachingToday";
-import LivingVirtue from "./pages/blog/LivingVirtue";
-import RosaryMysteriesMeditation from "./pages/blog/RosaryMysteriesMeditation";
-import CatholicMarriagePreparation from "./pages/blog/CatholicMarriagePreparation";
+const StJosephNovenaHouse = lazy(() => import("./pages/blog/StJosephNovenaHouse"));
+const CatholicInnerHealingGuide = lazy(() => import("./pages/blog/CatholicInnerHealingGuide"));
+const OurLadyOfFatimaGuide = lazy(() => import("./pages/blog/OurLadyOfFatimaGuide"));
+const LiturgicalSeasonsGuide = lazy(() => import("./pages/blog/LiturgicalSeasonsGuide"));
+const VocationalDiscernmentGuide = lazy(() => import("./pages/blog/VocationalDiscernmentGuide"));
+const CatholicMentalHealthGuide = lazy(() => import("./pages/blog/CatholicMentalHealthGuide"));
+const OurLadyOfLourdesGuide = lazy(() => import("./pages/blog/OurLadyOfLourdesGuide"));
+const CatholicSacramentalsGuide = lazy(() => import("./pages/blog/CatholicSacramentalsGuide"));
+const LiturgyOfTheHoursGuide = lazy(() => import("./pages/blog/LiturgyOfTheHoursGuide"));
+const CatholicDatingGuide = lazy(() => import("./pages/blog/CatholicDatingGuide"));
+const CatholicParentingGuide = lazy(() => import("./pages/blog/CatholicParentingGuide"));
+const SpiritualLifeBasics = lazy(() => import("./pages/blog/SpiritualLifeBasics"));
+const HealingThroughFaith = lazy(() => import("./pages/blog/HealingThroughFaith"));
+const DignityOfWork = lazy(() => import("./pages/blog/DignityOfWork"));
+const SaintPadrePioMiracles = lazy(() => import("./pages/blog/SaintPadrePioMiracles"));
+const PropheciesOfFatima = lazy(() => import("./pages/blog/PropheciesOfFatima"));
+const NovenasExplained = lazy(() => import("./pages/blog/NovenasExplained"));
+const DivineOfficeLaity = lazy(() => import("./pages/blog/DivineOfficeLaity"));
+const FaithAndAnxiety = lazy(() => import("./pages/blog/FaithAndAnxiety"));
+const ManagingDepression = lazy(() => import("./pages/blog/ManagingDepression"));
+const SacramentOfMatrimony = lazy(() => import("./pages/blog/SacramentOfMatrimony"));
+const EucharisticPrayers = lazy(() => import("./pages/blog/EucharisticPrayers"));
+const LentPreparationGuide = lazy(() => import("./pages/blog/LentPreparationGuide"));
+const JubileePilgrimageGuide = lazy(() => import("./pages/blog/JubileePilgrimageGuide"));
+const CatholicChurchHistory = lazy(() => import("./pages/blog/CatholicChurchHistory"));
+const HowToReadBible = lazy(() => import("./pages/blog/HowToReadBible"));
+const CatholicFamilyTraditions = lazy(() => import("./pages/blog/CatholicFamilyTraditions"));
+const HolyWaterSacramental = lazy(() => import("./pages/blog/HolyWaterSacramental"));
+const CatholicSocialTeachingToday = lazy(() => import("./pages/blog/CatholicSocialTeachingToday"));
+const LivingVirtue = lazy(() => import("./pages/blog/LivingVirtue"));
+const RosaryMysteriesMeditation = lazy(() => import("./pages/blog/RosaryMysteriesMeditation"));
+const CatholicMarriagePreparation = lazy(() => import("./pages/blog/CatholicMarriagePreparation"));
 
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -192,6 +189,7 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          <Suspense fallback={<div className="min-h-screen bg-background flex items-center justify-center"><div className="w-8 h-8 border-4 border-accent border-t-transparent rounded-full animate-spin" /></div>}>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/quiz-intro" element={<QuizIntro />} />
@@ -331,9 +329,6 @@ const App = () => (
             <Route path="/blog/sacred-heart-promises/" element={<SacredHeartPromises />} />
             
             {/* Newly activated articles */}
-            <Route path="/blog/how-to-choose-confirmation-name/" element={<HowToChooseConfirmationName />} />
-            <Route path="/blog/how-to-return-to-mass/" element={<HowToReturnToMass />} />
-            <Route path="/blog/how-to-teach-children-to-pray/" element={<HowToTeachChildrenToPray />} />
             <Route path="/blog/st-joseph-novena-house/" element={<StJosephNovenaHouse />} />
             <Route path="/blog/catholic-inner-healing-guide/" element={<CatholicInnerHealingGuide />} />
             <Route path="/blog/our-lady-of-fatima-guide/" element={<OurLadyOfFatimaGuide />} />
@@ -371,6 +366,7 @@ const App = () => (
 
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </Suspense>
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
