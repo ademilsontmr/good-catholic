@@ -101,7 +101,7 @@ const HowToFindCatholicCommunity = lazy(() => import("./pages/blog/HowToFindCath
 const CatholicParenting = lazy(() => import("./pages/blog/CatholicParenting"));
 const FamilyPrayer = lazy(() => import("./pages/blog/FamilyPrayer"));
 const CatholicDating = lazy(() => import("./pages/blog/CatholicDating"));
-const WhatIsRCIA = lazy(() => import("./pages/blog/WhatIsRCIA"));
+const WhatIsRCIA = lazy(() => import("./pages/blog/WhatIsRCIAGuide"));
 const CatholicHomeschooling = lazy(() => import("./pages/blog/CatholicHomeschooling"));
 // SEO Articles Lote 1
 const TattoosCatholicChurch = lazy(() => import("./pages/blog/TattoosCatholicChurch"));
@@ -182,6 +182,12 @@ const PopeFrancisLegacy = lazy(() => import("./pages/blog/PopeFrancisLegacy"));
 const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCatholicBibleTranslations"));
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
+
+// Conversion & RCIA Series
+const HowToBecomeCatholicGuide = lazy(() => import("./pages/blog/HowToBecomeCatholicGuide"));
+const WhatIsRCIAGuide = lazy(() => import("./pages/blog/WhatIsRCIAGuide"));
+const ConvertingToCatholicism = lazy(() => import("./pages/blog/ConvertingToCatholicism"));
+const ReasonsToBecomeCatholic = lazy(() => import("./pages/blog/ReasonsToBecomeCatholic"));
 
 // Faith Questions Series
 const WhatDoCatholicsBeliieve = lazy(() => import("./pages/blog/WhatDoCatholicsBeliieve"));
@@ -432,6 +438,12 @@ const App = () => (
             <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
+
+            {/* Conversion & RCIA Series */}
+            <Route path="/blog/how-to-become-catholic/" element={<HowToBecomeCatholicGuide />} />
+            <Route path="/blog/what-is-rcia-explained/" element={<WhatIsRCIAGuide />} />
+            <Route path="/blog/converting-to-catholicism/" element={<ConvertingToCatholicism />} />
+            <Route path="/blog/reasons-to-become-catholic/" element={<ReasonsToBecomeCatholic />} />
 
             {/* Faith Questions Series */}
             <Route path="/blog/what-do-catholics-believe/" element={<WhatDoCatholicsBeliieve />} />

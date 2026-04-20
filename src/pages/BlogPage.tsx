@@ -261,6 +261,54 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-violet-400"
   },
   {
+    id: 1097,
+    slug: "how-to-become-catholic",
+    title: "How to Become Catholic: Complete Step-by-Step Guide",
+    excerpt: "How to become Catholic — the complete guide to the RCIA process, what to expect, how long it takes, what you'll learn, and how to find a parish near you.",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Becoming Catholic",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-500"
+  },
+  {
+    id: 1098,
+    slug: "what-is-rcia-explained",
+    title: "What Is RCIA? The Complete Guide to the Rite of Christian Initiation",
+    excerpt: "What is RCIA? Complete guide to the Rite of Christian Initiation of Adults — what it is, who it's for, what happens at each stage, and how to find RCIA near you.",
+    date: "2026-04-20",
+    readTime: "16 min",
+    category: "Becoming Catholic",
+    icon: Users,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-500"
+  },
+  {
+    id: 1099,
+    slug: "converting-to-catholicism",
+    title: "Converting to Catholicism: What to Expect, What Changes & Real Stories",
+    excerpt: "Thinking about converting to Catholicism? What to expect, what will change in your life, how to tell your family, and the stories of famous converts who found their home in the Church.",
+    date: "2026-04-20",
+    readTime: "18 min",
+    category: "Becoming Catholic",
+    icon: BookOpen,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-500"
+  },
+  {
+    id: 1100,
+    slug: "reasons-to-become-catholic",
+    title: "10 Reasons to Become Catholic: Why People Are Joining the Church",
+    excerpt: "Why are so many people becoming Catholic? 10 compelling reasons — from the Eucharist to the intellectual tradition to the Communion of Saints — that draw people to the Catholic Church.",
+    date: "2026-04-20",
+    readTime: "16 min",
+    category: "Becoming Catholic",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-500"
+  },
+  {
     id: 1092,
     slug: "what-do-catholics-believe",
     title: "What Do Catholics Believe? Core Beliefs Explained",
