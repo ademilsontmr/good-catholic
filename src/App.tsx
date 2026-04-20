@@ -183,6 +183,13 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// High-Priority Articles Batch 2
+const CanCatholicsEatMeat = lazy(() => import("./pages/blog/CanCatholicsEatMeat"));
+const CatholicFuneralRites = lazy(() => import("./pages/blog/CatholicFuneralRites"));
+const AreNonCatholicsSaved = lazy(() => import("./pages/blog/AreNonCatholicsSaved"));
+const DeuterocanonicalBooks = lazy(() => import("./pages/blog/DeuterocanonicalBooks"));
+const WhyProtestantReformation = lazy(() => import("./pages/blog/WhyProtestantReformation"));
+
 import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
@@ -376,6 +383,13 @@ const App = () => (
             <Route path="/blog/best-catholic-bible-translations/" element={<BestCatholicBibleTranslations />} />
             <Route path="/blog/catholic-teaching-on-salvation/" element={<CatholicTeachingOnSalvation />} />
             <Route path="/blog/catholic-wedding-ceremony-guide/" element={<CatholicWeddingCeremony />} />
+
+            {/* High-Priority Articles Batch 2 */}
+            <Route path="/blog/can-catholics-eat-meat-on-fridays/" element={<CanCatholicsEatMeat />} />
+            <Route path="/blog/catholic-funeral-rites-explained/" element={<CatholicFuneralRites />} />
+            <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
+            <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
+            <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 

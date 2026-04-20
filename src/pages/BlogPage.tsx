@@ -201,6 +201,66 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-rose-600"
   },
   {
+    id: 1056,
+    slug: "can-catholics-eat-meat-on-fridays",
+    title: "Can Catholics Eat Meat on Fridays? The Complete Guide",
+    excerpt: "Learn the Catholic Church's rules on Friday abstinence, what counts as meat, why fish is allowed, and the deeper spiritual meaning of Friday penance.",
+    date: "2026-04-20",
+    readTime: "12 min",
+    category: "Doctrine",
+    icon: Flame,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-600"
+  },
+  {
+    id: 1057,
+    slug: "catholic-funeral-rites-explained",
+    title: "Catholic Funeral Rites: What Happens and Why It Matters",
+    excerpt: "A complete guide to the three stages of Catholic funeral rites — the Vigil, Funeral Mass, and Rite of Committal — plus the Church's teaching on cremation.",
+    date: "2026-04-20",
+    readTime: "14 min",
+    category: "Doctrine",
+    icon: Cloud,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-400"
+  },
+  {
+    id: 1058,
+    slug: "are-non-catholics-saved",
+    title: "Are Non-Catholics Saved? What the Catholic Church Really Teaches",
+    excerpt: "What does the Church really teach about the salvation of non-Catholics? Learn about Extra Ecclesiam nulla salus, Vatican II, invincible ignorance, and baptism of desire.",
+    date: "2026-04-20",
+    readTime: "16 min",
+    category: "Doctrine",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-400"
+  },
+  {
+    id: 1059,
+    slug: "deuterocanonical-books-catholic-bible",
+    title: "The Deuterocanonical Books: Why Catholics Have 7 More Books in the Bible",
+    excerpt: "Why does the Catholic Bible have 73 books while the Protestant Bible has 66? Learn about the deuterocanonical books, the Septuagint, and the Council of Trent.",
+    date: "2026-04-20",
+    readTime: "18 min",
+    category: "Formation",
+    icon: BookOpen,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-600"
+  },
+  {
+    id: 1060,
+    slug: "why-did-the-protestant-reformation-happen",
+    title: "Why Did the Protestant Reformation Happen? A Catholic Perspective",
+    excerpt: "A Catholic perspective on Martin Luther, the 95 Theses, the Council of Trent, and how Catholics should view Protestants today.",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Formation",
+    icon: BookOpen,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-400"
+  },
+  {
     id: 1050,
     slug: "st-joseph-novena-house",
     title: "St. Joseph Novena for Buying a House: Complete Guide to Divine Intervention",
