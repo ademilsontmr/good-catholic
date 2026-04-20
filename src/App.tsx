@@ -183,6 +183,14 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// Seasonal / Liturgical Year Series
+const AshWednesday2026 = lazy(() => import("./pages/blog/AshWednesday2026"));
+const LentPrayers = lazy(() => import("./pages/blog/LentPrayers"));
+const EasterMassTimes = lazy(() => import("./pages/blog/EasterMassTimes"));
+const AdventPrayers = lazy(() => import("./pages/blog/AdventPrayers"));
+const ChristmasMassNearMe = lazy(() => import("./pages/blog/ChristmasMassNearMe"));
+const GoodFridayPrayers = lazy(() => import("./pages/blog/GoodFridayPrayers"));
+
 // Saints & Intercession Series
 const StJudePrayer = lazy(() => import("./pages/blog/StJudePrayer"));
 const StAnthonyPrayer = lazy(() => import("./pages/blog/StAnthonyPrayer"));
@@ -451,6 +459,14 @@ const App = () => (
             <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
+
+            {/* Seasonal / Liturgical Year Series */}
+            <Route path="/blog/ash-wednesday-2026/" element={<AshWednesday2026 />} />
+            <Route path="/blog/lent-prayers/" element={<LentPrayers />} />
+            <Route path="/blog/easter-mass-times-2026/" element={<EasterMassTimes />} />
+            <Route path="/blog/advent-prayers/" element={<AdventPrayers />} />
+            <Route path="/blog/christmas-mass-near-me/" element={<ChristmasMassNearMe />} />
+            <Route path="/blog/good-friday-prayers/" element={<GoodFridayPrayers />} />
 
             {/* Saints & Intercession Series */}
             <Route path="/blog/st-jude-prayer/" element={<StJudePrayer />} />

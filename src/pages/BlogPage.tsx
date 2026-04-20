@@ -261,6 +261,78 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-violet-400"
   },
   {
+    id: 1126,
+    slug: "ash-wednesday-2026",
+    title: "Ash Wednesday 2026: Date, Fasting Rules, Mass Times & What to Expect",
+    excerpt: "Ash Wednesday 2026 falls on February 18. Everything you need to know — fasting and abstinence rules, what the ashes mean, Mass times, and how to begin Lent well.",
+    date: "2026-04-20",
+    readTime: "12 min",
+    category: "Liturgical Year",
+    icon: Flame,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-500"
+  },
+  {
+    id: 1127,
+    slug: "lent-prayers",
+    title: "Lent Prayers 2026: Best Catholic Prayers for the Lenten Season",
+    excerpt: "The best Catholic prayers for Lent 2026 — the Stations of the Cross, Lenten prayers of repentance, the Miserere (Psalm 51), prayers for each week of Lent, and more.",
+    date: "2026-04-20",
+    readTime: "16 min",
+    category: "Liturgical Year",
+    icon: Wind,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-500"
+  },
+  {
+    id: 1128,
+    slug: "easter-mass-times-2026",
+    title: "Easter Mass Times 2026: How to Find Mass Near You for Easter Sunday",
+    excerpt: "How to find Easter Mass times 2026 near you — Easter Sunday is April 5, 2026. Best tools to find Mass, what to expect at Easter Vigil, and how to prepare for Easter.",
+    date: "2026-04-20",
+    readTime: "12 min",
+    category: "Liturgical Year",
+    icon: Sun,
+    bgColor: "bg-yellow-100",
+    iconColor: "text-yellow-500"
+  },
+  {
+    id: 1129,
+    slug: "advent-prayers",
+    title: "Advent Prayers 2026: Catholic Prayers for Each Week of Advent",
+    excerpt: "Beautiful Catholic prayers for Advent 2026 — prayers for each week, the O Antiphons, the Advent wreath blessing, and how to prepare your heart for Christmas.",
+    date: "2026-04-20",
+    readTime: "15 min",
+    category: "Liturgical Year",
+    icon: Star,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-400"
+  },
+  {
+    id: 1130,
+    slug: "christmas-mass-near-me",
+    title: "Christmas Mass Near Me 2026: Times, What to Expect & How to Prepare",
+    excerpt: "Find Christmas Mass times 2026 near you — Christmas Eve and Christmas Day. What to expect at Midnight Mass, how to find your nearest Catholic church, and how to prepare.",
+    date: "2026-04-20",
+    readTime: "12 min",
+    category: "Liturgical Year",
+    icon: Star,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-400"
+  },
+  {
+    id: 1131,
+    slug: "good-friday-prayers",
+    title: "Good Friday Prayers 2026: Prayers for the Passion, Death & the Cross",
+    excerpt: "Powerful Catholic prayers for Good Friday 2026 (April 3) — the Seven Last Words of Jesus, the Stabat Mater, prayers before the cross, and how to observe Good Friday.",
+    date: "2026-04-20",
+    readTime: "14 min",
+    category: "Liturgical Year",
+    icon: Heart,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-500"
+  },
+  {
     id: 1122,
     slug: "st-jude-prayer",
     title: "St. Jude Prayer: Powerful Prayers for Impossible Cases & Desperate Situations",
