@@ -183,6 +183,16 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// Category Articles
+const HowToPrayIntercessory = lazy(() => import("./pages/blog/HowToPrayIntercessory"));
+const HowToDoHolyHour = lazy(() => import("./pages/blog/HowToDoHolyHour"));
+const CatholicLivingSecularWorld = lazy(() => import("./pages/blog/CatholicLivingSecularWorld"));
+const CatholicMorningRoutine = lazy(() => import("./pages/blog/CatholicMorningRoutine"));
+const SaintFrancisOfAssisi = lazy(() => import("./pages/blog/SaintFrancisOfAssisi"));
+const AllSaintsAllSoulsDay = lazy(() => import("./pages/blog/AllSaintsAllSoulsDay"));
+const WhatIsTheCatechism = lazy(() => import("./pages/blog/WhatIsTheCatechism"));
+const CatholicApologeticsGuide = lazy(() => import("./pages/blog/CatholicApologeticsGuide"));
+
 // High-Priority Articles Batch 2
 const CanCatholicsEatMeat = lazy(() => import("./pages/blog/CanCatholicsEatMeat"));
 const CatholicFuneralRites = lazy(() => import("./pages/blog/CatholicFuneralRites"));
@@ -390,6 +400,16 @@ const App = () => (
             <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
+
+            {/* Category Articles */}
+            <Route path="/blog/how-to-pray-intercessory-prayer/" element={<HowToPrayIntercessory />} />
+            <Route path="/blog/how-to-do-a-holy-hour/" element={<HowToDoHolyHour />} />
+            <Route path="/blog/catholic-living-in-secular-world/" element={<CatholicLivingSecularWorld />} />
+            <Route path="/blog/catholic-morning-routine/" element={<CatholicMorningRoutine />} />
+            <Route path="/blog/saint-francis-of-assisi/" element={<SaintFrancisOfAssisi />} />
+            <Route path="/blog/all-saints-day-all-souls-day/" element={<AllSaintsAllSoulsDay />} />
+            <Route path="/blog/what-is-the-catechism-of-the-catholic-church/" element={<WhatIsTheCatechism />} />
+            <Route path="/blog/catholic-apologetics-guide/" element={<CatholicApologeticsGuide />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
