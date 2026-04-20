@@ -2588,65 +2588,60 @@ export default function BlogPage() {
 
         <div className="py-12">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">
+            <div className="text-center mb-10">
+              <h1 className="font-display text-3xl md:text-5xl font-bold text-text mb-3">
                 Guide Catholic Blog
               </h1>
-              <p className="text-xl text-text-muted max-w-2xl mx-auto">
+              <p className="text-lg text-text-muted max-w-2xl mx-auto">
                 Articles, reflections and teachings to strengthen your faith and deepen your knowledge of Catholic doctrine.
               </p>
             </div>
 
-            <div className="flex flex-wrap gap-2 justify-center mb-12">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => handleCategoryChange(category)}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                    selectedCategory === category
-                      ? "bg-accent text-button-text"
-                      : "bg-background-muted text-text-muted hover:bg-accent/10"
-                  }`}
-                >
-                  {category}
-                </button>
-              ))}
+            {/* Category filter — horizontally scrollable on mobile */}
+            <div className="overflow-x-auto pb-2 mb-10 -mx-4 px-4">
+              <div className="flex gap-2 w-max mx-auto">
+                {categories.map((category) => (
+                  <button
+                    key={category}
+                    onClick={() => handleCategoryChange(category)}
+                    className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
+                      selectedCategory === category
+                        ? "bg-accent text-button-text"
+                        : "bg-background-muted text-text-muted hover:bg-accent/10"
+                    }`}
+                  >
+                    {category}
+                  </button>
+                ))}
+              </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
               {currentPosts.map((post) => {
                 const Icon = post.icon;
                 return (
                   <Link
                     key={post.id}
                     to={`/blog/${post.slug}/`}
-                    className="group bg-surface rounded-3xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-xl"
+                    className="group bg-surface rounded-2xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-lg"
                   >
-                    <div className={`${post.bgColor} p-16 flex items-center justify-center`}>
-                      <Icon className={`w-20 h-20 ${post.iconColor}`} strokeWidth={1.5} />
+                    <div className={`${post.bgColor} py-10 flex items-center justify-center`}>
+                      <Icon className={`w-14 h-14 ${post.iconColor}`} strokeWidth={1.5} />
                     </div>
-                    <div className="p-8">
-                      <div className="flex items-center gap-4 text-xs text-text-muted mb-4">
-                        <span className="text-accent font-medium">
+                    <div className="p-5">
+                      <div className="flex flex-wrap items-center gap-2 text-xs text-text-muted mb-3">
+                        <span className="text-accent font-medium truncate max-w-[120px]">
                           {post.category}
                         </span>
-                        <span className="flex items-center gap-1">
-                          <Calendar className="w-3 h-3" />
-                          {new Date(post.date).toLocaleDateString('en-US', { 
-                            day: 'numeric',
-                            month: 'short',
-                            year: 'numeric'
-                          })}
-                        </span>
-                        <span className="flex items-center gap-1">
+                        <span className="flex items-center gap-1 shrink-0">
                           <Clock className="w-3 h-3" />
                           {post.readTime}
                         </span>
                       </div>
-                      <h3 className="font-display text-xl font-bold text-text mb-3 group-hover:text-accent transition-colors leading-tight">
+                      <h3 className="font-display text-base font-bold text-text mb-2 group-hover:text-accent transition-colors leading-snug line-clamp-2">
                         {post.title}
                       </h3>
-                      <p className="text-text-muted text-sm leading-relaxed line-clamp-3">
+                      <p className="text-text-muted text-sm leading-relaxed line-clamp-2">
                         {post.excerpt}
                       </p>
                     </div>
@@ -2655,43 +2650,64 @@ export default function BlogPage() {
               })}
             </div>
 
-            {/* Pagination */}
+            {/* Pagination — smart truncated for mobile */}
             {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-2">
+              <div className="flex items-center justify-center gap-1.5">
+                {/* Prev */}
                 <button
                   onClick={() => handlePageChange(currentPage - 1)}
                   disabled={currentPage === 1}
                   className={`p-2 rounded-lg border transition-colors ${
                     currentPage === 1
-                      ? "border-border text-text-muted cursor-not-allowed opacity-50"
+                      ? "border-border text-text-muted cursor-not-allowed opacity-40"
                       : "border-border text-text hover:bg-accent hover:text-button-text hover:border-accent"
                   }`}
                 >
                   <ChevronLeft className="w-5 h-5" />
                 </button>
 
-                <div className="flex gap-2">
-                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                    <button
-                      key={page}
-                      onClick={() => handlePageChange(page)}
-                      className={`w-10 h-10 rounded-lg border font-medium transition-colors ${
-                        currentPage === page
-                          ? "bg-accent text-button-text border-accent"
-                          : "border-border text-text hover:bg-accent/10 hover:border-accent"
-                      }`}
-                    >
-                      {page}
-                    </button>
-                  ))}
-                </div>
+                {/* Smart page numbers */}
+                {(() => {
+                  const pages: (number | "...")[] = [];
+                  if (totalPages <= 7) {
+                    for (let i = 1; i <= totalPages; i++) pages.push(i);
+                  } else {
+                    pages.push(1);
+                    if (currentPage > 3) pages.push("...");
+                    for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+                      pages.push(i);
+                    }
+                    if (currentPage < totalPages - 2) pages.push("...");
+                    pages.push(totalPages);
+                  }
+                  return pages.map((p, idx) =>
+                    p === "..." ? (
+                      <span key={`ellipsis-${idx}`} className="w-9 h-9 flex items-center justify-center text-text-muted text-sm">
+                        …
+                      </span>
+                    ) : (
+                      <button
+                        key={p}
+                        onClick={() => handlePageChange(p as number)}
+                        className={`w-9 h-9 rounded-lg border text-sm font-medium transition-colors ${
+                          currentPage === p
+                            ? "bg-accent text-button-text border-accent"
+                            : "border-border text-text hover:bg-accent/10 hover:border-accent"
+                        }`}
+                      >
+                        {p}
+                      </button>
+                    )
+                  );
+                })()}
 
+                {/* Next */}
                 <button
                   onClick={() => handlePageChange(currentPage + 1)}
                   disabled={currentPage === totalPages}
                   className={`p-2 rounded-lg border transition-colors ${
                     currentPage === totalPages
-                      ? "border-border text-text-muted cursor-not-allowed opacity-50"
+                      ? "border-border text-text-muted cursor-not-allowed opacity-40"
                       : "border-border text-text hover:bg-accent hover:text-button-text hover:border-accent"
                   }`}
                 >

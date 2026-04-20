@@ -33,13 +33,13 @@ export function HeroSection() {
           </div>
 
           {/* Headline */}
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 leading-tight animate-slide-up">
+          <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-primary mb-5 leading-tight animate-slide-up">
             Discover how your{" "}
             <span className="text-gradient-accent">faith journey</span> is going
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl text-text-muted mb-10 max-w-2xl mx-auto animate-slide-up" style={{
+          <p className="text-base md:text-xl text-text-muted mb-8 max-w-2xl mx-auto animate-slide-up" style={{
           animationDelay: "0.1s"
         }}>
             Take the quiz and receive a complete assessment of your Catholic life. 
@@ -47,11 +47,11 @@ export function HeroSection() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up" style={{
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 animate-slide-up" style={{
           animationDelay: "0.2s"
         }}>
-            <Link to="/quiz-intro">
-              <Button size="lg" className="h-14 px-8 bg-gradient-accent hover:opacity-90 text-accent-foreground font-semibold text-lg shadow-glow transition-all duration-300 group">
+            <Link to="/quiz-intro" className="w-full sm:w-auto">
+              <Button size="lg" className="w-full sm:w-auto h-14 px-8 bg-gradient-accent hover:opacity-90 text-accent-foreground font-semibold text-lg shadow-glow transition-all duration-300 group">
                 Start the Quiz Now
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -64,7 +64,7 @@ export function HeroSection() {
           </div>
 
           {/* Trust Indicators */}
-          <div className="mt-12 flex flex-wrap items-center justify-center gap-8 text-sm text-text-muted animate-fade-in" style={{
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-4 md:gap-8 text-sm text-text-muted animate-fade-in" style={{
           animationDelay: "0.4s"
         }}>
             <div className="flex items-center gap-2">

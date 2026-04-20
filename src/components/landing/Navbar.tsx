@@ -80,45 +80,47 @@ export function Navbar() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden py-4 border-t border-border/50 animate-fade-in">
-            <div className="flex flex-col gap-4">
+          <div className="md:hidden py-4 border-t border-border/50">
+            <div className="flex flex-col">
               <button
                 onClick={() => scrollToSection("beneficios")}
-                className="text-left py-2 text-text-muted hover:text-text transition-colors"
+                className="text-left px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
               >
                 Benefits
               </button>
               <button
                 onClick={() => scrollToSection("como-funciona")}
-                className="text-left py-2 text-text-muted hover:text-text transition-colors"
+                className="text-left px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
               >
                 How It Works
               </button>
               <button
                 onClick={() => scrollToSection("depoimentos")}
-                className="text-left py-2 text-text-muted hover:text-text transition-colors"
+                className="text-left px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
               >
                 Testimonials
               </button>
               <Link
                 to="/blog"
-                className="text-left py-2 text-text-muted hover:text-text transition-colors"
+                className="px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Blog
               </Link>
               <Link
                 to="/daily-verses"
-                className="text-left py-2 text-text-muted hover:text-text transition-colors"
+                className="px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
                 onClick={() => setIsOpen(false)}
               >
                 Daily Verse
               </Link>
-              <Link to="/quiz-intro" onClick={() => setIsOpen(false)}>
-                <Button className="w-full bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
-                  Take the Quiz
-                </Button>
-              </Link>
+              <div className="pt-2">
+                <Link to="/quiz-intro" onClick={() => setIsOpen(false)}>
+                  <Button className="w-full bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
+                    Take the Quiz
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         )}

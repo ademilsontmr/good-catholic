@@ -32,7 +32,7 @@ export function FeaturedArticles() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-10">
           {articles.map((post) => {
             const Icon = post.icon;
             return (
@@ -41,15 +41,15 @@ export function FeaturedArticles() {
                 to={`/blog/${post.slug}/`}
                 className="group bg-surface rounded-2xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-lg"
               >
-                <div className={`${post.bgColor} p-10 flex items-center justify-center`}>
-                  <Icon className={`w-14 h-14 ${post.iconColor} group-hover:scale-110 transition-transform duration-300`} strokeWidth={1.5} />
+                <div className={`${post.bgColor} py-8 flex items-center justify-center`}>
+                  <Icon className={`w-12 h-12 ${post.iconColor} group-hover:scale-110 transition-transform duration-300`} strokeWidth={1.5} />
                 </div>
-                <div className="p-6">
+                <div className="p-5">
                   <span className="text-xs font-semibold text-accent">{post.category}</span>
-                  <h3 className="font-display text-base font-bold text-text mt-1 mb-2 group-hover:text-accent transition-colors leading-tight line-clamp-2">
+                  <h3 className="font-display text-sm font-bold text-text mt-1 mb-2 group-hover:text-accent transition-colors leading-snug line-clamp-2">
                     {post.title}
                   </h3>
-                  <p className="text-text-muted text-sm line-clamp-2 leading-relaxed">
+                  <p className="text-text-muted text-xs line-clamp-2 leading-relaxed">
                     {post.excerpt}
                   </p>
                   <span className="inline-flex items-center gap-1 text-xs text-accent font-medium mt-3">

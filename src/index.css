@@ -249,3 +249,32 @@
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--primary) / 0.5);
 }
+
+/* ===== MOBILE UX IMPROVEMENTS ===== */
+
+/* Article hero images: reduce height on mobile */
+@media (max-width: 640px) {
+  .aspect-video {
+    aspect-ratio: 3 / 1;
+  }
+}
+
+/* Blog article h1: prevent overflow on small screens */
+@media (max-width: 640px) {
+  article h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+}
+
+/* Improve tap target size for all buttons and links */
+@media (max-width: 768px) {
+  button, a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Prevent horizontal scroll on mobile */
+body {
+  overflow-x: hidden;
+}
