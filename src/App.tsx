@@ -183,6 +183,14 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// Mass & Sacraments Series
+const MassTimesNearMe = lazy(() => import("./pages/blog/MassTimesNearMe"));
+const HowToGoToConfessionGuide = lazy(() => import("./pages/blog/HowToGoToConfessionGuide"));
+const CatholicMassGuide = lazy(() => import("./pages/blog/CatholicMassGuide"));
+const CatholicConfessionGuide = lazy(() => import("./pages/blog/CatholicConfessionGuide"));
+const CatholicMassOnline = lazy(() => import("./pages/blog/CatholicMassOnline"));
+const ExaminationOfConscienceGuideDetailed = lazy(() => import("./pages/blog/ExaminationOfConscienceGuideDetailed"));
+
 // Prayer Articles Series
 const CatholicPrayersGuide = lazy(() => import("./pages/blog/CatholicPrayersGuide"));
 const NightPrayerCatholic = lazy(() => import("./pages/blog/NightPrayerCatholic"));
@@ -417,6 +425,14 @@ const App = () => (
             <Route path="/blog/are-non-catholics-saved/" element={<AreNonCatholicsSaved />} />
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
+
+            {/* Mass & Sacraments Series */}
+            <Route path="/blog/mass-times-near-me/" element={<MassTimesNearMe />} />
+            <Route path="/blog/how-to-go-to-confession-guide/" element={<HowToGoToConfessionGuide />} />
+            <Route path="/blog/catholic-mass-complete-guide/" element={<CatholicMassGuide />} />
+            <Route path="/blog/catholic-confession-guide/" element={<CatholicConfessionGuide />} />
+            <Route path="/blog/catholic-mass-online/" element={<CatholicMassOnline />} />
+            <Route path="/blog/examination-of-conscience-before-confession/" element={<ExaminationOfConscienceGuideDetailed />} />
 
             {/* Prayer Articles Series */}
             <Route path="/blog/catholic-prayers-complete-guide/" element={<CatholicPrayersGuide />} />

@@ -261,6 +261,78 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-violet-400"
   },
   {
+    id: 1086,
+    slug: "mass-times-near-me",
+    title: "Mass Times Near Me: How to Find a Catholic Church & Mass Schedule",
+    excerpt: "How to find Mass times near you — the best tools, apps, and websites to locate a Catholic church, check Mass schedules, and find confession times in your area.",
+    date: "2026-04-20",
+    readTime: "10 min",
+    category: "Mass & Sacraments",
+    icon: MapPin,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600"
+  },
+  {
+    id: 1087,
+    slug: "how-to-go-to-confession-guide",
+    title: "How to Go to Confession: Complete Step-by-Step Catholic Guide",
+    excerpt: "Complete guide to Catholic Confession — how to prepare, what to say, the Act of Contrition, what happens inside the confessional, and how to make a good confession after years away.",
+    date: "2026-04-20",
+    readTime: "18 min",
+    category: "Mass & Sacraments",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-500"
+  },
+  {
+    id: 1088,
+    slug: "catholic-mass-complete-guide",
+    title: "The Catholic Mass: A Complete Guide to Every Part of the Liturgy",
+    excerpt: "Complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Dismissal. What happens, what it means, and how to participate fully.",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Mass & Sacraments",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-600"
+  },
+  {
+    id: 1089,
+    slug: "catholic-confession-guide",
+    title: "Catholic Confession Guide: What It Is, Why It Matters & Common Questions",
+    excerpt: "Complete Catholic Confession guide — what the Sacrament of Reconciliation is, its biblical basis, what happens, common fears, and why regular Confession transforms your life.",
+    date: "2026-04-20",
+    readTime: "17 min",
+    category: "Mass & Sacraments",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-500"
+  },
+  {
+    id: 1090,
+    slug: "catholic-mass-online",
+    title: "Catholic Mass Online: Best Live Streams, EWTN & Does It Count?",
+    excerpt: "Find the best Catholic Mass online — EWTN, Word on Fire, and parish live streams. Does watching Mass online fulfill the Sunday obligation? Everything you need to know.",
+    date: "2026-04-20",
+    readTime: "12 min",
+    category: "Mass & Sacraments",
+    icon: Globe,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-500"
+  },
+  {
+    id: 1091,
+    slug: "examination-of-conscience-before-confession",
+    title: "Examination of Conscience: Complete Catholic Guide Before Confession",
+    excerpt: "Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church. Use this guide to prepare for a thorough, honest Confession.",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Mass & Sacraments",
+    icon: BookOpen,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-500"
+  },
+  {
     id: 1079,
     slug: "catholic-prayers-complete-guide",
     title: "Catholic Prayers: The Complete Guide to Essential Catholic Prayers",
