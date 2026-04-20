@@ -261,6 +261,78 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-violet-400"
   },
   {
+    id: 1073,
+    slug: "virgin-mary-complete-guide",
+    title: "The Virgin Mary: Mother of God, Apparitions, Prayers & Catholic Devotion",
+    excerpt: "Complete Catholic guide to the Virgin Mary — her role in salvation history, the four Marian dogmas, major apparitions, the Rosary, and how to grow in Marian devotion.",
+    date: "2026-04-20",
+    readTime: "20 min",
+    category: "Saints & Feast Days",
+    icon: Heart,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-500"
+  },
+  {
+    id: 1074,
+    slug: "saint-joseph-complete-guide",
+    title: "Saint Joseph: Patron of the Church, Families & Workers",
+    excerpt: "Complete guide to Saint Joseph — foster father of Jesus, patron of the universal Church, families, workers, and a happy death. His life, prayers, feast days, and devotions.",
+    date: "2026-04-20",
+    readTime: "17 min",
+    category: "Saints & Feast Days",
+    icon: Home,
+    bgColor: "bg-yellow-100",
+    iconColor: "text-yellow-600"
+  },
+  {
+    id: 1075,
+    slug: "saint-patrick",
+    title: "Saint Patrick: The Real Story of Ireland's Patron Saint",
+    excerpt: "Discover the real Saint Patrick — his captivity, conversion, mission to Ireland, the shamrock, the Breastplate prayer, and the truth behind the legends.",
+    date: "2026-04-20",
+    readTime: "16 min",
+    category: "Saints & Feast Days",
+    icon: Flame,
+    bgColor: "bg-green-100",
+    iconColor: "text-green-600"
+  },
+  {
+    id: 1076,
+    slug: "saint-nicholas",
+    title: "Saint Nicholas: The Real Santa Claus and Bishop of Myra",
+    excerpt: "Discover the real Saint Nicholas — the 4th-century bishop of Myra whose extraordinary generosity inspired the legend of Santa Claus. His life, miracles, and feast day.",
+    date: "2026-04-20",
+    readTime: "15 min",
+    category: "Saints & Feast Days",
+    icon: Star,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-500"
+  },
+  {
+    id: 1077,
+    slug: "saint-christopher",
+    title: "Saint Christopher: Patron of Travelers — History, Medal & Prayer",
+    excerpt: "Learn about Saint Christopher — patron of travelers, his legendary story of carrying the Christ child, the meaning of his medal, and why Catholics still venerate him today.",
+    date: "2026-04-20",
+    readTime: "13 min",
+    category: "Saints & Feast Days",
+    icon: MapPin,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600"
+  },
+  {
+    id: 1078,
+    slug: "saint-vincent-de-paul",
+    title: "Saint Vincent de Paul: Apostle of Charity and Patron of the Poor",
+    excerpt: "Discover Saint Vincent de Paul — the 17th-century French priest who revolutionized Catholic charity. His life, the Vincentian family, the Society of St. Vincent de Paul, and his legacy.",
+    date: "2026-04-20",
+    readTime: "16 min",
+    category: "Saints & Feast Days",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-500"
+  },
+  {
     id: 1065,
     slug: "how-to-pray-intercessory-prayer",
     title: "How to Pray Intercessory Prayer: A Complete Catholic Guide",
