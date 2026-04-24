@@ -206,6 +206,11 @@ const CatholicFirstCommunion = lazy(() => import("./pages/blog/CatholicFirstComm
 const CatholicLastRites = lazy(() => import("./pages/blog/CatholicLastRites"));
 const HowToOvercomeSin = lazy(() => import("./pages/blog/HowToOvercomeSin"));
 
+// Lote 5
+const CatholicTeachingOnPornography = lazy(() => import("./pages/blog/CatholicTeachingOnPornography"));
+const CatholicPrayerForMarriage = lazy(() => import("./pages/blog/CatholicPrayerForMarriage"));
+const CatholicTeachingOnAlcohol = lazy(() => import("./pages/blog/CatholicTeachingOnAlcohol"));
+
 // High-Priority Articles
 const PopeLeoXIV = lazy(() => import("./pages/blog/PopeLeoXIV"));
 const PopeFrancisLegacy = lazy(() => import("./pages/blog/PopeFrancisLegacy"));
@@ -605,6 +610,9 @@ const App = () => (
             <Route path="/blog/catholic-first-communion-guide/" element={<CatholicFirstCommunion />} />
             <Route path="/blog/catholic-last-rites-explained/" element={<CatholicLastRites />} />
             <Route path="/blog/how-to-overcome-sin-catholic/" element={<HowToOvercomeSin />} />
+            <Route path="/blog/catholic-teaching-on-pornography/" element={<CatholicTeachingOnPornography />} />
+            <Route path="/blog/catholic-prayer-for-marriage/" element={<CatholicPrayerForMarriage />} />
+            <Route path="/blog/catholic-teaching-on-alcohol/" element={<CatholicTeachingOnAlcohol />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 

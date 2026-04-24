@@ -2853,6 +2853,42 @@ export const blogPosts: BlogPost[] = [
     bgColor: "bg-emerald-50",
     iconColor: "text-emerald-600"
   },
+  {
+    id: 1160,
+    slug: "catholic-teaching-on-pornography",
+    title: "Catholic Teaching on Pornography: Why It's Harmful & How to Break Free",
+    excerpt: "What does the Catholic Church teach about pornography? Learn why it is sinful, how it harms the soul and relationships, and the Catholic path to freedom and healing.",
+    date: "2026-04-24",
+    readTime: "14 min",
+    category: "Catholic Doctrine",
+    icon: Shield,
+    bgColor: "bg-slate-50",
+    iconColor: "text-slate-600"
+  },
+  {
+    id: 1161,
+    slug: "catholic-prayer-for-marriage",
+    title: "Catholic Prayers for Marriage: For Your Spouse, Your Family & Troubled Marriages",
+    excerpt: "Powerful Catholic prayers for marriage — for your spouse, for a troubled marriage, for a future spouse, and for the grace to live the sacrament of matrimony faithfully.",
+    date: "2026-04-24",
+    readTime: "11 min",
+    category: "Prayer & Devotion",
+    icon: Heart,
+    bgColor: "bg-pink-50",
+    iconColor: "text-pink-500"
+  },
+  {
+    id: 1162,
+    slug: "catholic-teaching-on-alcohol",
+    title: "Catholic Teaching on Alcohol: Is Drinking a Sin?",
+    excerpt: "What does the Catholic Church teach about alcohol? Is drinking a sin? Learn the Catholic distinction between moderate drinking and drunkenness, and the path to sobriety for those who struggle.",
+    date: "2026-04-24",
+    readTime: "12 min",
+    category: "Catholic Doctrine",
+    icon: HelpCircle,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-500"
+  },
 ];
 
 export default function BlogPage() {
