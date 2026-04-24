@@ -191,6 +191,11 @@ const SaintThomasAquinas = lazy(() => import("./pages/blog/SaintThomasAquinas"))
 const SaintJoanOfArc = lazy(() => import("./pages/blog/SaintJoanOfArc"));
 const WhatIsTheTrinity = lazy(() => import("./pages/blog/WhatIsTheTrinity"));
 
+// Lote 2
+const SaintElizabethAnnSeton = lazy(() => import("./pages/blog/SaintElizabethAnnSeton"));
+const SaintMaximilianKolbe = lazy(() => import("./pages/blog/SaintMaximilianKolbe"));
+const CatholicPrayerForProtection = lazy(() => import("./pages/blog/CatholicPrayerForProtection"));
+
 // High-Priority Articles
 const PopeLeoXIV = lazy(() => import("./pages/blog/PopeLeoXIV"));
 const PopeFrancisLegacy = lazy(() => import("./pages/blog/PopeFrancisLegacy"));
@@ -581,6 +586,9 @@ const App = () => (
             <Route path="/blog/saint-thomas-aquinas/" element={<SaintThomasAquinas />} />
             <Route path="/blog/saint-joan-of-arc/" element={<SaintJoanOfArc />} />
             <Route path="/blog/what-is-the-holy-trinity/" element={<WhatIsTheTrinity />} />
+            <Route path="/blog/saint-elizabeth-ann-seton/" element={<SaintElizabethAnnSeton />} />
+            <Route path="/blog/saint-maximilian-kolbe/" element={<SaintMaximilianKolbe />} />
+            <Route path="/blog/catholic-prayer-for-protection/" element={<CatholicPrayerForProtection />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 

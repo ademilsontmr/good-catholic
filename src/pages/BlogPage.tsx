@@ -2745,6 +2745,42 @@ export const blogPosts: BlogPost[] = [
     bgColor: "bg-violet-50",
     iconColor: "text-violet-500"
   },
+  {
+    id: 1151,
+    slug: "saint-elizabeth-ann-seton",
+    title: "Saint Elizabeth Ann Seton: First American-Born Saint",
+    excerpt: "Discover Saint Elizabeth Ann Seton — the first person born in the United States to be canonized. Her conversion, her founding of Catholic education in America, and her enduring legacy.",
+    date: "2026-04-24",
+    readTime: "15 min",
+    category: "Saints & Intercession",
+    icon: Heart,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-400"
+  },
+  {
+    id: 1152,
+    slug: "saint-maximilian-kolbe",
+    title: "Saint Maximilian Kolbe: Martyr of Auschwitz & Apostle of Mary",
+    excerpt: "Discover Saint Maximilian Kolbe — the Polish Franciscan priest who volunteered to die in place of a stranger at Auschwitz. His life, his Militia Immaculata, and his heroic martyrdom.",
+    date: "2026-04-24",
+    readTime: "16 min",
+    category: "Saints & Intercession",
+    icon: Shield,
+    bgColor: "bg-gray-50",
+    iconColor: "text-gray-500"
+  },
+  {
+    id: 1153,
+    slug: "catholic-prayer-for-protection",
+    title: "Catholic Prayers for Protection: Against Evil, Danger & Spiritual Attack",
+    excerpt: "The most powerful Catholic prayers for protection — against evil, danger, spiritual attack, and the devil. St. Michael prayer, St. Patrick's Breastplate, Psalm 91, and more.",
+    date: "2026-04-24",
+    readTime: "13 min",
+    category: "Prayer & Devotion",
+    icon: Shield,
+    bgColor: "bg-slate-50",
+    iconColor: "text-slate-500"
+  },
 ];
 
 export default function BlogPage() {
