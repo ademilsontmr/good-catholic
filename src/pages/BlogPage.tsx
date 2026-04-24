@@ -2781,6 +2781,42 @@ export const blogPosts: BlogPost[] = [
     bgColor: "bg-slate-50",
     iconColor: "text-slate-500"
   },
+  {
+    id: 1154,
+    slug: "how-to-pray-a-novena-guide",
+    title: "How to Pray a Novena: Complete Guide for Catholics",
+    excerpt: "Step-by-step guide to praying a novena — what a novena is, how to choose one, the nine days of prayer, and the most popular novenas in the Catholic tradition.",
+    date: "2026-04-24",
+    readTime: "12 min",
+    category: "Prayer & Devotion",
+    icon: Heart,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-500"
+  },
+  {
+    id: 1155,
+    slug: "is-it-a-sin-to-miss-mass",
+    title: "Is It a Sin to Miss Mass on Sunday? The Catholic Teaching",
+    excerpt: "Is missing Sunday Mass a mortal sin? Learn what the Catholic Church teaches about the Sunday obligation, valid excuses, and what to do if you miss Mass.",
+    date: "2026-04-24",
+    readTime: "11 min",
+    category: "Liturgy & Worship",
+    icon: Church,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1156,
+    slug: "what-is-pentecost-catholic",
+    title: "What Is Pentecost? The Catholic Feast of the Holy Spirit Explained",
+    excerpt: "What is Pentecost? Learn about the Catholic feast that celebrates the descent of the Holy Spirit — its biblical origins, its meaning, how Catholics celebrate it, and Pentecost 2026.",
+    date: "2026-04-24",
+    readTime: "13 min",
+    category: "Liturgy & Worship",
+    icon: Wind,
+    bgColor: "bg-red-50",
+    iconColor: "text-red-500"
+  },
 ];
 
 export default function BlogPage() {
