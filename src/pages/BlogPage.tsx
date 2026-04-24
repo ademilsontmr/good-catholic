@@ -2673,6 +2673,42 @@ export const blogPosts: BlogPost[] = [
     bgColor: "bg-sky-100",
     iconColor: "text-sky-400"
   },
+  {
+    id: 1145,
+    slug: "saint-augustine-of-hippo",
+    title: "Saint Augustine of Hippo: Life, Confessions & Legacy",
+    excerpt: "Discover Saint Augustine of Hippo — his dramatic conversion, the Confessions, his theology of grace, and why he remains one of the greatest Doctors of the Church.",
+    date: "2026-04-24",
+    readTime: "18 min",
+    category: "Saints & Intercession",
+    icon: BookOpen,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1146,
+    slug: "praying-for-souls-in-purgatory",
+    title: "Praying for the Holy Souls in Purgatory: A Complete Catholic Guide",
+    excerpt: "Why do Catholics pray for the dead? Learn about the Holy Souls in Purgatory, the most powerful prayers and novenas for the departed, and how your prayers can help souls reach heaven.",
+    date: "2026-04-24",
+    readTime: "14 min",
+    category: "Prayer & Devotion",
+    icon: Flame,
+    bgColor: "bg-orange-50",
+    iconColor: "text-orange-400"
+  },
+  {
+    id: 1147,
+    slug: "corpus-christi-catholic",
+    title: "Corpus Christi: The Feast of the Body and Blood of Christ",
+    excerpt: "What is Corpus Christi? Learn about the feast of the Body and Blood of Christ — its history, the Eucharistic procession, the prayers of St. Thomas Aquinas, and how Catholics celebrate it.",
+    date: "2026-04-24",
+    readTime: "15 min",
+    category: "Liturgy & Worship",
+    icon: Cross,
+    bgColor: "bg-yellow-50",
+    iconColor: "text-yellow-600"
+  },
 ];
 
 export default function BlogPage() {

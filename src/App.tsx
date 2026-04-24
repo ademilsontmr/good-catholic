@@ -181,6 +181,11 @@ const OurLadyGuadalupePatronessAmericas = lazy(() => import("./pages/blog/OurLad
 const SaintKateriTekakwitha = lazy(() => import("./pages/blog/SaintKateriTekakwitha"));
 const OurLadyImmaculateConceptionUSA = lazy(() => import("./pages/blog/OurLadyImmaculateConceptionUSA"));
 
+// New April 2026 Articles
+const SaintAugustineOfHippo = lazy(() => import("./pages/blog/SaintAugustineOfHippo"));
+const PrayingForSoulsInPurgatory = lazy(() => import("./pages/blog/PrayingForSoulsInPurgatory"));
+const CorpusChristiCatholic = lazy(() => import("./pages/blog/CorpusChristiCatholic"));
+
 // High-Priority Articles
 const PopeLeoXIV = lazy(() => import("./pages/blog/PopeLeoXIV"));
 const PopeFrancisLegacy = lazy(() => import("./pages/blog/PopeFrancisLegacy"));
@@ -565,6 +570,9 @@ const App = () => (
             <Route path="/blog/our-lady-of-guadalupe-patroness-americas/" element={<OurLadyGuadalupePatronessAmericas />} />
             <Route path="/blog/saint-kateri-tekakwitha/" element={<SaintKateriTekakwitha />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
+            <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />
+            <Route path="/blog/praying-for-souls-in-purgatory/" element={<PrayingForSoulsInPurgatory />} />
+            <Route path="/blog/corpus-christi-catholic/" element={<CorpusChristiCatholic />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
