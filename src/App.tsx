@@ -183,6 +183,11 @@ const BestCatholicBibleTranslations = lazy(() => import("./pages/blog/BestCathol
 const CatholicTeachingOnSalvation = lazy(() => import("./pages/blog/CatholicTeachingOnSalvation"));
 const CatholicWeddingCeremony = lazy(() => import("./pages/blog/CatholicWeddingCeremony"));
 
+// Doctrine & Social Issues Series
+const CatholicTeachingOnTransgender = lazy(() => import("./pages/blog/CatholicTeachingOnTransgender"));
+const CatholicTeachingOnSameSexMarriage = lazy(() => import("./pages/blog/CatholicTeachingOnSameSexMarriage"));
+const CatholicTeachingOnEuthanasia = lazy(() => import("./pages/blog/CatholicTeachingOnEuthanasia"));
+const CatholicTeachingOnIVF = lazy(() => import("./pages/blog/CatholicTeachingOnIVF"));
 // Seasonal / Liturgical Year Series
 const AshWednesday2026 = lazy(() => import("./pages/blog/AshWednesday2026"));
 const LentPrayers = lazy(() => import("./pages/blog/LentPrayers"));
@@ -251,6 +256,14 @@ const SaintFrancisOfAssisi = lazy(() => import("./pages/blog/SaintFrancisOfAssis
 const AllSaintsAllSoulsDay = lazy(() => import("./pages/blog/AllSaintsAllSoulsDay"));
 const WhatIsTheCatechism = lazy(() => import("./pages/blog/WhatIsTheCatechism"));
 const CatholicApologeticsGuide = lazy(() => import("./pages/blog/CatholicApologeticsGuide"));
+
+// Doctrine & Pastoral Articles Batch 11
+const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
+const DivorcedCatholicCommunion = lazy(() => import("./pages/blog/DivorcedCatholicCommunion"));
+const CatholicTeachingOnContraception = lazy(() => import("./pages/blog/CatholicTeachingOnContraception"));
+const CatholicProLifeGuide = lazy(() => import("./pages/blog/CatholicProLifeGuide"));
+const StayingCatholicInCollege = lazy(() => import("./pages/blog/StayingCatholicInCollege"));
+const WhyYoungCatholicsLeave = lazy(() => import("./pages/blog/WhyYoungCatholicsLeave"));
 
 // High-Priority Articles Batch 2
 const CanCatholicsEatMeat = lazy(() => import("./pages/blog/CanCatholicsEatMeat"));
@@ -460,6 +473,11 @@ const App = () => (
             <Route path="/blog/deuterocanonical-books-catholic-bible/" element={<DeuterocanonicalBooks />} />
             <Route path="/blog/why-did-the-protestant-reformation-happen/" element={<WhyProtestantReformation />} />
 
+            {/* Doctrine & Social Issues Series */}
+            <Route path="/blog/catholic-teaching-on-transgender/" element={<CatholicTeachingOnTransgender />} />
+            <Route path="/blog/catholic-teaching-on-same-sex-marriage/" element={<CatholicTeachingOnSameSexMarriage />} />
+            <Route path="/blog/catholic-teaching-on-euthanasia/" element={<CatholicTeachingOnEuthanasia />} />
+            <Route path="/blog/catholic-teaching-on-ivf/" element={<CatholicTeachingOnIVF />} />
             {/* Seasonal / Liturgical Year Series */}
             <Route path="/blog/ash-wednesday-2026/" element={<AshWednesday2026 />} />
             <Route path="/blog/lent-prayers/" element={<LentPrayers />} />
@@ -528,6 +546,14 @@ const App = () => (
             <Route path="/blog/all-saints-day-all-souls-day/" element={<AllSaintsAllSoulsDay />} />
             <Route path="/blog/what-is-the-catechism-of-the-catholic-church/" element={<WhatIsTheCatechism />} />
             <Route path="/blog/catholic-apologetics-guide/" element={<CatholicApologeticsGuide />} />
+
+            {/* Doctrine & Pastoral Articles Batch 11 */}
+            <Route path="/blog/catholic-annulment-process/" element={<CatholicAnnulmentProcess />} />
+            <Route path="/blog/can-divorced-catholic-receive-communion/" element={<DivorcedCatholicCommunion />} />
+            <Route path="/blog/catholic-teaching-on-contraception/" element={<CatholicTeachingOnContraception />} />
+            <Route path="/blog/catholic-pro-life-guide/" element={<CatholicProLifeGuide />} />
+            <Route path="/blog/staying-catholic-in-college/" element={<StayingCatholicInCollege />} />
+            <Route path="/blog/why-young-catholics-leave-the-church/" element={<WhyYoungCatholicsLeave />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
