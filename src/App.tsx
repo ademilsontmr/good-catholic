@@ -210,6 +210,10 @@ const HowToOvercomeSin = lazy(() => import("./pages/blog/HowToOvercomeSin"));
 const CatholicTeachingOnPornography = lazy(() => import("./pages/blog/CatholicTeachingOnPornography"));
 // Lote 7
 const WhatIsGraceCatholic = lazy(() => import("./pages/blog/WhatIsGraceCatholic"));
+// Lote 8
+const PrayerForJobAndWork = lazy(() => import("./pages/blog/PrayerForJobAndWork"));
+const PrayerForTheSick = lazy(() => import("./pages/blog/PrayerForTheSick"));
+const CatholicAndOrthodoxDifferences = lazy(() => import("./pages/blog/CatholicAndOrthodoxDifferences"));
 const WhatIsOriginalSin = lazy(() => import("./pages/blog/WhatIsOriginalSin"));
 const CatholicTeachingOnHell = lazy(() => import("./pages/blog/CatholicTeachingOnHell"));
 // Lote 6
@@ -629,6 +633,11 @@ const App = () => (
             <Route path="/blog/what-is-grace-catholic/" element={<WhatIsGraceCatholic />} />
             <Route path="/blog/what-is-original-sin-catholic/" element={<WhatIsOriginalSin />} />
             <Route path="/blog/does-hell-exist-catholic/" element={<CatholicTeachingOnHell />} />
+
+            {/* Lote 8 */}
+            <Route path="/blog/catholic-prayer-for-job-and-work/" element={<PrayerForJobAndWork />} />
+            <Route path="/blog/catholic-prayer-for-the-sick/" element={<PrayerForTheSick />} />
+            <Route path="/blog/catholic-vs-orthodox-differences/" element={<CatholicAndOrthodoxDifferences />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
