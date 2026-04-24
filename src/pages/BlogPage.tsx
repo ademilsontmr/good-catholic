@@ -2889,6 +2889,9 @@ export const blogPosts: BlogPost[] = [
     bgColor: "bg-amber-50",
     iconColor: "text-amber-500"
   },
+  { id: 1163, slug: "saint-teresa-of-avila", title: "Saint Teresa of Ávila: Doctor of Prayer, Interior Castle & Legacy", excerpt: "Discover Saint Teresa of Ávila — the great Carmelite mystic, reformer, and Doctor of the Church. Her life, the Interior Castle, and her path of prayer.", date: "2026-04-24", readTime: "17 min", category: "Saints & Intercession", icon: BookOpen, bgColor: "bg-orange-50", iconColor: "text-orange-500" },
+  { id: 1164, slug: "saint-ignatius-of-loyola", title: "Saint Ignatius of Loyola: Founder of the Jesuits & Spiritual Exercises", excerpt: "Discover Saint Ignatius of Loyola — the soldier-turned-mystic who founded the Jesuits and wrote the Spiritual Exercises, one of the most influential books in Christian history.", date: "2026-04-24", readTime: "16 min", category: "Saints & Intercession", icon: BookOpen, bgColor: "bg-blue-50", iconColor: "text-blue-600" },
+  { id: 1165, slug: "saint-bernadette-soubirous", title: "Saint Bernadette Soubirous: The Visionary of Lourdes", excerpt: "Discover Saint Bernadette Soubirous — the young French girl who saw Our Lady 18 times at Lourdes in 1858, whose body remains incorrupt to this day.", date: "2026-04-24", readTime: "15 min", category: "Saints & Intercession", icon: Sparkles, bgColor: "bg-sky-50", iconColor: "text-sky-500" },
 ];
 
 export default function BlogPage() {

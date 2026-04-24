@@ -208,6 +208,10 @@ const HowToOvercomeSin = lazy(() => import("./pages/blog/HowToOvercomeSin"));
 
 // Lote 5
 const CatholicTeachingOnPornography = lazy(() => import("./pages/blog/CatholicTeachingOnPornography"));
+// Lote 6
+const SaintTeresaOfAvila = lazy(() => import("./pages/blog/SaintTeresaOfAvila"));
+const SaintIgnatiusOfLoyola = lazy(() => import("./pages/blog/SaintIgnatiusOfLoyola"));
+const SaintBernadetteSoubirous = lazy(() => import("./pages/blog/SaintBernadetteSoubirous"));
 const CatholicPrayerForMarriage = lazy(() => import("./pages/blog/CatholicPrayerForMarriage"));
 const CatholicTeachingOnAlcohol = lazy(() => import("./pages/blog/CatholicTeachingOnAlcohol"));
 
@@ -613,6 +617,10 @@ const App = () => (
             <Route path="/blog/catholic-teaching-on-pornography/" element={<CatholicTeachingOnPornography />} />
             <Route path="/blog/catholic-prayer-for-marriage/" element={<CatholicPrayerForMarriage />} />
             <Route path="/blog/catholic-teaching-on-alcohol/" element={<CatholicTeachingOnAlcohol />} />
+
+            <Route path="/blog/saint-teresa-of-avila/" element={<SaintTeresaOfAvila />} />
+            <Route path="/blog/saint-ignatius-of-loyola/" element={<SaintIgnatiusOfLoyola />} />
+            <Route path="/blog/saint-bernadette-soubirous/" element={<SaintBernadetteSoubirous />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
