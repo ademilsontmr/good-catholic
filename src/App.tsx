@@ -201,6 +201,11 @@ const HowToPrayNovena = lazy(() => import("./pages/blog/HowToPrayNovena"));
 const IsItSinToMissMass = lazy(() => import("./pages/blog/IsItSinToMissMass"));
 const WhatIsPentecost = lazy(() => import("./pages/blog/WhatIsPentecost"));
 
+// Lote 4
+const CatholicFirstCommunion = lazy(() => import("./pages/blog/CatholicFirstCommunion"));
+const CatholicLastRites = lazy(() => import("./pages/blog/CatholicLastRites"));
+const HowToOvercomeSin = lazy(() => import("./pages/blog/HowToOvercomeSin"));
+
 // High-Priority Articles
 const PopeLeoXIV = lazy(() => import("./pages/blog/PopeLeoXIV"));
 const PopeFrancisLegacy = lazy(() => import("./pages/blog/PopeFrancisLegacy"));
@@ -597,6 +602,9 @@ const App = () => (
             <Route path="/blog/how-to-pray-a-novena-guide/" element={<HowToPrayNovena />} />
             <Route path="/blog/is-it-a-sin-to-miss-mass/" element={<IsItSinToMissMass />} />
             <Route path="/blog/what-is-pentecost-catholic/" element={<WhatIsPentecost />} />
+            <Route path="/blog/catholic-first-communion-guide/" element={<CatholicFirstCommunion />} />
+            <Route path="/blog/catholic-last-rites-explained/" element={<CatholicLastRites />} />
+            <Route path="/blog/how-to-overcome-sin-catholic/" element={<HowToOvercomeSin />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 

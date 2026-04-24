@@ -2817,6 +2817,42 @@ export const blogPosts: BlogPost[] = [
     bgColor: "bg-red-50",
     iconColor: "text-red-500"
   },
+  {
+    id: 1157,
+    slug: "catholic-first-communion-guide",
+    title: "First Communion: What It Is, How to Prepare & What to Expect",
+    excerpt: "Everything you need to know about Catholic First Communion — what it is, the age for First Communion, how to prepare your child, what happens at the Mass, and how to celebrate.",
+    date: "2026-04-24",
+    readTime: "14 min",
+    category: "Sacraments",
+    icon: Cross,
+    bgColor: "bg-white",
+    iconColor: "text-amber-400"
+  },
+  {
+    id: 1158,
+    slug: "catholic-last-rites-explained",
+    title: "Catholic Last Rites: What They Are, When to Call a Priest & What Happens",
+    excerpt: "What are Catholic Last Rites? Learn about the Anointing of the Sick, Viaticum, and Apostolic Pardon — when to call a priest, what happens, and how to prepare a loved one for death.",
+    date: "2026-04-24",
+    readTime: "13 min",
+    category: "Sacraments",
+    icon: Cross,
+    bgColor: "bg-gray-50",
+    iconColor: "text-gray-600"
+  },
+  {
+    id: 1159,
+    slug: "how-to-overcome-sin-catholic",
+    title: "How to Overcome Sin: A Catholic Guide to Breaking Bad Habits",
+    excerpt: "How do Catholics overcome sin and break bad habits? A practical guide to the Catholic approach — confession, prayer, virtue, spiritual direction, and the sacraments as tools for conversion.",
+    date: "2026-04-24",
+    readTime: "15 min",
+    category: "Spiritual Life",
+    icon: Shield,
+    bgColor: "bg-emerald-50",
+    iconColor: "text-emerald-600"
+  },
 ];
 
 export default function BlogPage() {
