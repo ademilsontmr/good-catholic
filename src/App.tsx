@@ -210,6 +210,10 @@ const HowToOvercomeSin = lazy(() => import("./pages/blog/HowToOvercomeSin"));
 const CatholicTeachingOnPornography = lazy(() => import("./pages/blog/CatholicTeachingOnPornography"));
 // Lote 7
 const WhatIsGraceCatholic = lazy(() => import("./pages/blog/WhatIsGraceCatholic"));
+// Lote 9
+const SaintPeterApostle = lazy(() => import("./pages/blog/SaintPeterApostle"));
+const SaintPaulApostle = lazy(() => import("./pages/blog/SaintPaulApostle"));
+const CatholicTeachingOnGambling = lazy(() => import("./pages/blog/CatholicTeachingOnGambling"));
 // Lote 8
 const PrayerForJobAndWork = lazy(() => import("./pages/blog/PrayerForJobAndWork"));
 const PrayerForTheSick = lazy(() => import("./pages/blog/PrayerForTheSick"));
@@ -640,6 +644,11 @@ const App = () => (
             <Route path="/blog/catholic-vs-orthodox-differences/" element={<CatholicAndOrthodoxDifferences />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+
+            {/* Lote 9 */}
+            <Route path="/blog/saint-peter-apostle/" element={<SaintPeterApostle />} />
+            <Route path="/blog/saint-paul-apostle/" element={<SaintPaulApostle />} />
+            <Route path="/blog/is-gambling-a-sin-catholic/" element={<CatholicTeachingOnGambling />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
