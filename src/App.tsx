@@ -526,6 +526,7 @@ const App = () => (
             <Route path="/blog/morning-prayer-catholic/" element={<MorningPrayerCatholic />} />
             <Route path="/blog/saint-michael-prayer/" element={<SaintMichaelPrayer />} />
             <Route path="/blog/prayers-for-healing-catholic/" element={<PrayersForHealingCatholic />} />
+            <Route path="/blog/how-to-pray-rosary/" element={<RosaryCompleteGuide />} />
             <Route path="/blog/how-to-pray-the-rosary-step-by-step/" element={<RosaryForBeginners />} />
             <Route path="/blog/prayer-before-meals-catholic/" element={<PrayerBeforeMealsCatholic />} />
 
