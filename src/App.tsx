@@ -208,6 +208,10 @@ const HowToOvercomeSin = lazy(() => import("./pages/blog/HowToOvercomeSin"));
 
 // Lote 5
 const CatholicTeachingOnPornography = lazy(() => import("./pages/blog/CatholicTeachingOnPornography"));
+// Lote 7
+const WhatIsGraceCatholic = lazy(() => import("./pages/blog/WhatIsGraceCatholic"));
+const WhatIsOriginalSin = lazy(() => import("./pages/blog/WhatIsOriginalSin"));
+const CatholicTeachingOnHell = lazy(() => import("./pages/blog/CatholicTeachingOnHell"));
 // Lote 6
 const SaintTeresaOfAvila = lazy(() => import("./pages/blog/SaintTeresaOfAvila"));
 const SaintIgnatiusOfLoyola = lazy(() => import("./pages/blog/SaintIgnatiusOfLoyola"));
@@ -621,6 +625,10 @@ const App = () => (
             <Route path="/blog/saint-teresa-of-avila/" element={<SaintTeresaOfAvila />} />
             <Route path="/blog/saint-ignatius-of-loyola/" element={<SaintIgnatiusOfLoyola />} />
             <Route path="/blog/saint-bernadette-soubirous/" element={<SaintBernadetteSoubirous />} />
+
+            <Route path="/blog/what-is-grace-catholic/" element={<WhatIsGraceCatholic />} />
+            <Route path="/blog/what-is-original-sin-catholic/" element={<WhatIsOriginalSin />} />
+            <Route path="/blog/does-hell-exist-catholic/" element={<CatholicTeachingOnHell />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
