@@ -2709,6 +2709,42 @@ export const blogPosts: BlogPost[] = [
     bgColor: "bg-yellow-50",
     iconColor: "text-yellow-600"
   },
+  {
+    id: 1148,
+    slug: "saint-thomas-aquinas",
+    title: "Saint Thomas Aquinas: The Angelic Doctor, Summa Theologica & Legacy",
+    excerpt: "Discover Saint Thomas Aquinas — the Angelic Doctor, his life, the Summa Theologica, his five proofs for God's existence, and why he is the greatest theologian in Catholic history.",
+    date: "2026-04-24",
+    readTime: "18 min",
+    category: "Saints & Intercession",
+    icon: BookOpen,
+    bgColor: "bg-indigo-50",
+    iconColor: "text-indigo-600"
+  },
+  {
+    id: 1149,
+    slug: "saint-joan-of-arc",
+    title: "Saint Joan of Arc: The Maid of Orléans, Her Life, Trial & Legacy",
+    excerpt: "Discover Saint Joan of Arc — the teenage peasant girl who led France to victory, was burned at the stake at 19, and was canonized 500 years later. Her life, voices, trial, and enduring legacy.",
+    date: "2026-04-24",
+    readTime: "17 min",
+    category: "Saints & Intercession",
+    icon: Sword,
+    bgColor: "bg-blue-50",
+    iconColor: "text-blue-500"
+  },
+  {
+    id: 1150,
+    slug: "what-is-the-holy-trinity",
+    title: "What Is the Holy Trinity? The Catholic Teaching Explained",
+    excerpt: "What is the Holy Trinity? Learn the Catholic teaching on the Father, Son, and Holy Spirit — one God in three Persons. Clear explanation of this central mystery of the Christian faith.",
+    date: "2026-04-24",
+    readTime: "16 min",
+    category: "Catholic Doctrine",
+    icon: HelpCircle,
+    bgColor: "bg-violet-50",
+    iconColor: "text-violet-500"
+  },
 ];
 
 export default function BlogPage() {

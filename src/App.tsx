@@ -186,6 +186,11 @@ const SaintAugustineOfHippo = lazy(() => import("./pages/blog/SaintAugustineOfHi
 const PrayingForSoulsInPurgatory = lazy(() => import("./pages/blog/PrayingForSoulsInPurgatory"));
 const CorpusChristiCatholic = lazy(() => import("./pages/blog/CorpusChristiCatholic"));
 
+// Lote 1
+const SaintThomasAquinas = lazy(() => import("./pages/blog/SaintThomasAquinas"));
+const SaintJoanOfArc = lazy(() => import("./pages/blog/SaintJoanOfArc"));
+const WhatIsTheTrinity = lazy(() => import("./pages/blog/WhatIsTheTrinity"));
+
 // High-Priority Articles
 const PopeLeoXIV = lazy(() => import("./pages/blog/PopeLeoXIV"));
 const PopeFrancisLegacy = lazy(() => import("./pages/blog/PopeFrancisLegacy"));
@@ -573,6 +578,9 @@ const App = () => (
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />
             <Route path="/blog/praying-for-souls-in-purgatory/" element={<PrayingForSoulsInPurgatory />} />
             <Route path="/blog/corpus-christi-catholic/" element={<CorpusChristiCatholic />} />
+            <Route path="/blog/saint-thomas-aquinas/" element={<SaintThomasAquinas />} />
+            <Route path="/blog/saint-joan-of-arc/" element={<SaintJoanOfArc />} />
+            <Route path="/blog/what-is-the-holy-trinity/" element={<WhatIsTheTrinity />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
