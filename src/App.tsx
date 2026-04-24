@@ -218,6 +218,11 @@ const CatholicTeachingOnGambling = lazy(() => import("./pages/blog/CatholicTeach
 const DidJesusFoundTheCatholicChurch = lazy(() => import("./pages/blog/DidJesusFoundTheCatholicChurch"));
 const CatholicTeachingOnDrugs = lazy(() => import("./pages/blog/CatholicTeachingOnDrugs"));
 const CatholicGriefAndLoss = lazy(() => import("./pages/blog/CatholicGriefAndLoss"));
+
+// Super Artigos
+const HowToPrayRosaryComplete = lazy(() => import("./pages/blog/HowToPrayRosaryComplete"));
+const CatholicTeachingOnHeaven = lazy(() => import("./pages/blog/CatholicTeachingOnHeaven"));
+const SignsOfVocation = lazy(() => import("./pages/blog/SignsOfVocation"));
 // Lote 8
 const PrayerForJobAndWork = lazy(() => import("./pages/blog/PrayerForJobAndWork"));
 const PrayerForTheSick = lazy(() => import("./pages/blog/PrayerForTheSick"));
@@ -658,6 +663,11 @@ const App = () => (
             <Route path="/blog/did-jesus-found-the-catholic-church/" element={<DidJesusFoundTheCatholicChurch />} />
             <Route path="/blog/catholic-teaching-on-drugs/" element={<CatholicTeachingOnDrugs />} />
             <Route path="/blog/catholic-guide-to-grief-and-loss/" element={<CatholicGriefAndLoss />} />
+
+            {/* Super Artigos */}
+            <Route path="/blog/how-to-pray-the-rosary-complete-guide/" element={<HowToPrayRosaryComplete />} />
+            <Route path="/blog/what-is-heaven-like-catholic/" element={<CatholicTeachingOnHeaven />} />
+            <Route path="/blog/signs-of-a-vocation-priesthood-religious-life/" element={<SignsOfVocation />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
