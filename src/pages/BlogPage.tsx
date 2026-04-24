@@ -2637,6 +2637,42 @@ export const blogPosts: BlogPost[] = [
     bgColor: "bg-emerald-100",
     iconColor: "text-emerald-400"
   },
+  {
+    id: 1142,
+    slug: "our-lady-of-guadalupe-patroness-americas",
+    title: "Our Lady of Guadalupe: Patroness of the Americas — Complete Guide",
+    excerpt: "Complete guide to Our Lady of Guadalupe — the 1531 apparitions to Juan Diego, the miraculous tilma, her role as Patroness of the Americas, and the feast day of December 12.",
+    date: "2026-04-24",
+    readTime: "20 min",
+    category: "Saints & Intercession",
+    icon: Sun,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-500"
+  },
+  {
+    id: 1143,
+    slug: "saint-kateri-tekakwitha",
+    title: "Saint Kateri Tekakwitha: The Lily of the Mohawks & First Native American Saint",
+    excerpt: "Discover Saint Kateri Tekakwitha — the first Native American to be canonized. Her life, her faith, her miracles, and why she is beloved by Catholics across the United States.",
+    date: "2026-04-24",
+    readTime: "17 min",
+    category: "Saints & Intercession",
+    icon: Sparkles,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-500"
+  },
+  {
+    id: 1144,
+    slug: "our-lady-immaculate-conception-patroness-usa",
+    title: "Our Lady of the Immaculate Conception: Patroness of the United States",
+    excerpt: "Why is Our Lady of the Immaculate Conception the patroness of the United States? The history of this 1846 declaration, the National Shrine in Washington D.C., and how to honor her.",
+    date: "2026-04-24",
+    readTime: "16 min",
+    category: "Saints & Intercession",
+    icon: Star,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-400"
+  },
 ];
 
 export default function BlogPage() {

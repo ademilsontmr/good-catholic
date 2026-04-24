@@ -176,6 +176,11 @@ const LivingVirtue = lazy(() => import("./pages/blog/LivingVirtue"));
 const RosaryMysteriesMeditation = lazy(() => import("./pages/blog/RosaryMysteriesMeditation"));
 const CatholicMarriagePreparation = lazy(() => import("./pages/blog/CatholicMarriagePreparation"));
 
+// New Saints & Marian Articles
+const OurLadyGuadalupePatronessAmericas = lazy(() => import("./pages/blog/OurLadyGuadalupePatronessAmericas"));
+const SaintKateriTekakwitha = lazy(() => import("./pages/blog/SaintKateriTekakwitha"));
+const OurLadyImmaculateConceptionUSA = lazy(() => import("./pages/blog/OurLadyImmaculateConceptionUSA"));
+
 // High-Priority Articles
 const PopeLeoXIV = lazy(() => import("./pages/blog/PopeLeoXIV"));
 const PopeFrancisLegacy = lazy(() => import("./pages/blog/PopeFrancisLegacy"));
@@ -555,6 +560,11 @@ const App = () => (
             <Route path="/blog/catholic-pro-life-guide/" element={<CatholicProLifeGuide />} />
             <Route path="/blog/staying-catholic-in-college/" element={<StayingCatholicInCollege />} />
             <Route path="/blog/why-young-catholics-leave-the-church/" element={<WhyYoungCatholicsLeave />} />
+
+            {/* New Saints & Marian Articles */}
+            <Route path="/blog/our-lady-of-guadalupe-patroness-americas/" element={<OurLadyGuadalupePatronessAmericas />} />
+            <Route path="/blog/saint-kateri-tekakwitha/" element={<SaintKateriTekakwitha />} />
+            <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
