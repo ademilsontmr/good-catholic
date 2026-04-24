@@ -214,6 +214,10 @@ const WhatIsGraceCatholic = lazy(() => import("./pages/blog/WhatIsGraceCatholic"
 const SaintPeterApostle = lazy(() => import("./pages/blog/SaintPeterApostle"));
 const SaintPaulApostle = lazy(() => import("./pages/blog/SaintPaulApostle"));
 const CatholicTeachingOnGambling = lazy(() => import("./pages/blog/CatholicTeachingOnGambling"));
+// Lote 10
+const DidJesusFoundTheCatholicChurch = lazy(() => import("./pages/blog/DidJesusFoundTheCatholicChurch"));
+const CatholicTeachingOnDrugs = lazy(() => import("./pages/blog/CatholicTeachingOnDrugs"));
+const CatholicGriefAndLoss = lazy(() => import("./pages/blog/CatholicGriefAndLoss"));
 // Lote 8
 const PrayerForJobAndWork = lazy(() => import("./pages/blog/PrayerForJobAndWork"));
 const PrayerForTheSick = lazy(() => import("./pages/blog/PrayerForTheSick"));
@@ -649,6 +653,11 @@ const App = () => (
             <Route path="/blog/saint-peter-apostle/" element={<SaintPeterApostle />} />
             <Route path="/blog/saint-paul-apostle/" element={<SaintPaulApostle />} />
             <Route path="/blog/is-gambling-a-sin-catholic/" element={<CatholicTeachingOnGambling />} />
+
+            {/* Lote 10 */}
+            <Route path="/blog/did-jesus-found-the-catholic-church/" element={<DidJesusFoundTheCatholicChurch />} />
+            <Route path="/blog/catholic-teaching-on-drugs/" element={<CatholicTeachingOnDrugs />} />
+            <Route path="/blog/catholic-guide-to-grief-and-loss/" element={<CatholicGriefAndLoss />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
