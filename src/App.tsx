@@ -266,8 +266,14 @@ const CatholicTeachingOnCharity = lazy(() => import("./pages/blog/CatholicTeachi
 
 // To 300 - Batch 2
 const CatholicTeachingOnBaptism = lazy(() => import("./pages/blog/CatholicTeachingOnBaptism"));
+
 const SaintMaryMagdalene = lazy(() => import("./pages/blog/SaintMaryMagdalene"));
 const CatholicTeachingOnConsciousness = lazy(() => import("./pages/blog/CatholicTeachingOnConsciousness"));
+
+// To 300 - Batch 3
+const CatholicTeachingOnPride = lazy(() => import("./pages/blog/CatholicTeachingOnPride"));
+const CatholicTeachingOnLove = lazy(() => import("./pages/blog/CatholicTeachingOnLove"));
+const CatholicTeachingOnTruth = lazy(() => import("./pages/blog/CatholicTeachingOnTruth"));
 
 // High-Volume Faith Articles
 const CatholicSpiritualWarfare = lazy(() => import("./pages/blog/CatholicSpiritualWarfare"));
@@ -786,6 +792,10 @@ const App = () => (
             <Route path="/blog/catholic-baptism-explained/" element={<CatholicTeachingOnBaptism />} />
             <Route path="/blog/saint-mary-magdalene/" element={<SaintMaryMagdalene />} />
             <Route path="/blog/what-is-conscience-catholic/" element={<CatholicTeachingOnConsciousness />} />
+
+            <Route path="/blog/pride-root-of-sin-catholic/" element={<CatholicTeachingOnPride />} />
+            <Route path="/blog/what-is-love-catholic/" element={<CatholicTeachingOnLove />} />
+            <Route path="/blog/what-is-truth-catholic/" element={<CatholicTeachingOnTruth />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
