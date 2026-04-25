@@ -254,6 +254,11 @@ const GenZAndCatholicism = lazy(() => import("./pages/blog/GenZAndCatholicism"))
 const CatholicConversionsRising = lazy(() => import("./pages/blog/CatholicConversionsRising"));
 const WhyMenReturnToCatholicChurch = lazy(() => import("./pages/blog/WhyMenReturnToCatholicChurch"));
 
+// Virtue & Saints Articles
+const CatholicTeachingOnHumility = lazy(() => import("./pages/blog/CatholicTeachingOnHumility"));
+const CatholicTeachingOnHope = lazy(() => import("./pages/blog/CatholicTeachingOnHope"));
+const SaintJohnOfTheCross = lazy(() => import("./pages/blog/SaintJohnOfTheCross"));
+
 // New Doctrine & Saints Articles
 const WhatIsCatholicFaith = lazy(() => import("./pages/blog/WhatIsCatholicFaith"));
 const CatholicTeachingOnFreeMasonry = lazy(() => import("./pages/blog/CatholicTeachingOnFreeMasonry"));
@@ -749,6 +754,10 @@ const App = () => (
             <Route path="/blog/catholic-teaching-on-war-and-peace/" element={<CatholicTeachingOnWar />} />
             <Route path="/blog/saint-rita-of-cascia/" element={<SaintRitaOfCascia />} />
             <Route path="/blog/catholic-teaching-on-science/" element={<CatholicTeachingOnScience />} />
+
+            <Route path="/blog/virtue-of-humility-catholic/" element={<CatholicTeachingOnHumility />} />
+            <Route path="/blog/virtue-of-hope-catholic/" element={<CatholicTeachingOnHope />} />
+            <Route path="/blog/saint-john-of-the-cross/" element={<SaintJohnOfTheCross />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
