@@ -254,6 +254,14 @@ const GenZAndCatholicism = lazy(() => import("./pages/blog/GenZAndCatholicism"))
 const CatholicConversionsRising = lazy(() => import("./pages/blog/CatholicConversionsRising"));
 const WhyMenReturnToCatholicChurch = lazy(() => import("./pages/blog/WhyMenReturnToCatholicChurch"));
 
+// New Doctrine & Saints Articles
+const WhatIsCatholicFaith = lazy(() => import("./pages/blog/WhatIsCatholicFaith"));
+const CatholicTeachingOnFreeMasonry = lazy(() => import("./pages/blog/CatholicTeachingOnFreeMasonry"));
+const SaintAnneAndJoachim = lazy(() => import("./pages/blog/SaintAnneAndJoachim"));
+const CatholicTeachingOnWar = lazy(() => import("./pages/blog/CatholicTeachingOnWar"));
+const SaintRitaOfCascia = lazy(() => import("./pages/blog/SaintRitaOfCascia"));
+const CatholicTeachingOnScience = lazy(() => import("./pages/blog/CatholicTeachingOnScience"));
+
 const WhatIsCatholicSpirituality = lazy(() => import("./pages/blog/WhatIsCatholicSpirituality"));
 const CatholicTeachingOnSuffering = lazy(() => import("./pages/blog/CatholicTeachingOnSuffering"));
 
@@ -734,6 +742,13 @@ const App = () => (
             <Route path="/blog/catholic-teaching-on-forgiveness/" element={<CatholicTeachingOnForgiveness />} />
             <Route path="/blog/what-is-catholic-spirituality/" element={<WhatIsCatholicSpirituality />} />
             <Route path="/blog/why-does-god-allow-suffering-catholic/" element={<CatholicTeachingOnSuffering />} />
+
+            <Route path="/blog/what-is-the-catholic-faith/" element={<WhatIsCatholicFaith />} />
+            <Route path="/blog/catholic-teaching-on-freemasonry/" element={<CatholicTeachingOnFreeMasonry />} />
+            <Route path="/blog/saints-anne-and-joachim/" element={<SaintAnneAndJoachim />} />
+            <Route path="/blog/catholic-teaching-on-war-and-peace/" element={<CatholicTeachingOnWar />} />
+            <Route path="/blog/saint-rita-of-cascia/" element={<SaintRitaOfCascia />} />
+            <Route path="/blog/catholic-teaching-on-science/" element={<CatholicTeachingOnScience />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
