@@ -249,6 +249,11 @@ const CatholicSchoolsAmerica = lazy(() => import("./pages/blog/CatholicSchoolsAm
 const SaintJosephineBakhita = lazy(() => import("./pages/blog/SaintJosephineBAkhita"));
 const CatholicTeachingOnJustice = lazy(() => import("./pages/blog/CatholicTeachingOnJustice"));
 
+// Trending 2025-2026
+const GenZAndCatholicism = lazy(() => import("./pages/blog/GenZAndCatholicism"));
+const CatholicConversionsRising = lazy(() => import("./pages/blog/CatholicConversionsRising"));
+const WhyMenReturnToCatholicChurch = lazy(() => import("./pages/blog/WhyMenReturnToCatholicChurch"));
+
 const WhatIsCatholicSpirituality = lazy(() => import("./pages/blog/WhatIsCatholicSpirituality"));
 const CatholicTeachingOnSuffering = lazy(() => import("./pages/blog/CatholicTeachingOnSuffering"));
 
@@ -700,6 +705,9 @@ const App = () => (
             <Route path="/blog/catholic-schools-in-america/" element={<CatholicSchoolsAmerica />} />
             <Route path="/blog/saint-josephine-bakhita/" element={<SaintJosephineBakhita />} />
             <Route path="/blog/catholic-teaching-on-justice/" element={<CatholicTeachingOnJustice />} />
+            <Route path="/blog/gen-z-and-catholicism/" element={<GenZAndCatholicism />} />
+            <Route path="/blog/catholic-conversions-rising/" element={<CatholicConversionsRising />} />
+            <Route path="/blog/why-young-men-return-to-catholic-church/" element={<WhyMenReturnToCatholicChurch />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
