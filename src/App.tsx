@@ -229,6 +229,11 @@ const CatholicTeachingOnSocialMedia = lazy(() => import("./pages/blog/CatholicTe
 const CatholicTeachingOnEnvironment = lazy(() => import("./pages/blog/CatholicTeachingOnEnvironment"));
 const HowToPrayForSomeone = lazy(() => import("./pages/blog/HowToPrayForSomeone"));
 
+// Articles May 2026 Batch 2
+const CatholicTeachingOnForgiveness = lazy(() => import("./pages/blog/CatholicTeachingOnForgiveness"));
+const WhatIsCatholicSpirituality = lazy(() => import("./pages/blog/WhatIsCatholicSpirituality"));
+const CatholicTeachingOnSuffering = lazy(() => import("./pages/blog/CatholicTeachingOnSuffering"));
+
 // New Articles April 2026
 const CatholicTeachingOnAngels = lazy(() => import("./pages/blog/CatholicTeachingOnAngels"));
 const CatholicTeachingOnMoney = lazy(() => import("./pages/blog/CatholicTeachingOnMoney"));
@@ -687,6 +692,10 @@ const App = () => (
             <Route path="/blog/catholic-teaching-on-angels/" element={<CatholicTeachingOnAngels />} />
             <Route path="/blog/catholic-teaching-on-money-and-wealth/" element={<CatholicTeachingOnMoney />} />
             <Route path="/blog/what-is-holy-orders-catholic/" element={<WhatIsHolyOrders />} />
+
+            <Route path="/blog/catholic-teaching-on-forgiveness/" element={<CatholicTeachingOnForgiveness />} />
+            <Route path="/blog/what-is-catholic-spirituality/" element={<WhatIsCatholicSpirituality />} />
+            <Route path="/blog/why-does-god-allow-suffering-catholic/" element={<CatholicTeachingOnSuffering />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
