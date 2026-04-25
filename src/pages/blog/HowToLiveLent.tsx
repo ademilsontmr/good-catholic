@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToLiveLent() {
   return (
@@ -63,17 +64,17 @@ export default function HowToLiveLent() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Every year, the Church offers us the gift of Lent — forty days of grace, penance, and renewal that mirror Jesus's forty days of fasting in the desert. But for many Catholics, Lent passes by as a vague season of minor inconveniences rather than a genuine encounter with the living God. This guide will help you make Lent what it was always meant to be: a time of profound conversion.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What is Lent?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Lent is the liturgical season of forty days that prepares the faithful for the celebration of Easter. It begins on Ash Wednesday and concludes on Holy Thursday evening, when the Easter Triduum begins. The forty days recall several biblical periods of forty: Moses's forty days on Mount Sinai, Elijah's forty-day journey to Horeb, and above all, Jesus's forty days of fasting and prayer in the desert before beginning His public ministry.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 The word "Lent" comes from the Old English "lencten," meaning spring — the season of lengthening days. It is a season of spiritual spring: a time to clear away the dead wood of sin, to till the soil of the soul, and to plant seeds of virtue that will bear fruit at Easter and throughout the year.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Is your Lent bearing spiritual fruit?"
@@ -81,14 +82,14 @@ export default function HowToLiveLent() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Pillars of Lent</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Jesus Himself outlined the three pillars of Lenten practice in the Sermon on the Mount (Matthew 6:1-18): prayer, fasting, and almsgiving. These three practices work together as a unified program of conversion:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">1. Prayer: Deepening Your Relationship with God</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Lent is above all a time of intensified prayer. The Church offers many opportunities: daily Mass, the Stations of the Cross on Fridays, communal penance services, and personal prayer. Consider adding one of these practices to your Lenten routine:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Daily Rosary or a decade of the Rosary</li>
                 <li>Lectio Divina with the daily Mass readings</li>
@@ -99,30 +100,30 @@ export default function HowToLiveLent() {
               </ul>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">2. Fasting: Mastering the Body and Expressing Repentance</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Fasting is one of the most ancient and powerful spiritual practices in Christianity. The Church requires fasting on Ash Wednesday and Good Friday (one full meal and two smaller meals that together don't equal a full meal, for those aged 18-59) and abstinence from meat on all Fridays of Lent (for those aged 14 and older).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 But fasting can go beyond food. Consider fasting from: social media, entertainment, alcohol, unnecessary spending, or any habit that has become a distraction from God. The purpose of fasting is not the sacrifice itself but what it opens up — more time for prayer, greater sensitivity to God's voice, and solidarity with the poor.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">3. Almsgiving: Love Made Concrete</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Almsgiving — giving to the poor — is the third pillar of Lent. It is the outward expression of the interior conversion that prayer and fasting are producing. The money saved by fasting can be given to the poor. Time freed from entertainment can be given in service. The Church's traditional works of mercy — feeding the hungry, clothing the naked, visiting the sick — are all forms of Lenten almsgiving.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Most Important Lenten Practice: Confession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Above all else, Lent is the season of the Sacrament of Confession. The Church's ancient tradition of preparing catechumens for Baptism at Easter and reconciling penitents to the Church makes Lent the preeminent time for sacramental reconciliation. The Easter Duty — receiving Communion during the Easter season — presupposes being in a state of grace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Many parishes offer additional Confession times during Lent, communal penance services, and "24 Hours for the Lord" events. Do not let Lent pass without making a good Confession. It is the most transformative thing you can do during this holy season.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Holy Week: The Heart of Lent</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Lent culminates in Holy Week — the most sacred week of the liturgical year. Each day of Holy Week has its own profound significance:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Palm Sunday:</strong> Jesus's triumphal entry into Jerusalem and the beginning of His Passion</li>
                 <li><strong>Holy Monday, Tuesday, Wednesday:</strong> Days of intensified prayer and preparation</li>

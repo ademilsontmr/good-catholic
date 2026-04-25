@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurLadyOfLourdesGuide() {
   return (
@@ -77,29 +78,29 @@ export default function OurLadyOfLourdesGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The story of Lourdes begins not with spectacle, but with the simple faith of a sickly shepherd girl named Bernadette Soubirous. Between February 11 and July 16, 1858, the Virgin Mary appeared to Bernadette 18 times in a grotto near the town of Lourdes, France. These apparitions would change the life of one girl, a town, and millions of pilgrims who would follow.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Historical Context: 1858 France
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 France in 1858 was a nation in spiritual crisis. The French Revolution had devastated the Church, and anti-clerical sentiment was strong. The recent definition of the Immaculate Conception by Pope Pius IX in 1854 was controversial. It was into this environment that God chose to send His Mother with a message of hope and healing.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Lourdes itself was a poor town in the Pyrenees mountains. Bernadette's family had lost their mill and lived in extreme poverty. Her poor health and lack of education made her an unlikely choice for a heavenly messenger - exactly the kind of person God often chooses to confound the wise.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Bernadette Soubirous: The Humble Messenger
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Marie-Bernarde Soubirous was born on January 7, 1844, the eldest of nine children. She suffered from asthma her entire life and was considered frail. At 14, she couldn't read or write and spoke only the local dialect. Yet God chose this simple girl to convey one of the Church's most important Marian messages.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Bernadette's character was remarkable for her humility, honesty, and perseverance. Despite ridicule, opposition from authorities, and even imprisonment, she never wavered in her testimony of what she had seen and heard.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Eighteen Apparitions: February 11 - July 16, 1858
@@ -137,16 +138,16 @@ export default function OurLadyOfLourdesGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Miraculous Spring and Healings
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The spring that Bernadette uncovered has become the source of countless healings. From the very beginning, people who drank or bathed in the water reported cures. The Church has investigated thousands of these reported healings, and to date, 70 have been officially recognized as medically inexplicable miracles.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Process of Verification
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The Lourdes Medical Bureau, established in 1883, follows a rigorous process for investigating reported healings:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>The illness must be serious and medically documented</li>
                 <li>The cure must be instantaneous and complete</li>
@@ -158,9 +159,9 @@ export default function OurLadyOfLourdesGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Types of Healings Reported
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 While physical healings are most famous, many report spiritual and emotional healing as well. The spring water is seen as a channel of God's grace, but always in cooperation with faith and prayer.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How much do you know about Marian apparitions?"
@@ -170,9 +171,9 @@ export default function OurLadyOfLourdesGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Immaculate Conception: The Core Message
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The most profound moment came on March 25, 1858, when Bernadette asked the Lady her name. The response, "I am the Immaculate Conception," was extraordinary because:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Bernadette, uneducated, could not have known this theological term</li>
                 <li>The definition was only four years old and still controversial</li>
@@ -180,16 +181,16 @@ export default function OurLadyOfLourdesGuide() {
                 <li>It revealed Mary's role in God's plan of salvation</li>
               </ul>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The Immaculate Conception teaches that Mary was conceived without original sin, preserved from the first moment of her existence by a special grace of God in anticipation of her role as Mother of God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Messages of Lourdes
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 While the apparitions at Lourdes contained no apocalyptic prophecies like Fatima, they conveyed essential spiritual messages:
-              </p>
+              </LinkedText>
               
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">Key Messages from Our Lady</h3>
@@ -205,19 +206,19 @@ export default function OurLadyOfLourdesGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Bernadette's Life After the Apparitions
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Despite her role in the apparitions, Bernadette remained humble. In 1866, she entered the Sisters of Charity of Nevers, taking the name Sister Marie-Bernarde. She spent the rest of her life in prayer and suffering, dying of tuberculosis in 1879 at age 35.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Bernadette was canonized by Pope Pius XI in 1933. Her feast day is April 16, the day of her death. She is the patron saint of the sick, poor, and shepherdesses.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Sanctuary of Our Lady of Lourdes
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Today, Lourdes is one of the world's most important pilgrimage sites. The sanctuary includes:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Grotto:</strong> The actual site of the apparitions</li>
                 <li><strong>The Basilicas:</strong> Three magnificent basilicas built above the grotto</li>
@@ -225,44 +226,44 @@ export default function OurLadyOfLourdesGuide() {
                 <li><strong>The Torchlight Procession:</strong> Daily evening procession with candles</li>
                 <li><strong>The Way of the Cross:</strong> Life-size stations in the hills above the grotto</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Each year, over 6 million pilgrims visit Lourdes from around the world. Many come seeking physical healing, but all come seeking spiritual renewal and Mary's intercession.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Lourdes Spirituality
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The spirituality of Lourdes emphasizes several key elements:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Prayer for the Sick
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Lourdes teaches us to pray for the sick and to offer our own suffering for their healing. The International Mass for the Sick is celebrated daily at Lourdes.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Value of Suffering
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Bernadette's own life of suffering teaches that suffering united to Christ's suffering has redemptive value. Many pilgrims find healing not in physical cure but in accepting their suffering with Christ.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Marian Intercession
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Lourdes demonstrates Mary's powerful intercession. The countless healings and conversions at Lourdes testify to Mary's maternal care for her children.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Lourdes Water: Understanding the Miraculous
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The water from Lourdes is not magical - it's sacramental. Its power comes from God's grace working through Mary's intercession. The Church teaches that:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>The water is a sign of God's healing power</li>
                 <li>Healing depends on God's will, not the water itself</li>
@@ -274,9 +275,9 @@ export default function OurLadyOfLourdesGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Lourdes in the Modern World
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 Lourdes remains relevant today because it speaks to universal human needs:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Hope for the sick:</strong> In a world of suffering, Lourdes offers hope</li>
                 <li><strong>Marian devotion:</strong> It strengthens devotion to Mary as mother</li>
@@ -288,9 +289,9 @@ export default function OurLadyOfLourdesGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Visiting Lourdes: A Pilgrim's Guide
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 For those planning to visit Lourdes:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Best time to visit:</strong> Spring and fall are less crowded</li>
                 <li><strong>What to bring:</strong> Comfortable walking shoes, rosary, water bottle</li>
@@ -302,12 +303,12 @@ export default function OurLadyOfLourdesGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Feast of Our Lady of Lourdes
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The Church celebrates the feast of Our Lady of Lourdes on February 11, the anniversary of the first apparition. This day is also designated as the World Day of the Sick, established by Pope John Paul II in 1992.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 On this day, Catholics around the world are encouraged to pray for the sick, reflect on the meaning of suffering, and seek Mary's intercession for those who are ill.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Common Lourdes Devotions

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurLadyGuadalupePatronessAmericas() {
   return (
@@ -64,49 +65,49 @@ export default function OurLadyGuadalupePatronessAmericas() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 The Basilica of Our Lady of Guadalupe in Mexico City receives more than 20 million pilgrims each year — more than any other Catholic shrine in the world, and more than any other Christian site except the Vatican. The image of Our Lady of Guadalupe is the most reproduced religious image in history. She is the patroness of Mexico, of all Latin America, of the Philippines, and of the entire Western Hemisphere. Understanding her is essential to understanding Catholicism in the Americas.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Historical Context: A Continent in Crisis</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 To understand the significance of Guadalupe, you need to understand the world into which she appeared. In 1531, the Spanish conquest of Mexico was barely a decade old. The Aztec Empire had been destroyed. Millions of indigenous people had died from warfare, disease, and forced labor. The survivors were a traumatized, demoralized people who had lost their gods, their culture, and their way of life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 The Spanish missionaries were working to evangelize the indigenous population, but with limited success. The indigenous people were suspicious of the Spanish God — the God of their conquerors. They had little reason to trust the religion of the people who had destroyed their civilization.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 Into this situation, Mary appeared — not as a Spanish noblewoman, but as a mestiza (mixed-race) woman, speaking Nahuatl (the Aztec language), dressed in the symbols of Aztec cosmology, and standing on the moon (a symbol of the Aztec moon god). She came not as the God of the conquerors but as a mother — the mother of the true God, who was also their God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Apparitions: December 9-12, 1531</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The First Apparition (December 9)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 Juan Diego was a 57-year-old indigenous man, recently widowed, who had converted to Christianity. On the morning of December 9, 1531, he was walking to Mass at the Franciscan mission in Tlatelolco when he heard beautiful music coming from the hill of Tepeyac — a hill that had previously been the site of a temple to the Aztec mother goddess Tonantzin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 At the top of the hill, he encountered a young woman of extraordinary beauty, surrounded by light. She spoke to him in Nahuatl, calling him "Juanito" (little Juan) and "the smallest of my children." She identified herself as the Virgin Mary, the Mother of the true God, and asked him to go to the bishop and request that a church be built on that hill — so that she could show her love and compassion to all the people of the land.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Bishop's Skepticism</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 Juan Diego went to the bishop — Juan de Zumárraga, the first bishop of Mexico City — and delivered Mary's message. The bishop listened politely but was skeptical. He asked Juan Diego to return with a sign that would prove the apparition was genuine.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 Juan Diego returned to Tepeyac and reported the bishop's response to Mary. She told him to come back the next day and she would give him a sign. But the next day, Juan Diego's uncle, Juan Bernardino, fell gravely ill with the plague, and Juan Diego spent the day caring for him. On December 12, fearing his uncle was dying, Juan Diego set out to find a priest to administer last rites — taking a different route to avoid the hill of Tepeyac.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Fourth Apparition and the Miracle (December 12)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 Mary appeared to Juan Diego on the path he was taking to avoid her. She told him not to be afraid, that his uncle had already been healed (which proved to be true), and that he should go to the top of the hill and gather the flowers he would find there.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 This was remarkable: it was December, and the hill of Tepeyac was a barren, rocky place where nothing grew. But when Juan Diego reached the top, he found a profusion of Castilian roses — flowers that did not grow in Mexico and were not in season. He gathered them in his tilma (a cloak made of rough cactus fiber) and brought them to Mary, who arranged them with her own hands and told him to take them to the bishop.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 When Juan Diego opened his tilma before the bishop and the roses fell to the floor, everyone in the room fell to their knees. On the inside of the tilma, where the roses had been, was a perfect image of the Virgin Mary — an image that no human hand had painted.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Marian devotion?"
@@ -114,12 +115,12 @@ export default function OurLadyGuadalupePatronessAmericas() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Miraculous Tilma</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 The tilma of Juan Diego — the rough cactus-fiber cloak bearing the image of Our Lady of Guadalupe — is one of the most studied objects in the history of science. It has been examined by scientists, artists, and theologians for nearly 500 years, and it continues to defy natural explanation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 Some of the most remarkable features of the tilma:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Miraculous preservation.</strong> The tilma is made of rough cactus fiber — a material that normally deteriorates within 20-30 years. Yet the tilma has survived for nearly 500 years, through humidity, candle smoke, floods, and even a bomb explosion in 1921 (which destroyed the marble altar steps but left the tilma unharmed).</li>
                 <li><strong>No brushstrokes.</strong> Scientific analysis has found no evidence of brushstrokes, sizing, or any other technique used in human painting. The image appears to have been applied directly to the fabric without any preparatory layer.</li>
@@ -129,9 +130,9 @@ export default function OurLadyGuadalupePatronessAmericas() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Symbolism of the Image</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 The image of Our Lady of Guadalupe is rich with symbolism that would have been immediately understood by the indigenous people of Mexico in 1531:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The turquoise mantle with stars</strong> — the color of royalty and divinity in Aztec culture; the stars indicate she is greater than the stars (which the Aztecs worshipped as gods)</li>
                 <li><strong>Standing on the moon</strong> — she is greater than the moon god Tecuciztecatl</li>
@@ -141,28 +142,28 @@ export default function OurLadyGuadalupePatronessAmericas() {
                 <li><strong>Her bowed head and folded hands</strong> — she is not a goddess but a servant, in prayer before someone greater than herself</li>
                 <li><strong>The angel at her feet</strong> — she is a heavenly being, carried by an angel</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 The image was, in effect, a catechism in pictures — communicating the Gospel to the indigenous people in their own symbolic language. Within ten years of the apparition, approximately nine million indigenous people had converted to Christianity. The evangelization of Mexico — which had been proceeding slowly and with great difficulty — was transformed almost overnight.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Patroness of the Americas</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 Our Lady of Guadalupe has been venerated as the patroness of Mexico since the 16th century. In 1910, Pope Pius X declared her the patroness of Latin America. In 1945, Pope Pius XII extended her patronage to all of the Americas — North, Central, and South — declaring her "Queen of Mexico and Empress of the Americas."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 In 1999, Pope John Paul II — who had a deep personal devotion to Our Lady of Guadalupe — visited the Basilica in Mexico City and proclaimed her "the Star of the first and new evangelization." He also declared December 12 a feast day for the entire Church in the Americas.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 Juan Diego was beatified by Pope John Paul II in 1990 and canonized in 2002 — the first indigenous American to be canonized. His feast day is December 9.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Feast Day: December 12</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 The feast of Our Lady of Guadalupe is celebrated on December 12 — the date of the final apparition and the miracle of the tilma. In Mexico, it is one of the most important religious celebrations of the year, with millions of pilgrims making their way to the Basilica in Mexico City on foot, some traveling hundreds of miles.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 In the United States, December 12 is a feast day (not a Holy Day of Obligation, but a significant celebration) that is especially important for Hispanic and Latino Catholics, who make up a large and growing portion of the American Catholic population. Many parishes celebrate with Masses, processions, and traditional music and dance.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer to Our Lady of Guadalupe</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">

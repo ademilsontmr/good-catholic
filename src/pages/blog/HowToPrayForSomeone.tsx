@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToPrayForSomeone() {
   return (
@@ -59,42 +60,42 @@ export default function HowToPrayForSomeone() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 When someone we love is suffering — sick, lost, struggling, broken — we often feel helpless. We want to do something, but we don't know what. The Catholic tradition offers a profound answer: pray for them. Not as a last resort, not as a substitute for action, but as the most powerful thing you can do — bringing another person before the throne of God and asking for His mercy on their behalf.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 This is intercessory prayer: standing in the gap between another person and God, as Abraham stood between Sodom and the divine judgment, as Moses stood between Israel and the wrath of God in the desert, as Jesus stands even now at the right hand of the Father, "always living to make intercession" for us (Hebrews 7:25).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Basis for Intercessory Prayer</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 Intercessory prayer runs through the entire Bible. In Genesis 18, Abraham intercedes for the city of Sodom, bargaining with God to spare it if even ten righteous people can be found. This is one of the most remarkable passages in Scripture: a human being arguing with God, and God listening. It reveals something profound about the nature of prayer — God invites our participation in His work.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 In Exodus 32, Moses intercedes for Israel after the golden calf incident. God tells Moses He intends to destroy the people and start over with Moses alone. Moses refuses: "Turn from your burning anger; relent and do not bring disaster on your people." And Scripture says: "The Lord relented and did not bring on his people the disaster he had threatened." The prayer of one man changed the course of history.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 In the New Testament, Jesus intercedes for Peter: "Simon, Simon, Satan has asked to sift all of you as wheat. But I have prayed for you, Simon, that your faith may not fail" (Luke 22:31–32). Jesus knew Peter would fall — and He prayed for him anyway. This is the model of intercessory prayer: not demanding that God prevent suffering, but asking that faith survive it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 Paul's letters are saturated with intercession. He tells the Philippians: "In all my prayers for all of you, I always pray with joy" (Philippians 1:4). He asks the Romans to "join me in my struggle by praying to God for me" (Romans 15:30). He instructs Timothy that "petitions, prayers, intercession and thanksgiving be made for all people" (1 Timothy 2:1). Intercessory prayer is not optional for Paul — it is the heartbeat of Christian community.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Intercessory Prayer Works: The Theology</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 Why does God respond to our prayers for others? Why doesn't He simply act without our asking? The Catholic tradition offers a rich answer rooted in the theology of the Body of Christ and the Communion of Saints.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 The Church is the Body of Christ — a living organism in which every member is connected to every other. When one member suffers, all suffer; when one member prays, all are strengthened. Intercessory prayer is not a transaction — it is an expression of this organic unity. When I pray for you, I am not informing God of something He doesn't know; I am participating in the flow of grace that God has chosen to channel through the prayers of His people.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 The Communion of Saints extends this principle beyond death. The saints in heaven are not passive spectators — they are active intercessors, united with us in the one Body of Christ. When we ask Mary or St. Jude to pray for us, we are asking members of the Body to join their prayers to ours. This is why Catholic intercessory prayer is so rich: it draws on the prayers of the whole Church, living and dead.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray for Someone Effectively</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 Effective intercessory prayer has three qualities: it is specific, it is persistent, and it is surrendered.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Be specific.</strong> Vague prayers get vague results — not because God doesn't hear them, but because specificity is an act of faith. When you pray "Lord, heal my friend," you are trusting that God can and will act in a particular situation. Name the person. Name the need. Name what you are asking for. This is not magic — it is the kind of honest, direct communication that characterizes any real relationship.
               </p>
@@ -128,17 +129,17 @@ export default function HowToPrayForSomeone() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Power of Having a Mass Offered for Someone</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 One of the most powerful things you can do for another person is have a Mass offered for them. The Mass is the highest form of prayer in the Catholic Church — the re-presentation of Christ's sacrifice on Calvary. When a Mass is offered for a specific intention, the infinite merits of that sacrifice are applied to that person.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 You can request a Mass intention at any Catholic parish. There is usually a small stipend (a donation to the priest), but no one is turned away for inability to pay. Masses can be offered for the living or the dead — for healing, for conversion, for the souls in purgatory, for any intention. Many Catholics have a Mass offered for a loved one on their birthday, anniversary, or the anniversary of their death.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Asking the Saints to Intercede</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 The Catholic practice of asking the saints to pray for us is rooted in the theology of the Communion of Saints. The saints are not dead — they are alive in God, and they love us with a love purified of all selfishness. When we ask them to intercede, we are asking members of the Body of Christ to join their prayers to ours.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Mary, the Mother of God,</strong> is the greatest intercessor after Christ Himself. The Hail Mary is an intercessory prayer: "pray for us sinners, now and at the hour of our death." The Rosary is a powerful form of intercessory prayer — many Catholics pray it specifically for the intentions of others.
               </p>
@@ -150,23 +151,23 @@ export default function HowToPrayForSomeone() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Keeping a Prayer Journal for Others</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 A prayer journal is a simple but powerful tool for intercessory prayer. Keep a list of the people you are praying for and their specific needs. Review it regularly — daily if possible. Note when prayers are answered, even partially. This practice does several things: it keeps your intercession specific and consistent, it builds faith as you see God's responses over time, and it deepens your love for the people you are praying for.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 Some Catholics organize their prayer journal by day of the week: Monday for family, Tuesday for friends, Wednesday for those who have asked for prayer, Thursday for enemies and difficult relationships, Friday for the sick and dying, Saturday for the souls in purgatory, Sunday for the Church and the world. This structure ensures that no one falls through the cracks.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Say When Someone Asks You to Pray for Them</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 When someone asks you to pray for them, the most powerful response is to pray with them right then and there — not to promise to pray later and forget. A simple, spontaneous prayer in the moment is more powerful than a well-intentioned promise that never gets fulfilled.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 You might say: "Can I pray for you right now?" Most people — even non-believers — will say yes. Then pray simply and directly: "Lord, I bring [name] before You. They are struggling with [situation]. I ask for Your help, Your healing, Your peace. Amen." It doesn't need to be eloquent. It needs to be sincere.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 If you cannot pray in the moment, write the person's name and need in your prayer journal immediately — before you forget. And follow up: let them know you prayed for them. This simple act of accountability deepens both the relationship and the prayer.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">A Simple Intercessory Prayer</h3>

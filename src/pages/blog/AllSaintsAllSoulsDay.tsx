@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AllSaintsAllSoulsDay() {
   return (
@@ -64,35 +65,35 @@ export default function AllSaintsAllSoulsDay() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 In a culture that increasingly avoids the reality of death, the Catholic Church does something countercultural in early November: it spends two full days contemplating death, the afterlife, and the destiny of the human soul. Far from being morbid, these days are among the most hopeful in the entire liturgical year — because they are rooted in the Christian conviction that death is not the end.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">All Saints Day: November 1</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">What Is All Saints Day?</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 All Saints Day (also called the Solemnity of All Saints) is a Holy Day of Obligation in the Catholic Church, celebrated on November 1. On this day, the Church honors all the saints in heaven — not just the canonized saints with their own feast days, but all the souls who have reached the fullness of eternal life with God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 The Church teaches that there are countless saints in heaven whose names we do not know — ordinary men and women who lived holy lives and now enjoy the beatific vision. All Saints Day is their feast day.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">History of All Saints Day</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 The origins of All Saints Day go back to the early Church. As the number of martyrs grew, the Church began to celebrate a common feast for all martyrs. By the 4th century, this feast was celebrated in various places on different dates.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 In 609 or 610, Pope Boniface IV consecrated the Pantheon in Rome as a Christian church dedicated to the Virgin Mary and all the martyrs. This is often cited as the origin of All Saints Day. In 835, Pope Gregory IV extended the feast to the universal Church and fixed it on November 1.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 The connection to Halloween (October 31) is significant: "Halloween" is a contraction of "All Hallows' Eve" — the evening before All Hallows' Day (All Saints Day). The secular celebration of Halloween has largely lost its Catholic roots, but the original meaning was a vigil of prayer and preparation for the great feast of the saints.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Why Do We Honor the Saints?</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 Catholics honor the saints for several reasons:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>They are our models.</strong> The saints show us that holiness is possible — that ordinary human beings, with all their weaknesses and failures, can be transformed by God's grace into images of Christ.</li>
                 <li><strong>They are our intercessors.</strong> The saints in heaven are alive in God and can pray for us. Just as we ask friends on earth to pray for us, we ask the saints to intercede for us before God.</li>
@@ -117,36 +118,36 @@ export default function AllSaintsAllSoulsDay() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">All Souls Day: November 2</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">What Is All Souls Day?</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 All Souls Day (the Commemoration of All the Faithful Departed) is celebrated on November 2. On this day, the Church prays specifically for the souls of the faithful departed — those who have died in God's grace but are still being purified in Purgatory before entering heaven.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 While All Saints Day celebrates those who have already reached heaven, All Souls Day focuses on those who are on the way — the "Church Suffering" or "Church Purifying," as they are sometimes called.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Catholic Teaching on Purgatory</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 To understand All Souls Day, you need to understand the Catholic teaching on Purgatory. The Church teaches that those who die in God's grace but are not yet fully purified undergo a process of purification after death before entering heaven. This process is called Purgatory.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 Purgatory is not a second chance at salvation — it is a purification of those who are already saved. It is the final cleansing of the soul from the effects of sin, so that the soul can enter the perfect holiness of heaven.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 The biblical basis for praying for the dead includes 2 Maccabees 12:46 ("It is therefore a holy and wholesome thought to pray for the dead, that they may be loosed from sins") and 1 Corinthians 3:15 (which speaks of being "saved, but only as through fire").
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">How Our Prayers Help the Dead</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 The Church teaches that the prayers of the living can genuinely help the souls in Purgatory — shortening their purification and hastening their entry into heaven. This is one of the most beautiful expressions of the Communion of Saints: the living and the dead are united in prayer, and our love for those who have died can actually help them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 The most powerful prayer for the dead is the Mass. Having a Mass offered for a deceased person is the greatest gift you can give them. You can also pray the Rosary, the Divine Mercy Chaplet, or the De Profundis (Psalm 130) for the souls in Purgatory.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Plenary Indulgence for the Dead</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 The Church grants a plenary indulgence (the complete remission of temporal punishment due to sin) applicable to the souls in Purgatory during the first eight days of November (November 1-8). To gain this indulgence, you must:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Visit a cemetery and pray for the dead (on any day from November 1-8)</li>
                 <li>Receive Holy Communion</li>
@@ -166,9 +167,9 @@ export default function AllSaintsAllSoulsDay() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Days of the Dead: Hallowtide</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 October 31, November 1, and November 2 together form what is sometimes called "Hallowtide" — the three-day celebration of the dead in the Catholic tradition. These three days form a beautiful theological unity:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>October 31 (All Hallows' Eve / Halloween):</strong> The vigil — a time of preparation and, in the Catholic tradition, a reminder of the reality of evil and death.</li>
                 <li><strong>November 1 (All Saints Day):</strong> The triumph — celebrating all those who have conquered death and now live in God's presence.</li>

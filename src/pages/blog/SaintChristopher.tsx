@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintChristopher() {
   return (
@@ -64,48 +65,48 @@ export default function SaintChristopher() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 Saint Christopher is one of the most popular saints in the Catholic Church, yet he is also one of the most mysterious. The historical evidence for his existence is limited, and in 1969 the Catholic Church removed his feast from the universal calendar — a decision that caused considerable controversy. Yet devotion to Christopher has never waned. Millions of Catholics continue to wear his medal and invoke his protection on their journeys.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 This guide explores what we know about Christopher, the beautiful legend that made him famous, the meaning of his medal, and why his veneration remains meaningful for Catholics today.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Historical Evidence</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 The historical evidence for Saint Christopher is sparse. What we know with reasonable certainty is that a martyr named Christopher was venerated in the early Church, particularly in the Eastern Church. He is mentioned in early martyrologies (lists of martyrs) and was venerated in Lycia (modern Turkey) from at least the 4th century.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 The name "Christopher" means "Christ-bearer" in Greek (Christos + phoros). This name — and its meaning — became the seed from which the famous legend grew.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 In 1969, Pope Paul VI's revision of the Roman Calendar moved Christopher from the universal calendar to the local calendar — meaning his feast is no longer celebrated universally, but can still be celebrated in dioceses and regions where devotion to him is strong. This was not a "de-canonization" — the Church cannot un-canonize a saint. It was simply a recognition that the historical evidence for Christopher is limited.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Legend of Saint Christopher</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 The legend of Christopher, developed in the Middle Ages, is one of the most beautiful and theologically rich stories in hagiography. It exists in many versions, but the core narrative is this:
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 Christopher was a giant of a man — some versions say he was 12 feet tall — who wanted to serve the greatest king in the world. He first served a powerful earthly king, but when he saw that king flinch at the mention of the devil, he left to serve the devil instead. But when he saw the devil cower at the sight of a cross, he left to serve Christ — the one whom even the devil feared.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 A hermit told Christopher that the best way to serve Christ was to use his great strength to carry travelers across a dangerous river. Christopher agreed and spent his days carrying people across the water.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 One night, a small child asked to be carried across. Christopher lifted the child onto his shoulders and stepped into the river. But with each step, the child grew heavier and heavier — until Christopher felt as if he were carrying the weight of the entire world. He barely made it to the other side.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 When he set the child down, he said: "Child, you have put me in the greatest danger. I do not think the whole world could have been as heavy on my shoulders as you were."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 The child replied: "You had on your shoulders not only the whole world but Him who made it. I am Christ your king, whom you are serving by this work." The child then disappeared.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theological Meaning of the Legend</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 The legend of Christopher is a profound meditation on Christian service. Several themes stand out:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Serving Christ in the poor and vulnerable.</strong> Jesus said: "Whatever you did for one of the least of these brothers and sisters of mine, you did for me" (Matthew 25:40). Christopher discovered Christ in the child he was carrying — just as we discover Christ in those we serve.</li>
                 <li><strong>The weight of the world.</strong> The child's weight represents the weight of human sin and suffering that Christ bore on the cross. Christopher's struggle to carry the child is an image of Christ's struggle to carry the cross.</li>
@@ -119,15 +120,15 @@ export default function SaintChristopher() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Saint Christopher Medal</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 The Saint Christopher medal is one of the most popular Catholic sacramentals. It typically depicts Christopher carrying the Christ child on his shoulders, often with a staff and a river in the background. The medal is worn or carried as a sign of devotion and a request for Christopher's protection on journeys.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 The medal is especially popular among drivers, sailors, pilots, and travelers of all kinds. Many Catholics attach a Christopher medal to their car dashboard or keychain as a reminder to pray for safe travel and to invoke Christopher's intercession.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 A sacramental is not a magic charm — it does not automatically protect the wearer. Its power comes from the faith and devotion of the person who uses it, and from the intercession of the saint it represents. The Christopher medal is a reminder to pray, to trust in God's protection, and to invoke the intercession of a saint who devoted his life to helping others on their journeys.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Patronages of Saint Christopher</h2>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
@@ -149,12 +150,12 @@ export default function SaintChristopher() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Still Venerate Christopher</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 Despite the removal of his feast from the universal calendar, devotion to Christopher remains strong — and for good reason. The legend of Christopher, even if not historically verifiable in every detail, contains profound spiritual truth. It is a story about finding Christ in service, about the weight of love, and about the dignity of ordinary work done for God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 The Church has always recognized that legends and stories can convey spiritual truth even when they cannot be verified historically. The legend of Christopher has inspired millions of Christians to see their ordinary service — carrying others, helping travelers, doing the hard and unglamorous work of love — as a participation in Christ's own mission.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

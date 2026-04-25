@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintDymphnaMentalHealth() {
   return (
@@ -76,19 +77,19 @@ export default function SaintDymphnaMentalHealth() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dymphna-mental-health">
                 For centuries, the shrine of Saint Dymphna in Gheel, Belgium, has been a place of pilgrimage for those seeking relief from "illnesses of the mind." Unlike many medieval shrines that were fearful of mental illness, the community of Gheel developed a revolutionary model of "boarding" patients with local families—a tradition that continues to this day, inspired by St. Dymphna's charity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Story of Saint Dymphna
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dymphna-mental-health">
                 Dymphna was the daughter of a pagan Irish king named Damon and a beautiful Christian mother. After her mother died, King Damon was driven to madness by his grief. His advisors suggest he marry his own daughter because she resembled her mother. 
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dymphna-mental-health">
                 Dymphna fled with her confessor, Father Gerebernus, to Belgium. They settled in Gheel, where Dymphna used her wealth to build a hospital for the poor and the ill. However, her father eventually found them. When Dymphna refused his demands, he ordered the execution of Father Gerebernus and, in a final fit of rage, beheaded Dymphna himself. She was only 15 years old.
-              </p>
+              </LinkedText>
 
               <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6 mb-8">
                 <h3 className="font-bold text-text mb-3 flex items-center gap-2">
@@ -103,12 +104,12 @@ export default function SaintDymphnaMentalHealth() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Catholics Turn to Her for Anxiety
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dymphna-mental-health">
                 Mental illness is not a sign of a "lack of faith." Just as a person can have a broken leg, a person can have a struggle within their brain or emotions. Saint Dymphna is a reminder that God the Church sees the suffering of the mind as deeply worthy of care and spiritual attention.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dymphna-mental-health">
                 Many find that asking for St. Dymphna's intercession helps to:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-8">
                 <li><strong>Remove the Stigma:</strong> Knowing a saint shared this patronate validates the struggle.</li>
                 <li><strong>Provide a Focusing Point:</strong> In the chaos of an anxiety attack, a short prayer to St. Dymphna can be a grounding exercise.</li>
@@ -124,9 +125,9 @@ export default function SaintDymphnaMentalHealth() {
                 <ShieldCheck className="w-6 h-6 text-accent" />
                 The Heritage of Gheel: A Model of Care
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dymphna-mental-health">
                 The town of Gheel, where Dymphna was martyred, is unique in Europe. For 800 years, the residents have taken mentally ill patients into their own homes as "boarders." This model of radical inclusion and love is seen as the direct fruit of St. Dymphna's intercession, showing that the best medicine for the mind is often a loving community.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed">

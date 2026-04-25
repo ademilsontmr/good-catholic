@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TheMemorarePrayer() {
   return (
@@ -76,12 +77,12 @@ export default function TheMemorarePrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 There is a prayer that has been whispered in hospital rooms, prayed in foxholes, recited in moments of desperation and moments of quiet devotion. It begins with a bold claim — "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided" — and ends with a humble plea for mercy. This is the Memorare, and for centuries it has been the prayer Catholics turn to when they need a mother's help.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 The Memorare is short enough to memorize in minutes, yet deep enough to sustain a lifetime of prayer. It is a prayer of absolute confidence in Mary's intercession — not because Mary is God, but because she is the Mother of God, and a mother's prayer for her children is uniquely powerful. As St. Bernard of Clairvaux, to whom the prayer is often attributed, wrote: "She is the Mother of Mercy, and her mercy surpasses all our sins."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Full Text of the Memorare
@@ -111,15 +112,15 @@ export default function TheMemorarePrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The History of the Memorare
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 The Memorare has a fascinating and somewhat complex history. The prayer is traditionally attributed to St. Bernard of Clairvaux (1090–1153), the great Cistercian monk and Doctor of the Church who was renowned for his tender devotion to the Virgin Mary. However, modern scholars believe the prayer in its current form dates from the 15th century, possibly derived from a longer prayer by St. Bernard.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 The prayer gained widespread popularity in the 17th century through the efforts of Father Claude Bernard (1588–1641), a French priest known as "the poor priest" for his ministry to prisoners and the condemned. Father Bernard distributed thousands of copies of the Memorare throughout France and credited the prayer with miraculous conversions and healings. He reportedly prayed it 50 times a day.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 The prayer spread rapidly through the Catholic world and became especially popular in the United States through the influence of Irish and Italian immigrants who brought their Marian devotions with them. Today, the Memorare is one of the most recognized Catholic prayers in America, taught to children in Catholic schools and prayed by Catholics of all ages.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Word-by-Word Reflection on the Memorare
@@ -128,40 +129,40 @@ export default function TheMemorarePrayer() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "Remember, O most gracious Virgin Mary..."
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 The prayer opens with an appeal to Mary's memory — as if she could forget her children! This is a rhetorical device of love, like a child saying to a mother, "Remember how much you love me." It acknowledges Mary's role as our spiritual mother and her constant awareness of our needs.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "...that never was it known that anyone who fled to thy protection was left unaided"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 This is the bold claim at the heart of the Memorare — a claim based on centuries of Catholic experience. The prayer does not say Mary always gives us what we ask for, but that she never leaves us unaided. Her help may come in unexpected ways, but it always comes. This is the confidence that has sustained Catholics through wars, famines, illness, and every kind of suffering.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "Inspired by this confidence, I fly unto thee..."
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 The word "fly" is significant — it suggests urgency, desperation, the flight of a child to a mother's arms. We don't walk calmly to Mary; we run to her. This is the posture of the Memorare: not formal petition, but the urgent cry of a child who needs help now.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "O Mother of the Word Incarnate, despise not my petitions"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 "Mother of the Word Incarnate" is one of the most theologically rich titles for Mary. She is not just the mother of Jesus the man, but the mother of the eternal Word of God who became flesh. This title grounds Mary's intercession in the deepest mystery of the faith: the Incarnation. Because she is the Mother of God, her intercession carries unique weight before the throne of her Son.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Famous Stories of the Memorare
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 One of the most famous stories associated with the Memorare involves Father Patrick Peyton, CSC — the "Rosary Priest" — who was dying of tuberculosis as a young seminarian in 1939. His sister suggested he pray the Memorare. He did, with complete trust, and was miraculously healed. He went on to found the Family Rosary Crusade and coined the phrase "The family that prays together stays together."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 During World War II, countless soldiers carried the Memorare in their pockets. Many reported praying it in the moments before battle or when wounded. The prayer became a touchstone of Catholic military chaplaincy, connecting soldiers to their faith and to the Mother of God in the most desperate moments of their lives.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 When to Pray the Memorare

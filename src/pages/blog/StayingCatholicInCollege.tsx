@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StayingCatholicInCollege() {
   return (
@@ -60,17 +61,17 @@ export default function StayingCatholicInCollege() {
             </div>
             <div className="prose prose-lg max-w-none">
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 You have spent your whole life in a Catholic family, attending Catholic school or religious education, going to Mass on Sundays. And now you are heading to college — perhaps for the first time away from home, surrounded by people who do not share your faith, in an environment that may actively challenge everything you believe. This is a critical moment. The decisions you make in the next four years about your faith will shape the rest of your life. This guide is designed to help you make the right ones.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Challenge: Why College Is a Critical Period</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 The statistics are sobering. Studies consistently show that a significant percentage of young Catholics who leave the faith do so during or shortly after college. The reasons are multiple and interconnected: intellectual challenges to faith, social pressure, moral temptation, the absence of family and parish community, and the simple fact of being on your own for the first time.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 College presents three distinct categories of challenge to Catholic faith:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4">
                 <strong>Intellectual challenges:</strong> Professors who present secular philosophy, evolutionary biology, historical criticism of the Bible, or other disciplines in ways that seem to contradict Catholic faith. The implicit message of much of secular academia is that intelligent, educated people do not believe in God.
               </p>
@@ -80,45 +81,45 @@ export default function StayingCatholicInCollege() {
               <p className="text-text leading-relaxed mb-6">
                 <strong>Structural challenges:</strong> Without the structure of family life — Sunday Mass with your parents, grace before meals, family prayer — it is easy to let your faith practices slip. No one is making you go to Mass. No one is reminding you to pray. The discipline of faith must become your own.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 But here is the good news: college can also be one of the most spiritually formative periods of your life. Many of the greatest Catholic thinkers, saints, and leaders had their faith deepened — not weakened — by their encounter with the intellectual and moral challenges of higher education. The key is preparation and intentionality.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Find Your Catholic Community Immediately</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 This is the single most important piece of advice in this guide. Find your Catholic community before the first week of classes is over. Do not wait. Do not tell yourself you will get around to it. Go immediately.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 The reason is simple: you become like the people you spend time with. If your social circle consists entirely of people who do not practice the faith, your faith will be under constant pressure. If your social circle includes faithful Catholics who are living the faith joyfully and seriously, your faith will be strengthened and supported.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Most colleges and universities have a Newman Center — a Catholic campus ministry center named after Blessed John Henry Newman, the great 19th-century Catholic intellectual. Newman Centers typically offer daily Mass, weekly events, Bible studies, service opportunities, and a community of Catholic students. Find yours and get involved.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 If your school has a FOCUS (Fellowship of Catholic University Students) chapter, get involved with that as well. FOCUS missionaries are trained to help college students grow in their faith and to form intentional Catholic communities on campus.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Find a Good Parish</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 The Newman Center is important, but it is not a substitute for a parish. Find a parish near your campus where you can be rooted — where you can attend Sunday Mass, receive the sacraments, and be part of a broader Catholic community that includes families, elderly parishioners, and people of all ages.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Sunday Mass is not optional. The Church's teaching is clear: Catholics are obligated to attend Mass on Sundays and holy days of obligation (CCC 2180-2182). Missing Mass without a serious reason is a grave sin. Do not let the freedom of college life become an excuse to skip Mass. Make it a non-negotiable part of your week.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 If you are struggling to find a good parish, ask the Newman Center chaplain for recommendations. Look for a parish where the Mass is celebrated reverently, where the homilies are substantive, and where there is a genuine community of faith.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Go to Confession Regularly</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 College is a time of moral temptation. You will face pressures and situations that you have never encountered before. You will make mistakes. The Sacrament of Confession is the Church's gift for exactly this situation — a place where you can bring your sins, receive God's forgiveness, and start fresh.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 The Church recommends going to Confession at least once a year (CCC 1457), but for a college student navigating the moral challenges of campus life, monthly Confession is a much better practice. Many Newman Centers offer Confession weekly. Take advantage of it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Do not let shame or embarrassment keep you away from the confessional. The priest is bound by the seal of confession — he cannot reveal anything you tell him. And he has heard it all before. The confessional is a place of mercy, not judgment.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How strong is your Catholic faith foundation?"
@@ -126,29 +127,29 @@ export default function StayingCatholicInCollege() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Build a Daily Prayer Habit</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Your relationship with God requires daily attention, just like any other relationship. Without a daily prayer habit, your faith will gradually weaken — not through any dramatic crisis, but through slow neglect.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Start small if you need to. Even 10 minutes of prayer in the morning — a morning offering, the daily Mass readings, a decade of the Rosary — is enough to keep the connection alive. As you grow in your faith, you can expand your prayer life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Consider attending daily Mass when your schedule permits. Many Newman Centers offer daily Mass at times convenient for students. Daily Mass is one of the most powerful spiritual practices available to Catholics — it keeps you connected to Christ in the Eucharist and provides a daily anchor for your spiritual life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 The Hallow app is an excellent resource for Catholic prayer — it offers guided meditations, the Rosary, the Liturgy of the Hours, and many other prayer resources in a format designed for busy people.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Know Your Faith: Catholic Apologetics</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 One of the most common reasons young Catholics leave the faith in college is that they encounter intellectual challenges they are not prepared to answer. A professor dismisses the existence of God. A classmate challenges the historicity of the Resurrection. A philosophy course presents arguments against free will or the soul. If you have never thought through these questions, you may feel that your faith has been refuted.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 The solution is to know your faith. The Catholic intellectual tradition is the richest in human history — 2,000 years of the greatest minds in Western civilization engaging with the deepest questions of existence. You do not need to be a theologian, but you do need to know enough to hold your ground.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Start with these authors and resources:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>G.K. Chesterton:</strong> <em>Orthodoxy</em> and <em>The Everlasting Man</em> — brilliant, witty defenses of Christianity</li>
                 <li><strong>Peter Kreeft:</strong> <em>Handbook of Catholic Apologetics</em> — clear, logical answers to common objections</li>
@@ -158,48 +159,48 @@ export default function StayingCatholicInCollege() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Choose Your Friends Wisely</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 St. Paul warned: "Do not be deceived: 'Bad company ruins good morals'" (1 Corinthians 15:33). This is not a call to be judgmental or to avoid non-Catholics. It is a recognition of a simple truth: the people you spend the most time with will shape who you become.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 You can and should have friends who are not Catholic. But your closest friends — the people you spend the most time with, who influence your values and your choices — should include people who share your faith and who will support you in living it. Find those people at the Newman Center, at Mass, at FOCUS events.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Be especially careful about romantic relationships. Dating someone who does not share your faith — or who actively opposes it — is one of the most common ways that young Catholics drift from the Church. The Church's teaching on marriage requires that both parties be free to practice their faith. A relationship that requires you to compromise your faith is not a healthy relationship.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Navigate the Intellectual Challenges</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 When a professor challenges your faith, do not panic. Remember that the Catholic Church has the greatest intellectual tradition in human history. The faith has been challenged by brilliant minds for 2,000 years — and it is still here. Your professor's objection is almost certainly not new, and it almost certainly has a good answer.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Some practical strategies: Take notes on the specific objection. Look it up in Catholic Answers or Word on Fire. Bring it to your Newman Center chaplain or a FOCUS missionary. Read a Catholic response. You will almost always find that the objection has been answered — often many times, by thinkers far more brilliant than your professor.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Remember also that faith and reason are not enemies. The Church has always taught that faith and reason are complementary — that the same God who created the universe also gave us our rational minds, and that genuine science and genuine faith cannot ultimately contradict each other. The apparent conflicts between science and faith are almost always the result of misunderstanding one or both.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Navigate the Social Challenges</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 The social challenges of college — parties, alcohol, sexual pressure — are real and serious. The Church's teaching on chastity is countercultural, and living it in a college environment requires genuine courage and practical strategies.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 On alcohol: The Church does not prohibit the moderate consumption of alcohol by adults. But drunkenness is a sin (CCC 2290), and the college drinking culture often involves far more than moderate consumption. Know your limits. Do not put yourself in situations where you are likely to make decisions you will regret.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 On sexual pressure: The Church's teaching on chastity — that sexual intercourse belongs within marriage — is not a burden but a gift. It protects you from the emotional, physical, and spiritual harm that comes from sexual activity outside of marriage. Be clear about your values before you are in a situation where you are under pressure. Have a plan. Know what you will say. And surround yourself with friends who will support you in living chastely.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Do If You've Drifted</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Maybe you are reading this and you have already drifted. You have not been to Mass in months. You have been living in ways that are not consistent with your faith. You feel distant from God and from the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 Here is the most important thing you need to know: it is not too late. God's mercy is infinite. The Church is waiting for you with open arms. The prodigal son's father ran to meet him while he was still a long way off (Luke 15:20). God will do the same for you.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 The first step is Confession. Go to a priest — at the Newman Center, at a local parish, anywhere — and make a good Confession. You do not need to have everything figured out. You just need to take the first step. God will do the rest.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">

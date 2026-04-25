@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicBibleVerses() {
   return (
@@ -64,12 +65,12 @@ export default function CatholicBibleVerses() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">
                 Memorizing Scripture is one of the most powerful spiritual practices a Catholic can develop. When you know key Bible verses by heart, you carry the Word of God with you everywhere — available for prayer, for comfort in difficulty, for defense against temptation, and for sharing your faith with others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">
                 This collection of 50 essential Catholic Bible verses is organized by theme. All quotations are from the RSV-CE (Revised Standard Version — Catholic Edition).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">On God's Love</h2>
               <div className="space-y-4 mb-8">

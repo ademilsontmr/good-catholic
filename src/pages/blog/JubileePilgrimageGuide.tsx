@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function JubileePilgrimageGuide() {
   return (
@@ -77,33 +78,33 @@ export default function JubileePilgrimageGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
                 The Holy Year 2025 has concluded, but the pilgrimage of hope continues. The graces of the Jubilee extend beyond the closing of the Holy Doors. Discover how to maintain the Jubilee spirit and continue your pilgrimage of faith.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Jubilee Year: A Time of Grace
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               Pope Francis opened the Jubilee 2025 with the theme "Pilgrims of Hope," inviting the entire Church to journey toward greater faith, hope, and charity. The Holy Year featured the opening of Holy Doors in Rome and dioceses worldwide, symbolizing Christ as the door to salvation.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               But as Pope Francis reminds us, the closing of the Holy Doors in December 2025 is not an ending but a new beginning. The Christian pilgrimage never truly ends until we reach our heavenly home.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What Is a Pilgrimage?
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               Pilgrimage is an ancient Christian practice of journeying to a holy place. But more than physical travel, pilgrimage represents the spiritual journey of life itself. We are all pilgrims—strangers and sojourners on earth—heading toward our true home with God.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Physical Pilgrimages
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               Traditional Catholic pilgrimages include journeys to:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Rome:</strong> The Eternal City, tombs of St. Peter and St. Paul</li>
               <li><strong>Lourdes:</strong> Where Our Lady appeared to St. Bernadette</li>
@@ -116,9 +117,9 @@ export default function JubileePilgrimageGuide() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Spiritual Pilgrimage
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               Even if you cannot travel far, every Catholic can be a pilgrim. Daily life becomes pilgrimage when lived with intention:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Walking to church for Mass</li>
               <li>Making a holy hour before the Blessed Sacrament</li>
@@ -130,9 +131,9 @@ export default function JubileePilgrimageGuide() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Continuing Jubilee Indulgences
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               While the special Jubilee indulgences have concluded, the Church offers indulgences year-round. These include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Reading Sacred Scripture for at least 30 minutes</li>
               <li>Making the Way of the Cross</li>
@@ -148,9 +149,9 @@ export default function JubileePilgrimageGuide() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Hope in Daily Life
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               The Christian virtue of hope is not optimism—it's confidence in God's promises despite circumstances. Pilgrims of hope:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Trust in God's providence during difficulties</li>
               <li>Maintain peace amid uncertainty</li>
@@ -162,9 +163,9 @@ export default function JubileePilgrimageGuide() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Pilgrim Practices
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               Maintain Jubilee practices in daily life:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Weekly confession (if possible)</li>
               <li>Corporal and spiritual works of mercy</li>
@@ -176,9 +177,9 @@ export default function JubileePilgrimageGuide() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Planning Your Pilgrimage
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
               If you can make a pilgrimage in 2026 or beyond, consider:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Local options:</strong> Shrines within driving distance</li>
               <li><strong>Group pilgrimages:</strong> Parishes often organize trips</li>

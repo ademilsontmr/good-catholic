@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMarriagePreparation() {
   return (
@@ -77,19 +78,19 @@ export default function CatholicMarriagePreparation() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
                 Preparing for marriage in the Catholic Church involves more than choosing flowers and venues. It requires spiritual formation, practical preparation, and understanding the sacramental nature of this lifelong commitment.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Starting the Process: Contact Your Parish
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               Begin by contacting your parish at least six months before your desired wedding date—earlier if possible. The Church requires time for proper preparation, and popular dates book quickly. Your pastor or deacon will guide you through the required steps.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               If you and your fiancé belong to different parishes, you typically marry in the bride's parish (though this is flexible). If neither of you is Catholic, you may marry in the Catholic party's parish or another parish with permission.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Requirements for Valid Catholic Marriage
@@ -98,56 +99,56 @@ export default function CatholicMarriagePreparation() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Freedom to Marry
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               Both parties must be free to marry—neither previously married (unless an annulment has been granted), no prior vows of celibacy, and both must be capable of consenting. The Church investigates any previous marriages to ensure freedom.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Baptismal Status
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               For a sacramental marriage, both parties must be baptized Christians. If one party is unbaptized, the marriage is valid but not sacramental until the unbaptized person receives baptism. The Church may require baptismal certificates from both parties.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Openness to Children
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               Couples must be open to children and willing to raise them in the Catholic faith. This doesn't mean you must have children (though the Church hopes you will), but you cannot actively exclude children from your marriage.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Pre-Cana or Marriage Preparation Program
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               All couples must complete a marriage preparation program. Options include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Pre-Cana:</strong> A one-day intensive course offered by many dioceses</li>
               <li><strong>Engaged Encounter:</strong> A weekend retreat experience with other couples</li>
               <li><strong>Sponsor couple programs:</strong> Meeting with an established Catholic couple</li>
               <li><strong>Online options:</strong> Some dioceses accept approved online programs</li>
             </ul>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               These programs cover communication, conflict resolution, finances, sexuality, Natural Family Planning, and the spirituality of marriage. They're not just requirements—they provide valuable tools for married life.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Natural Family Planning (NFP)
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               The Church requires couples to learn NFP as part of marriage preparation. Unlike contraception, NFP cooperates with God's design while spacing children if needed. Modern NFP methods (Creighton, Sympto-Thermal, Marquette) are highly effective and scientifically based.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               NFP classes typically require 2-3 months to learn properly. Start early in your engagement. Even if you plan to conceive immediately, understanding fertility awareness benefits your marriage and health.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Meeting with the Priest or Deacon
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               You'll have several meetings with your officiant to:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Complete the prenuptial investigation (FOCCUS or similar assessment)</li>
               <li>Discuss the theology of marriage as sacrament</li>
@@ -176,9 +177,9 @@ export default function CatholicMarriagePreparation() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Decorations and Customs
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               Different parishes have different rules about flowers, photography, videography, and decorations. Discuss these early with your officiant to avoid conflicts. Remember: the ceremony is worship, not merely a photo opportunity.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Special Circumstances
@@ -187,23 +188,23 @@ export default function CatholicMarriagePreparation() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Mixed Marriages (Catholic and Non-Catholic)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               The Church permits mixed marriages with a dispensation. The Catholic party must promise to remain Catholic and raise children Catholic. The non-Catholic is informed of these promises but is not required to make them. These marriages require pastoral sensitivity.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Previous Marriages
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               If either party was previously married, the Church must investigate whether that marriage was valid. If not, an annulment may be possible. This process takes time—sometimes a year or more—so begin immediately if this applies to you. Do not set a date until the annulment is granted.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Spiritual Preparation
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
               Beyond the practical requirements, prepare spiritually:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Attend Mass together regularly</li>
               <li>Go to confession before the wedding</li>

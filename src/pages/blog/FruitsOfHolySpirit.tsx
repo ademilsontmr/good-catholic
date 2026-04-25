@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FruitsOfHolySpirit() {
   return (
@@ -86,9 +87,9 @@ export default function FruitsOfHolySpirit() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Gifts vs. Fruits — What Is the Difference?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="fruits-of-the-holy-spirit">
                 Understanding the difference between the Gifts and Fruits of the Holy Spirit is essential before exploring each fruit.
-              </p>
+              </LinkedText>
               <div className="overflow-x-auto mb-8">
                 <table className="w-full text-sm border-collapse">
                   <thead>
@@ -108,9 +109,9 @@ export default function FruitsOfHolySpirit() {
                 </table>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="fruits-of-the-holy-spirit">
                 Think of the Gifts as the spiritual root system and the Fruits as the visible harvest. A tree does not produce fruit simply by having good roots — it must be watered, cultivated, and given time to grow. Similarly, the Fruits of the Holy Spirit grow in souls that are nourished by the sacraments, prayer, and cooperation with grace.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-6">
                 The 12 Fruits Explained
@@ -256,9 +257,9 @@ export default function FruitsOfHolySpirit() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Cultivate the Fruits of the Holy Spirit
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="fruits-of-the-holy-spirit">
                 The fruits of the Spirit are not achieved by self-improvement programs. They are supernatural perfections that grow when we create the right conditions and cooperate with grace. Five practical approaches:
-              </p>
+              </LinkedText>
               <ul className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Receive the sacraments frequently.</strong> The Eucharist is the principal source of spiritual growth. Frequent Confession removes the obstacles that prevent the Spirit's fruits from growing. The fruits increase with sanctifying grace — and the sacraments are the privileged channels of that grace.</li>
                 <li><strong>Pray with the Holy Spirit each day.</strong> Begin each morning with the Morning Offering and a simple prayer to the Holy Spirit: "Come, Holy Spirit." At night, review which fruits you showed — and which you failed to show — using the Ignatian Examen.</li>

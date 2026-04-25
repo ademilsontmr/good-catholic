@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PatronSaints() {
   return (
@@ -76,9 +77,9 @@ export default function PatronSaints() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 Devotion to the saints is one of the most beautiful traditions of the Catholic Church. Since the first centuries, Christians venerated those who gave heroic witness to faith, often with their own blood. Patron saints are special intercessors who accompany us on our earthly journey, protecting us and inspiring us with their example of holiness.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Who is your friend in Heaven?"
@@ -88,12 +89,12 @@ export default function PatronSaints() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What is a Patron Saint?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 A patron saint is a saint recognized as a special protector of a person, place, profession, group, or cause. The word "patron" comes from the Latin "patronus," which means "protector" or "defender." When we choose or receive a patron saint, we establish a special spiritual relationship with them, entrusting ourselves to their intercession before God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 This tradition dates back to the first centuries of the Church, when Christians began to invoke martyrs as intercessors. Over time, the practice expanded to include confessors, virgins, doctors of the Church, and all who were canonized. Today, each Catholic can have one or more patron saints who accompany them on their journey of faith.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How Do We Receive a Patron Saint?
@@ -102,30 +103,30 @@ export default function PatronSaints() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 At Baptism
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 The most common time to receive a patron saint is at Baptism. Traditionally, parents choose for their child a saint's name, which becomes their baptismal patron. This saint will accompany the person throughout their life, interceding for them and serving as a model of virtue. Therefore, it is important to know the history and virtues of the saint whose name we bear.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 At Confirmation
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 In the Sacrament of Confirmation, the confirmand chooses a second patron saint. This choice, made more consciously and personally, represents a commitment to follow that saint's example in their adult life of faith. Many choose saints whose virtues they wish to imitate or who faced challenges similar to their own.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Through Personal Devotion
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 In addition to the saints of Baptism and Confirmation, we can develop devotion to other saints throughout life. Often, a saint "chooses us" – we feel a special attraction to their story, their words, or their charism. Others are adopted as patrons of professions, states of life, or specific needs.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Choose a Patron Saint
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 If you are seeking a patron saint, consider these guidelines:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Your name:</strong> Research the saint who bears your baptismal name</li>
                 <li><strong>Your profession:</strong> Many professions have traditional patron saints</li>
@@ -142,30 +143,30 @@ export default function PatronSaints() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Saint Joseph
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 Patron of the Universal Church, workers, families, and a happy death. Husband of Mary and foster father of Jesus, Saint Joseph is a model of silent faith, obedience to God, and dedication to family. He is especially invoked by fathers and those seeking employment.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Saint Thérèse of the Child Jesus
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 Patroness of missions and florists. Her "little way" of love and trust in God inspires millions. She is invoked in impossible causes and often manifests her intercession by sending roses.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Saint Anthony of Padua
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 Patron of lost objects, the poor, and popular matchmaker. Doctor of the Church, famous for his preaching and miracles, he is one of the most invoked saints in the world.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Saint Jude Thaddeus
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 Patron of impossible and desperate causes. Apostle of Christ, he is invoked when all hopes seem lost.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Honor Your Patron Saint
@@ -184,9 +185,9 @@ export default function PatronSaints() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Intercession of Saints
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 When we invoke a saint, we are not worshiping them – worship is due only to God. We are asking for their intercession, just as we ask for prayers from friends and family on earth. The difference is that the saints are in God's presence and their intercession is particularly powerful. As the Book of Revelation teaches, the prayers of the saints rise like incense before God's throne (Rev 8:3-4).
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

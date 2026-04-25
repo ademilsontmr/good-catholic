@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MorningOfferingPrayer() {
   return (
@@ -76,12 +77,12 @@ export default function MorningOfferingPrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 Imagine waking up each morning and, before checking your phone or making coffee, offering your entire day to God. Every meeting, every frustration, every moment of joy — all of it given to Him as a gift. This is the essence of the Morning Offering, one of the most practical and transformative prayers in the Catholic tradition.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 The Morning Offering has been prayed by saints, popes, and ordinary Catholics for centuries. It is the prayer that turns a Monday morning commute into an act of worship, a difficult conversation into a sacrifice united with Christ's Cross, and a moment of joy into a hymn of thanksgiving. When you begin your day with this prayer, you don't just add a religious moment to your schedule — you transform the entire day into a prayer.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Classic Morning Offering (Apostleship of Prayer)
@@ -114,25 +115,25 @@ export default function MorningOfferingPrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The History of the Morning Offering
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 The practice of offering one's day to God has roots in the earliest centuries of Christianity. The Desert Fathers and Mothers of the 3rd and 4th centuries began each day with prayer and the intention to offer all their activities to God. The monastic tradition formalized this through the Liturgy of the Hours, which sanctifies the entire day with prayer at fixed times.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 The specific form of the Morning Offering as we know it today was developed by Father François-Xavier Gautrelet, SJ, in 1844 at the Jesuit scholasticate in Vals, France. He founded the Apostleship of Prayer to unite the prayers and sacrifices of ordinary Catholics with the intentions of the Pope and the universal Church. The Morning Offering became the central prayer of this movement.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 Pope Pius IX approved the Apostleship of Prayer in 1849, and subsequent popes have enthusiastically endorsed it. Today, the Apostleship of Prayer — now known as the Pope's Worldwide Prayer Network — has millions of members in over 90 countries, all united by the daily Morning Offering.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Does It Mean to "Offer" Your Day?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 The theology behind the Morning Offering is rooted in the doctrine of the Mystical Body of Christ. St. Paul writes: "I urge you therefore, brothers, by the mercies of God, to offer your bodies as a living sacrifice, holy and pleasing to God, your spiritual worship" (Romans 12:1). Every baptized Catholic is united to Christ and can participate in His priestly offering.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 When you pray the Morning Offering, you are not just saying a prayer — you are making a priestly act. You are taking everything that will happen in your day and placing it on the altar of your heart, uniting it with the Holy Sacrifice of the Mass being offered around the world. Your morning commute, your work meetings, your family interactions, your moments of suffering — all of it becomes part of the one eternal offering of Christ to the Father.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Practical Tips for Making the Morning Offering a Daily Habit
@@ -141,37 +142,37 @@ export default function MorningOfferingPrayer() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 1. Pray It Immediately Upon Waking
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 The most effective time to pray the Morning Offering is the very first moment of the day — before you check your phone, before you get out of bed. Keep a prayer card on your nightstand or set a reminder on your phone. The goal is to make it the first conscious act of your day.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 2. Memorize a Short Version
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 You don't need to recite the full Apostleship of Prayer version every morning. A short, heartfelt offering — even just "Lord, I offer You this day" — is sufficient. The key is sincerity and consistency, not length.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 3. Renew the Offering Throughout the Day
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 Many saints recommend brief "renewal" prayers throughout the day — a simple "For You, Lord" before beginning a task, or "I offer this to You" when facing a difficulty. These brief moments keep the spirit of the Morning Offering alive throughout the day.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 4. Include Specific Intentions
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 Personalize your Morning Offering by including specific intentions — a sick family member, a difficult situation at work, a friend who has left the faith. This makes the prayer more concrete and connects your daily life to the needs of those around you.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Morning Offering and the Pope's Monthly Intentions
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 One of the beautiful aspects of the Apostleship of Prayer version is its connection to the Pope's monthly prayer intentions. Each month, the Holy Father publishes a specific intention for the universal Church — for peace in a particular region, for the poor, for young people, for the environment. When you pray the Morning Offering, you unite your day with these intentions, becoming part of a global network of prayer.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintVincentDePaul() {
   return (
@@ -64,56 +65,56 @@ export default function SaintVincentDePaul() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Vincent de Paul is one of the most practical saints in the history of the Church. He was not a mystic who spent his days in contemplation (though he was a man of deep prayer). He was an organizer, a fundraiser, a trainer of volunteers, a reformer of the clergy, and a tireless advocate for the poor. He founded two religious congregations and inspired a lay movement that continues to serve the poor in 150 countries today.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 His motto was simple: "Love the poor." But his methods were sophisticated, systematic, and remarkably modern. He understood that charity without organization is ineffective, and that the poor deserve not just alms but dignity, education, and opportunity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life: From Peasant to Priest</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Vincent was born on April 24, 1581, in Pouy (now Saint-Vincent-de-Paul), a small village in Gascony, southwestern France. His family were peasant farmers — poor but devout. From an early age, Vincent showed exceptional intelligence, and his father sacrificed to give him an education.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Vincent was ordained a priest in 1600, at the age of 19 — unusually young, even for that era. His early priesthood was not particularly distinguished. He was ambitious, seeking a comfortable benefice (a church position with income) that would allow him to support his family. He was, by his own later admission, more interested in security than in service.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 The turning point came around 1617. Vincent was serving as a tutor in the household of a noble family when he was called to hear the confession of a dying peasant. The man had been living in serious sin for years, but had never confessed because he was too ashamed. After his confession, he died in peace. The experience shook Vincent to his core. He realized that the poor were spiritually as well as materially abandoned — and that he was called to serve them.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Confraternities of Charity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 In 1617, Vincent organized the first Confraternity of Charity in the village of Châtillon-les-Dombes. He had preached a sermon about a family in desperate need, and the response was overwhelming — so many people brought food that much of it spoiled before it could be used. Vincent realized that good intentions without organization were wasteful.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 He organized the women of the parish into a structured group — the Confraternity of Charity — with specific roles, schedules, and responsibilities. Each member was assigned specific families to visit, specific days to bring food, and specific tasks to perform. This was revolutionary: it transformed charity from a spontaneous impulse into a sustainable system.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 The Confraternities of Charity spread rapidly throughout France. But Vincent noticed a problem: the wealthy ladies who ran the confraternities were often reluctant to do the most menial tasks — washing the sick, cleaning wounds, carrying heavy loads. He needed a different kind of worker.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Daughters of Charity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 In 1633, Vincent and his collaborator Louise de Marillac founded the Daughters of Charity — a congregation of women dedicated to serving the poor. This was a revolutionary innovation in the history of religious life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 At the time, women religious were required to live in enclosed convents. Vincent and Louise created something new: women who lived in community but went out into the streets, hospitals, and homes of the poor. Their convent was "the house of the sick; their cell, a hired room; their chapel, the parish church; their cloister, the streets of the city."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 The Daughters of Charity became the largest congregation of women religious in the world. Today they serve in hospitals, schools, orphanages, and social service agencies in over 90 countries.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Congregation of the Mission (Vincentians)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 In 1625, Vincent founded the Congregation of the Mission — also known as the Vincentians or Lazarists. This was a congregation of priests dedicated to two works: preaching missions to the rural poor, and training seminarians for the priesthood.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 The rural poor of 17th-century France were spiritually abandoned. Many had never heard a proper sermon, never made a good confession, never received adequate religious instruction. Vincent's missionaries traveled from village to village, preaching, hearing confessions, and teaching the faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 The seminary work was equally important. Vincent recognized that the poverty of the poor was partly the result of the poverty of the clergy — priests who were poorly trained, poorly motivated, and poorly supported. He established seminaries and retreat houses to form priests who would truly serve their people.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your Catholic life of service?"
@@ -121,9 +122,9 @@ export default function SaintVincentDePaul() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Vincent's Works of Charity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 The scope of Vincent's charitable works was extraordinary:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Galley slaves:</strong> Vincent served as royal chaplain to the galley slaves — men condemned to row the king's ships in horrific conditions. He worked to improve their conditions and minister to their spiritual needs.</li>
                 <li><strong>Foundlings:</strong> Vincent organized the care of abandoned infants — a massive problem in 17th-century Paris. He raised funds, recruited wet nurses, and established homes for foundlings.</li>
@@ -134,23 +135,23 @@ export default function SaintVincentDePaul() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Society of Saint Vincent de Paul</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 In 1833 — nearly two centuries after Vincent's death — a young French student named Frédéric Ozanam founded the Society of Saint Vincent de Paul in Paris. Inspired by Vincent's example, Ozanam and his friends organized to visit and serve the poor of Paris.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Today the Society of Saint Vincent de Paul is one of the largest Catholic lay organizations in the world, with over 800,000 members in 150 countries. Members visit the poor in their homes, provide food, clothing, and financial assistance, and offer friendship and dignity to those in need.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Frédéric Ozanam was beatified by Pope John Paul II in 1997 and is on the path to canonization.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Death and Canonization</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Vincent died on September 27, 1660, in Paris, at the age of 79. He had spent the last years of his life in increasing physical weakness, but continued to direct his works of charity until the end.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 He was beatified in 1729 and canonized in 1737 by Pope Clement XII. In 1885, Pope Leo XIII declared him the patron of all charitable societies. His feast day is September 27.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">
@@ -160,15 +161,15 @@ export default function SaintVincentDePaul() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Vincent's Spirituality</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Vincent's spirituality was rooted in a simple conviction: Christ is present in the poor. "The poor are our masters," he said. "We must love them tenderly." This was not sentimentality — it was theology. Vincent believed that serving the poor was literally serving Christ (Matthew 25:40).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 His five core virtues — simplicity, humility, meekness, mortification, and zeal for souls — formed the foundation of Vincentian spirituality. These virtues were not abstract ideals but practical tools for effective service.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Vincent also insisted that charity must be accompanied by justice. It is not enough to give alms — we must work to change the conditions that create poverty. This insight, radical in his time, has become a cornerstone of Catholic social teaching.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

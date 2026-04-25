@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToReadBible() {
   return (
@@ -77,16 +78,16 @@ export default function HowToReadBible() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
                 The Bible is the inspired Word of God—but knowing how to approach it makes the difference between fruitful reading and frustration. This guide offers practical methods for Catholics to encounter Scripture in ways that deepen faith and transform lives.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Catholic Approach to Scripture
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               Catholics read Scripture within the living Tradition of the Church and under the guidance of the Magisterium. The Catechism teaches that Scripture must be read "in the same Spirit in which it was written" (CCC 137). This means:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Reading with faith, not just as historical text</li>
               <li>Interpreting within the Church's Tradition</li>
@@ -97,16 +98,16 @@ export default function HowToReadBible() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Catholic Bible: What Makes It Different
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               The Catholic Bible contains 73 books—7 more than Protestant Bibles. These deuterocanonical books (Tobit, Judith, Wisdom, Sirach, Baruch, 1-2 Maccabees) were part of the Septuagint, the Greek Bible Jesus and the apostles used. The Council of Trent (1546) affirmed their canonicity.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Approved Catholic Translations
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               The Church approves translations that include the deuterocanonical books and are faithful to the original languages. Recommended versions include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Revised Standard Version - Catholic Edition (RSV-CE):</strong> Highly accurate, excellent for study</li>
               <li><strong>New American Bible (NAB):</strong> Used in U.S. liturgies, readable and accessible</li>
@@ -121,9 +122,9 @@ export default function HowToReadBible() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Lectio Divina: Sacred Reading
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               This ancient monastic practice involves four stages:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Lectio (Reading):</strong> Slowly read the passage, listening for a word or phrase that stands out</li>
               <li><strong>Meditatio (Meditation):</strong> Reflect on what God is saying through that word</li>
@@ -134,9 +135,9 @@ export default function HowToReadBible() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Inductive Bible Study
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               Ask three questions of any passage:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Observation:</strong> What does the text say? (Who, what, when, where, why)</li>
               <li><strong>Interpretation:</strong> What does it mean? (Context, original audience, main point)</li>
@@ -146,9 +147,9 @@ export default function HowToReadBible() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Reading Plans
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               Different approaches suit different seasons:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Chronological:</strong> Read events in historical order</li>
               <li><strong>Thematic:</strong> Study topics like prayer, mercy, or covenant</li>
@@ -160,25 +161,25 @@ export default function HowToReadBible() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Where to Begin Reading
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               For beginners, start with:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Gospels:</strong> Meet Jesus first (start with Mark or Luke)</li>
               <li><strong>Psalms:</strong> The Church's prayer book</li>
               <li><strong>Genesis and Exodus:</strong> Foundation stories of salvation</li>
               <li><strong>Letters of John:</strong> Short, accessible, profound</li>
             </ul>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               Save challenging books like Leviticus, Numbers, and Revelation for later, when you have more biblical literacy.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Reading with Study Aids
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               Helpful resources include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Catechism of the Catholic Church:</strong> References Scripture throughout</li>
               <li><strong>Commentaries:</strong> Ignatius Catholic Study Bible, Navarre Bible</li>
@@ -190,9 +191,9 @@ export default function HowToReadBible() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Reading in Community
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
               While personal reading is essential, Scripture comes alive in community. Consider:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Parish Bible studies</li>
               <li>Small faith-sharing groups</li>

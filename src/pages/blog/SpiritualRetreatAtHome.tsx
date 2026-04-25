@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SpiritualRetreatAtHome() {
   return (
@@ -90,57 +91,57 @@ export default function SpiritualRetreatAtHome() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 Every Catholic needs silence. Not the silence of boredom or emptiness, but the silence of encounter — the kind of silence in which God speaks and the soul listens. Retreats have been a cornerstone of Catholic spiritual life for centuries, from the desert fathers who fled to the Egyptian wilderness to the Jesuit tradition of the Spiritual Exercises. But in our busy American lives, getting away to a retreat center for a week is not always possible.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 The good news is that a home retreat — done with intention and structure — can be just as transformative as a formal retreat. This guide will show you exactly how to do it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Retreats Matter: Silence and Encounter with God
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 The word "retreat" comes from the Latin retrahere — to draw back. A retreat is a deliberate withdrawal from the noise and demands of ordinary life in order to draw closer to God. Jesus Himself modeled this: He regularly withdrew to lonely places to pray (Luke 5:16). Before His public ministry, He spent 40 days in the desert. Before choosing the Twelve, He spent the night in prayer on a mountain.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 In our hyperconnected world, the noise is louder than ever. Social media, news cycles, work emails, and family demands fill every moment. A retreat creates a protected space — a sacred pause — in which God can speak to the heart without competition. Many Catholics report that their most significant spiritual breakthroughs happened not during Sunday Mass or daily prayer, but during a retreat, when they finally had enough silence to hear what God had been trying to say all along.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Prepare: Choosing a Theme and Gathering Materials
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 A good retreat begins before the retreat itself. Here is how to prepare:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Choose a Theme or Focus
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 A retreat without a focus can drift into pleasant but unfocused relaxation. Choose a theme that corresponds to where you are in your spiritual life. Some possibilities: "Deepening my prayer life," "Discerning a major decision," "Healing from a wound or loss," "Growing in a specific virtue," "Preparing for a sacrament," or simply "Resting in God's love." Your theme will guide your Scripture readings, your journaling, and your prayer.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Gather Your Materials
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 You will need: a Bible, a journal and pen, a spiritual book (suggestions below), your rosary, and optionally a crucifix or icon to place in your prayer space. If you have access to the Liturgy of the Hours, bring it. Turn off your phone or put it in airplane mode for the duration of the retreat.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Inform Your Family
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 If you live with family, let them know in advance that you will be making a retreat. Ask for their support in maintaining quiet. If you have young children, arrange for a spouse or family member to take primary responsibility for childcare during your prayer times. Even a few hours of protected silence can be transformative.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Prepare Your Prayer Space
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 Designate a specific place in your home as your retreat space. It might be a corner of your bedroom, a quiet room, or even a spot in your backyard. Place a crucifix, a candle, and your Bible there. This physical space signals to your body and soul that something different is happening here.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -159,9 +160,9 @@ export default function SpiritualRetreatAtHome() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Sample 1-Day Retreat Schedule
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 Here is a complete schedule for a one-day home retreat. Adjust the times to fit your life, but try to maintain the overall rhythm of prayer, silence, Scripture, and rest.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 7:00 AM — Morning Prayer and Offering
@@ -249,36 +250,36 @@ export default function SpiritualRetreatAtHome() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 8:00 PM — Final Journaling and Night Prayer
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 Write a summary of what God said to you today. What is the one grace you received? What is the one resolution you are taking away? End with Compline (Night Prayer) or a simple examination of conscience and act of contrition.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Ignatian Approach to Home Retreats
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 St. Ignatius of Loyola developed the Spiritual Exercises in the 16th century as a structured 30-day retreat. But he also envisioned an "Annotation 19" version — the Exercises in daily life — for people who cannot make a full retreat. This is essentially what a home retreat draws on.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 The Ignatian approach emphasizes three things: consolation and desolation (noticing where you feel drawn toward God and where you feel pulled away), discernment of spirits (learning to distinguish the movements of the Holy Spirit from other influences), and the election (making a concrete decision or resolution in response to what God has shown you). Even in a one-day retreat, you can apply these principles by paying attention to what moves your heart during prayer and journaling about it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Handle Distractions During Your Retreat
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 Distractions are normal and expected, especially at the beginning of a retreat. Your mind will wander to your to-do list, your worries, your relationships. Do not fight these thoughts — simply notice them, offer them to God, and gently return your attention to prayer. Over time, the distractions will lessen as your soul settles into the silence.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 If you find yourself persistently distracted by a particular worry or concern, write it down in your journal and offer it explicitly to God. Sometimes the distraction is itself a message — God may be inviting you to bring that very thing to Him in prayer.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What to Do After the Retreat
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 The retreat does not end when you return to ordinary life — it bears fruit in the days and weeks that follow. Here is how to carry the graces of your retreat forward:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Review your journal notes in the days after the retreat and identify the one or two key graces or resolutions.</li>
                 <li>Share what you received with your spiritual director or a trusted Catholic friend.</li>

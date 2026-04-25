@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SocialDoctrine() {
     return (
@@ -67,9 +68,9 @@ export default function SocialDoctrine() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">
                                 The Social Doctrine of the Church (SDC) is the set of Church teachings on social, political, and economic realities. It is not a "third way" between capitalism and socialism, nor a political ideology, but a theological and ethical reflection that seeks to apply the Gospel message to the challenges of human coexistence.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="Do you live your faith in public life?"
@@ -77,32 +78,32 @@ export default function SocialDoctrine() {
                             />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Fundamental Principles</h2>
-                            <p className="text-text leading-relaxed mb-6">All Social Doctrine rests on four essential pillars: Human Dignity, Common Good, Subsidiarity, and Solidarity.</p>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">All Social Doctrine rests on four essential pillars: Human Dignity, Common Good, Subsidiarity, and Solidarity.</LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">1. Human Dignity</h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">
                                 Every human being, from conception to natural death, possesses an inalienable dignity because they are created in the image and likeness of God (Genesis 1:27). This dignity is not earned by productivity, intelligence, or social status — it is inherent to every person. Catholic Social Teaching insists that no economic system, political ideology, or social arrangement may treat persons as mere means to an end.
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">2. The Common Good</h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">
                                 The common good is "the sum total of social conditions which allow people, either as groups or as individuals, to reach their fulfillment more fully and more easily" (Gaudium et Spes 26). It requires that individuals, families, associations, and the state all contribute to creating conditions where every person can flourish. The common good is not the same as the majority's preference — it includes the rights of minorities and the most vulnerable.
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">3. Subsidiarity</h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">
                                 Subsidiarity holds that decisions should be made at the lowest appropriate level of society. What individuals can do, families should not take over. What families can do, local communities should not absorb. What local communities can do, the state should not control. This principle protects human freedom and initiative while recognizing that higher authorities must step in when lower ones cannot adequately address a need.
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">4. Solidarity</h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">
                                 Solidarity is the recognition that we are all responsible for one another. Pope John Paul II described it as "a firm and persevering determination to commit oneself to the common good." It is not mere sentiment but a moral virtue that moves us to share our goods, defend the rights of others, and work for a more just world. "We are all responsible for all" — this is the heart of solidarity.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The History of Catholic Social Teaching</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">
                                 Catholic Social Teaching has a rich history of papal documents (encyclicals) addressing the social questions of each era:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-2 mb-6">
                                 <li><strong>Rerum Novarum (1891) — Leo XIII:</strong> The founding document, addressing the rights of workers in the Industrial Revolution</li>
                                 <li><strong>Quadragesimo Anno (1931) — Pius XI:</strong> Developed subsidiarity and critiqued both capitalism and socialism</li>
@@ -116,9 +117,9 @@ export default function SocialDoctrine() {
                             </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Preferential Option for the Poor</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">
                                 One of the most distinctive elements of Catholic Social Teaching is the "preferential option for the poor." This does not mean that the poor are morally superior or that the Church ignores others. It means that in any social analysis or policy decision, the first question must be: "How does this affect the most vulnerable?" Jesus identified Himself with the poor: "Whatever you did for one of the least of these brothers and sisters of mine, you did for me" (Matthew 25:40).
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Live Catholic Social Teaching Today</h2>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">

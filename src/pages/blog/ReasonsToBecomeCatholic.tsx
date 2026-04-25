@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ReasonsToBecomeCatholic() {
   return (
@@ -64,55 +65,55 @@ export default function ReasonsToBecomeCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 This is not a list of arguments designed to pressure anyone. It is an honest account of the reasons that have drawn thoughtful, searching people to the Catholic Church — reasons that have been articulated by converts from G.K. Chesterton to Scott Hahn to thousands of ordinary people who found their home in the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 If you are curious about Catholicism, read these reasons with an open mind. If any of them resonate with you, that resonance may be worth exploring.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">1. The Eucharist: Jesus Is Really There</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 For many converts, the Eucharist is the central reason for becoming Catholic. The Catholic Church teaches that at Mass, the bread and wine truly become the Body and Blood of Christ — not symbolically, but really and substantially. This is called transubstantiation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 When you read John 6 carefully — "My flesh is real food and my blood is real drink" — and when you read the accounts of the Last Supper, and when you read the early Church Fathers who unanimously affirmed the Real Presence, the Catholic teaching becomes not just plausible but compelling. If Jesus is truly present in the Eucharist, then the Catholic Mass is the most important event that happens on earth every day.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 As Flannery O'Connor famously said: "If it's a symbol, to hell with it." Either Jesus meant what He said, or He didn't. Catholics believe He did.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">2. History: The Catholic Church Is the Original Church</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 The Catholic Church was founded by Jesus Christ and has existed continuously for over 2,000 years. Every other Christian denomination either broke from the Catholic Church (Protestantism, beginning in 1517) or separated from it (Eastern Orthodoxy, in 1054).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 When you read the writings of the early Church Fathers — the men who knew the apostles or their immediate disciples — you find a Church that is recognizably Catholic: with bishops, priests, the Eucharist, Confession, the primacy of Rome, and devotion to Mary. As John Henry Newman famously said: "To be deep in history is to cease to be Protestant."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">3. The Intellectual Tradition: Faith and Reason Together</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 The Catholic Church has one of the richest intellectual traditions in human history. From Augustine to Aquinas to Newman to Chesterton, the Church has produced some of the greatest thinkers the world has ever seen. Catholic universities, hospitals, and schools have shaped Western civilization.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 Catholicism does not ask you to check your brain at the door. It insists that faith and reason are not enemies but partners — that the same God who created the universe also gave us minds to understand it. The Church has never condemned science; it has funded it. Gregor Mendel (genetics), Georges Lemaître (Big Bang theory), and many other scientists were Catholic priests.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">4. Moral Clarity in a Relativistic World</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 In a culture that increasingly says "everything is relative" and "you define your own truth," the Catholic Church offers something rare and precious: moral clarity. The Church's teaching on human dignity, marriage, sexuality, life, and social justice is comprehensive, coherent, and rooted in natural law and divine revelation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 Many converts — especially those from secular backgrounds — find this moral clarity liberating rather than restrictive. Instead of having to figure out ethics from scratch, they have access to 2,000 years of accumulated moral wisdom.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">5. The Sacraments: Grace Made Tangible</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 The Catholic Church has seven sacraments — visible signs that convey invisible grace. Through Baptism, you are reborn as a child of God. Through Confession, your sins are truly forgiven. Through the Eucharist, you receive the Body and Blood of Christ. Through Confirmation, you are strengthened by the Holy Spirit. Through Anointing of the Sick, you receive healing and peace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 The sacraments are not merely symbols or rituals — they actually accomplish what they signify. They are the channels through which God's grace flows into human life. Many converts describe the sacraments as the most transformative experiences of their lives.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Where are you on your Catholic journey?"
@@ -120,44 +121,44 @@ export default function ReasonsToBecomeCatholic() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">6. The Communion of Saints: You Are Never Alone</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 The Catholic Church teaches the Communion of Saints — the bond of love that unites the Church on earth, the souls in Purgatory, and the saints in heaven. When you become Catholic, you join a family that includes not just the 1.3 billion living Catholics but all the saints who have ever lived.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 You can ask St. Francis of Assisi to pray for you. You can ask St. Thérèse of Lisieux to intercede for your family. You can ask St. Thomas Aquinas to help you understand a difficult theological question. The saints are not dead — they are more alive than we are, and they care about us.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">7. Mary: A Mother for Every Soul</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 When Jesus was dying on the cross, He gave His mother to the Beloved Disciple — and in him, to all His disciples: "Behold your mother" (John 19:27). Catholics take this seriously. Mary is not just a historical figure — she is a living mother who loves each of her children with a mother's love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 Many converts describe their relationship with Mary as one of the most unexpected and beautiful gifts of Catholic life. She is the perfect model of faith — the one who said "yes" to God completely and without reservation. She is the most powerful intercessor in heaven. And she is our mother.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">8. Beauty: The Church as a Work of Art</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 The Catholic Church has inspired some of the greatest art, music, architecture, and literature in human history. The Sistine Chapel, Notre-Dame de Paris, Gregorian chant, Bach's Mass in B minor, Dante's Divine Comedy, Michelangelo's Pietà — all are expressions of the Catholic faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 This is not accidental. The Church believes that beauty is a path to God — that the transcendent beauty of great art, music, and architecture can lift the soul toward the divine. Many converts describe being drawn to Catholicism first through beauty — through a piece of sacred music, a visit to a cathedral, or the experience of a solemn High Mass.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">9. Confession: The Gift of a Fresh Start</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 One of the most distinctive and transformative gifts of Catholic life is the Sacrament of Confession. In the confessional, you encounter not a judge but a physician — and you leave not condemned but healed. Your sins are truly and completely forgiven. The slate is wiped clean.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 Many converts describe their first Confession as one of the most profound experiences of their lives. The certainty of forgiveness — hearing the words of absolution spoken over you — is something that no amount of private prayer can replicate.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">10. The Universal Church: A Home Everywhere</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 The Catholic Church is truly universal — present in virtually every country on earth, with over 1.3 billion members. When you become Catholic, you become part of the largest family in the world. You can attend Mass in Tokyo, Buenos Aires, Nairobi, or Rome — and it will be the same Mass, the same faith, the same Christ.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 This universality is not just geographical — it is also historical. You are connected to every Catholic who has ever lived: to Augustine and Aquinas, to Francis and Clare, to Teresa of Ávila and John of the Cross, to the martyrs of the early Church and the missionaries who evangelized the world. You belong to the oldest and largest family in human history.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NovenasExplained() {
   return (
@@ -77,29 +78,29 @@ export default function NovenasExplained() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
                 The novena is one of Catholicism's most beloved prayer traditions. For nine days, the faithful pour out their hearts to God or His saints, trusting in the power of persevering prayer. Discover the origins, meaning, and practice of this ancient devotion.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Biblical Roots of the Novena
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               The novena has its foundation in Sacred Scripture. After Jesus ascended into heaven, the apostles and Mary gathered in the Upper Room and "devoted themselves with one accord to prayer" for nine days until Pentecost (Acts 1:14). This first "novena" culminated in the outpouring of the Holy Spirit.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               The number nine also has significance in salvation history. Jesus died in the ninth hour (3 PM), and tradition holds that He remained in the tomb for 40 hours—completing nine time periods. The number symbolizes completion and preparation for new beginnings.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What Is a Novena?
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               A novena (from the Latin "novem," meaning "nine") is a devotional practice of praying for nine consecutive days. It can be addressed to God directly, to Jesus, to the Holy Spirit, to Mary, or to the saints. The consistent element is the nine-day period of sustained prayer.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               While novenas are often prayed for specific intentions, they are not "magic formulas." They express faith, trust in God's providence, and confidence in the communion of saints. The Church approves many novenas, though private novenas can also be offered.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Most Popular Catholic Novenas
@@ -108,37 +109,37 @@ export default function NovenasExplained() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Divine Mercy Novena
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               Given by Jesus to St. Faustina Kowalska in the 1930s, this novena is prayed from Good Friday to Divine Mercy Sunday. Jesus promised extraordinary graces to those who participate, including complete forgiveness of sins and punishment.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The St. Jude Novena
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               St. Jude Thaddeus, patron of impossible causes, is honored with one of the most popular novenas. Thousands testify to miracles received through his intercession, often after all human hope was exhausted.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The St. Joseph Novena
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               Traditionally prayed before his feast day on March 19, this novena honors the foster-father of Jesus. It's particularly powerful for employment, family needs, happy death, and selling homes.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Immaculate Conception Novena
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               Prayed November 30 to December 8, this novena prepares for the feast of Mary's Immaculate Conception. St. Maximilian Kolbe called devotion to Mary the "fastest path to Jesus."
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               How to Pray a Novena
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               While each novena has its specific prayers, the general structure includes:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Opening:</strong> Sign of the Cross and introductory prayers</li>
               <li><strong>Scripture Reading:</strong> A relevant Bible passage</li>
@@ -150,19 +151,19 @@ export default function NovenasExplained() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What If You Miss a Day?
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               Don't abandon the novena if you miss a day! Simply continue from where you left off or add an extra day at the end. What matters is the sincere intention and effort, not legalistic perfection. The saints and God understand our human weakness.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Power of Persevering Prayer
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               Jesus taught the importance of persevering prayer through the parable of the persistent widow (Luke 18:1-8). The novena embodies this persistence—returning day after day with the same petition, confident in God's goodness and timing.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
               Sometimes novenas are answered immediately. Sometimes the answer comes later—or differently than expected. The grace of praying a novena often lies in the transformation of the one praying, learning to trust more deeply in divine providence.
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

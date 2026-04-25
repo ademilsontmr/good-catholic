@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnIVF() {
   return (
@@ -64,14 +65,14 @@ export default function CatholicTeachingOnIVF() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 The desire for a child is one of the most profound human longings. When a couple struggles with infertility, the pain is real and deep. The Catholic Church acknowledges this suffering with compassion. At the same time, the Church teaches that not every means of achieving a good end is morally acceptable — and that IVF, despite its good intention, involves serious moral problems that cannot be overlooked.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is IVF?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 In vitro fertilization (IVF) is a procedure in which eggs are retrieved from a woman's ovaries and fertilized with sperm in a laboratory. The resulting embryos are then transferred to the woman's uterus. Typically, multiple embryos are created, and those not transferred are either frozen, discarded, or used for research.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Church's Position: IVF Is Not Morally Acceptable</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -91,25 +92,25 @@ export default function CatholicTeachingOnIVF() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Core Moral Problems with IVF</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. The Destruction of Human Embryos</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 The most serious moral problem with IVF is the routine creation and destruction of human embryos. The Catholic Church teaches that human life begins at fertilization — the moment a new human being comes into existence. An embryo is a human person with full human dignity, not a "potential person" or a "clump of cells."
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 In standard IVF practice, multiple embryos are created. Those not transferred are typically frozen indefinitely, discarded, or used for research. Each of these outcomes involves the death of a human being. <em>Dignitas Personae</em> states: "The freezing of embryos, even when carried out in order to preserve the life of an embryo — cryopreservation — constitutes an offence against the respect due to human beings by exposing them to grave risks of death or harm to their physical integrity" (§18).
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. The Separation of Procreation from the Conjugal Act</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 The Church teaches that the generation of new human life must occur within the conjugal act — the sexual union of husband and wife. This is not an arbitrary rule but reflects the profound truth that a child is a gift that flows from the total self-giving of husband and wife, not a product manufactured in a laboratory.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <em>Donum Vitae</em> states: "The origin of a human person is the result of an act of giving. The one conceived must be the fruit of his parents' love. He cannot be desired or conceived as the product of an intervention of medical or biological techniques; that would be equivalent to reducing him to an object of scientific technology" (II, B, 4).
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. The Domination of Technology Over Human Life</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 IVF places the origin of human life in the hands of technicians and laboratories, subjecting it to quality control, selection, and disposal. The Church sees this as a fundamental violation of the dignity of the human person, who is not a product to be manufactured but a gift to be received.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know Catholic moral teaching?"
@@ -117,20 +118,20 @@ export default function CatholicTeachingOnIVF() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What About Couples Who Have Already Used IVF?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 Many faithful Catholics have used IVF before learning of the Church's teaching, or have used it while struggling with the teaching. The Church's response is not condemnation but mercy.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 If you have used IVF, the appropriate response is to bring this to Confession with sincere contrition. God's mercy is infinite, and the Sacrament of Reconciliation is available to all who approach it with a sincere heart.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 A particularly difficult situation arises for couples who have frozen embryos. <em>Dignitas Personae</em> acknowledges this as a "situation of suffering" and states that the Church does not have a simple solution to offer. The document suggests that "prenatal adoption" — having the embryos transferred and carried to term — may be a compassionate response, though it notes this raises its own moral questions. What is clear is that the embryos cannot be discarded or used for research.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Morally Acceptable Alternatives to IVF</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 The Church does not simply say "no" to infertile couples — it proposes morally acceptable alternatives:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>NaProTechnology (Natural Procreative Technology):</strong> A medical approach developed by Dr. Thomas Hilgers that works with the natural cycle to identify and treat the underlying causes of infertility. It has success rates comparable to IVF for many conditions, without the moral problems.</li>
                 <li><strong>CREIGHTON Model FertilityCare System:</strong> A method of charting the woman's cycle that can identify fertility problems and guide treatment.</li>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function Jubilee2025Legacy() {
     return (
@@ -75,9 +76,9 @@ export default function Jubilee2025Legacy() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 The Jubilee of 2025, under the theme "Pilgrims of Hope," was a time of extraordinary grace for the universal Church. Millions of faithful crossed the Holy Doors, sought reconciliation, and renewed their faith. However, the end of the jubilee liturgical year does not mark the end of our journey, but the beginning of a new stage of witness.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="Are you a pilgrim of hope?"
@@ -85,28 +86,28 @@ export default function Jubilee2025Legacy() {
                             />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Was the Jubilee of 2025?</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 The 2025 Jubilee was the 27th Ordinary Jubilee in the history of the Catholic Church, proclaimed by Pope Francis with the theme "Pilgrims of Hope." It officially opened on Christmas Eve 2024 with the opening of the Holy Door at St. Peter's Basilica in Rome and concluded on January 6, 2026, the Feast of the Epiphany.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 The theme "Pilgrims of Hope" was chosen to respond to the profound crises of our time — wars, climate change, economic inequality, and the spiritual emptiness of modern culture. Pope Francis called Catholics worldwide to be witnesses of hope: not a naive optimism, but the theological virtue rooted in Christ's Resurrection.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Holy Doors: A Symbol of Mercy</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 The Holy Doors at the four major basilicas in Rome — St. Peter's, St. John Lateran, St. Mary Major, and St. Paul Outside the Walls — were opened for the first time since 2000. Passing through a Holy Door while in a state of grace, having received Confession and Communion, and praying for the Pope's intentions, gains a plenary indulgence.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 For the first time in Jubilee history, Pope Francis also opened a Holy Door at a prison — the Rebibbia Prison in Rome — symbolizing that God's mercy reaches even those society has cast aside. This gesture embodied the Jubilee's call to encounter Christ in the marginalized.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Does It Mean to Be a Pilgrim in 2026?</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 Being a pilgrim is not limited to traveling to Rome or to a shrine. It is an interior attitude of one who knows they have no permanent dwelling here. St. Augustine wrote: "Our heart is restless until it rests in You." The pilgrim is someone who is always moving toward God, never settling for mediocrity, always seeking the face of Christ.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 In 2026, we are called to be "pilgrims in daily life" — bringing the light of hope to our workplaces, schools, and families. The Jubilee may have ended, but the mission continues.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">5 Fruits of the Jubilee to Cultivate Now</h2>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -118,9 +119,9 @@ export default function Jubilee2025Legacy() {
                             </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Keep the Flame Burning</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 For the Jubilee not to be just a distant memory, spiritual discipline is needed. Here are concrete practices to carry the Jubilee spirit into 2026 and beyond:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-2 mb-6">
                                 <li>Go to Confession monthly — maintain the grace of reconciliation you received during the Jubilee</li>
                                 <li>Perform one work of mercy each week — corporal or spiritual</li>

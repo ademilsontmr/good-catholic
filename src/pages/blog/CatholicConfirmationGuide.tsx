@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicConfirmationGuide() {
   return (
@@ -76,30 +77,30 @@ export default function CatholicConfirmationGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 On the day of Pentecost, the Holy Spirit descended upon the Apostles in tongues of fire, transforming frightened disciples into bold witnesses who would turn the world upside down. Confirmation is the sacrament that continues this Pentecost in the life of every Catholic. Through it, the baptized receive the fullness of the Holy Spirit and are strengthened to be witnesses of Christ in the world.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 In the United States, Confirmation is typically received between the ages of 7 and 18, depending on the diocese. Some dioceses confirm in middle school; others wait until high school. Regardless of when it's received, the sacrament is the same — and the preparation for it matters enormously.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Is Confirmation?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 Confirmation is the second Sacrament of Initiation (after Baptism and before the Eucharist in the order of initiation, though in practice it often follows First Communion). The Catechism teaches that "by the sacrament of Confirmation, the baptized are more perfectly bound to the Church and are enriched with a special strength of the Holy Spirit. Hence they are, as true witnesses of Christ, more strictly obliged to spread and defend the faith by word and deed" (CCC 1285).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 Like Baptism, Confirmation imprints an indelible spiritual character on the soul and can never be repeated. It deepens and completes the grace of Baptism, bringing the confirmed into a more mature relationship with the Holy Spirit.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Seven Gifts of the Holy Spirit
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 At Confirmation, the Holy Spirit bestows seven gifts upon the confirmed. These gifts are supernatural dispositions that perfect the natural virtues and enable the person to respond promptly to the inspirations of the Holy Spirit. They are rooted in Isaiah 11:2–3 and have been part of Catholic teaching since the early Church.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">The Seven Gifts of the Holy Spirit</h3>
@@ -122,48 +123,48 @@ export default function CatholicConfirmationGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Rite of Confirmation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 Confirmation is ordinarily conferred by the bishop, who is the fullness of the priesthood and the visible sign of unity with the universal Church. In some circumstances, a priest may be delegated to confirm (such as when confirming adults at the Easter Vigil or in danger of death).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 The essential rite of Confirmation consists of the anointing with Sacred Chrism (a mixture of olive oil and balsam, consecrated by the bishop at the Chrism Mass on Holy Thursday) on the forehead, done by the laying on of the hand, with the words: "Be sealed with the Gift of the Holy Spirit." The candidate responds: "Amen." The bishop then says: "Peace be with you," and the candidate responds: "And with your spirit."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 The anointing with Chrism is rich in symbolism. Oil signifies strength, healing, and consecration. The fragrance of the Chrism represents the "aroma of Christ" (2 Corinthians 2:15). The anointing on the forehead — the seat of the mind and will — signifies that the confirmed is marked as belonging to Christ and is strengthened to profess the faith publicly.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Choosing a Confirmation Sponsor
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 Every candidate for Confirmation must have a sponsor — a practicing Catholic who accompanies them through the preparation process and presents them to the bishop at the rite. The sponsor's role is to support the candidate's faith formation and serve as a model of Catholic life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 The requirements for a Confirmation sponsor are similar to those for a Baptism godparent: the sponsor must be a confirmed, practicing Catholic who has received all three Sacraments of Initiation, is at least 16 years old, and is not the parent of the candidate. It is a beautiful tradition to choose your Baptism godparent as your Confirmation sponsor, symbolizing the continuity between the two sacraments.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 When choosing a sponsor, look for someone who takes their faith seriously, attends Mass regularly, and can genuinely support you in your spiritual life — not just someone who is Catholic by name. The sponsor-candidate relationship can be one of the most formative spiritual friendships of your life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Choosing a Confirmation Name
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 In many dioceses, candidates choose a Confirmation name — the name of a saint who will serve as their special patron and model. This is a beautiful tradition that connects the confirmed to the Communion of Saints and gives them a heavenly intercessor.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 When choosing a Confirmation name, don't just pick a saint because you like the name. Research the saint's life, spirituality, and patronage. Ask yourself: Does this saint's life inspire me? Do I share any of their struggles or gifts? Can I look to them as a model for my own life? Pray to the saint and ask for their intercession as you prepare for Confirmation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 Note that not all dioceses require a Confirmation name. Check with your parish or diocese to find out their practice.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Prepare Spiritually for Confirmation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 Confirmation preparation programs vary by diocese and parish, but typically involve one to two years of catechesis, service projects, retreats, and regular Mass attendance. Beyond the formal program, here are ways to prepare your heart:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Go to Confession before Confirmation — receive the sacrament with a clean soul</li>
                 <li>Pray daily, especially to the Holy Spirit: "Come, Holy Spirit, fill the hearts of your faithful..."</li>

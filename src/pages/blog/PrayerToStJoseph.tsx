@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerToStJoseph() {
   return (
@@ -76,12 +77,12 @@ export default function PrayerToStJoseph() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-to-st-joseph">
                 In the entire history of the Catholic Church, few saints have been as consistently venerated — and as consistently underestimated — as St. Joseph. He appears in the Gospels without a single recorded word. He acts in silence: protecting, providing, obeying. And yet the Church has recognized in this silent man one of the greatest saints who ever lived — a man so trusted by God that He entrusted to him the care of His own Son and the Virgin Mother.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-to-st-joseph">
                 Pope Francis, who chose the name Francis but has a deep devotion to St. Joseph, declared a Year of St. Joseph in 2020–2021 and wrote the apostolic exhortation "Patris Corde" (With a Father's Heart) to deepen the Church's understanding of this great saint. He wrote: "Joseph is the 'father in the shadows' who protects, guides, and accompanies without seeking the limelight." For American Catholic families navigating the challenges of modern life, St. Joseph's intercession is more relevant than ever.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Traditional Prayer to St. Joseph
@@ -114,15 +115,15 @@ export default function PrayerToStJoseph() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Who Is St. Joseph? His Role in Salvation History
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-to-st-joseph">
                 St. Joseph was a carpenter from Nazareth, a descendant of the royal line of David. He was betrothed to Mary when the angel appeared to him in a dream, revealing that the child she carried was conceived by the Holy Spirit. Joseph's response — immediate, trusting, obedient — reveals the character of a man of extraordinary faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-to-st-joseph">
                 The Gospels show Joseph as a man of action guided by God. He took Mary into his home (Matthew 1:24). He led the family to Bethlehem for the census. He received the warning to flee to Egypt and acted immediately, protecting the infant Jesus from Herod's massacre. He brought the family back to Nazareth when it was safe. In every crisis, Joseph listened to God and acted without hesitation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-to-st-joseph">
                 The last mention of Joseph in the Gospels is at the Finding in the Temple, when Jesus was twelve years old. Tradition holds that Joseph died before Jesus began His public ministry — which is why Jesus, from the Cross, entrusted Mary to the care of the Apostle John rather than to Joseph. Joseph is therefore called the "patron of a happy death" — he died in the arms of Jesus and Mary, the most blessed death imaginable.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 St. Joseph's Patronages
@@ -144,9 +145,9 @@ export default function PrayerToStJoseph() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The 30-Day Prayer to St. Joseph
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-to-st-joseph">
                 One of the most beloved devotions to St. Joseph in American Catholic tradition is the 30-Day Prayer, which is prayed for 30 consecutive days for a specific intention. This prayer has been associated with remarkable answers to prayer and is widely used for urgent needs — job loss, family crises, health concerns, and spiritual struggles.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">30-Day Prayer to St. Joseph (Opening)</h3>

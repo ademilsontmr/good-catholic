@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ImportanceOfConfession() {
   return (
@@ -76,12 +77,12 @@ export default function ImportanceOfConfession() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 If there is a sacrament that reveals in a special way the merciful heart of God, it is Confession. Imagine: the Creator of the universe, the thrice-Holy God, bends over human misery not to condemn, but to heal. Not to humiliate, but to restore. The confessional is not a court of condemnation – it is a hospital for souls, where the divine Physician applies the balm of His mercy to the wounds of sin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Jesus instituted this sacrament on the night of the Resurrection, when He breathed on the Apostles and said: "Receive the Holy Spirit. Whose sins you forgive are forgiven them" (Jn 20:22-23). What an extraordinary gift! The same power that raised Christ from the dead is available to resurrect us from the spiritual death of sin. Each sincere confession is a little Easter, a passage from death to life.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="When was your last spiritual resurrection?"
@@ -91,15 +92,15 @@ export default function ImportanceOfConfession() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Happens in Confession?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 When you enter the confessional, you are not simply talking to a priest – you are before Christ Himself, who acts through the priest. The priest is merely the instrument; it is Jesus who forgives. When the confessor pronounces the words of absolution – "I absolve you from your sins, in the name of the Father, and of the Son, and of the Holy Spirit" – a miracle greater than the creation of the world happens: a soul dead from sin comes back to life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 This encounter restores our friendship with God, returning sanctifying grace to us if we lost it through mortal sin, or increasing it if we confess venial sins. The Catechism calls confession the "second plank of salvation after the shipwreck of lost grace." If Baptism is the first plank, Confession is the second chance God gives us – and He offers it as many times as we need.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Saint Faustina Kowalska, the apostle of Divine Mercy, recorded in her diary the words of Jesus: "When you approach confession, know that I Myself am waiting for you in the confessional; I am only hidden in the priest, but it is I Myself who act in your soul." What consolation to know that we do not face our sins alone, but in the hands of infinite Love!
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Spiritual Benefits of Frequent Confession
@@ -108,30 +109,30 @@ export default function ImportanceOfConfession() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Growth in Self-Knowledge
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Preparation for confession requires an honest examination of conscience. This regular exercise helps us better know our weaknesses, sinful tendencies, and behavior patterns. Over time, we develop a more delicate conscience sensitive to sin, which allows us to avoid it more effectively.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Strengthening of the Will
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Each sincere confession strengthens our will to avoid sin. Sacramental graces give us strength to resist temptations and practice virtues. Saint John Paul II recommended monthly confession, and many saints confessed weekly, recognizing that this practice was essential for their spiritual progress.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Inner Peace and Joy
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Those who confess regularly experience a peace that the world cannot give. The weight of guilt is removed, the conscience becomes tranquil, and the heart fills with true joy. This peace does not depend on external circumstances, but springs from the depths of the soul reconciled with God.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Protection Against Mortal Sin
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Frequent confession creates a kind of "spiritual shield" against grave sins. When we become accustomed to confessing regularly, even venial sins, we develop greater sensitivity to sin and stronger resistance to temptations that could lead us to mortal sins.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Make a Good Confession
@@ -140,60 +141,60 @@ export default function ImportanceOfConfession() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 1. Examination of Conscience
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Before confession, dedicate time to examine your conscience in light of the Ten Commandments and the obligations of your state in life. Ask the Holy Spirit to illuminate your mind to recognize your sins. Be honest with yourself, neither minimizing nor exaggerating your faults.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 2. Sincere Contrition
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Contrition is the sorrow of the soul for sin committed, united with the purpose of sinning no more. Perfect contrition is born from love of God; imperfect contrition (attrition), from fear of hell or the ugliness of sin. Both are sufficient for the sacrament, but we should aspire to perfect contrition.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 3. Complete Confession
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Confess all mortal sins you remember, indicating their number and circumstances that alter their nature. Venial sins need not be confessed, but it is very profitable to do so. Be clear, concise, and complete, avoiding unnecessary details.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 4. Purpose of Amendment
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Have a firm purpose to sin no more and to avoid occasions of sin. This purpose need not be accompanied by certainty that you will never fall again, but it must be sincere and determined. Ask God for the grace to fulfill this purpose.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 5. Satisfaction or Penance
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Fulfill the penance indicated by the confessor. It serves to repair the damage caused by sin and helps in the conversion process. If you forget the penance, you should return to the confessor to receive it again.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How Often Should You Confess?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 The Church requires confession at least once a year, especially before Easter, if there is grave sin. However, this is the absolute minimum – like saying you are obliged to eat at least once a week to avoid starving. Spiritual masters recommend monthly confession for those who wish to progress in spiritual life, and many saints confessed weekly.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Saint Josemaría Escrivá taught: "Frequent confession is one of the greatest helps for interior life." Saint John Paul II confessed weekly, even as Pope. Saint Teresa of Calcutta did too. They understood that confession is not just to "clean" grave sins, but to polish the soul, remove imperfections, grow in holiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Do not wait to commit a grave sin to seek the sacrament. Confess also venial sins, imperfections, disordered tendencies. Each confession is an opportunity to receive special graces to overcome that defect that bothers you so much, that temptation that always returns, that vice that seems invincible. With God's grace, nothing is impossible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Overcoming Fear of the Confessional
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 Many Catholics avoid confession out of shame or fear. But think: the priest has heard everything. Your sin will not scandalize him or diminish the respect he has for you. On the contrary, he will rejoice in your humility and courage. Moreover, the sacramental seal is absolute – the priest would prefer to die rather than reveal what he heard in confession.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 The devil does everything to keep us away from the confessional. Before confession, he minimizes our sins: "That's nothing, everyone does it." Afterward, he maximizes them: "You are unforgivable, there's no point in confessing." Do not listen to these lies. God's mercy is greater than any sin. As Jesus said to Saint Faustina: "Even if the sins of souls were as black as night, when the sinner turns to My mercy, he gives Me the greatest glory."
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

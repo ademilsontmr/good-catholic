@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DailyMassReadings() {
   return (
@@ -64,17 +65,17 @@ export default function DailyMassReadings() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 One of the most beautiful aspects of Catholic life is that every day, over a billion Catholics around the world hear the same Scripture readings at Mass. Whether you are in New York or Nairobi, Tokyo or Rome, the same Word of God is proclaimed. Following the daily Mass readings connects you to this universal prayer of the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 Even if you cannot attend daily Mass, reading and praying with the daily readings at home is a powerful spiritual practice. It takes only 10-15 minutes and keeps you in step with the liturgical rhythm of the Church throughout the year.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Are the Daily Mass Readings?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 At every Mass, the Church proclaims three Scripture readings (on Sundays and solemnities) or two readings (on weekdays):
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>First Reading:</strong> Usually from the Old Testament (or Acts of the Apostles during Eastertide). It is chosen to connect thematically with the Gospel.</li>
                 <li><strong>Responsorial Psalm:</strong> A psalm sung or recited responsively between the first and second readings. It meditates on the first reading.</li>
@@ -87,27 +88,27 @@ export default function DailyMassReadings() {
               <p className="text-text leading-relaxed mb-6">
                 The <strong>Lectionary</strong> is the book that contains all the Scripture readings for Mass, organized according to the liturgical calendar. It was revised after the Second Vatican Council and promulgated in 1969 (with a revised edition in 1981).
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 The Lectionary is organized in two cycles:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Sunday Cycle (Three Years: A, B, C)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 Sunday Mass readings follow a three-year cycle:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Year A:</strong> The Gospel of Matthew is the primary Gospel</li>
                 <li><strong>Year B:</strong> The Gospel of Mark is the primary Gospel (with John 6 inserted in summer)</li>
                 <li><strong>Year C:</strong> The Gospel of Luke is the primary Gospel</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 The Gospel of John is read during Lent and Easter in all three years. Over the three-year cycle, Catholics hear most of the New Testament and a significant portion of the Old Testament at Sunday Mass.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Weekday Cycle (Two Years: I and II)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 Weekday Mass readings follow a two-year cycle for the first reading (Year I in odd years, Year II in even years). The Gospel readings are the same every year. Over the two-year cycle, Catholics hear most of the New Testament letters and a significant portion of the Old Testament at daily Mass.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your daily Scripture reading?"
@@ -147,9 +148,9 @@ export default function DailyMassReadings() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray with the Daily Readings</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 Simply reading the daily readings is good. Praying with them is better. Here is a simple method:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Read the first reading slowly.</strong> Notice what strikes you — a word, a phrase, an image.</li>
                 <li><strong>Pray the responsorial psalm.</strong> Pray it as your own prayer, not just as a text to be read.</li>
@@ -158,14 +159,14 @@ export default function DailyMassReadings() {
                 <li><strong>Respond in prayer.</strong> Speak to God about what you have read. Thank Him, ask Him, praise Him.</li>
                 <li><strong>Make a resolution.</strong> Is there one concrete thing you can do today in response to what you have read?</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 This is essentially the method of Lectio Divina — the ancient Catholic practice of prayerful Scripture reading. It takes about 15-20 minutes and is one of the most powerful spiritual practices available to Catholics.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Liturgical Year and the Readings</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 The daily readings are organized according to the liturgical year — the Church's annual cycle of seasons and feasts that celebrates the entire mystery of Christ:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Advent (4 weeks before Christmas):</strong> Readings focus on waiting, hope, and preparation for the coming of Christ</li>
                 <li><strong>Christmas Season (Christmas to the Baptism of the Lord):</strong> Readings celebrate the Incarnation and the early life of Jesus</li>

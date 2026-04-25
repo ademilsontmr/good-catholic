@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnHope() {
   return (
@@ -59,45 +60,45 @@ export default function CatholicTeachingOnHope() {
               <Star className="w-24 h-24 text-sky-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 We live in an age of anxiety. Climate change, political instability, personal loss, illness, loneliness — the weight of the world presses down on the human spirit. Into this darkness, the Catholic Church proclaims a virtue that is not a feeling, not a strategy, and not a denial of reality: hope. Real hope. The kind that does not disappoint (Romans 5:5).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Hope Is NOT</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 Before we can understand Christian hope, we need to distinguish it from its counterfeits. Hope is not optimism — the temperamental tendency to expect good outcomes. Optimism is a personality trait; hope is a virtue. An optimist may lose hope when things go badly enough. A person with the theological virtue of hope cannot ultimately lose it, because it is grounded not in circumstances but in God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 Hope is not wishful thinking — the vague desire that things will somehow work out. Wishful thinking has no object and no foundation. Christian hope has a very specific object (eternal life with God) and a very specific foundation (the promises of Christ, confirmed by his Resurrection).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 Hope is not positive thinking — the self-help practice of focusing on good outcomes to attract them. Positive thinking is about managing your mental state. Christian hope is about trusting in a Person — Jesus Christ — who has conquered death and promised to bring us to himself.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Hope IS: The Theological Virtue (CCC 1817–1821)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 The Catechism of the Catholic Church defines hope with precision: "Hope is the theological virtue by which we desire the kingdom of heaven and eternal life as our happiness, placing our trust in Christ's promises and relying not on our own strength, but on the help of the grace of the Holy Spirit" (CCC 1817).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 Several things are worth noting in this definition. First, hope has a specific object: the kingdom of heaven and eternal life. It is not a general optimism about earthly affairs, but a confident expectation of the ultimate good — union with God forever. Second, hope is grounded in Christ's promises — not in our own efforts, not in favorable circumstances, but in the word of the One who rose from the dead. Third, hope relies on the grace of the Holy Spirit — it is a theological virtue, meaning it is infused by God, not acquired by human effort alone.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 The Catechism continues: "The virtue of hope responds to the aspiration to happiness which God has placed in the heart of every man; it takes up the hopes that inspire men's activities and purifies them to order them to the Kingdom of heaven; it keeps man from discouragement; it sustains him during times of abandonment; it opens up his heart in expectation of eternal beatitude" (CCC 1818).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Hope, Faith, and Charity: How the Three Theological Virtues Relate</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 The three theological virtues — faith, hope, and charity — are inseparable, but they are distinct. Faith is the virtue by which we believe what God has revealed. Hope is the virtue by which we desire and confidently expect what God has promised. Charity is the virtue by which we love God above all things and our neighbor as ourselves.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 Faith comes first: you cannot hope for what you do not believe in. If you do not believe that God exists, that Christ rose from the dead, that eternal life is real — you cannot hope for these things. Faith provides the content of hope.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 Hope comes second: it takes the truths of faith and orients the will toward them, sustaining the soul in its journey toward God. Hope is what keeps us moving when faith is tested and charity is difficult.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 Charity is the greatest of the three (1 Corinthians 13:13) — it is the virtue that will remain in heaven, when faith gives way to vision and hope gives way to possession. But in this life, hope is indispensable: it is the virtue of the pilgrim, the virtue of the journey.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -105,9 +106,9 @@ export default function CatholicTeachingOnHope() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Two Sins Against Hope: Despair and Presumption</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 The Catechism identifies two sins that are directly opposed to the virtue of hope: despair and presumption (CCC 2091–2092).
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Despair</strong> is the sin of giving up on God's mercy — concluding that one's sins are too great to be forgiven, or that God does not care, or that salvation is impossible. The Catechism calls it "a flight from the divine mercy" (CCC 2091). Despair is a grave sin because it contradicts the very nature of God, who is infinite mercy. No sin is too great for God to forgive — the only unforgivable sin is the refusal to seek forgiveness.
               </p>
@@ -116,20 +117,20 @@ export default function CatholicTeachingOnHope() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Hope in the Face of Suffering</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 One of the most distinctive features of Christian hope is that it does not require the absence of suffering. In fact, Saint Paul says that suffering is one of the pathways to hope: "We rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope, and hope does not put us to shame, because God's love has been poured into our hearts through the Holy Spirit" (Romans 5:3–5).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 This is not masochism or denial. Christian hope does not pretend that suffering is not real or that it does not hurt. It transforms suffering by placing it within a larger story — the story of a God who entered into human suffering in the person of Jesus Christ, who suffered, died, and rose again. Because of the Resurrection, suffering is not the last word. Death is not the last word. Hope is the last word.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 This is why Christians can face death with peace — not because they are indifferent to life, but because they believe in the Resurrection. The hope of eternal life does not make this life less precious; it makes it more precious, because it places it in the context of eternity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Psalms as a School of Hope</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 The Psalms are the prayer book of the Church, and they are saturated with hope — not a naive hope that denies suffering, but a hope that cries out from the depths and trusts in God's faithfulness.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Psalm 22</strong> begins with the cry of desolation — "My God, my God, why have you forsaken me?" — the very words Jesus cried from the cross. But it ends in praise and trust: "For he has not despised or scorned the suffering of the afflicted one; he has not hidden his face from him but has listened to his cry for help." Hope does not deny the darkness; it trusts that God is present even in the darkness.
               </p>

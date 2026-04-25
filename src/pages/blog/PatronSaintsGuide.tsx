@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PatronSaintsGuide() {
   return (
@@ -64,20 +65,20 @@ export default function PatronSaintsGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 The tradition of patron saints is one of the most beautiful and practical aspects of Catholic life. It is rooted in the conviction that the saints in heaven are not distant historical figures but living members of the Body of Christ who care about us and can intercede for us before God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 When you have a patron saint, you have a friend in heaven — someone who knows your name, prays for you, and can bring your needs before God with the authority of one who has already run the race and won the crown.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Patron Saint?</h2>
               <p className="text-text leading-relaxed mb-6">
                 A patron saint is a saint who has been designated as a special intercessor for a particular person, group, profession, nation, or cause. The word "patron" comes from the Latin <em>patronus</em> — a protector or advocate.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 Patron saints are not assigned arbitrarily. Their patronages typically arise from:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Their life story.</strong> St. Luke was a physician, so he is the patron of doctors. St. Francis of Assisi loved animals, so he is the patron of ecology and animals.</li>
                 <li><strong>Their miracles.</strong> St. Anthony helped find a lost book, so he is the patron of lost things. St. Peregrine was miraculously healed of cancer, so he is the patron of cancer patients.</li>
@@ -87,30 +88,30 @@ export default function PatronSaintsGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theology of Patron Saints</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 The theological foundation for patron saints is the doctrine of the Communion of Saints — the belief that the Church is one body, united in Christ, spanning heaven, purgatory, and earth. The saints in heaven are not dead; they are more alive than we are, living in the fullness of God's presence.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 The Catechism of the Catholic Church teaches: "Being more closely united to Christ, those who dwell in heaven fix the whole Church more firmly in holiness... They do not cease to intercede with the Father for us, as they proffer the merits which they acquired on earth through the one mediator between God and men, Christ Jesus" (CCC 956).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 When we ask a patron saint to intercede for us, we are not bypassing Christ — we are asking a member of Christ's Body to join their prayers to ours. Christ is the one mediator (1 Timothy 2:5), but He works through the members of His Body, including the saints in heaven.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Types of Patron Saints</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Personal Patron Saints</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 Every Catholic has at least one personal patron saint — the saint whose name they received at Baptism. If your name is Michael, your patron is St. Michael the Archangel. If your name is Mary, your patron is the Blessed Virgin Mary. If your name is Patrick, your patron is St. Patrick.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 At Confirmation, Catholics choose an additional patron saint — the Confirmation saint. This is a saint you choose deliberately, based on your spiritual needs, your vocation, or your admiration for their life.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Patron Saints of Nations</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 Every nation has one or more patron saints:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>United States:</strong> Our Lady of the Immaculate Conception</li>
                 <li><strong>Ireland:</strong> St. Patrick, St. Brigid, St. Columba</li>
@@ -130,9 +131,9 @@ export default function PatronSaintsGuide() {
               />
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Patron Saints of Professions</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 Almost every profession has a patron saint. Some of the most notable:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Doctors:</strong> St. Luke, St. Raphael</li>
                 <li><strong>Nurses:</strong> St. Camillus de Lellis, St. John of God</li>
@@ -147,9 +148,9 @@ export default function PatronSaintsGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Your Patron Saint</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 If you are looking for a patron saint for a specific need or situation, here are some ways to find one:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Start with your name.</strong> Look up the saint whose name you share. Read their life story. Ask them to be your patron.</li>
                 <li><strong>Consider your profession.</strong> Look up the patron saint of your profession and ask for their intercession in your work.</li>
@@ -159,9 +160,9 @@ export default function PatronSaintsGuide() {
               </ol>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Develop Devotion to Your Patron Saint</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 Once you have found your patron saint, here are ways to develop a real relationship with them:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Learn their life story.</strong> Read a biography or a detailed account of their life. The more you know about them, the more real they become to you.</li>
                 <li><strong>Celebrate their feast day.</strong> Mark their feast day on your calendar. Attend Mass on that day if possible. Do something special to honor them.</li>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerBeforeMealsCatholic() {
   return (
@@ -107,16 +108,16 @@ export default function PrayerBeforeMealsCatholic() {
                 </p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 Notice that the traditional grace after meals includes a prayer for the souls in purgatory. This is a beautiful expression of the Catholic understanding of the communion of saints — even at the family table, we remember those who have gone before us and offer our prayers for their eternal rest.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Catholics Bless Their Food
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 Grace before meals is not merely a social custom or a religious formality. It is a profound theological act with deep spiritual meaning.
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-3 text-text">
                 <li><strong>Gratitude:</strong> Every meal is a gift from God. The food on our table comes ultimately from His providence — from the rain He sends, the soil He created, the hands He guides. Grace before meals is an act of acknowledging this truth and thanking the Giver.</li>
                 <li><strong>Sanctification of daily life:</strong> The Catholic vision of holiness is not confined to church buildings and formal prayer times. Every moment of ordinary life — including eating — can be sanctified and offered to God. Grace before meals transforms a biological necessity into an act of worship.</li>
@@ -127,15 +128,15 @@ export default function PrayerBeforeMealsCatholic() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Biblical Foundation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 The practice of blessing food before eating is deeply rooted in Scripture. Jesus Himself blessed food before distributing it — at the feeding of the five thousand (Matthew 14:19), at the Last Supper (Matthew 26:26), and at the meal in Emmaus (Luke 24:30). In each case, the blessing of food was an act of prayer and thanksgiving to the Father.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 Saint Paul provides the theological foundation for blessing food in his first letter to Timothy: "For everything created by God is good, and nothing is to be rejected if it is received with thanksgiving, for it is made holy by the word of God and prayer" (1 Timothy 4:4-5). This verse is the scriptural basis for the Catholic practice of blessing food — the prayer of thanksgiving makes the meal holy.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 The Book of Deuteronomy also commands Israel to give thanks after eating: "When you have eaten and are satisfied, praise the Lord your God for the good land he has given you" (Deuteronomy 8:10). The Catholic grace after meals stands in this ancient tradition of post-meal thanksgiving.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How Catholic is your daily life?"
@@ -242,25 +243,25 @@ export default function PrayerBeforeMealsCatholic() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Spiritual Meaning of Eating Together
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 In the Catholic tradition, the family meal is not merely a practical necessity — it is a sacred reality. The family table is an image of the altar, and the family gathered around it is an image of the Church gathered around the Eucharist.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Second Vatican Council called the family the "domestic church" (<em>ecclesia domestica</em>). Just as the universal Church gathers around the table of the Lord to receive His Body and Blood, the domestic church gathers around the family table to share food, love, and life. The meal is a sacramental of communion — a visible sign of the invisible bond that unites the family in Christ.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 This is why the breaking of bread is such a powerful image throughout Scripture. At Emmaus, the disciples recognized the risen Jesus "in the breaking of the bread" (Luke 24:35). The early Christians "devoted themselves to the apostles' teaching and to fellowship, to the breaking of bread and to prayer" (Acts 2:42). Every meal shared in faith is a participation in this ancient tradition.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 When a Catholic family prays grace before meals, they are doing something far more significant than reciting a formula. They are declaring that this table belongs to God, that this family is a church, and that every meal is a foretaste of the heavenly banquet.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Start the Habit of Grace Before Meals
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-meals-catholic">
                 If grace before meals is not yet a habit in your home, here is how to start:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-3 text-text">
                 <li><strong>Start simple:</strong> Begin with the traditional "Bless us, O Lord" prayer. It is short, easy to memorize, and theologically complete. Don't wait until you have the perfect prayer — start with this one today.</li>
                 <li><strong>Make it consistent:</strong> Pray grace at every meal, not just dinner. Breakfast and lunch are also gifts from God. Consistency builds the habit and teaches children that all meals are sacred.</li>

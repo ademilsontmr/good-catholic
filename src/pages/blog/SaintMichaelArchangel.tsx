@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMichaelArchangel() {
   return (
@@ -123,9 +124,9 @@ export default function SaintMichaelArchangel() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. The Four Offices of St. Michael
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 Beyond the popular image of the warrior, the Church assigns Michael four distinct roles that impact every stage of a Christian's life and death:
-              </p>
+              </LinkedText>
               <ul className="list-decimal list-inside text-text space-y-4 mb-8">
                 <li><strong>To fight against Satan:</strong> He is the primary opponent of the devil, continuing the battle described in Revelation 12.</li>
                 <li><strong>To rescue the souls of the faithful from the power of the enemy:</strong> Particularly at the hour of death, he protects the soul from final temptations.</li>
@@ -158,9 +159,9 @@ export default function SaintMichaelArchangel() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Famous Prayer to St. Michael: Full Text
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 The Prayer to St. Michael was composed by Pope Leo XIII and ordered to be recited after Low Mass throughout the universal Church. According to tradition, the Pope composed it after a vision in which he saw a terrifying confrontation between Satan and God, in which Satan was given a period of time to try to destroy the Church. Shaken by the vision, Leo XIII composed the prayer and ordered it to be said after every Low Mass — a practice that continued until 1964.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4 text-center">Prayer to St. Michael the Archangel</h3>
@@ -172,19 +173,19 @@ export default function SaintMichaelArchangel() {
                 </p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 There is also a longer version of the prayer, which includes additional invocations and is sometimes called the "long form" of the Prayer to St. Michael. Many Catholics prefer the shorter version for daily use, while the longer form is used in more formal devotional contexts.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 History of the Prayer: Pope Leo XIII
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 Pope Leo XIII (1878–1903) was one of the great popes of the modern era, known for his social encyclicals and his deep concern for the spiritual welfare of the Church. According to the account preserved by his personal secretary, after celebrating Mass one morning in October 1884, the Pope suddenly stopped at the foot of the altar and stood motionless for about ten minutes, his face pale and drawn. He then went to his private chapel and composed the Prayer to St. Michael.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 He later told those around him that he had experienced a vision of demonic spirits gathering around Rome and the Church, and that he had heard a terrifying voice saying that, given enough time and power, he could destroy the Church. God's voice responded, granting Satan a period of time — between 75 and 100 years — to try. Leo XIII, shaken by this vision, composed the prayer and ordered it to be recited after every Low Mass throughout the world.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -196,39 +197,39 @@ export default function SaintMichaelArchangel() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Chaplet of St. Michael
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 The Chaplet of St. Michael is a devotional prayer revealed to a Portuguese Carmelite nun, Antonia d'Astonac, in the 18th century. According to her account, St. Michael appeared to her and asked that he be honored with nine salutations corresponding to the nine choirs of angels. The chaplet consists of nine groups of prayers, each honoring one of the nine choirs of angels, followed by four additional prayers in honor of the four archangels: Michael, Gabriel, Raphael, and Uriel.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 The chaplet is prayed on a special set of beads and takes about 20 minutes to complete. It is a powerful devotion for those who wish to deepen their relationship with the angels and invoke their protection. Pope Pius IX approved the chaplet and granted indulgences to those who pray it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Feast Day: September 29 (Michaelmas)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 The feast of St. Michael the Archangel is celebrated on September 29, a date known in the English-speaking world as "Michaelmas." Since 1969, the feast has been expanded to honor all three archangels named in Scripture — Michael, Gabriel, and Raphael — and is officially called the "Feast of Saints Michael, Gabriel, and Raphael, Archangels."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 Michaelmas has a long history in Western culture as a quarter day — one of the four days of the year when rents were due and accounts were settled. It marked the end of the harvest season and the beginning of autumn. In Catholic tradition, it is a day to honor the angels, to pray for their protection, and to renew our devotion to St. Michael as the guardian of the Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Shrines Dedicated to St. Michael
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 Some of the most beautiful and historically significant shrines in the world are dedicated to St. Michael. The Sanctuary of Monte Sant'Angelo in Puglia, Italy, is the oldest Christian shrine in Western Europe dedicated to an angel — it was established after an apparition of Michael in 490 AD and has been a pilgrimage site for over 1,500 years. Mont Saint-Michel in Normandy, France, is one of the most iconic images in all of Christendom — a monastery perched on a rocky island, dedicated to Michael since the 8th century. In the United States, the Shrine of St. Michael the Archangel in Tarpon Springs, Florida, is a popular pilgrimage destination.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Develop Devotion to St. Michael
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 Developing a devotion to St. Michael is simple and powerful. Begin by praying the Prayer to St. Michael daily — ideally in the morning, as a protection for the day ahead, or at night, as a protection during sleep. Many Catholics also pray it after Mass, continuing the tradition established by Pope Leo XIII. You might also pray the Chaplet of St. Michael on his feast day or on Tuesdays, which are traditionally associated with the angels in some devotional traditions.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-archangel">
                 Consider placing an image or statue of St. Michael in your home — particularly near the entrance, as a sign that your home is under his protection. Learn about the shrines dedicated to him and, if possible, make a pilgrimage to one. Read about his appearances in Scripture and meditate on his role as the great warrior of heaven. And ask him, each day, to defend you in the spiritual battles of your life.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

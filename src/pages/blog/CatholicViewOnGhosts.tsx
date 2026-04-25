@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicViewOnGhosts() {
   return (
@@ -83,9 +84,9 @@ export default function CatholicViewOnGhosts() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. The Souls in Purgatory
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-ghosts">
                 Many Catholic theologians and saints (such as St. Padre Pio and St. Faustina) have suggested that God occasionally allows a soul in Purgatory to manifest to the living.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Why would God allow this? Not to scare us, but to <strong>ask for prayers</strong>. These souls are not "stuck" in a house; they are in a state of purification. If they appear, it is usually to prompt a relative or a person of faith to offer a Mass or a Rosary for them.
               </p>
@@ -108,9 +109,9 @@ export default function CatholicViewOnGhosts() {
               <p className="text-text leading-relaxed mb-6">
                 Exorcists warn that more often than not, "hauntings" are actually the work of fallen angels (demons). Because demons are pure spirits with high intelligence, they are experts at <strong>mimicry</strong>.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-ghosts">
                 They may appear as a "friendly child," a "lost relative," or a "neutral spirit" to gain a person's trust and open a door to their life. This is why the Church strictly forbids any attempt to communicate with the dead (necromancy), through séances, Ouija boards, or "spirit guides."
-              </p>
+              </LinkedText>
 
               <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-8">
                 <h3 className="font-bold text-text mb-2 flex items-center gap-2 text-red-700">
@@ -128,9 +129,9 @@ export default function CatholicViewOnGhosts() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What About "Haunted" Houses?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-ghosts">
                 The Church acknowledges that places can be "infested." This often happens in locations where grave sins were committed (murder, occult rituals) or where someone has invited evil in.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The solution is never a "ghost hunter" or a psychic. The solution is <strong>Jesus Christ</strong>. A Catholic priest can perform a house blessing or a minor ritual of exorcism of a place to reclaim it for God.
               </p>
@@ -143,9 +144,9 @@ export default function CatholicViewOnGhosts() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Protect Yourself and Your Home
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-ghosts">
                 You do not need to be afraid if you are in a state of grace. Here is the Catholic "toolkit" for spiritual protection:
-              </p>
+              </LinkedText>
               <ul className="list-decimal list-inside text-text space-y-3 mb-8">
                 <li><strong>The State of Grace:</strong> Frequent Confession is the best defense. A soul in friendship with God has nothing to fear from shadows.</li>
                 <li><strong>Sacramentals:</strong> Have a blessed Crucifix in every bedroom and use Holy Water. The St. Benedict Medal is also highly effective.</li>

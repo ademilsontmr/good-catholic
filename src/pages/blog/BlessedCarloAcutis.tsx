@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function BlessedCarloAcutis() {
   return (
@@ -76,32 +77,32 @@ export default function BlessedCarloAcutis() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 In an age when the Church is often accused of being out of touch with young people, Carlo Acutis stands as a powerful counterwitness. He was born in 1991, grew up with the internet, loved video games and soccer, had a gift for computer programming — and was also one of the most devout Catholics of his generation. His life proves that holiness is not reserved for another era or another kind of person. It is available to every teenager, every gamer, every ordinary young person who chooses to put God first.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Life in Milan (1991–2006)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 Carlo Acutis was born on May 3, 1991, in London, England, to Italian parents — Andrea Acutis and Antonia Salzano. The family soon moved to Milan, Italy, where Carlo grew up. His parents were not particularly devout Catholics at the time of his birth; it was Carlo himself who, from a very young age, showed an intense attraction to the faith. He began asking to go to Mass daily when he was just seven years old, and he received his First Communion at age seven — a year earlier than his classmates, because his desire for the Eucharist was so evident.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 Carlo was a normal, joyful teenager in many ways. He loved soccer, playing with his pets (he had dogs, cats, rabbits, and goldfish), watching anime, and playing video games — particularly on his PlayStation. He was known for his humor, his kindness to classmates who were bullied, and his ability to connect with people from all walks of life. He was also deeply concerned for the poor and homeless, and regularly brought food and clothing to people living on the streets of Milan.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 What set Carlo apart was the depth of his interior life. He went to daily Mass, prayed the Rosary every day, spent time in Eucharistic Adoration, and went to Confession regularly. He said that the Eucharist was his "highway to Heaven" — the source of everything in his life. He also had a gift for explaining the faith to others, and he used his computer skills to create resources that would help people encounter Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Deep Eucharistic Devotion
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 The center of Carlo's life was the Eucharist. He attended daily Mass from the age of seven, and he described the Eucharist as the most important thing in his life — more important than school, friends, or any of his hobbies. He once said: "All the sadness in the world comes from not knowing Jesus in the Eucharist." This was not a pious platitude for Carlo; it was a conviction that shaped every decision he made.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 He also had a deep devotion to Eucharistic Adoration. He would spend time before the Blessed Sacrament in silence, simply being present to Jesus. He encouraged his friends and classmates to visit Jesus in the tabernacle, explaining that Jesus was truly present there — not symbolically, but really and substantially. His enthusiasm for the Eucharist was contagious, and several of his friends began attending Mass more regularly because of his influence.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -113,25 +114,25 @@ export default function BlessedCarloAcutis() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Website Cataloguing Eucharistic Miracles
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 Carlo's most remarkable project was a website — and later a traveling exhibition — cataloguing Eucharistic miracles from around the world. Beginning at age eleven, he spent years researching, documenting, and presenting cases of Eucharistic miracles: instances where the consecrated Host had visibly transformed into human flesh and blood, or where miraculous events had occurred in connection with the Eucharist.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 The website, which Carlo built himself using his programming skills, documented over 150 Eucharistic miracles from different countries and centuries. He included photographs, historical documentation, and scientific analyses. The project was not just an academic exercise — it was an act of evangelization. Carlo wanted people to know that the Real Presence of Christ in the Eucharist was not just a theological claim but a historical reality confirmed by miracles.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 After his death, the exhibition was printed and has traveled to hundreds of cities around the world, including many in the United States. Millions of people have seen it, and countless conversions and returns to the faith have been attributed to it. Carlo's mother, Antonia, has continued to promote the exhibition as part of her son's legacy.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Love of Video Games and Computers
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 Carlo's love of technology was not separate from his faith — it was an expression of it. He saw computers and the internet as tools that could be used for good or for evil, and he chose to use them for good. He was a skilled programmer who taught himself multiple programming languages, and he used these skills to build websites, create presentations, and produce materials that helped spread the faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 He was also aware of the dangers of technology. He limited his own video game playing to one hour per week, not because he didn't enjoy it, but because he wanted to maintain his priorities. He once said: "We have been given a unique gift — the internet. We can use it to go to God or to go away from God." This wisdom, coming from a teenager in the early 2000s, seems remarkably prescient today.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Is your faith as alive as Carlo's?"
@@ -141,12 +142,12 @@ export default function BlessedCarloAcutis() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Death from Leukemia at 15
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 In October 2006, Carlo was diagnosed with fulminant leukemia — an aggressive form of blood cancer. He was 15 years old. He accepted the diagnosis with remarkable peace, offering his suffering for the Pope and for the Church. He said: "I offer all the suffering I will have to suffer for the Lord, for the Pope, and for the Catholic Church." He died on October 12, 2006, just a few days after his diagnosis.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 His last request was to be buried in Assisi — the city of St. Francis, whom he deeply admired. His wish was granted, and he is buried in the Sanctuary of the Renunciation in Assisi. His tomb has become a major pilgrimage site, drawing hundreds of thousands of visitors each year, particularly young people who see in Carlo a saint for their own generation.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -158,12 +159,12 @@ export default function BlessedCarloAcutis() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Beatification (2020) and Canonization (2025)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 Carlo was beatified by Pope Francis on October 10, 2020, in Assisi — the first millennial to be beatified by the Catholic Church. The miracle approved for his beatification was the healing of a Brazilian child from a rare pancreatic disease after the child's family prayed to Carlo. The beatification ceremony was attended by thousands of young people from around the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 He was canonized by Pope Francis on April 27, 2025, becoming the first millennial saint. His feast day is October 12, the anniversary of his death. His canonization was celebrated with particular joy by young Catholics around the world, who see in him proof that holiness is not just for another age — it is possible here and now, in the digital world, for ordinary young people who choose to put God first.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Prayer to Blessed Carlo Acutis

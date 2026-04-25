@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheBibleCatholic() {
   return (
@@ -59,48 +60,48 @@ export default function WhatIsTheBibleCatholic() {
               <BookOpen className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catholic Church has a rich, nuanced, and deeply reasoned understanding of Sacred Scripture — one that differs in important ways from the approach of many Protestant denominations. Understanding the Catholic view of the Bible is essential not only for apologetics but for a deeper, more fruitful reading of Scripture itself.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Many Books Are in the Catholic Bible?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catholic Bible contains 73 books: 46 in the Old Testament and 27 in the New Testament. Most Protestant Bibles contain only 66 books — the same 27 New Testament books, but only 39 Old Testament books. The difference lies in seven books (and portions of two others) that Catholics call "deuterocanonical" and Protestants call "apocryphal."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The seven deuterocanonical books are: Tobit, Judith, 1 Maccabees, 2 Maccabees, Wisdom (also called the Wisdom of Solomon), Sirach (also called Ecclesiasticus), and Baruch. Portions of Daniel and Esther also appear in the Catholic Bible but not in most Protestant versions.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 Why the difference? The early Church used the Septuagint — the Greek translation of the Hebrew Scriptures — which included these seven books. The Jewish canon was not definitively fixed until after the time of Christ, and the rabbinical council at Jamnia (c. 90 AD) excluded books not found in Hebrew. When Martin Luther translated the Bible in the 16th century, he followed the shorter Hebrew canon, placing the deuterocanonical books in a separate appendix. Most Protestant denominations eventually dropped them entirely.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catholic Church, at the Council of Trent (1546), formally defined the canon of Scripture — including the deuterocanonical books — as the authentic Word of God. This was not an innovation; it confirmed what the Church had always believed and practiced.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Biblical Inspiration: God and Human Authors Together</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catechism of the Catholic Church teaches that "God is the author of Sacred Scripture" (CCC 105). But this does not mean that God dictated the Bible word-for-word to passive human secretaries. The Catholic understanding of inspiration is more nuanced and more beautiful than that.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 CCC 106 explains: "God inspired the human authors of the sacred books. To compose the sacred books, God chose certain men who, all the while he employed them in this task, made full use of their own faculties and powers so that, though he acted in them and by them, it was as true authors that they consigned to writing whatever he wanted written, and no more."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 This means that the human authors of Scripture — Moses, David, Isaiah, Paul, John — were true authors. They wrote in their own styles, from their own historical contexts, using their own literary forms and vocabulary. God did not override their humanity; he worked through it. The result is a text that is simultaneously fully human and fully divine — analogous, in a way, to the Incarnation itself.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 CCC 107 adds: "The inspired books teach the truth. Since therefore all that the inspired authors or sacred writers affirm should be regarded as affirmed by the Holy Spirit, we must acknowledge that the books of Scripture firmly, faithfully, and without error teach that truth which God, for the sake of our salvation, wished to see confided to the Sacred Scriptures."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Biblical Inerrancy: What It Means and What It Doesn't</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catholic Church teaches that Scripture is inerrant — free from error — in what it affirms for the sake of our salvation. This is a carefully qualified claim. It does not mean that the Bible is a textbook of science or history in the modern sense. It means that Scripture does not err in what it intends to teach about God, salvation, and the moral life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Second Vatican Council's document on Scripture, Dei Verbum (1965), states: "the books of Scripture must be acknowledged as teaching solidly, faithfully and without error that truth which God wanted put into sacred writings for the sake of salvation" (DV 11). The key phrase is "for the sake of salvation" — inerrancy applies to the salvific content of Scripture, not to every incidental historical or scientific detail.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 This means that when Genesis describes creation in six days, the Catholic reader is not required to interpret this as a literal 144-hour period. The Church has always recognized that Scripture uses different literary forms — poetry, history, prophecy, parable, apocalyptic — and that each must be interpreted according to its own genre and the intention of its author.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -108,56 +109,56 @@ export default function WhatIsTheBibleCatholic() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and Tradition: Why Catholics Don't Believe in Sola Scriptura</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 One of the most important differences between Catholic and Protestant Christianity is the Catholic rejection of sola scriptura — the Protestant principle that Scripture alone is the sufficient rule of faith. Catholics believe that Scripture and Sacred Tradition together constitute the one deposit of faith, and that the Magisterium (the teaching authority of the Church) is the authentic interpreter of both.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catholic argument against sola scriptura is both historical and logical. Historically: the Bible did not fall from heaven fully formed. The New Testament was written over several decades, and the canon of Scripture was not definitively established until the late 4th century — by the Church, through the Councils of Hippo (393 AD) and Carthage (397 AD). The Church existed before the New Testament; the Church produced the New Testament; and the Church defined which books belong to the New Testament. To say that Scripture alone is the rule of faith is to ignore the role of the Church in producing and authenticating Scripture.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 Logically: the principle of sola scriptura is self-refuting. The Bible nowhere teaches that the Bible alone is the sufficient rule of faith. In fact, 2 Thessalonians 2:15 explicitly commands Christians to "hold fast to the traditions that you were taught by us, either by our spoken word or by our letter" — placing oral tradition on equal footing with written Scripture.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Catholic Church Compiled the Bible</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The canon of the New Testament was not obvious from the beginning. In the early centuries of Christianity, various communities used different collections of texts. Some books now in the New Testament (like Hebrews, James, and Revelation) were disputed; some books not in the New Testament (like the Didache and the Shepherd of Hermas) were used in some communities.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The process of canonization was gradual, guided by the Church's discernment of which texts were apostolic in origin, consistent with the rule of faith, and universally received. The Councils of Hippo (393 AD) and Carthage (397 AD) formally listed the 27 books of the New Testament and the 46 books of the Old Testament (including the deuterocanonicals) as the authentic canon of Scripture. Pope Innocent I confirmed this list in 405 AD.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 This history is important: it shows that the Bible is not a self-authenticating document that fell from heaven. It is the product of the Church's discernment, guided by the Holy Spirit. The Church gave us the Bible — which is why the Church, not the individual reader, is the authoritative interpreter of the Bible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Senses of Scripture</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catholic tradition recognizes four senses of Scripture — four levels of meaning that can be found in the sacred text. This approach, developed by the Church Fathers and systematized in the medieval period, allows for a rich, multi-layered reading of Scripture:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Literal Sense:</strong> The meaning conveyed by the words themselves, according to the rules of grammar and the intention of the author. This is the foundation of all other senses.</li>
                 <li><strong>The Allegorical Sense:</strong> The deeper meaning of events and persons in Scripture as they point to Christ and the Church. For example, the crossing of the Red Sea is a type of Baptism.</li>
                 <li><strong>The Moral Sense (Tropological):</strong> The meaning of Scripture for how we should act. Events in Scripture teach us how to live virtuously.</li>
                 <li><strong>The Anagogical Sense:</strong> The meaning of Scripture in light of our eternal destiny — how earthly realities point toward heaven. The earthly Jerusalem, for example, points toward the heavenly Jerusalem.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catechism summarizes this with a medieval couplet: "The Letter speaks of deeds; Allegory to faith; The Moral how to act; Anagogy our destiny" (CCC 118).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Catholics Read the Bible</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 Catholics encounter Scripture primarily through the liturgy. The Mass includes readings from the Old Testament, the Psalms, the New Testament letters, and the Gospels — following a three-year cycle (the Lectionary) that covers most of the Bible. This means that a Catholic who attends Mass regularly will hear the vast majority of Scripture proclaimed over three years.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 Beyond the liturgy, the Church encourages personal reading of Scripture through Lectio Divina — a method of prayerful reading that involves reading, meditating, praying, and contemplating a passage of Scripture. The Liturgy of the Hours (the Divine Office) also incorporates extensive Scripture reading throughout the day.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catechism of the Catholic Church is itself deeply scriptural — nearly every paragraph is grounded in Scripture. Reading the Catechism alongside the Bible is one of the best ways to understand the Catholic interpretation of Scripture.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Recommended Catholic Bible Translations</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 Not all Bible translations are equal, and Catholics should use translations that are faithful to the original languages and approved by the Church. Here are the most recommended:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>New American Bible Revised Edition (NABRE):</strong> The official translation used at Mass in the United States. Scholarly and accessible, with extensive footnotes.</li>
                 <li><strong>Revised Standard Version — Catholic Edition (RSV-CE):</strong> Widely regarded as the best Catholic translation for study and prayer. Combines literary beauty with scholarly accuracy. Used by the Catechism and many Catholic theologians.</li>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsCatholicFaith() {
   return (
@@ -59,28 +60,28 @@ export default function WhatIsCatholicFaith() {
               <Cross className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Whether you are a seeker exploring Christianity for the first time, a lapsed Catholic returning to the faith, or someone who simply wants to understand what their Catholic neighbors believe, this introduction covers the essentials. The Catholic faith is not merely a set of rules or rituals — it is a comprehensive vision of God, humanity, and the universe, rooted in 2,000 years of Scripture, Tradition, and lived experience.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Makes Catholicism Unique Among Christian Denominations?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 There are thousands of Christian denominations in the world, but Catholicism stands apart in several key ways. First, Catholics claim an unbroken historical continuity with the Church founded by Jesus Christ and his apostles. The Catholic Church traces its leadership through an uninterrupted line of popes back to Saint Peter, whom Jesus appointed as the head of his Church (Matthew 16:18).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Second, Catholicism holds that divine revelation comes through two sources: Sacred Scripture (the Bible) and Sacred Tradition (the living teaching of the Church passed down through the apostles). This is different from most Protestant denominations, which hold to "Scripture alone" (sola scriptura) as the rule of faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Third, the Catholic Church has a visible, hierarchical structure — the Pope, bishops, priests, and deacons — that Catholics believe was instituted by Christ himself. This structure gives the Church a unity and authority that transcends individual interpretation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Finally, the Catholic faith is sacramental: it holds that God works through physical signs — water, bread, wine, oil, touch — to communicate grace. The seven sacraments are not merely symbols; they are real encounters with the living Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Pillars of Catholic Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 The Catechism of the Catholic Church organizes the faith around four pillars, sometimes called the "four C's":
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Creed (What Catholics Believe).</strong> The Nicene Creed summarizes the core doctrines of the faith: the Trinity, the Incarnation, the Resurrection, the Church, and eternal life.</li>
                 <li><strong>Code (How Catholics Live).</strong> The moral life — the Ten Commandments, the Beatitudes, natural law, and the virtues — guides Catholics in living as disciples of Christ.</li>
@@ -89,9 +90,9 @@ export default function WhatIsCatholicFaith() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Nicene Creed: What Catholics Believe</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 The Nicene Creed, formulated at the Councils of Nicaea (325 AD) and Constantinople (381 AD), is the definitive statement of Catholic belief. Catholics recite it at every Sunday Mass. Its key affirmations include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>One God in Three Persons.</strong> God is Father, Son, and Holy Spirit — three distinct Persons sharing one divine nature. This is the mystery of the Trinity.</li>
                 <li><strong>The Incarnation.</strong> The Son of God, Jesus Christ, became fully human — born of the Virgin Mary — without ceasing to be fully divine. This is the central mystery of Christianity.</li>
@@ -107,9 +108,9 @@ export default function WhatIsCatholicFaith() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Seven Sacraments: The Backbone of Catholic Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 The seven sacraments are the most distinctive feature of Catholic life. They are not merely ceremonies or symbols — they are real encounters with Christ that communicate grace. The seven sacraments are:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Baptism.</strong> The gateway to the Christian life. Baptism washes away original sin, makes the person a child of God, and incorporates them into the Church.</li>
                 <li><strong>Confirmation.</strong> Strengthens the gifts of the Holy Spirit received at Baptism and seals the person as a full member of the Church.</li>
@@ -121,42 +122,42 @@ export default function WhatIsCatholicFaith() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mary and the Saints: Why Catholics Honor Them</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 One of the most misunderstood aspects of Catholicism is the veneration of Mary and the saints. Catholics do not worship Mary or the saints — they worship God alone. But they do honor them and ask for their intercession, just as they might ask a friend to pray for them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Mary holds a unique place in Catholic devotion as the Mother of God (Theotokos) — the woman who said "yes" to God and bore the Son of God in her womb. Catholics believe she was conceived without original sin (the Immaculate Conception), remained a virgin throughout her life, and was assumed body and soul into heaven (the Assumption). She is the greatest of all the saints and the model of perfect discipleship.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 The saints are men and women who lived lives of heroic virtue and are now with God in heaven. Catholics believe they can intercede for us before God — not because they have power of their own, but because they are alive in Christ and their prayers are powerful. The Communion of Saints is the great family of God that spans heaven, purgatory, and earth.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Pope and the Magisterium: Teaching Authority</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 The Catholic Church claims a unique teaching authority — the Magisterium — entrusted to the Pope and the bishops in communion with him. This authority is not a human invention but a divine gift: Jesus promised that the Holy Spirit would guide the Church into all truth (John 16:13) and that the gates of hell would not prevail against it (Matthew 16:18).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 The Pope, as the successor of Saint Peter, has a special role as the visible head of the Church and the guardian of unity. When the Pope speaks ex cathedra (from the chair) on matters of faith and morals, Catholics believe he is protected from error by the Holy Spirit — this is the doctrine of papal infallibility, defined at the First Vatican Council in 1870.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 The Magisterium does not invent new doctrines — it guards and interprets the deposit of faith handed down from the apostles. The Catechism of the Catholic Church (1992) is the most comprehensive modern statement of Catholic teaching.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Moral Vision</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Catholic morality is not a list of arbitrary rules but a coherent vision of human flourishing rooted in natural law, the Ten Commandments, and the Beatitudes. Natural law holds that God has written the moral law into human nature itself — reason can discern right from wrong without divine revelation, though revelation clarifies and elevates what reason can discover.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 The Ten Commandments provide the basic framework of moral life: love of God (the first three commandments) and love of neighbor (the last seven). The Beatitudes — "Blessed are the poor in spirit... blessed are the meek... blessed are the peacemakers" — describe the character of the person who lives fully in God's kingdom.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Catholic moral teaching covers every dimension of human life: sexuality and marriage, social justice and the economy, the sanctity of life from conception to natural death, the care of creation, and the pursuit of peace. It is demanding — but it is also deeply humanizing, because it takes seriously the dignity of every human person made in the image of God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Begin Exploring the Catholic Faith</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 If you are drawn to the Catholic faith and want to explore it further, here are practical steps:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Attend Mass.</strong> The best way to understand Catholicism is to experience it. You are welcome to attend Mass as a visitor — you do not need to receive Communion, but you can observe, pray, and absorb the liturgy.</li>
                 <li><strong>Find an RCIA program.</strong> The Rite of Christian Initiation of Adults (RCIA) is the Church's formal process for adults who want to become Catholic. It typically runs from September to Easter and covers the basics of the faith in a welcoming community setting.</li>

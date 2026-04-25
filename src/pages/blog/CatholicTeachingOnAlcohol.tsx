@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnAlcohol() {
   return (
@@ -59,31 +60,31 @@ export default function CatholicTeachingOnAlcohol() {
               <HelpCircle className="w-24 h-24 text-amber-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 Few topics generate more confusion among Catholics than alcohol. Some Catholics drink freely, citing Jesus's miracle at Cana. Others abstain entirely, citing the dangers of addiction. Some Protestant traditions condemn all alcohol use as sinful. What does the Catholic Church actually teach? The answer is nuanced, rooted in Scripture, the Catechism, and the virtue of temperance.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Distinction: Drinking vs. Drunkenness</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The Catholic Church makes a fundamental distinction between drinking alcohol in moderation and becoming drunk. Moderate drinking is not sinful. Drunkenness is. This distinction is not a modern accommodation to culture — it is rooted in Scripture, the writings of the Church Fathers, and the consistent teaching of the Magisterium.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The Catechism of the Catholic Church addresses this in paragraph 2290, under the virtue of temperance:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed">
                   "The virtue of temperance disposes us to avoid every kind of excess: the abuse of food, alcohol, tobacco, or medicine. Those incur grave guilt who, by drunkenness or a love of speed, endanger their own and others' safety on the road, at sea, or in the air."
                 </p>
                 <p className="text-text-muted text-sm mt-2">— Catechism of the Catholic Church, 2290</p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 Note what the Catechism says: it condemns the "abuse" of alcohol and drunkenness, not alcohol itself. The Church's concern is with excess — with the loss of reason and self-control that drunkenness causes.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Wine in the Bible and Catholic Tradition</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The Catholic tradition has never viewed alcohol as inherently evil, and the reason is simple: the Bible doesn't. Wine appears throughout Scripture as a gift from God, a sign of blessing, and a vehicle of grace.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Psalm 104:15</strong> praises God for "wine to gladden the human heart."</li>
                 <li><strong>Ecclesiastes 9:7</strong> says: "Drink your wine with a merry heart, for God has already approved what you do."</li>
@@ -91,25 +92,25 @@ export default function CatholicTeachingOnAlcohol() {
                 <li><strong>John 2:1–11</strong> — Jesus's first miracle was turning water into wine at the wedding feast of Cana. And not just any wine: the headwaiter noted that it was better than what had been served before.</li>
                 <li><strong>The Last Supper</strong> — Jesus took a cup of wine and said, "This is my blood of the covenant." Wine is the matter of the Eucharist — the most sacred act of Catholic worship.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The Catholic tradition has always understood these texts as affirming that wine — and by extension, alcohol in moderation — is a legitimate gift of God's creation. The Church Fathers, including St. Augustine and St. Thomas Aquinas, affirmed this view. Aquinas, in his Summa Theologica, explicitly taught that moderate drinking is not sinful.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Virtue of Temperance</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The Catholic moral framework for alcohol is built on the virtue of temperance — one of the four cardinal virtues, alongside prudence, justice, and fortitude. Temperance is the virtue that moderates the appetite for pleasure, ensuring that the enjoyment of good things does not become disordered or excessive.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 Temperance does not mean abstinence from all pleasure. It means the right ordering of pleasure — enjoying good things in the right amount, at the right time, for the right reasons. A temperate person can enjoy a glass of wine with dinner without it becoming an occasion of sin. An intemperate person cannot stop at one glass and loses control of their reason and behavior.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 St. Thomas Aquinas taught that temperance is not about eliminating pleasure but about integrating it into a well-ordered life. The goal is not to be a joyless ascetic but to be a person whose enjoyment of good things is free, ordered, and life-giving.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Does Drinking Become a Sin?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The Catholic tradition identifies several ways in which drinking can become sinful:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Drunkenness.</strong> Deliberately drinking to the point of losing the use of reason is a sin. The Catechism calls it a grave matter. St. Paul lists drunkenness among the works of the flesh that exclude one from the Kingdom of God (Galatians 5:21; 1 Corinthians 6:10).</li>
                 <li><strong>Endangering others.</strong> Drinking and driving, or drinking in ways that put others at risk, is gravely sinful — the Catechism explicitly mentions this.</li>
@@ -119,12 +120,12 @@ export default function CatholicTeachingOnAlcohol() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Is Drunkenness a Mortal Sin?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The traditional Catholic teaching is that deliberate drunkenness — intentionally drinking to the point of losing the use of reason — is a mortal sin when done with full knowledge and full consent. This is because it involves grave matter (the deliberate impairment of reason, which is the highest human faculty), and it typically involves full knowledge and consent.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 However, the Church also recognizes that addiction significantly diminishes freedom and thus culpability. A person in the grip of alcoholism may not be fully free in their drinking. This does not make their drinking morally neutral, but it does affect the degree of personal guilt. The Church calls such persons to seek healing — through the sacraments, professional treatment, and community support.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -132,32 +133,32 @@ export default function CatholicTeachingOnAlcohol() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Alcoholism: Disease and Moral Disorder</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The Catholic Church recognizes alcoholism as both a disease and a moral disorder — not in the sense that the alcoholic is simply a bad person, but in the sense that the disorder affects the whole person: body, soul, and will. Modern medicine has confirmed that alcoholism involves genuine neurological changes that impair the ability to stop drinking. The Church takes this seriously.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 At the same time, the Catholic tradition insists that the person is never merely a victim of their biology. Grace is real. Healing is possible. The sacraments — especially Confession and the Eucharist — provide genuine spiritual power to overcome addiction. Many Catholics in recovery testify that their faith was the decisive factor in their sobriety.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Path to Sobriety</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 For Catholics struggling with alcohol, the Church offers a rich tradition of resources:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Sacraments</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 Frequent Confession and regular reception of the Eucharist are the primary spiritual tools for overcoming addiction. Confession restores grace and provides the spiritual strength to resist temptation. The Eucharist nourishes the soul with the very life of Christ. Many Catholics in recovery attend daily Mass as a cornerstone of their sobriety.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Alcoholics Anonymous</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 Alcoholics Anonymous (AA), founded in 1935, has helped millions of people achieve sobriety. Its 12-step program is explicitly spiritual — it calls members to acknowledge their powerlessness over alcohol, to turn their lives over to a "Higher Power," and to make amends for the harm they have caused. While AA is not specifically Catholic, its spirituality is compatible with Catholic faith, and many Catholics have found it transformative.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Catholic-Specific Support</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 Several Catholic organizations offer faith-based support for those struggling with alcohol:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Calix Society</strong> — a Catholic organization for alcoholics in recovery, founded in 1947, that integrates AA with Catholic spirituality and the sacraments</li>
                 <li><strong>Catholic Charities</strong> — many dioceses offer counseling and addiction services through Catholic Charities</li>
@@ -165,16 +166,16 @@ export default function CatholicTeachingOnAlcohol() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saints Who Struggled with Alcohol</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 The Catholic tradition includes saints who struggled with alcohol and found healing through faith — a reminder that no one is beyond God's mercy:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Blessed Matt Talbot (1856–1925)</strong> — an Irish laborer who was a severe alcoholic from age 12 to 28, when he took a pledge of sobriety and became a model of Catholic piety. He is on the path to canonization and is the patron of those struggling with alcoholism.</li>
                 <li><strong>St. Monica</strong> — while not an alcoholic herself, St. Monica struggled with a fondness for wine in her youth, which she overcame through prayer and self-discipline. She is a model of perseverance in prayer for those with addictions.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 Blessed Matt Talbot is particularly significant. After years of severe alcoholism, he made a pledge of sobriety on September 5, 1884, and kept it for the rest of his life — 41 years. He attended daily Mass, prayed the Rosary, and wore penitential chains as a sign of his dependence on God. His life is a powerful witness that sobriety is possible through faith, even for the most severe alcoholic.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

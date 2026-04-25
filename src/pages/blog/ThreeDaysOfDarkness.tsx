@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ThreeDaysOfDarkness() {
   return (
@@ -83,9 +84,9 @@ export default function ThreeDaysOfDarkness() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Primary Sources: Taigi and Jahenny
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="three-days-of-darkness-prophecy">
                 The core of this prophecy rests on the shoulders of two holy women recognized by the Church for their extraordinary virtue.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-4">
                 Blessed Anna Maria Taigi (1769–1837)
@@ -113,9 +114,9 @@ export default function ThreeDaysOfDarkness() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Biblical Foundations: From Egypt to the Apocalypse
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="three-days-of-darkness-prophecy">
                 The concept of three days of terrifying darkness is not an invention of the 19th century. It is a recurring pattern in Salvation History:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>The Ninth Plague of Egypt:</strong> Exodus 10:21 describes a "darkness that could be felt" for three days. While Egypt was in terror, "all the Israelites had light in their dwellings."</li>
                 <li><strong>The Crucifixion:</strong> The Gospels record that from the sixth to the ninth hour, "darkness was over all the land" (Matthew 27:45).</li>
@@ -128,9 +129,9 @@ export default function ThreeDaysOfDarkness() {
               <p className="text-text leading-relaxed mb-6">
                 A unique element in both Taigi and Jahenny's visions is that only <strong>100% pure beeswax candles</strong>, blessed by a priest, will burn during the darkness. 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="three-days-of-darkness-prophecy">
                 Theologically, this has deep meaning. In the Church's ancient Liturgy, the beeswax (the fruit of the virgin bee) symbolises the **Precious Flesh** of Christ; the wick symbolises His **Soul**; and the flame His **Divinity**. To have a blessed candle burning is to physically manifest the light of Christ in a world that has turned its back on Him.
-              </p>
+              </LinkedText>
 
               <div className="bg-amber-50 border border-amber-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -176,9 +177,9 @@ export default function ThreeDaysOfDarkness() {
               <p className="text-text leading-relaxed mb-6">
                 It is easy to become obsessed with the "survival" aspect of prophecy. However, the mystics teach that the true darkness is <strong>sin</strong>. If we are at peace with God, the three days of darkness should have no terror for us. As St. Paul says, "If God is for us, who can be against us?"
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="three-days-of-darkness-prophecy">
                 The Church's official stance, as reflected in the **Catechism (CCC 67)**, reminds us that while these revelations are not required belief, they can be "light in our path" as long as they never distract us from the Gospel and the Sacraments.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

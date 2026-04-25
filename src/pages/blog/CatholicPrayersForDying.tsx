@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicPrayersForDying() {
   return (
@@ -76,42 +77,42 @@ export default function CatholicPrayersForDying() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 Death is the most universal human experience, and yet it remains the one we are least prepared for. When a loved one is dying — whether suddenly or after a long illness — Catholics have access to a rich tradition of prayer, sacrament, and spiritual accompaniment that can bring profound comfort to both the dying person and those gathered at the bedside. This guide covers everything you need to know: the sacraments available, the prayers to pray, and the practical steps to take when someone you love is approaching death.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Sacrament of Anointing of the Sick
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 The most important thing you can do when a Catholic is seriously ill or dying is to call a priest. The Sacrament of Anointing of the Sick — sometimes called "Last Rites" or "Extreme Unction" in older terminology — is one of the seven sacraments of the Church, and it is specifically designed for those who are gravely ill, facing surgery, or in danger of death.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 The sacrament consists of the priest anointing the sick person's forehead and hands with blessed oil (the Oil of the Sick) while praying: "Through this holy anointing may the Lord in his love and mercy help you with the grace of the Holy Spirit. May the Lord who frees you from sin save you and raise you up." The effects of this sacrament are profound: it unites the sick person to the Passion of Christ, strengthens them against temptation, brings peace and courage, and — if the person is unable to confess — can bring forgiveness of sins.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 Importantly, the Anointing of the Sick is not only for those who are moments from death. It can and should be received by anyone who is seriously ill, facing major surgery, or in the frailty of old age. Do not wait until the last moment — call a priest as soon as you know someone is seriously ill. If the person is unconscious or unable to speak, the sacrament can still be administered.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Viaticum: The Final Communion
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 Viaticum — from the Latin word for "provisions for a journey" — is the name given to Holy Communion received by a person who is dying. It is the Church's final gift to her children: the Body of Christ as food for the journey from this life to the next. Jesus promised: "Whoever eats my flesh and drinks my blood has eternal life, and I will raise him on the last day" (John 6:54).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 When a priest brings Viaticum to the dying, he carries the Eucharist in a pyx (a small container) and administers it with special prayers. If the dying person cannot swallow, even a tiny fragment of the Host is sufficient. The Church considers Viaticum so important that it is the one sacrament that can be received even by those who have already received Communion that day.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Apostolic Pardon
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 The Apostolic Pardon (also called the Apostolic Blessing) is a special blessing given by a priest to a dying person that grants a plenary indulgence — the full remission of all temporal punishment due to sin. The priest says: "By the faculty given to me by the Apostolic See, I grant you a plenary indulgence and the remission of all your sins, and I bless you. In the name of the Father, and of the Son, and of the Holy Spirit."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 This extraordinary grace is available to any Catholic who is in danger of death. Ask the priest to give the Apostolic Pardon when he comes to anoint the sick. If no priest is available, a dying person who is contrite and has the intention of receiving the sacraments can receive a plenary indulgence at the moment of death by invoking the name of Jesus.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How prepared is your faith for life's hardest moments?"
@@ -159,9 +160,9 @@ export default function CatholicPrayersForDying() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Prayer of Commendation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 The Church's official prayer at the moment of death is called the Prayer of Commendation (Commendatio Animae — "Commending the Soul"). It is found in the Pastoral Care of the Sick rite and is traditionally prayed as death approaches or at the moment of death. A portion of it reads:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed">
@@ -188,22 +189,22 @@ export default function CatholicPrayersForDying() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Prayers After Death
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 After a loved one has died, the Church continues to pray for them. The most powerful prayer for the dead is the Holy Mass — having a Mass offered for the repose of the soul of the deceased is the greatest act of charity you can perform for them. The Rosary, the Divine Mercy Chaplet, and prayers for the Holy Souls in Purgatory are also powerful intercessions.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 A simple prayer after death: "Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May their soul and the souls of all the faithful departed, through the mercy of God, rest in peace. Amen."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Church's Teaching on Death and Eternal Life
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 The Catholic Church teaches that death is not the end but a passage — a birth into eternal life. The Catechism of the Catholic Church states: "Death is the end of man's earthly pilgrimage, of the time of grace and mercy which God offers him so as to work out his earthly life in keeping with the divine plan, and to decide his ultimate destiny" (CCC 1013). At the moment of death, each person undergoes the particular judgment — an immediate encounter with Christ who is Truth itself.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 For Catholics, death is not something to be feared but something to be prepared for. The saints spoke of death as the "great passage," the moment when faith becomes sight and hope becomes possession. St. Francis of Assisi called death "Sister Death." St. Thérèse of Lisieux said, "I am not dying; I am entering into life." This is the hope that sustains us at every deathbed — the hope of the Resurrection.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
                 <p className="text-text italic text-center">

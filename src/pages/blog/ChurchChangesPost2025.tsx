@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ChurchChangesPost2025() {
     return (
@@ -75,9 +76,9 @@ export default function ChurchChangesPost2025() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 With the closing of the Holy Doors in January 2026, the Catholic Church enters a new cycle. The Jubilee of 2025 left a deep mark on global spirituality, but now the challenge is the "pastoral of hope" — how to transform the enthusiasm of pilgrimages into lasting Christian commitment.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="What is your place in the Church?"
@@ -85,38 +86,38 @@ export default function ChurchChangesPost2025() {
                             />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Church's Unchanging Foundation</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 Before discussing changes, it is essential to affirm what never changes: Catholic doctrine on faith and morals is immutable. The deposit of faith — Scripture and Sacred Tradition — cannot be altered. What develops is the Church's understanding and expression of doctrine (doctrinal development), not the doctrine itself. Disciplines can change; dogmas cannot.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 Christ promised: "The gates of hell shall not prevail against it" (Matthew 16:18). This is not a guarantee of human perfection in the Church, but of divine protection of the truth. Catholics can navigate change with confidence because the Church's foundation is Christ, not any particular pope, bishop, or theological trend.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Consolidation of Synodality</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 One of the great legacies of the 2021-2025 period was the Synod on Synodality — a global consultation process that asked Catholics worldwide: "How is God calling us to be a more missionary, listening Church?" In 2026, we will see the practical application of synodal guidelines in parishes: greater participation of the laity, active listening, and a more missionary and less bureaucratic Church.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 Synodality does not mean changing doctrine by popular vote. It means the Church listening more carefully to the Holy Spirit speaking through all the faithful — clergy, religious, and laity — while maintaining the hierarchical structure Christ established.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Focus on Integral Ecology and Social Justice</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 Pope Francis will continue to promote the themes of Laudato Si' (2015) and Fratelli Tutti (2020). The Church's engagement with ecological and social justice issues is not a departure from the Gospel but an expression of it. Care for creation is care for the poor — those most affected by environmental degradation are always the most vulnerable.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Digital Evangelization and New Media</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 The Church will continue to explore digital frontiers. Blessed Carlo Acutis, beatified in 2020 and canonized in 2025, is the patron of the internet — a sign that the Church embraces digital culture as a field of evangelization. Catholic podcasts, YouTube channels, social media accounts, and apps are reaching millions who would never enter a church building.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 The challenge is maintaining depth and authenticity in a medium that rewards superficiality. The most effective Catholic digital evangelists are those who combine genuine holiness with digital fluency — not those who simply replicate secular content with a religious veneer.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Catholics Should Respond to Change</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 Change in the Church can be unsettling, especially for those who love the tradition. Here is a framework for navigating change with faith and charity:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">
                                 <li><strong>Distinguish doctrine from discipline:</strong> Doctrines (what we believe) are unchangeable. Disciplines (how we practice) can change. Know the difference.</li>
                                 <li><strong>Stay close to the sacraments:</strong> Whatever changes in the Church's external life, the sacraments remain the channels of grace. Mass, Confession, and Eucharistic Adoration are your anchors.</li>

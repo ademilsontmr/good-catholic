@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnHeaven() {
   return (
@@ -61,43 +62,43 @@ export default function CatholicTeachingOnHeaven() {
             <div className="prose prose-lg max-w-none">
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Teaches About Heaven (CCC 1023–1029)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The Catechism of the Catholic Church defines heaven with remarkable precision. According to CCC 1023: "Those who die in God's grace and friendship and are perfectly purified live for ever with Christ. They are like God for ever, for they 'see him as he is' (1 John 3:2), face to face."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 CCC 1024 continues: "This perfect life with the Most Holy Trinity — this communion of life and love with the Trinity, with the Virgin Mary, the angels and all the blessed — is called 'heaven.' Heaven is the ultimate end and fulfillment of the deepest human longings, the state of supreme, definitive happiness."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The Catechism also teaches (CCC 1025) that to live in heaven is "to be with Christ." The elect live "in Christ," but they retain, or rather find, their true identity, their own name. Heaven is not absorption into God — it is a personal, conscious, eternal relationship with Him.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 CCC 1027 describes heaven as "the blessed community of all who are perfectly incorporated into Christ." It is not a solitary experience but a communal one — the Church in its fullness, the Communion of Saints in perfect unity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Beatific Vision: Seeing God Face to Face</h2>
               <p className="text-text leading-relaxed mb-6">
                 The central reality of heaven is what theologians call the <em>Beatific Vision</em> — the direct, immediate knowledge and experience of God as He is in Himself. This is not merely knowing <em>about</em> God, as we do in this life through faith and reason. It is knowing God directly, face to face, as He knows Himself.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 St. Paul writes: "For now we see in a mirror dimly, but then face to face. Now I know in part; then I shall know fully, even as I have been fully known" (1 Corinthians 13:12). The Beatific Vision is the fulfillment of this promise — the complete, unmediated encounter with the living God.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 This vision is not something the human intellect can achieve on its own. It requires what theologians call the <em>lumen gloriae</em> — the "light of glory" — a supernatural gift by which God elevates the human mind to be capable of seeing Him. As the Catechism states (CCC 1028): "Because of his transcendence, God cannot be seen as he is, unless he himself opens up his mystery to man's immediate contemplation and gives him the capacity for it."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The Beatific Vision is the source of all the joy of heaven. Every other good in heaven — the reunion with loved ones, the beauty of the heavenly Jerusalem, the company of the saints — flows from and is ordered to this central reality: seeing God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Happens Immediately After Death</h2>
               <p className="text-text leading-relaxed mb-6">
                 The Catholic Church teaches that immediately after death, each person undergoes the <em>particular judgment</em> — a personal encounter with Christ in which the soul's entire life is reviewed and its eternal destiny is determined. This is distinct from the <em>Last Judgment</em> at the end of time, which will be public and universal.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The Catechism (CCC 1022) teaches: "Each man receives his eternal retribution in his immortal soul at the very moment of his death, in a particular judgment that refers his life to Christ: either entrance into the blessedness of heaven — through a purification or immediately — or immediate and everlasting damnation."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 Those who die in God's grace but still need purification enter Purgatory — a state of final purification before entering heaven. Those who die in perfect charity enter heaven immediately. Those who die in a state of mortal sin, rejecting God's mercy to the end, enter hell.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -105,53 +106,53 @@ export default function CatholicTeachingOnHeaven() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Will We Recognize Our Loved Ones in Heaven?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 This is one of the most common and heartfelt questions about heaven. The answer, according to Catholic theology, is yes — we will recognize and be reunited with those we love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The basis for this belief is the resurrection of the body. We will not be disembodied spirits in heaven — we will have glorified bodies, real and recognizable. Jesus Himself, after His resurrection, was recognized by His disciples (John 20:16, 20; Luke 24:31). The disciples on the road to Emmaus recognized Him in the breaking of the bread. Thomas recognized the wounds in His hands and side.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 St. Thomas Aquinas taught that in heaven, the blessed will know each other perfectly — not just those they knew on earth, but all the saints. The Communion of Saints is a real community of persons who know and love one another in God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The reunion with loved ones in heaven is not a distraction from God — it is part of the joy of heaven. We love others because God loves them, and in heaven, that love is perfected and purified. We will love our family and friends more perfectly in heaven than we ever could on earth.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Will We Have Bodies in Heaven?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 Yes. The resurrection of the body is a core dogma of the Catholic faith, professed in the Apostles' Creed and the Nicene Creed. At the Last Judgment, the souls of the blessed will be reunited with their glorified bodies — transformed, perfected, and no longer subject to suffering, death, or decay.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 St. Paul describes the glorified body in 1 Corinthians 15:42–44: "What is sown is perishable; what is raised is imperishable. It is sown in dishonor; it is raised in glory. It is sown in weakness; it is raised in power. It is sown a natural body; it is raised a spiritual body."
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Theologians, following St. Thomas Aquinas, identify four qualities of the glorified body: <em>impassibility</em> (freedom from suffering and death), <em>subtlety</em> (the body is fully subject to the soul), <em>agility</em> (the body can move instantly wherever the soul wills), and <em>clarity</em> (the body radiates the glory of the soul). Jesus's glorified body — which could pass through locked doors yet could eat and be touched — is the model for our own resurrection.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Will We Do in Heaven?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 Heaven is not an eternal vacation or a passive state of bliss. The Church teaches that the blessed in heaven are fully active — they know, love, praise, and serve God with perfect freedom and joy. They intercede for those still on earth. They participate in the eternal liturgy of heaven described in the Book of Revelation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The Book of Revelation gives us glimpses of the heavenly liturgy: the four living creatures and the twenty-four elders falling down before the Lamb, the angels and saints singing "Holy, holy, holy is the Lord God Almighty" (Revelation 4:8), the great multitude from every nation praising God (Revelation 7:9–12). Heaven is not silence — it is an eternal song of praise.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The blessed also grow in their knowledge and love of God — not because God changes, but because the capacity of the human soul to receive God's love is inexhaustible. Eternity is not boring repetition; it is an ever-deepening exploration of the infinite mystery of God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Heaven as Perfect Communion</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 Heaven is not a solitary experience. It is the perfect communion of all the blessed — with God, with Mary, with the angels, and with one another. The Church Triumphant (the saints in heaven), the Church Suffering (the souls in Purgatory), and the Church Militant (the faithful on earth) form one Body of Christ, the Communion of Saints.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 In heaven, all the divisions, misunderstandings, and wounds of earthly relationships are healed. There is no jealousy, no competition, no loneliness. The joy of each saint is the joy of all. As St. Augustine wrote: "Our heart is restless until it rests in Thee." In heaven, that restlessness is finally, perfectly, eternally at rest.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Saints Said About Heaven</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The mystics of the Church, who experienced foretastes of heaven in contemplative prayer, speak of it with awe and longing:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>St. Teresa of Ávila</strong> wrote: "Let nothing disturb you, let nothing frighten you. All things pass away. God never changes. Patience obtains all things. Whoever has God lacks nothing. God alone suffices." Her mystical experiences gave her a certainty that heaven — union with God — was the only thing worth desiring.</li>
                 <li><strong>St. John of the Cross</strong> described the soul's journey toward God as a progressive stripping away of everything that is not God, culminating in the "living flame of love" — the direct experience of the Trinity. He wrote: "In the evening of life, we will be judged on love alone."</li>
@@ -159,15 +160,15 @@ export default function CatholicTeachingOnHeaven() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Live Now in Light of Heaven</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The Catholic tradition has always insisted that the hope of heaven is not an escape from earthly responsibility — it is the foundation of it. Because we are made for heaven, every act of love, justice, and mercy on earth has eternal significance.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 St. Paul writes: "Set your minds on things that are above, not on things that are on earth" (Colossians 3:2). This does not mean ignoring the world — it means seeing the world in the light of eternity. Every person we meet is a soul destined for heaven or hell. Every choice we make either draws us closer to God or further away.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 Practically, living in light of heaven means: frequenting the sacraments (especially the Eucharist and Confession), practicing the virtues, performing works of mercy, praying daily, and keeping the commandments. It means treating every person with the dignity they deserve as a child of God destined for eternal life.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

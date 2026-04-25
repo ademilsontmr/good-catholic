@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DeuterocanonicalBooks() {
   return (
@@ -85,9 +86,9 @@ export default function DeuterocanonicalBooks() {
               <p className="text-text leading-relaxed mb-6">
                 The word "deuterocanonical" comes from the Greek <em>deuteros</em> (second) and <em>kanon</em> (rule or standard). It means "belonging to the second canon" — not because these books are less important, but because their canonical status was confirmed at a later stage than the other Old Testament books.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="deuterocanonical-books-catholic-bible">
                 The seven deuterocanonical books are:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 text-text space-y-2">
                 <li><strong>Tobit</strong> — a story of faith, healing, and the role of angels</li>
                 <li><strong>Judith</strong> — a heroic widow who saves Israel from an Assyrian general</li>
@@ -97,9 +98,9 @@ export default function DeuterocanonicalBooks() {
                 <li><strong>Sirach (Ecclesiasticus)</strong> — practical wisdom for daily life, similar to Proverbs</li>
                 <li><strong>Baruch</strong> — attributed to Jeremiah's secretary, includes a letter of Jeremiah</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="deuterocanonical-books-catholic-bible">
                 In addition, the Catholic Bible includes longer versions of Daniel (with the Prayer of Azariah, the Song of the Three Young Men, Susanna, and Bel and the Dragon) and Esther (with additional Greek passages).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Are They in the Catholic Bible? The Septuagint
@@ -107,12 +108,12 @@ export default function DeuterocanonicalBooks() {
               <p className="text-text leading-relaxed mb-6">
                 The key to understanding this debate is the <strong>Septuagint</strong> — the Greek translation of the Hebrew Scriptures, produced in Alexandria, Egypt, between the 3rd and 1st centuries BC. The Septuagint (abbreviated LXX) was the Bible of the Greek-speaking Jewish diaspora and, crucially, the Bible used by the early Church.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="deuterocanonical-books-catholic-bible">
                 The Septuagint included the seven deuterocanonical books. When the New Testament authors quoted the Old Testament — which they did hundreds of times — they almost always quoted from the Septuagint, not from the Hebrew text. This means the early Church was using a Bible that included these seven books.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="deuterocanonical-books-catholic-bible">
                 The early Church Fathers — Clement of Rome, Irenaeus, Tertullian, Origen, Augustine — all cited the deuterocanonical books as Scripture. The Council of Hippo (393 AD) and the Council of Carthage (397 AD) both affirmed a canon of 73 books, including the deuterocanonicals. This was the Bible of the Western Church for over a thousand years.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Council of Trent (1546): Formal Definition
@@ -120,9 +121,9 @@ export default function DeuterocanonicalBooks() {
               <p className="text-text leading-relaxed mb-6">
                 The Catholic Church formally defined the canon of Scripture at the <strong>Council of Trent in 1546</strong>. The Council issued a decree listing all 73 books as canonical and declared that anyone who rejected any of them was anathema (formally excluded from the Church).
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="deuterocanonical-books-catholic-bible">
                 This was not an innovation — it was a reaffirmation of what the Church had always believed and practiced. The Council of Trent was responding directly to the Protestant Reformation, which had begun to question the canon.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Did Protestants Remove Them? Luther and the Reformation
@@ -136,9 +137,9 @@ export default function DeuterocanonicalBooks() {
               <p className="text-text leading-relaxed mb-6">
                 There was also a doctrinal motivation: <strong>2 Maccabees 12:43–46</strong> explicitly supports prayers for the dead and the possibility of atonement after death — a key support for the Catholic doctrine of Purgatory. By removing 2 Maccabees from the canon, Luther eliminated one of the strongest biblical arguments for Purgatory.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="deuterocanonical-books-catholic-bible">
                 Luther initially placed the deuterocanonical books in an appendix to his German Bible, calling them "Apocrypha — books which are not held equal to the Holy Scriptures, but are useful and good to read." Later Protestant traditions removed them entirely.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know your Catholic Bible?"
@@ -185,9 +186,9 @@ export default function DeuterocanonicalBooks() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why These Books Matter for Catholic Doctrine
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="deuterocanonical-books-catholic-bible">
                 The deuterocanonical books are not just historical curiosities — they contain teachings that are foundational to Catholic doctrine:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 text-text space-y-2">
                 <li><strong>Prayers for the dead</strong> (2 Maccabees 12:43–46) — the biblical basis for praying for souls in Purgatory</li>
                 <li><strong>The immortality of the soul</strong> (Wisdom 3:1–9) — "The souls of the righteous are in the hand of God"</li>
@@ -199,9 +200,9 @@ export default function DeuterocanonicalBooks() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Respond to Protestant Objections
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="deuterocanonical-books-catholic-bible">
                 When a Protestant says "those books aren't in the real Bible," here are some key points to make charitably:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 text-text space-y-2">
                 <li>The early Church used the Septuagint, which included these books. The New Testament authors quoted from it.</li>
                 <li>The Church Fathers cited these books as Scripture for centuries before the Reformation.</li>

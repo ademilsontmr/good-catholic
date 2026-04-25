@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurLadyUndoerOfKnots() {
   return (
@@ -83,22 +84,22 @@ export default function OurLadyUndoerOfKnots() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The History: A Marriage Saved
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
                 The devotion originated in Germany in the early 1700s. A couple, Wolfgang Langenmantel and Sophie Imhoff, were on the verge of divorce. Wolfgang visited a Jesuit priest, Father Jakob Rem, for advice. During their final meeting, Father Rem took the couple's wedding ribbon (used in the ceremony to bind their hands as a sign of union) and lifted it up before an image of the Blessed Virgin. 
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
                 As he smoothed the ribbon, it miraculously turned snow-white, and the knots that had been tied in it (representing their conflicts) disappeared. The marriage was saved. Decades later, their grandson commissioned a painting of Mary "Untying the Knots" to commemorate this miracle.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Pope Francis and the Worldwide Spread
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
                 For centuries, the devotion was mostly local to Bavaria. In the 1980s, a young priest from Argentina named **Jorge Mario Bergoglio** (the future Pope Francis) saw the painting in Augsburg, Germany. He was so moved by it that he brought postcards back to Argentina and began promoting the devotion.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
                 As Archbishop of Buenos Aires and later as Pope, he has continued to spread this prayer, seeing it as the perfect remedy for the "tangled" lives of modern people.
-              </p>
+              </LinkedText>
 
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
                 <h3 className="font-bold text-text mb-4 text-center">How to Pray the Novena</h3>
@@ -115,9 +116,9 @@ export default function OurLadyUndoerOfKnots() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What are the "Knots" in your life?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
                 The "knots" we face can be many things:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-8">
                 <li><strong>Family Knots:</strong> Resentment, lack of communication, or broken marriages.</li>
                 <li><strong>Internal Knots:</strong> Guilt, anxiety, addiction, or deep-seated fears.</li>
@@ -133,9 +134,9 @@ export default function OurLadyUndoerOfKnots() {
                 <Sparkles className="w-6 h-6 text-accent" />
                 Understanding the Painting's Symbols
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
                 The famous painting contains specific details that help us meditate:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>The Angels:</strong> One angel hands Mary the tangled ribbon of our lives; the other receives the smoothed, untied ribbon on the other side.</li>
                 <li><strong>The Holy Spirit:</strong> A dove is positioned above Mary's head, showing that she acts by the power of the Spirit.</li>

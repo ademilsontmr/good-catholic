@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AdventPrayers() {
   return (
@@ -88,9 +89,9 @@ export default function AdventPrayers() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Advent Wreath Blessing</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="advent-prayers">
                 The Advent wreath — a circle of evergreen branches with four candles (three purple and one pink) — is one of the most beautiful Catholic family traditions. A new candle is lit each Sunday of Advent, symbolizing the growing light of Christ coming into the world.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text font-semibold text-center mb-3">Blessing of the Advent Wreath</p>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -138,9 +139,9 @@ export default function AdventPrayers() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The O Antiphons</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="advent-prayers">
                 The O Antiphons are seven ancient prayers prayed at Vespers (Evening Prayer) on the seven days before Christmas Eve (December 17-23). Each begins with "O" and addresses Christ by a different title from the Old Testament. They are the basis of the Advent hymn "O Come, O Come, Emmanuel."
-              </p>
+              </LinkedText>
               <div className="space-y-3 mb-8">
                 {[
                   { date: "Dec 17", title: "O Sapientia (O Wisdom)", text: "O Wisdom, O holy Word of God, you govern all creation with your strong yet tender care. Come and show your people the way to salvation." },

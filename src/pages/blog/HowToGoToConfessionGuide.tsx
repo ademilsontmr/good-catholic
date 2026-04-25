@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToGoToConfessionGuide() {
   return (
@@ -81,20 +82,20 @@ export default function HowToGoToConfessionGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 Many Catholics feel nervous about going to Confession — especially if it has been a long time. This is completely normal. But the nervousness is worth pushing through, because what awaits you on the other side is one of the most profound experiences of God's mercy available to us in this life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 Jesus gave His apostles the power to forgive sins on the night of His resurrection: "Receive the Holy Spirit. If you forgive the sins of any, they are forgiven them" (John 20:22-23). When a priest pronounces the words of absolution, it is Christ Himself who forgives. The priest is the instrument; Christ is the physician.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Before You Go: Examination of Conscience</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 The first step in making a good Confession is examining your conscience — reviewing your sins since your last Confession. This is not meant to be an exercise in guilt but an honest, loving look at your life in the light of God's truth.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 A good examination of conscience covers the Ten Commandments, the precepts of the Church, and the seven deadly sins. Here are key questions to ask yourself:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Toward God</h3>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
@@ -131,9 +132,9 @@ export default function HowToGoToConfessionGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Conditions for a Good Confession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 For a Confession to be valid and fruitful, four conditions must be met:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Examination of conscience</strong> — reviewing your sins honestly before God</li>
                 <li><strong>Contrition</strong> — genuine sorrow for your sins, motivated by love of God (perfect contrition) or at least fear of God's just punishment (imperfect contrition)</li>
@@ -144,12 +145,12 @@ export default function HowToGoToConfessionGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step: What Happens in the Confessional</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 1: Enter and Greet the Priest</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 You may confess face-to-face (sitting across from the priest) or anonymously behind a screen — both are valid and both are available in most confessionals. Choose whichever makes you more comfortable.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 The priest will greet you and may say a brief prayer or Scripture verse to help you enter into the spirit of the sacrament.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 2: Begin Your Confession</h3>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
@@ -158,22 +159,22 @@ export default function HowToGoToConfessionGuide() {
                   "Bless me, Father, for I have sinned. It has been [time period] since my last Confession. These are my sins: [list your sins]."
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 If it has been a very long time, you can simply say: "Bless me, Father, for I have sinned. It has been many years since my last Confession." The priest will help you from there.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 3: Confess Your Sins</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 Tell the priest your sins clearly and honestly. For mortal sins, you need to state the nature of the sin and approximately how many times (e.g., "I missed Mass three times without a good reason"). For venial sins, you can be less precise.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 You do not need to give every detail — just enough for the priest to understand the nature of the sin. You do not need to name other people involved. When you have finished, say: "I am sorry for these and all the sins of my past life."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 4: Listen to the Priest</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 The priest may offer a brief word of counsel, ask a clarifying question, or simply assign your penance. Listen attentively. The priest is acting in persona Christi — in the person of Christ — and his words carry spiritual weight.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 5: Pray the Act of Contrition</h3>
               <p className="text-text leading-relaxed mb-4">
@@ -185,46 +186,46 @@ export default function HowToGoToConfessionGuide() {
                   O my God, I am heartily sorry for having offended Thee, and I detest all my sins because of Thy just punishments, but most of all because they offend Thee, my God, who art all good and deserving of all my love. I firmly resolve, with the help of Thy grace, to sin no more and to avoid the near occasions of sin. Amen.
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 If you don't remember the exact words, you can pray in your own words: "Lord, I am sorry for my sins. I love You and I don't want to offend You. Help me to do better." The sincerity matters more than the exact formula.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 6: Receive Absolution</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 The priest will extend his hand over you and pronounce the words of absolution:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic text-sm leading-relaxed">
                   "God, the Father of mercies, through the death and resurrection of his Son has reconciled the world to himself and sent the Holy Spirit among us for the forgiveness of sins; through the ministry of the Church may God give you pardon and peace, and I absolve you from your sins in the name of the Father, and of the Son, and of the Holy Spirit."
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 Respond: "Amen." At this moment, your sins are truly and completely forgiven. The slate is wiped clean. You are reconciled with God and with the Church.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 7: Complete Your Penance</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 After leaving the confessional, complete the penance the priest assigned as soon as possible — ideally before leaving the church. The penance is usually a few prayers (Our Father, Hail Mary, etc.) or a small act of charity. It is not a punishment but a medicine — a way of repairing the damage sin has done to your soul and your relationship with God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Returning After a Long Absence</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 If you have been away from Confession for years — or even decades — do not be afraid. The priest has heard everything. He is not there to judge you but to bring you God's mercy. Many priests say that hearing the Confession of someone returning after a long absence is one of the most moving experiences of their priesthood.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 Simply tell the priest at the beginning: "Father, I have been away from the Church for [time period] and I want to come back." He will guide you through the rest. You do not need to remember every sin from the past years — do your best to recall serious sins, and trust God's mercy for the rest.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 The parable of the Prodigal Son (Luke 15:11-32) is the image of every Confession. The father sees his son "while he was still a long way off" and runs to meet him. God does not wait for you to be perfect before He welcomes you back. He runs.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Often Should Catholics Go to Confession?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 The Church requires Catholics to confess serious sins at least once a year (the Easter duty). But the saints and spiritual directors recommend much more frequent Confession — monthly at minimum, and weekly for those striving for holiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 St. John Paul II went to Confession every week. St. Padre Pio heard Confessions for up to 16 hours a day. The saints understood that Confession is not just for serious sinners — it is a powerful source of grace for everyone, including those who are already trying to live holy lives.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function RosaryForBeginners() {
   return (
@@ -71,9 +72,9 @@ export default function RosaryForBeginners() {
               <p className="text-text leading-relaxed mb-6">
                 The Rosary is a form of prayer that combines vocal prayer with meditation on the life of Jesus Christ as seen through the eyes of His mother, Mary. The word "rosary" comes from the Latin <em>rosarium</em>, meaning "rose garden" — a beautiful image of offering a garland of prayers to Our Lady.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
                 It is both simple and profound. On the surface, it is a repetition of familiar prayers — the Our Father, the Hail Mary, the Glory Be. But beneath the surface, it is a school of contemplation. As your lips pray the familiar words, your mind and heart are invited to enter into the great mysteries of salvation: the Incarnation, the Passion, the Resurrection, and the glory of heaven.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope Saint John Paul II called the Rosary "my favorite prayer" and wrote an entire apostolic letter about it (<em>Rosarium Virginis Mariae</em>, 2002), in which he added the Luminous Mysteries to the traditional fifteen. Today the full Rosary consists of twenty mysteries.
               </p>
@@ -81,9 +82,9 @@ export default function RosaryForBeginners() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What You Need
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
                 To pray the Rosary, you need very little:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-2 text-text">
                 <li><strong>Rosary beads</strong> — a string of 59 beads arranged in a specific pattern, with a crucifix. You can find them at any Catholic bookstore, online, or in many parishes. They range from simple plastic beads to beautiful handcrafted ones.</li>
                 <li><strong>Your fingers</strong> — if you don't have beads, you can count the prayers on your fingers. Many saints prayed this way.</li>

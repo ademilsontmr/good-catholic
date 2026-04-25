@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EucharisticAdoration() {
   return (
@@ -63,17 +64,17 @@ export default function EucharisticAdoration() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 Eucharistic Adoration is the prolongation of the mystery celebrated at Holy Mass. When the priest consecrates the bread and wine, Jesus becomes truly present — Body, Blood, Soul, and Divinity — under the appearances of bread. This presence does not end when Mass ends. Jesus remains in the consecrated hosts reserved in the tabernacle, waiting for us to come and spend time with Him.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What is Eucharistic Adoration?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 Eucharistic Adoration is the practice of praying in the presence of the Blessed Sacrament — the consecrated Host — either exposed in a monstrance on the altar or reserved in the tabernacle. Because Jesus is truly present in the Eucharist (a doctrine called the Real Presence), adoration is literally spending time with the living God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 The practice of adoring the Blessed Sacrament outside of Mass developed gradually in the medieval Church, as the faithful's desire to remain in the presence of the Eucharistic Lord grew. Today, thousands of parishes worldwide have adoration chapels open for prayer, and many maintain Perpetual Adoration — continuous adoration 24 hours a day, 7 days a week.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your Eucharistic life?"
@@ -81,17 +82,17 @@ export default function EucharisticAdoration() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theological Foundation of Adoration</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 The Second Vatican Council's Constitution on the Sacred Liturgy teaches that the Eucharist is "the source and summit of the Christian life" (Lumen Gentium 11). If the Eucharist is the summit, then adoration is dwelling on that summit — lingering in the presence of the One who is the source of all grace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 The Catechism of the Catholic Church states: "The Catholic Church has always offered and still offers to the sacrament of the Eucharist the cult of adoration, not only during Mass, but also outside of it, reserving the consecrated hosts with the utmost care, exposing them to the solemn veneration of the faithful" (CCC 1378).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Make a Holy Hour</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 A "holy hour" is a traditional term for spending one hour in Eucharistic Adoration. Jesus asked His disciples in Gethsemane: "Could you not watch one hour with me?" (Matthew 26:40). Here is a simple structure for a holy hour:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Opening (5 minutes):</strong> Make the Sign of the Cross, acknowledge Jesus's presence, and offer your hour to Him. Ask the Holy Spirit to guide your prayer.</li>
                 <li><strong>Scripture (10 minutes):</strong> Read a passage from the Gospels slowly, allowing the words to sink in. The Passion narratives are particularly powerful in adoration.</li>
@@ -103,31 +104,31 @@ export default function EucharisticAdoration() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Saints Say About Adoration</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 The saints who practiced Eucharistic Adoration most fervently were also the saints who loved most deeply and served most generously. Their testimony is unanimous: time before the Blessed Sacrament transforms the soul.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 St. Peter Julian Eymard, the "Apostle of the Eucharist," wrote: "The Eucharist is the summary of all God's love." He founded the Congregation of the Blessed Sacrament specifically to promote adoration and spent hours each day before the tabernacle.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 St. Teresa of Calcutta (Mother Teresa) required her sisters to spend one hour each day in adoration, regardless of how busy their work with the poor became. She said: "The time you spend with Jesus in the Blessed Sacrament is the best time that you will spend on earth. Each moment that you spend with Jesus will deepen your union with Him and make your soul everlastingly more glorious and beautiful in Heaven."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 St. John Vianney, the Curé of Ars, described a simple peasant who spent hours in adoration each day. When asked what he did during all that time, the man replied: "I look at Him and He looks at me." This simple exchange captures the essence of adoration.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Perpetual Adoration: Never Leaving Jesus Alone</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 Perpetual Adoration chapels maintain continuous adoration 24 hours a day, 7 days a week. Parishioners sign up for one-hour slots to ensure that Jesus in the Blessed Sacrament is never left alone. There are thousands of perpetual adoration chapels in the United States and around the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 If your parish has a perpetual adoration chapel, consider signing up for a regular weekly hour. Many adorers report that their "holy hour" becomes the most important hour of their week — the anchor that gives meaning and peace to everything else.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Spiritual Benefits of Regular Adoration</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">
                 Those who practice regular Eucharistic Adoration consistently report profound spiritual transformation:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Deeper peace and interior calm, even amid life's storms</li>
                 <li>Greater clarity in decision-making and discernment</li>

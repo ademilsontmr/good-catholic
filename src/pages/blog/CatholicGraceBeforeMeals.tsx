@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicGraceBeforeMeals() {
   return (
@@ -76,12 +77,12 @@ export default function CatholicGraceBeforeMeals() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 In a busy American household, mealtimes can easily become rushed affairs — food consumed in front of screens, family members eating at different times, the rhythm of the day leaving little room for pause. But the Catholic tradition invites us to see the family table differently: as a domestic altar, a place where the family gathers not just to eat but to give thanks, to be present to one another, and to acknowledge the God who provides for all our needs.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 The practice of blessing food before eating is as old as the Bible itself. Jesus blessed bread before feeding the five thousand (Matthew 14:19), before the Last Supper (Matthew 26:26), and at the meal in Emmaus (Luke 24:30). St. Paul wrote that "everything created by God is good, and nothing is to be rejected if it is received with thanksgiving, for it is made holy by the word of God and prayer" (1 Timothy 4:4–5). Grace before meals is, at its heart, an act of Eucharistic living — a small but real participation in the spirit of the great thanksgiving that is the Mass.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Traditional "Bless Us, O Lord" Prayer
@@ -100,12 +101,12 @@ export default function CatholicGraceBeforeMeals() {
                 </p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 This prayer is remarkable for its brevity and its theological density. In just four lines, it addresses God directly ("O Lord"), acknowledges the food as a gift ("these Thy gifts"), recognizes God as the ultimate source of all provision ("Thy bounty"), and offers the prayer through the mediation of Christ ("through Christ our Lord"). It is a complete act of faith in a few words.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 The traditional form uses the older "Thy" and "Thee" language, which many Catholic families still prefer for its reverence and its connection to centuries of tradition. A more contemporary version simply substitutes "your" for "Thy" and "you" for "Thee," but the meaning is identical.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Other Catholic Meal Prayers
@@ -151,15 +152,15 @@ export default function CatholicGraceBeforeMeals() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Theology of Blessing Food
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 Why do Catholics bless food? The theological answer goes deeper than mere gratitude. When we bless food, we are doing several things at once. First, we are acknowledging that all good things come from God — that the food on our table is not simply the product of our labor or our purchasing power, but ultimately a gift from the Creator who sustains all life. This is an act of humility and dependence.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 Second, we are sanctifying the meal — setting it apart as something holy. St. Paul's words in 1 Timothy 4:5 are key here: food "is made holy by the word of God and prayer." When we pray over our food, we are not performing magic, but we are invoking God's presence and blessing upon something that is already good by virtue of His creation. We are, in a sense, returning the gift to the Giver before we receive it back.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 Third, blessing food before eating is an act of solidarity with the poor. When we pause to thank God for our food, we are reminded that not everyone has enough to eat — that the gift we are receiving is not universal, and that we have a responsibility to share. Many Catholic families add a brief prayer for the hungry to their grace before meals, or make a practice of donating to a food bank as an expression of this solidarity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Grace After Meals: The Agimus Tibi Gratias
@@ -182,19 +183,19 @@ export default function CatholicGraceBeforeMeals() {
                 </p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 The inclusion of a prayer for the souls of the faithful departed in the grace after meals is a beautiful expression of Catholic communion — the belief that we are connected not only to the living but to all who have gone before us. Even at the dinner table, we remember those who are no longer with us and commend them to God's mercy.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Family Table and the Eucharistic Table
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 There is a profound theological connection between the family dinner table and the altar of the Eucharist. Both are tables at which we gather to receive nourishment — physical nourishment at home, spiritual nourishment at Mass. Both involve a blessing and a breaking of bread. Both are acts of communion — with God and with one another.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 The Second Vatican Council's document on the Church, Lumen Gentium, describes the family as the "domestic church" — a small community of faith in which the larger life of the Church is lived out in miniature. The family table is one of the primary places where this domestic church is built up. When families pray together before meals, they are not just saying grace — they are forming disciples, passing on the faith, and creating a culture of prayer that will shape their children for life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Prayers for Special Occasions
@@ -216,21 +217,21 @@ export default function CatholicGraceBeforeMeals() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Make Mealtime Prayer a Family Habit
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 For families who are not accustomed to praying before meals, starting can feel awkward. Here are some practical suggestions for making grace a natural part of family life:
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 Start simple. The traditional "Bless us, O Lord" prayer is only four lines long. Even the youngest children can learn it quickly. Begin with this prayer and add more elaborate graces as the habit becomes established.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 Make it consistent. Pray before every meal, not just Sunday dinner or holiday meals. Consistency is what transforms a practice into a habit and a habit into a virtue.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 Involve the children. Let children take turns leading the grace. Even toddlers can fold their hands and say "Amen." As children grow, they can learn more elaborate prayers or even compose their own.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 Add spontaneous prayer. After the traditional grace, invite family members to add their own intentions — thanking God for something specific that happened that day, or asking for help with a particular need. This teaches children that prayer is not just a formula but a real conversation with God.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnMarriage() {
   return (
@@ -59,57 +60,57 @@ export default function CatholicTeachingOnMarriage() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 In a culture that increasingly treats marriage as a temporary arrangement subject to personal satisfaction, the Catholic Church stands firm: marriage between a baptized man and woman is a sacrament instituted by Christ, indissoluble by its very nature, and ordered toward the good of the spouses and the procreation and education of children. Understanding what the Church teaches — and why — is essential for every Catholic who wants to live this vocation faithfully.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says: Covenant, Not Contract</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 The Catechism of the Catholic Church dedicates a rich section (CCC 1601–1666) to the Sacrament of Matrimony. The very first line sets the tone: "The matrimonial covenant, by which a man and a woman establish between themselves a partnership of the whole of life, is by its nature ordered toward the good of the spouses and the procreation and education of offspring" (CCC 1601).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 Notice the word "covenant," not "contract." A contract is a legal exchange of goods and services, terminable when one party fails to deliver. A covenant is a total self-gift — the kind of bond God made with Israel, the kind of bond Christ made with the Church. Marriage, in the Catholic vision, is modeled on that divine covenant: unconditional, permanent, and life-giving.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 The Catechism traces marriage back to creation itself. God created man and woman in His image — as a communion of persons — and called them to reflect that communion in the union of marriage (CCC 1604). The fall wounded this original harmony, introducing domination, infidelity, and divorce. But Christ came to restore what sin had broken. At Cana, He performed His first miracle at a wedding feast. In His teaching, He explicitly restored the original indissolubility of marriage (Mt 19:3–9). And by elevating marriage to a sacrament, He made it a channel of His own grace.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Goods of Marriage: St. Augustine's Framework</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 Saint Augustine of Hippo, writing in the 4th century, identified three goods that define and justify marriage — a framework the Church has used ever since:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Proles (children).</strong> Marriage is ordered toward the procreation and education of children. Children are not an optional add-on but the natural fruit of conjugal love. The Church does not say every act must produce a child, but that the couple must remain open to life.</li>
                 <li><strong>Fides (fidelity).</strong> Spouses owe each other exclusive fidelity. This is not merely a legal obligation but a moral and spiritual one — a reflection of God's own faithfulness to His people.</li>
                 <li><strong>Sacramentum (the sacramental bond).</strong> The marriage bond itself is a sacred reality — a sign of the unbreakable union between Christ and the Church. This is why a valid sacramental marriage cannot be dissolved.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 These three goods are not competing values but a unified whole. A marriage that excludes any one of them — that deliberately closes itself to children, that tolerates infidelity, or that treats the bond as temporary — is deficient in its very nature.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Makes a Catholic Marriage Valid</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 Not every wedding ceremony produces a valid sacramental marriage. The Church identifies three essential requirements:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Free consent.</strong> Both parties must freely choose to marry — without coercion, fear, or grave external pressure. Consent is the heart of the sacrament: "The parties to a marriage covenant are a baptized man and woman, free to contract marriage, who freely express their consent" (CCC 1625). If consent is lacking or defective, there is no marriage.</li>
                 <li><strong>Capacity.</strong> Both parties must be capable of marriage — not already validly married, not bound by a vow of celibacy, not too closely related by blood, and psychologically capable of assuming the essential obligations of marriage.</li>
                 <li><strong>Proper form.</strong> Catholics are ordinarily required to marry before a priest (or deacon) and two witnesses, in a church ceremony. This requirement can be dispensed in certain circumstances, but it exists to protect the public and sacramental nature of marriage.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 When any of these elements is seriously defective, the Church may declare — through a formal process called an annulment — that no valid marriage ever existed. An annulment is not a "Catholic divorce." It is a declaration that the sacrament was never validly contracted in the first place.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Indissolubility of Marriage</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 "What God has joined together, let no man separate" (Mt 19:6). These words of Christ are the foundation of the Church's teaching on indissolubility. A valid, consummated sacramental marriage between two baptized persons cannot be dissolved by any human authority — not by the spouses themselves, not by a civil court, not even by the Pope.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 This is not a disciplinary rule that could be changed. It is a doctrinal truth rooted in the nature of the sacrament itself. The marriage bond, once validly formed and consummated, participates in the indissolubility of Christ's union with the Church. Just as Christ will never abandon His Church, so the marriage bond endures until death.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 The Church recognizes that civil divorce may sometimes be necessary — to protect a spouse or children from abuse, to settle legal matters, to establish custody. A civil divorce does not dissolve the sacramental bond. A divorced Catholic who has not received an annulment and who remarries civilly is in an irregular situation that prevents reception of Holy Communion — not as a punishment, but because the second union is not recognized as a valid marriage.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -117,47 +118,47 @@ export default function CatholicTeachingOnMarriage() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Marriage as a Vocation: Spouses as Ministers of the Sacrament</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 One of the most beautiful and often overlooked aspects of Catholic marriage is that the spouses themselves are the ministers of the sacrament. The priest or deacon is the Church's official witness — but it is the man and woman who confer the sacrament on each other through their exchange of consent. This means that every married couple is, in a real sense, a sacramental reality — a living sign of God's love in the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 Marriage is a vocation — a calling from God, as real and demanding as the call to priesthood or religious life. Spouses are called to sanctify each other, to help each other reach heaven. The Second Vatican Council's Gaudium et Spes describes marriage as a "community of life and love" in which spouses "mutually surrender themselves to each other" and grow together in holiness (GS 48).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Domestic Church</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 The family is not just a social unit — it is the "domestic church" (ecclesia domestica). This ancient phrase, recovered by the Second Vatican Council and emphasized by Pope John Paul II, captures the truth that the Christian family is a real, if small, expression of the Church. In the family, the faith is first transmitted, prayer is first learned, and the virtues are first practiced.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 Parents are the first and most important educators of their children in the faith. The Catechism calls the family "the original cell of social life" (CCC 2207) and "the first school of Christian life" (CCC 1657). When a family prays together, reads Scripture together, celebrates the liturgical seasons together, and practices the corporal and spiritual works of mercy together, it becomes a genuine school of holiness.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Marriage and Sexuality: Unitive and Procreative</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 The Church teaches that the conjugal act has two inseparable dimensions: the unitive (the deepening of the bond between spouses) and the procreative (openness to new life). Pope Paul VI's 1968 encyclical Humanae Vitae — one of the most controversial and most prophetic documents of the 20th century — reaffirmed that these two dimensions cannot be deliberately separated.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 Artificial contraception, which deliberately frustrates the procreative dimension of the conjugal act, is therefore contrary to the nature of marriage. This is not because the Church is anti-sex or anti-pleasure — quite the opposite. The Church affirms the goodness and beauty of conjugal love. But it insists that this love must be total: open to life, faithful, and free.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 Natural Family Planning (NFP) — which works with the natural cycles of fertility rather than against them — is morally acceptable when couples have serious reasons to space or limit births. NFP is not "Catholic contraception." It respects the integrity of the conjugal act while allowing couples to exercise responsible parenthood.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Challenges to Marriage Today</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 The Catholic vision of marriage faces serious challenges in contemporary culture. Cohabitation before marriage has become the norm in many Western countries — yet studies consistently show that couples who cohabit before marriage have higher rates of divorce and lower rates of marital satisfaction. The Church's teaching against cohabitation is not arbitrary; it reflects the truth that the total self-gift of marriage requires the total commitment of marriage.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 The divorce culture — the assumption that marriage is terminable when it becomes difficult — has caused immense suffering, especially to children. The Church's insistence on indissolubility is not cruel; it is a protection for the vulnerable and a call to the heroic love that marriage demands.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 The redefinition of marriage to include same-sex unions presents a different kind of challenge. The Church teaches that marriage is by its nature the union of a man and a woman, ordered toward procreation. This is not a matter of discrimination but of the nature of marriage itself. The Church calls all people — including those with same-sex attraction — to chastity and to the fullness of human dignity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Build a Holy Catholic Marriage</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 A holy marriage is not built in a day — it is built through thousands of small acts of love, sacrifice, and fidelity over a lifetime. Here are some practical foundations:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Pray together daily.</strong> Couples who pray together — even briefly — build a spiritual bond that sustains them through difficulty. The family Rosary, grace before meals, and a brief evening prayer are simple starting points.</li>
                 <li><strong>Receive the sacraments regularly.</strong> Sunday Mass together, frequent Confession, and Eucharistic adoration nourish the spiritual life of the marriage.</li>

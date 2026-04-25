@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GoodFridayPrayers() {
   return (
@@ -71,20 +72,20 @@ export default function GoodFridayPrayers() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Good Friday?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="good-friday-prayers">
                 Good Friday is the second day of the Easter Triduum — the three holiest days of the Catholic year (Holy Thursday, Good Friday, Holy Saturday/Easter Vigil). It commemorates the crucifixion and death of Jesus Christ on Calvary.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="good-friday-prayers">
                 Good Friday is the only day of the year when Mass is not celebrated. The Church observes a solemn fast and holds the Celebration of the Lord's Passion — a liturgy that includes the reading of the Passion, the Veneration of the Cross, and the distribution of Communion from the reserved Blessed Sacrament.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="good-friday-prayers">
                 The name "Good Friday" may seem paradoxical — what is "good" about the day Jesus died? The word "good" here is used in the archaic sense of "holy" or "sacred." In some languages, the day is called "Holy Friday" (Viernes Santo in Spanish, Vendredi Saint in French).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Good Friday Fasting Rules 2026</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="good-friday-prayers">
                 Good Friday is the most solemn fast day of the year — even more austere than Ash Wednesday.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Fasting:</strong> Catholics between 18 and 59 must fast — one full meal and two smaller meals that together do not equal one full meal.</li>
                 <li><strong>Abstinence:</strong> Catholics 14 and older must abstain from meat.</li>
@@ -93,9 +94,9 @@ export default function GoodFridayPrayers() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Seven Last Words of Jesus</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="good-friday-prayers">
                 The "Seven Last Words" are the seven statements Jesus made from the cross, drawn from all four Gospels. Meditating on them is one of the most powerful Good Friday devotions.
-              </p>
+              </LinkedText>
               <div className="space-y-4 mb-8">
                 {[
                   { word: "1st Word", ref: "Luke 23:34", text: '"Father, forgive them, for they know not what they do."', reflection: "Even in His agony, Jesus prays for His executioners. He asks forgiveness for those who are killing Him. This is the love that redeems the world." },
@@ -130,9 +131,9 @@ export default function GoodFridayPrayers() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Stabat Mater</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="good-friday-prayers">
                 The Stabat Mater ("The Mother Was Standing") is a 13th-century Latin hymn that meditates on Mary's grief at the foot of the cross. It is one of the most beautiful and moving prayers in the Catholic tradition, traditionally sung during the Stations of the Cross and on Good Friday.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text font-semibold text-center mb-3">Stabat Mater (selected verses)</p>
                 <p className="text-text italic leading-relaxed text-sm">

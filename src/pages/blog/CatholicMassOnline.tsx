@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMassOnline() {
   return (
@@ -64,28 +65,28 @@ export default function CatholicMassOnline() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 The COVID-19 pandemic accelerated something that was already happening: the streaming of Catholic Mass online. What began as an emergency measure became a permanent feature of Catholic life. Today, hundreds of parishes, dioceses, and Catholic media organizations stream Mass live every day — making it possible to watch Mass from anywhere in the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 But online Mass raises important questions. Does it fulfill the Sunday obligation? Is it spiritually beneficial? When is it appropriate? This guide answers all of these questions and points you to the best sources for online Mass.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Does Watching Mass Online Fulfill the Sunday Obligation?</h2>
               <p className="text-text leading-relaxed mb-6">
                 This is the most important question, and the answer is clear: <strong>No — watching Mass online does not fulfill the Sunday obligation</strong> for those who are able to attend in person.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 The Sunday obligation requires physical presence at Mass. The Catechism states that Catholics are obliged to "participate in the Eucharist on days of obligation" (CCC 2180). Participation means being physically present — receiving the Eucharist, joining in the prayers, being part of the assembly.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 Watching Mass on a screen is spiritually valuable, but it is not the same as being there. You cannot receive the Eucharist through a screen. You cannot be part of the assembly through a screen. The sacramental grace of the Mass requires physical presence.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">When Online Mass Is Sufficient</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 There are legitimate reasons why a Catholic may be unable to attend Mass in person. In these cases, the Sunday obligation is dispensed, and watching Mass online is a beautiful and appropriate substitute:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Illness or injury</strong> — if you are sick or injured and cannot safely travel to church</li>
                 <li><strong>Caring for a sick person</strong> — if you must stay home to care for someone who cannot be left alone</li>
@@ -94,9 +95,9 @@ export default function CatholicMassOnline() {
                 <li><strong>No Mass available</strong> — if there is no Mass within a reasonable distance (rare in most areas)</li>
                 <li><strong>Elderly or homebound</strong> — if age or health prevents regular attendance</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 If you are in any of these situations, you are dispensed from the Sunday obligation. Watching Mass online, making a Spiritual Communion, and praying at home are all appropriate responses.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your Catholic faith?"
@@ -115,9 +116,9 @@ export default function CatholicMassOnline() {
                 <li>On YouTube (search "EWTN Mass")</li>
                 <li>On demand — past Masses are available for replay</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 EWTN offers Mass in English, Spanish, and other languages. The Sunday Mass is particularly well-produced, with excellent homilies and music.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. Word on Fire — Bishop Robert Barron</h3>
               <p className="text-text leading-relaxed mb-6">
@@ -130,19 +131,19 @@ export default function CatholicMassOnline() {
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Your Own Parish</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 Many parishes now stream their Masses on YouTube, Facebook, or their own websites. Check your parish website or social media pages. Watching your own parish's Mass — even online — maintains your connection to your local community.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">5. YouTube</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 Search "Catholic Mass live" on YouTube for dozens of parishes and Catholic organizations streaming Mass in real time. You can also search for specific types of Mass: "Traditional Latin Mass live," "Spanish Catholic Mass," "Byzantine Catholic Mass," etc.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Watch Mass Online Prayerfully</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 Watching Mass online is most spiritually beneficial when approached with the same reverence as attending in person. Here are some practical tips:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Dress appropriately.</strong> Even at home, dressing modestly for Mass is a sign of respect and helps you enter the right frame of mind.</li>
                 <li><strong>Create a sacred space.</strong> Set up a small prayer corner with a crucifix, a candle, and perhaps an image of Mary. This helps distinguish Mass time from ordinary screen time.</li>
@@ -153,26 +154,26 @@ export default function CatholicMassOnline() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Spiritual Communion?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 Spiritual Communion is an act of desire for the Eucharist when you cannot receive it physically. It is a powerful prayer that draws you into union with Christ even without sacramental reception.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text font-semibold mb-2">Prayer of Spiritual Communion (St. Alphonsus Liguori)</p>
                 <p className="text-text italic text-sm leading-relaxed">
                   My Jesus, I believe that You are present in the Most Holy Sacrament. I love You above all things, and I desire to receive You into my soul. Since I cannot at this moment receive You sacramentally, come at least spiritually into my heart. I embrace You as if You were already there and unite myself wholly to You. Never permit me to be separated from You. Amen.
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 Pray this prayer at the moment of Communion during the online Mass. St. Teresa of Avila, St. Alphonsus Liguori, and many other saints recommended Spiritual Communion as a powerful way to grow in union with Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Online Mass for the Homebound and Elderly</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 For Catholics who are homebound due to age, illness, or disability, online Mass is a genuine lifeline. It maintains their connection to the Church, nourishes their faith, and provides the spiritual sustenance of the liturgy even when physical attendance is impossible.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 If you know someone who is homebound, help them set up access to online Mass. This is a genuine work of mercy. Also encourage them to contact their parish — most parishes have a ministry to bring Holy Communion to the homebound, so they can receive the Eucharist even if they cannot attend Mass.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

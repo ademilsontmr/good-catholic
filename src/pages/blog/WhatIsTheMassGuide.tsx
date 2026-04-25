@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheMassGuide() {
   return (
@@ -158,9 +159,9 @@ export default function WhatIsTheMassGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Liturgy of the Word
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass">
                 The Liturgy of the Word is the first major part of the Mass. On Sundays, it includes three Scripture readings:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>First Reading</strong> — Usually from the Old Testament, chosen to connect with the Gospel reading</li>
                 <li><strong>Responsorial Psalm</strong> — A psalm sung or recited responsively, meditating on the First Reading</li>
@@ -207,9 +208,9 @@ export default function WhatIsTheMassGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What to Do as a Visitor
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass">
                 If you are attending Mass for the first time or as a non-Catholic visitor, here is what you need to know:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Dress modestly.</strong> There is no strict dress code, but modest, respectful attire is appropriate.</li>
                 <li><strong>Follow the congregation's movements.</strong> Stand, sit, and kneel when others do. If you're unsure, sitting is always appropriate.</li>
@@ -221,9 +222,9 @@ export default function WhatIsTheMassGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Catholics Go to Mass Every Sunday
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass">
                 The Catholic Church requires Catholics to attend Mass on Sundays and holy days of obligation. This is not an arbitrary rule — it flows from the nature of the Mass itself. If the Mass is truly the re-presentation of Christ's sacrifice and the reception of His Body and Blood, then missing it without serious reason is a grave matter.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 But beyond the obligation, Catholics go to Mass because they want to. The Mass is the source and summit of the Christian life (Vatican II, <em>Lumen Gentium</em> 11). It is where we encounter Christ most fully — in His Word, in the community of believers, in the priest, and above all in the Eucharist. It is where we are nourished for the week ahead and united with the universal Church across time and space.
               </p>

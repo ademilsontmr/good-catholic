@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicFastingRules() {
   return (
@@ -76,19 +77,19 @@ export default function CatholicFastingRules() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Many American Catholics are fuzzy on the Church's fasting rules. They know they're supposed to do something on Ash Wednesday and Good Friday, and they know Fridays during Lent involve giving up meat — but the specifics are often unclear. What exactly counts as fasting? What is abstinence? Who is required to observe these practices? What about the Eucharistic fast before Communion?
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 This guide answers all of those questions clearly and completely. It also goes beyond the minimum requirements to explore the deeper spiritual meaning of fasting — why the Church asks us to fast, what the saints say about it, and how voluntary fasting beyond the Church's requirements can transform your spiritual life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Church's Required Fasting Days
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Under current canon law (Canon 1251–1253), the Catholic Church in the United States requires fasting and abstinence on two days each year: Ash Wednesday and Good Friday. These are the only two days on which both fasting and abstinence are required simultaneously.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">Required Fasting Days in the U.S.</h3>
@@ -111,9 +112,9 @@ export default function CatholicFastingRules() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Who Is Bound by These Rules?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 The Church's fasting and abstinence laws apply to different age groups:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Fasting (Ash Wednesday and Good Friday):</strong> Binds all Catholics from age 18 through the beginning of their 60th year (i.e., ages 18–59). Those under 18 or 60 and older are not strictly bound, though they are encouraged to participate according to their ability.</li>
                 <li><strong>Abstinence from meat (Fridays of Lent):</strong> Binds all Catholics who have completed their 14th year (i.e., age 14 and older). There is no upper age limit for abstinence.</li>
@@ -123,29 +124,29 @@ export default function CatholicFastingRules() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Counts as Fasting vs. Abstinence?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 These two terms are often confused, but they refer to different practices:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Fasting
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Fasting means limiting the amount of food you eat. On a day of fast, a Catholic is permitted one full meal and two smaller meals that together do not equal a full meal. Eating between meals is not permitted, though liquids (including milk and juice) are generally allowed. The one full meal is typically eaten at midday or in the evening.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Note that fasting does not mean eating nothing — that is a complete fast, which the Church does not require but some Catholics choose voluntarily. The Church's required fast is a partial fast: reduced food intake, not total abstinence from food.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Abstinence
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Abstinence means refraining from eating meat (flesh meat of warm-blooded animals). Fish, shellfish, and other cold-blooded animals are permitted. Meat broths and gravies are generally considered acceptable. The abstinence applies to the entire day, not just one meal.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 In the United States, the bishops have also encouraged Catholics to observe some form of penance on all Fridays of the year (not just during Lent), though they have given Catholics the freedom to choose their own Friday penance rather than requiring abstinence from meat year-round.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your Catholic spiritual life?"
@@ -155,32 +156,32 @@ export default function CatholicFastingRules() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Eucharistic Fast
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Separate from the Lenten fasting rules is the Eucharistic fast — the requirement to abstain from food and drink (except water and medicine) for one hour before receiving Holy Communion. This rule was significantly reduced from the original requirement of fasting from midnight, which was changed to three hours in 1953 and then to one hour in 1964.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 The Eucharistic fast applies to all Catholics who receive Communion, regardless of age. The elderly, the sick, and those caring for them are exempt from the one-hour fast. Water and medicine may be taken at any time without breaking the fast.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 The purpose of the Eucharistic fast is to approach the Eucharist with a spirit of reverence and hunger — both physical and spiritual. Even the minimal one-hour fast is a reminder that we are about to receive something infinitely more nourishing than physical food.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Voluntary Fasting Beyond the Requirements
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 The Church's minimum requirements are just that — minimums. The saints and the broader Catholic tradition encourage much more generous fasting as a spiritual discipline. Many saints fasted several days a week, some fasted on bread and water, and some practiced extended fasts of multiple days.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Common forms of voluntary fasting among American Catholics include: fasting on Wednesdays and Fridays (the traditional Christian fast days), fasting on the vigils of major feasts, fasting in preparation for important decisions or spiritual battles, and fasting in solidarity with the poor. The key is that voluntary fasting should be undertaken with the guidance of a spiritual director and should not damage your health.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Spiritual Benefits of Fasting
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Jesus assumed His disciples would fast. In the Sermon on the Mount, He said "when you fast" — not "if you fast" (Matthew 6:16). Fasting is not optional for the serious Christian; it is a normal part of the spiritual life. But why? What does fasting actually do?
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>It disciplines the body:</strong> Fasting trains us to say no to our appetites, which strengthens our will to resist other temptations. St. John Chrysostom called fasting "the mother of all virtues."</li>
                 <li><strong>It sharpens prayer:</strong> When the body is hungry, the spirit is more alert. Many people report that their prayer is more focused and fervent on days of fasting.</li>
@@ -192,12 +193,12 @@ export default function CatholicFastingRules() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Fasting and Prayer: The Inseparable Connection
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Throughout Scripture and Tradition, fasting and prayer are always linked. Moses fasted for 40 days before receiving the Ten Commandments. Elijah fasted for 40 days on his journey to Mount Horeb. Jesus fasted for 40 days before beginning His public ministry. The early Church fasted before major decisions (Acts 13:2–3, 14:23).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 The connection is not accidental. Fasting without prayer is just dieting. Prayer without fasting can become too comfortable. Together, they create a powerful disposition of humility, dependence on God, and openness to His grace. When you fast, redirect the time and energy you would have spent eating toward prayer. Use the hunger pangs as a reminder to pray.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Tips for Beginners

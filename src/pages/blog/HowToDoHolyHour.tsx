@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToDoHolyHour() {
   return (
@@ -79,28 +80,28 @@ export default function HowToDoHolyHour() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 A Holy Hour is an hour spent in prayer before the Blessed Sacrament — Jesus truly present in the Eucharist. It is a time to be with Jesus, to adore Him, to speak with Him, and to listen to Him. For many Catholics, the weekly Holy Hour has become the anchor of their spiritual life — the hour that transforms all the other hours of the week.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Yet many Catholics feel intimidated by the idea of spending a full hour in prayer. What do you do for an entire hour? What if you get distracted? What if you fall asleep? This guide will answer all of these questions and give you a practical framework for making a fruitful Holy Hour.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Holy Hour?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 A Holy Hour is a devotional practice in which a Catholic spends one hour in prayer before the Blessed Sacrament exposed in a monstrance (or reserved in the tabernacle). The practice is rooted in Jesus' words to His disciples in the Garden of Gethsemane: "Could you not watch with me one hour?" (Matthew 26:40).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 The Holy Hour became especially popular through the devotion to the Sacred Heart of Jesus. St. Margaret Mary Alacoque, to whom Jesus appeared in the 17th century, reported that Jesus asked for a Holy Hour of reparation on Thursday nights — the night He was betrayed. Since then, the practice has spread throughout the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Today, many parishes offer Eucharistic Adoration — some for a few hours a week, others perpetually (24 hours a day, 7 days a week). The Holy Hour can be made during any of these times.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Make a Holy Hour?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 The benefits of a regular Holy Hour are profound:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>You encounter Jesus personally.</strong> In the Eucharist, Jesus is truly present — Body, Blood, Soul, and Divinity. The Holy Hour is a personal encounter with the living God.</li>
                 <li><strong>You receive peace.</strong> In the presence of Jesus, the noise and anxiety of the world fade. Many Catholics report that the Holy Hour is the most peaceful hour of their week.</li>
@@ -118,30 +119,30 @@ export default function HowToDoHolyHour() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Structure Your Holy Hour</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 There is no single "right way" to make a Holy Hour. The Holy Spirit will guide you. However, here is a simple structure that many Catholics find helpful:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. Arrival and Transition (5 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 When you enter the chapel, genuflect before the Blessed Sacrament. Silence your phone completely. Take a few deep breaths and consciously let go of the distractions and worries you brought with you. Make the Sign of the Cross slowly and deliberately. Acknowledge that you are in the presence of Jesus.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 A simple prayer to begin: "Lord Jesus, I believe You are truly present here. I adore You. I love You. I thank You for this time with You. Open my heart to receive what You want to give me today."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. Adoration and Praise (10 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Begin your Holy Hour by simply adoring Jesus. Adoration is not asking for anything — it is simply acknowledging who God is and giving Him praise. You might pray:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>"Jesus, You are the Son of God. You are my Lord and my Savior."</li>
                 <li>"I adore You, hidden God, truly present under these appearances."</li>
                 <li>"You are worthy of all praise, all honor, all glory."</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 You can also pray traditional prayers of adoration like the Divine Praises, the Anima Christi, or Psalm 103. Some people find it helpful to gaze at the monstrance and simply repeat "Jesus, I adore You" slowly and lovingly.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your relationship with Jesus?"
@@ -149,42 +150,42 @@ export default function HowToDoHolyHour() {
               />
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. Scripture Reading and Meditation (15 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Bring a Bible or a Catholic meditation book with you. Read a passage from Scripture — especially the Gospels — slowly and prayerfully. After reading, close your eyes and meditate on what you have read. Ask Jesus: "What are You saying to me through this passage?"
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 This is a form of Lectio Divina — praying with Scripture. You are not studying the Bible academically; you are listening for God's voice speaking to you personally through His Word.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Petition and Intercession (10 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Now bring your needs and the needs of others before Jesus. Speak to Him as you would to a friend. Tell Him about your struggles, your fears, your hopes. Ask Him for what you need. Pray for your family, your friends, your parish, the Church, the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Many people find it helpful to bring a written prayer list to their Holy Hour. This helps you remember who and what you want to pray for.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">5. Silence and Listening (15 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 This is often the most fruitful — and the most challenging — part of the Holy Hour. Simply be silent. Do not read. Do not pray words. Just be with Jesus. Look at Him in the monstrance. Rest in His presence. Listen.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 God often speaks in the silence. Not with audible words, but with a sense of peace, a gentle prompting, a new perspective, a healing of a wound. Be patient. Even if you feel like "nothing is happening," grace is at work.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 If distractions come (and they will), gently return your attention to Jesus. Do not be discouraged by distractions — they are normal. Simply acknowledge them and let them go.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">6. Thanksgiving and Closing (5 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Before you leave, thank Jesus for the time you have spent with Him. Thank Him for His presence, His love, His grace. Ask Him to bless the rest of your day and to help you carry His presence with you into the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 A simple closing prayer: "Lord Jesus, thank You for this time with You. Help me to carry Your presence with me today. May everything I do be for Your glory. Amen."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Genuflect before leaving, and go in peace.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Bring to Your Holy Hour</h2>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
@@ -198,29 +199,29 @@ export default function HowToDoHolyHour() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Challenges and How to Overcome Them</h2>
               
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Challenge 1: "I get too distracted"</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Distractions are normal. Do not be discouraged. When a distraction comes, gently acknowledge it and return your attention to Jesus. Some people find it helpful to write down distracting thoughts on a piece of paper — this "parks" them so you can return to prayer.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Challenge 2: "I fall asleep"</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 If you fall asleep during your Holy Hour, do not feel guilty. Jesus knows you are tired. He is pleased that you came to be with Him. That said, if you consistently fall asleep, try making your Holy Hour at a different time of day when you are more alert.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Challenge 3: "I don't feel anything"</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Prayer is not about feelings. God is at work even when you do not feel His presence. St. Teresa of Calcutta experienced decades of spiritual dryness, yet she remained faithful to her Holy Hour. Trust that grace is being given even when you do not feel it.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Challenge 4: "I don't have time for a full hour"</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 If you cannot make a full hour, start with 15 or 30 minutes. God is pleased with whatever time you can give Him. As you grow in the practice, you may find that you naturally want to stay longer.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Eucharistic Adoration Near You</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 Many parishes offer Eucharistic Adoration at least once a week. Some have perpetual adoration chapels open 24/7. To find adoration near you:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Call your local parish and ask about their adoration schedule</li>
                 <li>Use websites like <strong>Masstimes.org</strong> or <strong>EucharisticAdoration.com</strong> to search for adoration chapels</li>

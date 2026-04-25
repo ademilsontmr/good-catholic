@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function BrownScapularGuide() {
   return (
@@ -87,9 +88,9 @@ export default function BrownScapularGuide() {
               <p className="text-text leading-relaxed mb-6">
                 The Carmelite Order was in crisis. After fleeing the Holy Land, they were being treated as outsiders in Europe. <strong>Saint Simon Stock</strong>, the Prior General, prayed the <em>Flos Carmeli</em> (Flower of Carmel) seeking a sign of protection. 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="brown-scapular-guide">
                 On July 16, 1251, Our Lady appeared holding the brown habit and gave the "Great Promise." From that day on, the Scapular became the "livery" of the Queen of Heaven.
-              </p>
+              </LinkedText>
 
               <div className="bg-amber-50 border border-amber-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -109,9 +110,9 @@ export default function BrownScapularGuide() {
               <p className="text-text leading-relaxed mb-6">
                 You cannot just "buy and wear" a Scapular and receive the full spiritual benefits. You must be <strong>Invested/Enrolled</strong> by a priest using the official Latin or vernacular rite. 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="brown-scapular-guide">
                 Once enrolled, you are a "confrere" of the Carmelite Order. Every prayer said by a monk in a monastery, every Mass offered by a Carmelite priest, you share in those spiritual merits. It is a lifelong membership in a global family of prayer.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Is your soul's armor ready?"
@@ -125,9 +126,9 @@ export default function BrownScapularGuide() {
               <p className="text-text leading-relaxed mb-6">
                 On October 13, 1917, during the "Miracle of the Sun," Sister Lucia of Fatima saw Mary appear as <strong>Our Lady of Mount Carmel</strong>, holding the Scapular. Lucia later explained: "The Rosary and the Scapular are inseparable." 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="brown-scapular-guide">
                 If the Rosary is the "Sword" of Mary, the Scapular is her "Shield." One is for active prayer, the other is for constant protection.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

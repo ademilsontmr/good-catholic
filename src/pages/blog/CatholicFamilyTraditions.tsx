@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicFamilyTraditions() {
   return (
@@ -77,16 +78,16 @@ export default function CatholicFamilyTraditions() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
                 The family is called the "domestic church"—the place where faith is first learned and lived. Catholic family traditions create an environment where children encounter Christ not just on Sunday, but daily in their own homes.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Vision: A Catholic Home
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               A Catholic home should be visibly different—not in a showy way, but in subtle signs that Christ dwells there. Sacred images, prayer spaces, and holy reminders transform a house from merely a dwelling into a sanctuary.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Daily Family Prayers
@@ -95,9 +96,9 @@ export default function CatholicFamilyTraditions() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Morning Offering
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               Begin each day by consecrating it to God. The traditional Morning Offering unites all the day's works, joys, and sufferings with Christ's sacrifice. Children can memorize a simplified version from an early age.
-            </p>
+            </LinkedText>
             <p className="text-text leading-relaxed mb-6 italic bg-accent/10 p-4 rounded-lg">
               "O Jesus, through the Immaculate Heart of Mary, I offer You my prayers, works, joys, and sufferings of this day, in union with the Holy Sacrifice of the Mass throughout the world. I offer them for all the intentions of Your Sacred Heart."
             </p>
@@ -105,23 +106,23 @@ export default function CatholicFamilyTraditions() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Grace Before Meals
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               The simple practice of blessing food sanctifies daily sustenance and teaches gratitude. The traditional "Bless us, O Lord" or the simple "Bless this food, Lord, and bless those who prepared it" become lifelong habits.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Family Rosary
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               Pope St. John Paul II called the family that prays together "a witness and sign of faith." The family Rosary—even just a decade daily—creates a rhythm of prayer and meditation. Many families pray after dinner or before bedtime.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Night Prayers
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               End the day with the Sign of the Cross, a brief examination of conscience, the Our Father or Hail Mary, and a blessing. Children especially need this peaceful routine before sleep.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Liturgical Year Celebrations
@@ -130,30 +131,30 @@ export default function CatholicFamilyTraditions() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Advent
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               The Advent wreath with four candles, Jesse Trees telling salvation history, and the O Antiphons during the final week prepare for Christmas. Keep Advent distinct from Christmas—save decorations until Christmas Eve.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Christmas
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               The Christmas crèche (nativity scene), blessing of the home on Epiphany, and celebrating all twelve days of Christmas (not just December 25) enrich the season. Consider giving religious gifts—Bibles, rosaries, saint books.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Lent and Easter
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               Lenten sacrifice jars (collecting money for charity), Stations of the Cross at home, Lenten calendars counting down to Easter, and blessing Easter foods (baskets of bread, eggs, lamb cake) connect the family to the Paschal mystery.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Name Days and Baptismal Anniversaries
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               Celebrating your patron saint's feast day (name day) and the anniversary of baptism reinforces identity as a Christian. Simple traditions: special meal, story of the saint, renewal of baptismal promises.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Creating Sacred Spaces
@@ -162,23 +163,23 @@ export default function CatholicFamilyTraditions() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Home Altar or Prayer Corner
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               Designate a visible spot for prayer: a crucifix, statue of Mary or a favorite saint, candles, Bible, and rosaries. This becomes the family's "church within the home" where prayers are offered and decisions discerned.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Holy Water Fonts
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
           Placing holy water fonts at the home's entrances sanctifies coming and going. The ancient tradition of blessing oneself with holy water upon entering recalls baptism and protects against evil.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Sacred Images
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
             Religious art in the home—crucifixes in bedrooms, Last Supper in dining rooms, Good Shepherd in children's rooms—surrounds the family with visual reminders of faith. These become talking points for catechesis.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Weekly Family Traditions
@@ -187,23 +188,23 @@ export default function CatholicFamilyTraditions() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Sunday as the Lord's Day
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               Guard Sunday from ordinary activities. Mass attendance is primary, but also rest from work, family time, special Sunday meals, and recreation that refreshes rather than distracts. Make Sunday feel different from other days.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Friday Abstinence and Fasting
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               The tradition of meatless Fridays (even outside Lent) honors Christ's passion. Simple meals, Stations of the Cross, or special acts of charity make Fridays distinct. Children learn that Catholics "do Fridays differently."
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Monthly and Annual Traditions
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
               First Saturday devotions, monthly family confession, blessing of throats on St. Blaise's day (February 3), and annual household blessings (on Epiphany or moving into a new home) mark time with sacred significance.
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToReturnToMass() {
   return (
@@ -78,33 +79,33 @@ export default function HowToReturnToMass() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 Millions of Americans were raised Catholic but drifted away — through college, a painful experience with the Church, a busy life, or simply the gradual erosion of habit. If you are one of them, and something is drawing you back, this guide is for you. There is no judgment here, no checklist of requirements, no minimum standard of holiness you must meet before you are welcome. The Church is a hospital for sinners, not a museum for saints.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">You Are Not Alone</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 According to Pew Research, about 13% of American adults are former Catholics — making "lapsed Catholics" one of the largest religious groups in the United States. Many of them feel a pull back to the Church at some point in their lives — often triggered by a major life event (marriage, the birth of a child, the death of a loved one, a personal crisis) or simply by a quiet, persistent longing that won't go away.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 If you feel that pull, know that it is real and it is from God. The desire to return is itself a grace — a sign that God has not given up on you, even if you gave up on Him for a while.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 1: Acknowledge the Desire to Return</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 The first step is simply to acknowledge the desire. You don't need to have everything figured out. You don't need to resolve all your doubts, heal all your wounds, or understand all the Church's teachings before you take the first step. You just need the willingness to try.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 Many people who have returned to the Church say that the hardest part was simply walking through the door for the first time. Once they did, they found a welcome they didn't expect.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 2: Go to Confession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 If you have been away from the Church for a long time and have serious sins on your conscience, the most important first step is Confession. This is not about punishment — it is about healing. The Sacrament of Reconciliation is the Church's greatest gift to sinners: a direct encounter with God's mercy that wipes the slate clean and restores your relationship with Him.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 You don't need to remember every sin from the past 20 years. Simply tell the priest how long you have been away, confess the serious sins you remember, and express your sorrow. The priest will guide you through the rest. Many priests are deeply moved when someone returns after a long absence — it is one of the most joyful moments of their ministry.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -119,22 +120,22 @@ export default function HowToReturnToMass() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 3: Choose a Welcoming Parish</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 Not all parishes feel the same. If you had a negative experience at a particular parish in the past, you are not obligated to return there. Visit a few parishes in your area and find one where you feel welcomed and where the preaching nourishes your faith. Many dioceses have "Returning Catholics" programs specifically designed to help people in your situation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 4: Attend Mass Without Pressure</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 When you first return to Mass, give yourself permission to simply show up. You don't need to participate perfectly, know all the responses, or feel spiritually moved. Just be there. Sit in the back if you prefer. Let the liturgy wash over you. God is present in the Mass regardless of how you feel.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 If you are not in a state of grace (i.e., if you have serious unconfessed sins), you should not receive Communion until you have been to Confession. But you can still attend Mass, pray, and receive a blessing. Simply cross your arms over your chest when you approach the Communion line, and the priest will give you a blessing instead.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 5: Address Your Doubts and Questions</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 Many people who left the Church did so because of doubts, questions, or painful experiences. These are real and deserve to be taken seriously. Here are some resources for addressing common concerns:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Intellectual doubts:</strong> Read "Mere Christianity" by C.S. Lewis, "The Case for Catholicism" by Trent Horn, or "Why I Am Catholic" by Brandon Vogt</li>
                 <li><strong>Painful experiences with the Church:</strong> Consider speaking with a priest or Catholic counselor who can help you process these wounds</li>
@@ -143,9 +144,9 @@ export default function HowToReturnToMass() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 6: Connect with the Community</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 Faith is not meant to be lived alone. One of the most important things you can do to sustain your return is to connect with other Catholics. Consider joining a small faith-sharing group, a parish ministry, or a program like RCIA (if you want to deepen your understanding of the faith). Catholic community provides accountability, friendship, and support that makes the journey sustainable.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
                 <p className="text-text italic text-center">

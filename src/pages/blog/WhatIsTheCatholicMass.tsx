@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheCatholicMass() {
   return (
@@ -59,37 +60,37 @@ export default function WhatIsTheCatholicMass() {
               <Cross className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 For a billion Catholics worldwide, the Mass is the center of life. It is the moment when heaven and earth meet, when the sacrifice of Calvary is made present, when the risen Christ gives Himself as food for the journey. Understanding the Mass — its structure, its theology, its history — transforms it from a ritual to be endured into an encounter to be embraced.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Mass Is: Re-Presentation, Not Mere Memorial</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The most important thing to understand about the Mass is what it actually is. The Catechism teaches: "The Eucharist is thus a sacrifice because it re-presents (makes present) the sacrifice of the cross" (CCC 1366). The Mass is not a new sacrifice — Christ died once for all (Heb 9:28). But it is not merely a memorial either, as if we were simply remembering something that happened 2,000 years ago.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The Mass makes the one sacrifice of Calvary present across time. The same Christ who offered Himself on the cross offers Himself at every Mass through the ministry of the priest. The same Body and Blood that were given on Calvary are truly present on the altar. This is why the Mass is the most important thing a Catholic can do — it is participation in the very act of redemption.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The word "Mass" comes from the Latin dismissal formula at the end of the liturgy: "Ite, missa est" — "Go, the assembly is dismissed." The Latin word missa (from mittere, to send) gave us the English word "Mass" and the Spanish "Misa." We are sent out to live what we have celebrated.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Two Main Parts of the Mass</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The Mass has two main parts, which together form a single act of worship:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Liturgy of the Word</strong> — in which God speaks to His people through Scripture and the Church responds in faith.</li>
                 <li><strong>The Liturgy of the Eucharist</strong> — in which the sacrifice of Christ is made present and the faithful receive Him in Holy Communion.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 These two parts are inseparable. The Word prepares us for the Eucharist; the Eucharist fulfills what the Word promises. Together they form "one single act of worship" (CCC 1346).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Introductory Rites</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 Before the two main parts, the Mass begins with the Introductory Rites, which prepare the assembly for worship:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Entrance Procession and Song.</strong> The priest and ministers process to the altar while the assembly sings. This gathering action unites the community and signals the beginning of the sacred action.</li>
                 <li><strong>Greeting.</strong> The priest greets the assembly: "The Lord be with you." The people respond: "And with your spirit." This ancient exchange (found in Ruth 2:4) acknowledges the presence of Christ in the gathered community and in the ordained minister.</li>
@@ -99,9 +100,9 @@ export default function WhatIsTheCatholicMass() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Liturgy of the Word</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The Liturgy of the Word is structured around three Scripture readings, a psalm, and the Church's response in faith:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>First Reading.</strong> Usually from the Old Testament (or Acts of the Apostles during Easter season). It is chosen to connect thematically with the Gospel.</li>
                 <li><strong>Responsorial Psalm.</strong> A psalm is sung or recited, with the assembly responding to each verse. The psalms are the prayer book of the Bible — the prayers Jesus Himself prayed.</li>
@@ -119,9 +120,9 @@ export default function WhatIsTheCatholicMass() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Liturgy of the Eucharist</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The Liturgy of the Eucharist is the heart of the Mass — the moment when the sacrifice of Christ is made present and the faithful receive Him in Communion:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Offertory (Preparation of the Gifts).</strong> Bread and wine are brought to the altar — often by members of the assembly. The priest offers them to God with prayers that echo the Jewish table blessings Jesus would have used at the Last Supper. A collection is also taken up, as an expression of the community's offering of itself.</li>
                 <li><strong>Eucharistic Prayer.</strong> The central prayer of the Mass, which includes the Preface (a hymn of thanksgiving), the Sanctus ("Holy, Holy, Holy"), the Epiclesis (the invocation of the Holy Spirit over the gifts), the Institution Narrative (the words of consecration), the Anamnesis (the memorial), and the Doxology ("Through him, with him, in him..."). At the words of consecration — "This is my body... This is my blood" — the bread and wine become the Body and Blood of Christ. This is the moment of transubstantiation.</li>
@@ -133,9 +134,9 @@ export default function WhatIsTheCatholicMass() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Concluding Rites</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The Mass ends with the Concluding Rites, which send the assembly back into the world:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Announcements.</strong> Brief announcements about parish life may be made.</li>
                 <li><strong>Blessing.</strong> The priest blesses the assembly in the name of the Trinity. On solemn occasions, a more elaborate solemn blessing or prayer over the people may be used.</li>
@@ -143,17 +144,17 @@ export default function WhatIsTheCatholicMass() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Mass and the Last Supper</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The Mass is not a new invention — it is the continuation of what Jesus did in the Upper Room on the night before He died. At the Last Supper, Jesus took bread, gave thanks, broke it, and gave it to His disciples, saying: "This is my body, which will be given for you; do this in memory of me" (Lk 22:19). He did the same with the cup of wine.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The early Christians understood immediately that this was not a one-time event. They gathered "on the first day of the week" (Acts 20:7) to "break bread" — the earliest term for the Eucharist. The structure of the Mass — readings, prayers, the breaking of bread — is already visible in the Acts of the Apostles and in the letters of St. Paul (1 Cor 11:23–26). The Mass is 2,000 years old, and its roots go back to the Passover meal of the Old Testament.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Participate Actively</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 The Second Vatican Council called for the "full, conscious, and active participation" of the faithful in the liturgy (Sacrosanctum Concilium 14). This does not mean everyone should be doing something visible at every moment — it means interior engagement, not just exterior activity.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Responses.</strong> Say the responses clearly and attentively — they are your part of the dialogue with God.</li>
                 <li><strong>Postures.</strong> Standing (for the Gospel and the Eucharistic Prayer), kneeling (at the consecration and after Communion), and sitting (for the readings and homily) are not arbitrary — they express the interior disposition of the body at prayer.</li>
@@ -162,9 +163,9 @@ export default function WhatIsTheCatholicMass() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Tips for Beginners Attending Mass for the First Time</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 If you are attending Mass for the first time — or returning after a long absence — here are some practical tips:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Arrive a few minutes early and pick up a missalette (the booklet with the Mass texts) from the entrance.</li>
                 <li>Follow along with the missalette — it will help you know when to stand, sit, and kneel.</li>

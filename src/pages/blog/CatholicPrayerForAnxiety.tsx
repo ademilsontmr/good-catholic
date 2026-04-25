@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicPrayerForAnxiety() {
   return (
@@ -59,14 +60,14 @@ export default function CatholicPrayerForAnxiety() {
               <Heart className="w-24 h-24 text-sky-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 This guide brings together the most powerful Catholic prayers for anxiety, the intercession of the saints — especially Saint Dymphna, the patron of mental health — and a practical prayer routine that can transform your relationship with worry. Whether you are experiencing mild everyday stress or a diagnosed anxiety disorder, the Church has wisdom and grace to offer you.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Bible Says About Anxiety</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Scripture addresses anxiety directly and repeatedly — which tells us that God knows this is a real human struggle, not a sign of weak faith.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The most famous passage is Philippians 4:6-7: <em>"Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus."</em> Saint Paul wrote these words from prison — not from a place of comfort, but from a place of genuine suffering. His peace was not the absence of difficulty; it was the presence of God in the midst of difficulty.
               </p>
@@ -78,15 +79,15 @@ export default function CatholicPrayerForAnxiety() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Distinction: Feeling vs. Habit</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 The Catholic tradition makes an important distinction that brings great relief to anxious souls: anxiety as a feeling is not sinful. Feelings arise spontaneously; they are not chosen. The experience of fear, worry, or dread is part of our human nature — even Jesus experienced anguish in the Garden of Gethsemane (Luke 22:44).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 What can become disordered — and what the Catechism addresses under the virtue of hope — is anxiety as a habitual disposition of distrust: a settled refusal to believe that God is in control, that he is good, and that he cares for us. This is not a clinical diagnosis but a spiritual orientation, and it is addressed through prayer, the sacraments, and the cultivation of trust.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 This distinction matters enormously. If you suffer from anxiety, you are not failing spiritually. You are human. The question is not whether you feel anxious, but what you do with that feeling — whether you bring it to God or try to carry it alone.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Most Powerful Catholic Prayers for Anxiety</h2>
 
@@ -136,18 +137,18 @@ export default function CatholicPrayerForAnxiety() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saint Dymphna: Patron of Anxiety and Mental Health</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Saint Dymphna is the patron saint of those suffering from anxiety, depression, and mental illness — and her story is one of the most moving in the entire calendar of saints.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 According to tradition, Dymphna was an Irish princess of the 7th century, the daughter of a pagan king and a devout Christian mother. When her mother died, her father — grief-stricken and mentally unstable — became obsessed with finding a woman who resembled his late wife. He eventually turned his attention to his own daughter. Dymphna fled to Belgium with her confessor, Father Gerebernus, and settled in the town of Gheel. Her father tracked her down, and when she refused to return with him, he killed her. She was approximately 15 years old.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 What happened next is remarkable. The town of Gheel became a place of pilgrimage, and miraculous healings of the mentally ill were reported at her shrine. Over the centuries, Gheel developed a unique tradition of caring for the mentally ill in family homes — a model of community-based mental health care that was centuries ahead of its time. Today, Saint Dymphna's shrine in Gheel, Belgium, remains a place of pilgrimage for those suffering from mental illness and their families.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Her feast day is May 15. A novena to Saint Dymphna is prayed over nine days, asking for her intercession for those suffering from anxiety and mental illness:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Novena Prayer to Saint Dymphna</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -156,45 +157,45 @@ export default function CatholicPrayerForAnxiety() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saint Padre Pio on Anxiety</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Saint Padre Pio, one of the most beloved saints of the 20th century, had a profound understanding of anxiety and spiritual suffering. His most famous words on the subject are a direct challenge to anxious souls:
-              </p>
+              </LinkedText>
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">
                   "Pray, hope, and don't worry. Worry is useless. God is merciful and will hear your prayer."
                 </p>
                 <p className="text-text-muted text-center mt-2">— Saint Padre Pio</p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Padre Pio did not dismiss anxiety as trivial — he himself suffered greatly, bearing the stigmata for fifty years. But he understood that worry, as a spiritual habit, is a form of distrust in God's providence. His prescription — pray, hope, don't worry — is not a platitude but a program: replace worry with prayer, replace despair with hope, and trust that God is at work even when you cannot see it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Rosary as an Anxiety Remedy</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Modern neuroscience has confirmed what Catholics have known for centuries: repetitive, rhythmic prayer calms the nervous system. The Rosary — with its repetition of the Hail Mary, its meditative mysteries, and its gentle rhythm — is one of the most effective natural anxiety remedies available.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Research on the physiological effects of prayer has found that the rhythm of the Rosary — approximately six breath cycles per minute — synchronizes with the body's natural cardiovascular rhythms, producing a state of calm alertness similar to that achieved through meditation. But unlike secular meditation, the Rosary also engages the mind with the mysteries of Christ's life, death, and resurrection — giving the anxious mind something true and beautiful to rest on.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Many Catholics report that praying the Rosary during moments of acute anxiety — even just one decade — brings immediate relief. The combination of vocal prayer, mental meditation, and physical touch (the beads) engages the whole person: body, mind, and soul.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer and Professional Help: Not Either/Or</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 The Catholic Church has always affirmed the goodness of medicine and the healing professions. Seeking professional help for anxiety — whether through therapy, medication, or both — is not a failure of faith. It is a responsible use of the gifts God has given to the medical community.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 The Catechism teaches that we have a duty to care for our health (CCC 2288-2289). Just as we would not refuse insulin for diabetes on the grounds that we should "just pray more," we should not refuse appropriate treatment for anxiety disorders. Prayer and professional care are not competing approaches — they are complementary. Many Catholic therapists integrate faith into their practice, and the Church supports this integration.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 If your anxiety is significantly affecting your daily life, please seek professional help. Your parish priest, a Catholic therapist, or your primary care physician can be good starting points.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Complete Prayer Routine for Anxious Catholics</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 Here is a practical daily prayer routine designed specifically for those struggling with anxiety:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Morning (5-10 minutes):</strong> Begin the day by offering your anxieties to God. Pray the Morning Offering, then spend a few minutes with Philippians 4:6-7, asking God to replace your anxiety with his peace. End with the Serenity Prayer.</li>
                 <li><strong>Midday (5 minutes):</strong> When anxiety peaks during the day, pause and pray one decade of the Rosary. The repetition and rhythm will calm your nervous system. Follow with a brief Act of Trust: "Lord, I trust in you. I give you this worry. I believe you are in control."</li>

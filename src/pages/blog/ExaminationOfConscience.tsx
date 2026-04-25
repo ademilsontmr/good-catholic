@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ExaminationOfConscience() {
     return (
@@ -75,16 +76,16 @@ export default function ExaminationOfConscience() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
                                 The Sacrament of Reconciliation is one of the greatest gifts Jesus left to His Church. However, to fully receive the grace of forgiveness, a contrite heart and sincere preparation are necessary. The examination of conscience is not an exercise in guilt, but an act of love and truth before a God who is Father and Mercy.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 What is the Examination of Conscience?
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
                                 It is the effort to recall sins committed by thoughts, words, acts, and omissions since the last good confession. It is placing oneself under the light of the Holy Spirit to see the wounds that sin has caused in our relationship with God, with our neighbor, and with ourselves.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="How is the health of your soul?"
@@ -98,16 +99,16 @@ export default function ExaminationOfConscience() {
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 1. Invoke the Holy Spirit
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
                                 Alone, we tend to justify our errors or despair. Ask the Holy Spirit to give you clarity, courage, and true repentance. "Come, Holy Spirit, enlighten my mind so I may see my sins and touch my heart so I may detest them."
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 2. Use a Guide (Commandments)
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
                                 The most classic way is to follow the Ten Commandments. Ask yourself: Did I give God first place? Did I use His name in vain? Did I keep Sundays holy? Did I honor my parents? Was I violent or did I hold grudges? Was I pure in my thoughts and actions? Was I honest? Did I speak the truth?
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 The Three Dimensions of Sin
@@ -121,9 +122,9 @@ export default function ExaminationOfConscience() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 The Sorrow of the Heart (Contrition)
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
                                 More important than the list of sins is repentance. Contrition is the sorrow of the soul for having offended such a good God. Without the purpose of sinning no more, confession loses its transforming meaning.
-                            </p>
+                            </LinkedText>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">

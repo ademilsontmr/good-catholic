@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToStudyBibleCatholic() {
   return (
@@ -78,17 +79,17 @@ export default function HowToStudyBibleCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 Many Catholics feel intimidated by the Bible. It is a large, complex book — 73 books written over more than a thousand years, in multiple languages, across multiple genres. Where do you start? How do you understand it? How do you read it as a Catholic, rather than just as a generic Christian?
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 This guide answers all of these questions. It presents the distinctively Catholic approach to Scripture — rooted in Tradition, guided by the Magisterium, and nourished by 2,000 years of prayerful reading.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Approach to Scripture</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 Catholics read the Bible differently from many Protestants. The key differences:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Scripture and Tradition together.</strong> Catholics do not believe in <em>sola scriptura</em> (Scripture alone). They believe that Scripture and Sacred Tradition together constitute the fullness of divine revelation, and that both must be interpreted by the Magisterium (the teaching authority of the Church).</li>
                 <li><strong>The Church gave us the Bible.</strong> The Catholic Church defined the canon of Scripture at the Councils of Hippo (393) and Carthage (397). The Bible is the Church's book — it must be read within the Church's Tradition.</li>
@@ -97,30 +98,30 @@ export default function HowToStudyBibleCatholic() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Senses of Scripture</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 The Catholic tradition recognizes four senses (or levels of meaning) in Scripture. This framework, developed by the Church Fathers and systematized by St. Thomas Aquinas, allows for a rich, multi-layered reading of the Bible.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. The Literal Sense</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 The literal sense is what the text actually says — the historical, grammatical meaning of the words. This is the foundation of all other senses. You cannot interpret Scripture allegorically or morally without first understanding what it literally says.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 The literal sense does not mean "literalistic" — it means the meaning intended by the human author. Poetry is meant to be read as poetry; history as history; prophecy as prophecy. Understanding the genre and historical context of a passage is essential to understanding its literal sense.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. The Allegorical Sense</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 The allegorical sense (also called the typological sense) sees how the events and persons of the Old Testament prefigure Christ and the New Testament. For example: the Passover lamb prefigures Christ, the Lamb of God. The crossing of the Red Sea prefigures Baptism. The manna in the desert prefigures the Eucharist.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 This is not a Catholic invention — it is the method used by the New Testament itself. St. Paul writes: "These things happened to them as examples, and they were written down as warnings for us" (1 Corinthians 10:11).
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. The Moral Sense</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 The moral sense asks: what does this passage call me to do? How does it apply to my life? The events of Scripture are not just historical facts — they are models for Christian living. The story of the Good Samaritan calls us to love our neighbor. The story of the Prodigal Son calls us to repentance and forgiveness.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. The Anagogical Sense</h3>
               <p className="text-text leading-relaxed mb-6">
@@ -133,23 +134,23 @@ export default function HowToStudyBibleCatholic() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Method 1: Lectio Divina</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 Lectio Divina (Latin for "divine reading") is the ancient Catholic method of prayerful Scripture reading. It was practiced by the Desert Fathers, systematized by St. Benedict, and recommended by the Second Vatican Council. It involves four steps:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Lectio (Reading):</strong> Read the passage slowly, once or twice. Notice what strikes you — a word, a phrase, an image.</li>
                 <li><strong>Meditatio (Meditation):</strong> Repeat the word or phrase that struck you. Let it sink into your heart. Ask: "What is God saying to me through this?"</li>
                 <li><strong>Oratio (Prayer):</strong> Respond to God in prayer. Let the text move you to praise, thanksgiving, petition, or contrition.</li>
                 <li><strong>Contemplatio (Contemplation):</strong> Rest in silence with God. Simply be present. This is the most fruitful and the most challenging step.</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 Lectio Divina is not a technique for extracting information from the Bible — it is a method of encounter with the living God who speaks through His Word.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Method 2: Following the Daily Mass Readings</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 The simplest and most powerful way to read the Bible as a Catholic is to follow the daily Mass readings. The Lectionary takes you through most of the Bible over three years (Sunday cycle) and two years (weekday cycle). By following the daily readings, you:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Read the Bible in the context of the liturgical year</li>
                 <li>Stay connected to the universal Church (every Catholic reads the same readings)</li>
@@ -158,9 +159,9 @@ export default function HowToStudyBibleCatholic() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Method 3: Systematic Bible Study</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 For those who want to study the Bible more systematically, here are some approaches:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Book by book:</strong> Read one book of the Bible from beginning to end, using a commentary to understand the context and meaning.</li>
                 <li><strong>Thematic study:</strong> Study a specific theme across the whole Bible — for example, the Eucharist, Mary, the Church, or prayer.</li>
@@ -192,9 +193,9 @@ export default function HowToStudyBibleCatholic() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Daily Bible Reading Plan</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 Here is a simple plan for daily Bible reading that takes about 15 minutes:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-2 mb-6">
                 <li>Open the daily Mass readings (USCCB.org or Laudate app)</li>
                 <li>Read the first reading slowly (2-3 minutes)</li>

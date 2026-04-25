@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatDoCatholicsBeliieve() {
   return (
@@ -64,55 +65,55 @@ export default function WhatDoCatholicsBeliieve() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholicism is the oldest and largest branch of Christianity, tracing its origins directly to Jesus Christ and the apostles. Its beliefs are summarized in the Nicene Creed — a statement of faith formulated at the Council of Nicaea in 325 AD and still professed by Catholics at every Sunday Mass. But the Creed is just the beginning. Catholic belief is rich, deep, and comprehensive — touching every aspect of human life and destiny.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">1. God: One God in Three Persons</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics believe in one God who exists as three distinct Persons: the Father, the Son (Jesus Christ), and the Holy Spirit. This is the doctrine of the Trinity — not three gods, but one God in three Persons. Each Person is fully God; together they are one God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 God is eternal, all-knowing, all-powerful, and all-loving. He created the universe out of nothing and sustains it in existence at every moment. He is not a distant deity but a personal God who knows each person by name and desires a relationship with every human being.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">2. Jesus Christ: True God and True Man</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics believe that Jesus Christ is the Second Person of the Trinity — fully divine and fully human. He was conceived by the Holy Spirit, born of the Virgin Mary, lived a fully human life, was crucified under Pontius Pilate, died, was buried, and rose from the dead on the third day. He ascended into heaven and will come again to judge the living and the dead.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 The Incarnation — God becoming human in Jesus — is the central event of all history. Through His death and resurrection, Jesus redeemed humanity from sin and opened the way to eternal life. He is not merely a great teacher or moral example; He is the Son of God, the Savior of the world.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">3. The Bible and Sacred Tradition</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics believe that God reveals Himself through two sources: Sacred Scripture (the Bible) and Sacred Tradition (the living transmission of the faith through the Church). Both are equally authoritative and must be interpreted together.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 The Catholic Bible contains 73 books — 46 in the Old Testament and 27 in the New Testament. The seven books not found in Protestant Bibles (Tobit, Judith, 1 and 2 Maccabees, Sirach, Wisdom, and Baruch) are called the deuterocanonical books. They were part of the Greek Septuagint used by the early Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 The Magisterium — the teaching authority of the Church, exercised by the Pope and bishops in union with him — interprets Scripture and Tradition authentically. Catholics believe the Holy Spirit guides the Church to teach without error on matters of faith and morals.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">4. The Church: One, Holy, Catholic, and Apostolic</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics believe that Jesus founded one Church — the Catholic Church — and that this Church is the fullness of the means of salvation. The four marks of the Church (from the Nicene Creed) are:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>One:</strong> The Church is one in faith, sacraments, and governance under the Pope.</li>
                 <li><strong>Holy:</strong> The Church is holy because Christ is holy and the Holy Spirit dwells in her — even though her members are sinners.</li>
                 <li><strong>Catholic:</strong> The Church is universal — for all people, in all times, in all places.</li>
                 <li><strong>Apostolic:</strong> The Church was founded on the apostles and their successors (the bishops) maintain an unbroken line of authority from the apostles to today.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 The Pope — the Bishop of Rome — is the successor of St. Peter and the visible head of the Church on earth. Catholics believe the Pope has the charism of infallibility when he defines a doctrine of faith or morals to be held by the whole Church (this has happened only twice in modern history: the Immaculate Conception in 1854 and the Assumption in 1950).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">5. The Seven Sacraments</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics believe that Jesus instituted seven sacraments — visible signs that convey invisible grace. The sacraments are not merely symbols; they actually accomplish what they signify.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Baptism:</strong> Forgives original sin, makes one a child of God and member of the Church. Necessary for salvation.</li>
                 <li><strong>Confirmation:</strong> Strengthens the gifts of the Holy Spirit received at Baptism; completes Christian initiation.</li>
@@ -129,38 +130,38 @@ export default function WhatDoCatholicsBeliieve() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">6. Salvation: Faith, Grace, and Works</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics believe that salvation is a gift of God's grace — it cannot be earned. But they also believe that genuine faith produces good works, and that we must cooperate with God's grace throughout our lives. Salvation is not a one-time event but a process — justification (being made right with God), sanctification (growing in holiness), and glorification (entering eternal life).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics reject both the idea that we can earn salvation by our own efforts (Pelagianism) and the idea that faith alone, without any cooperation or works, is sufficient (sola fide). The Catholic position is that we are saved by grace through faith — a living faith that expresses itself in love and good works (Galatians 5:6; James 2:24).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">7. Mary and the Saints</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics honor Mary as the Mother of God (Theotokos) — the greatest of all the saints. They believe she was conceived without original sin (the Immaculate Conception), remained a virgin throughout her life, and was assumed body and soul into heaven (the Assumption). They ask her to intercede for them, just as they ask any saint to pray for them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics do not worship Mary or the saints — worship (latria) is given to God alone. They give Mary special veneration (hyperdulia) and the other saints ordinary veneration (dulia). The saints are alive in God and can intercede for us; asking them to pray for us is an extension of the Christian practice of asking others to pray for us.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">8. The Afterlife: Heaven, Purgatory, and Hell</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics believe in the resurrection of the body and life everlasting. After death, each person faces the particular judgment — an immediate accounting before God. The possible outcomes are:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Heaven:</strong> Eternal life in the presence of God — the beatific vision. This is the destiny God created us for.</li>
                 <li><strong>Purgatory:</strong> A state of purification for those who die in God's grace but are not yet fully purified. Purgatory is not a second chance at salvation — it is the final cleansing of those who are already saved.</li>
                 <li><strong>Hell:</strong> Eternal separation from God, chosen by those who die in a state of mortal sin and refuse God's mercy. Hell is real and possible, but the Church has never declared any specific person to be in hell.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 At the end of time, there will be a general resurrection and a Last Judgment, in which all people will be judged and the full truth of history will be revealed.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">9. Moral Teaching</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholic moral teaching is based on natural law (the moral order written into human nature by God), divine revelation (Scripture and Tradition), and the teaching authority of the Church. Key moral positions include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>The sanctity of human life from conception to natural death</li>
                 <li>The definition of marriage as a lifelong covenant between one man and one woman</li>
@@ -171,9 +172,9 @@ export default function WhatDoCatholicsBeliieve() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">10. Prayer and Worship</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholics believe that prayer is essential to the Christian life. The highest form of prayer is the Mass — the re-presentation of Christ's sacrifice on Calvary. Catholics also pray the Rosary, the Liturgy of the Hours, novenas, and personal prayer. They believe in the power of intercessory prayer — asking God for the needs of others.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

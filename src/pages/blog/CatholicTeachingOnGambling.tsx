@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnGambling() {
   return (
@@ -59,27 +60,27 @@ export default function CatholicTeachingOnGambling() {
               <HelpCircle className="w-24 h-24 text-green-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 Gambling is one of the oldest human activities — and one of the most contested from a moral standpoint. Cultures and religions have debated its permissibility for millennia. The Catholic Church's position is neither a blanket condemnation nor a free pass. It is a carefully reasoned moral framework that distinguishes between gambling as harmless recreation and gambling as a destructive vice — and it offers a path of freedom for those who have fallen into addiction.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says: CCC 2413</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 The primary source for the Catholic Church's teaching on gambling is the Catechism of the Catholic Church, paragraph 2413:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed">
                   "Games of chance (card games, etc.) or wagers are not in themselves contrary to justice. They become morally unacceptable when they deprive someone of what is necessary to provide for his needs and those of others. The passion for gambling risks becoming an enslavement. Unfair wagers and cheating at games constitute grave matter, unless the damage inflicted is so slight that the one who suffers it can reasonably consider it insignificant." (CCC 2413)
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 This paragraph is brief but dense. Let's unpack its key claims. First, gambling is not intrinsically evil — it is not wrong in itself, the way murder or adultery is wrong in itself. Second, it becomes morally unacceptable under specific conditions. Third, it carries a particular risk of enslavement — addiction. Fourth, cheating at gambling is a grave matter (potentially mortal sin). Understanding these distinctions is essential to applying the Church's teaching correctly.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Is Gambling Permitted?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 The Church permits gambling when it meets certain conditions. Gambling is morally acceptable when:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>It is done freely.</strong> No one is coerced or manipulated into gambling.</li>
                 <li><strong>The stakes are fair.</strong> Both parties understand and accept the terms of the wager.</li>
@@ -87,17 +88,17 @@ export default function CatholicTeachingOnGambling() {
                 <li><strong>The money wagered is truly disposable.</strong> It does not deprive the gambler or their family of what is necessary for their needs.</li>
                 <li><strong>It does not become an obsession.</strong> It remains a form of recreation, not a compulsion.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 Under these conditions, a friendly card game for small stakes, a lottery ticket bought occasionally for entertainment, or a visit to a casino with a fixed budget that one can afford to lose are all morally permissible. The Church does not require Catholics to avoid all gambling — it requires them to gamble, if they choose to, with prudence, honesty, and moderation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 It is worth noting that many Catholic parishes and organizations have historically used bingo, raffles, and other games of chance as fundraising activities. This is entirely consistent with the Church's teaching, provided the proceeds go to legitimate charitable purposes and participants are not exploited.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Does Gambling Become a Sin?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 The Catechism identifies several conditions under which gambling becomes morally unacceptable. These are not arbitrary rules but applications of deeper moral principles — particularly the virtues of justice, prudence, and temperance.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>1. When it deprives the family of necessities.</strong> The most serious condition identified by the Catechism is when gambling "deprives someone of what is necessary to provide for his needs and those of others." A parent who gambles away money needed for rent, food, or children's education commits a grave injustice against their family. The Church's social teaching is clear that we have obligations to those who depend on us, and gambling that violates those obligations is seriously wrong.
               </p>
@@ -117,34 +118,34 @@ export default function CatholicTeachingOnGambling() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Virtue of Temperance</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 The key virtue that governs the Catholic approach to gambling is temperance — one of the four cardinal virtues. Temperance is the virtue that moderates our appetites and pleasures, ensuring that we enjoy good things in the right measure, at the right time, and in the right way. It is not the elimination of pleasure but its proper ordering.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 Applied to gambling, temperance means enjoying games of chance as a form of recreation without allowing them to become a consuming passion. It means setting limits and keeping them. It means being honest with oneself about whether gambling is truly recreational or whether it has become compulsive. It means prioritizing one's obligations to family and others over the excitement of the game.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 The temperate gambler can take it or leave it. The intemperate gambler cannot stop. The difference between these two is not merely psychological — it is moral. The loss of freedom that characterizes addiction is a real diminishment of the human person, and the Church calls us to protect and cultivate our freedom as a gift from God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Problem of Gambling Addiction</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 Problem gambling — also called gambling disorder — is a recognized psychological condition characterized by persistent and recurrent problematic gambling behavior that causes significant impairment or distress. It affects an estimated 1–3% of the population in most countries, with millions more experiencing subclinical gambling problems.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 The consequences of gambling addiction are severe: financial ruin, broken families, job loss, depression, anxiety, and a dramatically elevated risk of suicide. The gambling industry — particularly online gambling and casinos — is designed to exploit psychological vulnerabilities and maximize addiction. The Church's warning that "the passion for gambling risks becoming an enslavement" is not a pious platitude but a recognition of a real and serious danger.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 From a moral standpoint, the Church recognizes that addiction involves a diminishment of freedom. A person in the grip of compulsive gambling may not be fully responsible for every act of gambling — their freedom is impaired by the addiction. This does not mean that addiction excuses all moral responsibility, but it does mean that the Church approaches those struggling with gambling addiction with compassion rather than condemnation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 At the same time, the Church calls those struggling with addiction to seek help — not to resign themselves to their condition as if it were unchangeable. The human person, made in the image of God, is capable of conversion and healing. The path to freedom from gambling addiction is real, and the Church offers resources to walk it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Path to Freedom: Resources and the Sacraments</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 For Catholics struggling with gambling addiction, the Church offers both natural and supernatural resources for healing and freedom.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Gamblers Anonymous</strong> is a twelve-step program modeled on Alcoholics Anonymous, specifically designed for people with gambling problems. It offers peer support, accountability, and a structured path to recovery. Many Catholics have found that the spiritual principles of the twelve steps — including honesty, humility, and reliance on a Higher Power — are deeply compatible with Catholic spirituality.
               </p>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MiraculousMedalGuide() {
   return (
@@ -86,9 +87,9 @@ export default function MiraculousMedalGuide() {
               <p className="text-text leading-relaxed mb-6">
                 In 1830, a young novice of the Daughters of Charity named <strong>Catherine Labouré</strong> was awakened in the middle of the night in a convent in Paris. A small child led her to the chapel, where the Virgin Mary appeared to her.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">
                 During a second apparition, Mary showed Catherine the image of a medal. Mary stood on a globe, crushing the head of a serpent beneath her feet. Rays of light shone from her hands. Mary told Catherine: 
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed">
                   "Have a medal struck upon this model. Those who wear it will receive great graces, especially if they wear it around the neck. Those who repeat this prayer with confidence will be in a special way under the protection of the Mother of God."
@@ -98,9 +99,9 @@ export default function MiraculousMedalGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Front: The Victory Over Evil
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">
                 The front of the medal contains several profound theological symbols:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>Mary Crushing the Serpent:</strong> Recalling Genesis 3:15, where God prophesied that the woman's offspring would crush the head of the serpent. Mary is the "New Eve" who reverses Eve's failure through her "Yes" to God.</li>
                 <li><strong>The Rays of Light:</strong> These represent the <strong>graces</strong> Mary obtains for humanity. Catherine noticed that some rays were dim; Mary explained that these were graces for which people had forgotten to ask.</li>
@@ -111,9 +112,9 @@ export default function MiraculousMedalGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Back: The Mystery of the Two Hearts
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">
                 The back of the medal is even more dense with symbolism, reflecting the central mysteries of the Catholic faith:
-              </p>
+              </LinkedText>
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-8">
                 <ul className="list-disc list-inside text-text space-y-3">
                   <li><strong>The Twelve Stars:</strong> Representing the Twelve Apostles and the Twelve Tribes of Israel, as well as the "crown of twelve stars" worn by the woman in Revelation 12:1.</li>
@@ -135,9 +136,9 @@ export default function MiraculousMedalGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why It's Called "Miraculous"
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">
                 Originally, it was called the "Medal of the Immaculate Conception." However, shortly after it began being distributed in Paris in 1832—during a deadly cholera epidemic—thousands of reported healings, protections, and radical conversions occurred among those who wore it. The people of Paris began calling it the "Miraculous Medal," and the name stuck.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 One of the most famous stories is the conversion of <strong>Alphonse Ratisbonne</strong> in 1842. A wealthy Jewish man who was hostile to the Church, he was challenged to wear the medal. Mary appeared to him in a church in Rome, and he experienced an instantaneous conversion, later becoming a priest and founding a religious order.
               </p>
@@ -145,9 +146,9 @@ export default function MiraculousMedalGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Use the Medal
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">
                 The medal is not a magic charm. Its power lies in the intercession of Mary and the faith of the wearer.
-              </p>
+              </LinkedText>
               <ul className="list-decimal list-inside text-text space-y-3 mb-8">
                 <li><strong>Have it Blessed:</strong> Like all sacramentals, have it blessed by a priest. This sets the object apart for holy use.</li>
                 <li><strong>Wear it with Confidence:</strong> Mary promised that those who wear it "with confidence" would receive great graces.</li>

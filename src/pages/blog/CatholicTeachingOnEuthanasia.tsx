@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnEuthanasia() {
   return (
@@ -64,14 +65,14 @@ export default function CatholicTeachingOnEuthanasia() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 Euthanasia and assisted suicide are among the most pressing moral issues of our time. As these practices become legal in more states and countries, Catholics are increasingly asked — by family members, by healthcare workers, by society — to take a position. The Catholic Church's position is clear, consistent, and rooted in a profound respect for human life and dignity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Definitions: What We Are Talking About</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 It is important to distinguish between several related but distinct concepts:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Euthanasia:</strong> The deliberate killing of a person by a physician or other party, with the intention of ending suffering. This includes both voluntary euthanasia (at the patient's request) and involuntary euthanasia (without the patient's consent).</li>
                 <li><strong>Assisted suicide (physician-assisted suicide):</strong> A physician provides the means (usually a lethal prescription) for a patient to end their own life. The patient administers the lethal dose themselves.</li>
@@ -80,9 +81,9 @@ export default function CatholicTeachingOnEuthanasia() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Teaches</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 The Catechism of the Catholic Church addresses euthanasia directly in paragraphs 2276-2279:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text text-sm leading-relaxed">
                   <strong>CCC 2277:</strong> "Whatever its motives and means, direct euthanasia consists in putting an end to the lives of handicapped, sick, or dying persons. It is morally unacceptable. Thus an act or omission which, of itself or by intention, causes death in order to eliminate suffering constitutes a murder gravely contrary to the dignity of the human person and to the respect due to the living God, his Creator. The error of judgment into which one can fall in good faith does not change the nature of this murderous act, which must always be forbidden and excluded."
@@ -103,12 +104,12 @@ export default function CatholicTeachingOnEuthanasia() {
               <p className="text-text leading-relaxed mb-6">
                 In 1995, Pope John Paul II published <em>Evangelium Vitae</em> ("The Gospel of Life") — one of the most important papal documents of the 20th century. It addresses euthanasia with particular clarity:
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 "Euthanasia is a grave violation of the law of God, since it is the deliberate and morally unacceptable killing of a human person. This doctrine is based upon the natural law and upon the written word of God, is transmitted by the Church's Tradition and taught by the ordinary and universal Magisterium" (§65).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 John Paul II also addressed the cultural context: "We are facing what can be called a 'culture of death'... a veritable structure of sin" (§12). He called Catholics to resist this culture and to build a "culture of life" — one that affirms the dignity of every human person from conception to natural death.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know Catholic moral teaching?"
@@ -118,32 +119,32 @@ export default function CatholicTeachingOnEuthanasia() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Euthanasia Is Wrong: The Moral Arguments</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. Human Life Is Sacred</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 The fundamental reason the Church opposes euthanasia is that human life is sacred — it is a gift from God, not a possession that we can dispose of at will. "Human life is sacred because from its beginning it involves the creative action of God and it remains for ever in a special relationship with the Creator, who is its sole end" (CCC 2258).
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. Only God Is Lord of Life and Death</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 The Church teaches that God alone is the Lord of life and death. "No one can under any circumstance claim for himself the right directly to destroy an innocent human being" (CCC 2258). Euthanasia — even when motivated by compassion — usurps a prerogative that belongs to God alone.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. The Meaning of Suffering</h3>
               <p className="text-text leading-relaxed mb-6">
                 The Church does not glorify suffering for its own sake. But it does teach that suffering, when united to Christ's cross, can have redemptive value. St. John Paul II wrote in <em>Salvifici Doloris</em>: "In the Cross of Christ not only is the Redemption accomplished through suffering, but also human suffering itself has been redeemed" (§19).
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 This does not mean that we should not relieve suffering — the Church strongly supports palliative care and pain management. But it does mean that suffering is not the ultimate evil, and that eliminating a person to eliminate their suffering is not the answer.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. The Slippery Slope</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 Experience in countries where euthanasia has been legalized (Netherlands, Belgium, Canada) shows a consistent pattern of expansion: from terminal illness to chronic illness, from physical suffering to psychological suffering, from voluntary to involuntary. The Church's concern is not merely theoretical — it is confirmed by the historical record.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Morally Acceptable at End of Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 The Church's opposition to euthanasia does not mean that every possible medical intervention must be used to prolong life. The Catechism distinguishes between:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Ordinary means:</strong> Basic care that must always be provided — nutrition, hydration, hygiene, pain relief, human presence and companionship.</li>
                 <li><strong>Extraordinary means:</strong> Burdensome, disproportionate, or futile treatments that may be refused or withdrawn without moral fault. The decision must be made by the patient (if competent) or their legitimate representatives.</li>
@@ -152,9 +153,9 @@ export default function CatholicTeachingOnEuthanasia() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">For Catholics in Healthcare</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 Catholic healthcare workers face increasing pressure to participate in euthanasia and assisted suicide in jurisdictions where these are legal. The Church is clear: no Catholic healthcare worker is obligated to participate in euthanasia or assisted suicide, and doing so would be gravely wrong. The right to conscientious objection is a fundamental right that the Church strongly defends.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

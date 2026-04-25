@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnSuffering() {
   return (
@@ -59,73 +60,73 @@ export default function CatholicTeachingOnSuffering() {
               <HelpCircle className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 Every human being who has ever lived has asked some version of this question. A child dies of cancer. A good man loses everything. An innocent person suffers while the guilty prosper. The earthquake, the war, the diagnosis — they all raise the same agonizing question: where is God in this? Why does He allow it?
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 The Catholic Church does not pretend this question is easy. It does not offer a tidy philosophical solution that makes the pain go away. What it offers is something far more radical: a God who entered into suffering Himself.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Philosophical Problem</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 The problem of suffering — sometimes called the "problem of evil" — is one of the oldest and most powerful challenges to belief in God. It can be stated simply: If God is all-good, He would want to prevent suffering. If God is all-powerful, He could prevent suffering. But suffering exists. Therefore, either God is not all-good, or He is not all-powerful — or He does not exist.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 This argument has convinced many people to abandon faith. The eighteenth-century philosopher David Hume called it the strongest argument against theism. The twentieth century — with its world wars, its Holocaust, its gulags — gave the argument a terrible urgency. Elie Wiesel, a Holocaust survivor, wrote of watching a child hanged in a Nazi concentration camp and hearing someone ask, "Where is God?" He answered: "Here He is — He is hanging here on this gallows."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 The Catholic Church takes this challenge seriously. It does not dismiss the pain or offer easy answers. But it does offer a response — not a solution that eliminates the mystery, but a framework that gives suffering meaning.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Answer Is a Person</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 The most fundamental Catholic response to the problem of suffering is not a philosophical argument but a historical event: the Incarnation, Passion, and Resurrection of Jesus Christ.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 God did not remain distant from human suffering. He entered into it. The Son of God took on human flesh — with all its vulnerability, its capacity for pain, its mortality. He was born in poverty. He was misunderstood, rejected, betrayed. He was tortured and executed in one of the most brutal ways ever devised by human cruelty. He cried out from the cross: "My God, my God, why have you forsaken me?" (Matthew 27:46).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 This is not a God who watches suffering from a safe distance. This is a God who has been there — who knows from the inside what it means to suffer, to be abandoned, to die. The cross is not an explanation of suffering; it is God's solidarity with those who suffer.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 And then — the Resurrection. The suffering was not the last word. Death was not the last word. God brought life out of the worst that human evil could do. This is the ultimate Catholic answer to suffering: not that it will be explained, but that it will be redeemed.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Suffering and Free Will</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 Much of the suffering in the world is caused by human choices — by sin, by selfishness, by violence, by injustice. The Catholic Church teaches that God created human beings with genuine freedom — the capacity to choose good or evil. This freedom is not a design flaw; it is essential to what it means to be a person made in God's image.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 A world without freedom would be a world without love — because love, by definition, must be freely chosen. God could have created beings who always did the right thing, but they would have been robots, not persons. The price of genuine freedom is the possibility of genuine evil.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 This explains much human suffering — war, murder, abuse, exploitation. But it does not explain natural suffering: earthquakes, cancer, the death of children. For this, the Church offers other responses.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Suffering as Purification</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 The Letter to the Hebrews speaks of suffering as a form of divine discipline: "My son, do not regard lightly the discipline of the Lord, nor be weary when reproved by him. For the Lord disciplines the one he loves, and chastises every son whom he receives" (Hebrews 12:5–6). The passage continues: "He disciplines us for our good, that we may share his holiness. For the moment all discipline seems painful rather than pleasant, but later it yields the peaceful fruit of righteousness to those who have been trained by it" (Hebrews 12:10–11).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 This does not mean that every suffering is a punishment for a specific sin — Jesus explicitly rejects this idea (see below). But it does mean that suffering, when accepted in faith, can be a powerful instrument of sanctification. It strips away attachments, cultivates humility, deepens compassion, and draws the soul toward God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 The saints consistently testify to this. St. Paul writes: "We rejoice in our sufferings, knowing that suffering produces endurance, and endurance produces character, and character produces hope" (Romans 5:3–4). This is not masochism — it is the recognition that God can bring good out of evil, growth out of pain.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Salvifici Doloris: John Paul II on the Meaning of Suffering</h2>
               <p className="text-text leading-relaxed mb-6">
                 In 1984, Pope John Paul II — himself no stranger to suffering, having survived an assassination attempt and lived under Nazi and Communist occupation — wrote an apostolic letter entirely devoted to the meaning of suffering: <em>Salvifici Doloris</em> ("Salvific Suffering").
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 John Paul argued that suffering has a salvific — a saving — dimension when it is united to the suffering of Christ. He drew on the Book of Job, the Psalms, and the New Testament to show that suffering is not meaningless but can be a participation in the redemptive work of Christ.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 He wrote: "In the Cross of Christ not only is the Redemption accomplished through suffering, but also human suffering itself has been redeemed... Every man in his suffering can also become a sharer in the redemptive suffering of Christ." This is a profound claim: our suffering, united to Christ's, can have redemptive value — not only for ourselves but for others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 John Paul also emphasized the "Gospel of suffering" — the call to respond to suffering in others with compassion and service. The parable of the Good Samaritan is the model: when we encounter someone who is suffering, we are called to stop, to help, to accompany.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -133,31 +134,31 @@ export default function CatholicTeachingOnSuffering() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Redemptive Value of Suffering</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 One of the most distinctive and challenging aspects of Catholic teaching on suffering is the concept of redemptive suffering — the idea that our suffering, united to Christ's, can have spiritual value for others. St. Paul writes: "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in Christ's afflictions for the sake of his body, that is, the church" (Colossians 1:24).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 This does not mean that Christ's redemption was incomplete. It means that Christ, in His infinite generosity, has chosen to associate our sufferings with His own — to allow us to participate in the work of redemption. When we offer our pain to God — our illness, our grief, our frustration — it is not wasted. It becomes a prayer, an intercession, a participation in the mystery of the cross.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 This is why many Catholics, when they are sick or suffering, consciously "offer it up" — a phrase that can sound dismissive but is actually a profound spiritual act. It is the decision to transform passive suffering into active participation in Christ's redemptive work.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Suffering Is NOT: Not Punishment for Personal Sin</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 One of the most important things the Catholic Church teaches about suffering is what it is not. In John 9:1–3, the disciples ask Jesus about a man born blind: "Rabbi, who sinned, this man or his parents, that he was born blind?" Jesus answers: "It was not that this man sinned, or his parents, but that the works of God might be displayed in him."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 This is a direct rejection of the idea that personal suffering is always a punishment for personal sin. The Book of Job makes the same point at length: Job's friends insist that his suffering must be the result of some hidden sin; God rebukes them at the end of the book and vindicates Job.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 This is pastorally crucial. When someone is suffering — from illness, from loss, from tragedy — the last thing they need to hear is that they must have done something to deserve it. The Catholic tradition firmly rejects this kind of "prosperity gospel" thinking. Suffering is not a sign of God's displeasure. It is a mystery that God can use for purposes we may not understand in this life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Respond to Suffering</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 The Catholic tradition offers several concrete responses to suffering — both our own and others':
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Prayer.</strong> Bring your suffering to God honestly — like Job, like the Psalmist, like Jesus in Gethsemane. Do not pretend to feel peace you do not feel. God can handle your anger, your confusion, your grief. The Psalms of lament are Scripture precisely because God wants us to bring our pain to Him.
               </p>

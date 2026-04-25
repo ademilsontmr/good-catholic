@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayersForHealingCatholic() {
   return (
@@ -68,31 +69,31 @@ export default function PrayersForHealingCatholic() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Jesus the Healer: The Biblical Foundation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 Healing is not a peripheral theme in the Gospels — it is central to the mission of Jesus. Of the 37 miracles recorded in the four Gospels, 26 are healings. Jesus healed the blind, the lame, the leper, the paralyzed, and even raised the dead. He did not heal to prove His power; He healed because He was moved with compassion.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 Matthew 8:17 tells us that Jesus' healings fulfilled the prophecy of Isaiah: "He took our infirmities and bore our diseases." This is a profound theological statement: Christ's healing ministry was not separate from His redemptive work but an expression of it. He came to restore the whole person — body, mind, and soul.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 The Letter of James makes clear that healing prayer is not just for Jesus' earthly ministry but for the ongoing life of the Church: "Is anyone among you sick? Let him call for the elders of the church, and let them pray over him, anointing him with oil in the name of the Lord. And the prayer of faith will save the one who is sick, and the Lord will raise him up" (James 5:14-15).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Anointing of the Sick
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 The Anointing of the Sick is one of the seven sacraments of the Catholic Church, and it is the Church's primary sacramental response to illness and suffering. It is not a last rite reserved for the dying — it is a sacrament of healing for anyone who is seriously ill, facing surgery, or weakened by age.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 The sacrament is administered by a priest, who anoints the forehead and hands of the sick person with blessed oil while praying: "Through this holy anointing may the Lord in his love and mercy help you with the grace of the Holy Spirit. May the Lord who frees you from sin save you and raise you up."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 The effects of the Anointing of the Sick are profound. The Catechism teaches that it unites the sick person to the passion of Christ, strengthens them against temptation, brings peace and courage, forgives sins (if the person is unable to confess), and — if it is God's will — restores physical health (CCC 1532).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 If you or a loved one is seriously ill, do not hesitate to call your parish and request the Anointing of the Sick. It is a gift of the Church, and it is available to all the faithful.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Prayer for Physical Healing
@@ -194,22 +195,22 @@ export default function PrayersForHealingCatholic() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Novena for Healing
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 A novena is a nine-day prayer, rooted in the nine days the Apostles spent in prayer between the Ascension and Pentecost. Praying a novena for healing is a powerful way to bring a specific intention before God with perseverance and faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 To pray a novena for healing, choose one of the healing prayers above (or a prayer to a patron saint of healing) and pray it faithfully for nine consecutive days. Accompany it with Mass, Confession, and if possible, the Anointing of the Sick. Offer each day's prayer for the specific person or intention you are bringing before God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 Popular novenas for healing include the Novena to Our Lady of Lourdes (February 2-10), the Novena to Saint Peregrine (patron of cancer patients), and the Novena to Saint Raphael the Archangel.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Patron Saints of Healing
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 The Catholic tradition is rich with saints who intercede for the sick. Here are some of the most important:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-3 text-text">
                 <li><strong>Saint Raphael the Archangel:</strong> His very name means "God heals." In the Book of Tobit, Raphael heals Tobit's blindness and drives away a demon. He is the patron of the sick, of physicians, and of all who seek healing.</li>
                 <li><strong>Saint Luke the Evangelist:</strong> A physician by profession, Saint Luke is the patron of doctors, surgeons, and medical workers. His Gospel gives special attention to Jesus' healing miracles.</li>
@@ -221,9 +222,9 @@ export default function PrayersForHealingCatholic() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Pray for the Sick
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 Praying for the sick is one of the corporal and spiritual works of mercy. Here is a practical guide to doing it well:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-3 text-text">
                 <li><strong>Visit them:</strong> The presence of a caring person is itself a form of healing. Do not be afraid to visit the sick — your presence matters more than your words.</li>
                 <li><strong>Pray with them, not just for them:</strong> Ask if you can pray together. Hold their hand. Pray aloud. Let them hear the words of faith spoken over them.</li>
@@ -235,18 +236,18 @@ export default function PrayersForHealingCatholic() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 When Healing Doesn't Come
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 One of the hardest questions in the Christian life is: why does God sometimes not heal? This is not a question with an easy answer, but the Catholic tradition offers profound wisdom.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 Saint Paul prayed three times for his "thorn in the flesh" to be removed, and God said no — but gave him something better: "My grace is sufficient for you, for my power is made perfect in weakness" (2 Corinthians 12:9). Paul's suffering became the occasion for a deeper experience of God's grace.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Church teaches the doctrine of redemptive suffering: that suffering united to Christ's cross is not meaningless but participates in His redemptive work. Saint John Paul II wrote in his apostolic letter <em>Salvifici Doloris</em> that suffering, when accepted in faith, becomes a source of grace for the sufferer and for the whole Church.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-for-healing-catholic">
                 This does not mean we should not pray for healing — we absolutely should. But it means we can trust God even when the answer is not what we hoped for. He is always working for our ultimate good, even through suffering.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center leading-relaxed font-semibold text-lg">

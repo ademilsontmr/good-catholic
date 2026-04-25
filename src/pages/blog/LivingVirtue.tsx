@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LivingVirtue() {
   return (
@@ -77,19 +78,19 @@ export default function LivingVirtue() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
                 The Christian life is not a set of rules but a relationship with Christ that transforms character. Living virtue in daily circumstances—at work, in family, amid challenges—is the path to holiness accessible to everyone.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Universal Call to Holiness
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Vatican II taught that holiness is not reserved for priests and religious but is the vocation of every baptized person. St. Thérèse of Lisieux showed through her "Little Way" that ordinary life, lived with extraordinary love, becomes the path to sainthood.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               This means your workplace, your kitchen, your commute, your conversations—all become opportunities for grace. The question is not where you are but how you love in that place.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Theological Virtues: Faith, Hope, and Charity
@@ -98,23 +99,23 @@ export default function LivingVirtue() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Faith: Trusting in God's Word
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Faith is not merely intellectual assent but personal trust in God. It means believing His promises even when circumstances suggest otherwise. Daily faith involves trusting God's providence, His forgiveness, and His guidance.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Hope: Confident Expectation of Heaven
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Hope is the virtue that keeps us oriented toward heaven. Unlike optimism, which expects earthly success, hope trusts in eternal salvation. Hope sustains us through suffering, failure, and disappointment, knowing that God works all things for good.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Charity: Love of God and Neighbor
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Charity is the greatest virtue—the love that imitates Christ's self-gift. It seeks the good of others, even when inconvenient or costly. Charity transforms ordinary actions—making dinner, answering email, listening to a friend—into acts of divine love.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Cardinal Virtues: Practical Wisdom
@@ -123,30 +124,30 @@ export default function LivingVirtue() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Prudence: Practical Wisdom
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Prudence is right reason applied to action—the ability to discern the good and choose the right means to achieve it. It requires reflection, counsel, and decisiveness. Prudence prevents both rash action and paralyzing indecision.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Justice: Giving God and Neighbor Their Due
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Justice involves rendering to each what is owed—worship to God, fair treatment to others, honesty in dealings. It underlies ethical business practices, faithful relationships, and civic responsibility. Justice builds community and trust.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Fortitude: Courage in Difficulty
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Fortitude enables perseverance in the face of difficulty. It is not rash bravery but steady endurance—staying faithful when faith costs something. Fortitude sustains marriage through hard years, career through setbacks, and faith through doubt.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Temperance: Moderation and Balance
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Temperance moderates the desire for pleasure—food, drink, comfort, entertainment. It prevents excess and addiction. In a consumer culture, temperance is countercultural, enabling freedom from the tyranny of desire.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Daily Practices for Virtue
@@ -155,37 +156,37 @@ export default function LivingVirtue() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Morning Offering
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Begin each day by offering everything to God. This consecrates ordinary activities—making them opportunities for grace. The daily grind becomes spiritual worship when offered with love.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Examination of Conscience
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Briefly review the day: When did I love well? When did I fail? This practice increases self-awareness and prompts daily conversion. It prepares for confession and tracks growth in virtue over time.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Spiritual Reading
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Reading Scripture and spiritual classics (Imitation of Christ, Introduction to the Devout Life, writings of the saints) feeds the mind with holy thoughts. Even 15 minutes daily transforms perspective.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Practice of Presence
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Brother Lawrence taught to practice the presence of God—maintaining awareness of God's nearness throughout the day. This transforms washing dishes, commuting, and working into prayer.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Dealing with Failure
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
               Growth in virtue is not linear. Sin, weakness, and failure are part of the journey. The key is not perfection but perseverance—beginning again each day with trust in God's mercy. Confession restores grace; determination keeps us moving forward.
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

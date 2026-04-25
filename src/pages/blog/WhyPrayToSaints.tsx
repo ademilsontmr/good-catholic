@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhyPrayToSaints() {
   return (
@@ -84,15 +85,15 @@ export default function WhyPrayToSaints() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Early Church's Practice
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 Praying to saints isn't a medieval invention—it's apostolic practice. The catacomb inscriptions (3rd century) show prayers "to the martyrs" for their intercession. St. Polycarp (martyred 155 AD) was already being venerated as a saint by his community.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 St. John Chrysostom (4th century) preached: "When you perceive that God is chastening you, fly not to the enemies of God, but run to the friends of God, to the martyrs." St. Augustine (5th century) wrote extensively about the saints' ability to help us: "The dead, though dead, are not absent."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 The practice was universal by the 4th century. St. Basil the Great taught that the martyrs "have more power after death than they had when living." The early Christians understood that death doesn't end our relationship with Christ or our ability to pray for others.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. The One Mediator and Participated Mediation
@@ -103,9 +104,9 @@ export default function WhyPrayToSaints() {
               <p className="text-text leading-relaxed mb-6">
                 However, just as Christ is the "One Teacher" yet he appoints human teachers, and Christ is the "One Shepherd" yet he appoints human shepherds, His unique mediation is <strong>shared</strong> with His members. When you ask a friend on earth to pray for you, you are using a human mediator. Asking a saint in Heaven is simply doing the same with a friend who has a better "signal."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 The distinction is between *source* and *participation*. Christ is the source of all grace, but He allows His saints to participate in His mediation. This is why we can ask Mary and the saints to pray for us without contradicting Christ's unique mediatorship.
-              </p>
+              </LinkedText>
               
               <div className="bg-amber-50 border border-amber-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -137,18 +138,18 @@ export default function WhyPrayToSaints() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. The Mystery of Relics: Why Touch Bones?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 Critics often find the Catholic devotion to "relics" (physical remains of saints) bizarre or macabre. However, this is deeply biblical. 
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 In <strong>2 Kings 13:21</strong>, a dead man is thrown into the grave of the prophet Elisha. As soon as his body touches Elisha's bones, the man comes back to life. In the New Testament (<strong>Acts 19:12</strong>), handkerchiefs that simply touched St. Paul's skin were taken to the sick, and they were healed. God often uses physical matter as a conduit for His spiritual grace.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 The early Christians understood this power. The blood of martyrs was collected as precious relics. People would travel great distances to be near the tombs of saints. St. Helena (mother of Emperor Constantine) brought back numerous relics from the Holy Land, including pieces of the True Cross.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 Relics aren't magic—they work because of the holiness of the person and God's decision to honor that holiness. They remind us that our bodies are good and will be resurrected, and that God works through the material world He created.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Who are your heavenly advocates?"
@@ -159,19 +160,19 @@ export default function WhyPrayToSaints() {
                  <Sparkles className="w-6 h-6 text-accent" />
                  Patronage: Friends for Every Occasion
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 Why have "specialties"? St. Joseph for homes, St. Peregrine for cancer, St. Rita for impossible cases? This is not superstition. It is based on the idea that saints understand our struggles because they lived them. A saint who died of cancer has a "special compassion" for those suffering now. It is the family of God at work.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 Patronage often comes from the saint's life: St. Luke (physician) for doctors, St. Thomas Aquinas (scholar) for students, St. Matthew (tax collector) for financial matters. Sometimes it comes from miracles attributed to their intercession after death.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 3. How to Develop a Relationship with the Saints
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-do-catholics-pray-to-saints">
                 Developing a relationship with saints is like developing friendships on earth—it takes time and effort. Here are practical ways to grow in devotion:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Read their lives:</strong> Learn about their struggles, their virtues, and how they loved God. Their stories will inspire you.</li>
                 <li><strong>Ask for their intercession daily:</strong> Include them in your regular prayers. Be specific about your needs.</li>

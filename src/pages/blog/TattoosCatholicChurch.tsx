@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TattoosCatholicChurch() {
   return (
@@ -86,9 +87,9 @@ export default function TattoosCatholicChurch() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-tattoos-a-sin">
                 In an era where tattoos have transitioned from counter-cultural rebellion to mainstream self-expression, the "tattoo question" has become one of the most frequently asked moral queries in parish offices and spiritual direction. Can a faithful Catholic get ink? Does it defile the "Temple of the Holy Spirit"?
-              </p>
+              </LinkedText>
               
               <p className="text-text leading-relaxed mb-6">
                 The simple theological answer is: <strong>Getting a tattoo is not intrinsically evil.</strong> Unlike acts that are always wrong (such as murder or blasphemy), the morality of a tattoo is determined by various factors: intention, content, and the virtue of prudence. There is no specific verse in the New Testament, nor a paragraph in the <em>Catechism of the Catholic Church</em>, that explicitly forbids tattoos.
@@ -119,18 +120,18 @@ export default function TattoosCatholicChurch() {
               <p className="text-text leading-relaxed mb-6">
                 These were <strong>Ceremonial Laws</strong> aimed at separating the Israelites from their pagan neighbors — specifically the Canaanites, who used competitive tattooing and self-mutilation as rituals for mourning or worshiping false gods. The prohibition wasn't about the ink itself, but about the <strong>pagan idolatry</strong> associated with it.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-tattoos-a-sin">
                 Following the Council of Jerusalem (Acts 15), the Church clarified that Gentile converts were not bound by the ceremonial and ritual laws of the Mosaic Law. St. Paul famously writes in Galatians 3:24-25 that the Law was our "tutor" until Christ came, but now we are no longer under that tutor. Therefore, the Levitical ban does not bind Catholics today.
-              </p>
+              </LinkedText>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Self-Mutilation vs. Body Decoration
               </h2>
               <p className="text-text leading-relaxed mb-6">
                 In <em>Summa Theologica</em> (ST II-II, Q. 65), <strong>St. Thomas Aquinas</strong> discusses the "right to bodily integrity." He argues that we do not have absolute ownership over our bodies; we are stewards of a gift from God. Therefore, <strong>major self-mutilation</strong> (removing or destroying a limb or function) is a sin against the Fifth Commandment.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-tattoos-a-sin">
                 The question then becomes: Is a tattoo "mutilation"? 
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Church generally distinguishes between <strong>diminishing a function</strong> (mutilation) and <strong>decorating the surface</strong> (ornamentation). Just as we pierce ears or wear jewelry, a modest tattoo that does not impair the body’s health or functions is traditionally viewed as an ornament rather than a mutilation.
               </p>
@@ -186,9 +187,9 @@ export default function TattoosCatholicChurch() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 A Guide for Practical Discernment
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-tattoos-a-sin">
                 Before you head to the tattoo parlor, consider these three questions as a spiritual check-up:
-              </p>
+              </LinkedText>
               
               <ul className="space-y-4 not-prose mb-10">
                 <li className="flex gap-4 bg-slate-50 p-5 rounded-xl border border-slate-200">
@@ -220,9 +221,9 @@ export default function TattoosCatholicChurch() {
               <p className="text-text leading-relaxed mb-6">
                 Pope Francis famously told young people in 2018: <strong>"Don't be afraid of tattoos... The tattoo often signifies belonging to a community... It is a starting point for dialogue."</strong> 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-tattoos-a-sin">
                 Ultimately, our bodies are temples, and temples are meant to be beautiful. If a tattoo is a work of sacred art that leads others to wonder at the beauty of God, it can be a tool for evangelization. If it is a mark of pride or darkness, it is best avoided. Pray, consult a spiritual director, and let your conscience be your guide.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

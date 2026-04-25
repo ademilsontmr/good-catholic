@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnSocialMedia() {
   return (
@@ -59,9 +60,9 @@ export default function CatholicTeachingOnSocialMedia() {
               <Globe className="w-24 h-24 text-blue-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Billions of people spend hours each day on social media platforms — scrolling, posting, reacting, arguing. For Catholics, this raises urgent questions: Is social media a spiritual danger? Can it be used for good? What does the Church actually say? The answer is nuanced, as it always is when the Church engages with culture: social media is a tool, and like all tools, its moral character depends on how it is used.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Teaches About Communication</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -70,14 +71,14 @@ export default function CatholicTeachingOnSocialMedia() {
               <p className="text-text leading-relaxed mb-6">
                 Pope Francis's encyclical <em>Laudato Si'</em> (2015) addresses technology broadly, warning against what he calls "technocracy" — the tendency to treat technology as the solution to all problems, and to allow it to reshape human relationships and values without critical reflection. He writes: "We have to accept that technological products are not neutral, for they create a framework which ends up conditioning lifestyles and shaping social possibilities along the lines dictated by the interests of certain powerful groups."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 More recently, the Dicastery for Communication has published guidelines on the Church's digital presence, emphasizing that online communication must be characterized by truth, charity, and respect for human dignity — the same virtues required in any form of communication.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Specific Dangers of Social Media</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Social media platforms are not designed with virtue in mind. They are designed to maximize engagement — which means they are optimized to trigger the very vices the Catholic tradition has always warned against. Understanding these dangers is the first step to guarding against them.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Pride (vanity metrics).</strong> The "like" button is a machine for manufacturing vanity. When we post for approval, we are feeding the sin of pride — the desire to be seen, admired, and validated. The number of followers becomes a measure of worth. This is the opposite of the humility the Gospel demands.</li>
                 <li><strong>Envy (comparison culture).</strong> Social media presents a curated highlight reel of other people's lives — their vacations, achievements, relationships, and bodies. Constant exposure to this creates envy: the painful awareness that others seem to have more, be more, do more. Studies consistently link heavy social media use to depression and low self-esteem, especially in young people.</li>
@@ -87,9 +88,9 @@ export default function CatholicTeachingOnSocialMedia() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Specific Goods of Social Media</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 The dangers are real — but so are the goods. Social media, used well, can be a genuine instrument of grace.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Evangelization.</strong> The New Evangelization calls Catholics to bring the Gospel to the digital continent. Social media reaches billions of people who may never enter a church. Catholic content creators, priests, and laypeople are using platforms like YouTube, Instagram, and TikTok to share the faith with remarkable effectiveness.</li>
                 <li><strong>Community.</strong> For Catholics in isolated areas, or those who are homebound, social media can provide genuine community — connection with other believers, access to catechesis, and participation in the broader life of the Church.</li>
@@ -103,9 +104,9 @@ export default function CatholicTeachingOnSocialMedia() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Catholic Principles for Social Media Use</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 How do you use social media virtuously? Here are three practical principles drawn from the Catholic tradition:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>The "Would I say this at Mass?" test.</strong> Before posting, ask yourself: would I say this in the presence of Jesus in the Eucharist? Would I be comfortable if my pastor, my grandmother, or a stranger in need read this? This simple test filters out most of the content that causes harm online — the snarky comment, the uncharitable criticism, the boastful post.
               </p>
@@ -117,42 +118,42 @@ export default function CatholicTeachingOnSocialMedia() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Evangelize on Social Media</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 The most effective Catholic evangelization on social media is not preachy — it is attractive. People are drawn to joy, beauty, and authenticity. Share what you love about the faith: a beautiful prayer, a saint's quote, a reflection on the Sunday Gospel, a photo from a pilgrimage. Let your faith be visible without being aggressive.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Engage with questions charitably. When someone challenges the faith online, respond with patience and clarity — not defensiveness or contempt. Remember that you are not just speaking to the person who asked the question; you are speaking to everyone who reads the thread.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Follow and amplify good Catholic voices. There are excellent Catholic priests, theologians, and laypeople creating content online. By following and sharing their work, you extend their reach and build up the digital Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Social Media and Prayer: How Screens Affect Contemplative Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 One of the most serious spiritual dangers of social media is what it does to the capacity for silence and contemplation. Prayer — especially contemplative prayer — requires the ability to be still, to wait, to attend to the quiet voice of God. Social media trains the mind to expect constant stimulation, novelty, and response. It fragments attention and makes silence feel unbearable.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Many spiritual directors report that their directees struggle to pray for more than a few minutes without reaching for their phones. This is not a moral failure — it is a trained habit, and habits can be retrained. The practice of putting the phone away during prayer time, of sitting in silence before God without distraction, is a form of asceticism appropriate to our age.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Consider: do not check your phone for the first 30 minutes after waking. Use that time for Morning Prayer, Scripture, or quiet reflection. The difference in the quality of your prayer life will be noticeable within a week.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Would St. Francis de Sales Say?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 St. Francis de Sales (1567–1622) is the patron saint of journalists and writers — and by extension, of all who communicate through media. He was himself a prolific communicator: when he could not preach in person to the Calvinist population of the Chablais region, he wrote pamphlets and slipped them under doors. He understood the power of the written word to reach souls.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 His great work, <em>Introduction to the Devout Life</em>, is full of practical wisdom about how to live virtuously in the world — not by withdrawing from it, but by engaging it with charity and discernment. He would likely say to us: use social media, but use it for God. Let every post be an act of charity. Let every interaction be an opportunity for gentleness. And when it becomes an occasion of sin, put it down without guilt and return to prayer.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 His famous motto — "Nothing is so strong as gentleness, nothing so gentle as real strength" — is a perfect guide for online engagement. The Catholic who responds to hostility with patience, to error with clarity, and to pain with compassion is a more powerful evangelist than any algorithm.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Practical Catholic Social Media Audit</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Take 15 minutes this week to audit your social media use. Ask yourself:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>How much time do I spend on social media each day? (Check your screen time settings.)</li>
                 <li>How do I feel after using social media — better or worse?</li>
@@ -161,9 +162,9 @@ export default function CatholicTeachingOnSocialMedia() {
                 <li>Is social media helping or hindering my prayer life?</li>
                 <li>Am I using social media to share the faith, or only to consume content?</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Based on your answers, make one concrete change: unfollow an account that causes envy, set a daily time limit, establish a phone-free prayer time, or commit to sharing one piece of Catholic content per week. Small changes, sustained over time, transform habits.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer Before Using Social Media</h3>

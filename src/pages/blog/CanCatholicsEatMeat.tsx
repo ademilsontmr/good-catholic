@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CanCatholicsEatMeat() {
   return (
@@ -82,12 +83,12 @@ export default function CanCatholicsEatMeat() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Basic Rule: Friday Abstinence
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 The Catholic Church has required abstinence from meat on Fridays for centuries. The practice is rooted in the Church's call to penance — a weekly reminder that Christ died on a Friday, and that we are called to unite our small sacrifices with His great sacrifice on the Cross.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 The Code of Canon Law (Canon 1251) states: "Abstinence from eating meat or another food according to the prescriptions of the conference of bishops is to be observed on Fridays throughout the year unless they are solemnities." This is the universal law of the Church. What varies by country is how strictly it is applied outside of Lent.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Ash Wednesday and Good Friday: Always Obligatory
@@ -95,26 +96,26 @@ export default function CanCatholicsEatMeat() {
               <p className="text-text leading-relaxed mb-6">
                 Two days of the year carry the strictest requirements: <strong>Ash Wednesday</strong> and <strong>Good Friday</strong>. On these days, Catholics in the United States are required to both fast and abstain from meat. Fasting means eating only one full meal and two smaller meals that together don't equal a full meal. Abstinence means no meat at all.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 These obligations apply to all Catholics aged 14 and older for abstinence, and ages 18–59 for fasting (with exceptions for health reasons). There are no substitutions permitted on these two days — they are the most penitential days of the Catholic year.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Fridays of Lent: Obligatory Abstinence
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 Every Friday during Lent — the six Fridays between Ash Wednesday and Holy Thursday — is a day of obligatory abstinence from meat. This is a universal requirement for all Catholics aged 14 and older. No substitution is permitted during the Fridays of Lent; you must abstain from meat.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 This is why Catholic school cafeterias serve fish sticks every Friday in March, and why fast food chains roll out their Filet-O-Fish promotions during Lent. The practice is deeply embedded in American Catholic culture.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Fridays Outside of Lent: The U.S. Bishops' Permission
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 Here's where it gets nuanced for American Catholics. In 1966, the U.S. Conference of Catholic Bishops (USCCB) was granted permission by Rome to allow Catholics to substitute another form of penance on Fridays outside of Lent, rather than requiring strict abstinence from meat.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 This means that on ordinary Fridays (outside of Lent), American Catholics <em>may</em> eat meat — but they are still required to perform some act of penance. The USCCB strongly encourages Catholics to continue abstaining from meat as the preferred form of Friday penance, but other penances are permitted, such as:
               </p>
@@ -125,9 +126,9 @@ export default function CanCatholicsEatMeat() {
                 <li>Praying the Rosary or Stations of the Cross</li>
                 <li>Visiting the sick or performing a corporal work of mercy</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 The key point: the Friday penance obligation does not disappear outside of Lent. It simply becomes more flexible in the United States. Many devout Catholics choose to maintain meat abstinence year-round as a stronger witness and a more consistent penitential practice.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic knowledge?"
@@ -137,9 +138,9 @@ export default function CanCatholicsEatMeat() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Counts as "Meat"?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 The Church's definition of "meat" for abstinence purposes refers to the flesh of warm-blooded land animals and birds. This includes:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 text-text space-y-2">
                 <li>Beef, pork, lamb, and other red meats</li>
                 <li>Chicken, turkey, duck, and other poultry</li>
@@ -153,35 +154,35 @@ export default function CanCatholicsEatMeat() {
                 <li>Eggs and dairy products</li>
                 <li>Reptiles and amphibians (though these are rarely eaten)</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 There is some debate about items like alligator, beaver, and capybara — animals that have historically been classified as "fish" for abstinence purposes in certain regions. These are edge cases that most American Catholics will never encounter.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Is Fish Allowed? The Historical Reasons
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 The permission to eat fish on days of abstinence has both theological and historical roots. Theologically, fish was considered a "lesser" food in the ancient world — it was the food of the poor, not the festive food of celebration. Abstaining from meat (the food of feasts) while eating fish maintained the penitential character of the day.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 Historically, the distinction between "fish" and "flesh meat" goes back to medieval canon law, which drew on ancient dietary categories. Fish were seen as cold-blooded creatures of the water, fundamentally different from warm-blooded land animals. This distinction has been maintained in Church law ever since.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 There's also a beautiful symbolic dimension: fish is the ancient Christian symbol (the ichthys), and eating fish on Friday connects Catholics to the earliest Christian communities who used this symbol to identify themselves.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What If You Forget? Is It a Mortal Sin?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 This is one of the most common questions Catholics ask. The short answer: accidentally eating meat on a Friday of Lent is not a mortal sin if it was genuinely accidental or forgotten.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 For a sin to be mortal, three conditions must be met: it must be a grave matter, committed with full knowledge, and with deliberate consent. If you genuinely forgot it was Friday, or didn't realize the food contained meat, the full knowledge and deliberate consent conditions are not met.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 However, deliberately and knowingly eating meat on a Friday of Lent (or on Ash Wednesday or Good Friday) without a legitimate reason is a serious matter. If you realize mid-meal that you've accidentally eaten meat, simply stop, offer a brief prayer of contrition, and perhaps add an extra act of penance. There's no need for panic — God's mercy is greater than our forgetfulness.
-              </p>
+              </LinkedText>
 
               <div className="bg-orange-50 border border-border rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-4 text-xl">Quick Reference: Friday Abstinence Rules</h3>
@@ -208,22 +209,22 @@ export default function CanCatholicsEatMeat() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Deeper Meaning of Friday Penance
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 Friday penance is not merely a dietary rule — it's a weekly act of discipleship. Every Friday, the Church invites us to remember that Jesus Christ died on a Friday. The small sacrifice of giving up meat (or another comfort) is a way of saying: "Lord, I remember what You did for me. I unite my small suffering with Your great suffering."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 The Catechism of the Catholic Church (CCC 1438) lists penance among the forms of interior penance that the Christian life requires. Friday abstinence is one of the Church's "precepts" — minimum requirements that mark us as practicing Catholics and keep us connected to the rhythm of the liturgical year.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 There's also a communal dimension. When Catholics across America skip meat on Fridays, they are doing something together — a shared act of witness that says something about who we are and what we believe. In a culture that prizes individual choice above all else, the Friday fast is a countercultural act of solidarity with the suffering Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Practical Alternatives to Meat on Fridays
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 If you're looking to embrace Friday abstinence more fully, here are some delicious and satisfying alternatives to meat:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 text-text space-y-2">
                 <li><strong>Fish tacos</strong> — a crowd-pleaser that doesn't feel like a sacrifice</li>
                 <li><strong>Shrimp pasta</strong> — quick, filling, and easy to make</li>
@@ -233,9 +234,9 @@ export default function CanCatholicsEatMeat() {
                 <li><strong>Bean and rice dishes</strong> — economical and nutritious</li>
                 <li><strong>Egg-based dishes</strong> — frittatas, quiches, and omelets are all permitted</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-eat-meat-on-fridays">
                 The goal isn't to find the most luxurious fish dish possible — it's to embrace a spirit of simplicity and sacrifice. A simple meal eaten with gratitude and prayer is worth more than an elaborate seafood feast eaten without reflection.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

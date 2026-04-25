@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SpiritualCommunion() {
   return (
@@ -76,38 +77,38 @@ export default function SpiritualCommunion() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 During the COVID-19 pandemic of 2020, when churches were closed and Catholics around the world were unable to attend Mass or receive Holy Communion, many rediscovered an ancient practice that had been largely forgotten in modern Catholic life: spiritual communion. Priests and bishops encouraged the faithful to make acts of spiritual communion while watching Mass on television or online, and millions of Catholics found in this practice a genuine source of consolation and grace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 But spiritual communion is not a pandemic-era invention or a second-best substitute for "real" Communion. It is a practice with deep roots in Catholic theology and spirituality, recommended by saints and doctors of the Church for centuries. Understanding what it is, why it works, and how to pray it well can enrich your Eucharistic devotion in ways that go far beyond emergency situations.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Is Spiritual Communion?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Spiritual communion is an act of desire — a heartfelt longing to receive Jesus in the Eucharist, expressed in prayer, when sacramental Communion is not possible or not immediately available. It is not a sacrament, and it does not produce the same effects as actually receiving the Body and Blood of Christ. But it is a genuine act of faith and love that, according to Catholic teaching, can bring real spiritual benefits to the soul.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 The Catechism of the Catholic Church does not use the term "spiritual communion" explicitly, but it does teach that "the desire to receive [the Eucharist] is itself a fruit of the Spirit" (CCC 1380). The theological basis for spiritual communion rests on the principle that God is not bound by the sacraments — that He can and does communicate grace to souls who sincerely desire to receive Him, even when the physical reception of the sacrament is impossible.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 St. Thomas Aquinas, the great 13th-century theologian, distinguished between "sacramental" and "spiritual" reception of the Eucharist. He taught that those who receive the Eucharist only sacramentally (without the proper disposition) receive the sacrament but not its fruit. Those who receive it only spiritually (with sincere desire but without the sacrament) receive the fruit but not the sacrament. And those who receive it both sacramentally and spiritually — with the proper disposition and the actual reception — receive the fullest benefit.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 History: The Council of Trent and St. Alphonsus Liguori
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 The practice of spiritual communion has ancient roots, but it was given particular theological clarity and pastoral encouragement during the Counter-Reformation period. The Council of Trent (1545–1563), in its decree on the Eucharist, explicitly praised those who "with a lively faith and sincere devotion" receive the Eucharist "spiritually" when they cannot receive it sacramentally.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 The saint most closely associated with the practice of spiritual communion is St. Alphonsus Liguori (1696–1787), the Italian bishop, theologian, and Doctor of the Church who founded the Redemptorist order. St. Alphonsus was a prolific spiritual writer whose works on moral theology and devotional practice shaped Catholic spirituality for centuries. He was deeply devoted to the Eucharist and wrote extensively about the practice of spiritual communion, composing the prayer that bears his name and that remains the most widely used act of spiritual communion in the Catholic world today.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 St. Alphonsus recommended making spiritual communion not only when sacramental Communion was impossible, but also as a regular practice throughout the day — before receiving Communion at Mass, during Eucharistic Adoration, and at any moment when one wished to draw closer to Jesus. He believed that the more frequently one made acts of spiritual communion, the more one's love for the Eucharist would grow.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Traditional Prayer of St. Alphonsus Liguori
@@ -123,9 +124,9 @@ export default function SpiritualCommunion() {
                 </p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 This prayer is a masterpiece of Eucharistic devotion in just a few sentences. It begins with an act of faith ("I believe that You are present"), moves to an act of love ("I love You above all things"), expresses the desire for Communion ("I desire to receive You"), acknowledges the impossibility of sacramental reception ("Since I cannot at this moment receive You sacramentally"), and then makes the spiritual communion itself ("come at least spiritually into my heart"). It concludes with an act of union and a petition for perseverance ("Never permit me to be separated from You").
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Eucharistic devotion?"
@@ -135,76 +136,76 @@ export default function SpiritualCommunion() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 When to Make a Spiritual Communion
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 There are many situations in which making a spiritual communion is appropriate and beneficial:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">When Watching Mass on Television or Online</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 For Catholics who are homebound due to illness, disability, or other circumstances, watching Mass on EWTN, the local diocesan channel, or online is a genuine participation in the liturgy — even if it cannot replace physical attendance. Making a spiritual communion at the moment of the distribution of Communion during the televised Mass is a beautiful way to unite oneself to the Eucharistic sacrifice.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Before Receiving Sacramental Communion</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Many saints and spiritual directors recommend making an act of spiritual communion in the moments before receiving Holy Communion at Mass — as a way of intensifying one's desire and preparing the heart to receive Jesus. This practice can transform the brief walk to the Communion line into a profound act of longing and love.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">During Eucharistic Adoration</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Eucharistic Adoration — the practice of spending time in prayer before the Blessed Sacrament exposed in a monstrance — is one of the most powerful forms of Catholic prayer. Making acts of spiritual communion during Adoration deepens the union with Jesus that Adoration itself seeks to foster. Many people who spend an hour in Adoration make multiple acts of spiritual communion throughout that hour.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">In Times of Illness</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 When illness prevents a Catholic from attending Mass or receiving Communion, spiritual communion is a powerful consolation. The Church also provides for the reception of Viaticum (Communion for the dying) and the Anointing of the Sick for those who are seriously ill, but spiritual communion can be made at any time and does not require the presence of a priest.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">When in a State of Mortal Sin</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 A Catholic who is conscious of being in a state of mortal sin must not receive sacramental Communion without first going to Confession (unless there is a grave reason and no opportunity for Confession, in which case a perfect act of contrition with the firm intention to go to Confession as soon as possible is required). In such a situation, making a spiritual communion — while also making an act of contrition and resolving to go to Confession — is a way of maintaining one's desire for union with Christ even while acknowledging the obstacle that sin has created.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Theology Behind Spiritual Communion
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 The theological foundation of spiritual communion rests on several principles. First, God's grace is not mechanically tied to the physical reception of the sacrament — it is tied to the disposition of the soul. A person who receives the Eucharist without faith or love receives the sacrament but not its fruit. A person who desires the Eucharist with sincere faith and love can receive its fruit even without the sacrament.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Second, the Eucharist is primarily a mystery of love — the love of Christ who gives Himself entirely to us. Spiritual communion is a response to that love: a declaration that we want to receive Jesus, that we love Him, that we desire union with Him. This desire itself is a form of love, and love is the very substance of the spiritual life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Third, spiritual communion is an expression of the "baptism of desire" principle — the theological teaching that God can communicate the grace of a sacrament to those who sincerely desire it but cannot receive it. Just as a person who sincerely desires Baptism but dies before receiving it can be saved by "baptism of desire," so a person who sincerely desires the Eucharist but cannot receive it can receive its spiritual benefits through an act of spiritual communion.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Value and Limitations Compared to Sacramental Communion
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 It is important to be clear about both the value and the limitations of spiritual communion. On the one hand, it is a genuine act of faith and love that can bring real spiritual benefits — an increase of grace, a deepening of union with Christ, a strengthening of the will to avoid sin. The saints who practiced it frequently testify to its power.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 On the other hand, spiritual communion is not a substitute for sacramental Communion. The Eucharist is a sacrament — a physical sign that actually causes what it signifies. When we receive the Body and Blood of Christ in Holy Communion, something happens that cannot happen through desire alone: we are physically united to Christ, we receive the grace of the sacrament in its fullness, and we are nourished for eternal life in a way that no act of desire can fully replicate.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 This is why the Church strongly encourages Catholics to receive sacramental Communion as frequently as possible — ideally at every Mass they attend — and why spiritual communion, while valuable, should never become a reason to avoid the sacrament itself. The goal of spiritual communion is to intensify our desire for the Eucharist, not to replace it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Pray Spiritual Communion with Devotion
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Making a spiritual communion is simple, but doing it with genuine devotion requires some preparation. Here are some suggestions:
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Recollect yourself. Before praying the act of spiritual communion, take a moment to quiet your mind and heart. Recall that you are in the presence of God, and that you are about to express your desire to receive Jesus. Even a few seconds of recollection can transform a rote prayer into a genuine act of love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Pray slowly. The prayer of St. Alphonsus is short, but it is dense with meaning. Pray it slowly, pausing on each phrase and letting it sink in. "I believe that You are present" — do you really believe this? "I love You above all things" — is this true? "Never permit me to be separated from You" — do you mean this?
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 Add your own words. After the formal prayer, add a few words of your own — thanking Jesus for His presence, asking for a specific grace, or simply resting in silence with Him. Spiritual communion is not just a formula; it is a conversation.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

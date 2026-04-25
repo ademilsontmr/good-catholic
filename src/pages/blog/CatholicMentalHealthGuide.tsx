@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMentalHealthGuide() {
   return (
@@ -77,16 +78,16 @@ export default function CatholicMentalHealthGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 The Catholic approach to mental health recognizes that we are integrated beings - body, mind, and spirit. When mental health challenges arise, they affect every part of us. The Church doesn't replace professional mental health care; it complements it with spiritual resources that address the deepest human needs for meaning, purpose, and connection.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Catholic Understanding of Mental Health
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 The Catholic Church teaches that mental health is part of our overall health and well-being. Mental illness is not a moral failing or lack of faith - it's a medical condition that requires proper treatment, just like physical illness. The Church's approach includes:
-              </p>
+              </LinkedText>
               
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Dignity of the Person:</strong> Every person has inherent dignity regardless of mental health status</li>
@@ -125,9 +126,9 @@ export default function CatholicMentalHealthGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Anxiety and Faith
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 Anxiety disorders affect millions of Catholics. The Catholic faith offers both comfort and practical tools for managing anxiety:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Trust in God's Providence:</strong> "Be not afraid" appears 365 times in Scripture</li>
                 <li><strong>The Peace of Christ:</strong> Jesus offers us His peace, not as the world gives</li>
@@ -139,9 +140,9 @@ export default function CatholicMentalHealthGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Trauma and Spiritual Healing
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 Trauma affects our relationship with God, others, and ourselves. The Catholic approach to trauma healing includes:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Sacramental Healing:</strong> The Eucharist and Reconciliation bring grace for healing</li>
                 <li><strong>Inner Healing Prayer:</strong> Specific prayers for emotional and spiritual wounds</li>
@@ -165,9 +166,9 @@ export default function CatholicMentalHealthGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Professional Help
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 The Church encourages seeking professional mental health care when needed:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Catholic Therapists:</strong> Mental health professionals who integrate faith into treatment</li>
                 <li><strong>Catholic Counseling Centers:</strong> Many dioceses have counseling services</li>
@@ -178,9 +179,9 @@ export default function CatholicMentalHealthGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Spiritual Support
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 The Church provides spiritual resources specifically for mental health:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Spiritual Direction:</strong> Trained guides for spiritual and emotional support</li>
                 <li><strong>Support Groups:</strong> Groups for depression, anxiety, addiction, grief</li>
@@ -191,9 +192,9 @@ export default function CatholicMentalHealthGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Practical Spiritual Practices for Mental Health
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 These spiritual practices can complement professional treatment and support mental health:
-              </p>
+              </LinkedText>
               
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">Daily Mental Health Prayer</h3>
@@ -219,37 +220,37 @@ export default function CatholicMentalHealthGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Role of Sacraments in Mental Health
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 The sacraments provide unique graces for mental and emotional healing:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Eucharist: Spiritual Nourishment
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 When prayer feels empty and God seems distant, the Eucharist provides spiritual nourishment. Christ's real presence sustains us even when we can't feel His presence. Regular reception of the Eucharist is essential for mental health maintenance.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Reconciliation: Healing Guilt and Shame
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 Mental illness often comes with inappropriate guilt and shame. The Sacrament of Reconciliation brings God's mercy and peace, healing the spiritual wounds that often accompany mental health challenges.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Anointing of the Sick: Grace for Suffering
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 This sacrament brings special graces for those suffering from physical or mental illness. It can bring peace, strength, and even physical healing when it's God's will.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Confirmation: Strength for the Journey
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 The gifts of the Holy Spirit, especially fortitude and understanding, provide strength for the mental health journey. The Holy Spirit is called the Divine Counselor and Comforter.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Saints Who Struggled with Mental Health
@@ -269,9 +270,9 @@ export default function CatholicMentalHealthGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Supporting Others with Mental Health Challenges
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 As Catholics, we're called to support those struggling with mental health:
-              </p>
+              </LinkedText>
               
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Educate Yourself:</strong> Learn about mental health conditions to reduce stigma</li>
@@ -285,9 +286,9 @@ export default function CatholicMentalHealthGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 When Professional Help Is Needed
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 Seek professional help immediately if you or someone you know experiences:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Suicidal Thoughts:</strong> Call 988 or text HOME to 741741 (Crisis Text Line)</li>
                 <li><strong>Severe Depression:</strong> Inability to function in daily life</li>
@@ -297,16 +298,16 @@ export default function CatholicMentalHealthGuide() {
                 <li><strong>Addiction:</strong> Substance abuse that's out of control</li>
                 <li><strong>Trauma:</strong> Recent traumatic event causing distress</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 Remember: seeking help is a sign of strength, not weakness. God works through therapists and doctors just as He works through priests and spiritual directors.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Building Mental Resilience Through Faith
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 Catholic faith builds resilience through several key principles:
-              </p>
+              </LinkedText>
               
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Redemptive Suffering:</strong> Finding meaning in hardship through Christ's example</li>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SundayMass() {
   return (
@@ -76,12 +77,12 @@ export default function SundayMass() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 Sunday Mass is the beating heart of Catholic life, the most important meeting of the week, the moment when Heaven touches earth. Since the early times of the Church, Christians gathered on the "Lord's Day" – Sunday, the day of the Resurrection – to celebrate the Eucharist, even at risk of persecution and death. The martyrs of Abitina, in the 4th century, declared before the Roman tribunal: "Without Sunday we cannot live."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 This apostolic tradition remains as a commandment of the Church: every Catholic must participate in Mass on Sundays and holy days of obligation, unless legitimately prevented. But Mass is infinitely more than an obligation – it is an invaluable privilege, an inexhaustible source of graces, the greatest treasure we possess on this earth. If we truly knew the value of a single Mass, we would die of joy, as Saint Padre Pio said.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Is Mass the center of your week?"
@@ -91,9 +92,9 @@ export default function SundayMass() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Happens at Holy Mass?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 Mass is not a simple remembrance of the Last Supper or a theatrical representation of Calvary. It is the unbloody renewal of Christ's one Sacrifice on the Cross. The same Christ who offered Himself once and for all on Calvary continues offering Himself to the Father through the hands of the priest. The sacrifice is the same, the victim is the same, the principal priest is the same (Christ); only the manner of offering is different: on Calvary it was bloody (with shedding of blood), at Mass it is unbloody (without shedding of blood).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Structure of Holy Mass
@@ -102,30 +103,30 @@ export default function SundayMass() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Introductory Rites
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 Mass begins with the entrance procession, greeting, penitential act, Gloria (on Sundays and feasts), and collect prayer. These rites prepare our soul for the encounter with God, helping us leave behind worldly concerns and enter the sacred mystery.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Liturgy of the Word
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 In the Liturgy of the Word, God speaks to us through Sacred Scripture. We hear readings from the Old and New Testaments, sing the Responsorial Psalm, and the Gospel is solemnly proclaimed. The priest's homily applies God's Word to our life. This part culminates with the Profession of Faith (Creed) and the Prayer of the Faithful.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Liturgy of the Eucharist
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 The heart of Mass is the Liturgy of the Eucharist. It begins with the presentation of the gifts (bread and wine), followed by the Eucharistic Prayer, when the consecration happens. At the moment the priest pronounces Christ's words – "This is my Body... This is my Blood" – the bread and wine truly become Christ. Then we pray the Our Father, exchange the sign of peace, and receive Holy Communion.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Is Sunday Mass Obligatory?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 The third commandment orders: "Keep holy the Lord's Day." The Church determines that Catholics fulfill this commandment by participating in Mass on Sundays and holy days of obligation. This obligation is not an arbitrary burden, but an expression of the minimum we owe God for all He gives us. If someone truly loves God, they do not consider Mass an obligation, but a privilege.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Fruits of Participation in Mass

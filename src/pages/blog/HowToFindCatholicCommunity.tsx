@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToFindCatholicCommunity() {
   return (
@@ -78,27 +79,27 @@ export default function HowToFindCatholicCommunity() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 One of the most common struggles among American Catholics is isolation. Many attend Mass regularly but feel like strangers in their own parish — they don't know anyone, no one knows them, and they leave as anonymously as they arrived. This is not how the Church is meant to be. The Second Vatican Council described the Church as "the People of God" — a community of brothers and sisters united in faith, hope, and charity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Community Matters</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 Research consistently shows that Catholics who are connected to a parish community are far more likely to maintain their faith over time. Community provides accountability, support in difficult times, shared celebration in good times, and the practical experience of living the Gospel in relationship with others. Without community, faith tends to become private, individualistic, and eventually dormant.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 1: Visit Several Parishes</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 Not all parishes are the same. They differ in size, culture, liturgical style, demographic makeup, and the quality of their programs. Before committing to a parish, visit 2-3 in your area. Attend Sunday Mass and pay attention to: the quality and depth of the homily, the warmth of the welcome (are people friendly before and after Mass?), the music and liturgy, and whether the parish seems alive and engaged.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 2: Look for Small Groups</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 The Sunday Mass community is too large for real friendship. The key to building genuine community in a parish is through smaller groups — Bible studies, prayer groups, service ministries, young adult groups, or men's and women's groups. These smaller settings allow for the kind of honest, sustained conversation that builds real friendship.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 When visiting a parish, ask: "What small groups or ministries do you have?" A parish with a rich small group culture is a parish where community is actually happening.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How connected are you to your Catholic community?"
@@ -106,14 +107,14 @@ export default function HowToFindCatholicCommunity() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 3: Get Involved in Ministry</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 One of the fastest ways to build community is to serve. When you volunteer for a ministry — whether it is greeting at the door, helping with the food pantry, teaching religious education, or singing in the choir — you immediately have a group of people you see regularly and work alongside. Shared service creates bonds that Sunday Mass attendance alone cannot.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Types of Catholic Communities Beyond the Parish</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 The parish is the primary unit of Catholic community, but it is not the only one. Other forms of Catholic community include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Catholic young adult groups</strong> — many dioceses have thriving young adult communities</li>
                 <li><strong>Third Orders</strong> — lay branches of religious orders (Franciscan, Dominican, Carmelite)</li>

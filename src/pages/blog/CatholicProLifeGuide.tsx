@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicProLifeGuide() {
   return (
@@ -60,14 +61,14 @@ export default function CatholicProLifeGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Catholic Church's defense of human life is not a political position. It is a theological conviction rooted in the belief that every human being is made in the image and likeness of God (Genesis 1:27) and that human life, from its very beginning, is sacred. This conviction leads the Church to defend human life at every stage — from the moment of fertilization to natural death — and against every threat: abortion, euthanasia, capital punishment, unjust war, and the many other ways in which human life is threatened in the modern world.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Foundation: Every Human Life Is Sacred</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Church's pro-life teaching begins with a foundational conviction about the nature of human life. Every human being — regardless of age, size, ability, race, or condition — possesses an inherent dignity that cannot be taken away. This dignity is not conferred by the state, by society, or by any human authority. It is given by God at the moment of creation.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -76,9 +77,9 @@ export default function CatholicProLifeGuide() {
                 <p className="text-text-muted text-sm">— Catechism of the Catholic Church, §2258</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 This foundational principle — that God alone is the Lord of life — is the basis for the Church's opposition to abortion, euthanasia, capital punishment, and every other direct attack on innocent human life. No human authority has the right to take an innocent human life, because that life belongs to God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Abortion: The Church's Clear and Consistent Teaching</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -92,26 +93,26 @@ export default function CatholicProLifeGuide() {
                 <p className="text-text-muted text-sm">— Catechism of the Catholic Church, §2270</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Catechism continues: "Since the first century the Church has affirmed the moral evil of every procured abortion. This teaching has not changed and remains unchangeable. Direct abortion, that is to say, abortion willed either as an end or a means, is gravely contrary to the moral law" (CCC 2271).
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The gravity of abortion is reflected in the Church's canonical penalty. Canon 1398 of the Code of Canon Law provides that a person who procures a completed abortion incurs an automatic excommunication (<em>latae sententiae</em>). This applies to the woman who procures the abortion and to those who cooperate in it — including doctors, nurses, and others who make it possible. This is one of the most serious penalties in canon law, reflecting the gravity of the act.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 It is important to note that excommunication is not a condemnation to hell. It is a medicinal penalty — a serious warning intended to bring the person to repentance. The excommunication can be lifted through the Sacrament of Confession. God's mercy is available to all who repent.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Does Life Begin?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Church teaches that human life begins at fertilization — the moment when a sperm cell fertilizes an egg, creating a new, genetically distinct human organism. This is not merely a religious claim; it is confirmed by modern embryology. From the moment of fertilization, the new organism has its own unique DNA, its own developmental trajectory, and its own life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Catechism states: "From the first moment of his existence, a human being must be recognized as having the rights of a person" (CCC 2270). This means that the embryo, from the moment of fertilization, is a human person with an inviolable right to life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 Some argue that personhood begins at a later stage — at implantation, at viability, at birth, or at some other point. The Church rejects all such arguments. The question of when a human being becomes a person is not a question that science alone can answer — it is a philosophical and theological question. But the Church teaches that the only safe and just position is to recognize the full humanity and personhood of the human being from the moment of fertilization.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know the Church's pro-life teaching?"
@@ -119,9 +120,9 @@ export default function CatholicProLifeGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Euthanasia and Assisted Suicide</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Church's defense of human life extends to its end. Euthanasia — the deliberate killing of a person who is suffering or dying — is gravely wrong, regardless of the person's consent or the compassionate intentions of those involved.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -130,14 +131,14 @@ export default function CatholicProLifeGuide() {
                 <p className="text-text-muted text-sm">— Catechism of the Catholic Church, §2277</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Church distinguishes between euthanasia (directly causing death) and the legitimate withdrawal of extraordinary means of life support. It is morally permissible to refuse or discontinue medical treatments that are burdensome, dangerous, or disproportionate to the expected outcome. This is not euthanasia — it is allowing the natural process of dying to take its course. Palliative care — care that relieves suffering without hastening death — is not only permitted but encouraged.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Capital Punishment</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Church's teaching on capital punishment has developed significantly in recent decades. In 2018, Pope Francis revised the Catechism to state that the death penalty is inadmissible in all cases:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -146,31 +147,31 @@ export default function CatholicProLifeGuide() {
                 <p className="text-text-muted text-sm">— Catechism of the Catholic Church, §2267 (revised 2018)</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 This represents a development of doctrine — not a reversal. The Church has always taught that the state has the right to defend society from unjust aggressors. What has developed is the Church's understanding that, given modern means of incarceration, the death penalty is never necessary to protect society, and that it violates the dignity of the human person. Pope Francis has been clear that this is a definitive teaching of the Magisterium.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">War and the Just War Doctrine</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Church's pro-life teaching also addresses the question of war. The Church does not teach absolute pacifism — it recognizes that nations have the right and duty to defend themselves against unjust aggression. But it sets strict conditions for a war to be morally justified (the Just War doctrine, CCC 2307-2317):
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>The damage inflicted by the aggressor must be lasting, grave, and certain</li>
                 <li>All other means of putting an end to the conflict must have been shown to be impractical or ineffective</li>
                 <li>There must be serious prospects of success</li>
                 <li>The use of arms must not produce evils and disorders graver than the evil to be eliminated</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Church also teaches that non-combatants must never be directly targeted, and that weapons of mass destruction — which cannot distinguish between combatants and civilians — are gravely immoral.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Consistent Ethic of Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Catholic Church's pro-life position is not selective. It is not merely about abortion, or merely about euthanasia, or merely about capital punishment. It is a consistent ethic of life that defends human dignity at every stage and in every circumstance.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 Cardinal Joseph Bernardin of Chicago articulated this vision in the 1980s with his concept of the "seamless garment" — the idea that all threats to human life are connected, and that a truly pro-life position must address all of them. While Catholics may legitimately disagree about the prudential application of this principle in specific policy questions, the underlying conviction — that every human life is sacred and must be defended — is non-negotiable.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Evangelium Vitae: The Gospel of Life</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -181,9 +182,9 @@ export default function CatholicProLifeGuide() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pro-Life Prayers</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 Prayer is the foundation of the pro-life witness. Here are three prayers that Catholics can use:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4">
                 <strong>Prayer for the Unborn:</strong> "Lord God, you created every human being in your image and likeness. We pray for all unborn children, that they may be welcomed into the world with love and protected from harm. Give wisdom and courage to all who work to defend their lives. Amen."
               </p>
@@ -195,9 +196,9 @@ export default function CatholicProLifeGuide() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Catholics Can Live Pro-Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 Being pro-life is not merely a political position — it is a way of life. Here are practical ways Catholics can live out the Church's pro-life teaching:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Pray:</strong> Pray daily for the protection of human life, especially the unborn. Participate in 40 Days for Life or other prayer campaigns.</li>
                 <li><strong>Support pregnancy resource centers:</strong> Volunteer, donate, or collect supplies for centers that provide practical help to women in crisis pregnancies.</li>
@@ -208,12 +209,12 @@ export default function CatholicProLifeGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Healing After Abortion: Project Rachel</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Church's pro-life witness is not only about preventing abortion — it is also about healing those who have been wounded by it. Project Rachel is the Catholic Church's post-abortion healing ministry, named after the passage in Jeremiah 31:15-17 where God promises to comfort Rachel weeping for her children.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 Project Rachel offers confidential counseling, support groups, and retreats for women (and men) who have been affected by abortion. It is rooted in the conviction that God's mercy is available to all who repent, and that healing is possible. If you or someone you know has been affected by abortion, contact your diocesan Project Rachel ministry or call the national hotline.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">

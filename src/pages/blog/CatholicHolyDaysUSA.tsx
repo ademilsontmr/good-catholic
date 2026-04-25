@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicHolyDaysUSA() {
   return (
@@ -59,17 +60,17 @@ export default function CatholicHolyDaysUSA() {
               <Calendar className="w-24 h-24 text-indigo-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 Most Catholics know they are required to attend Mass on Sundays. But the Church also designates certain feast days throughout the year as Holy Days of Obligation — days when the faithful are bound to attend Mass, just as on Sundays. In the United States, the bishops have established six such days, and they have also granted important dispensations that affect when the obligation applies.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Holy Day of Obligation?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 A Holy Day of Obligation is a feast day on which Catholics are required to attend Mass and to refrain from unnecessary servile work (though this second requirement is rarely enforced in modern practice). The obligation is similar to the Sunday obligation — missing a Holy Day of Obligation without a serious reason is considered a mortal sin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 The Code of Canon Law (Canon 1246) establishes the universal list of Holy Days, but it also allows national bishops' conferences to suppress or transfer certain days with the approval of the Holy See. The United States Conference of Catholic Bishops (USCCB) has exercised this authority, resulting in a list of six Holy Days for American Catholics — fewer than the universal list of ten.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Six Holy Days of Obligation in the US (2026 Dates)</h2>
 
@@ -115,48 +116,48 @@ export default function CatholicHolyDaysUSA() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Saturday/Monday Dispensation Rule — Explained</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 This is the rule that confuses most American Catholics. The USCCB has established that when a Holy Day of Obligation falls on a Saturday or a Monday, the obligation is lifted. Here is the exact rule:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Holy Day on Saturday:</strong> No obligation. Catholics are encouraged but not required to attend Mass. (Reason: it would require attending Mass on both Saturday and Sunday, which the bishops judged to be too burdensome.)</li>
                 <li><strong>Holy Day on Monday:</strong> No obligation. Catholics are encouraged but not required to attend Mass. (Reason: it would require attending Mass on both Sunday and Monday.)</li>
                 <li><strong>Holy Day on any other day (Tuesday–Friday):</strong> Full obligation applies. Catholics must attend Mass.</li>
                 <li><strong>Holy Day on Sunday:</strong> The Sunday Mass obligation automatically fulfills the Holy Day obligation.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 This dispensation applies only in the United States. Catholics traveling abroad should follow the rules of the country they are in.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Ascension Controversy: Thursday or Sunday?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 The Ascension is the most complicated Holy Day in the US because different dioceses celebrate it on different days. The traditional date is Thursday (40 days after Easter Sunday). However, the USCCB has permitted dioceses to transfer it to the following Sunday.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 As of 2026, the following US ecclesiastical provinces still celebrate the Ascension on Thursday: Boston, Hartford, New York, Newark, Omaha, Philadelphia, and Seattle. All other provinces celebrate it on Sunday. If you are unsure about your diocese, check your diocesan website or call your parish.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Happens If You Miss a Holy Day of Obligation?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 Missing a Holy Day of Obligation without a serious reason is considered a mortal sin — the same as missing Sunday Mass without cause. A "serious reason" includes illness, caring for a sick person, inability to travel safely, or the unavailability of Mass in your area.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 If you miss a Holy Day of Obligation without a serious reason, you should confess this in the Sacrament of Reconciliation before receiving Communion again. The priest will give you absolution and a penance.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 It is worth noting that the obligation is lifted when a Holy Day falls on a Saturday or Monday (as explained above), so missing Mass on those days is not a sin.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Holy Days as Celebration, Not Just Obligation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 It is easy to think of Holy Days primarily as obligations — days when you have to go to Mass. But the Church's intention is the opposite: Holy Days are celebrations, opportunities to pause in the midst of ordinary life and honor the great mysteries of the faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 Each Holy Day tells a story: the story of Mary's divine motherhood, of Jesus's return to the Father, of Mary's assumption into glory, of all the saints who have gone before us, of Mary's sinless conception, of God becoming man in Bethlehem. These are not bureaucratic requirements — they are invitations to enter more deeply into the mystery of salvation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 Consider making Holy Days special in your family: attend Mass together, have a special meal, learn about the feast being celebrated, and pray together. This is how the liturgical year becomes a living reality rather than a calendar of obligations.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text font-semibold text-center mb-4">2026 Holy Days of Obligation — Quick Reference (USA)</p>

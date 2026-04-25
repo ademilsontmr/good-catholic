@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StationsOfTheCross() {
   return (
@@ -119,9 +120,9 @@ export default function StationsOfTheCross() {
               <p className="text-text leading-relaxed mb-6">
                 The 6th Station is not found in the Gospels, but in the memory of the Church. The name "Veronica" comes from the Latin <em>Vera</em> and Greek <em>Icona</em>, meaning <strong>"True Image."</strong> 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">
                 When she wiped His face, she carried away His likeness. This is a profound metaphor: when we show compassion to the suffering, the image of Christ is impressed upon our own souls. We become "Veronicas" to the world.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Can you walk with Him?"

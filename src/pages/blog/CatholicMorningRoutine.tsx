@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMorningRoutine() {
   return (
@@ -77,23 +78,23 @@ export default function CatholicMorningRoutine() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 The first hour of the morning is the most important hour of the day. What you do in that hour — what you think, what you pray, what you consume — sets the tone for everything that follows. The saints understood this intuitively. St. Francis de Sales said: "Half an hour's meditation each day is essential, except when you are busy. Then a full hour is needed."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 In our age of smartphones and social media, the morning has become a battleground. The moment we wake up, we are tempted to reach for our phones — to check notifications, scroll through news, and immediately immerse ourselves in the noise of the world. This habit is spiritually devastating. It means that the first thing we give our attention to each day is not God, but the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 A Catholic morning routine is a deliberate choice to give God the first fruits of your day — your first thoughts, your first words, your first time. This guide will help you build a morning routine that is both spiritually rich and practically sustainable.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Morning Prayer Matters</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 The Church has always emphasized morning prayer. The Liturgy of the Hours begins with Morning Prayer (Lauds) — the prayer of the whole Church at the start of each day. The Psalms are full of morning prayer: "O Lord, in the morning you hear my voice; in the morning I prepare a sacrifice for you and watch" (Psalm 5:3).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 Morning prayer matters for several reasons:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>It consecrates the day to God.</strong> When you begin with prayer, you are saying: "This day belongs to You, Lord. I offer it to You."</li>
                 <li><strong>It sets your intentions.</strong> Morning prayer helps you remember what truly matters — not the urgent demands of the day, but the eternal things.</li>
@@ -105,17 +106,17 @@ export default function CatholicMorningRoutine() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Essential Elements of a Catholic Morning Routine</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. The Sign of the Cross (30 seconds)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 Before you reach for your phone, before you get out of bed, make the Sign of the Cross. This is the simplest and most powerful way to begin your day. It is a profession of faith in the Trinity and a reminder that you belong to God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 Many saints recommended making the Sign of the Cross as the very first act of the day — even before getting out of bed. St. Francis de Sales said: "Begin each day by placing yourself in the presence of God."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. The Morning Offering (2 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 The Morning Offering is a prayer in which you consecrate your entire day to God — your prayers, works, joys, and sufferings. It is one of the most powerful prayers a Catholic can pray, because it transforms everything you do throughout the day into an act of worship.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <h4 className="font-display text-base font-bold text-text mb-3">The Morning Offering</h4>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -124,12 +125,12 @@ export default function CatholicMorningRoutine() {
               </div>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. Scripture Reading (5-10 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 After the Morning Offering, spend 5-10 minutes reading the Bible. The best approach is to follow the daily Mass readings — this connects your personal prayer to the prayer of the whole Church. You can find the daily readings at USCCB.org or through a Catholic app like Laudate or iBreviary.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 Read slowly. Do not try to cover a lot of ground. Read until a word or phrase strikes you, then stop and meditate on it. Ask: "Lord, what are You saying to me through this passage today?"
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your daily prayer life?"
@@ -137,28 +138,28 @@ export default function CatholicMorningRoutine() {
               />
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Mental Prayer or Meditation (10-15 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 Mental prayer — also called meditation or contemplative prayer — is the heart of the Catholic morning routine. It is not reading or reciting prayers, but simply being with God, thinking about Him, speaking to Him from the heart, and listening.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 St. Teresa of Avila defined mental prayer as "nothing else than a close sharing between friends; it means taking time frequently to be alone with Him who we know loves us." Even 10 minutes of genuine mental prayer each morning will transform your spiritual life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 A simple method: Take a passage from the Gospel you just read. Imagine the scene. Place yourself in it. Speak to Jesus about what you see and feel. Listen for His response. End with a resolution — one concrete thing you will do today to live what you have prayed.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">5. The Rosary (20 minutes — optional)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 Many saints prayed the Rosary every morning. St. Padre Pio prayed multiple Rosaries each day. If you have time, the Rosary is a beautiful addition to your morning routine. If not, you can pray it during your commute, during exercise, or in the evening.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">6. Examination of Intention (2 minutes)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 Before you begin your work, take two minutes to ask: "What is God calling me to do today? How can I serve Him in my work and relationships? What temptations am I likely to face, and how will I respond?"
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 This brief examination of intention helps you approach the day with purpose and intentionality, rather than simply reacting to whatever comes at you.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Sample Morning Routines by Time Available</h2>
 

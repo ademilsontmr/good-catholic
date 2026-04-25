@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerLife() {
   return (
@@ -75,12 +76,12 @@ export default function PrayerLife() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Saint Teresa of Ávila defined prayer as "a relationship of friendship, being alone often with Him who we know loves us." For Catholics, prayer is the oxygen of the soul. Without it, faith weakens, hope falters, and charity grows cold. However, many find it difficult to maintain a constant routine of dialogue with the Creator. The good news is that God does not demand perfection – He demands only sincerity and perseverance.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Prayer is not a complicated technique reserved for monks and saints. It is simply talking to God as you would talk to a dear friend. Jesus taught us: "When you pray, do not be like the hypocrites... But when you pray, go into your room, close the door and pray to your Father in secret" (Mt 6:5-6). Prayer is an intimate, personal encounter, where God knows us completely and loves us despite everything.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your connection with God?"
@@ -90,12 +91,12 @@ export default function PrayerLife() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Is Prayer Essential?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Prayer tunes us to God's will. It does not serve to convince God to do what we want – He already knows what we need before we even ask. Prayer transforms us. It prepares us to receive what God wants to give us. Through prayer, we receive the graces necessary to face temptations, discern confusing paths, and find meaning in suffering.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Saint Paul exhorts us: "Pray without ceasing" (1 Thess 5:17). This does not mean being on your knees all the time, but keeping your heart turned toward God in all circumstances. When you work with the intention of pleasing God, you are praying. When you suffer with patience, you are praying. When you love your neighbor, you are praying. Your entire life can become a prayer.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Different Types of Prayer
@@ -104,30 +105,30 @@ export default function PrayerLife() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Prayer of Adoration
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Recognizing God's greatness and our smallness before Him. It is simply saying: "Lord, You are God and I am nothing. But what a privilege to be created by You!"
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Prayer of Thanksgiving
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Thanking God for everything – for obvious joys, but also for difficulties that make us grow. Saint Paul says: "Give thanks in all circumstances" (1 Thess 5:18).
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Prayer of Petition
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Asking God for what we need. Jesus encouraged us: "Ask and it will be given to you" (Mt 7:7). Do not be afraid to ask – God wants to bless us.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Prayer of Intercession
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Praying for others. It is a powerful act of charity. When you pray for someone, you are placing that person in God's arms.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Practical Tips to Get Started
@@ -136,37 +137,37 @@ export default function PrayerLife() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 1. Set Aside a Time and Place
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 God is everywhere, but our mind is easily distracted. Having a "prayer corner" with an image, a candle, or the Bible helps to focus. Similarly, choosing a fixed time — whether upon waking or before sleeping — creates the necessary habit. Start with just 10 minutes. Consistency is more important than duration.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 2. Use Vocal Prayers and Silence
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Begin with the prayers the Church has taught us: Our Father, Hail Mary, Glory Be. They are the solid foundation. But do not stop there. Reserve moments of silence to hear what God speaks to your heart through inspirations and inner peace. Often, God speaks to us not in words, but in feelings of peace, clarity, or love.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 3. Do Not Give Up in Dryness
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 There will be days when prayer seems arid, tasteless, as if God were far away. These are the most precious days! When you pray without feeling consolation, you are loving God for Himself, not for the feelings He gives us. Saint John of the Cross called this the "dark night" – it is when faith grows most.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Mental Prayer and Meditation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Christian meditation consists of reflecting on the truths of faith or passages of Scripture. When meditating on Christ's Passion, for example, we not only recall a historical fact, but unite ourselves to Jesus' love for us, allowing that love to transform our attitudes. You can meditate on a mystery of the Rosary, a Bible verse, or a teaching of the Church. The important thing is to let the truth penetrate your heart.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Contemplative Prayer
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 This is the peak of prayer life – simply being in God's presence without words, without thoughts, just loving. Saint Teresa of Ávila described it as "being alone with Him who we know loves us." Not everyone reaches this level, but everyone can aspire to it. Begin with vocal prayer and meditation; contemplation will come as a gift from God.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

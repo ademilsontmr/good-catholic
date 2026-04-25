@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheCatechism() {
   return (
@@ -64,44 +65,44 @@ export default function WhatIsTheCatechism() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 If you want to know what the Catholic Church teaches — on any subject — the Catechism of the Catholic Church (CCC) is the place to look. Published in 1992 under Pope John Paul II, it is the first comprehensive catechism of the universal Church in over 400 years. It is authoritative, accessible, and surprisingly readable.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 Yet many Catholics have never opened it. They know it exists, but it seems intimidating — a thick book full of theological language. This guide will demystify the Catechism, explain how it is organized, and show you how to use it as a practical tool for your faith.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Catechism?</h2>
               <p className="text-text leading-relaxed mb-6">
                 The word "catechism" comes from the Greek <em>katechein</em>, meaning "to instruct" or "to echo." A catechism is a systematic summary of Christian doctrine, usually organized in a question-and-answer format or as a series of explanations of key beliefs and practices.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 The Church has used catechisms for centuries to teach the faith. The most famous pre-modern catechism was the Roman Catechism (Catechism of the Council of Trent), published in 1566 in response to the Protestant Reformation. The current Catechism of the Catholic Church (1992) is the successor to this earlier work.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">History of the Current Catechism</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 The idea for a new universal catechism emerged at the Extraordinary Synod of Bishops in 1985, called to evaluate the fruits of the Second Vatican Council (1962-1965). The bishops recognized that there was a need for a comprehensive, authoritative summary of Catholic teaching that incorporated the insights of Vatican II.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 A commission of twelve cardinals and bishops, chaired by Cardinal Joseph Ratzinger (later Pope Benedict XVI), was appointed to draft the catechism. The process took six years and involved consultation with all the bishops of the world.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Catechism was promulgated by Pope John Paul II on October 11, 1992 — the 30th anniversary of the opening of the Second Vatican Council. In his apostolic constitution <em>Fidei Depositum</em>, John Paul II called it "a sure norm for teaching the faith" and "a valid and legitimate instrument for ecclesial communion."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 A revised edition was published in 1997, incorporating some corrections and clarifications. This is the current standard edition.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Is the Catechism Organized?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 The Catechism is organized around four "pillars" of Catholic life, corresponding to the traditional structure of catechetical instruction:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Part One: The Profession of Faith (CCC 26-1065)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 This section covers what Catholics believe — the content of the faith as expressed in the Apostles' Creed and the Nicene Creed. It covers:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>The nature of faith and revelation</li>
                 <li>God: Father, Son, and Holy Spirit</li>
@@ -113,9 +114,9 @@ export default function WhatIsTheCatechism() {
               </ul>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Part Two: The Celebration of the Christian Mystery (CCC 1066-1690)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 This section covers how Catholics worship — the sacraments and the liturgy. It covers:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>The nature of liturgy and sacraments</li>
                 <li>Each of the seven sacraments in detail: Baptism, Confirmation, Eucharist, Penance, Anointing of the Sick, Holy Orders, Matrimony</li>
@@ -123,9 +124,9 @@ export default function WhatIsTheCatechism() {
               </ul>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Part Three: Life in Christ (CCC 1691-2557)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 This section covers how Catholics live — the moral life. It covers:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>The human vocation and beatitude</li>
                 <li>Freedom, conscience, and sin</li>
@@ -135,9 +136,9 @@ export default function WhatIsTheCatechism() {
               </ul>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Part Four: Christian Prayer (CCC 2558-2865)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 This section covers how Catholics pray. It covers:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>The nature and forms of prayer</li>
                 <li>The tradition of prayer in the Church</li>
@@ -150,34 +151,34 @@ export default function WhatIsTheCatechism() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Read the Catechism</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 The Catechism is not meant to be read cover to cover like a novel (though you can). Here are several practical ways to use it:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. Look Up Specific Topics</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 The Catechism has a comprehensive index at the back. If you want to know what the Church teaches about a specific topic — abortion, homosexuality, the death penalty, angels, purgatory, divorce — look it up in the index and go directly to the relevant paragraphs.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. Read It Alongside the Bible</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 The Catechism is richly footnoted with Scripture references. When you read a paragraph, look up the Scripture passages it cites. This helps you see how Catholic teaching is rooted in the Bible.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. Use It for Daily Reading</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 The Catechism has 2,865 numbered paragraphs. If you read 8 paragraphs a day, you will finish it in one year. Many Catholics do this as a form of ongoing formation.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Use the Compendium</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 In 2005, Pope Benedict XVI published the Compendium of the Catechism — a shorter, question-and-answer version of the full Catechism. It is much more accessible for beginners and covers all the same material in a more digestible format.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Key Teachings in the Catechism</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 Here are some of the most important and frequently referenced teachings in the Catechism:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>On the nature of God (CCC 200-231):</strong> God is one, eternal, all-knowing, all-powerful, and all-loving. He is Trinity: Father, Son, and Holy Spirit.</li>
                 <li><strong>On the Real Presence (CCC 1373-1381):</strong> Jesus Christ is truly, really, and substantially present in the Eucharist — Body, Blood, Soul, and Divinity.</li>
@@ -188,9 +189,9 @@ export default function WhatIsTheCatechism() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where to Get the Catechism</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 The Catechism is available in many formats:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Free online:</strong> The full text is available at the Vatican's website (vatican.va) and at USCCB.org</li>
                 <li><strong>Print:</strong> Available from Catholic publishers like Ignatius Press, Our Sunday Visitor, and Libreria Editrice Vaticana</li>

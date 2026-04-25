@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TheCrusadesHistory() {
   return (
@@ -76,16 +77,16 @@ export default function TheCrusadesHistory() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">
                 History is not a simple game of "good guys vs. bad guys." To understand the Crusades, one must step out of the 21st century and into the 11th. At that time, the Christian world was under siege. From Spain to Jerusalem, formerly Christian lands had been conquered, and the Byzantine Empire was on the verge of collapse.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Context: A World Under Siege
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">
                 For over four centuries, the Christian East—Asia Minor, Egypt, Palestine, and North Africa—had been systematically absorbed. Pilgrims to the Holy Sepulchre were being taxed, harassed, and in many cases, slaughtered. 
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 In 1095, the <strong>Council of Clermont</strong> was called after the Byzantine Emperor Alexius I sent a plea to <strong>Pope Urban II</strong>. The message was clear: if the West did not act, the Christian East would be completely extinguished.
               </p>
@@ -108,9 +109,9 @@ export default function TheCrusadesHistory() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The "Just War" Theory in Action
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">
                 The Crusades were framed within the **Just War** criteria established by St. Augustine and later refined by St. Thomas Aquinas. For a war to be just, it required:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-8">
                 <li><strong>Just Cause:</strong> Recovery of stolen lands and protection of the innocent (pilgrims).</li>
                 <li><strong>Right Authority:</strong> Declared by the Pope as the head of Christendom.</li>
@@ -120,9 +121,9 @@ export default function TheCrusadesHistory() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Truth About the Sacks and Massacres
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">
                 It is a historical fact that when Jerusalem was taken in 1099, a massacre occurred. This was a tragedy and a sin, condemned by the Church then and now. However, it was also the standard, brutal military custom of the day across all cultures (both East and West).
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The **Fourth Crusade** is the most misunderstood. The army ended up sacking the Christian city of Constantinople, not by order of the Pope, but in direct <strong>disobedience</strong> to him. Pope Innocent III excommunicated the crusaders for this act. Critics often blame "The Church" for the Fourth Crusade, when in reality, the Church was its most vocal opponent.
               </p>
@@ -136,9 +137,9 @@ export default function TheCrusadesHistory() {
                  <Sparkles className="w-6 h-6 text-accent" />
                  Cultural and Scientific Exchange
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">
                 The Crusades were not just about war. They reopened the gates of the East, allowing the West to rediscover Greek philosophy, advanced mathematics, and medical techniques that had been preserved in Byzantium and the Islamic world. This "Great Exchange" helped spark the cultural renewal of the late Middle Ages and the Renaissance.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

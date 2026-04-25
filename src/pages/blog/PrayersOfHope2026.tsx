@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayersOfHope2026() {
     return (
@@ -75,9 +76,9 @@ export default function PrayersOfHope2026() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 Hope is a theological virtue, which means it is a gift from God. In times of personal, family, or social crisis, hope prevents us from falling into despair. Praying does not necessarily change the external situation immediately, but it changes our heart to face the storm with serenity.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="How is your trust in God?"
@@ -85,44 +86,44 @@ export default function PrayersOfHope2026() {
                             />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What is Christian Hope?</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 Christian hope is not optimism — it is not the belief that things will necessarily get better in this life. It is the theological virtue by which we desire the Kingdom of Heaven and eternal life as our happiness, placing our trust in Christ's promises and relying not on our own strength, but on the help of the Holy Spirit (CCC 1817).
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 St. Paul wrote: "Hope does not disappoint, because God's love has been poured into our hearts through the Holy Spirit who has been given to us" (Romans 5:5). This hope is anchored not in circumstances but in the Resurrection of Christ — the definitive proof that God's love is stronger than death, suffering, and evil.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer of Abandonment (St. Charles de Foucauld)</h2>
                             <p className="text-text leading-relaxed mb-4 italic bg-surface p-6 rounded-xl border border-border">
                                 "Father, I abandon myself into Your hands; do with me what You will. Whatever You may do, I thank You: I am ready for all, I accept all. Let only Your will be done in me, and in all Your creatures. I wish no more than this, O Lord. Into Your hands I commend my soul: I offer it to You with all the love of my heart, for I love You, Lord, and so need to give myself, to surrender myself into Your hands without reserve, and with boundless confidence, for You are my Father. Amen."
                             </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 This prayer, composed by Blessed Charles de Foucauld (1858-1916), is one of the most powerful prayers of surrender in the Catholic tradition. It expresses total trust in God's providence — not passive resignation, but active, loving abandonment to the Father's will.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Memorare</h2>
                             <p className="text-text leading-relaxed mb-4 italic bg-surface p-6 rounded-xl border border-border">
                                 "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thine intercession was left unaided. Inspired by this confidence, I fly unto thee, O Virgin of virgins, my mother; to thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen."
                             </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 The Memorare, attributed to St. Bernard of Clairvaux, is a prayer of confident intercession to Our Lady. It has been prayed by countless Catholics in moments of crisis, and its bold confidence — "never was it known that anyone... was left unaided" — is a powerful expression of hope through Mary's intercession.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Psalm 23: The Lord is My Shepherd</h2>
                             <p className="text-text leading-relaxed mb-4 italic bg-surface p-6 rounded-xl border border-border">
                                 "The Lord is my shepherd; I shall not want. He makes me lie down in green pastures. He leads me beside still waters. He restores my soul. He leads me in paths of righteousness for his name's sake. Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me."
                             </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 Psalm 23 is perhaps the most beloved prayer in all of Scripture. It has comforted the dying, the grieving, the imprisoned, and the suffering throughout human history. Praying it slowly, meditating on each image — the green pastures, the still waters, the valley of the shadow of death — brings profound peace.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Divine Mercy Chaplet</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 Revealed by Jesus to St. Faustina Kowalska in the 1930s, the Divine Mercy Chaplet is prayed on rosary beads and focuses on God's infinite mercy. Jesus promised: "Whoever will recite it will receive great mercy at the hour of death." It is especially powerful when prayed at 3 PM — the "Hour of Mercy" — the hour of Christ's death on the cross.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 The chaplet begins: "You expired, Jesus, but the source of life gushed forth for souls, and the ocean of mercy opened up for the whole world. O Fount of Life, unfathomable Divine Mercy, envelop the whole world and empty Yourself out upon us."
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Tips for Praying in Crisis</h2>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">

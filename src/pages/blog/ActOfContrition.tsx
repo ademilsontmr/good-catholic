@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ActOfContrition() {
   return (
@@ -76,12 +77,12 @@ export default function ActOfContrition() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 Every Catholic who has ever gone to Confession knows the moment: the priest has listened to your sins, offered counsel, and assigned a penance. Then he asks you to make an Act of Contrition. In that moment, you are invited to speak directly to God from the depths of your heart — to express genuine sorrow for having offended Him and to resolve, with His grace, to sin no more.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 The Act of Contrition is not merely a formula to be recited. It is a prayer that, when prayed with sincerity, disposes the soul to receive the fullness of God's forgiveness in the Sacrament of Reconciliation. Understanding its words, its history, and its theological depth can transform this prayer from a routine recitation into a profound encounter with God's mercy.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Traditional Act of Contrition (Full Text)
@@ -113,40 +114,40 @@ export default function ActOfContrition() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "I am heartily sorry for having offended Thee"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 This opening phrase establishes the essential disposition for valid contrition: genuine sorrow. The word "heartily" is significant — it means from the heart, not merely from the lips. The Catechism of the Catholic Church teaches that contrition is "sorrow of the soul and detestation for the sin committed, together with the resolution not to sin again" (CCC 1451). Without this interior sorrow, the prayer is empty.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "Because they offend Thee, my God, who art all good"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 This is the heart of perfect contrition — being sorry not primarily because of fear of punishment, but because sin offends God who is infinitely good and worthy of all love. The Church distinguishes between perfect contrition (motivated by love of God) and imperfect contrition or "attrition" (motivated by fear of hell or the ugliness of sin). Both are valid for the Sacrament of Confession, but perfect contrition is the higher form.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "I firmly resolve, with the help of Thy grace, to sin no more"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 This is the "firm purpose of amendment" — the sincere intention to avoid sin in the future. Notice the phrase "with the help of Thy grace." This is theologically crucial: we do not resolve to avoid sin by our own willpower alone, but by relying on God's grace. This humility is essential. Without a genuine intention to change, the sacrament cannot be validly received.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "And to avoid the near occasions of sin"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 An "occasion of sin" is any person, place, or thing that leads us toward sin. The Church requires that we not only resolve to avoid sin itself but also to avoid the circumstances that make sin likely. This is practical wisdom: if you know that a certain situation consistently leads you to fall, you must take steps to avoid that situation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 History of the Act of Contrition
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 The Act of Contrition as a formal prayer developed gradually in the history of the Church. In the early centuries, public penance was the norm for serious sins, and expressions of sorrow were part of the penitential rite. As private confession became more common in the medieval period (largely through the influence of Irish monks), formalized prayers of contrition began to appear in penitential manuals.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 The Council of Trent (1545–1563) gave definitive theological clarity to the doctrine of contrition, distinguishing between perfect and imperfect contrition and affirming the necessity of a firm purpose of amendment. The traditional form of the Act of Contrition that most American Catholics learned grew out of this Tridentine tradition and was standardized in catechisms from the 17th century onward.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 When to Pray the Act of Contrition
@@ -162,12 +163,12 @@ export default function ActOfContrition() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Perfect vs. Imperfect Contrition
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 The Catholic Church teaches that there are two forms of contrition. Perfect contrition arises from love of God — being sorry because sin offends God who is infinitely good. This form of contrition, when accompanied by the intention to receive the Sacrament of Confession, immediately reconciles the soul to God even before the sacrament is received.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 Imperfect contrition (attrition) arises from other motives — fear of hell, the ugliness of sin, or the loss of heaven. While this is a lesser form of contrition, it is still sufficient for the valid reception of the Sacrament of Confession. The grace of the sacrament elevates imperfect contrition and brings about full reconciliation with God.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

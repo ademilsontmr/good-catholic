@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicViewOnWealth() {
   return (
@@ -76,9 +77,9 @@ export default function CatholicViewOnWealth() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-wealth">
                 The Catholic Social Doctrine is often called the Church's "best-kept secret." At its heart lies a radical balance between the individual's right to property and the community's right to common resources.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. The Universal Destination of Goods
@@ -86,9 +87,9 @@ export default function CatholicViewOnWealth() {
               <p className="text-text leading-relaxed mb-6">
                 According to the <strong>Catechism (CCC 2402-2406)</strong>, the Earth was given by God to the *whole* human race. This means that while private property is legitimate and necessary for human dignity, it is not an "absolute" right. 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-wealth">
                 St. John Paul II famously wrote that **private property has a "social mortgage."** This means that if you own land, a business, or millions of dollars, you have a moral obligation to manage those assets in a way that benefits others. In the Catholic view, you are not an "owner," but a "steward" of God's property.
-              </p>
+              </LinkedText>
 
               <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -120,9 +121,9 @@ export default function CatholicViewOnWealth() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 3. Poverty vs. Misery: A Theological Nuance
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-wealth">
                 In Catholic theology, these are two very different things:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>Poverty (Virtue):</strong> Being "poor in spirit." A detachment from material things so that God is your primary treasure. This is a virtue for all Catholics, rich or poor.</li>
                 <li><strong>Misery (Evil):</strong> The systemic lack of basic needs (food, water, shelter, dignity). The Church views misery as an evil that must be actively fought through charity and justice.</li>
@@ -137,9 +138,9 @@ export default function CatholicViewOnWealth() {
                  <Sparkles className="w-6 h-6 text-accent" />
                  Practical Expert Advice for Laypeople
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-wealth">
                 How should a Catholic millionaire or a middle-class worker live? 
-              </p>
+              </LinkedText>
               <ul className="list-decimal list-inside text-text space-y-3 mb-10">
                 <li><strong>Ethical Investing:</strong> Check if your stocks or funds support industries that violate human life or dignity.</li>
                 <li><strong>Proportional Almsgiving:</strong> Don't give "what is left over." Build a budget that puts God and the poor first.</li>

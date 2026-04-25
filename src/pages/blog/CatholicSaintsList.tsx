@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSaintsList() {
   return (
@@ -64,20 +65,20 @@ export default function CatholicSaintsList() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
                 One of the most beautiful aspects of Catholic life is the Communion of Saints — the belief that the saints in heaven are alive in God and can intercede for us. When you face a specific need, there is almost certainly a saint who has been given special patronage over that area of life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
                 This guide organizes the most important patron saints by category, so you can quickly find the right saint to invoke for your specific situation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Ask a Saint for Intercession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
                 Before diving into the list, a brief note on how to pray to the saints. Catholics do not worship saints — they ask them to pray for us, just as we ask friends to pray for us. The difference is that the saints are in heaven and their prayers are especially powerful.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
                 A simple prayer to any saint: "St. [Name], pray for me. I am facing [describe your need]. Please bring my petition before God and ask for His help. Amen."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Patron Saints for Health & Healing</h2>
               <div className="overflow-x-auto mb-8">
@@ -277,9 +278,9 @@ export default function CatholicSaintsList() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Most Popular Saints and Their Prayers</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
                 Here are brief prayers to the most frequently invoked saints:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-4">
                 <p className="text-text font-semibold mb-2">St. Michael the Archangel (Protection)</p>

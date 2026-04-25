@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnDeath() {
   return (
@@ -62,45 +63,45 @@ export default function CatholicTeachingOnDeath() {
               <p className="text-text leading-relaxed mb-6">
                 Every human being will die. This is not a morbid observation — it is the starting point of wisdom. The ancient Romans said <em>memento mori</em>: "remember that you will die." The Catholic tradition has always taken this seriously, not to produce despair, but to produce clarity. When we know that our time is limited, we begin to ask the right questions: What is life for? What happens after? How should I live?
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The Catholic Church has a rich, coherent, and deeply consoling teaching on death and what follows. It is not a teaching of fear, but of hope — grounded in the resurrection of Jesus Christ, who conquered death and opened the way to eternal life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Death Is Not the End: The Catholic Vision (CCC 1006–1014)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The Catechism of the Catholic Church teaches that death is not the annihilation of the person but a passage — a transition from this life to the next. "It is in regard to death that man's condition is most shrouded in doubt" (CCC 1006), and yet faith illuminates what reason alone cannot fully grasp.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The Church teaches that death entered the world as a consequence of original sin (CCC 1008). God did not create death; He created us for life. But through the disobedience of our first parents, death became part of the human condition. And yet, in His mercy, God transformed death: through the death and resurrection of Jesus Christ, death is no longer the final word. "Christ transformed the curse of death into a blessing" (CCC 1009).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 For the Christian, death is not something to be feared but something to be prepared for — and ultimately, something to be embraced as the doorway to eternal life. Saint Francis of Assisi called death "Sister Death." Saint Paul wrote: "For to me, to live is Christ and to die is gain" (Philippians 1:21).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Last Things</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The traditional Catholic meditation on death is organized around the Four Last Things: Death, Judgment, Heaven, and Hell. This framework comes from the book of Sirach: "In all you do, remember the end of your life, and then you will never sin" (Sirach 7:36). The Four Last Things are not meant to terrify but to orient — to keep our eyes fixed on what truly matters.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Death</strong> — the separation of the soul from the body; the end of our earthly pilgrimage and the moment of our definitive choice for or against God.</li>
                 <li><strong>Judgment</strong> — the accounting of our lives before God; both the Particular Judgment immediately after death and the General Judgment at the end of time.</li>
                 <li><strong>Heaven</strong> — the eternal communion with God, the fulfillment of every human longing, the beatific vision.</li>
                 <li><strong>Hell</strong> — the eternal separation from God, chosen freely by those who definitively reject His love.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 Meditating on the Four Last Things is not pessimism — it is realism in the service of hope. When we remember that this life is not all there is, we are freed from the tyranny of the present moment and empowered to live for what is eternal.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Happens at the Moment of Death</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 At the moment of death, the soul separates from the body. The body returns to the earth; the soul enters into the presence of God for judgment. This is not the end of the person — the Catholic faith holds that the soul is immortal and that the body will one day be reunited with the soul at the resurrection of the dead.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The moment of death is also the moment of our definitive choice. Throughout our lives, we have been forming ourselves — through our choices, our loves, our habits — either toward God or away from Him. At death, that formation becomes fixed. The Church teaches that "death puts an end to human life as the time open to either accepting or rejecting the divine grace manifested in Christ" (CCC 1021). There is no second chance after death, no reincarnation, no opportunity to change our fundamental orientation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 This is why the Church urges us to live well now — not out of fear, but out of love. Every day is a gift; every moment is an opportunity to grow in holiness and to deepen our relationship with God.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -108,20 +109,20 @@ export default function CatholicTeachingOnDeath() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Particular Judgment (CCC 1021–1022)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 Immediately after death, each soul undergoes the Particular Judgment. This is not a courtroom drama but an encounter with Truth itself — with Jesus Christ, who is "the way, the truth, and the life" (John 14:6). In that encounter, the soul sees itself as it truly is: its loves, its sins, its growth in holiness, its failures.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The Catechism teaches: "Each man receives his eternal retribution in his immortal soul at the very moment of his death, in a particular judgment that refers his life to Christ: either entrance into the blessedness of heaven — through a purification or immediately — or immediate and everlasting damnation" (CCC 1022).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The Particular Judgment is not arbitrary. It is the revelation of what we have already chosen. God does not condemn anyone who has not first condemned themselves by their own free choices. His judgment is perfectly just and perfectly merciful — and the two are not in contradiction.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Possible Outcomes: Heaven, Purgatory, Hell</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 After the Particular Judgment, the soul enters one of three states:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Heaven</strong> is the eternal communion with God — the beatific vision, the direct knowledge and love of God face to face. It is the fulfillment of every human longing, the joy for which we were created. "No eye has seen, nor ear heard, nor the heart of man conceived, what God has prepared for those who love him" (1 Corinthians 2:9). Some souls enter heaven immediately; others must first be purified.
               </p>
@@ -133,31 +134,31 @@ export default function CatholicTeachingOnDeath() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The General Judgment at the End of Time</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 In addition to the Particular Judgment, the Church teaches that at the end of time there will be a General Judgment — the Last Judgment — when Christ will come again in glory to judge the living and the dead. This is the judgment described in Matthew 25: "Come, you who are blessed by my Father, inherit the kingdom prepared for you from the foundation of the world" (Matthew 25:34).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The General Judgment does not change the outcome of the Particular Judgment — those who are in heaven remain in heaven; those in hell remain in hell. But it reveals the full meaning of history: how God's providence has been at work in all things, how the choices of individuals have affected the whole human family, and how justice and mercy have been perfectly balanced throughout all of time.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The General Judgment is also the moment when the body is reunited with the soul — the resurrection of the dead. At that moment, the full person — body and soul — will receive their eternal reward or punishment.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Resurrection of the Body</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 One of the most distinctive and beautiful teachings of the Catholic faith is the resurrection of the body. We do not believe that the soul simply floats away into a spiritual realm and the body is left behind forever. We believe that at the end of time, our bodies will be raised from the dead and glorified — transformed, as Christ's body was transformed at the resurrection.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 Saint Paul describes the resurrection body: "It is sown in dishonor; it is raised in glory. It is sown in weakness; it is raised in power. It is sown a natural body; it is raised a spiritual body" (1 Corinthians 15:43–44). The glorified body will be incorruptible, radiant, agile, and perfectly subject to the soul. It will be truly our body — the same body we had in this life — but transformed beyond all imagining.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 This teaching affirms the goodness of the body and of material creation. God did not create matter as something to be escaped but as something to be redeemed and glorified. The resurrection of the body is the ultimate affirmation that we are not angels trapped in bodies — we are embodied souls, and our bodies are part of who we are forever.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Prepare for a Holy Death</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The Catholic tradition has always emphasized the importance of preparing for death — not with morbid obsession, but with wise foresight. The best preparation for death is a holy life: regular reception of the sacraments, daily prayer, works of charity, and growth in virtue.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Church provides specific sacraments for the dying. The <strong>Anointing of the Sick</strong> (formerly called Extreme Unction or Last Rites) is a sacrament of healing and strengthening for those who are seriously ill or near death. It forgives sins, strengthens the soul, and sometimes restores physical health. It should not be reserved for the last moments of life — it can and should be received whenever one is seriously ill.
               </p>
@@ -175,12 +176,12 @@ export default function CatholicTeachingOnDeath() {
               <p className="text-text leading-relaxed mb-6">
                 The <em>Ars Moriendi</em> tradition identified five temptations that the dying face: temptations against faith, against hope (despair), against charity (impatience and anger), to vainglory (pride in one's own merits), and to avarice (attachment to earthly things). For each temptation, it offered a corresponding virtue and a set of prayers and Scripture passages to combat it.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 This tradition reminds us that dying well is not automatic — it requires preparation, prayer, and the support of the Christian community. We do not die alone; we die surrounded by the prayers of the Church, the intercession of the saints, and the presence of Christ Himself.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death">
                 The prayer of the dying Christian is simple: "Lord Jesus, receive my spirit." It is the prayer of Saint Stephen, the first martyr (Acts 7:59). It is the prayer of every Christian who has learned, through a lifetime of faith, to trust in the mercy of God.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for a Happy Death</h3>

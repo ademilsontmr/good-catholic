@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicVsProtestantBible() {
   return (
@@ -76,9 +77,9 @@ export default function CatholicVsProtestantBible() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 If you walk into a bookstore and pick up a Catholic Bible and a Protestant Bible, you'll quickly notice a difference in the table of contents. While both Bibles share the same 27 books in the New Testament, they differ significantly in the Old Testament. 
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Catholic Old Testament contains 46 books, while the Protestant Old Testament contains only 39. These 7 specific books are known by Catholics as the <strong>Deuterocanonicals</strong> (meaning "second canon"), and by Protestants as the <strong>Apocrypha</strong>. Understanding why this difference exists requires a dive into the early centuries of the Church and the Protestant Reformation of the 1500s.
               </p>
@@ -86,9 +87,9 @@ export default function CatholicVsProtestantBible() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Are the 7 Missing Books?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 The seven books found in Catholic Bibles but removed from Protestant Bibles are:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Tobit</strong></li>
                 <li><strong>Judith</strong></li>
@@ -115,19 +116,19 @@ export default function CatholicVsProtestantBible() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How Was the Bible Compiled?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 The Bible didn't fall from the sky bound in leather. It had to be compiled and defined by the Church. At the Councils of Hippo (393 AD) and Carthage (397 AD), Catholic bishops, heavily influenced by St. Augustine, formally defined the canon of Scripture — securing the 73 books that Catholics read today.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 For over a thousand years following these councils, ALL Christians recognized the same 73-book Bible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Did Martin Luther Remove Them?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 The split happened during the Protestant Reformation in the 16th century. Martin Luther decided to match the Jewish canon of the Old Testament that had been finalized by Rabbinic Jews later on (long after the resurrection of Christ). Those Jewish leaders rejected the Greek Septuagint and firmly established a 39-book Hebrew canon because the Deuterocanonical books were either written in Greek or their Hebrew originals were lost.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Furthermore, Luther took issue with theological concepts found in these books. For example, <strong>2 Maccabees 12:46</strong> says, <em>"It is therefore a holy and wholesome thought to pray for the dead, that they may be loosed from sins."</em> This verse strongly supports the Catholic doctrine of Purgatory. Since Luther rejected Purgatory, he relegated 1 and 2 Maccabees, along with the other 5 books, to an appendix. Later Protestant publishers eventually removed them completely to save printing costs.
               </p>
@@ -140,16 +141,16 @@ export default function CatholicVsProtestantBible() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Did the Council of Trent "Add" These Books?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 A common misconception is that the Catholic Church "added" these 7 books at the Council of Trent in 1546 in response to the Reformation. This is historically inaccurate. The Council of Trent simply reaffirmed the canon that had already been established in 393 AD at the Council of Hippo, dogmatically declaring it binding because the Protestants had begun removing books.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Conclusion: A Complete Bible
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 When you read a Catholic Bible, you are reading the Scriptures as they were understood and used by Christ, the Apostles, and the earliest Christians. The Deuterocanonical books offer rich wisdom, historical bridges between the Old and New Testaments, and prophetic insights that enrich our faith immensely. 
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

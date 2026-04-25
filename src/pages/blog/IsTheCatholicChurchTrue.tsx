@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function IsTheCatholicChurchTrue() {
   return (
@@ -77,9 +78,9 @@ export default function IsTheCatholicChurchTrue() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">
                 In the Nicene Creed, we profess faith in "One, Holy, Catholic, and Apostolic Church." These are the four "Marks" that serve as the fingerprint of the institution founded by Christ. For a Catholic, history is not a suggestion—it is a witness.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. The Primacy of Peter: The Keys of the Kingdom
@@ -108,9 +109,9 @@ export default function IsTheCatholicChurchTrue() {
               <p className="text-text leading-relaxed mb-6">
                 Skeptics claim the Catholic Church was a later invention of Constantine. However, the term <strong>"Catholic"</strong> (from the Greek <em>Katholikos</em> - "universal") was used as early as 107 AD by **Saint Ignatius of Antioch**. 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">
                 He wrote: *"Where the Bishop is, there let the people be; as where Jesus Christ is, there is the Catholic Church."* By the end of the first century, the Church already saw itself as a singular, global body with a unified hierarchy, not a loose collection of independent congregations.
-              </p>
+              </LinkedText>
 
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -129,9 +130,9 @@ export default function IsTheCatholicChurchTrue() {
               <p className="text-text leading-relaxed mb-6">
                 Truth is, by definition, exclusive. If one denomination says infant baptism is necessary and another says it is forbidden, both cannot be right. Jesus prayed for His followers to be <strong>"one as we are one" (John 17:21)</strong>. 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">
                 The Catholic Church maintains this unity through the Magisterium (The teaching office). Without a final authority (the Pope), the Bible becomes a "wax nose" that can be twisted to mean anything, leading to the fragmentation we see in modern Christianity.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Do you belong to the family of the Apostles?"

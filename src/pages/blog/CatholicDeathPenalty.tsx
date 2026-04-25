@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicDeathPenalty() {
   return (
@@ -76,19 +77,19 @@ export default function CatholicDeathPenalty() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The Catholic Church's teaching on the death penalty has undergone one of the most visible developments in recent memory. For centuries, the Church accepted capital punishment as a legitimate tool of civil authority. Today, the Catechism declares it "inadmissible." Understanding this development — and why it is not a contradiction — requires a careful look at the history, the theology, and the principle of doctrinal development.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Historical Development of Church Teaching
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 For most of Christian history, the Catholic Church accepted the legitimacy of capital punishment in principle. The theological basis was rooted in Scripture (Romans 13:4, where Paul writes that the civil authority "does not bear the sword in vain"), natural law reasoning, and the writings of theologians like St. Thomas Aquinas, who argued that the state has the right to execute criminals for the common good, just as a surgeon may amputate a diseased limb to save the body.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The original Catechism of the Catholic Church (1992) reflected this tradition. It stated that the state has the right to impose the death penalty in cases of extreme gravity, though it noted that the cases in which execution is absolutely necessary "are very rare, if not practically nonexistent."
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope John Paul II, in <em>Evangelium Vitae</em> (1995), went further, arguing that in modern societies with effective prison systems, the cases in which the death penalty is necessary are "practically nonexistent." He called for a growing opposition to the death penalty, though he stopped short of declaring it absolutely inadmissible.
               </p>
@@ -96,9 +97,9 @@ export default function CatholicDeathPenalty() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The 2018 Revision: CCC 2267
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 On August 2, 2018, Pope Francis approved a revision to paragraph 2267 of the Catechism of the Catholic Church. The new text reads:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed mb-3">
@@ -109,25 +110,25 @@ export default function CatholicDeathPenalty() {
                 </p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 This is a significant development. The word "inadmissible" is strong — it does not merely say the death penalty is rarely justified or should be avoided; it says it is not admissible at all in the current context.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Is This a Reversal? Understanding Doctrinal Development
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The most common objection to the 2018 revision is that it contradicts previous Church teaching. If the Church once accepted the death penalty and now declares it inadmissible, hasn't the Church changed its teaching?
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The answer requires understanding the Catholic concept of doctrinal development, articulated most fully by Blessed John Henry Newman in his 1845 work <em>An Essay on the Development of Christian Doctrine</em>. Newman argued that genuine doctrinal development is not a contradiction of previous teaching but a deeper understanding of the same underlying truth.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The underlying principle that has never changed is the inviolable dignity of every human person. What has changed is the Church's understanding of how that principle applies in concrete historical circumstances. In a world without effective prison systems, the death penalty may have been the only way to protect society from dangerous criminals. In the modern world, with maximum-security prisons, that argument no longer holds.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The Congregation for the Doctrine of the Faith (CDF), in a letter explaining the revision, stated explicitly: "The new formulation of number 2267 of the Catechism expresses an authentic development of doctrine that is not in contradiction with the prior teachings of the Magisterium."
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you understand Catholic social teaching?"
@@ -137,15 +138,15 @@ export default function CatholicDeathPenalty() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Consistent Underlying Principle: Human Dignity
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The key to understanding the Church's current teaching is the principle of human dignity. The Church teaches that every human being — including the worst criminal — retains an inherent dignity as a creature made in the image of God. This dignity cannot be forfeited, even by the most heinous crimes.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The death penalty, the Church now teaches, is an attack on this dignity. It definitively removes the possibility of repentance, conversion, and redemption. It treats the human person as a problem to be eliminated rather than a soul to be saved. In a society that can protect itself through incarceration, there is no justification for this ultimate, irreversible act.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 This is consistent with the Church's broader "consistent ethic of life" — the conviction that human dignity must be protected from conception to natural death, including in the treatment of criminals, the poor, the sick, and the elderly.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Intrinsic Evil vs. Prudential Judgment
@@ -153,25 +154,25 @@ export default function CatholicDeathPenalty() {
               <p className="text-text leading-relaxed mb-6">
                 It is important to understand the theological category of the Church's current teaching on the death penalty. The Church does not teach that the death penalty is an <em>intrinsic evil</em> — that is, something wrong in every possible circumstance regardless of intention or context. Intrinsic evils include things like abortion, torture, and direct killing of innocents.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 Rather, the Church teaches that the death penalty is "inadmissible" in the current historical context — given the existence of effective prison systems, the growing understanding of human dignity, and the possibility of rehabilitation. This is a strong moral judgment, but it is one that is tied to historical circumstances rather than being an absolute prohibition in every conceivable situation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 This distinction matters for how Catholics engage with the issue politically. Unlike abortion — which the Church teaches is always and everywhere wrong — the death penalty falls into the category of issues where Catholics must exercise prudential judgment informed by the Church's teaching.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How Catholics Should Engage with This Issue Politically
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The Church's teaching on the death penalty has clear implications for Catholic engagement in public life. The United States Conference of Catholic Bishops (USCCB) has consistently called for the abolition of the death penalty in the United States, citing concerns about racial and economic disparities in its application, the risk of executing innocent people, and the Church's teaching on human dignity.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 Catholics who support the death penalty are not automatically in violation of Church teaching — the issue is not in the same category as abortion or euthanasia. However, they are called to take the Church's teaching seriously and to engage with the arguments for abolition in good faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 Catholics who oppose the death penalty can find strong support in the Church's teaching and are called to advocate for criminal justice reform, rehabilitation programs, and alternatives to incarceration that protect both public safety and human dignity.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed">

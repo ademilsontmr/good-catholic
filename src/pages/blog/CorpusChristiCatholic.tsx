@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CorpusChristiCatholic() {
   return (
@@ -64,36 +65,36 @@ export default function CorpusChristiCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 Corpus Christi — Latin for "Body of Christ" — is the solemnity that celebrates the Real Presence of Jesus Christ in the Eucharist. It is celebrated on the Thursday after Trinity Sunday (or, in some countries, on the following Sunday), approximately 60 days after Easter. In 2026, Corpus Christi falls on June 4.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The feast is distinctive in the Catholic calendar because it is not primarily about a historical event (like Christmas or Easter) but about a present reality: the ongoing presence of Christ in the Blessed Sacrament. Every Mass, every tabernacle, every monstrance in every Catholic church in the world contains what the Church believes to be the Body, Blood, Soul, and Divinity of Jesus Christ. Corpus Christi is the feast that celebrates this extraordinary truth.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Origin of the Feast: St. Juliana of Liège</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The feast of Corpus Christi originated in the 13th century, largely through the efforts of a Belgian mystic named Juliana of Liège (1193–1258). From her youth, Juliana had a deep devotion to the Eucharist and a recurring vision: she saw the full moon with a dark spot on it. She understood this to mean that the liturgical calendar was incomplete — it lacked a feast specifically dedicated to the Eucharist.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 Juliana spent decades promoting the idea of such a feast, facing significant opposition. She finally found a sympathetic ear in Robert de Thorete, the Bishop of Liège, who instituted the feast locally in 1246. But it was not until after Juliana's death that the feast became universal.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 In 1263, a German priest named Peter of Prague was making a pilgrimage to Rome, troubled by doubts about the Real Presence. While celebrating Mass at the Church of Santa Cristina in Bolsena, Italy, he saw blood seeping from the consecrated Host and staining the corporal (the white cloth on the altar). This miracle — the Miracle of Bolsena — was reported to Pope Urban IV, who was staying nearby in Orvieto.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 Moved by the miracle and by the longstanding request for a universal feast of the Eucharist, Pope Urban IV instituted the feast of Corpus Christi for the universal Church in 1264, with the papal bull Transiturus de hoc mundo. He commissioned the greatest theologian of the age — Thomas Aquinas — to compose the liturgy for the new feast.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Thomas Aquinas and the Corpus Christi Liturgy</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The liturgy that Thomas Aquinas composed for Corpus Christi is considered one of the greatest achievements of medieval Latin poetry and theology. It includes two of the most beloved hymns in the Catholic tradition:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Pange Lingua (Sing, My Tongue)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The Pange Lingua is a six-stanza hymn that tells the story of the Eucharist — from the Last Supper to the present moment. The last two stanzas, known as the Tantum Ergo, are sung at Benediction of the Blessed Sacrament throughout the year:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-sm">
                   Tantum ergo Sacramentum<br />
@@ -112,23 +113,23 @@ export default function CorpusChristiCatholic() {
               </div>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Lauda Sion (Praise, O Zion)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The Lauda Sion is the sequence (a special hymn sung before the Gospel) for the Corpus Christi Mass. It is a theological masterpiece — a precise and beautiful exposition of Catholic Eucharistic doctrine in verse. It teaches that Christ is wholly present under each species (bread and wine), that the accidents (appearances) of bread and wine remain while the substance changes, and that the Eucharist is the same sacrifice as Calvary.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Eucharistic Procession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The most distinctive feature of Corpus Christi is the Eucharistic procession — a public procession through the streets in which the consecrated Host is carried in a monstrance (a golden vessel designed to display the Host) under a canopy, accompanied by the faithful singing hymns and strewing flowers.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The procession is a public act of faith — a declaration to the world that Jesus Christ is truly present in the Eucharist and that Catholics are not ashamed to honor Him publicly. In many countries, the streets are decorated with flower carpets, altars are set up at intervals along the route, and the entire community participates.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The procession typically stops at four outdoor altars, where the priest blesses the four directions of the compass with the monstrance — a symbolic blessing of the entire world with the Body of Christ.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 In some countries — particularly in Latin America, Spain, Portugal, and parts of Africa — the Corpus Christi procession is one of the most important public events of the year, drawing thousands of participants and lasting for hours.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -136,26 +137,26 @@ export default function CorpusChristiCatholic() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Teaches About the Eucharist</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 Corpus Christi is an opportunity to reflect on the Church's teaching about the Eucharist — one of the most distinctive and challenging doctrines of Catholicism.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 The Catholic Church teaches that at the words of consecration in the Mass, the bread and wine are truly transformed into the Body and Blood of Christ. This transformation is called transubstantiation: the substance (the underlying reality) of the bread and wine becomes the Body and Blood of Christ, while the accidents (the appearances — color, taste, texture) remain those of bread and wine.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 This is not a symbolic presence or a spiritual presence — it is a real, substantial presence. The Catechism states: "In the most blessed sacrament of the Eucharist 'the body and blood, together with the soul and divinity, of our Lord Jesus Christ and, therefore, the whole Christ is truly, really, and substantially contained'" (CCC 1374).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 This teaching is based on the words of Jesus himself at the Last Supper ("This is my body... This is my blood") and in the Bread of Life discourse in John 6, where Jesus says: "My flesh is real food and my blood is real drink. Whoever eats my flesh and drinks my blood remains in me, and I in them" (John 6:55-56).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Corpus Christi 2026: When and How to Celebrate</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 In 2026, the solemnity of Corpus Christi falls on Thursday, June 4 (or Sunday, June 7, in countries where it is transferred to Sunday). It is a Holy Day of Obligation in some countries (including parts of Europe and Latin America) but not in the United States, where it is celebrated on the Sunday after Trinity Sunday.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 Ways to celebrate Corpus Christi:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Attend Mass.</strong> The Corpus Christi Mass is one of the most beautiful in the liturgical year, with the Lauda Sion sequence and the Tantum Ergo at the end.</li>
                 <li><strong>Participate in the procession.</strong> If your parish holds a Corpus Christi procession, participate. It is a powerful act of public faith.</li>
@@ -165,12 +166,12 @@ export default function CorpusChristiCatholic() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Eucharistic Revival</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 In recent years, the Catholic Church in the United States has launched a National Eucharistic Revival — a multi-year initiative to renew Catholics' faith in and devotion to the Real Presence of Christ in the Eucharist. Studies have shown that a significant percentage of Catholics do not believe in the Real Presence — a crisis that the bishops have sought to address through catechesis, adoration, and renewed Eucharistic devotion.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 Corpus Christi is the feast that stands at the heart of this revival. It is the Church's annual declaration that the Eucharist is not a symbol, not a memorial, not a spiritual metaphor — but the living Body and Blood of Jesus Christ, present in every tabernacle, offered at every Mass, received by every communicant who approaches with faith and love.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

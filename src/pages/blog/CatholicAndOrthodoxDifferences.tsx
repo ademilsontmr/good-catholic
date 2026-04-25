@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicAndOrthodoxDifferences() {
   return (
@@ -61,43 +62,43 @@ export default function CatholicAndOrthodoxDifferences() {
             <div className="prose prose-lg max-w-none">
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Great Schism of 1054</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The split between the Catholic and Orthodox Churches did not happen overnight. It was the culmination of centuries of growing tension between the Church of Rome in the West and the Church of Constantinople in the East — tensions that were theological, political, cultural, and linguistic.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The immediate trigger was a dispute between Pope Leo IX and Patriarch Michael Cerularius of Constantinople. In 1054, papal legates led by Cardinal Humbert arrived in Constantinople and, when negotiations broke down, placed a bull of excommunication on the altar of the Hagia Sophia, excommunicating Cerularius. Cerularius responded by excommunicating the legates. (These mutual excommunications were formally lifted by Pope Paul VI and Patriarch Athenagoras in 1964.)
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 But the underlying causes of the Schism were much deeper. They included: the question of papal authority (did the Bishop of Rome have universal jurisdiction over the whole Church?), the Filioque controversy (a dispute about the procession of the Holy Spirit), the use of unleavened bread in the Eucharist, the celibacy of the clergy, and the growing cultural and linguistic divide between the Latin West and the Greek East.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The Schism was deepened by the Fourth Crusade (1204), in which Western Crusaders sacked Constantinople — an act of violence against fellow Christians that left a wound in the Eastern Church that has never fully healed.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Filioque Controversy</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The Filioque (Latin: "and from the Son") is perhaps the most important theological difference between the Catholic and Orthodox Churches. It concerns the procession of the Holy Spirit within the Trinity.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The original Nicene-Constantinopolitan Creed (381 AD) stated that the Holy Spirit "proceeds from the Father." The Western Church gradually added the phrase "and from the Son" (Filioque), so that the Creed read: the Holy Spirit "proceeds from the Father and the Son." This addition was first used in Spain in the 6th century and gradually spread throughout the Western Church, eventually being adopted by Rome in the 11th century.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The Orthodox Church objects to the Filioque on two grounds: first, that it is theologically incorrect (the Holy Spirit proceeds from the Father alone, through the Son); and second, that it was added to the Creed without the authority of an Ecumenical Council — a violation of the conciliar principle that the Orthodox consider fundamental to the Church's governance.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The Catholic Church maintains that the Filioque is theologically correct and that the Pope had the authority to add it to the Creed. This remains one of the most significant unresolved theological disputes between the two Churches.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Papal Authority</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The question of papal authority is the most fundamental ecclesiological difference between the Catholic and Orthodox Churches. The Catholic Church teaches that the Pope — the Bishop of Rome — has universal jurisdiction over the whole Church and, under certain conditions, can speak infallibly on matters of faith and morals (the doctrine of papal infallibility, defined at the First Vatican Council in 1870).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The Orthodox Church rejects this understanding of papal authority. Orthodox theology holds that the Church is governed by a council of bishops — the principle of conciliarity — and that no single bishop, including the Bishop of Rome, has universal jurisdiction over the others. The Ecumenical Patriarch of Constantinople holds a position of honor as "first among equals" (primus inter pares), but this is a primacy of honor, not of jurisdiction.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 Orthodox theologians argue that the Catholic understanding of papal authority represents a departure from the ecclesiology of the early Church, in which the five great patriarchates (Rome, Constantinople, Alexandria, Antioch, and Jerusalem) governed the Church together in a collegial manner.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -105,9 +106,9 @@ export default function CatholicAndOrthodoxDifferences() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Other Theological Differences</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 Beyond the Filioque and papal authority, there are several other significant theological differences between the Catholic and Orthodox Churches:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Immaculate Conception.</strong> The Catholic Church teaches that Mary was conceived without original sin (defined as dogma by Pope Pius IX in 1854). The Orthodox Church does not accept this doctrine, though it venerates Mary as the Theotokos (God-bearer) and holds her in the highest honor.</li>
                 <li><strong>Purgatory.</strong> The Catholic Church teaches that souls who die in God's grace but are not yet fully purified undergo a process of purification before entering heaven (Purgatory). The Orthodox Church does not accept the Catholic doctrine of Purgatory, though it does pray for the dead and believes in a process of purification after death.</li>
@@ -116,31 +117,31 @@ export default function CatholicAndOrthodoxDifferences() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Liturgical Differences</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The liturgical differences between the Catholic and Orthodox Churches are among the most visible. The Catholic Church uses the Roman Rite (and various Eastern Rites in the Eastern Catholic Churches), while the Orthodox Church uses the Byzantine Rite — primarily the Divine Liturgy of Saint John Chrysostom and the Divine Liturgy of Saint Basil the Great.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The Byzantine liturgy is longer, more elaborate, and more mystical in character than the Roman Rite. It is celebrated in the vernacular (or in Church Slavonic, Greek, or other traditional languages), with the priest facing the altar (ad orientem) and the congregation. The iconostasis — a screen of icons separating the nave from the sanctuary — is a distinctive feature of Orthodox churches.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 Other liturgical differences include: the use of leavened bread (prosphora) in the Orthodox Eucharist vs. unleavened bread (hosts) in the Roman Rite; the administration of Communion under both kinds (bread and wine) to all the faithful in the Orthodox Church; and the use of a spoon to administer Communion in many Orthodox traditions.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Spiritual Differences: Hesychasm and Icons</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 One of the most distinctive features of Orthodox spirituality is hesychasm — a tradition of contemplative prayer that seeks the direct experience of God through inner stillness (hesychia). The hesychast tradition was developed by the Desert Fathers and systematized by Saint Gregory Palamas (1296–1359), who defended the possibility of direct experience of God's uncreated energies.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Jesus Prayer — "Lord Jesus Christ, Son of God, have mercy on me, a sinner" — is the central prayer of the hesychast tradition. It is prayed continuously, often in coordination with the breath, as a means of achieving inner stillness and union with God. The practice is described in the classic spiritual text <em>The Way of a Pilgrim</em>.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 Icons are another distinctive feature of Orthodox spirituality. In Orthodox theology, icons are not merely religious art — they are windows into the heavenly realm, participations in the reality they depict. The veneration of icons was defended at the Second Council of Nicaea (787 AD) against the iconoclasts, and remains central to Orthodox worship and spirituality.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Two Churches Have in Common</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 Despite their differences, the Catholic and Orthodox Churches share an enormous amount in common — far more than either shares with Protestant Christianity. Both Churches:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Believe in the Real Presence of Christ in the Eucharist</li>
                 <li>Have valid apostolic succession and valid sacraments</li>
@@ -156,15 +157,15 @@ export default function CatholicAndOrthodoxDifferences() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Efforts Toward Reunion</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The history of Catholic-Orthodox relations includes several significant attempts at reunion. The Council of Florence (1439) produced a formal act of union between the two Churches, but it was rejected by the Orthodox faithful and never implemented. The lifting of the mutual excommunications of 1054 by Pope Paul VI and Patriarch Athenagoras in 1964 was a significant gesture of reconciliation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 Since then, the Catholic-Orthodox theological dialogue has made significant progress. The Joint International Commission for Theological Dialogue between the Catholic Church and the Orthodox Church has produced several agreed statements on ecclesiology, the sacraments, and the role of the Bishop of Rome. Pope Francis and Ecumenical Patriarch Bartholomew have met several times and issued joint statements calling for greater cooperation and unity.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The path to full reunion remains long and difficult. The theological differences — especially on papal authority — are real and significant. But both Churches share a common hope: the prayer of Jesus at the Last Supper, "that they may all be one" (John 17:21).
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

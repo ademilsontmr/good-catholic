@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintElizabethAnnSeton() {
   return (
@@ -59,45 +60,45 @@ export default function SaintElizabethAnnSeton() {
               <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Saint Elizabeth Ann Seton (1774–1821) is one of the most remarkable figures in American Catholic history. In a life of only 46 years, she experienced extraordinary joy and devastating loss, made a courageous religious conversion that cost her her social standing and many of her friendships, and built institutions that would shape Catholic education in America for generations. She is the mother of the American parochial school system.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life: A Privileged New Yorker</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Elizabeth Ann Bayley was born on August 28, 1774, in New York City — just two years before the Declaration of Independence. Her father, Richard Bayley, was a prominent physician and the first professor of anatomy at Columbia University. Her mother died when Elizabeth was three, and her father remarried; Elizabeth had a complicated relationship with her stepmother.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Elizabeth grew up in the Episcopal Church and was deeply devout from childhood. She had a natural gift for prayer and a sensitivity to the presence of God that would mark her entire life. In 1794, at age 19, she married William Magee Seton, a wealthy New York merchant. They had five children and were, by all accounts, deeply happy together.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 But the happiness did not last. William's business failed in the economic crisis of the late 1790s, and his health declined rapidly. In 1803, hoping that the Italian climate would restore his health, Elizabeth and William sailed to Italy with their eldest daughter, Anna. William died in Pisa on December 27, 1803, leaving Elizabeth a widow at 29 with five children and no money.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Conversion: Italy and the Eucharist</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 While in Italy, Elizabeth stayed with the Filicchi family — Italian Catholic merchants who had been business partners of her husband. The Filicchis were devout Catholics, and Elizabeth was deeply moved by their faith, especially their devotion to the Eucharist.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Elizabeth had always believed in the Real Presence of Christ in the Eucharist — a belief she had held intuitively even as an Episcopalian. When she attended Mass with the Filicchis and saw the elevation of the Host, she was overwhelmed. She wrote: "How happy would we be if we believed what these dear souls believe, that they possess God in the Sacrament and that He remains in their churches and is carried to them when they are sick."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 After returning to New York, Elizabeth spent two years in agonizing discernment. Conversion to Catholicism in early 19th-century America was a serious social step — Catholics were a despised minority, associated with Irish immigrants and foreign influence. Her family and friends were horrified. Her sister-in-law wrote that she would rather see Elizabeth "in her coffin" than become a Catholic.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 But Elizabeth could not resist the pull of the Eucharist. On March 14, 1805, she was received into the Catholic Church at St. Peter's Church in New York City — the oldest Catholic church in the state. She was 30 years old.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Founding Catholic Education in America</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 After her conversion, Elizabeth struggled to support her five children. She tried running a school in Boston, but anti-Catholic prejudice made it impossible. In 1808, Bishop John Carroll of Baltimore — the first Catholic bishop in the United States — invited her to open a school in Baltimore.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 In 1809, Elizabeth moved to Emmitsburg, Maryland, where she founded St. Joseph's Academy and Free School — the first free Catholic school for girls in the United States. This was the beginning of the American parochial school system. Elizabeth's school was free for poor children — a revolutionary concept at the time.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Also in 1809, Elizabeth founded the Sisters of Charity of St. Joseph — the first religious community founded in the United States. The Sisters of Charity would go on to found schools, orphanages, and hospitals across the country. Today, the various branches of the Sisters of Charity trace their origins to Elizabeth's community at Emmitsburg.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -105,20 +106,20 @@ export default function SaintElizabethAnnSeton() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Suffering and Death</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Elizabeth's years at Emmitsburg were marked by both fruitful ministry and devastating personal loss. Two of her daughters — Anna and Rebecca — died of tuberculosis, as did two of her sisters-in-law who had joined her community. Elizabeth herself suffered from tuberculosis for years.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Through all her suffering, Elizabeth maintained a remarkable serenity rooted in her faith. She wrote: "The will of God — nothing more, nothing less, nothing else." She died on January 4, 1821, at the age of 46. Her last words were: "Be children of the Church."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Canonization and Legacy</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Elizabeth Ann Seton was beatified by Pope John XXIII in 1963 and canonized by Pope Paul VI on September 14, 1975 — the first person born in the United States to be canonized. Her feast day is January 4.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Her legacy is immense. The parochial school system she helped found now educates millions of American children. The religious communities she inspired have served the poor, the sick, and the uneducated across the country for two centuries. She is the patron saint of Catholic schools, widows, and people who have lost children.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

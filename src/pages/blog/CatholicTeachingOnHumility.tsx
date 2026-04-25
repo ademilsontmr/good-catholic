@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnHumility() {
   return (
@@ -59,53 +60,53 @@ export default function CatholicTeachingOnHumility() {
               <Heart className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 In a culture that prizes self-promotion, personal branding, and the relentless assertion of one's own worth, humility can seem like a relic — or worse, a weakness. But the Catholic tradition has always understood humility as one of the most powerful and liberating virtues a human being can possess. Without it, no other virtue can stand. With it, the soul is open to receive everything God wishes to give.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Humility Is NOT</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Before we can understand what humility is, we need to clear away some common misconceptions. Humility is not self-deprecation — the habit of putting yourself down, denying your gifts, or pretending you have no value. That is not humility; it is a kind of false modesty that can actually be a subtle form of pride (seeking attention through self-abasement).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Humility is not low self-esteem. A person with low self-esteem thinks poorly of themselves and is often paralyzed by self-doubt. A humble person may have a very clear and accurate sense of their gifts and abilities — they simply do not make those gifts the center of their identity or use them to exalt themselves above others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Humility is not weakness. The humble person is not a pushover. Jesus was humble — and he drove the money changers from the Temple, confronted the Pharisees, and went to his death without flinching. The saints who were most humble were often the most courageous. Humility is not the absence of strength; it is strength rightly ordered.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Humility IS: The Accurate Knowledge of Oneself Before God</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 The classic Catholic definition of humility comes from Saint Bernard of Clairvaux: humility is "a virtue by which a man knowing himself as he truly is, abases himself." It is, in other words, the accurate knowledge of oneself before God — seeing ourselves as we truly are, neither inflating nor deflating our worth.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Before God, the truth is clear: we are creatures, not the Creator. We are sinners in need of mercy. Every good thing we have — our intelligence, our talents, our health, our faith — is a gift we did not earn and do not deserve. Humility is simply the honest acknowledgment of this reality. It is not a performance; it is a perception.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 This is why humility is so closely linked to truth. The humble person is not pretending to be less than they are — they are seeing themselves accurately. And when you see yourself accurately before God, you cannot help but be humble, because the gap between what we are and what God is becomes undeniable.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catechism and Scripture on Humility</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Scripture is filled with the praise of humility and the warning against pride. The most direct statement comes from the Letter of James: "God opposes the proud but gives grace to the humble" (James 4:6). This is not a minor observation — it is a statement about the fundamental dynamic of the spiritual life. Pride closes the soul to God's grace; humility opens it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 The Psalms return again and again to this theme: "The Lord is near to the brokenhearted and saves the crushed in spirit" (Psalm 34:18). "He leads the humble in what is right, and teaches the humble his way" (Psalm 25:9). The Magnificat — Mary's great hymn of praise — is a song of humility: "He has looked on the humble estate of his servant... He has brought down the mighty from their thrones and exalted those of humble estate" (Luke 1:48, 52).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 The Catechism of the Catholic Church treats humility as essential to the life of prayer and virtue. It notes that "the virtue of humility is a participation in the humility of Christ" (CCC 2559) and that prayer itself requires humility — the recognition that we are dependent on God and cannot approach him on our own terms.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Humility as the Foundation of All Virtue</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Saint Augustine famously said that if you ask him what is the first precept of the Christian religion, he would answer: "First, humility; second, humility; third, humility." This is not an exaggeration. Augustine understood that pride — the opposite of humility — is the root of all sin, and therefore humility is the root of all virtue.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Saint Thomas Aquinas developed this insight systematically. In the Summa Theologica, he explains that humility removes the obstacles to virtue by ordering the soul rightly toward God. Without humility, the other virtues become corrupted: courage becomes recklessness, prudence becomes cunning, justice becomes self-righteousness. With humility, the virtues are properly ordered and can grow freely.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 This is why the spiritual masters consistently say that the first step in the spiritual life is not acquiring virtues but removing the obstacle of pride. You cannot fill a vessel that is already full of itself. Humility empties the soul of self-preoccupation so that God can fill it with grace.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -113,36 +114,36 @@ export default function CatholicTeachingOnHumility() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Degrees of Humility (St. Ignatius of Loyola)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Saint Ignatius of Loyola, in his Spiritual Exercises, describes three degrees of humility — three levels of depth to which a soul can surrender itself to God:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The First Degree:</strong> Humbling oneself enough to obey God's law and avoid mortal sin, even at the cost of losing all earthly goods, honor, or life itself. This is the minimum required for salvation.</li>
                 <li><strong>The Second Degree:</strong> A deeper indifference — not preferring riches over poverty, honor over dishonor, long life over short life, as long as God is equally served. This is the disposition of a soul that has truly surrendered its will to God.</li>
                 <li><strong>The Third Degree:</strong> The highest form — actually desiring poverty, humiliation, and suffering in order to be more like Christ, who chose these things for our salvation. This is the humility of the saints.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Most of us live at the first degree, and that is a good starting point. The spiritual life is a journey toward the third degree — not through self-punishment, but through a growing love for Christ that makes us want to share in his self-emptying.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pride as the Root of All Sin</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 To understand humility, we must understand its opposite. Pride — not the healthy satisfaction in a job well done, but the disordered exaltation of self above God and others — is what the tradition calls the "root of all sin" and the "beginning of all evil" (Sirach 10:13).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 The fall of Lucifer is the archetypal story of pride. The most beautiful and powerful of the angels, Lucifer refused to serve — "Non serviam" (I will not serve) — and in that refusal, chose himself over God. His pride was not a small thing; it was the fundamental orientation of his will away from God and toward himself. And it destroyed him.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 The fall of Adam and Eve follows the same pattern. The serpent's temptation was precisely an appeal to pride: "You will be like God" (Genesis 3:5). They were not content to be creatures; they wanted to be the Creator. And in reaching for what was not theirs, they lost what they had.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Every sin, at its root, involves some form of pride — the assertion of my will over God's will, my judgment over God's judgment, my desires over God's law. This is why humility — the surrender of self to God — is the antidote to sin and the foundation of the spiritual life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Ways to Grow in Humility</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 Humility is not just a disposition — it is a virtue that must be practiced and cultivated. Here are some concrete ways the Catholic tradition recommends for growing in humility:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Daily Examen:</strong> The Ignatian practice of reviewing your day in God's presence — noticing where you acted from pride and where you acted from love — is one of the most powerful tools for growing in self-knowledge and humility.</li>
                 <li><strong>Accepting correction:</strong> When someone corrects you — a spouse, a friend, a confessor — receive it with gratitude rather than defensiveness. The proud person cannot be corrected; the humble person welcomes it as a gift.</li>
@@ -152,9 +153,9 @@ export default function CatholicTeachingOnHumility() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saints Who Exemplified Humility</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 The saints are our greatest teachers of humility, because they lived it — not as an abstract ideal, but as a daily reality.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Saint Thérèse of Lisieux</strong> developed what she called the "Little Way" — the path of spiritual childhood, of doing small things with great love, of not seeking greatness but simply trusting in God's mercy like a child trusts a parent. She wrote: "I am too little to climb the rough stairway of perfection. I will seek an elevator to carry me to Jesus — and that elevator is your arms, O Lord." Her humility was not weakness; it was a radical trust in God's love.
               </p>

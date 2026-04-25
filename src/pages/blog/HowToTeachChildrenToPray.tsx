@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToTeachChildrenToPray() {
   return (
@@ -78,46 +79,46 @@ export default function HowToTeachChildrenToPray() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 Research consistently shows that children who pray regularly are more likely to maintain their faith into adulthood. But teaching children to pray is not primarily about technique — it is about relationship. You are not teaching your child a skill; you are introducing them to a Person. And the most powerful way to do that is by example.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Most Important Principle: Model Prayer</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 Before any technique or curriculum, the single most important thing you can do is let your children see you pray. Not just at scheduled family prayer times, but spontaneously — a quick prayer before a difficult conversation, a "Thank you, God" when something good happens, a "Lord, help me" when you are frustrated. Children absorb what they see far more than what they are told.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 St. John Bosco, the great educator of youth, said: "It is not enough to love children; they must know they are loved." The same is true of prayer: it is not enough to teach children about prayer; they must see that prayer is real and important to you.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Age-by-Age Guide to Teaching Prayer</h2>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Infants and Toddlers (0-3 years)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 Even before children can speak, you can begin introducing them to prayer. Pray aloud with your infant during feeding, bathing, and bedtime. Make the Sign of the Cross on their forehead. Sing simple hymns. The rhythm and tone of prayer will become familiar long before the words are understood.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 For toddlers, teach the Sign of the Cross first — it is the most fundamental Catholic prayer and gesture. Keep it simple: "In the name of the Father, and of the Son, and of the Holy Spirit. Amen." Practice it together every morning and evening.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Preschool (3-5 years)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 At this age, children can begin learning simple memorized prayers. Start with:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>The Sign of the Cross</li>
                 <li>A simple grace before meals ("Bless us, O Lord...")</li>
                 <li>The Guardian Angel Prayer</li>
                 <li>Simple spontaneous prayers: "Thank you, God, for..." and "Please help me, God..."</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 At this age, spontaneous prayer is just as important as memorized prayer. Encourage your child to talk to God in their own words. "What do you want to say to God today?" is a powerful question for a preschooler.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Early Elementary (6-8 years)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 As children prepare for First Communion, they should learn the foundational Catholic prayers:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Our Father</li>
                 <li>Hail Mary</li>
@@ -125,9 +126,9 @@ export default function HowToTeachChildrenToPray() {
                 <li>Act of Contrition</li>
                 <li>Morning Offering</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 Don't just teach the words — explain the meaning. "The Our Father is the prayer Jesus taught us. Let's look at what each part means..." This transforms memorization into understanding.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your family's prayer life?"
@@ -135,20 +136,20 @@ export default function HowToTeachChildrenToPray() {
               />
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Upper Elementary (9-12 years)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 At this age, children can begin learning the Rosary, the Stations of the Cross, and simple forms of mental prayer. Introduce them to the lives of the saints — children this age are often deeply inspired by stories of heroic holiness. Consider giving them a children's Lives of the Saints book.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 This is also a good age to introduce a brief daily examination of conscience — a simple review of the day: "What did I do well today? Where did I fall short? What do I want to do better tomorrow?" This builds the habit of moral reflection that will serve them throughout their lives.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Teenagers (13-18 years)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 Teenagers often resist formal family prayer — this is normal and does not mean they are losing their faith. The key at this age is to give them ownership of their prayer life while maintaining some family prayer practices.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 Encourage teenagers to develop their own personal prayer time. Introduce them to Lectio Divina, the Liturgy of the Hours, or journaling as forms of prayer. Take them to Eucharistic Adoration. Bring them to a youth retreat. Connect them with other Catholic young people who take their faith seriously.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Tips for Family Prayer</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">

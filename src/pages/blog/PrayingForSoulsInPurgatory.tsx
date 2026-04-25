@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayingForSoulsInPurgatory() {
   return (
@@ -64,64 +65,64 @@ export default function PrayingForSoulsInPurgatory() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Every November, the Catholic Church turns its attention to the dead. November 1 is All Saints' Day — the feast of all those who have reached heaven. November 2 is All Souls' Day — the day dedicated to praying for all the faithful departed, especially those still being purified in Purgatory. But the Church's care for the dead is not limited to November. It is woven into every Mass, every Rosary, every act of penance offered for the souls of the departed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Why do Catholics pray for the dead? Because we believe that death is not the end of the relationship between the living and the dead. We are all members of the same Body of Christ — the Church Militant (the living on earth), the Church Suffering (the souls in Purgatory), and the Church Triumphant (the saints in heaven). We can help each other. The prayers of the living can benefit the dead, and the prayers of the saints in heaven can benefit us.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Purgatory?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Purgatory is the state of purification that souls undergo after death if they die in God's grace but are not yet fully purified. The Catechism of the Catholic Church teaches: "All who die in God's grace and friendship, but still imperfectly purified, are indeed assured of their eternal salvation; but after death they undergo purification, so as to achieve the holiness necessary to enter the joy of heaven" (CCC 1030).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Purgatory is not a second chance at salvation — it is not for those who died rejecting God. It is for those who died in God's grace but still carry the effects of sin: unrepented venial sins, or the temporal punishment due to sins already forgiven. Think of it this way: if you break a window and are forgiven by the owner, you are still responsible for fixing the window. Purgatory is the "fixing of the window" — the final purification that prepares a soul for the perfect holiness required to enter heaven.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 The souls in Purgatory are certain of their salvation — they will reach heaven. But they cannot help themselves; they can only receive help from others. This is why our prayers for them are so important.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Basis for Praying for the Dead</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 The practice of praying for the dead is ancient — it predates Christianity. In 2 Maccabees 12:38-46, Judas Maccabeus collects money to offer sacrifice in Jerusalem for soldiers who had died wearing pagan amulets: "He also took up a collection, man by man, to the amount of two thousand drachmas of silver, and sent it to Jerusalem to provide for a sin offering. In doing this he acted very well and honorably, taking account of the resurrection. For if he were not expecting that those who had fallen would rise again, it would have been superfluous and foolish to pray for the dead."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 This passage — found in the deuterocanonical books accepted by Catholics but not by Protestants — is the clearest biblical basis for praying for the dead. But the New Testament also hints at the practice. In 1 Corinthians 15:29, Paul mentions people being "baptized for the dead" — a practice that only makes sense if the dead can benefit from the actions of the living. In 2 Timothy 1:18, Paul prays for the soul of Onesiphorus, who appears to have already died.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 The early Church prayed for the dead from the very beginning. Inscriptions in the Roman catacombs — dating from the 2nd and 3rd centuries — include prayers for the deceased. The practice is universal in the ancient Church, East and West.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Most Powerful Ways to Help the Holy Souls</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. The Holy Mass</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 The most powerful prayer for the souls in Purgatory is the Holy Mass. The Mass is the re-presentation of Christ's sacrifice on Calvary — the infinite sacrifice that atones for all sin. When a Mass is offered for a deceased person, the infinite merits of Christ's sacrifice are applied to that soul. This is why Catholics have Masses said for the deceased — especially on the anniversary of their death, on All Souls' Day, and at funerals.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 You can have a Mass offered for a deceased person by contacting your parish and making a Mass intention. A small stipend (donation) is customary, though not required. The priest will offer the Mass for that specific person.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. The Rosary for the Dead</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 The Rosary is one of the most powerful prayers in the Catholic tradition, and it can be offered for the souls in Purgatory. Many Catholics pray a Rosary for a deceased loved one on the day of their death, on anniversaries, and throughout November. The Fatima prayer — added to the Rosary after the 1917 apparitions — specifically asks for the release of souls from Purgatory: "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those most in need of Thy mercy."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. The Divine Mercy Chaplet</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Jesus told St. Faustina that the Divine Mercy Chaplet is especially powerful for the dying and the dead. He promised: "When they say this chaplet in the presence of the dying, I will stand between My Father and the dying person, not as the just Judge but as the merciful Savior." Many Catholics pray the Chaplet for the souls in Purgatory, especially at 3:00 PM — the Hour of Mercy.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Indulgences for the Dead</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 The Church grants indulgences — remissions of the temporal punishment due to sin — that can be applied to the souls in Purgatory. A plenary indulgence (full remission) can be gained for the souls in Purgatory by visiting a cemetery and praying for the dead during the first eight days of November (November 1-8). The conditions for a plenary indulgence are: sacramental confession, Eucharistic communion, prayer for the Pope's intentions, and complete detachment from sin.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">5. Fasting and Sacrifice</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Any act of penance or sacrifice — fasting, abstinence, acts of charity — can be offered for the souls in Purgatory. The Church teaches that the merits of our good works can be applied to others, both living and dead, through the communion of saints.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -156,17 +157,17 @@ export default function PrayingForSoulsInPurgatory() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The November Novena for the Holy Souls</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Many Catholics pray a special novena for the Holy Souls throughout November. A simple practice: each day of November, pray one Rosary for the souls in Purgatory, visit a cemetery if possible, and offer any sufferings or inconveniences of the day for the Holy Souls. This is a beautiful way to live the month of November as the Church intends — as a month of prayer for the dead.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Holy Souls Pray for Us</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 The relationship between the living and the Holy Souls is not one-sided. Many saints and mystics have testified that the souls in Purgatory, grateful for the prayers of the living, intercede powerfully for their benefactors before God. St. John Vianney said: "If we knew how great is the power of the good souls in Purgatory with the Heart of God, and if we knew all the graces we can obtain through their intercession, they would not be so much forgotten."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Praying for the Holy Souls is not just an act of charity toward the dead — it is also a powerful spiritual practice for the living. It deepens our awareness of our own mortality, our need for God's mercy, and the reality of the communion of saints that unites all the baptized — living and dead — in one Body of Christ.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

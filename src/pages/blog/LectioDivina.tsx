@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LectioDivina() {
   return (
@@ -76,56 +77,56 @@ export default function LectioDivina() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Most American Catholics read the Bible occasionally — at Mass, in a study group, or during a personal devotion. But Lectio Divina is something different. It is not Bible study. It is not reading for information. It is a slow, prayerful encounter with the Word of God in which you allow Scripture to read you — to illuminate your heart, challenge your assumptions, and draw you into intimate conversation with God.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 The practice is ancient, rooted in the monastic tradition, and has been recommended by popes, councils, and saints for over fifteen centuries. Pope Benedict XVI, in his apostolic exhortation Verbum Domini, called Lectio Divina "a practice of great value" and encouraged all Catholics to make it part of their daily prayer. This guide will show you exactly how to do it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The History of Lectio Divina
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 The roots of Lectio Divina go back to the early Church. The Desert Fathers of the 3rd and 4th centuries practiced a form of slow, meditative reading of Scripture as part of their daily rhythm of prayer. They would memorize passages and "ruminate" on them — chewing them over like a cow chewing cud, allowing the words to penetrate deeper and deeper into the soul.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 St. Benedict of Nursia (480–547), the father of Western monasticism, formalized Lectio Divina as a central pillar of monastic life in his Rule. He prescribed several hours each day for sacred reading, alongside the Divine Office and manual labor. For Benedictine monks, Lectio Divina was not optional — it was as essential as eating.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 In the 12th century, the Carthusian monk Guigo II articulated the four steps of Lectio Divina in his famous letter "The Monk's Ladder" (Scala Claustralium). He described the four rungs as Lectio (reading), Meditatio (meditation), Oratio (prayer), and Contemplatio (contemplation) — the framework that Catholics still use today.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 The Second Vatican Council's constitution on divine revelation, Dei Verbum, called all Catholics to a deeper engagement with Scripture: "Ignorance of Scripture is ignorance of Christ" (quoting St. Jerome). Lectio Divina is the Church's primary answer to that call.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Four Steps of Lectio Divina
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 The four steps are not rigid stages to be completed in sequence — they are more like movements in a conversation that can flow back and forth. But understanding each step clearly helps you enter the practice with intention.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 1: Lectio (Reading)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Begin by reading the chosen Scripture passage slowly, aloud if possible. Read it not to understand it intellectually but to listen for a word or phrase that strikes you — that seems to "shimmer" or stand out. This is not speed-reading. Read the passage two or three times, pausing between each reading. You are listening for the word or phrase that God wants to speak to you today.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 The key disposition for Lectio is receptivity. You are not analyzing the text; you are receiving it. St. Augustine described this as "knocking at the door" of Scripture — approaching it with humility and expectation, trusting that God will open it.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 2: Meditatio (Meditation)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Once a word or phrase has caught your attention, stay with it. Repeat it slowly, letting it sink into your heart. Ask: What does this word mean? What images does it evoke? How does it connect to my life right now? What is God saying to me through this word today?
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 The ancient monks called this "rumination" — chewing the word like food, extracting its nourishment slowly. You might repeat the word or phrase dozens of times, letting it resonate at deeper and deeper levels. This is not intellectual analysis; it is a kind of loving attention to the Word.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your relationship with Scripture?"
@@ -135,22 +136,22 @@ export default function LectioDivina() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 3: Oratio (Prayer)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 From meditation, allow your heart to respond to God in prayer. This is the moment when Lectio Divina becomes a genuine conversation. You have listened to God speak through His Word; now you speak back. Your prayer might be praise, gratitude, repentance, petition, or simply an expression of love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Don't force this step. Let it arise naturally from the meditation. If the word that struck you was "mercy," your prayer might be: "Lord, I need Your mercy in this situation in my life. Thank You for Your mercy. Help me to show mercy to others." The prayer flows from the Word.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 4: Contemplatio (Contemplation)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Contemplation is the resting place of Lectio Divina. After reading, meditating, and praying, you simply rest in God's presence — beyond words, beyond thoughts, in a loving silence. This is not emptying the mind (as in Eastern meditation) but filling it with God's presence. You are simply being with God, as a child rests in a parent's arms.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Contemplation cannot be forced or manufactured. It is a gift. But you can dispose yourself to receive it by quieting your mind, releasing distractions, and remaining open. Even a few moments of genuine contemplative rest are deeply nourishing for the soul.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 A Detailed Walkthrough with an Example Passage
@@ -182,19 +183,19 @@ export default function LectioDivina() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How Long Does Lectio Divina Take?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 A meaningful Lectio Divina session can be done in 20–30 minutes. Monks traditionally spent an hour or more, but for busy American Catholics, 20 minutes is a realistic and fruitful starting point. Divide the time roughly as follows: 5 minutes for Lectio, 7 minutes for Meditatio, 5 minutes for Oratio, and 3–5 minutes for Contemplatio.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Group vs. Individual Practice
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Lectio Divina can be practiced alone or in a group. Individual practice allows for deeper personal encounter and more freedom in the contemplative phase. Group practice — common in parishes, Bible study groups, and prayer groups — adds the richness of shared reflection. In group Lectio, participants share the word or phrase that struck them (without discussion or debate), then share how it connects to their lives, then pray aloud, and finally rest in silence together.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Many American parishes offer weekly Lectio Divina groups, often using the upcoming Sunday Gospel as the text. This is an excellent way to prepare for Mass and deepen your engagement with the liturgical readings.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Recommended Scripture Passages to Start With
@@ -212,9 +213,9 @@ export default function LectioDivina() {
                 <li>Romans 8:31–39 (Nothing can separate us from God's love)</li>
                 <li>Luke 1:26–38 (The Annunciation)</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Another excellent approach is to use the daily Mass readings as your Lectio Divina text. This connects your personal prayer to the Church's liturgical life and prepares you to receive the Word more deeply at Mass.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

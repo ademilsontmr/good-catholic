@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DivineOfficeLaity() {
   return (
@@ -77,68 +78,68 @@ export default function DivineOfficeLaity() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
                 The Liturgy of the Hours—also known as the Divine Office—is not just for priests and religious. Lay Catholics are increasingly discovering this ancient prayer of the Church, which sanctifies the entire day through psalms, readings, and intercession.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What Is the Divine Office?
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               The Divine Office is the Church's official daily prayer, composed primarily of psalms, Scripture readings, hymns, and intercessions. St. Athanasius called it "the sacrament of time," as it consecrates each part of the day to God. The Second Vatican Council described it as "the very prayer which Christ Himself, together with His body, addresses to the Father."
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               While clergy and religious are obligated to pray the full Office, lay Catholics are warmly encouraged to participate in this prayer. It connects the faithful to the universal prayer of the Church being offered continuously around the world.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Seven Hours of Prayer
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               The full Liturgy of the Hours consists of seven "hours" spread throughout the day:
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Morning Prayer (Lauds)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               Traditionally prayed at sunrise, Morning Prayer consecrates the day to God. It includes a hymn, two psalms, an Old Testament canticle, a short reading, and intercessions. Many laity pray this to begin their workday with God.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Midday Prayer (Sext)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               A brief prayer at noon, sanctifying the middle of the day. It consists of a hymn, three short psalms, a reading, and a concluding prayer. Many pray this during their lunch break.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Afternoon Prayer (None)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               Prayed around 3 PM, traditionally associated with the hour of Christ's death. This brief office helps transition from work to evening.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Evening Prayer (Vespers)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               The "evening sacrifice of praise," prayed at sunset. It includes a hymn, two psalms, a New Testament canticle (often the Magnificat), a reading, and intercessions. Many families make this their main evening prayer.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Night Prayer (Compline)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               The final prayer before sleep, entrusting oneself to God's protection. It includes a brief examination of conscience, psalms, the Nunc Dimittis (Canticle of Simeon), and a Marian antiphon.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Simplified Options for Busy Laity
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               Praying all seven hours may be impractical for most laypeople. The Church recommends simplified forms:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Morning and Evening Prayer:</strong> The two "hinges" of the day, most essential for laity</li>
               <li><strong>Night Prayer:</strong> Brief and perfect for bedtime</li>
@@ -149,16 +150,16 @@ export default function DivineOfficeLaity() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Psalms: Heart of the Office
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               The Divine Office prays the entire Book of Psalms over a four-week cycle. These ancient prayers of Israel become the prayer of Christ and His Church. Through the psalms, we express every human emotion before God—praise, lament, thanksgiving, petition, and trust.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Practical Tips for Beginners
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
               If you're new to the Divine Office, start small:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Begin with just Night Prayer—it's brief and beautiful</li>
               <li>Add Morning Prayer once you're comfortable</li>

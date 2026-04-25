@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PopeLeoXIV() {
   return (
@@ -82,41 +83,41 @@ export default function PopeLeoXIV() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 A Historic Election: The First American Pope
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 For over two thousand years, the papacy had been held by Europeans — Italians, Germans, Poles, Argentinians. The election of Robert Francis Prevost shattered that pattern. For the first time in the history of the Catholic Church, a man born in the United States of America now leads the world's 1.4 billion Catholics.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 The reaction was immediate and electric. American Catholics — long accustomed to looking to Rome as a distant spiritual center — suddenly found themselves with a direct, personal connection to the Chair of Peter. Church bells rang from Boston to Los Angeles. Parishes across the country held impromptu celebrations. And for many American Catholics who had felt marginalized or uncertain about their place in the global Church, the election felt like a profound affirmation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 But who exactly is Robert Francis Prevost? And what does his election mean for the future of Catholicism?
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 From Chicago to the World: Early Life and Formation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 Robert Francis Prevost was born on September 14, 1955, in Chicago, Illinois — the Feast of the Exaltation of the Holy Cross, a date he has described as providential. He grew up in a devout Catholic family in the south suburbs of Chicago, attending Catholic schools and developing a deep love for the Augustinian tradition of prayer and community life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 He entered the Order of Saint Augustine (OSA) and was ordained a priest in 1982. He holds a doctorate in canon law from the Pontifical University of Saint Thomas Aquinas (the Angelicum) in Rome, giving him both pastoral and juridical formation that would prove essential in his later roles.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 What sets Prevost apart from many Vatican insiders is that he did not spend his career in Rome. Instead, he answered a missionary call that would define his priesthood: he went to Peru.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Decades in Peru: A Missionary Heart
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 For much of his priestly life, Robert Prevost served in Peru — first as a missionary, then as a parish priest, then as Prior Provincial of the Augustinians in Peru. He became so deeply embedded in Peruvian life that he eventually obtained Peruvian citizenship, a fact that made him technically a citizen of two nations when he was elected pope.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 His years in Peru were not spent in comfortable rectories. He worked in poor communities, learned to speak Spanish fluently, and developed a pastoral style marked by closeness to the marginalized. He has spoken often about how his time in Peru shaped his understanding of the Church as a community of service, not power.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 This missionary background is crucial to understanding Pope Leo XIV. He is not a career diplomat or a curial bureaucrat. He is a pastor who has walked with the poor, buried the dead, baptized children in remote villages, and celebrated Mass in humble chapels far from the grandeur of Rome.
-              </p>
+              </LinkedText>
 
               <div className="bg-blue-50 border border-border rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-4 text-center text-xl">Key Facts About Pope Leo XIV</h3>
@@ -135,9 +136,9 @@ export default function PopeLeoXIV() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why "Leo XIV"? The Significance of the Name
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 When a new pope appears on the balcony of St. Peter's Basilica, one of the first things announced is the name he has chosen. Names are never accidental — they signal a program, a spirituality, a set of priorities.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 By choosing the name <strong>Leo XIV</strong>, Robert Prevost placed himself in explicit continuity with <strong>Pope Leo XIII</strong> (1878–1903), one of the most consequential popes of the modern era. Leo XIII is best known for his landmark encyclical <em>Rerum Novarum</em> (1891), which laid the foundations of Catholic Social Teaching by addressing the rights of workers, the dignity of labor, and the Church's responsibility to the poor in an industrializing world.
               </p>
@@ -160,47 +161,47 @@ export default function PopeLeoXIV() {
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. The Poor: A Non-Negotiable Priority</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 His decades in Peru have made the preferential option for the poor not an abstract theological concept but a lived reality. Pope Leo XIV has spoken of the Church's need to be "poor and for the poor" — echoing both St. Francis of Assisi and the Second Vatican Council's vision of the Church as servant of humanity. He has been particularly vocal about the need for the Church in wealthy nations, including the United States, to take seriously its obligations to migrants, the homeless, and those left behind by economic systems.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. Mission: The Church Goes Out</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 As a missionary himself, Leo XIV understands the Church's identity as fundamentally missionary. He has spoken of the need for a "missionary conversion" of the Church — not just sending missionaries abroad, but transforming every parish, every family, every Catholic into an active witness of the Gospel. This vision resonates deeply with American Catholics, who are navigating a culture increasingly distant from Christian values.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Cardinal Prevost: His Role Before the Papacy
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 Pope Francis created Robert Prevost a Cardinal on September 30, 2023, assigning him to lead the Dicastery for Bishops — one of the most powerful offices in the Vatican, responsible for advising the Pope on the appointment of bishops worldwide. This role gave Prevost enormous influence over the shape of the global Church and brought him into close contact with bishops from every continent.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 His tenure at the Dicastery for Bishops was marked by a commitment to finding pastors rather than administrators — men who knew their flocks, who had pastoral experience, and who embodied the servant leadership that Pope Francis had championed. This approach will almost certainly continue under his own pontificate.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What His Election Means for American Catholics
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 For American Catholics — roughly 70 million people — the election of Pope Leo XIV is a moment of both pride and responsibility. Pride, because one of their own now leads the universal Church. Responsibility, because the eyes of the world will be on American Catholicism in a new way.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 Some have worried that an American pope might be seen as too closely aligned with American political or cultural interests. Pope Leo XIV has been careful to address this concern directly, emphasizing that he is the pope of the universal Church, not of any one nation. His years in Peru — where he became as much Peruvian as American — are his strongest credential for this claim.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 For American Catholics navigating a deeply polarized political landscape, Leo XIV's emphasis on the poor, on synodality, and on missionary outreach offers a vision of Catholicism that transcends partisan divisions. His is a faith rooted not in culture wars but in the Gospel — in the Beatitudes, in the Corporal Works of Mercy, in the radical love of Christ for every human person.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Worldwide Reaction to the Election
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 The reaction to Pope Leo XIV's election was overwhelmingly positive across the globe. In Latin America — where the majority of the world's Catholics live — his election was celebrated as a continuation of the "American" papacy begun by Pope Francis. In Africa and Asia, his missionary background resonated with local Church leaders who have long called for a more globally representative papacy.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="who-is-pope-leo-xiv">
                 In the United States, reactions were more complex. Progressive Catholics celebrated his commitment to the poor and synodality. Traditional Catholics noted his deep Augustinian spirituality and his respect for doctrinal continuity. Both groups found reasons for hope — which may itself be a sign of the kind of bridge-building pontificate Leo XIV intends to lead.
-              </p>
+              </LinkedText>
 
             </div>
 

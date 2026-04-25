@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AshWednesday2026() {
   return (
@@ -79,20 +80,20 @@ export default function AshWednesday2026() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Ash Wednesday?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 Ash Wednesday is the first day of Lent — the 40-day season of prayer, fasting, and almsgiving that prepares Catholics for Easter. It falls 46 days before Easter Sunday (40 days of Lent plus 6 Sundays, which are not counted as fast days).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 On Ash Wednesday, Catholics receive ashes on their foreheads in the sign of the cross. The ashes are made from the burned palm branches blessed on the previous year's Palm Sunday. As the ashes are applied, the priest or minister says either "Remember that you are dust, and to dust you shall return" (Genesis 3:19) or "Repent, and believe in the Gospel" (Mark 1:15).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 Ash Wednesday is not a Holy Day of Obligation — Catholics are not required to attend Mass. However, it is one of the most attended days of the Catholic year, with many non-practicing Catholics returning to church for the ashes.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Fasting & Abstinence Rules for Ash Wednesday 2026</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 Ash Wednesday is one of only two days in the year when the Church requires both fasting and abstinence (the other is Good Friday).
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Fasting Rules</h3>
               <p className="text-text leading-relaxed mb-6">
@@ -117,9 +118,9 @@ export default function AshWednesday2026() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Meaning of the Ashes</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 The ashes of Ash Wednesday carry multiple layers of meaning:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Mortality:</strong> "Remember that you are dust, and to dust you shall return." The ashes remind us that we are mortal — that our lives are brief and that death is real. This is not meant to be depressing but liberating: knowing we will die helps us live well.</li>
                 <li><strong>Repentance:</strong> In the Old Testament, wearing ashes was a sign of mourning and repentance (Job 42:6, Jonah 3:6). The ashes of Ash Wednesday express our sorrow for sin and our desire to turn back to God.</li>
@@ -133,23 +134,23 @@ export default function AshWednesday2026() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Ash Wednesday Mass Times 2026</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 Most Catholic parishes offer multiple Masses on Ash Wednesday — typically in the morning, at noon, and in the evening. To find Mass times near you:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>MassTimes.org</strong> — search for your parish and check their Ash Wednesday schedule</li>
                 <li><strong>Your parish website</strong> — most parishes post their Ash Wednesday schedule in advance</li>
                 <li><strong>Call your parish office</strong> — the most reliable way to confirm times</li>
                 <li><strong>Google "Ash Wednesday Mass near me"</strong> — many parishes update their Google Business profiles with special schedules</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 Note: Many parishes also offer the distribution of ashes outside of Mass — sometimes called an "Ashes to Go" service — at convenient locations. While this is permitted, attending the full Mass is strongly recommended.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Make the Most of Ash Wednesday 2026</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 Ash Wednesday is not just a ritual — it is an invitation to a deeper conversion. Here are some practical ways to enter into the spirit of the day:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Attend Mass.</strong> Even though it is not obligatory, attending Mass on Ash Wednesday is the best way to begin Lent. The readings, the homily, and the reception of ashes set the tone for the entire season.</li>
                 <li><strong>Make a Lenten resolution.</strong> Decide on one specific practice for Lent — something to give up, something to take on, and something to give away. Be specific and realistic.</li>
@@ -159,9 +160,9 @@ export default function AshWednesday2026() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Pillars of Lent</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-2026">
                 Jesus himself outlined the three pillars of Lenten practice in the Ash Wednesday Gospel (Matthew 6:1-18):
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Prayer:</strong> Deepening your relationship with God through more frequent and more intentional prayer. Consider adding daily Mass, the Rosary, the Stations of the Cross, or Lectio Divina to your routine.</li>
                 <li><strong>Fasting:</strong> Denying yourself something good in order to grow in self-discipline and solidarity with the poor. Fasting can include food, but also social media, entertainment, or other pleasures.</li>

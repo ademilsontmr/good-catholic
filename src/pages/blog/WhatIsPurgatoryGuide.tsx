@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsPurgatoryGuide() {
   return (
@@ -64,12 +65,12 @@ export default function WhatIsPurgatoryGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Of all the distinctively Catholic doctrines, Purgatory is perhaps the most frequently misrepresented. Critics call it unbiblical. Some imagine it as a kind of second hell. Others think it is a place where you can "earn" your way to heaven after death. None of these characterizations are accurate.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 The Catholic teaching on Purgatory is actually one of the most hopeful and merciful doctrines in all of Christianity. It is rooted in Scripture, affirmed by the early Church, and confirmed by the consistent experience of Christians who have prayed for their deceased loved ones for two thousand years.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Purgatory Is — and What It Is Not</h2>
 
@@ -92,48 +93,48 @@ export default function WhatIsPurgatoryGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Purgatory Is Necessary</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 The logic of Purgatory flows from two truths that virtually all Christians accept:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Heaven requires perfect holiness.</strong> "Nothing unclean will enter" heaven (Revelation 21:27). God is infinitely holy, and to be in His presence requires a holiness that matches His.</li>
                 <li><strong>Most people who die in God's grace are not yet perfectly holy.</strong> They have been forgiven of their sins, but the effects of sin — disordered attachments, habits of selfishness, wounds that have not yet been fully healed — remain.</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 The question is: what happens to these people? They are saved — they die in God's grace. But they are not yet ready for the perfect holiness of heaven. Purgatory is the answer: a process of purification that prepares them for the beatific vision.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Think of it this way: if you have been forgiven a debt, the debt is gone — but the damage it caused may still need to be repaired. Purgatory is the repair of the damage that sin has done to the soul, after the debt of sin has been forgiven.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Basis for Purgatory</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Contrary to the common claim that Purgatory is "not in the Bible," there are several biblical passages that support the doctrine:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2 Maccabees 12:38-46</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Judas Maccabeus collects money to offer sacrifice in Jerusalem for soldiers who had died wearing pagan amulets. The text concludes: "It is therefore a holy and wholesome thought to pray for the dead, that they may be loosed from sins" (v. 46).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 This passage is decisive. Praying for the dead only makes sense if there is a state between death and heaven where prayer can help. If the dead are already in heaven, they don't need our prayers. If they are in hell, our prayers can't help them. Purgatory is the only state where prayer for the dead makes sense.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 (Note: Protestants reject 2 Maccabees as non-canonical — but this book was part of the Christian Bible for 1,500 years before Luther removed it.)
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1 Corinthians 3:11-15</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 St. Paul describes a judgment in which a person's works are tested "as through fire." If the works survive, the person receives a reward. If they are burned up, "he will suffer loss, though he himself will be saved, but only as through fire."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 This passage describes a person who is saved — but "only as through fire." This is not heaven (no fire) and not hell (the person is saved). It is a purifying fire — Purgatory.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Matthew 12:32</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Jesus says that blasphemy against the Holy Spirit "will not be forgiven, either in this age or in the age to come." The phrase "in the age to come" implies that some sins can be forgiven after death — which implies a state of purification after death.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -141,20 +142,20 @@ export default function WhatIsPurgatoryGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Early Church on Purgatory</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 The practice of praying for the dead is one of the oldest Christian traditions. Inscriptions in the Roman catacombs from the 2nd and 3rd centuries ask for prayers for the deceased. The earliest Christian liturgies included prayers for the dead.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Tertullian (c. 200 AD) wrote about offering prayers and the Eucharist for the dead on the anniversary of their death. Origen (c. 230 AD) described a purifying fire after death. St. Augustine (c. 400 AD) wrote extensively about praying for the dead and the purifying fire.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 The doctrine of Purgatory was formally defined at the Council of Florence (1439) and reaffirmed at the Council of Trent (1563) in response to Protestant objections.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Help the Souls in Purgatory</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 One of the most beautiful aspects of the Catholic doctrine of Purgatory is that the living can help the souls being purified. This is an expression of the Communion of Saints — the bond of love that unites the Church on earth, the Church in Purgatory, and the Church in heaven.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Have a Mass offered for them.</strong> The Mass is the most powerful prayer for the dead. Contact your parish to arrange a Mass intention for a deceased person.</li>
                 <li><strong>Pray the Rosary for them.</strong> Offer each decade for a specific soul in Purgatory.</li>
@@ -165,9 +166,9 @@ export default function WhatIsPurgatoryGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Purgatory as a Doctrine of Mercy</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Far from being a harsh or frightening doctrine, Purgatory is one of the most merciful teachings in all of Christianity. It says that God's love is so great that He will not let a single soul be lost who has chosen Him — even if that soul needs further purification before it can fully receive His love.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope Benedict XVI wrote beautifully about Purgatory in his encyclical <em>Spe Salvi</em> (2007): "Some recent theologians are of the opinion that the fire which both burns and saves is Christ himself, the Judge and Saviour. The encounter with him is the decisive act of judgement. Before his gaze all falsehood melts away. This encounter with him, as it burns us, transforms and frees us, allowing us to become truly ourselves."
               </p>

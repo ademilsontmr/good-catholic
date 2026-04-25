@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ChristmasMassNearMe() {
   return (
@@ -78,9 +79,9 @@ export default function ChristmasMassNearMe() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Christmas Mass Times Near You</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 Christmas is one of the two most attended Masses of the year (along with Easter). Parishes fill to capacity — plan ahead and arrive early.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>MassTimes.org</strong> — the most comprehensive Catholic Mass finder. Search by zip code or city. Most parishes update their Christmas schedule in November or early December.</li>
                 <li><strong>Your parish website</strong> — check directly for the most accurate schedule. Many parishes post Christmas Mass times in early December.</li>
@@ -92,9 +93,9 @@ export default function ChristmasMassNearMe() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Typical Christmas Mass Schedule</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Christmas Eve (December 24)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 Most parishes offer multiple Christmas Eve Masses:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Children's Mass / Family Mass:</strong> 4pm or 5pm — often includes a children's pageant or nativity play</li>
                 <li><strong>Evening Mass:</strong> 7pm or 8pm</li>
@@ -102,9 +103,9 @@ export default function ChristmasMassNearMe() {
               </ul>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Christmas Day (December 25)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 Christmas Day is a Holy Day of Obligation — Catholics are required to attend Mass. Typical Christmas Day Mass times:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>7am, 8am, 9am, 10am, 11am, noon</li>
                 <li>Some parishes offer an afternoon or evening Mass</li>
@@ -119,20 +120,20 @@ export default function ChristmasMassNearMe() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Midnight Mass?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 "Midnight Mass" is the traditional name for the first Mass of Christmas, celebrated at or near midnight on Christmas Eve. It is one of the most beautiful and solemn liturgies of the year.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 The tradition of celebrating Mass at midnight on Christmas Eve dates to at least the 5th century. Pope Sixtus III (432-440 AD) is credited with establishing the practice of three Christmas Masses: the Mass at Midnight (in nocte), the Mass at Dawn (in aurora), and the Mass during the Day (in die). These three Masses correspond to the three "births" of Christ: his eternal birth from the Father (midnight), his birth in time from Mary (dawn), and his birth in the hearts of the faithful (day).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 Today, many parishes celebrate "Midnight Mass" at 10pm or 11pm rather than at midnight, for practical reasons. The liturgy is the same regardless of the exact time.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Expect at Christmas Mass</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 Christmas Mass is one of the most beautiful liturgies of the year. Here is what to expect:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Special music.</strong> Christmas Mass typically features special choral music, carols, and sometimes an orchestra or brass ensemble. "O Come All Ye Faithful," "Silent Night," and "Joy to the World" are traditional Christmas hymns.</li>
                 <li><strong>White vestments.</strong> The priest wears white or gold vestments — the color of joy and celebration.</li>
@@ -142,12 +143,12 @@ export default function ChristmasMassNearMe() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Is Christmas a Holy Day of Obligation?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 Yes. Christmas (December 25) is a Holy Day of Obligation — Catholics are required to attend Mass, just as on Sundays. Missing Mass on Christmas without a serious reason is a mortal sin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="christmas-mass-near-me">
                 The Christmas Vigil Mass (celebrated on Christmas Eve) fulfills the Christmas Day obligation. You do not need to attend both.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Prepare Your Heart for Christmas Mass</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnMoney() {
   return (
@@ -59,45 +60,45 @@ export default function CatholicTeachingOnMoney() {
               <Coins className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 Few topics generate more confusion among Catholics than money. Some assume the Church condemns wealth outright. Others assume that financial success is a sign of God's blessing. Both are wrong. The Catholic tradition on money is rich, coherent, and deeply challenging — rooted in Scripture, developed through centuries of social teaching, and demanding a radical reorientation of how we think about what we own.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says (CCC 2401–2463)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Catechism of the Catholic Church addresses economic life in a substantial section (CCC 2401–2463) under the Seventh Commandment: "You shall not steal." This placement is significant — the Church's teaching on wealth is fundamentally about justice, not just personal virtue.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Catechism affirms the right to private property: "The right to private property, acquired by work or received from others by inheritance or gift, does not do away with the original gift of the earth to the whole of mankind" (CCC 2403). Private property is legitimate and good — but it is not absolute. It is always ordered toward the common good.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The key principle is the "universal destination of goods": "The goods of creation are destined for the whole human race" (CCC 2402). This means that while individuals may own property, the ultimate purpose of all created goods is to serve all of humanity. Ownership is a stewardship, not an absolute right.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Is It a Sin to Be Rich?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The short answer is no — being wealthy is not itself a sin. The Church has always distinguished between wealth and the disordered attachment to wealth. What is sinful is not having money, but loving money more than God and neighbor.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Catechism is clear: "The development of economic activity and growth in production are meant to provide for the needs of human beings. Economic life is not meant solely to multiply goods produced and increase profit or power; it is ordered first of all to the service of persons, of the whole man, and of the entire human community" (CCC 2426).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 Many of the greatest saints were wealthy. Abraham was rich in livestock, silver, and gold (Genesis 13:2). Joseph of Arimathea, who provided the tomb for Jesus, was a wealthy man (Matthew 27:57). Lydia, one of Paul's first converts in Europe, was a prosperous merchant (Acts 16:14). The sin is not in having wealth — it is in what you do with it and whether it has captured your heart.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Jesus's Teaching on Money</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 Jesus spoke about money more than almost any other topic — more than heaven, more than hell, more than prayer. His teaching is demanding and cannot be softened.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The story of the rich young man (Matthew 19:16–22) is perhaps the most challenging. A good, observant young man asks Jesus what he must do to have eternal life. Jesus tells him to sell everything, give to the poor, and follow him. The young man goes away sad, "because he had great wealth." Jesus then says: "It is easier for a camel to go through the eye of a needle than for someone who is rich to enter the kingdom of God" (Matthew 19:24).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 This is not a condemnation of wealth per se — Jesus does not say it is impossible, only very difficult. The disciples ask, "Who then can be saved?" and Jesus replies: "With man this is impossible, but with God all things are possible" (Matthew 19:26). The point is that wealth creates a powerful temptation to self-sufficiency, to trusting in riches rather than in God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The story of Zacchaeus (Luke 19:1–10) shows the other side. Zacchaeus was a wealthy tax collector — a sinner by profession. When Jesus comes to his house, Zacchaeus spontaneously declares: "Here and now I give half of my possessions to the poor, and if I have cheated anybody out of anything, I will pay back four times the amount." Jesus responds: "Today salvation has come to this house." Wealth used generously and justly is not an obstacle to salvation — it can be an instrument of it.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -105,50 +106,50 @@ export default function CatholicTeachingOnMoney() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Universal Destination of Goods</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 One of the most distinctive and challenging aspects of Catholic social teaching is the principle of the universal destination of goods. This principle holds that God created the earth and its resources for all of humanity — not just for those who happen to own them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Catechism quotes St. John Chrysostom: "Not to enable the poor to share in our goods is to steal from them and deprive them of life. The goods we possess are not ours, but theirs" (CCC 2446). This is a striking statement. It means that when we have more than we need while others lack necessities, we are not simply being ungenerous — we are, in a real sense, withholding what belongs to them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 This does not mean that private property is illegitimate or that the state should redistribute all wealth. It means that the right to private property is always subordinate to the common good, and that those with wealth have serious obligations to use it for the benefit of others.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Tithing in the Catholic Tradition</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The practice of tithing — giving 10% of one's income to God — has deep roots in Scripture. Abraham gave a tenth of everything to Melchizedek (Genesis 14:20). The Mosaic Law required tithes to support the Levites and the poor (Deuteronomy 14:22–29). Jesus affirmed tithing while insisting it must be accompanied by justice and mercy (Matthew 23:23).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Catholic Church does not mandate a specific percentage, but it does require Catholics to support the Church financially. The fifth precept of the Church states that Catholics are obliged "to provide for the material needs of the Church, each according to his own ability" (CCC 2043). Many Catholic financial advisors and bishops recommend the traditional 10% as a starting point — with some portion going to the parish, some to the diocese, and some to the poor.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Sunday collection is not merely a fundraising exercise — it is an act of worship. When Catholics place their offering in the collection basket, they are participating in the offertory of the Mass, uniting their material gifts with the sacrifice of Christ on the altar.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Virtue of Detachment</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Catholic tradition speaks of the virtue of detachment — the ability to use wealth without being enslaved by it. This is not the same as poverty. A person can be very wealthy and deeply detached; a person can be poor and desperately attached to the little they have.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 Detachment means holding material goods lightly — using them as tools for good rather than as ends in themselves. St. Ignatius of Loyola called this "indifference" — not caring whether we have wealth or poverty, health or sickness, long life or short, except insofar as these serve God's glory and our salvation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Catechism warns against avarice — the disordered love of money and possessions — as one of the capital sins (CCC 1866). Avarice is not just about hoarding; it includes the anxious preoccupation with financial security that crowds out trust in God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Catholic Social Teaching on Economic Justice</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The Church's social teaching on economic justice spans more than 130 years of papal documents. Pope Leo XIII's Rerum Novarum (1891) was the founding document — a response to the Industrial Revolution that affirmed both the right to private property and the rights of workers. Pope John Paul II's Centesimus Annus (1991) updated this teaching for the post-communist world, affirming the market economy while insisting on its moral limits. Pope Francis's Laudato Si' (2015) and Laudate Deum (2023) extend the Church's concern to the environment as part of integral human development.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 The consistent thread through all of this teaching is that economic systems must serve human dignity. Neither unbridled capitalism nor socialism is acceptable to the Church. The economy must be ordered to the common good, with special attention to the poor and vulnerable.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Guide: How to Be a Good Catholic Steward of Money</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 Catholic stewardship is not just about giving money to the Church. It is a whole way of life — a recognition that everything we have is a gift from God, held in trust for His purposes. Here are some practical principles:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Give first.</strong> Before spending on yourself, set aside a portion for God and the poor. This is the ancient principle of "first fruits" — giving God the first and best, not the leftovers.</li>
                 <li><strong>Live below your means.</strong> Avoid the trap of lifestyle inflation. As income grows, increase giving rather than spending.</li>

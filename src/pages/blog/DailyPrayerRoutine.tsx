@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DailyPrayerRoutine() {
   return (
@@ -76,33 +77,33 @@ export default function DailyPrayerRoutine() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 One of the most common struggles among American Catholics is inconsistency in prayer. We want to pray more, we know we should pray more, but life gets busy and prayer gets pushed to the margins. The solution isn't willpower — it's structure. When prayer is tied to the natural rhythms of the day, it becomes as natural as eating or sleeping. The Church has always known this, which is why she developed the Liturgy of the Hours — a structured prayer schedule that sanctifies every part of the day.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 You don't need to be a monk to pray throughout the day. With a few simple anchors — a morning offering, the Angelus at noon, the Rosary in the evening, and a brief examination of conscience before bed — you can build a prayer life that genuinely transforms you. This guide will walk you through each part of the day, explain the prayers involved, and give you practical tips for making it stick.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Routine Matters in Prayer
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 St. Teresa of Ávila, one of the greatest teachers of prayer in Church history, wrote that mental prayer is "nothing else than a close sharing between friends." But friendships require time and consistency. You can't build a deep friendship by showing up randomly — you need regular, intentional contact. The same is true with God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 Routine also protects prayer from our moods. On days when we feel spiritually dry, when consolation is absent and prayer feels like talking to a wall, a routine keeps us showing up anyway. The saints unanimously teach that perseverance through spiritual dryness is more meritorious than prayer filled with consolation. A routine makes perseverance possible.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 Neuroscience backs this up too. Habits are formed through repetition tied to environmental cues. When you always pray at the same time and place, the cue (waking up, sitting at your desk at noon, getting into bed) automatically triggers the behavior. Prayer becomes less of a decision and more of a reflex.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Morning Prayer: Starting the Day with God
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 The morning is the most important prayer time of the day. How you begin shapes everything that follows. The Church's morning prayer is called Lauds (from the Latin for "praise"), and it is the first hour of the Liturgy of the Hours. But even if you don't pray the full Divine Office, there are two essential morning prayers every Catholic should know.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Morning Offering
@@ -121,9 +122,9 @@ export default function DailyPrayerRoutine() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Lauds: The Church's Morning Prayer
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 Lauds is the official morning prayer of the Church, part of the Liturgy of the Hours. It typically includes a hymn, psalms, a short Scripture reading, the Benedictus (the canticle of Zechariah from Luke 1), and intercessions. Many Catholics use the iBreviary app or the Universalis website to pray Lauds in just 10–15 minutes. It connects your morning prayer to the prayer of the universal Church — priests, religious, and laypeople around the world praying the same words at the same time.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How strong is your daily prayer life?"
@@ -133,53 +134,53 @@ export default function DailyPrayerRoutine() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Midday Prayer: The Angelus
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 At noon (and traditionally at 6 AM and 6 PM as well), Catholics pause to pray the Angelus — a brief prayer commemorating the Annunciation, when the Angel Gabriel announced to Mary that she would conceive the Son of God. The Angelus takes less than two minutes and is a powerful way to sanctify the middle of the day.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 For centuries, church bells rang three times a day to call the faithful to pray the Angelus. Many American parishes still ring their bells at noon. Even if you don't hear a bell, setting a phone alarm labeled "Angelus" can serve the same purpose. The prayer consists of three versicles and responses, three Hail Marys, and a concluding collect. It takes about 90 seconds and reorients your heart toward God in the middle of a busy workday.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Evening Prayer: The Rosary and Vespers
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 Evening is traditionally the richest prayer time in Catholic life. The two great pillars of evening prayer are the Rosary and Vespers (Evening Prayer from the Liturgy of the Hours).
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Holy Rosary
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 Pope St. John Paul II called the Rosary "my favorite prayer." Blessed Pope Paul VI described it as "the compendium of the entire Gospel." Praying the Rosary in the evening — ideally as a family — has been a cornerstone of Catholic life for centuries. The five decades take about 15–20 minutes and provide a structured meditation on the life of Christ through the eyes of Mary. Many families pray the Rosary after dinner, making it a natural anchor for the evening routine.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Vespers: Evening Prayer
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 Vespers is the Church's official evening prayer, prayed at sunset. Like Lauds, it includes psalms, a Scripture reading, the Magnificat (Mary's canticle from Luke 1), and intercessions. It is the second most important hour of the Divine Office after Lauds. Praying Vespers connects you to the Church's liturgical rhythm and provides a beautiful, contemplative close to the active part of the day.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Night Prayer: Examination of Conscience and Compline
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 Before sleep, the Church recommends two practices: the Examination of Conscience and Compline (Night Prayer).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 The Examination of Conscience (or Examen) is a brief review of the day in God's presence. You ask: Where did I see God today? Where did I fall short? What am I grateful for? What do I need to bring to Confession? St. Ignatius of Loyola considered the Examen so important that he said if a Jesuit could only pray one thing each day, it should be the Examen. It takes 5–10 minutes and keeps your conscience sensitive and your relationship with God honest.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 Compline is the final prayer of the day in the Liturgy of the Hours. It includes a brief examination of conscience, psalms (especially Psalm 91 and Psalm 134), the Nunc Dimittis (Simeon's canticle from Luke 2), and the Salve Regina (Hail Holy Queen). It is a beautiful, peaceful prayer that entrusts the night to God and asks for protection during sleep.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Start Small and Build Up
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 If you're new to structured prayer, don't try to implement everything at once. Start with one anchor prayer and build from there. Here's a suggested progression:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Week 1:</strong> Morning Offering every day upon waking</li>
                 <li><strong>Week 2:</strong> Add a decade of the Rosary in the evening</li>
@@ -188,16 +189,16 @@ export default function DailyPrayerRoutine() {
                 <li><strong>Month 2:</strong> Expand the Rosary to all five decades</li>
                 <li><strong>Month 3:</strong> Add Lauds or Vespers from the Liturgy of the Hours</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 The key is consistency over quantity. Five minutes of prayer every day is worth more than an hour of prayer once a week. Small, consistent habits compound over time into a deep, stable prayer life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Tips from the Saints
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 The saints have left us a treasury of practical wisdom about daily prayer:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>St. Francis de Sales:</strong> "Half an hour's meditation each day is essential, except when you are busy. Then a full hour is needed." He also recommended never missing morning prayer, no matter how tired you feel.</li>
                 <li><strong>St. Thérèse of Lisieux:</strong> "For me, prayer is a surge of the heart; it is a simple look turned toward heaven." She taught that even short, spontaneous prayers throughout the day are powerful.</li>
@@ -226,9 +227,9 @@ export default function DailyPrayerRoutine() {
                 </div>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 This schedule totals roughly 45–60 minutes of prayer per day — less than 5% of your waking hours. Yet the saints tell us that this investment transforms everything else: your work becomes more fruitful, your relationships more loving, your suffering more redemptive, and your joy more lasting.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

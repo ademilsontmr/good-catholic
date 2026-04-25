@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintBenedictMedal() {
   return (
@@ -82,17 +83,17 @@ export default function SaintBenedictMedal() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 Walk into any Catholic gift shop in the world, and you will almost certainly find the Medal of Saint Benedict — a round coin bearing a collection of mysterious letters, a cross, and the image of a monk. Yet despite its universal popularity, many Catholics who wear or display it have only a vague idea of what its symbols mean or how to use it properly.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 The Medal of St. Benedict is one of the most powerful and ancient sacramentals in the Catholic tradition — an object blessed by the Church to serve as an instrument of grace, protection, and spiritual combat. It is not a magic charm (the Church is clear about this), but a sacramental that, used in faith and with proper blessing, can be a real channel of God's protective power.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Was Saint Benedict?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 Saint Benedict of Nursia (c. 480–547 AD) is one of the most important figures in the history of Western Christianity. Born to a noble family in Umbria, Italy, he abandoned his education in Rome to live a life of prayer and solitude in a cave at Subiaco. Over time, disciples gathered around him, and he eventually founded the great monastery of Monte Cassino, which became the seedbed of Western monasticism.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 His <em>Rule of Saint Benedict</em> — a remarkably practical, humane, and spiritually wise guide for monastic life — became the foundational document of Benedictine monasticism and, through the monasteries that multiplied across Europe, profoundly shaped Western civilization, education, agriculture, and culture. Pope Paul VI declared him the <strong>Patron of Europe</strong> in 1964. He is celebrated on July 11 in the Western calendar.
               </p>
@@ -101,17 +102,17 @@ export default function SaintBenedictMedal() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The History of the Medal</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 The origins of the Medal of St. Benedict can be traced to a cross bearing inscriptions that was found in association with the saint's image, already in use among Benedictine monks as a protective sacramental in the early medieval period. The specific design of the medal as we know it today — with its systematic arrangement of letters — was definitively settled in 1880, when the Monte Cassino edition was produced to mark the 1,400th anniversary of St. Benedict's birth.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 In 1742, Pope Benedict XIV granted a special papal indulgence to those using the medal and confirmed the specific formula of blessing for it — a recognition of the medal's longstanding Catholic use and its effectiveness as a sacramental. The decoding of the mysterious letters on the medal was made possible by a 17th-century manuscript discovered in the Metten Abbey in Bavaria, which provided the key to the abbreviations.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Medal Decoded: Every Symbol Explained</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 The Medal of St. Benedict is dense with symbolism. Every letter, image, and inscription has a specific meaning. Here is a complete guide to both the front (obverse) and back (reverse) of the medal.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">The Front (Obverse) of the Medal</h3>
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-6">
@@ -186,9 +187,9 @@ export default function SaintBenedictMedal() {
               <p className="text-text leading-relaxed mb-6">
                 The feast of Saint Benedict is celebrated on <strong>July 11</strong> in the Roman Rite (and March 21 in older calendars). This is a particularly appropriate time to begin using the medal or to renew devotion to Saint Benedict.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 Genuine St. Benedict medals are widely available from Catholic religious goods stores, Benedictine monasteries, and reputable online Catholic retailers. The medals come in many styles — gold, silver, pewter, wood — and in various sizes. The key is to have any medal blessed by a priest before use.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed">

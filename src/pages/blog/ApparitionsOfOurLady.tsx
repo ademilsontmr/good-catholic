@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ApparitionsOfOurLady() {
   return (
@@ -76,9 +77,9 @@ export default function ApparitionsOfOurLady() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Marian apparitions — occasions when the Virgin Mary is believed to appear physically to one or more individuals — have been part of Catholic experience since the early Church. However, not all claimed apparitions are equal. The Church has a rigorous, multi-stage process for investigating them, and very few receive official approbation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How Does the Church Approve Apparitions?
@@ -125,25 +126,25 @@ export default function ApparitionsOfOurLady() {
               </div>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">Historical Context</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 In December 1531, Spain had completed its conquest of the Aztec Empire just ten years earlier. The indigenous peoples — reeling from military defeat, epidemic disease, and forced labor — had little reason to embrace the religion of their conquerors. The evangelization of New Spain had stalled and was marked by violence and cultural destruction.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 It was into this moment of extreme cultural and spiritual rupture that the Virgin Mary chose to act. On the morning of December 9, 1531, a 57-year-old indigenous convert named Juan Diego — a widower of humble origin from the Nahuatl people — was walking past Tepeyac Hill on his way to Mass. He heard beautiful music and a woman's voice calling to him tenderly in his native Nahuatl: <em>"Juanito, Juan Dieguito."</em>
               </p>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">The Apparitions</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 A young woman appeared, surrounded by blinding, golden light. She identified herself as the Virgin Mary, and asked that a chapel be built on that spot so she could be close to her people, hear their cries, and heal their griefs and sorrows. She spoke to him as a mother to a beloved son — not as a conqueror to a subject.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Juan Diego brought the request to Bishop Juan de Zumárraga, who responded skeptically and asked for a sign. On December 12, Our Lady instructed Juan Diego to climb the rocky, frost-covered hill of Tepeyac and gather the flowers he would find there — Castilian roses, blooming impossibly in the middle of December in the high desert of Mexico. When he presented the roses to the bishop, opening his <em>tilma</em> (woven cloak), the flowers tumbled to the floor — and on the fabric, a perfect, full-color image of Our Lady was miraculously imprinted.
               </p>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">The Miraculous Image</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 The tilma of Juan Diego — a rough-woven ayate made of cactus fibers that would normally disintegrate within 20 years — now hangs in the Basilica of Our Lady of Guadalupe and is over 490 years old. Modern scientific investigations have raised extraordinary questions:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Infrared photography in 1979 revealed <strong>no brushstrokes, no underdrawing, and no primer coat.</strong></li>
                 <li>The pigments used match no known paint or dye from 16th-century Mexico or Spain.</li>
@@ -165,20 +166,20 @@ export default function ApparitionsOfOurLady() {
               </div>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">The Visionary</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Bernadette Soubirous was born in Lourdes on January 7, 1844, into extreme poverty. Her father was an unemployed miller; the family of six lived in a damp, dark room formerly used as a jail. Bernadette was chronically ill with severe asthma, and she had not yet made her First Communion because she had not been able to learn the catechism due to missed schooling.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 She was, in every human estimation, the least likely candidate for a mystical encounter with the Mother of God. This is precisely why she was chosen — the Gospel pattern of God choosing the weak to confound the strong (1 Cor 1:27).
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">The 18 Apparitions</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 On February 11, 1858, Bernadette was gathering firewood near the Grotto of Massabielle with her sister and a friend. A gust of wind moved without the trees stirring, and a golden light appeared in a niche in the rock. In it stood a beautiful young woman in a white dress with a blue sash and a yellow rose on each foot, holding a rosary with golden links.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Over the next five months, the vision appeared to Bernadette 18 times. The key moments and messages:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>February 18:</strong> The Lady asked Bernadette to come to the grotto for 15 days and said she could not promise her happiness in this life, but in the next.</li>
                 <li><strong>February 25:</strong> Our Lady instructed Bernadette to dig in the earth near the grotto and drink. A spring of water began to flow that has never ceased — and through whose water the Church has officially confirmed over 70 medically inexplicable miraculous cures.</li>
@@ -187,12 +188,12 @@ export default function ApparitionsOfOurLady() {
               </ul>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">The Miracles of Lourdes</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 The Medical Bureau of Lourdes, founded in 1883, operates as a rigorous scientific body that investigates all reported cures according to strict medical protocols. To date, 70 cures have been officially recognized as "miraculous" by the Catholic Church — meaning they are medically inexplicable, instantaneous, complete, and lasting, occurring after prayer and bathing in the Lourdes spring water.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Lourdes receives approximately 6 million pilgrims a year, making it one of the most visited pilgrimage sites in the world. Bernadette herself died in 1879 at age 35 after years of suffering. Her body, exhumed three times, was found incorrupt and is preserved in a glass reliquary in the convent chapel at Nevers, France.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Marian devotion?"
@@ -209,17 +210,17 @@ export default function ApparitionsOfOurLady() {
               </div>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">Historical Context</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 The year 1917 was one of the darkest in modern history. World War I — the most destructive war humanity had ever seen — was still raging across Europe with millions dead. In October 1917, the Bolshevik Revolution would seize Russia and launch seven decades of officially atheistic Communist rule. Anti-Catholic sentiment was rampant. The secular world was systematically dismantling Christian civilization.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Into this context, the Virgin Mary appeared to three shepherd children in a small field called the Cova da Iria, near the village of Fatima in Portugal. Their names were Lúcia Santos (age 10), Francisco Marto (age 9), and Jacinta Marto (age 7). They were the poorest of the poor — illiterate, tending their families' sheep — and they would become witnesses to one of the most dramatic public supernatural events of modern times.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">The Six Apparitions (May–October 1917)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Our Lady appeared six times on the 13th of each month from May to October. The crowds grew from a handful on May 13 to an estimated 70,000 on October 13. The core messages she delivered:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Daily recitation of the Rosary</strong> for world peace — she asked for this at every single apparition.</li>
                 <li><strong>Penance and sacrifice</strong> for the conversion of sinners — the children were shown a vision of hell and asked to offer their sufferings for those in danger of damnation.</li>
@@ -228,17 +229,17 @@ export default function ApparitionsOfOurLady() {
               </ul>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">The Miracle of the Sun — October 13, 1917</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Our Lady had promised a miracle on October 13 so the people would believe. An estimated 70,000 people gathered in the rain-soaked field. At approximately noon, the rain suddenly stopped, the clouds parted, and multiple witnesses — including atheist and secular journalists present specifically to debunk the event — reported that the sun appeared to spin, change colors, and plunge toward the earth before returning to its position. The entire crowd of thousands, who had been completely soaked, found their clothes instantaneously dry.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Portuguese secular newspapers — including <em>O Século</em> and <em>Ordem</em>, which were anti-clerical publications — published eyewitness accounts the following day. The event was witnessed over a radius of approximately 40 kilometers.
               </p>
 
               <h3 className="font-display text-xl font-semibold text-text mt-6 mb-3">The Three Secrets of Fatima</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Our Lady entrusted three secrets to the children:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>First Secret:</strong> A vision of hell — a sea of fire filled with demons and souls, which Our Lady showed the children to motivate their prayers and sacrifices for sinners. Published in 1941 by Sister Lúcia.</li>
                 <li><strong>Second Secret:</strong> A prophecy that World War I would end but a worse war would come if men did not stop offending God — and a specific prediction of Russia spreading its errors throughout the world. Also published in 1941. The accuracy of this prediction has been noted by historians given it was made in 1917, months before the Bolshevik Revolution.</li>
@@ -248,9 +249,9 @@ export default function ApparitionsOfOurLady() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What the Apparitions Ask of Us Today
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 The messages of Guadalupe, Lourdes, and Fatima are strikingly consistent — and remarkably relevant to the present moment:
-              </p>
+              </LinkedText>
               <ul className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Pray the Rosary daily.</strong> This was the central, repeated request at both Lourdes and Fatima. Even a single decade of the Rosary daily is a powerful beginning.</li>
                 <li><strong>Do penance.</strong> Small mortifications, Friday abstinence, fasting, and the offering of daily sufferings — particularly for the conversion of sinners.</li>

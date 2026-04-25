@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMassGuide() {
   return (
@@ -64,17 +65,17 @@ export default function CatholicMassGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Every Sunday, over a billion Catholics around the world gather to celebrate the Mass. In a small village in Africa, in a cathedral in Rome, in a suburban parish in Ohio — the same Mass is celebrated, the same words are spoken, the same Christ becomes present on the altar. The Mass is the heartbeat of the Catholic Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Yet many Catholics attend Mass for years without fully understanding what is happening. This guide walks through every part of the Mass — what it is, what it means, and how to participate more fully.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Mass?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The Mass (also called the Eucharist, the Holy Sacrifice, or the Divine Liturgy) is the central act of Catholic worship. It is simultaneously:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>A sacrifice:</strong> The Mass is not a new sacrifice — it is the one sacrifice of Christ on Calvary made present again. "Do this in memory of me" (Luke 22:19) — the Greek word <em>anamnesis</em> means not just "remember" but "make present."</li>
                 <li><strong>A meal:</strong> The Mass is the fulfillment of the Last Supper. We eat the Body and Blood of Christ — the Bread of Life that Jesus promised in John 6.</li>
@@ -90,69 +91,69 @@ export default function CatholicMassGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Part One: The Introductory Rites</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Entrance Procession and Opening Song</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The Mass begins with the entrance of the priest and ministers, accompanied by an opening hymn. This procession symbolizes the Church gathering as the People of God to worship together. The priest venerates the altar (which represents Christ) with a kiss.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Sign of the Cross and Greeting</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The priest makes the Sign of the Cross with the assembly and greets them: "The Lord be with you." The assembly responds: "And with your spirit." This exchange is ancient — it appears in the letters of St. Paul (2 Timothy 4:22) and has been part of Christian worship from the earliest centuries.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Penitential Act</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Before approaching the altar of God, the assembly acknowledges its sinfulness. The most common form is the Confiteor: "I confess to almighty God and to you, my brothers and sisters, that I have greatly sinned..." This is followed by the Kyrie: "Lord, have mercy. Christ, have mercy. Lord, have mercy."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Gloria</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 On Sundays and feast days (except during Advent and Lent), the Gloria is sung or recited — a hymn of praise that begins with the angels' song at the Nativity: "Glory to God in the highest, and on earth peace to people of good will." It is one of the oldest hymns in the Church.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Collect (Opening Prayer)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The priest "collects" the prayers of the assembly into one prayer addressed to God the Father, through Christ, in the Holy Spirit. The assembly responds "Amen" — the Hebrew word meaning "So be it" or "I agree."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Part Two: The Liturgy of the Word</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The First Reading</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The first reading is usually from the Old Testament (or Acts of the Apostles during Eastertide). It is chosen to connect thematically with the Gospel. The reader concludes: "The word of the Lord." The assembly responds: "Thanks be to God."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Responsorial Psalm</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 A psalm is sung or recited responsively between the first and second readings. The psalms are the prayer book of the Bible — 150 poems and songs that cover every human emotion and experience. The responsorial psalm is a meditation on the first reading.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Second Reading</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 On Sundays and solemnities, a second reading from the New Testament letters (epistles) is read. This reading follows a semi-continuous pattern through the year, independent of the other readings.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Gospel Acclamation and Gospel</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The assembly stands for the Gospel — the highest honor given to any reading, because the Gospel contains the words and deeds of Jesus Himself. The deacon or priest carries the Gospel book in procession, and the assembly sings "Alleluia" (or another acclamation during Lent).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Before reading, the priest or deacon says: "The Lord be with you" / "And with your spirit." Then: "A reading from the holy Gospel according to [Matthew/Mark/Luke/John]." The assembly responds: "Glory to you, O Lord" — and makes a small Sign of the Cross on the forehead, lips, and heart, praying that the Gospel will be in their minds, on their lips, and in their hearts.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Homily</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The priest or deacon preaches on the Scripture readings, applying them to the life of the assembly. The homily is not a lecture or a speech — it is a proclamation of the living Word of God, meant to break open the Scriptures and nourish the faith of the people.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Creed</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 On Sundays and solemnities, the assembly professes the Nicene Creed — the summary of the faith defined at the Councils of Nicaea (325) and Constantinople (381). This is the Church's response to the Word of God: "We believe."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Universal Prayer (Prayer of the Faithful)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The assembly prays for the needs of the Church, the world, the local community, and the sick and deceased. This is the exercise of the baptismal priesthood — the whole assembly interceding for the world.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know the Mass?"
@@ -162,17 +163,17 @@ export default function CatholicMassGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Part Three: The Liturgy of the Eucharist</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Preparation of the Gifts (Offertory)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Bread and wine are brought to the altar — often by members of the assembly. The priest offers them to God with prayers that echo the Jewish table blessings: "Blessed are you, Lord God of all creation. Through your goodness we have received the bread we offer you: fruit of the earth and work of human hands, it will become for us the bread of life."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 A collection is also taken up — an expression of the assembly's participation in the sacrifice and care for the poor.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Eucharistic Prayer</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The Eucharistic Prayer is the heart of the Mass — the great prayer of thanksgiving and consecration. It begins with the Preface Dialogue:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6 text-sm">
                 <p className="text-text italic">
                   Priest: "The Lord be with you." / People: "And with your spirit."<br />
@@ -186,20 +187,20 @@ export default function CatholicMassGuide() {
               <p className="text-text leading-relaxed mb-6">
                 The Eucharistic Prayer continues with the <strong>Epiclesis</strong> — the invocation of the Holy Spirit over the bread and wine — and then the <strong>Words of Institution</strong>: the words Jesus spoke at the Last Supper. At these words, the bread and wine become the Body and Blood of Christ. This is the moment of <strong>transubstantiation</strong> — the most sacred moment of the Mass.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The priest elevates the host and the chalice for the assembly to adore. The assembly kneels (or bows) in adoration of Christ truly present.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Communion Rite</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 The Communion Rite begins with the Our Father — the prayer Jesus taught us, prayed together as children of God. It continues with the Sign of Peace (an exchange of peace with those nearby), the Agnus Dei ("Lamb of God, you take away the sins of the world, have mercy on us"), and the breaking of the host.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Before receiving Communion, the priest holds up the host and says: "Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those called to the supper of the Lamb." The assembly responds: "Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed" — echoing the words of the Roman centurion in Matthew 8:8.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Catholics who are properly disposed (baptized, in a state of grace, fasting for one hour) receive Holy Communion — the Body and Blood of Christ. This is the most intimate union with Christ possible in this life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Part Four: The Concluding Rites</h2>
               <p className="text-text leading-relaxed mb-6">

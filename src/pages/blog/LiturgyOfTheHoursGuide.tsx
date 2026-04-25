@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LiturgyOfTheHoursGuide() {
   return (
@@ -77,26 +78,26 @@ export default function LiturgyOfTheHoursGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Imagine joining Christians across the world in prayer at the same times each day, sanctifying the hours with psalms, Scripture, and intercessions. This is the Liturgy of the Hours - the official prayer of the Church that makes our entire day a prayer.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What is the Liturgy of the Hours?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The Liturgy of the Hours, also called the Divine Office or Breviary, is the official prayer of the Catholic Church. It consists of psalms, canticles, Scripture readings, and intercessions prayed at specific times throughout the day.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The General Instruction of the Liturgy of the Hours explains: "The Liturgy of the Hours is meant to become the prayer of the whole People of God... It sanctifies the whole day and makes it holy."
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Biblical Foundation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The practice of praying at specific times has biblical roots:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Psalm 119:164:</strong> "Seven times a day I praise you for your righteous ordinances"</li>
                 <li><strong>Daniel 6:10:</strong> Daniel prayed three times a day</li>
@@ -107,9 +108,9 @@ export default function LiturgyOfTheHoursGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Structure of the Divine Office
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The Liturgy of the Hours consists of several "hours" or prayer times. Each hour follows a similar structure:
-              </p>
+              </LinkedText>
               
               <div className="bg-purple-50 border border-purple-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -143,9 +144,9 @@ export default function LiturgyOfTheHoursGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Getting Started as a Lay Person
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The Second Vatican Council opened the Liturgy of the Hours to the laity. Here's how to begin:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 1: Choose Your Resources
@@ -160,16 +161,16 @@ export default function LiturgyOfTheHoursGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 2: Start with the Main Hours
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Most lay Catholics begin with Morning Prayer (Lauds) and Evening Prayer (Vespers). These are the "hinges" of the Liturgy of the Hours and contain the essential elements.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 3: Learn the Pattern
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Each hour follows this basic pattern:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Opening Verse:</strong> "God, come to my assistance; Lord, make haste to help me"</li>
                 <li><strong>Hymn:</strong> Optional hymn appropriate to the hour</li>
@@ -188,9 +189,9 @@ export default function LiturgyOfTheHoursGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Morning Prayer (Lauds): Sanctifying the Dawn
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Morning Prayer, called Lauds from the Latin "laudare" (to praise), is the prayer of praise at dawn. It's the perfect way to begin your day with God.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Key Elements of Lauds
@@ -216,9 +217,9 @@ export default function LiturgyOfTheHoursGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Evening Prayer (Vespers): Thanksgiving for the Day
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Evening Prayer, called Vespers, is the Church's evening prayer of thanksgiving. It's a beautiful way to reflect on God's blessings throughout the day.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Key Elements of Vespers
@@ -244,9 +245,9 @@ export default function LiturgyOfTheHoursGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Night Prayer (Compline): Commending the Day to God
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Compline, from the Latin "completorium" (completion), is the final prayer of the day. It's a beautiful, simple prayer that prepares us for peaceful sleep.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Why Compline is Special
@@ -261,16 +262,16 @@ export default function LiturgyOfTheHoursGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Nunc Dimittis
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The heart of Compline is the Nunc Dimittis (Luke 2:29-32), Simeon's canticle: "Now, Master, you may let your servant go in peace, according to your word; for my eyes have seen your salvation."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Integrating the Liturgy into Daily Life
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The beauty of the Liturgy of the Hours is how it integrates with daily life:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 For Working Professionals
@@ -305,9 +306,9 @@ export default function LiturgyOfTheHoursGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Psalms: The Heart of the Divine Office
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The psalms are the heart of the Liturgy of the Hours. They express every human emotion and situation, making them perfect for every moment of life.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Understanding the Psalms
@@ -332,9 +333,9 @@ export default function LiturgyOfTheHoursGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Liturgical Year in the Divine Office
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 The Liturgy of the Hours follows the liturgical year, with specific psalms and readings for each season:
-              </p>
+              </LinkedText>
               
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Advent:</strong> Psalms of waiting and preparation</li>
@@ -351,37 +352,37 @@ export default function LiturgyOfTheHoursGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "I Don't Have Time"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Start small: Even 5 minutes of Morning Prayer makes a difference. Gradually add Evening Prayer. Remember that sanctifying time is more important than filling time.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "The Psalms Don't Speak to Me"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Read the psalm slowly, focusing on one verse. Use a commentary or reflection. Remember that the psalms express every human emotion - you'll find your experience there.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "I Keep Forgetting"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Set phone reminders. Link the prayer to an existing habit (like morning coffee). Use an app with notifications. Don't give up - consistency builds habit.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "I Feel Like I'm Just Reading Words"
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Slow down. Pause after each psalm. Make the words your own prayer. Remember that the Holy Spirit prays with and through you.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Spiritual Benefits
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Those who pray the Liturgy of the Hours experience profound spiritual benefits:
-              </p>
+              </LinkedText>
               
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Sanctification of Time:</strong> Every hour becomes sacred</li>
@@ -429,9 +430,9 @@ export default function LiturgyOfTheHoursGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 A Simple Way to Begin Today
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Ready to start? Here's a simple way to begin:
-              </p>
+              </LinkedText>
               
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Choose Morning Prayer:</strong> Start with just Lauds</li>

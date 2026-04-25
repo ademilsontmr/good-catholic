@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintPadrePio() {
   return (
@@ -76,45 +77,45 @@ export default function SaintPadrePio() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Few saints in modern history have captured the hearts of American Catholics quite like Padre Pio. Born in a small Italian village, he entered religious life as a teenager, received the visible stigmata at age 31, and spent the next five decades as a living witness to the Passion of Christ. His confessional lines stretched for days. His spiritual gifts — bilocation, reading of souls, healing — were documented by thousands of witnesses. And his canonization in 2002 by Pope John Paul II confirmed what millions already knew in their hearts: this humble friar was a saint.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Early Life in Pietrelcina
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Francesco Forgione was born on May 25, 1887, in Pietrelcina, a small town in the Campania region of southern Italy. He was the fourth of eight children born to Grazio Forgione and Maria Giuseppa De Nunzio, a devout Catholic family of modest means. From his earliest years, Francesco showed signs of unusual piety. He reportedly experienced visions of Jesus and Mary as a young child, though he assumed everyone had such experiences and said nothing about them for years.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 His father, Grazio, emigrated twice to the United States — to Queenstown, New York — to earn enough money to pay for Francesco's education and eventual entry into religious life. This sacrifice made a deep impression on the young Francesco, who understood that his vocation came at a real cost to his family. He was a sickly child, suffering from various ailments throughout his youth, yet his spirit remained joyful and his faith unshakeable.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 At age 15, Francesco entered the novitiate of the Capuchin Friars Minor in Morcone, taking the religious name "Pio" in honor of Pope Pius I. He was ordained a priest on August 10, 1910, at the age of 23. Even before his ordination, he had begun experiencing intense spiritual sufferings — including invisible stigmata, which he bore in secret for years before the wounds became visible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Entry into the Franciscan Capuchins
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 The Capuchin Friars Minor are a branch of the Franciscan family known for their austere lifestyle, brown habits, and long beards. Their spirituality centers on poverty, penance, and contemplative prayer — a perfect fit for the young Francesco Forgione. After his novitiate and studies, he was assigned to the friary of San Giovanni Rotondo in the Gargano region of Puglia, where he would spend the rest of his life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 His early years as a priest were marked by intense physical suffering. He was frequently ill and spent extended periods at home in Pietrelcina for health reasons. Yet during these years of apparent weakness, his interior life deepened enormously. He engaged in long hours of prayer, fasting, and penance, and his spiritual director noted that he was advancing rapidly in holiness. The suffering, Padre Pio would later explain, was not a punishment but a participation in the redemptive suffering of Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Receiving the Stigmata (1918)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 On September 20, 1918, while kneeling before a large crucifix in the choir of the friary church at San Giovanni Rotondo, Padre Pio received the visible stigmata — the five wounds of Christ's Passion. He was 31 years old. The wounds appeared on his hands, feet, and side, and they bled continuously for the next fifty years, until the day before his death.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 The stigmata were examined by numerous physicians, including skeptics sent by Church authorities. None could explain them medically. The wounds did not become infected, did not heal, and emitted a fragrant perfume that many witnesses described as the scent of roses or violets. Padre Pio himself was deeply embarrassed by the wounds and tried to hide them with fingerless gloves. He considered them a source of shame, not pride — a sign of his unworthiness rather than his holiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 He was the first priest in the history of the Church to receive the stigmata. The wounds closed completely on September 22, 1968 — the day before his death — leaving no scars. This final healing was itself considered miraculous by those who witnessed it.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -126,24 +127,24 @@ export default function SaintPadrePio() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Spiritual Gifts: Bilocation, Reading of Souls, and Healing
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Padre Pio was credited with numerous extraordinary spiritual gifts, documented by thousands of witnesses over his fifty years of ministry at San Giovanni Rotondo.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Bilocation</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Hundreds of people reported encountering Padre Pio in places far from San Giovanni Rotondo while he was simultaneously present in the friary. During World War II, American pilots reported that a friar appeared in the sky over the Gargano region and turned their planes away from bombing the area. General Mark Clark, commander of Allied forces in Italy, later investigated the reports and was unable to explain them. Numerous individuals reported that Padre Pio appeared to them in their homes, hospitals, or on battlefields — sometimes to comfort the dying, sometimes to warn of danger.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Reading of Souls</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Perhaps his most documented gift was the ability to read the souls of penitents in the confessional. Countless people reported that Padre Pio knew their sins before they confessed them, sometimes completing their confessions for them or revealing sins they had forgotten or were too ashamed to mention. He would occasionally send penitents away if they were not truly repentant, telling them to return when they were ready. This gift made his confessional one of the most sought-after in the world — people waited days, sometimes weeks, for their turn.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Healing</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Numerous miraculous healings were attributed to Padre Pio's intercession, both during his lifetime and after his death. Among the most famous was the healing of Gemma Di Giorgi, a girl born without pupils who received her sight after meeting Padre Pio. Medical documentation of her condition before and after the healing was preserved and presented during his canonization process. Many other healings — of cancer, blindness, paralysis, and other conditions — were investigated and confirmed by Church authorities.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your devotion to the saints?"
@@ -153,12 +154,12 @@ export default function SaintPadrePio() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Love for the Eucharist and Confession
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Padre Pio's entire spiritual life centered on two sacraments: the Eucharist and Confession. His Masses were legendary — lasting two to three hours, sometimes longer — as he entered into a profound mystical union with the sacrifice of Calvary. Witnesses reported that he wept during the consecration, that his face was transformed, and that the congregation was often moved to tears simply by watching him celebrate. He said: "It would be easier for the world to survive without the sun than to do without Holy Mass."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 He spent up to 16 hours a day in the confessional, hearing the confessions of thousands of pilgrims who came from around the world. He considered the confessional his "battlefield" — the place where souls were won for God. He was known for his directness, sometimes even severity, with penitents who were not sincere, but also for his extraordinary compassion with those who were truly repentant. Many people who had been away from the Church for decades returned to the sacraments after a single encounter with Padre Pio in the confessional.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -170,12 +171,12 @@ export default function SaintPadrePio() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Canonization by Pope John Paul II (2002)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Padre Pio died on September 23, 1968, at the age of 81. His last words were "Jesus... Mary..." His body was found to be incorrupt when exhumed for the beatification process. He was beatified by Pope John Paul II on May 2, 1999, and canonized on June 16, 2002, before a crowd of over 300,000 people in St. Peter's Square. Pope John Paul II, who had personally met Padre Pio in 1947 and credited him with the miraculous healing of a friend, called him "an image of Christ suffering and risen."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 His feast day is celebrated on September 23, the anniversary of his death. His body is enshrined in the crypt of the Sanctuary of Santa Maria delle Grazie in San Giovanni Rotondo, which has become one of the most visited pilgrimage sites in the world, receiving millions of visitors each year — more than any other Catholic shrine in Italy except Rome itself.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Prayer to St. Padre Pio
@@ -200,12 +201,12 @@ export default function SaintPadrePio() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Feast Day: September 23
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 The feast of St. Padre Pio is celebrated on September 23, the anniversary of his death in 1968. On this day, Catholics around the world honor his memory with special Masses, novenas, and acts of devotion. Many parishes that bear his name hold special celebrations, and the shrine at San Giovanni Rotondo draws enormous crowds. American Catholics have embraced his feast day with particular enthusiasm — there are hundreds of parishes, schools, and Catholic organizations in the United States named in his honor.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 A beautiful way to honor St. Padre Pio on his feast day is to go to Confession — the sacrament he loved above all others — and to attend Mass with special devotion, meditating on the mystery of Christ's Passion that Padre Pio bore in his own body. You might also pray his Rosary, read from his letters, or simply spend time in quiet prayer before a crucifix, asking him to intercede for your intentions.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SpiritualLifeBasics() {
   return (
@@ -77,30 +78,30 @@ export default function SpiritualLifeBasics() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               The spiritual life is the foundation of Catholic faith. Discover the essential daily practices, prayer routines, and spiritual disciplines that help Catholics grow closer to God and live out their faith in everyday life.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What Is the Catholic Spiritual Life?
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               The Catholic spiritual life is the lived relationship between the believer and God. It encompasses all the ways we grow in union with Christ through prayer, sacraments, virtue, and daily Christian living. As St. Paul tells us, "It is no longer I who live, but Christ who lives in me" (Galatians 2:20).
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Three Pillars of Spiritual Life
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               Catholic tradition identifies three essential pillars that support the spiritual life:
-            </p>
+            </LinkedText>
             
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Prayer (Life with God)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               Prayer is the raising of the mind and heart to God. The Catechism teaches that prayer is a "vital and personal relationship with the living and true God" (CCC 2558). Essential forms include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Daily Personal Prayer:</strong> Quiet time with God each day</li>
               <li><strong>The Liturgy of the Hours:</strong> The Church's official daily prayer</li>
@@ -111,51 +112,51 @@ export default function SpiritualLifeBasics() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Sacraments (Grace of God)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               The sacraments are the primary channels of grace in the spiritual life. Regular participation in the sacraments, especially the Eucharist and Confession, nourishes and heals the soul.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Works of Mercy (Love of Neighbor)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               Authentic spirituality flows into action. The corporal and spiritual works of mercy allow us to encounter Christ in our neighbor and live out the commandment to love one another.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Building a Daily Prayer Routine
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               A consistent daily prayer routine forms the backbone of the spiritual life. Here is a framework for structuring your day around prayer:
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Morning: Offering the Day
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               Begin each day by consecrating it to God. The Morning Offering prayer unites all the day's works, joys, and sufferings with Christ's sacrifice on the cross.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Throughout the Day: The Angelus and Awareness
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               Pray the Angelus at 6am, noon, and 6pm to sanctify time. Practice the presence of God by maintaining awareness of His presence in all activities.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Evening: Examination and Thanksgiving
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               End the day with an examination of conscience and Night Prayer. Review the day with gratitude, seek forgiveness for failures, and entrust yourself to God's protection during sleep.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Role of Spiritual Reading
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               Spiritual reading (lectio spiritualis) nourishes the mind and soul. St. Jerome said, "Ignorance of Scripture is ignorance of Christ." Recommended reading includes:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Holy Scripture:</strong> Daily reading from the Old and New Testaments</li>
               <li><strong>The Catechism:</strong> Systematic study of Catholic teaching</li>
@@ -166,22 +167,22 @@ export default function SpiritualLifeBasics() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Overcoming Spiritual Dryness
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               Every Catholic experiences periods of spiritual dryness. These are opportunities for growth through faithfulness. St. Teresa of Calcutta endured decades of spiritual darkness while serving the poorest of the poor.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               When prayer feels empty, continue anyway. Trust in God's hidden presence. St. John of the Cross teaches that the "dark night" often precedes deeper union with God.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Goal: Union with God
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               The ultimate goal of the spiritual life is union with God — what the mystics call "contemplative union" and what the Church calls sanctity. This is not reserved for the few but is the vocation of every baptized Christian.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               As St. Thérèse of Lisieux showed through her "Little Way," holiness is accessible to everyone through small acts of love done with great love. The spiritual life is the path that leads there.
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

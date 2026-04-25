@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ExaminationOfConscienceGuideDetailed() {
   return (
@@ -64,12 +65,12 @@ export default function ExaminationOfConscienceGuideDetailed() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
                 Before going to Confession, the Church asks us to examine our conscience — to review our sins honestly in the light of God's truth. This is not meant to be a guilt-inducing exercise but a loving, honest conversation with God about the state of our soul.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
                 A good examination of conscience takes 10-15 minutes of quiet prayer. Find a quiet place, ask the Holy Spirit for light and honesty, and work through the questions below. Note the sins you need to confess — their nature and approximately how many times (for serious sins).
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-2">Prayer Before Examination of Conscience</p>
@@ -185,9 +186,9 @@ export default function ExaminationOfConscienceGuideDetailed() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Sins of Omission</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
                 Don't forget sins of omission — the good you failed to do. The Confiteor acknowledges sins "in what I have done and in what I have failed to do." Ask yourself:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6 text-sm">
                 <li>Have I failed to pray regularly?</li>
                 <li>Have I neglected to read Scripture or grow in my faith?</li>
@@ -198,12 +199,12 @@ export default function ExaminationOfConscienceGuideDetailed() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">After Your Examination</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
                 After completing your examination, make a brief Act of Contrition — expressing sorrow for your sins and a firm purpose of amendment. Then go to Confession as soon as possible. Don't let the examination become a substitute for the sacrament.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
                 Remember: the purpose of the examination is not to make you feel guilty but to prepare you to receive God's mercy. The more honest your examination, the more complete your healing.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

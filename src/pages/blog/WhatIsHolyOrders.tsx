@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsHolyOrders() {
   return (
@@ -59,47 +60,47 @@ export default function WhatIsHolyOrders() {
               <Cross className="w-24 h-24 text-purple-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 When a man is ordained a priest, something happens to him that cannot be undone. He is not simply given a new job or a new title. He is changed — ontologically, at the level of his very being — configured to Christ the Priest in a way that marks him permanently. This is the Catholic understanding of Holy Orders, and it is one of the most profound and distinctive teachings of the Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says (CCC 1536–1600)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The Catechism of the Catholic Church treats Holy Orders in a substantial section (CCC 1536–1600). It defines the sacrament as follows: "Holy Orders is the sacrament through which the mission entrusted by Christ to his apostles continues to be exercised in the Church until the end of time: thus it is the sacrament of apostolic ministry" (CCC 1536).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The word "orders" comes from the Latin ordo, which in Roman usage referred to an established civil body with a specific function. In the Church, Holy Orders establishes men in a specific order — a specific role in the Body of Christ — with the authority and grace to carry out that role.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The Catechism teaches that Holy Orders, like Baptism and Confirmation, imprints an indelible spiritual character on the soul (CCC 1582). This means that ordination cannot be repeated and cannot be undone. A priest who leaves the priesthood is still a priest — he is simply forbidden from exercising his priestly functions. The character remains.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Degrees of Holy Orders</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 Holy Orders is not a single, uniform sacrament — it has three distinct degrees: the episcopate (bishops), the presbyterate (priests), and the diaconate (deacons). The Catechism states: "The divinely instituted ecclesiastical ministry is exercised in different degrees by those who even from ancient times have been called bishops, priests, and deacons" (CCC 1554, quoting Lumen Gentium).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 These three degrees are not simply different levels of the same thing — they are distinct participations in the one priesthood of Christ. The bishop has the fullness of the sacrament; priests and deacons participate in it in different ways.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Bishops Do: Successors of the Apostles</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 Bishops are the successors of the apostles. This is one of the most fundamental claims of the Catholic Church — that there is an unbroken chain of ordination stretching from the apostles appointed by Jesus to the bishops of today. This is called apostolic succession, and it is essential to the Catholic understanding of the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The Catechism teaches that "the fullness of the sacrament of Holy Orders" is conferred by episcopal ordination (CCC 1557). A bishop has the fullness of the priesthood — he can do everything a priest can do, and more. Only a bishop can ordain other priests and deacons. Only a bishop can confirm (though he can delegate this to priests). Only a bishop can consecrate other bishops.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 Bishops are responsible for the governance, teaching, and sanctification of their diocese. They are the primary teachers of the faith in their territory, the chief celebrants of the liturgy, and the shepherds of their people. The Pope is the Bishop of Rome and the successor of St. Peter, with authority over the universal Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Priests Do: Celebrate Mass, Hear Confessions, Anoint the Sick</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 Priests are ordained by bishops to be their co-workers and to serve the People of God in parishes and other settings. The Catechism describes priests as "co-workers of the episcopal order" who are "united with the bishops in sacerdotal dignity" (CCC 1562).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The primary functions of a priest are:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Celebrating Mass.</strong> Only an ordained priest (or bishop) can celebrate the Eucharist. This is the central act of Catholic worship, and it requires a validly ordained minister. The priest acts in persona Christi — in the person of Christ — at the altar.</li>
                 <li><strong>Hearing confessions.</strong> Only a priest (or bishop) with the faculty granted by his bishop can absolve sins in the Sacrament of Reconciliation. This power to forgive sins was given by Christ to the apostles: "Receive the Holy Spirit. If you forgive anyone's sins, their sins are forgiven" (John 20:22–23).</li>
@@ -114,57 +115,57 @@ export default function WhatIsHolyOrders() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Deacons Do: Permanent vs. Transitional Deacons</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The diaconate is the third degree of Holy Orders. Deacons are ordained to serve — the word "deacon" comes from the Greek diakonos, meaning servant. The Catechism teaches that deacons are "ordained for tasks of service" (CCC 1569).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 There are two types of deacons in the Catholic Church:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Transitional deacons</strong> are men preparing for the priesthood. They are ordained deacons as the final step before priestly ordination, typically serving as deacons for about a year. After ordination to the priesthood, they no longer function as deacons.
               </p>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Permanent deacons</strong> are ordained to serve permanently as deacons, without proceeding to the priesthood. The permanent diaconate was restored by the Second Vatican Council (1962–1965). Permanent deacons may be married men — indeed, most permanent deacons in the United States are married. They serve in parishes, hospitals, prisons, and other settings.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 Deacons can baptize, witness marriages, preach, distribute Holy Communion, and lead certain liturgical rites. They cannot celebrate Mass, hear confessions, or anoint the sick — these require priestly ordination.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Rite of Ordination: The Laying On of Hands</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The essential gesture of ordination is the laying on of hands. The bishop places his hands on the head of the man being ordained, in silence, and then prays the consecratory prayer. This gesture goes back to the apostles themselves — Paul writes to Timothy: "Do not neglect the gift you have, which was given you through prophecy when the council of elders laid their hands on you" (1 Timothy 4:14).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The laying on of hands is the matter of the sacrament; the consecratory prayer is the form. Together, they constitute the essential rite of ordination. Everything else — the vesting, the anointing of hands, the presentation of the chalice and paten — is part of the rite but not strictly essential.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 Ordination takes place within the context of the Mass, typically on a Sunday or feast day, in the presence of the faithful. It is a public act of the Church, not a private ceremony. The entire community witnesses and prays for the man being ordained.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Celibacy in the Latin Church: Why Priests Don't Marry</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 In the Latin (Western) Catholic Church, priests are required to be celibate — they do not marry. This is one of the most frequently misunderstood aspects of the Catholic priesthood. It is important to understand what celibacy is and what it is not.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 Celibacy is not a dogma — it is a discipline of the Latin Church. It is not required by the nature of the priesthood itself; the Eastern Catholic Churches (which are in full communion with Rome) have married priests, and the permanent diaconate allows married men. Even in the Latin Church, there are exceptions: married Protestant ministers who convert and are ordained as Catholic priests may remain married.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The theological reasons for priestly celibacy are profound. The Catechism explains: "Celibacy is a sign of this new life to the service of which the Church's minister is consecrated; accepted with a joyful heart celibacy radiantly proclaims the Reign of God" (CCC 1579). A celibate priest is a living sign of the Kingdom of God, where "they neither marry nor are given in marriage" (Matthew 22:30). He is also free to give himself entirely to God and to his people, without the divided loyalties that marriage necessarily involves.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 Celibacy is also a participation in the celibacy of Christ himself, who was unmarried and gave himself entirely to his mission. The priest, acting in persona Christi, is configured to Christ in this way as well.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Priesthood of All Believers vs. the Ministerial Priesthood</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The Catholic Church teaches that all baptized Christians share in the "common priesthood of the faithful" (CCC 1546). Through Baptism, every Christian is made a priest, prophet, and king — sharing in the priestly mission of Christ. This is the "priesthood of all believers" that Protestants rightly emphasize.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 But the Catholic Church also teaches that the ministerial priesthood — the ordained priesthood — is essentially different from the common priesthood, not just a matter of degree. The Catechism states: "The ministerial or hierarchical priesthood of bishops and priests, and the common priesthood of all the faithful participate, 'each in its own proper way, in the one priesthood of Christ.' While being 'ordered one to another,' they differ essentially and not only in degree" (CCC 1547).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 The ordained priest acts in persona Christi capitis — in the person of Christ the Head — in a way that the common priesthood does not. When a priest celebrates Mass, he does not merely represent the community offering sacrifice; he acts as Christ himself, making present the one sacrifice of Calvary. This is why only an ordained priest can celebrate the Eucharist.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for Priests and Vocations</h3>

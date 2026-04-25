@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurLadyOfFatimaGuide() {
   return (
@@ -77,19 +78,19 @@ export default function OurLadyOfFatimaGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 The story of Fatima begins not with supernatural spectacle, but with the ordinary faith of three children: Lucia dos Santos (10), Francisco Marto (9), and Jacinta Marto (7). Their simple devotion and willingness to suffer for souls would make them instruments of heaven's most urgent message for modern times.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Historical Context: World in Crisis
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 1917 was a year of unprecedented global crisis. World War I raged across Europe, millions were dying, and Russia was on the brink of the Bolshevik Revolution that would unleash decades of atheistic communism. In the midst of this chaos, God sent His Mother to warn humanity and offer a path to peace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Portugal itself was in turmoil. The 1910 revolution had overthrown the monarchy, established secularism, and begun intense persecution of the Catholic Church. Churches were being seized, religious orders expelled, and anti-clerical laws imposed. It was in this hostile environment that Our Lady chose to appear.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Six Apparitions: May 13 to October 13, 1917
@@ -117,23 +118,23 @@ export default function OurLadyOfFatimaGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 May 13, 1917: The First Apparition
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 While tending sheep, the children saw a "lady brighter than the sun" standing in a holm oak tree. She asked them to return to the same spot on the 13th of each month for six months, and to learn to read and write. When Lucia asked if they would go to heaven, she responded that Francisco and Jacinta would soon go, but Lucia would remain longer to spread devotion to her Immaculate Heart.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 June 13, 1917: The Second Apparition
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Mary revealed that Francisco and Jacinta would soon go to heaven, but Lucia would remain longer to establish devotion to the Immaculate Heart. She taught the children a prayer: "When you pray the Rosary, say after each mystery: 'O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those most in need of your mercy.'"
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 July 13, 1917: The Third Apparition - The Great Secret
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 This was the most profound apparition. Mary revealed a three-part secret:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>First Secret:</strong> A terrifying vision of hell, where the souls of poor sinners go. "You have seen hell where the souls of poor sinners go. To save them, God wishes to establish in the world devotion to my Immaculate Heart."</li>
                 <li><strong>Second Secret:</strong> The prediction of World War II ending, but warning that if people continued offending God, a worse war would begin in the reign of Pius XI. She also predicted the rise and fall of communism in Russia and its eventual conversion.</li>
@@ -143,23 +144,23 @@ export default function OurLadyOfFatimaGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 August 13, 1917: The Fourth Apparition
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 The children were arrested and imprisoned by the local administrator, who threatened to boil them in oil unless they revealed the secret. They refused and were released after two days. Mary appeared to them later that day and encouraged them to continue praying and making sacrifices.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 September 13, 1917: The Fifth Apparition
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Mary promised that in October, she would perform a miracle so that all would believe. She also revealed that the war would end and that the soldiers would soon return home.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 October 13, 1917: The Sixth Apparition - The Miracle of the Sun
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Despite torrential rain, 70,000 people gathered for the final apparition. Mary identified herself as "Our Lady of the Rosary" and requested that a chapel be built in her honor. Then occurred the Miracle of the Sun: the rain stopped, clouds parted, and the sun began to "dance" - spinning, radiating colors, and appearing to plunge toward earth. This was witnessed by people miles away, including atheists who reported the phenomenon.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know Marian apparitions?"
@@ -173,30 +174,30 @@ export default function OurLadyOfFatimaGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Vision of Hell
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Lucia described seeing a "sea of fire" with demons and human souls in human form. They were floating in the flames, amid shrieks and groans of despair. The vision lasted only moments but terrified the children. Mary explained that this vision was shown so people would understand the reality of hell and the importance of praying for sinners.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Prediction of World War II and Russia
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Mary predicted that if people continued offending God, "Russia will spread her errors throughout the world, promoting wars and persecutions of the Church. The good will be martyred, the Holy Father will have much to suffer, and various nations will be annihilated." However, she promised that "in the end, my Immaculate Heart will triumph. The Holy Father will consecrate Russia to me, and she will be converted, and a period of peace will be granted to the world."
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Third Secret: Persecution of the Church
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 While the Vatican released the text of the third secret in 2000, many believe it refers to the persecution of the Church in the 20th century, particularly under communism. Cardinal Ratzinger (future Pope Benedict XVI) explained that it represents "the suffering of the witnesses of the faith of the last century."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Five First Saturdays Devotion
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 During the July 13 apparition, Mary promised: "I promise to assist at the hour of death, with the graces necessary for salvation, all those who, on the first Saturday of five consecutive months, shall confess, receive Holy Communion, recite five decades of the Rosary, and keep me company for fifteen minutes while meditating on the fifteen mysteries of the Rosary, with the intention of making reparation to me."
-              </p>
+              </LinkedText>
               
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">Requirements for the Five First Saturdays</h3>
@@ -216,40 +217,40 @@ export default function OurLadyOfFatimaGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Sister Lucia dos Santos (1907-2005)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Lucia lived until age 97, becoming a Carmelite nun and the primary witness to Fatima. She wrote memoirs about the apparitions and continued to receive private revelations until her death. Pope John Paul II said she "gave herself totally to the service of the message of Fatima."
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Blessed Francisco Marto (1908-1919)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Francisco died at age 10 after contracting the Spanish flu. He was known for his deep love of Jesus in the Eucharist and his desire to console Jesus for the sins of the world. He was beatified in 2000 and canonized in 2017.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Saint Jacinta Marto (1910-1920)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Jacinta died at age 9, also from the Spanish flu. She had a profound devotion to the Immaculate Heart and offered her sufferings for the conversion of sinners and the Holy Father. She was beatified in 2000 and canonized in 2017.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Fatima Center and Pilgrimage
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Today, Fatima is one of the world's most important pilgrimage sites. The Sanctuary of Our Lady of Fatima includes the Basilica of Our Lady of the Rosary, the Chapel of the Apparitions (built on the site of the oak tree), and the modern Church of the Holy Trinity. Millions of pilgrims visit annually, seeking healing, conversion, and peace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 Pope John Paul II had a special devotion to Fatima, crediting Our Lady of Fatima with saving his life during the 1981 assassination attempt. He visited Fatima three times and beatified Francisco and Jacinta there in 2000.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Fatima's Message for Today
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 The messages of Fatima remain urgently relevant:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The reality of hell:</strong> Mary showed hell to emphasize the eternal consequences of sin</li>
                 <li><strong>The power of prayer:</strong> The Rosary is our weapon against evil</li>

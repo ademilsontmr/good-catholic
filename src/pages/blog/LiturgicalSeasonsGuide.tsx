@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LiturgicalSeasonsGuide() {
   return (
@@ -77,16 +78,16 @@ export default function LiturgicalSeasonsGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 While the world follows the Gregorian calendar with its secular holidays, Catholics are invited to live on "sacred time" - a rhythm that shapes our prayer, our celebrations, and our very understanding of reality. Each liturgical season has its own character, colors, prayers, and spiritual focus, helping us to encounter Christ in different dimensions of His saving mystery.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Understanding the Liturgical Calendar Structure
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 The Catholic liturgical year is divided into seasons that celebrate the major events in Christ's life. It begins with Advent and cycles through the entire mystery of salvation. Unlike the secular calendar that starts January 1st, the liturgical year begins on the First Sunday of Advent.
-              </p>
+              </LinkedText>
               
               <div className="bg-purple-50 border border-purple-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -114,9 +115,9 @@ export default function LiturgicalSeasonsGuide() {
                 <strong>Theme:</strong> Preparation, waiting, hope, and conversion
               </p>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 Advent is not Christmas - it's the season of preparing for Christmas. The word comes from the Latin "adventus" meaning "coming." During Advent, we prepare for three comings of Christ: His historical birth in Bethlehem, His coming into our hearts today, and His final coming in glory.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Advent Traditions and Practices
@@ -138,9 +139,9 @@ export default function LiturgicalSeasonsGuide() {
                 <strong>Theme:</strong> Joy, light, incarnation, and revelation
               </p>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 Christmas is more than a day - it's a season that celebrates the mystery of the Incarnation. The Church gives us 40 days to celebrate this profound reality: God became human! The season includes the Octave (8 days) of Christmas and extends to Epiphany and the Baptism of the Lord.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Christmas Season Highlights
@@ -169,9 +170,9 @@ export default function LiturgicalSeasonsGuide() {
                 <strong>Theme:</strong> Growth, discipleship, and the mission of the Church
               </p>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 "Ordinary" doesn't mean "plain" - it comes from "ordinal" (numbered) weeks. This season focuses on the teachings and miracles of Christ's public ministry. It's a time for growing in our understanding of what it means to follow Christ and live as His disciples.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Ordinary Time Focus
@@ -193,9 +194,9 @@ export default function LiturgicalSeasonsGuide() {
                 <strong>Theme:</strong> Penance, conversion, prayer, fasting, and almsgiving
               </p>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 Lent is the 40-day season (excluding Sundays) of preparation for Easter. It commemorates Christ's 40 days in the desert and invites us to deeper conversion through the three traditional practices: prayer, fasting, and almsgiving.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Lenten Practices
@@ -218,9 +219,9 @@ export default function LiturgicalSeasonsGuide() {
                 <strong>Theme:</strong> The Passion, Death, and Resurrection of Christ
               </p>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 The Triduum is the most sacred time of the liturgical year - one continuous celebration of Christ's passion, death, and resurrection. These three days are the heart of our faith.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Holy Thursday (Maundy Thursday)
@@ -262,9 +263,9 @@ export default function LiturgicalSeasonsGuide() {
                 <strong>Theme:</strong> Resurrection, new life, victory, and joy
               </p>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 Easter is not just one day - it's a 50-day season of joy! The Church celebrates the resurrection with greater joy than any other feast. During Eastertide, we hear the resurrection appearances, learn about the early Church, and prepare for the coming of the Holy Spirit.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Easter Season Highlights
@@ -285,9 +286,9 @@ export default function LiturgicalSeasonsGuide() {
                 <strong>Theme:</strong> Holy Spirit, mission, and the birth of the Church
               </p>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 Pentecost celebrates the descent of the Holy Spirit upon the apostles and Mary, fulfilling Christ's promise to send His Spirit. This is often called the "birthday of the Church" because the Holy Spirit empowered the apostles to begin their mission of evangelization.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Ordinary Time II: The Season of Mission
@@ -298,9 +299,9 @@ export default function LiturgicalSeasonsGuide() {
                 <strong>Theme:</strong> Mission, growth, and living as the Body of Christ
               </p>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 The second period of Ordinary Time focuses on the life of the Church after Pentecost. We read about the early Church in Acts and the letters of the apostles. This season helps us understand our role in continuing Christ's mission in the world.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Liturgical Colors and Their Meanings
@@ -351,9 +352,9 @@ export default function LiturgicalSeasonsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Spiritual Benefits of Living Liturgically
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 Living the liturgical year transforms our relationship with time itself. Instead of seeing days as mere chronological progression, we begin to see them as opportunities to encounter Christ in different dimensions of His saving mystery. This sacred rhythm:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Deepens our understanding of Christ's life and mission</li>
                 <li>Provides structure and rhythm to our spiritual life</li>

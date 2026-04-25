@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicLastRites() {
   return (
@@ -59,58 +60,58 @@ export default function CatholicLastRites() {
               <Cross className="w-24 h-24 text-gray-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 Few moments in life are as sacred — or as urgent — as the hours surrounding death. The Catholic Church, in her wisdom and mercy, has always provided her members with spiritual care at the end of life. The rites administered to the dying are not a formality or a cultural tradition. They are sacraments: real encounters with the grace of God at the most critical moment of a person's existence.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 This guide explains what "Last Rites" are, what the three sacraments involved actually are, when to call a priest, what happens during the rites, and what to do if a priest cannot arrive in time.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Are "Last Rites"?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 "Last Rites" is a popular term — not an official liturgical term — that refers to the sacramental care given to Catholics who are seriously ill or dying. In the current rite of the Church, this care is called the "Pastoral Care of the Sick" and encompasses three distinct sacraments:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Sacrament of Anointing of the Sick</strong> — the anointing with holy oil and prayer for healing and strength</li>
                 <li><strong>Viaticum</strong> — the reception of Holy Communion as food for the journey to eternal life</li>
                 <li><strong>Apostolic Pardon (Apostolic Blessing)</strong> — a special blessing that grants a plenary indulgence at the moment of death</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 In addition, the priest will typically offer the opportunity for Confession (the Sacrament of Reconciliation) if the person is conscious and able to confess. Together, these sacraments prepare the soul for death and judgment, offering forgiveness of sins, strength for the final struggle, and the grace of a holy death.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Anointing of the Sick</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 The Anointing of the Sick is a sacrament instituted by Christ and described in the Letter of James (5:14–15): "Is anyone among you sick? Let them call the elders of the church to pray over them and anoint them with oil in the name of the Lord. And the prayer offered in faith will make the sick person well; the Lord will raise them up. If they have sinned, they will be forgiven."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 The sacrament is administered by a priest, who anoints the forehead and hands of the sick person with blessed oil (the Oil of the Sick) while praying: "Through this holy anointing may the Lord in his love and mercy help you with the grace of the Holy Spirit. May the Lord who frees you from sin save you and raise you up."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 The effects of the Anointing of the Sick are profound. The Catechism (CCC 1532) lists them as: the uniting of the sick person to the passion of Christ; the strengthening, peace, and courage to endure suffering; the forgiveness of sins (if the person is unable to confess); the restoration of health if it is conducive to the salvation of the soul; and the preparation for passing over to eternal life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 Importantly, the Anointing of the Sick is not reserved only for those who are at the point of death. It can and should be received by anyone who is seriously ill, facing major surgery, or suffering from a grave illness — including the elderly who are weakened by age. It can also be received more than once during the same illness if the person's condition worsens.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Viaticum: Communion for the Journey</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 Viaticum (from the Latin word for "provisions for a journey") is the reception of Holy Communion by a person who is near death. It is the most important of the Last Rites — the final reception of the Body and Blood of Christ before the soul's journey to God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 The Church teaches that Viaticum is the sacrament proper to the dying (CCC 1524). Jesus himself promised: "Whoever eats my flesh and drinks my blood has eternal life, and I will raise them up at the last day" (John 6:54). Receiving Viaticum is the Church's way of placing the dying person in the hands of Christ for the final passage.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 When administering Viaticum, the priest (or deacon, or extraordinary minister of Holy Communion) says: "May the Lord Jesus Christ protect you and lead you to eternal life." The dying person responds "Amen" and receives Communion. Even a tiny fragment of the host is sufficient if the person cannot swallow easily.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Apostolic Pardon</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 The Apostolic Pardon (also called the Apostolic Blessing) is a special blessing given by a priest to a dying person that grants a plenary indulgence — the full remission of all temporal punishment due to sin — at the moment of death. This is an extraordinary gift of the Church's treasury of grace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 The priest says: "Through the holy mysteries of our redemption, may almighty God release you from all punishments in this life and in the life to come. May he open to you the gates of paradise and welcome you to everlasting joy." The dying person receives this blessing with faith and contrition.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -132,17 +133,17 @@ export default function CatholicLastRites() {
                 <li>A person is in hospice care or has been given a terminal diagnosis</li>
                 <li>A person is unconscious but still alive</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 The Anointing of the Sick can be administered to an unconscious person — the sacrament is still valid and efficacious. Even if the person cannot speak or respond, the grace of the sacrament is real. Call the priest as soon as possible; do not wait until the person is actively dying.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 Most parishes have an emergency line or an on-call priest for exactly these situations. Hospitals with Catholic chaplains can also provide the sacraments. If you are unsure how to reach a priest, call your parish office and explain the situation — they will direct you to the right person.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Prepare the Environment</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 When a priest comes to administer the Last Rites, it is helpful to prepare the room:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Place a small table near the bed covered with a white cloth</li>
                 <li>Set a crucifix on the table, along with two candles if possible</li>
@@ -151,20 +152,20 @@ export default function CatholicLastRites() {
                 <li>Ensure the room is quiet and peaceful</li>
                 <li>Family members are welcome — and encouraged — to be present</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 The presence of family during the Last Rites is a powerful act of love and witness. Praying together with the dying person, holding their hand, and accompanying them in their final hours is one of the most profound acts of charity a family can perform.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What If the Priest Cannot Arrive in Time?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 Sometimes, despite every effort, a priest cannot arrive before a person dies. This is a painful situation, but the Church offers comfort and hope.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 If a person dies without receiving the Last Rites, their salvation is not automatically lost. God's mercy is not limited by the sacraments — the sacraments are the ordinary means of grace, but God can act outside them. A person who desired the sacraments but was unable to receive them due to circumstances beyond their control is in God's hands.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 In the meantime, family members can pray with the dying person, recite the Apostles' Creed, make an Act of Contrition on their behalf (encouraging them to make one themselves if conscious), and pray the prayers for the dying found in Catholic prayer books. The Church also encourages praying the Rosary at the bedside of the dying.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for the Dying</h3>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HealingThroughFaith() {
   return (
@@ -77,47 +78,47 @@ export default function HealingThroughFaith() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
                 Faith has always been a source of healing. From Jesus' miracles in the Gospels to the sacraments of the Church today, discover how Catholic faith offers profound healing for body, mind, and soul.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Biblical Foundation of Healing
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               Throughout Scripture, God reveals Himself as the Divine Healer. The name "Jehovah Rapha" (The Lord Who Heals) appears in Exodus 15:26. Jesus' ministry was marked by healing: "He healed all who were sick, to fulfill what was spoken through Isaiah the prophet: 'He took up our infirmities and bore our diseases'" (Matthew 8:16-17).
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               The Gospels record 37 distinct healing miracles of Jesus, demonstrating His compassion and power. Yet Jesus taught that physical healing points to the greater healing of salvation: "Your sins are forgiven" (Mark 2:5).
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Church's Ministry of Healing
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               Jesus commissioned His disciples: "Heal the sick, raise the dead, cleanse those who have leprosy, drive out demons" (Matthew 10:8). The Church continues this healing ministry through:
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Sacrament of Anointing of the Sick
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               This sacrament, described in James 5:14-15, offers spiritual and sometimes physical healing. The priest anoints with oil, prays over the sick person, and offers the grace to unite suffering with Christ's redemptive sacrifice.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Sacrament of Reconciliation
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               Sin wounds the soul, and Confession brings healing. Many saints experienced physical healing after receiving absolution, showing the connection between spiritual and bodily health.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Eucharist: Bread of Life
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               Receiving Holy Communion brings the healing presence of Christ. "Whoever eats my flesh and drinks my blood has eternal life, and I will raise them up at the last day" (John 6:54).
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Powerful Prayers for Healing
@@ -140,9 +141,9 @@ export default function HealingThroughFaith() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Healing Saints and Their Intercession
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               The Church has raised up many saints known for healing intercession:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>St. Padre Pio:</strong> Known for miraculous healings and the stigmata</li>
               <li><strong>St. Peregrine Laziosi:</strong> Patron saint of cancer patients</li>
@@ -154,9 +155,9 @@ export default function HealingThroughFaith() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Emotional and Mental Healing
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               The Church recognizes that healing extends beyond physical illness. Anxiety, depression, trauma, and emotional wounds require healing too. The Catholic approach integrates:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Prayer and Sacraments:</strong> Spiritual resources for peace</li>
               <li><strong>Professional Help:</strong> Catholic therapists and counselors</li>
@@ -167,12 +168,12 @@ export default function HealingThroughFaith() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Redemptive Suffering
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               Not all physical illnesses are healed in this life. The Catholic understanding of redemptive suffering, powerfully taught by St. John Paul II, teaches that we can unite our sufferings with Christ's passion for the salvation of souls.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
               St. Paul wrote: "Now I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in the afflictions of Christ on behalf of his body, which is the church" (Colossians 1:24).
-            </p>
+            </LinkedText>
 
             <QuizCTA />
 

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicHomeschooling() {
   return (
@@ -76,20 +77,20 @@ export default function CatholicHomeschooling() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Something remarkable has been happening in American Catholic families over the past two decades. Tens of thousands of families have chosen to take education into their own hands — not out of fear or isolation, but out of a positive vision: the desire to form their children in the fullness of the Catholic intellectual and spiritual tradition, to integrate faith and learning, and to make the home truly the center of their children's formation.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Catholic homeschooling is not a fringe movement. It is a growing, vibrant community with excellent curricula, strong support networks, and a rich intellectual heritage stretching back to the classical schools of medieval Christendom. This guide will help you understand what Catholic homeschooling involves, whether it might be right for your family, and how to get started.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Catholic Families Choose Homeschooling
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Catholic families choose homeschooling for a variety of reasons, and understanding these motivations helps clarify what Catholic homeschooling is really about.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Faith integration:</strong> The most common reason is the desire to integrate Catholic faith into every subject — not just in a religion class, but in history, literature, science, and the arts. In a Catholic homeschool, the study of history is also the study of salvation history. Literature is read through the lens of the Catholic intellectual tradition. Science is approached with wonder at God's creation.
               </p>
@@ -106,42 +107,42 @@ export default function CatholicHomeschooling() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Classical Education Tradition
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Classical education is not a modern invention — it is the recovery of an ancient tradition. The trivium (grammar, logic, rhetoric) and quadrivium (arithmetic, geometry, music, astronomy) formed the basis of education in medieval Catholic universities. The great Catholic intellectual tradition — from Augustine and Aquinas to Newman and Chesterton — was formed in this classical mold.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Dorothy Sayers' 1947 essay "The Lost Tools of Learning" sparked a revival of classical education in the 20th century, and Catholic educators have been at the forefront of this revival. The classical model recognizes that children learn differently at different stages: the grammar stage (ages 5–10) focuses on memorization and foundational knowledge; the logic stage (ages 10–14) develops critical thinking; the rhetoric stage (ages 14–18) develops the ability to communicate and persuade.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 This model is particularly well-suited to Catholic education because it forms the whole person — intellect, will, and imagination — rather than merely transmitting information.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Top Catholic Homeschool Curricula
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 One of the most important decisions for a Catholic homeschooling family is choosing a curriculum. Here are the most widely used and respected options:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Seton Home Study School</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Seton is one of the oldest and most established Catholic homeschool programs in the United States, founded in 1975. It offers a complete, accredited curriculum from kindergarten through 12th grade, with strong Catholic content integrated throughout. Seton is particularly known for its rigorous academics and its fidelity to traditional Catholic teaching. It offers both self-paced and teacher-supported options, making it accessible to families with varying levels of homeschooling experience.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Mother of Divine Grace School</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Mother of Divine Grace (MODG) is a classical Catholic homeschool program founded by Laura Berquist, author of "Designing Your Own Classical Curriculum." MODG follows the classical trivium model and is known for its rigorous reading lists, Socratic discussion, and deep integration of Catholic faith and classical learning. It offers tutorial support and is particularly popular among families who want a serious classical education.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Memoria Press</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Memoria Press offers a classical curriculum with a strong emphasis on Latin, Greek, and the great books of Western civilization. While not exclusively Catholic, it is widely used by Catholic homeschoolers and is deeply compatible with the Catholic intellectual tradition. Memoria Press is known for its excellent Latin program and its rigorous approach to classical literature and history.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">Catholic Heritage Curricula (CHC)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Catholic Heritage Curricula offers a warm, literature-based approach to Catholic homeschooling. It is particularly popular with families who prefer a gentler, more flexible approach than the rigorous classical programs. CHC integrates Catholic saints, feast days, and the liturgical year throughout its materials and is known for its beautiful, child-friendly presentation.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">A Prayer for Catholic Homeschooling Families</h3>
@@ -158,48 +159,48 @@ export default function CatholicHomeschooling() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Legal Requirements by State
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Homeschooling is legal in all 50 states, but the legal requirements vary significantly. Some states have very minimal requirements (no notification, no testing), while others require annual notification to the school district, portfolio reviews, or standardized testing.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 The Home School Legal Defense Association (HSLDA) maintains a comprehensive, up-to-date summary of homeschooling laws in every state at hslda.org. Before beginning to homeschool, research the requirements in your state carefully. Many Catholic homeschool support groups can also help you navigate local legal requirements.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 In general, the most important legal steps are: understanding your state's notification requirements, keeping records of your child's work and attendance, and ensuring that your curriculum covers the subjects required by your state (typically including language arts, mathematics, science, and social studies).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Addressing Socialization Concerns
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 The most common objection to homeschooling is the socialization question: "Won't your children miss out on social development?" This concern is understandable but largely unfounded in practice.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Research consistently shows that homeschooled children are not socially isolated. In fact, many homeschooled children have richer social lives than their traditionally schooled peers, because their social interactions are not limited to a single age group in a single institution. Homeschooled children interact with people of all ages — in co-ops, in parish activities, in sports leagues, in community service, and in family life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 The more relevant question is not whether homeschooled children are socialized, but what kind of socialization they receive. Catholic homeschooling families intentionally build communities of like-minded families, giving their children Catholic friendships and a Catholic social environment — which research shows is one of the strongest predictors of adult faith retention.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Role of Co-ops and Catholic Homeschool Groups
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Catholic homeschool co-ops are one of the most valuable resources available to homeschooling families. A co-op is a group of families who pool their resources and talents to offer classes, activities, and community to their children. In a typical co-op, parents take turns teaching subjects in their areas of expertise — one parent might teach Latin, another science, another art.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Co-ops provide socialization, accountability, and the opportunity for children to learn from multiple teachers. They also provide community and support for parents, who can share resources, encouragement, and practical advice.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 To find a Catholic homeschool co-op or support group in your area, contact your diocese's Catholic education office, search the Catholic Homeschool Network (catholichomeschoolnetwork.org), or ask at your parish.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Integrating Faith into Every Subject
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 One of the greatest advantages of Catholic homeschooling is the ability to integrate faith into every subject — not as an add-on, but as the unifying principle of all learning.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 In <strong>history</strong>, this means studying salvation history alongside secular history, understanding the role of the Church in Western civilization, and reading primary sources from Catholic thinkers and saints.
               </p>
@@ -216,22 +217,22 @@ export default function CatholicHomeschooling() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Liturgical Year as a School Calendar
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 One of the most distinctive features of Catholic homeschooling is the ability to use the liturgical year as a school calendar. Rather than following the secular school calendar, Catholic homeschoolers can structure their year around Advent, Christmas, Lent, Easter, and the feasts of the saints.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 This means taking a lighter school day on major feast days and celebrating them with special activities. It means doing Advent-themed projects in December and Lenten reflections in the weeks before Easter. It means studying the life of a saint on their feast day. It means making the liturgical year the heartbeat of family and school life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Resources like the Liturgical Year curriculum from Kolbe Academy, the "Keeping the Feast" series, and the work of Leila Lawler and Kendra Tierney (of "Like Mother, Like Daughter") offer practical guidance for integrating the liturgical year into homeschool life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Challenges and How to Overcome Them
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Catholic homeschooling is deeply rewarding, but it is also genuinely challenging. Here are the most common challenges and practical responses:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4">
                 <strong>Burnout:</strong> Homeschooling is demanding, especially for the primary teaching parent. Build in regular breaks, connect with other homeschooling parents for support, and don't try to do everything at once. A simple, consistent routine is better than an elaborate one that collapses under pressure.
               </p>
@@ -248,9 +249,9 @@ export default function CatholicHomeschooling() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Resources and Support Networks
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 The Catholic homeschooling community has developed an impressive array of resources and support networks:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4">
                 <strong>Catholic Homeschool Network (catholichomeschoolnetwork.org):</strong> A directory of Catholic homeschool groups across the country.
               </p>

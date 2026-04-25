@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicPrayerForProtection() {
   return (
@@ -59,17 +60,17 @@ export default function CatholicPrayerForProtection() {
               <Shield className="w-24 h-24 text-slate-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 The Catholic Church has always recognized that human beings live in a world where spiritual forces are at work — both good and evil. St. Paul writes: "For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world and against the spiritual forces of evil in the heavenly realms" (Ephesians 6:12). In response to this reality, the Church has developed a rich treasury of prayers for protection — prayers that have been prayed by saints, martyrs, and ordinary Catholics for centuries.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 These prayers are not magic formulas. They are acts of faith — expressions of trust in God's protection and in the intercession of the angels and saints. They work not by their own power but by the power of God, to whom they are addressed.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">1. The Prayer to Saint Michael the Archangel</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 The most widely used Catholic prayer for protection is the Prayer to Saint Michael the Archangel, composed by Pope Leo XIII in 1886. According to tradition, Leo XIII had a vision of a conversation between God and the devil, in which the devil was given 75-100 years to try to destroy the Church. Shaken by this vision, Leo XIII composed this prayer and ordered it to be said after every Low Mass — a practice that continued until the Second Vatican Council.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer to Saint Michael</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -78,9 +79,9 @@ export default function CatholicPrayerForProtection() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">2. Saint Patrick's Breastplate (Lorica)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 Saint Patrick's Breastplate — also called the Lorica of Saint Patrick — is one of the oldest and most powerful prayers for protection in the Christian tradition. Attributed to St. Patrick (5th century), it is a prayer of total consecration to Christ, invoking His protection in every aspect of life. The full prayer is long; here is the most famous section:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-sm">
                   Christ with me, Christ before me, Christ behind me,<br />
@@ -96,9 +97,9 @@ export default function CatholicPrayerForProtection() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">3. Psalm 91: The Psalm of Protection</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 Psalm 91 is the great biblical prayer of protection — the psalm that the devil quoted to Jesus during the temptation in the desert (Matthew 4:6), and that Jesus refused to use as a test of God's power. It is one of the most prayed psalms in the Catholic tradition, especially in times of danger or fear:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-sm">
                   He who dwells in the shelter of the Most High<br />
@@ -120,12 +121,12 @@ export default function CatholicPrayerForProtection() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">4. The Rosary as Protection</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 Our Lady of Fatima promised that the Rosary is a powerful weapon against evil: "Pray the Rosary every day to obtain peace for the world and the end of the war." Many saints and popes have called the Rosary the most powerful prayer after the Mass. Praying the Rosary daily is one of the most effective forms of spiritual protection available to Catholics.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 The Fatima prayer, added to the Rosary after the 1917 apparitions, is itself a prayer for protection: "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those most in need of Thy mercy."
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -133,9 +134,9 @@ export default function CatholicPrayerForProtection() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">5. The Memorare</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 The Memorare is a prayer to the Virgin Mary for protection and intercession, attributed to St. Bernard of Clairvaux (12th century). It is one of the most beloved Marian prayers in the Catholic tradition:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-sm">
                   Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided. Inspired by this confidence, I fly unto thee, O Virgin of virgins, my Mother. To thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me. Amen.
@@ -151,9 +152,9 @@ export default function CatholicPrayerForProtection() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">7. The Armor of God (Ephesians 6)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 St. Paul's description of the "armor of God" in Ephesians 6:13-17 is both a theological teaching and a prayer framework. Many Catholics pray through each piece of the armor as a morning prayer of protection:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Belt of truth</strong> — Lord, gird me with Your truth today.</li>
                 <li><strong>Breastplate of righteousness</strong> — Protect my heart with Your righteousness.</li>
@@ -164,9 +165,9 @@ export default function CatholicPrayerForProtection() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Sacramentals for Protection</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 In addition to prayers, the Catholic tradition offers several sacramentals — blessed objects — that are used for protection:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Saint Benedict Medal</strong> — One of the most powerful sacramentals against evil. The medal bears the Vade Retro Satana ("Begone, Satan") inscription and is used for protection against the devil, evil, and temptation.</li>
                 <li><strong>Holy Water</strong> — Blessed water is a powerful sacramental for protection. Sprinkling holy water in your home, on yourself, and on your family is a traditional Catholic practice for warding off evil.</li>

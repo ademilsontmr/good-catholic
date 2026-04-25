@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TheProblemOfSuffering() {
   return (
@@ -84,9 +85,9 @@ export default function TheProblemOfSuffering() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. Moral Evil vs. Physical Evil
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">
                 The Church distinguishes between two types of evil:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>Moral Evil:</strong> Crimes, wars, and betrayals. These are the direct result of <strong>Free Will</strong>. God respects our freedom so much that He allows us to choose even what He hates, because a world without the possibility of hate is a world without the possibility of real love.</li>
                 <li><strong>Physical Evil:</strong> Diseases, natural disasters, and death. These exist because we live in a "fallen" world—a world in labor (Romans 8:22) that is still moving toward its final perfection.</li>

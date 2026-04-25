@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnForgiveness() {
   return (
@@ -59,50 +60,50 @@ export default function CatholicTeachingOnForgiveness() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Forgiveness is not a feeling. It is not forgetting. It is not pretending that what happened did not matter. Catholic teaching on forgiveness is demanding, realistic, and ultimately liberating — because it is rooted not in human willpower but in the mercy of God Himself.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says About Forgiveness</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 The Catechism of the Catholic Church addresses forgiveness most directly in its treatment of the Lord's Prayer, particularly in paragraphs 2838–2845. The Catechism calls the petition "forgive us our trespasses as we forgive those who trespass against us" the most astonishing of all the petitions in the Our Father — because in it, we ask God to treat us exactly as we treat others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 CCC 2840 states: "Now — and this is daunting — this outpouring of mercy cannot penetrate our hearts as long as we have not forgiven those who have trespassed against us." The Catechism is unambiguous: our reception of God's forgiveness is linked to our willingness to forgive others. This is not a condition God imposes arbitrarily — it reflects the inner logic of mercy itself. A heart closed to forgiving others is a heart closed to receiving forgiveness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 CCC 2843 adds: "It is not in our power not to feel or to forget an offense; but the heart that offers itself to the Holy Spirit turns injury into compassion and purifies the memory in transforming the hurt into intercession." This is crucial: the Church does not demand that we feel no pain or that we erase the memory of what was done. It asks us to open our hearts to the Holy Spirit, who alone can transform the wound.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Lord's Prayer: The Most Demanding Line in Christian Prayer</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Every time a Catholic prays the Our Father, they make a bold and dangerous request: "Forgive us our trespasses as we forgive those who trespass against us." The word "as" is the hinge on which everything turns. We are asking God to apply to us the same standard we apply to others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 C.S. Lewis once wrote that he had been saying the Lord's Prayer for years before he noticed what he was actually asking. When he did, he found it terrifying. Jesus Himself underlines this in Matthew 6:14–15: "For if you forgive men their trespasses, your heavenly Father also will forgive you; but if you do not forgive men their trespasses, neither will your Father forgive your trespasses."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 This is not a threat but a description of spiritual reality. Unforgiveness is a closed fist. You cannot receive a gift with a closed fist. The mercy of God is always flowing — but it can only enter a heart that is open.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Jesus's Teaching: Seventy Times Seven</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 In Matthew 18:21–22, Peter asks Jesus: "Lord, how often shall my brother sin against me, and I forgive him? As many as seven times?" Peter thought he was being generous — the rabbis of his day taught that forgiving three times was sufficient. Jesus's answer was stunning: "I do not say to you seven times, but seventy times seven."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 This is not a mathematical limit (490 times and then you're free). It means: without limit. Forgiveness is not a quota to be filled but a disposition of the heart to be cultivated.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Jesus immediately follows this with the Parable of the Unforgiving Servant (Matthew 18:23–35). A king forgives a servant an enormous debt — ten thousand talents, an almost incomprehensible sum. That same servant then refuses to forgive a fellow servant a tiny debt of a hundred denarii. When the king hears of it, he is furious and hands the unforgiving servant over to the jailers. Jesus concludes: "So also my heavenly Father will do to every one of you, if you do not forgive your brother from your heart."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 The parable makes the logic clear: we have been forgiven an infinite debt by God. In light of that, any debt owed to us by another human being is comparatively tiny. To refuse to forgive is to forget what we ourselves have received.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Forgiveness Is NOT</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Many people resist forgiveness because they misunderstand what it is. The Church's teaching is clear on what forgiveness does not mean:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Forgiveness is not condoning evil.</strong> To forgive someone who has done something wrong does not mean saying that what they did was acceptable. Evil remains evil. Forgiveness does not erase the moral reality of the offense.</li>
                 <li><strong>Forgiveness is not forgetting.</strong> We cannot simply erase memories. The Church does not ask us to pretend the hurt did not happen. What it asks is that we not allow the memory to become a prison of bitterness.</li>
@@ -112,9 +113,9 @@ export default function CatholicTeachingOnForgiveness() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Forgiveness IS</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Forgiveness, in the Catholic understanding, is the free decision to release another person from the debt they owe you — not because they deserve it, but because God has released you from a far greater debt. It is:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>A release of the debt.</strong> When someone wrongs you, they incur a kind of moral debt. Forgiveness means canceling that debt — not demanding payment, not waiting for justice, but freely releasing the claim.</li>
                 <li><strong>A freeing of yourself.</strong> Unforgiveness is a chain that binds you to the person who hurt you. Every time you replay the offense, you give them power over your present. Forgiveness breaks that chain — not for their sake, but for yours.</li>
@@ -128,9 +129,9 @@ export default function CatholicTeachingOnForgiveness() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Stages of Forgiveness</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Forgiveness is rarely a single moment. For deep wounds, it is a process — sometimes a long one. Catholic spiritual tradition suggests several stages:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>1. Acknowledge the hurt honestly.</strong> Do not minimize what was done to you. Bring it before God in prayer. Tell Him exactly how you feel — the anger, the grief, the sense of betrayal. The Psalms are full of this kind of raw honesty before God.
               </p>
@@ -145,31 +146,31 @@ export default function CatholicTeachingOnForgiveness() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Forgiving Yourself: The Hardest Forgiveness of All</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Many Catholics find it far easier to forgive others than to forgive themselves. They confess their sins, receive absolution, and yet continue to carry guilt and shame for years — sometimes for a lifetime. This is a spiritual problem, not a virtue.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 When God forgives, He forgives completely. Isaiah 43:25: "I, I am He who blots out your transgressions for my own sake, and I will not remember your sins." To refuse to forgive yourself after receiving God's forgiveness is, in a subtle way, to place your judgment above God's. It is to say: "God may have forgiven me, but I know better — I am not forgivable."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Self-forgiveness does not mean minimizing sin. It means accepting the mercy that God freely offers. It means trusting that the blood of Christ is sufficient — for you, for your specific sin, for the worst thing you have ever done. St. Thérèse of Lisieux understood this deeply: she called her "little way" a path of trusting completely in God's mercy, not in her own worthiness.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Sacrament of Reconciliation as the School of Forgiveness</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 The Sacrament of Reconciliation is not merely a mechanism for removing sin. It is an encounter with the merciful love of God — and it is the school in which we learn to forgive. Every time we go to Confession, we experience what it means to be forgiven: to bring our worst before God and to hear, through the priest, the words of absolution. "I absolve you from your sins in the name of the Father, and of the Son, and of the Holy Spirit."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 This experience of being forgiven is the foundation of our ability to forgive others. We forgive because we have been forgiven. The more deeply we receive God's mercy in Confession, the more naturally we extend mercy to those who have hurt us.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Regular Confession also helps us see our own sinfulness more clearly — which makes it harder to maintain a posture of self-righteous unforgiveness toward others. When we see how much we ourselves need mercy, we become more willing to offer it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saints Who Forgave Heroically</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 The history of the Church is full of saints who forgave in circumstances that seem humanly impossible — and whose forgiveness became a powerful witness to the reality of God's grace.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>St. Maria Goretti</strong> was stabbed fourteen times by Alessandro Serenelli, a young man who had tried to assault her. As she lay dying, she forgave him. Alessandro was imprisoned, and for years he was unrepentant — until he had a dream in which Maria appeared to him, offering him white lilies. He converted, was eventually released, and spent the rest of his life as a lay brother in a Franciscan monastery. He was present at Maria's canonization in 1950. Her mother, Assunta, embraced him at the ceremony.
               </p>

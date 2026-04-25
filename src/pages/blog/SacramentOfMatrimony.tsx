@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SacramentOfMatrimony() {
   return (
@@ -77,16 +78,16 @@ export default function SacramentOfMatrimony() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
                 Marriage in the Catholic Church is not merely a contract but a sacrament—a visible sign of God's invisible grace. Understanding the theology of Catholic marriage illuminates why the Church takes this union so seriously and how spouses participate in the divine life.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Consent: Making the Vows
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               In a sacramental marriage, the couple themselves are the ministers. The priest or deacon serves as the Church's witness, but the man and woman confer the sacrament upon each other through their free, mutual consent. This consent is expressed in the vows—the promises that establish the marriage covenant.
-            </p>
+            </LinkedText>
             <p className="text-text leading-relaxed mb-6 italic bg-accent/10 p-4 rounded-lg">
               "I, [name], take you, [name], to be my wife/husband. I promise to be faithful to you, in good times and in bad, in sickness and in health, to love you and to honor you all the days of my life."
             </p>
@@ -94,47 +95,47 @@ export default function SacramentOfMatrimony() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Two Ends of Marriage
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               Catholic theology identifies two purposes (ends) of marriage, which are equally important and inseparable:
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Good of the Spouses (Unitive)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               Marriage exists for the mutual sanctification and fulfillment of the husband and wife. Through their life together, they support each other's journey toward holiness. The marital embrace itself, when open to life, expresses and strengthens this union.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Transmission of Life (Procreative)
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               Marriage is ordered toward the procreation and education of children. Spouses participate in God's creative work by cooperating with Him in bringing new life into the world and raising children in faith.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Indissolubility: Until Death Do Us Part
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               The Catholic Church teaches that a valid, consummated sacramental marriage is indissoluble—no power on earth can dissolve it. This mirrors Christ's faithful, unbreakable love for His Church. Jesus taught: "What God has joined together, no human being must separate" (Matthew 19:6).
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               This teaching challenges modern assumptions but provides a foundation of security for spouses and children. The permanence of marriage enables the total gift of self that love requires.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Domestic Church
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               The family is called the "domestic church" (Lumen Gentium 11). Parents are the primary educators of their children in faith. The home becomes a place of prayer, forgiveness, and growth in virtue. Family life itself is a path to holiness.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Marriage Preparation
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               The Church requires thorough preparation for marriage, including:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Pre-Cana or engaged encounter programs</li>
               <li>Meetings with the parish priest or deacon</li>
@@ -146,9 +147,9 @@ export default function SacramentOfMatrimony() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Living the Sacrament Daily
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
               The grace of the sacrament is not received only on the wedding day—it flows continually throughout married life. Couples access this grace through:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Prayer together</li>
               <li>Regular Mass attendance</li>

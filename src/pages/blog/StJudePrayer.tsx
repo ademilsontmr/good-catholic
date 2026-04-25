@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StJudePrayer() {
   return (
@@ -64,23 +65,23 @@ export default function StJudePrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
                 St. Jude is one of the most beloved and most invoked saints in the Catholic Church. His name appears in newspaper thank-you notices around the world: "Thank you, St. Jude, for prayers answered." Millions of Catholics have experienced his powerful intercession in their most desperate moments.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
                 If you are facing an impossible situation right now — a serious illness, a broken relationship, a financial crisis, a legal problem, a family emergency — this guide gives you the prayers and the faith to ask St. Jude for his intercession.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why St. Jude for Impossible Cases?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
                 St. Jude Thaddeus was one of the twelve apostles — a cousin of Jesus and the brother of St. James the Less. He is the author of the short Letter of Jude in the New Testament. He was martyred in Persia around 65 AD, traditionally with an axe or club.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
                 The reason St. Jude became associated with impossible cases is somewhat ironic: his name is so similar to Judas Iscariot that for centuries, people were reluctant to invoke him, fearing confusion. As a result, his shrine received few petitions — and when people finally did turn to him, they were in such desperate situations that only a miracle would help. And miracles came. His reputation as the patron of impossible cases grew from there.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
                 St. Jude's feast day is October 28, shared with St. Simon the Apostle.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Traditional Prayer to St. Jude</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
@@ -91,9 +92,9 @@ export default function StJudePrayer() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Nine-Day Novena to St. Jude</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
                 A novena is nine days of prayer for a specific intention. The Novena to St. Jude is one of the most powerful and most prayed novenas in the Catholic Church. Pray this prayer once a day for nine consecutive days.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text font-semibold text-center mb-4">Novena to St. Jude (Daily Prayer)</p>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -126,9 +127,9 @@ export default function StJudePrayer() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray to St. Jude Effectively</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
                 Praying to St. Jude is not magic — it is an act of faith. Here are some principles for praying to him effectively:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Be specific.</strong> Tell St. Jude exactly what you need. God already knows, but naming your need is an act of faith and attention.</li>
                 <li><strong>Pray with faith.</strong> "Whatever you ask in prayer, believe that you have received it, and it will be yours" (Mark 11:24). Pray with confidence in God's power and St. Jude's intercession.</li>

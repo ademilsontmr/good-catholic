@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJosephineBakhita() {
   return (
@@ -59,42 +60,42 @@ export default function SaintJosephineBakhita() {
               <Heart className="w-24 h-24 text-amber-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Saint Josephine Bakhita (c. 1869–1947) is one of the most extraordinary saints in the history of the Catholic Church. Born in Darfur, Sudan, she was kidnapped by slave traders at approximately age seven — the trauma was so severe that she forgot her own name, and her captors gave her the name "Bakhita," which means "lucky" in Arabic. She was sold and resold multiple times, subjected to horrific abuse, and yet emerged from slavery with a heart full of joy, gratitude, and love for God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Her story is not primarily a story of suffering — though she suffered enormously. It is a story of how God can bring light out of the deepest darkness, and how a soul that has been broken by the world can be made whole by grace.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life: Kidnapping and Slavery</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Josephine was born around 1869 in the village of Olgossa in the Darfur region of Sudan. She was the daughter of a village chief and grew up in a loving family. She later recalled her childhood as happy — playing with her siblings, helping her mother, and living in the rhythms of village life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 When she was about seven years old, two strangers came to her village. They lured her away from her home with the promise of showing her something interesting — and then kidnapped her. She was taken to a slave market and sold. The trauma was so severe that she forgot her own name, her family, and even her native language. She would not learn her real name until she was an adult.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Over the next several years, Bakhita was sold multiple times. She was subjected to brutal treatment — beatings, forced labor, and deliberate cruelty. One master had her tattooed with a razor and salt in a pattern of 60 cuts — a mark of ownership that she would carry for the rest of her life. She later said that during this period, she had no knowledge of God, but she felt a deep longing for something she could not name — a longing for the One who had made the beauty of the world she observed.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Italian Consul and the Road to Freedom</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 In 1883, Bakhita was purchased by Callisto Legnani, the Italian consul in Khartoum. For the first time in years, she was treated with kindness. Legnani and his family treated her not as a slave but as a member of the household. She later said that this experience of being treated with dignity was the first step in her journey to God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 When Legnani was forced to leave Sudan due to the Mahdist uprising in 1885, he took Bakhita with him to Italy. She was placed in the care of the Canossian Sisters in Venice to look after the daughter of a friend, Augusto Michieli. It was in the Canossian convent that Bakhita encountered the Catholic faith for the first time.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Encounter with God: "I Have Always Known You"</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 At the Canossian convent, Bakhita received instruction in the Catholic faith. As she learned about God — His love, His mercy, His care for every human being — she recognized something she had always known but never had words for. She later said: "Seeing the sun, the moon, and the stars, I said to myself: Who could be the Master of these beautiful things? And I felt a great desire to see him, to know him, and to pay him homage."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 When she was baptized on January 9, 1890, she received the name Josephine Margaret Fortunata. She was approximately 21 years old. She later described her baptism as the moment when she finally found what she had been searching for all her life: "I felt such a joy that I could not explain it. I was so happy that I could have cried."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 When the Michieli family tried to take her back to Sudan, Bakhita refused to leave the convent. The case went to the Cardinal of Venice, who ruled that since slavery was illegal in Sudan at the time of her birth, she had never legally been a slave — and was therefore free to make her own choices. She chose to stay.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -102,37 +103,37 @@ export default function SaintJosephineBakhita() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Religious Life: The Canossian Sisters</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 On December 8, 1896 — the feast of the Immaculate Conception — Josephine Bakhita made her religious profession as a Canossian Sister. She spent the next 45 years of her life in the convent at Schio, in northern Italy, serving as a cook, seamstress, and doorkeeper.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Her life in the convent was marked by extraordinary joy, gentleness, and love for everyone she encountered. She was known for her warm smile, her patience with difficult people, and her deep prayer life. Children were especially drawn to her — she had a gift for making everyone feel loved and welcomed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 During World War II, when the people of Schio were terrified by bombing raids, Bakhita would walk through the streets, comforting people and saying: "Be calm, be calm. Our Lady is watching over us." Her presence was a source of peace and courage for the entire community.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Death and Canonization</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 In her final years, Bakhita suffered from severe pain in her legs — a consequence of the years of abuse she had endured as a slave. Yet she remained joyful and at peace. Her last words, spoken in delirium, were: "Our Lady! Our Lady! I am so happy. Our Lady!"
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 She died on February 8, 1947, at the age of approximately 78. The entire town of Schio came to pay their respects. She was beatified by Pope John Paul II on May 17, 1992, and canonized on October 1, 2000. Her feast day is February 8.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Josephine Bakhita is the patron saint of Sudan and of victims of human trafficking. She is one of the most beloved saints of the 20th century — a powerful witness to the transforming power of God's love, and a reminder that no human suffering is beyond His redemption.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Bakhita Matters Today</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 In an age when human trafficking remains one of the most widespread human rights abuses in the world — with an estimated 40 million people in modern slavery — Bakhita's story is more relevant than ever. She is a patron and intercessor for all who suffer in slavery, exploitation, and abuse.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 But her story speaks to everyone who has suffered — who has been wounded by the cruelty of others, who has felt forgotten or abandoned, who has wondered whether God is present in their pain. Bakhita's answer, from the depths of her own experience, is an unequivocal yes: God is present, God is good, and God can bring beauty out of the worst that human beings can do to each other.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Pope Benedict XVI, in his encyclical Spe Salvi (2007), held up Bakhita as a model of Christian hope: "This woman who had been a slave, who had suffered so much, had found hope — not a vague hope, but a specific hope: this God exists, this God is good, this God is more powerful than all the forces of evil."
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

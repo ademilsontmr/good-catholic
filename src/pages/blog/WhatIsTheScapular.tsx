@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheScapular() {
   return (
@@ -76,42 +77,42 @@ export default function WhatIsTheScapular() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 If you've ever seen a Catholic wearing what appears to be two small brown cloth squares connected by strings around their neck, you've seen the Brown Scapular. Simple in appearance, profound in meaning — this small sacramental has been worn by saints like St. Thérèse of Lisieux, St. John Paul II, and countless others who entrusted themselves to Our Lady of Mount Carmel. But what exactly is it, where did it come from, and what does it mean to wear one?
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Is a Scapular?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 The word "scapular" comes from the Latin scapulae, meaning "shoulders." In its original form, a scapular was a long piece of cloth worn over the shoulders as part of a religious habit — a practical garment that protected the monk's or nun's clothing while working. Over time, a miniaturized version was created for laypeople as a way of participating in the spirituality of a religious order without taking vows.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 The lay scapular consists of two small rectangular pieces of cloth (usually about 2 inches square) connected by two strings or cords. One panel rests on the chest, the other on the back, with the strings passing over the shoulders. This design symbolizes the yoke of Christ and the protection of Mary. The Brown Scapular specifically is made of brown wool, the color of the Carmelite habit.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The History: Our Lady of Mount Carmel and St. Simon Stock
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 The story of the Brown Scapular begins in 13th-century England. The Carmelite Order, which had originated on Mount Carmel in the Holy Land, was struggling to establish itself in Europe. St. Simon Stock, the Superior General of the Carmelites, was a deeply devout man with a special love for the Virgin Mary. According to Carmelite tradition, on July 16, 1251, Our Lady appeared to St. Simon Stock in Cambridge, England.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 In this apparition, Mary held out the Brown Scapular to St. Simon and spoke the words that have echoed through Catholic history ever since: "Take, beloved son, this scapular of your Order as a badge of my confraternity and for you and all Carmelites a special sign of grace; whoever dies in this will not suffer everlasting fire. It is the sign of salvation, a safeguard in dangers, a pledge of peace and of the covenant."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 This promise — that whoever dies wearing the Brown Scapular will not suffer eternal fire — became known as the Scapular Promise, and it has been the foundation of this devotion for nearly eight centuries. The feast of Our Lady of Mount Carmel is celebrated on July 16, the anniversary of this apparition.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Sabbatine Privilege
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 A second promise associated with the Brown Scapular is known as the Sabbatine Privilege. According to this tradition, Our Lady promised that those who wear the scapular, observe chastity according to their state in life, and recite certain prayers (or have them commuted by a confessor) will be freed from purgatory on the Saturday after their death through Mary's intercession.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 While the historical documentation of the Sabbatine Privilege is debated among theologians, the Church has approved devotion to it and many popes have encouraged it. The key spiritual insight is the same: Mary's maternal care extends even to the souls in purgatory, and she intercedes powerfully for those who have entrusted themselves to her.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">The Promises of Our Lady of the Brown Scapular</h3>
@@ -140,22 +141,22 @@ export default function WhatIsTheScapular() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Be Enrolled in the Brown Scapular
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 To receive the full benefits of the Brown Scapular, a Catholic must be formally enrolled by a priest or deacon who has the faculty to do so. The enrollment is a brief ceremony in which the priest blesses the scapular and places it around the person's neck while reciting the prescribed formula. This enrollment is done only once — after that, if a scapular wears out, you simply replace it with a new one without needing to be re-enrolled.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 To be enrolled, simply ask your parish priest. Many priests are happy to enroll parishioners in the Brown Scapular, especially during Marian feast days or the month of May. Some parishes offer group enrollments. The Carmelite Order also has confraternities specifically dedicated to the Brown Scapular, and enrollment through a Carmelite priest or community is particularly meaningful.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Wear the Brown Scapular
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 The Brown Scapular is worn around the neck, with one panel resting on the chest and the other on the back. It should be worn continuously — day and night — as a sign of your consecration to Mary. The traditional scapular is made of brown wool, but a scapular medal (a medal bearing the image of Our Lady of Mount Carmel on one side and the Sacred Heart on the other) may be substituted with the permission of a confessor.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 If your scapular wears out, tears, or becomes damaged, simply replace it with a new one. You do not need to be re-enrolled. Many Catholics keep a spare scapular on hand for this reason. The scapular can be worn under clothing — in fact, most people wear it under their shirt, close to the skin, as a private sign of their devotion.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Other Types of Scapulars
@@ -174,12 +175,12 @@ export default function WhatIsTheScapular() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Scapular as a Sign of Consecration to Mary
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 At its deepest level, the Brown Scapular is not merely a lucky charm or a piece of religious jewelry. It is a sign of total consecration to Mary — a visible expression of the commitment to live under her mantle, to imitate her virtues, and to entrust oneself completely to her maternal care. St. John Paul II, who wore the Brown Scapular from his youth, described it as "a sign of the covenant with Mary."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 Many spiritual directors recommend combining the wearing of the Brown Scapular with a formal consecration to Mary — such as the 33-day preparation developed by St. Louis de Montfort or the more recent Total Consecration to Jesus through Mary. The scapular then becomes the outward sign of an interior commitment: "I belong to Mary, and through Mary, to Jesus."
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <h3 className="font-display text-lg font-bold text-text mb-3">A Prayer Upon Putting on the Brown Scapular</h3>

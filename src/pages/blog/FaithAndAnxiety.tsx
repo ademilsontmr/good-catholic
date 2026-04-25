@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FaithAndAnxiety() {
   return (
@@ -77,26 +78,26 @@ export default function FaithAndAnxiety() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
                 Anxiety affects millions of Catholics worldwide. While faith offers powerful resources for peace, understanding the relationship between spiritual practice and mental health is essential for authentic healing.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Understanding Anxiety
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
                 Anxiety is a natural human response to perceived threats. However, when anxiety becomes chronic, excessive, or disproportionate to actual danger, it can become a disorder requiring treatment. The Catholic Church recognizes anxiety as a real condition—St. Teresa of Calcutta and St. Padre Pio both experienced severe anxiety and spiritual dryness while remaining holy.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What Scripture Says About Anxiety
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               Scripture addresses anxiety directly. St. Paul writes: "Have no anxiety at all, but in everything, by prayer and petition, with thanksgiving, make your requests known to God. Then the peace of God that surpasses all understanding will guard your hearts and minds in Christ Jesus" (Philippians 4:6-7).
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               Jesus Himself addresses worry: "Do not worry about your life, what you will eat or drink... Can any of you by worrying add a single moment to your life-span?" (Matthew 6:25-27). These passages offer spiritual wisdom, not condemnation.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Spiritual Practices for Anxiety
@@ -105,45 +106,45 @@ export default function FaithAndAnxiety() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Rosary as Meditation
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               The rhythmic repetition of the Rosary induces a meditative state that calms the nervous system. The engagement of mind, body (fingers on beads), and spirit creates holistic focus. Many anxiety sufferers find the Rosary particularly helpful during anxious episodes.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Breathing with the Jesus Prayer
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               The ancient Jesus Prayer—"Lord Jesus Christ, Son of God, have mercy on me, a sinner"—can be synchronized with breathing. Breathe in: "Lord Jesus Christ, Son of God." Breathe out: "Have mercy on me, a sinner." This practice combines contemplative prayer with calming breath work.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Eucharistic Adoration
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               Sitting quietly in the presence of Christ in the Eucharist provides profound peace. The silence, the sacred space, and Christ's Real Presence create an environment where anxiety often naturally subsides. Even brief visits bring calm.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Saints Who Struggled
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               Many saints experienced what we would now recognize as anxiety:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>St. Thérèse of Lisieux:</strong> Experienced debilitating anxiety but offered it as sacrifice</li>
               <li><strong>St. Ignatius of Loyola:</strong> Suffered severe scrupulosity and obsessive thoughts</li>
               <li><strong>Venerable Matt Talbot:</strong> Overame severe anxiety and alcoholism through faith</li>
             </ul>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               These saints show that anxiety does not indicate weak faith. Rather, faith provides resources to carry anxiety with trust in God.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               When to Seek Professional Help
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               The Church encourages professional mental health care when needed. Signs that anxiety requires professional treatment include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Persistent anxiety lasting more than two weeks</li>
               <li>Panic attacks or physical symptoms (racing heart, chest pain)</li>
@@ -151,9 +152,9 @@ export default function FaithAndAnxiety() {
               <li>Sleep disturbances affecting daily functioning</li>
               <li>Suicidal thoughts or severe depression</li>
             </ul>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               Catholic therapists, available through CatholicTherapists.com and similar directories, integrate faith with evidence-based treatment like CBT and medication when appropriate.
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

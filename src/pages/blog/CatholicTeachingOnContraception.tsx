@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnContraception() {
   return (
@@ -65,12 +66,12 @@ export default function CatholicTeachingOnContraception() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Teaching in Brief</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 The Catholic Church teaches that every act of sexual intercourse within marriage must remain open to the possibility of new life. Artificial contraception — any act that deliberately frustrates the procreative potential of the conjugal act — is intrinsically evil. This means it is not merely wrong in some circumstances; it is wrong by its very nature, regardless of the intention or the circumstances.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 The Catechism of the Catholic Church states this clearly:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -79,17 +80,17 @@ export default function CatholicTeachingOnContraception() {
                 <p className="text-text-muted text-sm">— Catechism of the Catholic Church, §2370</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 This teaching applies to all forms of artificial contraception: the pill, condoms, IUDs, sterilization, and any other method that deliberately prevents conception. It does not apply to Natural Family Planning (NFP), which works with the body's natural cycles rather than against them.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Humanae Vitae (1968): The Prophetic Encyclical</h2>
               <p className="text-text leading-relaxed mb-6">
                 <em>Humanae Vitae</em> was issued on July 25, 1968, by Pope Paul VI. It came at a moment of enormous cultural upheaval — the sexual revolution was underway, the birth control pill had been introduced, and many Catholics expected the Church to change its teaching. A papal commission had even recommended allowing contraception. Pope Paul VI rejected that recommendation and reaffirmed the Church's traditional teaching.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 The encyclical was met with immediate controversy. Many theologians publicly dissented. Many Catholics quietly ignored it. But Pope Paul VI made four specific predictions about what would happen if contraception became widely accepted — and all four have been fulfilled:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>A general lowering of moral standards:</strong> The separation of sex from procreation would lead to a broader loosening of sexual morality. This has clearly occurred.</li>
                 <li><strong>A rise in marital infidelity:</strong> When sex is separated from its procreative meaning, it becomes easier to treat as a recreational activity, increasing the temptation to infidelity. Divorce rates and infidelity rates have risen dramatically since 1968.</li>
@@ -105,15 +106,15 @@ export default function CatholicTeachingOnContraception() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theology of the Body Connection</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Pope St. John Paul II's Theology of the Body — a series of 129 Wednesday audiences delivered between 1979 and 1984 — provides the deepest theological foundation for the Church's teaching on contraception. John Paul II argued that the human body is not merely a biological organism but a theological reality: it expresses the person and communicates meaning.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 The conjugal act — the sexual union of husband and wife — has a specific "language." It says, in the language of the body: "I give myself to you totally, completely, without reservation — including my fertility." This is what the marriage vows mean when expressed in the body.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Contraception introduces a lie into this language. When a couple uses contraception, their bodies are saying "I give myself to you totally" — but they are deliberately withholding their fertility. The act says one thing while the intention says another. This is what John Paul II called a "contraception of the language of the body."
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The conjugal act must be both <strong>unitive</strong> (expressing the total self-gift of the spouses to each other) and <strong>procreative</strong> (open to the gift of new life). These two meanings are inseparable. Contraception deliberately separates them — and in doing so, it violates the integrity of the conjugal act.
               </p>
@@ -124,23 +125,23 @@ export default function CatholicTeachingOnContraception() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Contraception Is Intrinsically Evil</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 The term "intrinsically evil" has a precise meaning in Catholic moral theology. An act is intrinsically evil when it is wrong by its very nature — not merely because of bad intentions or harmful consequences, but because of what the act itself is. Intrinsically evil acts cannot be justified by good intentions or good outcomes.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Contraception is intrinsically evil because it deliberately frustrates the procreative meaning of the conjugal act. It is not merely a matter of using a particular method; it is a matter of the will deliberately acting against the procreative potential of the act. This is true regardless of the reason — even if the couple has serious reasons for avoiding pregnancy.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 This is why the Church's teaching cannot be changed by a pope or a council. It is not a disciplinary rule but a moral truth rooted in the nature of the conjugal act and the nature of the human person. As the Catechism states: "Such acts are intrinsically disordered" (CCC 2370).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Natural Family Planning: The Moral Alternative</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 The Church does not teach that couples must have as many children as biologically possible. The Church recognizes that couples may have serious reasons — financial, health-related, or otherwise — for spacing or limiting births. What the Church teaches is that the means used to achieve this must be morally acceptable.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Natural Family Planning (NFP) is the Church's approved method of birth regulation. NFP involves observing and charting the woman's natural fertility signs — including basal body temperature, cervical mucus, and other indicators — to identify fertile and infertile periods. Couples who wish to avoid pregnancy abstain from intercourse during fertile periods.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -149,39 +150,39 @@ export default function CatholicTeachingOnContraception() {
                 <p className="text-text-muted text-sm">— Pope Paul VI, <em>Humanae Vitae</em>, §16 (1968)</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 The Catechism affirms this: "Periodic continence, that is, the methods of birth regulation based on self-observation and the use of infertile periods, is in conformity with the objective criteria of morality" (CCC 2370).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 NFP is not "Catholic birth control" in the sense of being a loophole. The moral difference between NFP and contraception is not merely technical — it is a difference in the nature of the act. NFP works with the body's natural cycles; it does not introduce any artificial barrier or chemical to prevent conception. When a couple using NFP abstains during fertile periods, they are not performing any act against procreation — they are simply not performing the conjugal act at all.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What About Emergency Contraception?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Emergency contraception — including Plan B (the "morning-after pill") and similar drugs — is opposed by the Church for two reasons. First, these drugs can act as contraceptives by preventing ovulation or fertilization. Second, and more seriously, they can act as abortifacients — they can prevent a fertilized egg (a new human being) from implanting in the uterus, effectively causing a very early abortion.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Because of the potential abortifacient effect, the Church opposes emergency contraception absolutely. Even in cases of rape — a horrific crime that deserves compassionate pastoral care — the Church teaches that emergency contraception is not morally acceptable if it acts to destroy a newly conceived human life. Medical treatment to prevent fertilization (not implantation) may be morally permissible in cases of rape, but this requires careful discernment with a moral theologian or confessor.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What About Condoms for Disease Prevention?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Some argue that condoms should be permitted for the prevention of sexually transmitted diseases, even if not for contraception. The Church's position is that condoms are not an acceptable solution to the problem of STDs. The proper response to the spread of sexually transmitted diseases is chastity and fidelity — not the use of contraceptive devices.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 This position is not merely a matter of sexual ethics. It is also a matter of practical effectiveness. Condoms do not provide complete protection against STDs, and their widespread promotion can create a false sense of security that actually increases risky behavior. The Church's approach — promoting chastity before marriage and fidelity within marriage — is the only approach that addresses the root causes of the problem.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">For Catholics Who Have Used Contraception</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Many Catholics — perhaps the majority of married Catholics in the Western world — have used or are currently using artificial contraception. This is a pastoral reality that the Church takes seriously. The Church's teaching is clear, but God's mercy is infinite.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 If you have used contraception and are now aware of the Church's teaching, the appropriate response is to bring this to the Sacrament of Confession. A good confessor will receive you with compassion, help you understand the teaching, and guide you toward living in accordance with it. The Church does not condemn those who have acted in ignorance — but once you know the teaching, you are called to live by it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-contraception">
                 Many couples who have made the transition from contraception to NFP report that it transformed their marriage — deepening their communication, their respect for each other, and their spiritual life together. The Church's teaching, though demanding, is a path to greater love, not a burden.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text font-semibold mb-2">A Note on Conscience:</p>

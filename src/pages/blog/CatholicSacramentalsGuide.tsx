@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSacramentalsGuide() {
   return (
@@ -77,16 +78,16 @@ export default function CatholicSacramentalsGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The Catholic Church teaches that God works through material things because we are material beings. Sacramentals are sacred signs that prepare us to receive grace and dispose us to cooperate with it. Unlike sacraments, which actually confer grace, sacramentals dispose us to receive grace and help us grow in holiness.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Understanding Sacramentals: What They Are and How They Work
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The Catechism of the Catholic Church teaches that sacramentals "do not confer the grace of the Holy Spirit in the way that sacraments do, but by the Church's prayer, they prepare us to receive grace and dispose us to cooperate with it" (CCC 1667).
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Three Types of Sacramentals
@@ -125,9 +126,9 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Holy Water: The Most Common Sacramental
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Holy water is water blessed by a priest with salt, recalling the baptismal waters and the waters that flowed from Christ's side. It's the most frequently used sacramental in Catholic life.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Uses of Holy Water
@@ -143,9 +144,9 @@ export default function CatholicSacramentalsGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Prayer for Blessing Holy Water
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The blessing prayer asks God to bless the water "that it may become a fruitful source of salvation" and "that those who are sprinkled with it may be delivered from all diseases, and that the devil may have no power over those who have been signed with this holy water."
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you understand Catholic sacramentals?"
@@ -155,16 +156,16 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Brown Scapular: Mary's Protection
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The Brown Scapular of Our Lady of Mount Carmel is one of the most popular sacramentals. It consists of two small pieces of brown wool cloth connected by strings, worn over the shoulders.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Scapular Promise
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 According to tradition, Our Lady appeared to St. Simon Stock in 1251 and promised special protection to those who wear the scapular devoutly: "Whosoever dies in this habit shall not suffer eternal fire."
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Conditions for the Scapular Promise
@@ -179,16 +180,16 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Miraculous Medal: Mary's Gift to the World
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 In 1830, the Blessed Virgin appeared to St. Catherine Labouré and requested a medal to be made according to the design shown to her. The medal became known as "miraculous" due to the many graces and conversions attributed to it.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Medal's Design
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The front shows Mary standing on a globe with her hands extended, crushing a serpent under her feet. The back shows an M with a cross above it and the hearts of Jesus and Mary.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Promises of the Medal
@@ -203,9 +204,9 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Catholic Medals: Wearable Faith
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Catholic medals serve as constant reminders of faith and sources of spiritual protection. Popular medals include:
-              </p>
+              </LinkedText>
               
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">Popular Catholic Medals</h3>
@@ -232,23 +233,23 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Rosary: A Prayer and Sacramental
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 While primarily a prayer, the rosary beads themselves are sacramentals. Blessed rosary beads carry special graces for those who pray with them.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Blessing Rosary Beads
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Having rosary beads blessed by a priest makes them sacramentals. The blessing asks that "whoever devoutly uses these beads may obtain abundant fruits from this holy prayer."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Blessed Candles: Light in Darkness
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Blessed candles symbolize Christ as the Light of the World. They're used in many Catholic devotions and ceremonies.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Uses of Blessed Candles
@@ -267,30 +268,30 @@ export default function CatholicSacramentalsGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Blessed Salt
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Blessed salt recalls Christ's words: "You are the salt of the earth." It's used for protection and blessing homes.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Blessed Palms
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Palm branches blessed on Palm Sunday are sacramentals that remind us of Christ's triumphal entry into Jerusalem.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Blessed Ashes
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Ashes blessed on Ash Wednesday are sacramentals that remind us of mortality and the need for repentance.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Blessings as Sacramentals
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The Church's blessings are sacramentals that invoke God's favor. Common blessings include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>House blessings:</strong> Blessing homes and families</li>
                 <li><strong>Vehicle blessings:</strong> Blessing cars and other vehicles</li>
@@ -302,9 +303,9 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Use Sacramentals Properly
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The Church teaches proper use of sacramentals:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Faith:</strong> Use sacramentals with faith in God's power</li>
                 <li><strong>Respect:</strong> Treat sacramentals with reverence</li>
@@ -316,9 +317,9 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Common Misconceptions About Sacramentals
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The Church addresses several misunderstandings about sacramentals:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Not magic:</strong> Sacramentals work through faith, not automatically</li>
                 <li><strong>Not superstition:</strong> They are based on Church teaching, not folk beliefs</li>
@@ -329,9 +330,9 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Sacramentals in Daily Catholic Life
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Integrating sacramentals into daily life:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Morning:</strong> Sign of the Cross with holy water</li>
                 <li><strong>Throughout day:</strong> Wear scapular or medal</li>
@@ -343,9 +344,9 @@ export default function CatholicSacramentalsGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Spiritual Benefits of Sacramentals
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 Sacramentals offer numerous spiritual benefits:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Spiritual protection:</strong> Against temptation and evil</li>
                 <li><strong>Grace preparation:</strong> Disposing souls to receive grace</li>

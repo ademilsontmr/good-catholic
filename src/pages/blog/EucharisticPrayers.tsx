@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EucharisticPrayers() {
   return (
@@ -77,23 +78,23 @@ export default function EucharisticPrayers() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
                 The Eucharist is the source and summit of the Christian life (Lumen Gentium 11). Before the Blessed Sacrament—whether exposed in the monstrance or reserved in the tabernacle—Catholics find the Real Presence of Jesus Christ, body, blood, soul, and divinity.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
                 In Eucharistic adoration, the consecrated Host is displayed in a monstrance on the altar, allowing the faithful to pray in the presence of Christ's Body, Blood, Soul, and Divinity. The practice flows from belief in the Real Presence—Jesus is truly, substantially present under the appearances of bread.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Tradition of the Holy Hour
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               The Holy Hour—a full hour spent in Eucharistic adoration—derives from Jesus' words in Gethsemane: "Could you not keep watch with me for one hour?" (Matthew 26:40). During His agony, Jesus asked His disciples to watch and pray with Him. The Holy Hour responds to this invitation extended across time.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               St. Margaret Mary Alacoque, who promoted devotion to the Sacred Heart, was asked by Jesus to spend a Holy Hour every Thursday night meditating on His agony. Many saints, including St. Josemaría Escrivá and Mother Teresa, made the Holy Hour a cornerstone of their spiritual lives.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What to Do During Adoration
@@ -102,30 +103,30 @@ export default function EucharisticPrayers() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Prayer of Adoration
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               The fundamental attitude in adoration is simply to be present to Christ. Adoration is not about doing many things but about being with the One who loves us. Gaze upon the Host and remember: Jesus sees you, knows you, and loves you infinitely.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Pray the Rosary
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               The Rosary flows naturally in the presence of the Eucharist. The mysteries of Christ's life, death, and resurrection are all oriented toward the Eucharistic sacrifice. Many find their meditation deepened profoundly while praying the Rosary before the Blessed Sacrament.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Read Scripture
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               The Gospel comes alive in the presence of the Word Made Flesh. Read slowly, allowing the sacred text to penetrate your heart. The Emmaus story (Luke 24) is particularly powerful—Jesus revealed Himself in the breaking of bread.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Silent Contemplation
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               Much of adoration should be silent simply resting in Christ's presence. Bring your worries, your hopes, your loved ones, your sins—and lay them before Jesus. Listen in the silence. Sometimes God speaks in words; more often, He speaks in peace.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Powerful Eucharistic Prayers
@@ -148,9 +149,9 @@ export default function EucharisticPrayers() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Personal Benefits of Adoration
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               Regular adoration transforms lives. Those who commit to weekly adoration report:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Increased peace and decreased anxiety</li>
               <li>Greater clarity in decision-making</li>
@@ -163,18 +164,18 @@ export default function EucharisticPrayers() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Finding Eucharistic Adoration
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               Most parishes offer some form of Eucharistic adoration. Common schedules include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>First Friday devotions (24 hours or overnight)</li>
               <li>Weekly Holy Hours</li>
               <li>Perpetual adoration chapels (24/7)</li>
               <li>Adoration before or after daily Mass</li>
             </ul>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
               Check your parish bulletin or website for adoration times. If your parish doesn't offer it, ask your pastor—many are eager to begin if they know there's interest.
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

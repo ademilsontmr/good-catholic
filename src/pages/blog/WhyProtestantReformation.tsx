@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhyProtestantReformation() {
   return (
@@ -82,9 +83,9 @@ export default function WhyProtestantReformation() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Historical Context: A Church in Crisis
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 To understand the Reformation, you have to understand the state of the Church in the late 15th and early 16th centuries. The Catholic Church was the dominant institution in Western Europe — politically, culturally, and spiritually. But it was also deeply troubled.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Corruption at the highest levels</strong> was widespread. Several Renaissance popes — Alexander VI (Rodrigo Borgia), Julius II, Leo X — were more concerned with political power, artistic patronage, and family advancement than with spiritual leadership. Nepotism (appointing relatives to Church offices), simony (buying and selling Church offices), and sexual immorality were common among the clergy.
               </p>
@@ -98,18 +99,18 @@ export default function WhyProtestantReformation() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Martin Luther and the 95 Theses (1517)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 Martin Luther (1483–1546) was an Augustinian friar and professor of theology at the University of Wittenberg. He was a deeply serious, even tormented, man — obsessed with the question of how a sinful human being could stand before a just God.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 His breakthrough came through his study of Paul's Letter to the Romans, particularly Romans 1:17: "The righteous shall live by faith." Luther came to believe that salvation was received entirely through faith — not through works, sacraments, or the mediation of the Church. He called this <em>sola fide</em> (faith alone).
               </p>
               <p className="text-text leading-relaxed mb-6">
                 On October 31, 1517, Luther posted his <strong>95 Theses</strong> — a list of propositions challenging the theology and practice of indulgences — on the door of the Castle Church in Wittenberg. This was a standard academic practice for inviting debate. But thanks to the recently invented printing press, the 95 Theses spread across Europe within weeks.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 What began as a debate about indulgences quickly escalated into a fundamental challenge to Church authority. When Pope Leo X condemned Luther's views in 1520, Luther publicly burned the papal bull. At the Diet of Worms in 1521, Luther refused to recant, famously declaring: "Here I stand. I can do no other. God help me."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Key Theological Disputes
@@ -124,17 +125,17 @@ export default function WhyProtestantReformation() {
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Sola Fide (Faith Alone)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 Luther taught that justification — being made right with God — comes through faith alone, not through works or sacraments. He famously added the word "alone" to Romans 3:28 in his German translation: "a man is justified by faith alone apart from works of the law."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 The Catholic response: James 2:24 explicitly states, "You see that a person is justified by works and not by faith alone." The Catholic Church teaches that we are justified by grace through faith, but that this faith must be living and active — expressed in love and good works. Faith and works are not competitors; they are inseparable.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Priesthood of All Believers</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 Luther rejected the Catholic distinction between clergy and laity, teaching that all baptized Christians share equally in the priesthood of Christ. This had radical implications: it undermined the authority of bishops and priests, the necessity of the sacraments, and the hierarchical structure of the Church.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know Church history?"
@@ -163,19 +164,19 @@ export default function WhyProtestantReformation() {
               <p className="text-text leading-relaxed mb-6">
                 <strong>What the Church maintained:</strong> Trent also clearly defined Catholic doctrine against Protestant challenges. It affirmed the authority of Scripture and Tradition together, the seven sacraments, justification by grace through faith and works, the Real Presence of Christ in the Eucharist, the sacrificial nature of the Mass, Purgatory, and the veneration of saints.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 The Council of Trent produced the Tridentine Mass (the traditional Latin Mass) and the Roman Catechism — two of the most enduring fruits of the Catholic Reformation (sometimes called the Counter-Reformation).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Lasting Damage of Division
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 The Reformation shattered the unity of Western Christianity. Within a generation, Europe was divided into Catholic and Protestant territories, and the religious wars that followed — the Thirty Years' War (1618–1648), the French Wars of Religion, the English Civil War — killed millions and devastated the continent.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 The theological fragmentation has only deepened over time. Protestantism, lacking a central authority, has continued to divide — there are now tens of thousands of Protestant denominations worldwide, each claiming to interpret Scripture correctly. This is precisely the problem that the Catholic Church's Magisterium was designed to prevent.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Ecumenism Today: Vatican II and the Joint Declaration
@@ -190,15 +191,15 @@ export default function WhyProtestantReformation() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How Catholics Should View Protestants Today
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 The Catholic Church does not view Protestants as enemies or as people outside God's grace. Vatican II called them "separated brethren" — brothers and sisters in Christ who share Baptism, Scripture, and faith in the Triune God, but who are not in full communion with the Catholic Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 Catholics should approach Protestants with charity, respect, and a genuine desire for unity. This does not mean pretending that the differences don't matter — they do. But it means recognizing that most Protestants today did not personally choose to leave the Catholic Church; they were born into their tradition, just as most Catholics were born into theirs.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-the-protestant-reformation-happen">
                 The prayer of Jesus in John 17 — "that they may all be one" — remains the goal. The path to that unity runs through honest dialogue, mutual respect, and above all, prayer.
-              </p>
+              </LinkedText>
 
               <div className="bg-violet-50 border border-border rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

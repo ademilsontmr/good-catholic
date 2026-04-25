@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerForJobAndWork() {
   return (
@@ -61,23 +62,23 @@ export default function PrayerForJobAndWork() {
             <div className="prose prose-lg max-w-none">
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Theology of Work</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 Before turning to the prayers themselves, it is worth understanding what the Catholic Church teaches about work — because prayer is most powerful when it flows from a deep understanding of what we are asking and why.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 In his landmark encyclical <em>Laborem Exercens</em> (1981), Pope John Paul II offered the most comprehensive Catholic theology of work ever written. He argued that work is not merely an economic activity — it is a fundamental dimension of human existence. Through work, human beings express and develop their dignity as persons made in the image of God. "Work is a good thing for man," he wrote, "a good thing for his humanity — because through work man not only transforms nature, adapting it to his own needs, but he also achieves fulfillment as a human being and indeed, in a sense, becomes 'more a human being.'"
               </p>
               <p className="text-text leading-relaxed mb-6">
                 John Paul II distinguished between the <em>objective</em> dimension of work (what is produced) and the <em>subjective</em> dimension (what happens to the worker). The subjective dimension is primary: work matters most not for what it produces, but for what it does to the person who works. Every worker — whether a surgeon or a street sweeper — participates in the creative activity of God and contributes to the common good.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 This theology has profound implications for how we pray about work. We do not pray merely for a paycheck — we pray to fulfill our vocation as co-creators with God, to serve our families and communities, and to grow in virtue through the discipline of honest labor.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer to Find a Job</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 Unemployment is one of the most painful experiences a person can face. It strikes at our sense of identity, purpose, and dignity. The Church recognizes this suffering and calls us to bring it to God in prayer.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for Employment</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -86,12 +87,12 @@ export default function PrayerForJobAndWork() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer of Saint Joseph for Work</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 Saint Joseph is the patron saint of workers, laborers, and all who seek employment. He was a carpenter — a craftsman who worked with his hands to provide for the Holy Family. Pope Pius XII established May 1 (May Day, the international workers' holiday) as the feast of Saint Joseph the Worker in 1955, a deliberate act of reclaiming the dignity of labor for the Christian tradition.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 Joseph's work was not glamorous. He was not a king or a philosopher. He was a tradesman in a small town in Galilee. Yet he was chosen by God to be the foster father of the Son of God — to teach Jesus how to work with his hands, to model the dignity of honest labor, and to provide for the Holy Family through the sweat of his brow. In this, Joseph is the model for every worker.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer to Saint Joseph for Work</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -108,9 +109,9 @@ export default function PrayerForJobAndWork() {
               <p className="text-text leading-relaxed mb-6">
                 Saint Benedict of Nursia (480–547), the father of Western monasticism, gave the world one of the most influential rules of life ever written. His motto — <em>Ora et Labora</em> (Pray and Work) — captures the Benedictine vision of the spiritual life: prayer and work are not opposites but partners. The monk who prays well works well, and the monk who works well prays well.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 Benedict taught that work is a form of prayer — that the monk who sweeps the cloister floor with attention and care is offering that act to God just as surely as the monk who chants the Divine Office. This vision of work as prayer has shaped Catholic spirituality for fifteen centuries.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer Before Beginning Work (Inspired by Saint Benedict)</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -119,9 +120,9 @@ export default function PrayerForJobAndWork() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer Before Starting Work Each Day</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 The practice of offering one's work to God at the beginning of each day is one of the most powerful spiritual habits a Catholic can develop. It transforms ordinary labor into an act of worship — what the tradition calls the "Morning Offering." By consciously dedicating our work to God before we begin, we sanctify the entire day.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Morning Offering for Workers</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -130,9 +131,9 @@ export default function PrayerForJobAndWork() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer of Gratitude for Employment</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 Gratitude is the foundation of the spiritual life. When we have work, it is easy to take it for granted — to forget that employment is a gift, that the ability to work is a grace, and that every paycheck represents God's provision for our needs. The prayer of gratitude for employment is a powerful antidote to the ingratitude that can creep into our working lives.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer of Thanksgiving for Work</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -144,17 +145,17 @@ export default function PrayerForJobAndWork() {
               <p className="text-text leading-relaxed mb-6">
                 The Catholic Church's social teaching on work is one of the richest and most developed bodies of thought in the Christian tradition. From Pope Leo XIII's <em>Rerum Novarum</em> (1891) — the founding document of Catholic social teaching — to Pope Francis's <em>Laudato Si'</em> (2015), the Church has consistently defended the dignity of workers and the rights that flow from that dignity.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 These rights include: the right to work, the right to just wages, the right to safe working conditions, the right to rest, the right to organize, and the right to participate in the decisions that affect one's working life. These are not merely political positions — they flow from the Church's understanding of the human person as made in the image of God, with inherent dignity that no economic system can override.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 When we pray for work, we are not just asking for a paycheck. We are asking to participate in the dignity that God has given to human labor — to fulfill our vocation as workers in God's world, to serve our families and communities, and to contribute to the common good.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Patron Saints of Workers</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 The Catholic tradition has a rich treasury of patron saints for workers in every field. Here are some of the most important:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Saint Joseph</strong> — patron of all workers, laborers, and those seeking employment. Feast day: May 1 (Saint Joseph the Worker) and March 19 (Saint Joseph, Spouse of Mary).</li>
                 <li><strong>Saint Benedict</strong> — patron of farmers, students, and those who work with their hands. His motto <em>Ora et Labora</em> (Pray and Work) is the foundation of Benedictine spirituality.</li>

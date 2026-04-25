@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ManagingDepression() {
   return (
@@ -77,16 +78,16 @@ export default function ManagingDepression() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
                 Depression affects millions of people worldwide, including faithful Catholics. While spiritual resources offer profound help, understanding when and how to integrate professional mental health care is essential for authentic healing.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Saints Who Knew Darkness
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
               Many saints experienced what would today be recognized as depression. Their stories offer hope that faithfulness and depression can coexist:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>St. Ignatius of Loyola:</strong> Experienced severe desolation and suicidal thoughts before his conversion</li>
               <li><strong>St. Jane Frances de Chantal:</strong> Endured years of spiritual darkness and depression</li>
@@ -101,30 +102,30 @@ export default function ManagingDepression() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Sacrament of Reconciliation
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
               Depression often brings feelings of worthlessness and guilt. The sacrament of Confession offers healing from sin while providing pastoral guidance. A compassionate priest can help distinguish between genuine sin and the distorted thinking depression causes.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Eucharist: Medicine of Immortality
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
               St. Ignatius of Antioch called the Eucharist the "medicine of immortality." Receiving Holy Communion, even when it doesn't feel consoling, unites us with Christ who experienced abandonment on the cross. The sacrament provides grace that sustains us through darkness.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Psalms of Lament
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
               The Book of Psalms provides divinely inspired words for those in darkness. Psalm 88 expresses raw despair: "My soul is filled with troubles... You have plunged me into the bottom of the pit." Praying these psalms gives voice to suffering while orienting the heart toward God.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Professional Treatment Is Essential
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
               Moderate to severe depression requires professional treatment. The Church encourages Catholics to seek:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Psychotherapy:</strong> Particularly cognitive-behavioral therapy (CBT) and interpersonal therapy</li>
               <li><strong>Psychiatric Care:</strong> When medication may be necessary</li>
@@ -135,9 +136,9 @@ export default function ManagingDepression() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Practical Daily Strategies
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
               Small steps matter enormously when battling depression:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Structure:</strong> Maintain basic routines even when motivation is low</li>
               <li><strong>Movement:</strong> Gentle exercise releases mood-enhancing chemicals</li>
@@ -149,9 +150,9 @@ export default function ManagingDepression() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Hope and Recovery
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
               Depression is treatable. With proper care, most people recover fully or learn to manage symptoms effectively. The darkness is not permanent. As Psalm 30 promises: "Weeping may stay for the night, but rejoicing comes in the morning."
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

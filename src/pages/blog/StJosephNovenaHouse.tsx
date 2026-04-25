@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StJosephNovenaHouse() {
   return (
@@ -76,32 +77,32 @@ export default function StJosephNovenaHouse() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 In the competitive American housing market, where bidding wars, financing challenges, and endless paperwork can overwhelm even the most determined home buyer, countless Catholic families have turned to St. Joseph's powerful intercession. As the foster father of Jesus and the protector of the Holy Family, St. Joseph understands deeply the importance of having a safe, stable home for one's family. His role as the patron saint of home buyers and sellers isn't merely symbolic; it flows from his lived experience as the provider and protector of the very first Christian home.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 The tradition of praying to St. Joseph for housing needs has deep roots in Catholic history, but it has experienced a remarkable resurgence in recent decades as housing costs have soared and the home-buying process has grown increasingly complex. From first-time home buyers struggling to save for a down payment to families moving across the country for new opportunities, the St. Joseph Novena for buying a house has become a spiritual lifeline for those seeking God's providence in one of life's most significant decisions.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why St. Joseph Is the Patron Saint of Home Buyers
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 St. Joseph's patronage of home buyers flows naturally from his role as the head of the Holy Family. When we read the Gospels, we see Joseph constantly working to provide shelter and security for Mary and Jesus. He found a place for Mary to give birth in Bethlehem (Luke 2:7). He led the family as refugees to Egypt to escape Herod's massacre (Matthew 2:14). He established a home in Nazareth where Jesus would grow up (Matthew 2:23). In every circumstance, Joseph's primary concern was providing a safe dwelling for his family.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 The Church has officially recognized St. Joseph's special connection to housing and home life. In 1870, Pope Pius IX declared St. Joseph the patron of the Universal Church, but popular devotion has long recognized him as the protector of homes and families. The traditional understanding is that if St. Joseph could find shelter for the Holy Family in the most challenging circumstances, he can certainly help modern families find suitable homes.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 American Catholics have particularly embraced St. Joseph as the patron of home buyers. In a country where homeownership has long been part of the American dream, Catholic families have discovered that St. Joseph's intercession can help overcome obstacles that seem insurmountable: financing issues, competitive bidding situations, inspection problems, and the stress that often accompanies the home-buying process.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Complete St. Joseph Novena for Buying a House
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 This novena is traditionally prayed for nine consecutive days, asking St. Joseph to intercede for a specific housing need. Whether you're searching for your first home, trying to sell your current house, facing financing challenges, or dealing with a difficult real estate situation, this novena can bring your needs before God through the powerful intercession of St. Joseph.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">How to Pray This Novena</h3>
@@ -145,40 +146,40 @@ export default function StJosephNovenaHouse() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Traditional Practices When Praying for a Home
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 While the novena prayer itself is powerful, Catholic tradition has developed several complementary practices that many families find helpful when praying for housing needs. These practices are not required, but they can deepen your devotion and express your trust in St. Joseph's intercession.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The St. Joseph Statue Tradition
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 One of the most well-known traditions is burying a St. Joseph statue upside down in the yard of a home you wish to sell. This practice, while not officially sanctioned by the Church, has become widespread among Catholic home sellers. The symbolism is that you are "entrusting" the sale of your home to St. Joseph's care. Some families bury the statue near the "For Sale" sign, others near the front door, and some simply place it in a flower pot.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 When the home sells, the tradition is to dig up the statue and place it in a place of honor in your new home as a reminder of St. Joseph's intercession. While this practice might seem unusual to some, it reflects a deep trust in St. Joseph's patronage and a desire to involve him concretely in the home-selling process.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Consecrating Your Home to St. Joseph
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 Many Catholic families choose to consecrate their current or future home to St. Joseph, asking for his ongoing protection and blessing. This can be done with a simple prayer of dedication, asking St. Joseph to watch over your home and family as he watched over the Holy Family. Some families place a St. Joseph statue or image in every room, while others create a small prayer corner dedicated to him.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The St. Joseph Home Blessing
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 When you move into a new home, consider having it blessed in honor of St. Joseph. Many parishes offer home blessings, and you can specifically ask the priest to include prayers to St. Joseph as the protector of homes. Some families also use holy water to bless each room while praying to St. Joseph for his protection.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Specific Prayers for Different Housing Situations
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 While the main novena covers general housing needs, you may want to add specific prayers depending on your situation. Here are some additional prayers for common housing challenges:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">Prayer for First-Time Home Buyers</h3>
@@ -204,9 +205,9 @@ export default function StJosephNovenaHouse() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What to Do While Waiting for an Answer
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 The period between starting your novena and seeing results can be challenging. Here are some practical and spiritual suggestions for this waiting period:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Continue your normal home search efforts.</strong> St. Joseph's intercession doesn't eliminate the need for practical action. Keep looking at listings, working with real estate agents, and preparing your finances.</li>
                 <li><strong>Pray the novena consistently.</strong> Set a specific time each day and stick to it. Consistency demonstrates your trust in God's timing.</li>
@@ -218,28 +219,28 @@ export default function StJosephNovenaHouse() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Stories of St. Joseph's Intercession in Housing Matters
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 Countless Catholic families have stories of remarkable answers to prayer when they turned to St. Joseph for housing needs. These stories, while not official Church teachings, illustrate the powerful intercession that many have experienced:
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 One family in California had been outbid on five different homes in a competitive market. After beginning the St. Joseph Novena, they found a home that had just come on the market, perfectly suited to their needs and budget. The sellers accepted their offer even though it wasn't the highest bid, explaining that they felt "peace" about selling to this family.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 Another family in Texas faced a last-minute financing crisis that threatened to collapse their home purchase. On the final day of their novena to St. Joseph, their loan was miraculously approved through an unexpected program they hadn't known existed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 A family needing to sell their home quickly due to a job transfer prayed the novena while burying a St. Joseph statue in their yard. Their home sold within a week, at their asking price, to a family who specifically mentioned feeling "drawn" to the house.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Moving Forward: Trust in St. Joseph's Continued Protection
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 Whether your housing situation is resolved quickly or takes time to unfold, remember that St. Joseph's care for your family extends far beyond the home-buying process. As the patron of the Universal Church and the model of fatherhood, he continues to watch over Catholic families everywhere, protecting them in both spiritual and practical matters.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 Once you have secured your home, consider establishing an ongoing devotion to St. Joseph. Celebrate his feast days (March 19 and May 1) with special family prayers. Place his image in a place of honor in your home. Teach your children about his role as the protector of the Holy Family. And continue to turn to him in all your family's needs, remembering that the same God who entrusted Jesus and Mary to Joseph's care continues to entrust families to his heavenly intercession today.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

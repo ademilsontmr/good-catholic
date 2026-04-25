@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerForTheSick() {
   return (
@@ -61,20 +62,20 @@ export default function PrayerForTheSick() {
             <div className="prose prose-lg max-w-none">
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Theology of Suffering</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Before turning to the prayers themselves, it is essential to understand what the Catholic Church teaches about suffering — because Catholic prayer for the sick is not simply a request for the removal of pain. It is a participation in the mystery of Christ's redemptive suffering.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 In his apostolic letter <em>Salvifici Doloris</em> (1984), Pope John Paul II offered the most profound Catholic meditation on suffering ever written. He argued that human suffering finds its ultimate meaning in the suffering of Christ. "In the Cross of Christ," he wrote, "not only is the Redemption accomplished through suffering, but also human suffering itself has been redeemed." When a Christian suffers in union with Christ, that suffering is not wasted — it participates in the redemption of the world.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 This does not mean that we should not pray for healing — Jesus himself healed the sick, and the Church has always prayed for physical healing. But it does mean that even when healing does not come, suffering can be transformed. Saint Paul expressed this mystery when he wrote: "I rejoice in my sufferings for your sake, and in my flesh I am filling up what is lacking in the afflictions of Christ on behalf of his body, which is the church" (Colossians 1:24).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer for the Healing of a Loved One</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 When someone we love is sick, our first instinct is to pray for their healing. This is right and good — it is what Jesus himself did, and what he commanded his disciples to do. The prayer for healing is one of the most ancient and powerful prayers in the Christian tradition.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for the Healing of a Loved One</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -83,12 +84,12 @@ export default function PrayerForTheSick() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer to Saint Peregrine for Cancer and Serious Illness</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Saint Peregrine Laziosi (1260–1345) is the patron saint of those suffering from cancer and other serious illnesses. His story is one of the most remarkable in the Catholic tradition. As a young man, he was a political opponent of the Church and once struck Saint Philip Benizi in the face during a confrontation. Philip responded by turning the other cheek — and this act of Christian charity so moved Peregrine that he converted and eventually joined the Servite Order.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Later in life, Peregrine developed a cancerous growth on his leg that was so severe that doctors scheduled an amputation. The night before the surgery, Peregrine spent the night in prayer before a crucifix. He fell asleep and had a vision of Christ descending from the cross to touch his leg. When he awoke, the cancer was gone. He lived to the age of 85 and was canonized in 1726.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer to Saint Peregrine</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -102,12 +103,12 @@ export default function PrayerForTheSick() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer to Saint Dymphna for Mental Illness</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Saint Dymphna is the patron saint of those suffering from mental illness, nervous disorders, and emotional disturbances. She was a 7th-century Irish princess who fled to Belgium with her confessor, Father Gerebernus, to escape her mentally ill father, who had developed an incestuous obsession with her after the death of her mother. Her father eventually found her and, when she refused to return with him, had her beheaded.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Dymphna was buried at Gheel, Belgium, and her tomb became a place of pilgrimage for those suffering from mental illness. The town of Gheel developed a remarkable tradition of caring for the mentally ill in family homes — a tradition that continues to this day and is considered a model of community-based mental health care.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer to Saint Dymphna</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -116,12 +117,12 @@ export default function PrayerForTheSick() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer to Saint Raphael the Archangel for Healing</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Saint Raphael the Archangel is one of the three archangels named in Scripture (along with Michael and Gabriel). His name means "God heals" in Hebrew, and he is the patron saint of healing, physicians, travelers, and the blind. In the Book of Tobit, Raphael accompanies Tobias on his journey and heals his father Tobit's blindness, as well as freeing Sarah from the demon Asmodeus.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Raphael reveals himself at the end of the story: "I am Raphael, one of the seven angels who stand and serve before the Glory of the Lord... I was sent to put you to the test. At the same time, however, God commissioned me to heal you and your daughter-in-law Sarah" (Tobit 12:15, 14).
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer to Saint Raphael for Healing</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -130,9 +131,9 @@ export default function PrayerForTheSick() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer of the Sick Person for Themselves</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Sometimes the most powerful prayer is the one prayed by the sick person themselves — the prayer that rises from the depths of suffering, from the place where human strength has run out and only God remains. This prayer is not a prayer of resignation but of trust — the trust of a child who knows that their Father is present even in the darkness.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer of the Sick Person</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -141,15 +142,15 @@ export default function PrayerForTheSick() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Anointing of the Sick</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 The Anointing of the Sick is one of the seven sacraments of the Catholic Church. It is the sacrament of healing — not only physical healing, but spiritual healing and the strengthening of the soul in the face of serious illness or old age. It is rooted in the practice of the apostles: "They anointed with oil many who were sick and cured them" (Mark 6:13), and in the letter of James: "Is anyone among you sick? He should summon the presbyters of the church, and they should pray over him and anoint him with oil in the name of the Lord, and the prayer of faith will save the sick person, and the Lord will raise him up" (James 5:14-15).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 The sacrament is administered by a priest, who anoints the forehead and hands of the sick person with blessed oil while praying: "Through this holy anointing may the Lord in his love and mercy help you with the grace of the Holy Spirit. May the Lord who frees you from sin save you and raise you up." The effects of the sacrament include: the strengthening of the soul, the forgiveness of sins, the restoration of health (if it is God's will), and the preparation for death.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 If you or a loved one is seriously ill, do not hesitate to call a priest and ask for the Anointing of the Sick. It is not only for those who are dying — it is for anyone who is seriously ill, facing surgery, or suffering from the infirmities of old age.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

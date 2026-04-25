@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FaithMentalHealth() {
     return (
@@ -78,15 +79,15 @@ export default function FaithMentalHealth() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 Anxiety in the Modern World: A Challenge for Christians
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
                                 We live in the age of haste. The demand for productivity, constant comparison on social media, and uncertainties about the future have created an epidemic of anxiety. For Catholics, this challenge is not only psychological but also spiritual. After all, how can we trust in Divine Providence when our heart is restless?
-                            </p>
+                            </LinkedText>
                             <h3 className="font-display text-xl font-bold text-text mt-6 mb-3">
                                 What does the Bible say about excessive worry?
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
                                 Jesus was clear: "Do not worry about tomorrow" (Mt 6:34). However, He does not ignore our pains. The biblical invitation is not to deny problems, but to change focus: from the problem to the Provider.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="How is your inner peace today?"
@@ -96,15 +97,15 @@ export default function FaithMentalHealth() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 The Power of Abandonment to Divine Providence
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
                                 The most powerful antidote against anxiety in the Catholic tradition is "Holy Abandonment." Saints like St. Francis de Sales and St. Thérèse of Lisieux taught us that real peace comes from surrendering control of our lives into God's hands.
-                            </p>
+                            </LinkedText>
                             <h3 className="font-display text-xl font-bold text-text mt-6 mb-3">
                                 The prayer of surrender: "Jesus, I trust in You"
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
                                 Repeating simple ejaculations in moments of crisis helps anchor the mind in eternal truth. Trust is not a feeling, but a decision of the will supported by grace.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 Catholic Practices that Promote Inner Peace
@@ -118,9 +119,9 @@ export default function FaithMentalHealth() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 When Faith and Psychology Meet
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
                                 It is essential to understand that seeking psychological help is not a lack of faith. God acts through science and health professionals. An integrated approach — caring for body, mind, and spirit — is the most effective path to healing and balance in 2026.
-                            </p>
+                            </LinkedText>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">

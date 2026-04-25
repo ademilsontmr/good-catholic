@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSchoolsAmerica() {
   return (
@@ -59,25 +60,25 @@ export default function CatholicSchoolsAmerica() {
               <BookOpen className="w-24 h-24 text-blue-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 Catholic education in America has a remarkable history — built by immigrant communities who sacrificed enormously to give their children a faith-based education, and sustained by generations of religious sisters, brothers, and priests who dedicated their lives to teaching. Today, Catholic schools face new challenges — declining enrollment, rising costs, and questions about Catholic identity — but they remain one of the most powerful instruments of faith formation available to American Catholic families.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The History of Catholic Education in America</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 Catholic education in the United States traces its roots to Saint Elizabeth Ann Seton, who founded the first free Catholic school for girls in Emmitsburg, Maryland, in 1809. Her Sisters of Charity went on to establish schools across the country, laying the foundation for the American parochial school system.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 The Third Plenary Council of Baltimore (1884) mandated that every Catholic parish establish a school within two years — a bold directive that drove the explosive growth of Catholic education in the late 19th and early 20th centuries. By the mid-20th century, the US Catholic school system was the largest private school system in the world, with over 13,000 schools and 5 million students.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 The system has contracted significantly since the 1960s — primarily due to the decline in religious vocations (which provided inexpensive teaching labor) and demographic shifts. But the remaining 6,000+ schools continue to serve nearly 1.6 million students and represent a vital part of the American Catholic landscape.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Academic Case for Catholic Schools</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 The research on Catholic school academic outcomes is consistently positive. Key findings include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Higher graduation rates.</strong> Catholic high school students graduate at higher rates than their public school counterparts, including among low-income and minority students. A landmark study by sociologists James Coleman and Thomas Hoffer found that Catholic schools were particularly effective at educating disadvantaged students.</li>
                 <li><strong>Higher college attendance.</strong> Catholic school graduates attend and complete college at higher rates than comparable public school graduates.</li>
@@ -87,12 +88,12 @@ export default function CatholicSchoolsAmerica() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Faith Formation Case</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 Beyond academics, the primary reason Catholic parents choose Catholic schools is faith formation. A Catholic school is not just a school that happens to have a crucifix on the wall — it is an environment where faith permeates every subject, every relationship, and every aspect of school life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 In a genuinely Catholic school, students:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Attend Mass regularly (weekly or more often)</li>
                 <li>Receive sacramental preparation (First Communion, Confirmation)</li>
@@ -102,9 +103,9 @@ export default function CatholicSchoolsAmerica() {
                 <li>See faith integrated into every subject — science, history, literature, art</li>
                 <li>Develop friendships with peers who share their faith</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 Research by the Center for Applied Research in the Apostolate (CARA) consistently shows that Catholics who attended Catholic schools are more likely to practice their faith as adults — attending Mass regularly, raising their children Catholic, and remaining active in the Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Types of Catholic Schools in America</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -121,9 +122,9 @@ export default function CatholicSchoolsAmerica() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Cost Question: Tuition, Scholarships & Tax Credits</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 Cost is the most significant barrier for many families considering Catholic schools. Here is a realistic picture:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Parish elementary schools:</strong> Average tuition ranges from $3,000 to $8,000 per year, with significant variation by region. Parish members typically receive a discount. Many schools offer sliding-scale tuition based on income.</li>
                 <li><strong>Diocesan high schools:</strong> Average tuition ranges from $8,000 to $15,000 per year.</li>
@@ -141,9 +142,9 @@ export default function CatholicSchoolsAmerica() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Evaluate a Catholic School's Catholic Identity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 Not all schools that call themselves "Catholic" are equally Catholic. Some have drifted significantly from authentic Catholic identity. Here are questions to ask when evaluating a school:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Does the school celebrate Mass regularly? How often?</li>
                 <li>Is the theology curriculum faithful to the Catechism of the Catholic Church?</li>
@@ -154,14 +155,14 @@ export default function CatholicSchoolsAmerica() {
                 <li>How does the school handle issues that conflict with Catholic teaching (e.g., gender ideology, sexual ethics)?</li>
                 <li>What is the school's relationship with the local bishop and diocese?</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 The Cardinal Newman Society (cardinalnewmansociety.org) publishes a Catholic High School Honor Roll that recognizes schools with strong Catholic identity. This is a useful resource for families seeking authentically Catholic secondary education.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Alternatives: Catholic Homeschooling & Online Schools</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 For families who cannot afford Catholic school tuition or who live in areas without a good Catholic school, several alternatives exist:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Catholic homeschooling.</strong> A rapidly growing movement, with excellent curricula available from providers like Seton Home Study School, Mother of Divine Grace, Kolbe Academy, and Memoria Press. Catholic homeschooling families often form co-ops for shared teaching and socialization.</li>
                 <li><strong>Online Catholic schools.</strong> Several accredited online Catholic schools offer full-time programs, including Seton Home Study School, Kolbe Academy Online, and the Chesterton Academy network.</li>

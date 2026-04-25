@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function VocationalDiscernmentGuide() {
   return (
@@ -77,16 +78,16 @@ export default function VocationalDiscernmentGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 In today's world of endless choices and competing voices, the question "What does God want me to do with my life?" can feel overwhelming. Yet the Catholic Church offers a rich tradition of vocational discernment that combines prayer, practical wisdom, and spiritual direction to help us discover God's unique call for each person.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Understanding Catholic Vocations
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 The Catholic Church recognizes that every person has a vocation - a call from God to love and serve in a particular way. While traditionally we speak of four main vocations, the reality is that each person's call is unique and personal.
-              </p>
+              </LinkedText>
               
               <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -116,30 +117,30 @@ export default function VocationalDiscernmentGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Foundation of Vocational Discernment
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 True vocational discernment isn't about finding the "perfect" life plan. It's about discovering how you can best love God and serve others given your unique gifts, circumstances, and calling. The foundation of discernment includes:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 1. Relationship with God
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 You cannot discern God's will without knowing God personally. Regular prayer, especially the Eucharist and Scripture, forms the foundation of discernment. As St. Ignatius of Loyola taught, "God communicates Himself directly to the well-disposed soul."
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 2. Knowledge of Self
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Understanding your gifts, limitations, temperament, and desires is crucial. God calls us according to who we are, not who we think we should be. Honest self-assessment helps us recognize where God might be leading.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 3. Knowledge of the Options
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 You cannot choose what you don't know. Learning about different vocations - talking to married couples, religious, priests, and single people - helps you understand what each call actually involves.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="What is your vocational type?"
@@ -153,9 +154,9 @@ export default function VocationalDiscernmentGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 1: Prayer and Fasting
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Begin with dedicated prayer for vocational clarity. Consider fasting one day a week as you discern. The traditional prayer for vocations is:
-              </p>
+              </LinkedText>
               
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text leading-relaxed italic">
@@ -166,9 +167,9 @@ export default function VocationalDiscernmentGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 2: Information Gathering
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Research different vocations thoroughly:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>For Marriage:</strong> Talk to married couples, read Catholic marriage resources, attend marriage prep programs</li>
                 <li><strong>For Religious Life:</strong> Visit religious communities, read their charisms, talk to religious sisters and brothers</li>
@@ -179,16 +180,16 @@ export default function VocationalDiscernmentGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 3: Spiritual Direction
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Find a qualified spiritual director - someone trained to help others discern God's will. Meet regularly (monthly is typical) to discuss your prayer life, experiences, and discernment process.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 4: Experience Each Vocation
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Experience each vocation you're considering:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Marriage:</strong> Date with intention of marriage, participate in marriage prep</li>
                 <li><strong>Religious Life:</strong> Make "come and see" visits to communities, attend discernment retreats</li>
@@ -199,9 +200,9 @@ export default function VocationalDiscernmentGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Signs of a True Vocation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 The Church identifies several signs that indicate a genuine vocation:
-              </p>
+              </LinkedText>
               
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">General Signs for Any Vocation</h3>
@@ -255,37 +256,37 @@ export default function VocationalDiscernmentGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Common Discernment Challenges
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Discernment is rarely straightforward. Common challenges include:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Fear and Anxiety
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Fear of making the wrong choice is normal. Remember that God's will is not a trap - it's the path to your greatest happiness and fulfillment. Trust that God will guide you if you sincerely seek His will.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 External Pressure
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Family expectations, cultural pressures, or peer influence can cloud discernment. While respecting others' input, ultimately this is between you and God.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Impatience
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Vocational discernment takes time - often years. Trust God's timing and continue growing in your current state of life while you discern.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Spiritual Dryness
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Periods of spiritual dryness are normal. Continue your prayer life even when you don't "feel" anything. God is still working.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Discernment for Different Life Stages
@@ -294,37 +295,37 @@ export default function VocationalDiscernmentGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 For High School Students (14-18)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Focus on building your relationship with God and developing good habits. Learn about different vocations but don't feel pressured to decide anything. Most importantly, grow in prayer and virtue.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 For College Students (18-22)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 This is often when vocational questions become more serious. Take time to explore different options through retreats, visits, and conversations. Begin serious discernment if you feel drawn to a particular vocation.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 For Young Adults (22-30)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 This is often the time for serious decision-making. If you're considering marriage, begin dating with intention. If considering religious life or priesthood, make formal inquiries with communities or dioceses.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 For Adults (30+)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 It's never too late to discern a vocation! Many people discover their calling later in life. Religious communities often have programs for older vocations.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Role of Community in Discernment
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Discernment isn't meant to be done alone. The community of faith plays several crucial roles:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Spiritual Director:</strong> Provides guidance and accountability</li>
                 <li><strong>Family:</strong> Offers support and perspective</li>
@@ -336,9 +337,9 @@ export default function VocationalDiscernmentGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Making the Decision
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 When you feel ready to make a decision:
-              </p>
+              </LinkedText>
               
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Review the Evidence:</strong> Look back at your discernment journey</li>
@@ -348,16 +349,16 @@ export default function VocationalDiscernmentGuide() {
                 <li><strong>Begin Formation:</strong> Take concrete steps toward your chosen vocation</li>
               </ol>
               
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Remember that vocational decisions are not forever irrevocable. If you discern that you've made a mistake, God can redirect you. But always seek confirmation before making major changes.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Living Your Vocation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 Discernment doesn't end when you choose a vocation - it continues throughout your life. Every vocation requires ongoing discernment about how to live it more faithfully.
-              </p>
+              </LinkedText>
               
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>In Marriage:</strong> Continually discern how to love your spouse and family better</li>

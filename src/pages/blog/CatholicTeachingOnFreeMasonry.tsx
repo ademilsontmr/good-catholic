@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnFreeMasonry() {
   return (
@@ -59,20 +60,20 @@ export default function CatholicTeachingOnFreeMasonry() {
               <HelpCircle className="w-24 h-24 text-slate-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 Few topics generate more confusion among Catholics than Freemasonry. Some Catholics are Masons themselves, often having joined before understanding the Church's position. Others have fathers or grandfathers who were Masons and wonder what to make of it. Still others have been told that the Church's condemnation is outdated or that modern Freemasonry is "just a social club." This article addresses all of these concerns with clarity and charity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Freemasonry?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 Freemasonry is a fraternal organization that traces its origins to the stonemason guilds of medieval Europe, though its modern form emerged in England in 1717 with the founding of the Grand Lodge of London. It is organized into local "lodges" and a hierarchical system of "degrees" — the most common being the three degrees of the "Blue Lodge" (Entered Apprentice, Fellow Craft, and Master Mason), with higher degrees available in the Scottish Rite and York Rite.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 Freemasonry is characterized by several distinctive features: secret rituals and oaths, a system of moral teaching using the symbols of stonemasonry (the square, compass, and plumb line), a belief in a generic "Supreme Being" called the "Grand Architect of the Universe," and a commitment to brotherhood across religious lines. Members are required to swear solemn oaths of secrecy under penalty of gruesome symbolic punishments.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 Freemasonry presents itself as compatible with any religion — a man can be a Mason whether he is Christian, Jewish, Muslim, or of any other faith. This religious indifferentism — the idea that all religions are equally valid paths to the same God — is one of the central reasons the Church condemns it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The History of Church Condemnations</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -81,23 +82,23 @@ export default function CatholicTeachingOnFreeMasonry() {
               <p className="text-text leading-relaxed mb-6">
                 This condemnation was repeated and strengthened by subsequent popes: Benedict XIV (1751), Pius VII (1821), Leo XII (1825), Pius VIII (1829), Gregory XVI (1832), and most comprehensively by Pope Leo XIII in his 1884 encyclical <em>Humanum Genus</em>, which described Freemasonry as a kingdom of Satan working to destroy Christian civilization.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 The 1917 Code of Canon Law (Canon 2335) explicitly stated that Catholics who joined Masonic lodges incurred automatic excommunication. When the new Code of Canon Law was promulgated in 1983, the explicit mention of Freemasonry was removed — leading some to conclude that the prohibition had been lifted. This was a serious misreading.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The 1983 CDF Declaration: The Definitive Statement</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 On November 26, 1983 — the very day the new Code of Canon Law took effect — the Congregation for the Doctrine of the Faith (CDF), under Cardinal Joseph Ratzinger (later Pope Benedict XVI), issued a declaration that removed any ambiguity. The declaration stated clearly:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed text-sm">
                   "The faithful who enroll in Masonic associations are in a state of grave sin and may not receive Holy Communion... The Church's negative judgment in regard to Masonic associations remains unchanged since their principles have always been considered irreconcilable with the doctrine of the Church."
                 </p>
                 <p className="text-text-muted text-sm mt-2">— CDF Declaration on Masonic Associations, November 26, 1983</p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 This declaration was approved by Pope John Paul II and published in the Acta Apostolicae Sedis — the official record of the Holy See. It is authoritative and binding. Catholics who are members of Masonic lodges are in a state of grave sin and may not receive Holy Communion until they leave the lodge and go to Confession.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know Catholic teaching?"
@@ -105,9 +106,9 @@ export default function CatholicTeachingOnFreeMasonry() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why the Church Condemns Freemasonry</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 The Church's condemnation of Freemasonry rests on several distinct grounds:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Secret oaths.</strong> Masonic initiation requires members to swear solemn oaths of secrecy under symbolic penalties. The Church teaches that such oaths — sworn to a secret society, binding members to unknown obligations — are morally illicit. Jesus himself said: "Let your yes be yes and your no be no" (Matthew 5:37).</li>
                 <li><strong>Religious indifferentism.</strong> Freemasonry requires belief in a generic "Supreme Being" but treats all religions as equally valid. This is incompatible with the Catholic faith, which holds that Jesus Christ is the unique Savior and that the Catholic Church is the one Church he founded.</li>
@@ -131,15 +132,15 @@ export default function CatholicTeachingOnFreeMasonry() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Do If You or a Family Member Is a Mason</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 If you are a Catholic who is currently a member of a Masonic lodge, the path forward is clear: you must resign from the lodge and go to Confession. This is not a matter of judgment about your character — it is a matter of the objective incompatibility between Masonic membership and Catholic faith. A good confessor will help you navigate this process with compassion.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 If a family member is a Mason, the appropriate response is prayer, charity, and — when the opportunity arises — gentle conversation about the Church's teaching. Avoid confrontation or condemnation. Many Masons are genuinely unaware of the Church's position or the religious nature of Freemasonry. Share this information charitably and let the Holy Spirit do the rest.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 For Catholics who want the benefits of fraternal brotherhood, the Knights of Columbus is an excellent alternative — a Catholic fraternal organization that supports the Church, serves the community, and provides genuine brotherhood without any of the features that make Freemasonry incompatible with Catholic faith.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EucharistRealPresence() {
     return (
@@ -75,22 +76,22 @@ export default function EucharistRealPresence() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 The Early Church's Understanding
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 The Real Presence wasn't invented in the Middle Ages. The earliest Christians understood the Eucharist exactly as Catholics do today. St. Ignatius of Antioch (martyred 107 AD) wrote: "Take note of those who hold heterodox opinions on the grace of Jesus Christ... They abstain from the Eucharist... because they do not confess that the Eucharist is the flesh of our Savior Jesus Christ."
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 St. Justin Martyr (150 AD) explained: "We call this food Eucharist... For we do not receive these as common bread and drink; but... the food which has been made into the Eucharist by the Eucharistic prayer set down by Him, and by the change of which our blood and flesh is nourished, is both the flesh and blood of that incarnated Jesus."
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 St. Augustine (400 AD) famously taught: "Christ bore Himself in His own hands, when He offered His body saying 'This is my body.'" The Church Fathers were unanimous in this belief.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 1. Transubstantiation: The Miracle of Substance Change
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 To explain the miracle of the altar, the Church uses the philosophical framework of St. Thomas Aquinas. Every object has two parts:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-3 mb-8">
                                 <li><strong>Accidents:</strong> The outward properties—color, taste, smell, texture, weight. (These remain "bread and wine" to our senses).</li>
                                 <li><strong>Substance:</strong> The deep reality of what a thing *is*. (This is what changes entirely).</li>
@@ -98,9 +99,9 @@ export default function EucharistRealPresence() {
                             <p className="text-text leading-relaxed mb-6">
                                 In <strong>Transubstantiation</strong>, the *substance* of bread is annihilated and replaced by the *substance* of Christ. Because the accidents remain, it does not taste like flesh, allowing us to receive our Lord in a way that is "unbloody" and "sacramental" rather than cannibalistic.
                             </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 This term was formally adopted at the Fourth Lateran Council (1215) and reaffirmed at Trent, but the reality it describes was always believed. The Council of Trent declared: "If anyone says that in the most holy sacrament of the Eucharist the substance of the bread and the wine remains... let him be anathema."
-                            </p>
+                            </LinkedText>
                             
                             <div className="bg-violet-50 border border-violet-200 rounded-xl p-8 mb-10">
                                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -139,12 +140,12 @@ export default function EucharistRealPresence() {
                             <p className="text-text leading-relaxed mb-6">
                                 Critics claim Jesus was speaking metaphorically. However, the Greek text of John 6 argues otherwise. When the Jews questioned Him, Jesus switched from the common word for "eating" (<em>phagein</em>) to <strong>trogein</strong>, which literally means "to gnaw" or "to chew." 
                             </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 He was making His point as physical as possible. When 70 of His disciples left because "this is a hard saying," Jesus didn't call them back to explain it was "just a symbol." He let them go. He would rather lose His followers than compromise the reality of the Bread of Life.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 Key moments in John 6: Jesus says "I am the bread of life" (v.35), "the bread that I will give is my flesh" (v.51), "unless you eat the flesh of the Son of Man and drink his blood, you have no life in you" (v.53), and "my flesh is true food, and my blood is true drink" (v.55). The Jews understood exactly what He meant—they asked "How can this man give us his flesh to eat?" (v.52).
-                            </p>
+                            </LinkedText>
                             
                             <div className="bg-violet-50 border border-violet-200 rounded-xl p-8 mb-10">
                                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -172,29 +173,29 @@ export default function EucharistRealPresence() {
                             <p className="text-text leading-relaxed mb-6">
                                 Because the Presence is substantial, it does not end when the Mass ends. It continues as long as the "accidents" of bread remain. This is why we have <strong>Eucharistic Adoration</strong>. The Monstrance (from the Latin <em>monstrare</em> - to show) allows us to gaze at the same Jesus who walked the shores of Galilee. It is the most powerful "radiography" for the soul.
                             </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 The practice of Eucharistic adoration developed gradually but has deep roots. St. Francis of Assisi would spend hours in prayer before the Blessed Sacrament. St. Thomas Aquinas wrote the beautiful hymns "Pange Lingua" and "Tantum Ergo" for the Feast of Corpus Christi, established in 1264 to honor the Real Presence.
-                            </p>
+                            </LinkedText>
                             
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 3. The Effects of Receiving the Eucharist Worthily
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 The Catechism teaches that the Eucharist "increases our union with Christ," "separates us from sin," "preserves us from future mortal sins," and "strengthens charity" (CCC 1391-1397). When we receive Jesus in the Eucharist, we receive His divine life into our souls.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 This is why the Church requires us to be in a state of grace (free from mortal sin) before receiving Communion. St. Paul warns that receiving unworthily brings "judgment on oneself" (1 Cor 11:29). The Eucharist is not just a blessing—it is the actual Body of Christ, and it transforms those who receive it properly.
-                            </p>
+                            </LinkedText>
                             
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 4. The Eucharist and the End Times
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 The Eucharist is our foretaste of heaven. In the heavenly Jerusalem, there will be no more temple—"the Lord God Almighty and the Lamb are the temple" (Revelation 21:22). The Mass is our participation in the eternal worship of heaven. Every Mass brings the future into the present.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharist-real-presence">
                                 As Pope Benedict XVI taught: "The Eucharist is the 'medicine of immortality,' the antidote to death. By receiving the Body of Christ, we become partakers of the divine nature and receive the promise of eternal life."
-                            </p>
+                            </LinkedText>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                                 <p className="text-text italic text-center leading-relaxed font-semibold">

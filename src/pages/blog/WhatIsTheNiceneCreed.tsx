@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheNiceneCreed() {
   return (
@@ -85,9 +86,9 @@ export default function WhatIsTheNiceneCreed() {
               <p className="text-text leading-relaxed mb-6">
                 In the 4th century, the battle was over a single Greek word: <strong>Homoousios</strong>. It means "of the same substance." The Arians wanted to add one tiny letter, an "i" (iota), to make it <em>Homoiousios</em>, meaning "of *similar* substance." 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">
                 One letter would have made the difference between Jesus being the Creator or just the greatest creature. The Church stood firm. By professing "consubstantial with the Father," we declare that the Son is exactly as much God as the Father is.
-              </p>
+              </LinkedText>
 
               <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -123,9 +124,9 @@ export default function WhatIsTheNiceneCreed() {
               <p className="text-text leading-relaxed mb-6">
                 The Creed doesn't end with what God did in the past. It ends with an explosive hope: <strong>"I look forward to the resurrection of the dead."</strong> 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">
                 Catholics do not believe in a "disembodied ghost" eternity. We believe our literal bodies will be resurrected, perfected, and rejoined with our souls. The "Life of the world to come" is a physical and spiritual renewal of the entire cosmos.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

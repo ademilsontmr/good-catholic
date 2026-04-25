@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicGriefAndLoss() {
   return (
@@ -59,36 +60,36 @@ export default function CatholicGriefAndLoss() {
               <Heart className="w-24 h-24 text-purple-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 The death of a loved one is a wound that does not heal quickly. Grief is not a problem to be solved or a weakness to be overcome — it is the price of love, and it is holy. The Catholic tradition has accompanied the dying and the bereaved for two thousand years, and it offers a depth of wisdom and consolation that no secular framework can match.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Perspective on Death</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 For Catholics, death is not the end. It is a passage — a transition from this life to the next. The Catechism of the Catholic Church teaches: "Death is the end of man's earthly pilgrimage, of the time of grace and mercy which God offers him so as to work out his earthly life in keeping with the divine plan, and to decide his ultimate destiny" (CCC 1013).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 This does not mean death is not painful or that grief is inappropriate. Jesus Himself wept at the tomb of Lazarus (John 11:35) — the shortest verse in the Bible, and one of the most profound. The Son of God, who knew He was about to raise Lazarus from the dead, still wept. He wept because He loved Lazarus, and because He saw the grief of Mary and Martha, and because death — even temporary death — is a wound in the fabric of creation that was not part of God's original plan.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 Death entered the world through sin (Romans 5:12), and it remains an enemy — "the last enemy to be destroyed" (1 Corinthians 15:26). But Christ has conquered death through His own death and resurrection. For those who die in Christ, death is not the final word. It is the doorway to eternal life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Grief Is Not a Lack of Faith</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 One of the most harmful misconceptions in Christian circles is the idea that grief is a sign of weak faith — that if you truly believed in heaven, you wouldn't be so sad. This is not Catholic teaching. The Church has always recognized grief as a natural, healthy, and even holy response to loss.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 Saint Paul does not tell the Thessalonians not to grieve. He tells them not to grieve "as others do who have no hope" (1 Thessalonians 4:13). The difference is not between grieving and not grieving — it is between grieving with hope and grieving without it. Catholics grieve, but they grieve with the certain hope of resurrection.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 Grief is the soul's response to love interrupted. The deeper the love, the deeper the grief. To suppress grief is not holiness — it is a denial of the love that made the loss so painful. The Catholic tradition invites us to bring our grief to God, to weep before Him as the Psalmist did, and to trust that He holds our tears (Psalm 56:8).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Stages of Grief and the Role of Faith</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 The well-known stages of grief — denial, anger, bargaining, depression, acceptance — are not a rigid sequence but a map of the emotional terrain that many grieving people traverse. Catholic faith can accompany and transform each stage:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Denial.</strong> In the initial shock of loss, the mind protects itself by refusing to accept the reality of death. Faith does not rush past this stage, but it gently insists on truth: the person has died, and that is real. At the same time, faith offers a deeper truth: death is not the final reality. The person lives on in God.
               </p>
@@ -111,9 +112,9 @@ export default function CatholicGriefAndLoss() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayers for the Grieving</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 Prayer is the primary language of grief for Catholics. Here are some prayers that can bring comfort in times of loss:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for the Bereaved</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -128,9 +129,9 @@ export default function CatholicGriefAndLoss() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Sacraments and Community in Grief</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 The Catholic Church surrounds the dying and the bereaved with a rich sacramental and communal life that no secular institution can replicate.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>The Anointing of the Sick</strong> is given to those who are seriously ill or dying. It is not a "last rite" to be feared, but a sacrament of healing and strength — preparing the soul for the final journey and offering the grace of peace and forgiveness.
               </p>
@@ -142,20 +143,20 @@ export default function CatholicGriefAndLoss() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Praying for the Deceased: The Communion of Saints</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 One of the most distinctive and consoling aspects of Catholic faith is the belief in the Communion of Saints — the spiritual bond that unites the living and the dead in Christ. Death does not sever our relationship with those we love. We can still pray for them, and they can pray for us.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 The Church teaches that those who die in God's grace but still need purification undergo Purgatory — a process of final cleansing before entering heaven. Our prayers, Masses, and acts of charity offered for the deceased can help them in this process. This is why Catholics pray for the dead, have Masses offered for them, and observe All Souls' Day (November 2) as a day of prayer for the faithful departed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 This belief transforms grief. We are not simply mourning someone who is gone — we are still in relationship with them, still able to help them, still connected through the Body of Christ. The separation is real, but it is not absolute.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saints Who Suffered Great Losses</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 The saints are not distant figures of perfection — they are companions in suffering who know grief from the inside.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Saint Monica (331–387 AD)</strong> spent decades grieving over her son Augustine — not his death, but his spiritual death, his years of sin and wandering. She wept and prayed for him for thirty years. Her grief was the grief of a mother watching her child destroy himself. And her prayers were answered: Augustine became one of the greatest saints and theologians in Church history. Monica's story is a reminder that grief can be redemptive — that our tears, offered to God, can become instruments of grace.
               </p>
@@ -164,9 +165,9 @@ export default function CatholicGriefAndLoss() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Ways to Support Someone Who Is Grieving</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 If you want to accompany someone in grief, here are some practical, faith-filled ways to help:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Show up.</strong> Don't wait to be asked. Bring food, offer to help with practical tasks, and simply be present. Grief is isolating; your presence breaks the isolation.</li>
                 <li><strong>Say the person's name.</strong> Grieving people are often afraid that their loved one will be forgotten. Saying the deceased person's name — sharing a memory, asking about them — is a profound act of love.</li>

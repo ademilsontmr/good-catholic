@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EasterMassTimes() {
   return (
@@ -80,9 +81,9 @@ export default function EasterMassTimes() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Easter Mass Times 2026 Near You</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 Easter is the most attended Mass of the year — parishes often fill to capacity. Plan ahead and arrive early.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Best Tools to Find Easter Mass Times</h3>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -94,9 +95,9 @@ export default function EasterMassTimes() {
               </ul>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Typical Easter Sunday Mass Schedule</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 Most parishes offer multiple Easter Sunday Masses to accommodate the large attendance:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Early morning Mass: 6am or 7am (sometimes an outdoor "Sunrise Mass")</li>
                 <li>Morning Masses: 8am, 9am, 10am, 11am</li>
@@ -108,21 +109,21 @@ export default function EasterMassTimes() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Easter Vigil: The Most Sacred Night of the Year</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 The Easter Vigil — celebrated on Holy Saturday night (April 4, 2026) — is the most important liturgy of the entire year. It is the night when the Church celebrates the Resurrection of Christ and welcomes new members through Baptism, Confirmation, and First Communion.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 The Easter Vigil has four parts:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>The Service of Light:</strong> The church is in darkness. The Easter fire is lit outside, and the Paschal Candle is blessed and carried into the church. The Exsultet — the ancient Easter proclamation — is sung.</li>
                 <li><strong>The Liturgy of the Word:</strong> Up to nine readings from the Old and New Testaments trace salvation history from creation to the Resurrection. The Gloria is sung for the first time since Ash Wednesday, and the church bells ring.</li>
                 <li><strong>The Liturgy of Baptism:</strong> New Catholics receive Baptism, Confirmation, and First Holy Communion. The entire assembly renews their baptismal promises.</li>
                 <li><strong>The Liturgy of the Eucharist:</strong> The Mass continues with the Eucharist — the first Easter Communion.</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 The Easter Vigil typically lasts 2-3 hours. It is one of the most beautiful and moving liturgies in the Catholic tradition. If you have never attended, make it a priority this year.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your Catholic faith this Easter?"
@@ -132,33 +133,33 @@ export default function EasterMassTimes() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Holy Week 2026: What Happens Each Day</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Palm Sunday (March 29)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 Palm Sunday commemorates Jesus's triumphal entry into Jerusalem. Mass begins with the blessing of palms and a procession. The Passion narrative (the account of Jesus's suffering and death) is read in full — the longest Gospel reading of the year.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Holy Thursday (April 2)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 The Mass of the Lord's Supper commemorates the Last Supper — the institution of the Eucharist and the priesthood. The priest washes the feet of twelve parishioners, imitating Jesus's washing of the apostles' feet. After Mass, the Blessed Sacrament is transferred to an altar of repose, where the faithful keep watch in prayer until midnight.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Good Friday (April 3)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 Good Friday is the only day of the year when Mass is not celebrated. Instead, the Church holds the Celebration of the Lord's Passion — typically at 3pm, the hour of Christ's death. It includes the reading of the Passion, the Veneration of the Cross (kissing or touching the cross), and the distribution of Communion from the reserved Blessed Sacrament.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 Good Friday is a day of fasting and abstinence — the most solemn fast day of the year.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Easter Sunday: The Feast of Feasts</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 Easter Sunday is the greatest feast of the Catholic year — the celebration of the Resurrection of Jesus Christ from the dead. The Catechism calls it "the Feast of feasts, the Solemnity of solemnities" (CCC 1169).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 At Easter Mass, the Gloria and Alleluia — silenced since Ash Wednesday — ring out again. The church is filled with flowers, candles, and white vestments. The Sequence (Victimae Paschali Laudes) is sung before the Gospel. The homily proclaims the Resurrection.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="easter-mass-times-2026">
                 Easter is not just one day — it is a season. The Easter Season lasts 50 days, from Easter Sunday to Pentecost (May 24, 2026). Every Sunday of the Easter Season is a "little Easter."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Preparing Your Heart for Easter</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">

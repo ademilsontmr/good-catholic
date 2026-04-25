@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicFirstCommunion() {
   return (
@@ -59,65 +60,65 @@ export default function CatholicFirstCommunion() {
               <Cross className="w-24 h-24 text-amber-400" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 The day a child receives First Holy Communion is a milestone that Catholic families treasure for a lifetime. It is the moment when a young person — for the first time — receives Jesus Christ truly present in the Eucharist: Body, Blood, Soul, and Divinity. This is not a symbolic gesture or a rite of passage in the cultural sense. It is a real encounter with the living God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 For parents preparing their child, for grandparents attending the Mass, and for anyone who wants to understand what First Communion means in the Catholic faith, this guide covers everything: what the sacrament is, the traditional age, how to prepare, what happens at the Mass, and how to celebrate well.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is First Communion?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 First Communion is the first reception of the Sacrament of the Eucharist. The Eucharist is the source and summit of the Christian life (Catechism of the Catholic Church, 1324) — the sacrament in which bread and wine are truly transformed into the Body and Blood of Jesus Christ through the words of consecration at Mass.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 Catholics believe in the Real Presence: that Jesus is truly, really, and substantially present in the Eucharist — not merely symbolically. This belief is rooted in the words of Jesus himself at the Last Supper ("This is my body... this is my blood") and in John 6, where Jesus says: "My flesh is real food and my blood is real drink. Whoever eats my flesh and drinks my blood remains in me, and I in them."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 First Communion is the second of the three Sacraments of Initiation — Baptism, Eucharist, and Confirmation — that fully incorporate a person into the Catholic Church. While Baptism is typically received as an infant, the Eucharist is received when a child has reached the age of reason and has been properly prepared.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Age for First Communion: The "Age of Reason"</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 The traditional age for First Communion is around 7 years old — what the Church calls the "age of reason" (aetas discretionis). This is the age at which a child is considered capable of distinguishing right from wrong, understanding the difference between ordinary bread and the Eucharist, and receiving the sacrament with basic reverence and faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 This standard was established by Pope St. Pius X in his 1910 decree Quam Singulari, which lowered the age of First Communion from the early teens (where it had drifted in practice) back to the age of reason. Pius X was concerned that children were being deprived of the Eucharist — the greatest source of grace — for too long. He wrote that the age of reason is sufficient for receiving Communion, and that frequent Communion from an early age is greatly beneficial to the soul.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 In practice, most parishes in the United States and around the world celebrate First Communion in second grade, when children are approximately 7–8 years old. Some parishes may celebrate it slightly later, but the principle remains: the child must be able to understand what they are receiving and approach the sacrament with faith and reverence.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Preparation for First Communion</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 Preparation for First Communion is a serious and joyful process that typically takes one to two years. It involves catechesis (religious education), the Sacrament of Reconciliation (Confession), and formation in prayer and the Mass.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. Catechesis and Religious Education</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 Children preparing for First Communion attend religious education classes — either through their parish's CCD (Confraternity of Christian Doctrine) program, a Catholic school, or homeschool religious education. These classes cover the basics of the Catholic faith: who God is, what the sacraments are, the meaning of the Mass, the Real Presence of Jesus in the Eucharist, and how to receive Communion properly.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 Parents play an essential role in this preparation. The Church teaches that parents are the primary educators of their children in the faith. Attending Mass regularly as a family, praying together at home, reading Bible stories, and talking about God in everyday life all form the foundation on which formal catechesis builds.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. First Confession Before First Communion</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 Before receiving First Communion, children must receive the Sacrament of Reconciliation (Confession) for the first time. This is required by Church law (Canon 914) and is deeply meaningful: a child approaches the Eucharist for the first time with a clean conscience, having been forgiven of their sins.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 First Confession typically takes place a few weeks before First Communion. Children are taught how to examine their conscience, how to confess their sins to the priest, and how to make an Act of Contrition. Many children find First Confession to be a surprisingly moving experience — a real encounter with God's mercy.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. The Eucharistic Fast</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 Catholics are required to fast for one hour before receiving Communion — abstaining from food and drink (except water and medicine). This Eucharistic fast is a sign of reverence and helps the communicant approach the sacrament with a spirit of hunger and anticipation. On the day of First Communion, parents should make sure their child has not eaten for at least one hour before Mass.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Practicing How to Receive Communion</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 Children are taught how to receive Communion properly — either on the tongue or in the hand. If receiving in the hand, the child is taught to make a "throne" with their hands (one hand flat on top of the other), receive the host, and then consume it immediately before stepping away. If receiving on the tongue, the child tilts their head back slightly and extends their tongue. Children are also taught to say "Amen" when the minister says "The Body of Christ."
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -125,18 +126,18 @@ export default function CatholicFirstCommunion() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Happens at the First Communion Mass</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 First Communion is celebrated within the context of a regular Sunday Mass or a special Mass dedicated to the First Communicants. The children typically sit together in the front pews, dressed in white — girls in white dresses and veils, boys in white suits or dress clothes — symbolizing the purity and joy of the occasion.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 The Mass follows the normal order of the liturgy. At the time of Communion, the First Communicants are usually the first to receive after the priest. They process to the altar, receive the Eucharist for the first time, and return to their seats for a period of silent thanksgiving — one of the most sacred moments of the entire celebration.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 Parents and family members who are Catholic in good standing may also receive Communion at the same Mass. Non-Catholic family members and those not in a state of grace do not receive Communion, but they are warmly welcomed to attend and witness this beautiful moment.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 After Mass, it is common for parishes to have a brief reception or for families to gather for a celebration meal. Many families take photographs, give gifts, and mark the occasion as a major family milestone.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Tips for Parents: How to Prepare Your Child Well</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -149,9 +150,9 @@ export default function CatholicFirstCommunion() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Celebrate First Communion as a Family</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 First Communion is a family celebration as much as a personal one. Here are some meaningful ways to mark the occasion:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Give a meaningful gift.</strong> A rosary, a Bible, a prayer book, a saint medal, or a beautiful crucifix are all gifts that will last a lifetime and remind the child of this day.</li>
                 <li><strong>Write a letter.</strong> Write your child a letter about what this day means to you and what you hope for their faith life. Seal it and give it to them to open on their wedding day or another milestone.</li>

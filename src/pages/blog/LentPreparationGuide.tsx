@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LentPreparationGuide() {
   return (
@@ -77,16 +78,16 @@ export default function LentPreparationGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
                 Lent is the Church's annual retreat—a 40-day journey of conversion, prayer, fasting, and almsgiving preparing us for the celebration of Easter. Proper preparation ensures this sacred season transforms rather than merely disciplines.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
                 The color purple, used during Lent, signifies penance, preparation, and royalty. The somber tone gradually gives way to anticipation as we approach the Triduum and Easter joy.
-              </p>
-            <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
               The color purple, used during Lent, signifies penance, preparation, and royalty. The somber tone gradually gives way to anticipation as we approach the Triduum and Easter joy.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Preparing Before Lent Begins
@@ -95,9 +96,9 @@ export default function LentPreparationGuide() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Choose Your Sacrifices Wisely
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
               Don't wait until Ash Wednesday morning to decide what to give up. Prayerfully consider:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>What detracts from your relationship with God?</strong> Social media, excessive entertainment, gossip?</li>
               <li><strong>What would truly cost you something?</strong> Meaningful sacrifice bears spiritual fruit</li>
@@ -108,9 +109,9 @@ export default function LentPreparationGuide() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Plan Your Prayer Life
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
               Lent without increased prayer is just dieting. Consider:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Daily Mass (even once or twice a week)</li>
               <li>The Stations of the Cross on Fridays</li>
@@ -127,23 +128,23 @@ export default function LentPreparationGuide() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Prayer: Deepening Relationship with God
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
               Lenten prayer should include both penitential elements and intimacy with God. The Church offers special Lenten prayers and liturgies. Make time for silent prayer—allow God to speak to your heart. Consider a weekend retreat if possible.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Fasting: Discipline for Freedom
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
               Fasting teaches us that we are not slaves to our desires. The Church requires fasting on Ash Wednesday and Good Friday (ages 18-59) and abstinence from meat on Fridays. But consider going beyond the minimum—perhaps fasting from complaining, criticism, or anxiety.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Almsgiving: Love in Action
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
               Almsgiving frees us from attachment to material things while serving those in need. Options include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Traditional charity donations (Lenten collection for the poor)</li>
               <li>Service to those in need (soup kitchens, visiting the sick)</li>
@@ -158,16 +159,16 @@ export default function LentPreparationGuide() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Stations of the Cross
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
               This devotional practice, typically done on Fridays, meditates on Christ's passion. Walk the 14 stations, either at church or at home, entering into the mystery of Christ's suffering for our salvation.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Sacrament of Reconciliation
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
               Lent is the privileged time for confession. The Church encourages all Catholics to receive this sacrament during Lent to prepare for Easter. Many parishes offer penance services with multiple priests available.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Common Pitfalls to Avoid

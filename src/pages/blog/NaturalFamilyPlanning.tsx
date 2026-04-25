@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NaturalFamilyPlanning() {
   return (
@@ -76,22 +77,22 @@ export default function NaturalFamilyPlanning() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Every year, thousands of American Catholic couples encounter NFP for the first time — often in marriage preparation classes — and walk away with more questions than answers. What exactly is NFP? Why does the Church require it? Is it really effective? And what's the actual moral difference between NFP and contraception? This guide answers all of those questions clearly and charitably.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Is Natural Family Planning?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Natural Family Planning is an umbrella term for a family of fertility awareness-based methods (FABMs) that allow couples to identify the fertile and infertile phases of a woman's menstrual cycle. By observing biological signs — such as cervical mucus, basal body temperature, and the position of the cervix — couples can determine when conception is and is not likely to occur.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 NFP is not the old "rhythm method," which relied solely on calendar calculations and had a poor track record. Modern NFP methods are based on decades of scientific research and are far more sophisticated. They work with the body's natural signs rather than suppressing them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Couples use NFP for two purposes: to achieve pregnancy (by identifying the fertile window) or to postpone pregnancy (by abstaining from intercourse during the fertile phase). The Church supports both uses, provided couples have a serious reason for postponing pregnancy.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Church's Teaching: Humanae Vitae (1968)
@@ -119,28 +120,28 @@ export default function NaturalFamilyPlanning() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Theology of the Body: The Deeper Why
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Pope John Paul II's Theology of the Body — a series of 129 Wednesday audiences delivered between 1979 and 1984 — provides the richest theological foundation for understanding why the Church teaches what it does about NFP and contraception.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 John Paul II taught that the human body is not merely a biological machine but a "theology" — it reveals something about God and about the meaning of human existence. The sexual union of husband and wife is meant to be a sign of the total, faithful, fruitful, and free self-gift of the spouses to each other. Contraception, he argued, introduces a lie into this language of the body: it says "I give myself to you" while simultaneously withholding one's fertility.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 NFP, by contrast, respects the full meaning of the marital act. When a couple abstains during the fertile phase, they are not contracepting — they are choosing not to engage in the marital act at all during that time. The acts they do engage in remain fully open to life. This is a crucial distinction.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Moral Distinction: NFP vs. Contraception
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Many people ask: "If the end result is the same — no pregnancy — what's the moral difference between NFP and contraception?" This is a fair question that deserves a careful answer.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 The moral difference lies not in the intention but in the act itself. Catholic moral theology distinguishes between acts that are intrinsically ordered toward a good end and acts that are intrinsically disordered. Contraception involves a deliberate act to render the marital act infertile — it attacks the procreative meaning of the act itself. NFP involves no such act. The couple simply chooses when to engage in the marital act, and every act they engage in remains fully open to life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 An analogy: there is a moral difference between fasting (choosing not to eat) and purging (eating and then deliberately eliminating the food). Both result in not consuming calories, but one respects the natural order of eating while the other violates it.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know Catholic teaching on marriage?"
@@ -154,45 +155,45 @@ export default function NaturalFamilyPlanning() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 1. The Creighton Model FertilityCare System
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Developed by Dr. Thomas Hilgers at Creighton University in the 1970s, the Creighton Model is a standardized, scientifically validated method based on the observation of cervical mucus. It is taught by certified FertilityCare Practitioners and is closely linked to NaProTechnology — a medical approach that uses NFP data to diagnose and treat underlying reproductive health issues. The Creighton Model is particularly popular among American Catholics and has an extensive network of practitioners across the country.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 2. The Billings Ovulation Method
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Developed by Drs. John and Evelyn Billings in Australia in the 1950s, the Billings Ovulation Method (BOM) is also based on cervical mucus observation. It is one of the most widely used NFP methods in the world, with teachers in over 100 countries. The World Health Organization has recognized the Billings Method as an effective method of family planning. It is simple to learn and can be used by women with irregular cycles, during breastfeeding, and approaching menopause.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 3. The Sympto-Thermal Method (STM)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 The Sympto-Thermal Method combines the observation of cervical mucus with basal body temperature (BBT) charting and, optionally, cervical position. By cross-checking two or more biological signs, STM provides additional confirmation of the fertile window. The Couple to Couple League (CCL), founded in 1971, is the primary organization teaching STM in the United States and has helped hundreds of thousands of Catholic couples learn NFP.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How Effective Is NFP?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 When used correctly and consistently, modern NFP methods are highly effective. Studies have shown:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>The Creighton Model: 99.5% effective with correct use</li>
                 <li>The Billings Ovulation Method: 97–99% effective with correct use</li>
                 <li>The Sympto-Thermal Method: 99.6% effective with correct use</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 These figures are comparable to or better than many forms of hormonal contraception. The key qualifier is "correct use" — NFP requires learning, charting, and communication between spouses. Couples who invest in proper instruction from a certified teacher see the best results.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Benefits Beyond Birth Control
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 NFP practitioners consistently report benefits that go far beyond family planning:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4"><strong>Health benefits:</strong> NFP involves no hormones, no devices, and no side effects. Women who chart their cycles often discover underlying health issues — such as polycystic ovary syndrome (PCOS), endometriosis, or thyroid disorders — that might otherwise go undiagnosed. NaProTechnology uses NFP data to treat infertility with success rates that rival or exceed IVF.</p>
               <p className="text-text leading-relaxed mb-4"><strong>Communication and intimacy:</strong> NFP requires couples to talk openly about their fertility, their desires, and their family planning goals. Many couples report that this communication deepens their intimacy and strengthens their marriage. Studies have shown that NFP-using couples have significantly lower divorce rates than the general population.</p>
               <p className="text-text leading-relaxed mb-4"><strong>Respect for fertility:</strong> NFP invites couples to see fertility not as a problem to be suppressed but as a gift to be respected. This shift in perspective can transform how spouses see each other and how they approach the gift of children.</p>
@@ -204,39 +205,39 @@ export default function NaturalFamilyPlanning() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "NFP is just Catholic contraception."
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 This objection misunderstands the moral distinction explained above. NFP does not involve any act that renders the marital act infertile. The Church does teach that NFP can be used with a "contraceptive mentality" — that is, with a selfish refusal to be open to children — and that this would be sinful. But the method itself is morally neutral; it is the intention and disposition of the couple that matters.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "The Church is just trying to control women's bodies."
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 The Church's teaching on NFP is rooted in a profound respect for the female body. It is contraception — particularly hormonal contraception — that treats the female reproductive system as a problem to be suppressed. NFP invites women to understand and work with their bodies rather than against them.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "NFP is too hard and doesn't work."
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 NFP does require learning and commitment. But so does any worthwhile skill. Couples who receive proper instruction from a certified teacher and who chart consistently report high satisfaction and effectiveness. The difficulty is real but manageable — and many couples say the effort is worth it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Resources for Learning NFP
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 If you're interested in learning NFP, here are the main organizations that offer instruction in the United States:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Creighton Model:</strong> FertilityCare Centers of America (fertilitycare.org)</li>
                 <li><strong>Billings Ovulation Method:</strong> Billings Life (billingslife.org)</li>
                 <li><strong>Sympto-Thermal Method:</strong> Couple to Couple League (ccli.org)</li>
                 <li><strong>General NFP resources:</strong> United States Conference of Catholic Bishops (usccb.org/topics/natural-family-planning)</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Many dioceses also offer NFP instruction through their marriage preparation programs. Ask your parish priest or deacon for local resources.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed">

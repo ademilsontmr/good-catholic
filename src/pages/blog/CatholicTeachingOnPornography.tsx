@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnPornography() {
   return (
@@ -59,47 +60,47 @@ export default function CatholicTeachingOnPornography() {
               <Shield className="w-24 h-24 text-slate-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 In an age when pornography is accessible to anyone with a smartphone, the Catholic Church's teaching on this subject is more urgent than ever. Millions of Catholics — men and women, young and old, married and single — struggle with pornography use, often in silence and shame. The Church does not ignore this reality. It addresses it with both moral clarity and pastoral compassion.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says: CCC 2354</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 The Catechism of the Catholic Church addresses pornography directly in paragraph 2354:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed">
                   "Pornography consists in removing real or simulated sexual acts from the intimacy of the partners, in order to display them deliberately to third parties. It offends against chastity because it perverts the conjugal act, the intimate giving of spouses to each other. It does grave injury to the dignity of its participants (actors, vendors, the public), since each one becomes an object of base pleasure and illicit profit for others. It immerses all who are involved in the illusion of a fantasy world. It is a grave offense."
                 </p>
                 <p className="text-text-muted text-sm mt-2">— Catechism of the Catholic Church, 2354</p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 This is a dense paragraph worth unpacking. The Catechism identifies several distinct harms: the perversion of the conjugal act (sex as a gift between spouses), the reduction of persons to objects, the injury to the dignity of all involved, and the creation of a false fantasy world that distorts reality. The Catechism calls it "a grave offense" — language that signals serious moral weight.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Is Pornography a Mortal Sin?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 For a sin to be mortal, three conditions must be met: it must involve grave matter, the person must have full knowledge that it is wrong, and the person must give full consent of the will. The Catechism's description of pornography as "a grave offense" establishes the first condition. When a person knowingly and freely chooses to view pornography, all three conditions are typically met, making it a mortal sin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 However, the Church also recognizes that addiction can diminish full consent of the will. Someone in the grip of a serious pornography addiction may have their freedom significantly impaired. This does not make the behavior morally neutral, but it does affect the degree of personal culpability. The Church calls such people not to despair but to seek healing — through the sacraments, spiritual direction, and professional support.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theology of the Body: Pornography and Human Dignity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 Pope John Paul II's Theology of the Body — a series of 129 catechetical addresses delivered between 1979 and 1984 — provides the deepest Catholic framework for understanding why pornography is wrong. John Paul II argued that the human body is not merely a biological organism but a "theology" — a visible sign of invisible spiritual realities. The body reveals the person, and the sexual union of husband and wife is meant to be an icon of the self-giving love of the Trinity.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 Pornography, in this framework, is a profound desecration. It takes what is meant to be a sacred, personal, self-giving act and turns it into a commodity — something to be consumed for personal gratification. It reduces persons made in the image of God to objects. John Paul II coined the term "the pornographic gaze" — a way of looking at another person that strips them of their personhood and sees them only as a body to be used.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 The antidote, John Paul II taught, is not to look away from the body but to learn to see it rightly — with what he called "the redemption of the body." This means learning to see every person as a subject, a soul, a child of God — never merely as an object.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Pornography Harms the Soul</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 The spiritual damage caused by pornography is real and serious. Regular pornography use:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Darkens the intellect.</strong> It trains the mind to see persons as objects, making it harder to see others — and oneself — with the dignity they deserve.</li>
                 <li><strong>Weakens the will.</strong> Each act of viewing pornography makes the next act easier and the will weaker. Over time, what began as a choice becomes a compulsion.</li>
@@ -109,17 +110,17 @@ export default function CatholicTeachingOnPornography() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Pornography Harms the Brain</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 Modern neuroscience has confirmed what the Church has always taught morally: pornography is genuinely harmful. Research shows that pornography use activates the same neural pathways as drug addiction. The brain releases dopamine in response to pornographic images, creating a reward loop that drives compulsive behavior. Over time, the brain requires more extreme content to achieve the same effect — a phenomenon known as tolerance.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 Studies have also shown that pornography use is associated with reduced gray matter in the prefrontal cortex — the part of the brain responsible for decision-making, impulse control, and moral reasoning. In other words, pornography literally impairs the brain's capacity for the very virtues — prudence, temperance, self-control — that the Catholic tradition has always valued.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Pornography Harms Relationships</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 Pornography does not stay in the private world of the individual. It spills over into relationships — especially marriage. Research consistently shows that pornography use is associated with:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Decreased sexual satisfaction with a real partner</li>
                 <li>Unrealistic expectations about sex and the body</li>
@@ -127,9 +128,9 @@ export default function CatholicTeachingOnPornography() {
                 <li>Increased rates of infidelity and divorce</li>
                 <li>Trauma and betrayal for spouses who discover a partner's pornography use</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 For married Catholics, pornography is a particular betrayal. The Catechism teaches that marriage is a sacrament — a visible sign of Christ's love for the Church. Pornography introduces a third party into the most intimate dimension of marriage, violating the exclusivity and totality of the marital covenant.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -137,27 +138,27 @@ export default function CatholicTeachingOnPornography() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Path to Freedom</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 The Church does not simply condemn pornography and leave people to struggle alone. It offers a rich tradition of spiritual resources for those seeking freedom. Here are the key elements of the Catholic path to healing:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. Frequent Confession</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 The Sacrament of Reconciliation is the primary means of healing for those struggling with pornography. Confession is not merely a ritual of forgiveness — it is an encounter with the mercy of Christ that restores grace, strengthens the will, and provides the spiritual power to resist temptation. Many saints and spiritual directors recommend going to confession frequently — even weekly — for those in the grip of serious habitual sin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 It is important to confess pornography use specifically and honestly. A good confessor will not be shocked — priests hear these confessions regularly. Many will offer practical spiritual advice alongside absolution.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. Spiritual Direction</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 A spiritual director — a priest or trained lay person who accompanies another in the spiritual life — can provide ongoing support, accountability, and guidance. Spiritual direction is particularly valuable for those struggling with habitual sin because it addresses the deeper spiritual roots of the problem, not just the surface behavior.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. Practical Safeguards</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 Freedom from pornography requires both spiritual and practical measures. Practical safeguards include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Internet filters:</strong> Tools like Covenant Eyes, Bark, or Circle provide accountability and filtering. Covenant Eyes, in particular, is designed with a Catholic-friendly accountability model.</li>
                 <li><strong>Device management:</strong> Keeping devices in common areas, avoiding screens in the bedroom, and setting screen time limits.</li>
@@ -165,9 +166,9 @@ export default function CatholicTeachingOnPornography() {
               </ul>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Support Groups</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 For those with a serious pornography addiction, support groups can be transformative. Catholic-specific resources include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Integrity Restored</strong> — a Catholic apostolate dedicated to helping people overcome pornography addiction</li>
                 <li><strong>Strive 21</strong> — a 21-day Catholic program for breaking free from pornography</li>
@@ -176,17 +177,17 @@ export default function CatholicTeachingOnPornography() {
               </ul>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">5. Marian Devotion</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 Many Catholics who have found freedom from pornography credit devotion to the Blessed Virgin Mary as a key element of their healing. The Rosary, in particular, is a powerful weapon against temptation. Mary is the model of purity and the refuge of sinners. Consecrating oneself to her — through the Total Consecration of St. Louis de Montfort or the 33-day preparation of Fr. Michael Gaitley — places one under her maternal protection.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 The Brown Scapular, worn as a sign of consecration to Mary, is another traditional Catholic devotion associated with protection from temptation and the grace of final perseverance.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">6. The Eucharist and Daily Prayer</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 Regular reception of the Eucharist — the Body, Blood, Soul, and Divinity of Jesus Christ — is the greatest source of grace available to Catholics. Those struggling with pornography are encouraged to attend daily Mass when possible, to make frequent spiritual communions, and to spend time in Eucharistic Adoration. The presence of Christ in the Blessed Sacrament is a powerful antidote to the emptiness that often drives pornography use.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicismAndEvolution() {
   return (
@@ -123,9 +124,9 @@ export default function CatholicismAndEvolution() {
                  <Microscope className="w-6 h-6 text-accent" />
                  Mendel and Lemaître: The Pioneers
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">
                 Far from being afraid of evolution, Catholics actually founded the sciences that support it:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>Gregor Mendel:</strong> An Augustinian friar who founded <strong>Genetics</strong>. Without his work, Darwin's theory of natural selection would have remained a "black box" without a mechanism for heredity.</li>
                 <li><strong>Georges Lemaître:</strong> A Catholic priest who proposed the <strong>Big Bang Theory</strong>. When he first presented it, atheists mocked it as "too religious" because it implied a moment of "Let there be light."</li>

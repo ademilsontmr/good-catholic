@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSocialTeachingToday() {
   return (
@@ -77,83 +78,83 @@ export default function CatholicSocialTeachingToday() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
                 Catholic social teaching offers timeless principles for addressing contemporary challenges. From Pope Leo XIII's Rerum Novarum to Pope Francis's Laudato Si', the Church provides wisdom for navigating poverty, migration, economic inequality, and environmental crisis.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Foundations of Catholic Social Teaching
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Catholic social teaching rests on several key principles: the dignity of the human person, the common good, solidarity, subsidiarity, and preferential option for the poor. These principles, developed over more than a century of papal teaching, provide a framework for evaluating political and economic systems.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Poverty and Economic Justice
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Despite global economic growth, billions remain in poverty. Catholic teaching insists that economic systems exist to serve human persons, not vice versa. Pope Francis has been particularly vocal about an "economy of exclusion" that leaves the poor on the margins.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               The Church does not endorse any particular economic system—neither unrestricted capitalism nor state socialism. Instead, it insists on moral limits: just wages, fair distribution of resources, and the universal destination of goods. As St. John Paul II taught, the free market must be circumscribed within a strong juridical framework that serves human dignity.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Migration and the Human Family
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Global displacement has reached unprecedented levels—over 100 million people are forcibly displaced. Catholic teaching on migration begins with the recognition that all people share a common humanity and have a right to seek conditions worthy of human life.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Nations have a right to secure borders, but also an obligation to welcome strangers. Pope Francis has emphasized that migrants are not statistics but persons created in God's image. The parable of the Good Samaritan provides the model: seeing the stranger as neighbor.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Care for Our Common Home
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Pope Francis's encyclical Laudato Si' (2015) placed ecological concerns firmly within Catholic social teaching. The environmental crisis is not merely technical or political—it is moral and spiritual, reflecting a broken relationship between humanity and creation.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               The Church calls for an "integral ecology" that connects environmental protection with human development. The poor suffer most from environmental degradation, making ecology a justice issue. Catholics are called to live more simply and advocate for policies that protect both the poor and the planet.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Life Issues and the Seamless Garment
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Cardinal Bernardin taught that Catholic moral teaching forms a "seamless garment"—consistent respect for life from conception to natural death. This includes opposition to abortion, euthanasia, the death penalty, and unjust war, alongside advocacy for the poor, migrants, and marginalized.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Some seek to prioritize certain issues over others, but Catholic teaching insists on consistency. A politician cannot claim to be "pro-life" while ignoring poverty, nor "pro-justice" while supporting abortion. The Church's moral vision is integrated and demands coherence.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Religious Freedom and the Common Good
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Religious freedom is not merely freedom of worship but freedom to live faith publicly. As societies become more secular, Catholics face pressure to compartmentalize religion. The Church resists this, insisting that faith has public implications for law, culture, and policy.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               At the same time, religious freedom applies to all—not just Catholics. The Church defends the right of Muslims, Jews, and others to practice their faith freely, even as she seeks to evangelize. True religious freedom includes the right to change one's religion.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Technology and Human Flourishing
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Rapid technological change raises ethical questions: artificial intelligence, genetic engineering, digital surveillance. Catholic teaching evaluates technology not by capability but by contribution to human flourishing. What serves dignity and communion is good; what degrades or isolates is problematic.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Role of the Laity
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               Catholic social teaching is primarily the vocation of the laity, who inhabit the worlds of politics, business, and culture. The Church provides principles, but lay Catholics must apply them prudently in concrete circumstances, respecting legitimate pluralism in prudential judgments.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
               This means Catholics can disagree in good faith about specific policies while remaining faithful to the Church's moral framework. The challenge is to think with the Church while navigating complex political realities.
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

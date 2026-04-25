@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GospelReadingToday() {
   return (
@@ -64,12 +65,12 @@ export default function GospelReadingToday() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 The Gospel reading is the most important Scripture reading at every Catholic Mass. It is the only reading for which the congregation stands, the only one preceded by a solemn acclamation, and the only one that can be proclaimed only by an ordained minister (deacon or priest). It contains the words and deeds of Jesus Christ Himself.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Millions of Catholics search for "gospel reading today" every single day — wanting to know what the Church is reading, to prepare for Mass, to pray with the Word of God, or simply to stay connected to the liturgical life of the Church. This guide shows you exactly how to find it and how to use it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where to Find Today's Catholic Gospel Reading</h2>
 
@@ -77,17 +78,17 @@ export default function GospelReadingToday() {
               <p className="text-text leading-relaxed mb-6">
                 The United States Conference of Catholic Bishops website provides the complete daily Mass readings — including the Gospel — at <strong>usccb.org/bible/readings</strong>. It is updated automatically each day and is the most authoritative source for Catholics in the United States.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 The USCCB site uses the NABRE (New American Bible Revised Edition) — the official translation used at Mass in the US. It includes the full text of all readings, the responsorial psalm, and the Gospel acclamation verse.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. Laudate App — Best Free Catholic App</h3>
               <p className="text-text leading-relaxed mb-6">
                 The <strong>Laudate app</strong> (free, iOS and Android) is the most popular Catholic app in the world. It displays the daily Mass readings — including the Gospel — automatically each day. It also includes the Rosary, the Liturgy of the Hours, the Catechism, and much more.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Laudate is the easiest way to access the daily Gospel on your phone. Many Catholics open it first thing in the morning as part of their prayer routine.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. Magnificat — Best for Daily Reflection</h3>
               <p className="text-text leading-relaxed mb-6">
@@ -115,9 +116,9 @@ export default function GospelReadingToday() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why the Gospel Reading Matters</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 The Gospel is not just one reading among others — it is the climax of the Liturgy of the Word. Here is why it holds this special place:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>It contains the words of Christ.</strong> The Gospel records the actual words and deeds of Jesus — the Son of God made flesh. No other Scripture has this direct connection to the divine Person of Christ.</li>
                 <li><strong>It is proclaimed with special solemnity.</strong> The congregation stands. The deacon or priest carries the Gospel book in procession. Incense may be used. The assembly makes the Sign of the Cross on forehead, lips, and heart — praying that the Gospel will be in their minds, on their lips, and in their hearts.</li>
@@ -126,42 +127,42 @@ export default function GospelReadingToday() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray with Today's Gospel</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Reading the Gospel is good. Praying with it is transformative. Here is a simple method based on Lectio Divina:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 1: Lectio (Reading)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Read the Gospel slowly, once or twice. Read it aloud if possible — hearing the words engages a different part of your mind than silent reading. Notice what strikes you — a word, a phrase, an image, a question.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 2: Meditatio (Meditation)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Close your eyes and enter the scene. Imagine the setting — the landscape, the people, the sounds and smells. Place yourself in the story. Are you one of the disciples? A bystander? The person being healed? What do you see? What do you feel?
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Ask: "What is Jesus saying to me through this passage today?" Not what it meant to the original audience (though that matters), but what it means for your life right now.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 3: Oratio (Prayer)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Respond to what you have read and meditated on. Speak to Jesus directly — thank Him, ask Him, praise Him, confess to Him. Let the Gospel move you to prayer.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 4: Contemplatio (Contemplation)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Rest in silence for a few minutes. Simply be with Jesus. Don't try to think or pray — just be present. This is the most fruitful and the most challenging part of Lectio Divina.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 5: Actio (Action)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 Before you finish, ask: "Is there one concrete thing I can do today in response to this Gospel?" Make a specific resolution — not a vague intention, but a concrete action.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Gospels: A Quick Guide</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 The Catholic Church uses all four Gospels in its liturgy. Here is a brief overview of each:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Matthew:</strong> Written for a Jewish audience. Emphasizes Jesus as the fulfillment of the Old Testament. Organized around five great discourses (including the Sermon on the Mount). Primary Gospel in Year A of the Sunday cycle.</li>
                 <li><strong>Mark:</strong> The shortest and most action-packed Gospel. Written for a Roman audience. Emphasizes Jesus as a man of power and action. Primary Gospel in Year B.</li>

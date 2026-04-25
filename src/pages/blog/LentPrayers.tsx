@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LentPrayers() {
   return (
@@ -70,14 +71,14 @@ export default function LentPrayers() {
                 <p className="text-text text-sm">Ash Wednesday: <strong>February 18, 2026</strong> → Easter Sunday: <strong>April 5, 2026</strong></p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 Lent is not primarily about giving things up — it is about drawing closer to God. The prayers of Lent are the heart of the season: they express our sorrow for sin, our longing for God, our solidarity with Christ in His suffering, and our hope in the Resurrection.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Miserere — Psalm 51: The Great Lenten Psalm</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 Psalm 51 — the Miserere — is the greatest prayer of repentance in the entire Bible. Traditionally attributed to King David after his sin with Bathsheba, it has been the Church's primary Lenten prayer for centuries. It is prayed at Lauds (Morning Prayer) on Fridays throughout the year and is especially associated with Lent.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text font-semibold text-center mb-3">Psalm 51 — Miserere (selected verses)</p>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -89,12 +90,12 @@ export default function LentPrayers() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Stations of the Cross</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 The Stations of the Cross (Via Crucis) is the most distinctively Lenten devotion — a meditation on the 14 (or 15) stages of Christ's Passion, from His condemnation to His burial (and Resurrection). It is traditionally prayed on Fridays during Lent, often in a church where images of the stations are displayed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 The 14 traditional stations:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-1 mb-6 text-sm">
                 <li>Jesus is condemned to death</li>
                 <li>Jesus takes up His cross</li>
@@ -111,9 +112,9 @@ export default function LentPrayers() {
                 <li>Jesus is taken down from the cross</li>
                 <li>Jesus is laid in the tomb</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 A 15th station — the Resurrection — is sometimes added to emphasize that the Stations do not end in death but in new life.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-2">Prayer at Each Station</p>
                 <p className="text-text italic text-sm leading-relaxed">
@@ -130,9 +131,9 @@ export default function LentPrayers() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Sorrowful Mysteries of the Rosary</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 The Sorrowful Mysteries of the Rosary are especially suited for Lent. They meditate on the Passion of Christ:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-2 mb-6 text-sm">
                 <li>The Agony in the Garden</li>
                 <li>The Scourging at the Pillar</li>
@@ -140,9 +141,9 @@ export default function LentPrayers() {
                 <li>The Carrying of the Cross</li>
                 <li>The Crucifixion and Death of Jesus</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 The Sorrowful Mysteries are traditionally prayed on Tuesdays and Fridays. During Lent, many Catholics pray them daily.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Lenten Prayer of Repentance</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
@@ -154,12 +155,12 @@ export default function LentPrayers() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Seven Penitential Psalms</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 The Church has traditionally designated seven psalms as "penitential psalms" — especially suited for expressing sorrow for sin and seeking God's mercy. They are Psalms 6, 32, 38, 51, 102, 130, and 143. Praying one penitential psalm each week of Lent is a beautiful practice.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 The most famous is Psalm 51 (the Miserere, above). Another beloved penitential psalm is Psalm 130 — the De Profundis:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-2">Psalm 130 — De Profundis</p>
                 <p className="text-text italic text-sm leading-relaxed">
@@ -168,9 +169,9 @@ export default function LentPrayers() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Daily Lenten Prayer Schedule</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-prayers">
                 Here is a simple daily prayer schedule for Lent:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Morning:</strong> Morning Offering + daily Mass readings + brief meditation</li>
                 <li><strong>Noon:</strong> Angelus + brief prayer of intention</li>

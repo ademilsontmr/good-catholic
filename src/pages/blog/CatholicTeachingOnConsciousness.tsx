@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnConsciousness() {
   return (
@@ -59,50 +60,50 @@ export default function CatholicTeachingOnConsciousness() {
               <HelpCircle className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 In contemporary culture, "follow your conscience" has come to mean "do whatever feels right to you." It is invoked to justify virtually any moral choice, as if conscience were simply a synonym for personal preference or subjective feeling. But this is not what the Catholic Church teaches. The Catholic understanding of conscience is richer, more demanding, and ultimately more respectful of human dignity than the popular version.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Conscience Is: The Proximate Norm of Morality</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Catechism of the Catholic Church defines conscience as "a judgment of reason whereby the human person recognizes the moral quality of a concrete act that he is going to perform, is in the process of performing, or has already completed" (CCC 1778). This is a precise and important definition. Conscience is not a feeling. It is not an emotion. It is a judgment of reason — an act of the intellect that applies moral principles to a specific situation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Catechism continues: "In all he says and does, man is obliged to follow faithfully what he knows to be just and right" (CCC 1778). This is the binding force of conscience: once a person has made a sincere judgment that something is right or wrong, they are morally obligated to act in accordance with that judgment. To act against one's conscience is always wrong — even if the conscience itself is mistaken.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 This is why conscience is called the "proximate norm of morality" — it is the immediate, personal standard by which each person judges their own actions. But it is proximate, not ultimate. The ultimate norm of morality is the objective moral law — the natural law and divine revelation — which conscience is meant to perceive and apply.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Second Vatican Council's Gaudium et Spes describes conscience beautifully: "In the depths of his conscience, man detects a law which he does not impose upon himself, but which holds him to obedience. Always summoning him to love good and avoid evil, the voice of conscience when necessary speaks to his heart: do this, shun that. For man has in his heart a law written by God; to obey it is the very dignity of man; according to it he will be judged" (GS 16).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Conscience Is Not Infallible: Certain, Doubtful, and Erroneous Conscience</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 One of the most important — and most neglected — aspects of Catholic teaching on conscience is that conscience can be wrong. The Catechism explicitly teaches: "It can happen that moral conscience remains in ignorance and makes erroneous judgments about acts to be performed or already committed" (CCC 1790).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The tradition distinguishes several types of conscience:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Certain conscience</strong> — a conscience that judges with firm conviction that an act is right or wrong. One must always follow a certain conscience.</li>
                 <li><strong>Doubtful conscience</strong> — a conscience that is uncertain about the moral quality of an act. One may not act with a doubtful conscience — one must first resolve the doubt by seeking information, counsel, or prayer.</li>
                 <li><strong>Erroneous conscience</strong> — a conscience that judges incorrectly, either because of ignorance or because it has been poorly formed. An erroneous conscience can be either vincibly erroneous (the person could have known better and is responsible for their ignorance) or invincibly erroneous (the person genuinely could not have known better and is not morally responsible for the error).</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The key point is this: while a person must always follow their conscience, they are also responsible for forming their conscience correctly. If a person acts on an erroneous conscience that they could have corrected, they bear moral responsibility for the error. The Catechism states: "This ignorance can often be imputed to personal responsibility. This is the case when a man takes little trouble to find out what is true and good, or when conscience is by degrees almost blinded through the habit of committing sin" (CCC 1791).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Obligation to Form Conscience</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 Here is where the popular misunderstanding of "follow your conscience" breaks down completely. The Catholic Church does not teach that you can simply follow whatever your conscience tells you, regardless of whether you have made any effort to form it correctly. The Catechism is explicit: "The education of conscience is indispensable for human beings who are subjected to negative influences and tempted by sin to prefer their own judgment and to reject authoritative teachings" (CCC 1783).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The obligation to form conscience is not optional. It is a moral duty. A Catholic who says "I follow my conscience" while making no effort to learn what the Church teaches, to study Scripture, to pray, or to seek spiritual guidance is not following the Catholic teaching on conscience — they are using the language of conscience to justify doing whatever they want.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Catechism describes the properly formed conscience as one that is "upright and truthful" — one that "formulates its judgments according to reason, in conformity with the true good willed by the wisdom of the Creator" (CCC 1783). This requires effort, humility, and a genuine desire to know the truth.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -110,9 +111,9 @@ export default function CatholicTeachingOnConsciousness() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Form Conscience</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Catechism identifies several key sources for the formation of conscience (CCC 1783–1785):
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Sacred Scripture</strong> — the Word of God is the primary source of moral truth. Regular reading and meditation on Scripture forms the mind and heart in accordance with God's will.</li>
                 <li><strong>The Magisterium of the Church</strong> — the teaching authority of the Church, exercised by the Pope and bishops in communion with him, is the authoritative interpreter of Scripture and natural law. Catholics are obligated to give "religious assent" to the ordinary Magisterium and "the assent of faith" to solemn definitions.</li>
@@ -123,40 +124,40 @@ export default function CatholicTeachingOnConsciousness() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Examination of Conscience</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 One of the most practical tools for the formation and exercise of conscience is the daily examination of conscience — a brief period of prayer at the end of each day in which a person reviews their actions, identifies where they have fallen short, gives thanks for the good they have done, and resolves to do better tomorrow.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 St. Ignatius of Loyola developed a structured form of the examination of conscience — the Examen — that has become one of the most widely practiced forms of prayer in the Catholic tradition. The Ignatian Examen involves five steps: gratitude (giving thanks for the gifts of the day), awareness (asking the Holy Spirit for light), review (looking back over the day with honesty), response (expressing sorrow for failures and gratitude for graces), and renewal (resolving to do better tomorrow).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The examination of conscience is also essential preparation for the Sacrament of Confession. Before going to confession, a Catholic examines their conscience — reviewing their actions since their last confession, identifying sins, and assessing their gravity. This is not a mechanical exercise but a genuine act of self-knowledge in the light of God's truth.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Conscience and Church Teaching Seem to Conflict</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 One of the most difficult situations in Catholic moral life is when a person's conscience seems to conflict with the Church's teaching. This is a real and serious situation that deserves a careful response.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Catholic approach begins with humility: when my conscience conflicts with the Church's teaching, the first question I should ask is not "how can I justify my position?" but "have I genuinely formed my conscience on this question?" Have I studied the Church's teaching carefully? Have I prayed about it? Have I sought spiritual direction? Have I considered the possibility that I am wrong?
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Catechism acknowledges that a person must always follow their conscience — but it also insists that the person has a prior obligation to form their conscience in accordance with the Church's teaching. A conscience that has not been formed in accordance with the Magisterium is not a well-formed conscience, and acting on it does not exempt a person from moral responsibility.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 At the same time, the Church recognizes that there can be genuine cases of invincible ignorance — situations where a person genuinely cannot see the truth of the Church's teaching despite sincere effort. In such cases, the person is not morally culpable for acting on their erroneous conscience. But this is a narrow exception, not a general license to override Church teaching whenever it is inconvenient.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Dignity of Conscience</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Catholic Church's insistence on the formation of conscience is not a denial of human freedom — it is a defense of it. The Church defends freedom of conscience precisely because conscience is the place where the human person encounters God and responds to his call. To violate a person's conscience is to violate their dignity as a person made in the image of God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 The Second Vatican Council's Declaration on Religious Freedom (Dignitatis Humanae) is one of the most important documents on conscience in the Church's history. It teaches that "the human person has a right to religious freedom" and that "no one is to be forced to act in a manner contrary to his own beliefs, whether privately or publicly" (DH 2). This is a defense of the inviolability of conscience — the principle that no external power can compel a person to act against their sincere moral convictions.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 But the Council is equally clear that this freedom comes with responsibility: "In the formation of their consciences, the Christian faithful ought carefully to attend to the sacred and certain doctrine of the Church" (DH 14). Freedom of conscience and the obligation to form conscience are not in tension — they are two sides of the same coin. True freedom is not the freedom to do whatever one wants; it is the freedom to do what is truly good.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">The Catechism on Conscience (CCC 1776)</h3>

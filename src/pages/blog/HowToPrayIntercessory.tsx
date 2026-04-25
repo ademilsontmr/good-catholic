@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToPrayIntercessory() {
   return (
@@ -77,28 +78,28 @@ export default function HowToPrayIntercessory() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Every Catholic is called to be an intercessor. From the moment of Baptism, we are incorporated into the Body of Christ — and in that Body, we bear one another's burdens. Intercessory prayer is not a special gift reserved for mystics and saints. It is the ordinary duty and privilege of every Christian.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Yet many Catholics feel uncertain about how to pray for others effectively. Should you be specific or general? How long should you pray? What if you don't see results? This guide answers all of these questions and gives you a practical framework for a powerful intercessory prayer life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Intercessory Prayer?</h2>
               <p className="text-text leading-relaxed mb-6">
                 Intercessory prayer is prayer offered on behalf of another person or group. The word "intercession" comes from the Latin <em>intercedere</em> — to go between. When you intercede, you place yourself between God and the person in need, presenting their needs to the Father with love and faith.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 The Catechism of the Catholic Church describes intercession as "a prayer of petition which leads us to pray as Jesus did" (CCC 2634). Jesus himself is the supreme intercessor — "He always lives to make intercession" for us (Hebrews 7:25). When we intercede, we participate in Christ's own priestly ministry.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Intercessory prayer is distinct from personal petition (praying for yourself) and from adoration, thanksgiving, or contrition. It is specifically the act of bringing another person's needs before God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Biblical Foundations of Intercession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 The Bible is filled with powerful examples of intercessory prayer:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Abraham interceded for Sodom</strong> (Genesis 18:23-32), boldly negotiating with God to spare the city for the sake of the righteous.</li>
                 <li><strong>Moses interceded for Israel</strong> after the golden calf incident (Exodus 32:11-14), and God relented from the punishment He had planned.</li>
@@ -107,14 +108,14 @@ export default function HowToPrayIntercessory() {
                 <li><strong>Jesus interceded for Peter</strong> before his denial: "I have prayed for you that your faith may not fail" (Luke 22:32).</li>
                 <li><strong>The High Priestly Prayer</strong> (John 17) is Jesus' great intercessory prayer for his disciples and all future believers.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 St. Paul commands us: "I urge that supplications, prayers, intercessions, and thanksgivings be made for all people" (1 Timothy 2:1). Intercession is not optional — it is a fundamental expression of Christian love.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Does God Want Us to Intercede?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 A common question: If God already knows what people need, why does He want us to ask? Several reasons:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>It deepens our love.</strong> When you pray for someone, you grow in love for them. God uses intercession to form us into more loving people.</li>
                 <li><strong>It unites us to Christ's priesthood.</strong> Jesus intercedes for us at the right hand of the Father. When we intercede, we participate in His priestly ministry.</li>
@@ -129,49 +130,49 @@ export default function HowToPrayIntercessory() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 1: Enter Into God's Presence</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Before you begin interceding, take a moment to enter consciously into God's presence. You are not sending a message into the void — you are speaking to a Person who loves you and the person you are praying for infinitely more than you do.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 A simple way to begin: make the Sign of the Cross slowly and deliberately. Say a short act of faith: "Lord, I believe You are here. I believe You hear me. I believe You love [name] more than I do." This simple act of faith sets the tone for everything that follows.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 2: Be Specific</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Vague prayers get vague results — not because God doesn't hear them, but because specificity is an act of love and attention. When you pray specifically, you are telling God (and yourself) that you have truly paid attention to this person's needs.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Instead of "Lord, bless everyone," try: "Lord, my friend Maria is struggling with depression after losing her job. Please give her hope, open a door for her, and send someone to encourage her today." The more specific your prayer, the more you will notice when God answers it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 3: Pray with Faith and Persistence</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Jesus taught us to pray persistently. In the parable of the persistent widow (Luke 18:1-8), He praised the widow who kept coming back to the judge until she received justice. He told this parable specifically to teach that "they ought always to pray and not lose heart."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Persistence in prayer is not a lack of trust — it is an expression of love. When you keep praying for someone day after day, you are saying: "This person matters to me. I will not give up on them." God honors this kind of love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 At the same time, pray with faith. "Whatever you ask in prayer, believe that you have received it, and it will be yours" (Mark 11:24). Faith does not mean certainty about the specific outcome — it means trust that God hears and will act in the best way.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 4: Pray "Thy Will Be Done"</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 After presenting your petition, always surrender the outcome to God's will. This is not resignation — it is trust. You are saying: "Lord, I have told You what I think this person needs. But You know better than I do. I trust Your wisdom and Your love."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 This surrender is essential because sometimes God answers our prayers in ways we did not expect. We pray for healing and God gives peace in suffering. We pray for a job and God opens a different door. We pray for conversion and God works slowly over years. Surrendering the outcome keeps us open to God's surprising ways.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 5: Give Thanks</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 End every intercessory prayer with gratitude. "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God" (Philippians 4:6). Thanksgiving before you see the answer is an act of faith — you are trusting that God has already heard and is already at work.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Ways to Organize Your Intercessions</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 As your intercessory prayer life grows, you may find it helpful to organize your prayers:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Keep a prayer journal.</strong> Write down the names and needs of those you are praying for. Record when and how God answers. This builds faith and gratitude.</li>
                 <li><strong>Use a prayer list.</strong> Divide your list by day of the week so you can pray for different people each day without feeling overwhelmed.</li>
@@ -182,20 +183,20 @@ export default function HowToPrayIntercessory() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Intercessory Prayer for the Dead</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Catholics believe that we can and should pray for the souls of the faithful departed — those in Purgatory who are being purified before entering heaven. This is one of the most beautiful and distinctive aspects of Catholic intercessory prayer.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 The most powerful prayer for the dead is the Mass. You can have a Mass offered for a deceased person by contacting your parish. You can also pray the Rosary, the Divine Mercy Chaplet, or the De Profundis (Psalm 130) for the souls in Purgatory. The Church teaches that our prayers genuinely help these souls and hasten their entry into heaven.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When You Don't See Results</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 One of the hardest aspects of intercessory prayer is persisting when you don't see results. You have prayed for a loved one's conversion for years. You have prayed for healing that hasn't come. You have prayed for a situation that seems to be getting worse.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 In these moments, remember:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>God always hears your prayer. "The prayer of the righteous is powerful and effective" (James 5:16).</li>
                 <li>God's timing is not our timing. "With the Lord one day is as a thousand years" (2 Peter 3:8).</li>

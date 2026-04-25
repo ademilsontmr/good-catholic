@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnLove() {
   return (
@@ -78,31 +79,31 @@ export default function CatholicTeachingOnLove() {
               <p className="text-text leading-relaxed mb-6">
                 In 2005, Pope Benedict XVI issued his first encyclical, <em>Deus Caritas Est</em> ("God Is Love") — one of the most beautiful and intellectually rich documents in recent Church history. Its central argument is that eros and agape are not opposites but complementary dimensions of a single reality called love.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 Benedict challenged a common assumption in Christian thought — that eros (desire, passion, the love that seeks its own fulfillment) is somehow opposed to agape (self-giving, sacrificial love). Some Christian thinkers, influenced by the Swedish theologian Anders Nygren, had argued that eros and agape are fundamentally incompatible: eros is selfish and ascending (seeking its own good), while agape is selfless and descending (giving without receiving). On this view, Christianity should suppress eros in favor of agape.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 Benedict rejected this dichotomy. "Eros and agape," he wrote, "can never be completely separated. The more the two, in their different aspects, find a proper unity in the one reality of love, the more the true nature of love in general is realized." Eros, purified and elevated, becomes agape. The passionate desire for the beloved is not suppressed but transformed — from a love that seeks its own fulfillment to a love that gives itself freely for the good of the other.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Eros: The Goodness of Romantic Love</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 The Catholic tradition has never been hostile to eros. The Song of Songs — a book of erotic poetry celebrating the love between a man and a woman — is part of the inspired Scripture. The Church has always taught that the body is good, that sexual love within marriage is holy, and that the desire for union with another person reflects something deep and true about the human condition.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 What the tradition insists on is not the suppression of eros but its purification and elevation. Eros, left to itself, tends toward possession — toward treating the beloved as an object of desire rather than a subject to be loved. Purified eros becomes a love that desires the good of the beloved, that is willing to sacrifice its own satisfaction for the other's flourishing. This is why the Church connects eros so closely to marriage and fidelity: the commitment of marriage is the structure within which eros can be purified and elevated into something truly beautiful.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Philia: The Beauty of Friendship</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 Aristotle distinguished three kinds of friendship: friendships of utility (we are friends because we are useful to each other), friendships of pleasure (we are friends because we enjoy each other's company), and friendships of virtue (we are friends because we admire and share each other's goodness). Only the third kind, he argued, is true friendship — the others are merely instrumental.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 Saint Thomas Aquinas, building on Aristotle, argued that charity — the theological virtue of love for God and neighbor — is itself a form of friendship. We are not merely servants of God; we are his friends. Jesus himself said: "I no longer call you servants, because a servant does not know his master's business. Instead, I have called you friends" (John 15:15). This is a staggering claim: the eternal God desires friendship with his creatures.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 The Catholic tradition has always valued friendship as a genuine form of love and a path to holiness. The great friendships of the saints — Francis and Clare, Teresa of Ávila and John of the Cross, Francis de Sales and Jane de Chantal — were not distractions from the spiritual life but expressions of it. True friendship, rooted in shared love of God, is one of the greatest gifts of human life.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -110,42 +111,42 @@ export default function CatholicTeachingOnLove() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Agape: The Highest Love</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 Agape is the love that defines God himself. "God is love" (1 John 4:8) — not merely that God loves, but that love is what God is. The entire history of salvation is the story of God's agape: his unconditional, self-giving love for a humanity that repeatedly turns away from him. "God demonstrates his own love for us in this: While we were still sinners, Christ died for us" (Romans 5:8).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 Agape is not primarily a feeling — it is a choice, a commitment, an act of the will. This is why Jesus can command it: "Love your enemies and pray for those who persecute you" (Matthew 5:44). You cannot command a feeling, but you can command a choice. Agape is the decision to will the good of the other — even when the other is hostile, undeserving, or unknown to you.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 Saint Paul's great hymn to love in 1 Corinthians 13 is a description of agape: "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs." This is not a description of a feeling but of a way of acting — a consistent orientation of the will toward the good of the other.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theology of the Body</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 Pope John Paul II's Theology of the Body — a series of 129 Wednesday audiences delivered between 1979 and 1984 — is the most comprehensive Catholic reflection on human love and sexuality ever produced. Its central insight is that the human body is not merely a biological organism but a "theology" — a visible sign of invisible spiritual realities.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 The body, John Paul argued, is made for the "gift of self." The sexual difference between man and woman is not merely biological but theological: it is a sign of the complementarity and mutual self-giving that characterizes love at its deepest level. The marital act, when it expresses genuine self-giving love, is a participation in the very love of God — a bodily enactment of the total gift of self that agape requires.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 This is why the Church's teaching on sexuality is not a series of prohibitions but a positive vision: the body is good, love is good, and the sexual expression of love within marriage is a participation in the divine life. The prohibitions — against pornography, fornication, adultery, contraception — are not arbitrary restrictions but protections of this vision against its distortion.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Love and the Cross</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 The ultimate definition of love in the Catholic tradition is the Cross. "Greater love has no one than this: to lay down one's life for one's friends" (John 15:13). Jesus did not merely teach about love — he enacted it in the most radical way possible, giving his life for those who had rejected him.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 The Cross is the definitive answer to the question "What is love?" It is not a feeling, not a transaction, not a mutual benefit arrangement. It is the total gift of self — even unto death — for the good of the beloved. Every other form of love — eros, philia, agape — finds its ultimate meaning and its ultimate model in the Cross.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 This is why the Catholic tradition has always insisted that love is inseparable from sacrifice. To love is to give — to give time, attention, energy, comfort, and ultimately oneself. The measure of love is not the intensity of the feeling but the depth of the gift.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Grow in Love</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-love-catholic">
                 The Catholic tradition offers concrete paths for growing in love:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>The sacraments.</strong> The Eucharist is the sacrament of love par excellence — the Body and Blood of Christ given for us, received by us, transforming us into what we receive. Regular reception of the Eucharist, and the preparation and thanksgiving that surround it, is the primary school of love.
               </p>

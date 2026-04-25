@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function VirginMary() {
   return (
@@ -87,9 +88,9 @@ export default function VirginMary() {
               <p className="text-text leading-relaxed mb-6">
                 Compare <strong>2 Samuel 6</strong> with <strong>Luke 1</strong>. David asks, "How can the ark of the Lord come to me?" (2 Sam 6:9). Elizabeth asks, "Why is this happened to me, that the mother of my Lord should come to me?" (Lk 1:43). 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">
                 David leaped for joy before the Ark. The baby John the Baptist leaped in Elizabeth's womb. The Ark stayed for three months. Mary stayed for three months. This parallelism is not accidental; Mary is the fulfillment of the Old Testament's most sacred object.
-              </p>
+              </LinkedText>
 
               <div className="bg-rose-50 border border-border rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -119,9 +120,9 @@ export default function VirginMary() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. Adoration vs. Veneration (Latria vs. Dulia)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">
                 The most common objection is that Catholics "worship" Mary. We must be precise:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>Latria:</strong> Adoration due only to God. We worship God alone.</li>
                 <li><strong>Dulia:</strong> Veneration given to saints as friends of God.</li>
@@ -137,9 +138,9 @@ export default function VirginMary() {
                  <Compass className="w-6 h-6 text-accent" />
                  Stella Maris: Star of the Sea
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">
                 St. Bernard of Clairvaux famously called Mary the "Star of the Sea." In the storms of life, when the waves of temptation or despair threaten to sink the ship of the soul, we look to her. She is not the destination—Christ is the harbor—but she is the fixed star that ensures we never lose our way.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ConsecratYourHome() {
   return (
@@ -76,39 +77,39 @@ export default function ConsecratYourHome() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 In a culture that increasingly separates faith from daily life, the Catholic tradition of blessing and consecrating the home stands as a powerful counter-witness. When you hang a crucifix above your door, place a holy water font at the entrance, or gather your family for evening prayer, you are declaring that this home belongs to God — that Christ is Lord here, not the world. This guide will walk you through everything you need to know about blessing and consecrating your Catholic home.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Catholics Bless and Consecrate Their Homes
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 The practice of blessing homes has deep roots in both the Old and New Testaments. In the Old Testament, the Israelites marked their doorposts with the blood of the Passover lamb as a sign of God's protection (Exodus 12). The Book of Deuteronomy commands: "Write them on the doorposts of your house and on your gates" (Deuteronomy 6:9). In the New Testament, Jesus entered the home of Zacchaeus and declared: "Today salvation has come to this house" (Luke 19:9).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 The Catholic Church has always understood the home as a sacred space — what the Second Vatican Council called the "domestic church" (ecclesia domestica). Just as a church building is blessed and set apart for God's worship, so too can a home be blessed and consecrated as a place where God is honored, the faith is transmitted, and the family prays together. A blessed home is not merely a comfortable dwelling — it is a sanctuary.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Difference Between Blessing and Consecration
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 These two terms are often used interchangeably, but they have distinct meanings in Catholic theology. A blessing is a prayer asking God to bestow His grace and protection on a person, place, or object. Blessings can be given by priests, deacons, and even laypeople (in certain forms). A home blessing asks God to protect the home and all who dwell in it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 A consecration goes further: it is an act of formally dedicating something to God, setting it apart for His service. When you consecrate your home, you are not merely asking for God's blessing — you are formally entrusting your home to God, declaring it His property, and committing to live in it according to His will. The most common form of home consecration is the Consecration to the Holy Family, in which the family formally places their home under the protection of Jesus, Mary, and Joseph.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Traditional Epiphany House Blessing: 20+C+M+B+26
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 One of the most beloved Catholic home blessings is the Epiphany House Blessing, performed on or around January 6 (the Feast of the Epiphany). In this tradition, the head of the household — or a priest — uses blessed chalk to write above the front door: 20+C+M+B+26 (the current year replaces "26").
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 The letters C, M, and B stand for the traditional names of the Three Wise Men — Caspar, Melchior, and Balthasar — who came to honor the Christ Child. They also stand for the Latin phrase Christus mansionem benedicat: "May Christ bless this house." The crosses (+) represent the Holy Trinity and the blessing of Christ. The year marks when the blessing was given.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">How to Perform the Epiphany House Blessing</h3>
@@ -125,12 +126,12 @@ export default function ConsecratYourHome() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Have a Priest Bless Your Home
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 The most solemn form of home blessing is performed by a priest. Many parishes offer home blessings, especially around the Feast of the Epiphany (January 6) or when a family moves into a new home. To arrange a home blessing, simply contact your parish office and ask. Most priests are happy to come and bless a home — it is one of the most pastoral and joyful parts of priestly ministry.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 During the blessing, the priest will typically pray in each room of the house, sprinkle holy water, and offer prayers specific to the purpose of each room — the kitchen, the bedrooms, the living room, the home office. The blessing from the Book of Blessings (Benedictionale) is rich and beautiful, invoking God's protection on the home and all who dwell in it.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Is your home a domestic church?"
@@ -175,19 +176,19 @@ export default function ConsecratYourHome() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Domestic Church: Your Home as a Place of Faith
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 The Second Vatican Council's Lumen Gentium called the family "the domestic church" — a small community of faith where the Gospel is lived, prayer is offered, and the faith is transmitted from generation to generation. Pope John Paul II developed this concept extensively, writing: "The family is the first and fundamental school of social living: as a community of love, it finds in self-giving the law that guides it and makes it grow."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 A consecrated home is one where this vision is lived out concretely: where grace before meals is prayed, where the Rosary is said together, where the liturgical seasons are observed, where children learn to pray and to love God. The home is not merely a place to sleep and eat — it is the first school of faith, the first church, the first community of love.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Create a Prayer Corner or Home Oratory
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 One of the most practical ways to make your home a place of prayer is to create a dedicated prayer corner or small home oratory. This doesn't require a large space — even a corner of a bedroom or a small shelf can become a sacred space for prayer.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4">
                 Elements of a home prayer corner:
               </p>
@@ -201,9 +202,9 @@ export default function ConsecratYourHome() {
                 <li>A small holy water font</li>
                 <li>Seasonal items: an Advent wreath, a small nativity, Easter flowers</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 The prayer corner becomes the heart of the domestic church — the place where the family gathers for morning and evening prayer, where children learn to kneel before God, where the sick are prayed over, and where the joys and sorrows of family life are brought before the Lord.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
                 <p className="text-text italic text-center">

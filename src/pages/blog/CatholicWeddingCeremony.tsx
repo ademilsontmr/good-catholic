@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicWeddingCeremony() {
   return (
@@ -82,9 +83,9 @@ export default function CatholicWeddingCeremony() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Marriage as a Sacrament: The Theological Foundation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 In the Catholic Church, marriage is not merely a legal contract or a social institution — it is one of the seven sacraments, a sacred sign that confers grace. The Catechism of the Catholic Church teaches that "the matrimonial covenant, by which a man and a woman establish between themselves a partnership of the whole of life, is by its nature ordered toward the good of the spouses and the procreation and education of offspring" (CCC 1601).
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 What makes Catholic marriage unique is that the <strong>spouses themselves are the ministers of the sacrament</strong>. The priest or deacon is the Church's official witness, but the couple confers the sacrament on each other through their exchange of vows. This is why the vows are so central — they are not just a promise to each other, but a sacramental act.
               </p>
@@ -95,9 +96,9 @@ export default function CatholicWeddingCeremony() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Two Forms: Within Mass vs. Outside Mass
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 A Catholic wedding can be celebrated in two forms:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>1. The Rite of Marriage Within Mass (Nuptial Mass)</strong> — This is the preferred form when both parties are baptized Catholics. The wedding is celebrated within the context of the full Eucharistic liturgy, and the couple (and guests who are properly disposed) may receive Holy Communion. The wedding Mass typically lasts 60–90 minutes.
               </p>
@@ -110,14 +111,14 @@ export default function CatholicWeddingCeremony() {
               </h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Entrance Rite</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 The ceremony begins with the entrance procession. In the traditional form, the groom enters with his groomsmen, followed by the bridesmaids, and finally the bride (often escorted by her father or both parents). The priest greets the couple at the door or at the sanctuary and welcomes the assembly.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Liturgy of the Word</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 The couple chooses readings from Scripture — typically one from the Old Testament, a Responsorial Psalm, one from the New Testament, and a Gospel reading. Popular choices include:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-1 text-text text-sm">
                 <li>Genesis 1:26-28, 31 — "God created man in his image... male and female he created them"</li>
                 <li>Song of Songs 2:8-10, 14, 16; 8:6-7 — "Love is strong as death"</li>
@@ -128,23 +129,23 @@ export default function CatholicWeddingCeremony() {
               </ul>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Rite of Marriage: The Exchange of Consent</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 The heart of the ceremony is the exchange of consent — the vows. The priest asks each party three questions (called the "examination of consent") to ensure they are marrying freely, faithfully, and with openness to children. Then the couple exchanges vows.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 The traditional form of the Catholic wedding vow is:
-              </p>
+              </LinkedText>
               <div className="bg-rose-50 border border-border rounded-xl p-6 mb-6 italic text-text">
                 <p>"I, [Name], take you, [Name], to be my wife/husband. I promise to be faithful to you, in good times and in bad, in sickness and in health, to love you and to honor you all the days of my life."</p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 The priest then declares: "You have declared your consent before the Church. May the Lord in his goodness strengthen your consent and fill you both with his blessings. What God has joined, men must not divide."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Blessing and Exchange of Rings</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 The priest blesses the rings, which are then exchanged with the words: "Take this ring as a sign of my love and fidelity. In the name of the Father, and of the Son, and of the Holy Spirit." The ring is a circle — without beginning or end — symbolizing the eternal, unbreakable nature of the marriage covenant.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Is your faith ready for marriage?"
@@ -155,9 +156,9 @@ export default function CatholicWeddingCeremony() {
               <p className="text-text leading-relaxed mb-6">
                 One of the most beautiful elements of the Catholic wedding is the <strong>Nuptial Blessing</strong> — a solemn prayer over the couple that is unique to the wedding Mass. It is prayed after the Our Father and before Communion. The blessing invokes God's grace upon the couple, prays for their fidelity and fruitfulness, and commends them to God's protection throughout their life together.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 The Nuptial Blessing has ancient roots — it appears in the earliest Roman liturgical books — and is one of the most theologically rich prayers in the entire Roman Rite. It is a reminder that marriage is not just a human institution but a divine vocation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Pre-Cana: Preparing for the Sacrament
@@ -165,19 +166,19 @@ export default function CatholicWeddingCeremony() {
               <p className="text-text leading-relaxed mb-6">
                 Before a Catholic wedding can take place, the couple must complete <strong>Pre-Cana</strong> — a marriage preparation program required by the Church. The name comes from the Wedding at Cana (John 2), where Jesus performed his first miracle.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 Pre-Cana typically involves several sessions covering communication, conflict resolution, finances, sexuality, natural family planning, the theology of marriage, and the spiritual life of the couple. It may be offered by the parish, the diocese, or through programs like Engaged Encounter or FOCCUS.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 Most dioceses require Pre-Cana to begin at least six months before the wedding. This is not bureaucratic red tape — it is the Church's way of ensuring that couples enter marriage with their eyes open, their expectations realistic, and their faith engaged.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Who Can Marry in the Catholic Church?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 To marry in the Catholic Church, at least one party must be a baptized Catholic. Both parties must be free to marry (not previously married in a valid marriage), must consent freely (without coercion), and must intend a permanent, faithful, and open-to-children marriage.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Mixed marriages</strong> — between a Catholic and a baptized non-Catholic (Protestant, Orthodox) — are permitted with the bishop's permission. The Catholic party must promise to raise any children Catholic, and the non-Catholic party must be informed of this promise.
               </p>
@@ -188,9 +189,9 @@ export default function CatholicWeddingCeremony() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Guests Should Know
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 If you are attending a Catholic wedding as a non-Catholic guest, here are the key things to know:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-2 text-text">
                 <li><strong>Dress modestly</strong> — shoulders covered, no revealing clothing. This is a sacred space.</li>
                 <li><strong>Follow the congregation's lead</strong> — stand, sit, and kneel when others do. You are not required to kneel if it is uncomfortable.</li>
@@ -204,17 +205,17 @@ export default function CatholicWeddingCeremony() {
               </h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Can divorced Catholics remarry in the Church?</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 A divorced Catholic whose previous marriage has been declared null by a Church tribunal (an annulment) is free to marry in the Church. An annulment is not a "Catholic divorce" — it is a declaration that a valid sacramental marriage never existed, due to some defect in consent or capacity at the time of the wedding. The annulment process can take 12–18 months and involves testimony from both parties and witnesses.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 A divorced Catholic who has not received an annulment and attempts to remarry civilly is considered to be in an irregular situation and may not receive Communion until the situation is resolved.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Can non-Catholic guests receive Communion?</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-ceremony-guide">
                 No. Holy Communion at a Catholic Mass is reserved for Catholics who are in a state of grace (free from mortal sin) and who have observed the Eucharistic fast (one hour without food or drink before Communion). Non-Catholics, and Catholics who are not in a state of grace, should not receive Communion. This is not a judgment — it is a reflection of the Catholic belief that Communion is a sign of full unity in faith, which does not yet exist between Catholics and other Christians.
-              </p>
+              </LinkedText>
 
             </div>
 

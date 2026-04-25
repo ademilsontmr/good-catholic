@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HolyWaterSacramental() {
   return (
@@ -77,26 +78,26 @@ export default function HolyWaterSacramental() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
                 One of the oldest and most beloved Catholic sacramentals, holy water is a powerful reminder of baptism and a source of grace. This simple practice—blessing oneself with water—connects Catholics to their baptismal identity and offers spiritual protection.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               What Is Holy Water?
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               Holy water is water that has been blessed by a priest for spiritual purposes. While water itself is natural, the Church's blessing transforms it into a sacramental—an instrument of grace that prepares us to receive the sacraments and sanctifies daily life.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The History of Holy Water
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               The use of holy water dates to the earliest days of the Church. In the fourth century, St. Cyril of Jerusalem mentioned water blessed for catechumens. By the sixth century, holy water fonts appeared at church entrances. The practice of blessing oneself upon entering church became universal.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               The rite of blessing holy water developed over centuries. The current formula, found in the Book of Blessings, calls down God's blessing on the water, asking that it become a means of protection from evil and preparation for grace.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Significance of Holy Water
@@ -105,23 +106,23 @@ export default function HolyWaterSacramental() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Reminder of Baptism
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               Holy water primarily recalls our baptism. When we bless ourselves with holy water, we touch the same water that made us children of God, forgave original sin, and incorporated us into Christ's Body. This daily renewal of baptismal promises strengthens identity as Christians.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Protection from Evil
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               The Church teaches that holy water offers protection against evil. The blessing prayers explicitly ask God to use the water to ward off evil spirits. Many Catholics place holy water in their homes, especially near entrances and in bedrooms, as spiritual protection.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Disposition for Grace
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               Holy water prepares us to receive God's grace. Like all sacramentals, it disposes us to cooperate with the graces God offers. Blessing oneself upon entering church helps transition from secular concerns to sacred worship.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Proper Use of Holy Water
@@ -130,30 +131,30 @@ export default function HolyWaterSacramental() {
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               At Church
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               Upon entering and leaving church, dip your fingers in the holy water font and make the Sign of the Cross. This practice—nearly universal among Catholics—connects individuals to the community of faith and sanctifies the transition between secular and sacred space.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               In the Home
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               Many Catholics keep holy water fonts near home entrances. Blessing oneself when coming or going maintains the baptismal identity throughout daily life. Some families bless their children with holy water each night before bed.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               For the Sick
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               Holy water can be used to bless the sick. While not a substitute for the Anointing of the Sick, placing blessed water on the forehead of someone ill unites their suffering with Christ and invokes His healing presence.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Blessing of Holy Water
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               The Church provides prayers for blessing holy water. The traditional formula calls upon God to bless the water, asking that it become a means of protection and purification:
-            </p>
+            </LinkedText>
             <p className="text-text leading-relaxed mb-6 italic bg-accent/10 p-4 rounded-lg">
               "Blessed are You, Lord, all-powerful God, who in Christ, the living water of salvation, blessed and transformed us. Grant that when we use this blessed water, we may be protected from all evil and strengthened in faith."
             </p>
@@ -161,9 +162,9 @@ export default function HolyWaterSacramental() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Obtaining Holy Water
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               Catholics can obtain holy water in several ways:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>From church fonts:</strong> Bring a container and fill it from the parish holy water font</li>
               <li><strong>From baptisteries:</strong> Some parishes offer water from the baptismal font</li>
@@ -175,9 +176,9 @@ export default function HolyWaterSacramental() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Respect and Reverence
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
               Because holy water is blessed and associated with sacred mysteries, it should be treated with respect. Never use holy water for profane purposes. If disposing of old holy water, pour it onto the ground (preferably on soil where it won't be stepped on) rather than down drains.
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

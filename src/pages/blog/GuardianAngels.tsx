@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GuardianAngels() {
   return (
@@ -98,9 +99,9 @@ export default function GuardianAngels() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The 9 Choirs: The Celestial Hierarchy
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="guardian-angels-guide">
                 Based on Scripture and the writings of Dionysius, the Church recognizes nine "choirs" or gradients of angelic light:
-              </p>
+              </LinkedText>
               
               <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-10">
                 <div className="bg-slate-50 border border-slate-200 rounded-xl p-6">
@@ -132,9 +133,9 @@ export default function GuardianAngels() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Prohibition: Why We Don't Name Our Angels
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="guardian-angels-guide">
                 The Church explicitly forbids the practice of "naming" one's guardian angel. The **Directory on Popular Piety and the Liturgy (2001, n. 217)** states: *"The practice of assigning names to the Holy Angels should be discouraged, except in the cases of Gabriel, Raphael, and Michael whose names are contained in Holy Scripture."*
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Theologically, to name something is to exercise <strong>authority</strong> or ownership over it. We do not own our angels; they are God's ministers who exercise a benevolent authority over us. By refraining from naming them, we maintain a humble and respectful relationship with our superior spirit.
               </p>

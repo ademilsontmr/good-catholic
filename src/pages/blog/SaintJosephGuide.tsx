@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJosephGuide() {
   return (
@@ -64,45 +65,45 @@ export default function SaintJosephGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 In an age that desperately needs models of authentic fatherhood, Saint Joseph stands as the supreme example. He was a just man, a faithful husband, a devoted father, a skilled craftsman, and a man of deep prayer. He protected the Holy Family from danger, provided for their needs, and raised the Son of God with love and wisdom. And he did all of this in silence.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Joseph in Scripture</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 Joseph appears primarily in the infancy narratives of Matthew and Luke. Matthew's Gospel focuses on Joseph's perspective, presenting him as a new Moses who receives divine messages in dreams and leads his family to safety.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 Key moments in Joseph's life:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Annunciation to Joseph (Matthew 1:18-25):</strong> When Joseph discovers Mary is pregnant, he plans to divorce her quietly rather than expose her to public shame. An angel appears to him in a dream and reveals that the child is conceived by the Holy Spirit. Joseph obeys immediately — he takes Mary as his wife.</li>
                 <li><strong>The Flight to Egypt (Matthew 2:13-15):</strong> An angel warns Joseph in a dream that Herod wants to kill the child. Joseph rises in the night and leads his family to Egypt — a dangerous journey of hundreds of miles — to protect Jesus.</li>
                 <li><strong>The Return to Nazareth (Matthew 2:19-23):</strong> After Herod's death, an angel again appears to Joseph in a dream, directing him to return to Israel. Joseph obeys and settles in Nazareth.</li>
                 <li><strong>The Finding in the Temple (Luke 2:41-52):</strong> When the twelve-year-old Jesus is lost in Jerusalem, Joseph and Mary search for him anxiously for three days. This is the last time Joseph appears in the Gospels.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 Joseph is described as a "just man" (Matthew 1:19) — the highest praise the Bible can give. In Hebrew thought, a "just man" is one who is righteous before God, faithful to the covenant, and upright in all his dealings.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Joseph's Vocation: The Hidden Life</h2>
               <p className="text-text leading-relaxed mb-6">
                 Joseph was a carpenter (or craftsman — the Greek word <em>tekton</em> can mean a worker in wood, stone, or metal). He worked with his hands to provide for his family. Jesus grew up in Joseph's workshop, learning the trade. The Son of God spent thirty of his thirty-three years in the hidden life of Nazareth — working, praying, and living in the ordinary rhythms of family life.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 This hidden life is Joseph's great gift to the Church. He shows us that holiness is not reserved for the dramatic and the spectacular. It is found in the faithful, loving, daily performance of ordinary duties — work, family, prayer, service.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope Francis, in his apostolic exhortation <em>Patris Corde</em> (With a Father's Heart, 2020), wrote: "Joseph is the patron of the ordinary, the patron of those who do the quiet, hidden work that makes the world go round."
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Joseph as Model of Fatherhood</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 Joseph was not the biological father of Jesus, but he was his true father in every other sense. He gave Jesus his name, his lineage (the line of David), his trade, his language, his culture, and his love. He was present, protective, and faithful.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 The Church sees in Joseph the model of authentic fatherhood:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>A father who listens to God.</strong> Joseph received his most important instructions in dreams — in the silence of the night. He was a man of prayer who listened for God's voice.</li>
                 <li><strong>A father who acts decisively.</strong> Every time Joseph received a divine message, he acted immediately. He did not delay, debate, or make excuses.</li>
@@ -117,9 +118,9 @@ export default function SaintJosephGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Joseph's Patronages</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 Saint Joseph is the patron of an extraordinary range of people and causes:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Universal Church</strong> — declared by Pope Pius IX in 1870. Joseph protected the Holy Family; he protects the whole Church.</li>
                 <li><strong>Fathers and families</strong> — the model of fatherhood and family life.</li>

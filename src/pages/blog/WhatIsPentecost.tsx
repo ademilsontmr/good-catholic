@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsPentecost() {
   return (
@@ -59,25 +60,25 @@ export default function WhatIsPentecost() {
               <Wind className="w-24 h-24 text-red-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 In 2026, Pentecost Sunday falls on May 24. It comes fifty days after Easter Sunday, closing the Easter Season with a great outpouring of the Spirit. Understanding Pentecost — its biblical roots, its theological meaning, and how the Church celebrates it — is essential for any Catholic who wants to live the liturgical year with depth and devotion.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Event: Acts of the Apostles, Chapter 2</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The account of the first Christian Pentecost is found in Acts 2:1–13. The scene is Jerusalem, fifty days after the Resurrection of Jesus. The Apostles, Mary, and about 120 disciples are gathered in the Upper Room, united in prayer (Acts 1:14). They have been waiting, as Jesus commanded, for "the promise of the Father" — the gift of the Holy Spirit (Acts 1:4–5).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 Then it happens: "When the day of Pentecost arrived, they were all together in one place. And suddenly there came from heaven a sound like a mighty rushing wind, and it filled the entire house where they were sitting. And divided tongues as of fire appeared to them and rested on each one of them. And they were all filled with the Holy Spirit and began to speak in other tongues as the Spirit gave them utterance" (Acts 2:1–4).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The effects were immediate and dramatic. Jews from every nation under heaven who were in Jerusalem for the feast heard the disciples speaking in their own languages. Peter, who had denied Christ three times just weeks before, stood up and preached with such power that three thousand people were baptized that day (Acts 2:41). The Church was born.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Symbols: Wind and Fire</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The two great symbols of Pentecost — wind and fire — are rich with biblical meaning.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Wind (ruah in Hebrew, pneuma in Greek)</strong> is the same word used for "spirit" and "breath" in the Bible. In Genesis 1:2, the Spirit of God "hovered over the face of the waters" at creation. In Ezekiel 37, God breathes life into the dry bones of Israel. In John 20:22, the Risen Christ breathes on the disciples and says, "Receive the Holy Spirit." The mighty wind at Pentecost signals a new creation — the Spirit of God breathing new life into the Church.
               </p>
@@ -89,23 +90,23 @@ export default function WhatIsPentecost() {
               <p className="text-text leading-relaxed mb-6">
                 The word "Pentecost" comes from the Greek <em>pentekostos</em>, meaning "fiftieth." It refers to the Jewish feast of Shavuot (the Feast of Weeks), which was celebrated fifty days after Passover. Shavuot commemorated two things: the giving of the Torah (the Law) to Moses on Mount Sinai, and the first fruits of the wheat harvest.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The timing is deeply significant. Just as the old covenant was sealed at Sinai with the giving of the Law written on stone tablets, the new covenant is sealed at Pentecost with the giving of the Holy Spirit — the Law written on human hearts (Jeremiah 31:33; 2 Corinthians 3:3). The first fruits of the harvest become the first fruits of the Church — the three thousand baptized on that day.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 This is why the Church Fathers called Pentecost the "Christian Sinai." At Sinai, God gave the Law to one nation. At Pentecost, the Spirit was poured out on people of every nation, language, and tongue — reversing the confusion of Babel (Genesis 11) and inaugurating the universal mission of the Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theological Meaning of Pentecost</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 Pentecost is not merely a historical event — it is a theological reality that continues in the life of the Church and in every baptized Christian. The Catechism of the Catholic Church teaches: "On the day of Pentecost when the seven weeks of Easter had come to an end, Christ's Passover is fulfilled in the outpouring of the Holy Spirit, manifested, given, and communicated as a divine person: of his fullness, Christ, the Lord, pours out the Spirit in abundance" (CCC 731).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The Holy Spirit is the Third Person of the Trinity — not a force or an energy, but a divine Person, equal to the Father and the Son. At Pentecost, the Spirit was given to the Church as her permanent companion, guide, and sanctifier. The Spirit dwells in every baptized Christian (1 Corinthians 3:16), prays within us (Romans 8:26), distributes gifts for the building up of the Body of Christ (1 Corinthians 12), and produces the fruits of holiness in our lives (Galatians 5:22–23).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 Pentecost is also the fulfillment of Jesus's promise: "I will ask the Father, and he will give you another Helper, to be with you forever, even the Spirit of truth" (John 14:16–17). The Spirit is the Paraclete — the Advocate, the Comforter, the One who stands alongside us. He is the soul of the Church, the principle of her unity, the source of her holiness.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -116,19 +117,19 @@ export default function WhatIsPentecost() {
               <p className="text-text leading-relaxed mb-6">
                 Pentecost Sunday is always celebrated fifty days after Easter Sunday. In 2026, Easter falls on April 5, which means Pentecost Sunday is on <strong>May 24, 2026</strong>. The Vigil of Pentecost (Saturday evening) is May 23, 2026.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The day after Pentecost Sunday — Monday — is celebrated in many countries as Whit Monday, a continuation of the feast. In the traditional Roman Rite, the entire week following Pentecost (Whitsuntide) was treated as a prolonged celebration of the feast.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Catholics Celebrate Pentecost</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Mass of Pentecost</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The Mass of Pentecost is one of the most beautiful in the entire liturgical year. The priest and deacon wear red vestments — the color of fire and blood, symbolizing the Holy Spirit and the martyrs who bore witness to the faith. The Gloria is sung, the Alleluia rings out, and the readings recount the great event of Acts 2.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The Vigil Mass of Pentecost (Saturday evening) is especially rich, with multiple Old Testament readings that trace the history of the Spirit's action in salvation history: the Tower of Babel, the giving of the Law, the valley of dry bones, and the promise of the new covenant.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Sequence: Veni Sancte Spiritus</h3>
               <p className="text-text leading-relaxed mb-6">
@@ -150,22 +151,22 @@ export default function WhatIsPentecost() {
               </div>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Novena to the Holy Spirit</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The nine days between the Ascension and Pentecost are the original novena — the first novena in Christian history. Many Catholics pray a Novena to the Holy Spirit during these nine days, asking for the seven gifts of the Spirit: wisdom, understanding, counsel, fortitude, knowledge, piety, and fear of the Lord (Isaiah 11:2–3). This is a beautiful way to prepare for Pentecost and to renew one's openness to the Spirit's action in one's life.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Color Red</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 The red vestments of Pentecost are one of the most visually striking elements of the feast. Red is the color of fire (the tongues of fire at Pentecost) and of blood (the martyrs who died for the faith). Some parishes encourage the faithful to wear red to Mass on Pentecost Sunday as a sign of their participation in the feast and their openness to the Holy Spirit.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pentecost and the Sacrament of Confirmation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 Pentecost has a special connection to the Sacrament of Confirmation, which is the personal Pentecost of each Catholic. In Confirmation, the bishop anoints the candidate with chrism oil and says: "Be sealed with the Gift of the Holy Spirit." The same Spirit who descended on the Apostles in tongues of fire is given to each confirmed Catholic, strengthening them to be witnesses of Christ in the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 Many dioceses celebrate Confirmation at Pentecost or during the Easter Season, making the connection between the feast and the sacrament explicit. If you have been confirmed, Pentecost is a beautiful occasion to renew your commitment to live by the Spirit and to use the gifts you have received for the good of the Church and the world.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

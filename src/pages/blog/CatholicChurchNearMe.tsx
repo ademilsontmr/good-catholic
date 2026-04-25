@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicChurchNearMe() {
   return (
@@ -59,14 +60,14 @@ export default function CatholicChurchNearMe() {
               <Church className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 The Catholic Church is the largest Christian denomination in the United States, with approximately 70 million Catholics and over 17,000 parishes spread across all 50 states. Whether you are a lifelong Catholic who has moved to a new city, someone returning to the faith after years away, or a non-Catholic curious about attending Mass, finding the right parish is one of the most important steps in your Catholic journey.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Best Tools to Find a Catholic Church</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 Several excellent online tools make finding a Catholic parish straightforward:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>MassTimes.org</strong> — The most comprehensive Catholic Mass finder in the US. Search by zip code, city, or address to find Mass times, confession schedules, and parish contact information. It covers virtually every Catholic parish in the country.</li>
                 <li><strong>The USCCB Parish Finder</strong> (usccb.org) — The official tool of the United States Conference of Catholic Bishops. Reliable and regularly updated.</li>
@@ -76,9 +77,9 @@ export default function CatholicChurchNearMe() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Look for in a Parish</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 Not all parishes are the same. Once you have a list of nearby options, here are the key factors to consider:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Mass schedule.</strong> Does the parish offer Mass times that fit your schedule? Most parishes offer multiple Sunday Masses and at least one weekday Mass. Some offer daily Mass, which is a tremendous spiritual resource.</li>
                 <li><strong>Confession times.</strong> Regular access to the Sacrament of Reconciliation is essential for a healthy Catholic life. Look for a parish that offers confession at least weekly, ideally before or after daily Mass and on Saturday afternoons.</li>
@@ -89,9 +90,9 @@ export default function CatholicChurchNearMe() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Diocesan Parishes vs. Religious Order Parishes</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 Most Catholic parishes in the US are diocesan parishes — they belong to the local diocese and are staffed by diocesan priests. But some parishes are run by religious orders, and these often have a distinctive character:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Franciscan parishes</strong> tend to emphasize simplicity, joy, and care for the poor. They often have a warm, welcoming atmosphere.</li>
                 <li><strong>Dominican parishes</strong> tend to emphasize preaching, study, and the Rosary. They often have strong adult education programs.</li>
@@ -100,9 +101,9 @@ export default function CatholicChurchNearMe() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Finding a Traditional Latin Mass (TLM) Parish</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 If you are drawn to the Traditional Latin Mass (also called the Extraordinary Form or the Tridentine Mass), several resources can help you find a TLM parish near you:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Priestly Fraternity of St. Peter (FSSP)</strong> — fssp.org — operates parishes and apostolates across the US dedicated to the Traditional Latin Mass.</li>
                 <li><strong>The Institute of Christ the King Sovereign Priest (ICKSP)</strong> — christkingdom.org — another traditional priestly society with US locations.</li>
@@ -116,23 +117,23 @@ export default function CatholicChurchNearMe() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Eastern Catholic Churches in the US</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 Many Americans are unaware that there are 23 Eastern Catholic Churches in full communion with Rome, several of which have a significant presence in the United States. These churches use different liturgical rites but are fully Catholic:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Byzantine Catholic Church</strong> — The largest Eastern Catholic presence in the US, with two eparchies (dioceses): the Byzantine Catholic Eparchy of Passaic (NJ) and the Byzantine Catholic Eparchy of Parma (OH). Their Divine Liturgy is celebrated in English and Church Slavonic.</li>
                 <li><strong>Maronite Catholic Church</strong> — Rooted in Lebanon, with a significant presence in cities with large Lebanese-American communities (Detroit, Boston, Los Angeles).</li>
                 <li><strong>Melkite Greek Catholic Church</strong> — An Arabic-speaking church with parishes in major US cities.</li>
                 <li><strong>Ukrainian Greek Catholic Church</strong> — Significant presence in cities with Ukrainian-American communities.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 Attending an Eastern Catholic liturgy is a profound experience — the ancient beauty of the Byzantine rite, the incense, the chanting, and the icons create an atmosphere of deep reverence. Catholics may fulfill their Sunday obligation at any Eastern Catholic church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Expect at Your First Mass</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 If you are attending Mass for the first time or returning after a long absence, here is what to expect:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Dress modestly.</strong> There is no strict dress code, but modest, respectful attire is appropriate. Many Catholics dress up for Sunday Mass as a sign of reverence.</li>
                 <li><strong>Arrive a few minutes early.</strong> Take a few moments of silent prayer before Mass begins. Pick up a missalette (the booklet with the Mass texts) if available.</li>
@@ -142,17 +143,17 @@ export default function CatholicChurchNearMe() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Register at a Parish</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 Registering at a parish is an important step that many Catholics overlook. Registration connects you to the parish community, allows you to receive sacramental letters (needed for Confirmation, marriage, etc.), and supports the parish financially through envelope giving or online giving.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 To register, simply visit the parish office or fill out a registration form on the parish website. You will typically provide your name, address, and contact information. Some parishes ask about your family situation and sacramental history. Registration is free and takes only a few minutes.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Getting Involved in Parish Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 A parish is not just a place to attend Mass — it is a community. Getting involved deepens your faith and builds lasting friendships. Here are some ways to get connected:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>RCIA</strong> — If you are not yet Catholic or want to complete your sacraments, the Rite of Christian Initiation of Adults is the path into the Church.</li>
                 <li><strong>Knights of Columbus</strong> — The largest Catholic fraternal organization in the world, with councils in most US parishes. Open to Catholic men 18 and older.</li>
@@ -162,9 +163,9 @@ export default function CatholicChurchNearMe() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Tips for Returning Catholics</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 If you have been away from the Church for years, returning can feel daunting. Here are some practical steps:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Go to Confession first.</strong> If you have been away for a long time, going to Confession before receiving Communion is essential. Call the parish and ask for an appointment with a priest — most are happy to accommodate returning Catholics.</li>
                 <li><strong>Be patient with yourself.</strong> You may not remember all the responses or know when to sit and stand. That is fine. The important thing is that you are there.</li>

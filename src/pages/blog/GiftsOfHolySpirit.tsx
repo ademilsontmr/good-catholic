@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GiftsOfHolySpirit() {
     return (
@@ -75,9 +76,9 @@ export default function GiftsOfHolySpirit() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 On the day of our Baptism, and fully at Confirmation, we receive the Holy Spirit with His seven gifts. They are not natural talents, but supernatural dispositions that make man docile to follow divine inspirations. They are like the sails of a boat that, when opened, allow the breath of the Spirit to lead us to the high seas of holiness. Many Catholics receive these gifts and never use them – it is like having a treasure buried in the backyard and never digging to find it.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 The Seven Gifts Explained
@@ -86,9 +87,9 @@ export default function GiftsOfHolySpirit() {
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 1. Wisdom
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 It is not the accumulation of knowledge, but the "taste" for the things of God. The gift of Wisdom allows us to see the world, people, and events through God's eyes. When you have wisdom, you understand that riches pass, that fame is vain, that what really matters is friendship with God.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="Do you know the gifts you received at Confirmation?"
@@ -98,51 +99,51 @@ export default function GiftsOfHolySpirit() {
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 2. Understanding (or Intelligence)
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 Helps us penetrate the deep meaning of revealed truths and the mysteries of faith, going beyond appearances. When you have understanding, you can comprehend why the Church teaches what it teaches, why the sacraments are so important, why Catholic morality leads to true happiness.
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 3. Counsel
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 It is the light the Spirit gives us to discern what is right to do in complex life situations, always choosing the path that most pleases God. When you are in doubt about an important decision, the gift of Counsel enlightens you to choose well.
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 4. Fortitude
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 Gives us the courage and perseverance necessary to face difficulties, persecutions, and temptations, keeping us faithful to Christ until the end. It is the gift that allows the martyr to face death with joy, the young person to resist peer pressure, the Christian to remain faithful in times of crisis.
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 5. Knowledge
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 Allows us to judge created things rightly, seeing in them the reflection of the Creator and not transforming them into idols. With the gift of Knowledge, you see the beauty of a flower and praise the Creator; you see technology and use it for good, not for evil.
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 6. Piety
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 Heals our heart from hardness and gives us a filial affection for God and sincere fraternity toward our neighbor. It is the gift that makes us love God as a child loves their father, and that makes us serve our neighbor with tenderness.
-                            </p>
+                            </LinkedText>
 
                             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                                 7. Fear of the Lord
                             </h3>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 It is not fear of punishment, but the loving fear of offending God, who is our Father and loves us infinitely. It is the beginning of true wisdom. When you have fear of the Lord, you avoid sin not out of fear of hell, but because you do not want to hurt the One who loves you.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 How to Cultivate the Presence of the Spirit?
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 The Holy Spirit is a divine person with whom we can and should converse. Ask daily: "Come, Holy Spirit!" Remain in a state of grace through frequent confession and seek interior silence to hear His movements. The more you open yourself to the gifts of the Spirit, the more He acts in you, transforming you into an instrument of His will.
-                            </p>
+                            </LinkedText>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">

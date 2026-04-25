@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PlenaryIndulgenceGuide() {
     return (
@@ -75,9 +76,9 @@ export default function PlenaryIndulgenceGuide() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
                                 Many Catholics confuse Indulgence with Confession. While Confession forgives the guilt of sin, plenary indulgence erases the "temporal punishment" — the mark or disorder that sin leaves on our soul. In Jubilee 2025, Pope Francis facilitated access to this immense grace.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="Do you want to start a new life today?"
@@ -87,9 +88,9 @@ export default function PlenaryIndulgenceGuide() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 The 4 Usual Conditions
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
                                 For any plenary indulgence, four fundamental acts are necessary:
-                            </p>
+                            </LinkedText>
                             <ol className="list-decimal list-inside text-text space-y-2 mb-6">
                                 <li><strong>Sacramental Confession:</strong> Can be done a few days before or after.</li>
                                 <li><strong>Eucharistic Communion:</strong> Preferably on the day the indulgenced work is performed.</li>
@@ -100,9 +101,9 @@ export default function PlenaryIndulgenceGuide() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 Specific Works of Jubilee 2025
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
                                 In addition to the above conditions, the faithful must perform one of the following works:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-2 mb-6">
                                 <li><strong>Pilgrimage:</strong> Visit one of the Papal Basilicas in Rome or the Cathedral of your diocese.</li>
                                 <li><strong>Pious Visit:</strong> Spend time in adoration or prayer in designated jubilee churches.</li>
@@ -113,9 +114,9 @@ export default function PlenaryIndulgenceGuide() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 Why Seek Indulgence Now?
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
                                 The Jubilee is a "favorable time." It is the opportunity to start the year 2026 with a completely renewed soul, as if we had just come out of Baptism. Additionally, you can apply the indulgence for a soul in Purgatory.
-                            </p>
+                            </LinkedText>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">

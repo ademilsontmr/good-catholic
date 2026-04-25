@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ContemplativePrayer() {
   return (
@@ -76,58 +77,58 @@ export default function ContemplativePrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 In a world of noise, notifications, and constant distraction, the ancient Catholic practice of contemplative prayer offers something radical: silence. Not the silence of emptiness, but the silence of presence — the presence of God. For centuries, mystics, monks, and ordinary Catholics have discovered that the deepest prayer is not about saying more words, but about learning to be still before the living God.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Yet contemplative prayer is also one of the most misunderstood topics in Catholic spirituality today. Some confuse it with Eastern meditation. Others mistake it for the controversial "centering prayer" technique. Still others assume it is only for cloistered nuns and monks. None of these assumptions are correct. This guide will walk you through what authentic Catholic contemplative prayer is, where it comes from, and how you can begin to open yourself to it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Is Contemplative Prayer? A Definition
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 The Catechism of the Catholic Church defines contemplative prayer as "a gaze of faith fixed on Jesus, an attentiveness to the Word of God, a silent love" (CCC 2724). It is not primarily something we do — it is something we receive. Contemplative prayer is a gift of God, a form of prayer in which the soul rests in God's presence beyond the activity of the intellect and imagination.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 St. Teresa of Avila, one of the greatest teachers of prayer in Church history, described contemplation simply as "an intimate sharing between friends; it means taking time frequently to be alone with Him who we know loves us." This definition captures the relational heart of contemplative prayer: it is friendship with God, deepened through silence and presence.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Three Stages of Prayer: Vocal, Mental, and Contemplative
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Catholic tradition has long recognized a progression in the life of prayer. These are not rigid stages that everyone passes through in the same way, but they describe a general movement from the exterior to the interior, from activity to receptivity.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 1. Vocal Prayer
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Vocal prayer uses words — spoken aloud or silently — to address God. The Our Father, the Hail Mary, the Rosary, and the Liturgy of the Hours are all forms of vocal prayer. This is where most Catholics begin, and it remains essential throughout the spiritual life. Even the greatest mystics continued to pray vocally. The key is that vocal prayer should be prayed with attention and devotion, not merely recited mechanically.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 2. Mental Prayer (Meditation)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Mental prayer, or meditation, engages the intellect, imagination, and will in reflecting on a truth of faith. In Ignatian meditation, for example, you might imaginatively place yourself in a Gospel scene, observe what is happening, and draw out a personal resolution. In Lectio Divina, you slowly read a Scripture passage and allow a word or phrase to speak to your heart. Mental prayer is active — you are doing something with your mind and heart.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 3. Contemplative Prayer
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Contemplative prayer is where the activity of the mind gives way to a simple, loving attention to God. The soul is no longer reasoning about God or imagining Gospel scenes — it is simply resting in God's presence, gazing at Him with love. This transition from meditation to contemplation is not something we engineer; it is a gift that God gives when He wills. Our role is to prepare ourselves and remain open.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Infused vs. Acquired Contemplation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Catholic theology distinguishes between two types of contemplation, and understanding this distinction is crucial for avoiding confusion.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Acquired contemplation</strong> (also called active contemplation) refers to a simplified form of prayer that we can cultivate through our own effort, aided by grace. It involves quieting the mind, reducing the multiplicity of thoughts, and resting in a simple loving attention to God. This is accessible to all serious Catholics who persevere in prayer.
               </p>
@@ -147,15 +148,15 @@ export default function ContemplativePrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Carmelite Tradition: Teresa of Avila and John of the Cross
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 No tradition in the Church has mapped the terrain of contemplative prayer more thoroughly than the Carmelites. Two Doctors of the Church — St. Teresa of Avila (1515–1582) and St. John of the Cross (1542–1591) — are the supreme guides for anyone seeking to understand and enter into contemplative prayer.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 St. Teresa of Avila described the soul's journey to God using the image of an interior castle with seven dwelling places (mansions). The outer mansions correspond to vocal and mental prayer; the inner mansions describe increasingly deep forms of contemplation, culminating in the seventh mansion — the spiritual marriage, the fullest union with God possible in this life. Her other great work, The Way of Perfection, is a practical guide to prayer written for her Carmelite sisters.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 St. John of the Cross approached contemplation through the lens of purification. His masterwork, The Ascent of Mount Carmel and The Dark Night of the Soul, describes the painful but necessary process by which God strips the soul of attachments to created things — including spiritual consolations — in order to unite it more perfectly with Himself. John's teaching is demanding but profoundly liberating: true contemplation requires letting go of everything that is not God.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your prayer life?"
@@ -165,19 +166,19 @@ export default function ContemplativePrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Difference Between Meditation and Contemplation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Many Catholics use the words "meditation" and "contemplation" interchangeably, but in the Catholic tradition they refer to distinct forms of prayer. Meditation is active: you use your intellect, imagination, memory, and will to reflect on a truth of faith and draw out affections and resolutions. Contemplation is receptive: the activity of the mind quiets down, and the soul simply rests in loving attention to God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 St. John of the Cross offers a helpful sign for knowing when God is calling a soul from meditation to contemplation: when you can no longer meditate as before (the imagination and intellect seem dry and unable to function), when you have no desire to fix your attention on any particular object, and when you find a loving, peaceful attentiveness to God without any particular act of the intellect. When these three signs are present together, it is time to let go of discursive meditation and simply rest in God's presence.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Prepare for Contemplative Prayer
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 While infused contemplation is a gift we cannot produce, we can and should prepare ourselves to receive it. The tradition offers several practical dispositions:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Persevere in daily mental prayer.</strong> Set aside at least 20–30 minutes each day for silent prayer. Consistency matters more than duration.</li>
                 <li><strong>Cultivate recollection.</strong> Throughout the day, practice brief moments of turning your attention to God's presence. The practice of the presence of God, taught by Brother Lawrence, is an excellent preparation.</li>
@@ -190,35 +191,35 @@ export default function ContemplativePrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Problem with "Centering Prayer": Church Concerns
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 In recent decades, a technique called "centering prayer" has become popular in some Catholic circles. Developed in the 1970s by Trappist monks Thomas Keating and Basil Pennington, centering prayer involves choosing a "sacred word" and using it to dismiss all thoughts during a period of silence, with the goal of opening oneself to God's presence.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 While the intention behind centering prayer is good, the Congregation for the Doctrine of the Faith (CDF) raised concerns in its 1989 document "Letter to the Bishops of the Catholic Church on Some Aspects of Christian Meditation." The document warned against techniques that aim to produce a state of mental emptiness, noting that authentic Christian contemplation is not about emptying the mind but about filling it with God — it is always personal, relational, and Trinitarian.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 The concern is not that silence is bad — silence is essential to contemplative prayer. The concern is that a technique-based approach to prayer can subtly shift the focus from God to a psychological state, and that the method of dismissing all thoughts (including thoughts of God) can open the soul to influences other than the Holy Spirit. Authentic Catholic contemplation always maintains a personal relationship with the God who is Father, Son, and Holy Spirit.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Authentic Catholic Contemplation: What It Looks Like
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Authentic Catholic contemplative prayer is always rooted in faith, hope, and charity. It is not a technique but a relationship. Here is what it typically looks like in practice:
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 You begin with a brief vocal prayer, placing yourself in God's presence. You might read a short passage of Scripture or a line from a spiritual classic. Then you allow the activity of your mind to quiet down, not by forcing it, but by gently returning your attention to God whenever it wanders. You are not trying to produce any particular experience or feeling. You are simply being present to the One who is always present to you.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 If distractions come — and they will — you do not fight them or become frustrated. You simply, gently, return your attention to God. Over time, with God's grace, the distractions become less frequent, and the soul settles into a deeper quiet. This is the beginning of contemplative prayer.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Signs of Growth in Contemplative Prayer
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 How do you know if you are growing in contemplative prayer? The tradition offers several signs:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>A growing desire for silence and solitude</li>
                 <li>A deepening sense of God's presence throughout the day</li>
@@ -228,22 +229,22 @@ export default function ContemplativePrayer() {
                 <li>Increased charity toward others, especially the difficult</li>
                 <li>A sense that vocal and mental prayer are becoming simpler and more unified</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Note that these signs are primarily moral and relational, not experiential. The goal of contemplative prayer is not to have mystical experiences but to be transformed in love — to become more like Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Practical Guidance for Beginners
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 If you are new to contemplative prayer, here is a simple way to begin:
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 Choose a regular time and place for prayer — ideally the same time each day, in a quiet space where you will not be interrupted. Begin with 15–20 minutes. Start with a brief vocal prayer, such as the Our Father or a simple act of faith. Then read a short passage of Scripture slowly, allowing a word or phrase to rest in your heart. When you feel ready, set aside the reading and simply rest in God's presence. If your mind wanders, gently return to a simple word or phrase — "Lord Jesus," "Come, Holy Spirit," or simply "God" — not as a technique, but as a loving return to the One you are with.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 End your prayer time with a brief thanksgiving and a resolution to carry God's presence with you throughout the day. Over weeks and months, you will likely notice a deepening of your prayer and a growing desire for more silence with God.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <h3 className="font-display text-lg font-bold text-text mb-3">A Simple Prayer for Contemplative Beginners</h3>

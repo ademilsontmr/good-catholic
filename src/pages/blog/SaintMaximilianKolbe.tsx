@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMaximilianKolbe() {
   return (
@@ -59,45 +60,45 @@ export default function SaintMaximilianKolbe() {
               <Shield className="w-24 h-24 text-gray-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 Saint Maximilian Kolbe (1894–1941) is one of the most beloved saints of the 20th century — a man whose life was marked by extraordinary Marian devotion, tireless apostolic work, and a final act of heroic charity that has become one of the most powerful symbols of Christian love in the modern world. He was canonized by Pope John Paul II in 1982 as a "martyr of charity."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life and the Vision of Mary</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 Rajmund Kolbe was born on January 8, 1894, in Zduńska Wola, in what was then the Russian-controlled part of Poland. His parents were devout Catholics, and Rajmund showed a deep piety from childhood. When he was about 10 years old, he had a vision that would shape his entire life: the Virgin Mary appeared to him holding two crowns — one white (representing purity) and one red (representing martyrdom) — and asked him which he would choose. He chose both.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 Rajmund entered the Franciscan Order and took the name Maximilian. He studied in Rome, where he earned doctorates in philosophy and theology. In Rome, he was deeply troubled by the anti-Catholic demonstrations of Freemasons, who marched through the streets with banners proclaiming "Satan will reign in the Vatican." In response, in 1917 — the year of the Fatima apparitions — he founded the Militia Immaculata (Army of the Immaculate One), a Marian apostolate dedicated to the conversion of sinners and enemies of the Church through the intercession of Mary.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Militia Immaculata and Niepokalanów</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 After his ordination and return to Poland, Kolbe threw himself into apostolic work with extraordinary energy. Despite suffering from tuberculosis — which would plague him for the rest of his life — he founded a magazine, the Knight of the Immaculata, which grew to a circulation of over one million copies per month by the 1930s.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 In 1927, he founded Niepokalanów ("City of the Immaculate") near Warsaw — a Franciscan friary that became the largest Catholic religious community in the world, with over 700 friars. Niepokalanów had its own printing press, radio station, and even an airstrip. Kolbe used every modern means of communication to spread devotion to Mary and the Catholic faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 In 1930, Kolbe traveled to Japan and founded a similar community near Nagasaki — Mugenzai no Sono ("Garden of the Immaculate"). The location he chose, on the side of a mountain away from the city, would prove providential: when the atomic bomb was dropped on Nagasaki in 1945, the community was shielded from the blast.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Arrest and Auschwitz</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 When Germany invaded Poland in September 1939, Kolbe remained at Niepokalanów. The friary sheltered thousands of refugees, including 2,000 Jews. In February 1941, Kolbe was arrested by the Gestapo and sent to Auschwitz concentration camp, where he was given the prisoner number 16670.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 At Auschwitz, Kolbe continued his priestly ministry in secret — hearing confessions, celebrating Mass with smuggled bread and wine, encouraging his fellow prisoners. He was subjected to brutal treatment, including beatings and forced labor, but maintained a remarkable serenity and charity.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 In July 1941, a prisoner escaped from Block 14. The camp commandant, Rudolf Höss, ordered that ten men from the block be selected to die by starvation in an underground bunker — a standard reprisal. When one of the selected men, Franciszek Gajowniczek, cried out for his wife and children, Kolbe stepped forward and asked to take his place. Höss agreed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 Kolbe and the nine other condemned men were locked in the starvation bunker. While the others wept and screamed, Kolbe led them in prayer and hymns. After two weeks, only Kolbe remained alive. On August 14, 1941 — the eve of the feast of the Assumption — a guard administered a lethal injection of carbolic acid. Kolbe reportedly raised his arm to receive the injection. He was 47 years old.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 Franciszek Gajowniczek — the man whose life Kolbe saved — survived the war and lived until 1995. He attended Kolbe's canonization in 1982.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -105,17 +106,17 @@ export default function SaintMaximilianKolbe() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Canonization and Patronages</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 Maximilian Kolbe was beatified by Pope Paul VI in 1971 and canonized by Pope John Paul II on October 10, 1982 — a canonization attended by Franciszek Gajowniczek, the man whose life he had saved. John Paul II, himself a Pole who had lived through the Nazi occupation, called Kolbe "the patron saint of our difficult century."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 Kolbe is the patron saint of drug addicts, political prisoners, families, journalists, and the pro-life movement. His feast day is August 14 — the anniversary of his death.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Militia Immaculata Today</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 The Militia Immaculata that Kolbe founded in 1917 continues today as an international Marian apostolate with millions of members worldwide. Its mission — the conversion of sinners and the sanctification of souls through consecration to Mary — remains unchanged. Members consecrate themselves to Mary and commit to spreading devotion to the Immaculate Conception.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

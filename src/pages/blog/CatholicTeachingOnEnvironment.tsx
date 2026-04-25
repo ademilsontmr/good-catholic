@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnEnvironment() {
   return (
@@ -59,50 +60,50 @@ export default function CatholicTeachingOnEnvironment() {
               <Globe className="w-24 h-24 text-green-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 In an age of climate anxiety and political polarization, the Catholic Church offers something rare: a coherent, theologically grounded vision of the human relationship with the natural world. It is neither the radical environmentalism that treats nature as sacred in itself, nor the exploitative attitude that treats the earth as a resource to be consumed without limit. It is the ancient Christian vision of stewardship — the conviction that creation is God's gift, entrusted to human care, and that how we treat it reflects how we love its Creator.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Laudato Si' (2015): The Key Teachings</h2>
               <p className="text-text leading-relaxed mb-6">
                 Pope Francis's encyclical <em>Laudato Si': On Care for Our Common Home</em> (2015) is the most comprehensive statement of Catholic environmental teaching ever produced. Its title comes from St. Francis of Assisi's Canticle of the Sun: "Laudato si', mi' Signore" — "Praise be to you, my Lord." It is addressed not only to Catholics but to "every person living on this planet."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 The encyclical's central argument is that the environmental crisis and the social crisis are inseparable. The same throwaway culture that exploits the poor also exploits the earth. The same consumerism that drives inequality also drives environmental destruction. You cannot solve one without addressing the other.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 Key teachings of Laudato Si' include: the earth is a common home belonging to all, not a commodity to be owned; the poor are the most vulnerable to environmental degradation and must be at the center of any response; technology alone cannot solve the crisis — a change of heart and lifestyle is required; and the throwaway culture must be replaced by a culture of care, gratitude, and sobriety.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Laudate Deum (2023): The Follow-Up</h2>
               <p className="text-text leading-relaxed mb-6">
                 In October 2023, Pope Francis published <em>Laudate Deum</em> ("Praise God"), an apostolic exhortation that updates and intensifies the message of Laudato Si'. Written in the context of the COP28 climate conference, it is more urgent in tone — a direct response to what Francis sees as insufficient action on climate change in the eight years since Laudato Si'.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 Laudate Deum affirms the scientific consensus on climate change and calls it "a global social problem." It criticizes those who deny or minimize the crisis, and calls on world leaders to make binding commitments to reduce emissions. It also addresses the spiritual dimension: the ecological crisis is ultimately a crisis of the human heart, rooted in the sin of greed and the illusion that we are masters of creation rather than its stewards.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Basis: Stewardship, Not Domination</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 The Catholic approach to the environment is rooted in Scripture. Genesis 1–2 describes God creating the world and calling it "very good" — a declaration of the intrinsic value of creation, independent of its usefulness to humans. God then places the human person in the garden "to till it and keep it" (Genesis 2:15) — a mandate of stewardship, not domination.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Hebrew word for "dominion" in Genesis 1:28 (<em>radah</em>) does not mean exploitation — it means the responsible governance of a king over his subjects. A good king cares for his people; a good steward cares for what has been entrusted to him. The Catholic tradition has always interpreted the human "dominion" over creation as a responsibility, not a license.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 Psalm 104 is a magnificent hymn to creation — a meditation on the beauty and order of the natural world as a reflection of God's glory. Romans 8:19–22 speaks of all creation "groaning" as it awaits redemption — a reminder that the destiny of the natural world is bound up with the destiny of humanity. Creation is not merely a backdrop for human history; it is a participant in the drama of salvation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">St. Francis of Assisi: Patron of Ecology</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 No figure in Catholic history embodies the Church's ecological vision more fully than St. Francis of Assisi (1181–1226). Pope John Paul II declared him the patron saint of ecology in 1979, and Pope Francis took his name in honor of this tradition.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 Francis's Canticle of the Sun — written near the end of his life, when he was nearly blind — is one of the most beautiful ecological texts ever written. He addresses the sun as "Brother Sun," the moon as "Sister Moon," the wind as "Brother Wind," water as "Sister Water," fire as "Brother Fire," and the earth as "Sister Mother Earth." This is not pantheism — Francis does not worship creation. He sees in creation a family of creatures who, like him, praise God by their very existence.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 Francis's poverty was itself an ecological statement: he refused to own anything, to accumulate, to consume beyond his needs. In an age of consumerism, his example is more countercultural — and more Catholic — than ever.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -110,31 +111,31 @@ export default function CatholicTeachingOnEnvironment() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Integral Ecology: Environment, Society, and the Human Person</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 One of the most important concepts in Laudato Si' is "integral ecology" — the idea that the environmental crisis, the social crisis, and the spiritual crisis are all aspects of a single problem. You cannot care for the earth without caring for the poor. You cannot care for the poor without caring for the earth. And you cannot do either without caring for the human soul.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 Integral ecology rejects the false choice between the environment and the economy, between ecological concern and human development. It insists that authentic human development — the kind the Church has always championed — must include the health of the natural world on which all human life depends.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 This concept also challenges the tendency to treat environmental issues as purely technical problems to be solved by technology. The deeper problem is cultural and spiritual: a culture that treats everything — people, animals, the earth — as resources to be exploited for profit. The solution requires a conversion of heart, not just a change of policy.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Says About Climate Change</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 The Catholic Church accepts the scientific consensus on climate change. Laudato Si' states clearly that "a very solid scientific consensus indicates that we are presently witnessing a disturbing warming of the climatic system." Laudate Deum goes further, criticizing those who deny or minimize the crisis as acting against the evidence.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 The Church's concern is not primarily scientific but moral: climate change disproportionately harms the poor, who have contributed least to the problem and have the fewest resources to adapt. This is a justice issue, not just an environmental one. The Catholic principle of the preferential option for the poor demands that we take seriously the impact of our choices on the most vulnerable.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 At the same time, the Church does not endorse any particular political program or party. Catholics can and do disagree about the best policy responses to climate change. What the Church insists on is the moral obligation to take the problem seriously and to act with justice and solidarity.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Catholic Responses</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 Laudato Si' calls for both structural change and personal conversion. Here are practical ways Catholics can respond:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Reduce waste.</strong> The throwaway culture is a spiritual problem as much as an environmental one. Buying less, repairing rather than replacing, and avoiding single-use plastics are acts of stewardship.</li>
                 <li><strong>Support local food.</strong> Buying from local farmers reduces the environmental cost of food transportation, supports local communities, and reconnects us with the land. The Catholic tradition of fasting and abstinence also naturally reduces meat consumption, which has significant environmental benefits.</li>
@@ -143,15 +144,15 @@ export default function CatholicTeachingOnEnvironment() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Care for Creation and Care for the Poor</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 The connection between environmental stewardship and care for the poor is one of the most important insights of Catholic social teaching. The poor are the first victims of environmental degradation: they live closest to polluting industries, they depend most directly on natural resources for their livelihoods, and they have the least capacity to adapt to climate change.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 This means that caring for the environment is not a luxury for the comfortable — it is a demand of justice. When we pollute a river, we harm the communities that depend on it. When we contribute to climate change, we harm the farmers in sub-Saharan Africa whose crops are failing. The Catholic principle of solidarity — the recognition that we are all responsible for one another — extends to our relationship with the natural world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 Conversely, genuine care for the poor must include care for the environment. Development that destroys the natural resources on which the poor depend is not authentic development — it is a new form of exploitation. The Catholic vision of integral human development insists that economic growth must be sustainable, just, and oriented toward the common good.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">From the Canticle of the Sun — St. Francis of Assisi</h3>

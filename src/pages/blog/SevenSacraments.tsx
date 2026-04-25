@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SevenSacraments() {
   return (
@@ -84,9 +85,9 @@ export default function SevenSacraments() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. The Three Layers: Initiation, Healing, and Mission
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">
                 The Church organizes the seven sacraments into three logical groups that mirror the human lifecycle:
-              </p>
+              </LinkedText>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
                 <div className="p-4 border border-border rounded-xl">
@@ -106,9 +107,9 @@ export default function SevenSacraments() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. Matter and Form: The Technical Grace
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">
                 Every sacrament requires a physical element (Matter) and a specific set of words (Form).
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>Baptism:</strong> Water (Matter) + "I baptize you..." (Form).</li>
                 <li><strong>Eucharist:</strong> Wheat Bread/Grape Wine (Matter) + Words of Institution (Form).</li>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SignsOfVocation() {
   return (
@@ -67,9 +68,9 @@ export default function SignsOfVocation() {
               <p className="text-text leading-relaxed mb-6">
                 The Second Vatican Council's document <em>Lumen Gentium</em> teaches that all Christians are called to holiness — the "universal call to holiness." But within this universal call, God calls each person to a specific state of life through which they will live out that holiness. The question is not <em>whether</em> God is calling you, but <em>how</em> He is calling you.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="signs-of-a-vocation-priesthood-religious-life">
                 It is important to understand that no vocation is superior to another in terms of holiness. A married person who loves God with their whole heart is not less holy than a priest or a nun. What matters is fidelity to one's own vocation — living fully the life to which God has called you.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Vocations</h2>
               <p className="text-text leading-relaxed mb-4">
@@ -125,23 +126,23 @@ export default function SignsOfVocation() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Role of Fear and Doubt in Discernment</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="signs-of-a-vocation-priesthood-religious-life">
                 Fear and doubt are normal parts of vocational discernment — they do not mean you do not have a vocation. In fact, the absence of any fear might be a sign that you are not taking the discernment seriously enough.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="signs-of-a-vocation-priesthood-religious-life">
                 The key is to distinguish between different kinds of fear. There is the fear that comes from the enemy — a paralyzing, irrational fear designed to prevent you from following God's call. And there is the healthy fear that comes from taking a serious commitment seriously — the recognition that priesthood or religious life is a lifelong, demanding vocation that requires everything you have.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 St. Ignatius of Loyola, in his <em>Spiritual Exercises</em>, taught that the enemy often attacks with fear and discouragement precisely when a person is moving toward God's will. If you feel a strong, persistent call to the priesthood or religious life, but also feel a strong, irrational fear, that combination may itself be a sign that you are on the right track.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="signs-of-a-vocation-priesthood-religious-life">
                 Doubt, too, is normal. Very few people receive a dramatic, unmistakable call like St. Paul on the road to Damascus. Most vocations are discerned gradually, through a process of prayer, reflection, and testing. Doubt is not the absence of a vocation — it is part of the process of discovering one.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Do If You Think You Have a Vocation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="signs-of-a-vocation-priesthood-religious-life">
                 If you feel drawn to the priesthood or religious life, here are concrete next steps:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Talk to your pastor or a priest you trust.</strong> Share what you are experiencing. Ask for guidance. Most priests are happy to talk with someone who is discerning a vocation.</li>
                 <li><strong>Contact your diocesan vocations office.</strong> Every diocese has a vocations director whose job is to accompany men discerning the priesthood. They can provide resources, retreats, and personal guidance.</li>
@@ -151,9 +152,9 @@ export default function SignsOfVocation() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saints Who Discerned Their Vocation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="signs-of-a-vocation-priesthood-religious-life">
                 The history of the Church is full of saints who struggled to discern their vocation — and whose stories can encourage those in the same process today:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>St. Thomas Aquinas</strong> faced fierce opposition from his own family when he chose to join the Dominican Order. His brothers kidnapped him and held him prisoner for over a year to break his resolve. He persevered, and became the greatest theologian in Catholic history. His story reminds us that family opposition is not a sign that a vocation is wrong.</li>
                 <li><strong>St. Teresa of Ávila</strong> entered the Carmelite convent at age 20, but spent the next twenty years in spiritual mediocrity before experiencing a profound conversion at age 39. Her story reminds us that a vocation is not just about entering religious life — it is about living it fully, and that conversion can happen at any stage of the journey.</li>

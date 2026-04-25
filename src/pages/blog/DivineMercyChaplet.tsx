@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DivineMercyChaplet() {
   return (
@@ -127,9 +128,9 @@ export default function DivineMercyChaplet() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. The 3:00 PM Hour: A Moment of Grace
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">
                 Jesus asked Faustina to pause at 3:00 PM—the hour He expired on the cross. He said: "In this hour you can obtain everything for yourself and for others for the asking" (Diary 1572). 
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Even if you only have one minute, Jesus suggested this short prayer: <em>"You expired, Jesus, but the source of life gushed forth for souls... O Fount of Life, unfathomable Divine Mercy, envelop the whole world and empty Yourself out upon us."</em>
               </p>
@@ -143,12 +144,12 @@ export default function DivineMercyChaplet() {
                  <ShieldCheck className="w-6 h-6 text-accent" />
                  The Promise for the Dying
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">
                 The most staggering promise regarding the Chaplet is for the hour of death. Jesus said: "When they say this chaplet in the presence of the dying, I will stand between My Father and the dying person, not as the just Judge but as the merciful Savior." 
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">
                 Exorcists also report that the Chaplet is incredibly effective in spiritual warfare, as it invokes the "sorrowful Passion" which is the very thing that defeated the enemy once and for all.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

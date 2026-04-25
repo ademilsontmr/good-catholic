@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJoanOfArc() {
   return (
@@ -59,51 +60,51 @@ export default function SaintJoanOfArc() {
               <Sword className="w-24 h-24 text-blue-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Saint Joan of Arc (c. 1412–1431) is one of the most extraordinary figures in the history of Christianity — and in the history of the world. In less than two years, she transformed the course of the Hundred Years' War, led the French army to a series of stunning victories, and secured the coronation of the French king. Then she was captured, tried for heresy by a court of French bishops collaborating with the English, and burned at the stake at the age of 19. Twenty-five years later, a retrial declared her innocent. Five centuries later, the Catholic Church declared her a saint.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Her story is one of the most remarkable in human history — a story of faith, courage, and the power of God working through the most unlikely of instruments.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life: The Voices Begin</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Joan was born around 1412 in Domrémy, a small village in the Duchy of Bar (present-day northeastern France). Her father, Jacques d'Arc, was a prosperous peasant farmer; her mother, Isabelle Romée, was a devout woman who taught Joan her prayers. Joan grew up in a deeply Catholic household, attending Mass regularly and showing an unusual piety from childhood.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 When Joan was about 13, she began to hear voices — which she identified as Saint Michael the Archangel, Saint Catherine of Alexandria, and Saint Margaret of Antioch. The voices told her to be good, to go to church, and to help the Dauphin (the uncrowned French king, Charles VII) reclaim his kingdom from the English and their Burgundian allies.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 France in the 1420s was in desperate straits. The Hundred Years' War had been going on for nearly a century. The English, allied with the powerful Duke of Burgundy, controlled much of northern France, including Paris. The Dauphin Charles held only a small territory in the south and center of the country, and his claim to the throne was disputed. The city of Orléans — the key to the Loire Valley and the heart of France — was under English siege.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Mission: From Peasant Girl to Military Commander</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 In 1429, at age 17, Joan traveled to the court of the Dauphin at Chinon. She had to convince a series of skeptical officials and theologians that her mission was genuine before she was granted an audience with Charles. When she finally met him, she reportedly identified him immediately despite his attempt to disguise himself among his courtiers — a detail that impressed the court.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Charles had Joan examined by a commission of theologians at Poitiers, who found nothing heretical in her claims and recommended that she be given a chance to prove herself. She was given armor, a horse, and command of a relief force for Orléans.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 What happened next astonished everyone. Joan arrived at Orléans on April 29, 1429. Within nine days — nine days — the English siege that had lasted seven months was broken. Joan was wounded by an arrow during the fighting but refused to leave the field. The English, who had been winning the war for decades, were routed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Over the following weeks, Joan led the French army in a series of rapid victories along the Loire Valley, capturing English-held towns one after another. On July 17, 1429, Charles VII was crowned King of France at Reims Cathedral — the traditional coronation site — with Joan standing beside him, her banner in hand.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Capture and Trial</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Joan's military success continued through the summer of 1429, but the political situation was complicated. Charles VII, now crowned, was more interested in negotiating than fighting. Joan pushed for an assault on Paris, which failed. In the spring of 1430, she was captured by Burgundian forces at Compiègne and sold to the English.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 The English were determined to discredit Joan — and, by extension, the legitimacy of Charles VII's coronation. They arranged for her to be tried for heresy by an ecclesiastical court at Rouen, presided over by Bishop Pierre Cauchon, a French bishop who was a partisan of the English cause.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 The trial was a travesty of justice. Joan was denied legal counsel, held in a military prison (rather than an ecclesiastical one, as canon law required), and subjected to months of interrogation by trained theologians. Yet she held her own with remarkable intelligence and courage. When asked whether she was in God's grace — a trick question, since claiming to be in God's grace was presumptuous, but denying it would be an admission of sin — she replied: "If I am not, may God put me there; and if I am, may God so keep me."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Joan was convicted of heresy, primarily on the charge of wearing men's clothing (which she wore for practical reasons in the field and in prison, to protect herself from assault). She was burned at the stake in the marketplace of Rouen on May 30, 1431. She was 19 years old. Her last word, repeated several times as the flames rose, was "Jesus."
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -111,26 +112,26 @@ export default function SaintJoanOfArc() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Rehabilitation and Canonization</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Twenty-five years after Joan's execution, Pope Callixtus III ordered a retrial. In 1456, the original verdict was annulled — Joan was declared innocent of all charges, and the trial was condemned as fraudulent and corrupt. Her rehabilitation was complete.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 The formal process for Joan's canonization began in the 19th century. She was beatified by Pope Pius X in 1909 and canonized by Pope Benedict XV on May 16, 1920 — nearly 500 years after her death. Her feast day is May 30, the anniversary of her martyrdom.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Joan is the patron saint of France, of soldiers, of prisoners, and of people ridiculed for their piety. She is one of the patron saints of the United States (along with the Immaculate Conception) and is venerated throughout the Catholic world.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Joan of Arc Matters</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Joan of Arc is significant for Catholics for several reasons. She is a powerful example of God working through the most unlikely instruments — an illiterate teenage girl with no military training, no political connections, and no social standing. She shows that God's call does not depend on human qualifications.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 She is also a model of courage in the face of unjust authority. Joan was condemned by bishops — men who should have been her protectors — and she maintained her faith and her integrity to the end. Her example is an inspiration for all Catholics who face opposition, persecution, or unjust treatment.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Finally, Joan is a reminder that the Church can err — and that the Church has the humility to correct its errors. The rehabilitation of Joan of Arc is one of the most remarkable acts of institutional self-correction in history.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMichaelPrayer() {
   return (
@@ -90,44 +91,44 @@ export default function SaintMichaelPrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Vision of Pope Leo XIII
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 The origin of this prayer is one of the most dramatic episodes in modern Church history. According to multiple accounts, on October 13, 1884 — exactly 33 years before the Miracle of the Sun at Fatima — Pope Leo XIII had a profound and terrifying mystical experience immediately after celebrating Mass in the Vatican.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 The Pope suddenly stopped at the foot of the altar, his face drained of color. He stood motionless for about ten minutes, staring into the distance. Those present feared he had died or suffered a stroke. When he finally came to himself, he went directly to his office and composed the Prayer to Saint Michael.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 What had he seen? According to accounts that circulated among those close to him, Leo XIII had been granted a vision in which he heard two voices — one gentle and one harsh and grating. The harsh voice was that of Satan, boasting to God that he could destroy the Church if given enough time and power. Satan asked for 75 to 100 years to do his worst. God granted the request. The gentle voice was that of Christ, assuring that His Church would prevail.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 Whether this account is entirely accurate in every detail, the historical fact is undeniable: Pope Leo XIII was so shaken by what he experienced that he immediately composed a prayer calling on the greatest warrior of heaven for the Church's defense.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 History: When and Why It Was Written
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 Pope Leo XIII officially promulgated the Prayer to Saint Michael in 1886, two years after his vision. He ordered it to be prayed after every Low Mass throughout the universal Church. For nearly 80 years, Catholics around the world ended every weekday Mass with this prayer, along with the Hail Mary and the Salve Regina.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 The prayer was part of what became known as the "Leonine Prayers" — a set of prayers added to the end of Mass by Leo XIII for the intention of the temporal power of the papacy and the conversion of Russia. The context was the loss of the Papal States in 1870 and the growing threat of atheistic communism in Europe.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 After the Second Vatican Council, the new Order of Mass promulgated in 1969 did not include the Leonine Prayers. They were not formally abolished — they simply were not incorporated into the revised liturgy. Many Catholics mourned their loss, and the prayer has seen a significant revival in recent decades as awareness of spiritual warfare has grown.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 Today, many parishes have restored the Prayer to Saint Michael after Mass, and it is widely prayed by individuals, families, and prayer groups as a daily protection against evil.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Who Is Saint Michael?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 Saint Michael is one of only three angels named in Sacred Scripture (along with Gabriel and Raphael). His name in Hebrew means "Who is like God?" — a battle cry, not a question. It is the declaration he made when he led the heavenly host against Lucifer and the rebellious angels at the beginning of time.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 Scripture assigns Michael four distinct roles that make him uniquely suited to be the protector of the Church:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-3 text-text">
                 <li><strong>Warrior:</strong> In Revelation 12:7-9, Michael leads the angels in battle against the dragon (Satan) and casts him out of heaven. He is the commander of the armies of God.</li>
                 <li><strong>Protector of God's People:</strong> In Daniel 10:13 and 12:1, Michael is called "the great prince who stands guard over your people." He is the guardian of Israel — and by extension, of the Church, the new Israel.</li>
@@ -143,22 +144,22 @@ export default function SaintMichaelPrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Longer Version of the Prayer
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 Most Catholics are familiar only with the short prayer above. But Pope Leo XIII also composed a much longer prayer to Saint Michael — a formal exorcism prayer that is considerably more powerful and detailed. This longer prayer invokes Saint Michael against specific demonic forces and includes direct commands against Satan.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 It is important to note that the longer prayer is a <strong>solemn exorcism</strong> and is reserved for use by priests. The Church does not recommend that laypeople pray the longer exorcism prayer on their own, as exorcism prayers require the authority of holy orders to be used properly. The short prayer, however, is entirely appropriate for all the faithful.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 If you are facing serious spiritual oppression, the right course of action is to speak with your pastor, seek the Sacrament of Confession, and if necessary, request a referral to a priest trained in deliverance ministry.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Pray the Prayer to Saint Michael
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 The Prayer to Saint Michael is simple enough to memorize in a few minutes, yet powerful enough to pray for a lifetime. Here is how to incorporate it into your spiritual life:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-3 text-text">
                 <li><strong>After Mass:</strong> If your parish prays it after Mass, join in with full attention and faith. This is the context for which it was originally composed.</li>
                 <li><strong>In the morning:</strong> Begin your day by placing yourself under Saint Michael's protection. Pray it as part of your morning prayers before leaving the house.</li>
@@ -166,22 +167,22 @@ export default function SaintMichaelPrayer() {
                 <li><strong>For your family:</strong> Pray it aloud with your family each evening as a protection over your home and loved ones.</li>
                 <li><strong>Before difficult situations:</strong> Before entering a spiritually dangerous environment, a difficult conversation, or a moment of moral challenge, invoke Saint Michael's protection.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 Pray it with faith, not as a magic formula. The prayer works not because of the words themselves but because of the faith and trust in God that animates them. Saint Michael is a servant of God — he acts in response to God's will and the faith of those who call on him.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why This Prayer Matters Today
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 The Catholic Church has always taught that spiritual warfare is real. The Catechism states clearly: "The whole of man's history has been the story of dour combat with the powers of darkness" (CCC 409). Satan is not a myth or a metaphor — he is a real personal being who actively seeks the destruction of souls.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 In an age that has largely abandoned belief in the supernatural, the Prayer to Saint Michael is a countercultural act of faith. It declares that we live in a world where invisible forces are at work, that evil is real and personal, and that we need divine protection to navigate it safely.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-michael-prayer">
                 Many spiritual directors, exorcists, and faithful Catholics report that the consistent daily praying of this prayer has brought measurable peace, protection, and spiritual clarity to their lives. It is not a prayer of fear — it is a prayer of confidence in God's power and in the intercession of His greatest warrior.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center leading-relaxed font-semibold text-lg">

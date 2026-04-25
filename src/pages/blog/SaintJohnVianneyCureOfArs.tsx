@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJohnVianneyCureOfArs() {
   return (
@@ -108,9 +109,9 @@ export default function SaintJohnVianneyCureOfArs() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Miracle of the Granary: Feed my Sheep
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">
                 Vianney founded "La Providence," an orphanage for girls. In times of famine, he relied entirely on God. Once, when the cook reported they had only enough flour for a single loaf, Vianney went to the attic and sprinkled some of it with a relic of St. Philomena.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Moments later, the attic was found so <strong>miraculously filled with wheat</strong> that the floorboards were groaning under the weight. This "Miracle of the Granary" was one of many signs that God was sustaining the work of His humble servant.
               </p>

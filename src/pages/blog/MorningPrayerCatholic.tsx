@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MorningPrayerCatholic() {
   return (
@@ -64,20 +65,20 @@ export default function MorningPrayerCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 The Church has always begun the day with prayer. From the earliest centuries, Christians gathered at dawn to praise God and consecrate the new day to Him. This tradition — formalized in the Liturgy of the Hours as Morning Prayer (Lauds) — continues today in monasteries, convents, and the homes of faithful Catholics around the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 Morning prayer is not just a pious habit. It is a theological statement: the day belongs to God. Before the demands of work, family, and the world claim your attention, you give the first fruits of your day to the One who gave you the day itself.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Morning Prayer Is Essential</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 The saints were unanimous about the importance of morning prayer. St. Francis de Sales said: "Half an hour's meditation each day is essential, except when you are busy. Then a full hour is needed." St. Alphonsus Liguori wrote: "He who prays is certainly saved; he who does not pray is certainly damned."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 Morning prayer matters because:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>It sets the tone for the day.</strong> The first thing you give your attention to shapes everything that follows. Give it to God.</li>
                 <li><strong>It opens you to grace.</strong> Prayer is the channel through which God's grace flows into your life. Morning prayer opens that channel at the start of the day.</li>
@@ -90,9 +91,9 @@ export default function MorningPrayerCatholic() {
               <p className="text-text leading-relaxed mb-6">
                 Lauds (from the Latin <em>laudare</em>, "to praise") is the official morning prayer of the Catholic Church, part of the Liturgy of the Hours. It is prayed at dawn or in the early morning and is the most important of the daytime hours.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 The structure of Lauds:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Opening verse:</strong> "O God, come to my assistance. O Lord, make haste to help me. Glory be to the Father..."</li>
                 <li><strong>Hymn:</strong> A hymn appropriate to the season or day</li>
@@ -104,9 +105,9 @@ export default function MorningPrayerCatholic() {
                 <li><strong>The Our Father</strong></li>
                 <li><strong>Concluding prayer and blessing</strong></li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 Lauds takes about 15-20 minutes. It is available in apps like iBreviary, Laudate, and Universalis, and in the four-volume Liturgy of the Hours book set.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Benedictus: The Morning Canticle</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
@@ -115,9 +116,9 @@ export default function MorningPrayerCatholic() {
                   Blessed be the Lord, the God of Israel; he has come to his people and set them free. He has raised up for us a mighty savior, born of the house of his servant David. Through his holy prophets he promised of old that he would save us from our enemies, from the hands of all who hate us. He promised to show mercy to our fathers and to remember his holy covenant. This was the oath he swore to our father Abraham: to set us free from the hands of our enemies, free to worship him without fear, holy and righteous in his sight all the days of our life. You, my child, shall be called the prophet of the Most High; for you will go before the Lord to prepare his way, to give his people knowledge of salvation by the forgiveness of their sins. In the tender compassion of our God the dawn from on high shall break upon us, to shine on those who dwell in darkness and the shadow of death, and to guide our feet into the way of peace.
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 The Benedictus is the canticle of Zechariah, the father of John the Baptist, sung at the birth of his son. It is prayed every morning in Lauds as a hymn of praise for the coming of the Messiah and the dawn of salvation. The image of "the dawn from on high" breaking upon us makes it perfectly suited for morning prayer.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your morning prayer life?"
@@ -130,9 +131,9 @@ export default function MorningPrayerCatholic() {
                   O God, you are my God, I seek you, my soul thirsts for you; my flesh faints for you, as in a dry and weary land where there is no water. So I have looked upon you in the sanctuary, beholding your power and glory. Because your steadfast love is better than life, my lips will praise you. So I will bless you as long as I live; I will lift up my hands and call on your name. My soul is satisfied as with a rich feast, and my mouth praises you with joyful lips when I think of you on my bed, and meditate on you in the watches of the night; for you have been my help, and in the shadow of your wings I sing for joy. My soul clings to you; your right hand upholds me.
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 Psalm 63 is the classic morning psalm — a song of longing for God that is perfectly suited for the beginning of the day. It expresses the soul's thirst for God, its satisfaction in His presence, and its confidence in His protection. It is one of the most beautiful prayers in the entire Bible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Simple Catholic Morning Prayers</h2>
 

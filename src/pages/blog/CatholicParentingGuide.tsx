@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicParentingGuide() {
   return (
@@ -77,23 +78,23 @@ export default function CatholicParentingGuide() {
             </div>
 
             <div className="prose prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 Catholic parenting is both a great privilege and a profound responsibility. The Church teaches that parents are the first and most important educators of their children in the faith. This sacred duty requires wisdom, patience, and above all, reliance on God's grace.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Catholic Vision of Family
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 The Catholic Church understands the family as the "domestic Church" - the first place where faith is lived and learned. The family is called to be a "school of virtue" and a "sanctuary of life."
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Family as Domestic Church
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 The Catechism teaches that "the family is the original cell of social life" and "the domestic Church is a sign and image of the Church." In your home, you are the first priest, prophet, and teacher to your children.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Four Pillars of Catholic Family Life
@@ -108,9 +109,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Foundation: Your Own Faith Life
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 You cannot give what you do not have. Your children's faith formation begins with your own relationship with God.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Personal Prayer Life
@@ -126,16 +127,16 @@ export default function CatholicParentingGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Modeling Faith
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 Your children learn faith by watching you. When they see you pray, forgive, serve, and love, they learn what it means to be Catholic.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Creating a Catholic Home Environment
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Your home should be a place where Christ is visibly present and loved.
-              </p>
+              </LinkedText>
               
               <div className="bg-green-50 border border-green-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -165,9 +166,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Religious Education: Teaching the Faith
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Catholic religious education involves both formal instruction and informal formation.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Formal Religious Education
@@ -198,9 +199,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Liturgical Year in Family Life
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 The liturgical year provides a rhythm for Catholic family life.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Advent: Waiting and Preparation
@@ -255,9 +256,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Catholic Discipline: Forming Virtue
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 Catholic discipline aims to form virtue, not just control behavior.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Principles of Catholic Discipline
@@ -284,9 +285,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Technology and Media: Navigating the Digital World
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Technology presents unique challenges for Catholic parents.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Managing Screen Time
@@ -313,9 +314,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Emotional and Social Development
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Catholic parenting addresses the whole person - body, mind, and spirit.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Emotional Intelligence
@@ -342,9 +343,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Sexuality Education: Teaching God's Gift
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Catholic sexuality education presents God's plan for love and marriage.
-              </p>
+              </LinkedText>
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Age-Appropriate Education
               </h3>
@@ -369,9 +370,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Building Catholic Community Connections
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Catholic families don't exist in isolation - they're part of the larger Church community.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Parish Involvement
@@ -396,9 +397,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Challenges and Solutions
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Catholic parenting faces unique challenges in today's secular culture.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 When Children Question Faith
@@ -439,9 +440,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Seasons of Catholic Parenting
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Catholic parenting changes as children grow through different stages.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Early Childhood (0-6)
@@ -530,9 +531,9 @@ export default function CatholicParentingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Joy and Challenge of Catholic Parenting
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
               Catholic parenting is both incredibly joyful and deeply challenging.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Joys
@@ -561,9 +562,9 @@ export default function CatholicParentingGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Grace
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 Despite the challenges, God's grace is sufficient. Catholic parenting is ultimately about surrendering your children to God's care while doing your best to form them in faith.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

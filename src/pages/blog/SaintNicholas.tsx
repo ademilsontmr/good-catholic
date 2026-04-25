@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintNicholas() {
   return (
@@ -64,39 +65,39 @@ export default function SaintNicholas() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 Every December, billions of people celebrate a figure inspired by a real Catholic bishop who lived in what is now Turkey in the 4th century. The transformation of Nicholas of Myra into Santa Claus is one of the most remarkable stories in cultural history. But the real Nicholas is far more interesting — and far more inspiring — than his secular descendant.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life of Saint Nicholas</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 Nicholas was born around 270-280 AD in Patara, a city in Lycia (modern-day Turkey). His parents were wealthy Christians who died in an epidemic when Nicholas was young, leaving him a substantial inheritance. Nicholas took seriously the words of Jesus: "Sell what you own and give the money to the poor" (Mark 10:21). He used his entire inheritance to help the poor, the sick, and those in need.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 He became a priest and eventually the Bishop of Myra — a city in Lycia. He served as bishop during one of the most turbulent periods in Church history, including the persecution of Emperor Diocletian (303-311 AD), during which Nicholas was imprisoned for his faith.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Daughters: The Origin of Gift-Giving</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 The most famous story about Nicholas — and the one that gave rise to the tradition of gift-giving — involves a poor man with three daughters. The man had no money for his daughters' dowries, which meant they could not marry and would likely be forced into slavery or prostitution.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 Nicholas heard of their plight. On three separate nights, he secretly threw bags of gold coins through the window of their house (or, in some versions, down the chimney). The gold landed in the stockings the daughters had hung by the fire to dry — giving rise to the tradition of hanging stockings by the fireplace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 When the father discovered the source of the gifts, he tried to thank Nicholas. But Nicholas insisted on anonymity — he did not want to be praised for his generosity. This story captures the essence of Nicholas's character: generous, secret, and motivated by love rather than recognition.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Nicholas at the Council of Nicaea (325 AD)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 One of the most dramatic stories about Nicholas involves the Council of Nicaea — the great council called by Emperor Constantine to resolve the Arian controversy. Arius taught that Jesus was not truly God but a created being. Nicholas was among the bishops who attended the council.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 According to tradition, Nicholas was so outraged by Arius's heresy that he walked across the council chamber and slapped Arius in the face. This was a serious breach of protocol, and Nicholas was temporarily stripped of his episcopal insignia. But that night, Jesus and Mary appeared to the other bishops in a dream, restoring Nicholas's vestments — a sign that his zeal for orthodoxy was approved by heaven.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 Whether or not this story is historically accurate, it reveals something important about Nicholas: he was not a soft, sentimental figure. He was a man of deep conviction who was willing to fight for the truth of the faith.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know the saints?"
@@ -104,9 +105,9 @@ export default function SaintNicholas() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Miracles of Saint Nicholas</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 Nicholas is associated with numerous miracles, both during his life and after his death:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Three Boys:</strong> The most famous miracle involves three boys who were murdered by an innkeeper, pickled in a barrel, and later restored to life by Nicholas. This story made him the patron of children.</li>
                 <li><strong>Calming the Storm:</strong> Nicholas is said to have calmed a violent storm at sea, saving the lives of sailors. This made him the patron of sailors and travelers.</li>
@@ -115,9 +116,9 @@ export default function SaintNicholas() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From Nicholas to Santa Claus</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 The transformation of Nicholas into Santa Claus happened gradually over many centuries:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Medieval Europe:</strong> Nicholas became one of the most popular saints in Europe. His feast day (December 6) was celebrated with gift-giving to children, especially in the Netherlands and Germany.</li>
                 <li><strong>Dutch "Sinterklaas":</strong> Dutch settlers brought the tradition of "Sinterklaas" (a corruption of "Sint Nikolaas") to America. Sinterklaas was depicted as a bishop who rode a white horse and gave gifts to good children.</li>
@@ -137,12 +138,12 @@ export default function SaintNicholas() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Day and Celebration</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 The feast day of Saint Nicholas is December 6. In many European countries, this is the day when children receive gifts — not December 25. Children leave their shoes or stockings out on the night of December 5, and Nicholas fills them with gifts, candy, and fruit.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 Many Catholic families celebrate the feast of Saint Nicholas as a way of keeping the Christian roots of Christmas alive. It is a beautiful opportunity to teach children about the real Nicholas — his generosity, his faith, and his love for the poor.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

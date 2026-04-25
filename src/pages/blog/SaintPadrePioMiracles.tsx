@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintPadrePioMiracles() {
   return (
@@ -77,59 +78,59 @@ export default function SaintPadrePioMiracles() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               St. Padre Pio of Pietrelcina was one of the most extraordinary saints of the 20th century. His miraculous gifts—including the stigmata, bilocation, and reading of souls—drew millions to faith and continue to inspire devotion today.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Life of Francesco Forgione
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               Born Francesco Forgione on May 25, 1887, in the small farming village of Pietrelcina, Italy, Padre Pio came from a deeply religious family. From childhood, he showed unusual piety—preferring prayer to play and demonstrating a tender love for the poor.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               At age 15, he entered the Capuchin Franciscan novitiate and received the religious name Pio (Pius). Though his health was poor throughout his life, his spiritual fervor was unmatched. He was ordained a priest in 1910 at age 23.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Stigmata: Wounds of Christ
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               On September 20, 1918, while praying before a crucifix in the choir loft of the Church of Our Lady of Grace in San Giovanni Rotondo, Padre Pio received the stigmata—the wounds of Christ crucified.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               The wounds appeared on his hands, feet, and side, and bled without infection or odor. Medical examinations over five decades confirmed that the wounds could not be explained naturally. They caused him constant pain but also united him uniquely with Christ's suffering.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               The stigmata remained with Padre Pio for exactly 50 years. Intriguingly, they disappeared just before his death on September 23, 1968, leaving no scars—a final miracle confirming their divine origin.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Bilocation: Present in Two Places
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               One of the most extraordinary gifts attributed to Padre Pio was bilocation—the ability to be present in two places simultaneously. Hundreds of credible witnesses reported encountering him far from San Giovanni Rotondo while he was physically present in his friary.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               During World War II, numerous Allied pilots reported seeing a Capuchin friar in the sky, warning them to turn back from bombing raids over San Giovanni Rotondo. One pilot even claimed the friar caught his plane by the wing and turned it around. These reports were so consistent that the American Air Force avoided bombing the town.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Reading of Souls
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               Padre Pio possessed the gift of "reading souls"—knowing the hidden sins, thoughts, and spiritual conditions of those who came to him. In the confessional, he would sometimes stop penitents mid-sentence and reveal sins they had forgotten or deliberately concealed.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               This gift, while intimidating, served a pastoral purpose: to bring souls to sincere repentance. Many who had been away from the Church for decades returned to confession after encountering Padre Pio.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Healing Miracles
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               Countless healings were attributed to Padre Pio's intercession—both during his life and after his death. Some notable cases include:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Gemma Di Giorgi:</strong> A girl born without pupils who could miraculously see after Padre Pio's blessing</li>
               <li><strong>Matteo Pio Colella:</strong> A dying child who survived after his parents sought Padre Pio's intercession</li>
@@ -139,26 +140,26 @@ export default function SaintPadrePioMiracles() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Fragrance of Holiness
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               A distinctive characteristic of Padre Pio's presence was a sweet, perfumed fragrance—often described as flowers or incense—that would mysteriously appear around him. This "odor of sanctity" would sometimes linger on letters he had touched or objects he had blessed.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Home for the Relieved Suffering
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               In 1956, Padre Pio founded the Home for the Relieved Suffering—one of the largest hospitals in Southern Italy. Despite never leaving San Giovanni Rotondo, he raised millions for this project through donations from around the world. The hospital continues to serve the sick today.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Canonization and Legacy
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               Padre Pio was canonized by Pope John Paul II on June 16, 2002, before a crowd of 300,000 in Rome. His tomb in San Giovanni Rotondo remains one of the most visited Catholic pilgrimage sites in the world, drawing millions annually.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               His famous spiritual advice remains relevant: "Pray, hope, and don't worry. Anxiety is useless. God is merciful and will hear your prayer."
-            </p>
+            </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

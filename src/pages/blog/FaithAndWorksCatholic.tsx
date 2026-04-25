@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FaithAndWorksCatholic() {
   return (
@@ -62,25 +63,25 @@ export default function FaithAndWorksCatholic() {
               <p className="text-text leading-relaxed mb-6">
                 The doctrine of <em>sola fide</em> — "faith alone" — is the central Protestant objection to Catholicism. Martin Luther called it "the article by which the Church stands or falls." The claim is that Catholics believe they earn their way to heaven through good works, while Protestants believe salvation is by faith alone, as a free gift of God's grace.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 This is a caricature of Catholic teaching. But it is a caricature that has persisted for 500 years, and it deserves a clear, honest, and biblical response. What does the Catholic Church actually teach about faith, works, and salvation?
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Catholics Actually Believe</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 The Catholic Church teaches that salvation is entirely a gift of God's grace — unearned, undeserved, and freely given. No one earns heaven. No one deserves eternal life. Salvation is possible only because of what Jesus Christ did on the cross, and it is received through faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 But the Catholic Church also teaches that genuine faith is not merely intellectual assent — it is a living, active trust in God that transforms the person and expresses itself in love and good works. A faith that produces no change in a person's life is not saving faith. It is, as Saint James says, dead.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 This is not a Catholic invention. It is the consistent teaching of the New Testament. The disagreement between Catholics and Protestants is not about whether grace is necessary (both agree it is) or whether faith is necessary (both agree it is). The disagreement is about whether faith alone — without love, without obedience, without the transformation of the person — is sufficient for salvation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Key Texts</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 Three passages of Scripture are central to this debate:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>James 2:14-26:</strong> "What does it profit, my brethren, if a man says he has faith but has not works? Can his faith save him?... Faith by itself, if it has no works, is dead... You see that a man is justified by works and not by faith alone." This is the only place in the entire New Testament where the phrase "faith alone" appears — and it is used to deny that faith alone saves. Luther famously called the Letter of James "an epistle of straw" and wanted to remove it from the canon.
               </p>
@@ -92,26 +93,26 @@ export default function FaithAndWorksCatholic() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Luther Got Right — and What He Got Wrong</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 Martin Luther was responding to real abuses in the 16th-century Church. The sale of indulgences, the suggestion that one could purchase grace, the reduction of Christianity to a system of religious transactions — these were genuine corruptions that needed to be addressed. Luther was right to insist that salvation is a free gift of God's grace, not something that can be bought or earned through religious performance.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Where Luther went wrong was in his formulation of <em>sola fide</em> — the idea that faith alone, without works, justifies. This required him to add the word "alone" to Romans 3:28 in his German translation ("a man is justified by faith alone apart from works of the law") — a word that does not appear in the original Greek. It also required him to dismiss the Letter of James, which directly contradicts the formula.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 The Catholic Church agreed with Luther that salvation is by grace. It disagreed with his claim that faith alone — without love, without the transformation of the person, without the sacraments — is sufficient. The Council of Trent, responding to Luther, did not say that we earn salvation by works. It said that genuine faith is a living faith that transforms the person and produces love and good works.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Council of Trent on Justification</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 The Council of Trent (1545-1563) produced the most detailed Catholic statement on justification in history. It is often misrepresented by Protestants as teaching that Catholics earn their salvation by works. This is not what Trent says.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 Trent teaches that justification — the process by which a sinner is made righteous before God — is entirely a work of God's grace. It is not merited by any prior works. It is received through faith, which is itself a gift of God. The Council explicitly condemns the idea that anyone can merit initial justification.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 What Trent does teach — and what distinguishes the Catholic position from Luther's — is that justification involves a real transformation of the person, not merely a legal declaration. When God justifies a sinner, He does not merely declare the person righteous while leaving them unchanged. He actually makes them righteous — He pours His grace into the soul, transforming it from within. This transformation is what produces good works.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -119,37 +120,37 @@ export default function FaithAndWorksCatholic() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Understanding of Merit</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 The word "merit" is one of the most misunderstood in Catholic theology. When Catholics speak of "meriting" grace or eternal life, they do not mean earning it in the way one earns a paycheck. They mean cooperating with God's grace in a way that God, in His generosity, chooses to reward.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 The Catechism is clear: "With regard to God, there is no strict right to any merit on the part of man. Between God and us there is an immeasurable inequality, for we have received everything from him, our Creator" (CCC 2007). Merit is possible only because God freely chooses to associate us with His work and to reward our cooperation with His grace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 Saint Augustine put it perfectly: "Our merits are God's gifts." When we do good works in a state of grace, it is God's grace working in us and through us. The merit belongs ultimately to God. We are not earning heaven; we are cooperating with the God who is bringing us to heaven.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Initial Justification vs. Ongoing Sanctification</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 Catholic theology distinguishes between initial justification — the moment when a sinner first receives God's grace and is brought into right relationship with Him — and ongoing sanctification — the lifelong process of growing in holiness and being conformed to Christ.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 Initial justification is entirely by grace, received through faith (and, for Catholics, through Baptism, which is the sacrament of faith). No works precede it or merit it. This is the Catholic agreement with Luther.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 Ongoing sanctification — the process of growing in holiness after justification — involves the cooperation of the human will with God's grace. This cooperation is expressed in prayer, the sacraments, acts of charity, and the practice of virtue. These works do not earn salvation; they are the expression of the salvation already received and the means by which God deepens His life in the soul.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Works Matter: Love Is Active</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 The deepest Catholic answer to the faith-and-works question is not theological but personal: love is not passive. If you genuinely love someone, you act on that love. You do things for them. You sacrifice for them. You change your behavior because of them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 The same is true of our relationship with God. If we genuinely believe in Jesus Christ — if we truly trust Him, love Him, and are grateful for what He has done for us — that faith will produce works. Not because we are trying to earn anything, but because love is active. A faith that produces no change in behavior, no acts of charity, no growth in virtue, is not genuine faith. It is intellectual assent — and even the demons have that (James 2:19).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-works-catholic">
                 Jesus himself made this clear: "Not everyone who says to me, 'Lord, Lord,' shall enter the kingdom of heaven, but he who does the will of my Father who is in heaven" (Matthew 7:21). And: "If you love me, you will keep my commandments" (John 14:15). Obedience is not the cause of salvation; it is the evidence of it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Protestant Objections Answered</h2>
               <p className="text-text leading-relaxed mb-6">

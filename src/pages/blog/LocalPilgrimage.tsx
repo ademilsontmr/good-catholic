@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LocalPilgrimage() {
     return (
@@ -75,9 +76,9 @@ export default function LocalPilgrimage() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
                                 Pilgrimage is a metaphor for Christian life: we are on our way to the Heavenly Homeland. Organizing a local pilgrimage is an excellent way to unite the community, rediscover the history of faith in your region, and obtain jubilee graces without great costs.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="Are you ready to walk with faith?"
@@ -87,16 +88,16 @@ export default function LocalPilgrimage() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 1. Define the Objective and Destination
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
                                 Choose a place that has spiritual significance: the diocesan Cathedral, a Marian shrine, or the church of a local patron saint. The objective should be clear: is it a journey of penance, thanksgiving, or petition for graces?
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 2. Spiritual Planning
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
                                 A pilgrimage is not a tourist outing. Prepare a prayer itinerary for the journey:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-2 mb-6">
                                 <li><strong>Opening Prayer:</strong> Blessing of sending by the parish priest.</li>
                                 <li><strong>Holy Rosary:</strong> Meditated during the walk or journey.</li>
@@ -107,16 +108,16 @@ export default function LocalPilgrimage() {
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 3. Logistics and Organization
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
                                 Think about practical details so nothing disrupts the moment of faith: transportation (bus or walking), food, support points, and pilgrim kit (prayer booklet, water, identification).
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 4. Post-Pilgrimage
                             </h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
                                 Upon return, set aside a moment to share the fruits of the journey. How did this experience change the participants' vision of faith? What concrete commitments does the community assume from now on?
-                            </p>
+                            </LinkedText>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">

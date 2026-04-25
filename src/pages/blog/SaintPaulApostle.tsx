@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintPaulApostle() {
   return (
@@ -59,45 +60,45 @@ export default function SaintPaulApostle() {
               <BookOpen className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Saint Paul the Apostle — born Saul of Tarsus — is one of the most extraordinary figures in human history. A Pharisee who persecuted Christians with violent zeal, he was transformed by a direct encounter with the risen Christ into the greatest missionary the world has ever known. He traveled thousands of miles across the Roman Empire, founded dozens of churches, and wrote letters that became the theological backbone of the New Testament. His thought on grace, justification, the body of Christ, and the love of God has shaped Christian theology for two millennia.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saul of Tarsus: Early Life and Formation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Paul was born in Tarsus, a prosperous city in the Roman province of Cilicia (present-day southern Turkey), probably around the same time as Jesus. He was born into a Jewish family of the tribe of Benjamin — a heritage he was proud of — and was given the Hebrew name Saul, after Israel's first king. Crucially, he was also a Roman citizen by birth, a status that would prove invaluable in his later missionary work and legal trials.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 As a young man, Paul was sent to Jerusalem to study under Gamaliel, one of the most respected rabbis of the age. He became a Pharisee — a member of the strictest sect of Judaism, devoted to the meticulous observance of the Torah. He describes himself in Philippians 3:5-6 as "circumcised on the eighth day, of the people of Israel, of the tribe of Benjamin, a Hebrew of Hebrews; in regard to the law, a Pharisee; as for zeal, persecuting the church; as for righteousness based on the law, faultless."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Paul was present at the stoning of Stephen, the first Christian martyr, and "gave approval to his death" (Acts 8:1). He then became an active persecutor of the early Church, going house to house in Jerusalem, dragging off men and women and putting them in prison (Acts 8:3). He obtained letters from the high priest authorizing him to travel to Damascus and arrest any followers of "the Way" he found there.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Conversion on the Road to Damascus</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 The conversion of Saul is one of the most dramatic events in the New Testament, recounted three times in the Acts of the Apostles (chapters 9, 22, and 26) and alluded to in Paul's own letters. As he was traveling to Damascus, "suddenly a light from heaven flashed around him. He fell to the ground and heard a voice say to him, 'Saul, Saul, why do you persecute me?'" (Acts 9:3-4).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Saul asked: "Who are you, Lord?" The answer came: "I am Jesus, whom you are persecuting." The risen Christ identified himself completely with his persecuted followers — to persecute the Church was to persecute Jesus himself. Saul was left blind, led into Damascus, and spent three days without sight, food, or water. Then a disciple named Ananias came to him, restored his sight, and baptized him.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 The conversion of Paul is not merely a personal transformation — it is a theological statement. The man who had been most certain that Jesus was a false messiah was confronted by the risen Jesus himself. His conversion was not the result of argument or persuasion but of direct encounter. And from that encounter, Paul drew the theological conclusions that would define his entire ministry: Jesus is truly risen; the resurrection is the center of the faith; and the grace of God can reach even the worst of sinners.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Missionary Journeys</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 After his conversion, Paul spent time in Arabia and Damascus before going to Jerusalem to meet Peter and James. Then began the great missionary enterprise that would take him across the Roman world. The Acts of the Apostles describes three major missionary journeys, covering thousands of miles by sea and land.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 The first journey (Acts 13–14), undertaken with Barnabas, took Paul through Cyprus and the cities of Asia Minor — Antioch in Pisidia, Iconium, Lystra, and Derbe. In each city, Paul preached first in the synagogue, then to the Gentiles. He faced opposition, beatings, and expulsion — but also founded communities of believers that would become the first Gentile churches.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 The second journey (Acts 15–18) was more ambitious. Paul traveled through Asia Minor, then crossed into Europe for the first time — a pivotal moment in the history of Christianity. He preached in Philippi, Thessalonica, Berea, Athens, and Corinth. In Athens, he delivered his famous speech at the Areopagus, engaging the Greek philosophical tradition on its own terms (Acts 17:22-31). In Corinth, he stayed for eighteen months, establishing one of the most important early churches.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 The third journey (Acts 18–21) focused especially on Ephesus, where Paul spent nearly three years. His preaching there was so effective that it disrupted the trade in silver shrines of the goddess Artemis, provoking a riot. From Ephesus, Paul traveled through Macedonia and Greece before returning to Jerusalem, where he was arrested.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -105,26 +106,26 @@ export default function SaintPaulApostle() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Letters of Saint Paul</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Paul's greatest legacy is his letters — thirteen letters in the New Testament bear his name, and scholars generally attribute at least seven of them directly to Paul himself (Romans, 1 and 2 Corinthians, Galatians, Philippians, 1 Thessalonians, and Philemon). These letters were written to specific communities facing specific problems, but they contain theological insights of universal and permanent significance.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 The Letter to the Romans is Paul's most systematic theological work — a comprehensive exposition of the Gospel, covering sin, justification, grace, the role of Israel, and the Christian life. It has been called the greatest letter ever written, and its influence on Christian theology — from Augustine to Luther to Karl Barth — is incalculable.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 The Letters to the Corinthians address a community torn by divisions, immorality, and theological confusion. They contain some of Paul's most memorable passages: the hymn to love in 1 Corinthians 13 ("Love is patient, love is kind..."), the teaching on the Eucharist (1 Corinthians 11:23-26), and the great chapter on the Resurrection (1 Corinthians 15).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Galatians is Paul's most passionate letter — a fierce defense of the Gospel of grace against those who insisted that Gentile Christians must be circumcised and observe the Mosaic Law. It contains the famous declaration: "There is neither Jew nor Gentile, neither slave nor free, nor is there male and female, for you are all one in Christ Jesus" (Galatians 3:28).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Ephesians presents a grand vision of the Church as the Body of Christ and the Bride of Christ, called to unity in the Spirit. Philippians, written from prison, radiates joy: "Rejoice in the Lord always. I will say it again: Rejoice!" (Philippians 4:4). The pastoral letters (1 and 2 Timothy, Titus) provide guidance for the organization and leadership of the early Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pauline Theology: Grace, Justification, and the Body of Christ</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Paul's theology is centered on the death and resurrection of Jesus Christ and the grace that flows from it. His key theological contributions include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Justification by faith.</strong> Paul teaches that human beings are justified — made right with God — not by their own works or observance of the Law, but by faith in Jesus Christ. This is not a denial of the importance of good works, but an insistence that salvation is ultimately God's gift, not human achievement.</li>
                 <li><strong>Grace.</strong> Grace (charis in Greek) is the free, unmerited gift of God's love and power. Paul's entire theology is a theology of grace: "For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God" (Ephesians 2:8).</li>
@@ -134,23 +135,23 @@ export default function SaintPaulApostle() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Arrest, Trial, and Martyrdom in Rome</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Paul was arrested in Jerusalem after his third missionary journey, accused of bringing a Gentile into the Temple. He appealed to Caesar — exercising his right as a Roman citizen — and was sent to Rome for trial. The Acts of the Apostles ends with Paul under house arrest in Rome, "proclaiming the kingdom of God and teaching about the Lord Jesus Christ — with all boldness and without hindrance!" (Acts 28:31).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Ancient tradition holds that Paul was martyred in Rome during the persecution under Nero, around 64–68 AD. As a Roman citizen, he was not crucified but beheaded — a quicker and more dignified death. The site of his martyrdom is traditionally identified as Tre Fontane (Three Fountains), on the Ostian Way outside Rome, where a church now stands.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Paul was buried on the Ostian Way, and the Basilica of Saint Paul Outside the Walls was built over his tomb. In 2009, Pope Benedict XVI announced that scientific analysis of bones found in the sarcophagus beneath the basilica confirmed they belonged to someone from the 1st or 2nd century AD, consistent with the tradition that they are Paul's remains.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Day: June 29 — Saints Peter and Paul</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Paul shares his feast day with Saint Peter on June 29 — one of the oldest and most important feasts in the Catholic calendar. The two apostles are celebrated together because both were martyred in Rome, both are considered founders of the Roman Church, and together they represent the two great pillars of the apostolic tradition: Peter, the leader of the Twelve; Paul, the Apostle to the Gentiles.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 The feast is a Solemnity — the highest rank of feast day — and is a holy day of obligation in many countries. The Basilica of Saint Paul Outside the Walls is one of the four major basilicas of Rome, and a pilgrimage to Paul's tomb is a profound act of devotion for Catholics from around the world.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

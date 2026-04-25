@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicDatingGuide() {
   return (
@@ -77,16 +78,16 @@ export default function CatholicDatingGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating is fundamentally different from secular dating. While the world often focuses on physical attraction and temporary pleasure, Catholic dating centers on discernment, virtue, and the possibility of a lifelong vocation to marriage. It's a journey of discovering whether God has brought someone into your life for a sacred purpose.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Foundation: Understanding Catholic Dating
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 The Catholic Church teaches that marriage is a sacrament - a sacred sign that gives grace. Because marriage is so important, dating must be approached with reverence, prayer, and serious discernment.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Key Principles of Catholic Dating
@@ -102,9 +103,9 @@ export default function CatholicDatingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 When to Start Dating
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 The Church doesn't set a specific age for dating, but provides principles for readiness:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Signs of Readiness
@@ -131,9 +132,9 @@ export default function CatholicDatingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Finding the Right Person
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating isn't about finding the "perfect" person - it's about finding the right person for you in God's plan.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Essential Qualities to Look For
@@ -167,16 +168,16 @@ export default function CatholicDatingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Dating Process: From First Date to Engagement
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating follows a natural progression from getting to know someone to discerning marriage.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Phase 1: Initial Contact and First Dates
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 The beginning of dating is about getting to know someone in a safe, public environment:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Group Settings:</strong> Start with group activities or double dates</li>
                 <li><strong>Public Places:</strong> Meet in public, safe locations</li>
@@ -188,9 +189,9 @@ export default function CatholicDatingGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Phase 2: Getting to Know Each Other
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 As you continue dating, you'll spend more time together and get to know each other more deeply:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Family Introduction:</strong> Introduce to family and friends</li>
                 <li><strong>Shared Activities:</strong> Participate in each other's interests</li>
@@ -202,9 +203,9 @@ export default function CatholicDatingGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Phase 3: Serious Discernment
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 When you're considering marriage, serious discernment begins:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Marriage Preparation:</strong> Take marriage prep classes</li>
                 <li><strong>Spiritual Direction:</strong> Seek guidance from a priest or spiritual director</li>
@@ -216,9 +217,9 @@ export default function CatholicDatingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Chastity in Dating: Honoring Each Other
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Chastity is central to Catholic dating. It's not about restrictions - it's about honoring each other as temples of the Holy Spirit.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Practical Guidelines for Chaste Dating
@@ -234,16 +235,16 @@ export default function CatholicDatingGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 The Beauty of Chastity
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Chastity isn't about saying "no" to physical intimacy - it's about saying "yes" to authentic love. Chaste dating builds relationships based on character, communication, and emotional intimacy rather than physical attraction alone.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Communication in Catholic Dating
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Good communication is essential for healthy Catholic dating relationships.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Important Conversations
@@ -271,9 +272,9 @@ export default function CatholicDatingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Role of Family and Community
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating doesn't happen in isolation. Family and community play important roles.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Family Involvement
@@ -298,16 +299,16 @@ export default function CatholicDatingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Dealing with Common Challenges
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating isn't always easy. Here are common challenges and how to handle them:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 When Family Disapproves
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Family disapproval is difficult but not necessarily a deal-breaker:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Listen to Concerns:</strong> Understand their perspective</li>
                 <li><strong>Provide Information:</strong> Help them know your partner</li>
@@ -319,9 +320,9 @@ export default function CatholicDatingGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 When You're Not Sure
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Uncertainty is normal in dating:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Take Your Time:</strong> Don't rush decisions</li>
                 <li><strong>Pray for Clarity:</strong> Ask God for guidance</li>
@@ -333,9 +334,9 @@ export default function CatholicDatingGuide() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 When Relationships End
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Breakups are painful but part of dating:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Be Kind:</strong> End with respect and charity</li>
                 <li><strong>Be Clear:</strong> Communicate honestly about reasons</li>
@@ -376,9 +377,9 @@ export default function CatholicDatingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Catholic Dating in the Modern World
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating faces unique challenges in today's culture:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Dating Apps and Online Dating
@@ -405,9 +406,9 @@ export default function CatholicDatingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Building a Foundation for Marriage
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating is ultimately about building a foundation for a sacramental marriage.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Spiritual Foundation

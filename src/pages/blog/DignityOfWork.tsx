@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DignityOfWork() {
   return (
@@ -77,33 +78,33 @@ export default function DignityOfWork() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
                 Work is not merely a means to earn a living—it is a fundamental dimension of human dignity. Discover how Catholic social teaching elevates the dignity of workers and calls for just conditions in the workplace.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Work as Participation in Creation
               </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               From the beginning, God placed humanity in the Garden "to cultivate and care for it" (Genesis 2:15). Work is not a punishment from the Fall—it predates it. Through work, human beings participate in God's creative activity and cooperate in the unfolding of the created world.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               St. John Paul II, in his encyclical Laborem Exercens (On Human Work), taught that work is "a fundamental dimension of human existence on earth." Through work, we not only transform nature but also achieve personal fulfillment as human beings.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Dignity of the Worker
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               Catholic social teaching insists that workers are not mere instruments of production—they are persons with inherent dignity. This dignity demands that work conditions respect the whole person: body, mind, and spirit.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Rights of Workers
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               The Church teaches that workers have fundamental rights that must be respected:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Right to Work:</strong> Access to employment is essential to human dignity</li>
               <li><strong>Just Wage:</strong> A family wage sufficient to support a family with dignity</li>
@@ -116,36 +117,36 @@ export default function DignityOfWork() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Just Wage
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               The Church has consistently taught that workers deserve a "family wage"—sufficient not merely for survival but to support a family in dignity. Pope Leo XIII's Rerum Novarum (1891) declared that laborers who toil for others must be paid enough to provide for their families.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               As St. John Paul II wrote, "Remuneration for labor is to be such that man may be furnished the means to cultivate worthily his own material, social, cultural, and spiritual life and that of his dependents."
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               St. Joseph the Worker: Patron of Laborers
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               The Church honors St. Joseph as the patron of workers. This humble carpenter who provided for the Holy Family exemplifies the dignity of labor. Pope Pius XII established the feast of St. Joseph the Worker on May 1, reclaiming the day from communist associations and rooting it in authentic Christian teaching about labor.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Work as a Path to Holiness
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               The universal call to holiness extends to the workplace. St. Josemaría Escrivá founded Opus Dei to help ordinary people sanctify their daily work. He taught that work, done well and offered to God, becomes a path to sanctity.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               "Sanctity is made of small things," St. Josemaría taught. "The Christian vocation consists precisely in this: to make our work a prayer, and our prayer a work."
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Challenges in the Modern Workplace
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               The modern economy presents new challenges to workers' dignity:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li><strong>Precarious Employment:</strong> Gig economy and temporary contracts</li>
               <li><strong>Exploitative Conditions:</strong> Sweatshops, forced labor, and trafficking</li>
@@ -157,9 +158,9 @@ export default function DignityOfWork() {
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               A Call to Action
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
               Catholic teaching on labor is not merely theoretical—it demands action. Catholics are called to:
-            </p>
+            </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
               <li>Advocate for just wages and working conditions in their workplaces</li>
               <li>Support businesses that treat workers with dignity</li>

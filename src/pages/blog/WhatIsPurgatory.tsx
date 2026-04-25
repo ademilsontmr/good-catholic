@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsPurgatory() {
   return (
@@ -116,9 +117,9 @@ export default function WhatIsPurgatory() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. Scriptural Foundations
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory">
                 While the word "Purgatory" isn't in the Bible, the concept is woven throughout Scripture:
-              </p>
+              </LinkedText>
 
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-8 mb-10">
                 <ul className="space-y-6 list-none pl-0 mt-0">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToChooseConfirmationName() {
   return (
@@ -78,30 +79,30 @@ export default function HowToChooseConfirmationName() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 When you are confirmed, you receive the fullness of the Holy Spirit and are strengthened to live as a mature Christian. As part of this sacrament, you choose a Confirmation name — the name of a saint who will be your special patron and model for the rest of your life. This choice deserves serious prayer and reflection, not a last-minute decision.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Confirmation Name?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 A Confirmation name is the name of a canonized saint that you take as your own at Confirmation. It is a sign of your new identity in the Holy Spirit and your commitment to follow Christ as a mature member of the Church. The saint whose name you take becomes your special patron — someone you can pray to, learn from, and imitate throughout your life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 Not all dioceses require a Confirmation name — some allow candidates to use their baptismal name or middle name. Check with your parish or diocese about their specific requirements. But even where it is not required, choosing a Confirmation name is a beautiful and meaningful practice.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 1: Understand What You Are Choosing</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 Before you begin researching saints, take time to understand what you are really choosing. You are not just picking a name you like the sound of. You are choosing a spiritual companion — someone whose life you want to study, whose virtues you want to imitate, and whose intercession you want to invoke throughout your life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 Ask yourself: What kind of Catholic do I want to become? What virtues do I most need to grow in? What challenges am I facing in my life right now? What is my vocation or calling? The answers to these questions will guide you toward the right saint.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 2: Reflect on Your Spiritual Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 Spend some time in prayer and reflection before you begin researching. Consider:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>What are your greatest spiritual struggles? (Pride, anger, impurity, doubt, fear?)</li>
                 <li>What virtues do you most admire and want to develop?</li>
@@ -117,9 +118,9 @@ export default function HowToChooseConfirmationName() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 3: Research Saints Who Match Your Needs</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 The Catholic Church has canonized thousands of saints from every era, culture, and walk of life. There is a saint for every person and every situation. Here are some ways to find saints who might be right for you:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>By virtue:</strong> If you struggle with anger, consider St. Francis de Sales (patron of gentleness). If you struggle with doubt, consider St. Thomas the Apostle.</li>
                 <li><strong>By vocation:</strong> If you feel called to marriage, consider St. Joseph or St. Monica. If to priesthood, consider St. John Vianney.</li>
@@ -130,17 +131,17 @@ export default function HowToChooseConfirmationName() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 4: Learn the Saint's Life Story</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 Once you have a list of 3-5 candidates, read their life stories. A good biography will show you not just what the saint did, but who they were — their struggles, their failures, their conversion, their love for God. Look for a saint whose life speaks to your heart, not just one whose name sounds nice.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 Excellent resources for learning about saints include: Butler's Lives of the Saints, the Catholic Encyclopedia, the Vatican's website, and books like "Saints for Every Occasion" by John Delaney. Many parishes also have saint biographies in their libraries.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 5: Pray for Guidance</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 After researching your candidates, spend time in prayer. Ask the Holy Spirit to guide your choice. You might also pray directly to the saints you are considering, asking them to show you which one is right for you. Many Catholics report that one saint seems to "stand out" after prayer — a sense of peace or attraction that confirms the choice.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for Choosing a Confirmation Name</h3>
@@ -150,7 +151,7 @@ export default function HowToChooseConfirmationName() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Popular Confirmation Name Choices</h2>
-              <p className="text-text leading-relaxed mb-6">Some of the most popular Confirmation names and why Catholics choose them:</p>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">Some of the most popular Confirmation names and why Catholics choose them:</LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Michael</strong> — Archangel, warrior against evil, protector</li>
                 <li><strong>Joseph</strong> — Foster father of Jesus, patron of families and workers</li>

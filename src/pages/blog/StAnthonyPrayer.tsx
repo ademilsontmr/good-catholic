@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StAnthonyPrayer() {
   return (
@@ -64,12 +65,12 @@ export default function StAnthonyPrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 St. Anthony of Padua (1195-1231) is one of the most beloved saints in the Catholic Church — and one of the most invoked. His feast day (June 13) draws millions of pilgrims to his basilica in Padua, Italy. His intercession is sought for lost objects, lost people, lost faith, and impossible causes.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 The connection between St. Anthony and lost things comes from a story in his life: a novice who had borrowed Anthony's psalter (a book of psalms) without permission decided to leave the monastery and took the book with him. Anthony prayed for its return, and the novice was compelled to come back and return the book. From this story grew the tradition of asking St. Anthony to help find lost things.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Traditional Prayer to St. Anthony</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
@@ -80,17 +81,17 @@ export default function StAnthonyPrayer() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Simple Prayer for Lost Things</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 The most widely used prayer to St. Anthony for lost things is simple and direct:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed text-sm text-center">
                   "Tony, Tony, look around — something's lost and must be found!"
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 This popular rhyme is not an official Catholic prayer, but it reflects the warm, familiar relationship Catholics have with St. Anthony. A more formal version:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed text-sm">
                   Dear St. Anthony, please come around — [name the lost item] is lost and cannot be found. Amen.
@@ -119,9 +120,9 @@ export default function StAnthonyPrayer() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Novena to St. Anthony</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 The Novena to St. Anthony is prayed for nine consecutive days for a specific intention. The traditional novena begins on June 4 and ends on June 12, the day before his feast day (June 13). It can also be prayed at any time.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text font-semibold text-center mb-3">Novena to St. Anthony (Daily Prayer)</p>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -135,9 +136,9 @@ export default function StAnthonyPrayer() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer to St. Anthony for a Lost Person</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 St. Anthony is also invoked for people who are "lost" — spiritually, emotionally, or physically. This prayer is for someone who has drifted from the faith or from their family:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed text-sm">
                   Dear St. Anthony, you who found the lost psalter and brought back the wandering novice, I ask you to intercede for [name], who has lost their way. May God's grace reach them wherever they are. May they feel the love of God drawing them home. May the Holy Spirit open their heart to truth and healing. St. Anthony, patron of the lost, bring [name] back to God and to those who love them. Amen.
@@ -145,23 +146,23 @@ export default function StAnthonyPrayer() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Was St. Anthony of Padua?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 St. Anthony was born Fernando Martins de Bulhões in Lisbon, Portugal, in 1195. He joined the Augustinian Canons as a young man, then transferred to the Franciscans after being inspired by the martyrdom of five Franciscan friars in Morocco.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 He became one of the greatest preachers of the Middle Ages — so powerful that fish reportedly came to the surface of the water to hear him preach (a story that gave rise to his patronage of fish and fishermen). He was a brilliant theologian, appointed by St. Francis of Assisi himself to teach theology to the Franciscan friars.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 Anthony died in Padua, Italy, on June 13, 1231, at the age of 35. He was canonized just one year later — one of the fastest canonizations in Church history. He was declared a Doctor of the Church in 1946.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 His feast day is June 13. He is the patron of lost articles, the poor, travelers, pregnant women, and many other causes.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Bread of St. Anthony</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 A beautiful tradition associated with St. Anthony is the "Bread of St. Anthony" — the practice of donating bread (or money for bread) to the poor in thanksgiving for his intercession. When you ask St. Anthony for help, you promise to give bread to the poor if your prayer is answered. This tradition began in 1890 and continues today through the "St. Anthony's Bread" charitable programs run by Franciscan communities worldwide.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

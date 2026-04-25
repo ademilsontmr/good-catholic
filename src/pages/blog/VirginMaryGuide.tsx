@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function VirginMaryGuide() {
   return (
@@ -64,14 +65,14 @@ export default function VirginMaryGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 Mary is the most mentioned woman in the Quran. She is venerated by Orthodox Christians, honored by many Protestants, and loved by over a billion Catholics. Yet she remains one of the most misunderstood figures in Christianity. This guide presents the full Catholic understanding of Mary — who she is, what the Church teaches about her, and how to grow in devotion to her.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mary in Scripture</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 Mary appears throughout the New Testament, from the Annunciation to Pentecost. Key moments include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Annunciation (Luke 1:26-38):</strong> The angel Gabriel announces that Mary will conceive the Son of God. Her response — "Let it be done to me according to your word" — is the model of perfect faith and obedience.</li>
                 <li><strong>The Visitation (Luke 1:39-56):</strong> Mary visits her cousin Elizabeth, who greets her as "the mother of my Lord." Mary responds with the Magnificat — one of the greatest prayers in Scripture.</li>
@@ -80,22 +81,22 @@ export default function VirginMaryGuide() {
                 <li><strong>At the Cross (John 19:25-27):</strong> Mary stands at the foot of the cross. Jesus entrusts her to the Beloved Disciple — and in him, to all disciples: "Behold your mother."</li>
                 <li><strong>Pentecost (Acts 1:14):</strong> Mary is present with the apostles in the Upper Room, praying for the coming of the Holy Spirit.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 The Old Testament also foreshadows Mary. She is the New Eve — where Eve said "no" to God and brought death, Mary said "yes" and brought life. She is the Ark of the New Covenant — just as the Ark carried the presence of God, Mary carried God incarnate in her womb.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Marian Dogmas</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 The Catholic Church has defined four dogmas about Mary — truths that all Catholics are required to believe:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">1. Mother of God (Theotokos) — Defined 431 AD</h3>
               <p className="text-text leading-relaxed mb-6">
                 Mary is the Mother of God (Greek: <em>Theotokos</em>, "God-bearer"). This does not mean Mary is the source of God's divine nature — God is eternal and has no beginning. It means that the person she bore in her womb was a divine Person — the Second Person of the Trinity. Since Jesus is truly God, Mary is truly the Mother of God.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 This dogma was defined at the Council of Ephesus (431 AD) against the heresy of Nestorius, who claimed Mary was only the mother of Christ's human nature. The Council affirmed that Jesus is one Person — divine and human — and therefore Mary is truly the Mother of God.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">2. Perpetual Virginity — Ancient Tradition</h3>
               <p className="text-text leading-relaxed mb-6">
@@ -103,20 +104,20 @@ export default function VirginMaryGuide() {
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. Immaculate Conception — Defined 1854</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 Mary was conceived without original sin. From the first moment of her existence, she was preserved from the stain of original sin by a special grace of God, in view of the merits of Jesus Christ. This does not mean she did not need a Savior — she was saved by Christ, but in a more perfect way: she was preserved from sin rather than rescued from it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 Pope Pius IX defined this dogma on December 8, 1854. Four years later, Mary appeared to St. Bernadette at Lourdes and identified herself: "I am the Immaculate Conception" — a remarkable confirmation of the recently defined dogma.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Assumption — Defined 1950</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 At the end of her earthly life, Mary was taken up — body and soul — into heavenly glory. Pope Pius XII defined this dogma on November 1, 1950. The Church does not define whether Mary died before her Assumption (the Eastern tradition holds she "fell asleep" — the Dormition) or was assumed without dying.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 The Assumption is the anticipation of what will happen to all the faithful at the resurrection of the body. Mary, as the first and most perfect disciple, is the first to share fully in the resurrection of her Son.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Marian devotion?"
@@ -124,9 +125,9 @@ export default function VirginMaryGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Major Marian Apparitions</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 Throughout history, Mary has appeared to individuals and groups in what the Church calls "private revelations." While Catholics are not required to believe in any private revelation, the Church has approved several apparitions as worthy of belief:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Our Lady of Guadalupe (Mexico, 1531):</strong> Mary appeared to Juan Diego, leaving her image miraculously imprinted on his tilma. The image has been scientifically studied and defies natural explanation. Guadalupe is the most visited Marian shrine in the world.</li>
                 <li><strong>Our Lady of Lourdes (France, 1858):</strong> Mary appeared 18 times to St. Bernadette Soubirous, identifying herself as "the Immaculate Conception." A miraculous spring appeared, and thousands of healings have been documented.</li>
@@ -135,15 +136,15 @@ export default function VirginMaryGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mary's Role as Intercessor</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 Catholics ask Mary to intercede for them — to pray to God on their behalf. This is not worship; it is the same thing we do when we ask a friend to pray for us. The difference is that Mary, being in heaven, is more alive than any of us, and her prayers are especially powerful because of her unique relationship with her Son.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 The Wedding at Cana (John 2) is the model of Marian intercession. Mary noticed the need, brought it to Jesus, and trusted Him to act. Jesus responded to her intercession. This is what Mary does for us: she notices our needs, brings them to Jesus, and trusts Him to respond.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 The Church also teaches that Mary is our spiritual mother. When Jesus said to the Beloved Disciple "Behold your mother" (John 19:27), He was giving Mary as mother to all His disciples. We are all the Beloved Disciple; we are all called to take Mary "into our own home."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Key Marian Prayers</h2>
 

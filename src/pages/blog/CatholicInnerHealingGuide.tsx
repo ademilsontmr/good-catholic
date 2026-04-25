@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicInnerHealingGuide() {
   return (
@@ -77,16 +78,16 @@ export default function CatholicInnerHealingGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 In today's world, more Catholics than ever are struggling with anxiety, depression, trauma, and deep emotional pain. While secular therapy offers valuable tools, Catholic inner healing prayer addresses the spiritual dimension of our wounds that psychology alone cannot reach. This isn't about rejecting psychology; it's about integrating it with the healing power that flows from Christ's sacrifice.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Understanding Inner Healing: The Catholic Foundation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Catholic inner healing is rooted in the understanding that we are integrated beings: body, mind, and spirit. When we experience trauma or emotional pain, it affects every part of us. The Catholic approach to healing recognizes that:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Christ came to heal the whole person:</strong> Isaiah 53:5 prophesied that "by his wounds we are healed" - not just physically, but emotionally and spiritually.</li>
                 <li><strong>The Holy Spirit is the Divine Counselor:</strong> John 14:26 promises that the Spirit will teach us all things, including how to heal our deepest wounds.</li>
@@ -97,9 +98,9 @@ export default function CatholicInnerHealingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Four Types of Wounds That Need Healing
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Catholic inner healing addresses four distinct types of wounds that often overlap and compound each other:
-              </p>
+              </LinkedText>
               
               <div className="bg-rose-50 border border-rose-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -134,72 +135,72 @@ export default function CatholicInnerHealingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Step 1: Preparation for Inner Healing Prayer
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Effective inner healing requires preparation. You wouldn't perform surgery without proper preparation, and spiritual healing is no different:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 A. Ground Yourself in God's Love
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Before diving into painful memories, spend time experiencing God's unconditional love. Read 1 John 4:18-19 repeatedly: "There is no fear in love, but perfect love casts out fear." Let this truth sink deep into your heart.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 B. Receive the Sacraments
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Make a good Confession before beginning inner healing. The grace of Reconciliation removes sin and opens your heart to receive healing. If possible, receive the Eucharist in a state of grace - this is spiritual food for the healing journey.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 C. Create a Safe Prayer Environment
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Find a quiet place where you won't be disturbed. Use sacred music, candles, or images that help you focus on God's presence. Some people find it helpful to have a crucifix or icon to focus on during difficult moments.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Step 2: The Inner Healing Prayer Process
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Catholic inner healing prayer follows a structured process that honors both psychology and spirituality:
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 A. Invite the Holy Spirit
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Begin by inviting the Holy Spirit to lead the healing session: "Come, Holy Spirit, fill my heart and lead me to the wounds that need your healing touch. Illuminate my memories and show me what needs to be healed."
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 B. Identify the Specific Wound
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Ask the Holy Spirit to bring to mind a specific memory or feeling that needs healing. Don't force it - let God reveal what needs to be addressed in His timing. It might be a specific event, a recurring feeling, or a person who hurt you.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 C. Encounter Jesus in the Memory
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 This is the crucial step. Imagine Jesus present in that memory with you. See Him looking at you with love, not judgment. Ask Him: "Jesus, where were you when this happened?" Listen for His response. He was there, suffering with you, loving you.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 D. Receive His Healing Touch
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Allow Jesus to speak to you in that memory. He might say things like: "I love you," "I'm sorry you had to go through that," "I was there with you," or "I will make all things new." Receive His words like healing balm.
-              </p>
+              </LinkedText>
               
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 E. Release Forgiveness
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Inner healing often requires forgiveness. But remember: forgiveness doesn't mean what happened was okay. It means you're releasing the person who hurt you to God's justice and choosing to no longer carry the burden of bitterness.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Step 3: Specific Prayers for Different Types of Wounds
@@ -229,9 +230,9 @@ export default function CatholicInnerHealingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Step 4: Integration and Aftercare
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Healing is not a one-time event but a process. After inner healing prayer:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Journal your experience:</strong> Write down what God revealed and how you felt during the prayer.</li>
                 <li><strong>Practice gratitude:</strong> Thank God daily for the healing you've received.</li>
@@ -243,9 +244,9 @@ export default function CatholicInnerHealingGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 When to Seek Professional Help
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Inner healing prayer is powerful, but it's not a substitute for professional mental health care when needed. Seek help from a Catholic therapist or counselor if:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>You're experiencing symptoms of PTSD or severe depression</li>
                 <li>You have thoughts of self-harm or suicide</li>
@@ -253,16 +254,16 @@ export default function CatholicInnerHealingGuide() {
                 <li>You're in an abusive relationship that requires immediate safety planning</li>
                 <li>Your daily functioning is significantly impaired</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 Remember: The Catholic Church values both faith and reason. Psychology and spirituality work together for complete healing.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Role of Sacraments in Ongoing Healing
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 The sacraments provide ongoing grace for the healing journey:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Eucharist:</strong> Regular reception brings healing and strength. "Unless you eat the flesh of the Son of Man and drink his blood, you have no life in you" (John 6:53).</li>
                 <li><strong>Reconciliation:</strong> Regular Confession removes sin that blocks healing and brings peace.</li>

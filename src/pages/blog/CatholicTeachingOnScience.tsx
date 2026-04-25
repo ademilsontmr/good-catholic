@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnScience() {
   return (
@@ -59,25 +60,25 @@ export default function CatholicTeachingOnScience() {
               <Microscope className="w-24 h-24 text-teal-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The idea that faith and science are at war is a relatively recent invention — a narrative constructed in the 19th century by writers like John William Draper and Andrew Dickson White, whose "conflict thesis" has been thoroughly debunked by modern historians of science. The actual history of the relationship between the Catholic Church and science is far more complex, and far more positive, than the popular myth suggests.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Church as Founder of the University System</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The most important institution in the history of Western science is the university — and the university was invented by the Catholic Church. The first universities in Europe — Bologna (1088), Paris (c. 1150), Oxford (c. 1167), Cambridge (1209) — were all founded under Church auspices or with Church support. They were places where theology, philosophy, medicine, law, and the natural sciences were studied together, in the conviction that all truth comes from God and that the study of creation is a form of worship.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The Church also founded and supported the great observatories, botanical gardens, and scientific academies of the early modern period. The Pontifical Academy of Sciences, founded in 1603 (making it one of the oldest scientific academies in the world), has included among its members some of the greatest scientists in history, including Galileo, Marconi, Planck, and Heisenberg.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The Jesuits in particular have been among the most important contributors to science in the early modern period. Jesuit scientists made major contributions to astronomy, mathematics, seismology, and linguistics. The lunar craters named after Jesuit scientists number in the dozens.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Catholic Scientists Who Changed the World</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The list of Catholic scientists who made foundational contributions to modern science is long and impressive:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Gregor Mendel (1822–1884).</strong> An Augustinian friar and abbot, Mendel discovered the laws of genetic inheritance through his famous experiments with pea plants in the monastery garden. His work, largely ignored in his lifetime, became the foundation of modern genetics. He is the father of genetics.</li>
                 <li><strong>Georges Lemaître (1894–1966).</strong> A Belgian Catholic priest and physicist, Lemaître proposed what became known as the Big Bang theory — the idea that the universe began from a single primordial point of infinite density. He called it the "hypothesis of the primeval atom." His theory was initially resisted by some scientists (including Einstein) but is now the standard cosmological model.</li>
@@ -88,21 +89,21 @@ export default function CatholicTeachingOnScience() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Galileo Affair: What Actually Happened</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The Galileo affair is the most frequently cited example of the supposed conflict between the Church and science. The reality is considerably more complex than the popular narrative suggests.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 Galileo Galilei (1564–1642) was a devout Catholic who had the support of many Church officials, including Cardinal Barberini (later Pope Urban VIII), who was his friend and patron. His early work on heliocentrism was not condemned — the Church was open to the heliocentric hypothesis as a mathematical model.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The conflict arose for several reasons: Galileo's abrasive personality and his tendency to mock his opponents (including the Pope); the fact that he could not provide conclusive proof of heliocentrism (his argument from the tides was actually wrong); the theological concern that heliocentrism seemed to contradict certain biblical passages; and the political tensions of the Counter-Reformation period.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Galileo was condemned in 1633 and placed under house arrest — not imprisoned or tortured, as the myth often claims. He lived comfortably in his villa near Florence, continued his scientific work, and published his most important scientific work (<em>Two New Sciences</em>) in 1638. He died in 1642, still a Catholic.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 Pope John Paul II formally acknowledged in 1992 that the Church had erred in the Galileo case, calling it "a tragic mutual incomprehension." The Galileo affair was a real mistake — but it was an exception, not the rule, in the Church's relationship with science.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know Catholic teaching?"
@@ -110,53 +111,53 @@ export default function CatholicTeachingOnScience() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Church and Evolution</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The Catholic Church does not oppose the theory of evolution. This surprises many people, but it is the clear and consistent teaching of the Church for over 70 years.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope Pius XII's 1950 encyclical <em>Humani Generis</em> was the first major papal statement on evolution. Pius XII stated that the Church does not forbid Catholics from studying evolution as a scientific hypothesis about the origin of the human body, provided that they hold that the human soul is directly created by God and that all human beings descend from a single pair of ancestors (monogenism).
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 Pope John Paul II went further in a 1996 statement to the Pontifical Academy of Sciences, declaring that evolution is "more than a hypothesis" — that the convergence of evidence from multiple scientific disciplines makes it a well-established scientific theory. He distinguished between the scientific question of how the human body evolved and the philosophical and theological question of the origin of the human soul, which science cannot address.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 Pope Benedict XVI and Pope Francis have both affirmed this position. The Catholic Church accepts the scientific evidence for evolution while insisting that the human person is more than a biological organism — that each human soul is directly created by God and that human beings have a unique dignity that cannot be reduced to evolutionary processes.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Big Bang and the Church: Lemaître's Theory</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The Big Bang theory — the scientific account of the origin of the universe — was proposed by a Catholic priest. Georges Lemaître, a Belgian Jesuit-educated physicist and Catholic priest, first proposed the idea in 1927 and developed it further in 1931. He called it the "hypothesis of the primeval atom" — the idea that the universe began from a single point of infinite density and has been expanding ever since.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 Pope Pius XII, in a 1951 address to the Pontifical Academy of Sciences, enthusiastically endorsed Lemaître's theory as scientific confirmation of the doctrine of creation — the idea that the universe had a beginning. Lemaître himself was more cautious: he warned the Pope against conflating scientific cosmology with theological doctrine, insisting that the two operate on different levels.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The Catholic Church does not claim that the Big Bang proves the existence of God — that would be a category error. But it does see the Big Bang as consistent with the doctrine of creation: the universe had a beginning, and that beginning points to a Creator who exists outside of time and space.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Faith and Reason as Complementary: Fides et Ratio</h2>
               <p className="text-text leading-relaxed mb-6">
                 The most comprehensive statement of the Catholic Church's position on the relationship between faith and reason is Pope John Paul II's 1998 encyclical <em>Fides et Ratio</em> (Faith and Reason). This document argues that faith and reason are not enemies but complementary paths to truth — "two wings on which the human spirit rises to the contemplation of truth."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 John Paul II argues that reason without faith tends toward relativism and nihilism — it loses its confidence in the possibility of objective truth. Faith without reason tends toward fideism and fundamentalism — it becomes irrational and closed to evidence. The two need each other: faith purifies reason, and reason clarifies faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 This vision — rooted in the tradition of Saint Thomas Aquinas — is the foundation of the Catholic approach to science. Science and theology are not competing explanations of the same reality; they are complementary investigations of different aspects of reality. Science asks "how?" and "when?" Theology asks "why?" and "for what purpose?" Both questions are legitimate, and both deserve rigorous, honest inquiry.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where Science and Faith Genuinely Differ</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 Acknowledging the harmony between faith and science does not mean there are no genuine differences. There are areas where Catholic teaching and certain scientific or philosophical positions are in real tension:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The origin of the soul.</strong> The Church teaches that each human soul is directly created by God — it is not the product of biological processes. This is a metaphysical claim that science cannot address, but it is in tension with purely materialist accounts of human consciousness.</li>
                 <li><strong>The beginning of human life.</strong> The Church teaches that human life begins at fertilization — a position that has implications for bioethics (abortion, IVF, embryonic stem cell research) that are in tension with some scientific and legal frameworks.</li>
                 <li><strong>Miracles.</strong> The Church affirms that God can and does act in the world in ways that transcend natural causation. This is not anti-scientific — it is a claim about the limits of science, not a denial of science.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 These genuine differences should be engaged honestly and respectfully. The Catholic tradition has always insisted that truth cannot contradict truth — if there appears to be a conflict between a scientific finding and a theological doctrine, either the science or the theology (or both) needs further examination.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

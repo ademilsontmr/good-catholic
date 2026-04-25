@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnTransgender() {
   return (
@@ -69,42 +70,42 @@ export default function CatholicTeachingOnTransgender() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Foundation: Human Dignity and the Body</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 The Catholic Church begins with an affirmation: every human being possesses an inalienable dignity as a person created in the image and likeness of God (Genesis 1:27; CCC 1700-1706). This dignity is not earned, not conditional, and cannot be taken away. It belongs to every person — including those who experience gender dysphoria or identify as transgender.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 At the same time, the Church teaches that the human body is not an accident or a prison for the soul. The body is an integral part of the human person. The Catechism states: "The human body shares in the dignity of 'the image of God': it is a human body precisely because it is animated by a spiritual soul, and it is the whole human person that is intended to become, in the body of Christ, a temple of the Spirit" (CCC 364).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 This is the foundation of the Church's position: the body is not something external to the person that can be arbitrarily modified or redefined. The body — including biological sex — is part of who we are as persons.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theology of the Body: Sex as Gift</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 St. John Paul II's Theology of the Body (1979-1984) provides the richest Catholic framework for understanding human sexuality and gender. John Paul II taught that the human body, in its masculinity and femininity, is a "theology" — it reveals something about God and about the human person's vocation to love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 The sexual difference between man and woman is not merely biological but is written into the very structure of the human person. It is a gift — a call to a particular way of being in the world and in relationship. The Catechism states: "Man and woman have been created, which is to say, willed by God: on the one hand, in perfect equality as human persons; on the other, in their respective beings as man and woman" (CCC 369).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 This does not mean that men and women are identical in all respects, or that gender roles are rigidly defined. But it does mean that biological sex — the fact of being male or female — is a fundamental aspect of the human person that cannot be changed by surgery, hormones, or self-identification.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Dignitas Infinita (2024): The Vatican's Clear Statement</h2>
               <p className="text-text leading-relaxed mb-6">
                 In April 2024, the Dicastery for the Doctrine of the Faith published <em>Dignitas Infinita</em> ("Infinite Dignity") — a declaration on human dignity approved by Pope Francis. It directly addresses gender ideology and transgender issues.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 The declaration states: "The Church affirms that human life in all its dimensions, both physical and spiritual, is a gift from God. This gift is to be accepted with gratitude and placed at the service of the good. Desiring a personal self-determination, as gender theory prescribes, apart from this fundamental truth that human life is a gift, amounts to a concession to the age-old temptation to make oneself God, entering into competition with the true God of love revealed to us by Jesus Christ" (§37).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 The document explicitly states that "any sex change intervention" — meaning surgical or hormonal procedures to alter one's biological sex — "risks threatening the unique dignity the person has received from the moment of conception" (§60). It also states that gender theory, "which denies the difference and reciprocity in nature of a man and a woman and envisages a society without sexual differences, thereby eliminating the anthropological basis of the family," is a "grave violation of human dignity" (§55-56).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 The Catechism of the Catholic Church addresses the relevant principles in several places:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>CCC 2333:</strong> "Everyone, man and woman, should acknowledge and accept his sexual identity. Physical, moral, and spiritual difference and complementarity are oriented toward the goods of marriage and the flourishing of family life."</li>
                 <li><strong>CCC 2297:</strong> Except for strictly therapeutic medical reasons, "directly intended amputations, mutilations, and sterilizations performed on innocent persons are against the moral law." This principle applies to surgical procedures that alter healthy biological sex characteristics.</li>
@@ -117,15 +118,15 @@ export default function CatholicTeachingOnTransgender() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Compassion Without Compromise</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 The Church's rejection of gender ideology does not mean rejection of persons who experience gender dysphoria. The Catechism is explicit: persons who experience same-sex attraction or gender confusion "must be accepted with respect, compassion, and sensitivity. Every sign of unjust discrimination in their regard should be avoided" (CCC 2358, applied by analogy).
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <em>Dignitas Infinita</em> itself emphasizes: "The Church wishes to offer a word of welcome and accompaniment to all those who, in the course of their lives, find themselves in situations of suffering and confusion regarding their own identity" (§60). The Church does not condemn persons — it proposes a vision of the human person that it believes leads to genuine flourishing.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 Practically, this means:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Persons experiencing gender dysphoria deserve pastoral care, compassion, and accompaniment — not rejection or mockery.</li>
                 <li>The Church does not support bullying, violence, or discrimination against any person.</li>
@@ -134,9 +135,9 @@ export default function CatholicTeachingOnTransgender() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">On Baptism and Sacraments</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 In 2023, the Vatican's Dicastery for the Doctrine of the Faith issued a response to questions about the sacramental status of transgender persons. The key points:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>A transgender person may be baptized if they are not in a situation that creates "scandal or disorientation" in the community.</li>
                 <li>A transgender person may serve as a godparent or witness at a wedding only if they do not create "public scandal or disorientation."</li>
@@ -144,15 +145,15 @@ export default function CatholicTeachingOnTransgender() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Deeper Question: Who Am I?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 The Catholic Church's response to gender ideology is ultimately not primarily a political or social position — it is a theological one. The Church proposes that the deepest answer to the question "Who am I?" is not found in feelings, self-identification, or social construction, but in the truth of who God created us to be.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 The Church teaches that every person is created male or female, in the image of God, with a body and soul that together constitute the human person. This identity is a gift — not a burden, not a mistake, not something to be overcome. It is the starting point for a life of love, service, and holiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-transgender">
                 This does not mean that living with gender dysphoria is easy. The Church acknowledges the real suffering that many people experience. But it proposes that the path to healing and wholeness lies not in denying one's biological reality but in integrating it — with God's grace — into a life of authentic human flourishing.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

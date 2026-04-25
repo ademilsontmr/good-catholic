@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintPeregrineNovena() {
   return (
@@ -83,9 +84,9 @@ export default function SaintPeregrineNovena() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Miraculous Life of Saint Peregrine
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-peregrine-novena">
                 Born in 1260 in Forlì, Italy, Peregrine was not always a man of peace. In his youth, he was a political rebel who once even struck St. Philip Benizi in the face. St. Philip’s response—turning the other cheek and praying for his attacker—so moved Peregrine that he experienced a radical conversion.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 He eventually joined the Order of the Servants of Mary (Servites). As a penance for his earlier life, Peregrine vowed to stand whenever it was not necessary to sit. This extreme penance, over many years, led to varicose veins and eventually <strong>cancer in his right leg</strong>.
               </p>
@@ -118,9 +119,9 @@ export default function SaintPeregrineNovena() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Cross Intercession Matters
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-peregrine-novena">
                 Praying to a saint is not "worshipping" them. Rather, it is asking a "big brother" in the faith to join his prayers with ours before the throne of God. Just as you would ask a friend on earth to pray for you, we ask St. Peregrine—who has already crossed the finish line—to pray for us in our hour of need.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Do you need spiritual encouragement today?"

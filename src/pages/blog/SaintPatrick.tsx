@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintPatrick() {
   return (
@@ -64,45 +65,45 @@ export default function SaintPatrick() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Saint Patrick is one of the most celebrated saints in the world, yet the real Patrick is far more interesting than the legend. He was not Irish by birth. He was not the first Christian missionary to Ireland. He did not drive snakes out of Ireland (there were never any snakes there). But he was a man of extraordinary courage, faith, and love — a man who chose to return to the land of his captivity to bring its people to Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life and Captivity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Patrick was born around 385-390 AD in Roman Britain — probably in what is now Wales or Scotland. His father Calpurnius was a deacon and a Roman official; his grandfather Potitus was a priest. Despite this Christian family background, Patrick later admitted that as a young man he did not take his faith seriously: "I did not then know the true God."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 When Patrick was about sixteen, Irish pirates raided his family's estate and carried him off to Ireland as a slave. He was sold to a chieftain named Miliucc in the northwest of Ireland (modern County Antrim or County Mayo) and set to work as a shepherd on the cold, lonely hillsides.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 It was in this captivity that Patrick found God. In his <em>Confessio</em> — his spiritual autobiography, one of only two writings that survive from him — he wrote: "After I came to Ireland — every day I had to tend sheep, and many times a day I prayed — the love of God and His fear came to me more and more, and my faith was strengthened. And my spirit was moved so that in a single day I would say as many as a hundred prayers, and almost as many in the night."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 After six years of slavery, Patrick heard a voice in a dream: "Your hungers are rewarded: you are going home. Look, your ship is ready." He escaped, walked nearly 200 miles to the coast, and found a ship that took him back to Britain.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Call to Return</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Back in Britain, Patrick was reunited with his family. He studied for the priesthood and was eventually ordained a bishop. But he could not forget Ireland. In another dream, he heard the voice of the Irish people calling to him: "We beg you, holy youth, to come and walk among us once more."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 This was an extraordinary act of love. Patrick was being called to return to the land where he had been enslaved, to the people who had taken him from his family, to a culture that was pagan and often violent. He could have refused. Instead, he went.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Patrick arrived in Ireland around 432 AD. He was not the first Christian missionary there — a bishop named Palladius had been sent by Pope Celestine I in 431 — but Patrick became the most successful and the most beloved.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Mission to Ireland</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Patrick's mission lasted approximately 30 years. During this time, he traveled throughout Ireland, preaching the Gospel, baptizing thousands, ordaining priests, and establishing monasteries and churches. He worked among the poor and the powerful, converting chieftains and kings.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 His approach was culturally sensitive and strategically brilliant. He did not try to destroy Irish culture — he baptized it. He used the existing structures of Irish society (the clan system, the druids' role as teachers) to spread the faith. He incorporated Irish symbols and traditions into Christian worship.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 One of the most famous stories of his mission is the lighting of the Easter fire on the Hill of Slane, directly across from the Hill of Tara where the High King had forbidden any fire to be lit before the royal fire. Patrick lit his fire anyway, and when the king sent soldiers to arrest him, Patrick and his companions were miraculously protected. The king was so impressed that he allowed Patrick to preach throughout his kingdom.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -110,12 +111,12 @@ export default function SaintPatrick() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Shamrock and the Trinity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 The most famous legend about Patrick is that he used the three-leafed shamrock to explain the mystery of the Holy Trinity — three persons in one God. While this story is not found in Patrick's own writings, it reflects his approach to evangelization: using the natural world to explain supernatural truths.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Whether or not the shamrock story is historically accurate, it captures something true about Patrick's method. He was a brilliant communicator who met people where they were and used what they knew to lead them to what they did not yet know.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Patrick's Writings</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -143,15 +144,15 @@ export default function SaintPatrick() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Death and Legacy</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Patrick died around 461 AD, probably on March 17 — the date that became his feast day. He is buried, according to tradition, at Downpatrick in Northern Ireland, along with Saints Brigid and Columba.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Patrick's legacy is immeasurable. He transformed Ireland from a pagan island into a Christian nation. Irish monasteries became centers of learning and culture that preserved classical civilization during the Dark Ages. Irish missionaries — inspired by Patrick's example — evangelized much of northern Europe. Patrick is rightly called the "Apostle of Ireland."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 His feast day, March 17, is celebrated around the world — not just by the Irish, but by all who have been touched by the faith he brought to Ireland.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

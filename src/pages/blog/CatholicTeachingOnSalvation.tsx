@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnSalvation() {
   return (
@@ -85,17 +86,17 @@ export default function CatholicTeachingOnSalvation() {
               <p className="text-text leading-relaxed mb-6">
                 The most fundamental difference between Catholic and many Protestant understandings of salvation is this: for Catholics, salvation is not a single moment but a <strong>process</strong> — a journey that begins at Baptism, continues throughout life, and is completed at death and judgment.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 Catholic theology speaks of three dimensions of salvation that correspond to past, present, and future:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-2 text-text">
                 <li><strong>Justification</strong> (past) — We have been saved from the guilt and penalty of sin through Christ's death and resurrection, received through Baptism.</li>
                 <li><strong>Sanctification</strong> (present) — We are being saved as we cooperate with God's grace, grow in virtue, receive the sacraments, and live the Christian life.</li>
                 <li><strong>Glorification</strong> (future) — We will be saved when we enter eternal life, having persevered in faith and love to the end.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 This three-part understanding is thoroughly biblical. St. Paul writes: "For in this hope we were saved" (Romans 8:24 — past tense). He also writes: "Work out your salvation with fear and trembling" (Philippians 2:12 — present tense). And he writes: "Now salvation is nearer to us than when we first believed" (Romans 13:11 — future tense). All three tenses are in Scripture because salvation is a process.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Grace: The Foundation of Everything
@@ -103,12 +104,12 @@ export default function CatholicTeachingOnSalvation() {
               <p className="text-text leading-relaxed mb-6">
                 The Catholic Church is absolutely clear: <strong>salvation is entirely a gift of God's grace</strong>. No one earns salvation. No one deserves it. It is given freely by God through Jesus Christ, who died for our sins and rose for our justification (Romans 4:25).
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 The Catechism of the Catholic Church states: "Our justification comes from the grace of God. Grace is favor, the free and undeserved help that God gives us to respond to his call to become children of God" (CCC 1996). And again: "The merit of man before God in the Christian life arises from the fact that God has freely chosen to associate man with the work of his grace" (CCC 2025).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 This is not a minor point. Catholics do not believe they earn their way to heaven by good works. They believe that God's grace enables them to respond, to cooperate, to grow — and that this cooperation is itself a gift. As St. Augustine famously said: "God crowns his own gifts."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Faith AND Works: What James 2:24 Really Means
@@ -116,12 +117,12 @@ export default function CatholicTeachingOnSalvation() {
               <p className="text-text leading-relaxed mb-6">
                 One of the most debated passages in the Reformation was James 2:24: "You see that a person is justified by works and not by faith alone." Martin Luther famously called the Letter of James "an epistle of straw" because it seemed to contradict his doctrine of justification by faith alone (<em>sola fide</em>).
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 The Catholic Church has always maintained that both faith and works are necessary — not because works earn salvation, but because genuine faith necessarily produces works. As James himself writes: "Faith without works is dead" (James 2:26). A faith that produces no change in behavior, no love of neighbor, no acts of mercy, is not saving faith — it is merely intellectual assent.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 This is not a contradiction of Paul's teaching on grace. Paul himself writes: "For we are his workmanship, created in Christ Jesus for good works, which God prepared beforehand, that we should walk in them" (Ephesians 2:10). The good works are the fruit of salvation, not its cause. But they are real, necessary fruit.
-              </p>
+              </LinkedText>
 
               <div className="bg-amber-50 border border-border rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-4 text-center text-xl">Catholic vs. Protestant: Key Differences on Salvation</h3>
@@ -145,9 +146,9 @@ export default function CatholicTeachingOnSalvation() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Role of the Sacraments in Salvation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 For Catholics, the sacraments are not optional extras — they are the ordinary means by which God communicates his saving grace. The Catechism defines sacraments as "efficacious signs of grace, instituted by Christ and entrusted to the Church, by which divine life is dispensed to us" (CCC 1131).
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Baptism</strong> is the sacrament of initial justification — the moment when original sin is washed away, the person is incorporated into Christ's Body, and the life of grace begins. Jesus himself said: "Unless one is born of water and the Spirit, he cannot enter the kingdom of God" (John 3:5). The Church takes this seriously.
               </p>
@@ -170,22 +171,22 @@ export default function CatholicTeachingOnSalvation() {
               <p className="text-text leading-relaxed mb-6">
                 This teaching — sometimes called the doctrine of <strong>invincible ignorance</strong> — holds that God can save those who, through no fault of their own, have never heard the Gospel or have never had a genuine opportunity to embrace the Catholic faith. God is not bound by the sacraments, even though we are.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 However, this does not mean that all religions are equally valid paths to salvation, or that the Church's mission is unnecessary. The same document affirms that the Catholic Church is the fullness of the means of salvation, and that those who know the Church is necessary for salvation but refuse to enter it cannot be saved. The missionary mandate remains urgent.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Respond to "Are You Saved?"
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 When a Protestant friend or family member asks "Are you saved?", many Catholics feel caught off guard. Here is a Catholic response that is both honest and faithful:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <em>"Yes — I have been saved by Christ's death and resurrection, received through Baptism. I am being saved as I cooperate with God's grace, receive the sacraments, and live the Christian life. And I hope to be saved when I stand before God at the end of my life, trusting in his mercy. My salvation is not something I earned — it is entirely a gift of God's grace. But it is also something I must cooperate with, as St. Paul says: 'Work out your salvation with fear and trembling.'"</em>
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-salvation">
                 This response is thoroughly biblical, thoroughly Catholic, and thoroughly honest. It avoids both the presumption of "once saved, always saved" and the despair of thinking salvation is impossible. It places everything in the hands of God's mercy while taking seriously the human response that mercy calls forth.
-              </p>
+              </LinkedText>
 
             </div>
 

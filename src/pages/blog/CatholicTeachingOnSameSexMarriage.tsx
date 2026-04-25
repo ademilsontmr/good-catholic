@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnSameSexMarriage() {
   return (
@@ -64,38 +65,38 @@ export default function CatholicTeachingOnSameSexMarriage() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The Catholic Church's position on same-sex marriage is clear and consistent: marriage, by its very nature, is the union of one man and one woman. This is not merely a religious preference or a cultural tradition — it is a truth rooted in the nature of the human person, in natural law, and in divine revelation. At the same time, the Church calls for genuine love and respect for every person, including those with same-sex attraction.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Definition of Marriage</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The Catechism of the Catholic Church defines marriage as "the matrimonial covenant, by which a man and a woman establish between themselves a partnership of the whole of life and which is ordered by its nature to the good of the spouses and the procreation and education of offspring" (CCC 1601).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 This definition has three essential elements:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>A man and a woman:</strong> The sexual difference between husband and wife is not incidental but essential to marriage. It reflects the complementarity of the sexes — the way in which man and woman are ordered toward each other in a unique way.</li>
                 <li><strong>A partnership of the whole of life:</strong> Marriage is permanent and exclusive — a total gift of self that cannot be divided or shared.</li>
                 <li><strong>Ordered to the good of the spouses and procreation:</strong> Marriage has two inseparable ends — the mutual good of the spouses (their sanctification and happiness) and the procreation and education of children.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 A union between two persons of the same sex cannot fulfill this definition. It lacks the sexual complementarity that is essential to marriage, and it cannot by its nature be ordered to procreation. Therefore, the Church teaches that same-sex unions are not and cannot be marriages, regardless of what civil law may say.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Foundation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The biblical foundation for the Church's teaching on marriage begins in Genesis: "Therefore a man leaves his father and his mother and clings to his wife, and they become one flesh" (Genesis 2:24). Jesus himself quotes this passage when asked about marriage: "Have you not read that he who created them from the beginning made them male and female, and said, 'Therefore a man shall leave his father and his mother and hold fast to his wife, and the two shall become one flesh'?" (Matthew 19:4-5).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The New Testament also addresses homosexual acts directly. St. Paul writes in Romans 1:26-27 that homosexual acts are "contrary to nature" — a phrase that connects to the natural law tradition. In 1 Corinthians 6:9-10, he lists those who practice homosexual acts among those who "will not inherit the kingdom of God" — a serious warning that the Church takes seriously.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says About Homosexuality</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The Catechism addresses homosexuality in paragraphs 2357-2359. The key points:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text text-sm leading-relaxed">
                   <strong>CCC 2357:</strong> "Homosexuality refers to relations between men or between women who experience an exclusive or predominant sexual attraction toward persons of the same sex... Basing itself on Sacred Scripture, which presents homosexual acts as acts of grave depravity, tradition has always declared that 'homosexual acts are intrinsically disordered.' They are contrary to the natural law. They close the sexual act to the gift of life. They do not proceed from a genuine affective and sexual complementarity. Under no circumstances can they be approved."
@@ -130,17 +131,17 @@ export default function CatholicTeachingOnSameSexMarriage() {
                 <li><strong>It permits a spontaneous, non-liturgical blessing</strong> of individuals who approach a priest asking for God's grace — not a formal blessing of their relationship.</li>
                 <li><strong>It explicitly prohibits</strong> any blessing that could be confused with a marriage blessing or that would imply approval of the union (§§29-31).</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The document was widely misreported as approving same-sex unions. It does not. The Church's teaching that marriage is exclusively between a man and a woman remains unchanged.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Natural Law: Why Marriage Is What It Is</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The Church's teaching on marriage is not based solely on Scripture or Church authority — it is also grounded in natural law, which is accessible to human reason. Natural law is the moral order written into human nature by God, discoverable by reason.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The natural law argument for marriage as the union of a man and a woman rests on several observations:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Human beings are sexually dimorphic — male and female are complementary in a way that makes procreation possible.</li>
                 <li>Children benefit from being raised by their biological mother and father, who provide complementary forms of love and formation.</li>
@@ -149,12 +150,12 @@ export default function CatholicTeachingOnSameSexMarriage() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Loving the Person, Upholding the Truth</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The Church's teaching on same-sex marriage is sometimes presented as hateful or discriminatory. This is a misrepresentation. The Church's position is rooted in love — love for the truth about the human person, and love for every individual person.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The Church distinguishes between the person and the act. It does not condemn persons who experience same-sex attraction — it calls them, as it calls all persons, to holiness and to the fullness of human flourishing. It does not approve of homosexual acts, because it believes these acts do not serve the genuine good of the persons involved.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 This is not a comfortable position in contemporary culture. But the Church believes that truth — even difficult truth — is ultimately more loving than comfortable falsehood. As St. John Paul II wrote: "The truth is not always the same as the majority opinion" (<em>Veritatis Splendor</em>, 96).
               </p>

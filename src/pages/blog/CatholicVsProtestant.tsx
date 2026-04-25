@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicVsProtestant() {
   return (
@@ -84,15 +85,15 @@ export default function CatholicVsProtestant() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Historical Context: Why 1517 Changed Everything
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 For 1,500 years, Christianity in the West was essentially unified (with the Eastern Orthodox split in 1054). Then Martin Luther posted his 95 Theses in Wittenberg, Germany. But this wasn't just about indulgences—it was about authority itself.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Luther's personal struggle led him to discover Romans 1:17: "The righteous shall live by faith." This became the foundation of <em>Sola Fide</em> (faith alone). But his conclusion—that the Church had corrupted the Gospel—led to a fundamental break with 1,500 years of Christian understanding.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 Other reformers followed: Zwingli in Switzerland, Calvin in Geneva, Henry VIII in England. Each had different theological emphases, but all shared the rejection of papal authority and the need for an internal principle of interpretation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. The Authority Crisis: Sola Scriptura vs. Scripture and Tradition
@@ -106,9 +107,9 @@ export default function CatholicVsProtestant() {
               <p className="text-text leading-relaxed mb-6">
                 Catholics believe in <strong>Scripture and Tradition</strong> as one deposit of faith. 2 Thessalonians 2:15 instructs us to hold to "traditions which you were taught by us, either by word of mouth or by letter." The Church doesn't put Tradition above Scripture—rather, Tradition is the living context in which Scripture is properly interpreted.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 The problem with Sola Scriptura, from the Catholic perspective, is that it's self-contradictory: the Bible never teaches that the Bible alone is our only authority. And practically, it has led to thousands of denominations, each claiming to follow the Bible but reaching different conclusions.
-              </p>
+              </LinkedText>
 
               <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -128,12 +129,12 @@ export default function CatholicVsProtestant() {
               <p className="text-text leading-relaxed mb-6">
                 Protestants often say we are saved by "Faith Alone." Interestingly, the only place in the entire Bible where the words "faith alone" appear together is <strong>James 2:24</strong>, which states: "You see that a man is justified by works and <em>not by faith alone</em>."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 Catholics do not believe we "earn" Heaven. Salvation is 100% a gift of God's grace. However, we believe that grace must transform us. Good works are not "extra credit"; they are the fruit that proves the tree is alive.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 The Catholic understanding is that justification is a process, not a one-time event. It begins with faith, is strengthened by works, and completed by God's final judgment. As Paul says in Philippians 2:12, "Work out your own salvation with fear and trembling, for it is God who works in you."
-              </p>
+              </LinkedText>
               
               <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-6 text-center flex items-center justify-center gap-2 text-xl">
@@ -156,22 +157,22 @@ export default function CatholicVsProtestant() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 3. The Sacraments: Channels of Grace vs. Symbols
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 Catholics believe in seven sacraments as outward signs that actually convey grace. Baptism truly regenerates, Confirmation truly strengthens, the Eucharist truly contains Christ. These aren't symbols—they are encounters with the living God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 Most Protestants recognize only two sacraments (Baptism and Communion) and see them primarily as symbolic acts of obedience. The Catholic view is that God works through physical matter because we are physical beings. The Incarnation validates this principle—God becoming flesh to save us.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 4. The Church: Visible Authority vs. Invisible Fellowship
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 Catholics believe in the visible Church with hierarchical authority. The Pope, as successor of Peter, has the charism of infallibility when teaching on faith and morals. This prevents the Church from error in essential teachings.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 Protestants typically see the Church as an invisible fellowship of all true believers. Without a central authority, interpretation of Scripture remains individual, leading to the thousands of denominations we see today.
-              </p>
+              </LinkedText>
               
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
                  <Heart className="w-6 h-6 text-accent" />
@@ -183,9 +184,9 @@ export default function CatholicVsProtestant() {
               <p className="text-text leading-relaxed mb-6">
                 The Second Vatican Council's <em>Unitatis Redintegratio</em> established the principles of modern Catholic ecumenism: dialogue, prayer together, and working together on social issues. The Catholic Church now recognizes Orthodox sacraments as valid and sees Protestants as "separated brothers" in Christ.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-differences">
                 Ecumenism doesn't mean saying differences don't matter. It means approaching each other with charity, seeking to understand rather than to win arguments, and working toward the unity Christ prayed for—even if we don't know how or when it will be achieved.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

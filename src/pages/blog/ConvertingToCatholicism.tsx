@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ConvertingToCatholicism() {
   return (
@@ -64,23 +65,23 @@ export default function ConvertingToCatholicism() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Every year, approximately 500,000 adults enter the Catholic Church in the United States alone. They come from every background — evangelical Protestants, mainline Protestants, atheists, agnostics, people of other faiths, and those with no religious background at all. What draws them? The answers are as varied as the people themselves.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Some are drawn by the Eucharist — the conviction that Christ is truly present in the bread and wine. Some are drawn by the Church's intellectual tradition — the writings of Augustine, Aquinas, Newman, and Chesterton. Some are drawn by the Church's moral clarity in a relativistic world. Some are drawn by beauty — the art, the music, the liturgy. Some are drawn by history — the realization that the Catholic Church is the original Christian church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Whatever draws you, this guide will help you understand what conversion involves and what to expect.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Conversion to Catholicism Actually Means</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Converting to Catholicism is not simply changing your religious affiliation — like switching from one gym to another. It is a profound transformation of identity, worldview, and way of life. The Church calls it "conversion" — a turning of the whole person toward God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Conversion involves:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Intellectual assent</strong> — accepting the teachings of the Catholic Church as true</li>
                 <li><strong>Sacramental initiation</strong> — receiving Baptism (if not already baptized), Confirmation, and First Holy Communion</li>
@@ -90,33 +91,33 @@ export default function ConvertingToCatholicism() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Converting from Protestantism</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 The largest group of converts to Catholicism in the United States comes from Protestant backgrounds. If you are a Protestant considering Catholicism, here are the key differences you will need to understand and accept:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Eucharist</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 The most significant difference between Catholicism and most Protestant traditions is the Eucharist. Catholics believe that at Mass, the bread and wine truly become the Body and Blood of Christ — not symbolically, but really and substantially. This is called transubstantiation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 For many Protestant converts, the Eucharist is the central reason for their conversion. They read John 6 ("My flesh is real food and my blood is real drink") and the accounts of the Last Supper, and they conclude that Jesus meant what He said — literally.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Authority of the Church</h3>
               <p className="text-text leading-relaxed mb-6">
                 Protestants believe in <em>sola scriptura</em> — Scripture alone as the rule of faith. Catholics believe that Scripture and Sacred Tradition together, interpreted by the Magisterium (the teaching authority of the Church), constitute the fullness of divine revelation.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 This is often the hardest adjustment for Protestant converts. It requires accepting that the Church — not the individual — has the authority to interpret Scripture. Many converts find this liberating rather than restrictive: instead of having to figure out everything on their own, they have the guidance of 2,000 years of accumulated wisdom.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Mary and the Saints</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Catholic devotion to Mary and the saints is often a stumbling block for Protestant converts. The key is understanding the distinction between worship (given to God alone) and veneration (given to Mary and the saints). Asking Mary to pray for you is not worship — it is asking a fellow Christian (who happens to be in heaven) to intercede for you.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Many Protestant converts find that Marian devotion, once understood correctly, becomes one of the most beautiful aspects of Catholic life.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Where are you on your Catholic journey?"
@@ -124,9 +125,9 @@ export default function ConvertingToCatholicism() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Will Change in Your Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Becoming Catholic will change your life in concrete, practical ways:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Sunday Mass becomes obligatory.</strong> Catholics are required to attend Mass every Sunday and on Holy Days of Obligation. This is not a burden but a gift — the most powerful prayer available to us.</li>
                 <li><strong>Regular Confession.</strong> Catholics are required to confess serious sins at least once a year, and are encouraged to go monthly. Many converts find Confession to be one of the most transformative practices of Catholic life.</li>
@@ -137,9 +138,9 @@ export default function ConvertingToCatholicism() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Tell Your Family</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 One of the most challenging aspects of converting to Catholicism can be telling your family — especially if they are Protestant, anti-Catholic, or non-religious. Here are some practical suggestions:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Pray first.</strong> Ask God for wisdom, courage, and the right words. Ask Mary and the saints to intercede for your family.</li>
                 <li><strong>Choose the right moment.</strong> Don't announce your conversion at a family gathering or in the middle of an argument. Choose a calm, private moment with the people who matter most.</li>
@@ -150,9 +151,9 @@ export default function ConvertingToCatholicism() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Famous Converts to Catholicism</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 You are in good company. Some of the greatest minds and most influential people in history have converted to Catholicism:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>G.K. Chesterton</strong> — English writer and apologist, converted from Anglicanism in 1922. His books <em>Orthodoxy</em> and <em>The Everlasting Man</em> have led thousands to the Church.</li>
                 <li><strong>John Henry Newman</strong> — Oxford theologian, converted from Anglicanism in 1845. Canonized as a saint in 2019. His <em>Apologia Pro Vita Sua</em> is one of the greatest conversion narratives ever written.</li>

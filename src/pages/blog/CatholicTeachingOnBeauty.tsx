@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnBeauty() {
   return (
@@ -59,56 +60,56 @@ export default function CatholicTeachingOnBeauty() {
               <Sparkles className="w-24 h-24 text-amber-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 We live in an age that has largely lost its sense of beauty. Our cities are often ugly. Our music is often noise. Our churches — built in the mid-twentieth century — are sometimes indistinguishable from office buildings. And yet, deep within every human heart, there is a longing for beauty that cannot be suppressed. We are drawn to sunsets, to great music, to faces we love, to the silence of a cathedral. This longing is not accidental. It is a clue to who we are and who made us.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 The Catholic tradition has always understood beauty as something far more than aesthetic pleasure. Beauty is a transcendental — a property of being itself, inseparable from truth and goodness. To understand this is to understand something profound about God, about creation, and about the human soul.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Transcendentals: Truth, Goodness, and Beauty</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 In the Catholic philosophical tradition, rooted in Aristotle and developed by the great scholastic theologians — above all, Saint Thomas Aquinas — there are three transcendental properties of being: truth (verum), goodness (bonum), and beauty (pulchrum). These are called "transcendentals" because they transcend every category and apply to everything that exists. Every being, insofar as it exists, is in some measure true, good, and beautiful.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Truth is being as it relates to the intellect: a thing is true insofar as it can be known. Goodness is being as it relates to the will: a thing is good insofar as it is desirable. Beauty is being as it relates to both intellect and will together: a thing is beautiful insofar as its contemplation gives delight. Aquinas defined beauty as that which, when seen, pleases — <em>id quod visum placet</em>. But this is not mere subjective pleasure. It is the delight that arises when the intellect perceives the radiance of form — when we see a thing as it truly is.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 Aquinas identified three conditions of beauty: integrity (wholeness — the thing has all its parts), consonance (harmony — the parts fit together rightly), and clarity (radiance — the form shines through the matter). A beautiful face, a beautiful piece of music, a beautiful mathematical proof — all share these three qualities. And because God is infinite being, God is infinitely true, infinitely good, and infinitely beautiful.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">"Beauty Will Save the World" — What Dostoevsky Meant</h2>
               <p className="text-text leading-relaxed mb-6">
                 The Russian novelist Fyodor Dostoevsky wrote, through the mouth of his character Prince Myshkin in <em>The Idiot</em>: "Beauty will save the world." This phrase has become one of the most quoted — and most misunderstood — sentences in modern literature. What did Dostoevsky mean?
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 He did not mean that aesthetic refinement will solve social problems. He meant something far deeper: that the encounter with genuine beauty — with the beauty of Christ, the beauty of holiness, the beauty of sacrificial love — has the power to pierce through the hardness of the human heart and awaken it to God. Beauty is not merely pleasant. It is salvific. It breaks through our defenses in a way that argument alone cannot.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope John Paul II, in his <em>Letter to Artists</em> (1999), quoted Dostoevsky and reflected on this insight: "Beauty is a key to the mystery and a call to transcendence. It is an invitation to savour life and to dream of the future. That is why the beauty of created things can never fully satisfy. It stirs that hidden nostalgia for God which a lover of beauty like Saint Augustine could express in incomparable terms: 'You made us for yourself, and our heart is restless until it rests in you.'"
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">God as the Source of All Beauty</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 If beauty is a transcendental property of being, and if God is the fullness of being, then God is the source and summit of all beauty. This is not a metaphor. It is a metaphysical claim. Every beautiful thing in creation is beautiful because it participates, in some limited way, in the infinite beauty of God.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Saint Augustine understood this with extraordinary depth. In his <em>Confessions</em>, he wrote one of the most beautiful passages in all of literature: "Late have I loved you, O Beauty ever ancient, ever new, late have I loved you! You were within me, but I was outside, and it was there that I searched for you. In my unloveliness I plunged into the lovely things which you created. You were with me, but I was not with you."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 Augustine's insight is that created beauty is a sign pointing beyond itself to the uncreated Beauty that is God. When we are moved by a sunset, by a great symphony, by the face of someone we love, we are — whether we know it or not — being drawn toward God. The tragedy of sin is that we stop at the created beauty and fail to follow it to its source.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Incarnation and Beauty: God Became Beautiful in Human Flesh</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 The Incarnation — the mystery at the heart of Christianity — is also a mystery of beauty. In Jesus Christ, the eternal Word of God, through whom all things were made, took on human flesh. God became visible. The invisible beauty of God became a human face.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 This has profound implications for how Catholics understand beauty. Beauty is not an escape from the material world — it is a revelation through the material world. The body is not a prison for the soul; it is a temple of the Holy Spirit, capable of manifesting divine glory. This is why the Catholic tradition has always embraced the arts — painting, sculpture, architecture, music — as legitimate and even necessary means of expressing and communicating the faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 The Catechism of the Catholic Church teaches: "Created 'in the image of God,' man also expresses the truth of his relationship with God the Creator by the beauty of his artistic works. Indeed, art is a distinctly human form of expression; beyond the search for the necessities of life which is common to all living creatures, art is a freely given superabundance of the human being's inner riches" (CCC 2501).
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -116,26 +117,26 @@ export default function CatholicTeachingOnBeauty() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Sacred Art, Architecture, and Music as Theology in Visible Form</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 The great cathedrals of Europe — Chartres, Notre-Dame de Paris, the Duomo of Florence, the Basilica of Saint Peter — are not merely impressive buildings. They are theological statements in stone and glass. Every element of their design — the soaring height of the nave pointing toward heaven, the stained glass filtering light into color, the sculptures of saints and angels — is a visual catechesis, teaching the faith to those who cannot read.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 The same is true of sacred music. Gregorian chant — the ancient prayer of the Church — is not merely beautiful music. It is prayer in musical form, shaped by the rhythms of the Latin text and the contours of the liturgical year. Polyphony — the music of Palestrina, Victoria, Byrd — is a sonic image of the harmony of heaven. Sacred music does not merely accompany worship; it is itself a form of worship.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Second Vatican Council, in its Constitution on the Sacred Liturgy <em>Sacrosanctum Concilium</em>, affirmed: "The Church has always regarded itself as the patron of the fine arts and has always sought their noble ministry, with the special aim that all things set apart for use in divine worship should be truly worthy, becoming, and beautiful, signs and symbols of the supernatural world" (SC 122).
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Beauty of the Liturgy: Why the Mass Should Be Beautiful</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 The Mass is the most important act of worship in the Catholic Church. It is the re-presentation of the sacrifice of Calvary, the making-present of the Last Supper, the foretaste of the heavenly banquet. If this is what the Mass is, then it should be celebrated with the greatest possible beauty — not as an aesthetic luxury, but as a theological necessity.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope Benedict XVI was perhaps the most eloquent modern advocate for the beauty of the liturgy. In his book <em>The Spirit of the Liturgy</em>, he argued that the liturgy must be beautiful because it is an encounter with the living God. Ugliness in worship is not merely an aesthetic failure; it is a theological failure — a failure to honor the One who is Beauty itself.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 Benedict wrote: "The only really effective apologia for Christianity comes down to two arguments, namely, the saints the Church has produced and the art which has grown in her womb. Better witness is borne to the Lord by the splendor of holiness and art which have arisen in the community of believers than by the clever excuses which apologetics has come up with to justify the dark sides which, sadly, are so frequent in the Church's human history."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Beauty as an Argument for God: The Via Pulchritudinis</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -149,9 +150,9 @@ export default function CatholicTeachingOnBeauty() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Cultivate a Sense of Beauty</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 In a culture saturated with noise, ugliness, and distraction, cultivating a sense of beauty requires intentional effort. Here are some practical ways to do so:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Lectio Divina.</strong> The slow, prayerful reading of Scripture is itself an encounter with beauty — the beauty of the Word of God. Allow the text to resonate, to surprise, to delight.</li>
                 <li><strong>Sacred art.</strong> Spend time with great sacred art — icons, Renaissance paintings, medieval illuminated manuscripts. Let them speak to you. Ask what they are saying about God, about the human person, about salvation.</li>
@@ -161,9 +162,9 @@ export default function CatholicTeachingOnBeauty() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Saints on Beauty</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 The great saints of the Church were not indifferent to beauty. They were, in fact, among the most sensitive souls who ever lived — precisely because their hearts were purified and opened to receive the beauty of God.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Saint Augustine</strong> (354–430) was a man of extraordinary aesthetic sensitivity. Before his conversion, he was drawn to the beauty of rhetoric, of music, of philosophy. After his conversion, he understood that all these beauties were reflections of the one Beauty that is God. His <em>Confessions</em> is itself a work of great literary beauty — a prayer addressed to the God who is Beauty itself.
               </p>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicBibleGuide() {
   return (
@@ -64,9 +65,9 @@ export default function CatholicBibleGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The Bible is the Word of God — the inspired record of God's revelation to humanity, culminating in the life, death, and resurrection of Jesus Christ. For Catholics, the Bible is not just a book to be read but a living word to be prayed, studied, and lived. It is the foundation of the faith, the source of the liturgy, and the daily bread of the soul.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Many Books Are in the Catholic Bible?</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -84,26 +85,26 @@ export default function CatholicBibleGuide() {
                 <li>Sirach (also called Ecclesiasticus or Ben Sira)</li>
                 <li>Baruch (including the Letter of Jeremiah)</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 Additionally, the Catholic versions of Daniel and Esther contain additional sections not found in Protestant Bibles.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Does the Catholic Bible Have 7 More Books?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The short answer: the Catholic Church preserved the original Christian Bible. The Protestant Bible is the one that was changed.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The early Church used the <strong>Septuagint</strong> — the Greek translation of the Old Testament made in Alexandria around 250-100 BC. The Septuagint included the deuterocanonical books and was the Bible of the apostles and the early Church. The New Testament quotes the Old Testament almost exclusively from the Septuagint.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The canon of Scripture was formally defined by the Catholic Church at the Councils of Hippo (393 AD) and Carthage (397 AD) — including all 73 books. This remained the standard Christian Bible for over 1,100 years.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 In the 16th century, Martin Luther removed the 7 deuterocanonical books from the Old Testament, partly because they supported Catholic doctrines he rejected (such as prayers for the dead, found in 2 Maccabees 12:46). He placed them in a separate section called the "Apocrypha." Later Protestant editions removed them entirely.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The Catholic Church reaffirmed the full 73-book canon at the Council of Trent (1546) in response to Luther's changes.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Structure of the Catholic Bible</h2>
 
@@ -130,51 +131,51 @@ export default function CatholicBibleGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Best Catholic Bible Translations</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 There are several excellent Catholic Bible translations available in English. Here are the most important:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">New American Bible Revised Edition (NABRE)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The NABRE is the official Bible of the United States Catholic Church and the translation used at Mass in the United States. It is a scholarly translation that prioritizes accuracy to the original languages. The NABRE is available free online at USCCB.org.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Best for:</strong> Following the daily Mass readings, academic study, official reference.
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Revised Standard Version — Catholic Edition (RSV-CE)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The RSV-CE is widely considered the best Catholic Bible for personal study and prayer. It combines scholarly accuracy with beautiful, dignified English prose. It is the translation used by many Catholic scholars, seminaries, and the Catechism of the Catholic Church (in its English edition).
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Best for:</strong> Personal study, prayer, apologetics, reading alongside the Catechism.
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Douay-Rheims Bible</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The Douay-Rheims is the traditional English Catholic Bible, translated from the Latin Vulgate in the late 16th and early 17th centuries. It has a majestic, archaic style similar to the King James Version. It is beloved by Catholics attached to the traditional Latin Mass.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Best for:</strong> Traditional spirituality, the Traditional Latin Mass, historical study.
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Jerusalem Bible / New Jerusalem Bible</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The Jerusalem Bible (1966) and its revision, the New Jerusalem Bible (1985), are scholarly translations produced by the Dominican École Biblique in Jerusalem. They are known for their literary quality and extensive footnotes. The Jerusalem Bible was used at Mass in many English-speaking countries outside the US.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Best for:</strong> Literary quality, extensive footnotes, international Catholic use.
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Knox Bible</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The Knox Bible (1945-1950) is a translation by Monsignor Ronald Knox, one of the most gifted Catholic writers of the 20th century. It is known for its elegant, idiomatic English prose. It is less widely used today but remains a literary masterpiece.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Catholics Read the Bible</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 Catholics read the Bible differently from many Protestants. The key differences:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Within the Tradition.</strong> Catholics read the Bible within the living Tradition of the Church — guided by the Magisterium, the Church Fathers, and 2,000 years of interpretation. The Bible is not read in isolation but in community.</li>
                 <li><strong>Through the Liturgy.</strong> The primary way Catholics encounter Scripture is through the Mass. The Lectionary (the book of Mass readings) takes Catholics through most of the Bible over a three-year cycle.</li>

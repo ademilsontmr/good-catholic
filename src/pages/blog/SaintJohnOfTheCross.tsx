@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJohnOfTheCross() {
   return (
@@ -59,59 +60,59 @@ export default function SaintJohnOfTheCross() {
               <Moon className="w-24 h-24 text-indigo-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 Juan de Yepes Álvarez — known to history as Saint John of the Cross — was born in 1542 in Fontiveros, a small town in Castile, Spain. He died in 1591, at the age of 49, having spent his brief life in poverty, suffering, and an extraordinary intimacy with God. In those 49 years, he produced a body of mystical writing that has never been surpassed — poetry of such beauty that it is studied in Spanish literature courses alongside Cervantes, and theology of such depth that it has guided souls toward God for five centuries.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life: Poverty, Loss, and Formation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John's early life was marked by poverty and loss. His father, Gonzalo de Yepes, came from a wealthy family of silk merchants but was disinherited when he married a poor weaver named Catalina Álvarez. Gonzalo died when John was very young, leaving Catalina to raise three sons in desperate poverty. John's older brother Luis died of malnutrition. The family wandered from town to town seeking work.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 Despite this poverty, John received an education. He was taken in by a hospital administrator in Medina del Campo who recognized his intelligence and arranged for him to study at a Jesuit college. John proved to be an exceptional student — gifted in languages, philosophy, and theology. But the comfortable career that might have followed was not what he was seeking.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 In 1563, at the age of 21, John entered the Carmelite Order — an ancient religious order with roots in the hermits of Mount Carmel in the Holy Land. He was drawn to the Carmelite tradition of contemplative prayer and solitude. He was ordained a priest in 1567.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Meeting Teresa of Ávila and the Carmelite Reform</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 The year of his ordination, 1567, was also the year John met Teresa of Ávila — one of the most remarkable women in the history of the Church. Teresa was already in the process of reforming the Carmelite Order, founding convents of "Discalced" (barefoot) Carmelites who would return to the original spirit of poverty, prayer, and contemplation. She recognized in the young John of the Cross exactly the kind of man she needed to extend the reform to the male branch of the order.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 Teresa later wrote of John: "Although he is small in stature, I believe he is great in the eyes of God." Their collaboration was one of the great partnerships in the history of Christian spirituality — two mystics, a generation apart, working together to renew the contemplative life of the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John threw himself into the reform with characteristic intensity. He adopted the austere life of the Discalced Carmelites — going barefoot, wearing rough habits, living in poverty, spending long hours in prayer. He became the spiritual director of Teresa's nuns and a guide to many souls seeking deeper union with God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Imprisonment: The Dark Night Becomes Real</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 The Carmelite reform was not welcomed by all. The "Calced" (unreformed) Carmelites saw it as a threat to their way of life and their authority. In December 1577, a group of unreformed Carmelites kidnapped John and imprisoned him in a tiny cell in Toledo — a room approximately six feet by ten feet, with a small slit near the ceiling for light.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 For nine months, John was held in this cell. He was given bread, water, and sardines. He was brought out periodically to be flogged before the assembled community. He was denied a change of clothes. He was kept in near-total darkness. By any human measure, it was a situation of complete desolation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 And yet — in that cell, in that darkness, John began to write. He composed in his memory (he had no paper) some of the most beautiful poetry in the Spanish language: the Spiritual Canticle, the Dark Night, the Living Flame of Love. The darkness that was meant to break him became the very medium through which God spoke to him most clearly.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 In August 1578, John escaped — lowering himself from a window on a rope made of strips of his habit and blanket, in the middle of the night. He was found by nuns who sheltered him and nursed him back to health.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Dark Night of the Soul: What It Actually Means</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 "The Dark Night of the Soul" is one of the most misused phrases in the English language. It is often used to describe any period of depression, difficulty, or spiritual dryness. But for John of the Cross, the Dark Night has a very specific and precise meaning — and it is not depression.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 The Dark Night is a spiritual purification — a process by which God strips the soul of its attachments, its consolations, and its self-reliance, in order to draw it into a deeper and more pure union with himself. It is not a punishment; it is a gift. It is not the absence of God; it is God's presence working at a level too deep for the soul to perceive through its ordinary faculties.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John uses the image of a log being placed in a fire. At first, the fire seems to do nothing — the log is cold and wet, and the fire appears to be failing. But gradually, the fire dries out the log, burns away the impurities, and finally the log itself begins to glow and burn. The Dark Night is the process of the soul being dried out, purified, and transformed into the fire of God's love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 This is why the Dark Night can feel like abandonment, like the loss of faith, like spiritual death — because the soul's ordinary ways of experiencing God (consolations, feelings of devotion, clarity in prayer) are being taken away. But they are being taken away not because God has left, but because God is drawing the soul beyond its ordinary experience into a deeper, more naked union with himself.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -119,9 +120,9 @@ export default function SaintJohnOfTheCross() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">His Major Works</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John of the Cross left four major works, each of which is both a poem and a prose commentary on that poem:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Ascent of Mount Carmel</strong> — A systematic guide to the active purification of the soul: how to detach from sensory pleasures, intellectual consolations, and spiritual experiences in order to be free for God alone.</li>
                 <li><strong>The Dark Night of the Soul</strong> — A description of the passive purification that God works in the soul: the night of the senses and the night of the spirit, and how the soul is transformed through them.</li>
@@ -130,51 +131,51 @@ export default function SaintJohnOfTheCross() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Two Dark Nights: Senses and Spirit</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John describes two distinct phases of the Dark Night, corresponding to two levels of the soul's purification.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>The Night of the Senses</strong> is the first and more common phase. In this night, God withdraws the sensory consolations of prayer — the feelings of devotion, the emotional warmth, the sense of God's presence. Prayer becomes dry and difficult. The soul feels nothing. This night purifies the soul's attachment to spiritual feelings and teaches it to seek God himself rather than the consolations God gives.
               </p>
               <p className="text-text leading-relaxed mb-6">
                 <strong>The Night of the Spirit</strong> is the deeper and more intense phase, experienced by fewer souls. In this night, God purifies the soul at a deeper level — stripping away not just sensory consolations but the soul's very capacity for spiritual understanding and experience. The soul feels utterly abandoned, incapable of prayer, seemingly cut off from God entirely. This is the most painful phase of the spiritual journey — but it is also the threshold of the deepest union.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John is careful to distinguish the Dark Night from depression, spiritual laziness, or the ordinary difficulties of life. The Dark Night is specifically a work of God in a soul that is genuinely seeking him — a purification that comes precisely because the soul is advancing, not because it is failing.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Summit of the Mountain: Union with God</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 The goal of the entire journey — the reason for the purification, the darkness, the stripping away — is union with God. John calls this the "spiritual marriage" or the "transforming union": a state in which the soul is so thoroughly transformed by God's love that it participates in the divine life itself.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John describes this union with characteristic precision and beauty. The soul does not lose its identity — it is not absorbed into God like a drop of water in the ocean. Rather, it is transformed like iron in a fire: the iron remains iron, but it glows with the fire's heat and light. The soul remains a creature, but it participates in God's own life, love, and knowledge.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 At the summit of Mount Carmel — the image John uses for the spiritual journey — there is nothing but God. John's famous sketch of the mountain shows all earthly goods and even spiritual goods falling away on either side of the narrow path, and at the top, the words: "Only the honor and glory of God dwells on this mountain."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Death, Canonization, and Doctor of the Church</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John's final years were marked by further suffering — not from his enemies this time, but from illness. In 1591, he developed a painful infection in his leg. He was sent to the priory of Úbeda, where the prior treated him with hostility and neglect. John bore it with characteristic patience and even gratitude.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 He died on December 14, 1591, at midnight — asking the friars to read him Psalm 31: "Into your hands I commend my spirit." He was 49 years old. His last words were: "Into your hands, O Lord, I commend my spirit."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 John was beatified in 1675 and canonized by Pope Benedict XIII in 1726. In 1926, Pope Pius XI declared him a Doctor of the Church — one of only 37 in the Church's history — with the title "Doctor Mysticus" (Mystical Doctor). His feast day is December 14.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why John of the Cross Matters Today</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 In an age of spiritual consumerism — where religion is often evaluated by how good it makes us feel — John of the Cross is a bracing corrective. He insists that the spiritual life is not primarily about consolations, experiences, or feelings. It is about God. And God, in his love, will strip away everything that is not God in order to give us himself.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 For those experiencing spiritual dryness — the feeling that prayer is empty, that God is absent, that faith has lost its warmth — John offers not a technique but a perspective. What feels like abandonment may be purification. What feels like the death of faith may be its deepening. The darkness is not the end of the journey; it is the middle of it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 For those experiencing doubt, suffering, or the apparent silence of God, John's life and writings are a testimony that the darkness can be endured — and that on the other side of the night, there is a dawn more beautiful than anything we can imagine.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">From "The Dark Night" — Saint John of the Cross</h3>

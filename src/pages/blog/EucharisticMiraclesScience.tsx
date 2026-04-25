@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EucharisticMiraclesScience() {
   return (
@@ -76,16 +77,16 @@ export default function EucharisticMiraclesScience() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-miracles-science">
                 In the world of forensic pathology, tissue begins to decompose within hours of death. Yet, certain "Eucharistic Miracles"—where a host has visibly turned into flesh or blood—have remained remarkably stable for centuries. Even more shocking represent independent laboratory studies conducted since the 1970s.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Lanciano (700 AD): The Golden Standard of Research
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-miracles-science">
                 In the 8th century, a Basilian monk in Lanciano, Italy, doubted the Real Presence. During the Consecration, the Host turned into a circle of flesh and the Wine into five clots of blood. 
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 In 1970, the Church invited <strong>Professor Odoardo Linoli</strong>, a specialist in anatomy and pathological histology, to conduct a full scientific analysis. His 1971 report, published in <em>Quaderni Sclavo di Diagnostica Clinica e di Laboratorio</em>, revealed:
               </p>
@@ -107,9 +108,9 @@ export default function EucharisticMiraclesScience() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Buenos Aires (1996): The Living Heart of God
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-miracles-science">
                 On August 18, 1996, in a parish in Buenos Aires, a discarded host was found in a dusty corner. Following Church protocol, it was placed in a glass of water to dissolve. Instead, it grew into a piece of bloody tissue.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The future <strong>Pope Francis</strong> (then Bishop Bergoglio) authorized a study. Samples were sent blindly to <strong>Dr. Frederick Zugibe</strong>, a renowned cardiologist and forensic pathologist at Columbia University.
               </p>
@@ -130,9 +131,9 @@ export default function EucharisticMiraclesScience() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Tixtla (2006) and Legnica (2013): Modern Confirmations
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-miracles-science">
                 The patterns established in Lanciano and Buenos Aires have repeated in more recent miracles:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-4 mb-8">
                 <li><strong>Tixtla, Mexico (2006):</strong> A religious sister noticed a host bleeding during communion. Scientific analysis confirmed the blood was type AB and originated from the interior of the host, as if the host were a living organism.</li>
                 <li><strong>Legnica, Poland (2013):</strong> A host fell on the floor and later turned red. The Department of Forensic Medicine at the Pomeranian Medical University concluded it was <strong>"human heart muscle with alterations that often appear during agony."</strong></li>
@@ -147,12 +148,12 @@ export default function EucharisticMiraclesScience() {
                  <Sparkles className="w-6 h-6 text-accent" />
                  The Universal Signature: Type AB Blood
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-miracles-science">
                 Why is the blood type always **AB**? 
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-miracles-science">
                 Type AB is known as the "universal recipient." In a theological sense, Christ's heart is open to everyone; He receives all of us. But scientifically, Type AB is extremely rare (under 5% of the global population). The fact that this specific, rare type appears in 8th-century Italy, 20th-century Argentina, and on the Shroud of Turin is a mathematical impossibility unless they share the same source.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

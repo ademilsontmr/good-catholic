@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ChastityModernWorld() {
     return (
@@ -67,9 +68,9 @@ export default function ChastityModernWorld() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">
                                 Speaking of chastity today seems, to many, an anachronism. In a culture that preaches immediate satisfaction of all impulses, the Christian proposal of purity is often ridiculed or misunderstood. However, chastity is the virtue that orders our affectivity and sexuality, integrating them into the human person for the good of authentic love.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="How is your pursuit of purity of heart?"
@@ -77,14 +78,14 @@ export default function ChastityModernWorld() {
                             />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What is Chastity Really?</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">
                                 The Catechism of the Catholic Church teaches that chastity means the successful integration of sexuality within the person. It is not the denial of sexuality, but its self-mastery. A chaste heart is a free heart, which does not use the other as an object of pleasure, but respects them as the image and likeness of God.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Chastity According to Your State in Life</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">
                                 Chastity is not a one-size-fits-all virtue. The Church teaches that it is lived differently according to one's state in life:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">
                                 <li><strong>For the unmarried:</strong> Chastity means abstaining from sexual activity and cultivating purity of heart, mind, and body while preparing for marriage or discerning a vocation.</li>
                                 <li><strong>For the married:</strong> Chastity means faithful, exclusive, and open-to-life love between spouses. It excludes adultery, contraception, and the use of one's spouse as a mere object of pleasure.</li>
@@ -93,12 +94,12 @@ export default function ChastityModernWorld() {
                             </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theology of the Body</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">
                                 St. John Paul II's "Theology of the Body" — a series of 129 Wednesday audiences delivered between 1979 and 1984 — is the most profound Catholic reflection on human sexuality ever written. He argued that the human body is not a prison for the soul but a sacrament — a visible sign of invisible spiritual realities. The body reveals the person, and the sexual union of husband and wife is meant to be an image of the Trinitarian love of God.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">
                                 This vision transforms how we understand chastity. It is not a negative prohibition but a positive vision: the body is made for love, and chastity protects the body's capacity to express genuine, self-giving love rather than selfish use.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Steps for Living Chastity</h2>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -112,12 +113,12 @@ export default function ChastityModernWorld() {
                             </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When You Fall: Starting Over</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">
                                 Chastity is a virtue that must be cultivated over time, and falls are part of the journey for most people. The concept of "secondary virginity" — a renewed commitment to chastity after failure — is recognized and encouraged by the Church. God's mercy is always greater than our failures. The Sacrament of Confession is not just for forgiveness but for healing and strengthening.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">
                                 St. Augustine, who struggled deeply with sexual sin before his conversion, wrote: "Our heart is restless until it rests in You." The restlessness that drives people to sexual sin is ultimately a hunger for God — and only God can satisfy it.
-                            </p>
+                            </LinkedText>
 
                             <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                                 <p className="text-text italic text-center">"Chastity is the flower of virtues."</p>

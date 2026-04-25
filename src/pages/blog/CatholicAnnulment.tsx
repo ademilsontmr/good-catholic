@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicAnnulment() {
   return (
@@ -76,22 +77,22 @@ export default function CatholicAnnulment() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Divorce is one of the most painful experiences a person can go through. For Catholics, it carries an additional layer of complexity: the Church teaches that marriage is a sacrament — a permanent, indissoluble bond. So what happens when a Catholic marriage breaks down? What is an annulment, and how does it work? This guide answers these questions with clarity, compassion, and fidelity to Church teaching.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What an Annulment Is — and What It Is NOT
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 An annulment — more precisely called a "declaration of nullity" — is a formal declaration by the Church that what appeared to be a valid marriage was, in fact, not a valid sacramental marriage from the beginning. It is not a Catholic divorce.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 The distinction is crucial. Divorce says: "We had a valid marriage, and now we are ending it." An annulment says: "After careful investigation, the Church has determined that the essential elements required for a valid marriage were absent from the beginning. Therefore, no valid sacramental bond was ever formed."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 This does not mean the relationship never existed, that the years together were meaningless, or that the children are illegitimate. It means that the specific sacramental bond — the permanent, exclusive, faithful, and fruitful covenant that constitutes Catholic marriage — was never validly established.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed mb-3">
@@ -105,23 +106,23 @@ export default function CatholicAnnulment() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Grounds for Annulment
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 For a marriage to be valid in the Catholic Church, certain essential elements must be present. An annulment can be granted when one or more of these elements was absent. The main grounds for annulment include:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 1. Lack of Form
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Catholics are required to marry in the Catholic form — before a priest or deacon and two witnesses, in a Catholic ceremony. If a Catholic marries outside the Church without a dispensation, the marriage is invalid due to lack of form. This is one of the most straightforward grounds for annulment and can often be resolved quickly.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 2. Lack of Consent
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Marriage requires the free, full, and informed consent of both parties. Lack of consent can take many forms:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Force or fear:</strong> If a person was coerced into marriage by grave external force or fear</li>
                 <li><strong>Simulation:</strong> If one or both parties secretly intended to exclude marriage itself, fidelity, children, or permanence</li>
@@ -132,16 +133,16 @@ export default function CatholicAnnulment() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 3. Psychological Incapacity (Canon 1095)
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Canon 1095 of the Code of Canon Law provides that a person is incapable of contracting marriage if they lack sufficient use of reason, suffer from a grave defect of discretion of judgment concerning the essential matrimonial rights and duties, or are unable to assume the essential obligations of marriage due to causes of a psychic nature. This is one of the most commonly invoked grounds in the United States and covers a wide range of psychological conditions that prevent a person from genuinely committing to the obligations of marriage.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 4. Impediments
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Certain impediments automatically render a marriage invalid, including: prior bond (being already validly married), consanguinity (close blood relationship), age (below the canonical minimum), impotence, and sacred orders or religious vows.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you understand Catholic teaching on marriage?"
@@ -151,37 +152,37 @@ export default function CatholicAnnulment() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Annulment Process: The Marriage Tribunal
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 The annulment process is conducted by the diocesan marriage tribunal — a church court staffed by trained canon lawyers and judges. Here is how the process typically works:
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 1: Initial Consultation
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 The process begins with a meeting with a parish priest or a tribunal staff member. They will review your situation and help determine whether there are grounds for a formal case. Not every broken marriage has grounds for annulment — the tribunal is not a rubber stamp.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 2: Filing the Petition
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 The petitioner (the person seeking the annulment) submits a formal petition to the tribunal, along with supporting documentation including the marriage certificate, baptismal certificates, and the civil divorce decree. The petitioner also provides a detailed personal history of the relationship.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 3: Investigation
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 The tribunal investigates the case by gathering testimony from the petitioner, the respondent (the other spouse), and witnesses. Both parties have the right to participate in the process and to see the evidence presented against them. A defender of the bond — a canon lawyer whose role is to argue for the validity of the marriage — reviews all the evidence.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Step 4: Decision and Appeal
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 The tribunal judges review all the evidence and render a decision. If the marriage is declared null, the decision is automatically reviewed by a second tribunal (the court of appeal). Both parties have the right to appeal the decision.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 How Long Does It Take?
@@ -193,52 +194,52 @@ export default function CatholicAnnulment() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 What Does It Cost?
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 In the United States, most dioceses charge a fee to cover the administrative costs of the tribunal process — typically between $200 and $1,000. However, no one is denied an annulment due to inability to pay. If you cannot afford the fee, ask the tribunal about fee waivers or reduced fees.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Happens to the Children?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 One of the most common concerns about annulments is the status of children born of the marriage. Many people fear that an annulment will make their children "illegitimate" in the eyes of the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 This fear is unfounded. Canon law explicitly states that children born of a marriage that is later declared null remain legitimate. The declaration of nullity affects the sacramental bond between the spouses — it does not affect the legal or moral status of the children. The children are, and remain, fully legitimate in the eyes of both the Church and civil law.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Can You Remarry After an Annulment?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Yes. If a marriage is declared null, both parties are free to marry in the Catholic Church — provided there are no other impediments. The declaration of nullity establishes that no valid sacramental bond was ever formed, so both parties are free to enter into a valid marriage.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 In some cases, the tribunal may attach a "vetitum" — a prohibition on remarrying without first consulting the tribunal. This is done when there are concerns that the same factors that invalidated the first marriage might affect a future marriage. The vetitum is not a permanent prohibition; it is a pastoral safeguard to ensure the person is ready for a valid marriage.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Civil Divorce and Annulment: The Difference
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 It is important to understand that civil divorce and Catholic annulment are entirely separate processes. A civil divorce is a legal dissolution of a civil marriage contract. A Catholic annulment is a declaration by the Church about the sacramental validity of a marriage.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 The Church requires that a civil divorce be obtained before a formal annulment case can be filed — not because the Church recognizes the civil divorce as dissolving the marriage, but for practical reasons related to the legal status of the parties. A civil divorce alone does not free a Catholic to remarry in the Church; only a declaration of nullity does that.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Pastoral Care for Divorced Catholics
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 The Church recognizes that divorce is a painful experience and that divorced Catholics need pastoral care and support, not judgment. The Catechism (CCC 1650) acknowledges the difficult situation of Catholics who are divorced and civilly remarried without an annulment, and calls the Church to show them "attentive solicitude."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Divorced Catholics who have not remarried are in full communion with the Church and can receive the sacraments. They are encouraged to participate fully in the life of the parish, to seek healing through prayer and counseling, and to consider whether the annulment process might be appropriate for their situation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Many dioceses offer support groups and ministries specifically for divorced and separated Catholics. The North American Conference of Separated and Divorced Catholics (nacsdc.org) is a national organization that provides resources and community for Catholics navigating this difficult journey.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center leading-relaxed">

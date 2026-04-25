@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ExaminationOfConscienceGuide() {
   return (
@@ -89,32 +90,32 @@ export default function ExaminationOfConscienceGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 In a culture that rarely encourages honest self-reflection, the Catholic practice of examining one's conscience stands out as countercultural and profoundly liberating. Rather than suppressing guilt or rationalizing sin, the examination of conscience invites us to look honestly at our lives in the light of God's love — not to condemn ourselves, but to receive His mercy and grow in holiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 There are two main forms of examination of conscience in the Catholic tradition: the Ignatian Examen, a daily prayer practice developed by St. Ignatius of Loyola, and the pre-Confession examination, which uses the Ten Commandments and other moral frameworks to prepare for the Sacrament of Reconciliation. Both are essential tools for the serious Catholic. This guide covers both in detail.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Is the Examination of Conscience?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 The examination of conscience (also called the "examen" or "examination of consciousness") is a prayerful review of one's thoughts, words, actions, and omissions in the presence of God. It is not a psychological exercise in self-analysis but a spiritual practice of standing before God and asking: "Lord, how have I lived this day? Where have I responded to Your grace? Where have I failed?"
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 The Catechism of the Catholic Church teaches that "the education of the conscience is a lifelong task" (CCC 1784). The examination of conscience is the primary tool for this education. Without regular self-examination, our conscience becomes dull — we stop noticing our sins, we rationalize our failures, and we gradually drift from God without realizing it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 St. Ignatius of Loyola considered the daily Examen so important that he said if a Jesuit could only pray one thing each day, it should be the Examen — not Mass, not the Liturgy of the Hours, but the Examen. This is a remarkable statement from a man who valued prayer above almost everything else.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Ignatian Examen: Five Steps
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 St. Ignatius of Loyola (1491–1556), founder of the Jesuits, developed the Examen as a structured daily prayer that reviews the day in God's presence. It takes 10–15 minutes and is typically prayed at the end of the day, though some people pray it at midday as well. Here are the five steps:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">The Five Steps of the Ignatian Examen</h3>
@@ -150,9 +151,9 @@ export default function ExaminationOfConscienceGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Examination Before Confession: Using the Ten Commandments
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 Before going to Confession, Catholics are expected to make a thorough examination of conscience — reviewing their sins since their last Confession. The most traditional framework for this is the Ten Commandments, which cover the full range of our obligations to God and neighbor.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Examination by the Ten Commandments
@@ -173,28 +174,28 @@ export default function ExaminationOfConscienceGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Daily vs. Pre-Confession Examination
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 The daily Examen and the pre-Confession examination serve different purposes. The daily Examen is a prayer practice focused on growing in self-awareness and intimacy with God. It is not primarily about cataloguing sins but about noticing the movements of grace and resistance in your soul. It takes 10–15 minutes and is done every day.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 The pre-Confession examination is more systematic and thorough. It reviews your sins since your last Confession, using the Ten Commandments or another moral framework to ensure you haven't forgotten anything serious. It is done before going to Confession — ideally the day before, so you have time to reflect without rushing.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 The two practices complement each other beautifully. The daily Examen keeps your conscience sensitive throughout the year, so that when you come to Confession, you already have a clear sense of your spiritual state. Catholics who practice the daily Examen consistently report that their Confessions become more honest, more specific, and more fruitful.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Scrupulosity vs. Healthy Conscience
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 One important caution: the examination of conscience should lead to freedom, not anxiety. Scrupulosity is a spiritual disorder in which a person is excessively anxious about sin, confessing the same sins repeatedly, doubting whether they were truly forgiven, and living in constant fear of damnation. This is not healthy conscience — it is a distortion of it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 A healthy conscience is sensitive but not paralyzed. It notices sin clearly, brings it to God with genuine sorrow, receives forgiveness with trust, and moves forward without excessive guilt. St. Francis de Sales wrote: "Have patience with all things, but chiefly have patience with yourself. Do not lose courage in considering your own imperfections, but instantly set about remedying them — every day begin the task anew."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 If you struggle with scrupulosity, speak with a good confessor or spiritual director. The examination of conscience is meant to be a source of peace and growth, not torment.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

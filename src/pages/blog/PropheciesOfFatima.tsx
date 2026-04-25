@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PropheciesOfFatima() {
   return (
@@ -77,80 +78,80 @@ export default function PropheciesOfFatima() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
                 When Our Lady appeared to Lucia, Francisco, and Jacinta between May and October 1917, Europe was engulfed in the Great War. The children were simple shepherds from a poor peasant family, yet they were chosen to receive one of the most significant prophetic messages of the 20th century.
-              </p>
+              </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Three Secrets Revealed
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               On July 13, 1917, Our Lady revealed three secrets to the children. Lucia, the only surviving seer after Francisco and Jacinta died in the 1919 flu pandemic, wrote down the secrets in 1941 at the request of her bishop.
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The First Secret: A Vision of Hell
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               The children saw a terrifying vision of hell—a sea of fire with demons and souls in human form, shrieking in agony. This vision was so horrifying that the children dedicated their lives to prayer and penance to save sinners from this fate.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               Jacinta, the youngest seer, became particularly devoted to praying for sinners. Before her death at age 9, she told Lucia: "I am going to heaven, but you must stay here to make known what God wishes."
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Second Secret: The Devotion to the Immaculate Heart
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               The second secret included a prophecy of World War II and a call for the consecration of Russia to the Immaculate Heart of Mary. Our Lady warned that if her requests were not heeded, Russia would spread her errors throughout the world, causing wars and persecutions.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               The promise attached to this secret: "In the end, my Immaculate Heart will triumph. The Holy Father will consecrate Russia to me, and she will be converted, and a period of peace will be granted to the world."
-            </p>
+            </LinkedText>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               The Third Secret: The Bishop in White
             </h3>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               The third secret, revealed by the Vatican in 2000, described an angel with a flaming sword calling for penance, followed by a vision of a "bishop in white" climbing a steep mountain toward a cross, surrounded by soldiers and martyrs.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               The official interpretation, confirmed by Pope John Paul II, identified this as the assassination attempt on May 13, 1981—the feast of Our Lady of Fatima. The Pope credited Our Lady of Fatima for saving his life and placed the bullet that wounded him in her crown at the Fatima shrine.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Consecration of Russia
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               The request for the consecration of Russia became one of the most debated aspects of Fatima. Pope Pius XII consecrated the world in 1942 and Russia specifically in 1952. Pope John Paul II consecrated the world again in 1982 and 1984. Pope Francis consecrated Russia and Ukraine in 2022 during the Russian invasion.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               Whether these consecrations fully satisfied Our Lady's request remains debated among Fatima scholars. The promised "conversion of Russia" and "period of peace" have not yet fully materialized.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Miracle of the Sun
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               On October 13, 1917, the final apparition, approximately 70,000 people witnessed the "Miracle of the Sun." Witnesses described the sun dancing, spinning, and seeming to fall toward the earth. The phenomenon lasted about ten minutes and was reported by believers and skeptics alike.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Message for Today
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               The core message of Fatima transcends the specific secrets: prayer (especially the Rosary), penance, devotion to the Immaculate Heart, and amendment of life. These practices are as urgently needed today as in 1917.
-            </p>
-            <p className="text-text leading-relaxed mb-6">
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               Sister Lucia, who became a Carmelite nun and died in 2005, emphasized that Fatima's message is not primarily about prophecy but about salvation—calling sinners to repentance and helping them avoid hell.
-            </p>
+            </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Fatima and the End Times
             </h2>
-            <p className="text-text leading-relaxed mb-6">
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
               While Fatima addresses prophetic elements, it should not be reduced to "end times speculation." The Church has consistently warned against private interpretations of Fatima prophecies. The message is ultimately one of hope—the triumph of Mary's Immaculate Heart and the eventual conversion of the world.
-            </p>
+            </LinkedText>
 
             <QuizCTA />
 

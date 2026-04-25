@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DarkNightOfTheSoul() {
   return (
@@ -84,9 +85,9 @@ export default function DarkNightOfTheSoul() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Three Stages of the Spiritual Life
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dark-night-of-the-soul-catholic">
                 To understand the Dark Night, we must look at the traditional "Three Ways":
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-8">
                 <li><strong>The Purgative Way:</strong> The stage of beginners where we fight against mortal sins and rely on emotional "good feelings" in prayer.</li>
                 <li><strong>The Illuminative Way:</strong> The stage where the Dark Night of the Senses typically occurs. God removes the "sweetness" to purify our intentions.</li>
@@ -139,9 +140,9 @@ export default function DarkNightOfTheSoul() {
                  <Sparkles className="w-6 h-6 text-accent" />
                  Practical Expert Advice for the Dryness
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dark-night-of-the-soul-catholic">
                 If you are in the Night:
-              </p>
+              </LinkedText>
               <ul className="list-decimal list-inside text-text space-y-3 mb-10">
                 <li><strong>Do not force meditation:</strong> If you can no longer "talk" to God with your mind, simply "be" with Him. Silence is the language of the Night.</li>
                 <li><strong>Change your prayers:</strong> Switch from long vocal prayers to short "arrow prayers" (ejaculations) like "Jesus, I trust in You."</li>

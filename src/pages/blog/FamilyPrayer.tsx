@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FamilyPrayer() {
   return (
@@ -76,46 +77,46 @@ export default function FamilyPrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 There is a reason the Church calls the family the "domestic church." The home is meant to be a place where faith is not just professed but practiced — where God is spoken of naturally, where prayer punctuates the day, where the liturgical seasons shape the rhythm of family life. And yet, for many Catholic families, prayer together has become rare or nonexistent.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 The good news is that it is never too late to start. Whether your family has never prayed together or once did and has drifted away, the path back is simpler than you might think. It begins with one small, consistent act — and builds from there.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Family Prayer Matters: What the Research Shows
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 The data on family prayer and faith retention is striking. Studies by sociologists like Christian Smith and Mark Regnerus consistently show that children who pray regularly with their parents are significantly more likely to remain practicing Catholics as adults. The single strongest predictor of adult faith is not Catholic school attendance, not parish involvement, not even personal religious experience — it is the religious practice of parents, especially shared prayer in the home.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 A 2020 study by the Center for Applied Research in the Apostolate (CARA) found that young adults who reported praying daily with their families as children were more than twice as likely to attend Mass weekly as adults compared to those who never prayed at home. The domestic church is not a pious metaphor — it is a statistical reality.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Family Rosary: Father Peyton's Legacy
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 Father Patrick Peyton, C.S.C., spent decades traveling the world promoting the family Rosary with his famous slogan: "The family that prays together stays together." His Family Rosary Crusade reached hundreds of millions of people in the mid-20th century, and his insight has only been confirmed by subsequent research.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 The Rosary is particularly suited to family prayer because it is repetitive enough for young children to participate, meditative enough for adults to enter deeply, and structured enough to provide a clear beginning and end. You don't need to pray all five decades every night. Start with one decade — five Hail Marys with an Our Father and Glory Be. Let the children take turns leading. Over time, you can build up to a full Rosary.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 Many families find that the Rosary works best at a consistent time — after dinner, before bed, or on the way to school in the car. The key is regularity. A short Rosary prayed every day is worth far more than a long one prayed occasionally.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Grace Before Meals: The Simplest Starting Point
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 If your family does not currently pray together, grace before meals is the easiest place to start. It requires no preparation, no special knowledge, and only about thirty seconds. The traditional Catholic grace — "Bless us, O Lord, and these Thy gifts, which we are about to receive from Thy bounty, through Christ our Lord. Amen." — is simple enough for young children to memorize and meaningful enough for adults to pray with genuine gratitude.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 The act of pausing before a meal to acknowledge God as the source of all good things is a small but powerful counter-cultural statement. In a world that treats food as mere fuel and mealtimes as optional, the Catholic practice of blessing food reclaims the table as a sacred space. Over time, you can add a grace after meals, or invite family members to share one thing they are grateful for before the blessing.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Traditional Catholic Grace Before Meals</h3>
@@ -131,15 +132,15 @@ export default function FamilyPrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Bedtime Prayers with Children
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 Bedtime is one of the most natural times for prayer with children. The transition from the activity of the day to the quiet of sleep creates a natural opening for reflection and gratitude. A simple bedtime prayer routine might include: an examination of conscience ("What was the best part of today? What do I wish I had done differently?"), a prayer of thanksgiving, a prayer of petition, and a blessing from the parent.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 The Guardian Angel prayer is particularly beloved by children: "Angel of God, my guardian dear, to whom God's love commits me here, ever this day be at my side, to light and guard, to rule and guide. Amen." It gives children a sense of being watched over and protected — a beautiful truth of the Catholic faith that speaks directly to childhood fears and needs.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 As children grow older, bedtime prayer can become more conversational — a time to bring the day's joys and struggles to God in their own words. This transition from memorized prayers to spontaneous prayer is an important developmental step in a child's faith life.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your family's prayer life?"
@@ -149,62 +150,62 @@ export default function FamilyPrayer() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Liturgy of the Hours for Families
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 The Liturgy of the Hours — the Church's official daily prayer — is not just for priests and religious. It is the prayer of the whole Church, and families can participate in simplified forms. Morning Prayer (Lauds) and Evening Prayer (Vespers) are the two "hinges" of the daily office, and even a simplified version of these prayers can give a family's day a beautiful liturgical structure.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 Resources like the Magnificat app, the iBreviary app, or the printed Magnificat monthly booklet make the Liturgy of the Hours accessible to families without theological training. Even praying just the morning psalm and a brief intercession together before school can transform the start of the day.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Advent and Lent: Seasonal Family Traditions
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 The liturgical year provides a natural structure for family prayer that goes beyond daily routines. Advent and Lent are particularly rich seasons for family spiritual practices.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 During Advent, the Advent wreath is a powerful family prayer focus. Lighting the candles each evening with a brief prayer and Scripture reading connects the family to the Church's anticipation of Christ's coming. The Jesse Tree — a devotional practice of adding ornaments representing salvation history each day of Advent — is beloved by families with young children.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 During Lent, families can pray the Stations of the Cross together on Fridays, make a family sacrifice jar (collecting coins for the poor), or take on a shared spiritual reading. The key is choosing practices that are realistic for your family's season of life — better to do one thing consistently than five things for a week.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Start When You Haven't Been Praying
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 If family prayer has been absent from your home, starting can feel awkward. That's normal. The awkwardness passes. Here is a simple approach: announce to your family that you want to start praying together, explain why it matters to you, and propose something very small — grace before dinner, starting tonight. Don't apologize for wanting to pray. Don't make it a big production. Just start.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 Expect some resistance, especially from teenagers. Hold the line gently but firmly. "This is what our family does" is a complete sentence. Over time, as prayer becomes a habit, the resistance usually fades — and sometimes the most resistant family member becomes the most devoted.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Overcoming Resistance from Family Members
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 Resistance to family prayer is common and takes many forms: eye-rolling teenagers, a spouse who isn't on board, young children who won't sit still, busy schedules that crowd out prayer time. Each requires a different response.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 For young children: keep it short, make it fun, involve them actively. Let them ring a bell to start prayer, hold the candle, choose which saint to pray to. For teenagers: acknowledge their feelings, don't force lengthy prayers, but maintain the expectation of participation in brief family prayer. For a reluctant spouse: don't nag, but don't give up. Pray for them. Lead by example. Invite rather than demand.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Creating a Prayer Corner or Home Oratory
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 A dedicated prayer space in the home — even a small shelf or corner — can powerfully support family prayer. A home oratory might include a crucifix, an image of Mary, a candle, a Bible, a rosary, and perhaps a small statue of the family's patron saint. Having a physical space dedicated to prayer signals to everyone in the household that prayer is a priority.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 This doesn't need to be elaborate or expensive. A simple wooden cross, a printed image of Our Lady, and a candle on a shelf can create a focal point for prayer. Children especially benefit from having a visible, tangible place to bring their prayers.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Age-Appropriate Prayers for Children
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 Different ages call for different approaches to prayer. Here is a brief guide:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4">
                 <strong>Ages 2–4:</strong> Simple repetition — "Thank you, God, for Mommy, Daddy, and [name]." The Sign of the Cross. The Guardian Angel prayer.
               </p>

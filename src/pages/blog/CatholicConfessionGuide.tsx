@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicConfessionGuide() {
   return (
@@ -64,23 +65,23 @@ export default function CatholicConfessionGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 Many Catholics have complicated feelings about Confession. Some avoid it out of embarrassment. Others feel it is unnecessary — "I can confess directly to God." Still others go through the motions without understanding what is actually happening. This guide is for all of them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The Sacrament of Confession (also called the Sacrament of Reconciliation or Penance) is not a Catholic invention or a medieval addition to Christianity. It is a gift directly from Jesus Christ, rooted in Scripture, practiced by the Church from the beginning, and confirmed by the experience of millions of Catholics who have found in it the most profound encounter with God's mercy available in this life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Sacrament of Confession?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The Sacrament of Confession is one of the seven sacraments of the Catholic Church. In it, a baptized Catholic confesses their sins to a priest, expresses genuine sorrow, and receives absolution — the forgiveness of sins in the name of Jesus Christ.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The Catechism of the Catholic Church describes it as "the sacrament of conversion, because it makes sacramentally present Jesus' call to conversion, the first step in returning to the Father from whom one has strayed by sin" (CCC 1423).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 It is called by several names, each highlighting a different aspect:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Confession</strong> — because it involves confessing sins to a priest</li>
                 <li><strong>Reconciliation</strong> — because it reconciles the sinner with God and the Church</li>
@@ -89,21 +90,21 @@ export default function CatholicConfessionGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Basis for Confession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The most direct biblical foundation for Confession is John 20:21-23. On the evening of His resurrection, Jesus appeared to the apostles and said:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed">
                   "Peace be with you. As the Father has sent me, even so I am sending you." And when he had said this, he breathed on them and said to them, "Receive the Holy Spirit. If you forgive the sins of any, they are forgiven them; if you withhold forgiveness from any, it is withheld."
                 </p>
                 <p className="text-text-muted text-sm mt-2">— John 20:21-23</p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 This passage is decisive. Jesus gave the apostles — and through them, their successors the bishops and priests — the power to forgive or retain sins. This power requires knowing what sins have been committed, which is why auricular (spoken) confession to a priest is necessary.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 Other biblical foundations include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Matthew 16:19 and 18:18:</strong> Jesus gives Peter and the apostles the power to "bind and loose" — a rabbinic expression for the authority to declare things permitted or forbidden, forgiven or retained.</li>
                 <li><strong>James 5:16:</strong> "Therefore, confess your sins to one another and pray for one another, that you may be healed." The early Church practiced confession of sins.</li>
@@ -112,9 +113,9 @@ export default function CatholicConfessionGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Can't I Just Confess Directly to God?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 This is the most common objection to Confession. The answer has several dimensions:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>You can — and should — confess directly to God.</strong> Perfect contrition (sorrow for sin motivated by love of God) forgives sins even before Confession. Catholics are encouraged to pray an Act of Contrition whenever they sin, without waiting for Confession.
               </p>
@@ -134,9 +135,9 @@ export default function CatholicConfessionGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Effects of Confession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The Catechism lists the spiritual effects of a good Confession (CCC 1496):
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Reconciliation with God</strong> — the restoration of sanctifying grace and friendship with God</li>
                 <li><strong>Reconciliation with the Church</strong> — restoration of full communion with the Body of Christ</li>
@@ -149,43 +150,43 @@ export default function CatholicConfessionGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Fears About Confession — Answered</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">"I'm too embarrassed to confess my sins"</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 This is the most common fear. But consider: the priest has heard everything. He is not shocked by your sins. He has heard worse. And he is bound by the absolute seal of Confession — he cannot tell anyone what you confessed, ever, under any circumstances.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The embarrassment of confessing a sin is itself a form of humility and penance. Push through it. The peace you will feel afterward is worth it.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">"I've been away too long — my sins are too serious"</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 There is no sin too serious for God's mercy. The Church has never defined any sin as unforgivable in Confession (the only unforgivable sin is final impenitence — dying without repentance). No matter how long you have been away, no matter what you have done, the confessional is open to you.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">"I'll just sin again anyway"</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The purpose of amendment is not a guarantee that you will never sin again — it is a sincere intention to try. God knows our weakness. He does not require perfection before forgiving us; He requires sincerity. And the grace received in Confession actually strengthens you against future sin.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Often Should You Go to Confession?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The Church requires Confession at least once a year (the Easter duty) for those who are aware of mortal sin. But the saints and spiritual directors recommend much more frequent Confession:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Monthly</strong> — the minimum recommended by most spiritual directors for those striving for holiness</li>
                 <li><strong>Every two weeks</strong> — recommended by many saints and spiritual directors</li>
                 <li><strong>Weekly</strong> — the practice of many saints, including St. John Paul II and St. Padre Pio</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 Even if you have no mortal sins to confess, regular Confession of venial sins is spiritually beneficial. It deepens your self-knowledge, increases your sensitivity to sin, and opens you to the healing grace of the sacrament.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Seal of Confession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 The seal of Confession is absolute. A priest who reveals the contents of a Confession — even indirectly — is automatically excommunicated. No civil law, no court order, no threat of imprisonment can compel a priest to break the seal. This has been the consistent teaching and practice of the Church for two thousand years.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 This absolute confidentiality is one of the reasons Confession is so powerful. You can tell the priest anything — anything — and know with certainty that it will never leave that confessional.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

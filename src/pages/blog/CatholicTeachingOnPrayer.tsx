@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnPrayer() {
   return (
@@ -59,28 +60,28 @@ export default function CatholicTeachingOnPrayer() {
               <Heart className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 Every human being prays — or has prayed, or longs to pray. Even those who claim not to believe in God find themselves, in moments of crisis or wonder, reaching out toward something beyond themselves. This reaching out is the beginning of prayer. The Catholic tradition takes this universal human impulse and gives it a name, a form, and a depth that transforms it from a vague spiritual instinct into a living relationship with the God who made us and loves us.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 The Catechism of the Catholic Church devotes an entire section — the fourth and final part — to prayer. This is not an afterthought. Prayer is the culmination of the Christian life, the point at which everything else — doctrine, morality, sacraments — finds its ultimate meaning and expression.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says About Prayer (CCC 2558–2565)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 The Catechism opens its treatment of prayer with a definition from Saint John Damascene: prayer is "the raising of one's mind and heart to God or the requesting of good things from God" (CCC 2559). This definition is deceptively simple. It contains two movements: the upward movement of the mind and heart toward God, and the receptive movement of asking and receiving.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 But the Catechism goes deeper. It describes prayer as a covenant relationship — a living encounter between God and the human person. "Prayer is the living relationship of the children of God with their Father who is good beyond measure, with his Son Jesus Christ and with the Holy Spirit" (CCC 2565). Prayer is not a monologue but a dialogue; not a technique but a relationship; not a duty but a gift.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 The Catechism also emphasizes that prayer is always a response to God's initiative. God speaks first; we respond. "Whether we realize it or not, prayer is the encounter of God's thirst with ours. God thirsts that we may thirst for him" (CCC 2560). This is a remarkable image: God thirsts for us. Prayer is not us reaching up to a distant God but us responding to a God who is already reaching down to us.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Five Forms of Prayer</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 The Catholic tradition identifies five basic forms of prayer, each expressing a different dimension of our relationship with God:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Blessing and Adoration.</strong> We acknowledge God's greatness and our own smallness. We bless God — not because He needs our blessing, but because blessing is the appropriate response to encountering infinite goodness. Adoration is the posture of the creature before the Creator: "Holy, holy, holy is the Lord God Almighty" (Revelation 4:8).</li>
                 <li><strong>Petition.</strong> We ask God for what we need — for ourselves and for others. Petition is not a sign of weakness but of trust. Jesus explicitly commanded it: "Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you" (Matthew 7:7). The deepest petition is not for material goods but for God Himself: "Lord, teach us to pray" (Luke 11:1).</li>
@@ -90,9 +91,9 @@ export default function CatholicTeachingOnPrayer() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Expressions of Prayer</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 The Catechism also distinguishes three expressions or forms of prayer, which correspond to different ways of engaging with God:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Vocal prayer</strong> is prayer expressed in words — spoken aloud or silently. It includes the great prayers of the Church (the Our Father, the Hail Mary, the Creed), the liturgy, and our own spontaneous words to God. Vocal prayer is not inferior to other forms; it is the natural expression of the whole person — body and soul — before God. Jesus himself prayed aloud (John 11:41–42; Matthew 26:39).
               </p>
@@ -109,20 +110,20 @@ export default function CatholicTeachingOnPrayer() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray? Not to Inform God, but to Transform Ourselves</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 A common objection to prayer is: "If God already knows everything, why do I need to tell Him what I need?" The answer is that prayer is not primarily about informing God — it is about transforming us. God does not need our prayers; we need to pray.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 When we pray, we open ourselves to God's action in our lives. We align our wills with His will. We grow in trust, in humility, in love. We become more like the people He created us to be. Saint Augustine put it beautifully: "Our heart is restless until it rests in You." Prayer is the activity by which we find our rest in God — not by escaping the world, but by bringing the world into God's presence.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 Prayer also changes things — not because it changes God's mind, but because it changes us and, through us, the world. The prayer of the righteous "has great power as it is working" (James 5:16). The history of the Church is full of examples of prayer that moved mountains — not by magic, but by the power of God working through human cooperation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Obstacles to Prayer</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 The Catechism is honest about the difficulties of prayer. It identifies several common obstacles:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Distraction</strong> is the most universal obstacle. Our minds wander; we think about our to-do list, our worries, our plans. The Catechism's advice is simple: return. When you notice you have wandered, gently bring your attention back to God. The act of returning is itself a form of prayer — an act of the will choosing God over distraction.
               </p>
@@ -137,9 +138,9 @@ export default function CatholicTeachingOnPrayer() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Develop a Prayer Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 The saints and the tradition of the Church offer practical wisdom for developing a real prayer life:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Regularity</strong> is the foundation. Prayer is a habit, and habits require consistency. Choose a time — morning, evening, or both — and protect it. Even fifteen minutes of daily prayer, faithfully maintained, will transform your life over time.
               </p>
@@ -151,12 +152,12 @@ export default function CatholicTeachingOnPrayer() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Lord's Prayer: The Model of All Christian Prayer</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 Jesus gave us the perfect prayer: the Our Father. The Catechism calls it "the summary of the whole gospel" (CCC 2761) and "the most perfect of prayers" (Saint Thomas Aquinas). In seven petitions, it contains everything we need to ask of God: His glory, His kingdom, His will, our daily bread, forgiveness, deliverance from temptation, and liberation from evil.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 The Our Father is not just a prayer to be recited — it is a school of prayer. Each petition teaches us something about who God is, who we are, and what we truly need. To pray the Our Father slowly and attentively is to receive a complete education in the Christian life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mary as the Model of Prayer</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -165,20 +166,20 @@ export default function CatholicTeachingOnPrayer() {
               <p className="text-text leading-relaxed mb-6">
                 Her <em>Magnificat</em> (Luke 1:46–55) is one of the greatest prayers in Scripture — a song of praise, thanksgiving, and prophetic proclamation. It shows us what prayer looks like when it is fully alive: it glorifies God, it remembers His mighty deeds, it proclaims His justice and mercy.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 At Pentecost, Mary was present with the apostles, "devoting themselves to prayer" (Acts 1:14). She was there at the birth of the Church, praying with and for the disciples as they waited for the Holy Spirit. She continues to pray for us now — interceding before her Son for all her children.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Prayer of the Saints</h2>
               <p className="text-text leading-relaxed mb-6">
                 The great pray-ers of history have much to teach us. Saint Teresa of Ávila mapped the interior life of prayer in her masterwork <em>The Interior Castle</em>, describing seven "mansions" or stages of prayer from the first beginnings to the transforming union with God. Saint John of the Cross described the "dark night of the soul" — the painful purification that God uses to deepen our prayer and strip away our attachments. Saint Thérèse of Lisieux discovered the "little way" — a prayer of childlike trust and simplicity that is accessible to everyone.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 What all the great pray-ers have in common is perseverance. They did not give up when prayer was dry or difficult. They kept showing up, day after day, trusting that God was at work even when they could not feel it. And over time, their prayer was transformed — from duty to delight, from words to silence, from asking to simply being with God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 This is the invitation that the Catholic tradition extends to every believer: not to become a mystic overnight, but to begin — to show up, to be faithful, to trust. "Pray without ceasing" (1 Thessalonians 5:17). Not because God needs our words, but because we need His presence — and in prayer, we find it.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">A Simple Daily Prayer Structure</h3>

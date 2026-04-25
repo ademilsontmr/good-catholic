@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NightPrayerCatholic() {
   return (
@@ -78,12 +79,12 @@ export default function NightPrayerCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 The Church has always sanctified the night with prayer. From the earliest centuries, Christians gathered in the evening to pray — to give thanks for the day, to ask forgiveness for failures, to commend themselves to God's protection through the night. This tradition lives on in the Liturgy of the Hours, in family bedtime prayers, and in the personal evening prayer of millions of Catholics around the world.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 Night prayer is not just a pious habit. It is a spiritual discipline that transforms the end of the day into an act of worship, prepares the soul for sleep (which the Church has always seen as an image of death), and builds the habit of ending every day in God's presence.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Night Prayer Matters</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -95,9 +96,9 @@ export default function NightPrayerCatholic() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Evening Examination of Conscience</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 The most important element of Catholic night prayer is the examination of conscience — a brief review of the day in God's presence. St. Ignatius of Loyola developed a five-step method called the Examen that takes about 10-15 minutes:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li><strong>Give thanks.</strong> Begin by thanking God for the specific blessings of the day — moments of beauty, help, grace, or joy.</li>
                 <li><strong>Ask for light.</strong> Ask the Holy Spirit to help you see the day clearly — to recognize both the good and the failures.</li>
@@ -105,9 +106,9 @@ export default function NightPrayerCatholic() {
                 <li><strong>Ask for forgiveness.</strong> For any sins or failures you have identified, ask God's forgiveness with a brief Act of Contrition.</li>
                 <li><strong>Look to tomorrow.</strong> Ask God for the grace you will need for tomorrow. Make a specific resolution if needed.</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 The Examen is not meant to be a guilt-inducing exercise. It is a loving conversation with God about the day — noticing where He was present, where you responded to Him, and where you need His mercy and help.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your daily prayer life?"
@@ -130,9 +131,9 @@ export default function NightPrayerCatholic() {
                 <li>A concluding prayer</li>
                 <li>The Salve Regina or another Marian antiphon</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 Compline takes about 10-15 minutes. It is available in apps like iBreviary, Laudate, and Universalis, making it easy to pray even without a physical book.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Salve Regina</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
@@ -142,14 +143,14 @@ export default function NightPrayerCatholic() {
                   R. That we may be made worthy of the promises of Christ.
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 The Salve Regina is traditionally prayed at the end of Compline and at the end of the Rosary. It is one of the four Marian antiphons that the Church prays at different seasons of the year. The Salve Regina is prayed from the end of Ordinary Time until Advent.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Simple Catholic Night Prayers</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 If Compline feels too long for your current season of life, here are simpler night prayers:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <h3 className="font-display text-base font-bold text-text mb-2">Traditional Night Prayer</h3>
@@ -174,9 +175,9 @@ export default function NightPrayerCatholic() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Night Prayer for Families</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 Praying together as a family before bed is one of the most powerful ways to build a domestic church. Here is a simple family night prayer routine:
-              </p>
+              </LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li>Gather together — in the living room, or at the children's bedside</li>
                 <li>Make the Sign of the Cross together</li>
@@ -186,14 +187,14 @@ export default function NightPrayerCatholic() {
                 <li>Pray the Guardian Angel prayer for the children</li>
                 <li>Close with the Sign of the Cross</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 This routine takes about 5-10 minutes and builds a powerful habit of family prayer. Children who grow up praying with their parents are far more likely to maintain their faith as adults.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Psalms for Night Prayer</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 The Psalms are the Church's prayer book, and several are especially suited for night prayer:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Psalm 4:</strong> "In peace I will lie down and sleep, for you alone, Lord, make me dwell in safety."</li>
                 <li><strong>Psalm 23:</strong> "The Lord is my shepherd... Even though I walk through the darkest valley, I will fear no evil, for you are with me."</li>

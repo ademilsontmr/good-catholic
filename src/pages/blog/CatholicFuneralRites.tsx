@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicFuneralRites() {
   return (
@@ -90,50 +91,50 @@ export default function CatholicFuneralRites() {
                 <li><strong>The Funeral Mass</strong> (or Funeral Liturgy outside Mass)</li>
                 <li><strong>The Rite of Committal</strong> (at the graveside or crematorium)</li>
               </ol>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 Together, these three rites form a continuous journey of prayer that accompanies the deceased — and their family — through the transition from this life to the next.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Stage 1: The Vigil for the Deceased (Wake)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The Vigil is typically held the evening before the Funeral Mass, either at the funeral home or at the church. It is the first gathering of the community to pray for the deceased and support the bereaved family.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The Vigil service includes Scripture readings, a homily or reflection, intercessions, and often the Rosary. The Rosary is particularly beloved at Catholic wakes — the repetitive, meditative prayers of the Hail Mary create a prayerful atmosphere and give mourners something concrete to do with their grief.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The body of the deceased is typically present at the Vigil, either in an open or closed casket. The presence of the body is theologically significant: it reminds us that this is a real person, made in the image of God, whose body will one day be raised. The body is treated with reverence — it is often sprinkled with holy water and may be incensed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 Family members and friends are encouraged to share memories of the deceased during the Vigil. This is not a eulogy in the secular sense — it is a witness to how God worked through this person's life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Stage 2: The Funeral Mass
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The Funeral Mass is the central act of the Catholic funeral rites. It is the fullest expression of the Church's faith in the Resurrection and the most powerful prayer the Church can offer for the deceased. The Mass is celebrated in white vestments — the color of Easter — because the Church proclaims that death has been conquered by Christ.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Reception of the Body</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The Mass begins with the Reception of the Body at the church entrance. The priest meets the casket at the door, sprinkles it with holy water (recalling the deceased's baptism), and may place a white pall over the casket — a symbol of the baptismal garment. The body is then processed to the front of the church.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Liturgy of the Word</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The Mass proceeds with readings from Scripture — typically an Old Testament reading, a Psalm, a New Testament reading, and the Gospel. The readings are chosen to proclaim the hope of the Resurrection. Common choices include John 11 (the raising of Lazarus), John 14 ("I am the resurrection and the life"), and 1 Corinthians 15 (Paul's great chapter on the Resurrection).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The homily follows the Gospel. The priest is instructed by the OCF to preach on the Paschal Mystery — the death and resurrection of Christ — and how the deceased's life was connected to that mystery. A eulogy is not part of the Mass, though brief words of remembrance may be offered after Communion.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Final Commendation</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 After Communion, the Mass concludes with the Final Commendation — a solemn farewell in which the Church entrusts the deceased to God's mercy. The priest incenses the body and sprinkles it with holy water while the congregation sings or prays. The traditional chant "In Paradisum" ("May the angels lead you into paradise") is often sung at this moment — one of the most beautiful and moving prayers in the entire Catholic liturgy.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know your Catholic faith?"
@@ -143,31 +144,31 @@ export default function CatholicFuneralRites() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Stage 3: The Rite of Committal
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The Rite of Committal takes place at the graveside (or at the crematorium if cremation has been chosen). It is the final act of the Church's funeral rites — the moment when the body is entrusted to the earth in the hope of the Resurrection.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The rite includes Scripture verses, a prayer of committal, intercessions, and the Lord's Prayer. The priest may sprinkle the grave with holy water and incense the body. The words of committal echo the ancient formula: "We commit his/her body to the ground, earth to earth, ashes to ashes, dust to dust, in the sure and certain hope of the Resurrection to eternal life."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Catholic Teaching on Cremation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The Catholic Church now permits cremation, but with important conditions. The 1983 Code of Canon Law lifted the previous prohibition on cremation, and the Congregation for the Doctrine of the Faith issued detailed guidelines in 2016 (Ad resurgendum cum Christo).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The Church's position is: cremation is permitted, but burial of the ashes in a sacred place (cemetery, columbarium, or church) is strongly preferred. The Church does not permit:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 text-text space-y-2">
                 <li>Scattering ashes at sea, in the air, or on the ground</li>
                 <li>Keeping ashes at home in an urn</li>
                 <li>Dividing ashes among family members</li>
                 <li>Turning ashes into jewelry or other objects</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The reason is theological: the body is sacred because it was baptized, received the Eucharist, and will be raised on the last day. Treating the ashes with the same reverence as a body honors this dignity. The Church also notes that scattering ashes can suggest a pantheistic worldview (merging with nature) rather than the Christian hope of personal resurrection.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What to Wear and What to Say
@@ -182,22 +183,22 @@ export default function CatholicFuneralRites() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Prayers for the Dead: Why Catholics Pray for the Deceased
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 Catholics pray for the dead because we believe in Purgatory — a state of purification after death in which souls are prepared for the full vision of God. Our prayers, Masses, and acts of charity can help souls in Purgatory. This is why the Funeral Mass is so important: it is the most powerful prayer the Church can offer for the deceased.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 The practice of praying for the dead is ancient — it appears in 2 Maccabees 12:46 ("It is therefore a holy and wholesome thought to pray for the dead, that they may be loosed from sins") and was practiced by the early Church. Having Masses offered for the deceased is one of the most meaningful gifts you can give a grieving family.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Request a Catholic Funeral
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 To arrange a Catholic funeral, contact the deceased's parish as soon as possible after death. The parish will coordinate with the funeral home and help plan the liturgy. You will work with the priest or deacon to choose Scripture readings, music, and any special elements.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-rites-explained">
                 Catholic funerals are available to all baptized Catholics in good standing. In some cases, the Church may also provide funeral rites for non-Catholics who were close to the faith, at the discretion of the local bishop. If you are unsure whether someone qualifies for a Catholic funeral, speak with the parish priest.
-              </p>
+              </LinkedText>
 
               <div className="bg-slate-50 border border-border rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicDating() {
   return (
@@ -76,49 +77,49 @@ export default function CatholicDating() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 The Catholic vision of romantic love is one of the most beautiful and countercultural things the Church offers the modern world. At a time when dating culture has been reduced to swiping, hooking up, and keeping options open indefinitely, the Church proposes something radically different: relationships ordered toward a permanent, life-giving covenant of love — marriage as a sacrament.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 This doesn't mean Catholic dating is joyless or rigidly rule-bound. It means approaching relationships with clarity of purpose, genuine respect for the other person, and trust that God has a plan for your vocation. This guide walks through the key principles and practical realities of Catholic dating and courtship.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Purpose of Dating: Discerning Marriage
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 The Catholic understanding of dating begins with a clear purpose: to discern whether this particular person is the one God is calling you to marry. This is not the same as the secular understanding of dating as entertainment, companionship, or exploration with no particular destination in mind.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 This doesn't mean every date is a marriage interview. It means that as a relationship develops, both people are asking a serious question: "Is this the person I am called to spend my life with?" When the answer becomes clearly no, the relationship should end — not drag on indefinitely out of comfort or fear of being alone.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 This clarity of purpose is actually liberating. It removes the ambiguity that causes so much pain in modern relationships. Both people know what they are doing and why. There is no confusion about "where this is going."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Dating vs. Courtship: What's the Difference?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 The terms "dating" and "courtship" are sometimes used interchangeably, but they carry different emphases. Traditional courtship involves a more structured, family-involved process of getting to know someone with explicit marriage in view. Dating is typically more informal and may involve less family involvement.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 In practice, most American Catholics today date rather than court in the traditional sense. What matters is not the label but the underlying principles: intentionality, chastity, honesty, and a genuine openness to discerning marriage. Whether you call it dating or courtship, the Catholic approach involves treating the other person as a child of God deserving of respect — not as a means to your own emotional or physical satisfaction.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Chastity in Relationships: What It Means Practically
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Chastity is one of the most misunderstood concepts in Catholic teaching. It is not simply "not having sex." Chastity is the virtue of integrating one's sexuality with one's whole person — body, soul, and spirit — in a way that is appropriate to one's state in life. For a single person, chastity means reserving sexual intimacy for marriage. For a married person, it means fidelity and the proper ordering of sexual love within the covenant.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Practically, chastity in dating means: no sexual intercourse before marriage, avoiding situations that make sexual sin likely (being alone together in private spaces late at night, for example), being honest about physical boundaries and holding them, and understanding that physical intimacy should grow in proportion to commitment — not precede it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 The Church's teaching on chastity is not arbitrary. It is rooted in a profound theology of the body, developed most fully by Pope John Paul II, which holds that the body is not separate from the person but expressive of the person. Sexual union is the language of total self-gift — and using that language outside of the total commitment of marriage is a kind of lie told with the body.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">A Prayer for Purity in Relationships</h3>
@@ -130,15 +131,15 @@ export default function CatholicDating() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Near Occasions of Sin: What to Avoid
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 The traditional Catholic concept of "near occasions of sin" is practically very useful in dating. A near occasion of sin is any situation that makes sin significantly more likely. For couples trying to live chastely, common near occasions include: being alone together in a private space late at night, consuming alcohol together in private, watching sexually explicit content together, and extended physical contact that escalates gradually.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 This is not about distrust or treating the other person as a threat. It is about honest self-knowledge. We are all capable of making poor decisions when our emotions and physical desires are engaged. Avoiding near occasions of sin is simply prudent — it removes unnecessary temptation and protects the relationship.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Practical strategies: spend time together in public or with others present, especially early in a relationship; set clear physical boundaries early and communicate them honestly; have an accountability partner or spiritual director you can be honest with about your struggles.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your Catholic vocation discernment going?"
@@ -148,9 +149,9 @@ export default function CatholicDating() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Find a Catholic Spouse
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 One of the most practical questions for single Catholics is simply: where do I meet other practicing Catholics? The answer has expanded significantly in recent years.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Parish life</strong> remains the most natural place to meet other Catholics. Get involved — join a young adult group, volunteer for parish ministries, attend parish events. If your parish doesn't have an active young adult community, look for one in your diocese that does.
               </p>
@@ -167,32 +168,32 @@ export default function CatholicDating() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Role of Prayer in Discernment
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Prayer is not optional in Catholic dating — it is essential. You are discerning a vocation, and vocational discernment requires listening to God. This means bringing your relationship to prayer regularly: praying for the other person, praying for clarity about the relationship, and praying together as a couple.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Couples who pray together — even briefly — develop a spiritual intimacy that is distinct from emotional and physical intimacy and that provides a much stronger foundation for marriage. Praying together also makes it easier to have honest conversations about faith, values, and expectations.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 A spiritual director can be invaluable during this season. Having a wise, trusted person to help you discern — someone who knows you, knows your faith, and can offer objective perspective — is one of the most underused resources in Catholic dating.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 When to Introduce Faith Conversations
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Faith should come up early in a Catholic relationship — not as an interrogation, but as a natural part of getting to know someone. By the second or third date, you should have a sense of whether the other person is a practicing Catholic, what their relationship with God looks like, and whether they share your basic values.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Key questions to explore early: Do they attend Mass regularly? Do they have a prayer life? What is their relationship with the Church? Do they understand and accept Catholic teaching on marriage, contraception, and family? These are not trick questions — they are essential compatibility questions for a Catholic relationship.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Red Flags in a Catholic Relationship
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Not every relationship that begins well is meant to continue. Here are some significant red flags in a Catholic dating context:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4">
                 <strong>Pressure to compromise your faith:</strong> A partner who consistently pushes you to skip Mass, abandon prayer, or compromise your moral convictions is not supporting your vocation — they are undermining it.
               </p>
@@ -209,22 +210,22 @@ export default function CatholicDating() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Importance of Shared Faith
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 The Church strongly encourages Catholics to marry other Catholics. This is not snobbery — it is practical wisdom. Marriage is hard. Raising children in the faith is hard. Having a spouse who shares your deepest convictions, who will go to Mass with you, who will pray with you, who will support your faith rather than compete with it, makes an enormous difference.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Mixed marriages (between a Catholic and a non-Catholic Christian) are permitted with a dispensation and can be holy and fruitful. But they require additional intentionality and communication about faith, worship, and the religious upbringing of children. Marriages between a Catholic and a non-Christian require even more careful discernment.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Preparing for Marriage: NFP and Pre-Cana
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 When a Catholic relationship reaches the point of engagement, the Church requires marriage preparation — typically called Pre-Cana. This is not a bureaucratic hurdle but a genuine opportunity to prepare for the sacrament of marriage. Pre-Cana programs cover communication, conflict resolution, finances, sexuality, and the theology of marriage.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 Natural Family Planning (NFP) is an important part of Catholic marriage preparation. NFP is the Church-approved method of family planning that works with the natural cycles of fertility rather than suppressing them with hormones or barriers. Learning NFP before marriage — through programs like the Creighton Model, the Billings Method, or the Sympto-Thermal Method — gives couples a powerful tool for both achieving and avoiding pregnancy while remaining open to life.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center text-lg">

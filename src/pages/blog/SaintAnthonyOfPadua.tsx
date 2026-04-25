@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintAnthonyOfPadua() {
   return (
@@ -76,48 +77,48 @@ export default function SaintAnthonyOfPadua() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Ask any American Catholic who they pray to when they lose something, and the answer is almost always the same: St. Anthony. "Tony, Tony, look around — something's lost and must be found." This simple rhyme, known to Catholics of every generation, points to one of the most beloved saints in the Church's history. But St. Anthony of Padua was far more than the patron of lost keys and misplaced wallets. He was a Doctor of the Church, one of the greatest preachers of the Middle Ages, a passionate defender of the poor, and a man whose holiness was so evident that the Church canonized him less than a year after his death.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Life in Lisbon: Early Years and Augustinian Formation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Fernando Martins de Bulhões was born around 1195 in Lisbon, Portugal, to a noble family. His father was a knight in the service of the Portuguese king, and Fernando received an excellent education. At age fifteen, he entered the Augustinian Canons Regular at the Monastery of São Vicente de Fora in Lisbon. Two years later, seeking greater solitude and freedom from the distractions of visitors, he transferred to the Monastery of Santa Cruz in Coimbra — the intellectual center of Portugal at the time.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 At Coimbra, Fernando spent eight years in intense study of Scripture and theology. He became deeply versed in the Bible and the writings of the Church Fathers — a formation that would later make him one of the most effective preachers of his age. He was ordained a priest during this period and seemed destined for a quiet life of scholarship and prayer.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Everything changed in 1220, when the relics of five Franciscan martyrs — killed in Morocco while preaching the Gospel — were brought to Coimbra. Fernando was deeply moved by their witness and felt called to a more active apostolic life. He sought permission to join the Franciscan Order, which had recently been founded by St. Francis of Assisi, with the intention of going to Morocco as a missionary and dying as a martyr.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Joining the Franciscans and Coming to Padua
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Fernando entered the Franciscan Order in 1220, taking the name Anthony in honor of St. Anthony the Great, the Egyptian hermit. He sailed for Morocco, but illness forced him to turn back. His ship was blown off course and landed in Sicily, where he recovered his health. He then made his way to Assisi for a general chapter of the Franciscan Order, where he met St. Francis himself.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 For a time, Anthony lived in a hermitage near Forli, Italy, doing humble work and seeking obscurity. His extraordinary gifts were revealed almost by accident: at an ordination ceremony in Forli, when the scheduled preacher failed to appear, Anthony was asked to speak — and his sermon astonished everyone present. Word reached St. Francis, who immediately assigned Anthony to preach throughout northern Italy and southern France.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Anthony eventually settled in Padua, in the Veneto region of northern Italy, where he spent the last years of his life preaching, hearing confessions, and caring for the poor. The city of Padua became so associated with him that he is known as "Anthony of Padua" rather than "Anthony of Lisbon," despite being Portuguese by birth.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Extraordinary Preaching Gifts
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Anthony was one of the greatest preachers of the Middle Ages — perhaps of any age. His sermons drew crowds of tens of thousands, forcing him to preach in open fields and public squares because no church could hold the multitudes who came to hear him. He preached in Italian, French, and Latin, and was said to have the gift of tongues — the ability to be understood by people of different languages simultaneously.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 His preaching was not merely eloquent — it was transformative. Hardened sinners wept and converted. Heretics returned to the Church. Feuding families were reconciled. He preached with such authority and conviction that even the fish, according to one famous legend, came to the surface of the water to listen when he preached on the shore — a miracle that occurred when the people of Rimini refused to hear him.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Pope Gregory IX, who heard Anthony preach, called him "the Ark of the Testament" — a reference to his extraordinary knowledge of Scripture. St. Francis of Assisi, who was generally suspicious of intellectual pride among his friars, gave Anthony permission to teach theology to the brothers, writing to him: "I am pleased that you teach sacred theology to the friars, so long as you do not extinguish the spirit of prayer and devotion during study of this kind."
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -129,12 +130,12 @@ export default function SaintAnthonyOfPadua() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Love for the Poor
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Anthony's love for the poor was not merely sentimental — it was prophetic and practical. He preached boldly against the exploitation of the poor by the wealthy, against usury (lending money at excessive interest), and against the hoarding of wealth while others starved. In Padua, he successfully lobbied for a law that protected debtors from imprisonment — a remarkable social achievement for a friar in the 13th century.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 He also practiced what he preached. He lived in radical poverty, ate sparingly, and gave away whatever he received. He was known to spend long hours hearing the confessions of the poor and the marginalized, treating them with the same dignity and attention he gave to the wealthy and powerful. His care for the poor was an expression of his conviction that Christ was present in every suffering person.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How strong is your devotion to the saints?"
@@ -144,22 +145,22 @@ export default function SaintAnthonyOfPadua() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why He Is Patron of Lost Things: The Story of the Stolen Psalter
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 The tradition of invoking St. Anthony for lost items comes from a specific incident in his life. A novice who had been living with Anthony decided to leave the Franciscan Order and, as he departed, took with him a psalter — a book of psalms — that Anthony had been using for his studies and that contained his personal annotations and notes.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Anthony prayed for the return of the book, and the novice — moved by a sudden interior compulsion — returned both the psalter and himself to the friary. The book was recovered, and the novice eventually persevered in his vocation. This story gave rise to the tradition of praying to St. Anthony for the recovery of lost items — and, more broadly, for the recovery of lost souls.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 The deeper meaning of his patronage over lost things is spiritual: Anthony is the patron not just of lost objects but of lost people — those who have wandered from the faith, those who have lost their way in life, those who are searching for meaning and purpose. His intercession is sought for the conversion of sinners and the return of those who have left the Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Responsory of St. Anthony: Si Quaeris Miracula
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 One of the most beautiful prayers associated with St. Anthony is the "Responsory of St. Anthony," known by its Latin opening words: "Si quaeris miracula" — "If you seek miracles." This prayer was composed shortly after Anthony's death and catalogues the miracles attributed to his intercession. It is still sung in Franciscan churches on his feast day and is one of the most beloved prayers in the Franciscan tradition.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4 text-center">Si Quaeris Miracula (Responsory of St. Anthony)</h3>
@@ -183,12 +184,12 @@ export default function SaintAnthonyOfPadua() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Death at 36 and Canonization Within a Year
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Anthony died on June 13, 1231, at the age of 35 or 36, at the Franciscan friary of Arcella, near Padua. He had been suffering from ergotism — a disease caused by a fungal infection of grain — and had gone to Arcella to rest. He died peacefully, reportedly singing the hymn "O gloriosa Domina" (O Glorious Lady) in honor of the Virgin Mary.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 The speed of his canonization is remarkable: he was canonized by Pope Gregory IX on May 30, 1232 — less than a year after his death. This was one of the fastest canonizations in Church history, reflecting the universal recognition of his holiness and the extraordinary miracles that immediately began occurring at his tomb. In 1946, Pope Pius XII declared him a Doctor of the Church, recognizing the theological depth and universal significance of his preaching and writings.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -200,12 +201,12 @@ export default function SaintAnthonyOfPadua() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The "Bread of St. Anthony" Tradition
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 One of the most beautiful traditions associated with St. Anthony is the "Bread of St. Anthony" (Pane di Sant'Antonio). This tradition began in 1263, when a child drowned near the Basilica of St. Anthony in Padua. The child's mother prayed to Anthony and promised to give to the poor a quantity of bread equal to the weight of her child if he was restored to life. The child was miraculously revived, and the mother fulfilled her promise.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Since then, Catholics around the world have maintained the tradition of giving bread — or money for bread — to the poor in thanksgiving for favors received through Anthony's intercession. Many parishes have a "St. Anthony's Bread" box where parishioners can donate food or money for the poor. The tradition is a beautiful expression of the connection between Anthony's intercession and his love for the poor: when he helps us find what we have lost, we respond by helping those who have nothing.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Prayer to St. Anthony of Padua
@@ -230,12 +231,12 @@ export default function SaintAnthonyOfPadua() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 His Feast Day: June 13
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 The feast of St. Anthony of Padua is celebrated on June 13, the anniversary of his death in 1231. It is one of the most widely celebrated feast days in the Catholic calendar, observed with special Masses, processions, and devotions in parishes around the world. In many Italian-American communities, the feast of St. Anthony is a major cultural and religious celebration, with outdoor processions, the blessing of bread, and special prayers for his intercession.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 The Basilica of St. Anthony in Padua — known simply as "Il Santo" — is one of the most visited pilgrimage sites in the world, receiving millions of visitors each year. His relics, including his incorrupt tongue (which was found perfectly preserved when his body was exhumed in 1263), are enshrined there and venerated by pilgrims from every nation. The tongue's preservation was seen as a sign of the extraordinary gift of preaching that God had given him in life.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

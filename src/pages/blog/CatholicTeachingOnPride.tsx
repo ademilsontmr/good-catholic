@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnPride() {
   return (
@@ -59,61 +60,61 @@ export default function CatholicTeachingOnPride() {
               <Shield className="w-24 h-24 text-red-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 In an age that celebrates self-promotion, personal branding, and the relentless assertion of one's own worth, the Catholic teaching on pride can seem countercultural — even offensive. But the Church's wisdom on this subject is not a counsel of self-hatred or passivity. It is a diagnosis of the deepest disorder in the human heart, and a path toward the freedom that only humility can bring.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Pride? The Disordered Love of One's Own Excellence</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 Pride, in the Catholic tradition, is not the same as healthy self-respect, legitimate satisfaction in one's work, or the joy of a parent in a child's achievement. These are good and natural. Pride, as a capital sin, is something far more dangerous: it is the disordered love of one's own excellence — the exaltation of self above God and above others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 Saint Thomas Aquinas defined pride as the inordinate desire for one's own excellence. The key word is "inordinate" — out of order, disproportionate, disordered. The proud person does not simply recognize their gifts; they attribute those gifts to themselves rather than to God, and they use them as a basis for placing themselves above others or above God's law.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 Pope Gregory the Great, who systematized the seven capital sins in the sixth century, called pride the "queen of all vices" — not one sin among others, but the root from which all other sins spring. When we sin, we are ultimately saying: "My will, not Thine." That is pride. Every sin, at its core, is an act of self-exaltation over God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catechism on Pride</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 The Catechism of the Catholic Church addresses pride in several key passages. CCC 1866 lists pride among the seven capital sins — those sins that "engender other sins and vices." The Catechism notes that the capital sins are called "capital" not because they are the most serious in themselves, but because they are the source and origin of other sins.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 CCC 2094 addresses pride in the context of the first commandment, describing it as one of the sins against the love of God: "Pride is the disordered exaltation of oneself, which can lead to contempt of God and his commandments." This is the theological heart of the matter: pride is not merely a social failing but a theological one — it is a disorder in our relationship with God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 CCC 2540 connects pride to envy, noting that "the devil's envy of man's blessedness" was itself rooted in pride. The Catechism quotes Saint Augustine: "It was pride that changed angels into devils; it is humility that makes men as angels."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Fall of Lucifer: "Non Serviam"</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 The archetypal act of pride in Catholic tradition is the fall of Lucifer. The prophet Isaiah captures it in a passage the Church has always read as describing the fall of Satan: "How you have fallen from heaven, morning star, son of the dawn! You have been cast down to the earth... You said in your heart, 'I will ascend to the heavens; I will raise my throne above the stars of God... I will make myself like the Most High'" (Isaiah 14:12-14).
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The tradition summarizes Lucifer's sin in two Latin words: <em>Non serviam</em> — "I will not serve." This is the essence of pride: the refusal to acknowledge one's creaturely dependence on God, the insistence on autonomy, the desire to be one's own ultimate authority. Lucifer was the most glorious of creatures, endowed with extraordinary beauty and intelligence. But he turned his gaze from God to himself, and in that turning, he fell.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 The Catechism (CCC 391-392) teaches that the fall of the angels was a "free and irrevocable" choice — a definitive rejection of God and his reign. Pride, when it reaches its ultimate expression, is not a momentary weakness but a fundamental orientation of the will away from God and toward the self.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Fall of Adam and Eve: "You Will Be Like God"</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 The same dynamic plays out in the Garden of Eden. The serpent's temptation is precisely an appeal to pride: "You will not certainly die... For God knows that when you eat from it your eyes will be opened, and you will be like God, knowing good and evil" (Genesis 3:4-5). The temptation is not merely to eat a piece of fruit — it is to grasp at equality with God, to claim the right to determine for oneself what is good and evil, to be autonomous from God's law.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 This is why the Church Fathers saw the sin of Adam and Eve as fundamentally a sin of pride. They were not content to be creatures made in God's image; they wanted to be God. They wanted to be the source of their own moral authority rather than receiving it from their Creator. In this, they echoed Lucifer's <em>Non serviam</em>.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 The consequences were catastrophic: the loss of sanctifying grace, the darkening of the intellect, the weakening of the will, the disorder of the passions, and the introduction of suffering and death into human experience. Original sin — and all its effects — flows from this primordial act of pride.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Seven Capital Sins and Why Pride Is First</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 The seven capital sins — pride, greed, lust, envy, gluttony, wrath, and sloth — are not a random list. They are a map of the disordered desires that lead human beings away from God. And pride is listed first not merely by convention but because it is the root of all the others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 Consider how pride generates the other sins. Greed is pride applied to possessions — the belief that I deserve more, that my comfort and status are paramount. Envy is pride wounded — the resentment that arises when another's excellence threatens my sense of superiority. Wrath is pride defending itself — the rage that erupts when my will is thwarted or my dignity is challenged. Lust, gluttony, and sloth all involve placing one's own pleasure or comfort above God's law — which is, at root, a form of self-exaltation.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Saint John Climacus, the seventh-century monk and author of <em>The Ladder of Divine Ascent</em>, called pride "the denial of God, an invention of the devil, contempt for men, the mother of condemnation, the offspring of praise, a sign of barrenness of soul." It is the last and most dangerous of the vices to be overcome, because it can disguise itself as virtue — even as spiritual progress.
               </p>
@@ -124,9 +125,9 @@ export default function CatholicTeachingOnPride() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Pride Manifests Today</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 Pride is not merely an ancient theological problem. It is the defining spiritual pathology of our age. Consider some of its contemporary manifestations:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Social media vanity.</strong> The entire architecture of social media is designed to feed pride — the constant performance of the self for an audience, the pursuit of likes and followers as a measure of worth, the carefully curated image that presents an idealized version of oneself. The spiritual danger is not in using social media but in allowing it to become a mirror in which we worship our own reflection.
               </p>
@@ -138,20 +139,20 @@ export default function CatholicTeachingOnPride() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Antidote: Humility</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 The antidote to pride is humility — but humility is widely misunderstood. It is not self-deprecation, the denial of one's gifts, or the performance of lowliness. Saint Teresa of Ávila defined humility simply as "walking in truth" — seeing oneself accurately, neither inflating nor deflating one's worth.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 True humility recognizes that everything we have — our intelligence, our talents, our beauty, our achievements — is a gift from God. "What do you have that you did not receive?" asks Saint Paul. "And if you did receive it, why do you boast as though you did not?" (1 Corinthians 4:7). The humble person does not deny their gifts; they attribute them to their true source and use them in service of God and others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 Jesus himself is the model of humility. The eternal Son of God, through whom all things were made, "did not consider equality with God something to be used to his own advantage; rather, he made himself nothing by taking the very nature of a servant" (Philippians 2:6-7). The Incarnation itself is an act of divine humility — God becoming a creature, a baby, a refugee, a carpenter, a condemned man. The Cross is the ultimate refutation of pride.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Ways to Combat Pride</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 The spiritual tradition offers concrete practices for growing in humility and combating pride:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>The daily examen.</strong> Saint Ignatius of Loyola's practice of reviewing the day in God's presence — noticing where we acted well and where we fell short — is a powerful antidote to pride. It keeps us honest about our failures and grateful for our successes, attributing both to God's grace.
               </p>

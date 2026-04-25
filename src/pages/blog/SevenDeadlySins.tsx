@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SevenDeadlySins() {
   return (
@@ -256,9 +257,9 @@ export default function SevenDeadlySins() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Actually Overcome the Deadly Sins
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-deadly-sins">
                 The Church has always taught that vices are not overcome by willpower alone — they are conquered by the theological and cardinal virtues, which are themselves gifts of grace. Here is a practical pathway:
-              </p>
+              </LinkedText>
               <ul className="list-decimal list-inside text-text space-y-4 mb-6">
                 <li>
                   <strong>Identify your dominant fault.</strong> Most people have one or two capital sins that are their particular weakness — the one that feeds most of their other sins. Ask your confessor to help you identify it. Knowing your enemy is essential.

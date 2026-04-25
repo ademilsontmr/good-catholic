@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DivorcedCatholicCommunion() {
   return (
@@ -60,29 +61,29 @@ export default function DivorcedCatholicCommunion() {
             </div>
             <div className="prose prose-lg max-w-none">
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 Few questions cause more pastoral confusion — and more personal anguish — than this one. Divorced Catholics often feel caught between their love for the Eucharist and uncertainty about whether they are permitted to receive it. The Church's teaching is clear, but it requires careful explanation. This article presents that teaching faithfully, with compassion for those who are living through the pain of a broken marriage.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Short Answer: It Depends on Your Situation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 The Church's teaching on this question is not a blanket prohibition on all divorced Catholics receiving Communion. The answer depends entirely on your specific situation. There are two fundamentally different cases:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Divorced but not remarried:</strong> You can receive Holy Communion.</li>
                 <li><strong>Divorced and civilly remarried without an annulment:</strong> You cannot receive Holy Communion while remaining in that situation.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 Understanding why the Church makes this distinction requires understanding what the Church teaches about marriage, the Eucharist, and the nature of mortal sin.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Divorced but Not Remarried: Full Access to the Sacraments</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 A Catholic who is civilly divorced but has not entered a new union is in full communion with the Church. Civil divorce alone does not affect your sacramental status. You are not excommunicated. You are not barred from the sacraments. You can and should receive Holy Communion, provided you are in a state of grace (free from mortal sin).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 The Catechism acknowledges the painful reality of marital breakdown while upholding the indissolubility of marriage:
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -91,20 +92,20 @@ export default function DivorcedCatholicCommunion() {
                 <p className="text-text-muted text-sm">— Catechism of the Catholic Church, §1649</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 This passage is important. The Church recognizes that civil separation and divorce can be morally permissible — even necessary — in certain circumstances. What the Church does not recognize is the civil divorce as dissolving the sacramental bond. In God's eyes, the divorced Catholic who has not remarried is still married to their spouse. They are called to live chastely and to remain open to reconciliation if possible.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 A divorced Catholic who is living chastely — not in a new sexual relationship — can receive Holy Communion, go to Confession, serve as a godparent, and participate fully in the life of the Church. The Church does not treat civil divorce as a sin in itself; it recognizes that sometimes it is the only practical option in a difficult situation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Divorced and Remarried Without an Annulment: The Church's Teaching</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 The situation changes significantly when a divorced Catholic enters a new civil union without first obtaining a Declaration of Nullity from the Church. In this case, the Church teaches that the person is in an irregular situation — one that objectively contravenes God's law.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 The reason is rooted in the words of Jesus himself. In the Gospel of Mark (10:11-12), Jesus says: "Whoever divorces his wife and marries another commits adultery against her; and if she divorces her husband and marries another, she commits adultery." The Church takes these words seriously. If the first marriage was valid, then the second union — however sincere the love between the parties — is not recognized as a valid marriage by the Church.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -113,12 +114,12 @@ export default function DivorcedCatholicCommunion() {
                 <p className="text-text-muted text-sm">— Catechism of the Catholic Church, §1650</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 The Catechism continues: "Reconciliation through the sacrament of Penance can be granted only to those who have repented for having violated the sign of the covenant and of fidelity to Christ, and who are committed to living in complete continence" (CCC 1650).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 This is the Church's clear and consistent teaching, rooted in the words of Christ himself. It is not a disciplinary rule that can be changed by a bishop or a pope — it is a moral teaching that flows from the nature of marriage as an indissoluble sacrament.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you understand the Catholic teaching on the Eucharist?"
@@ -147,37 +148,37 @@ export default function DivorcedCatholicCommunion() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Path to Communion for the Remarried</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 For a divorced and civilly remarried Catholic who wishes to return to full sacramental communion with the Church, there are two paths:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>1. Obtain a Declaration of Nullity:</strong> If the first marriage was invalid — if the essential elements of a valid marriage were absent — the Church can declare it null. This frees both parties to marry validly in the Church. If you believe your first marriage may have been invalid, speak with your pastor about beginning the annulment process.
               </p>
               <p className="text-text leading-relaxed mb-6">
                 <strong>2. Live as "Brother and Sister":</strong> The Catechism (CCC 1650) acknowledges that in some cases, divorced and remarried Catholics cannot separate — for example, because of children who need both parents present. In such cases, the Church permits them to remain in the civil union while abstaining from sexual relations. This arrangement — sometimes called living as "brother and sister" — allows them to receive the sacraments while remaining in the civil marriage for serious reasons.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 This second path requires genuine commitment and is not to be undertaken lightly. It should be discerned with a confessor or spiritual director.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pastoral Accompaniment: The Church's Approach</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 The Church's teaching on this matter is firm — but the Church's pastoral approach is one of compassion, not condemnation. Divorced and remarried Catholics are not excommunicated. They are not to be treated as outcasts or made to feel unwelcome in their parishes.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 The Catechism calls the Church to show "attentive solicitude" to those in irregular situations (CCC 1651). They can and should attend Mass. They can pray, participate in parish life, serve in many ministries, and receive spiritual direction. They are members of the Body of Christ, even if they cannot receive Holy Communion in their current situation.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope St. John Paul II wrote in <em>Familiaris Consortio</em> (1981): "Together with the Synod, I earnestly call upon pastors and the whole community of the faithful to help the divorced, and with solicitous care to make sure that they do not consider themselves as separated from the Church, for as baptized persons they can, and indeed must, share in her life" (§84).
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Importance of Confession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 If you are in an irregular situation and are uncertain about your sacramental status, the most important thing you can do is speak with a priest in the Sacrament of Confession. A good confessor will listen to your specific circumstances, help you understand the Church's teaching as it applies to your situation, and guide you toward the path of healing and reconciliation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 Do not let fear or shame keep you away from the confessional. The priest is there as an instrument of God's mercy, not as a judge. The Church wants you to find your way back to full communion — and the confessional is the place where that journey begins.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -187,12 +188,12 @@ export default function DivorcedCatholicCommunion() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Word of Hope</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 The Church's teaching on this matter can feel hard — even painful — for those who are living in irregular situations. But it is rooted in love: love for the truth of marriage as God designed it, love for the dignity of the Eucharist, and love for the souls of those who are struggling.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 God's mercy is infinite. No situation is beyond His reach. If you are a divorced Catholic who has drifted from the sacraments, know that the Church is waiting for you with open arms. Speak with a priest. Begin the annulment process if it applies to your situation. Take the next step toward full communion. The Lord is patient, and He is waiting.
-              </p>
+              </LinkedText>
 
             </div>
 

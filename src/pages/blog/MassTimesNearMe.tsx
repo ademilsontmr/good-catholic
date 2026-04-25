@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MassTimesNearMe() {
   return (
@@ -71,9 +72,9 @@ export default function MassTimesNearMe() {
               <p className="text-text leading-relaxed mb-6">
                 <strong>MassTimes.org</strong> is the most comprehensive Catholic Mass finder in the world. It covers over 100,000 parishes in more than 60 countries. Simply enter your city, zip code, or address and it returns a list of nearby parishes with their Mass schedules, confession times, and contact information.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 MassTimes.org also has a mobile app (iOS and Android) that uses your phone's GPS to find the nearest Mass — perfect for travelers. You can filter by language (Spanish, Latin, Vietnamese, etc.), by rite (Roman, Byzantine, etc.), and by time of day.
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text font-semibold mb-1">🌐 MassTimes.org</p>
                 <p className="text-text text-sm">Free website and app. Covers 60+ countries. Filter by language, rite, and time. The most reliable Mass finder available.</p>
@@ -85,17 +86,17 @@ export default function MassTimesNearMe() {
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">3. Google Maps</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 Simply search "Catholic church near me" in Google Maps. This will show you all nearby Catholic parishes with their addresses, phone numbers, websites, and often their Mass schedules (pulled from their Google Business profiles). You can also search "Catholic Mass near me" or "Sunday Mass near me."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 Tip: Always verify the Mass schedule directly with the parish, as Google Maps information is not always up to date. Call the parish office or check their website.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">4. Your Diocese Website</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 Every Catholic diocese has a website with a parish finder. Search "[your city] Catholic diocese" to find your local diocese's website, then use their parish locator. This is often the most accurate source for Mass schedules, as parishes update their diocesan listings regularly.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">5. The USCCB Parish Finder (USA)</h3>
               <p className="text-text leading-relaxed mb-6">
@@ -108,9 +109,9 @@ export default function MassTimesNearMe() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Catholic Mass Schedule</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 Catholic parishes typically offer Mass on the following schedule:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Sunday Mass:</strong> The most important Mass of the week. Most parishes offer multiple Sunday Masses — often at 7am, 9am, 11am, and sometimes 5pm or 7pm. Sunday Mass fulfills the Sunday obligation.</li>
                 <li><strong>Saturday Vigil Mass:</strong> A Mass celebrated on Saturday evening (usually 4pm or 5pm) that fulfills the Sunday obligation. This is a popular option for those who cannot attend Sunday morning.</li>
@@ -119,26 +120,26 @@ export default function MassTimesNearMe() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Finding Confession Times</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 Most parishes offer Confession (the Sacrament of Reconciliation) on Saturday afternoons, typically 30-60 minutes before the Saturday Vigil Mass. Some parishes also offer Confession before daily Mass or by appointment.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 To find Confession times near you:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Check MassTimes.org — it includes Confession times for most parishes</li>
                 <li>Call the parish office directly</li>
                 <li>Check the parish website</li>
                 <li>Ask at the end of Mass — the priest or a parishioner will know</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 If you cannot find Confession at a convenient time, call the parish office and ask to schedule an appointment. Priests are always willing to hear Confession by appointment — don't let scheduling be a barrier.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Finding Mass When Traveling</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 One of the great gifts of being Catholic is that you can attend Mass anywhere in the world. The Mass is the same in every country — the same structure, the same prayers, the same Eucharist. When traveling:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Use MassTimes.org</strong> before you leave — search for parishes near your destination and note the Mass times.</li>
                 <li><strong>Download the Laudate app</strong> — it works internationally and uses GPS to find the nearest Mass.</li>
@@ -156,9 +157,9 @@ export default function MassTimesNearMe() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Catholic Mass Online</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 While online Mass does not fulfill the Sunday obligation (unless you are genuinely unable to attend in person due to illness, disability, or other serious reason), it can be a valuable supplement to your faith life. Reliable sources for online Mass include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>EWTN (ewtn.com)</strong> — the global Catholic television network, offering daily Mass live and on demand</li>
                 <li><strong>Word on Fire (wordonfire.org)</strong> — Bishop Robert Barron's ministry, with daily Mass and homilies</li>
@@ -167,9 +168,9 @@ export default function MassTimesNearMe() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Expect at Your First Mass (or First Mass Back)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mass-times-near-me">
                 If you are attending Mass for the first time or returning after a long absence, here is what to expect:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Arrive a few minutes early</strong> to find a seat and collect your thoughts. Many parishes have a missalette (booklet with the Mass prayers) in the pew.</li>
                 <li><strong>Dress modestly</strong> — you are entering the presence of God. Business casual or better is appropriate.</li>

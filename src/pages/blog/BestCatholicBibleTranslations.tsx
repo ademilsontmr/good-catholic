@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function BestCatholicBibleTranslations() {
   return (
@@ -82,22 +83,22 @@ export default function BestCatholicBibleTranslations() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Translation Matters for Catholics
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="best-catholic-bible-translations">
                 The Bible was not written in English. The Old Testament was written primarily in Hebrew (with some Aramaic), and the New Testament in Greek. Every English Bible is a translation — and every translation involves choices: how literally to render the original, which manuscripts to use, how to handle idioms and poetry, and how to balance accuracy with readability.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 For Catholics, there is an additional consideration: the <strong>canon</strong>. The Catholic Bible contains <strong>73 books</strong>, while most Protestant Bibles contain only 66. The seven additional books — called the <strong>Deuterocanonical books</strong> — are Tobit, Judith, 1 Maccabees, 2 Maccabees, Wisdom (of Solomon), Sirach (Ecclesiasticus), and Baruch. These books are found in the ancient Greek translation of the Old Testament (the Septuagint) and were part of the Bible used by the early Church.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="best-catholic-bible-translations">
                 When Martin Luther compiled his German Bible in the 16th century, he removed these books (placing them in an appendix called the "Apocrypha"), following the Hebrew canon of the rabbis at Jamnia. The Catholic Church, at the Council of Trent (1546), formally defined the 73-book canon as the authentic Scripture. Any Bible that omits these books is not a complete Catholic Bible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The 7 Deuterocanonical Books: What They Contain
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="best-catholic-bible-translations">
                 Before comparing translations, it helps to know what these seven books actually contain — because they are some of the most spiritually rich texts in all of Scripture:
-              </p>
+              </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-2 text-text">
                 <li><strong>Tobit</strong> — A beautiful story of faith, family, and the role of angels in human life. Contains the prayer of Tobias and Sarah, and the teaching on marriage.</li>
                 <li><strong>Judith</strong> — The story of a courageous widow who saves her people from an Assyrian general. A meditation on faith and courage.</li>
@@ -190,9 +191,9 @@ export default function BestCatholicBibleTranslations() {
                 </div>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="best-catholic-bible-translations">
                 The best advice is to own more than one translation. Use the NABRE to follow along at Mass. Use the RSV-CE for study and apologetics. Keep a Douay-Rheims for traditional prayers and devotions. The Word of God is inexhaustible — reading it in multiple translations only deepens your understanding.
-              </p>
+              </LinkedText>
 
             </div>
 

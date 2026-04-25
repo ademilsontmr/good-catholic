@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicLivingSecularWorld() {
   return (
@@ -64,39 +65,39 @@ export default function CatholicLivingSecularWorld() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The early Christians lived in a Roman Empire that was hostile to their faith. They were a minority. They were misunderstood. They were persecuted. Yet within three centuries, they had transformed the entire civilization. They did not do this by hiding their faith or compromising their convictions. They did it by living their faith with joy, courage, and love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 Today's Catholics face a different kind of challenge — not physical persecution (in most of the Western world), but cultural pressure. The secular world does not understand Catholic teaching on marriage, sexuality, life, or God. It often dismisses or ridicules these beliefs. How do you remain faithful in this environment?
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Challenge</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The first step is to understand what you are actually facing. Secularism is not simply the absence of religion — it is a worldview that holds that human reason and science are sufficient to explain reality and guide human life, without reference to God or the supernatural.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 In a secular culture, Catholic beliefs are not just different — they are often seen as irrational, harmful, or oppressive. This creates real pressure on Catholics to either hide their faith or abandon it. Many Catholics — especially young people — drift away from the Church not because of a dramatic crisis of faith, but because of the slow, steady pressure of a culture that treats faith as irrelevant.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 Understanding this helps you respond wisely. You are not fighting against individual people — you are navigating a cultural current. And the best way to navigate a current is not to fight it head-on, but to know where you are going and keep swimming.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">1. Know What You Believe and Why</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The most important thing you can do is know your faith deeply. Not just the rules, but the reasons. Not just what the Church teaches, but why — the beautiful, coherent vision of reality that underlies Catholic teaching.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 Many Catholics leave the Church because they never understood it deeply enough to defend it. When someone challenges their beliefs, they have no answer. When the culture offers an attractive alternative, they have no compelling reason to stay.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 Invest in your Catholic education. Read the Catechism. Study Catholic apologetics. Read the writings of the saints and the great Catholic thinkers — Augustine, Aquinas, Newman, Chesterton, John Paul II. The more deeply you understand your faith, the more confident and joyful you will be in living it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">2. Build a Strong Spiritual Foundation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 You cannot live your faith in a secular world on willpower alone. You need grace. And grace comes through the sacraments, prayer, and the Word of God.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Mass every Sunday</strong> — and more often if possible. The Eucharist is the source and summit of Catholic life. Without it, your faith will wither.</li>
                 <li><strong>Regular Confession</strong> — at least monthly. Confession heals the wounds of sin and gives you the grace to resist temptation.</li>
@@ -111,9 +112,9 @@ export default function CatholicLivingSecularWorld() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">3. Find Your Catholic Community</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 No one can live the Catholic faith alone. You need a community of fellow believers who share your values, support your faith, and hold you accountable. Without community, the pressure of the secular world will eventually wear you down.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Look for:
               </p>
@@ -126,20 +127,20 @@ export default function CatholicLivingSecularWorld() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">4. Be a Witness, Not a Preacher</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The most effective Catholic witness in a secular world is not argument — it is life. When people see a Catholic who is genuinely joyful, loving, honest, and at peace, they are drawn to ask: "What do you have that I don't?"
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 Pope Paul VI famously said: "Modern man listens more willingly to witnesses than to teachers, and if he does listen to teachers, it is because they are witnesses." Your life is your most powerful argument for the faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 This does not mean you should never speak about your faith. But it means that your words will only be heard if they are backed by a life that is visibly different — more loving, more joyful, more at peace than the world around you.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">5. Navigate Difficult Conversations with Grace</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 You will face challenging conversations about your faith — at work, at family gatherings, on social media. Here are some principles for navigating them well:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Listen first.</strong> Before defending your position, genuinely listen to understand the other person's perspective. People are more open to hearing you when they feel heard.</li>
                 <li><strong>Ask questions.</strong> Instead of immediately defending Catholic teaching, ask questions that help the other person think more deeply: "What do you mean by that?" "How did you come to that conclusion?"</li>
@@ -149,9 +150,9 @@ export default function CatholicLivingSecularWorld() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">6. Protect Your Mind and Heart</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The secular world constantly bombards you with messages that contradict Catholic values — through entertainment, social media, advertising, and news. You cannot avoid all of this, but you can be intentional about what you consume.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Be selective about media.</strong> Not all entertainment is harmful, but some is. Be honest with yourself about what is building you up and what is tearing you down.</li>
                 <li><strong>Limit social media.</strong> Social media is designed to be addictive and to provoke outrage. Limit your time on it and be intentional about what you follow.</li>
@@ -160,15 +161,15 @@ export default function CatholicLivingSecularWorld() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">7. Embrace the Cross</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 Jesus promised His followers: "In the world you will have tribulation. But take heart; I have overcome the world" (John 16:33). Living as a Catholic in a secular world will involve suffering — misunderstanding, rejection, loneliness, and sometimes real persecution.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The temptation is to avoid this suffering by compromising your faith — by going along with the culture, by staying silent when you should speak, by abandoning practices that make you stand out. But this path leads to a slow death of faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 Instead, embrace the cross. Offer your sufferings to God. Unite them to the suffering of Christ. Trust that God is using even the difficulties of living your faith in a secular world to purify you and make you holy.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">
@@ -178,12 +179,12 @@ export default function CatholicLivingSecularWorld() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">8. Remember: You Are Not Alone</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 There are over 1.3 billion Catholics in the world. You are part of the largest and oldest institution in human history. You have the prayers of the saints, the guidance of the Holy Spirit, and the presence of Jesus in the Eucharist. You are never alone.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The Church has survived Roman persecution, the fall of empires, the Black Death, the Protestant Reformation, the French Revolution, Nazism, and Communism. She will survive secularism too. And you — by living your faith faithfully in your corner of the world — are part of that survival and renewal.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

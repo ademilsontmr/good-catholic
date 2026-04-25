@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintKateriTekakwitha() {
   return (
@@ -64,45 +65,45 @@ export default function SaintKateriTekakwitha() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Kateri Tekakwitha was born in 1656 in Ossernenon (present-day Auriesville, New York) — the same village where the Jesuit martyrs Isaac Jogues and his companions had been killed just a decade earlier. She died at the age of 24, having lived a life of extraordinary holiness in the most difficult of circumstances. Three centuries after her death, the Catholic Church declared her a saint — the first Native American to receive that honor.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Her story is not just a story of personal holiness. It is a story of the encounter between the Catholic faith and the indigenous peoples of North America — an encounter that was often marked by violence and injustice, but that also produced, in Kateri, a flower of extraordinary beauty.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life: Suffering and Survival</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Kateri was born to a Mohawk father and a Christian Algonquin mother who had been captured by the Mohawks. Her mother had been baptized and raised as a Christian before her capture, and she passed on to her daughter a love of prayer and a sense of the sacred — even though Kateri herself was not baptized as a child.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 When Kateri was about four years old, a smallpox epidemic swept through her village. Both her parents and her infant brother died. Kateri survived, but the disease left her with severely weakened eyesight and a scarred face. She was taken in by her uncle, who became the chief of the village.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Growing up in her uncle's household, Kateri was expected to work hard and to marry. But she showed no interest in marriage and spent much of her time in prayer and solitude. She was drawn to the Christian faith she had heard about from her mother and from the Jesuit missionaries who occasionally visited the village.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Encounter with the Jesuits</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 In 1667, three Jesuit missionaries — including Father Jacques de Lamberville — came to Kateri's village. They stayed in her uncle's longhouse, and Kateri had the opportunity to speak with them at length. She was deeply moved by their teaching about Jesus Christ and the Catholic faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 For several years, Kateri continued to learn about the faith while facing significant opposition from her family and community. Her uncle was hostile to Christianity, and Kateri was mocked and mistreated for her interest in the new religion. She was denied food on Sundays when she refused to work, and she was accused of immoral behavior — accusations that were entirely false.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Despite these obstacles, Kateri's faith only grew stronger. On Easter Sunday, April 18, 1676 — when she was about 20 years old — she was baptized by Father de Lamberville and given the Christian name Kateri (Catherine), after St. Catherine of Siena.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Persecution and Flight</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 After her baptism, Kateri's situation became increasingly difficult. Her family and neighbors intensified their persecution. She was threatened, harassed, and accused of witchcraft. A man was sent to her with a tomahawk, threatening to kill her if she did not abandon her faith. She refused.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 In the autumn of 1677, Kateri fled her village with the help of two Christian Mohawks and a French trader. She made the dangerous journey of nearly 200 miles to the mission of Saint Francis Xavier at Kahnawake (near present-day Montreal, Canada) — a Christian village established by the Jesuits for Native American converts.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 At Kahnawake, Kateri finally found a community where she could live her faith freely. She threw herself into the life of the mission with extraordinary fervor — attending Mass daily, spending long hours in prayer before the Blessed Sacrament, caring for the sick and elderly, and practicing severe penances.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -110,48 +111,48 @@ export default function SaintKateriTekakwitha() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life at Kahnawake: Holiness in Community</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 At Kahnawake, Kateri made her First Communion on Christmas Day, 1677. She was deeply moved by the Eucharist and received Communion as often as the Jesuits permitted — which, in the 17th century, was not as frequently as we might expect.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Kateri formed a close friendship with a widow named Marie-Thérèse Tegaiaguenta, and together they dreamed of founding a community of Native American women dedicated to God. The Jesuits discouraged this plan, fearing it was premature, but Kateri's desire for consecrated life was genuine and deep.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 On the feast of the Annunciation, March 25, 1679, Kateri made a vow of perpetual virginity — an extraordinary act for a young Mohawk woman in a culture where marriage and children were the expected path for every woman. She was the first Native American woman known to have made such a vow.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Kateri's penances were severe — perhaps too severe. She fasted rigorously, walked barefoot in the snow, and practiced other mortifications that weakened her already fragile health. The Jesuits tried to moderate her penances, but her desire to unite herself to the suffering of Christ was irresistible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Death and the Miracle of the Transformed Face</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Kateri's health declined rapidly in the winter of 1679-1680. She died on April 17, 1680 — Wednesday of Holy Week — at the age of 24. Her last words were: "Jesus, I love you."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 What happened immediately after her death became one of the most remarkable testimonies to her holiness. Within minutes of her death, the smallpox scars that had disfigured her face since childhood disappeared completely. Those present — including the Jesuit missionaries — reported that her face became radiant and beautiful, as if transformed by the glory of God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Father Claude Chauchetière, one of the Jesuits who knew her well, wrote: "This face, so marked and so swarthy, suddenly changed about a quarter of an hour after her death, and became in a moment so beautiful and so white that I immediately noticed it... and I cried out at once, so great was my surprise."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 News of this miracle spread quickly, and Kateri's tomb at Kahnawake became a place of pilgrimage almost immediately. Reports of healings and miracles multiplied. Her reputation for holiness spread throughout New France and eventually to Europe.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Beatification and Canonization</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 The formal process for Kateri's canonization was long. She was declared Venerable in 1943 by Pope Pius XII. Pope John Paul II beatified her on June 22, 1980 — the 300th anniversary of her death — in a ceremony attended by thousands of Native Americans from across North America.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 The miracle required for her canonization involved the healing of a young boy named Jake Finkbonner, a member of the Lummi Nation in Washington State. In 2006, Jake contracted a flesh-eating bacterial infection (necrotizing fasciitis) that was rapidly destroying his face. His family prayed to Blessed Kateri, and his recovery — which doctors described as medically inexplicable — was accepted by the Vatican as the miracle required for canonization.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Pope Benedict XVI canonized Kateri Tekakwitha on October 21, 2012, in St. Peter's Square in Rome. She was canonized alongside five others, including Marianne Cope — another American saint. Thousands of Native Americans attended the ceremony, many in traditional dress.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Patronages and Feast Day</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Saint Kateri Tekakwitha is the patron saint of:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Native Americans and indigenous peoples</li>
                 <li>Ecology and the environment</li>
@@ -159,14 +160,14 @@ export default function SaintKateriTekakwitha() {
                 <li>People ridiculed for their piety</li>
                 <li>Canada (co-patron)</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Her feast day is July 14 in the United States and Canada (April 17 in the universal Roman Calendar — the date of her death).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Kateri Matters for American Catholics</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Saint Kateri Tekakwitha is significant for American Catholics for several reasons:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>She is the first Native American saint.</strong> Her canonization was a historic moment for the indigenous peoples of North America and for the Catholic Church in the United States.</li>
                 <li><strong>She shows the universality of holiness.</strong> Kateri was not a European missionary or a member of a religious order. She was a young Mohawk woman who found Christ in the most difficult of circumstances and responded with extraordinary love. Her holiness transcends culture and ethnicity.</li>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToOvercomeSin() {
   return (
@@ -59,38 +60,38 @@ export default function HowToOvercomeSin() {
               <Shield className="w-24 h-24 text-emerald-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 St. Paul wrote: "I do not understand what I do. For what I want to do I do not do, but what I hate I do" (Romans 7:15). Every honest Catholic recognizes this experience. We know what is right. We want to do what is right. And yet we fall — sometimes into the same sins, over and over again.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The Catholic tradition does not offer a quick fix for sin. But it does offer something far better: a complete, proven, grace-filled path to genuine conversion and growth in holiness. This guide walks through that path — from understanding sin to using the sacraments, prayer, virtue, and spiritual direction as tools for real transformation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding Sin: Mortal and Venial</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The first step in overcoming sin is understanding what sin actually is. The Catechism defines sin as "an offense against reason, truth, and right conscience; it is failure in genuine love for God and neighbor caused by a perverse attachment to certain goods" (CCC 1849). Sin is not merely breaking a rule — it is a wound in our relationship with God and with others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The Church distinguishes between two kinds of sin:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Mortal sin</strong> destroys the life of grace in the soul. For a sin to be mortal, three conditions must be met: it must involve grave matter (a serious offense), the person must have full knowledge that it is gravely wrong, and they must give full consent of the will. Mortal sin severs our relationship with God and must be confessed in the Sacrament of Reconciliation before receiving Communion.</li>
                 <li><strong>Venial sin</strong> weakens but does not destroy the life of grace. It involves less serious matter, or is committed without full knowledge or full consent. Venial sins can be forgiven through prayer, acts of charity, and reception of the Eucharist — though confessing them is also encouraged and beneficial.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 Understanding this distinction matters because it shapes how we respond to sin. A mortal sin requires urgent action — going to Confession as soon as possible. Venial sins require ongoing vigilance and the cultivation of virtue.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Role of Frequent Confession</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 Confession is the single most powerful tool the Church offers for overcoming sin. It is not merely a ritual of forgiveness — it is a sacrament that actually changes the soul, infusing grace and strengthening the will against future temptation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The saints universally recommended frequent Confession — not just when one has committed mortal sin, but regularly, even monthly or more often. St. John Vianney, the patron saint of priests, heard confessions for up to 16 hours a day because he understood the transformative power of this sacrament. St. Josemaría Escrivá recommended weekly Confession for those serious about growing in holiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 Why is frequent Confession so powerful? Because each valid reception of the sacrament:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Forgives sins and restores or increases sanctifying grace</li>
                 <li>Gives sacramental grace specifically ordered to overcoming the sins confessed</li>
@@ -98,20 +99,20 @@ export default function HowToOvercomeSin() {
                 <li>Offers the wisdom of a confessor who can give practical spiritual guidance</li>
                 <li>Strengthens the will through the act of contrition and the firm purpose of amendment</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 If you struggle with a particular sin, make it a priority to confess it regularly — even if you fall into it again between confessions. The grace of the sacrament accumulates over time, and the pattern of sin gradually weakens.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Daily Examination of Conscience</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 St. Ignatius of Loyola taught that the daily examination of conscience (the "Examen") is the most important spiritual practice for growth in holiness — even more important than extended periods of prayer. The reason is simple: you cannot overcome what you do not see.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The Examen is a brief daily prayer — typically done at the end of the day — in which you review your day in the presence of God, notice where you fell short, give thanks for graces received, and ask for the grace to do better tomorrow. It takes only 10–15 minutes but has a profound effect on self-knowledge and spiritual growth.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 A simple form of the Examen:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Gratitude:</strong> Thank God for the gifts of the day</li>
                 <li><strong>Review:</strong> Walk through the day, noticing moments of grace and moments of failure</li>
@@ -126,12 +127,12 @@ export default function HowToOvercomeSin() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer: The Foundation of the Spiritual Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 "Watch and pray so that you will not fall into temptation" (Matthew 26:41). Jesus himself identified prayer as the primary defense against sin. A person who prays regularly is far less likely to fall into serious sin than one who does not — not because prayer is a magic shield, but because prayer keeps us in relationship with God, aware of his presence, and open to his grace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 Practical prayer habits for overcoming sin:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Morning offering:</strong> Begin each day by offering it to God and asking for the grace to avoid sin</li>
                 <li><strong>Prayer before temptation:</strong> When you feel tempted, pause and pray — even a brief "Lord, help me" is powerful</li>
@@ -141,12 +142,12 @@ export default function HowToOvercomeSin() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Cultivating Virtues Opposite to Your Vices</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The Catholic tradition teaches that sin is not overcome merely by avoiding evil — it is overcome by actively cultivating the opposite virtue. This is the principle of "agere contra" (acting against) taught by St. Ignatius: when you notice a disordered tendency, deliberately practice the opposite virtue.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The seven capital sins (pride, greed, lust, envy, gluttony, wrath, sloth) each have a corresponding virtue:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Pride</strong> → Humility: practice acts of service, acknowledge your dependence on God</li>
                 <li><strong>Greed</strong> → Generosity: give to the poor, practice detachment from possessions</li>
@@ -156,31 +157,31 @@ export default function HowToOvercomeSin() {
                 <li><strong>Wrath</strong> → Patience: pause before reacting, pray for those who anger you</li>
                 <li><strong>Sloth</strong> → Diligence: establish a daily routine of prayer and work</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 Virtue is a habit — it is built through repeated acts. Every time you choose the virtuous action over the sinful one, you strengthen the habit of virtue and weaken the habit of sin. Over time, what was once a struggle becomes easier, and what was once a temptation loses its power.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Sacraments as Medicine for the Soul</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The Church Fathers called the sacraments "medicine for the soul." This is not a metaphor — it is a theological reality. The sacraments actually heal and strengthen the soul, providing the grace needed to overcome sin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 Beyond Confession, the Eucharist is the most powerful sacrament for overcoming sin. St. Thomas Aquinas taught that the Eucharist preserves us from future mortal sins and remits venial sins. Receiving Communion frequently — with proper preparation and a state of grace — is one of the most effective means of growing in holiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The practical implication: go to Mass as often as possible, not just on Sundays. Daily Mass, where available, is one of the most powerful habits a Catholic can develop. The grace received in the Eucharist accumulates and transforms the soul over time.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Spiritual Direction</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 Spiritual direction is the practice of meeting regularly with a trained spiritual director — typically a priest, deacon, or consecrated religious — to discuss your spiritual life, identify patterns of sin and grace, and receive guidance for growth in holiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 The saints universally recommended spiritual direction for anyone serious about overcoming sin and growing in holiness. St. Francis de Sales wrote: "If you wish to live a devout life in the world, you must have a spiritual director." The reason is simple: we have blind spots. A wise spiritual director can see patterns in our spiritual life that we cannot see ourselves, and can offer guidance tailored to our specific situation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 If you struggle with a habitual sin, finding a good spiritual director is one of the most important steps you can take. Ask your parish priest for a recommendation, or contact a local religious community.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Tips for Breaking Sinful Habits</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">

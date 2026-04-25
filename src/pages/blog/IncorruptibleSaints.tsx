@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function IncorruptibleSaints() {
   return (
@@ -76,16 +77,16 @@ export default function IncorruptibleSaints() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">
                 Incorruptibility is one of the "Sacramentals of the Body" in Catholic tradition. While most saints decay naturally, God has chosen a select few to serve as physical signs of the coming Resurrection. 
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. Defining the Miracle: Mummification vs. Incorruptibility
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">
                 Skeptics often point to mummification caused by extreme heat or peat bogs. However, the Church maintains strict criteria before declaring a case miraculous:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>No Dehydration:</strong> Unlike mummies, which are dry and brittle, incorrupt bodies are often found to be <em>flexible, moist, and soft</em>.</li>
                 <li><strong>Hostile Environments:</strong> Many were buried in damp, humid conditions where bacteria should have liquefied the body in days.</li>
@@ -119,9 +120,9 @@ export default function IncorruptibleSaints() {
                  <Landmark className="w-6 h-6 text-accent" />
                  The Vatican Commissions
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">
                 The Church does not take these lightly. For every exhumation, a team of medical doctors—often including non-believers and atheists—is invited to examine the remains. 
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 In 2008, when the body of <strong>St. Padre Pio</strong> was exhumed, the commission noted that his face had been exceptionally well-preserved. While modern conservation techniques are now used for public display, the initial preservation in a basement crypt for 40 years remains a significant point of interest for both faith and science.
               </p>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SacredHeartPromises() {
   return (
@@ -116,9 +117,9 @@ export default function SacredHeartPromises() {
               <p className="text-text leading-relaxed mb-6">
                 The "Great Promise" is often misunderstood as a "get out of jail free" card. In reality, the requirement of <strong>nine consecutive months</strong> of receiving Holy Communion in a state of grace is a discipline. It trains the soul to make the Eucharist the center of its life. 
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">
                 Jesus didn't promise we wouldn't suffer; He promised we wouldn't die in His displeasure. For those who complete this "novena of months," the Church sees a soul that has proven its loyalty and is thus more disposed to receive final grace.
-              </p>
+              </LinkedText>
 
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-slate-800 mb-4 text-center flex items-center justify-center gap-2">

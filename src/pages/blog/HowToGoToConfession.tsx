@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToGoToConfession() {
   return (
@@ -98,9 +99,9 @@ export default function HowToGoToConfession() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. The 5 Traditional Requirements (The Latin Blueprint)
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">
                 The Church Fathers and Doctors developed five essential stages to ensure the sacrament is not only valid but spiritually fruitful:
-              </p>
+              </LinkedText>
 
               <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-8 mb-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

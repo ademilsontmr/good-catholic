@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnTruth() {
   return (
@@ -59,64 +60,64 @@ export default function CatholicTeachingOnTruth() {
               <BookOpen className="w-24 h-24 text-indigo-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The irony of Pilate's question is that he was standing in front of the answer. Jesus had said, just hours earlier: "I am the way, the truth, and the life" (John 14:6). And in his conversation with Pilate, Jesus had said: "For this reason I was born, and for this I came into the world, to testify to the truth. Everyone on the side of truth listens to me" (John 18:37). Truth, for the Catholic, is not merely a philosophical concept or a social construct. It is a Person.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Answer: Truth Is Real, Objective, and Knowable</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The Catholic Church's answer to Pilate's question is clear and unequivocal: truth is real, objective, and knowable. It is not a social construct, not a matter of personal opinion, not relative to culture or historical period. Truth is the conformity of the mind to reality — the correspondence between what we think or say and what actually is.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 This is the classical definition of truth, articulated by Aristotle and developed by Saint Thomas Aquinas: <em>adaequatio intellectus et rei</em> — the adequation of the intellect to the thing. When I say "the sky is blue" and the sky is indeed blue, my statement is true. When I say "the sky is green" and the sky is not green, my statement is false. Truth is not what I feel, not what I prefer, not what my community agrees on — it is what corresponds to reality.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 This may seem obvious, but it is profoundly countercultural in an age that has largely abandoned the concept of objective truth. The dominant intellectual culture of our time — shaped by postmodernism, relativism, and the politics of identity — holds that truth is always perspectival, always shaped by power, always relative to the standpoint of the knower. The Catholic Church stands firmly against this view, insisting that truth is real and that the human mind, though limited and fallen, is genuinely capable of knowing it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Jesus's Claim: "I Am the Truth"</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The most radical claim in the history of human thought is Jesus's statement: "I am the way, the truth, and the life" (John 14:6). Not "I teach the truth" or "I point toward the truth" — but "I am the truth." Truth is not merely a concept or a proposition; it is a Person. The eternal Logos — the Word through whom all things were made — is the ground of all truth.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Gospel of John opens with this identification: "In the beginning was the Word, and the Word was with God, and the Word was God... Through him all things were made; without him nothing was made that has been made" (John 1:1-3). The Greek word <em>Logos</em> — translated as "Word" — carried in the ancient world the meaning of reason, order, and intelligibility. The claim of the Gospel is that the rational order of the universe is not an impersonal principle but a Person — and that this Person became flesh in Jesus of Nazareth.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 This means that the search for truth — in science, in philosophy, in history, in personal life — is ultimately a search for Christ. Every genuine discovery of truth is a partial encounter with the Logos who is Truth itself. This is why the Catholic tradition has always been enthusiastic about the pursuit of knowledge in all its forms: because all truth, wherever it is found, is God's truth.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catechism on Truth</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The Catechism of the Catholic Church addresses truth extensively in CCC 2464-2513, under the heading of the eighth commandment: "You shall not bear false witness against your neighbor." This placement is significant: the Church's teaching on truth is not merely philosophical but moral — it concerns how we are to live and act in relation to others.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 CCC 2464 states: "The virtue of truthfulness gives another his just due. Truthfulness keeps to the just mean between what ought to be expressed and what ought to be kept secret: it entails honesty and discretion." The Catechism goes on to describe the various ways in which truth can be violated: lying, false witness, perjury, rash judgment, detraction, calumny, and flattery.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 CCC 2467 offers a beautiful summary: "Man tends by nature toward truth. He is obliged to honor and bear witness to it: 'It is in accordance with their dignity that all men, because they are persons... are both impelled by their nature and bound by a moral obligation to seek the truth, especially religious truth. They are also bound to adhere to the truth once they come to know it and direct their whole lives in accordance with the demands of truth.'"
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Natural Truth and Supernatural Truth</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The Catholic tradition distinguishes between two kinds of truth: natural truth (what human reason can know through observation, reflection, and argument) and supernatural truth (what God has revealed through Scripture and Tradition, which goes beyond what reason alone can discover).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 Natural truth includes the truths of mathematics, science, history, philosophy, and ethics — truths that any person of good will and sound reason can in principle come to know. The Church has always affirmed the capacity of human reason to know natural truth, including some truths about God: his existence, his power, his goodness. Saint Paul writes that "since the creation of the world God's invisible qualities — his eternal power and divine nature — have been clearly seen, being understood from what has been made" (Romans 1:20).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 Supernatural truth — the Trinity, the Incarnation, the Resurrection, the sacraments — goes beyond what reason alone can discover. It is known only through divine revelation, received in faith. But faith does not contradict reason: it elevates and completes it. The truths of faith are not irrational; they are supra-rational — they exceed reason's capacity to discover them, but they do not contradict reason's capacity to understand and explore them once revealed.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Crisis of Relativism</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 In his homily at the Mass before the 2005 conclave that elected him pope, Cardinal Joseph Ratzinger (soon to become Benedict XVI) delivered one of the most memorable diagnoses of the modern spiritual crisis: "We are building a dictatorship of relativism that does not recognize anything as definitive and whose ultimate goal consists solely of one's own ego and desires."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The "dictatorship of relativism" is the paradox at the heart of modern culture: a culture that claims there is no objective truth ends up imposing its own version of truth with totalitarian force. If there is no objective truth, then the only arbiter of what is true is power — whoever controls the narrative controls reality. This is not liberation but a new form of tyranny.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The Catholic Church's insistence on objective truth is not a power grab but a defense of human dignity. If truth is real and knowable, then every human being has the capacity and the right to seek it. If truth is merely a social construct, then the powerful will always define it for the weak. The Church's commitment to truth is, at its root, a commitment to the dignity of every human person as a rational being capable of knowing reality.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -124,34 +125,34 @@ export default function CatholicTeachingOnTruth() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Truth and Freedom</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 One of the most misunderstood aspects of the Catholic teaching on truth is its relationship to freedom. The modern assumption is that truth is oppressive — that insisting on objective truth constrains freedom and imposes one group's values on others. Jesus's teaching is precisely the opposite: "The truth will set you free" (John 8:32).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The Catholic understanding of freedom is not the freedom to do whatever one wants — that is not freedom but slavery to one's own desires. True freedom is the freedom to do what is genuinely good — to act in accordance with one's nature as a rational, moral being made in the image of God. And this freedom requires truth: we cannot act well if we do not know what is real, what is good, what is true.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 Consider the analogy of a pilot. A pilot who ignores the laws of aerodynamics in the name of "freedom" will crash. The laws of aerodynamics are not oppressive constraints on the pilot's freedom — they are the conditions that make flight possible. Similarly, the moral truth that the Church teaches is not an oppressive constraint on human freedom — it is the condition that makes genuine human flourishing possible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Virtue of Truthfulness</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The Catholic tradition identifies truthfulness as a moral virtue — a stable disposition to speak the truth and to live in accordance with it. The Catechism (CCC 2468) states: "The virtue of truthfulness gives another his just due. Truthfulness keeps to the just mean between what ought to be expressed and what ought to be kept secret."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 Lying — the deliberate assertion of what one knows to be false — is always wrong, because it violates the fundamental trust that makes human community possible. The Catechism (CCC 2485) states: "By its very nature, lying is to be condemned. It is a profanation of speech, whereas the purpose of speech is to communicate known truth to others." This does not mean that every truth must always be spoken — prudence, charity, and the protection of legitimate secrets all have their place. But the deliberate assertion of falsehood is always a moral evil.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Truth and the Media</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The Catholic approach to information and media is shaped by the commitment to truth. The Catechism (CCC 2493-2499) addresses the social communications media, calling on journalists and media professionals to serve the truth and the common good. "The information provided by the media is at the service of the common good. Society has a right to information based on truth, freedom, justice, and solidarity" (CCC 2494).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 In an age of social media, algorithmic echo chambers, and the deliberate spread of misinformation, the Catholic commitment to truth has practical implications. Catholics are called to be discerning consumers of information — to seek out reliable sources, to verify claims before sharing them, to resist the temptation to believe and spread information simply because it confirms what we already think.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The virtue of prudence — practical wisdom — is essential here. Not every claim deserves equal credence. Not every source is equally reliable. The Catholic intellectual tradition, with its emphasis on reason, evidence, and the careful evaluation of sources, provides a framework for navigating the information environment of the twenty-first century.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

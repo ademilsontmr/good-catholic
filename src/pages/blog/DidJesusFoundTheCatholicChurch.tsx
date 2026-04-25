@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DidJesusFoundTheCatholicChurch() {
   return (
@@ -59,47 +60,47 @@ export default function DidJesusFoundTheCatholicChurch() {
               <Cross className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 The question of whether Jesus founded the Catholic Church is not merely academic. It touches the very heart of Christian identity: Who has the authority to interpret Scripture? Who can trace its leadership back to the Apostles? Which community can claim to be the one Jesus established? For Catholics, the answer is clear — and the evidence is both biblical and historical.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Central Text: Matthew 16:18–19</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 The most direct biblical evidence for the founding of the Church comes from Matthew 16:18–19. Jesus asks His disciples, "Who do you say that I am?" Simon Peter answers: "You are the Christ, the Son of the living God." Jesus responds:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed">
                   "And I tell you, you are Peter, and on this rock I will build my Church, and the gates of hell shall not prevail against it. I will give you the keys of the kingdom of heaven, and whatever you bind on earth shall be bound in heaven, and whatever you loose on earth shall be loosed in heaven." (Matthew 16:18–19)
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 This passage is dense with meaning. Jesus renames Simon as "Peter" — in Greek, Petros — and declares that upon "this rock" (petra) He will build His Church. The wordplay is unmistakable: Peter is the rock. Jesus is not building His Church on an abstract confession of faith, but on a person — Simon Peter — who will serve as the visible foundation of the community He is establishing.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 Note that Jesus says "my Church" — the Greek word ekklesia, meaning an assembly or community. This is not a vague spiritual fellowship. It is a specific, organized body with a visible head. And Jesus promises that "the gates of hell shall not prevail against it" — a guarantee of indestructibility that no merely human institution could claim.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Keys of the Kingdom</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 The "keys of the kingdom" given to Peter are a direct allusion to Isaiah 22:22, where the key of the house of David is given to Eliakim, who becomes the chief steward of the royal household. In the ancient Near East, the key-bearer was the prime minister — the one who governed in the king's name when the king was absent.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 By giving Peter the keys, Jesus is appointing him as the chief steward of His kingdom on earth. The authority to "bind and loose" — a rabbinic expression for authoritative teaching and governance — is given first to Peter alone (Matthew 16:19) and then to the Apostles collectively (Matthew 18:18). This is the foundation of the Church's teaching authority, what Catholics call the Magisterium.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 In John 21:15–17, the risen Christ confirms Peter's primacy three times: "Feed my lambs... tend my sheep... feed my sheep." The threefold commission mirrors Peter's threefold denial and restores him to his role as shepherd of the whole flock — not just a portion of it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Twelve Apostles and the Structure of the Church</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 Jesus did not simply preach and leave. He deliberately chose twelve Apostles — a number that mirrors the twelve tribes of Israel — and gave them a specific mission: "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all that I have commanded you" (Matthew 28:19–20).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 He gave them authority to forgive sins (John 20:23), to celebrate the Eucharist ("Do this in memory of me" — Luke 22:19), and to govern the community. When Judas died, the Apostles immediately replaced him (Acts 1:15–26) — demonstrating that the apostolic office was meant to continue, not end with the original Twelve.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 This is the origin of apostolic succession: the unbroken chain of bishops from the Apostles to the present day. The Catholic Church is the only institution on earth that can trace its episcopal succession directly back to the Apostles — and specifically to Peter, the first Bishop of Rome.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -107,9 +108,9 @@ export default function DidJesusFoundTheCatholicChurch() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Historical Evidence: The Early Church Fathers</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 The biblical evidence is confirmed by the testimony of the earliest Christian writers — men who lived within one or two generations of the Apostles themselves.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Ignatius of Antioch (c. 35–108 AD)</strong> was a disciple of the Apostle John and the third Bishop of Antioch. In his letters, written on his way to martyrdom in Rome around 107 AD, he uses the word "Catholic" (katholike) for the first time in Christian literature: "Wherever the bishop appears, there let the congregation be; just as wherever Jesus Christ is, there is the Catholic Church." Ignatius also insists on the authority of the bishop as the successor of the Apostles — a clear affirmation of apostolic succession.
               </p>
@@ -121,15 +122,15 @@ export default function DidJesusFoundTheCatholicChurch() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Two Thousand Years of Unbroken Continuity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 The Catholic Church is the only institution in the world that can claim an unbroken line of leadership from the first century to the present. The current Pope is the 266th successor of Saint Peter. Every bishop in the Catholic Church can trace his ordination back through an unbroken chain of laying on of hands to the Apostles themselves.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 No other Christian denomination can make this claim. The Eastern Orthodox Churches separated from Rome in 1054. The Protestant denominations were founded in the 16th century — Luther in 1517, Calvin in the 1530s, Henry VIII in 1534. The Baptists, Methodists, Pentecostals, and thousands of other denominations were founded even later. Only the Catholic Church existed from the beginning.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 This historical continuity is not merely institutional. It is doctrinal: the Catholic Church has maintained the same faith — the same Creed, the same sacraments, the same moral teaching — across two millennia, in every culture and on every continent. This is precisely what Jesus promised: "the gates of hell shall not prevail against it."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Responding to Protestant Objections</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -150,18 +151,18 @@ export default function DidJesusFoundTheCatholicChurch() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Marks of the True Church</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 The Nicene Creed, professed by Catholics every Sunday, describes the Church as "one, holy, catholic, and apostolic." These four marks are the criteria by which the true Church of Christ can be identified:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>One:</strong> The Church is one in faith, sacraments, and governance — united under the Pope as the successor of Peter.</li>
                 <li><strong>Holy:</strong> The Church is holy not because all its members are perfect, but because it is the Body of Christ, animated by the Holy Spirit, and the source of sanctifying grace.</li>
                 <li><strong>Catholic:</strong> The Church is universal — present in every nation, for every people, in every age. The word "Catholic" means "universal."</li>
                 <li><strong>Apostolic:</strong> The Church is founded on the Apostles and maintains an unbroken succession of bishops from the Apostles to the present day.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 Only the Catholic Church fully possesses all four marks. This is not a claim of superiority over individual Christians in other traditions — it is a claim about institutional identity and the fullness of the means of salvation.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

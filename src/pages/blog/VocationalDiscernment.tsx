@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function VocationalDiscernment() {
     return (
@@ -67,9 +68,9 @@ export default function VocationalDiscernment() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment">
                                 Discernment is the art of discovering God's will amid the various options life presents us. It is not a magic formula, but a spiritual process that requires humility, patience, and above all, a life of sincere prayer. God does not play riddles with us; He desires that we be happy and fulfilled in our vocation.
-                            </p>
+                            </LinkedText>
 
                             <QuizCTA
                                 title="Do you know what God's call is for you?"
@@ -77,9 +78,9 @@ export default function VocationalDiscernment() {
                             />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Vocations in the Catholic Church</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment">
                                 Every baptized person has a vocation — a specific call from God to love and serve in a particular way. The Church recognizes four primary vocations:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">
                                 <li><strong>Marriage:</strong> The vocation of most Catholics, called to reflect the love of Christ for His Church through faithful, fruitful, and permanent union</li>
                                 <li><strong>Holy Orders:</strong> The vocation to priesthood or diaconate, serving the Church through the sacraments and pastoral ministry</li>
@@ -88,9 +89,9 @@ export default function VocationalDiscernment() {
                             </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Ignatian Method of Discernment</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment">
                                 St. Ignatius of Loyola, founder of the Jesuits and master of spiritual discernment, developed a systematic method for discovering God's will. His Spiritual Exercises remain one of the most powerful tools for discernment in the Church's history. The Ignatian method involves:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">
                                 <li><strong>Indifference:</strong> Cultivating interior freedom from attachments so that you can choose what God wills rather than what you prefer</li>
                                 <li><strong>Consolation and Desolation:</strong> Learning to recognize the movements of the Holy Spirit (consolation — peace, joy, love) versus the movements of the enemy (desolation — anxiety, confusion, darkness)</li>
@@ -99,9 +100,9 @@ export default function VocationalDiscernment() {
                             </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Signs of a Genuine Vocation</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment">
                                 While God calls each person uniquely, spiritual directors and the Church's tradition identify several common signs of a genuine vocation:
-                            </p>
+                            </LinkedText>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">
                                 <li><strong>Persistent attraction:</strong> A consistent, recurring draw toward a particular way of life over time — not just a passing feeling</li>
                                 <li><strong>Interior peace:</strong> When you imagine yourself in a particular vocation, do you experience deep peace or anxiety? Peace is generally a sign of God's will</li>
@@ -111,12 +112,12 @@ export default function VocationalDiscernment() {
                             </ul>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Role of a Spiritual Director</h2>
-                            <p className="text-text leading-relaxed mb-6">
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment">
                                 A spiritual director is perhaps the most important human resource in vocational discernment. This is a trained guide — usually a priest, deacon, or experienced religious — who helps you recognize God's movements in your soul, distinguish genuine calls from personal desires or fears, and make decisions with greater clarity and peace.
-                            </p>
-                            <p className="text-text leading-relaxed mb-6">
+                            </LinkedText>
+                            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment">
                                 Finding a good spiritual director takes time and prayer. Ask your pastor for recommendations, contact your diocesan vocations office, or reach out to a religious community. Meet with several directors before committing to one. The relationship should be characterized by trust, honesty, and a shared commitment to seeking God's will.
-                            </p>
+                            </LinkedText>
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Steps for Discernment</h2>
                             <ul className="list-disc list-inside text-text space-y-3 mb-6">

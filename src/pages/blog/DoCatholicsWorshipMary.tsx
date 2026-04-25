@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DoCatholicsWorshipMary() {
   return (
@@ -85,9 +86,9 @@ export default function DoCatholicsWorshipMary() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. Technical Distinctions: Latria vs. Hyperdulia
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 The Church uses precise theological language to distinguish the degrees of honor. Interchanging these is the root of the "worship" misconception:
-              </p>
+              </LinkedText>
 
               <div className="bg-rose-50 border border-rose-100 rounded-xl p-8 mb-10">
                 <ul className="space-y-4 text-text">
@@ -100,9 +101,9 @@ export default function DoCatholicsWorshipMary() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. Biblical Typology: The Ark and The Queen
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 Catholics honor Mary because the Old Testament prefigured her role. Two powerful archetypes explain why she is "Blessed among women":
-              </p>
+              </LinkedText>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
                  <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
@@ -123,9 +124,9 @@ export default function DoCatholicsWorshipMary() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Mary's Role in Salvation: Why She Deserves Special Honor
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 To understand why Catholics honor Mary so highly, you need to understand her role in salvation history. Mary is not just a nice woman who happened to be Jesus's mother. She is the woman chosen from all eternity to be the vessel through which God entered human history. Her "yes" to the angel Gabriel — her fiat — made the Incarnation possible.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The Second Vatican Council's document <em>Lumen Gentium</em> describes Mary as "a pre-eminent and wholly unique member of the Church." She is the first and greatest disciple of Christ. She stood at the foot of the Cross when the apostles fled. She was present at Pentecost when the Holy Spirit descended on the Church. She is, as the early Church Fathers called her, the New Eve — whose obedience undid the disobedience of the first Eve.
               </p>
@@ -149,37 +150,37 @@ export default function DoCatholicsWorshipMary() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Four Marian Dogmas
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 The Catholic Church has defined four dogmas about Mary — infallible teachings that all Catholics are required to believe. Understanding these dogmas helps clarify what Catholics actually believe about Mary (as opposed to what critics claim they believe).
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 1. Mary, Mother of God (Theotokos) — Defined at Ephesus, 431 AD
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 Mary is the Mother of God not because she is the source of God's divine nature, but because she is the mother of Jesus Christ, who is one divine Person with two natures (human and divine). To deny that Mary is the Mother of God would be to deny the Incarnation itself. This dogma is primarily about Christ, not Mary.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 2. Perpetual Virginity — Ancient Tradition, Defined Progressively
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 The Church teaches that Mary was a virgin before, during, and after the birth of Jesus. The "brothers of Jesus" mentioned in the Gospels are understood as cousins or step-brothers (a common usage in Aramaic and Hebrew). This dogma was held by Luther, Calvin, and Zwingli — the founders of Protestantism.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 3. Immaculate Conception — Defined by Pius IX, 1854
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 Mary was conceived without original sin, preserved by a singular grace of God in anticipation of the merits of Christ. This does not mean Mary had no need of a Savior — she was saved by Christ, but in a unique way: preventively, before sin could touch her. The angel's greeting "full of grace" (Luke 1:28) supports this teaching.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 4. Assumption — Defined by Pius XII, 1950
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 At the end of her earthly life, Mary was taken body and soul into heavenly glory. The Church does not define whether she died first or not. This dogma is a foretaste of the resurrection of the body that all Christians await. It is fitting that the one who bore the Body of Christ in her womb should be the first to share fully in His resurrection.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Common Misconceptions About Marian Devotion
@@ -188,30 +189,30 @@ export default function DoCatholicsWorshipMary() {
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "Catholics pray to Mary instead of Jesus."
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 Catholics pray to Mary as an intercessor, not as a replacement for Christ. The Hail Mary ends with "pray for us sinners" — Mary is asked to pray, not to save. Every Marian prayer ultimately leads to Christ. As St. Louis de Montfort wrote, "To Jesus through Mary" — Mary is a path to her Son, not a destination in herself.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "Statues of Mary are idols."
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 Catholics do not believe statues have power in themselves. A statue of Mary is like a photograph of a loved one — it helps us focus our thoughts and prayers. The veneration is directed to the person represented, not the object itself. The same principle applies to crucifixes and images of Christ.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 "The Rosary is repetitive vain prayer condemned by Jesus."
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 Jesus condemned "vain repetition" (Matthew 6:7) — meaningless babbling without faith. The Rosary is meditative prayer, not vain repetition. The repeated Hail Marys create a rhythm that allows the mind to focus on the mysteries of Christ's life. The Psalms themselves use repetition extensively (Psalm 136 repeats "His mercy endures forever" 26 times).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Explain Marian Devotion to Non-Catholics
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 When explaining Marian devotion to Protestant friends or family, a few approaches work well:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Start with Scripture.</strong> Luke 1:48 says all generations will call Mary blessed. Ask: "Are you calling her blessed? Catholics are just taking that seriously."</li>
                 <li><strong>Use the mother analogy.</strong> If you love someone, you naturally love and honor their mother. Honoring Mary is a way of honoring Christ.</li>
@@ -232,15 +233,15 @@ export default function DoCatholicsWorshipMary() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Mary: Model of Discipleship for Every Catholic
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 Beyond the theological arguments, Mary matters to Catholics because she is the perfect model of discipleship. Her fiat — "Let it be done to me according to your word" (Luke 1:38) — is the model for every Christian's response to God. She shows us what it looks like to say yes to God completely, without reservation, even when it costs everything.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 At the wedding at Cana, Mary's last recorded words in Scripture are: "Do whatever he tells you" (John 2:5). She always points to her Son. That is the heart of Marian devotion — not replacing Christ, but pointing to Him. Every rosary, every Hail Mary, every Marian shrine ultimately leads the faithful to Jesus Christ.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-catholics-worship-mary">
                 So no — Catholics do not worship Mary. They love her, honor her, and ask for her intercession. And in doing so, they follow the example of the angel Gabriel, of Elizabeth, and of the Holy Spirit who inspired Luke to record Mary's Magnificat for all generations to read and cherish.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

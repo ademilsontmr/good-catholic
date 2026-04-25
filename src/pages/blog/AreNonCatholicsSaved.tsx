@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AreNonCatholicsSaved() {
   return (
@@ -85,9 +86,9 @@ export default function AreNonCatholicsSaved() {
               <p className="text-text leading-relaxed mb-6">
                 The Latin phrase <em>Extra Ecclesiam nulla salus</em> — "Outside the Church there is no salvation" — is one of the most ancient and most misunderstood formulas in Catholic theology. It was articulated by St. Cyprian of Carthage in the third century and has been repeated by popes and councils ever since.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 At face value, it sounds like a harsh exclusion: only Catholics go to heaven. But this is not what the Church has ever officially taught. The formula requires careful interpretation, and the Church's understanding of it has developed significantly — especially in the 20th century.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 The key insight is this: the formula affirms that <strong>the Church is necessary for salvation</strong> — not that every person must be a formal, registered member of the Catholic Church to be saved. The Church is the ordinary means of salvation established by Christ. But God is not bound by the ordinary means.
               </p>
@@ -101,9 +102,9 @@ export default function AreNonCatholicsSaved() {
               <blockquote className="border-l-4 border-accent pl-6 my-6 italic text-text-muted">
                 "Those who, through no fault of their own, do not know the Gospel of Christ or His Church, but who nevertheless seek God with a sincere heart, and, moved by grace, try in their actions to do His will as they know it through the dictates of their conscience — those too may achieve eternal salvation."
               </blockquote>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 This is a remarkable statement. The Council is saying that people who have never heard the Gospel — or who have heard a distorted version of it — can still be saved if they sincerely seek God and follow their conscience. This is not a new teaching invented at Vatican II; it is a development and clarification of principles that were already present in Catholic theology.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Invincible Ignorance: A Key Concept
@@ -111,12 +112,12 @@ export default function AreNonCatholicsSaved() {
               <p className="text-text leading-relaxed mb-6">
                 The theological concept of <strong>invincible ignorance</strong> is central to understanding how non-Catholics can be saved. Invincible ignorance refers to ignorance that cannot be overcome through reasonable effort — ignorance that is not the person's fault.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 If someone has never had a genuine opportunity to encounter the Catholic faith — or if they have encountered only a distorted or hostile version of it — they cannot be held morally responsible for not being Catholic. God does not condemn people for what they could not have known.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 The Catechism of the Catholic Church (CCC 1793) states: "If — on the contrary — the ignorance is invincible, or the moral subject is not responsible for his erroneous judgment, the evil committed by the person cannot be imputed to him." This principle applies to religious ignorance as well as moral ignorance.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Baptism of Desire
@@ -124,12 +125,12 @@ export default function AreNonCatholicsSaved() {
               <p className="text-text leading-relaxed mb-6">
                 Another key concept is <strong>baptism of desire</strong> (<em>baptismus flaminis</em>). The Church teaches that Baptism is necessary for salvation (John 3:5). But what about those who sincerely desire to do God's will but have never been baptized?
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 The Church teaches that such persons can receive the grace of Baptism through their sincere desire to do what God wills — even if they don't explicitly know about Baptism. This is called "baptism of desire." The Council of Trent affirmed this principle, and it has been consistently taught ever since.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 This doesn't mean that Baptism is optional or unimportant. It means that God, who desires all people to be saved (1 Timothy 2:4), can apply the grace of Baptism to those who sincerely seek Him, even without the sacramental rite.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know Catholic doctrine?"
@@ -144,17 +145,17 @@ export default function AreNonCatholicsSaved() {
               <p className="text-text leading-relaxed mb-6">
                 The Church teaches that baptized Christians who are not in full communion with the Catholic Church are "separated brethren" — they share in many of the gifts of the Church (Scripture, Baptism, faith in Christ) but lack the fullness of the means of salvation. <em>Lumen Gentium</em> 15 says they are "joined to us in the Holy Spirit."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 The Church does not say that Protestants are damned. It says that the Catholic Church possesses the fullness of the means of salvation, and that those outside it are in a less complete relationship with Christ's Body. But God's grace is not limited to the visible boundaries of the Church.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Jews and Muslims</h3>
               <p className="text-text leading-relaxed mb-6">
                 <em>Lumen Gentium</em> 16 specifically mentions Jews and Muslims. Jews are described as a people "to whom the covenants and the promises were given and from whom Christ was born according to the flesh." Muslims are described as those who "profess to hold the faith of Abraham, and together with us they adore the one, merciful God."
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 This does not mean that Judaism and Islam are equally valid paths to salvation. The Church maintains that Jesus Christ is the unique Savior of all humanity (Acts 4:12). But it does mean that Jews and Muslims who sincerely seek God and follow their conscience are not automatically excluded from salvation.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Atheists and the Unbaptized</h3>
               <p className="text-text leading-relaxed mb-6">
@@ -164,22 +165,22 @@ export default function AreNonCatholicsSaved() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Church as Necessary vs. God's Freedom to Save
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 It's important to hold two truths in tension. First: the Catholic Church is the ordinary means of salvation established by Christ. The sacraments, the Magisterium, the fullness of revelation — these are gifts that God has given to the Church for the salvation of humanity. Catholics should not minimize the importance of the Church or treat all religions as equally valid.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 Second: God is not a prisoner of His own sacramental system. He can and does work outside the visible boundaries of the Church. His grace reaches people in ways we cannot fully understand or predict. The Church's teaching on salvation is not a map of who is definitely saved or damned — it is a description of the ordinary means God has established, combined with a humble acknowledgment that God's mercy exceeds our categories.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Explain This to Non-Catholic Family Members
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 When a Protestant relative asks, "Do you think I'm going to hell?" the honest Catholic answer is: "I don't know — and neither does anyone else. That's God's judgment, not mine. What I believe is that the Catholic Church has the fullness of the means of salvation, and I want to share that with you. But I also believe that God is merciful and that He judges each person according to the light they've received."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-non-catholics-saved">
                 This is not relativism. It is not saying that all religions are the same. It is saying that God is just and merciful, and that He does not condemn people for what they could not have known. At the same time, it is an invitation: if the Catholic Church truly has the fullness of the means of salvation, then sharing that faith with others is an act of love, not arrogance.
-              </p>
+              </LinkedText>
 
               <div className="bg-indigo-50 border border-border rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">

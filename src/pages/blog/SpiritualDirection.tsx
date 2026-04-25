@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SpiritualDirection() {
   return (
@@ -76,38 +77,38 @@ export default function SpiritualDirection() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Every serious Catholic who wants to grow in holiness needs a spiritual director. This is not a modern invention or a luxury for the spiritually advanced — it is an ancient practice rooted in the wisdom of the Church, recommended by the saints, and urgently needed in our time. Yet many American Catholics have never had a spiritual director and are not sure where to begin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 This guide will explain what spiritual direction is, what it is not, what happens in a session, how to find a director, and what to look for. Whether you are a beginner in the spiritual life or a seasoned Catholic seeking deeper growth, spiritual direction can be a transformative gift.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Is Spiritual Direction?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Spiritual direction is a relationship between two people — the director and the directee — in which the director helps the directee discern how God is working in their life and how to respond more fully to His grace. The director is not a teacher who imparts information, nor a counselor who solves problems, nor a confessor who absolves sins. The director is a companion and guide who helps the directee listen to God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 The Catechism of the Catholic Church recommends spiritual direction as a means of growth in the spiritual life: "The spiritual director is a guide who helps the person to discern the movements of the Holy Spirit in their life" (cf. CCC 2690). The real director is always the Holy Spirit — the human director is simply an instrument through whom the Spirit works.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 A Brief History: Desert Fathers, Ignatius, and Beyond
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 The practice of spiritual direction is as old as Christianity itself. In the early Church, the Desert Fathers and Mothers of Egypt and Syria were sought out by thousands of pilgrims who came to ask for a "word" — a brief, penetrating insight that would guide their spiritual life. The relationship between an abba (father) and his disciples was the original form of spiritual direction.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 In the medieval period, spiritual direction was closely linked to the sacrament of Confession. Confessors became spiritual guides, and the great spiritual writers of the period — including St. Bernard of Clairvaux and St. Bonaventure — wrote extensively about the director's role.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 St. Ignatius of Loyola (1491–1556) gave spiritual direction its most systematic form through the Spiritual Exercises. Ignatius trained his Jesuit companions to be skilled directors who could guide retreatants through the Exercises, helping them discern God's will and make a life-changing election. The Ignatian tradition remains one of the richest resources for spiritual direction today.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 In the 17th century, St. Francis de Sales became famous for his spiritual direction of laypeople, especially women. His letters of direction, collected in the Treatise on the Love of God, show a director of extraordinary sensitivity and wisdom. He insisted that holiness was not only for monks and nuns but for every baptized Christian.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic text-center text-lg">
@@ -121,15 +122,15 @@ export default function SpiritualDirection() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Happens in a Spiritual Direction Session?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 A typical spiritual direction session lasts 45–60 minutes and takes place monthly, though some directors meet with directees more or less frequently. Here is what you can expect:
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 The session usually begins with a brief prayer, inviting the Holy Spirit to guide the conversation. The directee then shares what has been happening in their prayer life since the last session: what they have been praying, what they have noticed, what has moved them, what has been difficult. The director listens attentively, asks clarifying questions, and helps the directee notice patterns and movements of grace.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 The director does not give advice about life decisions, solve personal problems, or provide psychological counseling. The focus is always on the directee's relationship with God: How is God speaking? What is the Holy Spirit inviting? Where is there resistance or consolation? The session ends with a brief prayer and perhaps a suggestion for the directee's prayer in the coming weeks.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How is your spiritual life?"
@@ -139,40 +140,40 @@ export default function SpiritualDirection() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Spiritual Direction vs. Therapy vs. Confession
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Many Catholics confuse spiritual direction with therapy or confession. Understanding the differences is important.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Spiritual Direction vs. Therapy
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Therapy focuses on psychological healing — addressing trauma, mental illness, emotional wounds, and behavioral patterns. It is a clinical relationship governed by professional ethics and aimed at psychological well-being. Spiritual direction focuses on the soul's relationship with God. While a good spiritual director will be sensitive to psychological realities, their primary concern is not mental health but spiritual growth. Some people benefit from both therapy and spiritual direction simultaneously.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
                 Spiritual Direction vs. Confession
               </h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Confession is a sacrament in which sins are confessed, absolved, and penance is given. It is a juridical act of the Church with specific requirements and effects. Spiritual direction is not a sacrament and does not involve absolution. While a spiritual director may be a priest who also hears confessions, the two relationships are distinct. Many spiritual directors are laypeople or religious sisters who cannot hear confessions at all.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Who Needs a Spiritual Director?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 The short answer: everyone who is serious about growing in holiness. The saints were unanimous on this point. St. Teresa of Avila wrote that she would not have made progress in prayer without a spiritual director. St. John of the Cross said that a soul without a director is like a burning coal without a bellows — it will eventually go out. St. Francis de Sales directed hundreds of souls and insisted that laypeople needed direction as much as religious.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Spiritual direction is especially valuable during times of major transition (discerning a vocation, changing careers, facing illness or loss), during periods of spiritual dryness or desolation, when beginning a new form of prayer, and when making important life decisions. But it is also valuable in ordinary times — as a regular check-in that keeps the soul on course.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 How to Find a Spiritual Director
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Finding a good spiritual director can take time and patience. Here are the best places to look:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Your diocese.</strong> Many dioceses have a list of trained spiritual directors. Contact your diocesan office of spiritual development or vocations.</li>
                 <li><strong>Religious orders.</strong> Jesuits, Dominicans, Carmelites, Franciscans, and other orders often have members who offer spiritual direction. Contact the nearest house of your preferred order.</li>
@@ -185,9 +186,9 @@ export default function SpiritualDirection() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What to Look for in a Spiritual Director
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Not everyone who offers spiritual direction is equally qualified. Here are the qualities to look for:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Fidelity to the Church.</strong> A good director is orthodox in faith and morals and will never counsel you to act contrary to Church teaching.</li>
                 <li><strong>A personal prayer life.</strong> A director who does not pray cannot guide you in prayer. Ask about their own spiritual practice.</li>
@@ -200,9 +201,9 @@ export default function SpiritualDirection() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Common Misconceptions About Spiritual Direction
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Several misconceptions keep Catholics from seeking spiritual direction. Let's address the most common ones:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>"Spiritual direction is only for priests and religious."</strong> False. The tradition of spiritual direction for laypeople goes back to St. Francis de Sales in the 17th century and has been strongly encouraged by recent popes. Every baptized Catholic is called to holiness and can benefit from direction.
               </p>
@@ -216,9 +217,9 @@ export default function SpiritualDirection() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Fruits of Good Spiritual Direction
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Catholics who persevere in spiritual direction over time typically report: a deeper and more consistent prayer life, greater clarity in discerning God's will, increased peace and freedom from anxiety, growth in virtue and charity, a stronger sense of their vocation and mission, and a more intimate relationship with God. These fruits are not guaranteed — they depend on the directee's openness and cooperation with grace — but they are the normal result of faithful spiritual direction over time.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

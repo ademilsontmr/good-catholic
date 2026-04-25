@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicPrayerForMarriage() {
   return (
@@ -59,17 +60,17 @@ export default function CatholicPrayerForMarriage() {
               <Heart className="w-24 h-24 text-pink-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 The Catholic Church teaches that marriage is one of the seven sacraments — not merely a legal contract or a social institution, but a sacred covenant in which husband and wife become a living sign of Christ's faithful, fruitful, and self-giving love for the Church. This means that every Catholic marriage is, at its core, a vocation — a calling from God that requires His grace to live well.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 Prayer is not optional for a Catholic marriage. It is the oxygen that keeps the sacrament alive. When couples pray together — and for each other — they invite God into the most intimate dimensions of their life together. Research consistently shows that couples who pray together have significantly lower divorce rates and higher levels of marital satisfaction. But more than statistics, prayer transforms marriage from the inside out.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Daily Prayer for a Married Couple</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 This prayer can be prayed together each morning or evening as a couple:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">A Daily Prayer for Married Couples</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -78,9 +79,9 @@ export default function CatholicPrayerForMarriage() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer for Your Spouse</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 One of the most powerful things a spouse can do is pray for their partner — not just in general, but specifically, naming their needs, struggles, and gifts before God:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for a Husband or Wife</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -89,9 +90,9 @@ export default function CatholicPrayerForMarriage() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer for a Troubled Marriage</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 Every marriage goes through difficult seasons. When a marriage is in crisis — whether from conflict, infidelity, addiction, or simply the slow erosion of intimacy — prayer is the first and most essential response:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for a Marriage in Crisis</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -100,9 +101,9 @@ export default function CatholicPrayerForMarriage() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer for a Future Spouse (For Singles)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 For those who are single and discerning marriage, prayer for a future spouse is a beautiful and powerful practice. It prepares the heart for the gift of marriage and entrusts the search to God:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer for a Future Spouse</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -116,9 +117,9 @@ export default function CatholicPrayerForMarriage() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer of St. Francis de Sales for Married Couples</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 St. Francis de Sales (1567–1622), Doctor of the Church and patron of writers, had a profound understanding of the spiritual life of married people. His Introduction to the Devout Life contains some of the most beautiful Catholic teaching on marriage. This prayer is inspired by his spirituality:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer Inspired by St. Francis de Sales</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -127,9 +128,9 @@ export default function CatholicPrayerForMarriage() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Novena for a Marriage in Difficulty</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 A novena is nine days of prayer for a specific intention. This novena can be prayed by one or both spouses when a marriage is facing serious difficulties:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Nine-Day Novena for a Troubled Marriage</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -139,12 +140,12 @@ export default function CatholicPrayerForMarriage() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Importance of Praying Together</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 Many couples find it difficult to pray together. It can feel awkward, vulnerable, or forced — especially if one spouse is more devout than the other. But the effort is worth it. Praying together as a couple is one of the most intimate acts a husband and wife can share. It requires vulnerability, honesty, and a willingness to be seen by God and by each other.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 Simple ways to begin praying together include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Praying grace before meals together</li>
                 <li>Praying a decade of the Rosary together before bed</li>
@@ -154,9 +155,9 @@ export default function CatholicPrayerForMarriage() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Role of the Sacraments in Marriage</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 Prayer is essential, but it does not stand alone. The Catholic tradition offers two sacraments that are particularly powerful for strengthening marriage:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>The Eucharist</strong> is the source and summit of the Christian life. When a husband and wife receive Communion together, they are united not only to each other but to Christ Himself. The Eucharist nourishes the love that marriage requires — a love that is self-giving, sacrificial, and unconditional.
               </p>

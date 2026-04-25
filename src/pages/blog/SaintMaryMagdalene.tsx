@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMaryMagdalene() {
   return (
@@ -59,51 +60,51 @@ export default function SaintMaryMagdalene() {
               <Sparkles className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 Few figures in Christian history have been more distorted, more romanticized, and more misrepresented than Mary Magdalene. For centuries, she was conflated with a sinful woman and a prostitute — an identification that has no basis in Scripture and that the Catholic Church has officially corrected. The real Mary Magdalene is far more remarkable than the legend: she was a devoted disciple of Jesus, a witness to his crucifixion and burial, and the first person to whom the Risen Christ appeared on Easter morning.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Was Mary Magdalene? What Scripture Actually Says</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 The name "Magdalene" almost certainly refers to her hometown: Magdala (or Migdal), a prosperous fishing town on the western shore of the Sea of Galilee. She is mentioned by name in all four Gospels — more than most of the Twelve Apostles — and always in connection with the most important events of Jesus's ministry.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 The first mention of Mary Magdalene in the Gospels is in Luke 8:1–3, where she is listed among the women who accompanied Jesus and the Twelve on their missionary journeys and "provided for them out of their means." Luke adds a crucial detail: Jesus had cast "seven demons" out of her (Luke 8:2). This is the only biographical information Scripture gives us about her past — not prostitution, not adultery, but demonic oppression, from which Jesus freed her.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 What follows in the Gospels is a portrait of extraordinary fidelity. When the male disciples fled at the arrest of Jesus, Mary Magdalene remained. She is named among the women who stood at the foot of the cross (Matthew 27:56; Mark 15:40; John 19:25). She witnessed the burial of Jesus (Matthew 27:61; Mark 15:47). And she was among the first to come to the tomb on Easter morning (Matthew 28:1; Mark 16:1; Luke 24:10; John 20:1).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Myth of Mary Magdalene as a Prostitute</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 The identification of Mary Magdalene as a prostitute or a sinful woman has no basis in Scripture. It arose from a conflation of three distinct women in the Gospels: Mary Magdalene; the unnamed "sinful woman" who anointed Jesus's feet in Luke 7:36–50; and Mary of Bethany, the sister of Martha and Lazarus, who also anointed Jesus (John 12:1–8).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 These three women are clearly distinct figures in the Gospel texts. The conflation was popularized by Pope Gregory I in a homily delivered in Rome in 591 AD, in which he identified all three as the same person and described the "sinful woman" of Luke 7 as a prostitute. This identification became dominant in Western Christianity for over a millennium.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 The Eastern Church never accepted this conflation — the Eastern Orthodox tradition has always venerated Mary Magdalene, Mary of Bethany, and the sinful woman of Luke 7 as three separate people. And in 1969, the Roman Catholic Church officially corrected the error: the revised Roman Calendar separated the feast days of Mary Magdalene, Mary of Bethany, and the sinful woman, making clear that they are distinct individuals.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 Pope Gregory I's homily was a pastoral reflection, not a doctrinal definition. The Church has never taught that Mary Magdalene was a prostitute as a matter of faith. The correction of this error is not a revision of doctrine — it is a return to what Scripture actually says.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mary Magdalene at the Resurrection</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 The most important moment in Mary Magdalene's story — and one of the most important moments in the entire New Testament — is her encounter with the Risen Christ on Easter morning. The account in John 20:11–18 is one of the most moving passages in all of Scripture.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 Mary comes to the tomb early in the morning, while it is still dark. She finds the stone rolled away and the tomb empty. She runs to tell Peter and the Beloved Disciple, who come and see the empty tomb and the burial cloths. They return home — but Mary stays. She stands outside the tomb, weeping.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 She looks into the tomb and sees two angels. They ask her why she is weeping. She turns around and sees a man she does not recognize — she thinks he is the gardener. He asks her the same question: "Woman, why are you weeping? Whom are you seeking?" She asks him where the body has been taken. And then he says one word: "Mary."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 She recognizes him immediately: "Rabboni!" — Teacher. Jesus then commissions her: "Go to my brothers and say to them, 'I am ascending to my Father and your Father, to my God and your God'" (John 20:17). Mary Magdalene goes and announces to the disciples: "I have seen the Lord."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 This is the first appearance of the Risen Christ recorded in the Gospels. The first witness to the Resurrection is a woman — and that woman is Mary Magdalene.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -111,31 +112,31 @@ export default function SaintMaryMagdalene() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">"Apostle to the Apostles": What This Title Means</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 The title "Apostle to the Apostles" (Apostola Apostolorum) was given to Mary Magdalene by the early Church Fathers, including St. Thomas Aquinas, who used it in the 13th century. The title reflects the fact that she was sent (apostolos means "one who is sent") by the Risen Christ to announce the Resurrection to the Apostles — making her, in a real sense, the first apostle of the Resurrection.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 In 2016, Pope Francis elevated the liturgical celebration of Mary Magdalene from a memorial to a feast — the same rank as the feasts of the Apostles. The decree, issued by the Congregation for Divine Worship, explicitly cited her role as "Apostle to the Apostles" and noted that "it seems right and proper that the same liturgical grade of feast should be offered to both the apostles and to the woman who loved Christ so much and who was loved so much by Christ."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 This elevation was not a novelty — it was a recognition of what the Church has always known. Mary Magdalene's role in the Resurrection narrative is not peripheral. It is central. She is the first witness, the first herald, the first to proclaim the Gospel of the Resurrection.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mary Magdalene in Catholic Tradition</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 After the Resurrection, Scripture tells us nothing more about Mary Magdalene. But Catholic tradition has preserved rich accounts of her later life. The most widespread Western tradition holds that she traveled to Provence in southern France, where she spent the last years of her life in contemplative prayer in a cave at Sainte-Baume (the "Holy Balm"), near Marseille.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 The basilica of Saint-Maximin-la-Sainte-Baume in Provence claims to possess her relics, which have been venerated since the 13th century. The cave at Sainte-Baume remains a major pilgrimage site to this day, drawing thousands of pilgrims each year who come to pray in the place where, according to tradition, Mary Magdalene spent her final years in union with God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 The Eastern tradition holds that Mary Magdalene traveled to Ephesus with the Virgin Mary and St. John, and that she died and was buried there. Her relics were later transferred to Constantinople.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Mary Magdalene Teaches Us</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 Mary Magdalene's story is a story of love — love that perseveres through suffering, that remains faithful when others flee, that seeks the Lord even in the darkness of grief. She teaches us several profound lessons:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The power of healing.</strong> Jesus freed Mary from seven demons. Whatever her past, whatever her suffering, she was completely transformed by her encounter with Christ. No one is beyond his healing power.</li>
                 <li><strong>The dignity of women in the Gospel.</strong> In a culture that did not accept women as legal witnesses, Jesus chose a woman as the first witness to the Resurrection. This is not an accident — it is a deliberate act that reveals the dignity God gives to women.</li>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnDrugs() {
   return (
@@ -59,33 +60,33 @@ export default function CatholicTeachingOnDrugs() {
               <Shield className="w-24 h-24 text-teal-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The Catholic Church's teaching on drugs is grounded in a single, powerful principle: the human body is a temple of the Holy Spirit (1 Corinthians 6:19–20), and we are stewards — not owners — of our own lives. This means we have a moral obligation to care for our physical and mental health, and that deliberately harming ourselves through substance abuse is a sin against the dignity God has given us.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says: CCC 2291</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The Catechism of the Catholic Church addresses drug use directly in paragraph 2291:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <p className="text-text italic leading-relaxed">
                   "The use of drugs inflicts very grave damage on human health and life. Their use, except on strictly therapeutic grounds, is a grave moral disorder. The clandestine production of and trafficking in drugs are scandalous practices; they constitute direct co-operation in evil, since they encourage people to practices gravely contrary to the moral law." (CCC 2291)
                 </p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 This paragraph is clear and unambiguous. The Church condemns the non-therapeutic use of drugs as a "grave moral disorder" — a serious sin. It also condemns the production and trafficking of drugs as a form of cooperation in evil. The language is strong because the harm is real: drug abuse destroys individuals, families, and communities.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Distinction: Medicinal Use vs. Recreational Abuse</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The Catechism makes an important distinction: drug use is condemned "except on strictly therapeutic grounds." This means the Church does not condemn the use of medications — including powerful ones like opioids — when they are prescribed by a physician for legitimate medical purposes.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 A cancer patient taking morphine for pain relief is not sinning. A person taking prescribed psychiatric medication for depression or anxiety is not sinning. The Church recognizes that medicine is a gift from God, and that caring for our health — including through medication — is a moral good.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 What the Church condemns is the use of substances for the purpose of intoxication, escape from reality, or the pursuit of artificial pleasure — especially when this use damages health, impairs reason, or leads to addiction. The key moral categories are:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Therapeutic use:</strong> Permitted and often morally required as part of caring for one's health.</li>
                 <li><strong>Recreational use that impairs reason:</strong> Gravely sinful, because reason is the faculty by which we know and love God and make moral choices.</li>
@@ -94,9 +95,9 @@ export default function CatholicTeachingOnDrugs() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Drug Abuse Is a Sin: Three Reasons</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The Church's condemnation of drug abuse is not arbitrary. It flows from three fundamental moral principles:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>1. The dignity of the body.</strong> The human body is not a machine to be used and discarded. It is the temple of the Holy Spirit (1 Corinthians 6:19) and will be resurrected on the last day. We are obligated to care for it. Deliberately poisoning or degrading the body through drug abuse is a sin against the fifth commandment ("You shall not kill"), which includes the obligation not to harm oneself.
               </p>
@@ -113,37 +114,37 @@ export default function CatholicTeachingOnDrugs() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Question of Marijuana</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 Marijuana (cannabis) is one of the most debated substances in contemporary culture, and many Catholics wonder what the Church teaches about it specifically. The Catechism does not mention marijuana by name, but the principles of CCC 2291 apply directly.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 Medical marijuana — used under a physician's supervision for legitimate therapeutic purposes (pain management, nausea from chemotherapy, certain neurological conditions) — falls under the category of therapeutic use and is not condemned by the Church. The key is that it is used medicinally, not for intoxication.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 Recreational marijuana use — used for the purpose of getting high, altering consciousness, or escaping reality — is a different matter. It impairs reason, can lead to psychological dependence, and is used precisely for the intoxication the Church condemns. Most moral theologians conclude that recreational marijuana use is at least a venial sin, and habitual use that leads to addiction or significant impairment of reason is a mortal sin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The fact that marijuana is legal in many jurisdictions does not change its moral status. The Church teaches that legality and morality are not the same thing. Many things that are legal are still sinful; many things that are illegal are morally neutral or even good.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Addiction: Disease and Sin</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The Church's approach to addiction is nuanced and compassionate. Addiction is recognized as both a disease and a moral condition — and these two dimensions are not contradictory.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 As a disease, addiction involves real neurological changes in the brain that impair the addict's ability to choose freely. The Church recognizes that diminished freedom reduces moral culpability. A person in the grip of severe addiction may not be fully responsible for their continued use — their freedom has been compromised by the disease.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 At the same time, addiction typically begins with free choices — the initial decision to use drugs, the decision to continue despite warning signs. These initial choices carry moral weight. And even in the midst of addiction, the person retains some degree of freedom and responsibility — the freedom to seek help, to pray, to reach out to the Church and to recovery programs.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The Church does not condemn the addict. It condemns the sin of drug abuse while extending mercy and hope to those who suffer from addiction. Pope Francis has spoken movingly about the need for the Church to accompany those struggling with addiction, not to judge them from a distance.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Path to Recovery</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 For Catholics struggling with addiction, the Church offers a rich array of resources for healing and recovery:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>The Sacraments.</strong> The Sacrament of Reconciliation (Confession) is a powerful source of healing for those struggling with addiction. Confessing the sin of drug abuse, receiving absolution, and committing to amendment of life is a genuine spiritual turning point. The Eucharist — received in a state of grace — nourishes the soul and strengthens the will. The Anointing of the Sick can be received by those whose addiction has become a serious illness.
               </p>

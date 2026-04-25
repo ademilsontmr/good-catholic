@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMarriageGuide() {
   return (
@@ -76,39 +77,39 @@ export default function CatholicMarriageGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 In a culture that often treats marriage as a contract between two people — dissoluble when inconvenient — the Catholic Church stands as a bold witness to a radically different vision. Marriage, the Church teaches, is a covenant modeled on the love of Christ for His Church: total, faithful, fruitful, and permanent. It is one of the seven sacraments, a channel of grace that sanctifies the spouses and the family they build together.
-              </p>
+              </LinkedText>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 Whether you're preparing for marriage, already married and wanting to deepen your understanding, or simply curious about what the Church teaches, this guide covers the essential theology, the practical preparation, and the most common questions American Catholics have about Holy Matrimony.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Marriage as a Sacrament
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 The Catechism of the Catholic Church teaches that "the matrimonial covenant, by which a man and a woman establish between themselves a partnership of the whole of life, is by its nature ordered toward the good of the spouses and the procreation and education of offspring; this covenant between baptized persons has been raised by Christ the Lord to the dignity of a sacrament" (CCC 1601).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 What makes Catholic marriage unique is that the spouses themselves are the ministers of the sacrament. The priest or deacon is the Church's official witness, but the couple confers the sacrament on each other through their free consent. This is why the exchange of vows — not the blessing of the priest — is the essential act of the sacrament.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 As a sacrament, marriage is a channel of grace. The couple receives the grace they need to love each other as Christ loves the Church — sacrificially, faithfully, and fruitfully. This grace does not make marriage easy, but it makes it possible to live out the vows even in difficult times.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Two Properties of Marriage: Unity and Indissolubility
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 The Church teaches that marriage has two essential properties: unity (it is between one man and one woman) and indissolubility (it cannot be dissolved). These are not arbitrary rules — they flow from the very nature of the marital covenant and from Christ's explicit teaching.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 When the Pharisees asked Jesus about divorce, He replied: "What God has joined together, no human being must separate" (Matthew 19:6). He went further: "Whoever divorces his wife and marries another commits adultery against her; and if she divorces her husband and marries another, she commits adultery" (Mark 10:11–12). The Church takes these words seriously.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 Indissolubility means that a valid, consummated sacramental marriage between two baptized persons cannot be dissolved by any human authority — not by the couple, not by the state, and not even by the Pope. This is not a burden but a gift: it means that the love spouses pledge to each other is real, permanent, and unconditional.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">The Four Marks of Conjugal Love (CCC 1643–1654)</h3>
@@ -128,54 +129,54 @@ export default function CatholicMarriageGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Catholic Marriage Preparation
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 The Catholic Church requires couples to complete a marriage preparation program before their wedding. This is not bureaucratic red tape — it is the Church's way of helping couples build a strong foundation for their marriage. Studies consistently show that couples who complete marriage preparation have lower divorce rates and higher marital satisfaction.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 Marriage preparation typically includes: meeting with the parish priest or deacon several times, completing a pre-marital inventory (such as FOCCUS or PREPARE/ENRICH), attending a Pre-Cana program or marriage preparation weekend, and discussing key topics such as communication, finances, family of origin, children, and faith.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 Couples should contact their parish at least six months to a year before their desired wedding date. Some parishes require even more lead time. The earlier you begin, the more time you have for thorough preparation.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Natural Family Planning
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 The Catholic Church teaches that each act of marital intercourse must remain open to the possibility of new life. This means that artificial contraception — which deliberately closes the marital act to procreation — is contrary to the nature of marriage and the teaching of the Church (Humanae Vitae, 1968).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 Natural Family Planning (NFP) is the Church-approved method for spacing or limiting pregnancies. NFP involves observing and charting the woman's natural fertility signs (such as basal body temperature, cervical mucus, and cycle length) to identify fertile and infertile periods. When couples have serious reasons to avoid pregnancy, they abstain from intercourse during the fertile window.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 NFP is not the "rhythm method" — modern methods are highly effective (over 99% when used correctly) and are recognized by the World Health Organization. More importantly, NFP respects the dignity of both spouses and the integrity of the marital act. Many couples report that practicing NFP deepens their communication, mutual respect, and intimacy.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Annulment vs. Divorce: What's the Difference?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 Many Catholics confuse annulment with divorce. They are fundamentally different. Divorce is a civil declaration that a marriage has ended. The Catholic Church does not grant divorces, and a civil divorce does not dissolve a sacramental marriage in the eyes of the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 An annulment (formally called a Declaration of Nullity) is a Church declaration that a valid sacramental marriage never existed — not that the marriage is being dissolved, but that it was never truly formed in the first place. This can happen for various reasons: lack of proper consent, a serious psychological incapacity, a hidden intention against permanence or fidelity, or other impediments.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 A Catholic who is civilly divorced but has not received an annulment is still considered married in the eyes of the Church and cannot remarry in the Church. If they wish to remarry, they must first seek an annulment through the diocesan marriage tribunal. The process involves submitting a petition, providing testimony, and having the case reviewed by trained canonists.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Mixed Marriages and Interfaith Weddings
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 A "mixed marriage" in Catholic terminology refers to a marriage between a Catholic and a baptized non-Catholic Christian. A "disparity of cult" refers to a marriage between a Catholic and an unbaptized person. Both require special permission from the bishop.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 In a mixed marriage, the Catholic party must promise to remain Catholic and to do all in their power to raise the children Catholic. The non-Catholic party must be informed of this promise. The marriage can take place in a Catholic church, and the Catholic party must follow the canonical form (the Church's requirements for a valid marriage).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 Interfaith marriages present unique challenges and require careful preparation. Couples should discuss their religious differences honestly before marriage, including how they will practice their faith, how they will raise their children, and how they will handle religious holidays and traditions. Pre-Cana programs often include specific sessions for interfaith couples.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

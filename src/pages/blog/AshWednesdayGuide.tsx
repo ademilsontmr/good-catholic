@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AshWednesdayGuide() {
   return (
@@ -84,29 +85,29 @@ export default function AshWednesdayGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-guide">
                 If you walk around any major city on Ash Wednesday, you will undoubtedly see people bearing a dark cross on their foreheads. It is one of the most visible signs of Catholic faith in secular society. 
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-guide">
                 Ash Wednesday marks the solemn start of the Lenten season. It is a day of repentance, fasting, and acknowledging our mortality as we prepare our hearts for the joy of Easter Sunday. In this guide, we'll break down everything you need to know about Ash Wednesday, from the strict fasting rules to the profound spiritual meaning behind the ashes.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What is the Meaning of the Ashes?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-guide">
                 The use of ashes as a sign of repentance has deep biblical roots. In the Old Testament, when the Israelites sinned or experienced great sorrow, they would put on sackcloth and cover themselves in ashes (see Daniel 9:3 and Jonah 3:6). It was a visceral, physical demonstration of internal grief and unworthiness.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-guide">
                 When a priest or Eucharistic minister traces the cross on your forehead, they will say one of two phrases:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><em>"Repent, and believe in the Gospel."</em> (Mark 1:15)</li>
                 <li><em>"Remember that you are dust, and to dust you shall return."</em> (Genesis 3:19)</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-guide">
                 The ashes serve a dual purpose: they remind us of our bodily mortality (we will all die eventually) and our desperate need for God's mercy and salvation. Interestingly, the ashes used are actually the burnt and blessed palm branches from the previous year's Palm Sunday.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8 mt-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">Are we supposed to keep the ashes on all day?</h3>
@@ -128,9 +129,9 @@ export default function AshWednesdayGuide() {
               </p>
 
               <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">The Rule of Abstinence (Age 14 and up)</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-guide">
                 Abstinence means refraining from eating meat. This includes beef, pork, poultry, and game. You are, however, allowed to eat fish and other seafood, as well as eggs, dairy, and animal-derived broths. Because Ash Wednesday falls on a Wednesday, the abstinence rule applies specifically to this day (and every Friday during Lent).
-              </p>
+              </LinkedText>
 
               <p className="text-text leading-relaxed mb-6 italic text-text-muted">
                 *Note: The sick, pregnant or nursing mothers, and those with severe medical conditions are heavily exempt from both fasting and abstinence.

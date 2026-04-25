@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnAngels() {
   return (
@@ -59,36 +60,36 @@ export default function CatholicTeachingOnAngels() {
               <Sparkles className="w-24 h-24 text-sky-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 In an age that tends to sentimentalize angels — turning them into chubby cherubs on greeting cards or vague spiritual forces — the Catholic Church offers something far more serious and far more beautiful: a coherent, scripturally grounded, theologically precise account of what angels are, what they do, and how they relate to human beings. This is not mythology. It is doctrine.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says About Angels (CCC 328–336)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Catechism of the Catholic Church devotes an entire section to angels (CCC 328–336), and its teaching is unambiguous. "The existence of the spiritual, non-corporeal beings that Sacred Scripture usually calls 'angels' is a truth of faith. The witness of Scripture is as clear as the unanimity of Tradition" (CCC 328).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Catechism teaches that angels are "purely spiritual creatures" who have "intelligence and will" (CCC 330). They are personal beings — not forces or energies — who can know, love, and choose. They are "servants and messengers of God" (CCC 329), and their whole existence is ordered toward God and toward the service of His plan of salvation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Fourth Lateran Council (1215) and the First Vatican Council (1870) both defined the existence of angels as a matter of Catholic faith. This is not a pious opinion or a theological speculation — it is a defined dogma of the Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Nature of Angels: Purely Spiritual Beings</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 Angels are purely spiritual beings — they have no bodies. This is one of the most important things to understand about them. When angels appear in Scripture with human form (as they often do), this is an accommodation to human perception, not their natural state. They do not have wings in the literal sense; the wings depicted in Christian art symbolize their swiftness and their closeness to God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 Because they are purely spiritual, angels have intellects and wills that far surpass those of human beings. They know things directly and intuitively, without the slow process of reasoning that humans require. Their wills are powerful and their choices are definitive — which is why the fall of the rebel angels was permanent and irreversible.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Church also teaches that there are many angels — indeed, an innumerable multitude. Scripture speaks of "thousands upon thousands" and "ten thousand times ten thousand" (Daniel 7:10; Revelation 5:11). The tradition has organized them into nine choirs or orders: Seraphim, Cherubim, Thrones, Dominions, Virtues, Powers, Principalities, Archangels, and Angels.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Archangels: Michael, Gabriel, and Raphael</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 Of all the angels, only three are named in the canonical Scriptures, and the Church honors them with a shared feast day on September 29.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Saint Michael the Archangel</strong> is the great warrior and protector. His name means "Who is like God?" — a battle cry against the pride of Lucifer. He appears in the Book of Daniel as the guardian of Israel (Daniel 12:1), in the Letter of Jude casting out the devil (Jude 1:9), and in the Book of Revelation leading the heavenly armies against the dragon (Revelation 12:7–9). He is the patron of soldiers, police officers, and the Church militant. The prayer to St. Michael — "Saint Michael the Archangel, defend us in battle" — was composed by Pope Leo XIII after a vision and was prayed after every Low Mass until the 1960s.
               </p>
@@ -105,56 +106,56 @@ export default function CatholicTeachingOnAngels() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Guardian Angels: Every Person Has One (CCC 336)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 One of the most consoling teachings of the Catholic Church is that every human being has a personal guardian angel. The Catechism states: "From its beginning until death, human life is surrounded by their watchful care and intercession. 'Beside each believer stands an angel as protector and shepherd leading him to life'" (CCC 336, quoting St. Basil).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 This teaching is rooted in Scripture. Jesus himself says: "See that you do not despise one of these little ones. For I tell you that their angels in heaven always see the face of my Father in heaven" (Matthew 18:10). The Acts of the Apostles records that when Peter was miraculously freed from prison, the disciples initially thought it was "his angel" at the door (Acts 12:15) — suggesting that the early Church took guardian angels for granted.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The feast of the Guardian Angels is celebrated on October 2. The traditional prayer to one's guardian angel — "Angel of God, my guardian dear, to whom God's love commits me here, ever this day be at my side, to light and guard, to rule and guide" — is one of the first prayers Catholic children learn.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Fall of the Angels: Lucifer and the Rebel Angels (CCC 391–395)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Church also teaches that some angels freely chose to reject God — and that this choice was permanent. "It was the devil and the other demons who were created by God good in their nature but became evil by their own doing" (Fourth Lateran Council, quoted in CCC 391).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Catechism teaches that the fall of the angels was a "radical and irrevocable rejection of God and his reign" (CCC 392). The nature of their sin is traditionally understood as pride — a refusal to serve, a desire to be like God on their own terms. The name "Lucifer" (meaning "light-bearer") refers to the highest of the fallen angels before his fall; after his rebellion, he is called Satan or the devil.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Book of Revelation describes this cosmic battle: "Then war broke out in heaven. Michael and his angels fought against the dragon, and the dragon and his angels fought back. But he was not strong enough, and they lost their place in heaven. The great dragon was hurled down — that ancient serpent called the devil, or Satan, who leads the whole world astray" (Revelation 12:7–9).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Church teaches that the devil and the demons are real personal beings who actively work against human salvation. This is not mythology — it is defined Catholic doctrine. The existence of the devil is affirmed in the Catechism (CCC 391–395) and in the rite of exorcism, which the Church has always maintained.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Angels in Scripture: From Genesis to Revelation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 Angels appear throughout the entire Bible, from the first book to the last. In Genesis, the cherubim guard the entrance to Eden after the Fall (Genesis 3:24), and angels visit Abraham at Mamre (Genesis 18). Jacob wrestles with an angel (Genesis 32:22–32). An angel stops Abraham from sacrificing Isaac (Genesis 22:11–12).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 In the New Testament, angels announce the birth of John the Baptist and Jesus (Luke 1), minister to Jesus after his temptation in the desert (Matthew 4:11), strengthen him in Gethsemane (Luke 22:43), and announce his resurrection (Matthew 28:2–7). The Book of Revelation is saturated with angelic activity — angels with trumpets, angels with bowls of wrath, angels guarding the throne of God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Letter to the Hebrews asks: "Are not all angels ministering spirits sent to serve those who will inherit salvation?" (Hebrews 1:14). This is the Church's answer: yes, angels are real, they are active, and they are on our side.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Catholics Relate to Angels: Prayer, Feast Days, and Devotion</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 Catholics are encouraged to develop a genuine relationship with their guardian angel and with the named archangels. This is not superstition — it is a recognition of the reality of the spiritual world and the communion of all God's creatures.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 The Church's liturgical calendar honors the angels in several ways. The feast of Saints Michael, Gabriel, and Raphael is celebrated on September 29 (Michaelmas). The feast of the Guardian Angels is October 2. The Sanctus at every Mass — "Holy, holy, holy Lord God of hosts" — is drawn from the angelic hymn of Isaiah 6:3, and Catholics join their voices to the angels in praising God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 Traditional Catholic devotion includes praying to one's guardian angel each morning, asking for protection and guidance. Many Catholics also pray the Prayer to St. Michael, especially in times of spiritual warfare. The Angelus — prayed three times daily at 6 a.m., noon, and 6 p.m. — commemorates the Annunciation, when Gabriel brought God's message to Mary.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Misconceptions About Angels</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 Several popular ideas about angels are simply wrong from a Catholic perspective:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Angels are not dead humans.</strong> When people die, they do not become angels. Angels are a completely different order of creation. The saints in heaven are glorified human beings, not angels.</li>
                 <li><strong>Angels do not earn their wings.</strong> The idea that "every time a bell rings, an angel gets its wings" is a charming movie line, not Catholic theology. Angels are purely spiritual beings who do not have wings in the literal sense.</li>

@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintAnneAndJoachim() {
   return (
@@ -59,9 +60,9 @@ export default function SaintAnneAndJoachim() {
               <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 In the great tapestry of salvation history, every thread matters. The story of Saints Anne and Joachim reminds us that God's greatest works often begin in hiddenness, in waiting, and in the faithfulness of ordinary people who trust him even when their prayers seem unanswered. Their daughter Mary would become the Mother of God — but first, they had to wait.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Scripture and Tradition Say</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -70,31 +71,31 @@ export default function SaintAnneAndJoachim() {
               <p className="text-text leading-relaxed mb-6">
                 The <em>Protoevangelium</em> describes Joachim as a wealthy and devout man of the tribe of Judah, and Anne as his wife. They were elderly and childless — a condition that, in the ancient world, was considered a sign of divine disfavor and was a source of deep shame and sorrow. Joachim's offerings at the Temple were even rejected by a priest who told him that a man without children had no right to offer sacrifice.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 Devastated, Joachim withdrew into the desert to fast and pray. Anne, left alone at home, also prayed fervently, lamenting her barrenness. Then, in a moment that echoes the stories of Abraham and Sarah, Hannah and Elkanah, and Zechariah and Elizabeth, an angel appeared to each of them separately and announced that Anne would conceive and bear a child who would be spoken of throughout the world.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Birth of Mary and Her Presentation at the Temple</h2>
               <p className="text-text leading-relaxed mb-6">
                 According to the tradition preserved in the <em>Protoevangelium</em>, Anne conceived and gave birth to a daughter, whom she named Mary. From the very beginning, Mary was set apart: Anne vowed that her child would be consecrated to God, and when Mary was three years old, Joachim and Anne brought her to the Temple in Jerusalem and presented her to the Lord.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 This event — the Presentation of Mary at the Temple — is celebrated as a feast in the Catholic Church on November 21. It is one of the oldest Marian feasts in the liturgical calendar, attested in the East from the 6th century and in the West from the 11th century.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 The tradition holds that Mary lived in the Temple precincts, nourished by angels, until she was of marriageable age and was entrusted to Joseph. Whether this is to be understood literally or symbolically, it expresses a profound theological truth: Mary was entirely consecrated to God from her earliest years, prepared by divine providence to be the Mother of the Savior.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Immaculate Conception and Its Connection to Anne</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 The Catholic doctrine of the Immaculate Conception — defined as a dogma by Pope Pius IX in 1854 — holds that Mary was conceived without original sin, preserved from the moment of her conception by a singular grace of God in view of the merits of Jesus Christ. This means that the very moment Anne conceived Mary, God acted in a unique and extraordinary way.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 Saint Anne is thus intimately connected to one of the most profound mysteries of the faith. She was the human instrument through whom God prepared the vessel that would carry his Son. Her womb was the place where the Immaculate Conception occurred — where God's grace acted in a way it has never acted before or since.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 This connection has made Saint Anne a particularly beloved figure in Catholic devotion, especially among mothers and grandmothers who see in her a model of faithful parenthood and a powerful intercessor for their families.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know the saints?"
@@ -102,12 +103,12 @@ export default function SaintAnneAndJoachim() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Veneration in the Church: Feast Day and Major Shrines</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 The feast of Saints Anne and Joachim is celebrated on July 26 in the Roman Rite. This date has been observed since at least the 6th century in the East, and was extended to the universal Church in the 16th century. In the current Roman Calendar, they share a single feast day, reflecting their inseparable role as the parents of Mary.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 The veneration of Saint Anne in particular has given rise to some of the most important pilgrimage sites in the Catholic world:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Sainte-Anne-de-Beaupré (Quebec, Canada).</strong> One of the most visited pilgrimage sites in North America, this basilica near Quebec City has been a place of pilgrimage since 1658. Countless miracles have been reported there, and the walls of the basilica are lined with crutches and braces left by those who were healed.</li>
                 <li><strong>Sainte-Anne d'Auray (Brittany, France).</strong> The site of an apparition of Saint Anne to a Breton peasant in 1625, this shrine in Brittany is one of the most important pilgrimage sites in France, drawing hundreds of thousands of pilgrims each year.</li>
@@ -115,9 +116,9 @@ export default function SaintAnneAndJoachim() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saint Anne as Patron Saint</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 Saint Anne is the patron saint of a remarkably wide range of people and causes, reflecting the breadth of her intercession:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Mothers and grandmothers</li>
                 <li>Pregnant women and women in labor</li>
@@ -126,9 +127,9 @@ export default function SaintAnneAndJoachim() {
                 <li>Canada (she is the patron of the province of Quebec)</li>
                 <li>Brittany (France)</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 Saint Joachim is the patron saint of fathers, grandfathers, and grandparents generally. Together, they are the patrons of all grandparents and of the family.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayers to Saint Anne</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
@@ -139,15 +140,15 @@ export default function SaintAnneAndJoachim() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What They Teach Us About Faith and Family</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 The story of Saints Anne and Joachim speaks to every family that has known waiting, disappointment, and unanswered prayer. They waited for a child for years — perhaps decades — and their prayer was finally answered in a way that exceeded anything they could have imagined. Their daughter became the Mother of God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 Their story teaches us that God's timing is not our timing, and that the most important things in salvation history often begin in hiddenness and waiting. It teaches us that faithful, persevering prayer is never wasted. And it teaches us that the holiness of ordinary family life — the love of husband and wife, the raising of children, the transmission of faith from one generation to the next — is not a lesser calling but a participation in God's own plan of salvation.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 Grandparents in particular can find in Saints Anne and Joachim powerful models and intercessors. They remind us that grandparents play an irreplaceable role in the transmission of faith — that the prayers of a grandmother, the example of a grandfather, the stories told around the family table, are among the most powerful forces in the formation of the next generation of disciples.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

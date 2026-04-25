@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhyYoungCatholicsLeave() {
   return (
@@ -60,45 +61,45 @@ export default function WhyYoungCatholicsLeave() {
             </div>
             <div className="prose prose-lg max-w-none">
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The numbers are striking. According to Pew Research Center, approximately 13% of all American adults are former Catholics — people who were raised in the faith and have since left. The Catholic Church loses more members than any other Christian denomination in the United States. For every person who converts to Catholicism, roughly six people leave. This is not a minor pastoral challenge. It is a crisis.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 But statistics do not tell the whole story. Behind every number is a person — a person who was baptized, who received First Communion, who was confirmed, and who at some point walked away. Understanding why they left is the first step toward reaching them. And the Church has something profound to offer those who are searching.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Scale of the Problem</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 Pew Research data paints a sobering picture. About 13% of US adults identify as former Catholics. Among millennials and Gen Z, the numbers are even more striking — a significant majority of those raised Catholic no longer practice the faith by their mid-twenties. The United States has more former Catholics than any other religious group except current Catholics and evangelical Protestants.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The pattern is consistent: most people who leave the Catholic Church do so before the age of 25. The college years are the most critical period. But many also leave in their late twenties and thirties, as they form families and find that the faith they were raised in no longer seems relevant to their lives.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 This is not a new problem — every generation has seen some attrition from the faith. But the scale of the current exodus is unprecedented in American Catholic history, and it demands an honest examination of the reasons.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reason 1: They Were Never Truly Formed</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The most fundamental reason young Catholics leave is that they were never truly formed in the faith. They attended religious education classes, received the sacraments, and went to Mass — but they never had a personal encounter with Jesus Christ. They knew about the faith but did not know the Person at the center of it.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Pope Benedict XVI identified this as the central challenge of the new evangelization: "Being Christian is not the result of an ethical choice or a lofty idea, but the encounter with an event, a person, which gives life a new horizon and a decisive direction" (<em>Deus Caritas Est</em>, §1). When that encounter never happens — when faith is reduced to rules, rituals, and cultural identity — it has no roots. When the first serious challenge comes, it falls.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 This is not primarily a failure of catechesis, though catechesis matters. It is a failure of evangelization — of helping young people encounter the living Christ. The solution is not more information about the faith but a genuine encounter with the Person of Jesus Christ, mediated through prayer, the sacraments, and the witness of faithful Catholics.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reason 2: Intellectual Doubts</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 Many young Catholics leave because they encounter intellectual challenges to their faith that they are not equipped to answer. Science seems to contradict Genesis. The problem of evil seems to disprove a good God. Historical scholarship seems to undermine the reliability of the Gospels. And no one ever gave them the tools to respond.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The tragedy is that the Catholic Church has the greatest intellectual tradition in human history. For 2,000 years, the greatest minds in Western civilization — Augustine, Aquinas, Newman, Chesterton, Ratzinger — have engaged with these exact questions and found compelling answers. The faith is not intellectually indefensible. It is intellectually robust. But many Catholics never discover this because they were never introduced to the Catholic intellectual tradition.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The solution is not to avoid the hard questions but to engage them honestly and confidently. The Church has answers. Catholics need to know them.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6">
                 <p className="text-text italic leading-relaxed mb-2">
@@ -108,18 +109,18 @@ export default function WhyYoungCatholicsLeave() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reason 3: Disagreement with Moral Teaching</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 A significant number of young Catholics leave because they disagree with specific moral teachings of the Church — most commonly on contraception, homosexuality, and divorce. They find these teachings incompatible with their own moral intuitions or with the values of the culture around them, and they conclude that the Church is wrong.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 This is a serious challenge that deserves a serious response — not a dismissal. The Church's moral teaching is not arbitrary. It is rooted in a coherent vision of human nature, human dignity, and human flourishing. It is worth understanding before rejecting.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 On contraception: the Church's teaching is rooted in the theology of the body and the inseparability of the unitive and procreative meanings of the conjugal act. On homosexuality: the Church teaches that every person with same-sex attraction is made in the image of God and deserves love and respect, while also teaching that homosexual acts are contrary to the natural law. On divorce: the Church's teaching flows from the words of Jesus himself, who taught the indissolubility of marriage.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 These teachings are demanding. But they are not arbitrary. They are rooted in a vision of human flourishing that is worth taking seriously — even if it is countercultural.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Where are you on your Catholic journey?"
@@ -127,42 +128,42 @@ export default function WhyYoungCatholicsLeave() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reason 4: Scandal</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The clergy sexual abuse crisis has driven many Catholics — young and old — away from the Church. The revelation that priests abused children, and that bishops covered it up, was a profound betrayal of trust. For many people, it made it impossible to remain in the Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 This pain is real and legitimate. The abuse was real. The cover-up was real. The harm done to victims was real. The Church has acknowledged this, apologized for it, and implemented significant reforms. But the damage to trust has been enormous.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 For those who have left because of scandal, the Church offers this: the Church is holy despite the sins of her members. The saints — Francis of Assisi, Teresa of Ávila, John Paul II, Mother Teresa — are the true face of the Church. The sinners — including sinful priests and bishops — are a betrayal of what the Church is called to be, not a definition of it. Jesus himself warned that there would be wolves among the sheep (Matthew 7:15). The presence of sinners in the Church does not disprove the Church's divine origin; it confirms the need for the redemption that the Church offers.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reason 5: Felt Unwelcome or Hurt</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 Many people leave the Church not because of theological disagreement but because of a bad experience — a cold reception at a parish, a harsh word from a priest, a feeling of being judged or excluded. The Church is made up of human beings, and human beings can be unkind, unwelcoming, and judgmental.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 This is a real failure of the Church's members — a failure to live up to the love that Christ commands. But it is a failure of people, not of the Church herself. The Church's teaching is clear: every person is to be welcomed with love and dignity. "By this all people will know that you are my disciples, if you have love for one another" (John 13:35).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 If you have been hurt by the Church — by a priest, a parish, or a fellow Catholic — your pain is real and it matters. But do not let the failure of a human being keep you from the God who loves you infinitely. The Church is not the people who hurt you. The Church is the Body of Christ, the sacrament of salvation, the home that God has prepared for you.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reason 6: Gradual Drift</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 Perhaps the most common reason young Catholics leave is the most undramatic: they simply drifted away. There was no crisis, no dramatic break, no specific reason. They just gradually stopped going to Mass. Life got busy. Sunday mornings became the time for sleeping in, doing laundry, or catching up on work. And one Sunday became two, and two became a month, and a month became a year.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 This gradual drift is insidious precisely because it does not feel like a decision. It feels like nothing — like the absence of a decision. But it is, in fact, a choice: the choice to let other things take priority over God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The antidote to gradual drift is intentionality. Faith does not maintain itself. It requires active cultivation — regular Mass attendance, prayer, the sacraments, Catholic community. Without these, faith withers. With them, it grows.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Offers Those Who Are Searching</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 If you are a lapsed Catholic who is reading this — whether out of curiosity, nostalgia, or a genuine spiritual hunger — here is what the Church offers you:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Not rules, but a Person.</strong> The Catholic faith is not primarily a set of rules or a cultural identity. It is a relationship with Jesus Christ — the Son of God who became man, died for your sins, and rose from the dead. Everything else in the Church — the sacraments, the moral teaching, the liturgy, the saints — flows from this central reality.
               </p>
@@ -177,36 +178,36 @@ export default function WhyYoungCatholicsLeave() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Addressing the Intellectual Doubts</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 If intellectual doubts are keeping you from the Church, know that the Catholic intellectual tradition has engaged with every major objection to the faith — and found compelling answers. Faith and reason are not enemies. The Church that gave the world universities, hospitals, and the scientific method is not afraid of honest inquiry.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 Start with these resources: G.K. Chesterton's <em>Orthodoxy</em> (a brilliant, witty defense of Christianity), Peter Kreeft's <em>Handbook of Catholic Apologetics</em> (clear answers to common objections), and Bishop Robert Barron's <em>Catholicism</em> series (a beautiful, intellectually serious presentation of the faith). These authors will show you that the Catholic faith is not intellectually indefensible — it is intellectually compelling.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Addressing the Moral Disagreements</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 If you have left because you disagree with the Church's moral teaching, consider this: the Church's moral teaching is not arbitrary. It is rooted in a coherent vision of human nature and human flourishing — a vision that has been developed over 2,000 years by some of the greatest moral thinkers in history. It is worth understanding before rejecting.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The Church's moral teaching is demanding. But it is demanding in the way that a loving parent is demanding — not to burden you, but because it knows what is truly good for you. The Church's teaching on sexuality, for example, is not a set of arbitrary prohibitions. It is a vision of human love and human dignity that, when lived, leads to genuine flourishing.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 You do not have to agree with every teaching before you return to the Church. But you owe it to yourself to understand the teaching before you reject it. Read <em>Humanae Vitae</em>. Read John Paul II's Theology of the Body. Read the Catechism. Engage with the best arguments for the Church's position before concluding that it is wrong.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Addressing the Scandal</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The clergy abuse crisis was a genuine betrayal — of victims, of the faithful, and of the Gospel. The Church has acknowledged this, apologized for it, and implemented significant reforms. But the damage to trust is real, and it is understandable that many people have found it impossible to remain.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 For those who have left because of scandal, consider this: the Church is holy despite the sins of her members. The saints — not the abusers — are the true face of the Church. The presence of sinners in the Church does not disprove its divine origin; it confirms the need for the redemption that the Church offers. Jesus himself chose Judas as one of the Twelve. The presence of betrayal within the Church is not a surprise to God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Come Back</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 If you are ready to come back — or even just curious about the possibility — here is how to start:
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-4">
                 <strong>1. Go to Confession.</strong> This is the most important first step. The Sacrament of Confession is the Church's gift for exactly this situation — a place where you can bring everything that has happened since you left, receive God's forgiveness, and start fresh. You do not need to have everything figured out. You just need to take the first step.
               </p>
@@ -227,9 +228,9 @@ export default function WhyYoungCatholicsLeave() {
                 <p className="text-text-muted text-sm">— St. Augustine, <em>Confessions</em>, Book I</p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 Augustine wrote those words in the 4th century, but they describe the experience of every human heart in every age. The restlessness you feel — the sense that something is missing, that the world's answers are not enough — is not a problem to be solved. It is a sign that you were made for something more. You were made for God. And God is waiting for you to come home.
-              </p>
+              </LinkedText>
 
             </div>
 

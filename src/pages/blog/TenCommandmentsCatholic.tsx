@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TenCommandmentsCatholic() {
   return (
@@ -94,9 +95,9 @@ export default function TenCommandmentsCatholic() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Do Catholics Number the Commandments Differently?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ten-commandments-catholic">
                 One of the most common sources of confusion between Catholics and Protestants is the numbering of the Ten Commandments. Most Protestants (following Luther and Calvin) use a different numbering system than Catholics (following the tradition of St. Augustine and the Latin Church).
-              </p>
+              </LinkedText>
 
               <div className="overflow-x-auto mb-8">
                 <table className="w-full text-sm border-collapse">
@@ -122,12 +123,12 @@ export default function TenCommandmentsCatholic() {
                 </table>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ten-commandments-catholic">
                 Catholics (following Augustine and the Western tradition) combine what Protestants treat as the 1st and 2nd Commandments (no other gods + no graven images) into a single 1st Commandment, arguing that the prohibition of idols is implied in the prohibition of false gods. To reach ten, Catholics then divide the final Commandment against coveting into two: one about coveting a neighbor's spouse (9th) and one about coveting goods (10th).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ten-commandments-catholic">
                 Neither approach is doctrinally wrong — both reach ten commandments — but the difference can cause confusion when comparing Catholic and Protestant religious education materials.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-6">
                 The Ten Commandments: Full Catholic Text and Explanation
@@ -257,33 +258,33 @@ export default function TenCommandmentsCatholic() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Two Great Commandments: Jesus's Summary
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ten-commandments-catholic">
                 When a Pharisee asked Jesus which is the greatest commandment, He gave a response that the Church has always seen as the interpretive key to the entire Decalogue:
-              </p>
+              </LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text leading-relaxed italic text-center">
                   "You shall love the Lord your God with all your heart, and with all your soul, and with all your mind. This is the greatest and first commandment. And a second is like it: You shall love your neighbor as yourself. On these two commandments hang all the law and the prophets."
                 </p>
                 <p className="text-text-muted text-center mt-2">— Matthew 22:37-40</p>
               </div>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ten-commandments-catholic">
                 The Catechism organizes its entire treatment of the Ten Commandments around this dual love: Commandments 1–3 concern love of God; Commandments 4–10 concern love of neighbor. The Decalogue is not ultimately about prohibition — it is the map of human love: what it looks like to love God and neighbor completely.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Are Catholics Still Bound by the Old Testament Law?
               </h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ten-commandments-catholic">
                 This is one of the most common theological questions about the Commandments. The Church distinguishes three types of precepts in the Old Testament:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Moral precepts</strong> (the Ten Commandments) — these express the natural moral law written on the human heart and remain permanently binding.</li>
                 <li><strong>Ceremonial precepts</strong> (temple rituals, dietary laws, circumcision, etc.) — these foreshadowed Christ and have been fulfilled and superseded by the New Covenant.</li>
                 <li><strong>Judicial precepts</strong> (civil laws of ancient Israel) — these governed a specific historical community and are not binding today.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ten-commandments-catholic">
                 The Ten Commandments, as moral precepts, are permanently binding on all people because they express the natural moral law accessible to human reason, and because Christ explicitly affirms them in the New Testament (Mt 5:17-20; 19:16-22). Grace does not abolish the moral law — it fulfills and perfects it.
-              </p>
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[

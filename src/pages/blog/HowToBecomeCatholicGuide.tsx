@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToBecomeCatholicGuide() {
   return (
@@ -79,50 +80,50 @@ export default function HowToBecomeCatholicGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Every year, hundreds of thousands of people around the world become Catholic. They come from every background — Protestant Christians, people of other faiths, and those with no religious background at all. What they share is a conviction that the Catholic Church is where God is calling them.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 If you are considering becoming Catholic, this guide is for you. It explains the process clearly, answers the most common questions, and helps you take the first step.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Can Become Catholic?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Anyone who is not already Catholic can become Catholic — regardless of their background, age, or past. The Catholic Church welcomes:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Unbaptized adults</strong> — those who have never been baptized in any Christian tradition</li>
                 <li><strong>Baptized non-Catholics</strong> — Protestants, Orthodox Christians, and others who have been validly baptized but are not Catholic</li>
                 <li><strong>Lapsed Catholics</strong> — those who were baptized Catholic but have been away from the Church and want to return</li>
                 <li><strong>Children of catechetical age</strong> — children (usually 7 and older) who have not yet received the sacraments</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 The process is slightly different for each group, but the core journey — learning the faith, preparing for the sacraments, and entering fully into the life of the Church — is the same.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The RCIA: The Path to Becoming Catholic</h2>
               <p className="text-text leading-relaxed mb-6">
                 The primary path to becoming Catholic as an adult is through the <strong>Rite of Christian Initiation of Adults (RCIA)</strong> — a process of formation, instruction, and gradual initiation into the Catholic faith. RCIA is not a class you pass or fail; it is a journey of faith accompanied by the community of the Church.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 The RCIA was restored by the Second Vatican Council and promulgated in 1972. It is modeled on the ancient catechumenate — the process by which the early Church prepared converts for Baptism. It typically runs from September through Easter, though many parishes offer year-round entry.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 1: The Period of Inquiry (Pre-Catechumenate)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 The journey begins with inquiry — a period of exploration with no commitment required. You can ask any question, express any doubt, and take as much time as you need. This is not a time for formal instruction but for honest conversation about faith, God, and the Catholic Church.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Most parishes offer informal inquiry sessions — sometimes called "Come and See" evenings — where you can meet the RCIA team, ask questions, and get a feel for the parish community. There is no obligation to continue.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>How to start:</strong> Simply contact your local Catholic parish and say you are interested in learning about becoming Catholic. The parish office will connect you with the RCIA coordinator.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 2: The Rite of Acceptance / Rite of Welcoming</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 When you are ready to formally begin the RCIA process, you celebrate one of two rites at Sunday Mass:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Rite of Acceptance into the Order of Catechumens</strong> — for those who have never been baptized. You publicly express your desire to become Catholic and are welcomed into the catechumenate.</li>
                 <li><strong>The Rite of Welcoming Candidates</strong> — for those who have already been validly baptized in another Christian tradition. You are welcomed as a candidate for full communion with the Catholic Church.</li>
@@ -132,9 +133,9 @@ export default function HowToBecomeCatholicGuide() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 3: The Catechumenate — Learning the Faith</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 The catechumenate is the main period of formation — typically from September or October through Lent. During this time, you attend regular sessions (usually weekly) where you learn about:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>The Bible — Old and New Testament, how to read Scripture, the daily Mass readings</li>
                 <li>The Creed — the core beliefs of the Catholic faith</li>
@@ -144,9 +145,9 @@ export default function HowToBecomeCatholicGuide() {
                 <li>The Mass — the structure of the liturgy and how to participate fully</li>
                 <li>The Church — its history, structure, and mission</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 You also attend Sunday Mass regularly. After the Liturgy of the Word (the readings and homily), catechumens are traditionally dismissed to continue their reflection on the Word of God — a practice called the "dismissal." This is not exclusion but a sign of your special status as one being formed in the faith.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Where are you on your Catholic journey?"
@@ -157,49 +158,49 @@ export default function HowToBecomeCatholicGuide() {
               <p className="text-text leading-relaxed mb-6">
                 On the First Sunday of Lent, catechumens celebrate the <strong>Rite of Election</strong> — usually at the diocesan cathedral, in the presence of the bishop. This is a solemn moment: you publicly declare your intention to receive the sacraments at Easter, and the Church formally "elects" you — chooses you — for initiation.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Your name is written in the Book of the Elect — a powerful symbol of your place in the Church. From this point, you are called an "elect" (if unbaptized) or a "candidate" (if already baptized).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 5: The Period of Purification and Enlightenment (Lent)</h2>
               <p className="text-text leading-relaxed mb-6">
                 During Lent, you enter a period of deeper spiritual preparation. The focus shifts from instruction to prayer, fasting, and spiritual reflection. Three special rites — the <strong>Scrutinies</strong> — are celebrated at Sunday Mass on the Third, Fourth, and Fifth Sundays of Lent.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 The Scrutinies are rites of purification and healing — prayers over the elect asking God to free them from sin and strengthen them for the sacraments. They are based on the Gospel stories of the Samaritan woman at the well, the man born blind, and the raising of Lazarus.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 During this period, you also receive the <strong>Presentation of the Creed</strong> and the <strong>Presentation of the Lord's Prayer</strong> — the two foundational texts of the Christian life, formally handed on to you by the Church.
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 6: The Easter Vigil — Receiving the Sacraments</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 The Easter Vigil — the night before Easter Sunday — is the most sacred night of the year and the culmination of the RCIA journey. It is the night when the Church celebrates the resurrection of Christ and welcomes new members into the Body of Christ.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 At the Easter Vigil, you receive the sacraments of initiation:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Baptism</strong> — if you have never been baptized. You are immersed in or have water poured over you three times, in the name of the Father, Son, and Holy Spirit. Original sin is forgiven, and you become a child of God and a member of the Church.</li>
                 <li><strong>Confirmation</strong> — the bishop or priest anoints you with chrism oil and lays hands on you, conferring the fullness of the Holy Spirit.</li>
                 <li><strong>First Holy Communion</strong> — you receive the Body and Blood of Christ for the first time. This is the most intimate union with Christ possible in this life.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 If you are already validly baptized (as a Protestant, for example), you do not receive Baptism again — it is received only once. You receive Confirmation and First Communion, and you make a Profession of Faith.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 7: Mystagogy — Living the Faith</h2>
               <p className="text-text leading-relaxed mb-6">
                 After Easter, you enter the period of <strong>mystagogy</strong> (from the Greek, "entering into the mystery"). This is a time of deeper reflection on the sacraments you have received and integration into the life of the parish community.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Mystagogy typically lasts through Pentecost (50 days after Easter). But in a deeper sense, mystagogy never ends — the whole Christian life is a continual deepening of the mysteries received at Baptism.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Long Does It Take to Become Catholic?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 The RCIA process typically takes about one year — from September to Easter. However, the length varies:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Some parishes offer year-round entry, so you can begin at any time</li>
                 <li>The process can be shorter for those with significant prior Christian formation</li>
@@ -208,23 +209,23 @@ export default function HowToBecomeCatholicGuide() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What About Baptized Catholics Who Have Drifted Away?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 If you were baptized Catholic but have been away from the Church, you do not need to go through the full RCIA process. You are already Catholic — you simply need to return. The path back typically involves:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>Going to Confession (the Sacrament of Reconciliation)</li>
                 <li>Returning to Mass</li>
                 <li>If you have not been confirmed, receiving Confirmation</li>
                 <li>Possibly attending a "returning Catholics" program at your parish</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Many parishes offer programs specifically for returning Catholics — sometimes called "Catholics Returning Home" or "Re-membering Church." These provide a welcoming, non-judgmental space to reconnect with the faith.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find RCIA Near You</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Finding RCIA is simple:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Call your nearest Catholic parish</strong> — ask for the RCIA coordinator or director of religious education</li>
                 <li><strong>Visit the parish website</strong> — most parishes list their RCIA schedule online</li>
