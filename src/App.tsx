@@ -259,6 +259,11 @@ const CatholicTeachingOnHumility = lazy(() => import("./pages/blog/CatholicTeach
 const CatholicTeachingOnHope = lazy(() => import("./pages/blog/CatholicTeachingOnHope"));
 const SaintJohnOfTheCross = lazy(() => import("./pages/blog/SaintJohnOfTheCross"));
 
+// High-Volume Faith Articles
+const CatholicSpiritualWarfare = lazy(() => import("./pages/blog/CatholicSpiritualWarfare"));
+const FaithAndWorksCatholic = lazy(() => import("./pages/blog/FaithAndWorksCatholic"));
+const CatholicTeachingOnEndTimes = lazy(() => import("./pages/blog/CatholicTeachingOnEndTimes"));
+
 // New Doctrine & Saints Articles
 const WhatIsCatholicFaith = lazy(() => import("./pages/blog/WhatIsCatholicFaith"));
 const CatholicTeachingOnFreeMasonry = lazy(() => import("./pages/blog/CatholicTeachingOnFreeMasonry"));
@@ -758,6 +763,10 @@ const App = () => (
             <Route path="/blog/virtue-of-humility-catholic/" element={<CatholicTeachingOnHumility />} />
             <Route path="/blog/virtue-of-hope-catholic/" element={<CatholicTeachingOnHope />} />
             <Route path="/blog/saint-john-of-the-cross/" element={<SaintJohnOfTheCross />} />
+
+            <Route path="/blog/spiritual-warfare-catholic/" element={<CatholicSpiritualWarfare />} />
+            <Route path="/blog/faith-and-works-catholic/" element={<FaithAndWorksCatholic />} />
+            <Route path="/blog/catholic-teaching-on-end-times/" element={<CatholicTeachingOnEndTimes />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
