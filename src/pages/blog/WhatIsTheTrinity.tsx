@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheTrinity() {
   return (
@@ -59,49 +60,49 @@ export default function WhatIsTheTrinity() {
               <HelpCircle className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 Every time a Catholic makes the Sign of the Cross — "In the name of the Father, and of the Son, and of the Holy Spirit" — they are professing the doctrine of the Holy Trinity. Every Mass begins and ends with the Trinitarian formula. Every baptism is performed in the name of the Trinity. The Trinity is not a peripheral doctrine of Christianity; it is the foundation of everything.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 Yet the Trinity is also the most difficult doctrine in Christianity to understand. How can God be both one and three? How can the Father, Son, and Holy Spirit be distinct Persons and yet one God? These questions have occupied the greatest minds in Christian history for two thousand years. This article will explain what the Church teaches, why it teaches it, and how to think about it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Core Teaching: One God, Three Persons</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The Catechism of the Catholic Church states: "The mystery of the Most Holy Trinity is the central mystery of Christian faith and life. It is the mystery of God in himself. It is therefore the source of all the other mysteries of faith, the light that enlightens them" (CCC 234).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The doctrine of the Trinity can be summarized in three statements:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>There is one God.</li>
                 <li>The Father is God, the Son is God, and the Holy Spirit is God.</li>
                 <li>The Father is not the Son, the Son is not the Holy Spirit, and the Holy Spirit is not the Father.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 These three statements, taken together, define the Trinity. They are not contradictory — they are complementary. God is one in nature (or substance or essence) but three in Person. The three Persons are distinct — they are not three names for the same Person, or three modes in which God appears — but they share one divine nature.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a "Person" in the Trinity?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The word "person" in Trinitarian theology does not mean exactly what it means in everyday speech. In everyday speech, a "person" is an individual human being with a body, a history, and a personality. In Trinitarian theology, "person" (from the Latin persona) refers to a distinct subsistence within the one divine nature — a distinct "who" that is not a separate "what."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The three Persons of the Trinity are distinguished by their relations to each other:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Father</strong> is the first Person — the unoriginated origin, who eternally generates the Son.</li>
                 <li><strong>The Son</strong> is the second Person — eternally begotten of the Father, not made. He is the eternal Word (Logos) of God.</li>
                 <li><strong>The Holy Spirit</strong> is the third Person — who eternally proceeds from the Father and the Son (in the Western tradition) as the love between them.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 These relations — generation and procession — are eternal. There was never a time when the Son did not exist, or when the Holy Spirit did not proceed. The Trinity is not a sequence of events in time; it is the eternal life of God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Biblical Basis for the Trinity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The word "Trinity" does not appear in the Bible. But the doctrine of the Trinity is drawn from the totality of biblical revelation. Key texts include:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Matthew 28:19</strong> — "Go therefore and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit." Note: "name" (singular), not "names" — one name for three Persons.</li>
                 <li><strong>John 1:1</strong> — "In the beginning was the Word, and the Word was with God, and the Word was God." The Word (Son) is both distinct from God (the Father) and is God.</li>
@@ -112,12 +113,12 @@ export default function WhatIsTheTrinity() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Development of Trinitarian Doctrine</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The doctrine of the Trinity was not invented by the Church — it was drawn out of Scripture and the experience of the early Christian community. But it took several centuries of theological reflection and controversy to articulate it precisely.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The key controversies were:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Arianism</strong> (4th century) — Arius taught that the Son was a created being, not truly God. The Council of Nicaea (325 AD) condemned Arianism and defined that the Son is "consubstantial" (of the same substance) with the Father. The Nicene Creed — still recited at every Sunday Mass — was the result.</li>
                 <li><strong>Macedonianism</strong> (4th century) — Some accepted the full divinity of the Son but denied the full divinity of the Holy Spirit. The Council of Constantinople (381 AD) defined the full divinity of the Holy Spirit and completed the Nicene Creed.</li>
@@ -130,23 +131,23 @@ export default function WhatIsTheTrinity() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Analogies for the Trinity</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 No analogy perfectly captures the mystery of the Trinity — if it did, it wouldn't be a mystery. But some analogies can help:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>St. Patrick's shamrock</strong> — Three leaves, one plant. Helpful but limited: the leaves are parts of the plant, but the Persons are not parts of God.</li>
                 <li><strong>Water</strong> — Ice, liquid, and steam are three states of the same substance. Helpful but limited: this is modalism — one substance in three modes, not three distinct Persons.</li>
                 <li><strong>St. Augustine's psychological analogy</strong> — The human mind knows itself (the Father), generates a word or idea of itself (the Son), and loves itself (the Holy Spirit). This is Augustine's preferred analogy, drawn from the fact that humans are made in God's image.</li>
                 <li><strong>A family</strong> — Father, mother, and child are three distinct persons who share one human nature. Helpful but limited: they are three separate individuals, while the Trinity is one God.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The best approach is not to try to fully comprehend the Trinity — which is impossible for finite minds — but to contemplate it with wonder and adoration. The Trinity is not a problem to be solved but a mystery to be entered.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Trinity in Catholic Life</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 The Trinity is not just an abstract doctrine — it shapes every aspect of Catholic life:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Prayer</strong> — Catholics pray to the Father, through the Son, in the Holy Spirit. The Mass is addressed to the Father, offered through Christ, in the power of the Spirit.</li>
                 <li><strong>Baptism</strong> — Baptism is performed "in the name of the Father, and of the Son, and of the Holy Spirit" — the person is incorporated into the life of the Trinity.</li>

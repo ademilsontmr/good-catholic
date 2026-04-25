@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsOriginalSin() {
   return (
@@ -59,39 +60,39 @@ export default function WhatIsOriginalSin() {
               <HelpCircle className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 Original sin is not simply the first sin ever committed — it is a condition inherited by every human being as a consequence of that first sin. The Catechism of the Catholic Church defines it as "the sin contracted, not committed — a condition rather than an act" (CCC 404). Understanding this distinction is essential to understanding what the Church actually teaches.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Original Sin? (CCC 396–421)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The Catechism teaches that God created the first human beings — Adam and Eve — in a state of original holiness and justice. They were endowed with sanctifying grace, with harmony between body and soul, with freedom from suffering and death, and with a special friendship with God. This original state is sometimes called "original justice" or "original integrity."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 God gave Adam and Eve one prohibition: they were not to eat from the tree of the knowledge of good and evil (Genesis 2:17). This command was not arbitrary — it was an invitation to trust God's wisdom rather than their own judgment, to acknowledge that God, not the creature, is the ultimate arbiter of good and evil.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 When they disobeyed — tempted by the serpent's promise that they would "be like God, knowing good and evil" (Genesis 3:5) — they committed the first sin. The Catechism describes this sin as "a sin of pride" (CCC 397): the desire to be autonomous from God, to determine for themselves what is good and evil, to be their own gods.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The consequences were immediate and catastrophic. Adam and Eve lost sanctifying grace, the harmony of their nature was disrupted, they became subject to suffering and death, and their relationship with God was broken. This is what the Church calls "the Fall."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Fall of Adam and Eve (Genesis 3)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The account in Genesis 3 is rich with theological meaning. The serpent — identified in Christian tradition with Satan — does not simply tempt Eve to disobey. He first plants doubt: "Did God really say...?" (Genesis 3:1). Then he contradicts God directly: "You will not die" (Genesis 3:4). Finally, he offers a counterfeit promise: "You will be like God" (Genesis 3:5).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The Catechism notes that the temptation was to distrust God's goodness — to believe that God was withholding something good from them, that obedience to God was a limitation rather than a gift (CCC 397). This distrust is the root of all sin: the belief that we know better than God what is good for us.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 After the Fall, God does not abandon Adam and Eve. He seeks them out ("Where are you?" — Genesis 3:9), pronounces judgment on the serpent, and gives the first promise of redemption: "I will put enmity between you and the woman, and between your offspring and hers; he will crush your head" (Genesis 3:15). This verse — the Protoevangelium, or "first gospel" — is understood by the Church as the first announcement of Christ and Mary.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Effects of Original Sin</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The Catechism lists the effects of original sin on human nature (CCC 405–409):
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Loss of sanctifying grace.</strong> The most fundamental effect: the soul is deprived of the divine life that God had given to Adam and Eve. Human beings are no longer in the state of friendship with God that was their original condition.</li>
                 <li><strong>Concupiscence.</strong> The harmony between reason and the passions is disrupted. Human beings now experience a tendency toward sin — an inclination to prefer lower goods over higher ones, to choose pleasure over virtue, self over God. This tendency is called concupiscence. It is not itself a sin, but it is the source of temptation.</li>
@@ -106,45 +107,45 @@ export default function WhatIsOriginalSin() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Original Sin Is Transmitted</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The Catechism teaches that original sin is transmitted to all human beings "by propagation, not by imitation" (CCC 419). This means it is not transmitted by the bad example of Adam and Eve, but by the very fact of being born human — by belonging to the human family that Adam heads.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The Council of Trent (1546) defined that original sin is transmitted by generation — that is, by natural birth. Every human being, except Jesus Christ and the Virgin Mary, is born in a state of original sin. This is why the Church baptizes infants: not because they have committed personal sins, but because they are born in the condition of original sin and need to be freed from it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The Catechism acknowledges that the transmission of original sin is a mystery that is difficult to understand, but it is confirmed by the universal experience of human weakness and the universal need for redemption (CCC 404).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Baptism as the Remedy for Original Sin</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The primary remedy for original sin is Baptism. The Catechism teaches that "by Baptism all sins are forgiven, original sin and all personal sins, as well as all punishment for sin" (CCC 1263). Through Baptism, the soul receives sanctifying grace, is incorporated into Christ and His Church, and is freed from the dominion of original sin.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 However, Baptism does not remove all the effects of original sin. Concupiscence — the tendency toward sin — remains after Baptism as a source of temptation and a field for spiritual combat. The Catechism notes that this remaining tendency is "left for us to wrestle with" and that it "cannot harm those who do not consent to it" (CCC 1264).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 This is why the Christian life is not simply a matter of being baptized and then living as one pleases. Baptism begins a lifelong process of conversion, growth in virtue, and cooperation with grace — a process that the Church calls "sanctification."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Immaculate Conception: The Exception</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The Catholic Church teaches that the Virgin Mary was preserved from original sin from the very first moment of her conception — a privilege known as the Immaculate Conception. This dogma was defined by Pope Pius IX in 1854.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The Immaculate Conception does not mean that Mary was conceived without a human father (that is the Virgin Birth of Jesus). It means that, by a singular grace of God and in view of the merits of Jesus Christ, Mary was preserved from the stain of original sin that affects all other human beings.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 This privilege was fitting, the Church teaches, because Mary was to be the Mother of God — the vessel through which the Son of God would enter the world. It was appropriate that she who would carry the all-holy God should herself be holy from the first moment of her existence.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Original Sin and Evolution</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 A common question today is how the doctrine of original sin relates to the scientific theory of evolution. The Church does not require Catholics to interpret Genesis 1–3 as a literal, scientific account of human origins. Pope Pius XII, in his 1950 encyclical Humani Generis, permitted Catholics to hold that the human body evolved from pre-existing matter, while insisting that the soul is directly created by God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 The doctrinal core that must be maintained is that all human beings descend from a common origin (monogenism), that the first human beings were in a state of original holiness, that they sinned and lost that state, and that this loss is transmitted to all their descendants. How exactly this is reconciled with evolutionary biology is a matter of ongoing theological discussion.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

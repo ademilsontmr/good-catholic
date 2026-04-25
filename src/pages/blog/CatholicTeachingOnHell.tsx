@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnHell() {
   return (
@@ -59,45 +60,45 @@ export default function CatholicTeachingOnHell() {
               <Flame className="w-24 h-24 text-red-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The existence of hell is not a peripheral doctrine that Catholics are free to ignore. It is a defined dogma of the Catholic Church, taught by Scripture, affirmed by every ecumenical council that addressed the subject, and proclaimed by the Catechism of the Catholic Church. To deny hell is to contradict the explicit teaching of Jesus Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Teaches About Hell (CCC 1033–1037)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The Catechism of the Catholic Church addresses hell directly in paragraphs 1033–1037. The key definition is in CCC 1033: "We cannot be united with God unless we freely choose to love him. But we cannot love God if we sin gravely against him, against our neighbor or against ourselves: 'He who does not love remains in death. Anyone who hates his brother is a murderer, and you know that no murderer has eternal life abiding in him' (1 Jn 3:14–15). Our Lord warns us that we shall be separated from him if we fail to meet the serious needs of the poor and the little ones who are his brethren. To die in mortal sin without repenting and accepting God's merciful love means remaining separated from him for ever by our own free choice. This state of definitive self-exclusion from communion with God and the blessed is called 'hell.'"
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Several elements of this definition deserve attention. First, hell is described as "definitive self-exclusion" — it is the person's own choice, not God's arbitrary condemnation. Second, it is a state of separation from God, not merely a place of physical torment. Third, it is eternal — "for ever."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 CCC 1035 states: "The teaching of the Church affirms the existence of hell and its eternity. Immediately after death the souls of those who die in a state of mortal sin descend into hell, where they suffer the punishments of hell, 'eternal fire.' The chief punishment of hell is eternal separation from God, in whom alone man can possess the life and happiness for which he was created and for which he longs."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Jesus's Teaching on Hell (Matthew 25, Mark 9)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 No one in the New Testament speaks about hell more frequently or more vividly than Jesus Himself. This is often surprising to people who think of Jesus primarily as a teacher of love and mercy — which He is. But His love and mercy are precisely why He warns so urgently about the danger of hell.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 In Matthew 25:41–46, Jesus describes the Last Judgment: "Then he will say to those on his left, 'Depart from me, you cursed, into the eternal fire prepared for the devil and his angels... And these will go away into eternal punishment, but the righteous into eternal life.'" The parallel structure is crucial: the same word "eternal" (aionios) describes both the punishment of the damned and the life of the righteous. If eternal life is truly eternal, so is eternal punishment.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 In Mark 9:43–48, Jesus uses the most graphic language: "If your hand causes you to sin, cut it off. It is better for you to enter life crippled than with two hands to go to hell, to the unquenchable fire... where their worm does not die and the fire is not quenched." Jesus quotes Isaiah 66:24 and applies it to the fate of the damned. The repetition — three times in this passage — underscores the seriousness of the warning.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Jesus also speaks of hell as "Gehenna" (the Greek transliteration of the Hebrew Ge-Hinnom, the Valley of Hinnom outside Jerusalem where garbage was burned), "the outer darkness," "the furnace of fire," and "the eternal fire." These images are not meant to be taken as precise physical descriptions, but they convey the reality and severity of eternal separation from God.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Nature of Hell: Separation from God, Not Only Physical Fire</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The Catechism identifies the "chief punishment of hell" as "eternal separation from God" (CCC 1035). This is the essential nature of hell: not primarily a place of physical torment, but a state of absolute and permanent alienation from the source of all goodness, beauty, truth, and love.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Saint Thomas Aquinas distinguished two punishments in hell: the "pain of loss" (poena damni) — the loss of the beatific vision, the eternal deprivation of God — and the "pain of sense" (poena sensus) — positive suffering. The pain of loss is the greater punishment, because it is the loss of the one thing for which the human person was made.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The imagery of fire in Scripture is understood by many theologians as a symbol of this spiritual reality — the burning anguish of a soul that has definitively rejected the love of God and now experiences the consequences of that rejection. Whether there is also a physical dimension to hell's suffering is a matter of theological discussion, but the essential reality is spiritual: the permanent absence of God.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -105,51 +106,51 @@ export default function CatholicTeachingOnHell() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Goes to Hell?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The Church teaches that hell is the destiny of those who die in a state of mortal sin — that is, those who have committed a grave offense against God with full knowledge and deliberate consent, and who have not repented before death. The Catechism is clear: "To die in mortal sin without repenting and accepting God's merciful love means remaining separated from him for ever" (CCC 1033).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Importantly, the Church does not teach that any specific person is in hell. While the Church canonizes saints — declaring with certainty that certain individuals are in heaven — it has never declared that any specific person is damned. The Church leaves judgment to God, who alone knows the secrets of every heart.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The Church also teaches that God "desires all men to be saved and to come to the knowledge of the truth" (1 Timothy 2:4). Hell is not God's desire for anyone — it is the consequence of a free human choice to definitively reject God's love. As the Catechism states: "God predestines no one to go to hell; for this, a willful turning away from God (a mortal sin) is necessary, and persistence in it until the end" (CCC 1037).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">God's Mercy and the Possibility of Salvation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The doctrine of hell must always be understood in the context of God's infinite mercy. The Church does not teach hell in order to frighten people into compliance, but to convey the seriousness of human freedom and the reality of eternal consequences.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 God's mercy is real and immense. The Sacrament of Confession exists precisely because God desires to forgive — no sin is too great for God's mercy, as long as the sinner repents. The Church teaches that even at the moment of death, God offers every soul the opportunity to turn to Him. The thief crucified beside Jesus received salvation in his final moments (Luke 23:43).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Some theologians, including Hans Urs von Balthasar, have argued that we may "hope" that all people are ultimately saved — not as a certainty, but as a hope grounded in God's mercy. This position is not condemned by the Church, though it must be held in tension with the clear teaching that hell is real and that some may choose it.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Hell as a Consequence of Human Freedom</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Perhaps the most important insight in the Catholic understanding of hell is that it is not an act of divine vengeance but a consequence of human freedom. C.S. Lewis, in his book The Great Divorce, expressed this memorably: "There are only two kinds of people in the end: those who say to God, 'Thy will be done,' and those to whom God says, in the end, 'Thy will be done.' All that are in Hell, choose it."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The Catechism echoes this: hell is "definitive self-exclusion from communion with God" (CCC 1033). God does not send people to hell against their will. Hell is the logical consequence of a free, definitive choice to reject God — a choice that God, out of respect for human freedom, does not override.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 This understanding also explains why hell is eternal. If a person has definitively chosen to reject God — not out of weakness or ignorance, but with full knowledge and free will — then that choice, by its very nature, is permanent. A soul that has definitively said "no" to God cannot be forced into heaven without violating the freedom that makes love possible.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Saints Said About Hell</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Many of the greatest saints in Catholic history spoke urgently about hell — not to terrify, but to awaken souls to the seriousness of their choices.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Saint John Bosco reported a vision of hell that he described to his young students, hoping to move them to conversion. Saint Faustina Kowalska, the apostle of Divine Mercy, also described a vision of hell in her Diary, writing: "I, Sister Faustina Kowalska, by the order of God, have visited the abysses of hell so that I might tell souls about it and testify to its existence... I noticed one thing: that most of the souls there are those who disbelieved that there is a hell."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The children of Fatima — Lucia, Francisco, and Jacinta — reported that Our Lady showed them a vision of hell in 1917, which Lucia described as "a sea of fire" filled with souls. This vision, she said, was shown to them so that they would pray for sinners.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 Saint Teresa of Ávila wrote in her autobiography that she was shown her own place in hell — the place she would have occupied had she not converted — as a powerful motivation for her reform of the Carmelite Order.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">

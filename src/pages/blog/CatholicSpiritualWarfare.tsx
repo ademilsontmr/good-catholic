@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSpiritualWarfare() {
   return (
@@ -59,52 +60,52 @@ export default function CatholicSpiritualWarfare() {
               <Shield className="w-24 h-24 text-slate-700" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Saint Paul did not mince words: "For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places" (Ephesians 6:12). This is not poetry. It is a description of reality — the reality that every baptized Catholic enters at the font and lives until death.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Understanding spiritual warfare is not about becoming obsessed with the devil. It is about being sober, vigilant, and equipped. As Saint Peter warns: "Be sober, be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour" (1 Peter 5:8). The lion is real. But so is the armor.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Spiritual Warfare?</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Spiritual warfare is the ongoing battle for the human soul — the conflict between the grace of God drawing us toward holiness and the forces of evil seeking to draw us away from God into sin and ultimately into eternal separation from Him. It is not a battle fought with physical weapons but with prayer, the sacraments, virtue, and the grace of God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 The Catechism of the Catholic Church describes this battle in terms of the "drama of sin and the offer of salvation" (CCC 309). Every human being, wounded by original sin and living in a fallen world, is subject to temptation from three sources: the world, the flesh, and the devil. Spiritual warfare is the daily, lifelong effort to resist these temptations and grow in union with God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 This is not a fringe Catholic concern. It is central to the Gospel. Jesus himself was tempted in the desert (Matthew 4:1-11). He cast out demons throughout his ministry. He taught his disciples to pray "deliver us from evil" — or more literally, "deliver us from the Evil One" (Matthew 6:13). The Church has always taken this seriously.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Reality of the Devil: What the Church Teaches</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 The Catholic Church teaches clearly and unambiguously that the devil is real — not a symbol, not a metaphor, not a psychological projection, but a real spiritual being who was created good and fell through his own free choice. The Catechism states: "Behind the disobedient choice of our first parents lurks a seductive voice, opposed to God, which makes them fall into death out of envy. Scripture and the Church's Tradition see in this being a fallen angel, called 'Satan' or the 'devil'" (CCC 391).
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 The Church teaches that Satan and the other fallen angels (demons) are real spiritual beings with intelligence and will, who actively work against human salvation. They cannot force us to sin — they can only tempt, deceive, and accuse. But their influence is real and should not be dismissed.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 The Catechism also teaches that "the power of Satan is, nonetheless, not infinite. He is only a creature, powerful from the fact that he is pure spirit, but still a creature. He cannot prevent the building up of God's reign" (CCC 395). The devil is a defeated enemy — defeated definitively by Christ's death and resurrection. But he continues to fight, knowing his time is short (Revelation 12:12).
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Three Enemies: World, Flesh, and Devil</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Catholic tradition identifies three sources of temptation, each attacking differently:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-4 mb-6">
                 <li><strong>The World.</strong> Not creation itself, which is good, but the "world" in the Johannine sense — the system of values, priorities, and pressures that are opposed to God. The world tempts through the love of money, status, pleasure, and comfort. It tempts through peer pressure, cultural conformity, and the fear of standing out. The antidote is detachment, simplicity, and the love of God above all things.</li>
                 <li><strong>The Flesh.</strong> The disordered desires of our fallen human nature — what Saint Paul calls the "works of the flesh" (Galatians 5:19-21): sexual immorality, impurity, sensuality, drunkenness, and so on. The flesh tempts from within, exploiting our weaknesses and wounds. The antidote is mortification, fasting, and the cultivation of virtue.</li>
                 <li><strong>The Devil.</strong> The external spiritual enemy who tempts, deceives, and accuses. The devil attacks through direct temptation, through discouragement, through false consolations, and through the manipulation of our imagination and emotions. The antidote is prayer, the sacraments, and the weapons of spiritual warfare.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 These three enemies often work together. The devil exploits the weaknesses of the flesh and uses the pressures of the world to make sin seem attractive, inevitable, or harmless. Recognizing this cooperation is essential to fighting effectively.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Armor of God (Ephesians 6:13-17)</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Saint Paul's description of the "armor of God" in Ephesians 6 is the classic Catholic framework for spiritual warfare. Each piece of armor corresponds to a spiritual reality that protects the soul:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Belt of Truth.</strong> Knowing and living the truth — about God, about ourselves, about the nature of good and evil. The devil is "the father of lies" (John 8:44); truth is our first defense.</li>
                 <li><strong>The Breastplate of Righteousness.</strong> A life of virtue and moral integrity. Sin creates openings for the enemy; righteousness closes them.</li>
@@ -113,9 +114,9 @@ export default function CatholicSpiritualWarfare() {
                 <li><strong>The Helmet of Salvation.</strong> The certainty of our redemption in Christ. Knowing we are saved — not in a presumptuous way, but in a confident, hopeful way — protects the mind from despair and discouragement.</li>
                 <li><strong>The Sword of the Spirit, which is the Word of God.</strong> Scripture is the only offensive weapon in the list. Jesus himself used Scripture to defeat the devil in the desert. Knowing and praying Scripture is essential to spiritual warfare.</li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Catholics "put on" this armor through daily prayer, the sacraments, the reading of Scripture, and the practice of virtue. It is not a one-time act but a daily discipline.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -123,9 +124,9 @@ export default function CatholicSpiritualWarfare() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Most Powerful Weapons in Spiritual Warfare</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 The Catholic tradition offers a rich arsenal of spiritual weapons. The most powerful are:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-4 mb-6">
                 <li><strong>The Holy Mass.</strong> The Mass is the re-presentation of Christ's sacrifice on Calvary — the definitive victory over sin and death. Attending Mass regularly, especially on Sundays, is the single most powerful act of spiritual warfare available to Catholics. The Eucharist is the Body, Blood, Soul, and Divinity of Jesus Christ — the enemy of all evil.</li>
                 <li><strong>The Sacrament of Confession.</strong> Sin is the enemy's greatest weapon. Confession destroys it. Regular confession — at least monthly for those serious about spiritual growth — removes the footholds that sin creates and restores the soul to the state of grace.</li>
@@ -135,12 +136,12 @@ export default function CatholicSpiritualWarfare() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Prayer to Saint Michael: History, Text, and When to Use It</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 The Prayer to Saint Michael the Archangel was composed by Pope Leo XIII in 1886, reportedly after he had a vision of the devil boasting to God that he could destroy the Church. The Pope was so shaken that he immediately composed this prayer and ordered it to be said after every Low Mass — a practice that continued until the liturgical reforms of the 1960s.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 The prayer was restored to widespread use by Pope John Paul II, who encouraged Catholics to pray it again. It is one of the most powerful prayers in the Catholic tradition for spiritual protection.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer to Saint Michael the Archangel</h3>
@@ -149,14 +150,14 @@ export default function CatholicSpiritualWarfare() {
                 </p>
               </div>
 
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 This prayer is appropriate after Mass, before sleep, when facing temptation, when sensing spiritual oppression, or as part of a daily spiritual warfare routine. Saint Michael is the great warrior of heaven — the archangel who cast Satan out of heaven and who will lead the armies of God at the end of time.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Discerning Spiritual Attack vs. Ordinary Temptation vs. Mental Illness</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 One of the most important — and most neglected — aspects of spiritual warfare is discernment. Not every difficulty is a demonic attack. Not every temptation is extraordinary. And some experiences that seem spiritual may have natural or psychological causes. The Church is very careful here.
-              </p>
+              </LinkedText>
               <p className="text-text leading-relaxed mb-6">
                 <strong>Ordinary temptation</strong> is the normal experience of every Christian — the pull toward sin that comes from the world, the flesh, and the ordinary activity of the devil. This is universal and expected. The response is prayer, the sacraments, and the practice of virtue.
               </p>
@@ -166,14 +167,14 @@ export default function CatholicSpiritualWarfare() {
               <p className="text-text leading-relaxed mb-6">
                 <strong>Mental illness</strong> can produce experiences that superficially resemble spiritual attack — intrusive thoughts, voices, feelings of persecution. The Church is clear that these require medical and psychological attention, not exorcism. A good spiritual director will always recommend a psychological evaluation before concluding that something is diabolical in origin.
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 The key principle: the devil is real, but he is not behind every difficulty. Most of what we experience is ordinary temptation, which is defeated by ordinary means — prayer, the sacraments, and virtue.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Role of Sacramentals in Spiritual Warfare</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Sacramentals are sacred signs — objects, actions, and blessings — that the Church uses to sanctify various aspects of life and to invoke God's protection. They are not magic, but they are real channels of grace when used with faith.
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Holy Water.</strong> Blessed water is one of the most ancient and powerful sacramentals. Using holy water — blessing yourself when entering a church, sprinkling it in your home, using it in prayer — is a direct act of spiritual warfare. The Church's blessing of water invokes God's protection against evil.</li>
                 <li><strong>The Saint Benedict Medal.</strong> One of the most powerful sacramentals in the Catholic tradition, the Saint Benedict Medal carries a specific exorcism prayer on its reverse side. It is worn or placed in homes as a protection against evil. Saint Benedict himself was known for his power over demons.</li>
@@ -181,9 +182,9 @@ export default function CatholicSpiritualWarfare() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Practical Daily Spiritual Warfare Routine</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Spiritual warfare is not a crisis response — it is a daily discipline. Here is a practical routine for Catholics who want to fight well:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Morning:</strong> Begin the day with the Morning Offering, dedicating all your thoughts, words, and actions to God. Pray the Prayer to Saint Michael. Make the Sign of the Cross with holy water.</li>
                 <li><strong>Daily Mass or Spiritual Communion:</strong> If possible, attend daily Mass. If not, make a Spiritual Communion — a prayer of desire for union with Christ in the Eucharist.</li>

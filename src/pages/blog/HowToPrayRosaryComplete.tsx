@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToPrayRosaryComplete() {
   return (
@@ -64,25 +65,25 @@ export default function HowToPrayRosaryComplete() {
               <p className="text-text leading-relaxed mb-6">
                 The Rosary is a form of prayer that combines vocal prayer with meditation on the mysteries of the life of Jesus Christ and the Virgin Mary. The word "rosary" comes from the Latin <em>rosarium</em>, meaning "crown of roses" — a garland of prayers offered to Our Lady. It is both a vocal prayer (reciting specific prayers aloud) and a mental prayer (meditating on the mysteries of salvation).
               </p>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 The Rosary as we know it today developed gradually over centuries, with its current form largely attributed to the influence of St. Dominic in the 13th century and later systematized by the Dominican Order. Pope St. John Paul II added the Luminous Mysteries in 2002, bringing the total number of mysteries to 20.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 Our Lady of Fatima, appearing to three shepherd children in Portugal in 1917, asked that the Rosary be prayed every day for world peace. She said: "Pray the Rosary every day to obtain peace for the world and the end of the war." The Rosary has been recommended by every pope for centuries and is considered one of the most effective weapons against evil in the spiritual life.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Pray the Rosary</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 All you need is a rosary — a string of beads used to count the prayers. A standard rosary has 59 beads arranged in a specific pattern: a crucifix, one large bead, three small beads, one large bead, and then five groups of ten small beads (called "decades"), each separated by a large bead. There is also a medal (usually of Our Lady) connecting the chain.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 Hold the crucifix in your hand to begin. As you pray, move your fingers from bead to bead so you can keep track of which prayer you are on without having to count mentally. You can also pray the Rosary without beads — using your fingers to count — or follow along with a printed guide or app.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step: How to Pray the Rosary</h2>
-              <p className="text-text leading-relaxed mb-4">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 Here is the complete sequence for praying one full Rosary (five decades):
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 1 — The Apostles' Creed (on the Crucifix)</h3>
               <p className="text-text leading-relaxed mb-4">
@@ -140,9 +141,9 @@ export default function HowToPrayRosaryComplete() {
               </p>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Step 12 — Closing Prayer</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 Many Catholics conclude with: "O God, whose only-begotten Son, by His life, death, and resurrection, has purchased for us the rewards of eternal life, grant, we beseech Thee, that meditating upon these mysteries of the Most Holy Rosary of the Blessed Virgin Mary, we may imitate what they contain and obtain what they promise, through the same Christ Our Lord. Amen." Then make the Sign of the Cross.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="How deep is your Catholic faith?"
@@ -150,9 +151,9 @@ export default function HowToPrayRosaryComplete() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Four Sets of Mysteries</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 The Rosary is prayed with different sets of mysteries on different days of the week. Each set of five mysteries corresponds to a different period in the lives of Jesus and Mary.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Joyful Mysteries (Monday and Saturday)</h3>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -248,12 +249,12 @@ export default function HowToPrayRosaryComplete() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Meditate on the Mysteries</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 The Rosary is not merely a recitation of prayers — it is a meditation. Pope St. John Paul II called it "a compendium of the Gospel." The goal is to contemplate the mysteries of Christ's life while the vocal prayers provide a rhythmic background.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-complete-guide">
                 Here are some practical ways to meditate during the Rosary:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Visualize the scene.</strong> Place yourself in the scene of the mystery. What do you see, hear, smell? Where are you standing? What is Jesus doing?</li>
                 <li><strong>Ask a question.</strong> What does this mystery reveal about God? About Mary? About what it means to be human?</li>

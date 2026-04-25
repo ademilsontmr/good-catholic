@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintThomasAquinas() {
   return (
@@ -59,39 +60,39 @@ export default function SaintThomasAquinas() {
               <BookOpen className="w-24 h-24 text-indigo-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Saint Thomas Aquinas (1225–1274) is one of the most important intellectual figures in the history of Western civilization. His synthesis of Christian theology and Aristotelian philosophy — known as Thomism — became the official philosophical framework of the Catholic Church and shaped Western thought for centuries. His masterwork, the Summa Theologica, is one of the greatest intellectual achievements in human history: a systematic exposition of the whole of Christian theology, organized with breathtaking logical precision.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life and the Battle Over His Vocation</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Thomas was born around 1225 at Roccasecca, near Aquino, in the Kingdom of Sicily (present-day Italy). He was the youngest son of a noble family — his father was a count, and his family had connections to the Holy Roman Emperor and the King of France. From childhood, Thomas was destined for a distinguished ecclesiastical career: his family planned for him to become the abbot of the prestigious Benedictine monastery of Monte Cassino, which would have brought wealth and influence to the family.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 But Thomas had other ideas. At the University of Naples, he encountered the newly founded Dominican Order — the Order of Preachers, founded by St. Dominic — and was drawn to their combination of intellectual rigor, poverty, and preaching. In 1244, at about age 19, he joined the Dominicans.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 His family was furious. The Dominicans were mendicant friars — they owned nothing and begged for their food. This was not the career they had planned for their son. His brothers kidnapped him and held him prisoner in the family castle for over a year, trying to break his resolve. According to tradition, they even sent a prostitute to his room to tempt him; Thomas drove her away with a burning brand from the fireplace and then knelt in prayer, after which he reportedly received from angels a girdle of chastity that he wore for the rest of his life.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 His family eventually relented, and Thomas returned to the Dominicans. He was sent to study under Albert the Great — the greatest scholar of the age — first in Paris and then in Cologne. It was Albert who recognized Thomas's extraordinary gifts beneath his quiet exterior.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Summa Theologica</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Thomas's greatest work, the Summa Theologica (or Summa Theologiae), was begun around 1265 and left unfinished at his death in 1274. It was intended as a textbook for theology students — a comprehensive, systematic treatment of the whole of Christian theology, organized in a question-and-answer format.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 The Summa is divided into three parts: the First Part (on God and creation), the Second Part (on human action, virtue, and the moral life), and the Third Part (on Christ and the sacraments). Each question is treated in a standard format: Thomas states the question, lists objections to his position, gives his answer, and then responds to each objection in turn. This method — the scholastic method — was designed to take opposing views seriously and respond to them with precision.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 The Summa contains 512 questions, 2,669 articles, and approximately 1.5 million words. It covers everything from the existence and nature of God to the morality of lying, from the theology of the Eucharist to the nature of angels. It is, quite simply, the most comprehensive theological work ever written.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Five Ways: Proofs for God's Existence</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 One of the most famous sections of the Summa is Thomas's "Five Ways" — five arguments for the existence of God, drawn from observation of the natural world. These are not proofs in the mathematical sense, but philosophical arguments that Thomas believed any reasonable person could follow:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>The Argument from Motion.</strong> Everything that moves is moved by something else. There cannot be an infinite chain of movers. Therefore, there must be a First Mover — unmoved — which everyone calls God.</li>
                 <li><strong>The Argument from Efficient Causation.</strong> Everything has a cause. There cannot be an infinite chain of causes. Therefore, there must be a First Cause — uncaused — which everyone calls God.</li>
@@ -106,31 +107,31 @@ export default function SaintThomasAquinas() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Faith and Reason: Thomas's Great Synthesis</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Thomas's greatest contribution to Catholic thought was his synthesis of faith and reason — his demonstration that Christian theology and Greek philosophy (especially Aristotle) are not enemies but allies. Where earlier thinkers had been suspicious of pagan philosophy, Thomas embraced it: truth is truth, wherever it is found, and all truth ultimately comes from God.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Thomas distinguished between truths that can be known by reason alone (such as God's existence and some of His attributes) and truths that can only be known by faith (such as the Trinity and the Incarnation). These two realms do not contradict each other — they complement each other. Reason prepares the way for faith; faith elevates and perfects reason.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 This synthesis — Thomism — became the official philosophy of the Catholic Church. Pope Leo XIII, in his 1879 encyclical Aeterni Patris, declared Thomas's philosophy the model for Catholic intellectual life. The Second Vatican Council called Thomas "the master" of Catholic theology. Pope John Paul II, in his encyclical Fides et Ratio (1998), cited Thomas as the supreme example of the harmony between faith and reason.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Mystical Experience and "All Straw"</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 On December 6, 1273 — the feast of St. Nicholas — Thomas was celebrating Mass when he had a profound mystical experience. After that day, he never wrote or dictated another word. When his secretary Reginald urged him to continue his work, Thomas replied: "Reginald, I cannot, because all that I have written seems like straw to me compared to what I have seen and what has been revealed to me."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Three months later, on March 7, 1274, Thomas died at the Cistercian monastery of Fossanova, on his way to the Second Council of Lyon. He was about 49 years old. His last words, receiving Viaticum (Communion for the dying), were: "I receive Thee, the price of my soul's redemption, I receive Thee, the Viaticum of my pilgrimage, for love of Whom I have studied, watched, and labored. I have preached Thee, I have taught Thee. Never have I said anything against Thee."
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Canonization and Legacy</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Thomas was canonized by Pope John XXII in 1323 — less than 50 years after his death. He was declared a Doctor of the Church in 1567 by Pope Pius V, who gave him the title "Angelic Doctor." His feast day is January 28.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Thomas is the patron saint of students, scholars, universities, and all who seek wisdom. His prayer before study — "Creator of all things, true source of light and wisdom, origin of all being, graciously let a ray of your light penetrate the darkness of my understanding" — is prayed by Catholic students around the world.
-              </p>
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Prayer of Saint Thomas Aquinas Before Study</h3>

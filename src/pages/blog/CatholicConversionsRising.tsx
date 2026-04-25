@@ -8,6 +8,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicConversionsRising() {
   return (
@@ -59,20 +60,20 @@ export default function CatholicConversionsRising() {
               <UserCheck className="w-24 h-24 text-emerald-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The narrative about religion in America has been one of steady decline for decades. Church attendance falling. Young people leaving. The "nones" — those with no religious affiliation — growing. The Catholic Church, in particular, has faced a painful combination of demographic decline, the clergy abuse crisis, and cultural marginalization.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 And then something shifted. Since around 2022, a quiet but unmistakable reversal has been underway. Dioceses across the United States are reporting record numbers of adults entering the RCIA process — the formal path to becoming Catholic. The 2025 Easter Vigil, when new Catholics are received into the Church, saw some of the highest numbers in two decades. And when Pope Francis died on April 21, 2025, Google searches for "how to become Catholic" surged by 373% in a single week.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 CBS News ran a 60 Minutes segment on the phenomenon. The Washington Post sent reporters to document it. Fox News called it a "major resurgence." Something real is happening — and it deserves serious attention.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Numbers: What the Data Shows</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The evidence for the Catholic revival is concrete and growing:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Record RCIA enrollment.</strong> Multiple US archdioceses — including Los Angeles, New York, Chicago, and Washington DC — reported their highest RCIA enrollment in 20 years for the 2025 Easter Vigil. The Archdiocese of Washington reported a 40% increase in catechumens (those being baptized) compared to 2022.</li>
                 <li><strong>The Fort Worth surge.</strong> The Diocese of Fort Worth, Texas, reported a 72% increase in young adult conversions between 2023 and 2024 — one of the most dramatic single-year increases in the country.</li>
@@ -82,9 +83,9 @@ export default function CatholicConversionsRising() {
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Converting — and Why</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The profile of the typical new Catholic has changed significantly. While conversions have always included people from various backgrounds, the current wave is notable for its demographic composition:
-              </p>
+              </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Young adults (18–35)</strong> are the fastest-growing group of converts, reversing the pattern of every previous decade.</li>
                 <li><strong>Young men</strong> are particularly prominent — a demographic that had been among the most likely to leave organized religion.</li>
@@ -96,36 +97,36 @@ export default function CatholicConversionsRising() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Most Common Reasons People Give for Converting</h2>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Eucharist</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The most commonly cited reason for converting to Catholicism — especially among former Protestants — is the Eucharist. The Catholic teaching that Jesus is truly, really, and substantially present in the bread and wine of the Mass is not a comfortable doctrine. It is demanding, even scandalous. But for many converts, it is precisely this claim that draws them in.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 "I couldn't stop thinking about John 6," one recent convert told a Catholic news outlet. "Jesus says 'my flesh is real food and my blood is real drink' — and when the disciples leave because of this teaching, he doesn't call them back and say 'I was speaking metaphorically.' He lets them go. That told me he meant it literally." The logic of the Real Presence, once grasped, is hard to escape.
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Historical Continuity of the Church</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 Many converts — especially those who came to faith through intellectual inquiry — are drawn by the historical argument for Catholicism. The Catholic Church is the only institution that can trace an unbroken line of leadership from the apostles to the present. When you read the early Church Fathers — Ignatius of Antioch (c. 107 AD), Irenaeus of Lyon (c. 180 AD), Cyprian of Carthage (c. 250 AD) — you find a Church that looks unmistakably Catholic: with bishops, priests, the Eucharist, confession, and the primacy of Rome.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 For people who take history seriously, this continuity is compelling. As the convert and apologist G.K. Chesterton wrote: "The difficulty of explaining 'why I am a Catholic' is that there are ten thousand reasons all amounting to one reason: that Catholicism is true."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Moral Coherence of Catholic Teaching</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 In a culture of moral relativism and shifting ethical norms, many converts are drawn by the coherence and consistency of Catholic moral teaching. The Church's positions on life, sexuality, marriage, and social justice are not popular — but they are consistent, rooted in a coherent anthropology (understanding of the human person), and have remained unchanged for 2,000 years.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 For people who are tired of moral frameworks that shift with the cultural winds, the Church's willingness to hold unpopular positions is itself a sign of authenticity. As one convert put it: "I didn't want a church that agreed with me. I wanted a church that was true."
-              </p>
+              </LinkedText>
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Beauty of the Liturgy</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 Beauty is one of the most powerful arguments for Catholicism — and one of the least discussed. The Mass, the Divine Office, the sacred art, the architecture, the music — these are not decorations. They are expressions of the Church's conviction that God is beautiful, and that worship should reflect that beauty.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 Many converts describe their first encounter with a reverent, beautiful Mass as a turning point. "I walked into a traditional Mass and I wept," one convert wrote. "I didn't know why. I just knew I was in the presence of something real." The beauty of Catholic worship is itself a form of evangelization.
-              </p>
+              </LinkedText>
 
               <QuizCTA
                 title="Thinking about becoming Catholic?"
@@ -133,34 +134,34 @@ export default function CatholicConversionsRising() {
               />
 
               <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Community</h3>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 In an age of epidemic loneliness — especially among young adults — the Catholic parish offers something rare: a genuine community of people who share a common faith, a common worship, and a common commitment to each other. The parish is not just a place to attend services; it is a family.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 Many converts describe the warmth and depth of Catholic community as a significant factor in their conversion. They found in the Church not just a set of beliefs but a people — a community of saints and sinners who are trying, together, to follow Christ.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Role of Pope Francis's Death</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The death of Pope Francis on April 21, 2025, had an unexpected effect on Catholic conversions. Rather than triggering a crisis of faith, it triggered a surge of interest. The global outpouring of grief — from Catholics and non-Catholics alike — seemed to awaken in many people a hunger for what the Church represents.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 Magdalena Petrusic, a senior analyst who tracked the Google search data, said: "We're used to seeing spikes in tourism or event inquiries when a major religious figure passes. But this was different. People weren't planning trips — they were seeking conversion. It was as though the world paused, watched, and then responded — not with apathy or distraction, but with a hunger to understand what moved this man."
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The election of Pope Leo XIV — the first American pope — in May 2025 sustained the interest. His combination of intellectual depth, pastoral warmth, and clear Catholic identity has continued to attract attention from people outside the Church.
-              </p>
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Means for the Church</h2>
-              <p className="text-text leading-relaxed mb-6">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The revival in conversions is a gift — but it is also a challenge. New Catholics need to be welcomed, formed, and accompanied. They need parishes that take the faith seriously, priests who are available and engaged, and communities that are genuinely welcoming to newcomers.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The data suggests that the parishes that are growing are those that offer authentic Catholic identity — reverent liturgy, strong preaching, genuine community, and clear moral teaching. The parishes that are declining are those that have tried to accommodate the culture rather than challenge it.
-              </p>
-              <p className="text-text leading-relaxed mb-6">
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The revival is not automatic. It requires the Church to be what it is called to be: a community of disciples who have encountered the living God and who invite others into that encounter. The hunger is there. The question is whether the Church will meet it.
-              </p>
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">
