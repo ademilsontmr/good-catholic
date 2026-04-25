@@ -231,6 +231,12 @@ const HowToPrayForSomeone = lazy(() => import("./pages/blog/HowToPrayForSomeone"
 
 // Articles May 2026 Batch 2
 const CatholicTeachingOnForgiveness = lazy(() => import("./pages/blog/CatholicTeachingOnForgiveness"));
+
+// Articles May 2026 Batch 3
+const CatholicTeachingOnDeath = lazy(() => import("./pages/blog/CatholicTeachingOnDeath"));
+const SaintDominic = lazy(() => import("./pages/blog/SaintDominic"));
+const CatholicTeachingOnPrayer = lazy(() => import("./pages/blog/CatholicTeachingOnPrayer"));
+
 const WhatIsCatholicSpirituality = lazy(() => import("./pages/blog/WhatIsCatholicSpirituality"));
 const CatholicTeachingOnSuffering = lazy(() => import("./pages/blog/CatholicTeachingOnSuffering"));
 
@@ -670,6 +676,9 @@ const App = () => (
             <Route path="/blog/catholic-teaching-on-social-media/" element={<CatholicTeachingOnSocialMedia />} />
             <Route path="/blog/catholic-teaching-on-environment/" element={<CatholicTeachingOnEnvironment />} />
             <Route path="/blog/how-to-pray-for-someone-catholic/" element={<HowToPrayForSomeone />} />
+            <Route path="/blog/catholic-teaching-on-death/" element={<CatholicTeachingOnDeath />} />
+            <Route path="/blog/saint-dominic-founder-dominicans/" element={<SaintDominic />} />
+            <Route path="/blog/what-is-prayer-catholic/" element={<CatholicTeachingOnPrayer />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
