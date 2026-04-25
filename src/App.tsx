@@ -223,6 +223,11 @@ const CatholicGriefAndLoss = lazy(() => import("./pages/blog/CatholicGriefAndLos
 const HowToPrayRosaryComplete = lazy(() => import("./pages/blog/HowToPrayRosaryComplete"));
 const CatholicTeachingOnHeaven = lazy(() => import("./pages/blog/CatholicTeachingOnHeaven"));
 const SignsOfVocation = lazy(() => import("./pages/blog/SignsOfVocation"));
+
+// New Articles April 2026
+const CatholicTeachingOnAngels = lazy(() => import("./pages/blog/CatholicTeachingOnAngels"));
+const CatholicTeachingOnMoney = lazy(() => import("./pages/blog/CatholicTeachingOnMoney"));
+const WhatIsHolyOrders = lazy(() => import("./pages/blog/WhatIsHolyOrders"));
 // Lote 8
 const PrayerForJobAndWork = lazy(() => import("./pages/blog/PrayerForJobAndWork"));
 const PrayerForTheSick = lazy(() => import("./pages/blog/PrayerForTheSick"));
@@ -668,6 +673,11 @@ const App = () => (
             <Route path="/blog/how-to-pray-the-rosary-complete-guide/" element={<HowToPrayRosaryComplete />} />
             <Route path="/blog/what-is-heaven-like-catholic/" element={<CatholicTeachingOnHeaven />} />
             <Route path="/blog/signs-of-a-vocation-priesthood-religious-life/" element={<SignsOfVocation />} />
+
+            {/* New Articles April 2026 */}
+            <Route path="/blog/catholic-teaching-on-angels/" element={<CatholicTeachingOnAngels />} />
+            <Route path="/blog/catholic-teaching-on-money-and-wealth/" element={<CatholicTeachingOnMoney />} />
+            <Route path="/blog/what-is-holy-orders-catholic/" element={<WhatIsHolyOrders />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
