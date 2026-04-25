@@ -242,6 +242,13 @@ const CatholicTeachingOnMarriage = lazy(() => import("./pages/blog/CatholicTeach
 const WhatIsTheCatholicMass = lazy(() => import("./pages/blog/WhatIsTheCatholicMass"));
 const SaintCatherineOfSiena = lazy(() => import("./pages/blog/SaintCatherineOfSiena"));
 
+// US Market & General Articles
+const CatholicChurchNearMe = lazy(() => import("./pages/blog/CatholicChurchNearMe"));
+const CatholicHolyDaysUSA = lazy(() => import("./pages/blog/CatholicHolyDaysUSA"));
+const CatholicSchoolsAmerica = lazy(() => import("./pages/blog/CatholicSchoolsAmerica"));
+const SaintJosephineBakhita = lazy(() => import("./pages/blog/SaintJosephineBAkhita"));
+const CatholicTeachingOnJustice = lazy(() => import("./pages/blog/CatholicTeachingOnJustice"));
+
 const WhatIsCatholicSpirituality = lazy(() => import("./pages/blog/WhatIsCatholicSpirituality"));
 const CatholicTeachingOnSuffering = lazy(() => import("./pages/blog/CatholicTeachingOnSuffering"));
 
@@ -688,6 +695,11 @@ const App = () => (
             <Route path="/blog/catholic-teaching-on-marriage/" element={<CatholicTeachingOnMarriage />} />
             <Route path="/blog/what-is-the-catholic-mass-guide/" element={<WhatIsTheCatholicMass />} />
             <Route path="/blog/saint-catherine-of-siena/" element={<SaintCatherineOfSiena />} />
+            <Route path="/blog/how-to-find-catholic-church-near-me/" element={<CatholicChurchNearMe />} />
+            <Route path="/blog/catholic-holy-days-of-obligation-usa/" element={<CatholicHolyDaysUSA />} />
+            <Route path="/blog/catholic-schools-in-america/" element={<CatholicSchoolsAmerica />} />
+            <Route path="/blog/saint-josephine-bakhita/" element={<SaintJosephineBakhita />} />
+            <Route path="/blog/catholic-teaching-on-justice/" element={<CatholicTeachingOnJustice />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
 
