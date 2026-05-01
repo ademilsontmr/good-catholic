@@ -277,6 +277,11 @@ const CatholicTeachingOnPride = lazy(() => import("./pages/blog/CatholicTeaching
 const CatholicTeachingOnBeauty = lazy(() => import("./pages/blog/CatholicTeachingOnBeauty"));
 const CatholicTeachingOnFreedom = lazy(() => import("./pages/blog/CatholicTeachingOnFreedom"));
 
+// New Virtue Articles
+const CatholicTeachingOnPeace = lazy(() => import("./pages/blog/CatholicTeachingOnPeace"));
+const CatholicTeachingOnPatience = lazy(() => import("./pages/blog/CatholicTeachingOnPatience"));
+const CatholicTeachingOnGratitude = lazy(() => import("./pages/blog/CatholicTeachingOnGratitude"));
+
 const CatholicTeachingOnLove = lazy(() => import("./pages/blog/CatholicTeachingOnLove"));
 const CatholicTeachingOnTruth = lazy(() => import("./pages/blog/CatholicTeachingOnTruth"));
 
@@ -804,6 +809,10 @@ const App = () => (
 
             <Route path="/blog/beauty-and-the-catholic-faith/" element={<CatholicTeachingOnBeauty />} />
             <Route path="/blog/what-is-freedom-catholic/" element={<CatholicTeachingOnFreedom />} />
+
+            <Route path="/blog/catholic-teaching-on-peace/" element={<CatholicTeachingOnPeace />} />
+            <Route path="/blog/virtue-of-patience-catholic/" element={<CatholicTeachingOnPatience />} />
+            <Route path="/blog/gratitude-catholic-virtue/" element={<CatholicTeachingOnGratitude />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
