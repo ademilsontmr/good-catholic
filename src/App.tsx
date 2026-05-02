@@ -282,6 +282,10 @@ const CatholicLentGuide = lazy(() => import("./pages/blog/CatholicLentGuide"));
 // Complete Guide Articles
 // More Complete Guides
 const CompleteConfessionGuide = lazy(() => import("./pages/blog/CompleteConfessionGuide"));
+// Complete Guides Batch 2
+const CompleteEucharistGuide = lazy(() => import("./pages/blog/CompleteEucharistGuide"));
+const CompleteFastingGuide = lazy(() => import("./pages/blog/CompleteFastingGuide"));
+const CompleteDiscernmentGuide = lazy(() => import("./pages/blog/CompleteDiscernmentGuide"));
 const CompleteCatholicMarriageGuide = lazy(() => import("./pages/blog/CompleteCatholicMarriageGuide"));
 const CompleteSaintsGuide = lazy(() => import("./pages/blog/CompleteSaintsGuide"));
 const CompleteMassGuide = lazy(() => import("./pages/blog/CompleteMassGuide"));
@@ -837,6 +841,9 @@ const App = () => (
             <Route path="/blog/complete-guide-to-catholic-confession/" element={<CompleteConfessionGuide />} />
             <Route path="/blog/complete-catholic-marriage-guide/" element={<CompleteCatholicMarriageGuide />} />
             <Route path="/blog/complete-guide-to-catholic-saints/" element={<CompleteSaintsGuide />} />
+            <Route path="/blog/complete-guide-to-the-eucharist/" element={<CompleteEucharistGuide />} />
+            <Route path="/blog/complete-catholic-fasting-guide/" element={<CompleteFastingGuide />} />
+            <Route path="/blog/complete-guide-to-discernment/" element={<CompleteDiscernmentGuide />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
