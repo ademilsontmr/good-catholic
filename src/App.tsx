@@ -279,6 +279,10 @@ const CatholicTeachingOnFreedom = lazy(() => import("./pages/blog/CatholicTeachi
 
 // Guide Style Articles
 const CatholicLentGuide = lazy(() => import("./pages/blog/CatholicLentGuide"));
+// Complete Guide Articles
+const CompleteMassGuide = lazy(() => import("./pages/blog/CompleteMassGuide"));
+const CompletePrayerGuide = lazy(() => import("./pages/blog/CompletePrayerGuide"));
+const CompleteRosaryGuide = lazy(() => import("./pages/blog/CompleteRosaryGuide"));
 const CatholicAdventGuide = lazy(() => import("./pages/blog/CatholicAdventGuide"));
 const CatholicConversionGuide = lazy(() => import("./pages/blog/CatholicConversionGuide"));
 
@@ -822,6 +826,10 @@ const App = () => (
             <Route path="/blog/complete-catholic-lent-guide/" element={<CatholicLentGuide />} />
             <Route path="/blog/complete-catholic-advent-guide/" element={<CatholicAdventGuide />} />
             <Route path="/blog/complete-guide-converting-to-catholicism/" element={<CatholicConversionGuide />} />
+
+            <Route path="/blog/complete-guide-to-the-catholic-mass/" element={<CompleteMassGuide />} />
+            <Route path="/blog/complete-catholic-prayer-guide/" element={<CompletePrayerGuide />} />
+            <Route path="/blog/complete-rosary-guide/" element={<CompleteRosaryGuide />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
