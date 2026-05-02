@@ -284,6 +284,10 @@ const CatholicLentGuide = lazy(() => import("./pages/blog/CatholicLentGuide"));
 const CompleteConfessionGuide = lazy(() => import("./pages/blog/CompleteConfessionGuide"));
 // Complete Guides Batch 2
 const CompleteEucharistGuide = lazy(() => import("./pages/blog/CompleteEucharistGuide"));
+// US Market Gap Articles
+const TraditionalLatinMassGuide = lazy(() => import("./pages/blog/TraditionalLatinMassGuide"));
+const CatholicBibleStudyGuide = lazy(() => import("./pages/blog/CatholicBibleStudyGuide"));
+const BestCatholicPrayerApps = lazy(() => import("./pages/blog/BestCatholicPrayerApps"));
 const CompleteFastingGuide = lazy(() => import("./pages/blog/CompleteFastingGuide"));
 const CompleteDiscernmentGuide = lazy(() => import("./pages/blog/CompleteDiscernmentGuide"));
 const CompleteCatholicMarriageGuide = lazy(() => import("./pages/blog/CompleteCatholicMarriageGuide"));
@@ -844,6 +848,10 @@ const App = () => (
             <Route path="/blog/complete-guide-to-the-eucharist/" element={<CompleteEucharistGuide />} />
             <Route path="/blog/complete-catholic-fasting-guide/" element={<CompleteFastingGuide />} />
             <Route path="/blog/complete-guide-to-discernment/" element={<CompleteDiscernmentGuide />} />
+
+            <Route path="/blog/traditional-latin-mass-guide/" element={<TraditionalLatinMassGuide />} />
+            <Route path="/blog/catholic-bible-study-guide/" element={<CatholicBibleStudyGuide />} />
+            <Route path="/blog/best-catholic-prayer-apps-2026/" element={<BestCatholicPrayerApps />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
