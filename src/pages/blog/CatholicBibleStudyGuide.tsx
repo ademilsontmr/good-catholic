@@ -184,9 +184,9 @@ export default function CatholicBibleStudyGuide() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-study-guide">
                 The Catholic Lectionary is one of the most generous gifts the Church offers for Scripture engagement. Over a three-year Sunday cycle (Years A, B, and C) and a two-year weekday cycle, the Church reads through the four Gospels, the major Pauline letters, the Acts of the Apostles, and significant portions of the Old Testament.
               </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-study-guide">
-                To use the daily readings effectively: read them the night before Mass to prepare your heart; look up the context in your study Bible; bring your Bible to Mass and follow along; and spend five minutes after Mass reflecting on what struck you. Apps that provide the daily readings include Laudate (free, comprehensive), Hallow (with guided prayer), and Universalis (complete Liturgy of the Hours plus readings).
-              </LinkedText>
+              <p className="text-text leading-relaxed mb-6">
+                To use the daily readings effectively: read them the night before Mass to prepare your heart; look up the context in your study Bible; bring your Bible to Mass and follow along; and spend five minutes after Mass reflecting on what struck you. Apps that provide the daily readings include Laudate (free, comprehensive), Hallow (with guided prayer), and Universalis (complete Liturgy of the Hours plus readings). If you want to read the full Catholic Bible online, <a href="https://catholicbibleonline.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 underline underline-offset-2">Catholic Bible Online</a> is an excellent free resource with the complete text of the Catholic Bible, including the deuterocanonical books.
+              </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Bible Study for Families</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-study-guide">
