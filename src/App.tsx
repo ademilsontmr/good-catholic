@@ -277,6 +277,11 @@ const CatholicTeachingOnPride = lazy(() => import("./pages/blog/CatholicTeaching
 const CatholicTeachingOnBeauty = lazy(() => import("./pages/blog/CatholicTeachingOnBeauty"));
 const CatholicTeachingOnFreedom = lazy(() => import("./pages/blog/CatholicTeachingOnFreedom"));
 
+// Guide Style Articles
+const CatholicLentGuide = lazy(() => import("./pages/blog/CatholicLentGuide"));
+const CatholicAdventGuide = lazy(() => import("./pages/blog/CatholicAdventGuide"));
+const CatholicConversionGuide = lazy(() => import("./pages/blog/CatholicConversionGuide"));
+
 // New Virtue Articles
 const CatholicTeachingOnPeace = lazy(() => import("./pages/blog/CatholicTeachingOnPeace"));
 const CatholicTeachingOnPatience = lazy(() => import("./pages/blog/CatholicTeachingOnPatience"));
@@ -813,6 +818,10 @@ const App = () => (
             <Route path="/blog/catholic-teaching-on-peace/" element={<CatholicTeachingOnPeace />} />
             <Route path="/blog/virtue-of-patience-catholic/" element={<CatholicTeachingOnPatience />} />
             <Route path="/blog/gratitude-catholic-virtue/" element={<CatholicTeachingOnGratitude />} />
+
+            <Route path="/blog/complete-catholic-lent-guide/" element={<CatholicLentGuide />} />
+            <Route path="/blog/complete-catholic-advent-guide/" element={<CatholicAdventGuide />} />
+            <Route path="/blog/complete-guide-converting-to-catholicism/" element={<CatholicConversionGuide />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>
