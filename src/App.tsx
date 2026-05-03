@@ -309,6 +309,10 @@ const SacredHeartNovenaGuide = lazy(() => import("./pages/blog/SacredHeartNovena
 // Novena Guide 4
 const OurLadyFatimaNovenaGuide = lazy(() => import("./pages/blog/OurLadyFatimaNovenaGuide"));
 const DivineMercyNovenaGuide = lazy(() => import("./pages/blog/DivineMercyNovenaGuide"));
+// Novena Guide 5
+const OurLadyPerpetualHelpNovena = lazy(() => import("./pages/blog/OurLadyPerpetualHelpNovena"));
+const OurLadyGuadalupeNovena = lazy(() => import("./pages/blog/OurLadyGuadalupeNovena"));
+const StJosephBuyingHouseGuide = lazy(() => import("./pages/blog/StJosephBuyingHouseGuide"));
 const CatholicBaptismPrep = lazy(() => import("./pages/blog/CatholicBaptismPrep"));
 const CatholicRetreatsGuide = lazy(() => import("./pages/blog/CatholicRetreatsGuide"));
 
@@ -876,6 +880,9 @@ const App = () => (
             <Route path="/blog/sacred-heart-novena-guide/" element={<SacredHeartNovenaGuide />} />
             <Route path="/blog/our-lady-of-fatima-novena-guide/" element={<OurLadyFatimaNovenaGuide />} />
             <Route path="/blog/divine-mercy-novena-guide/" element={<DivineMercyNovenaGuide />} />
+            <Route path="/blog/our-lady-of-perpetual-help-novena-guide/" element={<OurLadyPerpetualHelpNovena />} />
+            <Route path="/blog/our-lady-of-guadalupe-novena-guide/" element={<OurLadyGuadalupeNovena />} />
+            <Route path="/blog/st-joseph-novena-buying-house-guide/" element={<StJosephBuyingHouseGuide />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
