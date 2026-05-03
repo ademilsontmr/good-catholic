@@ -300,6 +300,8 @@ const CatholicConversionGuide = lazy(() => import("./pages/blog/CatholicConversi
 
 // US Market Gap Articles Batch 2
 const CatholicConfirmationPrep = lazy(() => import("./pages/blog/CatholicConfirmationPrep"));
+// Novena Guide
+const StJudeNovenaGuide = lazy(() => import("./pages/blog/StJudeNovenaGuide"));
 const CatholicBaptismPrep = lazy(() => import("./pages/blog/CatholicBaptismPrep"));
 const CatholicRetreatsGuide = lazy(() => import("./pages/blog/CatholicRetreatsGuide"));
 
@@ -862,6 +864,7 @@ const App = () => (
             <Route path="/blog/catholic-baptism-preparation-guide/" element={<CatholicBaptismPrep />} />
             <Route path="/blog/catholic-retreats-guide/" element={<CatholicRetreatsGuide />} />
 
+            <Route path="/blog/st-jude-novena-guide/" element={<StJudeNovenaGuide />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
