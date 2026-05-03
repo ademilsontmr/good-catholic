@@ -306,6 +306,9 @@ const StJudeNovenaGuide = lazy(() => import("./pages/blog/StJudeNovenaGuide"));
 const GuardianAngelNovenaGuide = lazy(() => import("./pages/blog/GuardianAngelNovenaGuide"));
 // Novena Guide 3
 const SacredHeartNovenaGuide = lazy(() => import("./pages/blog/SacredHeartNovenaGuide"));
+// Novena Guide 4
+const OurLadyFatimaNovenaGuide = lazy(() => import("./pages/blog/OurLadyFatimaNovenaGuide"));
+const DivineMercyNovenaGuide = lazy(() => import("./pages/blog/DivineMercyNovenaGuide"));
 const CatholicBaptismPrep = lazy(() => import("./pages/blog/CatholicBaptismPrep"));
 const CatholicRetreatsGuide = lazy(() => import("./pages/blog/CatholicRetreatsGuide"));
 
@@ -871,6 +874,8 @@ const App = () => (
             <Route path="/blog/st-jude-novena-guide/" element={<StJudeNovenaGuide />} />
             <Route path="/blog/guardian-angel-novena-guide/" element={<GuardianAngelNovenaGuide />} />
             <Route path="/blog/sacred-heart-novena-guide/" element={<SacredHeartNovenaGuide />} />
+            <Route path="/blog/our-lady-of-fatima-novena-guide/" element={<OurLadyFatimaNovenaGuide />} />
+            <Route path="/blog/divine-mercy-novena-guide/" element={<DivineMercyNovenaGuide />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
