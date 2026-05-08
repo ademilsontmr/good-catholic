@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Download, Smartphone, RefreshCw, ChevronLeft, ChevronRight, Cross, Sparkles, Heart, BookOpen } from "lucide-react";
+import { Download, Smartphone, RefreshCw, ChevronLeft, ChevronRight, Cross, Sparkles, Heart, BookOpen, HelpCircle, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -263,13 +263,89 @@ export default function LockscreenPage() {
   const prevVerse = () => setVerseIdx((i) => (i - 1 + verses.length) % verses.length);
   const nextVerse = () => setVerseIdx((i) => (i + 1) % verses.length);
 
+  const faqs = [
+    {
+      q: "Are these Catholic lockscreen wallpapers really free?",
+      a: "Yes — 100% free, forever. No account, no email, no payment required. Choose your verse and style, click Download, and the high-resolution PNG is saved directly to your device.",
+    },
+    {
+      q: "What resolution are the wallpapers?",
+      a: "Downloaded wallpapers are 1290 × 2796 pixels — the native resolution of the iPhone 14 Pro Max. This ensures a crisp, sharp image on any modern smartphone, including all iPhone and Android models.",
+    },
+    {
+      q: "How do I set the wallpaper on my iPhone?",
+      a: "After downloading: open the Photos app → tap the image → tap the Share icon → tap 'Use as Wallpaper' → select 'Lock Screen' → tap 'Set'. Done.",
+    },
+    {
+      q: "How do I set the wallpaper on Android?",
+      a: "After downloading: open your Gallery or Photos app → tap the image → tap the three-dot menu or 'Set as' → select 'Lock Screen' or 'Wallpaper'. Steps may vary slightly by manufacturer.",
+    },
+    {
+      q: "Can I use these wallpapers for personal and ministry use?",
+      a: "Yes. These wallpapers are free for personal use and for sharing within your Catholic community, parish, or ministry. Please do not sell them or remove the Guide Catholic attribution.",
+    },
+    {
+      q: "Why should I use a Catholic lockscreen?",
+      a: "The average person checks their phone over 90 times a day. Each unlock is an opportunity to encounter a word of God instead of a distraction. A Catholic lockscreen turns a habit into a moment of prayer — a small but powerful way to keep God at the center of your day.",
+    },
+  ];
+
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
   return (
     <>
       <Helmet>
-        <title>Catholic Lockscreen Wallpapers — Free Download | Guide Catholic</title>
-        <meta name="description" content="Download beautiful Catholic lockscreen wallpapers for your phone. Bible verses, prayers, and sacred art — free, high-resolution, ready to set as your wallpaper." />
+        <title>Catholic Lockscreen Wallpapers — Free Bible Verse Wallpapers for iPhone & Android | Guide Catholic</title>
+        <meta name="description" content="Download free Catholic lockscreen wallpapers with Bible verses for your iPhone or Android. 20 Scripture passages, 8 sacred color themes, high-resolution PNG — instant free download." />
+        <meta name="keywords" content="catholic lockscreen wallpaper, catholic phone wallpaper, bible verse lockscreen, christian wallpaper iphone, catholic wallpaper free download, scripture wallpaper phone, catholic background iphone, religious lockscreen, bible verse phone wallpaper, catholic iphone wallpaper, christian phone background, free catholic wallpaper, scripture phone background, catholic home screen wallpaper, bible verse background free" />
         <link rel="canonical" href="https://guidecatholic.com/lockscreen/" />
         <meta name="robots" content="index, follow" />
+        {/* Open Graph */}
+        <meta property="og:title" content="Free Catholic Lockscreen Wallpapers — Bible Verses for Your Phone" />
+        <meta property="og:description" content="Download beautiful Catholic lockscreen wallpapers with Scripture verses. 8 sacred themes, 20 Bible passages, high-resolution PNG — free for iPhone and Android." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://guidecatholic.com/lockscreen/" />
+        <meta property="og:site_name" content="Guide Catholic" />
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Free Catholic Lockscreen Wallpapers — Bible Verses for Your Phone" />
+        <meta name="twitter:description" content="Download beautiful Catholic lockscreen wallpapers with Scripture verses. 8 sacred themes, 20 Bible passages — free for iPhone and Android." />
+        {/* JSON-LD */}
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Catholic Lockscreen Wallpapers — Free Bible Verse Wallpapers",
+          "description": "Download free Catholic lockscreen wallpapers with Bible verses for iPhone and Android. 20 Scripture passages, 8 sacred color themes, high-resolution PNG.",
+          "url": "https://guidecatholic.com/lockscreen/",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Guide Catholic",
+            "url": "https://guidecatholic.com"
+          },
+          "mainEntity": {
+            "@type": "SoftwareApplication",
+            "name": "Catholic Lockscreen Wallpaper Generator",
+            "applicationCategory": "UtilitiesApplication",
+            "operatingSystem": "Web",
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+            "description": "Generate and download free Catholic lockscreen wallpapers with Bible verses. Choose from 20 Scripture passages and 8 sacred color themes."
+          },
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://guidecatholic.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Catholic Lockscreens", "item": "https://guidecatholic.com/lockscreen/" }
+            ]
+          },
+          "mainEntityOfPage": {
+            "@type": "FAQPage",
+            "mainEntity": faqs.map(f => ({
+              "@type": "Question",
+              "name": f.q,
+              "acceptedAnswer": { "@type": "Answer", "text": f.a }
+            }))
+          }
+        })}</script>
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -469,6 +545,68 @@ export default function LockscreenPage() {
                   <p className="text-sm text-text-muted leading-relaxed">{body}</p>
                 </div>
               ))}
+            </div>
+
+            {/* SEO rich text block */}
+            <div className="mt-14 bg-surface border border-border rounded-2xl p-8 max-w-3xl mx-auto">
+              <h2 className="font-display text-2xl font-bold text-text mb-5">
+                Why Use a Catholic Lockscreen Wallpaper?
+              </h2>
+              <div className="space-y-4 text-text-muted text-sm leading-relaxed">
+                <p>
+                  The average person unlocks their smartphone over 90 times a day. That's 90 opportunities — most of them wasted on notifications, social media, or idle scrolling. A <strong className="text-text">Catholic lockscreen wallpaper</strong> transforms each unlock into a brief encounter with the Word of God. It's one of the simplest and most effective ways to keep your faith at the center of your daily life.
+                </p>
+                <p>
+                  Our free <strong className="text-text">Bible verse wallpapers for iPhone and Android</strong> are designed specifically for Catholic Christians who want to carry Scripture with them throughout the day. Each design features a carefully chosen passage from the Old or New Testament, rendered in a beautiful typographic layout with sacred color themes inspired by Catholic liturgical tradition.
+                </p>
+                <p>
+                  Unlike generic Christian wallpapers, our designs are rooted in the Catholic tradition — featuring the cross, liturgical colors (deep blue for Advent, crimson for martyrs, gold for solemnities), and Scripture passages that resonate with the Catholic sacramental and devotional life. Whether you're looking for a <strong className="text-text">Catholic phone wallpaper</strong> for Lent, Advent, or everyday use, you'll find a design that speaks to your heart.
+                </p>
+                <p>
+                  All wallpapers are generated at <strong className="text-text">1290 × 2796 pixels</strong> — the native resolution of the iPhone 14 Pro Max — ensuring a crisp, sharp image on any modern smartphone. They are completely free to download, with no account or email required. Simply choose your verse, pick a color theme, and tap Download.
+                </p>
+              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-8 mb-5">
+                About Our Catholic Wallpaper Designs
+              </h2>
+              <div className="space-y-4 text-text-muted text-sm leading-relaxed">
+                <p>
+                  Each <strong className="text-text">Catholic lockscreen</strong> is generated in real time using HTML5 Canvas — no images are stored on our servers. The design includes a decorative cross, the verse text in an elegant serif font, the Scripture reference, a themed color tag, and the Guide Catholic watermark. The result is a clean, beautiful wallpaper that looks professional on any phone screen.
+                </p>
+                <p>
+                  We offer 8 color themes: <strong className="text-text">Deep Blue</strong> (inspired by Our Lady's mantle), <strong className="text-text">Royal Purple</strong> (the color of Advent and Lent), <strong className="text-text">Sacred Gold</strong> (for solemnities and feasts), <strong className="text-text">Forest Green</strong> (Ordinary Time), <strong className="text-text">Crimson</strong> (for martyrs and the Holy Spirit), <strong className="text-text">Midnight</strong> (for contemplative prayer), <strong className="text-text">Rose</strong> (Gaudete and Laetare Sundays), and <strong className="text-text">Slate</strong> (for peace and the Holy Spirit as dove).
+                </p>
+                <p>
+                  The 20 Scripture passages are drawn from the Psalms, the Gospels, the Letters of Saint Paul, and the prophets — covering themes of strength, peace, love, faith, hope, courage, prayer, and the Eucharist. New verses and themes will be added regularly.
+                </p>
+              </div>
+            </div>
+
+            {/* FAQ */}
+            <div className="mt-12 max-w-3xl mx-auto">
+              <h2 className="font-display text-2xl font-bold text-text mb-6 flex items-center gap-2">
+                <HelpCircle className="w-6 h-6 text-accent" />
+                Frequently Asked Questions
+              </h2>
+              <div className="space-y-3">
+                {faqs.map((faq, i) => (
+                  <div key={i} className="bg-surface border border-border rounded-xl overflow-hidden">
+                    <button
+                      onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                      className="w-full flex items-center justify-between p-5 text-left hover:bg-accent/5 transition-colors"
+                    >
+                      <span className="font-semibold text-text text-sm pr-4">{faq.q}</span>
+                      <ChevronDown className={`w-5 h-5 text-accent shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
+                    </button>
+                    {openFaq === i && (
+                      <div className="px-5 pb-5 text-sm text-text-muted leading-relaxed border-t border-border pt-4">
+                        {faq.a}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* CTA */}
