@@ -438,6 +438,11 @@ const AllSaintsAllSoulsDay = lazy(() => import("./pages/blog/AllSaintsAllSoulsDa
 const WhatIsTheCatechism = lazy(() => import("./pages/blog/WhatIsTheCatechism"));
 const CatholicApologeticsGuide = lazy(() => import("./pages/blog/CatholicApologeticsGuide"));
 
+// New High-Volume Articles May 2026
+const CatholicTithingGuide = lazy(() => import("./pages/blog/CatholicTithingGuide"));
+const ImmaculateConceptionGuide = lazy(() => import("./pages/blog/ImmaculateConceptionGuide"));
+const SpiritualGiftsGuide = lazy(() => import("./pages/blog/SpiritualGiftsGuide"));
+
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
 const DivorcedCatholicCommunion = lazy(() => import("./pages/blog/DivorcedCatholicCommunion"));
@@ -883,6 +888,12 @@ const App = () => (
             <Route path="/blog/our-lady-of-perpetual-help-novena-guide/" element={<OurLadyPerpetualHelpNovena />} />
             <Route path="/blog/our-lady-of-guadalupe-novena-guide/" element={<OurLadyGuadalupeNovena />} />
             <Route path="/blog/st-joseph-novena-buying-house-guide/" element={<StJosephBuyingHouseGuide />} />
+
+            {/* New High-Volume Articles May 2026 */}
+            <Route path="/blog/catholic-tithing-guide/" element={<CatholicTithingGuide />} />
+            <Route path="/blog/immaculate-conception-guide/" element={<ImmaculateConceptionGuide />} />
+            <Route path="/blog/spiritual-gifts-guide/" element={<SpiritualGiftsGuide />} />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>

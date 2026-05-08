@@ -1,17 +1,13 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Cross, Menu, X } from "lucide-react";
+import { Cross } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
-    setIsOpen(false);
   };
 
   return (
@@ -65,65 +61,15 @@ export function Navbar() {
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden p-2"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? (
-              <X className="w-6 h-6 text-text" />
-            ) : (
-              <Menu className="w-6 h-6 text-text" />
-            )}
-          </button>
-        </div>
-
-        {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="md:hidden py-4 border-t border-border/50">
-            <div className="flex flex-col">
-              <button
-                onClick={() => scrollToSection("beneficios")}
-                className="text-left px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
-              >
-                Benefits
-              </button>
-              <button
-                onClick={() => scrollToSection("como-funciona")}
-                className="text-left px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
-              >
-                How It Works
-              </button>
-              <button
-                onClick={() => scrollToSection("depoimentos")}
-                className="text-left px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
-              >
-                Testimonials
-              </button>
-              <Link
-                to="/blog"
-                className="px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                Blog
-              </Link>
-              <Link
-                to="/daily-verses"
-                className="px-2 py-3 text-text-muted hover:text-text hover:bg-accent/5 rounded-lg transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                Daily Verse
-              </Link>
-              <div className="pt-2">
-                <Link to="/quiz-intro" onClick={() => setIsOpen(false)}>
-                  <Button className="w-full bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
-                    Take the Quiz
-                  </Button>
-                </Link>
-              </div>
-            </div>
+          {/* Mobile: Take the Quiz button */}
+          <div className="md:hidden">
+            <Link to="/quiz-intro">
+              <Button size="sm" className="bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
+                Take the Quiz
+              </Button>
+            </Link>
           </div>
-        )}
+        </div>
       </div>
     </nav>
   );
