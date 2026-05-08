@@ -462,6 +462,7 @@ import TermsOfUse from "./pages/TermsOfUse";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+const LockscreenPage = lazy(() => import("./pages/LockscreenPage"));
 
 const queryClient = new QueryClient();
 
@@ -483,6 +484,7 @@ const App = () => (
             <Route path="/result" element={<ResultadoPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/blog/page/:page" element={<BlogPage />} />
+            <Route path="/lockscreen" element={<LockscreenPage />} />
             <Route path="/termos" element={<TermsOfUse />} />
             <Route path="/terms" element={<TermsOfUse />} />
             <Route path="/privacidade" element={<PrivacyPolicy />} />
