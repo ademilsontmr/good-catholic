@@ -30,6 +30,37 @@ const verses = [
   { text: "Create in me a clean heart, O God.", ref: "Psalm 51:10", theme: "Conversion" },
   { text: "Rejoice in the Lord always. I will say it again: Rejoice!", ref: "Philippians 4:4", theme: "Joy" },
   { text: "I am the resurrection and the life.", ref: "John 11:25", theme: "Hope" },
+  // 30 new verses
+  { text: "The Lord bless you and keep you; the Lord make his face shine on you and be gracious to you.", ref: "Numbers 6:24-25", theme: "Blessing" },
+  { text: "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged.", ref: "Joshua 1:9", theme: "Courage" },
+  { text: "Taste and see that the Lord is good; blessed is the one who takes refuge in him.", ref: "Psalm 34:8", theme: "Trust" },
+  { text: "Delight yourself in the Lord, and he will give you the desires of your heart.", ref: "Psalm 37:4", theme: "Joy" },
+  { text: "God is our refuge and strength, an ever-present help in trouble.", ref: "Psalm 46:1", theme: "Refuge" },
+  { text: "As the deer pants for streams of water, so my soul pants for you, my God.", ref: "Psalm 42:1", theme: "Longing" },
+  { text: "The Lord is close to the brokenhearted and saves those who are crushed in spirit.", ref: "Psalm 34:18", theme: "Comfort" },
+  { text: "Your word is a lamp to my feet and a light to my path.", ref: "Psalm 119:105", theme: "Guidance" },
+  { text: "I lift up my eyes to the mountains — where does my help come from? My help comes from the Lord.", ref: "Psalm 121:1-2", theme: "Help" },
+  { text: "Even though I walk through the darkest valley, I will fear no evil, for you are with me.", ref: "Psalm 23:4", theme: "Protection" },
+  { text: "Seek first the kingdom of God and his righteousness, and all these things will be added to you.", ref: "Matthew 6:33", theme: "Priority" },
+  { text: "Blessed are the pure in heart, for they shall see God.", ref: "Matthew 5:8", theme: "Purity" },
+  { text: "Blessed are the peacemakers, for they will be called children of God.", ref: "Matthew 5:9", theme: "Peace" },
+  { text: "With God all things are possible.", ref: "Matthew 19:26", theme: "Faith" },
+  { text: "I am the vine; you are the branches. Whoever abides in me bears much fruit.", ref: "John 15:5", theme: "Union" },
+  { text: "Greater love has no one than this: to lay down one's life for one's friends.", ref: "John 15:13", theme: "Love" },
+  { text: "Do not let your hearts be troubled. You believe in God; believe also in me.", ref: "John 14:1", theme: "Peace" },
+  { text: "The fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness.", ref: "Galatians 5:22", theme: "Holiness" },
+  { text: "I have been crucified with Christ and I no longer live, but Christ lives in me.", ref: "Galatians 2:20", theme: "Union" },
+  { text: "Do not be overcome by evil, but overcome evil with good.", ref: "Romans 12:21", theme: "Virtue" },
+  { text: "For I am convinced that neither death nor life can separate us from the love of God.", ref: "Romans 8:38-39", theme: "Love" },
+  { text: "We know that in all things God works for the good of those who love him.", ref: "Romans 8:28", theme: "Hope" },
+  { text: "Let all that you do be done in love.", ref: "1 Corinthians 16:14", theme: "Love" },
+  { text: "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.", ref: "1 Corinthians 13:4", theme: "Love" },
+  { text: "Cast all your anxiety on him because he cares for you.", ref: "1 Peter 5:7", theme: "Trust" },
+  { text: "Be still before the Lord and wait patiently for him.", ref: "Psalm 37:7", theme: "Patience" },
+  { text: "The Lord is my strength and my song; he has given me victory.", ref: "Exodus 15:2", theme: "Victory" },
+  { text: "He heals the brokenhearted and binds up their wounds.", ref: "Psalm 147:3", theme: "Healing" },
+  { text: "Come to me with your ears wide open. Listen, and you will find life.", ref: "Isaiah 55:3", theme: "Surrender" },
+  { text: "Those who hope in the Lord will renew their strength. They will soar on wings like eagles.", ref: "Isaiah 40:31", theme: "Strength" },
 ];
 
 type ThemeKey = "Deep Blue" | "Royal Purple" | "Sacred Gold" | "Forest Green" | "Crimson" | "Midnight" | "Rose" | "Slate";
@@ -296,20 +327,20 @@ export default function LockscreenPage() {
     <>
       <Helmet>
         <title>Catholic Lockscreen Wallpapers — Free Bible Verse Wallpapers for iPhone & Android | Guide Catholic</title>
-        <meta name="description" content="Download free Catholic lockscreen wallpapers with Bible verses for your iPhone or Android. 20 Scripture passages, 8 sacred color themes, high-resolution PNG — instant free download." />
+        <meta name="description" content="Download free Catholic lockscreen wallpapers with Bible verses for your iPhone or Android. 50 Scripture passages, 8 sacred color themes, high-resolution PNG — instant free download." />
         <meta name="keywords" content="catholic lockscreen wallpaper, catholic phone wallpaper, bible verse lockscreen, christian wallpaper iphone, catholic wallpaper free download, scripture wallpaper phone, catholic background iphone, religious lockscreen, bible verse phone wallpaper, catholic iphone wallpaper, christian phone background, free catholic wallpaper, scripture phone background, catholic home screen wallpaper, bible verse background free" />
         <link rel="canonical" href="https://guidecatholic.com/lockscreen/" />
         <meta name="robots" content="index, follow" />
         {/* Open Graph */}
         <meta property="og:title" content="Free Catholic Lockscreen Wallpapers — Bible Verses for Your Phone" />
-        <meta property="og:description" content="Download beautiful Catholic lockscreen wallpapers with Scripture verses. 8 sacred themes, 20 Bible passages, high-resolution PNG — free for iPhone and Android." />
+        <meta property="og:description" content="Download beautiful Catholic lockscreen wallpapers with Scripture verses. 8 sacred themes, 50 Bible passages, high-resolution PNG — free for iPhone and Android." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://guidecatholic.com/lockscreen/" />
         <meta property="og:site_name" content="Guide Catholic" />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Free Catholic Lockscreen Wallpapers — Bible Verses for Your Phone" />
-        <meta name="twitter:description" content="Download beautiful Catholic lockscreen wallpapers with Scripture verses. 8 sacred themes, 20 Bible passages — free for iPhone and Android." />
+        <meta name="twitter:description" content="Download beautiful Catholic lockscreen wallpapers with Scripture verses. 8 sacred themes, 50 Bible passages — free for iPhone and Android." />
         {/* JSON-LD */}
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -328,7 +359,7 @@ export default function LockscreenPage() {
             "applicationCategory": "UtilitiesApplication",
             "operatingSystem": "Web",
             "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-            "description": "Generate and download free Catholic lockscreen wallpapers with Bible verses. Choose from 20 Scripture passages and 8 sacred color themes."
+            "description": "Generate and download free Catholic lockscreen wallpapers with Bible verses. Choose from 50 Scripture passages and 8 sacred color themes."
           },
           "breadcrumb": {
             "@type": "BreadcrumbList",
@@ -464,7 +495,7 @@ export default function LockscreenPage() {
                 {/* Verse picker */}
                 <div>
                   <h2 className="font-display text-xl font-bold text-text mb-1">Choose a Verse</h2>
-                  <p className="text-sm text-text-muted mb-4">20 carefully selected Scripture passages.</p>
+                  <p className="text-sm text-text-muted mb-4">50 carefully selected Scripture passages.</p>
                   <div className="grid grid-cols-2 gap-2 max-h-64 overflow-y-auto pr-1">
                     {verses.map((v, i) => (
                       <button
@@ -535,7 +566,7 @@ export default function LockscreenPage() {
               {[
                 { icon: Cross, title: "Start with God", body: "Your lockscreen is the first thing you see every morning. Make it a moment of prayer, not distraction." },
                 { icon: Heart, title: "Carry Scripture", body: "Each time you unlock your phone, you encounter the Word of God. Small moments, deep transformation." },
-                { icon: BookOpen, title: "20 Verses · 8 Styles", body: "Mix and match to find the combination that speaks to your heart. Change it whenever you need a new word." },
+                { icon: BookOpen, title: "50 Verses · 8 Styles", body: "Mix and match to find the combination that speaks to your heart. Change it whenever you need a new word." },
               ].map(({ icon: Icon, title, body }) => (
                 <div key={title} className="bg-surface border border-border rounded-2xl p-6 text-center">
                   <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
@@ -578,7 +609,7 @@ export default function LockscreenPage() {
                   We offer 8 color themes: <strong className="text-text">Deep Blue</strong> (inspired by Our Lady's mantle), <strong className="text-text">Royal Purple</strong> (the color of Advent and Lent), <strong className="text-text">Sacred Gold</strong> (for solemnities and feasts), <strong className="text-text">Forest Green</strong> (Ordinary Time), <strong className="text-text">Crimson</strong> (for martyrs and the Holy Spirit), <strong className="text-text">Midnight</strong> (for contemplative prayer), <strong className="text-text">Rose</strong> (Gaudete and Laetare Sundays), and <strong className="text-text">Slate</strong> (for peace and the Holy Spirit as dove).
                 </p>
                 <p>
-                  The 20 Scripture passages are drawn from the Psalms, the Gospels, the Letters of Saint Paul, and the prophets — covering themes of strength, peace, love, faith, hope, courage, prayer, and the Eucharist. New verses and themes will be added regularly.
+                  The 50 Scripture passages are drawn from the Psalms, the Gospels, the Letters of Saint Paul, and the prophets — covering themes of strength, peace, love, faith, hope, courage, prayer, and the Eucharist. New verses and themes will be added regularly.
                 </p>
               </div>
             </div>
