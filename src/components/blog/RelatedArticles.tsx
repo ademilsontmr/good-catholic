@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { blogPosts } from "@/pages/BlogPage";
+import { getCanonicalCategory } from "@/lib/blogCategories";
 
 function getRelatedPosts(currentSlug: string, count = 3) {
   const current = blogPosts.find(p => p.slug === currentSlug);
@@ -12,7 +13,7 @@ function getRelatedPosts(currentSlug: string, count = 3) {
     .map(p => {
       let score = 0;
       // Same category: +10
-      if (current && p.category === current.category) score += 10;
+      if (current && getCanonicalCategory(p.category) === getCanonicalCategory(current.category)) score += 10;
       // Matching slug keywords: +3 each
       const pKeywords = p.slug.split("-");
       currentKeywords.forEach(kw => {
@@ -55,7 +56,7 @@ export function RelatedArticles({ currentSlug }: { currentSlug: string }) {
               <div className="p-4">
                 <div className="flex items-center gap-2 text-xs text-text-muted mb-2">
                   <span className="bg-accent/10 text-accent px-2 py-0.5 rounded-full font-medium">
-                    {post.category}
+                    {getCanonicalCategory(post.category)}
                   </span>
                 </div>
                 <h4 className="font-display text-base font-semibold text-text mb-2 line-clamp-2 group-hover:text-accent transition-colors">

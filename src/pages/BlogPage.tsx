@@ -5,6 +5,7 @@ import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, Map
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { getCanonicalCategory } from "@/lib/blogCategories";
 
 interface BlogPost {
   id: number;
@@ -18,6 +19,11 @@ interface BlogPost {
   bgColor: string;
   iconColor: string;
 }
+
+const trimMetaDescription = (description: string) => {
+  if (description.length <= 155) return description;
+  return `${description.slice(0, 152).replace(/\s+\S*$/, "")}...`;
+};
 
 export const blogPosts: BlogPost[] = [
   {
@@ -1341,18 +1347,6 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-emerald-400"
   },
   {
-    id: 1010,
-    slug: "what-is-purgatory-guide",
-    title: "What Is Purgatory? A Complete Catholic Guide",
-    excerpt: "Purgatory is one of the most misunderstood Catholic doctrines. Learn the biblical evidence, what purification really means, how to pray for the dead, and how Purgatory reveals God's mercy.",
-    date: "2026-04-16",
-    readTime: "18 min",
-    category: "Doctrine",
-    icon: Cloud,
-    bgColor: "bg-blue-100",
-    iconColor: "text-blue-400"
-  },
-  {
     id: 1011,
     slug: "saint-benedict-medal",
     title: "The Saint Benedict Medal: History, Every Symbol Decoded, and How to Use It",
@@ -1485,18 +1479,6 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-orange-400"
   },
   {
-    id: 1,
-    slug: "how-to-pray-rosary",
-    title: "How to Pray the Holy Rosary: Complete Guide for Beginners",
-    excerpt: "Learn step by step how to pray the Holy Rosary and strengthen your Marian devotion with this practical and spiritual guide.",
-    date: "2026-04-12",
-    readTime: "8 min",
-    category: "Prayers",
-    icon: Heart,
-    bgColor: "bg-rose-100",
-    iconColor: "text-rose-400"
-  },
-  {
     id: 2,
     slug: "seven-sacraments",
     title: "The 7 Sacraments of the Catholic Church Explained",
@@ -1617,18 +1599,6 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-orange-400"
   },
   {
-    id: 12,
-    slug: "lectio-divina",
-    title: "Lectio Divina: Praying with Scripture",
-    excerpt: "Discover the ancient practice of Lectio Divina and how to pray with the Word of God.",
-    date: "2026-04-12",
-    readTime: "10 min",
-    category: "Prayer",
-    icon: BookOpen,
-    bgColor: "bg-emerald-100",
-    iconColor: "text-emerald-400"
-  },
-  {
     id: 13,
     slug: "chastity-modern-world",
     title: "Chastity in the Modern World: Living Purity Today",
@@ -1711,18 +1681,6 @@ export const blogPosts: BlogPost[] = [
     icon: Wind,
     bgColor: "bg-purple-100",
     iconColor: "text-purple-400"
-  },
-  {
-    id: 20,
-    slug: "guardian-angels",
-    title: "Guardian Angels: Our Heavenly Companions",
-    excerpt: "Learn about the role of guardian angels in our lives and how to develop devotion to them.",
-    date: "2026-04-12",
-    readTime: "7 min",
-    category: "Devotions",
-    icon: Shield,
-    bgColor: "bg-blue-100",
-    iconColor: "text-blue-400"
   },
   {
     id: 21,
@@ -1879,18 +1837,6 @@ export const blogPosts: BlogPost[] = [
     icon: Church,
     bgColor: "bg-violet-100",
     iconColor: "text-violet-400"
-  },
-  {
-    id: 34,
-    slug: "how-to-become-catholic",
-    title: "How to Become Catholic: The RCIA Process Explained",
-    excerpt: "Learn how to become Catholic through the RCIA process. Complete guide covering the 4 stages of RCIA, Easter Vigil, what to expect, timeline, and FAQs for converts to Catholicism.",
-    date: "2026-04-14",
-    readTime: "11 min",
-    category: "Formation",
-    icon: BookOpen,
-    bgColor: "bg-blue-100",
-    iconColor: "text-blue-400"
   },
   {
     id: 35,
@@ -2662,54 +2608,6 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-rose-600"
   },
   {
-    id: 78,
-    slug: "how-to-choose-confirmation-name",
-    title: "How to Choose a Confirmation Name: A Complete Catholic Guide",
-    excerpt: "Learn how to choose a Catholic Confirmation name — what it means, how to research saints, and how to make this important spiritual decision with prayer and discernment.",
-    date: "2026-04-15",
-    readTime: "8 min",
-    category: "Sacraments",
-    icon: Flame,
-    bgColor: "bg-orange-100",
-    iconColor: "text-orange-400"
-  },
-  {
-    id: 79,
-    slug: "how-to-return-to-mass",
-    title: "How to Return to Mass After Being Away: A Guide for Lapsed Catholics",
-    excerpt: "Thinking about returning to Mass? This compassionate guide helps lapsed Catholics come back to the Church — step by step, without judgment.",
-    date: "2026-04-15",
-    readTime: "9 min",
-    category: "Liturgy",
-    icon: Church,
-    bgColor: "bg-violet-100",
-    iconColor: "text-violet-400"
-  },
-  {
-    id: 80,
-    slug: "how-to-teach-children-to-pray",
-    title: "How to Teach Children to Pray: A Catholic Parent's Guide",
-    excerpt: "Learn how to teach your children to pray as Catholics — age-appropriate prayers, tips for building a prayer habit, and how to make prayer a natural part of family life.",
-    date: "2026-04-15",
-    readTime: "10 min",
-    category: "Family",
-    icon: Users,
-    bgColor: "bg-amber-100",
-    iconColor: "text-amber-400"
-  },
-  {
-    id: 81,
-    slug: "how-to-find-catholic-community",
-    title: "How to Find a Catholic Community: A Guide to Parish Life",
-    excerpt: "Learn how to find a welcoming Catholic community, choose the right parish, get involved in parish life, and build lasting friendships rooted in faith.",
-    date: "2026-04-15",
-    readTime: "9 min",
-    category: "Community",
-    icon: MapPin,
-    bgColor: "bg-emerald-100",
-    iconColor: "text-emerald-400"
-  },
-  {
     id: 1142,
     slug: "our-lady-of-guadalupe-patroness-americas",
     title: "Our Lady of Guadalupe: Patroness of the Americas — Complete Guide",
@@ -3063,10 +2961,11 @@ export default function BlogPage() {
   const { page } = useParams<{ page?: string }>();
   const navigate = useNavigate();
   const [selectedCategory, setSelectedCategory] = useState<string>("All");
-  const currentPage = parseInt(page || "1", 10);
+  const parsedPage = parseInt(page || "1", 10);
+  const currentPage = Number.isNaN(parsedPage) ? 1 : parsedPage;
   const postsPerPage = 9;
   
-  const categories = ["All", ...Array.from(new Set(blogPosts.map(post => post.category)))];
+  const categories = ["All", ...Array.from(new Set(blogPosts.map(post => getCanonicalCategory(post.category))))];
   
   // Sort posts by date (most recent first), then by id descending as tiebreaker
   const sortedPosts = [...blogPosts].sort((a, b) => {
@@ -3077,40 +2976,64 @@ export default function BlogPage() {
   
   const filteredPosts = selectedCategory === "All" 
     ? sortedPosts 
-    : sortedPosts.filter(post => post.category === selectedCategory);
+    : sortedPosts.filter(post => getCanonicalCategory(post.category) === selectedCategory);
   
   // Calculate pagination
   const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
   const startIndex = (currentPage - 1) * postsPerPage;
   const endIndex = startIndex + postsPerPage;
   const currentPosts = filteredPosts.slice(startIndex, endIndex);
+  const pageCategories = Array.from(new Set(currentPosts.map(post => getCanonicalCategory(post.category)))).slice(0, 3);
+  const pageTopics = currentPosts
+    .slice(0, 3)
+    .map(post => post.title.split(":")[0].split(" — ")[0].trim());
   
-  // Redirect to page 1 if no page specified or invalid page
+  const getBlogPagePath = (pageNumber: number) => pageNumber === 1 ? "/blog/" : `/blog/page/${pageNumber}/`;
+  const canonicalPath = getBlogPagePath(currentPage);
+  const canonicalUrl = `https://guidecatholic.com${canonicalPath}`;
+  const pageTitle = currentPage === 1 ? "Blog - Guide Catholic" : `Blog Page ${currentPage} - Guide Catholic`;
+  const pageDescription = trimMetaDescription(
+    currentPosts.length > 0
+      ? `Read ${pageCategories.join(", ")} articles including ${pageTopics.join("; ")}. Catholic guides for faith, prayer, sacraments and spiritual growth.`
+      : "Explore Guide Catholic articles about Catholic faith, prayer, sacraments, saints, doctrine and Christian living."
+  );
+
+  // Keep the canonical first page at /blog/ and redirect invalid archive pages.
   useEffect(() => {
-    if (!page) {
-      navigate('/blog/page/1/', { replace: true });
-    } else if (currentPage < 1 || currentPage > totalPages) {
-      navigate('/blog/page/1/', { replace: true });
+    if (page === "1") {
+      navigate('/blog/', { replace: true });
+    } else if (page && (currentPage < 1 || currentPage > totalPages)) {
+      navigate('/blog/', { replace: true });
     }
   }, [page, currentPage, totalPages, navigate]);
   
   // Reset to page 1 when category changes
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
-    navigate('/blog/page/1/');
+    navigate('/blog/');
   };
   
   const handlePageChange = (page: number) => {
-    navigate(`/blog/page/${page}/`);
+    navigate(getBlogPagePath(page));
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
     <>
       <Helmet>
-        <title>Blog - Guide Catholic</title>
-        <meta name="description" content="Explore articles about Catholic faith, spirituality, sacraments, and Christian living." />
-        <link rel="canonical" href={`https://guidecatholic.com/blog/page/${currentPage}/`} />
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+        <link rel="canonical" href={canonicalUrl} />
+        {currentPage > 1 && <link rel="prev" href={`https://guidecatholic.com${getBlogPagePath(currentPage - 1)}`} />}
+        {currentPage < totalPages && <link rel="next" href={`https://guidecatholic.com${getBlogPagePath(currentPage + 1)}`} />}
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content="https://guidecatholic.com/og-image.svg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content="https://guidecatholic.com/og-image.svg" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -3171,7 +3094,7 @@ export default function BlogPage() {
                     <div className="p-5">
                       <div className="flex flex-wrap items-center gap-2 text-xs text-text-muted mb-3">
                         <span className="text-accent font-medium truncate max-w-[120px]">
-                          {post.category}
+                          {getCanonicalCategory(post.category)}
                         </span>
                         <span className="flex items-center gap-1 shrink-0">
                           <Clock className="w-3 h-3" />

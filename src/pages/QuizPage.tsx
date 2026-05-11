@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import { QuizHeader } from "@/components/quiz/QuizHeader";
 import { ProgressBar } from "@/components/quiz/ProgressBar";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
@@ -78,52 +79,68 @@ const QuizPage = () => {
   // Show motivation screen if triggered
   if (showMotivation !== null) {
     return (
-      <MotivationScreen
-        questionNumber={showMotivation}
-        onContinue={handleMotivationContinue}
-      />
+      <>
+        <Helmet>
+          <title>Catholic Life Assessment in Progress | Guide Catholic</title>
+          <meta name="description" content="Continue your Catholic life assessment and answer questions about prayer, sacraments, formation, devotions and Christian witness." />
+          <link rel="canonical" href="https://guidecatholic.com/quiz/" />
+          <meta name="robots" content="noindex, follow" />
+        </Helmet>
+        <MotivationScreen
+          questionNumber={showMotivation}
+          onContinue={handleMotivationContinue}
+        />
+      </>
     );
   }
 
   return (
-    <div className="min-h-screen bg-background">
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2" />
-      </div>
-
-      <div className="relative min-h-screen flex flex-col">
-        <div className="absolute top-4 left-4 z-10">
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => navigate("/")}
-            className="text-text-muted hover:text-text"
-          >
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back
-          </Button>
+    <>
+      <Helmet>
+        <title>Catholic Life Assessment Questions | Guide Catholic</title>
+        <meta name="description" content="Answer the Catholic life assessment questions about Mass, prayer, sacraments, formation, devotions and witness to receive your personalized result." />
+        <link rel="canonical" href="https://guidecatholic.com/quiz/" />
+        <meta name="robots" content="noindex, follow" />
+      </Helmet>
+      <div className="min-h-screen bg-background">
+        <div className="fixed inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2" />
         </div>
 
-        <QuizHeader />
+        <div className="relative min-h-screen flex flex-col">
+          <div className="absolute top-4 left-4 z-10">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => navigate("/")}
+              className="text-text-muted hover:text-text"
+            >
+              <ArrowLeft className="w-4 h-4 mr-2" />
+              Back
+            </Button>
+          </div>
 
-        <main className="flex-1 flex flex-col justify-center py-8">
-          <ProgressBar current={currentQuestion + 1} total={questions.length} />
-          <QuestionCard
-            key={currentQuestion}
-            question={questions[currentQuestion]}
-            selectedAnswer={answers[currentQuestion] ?? null}
-            onSelectAnswer={handleSelectAnswer}
-          />
-        </main>
+          <QuizHeader />
 
-        <footer className="py-6 text-center">
-          <p className="text-sm text-text-muted">
-            © 2024 Guide Catholic · All rights reserved
-          </p>
-        </footer>
+          <main className="flex-1 flex flex-col justify-center py-8">
+            <ProgressBar current={currentQuestion + 1} total={questions.length} />
+            <QuestionCard
+              key={currentQuestion}
+              question={questions[currentQuestion]}
+              selectedAnswer={answers[currentQuestion] ?? null}
+              onSelectAnswer={handleSelectAnswer}
+            />
+          </main>
+
+          <footer className="py-6 text-center">
+            <p className="text-sm text-text-muted">
+              © 2024 Guide Catholic · All rights reserved
+            </p>
+          </footer>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -104,6 +104,8 @@ export default function GetResultPage() {
     <>
       <Helmet>
         <title>Your Results Are Ready | Guide Catholic</title>
+        <meta name="description" content="Enter your name to unlock your personalized Catholic life assessment result and spiritual growth guide." />
+        <link rel="canonical" href="https://guidecatholic.com/get-result/" />
         <meta name="robots" content="noindex" />
       </Helmet>
 

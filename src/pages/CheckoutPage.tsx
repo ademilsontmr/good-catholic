@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 interface LocationState {
   score?: number;
@@ -27,9 +28,17 @@ const CheckoutPage = () => {
   }, [locationState, navigate]);
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center">
-      <p className="text-text-muted">Redirecting...</p>
-    </div>
+    <>
+      <Helmet>
+        <title>Preparing Your Catholic Guide Checkout | Guide Catholic</title>
+        <meta name="description" content="Secure checkout redirect for your personalized Catholic spiritual growth guide after completing the Guide Catholic assessment." />
+        <link rel="canonical" href="https://guidecatholic.com/checkout/" />
+        <meta name="robots" content="noindex, follow" />
+      </Helmet>
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <p className="text-text-muted">Redirecting...</p>
+      </div>
+    </>
   );
 };
 

@@ -8,9 +8,9 @@
 
 export const INTERLINK_MAP: Record<string, string> = {
   // Rosary
-  "the Rosary": "/blog/how-to-pray-the-rosary-complete-guide/",
-  "pray the Rosary": "/blog/how-to-pray-the-rosary-complete-guide/",
-  "praying the Rosary": "/blog/how-to-pray-the-rosary-complete-guide/",
+  "the Rosary": "/blog/complete-rosary-guide/",
+  "pray the Rosary": "/blog/complete-rosary-guide/",
+  "praying the Rosary": "/blog/complete-rosary-guide/",
   "Holy Rosary": "/blog/rosary-complete-guide/",
   "Rosary mysteries": "/blog/rosary-mysteries-meditation/",
 
@@ -19,11 +19,13 @@ export const INTERLINK_MAP: Record<string, string> = {
   "go to Confession": "/blog/how-to-go-to-confession/",
   "going to Confession": "/blog/how-to-go-to-confession/",
   "frequent Confession": "/blog/importance-confession/",
-  "the Eucharist": "/blog/eucharist-real-presence/",
+  "Confession times": "/blog/confession-times-near-me/",
+  "the Eucharist": "/blog/complete-guide-to-the-eucharist/",
   "Real Presence": "/blog/eucharist-real-presence/",
   "Eucharistic adoration": "/blog/eucharistic-adoration/",
+  "Eucharistic Adoration near me": "/blog/eucharistic-adoration-near-me/",
   "Holy Mass": "/blog/what-is-the-catholic-mass-guide/",
-  "the Mass": "/blog/meaning-mass/",
+  "the Mass": "/blog/complete-guide-to-the-catholic-mass/",
   "attend Mass": "/blog/sunday-mass/",
   "Sunday Mass": "/blog/sunday-mass/",
   "Anointing of the Sick": "/blog/catholic-last-rites-explained/",
@@ -47,15 +49,17 @@ export const INTERLINK_MAP: Record<string, string> = {
   "prayer for protection": "/blog/catholic-prayer-for-protection/",
   "Prayer to Saint Michael": "/blog/saint-michael-prayer/",
   "St. Michael prayer": "/blog/saint-michael-prayer/",
+  "Hail Mary": "/blog/hail-mary-prayer/",
+  "Our Father": "/blog/our-father-prayer/",
+  "Apostles' Creed": "/blog/apostles-creed-prayer/",
 
   // Mary
   "Virgin Mary": "/blog/virgin-mary-complete-guide/",
   "Our Lady of Fatima": "/blog/our-lady-of-fatima-guide/",
   "Our Lady of Lourdes": "/blog/our-lady-of-lourdes-guide/",
   "Our Lady of Guadalupe": "/blog/our-lady-of-guadalupe-patroness-americas/",
-  "Immaculate Conception": "/blog/what-is-the-catholic-faith/",
+  "Immaculate Conception": "/blog/immaculate-conception-guide/",
   "Marian devotion": "/blog/do-catholics-worship-mary/",
-  "Hail Mary": "/blog/how-to-pray-the-rosary-complete-guide/",
 
   // Saints
   "Saint Francis of Assisi": "/blog/saint-francis-of-assisi/",

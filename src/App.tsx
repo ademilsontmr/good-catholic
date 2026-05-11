@@ -3,7 +3,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import QuizIntro from "./pages/QuizIntro";
@@ -47,7 +47,6 @@ const PrayerToStJoseph = lazy(() => import("./pages/blog/PrayerToStJoseph"));
 const TheMemorarePrayer = lazy(() => import("./pages/blog/TheMemorarePrayer"));
 // Sacraments Articles Batch 2
 const HowToGoToConfession = lazy(() => import("./pages/blog/HowToGoToConfession"));
-const HowToBecomeCatholic = lazy(() => import("./pages/blog/HowToBecomeCatholic"));
 const CatholicBaptismGuide = lazy(() => import("./pages/blog/CatholicBaptismGuide"));
 const CatholicConfirmationGuide = lazy(() => import("./pages/blog/CatholicConfirmationGuide"));
 const CatholicMarriageGuide = lazy(() => import("./pages/blog/CatholicMarriageGuide"));
@@ -509,7 +508,7 @@ const App = () => (
             <Route path="/blog/examination-conscience/" element={<ExaminationOfConscience />} />
             <Route path="/blog/virgin-mary/" element={<VirginMary />} />
             <Route path="/blog/gifts-holy-spirit/" element={<GiftsOfHolySpirit />} />
-            <Route path="/blog/lectio-divina/" element={<LectioDivina />} />
+            <Route path="/blog/lectio-divina/" element={<Navigate to="/blog/lectio-divina-how-to-practice/" replace />} />
             <Route path="/blog/chastity-modern-world/" element={<ChastityModernWorld />} />
             <Route path="/blog/social-doctrine/" element={<SocialDoctrine />} />
             <Route path="/blog/vocational-discernment/" element={<VocationalDiscernment />} />
@@ -517,7 +516,7 @@ const App = () => (
             <Route path="/blog/eucharistic-adoration/" element={<EucharisticAdoration />} />
             <Route path="/blog/what-is-purgatory/" element={<WhatIsPurgatory />} />
             <Route path="/blog/how-to-live-lent/" element={<HowToLiveLent />} />
-            <Route path="/blog/guardian-angels/" element={<GuardianAngels />} />
+            <Route path="/blog/guardian-angels/" element={<Navigate to="/blog/guardian-angels-guide/" replace />} />
             <Route path="/blog/meaning-of-crucifix/" element={<MeaningOfCrucifix />} />
             <Route path="/blog/jubilee-2025-legacy/" element={<Jubilee2025Legacy />} />
             <Route path="/blog/plenary-indulgence-guide/" element={<PlenaryIndulgenceGuide />} />
@@ -531,7 +530,6 @@ const App = () => (
             <Route path="/blog/prayer-to-st-joseph/" element={<PrayerToStJoseph />} />
             <Route path="/blog/the-memorare-prayer/" element={<TheMemorarePrayer />} />
             <Route path="/blog/how-to-go-to-confession/" element={<HowToGoToConfession />} />
-            <Route path="/blog/how-to-become-catholic/" element={<HowToBecomeCatholic />} />
             <Route path="/blog/catholic-baptism-guide/" element={<CatholicBaptismGuide />} />
             <Route path="/blog/catholic-confirmation-guide/" element={<CatholicConfirmationGuide />} />
             <Route path="/blog/catholic-marriage-guide/" element={<CatholicMarriageGuide />} />
@@ -593,7 +591,7 @@ const App = () => (
             <Route path="/blog/fruits-of-the-holy-spirit/" element={<FruitsOfHolySpirit />} />
             <Route path="/blog/catholic-teaching-on-divorce/" element={<CatholicTeachingOnDivorce />} />
             {/* SEO Articles Lote 4 */}
-            <Route path="/blog/what-is-purgatory-guide/" element={<WhatIsPurgatory />} />
+            <Route path="/blog/what-is-purgatory-guide/" element={<Navigate to="/blog/what-is-purgatory/" replace />} />
             <Route path="/blog/saint-benedict-medal/" element={<SaintBenedictMedal />} />
             <Route path="/blog/what-is-the-nicene-creed/" element={<WhatIsTheNiceneCreed />} />
             {/* SEO Articles Lote 5 */}
@@ -725,7 +723,7 @@ const App = () => (
             <Route path="/blog/morning-prayer-catholic/" element={<MorningPrayerCatholic />} />
             <Route path="/blog/saint-michael-prayer/" element={<SaintMichaelPrayer />} />
             <Route path="/blog/prayers-for-healing-catholic/" element={<PrayersForHealingCatholic />} />
-            <Route path="/blog/how-to-pray-rosary/" element={<RosaryCompleteGuide />} />
+            <Route path="/blog/how-to-pray-rosary/" element={<Navigate to="/blog/rosary-complete-guide/" replace />} />
             <Route path="/blog/how-to-pray-the-rosary-step-by-step/" element={<RosaryForBeginners />} />
             <Route path="/blog/prayer-before-meals-catholic/" element={<PrayerBeforeMealsCatholic />} />
             <Route path="/blog/hail-mary-prayer/" element={<HailMaryPrayer />} />
