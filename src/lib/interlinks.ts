@@ -52,6 +52,10 @@ export const INTERLINK_MAP: Record<string, string> = {
   "Hail Mary": "/blog/hail-mary-prayer/",
   "Our Father": "/blog/our-father-prayer/",
   "Apostles' Creed": "/blog/apostles-creed-prayer/",
+  "Glory Be": "/blog/glory-be-prayer/",
+  "Guardian Angel Prayer": "/blog/guardian-angel-prayer/",
+  "Come Holy Spirit": "/blog/come-holy-spirit-prayer/",
+  "Holy Spirit prayer": "/blog/come-holy-spirit-prayer/",
 
   // Mary
   "Virgin Mary": "/blog/virgin-mary-complete-guide/",

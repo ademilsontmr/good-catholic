@@ -27,6 +27,42 @@ const trimMetaDescription = (description: string) => {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1267,
+    slug: "come-holy-spirit-prayer",
+    title: "Come Holy Spirit Prayer: Full Text, Meaning and Catholic Guide",
+    excerpt: "The Come Holy Spirit prayer with full text, meaning, when to pray it, and a Catholic guide to asking the Holy Spirit for wisdom, courage, and renewal.",
+    date: "2026-05-11",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Flame,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-600"
+  },
+  {
+    id: 1266,
+    slug: "guardian-angel-prayer",
+    title: "Guardian Angel Prayer: Full Text, Meaning and Catholic Guide",
+    excerpt: "The Guardian Angel Prayer with full Catholic text, meaning, biblical background, and how to teach it to children or pray it daily for protection.",
+    date: "2026-05-11",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Shield,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-600"
+  },
+  {
+    id: 1265,
+    slug: "glory-be-prayer",
+    title: "Glory Be Prayer: Full Text, Meaning and When to Pray It",
+    excerpt: "The Glory Be prayer with full Catholic text, meaning, biblical roots, and how to pray this short doxology in the Rosary, novenas, and daily prayer.",
+    date: "2026-05-11",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Sparkles,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-600"
+  },
+  {
     id: 1259,
     slug: "confession-times-near-me",
     title: "Confession Times Near Me: How to Find Catholic Confession",

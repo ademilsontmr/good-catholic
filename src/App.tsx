@@ -449,6 +449,9 @@ const DailyMassNearMe = lazy(() => import("./pages/blog/DailyMassNearMe"));
 const HailMaryPrayer = lazy(() => import("./pages/blog/HailMaryPrayer"));
 const OurFatherPrayer = lazy(() => import("./pages/blog/OurFatherPrayer"));
 const ApostlesCreedPrayer = lazy(() => import("./pages/blog/ApostlesCreedPrayer"));
+const GloryBePrayer = lazy(() => import("./pages/blog/GloryBePrayer"));
+const GuardianAngelPrayer = lazy(() => import("./pages/blog/GuardianAngelPrayer"));
+const ComeHolySpiritPrayer = lazy(() => import("./pages/blog/ComeHolySpiritPrayer"));
 
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
@@ -729,6 +732,9 @@ const App = () => (
             <Route path="/blog/hail-mary-prayer/" element={<HailMaryPrayer />} />
             <Route path="/blog/our-father-prayer/" element={<OurFatherPrayer />} />
             <Route path="/blog/apostles-creed-prayer/" element={<ApostlesCreedPrayer />} />
+            <Route path="/blog/glory-be-prayer/" element={<GloryBePrayer />} />
+            <Route path="/blog/guardian-angel-prayer/" element={<GuardianAngelPrayer />} />
+            <Route path="/blog/come-holy-spirit-prayer/" element={<ComeHolySpiritPrayer />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />
