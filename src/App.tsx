@@ -443,6 +443,14 @@ const CatholicTithingGuide = lazy(() => import("./pages/blog/CatholicTithingGuid
 const ImmaculateConceptionGuide = lazy(() => import("./pages/blog/ImmaculateConceptionGuide"));
 const SpiritualGiftsGuide = lazy(() => import("./pages/blog/SpiritualGiftsGuide"));
 
+// SEO Opportunity Articles May 2026
+const ConfessionTimesNearMe = lazy(() => import("./pages/blog/ConfessionTimesNearMe"));
+const EucharisticAdorationNearMe = lazy(() => import("./pages/blog/EucharisticAdorationNearMe"));
+const DailyMassNearMe = lazy(() => import("./pages/blog/DailyMassNearMe"));
+const HailMaryPrayer = lazy(() => import("./pages/blog/HailMaryPrayer"));
+const OurFatherPrayer = lazy(() => import("./pages/blog/OurFatherPrayer"));
+const ApostlesCreedPrayer = lazy(() => import("./pages/blog/ApostlesCreedPrayer"));
+
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
 const DivorcedCatholicCommunion = lazy(() => import("./pages/blog/DivorcedCatholicCommunion"));
@@ -707,6 +715,9 @@ const App = () => (
             <Route path="/blog/catholic-confession-guide/" element={<CatholicConfessionGuide />} />
             <Route path="/blog/catholic-mass-online/" element={<CatholicMassOnline />} />
             <Route path="/blog/examination-of-conscience-before-confession/" element={<ExaminationOfConscienceGuideDetailed />} />
+            <Route path="/blog/confession-times-near-me/" element={<ConfessionTimesNearMe />} />
+            <Route path="/blog/eucharistic-adoration-near-me/" element={<EucharisticAdorationNearMe />} />
+            <Route path="/blog/daily-mass-near-me/" element={<DailyMassNearMe />} />
 
             {/* Prayer Articles Series */}
             <Route path="/blog/catholic-prayers-complete-guide/" element={<CatholicPrayersGuide />} />
@@ -717,6 +728,9 @@ const App = () => (
             <Route path="/blog/how-to-pray-rosary/" element={<RosaryCompleteGuide />} />
             <Route path="/blog/how-to-pray-the-rosary-step-by-step/" element={<RosaryForBeginners />} />
             <Route path="/blog/prayer-before-meals-catholic/" element={<PrayerBeforeMealsCatholic />} />
+            <Route path="/blog/hail-mary-prayer/" element={<HailMaryPrayer />} />
+            <Route path="/blog/our-father-prayer/" element={<OurFatherPrayer />} />
+            <Route path="/blog/apostles-creed-prayer/" element={<ApostlesCreedPrayer />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />

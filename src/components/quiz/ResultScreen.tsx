@@ -395,7 +395,13 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
     const text = `I just discovered how my Catholic life is going! Take the quiz too at Guide Catholic.`;
     const url = 'https://guidecatholic.com';
     if (navigator.share) {
-      try { await navigator.share({ title: "Guide Catholic", text, url }); } catch {}
+      try {
+        await navigator.share({ title: "Guide Catholic", text, url });
+      } catch (error) {
+        if (error instanceof Error && error.name !== "AbortError") {
+          toast.error("Unable to share. Please try again.");
+        }
+      }
     } else {
       await navigator.clipboard.writeText(`${text} ${url}`);
       toast.success("Link copied!");

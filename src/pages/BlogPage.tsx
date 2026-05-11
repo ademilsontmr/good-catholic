@@ -21,6 +21,78 @@ interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1259,
+    slug: "confession-times-near-me",
+    title: "Confession Times Near Me: How to Find Catholic Confession",
+    excerpt: "Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession.",
+    date: "2026-05-11",
+    readTime: "10 min",
+    category: "Mass & Sacraments",
+    icon: Church,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-600"
+  },
+  {
+    id: 1260,
+    slug: "eucharistic-adoration-near-me",
+    title: "Eucharistic Adoration Near Me: How to Find a Holy Hour",
+    excerpt: "Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit.",
+    date: "2026-05-11",
+    readTime: "9 min",
+    category: "Liturgy & Worship",
+    icon: Church,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1261,
+    slug: "daily-mass-near-me",
+    title: "Daily Mass Near Me: Find Catholic Mass Today",
+    excerpt: "Find Daily Mass near you today. Learn how to locate weekday Catholic Mass times, noon Mass, early morning Mass, readings, and parish schedules.",
+    date: "2026-05-11",
+    readTime: "8 min",
+    category: "Mass & Sacraments",
+    icon: Sun,
+    bgColor: "bg-yellow-100",
+    iconColor: "text-yellow-600"
+  },
+  {
+    id: 1262,
+    slug: "hail-mary-prayer",
+    title: "Hail Mary Prayer: Full Text, Meaning and How to Pray",
+    excerpt: "The Hail Mary prayer with full text, biblical meaning, history, and a simple guide for praying it with devotion in the Rosary and daily Catholic life.",
+    date: "2026-05-11",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
+  {
+    id: 1263,
+    slug: "our-father-prayer",
+    title: "Our Father Prayer: Full Text, Meaning and Catholic Guide",
+    excerpt: "The Our Father prayer with full text, biblical meaning, the seven petitions, and a Catholic guide to praying the Lord's Prayer with devotion.",
+    date: "2026-05-11",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: BookOpen,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-600"
+  },
+  {
+    id: 1264,
+    slug: "apostles-creed-prayer",
+    title: "Apostles' Creed: Full Text, Meaning and Catholic Explanation",
+    excerpt: "The Apostles' Creed with full Catholic text, meaning, history, and a clear explanation of each article of faith for prayer, RCIA, and the Rosary.",
+    date: "2026-05-11",
+    readTime: "10 min",
+    category: "Catholic Doctrine",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-600"
+  },
+  {
     id: 1040,
     slug: "catholic-inner-healing-guide",
     title: "Catholic Inner Healing: Complete Guide to Emotional & Spiritual Freedom",
