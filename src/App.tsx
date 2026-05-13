@@ -452,6 +452,16 @@ const ApostlesCreedPrayer = lazy(() => import("./pages/blog/ApostlesCreedPrayer"
 const GloryBePrayer = lazy(() => import("./pages/blog/GloryBePrayer"));
 const GuardianAngelPrayer = lazy(() => import("./pages/blog/GuardianAngelPrayer"));
 const ComeHolySpiritPrayer = lazy(() => import("./pages/blog/ComeHolySpiritPrayer"));
+const SignOfTheCrossCatholic = lazy(() => import("./pages/blog/SignOfTheCrossCatholic"));
+const GraceAfterMealsCatholic = lazy(() => import("./pages/blog/GraceAfterMealsCatholic"));
+const FatimaPrayerOMyJesus = lazy(() => import("./pages/blog/FatimaPrayerOMyJesus"));
+const StMichaelChapletPrayer = lazy(() => import("./pages/blog/StMichaelChapletPrayer"));
+const SevenSorrowsRosaryGuide = lazy(() => import("./pages/blog/SevenSorrowsRosaryGuide"));
+const ActOfFaithHopeCharity = lazy(() => import("./pages/blog/ActOfFaithHopeCharity"));
+const ReginaCaeliPrayer = lazy(() => import("./pages/blog/ReginaCaeliPrayer"));
+const LitanyOfTheSaintsCatholic = lazy(() => import("./pages/blog/LitanyOfTheSaintsCatholic"));
+const DivinePraisesCatholic = lazy(() => import("./pages/blog/DivinePraisesCatholic"));
+const JesusPrayerCatholic = lazy(() => import("./pages/blog/JesusPrayerCatholic"));
 
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
@@ -735,6 +745,16 @@ const App = () => (
             <Route path="/blog/glory-be-prayer/" element={<GloryBePrayer />} />
             <Route path="/blog/guardian-angel-prayer/" element={<GuardianAngelPrayer />} />
             <Route path="/blog/come-holy-spirit-prayer/" element={<ComeHolySpiritPrayer />} />
+            <Route path="/blog/sign-of-the-cross-catholic/" element={<SignOfTheCrossCatholic />} />
+            <Route path="/blog/grace-after-meals-catholic/" element={<GraceAfterMealsCatholic />} />
+            <Route path="/blog/fatima-prayer-o-my-jesus/" element={<FatimaPrayerOMyJesus />} />
+            <Route path="/blog/st-michael-chaplet-prayer/" element={<StMichaelChapletPrayer />} />
+            <Route path="/blog/seven-sorrows-rosary-guide/" element={<SevenSorrowsRosaryGuide />} />
+            <Route path="/blog/act-of-faith-hope-charity/" element={<ActOfFaithHopeCharity />} />
+            <Route path="/blog/regina-caeli-prayer/" element={<ReginaCaeliPrayer />} />
+            <Route path="/blog/litany-of-the-saints-catholic/" element={<LitanyOfTheSaintsCatholic />} />
+            <Route path="/blog/divine-praises-catholic/" element={<DivinePraisesCatholic />} />
+            <Route path="/blog/jesus-prayer-catholic/" element={<JesusPrayerCatholic />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />

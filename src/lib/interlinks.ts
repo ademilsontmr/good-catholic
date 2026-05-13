@@ -56,6 +56,18 @@ export const INTERLINK_MAP: Record<string, string> = {
   "Guardian Angel Prayer": "/blog/guardian-angel-prayer/",
   "Come Holy Spirit": "/blog/come-holy-spirit-prayer/",
   "Holy Spirit prayer": "/blog/come-holy-spirit-prayer/",
+  "Sign of the Cross": "/blog/sign-of-the-cross-catholic/",
+  "grace after meals": "/blog/grace-after-meals-catholic/",
+  "O My Jesus": "/blog/fatima-prayer-o-my-jesus/",
+  "St. Michael Chaplet": "/blog/st-michael-chaplet-prayer/",
+  "Seven Sorrows Rosary": "/blog/seven-sorrows-rosary-guide/",
+  "Act of Faith": "/blog/act-of-faith-hope-charity/",
+  "Act of Hope": "/blog/act-of-faith-hope-charity/",
+  "Act of Charity": "/blog/act-of-faith-hope-charity/",
+  "Regina Caeli": "/blog/regina-caeli-prayer/",
+  "Litany of the Saints": "/blog/litany-of-the-saints-catholic/",
+  "Divine Praises": "/blog/divine-praises-catholic/",
+  "Jesus Prayer": "/blog/jesus-prayer-catholic/",
 
   // Mary
   "Virgin Mary": "/blog/virgin-mary-complete-guide/",

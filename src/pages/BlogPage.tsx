@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, Globe, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, Globe, Utensils, Layers, ListOrdered, CircleDot, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -26,6 +26,126 @@ const trimMetaDescription = (description: string) => {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1277,
+    slug: "jesus-prayer-catholic",
+    title: "Jesus Prayer: Text, Meaning & Catholic Use (Breath of the Heart)",
+    excerpt: "The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner) with full text, meaning, and how Catholics may use it alongside the Rosary and lectio divina.",
+    date: "2026-05-14",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: CircleDot,
+    bgColor: "bg-teal-100",
+    iconColor: "text-teal-700"
+  },
+  {
+    id: 1276,
+    slug: "divine-praises-catholic",
+    title: "Divine Praises: Full Catholic Text, Meaning & When to Pray Them",
+    excerpt: "The Divine Praises with full Catholic text in English, what each praise means, and when Catholics pray them — especially after Benediction of the Blessed Sacrament.",
+    date: "2026-05-14",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Sparkles,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1275,
+    slug: "litany-of-the-saints-catholic",
+    title: "Litany of the Saints: How to Pray It, When It Is Used & Meaning",
+    excerpt: "Catholic guide to the Litany of the Saints — how the responses work, when the Church prays it (Easter Vigil, ordinations, confirmations), and why we invoke the saints together.",
+    date: "2026-05-14",
+    readTime: "10 min",
+    category: "Prayers & Devotions",
+    icon: ListOrdered,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-700"
+  },
+  {
+    id: 1274,
+    slug: "regina-caeli-prayer",
+    title: "Regina Caeli Prayer: Full Text, When to Pray It (Easter Marian)",
+    excerpt: "The Regina Caeli prayer with full English and Latin text, when Catholics pray it instead of the Angelus during Easter, and what this Marian antiphon means.",
+    date: "2026-05-14",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Sun,
+    bgColor: "bg-yellow-100",
+    iconColor: "text-yellow-600"
+  },
+  {
+    id: 1273,
+    slug: "act-of-faith-hope-charity",
+    title: "Act of Faith, Hope and Charity: Full Catholic Prayers and Meaning",
+    excerpt: "The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts in English, what each act means, and when to pray them for Confirmation, RCIA, and daily life.",
+    date: "2026-05-14",
+    readTime: "9 min",
+    category: "Prayers & Devotions",
+    icon: BookOpen,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-700"
+  },
+  {
+    id: 1272,
+    slug: "seven-sorrows-rosary-guide",
+    title: "Seven Sorrows Rosary: How to Pray It, Mysteries and Promises",
+    excerpt: "Complete Catholic guide to the Seven Sorrows Rosary (Servite Rosary): the seven sorrows of Mary, how to pray each group of seven Hail Marys, and the devotion's graces.",
+    date: "2026-05-13",
+    readTime: "10 min",
+    category: "Prayers & Devotions",
+    icon: Layers,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
+  {
+    id: 1271,
+    slug: "st-michael-chaplet-prayer",
+    title: "St. Michael Chaplet: How to Pray It, Beads and Prayers (Catholic Guide)",
+    excerpt: "Learn how to pray the St. Michael Chaplet step by step — opening prayers, nine salutations for the nine choirs of angels, and when to pray for protection.",
+    date: "2026-05-13",
+    readTime: "9 min",
+    category: "Prayers & Devotions",
+    icon: Shield,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-700"
+  },
+  {
+    id: 1270,
+    slug: "fatima-prayer-o-my-jesus",
+    title: "Fatima Prayer (O My Jesus): Full Text, Meaning and When to Pray It",
+    excerpt: "The Fatima Prayer (O My Jesus) with full text, meaning, when Our Lady asked for it in the Rosary, and how Catholics pray it after each decade.",
+    date: "2026-05-13",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Star,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-600"
+  },
+  {
+    id: 1269,
+    slug: "grace-after-meals-catholic",
+    title: "Grace After Meals: Catholic Prayer Text and When to Say It",
+    excerpt: "Grace after meals Catholic prayer with full text in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition.",
+    date: "2026-05-13",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Utensils,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1268,
+    slug: "sign-of-the-cross-catholic",
+    title: "Sign of the Cross: How Catholics Do It, Words and Meaning",
+    excerpt: "Learn how to make the Sign of the Cross the Catholic way — the words in English and Latin, left to right, when to use it, and what this ancient gesture means.",
+    date: "2026-05-13",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Cross,
+    bgColor: "bg-stone-100",
+    iconColor: "text-stone-700"
+  },
   {
     id: 1267,
     slug: "come-holy-spirit-prayer",
