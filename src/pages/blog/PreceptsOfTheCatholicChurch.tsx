@@ -20,7 +20,7 @@ export default function PreceptsOfTheCatholicChurch() {
         <link rel="canonical" href="https://guidecatholic.com/blog/precepts-of-the-catholic-church/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know" description="The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens." url="https://guidecatholic.com/blog/precepts-of-the-catholic-church/" datePublished="2026-05-31" />
+      <ArticleSchema title="Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know" description="The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens." url="https://guidecatholic.com/blog/precepts-of-the-catholic-church/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -46,7 +46,7 @@ export default function PreceptsOfTheCatholicChurch() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Catholic Doctrine</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 31, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />10 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know</h1>

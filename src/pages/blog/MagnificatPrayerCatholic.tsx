@@ -20,7 +20,7 @@ export default function MagnificatPrayerCatholic() {
         <link rel="canonical" href="https://guidecatholic.com/blog/magnificat-prayer-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Magnificat Prayer: Full Text (Mary's Song) & When to Pray It" description="The Magnificat (Luke 1:46–55) with full Catholic text in English and Latin, Mary's song of praise, and when Catholics pray it at Vespers and in daily devotion." url="https://guidecatholic.com/blog/magnificat-prayer-catholic/" datePublished="2026-05-31" />
+      <ArticleSchema title="Magnificat Prayer: Full Text (Mary's Song) & When to Pray It" description="The Magnificat (Luke 1:46–55) with full Catholic text in English and Latin, Mary's song of praise, and when Catholics pray it at Vespers and in daily devotion." url="https://guidecatholic.com/blog/magnificat-prayer-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -46,7 +46,7 @@ export default function MagnificatPrayerCatholic() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayers & Devotions</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 31, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />9 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Magnificat Prayer: Full Text (Mary's Song) & When to Pray It</h1>

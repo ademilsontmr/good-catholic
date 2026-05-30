@@ -20,7 +20,7 @@ export default function TeDeumPrayerCatholic() {
         <link rel="canonical" href="https://guidecatholic.com/blog/te-deum-prayer-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Te Deum Prayer: Full Catholic Text & When the Church Sings It" description="The Te Deum laudamus with full Catholic text in English, history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations, victories)." url="https://guidecatholic.com/blog/te-deum-prayer-catholic/" datePublished="2026-05-31" />
+      <ArticleSchema title="Te Deum Prayer: Full Catholic Text & When the Church Sings It" description="The Te Deum laudamus with full Catholic text in English, history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations, victories)." url="https://guidecatholic.com/blog/te-deum-prayer-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -46,7 +46,7 @@ export default function TeDeumPrayerCatholic() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayers & Devotions</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 31, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />9 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Te Deum Prayer: Full Catholic Text & When the Church Sings It</h1>

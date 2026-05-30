@@ -20,7 +20,7 @@ export default function PalmSundayCatholicGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/palm-sunday-catholic-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Palm Sunday Catholic Guide: Mass, Palms & Holy Week Start (USA)" description="Palm Sunday explained for Catholics in the U.S. — blessing of palms, procession, Mass readings, what to do with palms at home, and how Holy Week begins." url="https://guidecatholic.com/blog/palm-sunday-catholic-guide/" datePublished="2026-05-31" />
+      <ArticleSchema title="Palm Sunday Catholic Guide: Mass, Palms & Holy Week Start (USA)" description="Palm Sunday explained for Catholics in the U.S. — blessing of palms, procession, Mass readings, what to do with palms at home, and how Holy Week begins." url="https://guidecatholic.com/blog/palm-sunday-catholic-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -46,7 +46,7 @@ export default function PalmSundayCatholicGuide() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy & Worship</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 31, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />11 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Palm Sunday Catholic Guide: Mass, Palms & Holy Week Start (USA)</h1>
