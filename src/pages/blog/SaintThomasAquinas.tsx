@@ -69,7 +69,7 @@ export default function SaintThomasAquinas() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Thomas Aquinas — the Angelic Doctor, his life, the Summa Theologica, his five proofs for God&apos;s existence, and why he is the greatest theologian in Catholic history.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Thomas Aquinas (1225–1274) is the Church&apos;s preeminent theologian — Angelic Doctor who synthesized faith and reason in the Summa Theologica. Patron of students and universities, his Eucharistic hymns (Pange Lingua, Tantum Ergo) are sung at Corpus Christi and adoration worldwide.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">

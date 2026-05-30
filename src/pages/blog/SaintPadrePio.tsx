@@ -86,7 +86,7 @@ export default function SaintPadrePio() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of St. Padre Pio: his stigmata, miracles, spiritual gifts, famous quotes, and a prayer to this beloved Capuchin friar canonized by Pope John Paul II in 2002.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Padre Pio (1887–1968) was an Italian Capuchin friar with the stigmata, bilocation, and the gift of reading souls in Confession. Millions visited San Giovanni Rotondo; he founded the House for the Relief of Suffering and is a patron of confessors, civil defense workers, and those seeking healing.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">

@@ -86,7 +86,7 @@ export default function WhatIsAdvent() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is Advent? Learn about the Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent spiritually as a family.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Advent is the four-week season preparing for Christmas — a time of hope, repentance, and joyful expectation of Christ&apos;s coming in history, sacraments, and glory. Catholics use an Advent wreath, violet vestments, and increased prayer; it begins the liturgical year in the Roman Rite.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-advent-catholic">

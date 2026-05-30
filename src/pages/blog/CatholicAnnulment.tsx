@@ -86,7 +86,7 @@ export default function CatholicAnnulment() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn what a Catholic annulment is (declaration of nullity), how it differs from divorce, the grounds for annulment, the tribunal process, what happens to children, and pastoral care for divorced Catholics.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic annulment (declaration of nullity) is not divorce — it is a tribunal judgment that no valid sacramental marriage existed due to impediments, lack of consent, or defect of form. If granted, parties may marry in the Church; the process requires witnesses and can take months in U.S. dioceses.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">

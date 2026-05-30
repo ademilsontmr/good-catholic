@@ -87,7 +87,7 @@ export default function FaithAndAnxiety() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover how Catholic faith helps overcome anxiety. Learn spiritual practices for mental health, when to seek professional help, and finding God&apos;s peace.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic faith does not deny anxiety — Christ himself experienced anguish, and saints like Dymphna and Padre Pio accompany those who suffer. Prayer, sacraments, community, and professional therapy belong together; trust in Providence does not replace treatment for clinical anxiety disorders.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">

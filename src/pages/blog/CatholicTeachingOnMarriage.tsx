@@ -69,7 +69,7 @@ export default function CatholicTeachingOnMarriage() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about marriage? The sacrament, indissolubility, the domestic church, and how to build a holy Catholic marriage.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic marriage is a lifelong covenant between one man and one woman, raised by Christ to a sacrament that signifies and confers grace. The Church teaches marriage is indissoluble, open to children, and a vocation of mutual self-gift — civil divorce does not dissolve a valid sacramental bond.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">

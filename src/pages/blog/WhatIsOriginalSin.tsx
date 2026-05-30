@@ -69,7 +69,7 @@ export default function WhatIsOriginalSin() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is original sin? Learn the Catholic teaching on the fall of Adam and Eve, the effects of original sin on human nature, and how baptism restores what was lost.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Original sin is the fallen state inherited from Adam and Eve — not personal guilt but deprivation of original holiness and inclination toward sin (concupiscence). Baptism removes original sin; its effects remain, which is why Catholics need grace, sacraments, and lifelong conversion.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">

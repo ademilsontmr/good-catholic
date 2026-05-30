@@ -86,7 +86,7 @@ export default function SaintJudeThaddeus() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything about St. Jude Thaddeus: who he was as an Apostle, why he became patron of impossible causes, the full Novena to St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Jude Thaddeus is the apostle and martyr invoked as patron of hopeless causes — often confused with Judas Iscariot, devotion revived in the 20th century through St. Bridget&apos;s promises. His feast is October 28; novenas to St. Jude are among the most popular in U.S. parishes.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

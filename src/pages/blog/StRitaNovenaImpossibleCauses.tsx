@@ -55,7 +55,7 @@ export default function StRitaNovenaImpossibleCauses() {
             <div className="aspect-video bg-purple-100 rounded-2xl flex items-center justify-center mb-10"><Sparkles className="w-24 h-24 text-purple-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. St. Rita Novena for impossible causes  Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Rita novena for impossible causes invokes the 15th-century Augustinian stigmatist — patron of abused wives, loneliness, and situations without human hope. Catholics pray nine days before her feast (May 22) or anytime; she is often pictured with a thorn wound and roses.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

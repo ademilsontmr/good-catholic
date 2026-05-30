@@ -74,7 +74,7 @@ export default function SaintFrancisOfAssisi() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of Saint Francis of Assisi — the Poor Man of Assisi who received the stigmata, founded the Franciscans, and became one of the most beloved saints in history.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Francis of Assisi (1181–1226) founded the Franciscan order, embraced radical poverty, received the stigmata, and renewed the Church through joy and love of creation. Patron of ecology and peace, he is among the most beloved saints — his prayer &quot;Make me an instrument of your peace&quot; is prayed worldwide.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-francis-of-assisi">

@@ -75,7 +75,7 @@ export default function AnimaChristiPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Anima Christi (Soul of Christ) prayer with full Catholic text in English and Latin, what each line means, and when to pray it before Communion or after Confession.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Anima Christi (Soul of Christ) is an Eucharistic prayer — &quot;Soul of Christ, sanctify me; Body of Christ, save me...&quot; — prayed after Communion or during adoration. Though often linked to St. Ignatius, it predates him; it asks Christ&apos;s Passion to transform the soul.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Anima Christi (English)</h2>

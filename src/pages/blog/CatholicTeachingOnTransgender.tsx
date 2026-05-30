@@ -74,7 +74,7 @@ export default function CatholicTeachingOnTransgender() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about transgender identity and gender ideology? A clear explanation rooted in the Catechism, Dignitas Infinita (2024), and the theology of the body.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic teaching holds that God creates each person male or female — the body reveals sexual identity, and gender ideology that rejects the body is incompatible with Christian anthropology. The Church calls for compassion toward those who suffer gender dysphoria while rejecting medical transition that mutilates healthy organs.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

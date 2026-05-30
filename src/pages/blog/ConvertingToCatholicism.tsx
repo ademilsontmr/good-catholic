@@ -74,7 +74,7 @@ export default function ConvertingToCatholicism() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Thinking about converting to Catholicism? What to expect, what will change in your life, how to tell your family, and the stories of famous converts who found their home in the Church.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Converting to Catholicism means entering the one Church Christ founded — through RCIA for the unbaptized or profession of faith for baptized Christians. The journey includes catechesis, sponsors, rites of initiation, and reception of Baptism, Confirmation, and Eucharist, usually at Easter Vigil.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">

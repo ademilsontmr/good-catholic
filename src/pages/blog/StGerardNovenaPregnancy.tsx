@@ -55,7 +55,7 @@ export default function StGerardNovenaPregnancy() {
             <div className="aspect-video bg-pink-100 rounded-2xl flex items-center justify-center mb-10"><Baby className="w-24 h-24 text-pink-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Saint Gerard Majella is patron of expectant mothers and safe childbirth across the United States. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Gerard novena is prayed by expectant mothers and couples struggling with fertility — St. Gerard Majella (1726–1755) is patron of unborn children and childbirth. Nine days of prayer, often with Mass, accompanies responsible medical care and trust in God&apos;s plan for parenthood.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

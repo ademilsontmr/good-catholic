@@ -69,7 +69,7 @@ export default function SaintMaximilianKolbe() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Maximilian Kolbe — the Polish Franciscan priest who volunteered to die in place of a stranger at Auschwitz. His life, his Militia Immaculata, and his heroic martyrdom.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Maximilian Kolbe (1894–1941) offered his life at Auschwitz in place of a stranger — starved after two weeks, he was killed by lethal injection. Franciscan friar, martyr of charity, and patron of prisoners, drug addicts, and the pro-life movement.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">

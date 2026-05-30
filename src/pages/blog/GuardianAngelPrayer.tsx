@@ -74,7 +74,7 @@ export default function GuardianAngelPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Guardian Angel Prayer with full Catholic text, meaning, biblical background, and how to teach it to children or pray it daily for protection.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Guardian Angel prayer asks one&apos;s personal angel — assigned at birth per Catholic tradition — to light, guard, rule, and guide. Children learn it at bedtime; adults pray it for protection against evil and guidance in daily choices (cf. Matthew 18:10, Psalm 91).</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Guardian Angel Prayer Full Text</h2>

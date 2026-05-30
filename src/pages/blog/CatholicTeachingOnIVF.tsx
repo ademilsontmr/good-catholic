@@ -74,7 +74,7 @@ export default function CatholicTeachingOnIVF() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about IVF (in vitro fertilization)? A clear explanation from the Catechism, Donum Vitae, and Dignitas Personae — and what alternatives the Church supports.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church prohibits IVF because it separates procreation from the marital act, often destroys embryos, and treats children as products. Donum Vitae teaches that human life begins at conception and every embryo is a person — adoption and NaPro technology are moral alternatives many Catholic couples pursue.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">

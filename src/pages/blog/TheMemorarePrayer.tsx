@@ -86,7 +86,7 @@ export default function TheMemorarePrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn the full text of the Memorare prayer, its history, meaning, and how to pray it. Discover why this ancient prayer to the Virgin Mary has comforted Catholics for centuries.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Memorare is a Catholic prayer to Mary attributed to St. Bernard of Clairvaux — &quot;Remember, O most gracious Virgin Mary, that never was it known...&quot; Catholics pray it in urgent need, before exams, during illness, and in novenas; it expresses confident trust in Mary&apos;s intercession.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">

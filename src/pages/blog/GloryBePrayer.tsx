@@ -74,7 +74,7 @@ export default function GloryBePrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Glory Be prayer with full Catholic text, meaning, biblical roots, and how to pray this short doxology in the Rosary, novenas, and daily prayer.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Glory Be (Gloria Patri) is a short doxology — &quot;Glory be to the Father, and to the Son, and to the Holy Spirit...&quot; — prayed at the end of each Rosary decade, psalms in the Divine Office, and many novenas. It praises the Trinity and has been sung in the Church since the early centuries.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Glory Be Prayer Full Text</h2>

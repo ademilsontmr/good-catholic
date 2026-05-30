@@ -86,7 +86,7 @@ export default function WhatIsHolyWeek() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is Holy Week? Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Holy Week is the most sacred week of the Christian year — from Palm Sunday through the Triduum (Holy Thursday, Good Friday, Holy Saturday) to Easter. Catholics attend liturgies commemorating Christ&apos;s Passion, death, and Resurrection; the Easter Vigil is the pinnacle of the liturgical year.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-week-catholic">

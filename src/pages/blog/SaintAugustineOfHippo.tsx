@@ -74,7 +74,7 @@ export default function SaintAugustineOfHippo() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Augustine of Hippo — his dramatic conversion, the Confessions, his theology of grace, and why he remains one of the greatest Doctors of the Church.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Augustine (354–430) converted from sin and Manichaeism to become Bishop of Hippo and Doctor of the Church — his Confessions and City of God shaped Western Christianity. Patron of theologians and brewers, his phrase &quot;Our hearts are restless until they rest in you&quot; captures Catholic spirituality.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-augustine-of-hippo">

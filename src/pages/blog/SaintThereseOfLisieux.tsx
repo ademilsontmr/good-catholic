@@ -86,7 +86,7 @@ export default function SaintThereseOfLisieux() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of St. Thérèse of Lisieux — her Little Way of spiritual childhood, her autobiography Story of a Soul, her death at 24, and her promise to spend her heaven doing good on earth.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Thérèse of Lisieux (1873–1897) — the Little Flower — taught the &quot;little way&quot; of childlike trust and doing small acts with great love. Doctor of the Church and patron of missionaries, she promised to spend her heaven doing good on earth and is one of the most popular modern saints.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-therese-of-lisieux">

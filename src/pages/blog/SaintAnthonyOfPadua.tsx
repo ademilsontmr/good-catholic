@@ -86,7 +86,7 @@ export default function SaintAnthonyOfPadua() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of St. Anthony of Padua — his extraordinary preaching gifts, why he is patron of lost things, the Responsory Si quaeris miracula, his feast day June 13, and a prayer to St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Anthony of Padua (1195–1231) was a Franciscan preacher and Doctor of the Church — patron of lost things, the poor, and travelers. His feast is June 13; Catholics invoke him when items are missing and honor his powerful sermons that drew sinners back to Christ.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">

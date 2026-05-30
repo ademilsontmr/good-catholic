@@ -69,7 +69,7 @@ export default function WhatIsPentecost() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is Pentecost? Learn about the Catholic feast that celebrates the descent of the Holy Spirit — its biblical origins, its meaning, how Catholics celebrate it, and Pentecost 2026.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Pentecost is the feast of the Holy Spirit&apos;s descent on the apostles fifty days after Easter — birthday of the Church. Catholics wear red, celebrate Mass with Sequence Veni Sancte Spiritus, and pray for renewal; it closes the Easter season and begins Ordinary Time.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">

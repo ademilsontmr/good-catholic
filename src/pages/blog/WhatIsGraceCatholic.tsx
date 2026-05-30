@@ -69,7 +69,7 @@ export default function WhatIsGraceCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is grace? Learn the Catholic teaching on sanctifying grace, actual grace, and how God&apos;s free gift transforms the soul and makes salvation possible.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Grace is God&apos;s free gift of divine life — sanctifying grace indwells the soul in friendship with God; actual grace helps us act rightly in the moment. Catholics receive grace primarily through sacraments, prayer, and charity; it is not earned but cooperated with through faith and works.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-grace-catholic">

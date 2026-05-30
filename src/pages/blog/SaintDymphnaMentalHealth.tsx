@@ -86,7 +86,7 @@ export default function SaintDymphnaMentalHealth() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of Saint Dymphna, the patron saint of those suffering from anxiety, depression, and mental illness. Learn how to ask for her intercession.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Dymphna is patron of those with mental illness, anxiety, and nervous disorders — martyred in the 7th century after fleeing an abusive father. Her shrine in Massillon, Ohio, draws American pilgrims; Catholics invoke her alongside professional mental health care.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dymphna-mental-health">

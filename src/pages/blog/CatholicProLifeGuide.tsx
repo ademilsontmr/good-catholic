@@ -69,7 +69,7 @@ export default function CatholicProLifeGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The complete Catholic pro-life guide — what the Church teaches about abortion, euthanasia, capital punishment, and the consistent ethic of life from conception to natural death.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic pro-life teaching protects human dignity from conception to natural death — opposing abortion, euthanasia, and unjust violence while supporting mothers, adoption, and social policies that help families thrive. Prayer, education, legislative advocacy, and pregnancy resource centers are common Catholic responses.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">

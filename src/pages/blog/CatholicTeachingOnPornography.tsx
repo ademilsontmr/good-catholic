@@ -69,7 +69,7 @@ export default function CatholicTeachingOnPornography() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about pornography? Learn why it is sinful, how it harms the soul and relationships, and the Catholic path to freedom and healing.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church condemns pornography as gravely sinful — it objectifies persons, destroys marriages, rewires the brain toward lust, and violates chastity. Confession, accountability, filtering software, and counseling are part of recovery; the virtue of purity and the sacraments restore freedom in Christ.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">

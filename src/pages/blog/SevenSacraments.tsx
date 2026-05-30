@@ -87,7 +87,7 @@ export default function SevenSacraments() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep theology behind the seven sacraments. Learn about Matter and Form, the Indelible Character, and how grace is transmitted Ex Opere Operato.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The seven sacraments are Baptism, Confirmation, Eucharist, Penance, Anointing of the Sick, Holy Orders, and Matrimony — visible signs instituted by Christ that confer grace. Catholics receive sacraments throughout life; the Eucharist is the source and summit, while Baptism initiates into the Church.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

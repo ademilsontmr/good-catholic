@@ -69,7 +69,7 @@ export default function SaintCatherineOfSiena() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Catherine of Siena — the Dominican mystic who never learned to read, received the stigmata, and convinced the Pope to return to Rome.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Catherine of Siena (1347–1380) was a Dominican mystic, Doctor of the Church, and peacemaker who persuaded Pope Gregory XI to return to Rome. Her Dialogue and letters on Church reform remain influential; she is patron of Italy, nurses, and fire prevention.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-catherine-of-siena">

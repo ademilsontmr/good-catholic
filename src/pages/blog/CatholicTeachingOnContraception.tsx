@@ -69,7 +69,7 @@ export default function CatholicTeachingOnContraception() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about contraception? A complete explanation of Humanae Vitae (1968), the Catechism (CCC 2370), and why the Church upholds this teaching.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church teaches that contraception — deliberately blocking the procreative meaning of the marital act — is intrinsically wrong (Humanae Vitae, 1968). Natural Family Planning to space births for serious reasons is permitted; openness to life and total self-gift remain the moral norm for married love.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

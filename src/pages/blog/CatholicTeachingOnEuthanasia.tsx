@@ -74,7 +74,7 @@ export default function CatholicTeachingOnEuthanasia() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about euthanasia and assisted suicide? A complete guide from the Catechism (CCC 2276-2279), Evangelium Vitae, and the theology of suffering.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic teaching rejects euthanasia and assisted suicide — intentionally causing or aiding death to eliminate suffering violates the dignity of the human person. The Church permits refusing overly burdensome treatment and supports palliative care that manages pain while respecting natural death as God&apos;s appointed time.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">

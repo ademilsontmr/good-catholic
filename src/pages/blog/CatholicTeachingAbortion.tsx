@@ -86,7 +86,7 @@ export default function CatholicTeachingAbortion() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic Church&apos;s consistent teaching on abortion from the earliest centuries, the theological basis in human dignity, Evangelium Vitae, and how Catholics can be pro-life in practice.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church teaches that direct abortion is gravally wrong at every stage — human life deserves protection from conception. Abortion is never a morally licit choice; the Church supports mothers in crisis through pregnancy help centers, post-abortion healing (Project Rachel), and advocacy for both woman and unborn child.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

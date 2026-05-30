@@ -86,7 +86,7 @@ export default function SaintMichaelArchangel() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn about St. Michael the Archangel — his four roles in Scripture, the full text of the Prayer to St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Michael the Archangel is leader of the heavenly armies — his name means &quot;Who is like God?&quot; Scripture shows him defeating Satan (Revelation 12); Catholics pray the St. Michael prayer after Mass, in spiritual warfare, and on his feast September 29.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

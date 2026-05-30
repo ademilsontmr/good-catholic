@@ -86,7 +86,7 @@ export default function CatholicTeachingOnDivorce() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Can Catholics get divorced? Learn what the Catholic Church teaches about divorce, civil divorce vs.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church does not grant divorce that dissolves a valid sacramental marriage — spouses may separate for grave reasons, but remarriage in the Church requires a declaration of nullity (annulment) if the first union was invalid. Divorced Catholics who have not remarried civilly may receive Communion if in a state of grace.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-divorce">

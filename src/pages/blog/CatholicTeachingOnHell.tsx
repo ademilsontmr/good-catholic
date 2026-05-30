@@ -69,7 +69,7 @@ export default function CatholicTeachingOnHell() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Does hell exist? Learn what the Catholic Church teaches about hell — its nature, who goes there, and how God&apos;s mercy and human freedom relate to eternal punishment.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Hell is Catholic dogma — definitive self-exclusion from God for unrepented mortal sin, eternal separation from love, not a metaphor. The Church warns of hell to call sinners to repentance; God desires all to be saved, but human freedom can reject him definitively at death.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">

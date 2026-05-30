@@ -88,7 +88,7 @@ export default function CatholicTeachingOnSalvation() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about salvation?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic salvation is cooperation with God&apos;s grace — Christ won redemption on the cross, and we respond through faith, baptism, sacraments, and good works animated by charity. Catholics reject &quot;faith alone&quot; without love (James 2) and &quot;works alone&quot; without grace; salvation is God&apos;s gift we receive and live.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

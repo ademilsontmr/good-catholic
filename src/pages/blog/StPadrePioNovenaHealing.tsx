@@ -55,7 +55,7 @@ export default function StPadrePioNovenaHealing() {
             <div className="aspect-video bg-red-100 rounded-2xl flex items-center justify-center mb-10"><Cross className="w-24 h-24 text-red-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. St. Padre Pio Novena for healing  Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Padre Pio novena for healing asks the stigmatic friar to intercede for physical, emotional, and spiritual recovery. Pray nine consecutive days with Mass and Confession when possible; Padre Pio heard confessions for hours and believed suffering united to Christ brings grace.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

@@ -74,7 +74,7 @@ export default function StMichaelChapletPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray the St. Michael Chaplet step by step — opening prayers, nine salutations, concluding prayers, and when Catholics pray this chaplet for protection.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Michael Chaplet honors the archangel with nine salutations and invocations for protection against evil — prayed on a chaplet or rosary beads. It complements the short St. Michael prayer and is popular in spiritual warfare, exorcism ministry support, and parish prayer groups.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need</h2>

@@ -74,7 +74,7 @@ export default function SaintJosephGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Saint Joseph — foster father of Jesus, patron of the universal Church, families, workers, and a happy death. His life, prayers, feast days, and devotions.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Joseph is foster father of Jesus, spouse of Mary, and patron of the universal Church, workers, and a happy death. Scripture calls him a just man; popes have urged devotion through the Year of St. Joseph, novenas for employment and housing, and entrustment of families to his care.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">

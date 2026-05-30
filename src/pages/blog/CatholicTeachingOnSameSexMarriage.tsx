@@ -74,7 +74,7 @@ export default function CatholicTeachingOnSameSexMarriage() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about same-sex marriage? A clear explanation from the Catechism (CCC 2357-2359), natural law, and the Church&apos;s understanding of marriage.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church teaches that marriage is exclusively the union of one man and one woman — same-sex unions cannot be sacramental marriage. The Church calls persons with same-sex attraction to chastity and holiness like all Catholics, rejecting unjust discrimination while upholding the truth about human sexuality.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">

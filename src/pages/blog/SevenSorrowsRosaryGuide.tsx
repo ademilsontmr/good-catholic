@@ -74,7 +74,7 @@ export default function SevenSorrowsRosaryGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete Catholic guide to the Seven Sorrows Rosary (Servite Rosary): the seven sorrows of Mary, how to pray each group of seven Hail Marys, and the devotion&apos;s graces.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Seven Sorrows Rosary (Servite Rosary) meditates on seven sorrows of Mary — from Simeon&apos;s prophecy to the burial of Christ. Each sorrow has seven Hail Marys; the devotion was promoted by the Servite order and grants special graces for compassion toward Mary and her Son.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Seven Sorrows of Mary</h2>
