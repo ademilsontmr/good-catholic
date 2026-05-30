@@ -487,6 +487,36 @@ const StMonicaNovenaForChildren = lazy(() => import("./pages/blog/StMonicaNovena
 const NovenaForMarriageCatholic = lazy(() => import("./pages/blog/NovenaForMarriageCatholic"));
 const StPadrePioNovenaHealing = lazy(() => import("./pages/blog/StPadrePioNovenaHealing"));
 const UndoerOfKnotsNovenaGuide = lazy(() => import("./pages/blog/UndoerOfKnotsNovenaGuide"));
+const NovenaForAnxietyCatholic = lazy(() => import("./pages/blog/NovenaForAnxietyCatholic"));
+const StAnthonyNovenaLostThings = lazy(() => import("./pages/blog/StAnthonyNovenaLostThings"));
+const StGerardNovenaPregnancy = lazy(() => import("./pages/blog/StGerardNovenaPregnancy"));
+const NovenaForAddictionCatholic = lazy(() => import("./pages/blog/NovenaForAddictionCatholic"));
+const NovenaForExamsCatholic = lazy(() => import("./pages/blog/NovenaForExamsCatholic"));
+const NovenaForLegalCasesCatholic = lazy(() => import("./pages/blog/NovenaForLegalCasesCatholic"));
+const StMichaelNovenaProtection = lazy(() => import("./pages/blog/StMichaelNovenaProtection"));
+const NovenaForBrokenHeartCatholic = lazy(() => import("./pages/blog/NovenaForBrokenHeartCatholic"));
+const NovenaForFamilyPeaceCatholic = lazy(() => import("./pages/blog/NovenaForFamilyPeaceCatholic"));
+const NovenaForFertilityCatholic = lazy(() => import("./pages/blog/NovenaForFertilityCatholic"));
+const LitanyOfLoretoCatholic = lazy(() => import("./pages/blog/LitanyOfLoretoCatholic"));
+const PrayerOfAbandonmentCatholic = lazy(() => import("./pages/blog/PrayerOfAbandonmentCatholic"));
+const NovenaForTheDeadCatholic = lazy(() => import("./pages/blog/NovenaForTheDeadCatholic"));
+const HolySpiritPrayerForDecisionsCatholic = lazy(() => import("./pages/blog/HolySpiritPrayerForDecisionsCatholic"));
+const ActOfSpiritualCommunionCatholic = lazy(() => import("./pages/blog/ActOfSpiritualCommunionCatholic"));
+const StExpediteNovenaGuide = lazy(() => import("./pages/blog/StExpediteNovenaGuide"));
+const PrayerBeforeCrucifixCatholic = lazy(() => import("./pages/blog/PrayerBeforeCrucifixCatholic"));
+const CorpusChristiFeastGuideCatholic = lazy(() => import("./pages/blog/CorpusChristiFeastGuideCatholic"));
+const SacredHeartDevotionCompleteGuide = lazy(() => import("./pages/blog/SacredHeartDevotionCompleteGuide"));
+const SaintsPeterAndPaulFeastGuide = lazy(() => import("./pages/blog/SaintsPeterAndPaulFeastGuide"));
+const CatholicSummerMassScheduleGuide = lazy(() => import("./pages/blog/CatholicSummerMassScheduleGuide"));
+const AssumptionOfMaryCatholicGuide = lazy(() => import("./pages/blog/AssumptionOfMaryCatholicGuide"));
+const QueenshipOfMaryCatholicGuide = lazy(() => import("./pages/blog/QueenshipOfMaryCatholicGuide"));
+const CanCatholicsKeepAshesAtHome = lazy(() => import("./pages/blog/CanCatholicsKeepAshesAtHome"));
+const CatholicGodparentRequirementsUsa = lazy(() => import("./pages/blog/CatholicGodparentRequirementsUsa"));
+const WhatAgeFirstCommunionCatholicUsa = lazy(() => import("./pages/blog/WhatAgeFirstCommunionCatholicUsa"));
+const HowLongIsRciaProcess = lazy(() => import("./pages/blog/HowLongIsRciaProcess"));
+const CatholicFuneralMassWhatToExpect = lazy(() => import("./pages/blog/CatholicFuneralMassWhatToExpect"));
+const CanCatholicsDonateOrgans = lazy(() => import("./pages/blog/CanCatholicsDonateOrgans"));
+const CatholicWeddingMassVsCeremony = lazy(() => import("./pages/blog/CatholicWeddingMassVsCeremony"));
 
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
@@ -805,6 +835,36 @@ const App = () => (
             <Route path="/blog/novena-for-marriage-catholic/" element={<NovenaForMarriageCatholic />} />
             <Route path="/blog/st-padre-pio-novena-healing/" element={<StPadrePioNovenaHealing />} />
             <Route path="/blog/undoer-of-knots-novena-guide/" element={<UndoerOfKnotsNovenaGuide />} />
+            <Route path="/blog/novena-for-anxiety-catholic/" element={<NovenaForAnxietyCatholic />} />
+            <Route path="/blog/st-anthony-novena-lost-things/" element={<StAnthonyNovenaLostThings />} />
+            <Route path="/blog/st-gerard-novena-pregnancy/" element={<StGerardNovenaPregnancy />} />
+            <Route path="/blog/novena-for-addiction-catholic/" element={<NovenaForAddictionCatholic />} />
+            <Route path="/blog/novena-for-exams-catholic/" element={<NovenaForExamsCatholic />} />
+            <Route path="/blog/novena-for-legal-cases-catholic/" element={<NovenaForLegalCasesCatholic />} />
+            <Route path="/blog/st-michael-novena-protection/" element={<StMichaelNovenaProtection />} />
+            <Route path="/blog/novena-for-broken-heart-catholic/" element={<NovenaForBrokenHeartCatholic />} />
+            <Route path="/blog/novena-for-family-peace-catholic/" element={<NovenaForFamilyPeaceCatholic />} />
+            <Route path="/blog/novena-for-fertility-catholic/" element={<NovenaForFertilityCatholic />} />
+            <Route path="/blog/litany-of-loreto-catholic/" element={<LitanyOfLoretoCatholic />} />
+            <Route path="/blog/prayer-of-abandonment-catholic/" element={<PrayerOfAbandonmentCatholic />} />
+            <Route path="/blog/novena-for-the-dead-catholic/" element={<NovenaForTheDeadCatholic />} />
+            <Route path="/blog/holy-spirit-prayer-for-decisions-catholic/" element={<HolySpiritPrayerForDecisionsCatholic />} />
+            <Route path="/blog/act-of-spiritual-communion-catholic/" element={<ActOfSpiritualCommunionCatholic />} />
+            <Route path="/blog/st-expedite-novena-guide/" element={<StExpediteNovenaGuide />} />
+            <Route path="/blog/prayer-before-crucifix-catholic/" element={<PrayerBeforeCrucifixCatholic />} />
+            <Route path="/blog/corpus-christi-feast-guide-catholic/" element={<CorpusChristiFeastGuideCatholic />} />
+            <Route path="/blog/sacred-heart-devotion-complete-guide/" element={<SacredHeartDevotionCompleteGuide />} />
+            <Route path="/blog/saints-peter-and-paul-feast-guide/" element={<SaintsPeterAndPaulFeastGuide />} />
+            <Route path="/blog/catholic-summer-mass-schedule-guide/" element={<CatholicSummerMassScheduleGuide />} />
+            <Route path="/blog/assumption-of-mary-catholic-guide/" element={<AssumptionOfMaryCatholicGuide />} />
+            <Route path="/blog/queenship-of-mary-catholic-guide/" element={<QueenshipOfMaryCatholicGuide />} />
+            <Route path="/blog/can-catholics-keep-ashes-at-home/" element={<CanCatholicsKeepAshesAtHome />} />
+            <Route path="/blog/catholic-godparent-requirements-usa/" element={<CatholicGodparentRequirementsUsa />} />
+            <Route path="/blog/what-age-first-communion-catholic-usa/" element={<WhatAgeFirstCommunionCatholicUsa />} />
+            <Route path="/blog/how-long-is-rcia-process/" element={<HowLongIsRciaProcess />} />
+            <Route path="/blog/catholic-funeral-mass-what-to-expect/" element={<CatholicFuneralMassWhatToExpect />} />
+            <Route path="/blog/can-catholics-donate-organs/" element={<CanCatholicsDonateOrgans />} />
+            <Route path="/blog/catholic-wedding-mass-vs-ceremony/" element={<CatholicWeddingMassVsCeremony />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />
