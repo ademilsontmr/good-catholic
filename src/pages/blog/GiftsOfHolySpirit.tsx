@@ -85,7 +85,7 @@ export default function GiftsOfHolySpirit() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn about the seven gifts of the Holy Spirit and how they work in your life to guide you on the path of holiness and service to others.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The seven gifts of the Holy Spirit — wisdom, understanding, counsel, fortitude, knowledge, piety, fear of the Lord — are infused at Baptism and strengthened in Confirmation. They perfect the virtues and help us follow the Spirit&apos;s lead.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">

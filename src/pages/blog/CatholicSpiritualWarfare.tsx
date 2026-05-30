@@ -69,7 +69,7 @@ export default function CatholicSpiritualWarfare() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Spiritual warfare is real. Learn the Catholic teaching on the battle for the soul — the three enemies, the Armor of God, the Prayer to Saint Michael, and a daily spiritual warfare routine.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic spiritual warfare fights demons through sacraments, prayer, fasting, St. Michael, and obedience to the Church — not sensationalism or seeking visions. Renounce sin, avoid occult, and use approved deliverance ministry with priestly oversight when needed.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">

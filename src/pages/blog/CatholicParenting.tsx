@@ -86,7 +86,7 @@ export default function CatholicParenting() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith. Practical tips for every age.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic parenting forms children in faith through family prayer, Sunday Mass, moral example, and open conversation about God — baptizing infants, teaching virtue, and creating a home where Christ is honored without coercion or hypocrisy.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-raising-children-in-faith">

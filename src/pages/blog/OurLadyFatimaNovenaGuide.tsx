@@ -69,7 +69,7 @@ export default function OurLadyFatimaNovenaGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Our Lady of Fatima Novena — the message of Fatima, how to pray the 9-day novena step by step, the Fatima Prayer, and where to pray it online.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Fatima novena prepares for Our Lady of Fatima feasts — nine days of Rosary, Fatima prayers, and sacrifices for conversion of sinners and peace. Many begin May 4 for May 13; First Saturdays extend the devotion year-round.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Our Lady of Fatima?</h2>

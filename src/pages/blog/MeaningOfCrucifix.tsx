@@ -85,7 +85,7 @@ export default function MeaningOfCrucifix() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Understand why the crucifix is the central symbol of Catholic faith. Learn about its history, symbolism, and the importance of having it in our homes.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The crucifix shows Christ crucified — Catholics display it in churches and homes as reminder of redemptive suffering, not morbid focus. It differs from an empty cross (Protestant emphasis on Resurrection); both truths belong to full Christian faith.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="meaning-of-crucifix">

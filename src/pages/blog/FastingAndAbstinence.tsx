@@ -86,7 +86,7 @@ export default function FastingAndAbstinence() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn about the practices of fasting and abstinence in the Catholic Church. Discover when and how to fast correctly to grow in spiritual life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic fasting and abstinence: Ash Wednesday and Good Friday — one full meal, two small, no meat; all Fridays abstain from meat (U.S. norms allow another penance if bishop permits). Ages 18–59 for fast; 14+ for abstinence.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="fasting-abstinence">

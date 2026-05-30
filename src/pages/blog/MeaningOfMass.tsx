@@ -87,7 +87,7 @@ export default function MeaningOfMass() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep theological meaning of the Holy Mass. Learn about Transubstantiation, the Unbloody Sacrifice, and why the Mass is Heaven on Earth.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Mass means participation in Christ&apos;s one sacrifice on Calvary made present on the altar — not a re-crucifixion but a sacramental re-presentation. Catholics offer worship to the Father through the Son in the Spirit and receive his Body and Blood.</p>
               </div>
 
                             <p className="text-text leading-relaxed mb-6">

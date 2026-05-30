@@ -87,7 +87,7 @@ export default function TheProblemOfSuffering() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Explore the Catholic response to the problem of evil. Learn about redemptive suffering, Salvifici Doloris, and how God brings good from pain.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics understand suffering through the Cross — Christ redeems pain by joining it to his; suffering is not meaningless when offered in love. The Church rejects pure punishment theology; Job, Gospels, and John Paul II&apos;s Salvifici Doloris explore mystery without easy answers.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

@@ -86,7 +86,7 @@ export default function MiraculousMedalGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the complete history of the Miraculous Medal, its symbols, the apparitions to St. Catherine Labouré, and why millions of Catholics wear it today.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Miraculous Medal was revealed to St. Catherine Labouré in 1830 — Mary standing on the globe, rays from her hands, &quot;O Mary conceived without sin, pray for us who have recourse to thee.&quot; Worn for devotion; miracles reported through her intercession.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

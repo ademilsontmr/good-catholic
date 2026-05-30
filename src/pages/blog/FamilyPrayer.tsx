@@ -86,7 +86,7 @@ export default function FamilyPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray as a family — the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start when you haven&apos;t been praying together.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Family prayer unites the domestic church — grace before meals, bedtime prayers with children, Rosary on feast days, and Scripture at the table. The father or mother often leads; short and regular beats rare and lengthy.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">

@@ -87,7 +87,7 @@ export default function DarkNightOfTheSoul() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn what the dark night of the soul is in Catholic spirituality. Discover St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The dark night of the soul (St. John of the Cross) is purifying desolation in advanced prayer — God withdraws felt consolation to deepen faith and love. It differs from depression or loss of faith; spiritual direction helps discern and endure.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

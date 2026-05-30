@@ -86,7 +86,7 @@ export default function HowToPrayAngelus() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray the Angelus, the ancient Catholic prayer prayed three times a day. Full text, history, the Regina Caeli, and tips for families.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Angelus is prayed at 6 a.m., noon, and 6 p.m. — three Hail Marys with versicles about the Incarnation, ending with &quot;And the Word was made flesh.&quot; Catholics bow at those words; during Easter the Regina Caeli replaces it until Pentecost.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-angelus">

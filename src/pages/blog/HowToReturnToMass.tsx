@@ -88,7 +88,7 @@ export default function HowToReturnToMass() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Thinking about returning to Mass? This compassionate guide helps lapsed Catholics come back to the Church — step by step, without judgment.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">To return to Mass after absence: go to Confession if you missed Sunday Mass in mortal sin, pick a familiar parish time, sit where comfortable, and follow along in a missal or pew card — no one expects perfection; the Church welcomes every prodigal home.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">

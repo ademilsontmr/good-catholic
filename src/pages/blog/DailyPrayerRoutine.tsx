@@ -86,7 +86,7 @@ export default function DailyPrayerRoutine() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to build a Catholic daily prayer routine with morning, midday, evening, and night prayer. Practical tips from the saints and a sample weekly schedule.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic daily prayer routine typically includes morning offering, Angelus at noon, Rosary or lectio divina, and night examination — anchored by Sunday Mass and regular Confession; even five focused minutes beat inconsistent long sessions.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">

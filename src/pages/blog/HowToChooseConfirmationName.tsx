@@ -88,7 +88,7 @@ export default function HowToChooseConfirmationName() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to choose a Catholic Confirmation name. Discover what a Confirmation name means, how to research saints, and how to make this important spiritual decision.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Choose a confirmation saint whose life inspires your vocation — research their story, virtues, and feast day; the name need not match your baptismal name. Pick someone you will ask for intercession throughout adult faith.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">

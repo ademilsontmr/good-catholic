@@ -86,7 +86,7 @@ export default function ContemplativePrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover what contemplative prayer is in the Catholic tradition. Learn the difference between meditation and contemplation, the Carmelite tradition, infused vs acquired contemplation, and how to begin.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Contemplative prayer is silent loving attention to God beyond words — a gift of the Spirit, not a technique. Catholics prepare through lectio divina and Rosary; Centering Prayer and similar methods require discernment with Church teaching.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">

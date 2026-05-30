@@ -86,7 +86,7 @@ export default function NaturalFamilyPlanning() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover what Natural Family Planning (NFP) is, why the Catholic Church teaches it through Humanae Vitae, the three main methods, effectiveness rates, and how NFP differs from contraception.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Natural Family Planning (NFP) uses fertility awareness to achieve or avoid pregnancy — morally acceptable to the Church when openness to life guides decisions. It requires training; effectiveness rivals artificial methods when used correctly; it respects marital unity without contraception.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">

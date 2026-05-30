@@ -69,7 +69,7 @@ export default function HowToOvercomeSin() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How do Catholics overcome sin and break bad habits? A practical guide to the Catholic approach — confession, prayer, virtue, spiritual direction, and the sacraments as tools for conversion.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Overcome sin through grace in Confession, Eucharist, prayer, avoiding near occasions, and accountability — identify patterns, replace bad habits with virtuous ones, and persist after falls. Mortal sin requires Confession before Communion; daily examination helps.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">

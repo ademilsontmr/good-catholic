@@ -85,7 +85,7 @@ export default function WhatIsTheNiceneCreed() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Explore the deep history of the Nicene Creed. From the Council of Nicaea to the Filioque controversy, understand the prayer Catholics profess at every Mass.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Nicene Creed is the Church&apos;s profession of faith at Mass — formulated at Nicaea (325) and Constantinople (381), defining belief in one God, Trinity, Incarnation, Resurrection, one baptism, and life everlasting. Catholics stand and recite it on Sundays.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

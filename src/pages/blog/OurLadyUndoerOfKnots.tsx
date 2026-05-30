@@ -86,7 +86,7 @@ export default function OurLadyUndoerOfKnots() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the history of Our Lady Undoer of Knots, why Pope Francis loves this devotion, and how to pray the novena to untie the difficult knots in your life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Our Lady Undoer of Knots (Maria Knotenlöserin) is a devotion to Mary untying life&apos;s problems — inspired by a Baroque painting and promoted by Pope Francis. Catholics pray for her help with marriage, family, and seemingly impossible tangles.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

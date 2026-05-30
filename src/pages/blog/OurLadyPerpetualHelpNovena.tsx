@@ -69,7 +69,7 @@ export default function OurLadyPerpetualHelpNovena() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Our Lady of Perpetual Help Novena — who she is, the meaning of the icon, how to pray the 9-day novena step by step, and where to pray it online.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Our Lady of Perpetual Help novena is prayed Wednesdays in many parishes — nine weeks or days asking Mary&apos;s intercession under the famous Byzantine icon. The Redemptorists popularized the devotion; the icon shows Christ clinging to his mother.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Our Lady of Perpetual Help?</h2>

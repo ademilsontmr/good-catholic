@@ -87,7 +87,7 @@ export default function LiturgyOfTheHoursGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray the Liturgy of the Hours (Divine Office) as a lay Catholic. Complete guide to morning prayer, evening prayer, compline, and integrating this ancient prayer into daily life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Liturgy of the Hours is the Church&apos;s official daily prayer — Lauds, Day Prayer, Vespers, Compline, and Office of Readings — using psalms and canticles. Clergy and religious must pray it; laity are encouraged and many use apps like iBreviary.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">

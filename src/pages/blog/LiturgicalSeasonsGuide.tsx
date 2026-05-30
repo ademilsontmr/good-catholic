@@ -87,7 +87,7 @@ export default function LiturgicalSeasonsGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Master the Catholic liturgical calendar. Learn the meaning, colors, and traditions of Advent, Christmas, Lent, Easter, and Ordinary Time.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The liturgical year moves through Advent, Christmas, Ordinary Time, Lent, Easter Triduum, and Easter season — each with distinct colors, readings, and disciplines. Sundays are the Lord&apos;s Day; feasts and memorials of saints fill the calendar.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">

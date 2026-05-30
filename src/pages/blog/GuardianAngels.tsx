@@ -86,7 +86,7 @@ export default function GuardianAngels() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Do you have a Guardian Angel? Discover the Catholic teaching on angels, the nine celestial choirs, and how to build a relationship with your divine protector.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics believe each person has a guardian angel from birth (Matthew 18:10) — a spirit assigned to protect, guide, and present us before God. The Guardian Angel prayer is taught to children; the feast is October 2.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

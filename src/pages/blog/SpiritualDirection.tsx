@@ -86,7 +86,7 @@ export default function SpiritualDirection() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn what Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director in your diocese or online.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Spiritual direction is regular guidance in prayer and discernment with a trained director — distinct from counseling or Confession. Catholics seek directors knowledgeable in faith, psychologically healthy, and obedient to Magisterium.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">

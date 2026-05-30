@@ -86,7 +86,7 @@ export default function GrowingInHumility() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn what humility really is in Catholic spirituality, the 12 degrees of humility from St. Benedict, Jesus as the model of humility, and practical exercises for growing in this foundational virtue.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Grow in humility by acknowledging dependence on God, accepting correction, serving without recognition, and confessing pride in examination of conscience — Mary&apos;s Magnificat and Jesus&apos; washing of feet model Christian humility.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-grow-in-humility-catholic">

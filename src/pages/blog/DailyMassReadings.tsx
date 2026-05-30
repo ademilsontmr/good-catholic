@@ -74,7 +74,7 @@ export default function DailyMassReadings() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How to follow the Catholic daily Mass readings — what they are, the three-year cycle, the best apps and websites, and how to use them for daily prayer and Scripture study.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Daily Mass readings follow a three-year Sunday cycle and two-year weekday cycle — Old Testament (or Acts), Psalm, New Testament epistle, and Gospel. USCCB publishes readings online; lectio divina on the day&apos;s Gospel is a common lay practice.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">

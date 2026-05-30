@@ -88,7 +88,7 @@ export default function HowToStudyBibleCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How to study the Bible as a Catholic — Lectio Divina, the four senses of Scripture, the best study Bibles, commentaries, apps, and a practical daily reading plan.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Study the Bible as a Catholic with a Church-approved translation, a study Bible with footnotes, the Catechism nearby, and a trusted commentary — read in context, follow Magisterial interpretation on disputed passages, and pray before studying.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">

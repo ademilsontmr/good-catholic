@@ -88,7 +88,7 @@ export default function NightPrayerCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray Catholic night prayer. Full texts for evening prayer, Compline, examination of conscience, and bedtime prayers for adults and children.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic night prayer (Compline) includes examination of conscience, act of contrition, Psalm 4 or 91, and entrusting sleep to God — &quot;Into your hands, O Lord, I commend my spirit.&quot; Many families pray a simplified version with children.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">

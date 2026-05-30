@@ -74,7 +74,7 @@ export default function PrayerBeforeMealsCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn the traditional Catholic grace before meals, prayers after eating, family meal prayers, and the spiritual meaning of blessing food. Full texts included.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic grace before meals blesses God for food — &quot;Bless us, O Lord, and these thy gifts...&quot; or simpler &quot;Grace&quot; with Sign of the Cross. It acknowledges Providence and sanctifies family table fellowship.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

@@ -87,7 +87,7 @@ export default function VirginMary() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Explore the deep theology of the Virgin Mary. Learn about the four dogmas, the Ark of the New Covenant typology, and why Catholics venerate Our Lady.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Mary is Mother of God (Theotokos), ever-Virgin, Immaculate Conception, and Assumed into heaven — highest honor among saints, not worship. Catholics honor her as Jesus did; she leads to Christ, crushes the serpent&apos;s head, and intercedes for the Church.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

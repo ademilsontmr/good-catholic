@@ -69,7 +69,7 @@ export default function CatholicAnnulmentProcess() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is a Catholic annulment? Complete guide to the annulment process — grounds, steps, timeline, cost, and what it means for divorced Catholics who want to remarry.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic annulment declares a marriage was invalid from the start — not divorce but judgment that consent, form, or capacity was lacking. The process involves tribunal, witnesses, and may take months; it allows remarriage in the Church if nullity is proven.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-annulment-process">

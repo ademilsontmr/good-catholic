@@ -87,7 +87,7 @@ export default function CatholicFamilyTraditions() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Catholic family traditions for building a domestic church. Learn about family prayers, liturgical year celebrations, and creating a Catholic home environment.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic family traditions include Advent wreaths, blessing of homes at Epiphany, saint feast celebrations, rosary nights, and Sunday rest — customs that pass faith to children and mark the liturgical year in ordinary domestic life.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">

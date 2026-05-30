@@ -88,7 +88,7 @@ export default function HowToTeachChildrenToPray() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to teach your children to pray as Catholics. Age-appropriate prayers, tips for building a prayer habit, and how to make prayer a natural part of family life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Teach children to pray by modeling short prayers at meals and bedtime, using the Sign of the Cross, Our Father, and Hail Mary, and making prayer conversational — thank God, ask for help, say sorry. Keep sessions brief; let them see you pray daily.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">

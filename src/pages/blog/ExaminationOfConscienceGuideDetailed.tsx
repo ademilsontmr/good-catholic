@@ -74,7 +74,7 @@ export default function ExaminationOfConscienceGuideDetailed() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church. Use this guide to prepare for a thorough, honest Confession.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A detailed examination reviews each commandment with specific questions — lying, lust, missing Mass, gossip, neglect of family duties — before Confession. Guides exist for married, single, youth, and priests; honesty about mortal sin is essential for valid absolution.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">

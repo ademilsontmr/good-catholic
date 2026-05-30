@@ -88,7 +88,7 @@ export default function HowToFindCatholicCommunity() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to find a welcoming Catholic community, choose the right parish, get involved in parish life, and build lasting friendships rooted in faith.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Find Catholic community through your parish bulletin, young adult groups, Knights of Columbus, Bible studies, and diocesan websites — attend Mass regularly, introduce yourself to the pastor, and volunteer; online groups supplement but do not replace parish life.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">

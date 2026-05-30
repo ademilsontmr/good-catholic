@@ -69,7 +69,7 @@ export default function SignsOfVocation() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How do you know if God is calling you to the priesthood or religious life? Discover the signs of a vocation, how to discern, and what to do if you feel called.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Signs of a vocation to priesthood or religious life include desire for prayer, love of Eucharist, attraction to service, peace when imagining that life, and confirmation from spiritual director — not fleeting emotion but sustained fruit over time.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Vocation?</h2>

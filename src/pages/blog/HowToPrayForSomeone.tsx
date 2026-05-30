@@ -69,7 +69,7 @@ export default function HowToPrayForSomeone() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How do you pray for someone effectively? A complete Catholic guide to intercessory prayer — for the sick, the lost, enemies, and those you love most.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Pray for someone by naming them to God, offering specific intentions, adding a Hail Mary or Our Father, and optionally fasting or offering Mass for them — intercessory prayer unites your sacrifice with Christ&apos;s; trust God&apos;s timing and will.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">

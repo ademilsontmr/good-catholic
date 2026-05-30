@@ -86,7 +86,7 @@ export default function FruitsOfHolySpirit() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What are the 12 Fruits of the Holy Spirit? Learn the complete list from Galatians 5, what each fruit means, how they differ from the 7 Gifts, and how to cultivate them in daily life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The twelve fruits of the Holy Spirit (Galatians 5:22–23) — charity, joy, peace, patience, kindness, goodness, generosity, gentleness, faithfulness, modesty, self-control, chastity — show the Spirit&apos;s work in a soul living in grace.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

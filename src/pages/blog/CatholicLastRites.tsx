@@ -69,7 +69,7 @@ export default function CatholicLastRites() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What are Catholic Last Rites? Learn about the Anointing of the Sick, Viaticum, and Apostolic Pardon — when to call a priest, what happens, and how to prepare a loved one for death.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Last Rites (Anointing of the Sick) include confession if possible, anointing with oil, and Viaticum (Communion as food for the journey) — for anyone seriously ill or elderly, not only the moment of death. They forgive sin and strengthen the soul.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">

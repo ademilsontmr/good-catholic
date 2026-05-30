@@ -86,7 +86,7 @@ export default function PrayerToStJoseph() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover powerful prayers to St. Joseph for families, workers, and those in need.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Prayers to St. Joseph invoke the foster father of Jesus — patron of workers, fathers, and a happy death. The Memorare to St. Joseph, Year of St. Joseph indulgences, and sleeping with his name on your lips are popular devotions.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-to-st-joseph">

@@ -86,7 +86,7 @@ export default function WhatIsTheScapular() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn what the Brown Scapular is, the history of Our Lady of Mount Carmel&apos;s apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A scapular is a sacramental — two cloth squares on cords, originally part of religious habits; the Brown Scapular of Carmel signifies devotion to Mary. Enrollment by a priest is required; it is a sign of prayer, not automatic salvation.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">

@@ -74,7 +74,7 @@ export default function CatholicLivingSecularWorld() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Practical guide for Catholics living in a secular culture. Learn how to maintain your faith, witness to others, and stay strong when the world pushes back.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics live in the secular world as leaven — engaging culture, work, and politics with Gospel values while avoiding compromise on grave sin; Sunday Mass, daily prayer, and moral courage keep faith from becoming private opinion only.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">

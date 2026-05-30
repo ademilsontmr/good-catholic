@@ -74,7 +74,7 @@ export default function CatholicMassGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Dismissal. What happens, what it means, and how to participate fully.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic Mass has two parts — Liturgy of the Word (readings, homily, Creed, intercessions) and Liturgy of the Eucharist (Offertory, Consecration, Communion, dismissal). Stand, sit, and kneel at local norms; non-Catholics may attend but not receive Communion.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
