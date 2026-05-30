@@ -33,7 +33,13 @@ const Index = () => {
           "publisher": {
             "@type": "Organization",
             "name": "Guide Catholic",
-            "url": "https://guidecatholic.com"
+            "url": "https://guidecatholic.com",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://guidecatholic.com/favicon-192.png",
+              "width": 192,
+              "height": 192
+            }
           }
         })}</script>
       </Helmet>

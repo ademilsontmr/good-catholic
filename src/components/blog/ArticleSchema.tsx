@@ -39,7 +39,9 @@ export function ArticleSchema({
       url: "https://guidecatholic.com",
       logo: {
         "@type": "ImageObject",
-        url: "https://guidecatholic.com/favicon.svg",
+        url: "https://guidecatholic.com/favicon-192.png",
+        width: 192,
+        height: 192,
       },
     },
     mainEntityOfPage: {
