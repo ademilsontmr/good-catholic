@@ -11,6 +11,7 @@ export interface SaintOfDayArticleContent {
   readTime: string;
   feastDateLabel: string;
   category: string;
+  contentType: "person" | "liturgical";
   patronOf: string[];
   intro: string;
   earlyLife: string;
@@ -19,6 +20,7 @@ export interface SaintOfDayArticleContent {
   miraclesAndDevotion: string;
   patronages: string;
   legacy: string;
+  howToHonorToday: string;
   highlights: string[];
   faqs: { question: string; answer: string }[];
 }

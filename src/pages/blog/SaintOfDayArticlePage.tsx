@@ -28,6 +28,7 @@ export default function SaintOfDayArticlePage() {
   const idx = allSorted.findIndex((a) => a.dateSlug === article.dateSlug);
   const prevArticle = idx > 0 ? allSorted[idx - 1] : null;
   const nextArticle = idx < allSorted.length - 1 ? allSorted[idx + 1] : null;
+  const liturgical = article.contentType === "liturgical";
 
   return (
     <>
@@ -84,36 +85,53 @@ export default function SaintOfDayArticlePage() {
               <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is {article.name}?</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                {liturgical ? `What the Church Celebrates on ${article.feastDateLabel}` : `Who Is ${article.name}?`}
+              </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
                 {article.intro}
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life &amp; Background</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                {liturgical ? "Sacred History &amp; Calendar" : "Early Life &amp; Background"}
+              </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
                 {article.earlyLife}
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Vocation &amp; Ministry</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                {liturgical ? "Theological Meaning" : "Vocation &amp; Ministry"}
+              </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
                 {article.vocationAndMinistry}
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Historical Context</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                {liturgical ? "Mass &amp; Liturgy" : "Historical Context"}
+              </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
                 {article.historicalContext}
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Miracles, Devotion &amp; Popular Piety</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                {liturgical ? "Traditions &amp; Devotions" : "Miracles, Devotion &amp; Popular Piety"}
+              </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
                 {article.miraclesAndDevotion}
               </LinkedText>
 
               <QuizCTA title="Grow in Catholic devotion" description="Take the Catholic life assessment for personalized guidance on prayer, saints, and spiritual growth." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Patronages &amp; How to Pray</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                {liturgical ? "Prayer &amp; Family Observance" : "Patronages &amp; How to Pray"}
+              </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
                 {article.patronages}
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Honor This Feast Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
+                {article.howToHonorToday}
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Key Highlights</h2>

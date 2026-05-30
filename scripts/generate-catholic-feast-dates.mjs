@@ -93,28 +93,51 @@ const SEASON_CELEBRATE = {
     "Use Ordinary Time to build one sustainable habit — daily Gospel reading, a weekly holy hour, or regular confession.",
 };
 
-function buildIntro(f) {
-  const rank = rankWithArticle(f.rank);
-  const obligation =
+function buildDirectAnswer(f) {
+  const holyDay =
     f.holyDayUS
-      ? "including Holy Day Mass obligations for U.S. Catholics"
-      : "including how to honor the day when it is not a U.S. Holy Day of Obligation";
-
+      ? "It is a Holy Day of Obligation in the United States."
+      : "It is not a U.S. Holy Day of Obligation, though Catholics are encouraged to attend Mass.";
   return joinSentences(
-    `${f.name} is ${rank} ${whenPhrase(f)}`,
+    `${f.name} is ${rankWithArticle(f.rank)} ${whenPhrase(f)}`,
     f.facts[0],
-    `${f.titleHook} names the spiritual center of the day — why believers return to it every liturgical cycle.`,
-    `Below you will find distinct sections on history, doctrine, the Mass of ${f.season}, home customs, and practical guidance ${obligation}, without repeating the same facts in every paragraph.`
+    holyDay
+  );
+}
+
+function buildIntro(f) {
+  return joinSentences(
+    `${f.titleHook} — that is the spiritual lens Catholics use when ${f.shortName} arrives each year in the ${f.season} season.`,
+    `This guide answers what the feast means, what happens at Mass, which traditions American families keep, and how the day fits the wider liturgical calendar.`,
+    f.facts[1]
+  );
+}
+
+function buildScriptureAndTradition(f) {
+  return joinSentences(
+    `Scripture and Tradition anchor ${f.shortName}; the Church does not celebrate arbitrary anniversaries.`,
+    f.facts[2],
+    f.facts[3],
+    `The Roman Missal's prayers for this day translate doctrine into speech the assembly can pray together — a catechism sung and spoken.`,
+    `When homilists connect the readings to current events, they follow a patristic habit: the Bible is always read in light of Christ and the Church he founded.`
   );
 }
 
 function buildBiblicalRoots(f) {
+  const eraNote = {
+    Advent: "Advent sermons from the fourth century already sounded themes of watchfulness that modern parishes still preach.",
+    Christmas: "Christmas homilies of St. Leo the Great and St. Augustine shaped how the West understands the Incarnation.",
+    Lent: "Lenten catechesis in the early Church prepared catechumens for baptism at Easter — a pattern RCIA still mirrors.",
+    "Holy Week": "Holy Week liturgies developed in Jerusalem pilgrimage practice before spreading to Rome and the world.",
+    Easter: "Easter is the feast of feasts because the Resurrection is the cornerstone of Christian faith (1 Cor 15:14).",
+    Pentecost: "Pentecost reverses Babel: one Spirit, many tongues, one Church.",
+    "Ordinary Time": "Ordinary Time unfolds the public ministry of Christ Sunday by Sunday in semi-continuous Gospels.",
+  }[f.season];
+
   return joinSentences(
-    `The Church remembers ${f.shortName} because God acted in history, not because a committee picked a random date.`,
-    f.facts[2],
-    f.facts[3],
-    `Patristic homilies, monastic calendars, and parish practice over centuries turned these events into public memory — the assembly today hears readings shaped by that tradition.`,
-    `When you celebrate ${f.shortName}, you stand in continuity with communities that preserved the faith through persecution, migration, and renewal.`
+    eraNote || `The ${f.season} season gives ${f.shortName} its liturgical color and context.`,
+    `Historians of liturgy trace how local churches kept memory alive until feasts entered the universal calendar.`,
+    `When you celebrate ${f.shortName}, you stand in continuity with communities that preserved faith through persecution, migration, and renewal.`
   );
 }
 
@@ -131,7 +154,7 @@ function buildTheology(f) {
 
   return joinSentences(
     `Liturgy and doctrine are inseparable: what Catholics celebrate on ${f.shortName}, they are invited to believe more deeply.`,
-    f.facts[1],
+    f.facts[0],
     rankNote,
     `Catechists can build one session from the collect and Gospel alone; parents can explain the feast with a single sentence drawn from ${f.titleHook}.`,
     `The day is not nostalgia — it is the Church's annual invitation to let this mystery reshape conscience and hope.`
@@ -305,7 +328,9 @@ function buildArticle(f, index, all) {
   const prev = index > 0 ? all[index - 1] : null;
   const next = index < all.length - 1 ? all[index + 1] : null;
   const title = `${f.name}: Catholic Feast Day Guide — ${f.titleHook}`;
+  const directAnswer = buildDirectAnswer(f);
   const intro = buildIntro(f);
+  const scriptureAndTradition = buildScriptureAndTradition(f);
   const biblicalRoots = buildBiblicalRoots(f);
   const theologicalMeaning = buildTheology(f);
   const liturgicalCelebration = buildLiturgy(f);
@@ -316,7 +341,9 @@ function buildArticle(f, index, all) {
   const highlights = buildHighlights(f);
   const faqs = buildFaqs(f, prev, next);
   const readTime = estimateReadTime(
+    directAnswer,
     intro,
+    scriptureAndTradition,
     biblicalRoots,
     theologicalMeaning,
     liturgicalCelebration,
@@ -348,7 +375,9 @@ function buildArticle(f, index, all) {
     metaDescription,
     excerpt,
     readTime,
+    directAnswer,
     intro,
+    scriptureAndTradition,
     biblicalRoots,
     theologicalMeaning,
     liturgicalCelebration,

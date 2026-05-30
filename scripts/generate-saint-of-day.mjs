@@ -16,6 +16,16 @@ function trimMeta(s, max = 155) {
   return s.slice(0, 152).replace(/\s+\S*$/, "") + "...";
 }
 
+function ensurePeriod(s) {
+  const t = (s || "").trim();
+  if (!t) return "";
+  return t.endsWith(".") ? t : `${t}.`;
+}
+
+function joinSentences(...parts) {
+  return parts.filter(Boolean).map(ensurePeriod).join(" ");
+}
+
 function formatDate(month, day) {
   return `${MONTH_NAMES[month - 1]} ${day}`;
 }
@@ -29,8 +39,7 @@ function dayOfYear(month, day) {
 
 function estimateReadTime(...texts) {
   const words = texts.join(" ").split(/\s+/).length;
-  const mins = Math.min(14, Math.max(8, Math.round(words / 220)));
-  return `${mins} min`;
+  return `${Math.min(16, Math.max(9, Math.round(words / 220)))} min`;
 }
 
 function patronList(patrons) {
@@ -39,155 +48,309 @@ function patronList(patrons) {
   return `${patrons.slice(0, -1).join(", ")}, and ${patrons[patrons.length - 1]}`;
 }
 
+function primaryName(name) {
+  return name.split(" and ")[0];
+}
+
+function isLiturgicalFeast(s) {
+  if (s.category === "solemnity") return true;
+  const n = s.name.toLowerCase();
+  if (s.category === "feast" && (n.includes("lord") || n.includes("nativity") || n.includes("all saints"))) {
+    return true;
+  }
+  return false;
+}
+
 const CATEGORY_LABELS = {
-  martyr: "martyr and witness to the faith",
-  confessor: "confessor and servant of the Church",
-  virgin: "consecrated virgin and model of holiness",
-  doctor: "Doctor of the Church and master of theology",
-  apostle: "apostle and pillar of the early Church",
-  solemnity: "solemnity of the universal Church",
-  memorial: "memorial on the Catholic calendar",
-  feast: "feast day celebrated throughout the Church",
+  martyr: "martyr of the Catholic Church",
+  confessor: "confessor and bishop or monk of the Church",
+  virgin: "consecrated virgin and saint",
+  doctor: "Doctor of the Church",
+  apostle: "apostle of the Lord",
+  solemnity: "solemnity on the universal calendar",
+  memorial: "memorial on the Roman calendar",
+  feast: "feast celebrated throughout the Church",
 };
 
-const ERA_CONTEXT = {
-  martyr: (name, origin) =>
-    `${name} lived in an age when professing Christianity could cost one's life. Martyrs like ${name.split(" and ")[0]} remind Catholics that the faith was purchased in blood — and that witness under persecution remains the highest form of discipleship.`,
-  confessor: (name, origin) =>
-    `${name} served the Church during a period when bishops, monks, and missionaries were reshaping Christian civilization across ${origin.includes(",") ? origin.split(",").pop().trim() : origin}. Confessors who never shed blood for Christ nonetheless transformed entire regions through preaching, charity, and institutional reform.`,
-  virgin: (name, origin) =>
-    `In the patristic and medieval Church, consecrated virgins like ${name.split(" and ")[0]} embodied the Church as Bride of Christ. Their renunciation of marriage for the sake of the Kingdom challenged worldly values and inspired generations of women and men to pursue radical holiness.`,
-  doctor: (name, origin) =>
-    `${name} belongs to the small company of Doctors of the Church — saints whose theological writings carry magisterial weight centuries after their death. Their era demanded clarity amid heresy, and their pens became instruments of orthodoxy.`,
-  apostle: (name, origin) =>
-    `${name} walked in the shadow of the Resurrection, when the Gospel was still spreading from Jerusalem to the ends of the earth. Apostolic saints connect every Catholic today to the living memory of those who knew Christ or were commissioned directly by the Twelve.`,
-  solemnity: (name, origin) =>
-    `Solemnities rank among the highest celebrations on the Catholic liturgical calendar. Honoring ${name} on this day unites the universal Church in a feast that interrupts ordinary time and calls the faithful to deeper contemplation of the mysteries of salvation.`,
-  memorial: (name, origin) =>
-    `Memorials like this one invite Catholics to pause in the rhythm of ordinary time and draw inspiration from a particular saint whose life illuminates some facet of the Gospel. ${name} offers a model of holiness accessible to believers in every century.`,
-  feast: (name, origin) =>
-    `Feast days mark moments when the Church celebrates not only a saint's virtue but the action of grace in history. The feast of ${name.split(" and ")[0]} has been kept for generations, preserving memory and devotion across cultures and continents.`,
+const VOCATION_FOCUS = {
+  martyr: "witness unto blood when the state or mob demanded apostasy",
+  confessor: "preaching, governance, and service to the poor under heavy responsibility",
+  virgin: "consecrated chastity, prayer, and often founding or reforming communities",
+  doctor: "writing, teaching, and defending orthodoxy when doctrine was contested",
+  apostle: "planting churches and proclaiming Christ where the Gospel was unknown",
+  memorial: "hidden holiness in ordinary duties performed with extraordinary love",
+  feast: "public celebration of a mystery or saint whose life the Church holds up for imitation",
+  solemnity: "solemn liturgical proclamation of a saving mystery",
 };
 
-function buildIntro(s) {
-  const cat = CATEGORY_LABELS[s.category] || "saint honored on the Catholic calendar";
+// --- Person saints (unique fact distribution) ---
+
+function buildPersonIntro(s) {
   const patrons = patronList(s.patronOf);
-  return `${s.name} is the Catholic Saint of the Day for ${formatDate(s.month, s.day)} — a ${cat} whose intercession Catholics seek especially as patron of ${patrons}. ${s.facts[0]} On this feast, parishes, schools, and families around the world remember ${s.name.split(" and ")[0]} through Mass, prayer, and acts of charity aligned with this saint's legacy. Whether you discovered this page searching for today's saint, preparing a homily, or deepening your devotional life, this guide offers a complete biography: origins in ${s.origin}, key moments from ${s.lifespan}, and the reasons this holy figure remains among the most beloved saints in Catholic tradition. ${s.facts[1] || ""}`.trim();
+  return joinSentences(
+    `On ${formatDate(s.month, s.day)}, the Catholic Church honors ${s.name} — a ${CATEGORY_LABELS[s.category] || "canonized saint"} from ${s.origin} (${s.lifespan}).`,
+    s.facts[0],
+    `${s.titleHook} captures what makes this life memorable centuries later.`,
+    `Catholics invoke ${primaryName(s.name)} as patron of ${patrons}; this guide explains the history, virtue, and practical ways to honor the feast today.`
+  );
 }
 
-function buildEarlyLife(s) {
-  const f2 = s.facts[1] || s.facts[0];
-  const f3 = s.facts[2] || "";
-  return `${s.name} was associated with ${s.origin} during the period ${s.lifespan}. Early biographical details vary by source — hagiography, local tradition, and historical records sometimes blend — but the Church's recognition of this saint rests on a consistent core of witness and virtue. ${f2} From youth or early adulthood, ${s.name.split(" and ")[0]} showed the qualities that would later define a life of holiness: courage, humility, zeal for God, and love of neighbor. ${f3} Understanding where and when this saint lived helps modern readers grasp why particular struggles — persecution, poverty, theological controversy, or missionary frontier — shaped their path to sanctity. Catholics honor not only the destination (canonization and feast day) but the ordinary steps of conversion, discipline, and trust in Providence that preceded it.`;
+function buildPersonEarlyLife(s) {
+  return joinSentences(
+    `${primaryName(s.name)} belongs to the history of ${s.origin} during ${s.lifespan}.`,
+    s.facts[1],
+    `Hagiography preserves both documented events and pious memory; the Church canonizes saints when their holiness is clear, not when every anecdote is verified like a modern biography.`,
+    `Geography and era matter: knowing where this saint lived helps readers understand the political, religious, and economic pressures that shaped choices of courage, poverty, or exile.`
+  );
 }
 
-function buildVocation(s) {
-  const f0 = s.facts[0];
-  const f3 = s.facts[3] || s.facts[2] || s.facts[1];
-  const role =
-    s.category === "martyr"
-      ? "bearing witness unto death"
-      : s.category === "doctor"
-        ? "teaching, writing, and defending Catholic doctrine"
-        : s.category === "virgin"
-          ? "consecrated life and prayer"
-          : s.category === "apostle"
-            ? "evangelization and church-building"
-            : "service to the Church and the poor";
-  return `The vocation of ${s.name} unfolded through ${role}. ${f0} Whether as priest, religious, lay apostle, or bishop, this saint answered a call that demanded sacrifice — leaving home, accepting ridicule, enduring illness, or facing violence. ${f3} Catholic hagiography preserves stories of specific decisions: entering a monastery, founding a congregation, converting from paganism, defending the oppressed, or crossing continents as a missionary. These choices matter because they show sanctity is not accidental; it is the fruit of repeated yes to grace. Devotees of ${s.name.split(" and ")[0]} often find in these episodes a mirror for their own vocational discernment — proof that God writes straight with crooked lines and that holiness is possible in every state of life.`;
+function buildPersonVocation(s) {
+  return joinSentences(
+    `The heart of ${primaryName(s.name)}'s vocation was ${VOCATION_FOCUS[s.category] || "faithful service to Christ and neighbor"}.`,
+    s.facts[2],
+    `Sanctity here was not a single heroic hour but a pattern — prayer, sacraments, repentance, and love repeated until death.`,
+    `Readers discerning their own call can ask which virtue in this life they most need: ${s.patronOf[0] ? `perhaps something connected to ${s.patronOf[0]}` : "perseverance under ordinary trials"}.`
+  );
 }
 
-function buildHistoricalContext(s) {
-  const opener = ERA_CONTEXT[s.category]?.(s.name, s.origin) ||
-    `${s.name} lived during a formative era in Catholic history, when Church and culture were intertwined in ways that shaped doctrine, worship, and daily piety across ${s.origin}.`;
-  const f4 = s.facts[s.facts.length - 1] || s.facts[0];
-  return `${opener} The lifespan ${s.lifespan} places this saint within concrete historical currents — empire and collapse, reformation and renewal, plague and pilgrimage — that no biography can ignore. ${f4} When Catholics celebrate this feast on ${formatDate(s.month, s.day)}, they connect personal prayer to centuries of collective memory. The General Roman Calendar and national calendars assign saints to particular dates so the whole Church year becomes a procession of holiness, each day offering a new intercessor and a new lesson in the Gospel lived boldly.`;
+function buildPersonHistoricalContext(s) {
+  return joinSentences(
+    s.facts[3],
+    `Assigning ${primaryName(s.name)} to ${formatDate(s.month, s.day)} lets the whole Church remember this witness on the same day each year — a rhythm older than national holidays.`,
+    `When you read about this saint in ${formatDate(s.month, s.day)}, you join Catholics in every time zone who opened missals, school religion classes, and family prayer books for the same feast.`
+  );
 }
 
-function buildMiraclesAndDevotion(s) {
+function buildPersonMiracles(s) {
   const patrons = patronList(s.patronOf);
-  const facts = s.facts.slice(0, 3);
-  return `Devotion to ${s.name} has flourished because the faithful experience this saint as a powerful intercessor before God. Patron of ${patrons}, ${s.name.split(" and ")[0]} is invoked in novenas, parish feast-day celebrations, and private prayer — especially by those who see their struggles reflected in this saint's life. ${facts.join(" ")} Shrines, relics, and icons associated with this saint attract pilgrims seeking healing, guidance, and conversion. Popular piety sometimes preserves customs linked to this feast: special foods, processions, school celebrations, or charitable collections for the causes this saint championed. The Church distinguishes between public revelation and private devotion, yet countless Catholics testify that praying through ${s.name.split(" and ")[0]} opened doors when human effort alone failed. That living tradition — not merely historical curiosity — is why "Saint of the Day" features remain among the most searched Catholic topics online.`;
+  return joinSentences(
+    `Catholics turn to ${primaryName(s.name)} because intercession is real in the communion of saints — those in heaven remain members of the Body of Christ.`,
+    `Patron of ${patrons}, this saint is a frequent choice for novenas, parish festivals, and quiet prayers at kitchen tables.`,
+    `Shrines and relics associated with ${primaryName(s.name)} continue to draw pilgrims; local customs (foods, processions, school plays) keep memory alive for children who may never read a formal biography.`
+  );
 }
 
-function buildPatronages(s) {
+function buildPersonPatronages(s) {
   const patrons = s.patronOf;
-  return `${s.name} is widely invoked as patron of ${patronList(patrons)}. Patron saints function in Catholic spirituality as elder siblings in faith: they have triumphed, they understand human weakness, and they present our needs before Christ. Choosing ${s.name.split(" and ")[0]} as a heavenly advocate is never superstition; it is the communion of saints made practical. ${patrons[0].charAt(0).toUpperCase() + patrons[0].slice(1)} find particular comfort under this patronage, but the Church's calendar teaches that every saint overflows with grace for anyone who asks. On ${formatDate(s.month, s.day)}, consider entrusting a specific intention — health, employment, conversion of a loved one, peace in your nation — to ${s.name}. Many Catholics also name children, parishes, or apostolates after their patron saint, creating a lifelong bond of prayer and imitation.`;
+  return joinSentences(
+    `${s.name} is invoked especially by those connected to ${patronList(patrons)}.`,
+    `Patronage is not magic: the Church teaches that saints pray for us; they do not replace Christ.`,
+    `On ${formatDate(s.month, s.day)}, name one intention aloud, pray an Our Father and Hail Mary, and perform one work of mercy linked to this saint's example.`,
+    `Families sometimes choose a patron at baptism or confirmation; returning to that saint's feast day each year renews the bond.`
+  );
 }
 
-function buildLegacy(s) {
-  const fLast = s.facts[s.facts.length - 1];
-  const fMid = s.facts[Math.floor(s.facts.length / 2)] || s.facts[0];
-  return `The legacy of ${s.name} extends far beyond a single feast on ${formatDate(s.month, s.day)}. ${fMid} ${fLast} Popes, councils, and local churches have confirmed this saint's importance through canonization, liturgical ranking, and the inclusion of their name in missals worldwide. Artists, composers, and writers continue to depict ${s.name.split(" and ")[0]} because holiness is attractive — it answers the deepest hunger of the human heart. For catechists and parents, this saint offers ready-made material: a story of virtue, a date to circle on the calendar, and a name to invoke at bedtime. For scholars, the same life opens windows into the history of ${s.origin} and the development of Catholic spirituality. In every case, the legacy is the same: ${s.name} still leads souls to Christ.`;
+function buildPersonLegacy(s) {
+  return joinSentences(
+    `${primaryName(s.name)} remains in missals, art, and parish names because holiness still attracts a world tired of cynicism.`,
+    `Teachers can use this feast for a five-minute virtue lesson; pastors can mention the saint in the homily when the calendar aligns with local devotion.`,
+    `The legacy is pastoral: a life that already reached heaven and now helps others get there.`
+  );
 }
 
-function buildHighlights(s) {
-  const items = [
-    `Feast day: ${formatDate(s.month, s.day)} on the Catholic calendar`,
-    `Patron of ${patronList(s.patronOf)}`,
-    `Origin: ${s.origin} (${s.lifespan})`,
-    ...s.facts.slice(0, 2),
-  ];
-  if (s.category === "doctor") items.push("Honored as a Doctor of the Church for theological writings");
-  if (s.category === "martyr") items.push("Martyred for refusing to renounce the Catholic faith");
-  if (s.category === "solemnity") items.push("Celebrated as a solemnity — among the highest liturgical ranks");
-  return [...new Set(items)].slice(0, 6);
-}
-
-function buildFaqs(s, prev, next) {
+function buildPersonHowToHonor(s) {
   const patrons = patronList(s.patronOf);
-  const faqs = [
-    {
-      question: `Who is the Catholic saint for ${formatDate(s.month, s.day)}?`,
-      answer: `${s.name} is honored as the Saint of the Day on ${formatDate(s.month, s.day)}. ${s.facts[0]} Catholics celebrate this feast with Mass, prayer, and devotion to ${s.name.split(" and ")[0]} as patron of ${patrons}.`,
-    },
-    {
-      question: `What is ${s.name} the patron saint of?`,
-      answer: `${s.name} is patron of ${patrons}. The faithful invoke this saint for intercession in needs related to these areas, trusting in the communion of saints taught by the Catholic Church.`,
-    },
-    {
-      question: `When is ${s.name}'s feast day?`,
-      answer: `The feast day of ${s.name} is ${formatDate(s.month, s.day)} each year on the Roman Catholic calendar. On this date, the Church remembers ${s.name.split(" and ")[0]} (${s.lifespan}) and encourages imitation of their virtues.`,
-    },
-    {
-      question: `Why is ${s.name} important in Catholic history?`,
-      answer: `${s.facts[1] || s.facts[0]} ${s.facts[2] || ""} As a ${CATEGORY_LABELS[s.category] || "saint"}, ${s.name.split(" and ")[0]} continues to inspire Catholics worldwide through liturgy, art, and popular devotion.`,
-    },
+  return joinSentences(
+    `Attend Mass on ${formatDate(s.month, s.day)} if possible — even a weekday memorial is a public act of communion with the whole Church.`,
+    `Read one paragraph about ${primaryName(s.name)} aloud at dinner and ask who needs prayer for matters related to ${patrons}.`,
+    `Choose one concrete act: visit a shrine online or in person, donate to a cause this saint cared about, or pray a decade of the Rosary for someone struggling.`,
+    `If you cannot attend church, read the saint's entry in the Roman Martyrology or a trusted Catholic encyclopedia and make an act of spiritual communion.`
+  );
+}
+
+// --- Liturgical feasts on the saint calendar (Nativity, solemnities) ---
+
+function buildLiturgicalIntro(s) {
+  return joinSentences(
+    `${formatDate(s.month, s.day)} on the Catholic calendar centers on ${s.name} — ${s.titleHook}.`,
+    s.facts[0],
+    `This is not merely a historical anniversary but a solemn proclamation of faith celebrated in every Roman Rite parish that keeps the General Roman Calendar.`,
+    `The sections below treat Scripture, doctrine, liturgy, and family observance separately so each adds new information.`
+  );
+}
+
+function buildLiturgicalHistory(s) {
+  return joinSentences(
+    s.facts[1],
+    s.facts[2],
+    `The date ${formatDate(s.month, s.day)} places this mystery in the Church's annual cycle so believers rehearse salvation history rather than reading it once and moving on.`,
+    `Lex orandi, lex credendi — the way the Church prays on this day is the way she teaches what she believes.`
+  );
+}
+
+function buildLiturgicalTheology(s) {
+  return joinSentences(
+    s.facts[3],
+    `Theology here is doxology: Catholics praise God for what he has done, not only study it.`,
+    `Preachers on ${formatDate(s.month, s.day)} connect this feast to baptism, Eucharist, and moral life — showing that liturgy and ethics are one piece.`,
+    `${s.titleHook} gives catechists a single sentence children can remember long after details fade.`
+  );
+}
+
+function buildLiturgicalCelebration(s) {
+  return joinSentences(
+    `Parishes mark ${formatDate(s.month, s.day)} with proper readings, prayers, and often festive music when rubrics allow.`,
+    `Check your parish bulletin for Mass times; solemnities may include Gloria, Creed, and extended processions or blessings.`,
+    `In the United States, when this date is a Holy Day of Obligation, Catholics plan travel and work schedules around Mass — a countercultural witness in itself.`
+  );
+}
+
+function buildLiturgicalDevotion(s) {
+  return joinSentences(
+    `Home customs on ${formatDate(s.month, s.day)} should echo the sanctuary: Scripture before meals, candles, hymns, or charitable giving tied to the mystery celebrated.`,
+    `Ethnic parishes enrich the feast with foods and processions; the unity of faith expresses itself in legitimate diversity.`,
+    `Avoid reducing the day to sentiment alone — the Church calls for conversion, joy, and mission flowing from what God has revealed.`
+  );
+}
+
+function buildLiturgicalPatronages(s) {
+  const patrons = patronList(s.patronOf);
+  return joinSentences(
+    `Devotion on this day often entrusts ${patrons} to the intercession of ${primaryName(s.name)} and the whole communion of saints.`,
+    `Pray the Collect of the day from the Roman Missal — it condenses the Church's intention in authoritative language.`,
+    `Families can bless children, renew baptismal promises, or read the Gospel account associated with this feast before bedtime.`
+  );
+}
+
+function buildLiturgicalLegacy(s) {
+  return joinSentences(
+    `Every generation re-encounters ${s.name} on ${formatDate(s.month, s.day)} with new questions — suffering, hope, family fracture, or cultural hostility to faith.`,
+    `The feast answers by pointing to God's action, not human achievement.`,
+    `That is why calendar feasts remain among the most durable teachers in Catholic life: they return whether or not smartphones remind us.`
+  );
+}
+
+function buildLiturgicalHowToHonor(s) {
+  return joinSentences(
+    `Begin with Mass when obligation or schedule allows; arrive early for silence before the opening hymn.`,
+    `Read the day's Gospel the night before and discuss one phrase at table — formation beats elaborate programs.`,
+    `Extend celebration through the octave or season when rubrics provide one; do not collapse the mystery into a single hour.`,
+    `Perform one work of mercy: visit the sick, donate food, or forgive a family grudge as a living response to the feast.`
+  );
+}
+
+function buildHighlights(s, liturgical) {
+  const base = [
+    `Feast date: ${formatDate(s.month, s.day)}`,
+    liturgical ? `Liturgical observance: ${s.category}` : `Patron of ${patronList(s.patronOf)}`,
+    `Origin / setting: ${s.origin}${s.lifespan ? ` (${s.lifespan})` : ""}`,
+    ...s.facts,
   ];
+  if (s.category === "doctor") base.push("Doctor of the Church — magisterial weight in theology");
+  if (s.category === "martyr") base.push("Witness unto death for the faith");
+  return [...new Set(base)].slice(0, 8);
+}
+
+function buildFaqs(s, prev, next, liturgical) {
+  const patrons = patronList(s.patronOf);
+  const faqs = liturgical
+    ? [
+        {
+          question: `What does the Catholic Church celebrate on ${formatDate(s.month, s.day)}?`,
+          answer: joinSentences(
+            `On ${formatDate(s.month, s.day)}, Catholics celebrate ${s.name}.`,
+            s.facts[0],
+            s.facts[1]
+          ),
+        },
+        {
+          question: `Why is ${s.name} important in Catholic faith?`,
+          answer: joinSentences(s.facts[2], s.facts[3], `${s.titleHook} summarizes the heart of the feast.`)
+        },
+        {
+          question: `How should Catholics observe ${formatDate(s.month, s.day)}?`,
+          answer: joinSentences(
+            `Attend Mass when possible, read the proper Scripture texts, and mark the day at home with prayer and charity.`,
+            `Check your diocese for Holy Day schedules if the date carries obligation in the United States.`
+          ),
+        },
+      ]
+    : [
+        {
+          question: `Who is the Catholic saint for ${formatDate(s.month, s.day)}?`,
+          answer: joinSentences(
+            `${s.name} is honored on ${formatDate(s.month, s.day)}.`,
+            s.facts[0],
+            `Catholics know ${primaryName(s.name)} as patron of ${patrons}.`
+          ),
+        },
+        {
+          question: `What is ${s.name} the patron saint of?`,
+          answer: joinSentences(
+            `${s.name} is patron of ${patrons}.`,
+            `Faithful ask this saint's intercession in the communion of saints — a practice rooted in Scripture and Tradition.`
+          ),
+        },
+        {
+          question: `When is ${primaryName(s.name)}'s feast day?`,
+          answer: joinSentences(
+            `The feast of ${s.name} is ${formatDate(s.month, s.day)} each year on the Roman Catholic calendar.`,
+            `The saint lived in ${s.origin} during ${s.lifespan}.`
+          ),
+        },
+        {
+          question: `Why is ${primaryName(s.name)} important in Catholic history?`,
+          answer: joinSentences(s.facts[1], s.facts[2], `${s.titleHook} explains why the Church keeps this memory alive.`)
+        },
+      ];
+
   if (prev) {
     faqs.push({
-      question: `What was yesterday's saint of the day?`,
-      answer: `On ${formatDate(prev.month, prev.day)}, the Catholic Church honors ${prev.name}. Read the full biography at the Saint of the Day calendar on Guide Catholic.`,
+      question: `Who was yesterday's saint of the day?`,
+      answer: joinSentences(
+        `On ${formatDate(prev.month, prev.day)}, the Church honors ${prev.name}.`,
+        `See the full Saint of the Day calendar on Guide Catholic.`
+      ),
     });
-  }
-  if (next) {
+  } else if (next) {
     faqs.push({
       question: `Who is tomorrow's saint of the day?`,
-      answer: `On ${formatDate(next.month, next.day)}, Catholics celebrate ${next.name}. Visit the Saint of the Day hub for the complete calendar of 365 famous saints.`,
+      answer: joinSentences(
+        `On ${formatDate(next.month, next.day)}, Catholics celebrate ${next.name}.`,
+        `Browse all 365 dates on Guide Catholic's Saint of the Day hub.`
+      ),
     });
   }
-  return faqs.slice(0, 5);
+  return faqs.slice(0, 6);
 }
 
 function buildArticle(s, index, all) {
   const prev = index > 0 ? all[index - 1] : null;
   const next = index < all.length - 1 ? all[index + 1] : null;
+  const liturgical = isLiturgicalFeast(s);
   const feastDateLabel = formatDate(s.month, s.day);
-  const title = `Saint of the Day (${feastDateLabel}): ${s.name} — ${s.titleHook}`;
-  const intro = buildIntro(s);
-  const earlyLife = buildEarlyLife(s);
-  const vocationAndMinistry = buildVocation(s);
-  const historicalContext = buildHistoricalContext(s);
-  const miraclesAndDevotion = buildMiraclesAndDevotion(s);
-  const patronages = buildPatronages(s);
-  const legacy = buildLegacy(s);
-  const highlights = buildHighlights(s);
-  const faqs = buildFaqs(s, prev, next);
-  const readTime = estimateReadTime(intro, earlyLife, vocationAndMinistry, historicalContext, miraclesAndDevotion, patronages, legacy);
-  const metaDescription = trimMeta(
-    `Saint of the Day ${feastDateLabel}: ${s.name} — ${s.titleHook}. Patron of ${patronList(s.patronOf)}. Complete Catholic biography, feast day, miracles & devotion.`
+  const title = liturgical
+    ? `Saint of the Day (${feastDateLabel}): ${s.name} — ${s.titleHook}`
+    : `Saint of the Day (${feastDateLabel}): ${s.name} — ${s.titleHook}`;
+
+  const intro = liturgical ? buildLiturgicalIntro(s) : buildPersonIntro(s);
+  const earlyLife = liturgical ? buildLiturgicalHistory(s) : buildPersonEarlyLife(s);
+  const vocationAndMinistry = liturgical ? buildLiturgicalTheology(s) : buildPersonVocation(s);
+  const historicalContext = liturgical ? buildLiturgicalCelebration(s) : buildPersonHistoricalContext(s);
+  const miraclesAndDevotion = liturgical ? buildLiturgicalDevotion(s) : buildPersonMiracles(s);
+  const patronages = liturgical ? buildLiturgicalPatronages(s) : buildPersonPatronages(s);
+  const legacy = liturgical ? buildLiturgicalLegacy(s) : buildPersonLegacy(s);
+  const howToHonorToday = liturgical ? buildLiturgicalHowToHonor(s) : buildPersonHowToHonor(s);
+  const highlights = buildHighlights(s, liturgical);
+  const faqs = buildFaqs(s, prev, next, liturgical);
+
+  const readTime = estimateReadTime(
+    intro,
+    earlyLife,
+    vocationAndMinistry,
+    historicalContext,
+    miraclesAndDevotion,
+    patronages,
+    legacy,
+    howToHonorToday
   );
-  const excerpt = trimMeta(`${s.name} (${feastDateLabel}) — ${s.titleHook}. Patron of ${s.patronOf[0]}. ${s.facts[0]}`, 160);
+
+  const metaDescription = trimMeta(
+    liturgical
+      ? `Catholic calendar ${feastDateLabel}: ${s.name}. ${s.titleHook}. Scripture, Mass, meaning & how to celebrate explained.`
+      : `Saint of the Day ${feastDateLabel}: ${s.name}. Patron of ${patronList(s.patronOf)}. Biography, history, devotion & how to honor the feast.`
+  );
+  const excerpt = trimMeta(`${s.name} (${feastDateLabel}) — ${s.titleHook}. ${s.facts[0]}`, 160);
 
   return {
     dayOfYear: dayOfYear(s.month, s.day),
@@ -196,6 +359,7 @@ function buildArticle(s, index, all) {
     dateSlug: s.dateSlug,
     saintSlug: s.slug,
     name: s.name,
+    contentType: liturgical ? "liturgical" : "person",
     title,
     metaDescription,
     excerpt,
@@ -210,6 +374,7 @@ function buildArticle(s, index, all) {
     miraclesAndDevotion,
     patronages,
     legacy,
+    howToHonorToday,
     highlights,
     faqs,
   };
@@ -222,13 +387,12 @@ function buildSaintInterlinks(articles) {
     map[a.name] = url;
     const short = a.name.replace(/^St\.\s+/, "Saint ");
     if (short !== a.name) map[short] = url;
-    const first = a.name.split(" and ")[0];
+    const first = primaryName(a.name);
     if (first !== a.name) map[first] = url;
   }
   return map;
 }
 
-// --- Main ---
 const calendarPath = path.join(__dirname, "saints-of-day-calendar.json");
 const saints = JSON.parse(fs.readFileSync(calendarPath, "utf8"));
 if (saints.length !== 365) throw new Error(`Expected 365 saints, got ${saints.length}`);
@@ -243,7 +407,6 @@ fs.writeFileSync(
 export const SAINT_OF_DAY_INTERLINK_MAP: Record<string, string> = ${JSON.stringify(interlinks, null, 2)};
 `
 );
-console.log("Generated", Object.keys(interlinks).length, "saint interlink phrases");
 
 fs.writeFileSync(
   path.join(root, "src/data/saintOfDayArticles.ts"),

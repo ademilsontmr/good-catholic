@@ -16,7 +16,9 @@ export interface CatholicFeastDateArticleContent {
   excerpt: string;
   readTime: string;
   titleHook: string;
+  directAnswer: string;
   intro: string;
+  scriptureAndTradition: string;
   biblicalRoots: string;
   theologicalMeaning: string;
   liturgicalCelebration: string;

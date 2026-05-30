@@ -84,9 +84,17 @@ export default function CatholicFeastDateArticlePage() {
               <Star className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-violet-50/80 border border-violet-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">{article.directAnswer}</p>
+              </div>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is {article.name}?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
                 {article.intro}
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture &amp; Tradition</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={blogSlug}>
+                {article.scriptureAndTradition}
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Biblical &amp; Historical Roots</h2>
