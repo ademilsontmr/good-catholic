@@ -74,7 +74,7 @@ export default function AllSaintsAllSoulsDay() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic meaning of All Saints Day (November 1) and All Souls Day (November 2). Discover how to honor the saints, pray for the dead, and understand Purgatory.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">All Saints (November 1) honors every saint in heaven; All Souls (November 2) prays for the faithful departed in purgatory. Both are Holy Days in the U.S. calendar — Mass, visiting cemeteries, and indulgences for the dead are traditional practices.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">

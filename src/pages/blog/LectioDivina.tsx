@@ -86,7 +86,7 @@ export default function LectioDivina() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to practice Lectio Divina step by step. Complete guide covering the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Lectio divina is prayerful Scripture reading in four steps — lectio (read), meditatio (meditate), oratio (pray), contemplatio (rest in God). Catholics use it daily to let the Word speak personally, distinct from academic Bible study.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">

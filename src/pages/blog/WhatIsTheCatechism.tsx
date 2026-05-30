@@ -74,7 +74,7 @@ export default function WhatIsTheCatechism() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn what the Catechism of the Catholic Church is, how it is organized, and how to use it. A complete guide to the CCC for Catholics and those curious about the faith.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catechism of the Catholic Church (1992) is the official compendium of Catholic doctrine — Scripture, Tradition, and Magisterium organized for bishops, teachers, and laity. It covers creed, sacraments, morality, and prayer in 2,865 numbered paragraphs.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">

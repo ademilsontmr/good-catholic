@@ -74,7 +74,7 @@ export default function PatronSaintsGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What are patron saints? How do they intercede for us?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Patron saints are heavenly intercessors linked to places, professions, illnesses, or causes — Catholics ask their prayer, not worship them. Choosing a patron for confirmation, naming a child, or daily devotion connects ordinary life to the communion of saints.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">

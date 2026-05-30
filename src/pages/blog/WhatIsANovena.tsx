@@ -86,7 +86,7 @@ export default function WhatIsANovena() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn what a novena is, its biblical origins in Acts 1:14, the most popular novenas, how to pray a novena, what to do if you miss a day, and the power of perseverance in prayer.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A novena is nine days of prayer for a special intention — imitating the apostles&apos; nine days of prayer before Pentecost. Catholics may pray to God, Mary, or a saint; novenas express persistent trust and often conclude on a feast day or after a novena prayer formula.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-a-novena">

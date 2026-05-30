@@ -86,7 +86,7 @@ export default function IncorruptibleSaints() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What are Incorruptible Saints? Discover the miracle of Catholic saints whose bodies have not decomposed for centuries, the scientific studies, and what it means for our faith.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Incorruptible saints are bodies that did not decay normally after death — considered a sign of holiness, not proof alone. Examples include St. Bernadette and St. Catherine of Bologna; the Church examines scientifically while cautioning against sensationalism.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">

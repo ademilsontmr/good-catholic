@@ -87,7 +87,7 @@ export default function HowToReadBible() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to read the Bible as a Catholic. Discover study methods, the Catholic canon, approved translations, and how Scripture fits with Tradition and Magisterium.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics read the Bible with the Church — start with Gospels, use a Catholic edition with footnotes, pray before reading, and interpret difficult passages through Tradition and Magisterium. Lectio divina (read, meditate, pray, contemplate) is the classic method.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">

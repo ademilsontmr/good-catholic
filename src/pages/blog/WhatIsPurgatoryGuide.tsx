@@ -74,7 +74,7 @@ export default function WhatIsPurgatoryGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is Purgatory? The complete Catholic explanation — biblical basis, what Purgatory is and isn&apos;t, how to pray for the souls there, and why this doctrine reveals God&apos;s mercy.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Purgatory is the Catholic doctrine of final purification after death for souls destined for heaven but not yet perfectly holy — temporal effects of forgiven sin are cleansed before the beatific vision. It is not a second chance; those in purgatory are saved and aided by our prayers.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">

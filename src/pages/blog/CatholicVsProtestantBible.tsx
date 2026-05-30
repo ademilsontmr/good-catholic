@@ -86,7 +86,7 @@ export default function CatholicVsProtestantBible() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Why does the Catholic Bible have 73 books and the Protestant Bible 66? Understand the history of the canon, the Deuterocanonical books, and Martin Luther&apos;s changes.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Bible includes 73 books — 46 Old Testament (with seven deuterocanonical books) and 27 New Testament. Protestant Bibles typically have 66 books, omitting Tobit, Judith, Wisdom, Sirach, Baruch, 1–2 Maccabees, and added sections of Esther and Daniel.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">

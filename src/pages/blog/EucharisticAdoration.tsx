@@ -73,7 +73,7 @@ export default function EucharisticAdoration() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the transforming power of Eucharistic Adoration. Learn what it is, how to make a holy hour, and why the saints called it the secret of holiness.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Eucharistic adoration is worship of Christ truly present in the consecrated Host exposed in a monstrance or reserved in the tabernacle — prayer, silence, Rosary, and spiritual communion. Perpetual adoration chapels exist in many U.S. parishes.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration">

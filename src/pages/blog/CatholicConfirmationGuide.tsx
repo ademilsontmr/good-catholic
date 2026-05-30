@@ -86,7 +86,7 @@ export default function CatholicConfirmationGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic Confirmation. Learn what Confirmation is, the seven gifts of the Holy Spirit, how to choose a sponsor and confirmation name, the rite, and how to prepare spiritually.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Confirmation completes Baptism — the bishop (or delegate) anoints with chrism and invokes the Holy Spirit for strength and mission. In the U.S. it often follows years of catechesis around ages 12–16; the confirmand chooses a saint name and sponsor.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">

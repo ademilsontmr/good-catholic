@@ -88,7 +88,7 @@ export default function WhyProtestantReformation() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Why did the Protestant Reformation happen? A Catholic perspective on Martin Luther, the 95 Theses, the Council of Trent, and how Catholics should view Protestants today.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Protestant Reformation (1517 onward) split Western Christianity over authority, justification, and sacraments — Luther, Calvin, and others rejected papal supremacy and several Catholic doctrines. The Catholic Church responded at Trent and continues ecumenical dialogue today.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

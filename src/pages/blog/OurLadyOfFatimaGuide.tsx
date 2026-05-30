@@ -87,7 +87,7 @@ export default function OurLadyOfFatimaGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the complete story of Fatima apparitions, the three secrets, the miracle of the sun, and why these messages matter for Catholics today. Learn about Lucia, Francisco, and Jacinta.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Our Lady of Fatima appeared to three children in Portugal in 1917 — calling for prayer, penance, and consecration to her Immaculate Heart. The Church approved the apparitions; the First Saturday devotion, Rosary, and reparation for sins are central Fatima messages.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">

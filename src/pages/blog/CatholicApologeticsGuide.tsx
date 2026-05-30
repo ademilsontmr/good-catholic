@@ -74,7 +74,7 @@ export default function CatholicApologeticsGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn Catholic apologetics — how to defend the Catholic faith with reason, Scripture, and history. Answers to the most common objections to Catholicism.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic apologetics defends and explains the faith with reason, Scripture, and Tradition — answering objections about the pope, Mary, saints, and sacraments. It aims at truth and charity, not winning arguments; the goal is to lead souls toward Christ in his Church.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-apologetics-guide">

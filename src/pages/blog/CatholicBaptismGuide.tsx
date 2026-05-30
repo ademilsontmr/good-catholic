@@ -86,7 +86,7 @@ export default function CatholicBaptismGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic Baptism. Learn the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic Baptism washes away original sin, initiates into Christ&apos;s death and resurrection, and makes one a member of the Church — infants or adults, with water and Trinitarian formula. Godparents must be practicing Catholics; Baptism is necessary for salvation and ordinarily received once.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-guide">

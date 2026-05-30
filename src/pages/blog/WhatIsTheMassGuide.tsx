@@ -87,7 +87,7 @@ export default function WhatIsTheMassGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is the Catholic Mass? Learn the two main parts of the Mass, what happens at each stage, what to do as a visitor, why Catholics go every Sunday, and the Real Presence of Christ.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Mass is the central act of worship — the Liturgy of the Word (Scripture and homily) and Liturgy of the Eucharist where bread and wine become Christ&apos;s Body and Blood. Sunday Mass fulfills the Third Commandment; the Mass re-presents Calvary in an unbloody sacrifice.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

@@ -86,7 +86,7 @@ export default function EucharisticMiraclesScience() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Explore the scientific evidence behind Eucharistic miracles like Lanciano, Buenos Aires, and Tixtla. Learn about blood types, DNA, and medical findings that defy natural explanation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Eucharistic miracles are reported cases where consecrated Hosts appear as human heart tissue or bleed — some scientifically examined with unexplained results. The Church investigates cautiously; faith rests on Christ&apos;s words at the Last Supper, not miracles alone.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-miracles-science">

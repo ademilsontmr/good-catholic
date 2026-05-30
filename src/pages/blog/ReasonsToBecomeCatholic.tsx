@@ -74,7 +74,7 @@ export default function ReasonsToBecomeCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Why are so many people becoming Catholic? 10 compelling reasons — from the Eucharist to the intellectual tradition to the Communion of Saints — that draw people to the Catholic Church.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">People become Catholic for the Eucharist and Real Presence, historical continuity with the apostles, moral clarity, beauty of liturgy, intellectual depth, or personal encounter with Christ in the Church. RCIA welcomes inquirers without pressure.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">

@@ -74,7 +74,7 @@ export default function SaintMichaelPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn the full text of the Prayer to Saint Michael, its history with Pope Leo XIII, why it was written, and how to use it for spiritual protection today.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Michael prayer (&quot;St. Michael the Archangel, defend us in battle...&quot;) asks protection against evil — composed by Pope Leo XIII after a vision. Catholics pray it after Mass in some parishes, during spiritual warfare, and on Michaelmas (September 29).</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

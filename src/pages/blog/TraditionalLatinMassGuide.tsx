@@ -69,7 +69,7 @@ export default function TraditionalLatinMassGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to know about the Traditional Latin Mass — how it differs from the Novus Ordo, how to follow it as a beginner, how to find a TLM near you, and why young Americans are drawn to it.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Traditional Latin Mass (Extraordinary Form) uses the 1962 Roman Missal — mostly Latin, priest facing the altar, Gregorian chant, and older rubrics. Pope Benedict XVI&apos;s Summorum Pontificum expanded access; Pope Francis&apos; Traditionis Custodes regulates its celebration.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Introduction: The TLM Revival in America</h2>

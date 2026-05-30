@@ -74,7 +74,7 @@ export default function MorningPrayerCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic morning prayer — full texts of Lauds, the Morning Offering, Psalm 63, and simple morning prayers for every Catholic. Start your day with God.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic morning prayer often includes the Sign of the Cross, Morning Offering, Angelus (or Regina Caeli in Easter), and brief Scripture — consecrating the day to God before work begins. Lauds from the Liturgy of the Hours is the Church&apos;s official morning prayer.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">

@@ -74,7 +74,7 @@ export default function RosaryForBeginners() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray the Rosary step by step. Complete beginner&apos;s guide with all prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Beginners start with one decade — one mystery, ten Hail Marys — or a single mystery set per day. Use a Rosary booklet, pray slowly, and focus on one scene from Christ&apos;s or Mary&apos;s life rather than rushing through all five decades.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

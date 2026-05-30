@@ -69,7 +69,7 @@ export default function HowToPrayRosaryComplete() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The most complete guide to praying the Rosary — every step, every prayer, all 20 mysteries explained, and tips for beginners and experienced pray-ers alike.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">To pray the Rosary: make the Sign of the Cross, Creed, Our Father, three Hail Marys, Glory Be; then five decades — each with one Our Father, ten Hail Marys, Glory Be, and optional Fatima Prayer — meditating on Joyful, Sorrowful, Glorious, or Luminous mysteries.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Rosary?</h2>

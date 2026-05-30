@@ -91,7 +91,7 @@ export default function HowToGoToConfessionGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic Confession — how to prepare, what to say, the Act of Contrition, what happens inside the confessional, and how to make a good confession after years away.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">To go to Confession: examine conscience, enter the confessional, say &quot;Bless me, Father, for I have sinned,&quot; confess all mortal sins with kind and number, receive penance, pray the Act of Contrition, and receive absolution. The seal is absolute — the priest may never reveal sins.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">

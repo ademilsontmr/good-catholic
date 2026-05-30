@@ -86,7 +86,7 @@ export default function SpiritualCommunion() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn what spiritual communion is, the traditional prayer of St. Alphonsus Liguori, when to make it, and its theological meaning for Catholics who cannot receive the Eucharist.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Spiritual Communion is a prayer expressing desire to receive Jesus in the Eucharist when unable to attend Mass — uniting heart to Christ present in the tabernacle. It does not replace Sunday obligation but nourishes love for the Real Presence.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">

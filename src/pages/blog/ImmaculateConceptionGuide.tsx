@@ -69,7 +69,7 @@ export default function ImmaculateConceptionGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is the Immaculate Conception? A complete Catholic guide — what the dogma teaches, its biblical basis, the 1854 definition, the Lourdes apparitions, and why it matters for every Catholic.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Immaculate Conception teaches Mary was preserved from original sin from the moment of her conception — not Jesus&apos; virginal conception. It is a dogma (1854); the U.S. patronal feast is December 8, a Holy Day of Obligation when not transferred.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Immaculate Conception?</h2>

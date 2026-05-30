@@ -87,7 +87,7 @@ export default function OurLadyOfLourdesGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the complete story of Our Lady of Lourdes apparitions to St. Bernadette.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Our Lady appeared to St. Bernadette at Lourdes, France in 1858 — identifying herself as the Immaculate Conception and calling for prayer and penance. Lourdes is a major pilgrimage site; the Church recognizes healings after prayer and bathing in the spring.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">

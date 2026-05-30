@@ -74,7 +74,7 @@ export default function AshWednesday2026() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Ash Wednesday 2026 falls on February 18. Everything you need to know — fasting and abstinence rules, what the ashes mean, Mass times, and how to begin Lent well.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Ash Wednesday 2026 is February 18 — it opens Lent with Mass, ashes on the forehead (&quot;Remember you are dust&quot;), and fasting (one full meal, two small) plus abstinence from meat for Catholics ages 18–59.</p>
               </div>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">

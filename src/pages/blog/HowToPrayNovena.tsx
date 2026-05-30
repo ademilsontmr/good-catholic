@@ -69,7 +69,7 @@ export default function HowToPrayNovena() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Step-by-step guide to praying a novena — what a novena is, how to choose one, the nine days of prayer, and the most popular novenas in the Catholic tradition.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">To pray a novena: choose intention and saint or prayer, set nine consecutive days, pray the same formula daily with focus and persistence, and attend Mass or receive Communion if possible on the final day. Novenas express trust; they do not force God&apos;s will.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

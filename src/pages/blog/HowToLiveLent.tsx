@@ -73,7 +73,7 @@ export default function HowToLiveLent() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover how to make the most of Lent through prayer, fasting, and almsgiving. Practical tips for a transformative Lenten season that bears lasting spiritual fruit.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Live Lent through prayer, fasting, and almsgiving — Ash Wednesday and Good Friday are days of fast and abstinence; all Fridays abstain from meat. Add daily Gospel reading, Confession, Stations of the Cross, and generosity to the poor.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">

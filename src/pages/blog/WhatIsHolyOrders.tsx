@@ -69,7 +69,7 @@ export default function WhatIsHolyOrders() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is the Sacrament of Holy Orders? Learn about the three degrees — bishop, priest, and deacon — the rite of ordination, and why priests are celibate.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Holy Orders is the sacrament by which bishops, priests, and deacons are ordained to serve the Church — configuring them to Christ the Head and Shepherd. Only baptized men may be validly ordained priests in the Latin Church; ordination imprints an indelible character.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">

@@ -69,7 +69,7 @@ export default function WhatIsCatholicFaith() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete introduction to the Catholic faith — what Catholics believe, the seven sacraments, Mary and the saints, the Pope, and how to begin exploring Catholicism.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic faith is assent to God&apos;s revelation in Christ, preserved in Scripture and Tradition and taught by the Magisterium — lived through sacraments, moral life, and prayer. It is relational trust in Jesus and obedience to the Church he founded, not mere intellectual agreement.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">

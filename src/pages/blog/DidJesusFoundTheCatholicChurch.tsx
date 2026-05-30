@@ -69,7 +69,7 @@ export default function DidJesusFoundTheCatholicChurch() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Did Jesus found the Catholic Church? Explore the biblical evidence — Matthew 16:18, the keys of the Kingdom, apostolic succession — and the historical continuity of the Church.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics believe Jesus founded one Church on Peter (Matthew 16:18–19) — apostolic succession, the Eucharist, and bishops trace to the apostles. Historical continuity, unified doctrine, and sacramental life support the claim that the Catholic Church is that original Church fully present today.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">

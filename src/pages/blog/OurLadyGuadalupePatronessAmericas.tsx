@@ -74,7 +74,7 @@ export default function OurLadyGuadalupePatronessAmericas() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Our Lady of Guadalupe — the 1531 apparitions to Juan Diego, the miraculous tilma, her role as Patroness of the Americas, and the feast day of December 12.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Our Lady of Guadalupe appeared to St. Juan Diego in Mexico in 1531 — her image on his tilma is venerated as miraculous and she is Patroness of the Americas and Protectress of the Unborn. Catholics celebrate her feast on December 12 with Mass, roses, and pilgrimages to the Basilica in Mexico City.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">

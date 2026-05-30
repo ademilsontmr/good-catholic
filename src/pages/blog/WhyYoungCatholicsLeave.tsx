@@ -69,7 +69,7 @@ export default function WhyYoungCatholicsLeave() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Why are young Catholics leaving the Church? The real reasons — and what the Church offers those who are searching, doubting, or have drifted away.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Young Catholics often leave over perceived irrelevance, scandal, moral disagreements, or weak catechesis — not always rejection of Christ. The Church responds through authentic community, beauty in liturgy, clear teaching, and mentors who show faith as a living relationship with Jesus.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">

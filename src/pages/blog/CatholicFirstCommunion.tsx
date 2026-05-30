@@ -69,7 +69,7 @@ export default function CatholicFirstCommunion() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to know about Catholic First Communion — what it is, the age for First Communion, how to prepare your child, what happens at the Mass, and how to celebrate.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">First Communion is a Catholic child&apos;s first reception of the Eucharist — the Body and Blood of Christ — after First Confession and catechesis, usually around age seven or eight. It requires belief in the Real Presence and a state of grace.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">

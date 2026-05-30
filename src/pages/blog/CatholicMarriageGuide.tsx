@@ -86,7 +86,7 @@ export default function CatholicMarriageGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic marriage. Learn about marriage as a sacrament, unity and indissolubility, marriage preparation, natural family planning, annulment vs divorce, and mixed marriages.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic marriage is a sacrament — lifelong covenant between baptized man and woman, open to life, witnessed by the Church. Valid marriage is indissoluble; preparation includes Pre-Cana, natural family planning instruction, and freedom from prior bonds.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">

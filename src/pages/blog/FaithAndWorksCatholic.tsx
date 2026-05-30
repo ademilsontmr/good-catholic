@@ -69,7 +69,7 @@ export default function FaithAndWorksCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Are Catholics saved by works? Learn the Catholic teaching on faith, works, and salvation — what James 2 really means, what Luther got right and wrong, and how grace and merit relate.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics teach we are saved by grace through faith — but faith that works in love (Galatians 5:6). Good works do not earn salvation; they flow from sanctifying grace and must be present in a living faith, as James 2 and Catholic tradition affirm.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

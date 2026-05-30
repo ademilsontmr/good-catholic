@@ -99,7 +99,7 @@ export default function ExaminationOfConscienceGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">An examination of conscience reviews thoughts, words, and deeds against the Ten Commandments and virtues before Confession — asking where you failed to love God and neighbor. Catholic guides often use commandment lists, Beatitudes, or vocation-specific questions for married, single, or youth.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">

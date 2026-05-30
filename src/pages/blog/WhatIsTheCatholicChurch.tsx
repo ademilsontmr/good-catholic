@@ -74,7 +74,7 @@ export default function WhatIsTheCatholicChurch() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is the Catholic Church? A complete guide to its founding by Jesus Christ, 2,000-year history, structure, the Pope, sacraments, and global mission.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church is the community founded by Christ, headed by the pope as successor of Peter, united in faith, sacraments, and governance — the &quot;one, holy, catholic, and apostolic&quot; Church of the Creed, visibly continuing apostolic teaching worldwide.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

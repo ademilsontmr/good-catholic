@@ -69,7 +69,7 @@ export default function WhatIsTheBibleCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How many books are in the Catholic Bible? What does biblical inspiration mean?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">For Catholics the Bible is inspired Scripture within Sacred Tradition — interpreted authoritatively by the Magisterium, not private opinion alone. The Church defined the canon; lectio divina and liturgical proclamation are primary ways Catholics encounter the Word.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">

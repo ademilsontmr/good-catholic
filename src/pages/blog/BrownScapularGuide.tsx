@@ -87,7 +87,7 @@ export default function BrownScapularGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep history of the Brown Scapular. From St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Brown Scapular of Our Lady of Mount Carmel is a sacramental — two wool cloths worn over the shoulders, signifying devotion to Mary and her protection. Enrollment by a priest includes promises of prayer; the Sabbatine privilege requires chastity and daily prayer.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

@@ -74,7 +74,7 @@ export default function StAnthonyPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Prayers to St. Anthony of Padua — patron of lost things.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Anthony prayer for lost things — &quot;St. Anthony, St. Anthony, please come around; something is lost and cannot be found&quot; — asks the patron of lost items for help finding objects or spiritual direction. Anthony was a Franciscan preacher and Doctor of the Church.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">

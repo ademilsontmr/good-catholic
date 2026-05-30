@@ -89,7 +89,7 @@ export default function HowToDoHolyHour() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to do a Holy Hour of Eucharistic Adoration. Discover what to pray, how to structure your time, and why spending an hour with Jesus transforms your life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Holy Hour is an hour (or shorter period) of prayer before the Blessed Sacrament — adoration, Scripture, Rosary, silence, and intercession. Catholics may make a Holy Hour at home with a crucifix or at church during Eucharistic exposition.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">

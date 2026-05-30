@@ -69,7 +69,7 @@ export default function WhatIsCatholicSpirituality() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Catholic spirituality is not one-size-fits-all. Discover the great spiritual traditions — Benedictine, Franciscan, Dominican, Ignatian, Carmelite — and find the one that fits your soul.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic spirituality is the lived relationship with God through prayer, sacraments, virtue, and devotion — shaped by liturgy, saints, and one&apos;s vocation. It includes Rosary, adoration, lectio divina, and works of mercy, always ordered to holiness in communion with the Church.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-catholic-spirituality">

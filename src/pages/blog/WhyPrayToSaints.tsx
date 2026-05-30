@@ -87,7 +87,7 @@ export default function WhyPrayToSaints() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the biblical and historical reasons Catholics ask saints for intercession. Learn about the Communion of Saints, Relics, and the One Mediator.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics pray to saints to ask their intercession — like asking a friend to pray for you, not worshipping them. Revelation 5:8 shows saints offering prayers; Mary and the saints are alive in Christ and closer to God than we are on earth.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

@@ -87,7 +87,7 @@ export default function LentPreparationGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Prepare for Lent with this complete guide. Learn how to choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Prepare for Lent by planning prayer (daily Gospel, Stations), fasting (beyond minimum rules), and almsgiving — clearing distractions and scheduling Confession. Catholics choose one serious penance and one work of mercy to sustain forty days.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">

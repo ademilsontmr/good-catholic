@@ -74,7 +74,7 @@ export default function StJudePrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The most powerful prayers to St. Jude Thaddeus — patron of impossible cases.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Jude prayer invokes the patron of hopeless causes — &quot;St. Jude, apostle and martyr, pray for us who have recourse to thee&quot; — for desperate situations when human help fails. Jude was a cousin of Jesus and author of the New Testament epistle.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
