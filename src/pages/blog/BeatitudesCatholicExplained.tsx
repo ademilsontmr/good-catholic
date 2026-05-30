@@ -47,13 +47,17 @@ export default function BeatitudesCatholicExplained() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Catholic Doctrine</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />18 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">What Are the Beatitudes? Catholic Meaning of All 8 (Matthew 5)</h1>
               <p className="text-xl text-text-muted leading-relaxed">In the Sermon on the Mount, Jesus names eight ways of being that open the kingdom of heaven. Catholics hear the Beatitudes at Mass, in RCIA, and in every call to discipleship.</p>
             </header>
             <div className="aspect-video bg-emerald-100 rounded-2xl flex items-center justify-center mb-10"><Mountain className="w-24 h-24 text-emerald-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Beatitudes are eight blessings Jesus proclaimed in the Sermon on the Mount (Matthew 5:3–10). Catholics understand them as a portrait of Christ and of the Christian life — attitudes shaped by grace that open the soul to the kingdom of heaven.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Eight Beatitudes (Matthew 5:3–10)</h2>
               <ol className="list-decimal list-inside text-text space-y-4 mb-8">
                 <li><strong>Blessed are the poor in spirit</strong>, for theirs is the kingdom of heaven.</li>
@@ -65,16 +69,43 @@ export default function BeatitudesCatholicExplained() {
                 <li><strong>Blessed are the peacemakers</strong>, for they will be called children of God.</li>
                 <li><strong>Blessed are they who are persecuted for the sake of righteousness</strong>, for theirs is the kingdom of heaven.</li>
               </ol>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beatitudes-catholic-explained">The Beatitudes are not a checklist of feelings but a portrait of Christ — and of the Christian life shaped by grace. The Catechism teaches that they "express the vocation of the faithful associated with the glory of his Passion and Resurrection" (CCC 1717).</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Each Beatitude Explained (Catholic Reading)</h2>
+              <p className="text-text leading-relaxed mb-4"><strong>1. Poor in spirit</strong> — Spiritual poverty: knowing you need God. Not mere material poverty, though solidarity with the poor flows from this beatitude. The Catechism links it to humility and detachment (CCC 2546).</p>
+              <p className="text-text leading-relaxed mb-4"><strong>2. They who mourn</strong> — Grief over sin and the suffering of the world, not self-pity. God comforts those who weep with hope in the resurrection.</p>
+              <p className="text-text leading-relaxed mb-4"><strong>3. The meek</strong> — Strength under control; gentleness rooted in trust in God&apos;s providence. Moses was called the meekest man on earth (Numbers 12:3).</p>
+              <p className="text-text leading-relaxed mb-4"><strong>4. Hunger and thirst for righteousness</strong> — Passion for justice and holiness — personal and social. Saints who fought slavery and abortion embodied this hunger.</p>
+              <p className="text-text leading-relaxed mb-4"><strong>5. The merciful</strong> — Forgiving as you have been forgiven. Mercy is not weakness; it is the heart of the Gospel (Matthew 18:21–35).</p>
+              <p className="text-text leading-relaxed mb-4"><strong>6. Clean of heart</strong> — Purity of intention and body; single-hearted love of God. &quot;Blessed are the pure in heart, for they shall see God&quot; (Matthew 5:8).</p>
+              <p className="text-text leading-relaxed mb-4"><strong>7. Peacemakers</strong> — Building reconciliation, not avoiding conflict at any cost. Christ is our peace (Ephesians 2:14); peacemakers share his work.</p>
+              <p className="text-text leading-relaxed mb-6"><strong>8. Persecuted for righteousness</strong> — Suffering for faith and moral truth. The American martyrs and modern Christians facing job loss or ridicule for the Gospel live this beatitude.</p>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beatitudes-catholic-explained">The Beatitudes are not a checklist of feelings but a portrait of Christ — and of the Christian life shaped by grace. The Catechism teaches that they &quot;express the vocation of the faithful associated with the glory of his Passion and Resurrection&quot; (CCC 1717).</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Beatitudes vs. Woes (Luke 6)</h2>
+              <p className="text-text leading-relaxed mb-6">Luke 6:20–26 presents four blessings and four &quot;woes&quot; (to the rich, the full, the laughing, the praised). Matthew&apos;s version on the mount emphasizes the new law of the kingdom. Catholic exegesis reads both as complementary: Luke sharpens social contrast; Matthew teaches the beatitudes as the heart of discipleship. Neither contradicts Church teaching on wealth — the issue is where the heart rests.</p>
+
               <QuizCTA title="How is your discipleship going?" description="Take the Catholic life assessment for a personalized guide to Scripture, virtue, and daily prayer." />
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Living the Beatitudes in North America Today</h2>
-              <p className="text-text leading-relaxed mb-6">Poor in spirit means trusting God more than status or self-sufficiency. Peacemakers reject both violence and cynical division. Clean of heart pursue purity in a culture that often treats the body as a commodity. Each Beatitude challenges American defaults — but also reveals the happiness the Gospel actually promises.</p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Poor in spirit</strong> — Begin the day with &quot;Without me you can do nothing&quot; (John 15:5) instead of scrolling for validation.</li>
+                <li><strong>Meek</strong> — Respond to online outrage with facts and charity rather than matching contempt.</li>
+                <li><strong>Merciful</strong> — Go to Confession regularly; forgive debts and grudges in family life.</li>
+                <li><strong>Clean of heart</strong> — Use filters and accountability for media; pursue purity as freedom, not repression.</li>
+                <li><strong>Peacemakers</strong> — Mediate in parish conflicts; support Catholic refugee and prison ministries.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Hear the Beatitudes</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beatitudes-catholic-explained">All Saints Day, funerals of the faithful, RCIA sessions, and Confirmation preparation regularly feature Matthew 5. Many U.S. dioceses use the Beatitudes as a framework for social teaching — linking hunger for righteousness to care for immigrants, the unborn, and the poor. Memorizing all eight is a traditional Catholic school exercise still worth doing as an adult.</LinkedText>
             </div>
             <BlogFAQ faqs={[
               { question: "Where are the Beatitudes in the Bible?", answer: "They are in Matthew 5:3–10, at the beginning of the Sermon on the Mount. Luke 6:20–26 presents a similar list with some differences (the 'Woes')." },
               { question: "Are the Beatitudes commandments?", answer: "They are blessings that describe attitudes and actions flowing from grace. They reveal the new law of the kingdom and the perfection of the Ten Commandments." },
               { question: "When do Catholics hear the Beatitudes?", answer: "They appear in the Lectionary, especially on All Saints Day and related feasts, and are studied in RCIA, Confirmation prep, and Bible study." },
               { question: "What does poor in spirit mean?", answer: "It is not poverty alone but spiritual humility — recognizing that we need God for everything and cannot save ourselves." },
+              { question: "How many Beatitudes are there?", answer: "Matthew lists eight. Some traditions also note a ninth beatitude in Matthew 5:11–12 about persecution for Jesus' name." },
+              { question: "Did Jesus live the Beatitudes?", answer: "Yes. The Church teaches that Jesus is the perfect embodiment of every beatitude — meek, merciful, pure of heart, and persecuted for righteousness." },
             ]} />
             <RelatedArticles currentSlug="beatitudes-catholic-explained" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

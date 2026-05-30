@@ -47,30 +47,53 @@ export default function PalmSundayCatholicGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy & Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />11 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />16 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Palm Sunday Catholic Guide: Mass, Palms & Holy Week Start (USA)</h1>
               <p className="text-xl text-text-muted leading-relaxed">Palm Sunday opens Holy Week with joy and solemnity — crowds welcome Christ the King, then the Passion is proclaimed. Here is what American Catholics experience at Mass and at home.</p>
             </header>
             <div className="aspect-video bg-green-100 rounded-2xl flex items-center justify-center mb-10"><TreePine className="w-24 h-24 text-green-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Palm Sunday opens Holy Week with the blessing of palms, a procession, and the proclamation of the Passion. It falls on the Sunday before Easter; in 2026 it is March 29. U.S. Catholics must attend Mass as on every Sunday.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Happens at Palm Sunday Mass</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li>Blessing of palms (or other branches) outside or at the church entrance.</li>
-                <li>Procession commemorating Christ's entry into Jerusalem.</li>
-                <li>Reading of the Passion narrative — often with parts for the congregation.</li>
-                <li>Sunday Mass with red vestments symbolizing the Lord's Passion.</li>
+                <li><strong>Blessing of palms</strong> (or other branches) — often at a separate altar outside or at the church entrance, with the priest sprinkling holy water.</li>
+                <li><strong>Procession</strong> commemorating Christ&apos;s entry into Jerusalem while the congregation holds palms and sings &quot;Hosanna.&quot;</li>
+                <li><strong>Reading of the Passion</strong> — the full narrative from Matthew, Mark, or Luke (year A, B, or C in the lectionary), often with parts for priest, narrator, and congregation shouting &quot;Crucify him.&quot;</li>
+                <li><strong>Sunday Mass</strong> with red vestments symbolizing the Lord&apos;s Passion and the blood of martyrs.</li>
               </ul>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Palm Sunday is a Holy Day of Obligation in the sense that it is a Sunday — Catholics in the United States are bound to attend Mass as on every Lord's Day.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Palms? Biblical Meaning</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">John 12:13 describes crowds taking palm branches to meet Jesus, crying &quot;Hosanna! Blessed is he who comes in the name of the Lord.&quot; Palms symbolized victory and royalty in the ancient world — yet Jesus rode a donkey, revealing a kingship of peace. The liturgy holds joy and sorrow together: we welcome the King and within minutes hear how the crowd turns. That tension prepares American Catholics for the Triduum — Mass of the Lord&apos;s Supper, Good Friday, and Easter Vigil.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Holy Week Schedule (Typical U.S. Parish)</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Palm Sunday</strong> — Passion Sunday; Mass obligatory.</li>
+                <li><strong>Holy Thursday</strong> — Evening Mass of the Lord&apos;s Supper; adoration after (no daily Mass Friday in the usual form).</li>
+                <li><strong>Good Friday</strong> — Passion service (not a Mass); veneration of the Cross.</li>
+                <li><strong>Holy Saturday</strong> — Easter Vigil after dark; baptisms and Confirmations common.</li>
+                <li><strong>Easter Sunday</strong> — The greatest feast; Mass obligatory.</li>
+              </ul>
+
               <QuizCTA title="Prepare for Holy Week" description="Take the Catholic life assessment for guidance on Lent, Easter, and parish life." />
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What to Do with Blessed Palms at Home</h2>
-              <p className="text-text leading-relaxed mb-6">Place palms behind a crucifix or sacred image, tuck them in a Bible, or weave simple crosses as many Catholic families do. Old palms should be returned to the parish for burning before Ash Wednesday — never throw blessed palms in the trash.</p>
+              <p className="text-text leading-relaxed mb-4">Place palms behind a crucifix or sacred image, tuck them in a Bible, or weave simple crosses as many Catholic families do — a craft taught in Catholic schools from Chicago to Miami. Because the palms are blessed, treat them as sacramentals: with reverence, not as disposable décor.</p>
+              <p className="text-text leading-relaxed mb-6">Old palms should be returned to the parish for burning before Ash Wednesday — the ashes for the next Lent often come partly from burned palms. Never throw blessed palms in the trash. If you cannot return them, burn them respectfully yourself and bury the ashes.</p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Tips for Families with Children</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Arrive early — Palm Sunday is among the best-attended Masses of the year. Explain the Passion reading beforehand so children are not frightened without context. Many parishes distribute palms at the door; hold them during the Gospel but fold hands during Consecration. After Mass, place one palm in each child&apos;s room as a reminder that Holy Week is beginning.</LinkedText>
             </div>
             <BlogFAQ faqs={[
               { question: "Is Palm Sunday a Holy Day of Obligation?", answer: "Every Sunday is a day of obligation. Palm Sunday is the Sunday before Easter and requires Mass attendance like any other Sunday." },
               { question: "Why do we use palms?", answer: "Palms recall the crowds who spread branches before Jesus entering Jerusalem, hailing him as Messiah and King." },
               { question: "Can I keep palms from year to year?", answer: "You may keep them as a sacramental in the home. When replacing them, return old palms to the church for respectful burning." },
               { question: "When is Palm Sunday 2026?", answer: "In 2026, Palm Sunday falls on March 29. The date moves each year because it depends on the date of Easter." },
+              { question: "What color do priests wear on Palm Sunday?", answer: "Red — the color of the Passion and of martyrs, used because the Passion Gospel is proclaimed." },
+              { question: "Can I receive Communion on Palm Sunday?", answer: "Yes, if you are in a state of grace after Confession if needed. Palm Sunday is a full Mass with Eucharist." },
             ]} />
             <RelatedArticles currentSlug="palm-sunday-catholic-guide" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
