@@ -30,6 +30,18 @@ const trimMetaDescription = (description: string) => {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1334,
+    slug: "national-eucharistic-revival-complete-guide-2026",
+    title: "National Eucharistic Revival: Complete Guide for Catholics in 2026",
+    excerpt: "What was the U.S. National Eucharistic Revival, what changed, and how Catholics live Eucharistic faith today — adoration, processions, Real Presence, and practical next steps.",
+    date: "2026-05-31",
+    readTime: "22 min",
+    category: "Liturgy & Worship",
+    icon: Sparkles,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-600"
+  },
+  {
     id: 1333,
     slug: "list-of-all-popes-catholic-complete-guide",
     title: "List of All Popes: Complete Guide from St. Peter to Pope Leo XIV",

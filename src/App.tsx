@@ -505,6 +505,7 @@ const ActOfSpiritualCommunionCatholic = lazy(() => import("./pages/blog/ActOfSpi
 const StExpediteNovenaGuide = lazy(() => import("./pages/blog/StExpediteNovenaGuide"));
 const PrayerBeforeCrucifixCatholic = lazy(() => import("./pages/blog/PrayerBeforeCrucifixCatholic"));
 const CorpusChristiFeastGuideCatholic = lazy(() => import("./pages/blog/CorpusChristiFeastGuideCatholic"));
+const NationalEucharisticRevivalGuide2026 = lazy(() => import("./pages/blog/NationalEucharisticRevivalGuide2026"));
 const SacredHeartDevotionCompleteGuide = lazy(() => import("./pages/blog/SacredHeartDevotionCompleteGuide"));
 const SaintsPeterAndPaulFeastGuide = lazy(() => import("./pages/blog/SaintsPeterAndPaulFeastGuide"));
 const CatholicSummerMassScheduleGuide = lazy(() => import("./pages/blog/CatholicSummerMassScheduleGuide"));
@@ -859,6 +860,7 @@ export function AppRoutes() {
             <Route path="/blog/act-of-spiritual-communion-catholic/" element={<ActOfSpiritualCommunionCatholic />} />
             <Route path="/blog/st-expedite-novena-guide/" element={<StExpediteNovenaGuide />} />
             <Route path="/blog/prayer-before-crucifix-catholic/" element={<PrayerBeforeCrucifixCatholic />} />
+            <Route path="/blog/national-eucharistic-revival-complete-guide-2026/" element={<NationalEucharisticRevivalGuide2026 />} />
             <Route path="/blog/corpus-christi-feast-guide-catholic/" element={<CorpusChristiFeastGuideCatholic />} />
             <Route path="/blog/sacred-heart-devotion-complete-guide/" element={<SacredHeartDevotionCompleteGuide />} />
             <Route path="/blog/saints-peter-and-paul-feast-guide/" element={<SaintsPeterAndPaulFeastGuide />} />
