@@ -45,38 +45,58 @@ export default function NovenaForClarityCatholic() {
             <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8"><ArrowLeft className="w-4 h-4" />Back to Blog</Link>
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
-                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer & Devotion</span>
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />7 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Novena for Clarity: 9-Day Catholic Prayer When You Need Direction</h1>
-              <p className="text-xl text-text-muted leading-relaxed">When a decision feels heavy and the path ahead is unclear, many Catholics pray a nine-day novena asking the Holy Spirit for clarity, peace, and right judgment.</p>
+              <p className="text-xl text-text-muted leading-relaxed">Pray the Novena for Clarity over 9 days — full Catholic prayer text, when to start, and how to ask God for direction in decisions, work, and relationships.</p>
             </header>
             <div className="aspect-video bg-sky-100 rounded-2xl flex items-center justify-center mb-10"><Compass className="w-24 h-24 text-sky-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-clarity-catholic">A novena is nine days of sustained prayer — imitating the apostles waiting for the Spirit. Clarity rarely means God removes every crossroad; it means you gain the light to choose faithfully.</LinkedText>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray This Novena</h2>
-              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
-                <li>Name your intention (job, relationship, vocation, health decision).</li>
-                <li>Pray each day for nine consecutive days at the same time if possible.</li>
-                <li>Begin with the Sign of the Cross; end with Glory Be and a brief silence.</li>
-                <li>Combine with Confession and Sunday Mass if the decision is serious.</li>
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A novena for clarity is nine days of prayer to the Holy Spirit for light in decisions — jobs, relationships, vocation, or health choices. Catholics pray daily, often with Confession and Mass, trusting clarity means knowing God&apos;s will rather than getting the answer they prefer.</p>
+              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-clarity-catholic">Catholics seek clarity from the Holy Spirit — the Spirit of wisdom and truth promised at Pentecost. Mary, Seat of Wisdom, and Saint Joseph (patron of workers and fathers) are often added for practical decisions. Discernment is a hallmark of Ignatian spirituality taught in U.S. colleges and parishes.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-clarity-catholic">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-clarity-catholic">Major decisions paralyze when every option seems equally risky. Nine days creates space to listen — journaling, spiritual direction, and silence — instead of reacting from fear. Clarity may confirm a hard path you did not want but can accept in peace.</LinkedText>
+
+              <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
+              <ol className="list-decimal list-inside text-text space-y-4 mb-6">
+                <li>Name the decision on day one.</li>
+                <li>Pray at the same time daily for nine days.</li>
+                <li>Attend Mass and Confession if the choice is grave.</li>
+                <li>Journal insights without forcing instant answers.</li>
+                <li>Consult a priest or spiritual director for vocation or marriage decisions.</li>
               </ol>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer for Clarity</h3>
-                <p className="text-text italic leading-relaxed text-sm">Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Send forth your Spirit and they shall be created, and you shall renew the face of the earth. O God, who taught the hearts of the faithful by the light of the Holy Spirit, grant that by the same Spirit I may be truly wise and ever rejoice in his consolation. Through Christ our Lord. Amen.</p>
-                <p className="text-text italic leading-relaxed text-sm mt-4">Lord, I ask for clarity about [your intention]. Give me a mind enlightened by faith, a heart docile to your will, and the courage to follow where you lead — even when the path is not what I expected. Mary, Seat of Wisdom, pray for me. Amen.</p>
+                <p className="text-text italic leading-relaxed text-sm">Come, Holy Spirit, fill the hearts of your faithful. Send forth your Spirit and renew the face of the earth. O God, who taught the hearts of the faithful by the light of the Holy Spirit, grant that I may be truly wise about [your intention]. Give a mind enlightened by faith and courage to follow where you lead. Mary, Seat of Wisdom, pray for me. Amen.</p>
               </div>
-              <QuizCTA title="Need help with discernment?" description="Take the Catholic life assessment for practical guidance on prayer and vocational decisions." />
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-clarity-catholic">Pair this novena with the Holy Spirit prayer for decisions. For anxiety about the outcome, see our novena for anxiety. Trust that God speaks through peace, not only through signs.</LinkedText>
             </div>
             <BlogFAQ faqs={[
-              { question: "How long is a novena for clarity?", answer: "Nine consecutive days. Some people extend the same intention with a second novena, but the classic form is nine days." },
-              { question: "Which saint is best for clarity?", answer: "Many pray to the Holy Spirit, Saint Joseph (for practical decisions), or Mary, Seat of Wisdom. This novena invokes the Holy Spirit directly." },
-              { question: "Can I start a novena on any day?", answer: "Yes. You do not need to wait for a feast day, though some begin before Pentecost or a major decision deadline." },
-              { question: "Is clarity the same as getting the answer I want?", answer: "No. Clarity is knowing God's will and having peace to accept it, which may differ from your first preference." },
+              { question: "How long is a novena for clarity?", answer: "Nine consecutive days; some extend with a second novena if needed." },
+              { question: "Which saint helps with clarity?", answer: "The Holy Spirit first; also Saint Joseph, Saint Thomas Aquinas, and Mary, Seat of Wisdom." },
+              { question: "Can I start any day?", answer: "Yes — Pentecost season is popular but not required." },
+              { question: "Is clarity getting what I want?", answer: "No — clarity is knowing God&apos;s will and peace to accept it." },
+              { question: "Should I use spiritual direction?", answer: "Recommended for vocation, marriage, or major career changes." },
+              { question: "Can I pray with my spouse?", answer: "Yes — couples facing decisions often pray the same novena together." },
             ]} />
             <RelatedArticles currentSlug="novena-for-clarity-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">How Deep Is Your Catholic Faith?</h3>
+              <p className="text-text-muted mb-6">Take our assessment and receive a personalized guide to Catholic prayer and devotion.</p>
               <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
             </div>
           </div>

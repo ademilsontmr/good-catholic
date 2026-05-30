@@ -15,17 +15,17 @@ export default function NovenaForExamsCatholic() {
     <>
       <Helmet>
         <title>Novena for Exams: 9-Day Catholic Prayer Before a Test | Guide Catholic</title>
-        <meta name="description" content="Novena for exams — 9-day Catholic prayer before tests, finals, boards, and licensing exams. Full prayer text and step-by-step guide for students." />
-        <meta name="keywords" content="novena for exams, catholic prayer before test, novena for students, prayer before final exam" />
+        <meta name="description" content="Novena for exams — 9-day Catholic prayer before tests, finals, boards, and school challenges. Full prayer text, step-by-step guide, and FAQs." />
+        <meta name="keywords" content="novena for exams, catholic prayer before test, novena for students" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-exams-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Novena for Exams: 9-Day Catholic Prayer Before a Test" description="Novena for exams — 9-day Catholic prayer before tests, finals, boards, and licensing exams. Full prayer text and step-by-step guide for students." url="https://guidecatholic.com/blog/novena-for-exams-catholic/" datePublished="2026-05-30" />
+      <ArticleSchema title="Novena for Exams: 9-Day Catholic Prayer Before a Test" description="Novena for exams — 9-day Catholic prayer before tests, finals, boards, and school challenges. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-exams-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
-          { name: "Novena for Exams", url: "https://guidecatholic.com/blog/novena-for-exams-catholic/" },
+          { name: "Novena for Exams: 9-Day Catholic Prayer...", url: "https://guidecatholic.com/blog/novena-for-exams-catholic/" },
         ]}
       />
 
@@ -36,7 +36,7 @@ export default function NovenaForExamsCatholic() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link><span>/</span>
               <Link to="/blog" className="hover:text-accent">Blog</Link><span>/</span>
-              <span className="text-text">Novena for Exams</span>
+              <span className="text-text">Novena for Exams: 9-Day Catholic Prayer...</span>
             </nav>
           </div>
         </div>
@@ -47,82 +47,56 @@ export default function NovenaForExamsCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />8 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Novena for Exams: 9-Day Catholic Prayer Before a Test</h1>
-              <p className="text-xl text-text-muted leading-relaxed">Students and parents across America pray this novena before finals, SATs, bar exams, nursing boards, and licensing tests. This guide explains how to prepare spiritually while studying diligently.</p>
+              <p className="text-xl text-text-muted leading-relaxed">Novena for exams — 9-day Catholic prayer before tests, finals, boards, and school challenges.</p>
             </header>
             <div className="aspect-video bg-indigo-100 rounded-2xl flex items-center justify-center mb-10"><GraduationCap className="w-24 h-24 text-indigo-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Students and parents across America pray this novena before finals, licensing exams, and major tests. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+              </div>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To Before Exams?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-exams-catholic">
-                Catholic students traditionally invoke the Holy Spirit — Spirit of wisdom and understanding — along with Saint Thomas Aquinas, Doctor of the Church and patron of students and universities, and Saint Joseph of Cupertino, known for miraculous assistance during examinations. Saint Catherine of Bologna and Saint Gemma Galgani are also prayed to by students. In the United States, Catholic school students have prayed before tests for generations, often beginning with the Sign of the Cross and a quick invocation to their patron saint. This novena brings that tradition into a structured nine-day preparation.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-exams-catholic">Students and parents across America pray this novena before finals, licensing exams, and major tests. Catholics across the United States pray this novena in parishes, homes, and online prayer groups, trusting in God&apos;s mercy and the intercession of the saints.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-exams-catholic">
-                A novena is a nine-day prayer based on the apostles&apos; nine days of prayer before Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Starting a novena nine days before an exam aligns your study period with sustained prayer — each day you study and each day you pray, entrusting your effort to God. A novena is not a shortcut around studying; it is spiritual preparation alongside academic work.
-              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-exams-catholic">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray a Novena Before Exams?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-exams-catholic">
-                Test anxiety affects students from elementary school through professional licensing exams. A novena calms the mind, focuses intention, and reminds you that your worth is not defined by a single score. Parents pray this novena for children facing college entrance exams; nursing students pray before the NCLEX; law graduates pray before the bar. The goal is not only to pass, but to do your best with a peaceful heart — and to accept the outcome with trust in God&apos;s plan for your vocation.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-exams-catholic">Nine days of sustained prayer imitate the apostles waiting for Pentecost (Acts 1:14). Unlike a single hurried prayer, a novena builds trust and discipline — especially when the need is urgent or long-standing. The Church encourages novenas as persevering prayer, not as magic.</LinkedText>
 
-              <QuizCTA
-                title="How deep is your Catholic faith?"
-                description="Take our assessment and receive a personalized guide to growing in your prayer life and discernment about school and career."
-              />
+              <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray the Novena for Exams — Step by Step</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
               <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li>
-                  <strong>Name the exam on day one.</strong> Specify the test — final exam in Biology, SAT, CPA exam, or medical boards — and the date.
-                </li>
-                <li>
-                  <strong>Start nine days before the test.</strong> If the exam is sooner, begin immediately and pray each day until the test day, then offer a prayer of thanksgiving afterward.
-                </li>
-                <li>
-                  <strong>Pray and study each day.</strong> Dedicate time to both prayer and preparation. The novena supports your effort; it does not replace flashcards, practice tests, or review sessions.
-                </li>
-                <li>
-                  <strong>Pray at a consistent time.</strong> Many students pray before their study session — asking the Holy Spirit to illuminate what they read.
-                </li>
-                <li>
-                  <strong>Offer the result to God.</strong> Ask to do your best and to accept the outcome, whether pass or fail, as part of God&apos;s plan for your life.
-                </li>
+                <li>Name your intention clearly on day one.</li>
+                <li>Choose the same time each day for nine consecutive days.</li>
+                <li>Begin with the Sign of the Cross; end with Glory Be if you wish.</li>
+                <li><strong>Combine prayer with practical steps</strong> — medical, legal, financial, or family action.</li>
+                <li>Offer thanks when you receive grace, even if the answer differs from your first hope.</li>
               </ol>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer for Exams</h3>
-                <p className="text-text italic leading-relaxed text-sm">
-                  Come, Holy Spirit, fill the hearts of your faithful and kindle in them the fire of your love. Send forth your Spirit and they shall be created, and you shall renew the face of the earth.
-                </p>
-                <p className="text-text italic leading-relaxed text-sm mt-4">
-                  Holy Spirit, Spirit of wisdom and understanding, guide my study and calm my mind. Help me recall what I have learned, think clearly under pressure, and perform to the best of my ability on [exam name] on [date]. Remove excessive anxiety and replace it with focused confidence.
-                </p>
-                <p className="text-text italic leading-relaxed text-sm mt-4">
-                  Saint Thomas Aquinas, patron of students, pray for me. Saint Joseph of Cupertino, who received heavenly assistance, intercede for me. Mary, Seat of Wisdom, help me use my education for God&apos;s glory. Through Christ our Lord. Amen.
-                </p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer</h3>
+                <p className="text-text italic leading-relaxed text-sm">Holy Spirit, Spirit of wisdom and understanding, guide my study and calm my mind. Help me recall what I have learned and perform to the best of my ability on [exam name]. Saint Thomas Aquinas and Saint Joseph of Cupertino, pray for me. Amen.</p>
               </div>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-exams-catholic">
-                If exam stress triggers broader anxiety, you may also pray a novena for anxiety. For major vocational decisions after graduation, a novena for clarity can help discern the next step. Study well, pray daily, and trust that God walks with you into the exam room.
-              </LinkedText>
-
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-exams-catholic">If this need continues, you may repeat the novena or seek related devotions on Guide Catholic. Ask your parish priest for guidance on serious moral or sacramental questions.</LinkedText>
             </div>
             <BlogFAQ faqs={[
-              { question: "When should I start the novena for exams?", answer: "Ideally nine days before the exam date. If you have less time, start immediately and pray each day until the test — even three or five days of prayer is worthwhile. End with a prayer of thanksgiving on exam day." },
-              { question: "Can parents pray this novena for their children?", answer: "Yes. Parents frequently pray for children facing SATs, ACTs, final exams, or college midterms. Name the child and the specific exam in your intention. Many Catholic families pray together the night before a big test." },
-              { question: "Is it wrong to pray for a good grade?", answer: "No. It is good to ask God for success when you have worked hard. The key is also accepting God&apos;s will if the outcome differs from your hope, and recognizing that your dignity does not depend on any single score." },
-              { question: "Which saint is best for exams in the Catholic tradition?", answer: "Saint Thomas Aquinas is the primary patron of students and universities. Saint Joseph of Cupertino is invoked for help during tests. Saint Gemma Galgani and Saint Catherine of Bologna are also popular among students. This novena invokes Thomas Aquinas and Joseph of Cupertino." },
-              { question: "Does praying a novena mean I can study less?", answer: "No. Catholic teaching holds that grace builds on nature. You must study, sleep well, and prepare responsibly. The novena adds spiritual support to human effort — it is not a substitute for preparation." },
+              { question: "How many days is this novena?", answer: "Nine consecutive days is the standard Catholic form." },
+              { question: "Can I start on any day?", answer: "Yes — some begin before a relevant saint&apos;s feast day but any day is valid." },
+              { question: "Can someone pray the novena for me?", answer: "Yes — family and friends often offer novenas for others by name." },
+              { question: "Does prayer replace practical help?", answer: "No — especially for legal, medical, or financial needs, prayer and action belong together." },
+              { question: "What if I miss a day?", answer: "Resume the next day; many Catholics complete nine days of prayer without strict calendar reset." },
+              { question: "Is this approved by the Church?", answer: "Private novenas with orthodox content are widely encouraged; they are not the same as liturgical sacraments." },
             ]} />
             <RelatedArticles currentSlug="novena-for-exams-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">How Deep Is Your Catholic Faith?</h3>
-              <p className="text-text-muted mb-6">Take our assessment and receive a personalized guide to growing in your knowledge of Catholic prayer and devotion.</p>
+              <p className="text-text-muted mb-6">Take our assessment and receive a personalized guide to Catholic prayer and devotion.</p>
               <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
             </div>
           </div>

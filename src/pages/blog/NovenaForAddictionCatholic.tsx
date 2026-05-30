@@ -15,17 +15,17 @@ export default function NovenaForAddictionCatholic() {
     <>
       <Helmet>
         <title>Novena for Addiction: 9-Day Catholic Prayer for Sobriety | Guide Catholic</title>
-        <meta name="description" content="Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing. Full prayer text and step-by-step guide." />
-        <meta name="keywords" content="novena for addiction, catholic prayer sobriety, novena alcohol drug recovery, prayer for addict catholic" />
+        <meta name="description" content="Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing. Full prayer text, step-by-step guide, and FAQs." />
+        <meta name="keywords" content="novena for addiction, catholic prayer sobriety, novena alcohol drug recovery" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-addiction-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Novena for Addiction: 9-Day Catholic Prayer for Sobriety" description="Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing. Full prayer text and step-by-step guide." url="https://guidecatholic.com/blog/novena-for-addiction-catholic/" datePublished="2026-05-30" />
+      <ArticleSchema title="Novena for Addiction: 9-Day Catholic Prayer for Sobriety" description="Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-addiction-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
-          { name: "Novena for Addiction", url: "https://guidecatholic.com/blog/novena-for-addiction-catholic/" },
+          { name: "Novena for Addiction: 9-Day Catholic Pr...", url: "https://guidecatholic.com/blog/novena-for-addiction-catholic/" },
         ]}
       />
 
@@ -36,7 +36,7 @@ export default function NovenaForAddictionCatholic() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link><span>/</span>
               <Link to="/blog" className="hover:text-accent">Blog</Link><span>/</span>
-              <span className="text-text">Novena for Addiction</span>
+              <span className="text-text">Novena for Addiction: 9-Day Catholic Pr...</span>
             </nav>
           </div>
         </div>
@@ -47,85 +47,56 @@ export default function NovenaForAddictionCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />9 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Novena for Addiction: 9-Day Catholic Prayer for Sobriety</h1>
-              <p className="text-xl text-text-muted leading-relaxed">Addiction binds body and soul, but grace and professional help can set captives free. This nine-day novena unites sustained prayer with the recovery journey — for yourself or someone you love.</p>
+              <p className="text-xl text-text-muted leading-relaxed">Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing.</p>
             </header>
             <div className="aspect-video bg-slate-100 rounded-2xl flex items-center justify-center mb-10"><ShieldAlert className="w-24 h-24 text-slate-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Addiction binds body and soul; nine days of prayer unite human effort with grace and professional help. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+              </div>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To for Addiction?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-addiction-catholic">
-                Catholics facing addiction turn first to Christ, who proclaimed liberty to captives (Luke 4:18). Saint Monica prayed for decades for her son Augustine&apos;s conversion from a dissolute life — she is the patroness of those who pray for wayward children and loved ones trapped in destructive habits. Saint Maximilian Kolbe, who offered his life at Auschwitz, intercedes for those who feel powerless. Many parishes in the United States also connect the addicted with Catholic Charities, AA groups that meet in church basements, and recovery ministries. This novena invokes Christ and these saints together.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-addiction-catholic">Addiction binds body and soul; nine days of prayer unite human effort with grace and professional help. Catholics across the United States pray this novena in parishes, homes, and online prayer groups, trusting in God&apos;s mercy and the intercession of the saints.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-addiction-catholic">
-                A novena is a nine-day prayer modeled on the apostles&apos; nine days of waiting for the Holy Spirit (Acts 1:14). Recovery from addiction is often described as &quot;one day at a time&quot; — a novena adds nine days of intentional surrender to God&apos;s grace. It is not a substitute for detox, counseling, inpatient treatment, or twelve-step programs. The Catechism teaches that human freedom can be wounded by sin and healed by grace working through both prayer and human support (CCC 1730–1735).
-              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-addiction-catholic">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray a Novena for Addiction?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-addiction-catholic">
-                The opioid crisis, alcohol dependence, and substance abuse affect millions of American families — including many in the pews every Sunday. Parents pray for addicted children; spouses pray for partners; the addicted pray for strength to stay sober one more day. A novena creates structure when willpower alone fails. It invites God into the daily battle, surrounds the person with intercession, and gives family members something concrete to do when they feel helpless. Saint Monica&apos;s decades of prayer remind us that perseverance matters.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-addiction-catholic">Nine days of sustained prayer imitate the apostles waiting for Pentecost (Acts 1:14). Unlike a single hurried prayer, a novena builds trust and discipline — especially when the need is urgent or long-standing. The Church encourages novenas as persevering prayer, not as magic.</LinkedText>
 
-              <QuizCTA
-                title="How deep is your Catholic faith?"
-                description="Take our assessment and receive a personalized guide to growing in your prayer life and supporting loved ones through difficult seasons."
-              />
+              <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray the Novena for Addiction — Step by Step</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
               <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li>
-                  <strong>Name your intention on day one.</strong> Specify whether you pray for yourself or for someone else — alcohol, opioids, gambling, or another compulsive behavior.
-                </li>
-                <li>
-                  <strong>Pray at the same time each day.</strong> Morning offers strength for the day ahead; evening allows reflection on victories and temptations faced.
-                </li>
-                <li>
-                  <strong>Pray for nine consecutive days.</strong> Make the Sign of the Cross, pray the novena prayer, and end with a Glory Be. If relapse occurs, begin again without shame.
-                </li>
-                <li>
-                  <strong>Combine prayer with recovery resources.</strong> Attend AA, NA, or Catholic recovery groups; seek counseling; use medical treatment when needed. Grace works through these means.
-                </li>
-                <li>
-                  <strong>Receive the Sacraments.</strong> Confession removes the weight of guilt; the Eucharist strengthens the soul. Many recovering Catholics find a monthly Confession essential.
-                </li>
+                <li>Name your intention clearly on day one.</li>
+                <li>Choose the same time each day for nine consecutive days.</li>
+                <li>Begin with the Sign of the Cross; end with Glory Be if you wish.</li>
+                <li><strong>Combine prayer with practical steps</strong> — medical, legal, financial, or family action.</li>
+                <li>Offer thanks when you receive grace, even if the answer differs from your first hope.</li>
               </ol>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer for Addiction</h3>
-                <p className="text-text italic leading-relaxed text-sm">
-                  In the name of the Father, and of the Son, and of the Holy Spirit. Amen.
-                </p>
-                <p className="text-text italic leading-relaxed text-sm mt-4">
-                  Lord Jesus, you came to set captives free. You know the chains that bind [name or &quot;me&quot;] — the cravings, the shame, the cycles of relapse and regret. I ask your mercy and your strength for one more day of sobriety, one more day of hope.
-                </p>
-                <p className="text-text italic leading-relaxed text-sm mt-4">
-                  Send your Holy Spirit to heal what is wounded, surround us with people who support recovery, and give courage to seek the help we need. Break the power of addiction and restore dignity to this life you created.
-                </p>
-                <p className="text-text italic leading-relaxed text-sm mt-4">
-                  Saint Monica, who never stopped praying for your son, intercede for us. Saint Maximilian Kolbe, who offered your life for another, pray that we may choose life over death. Mary, Mother of Mercy, hold us close. Amen.
-                </p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer</h3>
+                <p className="text-text italic leading-relaxed text-sm">Lord Jesus, you came to set captives free. I ask your mercy for [name or yourself] struggling with addiction. Give strength for one day at a time, surround us with support, and lead us to healing through your grace. Saint Maximilian Kolbe and Saint Monica, pray for us. Amen.</p>
               </div>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-addiction-catholic">
-                If addiction has led to legal trouble, consider pairing this novena with a novena for legal cases. When the situation feels impossible, Saint Jude is another powerful intercessor. Recovery is a lifelong journey — return to this prayer whenever you or a loved one needs nine days of sustained grace.
-              </LinkedText>
-
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-addiction-catholic">If this need continues, you may repeat the novena or seek related devotions on Guide Catholic. Ask your parish priest for guidance on serious moral or sacramental questions.</LinkedText>
             </div>
             <BlogFAQ faqs={[
-              { question: "Can prayer alone cure addiction?", answer: "No. The Church teaches that addiction involves physical, psychological, and spiritual dimensions. Prayer is essential but must be combined with professional treatment, counseling, support groups, and sometimes medical intervention. A novena supports recovery; it does not replace it." },
-              { question: "Can I pray this novena for a family member who is addicted?", answer: "Yes. Saint Monica prayed for her son Augustine for years before his conversion. Name the person and the specific addiction in your intention. Many parents and spouses find this novena gives them hope when they feel powerless." },
-              { question: "Should someone in recovery go to Confession during the novena?", answer: "Yes, when ready. The Sacrament of Reconciliation removes sin and restores grace. Many recovering Catholics confess regularly — monthly or whenever they fall — as part of their spiritual recovery alongside the novena." },
-              { question: "Are there Catholic recovery groups in the United States?", answer: "Yes. Many parishes host AA or NA meetings, and organizations like Catholic in Recovery offer faith-based support. Catholic Charities also provides addiction services in many dioceses. Ask your parish priest for local resources." },
-              { question: "What if the person relapses during the nine days?", answer: "Do not stop praying. Relapse is part of many recovery journeys. Continue the novena, encourage the person to return to treatment, and begin again without condemnation. God&apos;s mercy is greater than any fall." },
+              { question: "How many days is this novena?", answer: "Nine consecutive days is the standard Catholic form." },
+              { question: "Can I start on any day?", answer: "Yes — some begin before a relevant saint&apos;s feast day but any day is valid." },
+              { question: "Can someone pray the novena for me?", answer: "Yes — family and friends often offer novenas for others by name." },
+              { question: "Does prayer replace practical help?", answer: "No — especially for legal, medical, or financial needs, prayer and action belong together." },
+              { question: "What if I miss a day?", answer: "Resume the next day; many Catholics complete nine days of prayer without strict calendar reset." },
+              { question: "Is this approved by the Church?", answer: "Private novenas with orthodox content are widely encouraged; they are not the same as liturgical sacraments." },
             ]} />
             <RelatedArticles currentSlug="novena-for-addiction-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">How Deep Is Your Catholic Faith?</h3>
-              <p className="text-text-muted mb-6">Take our assessment and receive a personalized guide to growing in your knowledge of Catholic prayer and devotion.</p>
+              <p className="text-text-muted mb-6">Take our assessment and receive a personalized guide to Catholic prayer and devotion.</p>
               <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
             </div>
           </div>
