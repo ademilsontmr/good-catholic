@@ -74,7 +74,7 @@ export default function OurLadyImmaculateConceptionUSA() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Why is Our Lady of the Immaculate Conception the patroness of the United States? , and how to honor her.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Immaculate Conception is patroness of the United States — December 8 feast, Basilica in Washington, D.C., and national consecration history. Mary conceived without sin from the first moment; the U.S. was placed under her protection in 1846.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-immaculate-conception-patroness-usa">

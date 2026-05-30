@@ -74,7 +74,7 @@ export default function PrayersForHealingCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Powerful Catholic prayers for healing — physical, emotional, and spiritual. Full texts of healing prayers, the Anointing of the Sick, and how to pray for the sick.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic healing prayers include James 5:14–15 anointing, laying on of hands in charismatic prayer with priestly oversight, and novenas to healing saints — always submit to God&apos;s will; medical care remains primary for bodily illness.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

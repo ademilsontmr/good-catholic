@@ -87,7 +87,7 @@ export default function SacredHeartPromises() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Master the 12 promises of the Sacred Heart of Jesus. Learn the history of Paray-le-Monial, the 9 First Fridays, and the theology of reparation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Sacred Heart promises to St. Margaret Mary include peace in families, consolation, refuge, and grace for a fervent life — linked to First Friday Communion and enthronement devotion. The Church approves the devotion; promises require correspondence with grace.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

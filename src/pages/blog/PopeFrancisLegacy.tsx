@@ -88,7 +88,7 @@ export default function PopeFrancisLegacy() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Explore the life and legacy of Pope Francis — Jorge Mario Bergoglio — from Buenos Aires to the Vatican. His key documents, his emphasis on mercy, and his impact on the Church.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Pope Francis (2013–2025) emphasized mercy, care for the poor and environment (Laudato Si&apos;), synodality, and outreach to margins — his legacy includes encyclicals, Curia reform, and global pastoral style; evaluation continues under Church tradition.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

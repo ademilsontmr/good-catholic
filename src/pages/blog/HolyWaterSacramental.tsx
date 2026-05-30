@@ -87,7 +87,7 @@ export default function HolyWaterSacramental() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the power of holy water in Catholic tradition. Learn its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Holy water is blessed water used for blessing oneself, homes, and objects — recalls Baptism and repels evil symbolically. Fonts at church entrances invite dipping on entry; priests bless water with exorcism prayer; replace periodically.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">

@@ -87,7 +87,7 @@ export default function CatholicDatingGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the Catholic approach to dating and courtship. Learn how to date with intention, prepare for marriage, and build relationships that honor God and each other.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic dating guide emphasizes prayer for discernment, accountability, meeting in public, involving spiritual mentors, and discussing marriage and family early — ending relationships that require sin or block faith growth.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">

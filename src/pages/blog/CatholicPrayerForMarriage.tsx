@@ -69,7 +69,7 @@ export default function CatholicPrayerForMarriage() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Powerful Catholic prayers for marriage — for your spouse, for a troubled marriage, for a future spouse, and for the grace to live the sacrament of matrimony faithfully.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic prayers for marriage ask God to strengthen unity, fidelity, and openness to life — to St. Joseph, Mary, or the Holy Family. Spouses praying together daily is among the strongest protections for sacramental marriage.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">

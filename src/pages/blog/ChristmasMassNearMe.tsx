@@ -74,7 +74,7 @@ export default function ChristmasMassNearMe() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Find Christmas Mass times 2026 near you — Christmas Eve and Christmas Day. What to expect at Midnight Mass, how to find your nearest Catholic church, and how to prepare.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Christmas Mass times vary by parish — Vigil Mass on December 24 often fulfills the obligation; midnight, dawn, and day Masses on December 25 celebrate the Nativity. Check parish websites early; churches fill quickly; Holy Day of Obligation applies.</p>
               </div>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">

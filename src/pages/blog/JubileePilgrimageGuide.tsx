@@ -87,7 +87,7 @@ export default function JubileePilgrimageGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover how to continue the Jubilee 2025 spirit. Learn about indulgences, pilgrimage traditions, and carrying the grace of the Holy Year into daily life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Jubilee pilgrimage visits designated churches — pass through Holy Door, attend Mass, receive Communion and Confession, pray for the pope&apos;s intentions to gain plenary indulgence. Rome, diocesan cathedrals, and shrines participate; check official lists.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">

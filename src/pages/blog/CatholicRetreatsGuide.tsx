@@ -69,7 +69,7 @@ export default function CatholicRetreatsGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything about Catholic retreats — types of retreats, how to find one near you, how to prepare, how to make the most of it, and how to make a retreat at home.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic retreats — silent, preached, or Ignatian — offer prayer, Confession, and rest away from daily noise. Parish weekends, Cursillo, TEC, and monastery guest stays deepen conversion; search diocesan retreat centers nationwide.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Catholic Retreat?</h2>

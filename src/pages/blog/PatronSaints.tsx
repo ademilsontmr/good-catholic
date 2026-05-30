@@ -86,7 +86,7 @@ export default function PatronSaints() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn about the tradition of patron saints in the Catholic Church. Discover how to choose your patron saint and how to honor them to receive their intercession.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Patron saints intercede for nations, cities, professions, and causes — St. Patrick for Ireland, St. Luke for physicians, St. Joseph for workers. Catholics honor patrons at feast days and ask their prayer in relevant needs.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">

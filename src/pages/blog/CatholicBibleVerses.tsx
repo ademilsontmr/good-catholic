@@ -74,7 +74,7 @@ export default function CatholicBibleVerses() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The 50 most important Catholic Bible verses — for prayer, strength, comfort, faith, love, and the sacraments. Essential Scripture every Catholic should know by heart.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Essential Catholic Bible verses include John 6 (Eucharist), Matthew 16 (Peter), James 2 (faith and works), Luke 1 (Mary), and John 20 (Confession) — memorized for prayer, apologetics, and lectio divina within Church interpretation.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">

@@ -89,7 +89,7 @@ export default function TattoosCatholicChurch() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Explore the Catholic teaching on tattoos. Analyze Leviticus 19:28, St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church has no absolute ban on tattoos — moral evaluation considers permanence, content (no sacrilege or evil imagery), motive, and health. Catechism does not forbid them; cultural and employer norms vary; conscience and modesty guide decisions.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-tattoos-a-sin">

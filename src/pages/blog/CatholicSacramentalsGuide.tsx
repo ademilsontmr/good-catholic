@@ -87,7 +87,7 @@ export default function CatholicSacramentalsGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the power of Catholic sacramentals. Learn about holy water, blessed objects, scapulars, medals, and how these sacred signs bring grace into daily life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Sacramentals are blessed objects and actions — holy water, medals, scapulars, blessed salt — that prepare for grace and remind of faith. They do not work magically; faith and prayer give them meaning; exorcised items require proper blessing.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">

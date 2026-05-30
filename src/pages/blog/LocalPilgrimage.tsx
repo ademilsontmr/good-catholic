@@ -85,7 +85,7 @@ export default function LocalPilgrimage() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Practical and spiritual guide to organizing pilgrimages to local shrines and jubilee churches, strengthening community faith in 2026.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Local Catholic pilgrimages visit nearby shrines, missions, or basilicas — walking prayer, Mass at destination, and relics or apparition sites. U.S. sites include National Shrine in D.C., Guadalupe tilma tours, and regional saint shrines.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">

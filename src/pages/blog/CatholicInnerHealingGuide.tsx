@@ -87,7 +87,7 @@ export default function CatholicInnerHealingGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the Catholic approach to inner healing prayer. Learn how to heal emotional wounds, break generational curses, and find freedom through Christ&apos;s healing power.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic inner healing prayer invites Christ to heal emotional wounds from sin, trauma, or rejection — often with a trained minister, not replacing therapy or Confession. Unbound, Sohl, and similar ministries operate with priest oversight.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">

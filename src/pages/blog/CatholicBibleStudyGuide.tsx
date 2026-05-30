@@ -69,7 +69,7 @@ export default function CatholicBibleStudyGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How to study the Bible as a Catholic — which translation to use, the four senses of Scripture, Lectio Divina, the best Catholic Bible study programs, and a 30-day reading plan.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic Bible study uses a approved translation, Catechism, and commentaries faithful to the Church — small groups at parish, Augustine Institute, or Bible Timeline programs. Avoid study that rejects Magisterial authority on disputed passages.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Introduction: Catholics and the Bible</h2>

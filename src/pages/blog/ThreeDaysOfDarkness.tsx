@@ -86,7 +86,7 @@ export default function ThreeDaysOfDarkness() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is the Three Days of Darkness? Explore the private revelations of Blessed Anna Maria Taigi and Marie-Julie Jahenny, the conditions, and how to prepare spiritually.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Three Days of Darkness is a private revelation claim — not required Catholic belief — describing global darkness before divine chastisement. The Church has not approved it; faithful focus on approved devotions, sacraments, and obedience to Magisterium over unapproved prophecies.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

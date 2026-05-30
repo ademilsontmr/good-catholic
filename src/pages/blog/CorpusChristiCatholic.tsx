@@ -74,7 +74,7 @@ export default function CorpusChristiCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is Corpus Christi? Learn about the feast of the Body and Blood of Christ — its history, the Eucharistic procession, the prayers of St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Corpus Christi (Body and Blood of Christ) is a solemnity honoring the Real Presence — in the U.S. on the Sunday after Trinity Sunday with processions and Benediction in many parishes. Eucharistic adoration and First Friday devotion extend the feast&apos;s spirit.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">

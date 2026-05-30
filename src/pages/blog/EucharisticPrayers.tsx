@@ -87,7 +87,7 @@ export default function EucharisticPrayers() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Eucharistic prayers, Holy Hour devotion, and the practice of adoration. Learn how to pray before the Blessed Sacrament and encounter Christ&apos;s Real Presence.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Eucharistic Prayers I–IV are the central consecration prayers of the Mass — the priest asks the Father to send the Spirit so bread and wine become Christ&apos;s Body and Blood. EP II is most common on Sundays; EP I (Roman Canon) is the oldest.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">

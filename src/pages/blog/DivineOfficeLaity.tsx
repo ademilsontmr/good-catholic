@@ -87,7 +87,7 @@ export default function DivineOfficeLaity() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how lay Catholics can pray the Divine Office. Discover the hours of prayer, simplified versions, and how this liturgical prayer sanctifies daily life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Laity may pray the Divine Office (Liturgy of the Hours) — Morning Prayer and Evening Prayer are most common; apps and single-volume Christian Prayer make it accessible. It unites lay faithful with clergy and the universal Church in daily psalmody.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">

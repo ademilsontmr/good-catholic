@@ -87,7 +87,7 @@ export default function CatholicChurchHistory() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the history of the Catholic Church from St. Peter to Pope Francis.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic Church history spans two millennia — from Pentecost through martyrs, councils (Nicaea, Trent, Vatican II), missions, schisms, and reforms. Apostolic succession links the pope and bishops to the apostles; the Church claims continuity of faith under the Holy Spirit.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-church-history">

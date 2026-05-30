@@ -86,7 +86,7 @@ export default function SaintJohnVianneyCureOfArs() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of Saint John Vianney, the humble priest who converted thousands through the confessional and battled the demonic in his small village of Ars.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. John Vianney (1786–1859) — Curé of Ars — heard confessions up to sixteen hours daily and converted a lukewarm parish through prayer and penance. Patron of parish priests; feast August 4; model for confessors and pastors.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

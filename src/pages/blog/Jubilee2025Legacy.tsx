@@ -85,7 +85,7 @@ export default function Jubilee2025Legacy() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Holy Year of 2025 has ended, but its mission continues. Discover how to keep the flame of hope alive in your Christian life in 2026.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Jubilee Year 2025 (Pilgrims of Hope) offered plenary indulgences through pilgrimage, works of mercy, and sacraments — its legacy continues in renewed hunger for mercy, pilgrim churches, and the Holy Doors&apos; spiritual meaning beyond the calendar year.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">

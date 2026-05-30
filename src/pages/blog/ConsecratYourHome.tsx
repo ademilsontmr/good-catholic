@@ -86,7 +86,7 @@ export default function ConsecratYourHome() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to consecrate your home to God as a Catholic — the Epiphany house blessing, the difference between blessing and consecration, sacred objects, and how to create a prayer corner.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Consecrating your home to the Sacred Heart or Immaculate Heart involves priestly blessing when possible, enthronement image, family prayer, and renewal of baptismal promises — making the domestic church a place of prayer and virtue.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">

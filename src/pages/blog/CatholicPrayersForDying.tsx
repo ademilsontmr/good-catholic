@@ -86,7 +86,7 @@ export default function CatholicPrayersForDying() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic prayers for the dying — the Sacrament of Anointing, Viaticum, the Apostolic Pardon, prayers at the bedside, and what to do when someone is dying.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic prayers for the dying include Apostolic Pardon if a priest is present, Divine Mercy chaplet, commendation of the soul, and holding a crucifix — family prays Our Father and Hail Mary as the soul departs; call priest for Anointing early.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">

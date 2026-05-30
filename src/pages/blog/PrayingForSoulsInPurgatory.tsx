@@ -74,7 +74,7 @@ export default function PrayingForSoulsInPurgatory() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Why do Catholics pray for the dead? Learn about the Holy Souls in Purgatory, the most powerful prayers and novenas for the departed, and how your prayers can help souls reach heaven.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Praying for souls in purgatory applies the Church&apos;s treasury of merit — Mass intentions, Rosary, almsgiving, and indulgences shorten purification. November All Souls and daily remembrance of deceased are corporal works of mercy to the dead.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">

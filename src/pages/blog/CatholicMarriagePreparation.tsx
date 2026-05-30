@@ -87,7 +87,7 @@ export default function CatholicMarriagePreparation() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Prepare for Catholic marriage with this complete guide. Learn about Pre-Cana, marriage requirements, Natural Family Planning, and building a sacramental union.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic marriage prep (Pre-Cana) includes meetings with priest, FOCCUS or similar inventory, natural family planning class, and canonical freedom checks — required months before the wedding; remarriage after divorce needs annulment first.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">

@@ -69,7 +69,7 @@ export default function CatholicConversionsRising() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Catholic conversions are at a 20-year high. Why are so many people — especially young adults — choosing to become Catholic?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic conversions are rising in some U.S. dioceses — often driven by Eucharistic hunger, beauty of liturgy, moral clarity, and online testimony. RCIA numbers fluctuate; personal invitation and parish welcome remain decisive factors.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">

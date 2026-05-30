@@ -74,7 +74,7 @@ export default function WhatDoCatholicsBeliieve() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What do Catholics believe? A clear, complete guide to the core beliefs of the Catholic Church — God, Jesus, salvation, Mary, the sacraments, the afterlife, and more.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics believe in one God — Father, Son, and Holy Spirit — the Incarnation, Real Presence in the Eucharist, seven sacraments, papal authority, Mary and the saints, resurrection of body, and life everlasting — summarized in the Creed and Catechism.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">

@@ -88,7 +88,7 @@ export default function PopeLeoXIV() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Pope Leo XIV is the first American pope in history. Learn about Robert Francis Prevost — his Chicago roots, Augustinian vocation, decades in Peru, and vision for the Church.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Pope Leo XIV continues the papacy after Francis — Catholics pray for the pope as successor of Peter, follow his teaching on faith and morals, and look to Rome for unity. Biographical and policy details develop as his pontificate unfolds.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

@@ -86,7 +86,7 @@ export default function TheCrusadesHistory() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Were the Crusades unprovoked wars of aggression? Explore the historical context, the defense of pilgrims, and the Catholic perspective on this controversial time.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Crusades (1095–1291) were medieval military pilgrimages to recover the Holy Land — mixed motives of faith, land, and politics; successes and atrocities on both sides. Modern Church repents sins of crusaders while noting complex historical context.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">

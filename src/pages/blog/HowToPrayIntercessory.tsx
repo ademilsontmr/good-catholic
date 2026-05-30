@@ -87,7 +87,7 @@ export default function HowToPrayIntercessory() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray intercessory prayer as a Catholic. Discover what intercession is, how to pray for others effectively, and why the Church calls us to be intercessors.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Intercessory prayer asks God for others&apos; needs — name the person, be specific, persist like the widow (Luke 18), and offer fasting or Mass. It is priestly work of the baptized; results follow God&apos;s wisdom, not our timetable.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">

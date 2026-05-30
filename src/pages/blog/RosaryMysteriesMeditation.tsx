@@ -87,7 +87,7 @@ export default function RosaryMysteriesMeditation() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn to meditate on all 20 Rosary mysteries. Discover the Joyful, Sorrowful, Glorious, and Luminous mysteries with reflections for deeper contemplation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Rosary mystery meditation imagines Gospel scenes while praying Hail Marys — Joyful (Incarnation), Sorrowful (Passion), Glorious (Resurrection), Luminous (public ministry). One mystery per decade; slow pacing beats speed; read the biblical account first.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="rosary-mysteries-meditation">

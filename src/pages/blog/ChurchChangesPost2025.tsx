@@ -85,7 +85,7 @@ export default function ChurchChangesPost2025() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Analysis of perspectives and changes in the Catholic Church for 2026 after the closing of the Jubilee. What to expect from the pontificate and dioceses.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Church changes after 2025 include ongoing implementation of synodal recommendations, liturgical translations, and papal directives — Catholics follow their bishop and Rome for authoritative updates, not social media speculation about unapproved reforms.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">

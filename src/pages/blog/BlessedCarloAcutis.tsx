@@ -86,7 +86,7 @@ export default function BlessedCarloAcutis() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of Blessed Carlo Acutis — his Eucharistic devotion, his website cataloguing Eucharistic miracles, his death from leukemia at 15, his beatification in 2020, and canonization in 2025.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Blessed Carlo Acutis (1991–2006) was an Italian teenager who catalogued Eucharistic miracles online and lived daily Mass and adoration — beatified in 2020, patron example for youth and digital evangelization. His feast is October 12.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">

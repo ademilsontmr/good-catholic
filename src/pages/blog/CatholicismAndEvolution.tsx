@@ -86,7 +86,7 @@ export default function CatholicismAndEvolution() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Does the Catholic Church accept evolutionary theory? Explore the official teaching of the Popes, the compatibility of science and Genesis, and the origin of the human soul.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church permits belief in evolution of the body provided one affirms special creation of the soul by God — Pius XII and subsequent popes distinguish scientific theories from philosophical materialism. Adam and Eve as real first parents is required doctrine.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

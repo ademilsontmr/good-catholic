@@ -69,7 +69,7 @@ export default function CatholicSchoolsAmerica() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The US has over 6,000 Catholic schools. Learn about the academic and faith formation benefits, tuition costs, scholarships, and how to evaluate whether a school is truly Catholic.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic schools in America educate about 1.7 million students — parish and diocesan schools integrate faith, academics, and virtue; tuition varies with parish subsidies. They require religion classes and Mass; teachers often need catechist certification.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">

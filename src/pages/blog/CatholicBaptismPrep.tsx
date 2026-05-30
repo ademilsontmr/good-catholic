@@ -69,7 +69,7 @@ export default function CatholicBaptismPrep() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything parents and godparents need to know — when to baptize, godparent requirements, the ceremony explained step by step, baptism symbols, and how to raise a Catholic child.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Baptism preparation for infants includes parent catechesis, choosing godparents who are practicing Catholics, selecting a saint name, and scheduling the rite — often during Sunday Mass. For adults, RCIA replaces infant prep.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Does Baptism Do?</h2>

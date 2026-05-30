@@ -74,7 +74,7 @@ export default function EucharisticAdorationNearMe() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Find Eucharistic adoration through parish bulletins, adoration chapels, and websites like MassTimes.org — perpetual adoration parishes maintain 24/7 schedules with hourly sign-ups. Any Catholic parish with an exposed monstrance welcomes adorers.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Eucharistic Adoration Near You</h2>

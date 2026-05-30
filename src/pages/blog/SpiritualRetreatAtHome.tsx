@@ -100,7 +100,7 @@ export default function SpiritualRetreatAtHome() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to make a Catholic spiritual retreat at home. Step-by-step guide with a sample 1-day and weekend schedule, the Ignatian approach, journaling tips, and what to do after your retreat.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A home spiritual retreat sets aside a day or weekend — silence, Rosary, Scripture, Confession if possible, fasting lightly, and no unnecessary screens. Ignatian examen and Stations substitute when travel to a retreat center is impossible.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">

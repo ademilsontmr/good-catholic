@@ -86,7 +86,7 @@ export default function CatholicViewOnWealth() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about money, wealth, and success? Explore the balance between the &apos;Prosperity Gospel&apos; and the &apos;Vow of Poverty&apos;.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic teaching on wealth: private property is legitimate but subordinate to universal destination of goods — the rich must practice stewardship, tithing, and justice to the poor. Wealth without generosity endangers salvation (Luke 18:25).</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-wealth">

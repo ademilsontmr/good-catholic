@@ -69,7 +69,7 @@ export default function CatholicPrayerForProtection() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The most powerful Catholic prayers for protection — against evil, danger, spiritual attack, and the devil. St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic prayers for protection include St. Michael prayer, Psalm 91, Guardian Angel prayer, and St. Benedict medal blessing — trusting God while using approved sacramentals. Protection is spiritual; avoid superstition or occult counter-practices.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">

@@ -86,7 +86,7 @@ export default function ImportanceOfConfession() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the spiritual benefits of frequent confession. Learn how to confess well and why this sacrament transforms our Christian life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Confession restores grace after mortal sin and strengthens against venial sin — Christ instituted it (John 20:23); monthly confession is a common Catholic practice. Without it, one may not receive Communion in mortal sin.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">

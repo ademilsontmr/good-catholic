@@ -87,7 +87,7 @@ export default function SpiritualLifeBasics() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the foundations of Catholic spiritual life. Learn essential daily practices, prayer routines, and spiritual disciplines for growing closer to God.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Basics of Catholic spiritual life: Sunday Mass, regular Confession, daily prayer, Scripture, works of mercy, and growth in virtue — built on Baptism and fed by Eucharist. Sanctity is for every layperson, not only religious.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">

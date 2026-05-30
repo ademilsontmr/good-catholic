@@ -74,7 +74,7 @@ export default function GraceAfterMealsCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Grace after meals Catholic prayer with full text in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Grace after meals thanks God — &quot;We give thee thanks, Almighty God, for all thy benefits&quot; or the simpler traditional form with Sign of the Cross. It completes the meal blessing and teaches children gratitude.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Grace After Meals (English)</h2>

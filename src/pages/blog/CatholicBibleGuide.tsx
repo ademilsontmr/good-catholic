@@ -74,7 +74,7 @@ export default function CatholicBibleGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything about the Catholic Bible — its 73 books, the deuterocanonical books, best translations (RSV-CE, NABRE, Douay-Rheims), and how to read it as a Catholic.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Bible has 73 books in a Church-defined canon — use translations with imprimatur (NABRE, RSV-2CE, Douay-Rheims). Catholics interpret with Tradition and Magisterium; the Bible is central but not the sole rule of faith.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">

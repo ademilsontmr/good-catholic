@@ -87,7 +87,7 @@ export default function PropheciesOfFatima() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the three secrets of Fatima, their prophetic messages, and how they relate to Catholic prophecy, Russia, and the conversion of nations.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Fatima prophecies (1917) included warning of war, spread of Russia&apos;s errors, and the Third Secret about persecution of the Church — popes consecrated the world to Mary; faithful focus on prayer, penance, and First Saturdays rather than private speculation.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">

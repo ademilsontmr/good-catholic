@@ -85,7 +85,7 @@ export default function PrayersOfHope2026() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Find consolation and strength in traditional and contemporary Catholic prayers focused on the virtue of hope to face the challenges of 2026.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Prayers of hope for 2026 anchor Catholics in trust amid uncertainty — Psalm 27, Romans 8, Divine Mercy, and entrustment to Mary Undoer of Knots. Hope is theological virtue, not optimism; Christ has overcome the world.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">

@@ -69,7 +69,7 @@ export default function CatholicGriefAndLoss() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How does Catholic faith help us grieve? A compassionate guide to loss, death, and healing — with prayers, the hope of resurrection, and the comfort of the saints.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics grieve with hope — mourning is human; the Funeral Mass, prayers for the dead, and belief in resurrection comfort the bereaved. Purgatory allows hope of reunion; professional counseling alongside spiritual direction is encouraged.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">

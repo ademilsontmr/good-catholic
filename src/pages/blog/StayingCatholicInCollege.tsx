@@ -69,7 +69,7 @@ export default function StayingCatholicInCollege() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How to stay Catholic in college — finding a Newman Center, navigating secular culture, maintaining your faith, and growing spiritually during your college years.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Staying Catholic in college means finding Newman Center or parish, weekly Mass, accountability friends, chastity in dorm culture, and questioning professors&apos; moral claims — intellectual challenges strengthen faith when paired with Catholic fellowship and apologetics.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">

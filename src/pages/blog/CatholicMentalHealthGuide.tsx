@@ -87,7 +87,7 @@ export default function CatholicMentalHealthGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the Catholic approach to mental health. Learn how faith integrates with psychology, find Catholic therapists, and access spiritual resources for depression, anxiety, and trauma recovery.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic mental health care integrates faith, therapy, and sacraments — grace and medicine both heal; depression and anxiety are not moral failures. Priests refer to professionals; St. Dymphna is a patron; prayer supplements but does not replace treatment.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">

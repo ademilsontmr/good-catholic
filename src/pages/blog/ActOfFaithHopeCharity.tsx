@@ -74,7 +74,7 @@ export default function ActOfFaithHopeCharity() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts in English, what each act means, and when to pray them for Confirmation, RCIA, and daily life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Acts of Faith, Hope, and Charity are traditional Catholic prayers — assent to revealed truth, trust in God&apos;s promises, and love of God above all and neighbor as self. They are often prayed after the Rosary or during morning devotion.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Act of Faith (Full Text)</h2>

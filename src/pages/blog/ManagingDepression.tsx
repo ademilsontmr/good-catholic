@@ -87,7 +87,7 @@ export default function ManagingDepression() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover a Catholic approach to managing depression. Learn about spiritual resources, professional treatment, and finding hope through faith during dark times.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Managing depression as a Catholic includes therapy, medication when prescribed, routine prayer without guilt for dryness, Confession, community, and St. Dymphna — depression is an illness, not punishment; seek help promptly; God does not abandon the suffering.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">

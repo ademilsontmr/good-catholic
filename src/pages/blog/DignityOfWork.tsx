@@ -87,7 +87,7 @@ export default function DignityOfWork() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Catholic social teaching on work and labor. Learn about the dignity of workers, just wages, rights of laborers, and St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic social teaching upholds the dignity of work — fair wages, rest on Sunday, safe conditions, and work as participation in God&apos;s creation (Laborem Exercens). Idleness and exploitation both violate human dignity; all honest labor can be offered to God.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">

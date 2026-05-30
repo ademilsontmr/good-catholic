@@ -86,7 +86,7 @@ export default function CatholicDating() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to Catholic dating and courtship — the purpose of dating, chastity in relationships, how to find a Catholic spouse, red flags, and preparing for marriage.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic dating seeks a spouse in faith — chastity before marriage, no cohabitation, openness to children, and Mass and prayer together. Physical boundaries protect dignity; intentional courtship toward sacramental marriage replaces casual hookup culture.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">

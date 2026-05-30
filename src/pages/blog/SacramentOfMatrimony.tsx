@@ -87,7 +87,7 @@ export default function SacramentOfMatrimony() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the theology of Catholic marriage. Learn about sacramental marriage, the vows, indissolubility, and how spouses participate in God&apos;s creative love.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Matrimony is the sacrament uniting baptized man and woman in indissoluble covenant — the couple are ministers; the priest witnesses. Openness to children and fidelity are essential; valid marriage requires free consent, proper form, and no prior bond.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">

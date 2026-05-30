@@ -69,7 +69,7 @@ export default function PrayerForTheSick() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The most powerful Catholic prayers for the sick — for healing, comfort, and strength. Prayers to St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Prayer for the sick includes Anointing of the Sick from a priest, Rosary, Divine Mercy chaplet, and intercession to Our Lady of Lourdes or St. Peregrine — visit the ill, offer practical help, and never blame illness on lack of faith.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Theology of Suffering</h2>

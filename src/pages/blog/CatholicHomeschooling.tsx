@@ -86,7 +86,7 @@ export default function CatholicHomeschooling() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to Catholic homeschooling — top curricula, legal requirements, socialization, co-ops, integrating faith into every subject, and the liturgical year as a school calendar.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic homeschooling educates children at home with faith integrated into curriculum — legal in all U.S. states; families use Seton, Mother of Divine Grace, or local co-ops. Bishop guidelines often require catechesis aligned with diocesan standards.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">

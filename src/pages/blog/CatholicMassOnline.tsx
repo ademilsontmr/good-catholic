@@ -74,7 +74,7 @@ export default function CatholicMassOnline() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Find the best Catholic Mass online — EWTN, Word on Fire, and parish live streams. Does watching Mass online fulfill the Sunday obligation?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Online Mass broadcasts help the homebound and sick but do not fulfill the Sunday obligation for those able to attend in person — spiritual communion is possible; Catholics unable to attend due to illness or lack of access should consult their pastor.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">

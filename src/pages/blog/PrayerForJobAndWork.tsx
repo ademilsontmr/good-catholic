@@ -69,7 +69,7 @@ export default function PrayerForJobAndWork() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Powerful Catholic prayers for work and employment — for finding a job, blessing your work, and honoring the dignity of labor as taught by the Church.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic prayers for work invoke St. Joseph the Worker — for employment, just treatment, and offering daily labor to God. Job loss is met with prayer and action; dignity of work teaching supports fair wages and Sabbath rest.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Theology of Work</h2>

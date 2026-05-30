@@ -87,7 +87,7 @@ export default function CatholicMorningRoutine() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Build a powerful Catholic morning routine. Discover the prayers, habits, and practices that saints used to start their day with God and transform their entire day.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic morning routine may include Sign of the Cross, Morning Offering, brief Scripture, Angelus at noon prep, and review of the day&apos;s saints — setting intention before screens and work. Even ten minutes sanctifies the day.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">

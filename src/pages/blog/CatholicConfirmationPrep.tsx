@@ -69,7 +69,7 @@ export default function CatholicConfirmationPrep() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to prepare for Confirmation — the 7 gifts of the Holy Spirit, how to choose a name and sponsor, what happens at the ceremony, and what comes after.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Confirmation prep includes catechesis on the Holy Spirit, sponsor selection, saint name, service hours, and retreat — in the U.S. often two years before the bishop&apos;s visit. Candidates must be baptized, in grace, and ready to witness publicly.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Confirmation?</h2>
