@@ -1,0 +1,1707 @@
+[
+  {
+    "sortOrder": 1,
+    "slug": "advent-first-sunday",
+    "name": "First Sunday of Advent",
+    "shortName": "Advent Begins",
+    "dateLabel": "First Sunday of Advent (moveable, late Nov–early Dec)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "season",
+    "holyDayUS": false,
+    "liturgicalColor": "violet",
+    "season": "Advent",
+    "titleHook": "Start of the Church Year & Season of Hope",
+    "facts": [
+      "Advent marks the beginning of the liturgical year in the Roman Rite, not January 1.",
+      "The word Advent comes from the Latin adventus, meaning 'coming' or 'arrival.'",
+      "The season spans four Sundays and prepares for both Christ's birth and his Second Coming.",
+      "Pope St. Gregory the Great (c. 590) shaped many Advent customs still used in parishes today."
+    ],
+    "traditions": [
+      "Setting up the Advent wreath at home on the first Sunday",
+      "Lighting one violet candle each week at family dinner",
+      "Using an Advent calendar with daily Scripture or acts of charity"
+    ],
+    "liturgyNotes": [
+      "Gloria is omitted until Christmas Eve",
+      "Violet vestments; readings emphasize prophecy and John the Baptist",
+      "Collect prayers focus on watchfulness and longing for the Messiah"
+    ]
+  },
+  {
+    "sortOrder": 2,
+    "slug": "advent-wreath",
+    "name": "Advent Wreath",
+    "shortName": "Advent Wreath",
+    "dateLabel": "Used throughout Advent (four Sundays before Christmas)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "violet",
+    "season": "Advent",
+    "titleHook": "Circle of Light Through the Longest Nights",
+    "facts": [
+      "The circular wreath symbolizes God's eternity and the unending nature of his love.",
+      "Johann Hinrich Wichern, a Hamburg Protestant pastor, popularized a wreath with daily candles for children in 1839.",
+      "Catholic households adopted the four-candle wreath by the early 20th century in Europe and America.",
+      "Three violet and one rose candle mirror the liturgical colors of Advent Sundays."
+    ],
+    "traditions": [
+      "Blessing the wreath at the start of Advent with holy water",
+      "Reading a short prayer before lighting each week's candle",
+      "Placing the wreath on the dining table as the center of family prayer"
+    ],
+    "liturgyNotes": [
+      "Parish wreaths often stand near the ambo or sanctuary during Advent",
+      "The rose candle is lit on Gaudete Sunday, the third week",
+      "Wreath prayers echo Advent themes of waiting and illumination"
+    ]
+  },
+  {
+    "sortOrder": 3,
+    "slug": "gaudete-sunday",
+    "name": "Gaudete Sunday",
+    "shortName": "Gaudete Sunday",
+    "dateLabel": "Third Sunday of Advent (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "season",
+    "holyDayUS": false,
+    "liturgicalColor": "rose",
+    "season": "Advent",
+    "titleHook": "Rejoice—Christmas Is Near",
+    "facts": [
+      "Gaudete means 'Rejoice' in Latin, taken from the entrance antiphon of the Mass.",
+      "Rose vestments signal a brief break from Advent penance, similar to Laetare Sunday in Lent.",
+      "The third Advent candle on home wreaths is traditionally pink or rose-colored.",
+      "St. Paul’s letter to the Philippians ('Rejoice in the Lord always') is central to this day's readings."
+    ],
+    "traditions": [
+      "Lighting the rose candle on the Advent wreath at home",
+      "Sending cheerful Advent cards noting that Christmas is approaching",
+      "Some parishes host 'Blue Mass' or outreach events paired with Gaudete joy"
+    ],
+    "liturgyNotes": [
+      "Rose vestments and the third candle on the parish Advent wreath",
+      "Entrance antiphon: Gaudete in Domino semper",
+      "Readings shift toward John the Baptist's joy at the coming of Christ"
+    ]
+  },
+  {
+    "sortOrder": 4,
+    "slug": "immaculate-conception",
+    "name": "Solemnity of the Immaculate Conception",
+    "shortName": "Immaculate Conception",
+    "dateLabel": "December 8 (fixed)",
+    "month": 12,
+    "day": 8,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": true,
+    "liturgicalColor": "white",
+    "season": "Advent",
+    "titleHook": "Mary Conceived Without Original Sin",
+    "facts": [
+      "Defined as dogma by Pope Pius IX in 1854 in the bull Ineffabilis Deus.",
+      "The feast celebrates Mary's conception in St. Anne's womb free from original sin, not Jesus' conception.",
+      "The Basilica of the National Shrine of the Immaculate Conception in Washington, D.C. is the largest Catholic church in North America.",
+      "Patronal feast of the United States, declared by the U.S. bishops in 1846."
+    ],
+    "traditions": [
+      "Pilgrimage to the National Shrine in Washington, D.C.",
+      "Crowning Mary with a wreath of white flowers at parish devotions",
+      "Attending Mass as a Holy Day of Obligation"
+    ],
+    "liturgyNotes": [
+      "Gloria and Creed are prayed; white vestments",
+      "First reading often from Genesis 3:9–15 (protoevangelium)",
+      "Preface of the Blessed Virgin Mary is used"
+    ]
+  },
+  {
+    "sortOrder": 5,
+    "slug": "our-lady-of-guadalupe",
+    "name": "Feast of Our Lady of Guadalupe",
+    "shortName": "Our Lady of Guadalupe",
+    "dateLabel": "December 12 (fixed)",
+    "month": 12,
+    "day": 12,
+    "isMoveable": false,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Advent",
+    "titleHook": "Empress of the Americas & Star of the New Evangelization",
+    "facts": [
+      "Mary appeared to St. Juan Diego on Tepeyac Hill near Mexico City in December 1531.",
+      "Her image on Juan Diego's tilma has been venerated at the Basilica of Guadalupe for nearly five centuries.",
+      "Pope John Paul II declared her Patroness of the Americas in 1999.",
+      "The feast falls during Advent, linking Marian devotion with expectation of Christ's birth."
+    ],
+    "traditions": [
+      "Las Mañanitas sung at dawn Mass in Hispanic parishes across the U.S.",
+      "Children dressed as Juan Diego and Our Lady in parish processions",
+      "Blessing of roses and sharing tamales after Mass in many communities"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria may be sung",
+      "Readings highlight Mary's fiat and God's preferential love for the poor",
+      "Many U.S. parishes offer bilingual Masses on December 11–12"
+    ]
+  },
+  {
+    "sortOrder": 6,
+    "slug": "christmas",
+    "name": "Nativity of the Lord (Christmas)",
+    "shortName": "Christmas",
+    "dateLabel": "December 25 (fixed)",
+    "month": 12,
+    "day": 25,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": true,
+    "liturgicalColor": "white",
+    "season": "Christmas",
+    "titleHook": "God Becomes Man in Bethlehem",
+    "facts": [
+      "Christmas celebrates the Incarnation—the Word made flesh in Jesus Christ.",
+      "December 25 was fixed in the Western Church by the 4th century, linking to the winter solstice symbolism of light.",
+      "Christmas is one of the six Holy Days of Obligation observed in the United States.",
+      "The Nativity narrative appears in Matthew 1–2 and Luke 2, forming the core of Christmas liturgy."
+    ],
+    "traditions": [
+      "Setting up a crèche (Nativity scene) at home, popularized by St. Francis of Assisi in 1223",
+      "Attending Mass on Christmas Day as a Holy Day of Obligation",
+      "Blessing of the Christmas tree and home on Epiphany or Christmas Eve"
+    ],
+    "liturgyNotes": [
+      "Gloria returns after Advent; white or gold vestments",
+      "Three Masses possible: Vigil, Midnight (historically 'Angels'), Dawn ('Shepherds'), Day ('Word')",
+      "Alleluia is sung; Creed and Gloria are required"
+    ]
+  },
+  {
+    "sortOrder": 7,
+    "slug": "christmas-midnight-mass",
+    "name": "Christmas Midnight Mass",
+    "shortName": "Midnight Mass",
+    "dateLabel": "Night of December 24–25",
+    "month": 12,
+    "day": 25,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": true,
+    "liturgicalColor": "white",
+    "season": "Christmas",
+    "titleHook": "When Angels Broke the Silence of Night",
+    "facts": [
+      "Midnight Mass tradition links to the belief that Christ was born at the darkest hour, bringing light.",
+      "Pope St. Sixtus III (432–440) is credited with establishing a midnight celebration at St. Mary Major in Rome.",
+      "The 'Angels' Mass of Christmas night uses Luke 2:1–14, the shepherds and heavenly host.",
+      "In the U.S., many parishes begin at 10 p.m. or midnight due to safety and family schedules."
+    ],
+    "traditions": [
+      "Arriving early for carols before the liturgy begins",
+      "Children re-enacting the Nativity in parish pageants earlier on Christmas Eve",
+      "Sharing a festive meal after returning from church"
+    ],
+    "liturgyNotes": [
+      "Entrance antiphon: Dominus dixit ad me (Midnight Mass proper)",
+      "Gloria sung with bells and festive music; incense is customary",
+      "Proclamation of the Birth of Christ (Kalends) may be chanted before the Gospel"
+    ]
+  },
+  {
+    "sortOrder": 8,
+    "slug": "holy-family-sunday",
+    "name": "Feast of the Holy Family",
+    "shortName": "Holy Family",
+    "dateLabel": "Sunday within the Octave of Christmas (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Christmas",
+    "titleHook": "Jesus, Mary & Joseph—Model for Every Home",
+    "facts": [
+      "Instituted for the universal Church by Pope Leo XIII in 1893, originally on Sunday after Epiphany.",
+      "Moved to the Sunday within the Christmas Octave by Pope Paul VI in 1969.",
+      "Honors the hidden years of Jesus' life in Nazareth under Joseph and Mary's care.",
+      "Pope St. John Paul II wrote extensively on the Holy Family as a model for domestic church life."
+    ],
+    "traditions": [
+      "Renewal of marriage vows or family consecration prayers at Mass",
+      "Blessing of families at the end of parish liturgy",
+      "Family rosary or Scripture reading on Sunday within the Octave"
+    ],
+    "liturgyNotes": [
+      "White vestments; readings from Luke 2:41–52 or Matthew 2:13–15",
+      "Collect emphasizes family life as a path to holiness",
+      "Optional votive Mass of the Holy Family may be used on other days"
+    ]
+  },
+  {
+    "sortOrder": 9,
+    "slug": "mary-mother-of-god",
+    "name": "Solemnity of Mary, Mother of God",
+    "shortName": "Mary, Mother of God",
+    "dateLabel": "January 1 (fixed)",
+    "month": 1,
+    "day": 1,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": true,
+    "liturgicalColor": "white",
+    "season": "Christmas",
+    "titleHook": "Theotokos—God-Bearer at the Year's Threshold",
+    "facts": [
+      "Title Theotokos (God-bearer) was defined at the Council of Ephesus in 431 against Nestorianism.",
+      "January 1 replaced the older feast of the Circumcision of the Lord in the 1969 Roman calendar reform.",
+      "Pope Paul VI also designated this day as the World Day of Peace in 1967.",
+      "It closes the Octave of Christmas with a Marian solemnity rather than a minor observance."
+    ],
+    "traditions": [
+      "Attending Mass as a Holy Day of Obligation",
+      "Praying the Angelus or a Marian hymn to begin the civil year",
+      "Parishes often include prayers for peace in intercessions"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel: Luke 2:16–21 (shepherds and naming of Jesus)",
+      "Solemn blessing may be given for the New Year"
+    ]
+  },
+  {
+    "sortOrder": 10,
+    "slug": "epiphany",
+    "name": "Epiphany of the Lord",
+    "shortName": "Epiphany",
+    "dateLabel": "January 6 (fixed; observed on Sunday in U.S.)",
+    "month": 1,
+    "day": 6,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Christmas",
+    "titleHook": "Kings from the East Reveal Christ to the Nations",
+    "facts": [
+      "Epiphany means 'manifestation'—Christ revealed to the Magi as Savior of all peoples.",
+      "In the U.S., the solemnity is transferred to the Sunday after January 1 per the Roman Missal adaptation.",
+      "The feast originally combined Nativity, Magi, Baptism, and Cana in Eastern traditions.",
+      "Gold, frankincense, and myrrh symbolize kingship, divinity, and suffering."
+    ],
+    "traditions": [
+      "Blessing of chalk and marking door lintels with 20+C+M+B+26",
+      "Epiphany house blessings by parish priests in some dioceses",
+      "King cake or Three Kings bread in multicultural parishes"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel: Matthew 2:1–12 (visit of the Magi)",
+      "Preface of the Epiphany emphasizes Christ as light to all nations"
+    ]
+  },
+  {
+    "sortOrder": 11,
+    "slug": "epiphany-chalk-blessing",
+    "name": "Epiphany Chalk Blessing",
+    "shortName": "Chalk Blessing",
+    "dateLabel": "Epiphany season (around January 6 or transferred Sunday)",
+    "month": 1,
+    "day": 6,
+    "isMoveable": false,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Christmas",
+    "titleHook": "Mark Your Home with the Magi's Blessing",
+    "facts": [
+      "The letters C+M+B stand for Christus mansionem benedicat ('May Christ bless this house') and the traditional names Caspar, Melchior, and Balthasar.",
+      "Numbers flanking the letters indicate the civil year (e.g., 20+26 for 2026).",
+      "The custom is German in origin and spread to English-speaking Catholic homes in the 20th century.",
+      "Chalk is blessed by a priest or deacon, then used by families to inscribe above the front door."
+    ],
+    "traditions": [
+      "Family gathers at the front door for the blessing ritual",
+      "Incense or holy water may accompany the inscription",
+      "Some parishes distribute blessed chalk after Epiphany Mass"
+    ],
+    "liturgyNotes": [
+      "Blessing of chalk may appear in the Book of Blessings",
+      "Connects domestic church to the Epiphany Gospel of the Magi",
+      "Often done after Epiphany Mass or on the transferred Sunday"
+    ]
+  },
+  {
+    "sortOrder": 12,
+    "slug": "baptism-of-the-lord",
+    "name": "Baptism of the Lord",
+    "shortName": "Baptism of the Lord",
+    "dateLabel": "Sunday after Epiphany (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Christmas",
+    "titleHook": "The Father's Voice over the Jordan",
+    "facts": [
+      "Concludes the Christmas season in the current Roman calendar, replacing the older Octave ending.",
+      "Commemorates Jesus' baptism by John in the Jordan River, inaugurating his public ministry.",
+      "The voice from heaven—'This is my beloved Son'—reveals the Trinity at the riverbank.",
+      "Instituted as a distinct feast by Pope Pius XII in 1955, formerly part of Epiphany."
+    ],
+    "traditions": [
+      "Renewal of baptismal promises at Mass",
+      "Blessing of holy water fonts in parish churches",
+      "Parents reminding children of their baptism dates"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gospel from Matthew, Mark, or Luke on the Baptism",
+      "Optional sprinkling rite with baptismal water",
+      "Christmas decorations are typically removed after this feast"
+    ]
+  },
+  {
+    "sortOrder": 13,
+    "slug": "presentation-candlemas",
+    "name": "Presentation of the Lord (Candlemas)",
+    "shortName": "Candlemas",
+    "dateLabel": "February 2 (fixed)",
+    "month": 2,
+    "day": 2,
+    "isMoveable": false,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Light for Revelation to the Gentiles",
+    "facts": [
+      "Marks 40 days after Christmas, when Mary completed ritual purification and presented Jesus in the Temple.",
+      "Simeon's canticle (Nunc dimittis) is prayed at Night Prayer of the Liturgy of the Hours.",
+      "Called Candlemas because candles were blessed and carried in procession, symbolizing Christ as light.",
+      "Groundhog Day shares this date—a folk echo of weather lore tied to Candlemas in Europe."
+    ],
+    "traditions": [
+      "Blessing of candles at Mass for use at home during the year",
+      "Procession with lighted candles in some parishes",
+      "Some families keep blessed candles for storms, baptisms, or sick calls"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gospel Luke 2:22–40",
+      "Blessing and procession of candles before Mass",
+      "Preface references Christ as light to enlighten all nations"
+    ]
+  },
+  {
+    "sortOrder": 14,
+    "slug": "st-joseph",
+    "name": "Solemnity of St. Joseph, Spouse of the Blessed Virgin Mary",
+    "shortName": "St. Joseph",
+    "dateLabel": "March 19 (fixed)",
+    "month": 3,
+    "day": 19,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Patron of the Universal Church & Workers",
+    "facts": [
+      "Pope Pius IX declared St. Joseph Patron of the Universal Church in 1870.",
+      "Pope Pius XII added the title Patron of Workers in 1955, giving the optional memorial of May 1.",
+      "Joseph is named in Matthew's genealogy and protects the Holy Family in the flight to Egypt.",
+      "Pope Francis declared a Year of St. Joseph from 2020–2021, emphasizing silent fidelity."
+    ],
+    "traditions": [
+      "St. Joseph's tables (altars) in Italian-American communities, especially Louisiana",
+      "Workplace blessings and prayers for the unemployed",
+      "St. Joseph's Day pastries and meatless feasting where March 19 falls in Lent"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "If March 19 falls in Lent, solemnity takes precedence over Lenten discipline",
+      "Preface I of St. Joseph may be used"
+    ]
+  },
+  {
+    "sortOrder": 15,
+    "slug": "annunciation",
+    "name": "Solemnity of the Annunciation",
+    "shortName": "Annunciation",
+    "dateLabel": "March 25 (fixed)",
+    "month": 3,
+    "day": 25,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "The Word Takes Flesh at Mary's Yes",
+    "facts": [
+      "March 25 was anciently believed to be both the date of the Annunciation and the Crucifixion.",
+      "Nine months before December 25, it theologically links Incarnation to Nativity.",
+      "The Angelus prayer commemorates this event at 6 a.m., noon, and 6 p.m.",
+      "Transferred if it falls during Holy Week or Easter Week per liturgical calendar rules."
+    ],
+    "traditions": [
+      "Praying the Angelus daily, especially on this feast",
+      "Floral offerings to Mary in parish shrines",
+      "Some pro-life groups hold vigils linking the feast to the sanctity of unborn life"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel Luke 1:26–38 (Annunciation narrative)",
+      "Incense and festive music appropriate for a Marian solemnity"
+    ]
+  },
+  {
+    "sortOrder": 16,
+    "slug": "ash-wednesday",
+    "name": "Ash Wednesday",
+    "shortName": "Ash Wednesday",
+    "dateLabel": "46 days before Easter (moveable, Feb–Mar)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "season",
+    "holyDayUS": false,
+    "liturgicalColor": "violet",
+    "season": "Lent",
+    "titleHook": "Remember You Are Dust—Lent Begins",
+    "facts": [
+      "Ash Wednesday opens Lent, a 40-day period of prayer, fasting, and almsgiving before Easter.",
+      "Ashes come from burned palms of the previous Palm Sunday, symbolizing repentance.",
+      "The imposition formula—'Remember that you are dust'—comes from Genesis 3:19.",
+      "Not a Holy Day of Obligation in the U.S., yet among the best-attended liturgies of the year."
+    ],
+    "traditions": [
+      "Receiving ashes on the forehead in the sign of the cross",
+      "Giving up a luxury or adding a spiritual practice for Lent",
+      "Stations of the Cross on Fridays during Lent"
+    ],
+    "liturgyNotes": [
+      "Violet vestments; no Gloria; no Alleluia until Easter",
+      "Ashes blessed and imposed during or after Mass or a Liturgy of the Word",
+      "Collect emphasizes conversion and inner renewal over external display"
+    ]
+  },
+  {
+    "sortOrder": 17,
+    "slug": "lent-overview",
+    "name": "Season of Lent",
+    "shortName": "Lent",
+    "dateLabel": "Ash Wednesday through Holy Thursday (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "season",
+    "holyDayUS": false,
+    "liturgicalColor": "violet",
+    "season": "Lent",
+    "titleHook": "Forty Days with the Lord in the Desert",
+    "facts": [
+      "Lent mirrors Jesus' 40 days of fasting in the wilderness before his public ministry.",
+      "The English word Lent comes from the Old English lencten, meaning 'spring season.'",
+      "The three pillars—prayer, fasting, almsgiving—are taught in Matthew 6:1–18, read on Ash Wednesday.",
+      "Sundays within Lent are not counted among the 40 penitential days."
+    ],
+    "traditions": [
+      "CRS Rice Bowl and parish almsgiving campaigns",
+      "Meatless Fridays and increased confession times",
+      "Lenten mission talks and Bible study groups in parishes"
+    ],
+    "liturgyNotes": [
+      "Violet vestments; Gloria omitted except on solemnities and feasts",
+      "Preface of Lent; optional Preface I of the Passion on Passion Sunday onward",
+      "Organ and floral restraint until Easter"
+    ]
+  },
+  {
+    "sortOrder": 18,
+    "slug": "lent-fasting-rules",
+    "name": "Lent Fasting & Abstinence",
+    "shortName": "Lent Fasting",
+    "dateLabel": "Ash Wednesday and all Fridays of Lent",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "discipline",
+    "holyDayUS": false,
+    "liturgicalColor": "violet",
+    "season": "Lent",
+    "titleHook": "The Church's Penitential Discipline in the U.S.",
+    "facts": [
+      "U.S. bishops require abstinence from meat on Ash Wednesday and all Fridays of Lent for Catholics 14 and older.",
+      "Fasting (one full meal, two smaller) binds Catholics aged 18–59 on Ash Wednesday and Good Friday.",
+      "Canon 1253 allows bishops' conferences to substitute other penances on non-Lent Fridays outside Lent.",
+      "The discipline unites Catholics with Christ's sacrifice and the poor who go without."
+    ],
+    "traditions": [
+      "Fish fries hosted by Knights of Columbus and parish councils",
+      "Simple meatless family meals on Fridays",
+      "Some Catholics add fasting beyond the minimum on Wednesdays"
+    ],
+    "liturgyNotes": [
+      "Penitential rite at Mass may be expanded during Lent",
+      "Homilies often explain fasting rules before Ash Wednesday",
+      "Confession schedules expand to support the penitential season"
+    ]
+  },
+  {
+    "sortOrder": 19,
+    "slug": "laetare-sunday",
+    "name": "Laetare Sunday",
+    "shortName": "Laetare Sunday",
+    "dateLabel": "Fourth Sunday of Lent (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "season",
+    "holyDayUS": false,
+    "liturgicalColor": "rose",
+    "season": "Lent",
+    "titleHook": "Rejoice—Easter Is Halfway in Sight",
+    "facts": [
+      "Laetare ('Rejoice') comes from the entrance antiphon Isaiah 66:10–11, a glimpse of joy mid-Lent.",
+      "Rose vestments mirror Gaudete Sunday in Advent—a pause in penitential austerity.",
+      "Historically called 'Mothering Sunday' in England, linked to visiting one's cathedral or mother church.",
+      "The midpoint of Lent encourages perseverance before the intensity of Holy Week."
+    ],
+    "traditions": [
+      "Fresh flowers allowed on the altar in some parishes",
+      "Simnel cake or rose-themed treats in Anglo-American Catholic homes",
+      "Sending encouragement to godparents and RCIA candidates"
+    ],
+    "liturgyNotes": [
+      "Rose vestments permitted; organ may be used more freely",
+      "Entrance antiphon: Laetare Jerusalem",
+      "Gospel often John 6 (multiplication of loaves) or John 9 (man born blind)"
+    ]
+  },
+  {
+    "sortOrder": 20,
+    "slug": "palm-sunday",
+    "name": "Palm Sunday of the Passion of the Lord",
+    "shortName": "Palm Sunday",
+    "dateLabel": "Sunday before Easter (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Holy Week",
+    "titleHook": "Hosanna Today, Crucify Him Friday",
+    "facts": [
+      "Commemorates Christ's triumphal entry into Jerusalem and opens Holy Week.",
+      "The Passion narrative is read in full—the longest Gospel proclamation of the liturgical year.",
+      "Palms blessed today are saved, dried, and burned for next year's Ash Wednesday ashes.",
+      "Called 'Palm Sunday of the Passion' since 1970 to emphasize both entry and suffering."
+    ],
+    "traditions": [
+      "Procession with blessed palm branches before Mass",
+      "Weaving palm crosses at home or in parish halls",
+      "Placing palms behind crucifixes or above doorways until next year"
+    ],
+    "liturgyNotes": [
+      "Red vestments; Gloria; no Creed",
+      "Blessing of palms and procession with Hosanna antiphon",
+      "Passion Gospel with assigned roles for priest, deacon, and congregation"
+    ]
+  },
+  {
+    "sortOrder": 21,
+    "slug": "holy-week-overview",
+    "name": "Holy Week",
+    "shortName": "Holy Week",
+    "dateLabel": "Palm Sunday through Holy Saturday (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "season",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Holy Week",
+    "titleHook": "The Church Walks with Christ to Calvary",
+    "facts": [
+      "Holy Week is the most sacred week of the Christian year, recounting the final days of Jesus' earthly life.",
+      "Liturgies shift from triumph (Palm Sunday) to institution (Holy Thursday) to death (Good Friday) to waiting (Holy Saturday).",
+      "The General Norms for the Liturgical Year rank Holy Week above all other weeks.",
+      "Many U.S. parishes cancel regular activities to focus on liturgy and the Triduum."
+    ],
+    "traditions": [
+      "Attending all three Triduum liturgies as one continuous celebration",
+      "Quiet home atmosphere—limiting entertainment and social media",
+      "Visiting churches for extended adoration or Stations of the Cross"
+    ],
+    "liturgyNotes": [
+      "Red or violet vestments depending on the day",
+      "Alleluia remains suppressed until the Easter Vigil",
+      "No sacraments other than Penance and Anointing of the Sick on Good Friday and Holy Saturday morning"
+    ]
+  },
+  {
+    "sortOrder": 22,
+    "slug": "holy-week-palm-branches",
+    "name": "Blessing of Palms",
+    "shortName": "Blessed Palms",
+    "dateLabel": "Palm Sunday (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Holy Week",
+    "titleHook": "Branches That Will Become Next Year's Ashes",
+    "facts": [
+      "Palms symbolize victory and royalty, echoing the crowd's welcome of Jesus as king.",
+      "In the U.S., palms are often imported from Florida, Texas, or Latin America.",
+      "Burning last year's palms for Ash Wednesday creates a liturgical cycle of praise to penance to resurrection.",
+      "Olive branches or other greenery are used where palms are unavailable."
+    ],
+    "traditions": [
+      "Children waving palms during the procession",
+      "Weaving palms into crosses, roses, or fish shapes",
+      "Tucking a palm behind a crucifix or religious image at home"
+    ],
+    "liturgyNotes": [
+      "Blessing of palms follows a rite in the Roman Missal before the procession",
+      "Procession may move from a gathering space into the church",
+      "Palms are sacramentals, not mere decorations"
+    ]
+  },
+  {
+    "sortOrder": 23,
+    "slug": "chrism-mass",
+    "name": "Chrism Mass",
+    "shortName": "Chrism Mass",
+    "dateLabel": "Holy Week, often Tuesday or Wednesday (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Holy Week",
+    "titleHook": "Bishop, Priests & Oils for the Year's Sacraments",
+    "facts": [
+      "The bishop blesses the Oil of Catechumens, Oil of the Sick, and consecrates Sacred Chrism.",
+      "Priests renew their commitment to priestly service in the presence of the bishop.",
+      "Chrism—olive oil mixed with balsam—is used for Baptism, Confirmation, and Ordination.",
+      "The Roman Missal encourages celebration during Holy Week, ideally on Holy Thursday morning."
+    ],
+    "traditions": [
+      "Parish representatives bring blessed oils back to their churches in procession",
+      "Some dioceses livestream the Chrism Mass for the faithful",
+      "Priests receive new stoles or gifts from parishioners after renewal"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria; large attendance of diocesan clergy",
+      "Renewal of priestly promises follows the homily",
+      "Blessed oils are distributed to parishes for the year's sacramental ministry"
+    ]
+  },
+  {
+    "sortOrder": 24,
+    "slug": "holy-thursday",
+    "name": "Mass of the Lord's Supper (Holy Thursday)",
+    "shortName": "Holy Thursday",
+    "dateLabel": "Thursday before Easter (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Holy Week",
+    "titleHook": "Institution of the Eucharist & Priesthood",
+    "facts": [
+      "Commemorates the Last Supper when Jesus gave his Body and Blood and washed the apostles' feet.",
+      "Opens the Easter Triduum—the three-day liturgy of Passion, Death, and Resurrection.",
+      "The Mass ends with a procession transferring the Blessed Sacrament to an altar of repose.",
+      "Altars are stripped after evening prayer, signaling the Church's desolation."
+    ],
+    "traditions": [
+      "Visiting seven churches or adoration chapels after Mass (especially in urban Catholic areas)",
+      "Foot-washing rite for parishioners representing diverse members of the community",
+      "Quiet adoration at the altar of repose until midnight"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria; no concluding dismissal—liturgy continues into Good Friday",
+      "Optional foot-washing of twelve persons after the homily",
+      "Blessed Sacrament processed to altar of repose for adoration"
+    ]
+  },
+  {
+    "sortOrder": 25,
+    "slug": "good-friday",
+    "name": "Good Friday of the Lord's Passion",
+    "shortName": "Good Friday",
+    "dateLabel": "Friday before Easter (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Holy Week",
+    "titleHook": "The Hour When Christ Loved to the End",
+    "facts": [
+      "Good Friday is the only day of the year when Mass is not celebrated anywhere in the world.",
+      "The liturgy is a Celebration of the Lord's Passion—Scripture, veneration of the cross, and Communion.",
+      "Fasting and abstinence from meat are obligatory for U.S. Catholics aged 18–59 and 14+ respectively.",
+      "The Good Friday collect has remained substantially unchanged since the 8th century."
+    ],
+    "traditions": [
+      "Stations of the Cross at 3 p.m., the traditional hour of Christ's death",
+      "Fasting on bread and water or simple meals",
+      "Solemn silence in homes until Easter Vigil"
+    ],
+    "liturgyNotes": [
+      "Red vestments; no Gloria, no Creed, no altar candles until Communion",
+      "Passion according to John; universal prayers for Church and world",
+      "Veneration of the cross and Communion from hosts consecrated on Holy Thursday"
+    ]
+  },
+  {
+    "sortOrder": 26,
+    "slug": "good-friday-veneration",
+    "name": "Veneration of the Cross",
+    "shortName": "Cross Veneration",
+    "dateLabel": "Good Friday liturgy (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Holy Week",
+    "titleHook": "Behold the Wood of the Cross",
+    "facts": [
+      "The cross is unveiled in three stages with the chant Ecce lignum Crucis ('Behold the wood of the Cross').",
+      "Each person is invited to venerate by kiss, touch, or genuflection—a personal encounter with the instrument of salvation.",
+      "The rite dates to fourth-century Jerusalem, when pilgrims venerated the relic of the True Cross.",
+      "Reproaches (Improperia) may be sung, voicing God's lament over human ingratitude."
+    ],
+    "traditions": [
+      "Kneeling or bowing deeply before approaching the cross",
+      "Some families keep a crucifix at home for private veneration on Good Friday",
+      "Multilingual Good Friday services in diverse U.S. parishes"
+    ],
+    "liturgyNotes": [
+      "Cross may be carried in procession or unveiled in the sanctuary",
+      "Congregation sings Crux fidelis or similar hymns during veneration",
+      "Only one large cross is used for the whole assembly when possible"
+    ]
+  },
+  {
+    "sortOrder": 27,
+    "slug": "easter-triduum",
+    "name": "Easter Triduum",
+    "shortName": "Easter Triduum",
+    "dateLabel": "Holy Thursday evening through Easter Sunday (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "season",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Holy Week",
+    "titleHook": "One Liturgy, Three Days, One Mystery",
+    "facts": [
+      "The Triduum (three days) is a single liturgical celebration, not three separate events.",
+      "It begins with the Evening Mass of the Lord's Supper and ends with Evening Prayer II of Easter Sunday.",
+      "No closing dismissal on Holy Thursday; no opening rite on Good Friday—they flow continuously.",
+      "The General Instruction calls the Triduum 'the culmination of the entire liturgical year.'"
+    ],
+    "traditions": [
+      "Clearing schedules to participate in all three days",
+      "RCIA elect receive sacraments at the Easter Vigil within the Triduum",
+      "Keeping lights low at home until the Vigil fire is kindled"
+    ],
+    "liturgyNotes": [
+      "Liturgy of the Hours during Triduum uses special antiphons and psalms",
+      "No other celebrations may take precedence over Triduum liturgies",
+      "Easter fire, baptism, and first Eucharist crown the Vigil as Triduum climax"
+    ]
+  },
+  {
+    "sortOrder": 28,
+    "slug": "holy-saturday-easter-vigil",
+    "name": "Holy Saturday & Easter Vigil",
+    "shortName": "Easter Vigil",
+    "dateLabel": "Holy Saturday night (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Easter",
+    "titleHook": "Night of Fire, Baptism & Alleluia Restored",
+    "facts": [
+      "Holy Saturday is a day of stark emptiness—Christ lies in the tomb and the altar remains bare.",
+      "The Easter Vigil, celebrated after nightfall, is the 'mother of all vigils' in the Roman Rite.",
+      "The Paschal candle is lit from the new fire and will burn at every liturgy until Ascension.",
+      "Adults baptized at the Vigil receive Confirmation and first Eucharist in the same celebration."
+    ],
+    "traditions": [
+      "Gathering outside the church for the blessing of the new fire",
+      "Godparents presenting catechumens for baptism",
+      "Festive gatherings after Mass—the first Alleluia party of the year"
+    ],
+    "liturgyNotes": [
+      "Four-part structure: Service of Light, Liturgy of the Word, Baptism, Liturgy of the Eucharist",
+      "Gloria returns with bells; Alleluia sung for the first time since Lent began",
+      "White vestments; church fully decorated with flowers and light"
+    ]
+  },
+  {
+    "sortOrder": 29,
+    "slug": "easter-vigil-readings",
+    "name": "Easter Vigil Readings",
+    "shortName": "Vigil Readings",
+    "dateLabel": "Easter Vigil (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Easter",
+    "titleHook": "Salvation History in Nine Readings",
+    "facts": [
+      "The Vigil requires a minimum of three Old Testament readings; the Roman Missal provides seven plus optional ones.",
+      "Readings span Creation, Abraham, Exodus, Isaiah, and other texts of deliverance.",
+      "Each Old Testament reading is followed by a responsorial psalm and collect.",
+      "The Epistle (Romans 6:3–11) and Gospel (Mark, Matthew, Luke, or John on rotation) proclaim the Resurrection."
+    ],
+    "traditions": [
+      "Holding vigil candles during the readings in darkened churches",
+      "RCIA candidates listening to salvation history for the last time before baptism",
+      "Parish choirs preparing elaborate responsorial psalms weeks in advance"
+    ],
+    "liturgyNotes": [
+      "At least three OT readings required; four if the Exsultet is not sung as a separate reading context",
+      "Gloria sung after Epistle, before Gospel",
+      "Extended Liturgy of the Word makes the Vigil typically 2–3 hours"
+    ]
+  },
+  {
+    "sortOrder": 30,
+    "slug": "easter-sunday",
+    "name": "Easter Sunday of the Resurrection",
+    "shortName": "Easter Sunday",
+    "dateLabel": "First Sunday after the first full moon on/after March 21",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Easter",
+    "titleHook": "Christ Is Risen—Death Has No Dominion",
+    "facts": [
+      "Easter is the feast of feasts, celebrating Jesus' victory over sin and death.",
+      "The date is set by the lunar calendar: first Sunday after the paschal full moon on or after March 21.",
+      "The empty tomb narratives in all four Gospels form the heart of Easter preaching.",
+      "Eastern and Western Christians often celebrate on different dates due to calendar differences."
+    ],
+    "traditions": [
+      "Easter baskets blessed in Polish-American and Slavic parishes",
+      "Easter egg hunts as cultural sign of new life (alongside, not replacing, liturgy)",
+      "Family photos after Mass in new Easter clothes"
+    ],
+    "liturgyNotes": [
+      "White or gold vestments; Gloria; Sequence Victimae paschali laudes",
+      "Double Alleluia appended to dismissal",
+      "Incense, flowers, and festive music at full expression"
+    ]
+  },
+  {
+    "sortOrder": 31,
+    "slug": "easter-octave",
+    "name": "Octave of Easter",
+    "shortName": "Easter Octave",
+    "dateLabel": "Easter Sunday through Divine Mercy Sunday (8 days)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "season",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Easter",
+    "titleHook": "Eight Days of Unbroken Easter Joy",
+    "facts": [
+      "Each day of the Octave ranks as a solemnity, as if Easter Sunday were repeated.",
+      "The Regina caeli replaces the Angelus from Easter until Pentecost.",
+      "Every Mass during the Octave uses the Easter preface and festive chants.",
+      "Low Sunday (Octave day) became Divine Mercy Sunday by St. John Paul II in 2000."
+    ],
+    "traditions": [
+      "Daily Mass attendance during the Octave in devout households",
+      "Easter meals and visits continuing through the week",
+      "Praying Regina caeli at noon instead of the Angelus"
+    ],
+    "liturgyNotes": [
+      "White vestments all week; Gloria at every Mass",
+      "Dismissal includes double Alleluia throughout the Octave",
+      "Each day has proper readings distinct from Easter Sunday"
+    ]
+  },
+  {
+    "sortOrder": 32,
+    "slug": "divine-mercy-sunday",
+    "name": "Divine Mercy Sunday",
+    "shortName": "Divine Mercy Sunday",
+    "dateLabel": "Second Sunday of Easter (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Easter",
+    "titleHook": "Fountain of Mercy Opened on the Octave Day",
+    "facts": [
+      "Instituted by St. John Paul II on April 30, 2000, during St. Faustina Kowalska's canonization.",
+      "Jesus told St. Faustina that souls receive extraordinary graces on this Sunday when they trust in his mercy.",
+      "The image of Divine Mercy—Jesus with rays of blood and water—was painted under Faustina's direction in 1934.",
+      "Plenary indulgence conditions include confession, Communion, prayer for the Pope, and trust in mercy."
+    ],
+    "traditions": [
+      "Chaplet of Divine Mercy prayed at 3 p.m.",
+      "Divine Mercy image enthroned in homes and parishes",
+      "Holy Hours and confessions extended on this Sunday"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gospel John 20:19–31 (Thomas and risen Lord)",
+      "Homilies often address mercy, forgiveness, and the sacrament of Reconciliation",
+      "Sequence Victimae paschali laudes may still be sung"
+    ]
+  },
+  {
+    "sortOrder": 33,
+    "slug": "ascension",
+    "name": "Ascension of the Lord",
+    "shortName": "Ascension",
+    "dateLabel": "40th day after Easter (Thursday; observed Sunday in most U.S. dioceses)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Easter",
+    "titleHook": "Christ Returns to the Father—Mission Begins",
+    "facts": [
+      "Commemorates Jesus' ascent into heaven 40 days after the Resurrection (Acts 1:3).",
+      "Most U.S. ecclesiastical provinces transfer the solemnity to the Seventh Sunday of Easter.",
+      "Christ's Ascension does not mean absence but enthronement—he reigns and sends the Spirit.",
+      "The Paschal candle is extinguished after Gospel on Ascension in many parishes, ending its primary season."
+    ],
+    "traditions": [
+      "Some dioceses still observe Ascension Thursday as a Holy Day of Obligation",
+      "Praying the Novena to the Holy Spirit beginning after Ascension",
+      "Blessing of fruits and harvest in rural Catholic communities"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel: Luke 24:46–53 or Mark 16:15–20 or Acts 1:1–11",
+      "Preface of the Ascension is used"
+    ]
+  },
+  {
+    "sortOrder": 34,
+    "slug": "pentecost",
+    "name": "Pentecost Sunday",
+    "shortName": "Pentecost",
+    "dateLabel": "50th day after Easter (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Easter",
+    "titleHook": "The Spirit Descends—Birthday of the Church",
+    "facts": [
+      "Pentecost marks the descent of the Holy Spirit on the apostles, birthing the Church.",
+      "Jewish Pentecost (Shavuot) celebrated the giving of the Law; Christian Pentecost gives the Spirit of the Law.",
+      "Peter's sermon in Acts 2 converts about 3,000—the first great harvest of souls.",
+      "Pentecost ends the Easter season; Ordinary Time resumes the following day."
+    ],
+    "traditions": [
+      "Red clothing symbolizing tongues of fire",
+      "Multilingual readings of Acts 2:1–11 in diverse parishes",
+      "Birthday cake for the Church in children's faith formation"
+    ],
+    "liturgyNotes": [
+      "Red vestments; Gloria and Creed",
+      "Sequence Veni, Sancte Spiritus on Pentecost Sunday",
+      "Extended intercessions for the unity and mission of the Church"
+    ]
+  },
+  {
+    "sortOrder": 35,
+    "slug": "pentecost-novena",
+    "name": "Novena to the Holy Spirit",
+    "shortName": "Pentecost Novena",
+    "dateLabel": "Nine days before Pentecost (Ascension to Pentecost Eve)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Easter",
+    "titleHook": "Nine Days of Prayer with Mary in the Upper Room",
+    "facts": [
+      "The apostles and Mary prayed for nine days between Ascension and Pentecost (Acts 1:14).",
+      "The Church's first novena models this period of expectant prayer for the Spirit.",
+      "St. John Paul II encouraged revival of the Pentecost Novena in the late 20th century.",
+      "Each day traditionally meditates on one of the seven gifts of the Holy Spirit."
+    ],
+    "traditions": [
+      "Parish novenas with daily Mass or prayer services",
+      "Family prayer to the Holy Spirit at dinner during the nine days",
+      "RCIA and confirmation candidates praying for outpouring of the Spirit"
+    ],
+    "liturgyNotes": [
+      "Liturgy of the Hours includes proper antiphons in the days before Pentecost",
+      "Homilies during the novena often catechize on the Spirit's gifts and fruits",
+      "Confirmation Masses are often scheduled near Pentecost"
+    ]
+  },
+  {
+    "sortOrder": 36,
+    "slug": "trinity-sunday",
+    "name": "Solemnity of the Most Holy Trinity",
+    "shortName": "Trinity Sunday",
+    "dateLabel": "Sunday after Pentecost (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "One God in Three Persons—Faith's Central Mystery",
+    "facts": [
+      "Instituted by Pope John XXII in 1334, originally as a local feast that became universal.",
+      "Summarizes the Easter mystery: the Father sends the Son; the Son sends the Spirit.",
+      "St. Patrick's shamrock analogy is popular in catechesis but theology goes far deeper.",
+      "The Athanasian Creed may be recited or studied on this day in some communities."
+    ],
+    "traditions": [
+      "Renewal of baptismal faith in the Trinity at Mass",
+      "Teaching children the Sign of the Cross with theological explanation",
+      "Trinitarian hymns at parish coffee hours"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Preface of the Most Holy Trinity is obligatory",
+      "Readings from Proverbs 8, Romans 5, or Matthew 28 on the mission mandate"
+    ]
+  },
+  {
+    "sortOrder": 37,
+    "slug": "corpus-christi",
+    "name": "Solemnity of the Most Holy Body and Blood of Christ",
+    "shortName": "Corpus Christi",
+    "dateLabel": "Thursday after Trinity Sunday (observed Sunday in U.S.)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Procession of the Real Presence Through the Streets",
+    "facts": [
+      "Instituted by Pope Urban IV in 1264 after St. Juliana of Liège's advocacy for a Eucharistic feast.",
+      "St. Thomas Aquinas composed the hymns Pange lingua and Tantum ergo for this feast.",
+      "The U.S. transfers the solemnity to the Sunday after Trinity Sunday for fuller participation.",
+      "Public processions affirm belief in Real Presence against medieval doubts and modern secularism."
+    ],
+    "traditions": [
+      "Eucharistic processions through neighborhood streets",
+      "Flower petals and incense along the procession route",
+      "Forty Hours Devotion or adoration benediction in parishes"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel John 6:51–58 (Bread of Life discourse)",
+      "Procession with monstrance follows Mass in many U.S. parishes"
+    ]
+  },
+  {
+    "sortOrder": 38,
+    "slug": "corpus-christi-procession",
+    "name": "Corpus Christi Procession",
+    "shortName": "Eucharistic Procession",
+    "dateLabel": "Corpus Christi solemnity (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Christ Walks Among His People in the Host",
+    "facts": [
+      "Eucharistic processions became widespread after the feast's institution in the 13th century.",
+      "Canon law encourages public witness to faith, including processions on this day.",
+      "Four altars at corners represent the four Gospels or stages of salvation history in some traditions.",
+      "Pope Francis restored the Rome procession along Via Merulana after a pandemic pause."
+    ],
+    "traditions": [
+      "Children strewing flower petals before the monstrance",
+      "Multiple parishes converging at a central shrine in large cities",
+      "Benediction at outdoor altars along the route"
+    ],
+    "liturgyNotes": [
+      "Procession follows Mass; Tantum ergo sung at benediction",
+      "Humeral veil covers the priest bearing the monstrance",
+      "Proper prayers for Eucharistic processions in the Roman Ritual"
+    ]
+  },
+  {
+    "sortOrder": 39,
+    "slug": "sacred-heart",
+    "name": "Solemnity of the Most Sacred Heart of Jesus",
+    "shortName": "Sacred Heart",
+    "dateLabel": "Friday after the second Sunday after Pentecost (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Burning Love That Pierced the Cross",
+    "facts": [
+      "Devotion promoted after St. Margaret Mary Alacoque's visions in Paray-le-Monial (1673–1675).",
+      "Jesus requested a feast on the Friday after Corpus Christi octave—now calculated from Pentecost.",
+      "The pierced heart symbolizes Christ's love revealed on the Cross and in the Eucharist.",
+      "Pope Leo XIII consecrated the human race to the Sacred Heart in 1899."
+    ],
+    "traditions": [
+      "Enthronement of the Sacred Heart image in Catholic homes",
+      "First Friday Mass and confession devotion",
+      "National consecrations renewed in times of crisis"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel from John 19 or Luke 15 on divine love",
+      "Preface of the Sacred Heart may be used"
+    ]
+  },
+  {
+    "sortOrder": 40,
+    "slug": "sacred-heart-first-friday",
+    "name": "First Friday Devotion",
+    "shortName": "First Friday",
+    "dateLabel": "First Friday of each month (year-round devotion)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Nine First Fridays for the Love of Christ",
+    "facts": [
+      "St. Margaret Mary promoted Communion on nine consecutive First Fridays in reparation.",
+      "Jesus promised special help at death and grace for final perseverance to those who complete the devotion.",
+      "First Friday Masses surged in American parishes during the 20th century.",
+      "The devotion complements the Sacred Heart solemnity without replacing Sunday obligation."
+    ],
+    "traditions": [
+      "Morning Mass and evening adoration on First Fridays",
+      "Family consecration to the Sacred Heart on the first Friday of the month",
+      "St. Alphonsus Liguori's prayers of reparation in parish pamphlets"
+    ],
+    "liturgyNotes": [
+      "Votive Mass of the Sacred Heart may be celebrated",
+      "Homilies often address reparation and frequent Communion",
+      "Forty Hours or extended adoration common on First Fridays"
+    ]
+  },
+  {
+    "sortOrder": 41,
+    "slug": "immaculate-heart",
+    "name": "Memorial of the Immaculate Heart of Mary",
+    "shortName": "Immaculate Heart",
+    "dateLabel": "Saturday after Sacred Heart solemnity (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "memorial",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Mary's Heart Pierced with Sorrow and Love",
+    "facts": [
+      "Paired with Sacred Heart since 1944 when Pius XII moved it to the day after that solemnity.",
+      "Simeon's prophecy—'a sword will pierce your own soul'—is read on this memorial.",
+      "Our Lady of Fatima linked devotion to her Immaculate Heart with world peace in 1917.",
+      "Consecration to Mary's Immaculate Heart is practiced by millions of Catholics worldwide."
+    ],
+    "traditions": [
+      "First Saturday devotion—Mass, confession, rosary, and meditation",
+      "Consecration prayers of St. Louis de Montfort in parish groups",
+      "Blue and white flowers at Mary's altar"
+    ],
+    "liturgyNotes": [
+      "White vestments; readings on Mary's fidelity and sorrow",
+      "Optional memorial may be observed as a feast in some Marian shrines",
+      "Collect emphasizes Mary's cooperation in redemption"
+    ]
+  },
+  {
+    "sortOrder": 42,
+    "slug": "nativity-of-john-baptist",
+    "name": "Nativity of St. John the Baptist",
+    "shortName": "St. John the Baptist",
+    "dateLabel": "June 24 (fixed)",
+    "month": 6,
+    "day": 24,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Voice in the Wilderness—Six Months Before Christ",
+    "facts": [
+      "One of only three birthdays celebrated in the liturgical calendar (with Mary and Jesus).",
+      "June 24 falls six months before Christmas, mirroring Luke's chronology of the Baptist's birth.",
+      "The angel Gabriel announced John's birth to Zechariah in the Temple.",
+      "John leaped in Elizabeth's womb at Mary's visitation—the unborn prophet greeting the unborn Lord."
+    ],
+    "traditions": [
+      "Bonfires (St. John's fires) in European-American Catholic communities",
+      "Blessing of water bodies near parishes named St. John",
+      "Summer parish festivals on the weekend nearest June 24"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel Luke 1:57–66, 80 (birth and naming of John)",
+      "Preface of saints in baptism may be used"
+    ]
+  },
+  {
+    "sortOrder": 43,
+    "slug": "saints-peter-and-paul",
+    "name": "Solemnity of Saints Peter and Paul",
+    "shortName": "Peter & Paul",
+    "dateLabel": "June 29 (fixed)",
+    "month": 6,
+    "day": 29,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Ordinary Time",
+    "titleHook": "Pillars of the Church—Rome's Patron Saints",
+    "facts": [
+      "Commemorates the martyrdom of both apostles in Rome under Nero, tradition holds on the same date.",
+      "Peter received the keys (Matthew 16); Paul received the mission to the Gentiles (Acts 9).",
+      "The pope blesses the pallium for new metropolitan archbishops at St. Peter's on this day.",
+      "Anglican-Roman Catholic dialogues often note this feast as a shared apostolic foundation."
+    ],
+    "traditions": [
+      "Special prayers for the Pope's ministry",
+      "Italian-American festivals (Sagra) on the weekend of June 29",
+      "Red vestments and martyr imagery in parish bulletins"
+    ],
+    "liturgyNotes": [
+      "Red vestments; Gloria and Creed",
+      "Readings from Acts on Peter and Paul; Gospel Matthew 16:13–19",
+      "Solemnity takes precedence over the weekday in Ordinary Time"
+    ]
+  },
+  {
+    "sortOrder": 44,
+    "slug": "transfiguration",
+    "name": "Feast of the Transfiguration",
+    "shortName": "Transfiguration",
+    "dateLabel": "August 6 (fixed)",
+    "month": 8,
+    "day": 6,
+    "isMoveable": false,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Glory Revealed on Mount Tabor",
+    "facts": [
+      "Commemorates Christ's radiant transformation before Peter, James, and John (Matthew 17).",
+      "The feast was observed in the East by the 9th century and extended to the West in 1457.",
+      "Pope Calixtus III linked August 6 to victory at Belgrade (1456), giving the date political resonance.",
+      "Moses and Elijah appear, representing the Law and the Prophets bearing witness to Jesus."
+    ],
+    "traditions": [
+      "Blessing of grapes and summer fruit in some Eastern Catholic parishes in the U.S.",
+      "Mountain pilgrimages at shrines named for the Transfiguration",
+      "Meditation on Christ's divinity before the Passion narratives of August"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria",
+      "Gospel Mark 9:2–10 or parallel accounts",
+      "Preface of the Transfiguration when approved for the diocese"
+    ]
+  },
+  {
+    "sortOrder": 45,
+    "slug": "assumption",
+    "name": "Assumption of the Blessed Virgin Mary",
+    "shortName": "Assumption",
+    "dateLabel": "August 15 (fixed)",
+    "month": 8,
+    "day": 15,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": true,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Mary Taken Body and Soul into Heaven",
+    "facts": [
+      "Defined as dogma by Pope Pius XII in Munificentissimus Deus on November 1, 1950.",
+      "The Assumption means Mary was taken into heavenly glory at the end of her earthly life.",
+      "One of six Holy Days of Obligation in the United States.",
+      "Eastern Churches celebrate the Dormition (Falling Asleep) of the Theotokos on the same date."
+    ],
+    "traditions": [
+      "Attending Mass as a Holy Day of Obligation",
+      "Blessing of herbs and flowers in some ethnic parishes",
+      "Marian processions in Polish and Hispanic-American communities"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "First reading often Revelation 11:19–12:1 (woman clothed with the sun)",
+      "Preface of the Assumption emphasizes Mary's share in Christ's resurrection"
+    ]
+  },
+  {
+    "sortOrder": 46,
+    "slug": "queenship-of-mary",
+    "name": "Memorial of the Queenship of Mary",
+    "shortName": "Queenship of Mary",
+    "dateLabel": "August 22 (fixed)",
+    "month": 8,
+    "day": 22,
+    "isMoveable": false,
+    "rank": "memorial",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Coronation of the Mother of the King",
+    "facts": [
+      "Instituted by Pope Pius XII in 1954, eight days after the Assumption (octave day in former calendar).",
+      "Mary's queenship flows from her role as Mother of Christ the King, not from independent power.",
+      "The fifth Glorious Mystery of the rosary meditates on the Coronation.",
+      "Litany of Loreto invokes Mary as Queen of Angels, Patriarchs, Prophets, and Apostles."
+    ],
+    "traditions": [
+      "Crowning statue of Mary with a floral wreath in August",
+      "Rosary processions in honor of Mary Queen",
+      "May crowning sometimes repeated in August Marian feasts"
+    ],
+    "liturgyNotes": [
+      "White vestments; Marian collect",
+      "Gospel may be Luke 1:39–56 (Magnificat)",
+      "Memorial ranks below Assumption but above optional memorials"
+    ]
+  },
+  {
+    "sortOrder": 47,
+    "slug": "nativity-of-mary",
+    "name": "Nativity of the Blessed Virgin Mary",
+    "shortName": "Mary's Birthday",
+    "dateLabel": "September 8 (fixed)",
+    "month": 9,
+    "day": 8,
+    "isMoveable": false,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Nine Months After Immaculate Conception",
+    "facts": [
+      "One of the oldest Marian feasts, observed in Jerusalem by the 6th century.",
+      "September 8 falls nine months after December 8, linking birth to Immaculate Conception.",
+      "Scripture does not record Mary's birth; tradition fills the gap with Joachim and Anne.",
+      "The feast opens the autumn Marian month in many U.S. parishes."
+    ],
+    "traditions": [
+      "Birthday cake for Mary at parish faith formation events",
+      "Blue-themed decorations and Marian hymns",
+      "Praying the rosary with focus on the Joyful Mysteries"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria",
+      "Gospel Matthew 1:1–16 or 1:18–23 (genealogy or annunciation context)",
+      "Preface of the Blessed Virgin Mary on feasts"
+    ]
+  },
+  {
+    "sortOrder": 48,
+    "slug": "exaltation-of-holy-cross",
+    "name": "Exaltation of the Holy Cross",
+    "shortName": "Holy Cross",
+    "dateLabel": "September 14 (fixed)",
+    "month": 9,
+    "day": 14,
+    "isMoveable": false,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "red",
+    "season": "Ordinary Time",
+    "titleHook": "Victory Banner Raised on Calvary",
+    "facts": [
+      "Commemorates the discovery of the True Cross by St. Helena in Jerusalem (c. 326).",
+      "The basilica of the Holy Sepulchre was dedicated on September 13, 335; the feast followed.",
+      "Also honors the recovery of the cross from Persian captivity in 628.",
+      "The sign of the cross traces its liturgical prominence to this feast's theology."
+    ],
+    "traditions": [
+      "Veneration of the cross in parish liturgy",
+      "Planting small wooden crosses in home gardens as sacramentals",
+      "Red vestments and crucifix-focused homilies"
+    ],
+    "liturgyNotes": [
+      "Red vestments; Gloria",
+      "Gospel John 3:13–17 (Son of Man lifted up)",
+      "Hymn Crux fidelis often sung"
+    ]
+  },
+  {
+    "sortOrder": 49,
+    "slug": "archangels",
+    "name": "Feast of Saints Michael, Gabriel, and Raphael",
+    "shortName": "Archangels",
+    "dateLabel": "September 29 (fixed)",
+    "month": 9,
+    "day": 29,
+    "isMoveable": false,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Heaven's Messengers Who Stand Before God",
+    "facts": [
+      "Michael ('Who is like God?') defeats Satan in Revelation 12 and Daniel 10.",
+      "Gabriel announced the Incarnation to Mary and the birth of John to Zechariah.",
+      "Raphael guides Tobias in the Old Testament book bearing his name.",
+      "Only these three archangels are named in Scripture and liturgically celebrated together."
+    ],
+    "traditions": [
+      "St. Michael prayer after Mass in October (linked to Michaelmas season)",
+      "Police, military, and emergency workers seeking St. Michael's intercession",
+      "Angel food cake or special desserts in family tradition on Michaelmas"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria",
+      "Gospel John 1:47–51 (angels ascending and descending)",
+      "Preface of the angels may be used"
+    ]
+  },
+  {
+    "sortOrder": 50,
+    "slug": "guardian-angels",
+    "name": "Memorial of the Guardian Angels",
+    "shortName": "Guardian Angels",
+    "dateLabel": "October 2 (fixed)",
+    "month": 10,
+    "day": 2,
+    "isMoveable": false,
+    "rank": "memorial",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Personal Protectors Assigned by God",
+    "facts": [
+      "Jesus said angels always behold the face of the Father (Matthew 18:10), basis for guardian angel belief.",
+      "St. Basil taught that each person has an angel guardian; the Catechism affirms this (336).",
+      "Memorial fixed on October 2 since the 1600s in the Roman calendar.",
+      "Guardian angel prayers are among the first taught to Catholic children in the U.S."
+    ],
+    "traditions": [
+      "Children's prayer: 'Angel of God, my guardian dear...'",
+      "Guardian angel feast parties in Catholic schools",
+      "Thanksgiving to one's angel on birthdays"
+    ],
+    "liturgyNotes": [
+      "White vestments; optional memorial collect",
+      "Gospel Matthew 18:1–5, 10 on angels and little ones",
+      "Suitable for catechesis on invisible guardianship"
+    ]
+  },
+  {
+    "sortOrder": 51,
+    "slug": "all-saints",
+    "name": "All Saints' Day",
+    "shortName": "All Saints",
+    "dateLabel": "November 1 (fixed)",
+    "month": 11,
+    "day": 1,
+    "isMoveable": false,
+    "rank": "solemnity",
+    "holyDayUS": true,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Communion of Saints in Heaven & on Earth",
+    "facts": [
+      "Honors all saints in heaven—known and unknown—not just canonized figures.",
+      "Pope Gregory IV extended a November 1 feast to the whole Church in 835.",
+      "One of six Holy Days of Obligation in the United States.",
+      "The beatitudes (Matthew 5) are the classic All Saints Gospel."
+    ],
+    "traditions": [
+      "Dressing as saints for parish All Saints parties (especially children)",
+      "Visiting cemeteries to honor holy lives on the eve (Halloween = All Hallows Eve)",
+      "Reading lives of saints at family dinner"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel Matthew 5:1–12a (Beatitudes)",
+      "Preface of All Saints or Common Preface I"
+    ]
+  },
+  {
+    "sortOrder": 52,
+    "slug": "all-souls",
+    "name": "Commemoration of All the Faithful Departed",
+    "shortName": "All Souls",
+    "dateLabel": "November 2 (fixed)",
+    "month": 11,
+    "day": 2,
+    "isMoveable": false,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "violet",
+    "season": "Ordinary Time",
+    "titleHook": "Praying for the Holy Souls in Purgatory",
+    "facts": [
+      "St. Odilo of Cluny established a day of prayer for the dead in 998, spreading across Europe.",
+      "The Church Suffering (souls in purgatory) rely on the Church Militant's prayers and Masses.",
+      "November 2 is not a Holy Day of Obligation but draws large attendance for memorial Masses.",
+      "Día de los Muertos in Hispanic culture intertwines with All Souls in the U.S. Southwest."
+    ],
+    "traditions": [
+      "Visiting family graves with flowers and candles",
+      "Enrolling deceased names in parish Book of Remembrance",
+      "Lighting candles on home altars for departed relatives"
+    ],
+    "liturgyNotes": [
+      "Violet vestments; Gloria omitted; Creed optional",
+      "Gospel John 6:37–40 (will of the Father to raise the dead)",
+      "Multiple Masses permitted for the dead on this day"
+    ]
+  },
+  {
+    "sortOrder": 53,
+    "slug": "all-souls-indulgences",
+    "name": "All Souls Indulgences",
+    "shortName": "All Souls Indulgences",
+    "dateLabel": "November 2 and the week of All Souls (Nov 1–8)",
+    "month": 11,
+    "day": 2,
+    "isMoveable": false,
+    "rank": "devotion",
+    "holyDayUS": false,
+    "liturgicalColor": "violet",
+    "season": "Ordinary Time",
+    "titleHook": "The Church's Treasury Applied to the Dead",
+    "facts": [
+      "A plenary indulgence for the dead is available Nov 1–8 by visiting a cemetery and praying for the dead.",
+      "Another plenary indulgence applies on All Souls Day for visiting a church and praying the Our Father and Creed.",
+      "Conditions include detachment from sin, confession, Communion, and prayer for the Pope's intentions.",
+      "Indulgences remit temporal punishment, not guilt—they aid souls already saved."
+    ],
+    "traditions": [
+      "Parish bulletins listing indulgence conditions each October",
+      "Family cemetery visits with rosary for deceased relatives",
+      "Offering a plenary indulgence intentionally for a specific soul"
+    ],
+    "liturgyNotes": [
+      "Priests may celebrate three Masses on All Souls with distinct intentions",
+      "Homilies explain purgatory and the communion of saints",
+      "Intercessions name parishioners who died in the past year"
+    ]
+  },
+  {
+    "sortOrder": 54,
+    "slug": "dedication-of-lateran",
+    "name": "Dedication of the Lateran Basilica",
+    "shortName": "Lateran Basilica",
+    "dateLabel": "November 9 (fixed)",
+    "month": 11,
+    "day": 9,
+    "isMoveable": false,
+    "rank": "feast",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Mother Church of Rome & All Christendom",
+    "facts": [
+      "San Giovanni in Laterano is the cathedral of the Bishop of Rome—the Pope's church.",
+      "Dedicated in 324 by Pope Sylvester I after Constantine's legalization of Christianity.",
+      "Feast celebrates every church building as a temple of the living God (Ezekiel 47).",
+      "The inscription calls it 'Mother and Head of all churches in the city and the world.'"
+    ],
+    "traditions": [
+      "Blessing of new parish buildings or renovations on this feast",
+      "Prayers for the Pope and unity of the Church",
+      "Touring one's own cathedral as a pilgrimage"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria",
+      "Gospel John 2:13–22 (temple of Christ's body) or Luke 19:1–10",
+      "Preface of the Dedication of a Church when appropriate"
+    ]
+  },
+  {
+    "sortOrder": 55,
+    "slug": "christ-the-king",
+    "name": "Solemnity of Our Lord Jesus Christ, King of the Universe",
+    "shortName": "Christ the King",
+    "dateLabel": "Last Sunday before Advent (moveable)",
+    "month": null,
+    "day": null,
+    "isMoveable": true,
+    "rank": "solemnity",
+    "holyDayUS": false,
+    "liturgicalColor": "white",
+    "season": "Ordinary Time",
+    "titleHook": "Crown of the Year—Christ Reigns Over All",
+    "facts": [
+      "Instituted by Pope Pius XI in 1925 in Quas primas against secularism and nationalism.",
+      "Placed on the last Sunday of Ordinary Time, closing the liturgical year before Advent.",
+      "The Gospel is Matthew 25:31–46—judgment based on care for the least, not earthly power.",
+      "Christ's kingship is one of service, truth, and sacrificial love."
+    ],
+    "traditions": [
+      "Processions with Christ the King banners in Hispanic parishes",
+      "Social justice collections linking kingship to Matthew 25",
+      "Transitioning Advent wreaths and purple vestments the following week"
+    ],
+    "liturgyNotes": [
+      "White vestments; Gloria and Creed",
+      "Gospel Matthew 25:31–46 (Sheep and Goats)",
+      "Preface of Christ the King emphasizes universal reign"
+    ]
+  }
+]

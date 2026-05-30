@@ -8,6 +8,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { getCanonicalCategory } from "@/lib/blogCategories";
 import { POPE_BLOG_POSTS } from "@/data/popeBlogPosts";
 import { SAINT_OF_DAY_BLOG_POSTS } from "@/data/saintOfDayBlogPosts";
+import { CATHOLIC_FEAST_DATE_BLOG_POSTS } from "@/data/catholicFeastDateBlogPosts";
 
 interface BlogPost {
   id: number;
@@ -3787,6 +3788,7 @@ export const blogPosts: BlogPost[] = [
   { id: 1258, slug: "spiritual-gifts-guide", title: "Spiritual Gifts: The Complete Catholic Guide to Charisms & How to Discover Yours", excerpt: "What are spiritual gifts? The complete Catholic guide to charisms — the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them for the Church.", date: "2026-05-08", readTime: "18 min", category: "Spiritual Life", icon: Flame, bgColor: "bg-orange-50", iconColor: "text-orange-500" },
   ...POPE_BLOG_POSTS,
   ...SAINT_OF_DAY_BLOG_POSTS,
+  ...CATHOLIC_FEAST_DATE_BLOG_POSTS,
 ];
 
 export default function BlogPage() {

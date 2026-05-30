@@ -521,6 +521,8 @@ const ListOfAllPopesCatholicGuide = lazy(() => import("./pages/blog/ListOfAllPop
 const PopeArticlePage = lazy(() => import("./pages/blog/PopeArticlePage"));
 const SaintOfDayHub = lazy(() => import("./pages/blog/SaintOfDayHub"));
 const SaintOfDayArticlePage = lazy(() => import("./pages/blog/SaintOfDayArticlePage"));
+const CatholicFeastDatesHub = lazy(() => import("./pages/blog/CatholicFeastDatesHub"));
+const CatholicFeastDateArticlePage = lazy(() => import("./pages/blog/CatholicFeastDateArticlePage"));
 
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
@@ -1049,6 +1051,10 @@ export function AppRoutes() {
             <Route path="/blog/catholic-tithing-guide/" element={<CatholicTithingGuide />} />
             <Route path="/blog/immaculate-conception-guide/" element={<ImmaculateConceptionGuide />} />
             <Route path="/blog/spiritual-gifts-guide/" element={<SpiritualGiftsGuide />} />
+
+            {/* Catholic Feast Days — liturgical calendar guides */}
+            <Route path="/blog/catholic-feast-days/" element={<CatholicFeastDatesHub />} />
+            <Route path="/blog/catholic-feast-days/:feastSlug/" element={<CatholicFeastDateArticlePage />} />
 
             {/* Saint of the Day — dynamic date routes */}
             <Route path="/blog/saint-of-the-day/" element={<SaintOfDayHub />} />
