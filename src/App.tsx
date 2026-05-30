@@ -477,6 +477,16 @@ const CatholicCremationRulesUsa = lazy(() => import("./pages/blog/CatholicCremat
 const PreceptsOfTheCatholicChurch = lazy(() => import("./pages/blog/PreceptsOfTheCatholicChurch"));
 const PrayerOfStFrancisCatholic = lazy(() => import("./pages/blog/PrayerOfStFrancisCatholic"));
 const LitanyOfHumilityCatholic = lazy(() => import("./pages/blog/LitanyOfHumilityCatholic"));
+const NovenaForClarityCatholic = lazy(() => import("./pages/blog/NovenaForClarityCatholic"));
+const StJosephNovenaForEmployment = lazy(() => import("./pages/blog/StJosephNovenaForEmployment"));
+const StJosephNovenaSellingHouse = lazy(() => import("./pages/blog/StJosephNovenaSellingHouse"));
+const NovenaForFinancialHelpCatholic = lazy(() => import("./pages/blog/NovenaForFinancialHelpCatholic"));
+const StRitaNovenaImpossibleCauses = lazy(() => import("./pages/blog/StRitaNovenaImpossibleCauses"));
+const NovenaBeforeSurgeryCatholic = lazy(() => import("./pages/blog/NovenaBeforeSurgeryCatholic"));
+const StMonicaNovenaForChildren = lazy(() => import("./pages/blog/StMonicaNovenaForChildren"));
+const NovenaForMarriageCatholic = lazy(() => import("./pages/blog/NovenaForMarriageCatholic"));
+const StPadrePioNovenaHealing = lazy(() => import("./pages/blog/StPadrePioNovenaHealing"));
+const UndoerOfKnotsNovenaGuide = lazy(() => import("./pages/blog/UndoerOfKnotsNovenaGuide"));
 
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
@@ -785,6 +795,16 @@ const App = () => (
             <Route path="/blog/precepts-of-the-catholic-church/" element={<PreceptsOfTheCatholicChurch />} />
             <Route path="/blog/prayer-of-st-francis-catholic/" element={<PrayerOfStFrancisCatholic />} />
             <Route path="/blog/litany-of-humility-catholic/" element={<LitanyOfHumilityCatholic />} />
+            <Route path="/blog/novena-for-clarity-catholic/" element={<NovenaForClarityCatholic />} />
+            <Route path="/blog/st-joseph-novena-for-employment/" element={<StJosephNovenaForEmployment />} />
+            <Route path="/blog/st-joseph-novena-selling-house/" element={<StJosephNovenaSellingHouse />} />
+            <Route path="/blog/novena-for-financial-help-catholic/" element={<NovenaForFinancialHelpCatholic />} />
+            <Route path="/blog/st-rita-novena-impossible-causes/" element={<StRitaNovenaImpossibleCauses />} />
+            <Route path="/blog/novena-before-surgery-catholic/" element={<NovenaBeforeSurgeryCatholic />} />
+            <Route path="/blog/st-monica-novena-for-children/" element={<StMonicaNovenaForChildren />} />
+            <Route path="/blog/novena-for-marriage-catholic/" element={<NovenaForMarriageCatholic />} />
+            <Route path="/blog/st-padre-pio-novena-healing/" element={<StPadrePioNovenaHealing />} />
+            <Route path="/blog/undoer-of-knots-novena-guide/" element={<UndoerOfKnotsNovenaGuide />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />

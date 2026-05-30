@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, Globe, Utensils, Layers, ListOrdered, CircleDot, Crown, Mountain, HandHeart, HeartHandshake, Music, Music2, TreePine, Scale, Bird, Flower2, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, Globe, Utensils, Layers, ListOrdered, CircleDot, Crown, Mountain, HandHeart, HeartHandshake, Music, Music2, TreePine, Scale, Bird, Flower2, Compass, Briefcase, Link2, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -26,6 +26,126 @@ const trimMetaDescription = (description: string) => {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1302,
+    slug: "undoer-of-knots-novena-guide",
+    title: "Undoer of Knots Novena: 9-Day Prayer to Mary (Full Text & How to Pray)",
+    excerpt: "Mary Undoer of Knots novena — 9-day Catholic prayer with full text for tangled marriage, family, work, and impossible situations.",
+    date: "2026-06-01",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Link2,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-700"
+  },
+  {
+    id: 1301,
+    slug: "st-padre-pio-novena-healing",
+    title: "St. Padre Pio Novena for Healing: 9-Day Prayer (Full Text)",
+    excerpt: "St. Padre Pio Novena for healing — 9-day Catholic prayer with full text for physical and spiritual recovery.",
+    date: "2026-06-01",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Cross,
+    bgColor: "bg-red-100",
+    iconColor: "text-red-700"
+  },
+  {
+    id: 1300,
+    slug: "novena-for-marriage-catholic",
+    title: "Novena for Marriage: 9-Day Catholic Prayer for Your Spouse & Relationship",
+    excerpt: "Novena for marriage — 9-day Catholic prayer for your spouse, healing, and unity in sacramental marriage.",
+    date: "2026-06-01",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Heart,
+    bgColor: "bg-pink-100",
+    iconColor: "text-pink-600"
+  },
+  {
+    id: 1299,
+    slug: "st-monica-novena-for-children",
+    title: "St. Monica Novena for Children: 9-Day Prayer for Conversion & Return",
+    excerpt: "St. Monica Novena for children — 9-day Catholic prayer for wayward sons and daughters to return to the faith.",
+    date: "2026-06-01",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Users,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-700"
+  },
+  {
+    id: 1298,
+    slug: "novena-before-surgery-catholic",
+    title: "Novena Before Surgery: 9-Day Catholic Prayer for Healing & Peace",
+    excerpt: "Novena before surgery — 9-day Catholic prayer for healing, peace, and a successful operation for patients and families.",
+    date: "2026-06-01",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: HeartPulse,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
+  {
+    id: 1297,
+    slug: "st-rita-novena-impossible-causes",
+    title: "St. Rita Novena for Impossible Causes: 9-Day Prayer (Full Text)",
+    excerpt: "St. Rita Novena for impossible causes — 9-day Catholic prayer with full text, patron of hopeless cases.",
+    date: "2026-06-01",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Sparkles,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-700"
+  },
+  {
+    id: 1296,
+    slug: "novena-for-financial-help-catholic",
+    title: "Novena for Financial Help: 9-Day Catholic Prayer for Money & Debt",
+    excerpt: "Novena for financial help — 9-day Catholic prayer for money, debt, bills, and trust in God's providence.",
+    date: "2026-06-01",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Coins,
+    bgColor: "bg-green-100",
+    iconColor: "text-green-700"
+  },
+  {
+    id: 1295,
+    slug: "st-joseph-novena-selling-house",
+    title: "St. Joseph Novena for Selling a House: 9-Day Catholic Prayer Guide",
+    excerpt: "St. Joseph Novena for selling a house — 9-day Catholic prayer with full text when listing your home in the USA.",
+    date: "2026-06-01",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Home,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1294,
+    slug: "st-joseph-novena-for-employment",
+    title: "St. Joseph Novena for Employment: 9-Day Prayer to Find a Job (Full Text)",
+    excerpt: "St. Joseph Novena for employment — 9-day Catholic prayer to find a job, with full text for workers in the United States.",
+    date: "2026-06-01",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Briefcase,
+    bgColor: "bg-yellow-100",
+    iconColor: "text-yellow-700"
+  },
+  {
+    id: 1293,
+    slug: "novena-for-clarity-catholic",
+    title: "Novena for Clarity: 9-Day Catholic Prayer When You Need Direction",
+    excerpt: "Novena for clarity — 9-day Catholic prayer when you need direction in decisions, work, and relationships.",
+    date: "2026-06-01",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Compass,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-600"
+  },
   {
     id: 1292,
     slug: "litany-of-humility-catholic",
