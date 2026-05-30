@@ -11,6 +11,25 @@ function trimMeta(s, max = 155) {
   return s.slice(0, 152).replace(/\s+\S*$/, "") + "...";
 }
 
+function ensurePeriod(s) {
+  const t = (s || "").trim();
+  if (!t) return "";
+  return t.endsWith(".") ? t : `${t}.`;
+}
+
+function joinSentences(...parts) {
+  return parts.filter(Boolean).map(ensurePeriod).join(" ");
+}
+
+function formatList(items) {
+  const list = items.filter(Boolean);
+  if (list.length === 0) return "";
+  if (list.length === 1) return ensurePeriod(list[0]);
+  const body = list.slice(0, -1).map((item) => ensurePeriod(item).replace(/\.$/, ""));
+  const last = list[list.length - 1].trim().replace(/\.$/, "");
+  return `${body.join("; ")}; and ${last}.`;
+}
+
 function estimateReadTime(...texts) {
   const words = texts.join(" ").split(/\s+/).length;
   return `${Math.min(16, Math.max(9, Math.round(words / 220)))} min`;
@@ -26,98 +45,257 @@ const RANK_LABELS = {
   triduum: "day of the Easter Triduum — the holiest days of the year",
 };
 
-function buildIntro(f) {
-  const rank = RANK_LABELS[f.rank] || "important date on the Catholic liturgical calendar";
-  const when = f.isMoveable
+function rankWithArticle(rank) {
+  const label = RANK_LABELS[rank] || "important date on the Catholic liturgical calendar";
+  if (/^(solemnity|feast|memorial|seasonal|widely|sacred|day)/.test(label)) {
+    return `a ${label}`;
+  }
+  return `an ${label}`;
+}
+
+function whenPhrase(f) {
+  return f.isMoveable
     ? `celebrated on ${f.dateLabel}`
     : `observed each year on ${f.dateLabel}`;
-  return `${f.name} is a ${rank} ${when}. ${f.facts[0]} Catholics in the United States and around the world mark this day with Mass, prayer, and customs that connect family life to the Church's public worship. Whether you are preparing for the liturgy, teaching faith formation, planning parish ministry, or searching "what is ${f.shortName} in the Catholic Church," this guide explains the biblical roots, theological meaning, liturgical celebration, and practical ways to honor the day. ${f.facts[1]} ${f.titleHook} captures why this date remains one of the most searched Catholic topics online — and why the Church keeps returning to it year after year.`;
+}
+
+const SEASON_WHY = {
+  Advent:
+    "Advent interrupts the rush toward consumption with prophecy, silence, and longing — skills almost no secular app teaches.",
+  Christmas:
+    "When retail Christmas ends on December 26, the Church's Christmas season continues, insisting that incarnation is not a one-day sale but a mystery worth an octave.",
+  Lent:
+    "Culture offers detox programs; Lent offers repentance, almsgiving, and prayer rooted in baptism — a far deeper reset than any wellness trend.",
+  "Holy Week":
+    "Holy Week refuses to let the Passion be reduced to a long weekend; the Church walks day by day through betrayal, cross, and tomb.",
+  Easter:
+    "Easter proclaims that death is not the final word — a claim smartphones and headlines challenge hourly.",
+  Pentecost:
+    "Pentecost reminds a fragmented world that the Spirit creates communion, not merely individual spirituality.",
+  "Ordinary Time":
+    "Ordinary Time is when discipleship is practiced without seasonal spotlight — the steady work of living what Christmas and Easter proclaim.",
+};
+
+const SEASON_CELEBRATE = {
+  Advent:
+    "Keep Advent penitential unless the day is Gaudete Sunday; violet tones and restrained festivity help children feel the season's arc toward Christmas.",
+  Christmas:
+    "During the Christmas season, extend celebration beyond a single meal — display the crèche through Epiphany and keep Christmas hymns in family prayer.",
+  Lent:
+    "Honor Lenten fast and abstinence on the days the Church requires; even festive memorials within Lent retain a sober tone unless the rubrics specify otherwise.",
+  "Holy Week":
+    "Holy Week calls for clearing unnecessary commitments so you can attend the Triduum liturgies that cannot be replicated at home.",
+  Easter:
+    "The fifty days of Easter favor joy, alleluia, and mercy — resist collapsing the season back into ordinary routines on Easter Monday.",
+  Pentecost:
+    "The Pentecost novena and confirmandi in many parishes make this season ideal for praying explicitly for the gifts of the Holy Spirit.",
+  "Ordinary Time":
+    "Use Ordinary Time to build one sustainable habit — daily Gospel reading, a weekly holy hour, or regular confession.",
+};
+
+function buildIntro(f) {
+  const rank = rankWithArticle(f.rank);
+  const obligation =
+    f.holyDayUS
+      ? "including Holy Day Mass obligations for U.S. Catholics"
+      : "including how to honor the day when it is not a U.S. Holy Day of Obligation";
+
+  return joinSentences(
+    `${f.name} is ${rank} ${whenPhrase(f)}`,
+    f.facts[0],
+    `${f.titleHook} names the spiritual center of the day — why believers return to it every liturgical cycle.`,
+    `Below you will find distinct sections on history, doctrine, the Mass of ${f.season}, home customs, and practical guidance ${obligation}, without repeating the same facts in every paragraph.`
+  );
 }
 
 function buildBiblicalRoots(f) {
-  return `Sacred Scripture and Tradition together ground the celebration of ${f.name}. ${f.facts[2] || f.facts[1]} From the earliest centuries, Christians read the Old Testament through the lens of Christ — seeing prophecies fulfilled, types prefigured, and promises completed in the New Covenant. The Church does not invent feasts arbitrarily; she discerns in history and revelation where God has acted decisively for salvation. ${f.facts[3] || f.facts[0]} When Catholics celebrate ${f.shortName}, they join a chorus of believers across centuries who heard the same Word, received the same sacraments, and found in these mysteries a reason to hope, repent, and rejoice.`;
+  return joinSentences(
+    `The Church remembers ${f.shortName} because God acted in history, not because a committee picked a random date.`,
+    f.facts[2],
+    f.facts[3],
+    `Patristic homilies, monastic calendars, and parish practice over centuries turned these events into public memory — the assembly today hears readings shaped by that tradition.`,
+    `When you celebrate ${f.shortName}, you stand in continuity with communities that preserved the faith through persecution, migration, and renewal.`
+  );
 }
 
 function buildTheology(f) {
-  return `The theology of ${f.name} reaches into the heart of Catholic faith. ${f.facts[0]} Doctrine and devotion are never separate on the liturgical calendar: what the Church believes, she also celebrates. ${f.facts[2]} For catechists, the day offers a ready-made lesson in the Creed — not as abstract propositions but as living memory. For ordinary believers, it answers the question "why does this date matter?" with clarity: because God entered time, and the Church marks the moments when that presence became unmistakable. ${f.titleHook} is not nostalgia; it is an annual renewal of faith in what God has done and continues to do through Christ and the Holy Spirit.`;
+  const rankNote = {
+    solemnity: "Solemnities proclaim mysteries at the heart of the Creed — worthy of Gloria, Creed, and the Church's highest ceremonial.",
+    feast: "Feasts of the Lord or the Blessed Virgin highlight particular facets of Christ's work or Mary's cooperation in salvation.",
+    memorial: "Memorials insert a saint or mystery into the seasonal flow of prayer, teaching that holiness takes concrete form in real lives.",
+    season: "Seasonal milestones orient the entire year — they teach Catholics how to wait, rejoice, repent, or persevere.",
+    devotion: "Calendar devotions keep doctrine tactile — candles, processions, and novenas that children can see and remember.",
+    holy_week: "Holy Week theology is Christological and paschal: every day discloses a facet of the one saving Passion.",
+    triduum: "Triduum theology is Eucharistic and paschal — baptism, sacrifice, and resurrection held in three inseparable days.",
+  }[f.rank];
+
+  return joinSentences(
+    `Liturgy and doctrine are inseparable: what Catholics celebrate on ${f.shortName}, they are invited to believe more deeply.`,
+    f.facts[1],
+    rankNote,
+    `Catechists can build one session from the collect and Gospel alone; parents can explain the feast with a single sentence drawn from ${f.titleHook}.`,
+    `The day is not nostalgia — it is the Church's annual invitation to let this mystery reshape conscience and hope.`
+  );
 }
 
 function buildLiturgy(f) {
-  const notes = f.liturgyNotes.join(" ");
-  const color = f.liturgicalColor;
-  return `Liturgically, ${f.name} belongs to the ${f.season} season and is celebrated with ${color} vestments and sacred furnishings where rubrics assign them. ${notes} The Roman Missal provides proper prayers — collect, prayer over the offerings, and post-communion — that express the unique grace of this day. Parishes may use particular readings, sequences, or hymns that Catholics recognize instantly: the same texts year after year form spiritual memory. ${f.facts[1]} Music ministers, lectors, and sacristans prepare differently for this date because the assembly expects the liturgy to look, sound, and feel like ${f.shortName}. Understanding these details helps the faithful participate consciously rather than passively — every response, every gesture, every silence is part of the Church's praise.`;
+  const notes = f.liturgyNotes.map(ensurePeriod).join(" ");
+  const moveableNote = f.isMoveable
+    ? "Because the date is moveable, musicians and sacristans confirm the Ordo entry each year before printing worship aids."
+    : `The fixed date (${f.dateLabel}) allows parishes to publish music lists and minister schedules well in advance.`;
+
+  return joinSentences(
+    `${f.name} is celebrated in the ${f.season} season with ${f.liturgicalColor} vestments unless rubrics direct otherwise.`,
+    notes,
+    `The Roman Missal assigns proper collects and prefaces that belong only to this observance — worth reading aloud at home before Mass.`,
+    moveableNote,
+    `Participating consciously — following the Roman Missal responses, listening to the homily, and noting one phrase from the Eucharistic Prayer — transforms attendance from routine into formation.`
+  );
 }
 
 function buildTraditions(f) {
-  const trads = f.traditions.join(" ");
-  return `Popular piety has enriched ${f.name} with customs that extend from church to home. ${trads} These traditions are not superstition; they are the laity's way of living the feast when the dismissal sends them "to love and serve the Lord." Ethnic parishes in the United States — Irish, Polish, Mexican, Filipino, Italian, and many others — often preserve particular foods, processions, or blessings linked to this day. ${f.facts[3] || f.facts[2]} The Church approves devotions that harmonize with liturgy and rejects what contradicts faith; most longstanding customs fall in the first category. Families can adopt one or two practices without overwhelming their schedule: a special meal, a decade of the Rosary, a visit to church, or an act of charity in the spirit of the feast.`;
+  return joinSentences(
+    `Popular devotions for ${f.shortName} extend worship into the home without replacing the Eucharist.`,
+    formatList(f.traditions),
+    `Multicultural parishes in the United States often add regional customs — foods, processions, or blessings — that express the same faith in different accents.`,
+    `The Church evaluates piety by harmony with liturgy and Scripture; longstanding customs that pass that test deserve pride of place in family life.`,
+    `Choose one or two practices your household can repeat annually; depth beats novelty every time.`
+  );
 }
 
 function buildHowToCelebrate(f) {
-  return `For Catholics in the United States wondering how to celebrate ${f.shortName} practically, start with Mass — the summit and source of Christian life. ${f.holyDayUS ? `This date is a Holy Day of Obligation in the United States; Catholics are obliged to attend Mass unless legitimately impeded.` : `While not a Holy Day of Obligation on the U.S. calendar, attending Mass is the most fitting way to honor the feast when your parish schedule allows.`} Arrive early to pray, sing the hymns fully, and receive Communion with intention. At home, read the day's Gospel as a family and discuss one sentence that struck you. ${f.traditions[0]} Consider fasting or abstinence if the season calls for it (Lent, Advent penance, or Friday discipline). Share the meaning of the day with children using simple language — feasts teach faith better than lectures. If you cannot attend in person, many parishes livestream major solemnities; still make the day distinct from ordinary time through prayer and gratitude.`;
+  const massNote = f.holyDayUS
+    ? `${f.shortName} is a Holy Day of Obligation in the United States. Schedule Mass on the feast day or an authorized vigil, and verify your diocese's calendar if the date falls near a weekend.`
+    : `${f.shortName} is not a U.S. Holy Day of Obligation, but attending Mass when your parish offers it remains the most fitting centerpiece of the day.`;
+
+  return joinSentences(
+    massNote,
+    `Read the day's Gospel the night before and bring one question to church — engagement starts before the opening hymn.`,
+    f.traditions[0],
+    SEASON_CELEBRATE[f.season] || SEASON_CELEBRATE["Ordinary Time"],
+    `If illness or travel prevents church attendance, read the Mass texts from the USCCB website, pray a decade of the Rosary, and make an act of spiritual communion — then return in person when possible.`,
+    `Invite children to draw or narrate one symbol from the feast; ${f.season} formation sticks when it is simple and repeated.`
+  );
 }
 
 function buildHolyDay(f) {
   if (f.holyDayUS) {
-    return `${f.name} is a Holy Day of Obligation in the United States — Catholics must attend Mass on the day itself or on the evening vigil where permitted, unless excused by serious reason (illness, caring for infants, distance, or other grave causes described in canon law and pastoral practice). When the feast falls on a Saturday or Monday, the U.S. bishops' conference has sometimes transferred or abrogated the obligation for specific days; always check your diocese's current calendar. Even when obligation is lifted, the solemnity retains full liturgical rank: Gloria, Creed, and proper readings are used. Confession before major feasts is a longstanding custom that prepares the soul to receive Christ in the Eucharist. If you are unsure about your obligation, your parish bulletin or diocesan website lists Holy Days for the current year.`;
+    return joinSentences(
+      `${f.name} binds Catholics in the United States to Mass on the feast itself or at an evening vigil where the diocese permits anticipation.`,
+      `Legitimate excuses — serious illness, caring for infants, impeded travel — remain pastoral realities; priests and parish staff can clarify edge cases.`,
+      `When a solemnity falls on Saturday or Monday, the bishops' conference may transfer or suspend the obligation; always read your diocesan decree for the current year.`,
+      `Even when obligation is dispensed, the feast keeps full liturgical rank: proper readings, Gloria where required, and Creed on solemnities.`,
+      `Confession before major feasts is a classic preparation to receive Communion with a quiet conscience.`
+    );
   }
   if (f.rank === "solemnity") {
-    return `Although ${f.name} is not on the United States list of Holy Days of Obligation, it remains a solemnity with the highest liturgical rank short of Easter and Christmas. That means Catholics should treat the day with special reverence: attending Mass if possible, resting from unnecessary work, and marking the feast at home. Moveable feasts such as this one shift dates each year; parish bulletins and the USCCB liturgical calendar announce the exact date well in advance. Pastors often schedule additional Masses or devotions because demand increases when the faithful recognize a solemnity's importance.`;
+    return joinSentences(
+      `${f.name} is not listed among U.S. Holy Days of Obligation, yet it retains solemnity rank — the highest ordinary celebration short of Easter and Christmas.`,
+      `Catholics should still prioritize Mass, rest from unnecessary work, and mark the day at home when pastoral schedules allow extra liturgies.`,
+      f.isMoveable
+        ? `Moveable dating means your parish bulletin and the USCCB calendar are the authoritative sources each year.`
+        : `The stable date ${f.dateLabel} makes long-range planning easier for families and RCIA teams.`,
+      `Pastors often add confessions, novenas, or processions when the faithful request them — your presence encourages that ministry.`
+    );
   }
-  return `${f.name} is not a Holy Day of Obligation in the United States, but it remains spiritually significant within the ${f.season} season. Many Catholics choose to attend Mass, pray a novena, or observe customs associated with the day even without canonical obligation. ${f.isMoveable ? `Because this feast is moveable, confirm the date each year through your parish or the USCCB liturgical calendar.` : `The fixed date ${f.dateLabel} makes planning easier — mark your calendar and prepare as you would for any major family anniversary.`} School and parish catechists often build lessons around this date; participating reinforces the Church year rhythm for children and adults alike.`;
+  return joinSentences(
+    `${f.name} is not a Holy Day of Obligation in the United States but remains spiritually significant within ${f.season}.`,
+    `Many Catholics attend Mass, pray novenas, or keep local customs even without canonical requirement.`,
+    f.isMoveable
+      ? `Confirm the exact date annually through your parish or diocesan Ordo.`
+      : `Mark ${f.dateLabel} on household calendars as you would a baptism anniversary — a fixed anchor in the year.`,
+    `Catechists frequently build lessons around this date; participating reinforces the Church year rhythm for children and adults alike.`
+  );
 }
 
 function buildWhyItMatters(f) {
-  return `Why does ${f.name} still matter in the twenty-first century? Because secular calendars offer holidays without holiness, while the Church offers feasts that unite earth and heaven. ${f.facts[2]} ${f.facts[3] || f.facts[1]} In a culture of constant distraction, fixed and moveable feasts interrupt ordinary time and demand attention to God. ${f.titleHook} — the heart of this celebration — speaks to struggles Catholics actually face: grief, hope, guilt, joy, fear of death, longing for mercy. Returning to this date each liturgical cycle is not repetition for its own sake; it is formation. Every year the same mysteries, yet the believer is different — older, perhaps wounded or healed — and the feast meets them where they are. That is why Catholic feast days remain among the most searched religious topics in English: people hunger for meaning, and the Church answers with dates that remember God's saving acts.`;
+  return joinSentences(
+    SEASON_WHY[f.season] || SEASON_WHY["Ordinary Time"],
+    `${f.titleHook} speaks to concrete struggles — grief, gratitude, fear, reconciliation — that do not expire because the calendar turns.`,
+    `Returning to ${f.shortName} each cycle is formation, not redundancy: the mystery is stable, the believer is not.`,
+    `English-speaking Catholics search feast-day guides in huge numbers because they want time sanctified by God, not only managed by apps — the Church's calendar answers that hunger with dates that remember salvation history.`
+  );
 }
 
 function buildHighlights(f) {
-  const items = [
+  return [
     `Date: ${f.dateLabel}`,
     `Liturgical season: ${f.season}`,
-    `Rank: ${f.rank}${f.holyDayUS ? " — Holy Day of Obligation (USA)" : ""}`,
+    `Rank: ${f.rank.replace(/_/g, " ")}${f.holyDayUS ? " — Holy Day of Obligation (USA)" : ""}`,
     `Liturgical color: ${f.liturgicalColor}`,
-    ...f.facts.slice(0, 2),
-    f.traditions[0],
+    ...f.facts,
   ];
-  return [...new Set(items)].slice(0, 7);
 }
 
 function buildFaqs(f, prev, next) {
+  const rankLabel = rankWithArticle(f.rank);
   const faqs = [
     {
       question: `What is ${f.name} in the Catholic Church?`,
-      answer: `${f.name} is ${RANK_LABELS[f.rank] || "an important liturgical celebration"} observed ${f.isMoveable ? f.dateLabel : `on ${f.dateLabel}`}. ${f.facts[0]} Catholics celebrate with Mass, prayer, and traditions such as ${f.traditions[0]?.toLowerCase() || "parish devotions"}.`,
+      answer: joinSentences(
+        `${f.name} is ${rankLabel}.`,
+        f.isMoveable
+          ? `It is ${whenPhrase(f)}.`
+          : `It is observed each year on ${f.dateLabel}.`,
+        f.facts[0],
+        `Catholics honor it through Mass, prayer, and customs such as: ${formatList(f.traditions).replace(/\.$/, "")}.`
+      ),
     },
     {
       question: `When is ${f.shortName} celebrated?`,
-      answer: `${f.shortName} is celebrated ${f.isMoveable ? `on a moveable date: ${f.dateLabel}. Check your parish bulletin each year for the exact date.` : `each year on ${f.dateLabel}.`}`,
+      answer: f.isMoveable
+        ? joinSentences(
+            `${f.shortName} follows a moveable schedule: ${f.dateLabel}.`,
+            `Check your parish bulletin or diocesan Ordo each year for the exact date and Mass times.`
+          )
+        : joinSentences(
+            `${f.shortName} is celebrated each year on ${f.dateLabel}.`,
+            `The fixed date makes it easy to plan travel, choir rehearsals, and family gatherings around parish liturgies.`
+          ),
     },
     {
       question: `Is ${f.shortName} a Holy Day of Obligation in the United States?`,
       answer: f.holyDayUS
-        ? `Yes. ${f.name} is a Holy Day of Obligation for Catholics in the United States, requiring Mass attendance unless legitimately excused.`
-        : `No. ${f.name} is not currently a Holy Day of Obligation on the U.S. calendar, though it remains an important feast and Catholics are encouraged to attend Mass.`,
+        ? joinSentences(
+            `Yes. ${f.name} is a Holy Day of Obligation for Catholics in the United States.`,
+            `Faithful are required to attend Mass unless legitimately excused; verify diocesan transfers when the feast falls near a weekend.`
+          )
+        : joinSentences(
+            `No. ${f.name} is not currently a Holy Day of Obligation on the U.S. calendar.`,
+            `It remains an important feast within ${f.season}, and Catholics are encouraged to attend Mass when available.`
+          ),
     },
     {
       question: `How do Catholics celebrate ${f.shortName}?`,
-      answer: `${f.traditions.join(" ")} The liturgy uses ${f.liturgicalColor} vestments and proper prayers for ${f.season}. ${f.liturgyNotes[0] || ""}`,
+      answer: joinSentences(
+        formatList(f.traditions),
+        `At Mass, ${f.liturgyNotes.map(ensurePeriod).join(" ")}`
+      ),
     },
     {
       question: `Why is ${f.shortName} important for Catholic faith?`,
-      answer: `${f.facts[1]} ${f.facts[2]} Celebrating this date forms Catholics in doctrine and devotion year after year.`,
+      answer: joinSentences(
+        f.facts[1],
+        f.facts[2],
+        `${f.titleHook} summarizes why the Church keeps returning to this observance in every generation.`
+      ),
     },
   ];
   if (prev) {
     faqs.push({
       question: `What Catholic feast comes before ${f.shortName} in the liturgical year?`,
-      answer: `In the Church calendar, ${prev.shortName} (${prev.dateLabel}) precedes this celebration. Explore the full guide at Guide Catholic's Catholic Feast Days hub.`,
+      answer: joinSentences(
+        `${prev.shortName} (${prev.dateLabel}) precedes ${f.shortName} in the liturgical sequence.`,
+        `See the full calendar at Guide Catholic's Catholic Feast Days hub.`
+      ),
     });
-  }
-  if (next) {
+  } else if (next) {
     faqs.push({
       question: `What Catholic feast comes after ${f.shortName}?`,
-      answer: `Next in the liturgical sequence is ${next.shortName} (${next.dateLabel}). See the complete Catholic feast calendar on Guide Catholic.`,
+      answer: joinSentences(
+        `${next.shortName} (${next.dateLabel}) follows in the liturgical sequence.`,
+        `Browse all dates on Guide Catholic's Catholic Feast Days hub.`
+      ),
     });
   }
   return faqs.slice(0, 6);
@@ -148,12 +326,9 @@ function buildArticle(f, index, all) {
     whyItMatters
   );
   const metaDescription = trimMeta(
-    `Catholic feast day guide: ${f.name} (${f.dateLabel}). ${f.titleHook}. Mass in the USA, traditions, liturgy & meaning explained.`
+    `Catholic feast day guide: ${f.name} (${f.dateLabel}). ${f.titleHook}. Scripture, Mass, traditions & U.S. Holy Day rules explained.`
   );
-  const excerpt = trimMeta(
-    `${f.name} — ${f.titleHook}. ${f.facts[0]}`,
-    160
-  );
+  const excerpt = trimMeta(`${f.name} — ${f.titleHook}. ${f.facts[0]}`, 160);
 
   return {
     sortOrder: f.sortOrder,
@@ -212,13 +387,6 @@ console.log(`Built ${articles.length} Catholic feast date articles`);
 
 const interlinks = buildInterlinks(articles);
 fs.writeFileSync(
-  path.join(root, "src/data/catholicFeastDateInterlinks.ts"),
-  `/** Auto-generated — run scripts/generate-catholic-feast-dates.mjs */
-export const CATHOLIC_FEAST_DATE_INTERLINK_MAP: Record<string, string> = ${JSON.stringify(interlinks, null, 2)};
-`
-);
-
-fs.writeFileSync(
   path.join(root, "src/data/catholicFeastDateArticles.ts"),
   `/** Auto-generated — run scripts/generate-catholic-feast-dates.mjs */
 import type { CatholicFeastDateArticleContent } from "@/lib/catholicFeastDateSlugs";
@@ -228,6 +396,13 @@ export const CATHOLIC_FEAST_DATE_ARTICLES: CatholicFeastDateArticleContent[] = $
 export const CATHOLIC_FEAST_DATE_BY_SLUG: Record<string, CatholicFeastDateArticleContent> = Object.fromEntries(
   CATHOLIC_FEAST_DATE_ARTICLES.map((a) => [a.slug, a])
 );
+`
+);
+
+fs.writeFileSync(
+  path.join(root, "src/data/catholicFeastDateInterlinks.ts"),
+  `/** Auto-generated — run scripts/generate-catholic-feast-dates.mjs */
+export const CATHOLIC_FEAST_DATE_INTERLINK_MAP: Record<string, string> = ${JSON.stringify(interlinks, null, 2)};
 `
 );
 

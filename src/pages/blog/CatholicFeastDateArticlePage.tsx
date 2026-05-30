@@ -6,7 +6,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { CATHOLIC_FEAST_DATE_BY_SLUG } from "@/data/catholicFeastDateArticles";
@@ -38,6 +38,14 @@ export default function CatholicFeastDateArticlePage() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title={article.title} description={article.metaDescription} url={canonical} datePublished="2026-05-30" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Feast Days", url: "https://guidecatholic.com/blog/catholic-feast-days/" },
+          { name: article.shortName, url: canonical },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />
