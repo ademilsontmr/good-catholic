@@ -4,6 +4,7 @@ import { Heart, Calendar, Clock, ArrowLeft, Sparkles, Shield, Users, Brain } fro
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -394,19 +395,7 @@ export default function CatholicMentalHealthGuide() {
 
 <RelatedArticles currentSlug="catholic-mental-health-guide" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Find Hope and Healing
-              </h3>
-              <p className="text-text-muted mb-6">
-                Take our assessment to identify mental health resources and support for your journey.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take Mental Health Assessment
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Find Hope and Healing" description="Take our assessment to identify mental health resources and support for your journey." />
           </div>
         </article>
 

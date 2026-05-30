@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -103,9 +104,7 @@ export default function PrayerOfStFrancisCatholic() {
               { question: "Is the Prayer of St. Francis in the Mass?", answer: "It is not one of the official Mass prayers, but priests and parishes sometimes use it as a post-Communion meditation or closing prayer." },
             ]} />
             <RelatedArticles currentSlug="prayer-of-st-francis-catholic" />
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA />
           </div>
         </article>
         <Footer />

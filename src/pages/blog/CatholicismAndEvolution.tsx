@@ -4,6 +4,7 @@ import { Microscope, Calendar, Clock, ArrowLeft, Brain, Sparkles, Binary } from 
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -168,19 +169,7 @@ export default function CatholicismAndEvolution() {
 
 <RelatedArticles currentSlug="catholicism-and-evolution-guide" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Seek the Truth wherever it leads
-              </h3>
-              <p className="text-text-muted mb-6">
-                The Church is the mother of the modern university. Take our quiz to learn more about the intellectual richness of the Catholic faith.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Seek the Truth wherever it leads" description="The Church is the mother of the modern university. Take our quiz to learn more about the intellectual richness of the Catholic faith." />
           </div>
         </article>
 

@@ -4,6 +4,7 @@ import { Shield, Calendar, Clock, ArrowLeft, Heart, Star, Sparkles, ScrollText }
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -166,19 +167,7 @@ export default function BrownScapularGuide() {
 
 <RelatedArticles currentSlug="brown-scapular-guide" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Dress Your Soul in Mary's Uniform
-              </h3>
-              <p className="text-text-muted mb-6">
-                The Scapular is the sign of a child who never leaves their mother's side. Take our quiz to take the next step in your consecration.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Dress Your Soul in Mary's Uniform" description="The Scapular is the sign of a child who never leaves their mother's side. Take our quiz to take the next step in your consecration." />
           </div>
         </article>
 

@@ -4,6 +4,7 @@ import { BookOpen, Calendar, Clock, ArrowLeft, Scale, Sparkles, Heart } from "lu
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -252,19 +253,7 @@ export default function CatholicVsProtestant() {
 
 <RelatedArticles currentSlug="catholic-vs-protestant-differences" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Equip Your Soul for Dialogue
-              </h3>
-              <p className="text-text-muted mb-6">
-                Charity begins with understanding. Take our quiz to receive a personalized learning path about the history of the Church.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Equip Your Soul for Dialogue" description="Charity begins with understanding. Take our quiz to receive a personalized learning path about the history of the Church." />
           </div>
         </article>
 

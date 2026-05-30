@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -98,9 +99,7 @@ export default function PreceptsOfTheCatholicChurch() {
               { question: "Do children have to follow all precepts?", answer: "Children are gradually formed. Full obligation applies at the age determined by canon law and diocesan policy — typically around the age of reason for some duties and teens for fasting." },
             ]} />
             <RelatedArticles currentSlug="precepts-of-the-catholic-church" />
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA />
           </div>
         </article>
         <Footer />

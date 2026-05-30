@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, Church, Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -147,11 +148,7 @@ export default function ConfessionTimesNearMe() {
 
             <RelatedArticles currentSlug="confession-times-near-me" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">Take the Next Step</h3>
-              <p className="text-text-muted mb-6">Build a stronger sacramental life with a personalized Catholic growth plan.</p>
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA title="Take the Next Step" description="Build a stronger sacramental life with a personalized Catholic growth plan." />
           </div>
         </article>
         <Footer />

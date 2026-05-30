@@ -4,6 +4,7 @@ import { Sparkles, Calendar, Clock, ArrowLeft, Heart, Star, Users } from "lucide
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -346,19 +347,7 @@ export default function OurLadyOfFatimaGuide() {
 
 <RelatedArticles currentSlug="our-lady-of-fatima-guide" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Answer Our Lady's Call to Prayer
-              </h3>
-              <p className="text-text-muted mb-6">
-                Take our quiz to discover how Fatima's messages apply to your spiritual life today.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Fatima Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Answer Our Lady's Call to Prayer" description="Take our quiz to discover how Fatima's messages apply to your spiritual life today." />
           </div>
         </article>
 

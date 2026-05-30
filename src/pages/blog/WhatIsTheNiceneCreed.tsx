@@ -4,6 +4,7 @@ import { BookOpen, Calendar, Clock, ArrowLeft, Landmark, Sparkles, ScrollText } 
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -164,19 +165,7 @@ export default function WhatIsTheNiceneCreed() {
 
 <RelatedArticles currentSlug="what-is-the-nicene-creed" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Strengthen Your Doctrimal Foundation
-              </h3>
-              <p className="text-text-muted mb-6">
-                Don't just recite—believe. Take our quiz to receive a personalized guide to growing in your knowledge of Catholic theology.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Strengthen Your Doctrimal Foundation" description="Don't just recite—believe. Take our quiz to receive a personalized guide to growing in your knowledge of Catholic theology." />
           </div>
         </article>
 

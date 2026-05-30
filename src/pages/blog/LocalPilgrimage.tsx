@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -166,19 +167,7 @@ export default function LocalPilgrimage() {
 
 <RelatedArticles currentSlug="local-pilgrimage" />
 
-                        <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-                            <h3 className="font-display text-2xl font-bold text-text mb-4">
-                                What is your pilgrim profile?
-                            </h3>
-                            <p className="text-text-muted mb-6">
-                                Take our quiz and discover which types of spiritual experiences and pilgrimage destinations best match your current faith moment.
-                            </p>
-                            <Link to="/quiz">
-                                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                                    Take the Quiz Now
-                                </Button>
-                            </Link>
-                        </div>
+                        <ArticleBottomCTA title="What is your pilgrim profile?" description="Take our quiz and discover which types of spiritual experiences and pilgrimage destinations best match your current faith moment." />
                     </div>
                 </article>
 

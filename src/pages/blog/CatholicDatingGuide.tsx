@@ -4,6 +4,7 @@ import { Heart, Calendar, Clock, ArrowLeft, Sparkles, Star, Users, Church } from
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -516,19 +517,7 @@ export default function CatholicDatingGuide() {
 
 <RelatedArticles currentSlug="catholic-dating-guide" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Discover Your Vocation to Love
-              </h3>
-              <p className="text-text-muted mb-6">
-                Take our assessment to evaluate your readiness for Catholic dating and discernment.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take Dating Readiness Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Discover Your Vocation to Love" description="Take our assessment to evaluate your readiness for Catholic dating and discernment." />
           </div>
         </article>
 

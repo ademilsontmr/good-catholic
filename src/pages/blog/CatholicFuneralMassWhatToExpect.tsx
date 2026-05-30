@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -113,9 +114,7 @@ export default function CatholicFuneralMassWhatToExpect() {
               { question: "Are eulogies allowed at a Catholic funeral Mass?", answer: "Personal eulogies belong at the Vigil or reception, not usually during the Mass itself per diocesan norms." }
             ]} />
             <RelatedArticles currentSlug="catholic-funeral-mass-what-to-expect" />
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA />
           </div>
         </article>
         <Footer />

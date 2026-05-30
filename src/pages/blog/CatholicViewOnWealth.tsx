@@ -4,6 +4,7 @@ import { Coins, Calendar, Clock, ArrowLeft, Heart, Scale, Landmark, Sparkles } f
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -183,19 +184,7 @@ export default function CatholicViewOnWealth() {
 
 <RelatedArticles currentSlug="catholic-view-on-wealth" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Invest in Eternity
-              </h3>
-              <p className="text-text-muted mb-6">
-                Your relationship with money says a lot about your relationship with God. Take our quiz to find the perfect balance.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Invest in Eternity" description="Your relationship with money says a lot about your relationship with God. Take our quiz to find the perfect balance." />
           </div>
         </article>
 

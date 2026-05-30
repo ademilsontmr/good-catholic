@@ -4,6 +4,7 @@ import { Heart, Calendar, Clock, ArrowLeft, Flame, Sparkles, Shield, Activity } 
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -180,19 +181,7 @@ export default function SacredHeartPromises() {
 
 <RelatedArticles currentSlug="sacred-heart-promises" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Join the Furnace of Love
-              </h3>
-              <p className="text-text-muted mb-6">
-                Don't settle for a lukewarm faith. Take our quiz for a personalized look at how the Sacred Heart can transform your life.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Join the Furnace of Love" description="Don't settle for a lukewarm faith. Take our quiz for a personalized look at how the Sacred Heart can transform your life." />
           </div>
         </article>
 

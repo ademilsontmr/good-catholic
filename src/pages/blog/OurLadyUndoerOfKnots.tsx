@@ -4,6 +4,7 @@ import { Heart, Calendar, Clock, ArrowLeft, Hand, Sparkles } from "lucide-react"
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -179,19 +180,7 @@ export default function OurLadyUndoerOfKnots() {
 
 <RelatedArticles currentSlug="our-lady-undoer-of-knots" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Discover Your Path to Peace
-              </h3>
-              <p className="text-text-muted mb-6">
-                Whatever knots are tying up your life, God's grace is greater. Take our quiz to find encouragement.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Discover Your Path to Peace" description="Whatever knots are tying up your life, God's grace is greater. Take our quiz to find encouragement." />
           </div>
         </article>
 

@@ -4,6 +4,7 @@ import { Cross, Calendar, Clock, ArrowLeft, Heart, ShieldAlert, Sparkles, MapPin
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -178,19 +179,7 @@ export default function StationsOfTheCross() {
 
 <RelatedArticles currentSlug="stations-of-the-cross" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Walk the Sorrowful Way to Joy
-              </h3>
-              <p className="text-text-muted mb-6">
-                The Cross is the only ladder that reaches Heaven. Take our quiz to receive a custom meditation guide for your next visit to the Stations.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Walk the Sorrowful Way to Joy" description="The Cross is the only ladder that reaches Heaven. Take our quiz to receive a custom meditation guide for your next visit to the Stations." />
           </div>
         </article>
 

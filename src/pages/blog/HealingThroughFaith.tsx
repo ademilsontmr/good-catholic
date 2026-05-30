@@ -4,6 +4,7 @@ import { HeartPulse, Calendar, Clock, ArrowLeft, Heart, Cross, Sparkles } from "
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -230,19 +231,7 @@ export default function HealingThroughFaith() {
 
             <RelatedArticles currentSlug="healing-through-faith" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Begin Your Healing Journey Today
-              </h3>
-              <p className="text-text-muted mb-6">
-                Take our assessment and receive a personalized healing prayer guide.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Start Healing Assessment
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Begin Your Healing Journey Today" description="Take our assessment and receive a personalized healing prayer guide." />
           </div>
         </article>
 

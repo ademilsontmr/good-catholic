@@ -4,6 +4,7 @@ import { Cloud, Calendar, Clock, ArrowLeft, Flame, Sparkles, Ghost, Shield, Info
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -198,19 +199,7 @@ export default function WhatIsPurgatory() {
 
 <RelatedArticles currentSlug="what-is-purgatory" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Prepare Your Soul
-              </h3>
-              <p className="text-text-muted mb-6">
-                Don't wait for the next life to start your transformation. Take our assessment and discover how to live a life of holiness today.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Start the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Prepare Your Soul" description="Don't wait for the next life to start your transformation. Take our assessment and discover how to live a life of holiness today." />
           </div>
         </article>
 

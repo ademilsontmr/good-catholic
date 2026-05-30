@@ -4,6 +4,7 @@ import { BookOpen, Calendar, Clock, ArrowLeft, Church, Cross } from "lucide-reac
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -221,19 +222,7 @@ export default function CatholicChurchHistory() {
 
 <RelatedArticles currentSlug="catholic-church-history" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Explore Your Catholic Heritage
-              </h3>
-              <p className="text-text-muted mb-6">
-                Take our assessment and receive a personalized faith journey guide.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Start Assessment
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Explore Your Catholic Heritage" description="Take our assessment and receive a personalized faith journey guide." />
           </div>
         </article>
 

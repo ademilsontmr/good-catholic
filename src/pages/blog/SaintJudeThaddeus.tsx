@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -317,19 +318,7 @@ export default function SaintJudeThaddeus() {
 
 <RelatedArticles currentSlug="saint-jude-thaddeus" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Discover Where You Are on Your Faith Journey
-              </h3>
-              <p className="text-text-muted mb-6">
-                Take our free quiz and receive a personalized assessment of your Catholic spiritual life — and practical steps forward.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Quiz Now
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Discover Where You Are on Your Faith Journey" description="Take our free quiz and receive a personalized assessment of your Catholic spiritual life — and practical steps forward." />
           </div>
         </article>
 

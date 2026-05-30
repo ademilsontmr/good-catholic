@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -108,10 +109,7 @@ export default function CorporalWorksOfMercyCatholic() {
               { question: "Do corporal works of mercy earn salvation?", answer: "No. We are saved by grace through faith. Works of mercy are fruit of that grace and union with Christ who identifies with the poor." },
             ]} />
             <RelatedArticles currentSlug="corporal-works-of-mercy-catholic" />
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">Live the Gospel actively</h3>
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA />
           </div>
         </article>
         <Footer />

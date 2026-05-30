@@ -6,6 +6,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
@@ -173,9 +174,7 @@ export default function SaintOfDayArticlePage() {
 
             <RelatedArticles currentSlug={blogSlug} />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA />
           </div>
         </article>
         <Footer />

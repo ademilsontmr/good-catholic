@@ -4,6 +4,7 @@ import { Ghost, Calendar, Clock, ArrowLeft, ShieldCheck, Flame } from "lucide-re
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -190,19 +191,7 @@ export default function CatholicViewOnGhosts() {
 
 <RelatedArticles currentSlug="catholic-view-on-ghosts" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Strengthen Your Spiritual Life
-              </h3>
-              <p className="text-text-muted mb-6">
-                Discover the richness of the Catholic tradition and how to live a life of peace and protection.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Strengthen Your Spiritual Life" description="Discover the richness of the Catholic tradition and how to live a life of peace and protection." />
           </div>
         </article>
 

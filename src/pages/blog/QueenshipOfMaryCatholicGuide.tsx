@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -128,11 +129,7 @@ export default function QueenshipOfMaryCatholicGuide() {
               { question: "How do Catholics honor Mary as Queen?", answer: "Through the Rosary, Regina Caeli prayer, processions, and entrustment of families and nations to her care." }
             ]} />
             <RelatedArticles currentSlug="queenship-of-mary-catholic-guide" />
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">Deepen your Marian devotion</h3>
-              <p className="text-text-muted mb-6">Get a personalized guide for prayer and spiritual growth.</p>
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA title="Deepen your Marian devotion" description="Get a personalized guide for prayer and spiritual growth." />
           </div>
         </article>
         <Footer />

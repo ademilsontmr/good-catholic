@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -201,19 +202,7 @@ export default function GiftsOfHolySpirit() {
 
 <RelatedArticles currentSlug="gifts-holy-spirit" />
 
-                        <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-                            <h3 className="font-display text-2xl font-bold text-text mb-4">
-                                Do you know the fruits of the Spirit in your life?
-                            </h3>
-                            <p className="text-text-muted mb-6">
-                                Take our quiz and discover how the gifts of the Holy Spirit are working in your faith journey and how you can open yourself more to His grace.
-                            </p>
-                            <Link to="/quiz">
-                                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                                    Take the Quiz Now
-                                </Button>
-                            </Link>
-                        </div>
+                        <ArticleBottomCTA title="Do you know the fruits of the Spirit in your life?" description="Take our quiz and discover how the gifts of the Holy Spirit are working in your faith journey and how you can open yourself more to His grace." />
                     </div>
                 </article>
 

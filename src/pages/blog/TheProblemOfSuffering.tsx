@@ -4,6 +4,7 @@ import { HelpCircle, Calendar, Clock, ArrowLeft, Heart, Sun, Activity, Sparkles 
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -167,19 +168,7 @@ export default function TheProblemOfSuffering() {
 
 <RelatedArticles currentSlug="why-does-god-allow-suffering" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Walk Toward the Light
-              </h3>
-              <p className="text-text-muted mb-6">
-                God is in the tears as much as in the laughter. Take our quiz to deepen your relationship with the Man of Sorrows.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Walk Toward the Light" description="God is in the tears as much as in the laughter. Take our quiz to deepen your relationship with the Man of Sorrows." />
           </div>
         </article>
 

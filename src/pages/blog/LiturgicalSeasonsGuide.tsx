@@ -4,6 +4,7 @@ import { Calendar, Clock, ArrowLeft, Sparkles, Star, Heart, Church } from "lucid
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -425,19 +426,7 @@ export default function LiturgicalSeasonsGuide() {
 
 <RelatedArticles currentSlug="liturgical-seasons-guide" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Transform Your Time into Sacred Time
-              </h3>
-              <p className="text-text-muted mb-6">
-                Take our quiz to discover how well you're living the liturgical year and receive personalized suggestions for deeper engagement.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Liturgical Year Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Transform Your Time into Sacred Time" description="Take our quiz to discover how well you're living the liturgical year and receive personalized suggestions for deeper engagement." />
           </div>
         </article>
 

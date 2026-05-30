@@ -4,6 +4,7 @@ import { Calendar, Clock, ArrowLeft, Shield, Info, CheckCircle2, AlertTriangle, 
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -252,19 +253,7 @@ export default function TattoosCatholicChurch() {
 
 <RelatedArticles currentSlug="are-tattoos-a-sin" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                How Deep is Your Faith?
-              </h3>
-              <p className="text-text-muted mb-6">
-                Moral theology is complex. Take our 5-minute assessment to understand your spiritual strengths and areas for growth.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Start the Assessment
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="How Deep is Your Faith?" description="Moral theology is complex. Take our 5-minute assessment to understand your spiritual strengths and areas for growth." />
           </div>
         </article>
 

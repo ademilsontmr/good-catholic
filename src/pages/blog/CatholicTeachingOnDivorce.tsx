@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -270,19 +271,7 @@ export default function CatholicTeachingOnDivorce() {
 
 <RelatedArticles currentSlug="catholic-teaching-on-divorce" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Where Are You on Your Faith Journey?
-              </h3>
-              <p className="text-text-muted mb-6">
-                Whatever your situation, God's love remains constant. Take our free Catholic quiz and receive guidance for the next step on your path.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Quiz Now
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Where Are You on Your Faith Journey?" description="Whatever your situation, God's love remains constant. Take our free Catholic quiz and receive guidance for the next step on your path." />
           </div>
         </article>
 

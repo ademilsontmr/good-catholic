@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Download, Smartphone, RefreshCw, ChevronLeft, ChevronRight, Cross, Sparkles, Heart, BookOpen, HelpCircle, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { toast } from "sonner";
@@ -692,22 +693,10 @@ export default function LockscreenPage() {
             </div>
 
             {/* CTA */}
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <div className="inline-flex items-center gap-2 bg-accent/15 text-accent px-3 py-1 rounded-full text-xs font-semibold mb-4">
-                <Sparkles className="w-3.5 h-3.5" />
-                Go deeper in your faith
-              </div>
-              <h3 className="font-display text-2xl font-bold text-text mb-3">How deep is your Catholic life?</h3>
-              <p className="text-text-muted mb-6 max-w-md mx-auto text-sm">
-                A lockscreen is a start. Discover how you're living across all 5 areas of Catholic life with our free 30-question assessment.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text font-semibold">
-                  Take the Catholic Life Assessment
-                </Button>
-              </Link>
-              <p className="text-xs text-text-muted mt-3">30 questions · 10 minutes · Free personalized guide</p>
-            </div>
+            <ArticleBottomCTA
+              title="How deep is your Catholic life?"
+              description="A lockscreen is a start. Discover how you're living across all 5 areas of Catholic life with our free 30-question assessment."
+            />
 
           </div>
         </main>

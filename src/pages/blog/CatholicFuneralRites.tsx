@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -243,19 +244,7 @@ export default function CatholicFuneralRites() {
 
             <RelatedArticles currentSlug="catholic-funeral-rites-explained" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Grow in Your Catholic Faith
-              </h3>
-              <p className="text-text-muted mb-6">
-                Understanding the Church's rites and teachings transforms how we live — and how we face death. Take our quiz to discover your faith profile.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Grow in Your Catholic Faith" description="Understanding the Church's rites and teachings transforms how we live — and how we face death. Take our quiz to discover your faith profile." />
           </div>
         </article>
 

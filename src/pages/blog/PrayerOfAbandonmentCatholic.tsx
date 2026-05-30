@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -102,11 +103,7 @@ export default function PrayerOfAbandonmentCatholic() {
               { question: "Can beginners pray the Prayer of Abandonment?", answer: "Yes. Start with the first line if the full prayer feels difficult; trust grows through repetition." }
             ]} />
             <RelatedArticles currentSlug="prayer-of-abandonment-catholic" />
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">Grow in Catholic Prayer</h3>
-              <p className="text-text-muted mb-6">Receive a personalized guide for building a deeper daily prayer life.</p>
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA title="Grow in Catholic Prayer" description="Receive a personalized guide for building a deeper daily prayer life." />
           </div>
         </article>
         <Footer />

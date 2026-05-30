@@ -4,6 +4,7 @@ import { Sun, Calendar, Clock, ArrowLeft, Star, Microscope, Sparkles } from "luc
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -178,19 +179,7 @@ export default function OurLadyOfGuadalupeScience() {
 
 <RelatedArticles currentSlug="miracle-of-guadalupe-science" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Embrace the Mother of the Americas
-              </h3>
-              <p className="text-text-muted mb-6">
-                The miracle of Guadalupe is a calling for every soul to return to the light. Take our quiz to discover your path.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Embrace the Mother of the Americas" description="The miracle of Guadalupe is a calling for every soul to return to the light. Take our quiz to discover your path." />
           </div>
         </article>
 

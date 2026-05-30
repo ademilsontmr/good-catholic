@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, Clock, HeartHandshake } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -107,9 +108,7 @@ export default function SpiritualWorksOfMercyCatholic() {
               { question: "How do I pray for the dead?", answer: "Offer Mass intentions, pray the Rosary or Eternal Rest for souls in purgatory, and remember deceased family at every Mass you attend." },
             ]} />
             <RelatedArticles currentSlug="spiritual-works-of-mercy-catholic" />
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
-            </div>
+            <ArticleBottomCTA />
           </div>
         </article>
         <Footer />

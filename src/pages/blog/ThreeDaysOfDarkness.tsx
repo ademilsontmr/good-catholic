@@ -4,6 +4,7 @@ import { Moon, Calendar, Clock, ArrowLeft, Shield, Flame, Sparkles } from "lucid
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -217,19 +218,7 @@ export default function ThreeDaysOfDarkness() {
 
 <RelatedArticles currentSlug="three-days-of-darkness-prophecy" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Walk with Confidence in Your Faith
-              </h3>
-              <p className="text-text-muted mb-6">
-                Ready to take the next step in your spiritual journey? Take our quiz to find the best devotion for your current needs.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Walk with Confidence in Your Faith" description="Ready to take the next step in your spiritual journey? Take our quiz to find the best devotion for your current needs." />
           </div>
         </article>
 

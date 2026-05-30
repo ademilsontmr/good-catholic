@@ -4,6 +4,7 @@ import { Shield, Calendar, Clock, ArrowLeft, Sun, UserCheck, Sparkles } from "lu
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
@@ -192,19 +193,7 @@ export default function GuardianAngels() {
 
 <RelatedArticles currentSlug="guardian-angels-guide" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Walk in Good Company
-              </h3>
-              <p className="text-text-muted mb-6">
-                The invisible world is more real than the one we see. Take our quiz to deepen your Catholic worldview.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Walk in Good Company" description="The invisible world is more real than the one we see. Take our quiz to deepen your Catholic worldview." />
           </div>
         </article>
 

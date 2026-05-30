@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -223,19 +224,7 @@ export default function PopeFrancisLegacy() {
 
             <RelatedArticles currentSlug="pope-francis-legacy" />
 
-            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
-              <h3 className="font-display text-2xl font-bold text-text mb-4">
-                Answer the Call to the Peripheries
-              </h3>
-              <p className="text-text-muted mb-6">
-                Pope Francis challenged every Catholic to be a missionary disciple. Take our quiz to discover your unique calling and receive a personalized spiritual guide.
-              </p>
-              <Link to="/quiz-intro">
-                <Button size="lg" className="bg-button hover:bg-button-hover text-button-text">
-                  Take the Faith Quiz
-                </Button>
-              </Link>
-            </div>
+            <ArticleBottomCTA title="Answer the Call to the Peripheries" description="Pope Francis challenged every Catholic to be a missionary disciple. Take our quiz to discover your unique calling and receive a personalized spiritual guide." />
           </div>
         </article>
 
