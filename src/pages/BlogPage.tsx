@@ -7,6 +7,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { getCanonicalCategory } from "@/lib/blogCategories";
 import { POPE_BLOG_POSTS } from "@/data/popeBlogPosts";
+import { SAINT_OF_DAY_BLOG_POSTS } from "@/data/saintOfDayBlogPosts";
 
 interface BlogPost {
   id: number;
@@ -3785,6 +3786,7 @@ export const blogPosts: BlogPost[] = [
   { id: 1257, slug: "immaculate-conception-guide", title: "The Immaculate Conception: What It Is, What It Means & Why Catholics Believe It", excerpt: "What is the Immaculate Conception? A complete Catholic guide — what the dogma teaches, its biblical basis, the 1854 definition, the Lourdes apparitions, and why it matters for every Catholic.", date: "2026-05-08", readTime: "16 min", category: "Marian Doctrine", icon: Star, bgColor: "bg-sky-50", iconColor: "text-sky-500" },
   { id: 1258, slug: "spiritual-gifts-guide", title: "Spiritual Gifts: The Complete Catholic Guide to Charisms & How to Discover Yours", excerpt: "What are spiritual gifts? The complete Catholic guide to charisms — the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them for the Church.", date: "2026-05-08", readTime: "18 min", category: "Spiritual Life", icon: Flame, bgColor: "bg-orange-50", iconColor: "text-orange-500" },
   ...POPE_BLOG_POSTS,
+  ...SAINT_OF_DAY_BLOG_POSTS,
 ];
 
 export default function BlogPage() {

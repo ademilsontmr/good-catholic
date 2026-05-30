@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { INTERLINK_MAP } from "@/lib/interlinks";
 import { POPE_INTERLINK_MAP } from "@/data/popeInterlinks";
+import { SAINT_OF_DAY_INTERLINK_MAP } from "@/data/saintOfDayInterlinks";
 
 interface LinkedTextProps {
   children: string;
@@ -9,7 +10,7 @@ interface LinkedTextProps {
   currentSlug?: string;
 }
 
-const COMBINED_MAP = { ...INTERLINK_MAP, ...POPE_INTERLINK_MAP };
+const COMBINED_MAP = { ...INTERLINK_MAP, ...POPE_INTERLINK_MAP, ...SAINT_OF_DAY_INTERLINK_MAP };
 
 /**
  * Renders a paragraph of text with automatic contextual internal links.
