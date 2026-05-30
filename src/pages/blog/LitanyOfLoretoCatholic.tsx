@@ -20,7 +20,7 @@ export default function LitanyOfLoretoCatholic() {
         <link rel="canonical" href="https://guidecatholic.com/blog/litany-of-loreto-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Litany of Loreto: Full Text & Meaning for Catholics" description="The Litany of Loreto with full Catholic text, titles of Mary explained, and when to pray this Marian devotion." url="https://guidecatholic.com/blog/litany-of-loreto-catholic/" datePublished="2026-06-02" />
+      <ArticleSchema title="Litany of Loreto: Full Text & Meaning for Catholics" description="The Litany of Loreto with full Catholic text, titles of Mary explained, and when to pray this Marian devotion." url="https://guidecatholic.com/blog/litany-of-loreto-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -46,7 +46,7 @@ export default function LitanyOfLoretoCatholic() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />June 2, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Litany of Loreto: Full Text & Meaning for Catholics</h1>

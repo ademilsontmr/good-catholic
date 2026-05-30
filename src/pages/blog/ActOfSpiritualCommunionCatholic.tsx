@@ -20,7 +20,7 @@ export default function ActOfSpiritualCommunionCatholic() {
         <link rel="canonical" href="https://guidecatholic.com/blog/act-of-spiritual-communion-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Act of Spiritual Communion: Full Text & When Catholics Pray It" description="Act of Spiritual Communion with full Catholic text — when you cannot receive the Eucharist at Mass." url="https://guidecatholic.com/blog/act-of-spiritual-communion-catholic/" datePublished="2026-06-02" />
+      <ArticleSchema title="Act of Spiritual Communion: Full Text & When Catholics Pray It" description="Act of Spiritual Communion with full Catholic text — when you cannot receive the Eucharist at Mass." url="https://guidecatholic.com/blog/act-of-spiritual-communion-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -46,7 +46,7 @@ export default function ActOfSpiritualCommunionCatholic() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />June 2, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />10 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Act of Spiritual Communion: Full Text & When Catholics Pray It</h1>

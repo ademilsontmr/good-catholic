@@ -20,7 +20,7 @@ export default function StPadrePioNovenaHealing() {
         <link rel="canonical" href="https://guidecatholic.com/blog/st-padre-pio-novena-healing/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="St. Padre Pio Novena for Healing: 9-Day Prayer (Full Text)" description="St. Padre Pio Novena for healing — 9-day Catholic prayer with full text. Physical and spiritual healing through the intercession of Padre Pio." url="https://guidecatholic.com/blog/st-padre-pio-novena-healing/" datePublished="2026-06-01" />
+      <ArticleSchema title="St. Padre Pio Novena for Healing: 9-Day Prayer (Full Text)" description="St. Padre Pio Novena for healing — 9-day Catholic prayer with full text. Physical and spiritual healing through the intercession of Padre Pio." url="https://guidecatholic.com/blog/st-padre-pio-novena-healing/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -46,7 +46,7 @@ export default function StPadrePioNovenaHealing() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer & Devotion</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />June 1, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />8 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">St. Padre Pio Novena for Healing: 9-Day Prayer (Full Text)</h1>

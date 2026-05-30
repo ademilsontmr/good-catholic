@@ -20,7 +20,7 @@ export default function SaintsPeterAndPaulFeastGuide() {
         <link rel="canonical" href="https://guidecatholic.com/blog/saints-peter-and-paul-feast-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Saints Peter and Paul: Feast Day Guide for Catholics (June 29)" description="Saints Peter and Paul feast day — who they were, why the Church celebrates them together, and Mass obligations in the USA." url="https://guidecatholic.com/blog/saints-peter-and-paul-feast-guide/" datePublished="2026-06-02" />
+      <ArticleSchema title="Saints Peter and Paul: Feast Day Guide for Catholics (June 29)" description="Saints Peter and Paul feast day — who they were, why the Church celebrates them together, and Mass obligations in the USA." url="https://guidecatholic.com/blog/saints-peter-and-paul-feast-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -46,7 +46,7 @@ export default function SaintsPeterAndPaulFeastGuide() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />June 2, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />11 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Saints Peter and Paul: Feast Day Guide for Catholics (June 29)</h1>
