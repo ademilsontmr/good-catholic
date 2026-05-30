@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, Globe, Utensils, Layers, ListOrdered, CircleDot, type LucideIcon } from "lucide-react";
+import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, Globe, Utensils, Layers, ListOrdered, CircleDot, Crown, Mountain, HandHeart, HeartHandshake, Music, Music2, TreePine, Scale, Bird, Flower2, type LucideIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -26,6 +26,186 @@ const trimMetaDescription = (description: string) => {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1292,
+    slug: "litany-of-humility-catholic",
+    title: "Litany of Humility: Full Text & Why Catholics Pray It Daily",
+    excerpt: "The Litany of Humility with full Catholic text, meaning of each petition, and why this prayer is popular in U.S. Catholic devotion and young adult spirituality.",
+    date: "2026-05-31",
+    readTime: "9 min",
+    category: "Prayers & Devotions",
+    icon: Flower2,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-600"
+  },
+  {
+    id: 1291,
+    slug: "prayer-of-st-francis-catholic",
+    title: "Prayer of St. Francis (Make Me a Channel): Full Text & Meaning",
+    excerpt: "The Prayer of St. Francis — Make me a channel of your peace — with full text, line-by-line meaning, and how Catholics pray it in parishes and daily life.",
+    date: "2026-05-31",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Bird,
+    bgColor: "bg-lime-100",
+    iconColor: "text-lime-700"
+  },
+  {
+    id: 1290,
+    slug: "precepts-of-the-catholic-church",
+    title: "Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know",
+    excerpt: "The five precepts of the Catholic Church — Sunday Mass, Confession, Communion, fasting, and supporting the Church — explained for U.S. Catholics.",
+    date: "2026-05-31",
+    readTime: "10 min",
+    category: "Catholic Doctrine",
+    icon: Scale,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-700"
+  },
+  {
+    id: 1289,
+    slug: "catholic-cremation-rules-usa",
+    title: "Catholic Cremation Rules in the USA: What the Church Allows",
+    excerpt: "Catholic teaching on cremation in the United States — funeral Mass, burial of ashes, what is permitted, and what the Church forbids (scattering, keeping at home).",
+    date: "2026-05-31",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: Flame,
+    bgColor: "bg-stone-100",
+    iconColor: "text-stone-600"
+  },
+  {
+    id: 1288,
+    slug: "palm-sunday-catholic-guide",
+    title: "Palm Sunday Catholic Guide: Mass, Palms & Holy Week Start (USA)",
+    excerpt: "Palm Sunday for Catholics in the U.S. — blessing of palms, procession, Passion Gospel, what to do with palms at home, and how Holy Week begins.",
+    date: "2026-05-31",
+    readTime: "11 min",
+    category: "Liturgy & Worship",
+    icon: TreePine,
+    bgColor: "bg-green-100",
+    iconColor: "text-green-700"
+  },
+  {
+    id: 1287,
+    slug: "te-deum-prayer-catholic",
+    title: "Te Deum Prayer: Full Catholic Text & When the Church Sings It",
+    excerpt: "The Te Deum laudamus with full Catholic text, history as the Church's hymn of thanksgiving, and when it is sung at Easter, ordinations, and special occasions.",
+    date: "2026-05-31",
+    readTime: "9 min",
+    category: "Prayers & Devotions",
+    icon: Music2,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1286,
+    slug: "magnificat-prayer-catholic",
+    title: "Magnificat Prayer: Full Text (Mary's Song) & When to Pray It",
+    excerpt: "The Magnificat (Luke 1:46–55) with full Catholic text, Mary's song of praise, and when Catholics pray it at Evening Prayer and in daily devotion.",
+    date: "2026-05-31",
+    readTime: "9 min",
+    category: "Prayers & Devotions",
+    icon: Music,
+    bgColor: "bg-pink-100",
+    iconColor: "text-pink-600"
+  },
+  {
+    id: 1285,
+    slug: "spiritual-works-of-mercy-catholic",
+    title: "Spiritual Works of Mercy: Full Catholic List & Examples",
+    excerpt: "The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, pray for the dead — with U.S. parish and family examples.",
+    date: "2026-05-31",
+    readTime: "10 min",
+    category: "Spiritual Life",
+    icon: HeartHandshake,
+    bgColor: "bg-purple-100",
+    iconColor: "text-purple-700"
+  },
+  {
+    id: 1284,
+    slug: "corporal-works-of-mercy-catholic",
+    title: "Corporal Works of Mercy: Catholic List & How to Live Them (USA)",
+    excerpt: "The seven corporal works of mercy explained — feed the hungry, visit the sick, bury the dead, and more. Practical ways Catholics in the United States live mercy.",
+    date: "2026-05-31",
+    readTime: "11 min",
+    category: "Spiritual Life",
+    icon: HandHeart,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-600"
+  },
+  {
+    id: 1283,
+    slug: "beatitudes-catholic-explained",
+    title: "What Are the Beatitudes? Catholic Meaning of All 8 (Matthew 5)",
+    excerpt: "The Beatitudes from Matthew 5 explained — all eight blessings, what poor in spirit and peacemakers mean, and how to live them in American Catholic life.",
+    date: "2026-05-31",
+    readTime: "12 min",
+    category: "Catholic Doctrine",
+    icon: Mountain,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-700"
+  },
+  {
+    id: 1282,
+    slug: "sub-tuum-praesidium-prayer",
+    title: "Sub Tuum Praesidium: Oldest Marian Prayer (Full Text & Latin)",
+    excerpt: "Sub Tuum Praesidium — the oldest known Marian prayer — with full text in English and Latin, 3rd-century history, and when Catholics pray it for protection.",
+    date: "2026-05-30",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Shield,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-700"
+  },
+  {
+    id: 1281,
+    slug: "eternal-rest-prayer-catholic",
+    title: "Eternal Rest Prayer (Requiem Aeternam): Full Catholic Text",
+    excerpt: "The Eternal Rest prayer (Requiem aeternam) with full Catholic text in English and Latin, when to pray for the dead, and how it fits funerals and November memorials.",
+    date: "2026-05-30",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Moon,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-600"
+  },
+  {
+    id: 1280,
+    slug: "agnus-dei-prayer-catholic",
+    title: "Agnus Dei: Full Text of the Lamb of God Prayer at Mass",
+    excerpt: "The Agnus Dei (Lamb of God) with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation.",
+    date: "2026-05-30",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Sun,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-600"
+  },
+  {
+    id: 1279,
+    slug: "hail-holy-queen-prayer",
+    title: "Hail Holy Queen (Salve Regina): Full Text & Rosary Closing Prayer",
+    excerpt: "The Hail Holy Queen (Salve Regina) with full English and Latin text, meaning, and why Catholics pray it at the end of the Rosary.",
+    date: "2026-05-30",
+    readTime: "7 min",
+    category: "Prayers & Devotions",
+    icon: Crown,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-700"
+  },
+  {
+    id: 1278,
+    slug: "anima-christi-prayer",
+    title: "Anima Christi Prayer: Full Catholic Text, Meaning & When to Say It",
+    excerpt: "The Anima Christi (Soul of Christ) prayer with full text in English and Latin, line-by-line meaning, and when to pray it before Communion or after Confession.",
+    date: "2026-05-30",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: HeartPulse,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600"
+  },
   {
     id: 1277,
     slug: "jesus-prayer-catholic",

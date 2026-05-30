@@ -462,6 +462,21 @@ const ReginaCaeliPrayer = lazy(() => import("./pages/blog/ReginaCaeliPrayer"));
 const LitanyOfTheSaintsCatholic = lazy(() => import("./pages/blog/LitanyOfTheSaintsCatholic"));
 const DivinePraisesCatholic = lazy(() => import("./pages/blog/DivinePraisesCatholic"));
 const JesusPrayerCatholic = lazy(() => import("./pages/blog/JesusPrayerCatholic"));
+const AnimaChristiPrayer = lazy(() => import("./pages/blog/AnimaChristiPrayer"));
+const HailHolyQueenPrayer = lazy(() => import("./pages/blog/HailHolyQueenPrayer"));
+const AgnusDeiPrayerCatholic = lazy(() => import("./pages/blog/AgnusDeiPrayerCatholic"));
+const EternalRestPrayerCatholic = lazy(() => import("./pages/blog/EternalRestPrayerCatholic"));
+const SubTuumPraesidiumPrayer = lazy(() => import("./pages/blog/SubTuumPraesidiumPrayer"));
+const BeatitudesCatholicExplained = lazy(() => import("./pages/blog/BeatitudesCatholicExplained"));
+const CorporalWorksOfMercyCatholic = lazy(() => import("./pages/blog/CorporalWorksOfMercyCatholic"));
+const SpiritualWorksOfMercyCatholic = lazy(() => import("./pages/blog/SpiritualWorksOfMercyCatholic"));
+const MagnificatPrayerCatholic = lazy(() => import("./pages/blog/MagnificatPrayerCatholic"));
+const TeDeumPrayerCatholic = lazy(() => import("./pages/blog/TeDeumPrayerCatholic"));
+const PalmSundayCatholicGuide = lazy(() => import("./pages/blog/PalmSundayCatholicGuide"));
+const CatholicCremationRulesUsa = lazy(() => import("./pages/blog/CatholicCremationRulesUsa"));
+const PreceptsOfTheCatholicChurch = lazy(() => import("./pages/blog/PreceptsOfTheCatholicChurch"));
+const PrayerOfStFrancisCatholic = lazy(() => import("./pages/blog/PrayerOfStFrancisCatholic"));
+const LitanyOfHumilityCatholic = lazy(() => import("./pages/blog/LitanyOfHumilityCatholic"));
 
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
@@ -755,6 +770,21 @@ const App = () => (
             <Route path="/blog/litany-of-the-saints-catholic/" element={<LitanyOfTheSaintsCatholic />} />
             <Route path="/blog/divine-praises-catholic/" element={<DivinePraisesCatholic />} />
             <Route path="/blog/jesus-prayer-catholic/" element={<JesusPrayerCatholic />} />
+            <Route path="/blog/anima-christi-prayer/" element={<AnimaChristiPrayer />} />
+            <Route path="/blog/hail-holy-queen-prayer/" element={<HailHolyQueenPrayer />} />
+            <Route path="/blog/agnus-dei-prayer-catholic/" element={<AgnusDeiPrayerCatholic />} />
+            <Route path="/blog/eternal-rest-prayer-catholic/" element={<EternalRestPrayerCatholic />} />
+            <Route path="/blog/sub-tuum-praesidium-prayer/" element={<SubTuumPraesidiumPrayer />} />
+            <Route path="/blog/beatitudes-catholic-explained/" element={<BeatitudesCatholicExplained />} />
+            <Route path="/blog/corporal-works-of-mercy-catholic/" element={<CorporalWorksOfMercyCatholic />} />
+            <Route path="/blog/spiritual-works-of-mercy-catholic/" element={<SpiritualWorksOfMercyCatholic />} />
+            <Route path="/blog/magnificat-prayer-catholic/" element={<MagnificatPrayerCatholic />} />
+            <Route path="/blog/te-deum-prayer-catholic/" element={<TeDeumPrayerCatholic />} />
+            <Route path="/blog/palm-sunday-catholic-guide/" element={<PalmSundayCatholicGuide />} />
+            <Route path="/blog/catholic-cremation-rules-usa/" element={<CatholicCremationRulesUsa />} />
+            <Route path="/blog/precepts-of-the-catholic-church/" element={<PreceptsOfTheCatholicChurch />} />
+            <Route path="/blog/prayer-of-st-francis-catholic/" element={<PrayerOfStFrancisCatholic />} />
+            <Route path="/blog/litany-of-humility-catholic/" element={<LitanyOfHumilityCatholic />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />
