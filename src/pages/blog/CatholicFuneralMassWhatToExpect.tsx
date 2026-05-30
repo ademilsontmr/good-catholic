@@ -54,6 +54,10 @@ export default function CatholicFuneralMassWhatToExpect() {
             </header>
             <div className="aspect-video bg-slate-100 rounded-2xl flex items-center justify-center mb-10"><Church className="w-24 h-24 text-slate-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic funeral Mass (Mass of Christian Burial) offers the Eucharist for the deceased&apos;s soul, with Scripture, prayers, and often the final commendation. It may follow a Vigil (Rosary or wake) and precedes burial or entombment at a cemetery.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-mass-what-to-expect">
                 The Order of Christian Funerals structures Catholic burial in three main rites: the Vigil (often called a wake or viewing), the Funeral Mass (Mass of Christian Burial), and the Rite of Committal at the cemetery. Each serves a distinct purpose — remembering the deceased, offering the Sacrifice of the Mass for their soul, and committing the body to its resting place until the resurrection. American parishes typically coordinate all three within two to four days of death.
               </LinkedText>
@@ -105,6 +109,8 @@ export default function CatholicFuneralMassWhatToExpect() {
               { question: "Can a Funeral Mass be held at a funeral home?", answer: "The Funeral Mass is normally celebrated in a Catholic church. A Liturgy of the Word without Mass may occasionally be permitted elsewhere; the full Mass requires a sacred space with an altar." },
               { question: "Should children attend a Catholic funeral?", answer: "Yes, when age-appropriate. Children benefit from seeing the Church&apos;s prayer for the dead. Prepare them briefly for what they will see — the casket, incense, and quiet moments." },
               { question: "Can we schedule a Funeral Mass during Lent?", answer: "Yes. Funeral Masses are permitted during Lent, though music and decorations are more subdued. A Funeral Mass takes liturgical precedence over most Lenten observances." },
+              { question: "Can non-Catholics receive Communion at a funeral?", answer: "No. Only Catholics in a state of grace may receive the Eucharist; others may come forward for a blessing with arms crossed." },
+              { question: "Are eulogies allowed at a Catholic funeral Mass?", answer: "Personal eulogies belong at the Vigil or reception, not usually during the Mass itself per diocesan norms." }
             ]} />
             <RelatedArticles currentSlug="catholic-funeral-mass-what-to-expect" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

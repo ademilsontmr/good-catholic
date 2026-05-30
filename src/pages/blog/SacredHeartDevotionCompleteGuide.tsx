@@ -47,13 +47,17 @@ export default function SacredHeartDevotionCompleteGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />13 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Sacred Heart Devotion: Complete Catholic Guide (First Fridays & Promises)</h1>
               <p className="text-xl text-text-muted leading-relaxed">June is the month of the Sacred Heart — a devotion to Christ&apos;s burning love revealed to St. Margaret Mary Alacoque and practiced in millions of American Catholic homes through First Fridays and family enthronement.</p>
             </header>
             <div className="aspect-video bg-red-100 rounded-2xl flex items-center justify-center mb-10"><Heart className="w-24 h-24 text-red-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Sacred Heart devotion honors the love of Jesus symbolized by his wounded heart, especially through First Friday Communion, family enthronement, and the solemnity on the Friday after Pentecost (June 19, 2026).</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-devotion-complete-guide">Devotion to the Sacred Heart focuses on the human heart of Jesus as the symbol of his divine love — wounded on the cross, yet merciful to sinners. Pope Pius IX extended the feast to the universal Church in 1856. The solemnity falls nineteen days after Pentecost — in 2026, on Friday, June 19.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Origins: St. Margaret Mary and the Apparitions</h2>
@@ -96,6 +100,8 @@ export default function SacredHeartDevotionCompleteGuide() {
               { question: "What is the First Friday devotion?", answer: "Receiving Communion on the first Friday of nine consecutive months, with Confession and prayer for the Holy Father, in honor of the Sacred Heart and in reparation for sins against Christ&apos;s love." },
               { question: "Are the twelve promises of the Sacred Heart guaranteed?", answer: "They come from private revelation to St. Margaret Mary. The devotion is approved, but Catholics should not treat the promises as automatic contracts. Faithful practice opens the heart to grace God wishes to give." },
               { question: "What is enthronement of the Sacred Heart?", answer: "A family ceremony placing an image of the Sacred Heart in a place of honor in the home and consecrating the household to Christ — often with a priest&apos;s blessing." },
+              { question: "What image is used for the Sacred Heart?", answer: "Jesus&apos; heart encircled by thorns, with flames and often a cross — showing love wounded yet burning for souls." },
+              { question: "Is June dedicated to the Sacred Heart?", answer: "Yes. June is traditionally the month of the Sacred Heart in Catholic piety worldwide." }
             ]} />
             <RelatedArticles currentSlug="sacred-heart-devotion-complete-guide" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

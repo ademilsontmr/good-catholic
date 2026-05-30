@@ -47,13 +47,17 @@ export default function SaintsPeterAndPaulFeastGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />11 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Saints Peter and Paul: Feast Day Guide for Catholics (June 29)</h1>
               <p className="text-xl text-text-muted leading-relaxed">On June 29 the Church honors the two pillars of the early Church — Peter the Rock and Paul the Apostle to the Gentiles — whose martyrdom in Rome shaped Catholic identity for two millennia.</p>
             </header>
             <div className="aspect-video bg-amber-100 rounded-2xl flex items-center justify-center mb-10"><Crown className="w-24 h-24 text-amber-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The feast of Saints Peter and Paul on June 29 honors the two pillars of the early Church — Peter the first pope and Paul apostle to the Gentiles. It is a solemnity but not a separate Holy Day of Obligation beyond Sunday in the United States.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-peter-and-paul-feast-guide">The Solemnity of Saints Peter and Paul is one of the oldest feasts in Rome. Both apostles died as martyrs under Nero around the mid-first century. The Church celebrates them together because Peter and Paul, though different in background and mission, together laid the foundation of the Church in unity with Christ.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saint Peter: The Rock and First Pope</h2>
@@ -94,6 +98,8 @@ export default function SaintsPeterAndPaulFeastGuide() {
               { question: "Is June 29 a Holy Day of Obligation in the United States?", answer: "No. Saints Peter and Paul is not on the U.S. list of Holy Days of Obligation, though Catholics are encouraged to celebrate the solemnity at Mass." },
               { question: "Why are Peter and Paul celebrated on the same day?", answer: "Both were martyred in Rome and together represent the foundation of the Church — Peter as head of the apostles and Paul as apostle to the Gentiles. One feast honors their united witness." },
               { question: "What is the pallium?", answer: "A wool band the Pope confers on metropolitan archbishops as a sign of communion with the See of Peter. The conferral often occurs on the feast of Saints Peter and Paul in Rome." },
+              { question: "Why are Peter and Paul celebrated together?", answer: "Both were martyred in Rome under Nero and together represent the unity of Jewish and Gentile Christianity in the one Church." },
+              { question: "Where are Peter and Paul buried?", answer: "Tradition holds both are buried at St. Peter&apos;s Basilica and the Basilica of St. Paul Outside the Walls in Rome." }
             ]} />
             <RelatedArticles currentSlug="saints-peter-and-paul-feast-guide" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

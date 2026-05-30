@@ -47,13 +47,17 @@ export default function LitanyOfLoretoCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Litany of Loreto: Full Text & Meaning for Catholics</h1>
               <p className="text-xl text-text-muted leading-relaxed">The Litany of Loreto is the Church&apos;s most widely approved Marian litany — a cascade of titles that honor Mary and ask her intercession, prayed at shrines, in parishes, and in countless American homes.</p>
             </header>
             <div className="aspect-video bg-blue-100 rounded-2xl flex items-center justify-center mb-10"><Star className="w-24 h-24 text-blue-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Litany of Loreto is an approved Catholic Marian litany invoking Mary under titles such as Mother of God, Virgin of virgins, and Help of Christians. The leader names each title and the people respond pray for us or have mercy on us.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-loreto-catholic">The Litany of Loreto is one of the Church&apos;s most beloved Marian prayers. A litany is a responsive prayer: the leader names an invocation and the people answer with a fixed refrain — here, &quot;pray for us&quot; or &quot;have mercy on us.&quot; This litany invokes the Blessed Virgin Mary under dozens of titles drawn from Scripture, tradition, and the faith of the saints.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Opening Invocations and Kyrie</h2>
@@ -173,6 +177,8 @@ export default function LitanyOfLoretoCatholic() {
               { question: "Why is it called the Litany of Loreto?", answer: "It is named after the Shrine of the Holy House in Loreto, Italy, a major Marian pilgrimage site where this litany has been prayed for centuries." },
               { question: "How long does the Litany of Loreto take to pray?", answer: "Recited at a moderate pace, the full litany takes about ten to fifteen minutes. Parishes sometimes sing it or pray selected sections." },
               { question: "Can I pray the Litany of Loreto alone?", answer: "Yes. Although it is designed as a responsive prayer, you can pray both parts yourself or use a recording or app that leads the invocations." },
+              { question: "Is the Litany of Loreto approved by the Church?", answer: "Yes. It is one of the litanies approved for public and private devotion and is widely used in parishes, shrines, and May processions." },
+              { question: "How long does the Litany of Loreto take?", answer: "About ten to fifteen minutes when prayed at a moderate pace with all titles." }
             ]} />
             <RelatedArticles currentSlug="litany-of-loreto-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

@@ -47,13 +47,17 @@ export default function ActOfSpiritualCommunionCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />10 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Act of Spiritual Communion: Full Text & When Catholics Pray It</h1>
               <p className="text-xl text-text-muted leading-relaxed">When illness, travel, or conscience prevents receiving the Eucharist, Spiritual Communion unites the soul to Christ with desire and love — a practice saints have recommended for centuries.</p>
             </header>
             <div className="aspect-video bg-amber-100 rounded-2xl flex items-center justify-center mb-10"><Sun className="w-24 h-24 text-amber-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Act of Spiritual Communion is a Catholic prayer expressing desire to receive Jesus in the Eucharist when sacramental Communion is impossible — during illness, travel, or before Mass. St. Alphonsus Liguori popularized the classic English text.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-spiritual-communion-catholic">Spiritual Communion is a prayer expressing the longing to receive Jesus in the Blessed Sacrament when sacramental Communion is not possible. It does not replace the Eucharist, but it keeps the heart oriented toward Christ&apos;s Real Presence.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Act of Spiritual Communion: Full Text</h2>
@@ -100,6 +104,8 @@ export default function ActOfSpiritualCommunionCatholic() {
               { question: "Who composed the common Act of Spiritual Communion?", answer: "The most popular English form is attributed to St. Alphonsus Liguori, an eighteenth-century bishop and doctor of the Church whose devotional writings remain widely used." },
               { question: "Can I make a Spiritual Communion if I am in mortal sin?", answer: "You may pray with desire for union with Christ, but you should make an act of contrition and go to Confession before receiving sacramental Communion. Spiritual Communion expresses longing while you prepare to return to the altar." },
               { question: "When should I pray Spiritual Communion during a livestreamed Mass?", answer: "Pray it at the Communion rite — when the priest receives Communion and the congregation would normally approach the altar. Pause, kneel if possible, and pray with attention." },
+              { question: "Does Spiritual Communion replace going to Mass?", answer: "No. Catholics still have the Sunday obligation when able; Spiritual Communion unites the soul when the Host cannot be received." },
+              { question: "Who wrote the Act of Spiritual Communion?", answer: "The common English text is associated with St. Alphonsus Liguori; similar prayers appear in centuries of Catholic devotion." }
             ]} />
             <RelatedArticles currentSlug="act-of-spiritual-communion-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

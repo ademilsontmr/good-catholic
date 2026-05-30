@@ -54,6 +54,10 @@ export default function CatholicWeddingMassVsCeremony() {
             </header>
             <div className="aspect-video bg-pink-100 rounded-2xl flex items-center justify-center mb-10"><Heart className="w-24 h-24 text-pink-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic wedding with Mass includes the Liturgy of the Eucharist for two Catholics; a wedding ceremony without Mass (Liturgy of the Word only) is used when one party is not Catholic or when a priest deems it pastorally better — only Catholics in grace receive Communion.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-mass-vs-ceremony">
                 A Catholic wedding is not merely a blessing added to a civil marriage. It is a sacrament — the couple becomes a sign of Christ&apos;s covenant with the Church. Whether celebrated within Mass or outside it, the essential element is the exchange of consent before the Church and witnesses. Everything else — music, flowers, reception — is secondary to that sacred moment.
               </LinkedText>
@@ -107,6 +111,8 @@ export default function CatholicWeddingMassVsCeremony() {
               { question: "Can non-Catholics receive Communion at a Nuptial Mass?", answer: "Generally no. The Church teaches that Communion signifies full communion with the Catholic Church. Non-Catholics may receive a blessing instead." },
               { question: "How far in advance should we book a Catholic wedding?", answer: "Most U.S. parishes require 6–12 months notice. Popular Saturday dates fill quickly, especially during ordinary time." },
               { question: "Can we have a Catholic wedding outdoors?", answer: "Ordinarily the wedding must take place in a Catholic church or chapel unless the bishop grants an exception. Outdoor weddings are not the norm in Catholic practice." },
+              { question: "Who decides Mass vs. ceremony without Mass?", answer: "The couple, priest, and diocesan policy — especially when a Catholic marries a baptized non-Catholic." },
+              { question: "Is a Nuptial Mass required for a valid marriage?", answer: "No. Validity requires consent, canonical form, and freedom to marry — not necessarily a full Mass." }
             ]} />
             <RelatedArticles currentSlug="catholic-wedding-mass-vs-ceremony" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

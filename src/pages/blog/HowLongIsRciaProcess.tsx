@@ -47,13 +47,17 @@ export default function HowLongIsRciaProcess() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Catholic Living</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />13 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">How Long Is RCIA? Catholic Conversion Timeline in the USA</h1>
               <p className="text-xl text-text-muted leading-relaxed">RCIA — the Rite of Christian Initiation of Adults — typically spans eight to nine months from September to Easter Vigil. But the journey is not one-size-fits-all: your parish, background, and readiness shape the timeline.</p>
             </header>
             <div className="aspect-video bg-emerald-100 rounded-2xl flex items-center justify-center mb-10"><BookOpen className="w-24 h-24 text-emerald-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">RCIA in the United States typically runs from fall through the Easter Vigil — about eight to nine months — though unbaptized adults are initiated at Easter and timelines vary based on readiness, marriage status, and prior Christian formation.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-long-is-rcia-process">
                 Most American parishes run RCIA on an academic-year calendar: inquiry begins in late summer or early fall, weekly sessions run through Lent, and initiation sacraments are celebrated at the Easter Vigil — the Church&apos;s greatest night of the year. That makes the standard timeline roughly September through March or April, about eight to nine months. RCIA is not a course you pass by attendance alone; it is a gradual initiation into a living relationship with Christ and His Church.
               </LinkedText>
@@ -106,6 +110,8 @@ export default function HowLongIsRciaProcess() {
               { question: "I was baptized Protestant — do I need to be rebaptized?", answer: "No. If you were baptized with water in the name of the Father, Son, and Holy Spirit, the Catholic Church recognizes that baptism. You will make a profession of faith and receive Confirmation and Eucharist." },
               { question: "Can I start RCIA if I am not married in the Church?", answer: "Yes, you may begin inquiry. If you are in an irregular marriage, the pastor will discuss whether an annulment or convalidation is needed before receiving sacraments. This can extend the timeline." },
               { question: "What if I miss sessions due to work or travel?", answer: "Talk with your RCIA director. Occasional absences are manageable; prolonged absence may mean continuing another year. The process prioritizes formation over fixed schedules." },
+              { question: "What does RCIA stand for?", answer: "Rite of Christian Initiation of Adults — the Church&apos;s process for welcoming new members." },
+              { question: "Can I attend Mass during RCIA before becoming Catholic?", answer: "Yes. You are expected to attend Sunday Mass; catechumens participate in the Liturgy of the Word and are dismissed before Communion." }
             ]} />
             <RelatedArticles currentSlug="how-long-is-rcia-process" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

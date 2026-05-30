@@ -47,13 +47,17 @@ export default function CanCatholicsKeepAshesAtHome() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Catholic Living</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />13 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Can Catholics Keep Ashes at Home? Church Rules in the USA</h1>
               <p className="text-xl text-text-muted leading-relaxed">After cremation, many grieving families want to keep a loved one&apos;s ashes at home. Catholic teaching permits cremation — but sets clear rules about where cremated remains must be kept and how they must be treated.</p>
             </header>
             <div className="aspect-video bg-stone-100 rounded-2xl flex items-center justify-center mb-10"><Home className="w-24 h-24 text-stone-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church does not permit keeping cremated remains at home indefinitely. Ashes must be buried in a cemetery or entombed in a sacred place — temporary storage during arrangements is different from permanent keeping.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-keep-ashes-at-home">
                 The short answer is no: the Catholic Church does not permit keeping cremated remains permanently in a private home, on a mantel, divided among family members, or scattered in a garden. The body — even in ashes — belongs to God and awaits the resurrection. The Church&apos;s concern is not legalism but reverence: cremated remains are treated with the same dignity as a body awaiting burial.
               </LinkedText>
@@ -106,6 +110,8 @@ export default function CanCatholicsKeepAshesAtHome() {
               { question: "Can I scatter my loved one&apos;s ashes at their favorite lake?", answer: "No. Scattering ashes — on land, water, or air — is not permitted in Catholic teaching. The remains must be interred in a cemetery or columbarium." },
               { question: "Can multiple family members each keep a portion of ashes?", answer: "No. Dividing cremated remains among relatives is explicitly forbidden. The body of the deceased must remain intact in one sacred resting place." },
               { question: "Can cremated remains be present at a Catholic Funeral Mass?", answer: "Yes. The Order of Christian Funerals allows a Funeral Mass with cremated remains present, though the Church prefers the body present when possible. The urn should be treated with the same reverence as a casket." },
+              { question: "What about a small portion in a locket?", answer: "The Church forbids dividing ashes or making keepsakes; the whole body of ashes receives Christian burial." },
+              { question: "Can ashes be buried in the same plot as a spouse?", answer: "Yes. Catholic cemeteries routinely allow companion niches or second interments." }
             ]} />
             <RelatedArticles currentSlug="can-catholics-keep-ashes-at-home" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

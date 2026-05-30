@@ -47,13 +47,17 @@ export default function PrayerBeforeCrucifixCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />10 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Prayer Before a Crucifix: Full Text & Meaning for Catholics</h1>
               <p className="text-xl text-text-muted leading-relaxed">Kneeling before a crucifix, Catholics pray with St. Francis of Assisi for faith, hope, charity, and repentance — a prayer enriched with a partial indulgence in the Church&apos;s tradition.</p>
             </header>
             <div className="aspect-video bg-red-100 rounded-2xl flex items-center justify-center mb-10"><Cross className="w-24 h-24 text-red-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Prayer Before a Crucifix is an indulgenced Catholic prayer asking Christ for lively faith, hope, charity, and repentance while kneeling before a crucifix — often associated with St. Francis of Assisi and prayed after Communion or during adoration.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">The crucifix is not decoration only. It is a sacramental — a sacred sign that focuses faith on Christ crucified. The Prayer Before a Crucifix, associated with St. Francis of Assisi, is among the most common devotions in American Catholic homes, schools, and hospitals.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer Before a Crucifix: Full Text</h2>
@@ -94,6 +98,8 @@ export default function PrayerBeforeCrucifixCatholic() {
               { question: "Is there an indulgence for praying before a crucifix?", answer: "Yes. The Church grants a partial indulgence for devoutly praying approved prayers before a crucifix, including this one, under the usual conditions for gaining indulgences." },
               { question: "What is the difference between a cross and a crucifix?", answer: "A crucifix includes the figure of Christ crucified (the corpus). Catholics use crucifixes to recall the historical sacrifice of Jesus, not only the symbol of resurrection." },
               { question: "When is the best time to pray before a crucifix?", answer: "Fridays, before Confession, during Lent, and at bedtime are traditional times. Any moment of sorrow, gratitude, or need for repentance is appropriate." },
+              { question: "Is there an indulgence for this prayer?", answer: "The Church grants a partial indulgence when prayed before a crucifix with the usual conditions (sacramental confession, Communion, prayer for the Pope)." },
+              { question: "Must I kneel to pray it?", answer: "Kneeling is traditional and fitting but not strictly required if physically unable." }
             ]} />
             <RelatedArticles currentSlug="prayer-before-crucifix-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

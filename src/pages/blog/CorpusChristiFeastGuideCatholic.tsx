@@ -47,13 +47,17 @@ export default function CorpusChristiFeastGuideCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Corpus Christi: Catholic Feast Day Guide (Meaning, Mass & Processions)</h1>
               <p className="text-xl text-text-muted leading-relaxed">Corpus Christi — the Body of Christ — is the solemnity that crowns the Easter season by celebrating the Real Presence of Jesus in the Eucharist, often with public processions through American streets.</p>
             </header>
             <div className="aspect-video bg-yellow-100 rounded-2xl flex items-center justify-center mb-10"><Sun className="w-24 h-24 text-yellow-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Corpus Christi is the Catholic solemnity honoring the Real Presence of Christ in the Eucharist, celebrated in the U.S. on the Sunday after Trinity Sunday (June 7 in 2026) with Mass and often a public Eucharistic procession.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-feast-guide-catholic">Corpus Christi falls on the Thursday after Trinity Sunday (or the following Sunday in many countries). In the United States, the bishops transfer the solemnity to Sunday so more faithful can participate. In 2026, Corpus Christi Sunday is June 7.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Corpus Christi Celebrates</h2>
@@ -102,6 +106,8 @@ export default function CorpusChristiFeastGuideCatholic() {
               { question: "Is Corpus Christi a Holy Day of Obligation in the USA?", answer: "No separate weekday obligation applies. Because the U.S. celebrates Corpus Christi on Sunday, Catholics attend Mass as on any Sunday." },
               { question: "What is a Corpus Christi procession?", answer: "A public procession in which the Blessed Sacrament is carried in a monstrance under a canopy while the faithful sing and pray — a witness to belief in the Real Presence." },
               { question: "What should I do if my parish has no procession?", answer: "Attend Mass, spend time in adoration if offered, pray the Tantum Ergo at home, and consider visiting a nearby parish that holds a procession." },
+              { question: "What does Corpus Christi mean in Latin?", answer: "Body of Christ — referring to Christ truly present in the consecrated Host." },
+              { question: "Can children join the procession?", answer: "Yes. Teach them to genuflect when the Blessed Sacrament passes and to dress modestly." }
             ]} />
             <RelatedArticles currentSlug="corpus-christi-feast-guide-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

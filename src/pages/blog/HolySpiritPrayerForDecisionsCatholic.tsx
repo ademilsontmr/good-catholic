@@ -47,13 +47,17 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />11 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Holy Spirit Prayer for Decisions: Full Text & When to Pray It</h1>
               <p className="text-xl text-text-muted leading-relaxed">Major decisions — marriage, career, relocation, vocation — need more than pros-and-cons lists. Catholics invoke the Holy Spirit for wisdom that human reason alone cannot supply.</p>
             </header>
             <div className="aspect-video bg-sky-100 rounded-2xl flex items-center justify-center mb-10"><Wind className="w-24 h-24 text-sky-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Holy Spirit prayer for decisions is a Catholic invocation of Come, Holy Spirit before major choices — marriage, vocation, career, or medical ethics — combined with Scripture, counsel, and examination of conscience.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Discernment is a classic Catholic word for seeking God&apos;s will. The Holy Spirit — the Third Person of the Trinity — is called the Spirit of Truth (John 16:13). Before major decisions, Catholics ask this Spirit to enlighten the mind and strengthen the will toward what is good.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer for Decisions: Full Text</h2>
@@ -102,6 +106,8 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
               { question: "How do I know if a decision is from the Holy Spirit?", answer: "Look for lasting peace, alignment with Church teaching, freedom from selfish motives, and confirmation through prayer, counsel, and circumstances over time — not a single emotional moment." },
               { question: "Can I pray to the Holy Spirit if I am not confirmed?", answer: "Yes. All baptized Catholics may invoke the Holy Spirit. Confirmation strengthens the gifts already given at Baptism but is not required to begin praying for guidance." },
               { question: "How long should I discern before deciding?", answer: "There is no fixed rule. Simple decisions may need days; vocation or marriage discernment often takes months or years. Pray daily and avoid rushing when the matter is serious." },
+              { question: "Is this the same as the novena for clarity?", answer: "Similar in purpose; the novena for clarity is nine days, while this prayer can be used daily during any discernment period." },
+              { question: "Should I talk to a priest when discerning?", answer: "Yes for serious decisions. The Holy Spirit works through the Church&apos;s ministers and wise counselors." }
             ]} />
             <RelatedArticles currentSlug="holy-spirit-prayer-for-decisions-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

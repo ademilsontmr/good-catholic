@@ -47,13 +47,17 @@ export default function QueenshipOfMaryCatholicGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />11 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Queenship of Mary: Catholic Feast Day Guide (August 22)</h1>
               <p className="text-xl text-text-muted leading-relaxed">One week after the Assumption, the Church proclaims Mary as Queen of Heaven and earth — not by competing with Christ, but as the Mother of the King who intercedes for the People of God.</p>
             </header>
             <div className="aspect-video bg-purple-100 rounded-2xl flex items-center justify-center mb-10"><Crown className="w-24 h-24 text-purple-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Queenship of Mary (August 22) celebrates Mary as Queen of Heaven and earth, one week after the Assumption, honoring her unique role in God&apos;s plan of salvation.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="queenship-of-mary-catholic-guide">The Memorial of the Queenship of the Blessed Virgin Mary is celebrated on August 22. Pope Pius XII established the feast in 1954, linking it to the Assumption and to the centenary of the dogma of the Immaculate Conception. It crowns the Marian feasts at the end of summer in the U.S. liturgical calendar.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Call Mary Queen</h2>
@@ -102,6 +106,8 @@ export default function QueenshipOfMaryCatholicGuide() {
               { question: "Is August 22 a Holy Day of Obligation?", answer: "No. The Queenship of Mary is a memorial, not a Holy Day of Obligation in the United States. Catholics are still encouraged to honor Mary at Mass that day." },
               { question: "Why is Mary called Queen if Christ is King?", answer: "In the Davidic kingdom, the king&apos;s mother held a royal office of intercession. Mary is Queen because she is Mother of Christ the King, not as his rival but as his closest collaborator in salvation." },
               { question: "What prayer is best for the Queenship of Mary?", answer: "The Salve Regina (Hail, Holy Queen) and the Litany of Loreto — with its many Queen titles — are classic prayers. The Rosary&apos;s fifth Glorious Mystery also meditates on Mary&apos;s Coronation." },
+              { question: "Is Mary Queen because of her own power?", answer: "No. She is Queen by grace, as mother of the King — her glory is entirely from Christ." },
+              { question: "How do Catholics honor Mary as Queen?", answer: "Through the Rosary, Regina Caeli prayer, processions, and entrustment of families and nations to her care." }
             ]} />
             <RelatedArticles currentSlug="queenship-of-mary-catholic-guide" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

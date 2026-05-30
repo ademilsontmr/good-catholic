@@ -47,13 +47,17 @@ export default function CatholicGodparentRequirementsUsa() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Catholic Living</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />13 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Catholic Godparent Requirements in the USA: Rules & Qualifications</h1>
               <p className="text-xl text-text-muted leading-relaxed">Godparents are not ceremonial placeholders — they are spiritual mentors who assist parents in raising a child in the Catholic faith. Canon law sets clear requirements that U.S. parishes enforce before Baptism or Confirmation.</p>
             </header>
             <div className="aspect-video bg-sky-100 rounded-2xl flex items-center justify-center mb-10"><Users className="w-24 h-24 text-sky-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic godparents in the USA must be fully initiated Catholics (baptized, confirmed, receiving Communion), at least 16, living in harmony with Church teaching, and able to obtain a sponsor certificate from their parish.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-godparent-requirements-usa">
                 A godparent (sponsor) makes a public promise at Baptism to help the child live the faith. The Church takes this role seriously because Baptism is not a family photo opportunity — it is incorporation into Christ&apos;s Body. Canon 874 of the Code of Canon Law lists who may and may not serve. American parishes typically require godparents to submit a sponsor certificate from their home parish confirming they meet these qualifications.
               </LinkedText>
@@ -107,6 +111,8 @@ export default function CatholicGodparentRequirementsUsa() {
               { question: "Can siblings be godparents to each other&apos;s children?", answer: "Yes, provided the sibling meets all canonical requirements — age, Confirmation, practicing faith, and valid marriage status if applicable." },
               { question: "Do godparents need to be the same for Baptism and Confirmation?", answer: "Not necessarily. The same person is ideal for continuity, but a different sponsor may be chosen for Confirmation if the original godparent is unavailable or unsuitable." },
               { question: "What if a chosen godparent cannot get a sponsor certificate?", answer: "They likely do not meet Church requirements. Choose another qualified Catholic rather than expecting the parish to make exceptions. Pastors cannot dispense from all requirements." },
+              { question: "Can two men be godparents?", answer: "No. If two sponsors, canon law requires one man and one woman." },
+              { question: "Can a non-practicing Catholic be a godparent?", answer: "The pastor may decline someone who does not live the faith, even if confirmed." }
             ]} />
             <RelatedArticles currentSlug="catholic-godparent-requirements-usa" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

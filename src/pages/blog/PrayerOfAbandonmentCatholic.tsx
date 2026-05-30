@@ -47,13 +47,17 @@ export default function PrayerOfAbandonmentCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />11 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Prayer of Abandonment: Full Text & Meaning (Charles de Foucauld)</h1>
               <p className="text-xl text-text-muted leading-relaxed">Blessed Charles de Foucauld&apos;s Prayer of Abandonment is a masterpiece of trust — handing every outcome to God with gratitude, whether the day brings joy or suffering.</p>
             </header>
             <div className="aspect-video bg-violet-100 rounded-2xl flex items-center justify-center mb-10"><HandHeart className="w-24 h-24 text-violet-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Prayer of Abandonment is a Catholic prayer attributed to Blessed Charles de Foucauld that entrusts one&apos;s entire life to God the Father with gratitude and trust, echoing Christ&apos;s words on the cross: Into your hands I commend my spirit.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Prayer of Abandonment: Full Text</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-lg">
@@ -94,6 +98,8 @@ export default function PrayerOfAbandonmentCatholic() {
               { question: "Is the Prayer of Abandonment the same as giving up?", answer: "No. Abandonment means entrusting outcomes to God while still fulfilling your responsibilities. Charles de Foucauld worked actively for the poor even as he prayed this surrender." },
               { question: "Can I pray this if I am angry or afraid?", answer: "Yes. Start with what you can honestly say. Even praying the first line — offering yourself to God — is a valid step. Trust grows through repeated prayer, not perfect feelings." },
               { question: "When is the best time to pray the Prayer of Abandonment?", answer: "Many Catholics pray it at night before sleep, echoing Christ&apos;s words on the cross. It is also fitting before major decisions, during illness, or in Eucharistic adoration." },
+              { question: "Is Charles de Foucauld a saint?", answer: "He was beatified by Pope Francis in 2022; the Church recognizes his heroic virtue and spirituality of Nazareth." },
+              { question: "Can beginners pray the Prayer of Abandonment?", answer: "Yes. Start with the first line if the full prayer feels difficult; trust grows through repetition." }
             ]} />
             <RelatedArticles currentSlug="prayer-of-abandonment-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
