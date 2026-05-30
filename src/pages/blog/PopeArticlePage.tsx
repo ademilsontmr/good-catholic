@@ -80,6 +80,9 @@ export default function PopeArticlePage() {
               <Crown className="w-24 h-24 text-amber-700" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">{article.directAnswer}</p>
+              </div>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Was Pope {displayName.replace(/^St\.\s+/, "")}?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
                 {article.intro}
@@ -117,6 +120,11 @@ export default function PopeArticlePage() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Legacy in the Catholic Church</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
                 {article.legacy}
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Study This Pope Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
+                {article.forCatholicsToday}
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Place in the Line of Succession</h2>

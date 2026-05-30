@@ -401,37 +401,152 @@ function buildWhyHeMatters(pope, wiki, isSaint, era) {
   return text.replace(/\s+/g, " ").trim();
 }
 
-function buildIntro(pope, wiki, isSaint, era) {
-  const { notes } = wiki;
-  const ord = ordinal(pope.num);
-  const bareName = pope.name.replace(/^St\.\s+/, "St. ");
-  const { buckets } = categorizeSentences(notes);
-
-  let intro = `${bareName} was the ${ord} Bishop of Rome and ${ord} pope of the Catholic Church, reigning from ${pope.reign} during ${era}. `;
-  if (isSaint) intro += "The Catholic Church honors him as a saint. ";
-
-  const hook = [...buckets.firsts, ...buckets.martyrdom, ...buckets.reforms].slice(0, 2);
-  if (hook.length) {
-    intro += hook.join(" ");
-  } else if (buckets.general.length) {
-    intro += buckets.general.slice(0, 2).join(" ");
-  } else {
-    intro += `As successor of St. Peter, he carried the threefold papal ministry of teaching, sanctifying, and governing the universal Church.`;
+function markUsed(used, text) {
+  for (const s of splitSentences(text)) {
+    if (s.length > 25) used.add(s.slice(0, 72));
   }
+}
+
+function pickFresh(used, candidates, max = 3) {
+  const out = [];
+  for (const s of candidates) {
+    if (out.length >= max) break;
+    const key = s.slice(0, 72);
+    if (!used.has(key)) {
+      used.add(key);
+      out.push(s);
+    }
+  }
+  return out;
+}
+
+function buildDirectAnswer(pope, wiki, isSaint, era) {
+  const ord = ordinal(pope.num);
+  const { buckets, sentences } = categorizeSentences(wiki.notes);
+  const keyFact =
+    pickFresh(new Set(), [...buckets.firsts, ...buckets.reforms, ...buckets.martyrdom, ...sentences], 1)[0] || "";
+
+  const parts = [
+    `${pope.name} was the ${ord} pope of the Catholic Church, reigning ${pope.reign} during ${era}.`,
+  ];
+  if (keyFact) parts.push(keyFact);
+  if (isSaint) parts.push("The Catholic Church venerates him as a saint.");
+  else if (pope.num >= 267) parts.push("He is the reigning Supreme Pontiff and Bishop of Rome.");
+  return parts.join(" ").replace(/\s+/g, " ").trim();
+}
+
+function buildForCatholicsToday(pope, wiki, isSaint, era) {
+  const bare = pope.name.replace(/^St\.\s+/, "");
+  const parts = [
+    `Studying ${pope.name} helps Catholics see how the Holy Spirit guided the Church through ${era} — with human weakness and grace intertwined.`,
+  ];
+  if (isSaint) {
+    parts.push(`You may ask ${bare} for intercession and look up his feast in the Roman calendar or Martyrology.`);
+  }
+  if (/\bencyclical|council|Lateran|Trent|Vatican|bull\b/i.test(wiki.notes)) {
+    parts.push(`Primary sources from this pontificate — bulls, conciliar acts, or encyclicals — reward readers who want depth beyond summaries.`);
+  }
+  parts.push(
+    `Place this pope in context using our chronological list of all 267 popes and the biographies of his immediate predecessor and successor linked below.`
+  );
+  return parts.join(" ").replace(/\s+/g, " ").trim();
+}
+function buildIntro(pope, wiki, isSaint, era, used) {
+  const hooks = extractTitleHook(pope.name, wiki.notes);
+  const bareName = pope.name.replace(/^St\.\s+/, "");
+  let intro = `This biography of ${pope.name} (${popeOrd(pope.num)}) covers background, major events, and legacy in the line of St. Peter. `;
+  if (hooks.length) intro += `Common search topics include ${hooks.join(", ")}. `;
+  intro += `During ${era}, the Bishop of Rome exercised teaching, sanctifying, and governing authority for the universal Church.`;
+  if (isSaint) intro += " Catholics honor him as a saint whose intercession remains available to the faithful.";
+  markUsed(used, intro);
   return intro.replace(/\s+/g, " ").trim();
 }
 
-function buildPontificate(pope, wiki, era) {
+function buildPontificate(pope, wiki, era, used) {
   const { buckets, sentences } = categorizeSentences(wiki.notes);
-  let text = `The pontificate of ${pope.name.replace(/^St\.\s+/, "")} (${pope.reign}) unfolded during ${era}. `;
-  const detail = [...buckets.reforms, ...buckets.councils, ...buckets.conflicts, ...buckets.general];
-  if (detail.length >= 2) {
-    text += detail.slice(0, 4).join(" ");
+  const picked = pickFresh(used, [...buckets.reforms, ...buckets.councils], 4);
+  let text = `The pontificate (${pope.reign}) centered on governance during ${era}. `;
+  if (picked.length >= 2) {
+    text += picked.join(" ");
   } else if (sentences.length) {
-    text += sentences.slice(0, 3).join(" ");
+    text += pickFresh(used, sentences, 3).join(" ");
   } else {
-    text += `Sources for this era ${pope.num <= 50 ? "draw on apostolic tradition and the Liber Pontificalis" : "include papal bulls, Vatican archives, and contemporary chronicles"}.`;
+    text += `Sources ${pope.num <= 50 ? "include apostolic tradition and the Liber Pontificalis" : "include papal bulls, Vatican archives, and contemporary chronicles"}.`;
   }
+  markUsed(used, text);
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function buildPapalActsRefined(pope, wiki, era, used) {
+  const { buckets, sentences } = categorizeSentences(wiki.notes);
+  const picked = pickFresh(used, [...buckets.conflicts, ...buckets.firsts, ...buckets.martyrdom, ...buckets.general], 4);
+  let text = `${pope.name.replace(/^St\.\s+/, "")} left a distinct mark through decisions that historians still debate and Catholics still study. `;
+  if (picked.length >= 2) {
+    text += picked.join(" ");
+  } else {
+    text += pickFresh(used, sentences, 2).join(" ") || `His reign contributed to the continuous apostolic succession now numbering 267 popes.`;
+  }
+  const mottoMatch = wiki.notes.match(/Papal motto: ([^.]+\.)/i);
+  if (mottoMatch && !used.has(mottoMatch[0].slice(0, 72))) {
+    text += ` ${mottoMatch[0]}`;
+    markUsed(used, mottoMatch[0]);
+  }
+  markUsed(used, text);
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function buildLegacyRefined(pope, wiki, isSaint, era, used) {
+  const { buckets, sentences } = categorizeSentences(wiki.notes);
+  const picked = pickFresh(used, [...buckets.legacy, ...sentences.slice(-4)], 3);
+  let text = "";
+  if (picked.length >= 1) {
+    text = picked.join(" ");
+  } else {
+    text = `${pope.name} remains pope ${popeOrd(pope.num)} in the Annuario Pontificio. `;
+    if (isSaint) text += "The Church venerates his feast and holds up his virtues for imitation. ";
+  }
+  text += ` Read against ${era}, his pontificate shows how Providence works through imperfect ministers without abandoning the Barque of Peter.`;
+  markUsed(used, text);
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function buildEarlyLifeFresh(pope, wiki, isSaint, used) {
+  const { notes, birth, personalName } = wiki;
+  const { buckets } = categorizeSentences(notes);
+  const parts = [];
+
+  if (personalName && !/^(Rome|Pavia|c\.\s*\d|\d)/i.test(personalName)) {
+    parts.push(`Before election he was known as ${personalName}.`);
+  }
+  if (birth) {
+    parts.push(`Born ${birth.replace(/^c\.\s*/, "circa ")}, he entered a world shaped by politics and piety very different from today's global Church.`);
+  }
+  const geo = pickFresh(used, buckets.geography, 2);
+  if (geo.length) parts.push(geo.join(" "));
+  if (/Member of the (Order|Dominican|Franciscan|Jesuit|Benedictine)/i.test(notes)) {
+    const orderMatch = notes.match(/Member of the ([^.]+?)(?:\.|,)/i);
+    if (orderMatch) parts.push(`Religious formation in ${orderMatch[1]} shaped his approach to the papal office.`);
+  }
+  if (isSaint) {
+    const m = pickFresh(used, buckets.martyrdom, 1);
+    if (m.length) parts.push(m[0]);
+  }
+  if (!parts.length) {
+    parts.push(
+      `Early biographical details for ${pope.name.replace(/^St\.\s+/, "")} are sparse, as is common for ancient pontiffs; election by the Church marks the start of verifiable public ministry.`
+    );
+  }
+  const text = parts.join(" ");
+  markUsed(used, text);
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function buildHistoricalContextFresh(pope, era, notes, used) {
+  const opener = (ERA_OPENINGS[era] || ERA_OPENINGS["the high Middle Ages"])(pope.name.replace(/^St\.\s+/, ""));
+  const { buckets } = categorizeSentences(notes);
+  const extras = pickFresh(used, [...buckets.conflicts, ...buckets.councils], 2);
+  const text = [opener, ...extras].join(" ");
+  markUsed(used, text);
   return text.replace(/\s+/g, " ").trim();
 }
 
@@ -545,27 +660,32 @@ function buildArticle(pope, slug, wikiNotes, prev, next, allPopes) {
   const era = getEra(pope.num);
   const wiki = wikiNotes[pope.num] || { notes: "", birth: "", personalName: "" };
   const { notes } = wiki;
+  const used = new Set();
 
   const title = buildTitle(pope, notes);
-  const intro = buildIntro(pope, wiki, isSaint, era);
-  const earlyLife = buildEarlyLife(pope, wiki, isSaint);
-  const historicalContext = buildHistoricalContext(pope, era, notes);
-  const pontificate = buildPontificate(pope, wiki, era);
-  const papalActs = buildPapalActs(pope, wiki, era);
-  const legacy = buildWhyHeMatters(pope, wiki, isSaint, era);
+  const directAnswer = buildDirectAnswer(pope, wiki, isSaint, era);
+  markUsed(used, directAnswer);
+
+  const intro = buildIntro(pope, wiki, isSaint, era, used);
+  const earlyLife = buildEarlyLifeFresh(pope, wiki, isSaint, used);
+  const historicalContext = buildHistoricalContextFresh(pope, era, notes, used);
+  const pontificate = buildPontificate(pope, wiki, era, used);
+  const papalActs = buildPapalActsRefined(pope, wiki, era, used);
+  const legacy = buildLegacyRefined(pope, wiki, isSaint, era, used);
+  const forCatholicsToday = buildForCatholicsToday(pope, wiki, isSaint, era);
   const succession = buildSuccession(pope, prev, next);
   const highlights = buildHighlights(pope, notes, isSaint);
   const faqs = buildFaqs(pope, wiki, isSaint, era, prev, next);
   const relatedPopes = buildRelatedPopes(pope, prev, next, allPopes);
   const readTime = estimateReadTime(
-    [intro, earlyLife, historicalContext, pontificate, papalActs, legacy, succession].join(" "),
+    [directAnswer, intro, earlyLife, historicalContext, pontificate, papalActs, legacy, forCatholicsToday, succession].join(" "),
     notes
   );
 
   const firstHighlight = highlights.find((h) => !h.startsWith("Pontificate") && !/\d+(st|nd|rd|th) pope/.test(h)) || highlights[0];
   const metaDescription = trimMeta(
     notes
-      ? `${pope.name} (${pope.reign}) — ${firstHighlight}. Complete Catholic biography, pontificate & legacy.`
+      ? `${pope.name} (${pope.reign}) — ${firstHighlight}. Biography, pontificate, legacy & line of succession.`
       : `Pope ${pope.name} (${ordinal(pope.num)} pope), reigned ${pope.reign}. Biography, pontificate, legacy, and Catholic history in ${era}.`
   );
   const excerpt = trimMeta(
@@ -580,12 +700,14 @@ function buildArticle(pope, slug, wikiNotes, prev, next, allPopes) {
     metaDescription,
     excerpt,
     readTime,
+    directAnswer,
     intro,
     earlyLife,
     historicalContext,
     pontificate,
     papalActs,
     legacy,
+    forCatholicsToday,
     succession,
     highlights,
     faqs,
