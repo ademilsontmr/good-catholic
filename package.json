@@ -9,6 +9,7 @@
     "build:spa": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
+    "generate:sitemap": "node scripts/generate-sitemap.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
