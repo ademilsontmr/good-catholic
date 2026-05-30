@@ -69,7 +69,7 @@ export default function CatholicTeachingOnForgiveness() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Forgiveness is one of the hardest and most essential teachings of Christianity. Learn what the Church teaches, what forgiveness really means, and how to forgive even the deepest wounds.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics forgive because Christ forgave from the cross — mercy is not optional for disciples (Matthew 6:14-15). The Church distinguishes forgiving the person from trusting again, offers Confession for sin, and teaches that resentment harms the soul while mercy frees it.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">

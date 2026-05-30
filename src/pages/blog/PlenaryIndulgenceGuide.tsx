@@ -85,7 +85,7 @@ export default function PlenaryIndulgenceGuide() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">There&apos;s still time! Learn how to obtain plenary indulgence at the closing of Jubilee 2025 and understand the spiritual value of this grace.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A plenary indulgence removes all temporal punishment due to sin — gained under conditions of sacramental Confession, Eucharist, prayer for the Pope&apos;s intentions, detachment from sin, and performing the indulgenced act (e.g., adoration, Stations, Rosary in church). Partial indulgences remit part of punishment.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">

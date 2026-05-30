@@ -74,7 +74,7 @@ export default function SaintPatrick() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the real Saint Patrick — his captivity, conversion, mission to Ireland, the shamrock, the Breastplate prayer, and the truth behind the legends.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Patrick (c. 385–461) evangelized Ireland — kidnapped as a youth, escaped, returned as bishop, used the shamrock to teach the Trinity. March 17 is his feast; he is patron of Ireland and engineers; legends of driving out snakes symbolize driving out paganism.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">

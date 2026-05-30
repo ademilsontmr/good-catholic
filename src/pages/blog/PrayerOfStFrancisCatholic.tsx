@@ -55,7 +55,7 @@ export default function PrayerOfStFrancisCatholic() {
             <div className="aspect-video bg-lime-100 rounded-2xl flex items-center justify-center mb-10"><Bird className="w-24 h-24 text-lime-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Prayer of St. Francis — &quot;Lord, make me an instrument of your peace&quot; — is a Catholic prayer for becoming a channel of Christ&apos;s love in conflict, suffering, and daily life. It is widely used in U.S. parishes though it likely dates to the early 20th century rather than St. Francis of Assisi himself.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Prayer of St. Francis (&quot;Lord, make me an instrument of your peace&quot;) asks to sow love, pardon, faith, hope, light, and joy amid conflict. Widely attributed to Francis though likely modern; Catholics pray it for reconciliation, leadership, and peacemaking.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer of St. Francis (Full Text)</h2>

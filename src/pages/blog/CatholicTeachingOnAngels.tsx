@@ -69,7 +69,7 @@ export default function CatholicTeachingOnAngels() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church really teach about angels? Guardian angels, archangels, the fall of Lucifer, and how Catholics relate to these spiritual beings.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Angels are pure spirits created by God — messengers, guardians, and worshippers at the throne. Catholics believe each person has a guardian angel (Matthew 18:10); Michael, Gabriel, and Raphael are archangels named in Scripture; angel worship is forbidden — latria belongs to God alone.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">

@@ -69,7 +69,7 @@ export default function SaintJoanOfArc() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Joan of Arc — the teenage peasant girl who led France to victory, was burned at the stake at 19, and was canonized 500 years later. Her life, voices, trial, and enduring legacy.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Joan of Arc (1412–1431) — the Maid of Orléans — heard saints&apos; voices calling her to restore France&apos;s dauphin and expel English invaders. Captured, tried for heresy, and burned at the stake, she was vindicated and canonized; patron of France, soldiers, and those ridiculed for faith.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">

@@ -69,7 +69,7 @@ export default function CompleteSaintsGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything about the Catholic saints — how to find your patron saint, the canonization process, the most popular patron saints by category, and how to develop a devotion.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Saints are heroes of faith in heaven — the Church canonizes models of holiness, not perfect people without sin on earth. Catholics honor saints, ask intercession, and imitate virtues; patron saints help with specific needs from illness to study to motherhood.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Saints Are</h2>

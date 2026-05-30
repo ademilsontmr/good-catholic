@@ -69,7 +69,7 @@ export default function SaintPaulApostle() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Paul the Apostle — the persecutor turned missionary who wrote half the New Testament, traveled the ancient world for Christ, and was martyred in Rome.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Paul the Apostle — Saul of Tarsus — persecuted Christians until his Damascus conversion; he became apostle to the Gentiles and wrote much of the New Testament. Beheaded in Rome c. 67; feast June 29 with Peter; his theology of grace, Body of Christ, and faith working in love shapes all Catholic preaching.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">

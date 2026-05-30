@@ -69,7 +69,7 @@ export default function CatholicTeachingOnBaptism() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is necessary for salvation, and how to live out your Baptism.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Baptism is the first sacrament — washing away original sin, initiating into Christ and the Church, and imprinting an indelible character. Catholics baptize infants by right of parents&apos; duty; adults receive Baptism, Confirmation, and Eucharist at the Easter Vigil through RCIA.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">

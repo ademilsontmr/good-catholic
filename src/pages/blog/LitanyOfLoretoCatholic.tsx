@@ -55,7 +55,7 @@ export default function LitanyOfLoretoCatholic() {
             <div className="aspect-video bg-blue-100 rounded-2xl flex items-center justify-center mb-10"><Star className="w-24 h-24 text-blue-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Litany of Loreto is an approved Catholic Marian litany invoking Mary under titles such as Mother of God, Virgin of virgins, and Help of Christians. The leader names each title and the people respond pray for us or have mercy on us.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Litany of Loreto is an approved Marian litany invoking Mary under titles like Mother of God, Virgin of virgins, and Help of Christians — leader and people respond &quot;Pray for us.&quot; Used at papal events, May processions, and after Rosary; takes about ten to fifteen minutes.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-loreto-catholic">The Litany of Loreto is one of the Church&apos;s most beloved Marian prayers. A litany is a responsive prayer: the leader names an invocation and the people answer with a fixed refrain — here, &quot;pray for us&quot; or &quot;have mercy on us.&quot; This litany invokes the Blessed Virgin Mary under dozens of titles drawn from Scripture, tradition, and the faith of the saints.</LinkedText>

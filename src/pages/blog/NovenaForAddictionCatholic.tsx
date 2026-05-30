@@ -55,7 +55,7 @@ export default function NovenaForAddictionCatholic() {
             <div className="aspect-video bg-slate-100 rounded-2xl flex items-center justify-center mb-10"><ShieldAlert className="w-24 h-24 text-slate-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Addiction binds body and soul; nine days of prayer unite human effort with grace and professional help. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A novena for addiction is nine days of prayer for freedom from alcohol, drugs, pornography, or gambling — invoking St. Maximilian Kolbe, St. Monica, or St. Jude alongside Christ&apos;s healing. Prayer supports recovery programs and professional treatment; the Church teaches addiction is a disease and a spiritual battle.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

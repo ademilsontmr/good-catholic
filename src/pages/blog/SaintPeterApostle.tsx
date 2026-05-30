@@ -69,7 +69,7 @@ export default function SaintPeterApostle() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Peter the Apostle — the fisherman from Galilee who became the first Pope, received the keys of the Kingdom, and was martyred in Rome.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Peter was the first pope — fisherman called by Christ, received keys of the kingdom (Matthew 16), denied Jesus then repented, preached at Pentecost. Crucified upside down in Rome; every pope is his successor; feast June 29 with Paul.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-peter-apostle">

@@ -69,7 +69,7 @@ export default function CatholicTeachingOnHope() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Hope is one of the three theological virtues — and the most misunderstood. Learn what Christian hope really is, the two sins against it, and how to grow in it according to Catholic teaching.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Theological hope is trust in heaven and grace to attain it — not wishful thinking but virtue anchored in Christ&apos;s promises. Catholics hope for eternal life, resurrection of the body, and God&apos;s help amid trial; despair and presumption are sins against hope.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">

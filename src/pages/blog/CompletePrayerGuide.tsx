@@ -69,7 +69,7 @@ export default function CompletePrayerGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to build a Catholic prayer life — the 5 forms of prayer, a complete daily routine, all essential prayers with full texts, and how to pray when you don&apos;t feel like it.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic prayer life includes vocal, meditative, and liturgical forms — daily Morning Offering, Rosary, Mass, and periodic Confession form a foundation. The Liturgy of the Hours, novenas, and adoration extend devotion; consistency matters more than length.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-prayer-guide">

@@ -69,7 +69,7 @@ export default function CatholicLentGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The most complete guide to observing Lent as a Catholic — week-by-week plan, fasting rules, prayer schedule, almsgiving ideas, and a full Lent checklist.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Lent is forty days of prayer, fasting, and almsgiving before Easter — ashes on Ash Wednesday, violet vestments, Stations of the Cross, and increased Confession. Catholics give up sin and attachments, add charity, and prepare for Triduum; Sundays are not counted in the forty days.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Lent?</h2>

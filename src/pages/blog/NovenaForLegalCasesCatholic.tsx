@@ -55,7 +55,7 @@ export default function NovenaForLegalCasesCatholic() {
             <div className="aspect-video bg-stone-100 rounded-2xl flex items-center justify-center mb-10"><Gavel className="w-24 h-24 text-stone-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. When a court date approaches, Catholics often pray nine days for justice, truth, and peace of heart. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A novena for legal cases invokes St. Yves, St. Thomas More, or St. Jude for just outcomes in court, immigration, or disputes. Catholics pray for truth, wise counsel, and integrity — prayer does not replace honest lawyers or lawful process.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

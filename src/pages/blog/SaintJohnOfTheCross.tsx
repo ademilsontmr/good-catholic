@@ -69,7 +69,7 @@ export default function SaintJohnOfTheCross() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint John of the Cross — the Carmelite mystic who wrote the greatest mystical poetry in the Spanish language and mapped the soul&apos;s journey to union with God.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. John of the Cross (1542–1591) — Carmelite mystic, poet of Dark Night of the Soul, and Doctor of the Church — taught purification before union with God. Imprisoned by brethren, he united suffering with Christ; co-reformer with Teresa of Ávila; patron of mystics and contemplatives.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">

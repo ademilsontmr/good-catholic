@@ -55,7 +55,7 @@ export default function NovenaForExamsCatholic() {
             <div className="aspect-video bg-indigo-100 rounded-2xl flex items-center justify-center mb-10"><GraduationCap className="w-24 h-24 text-indigo-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Students and parents across America pray this novena before finals, licensing exams, and major tests. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A novena for exams asks St. Joseph of Cupertino (patron of test-takers), St. Thomas Aquinas, or Mary Seat of Wisdom for focus and calm during studies and tests. Catholics combine prayer with honest preparation — not superstition for grades without work.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

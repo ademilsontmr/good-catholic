@@ -55,7 +55,7 @@ export default function NovenaForBrokenHeartCatholic() {
             <div className="aspect-video bg-rose-100 rounded-2xl flex items-center justify-center mb-10"><HeartCrack className="w-24 h-24 text-rose-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Heartbreak is a form of grief; nine days of prayer invite Christ&apos;s healing into the wound. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A novena for a broken heart invokes Mary, Mother of Sorrows, St. Rita, or St. Jude for healing after breakup, betrayal, or grief. Catholics allow time to mourn, seek Confession if needed, and trust that Christ binds wounds through prayer and community.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

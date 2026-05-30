@@ -69,7 +69,7 @@ export default function SaintBernadetteSoubirous() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Bernadette Soubirous — the young French girl who saw Our Lady 18 times at Lourdes in 1858, whose body remains incorrupt to this day.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Bernadette (1844–1879) was a poor French girl who saw Our Lady at Lourdes eighteen times in 1858 — Mary asked for prayer, penance, and a chapel. Bernadette became a nun, endured suffering patiently, and her body remains incorrupt; Lourdes heals souls and bodies through faith and springs.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-bernadette-soubirous">

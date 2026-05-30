@@ -69,7 +69,7 @@ export default function CompleteEucharistGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything about the Eucharist — the Real Presence explained, how to receive Communion properly, a complete guide to Eucharistic adoration, Eucharistic miracles, and Spiritual Communion.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Eucharist is the source and summit of Catholic life — bread and wine become Christ&apos;s Body and Blood at consecration. Catholics must receive in a state of grace, fast one hour beforehand, and attend Mass weekly; adoration, processions, and First Communion deepen Eucharistic faith.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Source and Summit of the Christian Life</h2>

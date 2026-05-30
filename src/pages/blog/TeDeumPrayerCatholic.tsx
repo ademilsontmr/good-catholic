@@ -55,7 +55,7 @@ export default function TeDeumPrayerCatholic() {
             <div className="aspect-video bg-amber-100 rounded-2xl flex items-center justify-center mb-10"><Music2 className="w-24 h-24 text-amber-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Te Deum (Te Deum laudamus — &quot;We praise you, O God&quot;) is an ancient Catholic hymn of thanksgiving sung at Easter, ordinations, and solemn occasions. It praises the Trinity, the Church, and Christ the Savior, and asks for mercy and perseverance.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Te Deum is an ancient hymn of praise — &quot;We praise you, O God; we acclaim you as Lord&quot; — sung at Morning Prayer, victories, ordinations, and Thanksgiving. Catholics use it to thank God for blessings; it professes faith in Trinity, Church, and eternal life.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Te Deum — Full Text (English)</h2>

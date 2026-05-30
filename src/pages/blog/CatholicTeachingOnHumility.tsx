@@ -69,7 +69,7 @@ export default function CatholicTeachingOnHumility() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Humility is the foundation of the spiritual life. Learn what humility really is, why pride is the root of all sin, and how to grow in this essential virtue according to Catholic teaching.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Humility is truth before God — knowing oneself as creature and sinner, yet loved infinitely. Catholics cultivate it through Confession, service, accepting correction, and prayers like the Litany of Humility; it is the foundation of all virtues, not self-hatred.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">

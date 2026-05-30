@@ -69,7 +69,7 @@ export default function CatholicTeachingOnSocialMedia() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about social media? Learn how to use technology virtuously, avoid its spiritual dangers, and even evangelize online.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics use social media under the same moral law as speech — avoiding gossip, pornography, bullying, and wasting time that belongs to prayer and duty. The Church encourages evangelization online with charity and truth, while warning that digital life must not replace real community and sacraments.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">

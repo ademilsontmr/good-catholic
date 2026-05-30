@@ -69,7 +69,7 @@ export default function CatholicHolyDaysUSA() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What are the 6 Holy Days of Obligation in the US? Get the 2026 dates, learn the Saturday/Monday dispensation rule, and understand what happens if you miss one.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">U.S. Holy Days of Obligation are six: Mary Mother of God (Jan 1), Ascension (Thursday or Sunday per diocese), Assumption (Aug 15), All Saints (Nov 1), Immaculate Conception (Dec 8), and Christmas — when not transferred or abrogated. Catholics must attend Mass unless excused; check your diocese annually.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">

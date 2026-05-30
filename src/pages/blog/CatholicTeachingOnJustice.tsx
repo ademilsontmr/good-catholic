@@ -69,7 +69,7 @@ export default function CatholicTeachingOnJustice() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about justice? Learn about the four types of justice, Catholic social teaching, the preferential option for the poor, and how to live justly.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Justice gives each person his due — rights, wages, truth, and legal fairness. Catholic social teaching applies justice to poverty, immigration, and human dignity; commutative, distributive, and social justice together build the common good under natural law and Gospel mercy.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-justice">

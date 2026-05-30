@@ -69,7 +69,7 @@ export default function CatholicTeachingOnWar() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about war? The Just War doctrine, its four conditions, nuclear weapons, conscientious objection, and the Church&apos;s peace-building mission.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic just war tradition permits armed defense only under strict conditions — just cause, legitimate authority, right intention, proportionality, and non-combatant immunity (Catechism 2309). The Church prioritizes peace, diplomacy, and protection of the innocent; pacifism and militarism both require discernment.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-war-and-peace">

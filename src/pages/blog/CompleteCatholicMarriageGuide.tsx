@@ -69,7 +69,7 @@ export default function CompleteCatholicMarriageGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything engaged Catholic couples need to know — Pre-Cana, required documents, the wedding ceremony explained, the exchange of vows, NFP, and how to build a holy marriage.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Sacramental Catholic marriage requires free consent, openness to children, permanence, and formation — Pre-Cana classes, Natural Family Planning instruction, and meeting with a priest precede the wedding. A Nuptial Mass or Liturgy of the Word celebrates the covenant before God and the Church.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Catholic Marriage Is</h2>

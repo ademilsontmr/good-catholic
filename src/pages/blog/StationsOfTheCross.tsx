@@ -87,7 +87,7 @@ export default function StationsOfTheCross() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep history of the Stations of the Cross. From the Via Dolorosa to the theology of the 14 stations, learn how this devotion heals the soul.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Stations of the Cross follow Christ&apos;s Passion through fourteen scenes — from condemnation to burial. Catholics pray them especially in Lent and Good Friday, meditating on each station with genuflections; St. Francis popularized the devotion; many parishes walk them on Fridays.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

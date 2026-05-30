@@ -69,7 +69,7 @@ export default function CatholicTeachingOnPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is prayer? The Catholic Church teaches that prayer is the raising of the mind and heart to God.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic prayer is raising heart and mind to God — vocal (Our Father, Rosary), meditative (lectio divina), and contemplative (silent union). The Church teaches set times (Morning Offering, Angelus), liturgical prayer (Mass, Divine Office), and that prayer requires faith, humility, and persistence.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">

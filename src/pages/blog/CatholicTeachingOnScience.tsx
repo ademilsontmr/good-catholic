@@ -69,7 +69,7 @@ export default function CatholicTeachingOnScience() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Does the Catholic Church oppose science? Discover the truth — from Mendel and Lemaître to the Big Bang and evolution — and why faith and reason are complementary, not opposed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Faith and science cannot ultimately conflict — both seek truth; God is author of Scripture and nature. The Church founded universities, supports ethical research, and rejects scientism that denies the soul; Galileo&apos;s case is often misunderstood — the Magisterium affirms legitimate scientific discovery.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">

@@ -69,7 +69,7 @@ export default function SaintElizabethAnnSeton() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Elizabeth Ann Seton — the first person born in the United States to be canonized. Her conversion, her founding of Catholic education in America, and her enduring legacy.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Elizabeth Ann Seton (1774–1821) — first native-born U.S. saint — widowed, converted to Catholicism, founded the Sisters of Charity and Catholic schools in America. Patron of Catholic schools, widows, and seafarers; her feast is January 4.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">

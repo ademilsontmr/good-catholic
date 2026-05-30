@@ -69,7 +69,7 @@ export default function CatholicTeachingOnDeath() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about death? The Four Last Things, the Particular Judgment, the resurrection of the body, and how to prepare for a holy death.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Death is the separation of soul and body — a consequence of sin yet redeemed by Christ&apos;s Resurrection. Catholics prepare through sacraments, Last Rites, and hope in judgment, purgatory, heaven, or hell; the funeral Mass prays for the deceased and proclaims Easter hope.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

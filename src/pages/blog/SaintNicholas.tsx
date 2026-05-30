@@ -74,7 +74,7 @@ export default function SaintNicholas() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the real Saint Nicholas — the 4th-century bishop of Myra whose extraordinary generosity inspired the legend of Santa Claus. His life, miracles, and feast day.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Nicholas (270–343) was Bishop of Myra — generous to the poor, defender of orthodoxy at Nicaea, and patron of children, sailors, and gift-givers. December 6 is his feast; his charity inspired Santa Claus traditions, though the saint points to Christ, not commercialism.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">

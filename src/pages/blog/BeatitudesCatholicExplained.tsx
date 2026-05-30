@@ -55,7 +55,7 @@ export default function BeatitudesCatholicExplained() {
             <div className="aspect-video bg-emerald-100 rounded-2xl flex items-center justify-center mb-10"><Mountain className="w-24 h-24 text-emerald-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Beatitudes are eight blessings Jesus proclaimed in the Sermon on the Mount (Matthew 5:3–10). Catholics understand them as a portrait of Christ and of the Christian life — attitudes shaped by grace that open the soul to the kingdom of heaven.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Beatitudes (Matthew 5:3-12) are Jesus&apos; blueprint for happiness — poor in spirit, meek, merciful, peacemakers, persecuted for righteousness. Catholics see them as attitudes of the Kingdom, not optional ethics; they describe Christ and call disciples to counter-cultural holiness.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Eight Beatitudes (Matthew 5:3–10)</h2>

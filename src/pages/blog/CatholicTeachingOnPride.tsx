@@ -69,7 +69,7 @@ export default function CatholicTeachingOnPride() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Pride is the first and greatest of the capital sins — the sin that caused the fall of Lucifer and of Adam and Eve. Learn what it is, how it manifests today, and how to overcome it.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Pride is the root sin — inordinate self-love that turns from God and others (CCC 1866). Catholics fight pride through gratitude, confession of faults, obedience to lawful authority, and honoring others; it opposes humility and often masks insecurity with arrogance.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">

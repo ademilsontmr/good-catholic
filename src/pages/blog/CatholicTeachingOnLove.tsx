@@ -69,7 +69,7 @@ export default function CatholicTeachingOnLove() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does love really mean? Discover the Catholic understanding of eros, philia, and agape — and why Pope Benedict XVI said they are not opposites but complementary.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic love (charity) is willing the true good of the other for God&apos;s sake — agape that seeks salvation, not mere feeling. Marriage love is total, faithful, and open to life; love of neighbor flows from love of God and is the greatest theological virtue.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

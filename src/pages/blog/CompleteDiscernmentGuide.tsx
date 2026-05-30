@@ -69,7 +69,7 @@ export default function CompleteDiscernmentGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The complete Catholic guide to discernment — the Ignatian method, consolation vs. desolation, a 6-step process for major decisions, signs of God&apos;s will, and how to discern your vocation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Discernment is discovering God&apos;s will through prayer, Scripture, sacraments, counsel, and peace of soul — especially for vocation, marriage, or career. Ignatian rules distinguish consolation from desolation; major decisions need time, spiritual direction, and obedience to Church teaching.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Discernment?</h2>

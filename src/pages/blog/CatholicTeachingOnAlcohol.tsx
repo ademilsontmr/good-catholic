@@ -69,7 +69,7 @@ export default function CatholicTeachingOnAlcohol() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about alcohol? Is drinking a sin?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church does not prohibit alcohol — Christ drank wine and changed water into wine at Cana. Moderation is virtue; drunkenness is sin. Some saints abstain by vow; recovering alcoholics should avoid drinking; alcohol must never replace trust in God or harm health or family.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">

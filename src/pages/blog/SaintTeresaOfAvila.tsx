@@ -69,7 +69,7 @@ export default function SaintTeresaOfAvila() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Teresa of Ávila — the great Carmelite mystic, reformer, and Doctor of the Church. Her life, the Interior Castle, and her path of prayer.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Teresa of Ávila (1515–1582) reformed Carmel, wrote The Interior Castle and Way of Perfection, and taught contemplative prayer with humor and grit. First woman Doctor of the Church; patron of headache sufferers and Spain; her phrase &quot;God alone suffices&quot; summarizes Carmelite spirituality.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-teresa-of-avila">

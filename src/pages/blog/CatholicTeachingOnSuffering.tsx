@@ -69,7 +69,7 @@ export default function CatholicTeachingOnSuffering() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Why does God allow suffering? The Catholic answer is not a simple explanation but a Person — Jesus Christ, who entered into human suffering and transformed it from within.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic teaching on suffering sees pain as mystery united to Christ&apos;s Passion — not meaningless, but redeemable when offered with love. The Church rejects euthanasia and despair; saints, sacraments, and community support help believers carry crosses without denying their weight.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
