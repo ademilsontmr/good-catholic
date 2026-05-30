@@ -14,14 +14,14 @@ export default function ChastityModernWorld() {
     return (
         <>
             <Helmet>
-                <title>Living Chastity in the Modern World: Challenges and Graces | Guide Catholic</title>
-                <meta name="description" content="Understand the true meaning of Christian chastity and how to live it in today's world. An invitation to freedom and authentic love according to the Gospel." />
+                <title>Chastity in the Modern World: Catholic Guide to Purity | Guide Catholic</title>
+                <meta name="description" content="How to live chastity in the modern world — Catholic teaching on purity before marriage, in marriage, and practical steps for daily life." />
                 <meta name="keywords" content="how to live chastity, chastity in modern world, catholic sexual purity, why be chaste, chastity before marriage, true love" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/chastity-modern-world/" />
             </Helmet>
         <ArticleSchema
-          title="Living Chastity in the Modern World: Challenges and Graces"
-          description="Understand the true meaning of Christian chastity and how to live it in today's world. An invitation to freedom and authentic love according to the Gospel."
+          title="Chastity in the Modern World: Catholic Guide to Purity"
+          description="How to live chastity in the modern world — Catholic teaching on purity before marriage, in marriage, and practical steps for daily life."
           url="https://guidecatholic.com/blog/chastity-modern-world/"
         />
 
@@ -55,7 +55,7 @@ export default function ChastityModernWorld() {
                             </div>
 
                             <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                                Living Chastity in the Modern World: Challenges and Graces
+                                Chastity in the Modern World: Catholic Guide to Purity
                             </h1>
 
                             <p className="text-xl text-text-muted leading-relaxed">

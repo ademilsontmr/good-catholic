@@ -14,15 +14,15 @@ export default function CatholicSaintsList() {
   return (
     <>
       <Helmet>
-        <title>Catholic Saints List: Patron Saints for Every Need & Occasion | Guide Catholic</title>
-        <meta name="description" content="Complete Catholic saints list organized by patronage — saints for health, work, travel, family, and specific needs. Find your patron saint and learn how to ask for their intercession." />
+        <title>Catholic Saints & What They're Known For (Patron List) | Guide Catholic</title>
+        <meta name="description" content="Catholic saints and what they are known for — patron saints for health, work, travel, family, and more. Find your patron and learn how to ask for intercession." />
         <meta name="keywords" content="catholic saints list, patron saints catholic, list of catholic saints, patron saint for every need, catholic saints by patronage, find your patron saint" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-saints-list/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Catholic Saints List: Patron Saints for Every Need & Occasion"
-        description="Complete Catholic saints list organized by patronage — saints for health, work, travel, family, and specific needs. Find your patron saint and learn how to ask for their intercession."
+        title="Catholic Saints & What They're Known For (Patron List)"
+        description="Catholic saints and what they are known for — patron saints for health, work, travel, family, and more. Find your patron and learn how to ask for intercession."
         url="https://guidecatholic.com/blog/catholic-saints-list/"
       />
 
@@ -53,7 +53,7 @@ export default function CatholicSaintsList() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />20 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Catholic Saints List: Patron Saints for Every Need & Occasion
+                Catholic Saints & What They're Known For (Patron List)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Catholic Church has canonized thousands of saints — men and women from every era, culture, and walk of life who now intercede for us in heaven. This comprehensive guide helps you find the right patron saint for your specific need.

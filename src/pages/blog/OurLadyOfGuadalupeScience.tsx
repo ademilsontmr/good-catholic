@@ -14,15 +14,15 @@ export default function OurLadyOfGuadalupeScience() {
   return (
     <>
       <Helmet>
-        <title>The Miracle of Our Lady of Guadalupe: Science and the Tilma | Guide Catholic</title>
-        <meta name="description" content="Explore the scientific mysteries of the Tilma of Our Lady of Guadalupe. Learn about the miraculous preservation, the images in the eyes, and the inexplicable fibers." />
+        <title>Our Lady of Guadalupe Tilma: Scientific Analysis & NASA Studies | Guide Catholic</title>
+        <meta name="description" content="Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say. Catholic guide to the evidence." />
         <meta name="keywords" content="our lady of guadalupe science, tilma of juan diego mystery, guadalupe tilma scientific study, miracle of guadalupe, images in guadalupe eyes, nahui ollin symbolism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/miracle-of-guadalupe-science/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="The Miracle of Our Lady of Guadalupe: What Science Cannot Explain"
-        description="Explore the scientific mysteries of the Tilma of Our Lady of Guadalupe. Learn about the miraculous preservation, the images in the eyes, and the inexplicable fibers."
+        title="Our Lady of Guadalupe Tilma: Scientific Analysis & NASA Studies"
+        description="Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say. Catholic guide to the evidence."
         url="https://guidecatholic.com/blog/miracle-of-guadalupe-science/"
       />
 
@@ -64,7 +64,7 @@ export default function OurLadyOfGuadalupeScience() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                 The Tilma of Guadalupe: A Scientific and Symbolic Masterpiece
+                Our Lady of Guadalupe Tilma: Scientific Analysis & NASA Studies
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">

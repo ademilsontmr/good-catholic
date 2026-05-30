@@ -14,15 +14,15 @@ export default function ApparitionsOfOurLady() {
   return (
     <>
       <Helmet>
-        <title>Apparitions of Our Lady: Fatima, Lourdes & Guadalupe Explained | Guide Catholic</title>
-        <meta name="description" content="Learn about the three most important approved Marian apparitions: Our Lady of Guadalupe (1531), Lourdes (1858), and Fatima (1917). History, messages, miracles, and how to respond." />
+        <title>Marian Apparitions: Fatima, Lourdes & Guadalupe Guide | Guide Catholic</title>
+        <meta name="description" content="Approved Marian apparitions of Our Lady — Guadalupe (1531), Lourdes (1858), and Fatima (1917). History, messages, miracles, and how Catholics respond." />
         <meta name="keywords" content="apparitions of our lady, our lady of fatima, our lady of lourdes, our lady of guadalupe, marian apparitions catholic, fatima secrets" />
         <link rel="canonical" href="https://guidecatholic.com/blog/apparitions-of-our-lady/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Apparitions of Our Lady: Fatima, Lourdes & Guadalupe Explained"
-        description="Learn about the three most important approved Marian apparitions: Our Lady of Guadalupe (1531), Lourdes (1858), and Fatima (1917). History, messages, miracles, and how to respond."
+        title="Marian Apparitions: Fatima, Lourdes & Guadalupe Guide"
+        description="Approved Marian apparitions of Our Lady — Guadalupe (1531), Lourdes (1858), and Fatima (1917). History, messages, miracles, and how Catholics respond."
         url="https://guidecatholic.com/blog/apparitions-of-our-lady/"
       />
 
@@ -64,7 +64,7 @@ export default function ApparitionsOfOurLady() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Apparitions of the Virgin Mary: Guadalupe, Lourdes & Fatima — Complete Guide
+                Marian Apparitions: Fatima, Lourdes & Guadalupe Guide
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">

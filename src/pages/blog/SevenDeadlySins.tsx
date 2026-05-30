@@ -14,15 +14,15 @@ export default function SevenDeadlySins() {
   return (
     <>
       <Helmet>
-        <title>The 7 Deadly Sins: What They Are and How to Overcome Them | Guide Catholic</title>
-        <meta name="description" content="What are the 7 deadly sins? Learn what pride, greed, lust, envy, gluttony, wrath, and sloth really mean in Catholic teaching and how to overcome each one with virtue." />
+        <title>What Are the 7 Deadly Sins? Full Catholic List & Virtues | Guide Catholic</title>
+        <meta name="description" content="What are the 7 deadly sins? Pride, greed, lust, envy, gluttony, wrath, and sloth — Catholic meanings and the virtues that overcome each one." />
         <meta name="keywords" content="seven deadly sins, 7 deadly sins catholic, what are the deadly sins, pride greed lust envy gluttony wrath sloth, capital sins" />
         <link rel="canonical" href="https://guidecatholic.com/blog/seven-deadly-sins/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="The 7 Deadly Sins: What They Are and How to Overcome Them"
-        description="What are the 7 deadly sins? Learn what pride, greed, lust, envy, gluttony, wrath, and sloth really mean in Catholic teaching and how to overcome each one with virtue."
+        title="What Are the 7 Deadly Sins? Full Catholic List & Virtues"
+        description="What are the 7 deadly sins? Pride, greed, lust, envy, gluttony, wrath, and sloth — Catholic meanings and the virtues that overcome each one."
         url="https://guidecatholic.com/blog/seven-deadly-sins/"
       />
 
@@ -64,7 +64,7 @@ export default function SevenDeadlySins() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The 7 Deadly Sins: A Complete Catholic Guide
+                What Are the 7 Deadly Sins? Full Catholic List & Virtues
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">

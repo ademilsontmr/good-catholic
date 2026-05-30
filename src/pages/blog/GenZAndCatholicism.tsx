@@ -14,15 +14,15 @@ export default function GenZAndCatholicism() {
   return (
     <>
       <Helmet>
-        <title>Gen Z and Catholicism: Why Young People Are Returning to the Church | Guide Catholic</title>
-        <meta name="description" content="Why are Gen Z and young millennials converting to Catholicism in record numbers? The data, the reasons, and what the Catholic revival among young people means for the Church." />
+        <title>Why Catholicism Is Drawing Gen Z (Young People Returning) | Guide Catholic</title>
+        <meta name="description" content="Why is Catholicism drawing Gen Z men and women back to the Church? Data, reasons behind the revival, and what it means for young Catholics today." />
         <meta name="keywords" content="gen z catholicism, young people returning to catholic church, gen z converting to catholicism, catholic revival gen z, why young people become catholic, catholic resurgence 2025 2026" />
         <link rel="canonical" href="https://guidecatholic.com/blog/gen-z-and-catholicism/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Gen Z and Catholicism: Why Young People Are Returning to the Church"
-        description="Why are Gen Z and young millennials converting to Catholicism in record numbers? The data, the reasons, and what the Catholic revival among young people means for the Church."
+        title="Why Catholicism Is Drawing Gen Z (Young People Returning)"
+        description="Why is Catholicism drawing Gen Z men and women back to the Church? Data, reasons behind the revival, and what it means for young Catholics today."
         url="https://guidecatholic.com/blog/gen-z-and-catholicism/"
       />
       <div className="min-h-screen bg-background">
@@ -50,7 +50,7 @@ export default function GenZAndCatholicism() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />16 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Gen Z and Catholicism: Why Young People Are Returning to the Church
+                Why Catholicism Is Drawing Gen Z (Young People Returning)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 For decades, the story was one of decline — young people leaving the Church in droves. But something remarkable has been happening since around 2022: Gen Z is converting to Catholicism in record numbers, reversing a trend that seemed irreversible. Here is what the data shows and why it is happening.

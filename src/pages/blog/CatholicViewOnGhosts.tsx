@@ -14,15 +14,15 @@ export default function CatholicViewOnGhosts() {
   return (
     <>
       <Helmet>
-        <title>Do Catholics Believe in Ghosts? The Truth About the Paranormal | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about ghosts, spirits, and the paranormal? Learn about souls in purgatory, demonic deception, and how to protect your home." />
+        <title>Do Catholics Believe in Ghosts? What the Church Teaches | Guide Catholic</title>
+        <meta name="description" content="Do Catholics believe in ghosts? Church teaching on souls in purgatory, demonic deception, haunted houses, and how to protect your home — explained clearly." />
         <meta name="keywords" content="catholic view on ghosts, do catholics believe in ghosts, souls in purgatory ghosts, haunted houses catholic, demonic mimicry, catholic paranormal" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-view-on-ghosts/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Do Catholics Believe in Ghosts? The Church's Teaching on the Paranormal"
-        description="What does the Catholic Church teach about ghosts, spirits, and the paranormal? Learn about souls in purgatory, demonic deception, and how to protect your home."
+        title="Do Catholics Believe in Ghosts? What the Church Teaches"
+        description="Do Catholics believe in ghosts? Church teaching on souls in purgatory, demonic deception, haunted houses, and how to protect your home — explained clearly."
         url="https://guidecatholic.com/blog/catholic-view-on-ghosts/"
       />
 
@@ -64,7 +64,7 @@ export default function CatholicViewOnGhosts() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Do Catholics Believe in Ghosts? The Church's Teaching on the Paranormal
+                Do Catholics Believe in Ghosts? What the Church Teaches
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
