@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsRCIAGuide() {
@@ -24,6 +24,13 @@ export default function WhatIsRCIAGuide() {
         title="What Is RCIA? The Complete Guide to the Rite of Christian Initiation"
         description="What is RCIA? Complete guide to the Rite of Christian Initiation of Adults — what it is, who it's for, what happens at each stage, and how to find RCIA near you."
         url="https://guidecatholic.com/blog/what-is-rcia-explained/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is RCIA?", url: "https://guidecatholic.com/blog/what-is-rcia-explained/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

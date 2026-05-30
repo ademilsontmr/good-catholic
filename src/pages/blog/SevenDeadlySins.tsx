@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SevenDeadlySins() {
@@ -24,6 +24,13 @@ export default function SevenDeadlySins() {
         title="What Are the 7 Deadly Sins? Full Catholic List & Virtues"
         description="What are the 7 deadly sins? Pride, greed, lust, envy, gluttony, wrath, and sloth — Catholic meanings and the virtues that overcome each one."
         url="https://guidecatholic.com/blog/seven-deadly-sins/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Seven Deadly Sins", url: "https://guidecatholic.com/blog/seven-deadly-sins/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HailHolyQueenPrayer() {
@@ -25,6 +25,13 @@ export default function HailHolyQueenPrayer() {
         description="The Hail Holy Queen (Salve Regina) with full Catholic text in English and Latin, meaning, and why Catholics pray it at the end of the Rosary every day."
         url="https://guidecatholic.com/blog/hail-holy-queen-prayer/"
         datePublished="2026-05-30"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Hail Holy Queen", url: "https://guidecatholic.com/blog/hail-holy-queen-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

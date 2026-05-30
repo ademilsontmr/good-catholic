@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnHell() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnHell() {
         title="Does Hell Exist? The Catholic Teaching on Hell Explained"
         description="Does hell exist? Learn what the Catholic Church teaches about hell — its nature, who goes there, and how God's mercy and human freedom relate to eternal punishment."
         url="https://guidecatholic.com/blog/does-hell-exist-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Does Hell Exist?", url: "https://guidecatholic.com/blog/does-hell-exist-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

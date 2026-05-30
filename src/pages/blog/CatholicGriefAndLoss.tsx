@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicGriefAndLoss() {
@@ -24,6 +24,13 @@ export default function CatholicGriefAndLoss() {
         title="Catholic Guide to Grief and Loss: Faith, Hope & Healing After Death"
         description="How does Catholic faith help us grieve? A compassionate guide to loss, death, and healing — with prayers, the hope of resurrection, and the comfort of the saints."
         url="https://guidecatholic.com/blog/catholic-guide-to-grief-and-loss/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Guide to Grief and Loss", url: "https://guidecatholic.com/blog/catholic-guide-to-grief-and-loss/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

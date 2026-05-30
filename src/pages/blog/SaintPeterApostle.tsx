@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintPeterApostle() {
@@ -24,6 +24,13 @@ export default function SaintPeterApostle() {
         title="Saint Peter the Apostle: The First Pope, His Life & Legacy"
         description="Discover Saint Peter the Apostle — the fisherman from Galilee who became the first Pope, received the keys of the Kingdom, and was martyred in Rome."
         url="https://guidecatholic.com/blog/saint-peter-apostle/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Peter the Apostle", url: "https://guidecatholic.com/blog/saint-peter-apostle/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

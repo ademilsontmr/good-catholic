@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function VocationalDiscernment() {
@@ -24,6 +24,13 @@ export default function VocationalDiscernment() {
           description="Learn the principles of spiritual discernment to discover God's plan for you. Practical tips for making decisions in the light of faith."
           url="https://guidecatholic.com/blog/vocational-discernment/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Vocational Discernment", url: "https://guidecatholic.com/blog/vocational-discernment/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsPurgatoryGuide() {
@@ -24,6 +24,13 @@ export default function WhatIsPurgatoryGuide() {
         title="What Is Purgatory? The Catholic Teaching Fully Explained"
         description="What is Purgatory? The complete Catholic explanation — biblical basis, what Purgatory is and isn't, how to pray for the souls there, and why this doctrine reveals God's mercy."
         url="https://guidecatholic.com/blog/what-is-purgatory-explained/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Purgatory?", url: "https://guidecatholic.com/blog/what-is-purgatory-explained/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

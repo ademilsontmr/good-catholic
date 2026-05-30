@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhyYoungCatholicsLeave() {
@@ -24,6 +24,13 @@ export default function WhyYoungCatholicsLeave() {
         title="Why Young Catholics Leave the Church — and How to Come Back"
         description="Why are young Catholics leaving the Church? The real reasons — and what the Church offers those who are searching, doubting, or have drifted away."
         url="https://guidecatholic.com/blog/why-young-catholics-leave-the-church/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Why Young Catholics Leave the Church", url: "https://guidecatholic.com/blog/why-young-catholics-leave-the-church/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

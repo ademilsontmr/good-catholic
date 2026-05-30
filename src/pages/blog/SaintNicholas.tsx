@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintNicholas() {
@@ -24,6 +24,13 @@ export default function SaintNicholas() {
         title="Saint Nicholas: The Real Santa Claus and Bishop of Myra"
         description="Discover the real Saint Nicholas — the 4th-century bishop of Myra whose extraordinary generosity inspired the legend of Santa Claus. His life, miracles, and feast day."
         url="https://guidecatholic.com/blog/saint-nicholas/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Nicholas", url: "https://guidecatholic.com/blog/saint-nicholas/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

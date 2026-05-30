@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnScience() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnScience() {
         title="Catholic Teaching on Science: Faith and Reason Are Not Enemies"
         description="Does the Catholic Church oppose science? Discover the truth — from Mendel and Lemaître to the Big Bang and evolution — and why faith and reason are complementary, not opposed."
         url="https://guidecatholic.com/blog/catholic-teaching-on-science/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Science", url: "https://guidecatholic.com/blog/catholic-teaching-on-science/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

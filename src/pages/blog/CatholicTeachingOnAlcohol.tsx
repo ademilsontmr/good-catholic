@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnAlcohol() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnAlcohol() {
         title="Catholic Teaching on Alcohol: Is Drinking a Sin?"
         description="What does the Catholic Church teach about alcohol? Is drinking a sin? Learn the Catholic distinction between moderate drinking and drunkenness, and the path to sobriety for those who struggle."
         url="https://guidecatholic.com/blog/catholic-teaching-on-alcohol/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Alcohol", url: "https://guidecatholic.com/blog/catholic-teaching-on-alcohol/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

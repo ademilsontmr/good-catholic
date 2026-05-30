@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FatimaPrayerOMyJesus() {
@@ -24,6 +24,13 @@ export default function FatimaPrayerOMyJesus() {
         title="Fatima Prayer (O My Jesus): Full Text, Meaning and When to Pray It"
         description="The Fatima Prayer (O My Jesus) with full text, meaning, when Our Lady asked for it in the Rosary, and how Catholics pray it after each decade."
         url="https://guidecatholic.com/blog/fatima-prayer-o-my-jesus/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Fatima Prayer", url: "https://guidecatholic.com/blog/fatima-prayer-o-my-jesus/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

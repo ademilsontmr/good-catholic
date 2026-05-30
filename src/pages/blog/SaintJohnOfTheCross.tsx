@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJohnOfTheCross() {
@@ -24,6 +24,13 @@ export default function SaintJohnOfTheCross() {
         title="Saint John of the Cross: The Dark Night of the Soul & Mystical Doctor"
         description="Discover Saint John of the Cross — the Carmelite mystic who wrote the greatest mystical poetry in the Spanish language and mapped the soul's journey to union with God."
         url="https://guidecatholic.com/blog/saint-john-of-the-cross/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint John of the Cross", url: "https://guidecatholic.com/blog/saint-john-of-the-cross/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

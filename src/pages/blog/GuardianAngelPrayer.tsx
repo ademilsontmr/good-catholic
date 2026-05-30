@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GuardianAngelPrayer() {
@@ -24,6 +24,13 @@ export default function GuardianAngelPrayer() {
         title="Guardian Angel Prayer: Full Text, Meaning and Catholic Guide"
         description="The Guardian Angel Prayer with full Catholic text, meaning, biblical background, and how to teach it to children or pray it daily for protection."
         url="https://guidecatholic.com/blog/guardian-angel-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Guardian Angel Prayer", url: "https://guidecatholic.com/blog/guardian-angel-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

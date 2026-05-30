@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function BlessedCarloAcutis() {
@@ -25,6 +25,13 @@ export default function BlessedCarloAcutis() {
           description="Discover the life of Blessed Carlo Acutis — his Eucharistic devotion, his website cataloguing Eucharistic miracles, his death from leukemia at 15, his beatification in 2020, and canonization in 2025."
           url="https://guidecatholic.com/blog/blessed-carlo-acutis/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Blessed Carlo Acutis", url: "https://guidecatholic.com/blog/blessed-carlo-acutis/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

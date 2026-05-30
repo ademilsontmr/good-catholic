@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EternalRestPrayerCatholic() {
@@ -25,6 +25,13 @@ export default function EternalRestPrayerCatholic() {
         description="The Eternal Rest prayer (Requiem aeternam) with full Catholic text in English and Latin, when to pray it for the dead, and how it fits funeral Mass and November memorials."
         url="https://guidecatholic.com/blog/eternal-rest-prayer-catholic/"
         datePublished="2026-05-30"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Eternal Rest Prayer", url: "https://guidecatholic.com/blog/eternal-rest-prayer-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

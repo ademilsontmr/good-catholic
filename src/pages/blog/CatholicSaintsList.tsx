@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSaintsList() {
@@ -24,6 +24,13 @@ export default function CatholicSaintsList() {
         title="Catholic Saints & What They're Known For (Patron List)"
         description="Catholic saints and what they are known for — patron saints for health, work, travel, family, and more. Find your patron and learn how to ask for intercession."
         url="https://guidecatholic.com/blog/catholic-saints-list/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Saints List", url: "https://guidecatholic.com/blog/catholic-saints-list/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

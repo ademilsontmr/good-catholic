@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnTransgender() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnTransgender() {
         title="Catholic Teaching on Transgender: What the Church Really Says"
         description="What does the Catholic Church teach about transgender identity and gender ideology? A clear explanation rooted in the Catechism, Dignitas Infinita (2024), and the theology of the body."
         url="https://guidecatholic.com/blog/catholic-teaching-on-transgender/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Transgender", url: "https://guidecatholic.com/blog/catholic-teaching-on-transgender/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

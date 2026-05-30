@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJudeThaddeus() {
@@ -24,6 +24,13 @@ export default function SaintJudeThaddeus() {
         title="St. Jude Thaddeus: Patron of Impossible Causes — Life, Novena & Prayer"
         description="Everything about St. Jude Thaddeus: who he was as an Apostle, why he became patron of impossible causes, the full Novena to St. Jude, his prayer, feast day on October 28, and his shrines worldwide."
         url="https://guidecatholic.com/blog/saint-jude-thaddeus/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Jude Thaddeus", url: "https://guidecatholic.com/blog/saint-jude-thaddeus/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

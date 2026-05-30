@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicLivingSecularWorld() {
@@ -24,6 +24,13 @@ export default function CatholicLivingSecularWorld() {
         title="How to Live as a Catholic in a Secular World"
         description="Practical guide for Catholics living in a secular culture. Learn how to maintain your faith, witness to others, and stay strong when the world pushes back."
         url="https://guidecatholic.com/blog/catholic-living-in-secular-world/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Living in a Secular World", url: "https://guidecatholic.com/blog/catholic-living-in-secular-world/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

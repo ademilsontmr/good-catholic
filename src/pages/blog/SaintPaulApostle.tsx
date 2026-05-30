@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintPaulApostle() {
@@ -24,6 +24,13 @@ export default function SaintPaulApostle() {
         title="Saint Paul the Apostle: Conversion, Missions & Letters"
         description="Discover Saint Paul the Apostle — the persecutor turned missionary who wrote half the New Testament, traveled the ancient world for Christ, and was martyred in Rome."
         url="https://guidecatholic.com/blog/saint-paul-apostle/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Paul the Apostle", url: "https://guidecatholic.com/blog/saint-paul-apostle/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

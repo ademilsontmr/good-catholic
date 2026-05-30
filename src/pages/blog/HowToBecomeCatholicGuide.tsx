@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToBecomeCatholicGuide() {
@@ -24,6 +24,13 @@ export default function HowToBecomeCatholicGuide() {
         title="How to Become Catholic: Complete Step-by-Step Guide"
         description="How to become Catholic — the complete guide to the RCIA process, what to expect, how long it takes, what you'll learn, and how to find a parish near you."
         url="https://guidecatholic.com/blog/how-to-become-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Become Catholic", url: "https://guidecatholic.com/blog/how-to-become-catholic/" },
+        ]}
       />
       <HowToSchema
         name="How to Become Catholic"

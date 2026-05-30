@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayersOfHope2026() {
@@ -24,6 +24,13 @@ export default function PrayersOfHope2026() {
           description="Find consolation and strength in traditional and contemporary Catholic prayers focused on the virtue of hope to face the challenges of 2026."
           url="https://guidecatholic.com/blog/prayers-of-hope-2026/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Prayers of Hope", url: "https://guidecatholic.com/blog/prayers-of-hope-2026/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

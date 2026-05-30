@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnPrayer() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnPrayer() {
         title="What Is Prayer? The Catholic Teaching on Talking to God"
         description="What is prayer? The Catholic Church teaches that prayer is the raising of the mind and heart to God. Learn the five forms, three expressions, and how to develop a real prayer life."
         url="https://guidecatholic.com/blog/what-is-prayer-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Prayer? Catholic Teaching", url: "https://guidecatholic.com/blog/what-is-prayer-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

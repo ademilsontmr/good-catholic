@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PlenaryIndulgenceGuide() {
@@ -24,6 +24,13 @@ export default function PlenaryIndulgenceGuide() {
           description="There's still time! Learn how to obtain plenary indulgence at the closing of Jubilee 2025 and understand the spiritual value of this grace."
           url="https://guidecatholic.com/blog/plenary-indulgence-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Plenary Indulgence Guide", url: "https://guidecatholic.com/blog/plenary-indulgence-guide/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

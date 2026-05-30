@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ThreeDaysOfDarkness() {
@@ -24,6 +24,13 @@ export default function ThreeDaysOfDarkness() {
         title="The Three Days of Darkness: Catholic Prophecy Explained"
         description="What is the Three Days of Darkness? Explore the private revelations of Blessed Anna Maria Taigi and Marie-Julie Jahenny, the conditions, and how to prepare spiritually."
         url="https://guidecatholic.com/blog/three-days-of-darkness-prophecy/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Three Days of Darkness", url: "https://guidecatholic.com/blog/three-days-of-darkness-prophecy/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

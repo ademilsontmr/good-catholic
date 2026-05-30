@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SevenSacraments() {
@@ -24,6 +24,13 @@ export default function SevenSacraments() {
         title="The 7 Sacraments of the Catholic Church Explained"
         description="Understand the importance and meaning of each of the seven sacraments instituted by Christ: Baptism, Eucharist, Confirmation, Confession, Anointing, Holy Orders, and Matrimony."
         url="https://guidecatholic.com/blog/seven-sacraments/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The 7 Sacraments", url: "https://guidecatholic.com/blog/seven-sacraments/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

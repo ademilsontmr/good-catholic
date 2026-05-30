@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintDymphnaMentalHealth() {
@@ -24,6 +24,13 @@ export default function SaintDymphnaMentalHealth() {
         title="Saint Dymphna: Patron Saint of Mental Health and Anxiety"
         description="Discover the life of Saint Dymphna, the patron saint of those suffering from anxiety, depression, and mental illness. Learn how to ask for her intercession."
         url="https://guidecatholic.com/blog/saint-dymphna-mental-health/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Dymphna", url: "https://guidecatholic.com/blog/saint-dymphna-mental-health/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

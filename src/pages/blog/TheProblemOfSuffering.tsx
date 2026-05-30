@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TheProblemOfSuffering() {
@@ -24,6 +24,13 @@ export default function TheProblemOfSuffering() {
         title="Why Does God Allow Suffering? Exploring the Catholic Perspective"
         description="Discover the Catholic teaching on the problem of evil and suffering. Learn about free will, the value of redemptive suffering, and where God is in the midst of our pain."
         url="https://guidecatholic.com/blog/why-does-god-allow-suffering/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Why God Allows Suffering", url: "https://guidecatholic.com/blog/why-does-god-allow-suffering/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

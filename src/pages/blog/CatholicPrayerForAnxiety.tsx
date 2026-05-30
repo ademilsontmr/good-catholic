@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicPrayerForAnxiety() {
@@ -24,6 +24,13 @@ export default function CatholicPrayerForAnxiety() {
         title="Catholic Prayer for Anxiety: Finding Peace in a Worried World"
         description="Discover the most powerful Catholic prayers for anxiety — Saint Dymphna's intercession, the Rosary, the Peace Prayer of St. Francis, and a complete prayer routine for peace of mind."
         url="https://guidecatholic.com/blog/catholic-prayer-for-anxiety/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Prayer for Anxiety", url: "https://guidecatholic.com/blog/catholic-prayer-for-anxiety/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

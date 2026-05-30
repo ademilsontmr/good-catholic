@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnGratitude() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnGratitude() {
         title="Gratitude: The Catholic Virtue of Thankfulness"
         description="Gratitude is the foundation of the spiritual life. Discover why the Eucharist means 'thanksgiving,' how ingratitude is a sin, and how to cultivate a grateful heart."
         url="https://guidecatholic.com/blog/gratitude-catholic-virtue/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Gratitude: The Catholic Virtue of Thankfulness", url: "https://guidecatholic.com/blog/gratitude-catholic-virtue/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

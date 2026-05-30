@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintFrancisOfAssisi() {
@@ -24,6 +24,13 @@ export default function SaintFrancisOfAssisi() {
         title="Saint Francis of Assisi: Life, Stigmata, and the Franciscan Legacy"
         description="Discover the life of Saint Francis of Assisi — the Poor Man of Assisi who received the stigmata, founded the Franciscans, and became one of the most beloved saints in history."
         url="https://guidecatholic.com/blog/saint-francis-of-assisi/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Francis of Assisi", url: "https://guidecatholic.com/blog/saint-francis-of-assisi/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

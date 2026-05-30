@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CorporalWorksOfMercyCatholic() {
@@ -21,6 +21,13 @@ export default function CorporalWorksOfMercyCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Corporal Works of Mercy: Catholic List & How to Live Them (USA)" description="The seven corporal works of mercy explained — feed the hungry, visit the sick, bury the dead, and more. Practical ways Catholics in the United States live mercy today." url="https://guidecatholic.com/blog/corporal-works-of-mercy-catholic/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Corporal Works of Mercy", url: "https://guidecatholic.com/blog/corporal-works-of-mercy-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

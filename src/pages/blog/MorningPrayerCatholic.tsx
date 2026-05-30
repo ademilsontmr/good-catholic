@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MorningPrayerCatholic() {
@@ -24,6 +24,13 @@ export default function MorningPrayerCatholic() {
         title="Morning Prayer Catholic: Full Texts, Lauds & How to Start Your Day"
         description="Complete guide to Catholic morning prayer — full texts of Lauds, the Morning Offering, Psalm 63, and simple morning prayers for every Catholic. Start your day with God."
         url="https://guidecatholic.com/blog/morning-prayer-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Morning Prayer Catholic", url: "https://guidecatholic.com/blog/morning-prayer-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

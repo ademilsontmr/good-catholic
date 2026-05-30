@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicLentGuide() {
@@ -24,6 +24,13 @@ export default function CatholicLentGuide() {
         title="The Complete Catholic Lent Guide: 40 Days of Prayer, Fasting & Almsgiving"
         description="The most complete guide to observing Lent as a Catholic — week-by-week plan, fasting rules, prayer schedule, almsgiving ideas, and a full Lent checklist."
         url="https://guidecatholic.com/blog/complete-catholic-lent-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Catholic Lent Guide", url: "https://guidecatholic.com/blog/complete-catholic-lent-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

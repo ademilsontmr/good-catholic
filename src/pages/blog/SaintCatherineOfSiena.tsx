@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintCatherineOfSiena() {
@@ -24,6 +24,13 @@ export default function SaintCatherineOfSiena() {
         title="Saint Catherine of Siena: Doctor of the Church, Mystic & Reformer"
         description="Discover Saint Catherine of Siena — the Dominican mystic who never learned to read, received the stigmata, and convinced the Pope to return to Rome."
         url="https://guidecatholic.com/blog/saint-catherine-of-siena/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Catherine of Siena", url: "https://guidecatholic.com/blog/saint-catherine-of-siena/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AgnusDeiPrayerCatholic() {
@@ -25,6 +25,13 @@ export default function AgnusDeiPrayerCatholic() {
         description="The Agnus Dei (Lamb of God) prayer with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation."
         url="https://guidecatholic.com/blog/agnus-dei-prayer-catholic/"
         datePublished="2026-05-30"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Agnus Dei", url: "https://guidecatholic.com/blog/agnus-dei-prayer-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

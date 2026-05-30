@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StAnthonyNovenaLostThings() {
@@ -21,6 +21,13 @@ export default function StAnthonyNovenaLostThings() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Anthony Novena for Lost Things: 9-Day Prayer (Full Text)" description="St. Anthony Novena for lost things — 9-day Catholic prayer with full text to find missing items, keys, wallets, and documents." url="https://guidecatholic.com/blog/st-anthony-novena-lost-things/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Anthony Novena for Lost Things", url: "https://guidecatholic.com/blog/st-anthony-novena-lost-things/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

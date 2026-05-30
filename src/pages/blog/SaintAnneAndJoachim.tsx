@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintAnneAndJoachim() {
@@ -24,6 +24,13 @@ export default function SaintAnneAndJoachim() {
         title="Saints Anne and Joachim: The Grandparents of Jesus"
         description="Discover Saints Anne and Joachim — the parents of the Virgin Mary and the grandparents of Jesus. Their story, their shrines, and why they are patrons of grandparents and families."
         url="https://guidecatholic.com/blog/saints-anne-and-joachim/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saints Anne and Joachim", url: "https://guidecatholic.com/blog/saints-anne-and-joachim/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

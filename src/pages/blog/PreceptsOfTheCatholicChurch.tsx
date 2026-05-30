@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PreceptsOfTheCatholicChurch() {
@@ -21,6 +21,13 @@ export default function PreceptsOfTheCatholicChurch() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know" description="The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens." url="https://guidecatholic.com/blog/precepts-of-the-catholic-church/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Precepts of the Church", url: "https://guidecatholic.com/blog/precepts-of-the-catholic-church/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

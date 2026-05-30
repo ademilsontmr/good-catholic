@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurFatherPrayer() {
@@ -24,6 +24,13 @@ export default function OurFatherPrayer() {
         title="Our Father Prayer: Full Text, Meaning and Catholic Guide"
         description="The Our Father prayer with full text, biblical meaning, the seven petitions, and a Catholic guide to praying the Lord's Prayer with devotion."
         url="https://guidecatholic.com/blog/our-father-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Our Father Prayer", url: "https://guidecatholic.com/blog/our-father-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

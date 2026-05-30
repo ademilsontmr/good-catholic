@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintThomasAquinas() {
@@ -24,6 +24,13 @@ export default function SaintThomasAquinas() {
         title="Saint Thomas Aquinas: The Angelic Doctor, Summa Theologica & Legacy"
         description="Discover Saint Thomas Aquinas — the Angelic Doctor, his life, the Summa Theologica, his five proofs for God's existence, and why he is the greatest theologian in Catholic history."
         url="https://guidecatholic.com/blog/saint-thomas-aquinas/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Thomas Aquinas", url: "https://guidecatholic.com/blog/saint-thomas-aquinas/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

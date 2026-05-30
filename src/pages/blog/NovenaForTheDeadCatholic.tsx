@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NovenaForTheDeadCatholic() {
@@ -21,6 +21,13 @@ export default function NovenaForTheDeadCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Novena for the Dead: 9-Day Catholic Prayer for Souls in Purgatory" description="Novena for the dead — 9-day Catholic prayer for souls in purgatory and deceased loved ones." url="https://guidecatholic.com/blog/novena-for-the-dead-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Novena for the Dead", url: "https://guidecatholic.com/blog/novena-for-the-dead-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

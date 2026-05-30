@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function Jubilee2025Legacy() {
@@ -24,6 +24,13 @@ export default function Jubilee2025Legacy() {
           description="The Holy Year of 2025 has ended, but its mission continues. Discover how to keep the flame of hope alive in your Christian life in 2026."
           url="https://guidecatholic.com/blog/jubilee-2025-legacy/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Jubilee 2025 Legacy", url: "https://guidecatholic.com/blog/jubilee-2025-legacy/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

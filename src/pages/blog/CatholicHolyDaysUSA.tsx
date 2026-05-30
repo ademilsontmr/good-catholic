@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicHolyDaysUSA() {
@@ -24,6 +24,13 @@ export default function CatholicHolyDaysUSA() {
         title="Catholic Holy Days of Obligation in the United States: Complete 2026 Guide"
         description="What are the 6 Holy Days of Obligation in the US? Get the 2026 dates, learn the Saturday/Monday dispensation rule, and understand what happens if you miss one."
         url="https://guidecatholic.com/blog/catholic-holy-days-of-obligation-usa/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Holy Days of Obligation USA 2026", url: "https://guidecatholic.com/blog/catholic-holy-days-of-obligation-usa/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

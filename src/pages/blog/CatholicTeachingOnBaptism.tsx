@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnBaptism() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnBaptism() {
         title="Catholic Baptism: What It Is, What It Does & Why It Matters"
         description="Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is necessary for salvation, and how to live out your Baptism."
         url="https://guidecatholic.com/blog/catholic-baptism-explained/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Baptism Explained", url: "https://guidecatholic.com/blog/catholic-baptism-explained/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

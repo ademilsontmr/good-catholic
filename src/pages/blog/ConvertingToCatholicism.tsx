@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ConvertingToCatholicism() {
@@ -24,6 +24,13 @@ export default function ConvertingToCatholicism() {
         title="Converting to Catholicism: What to Expect, What Changes & Real Stories"
         description="Thinking about converting to Catholicism? What to expect, what will change in your life, how to tell your family, and the stories of famous converts who found their home in the Church."
         url="https://guidecatholic.com/blog/converting-to-catholicism/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Converting to Catholicism", url: "https://guidecatholic.com/blog/converting-to-catholicism/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

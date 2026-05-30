@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSchoolsAmerica() {
@@ -24,6 +24,13 @@ export default function CatholicSchoolsAmerica() {
         title="Catholic Schools in America: Benefits, Costs & How to Choose the Right One"
         description="The US has over 6,000 Catholic schools. Learn about the academic and faith formation benefits, tuition costs, scholarships, and how to evaluate whether a school is truly Catholic."
         url="https://guidecatholic.com/blog/catholic-schools-in-america/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Schools in America", url: "https://guidecatholic.com/blog/catholic-schools-in-america/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

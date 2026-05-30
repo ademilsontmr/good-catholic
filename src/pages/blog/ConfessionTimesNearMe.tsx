@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ConfessionTimesNearMe() {
@@ -24,6 +24,13 @@ export default function ConfessionTimesNearMe() {
         title="Confession Times Near Me: How to Find Catholic Confession"
         description="Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession."
         url="https://guidecatholic.com/blog/confession-times-near-me/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Confession Times Near Me", url: "https://guidecatholic.com/blog/confession-times-near-me/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

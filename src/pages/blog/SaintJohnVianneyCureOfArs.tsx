@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJohnVianneyCureOfArs() {
@@ -24,6 +24,13 @@ export default function SaintJohnVianneyCureOfArs() {
         title="Saint John Vianney: The Curé of Ars and the Power of the Confessional"
         description="Discover the life of Saint John Vianney, the humble priest who converted thousands through the confessional and battled the demonic in his small village of Ars."
         url="https://guidecatholic.com/blog/saint-john-vianney-cure-of-ars/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint John Vianney", url: "https://guidecatholic.com/blog/saint-john-vianney-cure-of-ars/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

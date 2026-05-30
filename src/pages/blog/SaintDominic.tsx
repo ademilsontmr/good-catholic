@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintDominic() {
@@ -24,6 +24,13 @@ export default function SaintDominic() {
         title="Saint Dominic: Founder of the Dominicans, Preacher of Truth & the Rosary"
         description="Discover Saint Dominic — the Spanish priest who founded the Order of Preachers, fought heresy with truth and poverty, and gave the Church the Rosary."
         url="https://guidecatholic.com/blog/saint-dominic-founder-dominicans/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Dominic", url: "https://guidecatholic.com/blog/saint-dominic-founder-dominicans/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

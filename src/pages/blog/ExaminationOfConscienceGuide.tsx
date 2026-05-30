@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ExaminationOfConscienceGuide() {
@@ -25,6 +25,13 @@ export default function ExaminationOfConscienceGuide() {
           description="Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination."
           url="https://guidecatholic.com/blog/examination-of-conscience-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Examination of Conscience Guide", url: "https://guidecatholic.com/blog/examination-of-conscience-guide/" },
+        ]}
+      />
         <HowToSchema
           name="How to Make an Examination of Conscience"
           description="Complete Catholic guide to making a daily and pre-Confession examination of conscience."

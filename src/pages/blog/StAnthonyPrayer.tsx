@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StAnthonyPrayer() {
@@ -24,6 +24,13 @@ export default function StAnthonyPrayer() {
         title="St. Anthony Prayer: For Lost Things, Lost People & Impossible Causes"
         description="Prayers to St. Anthony of Padua — patron of lost things. The traditional prayer, the Responsory, novena, and how to ask St. Anthony to help you find what is lost."
         url="https://guidecatholic.com/blog/st-anthony-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Anthony Prayer", url: "https://guidecatholic.com/blog/st-anthony-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

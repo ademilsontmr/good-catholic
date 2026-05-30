@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintPeregrineNovena() {
@@ -24,6 +24,13 @@ export default function SaintPeregrineNovena() {
         title="Saint Peregrine Novena: The Patron Saint for Cancer Patients"
         description="Pray the Saint Peregrine Novena for healing from cancer and other illnesses. Learn about the miraculous life of the 'Cancer Saint' and how to ask for his intercession."
         url="https://guidecatholic.com/blog/saint-peregrine-novena/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Peregrine Novena", url: "https://guidecatholic.com/blog/saint-peregrine-novena/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

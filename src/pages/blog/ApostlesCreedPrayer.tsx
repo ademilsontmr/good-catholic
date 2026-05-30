@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ApostlesCreedPrayer() {
@@ -24,6 +24,13 @@ export default function ApostlesCreedPrayer() {
         title="Apostles' Creed: Full Text, Meaning and Catholic Explanation"
         description="The Apostles' Creed with full Catholic text, meaning, history, and a clear explanation of each article of faith for prayer, RCIA, and the Rosary."
         url="https://guidecatholic.com/blog/apostles-creed-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Apostles' Creed", url: "https://guidecatholic.com/blog/apostles-creed-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

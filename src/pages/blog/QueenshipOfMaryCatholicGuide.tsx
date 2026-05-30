@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function QueenshipOfMaryCatholicGuide() {
@@ -21,6 +21,13 @@ export default function QueenshipOfMaryCatholicGuide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Queenship of Mary: Catholic Feast Day Guide (August 22)" description="Queenship of Mary — Catholic teaching on Mary as Queen, feast day meaning, and prayers for August 22." url="https://guidecatholic.com/blog/queenship-of-mary-catholic-guide/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Queenship of Mary", url: "https://guidecatholic.com/blog/queenship-of-mary-catholic-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

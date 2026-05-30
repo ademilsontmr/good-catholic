@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicConfirmationPrep() {
@@ -24,6 +24,13 @@ export default function CatholicConfirmationPrep() {
         title="Catholic Confirmation Preparation: The Complete Guide for Teens & Adults"
         description="Everything you need to prepare for Confirmation — the 7 gifts of the Holy Spirit, how to choose a name and sponsor, what happens at the ceremony, and what comes after."
         url="https://guidecatholic.com/blog/catholic-confirmation-preparation-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Confirmation Preparation", url: "https://guidecatholic.com/blog/catholic-confirmation-preparation-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

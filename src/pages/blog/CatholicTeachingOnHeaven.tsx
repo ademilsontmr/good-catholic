@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnHeaven() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnHeaven() {
         title="What Is Heaven Like? The Catholic Teaching on Eternal Life"
         description="What does the Catholic Church teach about heaven? The beatific vision, the resurrection of the body, whether we'll recognize loved ones, and what eternal life really means."
         url="https://guidecatholic.com/blog/what-is-heaven-like-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Heaven Like?", url: "https://guidecatholic.com/blog/what-is-heaven-like-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

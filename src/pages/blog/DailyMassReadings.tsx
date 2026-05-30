@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DailyMassReadings() {
@@ -24,6 +24,13 @@ export default function DailyMassReadings() {
         title="Daily Mass Readings Catholic: How to Follow, Apps & the Lectionary"
         description="How to follow the Catholic daily Mass readings — what they are, the three-year cycle, the best apps and websites, and how to use them for daily prayer and Scripture study."
         url="https://guidecatholic.com/blog/daily-mass-readings-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Daily Mass Readings", url: "https://guidecatholic.com/blog/daily-mass-readings-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

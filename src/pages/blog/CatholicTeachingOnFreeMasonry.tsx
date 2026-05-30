@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnFreeMasonry() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnFreeMasonry() {
         title="Catholic Teaching on Freemasonry: Why Catholics Cannot Be Masons"
         description="The Catholic Church has condemned Freemasonry over 20 times since 1738. Learn why Catholics cannot join Masonic lodges and what to do if a family member is a Mason."
         url="https://guidecatholic.com/blog/catholic-teaching-on-freemasonry/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Freemasonry", url: "https://guidecatholic.com/blog/catholic-teaching-on-freemasonry/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

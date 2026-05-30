@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AssumptionOfMaryCatholicGuide() {
@@ -21,6 +21,13 @@ export default function AssumptionOfMaryCatholicGuide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Assumption of Mary: Catholic Feast Day Guide (August 15)" description="Assumption of Mary — Catholic teaching, Holy Day of Obligation in the USA, Mass, and how to honor Mary on August 15." url="https://guidecatholic.com/blog/assumption-of-mary-catholic-guide/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Assumption of Mary", url: "https://guidecatholic.com/blog/assumption-of-mary-catholic-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

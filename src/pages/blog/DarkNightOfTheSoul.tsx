@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DarkNightOfTheSoul() {
@@ -24,6 +24,13 @@ export default function DarkNightOfTheSoul() {
         title="The Dark Night of the Soul: What It Is and How to Navigate It"
         description="Learn what the dark night of the soul is in Catholic spirituality. Discover St. John of the Cross's teaching, the two dark nights, how to distinguish it from depression, and how to navigate it."
         url="https://guidecatholic.com/blog/dark-night-of-the-soul-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Dark Night of the Soul", url: "https://guidecatholic.com/blog/dark-night-of-the-soul-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

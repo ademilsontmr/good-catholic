@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SpiritualRetreatAtHome() {
@@ -25,6 +25,13 @@ export default function SpiritualRetreatAtHome() {
           description="Learn how to make a Catholic spiritual retreat at home. Step-by-step guide with a sample 1-day and weekend schedule, the Ignatian approach, journaling tips, and what to do after your retreat."
           url="https://guidecatholic.com/blog/how-to-do-spiritual-retreat-at-home/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Spiritual Retreat at Home", url: "https://guidecatholic.com/blog/how-to-do-spiritual-retreat-at-home/" },
+        ]}
+      />
         <HowToSchema
           name="How to Do a Spiritual Retreat at Home"
           description="Step-by-step guide to making a Catholic spiritual retreat at home."

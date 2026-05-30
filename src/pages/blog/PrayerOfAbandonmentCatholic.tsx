@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerOfAbandonmentCatholic() {
@@ -21,6 +21,13 @@ export default function PrayerOfAbandonmentCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Prayer of Abandonment: Full Text & Meaning (Charles de Foucauld)" description="The Prayer of Abandonment with full Catholic text, meaning, and how to pray Charles de Foucauld's surrender to God." url="https://guidecatholic.com/blog/prayer-of-abandonment-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Prayer of Abandonment", url: "https://guidecatholic.com/blog/prayer-of-abandonment-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

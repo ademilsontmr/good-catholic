@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingAbortion() {
@@ -25,6 +25,13 @@ export default function CatholicTeachingAbortion() {
           description="Learn the Catholic Church's consistent teaching on abortion from the earliest centuries, the theological basis in human dignity, Evangelium Vitae, and how Catholics can be pro-life in practice."
           url="https://guidecatholic.com/blog/catholic-teaching-on-abortion/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Abortion", url: "https://guidecatholic.com/blog/catholic-teaching-on-abortion/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

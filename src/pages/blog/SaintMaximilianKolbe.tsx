@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMaximilianKolbe() {
@@ -24,6 +24,13 @@ export default function SaintMaximilianKolbe() {
         title="Saint Maximilian Kolbe: Martyr of Auschwitz & Apostle of Mary"
         description="Discover Saint Maximilian Kolbe — the Polish Franciscan priest who volunteered to die in place of a stranger at Auschwitz. His life, his Militia Immaculata, and his heroic martyrdom."
         url="https://guidecatholic.com/blog/saint-maximilian-kolbe/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Maximilian Kolbe", url: "https://guidecatholic.com/blog/saint-maximilian-kolbe/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

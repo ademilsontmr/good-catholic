@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DivorcedCatholicCommunion() {
@@ -24,6 +24,13 @@ export default function DivorcedCatholicCommunion() {
         title="Can a Divorced Catholic Receive Communion? What the Church Teaches"
         description="Can a divorced Catholic receive Holy Communion? The Church's clear teaching from the Catechism (CCC 1650), Amoris Laetitia, and what divorced Catholics need to know."
         url="https://guidecatholic.com/blog/can-divorced-catholic-receive-communion/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Divorced Catholic and Communion", url: "https://guidecatholic.com/blog/can-divorced-catholic-receive-communion/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

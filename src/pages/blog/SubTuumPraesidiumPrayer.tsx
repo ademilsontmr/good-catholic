@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SubTuumPraesidiumPrayer() {
@@ -25,6 +25,13 @@ export default function SubTuumPraesidiumPrayer() {
         description="Sub Tuum Praesidium — the oldest known Marian prayer — with full Catholic text in English and Latin, history from the 3rd century, and when to pray it today."
         url="https://guidecatholic.com/blog/sub-tuum-praesidium-prayer/"
         datePublished="2026-05-30"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Sub Tuum Praesidium", url: "https://guidecatholic.com/blog/sub-tuum-praesidium-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

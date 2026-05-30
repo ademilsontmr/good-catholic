@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SacramentOfMatrimony() {
@@ -25,6 +25,13 @@ export default function SacramentOfMatrimony() {
           description="Discover the theology of Catholic marriage. Learn about sacramental marriage, the vows, indissolubility, and how spouses participate in God's creative love."
           url="https://guidecatholic.com/blog/sacrament-of-matrimony/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Sacrament of Matrimony", url: "https://guidecatholic.com/blog/sacrament-of-matrimony/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

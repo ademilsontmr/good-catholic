@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnGambling() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnGambling() {
         title="Is Gambling a Sin? The Catholic Teaching on Gambling"
         description="Is gambling a sin? Learn what the Catholic Church teaches about gambling — the distinction between moderate play and sinful excess, and the path to freedom for those who struggle."
         url="https://guidecatholic.com/blog/is-gambling-a-sin-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Is Gambling a Sin?", url: "https://guidecatholic.com/blog/is-gambling-a-sin-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

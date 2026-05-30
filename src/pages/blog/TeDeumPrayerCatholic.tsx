@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TeDeumPrayerCatholic() {
@@ -21,6 +21,13 @@ export default function TeDeumPrayerCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Te Deum Prayer: Full Catholic Text & When the Church Sings It" description="The Te Deum laudamus with full Catholic text in English, history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations, victories)." url="https://guidecatholic.com/blog/te-deum-prayer-catholic/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Te Deum", url: "https://guidecatholic.com/blog/te-deum-prayer-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

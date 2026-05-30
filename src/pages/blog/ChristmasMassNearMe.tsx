@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ChristmasMassNearMe() {
@@ -24,6 +24,13 @@ export default function ChristmasMassNearMe() {
         title="Christmas Mass Near Me 2026: Times, What to Expect & How to Prepare"
         description="Find Christmas Mass times 2026 near you — Christmas Eve and Christmas Day. What to expect at Midnight Mass, how to find your nearest Catholic church, and how to prepare."
         url="https://guidecatholic.com/blog/christmas-mass-near-me/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Christmas Mass Near Me", url: "https://guidecatholic.com/blog/christmas-mass-near-me/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

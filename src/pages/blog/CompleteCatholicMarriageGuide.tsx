@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompleteCatholicMarriageGuide() {
@@ -24,6 +24,13 @@ export default function CompleteCatholicMarriageGuide() {
         title="The Complete Catholic Marriage Guide: From Engagement to Holy Matrimony"
         description="Everything engaged Catholic couples need to know — Pre-Cana, required documents, the wedding ceremony explained, the exchange of vows, NFP, and how to build a holy marriage."
         url="https://guidecatholic.com/blog/complete-catholic-marriage-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Catholic Marriage Guide", url: "https://guidecatholic.com/blog/complete-catholic-marriage-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

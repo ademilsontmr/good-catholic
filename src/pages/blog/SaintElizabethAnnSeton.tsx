@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintElizabethAnnSeton() {
@@ -24,6 +24,13 @@ export default function SaintElizabethAnnSeton() {
         title="Saint Elizabeth Ann Seton: First American-Born Saint"
         description="Discover Saint Elizabeth Ann Seton — the first person born in the United States to be canonized. Her conversion, her founding of Catholic education in America, and her enduring legacy."
         url="https://guidecatholic.com/blog/saint-elizabeth-ann-seton/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Elizabeth Ann Seton", url: "https://guidecatholic.com/blog/saint-elizabeth-ann-seton/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

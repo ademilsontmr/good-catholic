@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SacredHeartDevotionCompleteGuide() {
@@ -21,6 +21,13 @@ export default function SacredHeartDevotionCompleteGuide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Sacred Heart Devotion: Complete Catholic Guide (First Fridays & Promises)" description="Sacred Heart devotion complete guide — First Fridays, 12 promises, Enthronement, and how U.S. Catholics honor the Heart of Jesus." url="https://guidecatholic.com/blog/sacred-heart-devotion-complete-guide/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Sacred Heart Devotion", url: "https://guidecatholic.com/blog/sacred-heart-devotion-complete-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

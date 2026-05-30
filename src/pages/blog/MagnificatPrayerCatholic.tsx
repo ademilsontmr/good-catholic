@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MagnificatPrayerCatholic() {
@@ -21,6 +21,13 @@ export default function MagnificatPrayerCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Magnificat Prayer: Full Text (Mary's Song) & When to Pray It" description="The Magnificat (Luke 1:46–55) with full Catholic text in English and Latin, Mary's song of praise, and when Catholics pray it at Vespers and in daily devotion." url="https://guidecatholic.com/blog/magnificat-prayer-catholic/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Magnificat", url: "https://guidecatholic.com/blog/magnificat-prayer-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

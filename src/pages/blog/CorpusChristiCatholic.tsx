@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CorpusChristiCatholic() {
@@ -24,6 +24,13 @@ export default function CorpusChristiCatholic() {
         title="Corpus Christi: The Feast of the Body and Blood of Christ"
         description="What is Corpus Christi? Learn about the feast of the Body and Blood of Christ — its history, the Eucharistic procession, the prayers of St. Thomas Aquinas, and how Catholics celebrate it."
         url="https://guidecatholic.com/blog/corpus-christi-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Corpus Christi", url: "https://guidecatholic.com/blog/corpus-christi-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

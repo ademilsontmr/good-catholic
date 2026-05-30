@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EucharistRealPresence() {
@@ -25,6 +25,13 @@ export default function EucharistRealPresence() {
                 description="Is Jesus really in the bread? Explore the dogma of Transubstantiation, the John 6 discourse, and scientific findings of Eucharistic miracles."
                 url="https://guidecatholic.com/blog/eucharist-real-presence/"
             />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Eucharist", url: "https://guidecatholic.com/blog/eucharist-real-presence/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

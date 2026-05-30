@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LitanyOfHumilityCatholic() {
@@ -21,6 +21,13 @@ export default function LitanyOfHumilityCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Litany of Humility: Full Text & Why Catholics Pray It Daily" description="The Litany of Humility with full Catholic text, attributed to Cardinal Merry del Val, meaning of each petition, and why it is popular in U.S. Catholic devotion." url="https://guidecatholic.com/blog/litany-of-humility-catholic/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Litany of Humility", url: "https://guidecatholic.com/blog/litany-of-humility-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

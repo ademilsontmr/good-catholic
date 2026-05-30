@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnDivorce() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnDivorce() {
         title="Can Catholics Divorce? What the Church Really Teaches"
         description="Can Catholics get divorced? Learn what the Catholic Church teaches about divorce, civil divorce vs. annulment, reception of Communion after divorce, and remarriage."
         url="https://guidecatholic.com/blog/catholic-teaching-on-divorce/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Divorce", url: "https://guidecatholic.com/blog/catholic-teaching-on-divorce/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

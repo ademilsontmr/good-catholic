@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheTrinity() {
@@ -24,6 +24,13 @@ export default function WhatIsTheTrinity() {
         title="What Is the Holy Trinity? Catholic Guide (1 God, 3 Persons)"
         description="The Holy Trinity explained in plain English — what Catholics believe about the Father, Son, and Holy Spirit as one God in three Persons."
         url="https://guidecatholic.com/blog/what-is-the-holy-trinity/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is the Holy Trinity?", url: "https://guidecatholic.com/blog/what-is-the-holy-trinity/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

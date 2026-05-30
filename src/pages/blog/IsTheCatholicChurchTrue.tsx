@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function IsTheCatholicChurchTrue() {
@@ -24,6 +24,13 @@ export default function IsTheCatholicChurchTrue() {
         title="Is the Catholic Church the True Church? What Catholics Believe"
         description="Is the Catholic Church the true Church? Learn about the four marks of the Church, apostolic succession, historical continuity from Peter, and why Catholics believe the Church was founded by Christ."
         url="https://guidecatholic.com/blog/is-the-catholic-church-the-true-church/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Is the Catholic Church the True Church?", url: "https://guidecatholic.com/blog/is-the-catholic-church-the-true-church/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DoCatholicsWorshipMary() {
@@ -25,6 +25,13 @@ export default function DoCatholicsWorshipMary() {
         description="Master the theological distinction between worship (Latria) and veneration (Hyperdulia). Explore Biblical typology like the Ark of the Covenant and the role of the Queen Mother."
         url="https://guidecatholic.com/blog/do-catholics-worship-mary/"
         author="Catholic Faith Guide Team"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Do Catholics Worship Mary?", url: "https://guidecatholic.com/blog/do-catholics-worship-mary/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

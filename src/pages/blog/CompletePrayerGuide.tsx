@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompletePrayerGuide() {
@@ -24,6 +24,13 @@ export default function CompletePrayerGuide() {
         title="The Complete Catholic Prayer Guide: How to Build a Life of Prayer"
         description="Everything you need to build a Catholic prayer life — the 5 forms of prayer, a complete daily routine, all essential prayers with full texts, and how to pray when you don't feel like it."
         url="https://guidecatholic.com/blog/complete-catholic-prayer-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Catholic Prayer Guide", url: "https://guidecatholic.com/blog/complete-catholic-prayer-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

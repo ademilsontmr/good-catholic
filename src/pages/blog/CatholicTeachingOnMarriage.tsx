@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnMarriage() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnMarriage() {
         title="Catholic Teaching on Marriage: Sacrament, Indissolubility & Vocation"
         description="What does the Catholic Church teach about marriage? The sacrament, indissolubility, the domestic church, and how to build a holy Catholic marriage."
         url="https://guidecatholic.com/blog/catholic-teaching-on-marriage/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Marriage", url: "https://guidecatholic.com/blog/catholic-teaching-on-marriage/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

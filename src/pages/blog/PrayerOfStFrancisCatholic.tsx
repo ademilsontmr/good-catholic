@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerOfStFrancisCatholic() {
@@ -21,6 +21,13 @@ export default function PrayerOfStFrancisCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Prayer of St. Francis (Make Me a Channel): Full Text & Meaning" description="The Prayer of St. Francis — Make me a channel of your peace — with full text, meaning line by line, and how Catholics pray it for peace, service, and daily life." url="https://guidecatholic.com/blog/prayer-of-st-francis-catholic/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Prayer of St. Francis", url: "https://guidecatholic.com/blog/prayer-of-st-francis-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

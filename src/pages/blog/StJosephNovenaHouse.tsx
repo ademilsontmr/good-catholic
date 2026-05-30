@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StJosephNovenaHouse() {
@@ -25,6 +25,13 @@ export default function StJosephNovenaHouse() {
           description="Learn how to pray the powerful St. Joseph Novena for buying a house. Discover the complete 9-day prayer, traditional practices, and why St. Joseph is the patron saint of home buyers."
           url="https://guidecatholic.com/blog/st-joseph-novena-house/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Joseph Novena for Buying a House", url: "https://guidecatholic.com/blog/st-joseph-novena-house/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

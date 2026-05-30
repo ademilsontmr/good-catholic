@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LitanyOfTheSaintsCatholic() {
@@ -24,6 +24,13 @@ export default function LitanyOfTheSaintsCatholic() {
         title="Litany of the Saints: How to Pray It, When It Is Used & Meaning"
         description="Catholic guide to the Litany of the Saints — how the responses work, when the Church prays it (Easter Vigil, ordinations, confirmations), and why we invoke the saints together."
         url="https://guidecatholic.com/blog/litany-of-the-saints-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Litany of the Saints", url: "https://guidecatholic.com/blog/litany-of-the-saints-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

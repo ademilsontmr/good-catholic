@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GloryBePrayer() {
@@ -24,6 +24,13 @@ export default function GloryBePrayer() {
         title="Glory Be Prayer: Full Text, Meaning and When to Pray It"
         description="The Glory Be prayer with full Catholic text, meaning, biblical roots, and how to pray this short doxology in the Rosary, novenas, and daily prayer."
         url="https://guidecatholic.com/blog/glory-be-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Glory Be Prayer", url: "https://guidecatholic.com/blog/glory-be-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

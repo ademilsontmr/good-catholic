@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StGerardNovenaPregnancy() {
@@ -21,6 +21,13 @@ export default function StGerardNovenaPregnancy() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Gerard Novena for Pregnancy: 9-Day Prayer for Safe Delivery" description="St. Gerard Novena for pregnancy — 9-day Catholic prayer for mothers, safe delivery, and healthy babies. Full prayer text and step-by-step guide." url="https://guidecatholic.com/blog/st-gerard-novena-pregnancy/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Gerard Novena for Pregnancy", url: "https://guidecatholic.com/blog/st-gerard-novena-pregnancy/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

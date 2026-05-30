@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MeaningOfCrucifix() {
@@ -24,6 +24,13 @@ export default function MeaningOfCrucifix() {
           description="Understand why the crucifix is the central symbol of Catholic faith. Learn about its history, symbolism, and the importance of having it in our homes."
           url="https://guidecatholic.com/blog/meaning-of-crucifix/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Meaning of the Crucifix", url: "https://guidecatholic.com/blog/meaning-of-crucifix/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

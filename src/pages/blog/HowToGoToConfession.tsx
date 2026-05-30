@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToGoToConfession() {
@@ -25,6 +25,13 @@ export default function HowToGoToConfession() {
         description="Master the Sacrament of Penance. Learn the 5 traditional requirements for a good confession, the power of 'In Persona Christi', and the absolute Seal of the Confessional."
         url="https://guidecatholic.com/blog/how-to-go-to-confession/"
         author="Catholic Faith Guide Team"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Go to Confession", url: "https://guidecatholic.com/blog/how-to-go-to-confession/" },
+        ]}
       />
       <HowToSchema
         name="How to Go to Confession"

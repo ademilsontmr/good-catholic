@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintTeresaOfAvila() {
@@ -24,6 +24,13 @@ export default function SaintTeresaOfAvila() {
         title="Saint Teresa of Ávila: Doctor of Prayer, Interior Castle & Legacy"
         description="Discover Saint Teresa of Ávila — the great Carmelite mystic, reformer, and Doctor of the Church. Her life, the Interior Castle, and her path of prayer."
         url="https://guidecatholic.com/blog/saint-teresa-of-avila/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Teresa of Ávila", url: "https://guidecatholic.com/blog/saint-teresa-of-avila/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

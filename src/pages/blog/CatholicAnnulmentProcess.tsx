@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicAnnulmentProcess() {
@@ -24,6 +24,13 @@ export default function CatholicAnnulmentProcess() {
         title="Catholic Annulment Process: A Complete Step-by-Step Guide"
         description="What is a Catholic annulment? Complete guide to the annulment process — grounds, steps, timeline, cost, and what it means for divorced Catholics who want to remarry."
         url="https://guidecatholic.com/blog/catholic-annulment-process/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Annulment Process", url: "https://guidecatholic.com/blog/catholic-annulment-process/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

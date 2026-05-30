@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ExaminationOfConscienceGuideDetailed() {
@@ -24,6 +24,13 @@ export default function ExaminationOfConscienceGuideDetailed() {
         title="Examination of Conscience: Complete Catholic Guide Before Confession"
         description="Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church. Use this guide to prepare for a thorough, honest Confession."
         url="https://guidecatholic.com/blog/examination-of-conscience-before-confession/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Examination of Conscience", url: "https://guidecatholic.com/blog/examination-of-conscience-before-confession/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

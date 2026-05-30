@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NovenaForFinancialHelpCatholic() {
@@ -21,6 +21,13 @@ export default function NovenaForFinancialHelpCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Novena for Financial Help: 9-Day Catholic Prayer for Money & Debt" description="Novena for financial help — 9-day Catholic prayer for money, debt, and bills. Full prayer text, how to pray when struggling financially, and trust in God's providence." url="https://guidecatholic.com/blog/novena-for-financial-help-catholic/" datePublished="2026-06-01" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Novena for Financial Help", url: "https://guidecatholic.com/blog/novena-for-financial-help-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

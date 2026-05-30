@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnMoney() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnMoney() {
         title="Catholic Teaching on Money, Wealth & Tithing: What the Church Says"
         description="Is it a sin to be rich? What does the Church teach about tithing, stewardship, and the proper use of wealth? A complete guide to Catholic teaching on money."
         url="https://guidecatholic.com/blog/catholic-teaching-on-money-and-wealth/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Money and Wealth", url: "https://guidecatholic.com/blog/catholic-teaching-on-money-and-wealth/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

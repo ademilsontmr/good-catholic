@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsOriginalSin() {
@@ -24,6 +24,13 @@ export default function WhatIsOriginalSin() {
         title="What Is Original Sin? The Catholic Teaching Explained"
         description="What is original sin? Learn the Catholic teaching on the fall of Adam and Eve, the effects of original sin on human nature, and how baptism restores what was lost."
         url="https://guidecatholic.com/blog/what-is-original-sin-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Original Sin?", url: "https://guidecatholic.com/blog/what-is-original-sin-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

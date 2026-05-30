@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ReginaCaeliPrayer() {
@@ -24,6 +24,13 @@ export default function ReginaCaeliPrayer() {
         title="Regina Caeli Prayer: Full Text, When to Pray It (Easter Marian)"
         description="The Regina Caeli prayer with full English and Latin text, when Catholics pray it instead of the Angelus during Easter, and what this Marian antiphon means."
         url="https://guidecatholic.com/blog/regina-caeli-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Regina Caeli", url: "https://guidecatholic.com/blog/regina-caeli-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

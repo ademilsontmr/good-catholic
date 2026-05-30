@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NovenaForMarriageCatholic() {
@@ -21,6 +21,13 @@ export default function NovenaForMarriageCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Novena for Marriage: 9-Day Catholic Prayer for Your Spouse & Relationship" description="Novena for marriage — 9-day Catholic prayer for your spouse, struggling relationship, or healing in marriage. Full prayer text and how to pray as a couple or alone." url="https://guidecatholic.com/blog/novena-for-marriage-catholic/" datePublished="2026-06-01" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Novena for Marriage", url: "https://guidecatholic.com/blog/novena-for-marriage-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

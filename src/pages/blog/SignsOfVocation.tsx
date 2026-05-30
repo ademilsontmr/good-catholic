@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SignsOfVocation() {
@@ -24,6 +24,13 @@ export default function SignsOfVocation() {
         title="Signs of a Vocation: How to Know If God Is Calling You to the Priesthood or Religious Life"
         description="How do you know if God is calling you to the priesthood or religious life? Discover the signs of a vocation, how to discern, and what to do if you feel called."
         url="https://guidecatholic.com/blog/signs-of-a-vocation-priesthood-religious-life/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Signs of a Vocation", url: "https://guidecatholic.com/blog/signs-of-a-vocation-priesthood-religious-life/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NightPrayerCatholic() {
@@ -24,6 +24,13 @@ export default function NightPrayerCatholic() {
         title="Night Prayer Catholic: Complete Guide to Evening Prayer & Compline"
         description="Learn how to pray Catholic night prayer. Full texts for evening prayer, Compline, examination of conscience, and bedtime prayers for adults and children."
         url="https://guidecatholic.com/blog/night-prayer-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Night Prayer Catholic", url: "https://guidecatholic.com/blog/night-prayer-catholic/" },
+        ]}
       />
       <HowToSchema
         name="How to Pray Catholic Night Prayer"

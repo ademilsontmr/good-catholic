@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GospelReadingToday() {
@@ -24,6 +24,13 @@ export default function GospelReadingToday() {
         title="Gospel Reading Today Catholic: How to Find It, Understand It & Pray It"
         description="How to find today's Catholic Gospel reading — the best apps, websites, and methods. Plus how to understand and pray with the Gospel reading every day."
         url="https://guidecatholic.com/blog/gospel-reading-today-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Gospel Reading Today", url: "https://guidecatholic.com/blog/gospel-reading-today-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

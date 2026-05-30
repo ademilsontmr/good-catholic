@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicRetreatsGuide() {
@@ -24,6 +24,13 @@ export default function CatholicRetreatsGuide() {
         title="Catholic Retreats: How to Find, Choose & Make the Most of a Spiritual Retreat"
         description="Everything about Catholic retreats — types of retreats, how to find one near you, how to prepare, how to make the most of it, and how to make a retreat at home."
         url="https://guidecatholic.com/blog/catholic-retreats-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Retreats Guide", url: "https://guidecatholic.com/blog/catholic-retreats-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

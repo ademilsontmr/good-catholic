@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StExpediteNovenaGuide() {
@@ -21,6 +21,13 @@ export default function StExpediteNovenaGuide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Expedite Novena: 9-Day Prayer for Urgent Needs (Full Text)" description="St. Expedite Novena — 9-day Catholic prayer for urgent needs, quick help, and pressing situations." url="https://guidecatholic.com/blog/st-expedite-novena-guide/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Expedite Novena", url: "https://guidecatholic.com/blog/st-expedite-novena-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

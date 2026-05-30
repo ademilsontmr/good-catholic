@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicBibleStudyGuide() {
@@ -24,6 +24,13 @@ export default function CatholicBibleStudyGuide() {
         title="Catholic Bible Study Guide: How to Study Scripture the Catholic Way"
         description="How to study the Bible as a Catholic — which translation to use, the four senses of Scripture, Lectio Divina, the best Catholic Bible study programs, and a 30-day reading plan."
         url="https://guidecatholic.com/blog/catholic-bible-study-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Bible Study Guide", url: "https://guidecatholic.com/blog/catholic-bible-study-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

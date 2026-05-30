@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMorningRoutine() {
@@ -24,6 +24,13 @@ export default function CatholicMorningRoutine() {
         title="Catholic Morning Routine: How to Start Your Day with God"
         description="Build a powerful Catholic morning routine. Discover the prayers, habits, and practices that saints used to start their day with God and transform their entire day."
         url="https://guidecatholic.com/blog/catholic-morning-routine/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Morning Routine", url: "https://guidecatholic.com/blog/catholic-morning-routine/" },
+        ]}
       />
       <HowToSchema
         name="How to Build a Catholic Morning Routine"

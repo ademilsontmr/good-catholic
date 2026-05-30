@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NovenaForAddictionCatholic() {
@@ -21,6 +21,13 @@ export default function NovenaForAddictionCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Novena for Addiction: 9-Day Catholic Prayer for Sobriety" description="Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing. Full prayer text and step-by-step guide." url="https://guidecatholic.com/blog/novena-for-addiction-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Novena for Addiction", url: "https://guidecatholic.com/blog/novena-for-addiction-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

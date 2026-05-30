@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StayingCatholicInCollege() {
@@ -24,6 +24,13 @@ export default function StayingCatholicInCollege() {
         title="Staying Catholic in College: A Practical Guide for Catholic Students"
         description="How to stay Catholic in college — finding a Newman Center, navigating secular culture, maintaining your faith, and growing spiritually during your college years."
         url="https://guidecatholic.com/blog/staying-catholic-in-college/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Staying Catholic in College", url: "https://guidecatholic.com/blog/staying-catholic-in-college/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

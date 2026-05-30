@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NaturalFamilyPlanning() {
@@ -25,6 +25,13 @@ export default function NaturalFamilyPlanning() {
           description="Discover what Natural Family Planning (NFP) is, why the Catholic Church teaches it through Humanae Vitae, the three main methods, effectiveness rates, and how NFP differs from contraception."
           url="https://guidecatholic.com/blog/natural-family-planning-catholic/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Natural Family Planning", url: "https://guidecatholic.com/blog/natural-family-planning-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

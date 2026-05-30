@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintRitaOfCascia() {
@@ -24,6 +24,13 @@ export default function SaintRitaOfCascia() {
         title="Saint Rita of Cascia: Patron of Impossible Causes & Desperate Cases"
         description="Discover Saint Rita of Cascia — the patron of impossible causes. Her life, her stigmata, her miracles, and the powerful novena that has brought hope to millions."
         url="https://guidecatholic.com/blog/saint-rita-of-cascia/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Rita of Cascia", url: "https://guidecatholic.com/blog/saint-rita-of-cascia/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

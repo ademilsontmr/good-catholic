@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FruitsOfHolySpirit() {
@@ -24,6 +24,13 @@ export default function FruitsOfHolySpirit() {
         title="The 12 Fruits of the Holy Spirit: Complete Catholic Guide"
         description="What are the 12 Fruits of the Holy Spirit? Learn the complete list from Galatians 5, what each fruit means, how they differ from the 7 Gifts, and how to cultivate them in daily life."
         url="https://guidecatholic.com/blog/fruits-of-the-holy-spirit/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Fruits of the Holy Spirit", url: "https://guidecatholic.com/blog/fruits-of-the-holy-spirit/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMichaelLent() {
@@ -24,6 +24,13 @@ export default function SaintMichaelLent() {
         title="Saint Michael's Lent: A 40-Day Spiritual Journey for Protection"
         description="Discover the origins of Saint Michael's Lent, why St. Francis of Assisi loved this devotion, and a complete guide on how to pray it."
         url="https://guidecatholic.com/blog/st-michael-lent-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Michael's Lent", url: "https://guidecatholic.com/blog/st-michael-lent-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

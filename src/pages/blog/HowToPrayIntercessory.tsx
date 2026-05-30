@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToPrayIntercessory() {
@@ -24,6 +24,13 @@ export default function HowToPrayIntercessory() {
         title="How to Pray Intercessory Prayer: A Complete Catholic Guide"
         description="Learn how to pray intercessory prayer as a Catholic. Discover what intercession is, how to pray for others effectively, and why the Church calls us to be intercessors."
         url="https://guidecatholic.com/blog/how-to-pray-intercessory-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Pray Intercessory Prayer", url: "https://guidecatholic.com/blog/how-to-pray-intercessory-prayer/" },
+        ]}
       />
       <HowToSchema
         name="How to Pray Intercessory Prayer"

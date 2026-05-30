@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DailyMassNearMe() {
@@ -24,6 +24,13 @@ export default function DailyMassNearMe() {
         title="Daily Mass Near Me: Find Catholic Mass Today"
         description="Find Daily Mass near you today. Learn how to locate weekday Catholic Mass times, noon Mass, early morning Mass, readings, and parish schedules."
         url="https://guidecatholic.com/blog/daily-mass-near-me/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Daily Mass Near Me", url: "https://guidecatholic.com/blog/daily-mass-near-me/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

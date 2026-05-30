@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToTeachChildrenToPray() {
@@ -24,6 +24,13 @@ export default function HowToTeachChildrenToPray() {
         title="How to Teach Children to Pray: A Catholic Parent's Guide"
         description="Learn how to teach your children to pray as Catholics. Age-appropriate prayers, tips for building a prayer habit, and how to make prayer a natural part of family life."
         url="https://guidecatholic.com/blog/how-to-teach-children-to-pray/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Teach Children to Pray", url: "https://guidecatholic.com/blog/how-to-teach-children-to-pray/" },
+        ]}
       />
       <HowToSchema
         name="How to Teach Children to Pray"

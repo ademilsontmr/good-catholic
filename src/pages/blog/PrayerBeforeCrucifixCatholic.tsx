@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerBeforeCrucifixCatholic() {
@@ -21,6 +21,13 @@ export default function PrayerBeforeCrucifixCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Prayer Before a Crucifix: Full Text & Meaning for Catholics" description="Prayer before a Crucifix with full Catholic text — the indulgenced prayer of St. Francis and when to pray it." url="https://guidecatholic.com/blog/prayer-before-crucifix-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Prayer Before a Crucifix", url: "https://guidecatholic.com/blog/prayer-before-crucifix-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

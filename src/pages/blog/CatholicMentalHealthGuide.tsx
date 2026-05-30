@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMentalHealthGuide() {
@@ -25,6 +25,13 @@ export default function CatholicMentalHealthGuide() {
           description="Discover the Catholic approach to mental health. Learn how faith integrates with psychology, find Catholic therapists, and access spiritual resources for depression, anxiety, and trauma recovery."
           url="https://guidecatholic.com/blog/catholic-mental-health-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Mental Health Guide", url: "https://guidecatholic.com/blog/catholic-mental-health-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

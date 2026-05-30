@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayersForHealingCatholic() {
@@ -24,6 +24,13 @@ export default function PrayersForHealingCatholic() {
         title="Catholic Prayers for Healing: Body, Mind & Soul"
         description="Powerful Catholic prayers for healing — physical, emotional, and spiritual. Full texts of healing prayers, the Anointing of the Sick, and how to pray for the sick."
         url="https://guidecatholic.com/blog/prayers-for-healing-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Prayers for Healing", url: "https://guidecatholic.com/blog/prayers-for-healing-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

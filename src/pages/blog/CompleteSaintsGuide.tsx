@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompleteSaintsGuide() {
@@ -24,6 +24,13 @@ export default function CompleteSaintsGuide() {
         title="The Complete Guide to Catholic Saints: How to Find Your Patron & Pray for Intercession"
         description="Everything about the Catholic saints — how to find your patron saint, the canonization process, the most popular patron saints by category, and how to develop a devotion."
         url="https://guidecatholic.com/blog/complete-guide-to-catholic-saints/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Guide to Catholic Saints", url: "https://guidecatholic.com/blog/complete-guide-to-catholic-saints/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

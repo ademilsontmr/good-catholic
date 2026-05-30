@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicVsProtestantBible() {
@@ -24,6 +24,13 @@ export default function CatholicVsProtestantBible() {
         title="Catholic vs Protestant Bible: The 7 Missing Books Explained"
         description="Why does the Catholic Bible have 73 books and the Protestant Bible 66? Understand the history of the canon, the Deuterocanonical books, and Martin Luther's changes."
         url="https://guidecatholic.com/blog/catholic-vs-protestant-bible/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic vs Protestant Bible", url: "https://guidecatholic.com/blog/catholic-vs-protestant-bible/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

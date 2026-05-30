@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function BeatitudesCatholicExplained() {
@@ -21,6 +21,13 @@ export default function BeatitudesCatholicExplained() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="What Are the Beatitudes? Catholic Meaning of All 8 (Matthew 5)" description="The Beatitudes from Matthew 5 explained for Catholics — all eight blessings, what poor in spirit and peacemakers mean, and how to live the Beatitudes in American life today." url="https://guidecatholic.com/blog/beatitudes-catholic-explained/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Beatitudes", url: "https://guidecatholic.com/blog/beatitudes-catholic-explained/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

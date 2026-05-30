@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PalmSundayCatholicGuide() {
@@ -21,6 +21,13 @@ export default function PalmSundayCatholicGuide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Palm Sunday Catholic Guide: Mass, Palms & Holy Week Start (USA)" description="Palm Sunday explained for Catholics in the U.S. — blessing of palms, procession, Mass readings, what to do with palms at home, and how Holy Week begins." url="https://guidecatholic.com/blog/palm-sunday-catholic-guide/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Palm Sunday", url: "https://guidecatholic.com/blog/palm-sunday-catholic-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

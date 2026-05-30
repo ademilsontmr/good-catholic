@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSummerMassScheduleGuide() {
@@ -21,6 +21,13 @@ export default function CatholicSummerMassScheduleGuide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Catholic Summer Mass Guide: Vacation, Travel & Finding Mass in the USA" description="Catholic summer Mass guide — finding parishes on vacation, travel Mass times, and staying faithful while away from home." url="https://guidecatholic.com/blog/catholic-summer-mass-schedule-guide/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Summer Mass Guide", url: "https://guidecatholic.com/blog/catholic-summer-mass-schedule-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

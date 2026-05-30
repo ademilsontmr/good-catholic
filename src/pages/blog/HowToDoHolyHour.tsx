@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToDoHolyHour() {
@@ -24,6 +24,13 @@ export default function HowToDoHolyHour() {
         title="How to Do a Holy Hour: Complete Catholic Guide to Eucharistic Adoration"
         description="Learn how to do a Holy Hour of Eucharistic Adoration. Discover what to pray, how to structure your time, and why spending an hour with Jesus transforms your life."
         url="https://guidecatholic.com/blog/how-to-do-a-holy-hour/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Do a Holy Hour", url: "https://guidecatholic.com/blog/how-to-do-a-holy-hour/" },
+        ]}
       />
       <HowToSchema
         name="How to Do a Holy Hour"

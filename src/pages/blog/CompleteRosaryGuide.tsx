@@ -8,7 +8,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompleteRosaryGuide() {
@@ -25,6 +25,13 @@ export default function CompleteRosaryGuide() {
         title="The Complete Rosary Guide: How to Pray, All 20 Mysteries &amp; Everything You Need to Know"
         description="The most complete Rosary guide available — step-by-step instructions, all 20 mysteries with meditations, every prayer with full text, the promises of the Rosary, and tips for beginners."
         url="https://guidecatholic.com/blog/complete-rosary-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Rosary Guide", url: "https://guidecatholic.com/blog/complete-rosary-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

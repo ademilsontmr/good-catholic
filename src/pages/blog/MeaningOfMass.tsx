@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MeaningOfMass() {
@@ -25,6 +25,13 @@ export default function MeaningOfMass() {
                 description="Learn the profound meaning of each moment of Holy Mass. A complete guide to the liturgy to participate with more awareness and devotion."
                 url="https://guidecatholic.com/blog/meaning-mass/"
             />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Meaning of Holy Mass", url: "https://guidecatholic.com/blog/meaning-mass/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

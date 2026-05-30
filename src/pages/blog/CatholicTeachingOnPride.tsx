@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnPride() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnPride() {
         title="Pride: The Root of All Sin — The Catholic Teaching"
         description="Pride is the first and greatest of the capital sins — the sin that caused the fall of Lucifer and of Adam and Eve. Learn what it is, how it manifests today, and how to overcome it."
         url="https://guidecatholic.com/blog/pride-root-of-sin-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Pride: The Root of All Sin", url: "https://guidecatholic.com/blog/pride-root-of-sin-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

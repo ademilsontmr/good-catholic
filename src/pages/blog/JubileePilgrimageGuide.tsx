@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function JubileePilgrimageGuide() {
@@ -25,6 +25,13 @@ export default function JubileePilgrimageGuide() {
           description="Discover how to continue the Jubilee 2025 spirit. Learn about indulgences, pilgrimage traditions, and carrying the grace of the Holy Year into daily life."
           url="https://guidecatholic.com/blog/jubilee-pilgrimage-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Jubilee Pilgrimage Guide", url: "https://guidecatholic.com/blog/jubilee-pilgrimage-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

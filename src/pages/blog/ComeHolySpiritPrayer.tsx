@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ComeHolySpiritPrayer() {
@@ -24,6 +24,13 @@ export default function ComeHolySpiritPrayer() {
         title="Come Holy Spirit Prayer: Full Text, Meaning and Catholic Guide"
         description="The Come Holy Spirit prayer with full text, meaning, when to pray it, and a Catholic guide to asking the Holy Spirit for wisdom, courage, and renewal."
         url="https://guidecatholic.com/blog/come-holy-spirit-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Come Holy Spirit Prayer", url: "https://guidecatholic.com/blog/come-holy-spirit-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

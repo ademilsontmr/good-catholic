@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FamilyPrayer() {
@@ -25,6 +25,13 @@ export default function FamilyPrayer() {
           description="Learn how to pray as a family — the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start when you haven't been praying together."
           url="https://guidecatholic.com/blog/how-to-pray-as-a-family/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Family Prayer", url: "https://guidecatholic.com/blog/how-to-pray-as-a-family/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnLove() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnLove() {
         title="What Is Love? The Catholic Understanding of Eros, Philia, and Agape"
         description="What does love really mean? Discover the Catholic understanding of eros, philia, and agape — and why Pope Benedict XVI said they are not opposites but complementary."
         url="https://guidecatholic.com/blog/what-is-love-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Love? Catholic Understanding", url: "https://guidecatholic.com/blog/what-is-love-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

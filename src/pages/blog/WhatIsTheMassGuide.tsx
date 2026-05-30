@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheMassGuide() {
@@ -25,6 +25,13 @@ export default function WhatIsTheMassGuide() {
         description="Master the central act of Catholic worship. Learn about Transubstantiation, the Real Presence, and how the Mass is the re-presentation of Christ's sacrifice."
         url="https://guidecatholic.com/blog/what-is-the-catholic-mass/"
         author="Catholic Faith Guide Team"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is the Catholic Mass?", url: "https://guidecatholic.com/blog/what-is-the-catholic-mass/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

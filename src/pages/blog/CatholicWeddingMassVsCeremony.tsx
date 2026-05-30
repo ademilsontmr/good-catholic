@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicWeddingMassVsCeremony() {
@@ -21,6 +21,13 @@ export default function CatholicWeddingMassVsCeremony() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Catholic Wedding Mass vs. Ceremony: What's the Difference?" description="Catholic wedding Mass vs. ceremony without Mass — differences, requirements, and what engaged couples should choose in the United States." url="https://guidecatholic.com/blog/catholic-wedding-mass-vs-ceremony/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Wedding Mass vs. Ceremony", url: "https://guidecatholic.com/blog/catholic-wedding-mass-vs-ceremony/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

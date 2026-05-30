@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnEuthanasia() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnEuthanasia() {
         title="Catholic Teaching on Euthanasia & Assisted Suicide"
         description="What does the Catholic Church teach about euthanasia and assisted suicide? A complete guide from the Catechism (CCC 2276-2279), Evangelium Vitae, and the theology of suffering."
         url="https://guidecatholic.com/blog/catholic-teaching-on-euthanasia/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Euthanasia", url: "https://guidecatholic.com/blog/catholic-teaching-on-euthanasia/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

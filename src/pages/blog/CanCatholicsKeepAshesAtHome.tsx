@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CanCatholicsKeepAshesAtHome() {
@@ -21,6 +21,13 @@ export default function CanCatholicsKeepAshesAtHome() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Can Catholics Keep Ashes at Home? Church Rules in the USA" description="Can Catholics keep ashes at home? What the Church allows and forbids about cremated remains in the United States." url="https://guidecatholic.com/blog/can-catholics-keep-ashes-at-home/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Can Catholics Keep Ashes at Home? Chu...", url: "https://guidecatholic.com/blog/can-catholics-keep-ashes-at-home/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurLadyUndoerOfKnots() {
@@ -24,6 +24,13 @@ export default function OurLadyUndoerOfKnots() {
         title="Our Lady Undoer of Knots: History and complete Novena Guide"
         description="Discover the history of Our Lady Undoer of Knots, why Pope Francis loves this devotion, and how to pray the novena to untie the difficult knots in your life."
         url="https://guidecatholic.com/blog/our-lady-undoer-of-knots/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Our Lady Undoer of Knots", url: "https://guidecatholic.com/blog/our-lady-undoer-of-knots/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

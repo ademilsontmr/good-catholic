@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicGodparentRequirementsUsa() {
@@ -21,6 +21,13 @@ export default function CatholicGodparentRequirementsUsa() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Catholic Godparent Requirements in the USA: Rules & Qualifications" description="Catholic godparent requirements in the USA — age, Confirmation, marriage status, and how many godparents are allowed." url="https://guidecatholic.com/blog/catholic-godparent-requirements-usa/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Godparent Requirements in th...", url: "https://guidecatholic.com/blog/catholic-godparent-requirements-usa/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

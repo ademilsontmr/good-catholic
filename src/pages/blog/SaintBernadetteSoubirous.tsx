@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintBernadetteSoubirous() {
@@ -24,6 +24,13 @@ export default function SaintBernadetteSoubirous() {
         title="Saint Bernadette Soubirous: The Visionary of Lourdes"
         description="Discover Saint Bernadette Soubirous — the young French girl who saw Our Lady 18 times at Lourdes in 1858, whose body remains incorrupt to this day."
         url="https://guidecatholic.com/blog/saint-bernadette-soubirous/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Bernadette Soubirous", url: "https://guidecatholic.com/blog/saint-bernadette-soubirous/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

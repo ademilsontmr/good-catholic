@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PopeRoleInChurch() {
@@ -25,6 +25,13 @@ export default function PopeRoleInChurch() {
           description="Learn about the Pope's role in the Catholic Church — Peter as the first pope, apostolic succession, the three offices, papal infallibility (what it is and isn't), and how Catholics should relate to the Pope."
           url="https://guidecatholic.com/blog/what-is-the-popes-role-catholic-church/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Pope's Role in the Church", url: "https://guidecatholic.com/blog/what-is-the-popes-role-catholic-church/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

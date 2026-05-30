@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToPrayForSomeone() {
@@ -24,6 +24,13 @@ export default function HowToPrayForSomeone() {
         title="How to Pray for Someone: Catholic Intercessory Prayer Guide"
         description="How do you pray for someone effectively? A complete Catholic guide to intercessory prayer — for the sick, the lost, enemies, and those you love most."
         url="https://guidecatholic.com/blog/how-to-pray-for-someone-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Pray for Someone", url: "https://guidecatholic.com/blog/how-to-pray-for-someone-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

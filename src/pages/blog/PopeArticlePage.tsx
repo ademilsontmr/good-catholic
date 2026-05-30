@@ -6,7 +6,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { POPE_ARTICLES_BY_SLUG } from "@/data/popeArticles";
@@ -38,6 +38,14 @@ export default function PopeArticlePage() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title={article.title} description={article.metaDescription} url={canonical} datePublished="2026-06-03" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "List of Popes", url: "https://guidecatholic.com/blog/list-of-all-popes-catholic-complete-guide/" },
+          { name: displayName, url: canonical },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

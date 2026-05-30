@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EucharisticAdorationNearMe() {
@@ -24,6 +24,13 @@ export default function EucharisticAdorationNearMe() {
         title="Eucharistic Adoration Near Me: How to Find a Holy Hour"
         description="Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit."
         url="https://guidecatholic.com/blog/eucharistic-adoration-near-me/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Eucharistic Adoration Near Me", url: "https://guidecatholic.com/blog/eucharistic-adoration-near-me/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

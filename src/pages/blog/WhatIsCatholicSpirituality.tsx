@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsCatholicSpirituality() {
@@ -24,6 +24,13 @@ export default function WhatIsCatholicSpirituality() {
         title="What Is Catholic Spirituality? A Guide to the Different Schools and Traditions"
         description="Catholic spirituality is not one-size-fits-all. Discover the great spiritual traditions — Benedictine, Franciscan, Dominican, Ignatian, Carmelite — and find the one that fits your soul."
         url="https://guidecatholic.com/blog/what-is-catholic-spirituality/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Catholic Spirituality", url: "https://guidecatholic.com/blog/what-is-catholic-spirituality/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

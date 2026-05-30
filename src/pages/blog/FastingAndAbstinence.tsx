@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FastingAndAbstinence() {
@@ -24,6 +24,13 @@ export default function FastingAndAbstinence() {
           description="Learn about the practices of fasting and abstinence in the Catholic Church. Discover when and how to fast correctly to grow in spiritual life."
           url="https://guidecatholic.com/blog/fasting-abstinence/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Fasting and Abstinence", url: "https://guidecatholic.com/blog/fasting-abstinence/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

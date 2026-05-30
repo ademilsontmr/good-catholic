@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheCatholicChurch() {
@@ -24,6 +24,13 @@ export default function WhatIsTheCatholicChurch() {
         title="What Is the Catholic Church? History, Structure & Mission"
         description="What is the Catholic Church? A complete guide to its founding by Jesus Christ, 2,000-year history, structure, the Pope, sacraments, and global mission."
         url="https://guidecatholic.com/blog/what-is-the-catholic-church/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is the Catholic Church?", url: "https://guidecatholic.com/blog/what-is-the-catholic-church/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnDeath() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnDeath() {
         title="Catholic Teaching on Death: What Happens When We Die?"
         description="What does the Catholic Church teach about death? The Four Last Things, the Particular Judgment, the resurrection of the body, and how to prepare for a holy death."
         url="https://guidecatholic.com/blog/catholic-teaching-on-death/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Death", url: "https://guidecatholic.com/blog/catholic-teaching-on-death/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

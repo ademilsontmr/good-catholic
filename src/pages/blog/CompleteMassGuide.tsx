@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompleteMassGuide() {
@@ -24,6 +24,13 @@ export default function CompleteMassGuide() {
         title="The Complete Guide to the Catholic Mass: Every Part Explained"
         description="The most comprehensive guide to the Catholic Mass — every part explained from the Introductory Rites to the Dismissal, with full prayer texts, posture guide, and tips for active participation."
         url="https://guidecatholic.com/blog/complete-guide-to-the-catholic-mass/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Guide to the Catholic Mass", url: "https://guidecatholic.com/blog/complete-guide-to-the-catholic-mass/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

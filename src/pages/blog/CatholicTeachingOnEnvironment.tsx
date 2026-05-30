@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnEnvironment() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnEnvironment() {
         title="Catholic Teaching on the Environment: Laudato Si' and Care for Creation"
         description="What does the Catholic Church teach about the environment? Explore Laudato Si', the biblical basis for ecological stewardship, and practical Catholic responses."
         url="https://guidecatholic.com/blog/catholic-teaching-on-environment/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on the Environment", url: "https://guidecatholic.com/blog/catholic-teaching-on-environment/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

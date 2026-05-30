@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicChurchNearMe() {
@@ -24,6 +24,13 @@ export default function CatholicChurchNearMe() {
         title="How to Find a Catholic Church Near You: A Complete Guide for Americans"
         description="There are over 17,000 Catholic parishes in the US. Here's how to find the right one — parish finders, what to look for, Latin Mass locations, Eastern Catholic churches, and how to register."
         url="https://guidecatholic.com/blog/how-to-find-catholic-church-near-me/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Find a Catholic Church Near Me", url: "https://guidecatholic.com/blog/how-to-find-catholic-church-near-me/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

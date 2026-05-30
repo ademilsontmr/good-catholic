@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AdventPrayers() {
@@ -24,6 +24,13 @@ export default function AdventPrayers() {
         title="Advent Prayers 2026: Catholic Prayers for Each Week of Advent"
         description="Beautiful Catholic prayers for Advent 2026 — prayers for each week, the O Antiphons, the Advent wreath blessing, and how to prepare your heart for Christmas."
         url="https://guidecatholic.com/blog/advent-prayers/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Advent Prayers", url: "https://guidecatholic.com/blog/advent-prayers/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

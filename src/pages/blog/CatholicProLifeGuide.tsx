@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicProLifeGuide() {
@@ -24,6 +24,13 @@ export default function CatholicProLifeGuide() {
         title="Catholic Pro-Life Guide: What the Church Teaches About the Sanctity of Life"
         description="The complete Catholic pro-life guide — what the Church teaches about abortion, euthanasia, capital punishment, and the consistent ethic of life from conception to natural death."
         url="https://guidecatholic.com/blog/catholic-pro-life-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Pro-Life Guide", url: "https://guidecatholic.com/blog/catholic-pro-life-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

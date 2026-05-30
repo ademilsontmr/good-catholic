@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintThereseOfLisieux() {
@@ -25,6 +25,13 @@ export default function SaintThereseOfLisieux() {
           description="Discover the life of St. Thérèse of Lisieux — her Little Way of spiritual childhood, her autobiography Story of a Soul, her death at 24, and her promise to spend her heaven doing good on earth."
           url="https://guidecatholic.com/blog/saint-therese-of-lisieux/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Thérèse of Lisieux", url: "https://guidecatholic.com/blog/saint-therese-of-lisieux/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

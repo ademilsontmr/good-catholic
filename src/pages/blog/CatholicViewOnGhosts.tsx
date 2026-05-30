@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicViewOnGhosts() {
@@ -24,6 +24,13 @@ export default function CatholicViewOnGhosts() {
         title="Do Catholics Believe in Ghosts? What the Church Teaches"
         description="Do Catholics believe in ghosts? Church teaching on souls in purgatory, demonic deception, haunted houses, and how to protect your home — explained clearly."
         url="https://guidecatholic.com/blog/catholic-view-on-ghosts/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic View on Ghosts", url: "https://guidecatholic.com/blog/catholic-view-on-ghosts/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

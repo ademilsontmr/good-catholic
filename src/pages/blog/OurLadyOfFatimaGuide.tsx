@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurLadyOfFatimaGuide() {
@@ -25,6 +25,13 @@ export default function OurLadyOfFatimaGuide() {
           description="Discover the complete story of Fatima apparitions, the three secrets, the miracle of the sun, and why these messages matter for Catholics today. Learn about Lucia, Francisco, and Jacinta."
           url="https://guidecatholic.com/blog/our-lady-of-fatima-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Our Lady of Fatima Guide", url: "https://guidecatholic.com/blog/our-lady-of-fatima-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

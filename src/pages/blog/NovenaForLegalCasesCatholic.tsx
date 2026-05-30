@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NovenaForLegalCasesCatholic() {
@@ -21,6 +21,13 @@ export default function NovenaForLegalCasesCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Novena for Legal Cases: 9-Day Prayer for Court & Justice" description="Novena for legal cases — 9-day Catholic prayer for court hearings, lawsuits, custody battles, and just outcomes. Full prayer text and guide." url="https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Novena for Legal Cases", url: "https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

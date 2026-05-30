@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicGraceBeforeMeals() {
@@ -25,6 +25,13 @@ export default function CatholicGraceBeforeMeals() {
           description="Learn the traditional Catholic grace before meals — 'Bless us, O Lord' — plus other versions, the theology of blessing food, grace after meals, and tips for family mealtime prayer."
           url="https://guidecatholic.com/blog/catholic-grace-before-meals/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Grace Before Meals", url: "https://guidecatholic.com/blog/catholic-grace-before-meals/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

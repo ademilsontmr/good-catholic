@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompleteDiscernmentGuide() {
@@ -24,6 +24,13 @@ export default function CompleteDiscernmentGuide() {
         title="The Complete Guide to Discernment: How to Know God's Will for Your Life"
         description="The complete Catholic guide to discernment — the Ignatian method, consolation vs. desolation, a 6-step process for major decisions, signs of God's will, and how to discern your vocation."
         url="https://guidecatholic.com/blog/complete-guide-to-discernment/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Guide to Discernment", url: "https://guidecatholic.com/blog/complete-guide-to-discernment/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnCharity() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnCharity() {
         title="What Is Charity? The Greatest of the Three Theological Virtues"
         description="Charity is the greatest of the theological virtues — the love of God and neighbor that is the form of all virtues. Learn what it is, how it grows, and how the saints lived it."
         url="https://guidecatholic.com/blog/what-is-charity-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Charity? Catholic Teaching", url: "https://guidecatholic.com/blog/what-is-charity-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

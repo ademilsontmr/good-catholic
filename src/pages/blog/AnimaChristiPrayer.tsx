@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AnimaChristiPrayer() {
@@ -25,6 +25,13 @@ export default function AnimaChristiPrayer() {
         description="The Anima Christi (Soul of Christ) prayer with full Catholic text in English and Latin, what each line means, and when to pray it before Communion or after Confession."
         url="https://guidecatholic.com/blog/anima-christi-prayer/"
         datePublished="2026-05-30"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Anima Christi", url: "https://guidecatholic.com/blog/anima-christi-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

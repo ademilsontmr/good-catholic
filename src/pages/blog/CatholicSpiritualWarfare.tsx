@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicSpiritualWarfare() {
@@ -24,6 +24,13 @@ export default function CatholicSpiritualWarfare() {
         title="Spiritual Warfare: The Catholic Guide to Fighting Evil and Temptation"
         description="Spiritual warfare is real. Learn the Catholic teaching on the battle for the soul — the three enemies, the Armor of God, the Prayer to Saint Michael, and a daily spiritual warfare routine."
         url="https://guidecatholic.com/blog/spiritual-warfare-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Spiritual Warfare", url: "https://guidecatholic.com/blog/spiritual-warfare-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

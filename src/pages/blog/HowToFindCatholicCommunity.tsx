@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToFindCatholicCommunity() {
@@ -24,6 +24,13 @@ export default function HowToFindCatholicCommunity() {
         title="How to Find a Catholic Community: A Guide to Parish Life"
         description="Learn how to find a welcoming Catholic community, choose the right parish, get involved in parish life, and build lasting friendships rooted in faith."
         url="https://guidecatholic.com/blog/how-to-find-catholic-community/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Find a Catholic Community", url: "https://guidecatholic.com/blog/how-to-find-catholic-community/" },
+        ]}
       />
       <HowToSchema
         name="How to Find a Catholic Community"

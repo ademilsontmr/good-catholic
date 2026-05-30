@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicConfessionGuide() {
@@ -24,6 +24,13 @@ export default function CatholicConfessionGuide() {
         title="Catholic Confession Guide: What It Is, Why It Matters & Common Questions"
         description="Complete Catholic Confession guide — what the Sacrament of Reconciliation is, its biblical basis, what happens, common fears, and why regular Confession transforms your life."
         url="https://guidecatholic.com/blog/catholic-confession-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Confession Guide", url: "https://guidecatholic.com/blog/catholic-confession-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

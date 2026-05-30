@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SpiritualWorksOfMercyCatholic() {
@@ -21,6 +21,13 @@ export default function SpiritualWorksOfMercyCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Spiritual Works of Mercy: Full Catholic List & Examples" description="The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. Catholic guide with U.S. examples." url="https://guidecatholic.com/blog/spiritual-works-of-mercy-catholic/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Spiritual Works of Mercy", url: "https://guidecatholic.com/blog/spiritual-works-of-mercy-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

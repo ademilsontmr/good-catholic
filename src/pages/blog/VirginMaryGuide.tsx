@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function VirginMaryGuide() {
@@ -24,6 +24,13 @@ export default function VirginMaryGuide() {
         title="The Virgin Mary: Mother of God, Apparitions, Prayers & Catholic Devotion"
         description="Complete Catholic guide to the Virgin Mary — her role in salvation history, the four Marian dogmas, major apparitions, the Rosary, and how to grow in Marian devotion."
         url="https://guidecatholic.com/blog/virgin-mary-complete-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Virgin Mary", url: "https://guidecatholic.com/blog/virgin-mary-complete-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnContraception() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnContraception() {
         title="Catholic Teaching on Contraception: Humanae Vitae Explained"
         description="What does the Catholic Church teach about contraception? A complete explanation of Humanae Vitae (1968), the Catechism (CCC 2370), and why the Church upholds this teaching."
         url="https://guidecatholic.com/blog/catholic-teaching-on-contraception/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Contraception", url: "https://guidecatholic.com/blog/catholic-teaching-on-contraception/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

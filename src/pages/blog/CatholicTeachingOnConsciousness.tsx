@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnConsciousness() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnConsciousness() {
         title="What Is Conscience? The Catholic Teaching on Moral Conscience"
         description="What does 'follow your conscience' really mean in Catholic teaching? Learn what conscience is, why it must be formed, and how to develop a well-formed Catholic conscience."
         url="https://guidecatholic.com/blog/what-is-conscience-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Conscience? Catholic Teaching", url: "https://guidecatholic.com/blog/what-is-conscience-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

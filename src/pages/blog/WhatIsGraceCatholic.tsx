@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsGraceCatholic() {
@@ -24,6 +24,13 @@ export default function WhatIsGraceCatholic() {
         title="What Is Grace? The Catholic Teaching on God's Gift of Salvation"
         description="What is grace? Learn the Catholic teaching on sanctifying grace, actual grace, and how God's free gift transforms the soul and makes salvation possible."
         url="https://guidecatholic.com/blog/what-is-grace-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Grace?", url: "https://guidecatholic.com/blog/what-is-grace-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

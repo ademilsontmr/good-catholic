@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function BrownScapularGuide() {
@@ -24,6 +24,13 @@ export default function BrownScapularGuide() {
         title="The Brown Scapular: A Complete Guide to the Garment of Grace"
         description="What is the Brown Scapular? Learn about the apparition to St. Simon Stock, the Sabbatine Privilege, and the requirements to wear this powerful Catholic sacramental."
         url="https://guidecatholic.com/blog/brown-scapular-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Brown Scapular Guide", url: "https://guidecatholic.com/blog/brown-scapular-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

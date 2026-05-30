@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintIgnatiusOfLoyola() {
@@ -24,6 +24,13 @@ export default function SaintIgnatiusOfLoyola() {
         title="Saint Ignatius of Loyola: Founder of the Jesuits & Spiritual Exercises"
         description="Discover Saint Ignatius of Loyola — the soldier-turned-mystic who founded the Jesuits and wrote the Spiritual Exercises, one of the most influential books in Christian history."
         url="https://guidecatholic.com/blog/saint-ignatius-of-loyola/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Ignatius of Loyola", url: "https://guidecatholic.com/blog/saint-ignatius-of-loyola/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

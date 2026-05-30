@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SacredHeartPromises() {
@@ -24,6 +24,13 @@ export default function SacredHeartPromises() {
         title="The 12 Promises of the Sacred Heart of Jesus: A Guide to Divine Mercy"
         description="Discover the 12 promises given by Jesus to St. Margaret Mary Alacoque for those who honor His Sacred Heart. Learn how to live this profound devotion."
         url="https://guidecatholic.com/blog/sacred-heart-promises/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Sacred Heart Promises", url: "https://guidecatholic.com/blog/sacred-heart-promises/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

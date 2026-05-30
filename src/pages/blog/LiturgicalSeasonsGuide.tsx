@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LiturgicalSeasonsGuide() {
@@ -25,6 +25,13 @@ export default function LiturgicalSeasonsGuide() {
           description="Master the Catholic liturgical calendar. Learn the meaning, colors, and traditions of Advent, Christmas, Lent, Easter, and Ordinary Time. Complete guide to living the liturgical year."
           url="https://guidecatholic.com/blog/liturgical-seasons-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Liturgical Seasons Guide", url: "https://guidecatholic.com/blog/liturgical-seasons-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

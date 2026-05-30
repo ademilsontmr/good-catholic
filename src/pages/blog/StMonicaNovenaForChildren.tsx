@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StMonicaNovenaForChildren() {
@@ -21,6 +21,13 @@ export default function StMonicaNovenaForChildren() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Monica Novena for Children: 9-Day Prayer for Conversion & Return" description="St. Monica Novena for children — 9-day Catholic prayer for wayward sons and daughters, conversion, and return to the faith. Full text for parents in the USA." url="https://guidecatholic.com/blog/st-monica-novena-for-children/" datePublished="2026-06-01" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Monica Novena for Children", url: "https://guidecatholic.com/blog/st-monica-novena-for-children/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

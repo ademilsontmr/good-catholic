@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerLife() {
@@ -24,6 +24,13 @@ export default function PrayerLife() {
           description="Discover how to develop a deep and constant prayer life. Practical and spiritual tips to strengthen your friendship with God daily."
           url="https://guidecatholic.com/blog/prayer-life/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Life of Prayer", url: "https://guidecatholic.com/blog/prayer-life/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompleteFastingGuide() {
@@ -24,6 +24,13 @@ export default function CompleteFastingGuide() {
         title="The Complete Catholic Fasting Guide: Rules, Methods & Spiritual Benefits"
         description="Everything about Catholic fasting — the Church's rules, types of fasting, how to fast well, the spiritual benefits, and a complete fasting checklist for Lent, Advent, and year-round."
         url="https://guidecatholic.com/blog/complete-catholic-fasting-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Catholic Fasting Guide", url: "https://guidecatholic.com/blog/complete-catholic-fasting-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

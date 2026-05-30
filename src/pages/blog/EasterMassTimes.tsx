@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EasterMassTimes() {
@@ -24,6 +24,13 @@ export default function EasterMassTimes() {
         title="Easter Mass Times 2026: How to Find Mass Near You for Easter Sunday"
         description="How to find Easter Mass times 2026 near you — Easter Sunday is April 5, 2026. Best tools to find Mass, what to expect at Easter Vigil, and how to prepare for Easter."
         url="https://guidecatholic.com/blog/easter-mass-times-2026/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Easter Mass Times 2026", url: "https://guidecatholic.com/blog/easter-mass-times-2026/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

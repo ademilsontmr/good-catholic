@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerForJobAndWork() {
@@ -24,6 +24,13 @@ export default function PrayerForJobAndWork() {
         title="Catholic Prayers for Work and Employment: Finding a Job & Blessing Your Work"
         description="Powerful Catholic prayers for work and employment — for finding a job, blessing your work, and honoring the dignity of labor as taught by the Church."
         url="https://guidecatholic.com/blog/catholic-prayer-for-job-and-work/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Prayers for Work and Employment", url: "https://guidecatholic.com/blog/catholic-prayer-for-job-and-work/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

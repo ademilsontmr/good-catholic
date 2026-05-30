@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LiturgyOfTheHoursGuide() {
@@ -25,6 +25,13 @@ export default function LiturgyOfTheHoursGuide() {
           description="Learn how to pray the Liturgy of the Hours (Divine Office) as a lay Catholic. Complete guide to morning prayer, evening prayer, compline, and integrating this ancient prayer into daily life."
           url="https://guidecatholic.com/blog/liturgy-of-the-hours-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Liturgy of the Hours Guide", url: "https://guidecatholic.com/blog/liturgy-of-the-hours-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

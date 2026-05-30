@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhyMenReturnToCatholicChurch() {
@@ -24,6 +24,13 @@ export default function WhyMenReturnToCatholicChurch() {
         title="Why Young Men Are Returning to the Catholic Church"
         description="Young men are leading the Catholic revival of 2025–2026. Why are they drawn to the Church? The crisis of masculinity, the saints as models, the Traditional Latin Mass, and the call to heroism."
         url="https://guidecatholic.com/blog/why-young-men-return-to-catholic-church/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Why Young Men Return to the Catholic Church", url: "https://guidecatholic.com/blog/why-young-men-return-to-catholic-church/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

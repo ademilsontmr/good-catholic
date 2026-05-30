@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToChooseConfirmationName() {
@@ -24,6 +24,13 @@ export default function HowToChooseConfirmationName() {
         title="How to Choose a Confirmation Name: A Complete Catholic Guide"
         description="Learn how to choose a Catholic Confirmation name. Discover what a Confirmation name means, how to research saints, and how to make this important spiritual decision."
         url="https://guidecatholic.com/blog/how-to-choose-confirmation-name/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Choose a Confirmation Name", url: "https://guidecatholic.com/blog/how-to-choose-confirmation-name/" },
+        ]}
       />
       <HowToSchema
         name="How to Choose a Confirmation Name"

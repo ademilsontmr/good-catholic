@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StJudeNovenaGuide() {
@@ -24,6 +24,13 @@ export default function StJudeNovenaGuide() {
         title="St. Jude Novena Guide: How to Pray the 9-Day Prayer for Impossible Cases"
         description="A complete guide to the St. Jude Novena — who Saint Jude is, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online."
         url="https://guidecatholic.com/blog/st-jude-novena-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Jude Novena Guide", url: "https://guidecatholic.com/blog/st-jude-novena-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

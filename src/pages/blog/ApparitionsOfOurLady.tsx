@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ApparitionsOfOurLady() {
@@ -24,6 +24,13 @@ export default function ApparitionsOfOurLady() {
         title="Marian Apparitions: Fatima, Lourdes & Guadalupe Guide"
         description="Approved Marian apparitions of Our Lady — Guadalupe (1531), Lourdes (1858), and Fatima (1917). History, messages, miracles, and how Catholics respond."
         url="https://guidecatholic.com/blog/apparitions-of-our-lady/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Apparitions of Our Lady", url: "https://guidecatholic.com/blog/apparitions-of-our-lady/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

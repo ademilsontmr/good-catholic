@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerBeforeMealsCatholic() {
@@ -24,6 +24,13 @@ export default function PrayerBeforeMealsCatholic() {
         title="Catholic Prayer Before Meals: Grace Before and After Eating"
         description="Learn the traditional Catholic grace before meals, prayers after eating, family meal prayers, and the spiritual meaning of blessing food. Full texts included."
         url="https://guidecatholic.com/blog/prayer-before-meals-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Prayer Before Meals", url: "https://guidecatholic.com/blog/prayer-before-meals-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

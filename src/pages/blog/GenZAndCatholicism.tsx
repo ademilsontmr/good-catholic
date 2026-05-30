@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GenZAndCatholicism() {
@@ -24,6 +24,13 @@ export default function GenZAndCatholicism() {
         title="Why Catholicism Is Drawing Gen Z (Young People Returning)"
         description="Why is Catholicism drawing Gen Z men and women back to the Church? Data, reasons behind the revival, and what it means for young Catholics today."
         url="https://guidecatholic.com/blog/gen-z-and-catholicism/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Gen Z and Catholicism", url: "https://guidecatholic.com/blog/gen-z-and-catholicism/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

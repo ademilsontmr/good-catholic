@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsPentecost() {
@@ -24,6 +24,13 @@ export default function WhatIsPentecost() {
         title="What Is Pentecost? The Catholic Feast of the Holy Spirit Explained"
         description="What is Pentecost? Learn about the Catholic feast that celebrates the descent of the Holy Spirit — its biblical origins, its meaning, how Catholics celebrate it, and Pentecost 2026."
         url="https://guidecatholic.com/blog/what-is-pentecost-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Pentecost", url: "https://guidecatholic.com/blog/what-is-pentecost-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

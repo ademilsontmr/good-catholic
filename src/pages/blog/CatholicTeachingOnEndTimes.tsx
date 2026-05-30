@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnEndTimes() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnEndTimes() {
         title="Catholic Teaching on the End Times: What the Church Really Believes"
         description="What does the Catholic Church teach about the end times? The Second Coming, the Rapture (which Catholics don't believe in), the Book of Revelation, the Last Judgment, and how to live in hope."
         url="https://guidecatholic.com/blog/catholic-teaching-on-end-times/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on the End Times", url: "https://guidecatholic.com/blog/catholic-teaching-on-end-times/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

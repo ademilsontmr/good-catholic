@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function UndoerOfKnotsNovenaGuide() {
@@ -21,6 +21,13 @@ export default function UndoerOfKnotsNovenaGuide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Undoer of Knots Novena: 9-Day Prayer to Mary (Full Text & How to Pray)" description="Mary Undoer of Knots novena — 9-day Catholic prayer with full text. How to pray when life feels tangled: marriage, family, work, and impossible situations." url="https://guidecatholic.com/blog/undoer-of-knots-novena-guide/" datePublished="2026-06-01" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Undoer of Knots Novena", url: "https://guidecatholic.com/blog/undoer-of-knots-novena-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

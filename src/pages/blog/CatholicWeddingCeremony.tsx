@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicWeddingCeremony() {
@@ -26,6 +26,13 @@ export default function CatholicWeddingCeremony() {
         url="https://guidecatholic.com/blog/catholic-wedding-ceremony-guide/"
         datePublished="2026-04-20"
         dateModified="2026-04-20"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Wedding Ceremony", url: "https://guidecatholic.com/blog/catholic-wedding-ceremony-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

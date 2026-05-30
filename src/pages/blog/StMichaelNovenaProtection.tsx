@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StMichaelNovenaProtection() {
@@ -21,6 +21,13 @@ export default function StMichaelNovenaProtection() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Michael Novena for Protection: 9-Day Prayer (Full Text)" description="St. Michael Novena for protection — 9-day Catholic prayer against evil, danger, and spiritual attack. Full prayer text and step-by-step guide." url="https://guidecatholic.com/blog/st-michael-novena-protection/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Michael Novena for Protection", url: "https://guidecatholic.com/blog/st-michael-novena-protection/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

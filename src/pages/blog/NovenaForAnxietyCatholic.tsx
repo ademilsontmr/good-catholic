@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NovenaForAnxietyCatholic() {
@@ -21,6 +21,13 @@ export default function NovenaForAnxietyCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Novena for Anxiety: 9-Day Catholic Prayer for Peace & Calm" description="Novena for anxiety — 9-day Catholic prayer for peace, calm, and trust when worry overwhelms you. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-anxiety-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Novena for Anxiety", url: "https://guidecatholic.com/blog/novena-for-anxiety-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

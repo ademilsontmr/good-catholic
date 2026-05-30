@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function IsCatholicismChristian() {
@@ -24,6 +24,13 @@ export default function IsCatholicismChristian() {
         title="Is Catholicism Christian? The Clear Answer"
         description="Is Catholicism a form of Christianity? Yes — and here's why. A clear, honest answer to one of the most searched questions about the Catholic faith, with historical and biblical evidence."
         url="https://guidecatholic.com/blog/is-catholicism-christian/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Is Catholicism Christian?", url: "https://guidecatholic.com/blog/is-catholicism-christian/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

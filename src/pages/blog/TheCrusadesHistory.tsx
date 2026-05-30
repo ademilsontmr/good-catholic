@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TheCrusadesHistory() {
@@ -24,6 +24,13 @@ export default function TheCrusadesHistory() {
         title="The Crusades: Separating Catholic Fact from Fiction"
         description="Were the Crusades unprovoked wars of aggression? Explore the historical context, the defense of pilgrims, and the Catholic perspective on this controversial time."
         url="https://guidecatholic.com/blog/the-crusades-fact-vs-fiction/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Crusades", url: "https://guidecatholic.com/blog/the-crusades-fact-vs-fiction/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

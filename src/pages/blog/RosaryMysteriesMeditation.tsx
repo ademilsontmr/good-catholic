@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function RosaryMysteriesMeditation() {
@@ -25,6 +25,13 @@ export default function RosaryMysteriesMeditation() {
           description="Learn to meditate on all 20 Rosary mysteries. Discover the Joyful, Sorrowful, Glorious, and Luminous mysteries with reflections for deeper contemplation."
           url="https://guidecatholic.com/blog/rosary-mysteries-meditation/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Rosary Mysteries Meditation", url: "https://guidecatholic.com/blog/rosary-mysteries-meditation/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintAnthonyOfPadua() {
@@ -25,6 +25,13 @@ export default function SaintAnthonyOfPadua() {
           description="Discover the life of St. Anthony of Padua — his extraordinary preaching gifts, why he is patron of lost things, the Responsory Si quaeris miracula, his feast day June 13, and a prayer to St. Anthony."
           url="https://guidecatholic.com/blog/saint-anthony-of-padua/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Anthony of Padua", url: "https://guidecatholic.com/blog/saint-anthony-of-padua/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

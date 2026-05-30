@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicismAndEvolution() {
@@ -24,6 +24,13 @@ export default function CatholicismAndEvolution() {
         title="Catholicism and Evolution: Can You Believe in Both?"
         description="Does the Catholic Church accept evolutionary theory? Explore the official teaching of the Popes, the compatibility of science and Genesis, and the origin of the human soul."
         url="https://guidecatholic.com/blog/catholicism-and-evolution-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholicism & Evolution", url: "https://guidecatholic.com/blog/catholicism-and-evolution-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

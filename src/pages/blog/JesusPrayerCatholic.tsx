@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function JesusPrayerCatholic() {
@@ -24,6 +24,13 @@ export default function JesusPrayerCatholic() {
         title="Jesus Prayer: Text, Meaning & Catholic Use (Breath of the Heart)"
         description="The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner) with full text, meaning, and how Catholics may use it alongside the Rosary and lectio divina."
         url="https://guidecatholic.com/blog/jesus-prayer-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Jesus Prayer", url: "https://guidecatholic.com/blog/jesus-prayer-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

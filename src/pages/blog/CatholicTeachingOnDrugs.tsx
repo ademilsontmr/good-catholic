@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnDrugs() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnDrugs() {
         title="Catholic Teaching on Drugs: What the Church Says About Substance Abuse"
         description="What does the Catholic Church teach about drugs and substance abuse? Learn the distinction between medicinal use and sinful abuse, and the Catholic path to recovery."
         url="https://guidecatholic.com/blog/catholic-teaching-on-drugs/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Drugs", url: "https://guidecatholic.com/blog/catholic-teaching-on-drugs/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

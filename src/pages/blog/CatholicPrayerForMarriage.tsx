@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicPrayerForMarriage() {
@@ -24,6 +24,13 @@ export default function CatholicPrayerForMarriage() {
         title="Catholic Prayers for Marriage: For Your Spouse, Your Family & Troubled Marriages"
         description="Powerful Catholic prayers for marriage — for your spouse, for a troubled marriage, for a future spouse, and for the grace to live the sacrament of matrimony faithfully."
         url="https://guidecatholic.com/blog/catholic-prayer-for-marriage/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Prayers for Marriage", url: "https://guidecatholic.com/blog/catholic-prayer-for-marriage/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ChastityModernWorld() {
@@ -24,6 +24,13 @@ export default function ChastityModernWorld() {
           description="How to live chastity in the modern world — Catholic teaching on purity before marriage, in marriage, and practical steps for daily life."
           url="https://guidecatholic.com/blog/chastity-modern-world/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Chastity in the Modern World", url: "https://guidecatholic.com/blog/chastity-modern-world/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

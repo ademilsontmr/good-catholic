@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompleteEucharistGuide() {
@@ -24,6 +24,13 @@ export default function CompleteEucharistGuide() {
         title="The Complete Guide to the Eucharist: Real Presence, Adoration & Receiving Communion"
         description="Everything about the Eucharist — the Real Presence explained, how to receive Communion properly, a complete guide to Eucharistic adoration, Eucharistic miracles, and Spiritual Communion."
         url="https://guidecatholic.com/blog/complete-guide-to-the-eucharist/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Guide to the Eucharist", url: "https://guidecatholic.com/blog/complete-guide-to-the-eucharist/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ImmaculateConceptionGuide() {
@@ -24,6 +24,13 @@ export default function ImmaculateConceptionGuide() {
         title="The Immaculate Conception: What It Is, What It Means & Why Catholics Believe It"
         description="What is the Immaculate Conception? A complete Catholic guide — what the dogma teaches, its biblical basis, the 1854 definition, the Lourdes apparitions, and why it matters for every Catholic."
         url="https://guidecatholic.com/blog/immaculate-conception-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Immaculate Conception Guide", url: "https://guidecatholic.com/blog/immaculate-conception-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

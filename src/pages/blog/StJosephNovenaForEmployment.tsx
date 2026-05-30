@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StJosephNovenaForEmployment() {
@@ -21,6 +21,13 @@ export default function StJosephNovenaForEmployment() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Joseph Novena for Employment: 9-Day Prayer to Find a Job (Full Text)" description="St. Joseph Novena for employment and finding a job — 9-day Catholic prayer with full text, step-by-step guide, and when to pray for work and financial stability." url="https://guidecatholic.com/blog/st-joseph-novena-for-employment/" datePublished="2026-06-01" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Joseph Novena for Employment", url: "https://guidecatholic.com/blog/st-joseph-novena-for-employment/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

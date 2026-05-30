@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerToStJoseph() {
@@ -25,6 +25,13 @@ export default function PrayerToStJoseph() {
           description="Discover powerful prayers to St. Joseph for families, workers, and those in need. Learn about his role as patron saint and how to seek his intercession in your daily life."
           url="https://guidecatholic.com/blog/prayer-to-st-joseph/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Prayer to St. Joseph", url: "https://guidecatholic.com/blog/prayer-to-st-joseph/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

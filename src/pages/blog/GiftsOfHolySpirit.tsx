@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GiftsOfHolySpirit() {
@@ -24,6 +24,13 @@ export default function GiftsOfHolySpirit() {
           description="Learn about the seven gifts of the Holy Spirit and how they work in your life to guide you on the path of holiness and service to others."
           url="https://guidecatholic.com/blog/gifts-holy-spirit/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Gifts of the Holy Spirit", url: "https://guidecatholic.com/blog/gifts-holy-spirit/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

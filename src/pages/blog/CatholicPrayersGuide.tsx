@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicPrayersGuide() {
@@ -24,6 +24,13 @@ export default function CatholicPrayersGuide() {
         title="Catholic Prayers: The Complete Guide to Essential Catholic Prayers"
         description="The complete guide to essential Catholic prayers — the Our Father, Hail Mary, Glory Be, Apostles' Creed, Act of Contrition, Rosary, and more. Full texts and explanations."
         url="https://guidecatholic.com/blog/catholic-prayers-complete-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Prayers: Complete Guide", url: "https://guidecatholic.com/blog/catholic-prayers-complete-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

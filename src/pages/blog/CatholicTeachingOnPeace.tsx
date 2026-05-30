@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnPeace() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnPeace() {
         title="Catholic Teaching on Peace: What the Church Says About True Peace"
         description="What does the Catholic Church teach about peace? From Augustine's 'tranquility of order' to Pacem in Terris, discover the Catholic vision of inner and social peace."
         url="https://guidecatholic.com/blog/catholic-teaching-on-peace/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Peace", url: "https://guidecatholic.com/blog/catholic-teaching-on-peace/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

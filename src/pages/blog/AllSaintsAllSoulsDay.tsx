@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AllSaintsAllSoulsDay() {
@@ -24,6 +24,13 @@ export default function AllSaintsAllSoulsDay() {
         title="All Saints Day and All Souls Day: What Catholics Believe"
         description="Learn the Catholic meaning of All Saints Day (November 1) and All Souls Day (November 2). Discover how to honor the saints, pray for the dead, and understand Purgatory."
         url="https://guidecatholic.com/blog/all-saints-day-all-souls-day/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "All Saints Day and All Souls Day", url: "https://guidecatholic.com/blog/all-saints-day-all-souls-day/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

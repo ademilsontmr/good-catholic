@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicCremationRulesUsa() {
@@ -21,6 +21,13 @@ export default function CatholicCremationRulesUsa() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Catholic Cremation Rules in the USA: What the Church Allows" description="Catholic teaching on cremation in the United States — what is allowed, funeral Mass with cremated remains, burial requirements, and what the Church forbids." url="https://guidecatholic.com/blog/catholic-cremation-rules-usa/" datePublished="2026-05-31" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Cremation", url: "https://guidecatholic.com/blog/catholic-cremation-rules-usa/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

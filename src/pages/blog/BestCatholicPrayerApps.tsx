@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function BestCatholicPrayerApps() {
@@ -24,6 +24,13 @@ export default function BestCatholicPrayerApps() {
         title="Best Catholic Prayer Apps 2026: Hallow, Laudate &amp; More Reviewed"
         description="The best Catholic apps for 2026 — Hallow, Laudate, Universalis, Formed.org, and more. Honest reviews, pricing, and which app is right for your prayer life."
         url="https://guidecatholic.com/blog/best-catholic-prayer-apps-2026/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Best Catholic Prayer Apps 2026", url: "https://guidecatholic.com/blog/best-catholic-prayer-apps-2026/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

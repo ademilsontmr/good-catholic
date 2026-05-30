@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicInnerHealingGuide() {
@@ -25,6 +25,13 @@ export default function CatholicInnerHealingGuide() {
           description="Discover the Catholic approach to inner healing prayer. Learn how to heal emotional wounds, break generational curses, and find freedom through Christ's healing power."
           url="https://guidecatholic.com/blog/catholic-inner-healing-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Inner Healing Guide", url: "https://guidecatholic.com/blog/catholic-inner-healing-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

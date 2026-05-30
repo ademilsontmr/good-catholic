@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMichaelPrayer() {
@@ -24,6 +24,13 @@ export default function SaintMichaelPrayer() {
         title="The Prayer to Saint Michael: History, Full Text & How to Pray It"
         description="Learn the full text of the Prayer to Saint Michael, its history with Pope Leo XIII, why it was written, and how to use it for spiritual protection today."
         url="https://guidecatholic.com/blog/saint-michael-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Prayer to Saint Michael", url: "https://guidecatholic.com/blog/saint-michael-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

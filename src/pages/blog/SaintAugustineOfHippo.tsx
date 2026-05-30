@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintAugustineOfHippo() {
@@ -24,6 +24,13 @@ export default function SaintAugustineOfHippo() {
         title="Saint Augustine of Hippo: Life, Confessions & Legacy"
         description="Discover Saint Augustine of Hippo — his dramatic conversion, the Confessions, his theology of grace, and why he remains one of the greatest Doctors of the Church."
         url="https://guidecatholic.com/blog/saint-augustine-of-hippo/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Augustine of Hippo", url: "https://guidecatholic.com/blog/saint-augustine-of-hippo/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

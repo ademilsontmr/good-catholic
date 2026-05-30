@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToOvercomeSin() {
@@ -24,6 +24,13 @@ export default function HowToOvercomeSin() {
         title="How to Overcome Sin: A Catholic Guide to Breaking Bad Habits"
         description="How do Catholics overcome sin and break bad habits? A practical guide to the Catholic approach — confession, prayer, virtue, spiritual direction, and the sacraments as tools for conversion."
         url="https://guidecatholic.com/blog/how-to-overcome-sin-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Overcome Sin", url: "https://guidecatholic.com/blog/how-to-overcome-sin-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

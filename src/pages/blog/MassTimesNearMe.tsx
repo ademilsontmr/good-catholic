@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MassTimesNearMe() {
@@ -24,6 +24,13 @@ export default function MassTimesNearMe() {
         title="Mass Times Near Me: How to Find a Catholic Church & Mass Schedule"
         description="How to find Mass times near you — the best tools, apps, and websites to locate a Catholic church, check Mass schedules, and find confession times in your area."
         url="https://guidecatholic.com/blog/mass-times-near-me/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Mass Times Near Me", url: "https://guidecatholic.com/blog/mass-times-near-me/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

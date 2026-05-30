@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SacredHeartNovenaGuide() {
@@ -24,6 +24,13 @@ export default function SacredHeartNovenaGuide() {
         title="Sacred Heart Novena Guide: How to Pray the 9-Day Prayer to the Heart of Jesus"
         description="A complete guide to the Sacred Heart Novena — the 12 promises of Jesus, how to pray the 9-day novena step by step, the First Friday devotion, and where to pray it online."
         url="https://guidecatholic.com/blog/sacred-heart-novena-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Sacred Heart Novena Guide", url: "https://guidecatholic.com/blog/sacred-heart-novena-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

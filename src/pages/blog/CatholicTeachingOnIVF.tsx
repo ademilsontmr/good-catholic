@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnIVF() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnIVF() {
         title="Catholic Teaching on IVF: What the Church Says About In Vitro Fertilization"
         description="What does the Catholic Church teach about IVF (in vitro fertilization)? A clear explanation from the Catechism, Donum Vitae, and Dignitas Personae — and what alternatives the Church supports."
         url="https://guidecatholic.com/blog/catholic-teaching-on-ivf/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on IVF", url: "https://guidecatholic.com/blog/catholic-teaching-on-ivf/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

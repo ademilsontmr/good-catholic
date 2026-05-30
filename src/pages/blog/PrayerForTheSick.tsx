@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayerForTheSick() {
@@ -24,6 +24,13 @@ export default function PrayerForTheSick() {
         title="Catholic Prayers for the Sick: Healing, Comfort & Strength"
         description="The most powerful Catholic prayers for the sick — for healing, comfort, and strength. Prayers to St. Peregrine, St. Raphael, and for those suffering in body and soul."
         url="https://guidecatholic.com/blog/catholic-prayer-for-the-sick/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Prayers for the Sick", url: "https://guidecatholic.com/blog/catholic-prayer-for-the-sick/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

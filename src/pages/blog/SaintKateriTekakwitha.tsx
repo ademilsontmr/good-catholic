@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintKateriTekakwitha() {
@@ -24,6 +24,13 @@ export default function SaintKateriTekakwitha() {
         title="Saint Kateri Tekakwitha: The Lily of the Mohawks & First Native American Saint"
         description="Discover Saint Kateri Tekakwitha — the first Native American to be canonized. Her life, her faith, her miracles, and why she is beloved by Catholics across the United States."
         url="https://guidecatholic.com/blog/saint-kateri-tekakwitha/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Kateri Tekakwitha", url: "https://guidecatholic.com/blog/saint-kateri-tekakwitha/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

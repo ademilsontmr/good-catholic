@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicBibleVerses() {
@@ -24,6 +24,13 @@ export default function CatholicBibleVerses() {
         title="50 Most Important Catholic Bible Verses: Scripture for Every Occasion"
         description="The 50 most important Catholic Bible verses — for prayer, strength, comfort, faith, love, and the sacraments. Essential Scripture every Catholic should know by heart."
         url="https://guidecatholic.com/blog/catholic-bible-verses/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Bible Verses", url: "https://guidecatholic.com/blog/catholic-bible-verses/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

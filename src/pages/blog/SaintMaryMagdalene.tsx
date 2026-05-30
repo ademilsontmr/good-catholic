@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMaryMagdalene() {
@@ -24,6 +24,13 @@ export default function SaintMaryMagdalene() {
         title="Saint Mary Magdalene: Apostle to the Apostles & Witness to the Resurrection"
         description="Discover the real Mary Magdalene — not the prostitute of legend, but the first witness to the Risen Christ and the 'Apostle to the Apostles' honored by Pope Francis."
         url="https://guidecatholic.com/blog/saint-mary-magdalene/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Mary Magdalene", url: "https://guidecatholic.com/blog/saint-mary-magdalene/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

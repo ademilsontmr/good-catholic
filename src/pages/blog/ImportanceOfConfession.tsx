@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ImportanceOfConfession() {
@@ -24,6 +24,13 @@ export default function ImportanceOfConfession() {
           description="Discover the spiritual benefits of frequent confession. Learn how to confess well and why this sacrament transforms our Christian life."
           url="https://guidecatholic.com/blog/importance-confession/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Importance of Confession", url: "https://guidecatholic.com/blog/importance-confession/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

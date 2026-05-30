@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicBaptismPrep() {
@@ -24,6 +24,13 @@ export default function CatholicBaptismPrep() {
         title="Catholic Baptism Preparation: Complete Guide for Parents & Godparents"
         description="Everything parents and godparents need to know — when to baptize, godparent requirements, the ceremony explained step by step, baptism symbols, and how to raise a Catholic child."
         url="https://guidecatholic.com/blog/catholic-baptism-preparation-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Baptism Preparation", url: "https://guidecatholic.com/blog/catholic-baptism-preparation-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

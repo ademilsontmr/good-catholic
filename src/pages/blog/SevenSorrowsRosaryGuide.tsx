@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SevenSorrowsRosaryGuide() {
@@ -24,6 +24,13 @@ export default function SevenSorrowsRosaryGuide() {
         title="Seven Sorrows Rosary: How to Pray It, Mysteries and Promises"
         description="Complete Catholic guide to the Seven Sorrows Rosary (Servite Rosary): the seven sorrows of Mary, how to pray each group of seven Hail Marys, and the devotion's graces."
         url="https://guidecatholic.com/blog/seven-sorrows-rosary-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Seven Sorrows Rosary", url: "https://guidecatholic.com/blog/seven-sorrows-rosary-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

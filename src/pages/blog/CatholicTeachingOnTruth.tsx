@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnTruth() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnTruth() {
         title="What Is Truth? The Catholic Answer to Pilate's Question"
         description="What is truth? The Catholic Church teaches that truth is real, objective, and knowable — and that Jesus Christ is not just a teacher of truth but Truth itself."
         url="https://guidecatholic.com/blog/what-is-truth-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Truth? The Catholic Answer", url: "https://guidecatholic.com/blog/what-is-truth-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

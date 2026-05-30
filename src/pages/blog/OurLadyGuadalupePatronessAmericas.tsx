@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurLadyGuadalupePatronessAmericas() {
@@ -24,6 +24,13 @@ export default function OurLadyGuadalupePatronessAmericas() {
         title="Our Lady of Guadalupe: Patroness of the Americas — Complete Guide"
         description="Complete guide to Our Lady of Guadalupe — the 1531 apparitions to Juan Diego, the miraculous tilma, her role as Patroness of the Americas, and the feast day of December 12."
         url="https://guidecatholic.com/blog/our-lady-of-guadalupe-patroness-americas/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Our Lady of Guadalupe", url: "https://guidecatholic.com/blog/our-lady-of-guadalupe-patroness-americas/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

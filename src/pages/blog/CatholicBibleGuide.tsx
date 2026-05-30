@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicBibleGuide() {
@@ -24,6 +24,13 @@ export default function CatholicBibleGuide() {
         title="The Catholic Bible: Complete Guide — Books, Translations & How to Read It"
         description="Everything about the Catholic Bible — its 73 books, the deuterocanonical books, best translations (RSV-CE, NABRE, Douay-Rheims), and how to read it as a Catholic."
         url="https://guidecatholic.com/blog/catholic-bible-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Catholic Bible", url: "https://guidecatholic.com/blog/catholic-bible-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

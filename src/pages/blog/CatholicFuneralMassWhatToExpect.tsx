@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicFuneralMassWhatToExpect() {
@@ -21,6 +21,13 @@ export default function CatholicFuneralMassWhatToExpect() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Catholic Funeral Mass: What to Expect (Complete USA Guide)" description="Catholic funeral Mass explained — Vigil, Mass of Christian Burial, committal, etiquette, and what happens step by step." url="https://guidecatholic.com/blog/catholic-funeral-mass-what-to-expect/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Funeral Mass: What to Expect...", url: "https://guidecatholic.com/blog/catholic-funeral-mass-what-to-expect/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

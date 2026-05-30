@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintVincentDePaul() {
@@ -24,6 +24,13 @@ export default function SaintVincentDePaul() {
         title="Saint Vincent de Paul: Apostle of Charity and Patron of the Poor"
         description="Discover Saint Vincent de Paul — the 17th-century French priest who revolutionized Catholic charity. His life, the Vincentian family, the Society of St. Vincent de Paul, and his legacy."
         url="https://guidecatholic.com/blog/saint-vincent-de-paul/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Vincent de Paul", url: "https://guidecatholic.com/blog/saint-vincent-de-paul/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

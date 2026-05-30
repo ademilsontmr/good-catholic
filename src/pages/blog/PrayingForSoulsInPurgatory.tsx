@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PrayingForSoulsInPurgatory() {
@@ -24,6 +24,13 @@ export default function PrayingForSoulsInPurgatory() {
         title="Praying for the Holy Souls in Purgatory: A Complete Catholic Guide"
         description="Why do Catholics pray for the dead? Learn about the Holy Souls in Purgatory, the most powerful prayers and novenas for the departed, and how your prayers can help souls reach heaven."
         url="https://guidecatholic.com/blog/praying-for-souls-in-purgatory/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Praying for the Holy Souls in Purgatory", url: "https://guidecatholic.com/blog/praying-for-souls-in-purgatory/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

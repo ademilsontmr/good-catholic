@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { PopesTable } from "@/components/blog/PopesTable";
 import { TOTAL_POPES } from "@/data/catholicPopes";
@@ -27,6 +27,13 @@ export default function ListOfAllPopesCatholicGuide() {
         description="Complete list of all Catholic popes from St. Peter to Pope Leo XIV — 267 successors of Peter, historical eras, notable pontiffs, and searchable chronological table."
         url="https://guidecatholic.com/blog/list-of-all-popes-catholic-complete-guide/"
         datePublished="2026-06-03"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "List of All Popes", url: "https://guidecatholic.com/blog/list-of-all-popes-catholic-complete-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicMassOnline() {
@@ -24,6 +24,13 @@ export default function CatholicMassOnline() {
         title="Catholic Mass Online: Best Live Streams, EWTN & Does It Count?"
         description="Find the best Catholic Mass online — EWTN, Word on Fire, and parish live streams. Does watching Mass online fulfill the Sunday obligation? Everything you need to know."
         url="https://guidecatholic.com/blog/catholic-mass-online/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Mass Online", url: "https://guidecatholic.com/blog/catholic-mass-online/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

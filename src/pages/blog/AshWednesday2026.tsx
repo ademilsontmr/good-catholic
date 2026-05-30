@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function AshWednesday2026() {
@@ -24,6 +24,13 @@ export default function AshWednesday2026() {
         title="Ash Wednesday 2026: Date, Fasting Rules, Mass Times & What to Expect"
         description="Ash Wednesday 2026 falls on February 18. Everything you need to know — fasting and abstinence rules, what the ashes mean, Mass times, and how to begin Lent well."
         url="https://guidecatholic.com/blog/ash-wednesday-2026/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Ash Wednesday 2026", url: "https://guidecatholic.com/blog/ash-wednesday-2026/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

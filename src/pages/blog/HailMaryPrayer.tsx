@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HailMaryPrayer() {
@@ -24,6 +24,13 @@ export default function HailMaryPrayer() {
         title="Hail Mary Prayer: Full Text, Meaning and How to Pray"
         description="The Hail Mary prayer with full text, biblical meaning, history, and a simple guide for praying it with devotion in the Rosary and daily Catholic life."
         url="https://guidecatholic.com/blog/hail-mary-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Hail Mary Prayer", url: "https://guidecatholic.com/blog/hail-mary-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

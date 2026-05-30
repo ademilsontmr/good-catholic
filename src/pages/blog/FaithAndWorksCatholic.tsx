@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FaithAndWorksCatholic() {
@@ -24,6 +24,13 @@ export default function FaithAndWorksCatholic() {
         title="Faith and Works: What Catholics Believe About Salvation"
         description="Are Catholics saved by works? Learn the Catholic teaching on faith, works, and salvation — what James 2 really means, what Luther got right and wrong, and how grace and merit relate."
         url="https://guidecatholic.com/blog/faith-and-works-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Faith and Works", url: "https://guidecatholic.com/blog/faith-and-works-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatDoCatholicsBeliieve() {
@@ -24,6 +24,13 @@ export default function WhatDoCatholicsBeliieve() {
         title="What Do Catholics Believe? Core Beliefs Explained"
         description="What do Catholics believe? A clear, complete guide to the core beliefs of the Catholic Church — God, Jesus, salvation, Mary, the sacraments, the afterlife, and more."
         url="https://guidecatholic.com/blog/what-do-catholics-believe/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Do Catholics Believe?", url: "https://guidecatholic.com/blog/what-do-catholics-believe/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

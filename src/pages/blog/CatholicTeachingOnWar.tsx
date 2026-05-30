@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnWar() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnWar() {
         title="Catholic Teaching on War and Peace: The Just War Doctrine Explained"
         description="What does the Catholic Church teach about war? The Just War doctrine, its four conditions, nuclear weapons, conscientious objection, and the Church's peace-building mission."
         url="https://guidecatholic.com/blog/catholic-teaching-on-war-and-peace/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on War and Peace", url: "https://guidecatholic.com/blog/catholic-teaching-on-war-and-peace/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

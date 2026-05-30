@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function FaithMentalHealth() {
@@ -24,6 +24,13 @@ export default function FaithMentalHealth() {
           description="Discover how Catholic faith and prayer life can be powerful allies in combating anxiety and seeking emotional balance."
           url="https://guidecatholic.com/blog/faith-mental-health/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Faith and Mental Health", url: "https://guidecatholic.com/blog/faith-mental-health/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

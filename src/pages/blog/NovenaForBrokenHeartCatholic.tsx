@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function NovenaForBrokenHeartCatholic() {
@@ -21,6 +21,13 @@ export default function NovenaForBrokenHeartCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Novena for a Broken Heart: 9-Day Catholic Prayer After Breakup" description="Novena for a broken heart — 9-day Catholic prayer after breakup, divorce, or lost love. Full prayer text and step-by-step healing guide." url="https://guidecatholic.com/blog/novena-for-broken-heart-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Novena for a Broken Heart", url: "https://guidecatholic.com/blog/novena-for-broken-heart-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

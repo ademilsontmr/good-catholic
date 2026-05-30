@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsHolyOrders() {
@@ -24,6 +24,13 @@ export default function WhatIsHolyOrders() {
         title="What Is the Sacrament of Holy Orders? Priests, Deacons & Bishops Explained"
         description="What is the Sacrament of Holy Orders? Learn about the three degrees — bishop, priest, and deacon — the rite of ordination, and why priests are celibate."
         url="https://guidecatholic.com/blog/what-is-holy-orders-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Holy Orders Catholic", url: "https://guidecatholic.com/blog/what-is-holy-orders-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

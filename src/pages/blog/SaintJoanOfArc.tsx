@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJoanOfArc() {
@@ -24,6 +24,13 @@ export default function SaintJoanOfArc() {
         title="Saint Joan of Arc: The Maid of Orléans, Her Life, Trial & Legacy"
         description="Discover Saint Joan of Arc — the teenage peasant girl who led France to victory, was burned at the stake at 19, and was canonized 500 years later. Her life, voices, trial, and enduring legacy."
         url="https://guidecatholic.com/blog/saint-joan-of-arc/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Joan of Arc", url: "https://guidecatholic.com/blog/saint-joan-of-arc/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

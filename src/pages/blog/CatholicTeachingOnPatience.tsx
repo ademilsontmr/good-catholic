@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnPatience() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnPatience() {
         title="The Virtue of Patience: The Catholic Teaching on Bearing Suffering Well"
         description="Patience is one of the most needed and least cultivated virtues. Learn what patience really is, how it differs from passivity, and how to grow in it through Catholic teaching."
         url="https://guidecatholic.com/blog/virtue-of-patience-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Virtue of Patience", url: "https://guidecatholic.com/blog/virtue-of-patience-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicConversionsRising() {
@@ -24,6 +24,13 @@ export default function CatholicConversionsRising() {
         title="Catholic Conversions Are Rising: Why People Are Joining the Church in 2025–2026"
         description="Catholic conversions are at a 20-year high. Why are so many people — especially young adults — choosing to become Catholic? The stories, the data, and the reasons behind the revival."
         url="https://guidecatholic.com/blog/catholic-conversions-rising/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Conversions Rising", url: "https://guidecatholic.com/blog/catholic-conversions-rising/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

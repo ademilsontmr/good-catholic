@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheCatechism() {
@@ -24,6 +24,13 @@ export default function WhatIsTheCatechism() {
         title="What Is the Catechism of the Catholic Church? Complete Guide"
         description="Learn what the Catechism of the Catholic Church is, how it is organized, and how to use it. A complete guide to the CCC for Catholics and those curious about the faith."
         url="https://guidecatholic.com/blog/what-is-the-catechism-of-the-catholic-church/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is the Catechism of the Catholic Church?", url: "https://guidecatholic.com/blog/what-is-the-catechism-of-the-catholic-church/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

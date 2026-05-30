@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StJosephBuyingHouseGuide() {
@@ -24,6 +24,13 @@ export default function StJosephBuyingHouseGuide() {
         title="Novena to Saint Joseph for Buying a House: A Catholic Prayer Guide"
         description="A complete Catholic guide to praying to Saint Joseph for help buying or selling a home — the tradition of burying the statue, how to pray the novena, and how to bless your new home."
         url="https://guidecatholic.com/blog/st-joseph-novena-buying-house-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Joseph Novena for Buying a House", url: "https://guidecatholic.com/blog/st-joseph-novena-buying-house-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

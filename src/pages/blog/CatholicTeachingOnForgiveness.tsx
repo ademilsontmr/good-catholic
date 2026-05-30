@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnForgiveness() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnForgiveness() {
         title="Catholic Teaching on Forgiveness: How to Forgive as God Forgives"
         description="Forgiveness is one of the hardest and most essential teachings of Christianity. Learn what the Church teaches, what forgiveness really means, and how to forgive even the deepest wounds."
         url="https://guidecatholic.com/blog/catholic-teaching-on-forgiveness/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Forgiveness", url: "https://guidecatholic.com/blog/catholic-teaching-on-forgiveness/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

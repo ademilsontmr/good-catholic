@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CorpusChristiFeastGuideCatholic() {
@@ -21,6 +21,13 @@ export default function CorpusChristiFeastGuideCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Corpus Christi: Catholic Feast Day Guide (Meaning, Mass & Processions)" description="Corpus Christi feast day guide — Real Presence, Mass, Eucharistic processions, and how U.S. Catholics celebrate." url="https://guidecatholic.com/blog/corpus-christi-feast-guide-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Corpus Christi", url: "https://guidecatholic.com/blog/corpus-christi-feast-guide-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

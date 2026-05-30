@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ReasonsToBecomeCatholic() {
@@ -24,6 +24,13 @@ export default function ReasonsToBecomeCatholic() {
         title="10 Reasons to Become Catholic: Why People Are Joining the Church"
         description="Why are so many people becoming Catholic? 10 compelling reasons — from the Eucharist to the intellectual tradition to the Communion of Saints — that draw people to the Catholic Church."
         url="https://guidecatholic.com/blog/reasons-to-become-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Reasons to Become Catholic", url: "https://guidecatholic.com/blog/reasons-to-become-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

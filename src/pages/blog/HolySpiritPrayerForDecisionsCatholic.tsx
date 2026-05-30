@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HolySpiritPrayerForDecisionsCatholic() {
@@ -21,6 +21,13 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Holy Spirit Prayer for Decisions: Full Text & When to Pray It" description="Holy Spirit prayer for decisions — full Catholic text for discernment, big choices, and guidance." url="https://guidecatholic.com/blog/holy-spirit-prayer-for-decisions-catholic/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Holy Spirit Prayer for Decisions", url: "https://guidecatholic.com/blog/holy-spirit-prayer-for-decisions-catholic/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

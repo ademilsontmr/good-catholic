@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnAngels() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnAngels() {
         title="Catholic Teaching on Angels: What the Church Really Believes"
         description="What does the Catholic Church really teach about angels? Guardian angels, archangels, the fall of Lucifer, and how Catholics relate to these spiritual beings."
         url="https://guidecatholic.com/blog/catholic-teaching-on-angels/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Angels", url: "https://guidecatholic.com/blog/catholic-teaching-on-angels/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

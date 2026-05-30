@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StPadrePioNovenaHealing() {
@@ -21,6 +21,13 @@ export default function StPadrePioNovenaHealing() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Padre Pio Novena for Healing: 9-Day Prayer (Full Text)" description="St. Padre Pio Novena for healing — 9-day Catholic prayer with full text. Physical and spiritual healing through the intercession of Padre Pio." url="https://guidecatholic.com/blog/st-padre-pio-novena-healing/" datePublished="2026-06-01" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Padre Pio Novena for Healing", url: "https://guidecatholic.com/blog/st-padre-pio-novena-healing/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

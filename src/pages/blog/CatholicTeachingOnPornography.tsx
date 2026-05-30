@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnPornography() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnPornography() {
         title="Catholic Teaching on Pornography: Why It's Harmful & How to Break Free"
         description="What does the Catholic Church teach about pornography? Learn why it is sinful, how it harms the soul and relationships, and the Catholic path to freedom and healing."
         url="https://guidecatholic.com/blog/catholic-teaching-on-pornography/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Pornography", url: "https://guidecatholic.com/blog/catholic-teaching-on-pornography/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

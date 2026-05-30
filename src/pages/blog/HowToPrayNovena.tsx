@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToPrayNovena() {
@@ -24,6 +24,13 @@ export default function HowToPrayNovena() {
         title="How to Pray a Novena: Complete Guide for Catholics"
         description="Step-by-step guide to praying a novena — what a novena is, how to choose one, the nine days of prayer, and the most popular novenas in the Catholic tradition."
         url="https://guidecatholic.com/blog/how-to-pray-a-novena-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Pray a Novena", url: "https://guidecatholic.com/blog/how-to-pray-a-novena-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

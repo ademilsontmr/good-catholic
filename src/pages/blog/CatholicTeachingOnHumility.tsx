@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnHumility() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnHumility() {
         title="The Virtue of Humility: What the Catholic Church Teaches"
         description="Humility is the foundation of the spiritual life. Learn what humility really is, why pride is the root of all sin, and how to grow in this essential virtue according to Catholic teaching."
         url="https://guidecatholic.com/blog/virtue-of-humility-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Virtue of Humility", url: "https://guidecatholic.com/blog/virtue-of-humility-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

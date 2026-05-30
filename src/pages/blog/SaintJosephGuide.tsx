@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJosephGuide() {
@@ -24,6 +24,13 @@ export default function SaintJosephGuide() {
         title="Saint Joseph: Patron of the Church, Families & Workers"
         description="Complete guide to Saint Joseph — foster father of Jesus, patron of the universal Church, families, workers, and a happy death. His life, prayers, feast days, and devotions."
         url="https://guidecatholic.com/blog/saint-joseph-complete-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Joseph", url: "https://guidecatholic.com/blog/saint-joseph-complete-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

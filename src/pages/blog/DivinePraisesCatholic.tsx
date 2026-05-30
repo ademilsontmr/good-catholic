@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DivinePraisesCatholic() {
@@ -24,6 +24,13 @@ export default function DivinePraisesCatholic() {
         title="Divine Praises: Full Catholic Text, Meaning & When to Pray Them"
         description="The Divine Praises with full Catholic text in English, what each praise means, and when Catholics pray them — especially after Benediction of the Blessed Sacrament."
         url="https://guidecatholic.com/blog/divine-praises-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Divine Praises", url: "https://guidecatholic.com/blog/divine-praises-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

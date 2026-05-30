@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function TraditionalLatinMassGuide() {
@@ -24,6 +24,13 @@ export default function TraditionalLatinMassGuide() {
         title="The Traditional Latin Mass: A Complete Guide for American Catholics"
         description="Everything you need to know about the Traditional Latin Mass — how it differs from the Novus Ordo, how to follow it as a beginner, how to find a TLM near you, and why young Americans are drawn to it."
         url="https://guidecatholic.com/blog/traditional-latin-mass-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Traditional Latin Mass Guide", url: "https://guidecatholic.com/blog/traditional-latin-mass-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

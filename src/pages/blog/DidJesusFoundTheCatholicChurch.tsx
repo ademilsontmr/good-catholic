@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DidJesusFoundTheCatholicChurch() {
@@ -24,6 +24,13 @@ export default function DidJesusFoundTheCatholicChurch() {
         title="Did Jesus Found the Catholic Church? The Biblical Evidence"
         description="Did Jesus found the Catholic Church? Explore the biblical evidence — Matthew 16:18, the keys of the Kingdom, apostolic succession — and the historical continuity of the Church."
         url="https://guidecatholic.com/blog/did-jesus-found-the-catholic-church/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Did Jesus Found the Catholic Church?", url: "https://guidecatholic.com/blog/did-jesus-found-the-catholic-church/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

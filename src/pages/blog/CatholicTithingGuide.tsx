@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTithingGuide() {
@@ -24,6 +24,13 @@ export default function CatholicTithingGuide() {
         title="Catholic Tithing: What the Church Teaches About Giving, Stewardship & the 10% Rule"
         description="What does the Catholic Church teach about tithing? A complete guide to Catholic stewardship — the biblical basis for giving, the 10% question, Sunday obligation, and how to give generously."
         url="https://guidecatholic.com/blog/catholic-tithing-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Tithing Guide", url: "https://guidecatholic.com/blog/catholic-tithing-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

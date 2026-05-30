@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function IncorruptibleSaints() {
@@ -24,6 +24,13 @@ export default function IncorruptibleSaints() {
         title="Incorruptible Saints: The Miracle of Sacred Bodies"
         description="What are Incorruptible Saints? Discover the miracle of Catholic saints whose bodies have not decomposed for centuries, the scientific studies, and what it means for our faith."
         url="https://guidecatholic.com/blog/incorruptible-saints-miracle/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Incorruptible Saints", url: "https://guidecatholic.com/blog/incorruptible-saints-miracle/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

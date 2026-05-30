@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheBibleCatholic() {
@@ -24,6 +24,13 @@ export default function WhatIsTheBibleCatholic() {
         title="What Is the Bible? The Catholic Understanding of Sacred Scripture"
         description="How many books are in the Catholic Bible? What does biblical inspiration mean? Why don't Catholics believe in sola scriptura? A complete Catholic guide to Sacred Scripture."
         url="https://guidecatholic.com/blog/what-is-the-bible-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is the Bible? Catholic Understanding", url: "https://guidecatholic.com/blog/what-is-the-bible-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

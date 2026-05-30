@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SpiritualGiftsGuide() {
@@ -24,6 +24,13 @@ export default function SpiritualGiftsGuide() {
         title="Spiritual Gifts: The Complete Catholic Guide to Charisms & How to Discover Yours"
         description="What are spiritual gifts? The complete Catholic guide to charisms — the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them for the Church."
         url="https://guidecatholic.com/blog/spiritual-gifts-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Spiritual Gifts Guide", url: "https://guidecatholic.com/blog/spiritual-gifts-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

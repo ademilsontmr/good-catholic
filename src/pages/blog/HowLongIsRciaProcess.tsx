@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowLongIsRciaProcess() {
@@ -21,6 +21,13 @@ export default function HowLongIsRciaProcess() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="How Long Is RCIA? Catholic Conversion Timeline in the USA" description="How long is RCIA? Typical timeline, stages, and what to expect when becoming Catholic in the United States." url="https://guidecatholic.com/blog/how-long-is-rcia-process/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How Long Is RCIA? Catholic Conversion...", url: "https://guidecatholic.com/blog/how-long-is-rcia-process/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

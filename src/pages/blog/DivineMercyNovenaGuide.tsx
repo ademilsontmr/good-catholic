@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DivineMercyNovenaGuide() {
@@ -24,6 +24,13 @@ export default function DivineMercyNovenaGuide() {
         title="Divine Mercy Novena Guide: How to Pray the 9-Day Prayer Before Easter Sunday"
         description="A complete guide to the Divine Mercy Novena — what it is, how to pray it step by step, the Divine Mercy Chaplet, Divine Mercy Sunday, and where to pray it online."
         url="https://guidecatholic.com/blog/divine-mercy-novena-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Divine Mercy Novena Guide", url: "https://guidecatholic.com/blog/divine-mercy-novena-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

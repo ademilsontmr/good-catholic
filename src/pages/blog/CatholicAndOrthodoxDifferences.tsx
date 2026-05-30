@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicAndOrthodoxDifferences() {
@@ -24,6 +24,13 @@ export default function CatholicAndOrthodoxDifferences() {
         title="Catholic vs Orthodox: Key Differences Between the Two Churches"
         description="What are the key differences between the Catholic and Orthodox Churches? Learn about the Great Schism of 1054, the Filioque, papal authority, and the path toward reunion."
         url="https://guidecatholic.com/blog/catholic-vs-orthodox-differences/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic vs Orthodox Differences", url: "https://guidecatholic.com/blog/catholic-vs-orthodox-differences/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

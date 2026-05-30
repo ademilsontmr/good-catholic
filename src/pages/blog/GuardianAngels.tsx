@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GuardianAngels() {
@@ -24,6 +24,13 @@ export default function GuardianAngels() {
         title="Guardian Angels: Everything You Need to Know About Your Divine Protector"
         description="Do you have a Guardian Angel? Discover the Catholic teaching on angels, the nine celestial choirs, and how to build a relationship with your divine protector."
         url="https://guidecatholic.com/blog/guardian-angels-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Guardian Angels", url: "https://guidecatholic.com/blog/guardian-angels-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

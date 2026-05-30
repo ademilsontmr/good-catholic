@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsCatholicFaith() {
@@ -24,6 +24,13 @@ export default function WhatIsCatholicFaith() {
         title="What Is the Catholic Faith? A Complete Introduction"
         description="A complete introduction to the Catholic faith — what Catholics believe, the seven sacraments, Mary and the saints, the Pope, and how to begin exploring Catholicism."
         url="https://guidecatholic.com/blog/what-is-the-catholic-faith/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is the Catholic Faith", url: "https://guidecatholic.com/blog/what-is-the-catholic-faith/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

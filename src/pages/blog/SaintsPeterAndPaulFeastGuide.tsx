@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintsPeterAndPaulFeastGuide() {
@@ -21,6 +21,13 @@ export default function SaintsPeterAndPaulFeastGuide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="Saints Peter and Paul: Feast Day Guide for Catholics (June 29)" description="Saints Peter and Paul feast day — who they were, why the Church celebrates them together, and Mass obligations in the USA." url="https://guidecatholic.com/blog/saints-peter-and-paul-feast-guide/" datePublished="2026-06-02" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saints Peter and Paul", url: "https://guidecatholic.com/blog/saints-peter-and-paul-feast-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

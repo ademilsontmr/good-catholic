@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintJosephineBakhita() {
@@ -24,6 +24,13 @@ export default function SaintJosephineBakhita() {
         title="Saint Josephine Bakhita: From Slave to Saint"
         description="Discover Saint Josephine Bakhita — the Sudanese woman who was kidnapped into slavery as a child, found God through her suffering, and became one of the most beloved saints of the 20th century."
         url="https://guidecatholic.com/blog/saint-josephine-bakhita/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Saint Josephine Bakhita", url: "https://guidecatholic.com/blog/saint-josephine-bakhita/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

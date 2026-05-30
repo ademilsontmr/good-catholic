@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnSocialMedia() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnSocialMedia() {
         title="Catholic Teaching on Social Media: How to Use Technology Virtuously"
         description="What does the Catholic Church teach about social media? Learn how to use technology virtuously, avoid its spiritual dangers, and even evangelize online."
         url="https://guidecatholic.com/blog/catholic-teaching-on-social-media/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Social Media", url: "https://guidecatholic.com/blog/catholic-teaching-on-social-media/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

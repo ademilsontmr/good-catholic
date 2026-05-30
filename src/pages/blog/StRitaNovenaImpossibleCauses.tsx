@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StRitaNovenaImpossibleCauses() {
@@ -21,6 +21,13 @@ export default function StRitaNovenaImpossibleCauses() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Rita Novena for Impossible Causes: 9-Day Prayer (Full Text)" description="St. Rita Novena for impossible causes — 9-day Catholic prayer with full text. Patron of hopeless cases, how to pray, and when to start the novena." url="https://guidecatholic.com/blog/st-rita-novena-impossible-causes/" datePublished="2026-06-01" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Rita Novena", url: "https://guidecatholic.com/blog/st-rita-novena-impossible-causes/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

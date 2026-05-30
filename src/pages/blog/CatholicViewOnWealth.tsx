@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicViewOnWealth() {
@@ -24,6 +24,13 @@ export default function CatholicViewOnWealth() {
         title="Catholic View on Wealth and Money: Prosperity or Poverty?"
         description="What does the Catholic Church teach about money, wealth, and success? Explore the balance between the 'Prosperity Gospel' and the 'Vow of Poverty'."
         url="https://guidecatholic.com/blog/catholic-view-on-wealth/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic View on Wealth", url: "https://guidecatholic.com/blog/catholic-view-on-wealth/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicParentingGuide() {
@@ -25,6 +25,13 @@ export default function CatholicParentingGuide() {
           description="Discover Catholic parenting principles for raising children in faith. Learn about Catholic family life, religious education, discipline, and creating a Catholic home environment."
           url="https://guidecatholic.com/blog/catholic-parenting-guide/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Parenting Guide", url: "https://guidecatholic.com/blog/catholic-parenting-guide/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function OurLadyImmaculateConceptionUSA() {
@@ -24,6 +24,13 @@ export default function OurLadyImmaculateConceptionUSA() {
         title="Our Lady of the Immaculate Conception: Patroness of the United States"
         description="Why is Our Lady of the Immaculate Conception the patroness of the United States? The history of this 1846 declaration, the National Shrine in Washington D.C., and how to honor her."
         url="https://guidecatholic.com/blog/our-lady-immaculate-conception-patroness-usa/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Our Lady of the Immaculate Conception", url: "https://guidecatholic.com/blog/our-lady-immaculate-conception-patroness-usa/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

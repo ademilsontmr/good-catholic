@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheCatholicMass() {
@@ -24,6 +24,13 @@ export default function WhatIsTheCatholicMass() {
         title="What Is the Catholic Mass? A Complete Guide to the Liturgy"
         description="A complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Concluding Rites, with tips for beginners and active participation."
         url="https://guidecatholic.com/blog/what-is-the-catholic-mass-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is the Catholic Mass", url: "https://guidecatholic.com/blog/what-is-the-catholic-mass-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

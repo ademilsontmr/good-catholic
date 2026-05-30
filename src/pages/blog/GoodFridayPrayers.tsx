@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GoodFridayPrayers() {
@@ -24,6 +24,13 @@ export default function GoodFridayPrayers() {
         title="Good Friday Prayers 2026: Prayers for the Passion, Death & the Cross"
         description="Powerful Catholic prayers for Good Friday 2026 (April 3) — the Seven Last Words of Jesus, the Stabat Mater, prayers before the cross, and how to observe Good Friday."
         url="https://guidecatholic.com/blog/good-friday-prayers/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Good Friday Prayers", url: "https://guidecatholic.com/blog/good-friday-prayers/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

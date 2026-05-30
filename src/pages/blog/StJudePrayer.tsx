@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StJudePrayer() {
@@ -24,6 +24,13 @@ export default function StJudePrayer() {
         title="St. Jude Prayer: Powerful Prayers for Impossible Cases & Desperate Situations"
         description="The most powerful prayers to St. Jude Thaddeus — patron of impossible cases. Full texts of the St. Jude novena, the traditional prayer, and how to ask for his intercession."
         url="https://guidecatholic.com/blog/st-jude-prayer/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Jude Prayer", url: "https://guidecatholic.com/blog/st-jude-prayer/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

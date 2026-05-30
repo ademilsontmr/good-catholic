@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnHope() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnHope() {
         title="What Is Hope? The Catholic Virtue of Hope Explained"
         description="Hope is one of the three theological virtues — and the most misunderstood. Learn what Christian hope really is, the two sins against it, and how to grow in it according to Catholic teaching."
         url="https://guidecatholic.com/blog/virtue-of-hope-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Virtue of Hope", url: "https://guidecatholic.com/blog/virtue-of-hope-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function RosaryForBeginners() {
@@ -24,6 +24,13 @@ export default function RosaryForBeginners() {
         title="How to Pray the Rosary Step by Step: A Beginner's Complete Guide"
         description="Learn how to pray the Rosary step by step. Complete beginner's guide with all prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion."
         url="https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Pray the Rosary", url: "https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

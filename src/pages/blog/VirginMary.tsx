@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function VirginMary() {
@@ -24,6 +24,13 @@ export default function VirginMary() {
         title="The Virgin Mary in Catholic Doctrine: Dogmas and Devotion"
         description="Learn about the four Marian dogmas and the importance of Our Lady in salvation history. Understand why Catholics honor the Mother of God."
         url="https://guidecatholic.com/blog/virgin-mary/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Virgin Mary", url: "https://guidecatholic.com/blog/virgin-mary/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

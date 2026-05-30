@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SignOfTheCrossCatholic() {
@@ -24,6 +24,13 @@ export default function SignOfTheCrossCatholic() {
         title="Sign of the Cross: How Catholics Do It, Words and Meaning"
         description="Learn how to make the Sign of the Cross the Catholic way — the words in English and Latin, left to right, when to use it, and what this ancient gesture means."
         url="https://guidecatholic.com/blog/sign-of-the-cross-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Sign of the Cross", url: "https://guidecatholic.com/blog/sign-of-the-cross-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

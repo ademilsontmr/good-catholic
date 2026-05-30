@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnFreedom() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnFreedom() {
         title="What Is Freedom? The Catholic Teaching on True Liberty"
         description="The Catholic understanding of freedom is radically different from the secular one. True freedom is not doing whatever you want — it is the capacity to choose the good and become who you are meant to be."
         url="https://guidecatholic.com/blog/what-is-freedom-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is Freedom? The Catholic Teaching", url: "https://guidecatholic.com/blog/what-is-freedom-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

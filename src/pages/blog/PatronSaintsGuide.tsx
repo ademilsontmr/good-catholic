@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function PatronSaintsGuide() {
@@ -24,6 +24,13 @@ export default function PatronSaintsGuide() {
         title="Patron Saints: What They Are, How They Help & How to Find Yours"
         description="What are patron saints? How do they intercede for us? How do you find your patron saint? Complete Catholic guide to patron saints, their patronages, and how to develop devotion to them."
         url="https://guidecatholic.com/blog/patron-saints-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Patron Saints Guide", url: "https://guidecatholic.com/blog/patron-saints-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

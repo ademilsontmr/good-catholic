@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToGoToConfessionGuide() {
@@ -24,6 +24,13 @@ export default function HowToGoToConfessionGuide() {
         title="How to Go to Confession: Complete Step-by-Step Catholic Guide"
         description="Complete guide to Catholic Confession — how to prepare, what to say, the Act of Contrition, what happens inside the confessional, and how to make a good confession after years away."
         url="https://guidecatholic.com/blog/how-to-go-to-confession-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Go to Confession", url: "https://guidecatholic.com/blog/how-to-go-to-confession-guide/" },
+        ]}
       />
       <HowToSchema
         name="How to Go to Confession"

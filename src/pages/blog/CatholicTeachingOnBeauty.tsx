@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnBeauty() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnBeauty() {
         title="Beauty and the Catholic Faith: Why Beauty Matters for the Soul"
         description="Beauty is not decoration — it is a transcendental property of being itself. Discover why beauty matters for faith, how sacred art is theology, and why beauty is an argument for God."
         url="https://guidecatholic.com/blog/beauty-and-the-catholic-faith/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Beauty and the Catholic Faith", url: "https://guidecatholic.com/blog/beauty-and-the-catholic-faith/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

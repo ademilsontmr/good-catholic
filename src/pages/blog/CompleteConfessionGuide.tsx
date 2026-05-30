@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CompleteConfessionGuide() {
@@ -24,6 +24,13 @@ export default function CompleteConfessionGuide() {
         title="The Complete Guide to Catholic Confession: How to Make a Good Confession"
         description="Everything you need to make a good Confession — step-by-step guide, complete examination of conscience, what to say, common fears answered, and how to return after years away."
         url="https://guidecatholic.com/blog/complete-guide-to-catholic-confession/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Guide to Catholic Confession", url: "https://guidecatholic.com/blog/complete-guide-to-catholic-confession/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

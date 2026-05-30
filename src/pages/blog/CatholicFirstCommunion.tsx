@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicFirstCommunion() {
@@ -24,6 +24,13 @@ export default function CatholicFirstCommunion() {
         title="First Communion: What It Is, How to Prepare & What to Expect"
         description="Everything you need to know about Catholic First Communion — what it is, the age for First Communion, how to prepare your child, what happens at the Mass, and how to celebrate."
         url="https://guidecatholic.com/blog/catholic-first-communion-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "First Communion", url: "https://guidecatholic.com/blog/catholic-first-communion-guide/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

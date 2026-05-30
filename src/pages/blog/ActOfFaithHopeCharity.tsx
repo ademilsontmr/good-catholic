@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function ActOfFaithHopeCharity() {
@@ -24,6 +24,13 @@ export default function ActOfFaithHopeCharity() {
         title="Act of Faith, Hope and Charity: Full Catholic Prayers and Meaning"
         description="The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts in English, what each act means, and when to pray them for Confirmation, RCIA, and daily life."
         url="https://guidecatholic.com/blog/act-of-faith-hope-charity/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Acts of Faith, Hope & Charity", url: "https://guidecatholic.com/blog/act-of-faith-hope-charity/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

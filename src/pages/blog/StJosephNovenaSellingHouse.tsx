@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StJosephNovenaSellingHouse() {
@@ -21,6 +21,13 @@ export default function StJosephNovenaSellingHouse() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema title="St. Joseph Novena for Selling a House: 9-Day Catholic Prayer Guide" description="St. Joseph Novena for selling a house — 9-day Catholic prayer with full text, how to pray when listing your home, and devotion traditions in the United States." url="https://guidecatholic.com/blog/st-joseph-novena-selling-house/" datePublished="2026-06-01" />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Joseph Novena — Selling a House", url: "https://guidecatholic.com/blog/st-joseph-novena-selling-house/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function HowToReturnToMass() {
@@ -24,6 +24,13 @@ export default function HowToReturnToMass() {
         title="How to Return to Mass After Being Away: A Guide for Lapsed Catholics"
         description="Thinking about returning to Mass? This compassionate guide helps lapsed Catholics come back to the Church — step by step, without judgment."
         url="https://guidecatholic.com/blog/how-to-return-to-mass/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "How to Return to Mass", url: "https://guidecatholic.com/blog/how-to-return-to-mass/" },
+        ]}
       />
       <HowToSchema
         name="How to Return to Mass After Being Away"

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function IsItSinToMissMass() {
@@ -24,6 +24,13 @@ export default function IsItSinToMissMass() {
         title="Is It a Sin to Miss Mass on Sunday? The Catholic Teaching"
         description="Is missing Sunday Mass a mortal sin? Learn what the Catholic Church teaches about the Sunday obligation, valid excuses, and what to do if you miss Mass."
         url="https://guidecatholic.com/blog/is-it-a-sin-to-miss-mass/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Is It a Sin to Miss Mass", url: "https://guidecatholic.com/blog/is-it-a-sin-to-miss-mass/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

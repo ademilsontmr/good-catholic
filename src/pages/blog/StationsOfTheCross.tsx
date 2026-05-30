@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function StationsOfTheCross() {
@@ -24,6 +24,13 @@ export default function StationsOfTheCross() {
         title="Stations of the Cross: A Complete Guide to This Powerful Catholic Devotion"
         description="Learn everything about the Stations of the Cross — history, the 14 traditional stations with meditations, and the theology of the Via Dolorosa."
         url="https://guidecatholic.com/blog/stations-of-the-cross/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Stations of the Cross", url: "https://guidecatholic.com/blog/stations-of-the-cross/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

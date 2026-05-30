@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function EucharisticMiraclesScience() {
@@ -24,6 +24,13 @@ export default function EucharisticMiraclesScience() {
         title="Eucharistic Miracles and Science: What Do the Medical Labs Say?"
         description="Explore the scientific evidence behind Eucharistic miracles like Lanciano, Buenos Aires, and Tixtla. Learn about blood types, DNA, and medical findings that defy natural explanation."
         url="https://guidecatholic.com/blog/eucharistic-miracles-science/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Eucharistic Miracles & Science", url: "https://guidecatholic.com/blog/eucharistic-miracles-science/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

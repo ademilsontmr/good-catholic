@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicPrayerForProtection() {
@@ -24,6 +24,13 @@ export default function CatholicPrayerForProtection() {
         title="Catholic Prayers for Protection: Against Evil, Danger & Spiritual Attack"
         description="The most powerful Catholic prayers for protection — against evil, danger, spiritual attack, and the devil. St. Michael prayer, St. Patrick's Breastplate, Psalm 91, and more."
         url="https://guidecatholic.com/blog/catholic-prayer-for-protection/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Prayers for Protection", url: "https://guidecatholic.com/blog/catholic-prayer-for-protection/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

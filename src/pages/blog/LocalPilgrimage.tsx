@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function LocalPilgrimage() {
@@ -24,6 +24,13 @@ export default function LocalPilgrimage() {
           description="Practical and spiritual guide to organizing pilgrimages to local shrines and jubilee churches, strengthening community faith in 2026."
           url="https://guidecatholic.com/blog/local-pilgrimage/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Local Pilgrimage", url: "https://guidecatholic.com/blog/local-pilgrimage/" },
+        ]}
+      />
 
             <div className="min-h-screen bg-background">
                 <Navbar />

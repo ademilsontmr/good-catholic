@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MiraculousMedalGuide() {
@@ -24,6 +24,13 @@ export default function MiraculousMedalGuide() {
         title="The Miraculous Medal: History, Symbols, and Promises"
         description="Discover the complete history of the Miraculous Medal, its symbols, the apparitions to St. Catherine Labouré, and why millions of Catholics wear it today."
         url="https://guidecatholic.com/blog/miraculous-medal-guide/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "The Miraculous Medal", url: "https://guidecatholic.com/blog/miraculous-medal-guide/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

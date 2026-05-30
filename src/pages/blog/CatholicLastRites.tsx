@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicLastRites() {
@@ -24,6 +24,13 @@ export default function CatholicLastRites() {
         title="Catholic Last Rites: What They Are, When to Call a Priest & What Happens"
         description="What are Catholic Last Rites? Learn about the Anointing of the Sick, Viaticum, and Apostolic Pardon — when to call a priest, what happens, and how to prepare a loved one for death."
         url="https://guidecatholic.com/blog/catholic-last-rites-explained/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Last Rites", url: "https://guidecatholic.com/blog/catholic-last-rites-explained/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

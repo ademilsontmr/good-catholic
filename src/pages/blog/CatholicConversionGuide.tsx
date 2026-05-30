@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicConversionGuide() {
@@ -24,6 +24,13 @@ export default function CatholicConversionGuide() {
         title="The Complete Guide to Converting to Catholicism: Everything You Need to Know"
         description="Thinking about becoming Catholic? This complete step-by-step guide covers the RCIA process, the sacraments of initiation, choosing a sponsor, and life after the Easter Vigil."
         url="https://guidecatholic.com/blog/complete-guide-converting-to-catholicism/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Complete Guide to Converting to Catholicism", url: "https://guidecatholic.com/blog/complete-guide-converting-to-catholicism/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function GraceAfterMealsCatholic() {
@@ -24,6 +24,13 @@ export default function GraceAfterMealsCatholic() {
         title="Grace After Meals: Catholic Prayer Text and When to Say It"
         description="Grace after meals Catholic prayer with full text in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition."
         url="https://guidecatholic.com/blog/grace-after-meals-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Grace After Meals", url: "https://guidecatholic.com/blog/grace-after-meals-catholic/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

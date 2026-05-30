@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnSameSexMarriage() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnSameSexMarriage() {
         title="Catholic Teaching on Same-Sex Marriage: What the Church Teaches"
         description="What does the Catholic Church teach about same-sex marriage? A clear explanation from the Catechism (CCC 2357-2359), natural law, and the Church's understanding of marriage."
         url="https://guidecatholic.com/blog/catholic-teaching-on-same-sex-marriage/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Same-Sex Marriage", url: "https://guidecatholic.com/blog/catholic-teaching-on-same-sex-marriage/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

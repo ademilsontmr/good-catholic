@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhyDoCatholics() {
@@ -24,6 +24,13 @@ export default function WhyDoCatholics() {
         title="Why Do Catholics Pray to Mary, Confess to Priests & More — Answered"
         description="Clear answers to the most common questions about Catholic practices: Why do Catholics pray to Mary? Why confess to a priest? Why call priests 'Father'? Why do Catholics kneel?"
         url="https://guidecatholic.com/blog/why-do-catholics/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Why Do Catholics...?", url: "https://guidecatholic.com/blog/why-do-catholics/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

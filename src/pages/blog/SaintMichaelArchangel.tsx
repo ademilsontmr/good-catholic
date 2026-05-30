@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function SaintMichaelArchangel() {
@@ -25,6 +25,13 @@ export default function SaintMichaelArchangel() {
           description="Learn about St. Michael the Archangel — his four roles in Scripture, the full text of the Prayer to St. Michael, its history with Pope Leo XIII, the Chaplet of St. Michael, and how to develop devotion."
           url="https://guidecatholic.com/blog/saint-michael-archangel/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "St. Michael the Archangel", url: "https://guidecatholic.com/blog/saint-michael-archangel/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

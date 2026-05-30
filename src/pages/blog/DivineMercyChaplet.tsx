@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema, HowToSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function DivineMercyChaplet() {
@@ -24,6 +24,13 @@ export default function DivineMercyChaplet() {
         title="How to Pray the Divine Mercy Chaplet: Complete Guide"
         description="Learn how to pray the Divine Mercy Chaplet step by step. Complete guide with prayers, history, and the significance of the 3pm Hour of Mercy as revealed to St. Faustina."
         url="https://guidecatholic.com/blog/divine-mercy-chaplet/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Divine Mercy Chaplet", url: "https://guidecatholic.com/blog/divine-mercy-chaplet/" },
+        ]}
       />
       <HowToSchema
         name="How to Pray the Divine Mercy Chaplet"

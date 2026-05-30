@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function MorningOfferingPrayer() {
@@ -25,6 +25,13 @@ export default function MorningOfferingPrayer() {
           description="Learn the Catholic Morning Offering prayer and how to consecrate your entire day to God. Discover different versions, the history, and practical tips for making this powerful prayer a daily habit."
           url="https://guidecatholic.com/blog/morning-offering-prayer/"
         />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Morning Offering Prayer", url: "https://guidecatholic.com/blog/morning-offering-prayer/" },
+        ]}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function WhatIsTheNiceneCreed() {
@@ -24,6 +24,13 @@ export default function WhatIsTheNiceneCreed() {
         title="What Is the Nicene Creed? Full Text, History & Meaning"
         description="What is the Nicene Creed? Learn the full text Catholics profess at Mass, its history at the Council of Nicaea (325 AD), what each line means, and why it still matters today."
         url="https://guidecatholic.com/blog/what-is-the-nicene-creed/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "What Is the Nicene Creed?", url: "https://guidecatholic.com/blog/what-is-the-nicene-creed/" },
+        ]}
       />
 
       <div className="min-h-screen bg-background">

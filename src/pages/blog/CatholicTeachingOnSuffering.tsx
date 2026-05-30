@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnSuffering() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnSuffering() {
         title="Why Does God Allow Suffering? The Catholic Answer"
         description="Why does God allow suffering? The Catholic answer is not a simple explanation but a Person — Jesus Christ, who entered into human suffering and transformed it from within."
         url="https://guidecatholic.com/blog/why-does-god-allow-suffering-catholic/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Why Does God Allow Suffering", url: "https://guidecatholic.com/blog/why-does-god-allow-suffering-catholic/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />

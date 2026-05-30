@@ -7,7 +7,7 @@ import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
-import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 
 export default function CatholicTeachingOnJustice() {
@@ -24,6 +24,13 @@ export default function CatholicTeachingOnJustice() {
         title="Catholic Teaching on Justice: What the Church Says About Social Justice"
         description="What does the Catholic Church teach about justice? Learn about the four types of justice, Catholic social teaching, the preferential option for the poor, and how to live justly."
         url="https://guidecatholic.com/blog/catholic-teaching-on-justice/"
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://guidecatholic.com/" },
+          { name: "Blog", url: "https://guidecatholic.com/blog/" },
+          { name: "Catholic Teaching on Justice", url: "https://guidecatholic.com/blog/catholic-teaching-on-justice/" },
+        ]}
       />
       <div className="min-h-screen bg-background">
         <Navbar />
