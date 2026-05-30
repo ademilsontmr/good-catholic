@@ -98,14 +98,16 @@ export default function ActOfSpiritualCommunionCatholic() {
                 </p>
               </div>
               <p className="text-text leading-relaxed mb-6">Any sincere prayer asking Jesus to enter the heart spiritually is valid. The key is ardent desire united to love and, when necessary, repentance.</p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Homebound and Hospital Ministry</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-spiritual-communion-catholic">Extraordinary ministers and family caregivers often pray Spiritual Communion aloud with the sick when a priest cannot bring Communion daily. Pair the prayer with the Sunday readings from the USCCB website so the homebound stay connected to the liturgical year. When Communion is brought from church, pray in thanksgiving rather than replacing the sacrament.</LinkedText>
             </div>
             <BlogFAQ faqs={[
               { question: "Does Spiritual Communion replace going to Mass?", answer: "No. When you are able, Catholics must attend Sunday Mass and receive the Eucharist sacramentally. Spiritual Communion is for times when sacramental reception is truly impossible or must be delayed." },
               { question: "Who composed the common Act of Spiritual Communion?", answer: "The most popular English form is attributed to St. Alphonsus Liguori, an eighteenth-century bishop and doctor of the Church whose devotional writings remain widely used." },
               { question: "Can I make a Spiritual Communion if I am in mortal sin?", answer: "You may pray with desire for union with Christ, but you should make an act of contrition and go to Confession before receiving sacramental Communion. Spiritual Communion expresses longing while you prepare to return to the altar." },
               { question: "When should I pray Spiritual Communion during a livestreamed Mass?", answer: "Pray it at the Communion rite — when the priest receives Communion and the congregation would normally approach the altar. Pause, kneel if possible, and pray with attention." },
-              { question: "Does Spiritual Communion replace going to Mass?", answer: "No. Catholics still have the Sunday obligation when able; Spiritual Communion unites the soul when the Host cannot be received." },
-              { question: "Who wrote the Act of Spiritual Communion?", answer: "The common English text is associated with St. Alphonsus Liguori; similar prayers appear in centuries of Catholic devotion." }
+              { question: "Can homebound Catholics use Spiritual Communion daily?", answer: "Yes. It is a standard practice when a priest or Eucharistic minister cannot visit every day. Pair it with the Sunday readings and an act of contrition if needed." }
             ]} />
             <RelatedArticles currentSlug="act-of-spiritual-communion-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

@@ -47,7 +47,7 @@ export default function QueenshipOfMaryCatholicGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />16 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Queenship of Mary: Catholic Feast Day Guide (August 22)</h1>
               <p className="text-xl text-text-muted leading-relaxed">One week after the Assumption, the Church proclaims Mary as Queen of Heaven and earth — not by competing with Christ, but as the Mother of the King who intercedes for the People of God.</p>
@@ -97,6 +97,24 @@ export default function QueenshipOfMaryCatholicGuide() {
                 <li>Entrust your family and nation to Mary&apos;s intercession — a custom on this feast.</li>
                 <li>Read Pope Pius XII&apos;s encyclical Ad Caeli Reginam (1954) on Mary&apos;s queenship.</li>
               </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Queen Titles in the Litany of Loreto</h2>
+              <p className="text-text leading-relaxed mb-4">The Queenship feast gathers Marian titles prayed throughout the year. From the Litany of Loreto, Catholics invoke Mary as:</p>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6 text-sm columns-1 md:columns-2">
+                <li>Queen of Angels</li>
+                <li>Queen of Patriarchs</li>
+                <li>Queen of Prophets</li>
+                <li>Queen of Apostles</li>
+                <li>Queen of Martyrs</li>
+                <li>Queen of Confessors</li>
+                <li>Queen of Virgins</li>
+                <li>Queen of all Saints</li>
+                <li>Queen conceived without original sin</li>
+                <li>Queen assumed into heaven</li>
+                <li>Queen of the most holy Rosary</li>
+                <li>Queen of Peace</li>
+              </ul>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="queenship-of-mary-catholic-guide">Praying these titles on August 22 connects private devotion to the liturgical feast. Many parishes recite the Litany of Loreto after Rosary or during May and August processions.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mary Queen in American Catholic Life</h2>
               <p className="text-text leading-relaxed mb-6">Parishes named Queen of Peace, Queen of Angels, or Our Lady Queen of Heaven dot the American landscape. Immigrant communities brought crowned images of Mary in processions — Polish, Italian, Filipino, and Latin American traditions enrich August devotions. The feast reminds U.S. Catholics that Mary&apos;s maternal care extends to every parish and household.</p>

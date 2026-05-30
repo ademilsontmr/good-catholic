@@ -47,7 +47,7 @@ export default function AssumptionOfMaryCatholicGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />17 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Assumption of Mary: Catholic Feast Day Guide (August 15)</h1>
               <p className="text-xl text-text-muted leading-relaxed">On August 15 Catholics celebrate the Assumption — the truth that Mary, at the end of her earthly life, was taken body and soul into heavenly glory. In the United States it is a Holy Day of Obligation.</p>
@@ -98,6 +98,10 @@ export default function AssumptionOfMaryCatholicGuide() {
                 <li>Offer flowers at a home or parish statue of Mary.</li>
               </ul>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Eastern Dormition vs. Western Assumption</h2>
+              <p className="text-text leading-relaxed mb-4">Eastern Catholic and Orthodox Christians celebrate the Dormition (falling asleep) of the Theotokos on August 15. Iconography shows Mary falling asleep surrounded by the apostles; Christ receives her soul. The West emphasizes assumption into glory. Both traditions agree: Mary is body and soul in heaven.</p>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="assumption-of-mary-catholic-guide">U.S. cities with Byzantine, Maronite, or Ukrainian Catholic parishes often hold Dormition vigils with processions and flowers. Latin-rite Catholics are welcome to attend and learn from the shared Marian faith of East and West.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Assumption and Queenship of Mary</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="assumption-of-mary-catholic-guide">One week later, on August 22, the Church celebrates the Queenship of Mary — Mary crowned in heaven because of her Assumption. The two feasts form the heart of the second half of August in the liturgical calendar, closing the summer with Marian hope before Ordinary Time resumes its rhythm.</LinkedText>
             </div>
@@ -107,7 +111,8 @@ export default function AssumptionOfMaryCatholicGuide() {
               { question: "When was the Assumption defined as dogma?", answer: "Pope Pius XII defined the Assumption as a dogma of faith on November 1, 1950, in the apostolic constitution Munificentissimus Deus." },
               { question: "Did Mary die before the Assumption?", answer: "The dogma does not define whether Mary died before being assumed. Eastern tradition speaks of her Dormition (falling asleep). Both East and West agree she was taken body and soul into glory." },
               { question: "Is the Assumption in the Bible?", answer: "Revelation 12 is read typologically; the doctrine was defined by Pope Pius XII in 1950 as divinely revealed." },
-              { question: "What if August 15 falls on a Saturday or Monday?", answer: "U.S. bishops may transfer or lift the obligation — check your diocese each year." }
+              { question: "What if August 15 falls on a Saturday or Monday?", answer: "U.S. bishops may transfer or lift the obligation — check your diocese each year." },
+              { question: "What is the difference between Assumption and Dormition?", answer: "The Assumption (Latin Church) and Dormition (Eastern Churches) celebrate the same truth — Mary in heavenly glory — with different emphases on how she entered that glory." }
             ]} />
             <RelatedArticles currentSlug="assumption-of-mary-catholic-guide" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

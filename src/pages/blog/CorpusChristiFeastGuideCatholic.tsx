@@ -47,7 +47,7 @@ export default function CorpusChristiFeastGuideCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />18 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Corpus Christi: Catholic Feast Day Guide (Meaning, Mass & Processions)</h1>
               <p className="text-xl text-text-muted leading-relaxed">Corpus Christi — the Body of Christ — is the solemnity that crowns the Easter season by celebrating the Real Presence of Jesus in the Eucharist, often with public processions through American streets.</p>
@@ -100,6 +100,33 @@ export default function CorpusChristiFeastGuideCatholic() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Corpus Christi and the Eucharistic Revival</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-feast-guide-catholic">Surveys show many U.S. Catholics do not believe in the Real Presence. Corpus Christi is the Church&apos;s annual answer: Christ is here, now, in every tabernacle. The feast invites renewed catechesis, adoration, and reverence at Communion — genuflecting, fasting one hour, and receiving on the tongue or hand with devotion.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Tantum Ergo — Eucharistic Hymn (English)</h2>
+              <p className="text-text leading-relaxed mb-4">St. Thomas Aquinas composed this hymn for Corpus Christi. Catholics pray it during Benediction and after adoration. The final two verses are often sung at every Eucharistic procession:</p>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6 text-text text-sm leading-relaxed space-y-2">
+                <p><em>Down in adoration falling, Lo! the sacred Host we hail; Lo! o&apos;er ancient forms departing, newer rites of grace prevail; Faith for all defects supplying, where the feeble senses fail.</em></p>
+                <p><em>To the everlasting Father, and the Son who reigns on high, with the Spirit blessed proceeding forth from each eternally, be salvation, honor, blessing, might and endless majesty. Amen.</em></p>
+              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Prepare for Corpus Christi (Checklist)</h2>
+              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
+                <li><strong>Go to Confession</strong> in the week before the feast if you plan to receive Communion.</li>
+                <li><strong>Fast one hour</strong> before Communion (water and medicine excepted).</li>
+                <li><strong>Confirm Mass time</strong> — some parishes add an outdoor procession after the last Sunday Mass.</li>
+                <li><strong>Dress modestly</strong> for church and procession; bring a rosary or missal if you wish.</li>
+                <li><strong>Teach children</strong> to genuflect on one knee when the Blessed Sacrament passes in the monstrance.</li>
+                <li><strong>Invite a friend</strong> — processions are a gentle introduction to Catholic belief for seekers.</li>
+              </ol>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Eucharistic Procession Etiquette</h2>
+              <p className="text-text leading-relaxed mb-4">If your parish holds a procession, these customs show reverence for Christ truly present:</p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li>Walk silently or sing approved hymns — avoid casual conversation near the monstrance.</li>
+                <li>Kneel or bow deeply when the priest stops for Benediction.</li>
+                <li>Do not touch the canopy or monstrance unless assigned as a bearer.</li>
+                <li>Follow parish instructions on incense, flowers, and altar servers.</li>
+                <li>After Benediction, stay for the Divine Praises if the parish prays them.</li>
+              </ul>
             </div>
             <BlogFAQ faqs={[
               { question: "When is Corpus Christi 2026 in the United States?", answer: "In 2026, Corpus Christi is celebrated on Sunday, June 7, in the U.S. (transferred from the Thursday after Trinity Sunday, which would be June 4)." },

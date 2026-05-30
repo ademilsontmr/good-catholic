@@ -47,7 +47,7 @@ export default function CatholicSummerMassScheduleGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Catholic Living</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />17 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Catholic Summer Mass Guide: Vacation, Travel & Finding Mass in the USA</h1>
               <p className="text-xl text-text-muted leading-relaxed">Summer vacation does not suspend the Sunday obligation. American Catholics traveling for beach weeks, national parks, or family visits can still find Mass — with a little planning before the car is packed.</p>
@@ -89,6 +89,24 @@ export default function CatholicSummerMassScheduleGuide() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When You Cannot Get to Mass</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-summer-mass-schedule-guide">If illness or impossibility prevents attendance, pray the Liturgy of the Word from the missal, make a Spiritual Communion, and read the Sunday readings. Watching Mass on a screen does not fulfill the obligation but can nourish the soul when attendance is truly impossible. Do not treat livestream as a routine substitute when parishes are available nearby.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Summer 2026: Holy Days While Traveling</h2>
+              <p className="text-text leading-relaxed mb-4">Plan ahead for these summer feasts if you travel in June–August 2026:</p>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Corpus Christi (June 7, Sunday):</strong> Fulfills Sunday obligation; look for Eucharistic processions at destination parishes.</li>
+                <li><strong>Sacred Heart (June 19, Friday):</strong> Not a Holy Day of Obligation in the U.S., but many parishes hold special Masses.</li>
+                <li><strong>Assumption (August 15, Saturday):</strong> Normally a Holy Day of Obligation — check whether your home and travel dioceses abrogate it when it falls on Saturday in 2026.</li>
+                <li><strong>Queenship of Mary (August 22):</strong> Memorial, not of obligation — optional Marian Mass if schedules allow.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step: Find Mass in 10 Minutes</h2>
+              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
+                <li>Open MassTimes.org or your diocese&apos;s parish finder.</li>
+                <li>Enter your hotel ZIP code or city name.</li>
+                <li>Call the parish if the website looks outdated — summer schedules change weekly.</li>
+                <li>Save the address in your maps app and note parking restrictions.</li>
+                <li>Set a reminder for Saturday vigil if Sunday checkout conflicts with Mass.</li>
+              </ol>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Making Vacation Catholic</h2>
               <p className="text-text leading-relaxed mb-6">Visit local shrines, cathedrals, or historic missions on your route. San Antonio Missions, Santa Fe&apos;s St. Francis Cathedral, and coastal parish festivals turn travel into pilgrimage. Attending Mass in a new community reminds Catholics that the Church is universal — the same Eucharist from Maine to Maui.</p>

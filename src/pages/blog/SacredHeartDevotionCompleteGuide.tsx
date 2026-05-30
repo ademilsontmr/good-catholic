@@ -47,7 +47,7 @@ export default function SacredHeartDevotionCompleteGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />18 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Sacred Heart Devotion: Complete Catholic Guide (First Fridays & Promises)</h1>
               <p className="text-xl text-text-muted leading-relaxed">June is the month of the Sacred Heart — a devotion to Christ&apos;s burning love revealed to St. Margaret Mary Alacoque and practiced in millions of American Catholic homes through First Fridays and family enthronement.</p>
@@ -82,15 +82,38 @@ export default function SacredHeartDevotionCompleteGuide() {
 
               <QuizCTA title="Grow in devotion to Christ" description="Take the Catholic life assessment for guidance on prayer, Mass, and family faith." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Twelve Promises (Traditional)</h2>
-              <p className="text-text leading-relaxed mb-6">Tradition records twelve promises Christ made to St. Margaret Mary for those who practice the First Friday devotion faithfully — including peace in the home, comfort in affliction, and grace for a happy death. The Church approves the devotion; private revelations are not binding like doctrine. Treat promises as encouragement to persevere, not magical guarantees.</p>
-
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Enthronement of the Sacred Heart in the Home</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-devotion-complete-guide">Family enthronement — placing an image of the Sacred Heart in a place of honor and praying a consecration — became popular in the U.S. through Father Mateo Crawley-Boevey and the National Enthronement Center. Many Catholics enthroned the Sacred Heart alongside the Immaculate Heart of Mary, entrusting the family to Christ&apos;s kingship of love.</LinkedText>
               <p className="text-text leading-relaxed mb-6">The ceremony typically includes Mass or a priest&apos;s blessing, placement of the image, family consecration, and a festive meal. Contact your parish for enthronement resources approved in your diocese.</p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Sacred Heart and Immaculate Heart</h2>
               <p className="text-text leading-relaxed mb-6">The day after the Sacred Heart solemnity, the Church celebrates the Immaculate Heart of Mary (in 2026, June 20). The two devotions belong together: Mary&apos;s heart pierced by sorrow united with her Son&apos;s heart pierced for love. June devotions in U.S. parishes often include both.</p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Twelve Promises (Traditional List)</h2>
+              <p className="text-text leading-relaxed mb-4">Tradition records these promises to St. Margaret Mary for those who honor the Sacred Heart through the First Friday devotion. The Church approves the devotion; treat the list as encouragement, not a contract:</p>
+              <ol className="list-decimal list-inside text-text space-y-2 mb-6 text-sm">
+                <li>I will give them all the graces necessary for their state in life.</li>
+                <li>I will establish peace in their families.</li>
+                <li>I will console them in all their troubles.</li>
+                <li>I will be their refuge in life and especially at the hour of death.</li>
+                <li>I will shed abundant blessings on all their undertakings.</li>
+                <li>Sinners shall find in my Heart the source of an infinite ocean of mercy.</li>
+                <li>Lukewarm souls shall become fervent.</li>
+                <li>Fervent souls shall quickly rise to great perfection.</li>
+                <li>I will bless every place where an image of my Heart is exposed and honored.</li>
+                <li>I will give priests the gift of touching the hardest hearts.</li>
+                <li>Those who promote this devotion shall have their names written in my Heart.</li>
+                <li>I promise you in the excessive mercy of my Heart that my all-powerful love will grant to all those who receive Communion on the First Fridays for nine consecutive months the grace of final repentance; they shall not die in my disgrace nor without receiving the sacraments, and my Heart shall be their safe refuge in that last hour.</li>
+              </ol>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">First Friday Dates in 2026</h2>
+              <p className="text-text leading-relaxed mb-4">Plan Confession and Mass around these dates if you begin a nine-month First Friday cycle in 2026:</p>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                <li>January 2 · February 6 · March 6 · April 3 · May 1</li>
+                <li>June 5 · July 3 · August 7 · September 4 · October 2</li>
+                <li>November 6 · December 4</li>
+              </ul>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-devotion-complete-guide">Many U.S. parishes offer extra confession times on First Fridays. Arrive early — lines are often long. If you miss a month, speak with your priest; some spiritual directors advise continuing rather than restarting from zero.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Living the Devotion Today</h2>
               <p className="text-text leading-relaxed mb-6">Honor the Sacred Heart by frequent Communion, reverent attendance at Mass, Eucharistic adoration, and charity toward the poor — the love Christ&apos;s heart demands. The devotion is not sentimental alone; it calls for conversion and reparation where Catholics have grown lukewarm.</p>

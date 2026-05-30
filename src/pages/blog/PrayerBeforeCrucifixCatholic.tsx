@@ -71,10 +71,13 @@ export default function PrayerBeforeCrucifixCatholic() {
               <p className="text-text leading-relaxed mb-6">The prayer requests the theological virtues — faith, hope, and charity — and the disposition needed for Confession: sorrow for sin and purpose of amendment. It directs attention to Christ&apos;s five wounds, a classic meditation in Franciscan spirituality and in the Stations of the Cross.</p>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">St. Francis received the stigmata — the wounds of Christ — at La Verna in 1224. His devotion to the crucified Lord shaped centuries of Catholic piety, including this prayer printed in many U.S. missals and penance pamphlets.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Partial Indulgence</h2>
-              <p className="text-text leading-relaxed mb-6">The Church grants a partial indulgence to the faithful who pray devoutly before a crucifix this prayer or other approved prayers (see the Enchiridion of Indulgences). An indulgence remits temporal punishment due to sin, applying the merits of Christ and the saints. To gain it, one must be baptized, not excommunicated, in a state of grace, have at least a general intention for indulgences, and pray with devotion.</p>
-
-              <QuizCTA title="Do you want a stronger prayer routine?" description="Take the Catholic life assessment and receive practical next steps for daily prayer and spiritual growth." />
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Gain the Partial Indulgence</h2>
+              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
+                <li>Be baptized, not excommunicated, and in a state of grace.</li>
+                <li>Have at least a general intention to gain indulgences.</li>
+                <li>Pray devoutly before a crucifix (this prayer or another approved text).</li>
+                <li>Within about a week: sacramental Confession, Eucharistic Communion, and prayer for the Pope&apos;s intentions.</li>
+              </ol>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Pray Before a Crucifix</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -90,6 +93,8 @@ export default function PrayerBeforeCrucifixCatholic() {
               <p className="text-text leading-relaxed mb-6">Place a crucifix in a central room — many Catholic families hang one above a door or in the bedroom. Kneel if you are able. Sign yourself with the cross. Read the prayer slowly, pausing at &quot;five most precious wounds.&quot; You may follow with an Our Father and Hail Mary.</p>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">The crucifix differs from a plain cross: it bears the corpus — the body of Christ — reminding us that salvation came through sacrifice. Protestant crosses and Catholic crucifixes reflect different emphases; Catholic worship keeps both cross and suffering Lord in view.</LinkedText>
 
+              <QuizCTA title="Do you want a stronger prayer routine?" description="Take the Catholic life assessment and receive practical next steps for daily prayer and spiritual growth." />
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Connecting to the Mass and Sacraments</h2>
               <p className="text-text leading-relaxed mb-6">Every Mass re-presents the one sacrifice of Calvary. Praying before a crucifix at home extends Eucharistic faith into daily life. After Confession, pray it in thanksgiving. When unable to attend Mass, unite this devotion with a Spiritual Communion. The crucifix keeps the center of Catholic faith always in sight.</p>
             </div>
@@ -98,7 +103,6 @@ export default function PrayerBeforeCrucifixCatholic() {
               { question: "Is there an indulgence for praying before a crucifix?", answer: "Yes. The Church grants a partial indulgence for devoutly praying approved prayers before a crucifix, including this one, under the usual conditions for gaining indulgences." },
               { question: "What is the difference between a cross and a crucifix?", answer: "A crucifix includes the figure of Christ crucified (the corpus). Catholics use crucifixes to recall the historical sacrifice of Jesus, not only the symbol of resurrection." },
               { question: "When is the best time to pray before a crucifix?", answer: "Fridays, before Confession, during Lent, and at bedtime are traditional times. Any moment of sorrow, gratitude, or need for repentance is appropriate." },
-              { question: "Is there an indulgence for this prayer?", answer: "The Church grants a partial indulgence when prayed before a crucifix with the usual conditions (sacramental confession, Communion, prayer for the Pope)." },
               { question: "Must I kneel to pray it?", answer: "Kneeling is traditional and fitting but not strictly required if physically unable." }
             ]} />
             <RelatedArticles currentSlug="prayer-before-crucifix-catholic" />

@@ -47,7 +47,7 @@ export default function SaintsPeterAndPaulFeastGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />17 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Saints Peter and Paul: Feast Day Guide for Catholics (June 29)</h1>
               <p className="text-xl text-text-muted leading-relaxed">On June 29 the Church honors the two pillars of the early Church — Peter the Rock and Paul the Apostle to the Gentiles — whose martyrdom in Rome shaped Catholic identity for two millennia.</p>
@@ -85,6 +85,13 @@ export default function SaintsPeterAndPaulFeastGuide() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Holy Day of Obligation in the USA?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-peter-and-paul-feast-guide">In the United States, June 29 is not a Holy Day of Obligation on the general calendar. Catholics should still attend Mass if possible — it is a solemnity with full liturgical rank. When June 29 falls on a Sunday, the solemnity replaces the Ordinary Time Sunday. In 2026, June 29 is a Monday, so the feast is observed on Monday with Sunday Mass obligations separate.</LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Key Scripture for June 29</h2>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6 text-text text-sm leading-relaxed space-y-3">
+                <p><strong>Peter:</strong> &quot;You are Peter, and on this rock I will build my church&quot; (Matthew 16:18). &quot;Feed my sheep&quot; (John 21:17).</p>
+                <p><strong>Paul:</strong> &quot;I have fought the good fight, I have finished the race, I have kept the faith&quot; (2 Timothy 4:7).</p>
+                <p><strong>Unity:</strong> &quot;Built upon the foundation of the apostles and prophets, with Christ Jesus himself as the cornerstone&quot; (Ephesians 2:20).</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How American Catholics Can Honor the Day</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Attend Mass on June 29 or the nearest vigil.</li>
@@ -92,6 +99,10 @@ export default function SaintsPeterAndPaulFeastGuide() {
                 <li>Pray for the Pope and bishops — successors of the apostles.</li>
                 <li>Support missionaries through your diocese or groups like the Propagation of the Faith.</li>
               </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Peter and Paul in U.S. Parish Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-peter-and-paul-feast-guide">Thousands of American parishes bear the names St. Peter or St. Paul — from St. Peter&apos;s in Manhattan to St. Paul Cathedral in Minnesota. Immigrant communities often chose these patrons as symbols of fidelity to Rome and missionary zeal. On June 29, many parishes hold special collections for the missions or invite testimonies from recent converts — echoing Paul&apos;s outreach to the Gentiles.</LinkedText>
+              <p className="text-text leading-relaxed mb-6">In 2026, June 29 falls on a Monday. Catholics who attended Sunday Mass on June 28 still benefit from honoring the solemnity at a weekday Mass if work schedules allow. Schools named after these saints often celebrate with red vestments, apostle-themed crafts, and prayers for the Holy Father.</p>
             </div>
             <BlogFAQ faqs={[
               { question: "When is the feast of Saints Peter and Paul?", answer: "June 29 every year. In 2026 it falls on a Monday. It is a solemnity in the Roman calendar." },
