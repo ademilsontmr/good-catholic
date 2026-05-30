@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { CATHOLIC_POPES } from "@/data/catholicPopes";
+import { popeArticlePath } from "@/lib/popeSlugs";
 
 export function PopesTable() {
   const [query, setQuery] = useState("");
@@ -32,7 +34,7 @@ export function PopesTable() {
         <table className="w-full text-sm text-left">
           <thead className="bg-accent/10 sticky top-0 z-10">
             <tr>
-              <th className="px-4 py-3 font-semibold text-text w-16">#</th>
+              <th className="px-4 py-3 font-semibold text-text w-16">Nº</th>
               <th className="px-4 py-3 font-semibold text-text">Pope</th>
               <th className="px-4 py-3 font-semibold text-text">Pontificate</th>
             </tr>
@@ -41,7 +43,11 @@ export function PopesTable() {
             {filtered.map((pope) => (
               <tr key={pope.num} className="border-t border-border/60 hover:bg-background-muted/40">
                 <td className="px-4 py-2 text-text-muted font-medium">{pope.num}</td>
-                <td className="px-4 py-2 text-text">{pope.name}</td>
+                <td className="px-4 py-2 text-text">
+                  <Link to={popeArticlePath(pope.slug)} className="text-accent hover:text-accent/80 font-medium hover:underline">
+                    {pope.name}
+                  </Link>
+                </td>
                 <td className="px-4 py-2 text-text-muted">{pope.reign}</td>
               </tr>
             ))}

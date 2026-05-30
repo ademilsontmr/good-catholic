@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
+import { LinkedText } from "@/components/blog/LinkedText";
 
 export interface FAQItem {
   question: string;
@@ -8,9 +9,11 @@ export interface FAQItem {
 
 interface BlogFAQProps {
   faqs: FAQItem[];
+  /** When set, FAQ answers get automatic internal links (e.g. pope biographies) */
+  linkAnswersSlug?: string;
 }
 
-export function BlogFAQ({ faqs }: BlogFAQProps) {
+export function BlogFAQ({ faqs, linkAnswersSlug }: BlogFAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const schemaData = {
@@ -52,7 +55,13 @@ export function BlogFAQ({ faqs }: BlogFAQProps) {
               </button>
               {openIndex === index && (
                 <div className="px-4 pb-4 text-text-muted leading-relaxed border-t border-border pt-3">
-                  {faq.answer}
+                  {linkAnswersSlug ? (
+                    <LinkedText className="text-text-muted leading-relaxed" currentSlug={linkAnswersSlug}>
+                      {faq.answer}
+                    </LinkedText>
+                  ) : (
+                    faq.answer
+                  )}
                 </div>
               )}
             </div>

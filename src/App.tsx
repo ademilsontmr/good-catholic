@@ -518,6 +518,7 @@ const CatholicFuneralMassWhatToExpect = lazy(() => import("./pages/blog/Catholic
 const CanCatholicsDonateOrgans = lazy(() => import("./pages/blog/CanCatholicsDonateOrgans"));
 const CatholicWeddingMassVsCeremony = lazy(() => import("./pages/blog/CatholicWeddingMassVsCeremony"));
 const ListOfAllPopesCatholicGuide = lazy(() => import("./pages/blog/ListOfAllPopesCatholicGuide"));
+const PopeArticlePage = lazy(() => import("./pages/blog/PopeArticlePage"));
 
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
@@ -1045,6 +1046,9 @@ const App = () => (
             <Route path="/blog/catholic-tithing-guide/" element={<CatholicTithingGuide />} />
             <Route path="/blog/immaculate-conception-guide/" element={<ImmaculateConceptionGuide />} />
             <Route path="/blog/spiritual-gifts-guide/" element={<SpiritualGiftsGuide />} />
+
+            {/* Pope biographies — must stay after all static /blog/* routes */}
+            <Route path="/blog/:articleSlug/" element={<PopeArticlePage />} />
 
             <Route path="*" element={<NotFound />} />
           </Routes>

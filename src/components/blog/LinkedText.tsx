@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { INTERLINK_MAP } from "@/lib/interlinks";
+import { POPE_INTERLINK_MAP } from "@/data/popeInterlinks";
 
 interface LinkedTextProps {
   children: string;
@@ -7,6 +8,8 @@ interface LinkedTextProps {
   /** Slug of the current article — prevents linking to itself */
   currentSlug?: string;
 }
+
+const COMBINED_MAP = { ...INTERLINK_MAP, ...POPE_INTERLINK_MAP };
 
 /**
  * Renders a paragraph of text with automatic contextual internal links.
@@ -17,7 +20,7 @@ export function LinkedText({ children, className, currentSlug }: LinkedTextProps
   const text = children;
 
   // Sort phrases by length descending so longer phrases match first
-  const phrases = Object.keys(INTERLINK_MAP).sort((a, b) => b.length - a.length);
+  const phrases = Object.keys(COMBINED_MAP).sort((a, b) => b.length - a.length);
 
   // Build segments: array of { text: string, url?: string }
   type Segment = { text: string; url?: string };
@@ -25,7 +28,7 @@ export function LinkedText({ children, className, currentSlug }: LinkedTextProps
   const usedUrls = new Set<string>();
 
   for (const phrase of phrases) {
-    const url = INTERLINK_MAP[phrase];
+    const url = COMBINED_MAP[phrase];
 
     // Skip if this URL is the current page or already used in this paragraph
     if (usedUrls.has(url)) continue;

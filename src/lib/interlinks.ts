@@ -208,7 +208,7 @@ export const INTERLINK_MAP: Record<string, string> = {
   "find a Catholic church": "/blog/how-to-find-catholic-church-near-me/",
 
   // Current Affairs
-  "Pope Leo XIV": "/blog/who-is-pope-leo-xiv/",
-  "Pope Francis": "/blog/pope-francis-legacy/",
+  "Pope Leo XIV": "/blog/pope-leo-xiv/",
+  "Pope Francis": "/blog/pope-francis/",
   "Gen Z": "/blog/gen-z-and-catholicism/",
 };

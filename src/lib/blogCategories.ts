@@ -25,6 +25,7 @@ const categoryAliases: Record<string, string> = {
   "Liturgical Year": "Liturgy & Worship",
   Sacraments: "Mass & Sacraments",
   Formation: "Becoming Catholic",
+  Popes: "Catholic History",
 };
 
 export const getCanonicalCategory = (category: string) => categoryAliases[category] ?? category;

@@ -69,7 +69,7 @@ export default function ListOfAllPopesCatholicGuide() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">St. Peter: The First Pope</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="list-of-all-popes-catholic-complete-guide">
-                St. Peter (Pontiff #1) was martyred in Rome under Nero, traditionally crucified upside down. Early Christians preserved his memory at the Vatican Hill, where St. Peter&apos;s Basilica now stands. Peter did not live in a palace; he died as bishop of a persecuted minority. Yet the Church remembers him as the foundation stone — not because he was flawless (he denied Christ three times), but because Christ chose him and prayed that his faith would not fail (Luke 22:32).
+                St. Peter (Pontiff 1º) was martyred in Rome under Nero, traditionally crucified upside down. Early Christians preserved his memory at the Vatican Hill, where St. Peter&apos;s Basilica now stands. Peter did not live in a palace; he died as bishop of a persecuted minority. Yet the Church remembers him as the foundation stone — not because he was flawless (he denied Christ three times), but because Christ chose him and prayed that his faith would not fail (Luke 22:32).
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How Many Popes Have There Been?</h2>
@@ -97,14 +97,14 @@ export default function ListOfAllPopesCatholicGuide() {
                 Every pope is equal in office but not in historical impact. These pontiffs especially shaped Catholicism and the wider world:
               </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>St. Leo I the Great (#45):</strong> Met Attila the Hun; defined Christological doctrine at Chalcedon.</li>
-                <li><strong>St. Gregory I the Great (#64):</strong> Sent missionaries to England; shaped medieval liturgy and pastoral care.</li>
-                <li><strong>St. Gregory VII (#157):</strong> Investiture Controversy; affirmed Church independence from secular rulers.</li>
-                <li><strong>Innocent III (#176):</strong> Peak of medieval papal influence; Fourth Lateran Council (1215).</li>
-                <li><strong>St. Pius V (#225):</strong> Council of Trent implementation; standardized the Roman Missal.</li>
-                <li><strong>St. John Paul II (#264):</strong> Cold War era; first Slavic pope; World Youth Days; Catechism of the Catholic Church.</li>
-                <li><strong>Francis (#266):</strong> First Latin American pope; emphasis on mercy, simplicity, and the peripheries.</li>
-                <li><strong>Leo XIV (#267):</strong> First American pope; Augustinian background; elected May 2025.</li>
+                <li><strong>St. Leo I the Great (45º):</strong> Met Attila the Hun; defined Christological doctrine at Chalcedon.</li>
+                <li><strong>St. Gregory I the Great (64º):</strong> Sent missionaries to England; shaped medieval liturgy and pastoral care.</li>
+                <li><strong>St. Gregory VII (157º):</strong> Investiture Controversy; affirmed Church independence from secular rulers.</li>
+                <li><strong>Innocent III (176º):</strong> Peak of medieval papal influence; Fourth Lateran Council (1215).</li>
+                <li><strong>St. Pius V (225º):</strong> Council of Trent implementation; standardized the Roman Missal.</li>
+                <li><strong>St. John Paul II (264º):</strong> Cold War era; first Slavic pope; World Youth Days; Catechism of the Catholic Church.</li>
+                <li><strong>Francis (266º):</strong> First Latin American pope; emphasis on mercy, simplicity, and the peripheries.</li>
+                <li><strong>Leo XIV (267º):</strong> First American pope; Augustinian background; elected May 2025.</li>
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Antipopes: What They Are (and Why They Are Not on This List)</h2>
@@ -114,7 +114,7 @@ export default function ListOfAllPopesCatholicGuide() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Complete List of All {TOTAL_POPES} Popes (Searchable)</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="list-of-all-popes-catholic-complete-guide">
-                The table below lists every pope in chronological order from St. Peter (#1) to Pope Leo XIV (#267). Early dates are traditional approximations; modern dates are documented. Use the search box to find a pope by name, number, or reign period.
+                The table below lists every pope in chronological order from St. Peter (1º) to Pope Leo XIV (267º). Click any name to open a full biography article with pontificate highlights, legacy, and FAQs. Use the search box to find a pope by name, number, or reign period.
               </LinkedText>
               <PopesTable />
 
