@@ -67,6 +67,11 @@ export default function SaintJohnOfTheCross() {
               <Moon className="w-24 h-24 text-indigo-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint John of the Cross — the Carmelite mystic who wrote the greatest mystical poetry in the Spanish language and mapped the soul&apos;s journey to union with God.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 Juan de Yepes Álvarez — known to history as Saint John of the Cross — was born in 1542 in Fontiveros, a small town in Castile, Spain. He died in 1591, at the age of 49, having spent his brief life in poverty, suffering, and an extraordinary intimacy with God. In those 49 years, he produced a body of mystical writing that has never been surpassed — poetry of such beauty that it is studied in Spanish literature courses alongside Cervantes, and theology of such depth that it has guided souls toward God for five centuries.
               </LinkedText>

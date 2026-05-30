@@ -68,6 +68,10 @@ export default function PrayerForTheSick() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The most powerful Catholic prayers for the sick — for healing, comfort, and strength. Prayers to St.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Theology of Suffering</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-the-sick">
                 Before turning to the prayers themselves, it is essential to understand what the Catholic Church teaches about suffering — because Catholic prayer for the sick is not simply a request for the removal of pain. It is a participation in the mystery of Christ's redemptive suffering.

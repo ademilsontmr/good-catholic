@@ -67,6 +67,11 @@ export default function WhatIsTheCatholicMass() {
               <Cross className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Concluding Rites, with tips for beginners and active participation.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 For a billion Catholics worldwide, the Mass is the center of life. It is the moment when heaven and earth meet, when the sacrifice of Calvary is made present, when the risen Christ gives Himself as food for the journey. Understanding the Mass — its structure, its theology, its history — transforms it from a ritual to be endured into an encounter to be embraced.
               </LinkedText>

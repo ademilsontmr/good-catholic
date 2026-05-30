@@ -67,6 +67,11 @@ export default function CatholicPrayerForAnxiety() {
               <Heart className="w-24 h-24 text-sky-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the most powerful Catholic prayers for anxiety — Saint Dymphna&apos;s intercession, the Rosary, the Peace Prayer of St. Francis, and a complete prayer routine for peace of mind.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-anxiety">
                 This guide brings together the most powerful Catholic prayers for anxiety, the intercession of the saints — especially Saint Dymphna, the patron of mental health — and a practical prayer routine that can transform your relationship with worry. Whether you are experiencing mild everyday stress or a diagnosed anxiety disorder, the Church has wisdom and grace to offer you.
               </LinkedText>

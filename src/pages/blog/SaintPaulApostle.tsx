@@ -67,6 +67,11 @@ export default function SaintPaulApostle() {
               <BookOpen className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Paul the Apostle — the persecutor turned missionary who wrote half the New Testament, traveled the ancient world for Christ, and was martyred in Rome.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Saint Paul the Apostle — born Saul of Tarsus — is one of the most extraordinary figures in human history. A Pharisee who persecuted Christians with violent zeal, he was transformed by a direct encounter with the risen Christ into the greatest missionary the world has ever known. He traveled thousands of miles across the Roman Empire, founded dozens of churches, and wrote letters that became the theological backbone of the New Testament. His thought on grace, justification, the body of Christ, and the love of God has shaped Christian theology for two millennia.
               </LinkedText>

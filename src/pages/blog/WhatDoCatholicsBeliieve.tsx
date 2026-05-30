@@ -72,6 +72,11 @@ export default function WhatDoCatholicsBeliieve() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What do Catholics believe? A clear, complete guide to the core beliefs of the Catholic Church — God, Jesus, salvation, Mary, the sacraments, the afterlife, and more.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-do-catholics-believe">
                 Catholicism is the oldest and largest branch of Christianity, tracing its origins directly to Jesus Christ and the apostles. Its beliefs are summarized in the Nicene Creed — a statement of faith formulated at the Council of Nicaea in 325 AD and still professed by Catholics at every Sunday Mass. But the Creed is just the beginning. Catholic belief is rich, deep, and comprehensive — touching every aspect of human life and destiny.
               </LinkedText>

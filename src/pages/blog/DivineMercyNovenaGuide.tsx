@@ -68,6 +68,10 @@ export default function DivineMercyNovenaGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Divine Mercy Novena — what it is, how to pray it step by step, the Divine Mercy Chaplet, Divine Mercy Sunday, and where to pray it online.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Divine Mercy Devotion?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-novena-guide">
                 The Divine Mercy devotion was revealed by Jesus to St. Faustina Kowalska, a Polish nun, in a series of visions in the 1930s. Jesus asked her to spread trust in his mercy and to pray the Divine Mercy Chaplet. He also established Divine Mercy Sunday — the first Sunday after Easter — as a special day of grace. The devotion was approved by the Church and promoted by Pope John Paul II, who canonized St. Faustina in 2000 and established Divine Mercy Sunday for the universal Church.

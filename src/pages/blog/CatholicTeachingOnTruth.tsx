@@ -67,6 +67,11 @@ export default function CatholicTeachingOnTruth() {
               <BookOpen className="w-24 h-24 text-indigo-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is truth? The Catholic Church teaches that truth is real, objective, and knowable — and that Jesus Christ is not just a teacher of truth but Truth itself.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The irony of Pilate's question is that he was standing in front of the answer. Jesus had said, just hours earlier: "I am the way, the truth, and the life" (John 14:6). And in his conversation with Pilate, Jesus had said: "For this reason I was born, and for this I came into the world, to testify to the truth. Everyone on the side of truth listens to me" (John 18:37). Truth, for the Catholic, is not merely a philosophical concept or a social construct. It is a Person.
               </LinkedText>

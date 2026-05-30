@@ -68,6 +68,10 @@ export default function ImmaculateConceptionGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is the Immaculate Conception? A complete Catholic guide — what the dogma teaches, its biblical basis, the 1854 definition, the Lourdes apparitions, and why it matters for every Catholic.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Immaculate Conception?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="immaculate-conception-guide">
                 The Immaculate Conception is the Catholic dogma that the Virgin Mary was conceived without original sin. From the very first moment of her existence in her mother's womb, Mary was preserved free from the stain of original sin by a singular grace and privilege of God, in view of the merits of Jesus Christ. This is the precise definition proclaimed by Pope Pius IX in the apostolic constitution <em>Ineffabilis Deus</em> on December 8, 1854.

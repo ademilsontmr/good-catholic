@@ -68,6 +68,10 @@ export default function SacredHeartNovenaGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Sacred Heart Novena — the 12 promises of Jesus, how to pray the 9-day novena step by step, the First Friday devotion, and where to pray it online.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Sacred Heart of Jesus?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-novena-guide">
                 The Sacred Heart of Jesus is one of the most beloved devotions in the Catholic Church. It refers to the physical heart of Jesus Christ as the symbol of his infinite love for humanity — a love that was pierced by a lance on the cross and continues to burn for every soul. The devotion was revealed to St. Margaret Mary Alacoque in a series of apparitions between 1673 and 1675, in which Jesus showed her his heart surrounded by flames and a crown of thorns. The feast of the Sacred Heart is celebrated on the Friday after the second Sunday after Pentecost.

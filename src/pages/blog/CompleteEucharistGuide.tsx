@@ -68,6 +68,10 @@ export default function CompleteEucharistGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything about the Eucharist — the Real Presence explained, how to receive Communion properly, a complete guide to Eucharistic adoration, Eucharistic miracles, and Spiritual Communion.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Source and Summit of the Christian Life</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-eucharist">
                 The Second Vatican Council called the Eucharist "the source and summit of the Christian life" — and the Catechism of the Catholic Church repeats this phrase with emphasis (CCC 1324). No other sacrament, no other prayer, no other devotion occupies the same place in Catholic faith and worship. The Eucharist is not merely a symbol of Christ's presence; it is Christ himself — Body, Blood, Soul, and Divinity — truly present under the appearances of bread and wine.

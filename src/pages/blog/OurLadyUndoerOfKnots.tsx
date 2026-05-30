@@ -84,6 +84,11 @@ export default function OurLadyUndoerOfKnots() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the history of Our Lady Undoer of Knots, why Pope Francis loves this devotion, and how to pray the novena to untie the difficult knots in your life.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The image of <em>Maria Knotenlöserin</em> (Mary, Undoer of Knots) is more than a beautiful painting; it is a theological statement. It is based on a meditation by Saint Irenaeus of Lyons in the 2nd century, who wrote: <strong>"The knot of Eve's disobedience was untied by Mary's obedience."</strong>
               </p>

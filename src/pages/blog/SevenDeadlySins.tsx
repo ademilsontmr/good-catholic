@@ -84,6 +84,11 @@ export default function SevenDeadlySins() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are the 7 deadly sins? Pride, greed, lust, envy, gluttony, wrath, and sloth — Catholic meanings and the virtues that overcome each one.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Every Catholic learns about the seven deadly sins at some point — but far fewer understand what makes them truly "deadly." They are not called deadly because they are automatically mortal sins. They are called deadly (or "capital," from the Latin <em>caput</em>, meaning "head") because they are root vices — the deep interior dispositions of the soul that, if left unchecked, give birth to a multitude of other sins and drag the soul toward spiritual death.
               </p>

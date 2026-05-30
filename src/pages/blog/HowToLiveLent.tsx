@@ -71,6 +71,11 @@ export default function HowToLiveLent() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover how to make the most of Lent through prayer, fasting, and almsgiving. Practical tips for a transformative Lenten season that bears lasting spiritual fruit.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Every year, the Church offers us the gift of Lent — forty days of grace, penance, and renewal that mirror Jesus's forty days of fasting in the desert. But for many Catholics, Lent passes by as a vague season of minor inconveniences rather than a genuine encounter with the living God. This guide will help you make Lent what it was always meant to be: a time of profound conversion.
               </LinkedText>

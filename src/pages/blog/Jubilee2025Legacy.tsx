@@ -83,6 +83,11 @@ export default function Jubilee2025Legacy() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Holy Year of 2025 has ended, but its mission continues. Discover how to keep the flame of hope alive in your Christian life in 2026.</p>
+              </div>
+
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 The Jubilee of 2025, under the theme "Pilgrims of Hope," was a time of extraordinary grace for the universal Church. Millions of faithful crossed the Holy Doors, sought reconciliation, and renewed their faith. However, the end of the jubilee liturgical year does not mark the end of our journey, but the beginning of a new stage of witness.
                             </LinkedText>

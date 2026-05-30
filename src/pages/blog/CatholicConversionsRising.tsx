@@ -67,6 +67,11 @@ export default function CatholicConversionsRising() {
               <UserCheck className="w-24 h-24 text-emerald-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic conversions are at a 20-year high. Why are so many people — especially young adults — choosing to become Catholic?</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The narrative about religion in America has been one of steady decline for decades. Church attendance falling. Young people leaving. The "nones" — those with no religious affiliation — growing. The Catholic Church, in particular, has faced a painful combination of demographic decline, the clergy abuse crisis, and cultural marginalization.
               </LinkedText>

@@ -67,6 +67,11 @@ export default function DidJesusFoundTheCatholicChurch() {
               <Cross className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Did Jesus found the Catholic Church? Explore the biblical evidence — Matthew 16:18, the keys of the Kingdom, apostolic succession — and the historical continuity of the Church.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 The question of whether Jesus founded the Catholic Church is not merely academic. It touches the very heart of Christian identity: Who has the authority to interpret Scripture? Who can trace its leadership back to the Apostles? Which community can claim to be the one Jesus established? For Catholics, the answer is clear — and the evidence is both biblical and historical.
               </LinkedText>

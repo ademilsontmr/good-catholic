@@ -84,6 +84,11 @@ export default function CatholicGraceBeforeMeals() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the traditional Catholic grace before meals — &apos;Bless us, O Lord&apos; — plus other versions, the theology of blessing food, grace after meals, and tips for family mealtime prayer.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-grace-before-meals">
                 In a busy American household, mealtimes can easily become rushed affairs — food consumed in front of screens, family members eating at different times, the rhythm of the day leaving little room for pause. But the Catholic tradition invites us to see the family table differently: as a domestic altar, a place where the family gathers not just to eat but to give thanks, to be present to one another, and to acknowledge the God who provides for all our needs.
               </LinkedText>

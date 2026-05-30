@@ -85,6 +85,11 @@ export default function OurLadyOfLourdesGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the complete story of Our Lady of Lourdes apparitions to St. Bernadette.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The story of Lourdes begins not with spectacle, but with the simple faith of a sickly shepherd girl named Bernadette Soubirous. Between February 11 and July 16, 1858, the Virgin Mary appeared to Bernadette 18 times in a grotto near the town of Lourdes, France. These apparitions would change the life of one girl, a town, and millions of pilgrims who would follow.
               </LinkedText>

@@ -67,6 +67,11 @@ export default function CompleteMassGuide() {
               <Church className="w-24 h-24 text-violet-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The most comprehensive guide to the Catholic Mass — every part explained from the Introductory Rites to the Dismissal, with full prayer texts, posture guide, and tips for active participation.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
                 The Second Vatican Council called the Eucharist "the source and summit of the Christian life" (Lumen Gentium 11). The Catechism of the Catholic Church echoes this: "The Eucharist is 'the source and summit of the Christian life'" (CCC 1324). Everything in the Church flows from the Mass and leads back to it. Understanding what happens at Mass — and why — transforms attendance from a passive obligation into an encounter with the living God.
               </LinkedText>

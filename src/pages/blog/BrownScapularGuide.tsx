@@ -85,6 +85,11 @@ export default function BrownScapularGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep history of the Brown Scapular. From St.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The Brown Scapular is the most distinctive sacramental of the Catholic faith. It represents a <strong>Covenant</strong> with the Blessed Virgin Mary. To wear it is to say: "Mother, I am yours."
               </p>

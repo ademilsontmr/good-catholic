@@ -67,6 +67,11 @@ export default function WhatIsTheBibleCatholic() {
               <BookOpen className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How many books are in the Catholic Bible? What does biblical inspiration mean?</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-bible-catholic">
                 The Catholic Church has a rich, nuanced, and deeply reasoned understanding of Sacred Scripture — one that differs in important ways from the approach of many Protestant denominations. Understanding the Catholic view of the Bible is essential not only for apologetics but for a deeper, more fruitful reading of Scripture itself.
               </LinkedText>

@@ -72,6 +72,11 @@ export default function StAnthonyPrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Prayers to St. Anthony of Padua — patron of lost things.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 St. Anthony of Padua (1195-1231) is one of the most beloved saints in the Catholic Church — and one of the most invoked. His feast day (June 13) draws millions of pilgrims to his basilica in Padua, Italy. His intercession is sought for lost objects, lost people, lost faith, and impossible causes.
               </LinkedText>

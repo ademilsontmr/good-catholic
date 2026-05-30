@@ -84,6 +84,11 @@ export default function CatholicismAndEvolution() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Does the Catholic Church accept evolutionary theory? Explore the official teaching of the Popes, the compatibility of science and Genesis, and the origin of the human soul.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The Catholic Church views science and faith as two complementary ways of looking at one reality. Science tells us <strong>how</strong> the world was physically formed; theology tells us <strong>who</strong> willed it into being and <strong>why</strong> we exist.
               </p>

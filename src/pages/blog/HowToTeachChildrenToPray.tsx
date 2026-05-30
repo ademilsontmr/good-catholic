@@ -86,6 +86,11 @@ export default function HowToTeachChildrenToPray() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to teach your children to pray as Catholics. Age-appropriate prayers, tips for building a prayer habit, and how to make prayer a natural part of family life.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 Research consistently shows that children who pray regularly are more likely to maintain their faith into adulthood. But teaching children to pray is not primarily about technique — it is about relationship. You are not teaching your child a skill; you are introducing them to a Person. And the most powerful way to do that is by example.
               </LinkedText>

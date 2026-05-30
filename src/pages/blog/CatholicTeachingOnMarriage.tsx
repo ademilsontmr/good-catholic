@@ -67,6 +67,11 @@ export default function CatholicTeachingOnMarriage() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about marriage? The sacrament, indissolubility, the domestic church, and how to build a holy Catholic marriage.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 In a culture that increasingly treats marriage as a temporary arrangement subject to personal satisfaction, the Catholic Church stands firm: marriage between a baptized man and woman is a sacrament instituted by Christ, indissoluble by its very nature, and ordered toward the good of the spouses and the procreation and education of children. Understanding what the Church teaches — and why — is essential for every Catholic who wants to live this vocation faithfully.
               </LinkedText>

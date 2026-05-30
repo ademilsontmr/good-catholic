@@ -67,6 +67,11 @@ export default function SaintDominic() {
               <BookOpen className="w-24 h-24 text-gray-700" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Dominic — the Spanish priest who founded the Order of Preachers, fought heresy with truth and poverty, and gave the Church the Rosary.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dominic-founder-dominicans">
                 In the early thirteenth century, the Catholic Church faced one of the most dangerous heresies in its history: Catharism, also known as Albigensianism. This dualist movement, which taught that the material world was evil and rejected the sacraments, the Incarnation, and the authority of the Church, had spread through southern France like wildfire. Whole regions had abandoned the faith. The Church's response — crusade and inquisition — was producing more resentment than conversion.
               </LinkedText>

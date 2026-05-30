@@ -85,6 +85,11 @@ export default function SaintPadrePioMiracles() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the extraordinary miracles of St. Padre Pio - his bilocation, healing miracles, reading of souls, and the stigmata that lasted 50 years.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               St. Padre Pio of Pietrelcina was one of the most extraordinary saints of the 20th century. His miraculous gifts—including the stigmata, bilocation, and reading of souls—drew millions to faith and continue to inspire devotion today.
             </LinkedText>

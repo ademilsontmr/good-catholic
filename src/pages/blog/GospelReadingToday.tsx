@@ -72,6 +72,11 @@ export default function GospelReadingToday() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How to find today&apos;s Catholic Gospel reading — the best apps, websites, and methods. Plus how to understand and pray with the Gospel reading every day.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gospel-reading-today-catholic">
                 The Gospel reading is the most important Scripture reading at every Catholic Mass. It is the only reading for which the congregation stands, the only one preceded by a solemn acclamation, and the only one that can be proclaimed only by an ordained minister (deacon or priest). It contains the words and deeds of Jesus Christ Himself.
               </LinkedText>

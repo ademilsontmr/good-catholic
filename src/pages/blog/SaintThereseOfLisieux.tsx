@@ -84,6 +84,11 @@ export default function SaintThereseOfLisieux() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of St. Thérèse of Lisieux — her Little Way of spiritual childhood, her autobiography Story of a Soul, her death at 24, and her promise to spend her heaven doing good on earth.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-therese-of-lisieux">
                 In the history of Catholic spirituality, few figures have spoken more directly to the hearts of ordinary people than St. Thérèse of Lisieux. She was not a great theologian, a missionary, or a mystic who levitated in ecstasy. She was a young French girl who entered a convent, struggled with dryness in prayer, suffered from illness, and died before her 25th birthday. And yet her "Little Way" — the path of spiritual childhood, of doing small things with great love — has transformed millions of lives and earned her the title of Doctor of the Church.
               </LinkedText>

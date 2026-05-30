@@ -73,6 +73,10 @@ export default function ChristmasMassNearMe() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Find Christmas Mass times 2026 near you — Christmas Eve and Christmas Day. What to expect at Midnight Mass, how to find your nearest Catholic church, and how to prepare.</p>
+              </div>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">📅 Christmas 2026 Key Dates</h3>
                 <ul className="text-text space-y-2 text-sm">

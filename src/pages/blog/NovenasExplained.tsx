@@ -85,6 +85,11 @@ export default function NovenasExplained() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the tradition of Catholic novenas. Learn how to pray a novena, the most powerful novenas, and why nine days of prayer brings extraordinary graces.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
                 The novena is one of Catholicism's most beloved prayer traditions. For nine days, the faithful pour out their hearts to God or His saints, trusting in the power of persevering prayer. Discover the origins, meaning, and practice of this ancient devotion.
               </LinkedText>

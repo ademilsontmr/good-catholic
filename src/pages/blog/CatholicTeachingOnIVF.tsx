@@ -72,6 +72,11 @@ export default function CatholicTeachingOnIVF() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about IVF (in vitro fertilization)? A clear explanation from the Catechism, Donum Vitae, and Dignitas Personae — and what alternatives the Church supports.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-ivf">
                 The desire for a child is one of the most profound human longings. When a couple struggles with infertility, the pain is real and deep. The Catholic Church acknowledges this suffering with compassion. At the same time, the Church teaches that not every means of achieving a good end is morally acceptable — and that IVF, despite its good intention, involves serious moral problems that cannot be overlooked.
               </LinkedText>

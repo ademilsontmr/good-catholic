@@ -72,6 +72,11 @@ export default function WhatIsPurgatoryGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is Purgatory? The complete Catholic explanation — biblical basis, what Purgatory is and isn&apos;t, how to pray for the souls there, and why this doctrine reveals God&apos;s mercy.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Of all the distinctively Catholic doctrines, Purgatory is perhaps the most frequently misrepresented. Critics call it unbiblical. Some imagine it as a kind of second hell. Others think it is a place where you can "earn" your way to heaven after death. None of these characterizations are accurate.
               </LinkedText>

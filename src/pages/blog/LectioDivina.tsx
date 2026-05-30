@@ -84,6 +84,11 @@ export default function LectioDivina() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to practice Lectio Divina step by step. Complete guide covering the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Most American Catholics read the Bible occasionally — at Mass, in a study group, or during a personal devotion. But Lectio Divina is something different. It is not Bible study. It is not reading for information. It is a slow, prayerful encounter with the Word of God in which you allow Scripture to read you — to illuminate your heart, challenge your assumptions, and draw you into intimate conversation with God.
               </LinkedText>

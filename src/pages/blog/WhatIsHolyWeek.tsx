@@ -84,6 +84,11 @@ export default function WhatIsHolyWeek() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is Holy Week? Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-week-catholic">
                 There is no week like Holy Week in the entire Christian calendar. From Palm Sunday through the Easter Vigil, the Church relives — not merely remembers, but truly enters into — the Paschal Mystery: the suffering, death, and resurrection of Jesus Christ. The liturgies of Holy Week are among the oldest, most elaborate, and most theologically rich in the entire Catholic tradition. To participate in them fully is to be transformed.
               </LinkedText>

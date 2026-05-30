@@ -72,6 +72,11 @@ export default function DailyMassReadings() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How to follow the Catholic daily Mass readings — what they are, the three-year cycle, the best apps and websites, and how to use them for daily prayer and Scripture study.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 One of the most beautiful aspects of Catholic life is that every day, over a billion Catholics around the world hear the same Scripture readings at Mass. Whether you are in New York or Nairobi, Tokyo or Rome, the same Word of God is proclaimed. Following the daily Mass readings connects you to this universal prayer of the Church.
               </LinkedText>

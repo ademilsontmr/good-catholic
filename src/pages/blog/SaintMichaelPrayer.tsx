@@ -73,6 +73,10 @@ export default function SaintMichaelPrayer() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the full text of the Prayer to Saint Michael, its history with Pope Leo XIII, why it was written, and how to use it for spiritual protection today.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Full Text of the Prayer to Saint Michael
               </h2>

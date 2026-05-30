@@ -68,6 +68,10 @@ export default function CatholicRetreatsGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything about Catholic retreats — types of retreats, how to find one near you, how to prepare, how to make the most of it, and how to make a retreat at home.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Catholic Retreat?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-retreats-guide">
                 A retreat is a dedicated period of prayer, silence, and spiritual reflection away from the noise and demands of ordinary life. The word "retreat" comes from the military concept of withdrawing from the front lines to regroup, rest, and prepare for the next engagement. In the spiritual life, a retreat is a withdrawal from the world — not to escape it permanently, but to return to it renewed, refocused, and more deeply rooted in God.

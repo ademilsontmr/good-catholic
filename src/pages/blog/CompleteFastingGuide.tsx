@@ -68,6 +68,10 @@ export default function CompleteFastingGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything about Catholic fasting — the Church&apos;s rules, types of fasting, how to fast well, the spiritual benefits, and a complete fasting checklist for Lent, Advent, and year-round.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Fasting?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-fasting-guide">
                 Fasting is the voluntary deprivation of food or other goods for a spiritual purpose. It is not a diet, a health regimen, or a form of self-punishment. It is a deliberate act of the will by which a person denies the body something it desires in order to strengthen the spirit, express sorrow for sin, and open the soul more fully to God.

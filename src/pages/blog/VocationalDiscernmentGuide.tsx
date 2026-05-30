@@ -85,6 +85,11 @@ export default function VocationalDiscernmentGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover how to discern God&apos;s calling for your life. Learn about religious vocations, marriage, single life, and practical steps for vocational discernment in the Catholic tradition.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment-guide">
                 In today's world of endless choices and competing voices, the question "What does God want me to do with my life?" can feel overwhelming. Yet the Catholic Church offers a rich tradition of vocational discernment that combines prayer, practical wisdom, and spiritual direction to help us discover God's unique call for each person.
               </LinkedText>

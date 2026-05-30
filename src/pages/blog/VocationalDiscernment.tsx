@@ -75,6 +75,11 @@ export default function VocationalDiscernment() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the principles of spiritual discernment to discover God&apos;s plan for you. Practical tips for making decisions in the light of faith.</p>
+              </div>
+
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment">
                                 Discernment is the art of discovering God's will amid the various options life presents us. It is not a magic formula, but a spiritual process that requires humility, patience, and above all, a life of sincere prayer. God does not play riddles with us; He desires that we be happy and fulfilled in our vocation.
                             </LinkedText>

@@ -72,6 +72,11 @@ export default function SaintJosephGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Saint Joseph — foster father of Jesus, patron of the universal Church, families, workers, and a happy death. His life, prayers, feast days, and devotions.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 In an age that desperately needs models of authentic fatherhood, Saint Joseph stands as the supreme example. He was a just man, a faithful husband, a devoted father, a skilled craftsman, and a man of deep prayer. He protected the Holy Family from danger, provided for their needs, and raised the Son of God with love and wisdom. And he did all of this in silence.
               </LinkedText>

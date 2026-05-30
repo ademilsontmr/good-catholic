@@ -67,6 +67,11 @@ export default function WhatIsCatholicSpirituality() {
               <BookOpen className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic spirituality is not one-size-fits-all. Discover the great spiritual traditions — Benedictine, Franciscan, Dominican, Ignatian, Carmelite — and find the one that fits your soul.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-catholic-spirituality">
                 When people ask "what is Catholic spirituality?", they often expect a single answer — a set of practices, a method of prayer, a way of life. But the Catholic tradition is far richer than that. Over two thousand years, the Holy Spirit has raised up saints and founders who have developed distinct schools of spirituality — each one a different path up the same mountain, each one illuminating a different facet of the inexhaustible mystery of God.
               </LinkedText>

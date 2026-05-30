@@ -85,6 +85,11 @@ export default function CatholicInnerHealingGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the Catholic approach to inner healing prayer. Learn how to heal emotional wounds, break generational curses, and find freedom through Christ&apos;s healing power.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 In today's world, more Catholics than ever are struggling with anxiety, depression, trauma, and deep emotional pain. While secular therapy offers valuable tools, Catholic inner healing prayer addresses the spiritual dimension of our wounds that psychology alone cannot reach. This isn't about rejecting psychology; it's about integrating it with the healing power that flows from Christ's sacrifice.
               </LinkedText>

@@ -67,6 +67,11 @@ export default function HowToOvercomeSin() {
               <Shield className="w-24 h-24 text-emerald-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How do Catholics overcome sin and break bad habits? A practical guide to the Catholic approach — confession, prayer, virtue, spiritual direction, and the sacraments as tools for conversion.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 St. Paul wrote: "I do not understand what I do. For what I want to do I do not do, but what I hate I do" (Romans 7:15). Every honest Catholic recognizes this experience. We know what is right. We want to do what is right. And yet we fall — sometimes into the same sins, over and over again.
               </LinkedText>

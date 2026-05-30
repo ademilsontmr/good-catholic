@@ -67,6 +67,11 @@ export default function CatholicPrayerForMarriage() {
               <Heart className="w-24 h-24 text-pink-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Powerful Catholic prayers for marriage — for your spouse, for a troubled marriage, for a future spouse, and for the grace to live the sacrament of matrimony faithfully.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 The Catholic Church teaches that marriage is one of the seven sacraments — not merely a legal contract or a social institution, but a sacred covenant in which husband and wife become a living sign of Christ's faithful, fruitful, and self-giving love for the Church. This means that every Catholic marriage is, at its core, a vocation — a calling from God that requires His grace to live well.
               </LinkedText>

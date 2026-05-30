@@ -67,6 +67,11 @@ export default function SaintElizabethAnnSeton() {
               <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Elizabeth Ann Seton — the first person born in the United States to be canonized. Her conversion, her founding of Catholic education in America, and her enduring legacy.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Saint Elizabeth Ann Seton (1774–1821) is one of the most remarkable figures in American Catholic history. In a life of only 46 years, she experienced extraordinary joy and devastating loss, made a courageous religious conversion that cost her her social standing and many of her friendships, and built institutions that would shape Catholic education in America for generations. She is the mother of the American parochial school system.
               </LinkedText>

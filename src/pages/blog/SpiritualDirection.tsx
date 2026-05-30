@@ -84,6 +84,11 @@ export default function SpiritualDirection() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn what Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director in your diocese or online.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Every serious Catholic who wants to grow in holiness needs a spiritual director. This is not a modern invention or a luxury for the spiritually advanced — it is an ancient practice rooted in the wisdom of the Church, recommended by the saints, and urgently needed in our time. Yet many American Catholics have never had a spiritual director and are not sure where to begin.
               </LinkedText>

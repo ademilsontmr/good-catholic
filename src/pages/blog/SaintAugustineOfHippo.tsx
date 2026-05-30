@@ -72,6 +72,11 @@ export default function SaintAugustineOfHippo() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Augustine of Hippo — his dramatic conversion, the Confessions, his theology of grace, and why he remains one of the greatest Doctors of the Church.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-augustine-of-hippo">
                 Saint Augustine of Hippo (354–430 AD) is one of the most influential thinkers in the history of the Western world. His writings shaped Catholic theology, Western philosophy, and even the Protestant Reformation — which both drew from and reacted against his ideas. His autobiography, the Confessions, is the first great spiritual memoir in Western literature and remains one of the most widely read books in the world, 1,600 years after it was written.
               </LinkedText>

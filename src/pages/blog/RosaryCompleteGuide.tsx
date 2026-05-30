@@ -85,6 +85,11 @@ export default function RosaryCompleteGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to the Holy Rosary with all 20 mysteries, step-by-step instructions, the 15 promises of Mary, and the history of the Battle of Lepanto.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Most people see the Rosary as a set of repetitive prayers. But to the expert, the Rosary is a <strong>Scriptural Journey</strong>. It is the life of Jesus through the eyes of the one who knew Him best: His Mother.
               </p>

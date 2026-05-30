@@ -84,6 +84,11 @@ export default function SaintPadrePio() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of St. Padre Pio: his stigmata, miracles, spiritual gifts, famous quotes, and a prayer to this beloved Capuchin friar canonized by Pope John Paul II in 2002.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Few saints in modern history have captured the hearts of American Catholics quite like Padre Pio. Born in a small Italian village, he entered religious life as a teenager, received the visible stigmata at age 31, and spent the next five decades as a living witness to the Passion of Christ. His confessional lines stretched for days. His spiritual gifts — bilocation, reading of souls, healing — were documented by thousands of witnesses. And his canonization in 2002 by Pope John Paul II confirmed what millions already knew in their hearts: this humble friar was a saint.
               </LinkedText>

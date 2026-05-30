@@ -67,6 +67,11 @@ export default function CatholicTeachingOnPeace() {
               <Heart className="w-24 h-24 text-sky-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about peace? From Augustine&apos;s &apos;tranquility of order&apos; to Pacem in Terris, discover the Catholic vision of inner and social peace.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-peace">
                 In a world torn by war, anxiety, political division, and personal restlessness, the question of peace has never been more urgent. Yet the peace the world offers — the peace of distraction, of comfort, of the absence of visible conflict — is not the peace the Church proclaims. Catholic teaching on peace is rooted in a vision of reality that is at once ancient and radically relevant: peace is not a feeling, not a political arrangement, and not merely the cessation of hostilities. It is an order — a right relationship between God, the human person, and the world.
               </LinkedText>

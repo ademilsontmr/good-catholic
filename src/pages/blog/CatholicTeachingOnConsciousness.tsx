@@ -67,6 +67,11 @@ export default function CatholicTeachingOnConsciousness() {
               <HelpCircle className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does &apos;follow your conscience&apos; really mean in Catholic teaching? Learn what conscience is, why it must be formed, and how to develop a well-formed Catholic conscience.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 In contemporary culture, "follow your conscience" has come to mean "do whatever feels right to you." It is invoked to justify virtually any moral choice, as if conscience were simply a synonym for personal preference or subjective feeling. But this is not what the Catholic Church teaches. The Catholic understanding of conscience is richer, more demanding, and ultimately more respectful of human dignity than the popular version.
               </LinkedText>

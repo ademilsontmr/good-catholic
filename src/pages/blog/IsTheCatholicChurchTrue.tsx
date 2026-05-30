@@ -85,6 +85,11 @@ export default function IsTheCatholicChurchTrue() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Is the Catholic Church the true Church? Learn about the four marks of the Church, apostolic succession, the primacy of Peter, and historical continuity.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">
                 In the Nicene Creed, we profess faith in "One, Holy, Catholic, and Apostolic Church." These are the four "Marks" that serve as the fingerprint of the institution founded by Christ. For a Catholic, history is not a suggestion—it is a witness.
               </LinkedText>

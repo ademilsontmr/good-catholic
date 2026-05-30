@@ -72,6 +72,11 @@ export default function CatholicLivingSecularWorld() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Practical guide for Catholics living in a secular culture. Learn how to maintain your faith, witness to others, and stay strong when the world pushes back.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The early Christians lived in a Roman Empire that was hostile to their faith. They were a minority. They were misunderstood. They were persecuted. Yet within three centuries, they had transformed the entire civilization. They did not do this by hiding their faith or compromising their convictions. They did it by living their faith with joy, courage, and love.
               </LinkedText>

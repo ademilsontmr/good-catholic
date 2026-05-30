@@ -85,6 +85,11 @@ export default function StationsOfTheCross() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep history of the Stations of the Cross. From the Via Dolorosa to the theology of the 14 stations, learn how this devotion heals the soul.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 For those who cannot travel to Jerusalem to walk the <strong>Via Dolorosa</strong>, the Church has brought Jerusalem to us. The 14 stations are windows into the most important hours of human history.
               </p>

@@ -68,6 +68,11 @@ export default function CompleteRosaryGuide() {
               <Heart className="w-24 h-24 text-pink-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The most complete Rosary guide available — step-by-step instructions, all 20 mysteries with meditations, every prayer with full text, the promises of the Rosary, and tips for beginners.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-rosary-guide">
                 Pope Paul VI called the Rosary "the compendium of the entire Gospel." St. John Paul II, who added the Luminous Mysteries in 2002, said: "The Rosary is my favorite prayer." St. Padre Pio called it "the weapon" — the most powerful spiritual weapon against evil. Our Lady of Fatima asked the three shepherd children to pray the Rosary every day. If you want one prayer to anchor your spiritual life, this is it.
               </LinkedText>

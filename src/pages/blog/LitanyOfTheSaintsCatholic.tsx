@@ -72,6 +72,11 @@ export default function LitanyOfTheSaintsCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic guide to the Litany of the Saints — how the responses work, when the Church prays it (Easter Vigil, ordinations, confirmations), and why we invoke the saints together.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Litany Works</h2>
               <p className="text-text leading-relaxed mb-6">
                 A leader names Christ, the Blessed Virgin Mary, angels, and many saints. After each invocation, everyone answers: <em>Pray for us</em> (or <em>Have mercy on us</em> for the Kyrie-style invocations at the beginning). The rhythm is simple: petition, response — over and over — building a cloud of intercessors.

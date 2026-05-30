@@ -87,6 +87,11 @@ export default function HowToBecomeCatholicGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How to become Catholic — the complete guide to the RCIA process, what to expect, how long it takes, what you&apos;ll learn, and how to find a parish near you.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Every year, hundreds of thousands of people around the world become Catholic. They come from every background — Protestant Christians, people of other faiths, and those with no religious background at all. What they share is a conviction that the Catholic Church is where God is calling them.
               </LinkedText>

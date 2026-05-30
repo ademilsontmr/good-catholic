@@ -85,6 +85,11 @@ export default function PropheciesOfFatima() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the three secrets of Fatima, their prophetic messages, and how they relate to Catholic prophecy, Russia, and the conversion of nations.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
                 When Our Lady appeared to Lucia, Francisco, and Jacinta between May and October 1917, Europe was engulfed in the Great War. The children were simple shepherds from a poor peasant family, yet they were chosen to receive one of the most significant prophetic messages of the 20th century.
               </LinkedText>

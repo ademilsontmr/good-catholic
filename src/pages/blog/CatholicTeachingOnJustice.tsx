@@ -67,6 +67,11 @@ export default function CatholicTeachingOnJustice() {
               <Shield className="w-24 h-24 text-blue-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about justice? Learn about the four types of justice, Catholic social teaching, the preferential option for the poor, and how to live justly.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-justice">
                 Few words are more contested in contemporary American culture than "social justice." For some, it represents the heart of the Gospel — the call to care for the poor, defend the vulnerable, and transform unjust structures. For others, it has become a political slogan detached from its moral foundations. The Catholic Church's teaching on justice is neither of these — it is something far more demanding and far more coherent.
               </LinkedText>

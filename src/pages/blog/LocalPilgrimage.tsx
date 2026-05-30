@@ -83,6 +83,11 @@ export default function LocalPilgrimage() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Practical and spiritual guide to organizing pilgrimages to local shrines and jubilee churches, strengthening community faith in 2026.</p>
+              </div>
+
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
                                 Pilgrimage is a metaphor for Christian life: we are on our way to the Heavenly Homeland. Organizing a local pilgrimage is an excellent way to unite the community, rediscover the history of faith in your region, and obtain jubilee graces without great costs.
                             </LinkedText>

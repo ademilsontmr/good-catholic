@@ -67,6 +67,11 @@ export default function SaintThomasAquinas() {
               <BookOpen className="w-24 h-24 text-indigo-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Thomas Aquinas — the Angelic Doctor, his life, the Summa Theologica, his five proofs for God&apos;s existence, and why he is the greatest theologian in Catholic history.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Saint Thomas Aquinas (1225–1274) is one of the most important intellectual figures in the history of Western civilization. His synthesis of Christian theology and Aristotelian philosophy — known as Thomism — became the official philosophical framework of the Catholic Church and shaped Western thought for centuries. His masterwork, the Summa Theologica, is one of the greatest intellectual achievements in human history: a systematic exposition of the whole of Christian theology, organized with breathtaking logical precision.
               </LinkedText>

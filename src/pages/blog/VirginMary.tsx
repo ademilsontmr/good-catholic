@@ -85,6 +85,11 @@ export default function VirginMary() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Explore the deep theology of the Virgin Mary. Learn about the four dogmas, the Ark of the New Covenant typology, and why Catholics venerate Our Lady.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Many modern Christians view Mary as a "temporary vessel"—a woman who was used and then discarded. The Catholic Church, following the 2,000-year witness of the Fathers, sees her as the <strong>Ark of the New Covenant</strong>. Just as the ancient Ark carried the Word of God in stone, Mary carried the Word of God in Flesh.
               </p>

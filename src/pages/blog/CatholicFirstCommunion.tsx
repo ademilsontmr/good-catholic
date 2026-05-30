@@ -67,6 +67,11 @@ export default function CatholicFirstCommunion() {
               <Cross className="w-24 h-24 text-amber-400" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to know about Catholic First Communion — what it is, the age for First Communion, how to prepare your child, what happens at the Mass, and how to celebrate.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 The day a child receives First Holy Communion is a milestone that Catholic families treasure for a lifetime. It is the moment when a young person — for the first time — receives Jesus Christ truly present in the Eucharist: Body, Blood, Soul, and Divinity. This is not a symbolic gesture or a rite of passage in the cultural sense. It is a real encounter with the living God.
               </LinkedText>

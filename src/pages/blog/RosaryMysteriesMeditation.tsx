@@ -85,6 +85,11 @@ export default function RosaryMysteriesMeditation() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn to meditate on all 20 Rosary mysteries. Discover the Joyful, Sorrowful, Glorious, and Luminous mysteries with reflections for deeper contemplation.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="rosary-mysteries-meditation">
                 The Rosary is not merely repetition—it is meditation on the mysteries of Christ's life. With twenty mysteries spanning His entire earthly journey, the Rosary offers a complete school of contemplation that transforms the one who prays it.
               </LinkedText>

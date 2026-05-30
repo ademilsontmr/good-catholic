@@ -68,6 +68,10 @@ export default function CatholicTeachingOnHeaven() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about heaven? The beatific vision, the resurrection of the body, whether we&apos;ll recognize loved ones, and what eternal life really means.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Teaches About Heaven (CCC 1023–1029)</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">
                 The Catechism of the Catholic Church defines heaven with remarkable precision. According to CCC 1023: "Those who die in God's grace and friendship and are perfectly purified live for ever with Christ. They are like God for ever, for they 'see him as he is' (1 John 3:2), face to face."

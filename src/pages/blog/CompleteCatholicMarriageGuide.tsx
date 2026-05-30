@@ -68,6 +68,10 @@ export default function CompleteCatholicMarriageGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything engaged Catholic couples need to know — Pre-Cana, required documents, the wedding ceremony explained, the exchange of vows, NFP, and how to build a holy marriage.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Catholic Marriage Is</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-marriage-guide">
                 The Sacrament of Matrimony is one of the seven sacraments of the Catholic Church. Unlike most sacraments, where the priest or deacon is the minister, in Catholic marriage the spouses themselves are the ministers of the sacrament to each other. The priest or deacon serves as the Church's official witness. This means that the couple's free exchange of consent — their vows — is the sacramental act itself.

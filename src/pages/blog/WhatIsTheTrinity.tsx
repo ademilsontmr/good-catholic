@@ -67,6 +67,11 @@ export default function WhatIsTheTrinity() {
               <HelpCircle className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Holy Trinity explained in plain English — what Catholics believe about the Father, Son, and Holy Spirit as one God in three Persons.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 Every time a Catholic makes the Sign of the Cross — "In the name of the Father, and of the Son, and of the Holy Spirit" — they are professing the doctrine of the Holy Trinity. Every Mass begins and ends with the Trinitarian formula. Every baptism is performed in the name of the Trinity. The Trinity is not a peripheral doctrine of Christianity; it is the foundation of everything.
               </LinkedText>

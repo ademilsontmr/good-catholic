@@ -87,6 +87,10 @@ export default function BestCatholicBibleTranslations() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Which Catholic Bible translation is best? Compare the Douay-Rheims, RSV-CE, NAB, NABRE, Jerusalem Bible, and New Jerusalem Bible.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why Translation Matters for Catholics
               </h2>

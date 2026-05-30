@@ -67,6 +67,11 @@ export default function WhatIsOriginalSin() {
               <HelpCircle className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is original sin? Learn the Catholic teaching on the fall of Adam and Eve, the effects of original sin on human nature, and how baptism restores what was lost.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 Original sin is not simply the first sin ever committed — it is a condition inherited by every human being as a consequence of that first sin. The Catechism of the Catholic Church defines it as "the sin contracted, not committed — a condition rather than an act" (CCC 404). Understanding this distinction is essential to understanding what the Church actually teaches.
               </LinkedText>

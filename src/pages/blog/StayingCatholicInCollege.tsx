@@ -68,6 +68,10 @@ export default function StayingCatholicInCollege() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How to stay Catholic in college — finding a Newman Center, navigating secular culture, maintaining your faith, and growing spiritually during your college years.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 You have spent your whole life in a Catholic family, attending Catholic school or religious education, going to Mass on Sundays. And now you are heading to college — perhaps for the first time away from home, surrounded by people who do not share your faith, in an environment that may actively challenge everything you believe. This is a critical moment. The decisions you make in the next four years about your faith will shape the rest of your life. This guide is designed to help you make the right ones.
               </LinkedText>

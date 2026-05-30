@@ -67,6 +67,11 @@ export default function WhatIsCatholicFaith() {
               <Cross className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete introduction to the Catholic faith — what Catholics believe, the seven sacraments, Mary and the saints, the Pope, and how to begin exploring Catholicism.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Whether you are a seeker exploring Christianity for the first time, a lapsed Catholic returning to the faith, or someone who simply wants to understand what their Catholic neighbors believe, this introduction covers the essentials. The Catholic faith is not merely a set of rules or rituals — it is a comprehensive vision of God, humanity, and the universe, rooted in 2,000 years of Scripture, Tradition, and lived experience.
               </LinkedText>

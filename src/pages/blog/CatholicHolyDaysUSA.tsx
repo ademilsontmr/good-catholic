@@ -67,6 +67,11 @@ export default function CatholicHolyDaysUSA() {
               <Calendar className="w-24 h-24 text-indigo-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are the 6 Holy Days of Obligation in the US? Get the 2026 dates, learn the Saturday/Monday dispensation rule, and understand what happens if you miss one.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 Most Catholics know they are required to attend Mass on Sundays. But the Church also designates certain feast days throughout the year as Holy Days of Obligation — days when the faithful are bound to attend Mass, just as on Sundays. In the United States, the bishops have established six such days, and they have also granted important dispensations that affect when the obligation applies.
               </LinkedText>

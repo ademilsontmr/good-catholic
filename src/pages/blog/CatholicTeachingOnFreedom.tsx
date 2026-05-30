@@ -67,6 +67,11 @@ export default function CatholicTeachingOnFreedom() {
               <UserCheck className="w-24 h-24 text-emerald-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic understanding of freedom is radically different from the secular one. True freedom is not doing whatever you want — it is the capacity to choose the good and become who you are meant to be.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-freedom-catholic">
                 The secular world defines freedom as the absence of constraint — the ability to do whatever you want, whenever you want, without interference from others. On this view, freedom is maximized when all external limits are removed. The ideal is the autonomous individual, answerable to no one, bound by nothing.
               </LinkedText>

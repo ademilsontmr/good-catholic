@@ -84,6 +84,11 @@ export default function ApparitionsOfOurLady() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Approved Marian apparitions of Our Lady — Guadalupe (1531), Lourdes (1858), and Fatima (1917). History, messages, miracles, and how Catholics respond.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Marian apparitions — occasions when the Virgin Mary is believed to appear physically to one or more individuals — have been part of Catholic experience since the early Church. However, not all claimed apparitions are equal. The Church has a rigorous, multi-stage process for investigating them, and very few receive official approbation.
               </LinkedText>

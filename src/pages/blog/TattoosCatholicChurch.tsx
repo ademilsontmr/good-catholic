@@ -87,6 +87,11 @@ export default function TattoosCatholicChurch() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Explore the Catholic teaching on tattoos. Analyze Leviticus 19:28, St.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-tattoos-a-sin">
                 In an era where tattoos have transitioned from counter-cultural rebellion to mainstream self-expression, the "tattoo question" has become one of the most frequently asked moral queries in parish offices and spiritual direction. Can a faithful Catholic get ink? Does it defile the "Temple of the Holy Spirit"?
               </LinkedText>

@@ -67,6 +67,11 @@ export default function CatholicChurchNearMe() {
               <Church className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">There are over 17,000 Catholic parishes in the US. Here&apos;s how to find the right one — parish finders, what to look for, Latin Mass locations, Eastern Catholic churches, and how to register.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 The Catholic Church is the largest Christian denomination in the United States, with approximately 70 million Catholics and over 17,000 parishes spread across all 50 states. Whether you are a lifelong Catholic who has moved to a new city, someone returning to the faith after years away, or a non-Catholic curious about attending Mass, finding the right parish is one of the most important steps in your Catholic journey.
               </LinkedText>

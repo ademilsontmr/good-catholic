@@ -68,6 +68,10 @@ export default function CatholicTeachingOnContraception() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about contraception? A complete explanation of Humanae Vitae (1968), the Catechism (CCC 2370), and why the Church upholds this teaching.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 In 1968, Pope Paul VI issued an encyclical that shocked the world — and that the world has never stopped arguing about. <em>Humanae Vitae</em> ("Of Human Life") reaffirmed the Catholic Church's ancient teaching that artificial contraception is intrinsically evil. Fifty-seven years later, that teaching remains unchanged, and the reasons behind it are more compelling than ever. This article explains what the Church teaches, why it teaches it, and what it means for Catholic married life.
               </p>

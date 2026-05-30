@@ -83,6 +83,11 @@ export default function SaintBenedictMedal() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything about the Saint Benedict Medal: its history, what every symbol means, the Vade Retro prayer, how to have it blessed, and how Catholics use it for spiritual protection.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 Walk into any Catholic gift shop in the world, and you will almost certainly find the Medal of Saint Benedict — a round coin bearing a collection of mysterious letters, a cross, and the image of a monk. Yet despite its universal popularity, many Catholics who wear or display it have only a vague idea of what its symbols mean or how to use it properly.
               </LinkedText>

@@ -72,6 +72,11 @@ export default function OurLadyImmaculateConceptionUSA() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Why is Our Lady of the Immaculate Conception the patroness of the United States? , and how to honor her.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-immaculate-conception-patroness-usa">
                 Every nation has a patron saint — a heavenly intercessor who watches over its people and presents their needs before God. The United States is no exception. Since 1846, the patroness of the United States has been Our Lady of the Immaculate Conception — the Blessed Virgin Mary, honored under the title of her sinless conception. This is not merely a historical curiosity. It is a living devotion that shapes the spiritual identity of American Catholicism.
               </LinkedText>

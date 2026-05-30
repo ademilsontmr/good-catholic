@@ -84,6 +84,11 @@ export default function HowToBecomeCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to become Catholic through the RCIA process. Complete guide covering the 4 stages of RCIA, Easter Vigil, what to expect, timeline, and FAQs for converts to Catholicism.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Becoming Catholic is one of the most significant decisions a person can make. It's not just joining an organization — it's entering into full communion with the Church that Jesus Christ founded, receiving the fullness of the sacraments, and becoming part of a 2,000-year-old family of faith. The journey is rich, challenging, and deeply rewarding.
               </LinkedText>

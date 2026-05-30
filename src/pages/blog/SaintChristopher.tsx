@@ -72,6 +72,11 @@ export default function SaintChristopher() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn about Saint Christopher — patron of travelers, his legendary story of carrying the Christ child, the meaning of his medal, and why Catholics still venerate him today.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 Saint Christopher is one of the most popular saints in the Catholic Church, yet he is also one of the most mysterious. The historical evidence for his existence is limited, and in 1969 the Catholic Church removed his feast from the universal calendar — a decision that caused considerable controversy. Yet devotion to Christopher has never waned. Millions of Catholics continue to wear his medal and invoke his protection on their journeys.
               </LinkedText>

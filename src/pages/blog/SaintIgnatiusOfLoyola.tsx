@@ -67,6 +67,11 @@ export default function SaintIgnatiusOfLoyola() {
               <BookOpen className="w-24 h-24 text-blue-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Ignatius of Loyola — the soldier-turned-mystic who founded the Jesuits and wrote the Spiritual Exercises, one of the most influential books in Christian history.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-ignatius-of-loyola">
                 Saint Ignatius of Loyola (1491–1556) is one of the most consequential figures in the history of the Catholic Church. A Spanish nobleman and soldier who underwent a dramatic conversion after being wounded in battle, he went on to found the Society of Jesus — the Jesuits — one of the largest and most influential religious orders in history. His Spiritual Exercises, a structured program of prayer and discernment, has shaped the spiritual lives of millions of Catholics over five centuries and remains one of the most widely used tools for spiritual direction in the Church today.
               </LinkedText>

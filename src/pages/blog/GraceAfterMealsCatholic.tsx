@@ -72,6 +72,11 @@ export default function GraceAfterMealsCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Grace after meals Catholic prayer with full text in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Grace After Meals (English)</h2>
               <p className="text-text leading-relaxed mb-4">
                 Many Catholic families use a traditional prayer based on Psalm 145 (sometimes called the "We Give Thee Thanks" prayer):

@@ -85,6 +85,11 @@ export default function SaintMichaelLent() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray Saint Michael&apos;s Lent. Discover the origins with St.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Most Catholics know the Lent before Easter, but fewer know the <strong>Lent of St. Michael</strong>. Running from the Feast of the Assumption (Aug 15) to Michaelmas (Sept 29), this is not just a prayer—it is a training camp for the soul.
               </p>

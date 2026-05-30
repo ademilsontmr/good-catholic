@@ -87,6 +87,11 @@ export default function WhatIsPurgatory() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the complete Catholic teaching on Purgatory. Explore biblical evidence, the &apos;fire&apos; of divine love, the Museum of Souls, and how to help the poor souls.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The word "Purgatory" comes from the Latin <em>purgare</em>, meaning "to make clean." According to the <strong>Catechism of the Catholic Church (CCC 1030-1032)</strong>, all who die in God's grace and friendship, but still imperfectly purified, are indeed assured of their eternal salvation; but after death they undergo purification, so as to achieve the holiness necessary to enter the joy of heaven.
               </p>

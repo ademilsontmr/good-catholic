@@ -68,6 +68,10 @@ export default function CatholicProLifeGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The complete Catholic pro-life guide — what the Church teaches about abortion, euthanasia, capital punishment, and the consistent ethic of life from conception to natural death.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-pro-life-guide">
                 The Catholic Church's defense of human life is not a political position. It is a theological conviction rooted in the belief that every human being is made in the image and likeness of God (Genesis 1:27) and that human life, from its very beginning, is sacred. This conviction leads the Church to defend human life at every stage — from the moment of fertilization to natural death — and against every threat: abortion, euthanasia, capital punishment, unjust war, and the many other ways in which human life is threatened in the modern world.
               </LinkedText>

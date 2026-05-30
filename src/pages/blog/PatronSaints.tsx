@@ -84,6 +84,11 @@ export default function PatronSaints() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn about the tradition of patron saints in the Catholic Church. Discover how to choose your patron saint and how to honor them to receive their intercession.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 Devotion to the saints is one of the most beautiful traditions of the Catholic Church. Since the first centuries, Christians venerated those who gave heroic witness to faith, often with their own blood. Patron saints are special intercessors who accompany us on our earthly journey, protecting us and inspiring us with their example of holiness.
               </LinkedText>

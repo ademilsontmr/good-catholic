@@ -85,6 +85,11 @@ export default function OurLadyOfFatimaGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the complete story of Fatima apparitions, the three secrets, the miracle of the sun, and why these messages matter for Catholics today. Learn about Lucia, Francisco, and Jacinta.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-guide">
                 The story of Fatima begins not with supernatural spectacle, but with the ordinary faith of three children: Lucia dos Santos (10), Francisco Marto (9), and Jacinta Marto (7). Their simple devotion and willingness to suffer for souls would make them instruments of heaven's most urgent message for modern times.
               </LinkedText>

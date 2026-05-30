@@ -72,6 +72,11 @@ export default function CatholicApologeticsGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn Catholic apologetics — how to defend the Catholic faith with reason, Scripture, and history. Answers to the most common objections to Catholicism.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-apologetics-guide">
                 Every Catholic will face challenges to their faith — from skeptical friends, from Protestant relatives, from atheist coworkers, or from their own doubts. Catholic apologetics gives you the tools to respond to these challenges with confidence, clarity, and charity.
               </LinkedText>

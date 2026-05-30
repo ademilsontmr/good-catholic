@@ -84,6 +84,11 @@ export default function BlessedCarloAcutis() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of Blessed Carlo Acutis — his Eucharistic devotion, his website cataloguing Eucharistic miracles, his death from leukemia at 15, his beatification in 2020, and canonization in 2025.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 In an age when the Church is often accused of being out of touch with young people, Carlo Acutis stands as a powerful counterwitness. He was born in 1991, grew up with the internet, loved video games and soccer, had a gift for computer programming — and was also one of the most devout Catholics of his generation. His life proves that holiness is not reserved for another era or another kind of person. It is available to every teenager, every gamer, every ordinary young person who chooses to put God first.
               </LinkedText>

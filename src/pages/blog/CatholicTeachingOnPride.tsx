@@ -67,6 +67,11 @@ export default function CatholicTeachingOnPride() {
               <Shield className="w-24 h-24 text-red-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Pride is the first and greatest of the capital sins — the sin that caused the fall of Lucifer and of Adam and Eve. Learn what it is, how it manifests today, and how to overcome it.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 In an age that celebrates self-promotion, personal branding, and the relentless assertion of one's own worth, the Catholic teaching on pride can seem countercultural — even offensive. But the Church's wisdom on this subject is not a counsel of self-hatred or passivity. It is a diagnosis of the deepest disorder in the human heart, and a path toward the freedom that only humility can bring.
               </LinkedText>

@@ -67,6 +67,11 @@ export default function CatholicTeachingOnDrugs() {
               <Shield className="w-24 h-24 text-teal-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about drugs and substance abuse? Learn the distinction between medicinal use and sinful abuse, and the Catholic path to recovery.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The Catholic Church's teaching on drugs is grounded in a single, powerful principle: the human body is a temple of the Holy Spirit (1 Corinthians 6:19–20), and we are stewards — not owners — of our own lives. This means we have a moral obligation to care for our physical and mental health, and that deliberately harming ourselves through substance abuse is a sin against the dignity God has given us.
               </LinkedText>

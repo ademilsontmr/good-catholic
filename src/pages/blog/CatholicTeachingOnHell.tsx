@@ -67,6 +67,11 @@ export default function CatholicTeachingOnHell() {
               <Flame className="w-24 h-24 text-red-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Does hell exist? Learn what the Catholic Church teaches about hell — its nature, who goes there, and how God&apos;s mercy and human freedom relate to eternal punishment.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The existence of hell is not a peripheral doctrine that Catholics are free to ignore. It is a defined dogma of the Catholic Church, taught by Scripture, affirmed by every ecumenical council that addressed the subject, and proclaimed by the Catechism of the Catholic Church. To deny hell is to contradict the explicit teaching of Jesus Christ.
               </LinkedText>

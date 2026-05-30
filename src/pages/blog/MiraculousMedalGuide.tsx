@@ -84,6 +84,11 @@ export default function MiraculousMedalGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the complete history of the Miraculous Medal, its symbols, the apparitions to St. Catherine Labouré, and why millions of Catholics wear it today.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The Miraculous Medal is more than a piece of metal; it is a <strong>sacramental</strong>—a sacred sign instituted by the Church through which, by the intercession of Mary, we receive various spiritual effects and protections.
               </p>

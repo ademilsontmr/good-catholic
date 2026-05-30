@@ -72,6 +72,11 @@ export default function ReasonsToBecomeCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Why are so many people becoming Catholic? 10 compelling reasons — from the Eucharist to the intellectual tradition to the Communion of Saints — that draw people to the Catholic Church.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 This is not a list of arguments designed to pressure anyone. It is an honest account of the reasons that have drawn thoughtful, searching people to the Catholic Church — reasons that have been articulated by converts from G.K. Chesterton to Scott Hahn to thousands of ordinary people who found their home in the Church.
               </LinkedText>

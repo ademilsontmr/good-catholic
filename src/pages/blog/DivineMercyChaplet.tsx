@@ -97,6 +97,11 @@ export default function DivineMercyChaplet() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep spiritual meaning of the Divine Mercy Chaplet. Learn about St.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The Divine Mercy devotion is built on three pillars, often remembered as the <strong>ABC of Mercy</strong>:
                 1. <strong>A</strong>sk for His Mercy.

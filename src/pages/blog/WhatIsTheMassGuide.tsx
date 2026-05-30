@@ -85,6 +85,11 @@ export default function WhatIsTheMassGuide() {
                <Church className="w-32 h-32 text-stone-400 relative z-10" strokeWidth={1} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is the Catholic Mass? Learn the two main parts of the Mass, what happens at each stage, what to do as a visitor, why Catholics go every Sunday, and the Real Presence of Christ.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 To the outside observer, the Mass looks like a series of rituals. To the expert, it is an <strong>Entry into Eternity</strong>. In every Mass, time stands still. We are not "remembering" a past event; we are present at the single, eternal sacrifice of Jesus Christ on Calvary.
               </p>

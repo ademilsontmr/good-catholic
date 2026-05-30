@@ -67,6 +67,11 @@ export default function SaintPeterApostle() {
               <UserCheck className="w-24 h-24 text-blue-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Peter the Apostle — the fisherman from Galilee who became the first Pope, received the keys of the Kingdom, and was martyred in Rome.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-peter-apostle">
                 Saint Peter the Apostle stands at the very center of the New Testament and the founding of the Catholic Church. He was the first among the Twelve, the first to confess Jesus as the Christ, the first to preach on Pentecost, and the first Bishop of Rome. His story is one of extraordinary grace working through extraordinary weakness — a story that gives hope to every sinner who has ever failed and been restored.
               </LinkedText>

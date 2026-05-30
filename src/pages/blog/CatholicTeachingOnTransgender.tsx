@@ -72,6 +72,11 @@ export default function CatholicTeachingOnTransgender() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about transgender identity and gender ideology? A clear explanation rooted in the Catechism, Dignitas Infinita (2024), and the theology of the body.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 This article presents the authentic teaching of the Catholic Church on gender identity and transgender ideology, drawing from the Catechism of the Catholic Church, the 2024 Vatican Declaration <em>Dignitas Infinita</em>, St. John Paul II's Theology of the Body, and the consistent Tradition of the Church. It is written with charity toward all persons while maintaining fidelity to the truth.
               </p>

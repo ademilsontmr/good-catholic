@@ -67,6 +67,11 @@ export default function SaintJosephineBakhita() {
               <Heart className="w-24 h-24 text-amber-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Josephine Bakhita — the Sudanese woman who was kidnapped into slavery as a child, found God through her suffering, and became one of the most beloved saints of the 20th century.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Saint Josephine Bakhita (c. 1869–1947) is one of the most extraordinary saints in the history of the Catholic Church. Born in Darfur, Sudan, she was kidnapped by slave traders at approximately age seven — the trauma was so severe that she forgot her own name, and her captors gave her the name "Bakhita," which means "lucky" in Arabic. She was sold and resold multiple times, subjected to horrific abuse, and yet emerged from slavery with a heart full of joy, gratitude, and love for God.
               </LinkedText>

@@ -85,6 +85,11 @@ export default function DivineOfficeLaity() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how lay Catholics can pray the Divine Office. Discover the hours of prayer, simplified versions, and how this liturgical prayer sanctifies daily life.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
                 The Liturgy of the Hours—also known as the Divine Office—is not just for priests and religious. Lay Catholics are increasingly discovering this ancient prayer of the Church, which sanctifies the entire day through psalms, readings, and intercession.
               </LinkedText>

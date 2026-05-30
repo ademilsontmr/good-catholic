@@ -68,6 +68,10 @@ export default function CompleteSaintsGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything about the Catholic saints — how to find your patron saint, the canonization process, the most popular patron saints by category, and how to develop a devotion.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Saints Are</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-catholic-saints">
                 In Catholic theology, the saints are members of the Church Triumphant — those who have died, been purified, and now live fully in the presence of God in heaven. They are not dead in any ordinary sense. They are more alive than we are, because they share in the very life of God. The Catechism of the Catholic Church teaches: "Being more closely united to Christ, those who dwell in heaven fix the whole Church more firmly in holiness... They do not cease to intercede with the Father for us" (CCC 956).

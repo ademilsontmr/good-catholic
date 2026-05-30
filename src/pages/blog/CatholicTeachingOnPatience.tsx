@@ -67,6 +67,11 @@ export default function CatholicTeachingOnPatience() {
               <Shield className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Patience is one of the most needed and least cultivated virtues. Learn what patience really is, how it differs from passivity, and how to grow in it through Catholic teaching.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-patience-catholic">
                 We live in an age that has declared war on waiting. Technology has compressed time to the point where a delay of seconds feels intolerable. Social media has trained us to expect immediate responses, immediate validation, immediate results. And yet life — real life — is full of waiting: waiting for healing, for answers, for justice, for the fulfillment of our deepest desires. The person who cannot wait cannot live well. The Catholic tradition has always known this, and it has developed a rich theology of patience to help us bear the inevitable sufferings and delays of human existence.
               </LinkedText>

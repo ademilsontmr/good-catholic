@@ -67,6 +67,11 @@ export default function CatholicLastRites() {
               <Cross className="w-24 h-24 text-gray-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are Catholic Last Rites? Learn about the Anointing of the Sick, Viaticum, and Apostolic Pardon — when to call a priest, what happens, and how to prepare a loved one for death.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 Few moments in life are as sacred — or as urgent — as the hours surrounding death. The Catholic Church, in her wisdom and mercy, has always provided her members with spiritual care at the end of life. The rites administered to the dying are not a formality or a cultural tradition. They are sacraments: real encounters with the grace of God at the most critical moment of a person's existence.
               </LinkedText>

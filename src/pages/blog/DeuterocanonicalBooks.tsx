@@ -87,6 +87,10 @@ export default function DeuterocanonicalBooks() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Why does the Catholic Bible have 7 more books than the Protestant Bible? Learn about the deuterocanonical books, the Septuagint, the Council of Trent, and how to respond to Protestant objections.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What Are the Deuterocanonical Books?
               </h2>

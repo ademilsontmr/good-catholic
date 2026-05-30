@@ -85,6 +85,11 @@ export default function DarkNightOfTheSoul() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn what the dark night of the soul is in Catholic spirituality. Discover St.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The term "Dark Night" was coined in the 16th century by a Spanish Carmelite friar and Doctor of the Church, <strong>San Juan de la Cruz</strong>. Written while he was imprisoned in a tiny, lightless cell in Toledo, his poem and commentary describe a process where God "weans" the soul from spiritual "candies" (consolations) to lead it into a mature, naked love of God for His own sake.
               </p>

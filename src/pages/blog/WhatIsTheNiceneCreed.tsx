@@ -83,6 +83,11 @@ export default function WhatIsTheNiceneCreed() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Explore the deep history of the Nicene Creed. From the Council of Nicaea to the Filioque controversy, understand the prayer Catholics profess at every Mass.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The Nicene Creed (properly the <em>Niceno-Constantinopolitan Creed</em>) was born at the <strong>Council of Nicaea in 325 AD</strong>. It wasn't written to be a general prayer, but a "border control" to keep out the heresy of <strong>Arianism</strong>—the belief that Jesus was a created being rather than the eternal God.
               </p>

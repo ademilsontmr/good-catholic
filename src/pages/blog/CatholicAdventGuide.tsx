@@ -68,6 +68,10 @@ export default function CatholicAdventGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to observe Advent as a Catholic — the Advent wreath, week-by-week guide, family traditions, prayer schedule, and a complete Advent checklist.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Advent?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-advent-guide">
                 Advent is the four-week liturgical season that begins the Catholic Church's year. It starts on the Sunday closest to November 30 (the feast of St. Andrew) and ends on Christmas Eve. The word "Advent" comes from the Latin adventus, meaning "coming" or "arrival." It is a season of waiting, watching, and preparing for the coming of Christ.

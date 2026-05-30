@@ -84,6 +84,11 @@ export default function FruitsOfHolySpirit() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are the 12 Fruits of the Holy Spirit? Learn the complete list from Galatians 5, what each fruit means, how they differ from the 7 Gifts, and how to cultivate them in daily life.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Most Catholics who have been through Confirmation preparation can list the Seven Gifts of the Holy Spirit. Far fewer can name the Twelve Fruits. Yet the fruits may be the more practically important of the two, because they are the <em>visible evidence</em> of the Holy Spirit's presence in a person's life — not just spiritual capacities, but actual qualities of character that others can see and experience.
               </p>

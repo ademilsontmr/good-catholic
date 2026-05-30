@@ -85,6 +85,11 @@ export default function CatholicSacramentalsGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the power of Catholic sacramentals. Learn about holy water, blessed objects, scapulars, medals, and how these sacred signs bring grace into daily life.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The Catholic Church teaches that God works through material things because we are material beings. Sacramentals are sacred signs that prepare us to receive grace and dispose us to cooperate with it. Unlike sacraments, which actually confer grace, sacramentals dispose us to receive grace and help us grow in holiness.
               </LinkedText>

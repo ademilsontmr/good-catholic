@@ -72,6 +72,11 @@ export default function MorningPrayerCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic morning prayer — full texts of Lauds, the Morning Offering, Psalm 63, and simple morning prayers for every Catholic. Start your day with God.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 The Church has always begun the day with prayer. From the earliest centuries, Christians gathered at dawn to praise God and consecrate the new day to Him. This tradition — formalized in the Liturgy of the Hours as Morning Prayer (Lauds) — continues today in monasteries, convents, and the homes of faithful Catholics around the world.
               </LinkedText>

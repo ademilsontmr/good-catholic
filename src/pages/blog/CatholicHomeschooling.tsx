@@ -84,6 +84,11 @@ export default function CatholicHomeschooling() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to Catholic homeschooling — top curricula, legal requirements, socialization, co-ops, integrating faith into every subject, and the liturgical year as a school calendar.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Something remarkable has been happening in American Catholic families over the past two decades. Tens of thousands of families have chosen to take education into their own hands — not out of fear or isolation, but out of a positive vision: the desire to form their children in the fullness of the Catholic intellectual and spiritual tradition, to integrate faith and learning, and to make the home truly the center of their children's formation.
               </LinkedText>

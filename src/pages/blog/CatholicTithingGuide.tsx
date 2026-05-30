@@ -68,6 +68,10 @@ export default function CatholicTithingGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about tithing? A complete guide to Catholic stewardship — the biblical basis for giving, the 10% question, Sunday obligation, and how to give generously.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Tithing?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-tithing-guide">
                 The word "tithe" comes from the Old English word for "tenth." In the Old Testament, the Israelites were commanded to give one-tenth of their produce, livestock, and income to support the Levitical priesthood and the Temple (Leviticus 27:30, Numbers 18:21, Deuteronomy 14:22–29). This practice of giving a tenth of one's income to God and His Church has been part of religious life for thousands of years and remains a powerful model of stewardship for Catholics today.

@@ -85,6 +85,11 @@ export default function SacramentOfMatrimony() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the theology of Catholic marriage. Learn about sacramental marriage, the vows, indissolubility, and how spouses participate in God&apos;s creative love.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
                 Marriage in the Catholic Church is not merely a contract but a sacrament—a visible sign of God's invisible grace. Understanding the theology of Catholic marriage illuminates why the Church takes this union so seriously and how spouses participate in the divine life.
               </LinkedText>

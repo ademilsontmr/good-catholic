@@ -87,6 +87,10 @@ export default function CanCatholicsEatMeat() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Can Catholics eat meat on Fridays? Learn the Church&apos;s rules on Friday abstinence, what counts as meat, why fish is allowed, and what to do if you forget.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Basic Rule: Friday Abstinence
               </h2>

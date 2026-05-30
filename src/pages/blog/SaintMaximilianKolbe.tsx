@@ -67,6 +67,11 @@ export default function SaintMaximilianKolbe() {
               <Shield className="w-24 h-24 text-gray-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Maximilian Kolbe — the Polish Franciscan priest who volunteered to die in place of a stranger at Auschwitz. His life, his Militia Immaculata, and his heroic martyrdom.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-maximilian-kolbe">
                 Saint Maximilian Kolbe (1894–1941) is one of the most beloved saints of the 20th century — a man whose life was marked by extraordinary Marian devotion, tireless apostolic work, and a final act of heroic charity that has become one of the most powerful symbols of Christian love in the modern world. He was canonized by Pope John Paul II in 1982 as a "martyr of charity."
               </LinkedText>

@@ -85,6 +85,11 @@ export default function EucharisticPrayers() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Eucharistic prayers, Holy Hour devotion, and the practice of adoration. Learn how to pray before the Blessed Sacrament and encounter Christ&apos;s Real Presence.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
                 The Eucharist is the source and summit of the Christian life (Lumen Gentium 11). Before the Blessed Sacrament—whether exposed in the monstrance or reserved in the tabernacle—Catholics find the Real Presence of Jesus Christ, body, blood, soul, and divinity.
               </LinkedText>

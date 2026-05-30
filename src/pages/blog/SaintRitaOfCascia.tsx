@@ -67,6 +67,11 @@ export default function SaintRitaOfCascia() {
               <Sparkles className="w-24 h-24 text-pink-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Rita of Cascia — the patron of impossible causes. Her life, her stigmata, her miracles, and the powerful novena that has brought hope to millions.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-rita-of-cascia">
                 In the Catholic world, few saints are as universally beloved as Saint Rita of Cascia. Her image — a woman with a wound on her forehead, often holding a rose or a crucifix — is found in churches, homes, and hospitals around the world. Millions of people have turned to her in their most desperate moments and found, through her intercession, that God does indeed work miracles in impossible situations.
               </LinkedText>

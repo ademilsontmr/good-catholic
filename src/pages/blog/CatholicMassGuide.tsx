@@ -72,6 +72,11 @@ export default function CatholicMassGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Dismissal. What happens, what it means, and how to participate fully.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Every Sunday, over a billion Catholics around the world gather to celebrate the Mass. In a small village in Africa, in a cathedral in Rome, in a suburban parish in Ohio — the same Mass is celebrated, the same words are spoken, the same Christ becomes present on the altar. The Mass is the heartbeat of the Catholic Church.
               </LinkedText>

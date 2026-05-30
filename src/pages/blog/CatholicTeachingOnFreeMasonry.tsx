@@ -67,6 +67,11 @@ export default function CatholicTeachingOnFreeMasonry() {
               <HelpCircle className="w-24 h-24 text-slate-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church has condemned Freemasonry over 20 times since 1738. Learn why Catholics cannot join Masonic lodges and what to do if a family member is a Mason.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 Few topics generate more confusion among Catholics than Freemasonry. Some Catholics are Masons themselves, often having joined before understanding the Church's position. Others have fathers or grandfathers who were Masons and wonder what to make of it. Still others have been told that the Church's condemnation is outdated or that modern Freemasonry is "just a social club." This article addresses all of these concerns with clarity and charity.
               </LinkedText>

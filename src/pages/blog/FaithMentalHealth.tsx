@@ -83,6 +83,11 @@ export default function FaithMentalHealth() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover how Catholic faith and prayer life can be powerful allies in combating anxiety and seeking emotional balance.</p>
+              </div>
+
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 Anxiety in the Modern World: A Challenge for Christians
                             </h2>

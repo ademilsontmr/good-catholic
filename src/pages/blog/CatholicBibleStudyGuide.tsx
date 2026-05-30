@@ -68,6 +68,10 @@ export default function CatholicBibleStudyGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How to study the Bible as a Catholic — which translation to use, the four senses of Scripture, Lectio Divina, the best Catholic Bible study programs, and a 30-day reading plan.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Introduction: Catholics and the Bible</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-study-guide">
                 St. Jerome, the great biblical scholar who translated the Bible into Latin (the Vulgate), wrote one of the most challenging sentences in Christian history: "Ignorance of Scripture is ignorance of Christ." For a Church that produced the Bible, preserved it through the Dark Ages, and has meditated on it for two millennia, the reality that most American Catholics rarely open their Bibles is a genuine pastoral crisis.

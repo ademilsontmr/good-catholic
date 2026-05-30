@@ -84,6 +84,11 @@ export default function EucharisticMiraclesScience() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Explore the scientific evidence behind Eucharistic miracles like Lanciano, Buenos Aires, and Tixtla. Learn about blood types, DNA, and medical findings that defy natural explanation.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-miracles-science">
                 In the world of forensic pathology, tissue begins to decompose within hours of death. Yet, certain "Eucharistic Miracles"—where a host has visibly turned into flesh or blood—have remained remarkably stable for centuries. Even more shocking represent independent laboratory studies conducted since the 1970s.
               </LinkedText>

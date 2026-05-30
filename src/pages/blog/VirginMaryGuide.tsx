@@ -72,6 +72,11 @@ export default function VirginMaryGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete Catholic guide to the Virgin Mary — her role in salvation history, the four Marian dogmas, major apparitions, the Rosary, and how to grow in Marian devotion.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 Mary is the most mentioned woman in the Quran. She is venerated by Orthodox Christians, honored by many Protestants, and loved by over a billion Catholics. Yet she remains one of the most misunderstood figures in Christianity. This guide presents the full Catholic understanding of Mary — who she is, what the Church teaches about her, and how to grow in devotion to her.
               </LinkedText>

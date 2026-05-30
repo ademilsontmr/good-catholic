@@ -85,6 +85,11 @@ export default function HealingThroughFaith() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover how faith brings healing. Learn Catholic prayers for healing, the ministry of the sick, sacraments of healing, and biblical foundations for divine healing.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
                 Faith has always been a source of healing. From Jesus' miracles in the Gospels to the sacraments of the Church today, discover how Catholic faith offers profound healing for body, mind, and soul.
               </LinkedText>

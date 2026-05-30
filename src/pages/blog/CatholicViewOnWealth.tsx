@@ -84,6 +84,11 @@ export default function CatholicViewOnWealth() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about money, wealth, and success? Explore the balance between the &apos;Prosperity Gospel&apos; and the &apos;Vow of Poverty&apos;.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-wealth">
                 The Catholic Social Doctrine is often called the Church's "best-kept secret." At its heart lies a radical balance between the individual's right to property and the community's right to common resources.
               </LinkedText>

@@ -67,6 +67,11 @@ export default function FaithAndWorksCatholic() {
               <BookOpen className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Are Catholics saved by works? Learn the Catholic teaching on faith, works, and salvation — what James 2 really means, what Luther got right and wrong, and how grace and merit relate.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The doctrine of <em>sola fide</em> — "faith alone" — is the central Protestant objection to Catholicism. Martin Luther called it "the article by which the Church stands or falls." The claim is that Catholics believe they earn their way to heaven through good works, while Protestants believe salvation is by faith alone, as a free gift of God's grace.
               </p>

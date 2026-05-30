@@ -84,6 +84,11 @@ export default function SpiritualCommunion() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn what spiritual communion is, the traditional prayer of St. Alphonsus Liguori, when to make it, and its theological meaning for Catholics who cannot receive the Eucharist.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 During the COVID-19 pandemic of 2020, when churches were closed and Catholics around the world were unable to attend Mass or receive Holy Communion, many rediscovered an ancient practice that had been largely forgotten in modern Catholic life: spiritual communion. Priests and bishops encouraged the faithful to make acts of spiritual communion while watching Mass on television or online, and millions of Catholics found in this practice a genuine source of consolation and grace.
               </LinkedText>

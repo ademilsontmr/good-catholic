@@ -84,6 +84,11 @@ export default function SundayMass() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover why participation in Sunday Mass is essential for every Catholic. Learn how to make the most of Holy Mass and grow in faith.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 Sunday Mass is the beating heart of Catholic life, the most important meeting of the week, the moment when Heaven touches earth. Since the early times of the Church, Christians gathered on the "Lord's Day" – Sunday, the day of the Resurrection – to celebrate the Eucharist, even at risk of persecution and death. The martyrs of Abitina, in the 4th century, declared before the Roman tribunal: "Without Sunday we cannot live."
               </LinkedText>

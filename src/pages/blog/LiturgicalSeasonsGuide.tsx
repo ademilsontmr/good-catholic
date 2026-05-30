@@ -85,6 +85,11 @@ export default function LiturgicalSeasonsGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Master the Catholic liturgical calendar. Learn the meaning, colors, and traditions of Advent, Christmas, Lent, Easter, and Ordinary Time.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 While the world follows the Gregorian calendar with its secular holidays, Catholics are invited to live on "sacred time" - a rhythm that shapes our prayer, our celebrations, and our very understanding of reality. Each liturgical season has its own character, colors, prayers, and spiritual focus, helping us to encounter Christ in different dimensions of His saving mystery.
               </LinkedText>

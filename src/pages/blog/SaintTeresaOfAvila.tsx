@@ -67,6 +67,11 @@ export default function SaintTeresaOfAvila() {
               <BookOpen className="w-24 h-24 text-orange-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Teresa of Ávila — the great Carmelite mystic, reformer, and Doctor of the Church. Her life, the Interior Castle, and her path of prayer.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-teresa-of-avila">
                 Saint Teresa of Ávila (1515–1582) stands as one of the towering figures of Catholic spirituality. Born in Ávila, Spain, she entered the Carmelite Order as a young woman, spent decades in spiritual struggle, and eventually experienced a profound conversion that launched her into the heights of mystical prayer. She reformed the Carmelite Order, founded seventeen convents, wrote masterpieces of spiritual literature, and forged a deep friendship with Saint John of the Cross. In 1970, Pope Paul VI declared her a Doctor of the Church — the first woman in history to receive that title.
               </LinkedText>

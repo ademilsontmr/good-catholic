@@ -72,6 +72,11 @@ export default function SaintFrancisOfAssisi() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of Saint Francis of Assisi — the Poor Man of Assisi who received the stigmata, founded the Franciscans, and became one of the most beloved saints in history.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-francis-of-assisi">
                 Born in 1181 or 1182 in Assisi, Italy, Francis Bernardone began life as the son of a wealthy cloth merchant. He was charming, generous, and popular — the life of every party. He dreamed of becoming a knight and winning glory in battle. No one who knew the young Francis would have predicted that he would become one of the greatest saints in the history of the Church.
               </LinkedText>

@@ -72,6 +72,11 @@ export default function ComeHolySpiritPrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Come Holy Spirit prayer with full text, meaning, when to pray it, and a Catholic guide to asking the Holy Spirit for wisdom, courage, and renewal.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Come Holy Spirit Prayer Full Text</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-lg">

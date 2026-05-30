@@ -84,6 +84,11 @@ export default function CatholicDeathPenalty() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic Church&apos;s teaching on the death penalty, the 2018 revision of CCC 2267, why the teaching developed, the principle of human dignity, and how Catholics should engage with this issue.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-death-penalty">
                 The Catholic Church's teaching on the death penalty has undergone one of the most visible developments in recent memory. For centuries, the Church accepted capital punishment as a legitimate tool of civil authority. Today, the Catechism declares it "inadmissible." Understanding this development — and why it is not a contradiction — requires a careful look at the history, the theology, and the principle of doctrinal development.
               </LinkedText>

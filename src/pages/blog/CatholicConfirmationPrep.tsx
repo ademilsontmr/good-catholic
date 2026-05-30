@@ -68,6 +68,10 @@ export default function CatholicConfirmationPrep() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to prepare for Confirmation — the 7 gifts of the Holy Spirit, how to choose a name and sponsor, what happens at the ceremony, and what comes after.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Confirmation?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-preparation-guide">
                 Confirmation is the second sacrament of initiation in the Catholic Church, completing what was begun at Baptism and strengthened by the Eucharist. The Catechism of the Catholic Church describes it as the sacrament that "perfects Baptismal grace" and gives the Holy Spirit in a special way to "root us more deeply in the divine filiation, incorporate us more firmly into Christ, strengthen our bond with the Church, associate us more closely with her mission, and help us bear witness to the Christian faith in words accompanied by deeds" (CCC 1316).

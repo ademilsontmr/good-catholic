@@ -72,6 +72,11 @@ export default function CatholicConfessionGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete Catholic Confession guide — what the Sacrament of Reconciliation is, its biblical basis, what happens, common fears, and why regular Confession transforms your life.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 Many Catholics have complicated feelings about Confession. Some avoid it out of embarrassment. Others feel it is unnecessary — "I can confess directly to God." Still others go through the motions without understanding what is actually happening. This guide is for all of them.
               </LinkedText>

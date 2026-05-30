@@ -68,6 +68,10 @@ export default function StJudeNovenaGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the St. Jude Novena — who Saint Jude is, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Saint Jude?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">
                 Saint Jude Thaddeus is one of the twelve apostles of Jesus Christ and the author of the Letter of Jude in the New Testament. He is venerated as the patron saint of impossible causes and desperate situations — the saint to turn to when all other hope seems lost. His feast day is October 28, shared with Saint Simon the Apostle. Devotion to Saint Jude is especially strong in the United States, where his intercession has been sought by millions.

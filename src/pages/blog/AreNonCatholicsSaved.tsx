@@ -87,6 +87,10 @@ export default function AreNonCatholicsSaved() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church really teach about the salvation of non-Catholics? Learn about Extra Ecclesiam nulla salus, Vatican II, invincible ignorance, and baptism of desire.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 "Extra Ecclesiam Nulla Salus": The Ancient Formula
               </h2>

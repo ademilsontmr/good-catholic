@@ -68,6 +68,10 @@ export default function CatholicConversionGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Thinking about becoming Catholic? This complete step-by-step guide covers the RCIA process, the sacraments of initiation, choosing a sponsor, and life after the Easter Vigil.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why People Convert to Catholicism</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-converting-to-catholicism">
                 People come to the Catholic Church from every background imaginable — from evangelical Protestantism, from mainline denominations, from Eastern Orthodoxy, from Judaism, from Islam, from atheism, and from no religious background at all. The reasons are as varied as the people themselves, but certain themes appear again and again.

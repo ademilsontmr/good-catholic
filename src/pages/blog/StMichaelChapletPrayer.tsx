@@ -72,6 +72,11 @@ export default function StMichaelChapletPrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray the St. Michael Chaplet step by step — opening prayers, nine salutations, concluding prayers, and when Catholics pray this chaplet for protection.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need</h2>
               <p className="text-text leading-relaxed mb-6">
                 A standard rosary can be used. The chaplet traditionally uses nine groups of nine beads (nine salutations), often separated by an Our Father bead. If your beads differ, you can still pray the nine salutations in order.

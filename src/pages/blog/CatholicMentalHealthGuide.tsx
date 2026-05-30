@@ -85,6 +85,11 @@ export default function CatholicMentalHealthGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the Catholic approach to mental health. Learn how faith integrates with psychology, find Catholic therapists, and access spiritual resources for depression, anxiety, and trauma recovery.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mental-health-guide">
                 The Catholic approach to mental health recognizes that we are integrated beings - body, mind, and spirit. When mental health challenges arise, they affect every part of us. The Church doesn't replace professional mental health care; it complements it with spiritual resources that address the deepest human needs for meaning, purpose, and connection.
               </LinkedText>

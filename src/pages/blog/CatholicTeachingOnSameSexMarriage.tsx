@@ -72,6 +72,11 @@ export default function CatholicTeachingOnSameSexMarriage() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about same-sex marriage? A clear explanation from the Catechism (CCC 2357-2359), natural law, and the Church&apos;s understanding of marriage.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The Catholic Church's position on same-sex marriage is clear and consistent: marriage, by its very nature, is the union of one man and one woman. This is not merely a religious preference or a cultural tradition — it is a truth rooted in the nature of the human person, in natural law, and in divine revelation. At the same time, the Church calls for genuine love and respect for every person, including those with same-sex attraction.
               </LinkedText>

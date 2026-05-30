@@ -68,6 +68,10 @@ export default function PrayerForJobAndWork() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Powerful Catholic prayers for work and employment — for finding a job, blessing your work, and honoring the dignity of labor as taught by the Church.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Catholic Theology of Work</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-job-and-work">
                 Before turning to the prayers themselves, it is worth understanding what the Catholic Church teaches about work — because prayer is most powerful when it flows from a deep understanding of what we are asking and why.

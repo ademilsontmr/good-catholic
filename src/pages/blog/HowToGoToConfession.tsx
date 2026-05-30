@@ -99,6 +99,11 @@ export default function HowToGoToConfession() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Master the Sacrament of Penance. Learn the 5 steps to a perfect confession, the difference between contrition types, and the power of the Seal of the Confessional.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Most Catholics view Confession as an obligation. The expert views it as a <strong>reset button for eternity</strong>. In the confessional, the priest acts <em>In Persona Christi</em>—it is not a man who hears you, but Jesus Christ Himself using the priest's vocal cords to pronounce the words of absolution.
               </p>

@@ -85,6 +85,11 @@ export default function WhyPrayToSaints() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the biblical and historical reasons Catholics ask saints for intercession. Learn about the Communion of Saints, Relics, and the One Mediator.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The practice of <strong>Intercession</strong> is rooted in the belief that the Body of Christ is not severed by death. As St. Paul teaches in 1 Corinthians 12, "If one member suffers, all suffer together." This doesn't stop just because someone has moved from earth to Heaven.
               </p>

@@ -84,6 +84,11 @@ export default function HowToPrayAngelus() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray the Angelus, the ancient Catholic prayer prayed three times a day. Full text, history, the Regina Caeli, and tips for families.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-angelus">
                 In the 19th century, the French painter Jean-François Millet captured a scene that has become one of the most recognized images in Western art: two peasant farmers standing in a field at dusk, heads bowed in prayer, a church bell tower visible in the distant horizon. The painting is called "The Angelus," and it depicts exactly what millions of Catholics have done for centuries — stopping whatever they are doing to pray this ancient prayer when the church bells ring.
               </LinkedText>

@@ -67,6 +67,11 @@ export default function CatholicTeachingOnForgiveness() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Forgiveness is one of the hardest and most essential teachings of Christianity. Learn what the Church teaches, what forgiveness really means, and how to forgive even the deepest wounds.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Forgiveness is not a feeling. It is not forgetting. It is not pretending that what happened did not matter. Catholic teaching on forgiveness is demanding, realistic, and ultimately liberating — because it is rooted not in human willpower but in the mercy of God Himself.
               </LinkedText>

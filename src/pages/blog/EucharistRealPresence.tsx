@@ -76,6 +76,11 @@ export default function EucharistRealPresence() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Is Jesus really in the bread? Explore the dogma of Transubstantiation, the John 6 discourse, and scientific findings of Eucharistic miracles.</p>
+              </div>
+
                             <p className="text-text leading-relaxed mb-6">
                                 The Catholic Church holds a conviction that is "foolishness to the Gentiles and a stumbling block to Jews": that a piece of unleavened bread and a cup of wine truly become the <strong>Body, Blood, Soul, and Divinity</strong> of Jesus Christ. This isn't just a pious belief; it is a dogmatic certainty defined by the <strong>Council of Trent (1551)</strong> and believed by Christians from the earliest days.
                             </p>

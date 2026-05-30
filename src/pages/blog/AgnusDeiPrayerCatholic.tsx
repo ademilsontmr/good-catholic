@@ -73,6 +73,11 @@ export default function AgnusDeiPrayerCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Agnus Dei (Lamb of God) prayer with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Agnus Dei (English — Roman Missal)</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6 space-y-3 text-text leading-relaxed">
                 <p className="italic">Lamb of God, you take away the sins of the world, have mercy on us.</p>

@@ -85,6 +85,11 @@ export default function ManagingDepression() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover a Catholic approach to managing depression. Learn about spiritual resources, professional treatment, and finding hope through faith during dark times.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
                 Depression affects millions of people worldwide, including faithful Catholics. While spiritual resources offer profound help, understanding when and how to integrate professional mental health care is essential for authentic healing.
               </LinkedText>

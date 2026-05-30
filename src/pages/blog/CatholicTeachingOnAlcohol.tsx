@@ -67,6 +67,11 @@ export default function CatholicTeachingOnAlcohol() {
               <HelpCircle className="w-24 h-24 text-amber-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about alcohol? Is drinking a sin?</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-alcohol">
                 Few topics generate more confusion among Catholics than alcohol. Some Catholics drink freely, citing Jesus's miracle at Cana. Others abstain entirely, citing the dangers of addiction. Some Protestant traditions condemn all alcohol use as sinful. What does the Catholic Church actually teach? The answer is nuanced, rooted in Scripture, the Catechism, and the virtue of temperance.
               </LinkedText>

@@ -72,6 +72,11 @@ export default function PatronSaintsGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are patron saints? How do they intercede for us?</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints-guide">
                 The tradition of patron saints is one of the most beautiful and practical aspects of Catholic life. It is rooted in the conviction that the saints in heaven are not distant historical figures but living members of the Body of Christ who care about us and can intercede for us before God.
               </LinkedText>

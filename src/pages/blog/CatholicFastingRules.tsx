@@ -84,6 +84,11 @@ export default function CatholicFastingRules() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic Church&apos;s fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent. Who is bound, what counts as fasting vs abstinence, and the Eucharistic fast explained.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Many American Catholics are fuzzy on the Church's fasting rules. They know they're supposed to do something on Ash Wednesday and Good Friday, and they know Fridays during Lent involve giving up meat — but the specifics are often unclear. What exactly counts as fasting? What is abstinence? Who is required to observe these practices? What about the Eucharistic fast before Communion?
               </LinkedText>

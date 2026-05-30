@@ -67,6 +67,11 @@ export default function WhatIsHolyOrders() {
               <Cross className="w-24 h-24 text-purple-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is the Sacrament of Holy Orders? Learn about the three degrees — bishop, priest, and deacon — the rite of ordination, and why priests are celibate.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 When a man is ordained a priest, something happens to him that cannot be undone. He is not simply given a new job or a new title. He is changed — ontologically, at the level of his very being — configured to Christ the Priest in a way that marks him permanently. This is the Catholic understanding of Holy Orders, and it is one of the most profound and distinctive teachings of the Church.
               </LinkedText>

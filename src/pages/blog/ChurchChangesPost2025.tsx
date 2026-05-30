@@ -83,6 +83,11 @@ export default function ChurchChangesPost2025() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Analysis of perspectives and changes in the Catholic Church for 2026 after the closing of the Jubilee. What to expect from the pontificate and dioceses.</p>
+              </div>
+
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 With the closing of the Holy Doors in January 2026, the Catholic Church enters a new cycle. The Jubilee of 2025 left a deep mark on global spirituality, but now the challenge is the "pastoral of hope" — how to transform the enthusiasm of pilgrimages into lasting Christian commitment.
                             </LinkedText>

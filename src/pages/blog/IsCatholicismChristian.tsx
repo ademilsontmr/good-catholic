@@ -72,6 +72,11 @@ export default function IsCatholicismChristian() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Is Catholicism a form of Christianity? Yes — and here&apos;s why.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-catholicism-christian">
                 The question "Is Catholicism Christian?" is one of the most searched religious questions on the internet. It reflects genuine confusion — often among people who have heard Catholics described as "not really Christian" by some Protestant groups, or who simply don't know enough about Catholicism to know where it fits in the Christian landscape.
               </LinkedText>

@@ -72,6 +72,11 @@ export default function CatholicBibleVerses() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The 50 most important Catholic Bible verses — for prayer, strength, comfort, faith, love, and the sacraments. Essential Scripture every Catholic should know by heart.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">
                 Memorizing Scripture is one of the most powerful spiritual practices a Catholic can develop. When you know key Bible verses by heart, you carry the Word of God with you everywhere — available for prayer, for comfort in difficulty, for defense against temptation, and for sharing your faith with others.
               </LinkedText>

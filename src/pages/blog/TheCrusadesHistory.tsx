@@ -84,6 +84,11 @@ export default function TheCrusadesHistory() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Were the Crusades unprovoked wars of aggression? Explore the historical context, the defense of pilgrims, and the Catholic perspective on this controversial time.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">
                 History is not a simple game of "good guys vs. bad guys." To understand the Crusades, one must step out of the 21st century and into the 11th. At that time, the Christian world was under siege. From Spain to Jerusalem, formerly Christian lands had been conquered, and the Byzantine Empire was on the verge of collapse.
               </LinkedText>

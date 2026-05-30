@@ -67,6 +67,11 @@ export default function GenZAndCatholicism() {
               <Users className="w-24 h-24 text-indigo-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Why is Catholicism drawing Gen Z men and women back to the Church? Data, reasons behind the revival, and what it means for young Catholics today.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gen-z-and-catholicism">
                 The headlines have been striking. Fox News: "Catholicism sees major resurgence among Gen Z." CBS News: "Catholic conversions rising: Inside the Catholic Church's quiet revival." The Washington Post: "Why Catholicism is drawing in Gen Z men." These are not Catholic media outlets — they are mainstream publications reporting on a phenomenon that has surprised even Church leaders.
               </LinkedText>

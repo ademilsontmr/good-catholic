@@ -68,6 +68,10 @@ export default function CompleteConfessionGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to make a good Confession — step-by-step guide, complete examination of conscience, what to say, common fears answered, and how to return after years away.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Sacrament of Confession?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-catholic-confession">
                 The Sacrament of Confession — also called the Sacrament of Reconciliation or Penance — is one of the seven sacraments of the Catholic Church. It is the ordinary means by which Catholics who have sinned after Baptism receive God's forgiveness. The Catechism of the Catholic Church describes it as "the sacrament of conversion, of penance, of confession, of forgiveness, and of reconciliation" (CCC 1422–1498).

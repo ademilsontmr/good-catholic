@@ -84,6 +84,11 @@ export default function WhatIsAdvent() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is Advent? Learn about the Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent spiritually as a family.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-advent-catholic">
                 Every year, as the days grow shorter and the holiday season ramps up around them, American Catholics are called to something countercultural: to wait. Not passively, not impatiently, but with the active, expectant waiting of a people who know that something — Someone — is coming. That is the spirit of Advent, and it is one of the most distinctive gifts the Catholic liturgical tradition offers to a culture that has largely forgotten how to wait for anything.
               </LinkedText>

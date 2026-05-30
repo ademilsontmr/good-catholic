@@ -87,6 +87,10 @@ export default function CatholicWeddingCeremony() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to know about a Catholic wedding ceremony — the Rite of Marriage, exchange of vows, Nuptial Blessing, Pre-Cana, mixed marriages, and what guests should know.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Marriage as a Sacrament: The Theological Foundation
               </h2>

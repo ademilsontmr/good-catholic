@@ -87,6 +87,10 @@ export default function CatholicFuneralRites() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to Catholic funeral rites — the Vigil, Funeral Mass, and Rite of Committal. Learn what to expect, what to wear, prayers for the dead, and the Church&apos;s teaching on cremation.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Order of Christian Funerals: Three Stages
               </h2>

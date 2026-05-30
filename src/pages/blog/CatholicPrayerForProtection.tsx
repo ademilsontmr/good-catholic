@@ -67,6 +67,11 @@ export default function CatholicPrayerForProtection() {
               <Shield className="w-24 h-24 text-slate-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The most powerful Catholic prayers for protection — against evil, danger, spiritual attack, and the devil. St.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
                 The Catholic Church has always recognized that human beings live in a world where spiritual forces are at work — both good and evil. St. Paul writes: "For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world and against the spiritual forces of evil in the heavenly realms" (Ephesians 6:12). In response to this reality, the Church has developed a rich treasury of prayers for protection — prayers that have been prayed by saints, martyrs, and ordinary Catholics for centuries.
               </LinkedText>

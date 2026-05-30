@@ -68,6 +68,10 @@ export default function CompleteDiscernmentGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The complete Catholic guide to discernment — the Ignatian method, consolation vs. desolation, a 6-step process for major decisions, signs of God&apos;s will, and how to discern your vocation.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Discernment?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-discernment">
                 Discernment is not fortune-telling, not the search for a hidden cosmic plan, and not a technique for eliminating uncertainty from life. It is the prayerful process of discovering God's will — of learning to recognize his voice, follow his guidance, and cooperate with his grace in the concrete circumstances of daily life.

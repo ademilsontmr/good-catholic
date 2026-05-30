@@ -72,6 +72,11 @@ export default function JesusPrayerCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner) with full text, meaning, and how Catholics may use it alongside the Rosary and lectio divina.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Jesus Prayer (Common English Form)</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic text-xl leading-relaxed">

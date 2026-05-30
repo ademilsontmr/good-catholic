@@ -84,6 +84,11 @@ export default function CatholicPrayersForDying() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic prayers for the dying — the Sacrament of Anointing, Viaticum, the Apostolic Pardon, prayers at the bedside, and what to do when someone is dying.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-for-the-dying">
                 Death is the most universal human experience, and yet it remains the one we are least prepared for. When a loved one is dying — whether suddenly or after a long illness — Catholics have access to a rich tradition of prayer, sacrament, and spiritual accompaniment that can bring profound comfort to both the dying person and those gathered at the bedside. This guide covers everything you need to know: the sacraments available, the prayers to pray, and the practical steps to take when someone you love is approaching death.
               </LinkedText>

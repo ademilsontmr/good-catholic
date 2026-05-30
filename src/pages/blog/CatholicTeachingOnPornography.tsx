@@ -67,6 +67,11 @@ export default function CatholicTeachingOnPornography() {
               <Shield className="w-24 h-24 text-slate-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about pornography? Learn why it is sinful, how it harms the soul and relationships, and the Catholic path to freedom and healing.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 In an age when pornography is accessible to anyone with a smartphone, the Catholic Church's teaching on this subject is more urgent than ever. Millions of Catholics — men and women, young and old, married and single — struggle with pornography use, often in silence and shame. The Church does not ignore this reality. It addresses it with both moral clarity and pastoral compassion.
               </LinkedText>

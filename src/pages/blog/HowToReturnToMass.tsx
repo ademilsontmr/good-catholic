@@ -86,6 +86,11 @@ export default function HowToReturnToMass() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Thinking about returning to Mass? This compassionate guide helps lapsed Catholics come back to the Church — step by step, without judgment.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 Millions of Americans were raised Catholic but drifted away — through college, a painful experience with the Church, a busy life, or simply the gradual erosion of habit. If you are one of them, and something is drawing you back, this guide is for you. There is no judgment here, no checklist of requirements, no minimum standard of holiness you must meet before you are welcome. The Church is a hospital for sinners, not a museum for saints.
               </LinkedText>

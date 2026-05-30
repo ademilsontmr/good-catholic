@@ -84,6 +84,11 @@ export default function WhatIsTheScapular() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn what the Brown Scapular is, the history of Our Lady of Mount Carmel&apos;s apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 If you've ever seen a Catholic wearing what appears to be two small brown cloth squares connected by strings around their neck, you've seen the Brown Scapular. Simple in appearance, profound in meaning — this small sacramental has been worn by saints like St. Thérèse of Lisieux, St. John Paul II, and countless others who entrusted themselves to Our Lady of Mount Carmel. But what exactly is it, where did it come from, and what does it mean to wear one?
               </LinkedText>

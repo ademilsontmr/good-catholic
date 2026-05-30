@@ -67,6 +67,11 @@ export default function IsItSinToMissMass() {
               <Church className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Is missing Sunday Mass a mortal sin? Learn what the Catholic Church teaches about the Sunday obligation, valid excuses, and what to do if you miss Mass.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-it-a-sin-to-miss-mass">
                 The short answer is: yes, deliberately missing Sunday Mass without a valid reason is considered a grave (mortal) sin in Catholic teaching. But understanding why — and what counts as a valid excuse — requires a deeper look at what the Church actually teaches and why Sunday Mass is so central to Catholic life.
               </LinkedText>

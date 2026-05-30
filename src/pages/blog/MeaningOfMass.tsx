@@ -85,6 +85,11 @@ export default function MeaningOfMass() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep theological meaning of the Holy Mass. Learn about Transubstantiation, the Unbloody Sacrifice, and why the Mass is Heaven on Earth.</p>
+              </div>
+
                             <p className="text-text leading-relaxed mb-6">
                                 The Mass is the "Source and Summit" of the Christian life. To understand the Mass is to understand the very DNA of the Catholic faith. It is divided into two main parts: the <strong>Liturgy of the Word</strong> and the <strong>Liturgy of the Eucharist</strong>. Together, they form "one single act of worship" that transcends time and space.
                             </p>

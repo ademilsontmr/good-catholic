@@ -85,6 +85,11 @@ export default function HowToPrayIntercessory() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray intercessory prayer as a Catholic. Discover what intercession is, how to pray for others effectively, and why the Church calls us to be intercessors.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Every Catholic is called to be an intercessor. From the moment of Baptism, we are incorporated into the Body of Christ — and in that Body, we bear one another's burdens. Intercessory prayer is not a special gift reserved for mystics and saints. It is the ordinary duty and privilege of every Christian.
               </LinkedText>

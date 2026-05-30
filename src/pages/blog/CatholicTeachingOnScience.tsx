@@ -67,6 +67,11 @@ export default function CatholicTeachingOnScience() {
               <Microscope className="w-24 h-24 text-teal-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Does the Catholic Church oppose science? Discover the truth — from Mendel and Lemaître to the Big Bang and evolution — and why faith and reason are complementary, not opposed.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The idea that faith and science are at war is a relatively recent invention — a narrative constructed in the 19th century by writers like John William Draper and Andrew Dickson White, whose "conflict thesis" has been thoroughly debunked by modern historians of science. The actual history of the relationship between the Catholic Church and science is far more complex, and far more positive, than the popular myth suggests.
               </LinkedText>

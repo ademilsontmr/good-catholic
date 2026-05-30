@@ -73,6 +73,10 @@ export default function WhyDoCatholics() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Clear answers to the most common questions about Catholic practices: Why do Catholics pray to Mary? Why confess to a priest?</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Do Catholics Pray to Mary?</h2>
               <p className="text-text leading-relaxed mb-6">
                 This is the most common question about Catholic practice. The short answer: Catholics don't pray <em>to</em> Mary in the same way they pray to God. They ask Mary to pray <em>for</em> them — just as they would ask any friend to pray for them.

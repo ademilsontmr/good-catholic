@@ -72,6 +72,11 @@ export default function StJudePrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The most powerful prayers to St. Jude Thaddeus — patron of impossible cases.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-prayer">
                 St. Jude is one of the most beloved and most invoked saints in the Catholic Church. His name appears in newspaper thank-you notices around the world: "Thank you, St. Jude, for prayers answered." Millions of Catholics have experienced his powerful intercession in their most desperate moments.
               </LinkedText>

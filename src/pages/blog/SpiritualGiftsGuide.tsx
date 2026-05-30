@@ -68,6 +68,10 @@ export default function SpiritualGiftsGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are spiritual gifts? The complete Catholic guide to charisms — the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them for the Church.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Are Spiritual Gifts?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-gifts-guide">
                 Spiritual gifts — called <em>charisms</em> in Catholic theology — are special graces given by the Holy Spirit to individuals for the building up of the Church and the sanctification of souls. They are not earned or deserved; they are freely given by God for a purpose beyond the individual recipient. The Catechism of the Catholic Church (CCC 799–801) teaches that charisms are "graces of the Holy Spirit which directly or indirectly benefit the Church, ordered as they are to her building up, to the good of men, and to the needs of the world."

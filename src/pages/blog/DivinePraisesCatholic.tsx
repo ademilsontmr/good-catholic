@@ -72,6 +72,11 @@ export default function DivinePraisesCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Divine Praises with full Catholic text in English, what each praise means, and when Catholics pray them — especially after Benediction of the Blessed Sacrament.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Divine Praises (Full Text)</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6 space-y-3 text-text leading-relaxed">
                 <p className="font-medium">Blessed be God.</p>

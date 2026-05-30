@@ -68,6 +68,10 @@ export default function DivorcedCatholicCommunion() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Can a divorced Catholic receive Holy Communion? The Church&apos;s clear teaching from the Catechism (CCC 1650), Amoris Laetitia, and what divorced Catholics need to know.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-divorced-catholic-receive-communion">
                 Few questions cause more pastoral confusion — and more personal anguish — than this one. Divorced Catholics often feel caught between their love for the Eucharist and uncertainty about whether they are permitted to receive it. The Church's teaching is clear, but it requires careful explanation. This article presents that teaching faithfully, with compassion for those who are living through the pain of a broken marriage.
               </LinkedText>

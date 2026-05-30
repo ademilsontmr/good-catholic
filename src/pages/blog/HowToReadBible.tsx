@@ -85,6 +85,11 @@ export default function HowToReadBible() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to read the Bible as a Catholic. Discover study methods, the Catholic canon, approved translations, and how Scripture fits with Tradition and Magisterium.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-read-bible">
                 The Bible is the inspired Word of God—but knowing how to approach it makes the difference between fruitful reading and frustration. This guide offers practical methods for Catholics to encounter Scripture in ways that deepen faith and transform lives.
               </LinkedText>

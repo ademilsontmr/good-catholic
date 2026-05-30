@@ -67,6 +67,11 @@ export default function WhatIsPentecost() {
               <Wind className="w-24 h-24 text-red-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is Pentecost? Learn about the Catholic feast that celebrates the descent of the Holy Spirit — its biblical origins, its meaning, how Catholics celebrate it, and Pentecost 2026.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-pentecost-catholic">
                 In 2026, Pentecost Sunday falls on May 24. It comes fifty days after Easter Sunday, closing the Easter Season with a great outpouring of the Spirit. Understanding Pentecost — its biblical roots, its theological meaning, and how the Church celebrates it — is essential for any Catholic who wants to live the liturgical year with depth and devotion.
               </LinkedText>

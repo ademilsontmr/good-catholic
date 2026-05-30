@@ -67,6 +67,11 @@ export default function CatholicTeachingOnDeath() {
               <Moon className="w-24 h-24 text-slate-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about death? The Four Last Things, the Particular Judgment, the resurrection of the body, and how to prepare for a holy death.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Every human being will die. This is not a morbid observation — it is the starting point of wisdom. The ancient Romans said <em>memento mori</em>: "remember that you will die." The Catholic tradition has always taken this seriously, not to produce despair, but to produce clarity. When we know that our time is limited, we begin to ask the right questions: What is life for? What happens after? How should I live?
               </p>

@@ -84,6 +84,11 @@ export default function DailyPrayerRoutine() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to build a Catholic daily prayer routine with morning, midday, evening, and night prayer. Practical tips from the saints and a sample weekly schedule.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 One of the most common struggles among American Catholics is inconsistency in prayer. We want to pray more, we know we should pray more, but life gets busy and prayer gets pushed to the margins. The solution isn't willpower — it's structure. When prayer is tied to the natural rhythms of the day, it becomes as natural as eating or sleeping. The Church has always known this, which is why she developed the Liturgy of the Hours — a structured prayer schedule that sanctifies every part of the day.
               </LinkedText>

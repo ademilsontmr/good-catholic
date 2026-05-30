@@ -68,6 +68,10 @@ export default function CatholicAndOrthodoxDifferences() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are the key differences between the Catholic and Orthodox Churches? Learn about the Great Schism of 1054, the Filioque, papal authority, and the path toward reunion.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Great Schism of 1054</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-orthodox-differences">
                 The split between the Catholic and Orthodox Churches did not happen overnight. It was the culmination of centuries of growing tension between the Church of Rome in the West and the Church of Constantinople in the East — tensions that were theological, political, cultural, and linguistic.

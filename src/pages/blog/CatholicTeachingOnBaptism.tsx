@@ -67,6 +67,11 @@ export default function CatholicTeachingOnBaptism() {
               <Droplets className="w-24 h-24 text-sky-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is necessary for salvation, and how to live out your Baptism.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
                 The Catechism of the Catholic Church calls Baptism "the basis of the whole Christian life, the gateway to life in the Spirit, and the door which gives access to the other sacraments" (CCC 1213). It is the sacrament by which we are reborn as children of God, incorporated into the Body of Christ, and made members of the Church. Every other sacrament presupposes it. Every grace we receive flows through it. To understand Baptism is to understand the very foundation of the Christian life.
               </LinkedText>

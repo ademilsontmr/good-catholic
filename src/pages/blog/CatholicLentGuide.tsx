@@ -68,6 +68,10 @@ export default function CatholicLentGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The most complete guide to observing Lent as a Catholic — week-by-week plan, fasting rules, prayer schedule, almsgiving ideas, and a full Lent checklist.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Lent?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-lent-guide">
                 Lent is the 40-day liturgical season of preparation for Easter. It begins on Ash Wednesday and ends on Holy Saturday, the day before Easter Sunday. The 40 days mirror Jesus's 40 days of fasting and prayer in the desert before beginning his public ministry. Sundays are not counted in the 40 days — they are always celebrations of the Resurrection — which is why Lent actually spans about 46 calendar days.

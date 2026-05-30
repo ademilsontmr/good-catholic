@@ -68,6 +68,10 @@ export default function WhyYoungCatholicsLeave() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Why are young Catholics leaving the Church? The real reasons — and what the Church offers those who are searching, doubting, or have drifted away.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The numbers are striking. According to Pew Research Center, approximately 13% of all American adults are former Catholics — people who were raised in the faith and have since left. The Catholic Church loses more members than any other Christian denomination in the United States. For every person who converts to Catholicism, roughly six people leave. This is not a minor pastoral challenge. It is a crisis.
               </LinkedText>

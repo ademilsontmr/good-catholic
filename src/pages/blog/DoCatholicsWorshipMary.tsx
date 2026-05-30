@@ -86,6 +86,11 @@ export default function DoCatholicsWorshipMary() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Do Catholics worship Mary? Learn the difference between worship and veneration, what hyperdulia means, the four Marian dogmas, and how to explain Marian devotion to non-Catholics.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Understanding Marian devotion is not about "rules"—it is about <strong>Biblical Typology</strong>. To the Catholic expert, Mary is not an obstacle to Jesus; she is the gateway. As a window doesn't stop the light but transmits it, Mary transmits the glory of God to us.
               </p>

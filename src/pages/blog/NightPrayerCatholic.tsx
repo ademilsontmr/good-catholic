@@ -86,6 +86,11 @@ export default function NightPrayerCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray Catholic night prayer. Full texts for evening prayer, Compline, examination of conscience, and bedtime prayers for adults and children.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 The Church has always sanctified the night with prayer. From the earliest centuries, Christians gathered in the evening to pray — to give thanks for the day, to ask forgiveness for failures, to commend themselves to God's protection through the night. This tradition lives on in the Liturgy of the Hours, in family bedtime prayers, and in the personal evening prayer of millions of Catholics around the world.
               </LinkedText>

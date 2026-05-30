@@ -72,6 +72,11 @@ export default function OurLadyGuadalupePatronessAmericas() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Our Lady of Guadalupe — the 1531 apparitions to Juan Diego, the miraculous tilma, her role as Patroness of the Americas, and the feast day of December 12.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 The Basilica of Our Lady of Guadalupe in Mexico City receives more than 20 million pilgrims each year — more than any other Catholic shrine in the world, and more than any other Christian site except the Vatican. The image of Our Lady of Guadalupe is the most reproduced religious image in history. She is the patroness of Mexico, of all Latin America, of the Philippines, and of the entire Western Hemisphere. Understanding her is essential to understanding Catholicism in the Americas.
               </LinkedText>

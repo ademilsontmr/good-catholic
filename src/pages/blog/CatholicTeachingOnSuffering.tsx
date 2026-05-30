@@ -67,6 +67,11 @@ export default function CatholicTeachingOnSuffering() {
               <HelpCircle className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Why does God allow suffering? The Catholic answer is not a simple explanation but a Person — Jesus Christ, who entered into human suffering and transformed it from within.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 Every human being who has ever lived has asked some version of this question. A child dies of cancer. A good man loses everything. An innocent person suffers while the guilty prosper. The earthquake, the war, the diagnosis — they all raise the same agonizing question: where is God in this? Why does He allow it?
               </LinkedText>

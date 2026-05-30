@@ -84,6 +84,11 @@ export default function GuardianAngels() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Do you have a Guardian Angel? Discover the Catholic teaching on angels, the nine celestial choirs, and how to build a relationship with your divine protector.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The term "Angel" refers to their office, not their nature. By nature, they are <strong>Pure Spirits</strong>; by office, they are messengers (<em>Angelus</em>). They are the "celestial court" that mediates between the Infinite God and finite humanity.
               </p>

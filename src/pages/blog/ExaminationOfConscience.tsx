@@ -83,6 +83,11 @@ export default function ExaminationOfConscience() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Practical guide to perform a deep and sincere examination of conscience. Prepare for the sacrament of Reconciliation with this spiritual roadmap.</p>
+              </div>
+
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
                                 The Sacrament of Reconciliation is one of the greatest gifts Jesus left to His Church. However, to fully receive the grace of forgiveness, a contrite heart and sincere preparation are necessary. The examination of conscience is not an exercise in guilt, but an act of love and truth before a God who is Father and Mercy.
                             </LinkedText>

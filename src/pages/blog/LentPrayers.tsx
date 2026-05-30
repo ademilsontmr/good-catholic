@@ -73,6 +73,10 @@ export default function LentPrayers() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The best Catholic prayers for Lent 2026 — the Stations of the Cross, Lenten prayers of repentance, the Miserere (Psalm 51), prayers for each week of Lent, and more.</p>
+              </div>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-1">📅 Lent 2026</p>
                 <p className="text-text text-sm">Ash Wednesday: <strong>February 18, 2026</strong> → Easter Sunday: <strong>April 5, 2026</strong></p>

@@ -72,6 +72,11 @@ export default function SaintNicholas() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the real Saint Nicholas — the 4th-century bishop of Myra whose extraordinary generosity inspired the legend of Santa Claus. His life, miracles, and feast day.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 Every December, billions of people celebrate a figure inspired by a real Catholic bishop who lived in what is now Turkey in the 4th century. The transformation of Nicholas of Myra into Santa Claus is one of the most remarkable stories in cultural history. But the real Nicholas is far more interesting — and far more inspiring — than his secular descendant.
               </LinkedText>

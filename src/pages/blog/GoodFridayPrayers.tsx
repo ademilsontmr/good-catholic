@@ -73,6 +73,10 @@ export default function GoodFridayPrayers() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Powerful Catholic prayers for Good Friday 2026 (April 3) — the Seven Last Words of Jesus, the Stabat Mater, prayers before the cross, and how to observe Good Friday.</p>
+              </div>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-1">📅 Good Friday 2026</p>
                 <p className="text-text text-sm"><strong>Date:</strong> Friday, April 3, 2026<br /><strong>Celebration of the Lord's Passion:</strong> Typically at 3pm (the hour of Christ's death)<br /><strong>Fasting & Abstinence:</strong> Required for all Catholics of age</p>

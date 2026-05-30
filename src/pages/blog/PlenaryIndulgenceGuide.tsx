@@ -83,6 +83,11 @@ export default function PlenaryIndulgenceGuide() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">There&apos;s still time! Learn how to obtain plenary indulgence at the closing of Jubilee 2025 and understand the spiritual value of this grace.</p>
+              </div>
+
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
                                 Many Catholics confuse Indulgence with Confession. While Confession forgives the guilt of sin, plenary indulgence erases the "temporal punishment" — the mark or disorder that sin leaves on our soul. In Jubilee 2025, Pope Francis facilitated access to this immense grace.
                             </LinkedText>

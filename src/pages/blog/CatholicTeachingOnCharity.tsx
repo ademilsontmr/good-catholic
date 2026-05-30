@@ -67,6 +67,11 @@ export default function CatholicTeachingOnCharity() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Charity is the greatest of the theological virtues — the love of God and neighbor that is the form of all virtues. Learn what it is, how it grows, and how the saints lived it.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-charity-catholic">
                 Charity — from the Latin caritas — is not merely generosity or benevolence. It is the theological virtue by which we love God above all things and our neighbor as ourselves for the love of God. It is the highest of all virtues, the form and mother of all the others, and the only virtue that will remain in heaven. Understanding charity is essential to understanding the whole of the Christian life.
               </LinkedText>

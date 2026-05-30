@@ -67,6 +67,11 @@ export default function CatholicTeachingOnEndTimes() {
               <Moon className="w-24 h-24 text-indigo-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about the end times? The Second Coming, the Rapture (which Catholics don&apos;t believe in), the Book of Revelation, the Last Judgment, and how to live in hope.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-end-times">
                 Eschatology — the theological study of the "last things" — is one of the richest and most neglected areas of Catholic theology. The Catechism devotes significant attention to it (CCC 668-682, 1020-1060), and the Church's teaching is both more nuanced and more hopeful than most people realize.
               </LinkedText>

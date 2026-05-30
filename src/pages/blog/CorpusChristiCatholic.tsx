@@ -72,6 +72,11 @@ export default function CorpusChristiCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is Corpus Christi? Learn about the feast of the Body and Blood of Christ — its history, the Eucharistic procession, the prayers of St.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 Corpus Christi — Latin for "Body of Christ" — is the solemnity that celebrates the Real Presence of Jesus Christ in the Eucharist. It is celebrated on the Thursday after Trinity Sunday (or, in some countries, on the following Sunday), approximately 60 days after Easter. In 2026, Corpus Christi falls on June 4.
               </LinkedText>

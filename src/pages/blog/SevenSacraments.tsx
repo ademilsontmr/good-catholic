@@ -85,6 +85,11 @@ export default function SevenSacraments() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep theology behind the seven sacraments. Learn about Matter and Form, the Indelible Character, and how grace is transmitted Ex Opere Operato.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 To understand the sacraments, one must understand <strong>Ex Opere Operato</strong>. This Latin phrase means "from the work worked." It signifies that the grace of a sacrament does not depend on the personal holiness of the priest, but on the power of Christ working through him. If the "Matter" and "Form" are correct, the grace is transmitted.
               </p>

@@ -72,6 +72,11 @@ export default function CatholicPrayersGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The complete guide to essential Catholic prayers — the Our Father, Hail Mary, Glory Be, Apostles&apos; Creed, Act of Contrition, Rosary, and more. Full texts and explanations.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-complete-guide">
                 The Catholic tradition is one of the richest prayer traditions in the world. Over two thousand years, the Church has developed a treasury of prayers — from the simple Sign of the Cross to the complex Liturgy of the Hours — that cover every moment of the day, every season of life, and every need of the human heart.
               </LinkedText>

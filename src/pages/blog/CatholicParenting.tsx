@@ -84,6 +84,11 @@ export default function CatholicParenting() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith. Practical tips for every age.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-raising-children-in-faith">
                 Every Catholic parent has felt it — that quiet, urgent desire to pass on the faith to their children. Not just as a set of rules or Sunday obligations, but as a living relationship with Jesus Christ. The Church calls the family the "domestic church" (ecclesia domestica), a phrase that carries enormous weight: your home is meant to be a little church, a place where faith is breathed in and lived out every day.
               </LinkedText>

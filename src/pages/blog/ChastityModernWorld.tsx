@@ -75,6 +75,11 @@ export default function ChastityModernWorld() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How to live chastity in the modern world — Catholic teaching on purity before marriage, in marriage, and practical steps for daily life.</p>
+              </div>
+
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">
                                 Speaking of chastity today seems, to many, an anachronism. In a culture that preaches immediate satisfaction of all impulses, the Christian proposal of purity is often ridiculed or misunderstood. However, chastity is the virtue that orders our affectivity and sexuality, integrating them into the human person for the good of authentic love.
                             </LinkedText>

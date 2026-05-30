@@ -67,6 +67,11 @@ export default function CatholicTeachingOnMoney() {
               <Coins className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Is it a sin to be rich? What does the Church teach about tithing, stewardship, and the proper use of wealth?</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 Few topics generate more confusion among Catholics than money. Some assume the Church condemns wealth outright. Others assume that financial success is a sign of God's blessing. Both are wrong. The Catholic tradition on money is rich, coherent, and deeply challenging — rooted in Scripture, developed through centuries of social teaching, and demanding a radical reorientation of how we think about what we own.
               </LinkedText>

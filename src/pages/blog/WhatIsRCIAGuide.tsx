@@ -72,6 +72,11 @@ export default function WhatIsRCIAGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is RCIA? Complete guide to the Rite of Christian Initiation of Adults — what it is, who it&apos;s for, what happens at each stage, and how to find RCIA near you.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-rcia-explained">
                 Every year, hundreds of thousands of adults around the world enter the Catholic Church through RCIA. They come from every background — Protestant Christians, people of other faiths, and those with no religious background at all. What they share is a desire to know God more fully and a sense that the Catholic Church is where He is calling them.
               </LinkedText>

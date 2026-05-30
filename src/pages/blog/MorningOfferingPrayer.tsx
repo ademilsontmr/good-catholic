@@ -84,6 +84,11 @@ export default function MorningOfferingPrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic Morning Offering prayer and how to consecrate your entire day to God. Discover different versions, the history, and practical tips for making this powerful prayer a daily habit.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 Imagine waking up each morning and, before checking your phone or making coffee, offering your entire day to God. Every meeting, every frustration, every moment of joy — all of it given to Him as a gift. This is the essence of the Morning Offering, one of the most practical and transformative prayers in the Catholic tradition.
               </LinkedText>

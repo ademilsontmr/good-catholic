@@ -72,6 +72,11 @@ export default function DailyMassNearMe() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Find Daily Mass near you today. Learn how to locate weekday Catholic Mass times, noon Mass, early morning Mass, readings, and parish schedules.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Daily Mass Today</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Search "Daily Mass near me"</strong> or "Catholic Mass today near me" with your city or ZIP code.</li>

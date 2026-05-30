@@ -84,6 +84,11 @@ export default function PrayerToStJoseph() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover powerful prayers to St. Joseph for families, workers, and those in need.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-to-st-joseph">
                 In the entire history of the Catholic Church, few saints have been as consistently venerated — and as consistently underestimated — as St. Joseph. He appears in the Gospels without a single recorded word. He acts in silence: protecting, providing, obeying. And yet the Church has recognized in this silent man one of the greatest saints who ever lived — a man so trusted by God that He entrusted to him the care of His own Son and the Virgin Mother.
               </LinkedText>

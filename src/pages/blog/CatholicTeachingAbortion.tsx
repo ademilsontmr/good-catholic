@@ -84,6 +84,11 @@ export default function CatholicTeachingAbortion() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic Church&apos;s consistent teaching on abortion from the earliest centuries, the theological basis in human dignity, Evangelium Vitae, and how Catholics can be pro-life in practice.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Few topics generate more heat in American public life than abortion. For Catholics, the Church's teaching can sometimes feel like a burden — especially when it puts them at odds with friends, family, or the broader culture. But understanding <em>why</em> the Church teaches what it does — not just <em>what</em> it teaches — can transform this from a political stance into a deeply held conviction of faith and reason.
               </p>

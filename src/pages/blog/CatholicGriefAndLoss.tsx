@@ -67,6 +67,11 @@ export default function CatholicGriefAndLoss() {
               <Heart className="w-24 h-24 text-purple-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How does Catholic faith help us grieve? A compassionate guide to loss, death, and healing — with prayers, the hope of resurrection, and the comfort of the saints.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 The death of a loved one is a wound that does not heal quickly. Grief is not a problem to be solved or a weakness to be overcome — it is the price of love, and it is holy. The Catholic tradition has accompanied the dying and the bereaved for two thousand years, and it offers a depth of wisdom and consolation that no secular framework can match.
               </LinkedText>

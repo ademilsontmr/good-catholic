@@ -68,6 +68,10 @@ export default function OurLadyFatimaNovenaGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Our Lady of Fatima Novena — the message of Fatima, how to pray the 9-day novena step by step, the Fatima Prayer, and where to pray it online.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Our Lady of Fatima?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
                 Our Lady of Fatima appeared six times to three shepherd children — Lucia, Francisco, and Jacinta — in Fatima, Portugal, between May 13 and October 13, 1917. She asked for daily Rosary, penance, and the consecration of Russia to her Immaculate Heart. The apparitions were approved by the Church in 1930. Our Lady of Fatima is one of the most venerated Marian apparitions in history, and her message of prayer, penance, and conversion remains urgently relevant today. Her feast day is May 13.

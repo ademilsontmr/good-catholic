@@ -69,6 +69,11 @@ export default function ListOfAllPopesCatholicGuide() {
               <Crown className="w-24 h-24 text-amber-700" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete list of all Catholic popes from St. Peter to Pope Leo XIV — 267 successors of Peter, historical eras, notable pontiffs, and searchable chronological table.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why the Pope Matters in Catholic Faith</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="list-of-all-popes-catholic-complete-guide">
                 Catholics believe Jesus entrusted unique authority to Peter — &quot;Upon this rock I will build my Church&quot; (Matthew 16:18) — and that this office continues in an unbroken line of bishops of Rome. The pope is not a CEO elected by popularity; he is the visible head of the universal Church, guardian of apostolic teaching, and servant of the servants of God (<em>Servus servorum Dei</em>). Every name on the list below represents a link in that chain, however imperfectly each man carried the office.

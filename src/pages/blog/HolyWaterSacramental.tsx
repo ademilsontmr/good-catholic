@@ -85,6 +85,11 @@ export default function HolyWaterSacramental() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the power of holy water in Catholic tradition. Learn its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">
                 One of the oldest and most beloved Catholic sacramentals, holy water is a powerful reminder of baptism and a source of grace. This simple practice—blessing oneself with water—connects Catholics to their baptismal identity and offers spiritual protection.
               </LinkedText>

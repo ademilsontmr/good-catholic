@@ -67,6 +67,11 @@ export default function CatholicTeachingOnLove() {
               <Heart className="w-24 h-24 text-pink-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does love really mean? Discover the Catholic understanding of eros, philia, and agape — and why Pope Benedict XVI said they are not opposites but complementary.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The English word "love" is notoriously imprecise. We love our spouses, our children, our friends, our country, our favorite sports team, and our morning coffee — all with the same word. The ancient Greeks were more precise. They had at least three distinct words for love, each capturing a different dimension of this most fundamental of human experiences: <em>eros</em>, <em>philia</em>, and <em>agape</em>. The Catholic tradition has drawn on all three to articulate a comprehensive theology of love that is both intellectually rigorous and spiritually transformative.
               </p>

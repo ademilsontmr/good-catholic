@@ -72,6 +72,11 @@ export default function ConfessionTimesNearMe() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Fastest Ways to Find Confession Times Near You</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Search Google Maps:</strong> try "Catholic confession near me" or "confession times near me" and open nearby parish websites.</li>

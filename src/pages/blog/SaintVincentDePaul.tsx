@@ -72,6 +72,11 @@ export default function SaintVincentDePaul() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Vincent de Paul — the 17th-century French priest who revolutionized Catholic charity. His life, the Vincentian family, the Society of St.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Vincent de Paul is one of the most practical saints in the history of the Church. He was not a mystic who spent his days in contemplation (though he was a man of deep prayer). He was an organizer, a fundraiser, a trainer of volunteers, a reformer of the clergy, and a tireless advocate for the poor. He founded two religious congregations and inspired a lay movement that continues to serve the poor in 150 countries today.
               </LinkedText>

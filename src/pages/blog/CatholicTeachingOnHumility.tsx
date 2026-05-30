@@ -67,6 +67,11 @@ export default function CatholicTeachingOnHumility() {
               <Heart className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Humility is the foundation of the spiritual life. Learn what humility really is, why pride is the root of all sin, and how to grow in this essential virtue according to Catholic teaching.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 In a culture that prizes self-promotion, personal branding, and the relentless assertion of one's own worth, humility can seem like a relic — or worse, a weakness. But the Catholic tradition has always understood humility as one of the most powerful and liberating virtues a human being can possess. Without it, no other virtue can stand. With it, the soul is open to receive everything God wishes to give.
               </LinkedText>

@@ -67,6 +67,11 @@ export default function HowToPrayNovena() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Step-by-step guide to praying a novena — what a novena is, how to choose one, the nine days of prayer, and the most popular novenas in the Catholic tradition.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The word "novena" comes from the Latin <em>novem</em>, meaning nine. For nearly two thousand years, Catholics have prayed novenas — nine days of prayer offered with perseverance and faith. The practice is rooted in the nine days the Apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14), waiting for the promised Holy Spirit. That first novena ended with the most dramatic answer to prayer in history: the descent of the Holy Spirit upon the Church.
               </p>

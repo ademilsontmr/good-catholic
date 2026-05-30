@@ -68,6 +68,10 @@ export default function StJosephBuyingHouseGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete Catholic guide to praying to Saint Joseph for help buying or selling a home — the tradition of burying the statue, how to pray the novena, and how to bless your new home.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saint Joseph, Patron of Homes and Families</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-buying-house-guide">
                 Saint Joseph is the foster father of Jesus, the husband of Mary, and the patron of the universal Church, workers, fathers, and families. He is also invoked for help in buying and selling homes — a tradition rooted in his role as the provider and protector of the Holy Family's home. His feast days are March 19 (Saint Joseph, Spouse of Mary) and May 1 (Saint Joseph the Worker). Devotion to Saint Joseph for real estate matters has been practiced by Catholics for centuries.

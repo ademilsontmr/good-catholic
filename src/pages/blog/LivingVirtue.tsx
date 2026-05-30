@@ -85,6 +85,11 @@ export default function LivingVirtue() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover how to live the Christian life with practical guidance on virtues, daily holiness, and growing closer to Christ in ordinary circumstances.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
                 The Christian life is not a set of rules but a relationship with Christ that transforms character. Living virtue in daily circumstances—at work, in family, amid challenges—is the path to holiness accessible to everyone.
               </LinkedText>

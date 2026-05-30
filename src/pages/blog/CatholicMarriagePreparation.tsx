@@ -85,6 +85,11 @@ export default function CatholicMarriagePreparation() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Prepare for Catholic marriage with this complete guide. Learn about Pre-Cana, marriage requirements, Natural Family Planning, and building a sacramental union.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
                 Preparing for marriage in the Catholic Church involves more than choosing flowers and venues. It requires spiritual formation, practical preparation, and understanding the sacramental nature of this lifelong commitment.
               </LinkedText>

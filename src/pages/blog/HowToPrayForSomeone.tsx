@@ -67,6 +67,11 @@ export default function HowToPrayForSomeone() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How do you pray for someone effectively? A complete Catholic guide to intercessory prayer — for the sick, the lost, enemies, and those you love most.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 When someone we love is suffering — sick, lost, struggling, broken — we often feel helpless. We want to do something, but we don't know what. The Catholic tradition offers a profound answer: pray for them. Not as a last resort, not as a substitute for action, but as the most powerful thing you can do — bringing another person before the throne of God and asking for His mercy on their behalf.
               </LinkedText>

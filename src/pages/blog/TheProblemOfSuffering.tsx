@@ -85,6 +85,11 @@ export default function TheProblemOfSuffering() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Explore the Catholic response to the problem of evil. Learn about redemptive suffering, Salvifici Doloris, and how God brings good from pain.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Philosophers call this the <strong>Epicurean Paradox</strong>: If God is willing to prevent evil but not able, He is not all-powerful. If He is able but not willing, He is not all-good. The Catholic response is not a logical equation, but a historical event: <strong>The Crucifixion</strong>.
               </p>

@@ -84,6 +84,11 @@ export default function ConsecratYourHome() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to consecrate your home to God as a Catholic — the Epiphany house blessing, the difference between blessing and consecration, sacred objects, and how to create a prayer corner.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 In a culture that increasingly separates faith from daily life, the Catholic tradition of blessing and consecrating the home stands as a powerful counter-witness. When you hang a crucifix above your door, place a holy water font at the entrance, or gather your family for evening prayer, you are declaring that this home belongs to God — that Christ is Lord here, not the world. This guide will walk you through everything you need to know about blessing and consecrating your Catholic home.
               </LinkedText>

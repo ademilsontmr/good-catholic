@@ -84,6 +84,11 @@ export default function SaintJudeThaddeus() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything about St. Jude Thaddeus: who he was as an Apostle, why he became patron of impossible causes, the full Novena to St.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Open any major newspaper on any given week, and you are likely to find small classified advertisements that read: <em>"Thank you, St. Jude, for prayers answered."</em> This tradition — of publishing public thanks to St. Jude after receiving his help — has been printed in newspapers around the world for over a century. It speaks to something extraordinary: millions of Catholics who, in their darkest moments, turned to this forgotten Apostle and received help that felt miraculous.
               </p>

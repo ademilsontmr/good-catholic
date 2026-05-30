@@ -72,6 +72,11 @@ export default function SaintKateriTekakwitha() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Kateri Tekakwitha — the first Native American to be canonized. Her life, her faith, her miracles, and why she is beloved by Catholics across the United States.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Kateri Tekakwitha was born in 1656 in Ossernenon (present-day Auriesville, New York) — the same village where the Jesuit martyrs Isaac Jogues and his companions had been killed just a decade earlier. She died at the age of 24, having lived a life of extraordinary holiness in the most difficult of circumstances. Three centuries after her death, the Catholic Church declared her a saint — the first Native American to receive that honor.
               </LinkedText>

@@ -87,6 +87,10 @@ export default function PopeFrancisLegacy() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Explore the life and legacy of Pope Francis — Jorge Mario Bergoglio — from Buenos Aires to the Vatican. His key documents, his emphasis on mercy, and his impact on the Church.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 From Buenos Aires: The Making of a Pope
               </h2>

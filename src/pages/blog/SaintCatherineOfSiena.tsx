@@ -67,6 +67,11 @@ export default function SaintCatherineOfSiena() {
               <BookOpen className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Catherine of Siena — the Dominican mystic who never learned to read, received the stigmata, and convinced the Pope to return to Rome.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-catherine-of-siena">
                 In an age when women had almost no public voice, Catherine of Siena spoke to the most powerful men in Europe — and they listened. She convinced a reluctant Pope to leave the comfort of Avignon and return to Rome. She dictated a mystical masterwork while in ecstasy. She received the stigmata. She died at 33, the same age as Christ. And in 1970, she became one of the first two women ever declared a Doctor of the Church. Her story is one of the most astonishing in the history of Christianity.
               </LinkedText>

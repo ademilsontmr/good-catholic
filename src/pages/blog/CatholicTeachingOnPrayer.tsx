@@ -67,6 +67,11 @@ export default function CatholicTeachingOnPrayer() {
               <Heart className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is prayer? The Catholic Church teaches that prayer is the raising of the mind and heart to God.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 Every human being prays — or has prayed, or longs to pray. Even those who claim not to believe in God find themselves, in moments of crisis or wonder, reaching out toward something beyond themselves. This reaching out is the beginning of prayer. The Catholic tradition takes this universal human impulse and gives it a name, a form, and a depth that transforms it from a vague spiritual instinct into a living relationship with the God who made us and loves us.
               </LinkedText>

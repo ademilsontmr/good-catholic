@@ -67,6 +67,11 @@ export default function SaintBernadetteSoubirous() {
               <Sparkles className="w-24 h-24 text-sky-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Bernadette Soubirous — the young French girl who saw Our Lady 18 times at Lourdes in 1858, whose body remains incorrupt to this day.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-bernadette-soubirous">
                 Saint Bernadette Soubirous (1844–1879) is one of the most beloved saints in the Catholic Church — not because of great intellectual achievements or heroic deeds, but because of her extraordinary simplicity, her fidelity to what she had seen, and her willingness to suffer in silence. She was chosen by God not despite her poverty and weakness, but because of it. Her life is a living illustration of the Magnificat: God has lifted up the lowly.
               </LinkedText>

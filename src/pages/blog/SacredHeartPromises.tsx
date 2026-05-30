@@ -85,6 +85,11 @@ export default function SacredHeartPromises() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Master the 12 promises of the Sacred Heart of Jesus. Learn the history of Paray-le-Monial, the 9 First Fridays, and the theology of reparation.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The devotion of the Sacred Heart reached its modern clarity in 17th-century France, at the convent of <strong>Paray-le-Monial</strong>. Jesus chose an obscure nun, <strong>Saint Margaret Mary Alacoque</strong>, to reveal the "unfathomable riches" of His Heart. This was God's direct intervention against <strong>Jansenism</strong>, a heresy that painted God as a distant, terrifying judge.
               </p>

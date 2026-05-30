@@ -72,6 +72,11 @@ export default function SignOfTheCrossCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to make the Sign of the Cross the Catholic way — the words in English and Latin, left to right, when to use it, and what this ancient gesture means.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Make the Sign of the Cross (Catholic)</h2>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
                 <li>Touch your forehead.</li>

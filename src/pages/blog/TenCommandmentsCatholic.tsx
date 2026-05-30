@@ -85,6 +85,11 @@ export default function TenCommandmentsCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are the 10 Commandments in the Catholic Church? Learn the full text, how Catholic numbering differs from Protestant, what each commandment means, and how to live them today.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The Ten Commandments — called the <em>Decalogue</em> (from the Greek <em>deka logoi</em>, "ten words") — were given by God to Moses on Mount Sinai and are recorded in Exodus 20:1-17 and Deuteronomy 5:6-21. They form the foundational moral law of the Judeo-Christian tradition, and the Catholic Church treats them as the essential framework for understanding the moral life.
               </p>

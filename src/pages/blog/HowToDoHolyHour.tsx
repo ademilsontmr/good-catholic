@@ -87,6 +87,11 @@ export default function HowToDoHolyHour() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to do a Holy Hour of Eucharistic Adoration. Discover what to pray, how to structure your time, and why spending an hour with Jesus transforms your life.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 A Holy Hour is an hour spent in prayer before the Blessed Sacrament — Jesus truly present in the Eucharist. It is a time to be with Jesus, to adore Him, to speak with Him, and to listen to Him. For many Catholics, the weekly Holy Hour has become the anchor of their spiritual life — the hour that transforms all the other hours of the week.
               </LinkedText>

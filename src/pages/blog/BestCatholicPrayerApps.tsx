@@ -68,6 +68,10 @@ export default function BestCatholicPrayerApps() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">org, and more. Honest reviews, pricing, and which app is right for your prayer life.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Introduction: Faith in the Digital Age</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="best-catholic-prayer-apps-2026">
                 The average American spends over four hours per day on their smartphone. For Catholics, this presents both a challenge and an opportunity. The same device that can distract us from prayer can also become a powerful tool for deepening our faith — if we choose the right apps and use them intentionally.

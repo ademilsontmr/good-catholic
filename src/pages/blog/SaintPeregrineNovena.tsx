@@ -84,6 +84,11 @@ export default function SaintPeregrineNovena() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Pray the Saint Peregrine Novena for healing from cancer and other illnesses. Learn about the miraculous life of the &apos;Cancer Saint&apos; and how to ask for his intercession.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Saint Peregrine Laziosi is known worldwide as the <strong>"Patron Saint of those suffering from cancer."</strong> His life is a testament to the power of repentance, the importance of the internal struggle, and the possibility of miraculous healing through the intercession of the saints.
               </p>

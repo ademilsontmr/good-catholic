@@ -85,6 +85,11 @@ export default function CatholicDatingGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the Catholic approach to dating and courtship. Learn how to date with intention, prepare for marriage, and build relationships that honor God and each other.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating is fundamentally different from secular dating. While the world often focuses on physical attraction and temporary pleasure, Catholic dating centers on discernment, virtue, and the possibility of a lifelong vocation to marriage. It's a journey of discovering whether God has brought someone into your life for a sacred purpose.
               </LinkedText>

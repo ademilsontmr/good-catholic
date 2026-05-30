@@ -84,6 +84,11 @@ export default function SaintMichaelArchangel() {
                <Shield className="w-32 h-32 text-indigo-500 relative z-10" strokeWidth={1} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn about St. Michael the Archangel — his four roles in Scripture, the full text of the Prayer to St.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 In an age of increasing spiritual disorientation, the figure of St. Michael the Archangel stands as a beacon of absolute loyalty to the Creator. While modern secularism often reduces angels to "decorative" figures, Catholic theology presents him as a powerful, distinct person of pure spirit — the <strong>General of the Armies of the Lord</strong>.
               </p>

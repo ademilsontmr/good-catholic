@@ -84,6 +84,11 @@ export default function CatholicViewOnGhosts() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Do Catholics believe in ghosts? Church teaching on souls in purgatory, demonic deception, haunted houses, and how to protect your home — explained clearly.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 Strictly speaking, the Catholic Church does not use the word "ghost" in the way popular culture does. However, the Church has always believed in the reality of the spiritual world. From an orthodox Catholic perspective, "paranormal" phenomena usually fall into one of two categories: <strong>Souls in Purgatory</strong> or <strong>Demonic Deception</strong>.
               </p>

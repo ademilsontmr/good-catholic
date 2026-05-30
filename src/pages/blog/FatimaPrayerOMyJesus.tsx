@@ -72,6 +72,11 @@ export default function FatimaPrayerOMyJesus() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Fatima Prayer (O My Jesus) with full text, meaning, when Our Lady asked for it in the Rosary, and how Catholics pray it after each decade.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Fatima Prayer Full Text</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-lg">

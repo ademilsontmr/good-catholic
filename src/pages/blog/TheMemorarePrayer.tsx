@@ -84,6 +84,11 @@ export default function TheMemorarePrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the full text of the Memorare prayer, its history, meaning, and how to pray it. Discover why this ancient prayer to the Virgin Mary has comforted Catholics for centuries.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-memorare-prayer">
                 There is a prayer that has been whispered in hospital rooms, prayed in foxholes, recited in moments of desperation and moments of quiet devotion. It begins with a bold claim — "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thy intercession was left unaided" — and ends with a humble plea for mercy. This is the Memorare, and for centuries it has been the prayer Catholics turn to when they need a mother's help.
               </LinkedText>

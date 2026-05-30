@@ -67,6 +67,11 @@ export default function WhatIsGraceCatholic() {
               <HelpCircle className="w-24 h-24 text-violet-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is grace? Learn the Catholic teaching on sanctifying grace, actual grace, and how God&apos;s free gift transforms the soul and makes salvation possible.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-grace-catholic">
                 The Catechism of the Catholic Church defines grace as "favor, the free and undeserved help that God gives us to respond to his call to become children of God, adoptive sons, partakers of the divine nature and of eternal life" (CCC 1996). This definition contains several crucial elements: grace is free (we cannot earn it), it is undeserved (we have no claim to it), and it is transformative (it actually changes us, not just our legal status before God).
               </LinkedText>

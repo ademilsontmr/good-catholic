@@ -84,6 +84,11 @@ export default function SaintJohnVianneyCureOfArs() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the life of Saint John Vianney, the humble priest who converted thousands through the confessional and battled the demonic in his small village of Ars.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 <strong>Saint John Vianney (1786–1859)</strong> was a man whom the world would have called a failure. He struggled with Latin, nearly failed out of the seminary, and was considered "slow" by his peers. Yet, God used his directness and extreme penance to shrivel the post-Revolutionary atheism of France.
               </p>

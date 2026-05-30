@@ -67,6 +67,11 @@ export default function CatholicSpiritualWarfare() {
               <Shield className="w-24 h-24 text-slate-700" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Spiritual warfare is real. Learn the Catholic teaching on the battle for the soul — the three enemies, the Armor of God, the Prayer to Saint Michael, and a daily spiritual warfare routine.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Saint Paul did not mince words: "For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places" (Ephesians 6:12). This is not poetry. It is a description of reality — the reality that every baptized Catholic enters at the font and lives until death.
               </LinkedText>

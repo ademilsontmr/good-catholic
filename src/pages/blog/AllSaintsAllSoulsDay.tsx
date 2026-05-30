@@ -72,6 +72,11 @@ export default function AllSaintsAllSoulsDay() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic meaning of All Saints Day (November 1) and All Souls Day (November 2). Discover how to honor the saints, pray for the dead, and understand Purgatory.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 In a culture that increasingly avoids the reality of death, the Catholic Church does something countercultural in early November: it spends two full days contemplating death, the afterlife, and the destiny of the human soul. Far from being morbid, these days are among the most hopeful in the entire liturgical year — because they are rooted in the Christian conviction that death is not the end.
               </LinkedText>

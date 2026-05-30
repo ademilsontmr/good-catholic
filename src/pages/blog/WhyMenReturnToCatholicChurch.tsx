@@ -67,6 +67,11 @@ export default function WhyMenReturnToCatholicChurch() {
               <Shield className="w-24 h-24 text-slate-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Young men are leading the Catholic revival of 2025–2026. Why are they drawn to the Church?</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-men-return-to-catholic-church">
                 For decades, the story of religion in America was one of male flight. Men left churches at higher rates than women. Young men were the least religious demographic in the country. The "nones" — those with no religious affiliation — were disproportionately male. Churches responded by trying to make their services more welcoming to men, with mixed results.
               </LinkedText>

@@ -83,6 +83,11 @@ export default function MeaningOfCrucifix() {
                         </div>
 
                         <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Understand why the crucifix is the central symbol of Catholic faith. Learn about its history, symbolism, and the importance of having it in our homes.</p>
+              </div>
+
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="meaning-of-crucifix">
                                 To the world, the cross is foolishness or scandal; to us Catholics, it is the sign of victory and the supreme proof of God's love. The crucifix (the cross with the image of Jesus) constantly reminds us of the price paid for our salvation and Jesus' invitation: "Whoever wants to follow me, take up your cross and follow me."
                             </LinkedText>

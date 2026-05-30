@@ -72,6 +72,11 @@ export default function WhatIsTheCatholicChurch() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is the Catholic Church? A complete guide to its founding by Jesus Christ, 2,000-year history, structure, the Pope, sacraments, and global mission.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The word "Catholic" comes from the Greek <em>katholikos</em>, meaning "universal" or "according to the whole." The Catholic Church is the universal Church — the one founded by Jesus Christ for all people, in all times, in all places. It is the largest religious institution in the world and the oldest continuously operating organization in human history.
               </p>

@@ -67,6 +67,11 @@ export default function CatholicTeachingOnAngels() {
               <Sparkles className="w-24 h-24 text-sky-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church really teach about angels? Guardian angels, archangels, the fall of Lucifer, and how Catholics relate to these spiritual beings.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 In an age that tends to sentimentalize angels — turning them into chubby cherubs on greeting cards or vague spiritual forces — the Catholic Church offers something far more serious and far more beautiful: a coherent, scripturally grounded, theologically precise account of what angels are, what they do, and how they relate to human beings. This is not mythology. It is doctrine.
               </LinkedText>

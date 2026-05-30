@@ -84,6 +84,11 @@ export default function NaturalFamilyPlanning() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover what Natural Family Planning (NFP) is, why the Catholic Church teaches it through Humanae Vitae, the three main methods, effectiveness rates, and how NFP differs from contraception.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Every year, thousands of American Catholic couples encounter NFP for the first time — often in marriage preparation classes — and walk away with more questions than answers. What exactly is NFP? Why does the Church require it? Is it really effective? And what's the actual moral difference between NFP and contraception? This guide answers all of those questions clearly and charitably.
               </LinkedText>

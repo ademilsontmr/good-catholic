@@ -85,6 +85,11 @@ export default function AshWednesdayGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is Ash Wednesday? Learn the Catholic fasting and abstinence rules, the meaning of ashes, if it&apos;s a Holy Day of Obligation, and how to start Lent.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-guide">
                 If you walk around any major city on Ash Wednesday, you will undoubtedly see people bearing a dark cross on their foreheads. It is one of the most visible signs of Catholic faith in secular society. 
               </LinkedText>

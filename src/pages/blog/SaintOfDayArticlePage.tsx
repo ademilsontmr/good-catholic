@@ -85,6 +85,9 @@ export default function SaintOfDayArticlePage() {
               <Heart className="w-24 h-24 text-rose-400" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">{article.metaDescription}</p>
+              </div>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 {liturgical ? `What the Church Celebrates on ${article.feastDateLabel}` : `Who Is ${article.name}?`}
               </h2>

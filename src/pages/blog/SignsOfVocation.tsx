@@ -68,6 +68,10 @@ export default function SignsOfVocation() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How do you know if God is calling you to the priesthood or religious life? Discover the signs of a vocation, how to discern, and what to do if you feel called.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Vocation?</h2>
               <p className="text-text leading-relaxed mb-6">
                 The word "vocation" comes from the Latin <em>vocare</em>, meaning "to call." A vocation is God's personal call to each person to live their life in a particular way for His glory and the good of others. Every baptized person has a vocation — a specific path through which they are called to holiness and service.

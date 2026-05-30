@@ -73,6 +73,10 @@ export default function AshWednesday2026() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Ash Wednesday 2026 falls on February 18. Everything you need to know — fasting and abstinence rules, what the ashes mean, Mass times, and how to begin Lent well.</p>
+              </div>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">📅 Key 2026 Lenten Dates</h3>
                 <ul className="text-text space-y-2 text-sm">

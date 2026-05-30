@@ -68,6 +68,10 @@ export default function OurLadyGuadalupeNovena() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Our Lady of Guadalupe Novena — the apparitions to Juan Diego, her role as Patroness of the Americas, how to pray the 9-day novena, and where to pray it online.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Our Lady of Guadalupe?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-novena-guide">
                 Our Lady of Guadalupe appeared to Juan Diego, an indigenous Mexican man, on December 9–12, 1531, on the hill of Tepeyac near Mexico City. She left her miraculous image on his tilma (cloak), which has been preserved for nearly 500 years and continues to defy scientific explanation. She is the Patroness of the Americas, of Mexico, and of the unborn. Her feast day is December 12. The Basilica of Our Lady of Guadalupe in Mexico City is the most visited Catholic shrine in the world.

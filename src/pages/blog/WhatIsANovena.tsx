@@ -84,6 +84,11 @@ export default function WhatIsANovena() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn what a novena is, its biblical origins in Acts 1:14, the most popular novenas, how to pray a novena, what to do if you miss a day, and the power of perseverance in prayer.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-a-novena">
                 Have you ever faced a situation so difficult, so urgent, so beyond your own power to resolve, that you felt you needed to pray with extraordinary intensity? That is exactly the spirit of a novena. Whether you are praying for a sick family member, a job, a conversion, a marriage, or simply a deeper relationship with God, a novena invites you to bring your deepest needs before God — and to keep bringing them, day after day, for nine days. It is a prayer of holy stubbornness, of the kind Jesus praised when He told the parable of the persistent widow (Luke 18:1-8).
               </LinkedText>

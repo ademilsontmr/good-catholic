@@ -86,6 +86,11 @@ export default function HowToStudyBibleCatholic() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">How to study the Bible as a Catholic — Lectio Divina, the four senses of Scripture, the best study Bibles, commentaries, apps, and a practical daily reading plan.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 Many Catholics feel intimidated by the Bible. It is a large, complex book — 73 books written over more than a thousand years, in multiple languages, across multiple genres. Where do you start? How do you understand it? How do you read it as a Catholic, rather than just as a generic Christian?
               </LinkedText>

@@ -84,6 +84,11 @@ export default function OurLadyOfGuadalupeScience() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say. Catholic guide to the evidence.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The Image of Our Lady of Guadalupe is not just a painting; for the Aztec people, it was a <strong>codex</strong>—a book they could "read." For the modern scientist, it is a biological and physical impossibility.
               </p>

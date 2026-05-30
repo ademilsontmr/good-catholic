@@ -67,6 +67,11 @@ export default function CatholicSchoolsAmerica() {
               <BookOpen className="w-24 h-24 text-blue-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The US has over 6,000 Catholic schools. Learn about the academic and faith formation benefits, tuition costs, scholarships, and how to evaluate whether a school is truly Catholic.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 Catholic education in America has a remarkable history — built by immigrant communities who sacrificed enormously to give their children a faith-based education, and sustained by generations of religious sisters, brothers, and priests who dedicated their lives to teaching. Today, Catholic schools face new challenges — declining enrollment, rising costs, and questions about Catholic identity — but they remain one of the most powerful instruments of faith formation available to American Catholic families.
               </LinkedText>

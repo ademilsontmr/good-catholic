@@ -98,6 +98,11 @@ export default function SpiritualRetreatAtHome() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to make a Catholic spiritual retreat at home. Step-by-step guide with a sample 1-day and weekend schedule, the Ignatian approach, journaling tips, and what to do after your retreat.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-spiritual-retreat-at-home">
                 Every Catholic needs silence. Not the silence of boredom or emptiness, but the silence of encounter — the kind of silence in which God speaks and the soul listens. Retreats have been a cornerstone of Catholic spiritual life for centuries, from the desert fathers who fled to the Egyptian wilderness to the Jesuit tradition of the Spiritual Exercises. But in our busy American lives, getting away to a retreat center for a week is not always possible.
               </LinkedText>

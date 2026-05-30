@@ -84,6 +84,11 @@ export default function ThreeDaysOfDarkness() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What is the Three Days of Darkness? Explore the private revelations of Blessed Anna Maria Taigi and Marie-Julie Jahenny, the conditions, and how to prepare spiritually.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 In times of global uncertainty, the human heart naturally turns toward the "Last Things." The Three Days of Darkness is classified by the Church as <strong>private revelation</strong>. This means that while it is not part of the "Deposit of Faith" (like the Trinity or the Resurrection), the Church allows the faithful to follow it as a way to grow in holiness and repentance.
               </p>

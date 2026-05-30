@@ -67,6 +67,11 @@ export default function SaintJoanOfArc() {
               <Sword className="w-24 h-24 text-blue-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Joan of Arc — the teenage peasant girl who led France to victory, was burned at the stake at 19, and was canonized 500 years later. Her life, voices, trial, and enduring legacy.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Saint Joan of Arc (c. 1412–1431) is one of the most extraordinary figures in the history of Christianity — and in the history of the world. In less than two years, she transformed the course of the Hundred Years' War, led the French army to a series of stunning victories, and secured the coronation of the French king. Then she was captured, tried for heresy by a court of French bishops collaborating with the English, and burned at the stake at the age of 19. Twenty-five years later, a retrial declared her innocent. Five centuries later, the Catholic Church declared her a saint.
               </LinkedText>

@@ -84,6 +84,11 @@ export default function ContemplativePrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover what contemplative prayer is in the Catholic tradition. Learn the difference between meditation and contemplation, the Carmelite tradition, infused vs acquired contemplation, and how to begin.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 In a world of noise, notifications, and constant distraction, the ancient Catholic practice of contemplative prayer offers something radical: silence. Not the silence of emptiness, but the silence of presence — the presence of God. For centuries, mystics, monks, and ordinary Catholics have discovered that the deepest prayer is not about saying more words, but about learning to be still before the living God.
               </LinkedText>

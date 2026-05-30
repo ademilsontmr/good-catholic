@@ -72,6 +72,11 @@ export default function CatholicSaintsList() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic saints and what they are known for — patron saints for health, work, travel, family, and more. Find your patron and learn how to ask for intercession.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
                 One of the most beautiful aspects of Catholic life is the Communion of Saints — the belief that the saints in heaven are alive in God and can intercede for us. When you face a specific need, there is almost certainly a saint who has been given special patronage over that area of life.
               </LinkedText>

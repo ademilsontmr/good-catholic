@@ -72,6 +72,11 @@ export default function WhatIsTheCatechism() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn what the Catechism of the Catholic Church is, how it is organized, and how to use it. A complete guide to the CCC for Catholics and those curious about the faith.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 If you want to know what the Catholic Church teaches — on any subject — the Catechism of the Catholic Church (CCC) is the place to look. Published in 1992 under Pope John Paul II, it is the first comprehensive catechism of the universal Church in over 400 years. It is authoritative, accessible, and surprisingly readable.
               </LinkedText>

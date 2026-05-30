@@ -85,6 +85,11 @@ export default function LentPreparationGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Prepare for Lent with this complete guide. Learn how to choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
                 Lent is the Church's annual retreat—a 40-day journey of conversion, prayer, fasting, and almsgiving preparing us for the celebration of Easter. Proper preparation ensures this sacred season transforms rather than merely disciplines.
               </LinkedText>

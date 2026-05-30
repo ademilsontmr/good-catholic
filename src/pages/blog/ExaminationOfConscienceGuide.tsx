@@ -97,6 +97,11 @@ export default function ExaminationOfConscienceGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 In a culture that rarely encourages honest self-reflection, the Catholic practice of examining one's conscience stands out as countercultural and profoundly liberating. Rather than suppressing guilt or rationalizing sin, the examination of conscience invites us to look honestly at our lives in the light of God's love — not to condemn ourselves, but to receive His mercy and grow in holiness.
               </LinkedText>

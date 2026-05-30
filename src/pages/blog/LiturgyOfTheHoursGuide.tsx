@@ -85,6 +85,11 @@ export default function LiturgyOfTheHoursGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray the Liturgy of the Hours (Divine Office) as a lay Catholic. Complete guide to morning prayer, evening prayer, compline, and integrating this ancient prayer into daily life.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Imagine joining Christians across the world in prayer at the same times each day, sanctifying the hours with psalms, Scripture, and intercessions. This is the Liturgy of the Hours - the official prayer of the Church that makes our entire day a prayer.
               </LinkedText>

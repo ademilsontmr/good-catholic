@@ -67,6 +67,11 @@ export default function CompletePrayerGuide() {
               <Heart className="w-24 h-24 text-rose-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to build a Catholic prayer life — the 5 forms of prayer, a complete daily routine, all essential prayers with full texts, and how to pray when you don&apos;t feel like it.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-prayer-guide">
                 The Catechism of the Catholic Church defines prayer as "the raising of one's mind and heart to God" (CCC 2559). This definition, drawn from St. John Damascene, is deceptively simple. Prayer is not a technique, a formula, or a performance. It is a relationship — the most important relationship of your life. Everything else in the spiritual life flows from it and depends on it.
               </LinkedText>

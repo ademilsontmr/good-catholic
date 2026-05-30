@@ -84,6 +84,11 @@ export default function ImportanceOfConfession() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the spiritual benefits of frequent confession. Learn how to confess well and why this sacrament transforms our Christian life.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 If there is a sacrament that reveals in a special way the merciful heart of God, it is Confession. Imagine: the Creator of the universe, the thrice-Holy God, bends over human misery not to condemn, but to heal. Not to humiliate, but to restore. The confessional is not a court of condemnation – it is a hospital for souls, where the divine Physician applies the balm of His mercy to the wounds of sin.
               </LinkedText>

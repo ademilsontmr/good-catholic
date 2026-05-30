@@ -67,6 +67,11 @@ export default function CatholicTeachingOnEnvironment() {
               <Globe className="w-24 h-24 text-green-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about the environment? Explore Laudato Si&apos;, the biblical basis for ecological stewardship, and practical Catholic responses.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 In an age of climate anxiety and political polarization, the Catholic Church offers something rare: a coherent, theologically grounded vision of the human relationship with the natural world. It is neither the radical environmentalism that treats nature as sacred in itself, nor the exploitative attitude that treats the earth as a resource to be consumed without limit. It is the ancient Christian vision of stewardship — the conviction that creation is God's gift, entrusted to human care, and that how we treat it reflects how we love its Creator.
               </LinkedText>

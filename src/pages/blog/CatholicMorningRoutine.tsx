@@ -85,6 +85,11 @@ export default function CatholicMorningRoutine() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Build a powerful Catholic morning routine. Discover the prayers, habits, and practices that saints used to start their day with God and transform their entire day.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 The first hour of the morning is the most important hour of the day. What you do in that hour — what you think, what you pray, what you consume — sets the tone for everything that follows. The saints understood this intuitively. St. Francis de Sales said: "Half an hour's meditation each day is essential, except when you are busy. Then a full hour is needed."
               </LinkedText>

@@ -68,6 +68,10 @@ export default function HowToPrayRosaryComplete() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The most complete guide to praying the Rosary — every step, every prayer, all 20 mysteries explained, and tips for beginners and experienced pray-ers alike.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Rosary?</h2>
               <p className="text-text leading-relaxed mb-6">
                 The Rosary is a form of prayer that combines vocal prayer with meditation on the mysteries of the life of Jesus Christ and the Virgin Mary. The word "rosary" comes from the Latin <em>rosarium</em>, meaning "crown of roses" — a garland of prayers offered to Our Lady. It is both a vocal prayer (reciting specific prayers aloud) and a mental prayer (meditating on the mysteries of salvation).

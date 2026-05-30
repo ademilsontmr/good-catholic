@@ -83,6 +83,11 @@ export default function PrayerLife() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover how to develop a deep and constant prayer life. Practical and spiritual tips to strengthen your friendship with God daily.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Saint Teresa of Ávila defined prayer as "a relationship of friendship, being alone often with Him who we know loves us." For Catholics, prayer is the oxygen of the soul. Without it, faith weakens, hope falters, and charity grows cold. However, many find it difficult to maintain a constant routine of dialogue with the Creator. The good news is that God does not demand perfection – He demands only sincerity and perseverance.
               </LinkedText>

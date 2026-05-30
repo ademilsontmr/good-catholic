@@ -72,6 +72,11 @@ export default function CatholicBibleGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything about the Catholic Bible — its 73 books, the deuterocanonical books, best translations (RSV-CE, NABRE, Douay-Rheims), and how to read it as a Catholic.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The Bible is the Word of God — the inspired record of God's revelation to humanity, culminating in the life, death, and resurrection of Jesus Christ. For Catholics, the Bible is not just a book to be read but a living word to be prayed, studied, and lived. It is the foundation of the faith, the source of the liturgy, and the daily bread of the soul.
               </LinkedText>

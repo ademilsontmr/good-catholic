@@ -68,6 +68,10 @@ export default function GuardianAngelNovenaGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Guardian Angel Novena — who guardian angels are, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Are Guardian Angels?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="guardian-angel-novena-guide">
                 The Catholic Church teaches that every human being has a personal guardian angel assigned by God from birth until death. Jesus himself affirmed this: "See that you do not despise one of these little ones. For I tell you that their angels in heaven always see the face of my Father in heaven" (Matthew 18:10). Guardian angels protect us from physical and spiritual harm, guide us toward God, and intercede for us before the throne of God. Their feast day is October 2.

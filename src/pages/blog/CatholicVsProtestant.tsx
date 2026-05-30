@@ -85,6 +85,11 @@ export default function CatholicVsProtestant() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What are the real differences between Catholic and Protestant faiths? Explore Sola Scriptura, the Canon of the Bible, Purgatory, and the Papacy.</p>
+              </div>
+
               <p className="text-text leading-relaxed mb-6">
                 The Protestant Reformation wasn't just a political split; it was a revolution in <strong>Epistemology</strong> (how we know what is true). While Protestants and Catholics share 90% of the Creed—including the Trinity and the Resurrection—the 10% we disagree on changes how we live our daily lives.
               </p>

@@ -85,6 +85,11 @@ export default function CatholicFamilyTraditions() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Catholic family traditions for building a domestic church. Learn about family prayers, liturgical year celebrations, and creating a Catholic home environment.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
                 The family is called the "domestic church"—the place where faith is first learned and lived. Catholic family traditions create an environment where children encounter Christ not just on Sunday, but daily in their own homes.
               </LinkedText>

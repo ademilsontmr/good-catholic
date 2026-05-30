@@ -72,6 +72,11 @@ export default function ReginaCaeliPrayer() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">The Regina Caeli prayer with full English and Latin text, when Catholics pray it instead of the Angelus during Easter, and what this Marian antiphon means.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Regina Caeli (English)</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-lg">

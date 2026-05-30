@@ -84,6 +84,11 @@ export default function CatholicAnnulment() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn what a Catholic annulment is (declaration of nullity), how it differs from divorce, the grounds for annulment, the tribunal process, what happens to children, and pastoral care for divorced Catholics.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Divorce is one of the most painful experiences a person can go through. For Catholics, it carries an additional layer of complexity: the Church teaches that marriage is a sacrament — a permanent, indissoluble bond. So what happens when a Catholic marriage breaks down? What is an annulment, and how does it work? This guide answers these questions with clarity, compassion, and fidelity to Church teaching.
               </LinkedText>

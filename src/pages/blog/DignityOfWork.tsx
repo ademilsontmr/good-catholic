@@ -85,6 +85,11 @@ export default function DignityOfWork() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover Catholic social teaching on work and labor. Learn about the dignity of workers, just wages, rights of laborers, and St.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">
                 Work is not merely a means to earn a living—it is a fundamental dimension of human dignity. Discover how Catholic social teaching elevates the dignity of workers and calls for just conditions in the workplace.
               </LinkedText>

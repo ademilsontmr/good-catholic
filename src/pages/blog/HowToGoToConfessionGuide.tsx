@@ -89,6 +89,11 @@ export default function HowToGoToConfessionGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic Confession — how to prepare, what to say, the Act of Contrition, what happens inside the confessional, and how to make a good confession after years away.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 Many Catholics feel nervous about going to Confession — especially if it has been a long time. This is completely normal. But the nervousness is worth pushing through, because what awaits you on the other side is one of the most profound experiences of God's mercy available to us in this life.
               </LinkedText>

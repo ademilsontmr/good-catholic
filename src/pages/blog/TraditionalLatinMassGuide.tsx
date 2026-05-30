@@ -68,6 +68,10 @@ export default function TraditionalLatinMassGuide() {
             </div>
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Everything you need to know about the Traditional Latin Mass — how it differs from the Novus Ordo, how to follow it as a beginner, how to find a TLM near you, and why young Americans are drawn to it.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Introduction: The TLM Revival in America</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="traditional-latin-mass-guide">
                 Something remarkable is happening in American Catholicism. According to recent surveys, approximately 13% of U.S. Catholics have attended a Traditional Latin Mass in the last five years — and the numbers are growing, especially among young people under 35. In cities from New York to Los Angeles, from Chicago to Houston, young Catholics are kneeling at altar rails, following along in hand missals, and discovering a form of worship their grandparents knew but their parents largely abandoned.

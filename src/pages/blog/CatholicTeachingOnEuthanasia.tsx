@@ -72,6 +72,11 @@ export default function CatholicTeachingOnEuthanasia() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about euthanasia and assisted suicide? A complete guide from the Catechism (CCC 2276-2279), Evangelium Vitae, and the theology of suffering.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 Euthanasia and assisted suicide are among the most pressing moral issues of our time. As these practices become legal in more states and countries, Catholics are increasingly asked — by family members, by healthcare workers, by society — to take a position. The Catholic Church's position is clear, consistent, and rooted in a profound respect for human life and dignity.
               </LinkedText>

@@ -84,6 +84,11 @@ export default function CatholicBaptismGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic Baptism. Learn the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-guide">
                 "Unless one is born of water and Spirit, he cannot enter the kingdom of God" (John 3:5). With these words, Jesus established Baptism as the necessary gateway to eternal life. For Catholics, Baptism is not merely a symbol or a public declaration of faith — it is a real, effective sacrament that accomplishes what it signifies: the washing away of sin, the infusion of sanctifying grace, and the incorporation into the Church.
               </LinkedText>

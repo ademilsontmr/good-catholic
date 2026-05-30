@@ -73,6 +73,10 @@ export default function AdventPrayers() {
 
             <div className="prose prose-lg max-w-none">
 
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Beautiful Catholic prayers for Advent 2026 — prayers for each week, the O Antiphons, the Advent wreath blessing, and how to prepare your heart for Christmas.</p>
+              </div>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-1">📅 Advent 2026</p>
                 <p className="text-text text-sm">

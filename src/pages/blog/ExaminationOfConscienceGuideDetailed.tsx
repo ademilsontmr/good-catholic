@@ -72,6 +72,11 @@ export default function ExaminationOfConscienceGuideDetailed() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church. Use this guide to prepare for a thorough, honest Confession.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
                 Before going to Confession, the Church asks us to examine our conscience — to review our sins honestly in the light of God's truth. This is not meant to be a guilt-inducing exercise but a loving, honest conversation with God about the state of our soul.
               </LinkedText>

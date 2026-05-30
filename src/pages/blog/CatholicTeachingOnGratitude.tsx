@@ -67,6 +67,11 @@ export default function CatholicTeachingOnGratitude() {
               <Heart className="w-24 h-24 text-emerald-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Gratitude is the foundation of the spiritual life. Discover why the Eucharist means &apos;thanksgiving,&apos; how ingratitude is a sin, and how to cultivate a grateful heart.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gratitude-catholic-virtue">
                 We live in a culture of complaint. Social media has given everyone a platform to broadcast their grievances, and the algorithm rewards outrage over contentment. Advertising is built on the premise that you do not have enough — that you need more, better, newer. The result is a pervasive sense of dissatisfaction, a chronic inability to appreciate what we have, a restlessness that no amount of acquisition can cure. Against this cultural backdrop, the Catholic virtue of gratitude is not merely a pleasant disposition — it is a form of resistance, a counter-cultural act, a spiritual discipline that can transform the soul.
               </LinkedText>

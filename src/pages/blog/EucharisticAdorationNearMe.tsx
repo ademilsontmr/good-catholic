@@ -72,6 +72,11 @@ export default function EucharisticAdorationNearMe() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit.</p>
+              </div>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Eucharistic Adoration Near You</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Search "Eucharistic Adoration near me"</strong> in Google Maps and check nearby parish websites.</li>

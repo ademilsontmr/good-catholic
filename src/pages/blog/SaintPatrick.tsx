@@ -72,6 +72,11 @@ export default function SaintPatrick() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the real Saint Patrick — his captivity, conversion, mission to Ireland, the shamrock, the Breastplate prayer, and the truth behind the legends.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Saint Patrick is one of the most celebrated saints in the world, yet the real Patrick is far more interesting than the legend. He was not Irish by birth. He was not the first Christian missionary to Ireland. He did not drive snakes out of Ireland (there were never any snakes there). But he was a man of extraordinary courage, faith, and love — a man who chose to return to the land of his captivity to bring its people to Christ.
               </LinkedText>

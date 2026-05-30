@@ -67,6 +67,11 @@ export default function CatholicTeachingOnSocialMedia() {
               <Globe className="w-24 h-24 text-blue-500" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about social media? Learn how to use technology virtuously, avoid its spiritual dangers, and even evangelize online.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Billions of people spend hours each day on social media platforms — scrolling, posting, reacting, arguing. For Catholics, this raises urgent questions: Is social media a spiritual danger? Can it be used for good? What does the Church actually say? The answer is nuanced, as it always is when the Church engages with culture: social media is a tool, and like all tools, its moral character depends on how it is used.
               </LinkedText>

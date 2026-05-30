@@ -84,6 +84,11 @@ export default function CatholicMarriageGuide() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to Catholic marriage. Learn about marriage as a sacrament, unity and indissolubility, marriage preparation, natural family planning, annulment vs divorce, and mixed marriages.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 In a culture that often treats marriage as a contract between two people — dissoluble when inconvenient — the Catholic Church stands as a bold witness to a radically different vision. Marriage, the Church teaches, is a covenant modeled on the love of Christ for His Church: total, faithful, fruitful, and permanent. It is one of the seven sacraments, a channel of grace that sanctifies the spouses and the family they build together.
               </LinkedText>

@@ -84,6 +84,11 @@ export default function CatholicDating() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to Catholic dating and courtship — the purpose of dating, chastity in relationships, how to find a Catholic spouse, red flags, and preparing for marriage.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 The Catholic vision of romantic love is one of the most beautiful and countercultural things the Church offers the modern world. At a time when dating culture has been reduced to swiping, hooking up, and keeping options open indefinitely, the Church proposes something radically different: relationships ordered toward a permanent, life-giving covenant of love — marriage as a sacrament.
               </LinkedText>

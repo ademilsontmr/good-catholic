@@ -86,6 +86,11 @@ export default function HowToFindCatholicCommunity() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Learn how to find a welcoming Catholic community, choose the right parish, get involved in parish life, and build lasting friendships rooted in faith.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 One of the most common struggles among American Catholics is isolation. Many attend Mass regularly but feel like strangers in their own parish — they don't know anyone, no one knows them, and they leave as anonymously as they arrived. This is not how the Church is meant to be. The Second Vatican Council described the Church as "the People of God" — a community of brothers and sisters united in faith, hope, and charity.
               </LinkedText>

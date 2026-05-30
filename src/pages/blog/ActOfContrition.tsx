@@ -84,6 +84,11 @@ export default function ActOfContrition() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Discover the full text of the Act of Contrition, its meaning, history, and how to pray it before Confession. Essential Catholic prayer for forgiveness and reconciliation.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 Every Catholic who has ever gone to Confession knows the moment: the priest has listened to your sins, offered counsel, and assigned a penance. Then he asks you to make an Act of Contrition. In that moment, you are invited to speak directly to God from the depths of your heart — to express genuine sorrow for having offended Him and to resolve, with His grace, to sin no more.
               </LinkedText>

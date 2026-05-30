@@ -72,6 +72,11 @@ export default function ConvertingToCatholicism() {
             </div>
 
             <div className="prose prose-lg max-w-none">
+
+              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
+                <p className="text-lg text-text leading-relaxed font-medium">Thinking about converting to Catholicism? What to expect, what will change in your life, how to tell your family, and the stories of famous converts who found their home in the Church.</p>
+              </div>
+
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Every year, approximately 500,000 adults enter the Catholic Church in the United States alone. They come from every background — evangelical Protestants, mainline Protestants, atheists, agnostics, people of other faiths, and those with no religious background at all. What draws them? The answers are as varied as the people themselves.
               </LinkedText>
