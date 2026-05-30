@@ -122,6 +122,9 @@ export const INTERLINK_MAP: Record<string, string> = {
   "First Communion": "/blog/what-age-first-communion-catholic-usa/",
   "organ donation": "/blog/can-catholics-donate-organs/",
   "cremated remains": "/blog/can-catholics-keep-ashes-at-home/",
+  "list of popes": "/blog/list-of-all-popes-catholic-complete-guide/",
+  "all popes": "/blog/list-of-all-popes-catholic-complete-guide/",
+  "successors of Peter": "/blog/list-of-all-popes-catholic-complete-guide/",
 
 
   // Mary

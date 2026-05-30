@@ -27,6 +27,18 @@ const trimMetaDescription = (description: string) => {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1333,
+    slug: "list-of-all-popes-catholic-complete-guide",
+    title: "List of All Popes: Complete Guide from St. Peter to Pope Leo XIV",
+    excerpt: "Complete list of all 267 Catholic popes from St. Peter to Pope Leo XIV — searchable table, historical eras, notable pontiffs, and how the papacy works.",
+    date: "2026-06-03",
+    readTime: "25 min",
+    category: "Catholic History",
+    icon: Crown,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-700"
+  },
+  {
     id: 1332,
     slug: "catholic-wedding-mass-vs-ceremony",
     title: "Catholic Wedding Mass vs. Ceremony: What's the Difference?",

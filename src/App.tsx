@@ -517,6 +517,7 @@ const HowLongIsRciaProcess = lazy(() => import("./pages/blog/HowLongIsRciaProces
 const CatholicFuneralMassWhatToExpect = lazy(() => import("./pages/blog/CatholicFuneralMassWhatToExpect"));
 const CanCatholicsDonateOrgans = lazy(() => import("./pages/blog/CanCatholicsDonateOrgans"));
 const CatholicWeddingMassVsCeremony = lazy(() => import("./pages/blog/CatholicWeddingMassVsCeremony"));
+const ListOfAllPopesCatholicGuide = lazy(() => import("./pages/blog/ListOfAllPopesCatholicGuide"));
 
 // Doctrine & Pastoral Articles Batch 11
 const CatholicAnnulmentProcess = lazy(() => import("./pages/blog/CatholicAnnulmentProcess"));
@@ -865,6 +866,7 @@ const App = () => (
             <Route path="/blog/catholic-funeral-mass-what-to-expect/" element={<CatholicFuneralMassWhatToExpect />} />
             <Route path="/blog/can-catholics-donate-organs/" element={<CanCatholicsDonateOrgans />} />
             <Route path="/blog/catholic-wedding-mass-vs-ceremony/" element={<CatholicWeddingMassVsCeremony />} />
+            <Route path="/blog/list-of-all-popes-catholic-complete-guide/" element={<ListOfAllPopesCatholicGuide />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />
