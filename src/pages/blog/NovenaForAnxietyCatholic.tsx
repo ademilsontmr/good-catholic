@@ -55,7 +55,7 @@ export default function NovenaForAnxietyCatholic() {
             <div className="aspect-video bg-blue-100 rounded-2xl flex items-center justify-center mb-10"><Brain className="w-24 h-24 text-blue-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A novena for anxiety is a nine-day Catholic prayer asking Christ, Mary, and Saint Dymphna for peace when worry overwhelms you. Pray once daily for nine consecutive days, naming your intention and combining prayer with professional care when needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A novena for anxiety is a nine-day Catholic prayer asking Christ, Mary, and saints like St. Dymphna for peace when worry overwhelms you. Prayer supports — but does not replace — therapy or medication; the Church teaches that grace and responsible mental health care belong together.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

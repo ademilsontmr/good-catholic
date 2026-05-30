@@ -69,7 +69,7 @@ export default function IsItSinToMissMass() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Is missing Sunday Mass a mortal sin? Learn what the Catholic Church teaches about the Sunday obligation, valid excuses, and what to do if you miss Mass.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Yes — deliberately missing Sunday Mass without serious reason is a mortal sin in Catholic teaching, violating the Third Commandment and the precept of the Church. Illness, caring for infants, unavoidable travel impossibility, or severe weather may excuse; laziness or recreation alone do not.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-it-a-sin-to-miss-mass">

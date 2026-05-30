@@ -74,7 +74,7 @@ export default function OurFatherPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Our Father prayer with full text, biblical meaning, the seven petitions, and a Catholic guide to praying the Lord&apos;s Prayer with devotion.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Our Father (Lord&apos;s Prayer) is the prayer Christ taught his disciples in Matthew 6 — the model for all Christian prayer. Catholics pray it at every Mass, in the Rosary, and daily; each petition (hallowed be thy name, thy kingdom come, forgive us, lead us not into temptation) shapes Catholic spirituality.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Our Father Prayer Full Text</h2>

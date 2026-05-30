@@ -86,7 +86,7 @@ export default function CatholicViewOnGhosts() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Do Catholics believe in ghosts? Church teaching on souls in purgatory, demonic deception, haunted houses, and how to protect your home — explained clearly.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics do not deny spiritual realities, but the Church warns that most &quot;ghost&quot; experiences are not souls of the dead returning — they may involve purgatorial souls (rare), imagination, or demonic deception. Catholics pray for the dead, avoid occult practices, and bless their homes through the Church&apos;s rites.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

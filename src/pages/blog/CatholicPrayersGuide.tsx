@@ -74,7 +74,7 @@ export default function CatholicPrayersGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The complete guide to essential Catholic prayers — the Our Father, Hail Mary, Glory Be, Apostles&apos; Creed, Act of Contrition, Rosary, and more. Full texts and explanations.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Essential Catholic prayers include the Our Father, Hail Mary, Glory Be, Apostles&apos; Creed, Act of Contrition, and prayers of the Rosary — prayed at Mass, in the home, and before sacraments. Catholics learn these from childhood; each connects the believer to Scripture, the Church, and centuries of tradition.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-complete-guide">

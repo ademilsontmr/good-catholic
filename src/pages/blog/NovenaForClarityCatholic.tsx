@@ -55,7 +55,7 @@ export default function NovenaForClarityCatholic() {
             <div className="aspect-video bg-sky-100 rounded-2xl flex items-center justify-center mb-10"><Compass className="w-24 h-24 text-sky-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A novena for clarity is nine days of prayer to the Holy Spirit for light in decisions — jobs, relationships, vocation, or health choices. Catholics pray daily, often with Confession and Mass, trusting clarity means knowing God&apos;s will rather than getting the answer they prefer.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A novena for clarity is nine days of Catholic prayer to the Holy Spirit for light in major decisions — career, marriage, vocation, or relocation. Catholics combine daily prayer with Mass, Confession, counsel from a priest or spiritual director, and patience; clarity means knowing God&apos;s will, not always getting the answer you prefer.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

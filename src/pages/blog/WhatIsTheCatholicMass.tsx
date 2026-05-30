@@ -69,7 +69,7 @@ export default function WhatIsTheCatholicMass() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Concluding Rites, with tips for beginners and active participation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Mass is the central act of worship — the Liturgy of the Word (Scripture and homily) and the Liturgy of the Eucharist (Consecration and Communion) re-present Christ&apos;s sacrifice. Sunday Mass is obligatory for Catholics; the Mass is the same worldwide, united with the Pope and bishops.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">

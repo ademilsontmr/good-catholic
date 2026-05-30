@@ -89,7 +89,7 @@ export default function WhatIsPurgatory() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the complete Catholic teaching on Purgatory. Explore biblical evidence, the &apos;fire&apos; of divine love, the Museum of Souls, and how to help the poor souls.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Purgatory is Catholic teaching that souls who die in God&apos;s grace but still need purification undergo cleansing before entering heaven — not a second chance, but completion of holiness. Catholics pray for the holy souls, offer Masses for them, and gain indulgences to help shorten their purification.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

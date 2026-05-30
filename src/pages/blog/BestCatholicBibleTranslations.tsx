@@ -88,7 +88,7 @@ export default function BestCatholicBibleTranslations() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Which Catholic Bible translation is best? Compare the Douay-Rheims, RSV-CE, NAB, NABRE, Jerusalem Bible, and New Jerusalem Bible.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The best Catholic Bible translations in English include the NABRE (U.S. liturgy), RSV-2CE, Douay-Rheims (traditional), and Jerusalem Bible — all include the deuterocanonical books Catholics accept. Choose based on readability for study vs devotion; avoid Protestant-only translations that omit Tobit, Wisdom, and Maccabees.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">

@@ -87,7 +87,7 @@ export default function TenCommandmentsCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What are the 10 Commandments in the Catholic Church? Learn the full text, how Catholic numbering differs from Protestant, what each commandment means, and how to live them today.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Ten Commandments are God&apos;s moral law given to Moses — Catholics number them slightly differently from most Protestants but teach the same substance: worship God alone, honor parents, keep Sabbath holy, and avoid idolatry, blasphemy, murder, adultery, theft, false witness, and coveting.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

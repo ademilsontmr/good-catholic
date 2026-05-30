@@ -87,7 +87,7 @@ export default function IsTheCatholicChurchTrue() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Is the Catholic Church the true Church? Learn about the four marks of the Church, apostolic succession, the primacy of Peter, and historical continuity.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics believe the Church Christ founded on Peter (Matthew 16:18–19) is the one, holy, catholic, and apostolic Church — with unbroken succession, the Eucharist, and Magisterial authority. Apologetics examines history, Scripture, and reason; faith accepts what God has revealed through Christ and the Spirit-guided Church.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">

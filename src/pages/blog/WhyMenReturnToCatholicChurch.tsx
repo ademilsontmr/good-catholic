@@ -69,7 +69,7 @@ export default function WhyMenReturnToCatholicChurch() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Young men are leading the Catholic revival of 2025–2026. Why are they drawn to the Church?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Young men are returning to Catholicism seeking truth, tradition, brotherhood, and the Real Presence — trends visible in TLM parishes, campus ministries, and online Catholic media. The Church offers masculine saints, clear doctrine, and sacramental life that secular culture cannot replicate.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-men-return-to-catholic-church">

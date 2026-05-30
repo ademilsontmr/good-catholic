@@ -78,7 +78,7 @@ export default function EucharistRealPresence() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Is Jesus really in the bread? Explore the dogma of Transubstantiation, the John 6 discourse, and scientific findings of Eucharistic miracles.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics believe Jesus is truly, really, and substantially present in the Eucharist — Body, Blood, Soul, and Divinity under the appearances of bread and wine after consecration. This is not symbol only; the Catechism (CCC 1374) teaches the whole Christ is present, and adoration of the Blessed Sacrament follows from this faith.</p>
               </div>
 
                             <p className="text-text leading-relaxed mb-6">

@@ -88,7 +88,7 @@ export default function DoCatholicsWorshipMary() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Do Catholics worship Mary? Learn the difference between worship and veneration, what hyperdulia means, the four Marian dogmas, and how to explain Marian devotion to non-Catholics.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics do not worship Mary — latria (adoration) belongs to God alone. Catholics honor Mary with hyperdulia (highest veneration of a creature) because she is Mother of God and cooperated in salvation; every Marian prayer leads back to Christ, such as the Hail Mary ending with &quot;pray for us sinners.&quot;</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

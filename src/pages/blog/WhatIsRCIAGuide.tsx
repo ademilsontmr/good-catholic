@@ -74,7 +74,7 @@ export default function WhatIsRCIAGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is RCIA? Complete guide to the Rite of Christian Initiation of Adults — what it is, who it&apos;s for, what happens at each stage, and how to find RCIA near you.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">RCIA (Rite of Christian Initiation of Adults) is the Church&apos;s process for welcoming unbaptized adults and baptized non-Catholics into full communion — typically September through Easter in U.S. parishes. Catechumens attend weekly sessions, Mass (Liturgy of the Word), and rites that mark stages toward initiation.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-rcia-explained">

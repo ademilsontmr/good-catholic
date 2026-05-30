@@ -86,7 +86,7 @@ export default function ApparitionsOfOurLady() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Approved Marian apparitions of Our Lady — Guadalupe (1531), Lourdes (1858), and Fatima (1917). History, messages, miracles, and how Catholics respond.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Approved Marian apparitions are private revelations recognized by the Church — Guadalupe (1531), Lourdes (1858), and Fatima (1917) are the most famous. Catholics may devoutly honor them; they are not required beliefs like the Assumption, but they shape prayer, pilgrimage, and Marian devotion worldwide.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">

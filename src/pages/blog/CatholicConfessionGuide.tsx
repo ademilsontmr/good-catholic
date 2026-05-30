@@ -74,7 +74,7 @@ export default function CatholicConfessionGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete Catholic Confession guide — what the Sacrament of Reconciliation is, its biblical basis, what happens, common fears, and why regular Confession transforms your life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic Confession (Reconciliation) is the sacrament in which a baptized Catholic confesses sins to a priest and receives absolution from Christ. Sins must be confessed in kind and number when mortal; the Church requires Confession at least once a year and before Communion if in mortal sin.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">

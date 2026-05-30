@@ -74,7 +74,7 @@ export default function VirginMaryGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete Catholic guide to the Virgin Mary — her role in salvation history, the four Marian dogmas, major apparitions, the Rosary, and how to grow in Marian devotion.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Mary is the Mother of God (Theotokos), ever-Virgin, Immaculate Conceived, and assumed into heaven — the four Marian dogmas. Catholics honor her as greatest saint and model of faith; she intercedes for the Church but is not worshipped. The Rosary, Marian feasts, and apparitions deepen devotion to Christ through Mary.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">

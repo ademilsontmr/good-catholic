@@ -69,7 +69,7 @@ export default function GenZAndCatholicism() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Why is Catholicism drawing Gen Z men and women back to the Church? Data, reasons behind the revival, and what it means for young Catholics today.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Gen Z and young millennials are returning to Catholicism in notable numbers — drawn by the Real Presence, beauty in liturgy, moral clarity, and online Catholic creators. Surveys and parish RCIA data show a reversal of decades of youth decline, especially among young men seeking tradition and truth.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gen-z-and-catholicism">

@@ -86,7 +86,7 @@ export default function CatholicFastingRules() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic Church&apos;s fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent. Who is bound, what counts as fasting vs abstinence, and the Eucharistic fast explained.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic fasting rules require adults (18–59) to eat one full meal on Ash Wednesday and Good Friday, with two smaller meals that together do not equal a full meal; abstinence from meat applies on those days and Lenten Fridays. Pregnant women, the ill, and manual laborers may be exempt.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">

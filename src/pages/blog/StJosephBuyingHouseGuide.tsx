@@ -69,7 +69,7 @@ export default function StJosephBuyingHouseGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete Catholic guide to praying to Saint Joseph for help buying or selling a home — the tradition of burying the statue, how to pray the novena, and how to bless your new home.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Joseph is the Catholic patron of families and workers — many Americans pray a novena to him when buying or selling a home, burying a St. Joseph statue as a folk custom while asking for honest dealings and housing stability. The Church encourages prayer, not superstition; trust God&apos;s timing alongside practical steps.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saint Joseph, Patron of Homes and Families</h2>

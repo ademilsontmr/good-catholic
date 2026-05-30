@@ -86,7 +86,7 @@ export default function StJosephNovenaHouse() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray the powerful St. Joseph Novena for buying a house.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Joseph novena for buying a house is a nine-day Catholic prayer asking the patron of workers and families to intercede for a home purchase, sale, or housing need. Catholics bury a statue of St. Joseph upside down as a popular custom, but the heart of the devotion is persevering prayer and trust in Providence.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">

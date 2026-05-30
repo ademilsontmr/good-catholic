@@ -87,7 +87,7 @@ export default function RosaryCompleteGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete guide to the Holy Rosary with all 20 mysteries, step-by-step instructions, the 15 promises of Mary, and the history of the Battle of Lepanto.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Rosary is a Catholic devotion meditating on Christ&apos;s life through twenty mysteries while praying one Our Father, ten Hail Marys, and one Glory Be per decade. Catholics use rosary beads to count prayers; the full Rosary takes about 15–20 minutes and is among the most popular prayers in the world.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

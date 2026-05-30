@@ -55,7 +55,7 @@ export default function StAnthonyNovenaLostThings() {
             <div className="aspect-video bg-amber-100 rounded-2xl flex items-center justify-center mb-10"><Search className="w-24 h-24 text-amber-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The St. Anthony novena is a nine-day Catholic prayer asking Saint Anthony of Padua to intercede for the return of lost items or peace of mind. Pray daily for nine days, search responsibly, and offer thanks when the item is found.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Anthony novena for lost things asks the Franciscan Doctor of the Church to intercede when items are missing — keys, wallets, documents, or peace of mind. Catholics pray for nine days (or use the short rhyming prayer immediately); many report finding items during the novena.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

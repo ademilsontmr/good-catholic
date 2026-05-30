@@ -69,7 +69,7 @@ export default function CatholicChurchNearMe() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">There are over 17,000 Catholic parishes in the US. Here&apos;s how to find the right one — parish finders, what to look for, Latin Mass locations, Eastern Catholic churches, and how to register.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">To find a Catholic church near you, use your diocese&apos;s parish finder, Google Maps, or MassTimes.org — verify Mass times, language (English, Spanish, Latin), and whether the parish offers RCIA, confession, or adoration. Any valid Catholic Mass worldwide fulfills the Sunday obligation.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">

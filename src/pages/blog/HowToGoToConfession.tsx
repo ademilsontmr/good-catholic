@@ -101,7 +101,7 @@ export default function HowToGoToConfession() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Master the Sacrament of Penance. Learn the 5 steps to a perfect confession, the difference between contrition types, and the power of the Seal of the Confessional.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">To go to Confession, examine your conscience, enter the confessional, tell the priest your sins and how long since your last confession, listen to counsel, perform your penance, and pray the Act of Contrition. The priest absolves you in Christ&apos;s name — the seal of Confession is absolute in Catholic law.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

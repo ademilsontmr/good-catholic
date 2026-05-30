@@ -99,7 +99,7 @@ export default function DivineMercyChaplet() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the deep spiritual meaning of the Divine Mercy Chaplet. Learn about St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Divine Mercy Chaplet is a Catholic prayer given to St. Faustina Kowalska — prayed on ordinary rosary beads, offering the Father the Body and Blood of Christ with &quot;For the sake of His sorrowful Passion, have mercy on us and on the whole world.&quot; It is especially prayed at 3 p.m. and during the Divine Mercy novena before Divine Mercy Sunday.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

@@ -69,7 +69,7 @@ export default function WhatIsTheTrinity() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Holy Trinity explained in plain English — what Catholics believe about the Father, Son, and Holy Spirit as one God in three Persons.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Holy Trinity is the central Catholic belief that one God exists as three divine Persons — Father, Son, and Holy Spirit — equal in glory, distinct in relation, united in essence. Catholics do not worship three gods; the Trinity is one God in three Persons, revealed by Christ and defined by the Church.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">

@@ -74,7 +74,7 @@ export default function WhyDoCatholics() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Clear answers to the most common questions about Catholic practices: Why do Catholics pray to Mary? Why confess to a priest?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics believe the Church founded by Christ on Peter (Matthew 16:18) subsists in the Catholic Church — with the fullness of sacraments, Scripture and Tradition, and apostolic succession. Common reasons to be Catholic include the Eucharist, historical continuity, moral clarity, and communion with saints across centuries.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Do Catholics Pray to Mary?</h2>

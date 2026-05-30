@@ -74,7 +74,7 @@ export default function ConfessionTimesNearMe() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic confession times vary by parish — check the parish website, bulletin, or door poster; many U.S. parishes offer Saturday afternoon confessions before vigil Mass. You may also schedule an appointment with any priest; all validly ordained Catholic priests can hear confession anywhere.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Fastest Ways to Find Confession Times Near You</h2>

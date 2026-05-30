@@ -69,7 +69,7 @@ export default function CompleteMassGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The most comprehensive guide to the Catholic Mass — every part explained from the Introductory Rites to the Dismissal, with full prayer texts, posture guide, and tips for active participation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic Mass has two main parts: the Liturgy of the Word (readings, homily, Creed) and the Liturgy of the Eucharist (Offertory, Consecration, Communion). Understanding each part helps Catholics participate fully — responses, postures, and receiving Communion in a state of grace.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">

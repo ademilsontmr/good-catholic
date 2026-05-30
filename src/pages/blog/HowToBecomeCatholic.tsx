@@ -86,7 +86,7 @@ export default function HowToBecomeCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to become Catholic through the RCIA process. Complete guide covering the 4 stages of RCIA, Easter Vigil, what to expect, timeline, and FAQs for converts to Catholicism.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Becoming Catholic starts with contacting a parish RCIA director — unbaptized adults prepare for baptism, confirmation, and Eucharist at Easter; baptized Christians may make a profession of faith. There is no fee; the process includes prayer, catechesis, and choosing a sponsor.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">

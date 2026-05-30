@@ -85,7 +85,7 @@ export default function ExaminationOfConscience() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Practical guide to perform a deep and sincere examination of conscience. Prepare for the sacrament of Reconciliation with this spiritual roadmap.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">An examination of conscience is prayerful review of thoughts, words, and deeds against the Ten Commandments and Gospel before Confession. Catholics examine sins of commission and omission, note kind and number of mortal sins, and prepare to confess honestly to the priest for valid absolution.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">

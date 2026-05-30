@@ -89,7 +89,7 @@ export default function HowToBecomeCatholicGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How to become Catholic — the complete guide to the RCIA process, what to expect, how long it takes, what you&apos;ll learn, and how to find a parish near you.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">To become Catholic, an unbaptized adult enters RCIA (Rite of Christian Initiation of Adults), receives formation, and is baptized, confirmed, and receives First Communion at the Easter Vigil. Already-baptized Christians may enter through a similar process and profession of faith, often at Easter or Pentecost.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">

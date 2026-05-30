@@ -86,7 +86,7 @@ export default function SundayMass() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover why participation in Sunday Mass is essential for every Catholic. Learn how to make the most of Holy Mass and grow in faith.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Sunday Mass is the primary weekly worship for Catholics — celebrating the Lord&apos;s Day with Scripture, Eucharist, and community. The obligation binds every Catholic except when illness or impossibility excuses; Saturday evening vigil Mass (typically after 4 p.m.) fulfills the Sunday duty in the United States.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">

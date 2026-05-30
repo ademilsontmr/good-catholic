@@ -71,7 +71,7 @@ export default function ListOfAllPopesCatholicGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Complete list of all Catholic popes from St. Peter to Pope Leo XIV — 267 successors of Peter, historical eras, notable pontiffs, and searchable chronological table.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church has had 267 popes from St. Peter to Pope Leo XIV — each Bishop of Rome and successor of Peter with authority to teach and govern the universal Church. This guide lists every pope with dates, eras, and links to individual biographies for SEO and catechesis.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why the Pope Matters in Catholic Faith</h2>

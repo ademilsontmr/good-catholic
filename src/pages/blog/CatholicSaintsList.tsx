@@ -74,7 +74,7 @@ export default function CatholicSaintsList() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Catholic saints and what they are known for — patron saints for health, work, travel, family, and more. Find your patron and learn how to ask for intercession.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic saints are holy men and women in heaven whom the Church venerates — each is known for specific patronages (health, work, travel, marriage, lost items, and more). Catholics ask saints to intercede with God; they do not worship saints as gods.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">

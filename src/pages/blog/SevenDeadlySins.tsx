@@ -86,7 +86,7 @@ export default function SevenDeadlySins() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What are the 7 deadly sins? Pride, greed, lust, envy, gluttony, wrath, and sloth — Catholic meanings and the virtues that overcome each one.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The seven deadly sins are pride, greed, lust, envy, gluttony, wrath, and sloth — disordered passions that lead to grave sin if unchecked. Catholic tradition pairs each with a contrary virtue (humility, generosity, chastity, kindness, temperance, patience, and diligence) for growth in holiness.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

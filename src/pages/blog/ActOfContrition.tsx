@@ -86,7 +86,7 @@ export default function ActOfContrition() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the full text of the Act of Contrition, its meaning, history, and how to pray it before Confession. Essential Catholic prayer for forgiveness and reconciliation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Act of Contrition is the Catholic prayer expressing sorrow for sin and resolve to amend life — prayed in Confession before absolution. Common forms include &quot;O my God, I am heartily sorry...&quot; and a longer traditional text; perfect contrition (sorrow from love of God) can forgive mortal sin even before Confession in extremis.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">

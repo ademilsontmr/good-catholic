@@ -86,7 +86,7 @@ export default function OurLadyOfGuadalupeScience() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say. Catholic guide to the evidence.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Scientists have studied the Our Lady of Guadalupe tilma for decades — its cactus-fiber cloth should have decayed in decades yet survives after 500 years, and high-resolution imaging has found figures reflected in Mary&apos;s eyes. Catholics see this as Marian evidence; researchers debate mechanisms, but no natural explanation has fully accounted for the image.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">

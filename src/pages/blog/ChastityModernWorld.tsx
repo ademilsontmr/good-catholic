@@ -77,7 +77,7 @@ export default function ChastityModernWorld() {
                         <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">How to live chastity in the modern world — Catholic teaching on purity before marriage, in marriage, and practical steps for daily life.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic chastity means integrating sexuality according to God&apos;s plan — abstinence before marriage, fidelity within marriage, and purity of heart in a culture saturated with pornography and hookup culture. It is a virtue of freedom, not repression, ordered to authentic love and the dignity of the person.</p>
               </div>
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="chastity-modern-world">

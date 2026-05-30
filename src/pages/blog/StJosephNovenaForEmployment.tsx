@@ -55,7 +55,7 @@ export default function StJosephNovenaForEmployment() {
             <div className="aspect-video bg-yellow-100 rounded-2xl flex items-center justify-center mb-10"><Briefcase className="w-24 h-24 text-yellow-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. St. Joseph Novena for employment and finding a job  Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Joseph novena for employment is a nine-day Catholic prayer for job seekers — invoking the patron of workers who provided for the Holy Family through honest labor. Pray daily, attend Mass if possible, update résumés and networks, and trust Providence while actively searching.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

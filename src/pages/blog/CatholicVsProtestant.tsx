@@ -87,7 +87,7 @@ export default function CatholicVsProtestant() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What are the real differences between Catholic and Protestant faiths? Explore Sola Scriptura, the Canon of the Bible, Purgatory, and the Papacy.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics and Protestants share faith in Christ and the Bible but differ on authority (Scripture + Tradition vs sola Scriptura), the Eucharist (Real Presence vs memorial), Mary and saints, the papacy, and seven sacraments vs two. Dialogue focuses on shared creeds while honestly addressing 500 years of division since the Reformation.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">
