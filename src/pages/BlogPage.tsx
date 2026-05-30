@@ -34,7 +34,7 @@ export const blogPosts: BlogPost[] = [
     slug: "list-of-all-popes-catholic-complete-guide",
     title: "List of All Popes: Complete Guide from St. Peter to Pope Leo XIV",
     excerpt: "Complete list of all 267 Catholic popes from St. Peter to Pope Leo XIV — searchable table, historical eras, notable pontiffs, and how the papacy works.",
-    date: "2026-06-03",
+    date: "2026-05-30",
     readTime: "25 min",
     category: "Catholic History",
     icon: Crown,

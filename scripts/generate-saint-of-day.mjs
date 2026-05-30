@@ -430,7 +430,7 @@ const blogPosts = articles.map((a) => ({
   slug: `saint-of-the-day/${a.dateSlug}`,
   title: a.title,
   excerpt: a.excerpt,
-  date: "2026-05-29",
+  date: "2026-05-30",
   readTime: a.readTime,
   category: "Saint of the Day",
   icon: "Heart",
@@ -463,10 +463,10 @@ export const SAINT_OF_DAY_BLOG_POSTS: SaintOfDayBlogPostEntry[] = ${JSON.stringi
 fs.writeFileSync(
   path.join(root, "scripts/saint-of-day-sitemap-urls.txt"),
   [
-    `  <url><loc>https://guidecatholic.com/blog/saint-of-the-day/</loc><lastmod>2026-05-29</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>`,
+    `  <url><loc>https://guidecatholic.com/blog/saint-of-the-day/</loc><lastmod>2026-05-30</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>`,
     ...articles.map(
       (a) =>
-        `  <url><loc>https://guidecatholic.com/blog/saint-of-the-day/${a.dateSlug}/</loc><lastmod>2026-05-29</lastmod><changefreq>yearly</changefreq><priority>0.85</priority></url>`
+        `  <url><loc>https://guidecatholic.com/blog/saint-of-the-day/${a.dateSlug}/</loc><lastmod>2026-05-30</lastmod><changefreq>yearly</changefreq><priority>0.85</priority></url>`
     ),
   ].join("\n")
 );

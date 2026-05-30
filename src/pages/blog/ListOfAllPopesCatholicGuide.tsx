@@ -26,7 +26,7 @@ export default function ListOfAllPopesCatholicGuide() {
         title="List of All Popes: Complete Guide from St. Peter to Pope Leo XIV"
         description="Complete list of all Catholic popes from St. Peter to Pope Leo XIV — 267 successors of Peter, historical eras, notable pontiffs, and searchable chronological table."
         url="https://guidecatholic.com/blog/list-of-all-popes-catholic-complete-guide/"
-        datePublished="2026-06-03"
+        datePublished="2026-05-30"
       />
       <BreadcrumbSchema
         items={[
@@ -55,7 +55,7 @@ export default function ListOfAllPopesCatholicGuide() {
             <header className="mb-8">
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Catholic History</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />June 3, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />25 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">

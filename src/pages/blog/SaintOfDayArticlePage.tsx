@@ -42,7 +42,7 @@ export default function SaintOfDayArticlePage() {
         <link rel="canonical" href={canonical} />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title={article.title} description={article.metaDescription} url={canonical} datePublished="2026-05-29" />
+      <ArticleSchema title={article.title} description={article.metaDescription} url={canonical} datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

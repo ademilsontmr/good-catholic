@@ -798,7 +798,7 @@ export const POPES_BY_SLUG: Record<string, PopeEntry> = Object.fromEntries(
 
 fs.writeFileSync(
   path.join(root, "scripts/pope-sitemap-urls.txt"),
-  articles.map((a) => `  <url><loc>https://guidecatholic.com/blog/pope-${a.slug}/</loc><lastmod>2026-06-03</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>`).join("\n")
+  articles.map((a) => `  <url><loc>https://guidecatholic.com/blog/pope-${a.slug}/</loc><lastmod>2026-05-30</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>`).join("\n")
 );
 
 const blogPosts = articles.map((a) => ({
@@ -806,7 +806,7 @@ const blogPosts = articles.map((a) => ({
   slug: `pope-${a.slug}`,
   title: a.title,
   excerpt: a.excerpt,
-  date: "2026-06-03",
+  date: "2026-05-30",
   readTime: a.readTime,
   category: "Popes",
   icon: "Crown",
