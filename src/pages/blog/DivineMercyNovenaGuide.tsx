@@ -69,7 +69,7 @@ export default function DivineMercyNovenaGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Divine Mercy Novena — what it is, how to pray it step by step, the Divine Mercy Chaplet, Divine Mercy Sunday, and where to pray it online.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Divine Mercy novena runs from Good Friday to Divine Mercy Sunday — nine days of chaplet prayers Christ gave St. Faustina for different groups of souls. Jesus attached promises of grace and conversion; the image &quot;Jesus, I trust in You&quot; accompanies the devotion.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Divine Mercy Devotion?</h2>

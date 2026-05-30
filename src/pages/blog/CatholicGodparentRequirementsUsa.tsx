@@ -55,7 +55,7 @@ export default function CatholicGodparentRequirementsUsa() {
             <div className="aspect-video bg-sky-100 rounded-2xl flex items-center justify-center mb-10"><Users className="w-24 h-24 text-sky-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Catholic godparents in the USA must be fully initiated Catholics (baptized, confirmed, receiving Communion), at least 16, living in harmony with Church teaching, and able to obtain a sponsor certificate from their parish.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic godparents in the USA must be fully initiated (baptized, confirmed, receiving Communion), at least age 16, living in harmony with Church teaching, and able to obtain a sponsor certificate from their parish.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-godparent-requirements-usa">

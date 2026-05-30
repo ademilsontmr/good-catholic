@@ -69,7 +69,7 @@ export default function CatholicTeachingOnGratitude() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Gratitude is the foundation of the spiritual life. Discover why the Eucharist means &apos;thanksgiving,&apos; how ingratitude is a sin, and how to cultivate a grateful heart.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Gratitude is recognition that all good comes from God — Eucharist means thanksgiving. Catholics express it through daily prayer, grace before meals, thanks after blessings, and contentment amid lack; ingratitude feeds pride and depression.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gratitude-catholic-virtue">

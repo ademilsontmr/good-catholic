@@ -55,7 +55,7 @@ export default function CatholicFuneralMassWhatToExpect() {
             <div className="aspect-video bg-slate-100 rounded-2xl flex items-center justify-center mb-10"><Church className="w-24 h-24 text-slate-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A Catholic funeral Mass (Mass of Christian Burial) offers the Eucharist for the deceased&apos;s soul, with Scripture, prayers, and often the final commendation. It may follow a Vigil (Rosary or wake) and precedes burial or entombment at a cemetery.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic Funeral Mass (Mass of Christian Burial) offers the Eucharist for the deceased&apos;s soul with Scripture, prayers, and final commendation — often after a Vigil wake. Eulogies belong at the Vigil, not usually during Mass per diocesan norms.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-mass-what-to-expect">

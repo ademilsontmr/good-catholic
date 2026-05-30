@@ -69,7 +69,7 @@ export default function SaintRitaOfCascia() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Rita of Cascia — the patron of impossible causes. Her life, her stigmata, her miracles, and the powerful novena that has brought hope to millions.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Rita of Cascia (1381–1457) — patron of impossible causes, abused wives, and loneliness — bore stigmata and lived decades in peacemaking. Her feast is May 22; roses and novenas for hopeless situations are popular in U.S. parishes.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-rita-of-cascia">

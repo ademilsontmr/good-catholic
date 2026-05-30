@@ -69,7 +69,7 @@ export default function CatholicTeachingOnTruth() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What is truth? The Catholic Church teaches that truth is real, objective, and knowable — and that Jesus Christ is not just a teacher of truth but Truth itself.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic truth is objective — rooted in Christ who is Truth, preserved in Scripture and Tradition, and taught by the Magisterium. The Eighth Commandment forbids lying; Catholics seek truth in science, conscience formed by faith, and humility before facts that contradict personal preference.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">

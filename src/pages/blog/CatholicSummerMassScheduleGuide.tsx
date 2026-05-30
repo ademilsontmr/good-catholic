@@ -55,7 +55,7 @@ export default function CatholicSummerMassScheduleGuide() {
             <div className="aspect-video bg-teal-100 rounded-2xl flex items-center justify-center mb-10"><MapPin className="w-24 h-24 text-teal-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Catholics on summer vacation in the U.S. must still attend Sunday Mass — use apps like MassTimes.org, parish websites, or diocesan directories to find Mass times near hotels, beaches, or national parks.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholics on summer vacation must still attend Sunday Mass — use MassTimes.org or diocesan finders before travel. Many tourist parishes change schedules in July; Saturday vigil Mass fulfills the Sunday obligation in the United States.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-summer-mass-schedule-guide">Every Sunday is a day of obligation for Catholics in the United States. The Catechism teaches that the faithful must &quot;abstain from those labors and business concerns which impede the worship to be rendered to God&quot; on the Lord&apos;s Day (CCC 2185). Travel makes logistics harder, not the duty itself.</LinkedText>

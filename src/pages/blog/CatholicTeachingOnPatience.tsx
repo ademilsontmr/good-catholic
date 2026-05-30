@@ -69,7 +69,7 @@ export default function CatholicTeachingOnPatience() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Patience is one of the most needed and least cultivated virtues. Learn what patience really is, how it differs from passivity, and how to grow in it through Catholic teaching.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Patience is long-suffering love — enduring delay, suffering, and others&apos; faults without sinful anger. Catholics cultivate it through prayer, acceptance of God&apos;s timing, and imitation of Christ and Mary; it opposes impulsivity and despair in trials.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-patience-catholic">

@@ -69,7 +69,7 @@ export default function CatholicTeachingOnConsciousness() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does &apos;follow your conscience&apos; really mean in Catholic teaching? Learn what conscience is, why it must be formed, and how to develop a well-formed Catholic conscience.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church teaches the human soul is spiritual and immortal — consciousness reflects the rational soul made in God&apos;s image, not reducible to brain chemistry alone. Ethical issues at end of life (PVS, brain death) require careful moral criteria; the soul is the form of the body.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">

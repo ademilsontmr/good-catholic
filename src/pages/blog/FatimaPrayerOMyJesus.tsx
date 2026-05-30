@@ -74,7 +74,7 @@ export default function FatimaPrayerOMyJesus() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Fatima Prayer (O My Jesus) with full text, meaning, when Our Lady asked for it in the Rosary, and how Catholics pray it after each decade.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Fatima Prayer (&quot;O my Jesus, forgive us our sins...&quot;) was revealed at Fatima in 1917 — prayed after each Rosary decade for reparation and conversion of sinners. Our Lady asked for its spread; it is central to Fatima devotion and First Saturday communions.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Fatima Prayer Full Text</h2>

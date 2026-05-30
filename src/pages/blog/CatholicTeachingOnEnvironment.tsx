@@ -69,7 +69,7 @@ export default function CatholicTeachingOnEnvironment() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about the environment? Explore Laudato Si&apos;, the biblical basis for ecological stewardship, and practical Catholic responses.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic care for creation flows from God as Creator — humans are stewards, not owners, of earth (Laudato Si&apos;). The Church rejects both exploitation of nature and idolizing ecology over human dignity; environmental justice connects to preferential option for the poor and protection of unborn life.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">

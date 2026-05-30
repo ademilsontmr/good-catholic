@@ -69,7 +69,7 @@ export default function CatholicTeachingOnBeauty() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Beauty is not decoration — it is a transcendental property of being itself. Discover why beauty matters for faith, how sacred art is theology, and why beauty is an argument for God.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Beauty is a transcendental pointing to God — sacred art, music, and architecture lift the soul toward heaven. Catholics reject utilitarian ugliness in churches; beauty in liturgy, icons, and creation evangelizes and forms worshippers when ordered to truth and goodness.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">

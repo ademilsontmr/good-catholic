@@ -69,7 +69,7 @@ export default function SaintMaryMagdalene() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the real Mary Magdalene — not the prostitute of legend, but the first witness to the Risen Christ and the &apos;Apostle to the Apostles&apos; honored by Pope Francis.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Mary Magdalene — &quot;Apostle to the Apostles&quot; — first witness of the Resurrection (John 20). Once confused with the sinful woman; Church clarified she is distinct; feast July 22; patron of penitents, perfumers, and contemplatives.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">

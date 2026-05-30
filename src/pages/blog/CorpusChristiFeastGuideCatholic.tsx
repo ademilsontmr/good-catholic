@@ -55,7 +55,7 @@ export default function CorpusChristiFeastGuideCatholic() {
             <div className="aspect-video bg-yellow-100 rounded-2xl flex items-center justify-center mb-10"><Sun className="w-24 h-24 text-yellow-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Corpus Christi is the Catholic solemnity honoring the Real Presence of Christ in the Eucharist, celebrated in the U.S. on the Sunday after Trinity Sunday (June 7 in 2026) with Mass and often a public Eucharistic procession.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Corpus Christi honors Christ truly present in the Eucharist — in the U.S. celebrated on the Sunday after Trinity Sunday (June 7, 2026) with Mass and often outdoor processions with the Blessed Sacrament in a monstrance.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-feast-guide-catholic">Corpus Christi falls on the Thursday after Trinity Sunday (or the following Sunday in many countries). In the United States, the bishops transfer the solemnity to Sunday so more faithful can participate. In 2026, Corpus Christi Sunday is June 7.</LinkedText>

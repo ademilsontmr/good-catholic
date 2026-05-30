@@ -69,7 +69,7 @@ export default function CatholicTeachingOnFreeMasonry() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church has condemned Freemasonry over 20 times since 1738. Learn why Catholics cannot join Masonic lodges and what to do if a family member is a Mason.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church prohibits membership in Freemasonry — declared incompatible with Catholic faith because of relativism, oaths, and secrecy that undermine ecclesial communion (1983 CDF declaration). Catholics who join Masonic lodges may not receive Communion; the Church distinguishes fraternal orders that are explicitly Christian and obedient to the Magisterium.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">

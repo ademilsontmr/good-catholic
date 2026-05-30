@@ -69,7 +69,7 @@ export default function CatholicTeachingOnMoney() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Is it a sin to be rich? What does the Church teach about tithing, stewardship, and the proper use of wealth?</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Money is a tool, not an idol — Catholics may earn wealth justly but must practice stewardship, tithing, and almsgiving. The Church warns against greed, usury, and neglect of the poor; detachment and generosity are virtues; wealth without charity endangers the soul.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">

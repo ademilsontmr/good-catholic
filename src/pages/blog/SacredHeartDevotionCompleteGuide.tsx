@@ -55,7 +55,7 @@ export default function SacredHeartDevotionCompleteGuide() {
             <div className="aspect-video bg-red-100 rounded-2xl flex items-center justify-center mb-10"><Heart className="w-24 h-24 text-red-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Sacred Heart devotion honors the love of Jesus symbolized by his wounded heart, especially through First Friday Communion, family enthronement, and the solemnity on the Friday after Pentecost (June 19, 2026).</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Sacred Heart devotion honors Jesus&apos; love symbolized by his wounded heart — First Friday Communion, home enthronement, and solemnity on the Friday after Pentecost (June 19, 2026). June is traditionally the month of the Sacred Heart.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-devotion-complete-guide">Devotion to the Sacred Heart focuses on the human heart of Jesus as the symbol of his divine love — wounded on the cross, yet merciful to sinners. Pope Pius IX extended the feast to the universal Church in 1856. The solemnity falls nineteen days after Pentecost — in 2026, on Friday, June 19.</LinkedText>

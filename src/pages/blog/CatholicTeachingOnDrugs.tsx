@@ -69,7 +69,7 @@ export default function CatholicTeachingOnDrugs() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">What does the Catholic Church teach about drugs and substance abuse? Learn the distinction between medicinal use and sinful abuse, and the Catholic path to recovery.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Recreational drug use is gravely sinful for Catholics — it harms the body, distorts reason, and violates the Fifth Commandment. Medical use under supervision differs; addiction requires treatment, Confession, and community support; the Church opposes legalization that normalizes harm.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">

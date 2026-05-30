@@ -87,7 +87,7 @@ export default function SaintPadrePioMiracles() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover the extraordinary miracles of St. Padre Pio - his bilocation, healing miracles, reading of souls, and the stigmata that lasted 50 years.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Padre Pio&apos;s miracles include stigmata lasting fifty years, bilocation, reading souls in Confession, and countless healings reported at San Giovanni Rotondo. The Church approved his sanctity; Catholics distinguish approved miracles from pious legends while honoring his intercession.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">

@@ -75,7 +75,7 @@ export default function SubTuumPraesidiumPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Sub Tuum Praesidium — the oldest known Marian prayer — with full Catholic text in English and Latin, history from the 3rd century, and when to pray it today.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Sub Tuum Praesidium is among the oldest Marian prayers — &quot;We fly to thy patronage, O holy Mother of God&quot; — from at least the 3rd century. Catholics pray it for protection in danger; it appears in Compline traditions and papal processions.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Sub Tuum Praesidium (English)</h2>

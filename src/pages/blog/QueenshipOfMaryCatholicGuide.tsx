@@ -55,7 +55,7 @@ export default function QueenshipOfMaryCatholicGuide() {
             <div className="aspect-video bg-purple-100 rounded-2xl flex items-center justify-center mb-10"><Crown className="w-24 h-24 text-purple-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Queenship of Mary (August 22) celebrates Mary as Queen of Heaven and earth, one week after the Assumption, honoring her unique role in God&apos;s plan of salvation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Queenship of Mary (August 22) proclaims Mary as Queen of heaven and earth by grace — one week after the Assumption. Catholics honor her with the Salve Regina, Litany of Loreto Queen titles, and the fifth Glorious Mystery of the Rosary.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="queenship-of-mary-catholic-guide">The Memorial of the Queenship of the Blessed Virgin Mary is celebrated on August 22. Pope Pius XII established the feast in 1954, linking it to the Assumption and to the centenary of the dogma of the Immaculate Conception. It crowns the Marian feasts at the end of summer in the U.S. liturgical calendar.</LinkedText>

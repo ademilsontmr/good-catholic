@@ -55,7 +55,7 @@ export default function CanCatholicsKeepAshesAtHome() {
             <div className="aspect-video bg-stone-100 rounded-2xl flex items-center justify-center mb-10"><Home className="w-24 h-24 text-stone-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church does not permit keeping cremated remains at home indefinitely. Ashes must be buried in a cemetery or entombed in a sacred place — temporary storage during arrangements is different from permanent keeping.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church does not permit keeping cremated remains at home permanently — ashes must be buried in a cemetery or entombed in a sacred place. Temporary storage during arrangements differs from keeping an urn on the mantel indefinitely.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-keep-ashes-at-home">

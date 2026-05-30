@@ -75,7 +75,7 @@ export default function HailHolyQueenPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Hail Holy Queen (Salve Regina) with full Catholic text in English and Latin, meaning, and why Catholics pray it at the end of the Rosary every day.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Hail, Holy Queen (Salve Regina) closes the Rosary — &quot;Hail, holy Queen, Mother of mercy...&quot; — prayed from Pentecost until Advent when replaced by Alma Redemptoris Mater. One of the four great Marian antiphons of the Church.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Hail Holy Queen (English)</h2>

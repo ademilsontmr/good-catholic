@@ -86,7 +86,7 @@ export default function MorningOfferingPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn the Catholic Morning Offering prayer and how to consecrate your entire day to God. Discover different versions, the history, and practical tips for making this powerful prayer a daily habit.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Morning Offering unites the day&apos;s works, joys, and sufferings to the Sacred Heart of Jesus and Immaculate Heart of Mary — often prayed at waking. Apostleship of Prayer popularized it; it consecrates ordinary labor to God&apos;s glory.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">

@@ -69,7 +69,7 @@ export default function SacredHeartNovenaGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Sacred Heart Novena — the 12 promises of Jesus, how to pray the 9-day novena step by step, the First Friday devotion, and where to pray it online.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Sacred Heart novena prepares for First Friday or the June solemnity — nine days honoring Christ&apos;s love, often with Communion, Confession, and reparation. St. Margaret Mary promoted the devotion after apparitions in Paray-le-Monial, France.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Sacred Heart of Jesus?</h2>

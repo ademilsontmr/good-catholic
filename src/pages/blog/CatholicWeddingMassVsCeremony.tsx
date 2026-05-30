@@ -55,7 +55,7 @@ export default function CatholicWeddingMassVsCeremony() {
             <div className="aspect-video bg-pink-100 rounded-2xl flex items-center justify-center mb-10"><Heart className="w-24 h-24 text-pink-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A Catholic wedding with Mass includes the Liturgy of the Eucharist for two Catholics; a wedding ceremony without Mass (Liturgy of the Word only) is used when one party is not Catholic or when a priest deems it pastorally better — only Catholics in grace receive Communion.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A Catholic wedding with Mass includes the Eucharist for two Catholics; a ceremony without Mass (Liturgy of the Word only) is used when one party is not Catholic or the priest deems it pastorally better — only Catholics in grace receive Communion.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-mass-vs-ceremony">

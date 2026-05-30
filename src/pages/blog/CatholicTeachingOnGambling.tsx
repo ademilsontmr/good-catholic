@@ -69,7 +69,7 @@ export default function CatholicTeachingOnGambling() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Is gambling a sin? Learn what the Catholic Church teaches about gambling — the distinction between moderate play and sinful excess, and the path to freedom for those who struggle.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Gambling is not intrinsically evil for Catholics — small stakes for recreation may be permissible. The Church condemons gambling that deprives family of necessities, exploits addiction, or replaces trust in Providence; casinos and lottery obsession often violate justice and temperance.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">

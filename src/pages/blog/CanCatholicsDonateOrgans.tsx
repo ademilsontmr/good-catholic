@@ -55,7 +55,7 @@ export default function CanCatholicsDonateOrgans() {
             <div className="aspect-video bg-red-100 rounded-2xl flex items-center justify-center mb-10"><HeartPulse className="w-24 h-24 text-red-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Yes. The Catholic Church supports organ donation as an act of charity when done ethically — after true death is confirmed and without harming the donor&apos;s life. Pope St. John Paul II called it a heroic gift.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Yes — the Catholic Church supports organ donation as an act of charity when done ethically after true death is confirmed. Pope St. John Paul II called it a heroic gift; Catholics may register as donors while ensuring family and moral principles guide decisions.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-donate-organs">

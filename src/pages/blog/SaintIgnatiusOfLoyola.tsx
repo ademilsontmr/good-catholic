@@ -69,7 +69,7 @@ export default function SaintIgnatiusOfLoyola() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Ignatius of Loyola — the soldier-turned-mystic who founded the Jesuits and wrote the Spiritual Exercises, one of the most influential books in Christian history.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Ignatius of Loyola (1491–1556) — soldier turned mystic — founded the Jesuits and wrote the Spiritual Exercises. Patron of retreats and soldiers; discernment of spirits and &quot;Ad majorem Dei gloriam&quot; define Ignatian spirituality worldwide.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-ignatius-of-loyola">

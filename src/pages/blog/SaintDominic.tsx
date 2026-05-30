@@ -69,7 +69,7 @@ export default function SaintDominic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Dominic — the Spanish priest who founded the Order of Preachers, fought heresy with truth and poverty, and gave the Church the Rosary.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Dominic (1174–1221) founded the Order of Preachers (Dominicans) and promoted the Rosary against Albigensian errors. Patron of astronomers and the Dominican Republic; feast August 8; Dominicans shaped Catholic theology and Inquisition reform.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dominic-founder-dominicans">

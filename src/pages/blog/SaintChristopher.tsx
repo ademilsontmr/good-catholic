@@ -74,7 +74,7 @@ export default function SaintChristopher() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn about Saint Christopher — patron of travelers, his legendary story of carrying the Christ child, the meaning of his medal, and why Catholics still venerate him today.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Christopher — legend carries Christ as a child across a river — patron of travelers, motorists, and pilots. Though removed from universal calendar in 1969, local devotion continues; medals on cars reflect prayer for safe journey under Christ&apos;s protection.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">

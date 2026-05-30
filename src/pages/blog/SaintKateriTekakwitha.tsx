@@ -74,7 +74,7 @@ export default function SaintKateriTekakwitha() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saint Kateri Tekakwitha — the first Native American to be canonized. Her life, her faith, her miracles, and why she is beloved by Catholics across the United States.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Kateri Tekakwitha (1656–1680) — Lily of the Mohawks — first Native American saint, converted Jesuit mission, lived virginity and penance. Patron of ecology, Native Americans, and those ridiculed for faith; feast July 14 in U.S.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">

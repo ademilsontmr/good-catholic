@@ -69,7 +69,7 @@ export default function GuardianAngelNovenaGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A complete guide to the Guardian Angel Novena — who guardian angels are, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">A guardian angel novena invokes your personal angel over nine days for protection, guidance, and childlike trust — based on Matthew 18:10 and Psalm 91. Catholics teach each person receives a guardian angel at birth; the classic prayer asks light, guard, rule, and guide.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Are Guardian Angels?</h2>

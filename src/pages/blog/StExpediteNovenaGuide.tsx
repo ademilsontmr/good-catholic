@@ -55,7 +55,7 @@ export default function StExpediteNovenaGuide() {
             <div className="aspect-video bg-red-100 rounded-2xl flex items-center justify-center mb-10"><Zap className="w-24 h-24 text-red-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Devotion to Saint Expedite is popular in America for urgent petitions that cannot wait. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Expédite novena is popular for urgent needs — tradition holds he was a Roman martyr invoked for swift help. Use with orthodox intent; some Church writers caution against superstition, but many U.S. Catholics pray nine days for pressing deadlines and crises.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>

@@ -55,7 +55,7 @@ export default function HowLongIsRciaProcess() {
             <div className="aspect-video bg-emerald-100 rounded-2xl flex items-center justify-center mb-10"><BookOpen className="w-24 h-24 text-emerald-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">RCIA in the United States typically runs from fall through the Easter Vigil — about eight to nine months — though unbaptized adults are initiated at Easter and timelines vary based on readiness, marriage status, and prior Christian formation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">RCIA typically runs from fall through Easter Vigil — about eight to nine months in U.S. parishes — though timelines vary by readiness, prior baptism, and marriage status. Unbaptized adults are initiated at Easter; baptized Christians may enter sooner.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-long-is-rcia-process">

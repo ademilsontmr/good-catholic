@@ -75,7 +75,7 @@ export default function AgnusDeiPrayerCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Agnus Dei (Lamb of God) prayer with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Agnus Dei (&quot;Lamb of God, who take away the sins of the world, have mercy on us&quot;) is sung at Mass before Communion — three invocations, the third often &quot;grant us peace.&quot; John the Baptist&apos;s words (John 1:29) identify Christ as sacrificial Lamb.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Agnus Dei (English — Roman Missal)</h2>

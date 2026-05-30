@@ -74,7 +74,7 @@ export default function JesusPrayerCatholic() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner) with full text, meaning, and how Catholics may use it alongside the Rosary and lectio divina.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Jesus Prayer — &quot;Lord Jesus Christ, Son of God, have mercy on me, a sinner&quot; — comes from Eastern Christianity; Catholics may use it in contemplative prayer alongside the Rosary and lectio divina when practiced with Church teaching on grace and sacraments.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Jesus Prayer (Common English Form)</h2>

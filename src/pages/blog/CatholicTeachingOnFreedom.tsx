@@ -69,7 +69,7 @@ export default function CatholicTeachingOnFreedom() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Catholic understanding of freedom is radically different from the secular one. True freedom is not doing whatever you want — it is the capacity to choose the good and become who you are meant to be.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">True freedom is freedom for excellence — choosing the good, not license to sin. Catholic anthropology rejects freedom as mere autonomy; grace liberates from sin so the will can love God and neighbor; moral law protects authentic freedom.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-freedom-catholic">

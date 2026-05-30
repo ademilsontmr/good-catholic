@@ -85,7 +85,7 @@ export default function SaintBenedictMedal() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Everything about the Saint Benedict Medal: its history, what every symbol means, the Vade Retro prayer, how to have it blessed, and how Catholics use it for spiritual protection.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Benedict medal is a sacramental with exorcism blessings and initials of Latin prayers against evil — worn or placed in homes for protection. St. Benedict (480–547) founded Western monasticism; Rule of St. Benedict shapes religious life; feast July 11.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">

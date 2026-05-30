@@ -69,7 +69,7 @@ export default function SaintAnneAndJoachim() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Discover Saints Anne and Joachim — the parents of the Virgin Mary and the grandparents of Jesus. Their story, their shrines, and why they are patrons of grandparents and families.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Sts. Anne and Joachim are parents of the Virgin Mary — honored in tradition though not named in Scripture. Patrons of grandparents, childless couples, and mothers; feast July 26; devotion strong among families and those seeking children.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">

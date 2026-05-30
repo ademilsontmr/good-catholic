@@ -86,7 +86,7 @@ export default function SaintPeregrineNovena() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Pray the Saint Peregrine Novena for healing from cancer and other illnesses. Learn about the miraculous life of the &apos;Cancer Saint&apos; and how to ask for his intercession.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Peregrine (1260–1345) — patron of cancer patients — received healing of his leg after prayer before a crucifix. His novena is popular in hospitals and among the seriously ill; feast May 1; black habit of Servite order identifies his iconography.</p>
               </div>
 
               <p className="text-text leading-relaxed mb-6">
