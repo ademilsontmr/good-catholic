@@ -30,6 +30,18 @@ const trimMetaDescription = (description: string) => {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1335,
+    slug: "do-animals-go-to-heaven-catholic",
+    title: "Do Animals Go to Heaven? What the Catholic Church Teaches",
+    excerpt: "Do dogs and cats go to heaven? Catholic teaching on animal souls, Scripture, the Catechism, and honest hope for grieving pet owners — grounded in Roman Catholic doctrine.",
+    date: "2026-06-01",
+    readTime: "16 min",
+    category: "Catholic Doctrine",
+    icon: Bird,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600"
+  },
+  {
     id: 1334,
     slug: "national-eucharistic-revival-complete-guide-2026",
     title: "National Eucharistic Revival: Complete Guide for Catholics in 2026",
