@@ -1,4 +1,13 @@
+# Legacy blog aliases — 301 to canonical URLs (must be before SPA fallback)
+/blog/what-is-purgatory-guide    /blog/what-is-purgatory/    301
+/blog/what-is-purgatory-guide/   /blog/what-is-purgatory/    301
+/blog/lectio-divina              /blog/lectio-divina-how-to-practice/    301
+/blog/lectio-divina/             /blog/lectio-divina-how-to-practice/    301
+/blog/how-to-pray-rosary         /blog/rosary-complete-guide/    301
+/blog/how-to-pray-rosary/        /blog/rosary-complete-guide/    301
+/blog/guardian-angels            /blog/guardian-angels-guide/    301
+/blog/guardian-angels/           /blog/guardian-angels-guide/    301
+
 /sitemap.xml 200
 /robots.txt 200
 /*    /index.html   200
-

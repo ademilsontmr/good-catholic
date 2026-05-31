@@ -2,6 +2,55 @@
   command = "npm run build"
   publish = "dist"
 
+# Legacy blog aliases — 301 to canonical URLs (before SPA fallback)
+[[redirects]]
+  from = "/blog/what-is-purgatory-guide"
+  to = "/blog/what-is-purgatory/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/what-is-purgatory-guide/"
+  to = "/blog/what-is-purgatory/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/lectio-divina"
+  to = "/blog/lectio-divina-how-to-practice/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/lectio-divina/"
+  to = "/blog/lectio-divina-how-to-practice/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/how-to-pray-rosary"
+  to = "/blog/rosary-complete-guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/how-to-pray-rosary/"
+  to = "/blog/rosary-complete-guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/guardian-angels"
+  to = "/blog/guardian-angels-guide/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/guardian-angels/"
+  to = "/blog/guardian-angels-guide/"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/*"
   to = "/index.html"

@@ -2,6 +2,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { BLOG_REDIRECT_ALIAS_PATHS } from "./blog-redirect-aliases.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -22,7 +23,7 @@ export function collectPrerenderRoutes() {
   });
 
   const extra = ["/blog/", "/quiz-intro/", "/daily-verses/", "/terms/", "/privacy/", "/contact/"];
-  const all = [...new Set([...fromSitemap, ...extra])];
+  const all = [...new Set([...fromSitemap, ...extra])].filter((p) => !BLOG_REDIRECT_ALIAS_PATHS.has(p));
   return all.sort();
 }
 

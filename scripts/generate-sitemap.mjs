@@ -6,6 +6,7 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { BLOG_REDIRECT_ALIAS_PATHS } from "./blog-redirect-aliases.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -117,7 +118,12 @@ for (let i = 2; i <= totalPages; i++) {
 }
 
 const blogArticles = blogPaths
-  .filter((p) => p !== "/blog/saint-of-the-day/" && p !== "/blog/catholic-feast-days/")
+  .filter(
+    (p) =>
+      p !== "/blog/saint-of-the-day/" &&
+      p !== "/blog/catholic-feast-days/" &&
+      !BLOG_REDIRECT_ALIAS_PATHS.has(p)
+  )
   .map((p) => ({
   loc: `${SITE}${p}`,
   lastmod: articleLastmod(p, blogDates),
