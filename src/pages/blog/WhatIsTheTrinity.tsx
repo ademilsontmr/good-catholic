@@ -15,15 +15,15 @@ export default function WhatIsTheTrinity() {
   return (
     <>
       <Helmet>
-        <title>What Is the Holy Trinity? Catholic Guide (1 God, 3 Persons) | Guide Catholic</title>
-        <meta name="description" content="The Holy Trinity explained in plain English — what Catholics believe about the Father, Son, and Holy Spirit as one God in three Persons." />
-        <meta name="keywords" content="what is the holy trinity, holy trinity catholic, father son holy spirit, trinity explained, one god three persons, trinity doctrine catholic, trinity sunday" />
+        <title>Holy Trinity Explained: 1 God in 3 Persons (Catholic) | Guide Catholic</title>
+        <meta name="description" content="What is the Holy Trinity? Plain-English Catholic guide to Father, Son, and Holy Spirit — one God in three Persons, with Scripture and Creed." />
+        <meta name="keywords" content="holy trinity, the holy trinity, what is the holy trinity, holy trinity catholic, father son holy spirit, trinity explained, one god three persons, trinity doctrine catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-holy-trinity/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="What Is the Holy Trinity? Catholic Guide (1 God, 3 Persons)"
-        description="The Holy Trinity explained in plain English — what Catholics believe about the Father, Son, and Holy Spirit as one God in three Persons."
+        title="Holy Trinity Explained: 1 God in 3 Persons (Catholic)"
+        description="What is the Holy Trinity? Plain-English Catholic guide to Father, Son, and Holy Spirit — one God in three Persons, with Scripture and Creed."
         url="https://guidecatholic.com/blog/what-is-the-holy-trinity/"
       />
       <BreadcrumbSchema
@@ -58,7 +58,7 @@ export default function WhatIsTheTrinity() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />16 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                What Is the Holy Trinity? Catholic Guide (1 God, 3 Persons)
+                Holy Trinity Explained: 1 God in 3 Persons (Catholic)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Holy Trinity is the central mystery of the Christian faith — the teaching that God is one Being in three distinct Persons: Father, Son, and Holy Spirit. It is not a contradiction. It is the deepest truth about who God is, revealed by God himself.

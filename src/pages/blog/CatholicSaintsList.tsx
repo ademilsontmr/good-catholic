@@ -15,15 +15,15 @@ export default function CatholicSaintsList() {
   return (
     <>
       <Helmet>
-        <title>Catholic Saints & What They're Known For (Patron List) | Guide Catholic</title>
-        <meta name="description" content="Catholic saints and what they are known for — patron saints for health, work, travel, family, and more. Find your patron and learn how to ask for intercession." />
-        <meta name="keywords" content="catholic saints list, patron saints catholic, list of catholic saints, patron saint for every need, catholic saints by patronage, find your patron saint" />
+        <title>List of Catholic Patron Saints & What They're Known For | Guide Catholic</title>
+        <meta name="description" content="Complete list of Catholic patron saints by need — health, work, family, travel, lost items. Find your patron saint and how to ask for intercession." />
+        <meta name="keywords" content="catholic saints, patron saints, list of patron saints, catholic saints list, list of catholic saints, saints catholic, catholic saint names, patron saints catholic, find your patron saint" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-saints-list/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Catholic Saints & What They're Known For (Patron List)"
-        description="Catholic saints and what they are known for — patron saints for health, work, travel, family, and more. Find your patron and learn how to ask for intercession."
+        title="List of Catholic Patron Saints & What They're Known For"
+        description="Complete list of Catholic patron saints by need — health, work, family, travel, lost items. Find your patron saint and how to ask for intercession."
         url="https://guidecatholic.com/blog/catholic-saints-list/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function CatholicSaintsList() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />20 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Catholic Saints & What They're Known For (Patron List)
+                List of Catholic Patron Saints & What They're Known For
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Catholic Church has canonized thousands of saints — men and women from every era, culture, and walk of life who now intercede for us in heaven. This comprehensive guide helps you find the right patron saint for your specific need.
@@ -75,7 +75,7 @@ export default function CatholicSaintsList() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Catholic saints are holy men and women in heaven whom the Church venerates — each is known for specific patronages (health, work, travel, marriage, lost items, and more). Catholics ask saints to intercede with God; they do not worship saints as gods.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Patron saints are Catholic saints in heaven assigned special patronages — health, work, travel, family, lost items, and more. This list of Catholic saints organizes the most searched patron saints by need so you can find your patron and ask for intercession; Catholics venerate saints, not worship them.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
@@ -84,6 +84,22 @@ export default function CatholicSaintsList() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
                 This guide organizes the most important patron saints by category, so you can quickly find the right saint to invoke for your specific situation.
               </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Quick List: Most Searched Patron Saints</h2>
+              <ul className="list-disc list-inside text-text space-y-2 mb-8">
+                <li><strong>St. Anthony of Padua</strong> — patron of lost items and missing persons</li>
+                <li><strong>St. Jude Thaddeus</strong> — patron of impossible causes and desperate situations</li>
+                <li><strong>St. Joseph</strong> — patron of families, workers, and the universal Church</li>
+                <li><strong>St. Michael the Archangel</strong> — patron of soldiers, police, and spiritual protection</li>
+                <li><strong>St. Rita of Cascia</strong> — patron of impossible causes and difficult marriages</li>
+                <li><strong>St. Thérèse of Lisieux</strong> — patron of missionaries and the Little Way of holiness</li>
+                <li><strong>St. Francis of Assisi</strong> — patron of ecology, animals, and peace</li>
+                <li><strong>St. Padre Pio</strong> — patron of stress relief, civil defense, and healing</li>
+                <li><strong>St. Joan of Arc</strong> — patron of France, soldiers, and courage</li>
+                <li><strong>St. Christopher</strong> — patron of travelers, motorists, and sailors</li>
+                <li><strong>St. Monica</strong> — patron of mothers, wives, and difficult marriages</li>
+                <li><strong>St. Benedict</strong> — patron of students, Europe, and monastic life</li>
+              </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Ask a Saint for Intercession</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
@@ -329,6 +345,8 @@ export default function CatholicSaintsList() {
             </div>
 
             <BlogFAQ faqs={[
+              { question: "What are Catholic patron saints?", answer: "Catholic patron saints are canonized men and women in heaven whom the Church assigns special patronage over particular needs, professions, places, or groups — such as St. Anthony for lost items or St. Joseph for families. Catholics ask patron saints to intercede with God on their behalf; they do not worship saints as gods." },
+              { question: "What is a list of patron saints used for?", answer: "A list of patron saints helps Catholics quickly find the right saint to invoke for a specific need — illness, travel, marriage, work, or a desperate situation. Instead of searching blindly, you can match your intention to a saint's patronage and pray with greater confidence and devotion." },
               { question: "How do I find my patron saint?", answer: "Your patron saint is typically the saint whose name you share (your baptismal name or Confirmation name). You can also choose a patron saint based on your profession, your struggles, your nationality, or simply a saint whose life inspires you. There is no wrong choice — any saint can be your patron." },
               { question: "Can I have more than one patron saint?", answer: "Yes. Catholics often have multiple patron saints — a baptismal patron, a Confirmation patron, a patron of their profession, and saints they have a personal devotion to. The saints are not jealous of each other; they all want to help you." },
               { question: "What is the difference between a patron saint and a guardian angel?", answer: "A patron saint is a canonized saint in heaven who has been given special patronage over a particular group, profession, or cause. A guardian angel is an angel assigned by God to protect and guide each individual person from birth. Both intercede for us, but in different ways." },

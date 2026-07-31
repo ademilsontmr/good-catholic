@@ -15,15 +15,15 @@ export default function SaintNicholas() {
   return (
     <>
       <Helmet>
-        <title>Saint Nicholas: The Real Santa Claus and Bishop of Myra | Guide Catholic</title>
-        <meta name="description" content="Discover the real Saint Nicholas — the 4th-century bishop of Myra whose extraordinary generosity inspired the legend of Santa Claus. His life, miracles, and feast day." />
-        <meta name="keywords" content="saint nicholas catholic, real santa claus, bishop of myra, saint nicholas feast day december 6, saint nicholas miracles, patron of children" />
+        <title>Saint Nicholas: Real History Behind Santa Claus | Guide Catholic</title>
+        <meta name="description" content="Who was Saint Nicholas? The Catholic bishop of Myra whose charity inspired Santa Claus — life, miracles, feast day December 6, and devotion." />
+        <meta name="keywords" content="st nicholas, saint nicholas, saint nicholas catholic, real santa claus, bishop of myra, saint nicholas feast day december 6, saint nicholas miracles, patron of children" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-nicholas/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Saint Nicholas: The Real Santa Claus and Bishop of Myra"
-        description="Discover the real Saint Nicholas — the 4th-century bishop of Myra whose extraordinary generosity inspired the legend of Santa Claus. His life, miracles, and feast day."
+        title="Saint Nicholas: Real History Behind Santa Claus"
+        description="Who was Saint Nicholas? The Catholic bishop of Myra whose charity inspired Santa Claus — life, miracles, feast day December 6, and devotion."
         url="https://guidecatholic.com/blog/saint-nicholas/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function SaintNicholas() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Saint Nicholas: The Real Santa Claus and Bishop of Myra
+                Saint Nicholas: Real History Behind Santa Claus
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 Before there was Santa Claus, there was Nicholas of Myra — a 4th-century bishop whose extraordinary generosity, fierce orthodoxy, and miraculous deeds made him one of the most beloved saints in Christian history.

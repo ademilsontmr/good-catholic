@@ -15,15 +15,15 @@ export default function ImmaculateConceptionGuide() {
   return (
     <>
       <Helmet>
-        <title>The Immaculate Conception: What It Is, What It Means & Why Catholics Believe It | Guide Catholic</title>
-        <meta name="description" content="What is the Immaculate Conception? A complete Catholic guide — what the dogma teaches, its biblical basis, the 1854 definition, the Lourdes apparitions, and why it matters for every Catholic." />
+        <title>Immaculate Conception Explained: Catholic Dogma Guide | Guide Catholic</title>
+        <meta name="description" content="What is the Immaculate Conception? Clear Catholic teaching — not Jesus' birth, but Mary's freedom from original sin — dogma, Bible, Lourdes, feast day." />
         <meta name="keywords" content="immaculate conception, what is the immaculate conception, immaculate conception catholic, immaculate conception dogma, mary immaculate conception, december 8 holy day, immaculate conception explained" />
         <link rel="canonical" href="https://guidecatholic.com/blog/immaculate-conception-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="The Immaculate Conception: What It Is, What It Means & Why Catholics Believe It"
-        description="What is the Immaculate Conception? A complete Catholic guide — what the dogma teaches, its biblical basis, the 1854 definition, the Lourdes apparitions, and why it matters for every Catholic."
+        title="Immaculate Conception Explained: Catholic Dogma Guide"
+        description="What is the Immaculate Conception? Clear Catholic teaching — not Jesus' birth, but Mary's freedom from original sin — dogma, Bible, Lourdes, feast day."
         url="https://guidecatholic.com/blog/immaculate-conception-guide/"
       />
       <BreadcrumbSchema
@@ -58,7 +58,7 @@ export default function ImmaculateConceptionGuide() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />16 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Immaculate Conception: What It Is, What It Means & Why Catholics Believe It
+                Immaculate Conception Explained: Catholic Dogma Guide
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Immaculate Conception is one of the most misunderstood doctrines in Catholicism — and one of the most beautiful. This guide explains exactly what it teaches, why the Church defined it, and what it means for your faith.

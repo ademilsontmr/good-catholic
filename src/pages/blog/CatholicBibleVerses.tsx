@@ -15,15 +15,15 @@ export default function CatholicBibleVerses() {
   return (
     <>
       <Helmet>
-        <title>50 Most Important Catholic Bible Verses: Scripture for Every Occasion | Guide Catholic</title>
-        <meta name="description" content="The 50 most important Catholic Bible verses — for prayer, strength, comfort, faith, love, and the sacraments. Essential Scripture every Catholic should know by heart." />
+        <title>Catholic Bible Verses: 50 Essential Scriptures by Theme | Guide Catholic</title>
+        <meta name="description" content="50 essential Catholic Bible verses by theme — love, prayer, strength, Mary, Eucharist, and hope. RSV-CE quotes every Catholic should know." />
         <meta name="keywords" content="catholic bible verses, important bible verses catholic, scripture verses catholic, bible quotes catholic, bible verses for prayer, most important bible verses" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-bible-verses/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="50 Most Important Catholic Bible Verses: Scripture for Every Occasion"
-        description="The 50 most important Catholic Bible verses — for prayer, strength, comfort, faith, love, and the sacraments. Essential Scripture every Catholic should know by heart."
+        title="Catholic Bible Verses: 50 Essential Scriptures by Theme"
+        description="50 essential Catholic Bible verses by theme — love, prayer, strength, Mary, Eucharist, and hope. RSV-CE quotes every Catholic should know."
         url="https://guidecatholic.com/blog/catholic-bible-verses/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function CatholicBibleVerses() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />18 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                50 Most Important Catholic Bible Verses: Scripture for Every Occasion
+                Catholic Bible Verses: 50 Essential Scriptures by Theme
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Bible is the living Word of God — and certain verses have nourished Catholic faith for centuries. These 50 essential Scripture passages cover prayer, strength, comfort, the sacraments, Mary, and the core of the Catholic faith.
@@ -75,7 +75,7 @@ export default function CatholicBibleVerses() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Essential Catholic Bible verses include John 6 (Eucharist), Matthew 16 (Peter), James 2 (faith and works), Luke 1 (Mary), and John 20 (Confession) — memorized for prayer, apologetics, and lectio divina within Church interpretation.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Catholic Bible verses every believer should know include John 6 (Eucharist), Matthew 16 (Peter), James 2 (faith and works), Luke 1 (Mary), and John 20 (Confession). All quotations here use the RSV-CE; the NABRE is the official U.S. Mass translation — both are approved for prayer, apologetics, and lectio divina.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">
@@ -254,6 +254,8 @@ export default function CatholicBibleVerses() {
             </div>
 
             <BlogFAQ faqs={[
+              { question: "What are the best Catholic Bible verses to memorize?", answer: "Start with John 3:16 (God's love), Philippians 4:13 (strength), Psalm 23 (comfort), John 6:51 (Eucharist), Matthew 16:18 (the Church), Luke 1:28 (Mary), and John 20:22-23 (Confession). These Catholic Bible verses cover the core of faith and are useful for daily prayer, difficult moments, and sharing your beliefs with others." },
+              { question: "Where can I find Catholic Bible verses for every occasion?", answer: "This guide organizes 50 essential Catholic Bible verses by theme — love, prayer, strength, comfort, the Eucharist, Mary, faith, charity, the Church, and hope. For daily readings, use USCCB.org (NABRE) or a Catholic Bible app; for study and memorization, the RSV-CE and Douay-Rheims are widely recommended." },
               { question: "What is the most important Bible verse for Catholics?", answer: "There is no single 'most important' verse, but John 3:16 ('For God so loved the world that he gave his only Son...') is often cited as the heart of the Gospel. For Catholics specifically, Matthew 16:18 (Jesus founding the Church on Peter), John 6:51 (the Real Presence), and John 20:22-23 (the power to forgive sins) are particularly significant." },
               { question: "What Bible translation do Catholics use?", answer: "In the United States, the official translation used at Mass is the NABRE (New American Bible Revised Edition). For personal study and prayer, the RSV-CE (Revised Standard Version — Catholic Edition) is widely recommended. The Douay-Rheims is the traditional Catholic Bible in English." },
               { question: "Are there Bible verses that support specifically Catholic teachings?", answer: "Yes. Matthew 16:18-19 supports the papacy. John 6:51-56 supports the Real Presence in the Eucharist. John 20:22-23 supports the Sacrament of Confession. Luke 1:28 and 1:42 support Marian devotion. 2 Maccabees 12:46 supports prayers for the dead and Purgatory. James 5:14-15 supports the Anointing of the Sick." },

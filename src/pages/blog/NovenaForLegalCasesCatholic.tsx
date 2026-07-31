@@ -15,18 +15,18 @@ export default function NovenaForLegalCasesCatholic() {
   return (
     <>
       <Helmet>
-        <title>Novena for Legal Cases: 9-Day Prayer for Court & Justice | Guide Catholic</title>
-        <meta name="description" content="Novena for legal cases — 9-day Catholic prayer for court hearings, lawsuits, and just outcomes. Full prayer text, step-by-step guide, and FAQs." />
+        <title>Novena for Court Cases: 9-Day Catholic Prayer for Justice | Guide Catholic</title>
+        <meta name="description" content="Catholic novena for court cases and legal hearings — 9-day prayer for justice, full text, saints to invoke, and how to pray before a court date." />
         <meta name="keywords" content="novena for legal cases, catholic prayer court case, novena justice lawsuit" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Novena for Legal Cases: 9-Day Prayer for Court & Justice" description="Novena for legal cases — 9-day Catholic prayer for court hearings, lawsuits, and just outcomes. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" datePublished="2026-05-30" />
+      <ArticleSchema title="Novena for Court Cases: 9-Day Catholic Prayer for Justice" description="Catholic novena for court cases and legal hearings — 9-day prayer for justice, full text, saints to invoke, and how to pray before a court date." url="https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
-          { name: "Novena for Legal Cases: 9-Day Prayer fo...", url: "https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" },
+          { name: "Novena for Court Cases", url: "https://guidecatholic.com/blog/novena-for-legal-cases-catholic/" },
         ]}
       />
 
@@ -37,7 +37,7 @@ export default function NovenaForLegalCasesCatholic() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link><span>/</span>
               <Link to="/blog" className="hover:text-accent">Blog</Link><span>/</span>
-              <span className="text-text">Novena for Legal Cases: 9-Day Prayer fo...</span>
+              <span className="text-text">Novena for Court Cases</span>
             </nav>
           </div>
         </div>
@@ -50,14 +50,23 @@ export default function NovenaForLegalCasesCatholic() {
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
               </div>
-              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Novena for Legal Cases: 9-Day Prayer for Court & Justice</h1>
-              <p className="text-xl text-text-muted leading-relaxed">Novena for legal cases — 9-day Catholic prayer for court hearings, lawsuits, and just outcomes.</p>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">Novena for Court Cases: 9-Day Catholic Prayer for Justice</h1>
+              <p className="text-xl text-text-muted leading-relaxed">Catholic novena for court cases and legal hearings — 9-day prayer for justice, full text, saints to invoke, and how to pray before a court date.</p>
             </header>
             <div className="aspect-video bg-stone-100 rounded-2xl flex items-center justify-center mb-10"><Gavel className="w-24 h-24 text-stone-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A novena for legal cases invokes St. Yves, St. Thomas More, or St. Jude for just outcomes in court, immigration, or disputes. Catholics pray for truth, wise counsel, and integrity — prayer does not replace honest lawyers or lawful process.</p>
               </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saints for Legal Cases</h2>
+              <LinkedText className="text-text leading-relaxed mb-4" currentSlug="novena-for-legal-cases-catholic"><strong>St. Thomas More</strong> — patron of lawyers and politicians, martyred for refusing to compromise his conscience before the law.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-4" currentSlug="novena-for-legal-cases-catholic"><strong>St. Yves of Brittany</strong> — patron of lawyers and judges, known for defending the poor and upholding justice with integrity.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-4" currentSlug="novena-for-legal-cases-catholic"><strong>St. Jude Thaddeus</strong> — patron of desperate and impossible causes, often invoked when a legal outcome seems hopeless.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-legal-cases-catholic"><strong>St. Raymond Nonnatus</strong> — patron of prisoners and those falsely accused, invoked for protection and just treatment in legal proceedings.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Start This Novena</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-legal-cases-catholic">Begin this novena nine days before your court hearing, deposition, or key legal deadline so the final day of prayer falls on the day of the proceeding. If you have less time, start as soon as you know the date — many Catholics pray the full nine days leading up to the hearing regardless of when they begin.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-legal-cases-catholic">When a court date approaches, Catholics often pray nine days for justice, truth, and peace of heart. Catholics across the United States pray this novena in parishes, homes, and online prayer groups, trusting in God&apos;s mercy and the intercession of the saints.</LinkedText>
@@ -87,6 +96,7 @@ export default function NovenaForLegalCasesCatholic() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-legal-cases-catholic">If this need continues, you may repeat the novena or seek related devotions on Guide Catholic. Ask your parish priest for guidance on serious moral or sacramental questions.</LinkedText>
             </div>
             <BlogFAQ faqs={[
+              { question: "Which saint do Catholics pray to for court cases?", answer: "Catholics most often invoke St. Thomas More (patron of lawyers), St. Yves of Brittany (patron of judges), St. Jude (desperate causes), and St. Raymond Nonnatus (prisoners and the falsely accused) for court cases and legal matters. You may pray to one or several of these saints during your novena." },
               { question: "How many days is this novena?", answer: "Nine consecutive days is the standard Catholic form." },
               { question: "Can I start on any day?", answer: "Yes — some begin before a relevant saint&apos;s feast day but any day is valid." },
               { question: "Can someone pray the novena for me?", answer: "Yes — family and friends often offer novenas for others by name." },

@@ -15,15 +15,15 @@ export default function CatholicBibleGuide() {
   return (
     <>
       <Helmet>
-        <title>The Catholic Bible: Complete Guide — Books, Translations & How to Read It | Guide Catholic</title>
-        <meta name="description" content="Everything about the Catholic Bible — its 73 books, the deuterocanonical books, best translations (RSV-CE, NABRE, Douay-Rheims), and how to read it as a Catholic." />
+        <title>Catholic Bible Translations: NABRE, RSV-CE & More | Guide Catholic</title>
+        <meta name="description" content="Best Catholic Bible translations explained — NABRE, RSV-CE, Douay-Rheims, 73 books vs Protestant Bibles, and which edition to use for Mass, study, or prayer." />
         <meta name="keywords" content="catholic bible, catholic bible books, catholic bible translation, best catholic bible, catholic bible vs protestant bible, 73 books catholic bible, nabre bible, rsv-ce bible" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-bible-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="The Catholic Bible: Complete Guide — Books, Translations & How to Read It"
-        description="Everything about the Catholic Bible — its 73 books, the deuterocanonical books, best translations (RSV-CE, NABRE, Douay-Rheims), and how to read it as a Catholic."
+        title="Catholic Bible Translations: NABRE, RSV-CE & More"
+        description="Best Catholic Bible translations explained — NABRE, RSV-CE, Douay-Rheims, 73 books vs Protestant Bibles, and which edition to use for Mass, study, or prayer."
         url="https://guidecatholic.com/blog/catholic-bible-guide/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function CatholicBibleGuide() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />20 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Catholic Bible: Complete Guide — Books, Translations & How to Read It
+                Catholic Bible Translations: NABRE, RSV-CE & More
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Catholic Bible is the most widely read book in human history — and the most misunderstood. This complete guide covers everything: its 73 books, the deuterocanonical books, the best translations, and how to read it as a Catholic.

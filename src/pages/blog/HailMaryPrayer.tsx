@@ -15,15 +15,15 @@ export default function HailMaryPrayer() {
   return (
     <>
       <Helmet>
-        <title>Hail Mary Prayer: Full Text, Meaning and How to Pray | Guide Catholic</title>
-        <meta name="description" content="The Hail Mary prayer with full text, biblical meaning, history, and a simple guide for praying it with devotion in the Rosary and daily Catholic life." />
+        <title>Hail Mary Prayer: Full Text, Meaning & How to Pray | Guide Catholic</title>
+        <meta name="description" content="Hail Mary prayer with full Catholic text, biblical roots in Luke, and how to pray it in the Rosary — clear meaning for every line." />
         <meta name="keywords" content="hail mary prayer, hail mary full text, hail mary catholic prayer, how to pray hail mary, hail mary meaning, ave maria prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/hail-mary-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Hail Mary Prayer: Full Text, Meaning and How to Pray"
-        description="The Hail Mary prayer with full text, biblical meaning, history, and a simple guide for praying it with devotion in the Rosary and daily Catholic life."
+        title="Hail Mary Prayer: Full Text, Meaning & How to Pray"
+        description="Hail Mary prayer with full Catholic text, biblical roots in Luke, and how to pray it in the Rosary — clear meaning for every line."
         url="https://guidecatholic.com/blog/hail-mary-prayer/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function HailMaryPrayer() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />7 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Hail Mary Prayer: Full Text, Meaning and How to Pray
+                Hail Mary Prayer: Full Text, Meaning & How to Pray
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Hail Mary is one of the most beloved Catholic prayers. It is biblical, simple, and deeply centered on Jesus through the intercession of Mary.

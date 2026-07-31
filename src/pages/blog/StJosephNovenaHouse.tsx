@@ -15,22 +15,22 @@ export default function StJosephNovenaHouse() {
   return (
     <>
       <Helmet>
-        <title>St. Joseph Novena for Buying a House: Complete Guide & Prayers | Guide Catholic</title>
-        <meta name="description" content="Learn how to pray the powerful St. Joseph Novena for buying a house. Discover the complete 9-day prayer, traditional practices, and why St. Joseph is the patron saint of home buyers." />
+        <title>St. Joseph Novena to Buy a House: 9-Day Prayer Guide | Guide Catholic</title>
+        <meta name="description" content="St. Joseph novena to buy a house — 9-day Catholic prayer, full text, burying the statue tradition, and how to pray for a home purchase." />
         <meta name="keywords" content="st joseph novena house, st joseph novena buying house, prayer to st joseph for house, st joseph home buyer novena, catholic prayer for house" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-house/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
-          title="St. Joseph Novena for Buying a House: Complete Guide & Prayers"
-          description="Learn how to pray the powerful St. Joseph Novena for buying a house. Discover the complete 9-day prayer, traditional practices, and why St. Joseph is the patron saint of home buyers."
+          title="St. Joseph Novena to Buy a House: 9-Day Prayer Guide"
+          description="St. Joseph novena to buy a house — 9-day Catholic prayer, full text, burying the statue tradition, and how to pray for a home purchase."
           url="https://guidecatholic.com/blog/st-joseph-novena-house/"
         />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
-          { name: "St. Joseph Novena for Buying a House", url: "https://guidecatholic.com/blog/st-joseph-novena-house/" },
+          { name: "St. Joseph Novena to Buy a House", url: "https://guidecatholic.com/blog/st-joseph-novena-house/" },
         ]}
       />
 
@@ -44,7 +44,7 @@ export default function StJosephNovenaHouse() {
               <span>/</span>
               <Link to="/blog" className="hover:text-accent">Blog</Link>
               <span>/</span>
-              <span className="text-text">St. Joseph Novena for Buying a House</span>
+              <span className="text-text">St. Joseph Novena to Buy a House</span>
             </nav>
           </div>
         </div>
@@ -72,11 +72,11 @@ export default function StJosephNovenaHouse() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                St. Joseph Novena for Buying a House: Complete Guide & Prayers
+                St. Joseph Novena to Buy a House: 9-Day Prayer Guide
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                Searching for a new home can be one of life's most stressful journeys. The St. Joseph Novena for buying a house has become one of the most trusted Catholic prayers for those navigating the complex process of finding and purchasing a home.
+                Searching for a new home can be one of life's most stressful journeys. The St. Joseph novena to buy a house has become one of the most trusted Catholic prayers for those navigating the complex process of finding and purchasing a home.
               </p>
             </header>
 
@@ -87,7 +87,7 @@ export default function StJosephNovenaHouse() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The St. Joseph novena for buying a house is a nine-day Catholic prayer asking the patron of workers and families to intercede for a home purchase, sale, or housing need. Catholics bury a statue of St. Joseph upside down as a popular custom, but the heart of the devotion is persevering prayer and trust in Providence.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The St. Joseph novena to buy a house is a nine-day Catholic prayer asking the patron of workers and families to intercede for a home purchase. Many Catholics also pray the St. Joseph novena for buying a house while burying a statue upside down as a popular custom — but the heart of the devotion is persevering prayer and trust in Providence.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">

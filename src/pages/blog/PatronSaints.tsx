@@ -15,14 +15,14 @@ export default function PatronSaints() {
   return (
     <>
       <Helmet>
-        <title>Patron Saints: How to Choose and Honor Yours | Guide Catholic</title>
-        <meta name="description" content="Learn about the tradition of patron saints in the Catholic Church. Discover how to choose your patron saint and how to honor them to receive their intercession." />
-        <meta name="keywords" content="how to choose patron saint, patron saints, saint protector, intercession of saints, devotion to saints, saint of my name" />
+        <title>How to Choose a Patron Saint (Catholic Guide) | Guide Catholic</title>
+        <meta name="description" content="Learn how Catholics choose and honor a patron saint — baptismal names, Confirmation, professions, and how to ask for their intercession every day." />
+        <meta name="keywords" content="how to choose patron saint, patron saints, catholic patron saints, saint protector, intercession of saints, devotion to saints, saint of my name" />
         <link rel="canonical" href="https://guidecatholic.com/blog/patron-saints/" />
       </Helmet>
         <ArticleSchema
-          title="Patron Saints: How to Choose and Honor Yours"
-          description="Learn about the tradition of patron saints in the Catholic Church. Discover how to choose your patron saint and how to honor them to receive their intercession."
+          title="How to Choose a Patron Saint (Catholic Guide)"
+          description="Learn how Catholics choose and honor a patron saint — baptismal names, Confirmation, professions, and how to ask for their intercession every day."
           url="https://guidecatholic.com/blog/patron-saints/"
         />
       <BreadcrumbSchema
@@ -71,7 +71,7 @@ export default function PatronSaints() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Patron Saints: How to Choose and Honor Yours
+                How to Choose a Patron Saint (Catholic Guide)
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">

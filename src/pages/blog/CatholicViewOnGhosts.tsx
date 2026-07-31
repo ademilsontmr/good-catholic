@@ -15,15 +15,15 @@ export default function CatholicViewOnGhosts() {
   return (
     <>
       <Helmet>
-        <title>Do Catholics Believe in Ghosts? What the Church Teaches | Guide Catholic</title>
-        <meta name="description" content="Do Catholics believe in ghosts? Church teaching on souls in purgatory, demonic deception, haunted houses, and how to protect your home — explained clearly." />
-        <meta name="keywords" content="catholic view on ghosts, do catholics believe in ghosts, souls in purgatory ghosts, haunted houses catholic, demonic mimicry, catholic paranormal" />
+        <title>Do Roman Catholics Believe in Ghosts? Church Teaching | Guide Catholic</title>
+        <meta name="description" content="Do Roman Catholics believe in ghosts? Clear Church teaching — purgatory, demons vs souls, haunted houses, and how Catholics should respond with prayer." />
+        <meta name="keywords" content="do roman catholics believe in ghosts, do catholics believe in ghosts, catholic view on ghosts, souls in purgatory ghosts, haunted houses catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-view-on-ghosts/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Do Catholics Believe in Ghosts? What the Church Teaches"
-        description="Do Catholics believe in ghosts? Church teaching on souls in purgatory, demonic deception, haunted houses, and how to protect your home — explained clearly."
+        title="Do Roman Catholics Believe in Ghosts? Church Teaching"
+        description="Do Roman Catholics believe in ghosts? Clear Church teaching — purgatory, demons vs souls, haunted houses, and how Catholics should respond with prayer."
         url="https://guidecatholic.com/blog/catholic-view-on-ghosts/"
       />
       <BreadcrumbSchema
@@ -72,7 +72,7 @@ export default function CatholicViewOnGhosts() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Do Catholics Believe in Ghosts? What the Church Teaches
+                Do Roman Catholics Believe in Ghosts? Church Teaching
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">

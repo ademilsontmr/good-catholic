@@ -15,15 +15,15 @@ export default function WhatIsTheNiceneCreed() {
   return (
     <>
       <Helmet>
-        <title>What Is the Nicene Creed? Full History and Meaning | Guide Catholic</title>
-        <meta name="description" content="Explore the deep history of the Nicene Creed. From the Council of Nicaea to the Filioque controversy, understand the prayer Catholics profess at every Mass." />
-        <meta name="keywords" content="nicene creed, nicene creed text, council of nicaea 325, homoousios meaning, filioque controversy, history of the creed" />
+        <title>Nicene Creed: Full Text, History & Meaning (Catholic) | Guide Catholic</title>
+        <meta name="description" content="The Nicene Creed Catholics recite at Mass — full text, Council of Nicaea history, what each line means, and why the Creed still matters in 2026." />
+        <meta name="keywords" content="nicene creed, the nicene creed, nicene creed text, council of nicaea 325, homoousios meaning, filioque controversy, history of the creed" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-nicene-creed/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="What Is the Nicene Creed? Full Text, History & Meaning"
-        description="What is the Nicene Creed? Learn the full text Catholics profess at Mass, its history at the Council of Nicaea (325 AD), what each line means, and why it still matters today."
+        title="Nicene Creed: Full Text, History & Meaning (Catholic)"
+        description="The Nicene Creed Catholics recite at Mass — full text, Council of Nicaea history, what each line means, and why the Creed still matters in 2026."
         url="https://guidecatholic.com/blog/what-is-the-nicene-creed/"
       />
       <BreadcrumbSchema
@@ -71,7 +71,7 @@ export default function WhatIsTheNiceneCreed() {
                 </span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Nicene Creed: The Prayer that Saved Christianity from a Single Letter
+                Nicene Creed: Full Text, History & Meaning (Catholic)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 Every Sunday, we stand and recite the Creed. But behind these ancient words lies a story of political exile, street riots, and a theological battle over a single "iota" that determined whether we worship Jesus as God or merely as a "super-hero."

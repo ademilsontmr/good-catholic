@@ -15,15 +15,15 @@ export default function AshWednesday2026() {
   return (
     <>
       <Helmet>
-        <title>Ash Wednesday 2026: Date, Fasting Rules, Mass Times & What to Expect | Guide Catholic</title>
-        <meta name="description" content="Ash Wednesday 2026 falls on February 18. Everything you need to know — fasting and abstinence rules, what the ashes mean, Mass times, and how to begin Lent well." />
+        <title>Ash Wednesday 2026: Date, Fasting Rules & Mass | Guide Catholic</title>
+        <meta name="description" content="Ash Wednesday 2026 is February 18 — fasting and abstinence rules, meaning of ashes, Mass times tips, and how to start Lent the Catholic way." />
         <meta name="keywords" content="ash wednesday 2026, when is ash wednesday 2026, ash wednesday date 2026, ash wednesday fasting rules, ash wednesday mass, what is ash wednesday" />
         <link rel="canonical" href="https://guidecatholic.com/blog/ash-wednesday-2026/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Ash Wednesday 2026: Date, Fasting Rules, Mass Times & What to Expect"
-        description="Ash Wednesday 2026 falls on February 18. Everything you need to know — fasting and abstinence rules, what the ashes mean, Mass times, and how to begin Lent well."
+        title="Ash Wednesday 2026: Date, Fasting Rules & Mass"
+        description="Ash Wednesday 2026 is February 18 — fasting and abstinence rules, meaning of ashes, Mass times tips, and how to start Lent the Catholic way."
         url="https://guidecatholic.com/blog/ash-wednesday-2026/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function AshWednesday2026() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Ash Wednesday 2026: Date, Fasting Rules, Mass Times & What to Expect
+                Ash Wednesday 2026: Date, Fasting Rules & Mass
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 Ash Wednesday 2026 falls on <strong>February 18, 2026</strong>. It marks the beginning of Lent — 40 days of prayer, fasting, and almsgiving that prepare us for Easter. Here is everything you need to know.

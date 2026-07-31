@@ -15,22 +15,22 @@ export default function StJosephBuyingHouseGuide() {
   return (
     <>
       <Helmet>
-        <title>Novena to Saint Joseph for Buying a House: A Catholic Prayer Guide | Guide Catholic</title>
-        <meta name="description" content="A complete Catholic guide to praying to Saint Joseph for help buying or selling a home — the tradition of burying the statue, how to pray the novena, and how to bless your new home." />
+        <title>How to Pray to St. Joseph for a House (Novena + Statue) | Guide Catholic</title>
+        <meta name="description" content="How Catholics pray to St. Joseph when buying or selling a house — novena steps, burying the statue tradition, home blessing, and trust in Providence." />
         <meta name="keywords" content="st joseph novena buying house, saint joseph prayer for house, bury st joseph statue, novena to st joseph real estate, catholic prayer for buying home, st joseph patron of homes" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-buying-house-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Novena to Saint Joseph for Buying a House: A Catholic Prayer Guide"
-        description="A complete Catholic guide to praying to Saint Joseph for help buying or selling a home — the tradition of burying the statue, how to pray the novena, and how to bless your new home."
+        title="How to Pray to St. Joseph for a House (Novena + Statue)"
+        description="How Catholics pray to St. Joseph when buying or selling a house — novena steps, burying the statue tradition, home blessing, and trust in Providence."
         url="https://guidecatholic.com/blog/st-joseph-novena-buying-house-guide/"
       />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
-          { name: "St. Joseph Novena for Buying a House", url: "https://guidecatholic.com/blog/st-joseph-novena-buying-house-guide/" },
+          { name: "How to Pray to St. Joseph for a House", url: "https://guidecatholic.com/blog/st-joseph-novena-buying-house-guide/" },
         ]}
       />
       <div className="min-h-screen bg-background">
@@ -42,7 +42,7 @@ export default function StJosephBuyingHouseGuide() {
               <span>/</span>
               <Link to="/blog" className="hover:text-accent">Blog</Link>
               <span>/</span>
-              <span className="text-text">St. Joseph Novena for Buying a House</span>
+              <span className="text-text">How to Pray to St. Joseph for a House</span>
             </nav>
           </div>
         </div>
@@ -58,10 +58,10 @@ export default function StJosephBuyingHouseGuide() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />5 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Novena to Saint Joseph for Buying a House: A Catholic Prayer Guide
+                How to Pray to St. Joseph for a House (Novena + Statue)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
-                Saint Joseph, patron of families and homes, is the saint Catholics turn to when buying or selling a house. This guide explains the tradition, how to pray the novena, and how to bless your new home.
+                Saint Joseph, patron of families and homes, is the saint Catholics turn to when buying or selling a house. This deeper guide explains the tradition, how to pray the novena, burying the statue, and how to bless your new home.
               </p>
             </header>
             <div className="aspect-video bg-yellow-50 rounded-2xl flex items-center justify-center mb-10">

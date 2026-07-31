@@ -15,15 +15,15 @@ export default function SaintPatrick() {
   return (
     <>
       <Helmet>
-        <title>Saint Patrick: The Real Story of Ireland's Patron Saint | Guide Catholic</title>
-        <meta name="description" content="Discover the real Saint Patrick — his captivity, conversion, mission to Ireland, the shamrock, the Breastplate prayer, and the truth behind the legends." />
+        <title>Saint Patrick: Real History, Shamrock & Prayer | Guide Catholic</title>
+        <meta name="description" content="Who was Saint Patrick? The real Catholic bishop of Ireland — captivity, shamrock Trinity teaching, Breastplate prayer, feast day March 17, and myths vs history." />
         <meta name="keywords" content="saint patrick, st patrick catholic, saint patrick ireland, feast day march 17, saint patrick prayer, breastplate of saint patrick, shamrock trinity" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-patrick/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Saint Patrick: The Real Story of Ireland's Patron Saint"
-        description="Discover the real Saint Patrick — his captivity, conversion, mission to Ireland, the shamrock, the Breastplate prayer, and the truth behind the legends."
+        title="Saint Patrick: Real History, Shamrock & Prayer"
+        description="Who was Saint Patrick? The real Catholic bishop of Ireland — captivity, shamrock Trinity teaching, Breastplate prayer, feast day March 17, and myths vs history."
         url="https://guidecatholic.com/blog/saint-patrick/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function SaintPatrick() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />16 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Saint Patrick: The Real Story of Ireland's Patron Saint
+                Saint Patrick: Real History, Shamrock & Prayer
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 Behind the green beer and shamrock parades is one of the most remarkable missionary stories in Christian history. Patrick was a slave who became an apostle — a man who returned to his captors to bring them the Gospel of Christ.

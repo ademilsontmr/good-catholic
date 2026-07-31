@@ -15,15 +15,15 @@ export default function OurFatherPrayer() {
   return (
     <>
       <Helmet>
-        <title>Our Father Prayer: Full Text, Meaning and Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="The Our Father prayer with full text, biblical meaning, the seven petitions, and a Catholic guide to praying the Lord's Prayer with devotion." />
+        <title>Our Father Prayer: Full Text & Meaning (Lord's Prayer) | Guide Catholic</title>
+        <meta name="description" content="Pray the Our Father with full Catholic text, the seven petitions explained, and how Jesus taught the Lord's Prayer — simple guide for daily devotion." />
         <meta name="keywords" content="our father prayer, lord's prayer, our father full text, catholic our father, how to pray the our father, our father meaning" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-father-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Our Father Prayer: Full Text, Meaning and Catholic Guide"
-        description="The Our Father prayer with full text, biblical meaning, the seven petitions, and a Catholic guide to praying the Lord's Prayer with devotion."
+        title="Our Father Prayer: Full Text & Meaning (Lord's Prayer)"
+        description="Pray the Our Father with full Catholic text, the seven petitions explained, and how Jesus taught the Lord's Prayer — simple guide for daily devotion."
         url="https://guidecatholic.com/blog/our-father-prayer/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function OurFatherPrayer() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />8 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Our Father Prayer: Full Text, Meaning and Catholic Guide
+                Our Father Prayer: Full Text & Meaning (Lord's Prayer)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 The Our Father, also called the Lord's Prayer, is the prayer Jesus himself taught. It is the model of every Christian prayer and the heart of Catholic worship.

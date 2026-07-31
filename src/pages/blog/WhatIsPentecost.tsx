@@ -15,15 +15,15 @@ export default function WhatIsPentecost() {
   return (
     <>
       <Helmet>
-        <title>What Is Pentecost? The Catholic Feast of the Holy Spirit Explained | Guide Catholic</title>
-        <meta name="description" content="What is Pentecost? Learn about the Catholic feast that celebrates the descent of the Holy Spirit — its biblical origins, its meaning, how Catholics celebrate it, and Pentecost 2026." />
-        <meta name="keywords" content="what is pentecost catholic, pentecost feast holy spirit, pentecost sunday 2026, descent holy spirit pentecost, pentecost meaning catholic" />
+        <title>Pentecost Explained: Holy Spirit Feast for Catholics | Guide Catholic</title>
+        <meta name="description" content="What is Pentecost in the Catholic Church? Descent of the Holy Spirit, Acts 2, how Catholics celebrate, and why it is the birthday of the Church." />
+        <meta name="keywords" content="pentecost, what is pentecost catholic, pentecost feast holy spirit, pentecost sunday 2026, descent holy spirit pentecost, pentecost meaning catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-pentecost-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="What Is Pentecost? The Catholic Feast of the Holy Spirit Explained"
-        description="What is Pentecost? Learn about the Catholic feast that celebrates the descent of the Holy Spirit — its biblical origins, its meaning, how Catholics celebrate it, and Pentecost 2026."
+        title="Pentecost Explained: Holy Spirit Feast for Catholics"
+        description="What is Pentecost in the Catholic Church? Descent of the Holy Spirit, Acts 2, how Catholics celebrate, and why it is the birthday of the Church."
         url="https://guidecatholic.com/blog/what-is-pentecost-catholic/"
       />
       <BreadcrumbSchema
@@ -58,7 +58,7 @@ export default function WhatIsPentecost() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />13 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                What Is Pentecost? The Catholic Feast of the Holy Spirit Explained
+                Pentecost Explained: Holy Spirit Feast for Catholics
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 Pentecost Sunday is one of the greatest feasts in the Catholic liturgical year — the celebration of the descent of the Holy Spirit upon the Apostles and the birth of the Church. Often called the "birthday of the Church," Pentecost marks the moment when the disciples were transformed from a frightened group hiding behind locked doors into bold witnesses who proclaimed the Gospel to the world.

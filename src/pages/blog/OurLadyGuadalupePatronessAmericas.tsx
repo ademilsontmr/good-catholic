@@ -15,15 +15,15 @@ export default function OurLadyGuadalupePatronessAmericas() {
   return (
     <>
       <Helmet>
-        <title>Our Lady of Guadalupe: Patroness of the Americas — Complete Guide | Guide Catholic</title>
-        <meta name="description" content="Complete guide to Our Lady of Guadalupe — the 1531 apparitions to Juan Diego, the miraculous tilma, her role as Patroness of the Americas, and the feast day of December 12." />
-        <meta name="keywords" content="our lady of guadalupe patroness americas, our lady of guadalupe december 12, juan diego guadalupe, tilma guadalupe miracle, patroness of the americas, guadalupe apparition 1531" />
+        <title>Our Lady of Guadalupe: Story, Feast & Meaning | Guide Catholic</title>
+        <meta name="description" content="Our Lady of Guadalupe — 1531 apparitions to Juan Diego, the tilma, Patroness of the Americas, and how Catholics celebrate December 12." />
+        <meta name="keywords" content="our lady of guadalupe, our lady of guadalupe patroness americas, our lady of guadalupe december 12, juan diego guadalupe, tilma guadalupe miracle, patroness of the americas, guadalupe apparition 1531" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-guadalupe-patroness-americas/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Our Lady of Guadalupe: Patroness of the Americas — Complete Guide"
-        description="Complete guide to Our Lady of Guadalupe — the 1531 apparitions to Juan Diego, the miraculous tilma, her role as Patroness of the Americas, and the feast day of December 12."
+        title="Our Lady of Guadalupe: Story, Feast & Meaning"
+        description="Our Lady of Guadalupe — 1531 apparitions to Juan Diego, the tilma, Patroness of the Americas, and how Catholics celebrate December 12."
         url="https://guidecatholic.com/blog/our-lady-of-guadalupe-patroness-americas/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function OurLadyGuadalupePatronessAmericas() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />20 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Our Lady of Guadalupe: Patroness of the Americas — Complete Guide
+                Our Lady of Guadalupe: Story, Feast & Meaning
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 In December 1531, a poor indigenous man named Juan Diego encountered a woman on a hill outside Mexico City. What happened next changed the history of an entire continent. Our Lady of Guadalupe is the most visited Marian shrine in the world — and the patroness of all the Americas.

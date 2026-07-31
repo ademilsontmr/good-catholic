@@ -15,15 +15,15 @@ export default function DivineMercyChaplet() {
   return (
     <>
       <Helmet>
-        <title>How to Pray the Divine Mercy Chaplet: The Expert Guide | Guide Catholic</title>
-        <meta name="description" content="Discover the deep spiritual meaning of the Divine Mercy Chaplet. Learn about St. Faustina, the 3pm Hour of Mercy, and the promises for the dying." />
-        <meta name="keywords" content="how to pray divine mercy chaplet, st faustina diary, hour of mercy 3pm, divine mercy image meaning, promises of divine mercy" />
+        <title>Divine Mercy Chaplet: How to Pray (Full Guide) | Guide Catholic</title>
+        <meta name="description" content="How to pray the Divine Mercy Chaplet step by step — full prayers, rosary beads, 3 o'clock Hour of Mercy, and St. Faustina's promises." />
+        <meta name="keywords" content="divine mercy chaplet, how to pray divine mercy chaplet, st faustina diary, hour of mercy 3pm, divine mercy image meaning, promises of divine mercy" />
         <link rel="canonical" href="https://guidecatholic.com/blog/divine-mercy-chaplet/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="How to Pray the Divine Mercy Chaplet: Complete Guide"
-        description="Learn how to pray the Divine Mercy Chaplet step by step. Complete guide with prayers, history, and the significance of the 3pm Hour of Mercy as revealed to St. Faustina."
+        title="Divine Mercy Chaplet: How to Pray (Full Guide)"
+        description="How to pray the Divine Mercy Chaplet step by step — full prayers, rosary beads, 3 o'clock Hour of Mercy, and St. Faustina's promises."
         url="https://guidecatholic.com/blog/divine-mercy-chaplet/"
       />
       <BreadcrumbSchema
@@ -84,7 +84,7 @@ export default function DivineMercyChaplet() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Divine Mercy: The "Emergency Prayer" for a Wounded World
+                Divine Mercy Chaplet: How to Pray (Full Guide)
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">

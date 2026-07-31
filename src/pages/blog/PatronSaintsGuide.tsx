@@ -15,15 +15,15 @@ export default function PatronSaintsGuide() {
   return (
     <>
       <Helmet>
-        <title>Patron Saints: What They Are, How They Help & How to Find Yours | Guide Catholic</title>
-        <meta name="description" content="What are patron saints? How do they intercede for us? How do you find your patron saint? Complete Catholic guide to patron saints, their patronages, and how to develop devotion to them." />
-        <meta name="keywords" content="patron saints, what is a patron saint, how to find patron saint, patron saint meaning, catholic patron saints, patron saint intercession, choosing a patron saint" />
+        <title>Patron Saints List: Find Your Saint by Need (Catholic) | Guide Catholic</title>
+        <meta name="description" content="What are patron saints? Browse Catholic patron saints by cause, learn how they intercede, and find your patron saint for work, health, family, or vocation." />
+        <meta name="keywords" content="patron saints, list of patron saints, catholic patron saints, what is a patron saint, how to find patron saint, patron saint meaning, patron saint intercession" />
         <link rel="canonical" href="https://guidecatholic.com/blog/patron-saints-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Patron Saints: What They Are, How They Help & How to Find Yours"
-        description="What are patron saints? How do they intercede for us? How do you find your patron saint? Complete Catholic guide to patron saints, their patronages, and how to develop devotion to them."
+        title="Patron Saints List: Find Your Saint by Need (Catholic)"
+        description="What are patron saints? Browse Catholic patron saints by cause, learn how they intercede, and find your patron saint for work, health, family, or vocation."
         url="https://guidecatholic.com/blog/patron-saints-guide/"
       />
       <BreadcrumbSchema
@@ -61,7 +61,7 @@ export default function PatronSaintsGuide() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Patron Saints: What They Are, How They Help & How to Find Yours
+                Patron Saints List: Find Your Saint by Need (Catholic)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 Every Catholic has a patron saint — a heavenly friend and intercessor who accompanies them through life. This guide explains what patron saints are, how they intercede for us, and how to find and develop a relationship with yours.

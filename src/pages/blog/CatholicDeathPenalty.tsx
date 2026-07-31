@@ -15,15 +15,15 @@ export default function CatholicDeathPenalty() {
   return (
     <>
       <Helmet>
-        <title>Catholic Teaching on the Death Penalty: What the Church Says Today | Guide Catholic</title>
-        <meta name="description" content="Learn the Catholic Church's teaching on the death penalty, the 2018 revision of CCC 2267, why the teaching developed, the principle of human dignity, and how Catholics should engage with this issue." />
-        <meta name="keywords" content="catholic teaching on death penalty, catholic church death penalty, catechism death penalty, pope francis death penalty, capital punishment catholic" />
+        <title>Catholic Teaching on the Death Penalty (CCC 2267) | Guide Catholic</title>
+        <meta name="description" content="What do Catholics believe about the death penalty? Church teaching today, CCC 2267 revision, human dignity, and how the doctrine developed." />
+        <meta name="keywords" content="catholic beliefs death penalty, catholic teaching on death penalty, catholic church death penalty, catechism death penalty, pope francis death penalty, capital punishment catholic, ccc 2267" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-death-penalty/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
-          title="Catholic Teaching on the Death Penalty: What the Church Says Today"
-          description="Learn the Catholic Church's teaching on the death penalty, the 2018 revision of CCC 2267, why the teaching developed, the principle of human dignity, and how Catholics should engage with this issue."
+          title="Catholic Teaching on the Death Penalty (CCC 2267)"
+          description="What do Catholics believe about the death penalty? Church teaching today, CCC 2267 revision, human dignity, and how the doctrine developed."
           url="https://guidecatholic.com/blog/catholic-teaching-on-death-penalty/"
         />
       <BreadcrumbSchema
@@ -72,7 +72,7 @@ export default function CatholicDeathPenalty() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Catholic Teaching on the Death Penalty: What the Church Says Today
+                Catholic Teaching on the Death Penalty (CCC 2267)
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">

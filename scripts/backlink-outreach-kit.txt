@@ -1,0 +1,137 @@
+GUIDE CATHOLIC — BACKLINK OUTREACH KIT
+Goal: diversify beyond ~20 referring domains (Authority Score 8 → 20+)
+Target: 2–4 new quality links per month from distinct domains
+
+═══════════════════════════════════════════════════════════════
+1) LINKABLE ASSETS (pitch these URLs)
+═══════════════════════════════════════════════════════════════
+Primary (highest link worth):
+- https://guidecatholic.com/blog/catholic-saints-list/
+  Angle: "complete patron saints list by need"
+- https://guidecatholic.com/blog/catholic-bible-verses/
+  Angle: "50 essential Catholic Bible verses by theme"
+- https://guidecatholic.com/blog/list-of-all-popes-catholic-complete-guide/
+  Angle: "full pope list Peter → Leo XIV"
+- https://guidecatholic.com/blog/complete-rosary-guide/
+  Angle: "all 20 mysteries + how to pray"
+- https://guidecatholic.com/quiz-intro/
+  Angle: "free Catholic life assessment (no account)"
+
+Secondary (seasonal / topical):
+- Ash Wednesday 2026, Advent, Lent guides
+- St. Joseph house novena / legal cases novena
+- Do animals go to heaven (Catholic)
+- Saint of the day pages (for parish calendars)
+
+═══════════════════════════════════════════════════════════════
+2) TARGET CATEGORIES (diversify domains)
+═══════════════════════════════════════════════════════════════
+A. Parish / diocesan websites (resource pages, bulletins)
+B. Catholic blogs & magazines (guest post or resource roundup)
+C. Homeschool / faith formation sites
+D. Prayer app / Catholic software blogs (resource lists)
+E. Local Catholic radio / podcast show notes
+F. University Newman Center resource pages
+G. Wikipedia / Wikimedia — only with secondary sources (hard; optional)
+H. HARO / Connectively / journalist queries on faith topics
+
+Avoid: PBN, paid link farms, irrelevant directories, exact-match spam.
+
+═══════════════════════════════════════════════════════════════
+3) EMAIL TEMPLATES (copy-paste)
+═══════════════════════════════════════════════════════════════
+
+--- TEMPLATE A: Resource page / roundup ---
+Subject: Resource for your [patron saints / Catholic prayer] page?
+
+Hi [Name],
+
+I noticed your page on [topic] at [their URL] — really helpful for readers.
+
+We published a free guide that your audience might find useful:
+[ASSET TITLE]
+[URL]
+
+It includes [1–2 concrete benefits: tables by patronage / full prayer text / RSV-CE verses].
+
+If it fits, a mention or link on your resource list would mean a lot.
+Happy to return the favor if you have a page we should feature.
+
+Grateful for your ministry,
+[Your name]
+Guide Catholic — https://guidecatholic.com
+
+--- TEMPLATE B: Parish / diocese ---
+Subject: Free patron-saints / prayer guides for your website
+
+Dear [Pastor / Communications],
+
+Guide Catholic publishes free English guides for Catholic formation
+(saints, novenas, Scripture, sacraments). No paywall.
+
+Two pages parishioners often use:
+1) Patron saints by need — [URL]
+2) How to pray the Rosary — [URL]
+
+You are welcome to link them from your “Resources” or bulletin page.
+We do not ask for payment or affiliation.
+
+Thank you for considering this,
+[Your name]
+guidecatholic.com
+
+--- TEMPLATE C: Guest post pitch ---
+Subject: Guest post idea: [topic] for [their site]
+
+Hi [Name],
+
+I’m [name] from Guide Catholic. We write catechesis-style guides for
+English-speaking Catholics (US focus).
+
+I’d love to contribute a guest article for [their site], e.g.:
+“[Working title — 1 idea]”
+or
+“[Working title — 2 idea]”
+
+Original, unpublished, ~1,200–1,800 words, with 1–2 contextual links
+to our free resources. Happy to match your style guide.
+
+Would that interest you?
+[Your name]
+https://guidecatholic.com
+
+--- TEMPLATE D: Broken-link / resource update ---
+Subject: Broken link on [their page title]?
+
+Hi [Name],
+
+While reading [their URL], I noticed a link to [dead resource] returns 404.
+
+We have an updated free guide on the same topic:
+[URL]
+
+Feel free to use it as a replacement if helpful — no strings attached.
+
+Thanks,
+[Your name]
+
+═══════════════════════════════════════════════════════════════
+4) 30-DAY SPRINT (realistic)
+═══════════════════════════════════════════════════════════════
+Week 1: List 40 targets (10 parish, 10 blogs, 10 homeschool, 10 apps/media)
+Week 2: Send 20 personalized emails (Template A/B)
+Week 3: Send 20 more + 5 guest-post pitches
+Week 4: Follow up non-replies once; publish 1 “linkable” update on saints list
+Track in a sheet: Domain | Contact | Date sent | Status | Link live?
+
+Success metric: +5–10 new referring domains in 90 days
+(better than chasing raw backlink count)
+
+═══════════════════════════════════════════════════════════════
+5) WHAT NOT TO DO
+═══════════════════════════════════════════════════════════════
+- Do not buy bulk backlinks
+- Do not exchange links with irrelevant sites
+- Do not spam the same template without personalization
+- Do not ask Wikipedia editors for promotional links
+- Prefer editorial links over footer/sidebar sitewide links
