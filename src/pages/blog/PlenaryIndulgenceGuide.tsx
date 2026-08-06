@@ -139,7 +139,40 @@ export default function PlenaryIndulgenceGuide() {
                                     — Pope Francis
                                 </p>
                             </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Temporal Punishment?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
+                                When mortal sin is forgiven in Confession, guilt is erased — but a &quot;debt of justice&quot; often remains. Think of a child who breaks a window: the parent forgives, yet the window still needs repair. Temporal punishment is that repair: either in this life through penance, suffering, and good works, or in Purgatory after death. Indulgences draw on the infinite merits of Christ and the saints to remit that punishment without denying the seriousness of sin.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Timing Confession and Communion</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
+                                The Church allows one sacramental Confession to cover several indulgences gained within about 20 days (before or after the indulgenced act). Holy Communion, however, should be received on the day you perform the work — or as close as possible. Praying for the Pope&apos;s intentions means at least one Our Father and one Hail Mary (or equivalent). Many Catholics combine all four conditions on the same day they visit a jubilee church: Confession in the morning, pilgrimage and adoration at midday, Mass and Communion in the afternoon.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Everyday Indulgenced Acts (Beyond Jubilee)</h2>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                <li><strong>Adoration of the Blessed Sacrament</strong> for at least one half hour.</li>
+                <li><strong>Stations of the Cross</strong> in a church or oratory.</li>
+                <li><strong>Rosary</strong> recited in a church or with a family group.</li>
+                <li><strong>Reading Scripture</strong> for at least one half hour.</li>
+                <li><strong>Devout visit to a cemetery</strong> (especially November 1–8, applicable to souls in Purgatory).</li>
+              </ul>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
+                                Partial indulgences attach to many prayers (including the Sign of the Cross and ejaculations). They remit part of temporal punishment and are worth pursuing even when a plenary indulgence is not possible — for example, if attachment to venial sin blocks the plenary grace.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Applying an Indulgence for the Holy Souls</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
+                                You may offer a plenary indulgence for a deceased person by way of suffrage — intercession on their behalf. You cannot gain an indulgence for another living person. When offering it for Purgatory, explicitly intend: &quot;I offer this indulgence for [name] or for the souls most in need.&quot; November, All Souls&apos; Day (November 2), and anniversaries of death are traditional times for this act of charity. One plenary indulgence per day can normally be gained for yourself; offerings for the dead follow the same daily limit unless a special decree says otherwise.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Mistakes to Avoid</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
+                                Do not treat indulgences as &quot;sin erasers&quot; without Confession — they never forgive unconfessed mortal sin. Do not assume mechanical completion of a checklist without interior detachment from sin. Do not confuse indulgences with superstition or &quot;buying&quot; grace; the Church condemned simony at Trent. Finally, do not neglect ordinary holiness: daily prayer, Sunday Mass, and charity remain the foundation; indulgences crown a life already turned toward God.
+                            </LinkedText>
+
                         </div>
+
 
                         <BlogFAQ faqs={[
                           {

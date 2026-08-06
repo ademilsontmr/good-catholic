@@ -164,8 +164,21 @@ export default function IsTheCatholicChurchTrue() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "To be deep in history is to cease to be Protestant." — St. John Henry Newman
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catholic Church Teaches</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">Is the Catholic Church the true Church? Learn about the four marks of the Church, apostolic succession, the primacy of Peter, and historical continuity. The Catechism of the Catholic Church gathers this teaching for the whole People of God. Catholics look to Scripture, Tradition, and the Magisterium together — not private opinion or trending ideologies — when forming conscience.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Misunderstandings</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">Secular media and social debate often distort Catholic doctrine. Non-Catholics may assume the Church teaches what it does not; Catholics may not have heard clear catechesis since childhood. This article states the Church&apos;s position plainly so you can discuss it charitably with family, coworkers, or friends who ask honest questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why This Doctrine Matters for Daily Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">Faith is not an abstract exam to pass. What the Church teaches about The One, Holy, Catholic, and Apostolic C shapes how Catholics worship, raise children, vote, work, and confess sin. Truth frees — even when it challenges comfort.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Living the Faith With Courage</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">If this teaching calls you to change, begin with prayer and Confession, not guilt alone. Speak with a priest or trusted catechist if you are wrestling with a hard moral question. The Church exists to lead souls to Christ, not to win arguments.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -179,7 +192,9 @@ export default function IsTheCatholicChurchTrue() {
               {
                 question: "Can non-Catholics be saved?",
                 answer: "The Church teaches that those who, through no fault of their own, do not know the Gospel or the Church, but seek God with a sincere heart, can achieve salvation. However, all salvation flows through Christ, and Christ is united to His Body, which is the Church."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="is-the-catholic-church-the-true-church" />

@@ -189,6 +189,19 @@ export default function HealingThroughFaith() {
             </LinkedText>
 
             <QuizCTA />
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">Readers often search for Healing Through Faith: Catholic Prayers for Physical and Emotional Recovery during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">Discover how faith brings healing. Learn Catholic prayers for healing, the ministry of the sick, sacraments of healing, and biblical foundations for divine healing. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
 
             <BlogFAQ
               faqs={[
@@ -226,8 +239,21 @@ export default function HealingThroughFaith() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Ask and it will be given to you; seek and you will find." - Matthew 7:7
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">Discover how faith brings healing. Learn Catholic prayers for healing, the ministry of the sick, sacraments of healing, and biblical foundations for divine healing. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Healing Through Faith, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
             </div>
+
+              </div>
 
             <RelatedArticles currentSlug="healing-through-faith" />
 

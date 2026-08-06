@@ -144,7 +144,36 @@ export default function FaithMentalHealth() {
                                     — St. Teresa of Ávila
                                 </p>
                             </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scrupulosity vs. Clinical Anxiety</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
+                                Not every anxious thought is a spiritual problem. Scrupulosity — obsessive fear of sinning or invalid sacraments — can masquerade as piety but often worsens with excessive self-examination. A therapist trained in OCD can help distinguish irrational compulsions from genuine moral conscience. If you confess the same &quot;sin&quot; repeatedly or avoid Communion despite absolution, speak with a priest experienced in scrupulosity and consider professional evaluation. True contrition trusts mercy; scrupulosity refuses it.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Seek Professional Help</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
+                                Seek a licensed counselor or psychiatrist if anxiety or depression lasts more than two weeks, disrupts sleep or work, includes panic attacks, or brings thoughts of self-harm. Catholic Charities and many dioceses maintain referral lists of faith-friendly clinicians. Medication is not a failure of trust in God any more than insulin is for diabetes. Pope Francis has repeatedly encouraged accompaniment by mental health professionals.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Patron Saints and Catholic Resources</h2>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                <li><strong>St. Dymphna</strong> — patron of those with nervous and mental disorders; churches in Ohio and elsewhere offer prayer and support.</li>
+                <li><strong>St. Oscar Romero</strong> — endured persecution and depression yet persevered in hope.</li>
+                <li><strong>Divine Mercy chaplet</strong> — especially at 3 p.m., for souls overwhelmed by fear.</li>
+                <li><strong>Parish bereavement or Stephen Ministry</strong> — trained lay companions for grief and crisis.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Weekly Rhythm for Calm</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
+                                Sunday Mass anchors the week in truth larger than your worries. Daily: five minutes of silence before a crucifix; one decade of the Rosary on the commute; one gratitude note before bed (Ignatian examen). Weekly: Confession if needed; one hour without screens; a walk outdoors as prayer (&quot;God walks with me&quot;). Monthly: check in with a spiritual director or trusted friend. These habits do not replace therapy — they give the soul structure while healing proceeds.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Supporting a Loved One</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-mental-health">
+                                Avoid platitudes (&quot;just pray more&quot; or &quot;you lack faith&quot;). Listen without fixing. Offer to drive them to Mass or therapy. Pray for them, not at them. Learn the national Suicide and Crisis Lifeline (988 in the U.S.). Remind them that the Church walks with sufferers — Christ Himself experienced anguish in Gethsemane and does not despise a broken heart.
+                            </LinkedText>
+
                         </div>
+
 
                         <BlogFAQ faqs={[
                           {

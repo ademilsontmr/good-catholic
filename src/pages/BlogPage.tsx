@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+import { BlogCategoryFilter } from "@/components/blog/BlogCategoryFilter";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, useNavigate } from "react-router-dom";
 import { Cross, Calendar, Clock, Heart, BookOpen, Church, Users, Flame, Sun, MapPin, HeartPulse, Wind, Cloud, Brain, Shield, Droplets, Home, ChevronLeft, ChevronRight, Ghost, Microscope, Moon, Sparkles, Star, Hand, HelpCircle, Sword, UserCheck, Coins, Globe, Utensils, Layers, ListOrdered, CircleDot, Crown, Mountain, HandHeart, HeartHandshake, Music, Music2, TreePine, Scale, Bird, Flower2, Compass, Briefcase, Link2, Search, Baby, ShieldAlert, GraduationCap, Gavel, HeartCrack, Zap, type LucideIcon } from "lucide-react";
@@ -29,6 +30,78 @@ const trimMetaDescription = (description: string) => {
 };
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1344,
+    slug: "200th-pope-who-was-it",
+    title: "Who Was the 200th Pope? Bl. Urban V (1362–1370)",
+    excerpt: "The 200th pope was Blessed Urban V — Benedictine monk who tried to return the papacy from Avignon to Rome. Quick facts, timeline, and full biography link.",
+    date: "2026-08-06",
+    readTime: "12 min",
+    category: "Catholic History",
+    icon: Crown,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-700"
+  },
+  {
+    id: 1343,
+    slug: "how-to-find-my-catholic-parish",
+    title: "How Do I Find My Catholic Parish? (US Guide 2026)",
+    excerpt: "Find your Catholic parish by ZIP code, register after moving, and know the difference between territorial parish and where you attend Mass.",
+    date: "2026-08-06",
+    readTime: "11 min",
+    category: "Becoming Catholic",
+    icon: MapPin,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-700"
+  },
+  {
+    id: 1342,
+    slug: "saint-who-advised-emperors",
+    title: "Saint Who Advised Emperors: St. Ambrose & St. John of Egypt",
+    excerpt: "Which saint advised emperors? St. Ambrose corrected Theodosius; St. John of Egypt counseled Byzantine rulers. Catholic guide to saints who spoke truth to power.",
+    date: "2026-08-06",
+    readTime: "14 min",
+    category: "Saints & Intercession",
+    icon: UserCheck,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1341,
+    slug: "feast-of-st-michael-the-archangel-2026",
+    title: "Feast of St. Michael the Archangel 2026: Date & Guide",
+    excerpt: "Feast of St. Michael the Archangel 2026 is September 29 (Tuesday). Mass, St. Michael Prayer, Michaelmas, and how U.S. Catholics celebrate.",
+    date: "2026-08-06",
+    readTime: "12 min",
+    category: "Saints & Feast Days",
+    icon: Shield,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-700"
+  },
+  {
+    id: 1340,
+    slug: "michaelmas-2026-when-is-it",
+    title: "Michaelmas 2026: When Is It? (September 29 Date)",
+    excerpt: "Michaelmas 2026 is Tuesday, September 29 — the Feast of St. Michael, Gabriel & Raphael. Exact date, meaning, and how to celebrate.",
+    date: "2026-08-06",
+    readTime: "10 min",
+    category: "Liturgy & Worship",
+    icon: Calendar,
+    bgColor: "bg-indigo-100",
+    iconColor: "text-indigo-700"
+  },
+  {
+    id: 1339,
+    slug: "st-michaels-lent-novena-prayer-guide-us-2026",
+    title: "St. Michael's Lent Novena: 40-Day Catholic Prayer Guide (US 2026)",
+    excerpt: "St. Michael's Lent 2026 — August 15 to September 29. U.S. guide to the 40-day novena, fasting, spiritual warfare, calendar, and link to the full daily prayer text.",
+    date: "2026-08-06",
+    readTime: "20 min",
+    category: "Prayers & Devotions",
+    icon: Shield,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-700"
+  },
   {
     id: 1338,
     slug: "holy-days-of-obligation-2026-usa",
@@ -3859,8 +3932,17 @@ export default function BlogPage() {
   const currentPage = Number.isNaN(parsedPage) ? 1 : parsedPage;
   const postsPerPage = 9;
   
-  const categories = ["All", ...Array.from(new Set(blogPosts.map(post => getCanonicalCategory(post.category))))];
-  
+  const categoryItems = useMemo(() => {
+    const counts = new Map<string, number>();
+    blogPosts.forEach((post) => {
+      const category = getCanonicalCategory(post.category);
+      counts.set(category, (counts.get(category) ?? 0) + 1);
+    });
+    return Array.from(counts.entries())
+      .map(([name, count]) => ({ name, count }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+  }, []);
+
   // Sort posts by date (most recent first), then by id descending as tiebreaker
   const sortedPosts = [...blogPosts].sort((a, b) => {
     const dateDiff = new Date(b.date).getTime() - new Date(a.date).getTime();
@@ -3954,24 +4036,12 @@ export default function BlogPage() {
               </p>
             </div>
 
-            {/* Category filter — horizontally scrollable on mobile */}
-            <div className="overflow-x-auto pb-2 mb-10 -mx-4 px-4">
-              <div className="flex gap-2 w-max mx-auto">
-                {categories.map((category) => (
-                  <button
-                    key={category}
-                    onClick={() => handleCategoryChange(category)}
-                    className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
-                      selectedCategory === category
-                        ? "bg-accent text-button-text"
-                        : "bg-background-muted text-text-muted hover:bg-accent/10"
-                    }`}
-                  >
-                    {category}
-                  </button>
-                ))}
-              </div>
-            </div>
+            <BlogCategoryFilter
+              categories={categoryItems}
+              selectedCategory={selectedCategory}
+              onCategoryChange={handleCategoryChange}
+              filteredCount={filteredPosts.length}
+            />
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-12">
               {currentPosts.map((post) => {

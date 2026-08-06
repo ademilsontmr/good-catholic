@@ -172,8 +172,21 @@ export default function MiraculousMedalGuide() {
                 <p className="text-text italic leading-relaxed">
                   "The medal is the silent prayer that we carry with us, a sign that we always belong to the Mother of God."
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">Discover the complete history of the Miraculous Medal, its symbols, the apparitions to St. Catherine Labouré, and why millions of Catholics wear it today. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miraculous-medal-guide">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -187,7 +200,9 @@ export default function MiraculousMedalGuide() {
               {
                 question: "What should I do if my medal breaks or I find an old one?",
                 answer: "Sacramentals that are broken or no longer usable should be buried or burned, not thrown in the trash. This honors the blessing they once received."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="miraculous-medal-guide" />

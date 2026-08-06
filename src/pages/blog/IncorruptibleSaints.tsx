@@ -156,8 +156,21 @@ export default function IncorruptibleSaints() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Death is swallowed up in victory. O death, where is thy sting?" — 1 Corinthians 15:55
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life and Mission</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">What are Incorruptible Saints? Discover the miracle of Catholic saints whose bodies have not decomposed for centuries, the scientific studies, and what it means for our faith. Saints are not distant legends — they are men and women who cooperated with grace in real historical circumstances. Their stories show that holiness is possible in ordinary work, family life, persecution, and service.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Seek This Saint&apos;s Intercession</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">The Church teaches that saints in heaven remain part of the communion of believers (CCC 954–959). We do not worship them; we ask their prayers as we might ask a friend on earth. Patron saints often connect to specific needs — illness, work, conversion, or protection — because of how they lived and died.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Days and Parish Devotion in the U.S.</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">Parishes across the United States celebrate saint feast days with special Masses, novenas, and food traditions tied to immigrant communities. Mark the feast on your calendar, read the Mass readings that day, and consider one concrete act of charity in the saint&apos;s honor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Growing in Friendship With the Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">Choose one saint to \"befriend\" this year: read a short biography, pray a novena before their feast, and ask how their virtues — courage, humility, chastity, or mercy — apply to your state in life. Holiness spreads through imitation and intercession, not superstition.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -171,7 +184,9 @@ export default function IncorruptibleSaints() {
               {
                 question: "Can anyone's body stay incorrupt naturally?",
                 answer: "Yes, in rare cases of saponification (body fat turning to wax) or extreme dryness. However, these natural phenomena result in a very different appearance—the bodies are usually gray, oily, or shriveled, and they lack the flexibility and floral fragrance found in the miraculous cases."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="incorruptible-saints-miracle" />

@@ -10,6 +10,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
 
 export default function SaintMichaelArchangel() {
   return (
@@ -89,6 +90,8 @@ export default function SaintMichaelArchangel() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Michael the Archangel is leader of the heavenly armies — his name means &quot;Who is like God?&quot; Scripture shows him defeating Satan (Revelation 12); Catholics pray the St. Michael prayer after Mass, in spiritual warfare, and on his feast September 29.</p>
               </div>
+
+              <StMichaelCboCTA />
 
               <p className="text-text leading-relaxed mb-6">
                 In an age of increasing spiritual disorientation, the figure of St. Michael the Archangel stands as a beacon of absolute loyalty to the Creator. While modern secularism often reduces angels to "decorative" figures, Catholic theology presents him as a powerful, distinct person of pure spirit — the <strong>General of the Armies of the Lord</strong>.

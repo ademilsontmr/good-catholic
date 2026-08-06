@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { PopesTable } from "@/components/blog/PopesTable";
 import { TOTAL_POPES } from "@/data/catholicPopes";
+import { POPE_TABLE_SOURCE, POPE_TABLE_UPDATED } from "@/lib/popeTableData";
 
 export default function ListOfAllPopesCatholicGuide() {
   return (
@@ -125,11 +126,22 @@ export default function ListOfAllPopesCatholicGuide() {
                 An antipope is a rival claimant during a schism — not merely a bad pope, but someone the Church ultimately judged not to hold the legitimate succession. The Western Schism (1378–1417) saw multiple claimants; the Council of Constance healed the division. The list below follows the <em>Annuario Pontificio</em> and excludes antipopes. Studying them helps explain why numbering occasionally skips or repeats (e.g., Felix II vs. Felix III).
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Complete List of All {TOTAL_POPES} Popes (Searchable)</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Complete List of All {TOTAL_POPES} Popes (Searchable Table)</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="list-of-all-popes-catholic-complete-guide">
-                The table below lists every pope in chronological order from St. Peter (1º) to Pope Leo XIV (267º). Click any name to open a full biography article with pontificate highlights, legacy, and FAQs. Use the search box to find a pope by name, number, or reign period.
+                The table below lists every pope in chronological order from St. Peter (1º) to Pope Leo XIV (267º), with pontificate dates, birthplace, duration of reign, and portrait when available. Data is synchronized from the{" "}
+                <a href={POPE_TABLE_SOURCE} target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2">
+                  Wikipedia list of popes (Portuguese)
+                </a>
+                {" "}(updated {POPE_TABLE_UPDATED}) and merged with our English biographies. Click any name to open a full article with highlights, legacy, and FAQs.
               </LinkedText>
               <PopesTable />
+              <p className="text-xs text-text-muted mt-2 mb-6">
+                Source:{" "}
+                <a href={POPE_TABLE_SOURCE} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+                  pt.wikipedia.org/wiki/Lista_de_papas
+                </a>
+                . Images via Wikimedia Commons. Papal names and article links are in English.
+              </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How a Pope Is Elected Today</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="list-of-all-popes-catholic-complete-guide">

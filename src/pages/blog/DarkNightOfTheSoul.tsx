@@ -167,8 +167,21 @@ export default function DarkNightOfTheSoul() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "The light of God is so bright that it blinds the weak eyes of the soul, creating the appearance of darkness. The Night is actually God's light entering the soul." — St. John of the Cross
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dark-night-of-the-soul-catholic">Learn what the dark night of the soul is in Catholic spirituality. Discover St. John of the Cross&apos;s teaching, the two dark nights, how to distinguish it from depression, and how to navigate it. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dark-night-of-the-soul-catholic">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dark-night-of-the-soul-catholic">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dark-night-of-the-soul-catholic">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -182,7 +195,9 @@ export default function DarkNightOfTheSoul() {
               {
                 question: "Is the Dark Night dangerous for my faith?",
                 answer: "If handled alone, it can lead to despair. However, if handled with guidance and perseverance, it is the safest 'shortcut' to the highest levels of holiness. It is the fire that burns away the dross to reveal the gold."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="dark-night-of-the-soul-catholic" />

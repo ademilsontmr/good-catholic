@@ -10,6 +10,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
 
 export default function CatholicPrayerForProtection() {
   return (
@@ -90,6 +91,8 @@ export default function CatholicPrayerForProtection() {
                   Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray; and do Thou, O Prince of the Heavenly Host, by the power of God, cast into hell Satan and all the evil spirits who prowl about the world seeking the ruin of souls. Amen.
                 </p>
               </div>
+
+              <StMichaelCboCTA />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">2. Saint Patrick's Breastplate (Lorica)</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">

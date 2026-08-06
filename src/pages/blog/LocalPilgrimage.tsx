@@ -140,6 +140,35 @@ export default function LocalPilgrimage() {
                                     — Christian Popular Wisdom
                                 </p>
                             </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Major U.S. Pilgrimage Destinations</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
+                                You do not need a passport to be a pilgrim. The United States has nationally recognized shrines that draw millions of faithful each year. The Basilica of the National Shrine of the Immaculate Conception in Washington, D.C., is the largest Catholic church in North America and a natural destination for diocesan groups. The Shrine of Our Lady of Guadalupe in La Crosse, Wisconsin, offers a full pilgrimage route with Stations of the Cross on a wooded hill. Emmitsburg, Maryland, honors St. Elizabeth Ann Seton; Auriesville, New York, marks the birthplace of St. Kateri Tekakwitha. Many dioceses also designate a cathedral or mission church as a jubilee site — check your bishop&apos;s website before planning.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Walking vs. Bus: Choosing Your Format</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
+                                Walking pilgrimages (10–25 miles over one or two days) unite physical sacrifice with prayer in a way buses cannot replicate. Assign a chaplain or lay leader to pause every mile for a decade of the Rosary. Bus pilgrimages work better for elderly parishioners, families with small children, or destinations more than 50 miles away. Either format can be valid if the interior disposition is prayer, not tourism. Require participants to fast from phones during travel except for emergencies.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Checklist for Organizers</h2>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                <li><strong>6–8 weeks before:</strong> Confirm destination permits group Mass or adoration; reserve a priest if needed.</li>
+                <li><strong>4 weeks before:</strong> Distribute a prayer booklet, intention cards, and a packing list (rosary, water, sun protection, modest dress).</li>
+                <li><strong>1 week before:</strong> Announce a parish-wide opportunity for Confession before departure.</li>
+                <li><strong>Day of:</strong> Opening blessing, designated medic, and a single meeting point for stragglers.</li>
+                <li><strong>After:</strong> Send a thank-you note to the shrine rector and publish one photo with a spiritual reflection — not a vacation album.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Connecting Pilgrimage to Indulgences</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
+                                A properly organized pilgrimage to a designated jubilee church can satisfy the &quot;pious visit&quot; or &quot;pilgrimage&quot; work for a plenary indulgence, provided the usual conditions are met: sacramental Confession, Eucharistic Communion, prayer for the Pope&apos;s intentions, and complete detachment from sin. Remind pilgrims that the indulgence is a gift of the Church&apos;s treasury — not a reward for endurance hiking. See our plenary indulgence guide for the full conditions and how to apply the grace for a soul in Purgatory.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Safety and Liability for Parish Groups</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="local-pilgrimage">
+                                Coordinate with your parish insurance or diocesan risk office before a walking pilgrimage. Require signed waivers for minors, assign a sweep vehicle on long routes, and cap group size so the chaplain can lead prayer without losing stragglers. Hydration stops and a first-aid kit are non-negotiable. Spiritual fruit should never come at the cost of preventable injury. Ask your diocese whether the pilgrimage qualifies as a jubilee event — some bishops publish maps of approved churches on their websites each Lent.
+                            </LinkedText>
+
                         </div>
 
                         <BlogFAQ faqs={[

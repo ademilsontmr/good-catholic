@@ -147,7 +147,42 @@ export default function ExaminationOfConscience() {
                                     — Saint John Chrysostom
                                 </p>
                             </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mortal vs. Venial Sin: What to Confess</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
+                                Mortal sin destroys charity in the soul and requires Confession before receiving Communion. It involves grave matter, full knowledge, and deliberate consent. Venial sin weakens charity but does not cut you off from grace. In Confession, all mortal sins must be confessed in kind and number (as far as you can recall). Venial sins may be confessed generally (&quot;I was impatient with my children many times&quot;) or omitted — though confessing them strengthens humility. When unsure whether a sin was mortal, confess it anyway; the priest will help you discern.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Precepts of the Church</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
+                                Beyond the Ten Commandments, review the six precepts: attend Mass on Sundays and holy days; confess serious sins at least once a year; receive Communion at least once during Easter; observe days of fast and abstinence; help provide for the Church&apos;s needs; and follow marriage laws. Ask: Did I miss Mass without serious reason? Did I eat meat on Ash Wednesday or Good Friday? Did I support my parish financially according to my means?
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Ignatian Daily Examen (Five Steps)</h2>
+              <ol className="list-decimal list-inside text-text space-y-2 mb-6">
+                <li><strong>Gratitude:</strong> Thank God for concrete gifts of the day.</li>
+                <li><strong>Petition:</strong> Ask the Holy Spirit to show where you fell short.</li>
+                <li><strong>Review:</strong> Walk through the day hour by hour — meetings, screens, conversations.</li>
+                <li><strong>Sorrow:</strong> Express regret without despair; trust in mercy.</li>
+                <li><strong>Resolution:</strong> Choose one practical change for tomorrow.</li>
+              </ol>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
+                                St. Ignatius taught this examen twice daily — at noon and before sleep. It complements, but does not replace, the thorough review before Confession.
+                            </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Sample Opening Prayer</h2>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
+                <p className="text-text italic leading-relaxed">
+                                  &quot;Lord, You know all things. You see my heart. I come before You as I am — with my failures and my desire to change. Illuminate what I have hidden from myself. Give me courage to speak honestly to Your priest and grace to sin no more. Mary, Mother of Mercy, pray for me.&quot;
+                                </p>
+                              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">In the Confessional: What to Say</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
+                                Begin with the Sign of the Cross. Say how long since your last Confession (&quot;Bless me, Father, for I have sinned. It has been three months since my last confession&quot;). List mortal sins clearly and briefly. Mention patterns if relevant (&quot;I struggle with pornography&quot; or &quot;I have been avoiding my elderly parent&quot;). Listen to the priest&apos;s counsel, pray the Act of Contrition he assigns, and accept your penance. Leave resolved to avoid near occasions of sin — the examination continues in daily life, not only before Confession.
+                            </LinkedText>
+
                         </div>
+
 
                         <BlogFAQ faqs={[
                           {

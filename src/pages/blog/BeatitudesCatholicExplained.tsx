@@ -99,6 +99,19 @@ export default function BeatitudesCatholicExplained() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Hear the Beatitudes</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beatitudes-catholic-explained">All Saints Day, funerals of the faithful, RCIA sessions, and Confirmation preparation regularly feature Matthew 5. Many U.S. dioceses use the Beatitudes as a framework for social teaching — linking hunger for righteousness to care for immigrants, the unborn, and the poor. Memorizing all eight is a traditional Catholic school exercise still worth doing as an adult.</LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catholic Church Teaches</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beatitudes-catholic-explained">The Beatitudes from Matthew 5 explained for Catholics — all eight blessings, what poor in spirit and peacemakers mean, and how to live the Beatitudes in American life today. The Catechism of the Catholic Church gathers this teaching for the whole People of God. Catholics look to Scripture, Tradition, and the Magisterium together — not private opinion or trending ideologies — when forming conscience.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Misunderstandings</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beatitudes-catholic-explained">Secular media and social debate often distort Catholic doctrine. Non-Catholics may assume the Church teaches what it does not; Catholics may not have heard clear catechesis since childhood. This article states the Church&apos;s position plainly so you can discuss it charitably with family, coworkers, or friends who ask honest questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why This Doctrine Matters for Daily Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beatitudes-catholic-explained">Faith is not an abstract exam to pass. What the Church teaches about What Are the Beatitudes? Catholic Meanin shapes how Catholics worship, raise children, vote, work, and confess sin. Truth frees — even when it challenges comfort.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Living the Faith With Courage</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beatitudes-catholic-explained">If this teaching calls you to change, begin with prayer and Confession, not guilt alone. Speak with a priest or trusted catechist if you are wrestling with a hard moral question. The Church exists to lead souls to Christ, not to win arguments.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Where are the Beatitudes in the Bible?", answer: "They are in Matthew 5:3–10, at the beginning of the Sermon on the Mount. Luke 6:20–26 presents a similar list with some differences (the 'Woes')." },
@@ -106,7 +119,9 @@ export default function BeatitudesCatholicExplained() {
               { question: "When do Catholics hear the Beatitudes?", answer: "They appear in the Lectionary, especially on All Saints Day and related feasts, and are studied in RCIA, Confirmation prep, and Bible study." },
               { question: "What does poor in spirit mean?", answer: "It is not poverty alone but spiritual humility — recognizing that we need God for everything and cannot save ourselves." },
               { question: "How many Beatitudes are there?", answer: "Matthew lists eight. Some traditions also note a ninth beatitude in Matthew 5:11–12 about persecution for Jesus' name." },
-              { question: "Did Jesus live the Beatitudes?", answer: "Yes. The Church teaches that Jesus is the perfect embodiment of every beatitude — meek, merciful, pure of heart, and persecuted for righteousness." },
+              { question: "Did Jesus live the Beatitudes?", answer: "Yes. The Church teaches that Jesus is the perfect embodiment of every beatitude — meek, merciful, pure of heart, and persecuted for righteousness." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="beatitudes-catholic-explained" />
             <ArticleBottomCTA title="Grow in Catholic faith" description="Receive a personalized spiritual growth plan." />

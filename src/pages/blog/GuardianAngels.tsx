@@ -173,8 +173,21 @@ export default function GuardianAngels() {
                   <li><strong>Perfect Memory:</strong> An angel never forgets a single detail of your life.</li>
                   <li><strong>Instant Communication:</strong> Angels communicate with each other "through the will," meaning the transfer of information is instantaneous across all distances.</li>
                 </ul>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="guardian-angels-guide">Do you have a Guardian Angel? Discover the Catholic teaching on angels, the nine celestial choirs, and how to build a relationship with your divine protector. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="guardian-angels-guide">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="guardian-angels-guide">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="guardian-angels-guide">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -188,7 +201,9 @@ export default function GuardianAngels() {
               {
                 question: "Do nations have guardian angels?",
                 answer: "Catholic tradition and the visions of Fatima suggest that countries and territories have 'Principalities' assigned to them. At Fatima, the 'Angel of Portugal' (or Angel of Peace) appeared to the children before the Virgin Mary did."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="guardian-angels-guide" />

@@ -146,8 +146,34 @@ export default function SaintJohnVianneyCureOfArs() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "If we truly understood the priest on earth, we would die, not of fear, but of love." — St. John Vianney
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life and Mission</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">Discover the life of Saint John Vianney, the humble priest who converted thousands through the confessional and battled the demonic in his small village of Ars. Saints are not distant legends — they are men and women who cooperated with grace in real historical circumstances. Their stories show that holiness is possible in ordinary work, family life, persecution, and service.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Seek This Saint&apos;s Intercession</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">The Church teaches that saints in heaven remain part of the communion of believers (CCC 954–959). We do not worship them; we ask their prayers as we might ask a friend on earth. Patron saints often connect to specific needs — illness, work, conversion, or protection — because of how they lived and died.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Days and Parish Devotion in the U.S.</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">Parishes across the United States celebrate saint feast days with special Masses, novenas, and food traditions tied to immigrant communities. Mark the feast on your calendar, read the Mass readings that day, and consider one concrete act of charity in the saint&apos;s honor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Growing in Friendship With the Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">Choose one saint to \"befriend\" this year: read a short biography, pray a novena before their feast, and ask how their virtues — courage, humility, chastity, or mercy — apply to your state in life. Holiness spreads through imitation and intercession, not superstition.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">Readers often search for The Curé of Ars: A Masterclass in Humility and Spiritual Power during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-vianney-cure-of-ars">Discover the life of Saint John Vianney, the humble priest who converted thousands through the confessional and battled the demonic in his small village of Ars. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -161,7 +187,9 @@ export default function SaintJohnVianneyCureOfArs() {
               {
                 question: "What is the lesson for laypeople today?",
                 answer: "His life proves that intellectual brilliance is not a requirement for intimacy with God. Total surrender, frequent confession, and a love for the Eucharist are the only things needed for a soul to become a channel of miracles."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="saint-john-vianney-cure-of-ars" />

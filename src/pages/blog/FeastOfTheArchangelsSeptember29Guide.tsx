@@ -9,15 +9,16 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
 
 export default function FeastOfTheArchangelsSeptember29Guide() {
   return (
     <>
       <Helmet>
-        <title>Feast of the Archangels 2026: Michael, Gabriel & Raphael | Guide Catholic</title>
+        <title>Feast of the Archangels 2026: September 29 Date, Prayers &amp; Guide | Guide Catholic</title>
         <meta
           name="description"
-          content="Feast of the Archangels is September 29, 2026 (Michaelmas). Catholic guide to St. Michael, St. Gabriel, and St. Raphael — Scripture, prayers, and how to celebrate."
+          content="Feast of the Archangels 2026 is September 29 (Tuesday). Michael, Gabriel & Raphael — Mass, St. Michael Prayer, Michaelmas meaning, and how to celebrate in the USA."
         />
         <meta
           name="keywords"
@@ -27,8 +28,8 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Feast of the Archangels 2026: Michael, Gabriel & Raphael"
-        description="Feast of the Archangels is September 29, 2026 (Michaelmas). Catholic guide to St. Michael, St. Gabriel, and St. Raphael — Scripture, prayers, and how to celebrate."
+        title="Feast of the Archangels 2026: September 29 Date, Prayers & Guide"
+        description="Feast of the Archangels 2026 is September 29 (Tuesday). Michael, Gabriel & Raphael — Mass, St. Michael Prayer, Michaelmas meaning, and how to celebrate in the USA."
         url="https://guidecatholic.com/blog/feast-of-the-archangels-september-29-2026/"
         datePublished="2026-07-30"
       />
@@ -67,7 +68,7 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />15 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Feast of the Archangels 2026: Michael, Gabriel &amp; Raphael
+                Feast of the Archangels 2026: Date, Prayers &amp; How to Celebrate
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 On September 29 the Church honors the three archangels named in Scripture — Michael, Gabriel, and Raphael. Still called Michaelmas in English tradition, the feast is one of the most searched Catholic days of the autumn in the United States. Here is what it means and how to live it in 2026.
@@ -84,6 +85,8 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
                   The Feast of Saints Michael, Gabriel, and Raphael — Archangels — is September 29, 2026 (Tuesday). Also called Michaelmas, it honors the three archangels named in the Bible. Catholics celebrate with Mass, the St. Michael Prayer, and devotion asking protection (Michael), God&apos;s word (Gabriel), and healing on life&apos;s journey (Raphael). It is not a U.S. holy day of obligation.
                 </p>
               </div>
+
+              <StMichaelCboCTA />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">
                 St. Michael ranks among the most searched saints in the United States — especially in large states such as California and Texas — because Catholics seek protection in spiritual warfare. September 29 focuses that devotion on the Church&apos;s official feast of the archangels, not only Michael but also Gabriel and Raphael.
@@ -144,6 +147,19 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">
                 The Catechism teaches that angels are personal, spiritual, non-corporeal beings who glorify God and serve His saving plan (CCC 328–336). Archangels are among those God sends for special missions. Catholics do not worship angels; we honor them and ask their intercession, as we do with the saints. Guardian angels have their own memorial on October 2 — three days after the archangels&apos; feast.
               </LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">Feast of the Archangels 2026: Date, Prayers &amp; How to Celebrate Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Feast of the Archangels 2026, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
             </div>
 
             <BlogFAQ

@@ -10,6 +10,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 
 export default function SaintMichaelPrayer() {
   return (
@@ -77,6 +78,8 @@ export default function SaintMichaelPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The St. Michael prayer (&quot;St. Michael the Archangel, defend us in battle...&quot;) asks protection against evil — composed by Pope Leo XIII after a vision. Catholics pray it after Mass in some parishes, during spiritual warfare, and on Michaelmas (September 29).</p>
               </div>
+
+              <StMichaelCboCTA />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Full Text of the Prayer to Saint Michael
@@ -203,9 +206,15 @@ export default function SaintMichaelPrayer() {
                 <p className="text-text-muted text-center mt-2">— 1 Peter 5:8</p>
               </div>
 
+              <StMichaelCboCTA compact />
+
             </div>
 
             <BlogFAQ faqs={[
+              {
+                question: "Where can I pray the full St. Michael's Lent novena?",
+                answer: "The complete 46-day St. Michael's Lent novena with daily prayer text is free at Catholic Bible Online (catholicbibleonline.com/blog/st-michaels-lent-novena-prayer-guide-us-2026/)."
+              },
               {
                 question: "When should I pray the Prayer to Saint Michael?",
                 answer: "You can pray it at any time, but the most common times are after Mass, as part of your morning prayers, and in the evening with your family. It is especially powerful to pray in moments of temptation, spiritual attack, or when you feel oppressed by anxiety, fear, or darkness. Many Catholics make it a daily habit, treating it as essential spiritual armor."

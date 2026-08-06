@@ -163,8 +163,34 @@ export default function HowToGoToConfession() {
 
               <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mt-6 mb-6 font-display italic text-center text-text font-semibold">
                   "Though your sins be like scarlet, they shall be as white as snow." — Isaiah 1:18
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">Master the Sacrament of Penance. Learn the 5 steps to a perfect confession, the difference between contrition types, and the power of the Seal of the Confessional. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">Readers often search for The Divine Hospital: A Master Guide to Confession during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession">Master the Sacrament of Penance. Learn the 5 steps to a perfect confession, the difference between contrition types, and the power of the Seal of the Confessional. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -178,7 +204,9 @@ export default function HowToGoToConfession() {
               {
                 question: "How often should I go?",
                 answer: "The Church requires it once a year if you are in mortal sin. However, spiritual directors recommend once a month as a way to grow in virtue and keep the soul healthy."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="how-to-go-to-confession" />

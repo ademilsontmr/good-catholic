@@ -217,8 +217,21 @@ export default function LivingVirtue() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "I can do all things through Christ who strengthens me." - Philippians 4:13
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">Discover how to live the Christian life with practical guidance on virtues, daily holiness, and growing closer to Christ in ordinary circumstances. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -236,7 +249,9 @@ export default function LivingVirtue() {
               {
                 question: "Is it possible to be too virtuous?",
                 answer: "No—one cannot have too much faith, hope, or charity. However, virtue must be balanced: courage without prudence becomes rashness; justice without mercy becomes harshness. The virtues work together, each tempering the others. Seek the whole package, not isolated extremes."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="living-virtue" />

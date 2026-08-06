@@ -159,8 +159,21 @@ export default function OurLadyOfGuadalupeScience() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Non fecit taliter omni nationi" (He has not done thus for any other nation). — Psalm 147:20, often applied to Guadalupe.
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miracle-of-guadalupe-science">Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say. Catholic guide to the evidence. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miracle-of-guadalupe-science">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miracle-of-guadalupe-science">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="miracle-of-guadalupe-science">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -174,7 +187,9 @@ export default function OurLadyOfGuadalupeScience() {
               {
                 question: "What is the 'Celestial Hum'?",
                 answer: "In recent years, researchers discovered that if you map the positions of the stars on the mantle and the centers of the flowers on the tunic onto a musical staff, they produce a perfect, symmetrical, and harmonious melody. There are many recordings of this 'Music of Guadalupe' available online."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="miracle-of-guadalupe-science" />

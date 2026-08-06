@@ -58,7 +58,7 @@ export default function ConfessionTimesNearMe() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Mass & Sacraments</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 11, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />10 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
                 Confession Times Near Me: How to Find Catholic Confession
@@ -136,14 +136,42 @@ export default function ConfessionTimesNearMe() {
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8 text-center">
                 <MapPin className="w-8 h-8 text-primary mx-auto mb-3" />
                 <p className="text-text italic">If you feel nervous, go anyway. The priest has heard Confessions before, and Christ is waiting to forgive.</p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Readers often search for Confession Times Near Me: How to Find Catholic Confession during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               { question: "Can I go to Confession at any Catholic church?", answer: "Yes. A Catholic may usually go to Confession at any Catholic parish where a priest is available. You do not have to be registered at that parish." },
               { question: "What if I forgot the Act of Contrition?", answer: "Tell the priest. He can help you pray one, provide a simple version, or invite you to express sorrow for your sins in your own words." },
               { question: "Do I need an appointment for Confession?", answer: "Not if the parish has scheduled Confession times. If no time works for you, call the parish office and ask for an appointment with a priest." },
-              { question: "How long does Confession take?", answer: "A typical Confession can take 3 to 10 minutes. If it has been many years or you need pastoral guidance, schedule an appointment so the priest has enough time." },
+              { question: "How long does Confession take?", answer: "A typical Confession can take 3 to 10 minutes. If it has been many years or you need pastoral guidance, schedule an appointment so the priest has enough time." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="confession-times-near-me" />

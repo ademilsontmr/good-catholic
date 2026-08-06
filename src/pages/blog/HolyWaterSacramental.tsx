@@ -209,8 +209,21 @@ export default function HolyWaterSacramental() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Rivers of living water will flow from within him." - John 7:38
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">Discover the power of holy water in Catholic tradition. Learn its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-water-sacramental">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -228,7 +241,9 @@ export default function HolyWaterSacramental() {
               {
                 question: "Can holy water ward off evil spirits?",
                 answer: "The Church teaches that holy water, as a sacramental, provides protection against evil. The blessing prayers specifically invoke this protection. While not magic, holy water represents faith in Christ's power over evil and our baptismal identity as children of God, protected by His grace."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="holy-water-sacramental" />

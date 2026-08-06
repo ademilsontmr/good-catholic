@@ -87,6 +87,32 @@ export default function PalmSundayCatholicGuide() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Tips for Families with Children</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Arrive early — Palm Sunday is among the best-attended Masses of the year. Explain the Passion reading beforehand so children are not frightened without context. Many parishes distribute palms at the door; hold them during the Gospel but fold hands during Consecration. After Mass, place one palm in each child&apos;s room as a reminder that Holy Week is beginning.</LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Palm Sunday explained for Catholics in the U.S. — blessing of palms, procession, Mass readings, what to do with palms at home, and how Holy Week begins. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Readers often search for Palm Sunday Catholic Guide: Mass, Palms & Holy Week Start (USA) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="palm-sunday-catholic-guide">Palm Sunday explained for Catholics in the U.S. — blessing of palms, procession, Mass readings, what to do with palms at home, and how Holy Week begins. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Is Palm Sunday a Holy Day of Obligation?", answer: "Every Sunday is a day of obligation. Palm Sunday is the Sunday before Easter and requires Mass attendance like any other Sunday." },
@@ -94,7 +120,9 @@ export default function PalmSundayCatholicGuide() {
               { question: "Can I keep palms from year to year?", answer: "You may keep them as a sacramental in the home. When replacing them, return old palms to the church for respectful burning." },
               { question: "When is Palm Sunday 2026?", answer: "In 2026, Palm Sunday falls on March 29. The date moves each year because it depends on the date of Easter." },
               { question: "What color do priests wear on Palm Sunday?", answer: "Red — the color of the Passion and of martyrs, used because the Passion Gospel is proclaimed." },
-              { question: "Can I receive Communion on Palm Sunday?", answer: "Yes, if you are in a state of grace after Confession if needed. Palm Sunday is a full Mass with Eucharist." },
+              { question: "Can I receive Communion on Palm Sunday?", answer: "Yes, if you are in a state of grace after Confession if needed. Palm Sunday is a full Mass with Eucharist." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="palm-sunday-catholic-guide" />
             <ArticleBottomCTA />

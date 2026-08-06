@@ -98,13 +98,29 @@ export default function PrayerBeforeCrucifixCatholic() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Connecting to the Mass and Sacraments</h2>
               <p className="text-text leading-relaxed mb-6">Every Mass re-presents the one sacrifice of Calvary. Praying before a crucifix at home extends Eucharistic faith into daily life. After Confession, pray it in thanksgiving. When unable to attend Mass, unite this devotion with a Spiritual Communion. The crucifix keeps the center of Catholic faith always in sight.</p>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">Prayer before a Crucifix with full Catholic text — the indulgenced prayer of St. Francis and when to pray it. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Prayer Before a Crucifix, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Did St. Francis of Assisi write this prayer?", answer: "Tradition associates this prayer with St. Francis and Franciscan spirituality. It appears in Catholic prayer books as the Prayer Before a Crucifix and reflects his devotion to Christ&apos;s Passion." },
               { question: "Is there an indulgence for praying before a crucifix?", answer: "Yes. The Church grants a partial indulgence for devoutly praying approved prayers before a crucifix, including this one, under the usual conditions for gaining indulgences." },
               { question: "What is the difference between a cross and a crucifix?", answer: "A crucifix includes the figure of Christ crucified (the corpus). Catholics use crucifixes to recall the historical sacrifice of Jesus, not only the symbol of resurrection." },
               { question: "When is the best time to pray before a crucifix?", answer: "Fridays, before Confession, during Lent, and at bedtime are traditional times. Any moment of sorrow, gratitude, or need for repentance is appropriate." },
-              { question: "Must I kneel to pray it?", answer: "Kneeling is traditional and fitting but not strictly required if physically unable." }
+              { question: "Must I kneel to pray it?", answer: "Kneeling is traditional and fitting but not strictly required if physically unable." },
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="prayer-before-crucifix-catholic" />
             <ArticleBottomCTA title="Grow in Catholic Prayer" description="Receive a personalized guide for building a deeper daily prayer life." />

@@ -106,6 +106,19 @@ export default function CatholicGodparentRequirementsUsa() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-godparent-requirements-usa">
                 Requirements exist to protect the sacrament and the child&apos;s spiritual future. When chosen well, godparents become lifelong companions on the road to heaven — a gift parents give their child that outlasts any baptism party.
               </LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-godparent-requirements-usa">Catholic godparent requirements in the USA — age, Confirmation, marriage status, and how many godparents are allowed. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-godparent-requirements-usa">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-godparent-requirements-usa">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-godparent-requirements-usa">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Can my Protestant spouse be a godparent?", answer: "No. A non-Catholic cannot be a godparent. A baptized Protestant may serve as a Christian witness alongside one Catholic godparent." },
@@ -113,7 +126,9 @@ export default function CatholicGodparentRequirementsUsa() {
               { question: "Do godparents need to be the same for Baptism and Confirmation?", answer: "Not necessarily. The same person is ideal for continuity, but a different sponsor may be chosen for Confirmation if the original godparent is unavailable or unsuitable." },
               { question: "What if a chosen godparent cannot get a sponsor certificate?", answer: "They likely do not meet Church requirements. Choose another qualified Catholic rather than expecting the parish to make exceptions. Pastors cannot dispense from all requirements." },
               { question: "Can two men be godparents?", answer: "No. If two sponsors, canon law requires one man and one woman." },
-              { question: "Can a non-practicing Catholic be a godparent?", answer: "The pastor may decline someone who does not live the faith, even if confirmed." }
+              { question: "Can a non-practicing Catholic be a godparent?", answer: "The pastor may decline someone who does not live the faith, even if confirmed." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="catholic-godparent-requirements-usa" />
             <ArticleBottomCTA />

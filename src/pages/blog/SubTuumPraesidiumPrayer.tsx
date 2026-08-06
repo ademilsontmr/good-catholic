@@ -59,7 +59,7 @@ export default function SubTuumPraesidiumPrayer() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayers & Devotions</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />8 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
                 Sub Tuum Praesidium: Oldest Marian Prayer (Full Text & Latin)
@@ -102,13 +102,49 @@ export default function SubTuumPraesidiumPrayer() {
               <p className="text-text leading-relaxed mb-6">
                 A Greek papyrus from Egypt (c. 250 AD) contains this prayer, making it the oldest known text invoking Mary as Theotokos — God-bearer. The Church approved it for liturgical use and includes it in the Roman Ritual. Families pray it in times of war, illness, travel, or spiritual trial.
               </p>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Sub Tuum Praesidium — the oldest known Marian prayer — with full Catholic text in English and Latin, history from the 3rd century, and when to pray it today. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Sub Tuum Praesidium, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Readers often search for Sub Tuum Praesidium: Oldest Marian Prayer (Full Text & Latin) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Sub Tuum Praesidium — the oldest known Marian prayer — with full Catholic text in English and Latin, history from the 3rd century, and when to pray it today. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
+              {/* data-expanded-depth-3 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">History and Church Approval</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Many Catholic prayers grew from monastic communities, papal encouragement, or popular devotion validated by local bishops. Sub Tuum Praesidium belongs to this living tradition — not private revelation disconnected from the Magisterium.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Praying With Your Parish</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Bring this prayer to parish adoration hours, men&apos;s groups, or family rosary time. Shared prayer strengthens faith and corrects private misunderstandings.</LinkedText>
+
             </div>
 
             <BlogFAQ faqs={[
               { question: "What does Sub Tuum Praesidium mean?", answer: "It means Under your protection — the opening words of the prayer in Latin: Sub tuum praesidium confugimus (We fly to thy protection)." },
               { question: "Is Sub Tuum Praesidium the oldest Marian prayer?", answer: "The Greek text from c. 250 AD is the earliest known Marian prayer preserved in writing. It shows Christians already turned to Mary as Mother of God within decades of the apostolic age." },
               { question: "When should I pray Sub Tuum Praesidium?", answer: "Whenever you need Mary's intercession — in danger, anxiety, before travel, during persecution, or as a daily act of trust in her maternal care." },
-              { question: "Is Sub Tuum Praesidium different from the Memorare?", answer: "Yes. The Memorare is a later prayer emphasizing Mary's never-failing help. Sub Tuum Praesidium is shorter and focuses on taking refuge under her protection." },
+              { question: "Is Sub Tuum Praesidium different from the Memorare?", answer: "Yes. The Memorare is a later prayer emphasizing Mary's never-failing help. Sub Tuum Praesidium is shorter and focuses on taking refuge under her protection." },,
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="sub-tuum-praesidium-prayer" />

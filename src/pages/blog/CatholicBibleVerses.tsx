@@ -250,8 +250,41 @@ export default function CatholicBibleVerses() {
                   "The word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and spirit, of joints and marrow, and discerning the thoughts and intentions of the heart."
                 </p>
                 <p className="text-text-muted text-center mt-2">— Hebrews 4:12</p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">50 essential Catholic Bible verses by theme — love, prayer, strength, Mary, Eucharist, and hope. RSV-CE quotes every Catholic should know. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">Readers often search for Catholic Bible Verses: 50 Essential Scriptures by Theme during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">50 essential Catholic Bible verses by theme — love, prayer, strength, Mary, Eucharist, and hope. RSV-CE quotes every Catholic should know. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
+              {/* data-expanded-depth-3 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">American Catholic Context</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">The United States mixes many cultures in one Church — Latino, Irish, Filipino, Polish, and more. Devotions vary by parish; core doctrine does not.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Monthly Review Habit</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">Re-read this article once a month for a year. Depth comes from repetition and lived experience, not a single quick read.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               { question: "What are the best Catholic Bible verses to memorize?", answer: "Start with John 3:16 (God's love), Philippians 4:13 (strength), Psalm 23 (comfort), John 6:51 (Eucharist), Matthew 16:18 (the Church), Luke 1:28 (Mary), and John 20:22-23 (Confession). These Catholic Bible verses cover the core of faith and are useful for daily prayer, difficult moments, and sharing your beliefs with others." },
@@ -260,7 +293,9 @@ export default function CatholicBibleVerses() {
               { question: "What Bible translation do Catholics use?", answer: "In the United States, the official translation used at Mass is the NABRE (New American Bible Revised Edition). For personal study and prayer, the RSV-CE (Revised Standard Version — Catholic Edition) is widely recommended. The Douay-Rheims is the traditional Catholic Bible in English." },
               { question: "Are there Bible verses that support specifically Catholic teachings?", answer: "Yes. Matthew 16:18-19 supports the papacy. John 6:51-56 supports the Real Presence in the Eucharist. John 20:22-23 supports the Sacrament of Confession. Luke 1:28 and 1:42 support Marian devotion. 2 Maccabees 12:46 supports prayers for the dead and Purgatory. James 5:14-15 supports the Anointing of the Sick." },
               { question: "How can I memorize Bible verses?", answer: "Start with one verse at a time. Write it on a card and carry it with you. Read it aloud several times a day. Connect it to a specific situation in your life. Review previously memorized verses regularly. Many Catholics memorize verses by praying them repeatedly — the Rosary, for example, is built on Scripture." },
-              { question: "What are the best Bible verses for difficult times?", answer: "For comfort: Psalm 23, Matthew 11:28-30, John 14:27. For strength: Philippians 4:13, Isaiah 40:31, Joshua 1:9. For hope: Romans 8:28, Romans 8:18, Revelation 21:4. For peace: Philippians 4:6-7, Isaiah 41:10, Psalm 46:1." },
+              { question: "What are the best Bible verses for difficult times?", answer: "For comfort: Psalm 23, Matthew 11:28-30, John 14:27. For strength: Philippians 4:13, Isaiah 40:31, Joshua 1:9. For hope: Romans 8:28, Romans 8:18, Revelation 21:4. For peace: Philippians 4:6-7, Isaiah 41:10, Psalm 46:1." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="catholic-bible-verses" />

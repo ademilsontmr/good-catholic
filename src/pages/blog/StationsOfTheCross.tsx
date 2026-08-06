@@ -159,8 +159,34 @@ export default function StationsOfTheCross() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "No other devotion is more effective for salvation than the Way of the Cross." — St. Alphonsos Liguori
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Historical Context</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Discover the deep history of the Stations of the Cross. From the Via Dolorosa to the theology of the 14 stations, learn how this devotion heals the soul. Catholic history is the story of Christ&apos;s promise that the gates of hell will not prevail against the Church. Political empires rise and fall; the faith survives through saints, sinners, councils, and everyday believers.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Primary Sources and Tradition</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Serious Catholic history relies on documents, archaeology, and the witness of contemporaries — not conspiracy theories or partisan blogs. When studying this topic, prefer encyclicals, council texts, and reputable Catholic historians.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Lessons for Catholics Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Past crises — schism, war, scandal, or persecution — show both human failure and divine faithfulness. We read history to avoid repeating errors and to thank God for those who kept the flame of faith alive for us.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Further Reading</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Explore related articles on Guide Catholic for popes, councils, and saints connected to this period. History deepens love for the Church when it leads to prayer and service, not cynicism.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Readers often search for The Way of the Cross: A Spiritual Pilgrimage to Calvary during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Discover the deep history of the Stations of the Cross. From the Via Dolorosa to the theology of the 14 stations, learn how this devotion heals the soul. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -174,7 +200,9 @@ export default function StationsOfTheCross() {
               {
                 question: "Can I pray the stations if I can't walk?",
                 answer: "Yes! For those who are physically restricted, you can gain a plenary indulgence by spending 15 minutes devoutly reading and meditating on the Way of the Cross."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="stations-of-the-cross" />

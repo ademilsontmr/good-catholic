@@ -10,6 +10,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
 
 export default function SaintMichaelLent() {
   return (
@@ -88,8 +89,10 @@ export default function SaintMichaelLent() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Learn how to pray Saint Michael&apos;s Lent. Discover the origins with St.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">St. Michael&apos;s Lent runs August 15–September 29 — 40 days of prayer, fasting, and penance honoring St. Michael. Pray the complete daily novena with full text at Catholic Bible Online.</p>
               </div>
+
+              <StMichaelCboCTA />
 
               <p className="text-text leading-relaxed mb-6">
                 Most Catholics know the Lent before Easter, but fewer know the <strong>Lent of St. Michael</strong>. Running from the Feast of the Assumption (Aug 15) to Michaelmas (Sept 29), this is not just a prayer—it is a training camp for the soul.
@@ -154,8 +157,34 @@ export default function SaintMichaelLent() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "St. Michael is the first of all the angels. He is the standard-bearer of the Holy Trinity." — St. Thomas Aquinas
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life and Mission</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-lent-guide">Learn how to pray Saint Michael&apos;s Lent. Discover the origins with St. Francis of Assisi, the 9 Choirs of Angels, and the power of 40 days of fasting. Saints are not distant legends — they are men and women who cooperated with grace in real historical circumstances. Their stories show that holiness is possible in ordinary work, family life, persecution, and service.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Seek This Saint&apos;s Intercession</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-lent-guide">The Church teaches that saints in heaven remain part of the communion of believers (CCC 954–959). We do not worship them; we ask their prayers as we might ask a friend on earth. Patron saints often connect to specific needs — illness, work, conversion, or protection — because of how they lived and died.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Days and Parish Devotion in the U.S.</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-lent-guide">Parishes across the United States celebrate saint feast days with special Masses, novenas, and food traditions tied to immigrant communities. Mark the feast on your calendar, read the Mass readings that day, and consider one concrete act of charity in the saint&apos;s honor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Growing in Friendship With the Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-lent-guide">Choose one saint to \"befriend\" this year: read a short biography, pray a novena before their feast, and ask how their virtues — courage, humility, chastity, or mercy — apply to your state in life. Holiness spreads through imitation and intercession, not superstition.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-lent-guide">Readers often search for The Lent of St. Michael: 40 Days to Breaking Spiritual Chains during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-lent-guide">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-lent-guide">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-lent-guide">Learn how to pray Saint Michael&apos;s Lent. Discover the origins with St. Francis of Assisi, the 9 Choirs of Angels, and the power of 40 days of fasting. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -169,7 +198,9 @@ export default function SaintMichaelLent() {
               {
                 question: "What is the difference between an Archangel and a Guardian Angel?",
                 answer: "Archangels (Michael, Gabriel, Raphael) have cosmic missions for the whole Church. Your Guardian Angel is specifically assigned to *you* for your protection and guidance. In St. Michael's Lent, we honor both."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="st-michael-lent-guide" />

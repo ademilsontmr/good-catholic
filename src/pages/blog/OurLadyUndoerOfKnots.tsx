@@ -160,8 +160,21 @@ export default function OurLadyUndoerOfKnots() {
                 <p className="text-text italic text-center leading-relaxed">
                   "Mary, who unties the knots, pray for us."
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">Discover the history of Our Lady Undoer of Knots, why Pope Francis loves this devotion, and how to pray the novena to untie the difficult knots in your life. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Our Lady Undoer of Knots, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -175,7 +188,10 @@ export default function OurLadyUndoerOfKnots() {
               {
                 question: "Why does Pope Francis love this devotion so much?",
                 answer: "Pope Francis often speaks about 'mercy' and 'closeness.' He sees Mary not as a distant queen, but as a mother who is willing to get her hands into the messy, tangled realities of our lives to help fix what we cannot fix ourselves."
-              }
+              },
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="our-lady-undoer-of-knots" />

@@ -101,6 +101,19 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer Does Not Replace Responsibility</h2>
               <p className="text-text leading-relaxed mb-6">The Holy Spirit works through reason, sacraments, and community — not around them. If a decision involves finances, law, or medicine, get professional advice. If it involves sin, choose what the Church teaches. Prayer aligns the heart; it does not bypass truth.</p>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Holy Spirit prayer for decisions — full Catholic text for discernment, big choices, and guidance. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Holy Spirit Prayer for Decisions, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "What is the best Catholic prayer for big decisions?", answer: "The Come, Holy Spirit prayer — combined with daily examination, Scripture, and counsel from a priest or spiritual director — is a classic Catholic approach to discernment." },
@@ -108,7 +121,10 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
               { question: "Can I pray to the Holy Spirit if I am not confirmed?", answer: "Yes. All baptized Catholics may invoke the Holy Spirit. Confirmation strengthens the gifts already given at Baptism but is not required to begin praying for guidance." },
               { question: "How long should I discern before deciding?", answer: "There is no fixed rule. Simple decisions may need days; vocation or marriage discernment often takes months or years. Pray daily and avoid rushing when the matter is serious." },
               { question: "Is this the same as the novena for clarity?", answer: "Similar in purpose; the novena for clarity is nine days, while this prayer can be used daily during any discernment period." },
-              { question: "Should I talk to a priest when discerning?", answer: "Yes for serious decisions. The Holy Spirit works through the Church&apos;s ministers and wise counselors." }
+              { question: "Should I talk to a priest when discerning?", answer: "Yes for serious decisions. The Holy Spirit works through the Church&apos;s ministers and wise counselors." },
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="holy-spirit-prayer-for-decisions-catholic" />
             <ArticleBottomCTA title="Grow in Catholic Prayer" description="Receive a personalized guide for building a deeper daily prayer life." />

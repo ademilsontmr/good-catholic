@@ -93,6 +93,19 @@ export default function PrayerOfAbandonmentCatholic() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Charles de Foucauld and American Catholics Today</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-of-abandonment-catholic">Charles de Foucauld&apos;s spirituality of Nazareth — hidden, humble presence among ordinary people — resonates with lay Catholics balancing work, family, and faith. His Prayer of Abandonment appears in prayer books, retreat materials, and apps used across U.S. parishes. It complements the Jesuit tradition of discernment by adding surrender after honest seeking.</LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-of-abandonment-catholic">The Prayer of Abandonment with full Catholic text, meaning, and how to pray Charles de Foucauld&apos;s surrender to God. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-of-abandonment-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-of-abandonment-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-of-abandonment-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Prayer of Abandonment, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Who wrote the Prayer of Abandonment?", answer: "It is attributed to Blessed Charles de Foucauld, a French priest, hermit, and missionary beatified by Pope Francis in 2022. He prayed it as an expression of total trust in God the Father." },
@@ -100,7 +113,10 @@ export default function PrayerOfAbandonmentCatholic() {
               { question: "Can I pray this if I am angry or afraid?", answer: "Yes. Start with what you can honestly say. Even praying the first line — offering yourself to God — is a valid step. Trust grows through repeated prayer, not perfect feelings." },
               { question: "When is the best time to pray the Prayer of Abandonment?", answer: "Many Catholics pray it at night before sleep, echoing Christ&apos;s words on the cross. It is also fitting before major decisions, during illness, or in Eucharistic adoration." },
               { question: "Is Charles de Foucauld a saint?", answer: "He was beatified by Pope Francis in 2022; the Church recognizes his heroic virtue and spirituality of Nazareth." },
-              { question: "Can beginners pray the Prayer of Abandonment?", answer: "Yes. Start with the first line if the full prayer feels difficult; trust grows through repetition." }
+              { question: "Can beginners pray the Prayer of Abandonment?", answer: "Yes. Start with the first line if the full prayer feels difficult; trust grows through repetition." },
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="prayer-of-abandonment-catholic" />
             <ArticleBottomCTA title="Grow in Catholic Prayer" description="Receive a personalized guide for building a deeper daily prayer life." />

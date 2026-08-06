@@ -15,15 +15,15 @@ export default function CatholicTeachingOnPride() {
   return (
     <>
       <Helmet>
-        <title>Pride: The Root of All Sin — The Catholic Teaching | Guide Catholic</title>
-        <meta name="description" content="Pride is the first and greatest of the capital sins — the sin that caused the fall of Lucifer and of Adam and Eve. Learn what it is, how it manifests today, and how to overcome it." />
-        <meta name="keywords" content="pride sin catholic, pride root of all sin, what is pride catholic, capital sin pride, overcoming pride catholic, humility vs pride catholic" />
+        <title>Pride: Root of All Sin — Catholic Encyclopedia Guide | Guide Catholic</title>
+        <meta name="description" content="Is pride the root of all sin? Catholic encyclopedia guide — capital sin, Lucifer's fall, Catechism teaching, how pride manifests today, and how to grow in humility." />
+        <meta name="keywords" content="catholic encyclopedia pride root of all sin, pride sin catholic, pride root of all sin, capital sin pride, overcoming pride catholic, humility vs pride catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/pride-root-of-sin-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Pride: The Root of All Sin — The Catholic Teaching"
-        description="Pride is the first and greatest of the capital sins — the sin that caused the fall of Lucifer and of Adam and Eve. Learn what it is, how it manifests today, and how to overcome it."
+        title="Pride: Root of All Sin — Catholic Encyclopedia Guide"
+        description="Is pride the root of all sin? Catholic encyclopedia guide — capital sin, Lucifer's fall, Catechism teaching, how pride manifests today, and how to grow in humility."
         url="https://guidecatholic.com/blog/pride-root-of-sin-catholic/"
       />
       <BreadcrumbSchema
@@ -58,7 +58,7 @@ export default function CatholicTeachingOnPride() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />13 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Pride: The Root of All Sin — The Catholic Teaching
+                Pride: Root of All Sin — Catholic Encyclopedia Guide
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 Before any other sin was committed, there was pride. It was pride that turned Lucifer from the most glorious of angels into the father of lies. It was pride that led Adam and Eve to grasp at equality with God. The Catholic tradition has always recognized pride as the first and greatest of the capital sins — the root from which all other sins grow.
@@ -70,7 +70,7 @@ export default function CatholicTeachingOnPride() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Pride is the root sin — inordinate self-love that turns from God and others (CCC 1866). Catholics fight pride through gratitude, confession of faults, obedience to lawful authority, and honoring others; it opposes humility and often masks insecurity with arrogance.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Yes — in Catholic teaching, pride is the root of all sin: inordinate self-love that turns the soul from God (CCC 1866). It caused Lucifer&apos;s fall and Adam&apos;s sin. Pride is the first capital sin; every other vice grows from exalting self above God and neighbor. Humility, gratitude, and Confession are the cure.</p>
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">

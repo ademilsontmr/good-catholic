@@ -106,6 +106,19 @@ export default function CatholicWeddingMassVsCeremony() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-mass-vs-ceremony">
                 The sacrament binds you for life. Whether you celebrate with full Mass or a simpler ceremony, what matters most is free consent, openness to children, and fidelity — the vows the Church receives and Christ blesses.
               </LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-mass-vs-ceremony">Catholic wedding Mass vs. ceremony without Mass — differences, requirements, and what engaged couples should choose in the United States. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-mass-vs-ceremony">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-mass-vs-ceremony">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-mass-vs-ceremony">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Is a Catholic wedding without Mass still a valid sacrament?", answer: "Yes. The sacrament is conferred through the exchange of consent before the Church. Mass is not required for validity." },
@@ -113,7 +126,9 @@ export default function CatholicWeddingMassVsCeremony() {
               { question: "How far in advance should we book a Catholic wedding?", answer: "Most U.S. parishes require 6–12 months notice. Popular Saturday dates fill quickly, especially during ordinary time." },
               { question: "Can we have a Catholic wedding outdoors?", answer: "Ordinarily the wedding must take place in a Catholic church or chapel unless the bishop grants an exception. Outdoor weddings are not the norm in Catholic practice." },
               { question: "Who decides Mass vs. ceremony without Mass?", answer: "The couple, priest, and diocesan policy — especially when a Catholic marries a baptized non-Catholic." },
-              { question: "Is a Nuptial Mass required for a valid marriage?", answer: "No. Validity requires consent, canonical form, and freedom to marry — not necessarily a full Mass." }
+              { question: "Is a Nuptial Mass required for a valid marriage?", answer: "No. Validity requires consent, canonical form, and freedom to marry — not necessarily a full Mass." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="catholic-wedding-mass-vs-ceremony" />
             <ArticleBottomCTA />

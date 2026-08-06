@@ -183,6 +183,19 @@ export default function DignityOfWork() {
             </ul>
 
             <QuizCTA />
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">Readers often search for The Dignity of Work: Catholic Social Teaching on Labor during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">Discover Catholic social teaching on work and labor. Learn about the dignity of workers, just wages, rights of laborers, and St. Joseph the Worker as patron. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
 
             <BlogFAQ
               faqs={[
@@ -220,8 +233,21 @@ export default function DignityOfWork() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Commit your work to the Lord, and your plans will be established." - Proverbs 16:3
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catholic Church Teaches</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">Discover Catholic social teaching on work and labor. Learn about the dignity of workers, just wages, rights of laborers, and St. Joseph the Worker as patron. The Catechism of the Catholic Church gathers this teaching for the whole People of God. Catholics look to Scripture, Tradition, and the Magisterium together — not private opinion or trending ideologies — when forming conscience.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Misunderstandings</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">Secular media and social debate often distort Catholic doctrine. Non-Catholics may assume the Church teaches what it does not; Catholics may not have heard clear catechesis since childhood. This article states the Church&apos;s position plainly so you can discuss it charitably with family, coworkers, or friends who ask honest questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why This Doctrine Matters for Daily Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">Faith is not an abstract exam to pass. What the Church teaches about The Dignity of Work shapes how Catholics worship, raise children, vote, work, and confess sin. Truth frees — even when it challenges comfort.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Living the Faith With Courage</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="dignity-of-work">If this teaching calls you to change, begin with prayer and Confession, not guilt alone. Speak with a priest or trusted catechist if you are wrestling with a hard moral question. The Church exists to lead souls to Christ, not to win arguments.</LinkedText>
+
             </div>
+
+              </div>
 
             <RelatedArticles currentSlug="dignity-of-work" />
 

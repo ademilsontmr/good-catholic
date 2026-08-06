@@ -1,0 +1,2410 @@
+{
+  "source": "https://pt.wikipedia.org/wiki/Lista_de_papas",
+  "updated": "2026-08-06",
+  "count": 267,
+  "popes": [
+    {
+      "num": 1,
+      "namePt": "Pedro",
+      "personalName": "Petrus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Petrus.png?width=80",
+      "pontificate": "c. 28 October 30 – c. 29 June 67",
+      "birthPlace": "Bethsaida, Galilee, Roman Empire",
+      "duration": "c. 36 years, 244 days"
+    },
+    {
+      "num": 2,
+      "namePt": "Lino",
+      "personalName": "Linus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Linus.png?width=80",
+      "pontificate": "c. 67 – c. 23 September 76",
+      "birthPlace": "Tuscia, Italy, Roman Empire",
+      "duration": "c. 8–9 years"
+    },
+    {
+      "num": 3,
+      "namePt": "Anacleto",
+      "personalName": "Anacletus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anacletus.png?width=80",
+      "pontificate": "c. 76 – c. 88",
+      "birthPlace": "Athens, Achaea, Roman Empire",
+      "duration": "c. 11–12 years"
+    },
+    {
+      "num": 4,
+      "namePt": "Clemente I",
+      "personalName": "Clemens Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clemens_I.png?width=80",
+      "pontificate": "c. 88 – c. 97",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "c. 8–9 years"
+    },
+    {
+      "num": 5,
+      "namePt": "Evaristo",
+      "personalName": "Evaristus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Evaristus.png?width=80",
+      "pontificate": "c. 97 – c. 105",
+      "birthPlace": "Bethlehem, Judea, Roman Empire",
+      "duration": "c. 7–8 years"
+    },
+    {
+      "num": 6,
+      "namePt": "Alexandre I",
+      "personalName": "Alexander Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_I.png?width=80",
+      "pontificate": "c. 105 – c. 116",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "c. 10–11 years"
+    },
+    {
+      "num": 7,
+      "namePt": "Sisto I",
+      "personalName": "Xystus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sixtus_I.png?width=80",
+      "pontificate": "c. 116 – c. 3 April 125",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "c. 8–9 years"
+    },
+    {
+      "num": 8,
+      "namePt": "Telésforo",
+      "personalName": "Telesphorus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Telesphorus.png?width=80",
+      "pontificate": "c. 125 – c. 138",
+      "birthPlace": "Athens, Achaea, Roman Empire",
+      "duration": "c. 12–13 years"
+    },
+    {
+      "num": 9,
+      "namePt": "Higino",
+      "personalName": "Hyginus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pius_I.png?width=80",
+      "pontificate": "c. 138 – c. 142",
+      "birthPlace": "Athens, Achaea, Roman Empire",
+      "duration": "c. 3–4 years"
+    },
+    {
+      "num": 10,
+      "namePt": "Pio I",
+      "personalName": "Pius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pius_I.png?width=80",
+      "pontificate": "c. 142 – c. 155",
+      "birthPlace": "Aquileia, Roman Empire",
+      "duration": "c. 12–13 years"
+    },
+    {
+      "num": 11,
+      "namePt": "Aniceto",
+      "personalName": "Anicetus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/11-St.Anicetus.jpg?width=80",
+      "pontificate": "c. 155 – c. 20 April 166",
+      "birthPlace": "Emersa, Síria, Roman Empire",
+      "duration": "c. 10–11 years"
+    },
+    {
+      "num": 12,
+      "namePt": "Sotero",
+      "personalName": "Soterius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soter.jpg?width=80",
+      "pontificate": "c. 166 – c. 175",
+      "birthPlace": "Fondi, Roman Empire",
+      "duration": "c. 8–9 years"
+    },
+    {
+      "num": 13,
+      "namePt": "Eleutério",
+      "personalName": "Eleutherius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eleutherius.jpg?width=80",
+      "pontificate": "c. 175 – c. 24 May 189",
+      "birthPlace": "Nicópolis, Épiro, Roman Empire",
+      "duration": "c. 13–14 years"
+    },
+    {
+      "num": 14,
+      "namePt": "Vítor I",
+      "personalName": "Victor Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/14-St.Victor_I.jpg?width=80",
+      "pontificate": "c. 189 – c. 28 July 199",
+      "birthPlace": "África, Roman Empire",
+      "duration": "c. 9–10 years"
+    },
+    {
+      "num": 15,
+      "namePt": "Zeferino",
+      "personalName": "Zephyrinus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/15-St.Zephyrinus.jpg?width=80",
+      "pontificate": "c. 199 – c. 20 December 217",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "c. 17–18 years"
+    },
+    {
+      "num": 16,
+      "namePt": "Calixto I",
+      "personalName": "Callistus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/16-St.Callixtus_I.jpg?width=80",
+      "pontificate": "c. 217 – c. 11 October 222",
+      "birthPlace": "Península Ibérica, Roman Empire",
+      "duration": "c. 4–5 years"
+    },
+    {
+      "num": 17,
+      "namePt": "Urbano I",
+      "personalName": "Urbanus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/17-St.Urban_I.jpg?width=80",
+      "pontificate": "c. 222 – c. 23 May 230",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "c. 7–8 years"
+    },
+    {
+      "num": 18,
+      "namePt": "Ponciano",
+      "personalName": "Pontianus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/18-St.Pontian.jpg?width=80",
+      "pontificate": "21 July 230 – 28 September 235",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "5 years, 69 days"
+    },
+    {
+      "num": 19,
+      "namePt": "Antero",
+      "personalName": "Anterus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/19-St.Anterus.jpg?width=80",
+      "pontificate": "21 November 235 – 3 January 236",
+      "birthPlace": "Petilia Policasto, Italy, Roman Empire",
+      "duration": "43 days"
+    },
+    {
+      "num": 20,
+      "namePt": "Fabiano",
+      "personalName": "Fabianus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/20-St.Fabian.jpg?width=80",
+      "pontificate": "10 January 236 – 20 January 250",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "14 years, 10 days"
+    },
+    {
+      "num": 21,
+      "namePt": "Cornélio",
+      "personalName": "Cornelius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/21-St.Cornelius.jpg?width=80",
+      "pontificate": "6 March 251 – c. June 253",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "c. 2 years, 101 days"
+    },
+    {
+      "num": 22,
+      "namePt": "Lúcio I",
+      "personalName": "Lucius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/22-St.Lucius_I.jpg?width=80",
+      "pontificate": "25 June 253 – 5 March 254",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "253 days"
+    },
+    {
+      "num": 23,
+      "namePt": "Estêvão I",
+      "personalName": "Stephanus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/23-St.Stephen_I.jpg?width=80",
+      "pontificate": "12 May 254 – 2 August 257",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "3 years, 82 days"
+    },
+    {
+      "num": 24,
+      "namePt": "Sisto II",
+      "personalName": "Xystus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/24-St.Sixtus_II.jpg?width=80",
+      "pontificate": "31 August 257 – 6 August 258",
+      "birthPlace": "Grécia, Roman Empire",
+      "duration": "340 days"
+    },
+    {
+      "num": 25,
+      "namePt": "Dionísio",
+      "personalName": "Dionysius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/25-St.Dionysius.jpg?width=80",
+      "pontificate": "22 July 259 – 26 December 268",
+      "birthPlace": "Grécia, Roman Empire",
+      "duration": "9 years, 157 days"
+    },
+    {
+      "num": 26,
+      "namePt": "Félix I",
+      "personalName": "Felix Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/26-St.Felix_I.jpg?width=80",
+      "pontificate": "5 January 269 – 30 December 274",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "5 years, 359 days"
+    },
+    {
+      "num": 27,
+      "namePt": "Eutiquiano",
+      "personalName": "Eutychianus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/27-St.Eutychian.jpg?width=80",
+      "pontificate": "4 January 275 – 7 December 283",
+      "birthPlace": "Luni, Italy, Roman Empire",
+      "duration": "8 years, 337 days"
+    },
+    {
+      "num": 28,
+      "namePt": "Caio",
+      "personalName": "Caius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/28-St.Caius.jpg?width=80",
+      "pontificate": "17 December 283 – 22 April 296",
+      "birthPlace": "Salona, Dalmácia, Roman Empire",
+      "duration": "12 years, 127 days"
+    },
+    {
+      "num": 29,
+      "namePt": "Marcelino",
+      "personalName": "Marcellinus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/29-St.Marcellinus.jpg?width=80",
+      "pontificate": "30 June 296 – c. 25 October 304",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "c. 8 years, 117 days"
+    },
+    {
+      "num": 30,
+      "namePt": "Marcelo I",
+      "personalName": "Marcellus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/30-St.Marcellus_I.jpg?width=80",
+      "pontificate": "27 May 308 – 16 January 309",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "234 days"
+    },
+    {
+      "num": 31,
+      "namePt": "Eusébio",
+      "personalName": "Eusebius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eusebius_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "c. 18 April 309 – c. 17 August 310",
+      "birthPlace": "Sardenha, Roman Empire",
+      "duration": "c. 1 year, 121 days"
+    },
+    {
+      "num": 32,
+      "namePt": "Melquíades",
+      "personalName": "Miltiades",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Meltiades_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "2 July 311 – 10 January 314",
+      "birthPlace": "África Protoconsular, Roman Empire",
+      "duration": "2 years, 192 days"
+    },
+    {
+      "num": 33,
+      "namePt": "Silvestre I",
+      "personalName": "Silvester Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/33-St.Sylvester_I.jpg?width=80",
+      "pontificate": "31 January 314 – 31 December 335",
+      "birthPlace": "Sant'Angelo a Scala, Italy, Roman Empire",
+      "duration": "21 years, 334 days"
+    },
+    {
+      "num": 34,
+      "namePt": "Marcos",
+      "personalName": "Marcus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/34-St.Mark.jpg?width=80",
+      "pontificate": "18 January 336 – 7 October 336",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "263 days"
+    },
+    {
+      "num": 35,
+      "namePt": "Júlio I",
+      "personalName": "Iulius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Iulius_I.png?width=80",
+      "pontificate": "6 February 337 – 12 April 352",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "15 years, 66 days"
+    },
+    {
+      "num": 36,
+      "namePt": "Libério",
+      "personalName": "Liberius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Liberio_papa1.gif?width=80",
+      "pontificate": "17 May 352 – 24 September 366",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "14 years, 130 days"
+    },
+    {
+      "num": 37,
+      "namePt": "Dâmaso I",
+      "personalName": "Damasus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Damaso_S._Paolo_fuori_le_mura.JPG?width=80",
+      "pontificate": "1 October 366 – 11 December 384",
+      "birthPlace": "Egitânia, Lusitânia, Roman Empire",
+      "duration": "18 years, 71 days"
+    },
+    {
+      "num": 38,
+      "namePt": "Sirício",
+      "personalName": "Siricius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/38-St.Siricius.jpg?width=80",
+      "pontificate": "17 December 384 – 26 November 399",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "14 years, 344 days"
+    },
+    {
+      "num": 39,
+      "namePt": "Anastácio I",
+      "personalName": "Anastasius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/39-St.Anastasius_I.jpg?width=80",
+      "pontificate": "27 November 399 – 19 December 401",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "2 years, 22 days"
+    },
+    {
+      "num": 40,
+      "namePt": "Inocêncio I",
+      "personalName": "Innocentius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/40-St.Innocent_I.jpg?width=80",
+      "pontificate": "22 December 401 – 12 March 417",
+      "birthPlace": "Albano Laziale, Roman Empire",
+      "duration": "15 years, 80 days"
+    },
+    {
+      "num": 41,
+      "namePt": "Zósimo",
+      "personalName": "Zosimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/41-St.Zosimus.jpg?width=80",
+      "pontificate": "18 March 417 – 26 December 418",
+      "birthPlace": "Misoraca, Italy, Roman Empire",
+      "duration": "1 year, 283 days"
+    },
+    {
+      "num": 42,
+      "namePt": "Bonifácio I",
+      "personalName": "Bonifacius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/42-St.Boniface_I.jpg?width=80",
+      "pontificate": "28 December 418 – 4 September 422",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "3 years, 250 days"
+    },
+    {
+      "num": 43,
+      "namePt": "Celestino I",
+      "personalName": "Coelestinus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/43-St.Celestine_I.jpg?width=80",
+      "pontificate": "10 September 422 – 27 July 432",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "9 years, 321 days"
+    },
+    {
+      "num": 44,
+      "namePt": "Sisto III",
+      "personalName": "Xystus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/44-St.Sixtus_III.jpg?width=80",
+      "pontificate": "31 July 432 – 18 August 440",
+      "birthPlace": "Rome, Italy, Roman Empire",
+      "duration": "8 years, 18 days"
+    },
+    {
+      "num": 45,
+      "namePt": "Leão I",
+      "personalName": "Leo Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/45-St.Leo_I.jpg?width=80",
+      "pontificate": "29 September 440 – 10 November 461",
+      "birthPlace": "Atual Toscana, Roman Empire",
+      "duration": "21 years, 42 days"
+    },
+    {
+      "num": 46,
+      "namePt": "Hilário",
+      "personalName": "Hilarius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/46-St.Hilarius.jpg?width=80",
+      "pontificate": "19 November 461 – 29 February 468",
+      "birthPlace": "Sardenha, Império Ocidental",
+      "duration": "6 years, 102 days"
+    },
+    {
+      "num": 47,
+      "namePt": "Simplício",
+      "personalName": "Simplicius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/47-St.Simplicius.jpg?width=80",
+      "pontificate": "3 March 468 – 10 March 483",
+      "birthPlace": "Tívoli, Italy, Império Ocidental",
+      "duration": "15 years, 7 days"
+    },
+    {
+      "num": 48,
+      "namePt": "Félix III",
+      "personalName": "Felix Tertius (Secundus)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/48-St.Felix_III.jpg?width=80",
+      "pontificate": "13 March 483 – 1 March 492",
+      "birthPlace": "Rome, Italy, Império Ocidental",
+      "duration": "8 years, 354 days"
+    },
+    {
+      "num": 49,
+      "namePt": "Gelásio I",
+      "personalName": "Gelasius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gelasius_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "1 March 492 – 21 November 496",
+      "birthPlace": "Mauritânia, Império Ocidental",
+      "duration": "4 years, 265 days"
+    },
+    {
+      "num": 50,
+      "namePt": "Anastácio II",
+      "personalName": "Anastasius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/50-Anastasius_II.jpg?width=80",
+      "pontificate": "24 November 496 – 19 November 498",
+      "birthPlace": "Rome, Italy, Império Ocidental",
+      "duration": "1 year, 360 days"
+    },
+    {
+      "num": 51,
+      "namePt": "Símaco",
+      "personalName": "Symmachus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Symmachus.png?width=80",
+      "pontificate": "22 November 498 – 19 July 514",
+      "birthPlace": "Sardenha, Império Ocidental",
+      "duration": "15 years, 239 days"
+    },
+    {
+      "num": 52,
+      "namePt": "Hormisda",
+      "personalName": "Hormisdus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Hormisdas.jpg?width=80",
+      "pontificate": "20 July 514 – 6 August 523",
+      "birthPlace": "Frosinone, Império Ocidental",
+      "duration": "9 years, 17 days"
+    },
+    {
+      "num": 53,
+      "namePt": "João I",
+      "personalName": "Ioannes Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/53-St.John_I.jpg?width=80",
+      "pontificate": "13 August 523 – 18 May 526",
+      "birthPlace": "Toscana, Império Ocidental",
+      "duration": "2 years, 278 days"
+    },
+    {
+      "num": 54,
+      "namePt": "Félix IV",
+      "personalName": "Felix Quartus (Tertius)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Felix_IV.png?width=80",
+      "pontificate": "12 July 526 – 22 September 530",
+      "birthPlace": "Sâmnio, Império Ocidental",
+      "duration": "4 years, 72 days"
+    },
+    {
+      "num": 55,
+      "namePt": "Bonifácio II",
+      "personalName": "Bonifacius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/55-Boniface_II.jpg?width=80",
+      "pontificate": "22 September 530 – 17 October 532",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "2 years, 25 days"
+    },
+    {
+      "num": 56,
+      "namePt": "João II",
+      "personalName": "Ioannes Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/56-John_II.jpg?width=80",
+      "pontificate": "2 January 533 – 8 May 535",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "2 years, 126 days"
+    },
+    {
+      "num": 57,
+      "namePt": "Agapito I",
+      "personalName": "Agapetus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/57-St.Agapetus_I.jpg?width=80",
+      "pontificate": "13 May 535 – 22 April 536",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "345 days"
+    },
+    {
+      "num": 58,
+      "namePt": "Silvério",
+      "personalName": "Silverius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/58-St.Silverius.jpg?width=80",
+      "pontificate": "8 June 536 – c. 11 March 537",
+      "birthPlace": "Frosinone, Reino Visigótico",
+      "duration": "c. 276 days"
+    },
+    {
+      "num": 59,
+      "namePt": "Vigílio",
+      "personalName": "Vigilius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/59-Vigilius.jpg?width=80",
+      "pontificate": "29 March 537 – 7 June 555",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "18 years, 70 days"
+    },
+    {
+      "num": 60,
+      "namePt": "Pelágio I",
+      "personalName": "Pelagius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Pelagius_I.jpg?width=80",
+      "pontificate": "16 April 556 – 4 March 561",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "4 years, 322 days"
+    },
+    {
+      "num": 61,
+      "namePt": "João III",
+      "personalName": "Ioannes Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/61-John_III.jpg?width=80",
+      "pontificate": "17 July 561 – 13 July 574",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "12 years, 361 days"
+    },
+    {
+      "num": 62,
+      "namePt": "Bento I",
+      "personalName": "Benedictus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/62-Benedict_I.jpg?width=80",
+      "pontificate": "2 June 575 – 30 July 579",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "4 years, 58 days"
+    },
+    {
+      "num": 63,
+      "namePt": "Pelágio II",
+      "personalName": "Pelagius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PopePelagiusII.jpg?width=80",
+      "pontificate": "26 November 579 – 7 February 590",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "10 years, 73 days"
+    },
+    {
+      "num": 64,
+      "namePt": "Gregório I",
+      "personalName": "Gregorius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregorius_I.png?width=80",
+      "pontificate": "3 September 590 – 12 March 604",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "13 years, 191 days"
+    },
+    {
+      "num": 65,
+      "namePt": "Sabiniano",
+      "personalName": "Sabinianus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/65-Sabinian.jpg?width=80",
+      "pontificate": "13 September 604 – 22 February 606",
+      "birthPlace": "Blera, Reino Visigótico",
+      "duration": "1 year, 162 days"
+    },
+    {
+      "num": 66,
+      "namePt": "Bonifácio III",
+      "personalName": "Bonifacius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonifacius_III.png?width=80",
+      "pontificate": "19 February 607 – 12 November 607",
+      "birthPlace": "Rome, Reino Visigótico",
+      "duration": "266 days"
+    },
+    {
+      "num": 67,
+      "namePt": "Bonifácio IV",
+      "personalName": "Bonifacius Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/San_Bonifacio_IV_papa1.gif?width=80",
+      "pontificate": "25 August 608 – 8 May 615",
+      "birthPlace": "Marsi, Reino Visigótico",
+      "duration": "6 years, 256 days"
+    },
+    {
+      "num": 68,
+      "namePt": "Adeodato I",
+      "personalName": "Adeodatus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/San_Adeodato_I_papa1.gif?width=80",
+      "pontificate": "19 October 615 – 8 November 618",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "3 years, 20 days"
+    },
+    {
+      "num": 69,
+      "namePt": "Bonifácio V",
+      "personalName": "Bonifacius Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/69-Boniface_V.jpg?width=80",
+      "pontificate": "23 December 619 – 25 October 625",
+      "birthPlace": "Nápoles, Império Bizantino",
+      "duration": "5 years, 306 days"
+    },
+    {
+      "num": 70,
+      "namePt": "Honório I",
+      "personalName": "Honorius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Honorius_I.png?width=80",
+      "pontificate": "27 October 625 – 12 October 638",
+      "birthPlace": "Campânia, Império Bizantino",
+      "duration": "12 years, 350 days"
+    },
+    {
+      "num": 71,
+      "namePt": "Severino",
+      "personalName": "Severinus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/71-Severinus.jpg?width=80",
+      "pontificate": "15 October 638 – 2 August 640",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "1 year, 292 days"
+    },
+    {
+      "num": 72,
+      "namePt": "João IV",
+      "personalName": "Ioannes Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ioannes_IV.png?width=80",
+      "pontificate": "24 December 640 – 12 October 642",
+      "birthPlace": "Zadar, Dalmácia, Império Bizantino",
+      "duration": "1 year, 292 days"
+    },
+    {
+      "num": 73,
+      "namePt": "Teodoro I",
+      "personalName": "Theodorus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Theodorus_I.png?width=80",
+      "pontificate": "24 November 642 – 14 May 649",
+      "birthPlace": "Palestina, Império Bizantino",
+      "duration": "6 years, 171 days"
+    },
+    {
+      "num": 74,
+      "namePt": "Martinho I",
+      "personalName": "Martinus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Martinus_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "21 July 649 – 16 September 655",
+      "birthPlace": "Perto de Todi, Úmbria, Império Bizantino",
+      "duration": "6 years, 57 days"
+    },
+    {
+      "num": 75,
+      "namePt": "Eugénio I",
+      "personalName": "Eugenius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eugenius_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "10 August 654 – 2 June 657",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "2 years, 296 days"
+    },
+    {
+      "num": 76,
+      "namePt": "Vitaliano",
+      "personalName": "Vitalianus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vitalianus_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "30 July 657 – 27 January 672",
+      "birthPlace": "Segni, Império Bizantino",
+      "duration": "14 years, 181 days"
+    },
+    {
+      "num": 77,
+      "namePt": "Adeodato II",
+      "personalName": "Adeodatus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/77-Adeodatus_II.jpg?width=80",
+      "pontificate": "11 April 672 – 17 June 676",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "4 years, 67 days"
+    },
+    {
+      "num": 78,
+      "namePt": "Dono",
+      "personalName": "Donus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/78-Donus.jpg?width=80",
+      "pontificate": "2 November 676 – 11 April 678",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "1 year, 160 days"
+    },
+    {
+      "num": 79,
+      "namePt": "Agatão",
+      "personalName": "Agatho",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agatho_(e-c).png?width=80",
+      "pontificate": "27 June 678 – 10 January 681",
+      "birthPlace": "Sicília, Império Bizantino",
+      "duration": "2 years, 197 days"
+    },
+    {
+      "num": 80,
+      "namePt": "Leão II",
+      "personalName": "Leo Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/80-St.Leo_II.jpg?width=80",
+      "pontificate": "17 August 682 – 28 June 683",
+      "birthPlace": "Sicília, Império Bizantino",
+      "duration": "315 days"
+    },
+    {
+      "num": 81,
+      "namePt": "Bento II",
+      "personalName": "Benedictus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/81-St.Benedict_II.jpg?width=80",
+      "pontificate": "26 June 684 – 8 May 685",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "316 days"
+    },
+    {
+      "num": 82,
+      "namePt": "João V",
+      "personalName": "Ioannes Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/82-John_V.jpg?width=80",
+      "pontificate": "23 July 685 – 2 August 686",
+      "birthPlace": "Síria, Império Bizantino",
+      "duration": "1 year, 10 days"
+    },
+    {
+      "num": 83,
+      "namePt": "Cónon",
+      "personalName": "Conon",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/83-Conon.jpg?width=80",
+      "pontificate": "21 October 686 – 21 September 687",
+      "birthPlace": "Sicília, Império Bizantino",
+      "duration": "335 days"
+    },
+    {
+      "num": 84,
+      "namePt": "Sérgio I",
+      "personalName": "Sergius Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/84-St.Sergius_I.jpg?width=80",
+      "pontificate": "15 December 687 – 8 September 701",
+      "birthPlace": "Sicília, Império Bizantino",
+      "duration": "13 years, 267 days"
+    },
+    {
+      "num": 85,
+      "namePt": "João VI",
+      "personalName": "Ioannes Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/85-John_VI.jpg?width=80",
+      "pontificate": "30 October 701 – 11 January 705",
+      "birthPlace": "Grécia, Império Bizantino",
+      "duration": "3 years, 73 days"
+    },
+    {
+      "num": 86,
+      "namePt": "João VII",
+      "personalName": "Ioannes Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ioannes_VII.png?width=80",
+      "pontificate": "1 March 705 – 18 October 707",
+      "birthPlace": "Rossano, Império Bizantino",
+      "duration": "2 years, 231 days"
+    },
+    {
+      "num": 87,
+      "namePt": "Sisínio",
+      "personalName": "Sisinnius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/87-Sisinnius.jpg?width=80",
+      "pontificate": "15 January 708 – 4 February 708",
+      "birthPlace": "Síria, Império Bizantino",
+      "duration": "20 days"
+    },
+    {
+      "num": 88,
+      "namePt": "Constantino",
+      "personalName": "Constantinus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/88-Constantine.jpg?width=80",
+      "pontificate": "25 March 708 – 9 April 715",
+      "birthPlace": "Síria, Império Bizantino",
+      "duration": "7 years, 15 days"
+    },
+    {
+      "num": 89,
+      "namePt": "Gregório II",
+      "personalName": "Gregorius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/89-St.Gregory_II.jpg?width=80",
+      "pontificate": "19 May 715 – 11 February 731",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "15 years, 268 days"
+    },
+    {
+      "num": 90,
+      "namePt": "Gregório III",
+      "personalName": "Gregorius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/90-St.Gregory_III.jpg?width=80",
+      "pontificate": "18 March 731 – 28 November 741",
+      "birthPlace": "Bilad al-Sham, Califado Omíada",
+      "duration": "10 years, 255 days"
+    },
+    {
+      "num": 91,
+      "namePt": "Zacarias",
+      "personalName": "Zacharias",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/00Zaccaria_Papa.jpg?width=80",
+      "pontificate": "3 December 741 – 22 March 752",
+      "birthPlace": "Santa Severina, Império Bizantino",
+      "duration": "10 years, 110 days"
+    },
+    {
+      "num": 92,
+      "namePt": "Estêvão II",
+      "personalName": "Stephanus Secundus (Tertius)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephanus_III.png?width=80",
+      "pontificate": "26 March 752 – 26 April 757",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "5 years, 31 days"
+    },
+    {
+      "num": 93,
+      "namePt": "Paulo I",
+      "personalName": "Paulus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/93-St.Paul_I.jpg?width=80",
+      "pontificate": "29 May 757 – 28 June 767",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "10 years, 30 days"
+    },
+    {
+      "num": 94,
+      "namePt": "Estêvão III",
+      "personalName": "Stephanus Tertius (Quartus)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephanus_IV.png?width=80",
+      "pontificate": "7 August 767 – 24 January 772",
+      "birthPlace": "Sicília, Império Bizantino",
+      "duration": "4 years, 170 days"
+    },
+    {
+      "num": 95,
+      "namePt": "Adriano I",
+      "personalName": "Hadrianus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/95-Adrian_I.jpg?width=80",
+      "pontificate": "1 February 772 – 25 December 795",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "23 years, 327 days"
+    },
+    {
+      "num": 96,
+      "namePt": "Leão III",
+      "personalName": "Leo Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leo_III.png?width=80",
+      "pontificate": "26 December 795 – 12 June 816",
+      "birthPlace": "Rome, Império Bizantino",
+      "duration": "20 years, 169 days"
+    },
+    {
+      "num": 97,
+      "namePt": "Estêvão IV",
+      "personalName": "Stephanus Quartus (Quintus)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leo_VIII.png?width=80",
+      "pontificate": "22 June 816 – 24 January 817",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "216 days"
+    },
+    {
+      "num": 98,
+      "namePt": "Pascoal I",
+      "personalName": "Paschalis Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paschalis_I.png?width=80",
+      "pontificate": "25 January 817 – 11 February 824",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "7 years, 17 days"
+    },
+    {
+      "num": 99,
+      "namePt": "Eugénio II",
+      "personalName": "Eugenius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/99-Eugene_II.jpg?width=80",
+      "pontificate": "c. 8 May 824 – 27 August 827",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 3 years, 111 days"
+    },
+    {
+      "num": 100,
+      "namePt": "Valentino",
+      "personalName": "Valentinus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/100-Valentine.jpg?width=80",
+      "pontificate": "c. 31 August 827 – c. 10 October 827",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 40 days"
+    },
+    {
+      "num": 101,
+      "namePt": "Gregório IV",
+      "personalName": "Gregorius Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory-IV_(cropped).jpg?width=80",
+      "pontificate": "c. 20 December 827 – 25 January 844",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 16 years, 36 days"
+    },
+    {
+      "num": 102,
+      "namePt": "Sérgio II",
+      "personalName": "Sergius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/102-Sergius_II.jpg?width=80",
+      "pontificate": "25 January 844 – 27 January 847",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "3 years, 2 days"
+    },
+    {
+      "num": 103,
+      "namePt": "Leão IV",
+      "personalName": "Leo Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_St._Leo_IV.jpg?width=80",
+      "pontificate": "10 April 847 – 17 July 855",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "8 years, 98 days"
+    },
+    {
+      "num": 104,
+      "namePt": "Bento III",
+      "personalName": "Benedictus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/104-Benedict_III.jpg?width=80",
+      "pontificate": "29 September 855 – 17 April 858",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "2 years, 200 days"
+    },
+    {
+      "num": 105,
+      "namePt": "Nicolau I",
+      "personalName": "Nicolaus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/105-St.Nicholas_I.jpg?width=80",
+      "pontificate": "24 April 858 – 13 November 867",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "9 years, 203 days"
+    },
+    {
+      "num": 106,
+      "namePt": "Adriano II",
+      "personalName": "Hadrianus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/106-Adrian_II.jpg?width=80",
+      "pontificate": "14 December 867 – 14 December 872",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "5 years, 0 days"
+    },
+    {
+      "num": 107,
+      "namePt": "João VIII",
+      "personalName": "Ioannes Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jan-VIII.jpg?width=80",
+      "pontificate": "14 December 872 – 16 December 882",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "10 years, 2 days"
+    },
+    {
+      "num": 108,
+      "namePt": "Marinho I",
+      "personalName": "Marinus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/108-Marinus_I.jpg?width=80",
+      "pontificate": "16 December 882 – 15 May 884",
+      "birthPlace": "Gallese, Estados Papais",
+      "duration": "1 year, 151 days"
+    },
+    {
+      "num": 109,
+      "namePt": "Adriano III",
+      "personalName": "Hadrianus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Adrianus_III_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "17 May 884 – 8 July 885",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "1 year, 52 days"
+    },
+    {
+      "num": 110,
+      "namePt": "Estêvão V",
+      "personalName": "Stephanus Quintus (Sextus)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephanus_V_(VI)_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "4 September 885 – 14 September 891",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "6 years, 10 days"
+    },
+    {
+      "num": 111,
+      "namePt": "Formoso",
+      "personalName": "Formosus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PopeFormosusBW.jpg?width=80",
+      "pontificate": "6 October 891 – 4 April 896",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "4 years, 181 days"
+    },
+    {
+      "num": 112,
+      "namePt": "Bonifácio VI",
+      "personalName": "Bonifacius Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonifacius_VI._Bonifacio_VI%2C_papa_(cropped).jpg?width=80",
+      "pontificate": "11 April 896 – 26 April 896",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "15 days"
+    },
+    {
+      "num": 113,
+      "namePt": "Estêvão VI",
+      "personalName": "Stephanus Sextus (Septimus)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Stephen_VII_(2).jpg?width=80",
+      "pontificate": "22 May 896 – c. 14 August 897",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 1 year, 84 days"
+    },
+    {
+      "num": 114,
+      "namePt": "Romano",
+      "personalName": "Romanus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Romanus_Illustration.jpg?width=80",
+      "pontificate": "c. 14 August 897 – c. 14 November 897",
+      "birthPlace": "Gallese, Estados Papais",
+      "duration": "c. 92 days"
+    },
+    {
+      "num": 115,
+      "namePt": "Teodoro II",
+      "personalName": "Theodorus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/115-Theodore_II.jpg?width=80",
+      "pontificate": "c. 1 December 897 – c. 20 December 897",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 19 days"
+    },
+    {
+      "num": 116,
+      "namePt": "João IX",
+      "personalName": "Ioannes Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/116-John_IX.jpg?width=80",
+      "pontificate": "18 January 898 – 5 January 900",
+      "birthPlace": "Tivoli, Estados Papais",
+      "duration": "1 year, 352 days"
+    },
+    {
+      "num": 117,
+      "namePt": "Bento IV",
+      "personalName": "Benedictus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/117-Benedict_IV.jpg?width=80",
+      "pontificate": "1 February 900 a30 July 903",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "3 years, 179 days"
+    },
+    {
+      "num": 118,
+      "namePt": "Leão V",
+      "personalName": "Leo Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Leo_V_Illustration.jpg?width=80",
+      "pontificate": "c. 30 July 903 – c. December 903",
+      "birthPlace": "Árdea, Estados Papais",
+      "duration": "c. 124 days"
+    },
+    {
+      "num": 119,
+      "namePt": "Sérgio III",
+      "personalName": "Sergius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/119-Sergius_III.jpg?width=80",
+      "pontificate": "29 January 904 – 14 April 911",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "7 years, 75 days"
+    },
+    {
+      "num": 120,
+      "namePt": "Anastácio III",
+      "personalName": "Anastasius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Anastasius_III_Illustration.jpg?width=80",
+      "pontificate": "c. 14 April 911 – c. June 913",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 2 years, 48 days"
+    },
+    {
+      "num": 121,
+      "namePt": "Lando",
+      "personalName": "Landus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Lando_Illustration.jpg?width=80",
+      "pontificate": "c. 7 July 913 – c. 5 February 914",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 212 days"
+    },
+    {
+      "num": 122,
+      "namePt": "João X",
+      "personalName": "Ioannes Decimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_John_X_Illustration.jpg?width=80",
+      "pontificate": "c. March 914 ac. 28 May 928",
+      "birthPlace": "Romanha, Estados Papais",
+      "duration": "c. 14 years, 88 days"
+    },
+    {
+      "num": 123,
+      "namePt": "Leão VI",
+      "personalName": "Leo Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Leo_VI_Illustration.jpg?width=80",
+      "pontificate": "c. 28 May 928 – c. February 929",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 249 days"
+    },
+    {
+      "num": 124,
+      "namePt": "Estêvão VII",
+      "personalName": "Stephanus Septimus (Octavus)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephen_VIII.png?width=80",
+      "pontificate": "c. 3 February 929 – 15 March 931",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 2 years, 40 days"
+    },
+    {
+      "num": 125,
+      "namePt": "João XI",
+      "personalName": "Ioannes Undecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/125-John_XI.jpg?width=80",
+      "pontificate": "c. 15 March 931 – c. December 935",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 4 years, 261 days"
+    },
+    {
+      "num": 126,
+      "namePt": "Leão VII",
+      "personalName": "Leo Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leone-VII.jpg?width=80",
+      "pontificate": "3 January 936 – 13 July 939",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "3 years, 191 days"
+    },
+    {
+      "num": 127,
+      "namePt": "Estêvão VIII",
+      "personalName": "Stephanus Octavus (Nonus)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephanus_IX.png?width=80",
+      "pontificate": "14 July 939 – c. 30 October 942",
+      "birthPlace": "Frância Oriental",
+      "duration": "c. 3 years, 108 days"
+    },
+    {
+      "num": 128,
+      "namePt": "Marinho II",
+      "personalName": "Marinus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/128-Marinus_II.jpg?width=80",
+      "pontificate": "30 October 942 – c. 1 May 946",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 3 years, 183 days"
+    },
+    {
+      "num": 129,
+      "namePt": "Agapito II",
+      "personalName": "Agapetus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agapitus_II_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "10 May 946 – 8 November 955",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "9 years, 182 days"
+    },
+    {
+      "num": 130,
+      "namePt": "João XII",
+      "personalName": "Ioannes Duodecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ioannes_XII_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "16 December 955 – 14 May 964",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "8 years, 150 days"
+    },
+    {
+      "num": 131,
+      "namePt": "Bento V",
+      "personalName": "Benedictus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictus_V_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "22 May 964 – 23 June 964",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "32 days"
+    },
+    {
+      "num": 132,
+      "namePt": "Leão VIII",
+      "personalName": "Leo Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Leo_VIII.jpg?width=80",
+      "pontificate": "23 June 964 – 1 March 965",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "251 days"
+    },
+    {
+      "num": 133,
+      "namePt": "João XIII",
+      "personalName": "Ioannes Decimus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/133-John_XIII.jpg?width=80",
+      "pontificate": "1 October 965 – 6 September 972",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "6 years, 341 days"
+    },
+    {
+      "num": 134,
+      "namePt": "Bento VI",
+      "personalName": "Benedictus Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Benedict_VI_Illustration.jpg?width=80",
+      "pontificate": "19 January 973 – c. 8 June 974",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 1 year, 140 days"
+    },
+    {
+      "num": 135,
+      "namePt": "Bento VII",
+      "personalName": "Benedictus Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Benedict_VII_Illustration.jpg?width=80",
+      "pontificate": "c. October 974 – 10 July 983",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 8 years, 282 days"
+    },
+    {
+      "num": 136,
+      "namePt": "João XIV",
+      "personalName": "Ioannes Decimus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_John_XIV_Illustration.jpg?width=80",
+      "pontificate": "c. December 983 – 20 August 984",
+      "birthPlace": "Pavia, Sacro Roman Empire",
+      "duration": "c. 263 days"
+    },
+    {
+      "num": 137,
+      "namePt": "João XV",
+      "personalName": "Ioannes Decimus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_John_XV_Illustration.jpg?width=80",
+      "pontificate": "c. 20 August 985 – c. 1 April 996",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "c. 10 years, 225 days"
+    },
+    {
+      "num": 138,
+      "namePt": "Gregório V",
+      "personalName": "Gregorius Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregorius_V.png?width=80",
+      "pontificate": "3 May 996 – 18 February 999",
+      "birthPlace": "Saxônia, Sacro Roman Empire",
+      "duration": "2 years, 291 days"
+    },
+    {
+      "num": 139,
+      "namePt": "Silvestre II",
+      "personalName": "Silvester Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Silvester_II_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "2 April 999 – 12 May 1003",
+      "birthPlace": "Auvernia, France",
+      "duration": "4 years, 40 days"
+    },
+    {
+      "num": 140,
+      "namePt": "João XVII",
+      "personalName": "Ioannes Decimus Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ioannes_XVIII.jpg?width=80",
+      "pontificate": "16 May 1003 – 6 November 1003",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "174 days"
+    },
+    {
+      "num": 141,
+      "namePt": "João XVIII",
+      "personalName": "Ioannes Duodevicesimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ioannes_XIX.png?width=80",
+      "pontificate": "25 December 1003 – 31 July 1009",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "5 years, 218 days"
+    },
+    {
+      "num": 142,
+      "namePt": "Sérgio IV",
+      "personalName": "",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sergius_IV_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "31 July 1009 – 12 May 1012",
+      "birthPlace": "Rapagnano, Sacro Roman Empire",
+      "duration": "2 years, 286 days"
+    },
+    {
+      "num": 143,
+      "namePt": "Bento VIII",
+      "personalName": "Bendedictus Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictus_VIII.png?width=80",
+      "pontificate": "18 May 1012 – 9 April 1024",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "11 years, 327 days"
+    },
+    {
+      "num": 144,
+      "namePt": "João XIX",
+      "personalName": "Ioannes Undevicesimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Johannes_XIX.jpg?width=80",
+      "pontificate": "9 April 1024 – 20 October 1032",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "8 years, 194 days"
+    },
+    {
+      "num": 145,
+      "namePt": "Bento IX",
+      "personalName": "Benedictus Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictus_IX_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "21 October 1032 – 13 January 1045",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "12 years, 84 days"
+    },
+    {
+      "num": 146,
+      "namePt": "Silvestre III",
+      "personalName": "Silvester Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Sylvester_III_%E2%80%93_Nuremberg_chronicles_f_188v_1.jpg?width=80",
+      "pontificate": "16 January 1045 – 10 April 1045",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "84 days"
+    },
+    {
+      "num": 147,
+      "namePt": "Bento IX",
+      "personalName": "Benedictus Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictus_IX_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "10 April 1045 – 1 May 1045",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "21 days"
+    },
+    {
+      "num": 148,
+      "namePt": "Gregório VI",
+      "personalName": "Gregorius Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregorius_VI_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "1 May 1045 – 20 December 1046",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "1 year, 233 days"
+    },
+    {
+      "num": 149,
+      "namePt": "Clemente II",
+      "personalName": "Clemens Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clemens_II_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "20 December 1046 – 9 October 1047",
+      "birthPlace": "Hornburg, Sacro Roman Empire",
+      "duration": "293 days"
+    },
+    {
+      "num": 150,
+      "namePt": "Bento IX",
+      "personalName": "Benedictus Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictus_IX_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "9 October 1047 – 17 July 1048",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "282 days"
+    },
+    {
+      "num": 151,
+      "namePt": "Dâmaso II",
+      "personalName": "Damasus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Damasus_II_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "17 July 1048 – 9 August 1048",
+      "birthPlace": "Pildenau, Sacro Roman Empire",
+      "duration": "23 days"
+    },
+    {
+      "num": 152,
+      "namePt": "Leão IX",
+      "personalName": "Leo Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leo_IX.png?width=80",
+      "pontificate": "12 February 1049 – 19 April 1054",
+      "birthPlace": "Eguischeim, Sacro Roman Empire",
+      "duration": "5 years, 66 days"
+    },
+    {
+      "num": 153,
+      "namePt": "Vítor II",
+      "personalName": "Victor Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_II_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "13 April 1055 – 28 July 1057",
+      "birthPlace": "Baviera, Sacro Roman Empire",
+      "duration": "2 years, 106 days"
+    },
+    {
+      "num": 154,
+      "namePt": "Estêvão IX",
+      "personalName": "Stephanus Nonus (Decimus)",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephen_IX_(X).jpg?width=80",
+      "pontificate": "2 August 1057 – 29 March 1058",
+      "birthPlace": "Lorena, Sacro Roman Empire",
+      "duration": "239 days"
+    },
+    {
+      "num": 155,
+      "namePt": "Nicolau II",
+      "personalName": "Nicolaus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Guiscard_claimed_as_a_Duke_(Detail_of_Nicholas_II).jpg?width=80",
+      "pontificate": "6 December 1058 – 27 July 1061",
+      "birthPlace": "Mercury, France",
+      "duration": "2 years, 233 days"
+    },
+    {
+      "num": 156,
+      "namePt": "Alexandre II",
+      "personalName": "Alexander Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_II_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "30 September 1061 – 21 April 1073",
+      "birthPlace": "Milão, Sacro Roman Empire",
+      "duration": "11 years, 203 days"
+    },
+    {
+      "num": 157,
+      "namePt": "Gregório VII",
+      "personalName": "Gregorius Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregorius_VII_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "22 April 1073 – 25 May 1085",
+      "birthPlace": "Sovana, Sacro Roman Empire",
+      "duration": "12 years, 33 days"
+    },
+    {
+      "num": 158,
+      "namePt": "Vítor III",
+      "personalName": "Victor Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_III_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "24 May 1086 – 16 September 1087",
+      "birthPlace": "Benevento, Ducado de Benevento",
+      "duration": "1 year, 115 days"
+    },
+    {
+      "num": 159,
+      "namePt": "Urbano II",
+      "personalName": "Urbanus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Urbanus_II_(Saint_Paul_Outside_the_Walls).png?width=80",
+      "pontificate": "12 March 1088 – 29 July 1099",
+      "birthPlace": "Lagery, France",
+      "duration": "11 years, 139 days"
+    },
+    {
+      "num": 160,
+      "namePt": "Pascoal II",
+      "personalName": "Paschalis Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paschalis_II.png?width=80",
+      "pontificate": "13 August 1099 – 21 January 1118",
+      "birthPlace": "Santa Sofia, Sacro Roman Empire",
+      "duration": "18 years, 161 days"
+    },
+    {
+      "num": 161,
+      "namePt": "Gelásio II",
+      "personalName": "Gelasius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GelasioII.gif?width=80",
+      "pontificate": "24 January 1118 – 29 January 1119",
+      "birthPlace": "Gaeta, Principado de Cápua",
+      "duration": "1 year, 5 days"
+    },
+    {
+      "num": 162,
+      "namePt": "Calisto II",
+      "personalName": "Callistus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Callistus_II.png?width=80",
+      "pontificate": "2 February 1119 – 13 December 1124",
+      "birthPlace": "Quingey, Sacro Roman Empire",
+      "duration": "5 years, 315 days"
+    },
+    {
+      "num": 163,
+      "namePt": "Honório II",
+      "personalName": "Honorius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_honorius_ii.jpg?width=80",
+      "pontificate": "15 December 1124 – 13 February 1130",
+      "birthPlace": "Casalfiumanese, Sacro Roman Empire",
+      "duration": "5 years, 60 days"
+    },
+    {
+      "num": 164,
+      "namePt": "Inocêncio II",
+      "personalName": "Innocentius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Innocent_II_%E2%80%93_Santa_Maria_in_Trastevere.jpg?width=80",
+      "pontificate": "14 February 1130 – 24 September 1143",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "13 years, 232 days"
+    },
+    {
+      "num": 165,
+      "namePt": "Celestino II",
+      "personalName": "Coelestinus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caelestinus_II.jpg?width=80",
+      "pontificate": "26 September 1143 – 8 March 1144",
+      "birthPlace": "Città di Castello, Sacro Roman Empire",
+      "duration": "164 days"
+    },
+    {
+      "num": 166,
+      "namePt": "Lúcio II",
+      "personalName": "Lucius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Lucius_II.jpg?width=80",
+      "pontificate": "9 March 1144 – 15 February 1145",
+      "birthPlace": "Bolonha, Sacro Roman Empire",
+      "duration": "343 days"
+    },
+    {
+      "num": 167,
+      "namePt": "Eugénio III",
+      "personalName": "Eugenius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Eugen_III.jpg?width=80",
+      "pontificate": "15 February 1145 – 8 July 1153",
+      "birthPlace": "Pisa, Sacro Roman Empire",
+      "duration": "8 years, 143 days"
+    },
+    {
+      "num": 168,
+      "namePt": "Anastácio IV",
+      "personalName": "Anastacius Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Anastasius_IV.jpg?width=80",
+      "pontificate": "8 July 1153 – 3 December 1154",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "1 year, 148 days"
+    },
+    {
+      "num": 169,
+      "namePt": "Adriano IV",
+      "personalName": "Hadrianus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Adorj%C3%A1n_p%C3%A1pa.jpg?width=80",
+      "pontificate": "4 December 1154 – 1 September 1159",
+      "birthPlace": "Hertfordshire, England",
+      "duration": "4 years, 271 days"
+    },
+    {
+      "num": 170,
+      "namePt": "Alexandre III",
+      "personalName": "Alexander Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_alessandro_III_illustrazione_di_spinello_aretino_particolare_siena_italia_03.gif?width=80",
+      "pontificate": "7 September 1159 – 30 August 1181",
+      "birthPlace": "Siena, Sacro Roman Empire",
+      "duration": "21 years, 357 days"
+    },
+    {
+      "num": 171,
+      "namePt": "Lúcio III",
+      "personalName": "Lucius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Lucius_III.png?width=80",
+      "pontificate": "1 September 1181 – 25 November 1185",
+      "birthPlace": "Luca, Sacro Roman Empire",
+      "duration": "4 years, 85 days"
+    },
+    {
+      "num": 172,
+      "namePt": "Urbano III",
+      "personalName": "Urbanus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Urban_III.jpg?width=80",
+      "pontificate": "25 November 1185 – 20 October 1187",
+      "birthPlace": "Cuggiono, Sacro Roman Empire",
+      "duration": "1 year, 329 days"
+    },
+    {
+      "num": 173,
+      "namePt": "Gregório VIII",
+      "personalName": "Gregorius Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Gregor_VIII.jpg?width=80",
+      "pontificate": "21 October 1187 – 17 December 1187",
+      "birthPlace": "Benevento, Sacro Roman Empire",
+      "duration": "57 days"
+    },
+    {
+      "num": 174,
+      "namePt": "Clemente III",
+      "personalName": "Clemens Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Clemens_III.jpg?width=80",
+      "pontificate": "19 December 1187 – 20 March 1191",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "3 years, 91 days"
+    },
+    {
+      "num": 175,
+      "namePt": "Celestino III",
+      "personalName": "Coelestinus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Celestin_III.jpg?width=80",
+      "pontificate": "30 March 1191 – 8 January 1198",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "6 years, 284 days"
+    },
+    {
+      "num": 176,
+      "namePt": "Inocêncio III",
+      "personalName": "Innocentius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Innozenz3.jpg?width=80",
+      "pontificate": "8 January 1198 – 16 July 1216",
+      "birthPlace": "Gavignano, Sacro Roman Empire",
+      "duration": "18 years, 190 days"
+    },
+    {
+      "num": 177,
+      "namePt": "Honório III",
+      "personalName": "Honorius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Honorious_III_kneeling_at_feet_of_Christ.jpg?width=80",
+      "pontificate": "18 July 1216 – 18 March 1227",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "10 years, 243 days"
+    },
+    {
+      "num": 178,
+      "namePt": "Gregório IX",
+      "personalName": "Gregorius Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory_IX_bas-relief_in_the_U.S._House_of_Representatives_chamber.jpg?width=80",
+      "pontificate": "19 March 1227 – 22 August 1241",
+      "birthPlace": "Anagni, Sacro Roman Empire",
+      "duration": "14 years, 156 days"
+    },
+    {
+      "num": 179,
+      "namePt": "Celestino IV",
+      "personalName": "Coelestinus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Colestin_IV.jpg?width=80",
+      "pontificate": "25 October 1241 – 10 November 1241",
+      "birthPlace": "Milão, Sacro Roman Empire",
+      "duration": "16 days"
+    },
+    {
+      "num": 180,
+      "namePt": "Inocêncio IV",
+      "personalName": "Innocentius Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Innocent_IV.jpg?width=80",
+      "pontificate": "25 June 1243 – 7 December 1254",
+      "birthPlace": "Génova, República de Génova",
+      "duration": "11 years, 165 days"
+    },
+    {
+      "num": 181,
+      "namePt": "Alexandre IV",
+      "personalName": "Alexander Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Alexander_IV.jpg?width=80",
+      "pontificate": "12 December 1254 – 25 May 1261",
+      "birthPlace": "Anagni, Sacro Roman Empire",
+      "duration": "6 years, 164 days"
+    },
+    {
+      "num": 182,
+      "namePt": "Urbano IV",
+      "personalName": "Urbanus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Urbano_IV%2C_di_Cristofano_dell'Altissimo%2C1552-68_-FG.jpg?width=80",
+      "pontificate": "29 August 1261 – 2 October 1264",
+      "birthPlace": "Troyes, France",
+      "duration": "3 years, 34 days"
+    },
+    {
+      "num": 183,
+      "namePt": "Clemente IV",
+      "personalName": "Clemens Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papst_Clemens_IV.jpg?width=80",
+      "pontificate": "5 February 1265 – 29 November 1268",
+      "birthPlace": "Saint-Gilles, France",
+      "duration": "3 years, 298 days"
+    },
+    {
+      "num": 184,
+      "namePt": "Gregório X",
+      "personalName": "Gregorius Decimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory_X%2C_Buffalmacco%2C_Arezzo_Cathedral.jpg?width=80",
+      "pontificate": "1 September 1271 – 10 January 1276",
+      "birthPlace": "Placência, Sacro Roman Empire",
+      "duration": "4 years, 131 days"
+    },
+    {
+      "num": 185,
+      "namePt": "Inocêncio V",
+      "personalName": "Innocentius Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/InnocentV.jpg?width=80",
+      "pontificate": "21 January 1276 – 22 June 1276",
+      "birthPlace": "Saboia, Sacro Roman Empire",
+      "duration": "153 days"
+    },
+    {
+      "num": 186,
+      "namePt": "Adriano V",
+      "personalName": "Hadrianus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A20_ADRIANO_V.jpg?width=80",
+      "pontificate": "11 July 1276 – 18 August 1276",
+      "birthPlace": "Génova, República de Génova",
+      "duration": "38 days"
+    },
+    {
+      "num": 187,
+      "namePt": "João XXI",
+      "personalName": "Ioannes Vicesimus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_John_XXI_(crop).jpg?width=80",
+      "pontificate": "8 September 1276 – 20 May 1277",
+      "birthPlace": "Lisboa, Portugal",
+      "duration": "254 days"
+    },
+    {
+      "num": 188,
+      "namePt": "Nicolau III",
+      "personalName": "Nicolaus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NicholasIII.jpg?width=80",
+      "pontificate": "25 November 1277 – 22 August 1280",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "2 years, 271 days"
+    },
+    {
+      "num": 189,
+      "namePt": "Martinho IV",
+      "personalName": "Martinus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Martin_IV.jpg?width=80",
+      "pontificate": "22 February 1281 – 28 March 1285",
+      "birthPlace": "Meinpicien, France",
+      "duration": "4 years, 34 days"
+    },
+    {
+      "num": 190,
+      "namePt": "Honório IV",
+      "personalName": "Honorius Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/A24_ONORIO_IV.jpg?width=80",
+      "pontificate": "2 April 1285 – 3 April 1287",
+      "birthPlace": "Rome, Sacro Roman Empire",
+      "duration": "2 years, 1 day"
+    },
+    {
+      "num": 191,
+      "namePt": "Nicolau IV",
+      "personalName": "Nicolaus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/NicholasIV.jpg?width=80",
+      "pontificate": "22 February 1288 – 4 April 1292",
+      "birthPlace": "Lisciano Niccone, Sacro Roman Empire",
+      "duration": "4 years, 42 days"
+    },
+    {
+      "num": 192,
+      "namePt": "Celestino V",
+      "personalName": "Coelestinus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/B_Colestin_V.jpg?width=80",
+      "pontificate": "5 July 1294 – 13 December 1294",
+      "birthPlace": "Sant'Angelo Limosano, Reino da Sicília",
+      "duration": "161 days"
+    },
+    {
+      "num": 193,
+      "namePt": "Bonifácio VIII",
+      "personalName": "Bonifacius Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonifatius_VIII_Grabstatue.JPG?width=80",
+      "pontificate": "24 December 1294 – 11 October 1303",
+      "birthPlace": "Anagni, Sacro Roman Empire",
+      "duration": "8 years, 261 days"
+    },
+    {
+      "num": 194,
+      "namePt": "Bento XI",
+      "personalName": "Benedictus Undecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Benedict_XI.jpg?width=80",
+      "pontificate": "22 October 1303 – 7 July 1304",
+      "birthPlace": "Treviso, Sacro Roman Empire",
+      "duration": "259 days"
+    },
+    {
+      "num": 195,
+      "namePt": "Clemente V",
+      "personalName": "Clemens Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea_di_bonaiuto%2C_apoteosi_di_san_tommaso_d'aquino%2C_scienze_ed_arti_02_Legge_canonica_e_Clemente_V_3.jpg?width=80",
+      "pontificate": "5 June 1305 – 20 April 1314",
+      "birthPlace": "Villandraut, France",
+      "duration": "8 years, 319 days"
+    },
+    {
+      "num": 196,
+      "namePt": "João XXII",
+      "personalName": "Ioannes Vicesimus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/John22.jpg?width=80",
+      "pontificate": "7 August 1316 – 4 December 1334",
+      "birthPlace": "Cahors, France",
+      "duration": "18 years, 119 days"
+    },
+    {
+      "num": 197,
+      "namePt": "Bento XII",
+      "personalName": "Benedictus Duodecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedikt_XII1.gif?width=80",
+      "pontificate": "20 December 1334 – 25 April 1342",
+      "birthPlace": "Saverdun, France",
+      "duration": "7 years, 126 days"
+    },
+    {
+      "num": 198,
+      "namePt": "Clemente VI",
+      "personalName": "Clemens Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/01_Cl%C3%A9ment_VI_(Fresque_de_la_chapelle_Saint-Martial_du_palais_des_papes).jpg?width=80",
+      "pontificate": "7 May 1342 – 6 December 1352",
+      "birthPlace": "Maumont, France",
+      "duration": "10 years, 213 days"
+    },
+    {
+      "num": 199,
+      "namePt": "Inocêncio VI",
+      "personalName": "Innocentius Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Innocent_VI_par_Andrea_di_Bonaiuto_1365.jpg?width=80",
+      "pontificate": "18 December 1352 – 12 September 1362",
+      "birthPlace": "Les Monts, France",
+      "duration": "9 years, 268 days"
+    },
+    {
+      "num": 200,
+      "namePt": "Urbano V",
+      "personalName": "Urbanus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Urban_V.gif?width=80",
+      "pontificate": "28 September 1362 – 19 December 1370",
+      "birthPlace": "Grizac, France",
+      "duration": "8 years, 82 days"
+    },
+    {
+      "num": 201,
+      "namePt": "Gregório XI",
+      "personalName": "Gregorius Undecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Gregorius_Undecimus.jpg?width=80",
+      "pontificate": "30 December 1370 – 27 March 1378",
+      "birthPlace": "Maumont, France",
+      "duration": "7 years, 87 days"
+    },
+    {
+      "num": 202,
+      "namePt": "Urbano VI",
+      "personalName": "Urbanus Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Urbanus_VI.jpg?width=80",
+      "pontificate": "8 April 1378 – 15 October 1389",
+      "birthPlace": "Nápoles, Reino de Nápoles",
+      "duration": "11 years, 190 days"
+    },
+    {
+      "num": 203,
+      "namePt": "Bonifácio IX",
+      "personalName": "Bonifacius Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cosmati%2C_bonifacio_IX_inginocchiato%2C_1390-1410_ca_(cropped).jpg?width=80",
+      "pontificate": "2 November 1389 – 1 October 1404",
+      "birthPlace": "Nápoles, Reino de Nápoles",
+      "duration": "14 years, 334 days"
+    },
+    {
+      "num": 204,
+      "namePt": "Inocêncio VII",
+      "personalName": "Innocentius Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Innocenzo_VII_Cavalieri.jpg?width=80",
+      "pontificate": "17 October 1404 – 6 November 1406",
+      "birthPlace": "Sulmona, Reino de Nápoles",
+      "duration": "2 years, 20 days"
+    },
+    {
+      "num": 205,
+      "namePt": "Gregório XII",
+      "personalName": "Gregorius Duodecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joos_Van_Wassenhove_e_Pedro_Berruguete_%E2%80%93_San_Gregorio_%E2%80%93_Galleria_Nazionale_delle_Marche.jpg?width=80",
+      "pontificate": "30 November 1406 – 4 July 1415",
+      "birthPlace": "Veneza, República de Veneza",
+      "duration": "8 years, 216 days"
+    },
+    {
+      "num": 206,
+      "namePt": "Martinho V",
+      "personalName": "Martinus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Martino_V.jpg?width=80",
+      "pontificate": "11 November 1417 – 20 February 1431",
+      "birthPlace": "Genazzano, Estados Papais",
+      "duration": "13 years, 101 days"
+    },
+    {
+      "num": 207,
+      "namePt": "Eugénio IV",
+      "personalName": "Eugenius Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PapstEugen.jpg?width=80",
+      "pontificate": "3 March 1431 – 23 February 1447",
+      "birthPlace": "Veneza, República de Veneza",
+      "duration": "15 years, 357 days"
+    },
+    {
+      "num": 208,
+      "namePt": "Nicolau V",
+      "personalName": "Nicolaus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paus_Nicolaas_V_door_Peter_Paul_Rubens.jpg?width=80",
+      "pontificate": "6 March 1447 – 24 March 1455",
+      "birthPlace": "Sarzana, República de Génova",
+      "duration": "8 years, 18 days"
+    },
+    {
+      "num": 209,
+      "namePt": "Calisto III",
+      "personalName": "Callistus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Callisto_III.jpg?width=80",
+      "pontificate": "8 April 1455 – 6 August 1458",
+      "birthPlace": "Xátiva, Reino de Aragão",
+      "duration": "3 years, 120 days"
+    },
+    {
+      "num": 210,
+      "namePt": "Pio II",
+      "personalName": "Pius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pintoricchio_014.jpg?width=80",
+      "pontificate": "19 August 1458 – 14 August 1464",
+      "birthPlace": "Corsignano, República de Siena",
+      "duration": "5 years, 361 days"
+    },
+    {
+      "num": 211,
+      "namePt": "Paulo II",
+      "personalName": "Paulus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mino_da_Fiesole_-_Paulus_Venetus_PP._II.jpg?width=80",
+      "pontificate": "30 August 1464 – 26 July 1471",
+      "birthPlace": "Veneza, República de Veneza",
+      "duration": "6 years, 330 days"
+    },
+    {
+      "num": 212,
+      "namePt": "Sisto IV",
+      "personalName": "Xystus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Sixtus_IV%2C_Bishop_of_Rome_(1471-1484).jpg?width=80",
+      "pontificate": "9 August 1471 – 12 August 1484",
+      "birthPlace": "Celle Ligure, República de Génova",
+      "duration": "13 years, 3 days"
+    },
+    {
+      "num": 213,
+      "namePt": "Inocêncio VIII",
+      "personalName": "Innocentius Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papa_Innocenzo_VIII%2C_di_Cristofano_dell'Altissimo%2C_1552-68_-FG.jpg?width=80",
+      "pontificate": "29 August 1484 – 25 July 1492",
+      "birthPlace": "Génova, República de Génova",
+      "duration": "7 years, 331 days"
+    },
+    {
+      "num": 214,
+      "namePt": "Alexandre VI",
+      "personalName": "Alexander Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Alexander_Vi.jpg?width=80",
+      "pontificate": "11 August 1492 – 18 August 1503",
+      "birthPlace": "Xátiva, Reino de Aragão",
+      "duration": "11 years, 7 days"
+    },
+    {
+      "num": 215,
+      "namePt": "Pio III",
+      "personalName": "Pius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PiusIII.jpg?width=80",
+      "pontificate": "22 September 1503 – 18 October 1503",
+      "birthPlace": "Corsignano, República de Siena",
+      "duration": "26 days"
+    },
+    {
+      "num": 216,
+      "namePt": "Júlio II",
+      "personalName": "Iulius Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Julius_II.jpg?width=80",
+      "pontificate": "1 November 1503 – 21 February 1513",
+      "birthPlace": "Albisola, República de Génova",
+      "duration": "9 years, 112 days"
+    },
+    {
+      "num": 217,
+      "namePt": "Leão X",
+      "personalName": "Leo Decimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope-leo10.jpg?width=80",
+      "pontificate": "9 March 1513 – 1 December 1521",
+      "birthPlace": "Florença, República de Florença",
+      "duration": "8 years, 267 days"
+    },
+    {
+      "num": 218,
+      "namePt": "Adriano VI",
+      "personalName": "Hadrianus Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Adrian_VI_(after_Jan_van_Scorel).jpg?width=80",
+      "pontificate": "9 January 1522 – 14 September 1523",
+      "birthPlace": "Utrecht, Sacro Roman Empire",
+      "duration": "1 year, 248 days"
+    },
+    {
+      "num": 219,
+      "namePt": "Clemente VII",
+      "personalName": "Clemens Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/El_papa_Clemente_VII%2C_por_Sebastiano_del_Piombo.jpg?width=80",
+      "pontificate": "19 November 1523 – 25 September 1534",
+      "birthPlace": "Florença, República de Florença",
+      "duration": "10 years, 310 days"
+    },
+    {
+      "num": 220,
+      "namePt": "Paulo III",
+      "personalName": "Paulus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Paul_III_with_Camauro_(by_Titian)_-_National_Museum_of_Capodimonte.jpg?width=80",
+      "pontificate": "13 October 1534 – 10 November 1549",
+      "birthPlace": "Canino, Estados Papais",
+      "duration": "15 years, 28 days"
+    },
+    {
+      "num": 221,
+      "namePt": "Júlio III",
+      "personalName": "Iulius Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Girolamo_Sicciolante_-_Paus_Julius_III.jpg?width=80",
+      "pontificate": "7 February 1550 – 23 March 1555",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "5 years, 44 days"
+    },
+    {
+      "num": 222,
+      "namePt": "Marcelo II",
+      "personalName": "Marcellus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Marcellus_II_Cervini_(Vatican_Museums_-_Musei_Vaticani%2C_Vatican).jpg?width=80",
+      "pontificate": "9 April 1555 – 1 May 1555",
+      "birthPlace": "Montefano, Estados Papais",
+      "duration": "22 days"
+    },
+    {
+      "num": 223,
+      "namePt": "Paulo IV",
+      "personalName": "Paulus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Paul_IV_%E2%80%93_Jacopino_Conte_(Manner)%2C_ca._1560.jpg?width=80",
+      "pontificate": "23 May 1555 – 18 August 1559",
+      "birthPlace": "Capriglia Irpina, Reino de Nápoles",
+      "duration": "4 years, 87 days"
+    },
+    {
+      "num": 224,
+      "namePt": "Pio IV",
+      "personalName": "Pius Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_Pope_Pius_IV.PNG?width=80",
+      "pontificate": "26 December 1559 – 9 December 1565",
+      "birthPlace": "Milão, Ducado de Milão",
+      "duration": "5 years, 348 days"
+    },
+    {
+      "num": 225,
+      "namePt": "Pio V",
+      "personalName": "Pius Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anonimo_Lombardo_Pio_V.png?width=80",
+      "pontificate": "7 January 1566 – 1 May 1572",
+      "birthPlace": "Bosco, Ducado de Milão",
+      "duration": "6 years, 115 days"
+    },
+    {
+      "num": 226,
+      "namePt": "Gregório XIII",
+      "personalName": "Gregorius Decimus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Gregory_XIII_portrait.jpg?width=80",
+      "pontificate": "13 May 1572 – 10 April 1585",
+      "birthPlace": "Bolonha, Estados Papais",
+      "duration": "12 years, 332 days"
+    },
+    {
+      "num": 227,
+      "namePt": "Sisto V",
+      "personalName": "Xystus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Sixtus_V.jpg?width=80",
+      "pontificate": "24 April 1585 – 27 August 1590",
+      "birthPlace": "Grottammare, Estados Papais",
+      "duration": "5 years, 125 days"
+    },
+    {
+      "num": 228,
+      "namePt": "Urbano VII",
+      "personalName": "Urbanus Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Urban_VII.jpg?width=80",
+      "pontificate": "15 September 1590 – 27 September 1590",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "12 days"
+    },
+    {
+      "num": 229,
+      "namePt": "Gregório XIV",
+      "personalName": "Gregorius Decimus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/GregorioPPXVI.jpg?width=80",
+      "pontificate": "5 December 1590 – 16 October 1591",
+      "birthPlace": "Somma Lombardo, Ducado de Milão",
+      "duration": "315 days"
+    },
+    {
+      "num": 230,
+      "namePt": "Inocêncio IX",
+      "personalName": "Innocentius Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Innocent_IX_(Fidenza_Cathedral_Museum_-_Museo_del_Duomo_di_Fidenza%2C_Fidenza)_%E2%80%93_edited.jpg?width=80",
+      "pontificate": "29 October 1591 – 30 December 1591",
+      "birthPlace": "Bolonha, Estados Papais",
+      "duration": "62 days"
+    },
+    {
+      "num": 231,
+      "namePt": "Clemente VIII",
+      "personalName": "Clemens Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papst_Clemens_VIII_Italian_17th_century.jpg?width=80",
+      "pontificate": "30 January 1592 – 3 March 1605",
+      "birthPlace": "Fano, Estados Papais",
+      "duration": "13 years, 32 days"
+    },
+    {
+      "num": 232,
+      "namePt": "Leão XI",
+      "personalName": "Leo Undecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leo_XI_2.jpg?width=80",
+      "pontificate": "1 April 1605 – 27 April 1605",
+      "birthPlace": "Florença, República de Florença",
+      "duration": "26 days"
+    },
+    {
+      "num": 233,
+      "namePt": "Paulo V",
+      "personalName": "Paulus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Paul_V.jpg?width=80",
+      "pontificate": "16 May 1605 – 28 January 1621",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "15 years, 257 days"
+    },
+    {
+      "num": 234,
+      "namePt": "Gregório XV",
+      "personalName": "Gregorius Decimus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/(Albi)_Cath%C3%A9drale_Sainte-C%C3%A9cile_-_Tr%C3%A8sor_-_Portrait_du_pape_Gr%C3%A9goire_XV_-_PalissyIM81001477.jpg?width=80",
+      "pontificate": "9 February 1621 – 8 July 1623",
+      "birthPlace": "Bolonha, Estados Papais",
+      "duration": "2 years, 149 days"
+    },
+    {
+      "num": 235,
+      "namePt": "Urbano VIII",
+      "personalName": "Urbanus Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gian_Lorenzo_Bernini_-_Portrait_d'Urbain_VIII.jpg?width=80",
+      "pontificate": "6 August 1623 – 29 July 1644",
+      "birthPlace": "Florença, Grão-ducado de Toscana",
+      "duration": "20 years, 358 days"
+    },
+    {
+      "num": 236,
+      "namePt": "Inocêncio X",
+      "personalName": "Innocentius Decimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Innocent_X_(by_Circle_of_Diego_Vel%C3%A1zquez)_-_National_Gallery_of_Art.jpg?width=80",
+      "pontificate": "15 September 1644 – 7 January 1655",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "10 years, 114 days"
+    },
+    {
+      "num": 237,
+      "namePt": "Alexandre VII",
+      "personalName": "Alexander Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_VII.jpg?width=80",
+      "pontificate": "7 April 1655 – 22 May 1667",
+      "birthPlace": "Siena, Grão-ducado de Toscana",
+      "duration": "12 years, 45 days"
+    },
+    {
+      "num": 238,
+      "namePt": "Clemente IX",
+      "personalName": "Clemens Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gianlorenzo_Bernini%2C_Ritratto_di_papa_Clemente_IX%2C_1668-69_circa_(coll._priv.).jpg?width=80",
+      "pontificate": "20 June 1667 – 9 December 1669",
+      "birthPlace": "Pistoia, Grão-ducado de Toscana",
+      "duration": "2 years, 172 days"
+    },
+    {
+      "num": 239,
+      "namePt": "Clemente X",
+      "personalName": "Clemens Decimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Clement_X%2C_by_Giovanni_Battista_Gaulli_(Baciccio)_-_Metropolitan_Museum_of_Art.jpg?width=80",
+      "pontificate": "29 April 1670 – 22 July 1676",
+      "birthPlace": "Rome, Estados Papais",
+      "duration": "6 years, 84 days"
+    },
+    {
+      "num": 240,
+      "namePt": "Inocêncio XI",
+      "personalName": "Innocentius Undecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Innocent_XI_Odescalchi_(by_Jacob_Ferdinand_Voet).jpg?width=80",
+      "pontificate": "21 September 1676 – 12 August 1689",
+      "birthPlace": "Como, Ducado de Milão",
+      "duration": "12 years, 325 days"
+    },
+    {
+      "num": 241,
+      "namePt": "Alexandre VIII",
+      "personalName": "Alexander Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Alexander_VIII_%E2%80%93_Roman_School_of_17th_Century_%E2%80%93_(unframed).jpg?width=80",
+      "pontificate": "6 October 1689 – 1 February 1691",
+      "birthPlace": "Veneza, República de Veneza",
+      "duration": "1 year, 118 days"
+    },
+    {
+      "num": 242,
+      "namePt": "Inocêncio XII",
+      "personalName": "Innocentius Duodecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Innocent_XII.PNG?width=80",
+      "pontificate": "12 July 1691 – 27 September 1700",
+      "birthPlace": "Spinazzola, Reino de Nápoles",
+      "duration": "9 years, 77 days"
+    },
+    {
+      "num": 243,
+      "namePt": "Clemente XI",
+      "personalName": "Clemens Undecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clement_XI.jpg?width=80",
+      "pontificate": "23 November 1700 – 19 March 1721",
+      "birthPlace": "Urbino, Estados Papais",
+      "duration": "20 years, 116 days"
+    },
+    {
+      "num": 244,
+      "namePt": "Inocêncio XIII",
+      "personalName": "Innocentius Decimus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/InnocientXIII.jpg?width=80",
+      "pontificate": "8 May 1721 – 7 March 1724",
+      "birthPlace": "Poli, Estados Papais",
+      "duration": "2 years, 304 days"
+    },
+    {
+      "num": 245,
+      "namePt": "Bento XIII",
+      "personalName": "Benedictus Decimus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedetto_XIII.jpg?width=80",
+      "pontificate": "29 May 1724 – 21 February 1730",
+      "birthPlace": "Gravina in Puglia, Reino de Nápoles",
+      "duration": "5 years, 268 days"
+    },
+    {
+      "num": 246,
+      "namePt": "Clemente XII",
+      "personalName": "Clemens Duodecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agostino_Masucci_%E2%80%93_Portrait_of_Pope_Clement_XII%2C_seated.jpg?width=80",
+      "pontificate": "12 July 1730 – 6 February 1740",
+      "birthPlace": "Florença, Grão-ducado de Toscana",
+      "duration": "9 years, 209 days"
+    },
+    {
+      "num": 247,
+      "namePt": "Bento XIV",
+      "personalName": "Benedictus Decimus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre_Subleyras_Portrait_of_Benedict_XIV_1746._Metropolitan_Museum_of_Art.jpg?width=80",
+      "pontificate": "17 August 1740 – 3 May 1758",
+      "birthPlace": "Bolonha, Estados Papais",
+      "duration": "17 years, 259 days"
+    },
+    {
+      "num": 248,
+      "namePt": "Clemente XIII",
+      "personalName": "Clemens Decimus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anton_Raphael_Mengs%2C_Portrait_of_Pope_Clement_XIII.jpg?width=80",
+      "pontificate": "6 July 1758 – 2 February 1769",
+      "birthPlace": "Veneza, República de Veneza",
+      "duration": "10 years, 211 days"
+    },
+    {
+      "num": 249,
+      "namePt": "Clemente XIV",
+      "personalName": "Clemens Decimus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Clement_XIV_portrait_in_Santarcangelo_di_Romagna.jpg?width=80",
+      "pontificate": "19 May 1769 – 22 September 1774",
+      "birthPlace": "Santarcangelo di Romagna, Estados Papais",
+      "duration": "5 years, 126 days"
+    },
+    {
+      "num": 250,
+      "namePt": "Pio VI",
+      "personalName": "Pius Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Popepiusvi.jpg?width=80",
+      "pontificate": "15 February 1775 – 29 August 1799",
+      "birthPlace": "Cesena, Estados Papais",
+      "duration": "24 years, 195 days"
+    },
+    {
+      "num": 251,
+      "namePt": "Pio VII",
+      "personalName": "Pius Septimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pietro_Labruzzi_%E2%80%93_Ritratto_di_Pio_VII_(1742_-_1823).jpg?width=80",
+      "pontificate": "14 March 1800 a20 August 1823",
+      "birthPlace": "Cesena, Estados Papais",
+      "duration": "23 years, 159 days"
+    },
+    {
+      "num": 252,
+      "namePt": "Leão XII",
+      "personalName": "Leo Duodecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Leo_XII.jpeg?width=80",
+      "pontificate": "28 September 1823 – 10 February 1829",
+      "birthPlace": "Genga ou Espoleto, Estados Papais",
+      "duration": "5 years, 135 days"
+    },
+    {
+      "num": 253,
+      "namePt": "Pio VIII",
+      "personalName": "Pius Octavus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ritratto_di_Papa_Pio_VIII%2C_by_Clemente_Alberi.jpg?width=80",
+      "pontificate": "31 March 1829 – 30 November 1830",
+      "birthPlace": "Cingoli, Estados Papais",
+      "duration": "1 year, 244 days"
+    },
+    {
+      "num": 254,
+      "namePt": "Gregório XVI",
+      "personalName": "Gregorius Decimus Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gregory_XVI.jpg?width=80",
+      "pontificate": "2 February 1831 – 1 June 1846",
+      "birthPlace": "Belluno, República de Veneza",
+      "duration": "15 years, 119 days"
+    },
+    {
+      "num": 255,
+      "namePt": "Pio IX",
+      "personalName": "Pius Nonus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Blessed_Pope_Pius_IX_Mastai_Ferretti_(by_George_Peter_Alexander_Healy)_%E2%80%93_Museo_Pio_IX%2C_Senigallia.jpg?width=80",
+      "pontificate": "16 June 1846 – 7 February 1878",
+      "birthPlace": "Senigália, Estados Papais",
+      "duration": "31 years, 236 days"
+    },
+    {
+      "num": 256,
+      "namePt": "Leão XIII",
+      "personalName": "Leo Decimus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_Pope_Leo_XIII%2C_Fabio_Cipolla.jpg?width=80",
+      "pontificate": "20 February 1878 – 20 July 1903",
+      "birthPlace": "Carpineto Romano, Império Francês",
+      "duration": "25 years, 150 days"
+    },
+    {
+      "num": 257,
+      "namePt": "Pio X",
+      "personalName": "Pius Decimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Papst_Pius_X-01..jpg?width=80",
+      "pontificate": "4 August 1903 – 20 August 1914",
+      "birthPlace": "Riese, Império Austríaco",
+      "duration": "11 years, 16 days"
+    },
+    {
+      "num": 258,
+      "namePt": "Bento XV",
+      "personalName": "Benedictus Decimus Quintus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ritratto_di_papa_Benedetto_XV%2C_(G.B._Torriglia%2C_1918)_(cropped).jpg?width=80",
+      "pontificate": "3 September 1914 – 22 January 1922",
+      "birthPlace": "Génova, Reino da Sardenha",
+      "duration": "7 years, 141 days"
+    },
+    {
+      "num": 259,
+      "namePt": "Pio XI",
+      "personalName": "Pius Undecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Pius_XI_by_Philip_Alexius_de_L%C3%A1szl%C3%B3.jpg?width=80",
+      "pontificate": "6 February 1922 – 10 February 1939",
+      "birthPlace": "Desio, Império Austríaco",
+      "duration": "17 years, 4 days"
+    },
+    {
+      "num": 260,
+      "namePt": "Pio XII",
+      "personalName": "Pius Duodecimus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pius_XII_with_tabard%2C_by_Michael_Pitcairn%2C_1951.png?width=80",
+      "pontificate": "2 March 1939 – 9 October 1958",
+      "birthPlace": "Rome, Italy)",
+      "duration": "19 years, 221 days"
+    },
+    {
+      "num": 261,
+      "namePt": "João XXIII",
+      "personalName": "Ioannes Vicesimus Tertius",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_John_XXIII%2C_1958%E2%80%931963.jpg?width=80",
+      "pontificate": "28 October 1958 – 3 June 1963",
+      "birthPlace": "Sotto il Monte, Italy)",
+      "duration": "4 years, 218 days"
+    },
+    {
+      "num": 262,
+      "namePt": "Paulo VI",
+      "personalName": "Paulus Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paulus_VI%2C_by_Fotografia_Felici%2C_1969.jpg?width=80",
+      "pontificate": "21 June 1963 – 6 August 1978",
+      "birthPlace": "Concesio, Italy)",
+      "duration": "15 years, 46 days"
+    },
+    {
+      "num": 263,
+      "namePt": "João Paulo I",
+      "personalName": "Ioannes Paulus Primus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paus_Johannes_Paulus_I_(Bestanddeelnr_929-9074)_(cropped-colour).png?width=80",
+      "pontificate": "26 August 1978 – 28 September 1978",
+      "birthPlace": "Forno di Canale, Italy)",
+      "duration": "33 days"
+    },
+    {
+      "num": 264,
+      "namePt": "João Paulo II",
+      "personalName": "Ioannes Paulus Secundus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ritratto_di_Papa_Giovanni_Paolo_II.jpg?width=80",
+      "pontificate": "16 October 1978 – 2 April 2005",
+      "birthPlace": "Wadowice, Poland",
+      "duration": "26 years, 168 days"
+    },
+    {
+      "num": 265,
+      "namePt": "Bento XVI",
+      "personalName": "Benedictus Decimus Sextus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Benedict_XVI_2.jpg?width=80",
+      "pontificate": "19 April 2005 – 28 February 2013",
+      "birthPlace": "Marktl, Germany",
+      "duration": "7 years, 315 days"
+    },
+    {
+      "num": 266,
+      "namePt": "Francisco",
+      "personalName": "Franciscus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pope_Francis_Korea_Haemi_Castle_19.jpg?width=80",
+      "pontificate": "13 March 2013 – 21 April 2025",
+      "birthPlace": "Buenos Aires, Argentina",
+      "duration": "12 years, 39 days"
+    },
+    {
+      "num": 267,
+      "namePt": "Leão XIV",
+      "personalName": "Leo Decimus Quartus",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/13.10.2025_%E2%80%93_audi%C3%AAncia_com_sua_santidade_o_papa_le%C3%A3o_xiv_-_54850583467_(Le%C3%A3o_XIV).jpg?width=80",
+      "pontificate": "8 May 2025 – present",
+      "birthPlace": "Chicago, United States",
+      "duration": "1 year, 88 days"
+    }
+  ]
+}

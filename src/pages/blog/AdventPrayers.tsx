@@ -186,15 +186,31 @@ export default function AdventPrayers() {
                   "Come, Lord Jesus." — Revelation 22:20
                 </p>
                 <p className="text-text-muted text-center mt-2">The prayer of Advent — and of the whole Christian life.</p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="advent-prayers">Beautiful Catholic prayers for Advent 2026 — prayers for each week, the O Antiphons, the Advent wreath blessing, and how to prepare your heart for Christmas. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="advent-prayers">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="advent-prayers">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="advent-prayers">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Advent Prayers 2026, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               { question: "When is Advent 2026?", answer: "Advent 2026 begins on the First Sunday of Advent, November 29, 2026, and ends on Christmas Eve, December 24, 2026. It consists of four Sundays and approximately 28 days of preparation for Christmas." },
               { question: "What are the O Antiphons?", answer: "The O Antiphons are seven ancient prayers prayed on the seven days before Christmas Eve (December 17-23). Each begins with 'O' and addresses Christ by a different Old Testament title: O Wisdom, O Lord, O Root of Jesse, O Key of David, O Radiant Dawn, O King of All Nations, O Emmanuel. They are the basis of the Advent hymn 'O Come, O Come, Emmanuel.'" },
               { question: "What is Gaudete Sunday?", answer: "Gaudete Sunday is the Third Sunday of Advent — a moment of joy in the midst of the penitential season. 'Gaudete' means 'Rejoice' in Latin, from the entrance antiphon: 'Rejoice in the Lord always; again I say, rejoice. The Lord is near' (Philippians 4:4-5). The rose candle on the Advent wreath is lit, and the priest may wear rose vestments." },
               { question: "What is the Advent wreath?", answer: "The Advent wreath is a circle of evergreen branches with four candles — three purple (or violet) and one pink (rose). A new candle is lit each Sunday of Advent, symbolizing the growing light of Christ coming into the world. The evergreen symbolizes eternal life; the circle symbolizes God's eternity; the candles symbolize Christ as the Light of the World." },
-              { question: "Is Advent a penitential season like Lent?", answer: "Advent has a penitential character — the liturgical color is purple (or violet), the same as Lent, and the Gloria is not sung at weekday Masses. However, Advent is primarily a season of joyful anticipation rather than penance. It is less austere than Lent, and the focus is on hope and preparation rather than repentance." },
+              { question: "Is Advent a penitential season like Lent?", answer: "Advent has a penitential character — the liturgical color is purple (or violet), the same as Lent, and the Gloria is not sung at weekday Masses. However, Advent is primarily a season of joyful anticipation rather than penance. It is less austere than Lent, and the focus is on hope and preparation rather than repentance." },,
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="advent-prayers" />

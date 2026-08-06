@@ -175,7 +175,20 @@ export default function GiftsOfHolySpirit() {
                                     — Pentecost Sequence
                                 </p>
                             </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">Learn about the seven gifts of the Holy Spirit and how they work in your life to guide you on the path of holiness and service to others. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
+
                         </div>
+
 
                         <BlogFAQ faqs={[
                           {

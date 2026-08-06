@@ -105,6 +105,19 @@ export default function CanCatholicsKeepAshesAtHome() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-keep-ashes-at-home">
                 Cremation is permitted; disrespect for cremated remains is not. When in doubt, your pastor and diocesan cemetery office are the best guides — they handle these questions with pastoral sensitivity every week.
               </LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-keep-ashes-at-home">Can Catholics keep ashes at home? What the Church allows and forbids about cremated remains in the United States. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-keep-ashes-at-home">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-keep-ashes-at-home">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-keep-ashes-at-home">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Can Catholics be cremated at all?", answer: "Yes. The Church permits cremation since 1963, provided it is not chosen to deny belief in the resurrection. Cremated remains must still be buried or entombed in a sacred place." },
@@ -112,7 +125,9 @@ export default function CanCatholicsKeepAshesAtHome() {
               { question: "Can multiple family members each keep a portion of ashes?", answer: "No. Dividing cremated remains among relatives is explicitly forbidden. The body of the deceased must remain intact in one sacred resting place." },
               { question: "Can cremated remains be present at a Catholic Funeral Mass?", answer: "Yes. The Order of Christian Funerals allows a Funeral Mass with cremated remains present, though the Church prefers the body present when possible. The urn should be treated with the same reverence as a casket." },
               { question: "What about a small portion in a locket?", answer: "The Church forbids dividing ashes or making keepsakes; the whole body of ashes receives Christian burial." },
-              { question: "Can ashes be buried in the same plot as a spouse?", answer: "Yes. Catholic cemeteries routinely allow companion niches or second interments." }
+              { question: "Can ashes be buried in the same plot as a spouse?", answer: "Yes. Catholic cemeteries routinely allow companion niches or second interments." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="can-catholics-keep-ashes-at-home" />
             <ArticleBottomCTA />

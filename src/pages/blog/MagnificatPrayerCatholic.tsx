@@ -103,6 +103,19 @@ export default function MagnificatPrayerCatholic() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Magnificat vs. Hail Mary</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="magnificat-prayer-catholic">The Hail Mary combines the angel Gabriel&apos;s greeting and Elizabeth&apos;s words (&quot;Blessed are you among women&quot;) with a petition for Mary&apos;s intercession. The Magnificat is Mary&apos;s own extended prophecy — Scripture in her voice. Both honor the Mother of God; the Magnificat is sung praise, the Hail Mary is conversational prayer.</LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="magnificat-prayer-catholic">The Magnificat (Luke 1:46–55) with full Catholic text in English and Latin, Mary&apos;s song of praise, and when Catholics pray it at Vespers and in daily devotion. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="magnificat-prayer-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="magnificat-prayer-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="magnificat-prayer-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Magnificat Prayer, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "What is the Magnificat?", answer: "It is Mary's song of praise in Luke 1:46–55 when she visits Elizabeth. The Church prays it daily at Vespers (Evening Prayer)." },
@@ -110,7 +123,10 @@ export default function MagnificatPrayerCatholic() {
               { question: "What does Magnificat mean?", answer: "It is the first word in the Latin Vulgate: Magnificat anima mea Dominum — My soul magnifies the Lord." },
               { question: "Can lay people pray the Magnificat at home?", answer: "Yes. It is a central part of Evening Prayer and can be prayed alone or with family without a priest." },
               { question: "Is the Magnificat sung or spoken?", answer: "Both. At solemn Vespers it is often chanted; in private devotion Catholics read it aloud or silently." },
-              { question: "What is the Magnificat magazine?", answer: "Magnificat is a popular U.S. monthly missal containing Mass readings, Morning and Evening Prayer, and meditations — named after this canticle." },
+              { question: "What is the Magnificat magazine?", answer: "Magnificat is a popular U.S. monthly missal containing Mass readings, Morning and Evening Prayer, and meditations — named after this canticle." },,
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="magnificat-prayer-catholic" />
             <ArticleBottomCTA />

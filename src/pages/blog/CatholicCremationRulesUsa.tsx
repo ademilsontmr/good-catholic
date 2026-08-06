@@ -95,6 +95,32 @@ export default function CatholicCremationRulesUsa() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Cremation and Money</h2>
               <p className="text-text leading-relaxed mb-6">Cremation is often cheaper than full burial in American markets, but cost alone is not a sinful motive. The Church asks that financial pressure be balanced with respect for the body and liturgy. Catholic cemeteries offer niches; parishes sometimes assist low-income families. Discuss options openly with the pastor — secrecy leads to regret when relatives learn ashes cannot be scattered as planned.</p>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Catholic teaching on cremation in the United States — what is allowed, funeral Mass with cremated remains, burial requirements, and what the Church forbids. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Readers often search for Catholic Cremation Rules in the USA: What the Church Allows during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Catholic teaching on cremation in the United States — what is allowed, funeral Mass with cremated remains, burial requirements, and what the Church forbids. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Can Catholics be cremated in the United States?", answer: "Yes, since 1963 the Church permits cremation, provided it is not chosen to reject resurrection or Catholic funeral rites." },
@@ -102,7 +128,9 @@ export default function CatholicCremationRulesUsa() {
               { question: "Can Catholics scatter ashes?", answer: "No. The Church teaches that cremated remains should be buried in a cemetery or entombed in a sacred place, not scattered or kept as mementos." },
               { question: "Why does the Church care about burial?", answer: "Burial witnesses to human dignity and resurrection hope. The body belonged to a person loved by God and is not disposable matter." },
               { question: "Can ashes be buried in the same plot as a spouse?", answer: "Yes. Catholic cemeteries commonly allow second interments or companion niches for cremated remains." },
-              { question: "What if ashes were already scattered?", answer: "Speak with a priest in Confession and for pastoral guidance. The Church focuses on repentance and honoring the dead going forward with prayer and Mass intentions." },
+              { question: "What if ashes were already scattered?", answer: "Speak with a priest in Confession and for pastoral guidance. The Church focuses on repentance and honoring the dead going forward with prayer and Mass intentions." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="catholic-cremation-rules-usa" />
             <ArticleBottomCTA />

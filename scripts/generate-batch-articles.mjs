@@ -1,0 +1,181 @@
+import fs from "fs";
+import path from "path";
+
+const articles = [
+  // Novenas 1303-1312
+  { component: "NovenaForAnxietyCatholic", slug: "novena-for-anxiety-catholic", title: "Novena for Anxiety: 9-Day Catholic Prayer for Peace & Calm", desc: "Novena for anxiety — 9-day Catholic prayer for peace, calm, and trust when worry overwhelms you.", keywords: "novena for anxiety, catholic prayer for anxiety 9 days, novena peace calm", icon: "Brain", bg: "bg-blue-100", iconColor: "text-blue-600", category: "Prayer", type: "novena", prayer: "Lord Jesus, you calmed the storm and told your disciples not to be afraid. I bring my anxiety before you: [your intention]. Grant me peace that surpasses understanding and help me trust you one day at a time. Mary, Comforter of the Afflicted, and Saint Dymphna, pray for me. Amen.", intro: "When anxiety steals sleep and peace, a nine-day novena turns worry into sustained trust in Christ." },
+  { component: "StAnthonyNovenaLostThings", slug: "st-anthony-novena-lost-things", title: "St. Anthony Novena for Lost Things: 9-Day Prayer (Full Text)", desc: "St. Anthony Novena for lost things — 9-day Catholic prayer with full text to find missing items, keys, and documents.", keywords: "st anthony novena lost things, novena to find lost item, st anthony prayer 9 days", icon: "Search", bg: "bg-amber-100", iconColor: "text-amber-700", category: "Prayer", type: "novena", prayer: "St. Anthony, perfect imitator of Jesus, who received from God the special power of restoring lost things, grant that I may find [what is lost] that has been lost. At least restore to me peace of mind, the loss of which has afflicted me far more than the material loss. Amen.", intro: "Saint Anthony of Padua is the saint Catholics invoke when something important goes missing." },
+  { component: "StGerardNovenaPregnancy", slug: "st-gerard-novena-pregnancy", title: "St. Gerard Novena for Pregnancy: 9-Day Prayer for Safe Delivery", desc: "St. Gerard Novena for pregnancy — 9-day Catholic prayer for mothers, safe delivery, and healthy babies.", keywords: "st gerard novena pregnancy, novena for safe delivery, st gerard majella prayer", icon: "Baby", bg: "bg-pink-100", iconColor: "text-pink-600", category: "Prayer", type: "novena", prayer: "O great Saint Gerard, beloved servant of Jesus Christ, perfect imitator of your meek and humble Savior, obtain for me the grace to bear my pregnancy with patience and to deliver safely. Protect [name] and her child. Amen.", intro: "Saint Gerard Majella is patron of expectant mothers and safe childbirth across the United States." },
+  { component: "NovenaForAddictionCatholic", slug: "novena-for-addiction-catholic", title: "Novena for Addiction: 9-Day Catholic Prayer for Sobriety", desc: "Novena for addiction — 9-day Catholic prayer for sobriety, freedom from drugs or alcohol, and healing.", keywords: "novena for addiction, catholic prayer sobriety, novena alcohol drug recovery", icon: "ShieldAlert", bg: "bg-slate-100", iconColor: "text-slate-700", category: "Prayer", type: "novena", prayer: "Lord Jesus, you came to set captives free. I ask your mercy for [name or yourself] struggling with addiction. Give strength for one day at a time, surround us with support, and lead us to healing through your grace. Saint Maximilian Kolbe and Saint Monica, pray for us. Amen.", intro: "Addiction binds body and soul; nine days of prayer unite human effort with grace and professional help." },
+  { component: "NovenaForExamsCatholic", slug: "novena-for-exams-catholic", title: "Novena for Exams: 9-Day Catholic Prayer Before a Test", desc: "Novena for exams — 9-day Catholic prayer before tests, finals, boards, and school challenges.", keywords: "novena for exams, catholic prayer before test, novena for students", icon: "GraduationCap", bg: "bg-indigo-100", iconColor: "text-indigo-700", category: "Prayer", type: "novena", prayer: "Holy Spirit, Spirit of wisdom and understanding, guide my study and calm my mind. Help me recall what I have learned and perform to the best of my ability on [exam name]. Saint Thomas Aquinas and Saint Joseph of Cupertino, pray for me. Amen.", intro: "Students and parents across America pray this novena before finals, licensing exams, and major tests." },
+  { component: "NovenaForLegalCasesCatholic", slug: "novena-for-legal-cases-catholic", title: "Novena for Legal Cases: 9-Day Prayer for Court & Justice", desc: "Novena for legal cases — 9-day Catholic prayer for court hearings, lawsuits, and just outcomes.", keywords: "novena for legal cases, catholic prayer court case, novena justice lawsuit", icon: "Gavel", bg: "bg-stone-100", iconColor: "text-stone-700", category: "Prayer", type: "novena", prayer: "Lord, you are just and merciful. I entrust this legal matter before you: [describe intention]. Grant wisdom to all involved, protect the innocent, and let truth prevail. Saint Raymond Nonnatus and Saint Jude, intercede for a just resolution. Amen.", intro: "When a court date approaches, Catholics often pray nine days for justice, truth, and peace of heart." },
+  { component: "StMichaelNovenaProtection", slug: "st-michael-novena-protection", title: "St. Michael Novena for Protection: 9-Day Prayer (Full Text)", desc: "St. Michael Novena for protection — 9-day Catholic prayer against evil, danger, and spiritual attack.", keywords: "st michael novena protection, novena to st michael archangel, st michael prayer 9 days", icon: "Shield", bg: "bg-cyan-100", iconColor: "text-cyan-700", category: "Prayer", type: "novena", prayer: "Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray, and do thou, O Prince of the heavenly hosts, by the power of God, cast into hell Satan and all evil spirits. Amen.", intro: "Saint Michael is invoked for protection against evil — a novena many families pray in times of fear or spiritual attack." },
+  { component: "NovenaForBrokenHeartCatholic", slug: "novena-for-broken-heart-catholic", title: "Novena for a Broken Heart: 9-Day Catholic Prayer After Breakup", desc: "Novena for a broken heart — 9-day Catholic prayer after breakup, divorce, or lost love.", keywords: "novena broken heart, catholic prayer after breakup, novena healing heart", icon: "HeartCrack", bg: "bg-rose-100", iconColor: "text-rose-600", category: "Prayer", type: "novena", prayer: "Sacred Heart of Jesus, I bring my wounded heart to you. Heal what is broken, teach me to forgive, and show me the path forward according to your will. Mary, Mother of Sorrows, walk with me these nine days. Amen.", intro: "Heartbreak is a form of grief; nine days of prayer invite Christ's healing into the wound." },
+  { component: "NovenaForFamilyPeaceCatholic", slug: "novena-for-family-peace-catholic", title: "Novena for Family Peace: 9-Day Prayer for Unity at Home", desc: "Novena for family peace — 9-day Catholic prayer for unity, reconciliation, and harmony at home.", keywords: "novena for family peace, catholic prayer family unity, novena reconciliation home", icon: "Home", bg: "bg-emerald-100", iconColor: "text-emerald-700", category: "Prayer", type: "novena", prayer: "Lord, bless our family. Replace anger with understanding, harsh words with kindness, and division with unity. Holy Family of Nazareth, teach us to live in peace. I offer this novena for [family intention]. Amen.", intro: "Family conflict hurts deeply; this novena asks the Holy Family to restore peace in the domestic church." },
+  { component: "NovenaForFertilityCatholic", slug: "novena-for-fertility-catholic", title: "Novena for Fertility: 9-Day Catholic Prayer to Conceive", desc: "Novena for fertility — 9-day Catholic prayer for couples trying to conceive, with full prayer text.", keywords: "novena for fertility, catholic prayer to conceive, novena for pregnancy", icon: "Flower2", bg: "bg-fuchsia-100", iconColor: "text-fuchsia-700", category: "Prayer", type: "novena", prayer: "Lord, giver of life, we ask your blessing on our desire for a child. Grant us patience, medical wisdom, and openness to your will. Saints Joachim and Anne, and Saint Gerard, intercede for us. Amen.", intro: "Couples facing infertility often pray nine days, entrusting their desire for a child to God's providence." },
+
+  // Prayers 1313-1319
+  { component: "LitanyOfLoretoCatholic", slug: "litany-of-loreto-catholic", title: "Litany of Loreto: Full Text & Meaning for Catholics", desc: "The Litany of Loreto with full Catholic text, titles of Mary explained, and when to pray this Marian devotion.", keywords: "litany of loreto, litany of loreto full text, marian litany catholic", icon: "Star", bg: "bg-blue-100", iconColor: "text-blue-700", category: "Prayer", type: "prayer", prayer: "Lord, have mercy. Christ, have mercy. Lord, have mercy. Christ, hear us. Christ, graciously hear us. God the Father of heaven, have mercy on us. Holy Mary, pray for us. Holy Mother of God, pray for us. Virgin of virgins, pray for us. (Continue through all titles.) Lamb of God, who take away the sins of the world, spare us, O Lord. Amen.", intro: "The Litany of Loreto is one of the Church's most beloved Marian prayers, invoking Mary under her many titles." },
+  { component: "PrayerOfAbandonmentCatholic", slug: "prayer-of-abandonment-catholic", title: "Prayer of Abandonment: Full Text & Meaning (Charles de Foucauld)", desc: "The Prayer of Abandonment with full Catholic text, meaning, and how to pray Charles de Foucauld's surrender to God.", keywords: "prayer of abandonment, charles de foucauld prayer, catholic surrender prayer", icon: "HandHeart", bg: "bg-violet-100", iconColor: "text-violet-700", category: "Prayer", type: "prayer", prayer: "I abandon myself into your hands; do with me what you will. Whatever you may do, I thank you: I am ready for all, I accept all. Let only your will be done in me, and in all your creatures. I wish no more than this, O Lord. Into your hands I commend my spirit; I offer it to you with all the love of my heart. Amen.", intro: "Blessed Charles de Foucauld's Prayer of Abandonment teaches total trust in God's will." },
+  { component: "NovenaForTheDeadCatholic", slug: "novena-for-the-dead-catholic", title: "Novena for the Dead: 9-Day Catholic Prayer for Souls in Purgatory", desc: "Novena for the dead — 9-day Catholic prayer for souls in purgatory and deceased loved ones.", keywords: "novena for the dead, catholic prayer for deceased, novena souls purgatory", icon: "Moon", bg: "bg-gray-100", iconColor: "text-gray-700", category: "Prayer", type: "novena", prayer: "Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May the souls of the faithful departed, through the mercy of God, rest in peace. I offer this novena for [name], begging your mercy and the prayers of the saints. Amen.", intro: "Catholics pray novenas for the dead especially in November and after a funeral, offering suffrage for souls." },
+  { component: "HolySpiritPrayerForDecisionsCatholic", slug: "holy-spirit-prayer-for-decisions-catholic", title: "Holy Spirit Prayer for Decisions: Full Text & When to Pray It", desc: "Holy Spirit prayer for decisions — full Catholic text for discernment, big choices, and guidance.", keywords: "holy spirit prayer for decisions, catholic prayer discernment, come holy spirit decision", icon: "Wind", bg: "bg-sky-100", iconColor: "text-sky-600", category: "Prayer", type: "prayer", prayer: "Come, Holy Spirit, fill the hearts of your faithful. Enlighten my mind to know your will regarding [decision]. Give me courage to choose what is good and peace to accept your answer. Through Christ our Lord. Amen.", intro: "Before major decisions, Catholics invoke the Holy Spirit for light beyond human reasoning." },
+  { component: "ActOfSpiritualCommunionCatholic", slug: "act-of-spiritual-communion-catholic", title: "Act of Spiritual Communion: Full Text & When Catholics Pray It", desc: "Act of Spiritual Communion with full Catholic text — when you cannot receive the Eucharist at Mass.", keywords: "act of spiritual communion, spiritual communion prayer full text, catholic communion when unable", icon: "Sun", bg: "bg-amber-100", iconColor: "text-amber-600", category: "Prayer", type: "prayer", prayer: "My Jesus, I believe that you are present in the Most Holy Sacrament. I love you above all things, and I desire to receive you into my soul. Since I cannot at this moment receive you sacramentally, come at least spiritually into my heart. I embrace you as if you were already there and unite myself wholly to you. Never permit me to be separated from you. Amen.", intro: "When Catholics cannot receive Communion — illness, travel, or distance — Spiritual Communion unites the soul to Christ." },
+  { component: "StExpediteNovenaGuide", slug: "st-expedite-novena-guide", title: "St. Expedite Novena: 9-Day Prayer for Urgent Needs (Full Text)", desc: "St. Expedite Novena — 9-day Catholic prayer for urgent needs, quick help, and pressing situations.", keywords: "st expedite novena, novena st expedite urgent, st expedite prayer 9 days", icon: "Zap", bg: "bg-red-100", iconColor: "text-red-600", category: "Prayer", type: "novena", prayer: "Glorious Saint Expedite, patron of urgent causes, I ask your intercession for [urgent intention]. Help me to act with diligence and trust in God's timing. Expeditus, pray for me now. Amen.", intro: "Devotion to Saint Expedite is popular in America for urgent petitions that cannot wait." },
+  { component: "PrayerBeforeCrucifixCatholic", slug: "prayer-before-crucifix-catholic", title: "Prayer Before a Crucifix: Full Text & Meaning for Catholics", desc: "Prayer before a Crucifix with full Catholic text — the indulgenced prayer of St. Francis and when to pray it.", keywords: "prayer before crucifix, catholic prayer crucifix full text, st francis crucifix prayer", icon: "Cross", bg: "bg-red-100", iconColor: "text-red-700", category: "Prayer", type: "prayer", prayer: "Behold, O kind and most sweet Jesus, I cast myself upon my knees in your sight, and with the most fervent desire of my soul I pray that you would impress upon my heart lively sentiments of faith, hope, and charity, with true repentance for my sins and a firm resolve to amend my life. Amen.", intro: "Praying before a crucifix focuses the soul on Christ's sacrifice and is enriched with a partial indulgence." },
+
+  // Seasonal 1320-1325
+  { component: "CorpusChristiFeastGuideCatholic", slug: "corpus-christi-feast-guide-catholic", title: "Corpus Christi: Catholic Feast Day Guide (Meaning, Mass & Processions)", desc: "Corpus Christi feast day guide — Real Presence, Mass, Eucharistic processions, and how U.S. Catholics celebrate.", keywords: "corpus christi catholic, corpus christi feast day, eucharistic procession", icon: "Sun", bg: "bg-yellow-100", iconColor: "text-yellow-700", category: "Liturgy", type: "guide", intro: "Corpus Christi honors the Real Presence of Christ in the Eucharist with Mass and public processions." },
+  { component: "SacredHeartDevotionCompleteGuide", slug: "sacred-heart-devotion-complete-guide", title: "Sacred Heart Devotion: Complete Catholic Guide (First Fridays & Promises)", desc: "Sacred Heart devotion complete guide — First Fridays, 12 promises, Enthronement, and how U.S. Catholics honor the Heart of Jesus.", keywords: "sacred heart devotion, first friday devotion, sacred heart promises catholic", icon: "Heart", bg: "bg-red-100", iconColor: "text-red-600", category: "Liturgy", type: "guide", intro: "June is the month of the Sacred Heart — a devotion centered on Christ's love for humanity." },
+  { component: "SaintsPeterAndPaulFeastGuide", slug: "saints-peter-and-paul-feast-guide", title: "Saints Peter and Paul: Feast Day Guide for Catholics (June 29)", desc: "Saints Peter and Paul feast day — who they were, why the Church celebrates them together, and Mass obligations in the USA.", keywords: "saints peter and paul feast, june 29 catholic feast, st peter st paul day", icon: "Crown", bg: "bg-amber-100", iconColor: "text-amber-700", category: "Liturgy", type: "guide", intro: "On June 29 the Church honors the two pillars of the early Church — Peter the Rock and Paul the Apostle to the Gentiles." },
+  { component: "CatholicSummerMassScheduleGuide", slug: "catholic-summer-mass-schedule-guide", title: "Catholic Summer Mass Guide: Vacation, Travel & Finding Mass in the USA", desc: "Catholic summer Mass guide — finding parishes on vacation, travel Mass times, and staying faithful while away from home.", keywords: "catholic mass vacation, find mass while traveling, summer mass schedule catholic", icon: "MapPin", bg: "bg-teal-100", iconColor: "text-teal-700", category: "Living", type: "guide", intro: "Summer travel should not mean missing Sunday Mass — here's how American Catholics find parishes on the road." },
+  { component: "AssumptionOfMaryCatholicGuide", slug: "assumption-of-mary-catholic-guide", title: "Assumption of Mary: Catholic Feast Day Guide (August 15)", desc: "Assumption of Mary — Catholic teaching, Holy Day of Obligation in the USA, Mass, and how to honor Mary on August 15.", keywords: "assumption of mary catholic, august 15 holy day, assumption feast day usa", icon: "Star", bg: "bg-blue-100", iconColor: "text-blue-600", category: "Liturgy", type: "guide", intro: "The Assumption celebrates Mary taken body and soul into heaven — a Holy Day of Obligation in the United States." },
+  { component: "QueenshipOfMaryCatholicGuide", slug: "queenship-of-mary-catholic-guide", title: "Queenship of Mary: Catholic Feast Day Guide (August 22)", desc: "Queenship of Mary — Catholic teaching on Mary as Queen, feast day meaning, and prayers for August 22.", keywords: "queenship of mary, mary queen catholic, august 22 marian feast", icon: "Crown", bg: "bg-purple-100", iconColor: "text-purple-600", category: "Liturgy", type: "guide", intro: "One week after the Assumption, the Church celebrates Mary as Queen of Heaven and earth." },
+
+  // USA Life 1326-1332
+  { component: "CanCatholicsKeepAshesAtHome", slug: "can-catholics-keep-ashes-at-home", title: "Can Catholics Keep Ashes at Home? Church Rules in the USA", desc: "Can Catholics keep ashes at home? What the Church allows and forbids about cremated remains in the United States.", keywords: "can catholics keep ashes at home, catholic cremation ashes rules, church teaching cremated remains", icon: "Home", bg: "bg-stone-100", iconColor: "text-stone-600", category: "Living", type: "guide", intro: "After cremation, many families wonder whether keeping ashes at home is permitted — Catholic law is clear." },
+  { component: "CatholicGodparentRequirementsUsa", slug: "catholic-godparent-requirements-usa", title: "Catholic Godparent Requirements in the USA: Rules & Qualifications", desc: "Catholic godparent requirements in the USA — age, Confirmation, marriage status, and how many godparents are allowed.", keywords: "catholic godparent requirements, godparent rules usa, can godparents be divorced", icon: "Users", bg: "bg-sky-100", iconColor: "text-sky-700", category: "Living", type: "guide", intro: "Godparents are not honorary titles — the Church sets real requirements for Baptism and Confirmation sponsors." },
+  { component: "WhatAgeFirstCommunionCatholicUsa", slug: "what-age-first-communion-catholic-usa", title: "What Age Is First Communion in the Catholic Church? USA Guide", desc: "What age is First Communion in the USA? Typical ages, preparation requirements, and diocesan norms explained.", keywords: "what age first communion, first communion age catholic usa, when do catholics receive communion", icon: "CircleDot", bg: "bg-rose-100", iconColor: "text-rose-600", category: "Living", type: "guide", intro: "Most American children receive First Communion around age seven or eight, but preparation varies by parish." },
+  { component: "HowLongIsRciaProcess", slug: "how-long-is-rcia-process", title: "How Long Is RCIA? Catholic Conversion Timeline in the USA", desc: "How long is RCIA? Typical timeline, stages, and what to expect when becoming Catholic in the United States.", keywords: "how long is rcia, rcia timeline, becoming catholic how long", icon: "Clock", bg: "bg-emerald-100", iconColor: "text-emerald-700", category: "Living", type: "guide", intro: "RCIA usually runs from fall through Easter Vigil, but the journey varies by parish and personal readiness." },
+  { component: "CatholicFuneralMassWhatToExpect", slug: "catholic-funeral-mass-what-to-expect", title: "Catholic Funeral Mass: What to Expect (Complete USA Guide)", desc: "Catholic funeral Mass explained — Vigil, Mass of Christian Burial, committal, etiquette, and what happens step by step.", keywords: "catholic funeral mass what to expect, catholic funeral rites order, mass of christian burial", icon: "Church", bg: "bg-slate-100", iconColor: "text-slate-700", category: "Living", type: "guide", intro: "A Catholic funeral is a Mass offered for the deceased — understanding the rites brings comfort to grieving families." },
+  { component: "CanCatholicsDonateOrgans", slug: "can-catholics-donate-organs", title: "Can Catholics Donate Organs? What the Church Teaches", desc: "Can Catholics donate organs? Church teaching on organ donation, end-of-life ethics, and Catholic moral principles.", keywords: "can catholics donate organs, catholic church organ donation, organ donation catholic teaching", icon: "HeartPulse", bg: "bg-red-100", iconColor: "text-red-600", category: "Living", type: "guide", intro: "Organ donation is considered an act of charity when done ethically — the Church supports it under proper conditions." },
+  { component: "CatholicWeddingMassVsCeremony", slug: "catholic-wedding-mass-vs-ceremony", title: "Catholic Wedding Mass vs. Ceremony: What's the Difference?", desc: "Catholic wedding Mass vs. ceremony without Mass — differences, requirements, and what engaged couples should choose.", keywords: "catholic wedding mass vs ceremony, nuptial mass catholic, wedding without mass catholic", icon: "Heart", bg: "bg-pink-100", iconColor: "text-pink-600", category: "Living", type: "guide", intro: "Not every Catholic wedding is a full Mass — mixed-faith couples often choose a ceremony without Eucharist." },
+];
+
+const iconImports = {
+  Brain: "Brain", Search: "Search", Baby: "Baby", ShieldAlert: "ShieldAlert", GraduationCap: "GraduationCap",
+  Gavel: "Gavel", Shield: "Shield", HeartCrack: "HeartCrack", Home: "Home", Flower2: "Flower2",
+  Star: "Star", HandHeart: "HandHeart", Moon: "Moon", Wind: "Wind", Sun: "Sun", Zap: "Zap", Cross: "Cross",
+  Heart: "Heart", Crown: "Crown", MapPin: "MapPin", Users: "Users", CircleDot: "CircleDot", Clock: "Clock",
+  Church: "Church", HeartPulse: "HeartPulse",
+};
+
+function breadcrumb(title) {
+  return title.length > 40 ? title.slice(0, 37) + "..." : title;
+}
+
+function generate(article) {
+  const icon = article.icon;
+  const hasPrayer = article.prayer;
+  const isNovena = article.type === "novena";
+  const categoryLabel = article.category === "Prayer" ? "Prayer & Devotion" : article.category === "Liturgy" ? "Liturgy & Worship" : article.category === "Living" ? "Catholic Living" : "Catholic Living";
+  const readTime = article.type === "guide" ? "10 min" : "7 min";
+
+  const prayerBlock = hasPrayer ? `
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
+                <h3 className="font-display text-lg font-bold text-text mb-3">${isNovena ? "Daily Novena Prayer" : "Full Prayer Text"}</h3>
+                <p className="text-text italic leading-relaxed text-sm">${article.prayer}</p>
+              </div>` : "";
+
+  const stepsBlock = isNovena ? `
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray This Novena</h2>
+              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
+                <li>Pray for nine consecutive days without skipping.</li>
+                <li>Name your intention clearly on day one.</li>
+                <li>Begin with the Sign of the Cross; end with Glory Be if you wish.</li>
+                <li>Combine prayer with responsible action (medical, legal, or practical steps when needed).</li>
+              </ol>` : article.type === "guide" ? `
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Key Points for Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="${article.slug}">This guide explains Catholic teaching and common U.S. parish practice in plain language — always confirm details with your local parish or diocese when requirements vary.</LinkedText>` : `
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Pray This Prayer</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="${article.slug}">Catholics pray this devotion in daily prayer, before Mass, during Eucharistic adoration, or whenever you need to unite your heart to God.</LinkedText>`;
+
+  const faqs = isNovena ? [
+    { q: "How many days is this novena?", a: "Nine consecutive days is the standard Catholic novena form." },
+    { q: "Can I start on any day?", a: "Yes. You do not need to wait for a feast day, though some begin before a relevant saint's feast." },
+    { q: "Can someone else pray the novena for me?", a: "Yes. Family and friends often offer novenas for others by name." },
+    { q: "Does prayer replace practical steps?", a: "No. Prayer and responsible action belong together — especially for legal, medical, or financial needs." },
+  ] : article.type === "guide" ? [
+    { q: "Does this apply everywhere in the USA?", a: "General Church teaching is universal, but some pastoral practices vary by diocese — check with your parish." },
+    { q: "Is this official Church teaching?", a: "This article summarizes Catholic doctrine and common practice; for canonical questions consult your pastor." },
+    { q: "Where can I learn more?", a: "The Catechism of the Catholic Church and your parish RCIA or marriage prep program are reliable sources." },
+    { q: "Do I need to be Catholic to read this?", a: "No. These guides are written for anyone seeking to understand Catholic faith and practice." },
+  ] : [
+    { q: "Is this an official Catholic prayer?", a: "This prayer is widely used in Catholic devotion and approved for private prayer." },
+    { q: "Can I pray this daily?", a: "Yes. These prayers are suitable for daily use, not only on special occasions." },
+    { q: "Do I need a rosary or beads?", a: "No. This prayer is prayed as written, though you may combine it with other devotions." },
+    { q: "Can I pray this in a group?", a: "Yes. Parish groups, families, and prayer chains often pray these texts together." },
+  ];
+
+  return `import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
+import { ArrowLeft, Calendar, Clock, ${icon} } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Footer } from "@/components/landing/Footer";
+import { Navbar } from "@/components/landing/Navbar";
+import { RelatedArticles } from "@/components/blog/RelatedArticles";
+import { QuizCTA } from "@/components/blog/QuizCTA";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleSchema } from "@/components/blog/ArticleSchema";
+import { LinkedText } from "@/components/blog/LinkedText";
+
+export default function ${article.component}() {
+  return (
+    <>
+      <Helmet>
+        <title>${article.title} | Guide Catholic</title>
+        <meta name="description" content="${article.desc}" />
+        <meta name="keywords" content="${article.keywords}" />
+        <link rel="canonical" href="https://guidecatholic.com/blog/${article.slug}/" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+      <ArticleSchema title="${article.title}" description="${article.desc}" url="https://guidecatholic.com/blog/${article.slug}/" datePublished="2026-05-30" />
+
+      <div className="min-h-screen bg-background">
+        <Navbar />
+        <div className="bg-background-muted/50 py-3 mt-16">
+          <div className="container mx-auto px-4">
+            <nav className="flex items-center gap-2 text-sm text-text-muted">
+              <Link to="/" className="hover:text-accent">Home</Link><span>/</span>
+              <Link to="/blog" className="hover:text-accent">Blog</Link><span>/</span>
+              <span className="text-text">${breadcrumb(article.title)}</span>
+            </nav>
+          </div>
+        </div>
+        <article className="py-12">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8"><ArrowLeft className="w-4 h-4" />Back to Blog</Link>
+            <header className="mb-8">
+              <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
+                <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">${categoryLabel.replace("&", "&amp;")}</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />${readTime} read</span>
+              </div>
+              <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">${article.title}</h1>
+              <p className="text-xl text-text-muted leading-relaxed">${article.desc.charAt(0).toUpperCase() + article.desc.slice(1)}</p>
+            </header>
+            <div className="aspect-video ${article.bg} rounded-2xl flex items-center justify-center mb-10"><${icon} className="w-24 h-24 ${article.iconColor}" strokeWidth={1.5} /></div>
+            <div className="prose prose-lg max-w-none">
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="${article.slug}">${article.intro}</LinkedText>
+              ${stepsBlock}
+              ${prayerBlock}
+              <QuizCTA title="Grow in Catholic faith" description="Take the Catholic life assessment for personalized guidance on prayer and daily living." />
+            </div>
+            <BlogFAQ faqs={[
+              { question: "${faqs[0].q}", answer: "${faqs[0].a}" },
+              { question: "${faqs[1].q}", answer: "${faqs[1].a}" },
+              { question: "${faqs[2].q}", answer: "${faqs[2].a}" },
+              { question: "${faqs[3].q}", answer: "${faqs[3].a}" },
+            ]} />
+            <RelatedArticles currentSlug="${article.slug}" />
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
+            </div>
+          </div>
+        </article>
+        <Footer />
+      </div>
+    </>
+  );
+}
+`;
+}
+
+const outDir = path.join(process.cwd(), "src/pages/blog");
+for (const a of articles) {
+  fs.writeFileSync(path.join(outDir, `${a.component}.tsx`), generate(a));
+  console.log("Created", a.component);
+}
+
+// Export metadata for wiring
+fs.writeFileSync(path.join(process.cwd(), "scripts/batch-articles-meta.json"), JSON.stringify(articles, null, 2));
+console.log("Done:", articles.length, "articles");

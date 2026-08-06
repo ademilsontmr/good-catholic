@@ -59,7 +59,7 @@ export default function AgnusDeiPrayerCatholic() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayers & Devotions</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />7 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
                 Agnus Dei: Full Text of the Lamb of God Prayer at Mass
@@ -106,13 +106,49 @@ export default function AgnusDeiPrayerCatholic() {
               <p className="text-text leading-relaxed mb-6">
                 The Agnus Dei follows the Lord's Prayer and the Sign of Peace, during the fraction rite when the priest breaks the consecrated Host. The third invocation may be repeated until the distribution of Communion is complete in some celebrations.
               </p>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">The Agnus Dei (Lamb of God) prayer with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Agnus Dei, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Readers often search for Agnus Dei: Full Text of the Lamb of God Prayer at Mass during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">The Agnus Dei (Lamb of God) prayer with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
+              {/* data-expanded-depth-3 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">History and Church Approval</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Many Catholic prayers grew from monastic communities, papal encouragement, or popular devotion validated by local bishops. Agnus Dei belongs to this living tradition — not private revelation disconnected from the Magisterium.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Praying With Your Parish</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Bring this prayer to parish adoration hours, men&apos;s groups, or family rosary time. Shared prayer strengthens faith and corrects private misunderstandings.</LinkedText>
+
             </div>
 
             <BlogFAQ faqs={[
               { question: "What does Agnus Dei mean?", answer: "Agnus Dei is Latin for Lamb of God. It refers to Jesus Christ, the Passover Lamb whose sacrifice takes away the sins of the world." },
               { question: "Why is Agnus Dei prayed three times?", answer: "The triple invocation expresses urgent trust in Christ's mercy. The first two ask for mercy; the third asks for peace — the fruit of reconciliation with God." },
               { question: "Do Catholics kneel during the Agnus Dei?", answer: "In the Roman Rite, the faithful kneel from the Agnus Dei until they receive Communion, unless local custom or disability requires otherwise." },
-              { question: "Is the Agnus Dei the same as the Agnus Dei sacramental?", answer: "No. The prayer at Mass is a liturgical text. Agnus Dei sacramentals are wax discs blessed by the Pope, a different devotion." },
+              { question: "Is the Agnus Dei the same as the Agnus Dei sacramental?", answer: "No. The prayer at Mass is a liturgical text. Agnus Dei sacramentals are wax discs blessed by the Pope, a different devotion." },,
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="agnus-dei-prayer-catholic" />

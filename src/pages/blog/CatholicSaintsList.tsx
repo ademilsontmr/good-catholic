@@ -341,8 +341,21 @@ export default function CatholicSaintsList() {
                   "The saints are not just models to imitate — they are friends to accompany us, intercessors to pray for us, and companions on the journey to God."
                 </p>
                 <p className="text-text-muted text-center mt-2">— Pope Francis</p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life and Mission</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">Complete list of Catholic patron saints by need — health, work, family, travel, lost items. Find your patron saint and how to ask for intercession. Saints are not distant legends — they are men and women who cooperated with grace in real historical circumstances. Their stories show that holiness is possible in ordinary work, family life, persecution, and service.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Seek This Saint&apos;s Intercession</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">The Church teaches that saints in heaven remain part of the communion of believers (CCC 954–959). We do not worship them; we ask their prayers as we might ask a friend on earth. Patron saints often connect to specific needs — illness, work, conversion, or protection — because of how they lived and died.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Days and Parish Devotion in the U.S.</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">Parishes across the United States celebrate saint feast days with special Masses, novenas, and food traditions tied to immigrant communities. Mark the feast on your calendar, read the Mass readings that day, and consider one concrete act of charity in the saint&apos;s honor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Growing in Friendship With the Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">Choose one saint to \"befriend\" this year: read a short biography, pray a novena before their feast, and ask how their virtues — courage, humility, chastity, or mercy — apply to your state in life. Holiness spreads through imitation and intercession, not superstition.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               { question: "What are Catholic patron saints?", answer: "Catholic patron saints are canonized men and women in heaven whom the Church assigns special patronage over particular needs, professions, places, or groups — such as St. Anthony for lost items or St. Joseph for families. Catholics ask patron saints to intercede with God on their behalf; they do not worship saints as gods." },
@@ -351,7 +364,9 @@ export default function CatholicSaintsList() {
               { question: "Can I have more than one patron saint?", answer: "Yes. Catholics often have multiple patron saints — a baptismal patron, a Confirmation patron, a patron of their profession, and saints they have a personal devotion to. The saints are not jealous of each other; they all want to help you." },
               { question: "What is the difference between a patron saint and a guardian angel?", answer: "A patron saint is a canonized saint in heaven who has been given special patronage over a particular group, profession, or cause. A guardian angel is an angel assigned by God to protect and guide each individual person from birth. Both intercede for us, but in different ways." },
               { question: "How do I ask a saint for intercession?", answer: "Simply speak to the saint as you would to a friend: 'St. [Name], please pray for me. I am facing [describe your need]. Please bring my petition before God and ask for His help.' You can also pray a formal prayer or novena to the saint. The key is faith and sincerity." },
-              { question: "Is it okay to pray to saints I don't know much about?", answer: "Yes. You don't need to know a saint's full biography to ask for their intercession. A simple prayer — 'St. [Name], pray for me' — is sufficient. That said, learning about the saints enriches your devotion and helps you understand why they have been given particular patronages." },
+              { question: "Is it okay to pray to saints I don't know much about?", answer: "Yes. You don't need to know a saint's full biography to ask for their intercession. A simple prayer — 'St. [Name], pray for me' — is sufficient. That said, learning about the saints enriches your devotion and helps you understand why they have been given particular patronages." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="catholic-saints-list" />

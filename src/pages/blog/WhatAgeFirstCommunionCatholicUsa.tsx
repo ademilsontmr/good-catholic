@@ -106,6 +106,19 @@ export default function WhatAgeFirstCommunionCatholicUsa() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-age-first-communion-catholic-usa">
                 Age seven is the threshold of reason, not a magical birthday. If your second-grader is ready and your parish agrees, celebrate with joy. If they need another year, that patience honors the sacrament more than rushing a child who cannot yet grasp what — or rather Who — they receive.
               </LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-age-first-communion-catholic-usa">What age is First Communion in the USA? Typical ages, preparation requirements, and diocesan norms explained. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-age-first-communion-catholic-usa">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-age-first-communion-catholic-usa">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-age-first-communion-catholic-usa">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Can my six-year-old receive First Communion?", answer: "Generally no. Most parishes and dioceses require the age of reason, about seven. A pastor may discern exceptional readiness in an mature six-year-old, but this is rare and requires explicit approval." },
@@ -113,7 +126,9 @@ export default function WhatAgeFirstCommunionCatholicUsa() {
               { question: "Can homeschooled children receive First Communion?", answer: "Yes, in many dioceses. Parents must use an approved curriculum and coordinate with the parish so the child participates in parish retreats, First Reconciliation, and readiness interviews." },
               { question: "What if my child has celiac disease or a gluten allergy?", answer: "The Church provides low-gluten hosts approved for valid consecration. Notify your pastor before First Communion so appropriate hosts are consecrated and reserved for your child." },
               { question: "Can adults receive First Communion?", answer: "Yes through RCIA or adult confirmation programs — age is not a barrier." },
-              { question: "Must children confess before First Communion?", answer: "Yes. First Confession is required before First Eucharist in ordinary circumstances." }
+              { question: "Must children confess before First Communion?", answer: "Yes. First Confession is required before First Eucharist in ordinary circumstances." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="what-age-first-communion-catholic-usa" />
             <ArticleBottomCTA />

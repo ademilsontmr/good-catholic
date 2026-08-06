@@ -159,8 +159,34 @@ export default function VirginMary() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Of Mary, there can never be enough said." — St. Bernard of Clairvaux
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catholic Church Teaches</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">Explore the deep theology of the Virgin Mary. Learn about the four dogmas, the Ark of the New Covenant typology, and why Catholics venerate Our Lady. The Catechism of the Catholic Church gathers this teaching for the whole People of God. Catholics look to Scripture, Tradition, and the Magisterium together — not private opinion or trending ideologies — when forming conscience.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Misunderstandings</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">Secular media and social debate often distort Catholic doctrine. Non-Catholics may assume the Church teaches what it does not; Catholics may not have heard clear catechesis since childhood. This article states the Church&apos;s position plainly so you can discuss it charitably with family, coworkers, or friends who ask honest questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why This Doctrine Matters for Daily Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">Faith is not an abstract exam to pass. What the Church teaches about The Virgin Mary shapes how Catholics worship, raise children, vote, work, and confess sin. Truth frees — even when it challenges comfort.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Living the Faith With Courage</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">If this teaching calls you to change, begin with prayer and Confession, not guilt alone. Speak with a priest or trusted catechist if you are wrestling with a hard moral question. The Church exists to lead souls to Christ, not to win arguments.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">Readers often search for The Virgin Mary: Prototype of the Church and Mother of God during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary">Explore the deep theology of the Virgin Mary. Learn about the four dogmas, the Ark of the New Covenant typology, and why Catholics venerate Our Lady. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -174,7 +200,9 @@ export default function VirginMary() {
               {
                 question: "Why do we say she is the 'Mediatrix' of all graces?",
                 answer: "Christ is the ONLY mediator (1 Tim 2:5). However, Mary participated in that mediation by giving biological life to the source of all grace. Just as a mother 'mediates' life to her child, Mary mediated the Savior to the world."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="virgin-mary" />

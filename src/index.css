@@ -250,6 +250,16 @@
   background: hsl(var(--primary) / 0.5);
 }
 
+/* Hide scrollbar while keeping scroll (category filters, carousels) */
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
 /* ===== MOBILE UX IMPROVEMENTS ===== */
 
 /* Article hero images: reduce height on mobile */

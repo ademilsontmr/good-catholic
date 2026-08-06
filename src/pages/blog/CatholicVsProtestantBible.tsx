@@ -164,6 +164,19 @@ export default function CatholicVsProtestantBible() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 When you read a Catholic Bible, you are reading the Scriptures as they were understood and used by Christ, the Apostles, and the earliest Christians. The Deuterocanonical books offer rich wisdom, historical bridges between the Old and New Testaments, and prophetic insights that enrich our faith immensely. 
               </LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">Why does the Catholic Bible have 73 books and the Protestant Bible 66? Understand the history of the canon, the Deuterocanonical books, and Martin Luther&apos;s changes. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
+
             </div>
 
             <BlogFAQ faqs={[
@@ -182,7 +195,9 @@ export default function CatholicVsProtestantBible() {
               {
                 question: "Did the original King James Version have the 7 books?",
                 answer: "Yes! The original 1611 King James Version contained the Apocrypha in a separate section between the Old and New Testaments. It wasn't until the 1800s that Protestant Bible societies started printing Bibles completely without them."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="catholic-vs-protestant-bible" />

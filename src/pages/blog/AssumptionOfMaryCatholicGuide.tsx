@@ -105,6 +105,19 @@ export default function AssumptionOfMaryCatholicGuide() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Assumption and Queenship of Mary</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="assumption-of-mary-catholic-guide">One week later, on August 22, the Church celebrates the Queenship of Mary — Mary crowned in heaven because of her Assumption. The two feasts form the heart of the second half of August in the liturgical calendar, closing the summer with Marian hope before Ordinary Time resumes its rhythm.</LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life and Mission</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="assumption-of-mary-catholic-guide">Assumption of Mary — Catholic teaching, Holy Day of Obligation in the USA, Mass, and how to honor Mary on August 15. Saints are not distant legends — they are men and women who cooperated with grace in real historical circumstances. Their stories show that holiness is possible in ordinary work, family life, persecution, and service.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Seek This Saint&apos;s Intercession</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="assumption-of-mary-catholic-guide">The Church teaches that saints in heaven remain part of the communion of believers (CCC 954–959). We do not worship them; we ask their prayers as we might ask a friend on earth. Patron saints often connect to specific needs — illness, work, conversion, or protection — because of how they lived and died.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Days and Parish Devotion in the U.S.</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="assumption-of-mary-catholic-guide">Parishes across the United States celebrate saint feast days with special Masses, novenas, and food traditions tied to immigrant communities. Mark the feast on your calendar, read the Mass readings that day, and consider one concrete act of charity in the saint&apos;s honor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Growing in Friendship With the Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="assumption-of-mary-catholic-guide">Choose one saint to \"befriend\" this year: read a short biography, pray a novena before their feast, and ask how their virtues — courage, humility, chastity, or mercy — apply to your state in life. Holiness spreads through imitation and intercession, not superstition.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Is the Assumption a Holy Day of Obligation in the USA?", answer: "Yes, August 15 is normally a Holy Day of Obligation. When it falls on Saturday or Monday, some U.S. dioceses may abrogate the obligation — check your local diocesan calendar for 2026." },
@@ -113,7 +126,9 @@ export default function AssumptionOfMaryCatholicGuide() {
               { question: "Did Mary die before the Assumption?", answer: "The dogma does not define whether Mary died before being assumed. Eastern tradition speaks of her Dormition (falling asleep). Both East and West agree she was taken body and soul into glory." },
               { question: "Is the Assumption in the Bible?", answer: "Revelation 12 is read typologically; the doctrine was defined by Pope Pius XII in 1950 as divinely revealed." },
               { question: "What if August 15 falls on a Saturday or Monday?", answer: "U.S. bishops may transfer or lift the obligation — check your diocese each year." },
-              { question: "What is the difference between Assumption and Dormition?", answer: "The Assumption (Latin Church) and Dormition (Eastern Churches) celebrate the same truth — Mary in heavenly glory — with different emphases on how she entered that glory." }
+              { question: "What is the difference between Assumption and Dormition?", answer: "The Assumption (Latin Church) and Dormition (Eastern Churches) celebrate the same truth — Mary in heavenly glory — with different emphases on how she entered that glory." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="assumption-of-mary-catholic-guide" />
             <ArticleBottomCTA title="Deepen your Marian devotion" description="Get a personalized guide for Mass, prayer, and spiritual growth." />

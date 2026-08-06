@@ -510,6 +510,12 @@ const DoAnimalsGoToHeavenCatholic = lazy(() => import("./pages/blog/DoAnimalsGoT
 const HolyDaysOfObligation2026Usa = lazy(() => import("./pages/blog/HolyDaysOfObligation2026Usa"));
 const OctoberMonthOfTheHolyRosaryGuide = lazy(() => import("./pages/blog/OctoberMonthOfTheHolyRosaryGuide"));
 const FeastOfTheArchangelsSeptember29Guide = lazy(() => import("./pages/blog/FeastOfTheArchangelsSeptember29Guide"));
+const StMichaelsLentNovenaPrayerGuideUs2026 = lazy(() => import("./pages/blog/StMichaelsLentNovenaPrayerGuideUs2026"));
+const Michaelmas2026WhenIsIt = lazy(() => import("./pages/blog/Michaelmas2026WhenIsIt"));
+const FeastOfStMichaelArchangel2026 = lazy(() => import("./pages/blog/FeastOfStMichaelArchangel2026"));
+const SaintWhoAdvisedEmperors = lazy(() => import("./pages/blog/SaintWhoAdvisedEmperors"));
+const HowToFindMyCatholicParish = lazy(() => import("./pages/blog/HowToFindMyCatholicParish"));
+const WhoWasThe200thPope = lazy(() => import("./pages/blog/WhoWasThe200thPope"));
 const SacredHeartDevotionCompleteGuide = lazy(() => import("./pages/blog/SacredHeartDevotionCompleteGuide"));
 const SaintsPeterAndPaulFeastGuide = lazy(() => import("./pages/blog/SaintsPeterAndPaulFeastGuide"));
 const CatholicSummerMassScheduleGuide = lazy(() => import("./pages/blog/CatholicSummerMassScheduleGuide"));
@@ -869,6 +875,12 @@ export function AppRoutes() {
             <Route path="/blog/holy-days-of-obligation-2026-usa/" element={<HolyDaysOfObligation2026Usa />} />
             <Route path="/blog/october-month-of-the-holy-rosary-2026/" element={<OctoberMonthOfTheHolyRosaryGuide />} />
             <Route path="/blog/feast-of-the-archangels-september-29-2026/" element={<FeastOfTheArchangelsSeptember29Guide />} />
+            <Route path="/blog/st-michaels-lent-novena-prayer-guide-us-2026/" element={<StMichaelsLentNovenaPrayerGuideUs2026 />} />
+            <Route path="/blog/michaelmas-2026-when-is-it/" element={<Michaelmas2026WhenIsIt />} />
+            <Route path="/blog/feast-of-st-michael-the-archangel-2026/" element={<FeastOfStMichaelArchangel2026 />} />
+            <Route path="/blog/saint-who-advised-emperors/" element={<SaintWhoAdvisedEmperors />} />
+            <Route path="/blog/how-to-find-my-catholic-parish/" element={<HowToFindMyCatholicParish />} />
+            <Route path="/blog/200th-pope-who-was-it/" element={<WhoWasThe200thPope />} />
             <Route path="/blog/corpus-christi-feast-guide-catholic/" element={<CorpusChristiFeastGuideCatholic />} />
             <Route path="/blog/sacred-heart-devotion-complete-guide/" element={<SacredHeartDevotionCompleteGuide />} />
             <Route path="/blog/saints-peter-and-paul-feast-guide/" element={<SaintsPeterAndPaulFeastGuide />} />
@@ -883,6 +895,7 @@ export function AppRoutes() {
             <Route path="/blog/can-catholics-donate-organs/" element={<CanCatholicsDonateOrgans />} />
             <Route path="/blog/catholic-wedding-mass-vs-ceremony/" element={<CatholicWeddingMassVsCeremony />} />
             <Route path="/blog/list-of-all-popes-catholic-complete-guide/" element={<ListOfAllPopesCatholicGuide />} />
+            <Route path="/blog/list-of-all-popes-catholic-guide/" element={<Navigate to="/blog/list-of-all-popes-catholic-complete-guide/" replace />} />
 
             {/* Saints Series */}
             <Route path="/blog/virgin-mary-complete-guide/" element={<VirginMaryGuide />} />

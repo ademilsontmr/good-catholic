@@ -58,7 +58,7 @@ export default function EucharisticAdorationNearMe() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy & Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 11, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />9 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
                 Eucharistic Adoration Near Me: How to Find a Holy Hour
@@ -130,14 +130,42 @@ export default function EucharisticAdorationNearMe() {
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8 text-center">
                 <MapPin className="w-8 h-8 text-primary mx-auto mb-3" />
                 <p className="text-text italic">The best Adoration chapel is the one you will actually visit. Start nearby, start small, and return often.</p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Readers often search for Eucharistic Adoration Near Me: How to Find a Holy Hour during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               { question: "Do I have to stay a full hour at Eucharistic Adoration?", answer: "No. A holy hour is a beautiful practice, but you may visit for 10, 15, or 30 minutes. The important thing is to pray with reverence and love." },
               { question: "Can non-Catholics attend Eucharistic Adoration?", answer: "Yes. Non-Catholics may quietly attend Adoration and pray. They should follow the chapel's reverent atmosphere and may ask a Catholic friend or parish staff member about customs." },
               { question: "What is perpetual adoration?", answer: "Perpetual adoration means the Blessed Sacrament is adored continuously, often 24 hours a day, with scheduled adorers committed to each hour." },
-              { question: "What should I bring to Adoration?", answer: "You can bring a Bible, Rosary, prayer book, journal, or nothing at all. Silence and attention are enough." },
+              { question: "What should I bring to Adoration?", answer: "You can bring a Bible, Rosary, prayer book, journal, or nothing at all. Silence and attention are enough." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="eucharistic-adoration-near-me" />

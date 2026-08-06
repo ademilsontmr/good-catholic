@@ -58,7 +58,7 @@ export default function DailyMassNearMe() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Mass & Sacraments</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 11, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />8 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
                 Daily Mass Near Me: Find Catholic Mass Today
@@ -129,14 +129,42 @@ export default function DailyMassNearMe() {
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8 text-center">
                 <Church className="w-8 h-8 text-primary mx-auto mb-3" />
                 <p className="text-text italic">Even one weekday Mass a week can reshape your spiritual life over time.</p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Find Daily Mass near you today. Learn how to locate weekday Catholic Mass times, noon Mass, early morning Mass, readings, and parish schedules. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Readers often search for Daily Mass Near Me: Find Catholic Mass Today during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Find Daily Mass near you today. Learn how to locate weekday Catholic Mass times, noon Mass, early morning Mass, readings, and parish schedules. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               { question: "How long is Daily Mass?", answer: "Most weekday Masses last about 25 to 35 minutes, though this varies by parish, feast day, music, and homily length." },
               { question: "Can I receive Communion at Daily Mass?", answer: "Yes, if you are Catholic, properly disposed, and not conscious of unconfessed mortal sin. If you need Confession, go before receiving Communion." },
               { question: "Does Daily Mass fulfill the Sunday obligation?", answer: "No. A weekday Daily Mass does not fulfill the Sunday obligation. A Saturday evening Vigil Mass does fulfill the Sunday obligation." },
-              { question: "Where can I find today's Catholic Mass readings?", answer: "You can find the daily readings through the USCCB website, Catholic apps, missals, and parish worship aids." },
+              { question: "Where can I find today's Catholic Mass readings?", answer: "You can find the daily readings through the USCCB website, Catholic apps, missals, and parish worship aids." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="daily-mass-near-me" />

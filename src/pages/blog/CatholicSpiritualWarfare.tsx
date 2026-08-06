@@ -10,6 +10,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
 
 export default function CatholicSpiritualWarfare() {
   return (
@@ -166,6 +167,8 @@ export default function CatholicSpiritualWarfare() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 This prayer is appropriate after Mass, before sleep, when facing temptation, when sensing spiritual oppression, or as part of a daily spiritual warfare routine. Saint Michael is the great warrior of heaven — the archangel who cast Satan out of heaven and who will lead the armies of God at the end of time.
               </LinkedText>
+
+              <StMichaelCboCTA />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Discerning Spiritual Attack vs. Ordinary Temptation vs. Mental Illness</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">

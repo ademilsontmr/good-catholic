@@ -171,8 +171,21 @@ export default function CatholicViewOnGhosts() {
                 <p className="text-text italic text-center leading-relaxed">
                   "Do not be afraid of them, for the One who is in you is greater than the one who is in the world." — 1 John 4:4
                 </p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catholic Church Teaches</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-ghosts">Do Roman Catholics believe in ghosts? Clear Church teaching — purgatory, demons vs souls, haunted houses, and how Catholics should respond with prayer. The Catechism of the Catholic Church gathers this teaching for the whole People of God. Catholics look to Scripture, Tradition, and the Magisterium together — not private opinion or trending ideologies — when forming conscience.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Misunderstandings</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-ghosts">Secular media and social debate often distort Catholic doctrine. Non-Catholics may assume the Church teaches what it does not; Catholics may not have heard clear catechesis since childhood. This article states the Church&apos;s position plainly so you can discuss it charitably with family, coworkers, or friends who ask honest questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why This Doctrine Matters for Daily Life</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-ghosts">Faith is not an abstract exam to pass. What the Church teaches about Do Roman Catholics Believe in Ghosts? Ch shapes how Catholics worship, raise children, vote, work, and confess sin. Truth frees — even when it challenges comfort.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Living the Faith With Courage</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-view-on-ghosts">If this teaching calls you to change, begin with prayer and Confession, not guilt alone. Speak with a priest or trusted catechist if you are wrestling with a hard moral question. The Church exists to lead souls to Christ, not to win arguments.</LinkedText>
+
             </div>
+
+              </div>
 
             <BlogFAQ faqs={[
               {
@@ -186,7 +199,9 @@ export default function CatholicViewOnGhosts() {
               {
                 question: "Are 'ghosts' just energy left behind?",
                 answer: "The Church does not support the idea of 'residual energy.' Every spiritual manifestation is either an intelligent soul (human) or an intelligent spirit (angelic/demonic). Treating them as mere 'energy' can make a person lower their guard against deception."
-              }
+              },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="catholic-view-on-ghosts" />

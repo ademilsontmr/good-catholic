@@ -104,6 +104,19 @@ export default function CanCatholicsDonateOrgans() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-donate-organs">
                 Registering as an organ donor can be one of the most concrete ways to live out &quot;Greater love has no one than this: to lay down one&apos;s life for one&apos;s friends&quot; (John 15:13). Speak with your pastor if personal circumstances — health, family objections, or moral uncertainty — require further discernment.
               </LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-donate-organs">Can Catholics donate organs? Church teaching on organ donation, end-of-life ethics, and Catholic moral principles. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-donate-organs">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-donate-organs">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-donate-organs">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Does organ donation prevent an open-casket funeral?", answer: "Not necessarily. After organ recovery, the body is respectfully prepared and returned to the family. Open-casket viewing is often still possible, though this varies by which organs are donated and funeral home practices." },
@@ -111,7 +124,9 @@ export default function CanCatholicsDonateOrgans() {
               { question: "Is it a sin to refuse organ donation?", answer: "No. Organ donation is a voluntary act of charity, not a moral obligation. Catholics may decline for personal, health, or conscientious reasons without sin." },
               { question: "What about donating my body to medical science?", answer: "Whole-body donation for research or medical education is permitted when done freely and remains are eventually given proper burial or cremation in a sacred place. Check that the program aligns with Catholic respect for the body." },
               { question: "Does organ donation prevent an open-casket funeral?", answer: "Not necessarily; funeral directors work with families and medical teams on dignified presentation." },
-              { question: "Can Catholics register as organ donors on their license?", answer: "Yes, with the understanding that family and Catholic moral principles guide final decisions." }
+              { question: "Can Catholics register as organ donors on their license?", answer: "Yes, with the understanding that family and Catholic moral principles guide final decisions." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="can-catholics-donate-organs" />
             <ArticleBottomCTA />

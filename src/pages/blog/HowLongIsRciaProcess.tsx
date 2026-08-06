@@ -105,6 +105,19 @@ export default function HowLongIsRciaProcess() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-long-is-rcia-process">
                 Eight months is typical; a lifetime is the goal. RCIA ends at the Vigil, but formation in the Catholic faith never truly ends — it deepens through daily prayer, Sunday Mass, and the communion of saints you join that holy night.
               </LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-long-is-rcia-process">How long is RCIA? Typical timeline, stages, and what to expect when becoming Catholic in the United States. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-long-is-rcia-process">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-long-is-rcia-process">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-long-is-rcia-process">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Do I have to wait until Easter to become Catholic?", answer: "Initiation sacraments for unbaptized adults are normally celebrated at the Easter Vigil. In rare pastoral cases, baptism may occur at other times, but Easter is the norm throughout the Church." },
@@ -112,7 +125,9 @@ export default function HowLongIsRciaProcess() {
               { question: "Can I start RCIA if I am not married in the Church?", answer: "Yes, you may begin inquiry. If you are in an irregular marriage, the pastor will discuss whether an annulment or convalidation is needed before receiving sacraments. This can extend the timeline." },
               { question: "What if I miss sessions due to work or travel?", answer: "Talk with your RCIA director. Occasional absences are manageable; prolonged absence may mean continuing another year. The process prioritizes formation over fixed schedules." },
               { question: "What does RCIA stand for?", answer: "Rite of Christian Initiation of Adults — the Church&apos;s process for welcoming new members." },
-              { question: "Can I attend Mass during RCIA before becoming Catholic?", answer: "Yes. You are expected to attend Sunday Mass; catechumens participate in the Liturgy of the Word and are dismissed before Communion." }
+              { question: "Can I attend Mass during RCIA before becoming Catholic?", answer: "Yes. You are expected to attend Sunday Mass; catechumens participate in the Liturgy of the Word and are dismissed before Communion." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="how-long-is-rcia-process" />
             <ArticleBottomCTA />

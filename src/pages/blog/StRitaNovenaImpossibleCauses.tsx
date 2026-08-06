@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
-import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
@@ -16,12 +15,12 @@ export default function StRitaNovenaImpossibleCauses() {
     <>
       <Helmet>
         <title>St. Rita Novena for Impossible Causes: 9-Day Prayer (Full Text) | Guide Catholic</title>
-        <meta name="description" content="St. Rita Novena for impossible causes — 9-day Catholic prayer with full text. Patron of hopeless cases, how to pray, and when to start the novena. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." />
+        <meta name="description" content="St. Rita Novena for impossible causes — 9-day Catholic prayer with full text. Patron of hopeless cases, how to pray, and when to start the novena. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-rita-novena-impossible-causes/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="St. Rita Novena for Impossible Causes: 9-Day Prayer (Full Text)" description="St. Rita Novena for impossible causes — 9-day Catholic prayer with full text. Patron of hopeless cases, how to pray, and when to start the novena. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/st-rita-novena-impossible-causes/" datePublished="2026-05-30" />
+      <ArticleSchema title="St. Rita Novena for Impossible Causes: 9-Day Prayer (Full Text)" description="St. Rita Novena for impossible causes — 9-day Catholic prayer with full text. Patron of hopeless cases, how to pray, and when to start the novena. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/st-rita-novena-impossible-causes/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -48,15 +47,15 @@ export default function StRitaNovenaImpossibleCauses() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayer &amp; Devotion</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">St. Rita Novena for Impossible Causes: 9-Day Prayer (Full Text)</h1>
-              <p className="text-xl text-text-muted leading-relaxed">St.</p>
+              <p className="text-xl text-text-muted leading-relaxed">St. Rita Novena for impossible causes — 9-day Catholic prayer with full text. Patron of hopeless cases, how to pray, and when to start the novena. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs.</p>
             </header>
             <div className="aspect-video bg-purple-100 rounded-2xl flex items-center justify-center mb-10"><Sparkles className="w-24 h-24 text-purple-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The St. Rita novena for impossible causes invokes the 15th-century Augustinian stigmatist — patron of abused wives, loneliness, and situations without human hope. Catholics pray nine days before her feast (May 22) or anytime; she is often pictured with a thorn wound and roses.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. St. Rita Novena for impossible causes  Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
@@ -85,6 +84,32 @@ export default function StRitaNovenaImpossibleCauses() {
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">If this need continues, you may repeat the novena or seek related devotions on Guide Catholic. Ask your parish priest for guidance on serious moral or sacramental questions.</LinkedText>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">St. Rita Novena for impossible causes — 9-day Catholic prayer with full text. Patron of hopeless cases, how to pray, and when to start the novena. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray St. Rita Novena for Impossible Causes, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">Readers often search for St. Rita Novena for Impossible Causes: 9-Day Prayer (Full Text) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-rita-novena-impossible-causes">St. Rita Novena for impossible causes — 9-day Catholic prayer with full text. Patron of hopeless cases, how to pray, and when to start the novena. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "How many days is this novena?", answer: "Nine consecutive days is the standard Catholic form." },
@@ -92,10 +117,17 @@ export default function StRitaNovenaImpossibleCauses() {
               { question: "Can someone pray the novena for me?", answer: "Yes — family and friends often offer novenas for others by name." },
               { question: "Does prayer replace practical help?", answer: "No — especially for legal, medical, or financial needs, prayer and action belong together." },
               { question: "What if I miss a day?", answer: "Resume the next day; many Catholics complete nine days of prayer without strict calendar reset." },
-              { question: "Is this approved by the Church?", answer: "Private novenas with orthodox content are widely encouraged; they are not the same as liturgical sacraments." },
+              { question: "Is this approved by the Church?", answer: "Private novenas with orthodox content are widely encouraged; they are not the same as liturgical sacraments." },,
+              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="st-rita-novena-impossible-causes" />
-            <ArticleBottomCTA title="How Deep Is Your Catholic Faith?" description="Take our assessment and receive a personalized guide to Catholic prayer and devotion." />
+            <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
+              <h3 className="font-display text-2xl font-bold text-text mb-4">How Deep Is Your Catholic Faith?</h3>
+              <p className="text-text-muted mb-6">Take our assessment and receive a personalized guide to Catholic prayer and devotion.</p>
+              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
+            </div>
           </div>
         </article>
         <Footer />

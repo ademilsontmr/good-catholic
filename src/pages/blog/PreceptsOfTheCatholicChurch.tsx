@@ -89,6 +89,32 @@ export default function PreceptsOfTheCatholicChurch() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Precepts vs. Commandments vs. Counsels</h2>
               <p className="text-text leading-relaxed mb-6">The Ten Commandments are divine law. The precepts are ecclesiastical law applying them to Catholic life in the Church. Evangelical counsels (poverty, chastity, obedience) are for those called to religious life — not binding on all laity. The precepts are a floor, not a ceiling; saints exceed them through love. In the United States, RCIA and Confirmation programs teach the precepts explicitly so adult converts know the baseline.</p>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
+              {/* data-expanded-depth-2 */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Readers often search for Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "What are the precepts of the Catholic Church?", answer: "They are five minimum practices the Church sets for the faithful: Sunday Mass, annual Confession, Easter Communion, fasting/abstinence, and supporting the Church." },
@@ -96,7 +122,9 @@ export default function PreceptsOfTheCatholicChurch() {
               { question: "What is the Easter duty?", answer: "Catholics should receive Communion at least once during Easter time (from the First Sunday of Lent through Trinity Sunday) and confess serious sins at least once a year." },
               { question: "Do precepts bind under pain of mortal sin?", answer: "Serious violation of the Sunday Mass obligation or intentional neglect of Easter duties can be grave matter; full culpability requires knowledge and consent." },
               { question: "What are the holy days of obligation in the USA?", answer: "Six feasts: Jan 1, Ascension, Aug 15, Nov 1, Dec 8, and Dec 25 — with transfers or exceptions when they fall on certain weekdays; confirm with your diocese." },
-              { question: "Do children have to follow all precepts?", answer: "Children are gradually formed. Full obligation applies at the age determined by canon law and diocesan policy — typically around the age of reason for some duties and teens for fasting." },
+              { question: "Do children have to follow all precepts?", answer: "Children are gradually formed. Full obligation applies at the age determined by canon law and diocesan policy — typically around the age of reason for some duties and teens for fasting." },,
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="precepts-of-the-catholic-church" />
             <ArticleBottomCTA />

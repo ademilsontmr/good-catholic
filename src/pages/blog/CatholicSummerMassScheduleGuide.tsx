@@ -111,6 +111,19 @@ export default function CatholicSummerMassScheduleGuide() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Making Vacation Catholic</h2>
               <p className="text-text leading-relaxed mb-6">Visit local shrines, cathedrals, or historic missions on your route. San Antonio Missions, Santa Fe&apos;s St. Francis Cathedral, and coastal parish festivals turn travel into pilgrimage. Attending Mass in a new community reminds Catholics that the Church is universal — the same Eucharist from Maine to Maui.</p>
+              {/* data-expanded-depth */}
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-summer-mass-schedule-guide">Catholic summer Mass guide — finding parishes on vacation, travel Mass times, and staying faithful while away from home. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-summer-mass-schedule-guide">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-summer-mass-schedule-guide">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-summer-mass-schedule-guide">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
+
             </div>
             <BlogFAQ faqs={[
               { question: "Do I have to go to Mass on vacation?", answer: "Yes. The Sunday obligation applies wherever you are in the United States. Plan ahead to find a parish near your destination." },
@@ -118,7 +131,9 @@ export default function CatholicSummerMassScheduleGuide() {
               { question: "Does a Saturday vigil Mass count if I am on vacation?", answer: "Yes. Any Catholic Mass celebrated after 4:00 p.m. Saturday (or according to local diocesan norms) fulfills the Sunday obligation for that weekend." },
               { question: "Do summer Mass times change at parishes?", answer: "Often yes. Many U.S. parishes reduce Mass times when attendance drops or staff vacation. Check schedules the week you travel rather than relying on old listings." },
               { question: "What if there is no Catholic church nearby?", answer: "You may need to travel a reasonable distance; there is no dispensation from Sunday Mass simply because you are on holiday." },
-              { question: "Do summer parishes have different Mass times?", answer: "Yes. Many coastal and tourist parishes add Masses in summer; always verify online before traveling." }
+              { question: "Do summer parishes have different Mass times?", answer: "Yes. Many coastal and tourist parishes add Masses in summer; always verify online before traveling." },
+              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
+              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="catholic-summer-mass-schedule-guide" />
             <ArticleBottomCTA title="Live your Catholic faith daily" description="Get a personalized guide for Mass, prayer, and family life." />
