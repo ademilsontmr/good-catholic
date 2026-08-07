@@ -516,6 +516,7 @@ const FeastOfStMichaelArchangel2026 = lazy(() => import("./pages/blog/FeastOfStM
 const SaintWhoAdvisedEmperors = lazy(() => import("./pages/blog/SaintWhoAdvisedEmperors"));
 const HowToFindMyCatholicParish = lazy(() => import("./pages/blog/HowToFindMyCatholicParish"));
 const WhoWasThe200thPope = lazy(() => import("./pages/blog/WhoWasThe200thPope"));
+const QualitySleepAndFaithCatholic = lazy(() => import("./pages/blog/QualitySleepAndFaithCatholic"));
 const SacredHeartDevotionCompleteGuide = lazy(() => import("./pages/blog/SacredHeartDevotionCompleteGuide"));
 const SaintsPeterAndPaulFeastGuide = lazy(() => import("./pages/blog/SaintsPeterAndPaulFeastGuide"));
 const CatholicSummerMassScheduleGuide = lazy(() => import("./pages/blog/CatholicSummerMassScheduleGuide"));
@@ -881,6 +882,7 @@ export function AppRoutes() {
             <Route path="/blog/saint-who-advised-emperors/" element={<SaintWhoAdvisedEmperors />} />
             <Route path="/blog/how-to-find-my-catholic-parish/" element={<HowToFindMyCatholicParish />} />
             <Route path="/blog/200th-pope-who-was-it/" element={<WhoWasThe200thPope />} />
+            <Route path="/blog/quality-sleep-and-faith-catholic/" element={<QualitySleepAndFaithCatholic />} />
             <Route path="/blog/corpus-christi-feast-guide-catholic/" element={<CorpusChristiFeastGuideCatholic />} />
             <Route path="/blog/sacred-heart-devotion-complete-guide/" element={<SacredHeartDevotionCompleteGuide />} />
             <Route path="/blog/saints-peter-and-paul-feast-guide/" element={<SaintsPeterAndPaulFeastGuide />} />

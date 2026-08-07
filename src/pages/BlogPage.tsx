@@ -31,6 +31,18 @@ const trimMetaDescription = (description: string) => {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1345,
+    slug: "quality-sleep-and-faith-catholic",
+    title: "How Quality Sleep Strengthens Your Catholic Faith",
+    excerpt: "Rest restores the body you need for prayer, Mass, and charity. Learn how sleep cycles support morning prayer — plus a free bedtime calculator.",
+    date: "2026-08-06",
+    readTime: "14 min",
+    category: "Mental Health",
+    icon: Moon,
+    bgColor: "bg-indigo-50",
+    iconColor: "text-indigo-500"
+  },
+  {
     id: 1344,
     slug: "200th-pope-who-was-it",
     title: "Who Was the 200th Pope? Bl. Urban V (1362–1370)",
