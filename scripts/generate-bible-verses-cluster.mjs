@@ -34,18 +34,31 @@ function xml(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;");
 }
 
-function verseCards(verses, withNote) {
+function verseCards(verses, notes) {
   return verses
     .map((v, idx) => {
-      const note =
-        withNote && idx === 0
-          ? `\n                    <p className="text-text-muted text-xs mt-2 leading-relaxed">${xml(withNote)}</p>`
-          : "";
+      const noteText = Array.isArray(notes) ? notes[idx] : idx === 0 ? notes : null;
+      const note = noteText
+        ? `\n                    <p className="text-text-muted text-xs mt-2 leading-relaxed">${xml(noteText)}</p>`
+        : "";
       return `                  <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">${xml(v.ref)}</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;${xml(v.text)}&quot;</p>${note}
                   </div>`;
     })
+    .join("\n");
+}
+
+function expandSectionsHtml(sections, slug) {
+  if (!Array.isArray(sections) || !sections.length) return "";
+  return sections
+    .map(
+      (sec) => `
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">${xml(sec.title)}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="${slug}">
+                ${xml(sec.body)}
+              </LinkedText>`
+    )
     .join("\n");
 }
 
@@ -86,10 +99,18 @@ ${extra.links
 function generate(t, u, index) {
   const icon = safeIcon(u.icon, index);
   const breadcrumb = t.keyword.length > 42 ? t.keyword.slice(0, 39) + "..." : t.keyword;
-  const firstNote = u.firstNote || null;
+  const verseNotesBySection = Array.isArray(u.verseNotesBySection) ? u.verseNotesBySection : null;
+  const verseNotes = Array.isArray(u.verseNotes) && u.verseNotes.length ? u.verseNotes : u.firstNote ? [u.firstNote] : null;
 
   const sectionBlocks = t.sections
     .map((s, si) => {
+      const intro =
+        u.sectionIntros && u.sectionIntros[si]
+          ? `
+              <LinkedText className="text-text leading-relaxed mb-4" currentSlug="${t.slug}">
+                ${xml(u.sectionIntros[si])}
+              </LinkedText>`
+          : "";
       const quiz =
         si === 0
           ? `
@@ -105,11 +126,15 @@ function generate(t, u, index) {
                 ${xml(u.mid)}
               </LinkedText>`
           : "";
+      const notesForSection = verseNotesBySection ? verseNotesBySection[si] : si === 0 ? verseNotes : null;
       return `
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">${xml(s.title)}</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">${xml(s.title)}</h2>${intro}
               <div className="space-y-4 mb-8">
-${verseCards(s.verses, si === 0 ? firstNote : null)}
-              </div>${mid}${quiz}`;
+${verseCards(s.verses, notesForSection)}
+              </div>${mid}${si === 1 && u.afterSecond ? `
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="${t.slug}">
+                ${xml(u.afterSecond)}
+              </LinkedText>` : ""}${quiz}`;
     })
     .join("\n");
 
@@ -250,7 +275,7 @@ export default function ${t.component}() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4 flex-wrap">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">${xml(u.badge || "Bible & Faith")}</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />August 11, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />${u.readMinutes || 10 + (index % 5)} min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />${Math.max(u.readMinutes || 12, 12 + (index % 6))} min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-4">
                 ${xml(t.h1)}
@@ -272,8 +297,20 @@ export default function ${t.component}() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="${t.slug}">
                 ${xml(u.bridge)}
               </LinkedText>
+${u.bridge2
+  ? `              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="${t.slug}">
+                ${xml(u.bridge2)}
+              </LinkedText>`
+  : ""}
 ${sectionBlocks}
 ${afterVerses}
+${expandSectionsHtml(u.expandSections, t.slug)}
+${u.closingEssay
+  ? `
+              <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="${t.slug}">
+                ${xml(u.closingEssay)}
+              </LinkedText>`
+  : ""}
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">

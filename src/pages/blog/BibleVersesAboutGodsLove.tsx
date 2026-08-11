@@ -58,7 +58,7 @@ export default function BibleVersesAboutGodsLove() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4 flex-wrap">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Bible &amp; Faith</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />August 11, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />9 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />17 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-4">
                 Bible Verses About God's Love: Scriptures Catholics Pray and Memorize
@@ -78,35 +78,45 @@ export default function BibleVersesAboutGodsLove() {
               </div>
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
-                God's love is not a vague vibe — it is covenant fidelity revealed in Christ crucified and risen. These verses keep that love personal and costly.
+                Catholics who search for bible verses about god's love are rarely looking for a slogan. They want language strong enough for a hospital waiting room, a restless night, or a hard conversation after Mass. Scripture gives that language — not as a shortcut around the Cross, but as a companion on the way. God's love is not a vague vibe — it is covenant fidelity revealed in Christ crucified and risen. These verses keep that love personal and costly.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
+                Start with the verses that match your situation most closely, then read the rest as a wider horizon. Bible Verses About God's Love are most fruitful when one line becomes a daily aspiration and the others become backup strength for harder days of God's love.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Love of God Revealed</h2>
+              <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-gods-love">
+                Short lists help busy Catholics. Still, one verse prayed well beats ten verses skimmed. Focus on “The Love of God Revealed” as a single movement of prayer, not a checklist.
+              </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">John 3:16</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;For God so loved the world that he gave his only Son.&quot;</p>
-                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Pray this verse once slowly before reading the rest of the list.</p>
+                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Pray John 3:16 as a slow petition about God's love, not as a rush through holy words.</p>
                   </div>
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">Romans 8:38-39</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;Nothing will be able to separate us from the love of God in Christ Jesus our Lord.&quot;</p>
+                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Romans 8:38-39 meets God's love where theory ends and the next faithful step begins.</p>
                   </div>
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">1 John 4:9-10</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;In this the love of God was made manifest among us, that God sent his only Son into the world.&quot;</p>
+                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Let 1 John 4:9-10 correct false stories you tell yourself about God's love.</p>
                   </div>
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">Jeremiah 31:3</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;I have loved you with an everlasting love.&quot;</p>
+                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Read Jeremiah 31:3 once for the mind, once for the heart, once for the will regarding God's love.</p>
                   </div>
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">Zephaniah 3:17</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;The Lord your God is in your midst... he will renew you in his love.&quot;</p>
+                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Zephaniah 3:17 is worth memorizing if God's love returns often in your week.</p>
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
-                Romans 8 insists nothing can separate us from the love of God in Christ. Read that when shame tries to rewrite your identity.
+                Romans 8 insists nothing can separate us from the love of God in Christ. Read that when shame tries to rewrite your identity. Notice the pattern across these passages: God does not always remove the circumstance tied to God's love, but He does promise presence, grace, and a path of fidelity. That is why Catholic hope is sturdy — it is anchored in a Person, not in outcomes we can schedule.
               </LinkedText>
               <QuizCTA
                 title={"What would faithfulness look like in this season?"}
@@ -114,24 +124,33 @@ export default function BibleVersesAboutGodsLove() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Loved Without Condition</h2>
+              <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-gods-love">
+                These passages gather the Church's most prayed lines on God's love. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “Loved Without Condition” as a single movement of prayer, not a checklist.
+              </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">Romans 5:8</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;God shows his love for us in that while we were yet sinners Christ died for us.&quot;</p>
+                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Read Romans 5:8 once for the mind, once for the heart, once for the will regarding God's love.</p>
                   </div>
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">Ephesians 2:4-5</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;God, who is rich in mercy, out of the great love with which he loved us, made us alive together with Christ.&quot;</p>
+                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Ephesians 2:4-5 is worth memorizing if God's love returns often in your week.</p>
                   </div>
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
                     <p className="text-accent font-semibold text-sm mb-1">1 John 3:1</p>
                     <p className="text-text italic text-sm leading-relaxed">&quot;See what love the Father has given us, that we should be called children of God.&quot;</p>
+                    <p className="text-text-muted text-xs mt-2 leading-relaxed">Pray 1 John 3:1 as a slow petition about God's love, not as a rush through holy words.</p>
                   </div>
               </div>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
+                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on God's love is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Breathe with These Verses on God's Love</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
-                Sit with Romans 8:38-39. If shame argues, answer it with the verse aloud. Let God's love rewrite the loudest inner accusation.
+                Sit with Romans 8:38-39. If shame argues, answer it with the verse aloud. Let God's love rewrite the loudest inner accusation. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether God's love still masters your reactions — or whether grace is slowly reordering them.
               </LinkedText>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">God's Love: Three Faithful Habits</h2>
               <ol className="list-decimal list-inside text-text space-y-2 mb-6">
@@ -148,6 +167,40 @@ export default function BibleVersesAboutGodsLove() {
                 <li>Late at night when thoughts about god's love return</li>
               </ul>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Turn to Scripture for God's love</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
+                Catholic reading holds Scripture and Tradition together. A line about God's love is interpreted with the Creed, the Catechism, and the lived wisdom of the saints — never as a private oracle against the Church. That guardrail keeps devotion from becoming superstition. Works of mercy translate verses into flesh: a meal for a neighbor, a patient reply, a donated hour, a refusal to gossip. If a verse on God's love never changes how you treat people, you have collected inspiration without conversion.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Real Moments Catholics Face God's love</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
+                Parish ministries — bereavement groups, marriage prep, youth nights, and RCIA — can use these verses without turning them into worksheets. Read one slowly. Ask two questions: Where do I see Christ? What is one act of charity this verse asks of me regarding God's love?
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture, Charity, and God's love Over Time</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
+                Bring one struggle related to God's love to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. If illness or despair is involved, ask about Anointing of the Sick. Grace travels through the Church's ordinary means. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pastoral Notes on God's love</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
+                In confessionals and parish offices across the United States, Catholics describe God's love with different words but similar ache: fatigue, fear of failing God, and loneliness. A good pastoral response begins with listening. These bible verses about god's love are tools for that listening — first between you and God, then between you and a trusted shepherd. If your struggle includes thoughts of self-harm, contact emergency help or call/text 988 in the U.S. Faith and clinical care belong together.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Homeschool, Parish, and Dinner-Table Uses for God's love</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
+                Catechists can weave these verses into lessons on prayer, virtue, and the sacraments. Connect God's love to a saint story, then to a concrete work of mercy. Students remember Scripture when it is paired with action.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for God's love</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-love">
+                Keep a tiny rule: one verse on God's love in the morning, a brief examination at night, and Sunday Mass without negotiation. Add Confession monthly if God's love keeps wounding your peace. Small fidelity compounds. In three months you will not only know more verses — you will notice different reactions at work, at home, and in prayer.
+              </LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="bible-verses-about-gods-love">
+                As you leave this page, take one verse on God's love into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when God's love is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around God's love today.
+              </LinkedText>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">
                   &quot;For God so loved the world that he gave his only Son.&quot;
@@ -159,11 +212,14 @@ export default function BibleVersesAboutGodsLove() {
             <BlogFAQ
               linkAnswersSlug="bible-verses-about-gods-love"
               faqs={[
-                { question: "What are the best bible verses about god's love?", answer: "Key bible verses about god's love include John 3:16 and the passages gathered below for meditation and memorization." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved." },
-                { question: "How do I memorize verses about god's love?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day." },
-                { question: "Can I share bible verses about god's love with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word." }
+                { question: "What are the best bible verses about god's love?", answer: "Key bible verses about god's love include John 3:16 and the passages gathered below for meditation and memorization. Keep praying with the Church, and let one verse on God's love stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on God's love stay with you until Sunday Mass." },
+                { question: "How do I memorize verses about god's love?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day. Keep praying with the Church, and let one verse on God's love stay with you until Sunday Mass." },
+                { question: "Can I share bible verses about god's love with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on God's love stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on God's love stay with you until Sunday Mass." },
+                { question: "Is it okay to write bible verses about god's love in a journal?", answer: "Yes. Copying Scripture by hand slows you down and helps retention. Note one concrete action beside the verse so God's love becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on God's love stay with you until Sunday Mass." },
+                { question: "What if I do not feel peace after praying?", answer: "Feelings are not the measure of fidelity. Keep praying, receive the sacraments, and look for small fruits: patience, honesty, or courage related to God's love. Keep praying with the Church, and let one verse on God's love stay with you until Sunday Mass." },
+                { question: "Can children use this page?", answer: "Yes — choose the shortest verses and explain them simply. Children learn God's love by watching adults pray without panic. Keep praying with the Church, and let one verse on God's love stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="bible-verses-about-gods-love" />
