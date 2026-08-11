@@ -386,6 +386,46 @@ const PatronSaintsGuide = lazy(() => import("./pages/blog/PatronSaintsGuide"));
 const CatholicBibleGuide = lazy(() => import("./pages/blog/CatholicBibleGuide"));
 const DailyMassReadings = lazy(() => import("./pages/blog/DailyMassReadings"));
 const CatholicBibleVerses = lazy(() => import("./pages/blog/CatholicBibleVerses"));
+const BibleVersesAboutAnxiety = lazy(() => import("./pages/blog/BibleVersesAboutAnxiety"));
+const BibleVersesAboutStrength = lazy(() => import("./pages/blog/BibleVersesAboutStrength"));
+const BibleVersesAboutLove = lazy(() => import("./pages/blog/BibleVersesAboutLove"));
+const BibleVersesAboutHope = lazy(() => import("./pages/blog/BibleVersesAboutHope"));
+const BibleVersesAboutHealing = lazy(() => import("./pages/blog/BibleVersesAboutHealing"));
+const BibleVersesAboutFaith = lazy(() => import("./pages/blog/BibleVersesAboutFaith"));
+const BibleVersesAboutPeace = lazy(() => import("./pages/blog/BibleVersesAboutPeace"));
+const BibleVersesAboutDepression = lazy(() => import("./pages/blog/BibleVersesAboutDepression"));
+const BibleVersesAboutFear = lazy(() => import("./pages/blog/BibleVersesAboutFear"));
+const BibleVersesAboutProtection = lazy(() => import("./pages/blog/BibleVersesAboutProtection"));
+const BibleVersesAboutForgiveness = lazy(() => import("./pages/blog/BibleVersesAboutForgiveness"));
+const BibleVersesAboutPrayer = lazy(() => import("./pages/blog/BibleVersesAboutPrayer"));
+const BibleVersesAboutFamily = lazy(() => import("./pages/blog/BibleVersesAboutFamily"));
+const BibleVersesAboutMarriage = lazy(() => import("./pages/blog/BibleVersesAboutMarriage"));
+const BibleVersesAboutFriendship = lazy(() => import("./pages/blog/BibleVersesAboutFriendship"));
+const BibleVersesForAnxietyAndFear = lazy(() => import("./pages/blog/BibleVersesForAnxietyAndFear"));
+const BibleVersesForStrengthDuringHardTimes = lazy(() => import("./pages/blog/BibleVersesForStrengthDuringHardTimes"));
+const ShortBibleVersesAboutStrength = lazy(() => import("./pages/blog/ShortBibleVersesAboutStrength"));
+const ShortBibleVersesAboutLove = lazy(() => import("./pages/blog/ShortBibleVersesAboutLove"));
+const EncouragingBibleVerses = lazy(() => import("./pages/blog/EncouragingBibleVerses"));
+const InspirationalBibleVerses = lazy(() => import("./pages/blog/InspirationalBibleVerses"));
+const PowerfulBibleVerses = lazy(() => import("./pages/blog/PowerfulBibleVerses"));
+const BibleVersesForDifficultTimes = lazy(() => import("./pages/blog/BibleVersesForDifficultTimes"));
+const BibleVersesForHealingAndRecovery = lazy(() => import("./pages/blog/BibleVersesForHealingAndRecovery"));
+const BibleVersesForSleep = lazy(() => import("./pages/blog/BibleVersesForSleep"));
+const BibleVersesForABrokenHeart = lazy(() => import("./pages/blog/BibleVersesForABrokenHeart"));
+const BibleVersesForGrief = lazy(() => import("./pages/blog/BibleVersesForGrief"));
+const BibleVersesForStress = lazy(() => import("./pages/blog/BibleVersesForStress"));
+const BibleVersesForSuccess = lazy(() => import("./pages/blog/BibleVersesForSuccess"));
+const BibleVersesForNewBeginnings = lazy(() => import("./pages/blog/BibleVersesForNewBeginnings"));
+const BibleVersesForMothers = lazy(() => import("./pages/blog/BibleVersesForMothers"));
+const BibleVersesForFathers = lazy(() => import("./pages/blog/BibleVersesForFathers"));
+const BibleVersesForChildren = lazy(() => import("./pages/blog/BibleVersesForChildren"));
+const BibleVersesForWomen = lazy(() => import("./pages/blog/BibleVersesForWomen"));
+const BibleVersesForMen = lazy(() => import("./pages/blog/BibleVersesForMen"));
+const BibleVersesAboutGodsLove = lazy(() => import("./pages/blog/BibleVersesAboutGodsLove"));
+const BibleVersesAboutTrustingGod = lazy(() => import("./pages/blog/BibleVersesAboutTrustingGod"));
+const BibleVersesAboutGodsPlan = lazy(() => import("./pages/blog/BibleVersesAboutGodsPlan"));
+const BibleVersesAboutHappiness = lazy(() => import("./pages/blog/BibleVersesAboutHappiness"));
+const BibleVersesAboutLife = lazy(() => import("./pages/blog/BibleVersesAboutLife"));
 const GospelReadingToday = lazy(() => import("./pages/blog/GospelReadingToday"));
 const HowToStudyBibleCatholic = lazy(() => import("./pages/blog/HowToStudyBibleCatholic"));
 
@@ -777,6 +817,46 @@ export function AppRoutes() {
             <Route path="/blog/catholic-bible-guide/" element={<CatholicBibleGuide />} />
             <Route path="/blog/daily-mass-readings-catholic/" element={<DailyMassReadings />} />
             <Route path="/blog/catholic-bible-verses/" element={<CatholicBibleVerses />} />
+<Route path="/blog/bible-verses-about-anxiety/" element={<BibleVersesAboutAnxiety />} />
+            <Route path="/blog/bible-verses-about-strength/" element={<BibleVersesAboutStrength />} />
+            <Route path="/blog/bible-verses-about-love/" element={<BibleVersesAboutLove />} />
+            <Route path="/blog/bible-verses-about-hope/" element={<BibleVersesAboutHope />} />
+            <Route path="/blog/bible-verses-about-healing/" element={<BibleVersesAboutHealing />} />
+            <Route path="/blog/bible-verses-about-faith/" element={<BibleVersesAboutFaith />} />
+            <Route path="/blog/bible-verses-about-peace/" element={<BibleVersesAboutPeace />} />
+            <Route path="/blog/bible-verses-about-depression/" element={<BibleVersesAboutDepression />} />
+            <Route path="/blog/bible-verses-about-fear/" element={<BibleVersesAboutFear />} />
+            <Route path="/blog/bible-verses-about-protection/" element={<BibleVersesAboutProtection />} />
+            <Route path="/blog/bible-verses-about-forgiveness/" element={<BibleVersesAboutForgiveness />} />
+            <Route path="/blog/bible-verses-about-prayer/" element={<BibleVersesAboutPrayer />} />
+            <Route path="/blog/bible-verses-about-family/" element={<BibleVersesAboutFamily />} />
+            <Route path="/blog/bible-verses-about-marriage/" element={<BibleVersesAboutMarriage />} />
+            <Route path="/blog/bible-verses-about-friendship/" element={<BibleVersesAboutFriendship />} />
+            <Route path="/blog/bible-verses-for-anxiety-and-fear/" element={<BibleVersesForAnxietyAndFear />} />
+            <Route path="/blog/bible-verses-for-strength-during-hard-times/" element={<BibleVersesForStrengthDuringHardTimes />} />
+            <Route path="/blog/short-bible-verses-about-strength/" element={<ShortBibleVersesAboutStrength />} />
+            <Route path="/blog/short-bible-verses-about-love/" element={<ShortBibleVersesAboutLove />} />
+            <Route path="/blog/encouraging-bible-verses/" element={<EncouragingBibleVerses />} />
+            <Route path="/blog/inspirational-bible-verses/" element={<InspirationalBibleVerses />} />
+            <Route path="/blog/powerful-bible-verses/" element={<PowerfulBibleVerses />} />
+            <Route path="/blog/bible-verses-for-difficult-times/" element={<BibleVersesForDifficultTimes />} />
+            <Route path="/blog/bible-verses-for-healing-and-recovery/" element={<BibleVersesForHealingAndRecovery />} />
+            <Route path="/blog/bible-verses-for-sleep/" element={<BibleVersesForSleep />} />
+            <Route path="/blog/bible-verses-for-a-broken-heart/" element={<BibleVersesForABrokenHeart />} />
+            <Route path="/blog/bible-verses-for-grief/" element={<BibleVersesForGrief />} />
+            <Route path="/blog/bible-verses-for-stress/" element={<BibleVersesForStress />} />
+            <Route path="/blog/bible-verses-for-success/" element={<BibleVersesForSuccess />} />
+            <Route path="/blog/bible-verses-for-new-beginnings/" element={<BibleVersesForNewBeginnings />} />
+            <Route path="/blog/bible-verses-for-mothers/" element={<BibleVersesForMothers />} />
+            <Route path="/blog/bible-verses-for-fathers/" element={<BibleVersesForFathers />} />
+            <Route path="/blog/bible-verses-for-children/" element={<BibleVersesForChildren />} />
+            <Route path="/blog/bible-verses-for-women/" element={<BibleVersesForWomen />} />
+            <Route path="/blog/bible-verses-for-men/" element={<BibleVersesForMen />} />
+            <Route path="/blog/bible-verses-about-gods-love/" element={<BibleVersesAboutGodsLove />} />
+            <Route path="/blog/bible-verses-about-trusting-god/" element={<BibleVersesAboutTrustingGod />} />
+            <Route path="/blog/bible-verses-about-gods-plan/" element={<BibleVersesAboutGodsPlan />} />
+            <Route path="/blog/bible-verses-about-happiness/" element={<BibleVersesAboutHappiness />} />
+            <Route path="/blog/bible-verses-about-life/" element={<BibleVersesAboutLife />} />
             <Route path="/blog/gospel-reading-today-catholic/" element={<GospelReadingToday />} />
             <Route path="/blog/how-to-study-the-bible-catholic/" element={<HowToStudyBibleCatholic />} />
 
