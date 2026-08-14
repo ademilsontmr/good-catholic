@@ -9,7 +9,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
-import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
+import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 
 export default function FeastOfTheArchangelsSeptember29Guide() {
   return (
@@ -22,7 +22,7 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
         />
         <meta
           name="keywords"
-          content="feast of the archangels, michaelmas 2026, september 29 archangels, st michael gabriel raphael, feast of st michael, prayer to st michael, catholic archangels"
+          content="feast of the archangels 2026, feast of the archangels, michaelmas 2026, september 29 archangels, st michael gabriel raphael, feast of st michael, prayer to st michael, catholic archangels"
         />
         <link rel="canonical" href="https://guidecatholic.com/blog/feast-of-the-archangels-september-29-2026/" />
         <meta name="robots" content="index, follow" />
@@ -147,18 +147,24 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">
                 The Catechism teaches that angels are personal, spiritual, non-corporeal beings who glorify God and serve His saving plan (CCC 328–336). Archangels are among those God sends for special missions. Catholics do not worship angels; we honor them and ask their intercession, as we do with the saints. Guardian angels have their own memorial on October 2 — three days after the archangels&apos; feast.
               </LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">Feast of the Archangels 2026: Date, Prayers &amp; How to Celebrate Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast of the Archangels 2026: why this search spikes</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">
+                Queries for <em>feast of the archangels 2026</em> rise each September as parents, teachers, and parish planners look for the exact weekday, Mass ideas, and how the feast relates to Michaelmas and St. Michael&apos;s Lent. In 2026 the answer is simple: <strong>Tuesday, September 29</strong> — one feast, three archangels, one traditional English name (Michaelmas).
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to honor Michael, Gabriel, and Raphael together</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">
+                Pray the St. Michael Prayer; ask Gabriel for courage to speak the Gospel; ask Raphael for healing and safe travel. One Our Father for each archangel after Mass is a family-friendly custom. If you completed St. Michael&apos;s Lent, let September 29 be thanksgiving, not burnout.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From Assumption to the Archangels</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">
+                The 2026 bridge between Mary&apos;s Assumption (August 15) and this feast is St. Michael&apos;s Lent. Catch up with our{" "}
+                <Link to="/blog/st-michaels-lent-2026/" className="text-accent underline underline-offset-2">St Michael&apos;s Lent 2026</Link>
+                {" "}hub and pray daily pages on <StMichaelCboLink />.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-the-archangels-september-29-2026">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Feast of the Archangels 2026, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+              <StMichaelCboCTA compact />
 
             </div>
 

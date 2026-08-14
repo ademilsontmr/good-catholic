@@ -1,0 +1,7 @@
+            <Route path="/blog/st-michaels-lent-2026/" element={<StMichaelsLent2026 />} />
+            <Route path="/blog/st-michael-lent-2026/" element={<StMichaelLent2026 />} />
+            <Route path="/blog/saint-michaels-lent-2026/" element={<SaintMichaelsLent2026 />} />
+            <Route path="/blog/st-michaels-lent-2026-calendar/" element={<StDotMichaelsLent2026 />} />
+            <Route path="/blog/st-michaels-lent-meaning-2026/" element={<StMichaelsLentMeaning2026 />} />
+            <Route path="/blog/saint-michaels-lent-prayers-2026/" element={<SaintMichaelsLentPrayers2026 />} />
+            <Route path="/blog/saint-michael-lent-2026/" element={<SaintMichaelLent2026 />} />

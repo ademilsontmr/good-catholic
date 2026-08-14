@@ -9,13 +9,13 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
-import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
+import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 
 export default function Michaelmas2026WhenIsIt() {
   return (
     <>
       <Helmet>
-        <title>Michaelmas 2026: When Is It? (September 29 Date) | Guide Catholic</title>
+        <title>Michaelmas 2026: When Is It? Date, Meaning & How to Celebrate | Guide Catholic</title>
         <meta
           name="description"
           content="Michaelmas 2026 is Tuesday, September 29 — the Feast of St. Michael, Gabriel & Raphael. Date, meaning, Mass, and how American Catholics celebrate Michaelmas."
@@ -124,41 +124,34 @@ export default function Michaelmas2026WhenIsIt() {
                 <p className="text-text italic leading-relaxed text-sm">
                   Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil. May God rebuke him, we humbly pray; and do Thou, O Prince of the Heavenly Host, by the power of God, cast into hell Satan and all the evil spirits who prowl about the world seeking the ruin of souls. Amen.
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Michaelmas 2026: When Is It? Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
+              </div>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Michaelmas 2026 and St. Michael&apos;s Lent</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">
+                For many U.S. Catholics, Michaelmas 2026 is the finish line of St. Michael&apos;s Lent (August 15–September 29). If you have been praying the seasonal novena, plan Mass on September 29 and thank God for grace received. New to the season? Start with our{" "}
+                <Link to="/blog/st-michaels-lent-2026/" className="text-accent underline underline-offset-2">St Michael&apos;s Lent 2026 hub</Link>
+                {" "}and the daily prayer pages on <StMichaelCboLink />.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Customs: food, schools, and quarter days</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">
+                Historically Michaelmas marked harvest accounts in Britain and Ireland. Some families still serve roast goose or blackberry desserts (folk tales say blackberries go bitter after Michaelmas). American Catholic schools may note the feast in September calendars. Keep customs light; prioritize Mass and the St. Michael Prayer over food nostalgia.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture for Michaelmas 2026</h2>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                <li>Daniel 10 &amp; 12 — Michael as protector</li>
+                <li>Jude 1:9 — Michael and the devil</li>
+                <li>Revelation 12:7–9 — war in heaven</li>
+                <li>Ephesians 6:10–18 — armor of God</li>
+              </ul>
 
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Readers often search for Michaelmas 2026: When Is It? during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Michaelmas 2026: When Is It? — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
-              {/* data-expanded-depth-3 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">American Catholic Context</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">The United States mixes many cultures in one Church — Latino, Irish, Filipino, Polish, and more. Devotions vary by parish; core doctrine does not.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Monthly Review Habit</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">Re-read this article once a month for a year. Depth comes from repetition and lived experience, not a single quick read.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">After Michaelmas: Guardian Angels</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="michaelmas-2026-when-is-it">
+                Three days later, October 2 honors Guardian Angels. A simple September 29–October 2 trilogy — Archangels, then personal guardian — forms a short angelic devotion for families after St. Michael&apos;s Lent ends.
+              </LinkedText>
 
             </div>
-
-              </div>
 
             <BlogFAQ
               linkAnswersSlug="michaelmas-2026-when-is-it"

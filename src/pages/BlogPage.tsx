@@ -31,6 +31,90 @@ const trimMetaDescription = (description: string) => {
 
 export const blogPosts: BlogPost[] = [
 {
+    id: 1386,
+    slug: "st-michaels-lent-2026",
+    title: "St Michael's Lent 2026: Dates, Meaning & How to Begin",
+    excerpt: "Complete guide to St Michael's Lent 2026 — August 15 to September 29 dates, meaning, penance, and how to start the novena today.",
+    date: "2026-08-14",
+    readTime: "18 min",
+    category: "Prayers & Devotions",
+    icon: Shield,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-700"
+  },
+  {
+    id: 1387,
+    slug: "st-michael-lent-2026",
+    title: "St Michael Lent 2026: A Practical Day-by-Day Plan for Busy Catholics",
+    excerpt: "Practical St Michael Lent 2026 schedule for busy Catholics: 15-minute prayer, one penance, and checkpoints from August 15 to September 29.",
+    date: "2026-08-14",
+    readTime: "16 min",
+    category: "Prayers & Devotions",
+    icon: Flame,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1388,
+    slug: "saint-michaels-lent-2026",
+    title: "Saint Michael's Lent 2026: Franciscan Origins & Why It Still Matters",
+    excerpt: "History of Saint Michael's Lent 2026: St. Francis, La Verna, and why this Franciscan season of penance still shapes American Catholic prayer.",
+    date: "2026-08-14",
+    readTime: "17 min",
+    category: "Catholic History",
+    icon: BookOpen,
+    bgColor: "bg-stone-100",
+    iconColor: "text-stone-700"
+  },
+  {
+    id: 1389,
+    slug: "st-michaels-lent-2026-calendar",
+    title: "St. Michael's Lent 2026 Calendar: Every Key Date from Assumption to Michaelmas",
+    excerpt: "Printable-style St. Michael's Lent 2026 calendar: August 15 start, feast milestones, and September 29 Michaelmas finish.",
+    date: "2026-08-14",
+    readTime: "15 min",
+    category: "Liturgy & Worship",
+    icon: Calendar,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-700"
+  },
+  {
+    id: 1390,
+    slug: "st-michaels-lent-meaning-2026",
+    title: "St Michaels Lent 2026 Explained: Meaning, Myths & How Catholics Keep It",
+    excerpt: "Clear explainer of St Michaels Lent 2026 — meaning, myths, and a balanced Catholic practice from Assumption to Michaelmas.",
+    date: "2026-08-14",
+    readTime: "16 min",
+    category: "Faith & Life",
+    icon: HelpCircle,
+    bgColor: "bg-violet-100",
+    iconColor: "text-violet-700"
+  },
+  {
+    id: 1391,
+    slug: "saint-michaels-lent-prayers-2026",
+    title: "Saint Michaels Lent 2026 Prayers: What to Pray Each Day",
+    excerpt: "Prayer-focused guide for Saint Michaels Lent 2026: Leo XIII's St. Michael Prayer, novena structure, and link to the complete daily pages.",
+    date: "2026-08-14",
+    readTime: "17 min",
+    category: "Prayers & Devotions",
+    icon: Heart,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-700"
+  },
+  {
+    id: 1392,
+    slug: "saint-michael-lent-2026",
+    title: "Saint Michael Lent 2026 for Beginners: Start Here",
+    excerpt: "Beginner guide to Saint Michael Lent 2026 — simple first steps, dates, FAQ, and where to pray the novena without overwhelm.",
+    date: "2026-08-14",
+    readTime: "15 min",
+    category: "Becoming Catholic",
+    icon: Sparkles,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-700"
+  },
+{
     id: 1346,
     slug: "bible-verses-about-anxiety",
     title: "Bible Verses About Anxiety",

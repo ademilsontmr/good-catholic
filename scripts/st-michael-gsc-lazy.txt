@@ -1,0 +1,7 @@
+const StMichaelsLent2026 = lazy(() => import("./pages/blog/StMichaelsLent2026"));
+const StMichaelLent2026 = lazy(() => import("./pages/blog/StMichaelLent2026"));
+const SaintMichaelsLent2026 = lazy(() => import("./pages/blog/SaintMichaelsLent2026"));
+const StDotMichaelsLent2026 = lazy(() => import("./pages/blog/StDotMichaelsLent2026"));
+const StMichaelsLentMeaning2026 = lazy(() => import("./pages/blog/StMichaelsLentMeaning2026"));
+const SaintMichaelsLentPrayers2026 = lazy(() => import("./pages/blog/SaintMichaelsLentPrayers2026"));
+const SaintMichaelLent2026 = lazy(() => import("./pages/blog/SaintMichaelLent2026"));

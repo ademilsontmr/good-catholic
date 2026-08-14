@@ -7,6 +7,25 @@
  */
 
 export const INTERLINK_MAP: Record<string, string> = {
+  // GSC St. Michael's Lent 2026 cluster
+  "michaelmas 2026": "/blog/michaelmas-2026-when-is-it/",
+  "feast of st michael the archangel 2026": "/blog/feast-of-st-michael-the-archangel-2026/",
+  "feast of the archangels 2026": "/blog/feast-of-the-archangels-september-29-2026/",
+  "st michael's lent 2026": "/blog/st-michaels-lent-2026/",
+  "St Michael's Lent 2026": "/blog/st-michaels-lent-2026/",
+  "st michael lent 2026": "/blog/st-michael-lent-2026/",
+  "St Michael Lent 2026": "/blog/st-michael-lent-2026/",
+  "saint michael's lent 2026": "/blog/saint-michaels-lent-2026/",
+  "Saint Michael's Lent 2026": "/blog/saint-michaels-lent-2026/",
+  "st. michael's lent 2026": "/blog/st-michaels-lent-2026-calendar/",
+  "St. Michael's Lent 2026 Calendar": "/blog/st-michaels-lent-2026-calendar/",
+  "st michaels lent 2026": "/blog/st-michaels-lent-meaning-2026/",
+  "St Michaels Lent 2026 Explained": "/blog/st-michaels-lent-meaning-2026/",
+  "saint michaels lent 2026": "/blog/saint-michaels-lent-prayers-2026/",
+  "Saint Michaels Lent 2026 Prayers": "/blog/saint-michaels-lent-prayers-2026/",
+  "saint michael lent 2026": "/blog/saint-michael-lent-2026/",
+  "Saint Michael Lent 2026 for Beginners": "/blog/saint-michael-lent-2026/",
+
   // Rosary
   "the Rosary": "/blog/complete-rosary-guide/",
   "pray the Rosary": "/blog/complete-rosary-guide/",
@@ -118,8 +137,8 @@ export const INTERLINK_MAP: Record<string, string> = {
   "novena for addiction": "/blog/novena-for-addiction-catholic/",
   "novena for exams": "/blog/novena-for-exams-catholic/",
   "St. Michael novena": "/blog/st-michael-novena-protection/",
-  "St. Michael's Lent": "/blog/st-michaels-lent-novena-prayer-guide-us-2026/",
-  "St Michael's Lent": "/blog/st-michaels-lent-novena-prayer-guide-us-2026/",
+  "St. Michael's Lent": "/blog/st-michaels-lent-2026/",
+  "St Michael's Lent": "/blog/st-michaels-lent-2026/",
   "novena for fertility": "/blog/novena-for-fertility-catholic/",
   "Corpus Christi": "/blog/corpus-christi-feast-guide-catholic/",
   "Sacred Heart devotion": "/blog/sacred-heart-devotion-complete-guide/",

@@ -426,6 +426,13 @@ const BibleVersesAboutTrustingGod = lazy(() => import("./pages/blog/BibleVersesA
 const BibleVersesAboutGodsPlan = lazy(() => import("./pages/blog/BibleVersesAboutGodsPlan"));
 const BibleVersesAboutHappiness = lazy(() => import("./pages/blog/BibleVersesAboutHappiness"));
 const BibleVersesAboutLife = lazy(() => import("./pages/blog/BibleVersesAboutLife"));
+const StMichaelsLent2026 = lazy(() => import("./pages/blog/StMichaelsLent2026"));
+const StMichaelLent2026 = lazy(() => import("./pages/blog/StMichaelLent2026"));
+const SaintMichaelsLent2026 = lazy(() => import("./pages/blog/SaintMichaelsLent2026"));
+const StDotMichaelsLent2026 = lazy(() => import("./pages/blog/StDotMichaelsLent2026"));
+const StMichaelsLentMeaning2026 = lazy(() => import("./pages/blog/StMichaelsLentMeaning2026"));
+const SaintMichaelsLentPrayers2026 = lazy(() => import("./pages/blog/SaintMichaelsLentPrayers2026"));
+const SaintMichaelLent2026 = lazy(() => import("./pages/blog/SaintMichaelLent2026"));
 const GospelReadingToday = lazy(() => import("./pages/blog/GospelReadingToday"));
 const HowToStudyBibleCatholic = lazy(() => import("./pages/blog/HowToStudyBibleCatholic"));
 
@@ -857,6 +864,13 @@ export function AppRoutes() {
             <Route path="/blog/bible-verses-about-gods-plan/" element={<BibleVersesAboutGodsPlan />} />
             <Route path="/blog/bible-verses-about-happiness/" element={<BibleVersesAboutHappiness />} />
             <Route path="/blog/bible-verses-about-life/" element={<BibleVersesAboutLife />} />
+            <Route path="/blog/st-michaels-lent-2026/" element={<StMichaelsLent2026 />} />
+            <Route path="/blog/st-michael-lent-2026/" element={<StMichaelLent2026 />} />
+            <Route path="/blog/saint-michaels-lent-2026/" element={<SaintMichaelsLent2026 />} />
+            <Route path="/blog/st-michaels-lent-2026-calendar/" element={<StDotMichaelsLent2026 />} />
+            <Route path="/blog/st-michaels-lent-meaning-2026/" element={<StMichaelsLentMeaning2026 />} />
+            <Route path="/blog/saint-michaels-lent-prayers-2026/" element={<SaintMichaelsLentPrayers2026 />} />
+            <Route path="/blog/saint-michael-lent-2026/" element={<SaintMichaelLent2026 />} />
             <Route path="/blog/gospel-reading-today-catholic/" element={<GospelReadingToday />} />
             <Route path="/blog/how-to-study-the-bible-catholic/" element={<HowToStudyBibleCatholic />} />
 

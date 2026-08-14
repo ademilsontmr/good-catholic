@@ -15,7 +15,7 @@ export default function FeastOfStMichaelArchangel2026() {
   return (
     <>
       <Helmet>
-        <title>Feast of St. Michael the Archangel 2026: Date & Catholic Guide | Guide Catholic</title>
+        <title>Feast of St Michael the Archangel 2026: September 29 Guide | Guide Catholic</title>
         <meta
           name="description"
           content="Feast of St. Michael the Archangel 2026 is September 29 (Tuesday). Mass, St. Michael Prayer, spiritual warfare, and how U.S. Catholics celebrate Michaelmas."
@@ -129,31 +129,24 @@ export default function FeastOfStMichaelArchangel2026() {
                 <StMichaelCboLink /> St. Michael&apos;s Lent guide — or our{" "}
                 <Link to="/blog/st-michaels-lent-novena-prayer-guide-us-2026/" className="text-accent underline underline-offset-2">overview on Guide Catholic</Link>.
               </LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life and Mission</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">Feast of St. Michael the Archangel 2026 Saints are not distant legends — they are men and women who cooperated with grace in real historical circumstances. Their stories show that holiness is possible in ordinary work, family life, persecution, and service.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast of St Michael the Archangel 2026: what to do that day</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">
+                Searchers for <em>feast of st michael the archangel 2026</em> usually want a checklist: weekday Mass if possible, St. Michael Prayer morning and night, Revelation 12 with the family, and — if you kept St. Michael&apos;s Lent — a grateful close on September 29. Police, military, and first responders often renew patronage vows or parish blessings on this feast.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Seek This Saint&apos;s Intercession</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">The Church teaches that saints in heaven remain part of the communion of believers (CCC 954–959). We do not worship them; we ask their prayers as we might ask a friend on earth. Patron saints often connect to specific needs — illness, work, conversion, or protection — because of how they lived and died.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Titles and patronage of St. Michael</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">
+                Michael means &quot;Who is like God?&quot; He is invoked as protector of the Church, companion of souls at death, and patron of those who guard the vulnerable. Asking his intercession is not worship of an angel; it is communion with a heavenly ally under Christ the King.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Days and Parish Devotion in the U.S.</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">Parishes across the United States celebrate saint feast days with special Masses, novenas, and food traditions tied to immigrant communities. Mark the feast on your calendar, read the Mass readings that day, and consider one concrete act of charity in the saint&apos;s honor.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Connect the feast to the 2026 lenten season</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">
+                The strongest 2026 devotion arc is Assumption → daily novena → Michaelmas. Start or catch up via our{" "}
+                <Link to="/blog/st-michaels-lent-2026/" className="text-accent underline underline-offset-2">St Michael&apos;s Lent 2026</Link>
+                {" "}guide and the full text on <StMichaelCboLink />.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Growing in Friendship With the Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">Choose one saint to \"befriend\" this year: read a short biography, pray a novena before their feast, and ask how their virtues — courage, humility, chastity, or mercy — apply to your state in life. Holiness spreads through imitation and intercession, not superstition.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">Readers often search for Feast of St. Michael the Archangel 2026 during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="feast-of-st-michael-the-archangel-2026">Feast of St. Michael the Archangel 2026 — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+              <StMichaelCboCTA compact />
 
             </div>
 
