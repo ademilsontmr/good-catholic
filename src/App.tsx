@@ -433,6 +433,52 @@ const StDotMichaelsLent2026 = lazy(() => import("./pages/blog/StDotMichaelsLent2
 const StMichaelsLentMeaning2026 = lazy(() => import("./pages/blog/StMichaelsLentMeaning2026"));
 const SaintMichaelsLentPrayers2026 = lazy(() => import("./pages/blog/SaintMichaelsLentPrayers2026"));
 const SaintMichaelLent2026 = lazy(() => import("./pages/blog/SaintMichaelLent2026"));
+const StMichaelsLentNovenaDay1 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay1"));
+const StMichaelsLentNovenaDay2 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay2"));
+const StMichaelsLentNovenaDay3 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay3"));
+const StMichaelsLentNovenaDay4 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay4"));
+const StMichaelsLentNovenaDay5 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay5"));
+const StMichaelsLentNovenaDay6 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay6"));
+const StMichaelsLentNovenaDay7 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay7"));
+const StMichaelsLentNovenaDay8 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay8"));
+const StMichaelsLentNovenaDay9 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay9"));
+const StMichaelsLentNovenaDay10 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay10"));
+const StMichaelsLentNovenaDay11 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay11"));
+const StMichaelsLentNovenaDay12 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay12"));
+const StMichaelsLentNovenaDay13 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay13"));
+const StMichaelsLentNovenaDay14 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay14"));
+const StMichaelsLentNovenaDay15 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay15"));
+const StMichaelsLentNovenaDay16 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay16"));
+const StMichaelsLentNovenaDay17 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay17"));
+const StMichaelsLentNovenaDay18 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay18"));
+const StMichaelsLentNovenaDay19 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay19"));
+const StMichaelsLentNovenaDay20 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay20"));
+const StMichaelsLentNovenaDay21 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay21"));
+const StMichaelsLentNovenaDay22 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay22"));
+const StMichaelsLentNovenaDay23 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay23"));
+const StMichaelsLentNovenaDay24 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay24"));
+const StMichaelsLentNovenaDay25 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay25"));
+const StMichaelsLentNovenaDay26 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay26"));
+const StMichaelsLentNovenaDay27 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay27"));
+const StMichaelsLentNovenaDay28 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay28"));
+const StMichaelsLentNovenaDay29 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay29"));
+const StMichaelsLentNovenaDay30 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay30"));
+const StMichaelsLentNovenaDay31 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay31"));
+const StMichaelsLentNovenaDay32 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay32"));
+const StMichaelsLentNovenaDay33 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay33"));
+const StMichaelsLentNovenaDay34 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay34"));
+const StMichaelsLentNovenaDay35 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay35"));
+const StMichaelsLentNovenaDay36 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay36"));
+const StMichaelsLentNovenaDay37 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay37"));
+const StMichaelsLentNovenaDay38 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay38"));
+const StMichaelsLentNovenaDay39 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay39"));
+const StMichaelsLentNovenaDay40 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay40"));
+const StMichaelsLentNovenaDay41 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay41"));
+const StMichaelsLentNovenaDay42 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay42"));
+const StMichaelsLentNovenaDay43 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay43"));
+const StMichaelsLentNovenaDay44 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay44"));
+const StMichaelsLentNovenaDay45 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay45"));
+const StMichaelsLentNovenaDay46 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay46"));
 const GospelReadingToday = lazy(() => import("./pages/blog/GospelReadingToday"));
 const HowToStudyBibleCatholic = lazy(() => import("./pages/blog/HowToStudyBibleCatholic"));
 
@@ -871,6 +917,52 @@ export function AppRoutes() {
             <Route path="/blog/st-michaels-lent-meaning-2026/" element={<StMichaelsLentMeaning2026 />} />
             <Route path="/blog/saint-michaels-lent-prayers-2026/" element={<SaintMichaelsLentPrayers2026 />} />
             <Route path="/blog/saint-michael-lent-2026/" element={<SaintMichaelLent2026 />} />
+<Route path="/blog/st-michaels-lent-novena-day-1-august-15-2026/" element={<StMichaelsLentNovenaDay1 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-2-august-16-2026/" element={<StMichaelsLentNovenaDay2 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-3-august-17-2026/" element={<StMichaelsLentNovenaDay3 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-4-august-18-2026/" element={<StMichaelsLentNovenaDay4 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-5-august-19-2026/" element={<StMichaelsLentNovenaDay5 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-6-august-20-2026/" element={<StMichaelsLentNovenaDay6 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-7-august-21-2026/" element={<StMichaelsLentNovenaDay7 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-8-august-22-2026/" element={<StMichaelsLentNovenaDay8 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-9-august-23-2026/" element={<StMichaelsLentNovenaDay9 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-10-august-24-2026/" element={<StMichaelsLentNovenaDay10 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-11-august-25-2026/" element={<StMichaelsLentNovenaDay11 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-12-august-26-2026/" element={<StMichaelsLentNovenaDay12 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-13-august-27-2026/" element={<StMichaelsLentNovenaDay13 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-14-august-28-2026/" element={<StMichaelsLentNovenaDay14 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-15-august-29-2026/" element={<StMichaelsLentNovenaDay15 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-16-august-30-2026/" element={<StMichaelsLentNovenaDay16 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-17-august-31-2026/" element={<StMichaelsLentNovenaDay17 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-18-september-1-2026/" element={<StMichaelsLentNovenaDay18 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-19-september-2-2026/" element={<StMichaelsLentNovenaDay19 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-20-september-3-2026/" element={<StMichaelsLentNovenaDay20 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-21-september-4-2026/" element={<StMichaelsLentNovenaDay21 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-22-september-5-2026/" element={<StMichaelsLentNovenaDay22 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-23-september-6-2026/" element={<StMichaelsLentNovenaDay23 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-24-september-7-2026/" element={<StMichaelsLentNovenaDay24 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-25-september-8-2026/" element={<StMichaelsLentNovenaDay25 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-26-september-9-2026/" element={<StMichaelsLentNovenaDay26 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-27-september-10-2026/" element={<StMichaelsLentNovenaDay27 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-28-september-11-2026/" element={<StMichaelsLentNovenaDay28 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-29-september-12-2026/" element={<StMichaelsLentNovenaDay29 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-30-september-13-2026/" element={<StMichaelsLentNovenaDay30 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-31-september-14-2026/" element={<StMichaelsLentNovenaDay31 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-32-september-15-2026/" element={<StMichaelsLentNovenaDay32 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-33-september-16-2026/" element={<StMichaelsLentNovenaDay33 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-34-september-17-2026/" element={<StMichaelsLentNovenaDay34 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-35-september-18-2026/" element={<StMichaelsLentNovenaDay35 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-36-september-19-2026/" element={<StMichaelsLentNovenaDay36 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-37-september-20-2026/" element={<StMichaelsLentNovenaDay37 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-38-september-21-2026/" element={<StMichaelsLentNovenaDay38 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-39-september-22-2026/" element={<StMichaelsLentNovenaDay39 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-40-september-23-2026/" element={<StMichaelsLentNovenaDay40 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-41-september-24-2026/" element={<StMichaelsLentNovenaDay41 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-42-september-25-2026/" element={<StMichaelsLentNovenaDay42 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-43-september-26-2026/" element={<StMichaelsLentNovenaDay43 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-44-september-27-2026/" element={<StMichaelsLentNovenaDay44 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-45-september-28-2026/" element={<StMichaelsLentNovenaDay45 />} />
+            <Route path="/blog/st-michaels-lent-novena-day-46-september-29-2026/" element={<StMichaelsLentNovenaDay46 />} />
             <Route path="/blog/gospel-reading-today-catholic/" element={<GospelReadingToday />} />
             <Route path="/blog/how-to-study-the-bible-catholic/" element={<HowToStudyBibleCatholic />} />
 
