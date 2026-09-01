@@ -479,6 +479,18 @@ const StMichaelsLentNovenaDay43 = lazy(() => import("./pages/blog/StMichaelsLent
 const StMichaelsLentNovenaDay44 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay44"));
 const StMichaelsLentNovenaDay45 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay45"));
 const StMichaelsLentNovenaDay46 = lazy(() => import("./pages/blog/StMichaelsLentNovenaDay46"));
+const NativityOfMarySeptember82026FeastGuide = lazy(() => import("./pages/blog/NativityOfMarySeptember82026FeastGuide"));
+const ExaltationHolyCrossSeptember142026Guide = lazy(() => import("./pages/blog/ExaltationHolyCrossSeptember142026Guide"));
+const OurLadyOfSorrowsSeptember152026Feast = lazy(() => import("./pages/blog/OurLadyOfSorrowsSeptember152026Feast"));
+const FeastOfArchangelsMichaelmasSeptember292026 = lazy(() => import("./pages/blog/FeastOfArchangelsMichaelmasSeptember292026"));
+const GuardianAngelsFeastDayOctober22026 = lazy(() => import("./pages/blog/GuardianAngelsFeastDayOctober22026"));
+const StFrancisFeastDayOctober42026Guide = lazy(() => import("./pages/blog/StFrancisFeastDayOctober42026Guide"));
+const OurLadyOfTheRosaryOctober72026Feast = lazy(() => import("./pages/blog/OurLadyOfTheRosaryOctober72026Feast"));
+const AllSaintsDayNovember12026HolyDay = lazy(() => import("./pages/blog/AllSaintsDayNovember12026HolyDay"));
+const AllSoulsDayNovember22026Guide = lazy(() => import("./pages/blog/AllSoulsDayNovember22026Guide"));
+const Advent2026StartDateWhenDoesAdventBegin = lazy(() => import("./pages/blog/Advent2026StartDateWhenDoesAdventBegin"));
+const ImmaculateConceptionDecember82026HolyDay = lazy(() => import("./pages/blog/ImmaculateConceptionDecember82026HolyDay"));
+const OurLadyOfGuadalupeDecember122026Feast = lazy(() => import("./pages/blog/OurLadyOfGuadalupeDecember122026Feast"));
 const GospelReadingToday = lazy(() => import("./pages/blog/GospelReadingToday"));
 const HowToStudyBibleCatholic = lazy(() => import("./pages/blog/HowToStudyBibleCatholic"));
 
@@ -963,6 +975,18 @@ export function AppRoutes() {
             <Route path="/blog/st-michaels-lent-novena-day-44-september-27-2026/" element={<StMichaelsLentNovenaDay44 />} />
             <Route path="/blog/st-michaels-lent-novena-day-45-september-28-2026/" element={<StMichaelsLentNovenaDay45 />} />
             <Route path="/blog/st-michaels-lent-novena-day-46-september-29-2026/" element={<StMichaelsLentNovenaDay46 />} />
+<Route path="/blog/nativity-of-mary-september-8-2026-feast-day-guide/" element={<NativityOfMarySeptember82026FeastGuide />} />
+            <Route path="/blog/exaltation-of-holy-cross-september-14-2026-guide/" element={<ExaltationHolyCrossSeptember142026Guide />} />
+            <Route path="/blog/our-lady-of-sorrows-september-15-2026-feast-day/" element={<OurLadyOfSorrowsSeptember152026Feast />} />
+            <Route path="/blog/feast-of-archangels-michaelmas-september-29-2026-guide/" element={<FeastOfArchangelsMichaelmasSeptember292026 />} />
+            <Route path="/blog/guardian-angels-feast-day-october-2-2026/" element={<GuardianAngelsFeastDayOctober22026 />} />
+            <Route path="/blog/st-francis-feast-day-october-4-2026-guide/" element={<StFrancisFeastDayOctober42026Guide />} />
+            <Route path="/blog/our-lady-of-the-rosary-october-7-2026-feast-day/" element={<OurLadyOfTheRosaryOctober72026Feast />} />
+            <Route path="/blog/all-saints-day-november-1-2026-holy-day-obligation/" element={<AllSaintsDayNovember12026HolyDay />} />
+            <Route path="/blog/all-souls-day-november-2-2026-prayers-mass-times/" element={<AllSoulsDayNovember22026Guide />} />
+            <Route path="/blog/advent-2026-start-date-when-does-advent-begin/" element={<Advent2026StartDateWhenDoesAdventBegin />} />
+            <Route path="/blog/immaculate-conception-december-8-2026-holy-day-usa/" element={<ImmaculateConceptionDecember82026HolyDay />} />
+            <Route path="/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/" element={<OurLadyOfGuadalupeDecember122026Feast />} />
             <Route path="/blog/gospel-reading-today-catholic/" element={<GospelReadingToday />} />
             <Route path="/blog/how-to-study-the-bible-catholic/" element={<HowToStudyBibleCatholic />} />
 

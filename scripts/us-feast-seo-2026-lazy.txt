@@ -1,0 +1,12 @@
+const NativityOfMarySeptember82026FeastGuide = lazy(() => import("./pages/blog/NativityOfMarySeptember82026FeastGuide"));
+const ExaltationHolyCrossSeptember142026Guide = lazy(() => import("./pages/blog/ExaltationHolyCrossSeptember142026Guide"));
+const OurLadyOfSorrowsSeptember152026Feast = lazy(() => import("./pages/blog/OurLadyOfSorrowsSeptember152026Feast"));
+const FeastOfArchangelsMichaelmasSeptember292026 = lazy(() => import("./pages/blog/FeastOfArchangelsMichaelmasSeptember292026"));
+const GuardianAngelsFeastDayOctober22026 = lazy(() => import("./pages/blog/GuardianAngelsFeastDayOctober22026"));
+const StFrancisFeastDayOctober42026Guide = lazy(() => import("./pages/blog/StFrancisFeastDayOctober42026Guide"));
+const OurLadyOfTheRosaryOctober72026Feast = lazy(() => import("./pages/blog/OurLadyOfTheRosaryOctober72026Feast"));
+const AllSaintsDayNovember12026HolyDay = lazy(() => import("./pages/blog/AllSaintsDayNovember12026HolyDay"));
+const AllSoulsDayNovember22026Guide = lazy(() => import("./pages/blog/AllSoulsDayNovember22026Guide"));
+const Advent2026StartDateWhenDoesAdventBegin = lazy(() => import("./pages/blog/Advent2026StartDateWhenDoesAdventBegin"));
+const ImmaculateConceptionDecember82026HolyDay = lazy(() => import("./pages/blog/ImmaculateConceptionDecember82026HolyDay"));
+const OurLadyOfGuadalupeDecember122026Feast = lazy(() => import("./pages/blog/OurLadyOfGuadalupeDecember122026Feast"));

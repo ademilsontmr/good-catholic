@@ -7,6 +7,31 @@
  */
 
 export const INTERLINK_MAP: Record<string, string> = {
+  // U.S. feast SEO 2026 (Sep–Dec)
+"nativity of mary 2026": "/blog/nativity-of-mary-september-8-2026-feast-day-guide/",
+  "Nativity of Mary (September 8, 2026)": "/blog/nativity-of-mary-september-8-2026-feast-day-guide/",
+  "exaltation of the holy cross 2026": "/blog/exaltation-of-holy-cross-september-14-2026-guide/",
+  "Exaltation of the Holy Cross (September 14, 2026)": "/blog/exaltation-of-holy-cross-september-14-2026-guide/",
+  "our lady of sorrows 2026": "/blog/our-lady-of-sorrows-september-15-2026-feast-day/",
+  "Our Lady of Sorrows (September 15, 2026)": "/blog/our-lady-of-sorrows-september-15-2026-feast-day/",
+  "feast of the archangels 2026": "/blog/feast-of-archangels-michaelmas-september-29-2026-guide/",
+  "Feast of the Archangels (September 29, 2026)": "/blog/feast-of-archangels-michaelmas-september-29-2026-guide/",
+  "guardian angels feast day 2026": "/blog/guardian-angels-feast-day-october-2-2026/",
+  "Guardian Angels Feast Day (October 2, 2026)": "/blog/guardian-angels-feast-day-october-2-2026/",
+  "st francis feast day 2026": "/blog/st-francis-feast-day-october-4-2026-guide/",
+  "St. Francis Feast Day (October 4, 2026)": "/blog/st-francis-feast-day-october-4-2026-guide/",
+  "our lady of the rosary 2026": "/blog/our-lady-of-the-rosary-october-7-2026-feast-day/",
+  "Our Lady of the Rosary (October 7, 2026)": "/blog/our-lady-of-the-rosary-october-7-2026-feast-day/",
+  "all saints day 2026": "/blog/all-saints-day-november-1-2026-holy-day-obligation/",
+  "All Saints' Day 2026 (November 1)": "/blog/all-saints-day-november-1-2026-holy-day-obligation/",
+  "all souls day 2026": "/blog/all-souls-day-november-2-2026-prayers-mass-times/",
+  "All Souls' Day 2026 (November 2)": "/blog/all-souls-day-november-2-2026-prayers-mass-times/",
+  "when does advent start 2026": "/blog/advent-2026-start-date-when-does-advent-begin/",
+  "When Does Advent 2026 Start? Dates, Calendar & Catholic Guide": "/blog/advent-2026-start-date-when-does-advent-begin/",
+  "immaculate conception 2026 holy day": "/blog/immaculate-conception-december-8-2026-holy-day-usa/",
+  "Immaculate Conception 2026 (December 8)": "/blog/immaculate-conception-december-8-2026-holy-day-usa/",
+  "our lady of guadalupe 2026": "/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/",
+  "Our Lady of Guadalupe 2026 (December 12)": "/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/",
   // GSC St. Michael's Lent 2026 cluster
 "St Michael's Lent Novena Day 1": "/blog/st-michaels-lent-novena-day-1-august-15-2026/",
   "Day 1 St Michael's Lent Novena": "/blog/st-michaels-lent-novena-day-1-august-15-2026/",

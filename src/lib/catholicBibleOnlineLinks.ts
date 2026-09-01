@@ -11,3 +11,17 @@ export const cboStMichaelsLentNovenaDay = (day: number) =>
 
 export const stMichaelCboLinkClass =
   "text-accent font-semibold underline underline-offset-2 hover:text-accent/80";
+
+/** General Catholic Bible Online outbound links */
+export const CBO_HOME = "https://catholicbibleonline.com/";
+export const CBO_PRAYERS = "https://catholicbibleonline.com/prayers/";
+export const CBO_NOVENAS = "https://catholicbibleonline.com/novenas/";
+export const CBO_BIBLE = "https://catholicbibleonline.com/bible/";
+export const CBO_DAILY_VERSES = "https://catholicbibleonline.com/daily-verses/";
+export const CBO_ROSARY = "https://catholicbibleonline.com/prayers/holy-rosary/";
+export const CBO_GUARDIAN_ANGEL = "https://catholicbibleonline.com/prayers/guardian-angel-prayer/";
+export const CBO_ST_MICHAEL_PRAYER = "https://catholicbibleonline.com/prayers/st-michael-prayer/";
+export const CBO_ADVENT_2026 = "https://catholicbibleonline.com/blog/advent-2026-novena-catholic-guide-dates-prayers-how-to-prepare/";
+
+export const cboLinkClass =
+  "text-accent font-semibold underline underline-offset-2 hover:text-accent/80";

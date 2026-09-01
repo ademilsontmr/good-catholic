@@ -1,0 +1,12 @@
+            <Route path="/blog/nativity-of-mary-september-8-2026-feast-day-guide/" element={<NativityOfMarySeptember82026FeastGuide />} />
+            <Route path="/blog/exaltation-of-holy-cross-september-14-2026-guide/" element={<ExaltationHolyCrossSeptember142026Guide />} />
+            <Route path="/blog/our-lady-of-sorrows-september-15-2026-feast-day/" element={<OurLadyOfSorrowsSeptember152026Feast />} />
+            <Route path="/blog/feast-of-archangels-michaelmas-september-29-2026-guide/" element={<FeastOfArchangelsMichaelmasSeptember292026 />} />
+            <Route path="/blog/guardian-angels-feast-day-october-2-2026/" element={<GuardianAngelsFeastDayOctober22026 />} />
+            <Route path="/blog/st-francis-feast-day-october-4-2026-guide/" element={<StFrancisFeastDayOctober42026Guide />} />
+            <Route path="/blog/our-lady-of-the-rosary-october-7-2026-feast-day/" element={<OurLadyOfTheRosaryOctober72026Feast />} />
+            <Route path="/blog/all-saints-day-november-1-2026-holy-day-obligation/" element={<AllSaintsDayNovember12026HolyDay />} />
+            <Route path="/blog/all-souls-day-november-2-2026-prayers-mass-times/" element={<AllSoulsDayNovember22026Guide />} />
+            <Route path="/blog/advent-2026-start-date-when-does-advent-begin/" element={<Advent2026StartDateWhenDoesAdventBegin />} />
+            <Route path="/blog/immaculate-conception-december-8-2026-holy-day-usa/" element={<ImmaculateConceptionDecember82026HolyDay />} />
+            <Route path="/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/" element={<OurLadyOfGuadalupeDecember122026Feast />} />
