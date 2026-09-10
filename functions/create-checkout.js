@@ -37,6 +37,7 @@ export async function onRequestPost(context) {
       body: new URLSearchParams({
         "line_items[0][price]": PRICE_ID,
         "line_items[0][quantity]": "1",
+        "payment_method_types[0]": "card",
         mode: "payment",
         success_url: SUCCESS_URL,
         cancel_url: CANCEL_URL,
@@ -47,6 +48,7 @@ export async function onRequestPost(context) {
     const session = await response.json();
 
     if (!response.ok) {
+      console.error("Stripe checkout error:", session.error);
       return new Response(JSON.stringify({ error: session.error?.message || "Stripe error" }), {
         status: 500,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
