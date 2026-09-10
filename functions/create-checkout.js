@@ -23,7 +23,7 @@ export async function onRequestPost(context) {
     }
 
     const STRIPE_SECRET_KEY = env.STRIPE_SECRET_KEY;
-    const PRICE_ID = "price_1TLycTG0HYZrAR0Licas5FKI";
+    const PRICE_ID = "price_1UECy9QVTLesvEF7U8S45eqK"; // prod_VEgKjDoWW9ASMJ
     const SUCCESS_URL = `https://guidecatholic.com/result/?sid=${sessionId}`;
     const CANCEL_URL = "https://guidecatholic.com/get-result/";
 
