@@ -281,9 +281,9 @@ export default function GetResultPage() {
                   <div className="flex items-center justify-between mb-2">
                     <div>
                       <p className="text-sm text-text-muted line-through">$29.00</p>
-                      <div className="flex items-baseline gap-1">
-                        <span className="font-display text-4xl font-bold text-text">$15</span>
-                        <span className="text-text-muted">.90 USD</span>
+                      <div className="flex items-baseline gap-1.5">
+                        <span className="font-display text-4xl font-bold text-text">$15.90</span>
+                        <span className="text-text-muted text-lg">USD</span>
                       </div>
                     </div>
                     <div className="bg-accent text-button-text text-xs font-bold px-3 py-1 rounded-full">
