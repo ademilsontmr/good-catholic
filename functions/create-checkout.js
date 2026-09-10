@@ -37,9 +37,9 @@ export async function onRequestPost(context) {
       body: new URLSearchParams({
         "line_items[0][price]": PRICE_ID,
         "line_items[0][quantity]": "1",
-        // Checkout Session API: card + Link. Apple Pay / Google Pay appear as wallets with card.
+        // Card only — Link is not enabled for this Stripe account/currency combo.
+        // Apple Pay / Google Pay still appear as wallets when the browser supports them.
         "payment_method_types[0]": "card",
-        "payment_method_types[1]": "link",
         mode: "payment",
         success_url: SUCCESS_URL,
         cancel_url: CANCEL_URL,
