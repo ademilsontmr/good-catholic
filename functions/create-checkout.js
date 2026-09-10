@@ -37,7 +37,8 @@ export async function onRequestPost(context) {
       body: new URLSearchParams({
         "line_items[0][price]": PRICE_ID,
         "line_items[0][quantity]": "1",
-        "payment_method_types[0]": "card",
+        // Let Stripe Dashboard decide methods (card, Link, Apple Pay, Google Pay)
+        "automatic_payment_methods[enabled]": "true",
         mode: "payment",
         success_url: SUCCESS_URL,
         cancel_url: CANCEL_URL,
