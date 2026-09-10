@@ -52,6 +52,7 @@ export default function GetResultPage() {
     e.preventDefault();
     if (!name.trim()) return;
     setIsSubmitting(true);
+    setError(null);
 
     // Generate unique session ID
     const sessionId = `gc_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
@@ -77,7 +78,8 @@ export default function GetResultPage() {
     sessionStorage.setItem("gc_pending_session", sessionId);
 
     try {
-      // Call Cloudflare Worker to create Stripe Checkout Session
+      // Call Cloudflare Pages Function to create Stripe Checkout Session
+      // (price_1UECy9QVTLesvEF7U8S45eqK → prod_VEgKjDoWW9ASMJ)
       const response = await fetch("/create-checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -88,15 +90,16 @@ export default function GetResultPage() {
 
       if (data.url) {
         window.location.href = data.url;
-      } else {
-        // Fallback to Payment Link if Worker fails
-        console.error("Worker error:", data.error);
-        window.location.href = `https://buy.stripe.com/aFa14ndms1hVgHQ6W27EQ00?sid=${sessionId}`;
+        return;
       }
+
+      console.error("Checkout error:", data.error);
+      setError("Unable to start checkout. Please try again in a moment.");
+      setIsSubmitting(false);
     } catch (err) {
-      // Fallback to Payment Link on network error
       console.error("Checkout error:", err);
-      window.location.href = `https://buy.stripe.com/aFa14ndms1hVgHQ6W27EQ00?sid=${sessionId}`;
+      setError("Unable to start checkout. Please check your connection and try again.");
+      setIsSubmitting(false);
     }
   };
 
@@ -280,11 +283,11 @@ export default function GetResultPage() {
                       <p className="text-sm text-text-muted line-through">$29.00</p>
                       <div className="flex items-baseline gap-1">
                         <span className="font-display text-4xl font-bold text-text">$15</span>
-                        <span className="text-text-muted">.00 USD</span>
+                        <span className="text-text-muted">.90 USD</span>
                       </div>
                     </div>
                     <div className="bg-accent text-button-text text-xs font-bold px-3 py-1 rounded-full">
-                      48% OFF
+                      45% OFF
                     </div>
                   </div>
                   <div className="flex items-center gap-2 text-xs text-text-muted">
@@ -310,6 +313,12 @@ export default function GetResultPage() {
                   ) : "Unlock My Full Results →"}
                 </Button>
 
+                {error && (
+                  <p className="text-sm text-red-600 text-center" role="alert">
+                    {error}
+                  </p>
+                )}
+
                 {/* Trust badges */}
                 <div className="flex items-center justify-center gap-4 text-xs text-text-muted pt-1">
                   <div className="flex items-center gap-1">
@@ -332,8 +341,8 @@ export default function GetResultPage() {
             <div className="mt-6 space-y-3">
               {[
                 { q: "What happens after I pay?", a: "You get instant access to your full results and can download your personalized PDF guide immediately." },
-                { q: "Is this a subscription?", a: "No. This is a one-time payment of $15. You will never be charged again." },
-                { q: "Why is this worth $15?", a: "Your guide is 100% personalized based on your 30 answers — not a generic PDF. It includes your score breakdown, a 7-day spiritual plan, patron saint, prayers, and Church teachings tailored to your level." },
+                { q: "Is this a subscription?", a: "No. This is a one-time payment of $15.90. You will never be charged again." },
+                { q: "Why is this worth $15.90?", a: "Your guide is 100% personalized based on your 30 answers — not a generic PDF. It includes your score breakdown, a 7-day spiritual plan, patron saint, prayers, and Church teachings tailored to your level." },
               ].map((item, i) => (
                 <div key={i} className="bg-surface border border-border rounded-xl p-4">
                   <p className="text-sm font-semibold text-text mb-1">{item.q}</p>
