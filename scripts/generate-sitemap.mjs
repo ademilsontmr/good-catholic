@@ -105,6 +105,7 @@ const staticPages = [
   { loc: `${SITE}/terms/`, changefreq: "yearly", priority: "0.3" },
   { loc: `${SITE}/privacy/`, changefreq: "yearly", priority: "0.3" },
   { loc: `${SITE}/contact/`, changefreq: "monthly", priority: "0.4" },
+  { loc: `${SITE}/donate/`, changefreq: "monthly", priority: "0.5" },
 ].map((entry) => ({ ...entry, lastmod: TODAY }));
 
 const paginationPages = [];

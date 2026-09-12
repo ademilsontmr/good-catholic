@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, Clock, Cross } from "lucide-react";
+import { DonateCTA } from "@/components/blog/DonateCTA";
 
 interface QuizCTAProps {
   title?: string;
@@ -12,6 +13,8 @@ export function QuizCTA({
   description = "Many Catholics feel they could live their faith more deeply, but don't know where to start. Take our quiz and receive personalized guidance for your spiritual life.",
 }: QuizCTAProps) {
   return (
+    <>
+    <DonateCTA />
     <aside
       className="my-12 relative overflow-hidden rounded-2xl border border-accent/25 bg-gradient-to-br from-accent/[0.12] via-surface to-primary/[0.06] shadow-sm"
       aria-label="Catholic faith quiz"
@@ -49,5 +52,6 @@ export function QuizCTA({
         </div>
       </div>
     </aside>
+    </>
   );
 }

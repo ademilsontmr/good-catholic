@@ -74,6 +74,11 @@ export function Footer() {
                   Lockscreens
                 </Link>
               </li>
+              <li>
+                <Link to="/donate/" className="hover:text-button-text transition-colors font-semibold text-red-300">
+                  Donate
+                </Link>
+              </li>
             </ul>
           </div>
 

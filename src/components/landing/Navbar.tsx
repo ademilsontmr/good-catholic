@@ -54,6 +54,12 @@ export function Navbar() {
             >
               Daily Verse
             </Link>
+            <Link
+              to="/donate/"
+              className="text-red-700 hover:text-red-800 font-semibold transition-colors"
+            >
+              Donate
+            </Link>
             <Link to="/quiz-intro">
               <Button className="bg-gradient-accent hover:opacity-90 text-button-text font-semibold">
                 Take the Quiz

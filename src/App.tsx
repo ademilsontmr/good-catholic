@@ -661,6 +661,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 const LockscreenPage = lazy(() => import("./pages/LockscreenPage"));
+const DonatePage = lazy(() => import("./pages/DonatePage"));
 
 const queryClient = new QueryClient();
 
@@ -690,6 +691,8 @@ export function AppRoutes() {
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/contato" element={<Contact />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/donate" element={<DonatePage />} />
+            <Route path="/donate/" element={<DonatePage />} />
             <Route path="/blog/seven-sacraments/" element={<SevenSacraments />} />
             <Route path="/blog/importance-confession/" element={<ImportanceOfConfession />} />
             <Route path="/blog/patron-saints/" element={<PatronSaints />} />
