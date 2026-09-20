@@ -13,6 +13,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { POPE_ARTICLES_BY_SLUG } from "@/data/popeArticles";
 import { CATHOLIC_POPES } from "@/data/catholicPopes";
 import { parsePopeArticleSlug, popeOrdinal } from "@/lib/popeSlugs";
+import { POPE_TABLE_ROWS } from "@/lib/popeTableData";
 import NotFound from "@/pages/NotFound";
 
 export default function PopeArticlePage() {
@@ -26,7 +27,11 @@ export default function PopeArticlePage() {
   if (!article) return <Navigate to="/blog/list-of-all-popes-catholic-complete-guide/" replace />;
 
   const pope = CATHOLIC_POPES.find((p) => p.num === article.num);
+  const tableRow = POPE_TABLE_ROWS.find((p) => p.num === article.num);
   const displayName = pope?.name ?? article.title;
+  const portraitSrc = tableRow?.image
+    ? tableRow.image.replace("width=80", "width=640")
+    : "";
   const canonical = `https://guidecatholic.com/blog/pope-${article.slug}/`;
 
   return (
@@ -75,10 +80,33 @@ export default function PopeArticlePage() {
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-4">{article.title}</h1>
               <p className="text-lg text-text-muted">
                 <strong>Pontificate:</strong> {pope?.reign ?? "See historical records"}
+                {tableRow?.birthPlace ? (
+                  <>
+                    {" "}
+                    · <strong>Origin:</strong> {tableRow.birthPlace}
+                  </>
+                ) : null}
+                {tableRow?.personalName ? (
+                  <>
+                    {" "}
+                    · <strong>Birth name:</strong> {tableRow.personalName}
+                  </>
+                ) : null}
               </p>
             </header>
-            <div className="aspect-video bg-amber-100 rounded-2xl flex items-center justify-center mb-10">
-              <Crown className="w-24 h-24 text-amber-700" strokeWidth={1.5} />
+            <div className="aspect-video bg-amber-100 rounded-2xl flex items-center justify-center mb-10 overflow-hidden relative">
+              {portraitSrc ? (
+                <img
+                  src={portraitSrc}
+                  alt={`Portrait of Pope ${displayName}`}
+                  className="w-full h-full object-contain bg-amber-50"
+                  loading="lazy"
+                  width={640}
+                  height={360}
+                />
+              ) : (
+                <Crown className="w-24 h-24 text-amber-700" strokeWidth={1.5} />
+              )}
             </div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
@@ -132,6 +160,24 @@ export default function PopeArticlePage() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
                 {article.succession}
               </LinkedText>
+
+              {article.relatedPopes?.length > 0 && (
+                <div className="mb-10 p-6 rounded-xl border border-amber-200/70 bg-amber-50/50">
+                  <h3 className="font-display text-xl font-bold text-text mb-4">Related pontiffs</h3>
+                  <ul className="space-y-2">
+                    {article.relatedPopes.map((rel) => (
+                      <li key={`${rel.relation}-${rel.num}`}>
+                        <Link
+                          to={`/blog/pope-${rel.slug}/`}
+                          className="text-primary font-semibold hover:underline"
+                        >
+                          {rel.relation}: Pope {rel.name} ({popeOrdinal(rel.num)})
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
 
             <BlogFAQ faqs={article.faqs} linkAnswersSlug={`pope-${article.slug}`} />

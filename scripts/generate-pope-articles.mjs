@@ -74,22 +74,22 @@ function categorizeSentences(notes) {
 }
 
 const ERA_OPENINGS = {
-  "the apostolic and patristic Church": (name) =>
-    `${name} shepherded the Church when Christianity was still an outlawed or barely tolerated faith in the Roman Empire. Papal records from this era are scarce, but tradition and archaeology preserve the memory of these earliest successors of St. Peter.`,
-  "late antiquity": (name) =>
-    `${name} governed the Church during late antiquity — an age of imperial transition, barbarian invasions, and fierce theological debate over the nature of Christ. Bishops of Rome were increasingly seen as guardians of orthodoxy for the entire Christian world.`,
-  "the early medieval papacy": (name) =>
-    `${name} reigned during the early Middle Ages, when the papacy navigated the collapse of Roman order in the West, the rise of new kingdoms, and the missionary expansion of Christianity across Europe.`,
-  "the high Middle Ages": (name) =>
-    `${name} led the Church in the high Middle Ages — an era of crusades, monastic reform, cathedral building, and intense negotiation between popes and emperors over who held ultimate authority in Christendom.`,
-  "the Renaissance papacy": (name) =>
-    `${name} sat on the Chair of Peter during the Renaissance, when popes were among the most powerful patrons of art and architecture in Europe — but also faced corruption scandals, the Protestant Reformation, and the discovery of the New World.`,
-  "the early modern and Counter-Reformation era": (name) =>
-    `${name} guided the Catholic Church through the early modern period — the age of the Counter-Reformation, the Council of Trent, global missionary expansion, and the rise of nation-states that challenged papal temporal power.`,
-  "the modern papacy": (name) =>
-    `${name} served during the modern papacy — a time of industrial revolution, world wars, the loss of the Papal States, Vatican I and II, and the Church's engagement with democracy, human rights, and mass media.`,
-  "the contemporary Catholic Church": (name) =>
-    `${name} leads (or led) the Church in the contemporary era, when over a billion Catholics look to Rome for unity while the papacy faces globalization, secularization, digital media, and rapid social change.`,
+  "the apostolic and patristic Church": (name, num) =>
+    `${name} (#${num}) shepherded Christians when the faith was still illegal or barely tolerated inside the Roman Empire; records are thin, yet tradition preserves these earliest successors of St. Peter.`,
+  "late antiquity": (name, num) =>
+    `${name} (#${num}) governed amid imperial transition, invasions, and debates over Christ's nature — Rome's bishop increasingly seen as a guardian of orthodoxy for the wider Church.`,
+  "the early medieval papacy": (name, num) =>
+    `${name} (#${num}) reigned while Western Roman order fractured, new kingdoms rose, and missionaries carried Christianity across Europe under papal encouragement or correction.`,
+  "the high Middle Ages": (name, num) =>
+    `${name} (#${num}) led during crusades, monastic reform, and cathedral culture — and during sharp contests between popes and emperors over authority in Christendom.`,
+  "the Renaissance papacy": (name, num) =>
+    `${name} (#${num}) sat on Peter's chair amid artistic patronage, political intrigue, Reformation shocks, and the widening world of the Americas.`,
+  "the early modern and Counter-Reformation era": (name, num) =>
+    `${name} (#${num}) guided Catholics through Trent's reforms, global missions, and nation-states that challenged older papal temporal claims.`,
+  "the modern papacy": (name, num) =>
+    `${name} (#${num}) served while industry, world wars, the loss of the Papal States, and Vatican councils remade how Rome speaks to a mass society.`,
+  "the contemporary Catholic Church": (name, num) =>
+    `${name} (#${num}) leads or led more than a billion Catholics through globalization, secular pressure, and digital media that amplify every papal word.`,
 };
 
 function isOrphanNoteLine(line) {
@@ -332,9 +332,12 @@ function buildEarlyLife(pope, wiki, isSaint) {
 }
 
 function buildHistoricalContext(pope, era, notes) {
-  const opener = (ERA_OPENINGS[era] || ERA_OPENINGS["the high Middle Ages"])(pope.name.replace(/^St\.\s+/, ""));
+  const opener = (ERA_OPENINGS[era] || ERA_OPENINGS["the high Middle Ages"])(
+    pope.name.replace(/^St\.\s+/, ""),
+    pope.num
+  );
   const { buckets } = categorizeSentences(notes);
-  const extras = [...buckets.conflicts, ...buckets.councils].slice(0, 2);
+  const extras = [...buckets.conflicts, ...buckets.councils].slice(0, 3);
   return [opener, ...extras].join(" ").replace(/\s+/g, " ").trim();
 }
 
@@ -365,26 +368,27 @@ function buildSuccession(pope, prev, next) {
   const parts = [];
   if (prev) {
     parts.push(
-      `${pope.name} followed Pope ${prev.name} (${popeOrd(prev.num)}) in the unbroken line of apostolic succession from St. Peter.`
+      `${pope.name} followed Pope ${prev.name} (${popeOrd(prev.num)}, ${prev.reign}) after a transition shaped by the politics and piety of their shared century.`
     );
   } else {
-    parts.push(`${pope.name} stands at the beginning of the official list of Roman pontiffs as the first pope.`);
+    parts.push(`${pope.name} opens the official list of Roman pontiffs as the first pope in Catholic reckoning.`);
   }
   if (next) {
     parts.push(
-      `Upon his death or resignation, he was succeeded by Pope ${next.name} (${popeOrd(next.num)}), who continued the mission of shepherding the universal Church.`
+      `He was followed by Pope ${next.name} (${popeOrd(next.num)}, ${next.reign}), whose biography continues the chain on Guide Catholic.`
     );
   } else {
-    parts.push(`${pope.name} is the current reigning pope, the ${ord} successor of St. Peter and Bishop of Rome.`);
+    parts.push(`${pope.name} is the reigning ${ord} successor of St. Peter and Bishop of Rome.`);
   }
   parts.push(
-    `Explore the full chronological chain in our complete list of all 267 popes, or read the biographies of neighboring pontiffs linked below.`
+    `For the full chronological map, see our complete list of all 267 popes — then read neighboring biographies for contrast, not only continuity.`
   );
   return parts.join(" ").replace(/\s+/g, " ").trim();
 }
 
 function buildWhyHeMatters(pope, wiki, isSaint, era) {
   const { buckets, sentences } = categorizeSentences(wiki.notes);
+  const bare = pope.name.replace(/^St\.\s+/, "");
   let text = "";
   if (buckets.legacy.length >= 1) {
     text = buckets.legacy.slice(0, 3).join(" ");
@@ -393,11 +397,11 @@ function buildWhyHeMatters(pope, wiki, isSaint, era) {
   } else if (sentences.length >= 2) {
     text = sentences.slice(-3).join(" ");
   } else {
-    text = `${pope.name} holds place ${popeOrd(pope.num)} in the official Annuario Pontificio. `;
-    if (isSaint) text += "Catholics venerate his feast day and invoke his intercession. ";
-    text += "His pontificate forms an essential link in the unbroken succession from St. Peter to Pope Leo XIV.";
+    text = `${pope.name} holds place ${popeOrd(pope.num)} in the Annuario Pontificio. `;
+    if (isSaint) text += `Catholics still mark ${bare}'s feast and ask his intercession. `;
+    text += `His years on Peter's chair remain a required link between St. Peter and Pope Leo XIV.`;
   }
-  text += ` Understanding ${pope.name.replace(/^St\.\s+/, "")} within ${era} helps Catholics see how the Holy Spirit has guided the Church through twenty centuries of saints, sinners, councils, and renewal.`;
+  text += ` Reading ${bare} inside ${era} shows how one pontificate answered problems later generations never faced — and how some answers still instruct Catholics today.`;
   return text.replace(/\s+/g, " ").trim();
 }
 
@@ -437,27 +441,55 @@ function buildDirectAnswer(pope, wiki, isSaint, era) {
 
 function buildForCatholicsToday(pope, wiki, isSaint, era) {
   const bare = pope.name.replace(/^St\.\s+/, "");
-  const parts = [
-    `Studying ${pope.name} helps Catholics see how the Holy Spirit guided the Church through ${era} — with human weakness and grace intertwined.`,
+  const { buckets, sentences } = categorizeSentences(wiki.notes);
+  const seed = pope.num * 17 + bare.length;
+  const openers = [
+    `Catholics who open a page on ${pope.name} usually want more than a birth-death line — they want to know what #${pope.num} did inside ${era}.`,
+    `Reading ${bare} as pope ${popeOrd(pope.num)} (${pope.reign}) is a way to study how Rome answered the crises of ${era}.`,
+    `Place ${bare} on your mental map: ${popeOrd(pope.num)} successor of Peter, reigning ${pope.reign}, formed by ${era}.`,
+    `If you only remember one modern question about ${bare}, ask how his decisions served unity and truth under the pressures of ${era}.`,
   ];
+  const parts = [openers[seed % openers.length]];
   if (isSaint) {
-    parts.push(`You may ask ${bare} for intercession and look up his feast in the Roman calendar or Martyrology.`);
+    parts.push(`Because the Church venerates ${bare}, you may seek his intercession and check his feast in the Martyrology or local calendar.`);
+  }
+  const concrete = [...buckets.reforms, ...buckets.councils, ...buckets.firsts].slice(0, 2);
+  if (concrete.length) {
+    parts.push(`Start with the concrete record: ${concrete.join(" ")}`);
+  } else if (sentences[0]) {
+    parts.push(`Begin with this documented note: ${sentences[0]}`);
   }
   if (/\bencyclical|council|Lateran|Trent|Vatican|bull\b/i.test(wiki.notes)) {
-    parts.push(`Primary sources from this pontificate — bulls, conciliar acts, or encyclicals — reward readers who want depth beyond summaries.`);
+    parts.push(`Where bulls, conciliar acts, or encyclicals survive from this reign, they repay readers who want primary sources rather than summaries alone.`);
   }
-  parts.push(
-    `Place this pope in context using our chronological list of all 267 popes and the biographies of his immediate predecessor and successor linked below.`
-  );
+  const closers = [
+    `Compare ${bare} with the biographies of his predecessor and successor linked below to see reform, rupture, or quiet continuity.`,
+    `Use the neighboring pontiff links below to test whether ${bare}'s reign looks unique or typical for ${era}.`,
+    `Then step back to the full list of 267 popes to see where ${bare} sits between crisis and consolidation.`,
+  ];
+  parts.push(closers[seed % closers.length]);
   return parts.join(" ").replace(/\s+/g, " ").trim();
 }
 function buildIntro(pope, wiki, isSaint, era, used) {
   const hooks = extractTitleHook(pope.name, wiki.notes);
   const bareName = pope.name.replace(/^St\.\s+/, "");
-  let intro = `This biography of ${pope.name} (${popeOrd(pope.num)}) covers background, major events, and legacy in the line of St. Peter. `;
-  if (hooks.length) intro += `Common search topics include ${hooks.join(", ")}. `;
-  intro += `During ${era}, the Bishop of Rome exercised teaching, sanctifying, and governing authority for the universal Church.`;
-  if (isSaint) intro += " Catholics honor him as a saint whose intercession remains available to the faithful.";
+  const { sentences } = categorizeSentences(wiki.notes);
+  const seed = pope.num + bareName.length;
+  const frames = [
+    `Pope ${bareName} — ${popeOrd(pope.num)} in the Catholic list — reigned ${pope.reign} during ${era}.`,
+    `${pope.name} holds the ${popeOrd(pope.num)} place among Roman pontiffs, with a recorded reign of ${pope.reign} inside ${era}.`,
+    `Among the 267 popes, ${bareName} is number ${pope.num}, remembered for the years ${pope.reign} in ${era}.`,
+  ];
+  let intro = `${frames[seed % frames.length]} `;
+  if (hooks.length) intro += `Search interest often clusters around ${hooks.join(" and ")}. `;
+  if (sentences[0]) intro += `${sentences[0]} `;
+  const bridges = [
+    `This Guide Catholic profile gathers background, major acts, and legacy so you can read ${bareName} beside neighboring pontiffs.`,
+    `What follows is a structured biography — early life, context, acts, and succession — written for Catholics who want ${bareName} in context.`,
+    `Use the sections below to move from a one-line summary of ${bareName} to a usable historical and spiritual picture.`,
+  ];
+  intro += bridges[seed % bridges.length];
+  if (isSaint) intro += ` Catholics also honor him as a saint whose intercession remains part of living devotion.`;
   markUsed(used, intro);
   return intro.replace(/\s+/g, " ").trim();
 }
@@ -479,12 +511,13 @@ function buildPontificate(pope, wiki, era, used) {
 
 function buildPapalActsRefined(pope, wiki, era, used) {
   const { buckets, sentences } = categorizeSentences(wiki.notes);
+  const bare = pope.name.replace(/^St\.\s+/, "");
   const picked = pickFresh(used, [...buckets.conflicts, ...buckets.firsts, ...buckets.martyrdom, ...buckets.general], 4);
-  let text = `${pope.name.replace(/^St\.\s+/, "")} left a distinct mark through decisions that historians still debate and Catholics still study. `;
+  let text = `Acts associated with ${bare} (#${pope.num}, ${pope.reign}) still draw historians and Catholics who want more than a one-line summary. `;
   if (picked.length >= 2) {
     text += picked.join(" ");
   } else {
-    text += pickFresh(used, sentences, 2).join(" ") || `His reign contributed to the continuous apostolic succession now numbering 267 popes.`;
+    text += pickFresh(used, sentences, 2).join(" ") || `His reign remains a link in the succession now counted at 267 popes.`;
   }
   const mottoMatch = wiki.notes.match(/Papal motto: ([^.]+\.)/i);
   if (mottoMatch && !used.has(mottoMatch[0].slice(0, 72))) {
@@ -497,15 +530,16 @@ function buildPapalActsRefined(pope, wiki, era, used) {
 
 function buildLegacyRefined(pope, wiki, isSaint, era, used) {
   const { buckets, sentences } = categorizeSentences(wiki.notes);
+  const bare = pope.name.replace(/^St\.\s+/, "");
   const picked = pickFresh(used, [...buckets.legacy, ...sentences.slice(-4)], 3);
   let text = "";
   if (picked.length >= 1) {
     text = picked.join(" ");
   } else {
     text = `${pope.name} remains pope ${popeOrd(pope.num)} in the Annuario Pontificio. `;
-    if (isSaint) text += "The Church venerates his feast and holds up his virtues for imitation. ";
+    if (isSaint) text += `The Church still points to ${bare}'s virtues for imitation. `;
   }
-  text += ` Read against ${era}, his pontificate shows how Providence works through imperfect ministers without abandoning the Barque of Peter.`;
+  text += ` Set against ${era}, ${bare}'s choices show both the limits of any one pontiff and the continuity of the office he held.`;
   markUsed(used, text);
   return text.replace(/\s+/g, " ").trim();
 }

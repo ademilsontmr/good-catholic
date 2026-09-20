@@ -63,169 +63,302 @@ function isLiturgicalFeast(s) {
 
 const CATEGORY_LABELS = {
   martyr: "martyr of the Catholic Church",
-  confessor: "confessor and bishop or monk of the Church",
-  virgin: "consecrated virgin and saint",
-  doctor: "Doctor of the Church",
-  apostle: "apostle of the Lord",
-  solemnity: "solemnity on the universal calendar",
-  memorial: "memorial on the Roman calendar",
-  feast: "feast celebrated throughout the Church",
+  confessor: "confessor whose steadfast preaching and service shaped local churches",
+  virgin: "consecrated virgin whose chastity and prayer bore fruit for the Church",
+  doctor: "Doctor of the Church whose teaching still guides Catholic theology",
+  apostle: "apostle sent to plant the Gospel where Christ was not yet known",
+  solemnity: "solemnity ranked among the highest days of the Roman calendar",
+  memorial: "memorial inscribed on the General Roman Calendar",
+  feast: "feast kept widely across the Catholic world",
 };
 
-const VOCATION_FOCUS = {
-  martyr: "witness unto blood when the state or mob demanded apostasy",
-  confessor: "preaching, governance, and service to the poor under heavy responsibility",
-  virgin: "consecrated chastity, prayer, and often founding or reforming communities",
-  doctor: "writing, teaching, and defending orthodoxy when doctrine was contested",
-  apostle: "planting churches and proclaiming Christ where the Gospel was unknown",
-  memorial: "hidden holiness in ordinary duties performed with extraordinary love",
-  feast: "public celebration of a mystery or saint whose life the Church holds up for imitation",
-  solemnity: "solemn liturgical proclamation of a saving mystery",
-};
+function seedOf(s) {
+  let h = s.month * 100 + s.day;
+  for (const ch of s.slug) h = (h * 33 + ch.charCodeAt(0)) >>> 0;
+  return h;
+}
 
-// --- Person saints (unique fact distribution) ---
+function pick(seed, variants) {
+  return variants[seed % variants.length];
+}
+
+function expandFact(fact, name, dateLabel) {
+  const bare = primaryName(name);
+  return joinSentences(
+    fact,
+    pick(bare.length + dateLabel.length, [
+      `That detail is why ${bare} still appears in parish bulletins and school religion lessons around ${dateLabel}.`,
+      `Readers searching for ${bare} usually want this concrete memory, not a vague slogan.`,
+      `Catechists often open a short talk on ${dateLabel} with this episode from ${bare}'s story.`,
+      `It is the sort of specific witness that separates ${bare} from generic “holy person” summaries.`,
+    ])
+  );
+}
+
+// --- Person saints (fact-led, low shared boilerplate) ---
 
 function buildPersonIntro(s) {
+  const seed = seedOf(s);
   const patrons = patronList(s.patronOf);
+  const bare = primaryName(s.name);
   return joinSentences(
-    `On ${formatDate(s.month, s.day)}, the Catholic Church honors ${s.name} — a ${CATEGORY_LABELS[s.category] || "canonized saint"} from ${s.origin} (${s.lifespan}).`,
-    s.facts[0],
-    `${s.titleHook} captures what makes this life memorable centuries later.`,
-    `Catholics invoke ${primaryName(s.name)} as patron of ${patrons}; this guide explains the history, virtue, and practical ways to honor the feast today.`
+    pick(seed, [
+      `${formatDate(s.month, s.day)} belongs to ${s.name} on the Catholic calendar — a ${CATEGORY_LABELS[s.category] || "canonized saint"} formed in ${s.origin} during ${s.lifespan}.`,
+      `Each year on ${formatDate(s.month, s.day)}, Guide Catholic highlights ${s.name}, remembered as a ${CATEGORY_LABELS[s.category] || "saint"} from ${s.origin} (${s.lifespan}).`,
+      `The Church keeps ${s.name} on ${formatDate(s.month, s.day)} because this life from ${s.origin} (${s.lifespan}) still teaches discipleship today.`,
+    ]),
+    expandFact(s.facts[0], s.name, formatDate(s.month, s.day)),
+    pick(seed + 1, [
+      `${s.titleHook} is the angle most Catholics look for when they open a page about ${bare}.`,
+      `If you only remember one line about ${bare}, remember this: ${s.titleHook}.`,
+      `${s.titleHook} — that is the shorthand families and RCIA teams use for ${bare}.`,
+    ]),
+    `As patron of ${patrons}, ${bare} is asked for intercession in needs that match that patronage; the sections below unpack history, vocation, and practical observance for ${formatDate(s.month, s.day)}.`
   );
 }
 
 function buildPersonEarlyLife(s) {
+  const seed = seedOf(s);
+  const bare = primaryName(s.name);
   return joinSentences(
-    `${primaryName(s.name)} belongs to the history of ${s.origin} during ${s.lifespan}.`,
-    s.facts[1],
-    `Hagiography preserves both documented events and pious memory; the Church canonizes saints when their holiness is clear, not when every anecdote is verified like a modern biography.`,
-    `Geography and era matter: knowing where this saint lived helps readers understand the political, religious, and economic pressures that shaped choices of courage, poverty, or exile.`
+    pick(seed, [
+      `${bare}'s story is rooted in ${s.origin}, across the years ${s.lifespan}.`,
+      `To understand ${bare}, start with place and time: ${s.origin}, ${s.lifespan}.`,
+      `The setting of ${s.origin} during ${s.lifespan} explains pressures ${bare} faced long before later legends.`,
+    ]),
+    expandFact(s.facts[1], s.name, formatDate(s.month, s.day)),
+    pick(seed + 3, [
+      `Sources mix chronicles, liturgical memory, and later devotion; the Church still presents ${bare} as a model of holiness even when minor anecdotes remain debated.`,
+      `Not every anecdote about ${bare} is equally documented, yet the core virtues the Church praises are stable enough for feast-day preaching.`,
+      `Modern readers should expect a mix of history and pious tradition when studying ${bare}; what matters for faith is the pattern of fidelity the calendar hands on.`,
+    ]),
+    `Knowing that landscape — language, rulers, poverty or privilege in ${s.origin} — keeps ${bare} from becoming a floating icon detached from real cost.`
   );
 }
 
 function buildPersonVocation(s) {
+  const seed = seedOf(s);
+  const bare = primaryName(s.name);
+  const vocationLine = {
+    martyr: `${bare}'s vocation climaxed in blood witness when fidelity to Christ became a public crime.`,
+    confessor: `${bare}'s vocation unfolded in preaching, pastoral care, and perseverance under long responsibility rather than a single dramatic hour.`,
+    virgin: `${bare}'s vocation centered on consecrated chastity, contemplative prayer, and often the founding or reform of communities.`,
+    doctor: `${bare}'s vocation was intellectual charity — writing and teaching so the Church could confess the faith without confusion.`,
+    apostle: `${bare}'s vocation was missionary: announcing Christ and ordering young churches where the Gospel was new.`,
+    memorial: `${bare}'s vocation looked ordinary from outside — daily fidelity that the Church later recognized as extraordinary.`,
+    feast: `${bare}'s vocation is held up publicly so the Church can imitate concrete holiness, not abstract ideals.`,
+    solemnity: `On this solemnity the Church proclaims a saving mystery that shaped ${bare}'s path of discipleship.`,
+  }[s.category] || `${bare}'s vocation was faithful service to Christ and neighbor in the concrete duties of ${s.origin}.`;
+
   return joinSentences(
-    `The heart of ${primaryName(s.name)}'s vocation was ${VOCATION_FOCUS[s.category] || "faithful service to Christ and neighbor"}.`,
-    s.facts[2],
-    `Sanctity here was not a single heroic hour but a pattern — prayer, sacraments, repentance, and love repeated until death.`,
-    `Readers discerning their own call can ask which virtue in this life they most need: ${s.patronOf[0] ? `perhaps something connected to ${s.patronOf[0]}` : "perseverance under ordinary trials"}.`
+    vocationLine,
+    expandFact(s.facts[2], s.name, formatDate(s.month, s.day)),
+    pick(seed + 5, [
+      `The pattern behind the headlines is familiar: sacraments, repentance, charity, and courage repeated until death.`,
+      `Strip away later art and you still find prayer, the Church's worship, and love of neighbor at the center of ${bare}'s decisions.`,
+      `What the calendar preserves is not celebrity but a repeatable Christian shape — worship of God and mercy toward people.`,
+    ]),
+    s.patronOf[0]
+      ? `Anyone discerning a call connected to ${s.patronOf[0]} can ask: which virtue of ${bare} do I lack most this week?`
+      : `Anyone discerning a vocation can ask which virtue of ${bare} is most missing in ordinary duties this week.`
   );
 }
 
 function buildPersonHistoricalContext(s) {
+  const seed = seedOf(s);
+  const bare = primaryName(s.name);
   return joinSentences(
-    s.facts[3],
-    `Assigning ${primaryName(s.name)} to ${formatDate(s.month, s.day)} lets the whole Church remember this witness on the same day each year — a rhythm older than national holidays.`,
-    `When you read about this saint in ${formatDate(s.month, s.day)}, you join Catholics in every time zone who opened missals, school religion classes, and family prayer books for the same feast.`
+    expandFact(s.facts[3], s.name, formatDate(s.month, s.day)),
+    pick(seed, [
+      `Fixing ${bare} on ${formatDate(s.month, s.day)} synchronizes memory worldwide: the same date for missals, schools, and family prayer.`,
+      `${formatDate(s.month, s.day)} is how the Roman calendar refuses to let ${bare} become a private hobby of specialists.`,
+      `Because ${bare} is assigned to ${formatDate(s.month, s.day)}, parishes can plan music, schools can plan lessons, and households can plan a simple remembrance.`,
+    ]),
+    pick(seed + 7, [
+      `That shared date is older than modern national holidays and still quieter than them — which is part of its power.`,
+      `In a noisy news cycle, a fixed feast for ${bare} is a small act of Christian timekeeping.`,
+      `When Catholics on different continents open the same day's calendar entry for ${bare}, the communion of saints becomes practical, not theoretical.`,
+    ])
   );
 }
 
 function buildPersonMiracles(s) {
+  const seed = seedOf(s);
   const patrons = patronList(s.patronOf);
+  const bare = primaryName(s.name);
   return joinSentences(
-    `Catholics turn to ${primaryName(s.name)} because intercession is real in the communion of saints — those in heaven remain members of the Body of Christ.`,
-    `Patron of ${patrons}, this saint is a frequent choice for novenas, parish festivals, and quiet prayers at kitchen tables.`,
-    `Shrines and relics associated with ${primaryName(s.name)} continue to draw pilgrims; local customs (foods, processions, school plays) keep memory alive for children who may never read a formal biography.`
+    pick(seed, [
+      `Devotion to ${bare} rests on the communion of saints: those who see God face to face still love the Church on earth.`,
+      `Catholics ask ${bare} to pray with them because heaven is not a retirement from the Body of Christ.`,
+      `Turning to ${bare} is not bypassing Jesus; it is asking a friend of Jesus to plead for needs we carry.`,
+    ]),
+    `As patron of ${patrons}, ${bare} is a natural companion for novenas, parish festivals, and quiet kitchen-table intentions that match those causes.`,
+    pick(seed + 2, [
+      `Where shrines or relics of ${bare} exist, pilgrims still arrive looking for conversion as much as consolation.`,
+      `Local foods, processions, and school plays about ${bare} hand the story to children who may never open a thick biography.`,
+      `Art and hymnody about ${bare} keep the memory sensory — something eyes and ears can learn before theology books do.`,
+    ]),
+    `On ${formatDate(s.month, s.day)}, even a short visit to a statue or image of ${bare} can become a deliberate act of communion rather than nostalgia.`
   );
 }
 
 function buildPersonPatronages(s) {
-  const patrons = s.patronOf;
+  const seed = seedOf(s);
+  const patrons = patronList(s.patronOf);
+  const bare = primaryName(s.name);
   return joinSentences(
-    `${s.name} is invoked especially by those connected to ${patronList(patrons)}.`,
-    `Patronage is not magic: the Church teaches that saints pray for us; they do not replace Christ.`,
-    `On ${formatDate(s.month, s.day)}, name one intention aloud, pray an Our Father and Hail Mary, and perform one work of mercy linked to this saint's example.`,
-    `Families sometimes choose a patron at baptism or confirmation; returning to that saint's feast day each year renews the bond.`
+    `${s.name} is especially invoked by people whose lives touch ${patrons}.`,
+    pick(seed, [
+      `Catholic teaching is clear: saints intercede; they do not replace the mediation of Christ.`,
+      `Patronage names a friendship in heaven, not a superstition that bypasses the Cross.`,
+      `To call ${bare} “patron” is to ask for prayer, not to treat holiness like a lucky charm.`,
+    ]),
+    `A simple ${formatDate(s.month, s.day)} practice: name one intention aloud, pray an Our Father and Hail Mary, then do one work of mercy that mirrors ${bare}'s charity.`,
+    pick(seed + 4, [
+      `Baptism and confirmation patrons become lifelong companions when families return to this feast each year.`,
+      `If ${bare} is your confirmation name, ${formatDate(s.month, s.day)} is a yearly checkup on the promises that name implies.`,
+      `Parishes named for ${bare} can treat this date as a soft “patronal day” even when it is only a memorial.`,
+    ])
   );
 }
 
 function buildPersonLegacy(s) {
+  const seed = seedOf(s);
+  const bare = primaryName(s.name);
   return joinSentences(
-    `${primaryName(s.name)} remains in missals, art, and parish names because holiness still attracts a world tired of cynicism.`,
-    `Teachers can use this feast for a five-minute virtue lesson; pastors can mention the saint in the homily when the calendar aligns with local devotion.`,
-    `The legacy is pastoral: a life that already reached heaven and now helps others get there.`
+    pick(seed, [
+      `${bare} survives in missals, church titles, and art because concrete holiness still draws people tired of cynicism.`,
+      `The lasting imprint of ${bare} is pastoral: a finished race that now encourages others still on the road.`,
+      `What endures from ${bare} is less a brand than a usable example — courage, purity, teaching, or mercy depending on the life.`,
+    ]),
+    pick(seed + 1, [
+      `A five-minute classroom mention on ${formatDate(s.month, s.day)} beats a forgotten unit buried in May.`,
+      `Homilists who name ${bare} when the calendar aligns give the faithful a person, not only a principle.`,
+      `Parents can treat ${formatDate(s.month, s.day)} as a micro-feast: one story, one prayer, one act of kindness.`,
+    ]),
+    `Guide Catholic keeps this profile online so English-speaking Catholics can find ${bare} quickly when ${formatDate(s.month, s.day)} arrives — or when a need connected to ${patronList(s.patronOf)} suddenly becomes personal.`
   );
 }
 
 function buildPersonHowToHonor(s) {
+  const seed = seedOf(s);
   const patrons = patronList(s.patronOf);
+  const bare = primaryName(s.name);
   return joinSentences(
-    `Attend Mass on ${formatDate(s.month, s.day)} if possible — even a weekday memorial is a public act of communion with the whole Church.`,
-    `Read one paragraph about ${primaryName(s.name)} aloud at dinner and ask who needs prayer for matters related to ${patrons}.`,
-    `Choose one concrete act: visit a shrine online or in person, donate to a cause this saint cared about, or pray a decade of the Rosary for someone struggling.`,
-    `If you cannot attend church, read the saint's entry in the Roman Martyrology or a trusted Catholic encyclopedia and make an act of spiritual communion.`
+    pick(seed, [
+      `If your schedule allows, attend Mass on ${formatDate(s.month, s.day)}; even a quiet weekday memorial joins you to the universal Church remembering ${bare}.`,
+      `Make Mass the centerpiece of ${formatDate(s.month, s.day)} when possible — the Eucharist is how Catholics most fittingly honor ${bare}.`,
+      `Prioritize the liturgy on ${formatDate(s.month, s.day)}; everything else is optional decoration around that center.`,
+    ]),
+    `At home, read one short paragraph about ${bare} and pray for someone whose struggle relates to ${patrons}.`,
+    pick(seed + 6, [
+      `Add one concrete deed: a donation, a visit, a decade of the Rosary, or a message of reconciliation offered in ${bare}'s spirit.`,
+      `Choose a single act that ${bare} would recognize — mercy toward the poor, defense of truth, or hidden fidelity.`,
+      `Keep the observance small enough to repeat next year; sustainable memory beats an exhausting one-off celebration.`,
+    ]),
+    `If church is impossible that day, read ${bare} in the Roman Martyrology or a trusted Catholic reference, then make an act of spiritual communion and return to the sacraments when you can.`
   );
 }
 
-// --- Liturgical feasts on the saint calendar (Nativity, solemnities) ---
+// --- Liturgical feasts on the saint calendar ---
 
 function buildLiturgicalIntro(s) {
+  const seed = seedOf(s);
   return joinSentences(
-    `${formatDate(s.month, s.day)} on the Catholic calendar centers on ${s.name} — ${s.titleHook}.`,
-    s.facts[0],
-    `This is not merely a historical anniversary but a solemn proclamation of faith celebrated in every Roman Rite parish that keeps the General Roman Calendar.`,
-    `The sections below treat Scripture, doctrine, liturgy, and family observance separately so each adds new information.`
+    pick(seed, [
+      `${formatDate(s.month, s.day)} centers on ${s.name}: ${s.titleHook}.`,
+      `The Catholic calendar sets ${s.name} on ${formatDate(s.month, s.day)} — ${s.titleHook}.`,
+      `On ${formatDate(s.month, s.day)} the Roman Rite proclaims ${s.name}, summarized as ${s.titleHook}.`,
+    ]),
+    expandFact(s.facts[0], s.name, formatDate(s.month, s.day)),
+    pick(seed + 2, [
+      `This is liturgical proclamation, not a museum anniversary: parishes that keep the General Roman Calendar preach and sing what the day reveals.`,
+      `Roman Rite communities treat the date as living doctrine — prayed, not merely remembered.`,
+      `The feast asks for faith now: what God has done is celebrated so believers can entrust him again.`,
+    ]),
+    `Below, Scripture-memory, doctrine, Mass shape, and household practice are separated so each section adds something ${s.name} uniquely requires.`
   );
 }
 
 function buildLiturgicalHistory(s) {
+  const seed = seedOf(s);
   return joinSentences(
-    s.facts[1],
-    s.facts[2],
-    `The date ${formatDate(s.month, s.day)} places this mystery in the Church's annual cycle so believers rehearse salvation history rather than reading it once and moving on.`,
-    `Lex orandi, lex credendi — the way the Church prays on this day is the way she teaches what she believes.`
+    expandFact(s.facts[1], s.name, formatDate(s.month, s.day)),
+    expandFact(s.facts[2], s.name, formatDate(s.month, s.day)),
+    pick(seed, [
+      `Placing the mystery on ${formatDate(s.month, s.day)} forces annual rehearsal — salvation history learned by returning, not by cramming once.`,
+      `${formatDate(s.month, s.day)} is how the Church refuses to let this mystery become a one-time seminar.`,
+      `The calendar date is a catechetical technology older than textbooks: repeat ${s.name} every year until it shapes instinct.`,
+    ])
   );
 }
 
 function buildLiturgicalTheology(s) {
+  const seed = seedOf(s);
   return joinSentences(
-    s.facts[3],
-    `Theology here is doxology: Catholics praise God for what he has done, not only study it.`,
-    `Preachers on ${formatDate(s.month, s.day)} connect this feast to baptism, Eucharist, and moral life — showing that liturgy and ethics are one piece.`,
-    `${s.titleHook} gives catechists a single sentence children can remember long after details fade.`
+    expandFact(s.facts[3], s.name, formatDate(s.month, s.day)),
+    pick(seed, [
+      `Doctrine on this day is meant to become praise: Catholics thank God for the deed the feast names.`,
+      `The point is doxology before debate — worship first, then explanation.`,
+      `Good preaching on ${formatDate(s.month, s.day)} ties the mystery to baptismal identity and Eucharistic life, not only to feelings.`,
+    ]),
+    `${s.titleHook} remains a one-line catechesis children can carry after the decorations come down.`
   );
 }
 
 function buildLiturgicalCelebration(s) {
+  const seed = seedOf(s);
   return joinSentences(
-    `Parishes mark ${formatDate(s.month, s.day)} with proper readings, prayers, and often festive music when rubrics allow.`,
-    `Check your parish bulletin for Mass times; solemnities may include Gloria, Creed, and extended processions or blessings.`,
-    `In the United States, when this date is a Holy Day of Obligation, Catholics plan travel and work schedules around Mass — a countercultural witness in itself.`
+    pick(seed, [
+      `Expect proper readings and orations for ${s.name} on ${formatDate(s.month, s.day)}; musicians follow the Ordo when festive options appear.`,
+      `Parish bulletins usually list extra Masses or blessings when ${formatDate(s.month, s.day)} carries solemn weight.`,
+      `Gloria, Creed, and fuller ceremonial appear when rank and rubrics allow — check locally rather than assuming every year looks identical.`,
+    ]),
+    `In the United States, if diocesan law makes the date a Holy Day of Obligation, planning travel around Mass becomes part of the witness.`,
+    `Arrive a few minutes early: silence before the opening hymn is often the difference between “checking a box” and receiving the feast.`
   );
 }
 
 function buildLiturgicalDevotion(s) {
+  const seed = seedOf(s);
   return joinSentences(
-    `Home customs on ${formatDate(s.month, s.day)} should echo the sanctuary: Scripture before meals, candles, hymns, or charitable giving tied to the mystery celebrated.`,
-    `Ethnic parishes enrich the feast with foods and processions; the unity of faith expresses itself in legitimate diversity.`,
-    `Avoid reducing the day to sentiment alone — the Church calls for conversion, joy, and mission flowing from what God has revealed.`
+    pick(seed, [
+      `At home on ${formatDate(s.month, s.day)}, let Scripture, a candle, or a hymn echo what the sanctuary proclaimed about ${s.name}.`,
+      `Household customs should point to the same mystery as Mass — not invent a parallel religion of crafts alone.`,
+      `Foods and processions from ethnic parishes can enrich ${formatDate(s.month, s.day)} when they stay tethered to the liturgy.`,
+    ]),
+    `Charity tied to the feast — a gift, a visit, a forgiven grudge — keeps ${s.name} from collapsing into sentiment.`,
+    `The Church asks for conversion and mission flowing from revelation, not nostalgia for childhood aesthetics.`
   );
 }
 
 function buildLiturgicalPatronages(s) {
   const patrons = patronList(s.patronOf);
   return joinSentences(
-    `Devotion on this day often entrusts ${patrons} to the intercession of ${primaryName(s.name)} and the whole communion of saints.`,
-    `Pray the Collect of the day from the Roman Missal — it condenses the Church's intention in authoritative language.`,
-    `Families can bless children, renew baptismal promises, or read the Gospel account associated with this feast before bedtime.`
+    `Intentions on this day often place ${patrons} under the care of ${primaryName(s.name)} and the wider communion of saints.`,
+    `Pray the Collect from the Roman Missal if you have a missal or online text — it is the Church's own summary of what to ask.`,
+    `Families can renew baptismal promises, bless children, or read the related Gospel passage before bed on ${formatDate(s.month, s.day)}.`
   );
 }
 
 function buildLiturgicalLegacy(s) {
+  const seed = seedOf(s);
   return joinSentences(
-    `Every generation re-encounters ${s.name} on ${formatDate(s.month, s.day)} with new questions — suffering, hope, family fracture, or cultural hostility to faith.`,
-    `The feast answers by pointing to God's action, not human achievement.`,
-    `That is why calendar feasts remain among the most durable teachers in Catholic life: they return whether or not smartphones remind us.`
+    pick(seed, [
+      `Each generation meets ${s.name} on ${formatDate(s.month, s.day)} with new wounds — grief, anxiety, family fracture, or cultural pressure against faith.`,
+      `${formatDate(s.month, s.day)} keeps returning whether or not apps remind us; that stubbornness is part of Catholic formation.`,
+      `The feast answers modern questions by pointing to God's action named in ${s.name}, not to human self-improvement slogans.`,
+    ]),
+    `Guide Catholic publishes this guide so English readers can prepare the day with substance — Scripture, meaning, and practice — instead of last-minute generic quotes.`
   );
 }
 
 function buildLiturgicalHowToHonor(s) {
   return joinSentences(
-    `Begin with Mass when obligation or schedule allows; arrive early for silence before the opening hymn.`,
-    `Read the day's Gospel the night before and discuss one phrase at table — formation beats elaborate programs.`,
-    `Extend celebration through the octave or season when rubrics provide one; do not collapse the mystery into a single hour.`,
-    `Perform one work of mercy: visit the sick, donate food, or forgive a family grudge as a living response to the feast.`
+    `Begin with Mass when schedule or obligation allows; silence before the liturgy is already a gift on ${formatDate(s.month, s.day)}.`,
+    `Read the Gospel the night before and choose one phrase to carry into the day.`,
+    `If an octave or extended season belongs to this mystery, do not crush the celebration into a single hurried hour.`,
+    `Close with one work of mercy — visiting the sick, sharing food, or reconciling a relationship — as a lived Amen to ${s.name}.`
   );
 }
 

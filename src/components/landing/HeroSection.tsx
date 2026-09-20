@@ -56,11 +56,12 @@ export function HeroSection() {
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
-            <button onClick={() => document.getElementById("como-funciona")?.scrollIntoView({
-            behavior: "smooth"
-          })} className="text-primary font-medium hover:underline flex items-center gap-2">
-              How does it work?
-            </button>
+            <Link
+              to="/blog/"
+              className="text-primary font-medium hover:underline flex items-center gap-2"
+            >
+              Browse free guides
+            </Link>
           </div>
 
           {/* Trust Indicators */}

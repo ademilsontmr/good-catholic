@@ -49,6 +49,12 @@ export function Navbar() {
               Blog
             </Link>
             <Link
+              to="/about/"
+              className="text-text-muted hover:text-text transition-colors"
+            >
+              About
+            </Link>
+            <Link
               to="/daily-verses"
               className="text-text-muted hover:text-text transition-colors"
             >

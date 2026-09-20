@@ -59,39 +59,27 @@ function whenPhrase(f) {
     : `observed each year on ${f.dateLabel}`;
 }
 
-const SEASON_WHY = {
-  Advent:
-    "Advent interrupts the rush toward consumption with prophecy, silence, and longing — skills almost no secular app teaches.",
-  Christmas:
-    "When retail Christmas ends on December 26, the Church's Christmas season continues, insisting that incarnation is not a one-day sale but a mystery worth an octave.",
-  Lent:
-    "Culture offers detox programs; Lent offers repentance, almsgiving, and prayer rooted in baptism — a far deeper reset than any wellness trend.",
-  "Holy Week":
-    "Holy Week refuses to let the Passion be reduced to a long weekend; the Church walks day by day through betrayal, cross, and tomb.",
-  Easter:
-    "Easter proclaims that death is not the final word — a claim smartphones and headlines challenge hourly.",
-  Pentecost:
-    "Pentecost reminds a fragmented world that the Spirit creates communion, not merely individual spirituality.",
-  "Ordinary Time":
-    "Ordinary Time is when discipleship is practiced without seasonal spotlight — the steady work of living what Christmas and Easter proclaim.",
-};
+function feastSeed(f) {
+  let h = f.sortOrder * 17;
+  for (const ch of f.slug) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return h;
+}
 
-const SEASON_CELEBRATE = {
-  Advent:
-    "Keep Advent penitential unless the day is Gaudete Sunday; violet tones and restrained festivity help children feel the season's arc toward Christmas.",
-  Christmas:
-    "During the Christmas season, extend celebration beyond a single meal — display the crèche through Epiphany and keep Christmas hymns in family prayer.",
-  Lent:
-    "Honor Lenten fast and abstinence on the days the Church requires; even festive memorials within Lent retain a sober tone unless the rubrics specify otherwise.",
-  "Holy Week":
-    "Holy Week calls for clearing unnecessary commitments so you can attend the Triduum liturgies that cannot be replicated at home.",
-  Easter:
-    "The fifty days of Easter favor joy, alleluia, and mercy — resist collapsing the season back into ordinary routines on Easter Monday.",
-  Pentecost:
-    "The Pentecost novena and confirmandi in many parishes make this season ideal for praying explicitly for the gifts of the Holy Spirit.",
-  "Ordinary Time":
-    "Use Ordinary Time to build one sustainable habit — daily Gospel reading, a weekly holy hour, or regular confession.",
-};
+function pick(seed, variants) {
+  return variants[seed % variants.length];
+}
+
+function expandFeastFact(fact, f) {
+  return joinSentences(
+    fact,
+    pick(feastSeed(f) + fact.length, [
+      `That detail is what most Catholics actually search when they type “${f.shortName}” into a browser.`,
+      `Keep this fact in view when explaining ${f.shortName} to children or RCIA candidates — specificity beats slogans.`,
+      `Homilists and parents can build an entire short talk from this single concrete point about ${f.shortName}.`,
+      `It is the kind of precision that separates a useful feast guide from recycled seasonal filler.`,
+    ])
+  );
+}
 
 function buildDirectAnswer(f) {
   const holyDay =
@@ -106,98 +94,185 @@ function buildDirectAnswer(f) {
 }
 
 function buildIntro(f) {
+  const seed = feastSeed(f);
   return joinSentences(
-    `${f.titleHook} — that is the spiritual lens Catholics use when ${f.shortName} arrives each year in the ${f.season} season.`,
-    `This guide answers what the feast means, what happens at Mass, which traditions American families keep, and how the day fits the wider liturgical calendar.`,
-    f.facts[1]
+    pick(seed, [
+      `${f.titleHook} — that is the spiritual key Catholics reach for when ${f.shortName} arrives in ${f.season}.`,
+      `When ${f.shortName} comes around in the ${f.season} season, ${f.titleHook} names what the day is for.`,
+      `${f.shortName} sits inside ${f.season} with a clear purpose: ${f.titleHook}.`,
+    ]),
+    pick(seed + 1, [
+      `This Guide Catholic page focuses on meaning, Mass shape, U.S. family customs, and how ${f.shortName} fits the wider liturgical year.`,
+      `Below you will find Scripture roots, theology, liturgical notes, and practical ways American households keep ${f.shortName}.`,
+      `Rather than a generic seasonal essay, this guide stays locked on ${f.name} — its readings, rank, and lived practice.`,
+    ]),
+    expandFeastFact(f.facts[1], f)
   );
 }
 
 function buildScriptureAndTradition(f) {
+  const seed = feastSeed(f);
   return joinSentences(
-    `Scripture and Tradition anchor ${f.shortName}; the Church does not celebrate arbitrary anniversaries.`,
-    f.facts[2],
-    f.facts[3],
-    `The Roman Missal's prayers for this day translate doctrine into speech the assembly can pray together — a catechism sung and spoken.`,
-    `When homilists connect the readings to current events, they follow a patristic habit: the Bible is always read in light of Christ and the Church he founded.`
+    pick(seed, [
+      `${f.shortName} is anchored in Scripture and living Tradition; the Church does not invent feast days as branding exercises.`,
+      `What Catholics celebrate on ${f.shortName} is received faith — biblical memory handed on in the Church's worship.`,
+      `Remove Scripture and Tradition and ${f.shortName} collapses into a themed Sunday; with them, it becomes proclamation.`,
+    ]),
+    expandFeastFact(f.facts[2], f),
+    expandFeastFact(f.facts[3], f),
+    pick(seed + 3, [
+      `The Roman Missal's collects and prefaces for ${f.shortName} already catechize: doctrine prayed aloud by the assembly.`,
+      `Reading the proper orations for ${f.shortName} before Mass is one of the fastest ways to grasp what the Church wants believed that day.`,
+      `When a homilist ties the readings of ${f.shortName} to present wounds, that is the patristic habit — Christ proclaimed in the Church he founded.`,
+    ])
   );
 }
 
 function buildBiblicalRoots(f) {
+  const seed = feastSeed(f);
   const eraNote = {
-    Advent: "Advent sermons from the fourth century already sounded themes of watchfulness that modern parishes still preach.",
-    Christmas: "Christmas homilies of St. Leo the Great and St. Augustine shaped how the West understands the Incarnation.",
-    Lent: "Lenten catechesis in the early Church prepared catechumens for baptism at Easter — a pattern RCIA still mirrors.",
-    "Holy Week": "Holy Week liturgies developed in Jerusalem pilgrimage practice before spreading to Rome and the world.",
-    Easter: "Easter is the feast of feasts because the Resurrection is the cornerstone of Christian faith (1 Cor 15:14).",
-    Pentecost: "Pentecost reverses Babel: one Spirit, many tongues, one Church.",
-    "Ordinary Time": "Ordinary Time unfolds the public ministry of Christ Sunday by Sunday in semi-continuous Gospels.",
+    Advent: pick(seed, [
+      "Fourth-century Advent preaching already stressed watchfulness — the same chord modern parishes still strike.",
+      "Advent's biblical spine is prophecy and promise: Isaiah's hope meeting the Baptist's urgency.",
+      "The season trains desire; ${f.shortName} is one of the calendar's tools for that training.",
+    ].map((t) => t.replace("${f.shortName}", f.shortName))),
+    Christmas: pick(seed, [
+      "Christmas preaching from St. Leo and St. Augustine still shapes how the West names the Incarnation.",
+      "The Nativity cycle insists God entered history in a body — ${f.shortName} keeps that claim concrete.".replace("${f.shortName}", f.shortName),
+      "Biblical infancy narratives and Johannine prologue together ground what ${f.shortName} celebrates.".replace("${f.shortName}", f.shortName),
+    ]),
+    Lent: pick(seed, [
+      "Early Lenten catechesis prepared candidates for Easter baptism — RCIA still echoes that pattern around days like ${f.shortName}.".replace("${f.shortName}", f.shortName),
+      "Lent's Scriptures of repentance and covenant renew the baptismal identity ${f.shortName} also serves.".replace("${f.shortName}", f.shortName),
+      "The desert, the commandments, and the call to convert form the biblical weather around ${f.shortName}.".replace("${f.shortName}", f.shortName),
+    ]),
+    "Holy Week": pick(seed, [
+      "Holy Week's shape grew from Jerusalem pilgrimage before Rome exported it worldwide — ${f.shortName} is part of that inheritance.".replace("${f.shortName}", f.shortName),
+      "Passion narratives read slowly across the week refuse to let ${f.shortName} become a vague religious mood.".replace("${f.shortName}", f.shortName),
+      "The Church walks day by day through betrayal, Cross, and tomb; ${f.shortName} is one station on that path.".replace("${f.shortName}", f.shortName),
+    ]),
+    Easter: pick(seed, [
+      "Easter stands on 1 Corinthians 15:14 — if Christ is not raised, preaching is empty; ${f.shortName} shares that claim.".replace("${f.shortName}", f.shortName),
+      "Resurrection appearances and empty-tomb accounts supply the biblical fuel for ${f.shortName}.".replace("${f.shortName}", f.shortName),
+      "Fifty days of alleluia keep the biblical shock of Easter from collapsing into a single brunch.".replace("${f.shortName}", f.shortName),
+    ]),
+    Pentecost: pick(seed, [
+      "Acts 2 is the biblical engine of Pentecost: one Spirit, many tongues, one Church — ${f.shortName} draws from that fire.".replace("${f.shortName}", f.shortName),
+      "Babel reversed is not a slogan; it is the mission ${f.shortName} still announces.".replace("${f.shortName}", f.shortName),
+      "Confirmation catechesis leans on Pentecost texts that also illuminate ${f.shortName}.".replace("${f.shortName}", f.shortName),
+    ]),
+    "Ordinary Time": pick(seed, [
+      "Ordinary Time unfolds Christ's public ministry Sunday by Sunday; ${f.shortName} borrows that steady Gospel weather.".replace("${f.shortName}", f.shortName),
+      "Without Christmas or Easter fireworks, ${f.shortName} still asks for discipleship in the semi-continuous readings.".replace("${f.shortName}", f.shortName),
+      "The biblical gift of Ordinary Time is patience — ${f.shortName} participates in that long obedience.".replace("${f.shortName}", f.shortName),
+    ]),
   }[f.season];
 
   return joinSentences(
-    eraNote || `The ${f.season} season gives ${f.shortName} its liturgical color and context.`,
-    `Historians of liturgy trace how local churches kept memory alive until feasts entered the universal calendar.`,
-    `When you celebrate ${f.shortName}, you stand in continuity with communities that preserved faith through persecution, migration, and renewal.`
+    eraNote || `The ${f.season} season supplies color, readings, and mood for ${f.shortName}.`,
+    pick(seed + 5, [
+      `Liturgical historians show how local churches kept memory until observances like ${f.shortName} entered wider calendars.`,
+      `Celebrating ${f.shortName} places you in continuity with communities that guarded faith through persecution and renewal.`,
+      `You are not inventing piety on ${f.shortName}; you are entering a stream older than your parish founding date.`,
+    ])
   );
 }
 
 function buildTheology(f) {
+  const seed = feastSeed(f);
   const rankNote = {
-    solemnity: "Solemnities proclaim mysteries at the heart of the Creed — worthy of Gloria, Creed, and the Church's highest ceremonial.",
-    feast: "Feasts of the Lord or the Blessed Virgin highlight particular facets of Christ's work or Mary's cooperation in salvation.",
-    memorial: "Memorials insert a saint or mystery into the seasonal flow of prayer, teaching that holiness takes concrete form in real lives.",
-    season: "Seasonal milestones orient the entire year — they teach Catholics how to wait, rejoice, repent, or persevere.",
-    devotion: "Calendar devotions keep doctrine tactile — candles, processions, and novenas that children can see and remember.",
-    holy_week: "Holy Week theology is Christological and paschal: every day discloses a facet of the one saving Passion.",
-    triduum: "Triduum theology is Eucharistic and paschal — baptism, sacrifice, and resurrection held in three inseparable days.",
+    solemnity: "Solemnities carry Creed-level weight — Gloria, Creed, and the Church's fuller ceremonial when rubrics allow.",
+    feast: "Feasts of the Lord or Mary spotlight particular facets of salvation without diluting the Sunday mystery.",
+    memorial: "Memorials insert a saint or mystery into seasonal prayer, proving holiness has names and dates.",
+    season: "Seasonal milestones teach Catholics how to wait, rejoice, repent, or persevere across months.",
+    devotion: "Calendar devotions make doctrine tactile — candles, processions, and novenas children can remember.",
+    holy_week: "Holy Week theology is Christological and paschal: each day discloses a facet of one Passion.",
+    triduum: "Triduum theology is Eucharistic and paschal — baptism, sacrifice, and resurrection held together.",
   }[f.rank];
 
   return joinSentences(
-    `Liturgy and doctrine are inseparable: what Catholics celebrate on ${f.shortName}, they are invited to believe more deeply.`,
-    f.facts[0],
+    pick(seed, [
+      `What Catholics celebrate on ${f.shortName}, they are invited to believe more deeply — liturgy and doctrine refuse to split.`,
+      `${f.shortName} is not seasonal décor; it is an annual invitation to let a revealed mystery reshape conscience.`,
+      `The theological claim of ${f.shortName} is enacted first at the altar, then explained in classrooms and homes.`,
+    ]),
+    expandFeastFact(f.facts[0], f),
     rankNote,
-    `Catechists can build one session from the collect and Gospel alone; parents can explain the feast with a single sentence drawn from ${f.titleHook}.`,
-    `The day is not nostalgia — it is the Church's annual invitation to let this mystery reshape conscience and hope.`
+    pick(seed + 2, [
+      `Catechists can build a session from the collect and Gospel alone; parents can explain the day with ${f.titleHook}.`,
+      `If you need one sentence for children, use ${f.titleHook} and then point to one symbol at Mass.`,
+      `${f.titleHook} is already a portable catechesis — unpack it rather than replacing it with vague inspiration.`,
+    ])
   );
 }
 
 function buildLiturgy(f) {
   const notes = f.liturgyNotes.map(ensurePeriod).join(" ");
   const moveableNote = f.isMoveable
-    ? "Because the date is moveable, musicians and sacristans confirm the Ordo entry each year before printing worship aids."
-    : `The fixed date (${f.dateLabel}) allows parishes to publish music lists and minister schedules well in advance.`;
+    ? "Because the date moves, musicians and sacristans should confirm the Ordo before printing worship aids."
+    : `The fixed date (${f.dateLabel}) lets parishes publish music and minister schedules early.`;
 
   return joinSentences(
     `${f.name} is celebrated in the ${f.season} season with ${f.liturgicalColor} vestments unless rubrics direct otherwise.`,
     notes,
-    `The Roman Missal assigns proper collects and prefaces that belong only to this observance — worth reading aloud at home before Mass.`,
+    `Proper collects and prefaces belong to ${f.shortName} — worth reading aloud at home before Mass.`,
     moveableNote,
-    `Participating consciously — following the Roman Missal responses, listening to the homily, and noting one phrase from the Eucharistic Prayer — transforms attendance from routine into formation.`
+    pick(feastSeed(f), [
+      `Conscious participation means following the responses, hearing the homily, and carrying one line from the Eucharistic Prayer into the week.`,
+      `Treat the Missal texts of ${f.shortName} as the day's syllabus; everything else is enrichment.`,
+      `Arrive early enough to notice the color, the Gloria (or its absence), and the preface — those cues preach before the sermon starts.`,
+    ])
   );
 }
 
 function buildTraditions(f) {
+  const seed = feastSeed(f);
   return joinSentences(
-    `Popular devotions for ${f.shortName} extend worship into the home without replacing the Eucharist.`,
+    pick(seed, [
+      `Popular customs for ${f.shortName} extend worship into kitchens and sidewalks without replacing the Eucharist.`,
+      `Home and parish traditions around ${f.shortName} should feel like aftershocks of Mass, not competitors to it.`,
+      `The best ${f.shortName} customs are repeatable: simple enough for next year, rich enough to form memory.`,
+    ]),
     formatList(f.traditions),
-    `Multicultural parishes in the United States often add regional customs — foods, processions, or blessings — that express the same faith in different accents.`,
-    `The Church evaluates piety by harmony with liturgy and Scripture; longstanding customs that pass that test deserve pride of place in family life.`,
-    `Choose one or two practices your household can repeat annually; depth beats novelty every time.`
+    pick(seed + 1, [
+      `Multicultural U.S. parishes often add regional foods, processions, or blessings that confess the same faith in different accents.`,
+      `Immigrant communities frequently keep ${f.shortName} with melodies and recipes that catechize as effectively as lectures.`,
+      `Ask older parishioners how they kept ${f.shortName}; recovered memory is often better than imported novelty.`,
+    ]),
+    `Choose one or two practices your household can sustain; depth on ${f.shortName} beats a cluttered checklist.`
   );
 }
 
 function buildHowToCelebrate(f) {
+  const seed = feastSeed(f);
   const massNote = f.holyDayUS
-    ? `${f.shortName} is a Holy Day of Obligation in the United States. Schedule Mass on the feast day or an authorized vigil, and verify your diocese's calendar if the date falls near a weekend.`
-    : `${f.shortName} is not a U.S. Holy Day of Obligation, but attending Mass when your parish offers it remains the most fitting centerpiece of the day.`;
+    ? `${f.shortName} is a Holy Day of Obligation in the United States. Schedule Mass on the feast or an authorized vigil, and verify diocesan rules if the date falls near a weekend.`
+    : `${f.shortName} is not a U.S. Holy Day of Obligation, yet Mass remains the most fitting centerpiece when your parish offers it.`;
+
+  const seasonTip = {
+    Advent: "Keep Advent penitential unless the day is Gaudete Sunday; violet tones and restrained festivity help children feel the arc toward Christmas.",
+    Christmas: "Extend Christmas joy beyond one meal — keep the crèche through Epiphany and leave Christmas hymns in family prayer.",
+    Lent: "Honor required fast and abstinence; even festive memorials inside Lent keep a sober tone unless rubrics say otherwise.",
+    "Holy Week": "Clear nonessential commitments so Triduum liturgies can take priority — they cannot be replaced by private devotion alone.",
+    Easter: "Let alleluia and mercy mark the fifty days; resist collapsing Easter back into ordinary routine on Monday.",
+    Pentecost: "Pray explicitly for the Spirit's gifts; confirmation seasons make this especially natural.",
+    "Ordinary Time": "Build one sustainable habit — daily Gospel reading, a weekly holy hour, or regular confession — around days like this.",
+  }[f.season] || "Build one sustainable faith habit that outlasts the feast day itself.";
 
   return joinSentences(
     massNote,
-    `Read the day's Gospel the night before and bring one question to church — engagement starts before the opening hymn.`,
+    pick(seed, [
+      `Read the day's Gospel the night before and bring one question to church.`,
+      `Preview the readings for ${f.shortName} so the liturgy is recognition, not surprise.`,
+      `Let children hear one Gospel sentence at dinner the evening before ${f.shortName}.`,
+    ]),
     f.traditions[0],
-    SEASON_CELEBRATE[f.season] || SEASON_CELEBRATE["Ordinary Time"],
-    `If illness or travel prevents church attendance, read the Mass texts from the USCCB website, pray a decade of the Rosary, and make an act of spiritual communion — then return in person when possible.`,
-    `Invite children to draw or narrate one symbol from the feast; ${f.season} formation sticks when it is simple and repeated.`
+    seasonTip,
+    pick(seed + 4, [
+      `If illness or travel blocks church, pray the Mass texts from a trusted Catholic source, offer a decade of the Rosary, and make a spiritual communion — then return in person.`,
+      `When you cannot attend, do not invent a private replacement liturgy; use the Church's texts and rejoin the assembly ASAP.`,
+      `Absent from Mass? Keep the bond with Scripture and a simple act of charity tied to ${f.shortName}, then go when you can.`,
+    ])
   );
 }
 
@@ -205,38 +280,86 @@ function buildHolyDay(f) {
   if (f.holyDayUS) {
     return joinSentences(
       `${f.name} binds Catholics in the United States to Mass on the feast itself or at an evening vigil where the diocese permits anticipation.`,
-      `Legitimate excuses — serious illness, caring for infants, impeded travel — remain pastoral realities; priests and parish staff can clarify edge cases.`,
-      `When a solemnity falls on Saturday or Monday, the bishops' conference may transfer or suspend the obligation; always read your diocesan decree for the current year.`,
-      `Even when obligation is dispensed, the feast keeps full liturgical rank: proper readings, Gloria where required, and Creed on solemnities.`,
-      `Confession before major feasts is a classic preparation to receive Communion with a quiet conscience.`
+      `Serious illness, care for infants, and impeded travel remain legitimate pastoral excuses; ask parish staff when unsure.`,
+      `If the solemnity falls on Saturday or Monday, check whether the bishops' conference transfers or suspends obligation that year.`,
+      `Even when obligation is lifted, liturgical rank remains: proper readings, Gloria where required, Creed on solemnities.`,
+      `Confession before major feasts is classic preparation for Communion with a quiet conscience — especially fitting around ${f.shortName}.`
     );
   }
   if (f.rank === "solemnity") {
     return joinSentences(
-      `${f.name} is not listed among U.S. Holy Days of Obligation, yet it retains solemnity rank — the highest ordinary celebration short of Easter and Christmas.`,
-      `Catholics should still prioritize Mass, rest from unnecessary work, and mark the day at home when pastoral schedules allow extra liturgies.`,
+      `${f.name} is not among U.S. Holy Days of Obligation, yet it keeps solemnity rank — among the Church's highest ordinary celebrations.`,
+      `Prioritize Mass, unnecessary work rest, and home marking of the day when extra liturgies are offered.`,
       f.isMoveable
-        ? `Moveable dating means your parish bulletin and the USCCB calendar are the authoritative sources each year.`
-        : `The stable date ${f.dateLabel} makes long-range planning easier for families and RCIA teams.`,
-      `Pastors often add confessions, novenas, or processions when the faithful request them — your presence encourages that ministry.`
+        ? `Moveable dating means the parish bulletin and USCCB calendar are authoritative each year for ${f.shortName}.`
+        : `The stable date ${f.dateLabel} helps families and RCIA teams plan around ${f.shortName}.`,
+      `Your presence encourages pastors who add confessions, novenas, or processions when the faithful ask.`
     );
   }
   return joinSentences(
-    `${f.name} is not a Holy Day of Obligation in the United States but remains spiritually significant within ${f.season}.`,
-    `Many Catholics attend Mass, pray novenas, or keep local customs even without canonical requirement.`,
+    `${f.name} is not a Holy Day of Obligation in the United States, yet it remains spiritually weighty inside ${f.season}.`,
+    `Many Catholics still attend Mass, keep novenas, or honor local customs without canonical requirement.`,
     f.isMoveable
-      ? `Confirm the exact date annually through your parish or diocesan Ordo.`
-      : `Mark ${f.dateLabel} on household calendars as you would a baptism anniversary — a fixed anchor in the year.`,
-    `Catechists frequently build lessons around this date; participating reinforces the Church year rhythm for children and adults alike.`
+      ? `Confirm the exact date yearly through your parish or diocesan Ordo.`
+      : `Mark ${f.dateLabel} on household calendars the way you mark a baptism anniversary.`,
+    `Participating in ${f.shortName} reinforces liturgical-year rhythm for children and adults alike.`
   );
 }
 
 function buildWhyItMatters(f) {
+  const seed = feastSeed(f);
+  const seasonWhy = {
+    Advent: pick(seed, [
+      "Advent interrupts consumption culture with prophecy, silence, and holy longing.",
+      "The season teaches waiting as a Christian skill — something secular calendars rarely reward.",
+      `Violet weeks train hope; ${f.shortName} is one concrete lesson inside that school.`,
+    ]),
+    Christmas: pick(seed, [
+      "Retail Christmas ends on December 26; the Church insists incarnation deserves an octave and more.",
+      `Christmas season claims God entered history — ${f.shortName} keeps that claim from becoming décor.`,
+      "Extending celebration past one morning is itself a catechesis against disposable joy.",
+    ]),
+    Lent: pick(seed, [
+      "Culture sells detox; Lent offers repentance, almsgiving, and prayer rooted in baptism.",
+      `${f.shortName} participates in that deeper reset when kept with honesty.`,
+      "Lenten days refuse self-improvement theater; they ask for conversion before God.",
+    ]),
+    "Holy Week": pick(seed, [
+      "Holy Week refuses to shrink the Passion into a long weekend brand.",
+      `${f.shortName} is one day of that refusal — slow, scriptural, and communal.`,
+      "Walking day by day with Christ is how the Church inoculates against vague spirituality.",
+    ]),
+    Easter: pick(seed, [
+      "Easter proclaims death is not final — a claim headlines challenge hourly.",
+      `${f.shortName} keeps resurrection faith from becoming a single emotional high.`,
+      "Alleluia season is formation for a world that prefers cynicism.",
+    ]),
+    Pentecost: pick(seed, [
+      "Pentecost insists the Spirit creates communion, not isolated spirituality.",
+      `${f.shortName} shares that missionary fire.`,
+      "A fragmented culture needs the Church's language of one Body again.",
+    ]),
+    "Ordinary Time": pick(seed, [
+      "Ordinary Time is discipleship without seasonal spotlight — steady fidelity.",
+      `${f.shortName} belongs to that long obedience of Sundays and weekdays.`,
+      "Holiness here is practiced, not performed for holidays.",
+    ]),
+  }[f.season];
+
   return joinSentences(
-    SEASON_WHY[f.season] || SEASON_WHY["Ordinary Time"],
-    `${f.titleHook} speaks to concrete struggles — grief, gratitude, fear, reconciliation — that do not expire because the calendar turns.`,
-    `Returning to ${f.shortName} each cycle is formation, not redundancy: the mystery is stable, the believer is not.`,
-    `English-speaking Catholics search feast-day guides in huge numbers because they want time sanctified by God, not only managed by apps — the Church's calendar answers that hunger with dates that remember salvation history.`
+    seasonWhy || "The liturgical year sanctifies time so faith is not only managed by apps.",
+    pick(seed + 2, [
+      `${f.titleHook} answers grief when families need hope more than decoration.`,
+      `${f.titleHook} speaks into fear without pretending the calendar erases it.`,
+      `${f.titleHook} names gratitude when abundance makes prayer feel optional.`,
+      `${f.titleHook} opens a door to reconciliation that secular “fresh starts” rarely offer.`,
+    ]),
+    pick(seed + 8, [
+      `Returning to ${f.shortName} each cycle is formation, not redundancy: the mystery is stable; the believer is not.`,
+      `You will meet ${f.shortName} again next year as a different person — that is why repetition is mercy.`,
+      `Guide Catholic keeps this feast guide detailed so English-speaking Catholics can prepare ${f.shortName} with substance, not last-minute generic quotes.`,
+      `Keep ${f.shortName} on your household calendar the way you keep birthdays — as a date that forms identity.`,
+    ])
   );
 }
 

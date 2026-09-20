@@ -101,6 +101,11 @@ export function Footer() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link to="/about/" className="hover:text-button-text transition-colors">
+                  About
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
