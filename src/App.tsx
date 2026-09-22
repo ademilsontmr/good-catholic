@@ -502,6 +502,30 @@ const PresentationOfMaryNovember212026 = lazy(() => import("./pages/blog/Present
 const StAndrewChristmasNovena2026 = lazy(() => import("./pages/blog/StAndrewChristmasNovena2026"));
 const HolySoulsNovenaAllSouls2026 = lazy(() => import("./pages/blog/HolySoulsNovenaAllSouls2026"));
 const StFrancisBlessingOfAnimalsOctober42026 = lazy(() => import("./pages/blog/StFrancisBlessingOfAnimalsOctober42026"));
+const CanCatholicsMarryNonCatholics = lazy(() => import("./pages/blog/CanCatholicsMarryNonCatholics"));
+const CatholicMarriageConvalidation = lazy(() => import("./pages/blog/CatholicMarriageConvalidation"));
+const LivingTogetherBeforeMarriageCatholic = lazy(() => import("./pages/blog/LivingTogetherBeforeMarriageCatholic"));
+const CatholicWeddingVowsText = lazy(() => import("./pages/blog/CatholicWeddingVowsText"));
+const CatholicWeddingRequirementsUsa = lazy(() => import("./pages/blog/CatholicWeddingRequirementsUsa"));
+const HowToPrayWithYourSpouseCatholic = lazy(() => import("./pages/blog/HowToPrayWithYourSpouseCatholic"));
+const WhatIsTheDomesticChurch = lazy(() => import("./pages/blog/WhatIsTheDomesticChurch"));
+const CanADivorcedCatholicRemarry = lazy(() => import("./pages/blog/CanADivorcedCatholicRemarry"));
+const CatholicChurchTeachingOnIVF = lazy(() => import("./pages/blog/CatholicChurchTeachingOnIVF"));
+const Ephesians5MarriageCatholic = lazy(() => import("./pages/blog/Ephesians5MarriageCatholic"));
+const CatholicNewlywedFirstYear = lazy(() => import("./pages/blog/CatholicNewlywedFirstYear"));
+const CatholicWeddingBibleReadings = lazy(() => import("./pages/blog/CatholicWeddingBibleReadings"));
+const CatholicOnlineDating = lazy(() => import("./pages/blog/CatholicOnlineDating"));
+const AmIReadyToGetMarriedCatholic = lazy(() => import("./pages/blog/AmIReadyToGetMarriedCatholic"));
+const ReasonsNotToMarryCatholic = lazy(() => import("./pages/blog/ReasonsNotToMarryCatholic"));
+const WhatIsPreCana = lazy(() => import("./pages/blog/WhatIsPreCana"));
+const HowLongShouldCatholicEngagementBe = lazy(() => import("./pages/blog/HowLongShouldCatholicEngagementBe"));
+const CatholicWeddingPlanningChecklist = lazy(() => import("./pages/blog/CatholicWeddingPlanningChecklist"));
+const HowToFightFairCatholicMarriage = lazy(() => import("./pages/blog/HowToFightFairCatholicMarriage"));
+const CatholicTeachingOnMaritalIntimacy = lazy(() => import("./pages/blog/CatholicTeachingOnMaritalIntimacy"));
+const CatholicMarriageLaterYears = lazy(() => import("./pages/blog/CatholicMarriageLaterYears"));
+const HowToTakeYoungChildrenToMass = lazy(() => import("./pages/blog/HowToTakeYoungChildrenToMass"));
+const CatholicChurchAndAdoption = lazy(() => import("./pages/blog/CatholicChurchAndAdoption"));
+const CaringForAgingParentsCatholic = lazy(() => import("./pages/blog/CaringForAgingParentsCatholic"));
 const GospelReadingToday = lazy(() => import("./pages/blog/GospelReadingToday"));
 const HowToStudyBibleCatholic = lazy(() => import("./pages/blog/HowToStudyBibleCatholic"));
 
@@ -1015,6 +1039,30 @@ export function AppRoutes() {
             <Route path="/blog/st-andrew-christmas-novena-2026/" element={<StAndrewChristmasNovena2026 />} />
             <Route path="/blog/holy-souls-novena-all-souls-2026/" element={<HolySoulsNovenaAllSouls2026 />} />
             <Route path="/blog/st-francis-blessing-of-animals-october-4-2026/" element={<StFrancisBlessingOfAnimalsOctober42026 />} />
+            <Route path="/blog/can-catholics-marry-non-catholics/" element={<CanCatholicsMarryNonCatholics />} />
+            <Route path="/blog/catholic-marriage-convalidation/" element={<CatholicMarriageConvalidation />} />
+            <Route path="/blog/living-together-before-marriage-catholic/" element={<LivingTogetherBeforeMarriageCatholic />} />
+            <Route path="/blog/catholic-wedding-vows/" element={<CatholicWeddingVowsText />} />
+            <Route path="/blog/catholic-wedding-requirements-usa/" element={<CatholicWeddingRequirementsUsa />} />
+            <Route path="/blog/how-to-pray-with-your-spouse-catholic/" element={<HowToPrayWithYourSpouseCatholic />} />
+            <Route path="/blog/what-is-the-domestic-church/" element={<WhatIsTheDomesticChurch />} />
+            <Route path="/blog/can-a-divorced-catholic-get-remarried/" element={<CanADivorcedCatholicRemarry />} />
+            <Route path="/blog/catholic-church-teaching-on-ivf/" element={<CatholicChurchTeachingOnIVF />} />
+            <Route path="/blog/ephesians-5-marriage-catholic/" element={<Ephesians5MarriageCatholic />} />
+            <Route path="/blog/catholic-newlywed-first-year/" element={<CatholicNewlywedFirstYear />} />
+            <Route path="/blog/catholic-wedding-bible-readings/" element={<CatholicWeddingBibleReadings />} />
+            <Route path="/blog/catholic-online-dating/" element={<CatholicOnlineDating />} />
+            <Route path="/blog/am-i-ready-to-get-married-catholic/" element={<AmIReadyToGetMarriedCatholic />} />
+            <Route path="/blog/reasons-not-to-marry-catholic/" element={<ReasonsNotToMarryCatholic />} />
+            <Route path="/blog/what-is-pre-cana/" element={<WhatIsPreCana />} />
+            <Route path="/blog/how-long-should-a-catholic-engagement-be/" element={<HowLongShouldCatholicEngagementBe />} />
+            <Route path="/blog/catholic-wedding-planning-checklist/" element={<CatholicWeddingPlanningChecklist />} />
+            <Route path="/blog/how-to-fight-fair-catholic-marriage/" element={<HowToFightFairCatholicMarriage />} />
+            <Route path="/blog/catholic-teaching-on-marital-intimacy/" element={<CatholicTeachingOnMaritalIntimacy />} />
+            <Route path="/blog/catholic-marriage-in-the-later-years/" element={<CatholicMarriageLaterYears />} />
+            <Route path="/blog/how-to-take-young-children-to-mass/" element={<HowToTakeYoungChildrenToMass />} />
+            <Route path="/blog/catholic-church-and-adoption/" element={<CatholicChurchAndAdoption />} />
+            <Route path="/blog/caring-for-aging-parents-catholic/" element={<CaringForAgingParentsCatholic />} />
             <Route path="/blog/gospel-reading-today-catholic/" element={<GospelReadingToday />} />
             <Route path="/blog/how-to-study-the-bible-catholic/" element={<HowToStudyBibleCatholic />} />
 
