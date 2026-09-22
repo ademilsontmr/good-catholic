@@ -14,7 +14,7 @@ export default function StFrancisFeastDayOctober42026Guide() {
   return (
     <>
       <Helmet>
-        <title>{"St Francis Feast Day October 4, 2026 | Guide Catholic"}</title>
+        <title>{"St. Francis Feast Day 2026 (Oct 4): Blessing of Animals | Guide Catholic"}</title>
         <meta name="description" content={"St. Francis of Assisi on October 4, 2026 — blessing of pets, Franciscan spirituality, and how U.S. Catholics celebrate the feast."} />
         <meta name="keywords" content={"st francis feast day 2026, blessing of the animals 2026, october 4 st francis, st francis of assisi feast"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-francis-feast-day-october-4-2026-guide/" />

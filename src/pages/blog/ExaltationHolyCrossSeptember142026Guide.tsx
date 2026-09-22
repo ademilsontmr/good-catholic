@@ -14,9 +14,9 @@ export default function ExaltationHolyCrossSeptember142026Guide() {
   return (
     <>
       <Helmet>
-        <title>{"Exaltation of the Holy Cross September 14, 2026 | Guide Catholic"}</title>
-        <meta name="description" content={"Exaltation of the Holy Cross on September 14, 2026 — history of the feast, veneration, Mass, and what U.S. Catholics do on this solemnity."} />
-        <meta name="keywords" content={"exaltation of the holy cross 2026, feast of the cross september 14, holy cross day 2026, triumph of the cross catholic"} />
+        <title>{"Holy Cross Day 2026 (Sept 14): Exaltation of the Cross Guide | Guide Catholic"}</title>
+        <meta name="description" content={"Holy Cross Day / Exaltation of the Holy Cross 2026 — September 14 date, meaning, Mass, veneration, and how U.S. Catholics keep the feast."} />
+        <meta name="keywords" content={"holy cross day 2026, exaltation of the holy cross 2026, feast of the holy cross 2026, exaltation of the cross 2026, holy cross feast 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/exaltation-of-holy-cross-september-14-2026-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>

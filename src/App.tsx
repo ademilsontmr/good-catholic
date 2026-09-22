@@ -491,6 +491,17 @@ const AllSoulsDayNovember22026Guide = lazy(() => import("./pages/blog/AllSoulsDa
 const Advent2026StartDateWhenDoesAdventBegin = lazy(() => import("./pages/blog/Advent2026StartDateWhenDoesAdventBegin"));
 const ImmaculateConceptionDecember82026HolyDay = lazy(() => import("./pages/blog/ImmaculateConceptionDecember82026HolyDay"));
 const OurLadyOfGuadalupeDecember122026Feast = lazy(() => import("./pages/blog/OurLadyOfGuadalupeDecember122026Feast"));
+const WhenIsMichaelmas2026 = lazy(() => import("./pages/blog/WhenIsMichaelmas2026"));
+const ListOfSaintsAndWhatTheyProtect = lazy(() => import("./pages/blog/ListOfSaintsAndWhatTheyProtect"));
+const StJudeNovenaPrayer9DaysGuide = lazy(() => import("./pages/blog/StJudeNovenaPrayer9DaysGuide"));
+const StJosephNovenaBuyingHouse2026 = lazy(() => import("./pages/blog/StJosephNovenaBuyingHouse2026"));
+const StSimonAndJudeFeastOctober282026 = lazy(() => import("./pages/blog/StSimonAndJudeFeastOctober282026"));
+const ChristTheKingSunday2026Usa = lazy(() => import("./pages/blog/ChristTheKingSunday2026Usa"));
+const CatholicThanksgivingPrayerUsa2026 = lazy(() => import("./pages/blog/CatholicThanksgivingPrayerUsa2026"));
+const PresentationOfMaryNovember212026 = lazy(() => import("./pages/blog/PresentationOfMaryNovember212026"));
+const StAndrewChristmasNovena2026 = lazy(() => import("./pages/blog/StAndrewChristmasNovena2026"));
+const HolySoulsNovenaAllSouls2026 = lazy(() => import("./pages/blog/HolySoulsNovenaAllSouls2026"));
+const StFrancisBlessingOfAnimalsOctober42026 = lazy(() => import("./pages/blog/StFrancisBlessingOfAnimalsOctober42026"));
 const GospelReadingToday = lazy(() => import("./pages/blog/GospelReadingToday"));
 const HowToStudyBibleCatholic = lazy(() => import("./pages/blog/HowToStudyBibleCatholic"));
 
@@ -993,6 +1004,17 @@ export function AppRoutes() {
             <Route path="/blog/advent-2026-start-date-when-does-advent-begin/" element={<Advent2026StartDateWhenDoesAdventBegin />} />
             <Route path="/blog/immaculate-conception-december-8-2026-holy-day-usa/" element={<ImmaculateConceptionDecember82026HolyDay />} />
             <Route path="/blog/our-lady-of-guadalupe-december-12-2026-feast-day-usa/" element={<OurLadyOfGuadalupeDecember122026Feast />} />
+            <Route path="/blog/when-is-michaelmas-2026/" element={<WhenIsMichaelmas2026 />} />
+            <Route path="/blog/list-of-saints-and-what-they-protect/" element={<ListOfSaintsAndWhatTheyProtect />} />
+            <Route path="/blog/st-jude-novena-prayer-9-days-guide/" element={<StJudeNovenaPrayer9DaysGuide />} />
+            <Route path="/blog/st-joseph-novena-for-buying-a-house/" element={<StJosephNovenaBuyingHouse2026 />} />
+            <Route path="/blog/st-simon-and-jude-feast-day-october-28-2026/" element={<StSimonAndJudeFeastOctober282026 />} />
+            <Route path="/blog/christ-the-king-sunday-2026-usa/" element={<ChristTheKingSunday2026Usa />} />
+            <Route path="/blog/catholic-thanksgiving-prayer-usa-2026/" element={<CatholicThanksgivingPrayerUsa2026 />} />
+            <Route path="/blog/presentation-of-mary-november-21-2026/" element={<PresentationOfMaryNovember212026 />} />
+            <Route path="/blog/st-andrew-christmas-novena-2026/" element={<StAndrewChristmasNovena2026 />} />
+            <Route path="/blog/holy-souls-novena-all-souls-2026/" element={<HolySoulsNovenaAllSouls2026 />} />
+            <Route path="/blog/st-francis-blessing-of-animals-october-4-2026/" element={<StFrancisBlessingOfAnimalsOctober42026 />} />
             <Route path="/blog/gospel-reading-today-catholic/" element={<GospelReadingToday />} />
             <Route path="/blog/how-to-study-the-bible-catholic/" element={<HowToStudyBibleCatholic />} />
 

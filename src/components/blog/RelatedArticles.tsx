@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import { blogPosts } from "@/pages/BlogPage";
+import { blogPosts } from "@/data/blogPosts";
 import { getCanonicalCategory } from "@/lib/blogCategories";
 
 function getRelatedPosts(currentSlug: string, count = 3) {

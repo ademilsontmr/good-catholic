@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, BookOpen } from "lucide-react";
-import { blogPosts } from "@/pages/BlogPage";
+import { blogPosts } from "@/data/blogPosts";
 
 // Pick 3 random articles on each render (seeded by day so it changes daily)
 function getDailyArticles(count = 3) {
