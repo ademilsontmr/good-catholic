@@ -526,6 +526,9 @@ const CatholicMarriageLaterYears = lazy(() => import("./pages/blog/CatholicMarri
 const HowToTakeYoungChildrenToMass = lazy(() => import("./pages/blog/HowToTakeYoungChildrenToMass"));
 const CatholicChurchAndAdoption = lazy(() => import("./pages/blog/CatholicChurchAndAdoption"));
 const CaringForAgingParentsCatholic = lazy(() => import("./pages/blog/CaringForAgingParentsCatholic"));
+const WhatIsTransubstantiation = lazy(() => import("./pages/blog/WhatIsTransubstantiation"));
+const WhoCanReceiveHolyCommunion = lazy(() => import("./pages/blog/WhoCanReceiveHolyCommunion"));
+const CatholicEucharisticFast = lazy(() => import("./pages/blog/CatholicEucharisticFast"));
 const GospelReadingToday = lazy(() => import("./pages/blog/GospelReadingToday"));
 const HowToStudyBibleCatholic = lazy(() => import("./pages/blog/HowToStudyBibleCatholic"));
 
@@ -1063,6 +1066,9 @@ export function AppRoutes() {
             <Route path="/blog/how-to-take-young-children-to-mass/" element={<HowToTakeYoungChildrenToMass />} />
             <Route path="/blog/catholic-church-and-adoption/" element={<CatholicChurchAndAdoption />} />
             <Route path="/blog/caring-for-aging-parents-catholic/" element={<CaringForAgingParentsCatholic />} />
+            <Route path="/blog/what-is-transubstantiation/" element={<WhatIsTransubstantiation />} />
+            <Route path="/blog/who-can-receive-holy-communion/" element={<WhoCanReceiveHolyCommunion />} />
+            <Route path="/blog/catholic-eucharistic-fast/" element={<CatholicEucharisticFast />} />
             <Route path="/blog/gospel-reading-today-catholic/" element={<GospelReadingToday />} />
             <Route path="/blog/how-to-study-the-bible-catholic/" element={<HowToStudyBibleCatholic />} />
 

@@ -5523,6 +5523,42 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-rose-600"
   },
   {
+    id: 1487,
+    slug: "what-is-transubstantiation",
+    title: "What Is Transubstantiation? The Catholic Doctrine of the Eucharist",
+    excerpt: "What is transubstantiation? The Catholic teaching that bread and wine become the Body and Blood of Christ, while the appearances remain — Trent, the Catechism, and John 6.",
+    date: "2026-09-27",
+    readTime: "22 min",
+    category: "Sacraments",
+    icon: Sun,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1488,
+    slug: "who-can-receive-holy-communion",
+    title: "Who Can Receive Holy Communion? Catholic Rules Explained",
+    excerpt: "Who can receive Holy Communion — Catholics in a state of grace, when non-Catholics may receive, and why Confession comes before Communion after mortal sin.",
+    date: "2026-09-27",
+    readTime: "22 min",
+    category: "Sacraments",
+    icon: Church,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1489,
+    slug: "catholic-eucharistic-fast",
+    title: "How Long Do Catholics Fast Before Communion?",
+    excerpt: "The Catholic Eucharistic fast is one hour before Communion. Water and medicine do not break it; the sick and elderly may fast about fifteen minutes.",
+    date: "2026-09-27",
+    readTime: "20 min",
+    category: "Sacraments",
+    icon: Clock,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-700"
+  },
+  {
     id: 1480,
     slug: "how-to-fight-fair-catholic-marriage",
     title: "How to Fight Fair in a Catholic Marriage",
