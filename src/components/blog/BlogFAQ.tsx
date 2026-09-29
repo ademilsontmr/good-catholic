@@ -11,9 +11,10 @@ interface BlogFAQProps {
   faqs: FAQItem[];
   /** When set, FAQ answers get automatic internal links (e.g. pope biographies) */
   linkAnswersSlug?: string;
+  title?: string;
 }
 
-export function BlogFAQ({ faqs, linkAnswersSlug }: BlogFAQProps) {
+export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Questions" }: BlogFAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const schemaData = {
@@ -37,7 +38,7 @@ export function BlogFAQ({ faqs, linkAnswersSlug }: BlogFAQProps) {
       />
       <div className="bg-background-muted/50 border border-border rounded-2xl p-8 my-12">
         <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-6">
-          Frequently Asked Questions
+          {title}
         </h2>
         <div className="space-y-3">
           {faqs.map((faq, index) => (

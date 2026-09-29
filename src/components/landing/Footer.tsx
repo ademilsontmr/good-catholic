@@ -70,6 +70,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link to="/random-bible-verse/" className="hover:text-button-text transition-colors">
+                  Random Bible Verse
+                </Link>
+              </li>
+              <li>
                 <Link to="/lockscreen" className="hover:text-button-text transition-colors">
                   Lockscreens
                 </Link>

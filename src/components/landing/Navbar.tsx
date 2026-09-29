@@ -61,6 +61,12 @@ export function Navbar() {
               Daily Verse
             </Link>
             <Link
+              to="/random-bible-verse/"
+              className="text-text-muted hover:text-text transition-colors"
+            >
+              Random Bible Verse
+            </Link>
+            <Link
               to="/donate/"
               className="text-red-700 hover:text-red-800 font-semibold transition-colors"
             >

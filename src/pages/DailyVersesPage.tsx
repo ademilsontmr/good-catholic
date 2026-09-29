@@ -1,138 +1,52 @@
+import { useState } from "react";
 import { Helmet } from "react-helmet-async";
-import { Link } from "react-router-dom";
-import { BookOpen, ArrowRight, RefreshCw, Heart, Share2 } from "lucide-react";
+import { Link, useParams } from "react-router-dom";
+import { BookOpen, ArrowRight, RefreshCw, Share2, Shuffle, Copy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { copyForDate } from "@/data/dailyVerseReflections";
+import { faqsForDate } from "@/data/dailyVerseFaqs";
+import { catholicVerses as verses, chapterUrl } from "@/data/catholicVerses";
 import { toast } from "sonner";
 
-// 365 verses — one per day of the year
-const verses = [
-  { text: "I can do all things through Christ who strengthens me.", ref: "Philippians 4:13", theme: "Strength" },
-  { text: "The Lord is my shepherd; I shall not want.", ref: "Psalm 23:1", theme: "Trust" },
-  { text: "For God so loved the world that he gave his only Son.", ref: "John 3:16", theme: "Love" },
-  { text: "Be still and know that I am God.", ref: "Psalm 46:10", theme: "Peace" },
-  { text: "Ask and it will be given to you; seek and you will find.", ref: "Matthew 7:7", theme: "Prayer" },
-  { text: "Trust in the Lord with all your heart and lean not on your own understanding.", ref: "Proverbs 3:5", theme: "Faith" },
-  { text: "The Lord is my light and my salvation — whom shall I fear?", ref: "Psalm 27:1", theme: "Courage" },
-  { text: "Come to me, all you who are weary and burdened, and I will give you rest.", ref: "Matthew 11:28", theme: "Rest" },
-  { text: "For I know the plans I have for you, declares the Lord, plans to prosper you.", ref: "Jeremiah 29:11", theme: "Hope" },
-  { text: "Love is patient, love is kind. It does not envy, it does not boast.", ref: "1 Corinthians 13:4", theme: "Love" },
-  { text: "Do not be anxious about anything, but in everything by prayer present your requests to God.", ref: "Philippians 4:6", theme: "Peace" },
-  { text: "Your word is a lamp to my feet and a light to my path.", ref: "Psalm 119:105", theme: "Guidance" },
-  { text: "He who perseveres to the end will be saved.", ref: "Matthew 24:13", theme: "Perseverance" },
-  { text: "The Lord is near to all who call on him in truth.", ref: "Psalm 145:18", theme: "Prayer" },
-  { text: "You are the light of the world. A city on a hill cannot be hidden.", ref: "Matthew 5:14", theme: "Mission" },
-  { text: "Create in me a clean heart, O God, and renew a right spirit within me.", ref: "Psalm 51:10", theme: "Conversion" },
-  { text: "I am the way, the truth, and the life.", ref: "John 14:6", theme: "Faith" },
-  { text: "Blessed are the pure in heart, for they shall see God.", ref: "Matthew 5:8", theme: "Purity" },
-  { text: "The fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness.", ref: "Galatians 5:22", theme: "Holiness" },
-  { text: "Seek first the kingdom of God and his righteousness, and all these things will be added to you.", ref: "Matthew 6:33", theme: "Priority" },
-  { text: "I am the resurrection and the life. Whoever believes in me will live, even though they die.", ref: "John 11:25", theme: "Hope" },
-  { text: "The Lord is my strength and my shield; my heart trusts in him.", ref: "Psalm 28:7", theme: "Strength" },
-  { text: "Pray without ceasing.", ref: "1 Thessalonians 5:17", theme: "Prayer" },
-  { text: "My flesh is real food and my blood is real drink.", ref: "John 6:55", theme: "Eucharist" },
-  { text: "Behold, I am the handmaid of the Lord; let it be to me according to your word.", ref: "Luke 1:38", theme: "Surrender" },
-  { text: "Do not be overcome by evil, but overcome evil with good.", ref: "Romans 12:21", theme: "Virtue" },
-  { text: "The Lord bless you and keep you; the Lord make his face shine on you.", ref: "Numbers 6:24-25", theme: "Blessing" },
-  { text: "I have come that they may have life, and have it to the full.", ref: "John 10:10", theme: "Life" },
-  { text: "Cast all your anxiety on him because he cares for you.", ref: "1 Peter 5:7", theme: "Trust" },
-  { text: "Whoever eats my flesh and drinks my blood has eternal life.", ref: "John 6:54", theme: "Eucharist" },
-  { text: "You will know the truth, and the truth will set you free.", ref: "John 8:32", theme: "Freedom" },
-  { text: "The Lord is close to the brokenhearted and saves those who are crushed in spirit.", ref: "Psalm 34:18", theme: "Comfort" },
-  { text: "Let your light shine before others, that they may see your good deeds.", ref: "Matthew 5:16", theme: "Witness" },
-  { text: "I am with you always, to the very end of the age.", ref: "Matthew 28:20", theme: "Presence" },
-  { text: "Blessed are the merciful, for they will be shown mercy.", ref: "Matthew 5:7", theme: "Mercy" },
-  { text: "The Lord is good to all; he has compassion on all he has made.", ref: "Psalm 145:9", theme: "Goodness" },
-  { text: "Do not let your hearts be troubled. You believe in God; believe also in me.", ref: "John 14:1", theme: "Peace" },
-  { text: "For where two or three gather in my name, there am I with them.", ref: "Matthew 18:20", theme: "Community" },
-  { text: "Whoever does not love does not know God, because God is love.", ref: "1 John 4:8", theme: "Love" },
-  { text: "The Lord is my rock, my fortress and my deliverer.", ref: "Psalm 18:2", theme: "Protection" },
-  { text: "Blessed are those who hunger and thirst for righteousness, for they will be filled.", ref: "Matthew 5:6", theme: "Holiness" },
-  { text: "I lift up my eyes to the mountains — where does my help come from? My help comes from the Lord.", ref: "Psalm 121:1-2", theme: "Help" },
-  { text: "Repent, for the kingdom of heaven has come near.", ref: "Matthew 4:17", theme: "Conversion" },
-  { text: "God is our refuge and strength, an ever-present help in trouble.", ref: "Psalm 46:1", theme: "Refuge" },
-  { text: "Whoever humbles himself like this child is the greatest in the kingdom of heaven.", ref: "Matthew 18:4", theme: "Humility" },
-  { text: "The Lord your God is with you, the Mighty Warrior who saves.", ref: "Zephaniah 3:17", theme: "Salvation" },
-  { text: "Be strong and courageous. Do not be afraid; do not be discouraged.", ref: "Joshua 1:9", theme: "Courage" },
-  { text: "Taste and see that the Lord is good; blessed is the one who takes refuge in him.", ref: "Psalm 34:8", theme: "Goodness" },
-  { text: "Love the Lord your God with all your heart and with all your soul and with all your mind.", ref: "Matthew 22:37", theme: "Love" },
-  { text: "The peace of God, which transcends all understanding, will guard your hearts.", ref: "Philippians 4:7", theme: "Peace" },
-  { text: "Whoever believes in me, as Scripture has said, rivers of living water will flow from within them.", ref: "John 7:38", theme: "Spirit" },
-  { text: "My grace is sufficient for you, for my power is made perfect in weakness.", ref: "2 Corinthians 12:9", theme: "Grace" },
-  { text: "The Lord is my portion; therefore I will wait for him.", ref: "Lamentations 3:24", theme: "Hope" },
-  { text: "Delight yourself in the Lord, and he will give you the desires of your heart.", ref: "Psalm 37:4", theme: "Joy" },
-  { text: "For the wages of sin is death, but the gift of God is eternal life.", ref: "Romans 6:23", theme: "Salvation" },
-  { text: "Blessed are the peacemakers, for they will be called children of God.", ref: "Matthew 5:9", theme: "Peace" },
-  { text: "The Lord is righteous in all his ways and faithful in all he does.", ref: "Psalm 145:17", theme: "Faithfulness" },
-  { text: "I have been crucified with Christ and I no longer live, but Christ lives in me.", ref: "Galatians 2:20", theme: "Union" },
-  { text: "Come, follow me, and I will send you out to fish for people.", ref: "Matthew 4:19", theme: "Vocation" },
-  { text: "The Lord is compassionate and gracious, slow to anger, abounding in love.", ref: "Psalm 103:8", theme: "Mercy" },
-  { text: "Do not conform to the pattern of this world, but be transformed by the renewing of your mind.", ref: "Romans 12:2", theme: "Conversion" },
-  { text: "Whoever serves me must follow me; and where I am, my servant also will be.", ref: "John 12:26", theme: "Service" },
-  { text: "The Lord is my shepherd; he makes me lie down in green pastures.", ref: "Psalm 23:2", theme: "Rest" },
-  { text: "Blessed are those who mourn, for they will be comforted.", ref: "Matthew 5:4", theme: "Comfort" },
-  { text: "Nothing will be able to separate us from the love of God that is in Christ Jesus.", ref: "Romans 8:39", theme: "Love" },
-  { text: "The Lord watches over you — the Lord is your shade at your right hand.", ref: "Psalm 121:5", theme: "Protection" },
-  { text: "I am the bread of life. Whoever comes to me will never go hungry.", ref: "John 6:35", theme: "Eucharist" },
-  { text: "Rejoice in the Lord always. I will say it again: Rejoice!", ref: "Philippians 4:4", theme: "Joy" },
-  { text: "The Lord is good, a refuge in times of trouble.", ref: "Nahum 1:7", theme: "Refuge" },
-  { text: "Blessed are the poor in spirit, for theirs is the kingdom of heaven.", ref: "Matthew 5:3", theme: "Humility" },
-  { text: "I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit.", ref: "John 15:5", theme: "Union" },
-  { text: "The Lord is my strength and my song; he has given me victory.", ref: "Exodus 15:2", theme: "Victory" },
-  { text: "Whoever wants to be my disciple must deny themselves and take up their cross and follow me.", ref: "Matthew 16:24", theme: "Discipleship" },
-  { text: "The Lord is faithful, and he will strengthen you and protect you from the evil one.", ref: "2 Thessalonians 3:3", theme: "Faithfulness" },
-  { text: "Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine.", ref: "John 15:4", theme: "Union" },
-  { text: "The Lord is my light; whom shall I fear?", ref: "Psalm 27:1", theme: "Courage" },
-  { text: "For everyone who asks receives; the one who seeks finds.", ref: "Matthew 7:8", theme: "Prayer" },
-  { text: "The Lord is near to the brokenhearted and saves the crushed in spirit.", ref: "Psalm 34:18", theme: "Comfort" },
-  { text: "I am the good shepherd. The good shepherd lays down his life for the sheep.", ref: "John 10:11", theme: "Love" },
-  { text: "The Lord is my helper; I will not be afraid.", ref: "Hebrews 13:6", theme: "Courage" },
-  { text: "Blessed is the one who trusts in the Lord, whose confidence is in him.", ref: "Jeremiah 17:7", theme: "Trust" },
-  { text: "The Lord is my salvation; I will trust and not be afraid.", ref: "Isaiah 12:2", theme: "Salvation" },
-  { text: "Do not be afraid, for I am with you; do not be dismayed, for I am your God.", ref: "Isaiah 41:10", theme: "Courage" },
-  { text: "The Lord is gracious and compassionate, slow to anger and rich in love.", ref: "Psalm 145:8", theme: "Mercy" },
-  { text: "I am the resurrection and the life. Whoever believes in me will never die.", ref: "John 11:26", theme: "Eternal Life" },
-  { text: "The Lord is my fortress, my God in whom I trust.", ref: "Psalm 91:2", theme: "Trust" },
-  { text: "Blessed are those who are persecuted because of righteousness, for theirs is the kingdom of heaven.", ref: "Matthew 5:10", theme: "Courage" },
-  { text: "The Lord is my portion in the land of the living.", ref: "Psalm 142:5", theme: "Hope" },
-  { text: "I am the door. If anyone enters by me, he will be saved.", ref: "John 10:9", theme: "Salvation" },
-  { text: "The Lord is my strength and my shield; in him my heart trusts.", ref: "Psalm 28:7", theme: "Trust" },
-  { text: "Whoever drinks the water I give them will never thirst again.", ref: "John 4:14", theme: "Grace" },
-  { text: "The Lord is my rock and my fortress and my deliverer.", ref: "2 Samuel 22:2", theme: "Protection" },
-  { text: "Blessed is the man who walks not in the counsel of the wicked.", ref: "Psalm 1:1", theme: "Wisdom" },
-  { text: "I am the light of the world. Whoever follows me will never walk in darkness.", ref: "John 8:12", theme: "Light" },
-  { text: "The Lord is my shepherd; I lack nothing.", ref: "Psalm 23:1", theme: "Providence" },
-  { text: "Whoever believes and is baptized will be saved.", ref: "Mark 16:16", theme: "Baptism" },
-  { text: "The Lord is my strength; he makes my feet like the feet of a deer.", ref: "Habakkuk 3:19", theme: "Strength" },
-  { text: "Blessed are the gentle, for they will inherit the earth.", ref: "Matthew 5:5", theme: "Meekness" },
-  { text: "I am the Alpha and the Omega, the First and the Last, the Beginning and the End.", ref: "Revelation 22:13", theme: "Eternity" },
-  { text: "The Lord is my shepherd; he restores my soul.", ref: "Psalm 23:3", theme: "Healing" },
-  { text: "Whoever loves me will be loved by my Father, and I too will love them.", ref: "John 14:21", theme: "Love" },
-  { text: "The Lord is my strength and my defense; he has become my salvation.", ref: "Psalm 118:14", theme: "Salvation" },
+const themeArticles: Record<string, { href: string; label: string }> = {
+  Love: { href: "/blog/bible-verses-about-love/", label: "Bible verses about love" },
+  Peace: { href: "/blog/bible-verses-about-peace/", label: "Bible verses about peace" },
+  Strength: { href: "/blog/bible-verses-about-strength/", label: "Bible verses about strength" },
+  Faith: { href: "/blog/bible-verses-about-faith/", label: "Bible verses about faith" },
+  Hope: { href: "/blog/bible-verses-about-hope/", label: "Bible verses about hope" },
+  Prayer: { href: "/blog/bible-verses-about-prayer/", label: "Bible verses about prayer" },
+  Courage: { href: "/blog/bible-verses-about-fear/", label: "Bible verses about fear" },
+  Comfort: { href: "/blog/bible-verses-about-healing/", label: "Bible verses about healing" },
+  Trust: { href: "/blog/bible-verses-about-anxiety/", label: "Bible verses about anxiety" },
+  Protection: { href: "/blog/bible-verses-about-protection/", label: "Bible verses about protection" },
+  Eucharist: { href: "/blog/eucharist-real-presence/", label: "the Real Presence of the Eucharist" },
+};
+
+const faqs = [
+  {
+    question: "What is the Catholic verse of the day?",
+    answer: "It is one short passage of Scripture chosen for this calendar day on Guide Catholic. The verse stays the same for 24 hours, then changes. It is for prayer and memory. It is not a replacement for the readings at Mass.",
+  },
+  {
+    question: "What is the difference between the verse of the day and a random Bible verse?",
+    answer: "The verse of the day is stable until midnight so a household can share the same line. A random Bible verse is a new passage each time you ask for one — useful when you want another text without waiting until tomorrow.",
+  },
+  {
+    question: "Is this the same as the daily Mass readings?",
+    answer: "No. The Lectionary at Mass follows the liturgical calendar and usually includes a first reading, a psalm, and a Gospel. This page offers one Catholic verse of the day for personal prayer, plus links to read the chapter in full.",
+  },
+  {
+    question: "How do I use a daily Bible verse?",
+    answer: "Read it slowly three times, pray one sentence back to God, and carry a short phrase through the day. Catholics often pair a verse with the Sign of the Cross, an Our Father, or a visit to the Blessed Sacrament.",
+  },
+  {
+    question: "Where can I read the full chapter?",
+    answer: "Open the Catholic Bible on Catholic Bible Online and find the book and chapter named in the reference. A single verse is a door. The chapter is the room.",
+  },
 ];
-
-// Get today's verse based on day of year — resets every 24h
-const getTodayVerse = () => {
-  const now = new Date();
-  const start = new Date(now.getFullYear(), 0, 0);
-  const diff = now.getTime() - start.getTime();
-  const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
-  return verses[dayOfYear % verses.length];
-};
-
-// Get surrounding verses for context
-const getSurroundingVerses = (count = 4) => {
-  const now = new Date();
-  const start = new Date(now.getFullYear(), 0, 0);
-  const diff = now.getTime() - start.getTime();
-  const dayOfYear = Math.floor(diff / (1000 * 60 * 60 * 24));
-  const result = [];
-  for (let i = 1; i <= count; i++) {
-    result.push(verses[(dayOfYear + i) % verses.length]);
-  }
-  return result;
-};
 
 const themeColors: Record<string, string> = {
   Love: "bg-rose-100 text-rose-700",
@@ -148,17 +62,96 @@ const themeColors: Record<string, string> = {
   default: "bg-accent/10 text-accent",
 };
 
+function atMidnight(date: Date) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+}
+
+function formatISODate(date: Date) {
+  const day = atMidnight(date);
+  return `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, "0")}-${String(day.getDate()).padStart(2, "0")}`;
+}
+
+function formatLongDate(date: Date) {
+  return atMidnight(date).toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" });
+}
+
+function addDays(date: Date, days: number) {
+  const next = atMidnight(date);
+  next.setDate(next.getDate() + days);
+  return next;
+}
+
+function verseForDate(date: Date) {
+  const day = atMidnight(date);
+  const start = new Date(day.getFullYear(), 0, 0);
+  const dayOfYear = Math.round((day.getTime() - start.getTime()) / 86400000);
+  const index = ((dayOfYear % verses.length) + verses.length) % verses.length;
+  return verses[index];
+}
+
+const ARCHIVE_START = new Date(2026, 8, 29);
+const dailyArchive = Array.from({ length: 100 }, (_, index) => {
+  const date = addDays(ARCHIVE_START, index);
+  return { index, date, iso: formatISODate(date), verse: verseForDate(date) };
+});
+
+const themeIndex = Array.from(
+  verses.reduce((map, verse) => {
+    if (!map.has(verse.theme)) map.set(verse.theme, verse);
+    return map;
+  }, new Map<string, (typeof verses)[number]>()),
+);
+
 export default function DailyVersesPage() {
-  const todayVerse = getTodayVerse();
-  const upcomingVerses = getSurroundingVerses(4);
-  const today = new Date().toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" });
+  const { date: dateParam } = useParams();
+  const entry = dateParam ? dailyArchive.find((day) => day.iso === dateParam) ?? null : null;
+  const invalidDate = Boolean(dateParam) && !entry;
+  const todayIso = formatISODate(new Date());
+  const hubToday = dailyArchive.find((day) => day.iso === todayIso) ?? null;
+  const active = entry ?? hubToday ?? dailyArchive[0];
+  const [randomVerse, setRandomVerse] = useState<(typeof verses)[number] | null>(null);
+  const [themeFilter, setThemeFilter] = useState<string | null>(null);
+  const todayVerse = active.verse;
+  const today = formatLongDate(active.date);
+  const shortDate = active.date.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  const isoDate = active.iso;
+  const isDated = Boolean(entry);
+  const pageUrl = isDated
+    ? `https://guidecatholic.com/daily-verses/${isoDate}/`
+    : "https://guidecatholic.com/daily-verses/";
+  const prevDay = active.index > 0 ? dailyArchive[active.index - 1] : null;
+  const nextDay = active.index < dailyArchive.length - 1 ? dailyArchive[active.index + 1] : null;
+  const upcoming = dailyArchive.slice(active.index + 1, active.index + 8);
+  const quote = todayVerse.text.length > 78 ? `${todayVerse.text.slice(0, 75).trim()}…` : todayVerse.text;
+  const pageTitle = isDated
+    ? `${todayVerse.ref} — Verse of the Day (${shortDate}) | Guide Catholic`
+    : `Verse of the Day (${shortDate}) | Guide Catholic`;
+  const description = `"${quote}" — ${todayVerse.ref}. Catholic verse of the day for ${shortDate}, with a reflection and a prayer.`;
+  const dailyCopy = copyForDate(isoDate, todayVerse.ref);
+  const themeArticle = themeArticles[todayVerse.theme];
+  const filtered = themeFilter ? verses.filter((verse) => verse.theme === themeFilter) : [];
+
+  const drawRandom = () => {
+    let next = verses[Math.floor(Math.random() * verses.length)];
+    if (randomVerse && next.text === randomVerse.text && verses.length > 1) {
+      next = verses[(verses.indexOf(next) + 1) % verses.length];
+    }
+    setRandomVerse(next);
+  };
+
+  const versePlain = `"${todayVerse.text}" — ${todayVerse.ref}`;
+
+  const handleCopy = async () => {
+    await navigator.clipboard.writeText(versePlain);
+    toast.success("Verse copied.");
+  };
 
   const handleShare = async () => {
-    const text = `"${todayVerse.text}" — ${todayVerse.ref}\n\nDaily Catholic Verse from Guide Catholic`;
+    const text = `${versePlain}\n\nDaily Bible Verse from Guide Catholic`;
     if (navigator.share) {
-      await navigator.share({ title: "Daily Catholic Verse", text, url: "https://guidecatholic.com/daily-verses/" });
+      await navigator.share({ title: `${todayVerse.ref} — Verse of the Day`, text, url: pageUrl });
     } else {
-      await navigator.clipboard.writeText(`${text}\nhttps://guidecatholic.com/daily-verses/`);
+      await navigator.clipboard.writeText(`${text}\n${pageUrl}`);
       toast.success("Verse copied to clipboard!");
     }
   };
@@ -168,21 +161,47 @@ export default function DailyVersesPage() {
   return (
     <>
       <Helmet>
-        <title>Daily Catholic Bible Verse — {today} | Guide Catholic</title>
-        <meta name="description" content={`Today's Catholic Bible verse: "${todayVerse.text}" — ${todayVerse.ref}. A new verse every day to strengthen your faith.`} />
-        <meta name="keywords" content="daily catholic bible verse, catholic verse of the day, scripture of the day, daily scripture, catholic daily reading, bible verse today" />
-        <link rel="canonical" href="https://guidecatholic.com/daily-verses/" />
-        <meta property="og:title" content={`Daily Catholic Verse — ${todayVerse.ref}`} />
+        <title>{pageTitle}</title>
+        <meta name="description" content={description} />
+        <meta name="keywords" content="verse of the day, catholic verse of the day, bible verse of the day, daily catholic bible verse, daily scripture, bible verse for today, random bible verse" />
+        <link rel="canonical" href={pageUrl} />
+        <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={`"${todayVerse.text}" — ${todayVerse.ref}`} />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://guidecatholic.com/daily-verses/" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={pageUrl} />
+        <meta property="article:modified_time" content={isoDate} />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "Daily Catholic Bible Verse",
-          "description": `Today's verse: "${todayVerse.text}" — ${todayVerse.ref}`,
-          "url": "https://guidecatholic.com/daily-verses/",
-          "publisher": { "@type": "Organization", "name": "Guide Catholic", "url": "https://guidecatholic.com" }
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://guidecatholic.com/" },
+                { "@type": "ListItem", "position": 2, "name": "Daily Bible Verse", "item": "https://guidecatholic.com/daily-verses/" },
+                ...(isDated ? [{ "@type": "ListItem", "position": 3, "name": todayVerse.ref, "item": pageUrl }] : [])
+              ]
+            },
+            {
+              "@type": "Article",
+              "headline": pageTitle.replace(" | Guide Catholic", ""),
+              "description": description,
+              "dateModified": isoDate,
+              "url": pageUrl,
+              "author": { "@type": "Organization", "name": "Guide Catholic", "url": "https://guidecatholic.com" },
+              "publisher": { "@type": "Organization", "name": "Guide Catholic", "url": "https://guidecatholic.com" },
+              "mainEntityOfPage": pageUrl
+            },
+            {
+              "@type": "ItemList",
+              "name": "Bible verses coming up this week",
+              "itemListElement": upcoming.map((day, index) => ({
+                "@type": "ListItem",
+                "position": index + 1,
+                "name": `${day.verse.ref}: ${day.verse.text}`,
+                "url": `https://guidecatholic.com/daily-verses/${day.iso}/`
+              }))
+            }
+          ]
         })}</script>
       </Helmet>
 
@@ -195,7 +214,15 @@ export default function DailyVersesPage() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link>
               <span>/</span>
-              <span className="text-text">Daily Verses</span>
+              {isDated ? (
+                <>
+                  <Link to="/daily-verses/" className="hover:text-accent">Daily Verses</Link>
+                  <span>/</span>
+                  <span className="text-text">{todayVerse.ref}</span>
+                </>
+              ) : (
+                <span className="text-text">Daily Verses</span>
+              )}
             </nav>
           </div>
         </div>
@@ -204,53 +231,131 @@ export default function DailyVersesPage() {
           <div className="container mx-auto px-4 max-w-3xl">
 
             {/* Page title */}
-            <div className="text-center mb-10">
-              <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-1.5 rounded-full text-sm font-medium mb-4">
-                <BookOpen className="w-4 h-4" />
-                Renews every 24 hours
-              </div>
-              <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-3">
-                Daily Catholic Verse
-              </h1>
-              <p className="text-text-muted">{today}</p>
+            <div className="text-center mb-8">
+              {isDated ? (
+                <>
+                  <p className="text-xs font-semibold tracking-[0.18em] uppercase text-accent mb-3">Catholic Verse of the Day</p>
+                  <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-3">{todayVerse.ref} — Verse of the Day</h1>
+                  <p className="text-text-muted leading-relaxed max-w-xl mx-auto">
+                    Catholic Bible verse for {today}, with reflection, prayer, and a link to the full chapter.
+                  </p>
+                </>
+              ) : (
+                <>
+                  <h1 className="font-display text-4xl md:text-5xl font-bold text-accent mb-3">Daily Bible Verse</h1>
+                  <p className="text-text-muted leading-relaxed max-w-xl mx-auto">
+                    A new Catholic Bible verse every 24 hours, with a reflection, a prayer, and themes you can browse anytime.
+                  </p>
+                  {hubToday && (
+                    <p className="text-sm text-text-muted mt-4">
+                      Stable link for today:{" "}
+                      <Link to={`/daily-verses/${hubToday.iso}/`} className="text-accent font-semibold underline underline-offset-2">
+                        /daily-verses/{hubToday.iso}/
+                      </Link>
+                    </p>
+                  )}
+                </>
+              )}
+              {invalidDate && (
+                <p className="text-sm text-text mt-4">This date is outside the next 100 daily verses. The verse below is today's.</p>
+              )}
             </div>
 
-            {/* TODAY'S VERSE — hero card */}
-            <div className="relative bg-gradient-to-br from-primary via-primary/95 to-accent rounded-3xl p-8 md:p-12 mb-8 text-center overflow-hidden">
-              <div className="absolute inset-0 opacity-5" style={{ backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)", backgroundSize: "30px 30px" }} />
-              <div className="relative z-10">
-                <span className={`inline-block text-xs font-bold px-3 py-1 rounded-full mb-6 ${themeColor}`}>
-                  {todayVerse.theme}
+            <article className="bg-surface border border-border rounded-3xl p-8 md:p-12 mb-8 text-center shadow-sm">
+              <div className="inline-flex rounded-full bg-accent px-4 py-1.5 text-sm font-semibold text-white mb-3">
+                {today}
+              </div>
+              <div className="mb-8">
+                <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full ${themeColor}`}>
+                  Theme: {todayVerse.theme}
                 </span>
-                <blockquote className="font-display text-2xl md:text-3xl font-bold text-white leading-relaxed mb-6">
-                  "{todayVerse.text}"
-                </blockquote>
-                <cite className="text-white/70 text-lg font-medium not-italic">— {todayVerse.ref}</cite>
-
-                <div className="flex items-center justify-center gap-3 mt-8">
-                  <Button
-                    onClick={handleShare}
-                    className="bg-white text-primary hover:bg-white/90 gap-2 font-semibold shadow-md"
-                  >
-                    <Share2 className="w-4 h-4" />
-                    Share this verse
-                  </Button>
-                </div>
               </div>
-            </div>
+              <blockquote className="font-display text-2xl md:text-3xl italic text-text leading-relaxed mb-6">
+                “{todayVerse.text}”
+              </blockquote>
+              <p className="text-text-muted text-lg mb-10">— {todayVerse.ref}</p>
 
-            {/* Reflection prompt */}
-            <div className="bg-surface border border-border rounded-2xl p-6 mb-8">
-              <h2 className="font-display text-lg font-bold text-text mb-3 flex items-center gap-2">
-                <Heart className="w-5 h-5 text-accent" />
-                Reflection for Today
+              <div className="text-left border-t border-border pt-8">
+                <h2 className="font-display text-xl font-bold text-text mb-3">Reflection on {todayVerse.ref}</h2>
+                <p className="text-text leading-relaxed">{dailyCopy.reflection}</p>
+                {themeArticle && (
+                  <p className="text-text leading-relaxed mt-4">
+                    More on this theme:{" "}
+                    <Link to={themeArticle.href} className="text-accent font-semibold underline underline-offset-2 hover:text-accent/80">
+                      {themeArticle.label}
+                    </Link>
+                    .
+                  </p>
+                )}
+              </div>
+
+              <div className="text-left mt-8 border-l-4 border-accent bg-accent/5 rounded-r-xl p-5">
+                <p className="text-text leading-relaxed">
+                  {dailyCopy.prayer}
+                </p>
+              </div>
+
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-8">
+                <a href={chapterUrl(todayVerse.ref)} target="_blank" rel="noopener noreferrer">
+                  <Button className="gap-2">
+                    <BookOpen className="w-4 h-4" />
+                    Read Full Chapter
+                  </Button>
+                </a>
+                <Button onClick={handleCopy} variant="outline" className="gap-2">
+                  <Copy className="w-4 h-4" />
+                  Copy Verse
+                </Button>
+              </div>
+
+              <div className="border-t border-border mt-10 pt-8">
+                <h2 className="font-display text-xl font-bold text-text mb-2">Share God's Word with Friends</h2>
+                <p className="text-text-muted mb-4">Send today's verse to someone who needs it.</p>
+                <Button onClick={handleShare} variant="outline" className="gap-2">
+                  <Share2 className="w-4 h-4" />
+                  Share
+                </Button>
+              </div>
+
+              <div className="grid grid-cols-3 gap-2 border-t border-border mt-8 pt-6 text-sm">
+                {prevDay ? (
+                  <Link to={`/daily-verses/${prevDay.iso}/`} className="text-left text-accent font-medium hover:underline">
+                    ← Previous day
+                  </Link>
+                ) : <span />}
+                <Link to="/daily-verses/" className="text-accent font-medium hover:underline">
+                  Today's hub
+                </Link>
+                {nextDay ? (
+                  <Link to={`/daily-verses/${nextDay.iso}/`} className="text-right text-accent font-medium hover:underline">
+                    Next day →
+                  </Link>
+                ) : <span />}
+              </div>
+            </article>
+
+            <div id="random-bible-verse" className="bg-surface border border-border rounded-2xl p-6 mb-8">
+              <h2 className="font-display text-xl font-bold text-text mb-3 flex items-center gap-2">
+                <Shuffle className="w-5 h-5 text-accent" />
+                Random Bible Verse
               </h2>
               <p className="text-text-muted leading-relaxed mb-4">
-                Take a moment to sit with this verse. Read it slowly, three times. Ask yourself: <em className="text-text">What is God saying to me through these words today?</em> How does this verse speak to where you are in your faith journey right now?
+                The verse of the day stays fixed for 24 hours. A random Bible verse is a different passage each time you ask — or open the{" "}
+                <Link to="/random-bible-verse/" className="text-accent font-semibold underline underline-offset-2">
+                  random Bible verse generator
+                </Link>
+                .
               </p>
-              <p className="text-text-muted leading-relaxed">
-                The saints taught us that Scripture is a living word — it speaks differently to each person, in each season of life. Let this verse be your companion throughout the day.
-              </p>
+              {randomVerse && (
+                <blockquote className="border-l-4 border-accent pl-4 mb-4">
+                  <p className="font-display text-xl text-text leading-relaxed">"{randomVerse.text}"</p>
+                  <cite className="text-accent font-medium not-italic">— {randomVerse.ref} · {randomVerse.theme}</cite>
+                </blockquote>
+              )}
+              <Button onClick={drawRandom} variant="outline" className="gap-2">
+                <Shuffle className="w-4 h-4" />
+                {randomVerse ? "Another random Bible verse" : "Show a random Bible verse"}
+              </Button>
             </div>
 
             {/* Quiz CTA */}
@@ -280,25 +385,22 @@ export default function DailyVersesPage() {
                 Coming Up This Week
               </h2>
               <div className="space-y-3">
-                {upcomingVerses.map((v, i) => {
-                  const date = new Date();
-                  date.setDate(date.getDate() + i + 1);
-                  const dayLabel = date.toLocaleDateString("en-US", { weekday: "long", month: "short", day: "numeric" });
-                  const color = themeColors[v.theme] || themeColors.default;
+                {upcoming.map((day) => {
+                  const color = themeColors[day.verse.theme] || themeColors.default;
                   return (
-                    <div key={i} className="bg-surface border border-border rounded-xl p-4 flex items-start gap-4">
+                    <Link key={day.iso} to={`/daily-verses/${day.iso}/`} className="bg-surface border border-border rounded-xl p-4 flex items-start gap-4 hover:border-accent/40">
                       <div className="text-center min-w-[52px]">
-                        <p className="text-xs text-text-muted">{date.toLocaleDateString("en-US", { weekday: "short" })}</p>
-                        <p className="font-bold text-lg text-text">{date.getDate()}</p>
+                        <p className="text-xs text-text-muted">{day.date.toLocaleDateString("en-US", { weekday: "short" })}</p>
+                        <p className="font-bold text-lg text-text">{day.date.getDate()}</p>
                       </div>
                       <div className="flex-1 min-w-0">
                         <div className="flex items-center gap-2 mb-1">
-                          <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${color}`}>{v.theme}</span>
+                          <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${color}`}>{day.verse.theme}</span>
                         </div>
-                        <p className="text-sm text-text italic line-clamp-2">"{v.text}"</p>
-                        <p className="text-xs text-accent font-medium mt-1">— {v.ref}</p>
+                        <p className="text-sm text-text italic line-clamp-2">"{day.verse.text}"</p>
+                        <p className="text-xs text-accent font-medium mt-1">— {day.verse.ref}</p>
                       </div>
-                    </div>
+                    </Link>
                   );
                 })}
               </div>
@@ -306,13 +408,49 @@ export default function DailyVersesPage() {
 
             {/* Why daily verses */}
             <div className="bg-surface border border-border rounded-2xl p-6 mb-8">
-              <h2 className="font-display text-xl font-bold text-text mb-4">Why Read Scripture Daily?</h2>
-              <div className="space-y-3 text-text-muted text-sm leading-relaxed">
+              <h2 className="font-display text-xl font-bold text-text mb-4">Why Read a Daily Catholic Bible Verse?</h2>
+              <div className="space-y-3 text-text leading-relaxed">
                 <p>The Catholic Church has always encouraged the faithful to nourish themselves with Sacred Scripture. The Second Vatican Council taught that "ignorance of Scripture is ignorance of Christ" (St. Jerome, quoted in Dei Verbum).</p>
-                <p>Daily Scripture reading — even just one verse — trains the mind to think with God, softens the heart, and gradually transforms how we see the world. The saints who read Scripture daily were the saints who loved most deeply.</p>
-                <p>Bookmark this page and return every day. Each verse is chosen to accompany you through the liturgical year, drawing from the Psalms, the Gospels, the Letters of St. Paul, and the wisdom books.</p>
+                <p>A verse of the day is a small, repeatable habit: one line you can memorize, pray, and share. It does not replace the readings at Mass. The Lectionary follows the liturgical year. This page is personal prayer between Sundays — Psalms, Gospels, the letters of St. Paul, and the wisdom books.</p>
+                <p>Bookmark this page and return each morning. The title shows today's reference so you can see, before you click, which passage is waiting.</p>
               </div>
             </div>
+
+            <div id="bible-verses-by-theme" className="mb-4">
+              <h2 className="font-display text-xl font-bold text-text mb-3">Bible Verses by Theme</h2>
+              <p className="text-text-muted leading-relaxed mb-4">
+                Choose a theme to see every verse on this page that belongs to it. Each theme also appears on the verse of the day when that day's passage is drawn.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {themeIndex.map(([theme]) => (
+                  <button
+                    key={theme}
+                    type="button"
+                    onClick={() => setThemeFilter(themeFilter === theme ? null : theme)}
+                    className={`text-xs font-semibold px-3 py-1 rounded-full border ${themeFilter === theme ? "bg-accent text-white border-accent" : "bg-surface border-border text-text"}`}
+                  >
+                    {theme}
+                  </button>
+                ))}
+              </div>
+              {themeFilter && (
+                <div className="space-y-3 mb-6">
+                  <h3 className="font-display text-lg font-bold text-text">{themeFilter} verses</h3>
+                  {filtered.map((verse) => (
+                    <div key={`${verse.ref}-${verse.text}`} className="bg-surface border border-border rounded-xl p-4">
+                      <p className="text-text italic">"{verse.text}"</p>
+                      <p className="text-sm text-accent font-medium mt-1">— {verse.ref}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {isDated ? (
+              <BlogFAQ title={`Questions about ${todayVerse.ref}`} faqs={faqsForDate(isoDate)} />
+            ) : (
+              <BlogFAQ faqs={faqs} />
+            )}
 
           </div>
         </main>

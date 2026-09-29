@@ -8,6 +8,7 @@ import { HelmetProvider } from "react-helmet-async";
 import Index from "./pages/Index";
 import QuizIntro from "./pages/QuizIntro";
 import DailyVersesPage from "./pages/DailyVersesPage";
+import RandomBibleVersePage from "./pages/RandomBibleVersePage";
 import QuizPage from "./pages/QuizPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import ResultadoPage from "./pages/ResultadoPage";
@@ -717,6 +718,9 @@ export function AppRoutes() {
             <Route path="/" element={<Index />} />
             <Route path="/quiz-intro" element={<QuizIntro />} />
             <Route path="/daily-verses" element={<DailyVersesPage />} />
+            <Route caseSensitive path="/Random-Bible-Verse" element={<Navigate to="/random-bible-verse/" replace />} />
+            <Route path="/random-bible-verse" element={<RandomBibleVersePage />} />
+            <Route path="/daily-verses/:date" element={<DailyVersesPage />} />
             <Route path="/quiz" element={<QuizPage />} />
             <Route path="/checkout" element={<CheckoutPage />} />
             <Route path="/get-result" element={<GetResultPage />} />
