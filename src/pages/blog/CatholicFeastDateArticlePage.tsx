@@ -12,6 +12,7 @@ import { LinkedText } from "@/components/blog/LinkedText";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { CATHOLIC_FEAST_DATE_BY_SLUG } from "@/data/catholicFeastDateArticles";
 import { catholicFeastDateBlogSlug, catholicFeastDatePath } from "@/lib/catholicFeastDateSlugs";
+import { ArticleByline } from "@/components/blog/ArticleByline";
 
 export default function CatholicFeastDateArticlePage() {
   const { feastSlug } = useParams<{ feastSlug: string }>();
@@ -66,6 +67,7 @@ export default function CatholicFeastDateArticlePage() {
               <ArrowLeft className="w-4 h-4" />Full Catholic feast days calendar
             </Link>
             <header className="mb-8">
+              <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4 flex-wrap">
                 <span className="bg-violet-100 text-violet-700 px-3 py-1 rounded-full text-xs font-medium">Catholic Feast Days</span>
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium capitalize">{article.season}</span>

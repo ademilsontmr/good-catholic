@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Cross, BookOpen, ChevronRight, Sparkles } from "lucide-react";
+import { Cross, BookOpen, ChevronRight } from "lucide-react";
 export function HeroSection() {
-  return <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+  return <section className="relative flex items-center justify-center pt-28 pb-16 overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-20 right-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl animate-pulse-soft" />
@@ -16,8 +16,8 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-secondary/80 backdrop-blur-sm px-4 py-2 rounded-full mb-8 animate-fade-in">
-            <Sparkles className="w-4 h-4 text-accent" />
-            <span className="text-sm font-medium text-text">Catholic Quiz</span>
+            <BookOpen className="w-4 h-4 text-accent" />
+            <span className="text-sm font-medium text-text">Free Catholic guides</span>
           </div>
 
           {/* Icons */}
@@ -34,63 +34,41 @@ export function HeroSection() {
 
           {/* Headline */}
           <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-primary mb-5 leading-tight animate-slide-up">
-            Discover how your{" "}
-            <span className="text-gradient-accent">faith journey</span> is going
+            Catholic guides for prayer, Scripture, and the sacraments
           </h1>
 
           {/* Subheadline */}
           <p className="text-base md:text-xl text-text-muted mb-8 max-w-2xl mx-auto animate-slide-up" style={{
           animationDelay: "0.1s"
         }}>
-            Take the quiz and receive a complete assessment of your Catholic life. 
-            More than <strong className="text-text">10,000 Catholics</strong> have already discovered their level of faith practice.
+            Read original articles on the Mass, Confession, the Rosary, the saints, and daily Catholic life. Then open today’s verse or take the faith assessment if you want a next step.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 animate-slide-up" style={{
           animationDelay: "0.2s"
         }}>
-            <Link to="/quiz-intro" className="w-full sm:w-auto">
+            <Link to="/blog/" className="w-full sm:w-auto">
               <Button size="lg" className="w-full sm:w-auto h-14 px-8 bg-gradient-accent hover:opacity-90 text-accent-foreground font-semibold text-lg shadow-glow transition-all duration-300 group">
-                Start the Quiz Now
+                Read the guides
                 <ChevronRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
             <Link
-              to="/blog/"
-              className="text-primary font-medium hover:underline flex items-center gap-2"
+              to="/daily-verses/"
+              className="text-primary font-medium hover:underline"
             >
-              Browse free guides
+              Verse of the day
             </Link>
-          </div>
-
-          {/* Trust Indicators */}
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-4 md:gap-8 text-sm text-text-muted animate-fade-in" style={{
-          animationDelay: "0.4s"
-        }}>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-green-500" />
-              <span>Quick and Easy</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-accent" />
-              <span>5 minutes</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-primary" />
-              <span>Instant Results</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 rounded-full bg-emerald-500" />
-              <span>No Registration</span>
-            </div>
+            <Link
+              to="/random-bible-verse/"
+              className="text-primary font-medium hover:underline"
+            >
+              Random Bible verse
+            </Link>
           </div>
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        
-      </div>
     </section>;
 }

@@ -3,13 +3,6 @@ import { Cross } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Navbar() {
-  const scrollToSection = (id: string) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">
       <div className="container mx-auto px-4">
@@ -24,24 +17,6 @@ export function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <button
-              onClick={() => scrollToSection("beneficios")}
-              className="text-text-muted hover:text-text transition-colors"
-            >
-              Benefits
-            </button>
-            <button
-              onClick={() => scrollToSection("como-funciona")}
-              className="text-text-muted hover:text-text transition-colors"
-            >
-              How It Works
-            </button>
-            <button
-              onClick={() => scrollToSection("depoimentos")}
-              className="text-text-muted hover:text-text transition-colors"
-            >
-              Testimonials
-            </button>
             <Link
               to="/blog"
               className="text-text-muted hover:text-text transition-colors"
@@ -53,6 +28,12 @@ export function Navbar() {
               className="text-text-muted hover:text-text transition-colors"
             >
               About
+            </Link>
+            <Link
+              to="/contact/"
+              className="text-text-muted hover:text-text transition-colors"
+            >
+              Contact
             </Link>
             <Link
               to="/daily-verses"

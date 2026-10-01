@@ -60,11 +60,11 @@ const Index = () => {
       <Navbar />
       <main>
         <HeroSection />
+        <FeaturedArticles />
         <MissionSection />
         <BenefitsSection />
         <HowItWorksSection />
         <TestimonialsSection />
-        <FeaturedArticles />
         <FinalCTASection />
       </main>
       <Footer />

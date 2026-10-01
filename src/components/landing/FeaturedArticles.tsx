@@ -14,7 +14,7 @@ function getDailyArticles(count = 3) {
 }
 
 export function FeaturedArticles() {
-  const articles = getDailyArticles(3);
+  const articles = getDailyArticles(6);
 
   return (
     <section className="py-20 bg-background-muted/30">
@@ -32,7 +32,7 @@ export function FeaturedArticles() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
           {articles.map((post) => {
             const Icon = post.icon;
             return (

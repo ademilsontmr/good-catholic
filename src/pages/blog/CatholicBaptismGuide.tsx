@@ -10,6 +10,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { ArticleByline } from "@/components/blog/ArticleByline";
 
 export default function CatholicBaptismGuide() {
   return (
@@ -57,6 +58,7 @@ export default function CatholicBaptismGuide() {
             </Link>
 
             <header className="mb-8">
+              <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
                   Sacraments

@@ -10,6 +10,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { ArticleByline } from "@/components/blog/ArticleByline";
 
 export default function CatholicTeachingOnSameSexMarriage() {
   return (
@@ -55,6 +56,7 @@ export default function CatholicTeachingOnSameSexMarriage() {
             </Link>
 
             <header className="mb-8">
+              <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Doctrine & Morality</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />April 24, 2026</span>

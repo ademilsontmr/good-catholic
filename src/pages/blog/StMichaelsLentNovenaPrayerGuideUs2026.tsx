@@ -21,6 +21,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { CBO_ST_MICHAELS_LENT_GUIDE } from "@/lib/catholicBibleOnlineLinks";
+import { ArticleByline } from "@/components/blog/ArticleByline";
 
 export default function StMichaelsLentNovenaPrayerGuideUs2026() {
   return (
@@ -87,6 +88,7 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
             </Link>
 
             <header className="mb-8">
+              <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4 flex-wrap">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">
                   Prayers &amp; Devotions

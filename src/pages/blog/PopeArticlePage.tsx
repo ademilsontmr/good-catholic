@@ -15,6 +15,7 @@ import { CATHOLIC_POPES } from "@/data/catholicPopes";
 import { parsePopeArticleSlug, popeOrdinal } from "@/lib/popeSlugs";
 import { POPE_TABLE_ROWS } from "@/lib/popeTableData";
 import NotFound from "@/pages/NotFound";
+import { ArticleByline } from "@/components/blog/ArticleByline";
 
 export default function PopeArticlePage() {
   const { articleSlug } = useParams<{ articleSlug: string }>();
@@ -71,6 +72,7 @@ export default function PopeArticlePage() {
               <ArrowLeft className="w-4 h-4" />Full list of all popes
             </Link>
             <header className="mb-8">
+              <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4 flex-wrap">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Pope {popeOrdinal(article.num)}</span>
                 <span className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-xs font-medium">Catholic History</span>

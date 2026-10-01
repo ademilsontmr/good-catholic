@@ -734,6 +734,7 @@ export function AppRoutes() {
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/contato" element={<Contact />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/contact/" element={<Contact />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/about/" element={<AboutPage />} />
             <Route path="/donate" element={<DonatePage />} />

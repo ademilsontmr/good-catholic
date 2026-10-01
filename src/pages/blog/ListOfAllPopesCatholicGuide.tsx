@@ -13,6 +13,7 @@ import { LinkedText } from "@/components/blog/LinkedText";
 import { PopesTable } from "@/components/blog/PopesTable";
 import { TOTAL_POPES } from "@/data/catholicPopes";
 import { POPE_TABLE_SOURCE, POPE_TABLE_UPDATED } from "@/lib/popeTableData";
+import { ArticleByline } from "@/components/blog/ArticleByline";
 
 export default function ListOfAllPopesCatholicGuide() {
   return (
@@ -55,6 +56,7 @@ export default function ListOfAllPopesCatholicGuide() {
               <ArrowLeft className="w-4 h-4" />Back to Blog
             </Link>
             <header className="mb-8">
+              <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Catholic History</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 30, 2026</span>

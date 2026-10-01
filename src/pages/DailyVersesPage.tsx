@@ -165,6 +165,7 @@ export default function DailyVersesPage() {
         <meta name="description" content={description} />
         <meta name="keywords" content="verse of the day, catholic verse of the day, bible verse of the day, daily catholic bible verse, daily scripture, bible verse for today, random bible verse" />
         <link rel="canonical" href={pageUrl} />
+        {isDated && <meta name="robots" content="noindex, follow" />}
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={`"${todayVerse.text}" — ${todayVerse.ref}`} />
         <meta property="og:type" content="article" />

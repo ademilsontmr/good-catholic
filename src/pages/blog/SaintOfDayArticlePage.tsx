@@ -13,6 +13,7 @@ import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { SAINT_OF_DAY_BY_DATE } from "@/data/saintOfDayArticles";
 import { parseDateSlug, saintOfDayArticlePath } from "@/lib/saintOfDaySlugs";
 import NotFound from "@/pages/NotFound";
+import { ArticleByline } from "@/components/blog/ArticleByline";
 
 export default function SaintOfDayArticlePage() {
   const { dateSlug } = useParams<{ dateSlug: string }>();
@@ -71,6 +72,7 @@ export default function SaintOfDayArticlePage() {
               <ArrowLeft className="w-4 h-4" />Full Saint of the Day calendar
             </Link>
             <header className="mb-8">
+              <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4 flex-wrap">
                 <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-xs font-medium">Saint of the Day</span>
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium capitalize">{article.category}</span>

@@ -57,6 +57,11 @@ export function injectPrerenderedHtml(template, bodyHtml, helmet) {
     if (link.includes('rel="canonical"')) {
       html = html.replace(/<link data-rh="true" rel="canonical"[^>]*>\n?/g, "");
     }
+    if (meta.includes('name="robots"') && meta.includes("noindex")) {
+      html = html.replace(/<meta data-rh="true" name="robots"[^>]*>\n?/g, "");
+      html = html.replace(/<meta data-rh="true" name="googlebot"[^>]*>\n?/g, "");
+      html = html.replace(/<meta data-rh="true" name="bingbot"[^>]*>\n?/g, "");
+    }
     if (meta.includes('property="og:title"')) {
       html = html.replace(/<meta data-rh="true" property="og:[^"]+"[^>]*>\n?/g, "");
       html = html.replace(/<meta data-rh="true" name="twitter:[^"]+"[^>]*>\n?/g, "");
