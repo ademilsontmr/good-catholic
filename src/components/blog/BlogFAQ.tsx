@@ -12,9 +12,11 @@ interface BlogFAQProps {
   /** When set, FAQ answers get automatic internal links (e.g. pope biographies) */
   linkAnswersSlug?: string;
   title?: string;
+  /** Keep every answer in the HTML, including the prerendered page. */
+  htmlAnswers?: boolean;
 }
 
-export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Questions" }: BlogFAQProps) {
+export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Questions", htmlAnswers = false }: BlogFAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const schemaData = {
@@ -41,7 +43,28 @@ export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Quest
           {title}
         </h2>
         <div className="space-y-3">
-          {faqs.map((faq, index) => (
+          {faqs.map((faq, index) => {
+            const answer = linkAnswersSlug ? (
+              <LinkedText className="text-text-muted leading-relaxed" currentSlug={linkAnswersSlug}>
+                {faq.answer}
+              </LinkedText>
+            ) : (
+              faq.answer
+            );
+            if (htmlAnswers) {
+              return (
+                <details key={index} open className="bg-surface border border-border rounded-xl overflow-hidden group">
+                  <summary className="flex items-center justify-between p-4 text-left cursor-pointer list-none hover:bg-background-muted/50 transition-colors [&::-webkit-details-marker]:hidden">
+                    <h3 className="font-semibold text-text pr-4 text-base">{faq.question}</h3>
+                    <ChevronDown className="w-5 h-5 text-accent flex-shrink-0 transition-transform duration-200 group-open:rotate-180" />
+                  </summary>
+                  <div className="px-4 pb-4 text-text-muted leading-relaxed border-t border-border pt-3">
+                    {answer}
+                  </div>
+                </details>
+              );
+            }
+            return (
             <div key={index} className="bg-surface border border-border rounded-xl overflow-hidden">
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
@@ -56,17 +79,12 @@ export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Quest
               </button>
               {openIndex === index && (
                 <div className="px-4 pb-4 text-text-muted leading-relaxed border-t border-border pt-3">
-                  {linkAnswersSlug ? (
-                    <LinkedText className="text-text-muted leading-relaxed" currentSlug={linkAnswersSlug}>
-                      {faq.answer}
-                    </LinkedText>
-                  ) : (
-                    faq.answer
-                  )}
+                  {answer}
                 </div>
               )}
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </>

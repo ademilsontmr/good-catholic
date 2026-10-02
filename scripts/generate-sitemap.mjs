@@ -94,7 +94,8 @@ const totalPages = Math.ceil(
 
 const staticPages = [
   { loc: `${SITE}/`, changefreq: "weekly", priority: "1.0" },
-  { loc: `${SITE}/daily-verses/`, changefreq: "daily", priority: "0.8" },
+  { loc: `${SITE}/daily-verses/`, changefreq: "daily", priority: "0.95" },
+  { loc: `${SITE}/random-bible-verse/`, changefreq: "weekly", priority: "0.9" },
   { loc: `${SITE}/quiz-intro/`, changefreq: "monthly", priority: "0.9" },
   { loc: `${SITE}/quiz/`, changefreq: "monthly", priority: "0.9" },
   { loc: `${SITE}/checkout/`, changefreq: "monthly", priority: "0.6" },
@@ -137,10 +138,29 @@ const popeUrls = readUrlFragments("scripts/pope-sitemap-urls.txt");
 const saintUrls = readUrlFragments("scripts/saint-of-day-sitemap-urls.txt");
 const feastUrls = readUrlFragments("scripts/catholic-feast-dates-sitemap-urls.txt");
 
+function dailyVerseArchiveUrls() {
+  const start = new Date(2026, 8, 29);
+  const urls = [];
+  for (let i = 0; i < 100; i++) {
+    const day = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
+    const iso = `${day.getFullYear()}-${String(day.getMonth() + 1).padStart(2, "0")}-${String(day.getDate()).padStart(2, "0")}`;
+    urls.push({
+      loc: `${SITE}/daily-verses/${iso}/`,
+      lastmod: TODAY,
+      changefreq: "weekly",
+      priority: "0.8",
+    });
+  }
+  return urls;
+}
+
+const dailyVersePages = dailyVerseArchiveUrls();
+
 const parts = [
   '<?xml version="1.0" encoding="UTF-8"?>',
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
   ...staticPages.map((u) => urlBlock(u)),
+  ...dailyVersePages.map((u) => urlBlock(u)),
   ...paginationPages.map((u) => urlBlock(u, true)),
   ...blogArticles.map((u) => urlBlock(u)),
   ...popeUrls.map((u) => urlBlock(u, true)),

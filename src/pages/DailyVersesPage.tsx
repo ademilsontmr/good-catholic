@@ -6,10 +6,52 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { ArticleByline } from "@/components/blog/ArticleByline";
 import { copyForDate } from "@/data/dailyVerseReflections";
 import { faqsForDate } from "@/data/dailyVerseFaqs";
 import { catholicVerses as verses, chapterUrl } from "@/data/catholicVerses";
+import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 import { toast } from "sonner";
+
+const bookSettings: Record<string, string> = {
+  Psalm: "The Psalms are the Church's prayer book. A single line is meant to be prayed, and the rest of the psalm shows whether the speaker is in danger, in thanks, or in the temple.",
+  Matthew: "Matthew presents Jesus as the teacher of the kingdom. A verse from this Gospel usually sits inside a sermon, a parable, or a moment when Jesus says what following him costs.",
+  John: "John writes so that the reader will believe Jesus is the Christ. His lines often turn on a sign, a saying, or an 'I am' that needs the scene around it.",
+  Philippians: "Philippians is Paul's letter from prison to a church he loves. Strength and peace in this letter are tied to Christ, not to a day that happens to go well.",
+  Jeremiah: "Jeremiah speaks to people who have trusted the wrong things. A promise in this book is still a call to turn back to the Lord who made it.",
+  Isaiah: "Isaiah is the book the Church reads in Advent and at Christmas, and also in exile. A verse of hope here sits inside a larger call to trust the Holy One of Israel.",
+  Proverbs: "Proverbs trains the heart to trust God more than its own cleverness. A proverb is wisdom for a real decision, joined to the fear of the Lord.",
+  Galatians: "Galatians defends the freedom of the Gospel. Fruit, the Spirit, and the cross in this letter belong together.",
+  Romans: "Romans explains how God saves and how the saved are to live. A short line from Romans is part of that argument, not a motto cut free from it.",
+  Nahum: "Nahum announces that the Lord is just toward a violent city and good toward those who take refuge in him. The goodness and the judgment are the same God.",
+  Exodus: "Exodus tells how the Lord brings Israel out of slavery. A song in Exodus is praise after God has acted.",
+  "2 Thessalonians": "Second Thessalonians steadies a church that is tired and troubled. Faithfulness in this letter is the Lord's, and the Church is told to keep working.",
+  Hebrews: "Hebrews presents Jesus as the high priest who is enough. A promise in Hebrews is meant to be spoken when help feels late.",
+  "2 Samuel": "Second Samuel tells the story of David as king, including mercy he did not earn. A line from this book belongs to that history.",
+  Mark: "Mark's Gospel moves quickly and keeps the cross in view. A saying of Jesus in Mark is usually spoken on the way to Jerusalem.",
+  Habakkuk: "Habakkuk asks God hard questions and then waits. The answer is not that the trouble was imaginary. It is that the righteous live by faith.",
+  Revelation: "Revelation is a letter of hope to churches under pressure. Its images are for worship and endurance, not for guessing a calendar.",
+  "1 Corinthians": "First Corinthians corrects a divided church. Love in this letter is patient inside a real community.",
+  "1 Thessalonians": "First Thessalonians encourages a young church. Prayer and hope here are practical, meant for people waiting for the Lord.",
+  Luke: "Luke tells the story of Jesus with attention to prayer, the poor, and the people others overlook. A verse from Luke belongs to that narrative.",
+  Numbers: "Numbers follows Israel through the wilderness, including the priestly blessing. The blessing is God's face turned toward his people.",
+  "1 Peter": "First Peter is written to Christians who are suffering. Casting anxiety on God is part of staying faithful when the pressure is real.",
+  "1 John": "First John teaches the Church how to recognize the love of God and how to love one another. Love in this letter is tied to the truth of Christ.",
+  Zephaniah: "Zephaniah warns and then promises that the Lord will rejoice over his people. The comfort comes after the call to seek him.",
+  Joshua: "Joshua tells how Israel enters the land the Lord promised. Courage in this book is obedience in a real place, with God going ahead.",
+  "2 Corinthians": "Second Corinthians describes strength that shows up in weakness. Comfort in this letter is received from God and then passed on.",
+  Lamentations: "Lamentations is grief after Jerusalem falls. Hope in this book does not skip the lament. It waits on the Lord's mercy in the morning.",
+};
+
+function bookOf(ref: string) {
+  return ref.replace(/\s+\d.*$/, "");
+}
+
+function scriptureSetting(ref: string, longDate: string) {
+  const book = bookOf(ref);
+  const setting = bookSettings[book] ?? "This line belongs to the Catholic Bible and is meant to be read with the chapter around it.";
+  return `${setting} On ${longDate}, ${ref} is the verse set aside for prayer. The chapter stays open so the sentence is not lifted out of its place.`;
+}
 
 const themeArticles: Record<string, { href: string; label: string }> = {
   Love: { href: "/blog/bible-verses-about-love/", label: "Bible verses about love" },
@@ -165,11 +207,14 @@ export default function DailyVersesPage() {
         <meta name="description" content={description} />
         <meta name="keywords" content="verse of the day, catholic verse of the day, bible verse of the day, daily catholic bible verse, daily scripture, bible verse for today, random bible verse" />
         <link rel="canonical" href={pageUrl} />
-        {isDated && <meta name="robots" content="noindex, follow" />}
+        {invalidDate && <meta name="robots" content="noindex, follow" />}
+        {isDated && prevDay && <link rel="prev" href={`https://guidecatholic.com/daily-verses/${prevDay.iso}/`} />}
+        {isDated && nextDay && <link rel="next" href={`https://guidecatholic.com/daily-verses/${nextDay.iso}/`} />}
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={`"${todayVerse.text}" — ${todayVerse.ref}`} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={pageUrl} />
+        <meta property="article:published_time" content={isoDate} />
         <meta property="article:modified_time" content={isoDate} />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
@@ -186,7 +231,9 @@ export default function DailyVersesPage() {
               "@type": "Article",
               "headline": pageTitle.replace(" | Guide Catholic", ""),
               "description": description,
+              "datePublished": isoDate,
               "dateModified": isoDate,
+              "inLanguage": "en",
               "url": pageUrl,
               "author": { "@type": "Organization", "name": "Guide Catholic", "url": "https://guidecatholic.com" },
               "publisher": { "@type": "Organization", "name": "Guide Catholic", "url": "https://guidecatholic.com" },
@@ -238,8 +285,9 @@ export default function DailyVersesPage() {
                   <p className="text-xs font-semibold tracking-[0.18em] uppercase text-accent mb-3">Catholic Verse of the Day</p>
                   <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-3">{todayVerse.ref} — Verse of the Day</h1>
                   <p className="text-text-muted leading-relaxed max-w-xl mx-auto">
-                    Catholic Bible verse for {today}, with reflection, prayer, and a link to the full chapter.
+                    Catholic Bible verse for <time dateTime={isoDate}>{today}</time>, with the meaning of {todayVerse.ref}, a prayer, and the chapter in context.
                   </p>
+                  <ArticleByline />
                 </>
               ) : (
                 <>
@@ -264,7 +312,7 @@ export default function DailyVersesPage() {
 
             <article className="bg-surface border border-border rounded-3xl p-8 md:p-12 mb-8 text-center shadow-sm">
               <div className="inline-flex rounded-full bg-accent px-4 py-1.5 text-sm font-semibold text-white mb-3">
-                {today}
+                <time dateTime={isoDate}>{today}</time>
               </div>
               <div className="mb-8">
                 <span className={`inline-block text-xs font-semibold px-3 py-1 rounded-full ${themeColor}`}>
@@ -272,12 +320,12 @@ export default function DailyVersesPage() {
                 </span>
               </div>
               <blockquote className="font-display text-2xl md:text-3xl italic text-text leading-relaxed mb-6">
-                “{todayVerse.text}”
+                <p>“{todayVerse.text}”</p>
               </blockquote>
-              <p className="text-text-muted text-lg mb-10">— {todayVerse.ref}</p>
+              <p className="text-text-muted text-lg mb-10">— <cite className="not-italic">{todayVerse.ref}</cite></p>
 
               <div className="text-left border-t border-border pt-8">
-                <h2 className="font-display text-xl font-bold text-text mb-3">Reflection on {todayVerse.ref}</h2>
+                <h2 className="font-display text-xl font-bold text-text mb-3">Meaning of {todayVerse.ref}</h2>
                 <p className="text-text leading-relaxed">{dailyCopy.reflection}</p>
                 {themeArticle && (
                   <p className="text-text leading-relaxed mt-4">
@@ -291,10 +339,39 @@ export default function DailyVersesPage() {
               </div>
 
               <div className="text-left mt-8 border-l-4 border-accent bg-accent/5 rounded-r-xl p-5">
+                <h2 className="font-display text-xl font-bold text-text mb-3">A prayer with {todayVerse.ref}</h2>
                 <p className="text-text leading-relaxed">
                   {dailyCopy.prayer}
                 </p>
               </div>
+
+              {isDated && (
+                <section className="text-left mt-8 border-t border-border pt-8">
+                  <h2 className="font-display text-xl font-bold text-text mb-3">Where {todayVerse.ref} sits in Scripture</h2>
+                  <p className="text-text leading-relaxed">{scriptureSetting(todayVerse.ref, today)}</p>
+                  <p className="text-text leading-relaxed mt-4">
+                    Read {todayVerse.ref} in the chapter on{" "}
+                    <a href={chapterUrl(todayVerse.ref)} target="_blank" rel="noopener noreferrer" className={cboLinkClass}>
+                      Catholic Bible Online
+                    </a>
+                    .
+                  </p>
+                  <dl className="mt-6 grid sm:grid-cols-3 gap-4 text-sm">
+                    <div className="bg-background rounded-xl border border-border p-4">
+                      <dt className="text-text-muted">Reference</dt>
+                      <dd className="font-semibold text-text mt-1">{todayVerse.ref}</dd>
+                    </div>
+                    <div className="bg-background rounded-xl border border-border p-4">
+                      <dt className="text-text-muted">Calendar day</dt>
+                      <dd className="font-semibold text-text mt-1"><time dateTime={isoDate}>{shortDate}</time></dd>
+                    </div>
+                    <div className="bg-background rounded-xl border border-border p-4">
+                      <dt className="text-text-muted">Theme</dt>
+                      <dd className="font-semibold text-text mt-1">{todayVerse.theme}</dd>
+                    </div>
+                  </dl>
+                </section>
+              )}
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-8">
                 <a href={chapterUrl(todayVerse.ref)} target="_blank" rel="noopener noreferrer">
@@ -321,20 +398,21 @@ export default function DailyVersesPage() {
               <div className="grid grid-cols-3 gap-2 border-t border-border mt-8 pt-6 text-sm">
                 {prevDay ? (
                   <Link to={`/daily-verses/${prevDay.iso}/`} className="text-left text-accent font-medium hover:underline">
-                    ← Previous day
+                    ← {prevDay.verse.ref}
                   </Link>
                 ) : <span />}
                 <Link to="/daily-verses/" className="text-accent font-medium hover:underline">
-                  Today's hub
+                  Daily verses
                 </Link>
                 {nextDay ? (
                   <Link to={`/daily-verses/${nextDay.iso}/`} className="text-right text-accent font-medium hover:underline">
-                    Next day →
+                    {nextDay.verse.ref} →
                   </Link>
                 ) : <span />}
               </div>
             </article>
 
+            {!isDated && (
             <div id="random-bible-verse" className="bg-surface border border-border rounded-2xl p-6 mb-8">
               <h2 className="font-display text-xl font-bold text-text mb-3 flex items-center gap-2">
                 <Shuffle className="w-5 h-5 text-accent" />
@@ -358,8 +436,45 @@ export default function DailyVersesPage() {
                 {randomVerse ? "Another random Bible verse" : "Show a random Bible verse"}
               </Button>
             </div>
+            )}
 
-            {/* Quiz CTA */}
+            {isDated && (
+              <nav className="bg-surface border border-border rounded-2xl p-6 mb-8" aria-label="Related Catholic reading">
+                <h2 className="font-display text-xl font-bold text-text mb-4">Keep reading</h2>
+                <ul className="space-y-2 text-text leading-relaxed">
+                  <li>
+                    <Link to="/daily-verses/" className="text-accent font-semibold underline underline-offset-2">Daily Bible verse</Link>
+                    {" "}— the hub for today's passage and the habit of one verse each morning.
+                  </li>
+                  <li>
+                    <Link to="/random-bible-verse/" className="text-accent font-semibold underline underline-offset-2">Random Bible verse</Link>
+                    {" "}— a different passage when you want another line before midnight.
+                  </li>
+                  {themeArticle && (
+                    <li>
+                      <Link to={themeArticle.href} className="text-accent font-semibold underline underline-offset-2">{themeArticle.label}</Link>
+                      {" "}— more Catholic Scripture on the same theme as {todayVerse.ref}.
+                    </li>
+                  )}
+                  {prevDay && (
+                    <li>
+                      <Link to={`/daily-verses/${prevDay.iso}/`} className="text-accent font-semibold underline underline-offset-2">
+                        {prevDay.verse.ref} on {prevDay.date.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+                      </Link>
+                    </li>
+                  )}
+                  {nextDay && (
+                    <li>
+                      <Link to={`/daily-verses/${nextDay.iso}/`} className="text-accent font-semibold underline underline-offset-2">
+                        {nextDay.verse.ref} on {nextDay.date.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+                      </Link>
+                    </li>
+                  )}
+                </ul>
+              </nav>
+            )}
+
+            {!isDated && (
             <div className="bg-gradient-to-br from-accent/10 to-primary/10 border border-accent/20 rounded-2xl p-8 mb-10 text-center">
               <div className="w-14 h-14 bg-accent/15 rounded-full flex items-center justify-center mx-auto mb-4">
                 <BookOpen className="w-7 h-7 text-accent" />
@@ -378,6 +493,7 @@ export default function DailyVersesPage() {
               </Link>
               <p className="text-xs text-text-muted mt-3">30 questions · 10 minutes · Personalized guide</p>
             </div>
+            )}
 
             {/* Coming up */}
             <div className="mb-10">
@@ -407,7 +523,7 @@ export default function DailyVersesPage() {
               </div>
             </div>
 
-            {/* Why daily verses */}
+            {!isDated && (
             <div className="bg-surface border border-border rounded-2xl p-6 mb-8">
               <h2 className="font-display text-xl font-bold text-text mb-4">Why Read a Daily Catholic Bible Verse?</h2>
               <div className="space-y-3 text-text leading-relaxed">
@@ -416,7 +532,9 @@ export default function DailyVersesPage() {
                 <p>Bookmark this page and return each morning. The title shows today's reference so you can see, before you click, which passage is waiting.</p>
               </div>
             </div>
+            )}
 
+            {!isDated && (
             <div id="bible-verses-by-theme" className="mb-4">
               <h2 className="font-display text-xl font-bold text-text mb-3">Bible Verses by Theme</h2>
               <p className="text-text-muted leading-relaxed mb-4">
@@ -446,9 +564,10 @@ export default function DailyVersesPage() {
                 </div>
               )}
             </div>
+            )}
 
             {isDated ? (
-              <BlogFAQ title={`Questions about ${todayVerse.ref}`} faqs={faqsForDate(isoDate)} />
+              <BlogFAQ title={`Questions about ${todayVerse.ref}`} faqs={faqsForDate(isoDate)} htmlAnswers />
             ) : (
               <BlogFAQ faqs={faqs} />
             )}
