@@ -584,6 +584,8 @@ const CatholicApologeticsGuide = lazy(() => import("./pages/blog/CatholicApologe
 // New High-Volume Articles May 2026
 const CatholicTithingGuide = lazy(() => import("./pages/blog/CatholicTithingGuide"));
 const ImmaculateConceptionGuide = lazy(() => import("./pages/blog/ImmaculateConceptionGuide"));
+const WhyDidGodMakeMeCatholic = lazy(() => import("./pages/blog/WhyDidGodMakeMeCatholic"));
+const MaryMotherOfGodCatholicDogma = lazy(() => import("./pages/blog/MaryMotherOfGodCatholicDogma"));
 const SpiritualGiftsGuide = lazy(() => import("./pages/blog/SpiritualGiftsGuide"));
 
 // SEO Opportunity Articles May 2026
@@ -1372,6 +1374,8 @@ export function AppRoutes() {
             {/* New High-Volume Articles May 2026 */}
             <Route path="/blog/catholic-tithing-guide/" element={<CatholicTithingGuide />} />
             <Route path="/blog/immaculate-conception-guide/" element={<ImmaculateConceptionGuide />} />
+            <Route path="/blog/why-did-god-make-me-catholic/" element={<WhyDidGodMakeMeCatholic />} />
+            <Route path="/blog/mary-mother-of-god-catholic-dogma/" element={<MaryMotherOfGodCatholicDogma />} />
             <Route path="/blog/spiritual-gifts-guide/" element={<SpiritualGiftsGuide />} />
 
             {/* Catholic Feast Days — liturgical calendar guides */}

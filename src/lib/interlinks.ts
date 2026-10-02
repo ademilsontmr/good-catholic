@@ -317,6 +317,8 @@ export const INTERLINK_MAP: Record<string, string> = {
   "Our Lady of Lourdes": "/blog/our-lady-of-lourdes-guide/",
   "Our Lady of Guadalupe": "/blog/our-lady-of-guadalupe-patroness-americas/",
   "Immaculate Conception": "/blog/immaculate-conception-guide/",
+  "why did God make me": "/blog/why-did-god-make-me-catholic/",
+  "Mother of God dogma": "/blog/mary-mother-of-god-catholic-dogma/",
   "Marian devotion": "/blog/do-catholics-worship-mary/",
 
   // Saints

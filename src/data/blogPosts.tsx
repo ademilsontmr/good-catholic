@@ -26,6 +26,30 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
 {
+    id: 1490,
+    slug: "why-did-god-make-me-catholic",
+    title: "Why Did God Make Me? The Catholic Meaning of Life",
+    excerpt: "Why did God make me? The Catholic answer: to know him, love him, and serve him in this life, and to be happy with him forever in heaven.",
+    date: "2026-10-02",
+    readTime: "14 min",
+    category: "Faith & Life",
+    icon: Compass,
+    bgColor: "bg-violet-50",
+    iconColor: "text-violet-600"
+  },
+  {
+    id: 1491,
+    slug: "mary-mother-of-god-catholic-dogma",
+    title: "Is Mary the Mother of God? The Catholic Dogma Explained",
+    excerpt: "Is Mary the Mother of God? What Theotokos means, why the Council of Ephesus defined it in 431, and what the dogma does not say.",
+    date: "2026-10-02",
+    readTime: "15 min",
+    category: "Marian Doctrine",
+    icon: Crown,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-600"
+  },
+{
     id: 1439,
     slug: "nativity-of-mary-september-8-2026-feast-day-guide",
     title: "Nativity of Mary (September 8, 2026): Feast Day Guide for U.S. Catholics",
