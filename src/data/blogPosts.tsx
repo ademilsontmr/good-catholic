@@ -25,6 +25,90 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1492,
+    slug: "catholic-emoji-guide",
+    title: "Catholic Emoji Guide: Which Emojis to Use in a Faith Post",
+    excerpt: "Which emojis belong in a Catholic post for Mass, prayer, Christmas, Lent, Easter, and Bible verses.",
+    date: "2026-10-04",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: Sparkles,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1493,
+    slug: "emojis-for-catholic-parish-posts",
+    title: "Emojis for Catholic Parish Posts: Mass, Confession, and Holy Days",
+    excerpt: "Parish announcement emojis for Mass times, confession, and holy days — church, cross, bell, and candle.",
+    date: "2026-10-04",
+    readTime: "11 min",
+    category: "Catholic Living",
+    icon: Church,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
+    id: 1494,
+    slug: "emojis-for-catholic-prayer-posts",
+    title: "Emojis for Catholic Prayer Posts: Rosary, Novena, and Holy Hour",
+    excerpt: "Prayer-post emojis for the Rosary, a novena, and a holy hour, with the Bible chapters those prayers come from.",
+    date: "2026-10-04",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: Heart,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-600"
+  },
+  {
+    id: 1495,
+    slug: "christmas-emojis-for-catholic-posts",
+    title: "Christmas Emojis for Catholic Posts: Advent, Nativity, and Epiphany",
+    excerpt: "Which emojis fit Advent, Christmas, and Epiphany — candle and star ahead of the shopping icons.",
+    date: "2026-10-04",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: Star,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-500"
+  },
+  {
+    id: 1496,
+    slug: "lent-and-holy-week-emojis",
+    title: "Lent and Holy Week Emojis: What to Use, and What to Leave Off",
+    excerpt: "Emoji choices for Ash Wednesday, Lent, Palm Sunday, and Good Friday — without meme symbols.",
+    date: "2026-10-04",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: Calendar,
+    bgColor: "bg-purple-50",
+    iconColor: "text-purple-700"
+  },
+  {
+    id: 1497,
+    slug: "easter-emojis-for-catholics",
+    title: "Easter Emojis for Catholics: Resurrection First, Eggs Second",
+    excerpt: "Easter emojis that keep the Resurrection first: cross, dove, and light, with eggs only as a second note.",
+    date: "2026-10-04",
+    readTime: "11 min",
+    category: "Catholic Living",
+    icon: Sun,
+    bgColor: "bg-yellow-50",
+    iconColor: "text-yellow-600"
+  },
+  {
+    id: 1498,
+    slug: "bible-verse-post-emojis",
+    title: "Bible Verse Post Emojis: How to Share Scripture Without a Meme",
+    excerpt: "How to mark a Bible caption with an emoji and still send readers to the Catholic chapter.",
+    date: "2026-10-04",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: BookOpen,
+    bgColor: "bg-indigo-50",
+    iconColor: "text-indigo-600"
+  },
 {
     id: 1490,
     slug: "why-did-god-make-me-catholic",
