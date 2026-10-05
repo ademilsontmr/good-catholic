@@ -13,6 +13,8 @@ const PAGE_URL = "https://guidecatholic.com/random-bible-verse/";
 const TITLE = "Random Bible Verse Generator | Guide Catholic";
 const DESCRIPTION =
   "Generate a random Bible verse in one click. Filter by theme, copy it, share it, or open the full chapter. A free Catholic Scripture generator.";
+const KEYWORDS =
+  "random bible verse, random bible verse generator, bible verse generator, random scripture verse, catholic random bible verse, random catholic bible verse, generate a bible verse, random verse generator, bible verse picker, random gospel verse";
 
 const faqs = [
   {
@@ -92,6 +94,8 @@ export default function RandomBibleVersePage() {
       <Helmet>
         <title>{TITLE}</title>
         <meta name="description" content={DESCRIPTION} />
+        <meta name="keywords" content={KEYWORDS} />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={PAGE_URL} />
         <meta property="og:title" content={TITLE} />
         <meta property="og:description" content={DESCRIPTION} />

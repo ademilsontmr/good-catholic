@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link, useParams } from "react-router-dom";
-import { BookOpen, ArrowRight, RefreshCw, Share2, Shuffle, Copy } from "lucide-react";
+import { BookOpen, ArrowRight, RefreshCw, Share2, Copy } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -151,7 +151,6 @@ export default function DailyVersesPage() {
   const todayIso = formatISODate(new Date());
   const hubToday = dailyArchive.find((day) => day.iso === todayIso) ?? null;
   const active = entry ?? hubToday ?? dailyArchive[0];
-  const [randomVerse, setRandomVerse] = useState<(typeof verses)[number] | null>(null);
   const [themeFilter, setThemeFilter] = useState<string | null>(null);
   const todayVerse = active.verse;
   const today = formatLongDate(active.date);
@@ -172,14 +171,6 @@ export default function DailyVersesPage() {
   const dailyCopy = copyForDate(isoDate, todayVerse.ref);
   const themeArticle = themeArticles[todayVerse.theme];
   const filtered = themeFilter ? verses.filter((verse) => verse.theme === themeFilter) : [];
-
-  const drawRandom = () => {
-    let next = verses[Math.floor(Math.random() * verses.length)];
-    if (randomVerse && next.text === randomVerse.text && verses.length > 1) {
-      next = verses[(verses.indexOf(next) + 1) % verses.length];
-    }
-    setRandomVerse(next);
-  };
 
   const versePlain = `"${todayVerse.text}" — ${todayVerse.ref}`;
 
@@ -398,7 +389,7 @@ export default function DailyVersesPage() {
               <div className="grid grid-cols-3 gap-2 border-t border-border mt-8 pt-6 text-sm">
                 {prevDay ? (
                   <Link to={`/daily-verses/${prevDay.iso}/`} className="text-left text-accent font-medium hover:underline">
-                    ← {prevDay.verse.ref}
+                    ← Previous day
                   </Link>
                 ) : <span />}
                 <Link to="/daily-verses/" className="text-accent font-medium hover:underline">
@@ -406,37 +397,11 @@ export default function DailyVersesPage() {
                 </Link>
                 {nextDay ? (
                   <Link to={`/daily-verses/${nextDay.iso}/`} className="text-right text-accent font-medium hover:underline">
-                    {nextDay.verse.ref} →
+                    Next day →
                   </Link>
                 ) : <span />}
               </div>
             </article>
-
-            {!isDated && (
-            <div id="random-bible-verse" className="bg-surface border border-border rounded-2xl p-6 mb-8">
-              <h2 className="font-display text-xl font-bold text-text mb-3 flex items-center gap-2">
-                <Shuffle className="w-5 h-5 text-accent" />
-                Random Bible Verse
-              </h2>
-              <p className="text-text-muted leading-relaxed mb-4">
-                The verse of the day stays fixed for 24 hours. A random Bible verse is a different passage each time you ask — or open the{" "}
-                <Link to="/random-bible-verse/" className="text-accent font-semibold underline underline-offset-2">
-                  random Bible verse generator
-                </Link>
-                .
-              </p>
-              {randomVerse && (
-                <blockquote className="border-l-4 border-accent pl-4 mb-4">
-                  <p className="font-display text-xl text-text leading-relaxed">"{randomVerse.text}"</p>
-                  <cite className="text-accent font-medium not-italic">— {randomVerse.ref} · {randomVerse.theme}</cite>
-                </blockquote>
-              )}
-              <Button onClick={drawRandom} variant="outline" className="gap-2">
-                <Shuffle className="w-4 h-4" />
-                {randomVerse ? "Another random Bible verse" : "Show a random Bible verse"}
-              </Button>
-            </div>
-            )}
 
             {isDated && (
               <nav className="bg-surface border border-border rounded-2xl p-6 mb-8" aria-label="Related Catholic reading">
