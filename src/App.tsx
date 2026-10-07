@@ -193,6 +193,8 @@ const WhatIsTheTrinity = lazy(() => import("./pages/blog/WhatIsTheTrinity"));
 
 // Lote 2
 const SaintElizabethAnnSeton = lazy(() => import("./pages/blog/SaintElizabethAnnSeton"));
+const SaintFrancesXavierCabrini = lazy(() => import("./pages/blog/SaintFrancesXavierCabrini"));
+const SaintJuniperoSerra = lazy(() => import("./pages/blog/SaintJuniperoSerra"));
 const SaintMaximilianKolbe = lazy(() => import("./pages/blog/SaintMaximilianKolbe"));
 const CatholicPrayerForProtection = lazy(() => import("./pages/blog/CatholicPrayerForProtection"));
 
@@ -1236,6 +1238,8 @@ export function AppRoutes() {
             <Route path="/blog/saint-joan-of-arc/" element={<SaintJoanOfArc />} />
             <Route path="/blog/what-is-the-holy-trinity/" element={<WhatIsTheTrinity />} />
             <Route path="/blog/saint-elizabeth-ann-seton/" element={<SaintElizabethAnnSeton />} />
+            <Route path="/blog/saint-frances-xavier-cabrini/" element={<SaintFrancesXavierCabrini />} />
+            <Route path="/blog/saint-junipero-serra/" element={<SaintJuniperoSerra />} />
             <Route path="/blog/saint-maximilian-kolbe/" element={<SaintMaximilianKolbe />} />
             <Route path="/blog/catholic-prayer-for-protection/" element={<CatholicPrayerForProtection />} />
             <Route path="/blog/how-to-pray-a-novena-guide/" element={<HowToPrayNovena />} />

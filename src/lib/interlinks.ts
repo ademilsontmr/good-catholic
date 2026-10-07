@@ -324,6 +324,8 @@ export const INTERLINK_MAP: Record<string, string> = {
 
   // Saints
   "Saint Francis of Assisi": "/blog/saint-francis-of-assisi/",
+  "Saint Frances Xavier Cabrini": "/blog/saint-frances-xavier-cabrini/",
+  "Saint Junípero Serra": "/blog/saint-junipero-serra/",
   "St. Francis of Assisi": "/blog/saint-francis-of-assisi/",
   "Saint Thomas Aquinas": "/blog/saint-thomas-aquinas/",
   "St. Thomas Aquinas": "/blog/saint-thomas-aquinas/",

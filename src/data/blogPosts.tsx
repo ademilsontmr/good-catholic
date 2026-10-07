@@ -26,6 +26,30 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1499,
+    slug: "saint-frances-xavier-cabrini",
+    title: "Saint Frances Xavier Cabrini: Patron Saint of Immigrants",
+    excerpt: "The first U.S. citizen canonized: Cabrini’s life, the schools and hospitals she founded, and her November 13 memorial.",
+    date: "2026-10-07",
+    readTime: "14 min",
+    category: "Saints & Intercession",
+    icon: MapPin,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
+    id: 1500,
+    slug: "saint-junipero-serra",
+    title: "Saint Junípero Serra: The Franciscan of the California Missions",
+    excerpt: "Serra’s nine California missions, his 1773 appeal for native people, the 2015 canonization, and the July 1 feast.",
+    date: "2026-10-07",
+    readTime: "15 min",
+    category: "Saints & Intercession",
+    icon: Mountain,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-800"
+  },
+  {
     id: 1492,
     slug: "catholic-emoji-guide",
     title: "Catholic Emoji Guide: Which Emojis to Use in a Faith Post",
