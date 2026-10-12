@@ -589,6 +589,7 @@ const ImmaculateConceptionGuide = lazy(() => import("./pages/blog/ImmaculateConc
 const WhyDidGodMakeMeCatholic = lazy(() => import("./pages/blog/WhyDidGodMakeMeCatholic"));
 const MaryMotherOfGodCatholicDogma = lazy(() => import("./pages/blog/MaryMotherOfGodCatholicDogma"));
 const CatholicEmojiGuidePage = lazy(() => import("./pages/blog/CatholicEmojiGuidePage"));
+const SearchGuidePage = lazy(() => import("./pages/blog/SearchGuidePage"));
 const SpiritualGiftsGuide = lazy(() => import("./pages/blog/SpiritualGiftsGuide"));
 
 // SEO Opportunity Articles May 2026
@@ -1388,6 +1389,16 @@ export function AppRoutes() {
             <Route path="/blog/lent-and-holy-week-emojis/" element={<CatholicEmojiGuidePage />} />
             <Route path="/blog/easter-emojis-for-catholics/" element={<CatholicEmojiGuidePage />} />
             <Route path="/blog/bible-verse-post-emojis/" element={<CatholicEmojiGuidePage />} />
+            <Route path="/blog/how-to-read-the-catholic-bible-online/" element={<SearchGuidePage />} />
+            <Route path="/blog/how-to-pray-st-joseph-novena-buying-house/" element={<SearchGuidePage />} />
+            <Route path="/blog/st-michaels-lent-novena-how-to-pray/" element={<SearchGuidePage />} />
+            <Route path="/blog/st-michaels-lent-46-day-novena/" element={<SearchGuidePage />} />
+            <Route path="/blog/catholic-bible-verse-generator/" element={<SearchGuidePage />} />
+            <Route path="/blog/catholic-novena-for-work-and-business/" element={<SearchGuidePage />} />
+            <Route path="/blog/st-joseph-house-novena-2026/" element={<SearchGuidePage />} />
+            <Route path="/blog/novena-for-protection-of-children/" element={<SearchGuidePage />} />
+            <Route path="/blog/our-lady-of-the-rosary-october-7-how-to-pray/" element={<SearchGuidePage />} />
+            <Route path="/blog/catholic-prayer-before-surgery/" element={<SearchGuidePage />} />
             <Route path="/blog/spiritual-gifts-guide/" element={<SpiritualGiftsGuide />} />
 
             {/* Catholic Feast Days — liturgical calendar guides */}
