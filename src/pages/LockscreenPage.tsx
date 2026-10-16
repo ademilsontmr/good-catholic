@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { toast } from "sonner";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
@@ -668,6 +669,7 @@ export default function LockscreenPage() {
 
             {/* FAQ */}
             <div className="mt-12 max-w-3xl mx-auto">
+              <BlogArticleAd slot="3458521905" onlyOnBlog={false} />
               <h2 className="font-display text-2xl font-bold text-text mb-6 flex items-center gap-2">
                 <HelpCircle className="w-6 h-6 text-accent" />
                 Frequently Asked Questions

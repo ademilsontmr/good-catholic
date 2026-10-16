@@ -4,6 +4,7 @@ import { CreditCard, HeartHandshake } from "lucide-react";
 import { Navbar } from "@/components/landing/Navbar";
 import { Footer } from "@/components/landing/Footer";
 import { PAYPAL_DONATE_URL, STRIPE_DONATE_URL } from "@/lib/donateLinks";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 const faqs = [
   {
@@ -202,6 +203,7 @@ export default function DonatePage() {
               </section>
 
               {/* FAQ */}
+              <BlogArticleAd slot="3458521905" onlyOnBlog={false} />
               <section className="bg-surface rounded-2xl border border-border/40 p-6 sm:p-10 mb-10 order-4 shadow-sm">
                 <h2 className="font-display text-3xl font-bold text-text mb-7 text-center">
                   Frequently asked questions
