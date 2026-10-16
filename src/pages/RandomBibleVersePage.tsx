@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { catholicVerses, chapterUrl, type CatholicVerse } from "@/data/catholicVerses";
 import { toast } from "sonner";
 
@@ -147,6 +148,7 @@ export default function RandomBibleVersePage() {
               </p>
             </div>
 
+            <BlogArticleAd slot="2451370028" onlyOnBlog={false} />
             <div className="mb-8 rounded-xl border border-accent/30 bg-accent/5 p-6">
               <p className="text-text leading-relaxed">
                 <strong>A random Bible verse</strong> is a passage chosen when you click, not a line that stays fixed all day. Guide Catholic also keeps a{" "}
@@ -247,7 +249,8 @@ export default function RandomBibleVersePage() {
               </div>
             </div>
 
-            <BlogFAQ title="Questions about the random Bible verse generator" faqs={faqs} />
+            <BlogArticleAd slot="2451370028" onlyOnBlog={false} />
+            <BlogFAQ title="Questions about the random Bible verse generator" faqs={faqs} showAd={false} />
           </div>
         </main>
         <Footer />
