@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PrayingForSoulsInPurgatory() {
   return (
@@ -79,6 +80,7 @@ export default function PrayingForSoulsInPurgatory() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Praying for souls in purgatory applies the Church&apos;s treasury of merit — Mass intentions, Rosary, almsgiving, and indulgences shorten purification. November All Souls and daily remembrance of deceased are corporal works of mercy to the dead.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="praying-for-souls-in-purgatory">
                 Every November, the Catholic Church turns its attention to the dead. November 1 is All Saints' Day — the feast of all those who have reached heaven. November 2 is All Souls' Day — the day dedicated to praying for all the faithful departed, especially those still being purified in Purgatory. But the Church's care for the dead is not limited to November. It is woven into every Mass, every Rosary, every act of penance offered for the souls of the departed.

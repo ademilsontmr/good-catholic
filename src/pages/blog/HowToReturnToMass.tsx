@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToReturnToMass() {
   return (
@@ -93,6 +94,7 @@ export default function HowToReturnToMass() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">To return to Mass after absence: go to Confession if you missed Sunday Mass in mortal sin, pick a familiar parish time, sit where comfortable, and follow along in a missal or pew card — no one expects perfection; the Church welcomes every prodigal home.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-return-to-mass">
                 Millions of Americans were raised Catholic but drifted away — through college, a painful experience with the Church, a busy life, or simply the gradual erosion of habit. If you are one of them, and something is drawing you back, this guide is for you. There is no judgment here, no checklist of requirements, no minimum standard of holiness you must meet before you are welcome. The Church is a hospital for sinners, not a museum for saints.

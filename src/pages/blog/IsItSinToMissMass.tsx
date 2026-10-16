@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function IsItSinToMissMass() {
   return (
@@ -74,6 +75,7 @@ export default function IsItSinToMissMass() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Yes — deliberately missing Sunday Mass without serious reason is a mortal sin in Catholic teaching, violating the Third Commandment and the precept of the Church. Illness, caring for infants, unavoidable travel impossibility, or severe weather may excuse; laziness or recreation alone do not.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-it-a-sin-to-miss-mass">
                 The short answer is: yes, deliberately missing Sunday Mass without a valid reason is considered a grave (mortal) sin in Catholic teaching. But understanding why — and what counts as a valid excuse — requires a deeper look at what the Church actually teaches and why Sunday Mass is so central to Catholic life.

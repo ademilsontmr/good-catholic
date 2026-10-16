@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NaturalFamilyPlanning() {
   return (
@@ -91,6 +92,7 @@ export default function NaturalFamilyPlanning() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Natural Family Planning (NFP) uses fertility awareness to achieve or avoid pregnancy — morally acceptable to the Church when openness to life guides decisions. It requires training; effectiveness rivals artificial methods when used correctly; it respects marital unity without contraception.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="natural-family-planning-catholic">
                 Every year, thousands of American Catholic couples encounter NFP for the first time — often in marriage preparation classes — and walk away with more questions than answers. What exactly is NFP? Why does the Church require it? Is it really effective? And what's the actual moral difference between NFP and contraception? This guide answers all of those questions clearly and charitably.

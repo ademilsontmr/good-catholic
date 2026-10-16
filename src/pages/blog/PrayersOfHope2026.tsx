@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PrayersOfHope2026() {
     return (
@@ -90,6 +91,7 @@ export default function PrayersOfHope2026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Prayers of hope for 2026 anchor Catholics in trust amid uncertainty — Psalm 27, Romans 8, Divine Mercy, and entrustment to Mary Undoer of Knots. Hope is theological virtue, not optimism; Christ has overcome the world.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayers-of-hope-2026">
                                 Hope is a theological virtue, which means it is a gift from God. In times of personal, family, or social crisis, hope prevents us from falling into despair. Praying does not necessarily change the external situation immediately, but it changes our heart to face the storm with serenity.

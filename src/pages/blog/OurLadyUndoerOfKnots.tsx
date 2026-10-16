@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OurLadyUndoerOfKnots() {
   return (
@@ -91,6 +92,7 @@ export default function OurLadyUndoerOfKnots() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Our Lady Undoer of Knots (Maria Knotenlöserin) is a devotion to Mary untying life&apos;s problems — inspired by a Baroque painting and promoted by Pope Francis. Catholics pray for her help with marriage, family, and seemingly impossible tangles.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The image of <em>Maria Knotenlöserin</em> (Mary, Undoer of Knots) is more than a beautiful painting; it is a theological statement. It is based on a meditation by Saint Irenaeus of Lyons in the 2nd century, who wrote: <strong>"The knot of Eve's disobedience was untied by Mary's obedience."</strong>

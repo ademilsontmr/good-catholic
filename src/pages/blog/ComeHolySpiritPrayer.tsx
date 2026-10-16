@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ComeHolySpiritPrayer() {
   return (
@@ -79,6 +80,7 @@ export default function ComeHolySpiritPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Come, Holy Spirit is the classic Catholic invocation — Veni Sancte Spiritus — prayed before decisions, at Confirmation, during Pentecost, and in the novena before Pentecost. Catholics ask the Third Person of the Trinity for wisdom, courage, and gifts that build up the Church.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Come Holy Spirit Prayer Full Text</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">

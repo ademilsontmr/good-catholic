@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicPrayerForMarriage() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicPrayerForMarriage() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic prayers for marriage ask God to strengthen unity, fidelity, and openness to life — to St. Joseph, Mary, or the Holy Family. Spouses praying together daily is among the strongest protections for sacramental marriage.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-marriage">
                 The Catholic Church teaches that marriage is one of the seven sacraments — not merely a legal contract or a social institution, but a sacred covenant in which husband and wife become a living sign of Christ's faithful, fruitful, and self-giving love for the Church. This means that every Catholic marriage is, at its core, a vocation — a calling from God that requires His grace to live well.

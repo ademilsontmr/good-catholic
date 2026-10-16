@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicWeddingRequirementsUsa() {
   return (
@@ -80,6 +81,7 @@ export default function CatholicWeddingRequirementsUsa() {
                   <strong>Typical U.S. requirements:</strong> contact your parish <strong>6–12 months</strong> before the date; provide a recent <strong>baptismal certificate with notations</strong> (often within six months); complete <strong>Pre-Cana</strong> or diocesan marriage prep; obtain a <strong>civil marriage license</strong>; arrange <strong>two witnesses</strong>; celebrate before a <strong>priest or deacon with faculty</strong>. Prior marriages require a <strong>tribunal declaration of nullity</strong> or other proof of freedom before any new wedding date is set.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6">
                 <p className="text-text leading-relaxed">

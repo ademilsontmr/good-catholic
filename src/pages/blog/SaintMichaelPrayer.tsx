@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintMichaelPrayer() {
   return (
@@ -80,6 +81,7 @@ export default function SaintMichaelPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The St. Michael prayer (&quot;St. Michael the Archangel, defend us in battle...&quot;) asks protection against evil — composed by Pope Leo XIII after a vision. Catholics pray it after Mass in some parishes, during spiritual warfare, and on Michaelmas (September 29).</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnPornography() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnPornography() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church condemns pornography as gravely sinful — it objectifies persons, destroys marriages, rewires the brain toward lust, and violates chastity. Confession, accountability, filtering software, and counseling are part of recovery; the virtue of purity and the sacraments restore freedom in Christ.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-pornography">
                 In an age when pornography is accessible to anyone with a smartphone, the Catholic Church's teaching on this subject is more urgent than ever. Millions of Catholics — men and women, young and old, married and single — struggle with pornography use, often in silence and shame. The Church does not ignore this reality. It addresses it with both moral clarity and pastoral compassion.

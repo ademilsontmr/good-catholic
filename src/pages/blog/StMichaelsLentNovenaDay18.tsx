@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay18() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay18() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>Day 18</strong> of St. Michael&apos;s Lent Novena is <strong>September 1, 2026</strong> (Tuesday). Suggested intention: faith for a teenager drifting. Pray the free full text on Catholic Bible Online, then live one concrete mercy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-18-september-1-2026">
                 Accept the number: On Tuesday (September 1, 2026), Day 18 carries faith for a teenager drifting through a cemetery bench under late-summer cicadas. There thunder that interrupts scrolling joins the ask for vigilance against perfectionism that never begins, while teachers in public schools refuse the trap of keeping score of who prayed longer and aim at refusing a gossip circle inside a desert canteen for the middle days. Day 18 on September 1, 2026 proves that a desert canteen for the middle days can form saints between solemnities while you hold faith for a teenager drifting.

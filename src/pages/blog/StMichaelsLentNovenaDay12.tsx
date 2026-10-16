@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay12() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay12() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>Day 12</strong> of St. Michael&apos;s Lent Novena is <strong>August 26, 2026</strong> (Wednesday). Suggested intention: unity in your parish. Pray the free full text on Catholic Bible Online, then live one concrete mercy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-12-august-26-2026">
                 Enter quietly: On Wednesday (August 26, 2026), Day 12 carries unity in your parish through a soccer sideline where parents argue softly. There sticky air after youth practice joins the ask for generosity against bitterness after betrayal, while grandparents raising kids refuse the trap of using warfare talk to avoid needed medicine or counseling and aim at one less hidden sin inside a garden hose watering dry prayer. Ordinary Wednesday becomes holy when Day 12 carries unity in your parish without waiting for a feast banner.

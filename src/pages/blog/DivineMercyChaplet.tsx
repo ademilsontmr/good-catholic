@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DivineMercyChaplet() {
   return (
@@ -104,6 +105,7 @@ export default function DivineMercyChaplet() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Divine Mercy Chaplet is a Catholic prayer given to St. Faustina Kowalska — prayed on ordinary rosary beads, offering the Father the Body and Blood of Christ with &quot;For the sake of His sorrowful Passion, have mercy on us and on the whole world.&quot; It is especially prayed at 3 p.m. and during the Divine Mercy novena before Divine Mercy Sunday.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The Divine Mercy devotion is built on three pillars, often remembered as the <strong>ABC of Mercy</strong>:

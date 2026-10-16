@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintPadrePio() {
   return (
@@ -91,6 +92,7 @@ export default function SaintPadrePio() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Padre Pio (1887–1968) was an Italian Capuchin friar with the stigmata, bilocation, and the gift of reading souls in Confession. Millions visited San Giovanni Rotondo; he founded the House for the Relief of Suffering and is a patron of confessors, civil defense workers, and those seeking healing.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio">
                 Few saints in modern history have captured the hearts of American Catholics quite like Padre Pio. Born in a small Italian village, he entered religious life as a teenager, received the visible stigmata at age 31, and spent the next five decades as a living witness to the Passion of Christ. His confessional lines stretched for days. His spiritual gifts — bilocation, reading of souls, healing — were documented by thousands of witnesses. And his canonization in 2002 by Pope John Paul II confirmed what millions already knew in their hearts: this humble friar was a saint.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicSocialTeachingToday() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicSocialTeachingToday() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Discover how Catholic social teaching applies to today&apos;s challenges. Learn about poverty, immigration, ecology, and economic justice from a Catholic perspective.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-social-teaching-today">
                 Catholic social teaching offers timeless principles for addressing contemporary challenges. From Pope Leo XIII's Rerum Novarum to Pope Francis's Laudato Si', the Church provides wisdom for navigating poverty, migration, economic inequality, and environmental crisis.

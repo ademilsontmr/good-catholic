@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PatronSaints() {
   return (
@@ -91,6 +92,7 @@ export default function PatronSaints() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Patron saints intercede for nations, cities, professions, and causes — St. Patrick for Ireland, St. Luke for physicians, St. Joseph for workers. Catholics honor patrons at feast days and ask their prayer in relevant needs.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="patron-saints">
                 Devotion to the saints is one of the most beautiful traditions of the Catholic Church. Since the first centuries, Christians venerated those who gave heroic witness to faith, often with their own blood. Patron saints are special intercessors who accompany us on our earthly journey, protecting us and inspiring us with their example of holiness.

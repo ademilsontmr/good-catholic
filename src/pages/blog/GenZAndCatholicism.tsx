@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function GenZAndCatholicism() {
   return (
@@ -74,6 +75,7 @@ export default function GenZAndCatholicism() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Gen Z and young millennials are returning to Catholicism in notable numbers — drawn by the Real Presence, beauty in liturgy, moral clarity, and online Catholic creators. Surveys and parish RCIA data show a reversal of decades of youth decline, especially among young men seeking tradition and truth.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gen-z-and-catholicism">
                 The headlines have been striking. Fox News: "Catholicism sees major resurgence among Gen Z." CBS News: "Catholic conversions rising: Inside the Catholic Church's quiet revival." The Washington Post: "Why Catholicism is drawing in Gen Z men." These are not Catholic media outlets — they are mainstream publications reporting on a phenomenon that has surprised even Church leaders.

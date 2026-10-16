@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicAnnulment() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicAnnulment() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Catholic annulment (declaration of nullity) is not divorce — it is a tribunal judgment that no valid sacramental marriage existed due to impediments, lack of consent, or defect of form. If granted, parties may marry in the Church; the process requires witnesses and can take months in U.S. dioceses.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-annulment-catholic-church">
                 Divorce is one of the most painful experiences a person can go through. For Catholics, it carries an additional layer of complexity: the Church teaches that marriage is a sacrament — a permanent, indissoluble bond. So what happens when a Catholic marriage breaks down? What is an annulment, and how does it work? This guide answers these questions with clarity, compassion, and fidelity to Church teaching.

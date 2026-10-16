@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicFirstCommunion() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicFirstCommunion() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">First Communion is a Catholic child&apos;s first reception of the Eucharist — the Body and Blood of Christ — after First Confession and catechesis, usually around age seven or eight. It requires belief in the Real Presence and a state of grace.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-first-communion-guide">
                 The day a child receives First Holy Communion is a milestone that Catholic families treasure for a lifetime. It is the moment when a young person — for the first time — receives Jesus Christ truly present in the Eucharist: Body, Blood, Soul, and Divinity. This is not a symbolic gesture or a rite of passage in the cultural sense. It is a real encounter with the living God.

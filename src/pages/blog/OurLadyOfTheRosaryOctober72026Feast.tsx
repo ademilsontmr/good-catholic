@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OurLadyOfTheRosaryOctober72026Feast() {
   return (
@@ -78,6 +79,7 @@ export default function OurLadyOfTheRosaryOctober72026Feast() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: "The Memorial of Our Lady of the Rosary is <strong>Wednesday, October 7, 2026</strong>. The feast recalls the Battle of Lepanto (1571) and the Church's confidence that the Rosary is spiritual warfare wielded through Mary's hands." }} />
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">

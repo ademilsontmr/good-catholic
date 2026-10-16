@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ExaminationOfConscience() {
     return (
@@ -90,6 +91,7 @@ export default function ExaminationOfConscience() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">An examination of conscience is prayerful review of thoughts, words, and deeds against the Ten Commandments and Gospel before Confession. Catholics examine sins of commission and omission, note kind and number of mortal sins, and prepare to confess honestly to the priest for valid absolution.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-conscience">
                                 The Sacrament of Reconciliation is one of the greatest gifts Jesus left to His Church. However, to fully receive the grace of forgiveness, a contrite heart and sincere preparation are necessary. The examination of conscience is not an exercise in guilt, but an act of love and truth before a God who is Father and Mercy.

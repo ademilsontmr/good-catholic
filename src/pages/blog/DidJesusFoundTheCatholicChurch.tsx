@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DidJesusFoundTheCatholicChurch() {
   return (
@@ -74,6 +75,7 @@ export default function DidJesusFoundTheCatholicChurch() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics believe Jesus founded one Church on Peter (Matthew 16:18–19) — apostolic succession, the Eucharist, and bishops trace to the apostles. Historical continuity, unified doctrine, and sacramental life support the claim that the Catholic Church is that original Church fully present today.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="did-jesus-found-the-catholic-church">
                 The question of whether Jesus founded the Catholic Church is not merely academic. It touches the very heart of Christian identity: Who has the authority to interpret Scripture? Who can trace its leadership back to the Apostles? Which community can claim to be the one Jesus established? For Catholics, the answer is clear — and the evidence is both biblical and historical.

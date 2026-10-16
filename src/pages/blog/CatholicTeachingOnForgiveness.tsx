@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnForgiveness() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnForgiveness() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics forgive because Christ forgave from the cross — mercy is not optional for disciples (Matthew 6:14-15). The Church distinguishes forgiving the person from trusting again, offers Confession for sin, and teaches that resentment harms the soul while mercy frees it.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-forgiveness">
                 Forgiveness is not a feeling. It is not forgetting. It is not pretending that what happened did not matter. Catholic teaching on forgiveness is demanding, realistic, and ultimately liberating — because it is rooted not in human willpower but in the mercy of God Himself.

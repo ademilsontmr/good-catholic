@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintBenedictMedal() {
   return (
@@ -90,6 +91,7 @@ export default function SaintBenedictMedal() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The St. Benedict medal is a sacramental with exorcism blessings and initials of Latin prayers against evil — worn or placed in homes for protection. St. Benedict (480–547) founded Western monasticism; Rule of St. Benedict shapes religious life; feast July 11.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-benedict-medal">
                 Walk into any Catholic gift shop in the world, and you will almost certainly find the Medal of Saint Benedict — a round coin bearing a collection of mysterious letters, a cross, and the image of a monk. Yet despite its universal popularity, many Catholics who wear or display it have only a vague idea of what its symbols mean or how to use it properly.

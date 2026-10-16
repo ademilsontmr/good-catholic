@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function AshWednesdayGuide() {
   return (
@@ -92,6 +93,7 @@ export default function AshWednesdayGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Ash Wednesday begins Lent — Catholics receive ashes on the forehead (from palms burned last year) as a sign of repentance and mortality: &quot;Remember you are dust.&quot; It is not a Holy Day of Obligation in the U.S., but Mass with ashes is among the best-attended liturgies of the year.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="ash-wednesday-guide">
                 If you walk around any major city on Ash Wednesday, you will undoubtedly see people bearing a dark cross on their foreheads. It is one of the most visible signs of Catholic faith in secular society. 

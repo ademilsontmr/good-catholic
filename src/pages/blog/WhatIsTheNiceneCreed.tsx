@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsTheNiceneCreed() {
   return (
@@ -90,6 +91,7 @@ export default function WhatIsTheNiceneCreed() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Nicene Creed is the Church&apos;s profession of faith at Mass — formulated at Nicaea (325) and Constantinople (381), defining belief in one God, Trinity, Incarnation, Resurrection, one baptism, and life everlasting. Catholics stand and recite it on Sundays.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The Nicene Creed (properly the <em>Niceno-Constantinopolitan Creed</em>) was born at the <strong>Council of Nicaea in 325 AD</strong>. It wasn't written to be a general prayer, but a "border control" to keep out the heresy of <strong>Arianism</strong>—the belief that Jesus was a created being rather than the eternal God.

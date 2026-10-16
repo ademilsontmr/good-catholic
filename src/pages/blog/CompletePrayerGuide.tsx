@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CompletePrayerGuide() {
   return (
@@ -74,6 +75,7 @@ export default function CompletePrayerGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic prayer life includes vocal, meditative, and liturgical forms — daily Morning Offering, Rosary, Mass, and periodic Confession form a foundation. The Liturgy of the Hours, novenas, and adoration extend devotion; consistency matters more than length.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-prayer-guide">
                 The Catechism of the Catholic Church defines prayer as "the raising of one's mind and heart to God" (CCC 2559). This definition, drawn from St. John Damascene, is deceptively simple. Prayer is not a technique, a formula, or a performance. It is a relationship — the most important relationship of your life. Everything else in the spiritual life flows from it and depends on it.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PrayerLife() {
   return (
@@ -90,6 +91,7 @@ export default function PrayerLife() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic prayer life grows through vocal prayer (Our Father, Rosary), meditation, contemplation, and liturgical worship — ordered to charity and sacraments. Prayer is conversation with God; consistency and honesty matter more than eloquence.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-life">
                 Saint Teresa of Ávila defined prayer as "a relationship of friendship, being alone often with Him who we know loves us." For Catholics, prayer is the oxygen of the soul. Without it, faith weakens, hope falters, and charity grows cold. However, many find it difficult to maintain a constant routine of dialogue with the Creator. The good news is that God does not demand perfection – He demands only sincerity and perseverance.

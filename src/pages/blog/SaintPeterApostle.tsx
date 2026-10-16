@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintPeterApostle() {
   return (
@@ -74,6 +75,7 @@ export default function SaintPeterApostle() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Peter was the first pope — fisherman called by Christ, received keys of the kingdom (Matthew 16), denied Jesus then repented, preached at Pentecost. Crucified upside down in Rome; every pope is his successor; feast June 29 with Paul.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-peter-apostle">
                 Saint Peter the Apostle stands at the very center of the New Testament and the founding of the Catholic Church. He was the first among the Twelve, the first to confess Jesus as the Christ, the first to preach on Pentecost, and the first Bishop of Rome. His story is one of extraordinary grace working through extraordinary weakness — a story that gives hope to every sinner who has ever failed and been restored.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicWeddingMassVsCeremony() {
   return (
@@ -60,6 +61,7 @@ export default function CatholicWeddingMassVsCeremony() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Catholic wedding with Mass includes the Eucharist for two Catholics; a ceremony without Mass (Liturgy of the Word only) is used when one party is not Catholic or the priest deems it pastorally better — only Catholics in grace receive Communion.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-wedding-mass-vs-ceremony">
                 A Catholic wedding is not merely a blessing added to a civil marriage. It is a sacrament — the couple becomes a sign of Christ&apos;s covenant with the Church. Whether celebrated within Mass or outside it, the essential element is the exchange of consent before the Church and witnesses. Everything else — music, flowers, reception — is secondary to that sacred moment.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OurLadyGuadalupePatronessAmericas() {
   return (
@@ -79,6 +80,7 @@ export default function OurLadyGuadalupePatronessAmericas() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Our Lady of Guadalupe appeared to St. Juan Diego in Mexico in 1531 — her image on his tilma is venerated as miraculous and she is Patroness of the Americas and Protectress of the Unborn. Catholics celebrate her feast on December 12 with Mass, roses, and pilgrimages to the Basilica in Mexico City.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-guadalupe-patroness-americas">
                 The Basilica of Our Lady of Guadalupe in Mexico City receives more than 20 million pilgrims each year — more than any other Catholic shrine in the world, and more than any other Christian site except the Vatican. The image of Our Lady of Guadalupe is the most reproduced religious image in history. She is the patroness of Mexico, of all Latin America, of the Philippines, and of the entire Western Hemisphere. Understanding her is essential to understanding Catholicism in the Americas.

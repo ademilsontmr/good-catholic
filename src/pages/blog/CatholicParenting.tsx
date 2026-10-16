@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicParenting() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicParenting() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic parenting forms children in faith through family prayer, Sunday Mass, moral example, and open conversation about God — baptizing infants, teaching virtue, and creating a home where Christ is honored without coercion or hypocrisy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-raising-children-in-faith">
                 Every Catholic parent has felt it — that quiet, urgent desire to pass on the faith to their children. Not just as a set of rules or Sunday obligations, but as a living relationship with Jesus Christ. The Church calls the family the "domestic church" (ecclesia domestica), a phrase that carries enormous weight: your home is meant to be a little church, a place where faith is breathed in and lived out every day.

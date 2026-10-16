@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay26() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay26() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Looking for <em>St Michael&apos;s Lent Novena Day 26</em>? The civil date is <strong>September 9, 2026</strong>. This page orients farmers and tradespeople; Catholic Bible Online holds the novena words.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-26-september-9-2026">
                 Guard the hour: On Wednesday (September 9, 2026), Day 26 carries clarity against confusion through a monastery guest room with thin blankets. There a cold snap in an over-air-conditioned office joins the ask for obedience against flattery that avoids truth, while farmers and tradespeople refuse the trap of despising middle days while fantasizing about Michaelmas and aim at doing a small hidden good inside a bread oven that needs steady fire. No solemnity is required to sanctify Day 26; praying for clarity against confusion in a silent garage already consecrates Wednesday.

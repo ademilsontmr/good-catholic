@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicDatingGuide() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicDatingGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Catholic dating guide emphasizes prayer for discernment, accountability, meeting in public, involving spiritual mentors, and discussing marriage and family early — ending relationships that require sin or block faith growth.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-guide">
                 Catholic dating is fundamentally different from secular dating. While the world often focuses on physical attraction and temporary pleasure, Catholic dating centers on discernment, virtue, and the possibility of a lifelong vocation to marriage. It's a journey of discovering whether God has brought someone into your life for a sacred purpose.

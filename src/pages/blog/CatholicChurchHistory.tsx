@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicChurchHistory() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicChurchHistory() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic Church history spans two millennia — from Pentecost through martyrs, councils (Nicaea, Trent, Vatican II), missions, schisms, and reforms. Apostolic succession links the pope and bishops to the apostles; the Church claims continuity of faith under the Holy Spirit.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-church-history">
                 The Catholic Church is the longest continuously operating institution in human history. For 2,000 years, she has survived empires, weathered crises, and shaped civilization. Understanding Church history strengthens faith and provides perspective on today's challenges.

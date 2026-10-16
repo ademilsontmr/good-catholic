@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToDoHolyHour() {
   return (
@@ -94,6 +95,7 @@ export default function HowToDoHolyHour() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Holy Hour is an hour (or shorter period) of prayer before the Blessed Sacrament — adoration, Scripture, Rosary, silence, and intercession. Catholics may make a Holy Hour at home with a crucifix or at church during Eucharistic exposition.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-do-a-holy-hour">
                 A Holy Hour is an hour spent in prayer before the Blessed Sacrament — Jesus truly present in the Eucharist. It is a time to be with Jesus, to adore Him, to speak with Him, and to listen to Him. For many Catholics, the weekly Holy Hour has become the anchor of their spiritual life — the hour that transforms all the other hours of the week.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicBibleGuide() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicBibleGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Bible has 73 books in a Church-defined canon — use translations with imprimatur (NABRE, RSV-2CE, Douay-Rheims). Catholics interpret with Tradition and Magisterium; the Bible is central but not the sole rule of faith.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-guide">
                 The Bible is the Word of God — the inspired record of God's revelation to humanity, culminating in the life, death, and resurrection of Jesus Christ. For Catholics, the Bible is not just a book to be read but a living word to be prayed, studied, and lived. It is the foundation of the faith, the source of the liturgy, and the daily bread of the soul.

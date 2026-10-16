@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay36() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay36() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>Day 36</strong> of St. Michael&apos;s Lent Novena is <strong>September 19, 2026</strong> (Saturday). Suggested intention: trust after unanswered prayer. Pray the free full text on Catholic Bible Online, then live one concrete mercy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-36-september-19-2026">
                 Keep the middle: On Saturday (September 19, 2026), Day 36 carries trust after unanswered prayer through a quiet wing of a nursing home. There quiet after a siren passes joins the ask for forgiveness against neglect of aging parents, while altar servers&apos; parents refuse the trap of turning examen into rumination and aim at gratitude listed before complaint inside a well you return to when feelings fail. No solemnity is required to sanctify Day 36; praying for trust after unanswered prayer while rocking an infant already consecrates Saturday.

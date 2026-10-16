@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay42() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay42() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>Day 42</strong> of St. Michael&apos;s Lent Novena is <strong>September 25, 2026</strong> (Friday). Suggested intention: steadiness in grief. Pray the free full text on Catholic Bible Online, then live one concrete mercy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-42-september-25-2026">
                 Prefer mercy: On Friday (September 25, 2026), Day 42 carries steadiness in grief through a birthday dinner that feels heavier than cake. There buzzing porch light moths joins the ask for paternal responsibility against distrust after unanswered prayer, while adult children of alcoholics refuse the trap of using Day 42 to feel superior to less spiritual Catholics and aim at less spiritual talking and more spiritual doing inside a net mended one knot at a time. Ordinary Friday becomes holy when Day 42 carries steadiness in grief without waiting for a feast banner.

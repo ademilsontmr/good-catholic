@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnContraception() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnContraception() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church teaches that contraception — deliberately blocking the procreative meaning of the marital act — is intrinsically wrong (Humanae Vitae, 1968). Natural Family Planning to space births for serious reasons is permitted; openness to life and total self-gift remain the moral norm for married love.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 In 1968, Pope Paul VI issued an encyclical that shocked the world — and that the world has never stopped arguing about. <em>Humanae Vitae</em> ("Of Human Life") reaffirmed the Catholic Church's ancient teaching that artificial contraception is intrinsically evil. Fifty-seven years later, that teaching remains unchanged, and the reasons behind it are more compelling than ever. This article explains what the Church teaches, why it teaches it, and what it means for Catholic married life.

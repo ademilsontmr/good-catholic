@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OurLadyOfLourdesGuide() {
   return (
@@ -92,6 +93,7 @@ export default function OurLadyOfLourdesGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Our Lady appeared to St. Bernadette at Lourdes, France in 1858 — identifying herself as the Immaculate Conception and calling for prayer and penance. Lourdes is a major pilgrimage site; the Church recognizes healings after prayer and bathing in the spring.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-lourdes-guide">
                 The story of Lourdes begins not with spectacle, but with the simple faith of a sickly shepherd girl named Bernadette Soubirous. Between February 11 and July 16, 1858, the Virgin Mary appeared to Bernadette 18 times in a grotto near the town of Lourdes, France. These apparitions would change the life of one girl, a town, and millions of pilgrims who would follow.

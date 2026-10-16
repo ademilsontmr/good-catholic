@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PropheciesOfFatima() {
   return (
@@ -92,6 +93,7 @@ export default function PropheciesOfFatima() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Fatima prophecies (1917) included warning of war, spread of Russia&apos;s errors, and the Third Secret about persecution of the Church — popes consecrated the world to Mary; faithful focus on prayer, penance, and First Saturdays rather than private speculation.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prophecies-of-fatima">
                 When Our Lady appeared to Lucia, Francisco, and Jacinta between May and October 1917, Europe was engulfed in the Great War. The children were simple shepherds from a poor peasant family, yet they were chosen to receive one of the most significant prophetic messages of the 20th century.

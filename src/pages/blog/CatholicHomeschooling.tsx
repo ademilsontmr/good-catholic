@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicHomeschooling() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicHomeschooling() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic homeschooling educates children at home with faith integrated into curriculum — legal in all U.S. states; families use Seton, Mother of Divine Grace, or local co-ops. Bishop guidelines often require catechesis aligned with diocesan standards.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-homeschooling-guide">
                 Something remarkable has been happening in American Catholic families over the past two decades. Tens of thousands of families have chosen to take education into their own hands — not out of fear or isolation, but out of a positive vision: the desire to form their children in the fullness of the Catholic intellectual and spiritual tradition, to integrate faith and learning, and to make the home truly the center of their children's formation.

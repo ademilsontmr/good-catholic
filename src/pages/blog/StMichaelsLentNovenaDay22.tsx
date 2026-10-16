@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay22() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay22() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic guide for <strong>Day 22</strong> (September 5, 2026): unique counsel aimed at seminarians on break, with links to the novena index and Day 22 prayer page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-22-september-5-2026">
                 Lower the noise: On Saturday (September 5, 2026), Day 22 carries healing of memories through a backyard fence line during a neighbor feud. There dust rising from a ball field joins the ask for fidelity against habit of breaking self-promises, while seminarians on break refuse the trap of outsourcing all prayer to an app and never kneeling and aim at a boundary spoken without cruelty inside a pilgrimage with numbered stones. Ordinary Saturday becomes holy when Day 22 carries healing of memories without waiting for a feast banner.

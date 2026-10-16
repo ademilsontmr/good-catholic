@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicConfessionGuide() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicConfessionGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic Confession (Reconciliation) is the sacrament in which a baptized Catholic confesses sins to a priest and receives absolution from Christ. Sins must be confessed in kind and number when mortal; the Church requires Confession at least once a year and before Communion if in mortal sin.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confession-guide">
                 Many Catholics have complicated feelings about Confession. Some avoid it out of embarrassment. Others feel it is unnecessary — "I can confess directly to God." Still others go through the motions without understanding what is actually happening. This guide is for all of them.

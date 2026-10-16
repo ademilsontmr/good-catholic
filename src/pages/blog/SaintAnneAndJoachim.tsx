@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintAnneAndJoachim() {
   return (
@@ -74,6 +75,7 @@ export default function SaintAnneAndJoachim() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Sts. Anne and Joachim are parents of the Virgin Mary — honored in tradition though not named in Scripture. Patrons of grandparents, childless couples, and mothers; feast July 26; devotion strong among families and those seeking children.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-anne-and-joachim">
                 In the great tapestry of salvation history, every thread matters. The story of Saints Anne and Joachim reminds us that God's greatest works often begin in hiddenness, in waiting, and in the faithfulness of ordinary people who trust him even when their prayers seem unanswered. Their daughter Mary would become the Mother of God — but first, they had to wait.

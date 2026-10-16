@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PopeRoleInChurch() {
   return (
@@ -91,6 +92,7 @@ export default function PopeRoleInChurch() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Learn about the Pope&apos;s role in the Catholic Church — Peter as the first pope, apostolic succession, the three offices, papal infallibility (what it is and isn&apos;t), and how Catholics should relate to the Pope.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-popes-role-catholic-church">
                 For non-Catholics — and even for many Catholics — the papacy can seem puzzling. Why should one man in Rome have authority over the faith and morals of over a billion people? The answer lies in Scripture, history, and the Church's understanding of how Christ intended to govern His Church. This guide walks through the biblical foundation, the historical development, and the practical meaning of papal authority today.

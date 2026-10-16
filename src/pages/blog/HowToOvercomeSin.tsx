@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToOvercomeSin() {
   return (
@@ -74,6 +75,7 @@ export default function HowToOvercomeSin() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Overcome sin through grace in Confession, Eucharist, prayer, avoiding near occasions, and accountability — identify patterns, replace bad habits with virtuous ones, and persist after falls. Mortal sin requires Confession before Communion; daily examination helps.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-overcome-sin-catholic">
                 St. Paul wrote: "I do not understand what I do. For what I want to do I do not do, but what I hate I do" (Romans 7:15). Every honest Catholic recognizes this experience. We know what is right. We want to do what is right. And yet we fall — sometimes into the same sins, over and over again.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay9() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay9() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>August 23, 2026</strong> is Day 9 on the Assumption-to-Michaelmas road. Name conversion of someone you love, ask for patience, and refuse quitting after one distracted litany.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-9-august-23-2026">
                 Refuse vagueness: On Sunday (August 23, 2026), Day 9 carries conversion of someone you love through a farm truck cab before sunrise chores. There fog that makes the commute feel longer joins the ask for patience against vanity about spiritual progress, while mothers of toddlers refuse the trap of quitting after one distracted litany and aim at a quieter comment section from you inside a kiln for fragile resolutions. Even without a major feast, Day 9 asks mothers of toddlers to keep conversion of someone you love ahead of distraction.

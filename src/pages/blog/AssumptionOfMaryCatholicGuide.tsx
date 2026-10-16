@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function AssumptionOfMaryCatholicGuide() {
   return (
@@ -60,6 +61,7 @@ export default function AssumptionOfMaryCatholicGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Assumption (August 15) celebrates Mary taken body and soul into heaven — a dogma defined in 1950. In the United States it is normally a Holy Day of Obligation unless transferred or abrogated when falling on Saturday or Monday.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="assumption-of-mary-catholic-guide">The Assumption of the Blessed Virgin Mary is a solemnity and a dogma of the Catholic faith. Pope Pius XII defined it in 1950: &quot;The Immaculate Mother of God, the ever Virgin Mary, having completed the course of her earthly life, was assumed body and soul into heavenly glory&quot; (Munificentissimus Deus).</LinkedText>
 

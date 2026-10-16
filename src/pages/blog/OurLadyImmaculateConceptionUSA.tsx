@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OurLadyImmaculateConceptionUSA() {
   return (
@@ -79,6 +80,7 @@ export default function OurLadyImmaculateConceptionUSA() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Immaculate Conception is patroness of the United States — December 8 feast, Basilica in Washington, D.C., and national consecration history. Mary conceived without sin from the first moment; the U.S. was placed under her protection in 1846.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-immaculate-conception-patroness-usa">
                 Every nation has a patron saint — a heavenly intercessor who watches over its people and presents their needs before God. The United States is no exception. Since 1846, the patroness of the United States has been Our Lady of the Immaculate Conception — the Blessed Virgin Mary, honored under the title of her sinless conception. This is not merely a historical curiosity. It is a living devotion that shapes the spiritual identity of American Catholicism.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LentPrayers() {
   return (
@@ -79,6 +80,7 @@ export default function LentPrayers() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Lent prayers include the Stations of the Cross, Lenten antiphons, Psalm 51, and penitential litanies — added to daily Rosary and Scripture. Ash Wednesday through Holy Saturday focuses on repentance, almsgiving, and preparation for Easter.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-1">📅 Lent 2026</p>

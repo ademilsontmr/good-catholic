@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnGratitude() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnGratitude() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Gratitude is recognition that all good comes from God — Eucharist means thanksgiving. Catholics express it through daily prayer, grace before meals, thanks after blessings, and contentment amid lack; ingratitude feeds pride and depression.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gratitude-catholic-virtue">
                 We live in a culture of complaint. Social media has given everyone a platform to broadcast their grievances, and the algorithm rewards outrage over contentment. Advertising is built on the premise that you do not have enough — that you need more, better, newer. The result is a pervasive sense of dissatisfaction, a chronic inability to appreciate what we have, a restlessness that no amount of acquisition can cure. Against this cultural backdrop, the Catholic virtue of gratitude is not merely a pleasant disposition — it is a form of resistance, a counter-cultural act, a spiritual discipline that can transform the soul.

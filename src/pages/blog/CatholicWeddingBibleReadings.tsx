@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicWeddingBibleReadings() {
   return (
@@ -80,6 +81,7 @@ export default function CatholicWeddingBibleReadings() {
                   <strong>Nuptial Mass readings must come from the approved lectionary options</strong> in the Order of Celebrating Matrimony. Typical structure: one <strong>Old Testament</strong> reading (optional in some forms), one <strong>New Testament Epistle</strong>, and one <strong>Gospel</strong>—the Gospel is required. Approved responsorial psalms include Psalms 128, 33, 34, 103, 145, and 148. Choose texts with your priest or deacon, not from random internet lists.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6">
                 <p className="text-text leading-relaxed">

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function MiraculousMedalGuide() {
   return (
@@ -91,6 +92,7 @@ export default function MiraculousMedalGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Miraculous Medal was revealed to St. Catherine Labouré in 1830 — Mary standing on the globe, rays from her hands, &quot;O Mary conceived without sin, pray for us who have recourse to thee.&quot; Worn for devotion; miracles reported through her intercession.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The Miraculous Medal is more than a piece of metal; it is a <strong>sacramental</strong>—a sacred sign instituted by the Church through which, by the intercession of Mary, we receive various spiritual effects and protections.

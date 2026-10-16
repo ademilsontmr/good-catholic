@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicBibleStudyGuide() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicBibleStudyGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic Bible study uses a approved translation, Catechism, and commentaries faithful to the Church — small groups at parish, Augustine Institute, or Bible Timeline programs. Avoid study that rejects Magisterial authority on disputed passages.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Introduction: Catholics and the Bible</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-study-guide">

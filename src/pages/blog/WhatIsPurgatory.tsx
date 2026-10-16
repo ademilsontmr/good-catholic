@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsPurgatory() {
   return (
@@ -94,6 +95,7 @@ export default function WhatIsPurgatory() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Purgatory is Catholic teaching that souls who die in God&apos;s grace but still need purification undergo cleansing before entering heaven — not a second chance, but completion of holiness. Catholics pray for the holy souls, offer Masses for them, and gain indulgences to help shorten their purification.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The word "Purgatory" comes from the Latin <em>purgare</em>, meaning "to make clean." According to the <strong>Catechism of the Catholic Church (CCC 1030-1032)</strong>, all who die in God's grace and friendship, but still imperfectly purified, are indeed assured of their eternal salvation; but after death they undergo purification, so as to achieve the holiness necessary to enter the joy of heaven.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsTheCatholicMass() {
   return (
@@ -74,6 +75,7 @@ export default function WhatIsTheCatholicMass() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Mass is the central act of worship — the Liturgy of the Word (Scripture and homily) and the Liturgy of the Eucharist (Consecration and Communion) re-present Christ&apos;s sacrifice. Sunday Mass is obligatory for Catholics; the Mass is the same worldwide, united with the Pope and bishops.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-mass-guide">
                 For a billion Catholics worldwide, the Mass is the center of life. It is the moment when heaven and earth meet, when the sacrifice of Calvary is made present, when the risen Christ gives Himself as food for the journey. Understanding the Mass — its structure, its theology, its history — transforms it from a ritual to be endured into an encounter to be embraced.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintWhoAdvisedEmperors() {
   return (
@@ -87,6 +88,7 @@ export default function SaintWhoAdvisedEmperors() {
                   The saint most famous for advising emperors is <strong>St. Ambrose of Milan</strong> (c. 340–397), who publicly corrected Emperor Theodosius after the Massacre of Thessalonica and imposed penance before readmitting him to Communion. Other saints who counseled rulers include <strong>St. John of Egypt</strong> (desert hermit, emperors sought his wisdom), <strong>St. Leo the Great</strong> (faced Attila), and <strong>St. Basil the Great</strong>.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">St. Ambrose — Bishop Who Corrected an Emperor</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">

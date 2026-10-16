@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function AllSoulsDayNovember22026Guide() {
   return (
@@ -78,6 +79,7 @@ export default function AllSoulsDayNovember22026Guide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: "All Souls' Day is <strong>Monday, November 2, 2026</strong>. Catholics pray for the holy souls in purgatory — especially at Mass, in November indulgences, and through cemetery visits." }} />
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">

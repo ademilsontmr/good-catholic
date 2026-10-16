@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnEndTimes() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnEndTimes() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic eschatology teaches Christ will return in glory to judge the living and dead — the general resurrection, new heaven and earth, and definitive triumph of good. The Church warns against date-setting and fear-mongering; live ready through sacraments, charity, and hope, not apocalyptic speculation.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-end-times">
                 Eschatology — the theological study of the "last things" — is one of the richest and most neglected areas of Catholic theology. The Catechism devotes significant attention to it (CCC 668-682, 1020-1060), and the Church's teaching is both more nuanced and more hopeful than most people realize.

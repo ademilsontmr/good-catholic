@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnEuthanasia() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicTeachingOnEuthanasia() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic teaching rejects euthanasia and assisted suicide — intentionally causing or aiding death to eliminate suffering violates the dignity of the human person. The Church permits refusing overly burdensome treatment and supports palliative care that manages pain while respecting natural death as God&apos;s appointed time.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-euthanasia">
                 Euthanasia and assisted suicide are among the most pressing moral issues of our time. As these practices become legal in more states and countries, Catholics are increasingly asked — by family members, by healthcare workers, by society — to take a position. The Catholic Church's position is clear, consistent, and rooted in a profound respect for human life and dignity.

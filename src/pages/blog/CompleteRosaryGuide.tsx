@@ -12,6 +12,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CompleteRosaryGuide() {
   return (
@@ -75,6 +76,7 @@ export default function CompleteRosaryGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Rosary is a Catholic devotion meditating on Christ&apos;s life through twenty mysteries while praying one Our Father, ten Hail Marys, and one Glory Be per decade. Catholics use rosary beads to count prayers; the full Rosary takes about 15–20 minutes and is among the most popular prayers in the world.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-rosary-guide">
                 Pope Paul VI called the Rosary "the compendium of the entire Gospel." St. John Paul II, who added the Luminous Mysteries in 2002, said: "The Rosary is my favorite prayer." St. Padre Pio called it "the weapon" — the most powerful spiritual weapon against evil. Our Lady of Fatima asked the three shepherd children to pray the Rosary every day. If you want one prayer to anchor your spiritual life, this is it.

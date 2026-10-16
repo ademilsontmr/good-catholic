@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintPeregrineNovena() {
   return (
@@ -91,6 +92,7 @@ export default function SaintPeregrineNovena() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Peregrine (1260–1345) — patron of cancer patients — received healing of his leg after prayer before a crucifix. His novena is popular in hospitals and among the seriously ill; feast May 1; black habit of Servite order identifies his iconography.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 Saint Peregrine Laziosi is known worldwide as the <strong>"Patron Saint of those suffering from cancer."</strong> His life is a testament to the power of repentance, the importance of the internal struggle, and the possibility of miraculous healing through the intercession of the saints.

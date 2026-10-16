@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StSimonAndJudeFeastOctober282026() {
   return (
@@ -80,6 +81,7 @@ export default function StSimonAndJudeFeastOctober282026() {
                   <strong>The Feast of Saints Simon and Jude is Wednesday, October 28, 2026.</strong> To finish a classic nine-day St. Jude novena on the feast, begin praying on <strong>Monday, October 20, 2026</strong>.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">
                 <h2 className="font-display text-xl font-bold text-text mb-3 flex items-center gap-2 mt-0">

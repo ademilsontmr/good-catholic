@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsCatholicFaith() {
   return (
@@ -74,6 +75,7 @@ export default function WhatIsCatholicFaith() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic faith is assent to God&apos;s revelation in Christ, preserved in Scripture and Tradition and taught by the Magisterium — lived through sacraments, moral life, and prayer. It is relational trust in Jesus and obedience to the Church he founded, not mere intellectual agreement.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catholic-faith">
                 Whether you are a seeker exploring Christianity for the first time, a lapsed Catholic returning to the faith, or someone who simply wants to understand what their Catholic neighbors believe, this introduction covers the essentials. The Catholic faith is not merely a set of rules or rituals — it is a comprehensive vision of God, humanity, and the universe, rooted in 2,000 years of Scripture, Tradition, and lived experience.

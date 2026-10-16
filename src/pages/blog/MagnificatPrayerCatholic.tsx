@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function MagnificatPrayerCatholic() {
   return (
@@ -60,6 +61,7 @@ export default function MagnificatPrayerCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Magnificat is Mary&apos;s canticle in Luke 1:46–55 — &quot;My soul magnifies the Lord&quot; — prayed nightly in Vespers (Evening Prayer of the Liturgy of the Hours). Catholics meditate on Mary&apos;s humility and God&apos;s justice; it is central to Advent and Marian feasts.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Magnificat (English — Luke 1:46–55)</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6 text-text italic leading-relaxed text-sm space-y-3">

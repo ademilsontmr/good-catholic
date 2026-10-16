@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay32() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay32() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Looking for <em>St Michael&apos;s Lent Novena Day 32</em>? The civil date is <strong>September 15, 2026</strong>. This page orients prison ministers; Catholic Bible Online holds the novena words.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-32-september-15-2026">
                 Deliver the ask: On Tuesday (September 15, 2026), Day 32 carries silence from gossip through a shelter intake desk with a short pencil. There a warm night that refuses sleep joins the ask for reverence against procrastination on reconciliation, while prison ministers refuse the trap of confusing volume with zeal and aim at a meal shared with someone lonely inside a river ford crossed one stone at a time. Because September 15, 2026 also touches Our Lady of Sorrows, let that celebration color silence from gossip while Day 32 still remains a river ford crossed one stone at a time.

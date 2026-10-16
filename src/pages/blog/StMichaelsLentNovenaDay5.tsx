@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay5() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay5() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Day 5 (August 19, 2026) confronts greed that never says enough by requesting prudence while you carry healing after betrayal into St. Michael&apos;s Lent Novena.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-5-august-19-2026">
                 Receive Day work: On Wednesday (August 19, 2026), Day 5 carries healing after betrayal through a recovery room where someone counts days again. There cloud cover that matches interior dryness joins the ask for prudence against greed that never says enough, while catechists refuse the trap of skipping Mass because private devotion feels enough and aim at a child who saw you finish prayer inside a quiet barracks drill for the soul. The holiness of Day 5 is measured by a child who saw you finish prayer around healing after betrayal, not by whether a feast fills the missal.

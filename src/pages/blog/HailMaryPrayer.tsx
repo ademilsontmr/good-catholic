@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HailMaryPrayer() {
   return (
@@ -79,6 +80,7 @@ export default function HailMaryPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Hail Mary is the central Catholic Marian prayer, built from Gabriel&apos;s greeting and Elizabeth&apos;s words in Luke 1, plus a petition for Mary&apos;s intercession at death. Catholics pray it in the Rosary, at the end of Compline, and in countless devotions — it is not worship of Mary but honor and request for her prayers.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Hail Mary Prayer Full Text</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">

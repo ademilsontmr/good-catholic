@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function AllSaintsAllSoulsDay() {
   return (
@@ -79,6 +80,7 @@ export default function AllSaintsAllSoulsDay() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">All Saints (November 1) honors every saint in heaven; All Souls (November 2) prays for the faithful departed in purgatory. Both are Holy Days in the U.S. calendar — Mass, visiting cemeteries, and indulgences for the dead are traditional practices.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="all-saints-day-all-souls-day">
                 In a culture that increasingly avoids the reality of death, the Catholic Church does something countercultural in early November: it spends two full days contemplating death, the afterlife, and the destiny of the human soul. Far from being morbid, these days are among the most hopeful in the entire liturgical year — because they are rooted in the Christian conviction that death is not the end.

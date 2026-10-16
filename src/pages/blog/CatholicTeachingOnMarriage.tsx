@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnMarriage() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnMarriage() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic marriage is a lifelong covenant between one man and one woman, raised by Christ to a sacrament that signifies and confers grace. The Church teaches marriage is indissoluble, open to children, and a vocation of mutual self-gift — civil divorce does not dissolve a valid sacramental bond.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-marriage">
                 In a culture that increasingly treats marriage as a temporary arrangement subject to personal satisfaction, the Catholic Church stands firm: marriage between a baptized man and woman is a sacrament instituted by Christ, indissoluble by its very nature, and ordered toward the good of the spouses and the procreation and education of children. Understanding what the Church teaches — and why — is essential for every Catholic who wants to live this vocation faithfully.

@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLent2026() {
   return (
@@ -79,6 +80,7 @@ export default function StMichaelsLent2026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>St Michael's Lent 2026</strong> begins <strong>Friday, August 15</strong> (Assumption) and ends <strong>Tuesday, September 29</strong> (Feast of the Archangels / Michaelmas). It is a Franciscan-rooted season of prayer, fasting, and spiritual combat — a pious custom, not a second Easter Lent with canonical fasting laws.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

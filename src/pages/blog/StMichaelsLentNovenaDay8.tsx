@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay8() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay8() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Looking for <em>St Michael&apos;s Lent Novena Day 8</em>? The civil date is <strong>August 22, 2026</strong>. This page orients men&apos;s group leaders; Catholic Bible Online holds the novena words.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-8-august-22-2026">
                 Mark the calendar: On Saturday (August 22, 2026), Day 8 carries protection for police and military friends through a dorm desk lit by a cheap lamp at 1 a.m.. There a night sky clear enough to humble plans joins the ask for charity against despair disguised as realism, while men&apos;s group leaders refuse the trap of making Day 8 a performance for a group chat and aim at alms given without announcement inside a school of courage without applause. Because August 22, 2026 also touches the Queenship of Mary, let that celebration color protection for police and military friends while Day 8 still remains a school of courage without applause.

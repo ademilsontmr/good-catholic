@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnScience() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnScience() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Faith and science cannot ultimately conflict — both seek truth; God is author of Scripture and nature. The Church founded universities, supports ethical research, and rejects scientism that denies the soul; Galileo&apos;s case is often misunderstood — the Magisterium affirms legitimate scientific discovery.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-science">
                 The idea that faith and science are at war is a relatively recent invention — a narrative constructed in the 19th century by writers like John William Draper and Andrew Dickson White, whose "conflict thesis" has been thoroughly debunked by modern historians of science. The actual history of the relationship between the Catholic Church and science is far more complex, and far more positive, than the popular myth suggests.

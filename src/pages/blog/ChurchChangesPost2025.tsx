@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ChurchChangesPost2025() {
     return (
@@ -90,6 +91,7 @@ export default function ChurchChangesPost2025() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Church changes after 2025 include ongoing implementation of synodal recommendations, liturgical translations, and papal directives — Catholics follow their bishop and Rome for authoritative updates, not social media speculation about unapproved reforms.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="church-changes-post-2025">
                                 With the closing of the Holy Doors in January 2026, the Catholic Church enters a new cycle. The Jubilee of 2025 left a deep mark on global spirituality, but now the challenge is the "pastoral of hope" — how to transform the enthusiasm of pilgrimages into lasting Christian commitment.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToGoToConfession() {
   return (
@@ -106,6 +107,7 @@ export default function HowToGoToConfession() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">To go to Confession, examine your conscience, enter the confessional, tell the priest your sins and how long since your last confession, listen to counsel, perform your penance, and pray the Act of Contrition. The priest absolves you in Christ&apos;s name — the seal of Confession is absolute in Catholic law.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 Most Catholics view Confession as an obligation. The expert views it as a <strong>reset button for eternity</strong>. In the confessional, the priest acts <em>In Persona Christi</em>—it is not a man who hears you, but Jesus Christ Himself using the priest's vocal cords to pronounce the words of absolution.

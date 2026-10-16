@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicParentingGuide() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicParentingGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic parenting means raising children as the domestic Church — parents are the first educators in faith, virtue, and prayer, with the parish and sacraments supporting family life.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-parenting-guide">
                 Catholic parenting is both a great privilege and a profound responsibility. The Church teaches that parents are the first and most important educators of their children in the faith. This sacred duty requires wisdom, patience, and above all, reliance on God's grace.
               </LinkedText>

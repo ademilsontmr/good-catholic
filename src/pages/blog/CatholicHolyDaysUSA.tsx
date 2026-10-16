@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicHolyDaysUSA() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicHolyDaysUSA() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">U.S. Holy Days of Obligation are six: Mary Mother of God (Jan 1), Ascension (Thursday or Sunday per diocese), Assumption (Aug 15), All Saints (Nov 1), Immaculate Conception (Dec 8), and Christmas — when not transferred or abrogated. Catholics must attend Mass unless excused; check your diocese annually.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-holy-days-of-obligation-usa">
                 Most Catholics know they are required to attend Mass on Sundays. But the Church also designates certain feast days throughout the year as Holy Days of Obligation — days when the faithful are bound to attend Mass, just as on Sundays. In the United States, the bishops have established six such days, and they have also granted important dispensations that affect when the obligation applies.

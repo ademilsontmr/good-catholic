@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhyMenReturnToCatholicChurch() {
   return (
@@ -74,6 +75,7 @@ export default function WhyMenReturnToCatholicChurch() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Young men are returning to Catholicism seeking truth, tradition, brotherhood, and the Real Presence — trends visible in TLM parishes, campus ministries, and online Catholic media. The Church offers masculine saints, clear doctrine, and sacramental life that secular culture cannot replicate.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-men-return-to-catholic-church">
                 For decades, the story of religion in America was one of male flight. Men left churches at higher rates than women. Young men were the least religious demographic in the country. The "nones" — those with no religious affiliation — were disproportionately male. Churches responded by trying to make their services more welcoming to men, with mixed results.

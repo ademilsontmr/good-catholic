@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HolySpiritPrayerForDecisionsCatholic() {
   return (
@@ -60,6 +61,7 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Holy Spirit prayer for decisions is a Catholic invocation of Come, Holy Spirit before major choices — marriage, vocation, career, or medical ethics — combined with Scripture, counsel, and examination of conscience.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Discernment is a classic Catholic word for seeking God&apos;s will. The Holy Spirit — the Third Person of the Trinity — is called the Spirit of Truth (John 16:13). Before major decisions, Catholics ask this Spirit to enlighten the mind and strengthen the will toward what is good.</LinkedText>
 

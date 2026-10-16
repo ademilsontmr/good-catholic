@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicPrayersGuide() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicPrayersGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Essential Catholic prayers include the Our Father, Hail Mary, Glory Be, Apostles&apos; Creed, Act of Contrition, and prayers of the Rosary — prayed at Mass, in the home, and before sacraments. Catholics learn these from childhood; each connects the believer to Scripture, the Church, and centuries of tradition.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayers-complete-guide">
                 The Catholic tradition is one of the richest prayer traditions in the world. Over two thousand years, the Church has developed a treasury of prayers — from the simple Sign of the Cross to the complex Liturgy of the Hours — that cover every moment of the day, every season of life, and every need of the human heart.

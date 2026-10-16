@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicVsProtestant() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicVsProtestant() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics and Protestants share faith in Christ and the Bible but differ on authority (Scripture + Tradition vs sola Scriptura), the Eucharist (Real Presence vs memorial), Mary and saints, the papacy, and seven sacraments vs two. Dialogue focuses on shared creeds while honestly addressing 500 years of division since the Reformation.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The Protestant Reformation wasn't just a political split; it was a revolution in <strong>Epistemology</strong> (how we know what is true). While Protestants and Catholics share 90% of the Creed—including the Trinity and the Resurrection—the 10% we disagree on changes how we live our daily lives.

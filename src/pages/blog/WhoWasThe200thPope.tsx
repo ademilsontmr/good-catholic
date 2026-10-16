@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhoWasThe200thPope() {
   return (
@@ -86,6 +87,7 @@ export default function WhoWasThe200thPope() {
                   The <strong>200th pope of the Catholic Church was Blessed Urban V</strong> (Guillaume de Grimoard), who reigned from <strong>28 September 1362 to 19 December 1370</strong>. A Benedictine monk and canon lawyer, he attempted to return the papacy from Avignon to Rome, reformed universities, and supported missions — though the Avignon exile would resume after his death until Gregory XI.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Quick Facts: Pope Urban V (200th Pope)</h2>
               <div className="overflow-x-auto mb-8">

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ConsecratYourHome() {
   return (
@@ -91,6 +92,7 @@ export default function ConsecratYourHome() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Consecrating your home to the Sacred Heart or Immaculate Heart involves priestly blessing when possible, enthronement image, family prayer, and renewal of baptismal promises — making the domestic church a place of prayer and virtue.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-consecrate-your-home-to-god">
                 In a culture that increasingly separates faith from daily life, the Catholic tradition of blessing and consecrating the home stands as a powerful counter-witness. When you hang a crucifix above your door, place a holy water font at the entrance, or gather your family for evening prayer, you are declaring that this home belongs to God — that Christ is Lord here, not the world. This guide will walk you through everything you need to know about blessing and consecrating your Catholic home.

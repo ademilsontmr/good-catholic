@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintIgnatiusOfLoyola() {
   return (
@@ -74,6 +75,7 @@ export default function SaintIgnatiusOfLoyola() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Ignatius of Loyola (1491–1556) — soldier turned mystic — founded the Jesuits and wrote the Spiritual Exercises. Patron of retreats and soldiers; discernment of spirits and &quot;Ad majorem Dei gloriam&quot; define Ignatian spirituality worldwide.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-ignatius-of-loyola">
                 Saint Ignatius of Loyola (1491–1556) is one of the most consequential figures in the history of the Catholic Church. A Spanish nobleman and soldier who underwent a dramatic conversion after being wounded in battle, he went on to found the Society of Jesus — the Jesuits — one of the largest and most influential religious orders in history. His Spiritual Exercises, a structured program of prayer and discernment, has shaped the spiritual lives of millions of Catholics over five centuries and remains one of the most widely used tools for spiritual direction in the Church today.

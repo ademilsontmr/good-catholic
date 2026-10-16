@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BlessedCarloAcutis() {
   return (
@@ -91,6 +92,7 @@ export default function BlessedCarloAcutis() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Blessed Carlo Acutis (1991–2006) was an Italian teenager who catalogued Eucharistic miracles online and lived daily Mass and adoration — beatified in 2020, patron example for youth and digital evangelization. His feast is October 12.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="blessed-carlo-acutis">
                 In an age when the Church is often accused of being out of touch with young people, Carlo Acutis stands as a powerful counterwitness. He was born in 1991, grew up with the internet, loved video games and soccer, had a gift for computer programming — and was also one of the most devout Catholics of his generation. His life proves that holiness is not reserved for another era or another kind of person. It is available to every teenager, every gamer, every ordinary young person who chooses to put God first.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnDrugs() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnDrugs() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Recreational drug use is gravely sinful for Catholics — it harms the body, distorts reason, and violates the Fifth Commandment. Medical use under supervision differs; addiction requires treatment, Confession, and community support; the Church opposes legalization that normalizes harm.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-drugs">
                 The Catholic Church's teaching on drugs is grounded in a single, powerful principle: the human body is a temple of the Holy Spirit (1 Corinthians 6:19–20), and we are stewards — not owners — of our own lives. This means we have a moral obligation to care for our physical and mental health, and that deliberately harming ourselves through substance abuse is a sin against the dignity God has given us.

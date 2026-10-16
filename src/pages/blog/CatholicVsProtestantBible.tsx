@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicVsProtestantBible() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicVsProtestantBible() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Bible includes 73 books — 46 Old Testament (with seven deuterocanonical books) and 27 New Testament. Protestant Bibles typically have 66 books, omitting Tobit, Judith, Wisdom, Sirach, Baruch, 1–2 Maccabees, and added sections of Esther and Daniel.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-vs-protestant-bible">
                 If you walk into a bookstore and pick up a Catholic Bible and a Protestant Bible, you'll quickly notice a difference in the table of contents. While both Bibles share the same 27 books in the New Testament, they differ significantly in the Old Testament. 

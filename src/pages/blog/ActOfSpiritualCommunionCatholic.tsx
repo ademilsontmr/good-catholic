@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ActOfSpiritualCommunionCatholic() {
   return (
@@ -60,6 +61,7 @@ export default function ActOfSpiritualCommunionCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Act of Spiritual Communion is a Catholic prayer expressing desire to receive Jesus in the Eucharist when sacramental Communion is impossible — during illness, travel, or before Mass. St. Alphonsus Liguori popularized the classic English text.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-spiritual-communion-catholic">Spiritual Communion is a prayer expressing the longing to receive Jesus in the Blessed Sacrament when sacramental Communion is not possible. It does not replace the Eucharist, but it keeps the heart oriented toward Christ&apos;s Real Presence.</LinkedText>
 

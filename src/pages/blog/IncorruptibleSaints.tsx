@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function IncorruptibleSaints() {
   return (
@@ -91,6 +92,7 @@ export default function IncorruptibleSaints() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Incorruptible saints are bodies that did not decay normally after death — considered a sign of holiness, not proof alone. Examples include St. Bernadette and St. Catherine of Bologna; the Church examines scientifically while cautioning against sensationalism.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="incorruptible-saints-miracle">
                 Incorruptibility is one of the "Sacramentals of the Body" in Catholic tradition. While most saints decay naturally, God has chosen a select few to serve as physical signs of the coming Resurrection. 

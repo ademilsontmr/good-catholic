@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SundayMass() {
   return (
@@ -91,6 +92,7 @@ export default function SundayMass() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Sunday Mass is the primary weekly worship for Catholics — celebrating the Lord&apos;s Day with Scripture, Eucharist, and community. The obligation binds every Catholic except when illness or impossibility excuses; Saturday evening vigil Mass (typically after 4 p.m.) fulfills the Sunday duty in the United States.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sunday-mass">
                 Sunday Mass is the beating heart of Catholic life, the most important meeting of the week, the moment when Heaven touches earth. Since the early times of the Church, Christians gathered on the "Lord's Day" – Sunday, the day of the Resurrection – to celebrate the Eucharist, even at risk of persecution and death. The martyrs of Abitina, in the 4th century, declared before the Roman tribunal: "Without Sunday we cannot live."

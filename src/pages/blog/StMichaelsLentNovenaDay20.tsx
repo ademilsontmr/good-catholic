@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay20() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay20() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Looking for <em>St Michael&apos;s Lent Novena Day 20</em>? The civil date is <strong>September 3, 2026</strong>. This page orients immigrants far from home; Catholic Bible Online holds the novena words.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-20-september-3-2026">
                 Pray the date: On Thursday (September 3, 2026), Day 20 carries provision in financial fear through a rectory kitchen where staff eat standing up. There sun glare on a parking-lot windshield joins the ask for courage against resentment toward authority, while immigrants far from home refuse the trap of letting kids see only intensity, never ordinary fidelity and aim at serving in an unnoticed parish task inside a harbor light for returning Catholics. The holiness of Day 20 is measured by serving in an unnoticed parish task around provision in financial fear, not by whether a feast fills the missal.

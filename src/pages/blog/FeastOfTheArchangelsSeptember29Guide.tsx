@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function FeastOfTheArchangelsSeptember29Guide() {
   return (
@@ -87,6 +88,7 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
                   The Feast of Saints Michael, Gabriel, and Raphael — Archangels — is September 29, 2026 (Tuesday). Also called Michaelmas, it honors the three archangels named in the Bible. Catholics celebrate with Mass, the St. Michael Prayer, and devotion asking protection (Michael), God&apos;s word (Gabriel), and healing on life&apos;s journey (Raphael). It is not a U.S. holy day of obligation.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

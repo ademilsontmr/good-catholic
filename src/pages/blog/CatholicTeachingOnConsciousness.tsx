@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnConsciousness() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnConsciousness() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church teaches the human soul is spiritual and immortal — consciousness reflects the rational soul made in God&apos;s image, not reducible to brain chemistry alone. Ethical issues at end of life (PVS, brain death) require careful moral criteria; the soul is the form of the body.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-conscience-catholic">
                 In contemporary culture, "follow your conscience" has come to mean "do whatever feels right to you." It is invoked to justify virtually any moral choice, as if conscience were simply a synonym for personal preference or subjective feeling. But this is not what the Catholic Church teaches. The Catholic understanding of conscience is richer, more demanding, and ultimately more respectful of human dignity than the popular version.

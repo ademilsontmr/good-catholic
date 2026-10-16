@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay15() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay15() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>August 29, 2026</strong> is Day 15 on the Assumption-to-Michaelmas road. Name humility at work, ask for perseverance, and refuse ignoring your priest while chasing online exorcism content.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-15-august-29-2026">
                 Stay concrete: On Saturday (August 29, 2026), Day 15 carries humility at work through a nursery rocking chair at 3 a.m.. There a breeze that finally moves the curtains joins the ask for perseverance against cynicism about the Church, while engaged couples refuse the trap of ignoring your priest while chasing online exorcism content and aim at sleep after honest examen inside a field hospital for bruised consciences. The holiness of Day 15 is measured by sleep after honest examen around humility at work, not by whether a feast fills the missal.

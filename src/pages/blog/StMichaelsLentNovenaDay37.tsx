@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay37() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay37() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael&apos;s Lent Novena <strong>Day 37</strong> falls on <strong>Sunday, September 20, 2026</strong>. Bring protection of priests into the prayers, then open Catholic Bible Online for the complete Day 37 page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-37-september-20-2026">
                 Honor the path: On Sunday (September 20, 2026), Day 37 carries protection of priests through a campus quad where faith feels unfashionable. There frost-free dew on a lawn joins the ask for poverty of spirit against cruelty in anonymous comments, while choir members refuse the trap of forgetting Mary while talking about angels and aim at a phone-free fragment of holy time inside a marching cadence for the will. Ordinary Sunday becomes holy when Day 37 carries protection of priests without waiting for a feast banner.

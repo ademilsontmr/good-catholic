@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnPatience() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnPatience() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Patience is long-suffering love — enduring delay, suffering, and others&apos; faults without sinful anger. Catholics cultivate it through prayer, acceptance of God&apos;s timing, and imitation of Christ and Mary; it opposes impulsivity and despair in trials.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-patience-catholic">
                 We live in an age that has declared war on waiting. Technology has compressed time to the point where a delay of seconds feels intolerable. Social media has trained us to expect immediate responses, immediate validation, immediate results. And yet life — real life — is full of waiting: waiting for healing, for answers, for justice, for the fulfillment of our deepest desires. The person who cannot wait cannot live well. The Catholic tradition has always known this, and it has developed a rich theology of patience to help us bear the inevitable sufferings and delays of human existence.

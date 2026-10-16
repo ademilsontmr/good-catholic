@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DivineOfficeLaity() {
   return (
@@ -92,6 +93,7 @@ export default function DivineOfficeLaity() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Laity may pray the Divine Office (Liturgy of the Hours) — Morning Prayer and Evening Prayer are most common; apps and single-volume Christian Prayer make it accessible. It unites lay faithful with clergy and the universal Church in daily psalmody.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
                 The Liturgy of the Hours—also known as the Divine Office—is not just for priests and religious. Lay Catholics are increasingly discovering this ancient prayer of the Church, which sanctifies the entire day through psalms, readings, and intercession.

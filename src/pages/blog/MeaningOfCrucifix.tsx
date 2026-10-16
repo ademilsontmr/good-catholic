@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function MeaningOfCrucifix() {
     return (
@@ -90,6 +91,7 @@ export default function MeaningOfCrucifix() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The crucifix shows Christ crucified — Catholics display it in churches and homes as reminder of redemptive suffering, not morbid focus. It differs from an empty cross (Protestant emphasis on Resurrection); both truths belong to full Christian faith.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="meaning-of-crucifix">
                                 To the world, the cross is foolishness or scandal; to us Catholics, it is the sign of victory and the supreme proof of God's love. The crucifix (the cross with the image of Jesus) constantly reminds us of the price paid for our salvation and Jesus' invitation: "Whoever wants to follow me, take up your cross and follow me."

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NovenaForAnxietyCatholic() {
   return (
@@ -59,6 +60,7 @@ export default function NovenaForAnxietyCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A novena for anxiety is a nine-day Catholic prayer asking Christ, Mary, and Saint Dymphna for peace when worry overwhelms you. Pray once daily for nine consecutive days, naming your intention and combining prayer with professional care when needed.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Catholics facing anxiety turn first to Christ, who calmed the storm on the Sea of Galilee. Many also invoke Mary as Comforter of the Afflicted and Saint Dymphna — patroness of those with mental and nervous disorders — whose shrine in Massillon, Ohio, draws thousands of American pilgrims each year. Anxiety is not weak faith; it is a human condition Christ entered in the Incarnation.</LinkedText>

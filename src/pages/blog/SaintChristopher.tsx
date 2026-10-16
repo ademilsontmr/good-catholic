@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintChristopher() {
   return (
@@ -79,6 +80,7 @@ export default function SaintChristopher() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Christopher — legend carries Christ as a child across a river — patron of travelers, motorists, and pilots. Though removed from universal calendar in 1969, local devotion continues; medals on cars reflect prayer for safe journey under Christ&apos;s protection.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-christopher">
                 Saint Christopher is one of the most popular saints in the Catholic Church, yet he is also one of the most mysterious. The historical evidence for his existence is limited, and in 1969 the Catholic Church removed his feast from the universal calendar — a decision that caused considerable controversy. Yet devotion to Christopher has never waned. Millions of Catholics continue to wear his medal and invoke his protection on their journeys.

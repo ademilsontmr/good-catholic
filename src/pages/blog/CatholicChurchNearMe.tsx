@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicChurchNearMe() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicChurchNearMe() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">To find a Catholic church near you, use your diocese&apos;s parish finder, Google Maps, or MassTimes.org — verify Mass times, language (English, Spanish, Latin), and whether the parish offers RCIA, confession, or adoration. Any valid Catholic Mass worldwide fulfills the Sunday obligation.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-church-near-me">
                 The Catholic Church is the largest Christian denomination in the United States, with approximately 70 million Catholics and over 17,000 parishes spread across all 50 states. Whether you are a lifelong Catholic who has moved to a new city, someone returning to the faith after years away, or a non-Catholic curious about attending Mass, finding the right parish is one of the most important steps in your Catholic journey.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function GuardianAngelPrayer() {
   return (
@@ -79,6 +80,7 @@ export default function GuardianAngelPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Guardian Angel prayer asks one&apos;s personal angel — assigned at birth per Catholic tradition — to light, guard, rule, and guide. Children learn it at bedtime; adults pray it for protection against evil and guidance in daily choices (cf. Matthew 18:10, Psalm 91).</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Guardian Angel Prayer Full Text</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">

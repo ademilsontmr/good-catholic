@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BestCatholicPrayerApps() {
   return (
@@ -74,6 +75,7 @@ export default function BestCatholicPrayerApps() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The best Catholic prayer apps in 2026 are Hallow (guided prayer &amp; meditation), Laudate (free all-in-one prayers &amp; readings), and Universalis (liturgy of the hours). Formed.org excels for video; pick by budget, platform, and whether you want Rosary, daily Mass readings, or Lectio Divina.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Introduction: Faith in the Digital Age</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="best-catholic-prayer-apps-2026">

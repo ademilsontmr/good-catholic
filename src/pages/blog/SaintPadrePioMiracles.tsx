@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintPadrePioMiracles() {
   return (
@@ -92,6 +93,7 @@ export default function SaintPadrePioMiracles() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Padre Pio&apos;s miracles include stigmata lasting fifty years, bilocation, reading souls in Confession, and countless healings reported at San Giovanni Rotondo. The Church approved his sanctity; Catholics distinguish approved miracles from pious legends while honoring his intercession.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-padre-pio-miracles">
               St. Padre Pio of Pietrelcina was one of the most extraordinary saints of the 20th century. His miraculous gifts—including the stigmata, bilocation, and reading of souls—drew millions to faith and continue to inspire devotion today.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DoCatholicsWorshipMary() {
   return (
@@ -93,6 +94,7 @@ export default function DoCatholicsWorshipMary() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics do not worship Mary — latria (adoration) belongs to God alone. Catholics honor Mary with hyperdulia (highest veneration of a creature) because she is Mother of God and cooperated in salvation; every Marian prayer leads back to Christ, such as the Hail Mary ending with &quot;pray for us sinners.&quot;</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 Understanding Marian devotion is not about "rules"—it is about <strong>Biblical Typology</strong>. To the Catholic expert, Mary is not an obstacle to Jesus; she is the gateway. As a window doesn't stop the light but transmits it, Mary transmits the glory of God to us.

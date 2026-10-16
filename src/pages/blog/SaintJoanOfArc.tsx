@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintJoanOfArc() {
   return (
@@ -74,6 +75,7 @@ export default function SaintJoanOfArc() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Joan of Arc (1412–1431) — the Maid of Orléans — heard saints&apos; voices calling her to restore France&apos;s dauphin and expel English invaders. Captured, tried for heresy, and burned at the stake, she was vindicated and canonized; patron of France, soldiers, and those ridiculed for faith.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joan-of-arc">
                 Saint Joan of Arc (c. 1412–1431) is one of the most extraordinary figures in the history of Christianity — and in the history of the world. In less than two years, she transformed the course of the Hundred Years' War, led the French army to a series of stunning victories, and secured the coronation of the French king. Then she was captured, tried for heresy by a court of French bishops collaborating with the English, and burned at the stake at the age of 19. Twenty-five years later, a retrial declared her innocent. Five centuries later, the Catholic Church declared her a saint.

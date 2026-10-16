@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 const SLEEP_CALCULATOR_URL = "https://sleepcalculator.bio";
 
@@ -139,6 +140,7 @@ export default function QualitySleepAndFaithCatholic() {
                   Quality sleep strengthens Catholic faith by restoring the body and mind you need for prayer, Sunday Mass, charity, and moral courage. Chronic sleep deprivation dulls concentration during the Rosary, shortens patience with family, and weakens resistance to sin — while aligned sleep cycles help you wake refreshed for morning offering and daily duties.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Why the Church Cares About Rest

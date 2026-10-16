@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SevenSacraments() {
   return (
@@ -92,6 +93,7 @@ export default function SevenSacraments() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The seven sacraments are Baptism, Confirmation, Eucharist, Penance, Anointing of the Sick, Holy Orders, and Matrimony — visible signs instituted by Christ that confer grace. Catholics receive sacraments throughout life; the Eucharist is the source and summit, while Baptism initiates into the Church.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 To understand the sacraments, one must understand <strong>Ex Opere Operato</strong>. This Latin phrase means "from the work worked." It signifies that the grace of a sacrament does not depend on the personal holiness of the priest, but on the power of Christ working through him. If the "Matter" and "Form" are correct, the grace is transmitted.

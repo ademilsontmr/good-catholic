@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NightPrayerCatholic() {
   return (
@@ -93,6 +94,7 @@ export default function NightPrayerCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic night prayer (Compline) includes examination of conscience, act of contrition, Psalm 4 or 91, and entrusting sleep to God — &quot;Into your hands, O Lord, I commend my spirit.&quot; Many families pray a simplified version with children.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="night-prayer-catholic">
                 The Church has always sanctified the night with prayer. From the earliest centuries, Christians gathered in the evening to pray — to give thanks for the day, to ask forgiveness for failures, to commend themselves to God's protection through the night. This tradition lives on in the Liturgy of the Hours, in family bedtime prayers, and in the personal evening prayer of millions of Catholics around the world.

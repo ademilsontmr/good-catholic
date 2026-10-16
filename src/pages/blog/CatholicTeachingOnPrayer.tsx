@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnPrayer() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic prayer is raising heart and mind to God — vocal (Our Father, Rosary), meditative (lectio divina), and contemplative (silent union). The Church teaches set times (Morning Offering, Angelus), liturgical prayer (Mass, Divine Office), and that prayer requires faith, humility, and persistence.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-prayer-catholic">
                 Every human being prays — or has prayed, or longs to pray. Even those who claim not to believe in God find themselves, in moments of crisis or wonder, reaching out toward something beyond themselves. This reaching out is the beginning of prayer. The Catholic tradition takes this universal human impulse and gives it a name, a form, and a depth that transforms it from a vague spiritual instinct into a living relationship with the God who made us and loves us.

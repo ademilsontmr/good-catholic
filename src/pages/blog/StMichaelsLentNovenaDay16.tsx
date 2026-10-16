@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay16() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay16() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic guide for <strong>Day 16</strong> (August 30, 2026): unique counsel aimed at those in recovery, with links to the novena index and Day 16 prayer page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-16-august-30-2026">
                 Choose fidelity: On Sunday (August 30, 2026), Day 16 carries reconciliation after a fight through a factory floor during a ten-minute break. There pollen that makes eyes water like grief joins the ask for meekness against workaholic escape from family, while those in recovery refuse the trap of naming every annoyance as a demon and aim at thanking a priest inside a bootcamp of tiny fidelities. No solemnity is required to sanctify Day 16; praying for reconciliation after a fight during a child nap already consecrates Sunday.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay34() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay34() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic guide for <strong>Day 34</strong> (September 17, 2026): unique counsel aimed at homeschool parents, with links to the novena index and Day 34 prayer page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-34-september-17-2026">
                 Face the text: On Thursday (September 17, 2026), Day 34 carries fidelity in small duties through a teacher lounge after a hard parent email. There sun after days of gloom joins the ask for diligence against anxiety that refuses to cast cares on God, while homeschool parents refuse the trap of neglecting sleep and calling exhaustion holiness and aim at hope spoken into a teenager&apos;s fear inside a clinic for confession-ready honesty. Even without a major feast, Day 34 asks homeschool parents to keep fidelity in small duties ahead of distraction.

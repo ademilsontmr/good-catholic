@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToStudyBibleCatholic() {
   return (
@@ -93,6 +94,7 @@ export default function HowToStudyBibleCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Study the Bible as a Catholic with a Church-approved translation, a study Bible with footnotes, the Catechism nearby, and a trusted commentary — read in context, follow Magisterial interpretation on disputed passages, and pray before studying.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-study-the-bible-catholic">
                 Many Catholics feel intimidated by the Bible. It is a large, complex book — 73 books written over more than a thousand years, in multiple languages, across multiple genres. Where do you start? How do you understand it? How do you read it as a Catholic, rather than just as a generic Christian?

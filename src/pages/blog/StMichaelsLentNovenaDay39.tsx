@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay39() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay39() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>September 22, 2026</strong> is Day 39 on the Assumption-to-Michaelmas road. Name hunger for Scripture, ask for steadiness, and refuse ignoring the poor at your parish door.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-39-september-22-2026">
                 Train the will: On Tuesday (September 22, 2026), Day 39 carries hunger for Scripture through a baptism prep class with restless toddlers. There air thick before a storm breaks joins the ask for steadiness against forgetfulness of blessings, while people discerning religious life refuse the trap of ignoring the poor at your parish door and aim at courage to tell the truth in love inside a stained-glass window seen from inside. Even without a major feast, Day 39 asks people discerning religious life to keep hunger for Scripture ahead of distraction.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay44() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay44() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Looking for <em>St Michael&apos;s Lent Novena Day 44</em>? The civil date is <strong>September 27, 2026</strong>. This page orients online evangelists; Catholic Bible Online holds the novena words.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-44-september-27-2026">
                 Prefer stillness: On Sunday (September 27, 2026), Day 44 carries love that serves the poor through a first-date café where you choose honesty. There open-window sounds of a distant train joins the ask for brotherly correction against spiritual consumerism, while online evangelists refuse the trap of forgetting thanksgiving when a prayer is answered and aim at a late start redeemed by finishing inside a covenant renewal written in daily ink. Even without a major feast, Day 44 asks online evangelists to keep love that serves the poor ahead of distraction.

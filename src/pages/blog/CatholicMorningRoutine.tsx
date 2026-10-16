@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicMorningRoutine() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicMorningRoutine() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Catholic morning routine may include Sign of the Cross, Morning Offering, brief Scripture, Angelus at noon prep, and review of the day&apos;s saints — setting intention before screens and work. Even ten minutes sanctifies the day.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-morning-routine">
                 The first hour of the morning is the most important hour of the day. What you do in that hour — what you think, what you pray, what you consume — sets the tone for everything that follows. The saints understood this intuitively. St. Francis de Sales said: "Half an hour's meditation each day is essential, except when you are busy. Then a full hour is needed."

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function FamilyPrayer() {
   return (
@@ -91,6 +92,7 @@ export default function FamilyPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Family prayer unites the domestic church — grace before meals, bedtime prayers with children, Rosary on feast days, and Scripture at the table. The father or mother often leads; short and regular beats rare and lengthy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-as-a-family">
                 There is a reason the Church calls the family the "domestic church." The home is meant to be a place where faith is not just professed but practiced — where God is spoken of naturally, where prayer punctuates the day, where the liturgical seasons shape the rhythm of family life. And yet, for many Catholic families, prayer together has become rare or nonexistent.

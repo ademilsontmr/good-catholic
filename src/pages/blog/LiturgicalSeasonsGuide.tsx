@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LiturgicalSeasonsGuide() {
   return (
@@ -92,6 +93,7 @@ export default function LiturgicalSeasonsGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The liturgical year moves through Advent, Christmas, Ordinary Time, Lent, Easter Triduum, and Easter season — each with distinct colors, readings, and disciplines. Sundays are the Lord&apos;s Day; feasts and memorials of saints fill the calendar.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgical-seasons-guide">
                 While the world follows the Gregorian calendar with its secular holidays, Catholics are invited to live on "sacred time" - a rhythm that shapes our prayer, our celebrations, and our very understanding of reality. Each liturgical season has its own character, colors, prayers, and spiritual focus, helping us to encounter Christ in different dimensions of His saving mystery.

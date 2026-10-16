@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintVincentDePaul() {
   return (
@@ -79,6 +80,7 @@ export default function SaintVincentDePaul() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Vincent de Paul (1581–1660) served the poor in France — founded the Vincentians and Ladies of Charity. Patron of charitable societies; St. Vincent de Paul Society operates in thousands of U.S. parishes; his feast is September 27.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-vincent-de-paul">
                 Vincent de Paul is one of the most practical saints in the history of the Church. He was not a mystic who spent his days in contemplation (though he was a man of deep prayer). He was an organizer, a fundraiser, a trainer of volunteers, a reformer of the clergy, and a tireless advocate for the poor. He founded two religious congregations and inspired a lay movement that continues to serve the poor in 150 countries today.

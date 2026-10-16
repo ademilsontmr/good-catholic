@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay35() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay35() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Day 35 (September 18, 2026) confronts coldness at Communion by requesting hospitality while you carry joy that does not deny the Cross into St. Michael&apos;s Lent Novena.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-35-september-18-2026">
                 Let the feast season: On Friday (September 18, 2026), Day 35 carries joy that does not deny the Cross through a garage workshop smelling of sawdust and oil. There wind that knocks a trash bin over joins the ask for hospitality against coldness at Communion, while diocesan staff refuse the trap of skipping the short prayer because you cannot do the long one and aim at fidelity to a small duty you usually dodge inside a threshing floor for mixed motives. The holiness of Day 35 is measured by fidelity to a small duty you usually dodge around joy that does not deny the Cross, not by whether a feast fills the missal.

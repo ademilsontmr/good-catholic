@@ -7,8 +7,10 @@ declare global {
   }
 }
 
+const TOP_SLOT = "6851981166";
+
 /** In-article unit. The adsbygoogle.js loader already lives in index.html. */
-export function BlogArticleAd() {
+export function BlogArticleAd({ slot = TOP_SLOT }: { slot?: string }) {
   const { pathname } = useLocation();
   const pushed = useRef(false);
   const isArticle = /^\/blog\/.+/.test(pathname);
@@ -31,7 +33,7 @@ export function BlogArticleAd() {
         className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client="ca-pub-7369074864505211"
-        data-ad-slot="6851981166"
+        data-ad-slot={slot}
         data-ad-format="auto"
         data-full-width-responsive="true"
       />

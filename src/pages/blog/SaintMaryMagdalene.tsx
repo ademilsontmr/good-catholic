@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintMaryMagdalene() {
   return (
@@ -74,6 +75,7 @@ export default function SaintMaryMagdalene() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Mary Magdalene — &quot;Apostle to the Apostles&quot; — first witness of the Resurrection (John 20). Once confused with the sinful woman; Church clarified she is distinct; feast July 22; patron of penitents, perfumers, and contemplatives.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-mary-magdalene">
                 Few figures in Christian history have been more distorted, more romanticized, and more misrepresented than Mary Magdalene. For centuries, she was conflated with a sinful woman and a prostitute — an identification that has no basis in Scripture and that the Catholic Church has officially corrected. The real Mary Magdalene is far more remarkable than the legend: she was a devoted disciple of Jesus, a witness to his crucifixion and burial, and the first person to whom the Risen Christ appeared on Easter morning.

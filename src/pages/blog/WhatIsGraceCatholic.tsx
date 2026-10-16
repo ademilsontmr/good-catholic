@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsGraceCatholic() {
   return (
@@ -74,6 +75,7 @@ export default function WhatIsGraceCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Grace is God&apos;s free gift of divine life — sanctifying grace indwells the soul in friendship with God; actual grace helps us act rightly in the moment. Catholics receive grace primarily through sacraments, prayer, and charity; it is not earned but cooperated with through faith and works.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-grace-catholic">
                 The Catechism of the Catholic Church defines grace as "favor, the free and undeserved help that God gives us to respond to his call to become children of God, adoptive sons, partakers of the divine nature and of eternal life" (CCC 1996). This definition contains several crucial elements: grace is free (we cannot earn it), it is undeserved (we have no claim to it), and it is transformative (it actually changes us, not just our legal status before God).

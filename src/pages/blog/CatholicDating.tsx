@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicDating() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicDating() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic dating seeks a spouse in faith — chastity before marriage, no cohabitation, openness to children, and Mass and prayer together. Physical boundaries protect dignity; intentional courtship toward sacramental marriage replaces casual hookup culture.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-dating-and-courtship">
                 The Catholic vision of romantic love is one of the most beautiful and countercultural things the Church offers the modern world. At a time when dating culture has been reduced to swiping, hooking up, and keeping options open indefinitely, the Church proposes something radically different: relationships ordered toward a permanent, life-giving covenant of love — marriage as a sacrament.

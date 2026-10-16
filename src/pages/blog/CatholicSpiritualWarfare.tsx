@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicSpiritualWarfare() {
   return (
@@ -75,6 +76,7 @@ export default function CatholicSpiritualWarfare() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic spiritual warfare fights demons through sacraments, prayer, fasting, St. Michael, and obedience to the Church — not sensationalism or seeking visions. Renounce sin, avoid occult, and use approved deliverance ministry with priestly oversight when needed.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-warfare-catholic">
                 Saint Paul did not mince words: "For we are not contending against flesh and blood, but against the principalities, against the powers, against the world rulers of this present darkness, against the spiritual hosts of wickedness in the heavenly places" (Ephesians 6:12). This is not poetry. It is a description of reality — the reality that every baptized Catholic enters at the font and lives until death.

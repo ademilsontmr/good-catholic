@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay17() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay17() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Day 17 (August 31, 2026) confronts self-pity that rejects help by requesting gratitude while you carry strength for caregivers into St. Michael&apos;s Lent Novena.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-17-august-31-2026">
                 Anchor today: On Monday (August 31, 2026), Day 17 carries strength for caregivers through a hotel ironing board used as a prayer kneeler. There a quiet snowfall of cottonwood seeds joins the ask for gratitude against self-pity that rejects help, while caregivers of aging parents refuse the trap of refusing to forgive because you are discerning and aim at inviting someone to Mass inside a loom weaving mercy into prayer. Ordinary Monday becomes holy when Day 17 carries strength for caregivers without waiting for a feast banner.

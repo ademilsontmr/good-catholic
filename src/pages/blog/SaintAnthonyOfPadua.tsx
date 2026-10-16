@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintAnthonyOfPadua() {
   return (
@@ -91,6 +92,7 @@ export default function SaintAnthonyOfPadua() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Anthony of Padua (1195–1231) was a Franciscan preacher and Doctor of the Church — patron of lost things, the poor, and travelers. His feast is June 13; Catholics invoke him when items are missing and honor his powerful sermons that drew sinners back to Christ.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-anthony-of-padua">
                 Ask any American Catholic who they pray to when they lose something, and the answer is almost always the same: St. Anthony. "Tony, Tony, look around — something's lost and must be found." This simple rhyme, known to Catholics of every generation, points to one of the most beloved saints in the Church's history. But St. Anthony of Padua was far more than the patron of lost keys and misplaced wallets. He was a Doctor of the Church, one of the greatest preachers of the Middle Ages, a passionate defender of the poor, and a man whose holiness was so evident that the Church canonized him less than a year after his death.

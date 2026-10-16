@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicCremationRulesUsa() {
   return (
@@ -60,6 +61,7 @@ export default function CatholicCremationRulesUsa() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church permits cremation in the United States when it is not chosen to deny faith in the resurrection of the body. Ashes must be buried in a cemetery or sacred place — not scattered, divided, or kept at home indefinitely. Funeral Mass may be celebrated with cremated remains present according to diocesan norms.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Teaches (Summary)</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">

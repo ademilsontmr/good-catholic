@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintThomasAquinas() {
   return (
@@ -74,6 +75,7 @@ export default function SaintThomasAquinas() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Thomas Aquinas (1225–1274) is the Church&apos;s preeminent theologian — Angelic Doctor who synthesized faith and reason in the Summa Theologica. Patron of students and universities, his Eucharistic hymns (Pange Lingua, Tantum Ergo) are sung at Corpus Christi and adoration worldwide.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-thomas-aquinas">
                 Saint Thomas Aquinas (1225–1274) is one of the most important intellectual figures in the history of Western civilization. His synthesis of Christian theology and Aristotelian philosophy — known as Thomism — became the official philosophical framework of the Catholic Church and shaped Western thought for centuries. His masterwork, the Summa Theologica, is one of the greatest intellectual achievements in human history: a systematic exposition of the whole of Christian theology, organized with breathtaking logical precision.

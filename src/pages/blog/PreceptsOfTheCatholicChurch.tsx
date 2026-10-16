@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PreceptsOfTheCatholicChurch() {
   return (
@@ -60,6 +61,7 @@ export default function PreceptsOfTheCatholicChurch() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The five precepts of the Catholic Church are minimum practices for the faithful: attend Mass on Sundays and holy days, confess sins at least once a year, receive Communion during Easter season, observe days of fasting and abstinence, and support the Church according to your means (CCC 2041–2043).</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Five Precepts (Catechism 2041–2043)</h2>
               <ol className="list-decimal list-inside text-text space-y-4 mb-8">

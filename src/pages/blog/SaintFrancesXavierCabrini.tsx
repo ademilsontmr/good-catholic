@@ -9,6 +9,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 
 const PAGE = "https://guidecatholic.com/blog/saint-frances-xavier-cabrini/";
@@ -75,6 +76,7 @@ export default function SaintFrancesXavierCabrini() {
                 Frances Xavier Cabrini (1850–1917) founded the Missionary Sisters of the Sacred Heart of Jesus and spent her American years building schools, orphanages, and hospitals for Italian immigrants. She became a U.S. citizen in 1909. Pope Pius XII canonized her in 1946. The United States keeps her optional memorial on November 13.
               </p>
             </div>
+            <BlogArticleAd slot="1906776249" />
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A fragile child who would not stay home</h2>
             <p className="text-text leading-relaxed mb-6">

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay41() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay41() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Day 41 (September 24, 2026) confronts unforgiveness rehearsed nightly by requesting maternal patience while you carry mercy for an enemy into St. Michael&apos;s Lent Novena.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-41-september-24-2026">
                 Prefer obedience: On Thursday (September 24, 2026), Day 41 carries mercy for an enemy through an online comment thread you almost re-enter. There a pale dawn after insomnia joins the ask for maternal patience against unforgiveness rehearsed nightly, while siblings in conflict refuse the trap of letting politics colonize your intention and aim at a doorway blessed for the household inside a mountain switchback that still climbs. No solemnity is required to sanctify Day 41; praying for mercy for an enemy while watering plants already consecrates Thursday.

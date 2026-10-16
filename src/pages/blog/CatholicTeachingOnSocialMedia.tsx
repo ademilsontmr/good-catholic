@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnSocialMedia() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnSocialMedia() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics use social media under the same moral law as speech — avoiding gossip, pornography, bullying, and wasting time that belongs to prayer and duty. The Church encourages evangelization online with charity and truth, while warning that digital life must not replace real community and sacraments.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-social-media">
                 Billions of people spend hours each day on social media platforms — scrolling, posting, reacting, arguing. For Catholics, this raises urgent questions: Is social media a spiritual danger? Can it be used for good? What does the Church actually say? The answer is nuanced, as it always is when the Church engages with culture: social media is a tool, and like all tools, its moral character depends on how it is used.

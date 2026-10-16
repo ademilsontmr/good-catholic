@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicFuneralMassWhatToExpect() {
   return (
@@ -60,6 +61,7 @@ export default function CatholicFuneralMassWhatToExpect() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Catholic Funeral Mass (Mass of Christian Burial) offers the Eucharist for the deceased&apos;s soul with Scripture, prayers, and final commendation — often after a Vigil wake. Eulogies belong at the Vigil, not usually during Mass per diocesan norms.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-funeral-mass-what-to-expect">
                 The Order of Christian Funerals structures Catholic burial in three main rites: the Vigil (often called a wake or viewing), the Funeral Mass (Mass of Christian Burial), and the Rite of Committal at the cemetery. Each serves a distinct purpose — remembering the deceased, offering the Sacrifice of the Mass for their soul, and committing the body to its resting place until the resurrection. American parishes typically coordinate all three within two to four days of death.

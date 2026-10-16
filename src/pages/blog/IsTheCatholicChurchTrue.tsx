@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function IsTheCatholicChurchTrue() {
   return (
@@ -92,6 +93,7 @@ export default function IsTheCatholicChurchTrue() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics believe the Church Christ founded on Peter (Matthew 16:18–19) is the one, holy, catholic, and apostolic Church — with unbroken succession, the Eucharist, and Magisterial authority. Apologetics examines history, Scripture, and reason; faith accepts what God has revealed through Christ and the Spirit-guided Church.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-the-catholic-church-the-true-church">
                 In the Nicene Creed, we profess faith in "One, Holy, Catholic, and Apostolic Church." These are the four "Marks" that serve as the fingerprint of the institution founded by Christ. For a Catholic, history is not a suggestion—it is a witness.

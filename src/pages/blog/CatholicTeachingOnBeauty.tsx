@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnBeauty() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnBeauty() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Beauty is a transcendental pointing to God — sacred art, music, and architecture lift the soul toward heaven. Catholics reject utilitarian ugliness in churches; beauty in liturgy, icons, and creation evangelizes and forms worshippers when ordered to truth and goodness.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="beauty-and-the-catholic-faith">
                 We live in an age that has largely lost its sense of beauty. Our cities are often ugly. Our music is often noise. Our churches — built in the mid-twentieth century — are sometimes indistinguishable from office buildings. And yet, deep within every human heart, there is a longing for beauty that cannot be suppressed. We are drawn to sunsets, to great music, to faces we love, to the silence of a cathedral. This longing is not accidental. It is a clue to who we are and who made us.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToGoToConfessionGuide() {
   return (
@@ -96,6 +97,7 @@ export default function HowToGoToConfessionGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">To go to Confession: examine conscience, enter the confessional, say &quot;Bless me, Father, for I have sinned,&quot; confess all mortal sins with kind and number, receive penance, pray the Act of Contrition, and receive absolution. The seal is absolute — the priest may never reveal sins.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-go-to-confession-guide">
                 Many Catholics feel nervous about going to Confession — especially if it has been a long time. This is completely normal. But the nervousness is worth pushing through, because what awaits you on the other side is one of the most profound experiences of God's mercy available to us in this life.

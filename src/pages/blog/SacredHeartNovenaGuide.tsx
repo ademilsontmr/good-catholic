@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SacredHeartNovenaGuide() {
   return (
@@ -74,6 +75,7 @@ export default function SacredHeartNovenaGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Sacred Heart novena prepares for First Friday or the June solemnity — nine days honoring Christ&apos;s love, often with Communion, Confession, and reparation. St. Margaret Mary promoted the devotion after apparitions in Paray-le-Monial, France.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Sacred Heart of Jesus?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-novena-guide">

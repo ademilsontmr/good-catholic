@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DivineMercyNovenaGuide() {
   return (
@@ -74,6 +75,7 @@ export default function DivineMercyNovenaGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Divine Mercy novena runs from Good Friday to Divine Mercy Sunday — nine days of chaplet prayers Christ gave St. Faustina for different groups of souls. Jesus attached promises of grace and conversion; the image &quot;Jesus, I trust in You&quot; accompanies the devotion.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is the Divine Mercy Devotion?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-novena-guide">

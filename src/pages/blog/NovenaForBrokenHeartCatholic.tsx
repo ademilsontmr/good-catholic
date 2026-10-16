@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NovenaForBrokenHeartCatholic() {
   return (
@@ -59,6 +60,7 @@ export default function NovenaForBrokenHeartCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Heartbreak is a form of grief; nine days of prayer invite Christ&apos;s healing into the wound. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-broken-heart-catholic">Heartbreak is a form of grief; nine days of prayer invite Christ&apos;s healing into the wound. Catholics across the United States pray this novena in parishes, homes, and online prayer groups, trusting in God&apos;s mercy and the intercession of the saints.</LinkedText>

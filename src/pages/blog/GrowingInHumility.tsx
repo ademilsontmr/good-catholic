@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function GrowingInHumility() {
   return (
@@ -91,6 +92,7 @@ export default function GrowingInHumility() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Grow in humility by acknowledging dependence on God, accepting correction, serving without recognition, and confessing pride in examination of conscience — Mary&apos;s Magnificat and Jesus&apos; washing of feet model Christian humility.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-grow-in-humility-catholic">
                 We live in a culture that celebrates self-promotion, personal branding, and the relentless assertion of one's own worth. Social media rewards those who project confidence, success, and superiority. In this environment, the Catholic virtue of humility can seem not only countercultural but positively dangerous — a recipe for being overlooked, undervalued, and walked over.

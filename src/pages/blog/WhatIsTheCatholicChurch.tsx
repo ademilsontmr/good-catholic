@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsTheCatholicChurch() {
   return (
@@ -79,6 +80,7 @@ export default function WhatIsTheCatholicChurch() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church is the community founded by Christ, headed by the pope as successor of Peter, united in faith, sacraments, and governance — the &quot;one, holy, catholic, and apostolic&quot; Church of the Creed, visibly continuing apostolic teaching worldwide.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The word "Catholic" comes from the Greek <em>katholikos</em>, meaning "universal" or "according to the whole." The Catholic Church is the universal Church — the one founded by Jesus Christ for all people, in all times, in all places. It is the largest religious institution in the world and the oldest continuously operating organization in human history.

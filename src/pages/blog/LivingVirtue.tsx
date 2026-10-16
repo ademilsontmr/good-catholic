@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LivingVirtue() {
   return (
@@ -92,6 +93,7 @@ export default function LivingVirtue() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Living virtue means habitual excellence ordered by reason and grace — cardinal virtues (prudence, justice, fortitude, temperance) and theological virtues (faith, hope, charity). Sacraments and prayer supply strength; repeated good acts form character.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="living-virtue">
                 The Christian life is not a set of rules but a relationship with Christ that transforms character. Living virtue in daily circumstances—at work, in family, amid challenges—is the path to holiness accessible to everyone.

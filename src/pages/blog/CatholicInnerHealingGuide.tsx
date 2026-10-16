@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicInnerHealingGuide() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicInnerHealingGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic inner healing prayer invites Christ to heal emotional wounds from sin, trauma, or rejection — often with a trained minister, not replacing therapy or Confession. Unbound, Sohl, and similar ministries operate with priest oversight.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-inner-healing-guide">
                 In today's world, more Catholics than ever are struggling with anxiety, depression, trauma, and deep emotional pain. While secular therapy offers valuable tools, Catholic inner healing prayer addresses the spiritual dimension of our wounds that psychology alone cannot reach. This isn't about rejecting psychology; it's about integrating it with the healing power that flows from Christ's sacrifice.

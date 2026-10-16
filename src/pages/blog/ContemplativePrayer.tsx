@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ContemplativePrayer() {
   return (
@@ -91,6 +92,7 @@ export default function ContemplativePrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Contemplative prayer is silent loving attention to God beyond words — a gift of the Spirit, not a technique. Catholics prepare through lectio divina and Rosary; Centering Prayer and similar methods require discernment with Church teaching.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-contemplative-prayer">
                 In a world of noise, notifications, and constant distraction, the ancient Catholic practice of contemplative prayer offers something radical: silence. Not the silence of emptiness, but the silence of presence — the presence of God. For centuries, mystics, monks, and ordinary Catholics have discovered that the deepest prayer is not about saying more words, but about learning to be still before the living God.

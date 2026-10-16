@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay14() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay14() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Looking for <em>St Michael&apos;s Lent Novena Day 14</em>? The civil date is <strong>August 28, 2026</strong>. This page orients teenagers testing faith; Catholic Bible Online holds the novena words.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-14-august-28-2026">
                 Open slowly: On Friday (August 28, 2026), Day 14 carries protection during travel through a grocery checkout where anxiety spikes. There starlight after a hard confession joins the ask for honesty against comparison that kills gratitude, while teenagers testing faith refuse the trap of praying only when crisis spikes and aim at a finished Day 14 without multitasking inside a choir rehearsal for heaven&apos;s discipline. Because August 28, 2026 also touches St. Augustine, let that celebration color protection during travel while Day 14 still remains a choir rehearsal for heaven&apos;s discipline.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NativityOfMarySeptember82026FeastGuide() {
   return (
@@ -78,6 +79,7 @@ export default function NativityOfMarySeptember82026FeastGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: "The Nativity of the Blessed Virgin Mary is celebrated on <strong>Monday, September 8, 2026</strong>. It is a feast (not a Holy Day of Obligation in most U.S. dioceses) honoring Mary's birth — nine months after the Immaculate Conception on December 8." }} />
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">

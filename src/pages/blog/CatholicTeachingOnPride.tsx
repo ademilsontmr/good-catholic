@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnPride() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnPride() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Yes — in Catholic teaching, pride is the root of all sin: inordinate self-love that turns the soul from God (CCC 1866). It caused Lucifer&apos;s fall and Adam&apos;s sin. Pride is the first capital sin; every other vice grows from exalting self above God and neighbor. Humility, gratitude, and Confession are the cure.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="pride-root-of-sin-catholic">
                 In an age that celebrates self-promotion, personal branding, and the relentless assertion of one's own worth, the Catholic teaching on pride can seem countercultural — even offensive. But the Church's wisdom on this subject is not a counsel of self-hatred or passivity. It is a diagnosis of the deepest disorder in the human heart, and a path toward the freedom that only humility can bring.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 
 const PAGE_URL = "https://guidecatholic.com/blog/mary-mother-of-god-catholic-dogma/";
@@ -77,6 +78,7 @@ export default function MaryMotherOfGodCatholicDogma() {
                   Yes. Mary is the Mother of God because the child she bore is God the Son made man. The title Theotokos, “God-bearer,” was defended at the Council of Ephesus in 431. It does not mean Mary existed before God or that she is the source of his divinity.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What “Mother of God” means</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="mary-mother-of-god-catholic-dogma">

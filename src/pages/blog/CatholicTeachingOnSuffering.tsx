@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnSuffering() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnSuffering() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic teaching on suffering sees pain as mystery united to Christ&apos;s Passion — not meaningless, but redeemable when offered with love. The Church rejects euthanasia and despair; saints, sacraments, and community support help believers carry crosses without denying their weight.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering-catholic">
                 Every human being who has ever lived has asked some version of this question. A child dies of cancer. A good man loses everything. An innocent person suffers while the guilty prosper. The earthquake, the war, the diagnosis — they all raise the same agonizing question: where is God in this? Why does He allow it?

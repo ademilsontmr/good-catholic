@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ThreeDaysOfDarkness() {
   return (
@@ -91,6 +92,7 @@ export default function ThreeDaysOfDarkness() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Three Days of Darkness is a private revelation claim — not required Catholic belief — describing global darkness before divine chastisement. The Church has not approved it; faithful focus on approved devotions, sacraments, and obedience to Magisterium over unapproved prophecies.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 In times of global uncertainty, the human heart naturally turns toward the "Last Things." The Three Days of Darkness is classified by the Church as <strong>private revelation</strong>. This means that while it is not part of the "Deposit of Faith" (like the Trinity or the Resurrection), the Church allows the faithful to follow it as a way to grow in holiness and repentance.

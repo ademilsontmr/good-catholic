@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay6() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay6() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>Day 6</strong> of St. Michael&apos;s Lent Novena is <strong>August 20, 2026</strong> (Thursday). Suggested intention: purity of heart and eyes. Pray the free full text on Catholic Bible Online, then live one concrete mercy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-6-august-20-2026">
                 Step in: On Thursday (August 20, 2026), Day 6 carries purity of heart and eyes through a barracks bunk with a rosary under the pillow. There a sudden shower on the walk to church joins the ask for faith against gluttony of distraction, while college students refuse the trap of confusing fear of demons with fear of God and aim at less sarcasm in the kitchen inside a harvest field that needs daily walking. No solemnity is required to sanctify Day 6; praying for purity of heart and eyes after coaching practice already consecrates Thursday.

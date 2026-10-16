@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ApparitionsOfOurLady() {
   return (
@@ -91,6 +92,7 @@ export default function ApparitionsOfOurLady() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Approved Marian apparitions are private revelations recognized by the Church — Guadalupe (1531), Lourdes (1858), and Fatima (1917) are the most famous. Catholics may devoutly honor them; they are not required beliefs like the Assumption, but they shape prayer, pilgrimage, and Marian devotion worldwide.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apparitions-of-our-lady">
                 Marian apparitions — occasions when the Virgin Mary is believed to appear physically to one or more individuals — have been part of Catholic experience since the early Church. However, not all claimed apparitions are equal. The Church has a rigorous, multi-stage process for investigating them, and very few receive official approbation.

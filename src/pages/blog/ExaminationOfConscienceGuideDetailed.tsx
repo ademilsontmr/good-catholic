@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ExaminationOfConscienceGuideDetailed() {
   return (
@@ -79,6 +80,7 @@ export default function ExaminationOfConscienceGuideDetailed() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A detailed examination reviews each commandment with specific questions — lying, lust, missing Mass, gossip, neglect of family duties — before Confession. Guides exist for married, single, youth, and priests; honesty about mortal sin is essential for valid absolution.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
                 Before going to Confession, the Church asks us to examine our conscience — to review our sins honestly in the light of God's truth. This is not meant to be a guilt-inducing exercise but a loving, honest conversation with God about the state of our soul.

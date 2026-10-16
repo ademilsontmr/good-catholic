@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function EasterMassTimes() {
   return (
@@ -79,6 +80,7 @@ export default function EasterMassTimes() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Easter Mass times include the Easter Vigil after dark on Holy Saturday — the Church&apos;s greatest liturgy with baptisms and Alleluia return — plus multiple Masses Easter Sunday. It is the summit of the liturgical year; arrive early for full churches.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">📅 Holy Week & Easter 2026 Dates</h3>

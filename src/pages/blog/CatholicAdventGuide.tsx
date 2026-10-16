@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicAdventGuide() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicAdventGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Advent prepares for Christmas over four weeks — hope, peace, joy, and love with violet or rose candles on the wreath. Catholics resist premature celebration, pray the O Antiphons, attend Reconciliation, and await Christ&apos;s coming in history, mystery, and majesty.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Advent?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-advent-guide">

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NovenaForFinancialHelpCatholic() {
   return (
@@ -59,6 +60,7 @@ export default function NovenaForFinancialHelpCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A novena for financial help is nine days of prayer asking God for providence amid debt, unemployment, or bills. Catholics often invoke Saint Joseph, Saint Matthew, and Christ — combining prayer with budgeting, honest work, and charity.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-financial-help-catholic">Saint Joseph is patron of workers and the universal Church; Saint Matthew was a tax collector transformed by grace. Christ taught trust in the Father who feeds the birds (Matthew 6:26). Catholic Charities and St. Vincent de Paul assist millions of Americans in financial crisis.</LinkedText>

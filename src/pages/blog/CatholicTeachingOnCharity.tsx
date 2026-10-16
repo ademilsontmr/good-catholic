@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnCharity() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnCharity() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Charity is supernatural love of God above all and neighbor as oneself for God&apos;s sake — the greatest virtue (1 Corinthians 13). Catholics express it through Corporal and Spiritual Works of Mercy, almsgiving, volunteering, and forgiveness; faith without charity is dead.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-charity-catholic">
                 Charity — from the Latin caritas — is not merely generosity or benevolence. It is the theological virtue by which we love God above all things and our neighbor as ourselves for the love of God. It is the highest of all virtues, the form and mother of all the others, and the only virtue that will remain in heaven. Understanding charity is essential to understanding the whole of the Christian life.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToBecomeCatholic() {
   return (
@@ -91,6 +92,7 @@ export default function HowToBecomeCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Becoming Catholic starts with contacting a parish RCIA director — unbaptized adults prepare for baptism, confirmation, and Eucharist at Easter; baptized Christians may make a profession of faith. There is no fee; the process includes prayer, catechesis, and choosing a sponsor.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Becoming Catholic is one of the most significant decisions a person can make. It's not just joining an organization — it's entering into full communion with the Church that Jesus Christ founded, receiving the fullness of the sacraments, and becoming part of a 2,000-year-old family of faith. The journey is rich, challenging, and deeply rewarding.

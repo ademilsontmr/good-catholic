@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnDeath() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnDeath() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Death is the separation of soul and body — a consequence of sin yet redeemed by Christ&apos;s Resurrection. Catholics prepare through sacraments, Last Rites, and hope in judgment, purgatory, heaven, or hell; the funeral Mass prays for the deceased and proclaims Easter hope.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 Every human being will die. This is not a morbid observation — it is the starting point of wisdom. The ancient Romans said <em>memento mori</em>: "remember that you will die." The Catholic tradition has always taken this seriously, not to produce despair, but to produce clarity. When we know that our time is limited, we begin to ask the right questions: What is life for? What happens after? How should I live?

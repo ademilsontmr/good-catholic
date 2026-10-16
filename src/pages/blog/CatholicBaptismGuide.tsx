@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicBaptismGuide() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicBaptismGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic Baptism washes away original sin, initiates into Christ&apos;s death and resurrection, and makes one a member of the Church — infants or adults, with water and Trinitarian formula. Godparents must be practicing Catholics; Baptism is necessary for salvation and ordinarily received once.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-guide">
                 "Unless one is born of water and Spirit, he cannot enter the kingdom of God" (John 3:5). With these words, Jesus established Baptism as the necessary gateway to eternal life. For Catholics, Baptism is not merely a symbol or a public declaration of faith — it is a real, effective sacrament that accomplishes what it signifies: the washing away of sin, the infusion of sanctifying grace, and the incorporation into the Church.

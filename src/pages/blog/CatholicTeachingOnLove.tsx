@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnLove() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnLove() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic love (charity) is willing the true good of the other for God&apos;s sake — agape that seeks salvation, not mere feeling. Marriage love is total, faithful, and open to life; love of neighbor flows from love of God and is the greatest theological virtue.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The English word "love" is notoriously imprecise. We love our spouses, our children, our friends, our country, our favorite sports team, and our morning coffee — all with the same word. The ancient Greeks were more precise. They had at least three distinct words for love, each capturing a different dimension of this most fundamental of human experiences: <em>eros</em>, <em>philia</em>, and <em>agape</em>. The Catholic tradition has drawn on all three to articulate a comprehensive theology of love that is both intellectually rigorous and spiritually transformative.

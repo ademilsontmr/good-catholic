@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnDivorce() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicTeachingOnDivorce() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church does not grant divorce that dissolves a valid sacramental marriage — spouses may separate for grave reasons, but remarriage in the Church requires a declaration of nullity (annulment) if the first union was invalid. Divorced Catholics who have not remarried civilly may receive Communion if in a state of grace.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-divorce">
                 Few questions cause more confusion — and more pain — for Catholics than the question of divorce. Statistics suggest that roughly 40-50% of all marriages in the Western world end in divorce, and Catholic families are affected at only slightly lower rates. When a marriage fails, Catholics face an additional layer of religious complexity that can feel isolating and confusing.

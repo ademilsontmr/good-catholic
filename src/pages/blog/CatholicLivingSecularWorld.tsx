@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicLivingSecularWorld() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicLivingSecularWorld() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics live in the secular world as leaven — engaging culture, work, and politics with Gospel values while avoiding compromise on grave sin; Sunday Mass, daily prayer, and moral courage keep faith from becoming private opinion only.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-living-in-secular-world">
                 The early Christians lived in a Roman Empire that was hostile to their faith. They were a minority. They were misunderstood. They were persecuted. Yet within three centuries, they had transformed the entire civilization. They did not do this by hiding their faith or compromising their convictions. They did it by living their faith with joy, courage, and love.

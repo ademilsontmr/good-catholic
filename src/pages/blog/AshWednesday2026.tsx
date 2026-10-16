@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function AshWednesday2026() {
   return (
@@ -79,6 +80,7 @@ export default function AshWednesday2026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Ash Wednesday 2026 is February 18 — it opens Lent with Mass, ashes on the forehead (&quot;Remember you are dust&quot;), and fasting (one full meal, two small) plus abstinence from meat for Catholics ages 18–59.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">📅 Key 2026 Lenten Dates</h3>

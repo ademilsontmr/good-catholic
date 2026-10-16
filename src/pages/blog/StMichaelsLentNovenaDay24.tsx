@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay24() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay24() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>Day 24</strong> of St. Michael&apos;s Lent Novena is <strong>September 7, 2026</strong> (Monday). Suggested intention: protection of the unborn. Pray the free full text on Catholic Bible Online, then live one concrete mercy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-24-september-7-2026">
                 Set the stone: On Monday (September 7, 2026), Day 24 carries protection of the unborn through a night-shift nursing station between call lights. There diesel air near a bus stop joins the ask for zeal against laziness about Sunday Mass, while youth ministers refuse the trap of waiting for perfect silence that never comes and aim at less comparison on social media inside a winter coat packed in August heat. Even without a major feast, Day 24 asks youth ministers to keep protection of the unborn ahead of distraction.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PlenaryIndulgenceGuide() {
     return (
@@ -90,6 +91,7 @@ export default function PlenaryIndulgenceGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A plenary indulgence removes all temporal punishment due to sin — gained under conditions of sacramental Confession, Eucharist, prayer for the Pope&apos;s intentions, detachment from sin, and performing the indulgenced act (e.g., adoration, Stations, Rosary in church). Partial indulgences remit part of punishment.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="plenary-indulgence-guide">
                                 Many Catholics confuse Indulgence with Confession. While Confession forgives the guilt of sin, plenary indulgence erases the "temporal punishment" — the mark or disorder that sin leaves on our soul. In Jubilee 2025, Pope Francis facilitated access to this immense grace.

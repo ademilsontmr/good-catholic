@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OctoberMonthOfTheHolyRosaryGuide() {
   return (
@@ -86,6 +87,7 @@ export default function OctoberMonthOfTheHolyRosaryGuide() {
                   October is the Month of the Holy Rosary in the Catholic Church. The feast of Our Lady of the Rosary is October 7 (Wednesday in 2026). Catholics honor Mary by praying the Rosary daily, meditating on the Joyful, Sorrowful, Glorious, and Luminous Mysteries — a Scripture-based prayer recommended by popes from Pius V to John Paul II and Francis.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="october-month-of-the-holy-rosary-2026">
                 Search interest in the Rosary rises every fall in the United States as parishes promote October devotion, schools begin Rosary clubs, and families return to a school-year rhythm of prayer. This guide explains why October belongs to the Rosary, what happens on October 7, and how to pray it well — whether you are a beginner or returning after years away.

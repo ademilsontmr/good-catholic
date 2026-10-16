@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelLent2026() {
   return (
@@ -79,6 +80,7 @@ export default function StMichaelLent2026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael Lent 2026 is the same August 15–September 29 devotion many call St. Michael's Lent. A realistic U.S. plan is <strong>15–20 minutes of daily prayer</strong>, <strong>one chosen sacrifice</strong>, and <strong>weekly charity</strong> — not an impossible monastery schedule copied onto a phone reminder.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

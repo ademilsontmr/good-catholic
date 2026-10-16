@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicSacramentalsGuide() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicSacramentalsGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Sacramentals are blessed objects and actions — holy water, medals, scapulars, blessed salt — that prepare for grace and remind of faith. They do not work magically; faith and prayer give them meaning; exorcised items require proper blessing.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-sacramentals-guide">
                 The Catholic Church teaches that God works through material things because we are material beings. Sacramentals are sacred signs that prepare us to receive grace and dispose us to cooperate with it. Unlike sacraments, which actually confer grace, sacramentals dispose us to receive grace and help us grow in holiness.

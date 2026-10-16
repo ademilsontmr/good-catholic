@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay45() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay45() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>September 28, 2026</strong> is Day 45 on the Assumption-to-Michaelmas road. Name a holy death someday, ask for sisterly encouragement, and refuse treating Michaelmas as cosplay instead of worship.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-45-september-28-2026">
                 Prefer courage: On Monday (September 28, 2026), Day 45 carries a holy death someday through a Michaelmas eve kitchen smelling of bread. There chapel silence thicker than outdoor noise joins the ask for sisterly encouragement against neglect of the body God gave you, while quiet parishioners who rarely speak refuse the trap of treating Michaelmas as cosplay instead of worship and aim at Michaelmas approached with thanksgiving already practiced inside a finish line trained for in silence. The holiness of Day 45 is measured by Michaelmas approached with thanksgiving already practiced around a holy death someday, not by whether a feast fills the missal.

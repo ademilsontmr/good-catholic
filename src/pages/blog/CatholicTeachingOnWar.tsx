@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnWar() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnWar() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic just war tradition permits armed defense only under strict conditions — just cause, legitimate authority, right intention, proportionality, and non-combatant immunity (Catechism 2309). The Church prioritizes peace, diplomacy, and protection of the innocent; pacifism and militarism both require discernment.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-war-and-peace">
                 In a world of ongoing conflicts, military interventions, and nuclear arsenals, the Catholic Church's teaching on war and peace is more relevant than ever. This teaching is not simple — it does not offer easy answers or blanket endorsements of either pacifism or militarism. Instead, it offers a demanding moral framework that takes seriously both the reality of evil in the world and the absolute value of human life.

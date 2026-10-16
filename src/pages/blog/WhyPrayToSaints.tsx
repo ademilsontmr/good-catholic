@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhyPrayToSaints() {
   return (
@@ -92,6 +93,7 @@ export default function WhyPrayToSaints() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics pray to saints to ask their intercession — like asking a friend to pray for you, not worshipping them. Revelation 5:8 shows saints offering prayers; Mary and the saints are alive in Christ and closer to God than we are on earth.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The practice of <strong>Intercession</strong> is rooted in the belief that the Body of Christ is not severed by death. As St. Paul teaches in 1 Corinthians 12, "If one member suffers, all suffer together." This doesn't stop just because someone has moved from earth to Heaven.

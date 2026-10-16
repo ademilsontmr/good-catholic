@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LentPreparationGuide() {
   return (
@@ -92,6 +93,7 @@ export default function LentPreparationGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Prepare for Lent by planning prayer (daily Gospel, Stations), fasting (beyond minimum rules), and almsgiving — clearing distractions and scheduling Confession. Catholics choose one serious penance and one work of mercy to sustain forty days.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
                 Lent is the Church's annual retreat—a 40-day journey of conversion, prayer, fasting, and almsgiving preparing us for the celebration of Easter. Proper preparation ensures this sacred season transforms rather than merely disciplines.

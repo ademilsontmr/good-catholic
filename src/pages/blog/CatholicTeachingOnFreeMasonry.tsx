@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnFreeMasonry() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnFreeMasonry() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church prohibits membership in Freemasonry — declared incompatible with Catholic faith because of relativism, oaths, and secrecy that undermine ecclesial communion (1983 CDF declaration). Catholics who join Masonic lodges may not receive Communion; the Church distinguishes fraternal orders that are explicitly Christian and obedient to the Magisterium.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-freemasonry">
                 Few topics generate more confusion among Catholics than Freemasonry. Some Catholics are Masons themselves, often having joined before understanding the Church's position. Others have fathers or grandfathers who were Masons and wonder what to make of it. Still others have been told that the Church's condemnation is outdated or that modern Freemasonry is "just a social club." This article addresses all of these concerns with clarity and charity.

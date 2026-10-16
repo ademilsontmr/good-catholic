@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToBecomeCatholicGuide() {
   return (
@@ -94,6 +95,7 @@ export default function HowToBecomeCatholicGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">To become Catholic, an unbaptized adult enters RCIA (Rite of Christian Initiation of Adults), receives formation, and is baptized, confirmed, and receives First Communion at the Easter Vigil. Already-baptized Christians may enter through a similar process and profession of faith, often at Easter or Pentecost.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-become-catholic">
                 Every year, hundreds of thousands of people around the world become Catholic. They come from every background — Protestant Christians, people of other faiths, and those with no religious background at all. What they share is a conviction that the Catholic Church is where God is calling them.

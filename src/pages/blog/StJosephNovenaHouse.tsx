@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StJosephNovenaHouse() {
   return (
@@ -91,6 +92,7 @@ export default function StJosephNovenaHouse() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The St. Joseph novena to buy a house is a nine-day Catholic prayer asking the patron of workers and families to intercede for a home purchase. Many Catholics also pray the St. Joseph novena for buying a house while burying a statue upside down as a popular custom — but the heart of the devotion is persevering prayer and trust in Providence.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-house">
                 In the competitive American housing market, where bidding wars, financing challenges, and endless paperwork can overwhelm even the most determined home buyer, countless Catholic families have turned to St. Joseph's powerful intercession. As the foster father of Jesus and the protector of the Holy Family, St. Joseph understands deeply the importance of having a safe, stable home for one's family. His role as the patron saint of home buyers and sellers isn't merely symbolic; it flows from his lived experience as the provider and protector of the very first Christian home.

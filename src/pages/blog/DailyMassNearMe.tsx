@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DailyMassNearMe() {
   return (
@@ -79,6 +80,7 @@ export default function DailyMassNearMe() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Daily Mass is offered at most Catholic parishes on weekdays — often early morning; use MassTimes.org, parish apps, or diocesan locators. Daily Mass is not obligatory but richly indulgenced; readings follow the two-year weekday cycle.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Find Daily Mass Today</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutFaith() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutFaith() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses about faith include the passages below — pray them slowly, memorize one this week, and share them with someone who needs faith.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
                 Catholics who search for bible verses about faith are rarely looking for a slogan. They want language strong enough for a hospital waiting room, a restless night, or a hard conversation after Mass. Scripture gives that language — not as a shortcut around the Cross, but as a companion on the way. Faith is not a mood. Hebrews defines it as assurance of things hoped for — the kind of trust that still shows up for Sunday Mass after a dry week of prayer.

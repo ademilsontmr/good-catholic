@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HealingThroughFaith() {
   return (
@@ -92,6 +93,7 @@ export default function HealingThroughFaith() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Healing through faith includes sacramental grace, prayer, anointing of the sick, and trust in God&apos;s will — physical cures are possible but not guaranteed. Miracles are investigated by the Church; suffering united to Christ has redemptive value.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="healing-through-faith">
                 Faith has always been a source of healing. From Jesus' miracles in the Gospels to the sacraments of the Church today, discover how Catholic faith offers profound healing for body, mind, and soul.

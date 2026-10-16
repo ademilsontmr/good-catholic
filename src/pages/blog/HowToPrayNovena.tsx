@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToPrayNovena() {
   return (
@@ -74,6 +75,7 @@ export default function HowToPrayNovena() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">To pray a novena: choose intention and saint or prayer, set nine consecutive days, pray the same formula daily with focus and persistence, and attend Mass or receive Communion if possible on the final day. Novenas express trust; they do not force God&apos;s will.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The word "novena" comes from the Latin <em>novem</em>, meaning nine. For nearly two thousand years, Catholics have prayed novenas — nine days of prayer offered with perseverance and faith. The practice is rooted in the nine days the Apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14), waiting for the promised Holy Spirit. That first novena ended with the most dramatic answer to prayer in history: the descent of the Holy Spirit upon the Church.

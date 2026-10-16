@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay11() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay11() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Day 11 (August 25, 2026) confronts gossip dressed as concern by requesting chastity while you carry relief from crippling anxiety into St. Michael&apos;s Lent Novena.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-11-august-25-2026">
                 Show up: On Tuesday (August 25, 2026), Day 11 carries relief from crippling anxiety through a funeral home parking lot after the last hug. There a crisp morning that invites an earlier Amen joins the ask for chastity against gossip dressed as concern, while military families refuse the trap of asking Michael to bless a grudge and aim at asking for help without theatrical despair inside a workshop where pride is sanded down. No solemnity is required to sanctify Day 11; praying for relief from crippling anxiety while folding laundry already consecrates Tuesday.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicMarriageGuide() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicMarriageGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic marriage is a sacrament — lifelong covenant between baptized man and woman, open to life, witnessed by the Church. Valid marriage is indissoluble; preparation includes Pre-Cana, natural family planning instruction, and freedom from prior bonds.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-guide">
                 In a culture that often treats marriage as a contract between two people — dissoluble when inconvenient — the Catholic Church stands as a bold witness to a radically different vision. Marriage, the Church teaches, is a covenant modeled on the love of Christ for His Church: total, faithful, fruitful, and permanent. It is one of the seven sacraments, a channel of grace that sanctifies the spouses and the family they build together.

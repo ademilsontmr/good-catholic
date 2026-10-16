@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintDominic() {
   return (
@@ -74,6 +75,7 @@ export default function SaintDominic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Dominic (1174–1221) founded the Order of Preachers (Dominicans) and promoted the Rosary against Albigensian errors. Patron of astronomers and the Dominican Republic; feast August 8; Dominicans shaped Catholic theology and Inquisition reform.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dominic-founder-dominicans">
                 In the early thirteenth century, the Catholic Church faced one of the most dangerous heresies in its history: Catharism, also known as Albigensianism. This dualist movement, which taught that the material world was evil and rejected the sacraments, the Incarnation, and the authority of the Church, had spread through southern France like wildfire. Whole regions had abandoned the faith. The Church's response — crusade and inquisition — was producing more resentment than conversion.

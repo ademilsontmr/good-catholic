@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintTeresaOfAvila() {
   return (
@@ -74,6 +75,7 @@ export default function SaintTeresaOfAvila() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Teresa of Ávila (1515–1582) reformed Carmel, wrote The Interior Castle and Way of Perfection, and taught contemplative prayer with humor and grit. First woman Doctor of the Church; patron of headache sufferers and Spain; her phrase &quot;God alone suffices&quot; summarizes Carmelite spirituality.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-teresa-of-avila">
                 Saint Teresa of Ávila (1515–1582) stands as one of the towering figures of Catholic spirituality. Born in Ávila, Spain, she entered the Carmelite Order as a young woman, spent decades in spiritual struggle, and eventually experienced a profound conversion that launched her into the heights of mystical prayer. She reformed the Carmelite Order, founded seventeen convents, wrote masterpieces of spiritual literature, and forged a deep friendship with Saint John of the Cross. In 1970, Pope Paul VI declared her a Doctor of the Church — the first woman in history to receive that title.

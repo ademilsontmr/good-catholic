@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicMarriagePreparation() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicMarriagePreparation() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic marriage prep (Pre-Cana) includes meetings with priest, FOCCUS or similar inventory, natural family planning class, and canonical freedom checks — required months before the wedding; remarriage after divorce needs annulment first.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-marriage-preparation">
                 Preparing for marriage in the Catholic Church involves more than choosing flowers and venues. It requires spiritual formation, practical preparation, and understanding the sacramental nature of this lifelong commitment.

@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintMichaelArchangel() {
   return (
@@ -92,6 +93,7 @@ export default function SaintMichaelArchangel() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Michael the Archangel is leader of the heavenly armies — his name means &quot;Who is like God?&quot; Scripture shows him defeating Satan (Revelation 12); Catholics pray the St. Michael prayer after Mass, in spiritual warfare, and on his feast September 29.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

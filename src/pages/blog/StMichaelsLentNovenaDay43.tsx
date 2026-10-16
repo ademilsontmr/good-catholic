@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay43() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay43() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael&apos;s Lent Novena <strong>Day 43</strong> falls on <strong>Saturday, September 26, 2026</strong>. Bring hope after failure into the prayers, then open Catholic Bible Online for the complete Day 43 page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-43-september-26-2026">
                 Prefer truth: On Saturday (September 26, 2026), Day 43 carries hope after failure through a rain-loud roof during unpaid bills. There dry thunderstorm threat on the radio joins the ask for filial piety against attachment to being right, while mission trip returnees refuse the trap of abandoning the novena after one unanswered petition and aim at joy that does not deny the Cross inside a lampstand in a drafty room. Day 43 on September 26, 2026 proves that a lampstand in a drafty room can form saints between solemnities while you hold hope after failure.

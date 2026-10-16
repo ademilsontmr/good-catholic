@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ConvertingToCatholicism() {
   return (
@@ -79,6 +80,7 @@ export default function ConvertingToCatholicism() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Converting to Catholicism means entering the one Church Christ founded — through RCIA for the unbaptized or profession of faith for baptized Christians. The journey includes catechesis, sponsors, rites of initiation, and reception of Baptism, Confirmation, and Eucharist, usually at Easter Vigil.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="converting-to-catholicism">
                 Every year, approximately 500,000 adults enter the Catholic Church in the United States alone. They come from every background — evangelical Protestants, mainline Protestants, atheists, agnostics, people of other faiths, and those with no religious background at all. What draws them? The answers are as varied as the people themselves.

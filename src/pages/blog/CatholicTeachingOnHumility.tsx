@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnHumility() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnHumility() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Humility is truth before God — knowing oneself as creature and sinner, yet loved infinitely. Catholics cultivate it through Confession, service, accepting correction, and prayers like the Litany of Humility; it is the foundation of all virtues, not self-hatred.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-humility-catholic">
                 In a culture that prizes self-promotion, personal branding, and the relentless assertion of one's own worth, humility can seem like a relic — or worse, a weakness. But the Catholic tradition has always understood humility as one of the most powerful and liberating virtues a human being can possess. Without it, no other virtue can stand. With it, the soul is open to receive everything God wishes to give.

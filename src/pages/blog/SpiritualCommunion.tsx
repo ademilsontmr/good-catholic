@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SpiritualCommunion() {
   return (
@@ -91,6 +92,7 @@ export default function SpiritualCommunion() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Spiritual Communion is a prayer expressing desire to receive Jesus in the Eucharist when unable to attend Mass — uniting heart to Christ present in the tabernacle. It does not replace Sunday obligation but nourishes love for the Real Presence.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-make-spiritual-communion">
                 During the COVID-19 pandemic of 2020, when churches were closed and Catholics around the world were unable to attend Mass or receive Holy Communion, many rediscovered an ancient practice that had been largely forgotten in modern Catholic life: spiritual communion. Priests and bishops encouraged the faithful to make acts of spiritual communion while watching Mass on television or online, and millions of Catholics found in this practice a genuine source of consolation and grace.

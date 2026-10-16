@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToFindMyCatholicParish() {
   return (
@@ -88,6 +89,7 @@ export default function HowToFindMyCatholicParish() {
                   or your diocesan website; (2) identify which territorial parish covers your home address; (3) call the parish office to confirm Mass times and registration; (4) attend Mass and introduce yourself to the pastor or parish secretary. You may also worship at a nearby parish by choice, but sacramental records usually belong to your territorial parish.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
                 <Search className="w-6 h-6 text-accent" />

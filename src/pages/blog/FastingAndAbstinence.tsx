@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function FastingAndAbstinence() {
   return (
@@ -91,6 +92,7 @@ export default function FastingAndAbstinence() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic fasting and abstinence: Ash Wednesday and Good Friday — one full meal, two small, no meat; all Fridays abstain from meat (U.S. norms allow another penance if bishop permits). Ages 18–59 for fast; 14+ for abstinence.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="fasting-abstinence">
                 Fasting and abstinence are fundamental spiritual practices in Christian life, recommended by Jesus Christ Himself and practiced by the faithful since the early days of the Church. Far from being mere legal obligations, these penances are powerful means of spiritual growth, strengthening of the will, and union with Christ in His Passion. Understanding their profound meaning transforms these practices into sources of abundant grace.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CorpusChristiCatholic() {
   return (
@@ -79,6 +80,7 @@ export default function CorpusChristiCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Corpus Christi (Body and Blood of Christ) is a solemnity honoring the Real Presence — in the U.S. on the Sunday after Trinity Sunday with processions and Benediction in many parishes. Eucharistic adoration and First Friday devotion extend the feast&apos;s spirit.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corpus-christi-catholic">
                 Corpus Christi — Latin for "Body of Christ" — is the solemnity that celebrates the Real Presence of Jesus Christ in the Eucharist. It is celebrated on the Thursday after Trinity Sunday (or, in some countries, on the following Sunday), approximately 60 days after Easter. In 2026, Corpus Christi falls on June 4.

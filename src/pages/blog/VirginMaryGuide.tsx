@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function VirginMaryGuide() {
   return (
@@ -79,6 +80,7 @@ export default function VirginMaryGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Mary is the Mother of God (Theotokos), ever-Virgin, Immaculate Conceived, and assumed into heaven — the four Marian dogmas. Catholics honor her as greatest saint and model of faith; she intercedes for the Church but is not worshipped. The Rosary, Marian feasts, and apparitions deepen devotion to Christ through Mary.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virgin-mary-complete-guide">
                 Mary is the most mentioned woman in the Quran. She is venerated by Orthodox Christians, honored by many Protestants, and loved by over a billion Catholics. Yet she remains one of the most misunderstood figures in Christianity. This guide presents the full Catholic understanding of Mary — who she is, what the Church teaches about her, and how to grow in devotion to her.

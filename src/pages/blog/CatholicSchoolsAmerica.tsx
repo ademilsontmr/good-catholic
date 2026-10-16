@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicSchoolsAmerica() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicSchoolsAmerica() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic schools in America educate about 1.7 million students — parish and diocesan schools integrate faith, academics, and virtue; tuition varies with parish subsidies. They require religion classes and Mass; teachers often need catechist certification.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-schools-in-america">
                 Catholic education in America has a remarkable history — built by immigrant communities who sacrificed enormously to give their children a faith-based education, and sustained by generations of religious sisters, brothers, and priests who dedicated their lives to teaching. Today, Catholic schools face new challenges — declining enrollment, rising costs, and questions about Catholic identity — but they remain one of the most powerful instruments of faith formation available to American Catholic families.

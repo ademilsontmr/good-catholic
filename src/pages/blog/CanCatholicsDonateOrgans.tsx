@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CanCatholicsDonateOrgans() {
   return (
@@ -60,6 +61,7 @@ export default function CanCatholicsDonateOrgans() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Yes — the Catholic Church supports organ donation as an act of charity when done ethically after true death is confirmed. Pope St. John Paul II called it a heroic gift; Catholics may register as donors while ensuring family and moral principles guide decisions.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-donate-organs">
                 Yes — Catholics may donate organs and tissues. Pope St. John Paul II, Pope Benedict XVI, and Pope Francis have all affirmed that donating one&apos;s organs after death can be a genuine act of love, echoing Christ&apos;s gift of self. The Catechism teaches that organ donation after death is &quot;noble and meritorious&quot; when done freely and without commercial exploitation (CCC 2296). The key is that donation must respect the dignity of the donor and never treat the body as mere property.

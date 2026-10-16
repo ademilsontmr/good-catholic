@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay19() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay19() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael&apos;s Lent Novena <strong>Day 19</strong> falls on <strong>Wednesday, September 2, 2026</strong>. Bring deliverance from resentment into the prayers, then open Catholic Bible Online for the complete Day 19 page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-19-september-2-2026">
                 Carry the letter: On Wednesday (September 2, 2026), Day 19 carries deliverance from resentment through a youth-room couch after awkward silence. There soft rain on a tin shed roof joins the ask for compassion against numbness after grief, while small-business owners refuse the trap of hiding sin behind vague spiritual struggle language and aim at a calmer response to bad news inside a scaffold around a weak virtue. Even without a major feast, Day 19 asks small-business owners to keep deliverance from resentment ahead of distraction.

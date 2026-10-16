@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicFuneralRites() {
   return (
@@ -93,6 +94,7 @@ export default function CatholicFuneralRites() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic funeral rites include Vigil (wake), Funeral Mass (Mass of Christian Burial), and Rite of Committal at the cemetery — prayer for the deceased&apos;s soul and comfort for the living. Cremation is allowed; ashes must be buried in sacred ground.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Order of Christian Funerals: Three Stages

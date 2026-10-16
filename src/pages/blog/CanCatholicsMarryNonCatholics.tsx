@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CanCatholicsMarryNonCatholics() {
   return (
@@ -80,6 +81,7 @@ export default function CanCatholicsMarryNonCatholics() {
                   <strong>Yes — a Catholic may marry a non-Catholic with proper permission.</strong> A baptized non-Catholic requires a <strong>mixed marriage</strong> permission (canons 1124–1129). An unbaptized person requires a <strong>dispensation for disparity of cult</strong> (canon 1086). The Catholic must still marry according to <strong>canonical form</strong> unless lawfully dispensed, and must promise to do all in their power to baptize and raise future children in the Catholic Church.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6">
                 <p className="text-text leading-relaxed">

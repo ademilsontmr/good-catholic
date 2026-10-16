@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintJohnVianneyCureOfArs() {
   return (
@@ -91,6 +92,7 @@ export default function SaintJohnVianneyCureOfArs() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. John Vianney (1786–1859) — Curé of Ars — heard confessions up to sixteen hours daily and converted a lukewarm parish through prayer and penance. Patron of parish priests; feast August 4; model for confessors and pastors.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 <strong>Saint John Vianney (1786–1859)</strong> was a man whom the world would have called a failure. He struggled with Latin, nearly failed out of the seminary, and was considered "slow" by his peers. Yet, God used his directness and extreme penance to shrivel the post-Revolutionary atheism of France.

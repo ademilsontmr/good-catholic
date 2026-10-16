@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { CBO_BIBLE, CBO_DAILY_VERSES, cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 
 const PAGE_URL = "https://guidecatholic.com/blog/why-did-god-make-me-catholic/";
@@ -77,6 +78,7 @@ export default function WhyDidGodMakeMeCatholic() {
                   God made you to know him, to love him, and to serve him in this world, and to be happy with him forever in heaven. That is the Catholic meaning of life. It is not a mood, a job title, or a promise that every day will feel meaningful.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The question people actually ask</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-did-god-make-me-catholic">

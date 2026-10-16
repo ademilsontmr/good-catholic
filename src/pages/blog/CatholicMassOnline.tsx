@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicMassOnline() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicMassOnline() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Online Mass broadcasts help the homebound and sick but do not fulfill the Sunday obligation for those able to attend in person — spiritual communion is possible; Catholics unable to attend due to illness or lack of access should consult their pastor.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-online">
                 The COVID-19 pandemic accelerated something that was already happening: the streaming of Catholic Mass online. What began as an emergency measure became a permanent feature of Catholic life. Today, hundreds of parishes, dioceses, and Catholic media organizations stream Mass live every day — making it possible to watch Mass from anywhere in the world.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ImmaculateConceptionDecember82026HolyDay() {
   return (
@@ -78,6 +79,7 @@ export default function ImmaculateConceptionDecember82026HolyDay() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: "The Solemnity of the Immaculate Conception is <strong>Tuesday, December 8, 2026</strong> — a Holy Day of Obligation in the United States. It celebrates Mary conceived without original sin (not Jesus' virginal conception)." }} />
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LiturgyOfTheHoursGuide() {
   return (
@@ -92,6 +93,7 @@ export default function LiturgyOfTheHoursGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Liturgy of the Hours is the Church&apos;s official daily prayer — Lauds, Day Prayer, Vespers, Compline, and Office of Readings — using psalms and canticles. Clergy and religious must pray it; laity are encouraged and many use apps like iBreviary.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="liturgy-of-the-hours-guide">
                 Imagine joining Christians across the world in prayer at the same times each day, sanctifying the hours with psalms, Scripture, and intercessions. This is the Liturgy of the Hours - the official prayer of the Church that makes our entire day a prayer.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToPrayIntercessory() {
   return (
@@ -92,6 +93,7 @@ export default function HowToPrayIntercessory() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Intercessory prayer asks God for others&apos; needs — name the person, be specific, persist like the widow (Luke 18), and offer fasting or Mass. It is priestly work of the baptized; results follow God&apos;s wisdom, not our timetable.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-intercessory-prayer">
                 Every Catholic is called to be an intercessor. From the moment of Baptism, we are incorporated into the Body of Christ — and in that Body, we bear one another's burdens. Intercessory prayer is not a special gift reserved for mystics and saints. It is the ordinary duty and privilege of every Christian.

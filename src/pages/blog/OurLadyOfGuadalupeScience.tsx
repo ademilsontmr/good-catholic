@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OurLadyOfGuadalupeScience() {
   return (
@@ -91,6 +92,7 @@ export default function OurLadyOfGuadalupeScience() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Scientists have studied the Our Lady of Guadalupe tilma for decades — its cactus-fiber cloth should have decayed in decades yet survives after 500 years, and high-resolution imaging has found figures reflected in Mary&apos;s eyes. Catholics see this as Marian evidence; researchers debate mechanisms, but no natural explanation has fully accounted for the image.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The Image of Our Lady of Guadalupe is not just a painting; for the Aztec people, it was a <strong>codex</strong>—a book they could "read." For the modern scientist, it is a biological and physical impossibility.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ImportanceOfConfession() {
   return (
@@ -91,6 +92,7 @@ export default function ImportanceOfConfession() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Confession restores grace after mortal sin and strengthens against venial sin — Christ instituted it (John 20:23); monthly confession is a common Catholic practice. Without it, one may not receive Communion in mortal sin.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="importance-confession">
                 If there is a sacrament that reveals in a special way the merciful heart of God, it is Confession. Imagine: the Creator of the universe, the thrice-Holy God, bends over human misery not to condemn, but to heal. Not to humiliate, but to restore. The confessional is not a court of condemnation – it is a hospital for souls, where the divine Physician applies the balm of His mercy to the wounds of sin.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NovenasExplained() {
   return (
@@ -92,6 +93,7 @@ export default function NovenasExplained() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Novenas are nine days of prayer for an intention — biblical precedent in Acts 1 before Pentecost. Catholics pray set formulas to saints or God; they express persistence, not magic; the Church encourages them when aligned with faith.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novenas-explained">
                 The novena is one of Catholicism's most beloved prayer traditions. For nine days, the faithful pour out their hearts to God or His saints, trusting in the power of persevering prayer. Discover the origins, meaning, and practice of this ancient devotion.

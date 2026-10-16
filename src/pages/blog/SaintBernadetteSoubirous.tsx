@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintBernadetteSoubirous() {
   return (
@@ -74,6 +75,7 @@ export default function SaintBernadetteSoubirous() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Bernadette (1844–1879) was a poor French girl who saw Our Lady at Lourdes eighteen times in 1858 — Mary asked for prayer, penance, and a chapel. Bernadette became a nun, endured suffering patiently, and her body remains incorrupt; Lourdes heals souls and bodies through faith and springs.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-bernadette-soubirous">
                 Saint Bernadette Soubirous (1844–1879) is one of the most beloved saints in the Catholic Church — not because of great intellectual achievements or heroic deeds, but because of her extraordinary simplicity, her fidelity to what she had seen, and her willingness to suffer in silence. She was chosen by God not despite her poverty and weakness, but because of it. Her life is a living illustration of the Magnificat: God has lifted up the lowly.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintsPeterAndPaulFeastGuide() {
   return (
@@ -60,6 +61,7 @@ export default function SaintsPeterAndPaulFeastGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The feast of Saints Peter and Paul on June 29 honors the two pillars of the Church — pope and apostle to the Gentiles, both martyred in Rome. It is a solemnity but not a separate weekday Holy Day of Obligation in the United States.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saints-peter-and-paul-feast-guide">The Solemnity of Saints Peter and Paul is one of the oldest feasts in Rome. Both apostles died as martyrs under Nero around the mid-first century. The Church celebrates them together because Peter and Paul, though different in background and mission, together laid the foundation of the Church in unity with Christ.</LinkedText>
 

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function RosaryMysteriesMeditation() {
   return (
@@ -92,6 +93,7 @@ export default function RosaryMysteriesMeditation() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Rosary mystery meditation imagines Gospel scenes while praying Hail Marys — Joyful (Incarnation), Sorrowful (Passion), Glorious (Resurrection), Luminous (public ministry). One mystery per decade; slow pacing beats speed; read the biblical account first.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="rosary-mysteries-meditation">
                 The Rosary is not merely repetition—it is meditation on the mysteries of Christ's life. With twenty mysteries spanning His entire earthly journey, the Rosary offers a complete school of contemplation that transforms the one who prays it.

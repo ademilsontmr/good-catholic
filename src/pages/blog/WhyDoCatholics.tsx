@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhyDoCatholics() {
   return (
@@ -79,6 +80,7 @@ export default function WhyDoCatholics() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics believe the Church founded by Christ on Peter (Matthew 16:18) subsists in the Catholic Church — with the fullness of sacraments, Scripture and Tradition, and apostolic succession. Common reasons to be Catholic include the Eucharist, historical continuity, moral clarity, and communion with saints across centuries.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Do Catholics Pray to Mary?</h2>
               <p className="text-text leading-relaxed mb-6">

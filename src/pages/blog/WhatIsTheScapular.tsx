@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsTheScapular() {
   return (
@@ -91,6 +92,7 @@ export default function WhatIsTheScapular() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A scapular is a sacramental — two cloth squares on cords, originally part of religious habits; the Brown Scapular of Carmel signifies devotion to Mary. Enrollment by a priest is required; it is a sign of prayer, not automatic salvation.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-brown-scapular">
                 If you've ever seen a Catholic wearing what appears to be two small brown cloth squares connected by strings around their neck, you've seen the Brown Scapular. Simple in appearance, profound in meaning — this small sacramental has been worn by saints like St. Thérèse of Lisieux, St. John Paul II, and countless others who entrusted themselves to Our Lady of Mount Carmel. But what exactly is it, where did it come from, and what does it mean to wear one?

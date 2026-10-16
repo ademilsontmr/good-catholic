@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay10() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay10() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic guide for <strong>Day 10</strong> (August 24, 2026): unique counsel aimed at night-shift workers, with links to the novena index and Day 10 prayer page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-10-august-24-2026">
                 Take the appointment: On Monday (August 24, 2026), Day 10 carries wisdom for a vocational decision through a break room microwave humming over cold coffee. There heat lightning without rain joins the ask for gentleness against control that will not trust God, while night-shift workers refuse the trap of comparing your dryness to someone else&apos;s consolation and aim at showing up to Mass less late inside a night-shift of intercession. The holiness of Day 10 is measured by showing up to Mass less late around wisdom for a vocational decision, not by whether a feast fills the missal.

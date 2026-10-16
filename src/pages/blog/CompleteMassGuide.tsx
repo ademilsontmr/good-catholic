@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CompleteMassGuide() {
   return (
@@ -74,6 +75,7 @@ export default function CompleteMassGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic Mass has two main parts: the Liturgy of the Word (readings, homily, Creed) and the Liturgy of the Eucharist (Offertory, Consecration, Communion). Understanding each part helps Catholics participate fully — responses, postures, and receiving Communion in a state of grace.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
                 The Second Vatican Council called the Eucharist "the source and summit of the Christian life" (Lumen Gentium 11). The Catechism of the Catholic Church echoes this: "The Eucharist is 'the source and summit of the Christian life'" (CCC 1324). Everything in the Church flows from the Mass and leads back to it. Understanding what happens at Mass — and why — transforms attendance from a passive obligation into an encounter with the living God.

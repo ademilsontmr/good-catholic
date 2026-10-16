@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function FeastOfStMichaelArchangel2026() {
   return (
@@ -88,6 +89,7 @@ export default function FeastOfStMichaelArchangel2026() {
                   The <strong>Feast of St. Michael the Archangel in 2026 is Tuesday, September 29</strong>. Since 1969 the Church celebrates Saints Michael, Gabriel, and Raphael together on this date, but St. Michael remains the principal figure — patron of police, military, and the Church in spiritual combat. It is not a U.S. holy day of obligation.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

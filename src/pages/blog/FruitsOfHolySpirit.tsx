@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function FruitsOfHolySpirit() {
   return (
@@ -91,6 +92,7 @@ export default function FruitsOfHolySpirit() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The twelve fruits of the Holy Spirit (Galatians 5:22–23) — charity, joy, peace, patience, kindness, goodness, generosity, gentleness, faithfulness, modesty, self-control, chastity — show the Spirit&apos;s work in a soul living in grace.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 Most Catholics who have been through Confirmation preparation can list the Seven Gifts of the Holy Spirit. Far fewer can name the Twelve Fruits. Yet the fruits may be the more practically important of the two, because they are the <em>visible evidence</em> of the Holy Spirit's presence in a person's life — not just spiritual capacities, but actual qualities of character that others can see and experience.

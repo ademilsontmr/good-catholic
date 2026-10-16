@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingAbortion() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicTeachingAbortion() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church teaches that direct abortion is gravally wrong at every stage — human life deserves protection from conception. Abortion is never a morally licit choice; the Church supports mothers in crisis through pregnancy help centers, post-abortion healing (Project Rachel), and advocacy for both woman and unborn child.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 Few topics generate more heat in American public life than abortion. For Catholics, the Church's teaching can sometimes feel like a burden — especially when it puts them at odds with friends, family, or the broader culture. But understanding <em>why</em> the Church teaches what it does — not just <em>what</em> it teaches — can transform this from a political stance into a deeply held conviction of faith and reason.

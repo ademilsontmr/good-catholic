@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function EucharisticPrayers() {
   return (
@@ -92,6 +93,7 @@ export default function EucharisticPrayers() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Eucharistic Prayers I–IV are the central consecration prayers of the Mass — the priest asks the Father to send the Spirit so bread and wine become Christ&apos;s Body and Blood. EP II is most common on Sundays; EP I (Roman Canon) is the oldest.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-prayers">
                 The Eucharist is the source and summit of the Christian life (Lumen Gentium 11). Before the Blessed Sacrament—whether exposed in the monstrance or reserved in the tabernacle—Catholics find the Real Presence of Jesus Christ, body, blood, soul, and divinity.

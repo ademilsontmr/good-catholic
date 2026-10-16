@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function EucharistRealPresence() {
     return (
@@ -83,6 +84,7 @@ export default function EucharistRealPresence() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics believe Jesus is truly, really, and substantially present in the Eucharist — Body, Blood, Soul, and Divinity under the appearances of bread and wine after consecration. This is not symbol only; the Catechism (CCC 1374) teaches the whole Christ is present, and adoration of the Blessed Sacrament follows from this faith.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <p className="text-text leading-relaxed mb-6">
                                 The Catholic Church holds a conviction that is "foolishness to the Gentiles and a stumbling block to Jews": that a piece of unleavened bread and a cup of wine truly become the <strong>Body, Blood, Soul, and Divinity</strong> of Jesus Christ. This isn't just a pious belief; it is a dogmatic certainty defined by the <strong>Council of Trent (1551)</strong> and believed by Christians from the earliest days.

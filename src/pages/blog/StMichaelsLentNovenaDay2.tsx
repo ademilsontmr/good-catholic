@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay2() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay2() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Looking for <em>St Michael&apos;s Lent Novena Day 2</em>? The civil date is <strong>August 16, 2026</strong>. This page orients converts in RCIA; Catholic Bible Online holds the novena words.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-2-august-16-2026">
                 Start honest: On Sunday (August 16, 2026), Day 2 carries freedom from a named addiction through a hospital corridor where monitors beep through thin curtains. There a cool front after weeks of heat joins the ask for fortitude against sloth that postpones prayer, while converts in RCIA refuse the trap of binging days to catch up in panic and aim at a kept Confession appointment inside a long trail toward Michaelmas. Ordinary Sunday becomes holy when Day 2 carries freedom from a named addiction without waiting for a feast banner.

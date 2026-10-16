@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnAngels() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnAngels() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Angels are pure spirits created by God — messengers, guardians, and worshippers at the throne. Catholics believe each person has a guardian angel (Matthew 18:10); Michael, Gabriel, and Raphael are archangels named in Scripture; angel worship is forbidden — latria belongs to God alone.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-angels">
                 In an age that tends to sentimentalize angels — turning them into chubby cherubs on greeting cards or vague spiritual forces — the Catholic Church offers something far more serious and far more beautiful: a coherent, scripturally grounded, theologically precise account of what angels are, what they do, and how they relate to human beings. This is not mythology. It is doctrine.

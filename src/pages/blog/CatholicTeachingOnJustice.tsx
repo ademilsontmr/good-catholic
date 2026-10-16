@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnJustice() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnJustice() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Justice gives each person his due — rights, wages, truth, and legal fairness. Catholic social teaching applies justice to poverty, immigration, and human dignity; commutative, distributive, and social justice together build the common good under natural law and Gospel mercy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-justice">
                 Few words are more contested in contemporary American culture than "social justice." For some, it represents the heart of the Gospel — the call to care for the poor, defend the vulnerable, and transform unjust structures. For others, it has become a political slogan detached from its moral foundations. The Catholic Church's teaching on justice is neither of these — it is something far more demanding and far more coherent.

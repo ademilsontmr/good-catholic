@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SignOfTheCrossCatholic() {
   return (
@@ -79,6 +80,7 @@ export default function SignOfTheCrossCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Sign of the Cross is made by touching forehead, chest, left shoulder, then right while saying &quot;In the name of the Father, and of the Son, and of the Holy Spirit. Amen.&quot; Catholics use it to begin and end prayer, enter church, and bless themselves — professing faith in the Trinity and Christ&apos;s cross.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Make the Sign of the Cross (Catholic)</h2>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">

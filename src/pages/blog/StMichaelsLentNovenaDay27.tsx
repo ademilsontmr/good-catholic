@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay27() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay27() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>September 10, 2026</strong> is Day 27 on the Assumption-to-Michaelmas road. Name defense against despair, ask for simplicity, and refuse using the novena to avoid a hard conversation.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-27-september-10-2026">
                 Offer the yes: On Thursday (September 10, 2026), Day 27 carries defense against despair through a military family kitchen waiting for a call. There steam from a night-shift coffee cup joins the ask for simplicity against isolation that refuses community, while artists and writers refuse the trap of using the novena to avoid a hard conversation and aim at listening before defending inside a map folded only to today&apos;s square. Ordinary Thursday becomes holy when Day 27 carries defense against despair without waiting for a feast banner.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintRitaOfCascia() {
   return (
@@ -74,6 +75,7 @@ export default function SaintRitaOfCascia() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Rita of Cascia (1381–1457) — patron of impossible causes, abused wives, and loneliness — bore stigmata and lived decades in peacemaking. Her feast is May 22; roses and novenas for hopeless situations are popular in U.S. parishes.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-rita-of-cascia">
                 In the Catholic world, few saints are as universally beloved as Saint Rita of Cascia. Her image — a woman with a wound on her forehead, often holding a rose or a crucifix — is found in churches, homes, and hospitals around the world. Millions of people have turned to her in their most desperate moments and found, through her intercession, that God does indeed work miracles in impossible situations.

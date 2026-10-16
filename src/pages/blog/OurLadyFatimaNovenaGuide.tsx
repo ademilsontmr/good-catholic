@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OurLadyFatimaNovenaGuide() {
   return (
@@ -74,6 +75,7 @@ export default function OurLadyFatimaNovenaGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Fatima novena prepares for Our Lady of Fatima feasts — nine days of Rosary, Fatima prayers, and sacrifices for conversion of sinners and peace. Many begin May 4 for May 13; First Saturdays extend the devotion year-round.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Our Lady of Fatima?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">

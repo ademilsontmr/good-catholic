@@ -9,6 +9,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 
 const PAGE = "https://guidecatholic.com/blog/saint-junipero-serra/";
@@ -75,6 +76,7 @@ export default function SaintJuniperoSerra() {
                 Junípero Serra (1713–1784) was a Spanish Franciscan who founded nine of the twenty-one California missions, beginning at San Diego in 1769. He died at Carmel on August 28, 1784. Pope Francis canonized him in Washington, D.C., on September 23, 2015. The United States keeps his optional memorial on July 1.
               </p>
             </div>
+            <BlogArticleAd slot="1906776249" />
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From Petra to the edge of New Spain</h2>
             <p className="text-text leading-relaxed mb-6">

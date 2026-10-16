@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function FaithAndWorksCatholic() {
   return (
@@ -74,6 +75,7 @@ export default function FaithAndWorksCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics teach we are saved by grace through faith — but faith that works in love (Galatians 5:6). Good works do not earn salvation; they flow from sanctifying grace and must be present in a living faith, as James 2 and Catholic tradition affirm.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The doctrine of <em>sola fide</em> — "faith alone" — is the central Protestant objection to Catholicism. Martin Luther called it "the article by which the Church stands or falls." The claim is that Catholics believe they earn their way to heaven through good works, while Protestants believe salvation is by faith alone, as a free gift of God's grace.

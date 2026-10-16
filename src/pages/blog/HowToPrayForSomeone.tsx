@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToPrayForSomeone() {
   return (
@@ -74,6 +75,7 @@ export default function HowToPrayForSomeone() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Pray for someone by naming them to God, offering specific intentions, adding a Hail Mary or Our Father, and optionally fasting or offering Mass for them — intercessory prayer unites your sacrifice with Christ&apos;s; trust God&apos;s timing and will.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-for-someone-catholic">
                 When someone we love is suffering — sick, lost, struggling, broken — we often feel helpless. We want to do something, but we don't know what. The Catholic tradition offers a profound answer: pray for them. Not as a last resort, not as a substitute for action, but as the most powerful thing you can do — bringing another person before the throne of God and asking for His mercy on their behalf.

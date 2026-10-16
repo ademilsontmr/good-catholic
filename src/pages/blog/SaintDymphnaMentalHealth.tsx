@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintDymphnaMentalHealth() {
   return (
@@ -91,6 +92,7 @@ export default function SaintDymphnaMentalHealth() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Dymphna is patron of those with mental illness, anxiety, and nervous disorders — martyred in the 7th century after fleeing an abusive father. Her shrine in Massillon, Ohio, draws American pilgrims; Catholics invoke her alongside professional mental health care.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-dymphna-mental-health">
                 For centuries, the shrine of Saint Dymphna in Gheel, Belgium, has been a place of pilgrimage for those seeking relief from "illnesses of the mind." Unlike many medieval shrines that were fearful of mental illness, the community of Gheel developed a revolutionary model of "boarding" patients with local families—a tradition that continues to this day, inspired by St. Dymphna's charity.

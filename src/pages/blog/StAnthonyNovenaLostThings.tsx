@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StAnthonyNovenaLostThings() {
   return (
@@ -59,6 +60,7 @@ export default function StAnthonyNovenaLostThings() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The St. Anthony novena is a nine-day Catholic prayer asking Saint Anthony of Padua to intercede for the return of lost items or peace of mind. Pray daily for nine days, search responsibly, and offer thanks when the item is found.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Saint Anthony of Padua (1195–1231) was a Franciscan friar and Doctor of the Church, famed for preaching across Italy and France. Devotion to him for lost things arose when a novice stole his psalter and returned it after Anthony prayed. His feast is June 13 — among the most popular saint days in U.S. parishes.</LinkedText>

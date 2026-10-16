@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicLastRites() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicLastRites() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Last Rites (Anointing of the Sick) include confession if possible, anointing with oil, and Viaticum (Communion as food for the journey) — for anyone seriously ill or elderly, not only the moment of death. They forgive sin and strengthen the soul.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-last-rites-explained">
                 Few moments in life are as sacred — or as urgent — as the hours surrounding death. The Catholic Church, in her wisdom and mercy, has always provided her members with spiritual care at the end of life. The rites administered to the dying are not a formality or a cultural tradition. They are sacraments: real encounters with the grace of God at the most critical moment of a person's existence.

@@ -14,6 +14,7 @@ import { SAINT_OF_DAY_BY_DATE } from "@/data/saintOfDayArticles";
 import { parseDateSlug, saintOfDayArticlePath } from "@/lib/saintOfDaySlugs";
 import NotFound from "@/pages/NotFound";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintOfDayArticlePage() {
   const { dateSlug } = useParams<{ dateSlug: string }>();
@@ -91,6 +92,7 @@ export default function SaintOfDayArticlePage() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">{article.metaDescription}</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 {liturgical ? `What the Church Celebrates on ${article.feastDateLabel}` : `Who Is ${article.name}?`}
               </h2>

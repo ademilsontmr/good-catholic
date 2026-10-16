@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PopeFrancisLegacy() {
   return (
@@ -93,6 +94,7 @@ export default function PopeFrancisLegacy() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Pope Francis (2013–2025) emphasized mercy, care for the poor and environment (Laudato Si&apos;), synodality, and outreach to margins — his legacy includes encyclicals, Curia reform, and global pastoral style; evaluation continues under Church tradition.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 From Buenos Aires: The Making of a Pope

@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintMichaelsLentPrayers2026() {
   return (
@@ -79,6 +80,7 @@ export default function SaintMichaelsLentPrayers2026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">For Saint Michaels Lent 2026, pray daily at least the <strong>Prayer to St. Michael the Archangel</strong> (Leo XIII). When you can, pray the fuller seasonal novena with litany and consecration (~15 minutes). Short on time? Keep the short prayer faithfully; when margin returns, open the complete daily pages.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

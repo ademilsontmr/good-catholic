@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsHolyWeek() {
   return (
@@ -91,6 +92,7 @@ export default function WhatIsHolyWeek() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Holy Week is the most sacred week of the Christian year — from Palm Sunday through the Triduum (Holy Thursday, Good Friday, Holy Saturday) to Easter. Catholics attend liturgies commemorating Christ&apos;s Passion, death, and Resurrection; the Easter Vigil is the pinnacle of the liturgical year.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-week-catholic">
                 There is no week like Holy Week in the entire Christian calendar. From Palm Sunday through the Easter Vigil, the Church relives — not merely remembers, but truly enters into — the Paschal Mystery: the suffering, death, and resurrection of Jesus Christ. The liturgies of Holy Week are among the oldest, most elaborate, and most theologically rich in the entire Catholic tradition. To participate in them fully is to be transformed.

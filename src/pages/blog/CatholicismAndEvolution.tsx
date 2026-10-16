@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicismAndEvolution() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicismAndEvolution() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church permits belief in evolution of the body provided one affirms special creation of the soul by God — Pius XII and subsequent popes distinguish scientific theories from philosophical materialism. Adam and Eve as real first parents is required doctrine.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The Catholic Church views science and faith as two complementary ways of looking at one reality. Science tells us <strong>how</strong> the world was physically formed; theology tells us <strong>who</strong> willed it into being and <strong>why</strong> we exist.

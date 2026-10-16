@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintJohnOfTheCross() {
   return (
@@ -74,6 +75,7 @@ export default function SaintJohnOfTheCross() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. John of the Cross (1542–1591) — Carmelite mystic, poet of Dark Night of the Soul, and Doctor of the Church — taught purification before union with God. Imprisoned by brethren, he united suffering with Christ; co-reformer with Teresa of Ávila; patron of mystics and contemplatives.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-john-of-the-cross">
                 Juan de Yepes Álvarez — known to history as Saint John of the Cross — was born in 1542 in Fontiveros, a small town in Castile, Spain. He died in 1591, at the age of 49, having spent his brief life in poverty, suffering, and an extraordinary intimacy with God. In those 49 years, he produced a body of mystical writing that has never been surpassed — poetry of such beauty that it is studied in Spanish literature courses alongside Cervantes, and theology of such depth that it has guided souls toward God for five centuries.

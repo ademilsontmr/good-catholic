@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SpiritualLifeBasics() {
   return (
@@ -92,6 +93,7 @@ export default function SpiritualLifeBasics() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Basics of Catholic spiritual life: Sunday Mass, regular Confession, daily prayer, Scripture, works of mercy, and growth in virtue — built on Baptism and fed by Eucharist. Sanctity is for every layperson, not only religious.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-life-basics">
               The spiritual life is the foundation of Catholic faith. Discover the essential daily practices, prayer routines, and spiritual disciplines that help Catholics grow closer to God and live out their faith in everyday life.

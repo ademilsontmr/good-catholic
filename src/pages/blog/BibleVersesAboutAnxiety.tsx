@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutAnxiety() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutAnxiety() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The best Bible verses about anxiety include Philippians 4:6-7, Matthew 6:34, 1 Peter 5:7, Isaiah 41:10, and Psalm 94:19.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
                 Catholics who search for bible verses about anxiety are rarely looking for a slogan. They want language strong enough for a hospital waiting room, a restless night, or a hard conversation after Mass. Scripture gives that language — not as a shortcut around the Cross, but as a companion on the way. Nighttime spirals, Sunday distraction, and dread before appointments are common confession topics in U.S. parishes. These verses train the anxious mind to pray with thanksgiving instead of rehearsing catastrophe.

@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentMeaning2026() {
   return (
@@ -79,6 +80,7 @@ export default function StMichaelsLentMeaning2026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">&quot;St Michaels Lent 2026&quot; is the same Catholic devotion as St. Michael's Lent: voluntary prayer and penance from August 15 to September 29 in honor of St. Michael. It is real and historical — not a conspiracy season, not a replacement for Sunday Mass, and not required under canon law.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

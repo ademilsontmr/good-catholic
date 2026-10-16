@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function GuardianAngelsFeastDayOctober22026() {
   return (
@@ -78,6 +79,7 @@ export default function GuardianAngelsFeastDayOctober22026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: "The Memorial of the Guardian Angels is <strong>Friday, October 2, 2026</strong>. Catholics honor the angel assigned to protect and guide each person — a doctrine rooted in Matthew 18:10 and the long tradition of the Church." }} />
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">

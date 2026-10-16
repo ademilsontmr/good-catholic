@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicFastingRules() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicFastingRules() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic fasting rules require adults (18–59) to eat one full meal on Ash Wednesday and Good Friday, with two smaller meals that together do not equal a full meal; abstinence from meat applies on those days and Lenten Fridays. Pregnant women, the ill, and manual laborers may be exempt.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-fasting-rules">
                 Many American Catholics are fuzzy on the Church's fasting rules. They know they're supposed to do something on Ash Wednesday and Good Friday, and they know Fridays during Lent involve giving up meat — but the specifics are often unclear. What exactly counts as fasting? What is abstinence? Who is required to observe these practices? What about the Eucharistic fast before Communion?

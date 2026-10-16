@@ -16,6 +16,7 @@ import { parsePopeArticleSlug, popeOrdinal } from "@/lib/popeSlugs";
 import { POPE_TABLE_ROWS } from "@/lib/popeTableData";
 import NotFound from "@/pages/NotFound";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PopeArticlePage() {
   const { articleSlug } = useParams<{ articleSlug: string }>();
@@ -114,6 +115,7 @@ export default function PopeArticlePage() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">{article.directAnswer}</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Was Pope {displayName.replace(/^St\.\s+/, "")}?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
                 {article.intro}

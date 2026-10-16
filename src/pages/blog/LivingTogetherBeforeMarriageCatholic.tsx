@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LivingTogetherBeforeMarriageCatholic() {
   return (
@@ -80,6 +81,7 @@ export default function LivingTogetherBeforeMarriageCatholic() {
                   <strong>The Catholic Church teaches that sexual relations belong exclusively to marriage</strong> (CCC 2360–2361). Living together before marriage often involves <strong>fornication</strong>, which is gravely sinful (CCC 2353), and cohabitation without chastity contradicts the <strong>virtue of chastity</strong> every baptized person is called to live (CCC 2348–2350). Pastors may ask couples to separate or live as brother and sister before the wedding; <strong>Confession</strong> and a fresh start are always available.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6">
                 <p className="text-text leading-relaxed">

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintKateriTekakwitha() {
   return (
@@ -79,6 +80,7 @@ export default function SaintKateriTekakwitha() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Kateri Tekakwitha (1656–1680) — Lily of the Mohawks — first Native American saint, converted Jesuit mission, lived virginity and penance. Patron of ecology, Native Americans, and those ridiculed for faith; feast July 14 in U.S.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-kateri-tekakwitha">
                 Kateri Tekakwitha was born in 1656 in Ossernenon (present-day Auriesville, New York) — the same village where the Jesuit martyrs Isaac Jogues and his companions had been killed just a decade earlier. She died at the age of 24, having lived a life of extraordinary holiness in the most difficult of circumstances. Three centuries after her death, the Catholic Church declared her a saint — the first Native American to receive that honor.

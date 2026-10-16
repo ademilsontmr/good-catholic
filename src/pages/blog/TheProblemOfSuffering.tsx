@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function TheProblemOfSuffering() {
   return (
@@ -92,6 +93,7 @@ export default function TheProblemOfSuffering() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics understand suffering through the Cross — Christ redeems pain by joining it to his; suffering is not meaningless when offered in love. The Church rejects pure punishment theology; Job, Gospels, and John Paul II&apos;s Salvifici Doloris explore mystery without easy answers.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 Philosophers call this the <strong>Epicurean Paradox</strong>: If God is willing to prevent evil but not able, He is not all-powerful. If He is able but not willing, He is not all-good. The Catholic response is not a logical equation, but a historical event: <strong>The Crucifixion</strong>.

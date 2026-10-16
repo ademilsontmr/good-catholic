@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay38() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay38() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Looking for <em>St Michael&apos;s Lent Novena Day 38</em>? The civil date is <strong>September 21, 2026</strong>. This page orients ushers and greeters; Catholic Bible Online holds the novena words.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-38-september-21-2026">
                 Finish the brick: On Monday (September 21, 2026), Day 38 carries end to a cycle of rage through a police cruiser parked behind a closed store. There a red sunset over strip-mall crosses joins the ask for clarity against performative fasting, while ushers and greeters refuse the trap of making Day 38 about your brand of Catholicism and aim at mercy that cost something inside a shelter belt against digital storms. Day 38 on September 21, 2026 proves that a shelter belt against digital storms can form saints between solemnities while you hold end to a cycle of rage.

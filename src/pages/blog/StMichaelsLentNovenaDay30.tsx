@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay30() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay30() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>Day 30</strong> of St. Michael&apos;s Lent Novena is <strong>September 13, 2026</strong> (Sunday). Suggested intention: patience with aging parents. Pray the free full text on Catholic Bible Online, then live one concrete mercy.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-30-september-13-2026">
                 Stay with it: On Sunday (September 13, 2026), Day 30 carries patience with aging parents through an Adoration chapel with one other soul present. There haze that blurs the skyline joins the ask for kindness against apathy toward the poor, while newlyweds refuse the trap of mocking quieter Marian prayer and aim at intercession for priests inside a candle that outlasts mood swings. The holiness of Day 30 is measured by intercession for priests around patience with aging parents, not by whether a feast fills the missal.

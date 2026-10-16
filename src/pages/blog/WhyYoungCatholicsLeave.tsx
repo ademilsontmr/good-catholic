@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhyYoungCatholicsLeave() {
   return (
@@ -74,6 +75,7 @@ export default function WhyYoungCatholicsLeave() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Young Catholics often leave over perceived irrelevance, scandal, moral disagreements, or weak catechesis — not always rejection of Christ. The Church responds through authentic community, beauty in liturgy, clear teaching, and mentors who show faith as a living relationship with Jesus.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-young-catholics-leave-the-church">
                 The numbers are striking. According to Pew Research Center, approximately 13% of all American adults are former Catholics — people who were raised in the faith and have since left. The Catholic Church loses more members than any other Christian denomination in the United States. For every person who converts to Catholicism, roughly six people leave. This is not a minor pastoral challenge. It is a crisis.

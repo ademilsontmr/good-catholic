@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnBaptism() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnBaptism() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Baptism is the first sacrament — washing away original sin, initiating into Christ and the Church, and imprinting an indelible character. Catholics baptize infants by right of parents&apos; duty; adults receive Baptism, Confirmation, and Eucharist at the Easter Vigil through RCIA.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
                 The Catechism of the Catholic Church calls Baptism "the basis of the whole Christian life, the gateway to life in the Spirit, and the door which gives access to the other sacraments" (CCC 1213). It is the sacrament by which we are reborn as children of God, incorporated into the Body of Christ, and made members of the Church. Every other sacrament presupposes it. Every grace we receive flows through it. To understand Baptism is to understand the very foundation of the Christian life.

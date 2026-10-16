@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DailyPrayerRoutine() {
   return (
@@ -91,6 +92,7 @@ export default function DailyPrayerRoutine() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Catholic daily prayer routine typically includes morning offering, Angelus at noon, Rosary or lectio divina, and night examination — anchored by Sunday Mass and regular Confession; even five focused minutes beat inconsistent long sessions.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-daily-prayer-routine">
                 One of the most common struggles among American Catholics is inconsistency in prayer. We want to pray more, we know we should pray more, but life gets busy and prayer gets pushed to the margins. The solution isn't willpower — it's structure. When prayer is tied to the natural rhythms of the day, it becomes as natural as eating or sleeping. The Church has always known this, which is why she developed the Liturgy of the Hours — a structured prayer schedule that sanctifies every part of the day.

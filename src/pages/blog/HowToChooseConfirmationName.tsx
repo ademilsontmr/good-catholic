@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToChooseConfirmationName() {
   return (
@@ -93,6 +94,7 @@ export default function HowToChooseConfirmationName() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Choose a confirmation saint whose life inspires your vocation — research their story, virtues, and feast day; the name need not match your baptismal name. Pick someone you will ask for intercession throughout adult faith.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-choose-confirmation-name">
                 When you are confirmed, you receive the fullness of the Holy Spirit and are strengthened to live as a mature Christian. As part of this sacrament, you choose a Confirmation name — the name of a saint who will be your special patron and model for the rest of your life. This choice deserves serious prayer and reflection, not a last-minute decision.

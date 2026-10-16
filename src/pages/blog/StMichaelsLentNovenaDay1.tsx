@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay1() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay1() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael&apos;s Lent Novena <strong>Day 1</strong> falls on <strong>Saturday, August 15, 2026</strong>. Bring protection of children and schools into the prayers, then open Catholic Bible Online for the complete Day 1 page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-1-august-15-2026">
                 Begin here: On Saturday (August 15, 2026), Day 1 carries protection of children and schools through a classroom hallway smelling of pencil shavings and floor wax. There humidity that makes prayer feel slower joins the ask for humility against pride that refuses correction, while parents of school-age children refuse the trap of treating the novena like a lucky charm and aim at kinder speech at supper inside a forge that heats iron slowly. Because August 15, 2026 also touches the Assumption of Mary, let that celebration color protection of children and schools while Day 1 still remains a forge that heats iron slowly.

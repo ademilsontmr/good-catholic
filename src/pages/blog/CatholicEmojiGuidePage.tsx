@@ -9,6 +9,7 @@ import { QuizCTA } from "@/components/blog/QuizCTA";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 import { catholicEmojiGuides, emojiGuideBySlug, type Inline } from "@/data/catholicEmojiGuides";
 
@@ -104,6 +105,7 @@ export default function CatholicEmojiGuidePage() {
             <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
               <p className="text-lg text-text leading-relaxed font-medium">{guide.answer}</p>
             </div>
+            <BlogArticleAd slot="1906776249" />
             {guide.sections.map((section) => (
               <section key={section.h2}>
                 <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{section.h2}</h2>

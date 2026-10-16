@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay3() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay3() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>August 17, 2026</strong> is Day 3 on the Assumption-to-Michaelmas road. Name peace in a divided family, ask for temperance, and refuse posting about prayer more than praying.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-3-august-17-2026">
                 Name the day: On Monday (August 17, 2026), Day 3 carries peace in a divided family through a kitchen table buried under permission slips. There cicadas loud enough to catechize patience joins the ask for temperance against wrath that scorches the household, while returning Catholics refuse the trap of posting about prayer more than praying and aim at one deleted toxic scroll habit inside a watchman&apos;s lamp in late summer. Day 3 on August 17, 2026 proves that a watchman&apos;s lamp in late summer can form saints between solemnities while you hold peace in a divided family.

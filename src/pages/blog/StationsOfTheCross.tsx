@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StationsOfTheCross() {
   return (
@@ -92,6 +93,7 @@ export default function StationsOfTheCross() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Stations of the Cross follow Christ&apos;s Passion through fourteen scenes — from condemnation to burial. Catholics pray them especially in Lent and Good Friday, meditating on each station with genuflections; St. Francis popularized the devotion; many parishes walk them on Fridays.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 For those who cannot travel to Jerusalem to walk the <strong>Via Dolorosa</strong>, the Church has brought Jerusalem to us. The 14 stations are windows into the most important hours of human history.

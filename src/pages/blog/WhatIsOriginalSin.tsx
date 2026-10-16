@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsOriginalSin() {
   return (
@@ -74,6 +75,7 @@ export default function WhatIsOriginalSin() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Original sin is the fallen state inherited from Adam and Eve — not personal guilt but deprivation of original holiness and inclination toward sin (concupiscence). Baptism removes original sin; its effects remain, which is why Catholics need grace, sacraments, and lifelong conversion.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-original-sin-catholic">
                 Original sin is not simply the first sin ever committed — it is a condition inherited by every human being as a consequence of that first sin. The Catechism of the Catholic Church defines it as "the sin contracted, not committed — a condition rather than an act" (CCC 404). Understanding this distinction is essential to understanding what the Church actually teaches.

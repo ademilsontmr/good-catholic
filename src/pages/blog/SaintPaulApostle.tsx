@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintPaulApostle() {
   return (
@@ -74,6 +75,7 @@ export default function SaintPaulApostle() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Paul the Apostle — Saul of Tarsus — persecuted Christians until his Damascus conversion; he became apostle to the Gentiles and wrote much of the New Testament. Beheaded in Rome c. 67; feast June 29 with Peter; his theology of grace, Body of Christ, and faith working in love shapes all Catholic preaching.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-paul-apostle">
                 Saint Paul the Apostle — born Saul of Tarsus — is one of the most extraordinary figures in human history. A Pharisee who persecuted Christians with violent zeal, he was transformed by a direct encounter with the risen Christ into the greatest missionary the world has ever known. He traveled thousands of miles across the Roman Empire, founded dozens of churches, and wrote letters that became the theological backbone of the New Testament. His thought on grace, justification, the body of Christ, and the love of God has shaped Christian theology for two millennia.

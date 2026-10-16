@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintThereseOfLisieux() {
   return (
@@ -91,6 +92,7 @@ export default function SaintThereseOfLisieux() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Thérèse of Lisieux (1873–1897) — the Little Flower — taught the &quot;little way&quot; of childlike trust and doing small acts with great love. Doctor of the Church and patron of missionaries, she promised to spend her heaven doing good on earth and is one of the most popular modern saints.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-therese-of-lisieux">
                 In the history of Catholic spirituality, few figures have spoken more directly to the hearts of ordinary people than St. Thérèse of Lisieux. She was not a great theologian, a missionary, or a mystic who levitated in ecstasy. She was a young French girl who entered a convent, struggled with dryness in prayer, suffered from illness, and died before her 25th birthday. And yet her "Little Way" — the path of spiritual childhood, of doing small things with great love — has transformed millions of lives and earned her the title of Doctor of the Church.

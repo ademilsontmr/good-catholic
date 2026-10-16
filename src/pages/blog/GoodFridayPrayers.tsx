@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function GoodFridayPrayers() {
   return (
@@ -79,6 +80,7 @@ export default function GoodFridayPrayers() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Good Friday prayers include the Stations of the Cross, veneration of the cross, and silent adoration — no Mass is celebrated; Communion is distributed from hosts consecrated Holy Thursday. It is a day of fast and abstinence.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-1">📅 Good Friday 2026</p>

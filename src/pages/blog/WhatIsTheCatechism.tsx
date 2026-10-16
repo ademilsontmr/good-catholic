@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsTheCatechism() {
   return (
@@ -79,6 +80,7 @@ export default function WhatIsTheCatechism() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catechism of the Catholic Church (1992) is the official compendium of Catholic doctrine — Scripture, Tradition, and Magisterium organized for bishops, teachers, and laity. It covers creed, sacraments, morality, and prayer in 2,865 numbered paragraphs.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-catechism-of-the-catholic-church">
                 If you want to know what the Catholic Church teaches — on any subject — the Catechism of the Catholic Church (CCC) is the place to look. Published in 1992 under Pope John Paul II, it is the first comprehensive catechism of the universal Church in over 400 years. It is authoritative, accessible, and surprisingly readable.

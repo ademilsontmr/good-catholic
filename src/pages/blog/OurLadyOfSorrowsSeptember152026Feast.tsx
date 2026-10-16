@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function OurLadyOfSorrowsSeptember152026Feast() {
   return (
@@ -78,6 +79,7 @@ export default function OurLadyOfSorrowsSeptember152026Feast() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: "Our Lady of Sorrows is celebrated on <strong>Monday, September 15, 2026</strong>, the day after the Exaltation of the Holy Cross. Catholics meditate on Mary's Seven Sorrows — from Simeon's prophecy to the burial of Jesus." }} />
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">

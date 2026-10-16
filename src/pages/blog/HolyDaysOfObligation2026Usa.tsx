@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HolyDaysOfObligation2026Usa() {
   return (
@@ -86,6 +87,7 @@ export default function HolyDaysOfObligation2026Usa() {
                   In 2026, U.S. Latin Rite Catholics must attend Mass on Sundays plus these holy days when the precept applies: Mary, Mother of God (Jan 1), Ascension (May 14 or May 17 by province), All Saints (Nov 1 — a Sunday), Immaculate Conception (Dec 8), and Christmas (Dec 25). The Assumption (Aug 15) falls on Saturday — the Mass obligation is abrogated in the United States this year.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
                 A holy day of obligation is a solemnity on which the Church requires Catholics to participate in Mass and to abstain from work that would hinder the worship of God or the rest of mind and body — the same basic duty as Sunday (Canon 1246–1247). In the United States, the bishops have specified six solemnities in addition to every Sunday.

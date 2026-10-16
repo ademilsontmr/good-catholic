@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnPeace() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnPeace() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Peace is fruit of justice and charity — not merely absence of war but order in the soul (Augustine). Catholics work for peace through reconciliation, just institutions, and inner union with God; Christ gives peace the world cannot give (John 14:27).</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-peace">
                 In a world torn by war, anxiety, political division, and personal restlessness, the question of peace has never been more urgent. Yet the peace the world offers — the peace of distraction, of comfort, of the absence of visible conflict — is not the peace the Church proclaims. Catholic teaching on peace is rooted in a vision of reality that is at once ancient and radically relevant: peace is not a feeling, not a political arrangement, and not merely the cessation of hostilities. It is an order — a right relationship between God, the human person, and the world.

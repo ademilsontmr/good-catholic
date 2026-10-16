@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnSameSexMarriage() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicTeachingOnSameSexMarriage() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church teaches that marriage is exclusively the union of one man and one woman — same-sex unions cannot be sacramental marriage. The Church calls persons with same-sex attraction to chastity and holiness like all Catholics, rejecting unjust discrimination while upholding the truth about human sexuality.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-same-sex-marriage">
                 The Catholic Church's position on same-sex marriage is clear and consistent: marriage, by its very nature, is the union of one man and one woman. This is not merely a religious preference or a cultural tradition — it is a truth rooted in the nature of the human person, in natural law, and in divine revelation. At the same time, the Church calls for genuine love and respect for every person, including those with same-sex attraction.

@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function Michaelmas2026WhenIsIt() {
   return (
@@ -87,6 +88,7 @@ export default function Michaelmas2026WhenIsIt() {
                   <strong>Michaelmas 2026 is Tuesday, September 29, 2026.</strong> It is the traditional English name for the Catholic Feast of Saints Michael, Gabriel, and Raphael — Archangels. Michaelmas is not a separate holy day from the archangels&apos; feast; it is the same celebration, especially associated with St. Michael the Archangel. It is not a holy day of obligation in the United States.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

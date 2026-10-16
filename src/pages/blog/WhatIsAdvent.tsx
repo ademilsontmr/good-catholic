@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsAdvent() {
   return (
@@ -91,6 +92,7 @@ export default function WhatIsAdvent() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Advent is the four-week season preparing for Christmas — a time of hope, repentance, and joyful expectation of Christ&apos;s coming in history, sacraments, and glory. Catholics use an Advent wreath, violet vestments, and increased prayer; it begins the liturgical year in the Roman Rite.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-advent-catholic">
                 Every year, as the days grow shorter and the holiday season ramps up around them, American Catholics are called to something countercultural: to wait. Not passively, not impatiently, but with the active, expectant waiting of a people who know that something — Someone — is coming. That is the spirit of Advent, and it is one of the most distinctive gifts the Catholic liturgical tradition offers to a culture that has largely forgotten how to wait for anything.

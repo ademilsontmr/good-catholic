@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HolySoulsNovenaAllSouls2026() {
   return (
@@ -80,6 +81,7 @@ export default function HolySoulsNovenaAllSouls2026() {
                   Around <strong>All Souls Day (Monday, November 2, 2026)</strong>, Catholics intensify prayer for the faithful departed — Masses, the Eternal Rest prayer, cemetery visits, and novenas for the Holy Souls in purgatory.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">
                 <h2 className="font-display text-xl font-bold text-text mb-3 flex items-center gap-2 mt-0">

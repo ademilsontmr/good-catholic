@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function TattoosCatholicChurch() {
   return (
@@ -94,6 +95,7 @@ export default function TattoosCatholicChurch() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church has no absolute ban on tattoos — moral evaluation considers permanence, content (no sacrilege or evil imagery), motive, and health. Catechism does not forbid them; cultural and employer norms vary; conscience and modesty guide decisions.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="are-tattoos-a-sin">
                 In an era where tattoos have transitioned from counter-cultural rebellion to mainstream self-expression, the "tattoo question" has become one of the most frequently asked moral queries in parish offices and spiritual direction. Can a faithful Catholic get ink? Does it defile the "Temple of the Holy Spirit"?

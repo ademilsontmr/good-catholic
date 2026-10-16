@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicAnnulmentProcess() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicAnnulmentProcess() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Catholic annulment declares a marriage was invalid from the start — not divorce but judgment that consent, form, or capacity was lacking. The process involves tribunal, witnesses, and may take months; it allows remarriage in the Church if nullity is proven.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-annulment-process">
                 Divorce is one of the most painful experiences a person can endure. For Catholics, it carries an additional weight: the Church teaches that marriage is a sacrament — a permanent, indissoluble covenant established by God. Yet the Church also recognizes that not every attempted marriage is, in fact, a valid sacramental marriage. The Declaration of Nullity — commonly called an annulment — is the Church's formal process for determining whether a valid marriage ever existed. This guide walks you through every step.

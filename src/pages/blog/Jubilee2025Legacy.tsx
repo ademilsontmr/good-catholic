@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function Jubilee2025Legacy() {
     return (
@@ -90,6 +91,7 @@ export default function Jubilee2025Legacy() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Jubilee Year 2025 (Pilgrims of Hope) offered plenary indulgences through pilgrimage, works of mercy, and sacraments — its legacy continues in renewed hunger for mercy, pilgrim churches, and the Holy Doors&apos; spiritual meaning beyond the calendar year.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-2025-legacy">
                                 The Jubilee of 2025, under the theme "Pilgrims of Hope," was a time of extraordinary grace for the universal Church. Millions of faithful crossed the Holy Doors, sought reconciliation, and renewed their faith. However, the end of the jubilee liturgical year does not mark the end of our journey, but the beginning of a new stage of witness.

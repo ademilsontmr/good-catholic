@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesForAnxietyAndFear() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesForAnxietyAndFear() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses for anxiety and fear include Philippians 4:6 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-anxiety-and-fear">
                 Catholics who search for bible verses for anxiety and fear are rarely looking for a slogan. They want language strong enough for a hospital waiting room, a restless night, or a hard conversation after Mass. Scripture gives that language — not as a shortcut around the Cross, but as a companion on the way. Anxiety and fear often arrive as a pair — the body races, the mind invents disasters. This page gathers verses that slow both by returning the heart to God's nearness.

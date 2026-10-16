@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function AdventPrayers() {
   return (
@@ -79,6 +80,7 @@ export default function AdventPrayers() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Advent prayers include the O Antiphons (December 17–24), Advent Wreath prayers each Sunday, and Marian antiphons — preparing for Christ&apos;s birth and Second Coming. The season emphasizes hope, repentance, and joyful expectation, not Christmas celebration yet.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-8">
                 <p className="text-text font-semibold mb-1">📅 Advent 2026</p>

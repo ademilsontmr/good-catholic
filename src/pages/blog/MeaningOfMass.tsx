@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function MeaningOfMass() {
     return (
@@ -92,6 +93,7 @@ export default function MeaningOfMass() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Mass means participation in Christ&apos;s one sacrifice on Calvary made present on the altar — not a re-crucifixion but a sacramental re-presentation. Catholics offer worship to the Father through the Son in the Spirit and receive his Body and Blood.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <p className="text-text leading-relaxed mb-6">
                                 The Mass is the "Source and Summit" of the Christian life. To understand the Mass is to understand the very DNA of the Catholic faith. It is divided into two main parts: the <strong>Liturgy of the Word</strong> and the <strong>Liturgy of the Eucharist</strong>. Together, they form "one single act of worship" that transcends time and space.

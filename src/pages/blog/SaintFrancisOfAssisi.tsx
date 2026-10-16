@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintFrancisOfAssisi() {
   return (
@@ -79,6 +80,7 @@ export default function SaintFrancisOfAssisi() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Francis of Assisi (1181–1226) founded the Franciscan order, embraced radical poverty, received the stigmata, and renewed the Church through joy and love of creation. Patron of ecology and peace, he is among the most beloved saints — his prayer &quot;Make me an instrument of your peace&quot; is prayed worldwide.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-francis-of-assisi">
                 Born in 1181 or 1182 in Assisi, Italy, Francis Bernardone began life as the son of a wealthy cloth merchant. He was charming, generous, and popular — the life of every party. He dreamed of becoming a knight and winning glory in battle. No one who knew the young Francis would have predicted that he would become one of the greatest saints in the history of the Church.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicGodparentRequirementsUsa() {
   return (
@@ -60,6 +61,7 @@ export default function CatholicGodparentRequirementsUsa() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic godparents in the USA must be fully initiated (baptized, confirmed, receiving Communion), at least age 16, living in harmony with Church teaching, and able to obtain a sponsor certificate from their parish.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-godparent-requirements-usa">
                 A godparent (sponsor) makes a public promise at Baptism to help the child live the faith. The Church takes this role seriously because Baptism is not a family photo opportunity — it is incorporation into Christ&apos;s Body. Canon 874 of the Code of Canon Law lists who may and may not serve. American parishes typically require godparents to submit a sponsor certificate from their home parish confirming they meet these qualifications.

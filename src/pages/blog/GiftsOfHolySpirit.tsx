@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function GiftsOfHolySpirit() {
     return (
@@ -90,6 +91,7 @@ export default function GiftsOfHolySpirit() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The seven gifts of the Holy Spirit — wisdom, understanding, counsel, fortitude, knowledge, piety, fear of the Lord — are infused at Baptism and strengthened in Confirmation. They perfect the virtues and help us follow the Spirit&apos;s lead.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="gifts-holy-spirit">
                                 On the day of our Baptism, and fully at Confirmation, we receive the Holy Spirit with His seven gifts. They are not natural talents, but supernatural dispositions that make man docile to follow divine inspirations. They are like the sails of a boat that, when opened, allow the breath of the Spirit to lead us to the high seas of holiness. Many Catholics receive these gifts and never use them – it is like having a treasure buried in the backyard and never digging to find it.

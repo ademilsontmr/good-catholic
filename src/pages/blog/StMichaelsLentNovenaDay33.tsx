@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay33() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay33() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>September 16, 2026</strong> is Day 33 on the Assumption-to-Michaelmas road. Name holy friendships, ask for trust, and refuse praying against people instead of for conversion.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-33-september-16-2026">
                 Settle your body: On Wednesday (September 16, 2026), Day 33 carries holy friendships through a wedding-prep meeting that turned tense. There drizzle on a hospital window joins the ask for trust against idolatry of productivity, while homeless outreach volunteers refuse the trap of praying against people instead of for conversion and aim at forgiveness rehearsed once out loud inside a classroom where angels are not cartoons. Day 33 on September 16, 2026 proves that a classroom where angels are not cartoons can form saints between solemnities while you hold holy friendships.

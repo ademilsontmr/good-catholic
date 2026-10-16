@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnHope() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnHope() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Theological hope is trust in heaven and grace to attain it — not wishful thinking but virtue anchored in Christ&apos;s promises. Catholics hope for eternal life, resurrection of the body, and God&apos;s help amid trial; despair and presumption are sins against hope.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="virtue-of-hope-catholic">
                 We live in an age of anxiety. Climate change, political instability, personal loss, illness, loneliness — the weight of the world presses down on the human spirit. Into this darkness, the Catholic Church proclaims a virtue that is not a feeling, not a strategy, and not a denial of reality: hope. Real hope. The kind that does not disappoint (Romans 5:5).

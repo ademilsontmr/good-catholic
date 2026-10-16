@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintJosephGuide() {
   return (
@@ -79,6 +80,7 @@ export default function SaintJosephGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Joseph is foster father of Jesus, spouse of Mary, and patron of the universal Church, workers, and a happy death. Scripture calls him a just man; popes have urged devotion through the Year of St. Joseph, novenas for employment and housing, and entrustment of families to his care.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-joseph-complete-guide">
                 In an age that desperately needs models of authentic fatherhood, Saint Joseph stands as the supreme example. He was a just man, a faithful husband, a devoted father, a skilled craftsman, and a man of deep prayer. He protected the Holy Family from danger, provided for their needs, and raised the Son of God with love and wisdom. And he did all of this in silence.

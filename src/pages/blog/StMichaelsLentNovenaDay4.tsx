@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay4() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay4() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic guide for <strong>Day 4</strong> (August 18, 2026): unique counsel aimed at first responders, with links to the novena index and Day 4 prayer page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-4-august-18-2026">
                 Hold this: On Tuesday (August 18, 2026), Day 4 carries courage for a hard conversation through a parish vestibule after a tense finance meeting. There a dry wind that scrapes the nerves joins the ask for justice against envy that scrolls other lives, while first responders refuse the trap of weaponizing spiritual language against a spouse and aim at a reconciled text sent inside a rope bridge over noisy weeks. Even without a major feast, Day 4 asks first responders to keep courage for a hard conversation ahead of distraction.

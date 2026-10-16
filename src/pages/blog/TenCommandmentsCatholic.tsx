@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function TenCommandmentsCatholic() {
   return (
@@ -92,6 +93,7 @@ export default function TenCommandmentsCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Ten Commandments are God&apos;s moral law given to Moses — Catholics number them slightly differently from most Protestants but teach the same substance: worship God alone, honor parents, keep Sabbath holy, and avoid idolatry, blasphemy, murder, adultery, theft, false witness, and coveting.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The Ten Commandments — called the <em>Decalogue</em> (from the Greek <em>deka logoi</em>, "ten words") — were given by God to Moses on Mount Sinai and are recorded in Exodus 20:1-17 and Deuteronomy 5:6-21. They form the foundational moral law of the Judeo-Christian tradition, and the Catholic Church treats them as the essential framework for understanding the moral life.

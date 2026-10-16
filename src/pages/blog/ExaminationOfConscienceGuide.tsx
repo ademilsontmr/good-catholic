@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ExaminationOfConscienceGuide() {
   return (
@@ -104,6 +105,7 @@ export default function ExaminationOfConscienceGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">An examination of conscience reviews thoughts, words, and deeds against the Ten Commandments and virtues before Confession — asking where you failed to love God and neighbor. Catholic guides often use commandment lists, Beatitudes, or vocation-specific questions for married, single, or youth.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
                 In a culture that rarely encourages honest self-reflection, the Catholic practice of examining one's conscience stands out as countercultural and profoundly liberating. Rather than suppressing guilt or rationalizing sin, the examination of conscience invites us to look honestly at our lives in the light of God's love — not to condemn ourselves, but to receive His mercy and grow in holiness.

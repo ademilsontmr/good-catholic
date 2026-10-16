@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DoAnimalsGoToHeavenCatholic() {
   return (
@@ -87,6 +88,7 @@ export default function DoAnimalsGoToHeavenCatholic() {
                   The Catholic Church teaches that human beings alone possess an immortal, rational soul made in God&apos;s image — capable of knowing and loving God forever in heaven. Animals have a living soul in the sense of an animating principle, but not an immortal soul like ours; the Church does not define that pets go to heaven as persons do, yet Scripture promises the renewal of all creation (Romans 8:19–22), leaving room for hope that God may restore what we love in ways beyond our full knowledge.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="do-animals-go-to-heaven-catholic">
                 This question touches one of the deepest attachments of human life. A child weeping over a goldfish, a widow whose only companion was a cat, a farmer who knew every cow by name — grief over animals is real and good. The Church does not mock that grief. But Catholic faith distinguishes carefully between what God has revealed about eternal life for human persons and what remains open to theological hope regarding the rest of creation.

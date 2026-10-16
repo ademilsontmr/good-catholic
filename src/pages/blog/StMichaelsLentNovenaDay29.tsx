@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay29() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay29() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Day 29 (September 12, 2026) confronts scruples that crush joy by requesting peace while you carry renewal of marriage vows in practice into St. Michael&apos;s Lent Novena.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-29-september-12-2026">
                 Return again: On Saturday (September 12, 2026), Day 29 carries renewal of marriage vows in practice through a choir loft before the first rehearsal note. There a still afternoon when clocks feel loud joins the ask for peace against scruples that crush joy, while those with chronic illness refuse the trap of demanding a sign after every Amen and aim at gentleness with your own limits inside a vineyard row you hoe without spectators. Even without a major feast, Day 29 asks those with chronic illness to keep renewal of marriage vows in practice ahead of distraction.

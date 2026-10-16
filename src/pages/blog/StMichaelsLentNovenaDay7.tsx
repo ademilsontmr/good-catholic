@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay7() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay7() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael&apos;s Lent Novena <strong>Day 7</strong> falls on <strong>Friday, August 21, 2026</strong>. Bring perseverance in a dry prayer life into the prayers, then open Catholic Bible Online for the complete Day 7 page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-7-august-21-2026">
                 Keep it plain: On Friday (August 21, 2026), Day 7 carries perseverance in a dry prayer life through a rideshare idle outside a courthouse. There golden hour light through dusty blinds joins the ask for hope against lust of the eyes online, while widowers and widows refuse the trap of collecting angel art while avoiding Confession and aim at a named intention written on paper inside a lighthouse through August humidity. Ordinary Friday becomes holy when Day 7 carries perseverance in a dry prayer life without waiting for a feast banner.

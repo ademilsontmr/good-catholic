@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SacredHeartPromises() {
   return (
@@ -92,6 +93,7 @@ export default function SacredHeartPromises() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Sacred Heart promises to St. Margaret Mary include peace in families, consolation, refuge, and grace for a fervent life — linked to First Friday Communion and enthronement devotion. The Church approves the devotion; promises require correspondence with grace.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The devotion of the Sacred Heart reached its modern clarity in 17th-century France, at the convent of <strong>Paray-le-Monial</strong>. Jesus chose an obscure nun, <strong>Saint Margaret Mary Alacoque</strong>, to reveal the "unfathomable riches" of His Heart. This was God's direct intervention against <strong>Jansenism</strong>, a heresy that painted God as a distant, terrifying judge.

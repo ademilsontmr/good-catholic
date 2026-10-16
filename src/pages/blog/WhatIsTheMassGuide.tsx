@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsTheMassGuide() {
   return (
@@ -92,6 +93,7 @@ export default function WhatIsTheMassGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Mass is the central act of worship — the Liturgy of the Word (Scripture and homily) and Liturgy of the Eucharist where bread and wine become Christ&apos;s Body and Blood. Sunday Mass fulfills the Third Commandment; the Mass re-presents Calvary in an unbloody sacrifice.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 To the outside observer, the Mass looks like a series of rituals. To the expert, it is an <strong>Entry into Eternity</strong>. In every Mass, time stands still. We are not "remembering" a past event; we are present at the single, eternal sacrifice of Jesus Christ on Calvary.

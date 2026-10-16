@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function FaithAndAnxiety() {
   return (
@@ -92,6 +93,7 @@ export default function FaithAndAnxiety() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic faith does not deny anxiety — Christ himself experienced anguish, and saints like Dymphna and Padre Pio accompany those who suffer. Prayer, sacraments, community, and professional therapy belong together; trust in Providence does not replace treatment for clinical anxiety disorders.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
                 Anxiety affects millions of Catholics worldwide. While faith offers powerful resources for peace, understanding the relationship between spiritual practice and mental health is essential for authentic healing.

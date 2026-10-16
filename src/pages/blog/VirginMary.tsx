@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function VirginMary() {
   return (
@@ -92,6 +93,7 @@ export default function VirginMary() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Mary is Mother of God (Theotokos), ever-Virgin, Immaculate Conception, and Assumed into heaven — highest honor among saints, not worship. Catholics honor her as Jesus did; she leads to Christ, crushes the serpent&apos;s head, and intercedes for the Church.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 Many modern Christians view Mary as a "temporary vessel"—a woman who was used and then discarded. The Catholic Church, following the 2,000-year witness of the Fathers, sees her as the <strong>Ark of the New Covenant</strong>. Just as the ancient Ark carried the Word of God in stone, Mary carried the Word of God in Flesh.

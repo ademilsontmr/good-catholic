@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatAgeFirstCommunionCatholicUsa() {
   return (
@@ -60,6 +61,7 @@ export default function WhatAgeFirstCommunionCatholicUsa() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Most U.S. Catholic children receive First Communion around age seven or eight after parish religious education — though the pastor determines readiness. First Confession is required beforehand; adults receive through RCIA at Easter Vigil.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-age-first-communion-catholic-usa">
                 Canon law states that children who have reached the age of reason — generally about seven years old — may receive the Eucharist once baptized and properly disposed (Canon 914). The United States follows the restored order in some dioceses (Confirmation before First Communion) but most American parishes still prepare children in second grade, around ages seven to eight, often celebrating First Communion in April or May. The date varies by diocese, parish, and school vs. religious education program.

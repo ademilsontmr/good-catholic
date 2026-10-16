@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DailyMassReadings() {
   return (
@@ -79,6 +80,7 @@ export default function DailyMassReadings() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Daily Mass readings follow a three-year Sunday cycle and two-year weekday cycle — Old Testament (or Acts), Psalm, New Testament epistle, and Gospel. USCCB publishes readings online; lectio divina on the day&apos;s Gospel is a common lay practice.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-readings-catholic">
                 One of the most beautiful aspects of Catholic life is that every day, over a billion Catholics around the world hear the same Scripture readings at Mass. Whether you are in New York or Nairobi, Tokyo or Rome, the same Word of God is proclaimed. Following the daily Mass readings connects you to this universal prayer of the Church.

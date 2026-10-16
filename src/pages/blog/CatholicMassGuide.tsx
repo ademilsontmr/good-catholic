@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicMassGuide() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicMassGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic Mass has two parts — Liturgy of the Word (readings, homily, Creed, intercessions) and Liturgy of the Eucharist (Offertory, Consecration, Communion, dismissal). Stand, sit, and kneel at local norms; non-Catholics may attend but not receive Communion.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-mass-complete-guide">
                 Every Sunday, over a billion Catholics around the world gather to celebrate the Mass. In a small village in Africa, in a cathedral in Rome, in a suburban parish in Ohio — the same Mass is celebrated, the same words are spoken, the same Christ becomes present on the altar. The Mass is the heartbeat of the Catholic Church.

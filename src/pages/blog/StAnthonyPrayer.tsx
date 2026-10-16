@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StAnthonyPrayer() {
   return (
@@ -79,6 +80,7 @@ export default function StAnthonyPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The St. Anthony prayer for lost things — &quot;St. Anthony, St. Anthony, please come around; something is lost and cannot be found&quot; — asks the patron of lost items for help finding objects or spiritual direction. Anthony was a Franciscan preacher and Doctor of the Church.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-prayer">
                 St. Anthony of Padua (1195-1231) is one of the most beloved saints in the Catholic Church — and one of the most invoked. His feast day (June 13) draws millions of pilgrims to his basilica in Padua, Italy. His intercession is sought for lost objects, lost people, lost faith, and impossible causes.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicWeddingVowsText() {
   return (
@@ -80,6 +81,7 @@ export default function CatholicWeddingVowsText() {
                   <strong>Standard U.S. Catholic wedding consent:</strong> &quot;I, N., take you, N., to be my wife/husband. I promise to be true to you in good times and in bad, in sickness and in health. I will love you and honor you all the days of my life.&quot; The priest first asks whether you come freely, without reservation, to love and honor each other all the days of your life. These words are the <strong>essential form of consent</strong>, not optional poetry.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6">
                 <p className="text-text leading-relaxed">

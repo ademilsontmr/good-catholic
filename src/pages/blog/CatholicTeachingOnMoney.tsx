@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnMoney() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnMoney() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Money is a tool, not an idol — Catholics may earn wealth justly but must practice stewardship, tithing, and almsgiving. The Church warns against greed, usury, and neglect of the poor; detachment and generosity are virtues; wealth without charity endangers the soul.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-money-and-wealth">
                 Few topics generate more confusion among Catholics than money. Some assume the Church condemns wealth outright. Others assume that financial success is a sign of God's blessing. Both are wrong. The Catholic tradition on money is rich, coherent, and deeply challenging — rooted in Scripture, developed through centuries of social teaching, and demanding a radical reorientation of how we think about what we own.

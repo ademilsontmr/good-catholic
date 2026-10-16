@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnEnvironment() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnEnvironment() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic care for creation flows from God as Creator — humans are stewards, not owners, of earth (Laudato Si&apos;). The Church rejects both exploitation of nature and idolizing ecology over human dignity; environmental justice connects to preferential option for the poor and protection of unborn life.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-teaching-on-environment">
                 In an age of climate anxiety and political polarization, the Catholic Church offers something rare: a coherent, theologically grounded vision of the human relationship with the natural world. It is neither the radical environmentalism that treats nature as sacred in itself, nor the exploitative attitude that treats the earth as a resource to be consumed without limit. It is the ancient Christian vision of stewardship — the conviction that creation is God's gift, entrusted to human care, and that how we treat it reflects how we love its Creator.

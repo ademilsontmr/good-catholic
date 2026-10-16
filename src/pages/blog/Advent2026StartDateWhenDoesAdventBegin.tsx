@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function Advent2026StartDateWhenDoesAdventBegin() {
   return (
@@ -78,6 +79,7 @@ export default function Advent2026StartDateWhenDoesAdventBegin() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: "Advent 2026 begins on <strong>Sunday, November 29, 2026</strong> (First Sunday of Advent) and ends on <strong>Thursday, December 24, 2026</strong>, before the Mass of the Lord's Nativity at night." }} />
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8">

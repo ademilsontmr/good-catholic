@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay25() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay25() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael&apos;s Lent Novena <strong>Day 25</strong> falls on <strong>Tuesday, September 8, 2026</strong>. Bring peace for the dying into the prayers, then open Catholic Bible Online for the complete Day 25 page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-25-september-8-2026">
                 Walk the square: On Tuesday (September 8, 2026), Day 25 carries peace for the dying through a small-business counter after a bad sales week. There fresh cut grass outside the rectory joins the ask for holy silence against harshness toward the weak, while nurses and aides refuse the trap of letting shame cancel a late start and aim at praying for an enemy by name inside a violin string tuned by repetition. Because September 8, 2026 also touches the Nativity of Mary, let that celebration color peace for the dying while Day 25 still remains a violin string tuned by repetition.

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicMarriageConvalidation() {
   return (
@@ -80,6 +81,7 @@ export default function CatholicMarriageConvalidation() {
                   <strong>Convalidation is not a decorative blessing on an already sacramental wedding.</strong> For Catholics bound by canonical form, a civil marriage is usually a <strong>valid natural bond</strong> but not a sacrament until the Church receives new consent in the proper form—or applies <strong>radical sanation</strong> (sanatio in radice) when the bishop supplies consent retroactively under strict conditions (canons 1156–1160).
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6">
                 <p className="text-text leading-relaxed">

@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintMichaelsLent2026() {
   return (
@@ -79,6 +80,7 @@ export default function SaintMichaelsLent2026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Saint Michael's Lent 2026 continues a Franciscan custom of prayer and fasting from the Assumption (August 15) to the Feast of St. Michael (September 29). Tradition links St. Francis of Assisi's stigmata at Mount La Verna with the end of one such season — penance, angels, and the Cross held together.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

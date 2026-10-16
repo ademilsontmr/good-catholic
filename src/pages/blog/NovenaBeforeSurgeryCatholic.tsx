@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NovenaBeforeSurgeryCatholic() {
   return (
@@ -59,6 +60,7 @@ export default function NovenaBeforeSurgeryCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A novena before surgery is nine days of Catholic prayer for the patient, medical team, and successful recovery. Start nine days before the operation if possible; receive Anointing of the Sick and Confession for serious procedures.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Catholics invoke Christ the Divine Physician, Mary Health of the Sick, Saint Luke the evangelist-physician, Saint Peregrine (patron of cancer patients), and Saint Padre Pio for healing. Hospital chaplains across the U.S. offer sacraments before major operations.</LinkedText>

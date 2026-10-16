@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SocialDoctrine() {
     return (
@@ -82,6 +83,7 @@ export default function SocialDoctrine() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Learn the fundamental principles of the Church&apos;s Social Doctrine. Understand how Catholic faith proposes solutions to social, political, and economic challenges.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="social-doctrine">
                                 The Social Doctrine of the Church (SDC) is the set of Church teachings on social, political, and economic realities. It is not a "third way" between capitalism and socialism, nor a political ideology, but a theological and ethical reflection that seeks to apply the Gospel message to the challenges of human coexistence.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnHeaven() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnHeaven() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Heaven is the beatific vision — seeing God face to face in perfect happiness with the saints and angels for eternity. Catholics hope for heaven through grace, faith, sacraments, and perseverance; purgatory purifies those who die in friendship with God but still need cleansing before entering glory.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Teaches About Heaven (CCC 1023–1029)</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-heaven-like-catholic">

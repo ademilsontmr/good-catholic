@@ -11,6 +11,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCboCTA";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintMichaelLent2026() {
   return (
@@ -79,6 +80,7 @@ export default function SaintMichaelLent2026() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Saint Michael Lent 2026 is a beginner-friendly Catholic devotion: from August 15 to September 29, pray St. Michael daily, choose one small sacrifice, and finish at Michaelmas. You do not need prior experience — only willingness to start and to stay close to Mass and Confession.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <StMichaelCboCTA />
 

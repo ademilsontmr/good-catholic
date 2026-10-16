@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnGambling() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnGambling() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Gambling is not intrinsically evil for Catholics — small stakes for recreation may be permissible. The Church condemons gambling that deprives family of necessities, exploits addiction, or replaces trust in Providence; casinos and lottery obsession often violate justice and temperance.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="is-gambling-a-sin-catholic">
                 Gambling is one of the oldest human activities — and one of the most contested from a moral standpoint. Cultures and religions have debated its permissibility for millennia. The Catholic Church's position is neither a blanket condemnation nor a free pass. It is a carefully reasoned moral framework that distinguishes between gambling as harmless recreation and gambling as a destructive vice — and it offers a path of freedom for those who have fallen into addiction.

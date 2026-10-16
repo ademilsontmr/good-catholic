@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicGriefAndLoss() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicGriefAndLoss() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics grieve with hope — mourning is human; the Funeral Mass, prayers for the dead, and belief in resurrection comfort the bereaved. Purgatory allows hope of reunion; professional counseling alongside spiritual direction is encouraged.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-guide-to-grief-and-loss">
                 The death of a loved one is a wound that does not heal quickly. Grief is not a problem to be solved or a weakness to be overcome — it is the price of love, and it is holy. The Catholic tradition has accompanied the dying and the bereaved for two thousand years, and it offers a depth of wisdom and consolation that no secular framework can match.

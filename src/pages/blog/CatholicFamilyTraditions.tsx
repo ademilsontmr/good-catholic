@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicFamilyTraditions() {
   return (
@@ -92,6 +93,7 @@ export default function CatholicFamilyTraditions() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic family traditions include Advent wreaths, blessing of homes at Epiphany, saint feast celebrations, rosary nights, and Sunday rest — customs that pass faith to children and mark the liturgical year in ordinary domestic life.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-family-traditions">
                 The family is called the "domestic church"—the place where faith is first learned and lived. Catholic family traditions create an environment where children encounter Christ not just on Sunday, but daily in their own homes.

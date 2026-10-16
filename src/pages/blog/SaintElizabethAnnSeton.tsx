@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintElizabethAnnSeton() {
   return (
@@ -74,6 +75,7 @@ export default function SaintElizabethAnnSeton() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Elizabeth Ann Seton (1774–1821) — first native-born U.S. saint — widowed, converted to Catholicism, founded the Sisters of Charity and Catholic schools in America. Patron of Catholic schools, widows, and seafarers; her feast is January 4.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-elizabeth-ann-seton">
                 Saint Elizabeth Ann Seton (1774–1821) is one of the most remarkable figures in American Catholic history. In a life of only 46 years, she experienced extraordinary joy and devastating loss, made a courageous religious conversion that cost her her social standing and many of her friendships, and built institutions that would shape Catholic education in America for generations. She is the mother of the American parochial school system.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LectioDivina() {
   return (
@@ -91,6 +92,7 @@ export default function LectioDivina() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Lectio divina is prayerful Scripture reading in four steps — lectio (read), meditatio (meditate), oratio (pray), contemplatio (rest in God). Catholics use it daily to let the Word speak personally, distinct from academic Bible study.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lectio-divina-how-to-practice">
                 Most American Catholics read the Bible occasionally — at Mass, in a study group, or during a personal devotion. But Lectio Divina is something different. It is not Bible study. It is not reading for information. It is a slow, prayerful encounter with the Word of God in which you allow Scripture to read you — to illuminate your heart, challenge your assumptions, and draw you into intimate conversation with God.

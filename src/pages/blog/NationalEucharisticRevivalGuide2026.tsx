@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function NationalEucharisticRevivalGuide2026() {
   return (
@@ -87,6 +88,7 @@ export default function NationalEucharisticRevivalGuide2026() {
                   The National Eucharistic Revival (2022–2025) was a U.S. bishops&apos; initiative to renew Catholic belief in the Real Presence — that Jesus is truly, substantially present in the Eucharist. It included parish renewal, Eucharistic Congress in Indianapolis (2024), and ongoing adoration and processions; Catholics in 2026 continue the mission through worship, catechesis, and Corpus Christi devotion.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="national-eucharistic-revival-complete-guide-2026">
                 For decades, American Catholics heard troubling statistics: large numbers of the baptized did not believe what the Church teaches about the Eucharist. The National Eucharistic Revival answered that crisis with prayer, teaching, pilgrimage, and public witness — centered on the truth that the same Jesus who walked in Galilee is present on every Catholic altar and in every tabernacle.

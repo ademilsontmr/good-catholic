@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintCatherineOfSiena() {
   return (
@@ -74,6 +75,7 @@ export default function SaintCatherineOfSiena() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Catherine of Siena (1347–1380) was a Dominican mystic, Doctor of the Church, and peacemaker who persuaded Pope Gregory XI to return to Rome. Her Dialogue and letters on Church reform remain influential; she is patron of Italy, nurses, and fire prevention.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-catherine-of-siena">
                 In an age when women had almost no public voice, Catherine of Siena spoke to the most powerful men in Europe — and they listened. She convinced a reluctant Pope to leave the comfort of Avignon and return to Rome. She dictated a mystical masterwork while in ecstasy. She received the stigmata. She died at 33, the same age as Christ. And in 1970, she became one of the first two women ever declared a Doctor of the Church. Her story is one of the most astonishing in the history of Christianity.

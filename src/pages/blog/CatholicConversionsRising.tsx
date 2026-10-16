@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicConversionsRising() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicConversionsRising() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic conversions are rising in some U.S. dioceses — often driven by Eucharistic hunger, beauty of liturgy, moral clarity, and online testimony. RCIA numbers fluctuate; personal invitation and parish welcome remain decisive factors.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-conversions-rising">
                 The narrative about religion in America has been one of steady decline for decades. Church attendance falling. Young people leaving. The "nones" — those with no religious affiliation — growing. The Catholic Church, in particular, has faced a painful combination of demographic decline, the clergy abuse crisis, and cultural marginalization.

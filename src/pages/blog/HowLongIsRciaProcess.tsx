@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowLongIsRciaProcess() {
   return (
@@ -60,6 +61,7 @@ export default function HowLongIsRciaProcess() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">RCIA typically runs from fall through Easter Vigil — about eight to nine months in U.S. parishes — though timelines vary by readiness, prior baptism, and marriage status. Unbaptized adults are initiated at Easter; baptized Christians may enter sooner.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-long-is-rcia-process">
                 Most American parishes run RCIA on an academic-year calendar: inquiry begins in late summer or early fall, weekly sessions run through Lent, and initiation sacraments are celebrated at the Easter Vigil — the Church&apos;s greatest night of the year. That makes the standard timeline roughly September through March or April, about eight to nine months. RCIA is not a course you pass by attendance alone; it is a gradual initiation into a living relationship with Christ and His Church.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToTeachChildrenToPray() {
   return (
@@ -93,6 +94,7 @@ export default function HowToTeachChildrenToPray() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Teach children to pray by modeling short prayers at meals and bedtime, using the Sign of the Cross, Our Father, and Hail Mary, and making prayer conversational — thank God, ask for help, say sorry. Keep sessions brief; let them see you pray daily.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-teach-children-to-pray">
                 Research consistently shows that children who pray regularly are more likely to maintain their faith into adulthood. But teaching children to pray is not primarily about technique — it is about relationship. You are not teaching your child a skill; you are introducing them to a Person. And the most powerful way to do that is by example.

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsTheTrinity() {
   return (
@@ -74,6 +75,7 @@ export default function WhatIsTheTrinity() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Holy Trinity is the central Catholic belief that one God exists as three divine Persons — Father, Son, and Holy Spirit — equal in glory, distinct in relation, united in essence. Catholics do not worship three gods; the Trinity is one God in three Persons, revealed by Christ and defined by the Church.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-holy-trinity">
                 Every time a Catholic makes the Sign of the Cross — "In the name of the Father, and of the Son, and of the Holy Spirit" — they are professing the doctrine of the Holy Trinity. Every Mass begins and ends with the Trinitarian formula. Every baptism is performed in the name of the Trinity. The Trinity is not a peripheral doctrine of Christianity; it is the foundation of everything.

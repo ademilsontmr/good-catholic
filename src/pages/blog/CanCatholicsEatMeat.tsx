@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CanCatholicsEatMeat() {
   return (
@@ -93,6 +94,7 @@ export default function CanCatholicsEatMeat() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholics abstain from meat on Ash Wednesday, Good Friday, and all Fridays of Lent — and some U.S. bishops extend Friday abstinence year-round or allow another penance. Fish and seafood are permitted; the rule applies to flesh meat of warm-blooded animals, not dairy or eggs.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Basic Rule: Friday Abstinence

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay46() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay46() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic guide for <strong>Day 46</strong> (September 29, 2026): unique counsel aimed at anyone who started the novena late, with links to the novena index and Day 46 prayer page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-46-september-29-2026">
                 Prefer thanksgiving: On Tuesday (September 29, 2026), Day 46 carries thanksgiving for graces already given through a doorway you bless before sleep. There Michaelmas air that finally feels like arrival joins the ask for holy indifference to vanity against fear of being ordinary, while anyone who started the novena late refuse the trap of starting tomorrow forever and aim at a heart freer than yesterday inside a Te Deum practiced in advance. Because September 29, 2026 also touches Michaelmas / Feast of the Archangels, let that celebration color thanksgiving for graces already given while Day 46 still remains a Te Deum practiced in advance.

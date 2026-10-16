@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SpiritualDirection() {
   return (
@@ -91,6 +92,7 @@ export default function SpiritualDirection() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Spiritual direction is regular guidance in prayer and discernment with a trained director — distinct from counseling or Confession. Catholics seek directors knowledgeable in faith, psychologically healthy, and obedient to Magisterium.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-spiritual-direction">
                 Every serious Catholic who wants to grow in holiness needs a spiritual director. This is not a modern invention or a luxury for the spiritually advanced — it is an ancient practice rooted in the wisdom of the Church, recommended by the saints, and urgently needed in our time. Yet many American Catholics have never had a spiritual director and are not sure where to begin.

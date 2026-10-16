@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PalmSundayCatholicGuide() {
   return (
@@ -60,6 +61,7 @@ export default function PalmSundayCatholicGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Palm Sunday begins Holy Week — Catholics carry blessed palms commemorating Christ&apos;s entry into Jerusalem, then hear the Passion Gospel. It is not a Holy Day of Obligation separate from Sunday Mass in the U.S.; palms are kept at home as sacramentals or returned to the church for burning into next year&apos;s ashes.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Happens at Palm Sunday Mass</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">

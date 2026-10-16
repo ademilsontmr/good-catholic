@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function MorningPrayerCatholic() {
   return (
@@ -79,6 +80,7 @@ export default function MorningPrayerCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic morning prayer often includes the Sign of the Cross, Morning Offering, Angelus (or Regina Caeli in Easter), and brief Scripture — consecrating the day to God before work begins. Lauds from the Liturgy of the Hours is the Church&apos;s official morning prayer.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-prayer-catholic">
                 The Church has always begun the day with prayer. From the earliest centuries, Christians gathered at dawn to praise God and consecrate the new day to Him. This tradition — formalized in the Liturgy of the Hours as Morning Prayer (Lauds) — continues today in monasteries, convents, and the homes of faithful Catholics around the world.

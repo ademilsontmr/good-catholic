@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay13() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay13() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael&apos;s Lent Novena <strong>Day 13</strong> falls on <strong>Thursday, August 27, 2026</strong>. Bring sobriety for a relative into the prayers, then open Catholic Bible Online for the complete Day 13 page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-13-august-27-2026">
                 Stand ready: On Thursday (August 27, 2026), Day 13 carries sobriety for a relative through a Confessional line that barely moves. There a gray noon that tempts complaint joins the ask for sobriety against fear that postpones Confession, while priests needing lay backup refuse the trap of turning penance into self-punishment without charity and aim at patience with a difficult relative inside a compass locked on September 29. Because August 27, 2026 also touches St. Monica, let that celebration color sobriety for a relative while Day 13 still remains a compass locked on September 29.

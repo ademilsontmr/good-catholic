@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay31() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay31() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St Michael&apos;s Lent Novena <strong>Day 31</strong> falls on <strong>Monday, September 14, 2026</strong>. Bring zeal without burnout into the prayers, then open Catholic Bible Online for the complete Day 31 page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-31-september-14-2026">
                 Do not decorate: On Monday (September 14, 2026), Day 31 carries zeal without burnout through a porch swing during a heat advisory. There first autumn hint in the evening air joins the ask for self-control against sarcasm that wounds spouses, while empty-nesters refuse the trap of stockpiling holy water while starving almsgiving and aim at less rage in traffic inside a toolbox for ordinary spiritual emergencies. Because September 14, 2026 also touches the Exaltation of the Holy Cross, let that celebration color zeal without burnout while Day 31 still remains a toolbox for ordinary spiritual emergencies.

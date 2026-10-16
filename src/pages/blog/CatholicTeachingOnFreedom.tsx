@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnFreedom() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnFreedom() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">True freedom is freedom for excellence — choosing the good, not license to sin. Catholic anthropology rejects freedom as mere autonomy; grace liberates from sin so the will can love God and neighbor; moral law protects authentic freedom.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-freedom-catholic">
                 The secular world defines freedom as the absence of constraint — the ability to do whatever you want, whenever you want, without interference from others. On this view, freedom is maximized when all external limits are removed. The ideal is the autonomous individual, answerable to no one, bound by nothing.

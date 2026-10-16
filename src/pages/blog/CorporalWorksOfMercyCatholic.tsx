@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CorporalWorksOfMercyCatholic() {
   return (
@@ -60,6 +61,7 @@ export default function CorporalWorksOfMercyCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The seven corporal works of mercy are charitable actions that meet the bodily needs of others — feeding the hungry, sheltering the homeless, visiting the sick, and burying the dead. Jesus identifies himself with these acts in Matthew 25:31–46, and the Catholic Church has taught them for centuries.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Seven Corporal Works of Mercy</h2>
               <ol className="list-decimal list-inside text-text space-y-3 mb-8">

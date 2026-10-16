@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StayingCatholicInCollege() {
   return (
@@ -74,6 +75,7 @@ export default function StayingCatholicInCollege() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Staying Catholic in college means finding Newman Center or parish, weekly Mass, accountability friends, chastity in dorm culture, and questioning professors&apos; moral claims — intellectual challenges strengthen faith when paired with Catholic fellowship and apologetics.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="staying-catholic-in-college">
                 You have spent your whole life in a Catholic family, attending Catholic school or religious education, going to Mass on Sundays. And now you are heading to college — perhaps for the first time away from home, surrounded by people who do not share your faith, in an environment that may actively challenge everything you believe. This is a critical moment. The decisions you make in the next four years about your faith will shape the rest of your life. This guide is designed to help you make the right ones.

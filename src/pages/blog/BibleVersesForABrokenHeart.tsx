@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesForABrokenHeart() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesForABrokenHeart() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses for a broken heart include Psalm 34:18 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-a-broken-heart">
                 Catholics who search for bible verses for a broken heart are rarely looking for a slogan. They want language strong enough for a hospital waiting room, a restless night, or a hard conversation after Mass. Scripture gives that language — not as a shortcut around the Cross, but as a companion on the way. Heartbreak after a breakup, betrayal, or dashed hope needs more than platitudes. Scripture names the wound and points toward the Sacred Heart who knows rejection.

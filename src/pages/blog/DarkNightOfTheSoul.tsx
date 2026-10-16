@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function DarkNightOfTheSoul() {
   return (
@@ -92,6 +93,7 @@ export default function DarkNightOfTheSoul() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The dark night of the soul (St. John of the Cross) is purifying desolation in advanced prayer — God withdraws felt consolation to deepen faith and love. It differs from depression or loss of faith; spiritual direction helps discern and endure.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <p className="text-text leading-relaxed mb-6">
                 The term "Dark Night" was coined in the 16th century by a Spanish Carmelite friar and Doctor of the Church, <strong>San Juan de la Cruz</strong>. Written while he was imprisoned in a tiny, lightless cell in Toledo, his poem and commentary describe a process where God "weans" the soul from spiritual "candies" (consolations) to lead it into a mature, naked love of God for His own sake.

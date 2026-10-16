@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay23() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay23() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Day 23 (September 6, 2026) confronts secret sin kept from Confession by requesting mercy while you carry boldness to invite someone to Mass into St. Michael&apos;s Lent Novena.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-23-september-6-2026">
                 Fix your intention: On Sunday (September 6, 2026), Day 23 carries boldness to invite someone to Mass through a classroom of Confirmation kids pretending not to listen. There lake smell on a weekend away joins the ask for mercy against secret sin kept from Confession, while secular Franciscans refuse the trap of treating angels as pets and aim at time given to Scripture after the novena inside a relay baton you refuse to drop. Day 23 on September 6, 2026 proves that a relay baton you refuse to drop can form saints between solemnities while you hold boldness to invite someone to Mass.

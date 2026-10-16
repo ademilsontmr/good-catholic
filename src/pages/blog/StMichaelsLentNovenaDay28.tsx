@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay28() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay28() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic guide for <strong>Day 28</strong> (September 11, 2026): unique counsel aimed at athletes in training, with links to the novena index and Day 28 prayer page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-28-september-11-2026">
                 Claim the minute: On Friday (September 11, 2026), Day 28 carries growth in the fear of the Lord through a RCIA table with coffee rings on the handouts. There wet leaves after a brief storm joins the ask for joy against superstition about spiritual combat, while athletes in training refuse the trap of spiritualizing laziness about duty and aim at a repaired household item done in peace inside a sentry post at the door of speech. Day 28 on September 11, 2026 proves that a sentry post at the door of speech can form saints between solemnities while you hold growth in the fear of the Lord.

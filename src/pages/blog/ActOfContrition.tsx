@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ActOfContrition() {
   return (
@@ -91,6 +92,7 @@ export default function ActOfContrition() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Act of Contrition is the Catholic prayer expressing sorrow for sin and resolve to amend life — prayed in Confession before absolution. Common forms include &quot;O my God, I am heartily sorry...&quot; and a longer traditional text; perfect contrition (sorrow from love of God) can forgive mortal sin even before Confession in extremis.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-contrition">
                 Every Catholic who has ever gone to Confession knows the moment: the priest has listened to your sins, offered counsel, and assigned a penance. Then he asks you to make an Act of Contrition. In that moment, you are invited to speak directly to God from the depths of your heart — to express genuine sorrow for having offended Him and to resolve, with His grace, to sin no more.

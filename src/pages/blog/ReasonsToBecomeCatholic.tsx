@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ReasonsToBecomeCatholic() {
   return (
@@ -79,6 +80,7 @@ export default function ReasonsToBecomeCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">People become Catholic for the Eucharist and Real Presence, historical continuity with the apostles, moral clarity, beauty of liturgy, intellectual depth, or personal encounter with Christ in the Church. RCIA welcomes inquirers without pressure.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="reasons-to-become-catholic">
                 This is not a list of arguments designed to pressure anyone. It is an honest account of the reasons that have drawn thoughtful, searching people to the Catholic Church — reasons that have been articulated by converts from G.K. Chesterton to Scott Hahn to thousands of ordinary people who found their home in the Church.

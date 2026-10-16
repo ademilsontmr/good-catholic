@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function FaithMentalHealth() {
     return (
@@ -90,6 +91,7 @@ export default function FaithMentalHealth() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Faith and mental health support each other — grace heals the soul; therapy and medicine heal the mind. Catholics reject stigma; saints like St. Dymphna patronize mental illness; prayer and professional care belong together, not in opposition.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                                 Anxiety in the Modern World: A Challenge for Christians

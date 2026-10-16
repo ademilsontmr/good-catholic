@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicBibleVerses() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicBibleVerses() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic Bible verses every believer should know include John 6 (Eucharist), Matthew 16 (Peter), James 2 (faith and works), Luke 1 (Mary), and John 20 (Confession). All quotations here use the RSV-CE; the NABRE is the official U.S. Mass translation — both are approved for prayer, apologetics, and lectio divina.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-bible-verses">
                 Memorizing Scripture is one of the most powerful spiritual practices a Catholic can develop. When you know key Bible verses by heart, you carry the Word of God with you everywhere — available for prayer, for comfort in difficulty, for defense against temptation, and for sharing your faith with others.

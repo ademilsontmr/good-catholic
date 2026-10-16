@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnTruth() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnTruth() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic truth is objective — rooted in Christ who is Truth, preserved in Scripture and Tradition, and taught by the Magisterium. The Eighth Commandment forbids lying; Catholics seek truth in science, conscience formed by faith, and humility before facts that contradict personal preference.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-truth-catholic">
                 The irony of Pilate's question is that he was standing in front of the answer. Jesus had said, just hours earlier: "I am the way, the truth, and the life" (John 14:6). And in his conversation with Pilate, Jesus had said: "For this reason I was born, and for this I came into the world, to testify to the truth. Everyone on the side of truth listens to me" (John 18:37). Truth, for the Catholic, is not merely a philosophical concept or a social construct. It is a Person.

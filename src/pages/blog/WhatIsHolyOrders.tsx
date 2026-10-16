@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsHolyOrders() {
   return (
@@ -74,6 +75,7 @@ export default function WhatIsHolyOrders() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Holy Orders is the sacrament by which bishops, priests, and deacons are ordained to serve the Church — configuring them to Christ the Head and Shepherd. Only baptized men may be validly ordained priests in the Latin Church; ordination imprints an indelible character.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-holy-orders-catholic">
                 When a man is ordained a priest, something happens to him that cannot be undone. He is not simply given a new job or a new title. He is changed — ontologically, at the level of his very being — configured to Christ the Priest in a way that marks him permanently. This is the Catholic understanding of Holy Orders, and it is one of the most profound and distinctive teachings of the Church.

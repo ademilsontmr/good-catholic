@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function MorningOfferingPrayer() {
   return (
@@ -91,6 +92,7 @@ export default function MorningOfferingPrayer() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Morning Offering unites the day&apos;s works, joys, and sufferings to the Sacred Heart of Jesus and Immaculate Heart of Mary — often prayed at waking. Apostleship of Prayer popularized it; it consecrates ordinary labor to God&apos;s glory.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="morning-offering-prayer">
                 Imagine waking up each morning and, before checking your phone or making coffee, offering your entire day to God. Every meeting, every frustration, every moment of joy — all of it given to Him as a gift. This is the essence of the Morning Offering, one of the most practical and transformative prayers in the Catholic tradition.

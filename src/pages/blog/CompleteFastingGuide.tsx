@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CompleteFastingGuide() {
   return (
@@ -74,6 +75,7 @@ export default function CompleteFastingGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic fasting and abstinence bind Ash Wednesday, Good Friday, Lenten Fridays, and Ember Days in tradition — one full meal, two small meals on fast days; no meat on abstinence days. Fasting unites body and spirit; pregnant women, the ill, and elderly may be exempt.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is Fasting?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-catholic-fasting-guide">

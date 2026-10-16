@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintJosephineBakhita() {
   return (
@@ -74,6 +75,7 @@ export default function SaintJosephineBakhita() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Josephine Bakhita (1869–1947) — kidnapped into slavery in Sudan, freed in Italy, became Canossian sister. Patron of Sudan and human trafficking victims; feast February 8; her story inspires Catholic anti-slavery advocacy in the U.S.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-josephine-bakhita">
                 Saint Josephine Bakhita (c. 1869–1947) is one of the most extraordinary saints in the history of the Catholic Church. Born in Darfur, Sudan, she was kidnapped by slave traders at approximately age seven — the trauma was so severe that she forgot her own name, and her captors gave her the name "Bakhita," which means "lucky" in Arabic. She was sold and resold multiple times, subjected to horrific abuse, and yet emerged from slavery with a heart full of joy, gratitude, and love for God.

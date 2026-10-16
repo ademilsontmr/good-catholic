@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicTeachingOnHell() {
   return (
@@ -74,6 +75,7 @@ export default function CatholicTeachingOnHell() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Hell is Catholic dogma — definitive self-exclusion from God for unrepented mortal sin, eternal separation from love, not a metaphor. The Church warns of hell to call sinners to repentance; God desires all to be saved, but human freedom can reject him definitively at death.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="does-hell-exist-catholic">
                 The existence of hell is not a peripheral doctrine that Catholics are free to ignore. It is a defined dogma of the Catholic Church, taught by Scripture, affirmed by every ecumenical council that addressed the subject, and proclaimed by the Catechism of the Catholic Church. To deny hell is to contradict the explicit teaching of Jesus Christ.

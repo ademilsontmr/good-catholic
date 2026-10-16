@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SpiritualWorksOfMercyCatholic() {
   return (
@@ -60,6 +61,7 @@ export default function SpiritualWorksOfMercyCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The seven spiritual works of mercy help others in their spiritual needs — counseling the doubtful, instructing the ignorant, comforting the afflicted, forgiving offenses, and praying for the living and dead. They complement the corporal works by healing minds, consciences, and souls.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Seven Spiritual Works of Mercy</h2>
               <ol className="list-decimal list-inside text-text space-y-3 mb-8">

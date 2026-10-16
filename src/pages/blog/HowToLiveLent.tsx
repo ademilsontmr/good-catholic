@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToLiveLent() {
   return (
@@ -78,6 +79,7 @@ export default function HowToLiveLent() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Live Lent through prayer, fasting, and almsgiving — Ash Wednesday and Good Friday are days of fast and abstinence; all Fridays abstain from meat. Add daily Gospel reading, Confession, Stations of the Cross, and generosity to the poor.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-live-lent">
                 Every year, the Church offers us the gift of Lent — forty days of grace, penance, and renewal that mirror Jesus's forty days of fasting in the desert. But for many Catholics, Lent passes by as a vague season of minor inconveniences rather than a genuine encounter with the living God. This guide will help you make Lent what it was always meant to be: a time of profound conversion.

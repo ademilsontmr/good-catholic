@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay21() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay21() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium"><strong>September 4, 2026</strong> is Day 21 on the Assumption-to-Michaelmas road. Name chastity in dating, ask for purity of intention, and refuse replacing Scripture with vibes.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-21-september-4-2026">
                 Make room: On Friday (September 4, 2026), Day 21 carries chastity in dating through a subway platform where nobody makes eye contact. There a moon bright enough to read by joins the ask for purity of intention against addiction to outrage, while people after divorce refuse the trap of replacing Scripture with vibes and aim at sobriety kept for twenty-four hours inside a blacksmith&apos;s patience with stubborn metal. No solemnity is required to sanctify Day 21; praying for chastity in dating between flights already consecrates Friday.

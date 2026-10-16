@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function HowToFightFairCatholicMarriage() {
   return (
@@ -83,6 +84,7 @@ export default function HowToFightFairCatholicMarriage() {
                   <Link to="/blog/how-to-pray-with-your-spouse-catholic/" className="text-accent underline underline-offset-2">how to pray with your spouse</Link>.
                 </p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <div className="mb-10 rounded-xl border border-accent/30 bg-accent/5 p-6">
                 <p className="text-text leading-relaxed">

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsCatholicSpirituality() {
   return (
@@ -74,6 +75,7 @@ export default function WhatIsCatholicSpirituality() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic spirituality is the lived relationship with God through prayer, sacraments, virtue, and devotion — shaped by liturgy, saints, and one&apos;s vocation. It includes Rosary, adoration, lectio divina, and works of mercy, always ordered to holiness in communion with the Church.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-catholic-spirituality">
                 When people ask "what is Catholic spirituality?", they often expect a single answer — a set of practices, a method of prayer, a way of life. But the Catholic tradition is far richer than that. Over two thousand years, the Holy Spirit has raised up saints and founders who have developed distinct schools of spirituality — each one a different path up the same mountain, each one illuminating a different facet of the inexhaustible mystery of God.

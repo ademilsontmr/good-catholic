@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StMichaelsLentNovenaDay40() {
   return (
@@ -78,6 +79,7 @@ export default function StMichaelsLentNovenaDay40() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Catholic guide for <strong>Day 40</strong> (September 23, 2026): unique counsel aimed at those healing from scandal, with links to the novena index and Day 40 prayer page.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michaels-lent-novena-day-40-september-23-2026">
                 Love the ordinary: On Wednesday (September 23, 2026), Day 40 carries gratitude instead of comparison through a mission trip packing pile in a living room. There clean scent after rain on hot asphalt joins the ask for courage under fatigue against jealousy in ministry, while those healing from scandal refuse the trap of treating the free novena text as optional and aim at peace after releasing a grudge inside a kitchen table altar for busy households. The holiness of Day 40 is measured by peace after releasing a grudge around gratitude instead of comparison, not by whether a feast fills the missal.

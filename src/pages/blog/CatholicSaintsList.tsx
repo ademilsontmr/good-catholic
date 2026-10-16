@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicSaintsList() {
   return (
@@ -79,6 +80,7 @@ export default function CatholicSaintsList() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Patron saints are Catholic saints in heaven assigned special patronages — health, work, travel, family, lost items, and more. This list of Catholic saints organizes the most searched patron saints by need so you can find your patron and ask for intercession; Catholics venerate saints, not worship them.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-saints-list">
                 One of the most beautiful aspects of Catholic life is the Communion of Saints — the belief that the saints in heaven are alive in God and can intercede for us. When you face a specific need, there is almost certainly a saint who has been given special patronage over that area of life.

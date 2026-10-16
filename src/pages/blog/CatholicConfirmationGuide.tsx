@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CatholicConfirmationGuide() {
   return (
@@ -91,6 +92,7 @@ export default function CatholicConfirmationGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Confirmation completes Baptism — the bishop (or delegate) anoints with chrism and invokes the Holy Spirit for strength and mission. In the U.S. it often follows years of catechesis around ages 12–16; the confirmand chooses a saint name and sponsor.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-confirmation-guide">
                 On the day of Pentecost, the Holy Spirit descended upon the Apostles in tongues of fire, transforming frightened disciples into bold witnesses who would turn the world upside down. Confirmation is the sacrament that continues this Pentecost in the life of every Catholic. Through it, the baptized receive the fullness of the Holy Spirit and are strengthened to be witnesses of Christ in the world.

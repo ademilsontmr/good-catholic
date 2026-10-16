@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintPatrick() {
   return (
@@ -79,6 +80,7 @@ export default function SaintPatrick() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Patrick (c. 385–461) evangelized Ireland — kidnapped as a youth, escaped, returned as bishop, used the shamrock to teach the Trinity. March 17 is his feast; he is patron of Ireland and engineers; legends of driving out snakes symbolize driving out paganism.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-patrick">
                 Saint Patrick is one of the most celebrated saints in the world, yet the real Patrick is far more interesting than the legend. He was not Irish by birth. He was not the first Christian missionary to Ireland. He did not drive snakes out of Ireland (there were never any snakes there). But he was a man of extraordinary courage, faith, and love — a man who chose to return to the land of his captivity to bring its people to Christ.

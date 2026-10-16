@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LitanyOfHumilityCatholic() {
   return (
@@ -60,6 +61,7 @@ export default function LitanyOfHumilityCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Litany of Humility is a Catholic prayer attributed to Cardinal Rafael Merry del Val that asks Jesus to free the soul from vanity and fear of others&apos; opinions. Catholics pray it privately or in groups, responding &quot;Deliver me, Jesus&quot; or &quot;Grant me the grace to desire it, Jesus&quot; to each petition.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Was Cardinal Merry del Val?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-humility-catholic">Cardinal Rafael Merry del Val (1865–1930) served as Secretary of State under Pope St. Pius X. Known for diplomatic skill and personal austerity, he was remembered for treating everyone — from popes to servants — with equal courtesy. Biographers describe him as fiercely devoted to Christ&apos;s meekness; the Litany of Humility fits that portrait, even though historians cannot prove with certainty that he composed every line. American Catholics encounter his name through this prayer more often than through Vatican history textbooks.</LinkedText>

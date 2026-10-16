@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function LitanyOfTheSaintsCatholic() {
   return (
@@ -79,6 +80,7 @@ export default function LitanyOfTheSaintsCatholic() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Litany of the Saints invokes holy men and women — &quot;St. N., pray for us&quot; — used at baptisms, ordinations, Rogation days, and All Saints. One of the Church&apos;s approved litanies; the Easter Vigil sings it during the procession to the font.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Litany Works</h2>
               <p className="text-text leading-relaxed mb-6">

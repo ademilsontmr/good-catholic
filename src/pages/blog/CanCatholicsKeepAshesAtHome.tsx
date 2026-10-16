@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function CanCatholicsKeepAshesAtHome() {
   return (
@@ -60,6 +61,7 @@ export default function CanCatholicsKeepAshesAtHome() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Catholic Church does not permit keeping cremated remains at home permanently — ashes must be buried in a cemetery or entombed in a sacred place. Temporary storage during arrangements differs from keeping an urn on the mantel indefinitely.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="can-catholics-keep-ashes-at-home">
                 The short answer is no: the Catholic Church does not permit keeping cremated remains permanently in a private home, on a mantel, divided among family members, or scattered in a garden. The body — even in ashes — belongs to God and awaits the resurrection. The Church&apos;s concern is not legalism but reverence: cremated remains are treated with the same dignity as a body awaiting burial.

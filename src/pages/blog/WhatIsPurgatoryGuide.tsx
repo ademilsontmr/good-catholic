@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhatIsPurgatoryGuide() {
   return (
@@ -79,6 +80,7 @@ export default function WhatIsPurgatoryGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Purgatory is the Catholic doctrine of final purification after death for souls destined for heaven but not yet perfectly holy — temporal effects of forgiven sin are cleansed before the beatific vision. It is not a second chance; those in purgatory are saved and aided by our prayers.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-purgatory-explained">
                 Of all the distinctively Catholic doctrines, Purgatory is perhaps the most frequently misrepresented. Critics call it unbiblical. Some imagine it as a kind of second hell. Others think it is a place where you can "earn" your way to heaven after death. None of these characterizations are accurate.

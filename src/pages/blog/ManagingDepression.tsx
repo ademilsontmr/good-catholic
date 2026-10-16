@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ManagingDepression() {
   return (
@@ -92,6 +93,7 @@ export default function ManagingDepression() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Managing depression as a Catholic includes therapy, medication when prescribed, routine prayer without guilt for dryness, Confession, community, and St. Dymphna — depression is an illness, not punishment; seek help promptly; God does not abandon the suffering.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">
                 Depression affects millions of people worldwide, including faithful Catholics. While spiritual resources offer profound help, understanding when and how to integrate professional mental health care is essential for authentic healing.

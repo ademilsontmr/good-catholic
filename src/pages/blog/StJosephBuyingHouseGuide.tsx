@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StJosephBuyingHouseGuide() {
   return (
@@ -74,6 +75,7 @@ export default function StJosephBuyingHouseGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Joseph is the Catholic patron of families and workers — many Americans pray a novena to him when buying or selling a home, burying a St. Joseph statue as a folk custom while asking for honest dealings and housing stability. The Church encourages prayer, not superstition; trust God&apos;s timing alongside practical steps.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saint Joseph, Patron of Homes and Families</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-buying-house-guide">

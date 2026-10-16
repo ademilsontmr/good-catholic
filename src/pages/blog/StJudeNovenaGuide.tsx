@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function StJudeNovenaGuide() {
   return (
@@ -74,6 +75,7 @@ export default function StJudeNovenaGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The St. Jude novena is a nine-day prayer to the patron of hopeless causes — invoked when situations feel impossible, from illness to addiction to broken relationships. Catholics pray with hope, not magic; St. Jude Thaddeus, apostle and martyr, is among the most popular intercessors in U.S. parishes.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Saint Jude?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">

@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function JubileePilgrimageGuide() {
   return (
@@ -92,6 +93,7 @@ export default function JubileePilgrimageGuide() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">A Jubilee pilgrimage visits designated churches — pass through Holy Door, attend Mass, receive Communion and Confession, pray for the pope&apos;s intentions to gain plenary indulgence. Rome, diocesan cathedrals, and shrines participate; check official lists.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jubilee-pilgrimage-guide">
                 The Holy Year 2025 has concluded, but the pilgrimage of hope continues. The graces of the Jubilee extend beyond the closing of the Holy Doors. Discover how to maintain the Jubilee spirit and continue your pilgrimage of faith.

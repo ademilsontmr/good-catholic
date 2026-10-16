@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function VocationalDiscernment() {
     return (
@@ -82,6 +83,7 @@ export default function VocationalDiscernment() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Vocational discernment discovers God&apos;s call — marriage, priesthood, religious life, or dedicated single life — through prayer, spiritual direction, testing peace over time, and Church confirmation. Discernment is a process, not a single emotion.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
                             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="vocational-discernment">
                                 Discernment is the art of discovering God's will amid the various options life presents us. It is not a magic formula, but a spiritual process that requires humility, patience, and above all, a life of sincere prayer. God does not play riddles with us; He desires that we be happy and fulfilled in our vocation.

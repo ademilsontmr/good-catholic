@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function SaintNicholas() {
   return (
@@ -79,6 +80,7 @@ export default function SaintNicholas() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">St. Nicholas (270–343) was Bishop of Myra — generous to the poor, defender of orthodoxy at Nicaea, and patron of children, sailors, and gift-givers. December 6 is his feast; his charity inspired Santa Claus traditions, though the saint points to Christ, not commercialism.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-nicholas">
                 Every December, billions of people celebrate a figure inspired by a real Catholic bishop who lived in what is now Turkey in the 4th century. The transformation of Nicholas of Myra into Santa Claus is one of the most remarkable stories in cultural history. But the real Nicholas is far more interesting — and far more inspiring — than his secular descendant.

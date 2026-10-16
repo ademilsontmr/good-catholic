@@ -11,6 +11,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function WhyProtestantReformation() {
   return (
@@ -93,6 +94,7 @@ export default function WhyProtestantReformation() {
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">The Protestant Reformation (1517 onward) split Western Christianity over authority, justification, and sacraments — Luther, Calvin, and others rejected papal supremacy and several Catholic doctrines. The Catholic Church responded at Trent and continues ecumenical dialogue today.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 The Historical Context: A Church in Crisis
