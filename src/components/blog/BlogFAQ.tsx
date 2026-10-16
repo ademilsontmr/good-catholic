@@ -15,9 +15,11 @@ interface BlogFAQProps {
   title?: string;
   /** Keep every answer in the HTML, including the prerendered page. */
   htmlAnswers?: boolean;
+  /** The daily-verses hub already places its own unit above the questions. */
+  showAd?: boolean;
 }
 
-export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Questions", htmlAnswers = false }: BlogFAQProps) {
+export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Questions", htmlAnswers = false, showAd = true }: BlogFAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const schemaData = {
@@ -39,7 +41,7 @@ export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Quest
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-      <BlogArticleAd slot="3458521905" onlyOnBlog={false} />
+      {showAd && <BlogArticleAd slot="3458521905" onlyOnBlog={false} />}
       <div className="bg-background-muted/50 border border-border rounded-2xl p-8 my-12">
         <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-6">
           {title}

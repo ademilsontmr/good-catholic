@@ -7,6 +7,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { copyForDate } from "@/data/dailyVerseReflections";
 import { faqsForDate } from "@/data/dailyVerseFaqs";
 import { catholicVerses as verses, chapterUrl } from "@/data/catholicVerses";
@@ -287,12 +288,17 @@ export default function DailyVersesPage() {
                     A new Catholic Bible verse every 24 hours, with a reflection, a prayer, and themes you can browse anytime.
                   </p>
                   {hubToday && (
+                    <>
+                    <div className="mt-6 text-left">
+                      <BlogArticleAd slot="1194128679" onlyOnBlog={false} />
+                    </div>
                     <p className="text-sm text-text-muted mt-4">
                       Stable link for today:{" "}
                       <Link to={`/daily-verses/${hubToday.iso}/`} className="text-accent font-semibold underline underline-offset-2">
                         /daily-verses/{hubToday.iso}/
                       </Link>
                     </p>
+                    </>
                   )}
                 </>
               )}
@@ -534,7 +540,10 @@ export default function DailyVersesPage() {
             {isDated ? (
               <BlogFAQ title={`Questions about ${todayVerse.ref}`} faqs={faqsForDate(isoDate)} htmlAnswers />
             ) : (
-              <BlogFAQ faqs={faqs} />
+              <>
+                <BlogArticleAd slot="1194128679" onlyOnBlog={false} />
+                <BlogFAQ faqs={faqs} showAd={false} />
+              </>
             )}
 
           </div>
