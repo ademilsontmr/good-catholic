@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function PowerfulBibleVerses() {
   return (
@@ -78,6 +79,7 @@ export default function PowerfulBibleVerses() {
               <div className="mb-8 p-6 bg-sky-50/80 border border-sky-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key powerful bible verses include Romans 8:31 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
                 The Church has always placed the Word at the center of Christian life: proclaimed at Mass, prayed in the Liturgy of the Hours, and kept in the heart at home. These powerful bible verses belong in that living tradition, ready for ordinary disciples who need concrete hope. Power in Scripture is God's power made perfect in weakness. These verses are "powerful" because they change how we live, not because they sound dramatic.

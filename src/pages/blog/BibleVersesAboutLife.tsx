@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutLife() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutLife() {
               <div className="mb-8 p-5 bg-background-muted/60 border border-border rounded-lg">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses about life include John 10:10 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-life">
                 You do not need a theology degree to pray these lines. You need honesty, a little silence, and willingness to let God interrupt your scripts about life. The verses below are chosen for Catholic prayer, not for viral quotes alone. Life is gift from conception to natural death, and every ordinary day is material for sanctity. These verses reclaim purpose beyond productivity.

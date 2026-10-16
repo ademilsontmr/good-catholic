@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import { Heart } from "lucide-react";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 /** Subtle mid-article donation nudge linking to /donate/ */
 export function DonateCTA() {
   return (
+    <>
+    <BlogArticleAd slot="7986592722" />
     <aside
       className="mt-10 mb-6 rounded-xl border border-primary/15 bg-primary/[0.04] px-5 py-4 md:px-6 md:py-5"
       aria-label="Support Guide Catholic"
@@ -29,5 +32,6 @@ export function DonateCTA() {
         </Link>
       </div>
     </aside>
+    </>
   );
 }

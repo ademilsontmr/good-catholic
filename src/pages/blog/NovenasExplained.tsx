@@ -214,6 +214,7 @@ export default function NovenasExplained() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Do I have to pray a novena exactly nine consecutive days?",

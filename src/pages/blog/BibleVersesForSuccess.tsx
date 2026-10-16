@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesForSuccess() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesForSuccess() {
               <div className="mb-8 p-6 bg-rose-50/70 border border-rose-200/50 rounded-2xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses for success include Proverbs 16:3 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-success">
                 RSV-CE readers notice how often Scripture refuses shallow comfort. Verses about success tell the truth about human weakness and God's fidelity in the same breath. That honesty is why they still console after centuries. Catholic success is measured by fidelity and charity, not only promotions. These verses reorder ambition under God's will.

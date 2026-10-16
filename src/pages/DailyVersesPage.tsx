@@ -280,6 +280,11 @@ export default function DailyVersesPage() {
                     Catholic Bible verse for <time dateTime={isoDate}>{today}</time>, with the meaning of {todayVerse.ref}, a prayer, and the chapter in context.
                   </p>
                   <ArticleByline />
+                  {isoDate >= "2026-10-16" && (
+                    <div className="mt-2 text-left">
+                      <BlogArticleAd slot="7499507569" onlyOnBlog={false} />
+                    </div>
+                  )}
                 </>
               ) : (
                 <>
@@ -410,6 +415,10 @@ export default function DailyVersesPage() {
             </article>
 
             {isDated && (
+              <>
+              {isoDate >= "2026-10-16" && (
+                <BlogArticleAd slot="7499507569" onlyOnBlog={false} />
+              )}
               <nav className="bg-surface border border-border rounded-2xl p-6 mb-8" aria-label="Related Catholic reading">
                 <h2 className="font-display text-xl font-bold text-text mb-4">Keep reading</h2>
                 <ul className="space-y-2 text-text leading-relaxed">
@@ -443,6 +452,7 @@ export default function DailyVersesPage() {
                   )}
                 </ul>
               </nav>
+              </>
             )}
 
             {!isDated && (
@@ -538,7 +548,10 @@ export default function DailyVersesPage() {
             )}
 
             {isDated ? (
-              <BlogFAQ title={`Questions about ${todayVerse.ref}`} faqs={faqsForDate(isoDate)} htmlAnswers />
+              <>
+                <BlogArticleAd slot="7499507569" onlyOnBlog={false} />
+                <BlogFAQ title={`Questions about ${todayVerse.ref}`} faqs={faqsForDate(isoDate)} htmlAnswers showAd={false} />
+              </>
             ) : (
               <>
                 <BlogArticleAd slot="1194128679" onlyOnBlog={false} />

@@ -218,6 +218,7 @@ export default function FaithAndAnxiety() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Does anxiety mean I lack faith?",

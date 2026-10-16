@@ -221,6 +221,7 @@ export default function SacramentOfMatrimony() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Why does the Church require marriage preparation?",

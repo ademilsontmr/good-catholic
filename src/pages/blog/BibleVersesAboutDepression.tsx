@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutDepression() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutDepression() {
               <div className="mb-8 p-6 border-l-4 border-accent bg-background-muted/40 pl-6 py-5 rounded-r-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses about depression include the passages below — pray them slowly, memorize one this week, and share them with someone who needs depression.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-depression">
                 When life presses hard, many American Catholics reach first for a phone search and then for a verse. That instinct is good — as long as the verse leads back to Christ, the sacraments, and a parish community that can walk with you through depression. Depression can mute joy and make prayer feel impossible. The psalms give language for darkness without pretending it is light. Use these verses alongside pastoral and clinical care.

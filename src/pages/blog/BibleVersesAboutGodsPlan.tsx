@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutGodsPlan() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutGodsPlan() {
               <div className="mb-8 p-6 border-l-4 border-accent bg-background-muted/40 pl-6 py-5 rounded-r-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses about god's plan include Jeremiah 29:11 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-gods-plan">
                 When life presses hard, many American Catholics reach first for a phone search and then for a verse. That instinct is good — as long as the verse leads back to Christ, the sacraments, and a parish community that can walk with you through God's plan. God's plan is wiser than our five-year spreadsheets. These verses invite surrender without passivity — cooperation with grace in real decisions.

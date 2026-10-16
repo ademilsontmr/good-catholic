@@ -233,6 +233,7 @@ export default function SpiritualLifeBasics() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "How long should I pray each day?",

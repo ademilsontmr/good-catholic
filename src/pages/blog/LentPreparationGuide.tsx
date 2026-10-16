@@ -230,6 +230,7 @@ export default function LentPreparationGuide() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "What are the official fasting rules for Lent?",

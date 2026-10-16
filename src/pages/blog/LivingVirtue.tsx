@@ -237,6 +237,7 @@ export default function LivingVirtue() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "How do I know which virtue to focus on?",

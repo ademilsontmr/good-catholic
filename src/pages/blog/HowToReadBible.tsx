@@ -251,6 +251,7 @@ export default function HowToReadBible() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "How much should I read each day?",

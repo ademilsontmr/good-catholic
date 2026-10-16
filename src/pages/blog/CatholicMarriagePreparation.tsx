@@ -250,6 +250,7 @@ export default function CatholicMarriagePreparation() {
               </div>
             </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "How long does Catholic marriage preparation take?",

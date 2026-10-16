@@ -237,6 +237,7 @@ export default function JubileePilgrimageGuide() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Can I still receive indulgences after the Jubilee ends?",

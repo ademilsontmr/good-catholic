@@ -205,6 +205,7 @@ export default function CatholicChurchHistory() {
               </div>
             </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Was the Catholic Church the first Christian Church?",

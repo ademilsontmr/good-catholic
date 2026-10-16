@@ -293,6 +293,7 @@ export default function RosaryMysteriesMeditation() {
               </div>
             </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Which mysteries should I pray on which days?",

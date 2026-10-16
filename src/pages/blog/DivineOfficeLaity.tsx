@@ -217,6 +217,7 @@ export default function DivineOfficeLaity() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Do I need special books to pray the Divine Office?",

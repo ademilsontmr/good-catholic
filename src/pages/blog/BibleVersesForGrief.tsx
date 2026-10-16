@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesForGrief() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesForGrief() {
               <div className="mb-8 p-6 bg-sky-50/80 border border-sky-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses for grief include John 11:25 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-grief">
                 The Church has always placed the Word at the center of Christian life: proclaimed at Mass, prayed in the Liturgy of the Hours, and kept in the heart at home. These bible verses for grief belong in that living tradition, ready for ordinary disciples who need concrete hope. Grief belongs at the funeral, at the empty chair at Thanksgiving, and in the quiet months after everyone else "moves on." These verses keep mourning Christian.

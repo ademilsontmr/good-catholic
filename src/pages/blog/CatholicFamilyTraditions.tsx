@@ -242,6 +242,7 @@ export default function CatholicFamilyTraditions() {
               </div>
             </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "What if my family isn't consistent with traditions?",

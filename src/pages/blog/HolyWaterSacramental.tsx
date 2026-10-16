@@ -229,6 +229,7 @@ export default function HolyWaterSacramental() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Does holy water expire?",

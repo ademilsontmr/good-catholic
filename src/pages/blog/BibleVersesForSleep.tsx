@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesForSleep() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesForSleep() {
               <div className="mb-8 p-5 bg-background-muted/60 border border-border rounded-lg">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses for sleep include Psalm 4:8 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-sleep">
                 You do not need a theology degree to pray these lines. You need honesty, a little silence, and willingness to let God interrupt your scripts about sleep. The verses below are chosen for Catholic prayer, not for viral quotes alone. Insomnia turns bedrooms into battlefields. Night Prayer and a few trusted verses can retrain a restless mind to entrust the day to God.

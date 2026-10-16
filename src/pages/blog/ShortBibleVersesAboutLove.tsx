@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function ShortBibleVersesAboutLove() {
   return (
@@ -78,6 +79,7 @@ export default function ShortBibleVersesAboutLove() {
               <div className="mb-8 p-6 bg-rose-50/70 border border-rose-200/50 rounded-2xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key short bible verses about love include 1 John 4:8 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-love">
                 RSV-CE readers notice how often Scripture refuses shallow comfort. Verses about short love verses tell the truth about human weakness and God's fidelity in the same breath. That honesty is why they still console after centuries. Short love verses travel well: texts to a spouse, cards for Confirmation, notes in a lunchbox. Brief lines still carry the weight of charity.

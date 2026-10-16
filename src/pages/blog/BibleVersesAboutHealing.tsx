@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutHealing() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutHealing() {
               <div className="mb-8 p-5 bg-background-muted/60 border border-border rounded-lg">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses about healing include the passages below — pray them slowly, memorize one this week, and share them with someone who needs healing.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-healing">
                 You do not need a theology degree to pray these lines. You need honesty, a little silence, and willingness to let God interrupt your scripts about healing. The verses below are chosen for Catholic prayer, not for viral quotes alone. Healing in Catholic life is sacramental and practical: Anointing of the Sick, prayer of the faithful, and competent medical care. These verses walk with patients, caregivers, and anyone begging for restoration.

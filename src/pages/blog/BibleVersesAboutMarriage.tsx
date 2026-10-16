@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutMarriage() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutMarriage() {
               <div className="mb-8 p-6 bg-rose-50/70 border border-rose-200/50 rounded-2xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses about marriage include Ephesians 5:25 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
                 RSV-CE readers notice how often Scripture refuses shallow comfort. Verses about marriage tell the truth about human weakness and God's fidelity in the same breath. That honesty is why they still console after centuries. Catholic marriage is a covenant, not a contract. These verses sustain spouses through romance, conflict, infertility, blended households, and ordinary Tuesday evenings.

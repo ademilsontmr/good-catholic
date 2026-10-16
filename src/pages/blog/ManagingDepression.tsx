@@ -216,6 +216,7 @@ export default function ManagingDepression() {
 
               </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Is depression a punishment from God?",

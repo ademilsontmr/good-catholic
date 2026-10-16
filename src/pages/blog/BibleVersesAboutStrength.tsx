@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutStrength() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutStrength() {
               <div className="mb-8 p-6 bg-sky-50/80 border border-sky-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key Bible verses about strength include Philippians 4:13, Isaiah 40:31, Joshua 1:9, 2 Corinthians 12:9, and Psalm 28:7.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-strength">
                 The Church has always placed the Word at the center of Christian life: proclaimed at Mass, prayed in the Liturgy of the Hours, and kept in the heart at home. These bible verses about strength belong in that living tradition, ready for ordinary disciples who need concrete hope. Catholic strength looks like fidelity under fatigue: the dad who still leads prayer, the nurse who stays kind on a double shift, the convert who returns to Confession after falling. These verses name the Source of that endurance.

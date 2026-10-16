@@ -192,6 +192,7 @@ export default function CatholicSocialTeachingToday() {
               </div>
             </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Is Catholic social teaching conservative or liberal?",

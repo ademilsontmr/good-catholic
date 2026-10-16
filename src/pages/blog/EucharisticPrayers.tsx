@@ -213,6 +213,7 @@ export default function EucharisticPrayers() {
               </div>
             </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "What should I wear to Eucharistic adoration?",

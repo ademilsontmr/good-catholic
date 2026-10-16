@@ -179,6 +179,7 @@ const CatholicMarriagePreparation = lazy(() => import("./pages/blog/CatholicMarr
 // New Saints & Marian Articles
 const OurLadyGuadalupePatronessAmericas = lazy(() => import("./pages/blog/OurLadyGuadalupePatronessAmericas"));
 const SaintKateriTekakwitha = lazy(() => import("./pages/blog/SaintKateriTekakwitha"));
+const SaintAndreBessette = lazy(() => import("./pages/blog/SaintAndreBessette"));
 const OurLadyImmaculateConceptionUSA = lazy(() => import("./pages/blog/OurLadyImmaculateConceptionUSA"));
 
 // New April 2026 Articles
@@ -1231,6 +1232,7 @@ export function AppRoutes() {
             {/* New Saints & Marian Articles */}
             <Route path="/blog/our-lady-of-guadalupe-patroness-americas/" element={<OurLadyGuadalupePatronessAmericas />} />
             <Route path="/blog/saint-kateri-tekakwitha/" element={<SaintKateriTekakwitha />} />
+            <Route path="/blog/saint-andre-bessette/" element={<SaintAndreBessette />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />
             <Route path="/blog/praying-for-souls-in-purgatory/" element={<PrayingForSoulsInPurgatory />} />

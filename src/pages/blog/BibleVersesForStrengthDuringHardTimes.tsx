@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesForStrengthDuringHardTimes() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesForStrengthDuringHardTimes() {
               <div className="mb-8 p-6 bg-sky-50/80 border border-sky-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses for strength during hard times include Isaiah 40:31 and the passages gathered below for meditation and memorization.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-strength-during-hard-times">
                 The Church has always placed the Word at the center of Christian life: proclaimed at Mass, prayed in the Liturgy of the Hours, and kept in the heart at home. These bible verses for strength during hard times belong in that living tradition, ready for ordinary disciples who need concrete hope. Hard seasons reveal whether our strength was willpower or grace. These verses are for layoffs, caregiving, and months when Mass is the only steady thing left.

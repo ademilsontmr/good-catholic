@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutPeace() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutPeace() {
               <div className="mb-8 p-6 bg-sky-50/80 border border-sky-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Key bible verses about peace include the passages below — pray them slowly, memorize one this week, and share them with someone who needs peace.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-peace">
                 The Church has always placed the Word at the center of Christian life: proclaimed at Mass, prayed in the Liturgy of the Hours, and kept in the heart at home. These bible verses about peace belong in that living tradition, ready for ordinary disciples who need concrete hope. Peace in Scripture is shalom: right order with God, neighbor, and self. It is deeper than a quiet room; it is Christ saying "do not be afraid" while the storm still blows.

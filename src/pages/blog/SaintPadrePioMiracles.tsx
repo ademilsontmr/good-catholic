@@ -197,6 +197,7 @@ export default function SaintPadrePioMiracles() {
               </div>
             </div>
 
+            <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Did Padre Pio ever deny having the stigmata?",

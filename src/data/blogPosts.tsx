@@ -26,6 +26,18 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1513,
+    slug: "saint-andre-bessette",
+    title: "Saint André Bessette: The Doorkeeper of St. Joseph’s Oratory",
+    excerpt: "The Holy Cross brother who stood at a Montreal college door for forty years, sent the sick to Saint Joseph, and was canonized in 2010.",
+    date: "2026-10-16",
+    readTime: "16 min",
+    category: "Saints & Feast Days",
+    icon: Church,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
     id: 1511,
     slug: "catholic-prayer-to-buy-a-house",
     title: "Catholic Prayer to Buy a House",

@@ -10,6 +10,7 @@ import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export default function BibleVersesAboutLove() {
   return (
@@ -78,6 +79,7 @@ export default function BibleVersesAboutLove() {
               <div className="mb-8 p-6 border-l-4 border-accent bg-background-muted/40 pl-6 py-5 rounded-r-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Essential Bible verses about love include 1 Corinthians 13:4-7, John 15:12-13, 1 John 4:7-8, John 3:16, and Romans 13:8.</p>
               </div>
+              <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
                 When life presses hard, many American Catholics reach first for a phone search and then for a verse. That instinct is good — as long as the verse leads back to Christ, the sacraments, and a parish community that can walk with you through love. Wedding readings get the headlines, but 1 Corinthians 13 is also a daily examination for spouses, parents, and parish volunteers. Catholic love wills the good of the other — even when feelings cool.
