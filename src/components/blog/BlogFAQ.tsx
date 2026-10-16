@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { LinkedText } from "@/components/blog/LinkedText";
+import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 
 export interface FAQItem {
   question: string;
@@ -38,6 +39,7 @@ export function BlogFAQ({ faqs, linkAnswersSlug, title = "Frequently Asked Quest
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      <BlogArticleAd slot="3458521905" onlyOnBlog={false} />
       <div className="bg-background-muted/50 border border-border rounded-2xl p-8 my-12">
         <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-6">
           {title}

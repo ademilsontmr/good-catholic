@@ -10,10 +10,10 @@ declare global {
 const TOP_SLOT = "6851981166";
 
 /** In-article unit. The adsbygoogle.js loader already lives in index.html. */
-export function BlogArticleAd({ slot = TOP_SLOT }: { slot?: string }) {
+export function BlogArticleAd({ slot = TOP_SLOT, onlyOnBlog = true }: { slot?: string; onlyOnBlog?: boolean }) {
   const { pathname } = useLocation();
   const pushed = useRef(false);
-  const isArticle = /^\/blog\/.+/.test(pathname);
+  const isArticle = !onlyOnBlog || /^\/blog\/.+/.test(pathname);
 
   useEffect(() => {
     if (!isArticle || pushed.current) return;
