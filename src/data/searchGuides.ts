@@ -13,6 +13,8 @@ export type SearchGuide = {
   crumb: string;
   category: string;
   readTime: string;
+  dateLabel?: string;
+  dateIso?: string;
   answer: string;
   cboUrl: string;
   cboLabel: string;
@@ -545,6 +547,156 @@ export const searchGuides: SearchGuide[] = [
       { question: "Does prayer replace medical care?", answer: "No. Follow the hospital's instructions. Take the medicines. Ask the questions. Prayer asks God to work, including through the people trained to cut and to sew." },
       { question: "What if I am praying and still terrified?", answer: "Say that. Fear is not a failure of faith. Ask someone to sit with you, pray one Our Father, and let the rest of the night be as ordinary as the nurses will allow." },
       { question: "What should my family do during the operation?", answer: "Pray a Rosary, call the priest if he has not come, and stay reachable. They should not promise the waiting room a miracle. They should love you in practical details." },
+    ],
+  },
+  {
+    slug: "catholic-prayer-to-buy-a-house",
+    h1: "Catholic Prayer to Buy a House",
+    title: "Catholic Prayer to Buy a House | Guide Catholic",
+    description: "A Catholic prayer to say when you are buying a house: the words for tonight, when to say them, and the nine-day novena if one prayer is not enough.",
+    keywords: "catholic prayer to buy a house, prayer for buying a home, prayer before buying a house, st joseph prayer for a house, prayer to buy a home catholic",
+    excerpt: "Some nights you do not need a program. You need the words. This is a Catholic prayer for the evening you are trying to buy a house.",
+    crumb: "Prayer to buy a house",
+    category: "Prayers & Devotions",
+    readTime: "10 min",
+    dateLabel: "October 16, 2026",
+    dateIso: "2026-10-16",
+    answer: "Saint Joseph, you gave Mary and the child a roof when you had little else. Pray for us as we look for a house. Ask the Father for a home we can pay for, rooms that are safe, and the honesty to leave a house that is wrong. Keep our words clean with the seller, the lender, and each other. If this one is not the house, give us patience until the right door opens. Jesus, Mary, and Joseph, stay with this family. Amen.",
+    cboUrl: "https://catholicbibleonline.com/blog/st-joseph-novena-buying-house-complete-catholic-guide/",
+    cboLabel: "St. Joseph novena for buying a house, the full guide",
+    cboNote: "The full Catholic guide to the St. Joseph house novena, with the nine days set out, is on Catholic Bible Online. The prayer above is for a single night. The guide is for the nine days that follow.",
+    faqTitle: "Questions about a prayer to buy a house",
+    sections: [
+      {
+        h2: "When to say it",
+        paragraphs: [
+          [t("Say it once, out loud, on the night before you make an offer, the night after an inspection scares you, or the night you cannot sleep because of the payment. Begin with the sign of the cross. Read a few lines of "), out("https://catholicbibleonline.com/bible/matthew/2/", "Matthew 2"), t(", where Joseph takes the child and his mother and leaves in the dark. Then say the prayer in the box above. Stop. Do not add a second speech to convince God.")],
+          [t("If you pray it with a spouse, one of you reads and the other says amen. If you are buying alone, say the names of the people who will sleep there. A parent. A child who is not born yet. A roommate you have not told. Joseph's house was never only his.")],
+        ],
+      },
+      {
+        h2: "What the prayer is asking",
+        paragraphs: [
+          [t("It asks for three things the Gospel actually shows in Joseph: a roof, honest work, and obedience when the plan changes. It does not ask for the listing with the best kitchen. It asks for a dwelling where the family can pray, pay, and tell the truth. "), out("https://catholicbibleonline.com/bible/matthew/1/", "Matthew 1"), t(" is the other chapter to keep open: Joseph does what the angel says, and he takes Mary into his home.")],
+          [t("Name the number you can pay. A prayer that hides the budget is not humble. It is evasive. If the house costs more than that number, the prayer has already given you the answer. Walk away, and say the same prayer again tomorrow for a different door.")],
+        ],
+      },
+      {
+        h2: "When one night is not enough",
+        paragraphs: [
+          [t("A single prayer is right for a decision that happens tonight. A search that lasts months needs nine days, repeated if you must. That is the novena. The words for each day, and the way to keep them without turning Joseph into a charm, are in the "), out("https://catholicbibleonline.com/blog/novena-saint-joseph-buying-house/", "novena to Saint Joseph for buying a house"), t(". The nine-day devotion itself, apart from the housing pages, is the "), out("https://catholicbibleonline.com/novenas/st-joseph/", "novena to St. Joseph"), t(".")],
+          [t("On this site, the "), inn("/blog/how-to-pray-st-joseph-novena-buying-house/", "house novena"), t(" explains the nine days, and the "), inn("/blog/novena-to-st-joseph-to-buy-a-house/", "novena to St. Joseph to buy a house"), t(" gives a prayer for each morning. Use one of them. Do not stack three versions in a single evening out of fear.")],
+        ],
+      },
+      {
+        h2: "What to do after you say amen",
+        paragraphs: [
+          [t("Write the next ordinary step on a piece of paper: call the inspector, read the loan estimate, ask the parish whether anyone knows the street, tell the person you love what you are afraid of. Then go to bed. The prayer is finished. The work is not a second prayer. It is the way Joseph answered the angel: he got up and did the thing.")],
+          [t("If you close, ask a priest to bless the house. If you do not close, say the prayer once more as thanks that you were kept from the wrong roof. Both endings belong to the same sentence you already prayed: if this one is not the house, give us patience.")],
+        ],
+      },
+    ],
+    faqs: [
+      { question: "Is there a Catholic prayer to buy a house?", answer: "Yes. Ask St. Joseph, who sheltered the Holy Family, for a home you can pay for and the honesty to refuse one you cannot. The short prayer on this page is for a single night. The nine-day novena is for a longer search." },
+      { question: "Do I have to pray for nine days?", answer: "No. One sincere prayer is a real prayer. Use nine days when the search itself will take nine days or more. Catholic Bible Online has the full guide and the day-by-day novena." },
+      { question: "Which Gospel should I read with the prayer?", answer: "Matthew 1 and Matthew 2. They show Joseph taking Mary home, fleeing to Egypt, and returning to Nazareth when it is safe." },
+      { question: "Can I pray this for a rental?", answer: "Yes. A just lease is also a roof. Say so in the prayer. Joseph looked for a room in Bethlehem before he had a house in Nazareth." },
+      { question: "Will the prayer make the seller accept my offer?", answer: "It asks God for a right home, not for control of another person's signature. You may get the house, a different house, or a no. The prayer still stands." },
+    ],
+  },
+  {
+    slug: "novena-to-st-joseph-to-buy-a-house",
+    h1: "Novena to St. Joseph to Buy a House",
+    title: "Novena to St. Joseph to Buy a House | Guide Catholic",
+    description: "A nine-day novena to St. Joseph to buy a house: one prayer each morning, what to do with the budget, and where the full devotion is written.",
+    keywords: "novena to st joseph to buy a house, st joseph novena to buy a home, 9 day prayer to buy a house, novena for buying a house catholic",
+    excerpt: "Nine mornings. One prayer each morning. You ask St. Joseph to buy a house the way he kept a house: quietly, justly, and without pretending God owes you the address.",
+    crumb: "Novena to buy a house",
+    category: "Prayers & Devotions",
+    readTime: "14 min",
+    dateLabel: "October 16, 2026",
+    dateIso: "2026-10-16",
+    answer: "Pray for nine days in a row. Each morning, make the sign of the cross, say the Our Father, the Hail Mary, and the Glory Be, then say that day's prayer below. Name the budget once. Do one practical thing the same day. On the ninth morning, thank St. Joseph whether you have keys or not.",
+    cboUrl: "https://catholicbibleonline.com/blog/novena-to-st-joseph-to-buy-a-house-2026/",
+    cboLabel: "Novena to St. Joseph to buy a house",
+    cboNote: "Catholic Bible Online publishes the novena to St. Joseph to buy a house, including how to pray it in 2026 without superstition. The nine prayers below are for this household. Their page is the devotion to open beside them.",
+    faqTitle: "Questions about the novena to buy a house",
+    sections: [
+      {
+        h2: "How to keep the nine mornings",
+        paragraphs: [
+          [t("Pick an hour you already have. The kettle. The parking lot before work. After the children leave for school. Miss a morning and pray it when you remember. Do not restart as a punishment, and do not save all nine for the night before the offer expires. The form is perseverance. The "), out("https://catholicbibleonline.com/novenas/st-joseph/", "novena to St. Joseph"), t(" is the nine-day devotion the Church's people already pray. You are adding a house to it, not inventing a spell.")],
+          [t("March 19, the feast of St. Joseph, and May 1, St. Joseph the Worker, are fitting days to finish. They are not required. In ordinary time, start on any morning you can repeat. If you want the housing pages set out as a guide, use the "), out("https://catholicbibleonline.com/blog/st-joseph-novena-buying-house-complete-catholic-guide/", "complete guide"), t(" and the "), out("https://catholicbibleonline.com/blog/novena-saint-joseph-buying-house/", "novena for buying a house"), t(" on Catholic Bible Online. The "), inn("/blog/st-joseph-house-novena-2026/", "2026 timing"), t(" on this site is for where to place the nine days in what is left of the year.")],
+        ],
+      },
+      {
+        h2: "Day 1: Ask for a roof, not a prize",
+        paragraphs: [
+          [t("Saint Joseph, the Holy Family needed a place to lie down, and you found one. Ask God for a roof over the people whose names I say now. I am not asking for the finest house on the street. I am asking for a dwelling that can hold a life. If I start wanting a prize, stop me. Amen.")],
+        ],
+      },
+      {
+        h2: "Day 2: Say the price out loud",
+        paragraphs: [
+          [t("Saint Joseph, you worked with your hands and you knew what a day's wage could buy. Here is the number I can pay each month. I say it without dressing it up. Intercede for a house that fits this number, and for the courage to close the listing that does not. Amen.")],
+        ],
+      },
+      {
+        h2: "Day 3: The people who must agree",
+        paragraphs: [
+          [t("Saint Joseph, you and Mary had to leave in the night, together. Pray for the person who must sign with me, and for the person who is afraid and has not said so. Give us one conversation today that is kinder than yesterday's. Do not let this search divide the house we already have. Amen.")],
+        ],
+      },
+      {
+        h2: "Day 4: The work that would pay for it",
+        paragraphs: [
+          [t("Saint Joseph, carpenter, pray for the job that would carry this payment. If the work is unsteady, ask for steadier work before a larger house. If I am hiding a debt, bring it into the light today. I would rather delay the purchase than lie about the wage. Amen.")],
+        ],
+      },
+      {
+        h2: "Day 5: The flaw in the walls",
+        paragraphs: [
+          [t("Saint Joseph, you knew wood, and you would have known a rotten beam. Pray for an inspector who tells the truth, and for me to believe the report when I would rather not. If the house is unsafe, shut the door. A beautiful kitchen does not baptize a bad foundation. Amen.")],
+        ],
+      },
+      {
+        h2: "Day 6: The other family",
+        paragraphs: [
+          [t("Saint Joseph, another household may need this same roof. I ask you to pray for them as you pray for me. Do not let me cheer if they lose, or hide a defect so that I win. If God gives the house to them, give me a clean heart about it. Amen.")],
+        ],
+      },
+      {
+        h2: "Day 7: The fear of the debt",
+        paragraphs: [
+          [t("Saint Joseph, I am afraid of the years this payment will last. Put that fear next to the real numbers, not next to a fantasy. If the debt would crush the prayer of this family, let the novena end in a no. Peace in a smaller place is a better answer than a large house we resent. Amen.")],
+        ],
+      },
+      {
+        h2: "Day 8: Leave the wrong house",
+        paragraphs: [
+          [t("Saint Joseph, you left Bethlehem, and you left Egypt, when staying would have been dangerous. Give me the freedom to withdraw an offer that has gone sour. I do not have to win this one. Protect me from signing because I am tired of looking. Amen.")],
+        ],
+      },
+      {
+        h2: "Day 9: Thank him before you know",
+        paragraphs: [
+          [t("Saint Joseph, foster father of Jesus, I thank God for these nine days whether I hold keys tonight or not. If the house is coming, make us good keepers of it. If it is not, stay near the search. Jesus, Mary, and Joseph, keep this family under one mercy. Amen.")],
+          [t("After the ninth prayer, do not bury a statue to force the outcome. That custom is folk religion, and it is not this novena. If you want the longer caution about it, read the "), inn("/blog/how-to-pray-st-joseph-novena-buying-house/", "house novena guide"), t(". The 2026 form of the same devotion, written for this year's search, is on "), out("https://catholicbibleonline.com/blog/st-joseph-novena-for-buying-a-house-2026/", "Catholic Bible Online"), t(".")],
+        ],
+      },
+      {
+        h2: "The work that belongs beside the prayers",
+        paragraphs: [
+          [t("Each day, one deed: a call, a page of the loan papers, a truthful sentence to your household, or a gift to someone who has no house. Go to Mass once during the nine days if you can. Go to confession if the search has made you sharp or willing to hide a fact. Read "), out("https://catholicbibleonline.com/bible/matthew/1/", "Matthew 1"), t(" on the first morning and "), out("https://catholicbibleonline.com/bible/matthew/2/", "Matthew 2"), t(" on the last. The "), inn("/blog/catholic-prayer-to-buy-a-house/", "prayer to buy a house"), t(" is there for the single night that falls in the middle of the nine, when you need words and not a schedule.")],
+        ],
+      },
+    ],
+    faqs: [
+      { question: "How many days is the novena to St. Joseph to buy a house?", answer: "Nine days, once each day. If you miss a morning, pray it when you remember and continue. You do not have to start over." },
+      { question: "When should I start?", answer: "Any morning you can repeat. Finishing on March 19 or May 1 is fitting, because those are St. Joseph's feasts. It is not required." },
+      { question: "Where is the full novena written?", answer: "Catholic Bible Online has the novena to St. Joseph to buy a house, the complete house guide, and the nine-day novena to St. Joseph. Pray those pages with the nine prayers on this one." },
+      { question: "What if day 9 comes and we still have no house?", answer: "Thank him anyway. You may begin again, or you may wait. A novena is trust. It is not a contract that expires into a guarantee." },
+      { question: "Can renters pray this novena?", answer: "Yes. Ask for a just lease, a safer building, or the first place of your own. Say which one you mean so the prayer stays honest." },
     ],
   },
 ];

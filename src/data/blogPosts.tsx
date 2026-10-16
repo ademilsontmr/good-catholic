@@ -26,6 +26,30 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1511,
+    slug: "catholic-prayer-to-buy-a-house",
+    title: "Catholic Prayer to Buy a House",
+    excerpt: "The words to say the night you are trying to buy a house, and when that one prayer should become a nine-day novena.",
+    date: "2026-10-16",
+    readTime: "10 min",
+    category: "Prayers & Devotions",
+    icon: Home,
+    bgColor: "bg-yellow-50",
+    iconColor: "text-yellow-700"
+  },
+  {
+    id: 1512,
+    slug: "novena-to-st-joseph-to-buy-a-house",
+    title: "Novena to St. Joseph to Buy a House",
+    excerpt: "Nine mornings with St. Joseph: a prayer for the roof, the price, the other family, and the freedom to walk away.",
+    date: "2026-10-16",
+    readTime: "14 min",
+    category: "Prayers & Devotions",
+    icon: Home,
+    bgColor: "bg-yellow-50",
+    iconColor: "text-yellow-800"
+  },
+  {
     id: 1501,
     slug: "how-to-read-the-catholic-bible-online",
     title: "How to Read the Catholic Bible Online",

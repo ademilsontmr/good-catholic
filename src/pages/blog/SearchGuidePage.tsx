@@ -23,6 +23,8 @@ const icons = {
   "novena-for-protection-of-children": Heart,
   "our-lady-of-the-rosary-october-7-how-to-pray": Sparkles,
   "catholic-prayer-before-surgery": HeartPulse,
+  "catholic-prayer-to-buy-a-house": Home,
+  "novena-to-st-joseph-to-buy-a-house": Home,
 } as const;
 
 function RichText({ parts }: { parts: Inline[] }) {
@@ -61,7 +63,7 @@ export default function SearchGuidePage() {
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <link rel="canonical" href={pageUrl} />
       </Helmet>
-      <ArticleSchema title={guide.h1} description={guide.description} url={pageUrl} datePublished="2026-10-12" />
+      <ArticleSchema title={guide.h1} description={guide.description} url={pageUrl} datePublished={guide.dateIso ?? "2026-10-12"} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
@@ -91,7 +93,7 @@ export default function SearchGuidePage() {
               <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4 flex-wrap">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">{guide.category}</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />October 12, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />{guide.dateLabel ?? "October 12, 2026"}</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />{guide.readTime} read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">{guide.h1}</h1>

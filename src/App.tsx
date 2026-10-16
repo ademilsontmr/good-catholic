@@ -1399,6 +1399,8 @@ export function AppRoutes() {
             <Route path="/blog/novena-for-protection-of-children/" element={<SearchGuidePage />} />
             <Route path="/blog/our-lady-of-the-rosary-october-7-how-to-pray/" element={<SearchGuidePage />} />
             <Route path="/blog/catholic-prayer-before-surgery/" element={<SearchGuidePage />} />
+            <Route path="/blog/catholic-prayer-to-buy-a-house/" element={<SearchGuidePage />} />
+            <Route path="/blog/novena-to-st-joseph-to-buy-a-house/" element={<SearchGuidePage />} />
             <Route path="/blog/spiritual-gifts-guide/" element={<SpiritualGiftsGuide />} />
 
             {/* Catholic Feast Days — liturgical calendar guides */}
