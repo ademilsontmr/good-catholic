@@ -26,6 +26,18 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1514,
+    slug: "saint-faustina-kowalska",
+    title: "Saint Faustina Kowalska: Life, Feast Day, and Divine Mercy",
+    excerpt: "The Polish sister who carried the message of Divine Mercy: the image, the chaplet, October 5, and the Sunday after Easter.",
+    date: "2026-10-19",
+    readTime: "16 min",
+    category: "Saints & Feast Days",
+    icon: Heart,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-600"
+  },
+  {
     id: 1513,
     slug: "saint-andre-bessette",
     title: "Saint André Bessette: The Doorkeeper of St. Joseph’s Oratory",
