@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { Cross, Calendar, Clock, ArrowLeft, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -210,6 +211,7 @@ export default function MorningOfferingPrayer() {
               </div>
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               {
                 question: "What is the Morning Offering?",

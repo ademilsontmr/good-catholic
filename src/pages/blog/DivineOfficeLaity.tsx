@@ -12,6 +12,8 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
+import { cboLinkClass, CBO_BIBLE } from "@/lib/catholicBibleOnlineLinks";
 
 export default function DivineOfficeLaity() {
   return (
@@ -27,6 +29,8 @@ export default function DivineOfficeLaity() {
           title="The Divine Office for Lay Catholics: How to Pray the Liturgy of the Hours"
           description="Learn how lay Catholics can pray the Divine Office. Discover the hours of prayer, simplified versions, and how this liturgical prayer sanctifies daily life."
           url="https://guidecatholic.com/blog/divine-office-laity/"
+          datePublished="2026-04-16"
+          dateModified="2026-10-20"
         />
       <BreadcrumbSchema
         items={[
@@ -68,6 +72,7 @@ export default function DivineOfficeLaity() {
                   <Calendar className="w-4 h-4" />
                   April 16, 2026
                 </span>
+                <span>Updated October 20, 2026</span>
                 <span className="flex items-center gap-1">
                   <Clock className="w-4 h-4" />
                   14 min read
@@ -103,65 +108,80 @@ export default function DivineOfficeLaity() {
               What Is the Divine Office?
             </h2>
             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              The Divine Office is the Church's official daily prayer, composed primarily of psalms, Scripture readings, hymns, and intercessions. St. Athanasius called it "the sacrament of time," as it consecrates each part of the day to God. The Second Vatican Council described it as "the very prayer which Christ Himself, together with His body, addresses to the Father."
+              The Divine Office is the Church's public daily prayer: psalms, Scripture, hymns, and intercession. The Second Vatican Council, in Sacrosanctum Concilium 84, describes it as the prayer Christ addresses to the Father together with his Body, so that the course of the day and night is made holy. That is liturgy, not a private devotion you invent for yourself.
             </LinkedText>
-            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              While clergy and religious are obligated to pray the full Office, lay Catholics are warmly encouraged to participate in this prayer. It connects the faithful to the universal prayer of the Church being offered continuously around the world.
-            </LinkedText>
+            <p className="text-text leading-relaxed mb-6">
+              Priests, and deacons preparing for the priesthood, are obliged to pray it. Permanent deacons pray the parts assigned for their ministry. Lay people are invited, in Sacrosanctum Concilium 100, to pray it with a priest, with one another, or alone. Missing Morning Prayer on a crowded Tuesday is not, for a lay person, the same kind of failure as a priest omitting the Office he promised.
+            </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              The Seven Hours of Prayer
+              The hours as the Roman Church prays them now
             </h2>
-            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              The full Liturgy of the Hours consists of seven "hours" spread throughout the day:
-            </LinkedText>
+            <p className="text-text leading-relaxed mb-6">
+              Psalm 118:164 in the Douay-Rheims (Psalm 119:164 in most English Bibles) says, “Seven times a day I have given praise to thee.” That line shaped the old custom of praying at several hours, including Prime, which the Roman Office no longer keeps as a separate hour. The Liturgy of the Hours in force today has five parts. You can read the psalms themselves in the{" "}
+              <a href={`${CBO_BIBLE}psalms/`} target="_blank" rel="noopener noreferrer" className={cboLinkClass}>book of Psalms at Catholic Bible Online</a>.
+              A fuller map of the books and the calendar is in the{" "}
+              <Link to="/blog/liturgy-of-the-hours-guide/" className="text-accent font-semibold underline underline-offset-2">guide to the Liturgy of the Hours</Link>.
+            </p>
+
+            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+              Office of Readings
+            </h3>
+            <p className="text-text leading-relaxed mb-6">
+              Psalms and two longer readings, one from Scripture and one from a Father, a saint, or a Church document. It is not tied to dawn. Pray it when you can sit with a page.
+            </p>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Morning Prayer (Lauds)
             </h3>
-            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              Traditionally prayed at sunrise, Morning Prayer consecrates the day to God. It includes a hymn, two psalms, an Old Testament canticle, a short reading, and intercessions. Many laity pray this to begin their workday with God.
-            </LinkedText>
+            <p className="text-text leading-relaxed mb-6">
+              One of the two hinges of the day. A hymn, psalms, a short reading, and the Benedictus, the canticle Zechariah prayed in{" "}
+              <a href={`${CBO_BIBLE}luke/1/`} target="_blank" rel="noopener noreferrer" className={cboLinkClass}>Luke 1</a>.
+              This is the hour to put next to the{" "}
+              <Link to="/blog/morning-prayer-catholic/" className="text-accent font-semibold underline underline-offset-2">Catholic morning prayer</Link>{" "}
+              if you want the Church's text instead of only a private offering.
+            </p>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-              Midday Prayer (Sext)
+              Daytime Prayer
             </h3>
-            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              A brief prayer at noon, sanctifying the middle of the day. It consists of a hymn, three short psalms, a reading, and a concluding prayer. Many pray this during their lunch break.
-            </LinkedText>
-
-            <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-              Afternoon Prayer (None)
-            </h3>
-            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              Prayed around 3 PM, traditionally associated with the hour of Christ's death. This brief office helps transition from work to evening.
-            </LinkedText>
+            <p className="text-text leading-relaxed mb-6">
+              Three short hours exist: midmorning (Terce), midday (Sext), and midafternoon (None). Someone who is not bound to the full Office may pray one of them. None recalls the hour of the Lord's death. You do not have to pray all three to be faithful.
+            </p>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Evening Prayer (Vespers)
             </h3>
-            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              The "evening sacrifice of praise," prayed at sunset. It includes a hymn, two psalms, a New Testament canticle (often the Magnificat), a reading, and intercessions. Many families make this their main evening prayer.
-            </LinkedText>
+            <p className="text-text leading-relaxed mb-6">
+              The other hinge. It is built like Morning Prayer and ends the workday with the Magnificat, Mary's canticle, also in Luke 1. Households that can keep only one hour together often choose this one.
+            </p>
 
             <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
               Night Prayer (Compline)
             </h3>
-            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              The final prayer before sleep, entrusting oneself to God's protection. It includes a brief examination of conscience, psalms, the Nunc Dimittis (Canticle of Simeon), and a Marian antiphon.
-            </LinkedText>
+            <p className="text-text leading-relaxed mb-6">
+              A brief examination, psalms, and the Canticle of Simeon from{" "}
+              <a href={`${CBO_BIBLE}luke/2/`} target="_blank" rel="noopener noreferrer" className={cboLinkClass}>Luke 2</a>.
+              It closes with a Marian antiphon that changes with the season. From Easter to Pentecost that antiphon is the{" "}
+              <Link to="/blog/regina-caeli-prayer/" className="text-accent font-semibold underline underline-offset-2">Regina Caeli</Link>.
+              In Ordinary Time it is often the{" "}
+              <Link to="/blog/hail-holy-queen-prayer/" className="text-accent font-semibold underline underline-offset-2">Hail, Holy Queen</Link>.
+              If the full hour is too much at bedtime, the{" "}
+              <Link to="/blog/night-prayer-catholic/" className="text-accent font-semibold underline underline-offset-2">Catholic night prayer</Link>{" "}
+              on this site is a shorter way to end the day. It is not a substitute text for Compline.
+            </p>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-              Simplified Options for Busy Laity
+              What a lay person can actually keep
             </h2>
-            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">
-              Praying all seven hours may be impractical for most laypeople. The Church recommends simplified forms:
-            </LinkedText>
+            <p className="text-text leading-relaxed mb-6">
+              The General Instruction treats Morning Prayer and Evening Prayer as the hinges. For someone who is not obliged, a stable plan is those two, or even one of them, plus Night Prayer when the house is quiet. Add one daytime hour only after the hinge is a habit.
+            </p>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
-              <li><strong>Morning and Evening Prayer:</strong> The two "hinges" of the day, most essential for laity</li>
-              <li><strong>Night Prayer:</strong> Brief and perfect for bedtime</li>
-              <li><strong>Shorter Christian Prayer:</strong> A simplified one-volume version published specifically for laity</li>
-              <li><strong>Digital Apps:</strong> iBreviary, Universalis, and others make the Office accessible anywhere</li>
+              <li><strong>Morning and Evening Prayer:</strong> the two hours the Church treats as the heart of the day.</li>
+              <li><strong>Night Prayer:</strong> short enough for bed, with a real examination rather than a replay of the argument.</li>
+              <li><strong>One volume, not four:</strong> Christian Prayer and Shorter Christian Prayer are published abridgements for people who will not carry the four-volume set. Use an approved text. A paraphrase is private prayer, not the Liturgy of the Hours.</li>
+              <li><strong>An app:</strong> useful when it shows the right day and an approved translation. It does not make the hour obligatory.</li>
             </ul>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
@@ -185,43 +205,24 @@ export default function DivineOfficeLaity() {
               <li>Try an app if books feel intimidating</li>
             </ul>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
-                <p className="text-text italic text-center leading-relaxed font-semibold">
-                  "Seven times a day I praise you." - Psalm 119:164
-                </p>
-              </div>
-              
-              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6">
-                <p className="text-text italic text-center leading-relaxed font-semibold">
-                  "Pray constantly." - 1 Thessalonians 5:17
-                </p>
-              </div>
-              
-              <div className="bg-purple-50 border border-purple-200 rounded-xl p-6 mt-6">
-                <p className="text-text italic text-center leading-relaxed font-semibold">
-                  "My house shall be called a house of prayer." - Matthew 21:13
-                </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">Learn how lay Catholics can pray the Divine Office. Discover the hours of prayer, simplified versions, and how this liturgical prayer sanctifies daily life. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-office-laity">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray The Divine Office for Lay Catholics, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to begin this week</h2>
+            <p className="text-text leading-relaxed mb-6">
+              Pick Night Prayer for seven nights. Do not add Morning Prayer until you have missed and returned without quitting. Pray it aloud if you can. When you do not know a response, read it. The psalms were written to be said, including the angry ones. You are lending your voice to the Church, not editing Israel until every line matches your mood.
+            </p>
+            <p className="text-text leading-relaxed mb-6">
+              The Office does not replace Sunday Mass, and it does not replace the Rosary if the Rosary is the prayer you will actually finish. Many people pray Morning Prayer and leave the Rosary for the evening. That is a rhythm, not a ranking. The{" "}
+              <Link to="/blog/how-to-pray-the-rosary-complete-guide/" className="text-accent font-semibold underline underline-offset-2">guide to the Rosary</Link>{" "}
+              stays available for the days you want meditation on the mysteries instead of the psalter.
+            </p>
 
             </div>
 
-              </div>
-
+            <DailyPrayersHubLink />
             <QuizCTA />
             <BlogFAQ faqs={[
               {
                 question: "Do I need special books to pray the Divine Office?",
-                answer: "You can use the full four-volume Liturgy of the Hours, the one-volume Christian Prayer, or digital apps like iBreviary or Universalis. Many begin with apps since they automatically show the correct prayers for each day, eliminating the complexity of finding the right pages."
+                answer: "Use an approved edition: the four-volume Liturgy of the Hours, or a one-volume edition such as Christian Prayer. An app helps if it shows the right day and an approved translation. A paraphrase can still be prayer. It is not the liturgical Office."
               },
               {
                 question: "How long does it take to pray the Office?",
@@ -235,9 +236,9 @@ export default function DivineOfficeLaity() {
                 question: "Is the Divine Office different from the Rosary?",
                 answer: "Yes. The Rosary is a private devotional prayer involving meditation on mysteries. The Divine Office is the Church's official liturgical prayer, praying the psalms and readings. Both are valuable—many Catholics pray both daily, or alternate between them depending on time and circumstances."
               },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Are lay Catholics required to pray the Divine Office every day?", answer: "No. Priests and deacons preparing for the priesthood are obliged. Lay people are encouraged, especially to pray Morning and Evening Prayer. Skipping an hour is not, by itself, a sin for a lay person." },
+              { question: "Does the Roman Office still have seven hours?", answer: "The present Liturgy of the Hours has the Office of Readings, Morning Prayer, Daytime Prayer (which can be one hour or the three hours of Terce, Sext, and None), Evening Prayer, and Night Prayer. The old hour of Prime is no longer part of the Roman Office." },
+              { question: "Can I use any translation?", answer: "To pray the Liturgy of the Hours as liturgy, use a text approved for your country, such as the four-volume Liturgy of the Hours or the one-volume Christian Prayer. A private paraphrase can still be prayer. It is not the Church's Office." }
             ]} />
 
 <RelatedArticles currentSlug="divine-office-laity" />

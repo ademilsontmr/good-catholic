@@ -7,6 +7,8 @@
  */
 
 export const INTERLINK_MAP: Record<string, string> = {
+  "daily Catholic prayers": "/blog/daily-catholic-prayers/",
+  "Daily Catholic Prayers": "/blog/daily-catholic-prayers/",
   // U.S. feast SEO 2026 (Sep–Dec)
 "nativity of mary 2026": "/blog/nativity-of-mary-september-8-2026-feast-day-guide/",
   "Nativity of Mary (September 8, 2026)": "/blog/nativity-of-mary-september-8-2026-feast-day-guide/",

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { BookOpen, Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -215,6 +216,7 @@ export default function ExaminationOfConscienceGuide() {
               </LinkedText>
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               {
                 question: "What is the examination of conscience?",

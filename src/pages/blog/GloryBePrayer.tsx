@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Calendar, Clock, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -152,6 +153,7 @@ export default function GloryBePrayer() {
 
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "Is the Glory Be a Catholic prayer?", answer: "Yes. The Glory Be is a traditional Catholic doxology, but its praise of the Trinity is shared by many Christians." },
               { question: "What is a doxology?", answer: "A doxology is a short prayer of praise to God. The Glory Be is called the lesser doxology because it gives direct praise to the Father, Son, and Holy Spirit." },

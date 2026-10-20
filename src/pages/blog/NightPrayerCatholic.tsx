@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { Moon, Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -228,6 +229,7 @@ export default function NightPrayerCatholic() {
               </div>
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "What is Compline?", answer: "Compline is the final prayer of the Liturgy of the Hours — the Church's official night prayer. It is prayed before going to sleep and includes Psalms, a Scripture reading, the Nunc Dimittis (Canticle of Simeon), and the Salve Regina. It takes about 10-15 minutes and is available in apps like iBreviary and Laudate." },
               { question: "What is the best Catholic prayer before bed?", answer: "The best night prayer is the one you will actually pray consistently. Options range from the simple Traditional Night Prayer (2 minutes) to the full Compline (15 minutes). The most important elements are: thanksgiving for the day, examination of conscience, asking forgiveness, and entrusting yourself to God's care." },

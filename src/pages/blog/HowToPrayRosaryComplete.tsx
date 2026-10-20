@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { Heart, Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -287,6 +288,7 @@ export default function HowToPrayRosaryComplete() {
               </div>
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "How long does it take to pray the Rosary?", answer: "A full five-decade Rosary typically takes between 15 and 25 minutes, depending on your pace. If you pray it slowly and meditatively, it may take closer to 30 minutes. Many people pray one decade (about 3–5 minutes) as a shorter devotion when time is limited." },
               { question: "Do I have to pray all five decades at once?", answer: "No. While praying all five decades at once is the traditional form, the Church does not require it. Many people pray one or two decades at a time throughout the day. What matters is the intention and the meditation, not completing a set number of beads in one sitting." },

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { Sun, Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -296,6 +297,7 @@ export default function PrayerBeforeMealsCatholic() {
 
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               {
                 question: "Is it required for Catholics to pray before meals?",

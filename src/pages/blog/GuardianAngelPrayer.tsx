@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Calendar, Clock, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -162,6 +163,7 @@ export default function GuardianAngelPrayer() {
 
               </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "Is the Guardian Angel Prayer Catholic?", answer: "Yes. It is a traditional Catholic prayer asking one's guardian angel for light, protection, rule, and guidance." },
               { question: "Do Catholics worship guardian angels?", answer: "No. Worship belongs to God alone. Catholics honor angels as God's servants and ask for their help according to God's will." },

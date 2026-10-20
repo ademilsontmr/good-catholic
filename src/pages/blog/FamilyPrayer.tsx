@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { Home, Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -246,6 +247,7 @@ export default function FamilyPrayer() {
               </div>
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               {
                 question: "How do I start family prayer if we've never done it before?",

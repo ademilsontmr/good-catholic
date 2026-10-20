@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { HeartPulse, Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -177,6 +178,7 @@ export default function PrayerForTheSick() {
 
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "What is the most powerful Catholic prayer for healing?", answer: "The Catholic tradition offers many powerful prayers for healing. Among the most beloved are the prayer to Saint Peregrine (patron of cancer patients), the prayer to Saint Raphael the Archangel (whose name means 'God heals'), and the prayer to Our Lady of Lourdes. The most powerful healing, however, comes through the sacraments — especially the Anointing of the Sick and the Eucharist." },
               { question: "Who is the Catholic patron saint of the sick?", answer: "Several saints are patrons of the sick. Saint Peregrine Laziosi is the patron of cancer patients and those with serious illness. Saint Raphael the Archangel is the patron of healing and physicians. Saint Dymphna is the patron of those with mental illness. Our Lady of Lourdes is invoked for all kinds of physical healing, and her feast day (February 11) is the World Day of the Sick." },

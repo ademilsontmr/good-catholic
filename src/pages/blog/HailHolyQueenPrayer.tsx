@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Calendar, Clock, Crown } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -139,6 +140,7 @@ export default function HailHolyQueenPrayer() {
 
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "Is Hail Holy Queen the same as Salve Regina?", answer: "Yes. Hail Holy Queen is the traditional English translation of the Latin antiphon Salve Regina." },
               { question: "Do you pray Hail Holy Queen after every Rosary?", answer: "Most Catholics do. It is the standard closing prayer of the Rosary, followed by the final prayer and the Sign of the Cross." },

@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { BookOpen, Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -195,6 +196,7 @@ export default function GospelReadingToday() {
               </div>
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "Where can I find today's Catholic Gospel reading?", answer: "The best sources are: USCCB.org/bible/readings (free, official US source), the Laudate app (free, iOS and Android), Magnificat (subscription), Word on Fire (free daily reflections), and DailyGospel.org (free, with patristic commentary). All are updated automatically each day." },
               { question: "What is the Gospel reading at Mass today?", answer: "The Gospel reading changes every day according to the Catholic Lectionary. To find today's specific Gospel, visit USCCB.org/bible/readings or open the Laudate app. The readings are organized according to the liturgical calendar and follow a three-year cycle for Sundays and a two-year cycle for weekdays." },

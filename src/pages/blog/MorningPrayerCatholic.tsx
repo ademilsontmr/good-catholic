@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { Sun, Calendar, Clock, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -215,6 +216,7 @@ export default function MorningPrayerCatholic() {
               </div>
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "What is Lauds?", answer: "Lauds is the official morning prayer of the Catholic Church, part of the Liturgy of the Hours. It is prayed at dawn or in the early morning and includes Psalms, a Scripture reading, the Benedictus (Canticle of Zechariah), intercessions, and the Our Father. It takes about 15-20 minutes." },
               { question: "What is the best Catholic morning prayer?", answer: "The Morning Offering is the most distinctively Catholic morning prayer — it consecrates the entire day to God. For a fuller morning prayer, Lauds from the Liturgy of the Hours is the Church's official morning prayer. For a brief prayer, Psalm 63 or the Morning Prayer of St. Francis de Sales are beautiful options." },

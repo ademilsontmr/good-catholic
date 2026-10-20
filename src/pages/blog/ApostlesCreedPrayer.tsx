@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Calendar, Clock, ScrollText } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -145,6 +146,7 @@ export default function ApostlesCreedPrayer() {
 
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "Is the Apostles' Creed in the Bible?", answer: "The exact text is not a single Bible passage, but its teachings summarize biblical faith and the apostolic preaching of the Church." },
               { question: "Do Catholics use the Apostles' Creed?", answer: "Yes. Catholics commonly pray it in the Rosary and teach it as a basic summary of the faith." },

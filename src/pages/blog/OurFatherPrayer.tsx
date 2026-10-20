@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { ArrowLeft, BookOpen, Calendar, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -154,6 +155,7 @@ export default function OurFatherPrayer() {
 
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "Who wrote the Our Father?", answer: "Jesus himself taught the Our Father to his disciples, which is why it is also called the Lord's Prayer." },
               { question: "Is the Our Father Catholic?", answer: "The Our Father belongs to all Christians, but it has a central place in Catholic Mass, the Rosary, the Liturgy of the Hours, and sacramental prayer." },

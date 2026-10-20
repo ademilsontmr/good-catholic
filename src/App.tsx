@@ -181,6 +181,10 @@ const OurLadyGuadalupePatronessAmericas = lazy(() => import("./pages/blog/OurLad
 const SaintKateriTekakwitha = lazy(() => import("./pages/blog/SaintKateriTekakwitha"));
 const SaintAndreBessette = lazy(() => import("./pages/blog/SaintAndreBessette"));
 const SaintFaustinaKowalska = lazy(() => import("./pages/blog/SaintFaustinaKowalska"));
+const DailyCatholicPrayersPage = lazy(() => import("./pages/blog/DailyCatholicPrayersPage"));
+const PrayerOfThanksgiving = lazy(() => import("./pages/blog/PrayerOfThanksgiving"));
+const PrayerForPeace = lazy(() => import("./pages/blog/PrayerForPeace"));
+const PrayerOfTrustInGod = lazy(() => import("./pages/blog/PrayerOfTrustInGod"));
 const OurLadyImmaculateConceptionUSA = lazy(() => import("./pages/blog/OurLadyImmaculateConceptionUSA"));
 
 // New April 2026 Articles
@@ -1235,6 +1239,11 @@ export function AppRoutes() {
             <Route path="/blog/saint-kateri-tekakwitha/" element={<SaintKateriTekakwitha />} />
             <Route path="/blog/saint-andre-bessette/" element={<SaintAndreBessette />} />
             <Route path="/blog/saint-faustina-kowalska/" element={<SaintFaustinaKowalska />} />
+            <Route path="/blog/daily-catholic-prayers/" element={<DailyCatholicPrayersPage />} />
+            <Route path="/blog/prayer-of-thanksgiving/" element={<PrayerOfThanksgiving />} />
+            <Route path="/blog/prayer-for-peace/" element={<PrayerForPeace />} />
+            <Route path="/blog/prayer-of-trust-in-god/" element={<PrayerOfTrustInGod />} />
+            <Route path="/daily-catholic-prayers/" element={<Navigate to="/blog/daily-catholic-prayers/" replace />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />
             <Route path="/blog/praying-for-souls-in-purgatory/" element={<PrayingForSoulsInPurgatory />} />

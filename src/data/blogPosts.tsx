@@ -26,6 +26,54 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1518,
+    slug: "prayer-of-trust-in-god",
+    title: "Catholic Prayer of Trust in God for Anxious Days",
+    excerpt: "A prayer that places what you cannot control in God’s hands, with the shepherd psalm and the Divine Mercy aspiration.",
+    date: "2026-10-20",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Shield,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-800"
+  },
+  {
+    id: 1517,
+    slug: "prayer-for-peace",
+    title: "Catholic Prayer for Peace: For the Heart, the Home, and the World",
+    excerpt: "How Catholics pray for peace without pretending a prayer ends a war, and why the familiar Francis prayer needs a careful attribution.",
+    date: "2026-10-20",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Sun,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1516,
+    slug: "prayer-of-thanksgiving",
+    title: "Catholic Prayer of Thanksgiving: How to Thank God Each Day",
+    excerpt: "Grace after meals, the Te Deum, and an original evening thanksgiving that does not treat thanks as a bargain.",
+    date: "2026-10-20",
+    readTime: "8 min",
+    category: "Prayers & Devotions",
+    icon: Heart,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-700"
+  },
+  {
+    id: 1515,
+    slug: "daily-catholic-prayers",
+    title: "Daily Catholic Prayers: A Complete Guide to Praying Every Day",
+    excerpt: "What to pray morning and night, how the Rosary fits a real week, and which practices are devotion rather than obligation.",
+    date: "2026-10-20",
+    readTime: "18 min",
+    category: "Prayers & Devotions",
+    icon: BookOpen,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
     id: 1514,
     slug: "saint-faustina-kowalska",
     title: "Saint Faustina Kowalska: Life, Feast Day, and Divine Mercy",

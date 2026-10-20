@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Calendar, Clock, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -151,6 +152,7 @@ export default function HailMaryPrayer() {
 
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "Is the Hail Mary biblical?", answer: "Yes. The first half draws from Luke 1:28 and Luke 1:42. The second half is the Church's petition asking Mary to pray for us." },
               { question: "Do Catholics worship Mary when they pray the Hail Mary?", answer: "No. Worship belongs to God alone. The Hail Mary asks Mary to intercede for us, just as Christians ask one another for prayer." },

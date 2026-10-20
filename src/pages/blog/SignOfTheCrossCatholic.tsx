@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 import { Link } from "react-router-dom";
 import { ArrowLeft, Calendar, Clock, Cross } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -157,6 +158,7 @@ export default function SignOfTheCrossCatholic() {
 
             </div>
 
+            <DailyPrayersHubLink />
             <BlogFAQ faqs={[
               { question: "Do Catholics do the Sign of the Cross left to right?", answer: "In the Latin (Roman) tradition, Catholics typically touch the left shoulder first, then the right. Many Eastern Catholic traditions use right to left. Both express the same faith in the Trinity." },
               { question: "What are the words of the Sign of the Cross?", answer: "In English: In the name of the Father, and of the Son, and of the Holy Spirit. Amen. In Latin: In nomine Patris, et Filii, et Spiritus Sancti. Amen." },

@@ -12,6 +12,7 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { DailyPrayersHubLink } from "@/components/blog/DailyPrayerExtras";
 
 export default function ExaminationOfConscienceGuideDetailed() {
   return (
@@ -27,6 +28,8 @@ export default function ExaminationOfConscienceGuideDetailed() {
         title="Examination of Conscience: Complete Catholic Guide Before Confession"
         description="Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church. Use this guide to prepare for a thorough, honest Confession."
         url="https://guidecatholic.com/blog/examination-of-conscience-before-confession/"
+        datePublished="2026-04-24"
+        dateModified="2026-10-20"
       />
       <BreadcrumbSchema
         items={[
@@ -61,6 +64,7 @@ export default function ExaminationOfConscienceGuideDetailed() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Mass & Sacraments</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />April 24, 2026</span>
+                <span>Updated October 20, 2026</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />20 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
@@ -150,11 +154,6 @@ export default function ExaminationOfConscienceGuideDetailed() {
                 <li>Have I scandalized others — led them into sin by my words or example?</li>
               </ul>
 
-              <QuizCTA
-                title="How is your Catholic life?"
-                description="Confession is a fresh start. Take our quiz to discover where you are on your Catholic journey."
-              />
-
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Sixth and Ninth Commandments: You shall not commit adultery / You shall not covet your neighbor's wife</h2>
               <ul className="list-disc list-inside text-text space-y-2 mb-6 text-sm">
                 <li>Have I engaged in sexual activity outside of marriage?</li>
@@ -215,22 +214,31 @@ export default function ExaminationOfConscienceGuideDetailed() {
                 <li>Have I failed to be a good witness to my faith?</li>
               </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">After Your Examination</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
-                After completing your examination, make a brief Act of Contrition — expressing sorrow for your sins and a firm purpose of amendment. Then go to Confession as soon as possible. Don't let the examination become a substitute for the sacrament.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-before-confession">
-                Remember: the purpose of the examination is not to make you feel guilty but to prepare you to receive God's mercy. The more honest your examination, the more complete your healing.
-              </LinkedText>
-
-              <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
-                <p className="text-text italic text-center">
-                  "The examination of conscience is not a psychological exercise but a look of faith fixed on the Lord."
-                </p>
-                <p className="text-text-muted text-center mt-2">— Pope John Paul II</p>
-              </div>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From the list into the confessional</h2>
+              <p className="text-text leading-relaxed mb-6">
+                The Catechism says the sacrament should be prepared by an examination made in the light of the Word of God (CCC 1454). The list above is that preparation. It is not the sacrament. When you have named what you need to say, go. The{" "}
+                <Link to="/blog/how-to-go-to-confession/" className="text-accent font-semibold underline underline-offset-2">guide to confession</Link>{" "}
+                walks through the rite. In short, this is the order.
+              </p>
+              <ol className="list-decimal pl-5 space-y-2 text-text leading-relaxed mb-6">
+                <li>Make the Sign of the Cross with the priest. Say how long it has been since your last confession. If you do not remember, say so.</li>
+                <li>Confess mortal sins in kind and, as well as you can, in number. Add the venial sins that still weigh on you. Do not narrate other people’s faults in order to explain your own.</li>
+                <li>Pray an <Link to="/blog/act-of-contrition/" className="text-accent font-semibold underline underline-offset-2">Act of Contrition</Link> when the priest asks for it. Sorrow and a purpose to change are the point. A forgotten word is not a failed confession.</li>
+                <li>Listen to the penance. If you cannot do what was given, say so before you leave.</li>
+                <li>Receive absolution. The priest’s words are the sacrament. Answer “Amen.” Do the penance as soon as you reasonably can. Destroy any written list.</li>
+              </ol>
+              <p className="text-text leading-relaxed mb-6">
+                A daily look at the day, as in the shorter{" "}
+                <Link to="/blog/examination-of-conscience-guide/" className="text-accent font-semibold underline underline-offset-2">examination of conscience</Link>,
+                makes this longer review easier. The daily examen is not a second confession, and it does not absolve grave sin. Only the sacrament does that.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                If you are not sure whether something is grave, confess it and let the priest help you name it. Do not wait for a perfect memory. Do not treat the examination as a guarantee that you will feel forgiven. Absolution is not a mood.
+              </p>
             </div>
 
+            <DailyPrayersHubLink />
+            <QuizCTA />
             <BlogFAQ faqs={[
               { question: "How long should an examination of conscience take?", answer: "A thorough examination of conscience takes about 10-15 minutes. You don't need to spend hours on it — the goal is honest, prayerful reflection, not exhaustive analysis. If you examine your conscience regularly (daily or weekly), each examination will be shorter because you are reviewing a shorter period of time." },
               { question: "Do I need to confess every sin I remember?", answer: "You must confess all mortal sins by kind and number. Venial sins should also be confessed, though this is not strictly required. If you are unsure whether something is a mortal sin, confess it anyway and let the priest help you discern. You do not need to confess sins you have already confessed in a previous Confession." },
