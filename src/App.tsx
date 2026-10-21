@@ -185,6 +185,7 @@ const DailyCatholicPrayersPage = lazy(() => import("./pages/blog/DailyCatholicPr
 const PrayerOfThanksgiving = lazy(() => import("./pages/blog/PrayerOfThanksgiving"));
 const PrayerForPeace = lazy(() => import("./pages/blog/PrayerForPeace"));
 const PrayerOfTrustInGod = lazy(() => import("./pages/blog/PrayerOfTrustInGod"));
+const SaintLifeGuidePage = lazy(() => import("./pages/blog/SaintLifeGuidePage"));
 const OurLadyImmaculateConceptionUSA = lazy(() => import("./pages/blog/OurLadyImmaculateConceptionUSA"));
 
 // New April 2026 Articles
@@ -1243,6 +1244,17 @@ export function AppRoutes() {
             <Route path="/blog/prayer-of-thanksgiving/" element={<PrayerOfThanksgiving />} />
             <Route path="/blog/prayer-for-peace/" element={<PrayerForPeace />} />
             <Route path="/blog/prayer-of-trust-in-god/" element={<PrayerOfTrustInGod />} />
+            <Route path="/blog/saint-teresa-of-calcutta/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-george/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-john-paul-ii/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-benedict/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-lucy/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-charbel-makhlouf/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-francis-xavier/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-sebastian/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-lawrence/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-monica/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/saint-anne/" element={<SaintLifeGuidePage />} />
             <Route path="/daily-catholic-prayers/" element={<Navigate to="/blog/daily-catholic-prayers/" replace />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />

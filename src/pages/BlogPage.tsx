@@ -31,7 +31,7 @@ export default function BlogPage() {
       .map(([name, count]) => ({ name, count }))
       .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
   }, []);
-
+  
   // Sort posts by date (most recent first), then by id descending as tiebreaker
   const sortedPosts = [...blogPosts].sort((a, b) => {
     const dateDiff = new Date(b.date).getTime() - new Date(a.date).getTime();
