@@ -10,7 +10,7 @@ export default function AboutPage() {
     "@type": "Organization",
     name: "Guide Catholic",
     url: "https://guidecatholic.com",
-    email: "contact@guidecatholic.com",
+    email: "smartxdigitalx@gmail.com",
     description:
       "Guide Catholic publishes free Catholic faith guides, prayers, and a life assessment to help Catholics grow in prayer, the sacraments, and daily discipleship.",
     logo: "https://guidecatholic.com/favicon-192.png",
@@ -191,11 +191,11 @@ export default function AboutPage() {
                 <p className="text-text-muted leading-relaxed mb-4">
                   Questions, corrections, or suggestions are welcome. Reach us at{" "}
                   <a
-                    href="mailto:contact@guidecatholic.com"
+                    href="mailto:smartxdigitalx@gmail.com"
                     className="inline-flex items-center gap-1.5 text-primary font-semibold hover:underline"
                   >
                     <Mail className="w-4 h-4" aria-hidden="true" />
-                    contact@guidecatholic.com
+                    smartxdigitalx@gmail.com
                   </a>{" "}
                   or through our{" "}
                   <Link to="/contact/" className="text-primary font-semibold hover:underline">
