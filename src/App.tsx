@@ -186,6 +186,7 @@ const PrayerOfThanksgiving = lazy(() => import("./pages/blog/PrayerOfThanksgivin
 const PrayerForPeace = lazy(() => import("./pages/blog/PrayerForPeace"));
 const PrayerOfTrustInGod = lazy(() => import("./pages/blog/PrayerOfTrustInGod"));
 const SaintLifeGuidePage = lazy(() => import("./pages/blog/SaintLifeGuidePage"));
+const LiturgicalFeastGuidePage = lazy(() => import("./pages/blog/LiturgicalFeastGuidePage"));
 const OurLadyImmaculateConceptionUSA = lazy(() => import("./pages/blog/OurLadyImmaculateConceptionUSA"));
 
 // New April 2026 Articles
@@ -1255,6 +1256,16 @@ export function AppRoutes() {
             <Route path="/blog/saint-lawrence/" element={<SaintLifeGuidePage />} />
             <Route path="/blog/saint-monica/" element={<SaintLifeGuidePage />} />
             <Route path="/blog/saint-anne/" element={<SaintLifeGuidePage />} />
+            <Route path="/blog/all-saints-day/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/immaculate-conception/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/our-lady-of-guadalupe/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/catholic-christmas/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/ash-wednesday/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/saint-patricks-day/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/solemnity-of-saint-joseph/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/catholic-easter/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/pentecost-sunday/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/corpus-christi-usa/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/daily-catholic-prayers/" element={<Navigate to="/blog/daily-catholic-prayers/" replace />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />
