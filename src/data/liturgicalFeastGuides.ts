@@ -1369,6 +1369,217 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
       { question: "What readings are used in 2027?", answer: "Year B: Exodus 24, Psalm 116, Hebrews 9, and Mark 14." },
     ],
   },
+  {
+    slug: "catholic-christmas-traditions",
+    title: "Catholic Christmas Traditions 2026: Advent to Candlemas",
+    h1: "Catholic Christmas Traditions: A Guide to the Festivities from Advent 2026 to Candlemas 2027",
+    description: "Catholic Christmas traditions day by day: Advent wreath, Las Posadas, Wigilia, Midnight Mass, the Twelve Days, Epiphany chalk, and Candlemas.",
+    keywords: "catholic christmas traditions, christmas customs catholic, catholic christmas festivities, las posadas, simbang gabi, wigilia, feast of the seven fishes, twelve days of christmas catholic, epiphany chalk door blessing, candlemas, christmas 2026",
+    readTime: "12 min",
+    crumb: "Christmas Traditions",
+    category: "Catholic Living",
+    lede: "For Catholics, Christmas is not one day of presents but a cycle of feasts, fasts, songs, meals, and blessings that runs from the first candle of Advent to the candles of Candlemas. This guide walks through the festivities in order, with the 2026–27 dates, and separates what the Church prays from what families and nations have added out of love.",
+    answer: "Catholic Christmas festivities run in three movements. Advent (from Sunday, November 29, 2026) prepares with the wreath, Saint Nicholas, the Marian feasts, Las Posadas, Simbang Gabi, and the O Antiphons. Christmas itself begins with the Vigil on December 24 and lasts through the octave to January 1, 2027, with Midnight Mass, the crib, carols, and the Twelve Days. The season closes with Epiphany (January 3 in the U.S.), the house blessing with chalk, and the Baptism of the Lord on January 10, while many homes keep the crib until Candlemas on February 2. Mass is the center; every custom is meant to lead there.",
+    facts: [
+      { label: "Advent begins", value: "Sunday, November 29, 2026" },
+      { label: "Christmas Day", value: "Friday, December 25, 2026 (Holy Day of Obligation)" },
+      { label: "Twelve Days", value: "December 25, 2026 – January 5, 2027" },
+      { label: "Epiphany (U.S.)", value: "Sunday, January 3, 2027" },
+      { label: "Season ends", value: "Baptism of the Lord, Sunday, January 10, 2027" },
+      { label: "Crib custom ends", value: "Candlemas, Tuesday, February 2, 2027" },
+    ],
+    timeline: [
+      { when: "Sunday, November 29, 2026", what: "First Sunday of Advent. Light the first violet candle of the wreath." },
+      { when: "Sunday, December 6", what: "Saint Nicholas. Shoes by the door; the Second Sunday of Advent takes precedence at Mass." },
+      { when: "Tuesday, December 8", what: "Immaculate Conception. Holy Day of Obligation and patronal feast of the United States." },
+      { when: "Saturday, December 12", what: "Our Lady of Guadalupe. Mañanitas before dawn." },
+      { when: "Sunday, December 13", what: "Gaudete Sunday: the rose candle. Saint Lucy's day, kept with Lucia processions." },
+      { when: "December 16–24", what: "Las Posadas and Simbang Gabi, nine nights and nine dawn Masses before Christmas." },
+      { when: "December 17–23", what: "The O Antiphons at Evening Prayer." },
+      { when: "Thursday, December 24", what: "Christmas Eve: Wigilia, the Feast of the Seven Fishes, the Vigil Mass, and Midnight Mass." },
+      { when: "Friday, December 25", what: "Christmas Day. The Child is placed in the crib." },
+      { when: "December 26–28", what: "Saint Stephen, Saint John (displaced by Holy Family on Sunday, December 27 this year), and the Holy Innocents." },
+      { when: "Thursday, December 31", what: "Te Deum of thanksgiving at the end of the year." },
+      { when: "Friday, January 1, 2027", what: "Mary, Mother of God. Holy Day of Obligation and World Day of Peace." },
+      { when: "Sunday, January 3", what: "Epiphany in the U.S.: chalk the door, bless the house, share the king cake." },
+      { when: "Sunday, January 10", what: "Baptism of the Lord. The Christmas season ends." },
+      { when: "Tuesday, February 2", what: "Candlemas: the Presentation of the Lord and the blessing of candles." },
+    ],
+    sections: [
+      {
+        id: "why-catholic-christmas-is-a-season",
+        heading: "Why Catholic Christmas is a season, not a day",
+        paragraphs: [
+          "The shops begin Christmas in October and end it on December 26. The Church does almost the opposite. She waits four weeks in Advent, then celebrates for weeks: an eight-day octave, then the Twelve Days, then Epiphany and the Baptism of the Lord. The festivities are spread out because the mystery is too large for one morning: the eternal Word \"became flesh and made his dwelling among us\" (" + `{{${CBO}john/1/|John 1:14}}` + ").",
+          "Every Catholic custom in this guide hangs on that calendar. If you only need the Mass schedule, the obligation, and Friday abstinence, read the [[/blog/catholic-christmas/|Catholic Christmas guide]]. This page is about how Catholics actually keep the feast at home, in the parish, and in the street.",
+        ],
+        callout: {
+          label: "Doctrine, devotion, custom",
+          text: "Three layers run through every Christmas tradition. Doctrine is what the Church believes: the Incarnation. Liturgy and devotion are what she prays: the four Christmas Masses, the octave, the blessings. Customs are what peoples added: the tree, the Seven Fishes, the king cake. Customs are good and optional; Mass on Christmas is not optional.",
+        },
+      },
+      {
+        id: "advent-traditions",
+        heading: "Advent traditions: the festivities of waiting",
+        paragraphs: [
+          "Advent begins on Sunday, November 29, 2026 ([[/blog/advent-2026-start-date-when-does-advent-begin/|when Advent 2026 begins]]). It is a season of joyful expectation, not a second Lent, and its customs are built around light growing in the darkness. The [[/blog/complete-catholic-advent-guide/|complete Catholic Advent guide]] covers the season week by week; here are the festive customs inside it.",
+        ],
+        list: [
+          "The Advent wreath. Four candles, three violet and one rose, lit one more each Sunday. The modern wreath is usually traced to the Lutheran pastor Johann Hinrich Wichern in Hamburg in 1839; Catholics adopted it in the twentieth century, and the Book of Blessings now provides a rite for blessing it. Pray with it using these [[/blog/advent-prayers/|Advent prayers]].",
+          "Saint Nicholas, December 6. Children leave shoes out and find them filled with sweets — the real root of Santa Claus, a fourth-century bishop of Myra known for secret generosity. In 2026 the date is a Sunday of Advent, so the Mass is of Advent, but the home custom stands. See [[/blog/saint-nicholas/|Saint Nicholas]].",
+          "The Immaculate Conception, December 8 (Tuesday), a Holy Day of Obligation and the patronal feast of the United States. See the [[/blog/immaculate-conception/|Immaculate Conception guide]].",
+          "Our Lady of Guadalupe, December 12 (Saturday). Mexican and Mexican-American parishes sing Las Mañanitas before dawn. See [[/blog/our-lady-of-guadalupe/|Our Lady of Guadalupe]].",
+          "Gaudete Sunday and Saint Lucy, December 13. The rose candle is lit, and Scandinavian communities keep Saint Lucy's day with a girl crowned with candles. The Sunday takes precedence at Mass this year. See [[/blog/saint-lucy/|Saint Lucy]].",
+          "The Saint Andrew Christmas novena, prayed fifteen times a day from November 30 to Christmas. See the [[/blog/st-andrew-christmas-novena-2026/|Saint Andrew Christmas novena]].",
+          "Confession. Parishes add penance services in the last two weeks; this is the most important Advent tradition of all. See [[/blog/how-to-go-to-confession/|how to go to confession]].",
+        ],
+      },
+      {
+        id: "novena-before-christmas",
+        heading: "The nine days before Christmas: Las Posadas, Simbang Gabi, and the O Antiphons",
+        paragraphs: [
+          "From December 16 to 24 several Catholic cultures keep a nine-day novena of festivities that leads straight into Christmas Eve.",
+        ],
+        table: {
+          caption: "The great pre-Christmas novenas",
+          headers: ["Tradition", "Where", "What happens"],
+          rows: [
+            ["Las Posadas", "Mexico, Central America, Hispanic U.S. parishes", "Nine evenings re-enacting Mary and Joseph's search for lodging (" + `{{${CBO}luke/2/|Luke 2:7}}` + "). Pilgrims sing at doors, are refused, then welcomed with prayer, piñatas, and food."],
+            ["Simbang Gabi (Misa de Gallo)", "Philippines and Filipino communities worldwide", "Nine Masses at dawn or in the evening, December 16–24, in honor of Mary's expectation. Bibingka and puto bumbong after Mass."],
+            ["Novena de Aguinaldos", "Colombia, Venezuela, Ecuador", "Nine evenings of prayers, carols (villancicos), and gatherings around the crib."],
+            ["The O Antiphons", "The whole Latin Church", "December 17–23 at Evening Prayer: O Wisdom, O Lord, O Root of Jesse, O Key of David, O Dayspring, O King, O Emmanuel. Read backward, their Latin initials spell ERO CRAS: \"Tomorrow I will be there.\""],
+          ],
+        },
+        callout: {
+          label: "Where \"O Come, O Come, Emmanuel\" comes from",
+          text: "The Advent hymn is a metrical paraphrase of the O Antiphons. Singing one verse a night from December 17 is an easy family custom that follows the Church's own prayer.",
+        },
+      },
+      {
+        id: "christmas-eve-traditions",
+        heading: "Christmas Eve traditions: the vigil meal and Midnight Mass",
+        paragraphs: [
+          "Christmas Eve, Thursday, December 24, 2026, was for centuries a day of fast and abstinence. Universal law no longer requires it, but many Catholic peoples still keep a meatless vigil supper, and it has become one of the most beloved festivities of the year.",
+        ],
+        list: [
+          "Wigilia (Poland and Polish-American families). The meal begins when the first star appears, recalling the star of Bethlehem. The family shares the opłatek, a blessed wafer stamped with a Nativity scene, exchanging forgiveness and good wishes, and leaves an empty place at the table for the unexpected guest.",
+          "La Vigilia, or the Feast of the Seven Fishes (Italian-American). A southern Italian meatless eve that became, in the United States, a meal of many fish dishes. The number seven is popular, not traditional law; families give it meanings such as the seven sacraments.",
+          "Nochebuena (Spain, Latin America, Cuban and Puerto Rican communities). A family supper followed by the Misa de Gallo, the \"Rooster's Mass\" at midnight.",
+          "Placing the Child in the crib. Many families leave the manger empty through Advent and place the figure of the Infant on Christmas Eve, often the youngest child carrying it in procession. The crib goes back to Saint Francis of Assisi at Greccio in 1223 ([[/blog/saint-francis-of-assisi/|Saint Francis of Assisi]]).",
+          "Reading the Nativity aloud. Luke 2 before bed, or before leaving for Mass: " + `{{${CBO}luke/2/|Luke 2 on Catholic Bible Online}}` + ".",
+        ],
+        callout: {
+          label: "The Christmas Proclamation",
+          text: "Before the Mass during the Night many parishes sing the Christmas Proclamation from the Roman Martyrology, which places the birth of Christ within the whole history of salvation, from creation to Rome. If your parish sings it, arrive early: it is one of the most moving moments of the year. To find a Mass, see [[/blog/christmas-mass-near-me/|how to find Christmas Mass near you]].",
+        },
+      },
+      {
+        id: "christmas-day-and-octave",
+        heading: "Christmas Day and the octave: eight days of one feast",
+        paragraphs: [
+          "Christmas Day, Friday, December 25, 2026, is a Holy Day of Obligation, and because it is a solemnity, Friday abstinence does not apply. From that day the Church keeps an octave: eight days celebrated as one feast, with the Gloria at every Mass. Three ancient feasts sit inside it, called the companions of Christ.",
+        ],
+        table: {
+          caption: "The feasts inside the Christmas octave, 2026",
+          headers: ["Date", "Feast", "Traditional custom"],
+          rows: [
+            ["Saturday, December 26", "Saint Stephen, first martyr (" + `{{${CBO}acts/7/|Acts 7}}` + ")", "Boxing Day in Britain, Wren Day in Ireland; a day for giving to the poor, as in the carol \"Good King Wenceslas\"."],
+            ["Sunday, December 27", "Holy Family (Saint John the Apostle is displaced this year)", "Renewal of family promises; in other years, the blessing of Saint John's wine."],
+            ["Monday, December 28", "Holy Innocents (" + `{{${CBO}matthew/2/|Matthew 2:16–18}}` + ")", "Prayer for children and for the unborn. In Spain and Latin America, a day of harmless pranks."],
+            ["Thursday, December 31", "Seventh day of the octave", "Te Deum sung in thanksgiving for the year."],
+            ["Friday, January 1, 2027", "Mary, Mother of God", "Holy Day of Obligation; World Day of Peace; the Veni Creator for the new year."],
+          ],
+        },
+        callout: {
+          label: "Two indulgences at the turn of the year",
+          text: "The Church grants a plenary indulgence, under the usual conditions, to the faithful who take part in the public singing of the Te Deum on December 31 and of the Veni Creator on January 1. It is a Catholic way to say goodbye to one year and greet the next. On the meaning of January 1, see [[/blog/mary-mother-of-god-catholic-dogma/|why Mary is called Mother of God]].",
+        },
+      },
+      {
+        id: "tree-carols-gifts",
+        heading: "The tree, the carols, and the gifts: history and legend",
+        paragraphs: [
+          "Some of the best-known Christmas customs come with stories attached. A few are history; several are pious legend. Both can be told, as long as they are told honestly.",
+        ],
+        table: {
+          caption: "Popular Christmas customs: what we know",
+          headers: ["Custom", "What is documented", "What is legend"],
+          rows: [
+            ["The Christmas tree", "Decorated evergreens in German homes and guild halls are documented from the sixteenth century; Strasbourg descriptions date to around 1600. The Book of Blessings has a rite for blessing the tree.", "That Saint Boniface replaced Thor's oak with a fir tree, or that Martin Luther invented the lighted tree, are later stories."],
+            ["\"Silent Night\"", "Written by the priest Joseph Mohr and set to music by Franz Gruber, first sung at Oberndorf, Austria, on Christmas Eve 1818.", "That mice ate the organ bellows that night is a later embellishment."],
+            ["\"The Twelve Days of Christmas\"", "An English song first printed in the eighteenth century, built on the real Twelve Days from Christmas to Epiphany Eve.", "That it was a secret catechism for persecuted English Catholics has no historical evidence."],
+            ["Santa Claus", "Saint Nicholas, bishop of Myra in the fourth century, venerated for charity; Dutch Sinterklaas became American Santa Claus.", "Most details of his life are legend; the bishop is real."],
+            ["Christmas gifts", "Gift-giving recalls the gifts of the magi (" + `{{${CBO}matthew/2/|Matthew 2:11}}` + ") and the gift of Christ himself.", "—"],
+          ],
+        },
+        callout: {
+          label: "Bless the tree and the crib",
+          text: "The Church's Book of Blessings includes an order for blessing a Christmas tree and one for a Nativity scene, which a parent may lead at home. A short version: gather the family, read Luke 2:1–14, pray the Our Father, and sprinkle the crib with " + "[[/blog/holy-water-sacramental/|holy water]]" + ". More on blessings in the [[/blog/catholic-sacramentals-guide/|guide to sacramentals]].",
+        },
+      },
+      {
+        id: "epiphany-traditions",
+        heading: "Epiphany traditions: chalk, king cake, and the Three Kings",
+        paragraphs: [
+          "In the United States the Epiphany is kept on Sunday, January 3, 2027; in Spain, Latin America, Italy, and many other countries it remains January 6, and it is often the biggest gift-giving day of the season. It celebrates Christ revealed to the nations in the magi who followed the star (" + `{{${CBO}matthew/2/|Matthew 2}}` + ", " + `{{${CBO}isaiah/60/|Isaiah 60}}` + ").",
+        ],
+        list: [
+          "Chalking the door. A blessed chalk is used to write 20 + C + M + B + 27 above the front door. The letters stand for the traditional names of the magi — Caspar, Melchior, Balthasar — and for Christus mansionem benedicat, \"May Christ bless this house.\" The crosses mark the blessing; the numbers are the year.",
+          "The Epiphany proclamation. After the Gospel, a deacon or cantor may announce the dates of the coming year: Ash Wednesday on February 10, Easter on March 28, Ascension on May 6 (Sunday, May 9, in most U.S. dioceses), Pentecost on May 16, and the First Sunday of Advent on November 28, 2027. See the guides to [[/blog/ash-wednesday/|Ash Wednesday]] and [[/blog/catholic-easter/|Easter]].",
+          "Rosca de Reyes and king cake. Mexican families share a ring-shaped bread with a small figure of the Child hidden inside; whoever finds it hosts tamales on Candlemas. In Louisiana the king cake opens the Carnival season that ends on Mardi Gras.",
+          "Día de Reyes. In Spanish-speaking countries children leave shoes and grass for the kings' camels on the night of January 5. In Italy, the legend of La Befana belongs to the same night.",
+          "Adding the magi to the crib. If your figures have been traveling across the living room since Christmas, they arrive at the manger today.",
+        ],
+      },
+      {
+        id: "end-of-christmas",
+        heading: "When Christmas ends: the Baptism of the Lord and Candlemas",
+        paragraphs: [
+          "The liturgical season of Christmas ends on the Baptism of the Lord, Sunday, January 10, 2027 (" + `{{${CBO}matthew/3/|Matthew 3}}` + "). That is the earliest date a Catholic home should think about taking down decorations.",
+          "An older and still widespread custom keeps the crib until February 2, the Presentation of the Lord, called Candlemas because candles are blessed and carried in procession that day. It closes the forty days after Christmas with Simeon's song: Christ is \"a light for revelation to the Gentiles\" (" + `{{${CBO}luke/2/|Luke 2:32}}` + "). In 2027 it falls on a Tuesday. For the shape of the whole year, see the [[/blog/liturgical-seasons-guide/|liturgical seasons guide]].",
+        ],
+      },
+      {
+        id: "keeping-christmas-at-home",
+        heading: "How to keep the festivities as a Catholic family",
+        paragraphs: [
+          "The home is the domestic church, and most Christmas traditions were born there ([[/blog/what-is-the-domestic-church/|what the domestic church means]]). You do not need every custom in this guide. Choose a few and keep them every year.",
+        ],
+        list: [
+          "Light the Advent wreath at the evening meal and wait to decorate fully until closer to Christmas.",
+          "Go to confession in Advent and to Mass on December 25 and January 1, 2027.",
+          "Keep a meatless Christmas Eve supper and read Luke 2 before Mass.",
+          "Place the Child in the crib on Christmas Eve and the magi on Epiphany.",
+          "Give something to the poor on Saint Stephen's day, in the spirit of " + `{{${CBO}matthew/25/|Matthew 25}}` + ".",
+          "Chalk the door on Epiphany and keep the crib until the Baptism of the Lord or Candlemas.",
+          "Send greetings that name Christ — even in emojis: see the guide to [[/blog/nativity-emojis/|Nativity emojis]].",
+        ],
+        callout: {
+          label: "Start with one habit",
+          text: "If the season feels overwhelming, start with the Advent wreath and Christmas Mass, and add one custom each year. To see where your own prayer life stands before the season begins, take the free assessment at [[/|Guide Catholic]].",
+        },
+      },
+    ],
+    prayer: "Lord Jesus Christ, born at Bethlehem for our salvation, bless our home and our festivities this Christmas. Let our lights, our songs, our meals, and our gifts all point to you. Make us generous to the poor, patient with one another, and faithful at your altar, so that, with Mary and Joseph, the shepherds and the magi, we may adore you now and forever. Amen.",
+    related: [
+      { href: "/blog/catholic-christmas/", label: "Catholic Christmas 2026: Mass times and the octave" },
+      { href: "/blog/complete-catholic-advent-guide/", label: "The complete Catholic Advent guide" },
+      { href: "/blog/christmas-mass-near-me/", label: "How to find Christmas Mass near you" },
+      { href: "/blog/saint-nicholas/", label: "Saint Nicholas, the real story" },
+      { href: "/blog/nativity-emojis/", label: "Nativity emojis for Christmas greetings" },
+      { href: "/blog/liturgical-seasons-guide/", label: "The liturgical seasons explained" },
+    ],
+    faqs: [
+      { question: "What are the main Catholic Christmas traditions?", answer: "The Advent wreath, Saint Nicholas, the Marian feasts of December, Las Posadas and Simbang Gabi, the Christmas Eve vigil meal, Midnight Mass, the crib, the octave, the Twelve Days, the Epiphany house blessing, and Candlemas. Mass on Christmas Day is the one that is required." },
+      { question: "How long does Christmas last for Catholics?", answer: "The season runs from the Vigil of Christmas on December 24, 2026 to the Baptism of the Lord on January 10, 2027. Many families keep the crib until Candlemas, February 2, 2027." },
+      { question: "When are the Twelve Days of Christmas?", answer: "From December 25 to January 5. The night of January 5 is Twelfth Night, the eve of the traditional Epiphany on January 6." },
+      { question: "Do Catholics have to eat fish on Christmas Eve?", answer: "No. Christmas Eve was once a day of fast and abstinence, but universal law no longer requires it. The meatless supper of the Wigilia or the Seven Fishes is a beloved custom, not an obligation." },
+      { question: "What does 20 + C + M + B + 27 mean on a door?", answer: "It is the Epiphany house blessing for 2027. C, M, and B are the traditional names of the magi and the initials of Christus mansionem benedicat, \"May Christ bless this house.\"" },
+      { question: "Is the Christmas tree a Catholic tradition?", answer: "It began in German Christian homes, documented from the sixteenth century, and the Church provides a blessing for it. Stories that Saint Boniface or Martin Luther invented it are legend." },
+      { question: "Is \"The Twelve Days of Christmas\" a secret Catholic catechism?", answer: "There is no historical evidence for that claim. The song is an eighteenth-century English counting song built on the real Twelve Days of the season." },
+      { question: "When should Catholics take down Christmas decorations?", answer: "Not before the Baptism of the Lord, January 10, 2027, when the liturgical season ends. Keeping the crib until Candlemas on February 2 is an older custom." },
+    ],
+  },
 ];
 
 export function liturgicalFeastGuideBySlug(slug: string): LiturgicalFeastGuide | undefined {

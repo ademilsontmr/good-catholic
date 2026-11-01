@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowLeft, Calendar, Church, Clock, Cross, Flame, Heart, Star, Sun } from "lucide-react";
+import { ArrowLeft, Calendar, Church, Clock, Cross, Flame, Heart, Star, Sun, TreePine } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -26,6 +26,7 @@ const ICONS: Record<string, LucideIcon> = {
   "catholic-easter": Sun,
   "pentecost-sunday": Flame,
   "corpus-christi-usa": Cross,
+  "catholic-christmas-traditions": TreePine,
 };
 
 function Rich({ text }: { text: string }) {

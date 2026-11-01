@@ -1266,6 +1266,7 @@ export function AppRoutes() {
             <Route path="/blog/catholic-easter/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/pentecost-sunday/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/corpus-christi-usa/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/catholic-christmas-traditions/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/daily-catholic-prayers/" element={<Navigate to="/blog/daily-catholic-prayers/" replace />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />
@@ -1425,6 +1426,8 @@ export function AppRoutes() {
             <Route path="/blog/lent-and-holy-week-emojis/" element={<CatholicEmojiGuidePage />} />
             <Route path="/blog/easter-emojis-for-catholics/" element={<CatholicEmojiGuidePage />} />
             <Route path="/blog/bible-verse-post-emojis/" element={<CatholicEmojiGuidePage />} />
+            <Route path="/blog/emojis-for-talking-about-god/" element={<CatholicEmojiGuidePage />} />
+            <Route path="/blog/nativity-emojis/" element={<CatholicEmojiGuidePage />} />
             <Route path="/blog/how-to-read-the-catholic-bible-online/" element={<SearchGuidePage />} />
             <Route path="/blog/how-to-pray-st-joseph-novena-buying-house/" element={<SearchGuidePage />} />
             <Route path="/blog/st-michaels-lent-novena-how-to-pray/" element={<SearchGuidePage />} />

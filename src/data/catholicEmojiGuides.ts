@@ -12,13 +12,40 @@ export type EmojiGuide = {
   category: string;
   dateLabel: string;
   readTime: string;
+  datePublished?: string;
   answer: string;
-  sections: { h2: string; paragraphs: Inline[][] }[];
+  sections: EmojiGuideSection[];
+  combos?: { combo: string; label: string; message: string }[];
   rows: { emoji: string; name: string; use: string; href: string }[];
   faqs: { question: string; answer: string }[];
 };
 
+export type EmojiGuideSection = {
+  h2: string;
+  paragraphs: Inline[][];
+  list?: Inline[][];
+  table?: { caption: string; headers: string[]; rows: Inline[][][] };
+  callout?: { label: string; parts: Inline[] };
+};
+
+/** `{{https://url|label}}` becomes an external link, `[[/path/|label]]` an internal one. */
+function rich(source: string): Inline[] {
+  const parts: Inline[] = [];
+  const pattern = /\{\{([^|}]+)\|([^}]+)\}\}|\[\[([^|\]]+)\|([^\]]+)\]\]/g;
+  let last = 0;
+  for (const match of source.matchAll(pattern)) {
+    const index = match.index ?? 0;
+    if (index > last) parts.push({ t: "text", v: source.slice(last, index) });
+    if (match[1]) parts.push({ t: "ext", href: match[1], label: match[2] });
+    else parts.push({ t: "in", href: match[3], label: match[4] });
+    last = index + match[0].length;
+  }
+  if (last < source.length) parts.push({ t: "text", v: source.slice(last) });
+  return parts;
+}
+
 const A = "https://allemojipedia.com";
+const CBO = "https://catholicbibleonline.com/bible";
 
 export const catholicEmojiGuides: EmojiGuide[] = [
   {
@@ -673,6 +700,341 @@ export const catholicEmojiGuides: EmojiGuide[] = [
       {
         question: "Where do I copy the open-book emoji?",
         answer: "From the open-book page on Allemojipedia. Use the same site to check the cross, the dove, and folded hands before you publish.",
+      },
+    ],
+  },
+  {
+    slug: "emojis-for-talking-about-god",
+    h1: "Emojis for Talking About God: A Catholic Guide to Faith Emojis in Everyday Conversation",
+    title: "Religious Emojis for Talking About God and Faith | Guide Catholic",
+    description: "Which religious emojis to use when you text about God, prayer, and the Catholic Church: what 🙏 ✝️ 🕊️ 📿 mean, what gets misread, and what to skip.",
+    excerpt: "How to use emojis when you talk with people about God, prayer, and the Catholic faith — the core set, the ones that get misread, and ready-to-send messages for real situations.",
+    category: "Catholic Living",
+    dateLabel: "October 31, 2026",
+    datePublished: "2026-10-31",
+    readTime: "11 min",
+    answer: "When you talk about God with someone, let the words carry the faith and use one or two emojis to set the tone: ✝️ for Christ, 🙏 for prayer, 🕊️ for the Holy Spirit or peace, 🕯️ for remembrance, and ⛪ for the parish. Skip joke emojis next to sacred subjects, and never let a symbol replace the name of Jesus. Check any emoji's official meaning on Allemojipedia before you send it.",
+    sections: [
+      {
+        h2: "Why emojis matter when the subject is God",
+        paragraphs: [
+          rich(`A text message has no voice, no face, and no pause. When the subject is God, a death in the family, or a friend who has stopped going to Mass, that missing tone is where most misunderstandings start. An emoji is the closest thing a chat has to a facial expression. Used well, it tells the other person you are speaking with warmth, not preaching at them.`),
+          rich(`Saint Paul gave the best rule for this long before phones: “Let your speech always be gracious, seasoned with salt” ({{${CBO}/colossians/4/|Colossians 4:6}}). Saint Peter adds that we should be ready to give a reason for our hope, “yet do it with gentleness and reverence” ({{${CBO}/1-peter/3/|1 Peter 3:15}}). Gentleness and reverence are exactly what a good faith emoji communicates — and what a careless one destroys.`),
+          rich(`This guide is for conversation: texting a friend, answering a relative, comforting someone, inviting someone back to church. If you manage a parish account instead, the [[/blog/catholic-emoji-guide/|Catholic emoji guide for faith posts]] and the guide to [[/blog/emojis-for-catholic-parish-posts/|parish announcement emojis]] cover public posts.`),
+        ],
+      },
+      {
+        h2: "The core set of Catholic faith emojis",
+        paragraphs: [
+          rich(`Unicode does not have a “Catholic” category, so the faith set is borrowed from several groups: symbols, people, animals, and objects. These are the ones that read clearly as Christian in a conversation. Each link opens the character on {{${A}/|Allemojipedia}}, where you can see its official name and copy it.`),
+        ],
+        list: [
+          rich(`✝️ {{${A}/emoji/latin-cross/|Latin cross}} — the plainest way to say “this is about Christ.” Catholics pray before a crucifix, with the body of Jesus on it; the emoji is the empty cross, which every Christian tradition recognizes.`),
+          rich(`☦️ {{${A}/emoji/orthodox-cross/|Orthodox cross}} — the three-bar cross of the Eastern churches. Byzantine Catholics use it too, so it is not “non-Catholic,” but in a Western chat it signals the Eastern tradition specifically.`),
+          rich(`🙏 {{${A}/emoji/folded-hands/|Folded hands}} — the standard sign for prayer, and also for “please” and “thank you.” More on that ambiguity below.`),
+          rich(`📿 {{${A}/emoji/prayer-beads/|Prayer beads}} — the Unicode name is generic, because many religions pray with beads. Next to a Catholic message it reads as the Rosary. Pair it with the word “Rosary” and a link to [[/blog/how-to-pray-the-rosary-step-by-step/|how to pray the Rosary]] if the person is new to it.`),
+          rich(`⛪ {{${A}/emoji/church/|Church}} — the building with a cross: Mass, the parish, an invitation. 🛐 {{${A}/emoji/place-of-worship/|Place of worship}} is a generic symbol for any religion; it is fine, but less clearly Christian.`),
+          rich(`🕊️ {{${A}/emoji/dove/|Dove}} — peace, and the Holy Spirit, who descended “like a dove” at the baptism of Jesus ({{${CBO}/matthew/3/|Matthew 3:16}}).`),
+          rich(`🕯️ {{${A}/emoji/candle/|Candle}} — prayer, vigil, remembrance of the dead. It is the quietest faith emoji and the safest one for grief.`),
+          rich(`📖 {{${A}/emoji/open-book/|Open book}} — Scripture. Always follow it with the reference and a link to the chapter, so the person can read the verse in context.`),
+          rich(`💧 {{${A}/emoji/droplet/|Droplet}} and 🤍 {{${A}/emoji/white-heart/|white heart}} — Baptism and the white of baptismal garments, First Communion, and Easter joy.`),
+        ],
+        callout: {
+          label: "There is no emoji for the Eucharist, Mary, or the saints",
+          parts: rich(`Unicode has no monstrance, no chalice, and no figure of the Virgin Mary. Avoid using 🍞 bread and 🍷 wine as stand-ins for Holy Communion: the Church teaches that after the consecration the Eucharist is truly the Body and Blood of Christ, not bread and wine ([[/blog/what-is-transubstantiation/|what transubstantiation means]]). For the Blessed Sacrament, Our Lady, or a saint, write the name. Words are more reverent than a lookalike icon.`),
+        },
+      },
+      {
+        h2: "Emojis for real conversations, with messages you can send",
+        paragraphs: [
+          rich(`Most faith conversations fall into a handful of situations. The pattern is always the same: the words say what you mean, and the emoji sets the tone. Scripture describes the instinct behind all of them: “Rejoice with those who rejoice, weep with those who weep” ({{${CBO}/romans/12/|Romans 12:15}}).`),
+        ],
+        table: {
+          caption: "Which faith emojis fit which conversation",
+          headers: ["Situation", "Emojis", "Why they work"],
+          rows: [
+            [rich("Someone asks for prayer"), rich("🙏🕯️"), rich(`Folded hands plus a candle reads as “I am actually praying,” not “thanks.” Then pray — {{${CBO}/james/5/|James 5:16}} asks us to pray for one another.`)],
+            [rich("A death or a funeral"), rich("🕯️🤍"), rich(`Quiet and reverent. See [[/blog/catholic-funeral-rites-explained/|Catholic funeral rites]] if you want to say something about the Mass.`)],
+            [rich("A baptism"), rich("💧🕊️🤍"), rich(`Water, the Holy Spirit, and the white garment. More in the [[/blog/catholic-baptism-guide/|Catholic baptism guide]].`)],
+            [rich("First Holy Communion"), rich("✝️🤍⛪"), rich(`Christ, the white dress or suit, and the parish. Write “First Communion” rather than drawing the Host. See the [[/blog/catholic-first-communion-guide/|First Communion guide]].`)],
+            [rich("Confirmation"), rich("🕊️🔥"), rich(`Here fire is right: the Spirit came as tongues of fire at Pentecost ({{${CBO}/acts/2/|Acts 2}}). See the [[/blog/catholic-confirmation-guide/|Confirmation guide]].`)],
+            [rich("A Catholic wedding"), rich(`💍⛪🤍`), rich(`Ring, church, white. Marriage is a sacrament, so the church emoji belongs next to the ring.`)],
+            [rich("Inviting a friend to Mass"), rich("⛪🔔"), rich("Church and bell: an invitation, not a lecture. Add the time and the parish name.")],
+            [rich("Sharing a Bible verse"), rich("📖✝️"), rich(`Book, then the reference, then a link to the chapter on {{https://catholicbibleonline.com/|Catholic Bible Online}}.`)],
+          ],
+        },
+      },
+      {
+        h2: "The 🙏 question: prayer, please, or high five?",
+        paragraphs: [
+          rich(`The most used faith emoji is also the most ambiguous. Its Unicode name is simply “folded hands.” In Japan the gesture is a way of saying please or thank you, and many people in the West use it the same way — “thanks 🙏” after a favor has nothing to do with prayer. A few people even read it as two hands giving a high five.`),
+          rich(`So in a faith conversation, never let 🙏 do the work alone. “Praying for you and your mom tonight 🙏” is unmistakable. A lone 🙏 after someone shares bad news can look like “ok, thanks.” If you want to be sure, add a word, or pair it with 🕯️. You can read the full meaning and common uses on the {{${A}/emoji/folded-hands/|folded hands page on Allemojipedia}}.`),
+          rich(`The same goes for 🙌 {{${A}/emoji/raising-hands/|raising hands}}, which in a church context reads as praise — “Alleluia! 🙌” — and elsewhere just means “yay.” Context decides.`),
+        ],
+      },
+      {
+        h2: "Angels, halos, and what Catholics actually believe",
+        paragraphs: [
+          rich(`😇 {{${A}/emoji/smiling-face-with-halo/|Smiling face with halo}} almost never means holiness online. It means “who, me?” — innocent, cheeky, or pretending to be good. Use it in a joke, not in a message about a saint or someone who has died.`),
+          rich(`👼 {{${A}/emoji/baby-angel/|Baby angel}} needs more care. It is common to say that someone who died “became an angel.” Catholic teaching is clear that this is not what happens: angels are a distinct creation, pure spirits made by God, and human beings do not turn into angels when they die (Catechism of the Catholic Church 328–336). We pray that the dead will see God and be counted among the saints. See [[/blog/catholic-teaching-on-angels/|Catholic teaching on angels]].`),
+          rich(`That does not mean you should correct a grieving friend. It means your own message can say something truer: “Eternal rest grant unto her, O Lord 🕯️” or “Praying for his soul 🙏🤍.” Keep 👼 for the angels themselves — the Christmas angels in Luke 2, a guardian angel, or the archangels.`),
+        ],
+      },
+      {
+        h2: "Emojis that get misread in a faith conversation",
+        paragraphs: [
+          rich(`Internet slang has claimed several symbols that look religious. Before you add one of these to a message about God, ask how a teenager would read it.`),
+        ],
+        list: [
+          rich(`💀 {{${A}/emoji/skull/|Skull}} — online it means “I'm dead, that's hilarious.” Never use it on Good Friday, All Souls, or a death notice.`),
+          rich(`🔥 {{${A}/emoji/fire/|Fire}} — usually “amazing” or “hot.” It only means the Holy Spirit when the message already says Pentecost or Confirmation.`),
+          rich(`😂 {{${A}/emoji/face-with-tears-of-joy/|Face with tears of joy}} and 😭 {{${A}/emoji/loudly-crying-face/|loudly crying face}} — fine with friends, wrong next to the Eucharist, confession, or a prayer request, where they read as mockery.`),
+          rich(`😱 with “OMG” — the Second Commandment asks us not to take the name of God in vain ({{${CBO}/exodus/20/|Exodus 20:7}}), and the Catechism asks for reverence in speaking of God (CCC 2142–2149). A shocked face alone says the same thing without using His name as filler.`),
+          rich(`❤️‍🔥 {{${A}/emoji/heart-on-fire/|Heart on fire}} — online it means passionate love. It can evoke the [[/blog/sacred-heart-devotion-complete-guide/|Sacred Heart of Jesus]], but only if you say so in words.`),
+        ],
+      },
+      {
+        h2: "Talking about faith with people of other religions",
+        paragraphs: [
+          rich(`Unicode includes the symbols of other faiths: ✡️ {{${A}/emoji/star-of-david/|Star of David}}, ☪️ {{${A}/emoji/star-and-crescent/|star and crescent}}, 🕉️ {{${A}/emoji/om/|Om}}, and ☸️ {{${A}/emoji/wheel-of-dharma/|wheel of dharma}}. These belong to real communities. Use them when you are referring to that faith — wishing a Jewish friend well on a holiday, for example — and not as decoration.`),
+          rich(`The Second Vatican Council taught that the Catholic Church “rejects nothing that is true and holy” in other religions, while proclaiming Christ as “the way, the truth, and the life” (Nostra Aetate 2). In practice that means respect without blending: a row of every religious symbol presented as if they all meant the same thing says something a Catholic does not believe. A kind message to a friend of another faith, in their own terms, says a great deal.`),
+        ],
+      },
+      {
+        h2: "A simple checklist before you hit send",
+        paragraphs: [
+          rich(`Every rule in this guide comes down to one question: does this emoji help the other person hear what I mean? Run through these five points when the conversation is about God.`),
+        ],
+        list: [
+          rich("Words first. Say the thing — “praying for you,” “Christ is risen,” “I'm so sorry” — then add the emoji."),
+          rich("One or two emojis. A row of ten symbols reads like spam, not sincerity."),
+          rich("Never replace a holy name. Write Jesus, Mary, God, the Eucharist. No emoji stands in for them."),
+          rich(`Check the meaning. Look the emoji up on {{${A}/emoji-meanings/|Allemojipedia's emoji meanings}} if you are not sure how it reads, and copy it from the {{${A}/emoji-copy-and-paste/|copy-and-paste keyboard}} so it does not turn into a blank box.`),
+          rich(`Link Scripture. If you quote the Bible, send the chapter on {{https://catholicbibleonline.com/|Catholic Bible Online}}, not a cropped screenshot.`),
+        ],
+        callout: {
+          label: "The goal is the person, not the post",
+          parts: rich(`An emoji will never convert anyone. What it can do is keep a conversation about God warm enough to continue. For prayer requests specifically, see [[/blog/emojis-for-catholic-prayer-posts/|emojis for Catholic prayer posts]].`),
+        },
+      },
+    ],
+    combos: [
+      { combo: "🙏🕯️", label: "Praying for someone", message: "Praying for you and your family tonight 🙏🕯️" },
+      { combo: "🕯️🤍", label: "Condolences", message: "I'm so sorry. Eternal rest grant unto him, O Lord 🕯️🤍" },
+      { combo: "💧🕊️🤍", label: "Baptism", message: "Welcome to the family of God, little one! 💧🕊️🤍" },
+      { combo: "✝️🤍⛪", label: "First Communion", message: "Congratulations on your First Holy Communion! ✝️🤍⛪" },
+      { combo: "🕊️🔥", label: "Confirmation", message: "Come, Holy Spirit! Congratulations on your Confirmation 🕊️🔥" },
+      { combo: "⛪🔔", label: "Invitation to Mass", message: "Want to come to Mass with us Sunday at 10? ⛪🔔" },
+      { combo: "📖✝️", label: "Sharing a verse", message: "This one's for you today: John 14:27 📖✝️" },
+    ],
+    rows: [
+      { emoji: "✝️", name: "Latin cross", use: "Christ, the faith, a Christian message", href: `${A}/emoji/latin-cross/` },
+      { emoji: "☦️", name: "Orthodox cross", use: "The Eastern churches, including Byzantine Catholics", href: `${A}/emoji/orthodox-cross/` },
+      { emoji: "🙏", name: "Folded hands", use: "Prayer — with the word “praying”", href: `${A}/emoji/folded-hands/` },
+      { emoji: "📿", name: "Prayer beads", use: "The Rosary, when the message says so", href: `${A}/emoji/prayer-beads/` },
+      { emoji: "⛪", name: "Church", use: "Mass, the parish, an invitation", href: `${A}/emoji/church/` },
+      { emoji: "🛐", name: "Place of worship", use: "Worship in general (any religion)", href: `${A}/emoji/place-of-worship/` },
+      { emoji: "🕊️", name: "Dove", use: "The Holy Spirit, peace", href: `${A}/emoji/dove/` },
+      { emoji: "🕯️", name: "Candle", use: "Prayer, vigil, grief", href: `${A}/emoji/candle/` },
+      { emoji: "📖", name: "Open book", use: "Scripture, with the reference", href: `${A}/emoji/open-book/` },
+      { emoji: "💧", name: "Droplet", use: "Baptism, holy water", href: `${A}/emoji/droplet/` },
+      { emoji: "🤍", name: "White heart", use: "Sacraments, Easter, mourning", href: `${A}/emoji/white-heart/` },
+      { emoji: "🙌", name: "Raising hands", use: "Praise — “Alleluia!”", href: `${A}/emoji/raising-hands/` },
+    ],
+    faqs: [
+      {
+        question: "What is the best emoji for talking about God?",
+        answer: "The Latin cross ✝️ is the clearest Christian symbol, and folded hands 🙏 is the clearest sign of prayer. Use one of them with words that name God or Jesus directly. The emoji sets the tone; the sentence carries the faith.",
+      },
+      {
+        question: "Does the 🙏 emoji mean prayer or thank you?",
+        answer: "Both. Its official name is “folded hands,” and many people use it for please or thank you. In a faith conversation, add the word “praying” or pair it with a candle 🕯️ so it cannot be misread.",
+      },
+      {
+        question: "Is there a rosary emoji?",
+        answer: "Not exactly. The 📿 prayer beads emoji is generic, because many religions pray with beads. Next to the word Rosary, Catholics will read it correctly.",
+      },
+      {
+        question: "Is there an emoji for Jesus, Mary, or the Eucharist?",
+        answer: "No. Unicode has no figure of Jesus or Mary, and no monstrance or chalice. Write the name instead of using bread and wine as a substitute — the Church teaches the Eucharist is truly the Body and Blood of Christ.",
+      },
+      {
+        question: "Can I use the 👼 angel emoji when someone dies?",
+        answer: "It is common, but Catholic teaching is that people do not become angels after death; angels are a separate creation (CCC 328–336). A candle 🕯️, a white heart 🤍, and a short prayer for the person's soul say something truer and more comforting.",
+      },
+      {
+        question: "Is it disrespectful to use emojis about God?",
+        answer: "Not in itself. Emojis are tone markers. They become disrespectful when they mock — a skull on Good Friday, a laughing face next to the Eucharist — or when they replace a holy name. Used gently, they help a conversation about God stay warm.",
+      },
+      {
+        question: "Which emojis should I avoid in a religious conversation?",
+        answer: "Skip 💀 skull, 🔥 fire used as slang, 😂 next to sacred subjects, 😇 halo for a real saint or a death, and “OMG” with God's name as filler. If an emoji has a strong slang meaning, it will be read that way.",
+      },
+      {
+        question: "Where can I check what an emoji means before I send it?",
+        answer: "Allemojipedia has a page for each emoji with its official name, common meanings, and a copy button. It is the quickest way to make sure the symbol says what you intend.",
+      },
+    ],
+  },
+  {
+    slug: "nativity-emojis",
+    h1: "Nativity Emojis: The Best Emojis for the Birth of Jesus at Christmas",
+    title: "Nativity Emojis: Best Emojis for the Birth of Jesus | Guide Catholic",
+    description: "The best Nativity emojis for Christmas: 👶⭐🐂🫏🐑👑 for the manger scene, what each means in Luke 2 and Matthew 2, and copy-ready Christmas combos.",
+    excerpt: "Build the manger scene in emojis: the Child, the star, the shepherds, the angels, and the magi — what Scripture says about each, what tradition added, and copy-ready Christmas messages.",
+    category: "Catholic Living",
+    dateLabel: "October 31, 2026",
+    datePublished: "2026-10-31",
+    readTime: "11 min",
+    answer: "The best Nativity emojis are 👶 for the Child Jesus, ⭐ or 🌟 for the star of Bethlehem, 👼 for the angels, 🐑 for the shepherds' flock, 🐂 and 🫏 for the ox and donkey of the crib, and 👑 with 🐪 for the magi at Epiphany. Put the Child and the star first, and the tree, gifts, and Santa second. Read the birth in Luke 2 and the magi in Matthew 2.",
+    sections: [
+      {
+        h2: "Christmas is about a birth, so start with the Child",
+        paragraphs: [
+          rich(`Christmas celebrates one event: “the Word became flesh and made his dwelling among us” ({{${CBO}/john/1/|John 1:14}}). God was born as a baby in Bethlehem. The Church calls this the Incarnation, and every Christmas message — even a two-emoji greeting — can point to it or bury it.`),
+          rich(`Most “Christmas emoji” lists start with 🎄🎅🎁⛄. Those belong to the cultural season, and there is nothing wrong with them. But a Nativity set starts somewhere else: with a baby, a star, a manger, and the people Scripture puts around them. This guide builds that set figure by figure. For the season itself — Mass times, the octave, and the meaning of the feast — see the [[/blog/catholic-christmas/|Catholic Christmas guide]]. For Advent through Epiphany posts on parish accounts, see [[/blog/christmas-emojis-for-catholic-posts/|Christmas emojis for Catholic posts]].`),
+        ],
+      },
+      {
+        h2: "Building the manger scene in emojis",
+        paragraphs: [
+          rich(`There is no single “Nativity scene” emoji, so you assemble it. Here is each figure of the crib, the emoji that fits it best, and the source behind it. Every link goes to the character on {{${A}/|Allemojipedia}}, where you can copy it.`),
+        ],
+        list: [
+          rich(`👶 {{${A}/emoji/baby/|Baby}} — the Child Jesus, “wrapped in swaddling clothes and lying in a manger” ({{${CBO}/luke/2/|Luke 2:12}}). Many Catholic families leave the manger empty through Advent and place the Child in it on Christmas Eve; the emoji can follow the same custom.`),
+          rich(`⭐ {{${A}/emoji/star/|Star}} and 🌟 {{${A}/emoji/glowing-star/|glowing star}} — the star the magi followed ({{${CBO}/matthew/2/|Matthew 2:2}}). ⭐ is the plain star; 🌟 is the glowing one, which reads better as the star of Bethlehem.`),
+          rich(`👼 {{${A}/emoji/baby-angel/|Baby angel}} — the angel who announced the birth to the shepherds and the multitude who sang “Glory to God in the highest” ({{${CBO}/luke/2/|Luke 2:9–14}}). This is the one setting where the angel emoji is exactly right.`),
+          rich(`🐑 {{${A}/emoji/ewe/|Ewe}} and 🐏 {{${A}/emoji/ram/|ram}} — the shepherds “keeping watch over their flock by night” ({{${CBO}/luke/2/|Luke 2:8}}). The sheep emoji's official Unicode name is “ewe.”`),
+          rich(`🐂 {{${A}/emoji/ox/|Ox}} and 🫏 {{${A}/emoji/donkey/|donkey}} — the two animals of every crib. They are not in Luke's account; see the next section for where they come from.`),
+          rich(`👑 {{${A}/emoji/crown/|Crown}} and 🐪 {{${A}/emoji/camel/|camel}} — the magi, who arrive at Epiphany, not on Christmas night.`),
+          rich(`🛖 {{${A}/emoji/hut/|Hut}} — the stable. Luke mentions only a manger, because “there was no room for them in the inn.” A very old tradition, recorded by Saint Justin Martyr in the second century, places the birth in a cave; the Church of the Nativity in Bethlehem stands over that grotto.`),
+          rich(`🌃 {{${A}/emoji/night-with-stars/|Night with stars}} and 🎶 {{${A}/emoji/musical-notes/|musical notes}} — the night setting and the angels' song, or the carols of Midnight Mass.`),
+        ],
+        callout: {
+          label: "Greccio, 1223: the first living crib",
+          parts: rich(`The custom of the Nativity scene goes back to Saint Francis of Assisi, who at Christmas 1223 arranged a manger with a live ox and donkey in a cave at Greccio, Italy, so the people could see how the Child was born in poverty. His early biographer Thomas of Celano describes it. Read more about [[/blog/saint-francis-of-assisi/|Saint Francis of Assisi]].`),
+        },
+      },
+      {
+        h2: "What the Bible says and what tradition added",
+        paragraphs: [
+          rich(`A Catholic Nativity scene mixes Scripture with centuries of Christian meditation. That is not a problem — tradition has always pondered the Gospel — but it helps to know which is which, especially when someone asks “is that actually in the Bible?”`),
+        ],
+        table: {
+          caption: "The figures of the crib: source and status",
+          headers: ["Figure", "Emoji", "Source", "Status"],
+          rows: [
+            [rich("The Child in the manger"), rich("👶"), rich(`{{${CBO}/luke/2/|Luke 2:7}}`), rich("Scripture")],
+            [rich("Shepherds and their flocks"), rich("🐑🐏"), rich(`{{${CBO}/luke/2/|Luke 2:8–20}}`), rich("Scripture")],
+            [rich("Angels singing “Gloria”"), rich("👼🎶"), rich(`{{${CBO}/luke/2/|Luke 2:13–14}}`), rich("Scripture")],
+            [rich("The star"), rich("🌟"), rich(`{{${CBO}/matthew/2/|Matthew 2:2, 9–10}}`), rich("Scripture")],
+            [rich("Ox and donkey"), rich("🐂🫏"), rich(`{{${CBO}/isaiah/1/|Isaiah 1:3}}, where the ox knows its owner and the donkey its master's crib; later Christian tradition`), rich("Tradition")],
+            [rich("Three kings"), rich("👑👑👑"), rich(`Matthew says “magi” and names three gifts; the number three and the title “kings” come from the gifts and from {{${CBO}/psalms/72/|Psalm 72:10–11}} and {{${CBO}/isaiah/60/|Isaiah 60:3–6}}`), rich("Tradition")],
+            [rich("Camels"), rich("🐪"), rich(`{{${CBO}/isaiah/60/|Isaiah 60:6}}, the camels bringing gold and frankincense`), rich("Tradition")],
+            [rich("Names Caspar, Melchior, Balthasar"), rich("—"), rich("Later Western tradition; not in Scripture"), rich("Legend")],
+            [rich("The little drummer boy"), rich("🥁"), rich("A twentieth-century carol"), rich("Modern song")],
+          ],
+        },
+      },
+      {
+        h2: "Which Nativity emoji for which day of Christmastide",
+        paragraphs: [
+          rich(`Christmas is not one day but a season, running from the Vigil of Christmas to the Baptism of the Lord. Each feast inside it has its own emoji. These are the dates for the 2026–27 season in the United States.`),
+        ],
+        list: [
+          rich("Christmas Eve and Midnight Mass, Thursday, December 24, 2026 — 🌃🕯️⛪. The night, the candles, the church."),
+          rich(`Christmas Day, Friday, December 25, 2026 — 👶🌟. The Child and the star. Christmas is a solemnity, so the usual Friday abstinence does not apply.`),
+          rich("Holy Family, Sunday, December 27, 2026 — 👶🤍. There is no Mary or Joseph emoji; write their names."),
+          rich("Holy Innocents, Monday, December 28, 2026 — 🕯️. The children killed by Herod (Matthew 2:16–18). No party emojis."),
+          rich(`Mary, Mother of God, Friday, January 1, 2027 — ⭐👶 with the words “Mother of God.” It is a holy day of obligation. See [[/blog/mary-mother-of-god-catholic-dogma/|why Mary is called Mother of God]].`),
+          rich(`Epiphany, Sunday, January 3, 2027 — 🌟🐪👑. The magi arrive ({{${CBO}/matthew/2/|Matthew 2}}).`),
+          rich(`Baptism of the Lord, Sunday, January 10, 2027 — 💧🕊️. The season ends at the Jordan ({{${CBO}/matthew/3/|Matthew 3}}).`),
+        ],
+        callout: {
+          label: "When to stop using Christmas emojis",
+          parts: rich(`The liturgical Christmas season ends on the Baptism of the Lord, January 10, 2027. Many families keep the crib up until February 2, the Presentation of the Lord (Candlemas) — a popular custom, not a rule. Until then, a 🌟👶 greeting is still in season.`),
+        },
+      },
+      {
+        h2: "Emojis to keep in second place",
+        paragraphs: [
+          rich(`The cultural Christmas set is not wrong. It is just not the Nativity. Use it after the Child and the star, not instead of them.`),
+        ],
+        list: [
+          rich(`🎄 {{${A}/emoji/christmas-tree/|Christmas tree}} — a family custom. Fine in a greeting that already names Christ.`),
+          rich(`🎅 {{${A}/emoji/santa-claus/|Santa Claus}} — his roots are in Saint Nicholas, the fourth-century bishop of Myra, whose feast is December 6. If you mention Santa, consider telling the real story: see [[/blog/saint-nicholas/|Saint Nicholas]].`),
+          rich(`🎁 {{${A}/emoji/wrapped-gift/|Wrapped gift}} — it fits best when you mean the magi's gifts of gold, frankincense, and myrrh, or a gift to the poor.`),
+          rich(`❄️ {{${A}/emoji/snowflake/|Snowflake}}, ⛄ {{${A}/emoji/snowman-without-snow/|snowman}}, 🦌 {{${A}/emoji/deer/|deer}} — winter decoration. Pleasant, but they say nothing about Bethlehem.`),
+        ],
+        callout: {
+          label: "Is “Xmas” disrespectful?",
+          parts: rich(`Not originally. The X is the Greek letter chi, the first letter of Christos, and Christians have used it as an abbreviation for Christ for many centuries. Today many readers see it as removing Christ, so in a faith message “Christmas” is the clearer choice.`),
+        },
+      },
+      {
+        h2: "Before you post: check how the emoji will look",
+        paragraphs: [
+          rich(`The 🫏 donkey was added to the emoji standard in 2022 (Emoji 15.0). On older phones it can appear as an empty box, which ruins a carefully built crib. If you are not sure, check the character on the {{${A}/emoji/donkey/|donkey page on Allemojipedia}}, or leave it out — the ox alone still says “manger.”`),
+          rich(`For the meaning of the rest of the seasonal set, Allemojipedia's {{${A}/blog/christmas-emojis-meaning/|guide to Christmas emoji meanings}} and its {{${A}/emoji-combos/christmas-combo/|Christmas emoji combos}} show how each symbol is usually read online. You can copy any of them from the {{${A}/emoji-copy-and-paste/|emoji copy-and-paste keyboard}}.`),
+          rich(`And when your message quotes the Gospel, link the chapter: the birth and the shepherds in {{${CBO}/luke/2/|Luke 2}}, the magi in {{${CBO}/matthew/2/|Matthew 2}}, and the prophecy of Bethlehem in {{${CBO}/micah/5/|Micah 5:2}} — all on {{https://catholicbibleonline.com/|Catholic Bible Online}}.`),
+        ],
+      },
+    ],
+    combos: [
+      { combo: "🌟👶🐂🫏🐑", label: "The whole crib", message: "Merry Christmas! Christ is born in Bethlehem 🌟👶🐂🫏🐑" },
+      { combo: "👼🎶🐑", label: "The angels and the shepherds", message: "Glory to God in the highest, and on earth peace 👼🎶🐑" },
+      { combo: "🌃🕯️⛪", label: "Midnight Mass", message: "See you at Midnight Mass tonight 🌃🕯️⛪" },
+      { combo: "✝️👶🌟", label: "The Incarnation", message: "The Word became flesh and dwelt among us ✝️👶🌟" },
+      { combo: "🌟🐪👑", label: "Epiphany", message: "Happy Epiphany! We have seen his star and come to worship him 🌟🐪👑" },
+      { combo: "👶🌟🎄", label: "Family greeting", message: "Merry Christmas from our family to yours! 👶🌟🎄" },
+      { combo: "💧🕊️", label: "Baptism of the Lord", message: "This is my beloved Son — the Baptism of the Lord closes Christmas 💧🕊️" },
+    ],
+    rows: [
+      { emoji: "👶", name: "Baby", use: "The Child Jesus in the manger", href: `${A}/emoji/baby/` },
+      { emoji: "🌟", name: "Glowing star", use: "The star of Bethlehem", href: `${A}/emoji/glowing-star/` },
+      { emoji: "⭐", name: "Star", use: "Christmas and Epiphany", href: `${A}/emoji/star/` },
+      { emoji: "👼", name: "Baby angel", use: "The angels' Gloria", href: `${A}/emoji/baby-angel/` },
+      { emoji: "🐑", name: "Ewe", use: "The shepherds' flock", href: `${A}/emoji/ewe/` },
+      { emoji: "🐂", name: "Ox", use: "The ox of the crib", href: `${A}/emoji/ox/` },
+      { emoji: "🫏", name: "Donkey", use: "The donkey of the crib (newer phones)", href: `${A}/emoji/donkey/` },
+      { emoji: "👑", name: "Crown", use: "The magi at Epiphany", href: `${A}/emoji/crown/` },
+      { emoji: "🐪", name: "Camel", use: "The magi's journey", href: `${A}/emoji/camel/` },
+      { emoji: "🛖", name: "Hut", use: "The stable", href: `${A}/emoji/hut/` },
+      { emoji: "🌃", name: "Night with stars", use: "Christmas night, Midnight Mass", href: `${A}/emoji/night-with-stars/` },
+      { emoji: "🎶", name: "Musical notes", use: "The Gloria, carols", href: `${A}/emoji/musical-notes/` },
+    ],
+    faqs: [
+      {
+        question: "Is there a Nativity scene emoji?",
+        answer: "No single emoji shows the Nativity. Combine them: 🌟👶🐂🫏🐑 gives the star, the Child, the ox and donkey, and the shepherds' flock. Add 👼 for the angels and 👑🐪 for the magi.",
+      },
+      {
+        question: "What emoji represents baby Jesus?",
+        answer: "The 👶 baby emoji, with a caption that names Christ. Without the words it reads as a generic birth announcement.",
+      },
+      {
+        question: "Is there an emoji for Mary or Joseph?",
+        answer: "No. Unicode has no figure of the Virgin Mary or Saint Joseph. Write their names; a 🤍 white heart beside “Mary” works for a Marian line.",
+      },
+      {
+        question: "Why are an ox and a donkey in the Nativity scene?",
+        answer: "They are not in Luke's Gospel. Christians read Isaiah 1:3, where the ox knows its owner and the donkey its master's crib, as a sign of the Child in the manger, and the two animals became part of every crib, including Saint Francis's at Greccio in 1223.",
+      },
+      {
+        question: "Were there really three kings?",
+        answer: "Matthew 2 calls them magi and lists three gifts: gold, frankincense, and myrrh. The number three comes from the gifts, and the title “kings” from Psalm 72 and Isaiah 60. Their traditional names are later legend.",
+      },
+      {
+        question: "What is the difference between ⭐ and 🌟?",
+        answer: "⭐ is the plain star; 🌟 is the glowing star. Either works for Christmas, but 🌟 reads more clearly as the star of Bethlehem.",
+      },
+      {
+        question: "Why does the donkey emoji show as a box?",
+        answer: "The 🫏 donkey was added in Emoji 15.0 in 2022, so older phones may not display it. Check it on Allemojipedia or use the ox 🐂 alone.",
+      },
+      {
+        question: "When does the Christmas season end?",
+        answer: "On the Baptism of the Lord, Sunday, January 10, 2027. Many families keep the crib until February 2, the Presentation of the Lord, as a custom.",
       },
     ],
   },

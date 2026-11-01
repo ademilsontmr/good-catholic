@@ -26,6 +26,42 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1542,
+    slug: "catholic-christmas-traditions",
+    title: "Catholic Christmas Traditions 2026: Advent to Candlemas",
+    excerpt: "The Catholic Christmas festivities in order — Advent wreath, Las Posadas, Wigilia, Midnight Mass, the Twelve Days, Epiphany chalk, and Candlemas — with the 2026–27 dates.",
+    date: "2026-10-31",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: TreePine,
+    bgColor: "bg-emerald-50",
+    iconColor: "text-emerald-700"
+  },
+  {
+    id: 1541,
+    slug: "nativity-emojis",
+    title: "Nativity Emojis: The Best Emojis for the Birth of Jesus at Christmas",
+    excerpt: "Build the manger scene in emojis — the Child, the star, the angels, the shepherds, and the magi — with what Scripture says about each and copy-ready Christmas messages.",
+    date: "2026-10-31",
+    readTime: "11 min",
+    category: "Catholic Living",
+    icon: Star,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-500"
+  },
+  {
+    id: 1540,
+    slug: "emojis-for-talking-about-god",
+    title: "Emojis for Talking About God: A Catholic Guide to Faith Emojis in Everyday Conversation",
+    excerpt: "Which emojis to use when you talk with people about God, prayer, and the Catholic Church — the core set, the ones that get misread, and messages you can send.",
+    date: "2026-10-31",
+    readTime: "11 min",
+    category: "Catholic Living",
+    icon: Sparkles,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
     id: 1539,
     slug: "corpus-christi-usa",
     title: "Corpus Christi 2027 in the USA (May 30): Catholic Guide",

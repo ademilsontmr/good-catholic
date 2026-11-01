@@ -80,7 +80,7 @@ export function SharePage({ title, url }: { title: string; url: string }) {
   );
 }
 
-export function CopyPrayerButton({ text }: { text: string }) {
+export function CopyPrayerButton({ text, label = "Copy prayer" }: { text: string; label?: string }) {
   const [copied, setCopied] = useState(false);
 
   async function copy() {
@@ -99,7 +99,7 @@ export function CopyPrayerButton({ text }: { text: string }) {
       onClick={copy}
       className="mt-4 text-sm font-semibold text-accent underline underline-offset-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
     >
-      {copied ? "Copied" : "Copy prayer"}
+      {copied ? "Copied" : label}
     </button>
   );
 }
