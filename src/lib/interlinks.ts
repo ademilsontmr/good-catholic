@@ -352,6 +352,8 @@ export const INTERLINK_MAP: Record<string, string> = {
   "Nativity emojis": "/blog/nativity-emojis/",
   "Catholic Christmas traditions": "/blog/catholic-christmas-traditions/",
   "Christmas traditions": "/blog/catholic-christmas-traditions/",
+  "AI prayer": "/blog/ai-written-prayers/",
+  "AI-written prayers": "/blog/ai-written-prayers/",
   "religious emojis": "/blog/emojis-for-talking-about-god/",
   "Mother of God dogma": "/blog/mary-mother-of-god-catholic-dogma/",
   "Marian devotion": "/blog/do-catholics-worship-mary/",

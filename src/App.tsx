@@ -187,6 +187,7 @@ const PrayerForPeace = lazy(() => import("./pages/blog/PrayerForPeace"));
 const PrayerOfTrustInGod = lazy(() => import("./pages/blog/PrayerOfTrustInGod"));
 const SaintLifeGuidePage = lazy(() => import("./pages/blog/SaintLifeGuidePage"));
 const LiturgicalFeastGuidePage = lazy(() => import("./pages/blog/LiturgicalFeastGuidePage"));
+const AiWrittenPrayersGuide = lazy(() => import("./pages/blog/AiWrittenPrayersGuide"));
 const OurLadyImmaculateConceptionUSA = lazy(() => import("./pages/blog/OurLadyImmaculateConceptionUSA"));
 
 // New April 2026 Articles
@@ -1267,6 +1268,7 @@ export function AppRoutes() {
             <Route path="/blog/pentecost-sunday/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/corpus-christi-usa/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/catholic-christmas-traditions/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/ai-written-prayers/" element={<AiWrittenPrayersGuide />} />
             <Route path="/daily-catholic-prayers/" element={<Navigate to="/blog/daily-catholic-prayers/" replace />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />

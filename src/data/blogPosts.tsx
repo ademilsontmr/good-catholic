@@ -26,6 +26,18 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1543,
+    slug: "ai-written-prayers",
+    title: "Can AI Write a Prayer? How to Make an AI Prayer Personal",
+    excerpt: "What the Church says about using AI to write a prayer, why AI prayers sound hollow, and how to turn a draft into words you can actually mean.",
+    date: "2026-11-01",
+    readTime: "10 min",
+    category: "Catholic Living",
+    icon: Sparkles,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
     id: 1542,
     slug: "catholic-christmas-traditions",
     title: "Catholic Christmas Traditions 2026: Advent to Candlemas",
