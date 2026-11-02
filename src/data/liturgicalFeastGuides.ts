@@ -19,6 +19,8 @@ export interface LiturgicalFeastGuide {
   description: string;
   keywords: string;
   readTime: string;
+  /** ISO date; defaults to the launch date of the feast guides. */
+  datePublished?: string;
   crumb: string;
   category: string;
   lede: string;
@@ -1578,6 +1580,196 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
       { question: "Is the Christmas tree a Catholic tradition?", answer: "It began in German Christian homes, documented from the sixteenth century, and the Church provides a blessing for it. Stories that Saint Boniface or Martin Luther invented it are legend." },
       { question: "Is \"The Twelve Days of Christmas\" a secret Catholic catechism?", answer: "There is no historical evidence for that claim. The song is an eighteenth-century English counting song built on the real Twelve Days of the season." },
       { question: "When should Catholics take down Christmas decorations?", answer: "Not before the Baptism of the Lord, January 10, 2027, when the liturgical season ends. Keeping the crib until Candlemas on February 2 is an older custom." },
+    ],
+  },
+  {
+    slug: "all-souls-day",
+    title: "All Souls' Day 2026 (Nov 2): Meaning, Mass & Indulgences",
+    h1: "All Souls' Day: The Catholic Commemoration of All the Faithful Departed",
+    description: "All Souls' Day, November 2: why Catholics pray for the dead, purgatory, the three Masses, the plenary indulgence of November 1–8, and customs.",
+    keywords: "all souls day, all souls day 2026, all souls day catholic, commemoration of all the faithful departed, november 2, praying for the dead, purgatory, all souls indulgence, cemetery indulgence november 1-8, three masses all souls, dia de finados",
+    readTime: "11 min",
+    datePublished: "2026-11-02",
+    crumb: "All Souls' Day",
+    category: "Liturgy & Worship",
+    lede: "On November 2 the Church turns from the saints in glory to the souls still being purified. All Souls' Day is the day Catholics pray, offer Mass, and visit cemeteries for every person who has died in God's friendship but is not yet ready to see him face to face.",
+    answer: "All Souls' Day, officially the Commemoration of All the Faithful Departed, is kept every year on November 2 — Monday, November 2, 2026, and Tuesday, November 2, 2027. It is not a Holy Day of Obligation, but it is one of the highest-ranking days of the calendar: it replaces a Sunday in Ordinary Time, and every priest may celebrate three Masses. Catholics pray for the dead because of the Church's teaching on purgatory and the communion of saints (Catechism 1030–1032). From November 1 to 8, a plenary indulgence applicable only to the souls in purgatory can be gained by visiting a cemetery and praying for the dead, under the usual conditions.",
+    facts: [
+      { label: "Official name", value: "Commemoration of All the Faithful Departed" },
+      { label: "Date", value: "Every November 2 (Monday in 2026, Tuesday in 2027)" },
+      { label: "Obligation", value: "Not a Holy Day of Obligation" },
+      { label: "Rank", value: "Takes precedence over a Sunday in Ordinary Time" },
+      { label: "Liturgical color", value: "Violet or black" },
+      { label: "Cemetery indulgence", value: "Plenary, November 1–8, for the souls in purgatory" },
+    ],
+    timeline: [
+      { when: "Second century BC", what: "Judas Maccabeus has sacrifice offered for fallen soldiers, \"that they might be delivered from their sin\" (" + `{{${CBO}2-maccabees/12/|2 Maccabees 12}}` + ")." },
+      { when: "Early centuries", what: "Christians pray for the dead at the Eucharist and on the anniversaries of their deaths, as inscriptions in the Roman catacombs show." },
+      { when: "c. 998", what: "Saint Odilo, abbot of Cluny, orders all Cluniac monasteries to commemorate the faithful departed on the day after All Saints." },
+      { when: "By the 14th century", what: "The November 2 commemoration is kept in Rome and spreads through the Latin Church." },
+      { when: "1748", what: "Benedict XIV extends to Spain, Portugal, and their territories the privilege of three Masses on All Souls' Day." },
+      { when: "August 10, 1915", what: "Amid the First World War, Benedict XV extends the three-Mass privilege to every priest in the world." },
+      { when: "2016", what: "The instruction Ad resurgendum cum Christo restates the Church's norms on burial and cremation." },
+      { when: "November 1–8, 2026", what: "Plenary indulgence for visiting a cemetery and praying for the dead." },
+      { when: "Monday, November 2, 2026", what: "All Souls' Day." },
+      { when: "Tuesday, November 2, 2027", what: "All Souls' Day next year." },
+    ],
+    sections: [
+      {
+        id: "what-is-all-souls-day",
+        heading: "What All Souls' Day is",
+        paragraphs: [
+          "The day after the Church celebrates all the saints in heaven ([[/blog/all-saints-day/|All Saints' Day]]), she prays for all the dead who are still being purified. The two days belong together. November 1 rejoices in the goal; November 2 helps those still on the way to it.",
+          "All Souls' Day is not a day for canonized saints, and it is not a day to pray only for one's own relatives. The Church prays for \"all the faithful departed\" — every person who died in the grace of God, known or forgotten, whether they died yesterday or a thousand years ago. Many of them have no one else to remember them.",
+        ],
+        callout: {
+          label: "All Saints, All Souls, and Halloween",
+          text: "Halloween is the eve of All Saints (All Hallows' Eve), October 31. All Saints on November 1 honors those already in heaven. All Souls on November 2 prays for those in purgatory. The three days are often confused, and the older Catholic meaning of the first two is easily lost. See the overview of [[/blog/all-saints-day-all-souls-day/|All Saints' and All Souls' Day]].",
+        },
+      },
+      {
+        id: "why-catholics-pray-for-the-dead",
+        heading: "Why Catholics pray for the dead",
+        paragraphs: [
+          "The Church teaches that \"all who die in God's grace and friendship, but still imperfectly purified, are indeed assured of their eternal salvation; but after death they undergo purification, so as to achieve the holiness necessary to enter the joy of heaven\" (Catechism 1030). The Church calls this final purification purgatory. It is not a second chance for those who rejected God, and it is entirely different from the punishment of the damned (Catechism 1031).",
+          "The practice of praying for the dead is older than the word purgatory. The Catechism points to " + `{{${CBO}2-maccabees/12/|2 Maccabees 12}}` + ", where Judas Maccabeus offers sacrifice for the dead, and to Saint Paul's image of a person who \"will be saved, but only as through fire\" (" + `{{${CBO}1-corinthians/3/|1 Corinthians 3:15}}` + "). The Councils of Florence and Trent defined the doctrine; the Second Vatican Council restated it (Lumen Gentium 49–51).",
+          "Underneath it is the communion of saints: the Church on earth, the souls being purified, and the saints in heaven are one Body in Christ, and love does not end at death (Catechism 954–958). \"Our prayer for them is capable not only of helping them, but also of making their intercession for us effective\" (Catechism 958).",
+        ],
+        callout: {
+          label: "What we do not know",
+          text: "The Church has never defined how long purgatory lasts, what it is like, or where it is. Images of fire, prisons, and fixed numbers of years come from preaching, art, and private revelation, not from dogma. What the Church teaches is that it exists, that it is a purification of love, and that our prayers help.",
+        },
+      },
+      {
+        id: "liturgy-and-three-masses",
+        heading: "The liturgy: three Masses, violet or black, and the Office of the Dead",
+        paragraphs: [
+          "All Souls' Day ranks just below the solemnities in the Church's Table of Liturgical Days. When November 2 falls on a Sunday, as it did in 2025, the commemoration replaces the Sunday in Ordinary Time. It is still not a Holy Day of Obligation, although going to Mass is the best thing a Catholic can do for the dead that day.",
+          "Every priest may celebrate three Masses on November 2. One may be offered for any intention, and he may accept an offering for that one only; one is offered for all the faithful departed; and one for the intentions of the Pope. The Missal provides three sets of prayers, and the readings may be chosen from the Lectionary for Masses for the Dead.",
+        ],
+        table: {
+          caption: "Readings often chosen for All Souls' Day",
+          headers: ["Reading", "Passage", "Theme"],
+          rows: [
+            ["First reading", `{{${CBO}wisdom/3/|Wisdom 3:1–9}}`, "\"The souls of the just are in the hand of God.\""],
+            ["Psalm", `{{${CBO}psalms/130/|Psalm 130}} (De Profundis)`, "\"Out of the depths I cry to you, O Lord.\""],
+            ["Second reading", `{{${CBO}romans/6/|Romans 6:3–9}}`, "Baptized into Christ's death, we will rise with him."],
+            ["Second reading (alt.)", `{{${CBO}1-thessalonians/4/|1 Thessalonians 4:13–18}}`, "Do not grieve as those who have no hope."],
+            ["Gospel", `{{${CBO}john/6/|John 6:37–40}}`, "\"I will raise him up on the last day.\""],
+            ["Gospel (alt.)", `{{${CBO}john/11/|John 11:17–27}}`, "\"I am the resurrection and the life.\""],
+          ],
+        },
+        callout: {
+          label: "What happened to the Dies Irae?",
+          text: "The medieval sequence Dies Irae was removed from the Mass in the liturgical reform after the Second Vatican Council. It survives as an optional hymn in the Liturgy of the Hours at the end of the liturgical year and in the older form of the Roman Rite. Many parishes also pray the Office of the Dead on November 2.",
+        },
+      },
+      {
+        id: "all-souls-indulgences",
+        heading: "The All Souls' indulgences, explained",
+        paragraphs: [
+          "An indulgence is a remission of the temporal punishment due to sins already forgiven, granted by the Church from the treasury of the merits of Christ and the saints (Catechism 1471). Indulgences can be applied to the dead by way of suffrage — that is, as a prayer offered for them. In early November the Church offers two plenary indulgences that can only be applied to the souls in purgatory. For the conditions in detail, see the [[/blog/plenary-indulgence-guide/|plenary indulgence guide]].",
+        ],
+        table: {
+          caption: "Indulgences for the faithful departed",
+          headers: ["When", "What to do", "Indulgence"],
+          rows: [
+            ["November 1–8 (in 2026, Sunday to Sunday)", "Devoutly visit a cemetery and pray, even mentally, for the dead", "Plenary, once a day, for the souls in purgatory"],
+            ["November 2 (or, with the bishop's consent, the Sunday before or after, or All Saints)", "Visit a church or oratory and pray the Our Father and the Creed", "Plenary, for the souls in purgatory"],
+            ["Any other day of the year", "Visit a cemetery and pray for the dead", "Partial"],
+            ["Any day", "Pray the Eternal Rest or the Office of the Dead (Lauds or Vespers)", "Partial"],
+          ],
+        },
+        list: [
+          "Sacramental confession, which can cover several plenary indulgences within about twenty days before or after. See [[/blog/how-to-go-to-confession/|how to go to confession]].",
+          "Holy Communion, ideally on the same day, and once for each plenary indulgence.",
+          "Prayer for the intentions of the Pope; an Our Father and a Hail Mary are enough.",
+          "Freedom from all attachment to sin, even venial. If this condition is not fully met, the indulgence becomes partial.",
+        ],
+        callout: {
+          label: "Only one plenary indulgence per day",
+          text: "A person can gain one plenary indulgence a day, except at the hour of death. So during the octave you can visit a cemetery on eight different days and offer eight plenary indulgences for eight different souls — or for the souls most forgotten.",
+        },
+      },
+      {
+        id: "how-to-pray-for-the-dead",
+        heading: "How to pray for the dead on All Souls' Day",
+        paragraphs: [
+          "The Church gives a clear order of help: the Mass first, then prayer, almsgiving, indulgences, and works of penance (Catechism 1032). Here is how to put that into practice on November 2 and through the month.",
+        ],
+        list: [
+          "Go to Mass and, if you can, have a Mass offered for a person who has died. Parishes accept Mass intentions throughout the year; many keep a Book of the Dead on the altar for all of November.",
+          "Pray the Eternal Rest: \"Eternal rest grant unto them, O Lord, and let perpetual light shine upon them.\" The full prayer and its history are in the guide to the [[/blog/eternal-rest-prayer-catholic/|Eternal Rest prayer]].",
+          "Pray Psalm 130, the De Profundis, the Church's classic psalm for the dead: " + `{{${CBO}psalms/130/|Psalm 130 on Catholic Bible Online}}` + ".",
+          "Pray the Rosary or a novena for the dead: see the [[/blog/holy-souls-novena-all-souls-2026/|Holy Souls novena]] and the [[/blog/novena-for-the-dead-catholic/|novena for the dead]].",
+          "Visit and tend a grave. Pray there, leave a candle or flowers, and remember that a cemetery is a place of hope in the resurrection, not only of loss.",
+          "Give alms in the name of someone who has died. Charity offered for the dead is one of the oldest Christian customs.",
+          "Learn more about praying for the souls: [[/blog/praying-for-souls-in-purgatory/|praying for the souls in purgatory]].",
+        ],
+        callout: {
+          label: "Gregorian Masses and the Saint Gertrude prayer",
+          text: "Gregorian Masses — thirty Masses offered on thirty consecutive days for one deceased person — are an old and approved custom linked to Saint Gregory the Great. The popular prayer attributed to Saint Gertrude is a good prayer, but the claim that it releases a fixed number of souls each time it is said is not Church teaching and should not be repeated as a promise.",
+        },
+      },
+      {
+        id: "all-souls-customs",
+        heading: "All Souls' customs around the world",
+        paragraphs: [
+          "Wherever the Church has taken root, November 2 has gathered local customs. They differ in color and food, but nearly all of them bring families to the graves of their dead.",
+        ],
+        table: {
+          caption: "How Catholic cultures keep All Souls' Day",
+          headers: ["Country", "Custom"],
+          rows: [
+            ["Mexico", "Día de los Muertos, October 31 to November 2: home altars (ofrendas) with photos, marigolds (cempasúchil), candles, and pan de muerto; Mass and a night at the cemetery. The bishops warn against the cult of \"Santa Muerte,\" which the Church rejects."],
+            ["Philippines", "Undas: families spend November 1 and 2 at the cemetery, cleaning graves, lighting candles, praying, and sharing meals."],
+            ["Poland", "Zaduszki: cemeteries glow with thousands of candles in red and white glass lanterns on the evenings of November 1 and 2."],
+            ["Brazil and Portugal", "Dia de Finados is a public holiday in Brazil; families visit graves, bring flowers, and attend Masses held in the cemeteries."],
+            ["Italy", "Families visit cemeteries; in some regions children receive small gifts or sweets \"from the dead,\" such as the ossa dei morti biscuits."],
+            ["England (historic)", "\"Souling\": the poor went door to door offering prayers for the dead in exchange for soul cakes, a custom later absorbed into Halloween."],
+            ["United States", "Parish Books of the Dead, cemetery Masses and blessings, and the Hispanic and Filipino customs above in many dioceses."],
+          ],
+        },
+      },
+      {
+        id: "burial-and-cremation",
+        heading: "Burial, cremation, and Catholic cemeteries",
+        paragraphs: [
+          "All Souls' Day is also a good time to remember what the Church asks for the bodies of the dead. Because the body will rise (" + `{{${CBO}1-corinthians/15/|1 Corinthians 15}}` + "), the Church strongly prefers burial. Cremation is permitted, but the 2016 instruction Ad resurgendum cum Christo asks that ashes be kept in a sacred place — a cemetery, church, or columbarium — and not scattered, divided among relatives, or kept at home. See the [[/blog/catholic-cremation-rules-usa/|Catholic cremation rules]] and [[/blog/catholic-funeral-rites-explained/|Catholic funeral rites]].",
+          "If someone you love is buried in a non-Catholic or municipal cemetery, you can still gain the November indulgence there: the grant speaks of visiting \"a cemetery,\" not only a Catholic one.",
+        ],
+      },
+      {
+        id: "grief-and-hope",
+        heading: "Grief and hope on All Souls' Day",
+        paragraphs: [
+          "For many families November 2 is the first time they gather since a funeral. The Church does not ask grieving people to pretend they are not sad. Jesus wept at the tomb of Lazarus moments before raising him (" + `{{${CBO}john/11/|John 11:35}}` + "). Saint Paul asks only that we not grieve \"as others do who have no hope\" (" + `{{${CBO}1-thessalonians/4/|1 Thessalonians 4:13}}` + ").",
+          "Praying for the dead turns grief into love that can still act. If this year is hard, start small: one Mass, one visit, one Eternal Rest. For more, see the [[/blog/catholic-guide-to-grief-and-loss/|Catholic guide to grief and loss]] and [[/blog/bible-verses-for-grief/|Bible verses for grief]].",
+        ],
+        callout: {
+          label: "The promise behind the day",
+          text: "\"He will wipe away every tear from their eyes, and death shall be no more\" (" + `{{${CBO}revelation/21/|Revelation 21:4}}` + "). All Souls' Day is kept in that hope.",
+        },
+      },
+    ],
+    prayer: "Lord Jesus Christ, risen from the dead, remember all who have gone before us marked with the sign of faith: our parents, our families, our friends, and those who have no one to pray for them. Purify them in your mercy and bring them into the light of your face. Comfort all who mourn, and when our own time comes, receive us with them into your kingdom. Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May they rest in peace. Amen.",
+    related: [
+      { href: "/blog/what-is-purgatory-explained/", label: "What is purgatory? The Catholic teaching explained" },
+      { href: "/blog/plenary-indulgence-guide/", label: "How to gain a plenary indulgence" },
+      { href: "/blog/eternal-rest-prayer-catholic/", label: "The Eternal Rest prayer" },
+      { href: "/blog/holy-souls-novena-all-souls-2026/", label: "The Holy Souls novena" },
+      { href: "/blog/all-saints-day/", label: "All Saints' Day: meaning and obligation" },
+      { href: "/blog/catholic-guide-to-grief-and-loss/", label: "A Catholic guide to grief and loss" },
+    ],
+    faqs: [
+      { question: "When is All Souls' Day?", answer: "Every year on November 2. In 2026 it is Monday, November 2; in 2027 it is Tuesday, November 2. When it falls on a Sunday, it replaces the Sunday in Ordinary Time." },
+      { question: "Is All Souls' Day a Holy Day of Obligation?", answer: "No. Catholics are not required to attend Mass on November 2, although the Church warmly encourages it as the greatest help we can offer the dead." },
+      { question: "What is the difference between All Saints' Day and All Souls' Day?", answer: "All Saints' Day (November 1) honors everyone already in heaven and is a Holy Day of Obligation. All Souls' Day (November 2) prays for those still being purified in purgatory." },
+      { question: "Why do Catholics pray for the dead?", answer: "Because the Church teaches that those who die in God's friendship but are not yet fully purified undergo purgation before heaven, and that our prayers, Masses, and good works can help them (Catechism 1030–1032)." },
+      { question: "How do I gain the All Souls' Day indulgence?", answer: "From November 1 to 8, devoutly visit a cemetery and pray for the dead; on November 2 you may also visit a church and pray the Our Father and the Creed. Add confession, Communion, prayer for the Pope's intentions, and detachment from sin. It applies only to the souls in purgatory." },
+      { question: "Why can priests say three Masses on All Souls' Day?", answer: "Benedict XV extended this privilege to the whole Church in 1915, during the First World War. One Mass is for an intention of the priest's choice, one for all the faithful departed, and one for the Pope's intentions." },
+      { question: "What color does the priest wear on All Souls' Day?", answer: "Violet or black. Black has always been permitted for Masses for the dead where it is customary." },
+      { question: "Is Día de los Muertos Catholic?", answer: "It grew out of the Catholic feasts of All Saints and All Souls in Mexico and, kept with prayer and Mass for the dead, is a Christian custom. The Church rejects the separate cult of \"Santa Muerte.\"" },
     ],
   },
 ];

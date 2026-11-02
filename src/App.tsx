@@ -1269,6 +1269,7 @@ export function AppRoutes() {
             <Route path="/blog/corpus-christi-usa/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/catholic-christmas-traditions/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/ai-written-prayers/" element={<AiWrittenPrayersGuide />} />
+            <Route path="/blog/all-souls-day/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/daily-catholic-prayers/" element={<Navigate to="/blog/daily-catholic-prayers/" replace />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />

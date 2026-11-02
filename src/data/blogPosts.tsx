@@ -26,6 +26,18 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1544,
+    slug: "all-souls-day",
+    title: "All Souls' Day 2026 (Nov 2): Meaning, Mass & Indulgences",
+    excerpt: "Why Catholics pray for the dead on November 2: purgatory, the three Masses, the November 1–8 cemetery indulgence, and All Souls' customs around the world.",
+    date: "2026-11-02",
+    readTime: "11 min",
+    category: "Liturgy & Worship",
+    icon: Flame,
+    bgColor: "bg-purple-50",
+    iconColor: "text-purple-700"
+  },
+  {
     id: 1543,
     slug: "ai-written-prayers",
     title: "Can AI Write a Prayer? How to Make an AI Prayer Personal",

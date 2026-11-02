@@ -27,6 +27,7 @@ const ICONS: Record<string, LucideIcon> = {
   "pentecost-sunday": Flame,
   "corpus-christi-usa": Cross,
   "catholic-christmas-traditions": TreePine,
+  "all-souls-day": Flame,
 };
 
 function Rich({ text }: { text: string }) {
@@ -64,6 +65,8 @@ export default function LiturgicalFeastGuidePage() {
 
   const pageUrl = `https://guidecatholic.com/blog/${guide.slug}/`;
   const Icon = ICONS[guide.slug] ?? Church;
+  const published = guide.datePublished ?? "2026-10-31";
+  const publishedLabel = new Date(`${published}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" });
 
   return (
     <>
@@ -78,8 +81,8 @@ export default function LiturgicalFeastGuidePage() {
         title={guide.title}
         description={guide.description}
         url={pageUrl}
-        datePublished="2026-10-31"
-        dateModified="2026-10-31"
+        datePublished={published}
+        dateModified={published}
       />
       <BreadcrumbSchema
         items={[
@@ -110,7 +113,7 @@ export default function LiturgicalFeastGuidePage() {
               <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4 flex-wrap">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">{guide.category}</span>
-                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" aria-hidden="true" />October 31, 2026</span>
+                <span className="flex items-center gap-1"><Calendar className="w-4 h-4" aria-hidden="true" />{publishedLabel}</span>
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" aria-hidden="true" />{guide.readTime} read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">{guide.h1}</h1>
