@@ -572,6 +572,11 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
     ],
     prayer: "Lord Jesus, Word made flesh, born for us at Bethlehem, receive our Christmas worship and our unfinished lives. Give peace to our homes, light to those in darkness, and keep us near Mary and Joseph all through this season. Amen.",
     related: [
+      { href: "/blog/christmas-day/", label: "Christmas Day: the Nativity, hour by hour" },
+      { href: "/blog/christmas-tree/", label: "The Christmas tree" },
+      { href: "/blog/christmas-lights/", label: "Christmas lights" },
+      { href: "/blog/christmas-gifts/", label: "Christmas gifts" },
+      { href: "/blog/christmas-ideas/", label: "Catholic Christmas ideas" },
       { href: "/blog/christmas-mass-near-me/", label: "How to find Christmas Mass near you" },
       { href: "/blog/advent/", label: "Advent 2026: calendar, wreath, and how to prepare" },
       { href: "/blog/complete-catholic-advent-guide/", label: "The complete Catholic Advent guide" },
@@ -1569,6 +1574,11 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
     ],
     prayer: "Lord Jesus Christ, born at Bethlehem for our salvation, bless our home and our festivities this Christmas. Let our lights, our songs, our meals, and our gifts all point to you. Make us generous to the poor, patient with one another, and faithful at your altar, so that, with Mary and Joseph, the shepherds and the magi, we may adore you now and forever. Amen.",
     related: [
+      { href: "/blog/christmas-tree/", label: "The Christmas tree" },
+      { href: "/blog/christmas-lights/", label: "Christmas lights" },
+      { href: "/blog/christmas-gifts/", label: "Christmas gifts" },
+      { href: "/blog/christmas-ideas/", label: "Catholic Christmas ideas" },
+      { href: "/blog/christmas-day/", label: "Christmas Day" },
       { href: "/blog/catholic-christmas/", label: "Catholic Christmas 2026: Mass times and the octave" },
       { href: "/blog/advent/", label: "Advent 2026: calendar, wreath, and how to prepare" },
       { href: "/blog/complete-catholic-advent-guide/", label: "The complete Catholic Advent guide" },
@@ -2108,6 +2118,9 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
     prayer: "Come, Lord Jesus.\nWisdom of God, teach us to wait without numbing ourselves.\nRoot of Jesse, grow where we have cut hope down.\nKey of David, open what we have locked.\nEmmanuel, be with us in this house through these four weeks, until we meet you at the altar on Christmas.\nAmen.",
     prayerHeading: "An Advent prayer",
     related: [
+      { href: "/blog/christmas-day/", label: "Christmas Day" },
+      { href: "/blog/christmas-tree/", label: "The Christmas tree" },
+      { href: "/blog/christmas-ideas/", label: "Catholic Christmas ideas" },
       { href: "/blog/advent-2026-start-date-when-does-advent-begin/", label: "When does Advent 2026 start?" },
       { href: "/blog/complete-catholic-advent-guide/", label: "The complete Catholic Advent guide" },
       { href: "/blog/advent-prayers/", label: "Advent prayers" },

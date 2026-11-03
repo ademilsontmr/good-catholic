@@ -5,7 +5,7 @@ import {
   Coins, Globe, Utensils, Layers, ListOrdered, CircleDot, Crown, Mountain,
   HandHeart, HeartHandshake, Music, Music2, TreePine, Scale, Bird, Flower2,
   Compass, Briefcase, Link2, Search, Baby, ShieldAlert, GraduationCap, Gavel,
-  HeartCrack, Zap, Brain, Cloud, Wind, HeartPulse, Users, Calendar, Clock,
+  HeartCrack, Zap, Brain, Cloud, Wind, HeartPulse, Users, Calendar, Clock, Gift,
 } from "lucide-react";
 import { POPE_BLOG_POSTS } from "@/data/popeBlogPosts";
 import { SAINT_OF_DAY_BLOG_POSTS } from "@/data/saintOfDayBlogPosts";
@@ -25,6 +25,66 @@ export interface BlogPost {
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    id: 1563,
+    slug: "christmas-tree",
+    title: "Christmas Tree: Catholic Meaning, History & How to Bless It",
+    excerpt: "The Catholic meaning of the Christmas tree: paradise plays, the tree of the Cross, when to put it up, the Book of Blessings rite, and what is legend.",
+    date: "2026-11-03",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: TreePine,
+    bgColor: "bg-emerald-50",
+    iconColor: "text-emerald-700"
+  },
+  {
+    id: 1562,
+    slug: "christmas-lights",
+    title: "Christmas Lights: Catholic Meaning of Light in the Darkness",
+    excerpt: "The Catholic meaning of Christmas lights: Christ the Light of the world, Isaiah 9, the tree candle, electric lights, the parol, and how to light the house.",
+    date: "2026-11-03",
+    readTime: "11 min",
+    category: "Catholic Living",
+    icon: Sparkles,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1561,
+    slug: "christmas-gifts",
+    title: "Christmas Gifts: Catholic Meaning of Giving at the Nativity",
+    excerpt: "The Catholic meaning of Christmas gifts: the Magi's gold, frankincense and myrrh, Saint Nicholas, alms for the poor, and how to give without a store.",
+    date: "2026-11-03",
+    readTime: "12 min",
+    category: "Catholic Living",
+    icon: Gift,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-700"
+  },
+  {
+    id: 1560,
+    slug: "christmas-ideas",
+    title: "Christmas Ideas for Catholics: Mass, Home, Poor & the Twelve Days",
+    excerpt: "Catholic Christmas ideas for 2026: Mass, crib, wreath, gifts that mean something, the poor, the octave, Epiphany chalk, and what to do after December 25.",
+    date: "2026-11-03",
+    readTime: "13 min",
+    category: "Catholic Living",
+    icon: Compass,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
+    id: 1559,
+    slug: "christmas-day",
+    title: "Christmas Day: What Catholics Celebrate on December 25",
+    excerpt: "Christmas Day 2026 is Friday, December 25. What the solemnity means: four Masses, the Incarnation, kneeling at the Creed, the octave, and how to keep the day.",
+    date: "2026-11-03",
+    readTime: "13 min",
+    category: "Liturgy & Worship",
+    icon: Star,
+    bgColor: "bg-indigo-50",
+    iconColor: "text-indigo-700"
+  },
   {
     id: 1558,
     slug: "advent",

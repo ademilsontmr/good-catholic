@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowLeft, Calendar, Church, Clock, Cross, Flame, Heart, Star, Sun, TreePine } from "lucide-react";
+import { ArrowLeft, Calendar, Church, Clock, Compass, Cross, Flame, Gift, Heart, Sparkles, Star, Sun, TreePine } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,6 +13,7 @@ import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { CopyPrayerButton } from "@/components/blog/DailyPrayerExtras";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
+import { christmasMomentGuideBySlug } from "@/data/christmasMomentGuides";
 import { liturgicalFeastGuideBySlug } from "@/data/liturgicalFeastGuides";
 
 const ICONS: Record<string, LucideIcon> = {
@@ -30,6 +31,11 @@ const ICONS: Record<string, LucideIcon> = {
   "all-souls-day": Flame,
   "catholic-new-year": Star,
   advent: Calendar,
+  "christmas-tree": TreePine,
+  "christmas-lights": Sparkles,
+  "christmas-gifts": Gift,
+  "christmas-ideas": Compass,
+  "christmas-day": Star,
 };
 
 function Rich({ text }: { text: string }) {
@@ -62,7 +68,7 @@ function Rich({ text }: { text: string }) {
 export default function LiturgicalFeastGuidePage() {
   const { pathname } = useLocation();
   const slug = pathname.replace(/^\/blog\//, "").replace(/\/$/, "");
-  const guide = liturgicalFeastGuideBySlug(slug);
+  const guide = liturgicalFeastGuideBySlug(slug) ?? christmasMomentGuideBySlug(slug);
   if (!guide) return null;
 
   const pageUrl = `https://guidecatholic.com/blog/${guide.slug}/`;
