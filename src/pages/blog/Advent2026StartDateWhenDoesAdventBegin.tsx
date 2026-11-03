@@ -78,6 +78,8 @@ export default function Advent2026StartDateWhenDoesAdventBegin() {
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium" dangerouslySetInnerHTML={{ __html: "Advent 2026 begins on <strong>Sunday, November 29, 2026</strong> (First Sunday of Advent) and ends on <strong>Thursday, December 24, 2026</strong>, before the Mass of the Lord's Nativity at night." }} />
+                <p className="text-text leading-relaxed mt-4 mb-0">For the wreath, a Catholic Advent calendar, Gaudete Sunday, and the O Antiphons, see the{" "}
+                  <Link to="/blog/advent/" className="text-accent font-semibold underline underline-offset-2">full Advent 2026 guide</Link>.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 

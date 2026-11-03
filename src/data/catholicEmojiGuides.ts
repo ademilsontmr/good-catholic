@@ -947,7 +947,7 @@ export const catholicEmojiGuides: EmojiGuide[] = [
           rich("Holy Family, Sunday, December 27, 2026 — 👶🤍. There is no Mary or Joseph emoji; write their names."),
           rich("Holy Innocents, Monday, December 28, 2026 — 🕯️. The children killed by Herod (Matthew 2:16–18). No party emojis."),
           rich(`Mary, Mother of God, Friday, January 1, 2027 — ⭐👶 with the words “Mother of God.” It is a holy day of obligation. See [[/blog/mary-mother-of-god-catholic-dogma/|why Mary is called Mother of God]].`),
-          rich(`Epiphany, Sunday, January 3, 2027 — 🌟🐪👑. The magi arrive ({{${CBO}/matthew/2/|Matthew 2}}).`),
+          rich(`Epiphany, Sunday, January 3, 2027 — 🌟🐪👑. The magi arrive ({{${CBO}/matthew/2/|Matthew 2}}). For names, gifts, and the star, see [[/blog/three-wise-men/|the Magi and the Star of Bethlehem]].`),
           rich(`Baptism of the Lord, Sunday, January 10, 2027 — 💧🕊️. The season ends at the Jordan ({{${CBO}/matthew/3/|Matthew 3}}).`),
         ],
         callout: {

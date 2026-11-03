@@ -29,6 +29,7 @@ const ICONS: Record<string, LucideIcon> = {
   "catholic-christmas-traditions": TreePine,
   "all-souls-day": Flame,
   "catholic-new-year": Star,
+  advent: Calendar,
 };
 
 function Rich({ text }: { text: string }) {
@@ -137,7 +138,7 @@ export default function LiturgicalFeastGuidePage() {
                     <a href={`#${section.id}`} className={cboLinkClass}>{section.heading}</a>
                   </li>
                 ))}
-                <li><a href="#feast-prayer" className={cboLinkClass}>A prayer for this feast</a></li>
+                <li><a href="#feast-prayer" className={cboLinkClass}>{guide.prayerHeading ?? "A prayer for this feast"}</a></li>
               </ol>
             </nav>
 
@@ -209,7 +210,7 @@ export default function LiturgicalFeastGuidePage() {
               </section>
             ))}
 
-            <h2 id="feast-prayer" className="scroll-mt-24 font-display text-2xl font-bold text-text mt-10 mb-4">A prayer for this feast</h2>
+            <h2 id="feast-prayer" className="scroll-mt-24 font-display text-2xl font-bold text-text mt-10 mb-4">{guide.prayerHeading ?? "A prayer for this feast"}</h2>
             <p className="text-text leading-relaxed mb-4">
               This prayer was written for this guide. It is not a liturgical text from the Missal, and it does not guarantee any particular outcome.
             </p>

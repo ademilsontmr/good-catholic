@@ -110,6 +110,8 @@ export default function StAnthonyNovenaLostThings() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+              <p className="text-text leading-relaxed mb-6">If you want the thirteen-day Lusophone custom before June 13, see the{" "}
+                <Link to="/blog/st-anthony-trezena/" className="text-accent font-semibold underline underline-offset-2">St. Anthony Trezena</Link>.</p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">St. Anthony Novena for lost things — 9-day Catholic prayer with full text to find missing items, keys, wallets, and documents. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>

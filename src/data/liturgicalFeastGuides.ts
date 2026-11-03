@@ -29,12 +29,15 @@ export interface LiturgicalFeastGuide {
   timeline: { when: string; what: string }[];
   sections: LiturgicalFeastSection[];
   prayer: string;
+  prayerHeading?: string;
   related: { href: string; label: string }[];
   faqs: { question: string; answer: string }[];
 }
 
 const CBO = "https://catholicbibleonline.com/bible/";
 const CBO_HOME = "https://catholicbibleonline.com";
+const CBO_ADVENT = "https://catholicbibleonline.com/calendar/advent/";
+const CBO_ADVENT_NOVENA = "https://catholicbibleonline.com/blog/advent-2026-novena-catholic-guide-dates-prayers/";
 
 export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
   {
@@ -570,9 +573,11 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
     prayer: "Lord Jesus, Word made flesh, born for us at Bethlehem, receive our Christmas worship and our unfinished lives. Give peace to our homes, light to those in darkness, and keep us near Mary and Joseph all through this season. Amen.",
     related: [
       { href: "/blog/christmas-mass-near-me/", label: "How to find Christmas Mass near you" },
+      { href: "/blog/advent/", label: "Advent 2026: calendar, wreath, and how to prepare" },
       { href: "/blog/complete-catholic-advent-guide/", label: "The complete Catholic Advent guide" },
       { href: "/blog/advent-2026-start-date-when-does-advent-begin/", label: "When Advent 2026 begins" },
       { href: "/blog/st-andrew-christmas-novena-2026/", label: "The St. Andrew Christmas novena" },
+      { href: "/blog/three-wise-men/", label: "The Magi and the Star of Bethlehem" },
       { href: "/blog/liturgical-seasons-guide/", label: "The liturgical seasons explained" },
     ],
     faqs: [
@@ -1565,10 +1570,12 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
     prayer: "Lord Jesus Christ, born at Bethlehem for our salvation, bless our home and our festivities this Christmas. Let our lights, our songs, our meals, and our gifts all point to you. Make us generous to the poor, patient with one another, and faithful at your altar, so that, with Mary and Joseph, the shepherds and the magi, we may adore you now and forever. Amen.",
     related: [
       { href: "/blog/catholic-christmas/", label: "Catholic Christmas 2026: Mass times and the octave" },
+      { href: "/blog/advent/", label: "Advent 2026: calendar, wreath, and how to prepare" },
       { href: "/blog/complete-catholic-advent-guide/", label: "The complete Catholic Advent guide" },
       { href: "/blog/christmas-mass-near-me/", label: "How to find Christmas Mass near you" },
       { href: "/blog/saint-nicholas/", label: "Saint Nicholas, the real story" },
       { href: "/blog/nativity-emojis/", label: "Nativity emojis for Christmas greetings" },
+      { href: "/blog/three-wise-men/", label: "The Magi and the Star of Bethlehem" },
       { href: "/blog/liturgical-seasons-guide/", label: "The liturgical seasons explained" },
     ],
     faqs: [
@@ -1928,6 +1935,199 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
       { question: "What is the World Day of Peace?", answer: "A day of prayer for peace among nations, set on January 1 by Pope Paul VI and first observed in 1968. The Pope issues a message each year." },
       { question: "Is there an indulgence at New Year?", answer: "Yes. A plenary indulgence, under the usual conditions, is granted for taking part in the public Te Deum on December 31 and the public Veni Creator on January 1." },
       { question: "When does the Christmas season end in 2027?", answer: "On the Baptism of the Lord, Sunday, January 10, 2027. New Year's Day falls inside the octave of Christmas, not after it." },
+    ],
+  },
+  {
+    slug: "advent",
+    title: "Advent 2026: Catholic Calendar, Wreath & How to Prepare",
+    h1: "Advent 2026: Meaning, Catholic Calendar, Wreath, and How to Keep the Season",
+    description: "Advent 2026 starts November 29. A Catholic guide to the Advent calendar, wreath, Gaudete Sunday, O Antiphons, and how to wait for Christmas — not a second Lent.",
+    keywords: "advent, advent 2026, advent calendar, catholic advent calendar, when does advent start 2026, first sunday of advent 2026, advent wreath, gaudete sunday, o antiphons, advent meaning catholic, advent calendar 2026",
+    readTime: "14 min",
+    datePublished: "2026-11-03",
+    crumb: "Advent 2026",
+    category: "Liturgy & Worship",
+    lede: "Every November the same search spikes: Advent. Shops answer with chocolate doors. The Church answers with four Sundays of waiting, violet vestments, a wreath that gains light, and a calendar that ends at Christmas Eve — not on Black Friday.",
+    answer: "Advent 2026 begins on Sunday, November 29, and ends before Evening Prayer of Christmas on December 24. It is the start of the liturgical year: a season of devout and expectant delight, looking toward Christ's coming in history and his coming in glory (Universal Norms on the Liturgical Year, 39–42). A Catholic Advent calendar is that season kept day by day — Mass, wreath, Scripture, mercy — not a box of cosmetics. Dates, wreath, and a household plan are on " + `{{${CBO_ADVENT}|Catholic Bible Online's Advent calendar}}` + " and in " + `{{${CBO_ADVENT_NOVENA}|the Advent 2026 novena guide}}` + ".",
+    facts: [
+      { label: "Advent 2026 begins", value: "Sunday, November 29 (Evening Prayer I on Saturday, November 28)" },
+      { label: "Advent 2026 ends", value: "Before Evening Prayer I of Christmas, December 24" },
+      { label: "Sundays", value: "Nov 29, Dec 6, Dec 13 (Gaudete), Dec 20" },
+      { label: "Color", value: "Violet; rose may be used on Gaudete Sunday" },
+      { label: "Sunday cycle", value: "Year B (Gospel of Mark)" },
+      { label: "Not", value: "A second Lent, and not already Christmas" },
+    ],
+    timeline: [
+      { when: "Sunday, November 22, 2026", what: "Christ the King closes Ordinary Time. See [[/blog/christ-the-king-sunday-2026-usa/|Christ the King 2026]]." },
+      { when: "Saturday evening, November 28", what: "First Vespers of Advent. The new liturgical year has begun, even if you go to Mass on Sunday morning." },
+      { when: "Sunday, November 29", what: "First Sunday of Advent. Bless the wreath. Light the first candle. Year B begins (" + `{{${CBO}mark/13/|Mark 13:33–37}}` + ")." },
+      { when: "Monday, November 30", what: "Feast of Saint Andrew. Many start the [[/blog/st-andrew-christmas-novena-2026/|St. Andrew Christmas novena]] through December 24." },
+      { when: "Sunday, December 6", what: "Second Sunday of Advent. In many homes, [[/blog/saint-nicholas/|Saint Nicholas]] is remembered the same day." },
+      { when: "Tuesday, December 8", what: "Immaculate Conception — Holy Day of Obligation in the United States. See [[/blog/immaculate-conception/|December 8, 2026]]." },
+      { when: "Saturday, December 12", what: "Our Lady of Guadalupe. See [[/blog/our-lady-of-guadalupe/|the feast]]." },
+      { when: "Sunday, December 13", what: "Third Sunday of Advent — Gaudete. Rose vestments may be worn. Saint Lucy yields to the Sunday." },
+      { when: "December 17–23", what: "The O Antiphons at Evening Prayer. The last stretch before the Nativity." },
+      { when: "Sunday, December 20", what: "Fourth Sunday of Advent. A short week: Christmas is Friday." },
+      { when: "Thursday, December 24", what: "Advent ends at First Vespers of Christmas. Then the Vigil." },
+      { when: "Friday, December 25", what: "Christmas. See [[/blog/catholic-christmas/|Catholic Christmas 2026]]." },
+    ],
+    sections: [
+      {
+        id: "what-advent-is",
+        heading: "What Advent is — two comings, not a countdown",
+        paragraphs: [
+          "The word is Latin: adventus, a coming. The Universal Norms on the Liturgical Year give the season its real shape. Advent has a twofold character: it prepares for Christmas, in which the first coming of the Son of God is remembered, and it trains the heart to look toward his second coming at the end of time. For both reasons it is a time of devout and expectant delight — not gloom, and not a mall playlist (nos. 39–42).",
+          "That is why the first stretch, through December 16, leans eschatological: watch, stay awake (" + `{{${CBO}mark/13/|Mark 13}}` + ", " + `{{${CBO}matthew/24/|Matthew 24}}` + "). From December 17 through 24 the weekdays turn more directly toward Bethlehem: Isaiah's child, Mary's yes (" + `{{${CBO}luke/1/|Luke 1}}` + "), the name Emmanuel (" + `{{${CBO}isaiah/7/|Isaiah 7:14}}` + "). A Catholic who treats November as already Christmas has skipped the first of those two looks. A Catholic who treats Advent as a miniature Lent has skipped the delight.",
+          "The Gloria is omitted on the Sundays of Advent, except when a solemnity or feast requires it — as on the Immaculate Conception. The Alleluia remains. Flowers and instruments in church are to be marked by moderation (GIRM 305, 313). None of that is sadness. It is room being made.",
+        ],
+        callout: {
+          label: "Advent is not Lent",
+          text: "Violet vestments are shared. Fasting is not. Current universal law does not require an Advent fast. Many Catholics choose a quieter house, a smaller screen, or a work of mercy. That is devotion, not a precept. " + `{{${CBO_ADVENT}|Catholic Bible Online's Advent page}}` + " keeps the same distinction.",
+        },
+      },
+      {
+        id: "advent-2026-calendar",
+        heading: "Advent 2026 calendar: the four Sundays",
+        paragraphs: [
+          "Advent always begins on the Sunday on or closest to November 30, and it always has four Sundays. In 2026 that first Sunday is November 29. Christmas is Friday, December 25, so the fourth week is short: Sunday the 20th through Thursday the 24th. The season does not run twenty-four equal days unless you are using a German paper calendar. The Church counts Sundays.",
+          "In the United States this Advent opens Sunday Year B. The first Gospel is " + `{{${CBO}mark/13/|Mark 13:33–37}}` + ": stay awake. Isaiah's cry — \"Oh that you would rend the heavens and come down\" — is the first reading (" + `{{${CBO}isaiah/64/|Isaiah 64}}` + "). If you want a day-by-day household plan beside this page, use " + `{{${CBO_ADVENT_NOVENA}|Catholic Bible Online's Advent 2026 novena and dates}}` + ".",
+        ],
+        table: {
+          caption: "Advent 2026 in the United States",
+          headers: ["Day", "Date", "What to keep"],
+          rows: [
+            ["First Sunday of Advent", "November 29, 2026", "Bless the wreath. Light one violet candle. Year B begins."],
+            ["St. Andrew", "November 30", "Feast (red). Many begin the Christmas novena of 15 daily recitations."],
+            ["Second Sunday of Advent", "December 6", "Two candles. St. Nicholas is the same date — a custom, not the Sunday."],
+            ["Immaculate Conception", "December 8, Tuesday", "Holy Day of Obligation in the U.S. White. Gloria returns for the solemnity."],
+            ["Our Lady of Guadalupe", "December 12, Saturday", "Feast in the U.S. A morning Mass does not fulfill Sunday."],
+            ["Third Sunday — Gaudete", "December 13", "Rose may be used. Rejoice: " + `{{${CBO}philippians/4/|Philippians 4:4}}` + "."],
+            ["O Antiphons", "December 17–23", "Evening Prayer: Wisdom, Lord, Root of Jesse, Key of David, Dawn, King, Emmanuel."],
+            ["Fourth Sunday of Advent", "December 20", "Four candles. A short week before Christmas Eve."],
+            ["Christmas", "December 25, Friday", "Advent is over. Friday abstinence is lifted: Christmas is a solemnity."],
+          ],
+        },
+      },
+      {
+        id: "advent-calendar-catholic",
+        heading: "A Catholic Advent calendar — not a chocolate box",
+        paragraphs: [
+          "The phrase people type in November is \"advent calendar.\" What they are sold is often Sephora, Lego, or a door with a chocolate. Those objects are not sins. They are also not the season. The printed Advent calendar is a nineteenth-century German custom, later filled with candy. The Church's Advent calendar is older and simpler: four Sundays, the weekdays of December 17–24, and Christmas Eve.",
+          "If you want a Catholic Advent calendar 2026 for children, give each day a Scripture verse, a work of mercy, or a Jesse Tree ornament — the shoot from the stump of Jesse (" + `{{${CBO}isaiah/11/|Isaiah 11}}` + "). A door that opens onto " + `{{${CBO}isaiah/9/|Isaiah 9}}` + " or " + `{{${CBO}luke/1/|Luke 1}}` + " teaches the season. A door that only teaches sugar teaches December as a shop.",
+        ],
+        table: {
+          caption: "Two calendars people confuse in November",
+          headers: ["The shop calendar", "The Catholic Advent calendar"],
+          rows: [
+            ["Starts whenever the box is sold, often November 1", "Starts at First Vespers of the First Sunday — November 28–29, 2026"],
+            ["Twenty-four equal doors", "Four Sundays, then a denser week from December 17"],
+            ["The prize is a product", "The prize is Christmas Mass"],
+            ["Counts down to a feeling", "Trains the heart for two comings of Christ"],
+            ["Fine as a treat beside the wreath", "Required of no one; the Mass is required on the Sundays and on December 8"],
+          ],
+        },
+        callout: {
+          label: "You do not have to buy one",
+          text: "A printed calendar can help a child wait. It cannot replace Sunday Mass, confession, or the wreath. If the box is already in the house, open the door after you light the candle — not instead of it.",
+        },
+      },
+      {
+        id: "advent-wreath",
+        heading: "The Advent wreath: four lights, not four dogmas",
+        paragraphs: [
+          "The wreath most American Catholics know — evergreen circle, four candles, one more each Sunday — is a devotion, not a sacrament. The USCCB describes it: three purple candles and one rose, or white candles if that is what you have. The rose is lit on the Third Sunday, Gaudete. The growing light is the point. The Book of Blessings provides a rite; a priest, deacon, or lay minister may bless the wreath. On later Sundays you simply light the candles. You do not invent a new ceremony each week.",
+          "The modern wreath is usually traced to Johann Hinrich Wichern, a Lutheran pastor in Hamburg, in 1839. Catholics took it up in the twentieth century. That history does not make it un-Catholic. It does mean you should not pretend the Apostles handed Peter a foam ring from a craft store.",
+          "Hope, peace, joy, and love as names for the four candles are a later popular overlay. They are not in the Missal. You may use them at the table. The Church's own names are simpler: First, Second, Third (Gaudete), and Fourth Sundays of Advent. Gaudete is Latin for \"rejoice,\" from the introit " + `{{${CBO}philippians/4/|Philippians 4:4}}` + ".",
+        ],
+        list: [
+          "Place the wreath where it can be seen and where nothing will burn. Evergreen is traditional; a metal ring with four candles is enough.",
+          "Bless it on November 29, 2026, or at the Saturday vigil. Use the Book of Blessings if you have it, or a short prayer of your own.",
+          "Light one candle the first week, two the second, three the third (including rose), four the fourth.",
+          "Pray something short: an Our Father, a verse of " + `{{${CBO}isaiah/9/|Isaiah 9}}` + ", or one of the [[/blog/advent-prayers/|Advent prayers]]. Then eat dinner.",
+          "Do not leave lit candles unattended. Devotion is not an exception to physics.",
+        ],
+      },
+      {
+        id: "four-weeks-2026",
+        heading: "The four weeks of Advent 2026",
+        paragraphs: [
+          "Keep the weeks small enough to finish. One practice that lasts into Christmas is better than seven that die on December 8.",
+        ],
+        list: [
+          "Week 1 (November 29–December 5) — Watch. The Gospel says stay awake. Name one distraction you will put down after dark. Read " + `{{${CBO}romans/13/|Romans 13}}` + ": the night is far gone.",
+          "Week 2 (December 6–12) — Make a way. Go to confession if you have not been. Reconcile one conversation. Keep December 8 as a holy day, not a shopping day. Saint Nicholas on the 6th is a custom of hidden gifts, not a second Santa season.",
+          "Week 3 (December 13–16) — Rejoice. Gaudete is not sarcasm. Light the rose candle. Practice one gratitude at table that is not about packages. Our Lady of Guadalupe on the 12th still belongs to this stretch.",
+          "Week 4 (December 17–24) — Come. Pray the O Antiphons. Read " + `{{${CBO}luke/1/|Luke 1}}` + " and " + `{{${CBO}matthew/1/|Matthew 1}}` + ". Las Posadas and Simbang Gabi, where they are kept, belong here. The empty crib can wait for the Child.",
+        ],
+        callout: {
+          label: "The tree and the crib",
+          text: "There is no law against putting up a tree in Advent. There is a law of moderation in church decoration, and there is wisdom at home: an empty crib, a tree that is not already buried in gifts, carols that still say \"come\" rather than \"born.\" Full Christmas at home can wait until the Vigil. See [[/blog/catholic-christmas-traditions/|Catholic Christmas traditions]].",
+        },
+      },
+      {
+        id: "o-antiphons",
+        heading: "The O Antiphons: December 17–23",
+        paragraphs: [
+          "From December 17 to 23 the Magnificat at Evening Prayer is framed by seven old antiphons, each beginning \"O,\" each naming the Messiah from Israel's hope. The Roman Church has sung them since at least the eighth century. They are also the verses of the Gospel acclamation at Mass in these days. You do not need Latin. You do need to ask him to come.",
+          "The first letters of the Latin titles, read backwards, form ero cras — \"tomorrow I will be.\" That is a medieval flourish, not a dogma. The titles themselves are Scripture: Wisdom, Lord, Root of Jesse, Key of David, Dayspring, King of the nations, Emmanuel.",
+        ],
+        table: {
+          caption: "O Antiphons, Advent 2026",
+          headers: ["Date", "Title", "Read"],
+          rows: [
+            ["Thursday, December 17", "O Wisdom (Sapientia)", `{{${CBO}isaiah/11/|Isaiah 11}}`],
+            ["Friday, December 18", "O Lord (Adonai)", `{{${CBO}isaiah/40/|Isaiah 40}}`],
+            ["Saturday, December 19", "O Root of Jesse (Radix Jesse)", `{{${CBO}isaiah/11/|Isaiah 11:1, 10}}`],
+            ["Sunday, December 20", "O Key of David (Clavis David)", "Fourth Sunday of Advent at Mass; the antiphon still belongs to Evening Prayer"],
+            ["Monday, December 21", "O Dayspring (Oriens)", `{{${CBO}isaiah/9/|Isaiah 9}}`],
+            ["Tuesday, December 22", "O King of the nations (Rex Gentium)", `{{${CBO}micah/5/|Micah 5}}`],
+            ["Wednesday, December 23", "O Emmanuel", `{{${CBO}isaiah/7/|Isaiah 7}}`],
+          ],
+        },
+      },
+      {
+        id: "scripture-and-a-plan",
+        heading: "Scripture to keep open, and a plan that fits a real November",
+        paragraphs: [
+          "This page is published in early November, when the search curve is already climbing and the First Sunday is still weeks away. You have time. Use it. Do not wait until the wreath is sold out and the parish confession line is out the door.",
+        ],
+        list: [
+          "Mark November 29, December 8, and December 25 in the family calendar now. December 8 is a Tuesday Holy Day of Obligation in the United States.",
+          "Buy or make the wreath this week. Bless it on the First Sunday, not in October.",
+          "Choose one daily text: Isaiah, or the Gospel of the day, or " + `{{${CBO_ADVENT_NOVENA}|the Advent 2026 novena on Catholic Bible Online}}` + ".",
+          "Schedule confession before Gaudete if you can. The line is shorter than on December 23.",
+          "Pick one work of mercy with a name attached: a person, a pantry, a parish list. Vague Advent charity does not happen.",
+          "Read " + `{{${CBO}revelation/22/|Revelation 22}}` + " once in the first week: \"Come, Lord Jesus.\" That is the whole season in four words.",
+        ],
+        callout: {
+          label: "If you only do three things",
+          text: "Go to Mass on the four Sundays. Light the wreath at dinner. Go to confession once. Everything else is extra. Extra is good. Extra is not the Mass.",
+        },
+      },
+    ],
+    prayer: "Come, Lord Jesus.\nWisdom of God, teach us to wait without numbing ourselves.\nRoot of Jesse, grow where we have cut hope down.\nKey of David, open what we have locked.\nEmmanuel, be with us in this house through these four weeks, until we meet you at the altar on Christmas.\nAmen.",
+    prayerHeading: "An Advent prayer",
+    related: [
+      { href: "/blog/advent-2026-start-date-when-does-advent-begin/", label: "When does Advent 2026 start?" },
+      { href: "/blog/complete-catholic-advent-guide/", label: "The complete Catholic Advent guide" },
+      { href: "/blog/advent-prayers/", label: "Advent prayers" },
+      { href: "/blog/st-andrew-christmas-novena-2026/", label: "The St. Andrew Christmas novena" },
+      { href: "/blog/catholic-christmas-traditions/", label: "Catholic Christmas traditions" },
+      { href: "/blog/catholic-christmas/", label: "Catholic Christmas 2026: Mass and the octave" },
+      { href: "/blog/immaculate-conception/", label: "Immaculate Conception, December 8" },
+      { href: "/blog/liturgical-seasons-guide/", label: "The liturgical seasons explained" },
+    ],
+    faqs: [
+      { question: "When does Advent 2026 start?", answer: "Sunday, November 29, 2026, in the Roman calendar. Evening Prayer I on Saturday, November 28, already belongs to Advent. Christmas Day is Friday, December 25." },
+      { question: "How long is Advent?", answer: "Four Sundays, ending before Evening Prayer of Christmas on December 24. In 2026 that is November 29 through December 24. It is not always twenty-four equal days." },
+      { question: "What is a Catholic Advent calendar?", answer: "The Church's calendar of the season: four Sundays, the weekdays of December 17–24, and the feasts inside Advent. A paper or chocolate calendar can help a child count; it is a custom, not the liturgy." },
+      { question: "Why is Advent purple?", answer: "Violet marks preparation. It is shared with Lent, but Advent is not Lent: the Alleluia remains, fasting is not required, and the season is described as expectant delight. Rose may be used on the Third Sunday, Gaudete." },
+      { question: "What is Gaudete Sunday 2026?", answer: "December 13, the Third Sunday of Advent. Gaudete means rejoice. The priest may wear rose. Saint Lucy's memorial yields to the Sunday that year." },
+      { question: "Do the four candles mean hope, peace, joy, and love?", answer: "That naming is a popular custom, not a rubric of the Missal. The Church's names are the First, Second, Third (Gaudete), and Fourth Sundays of Advent. You may use the four words at home if they help you pray." },
+      { question: "Can I put up a Christmas tree during Advent?", answer: "Yes. There is no prohibition. Many families wait, or set an empty crib, so the house still looks like waiting. In church, decorations are to be moderate until Christmas." },
+      { question: "Is Advent a time of fasting?", answer: "Not by current universal law. Personal penance and works of mercy are fitting. The required days remain the Sundays of Advent and, in the United States, the Immaculate Conception on December 8, 2026." },
+      { question: "What are the O Antiphons?", answer: "Seven antiphons for Evening Prayer from December 17 to 23, addressing Christ as Wisdom, Lord, Root of Jesse, Key of David, Dayspring, King of the nations, and Emmanuel. They have been sung since at least the eighth century." },
+      { question: "When should I start preparing, if it is still early November?", answer: "Now. The search for Advent always rises in November. Buy or make the wreath, mark November 29 and December 8, and choose one daily prayer before the First Sunday arrives." },
     ],
   },
 ];

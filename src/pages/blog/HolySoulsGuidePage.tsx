@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowLeft, BookOpen, Calendar, Clock, Flame, Heart, Moon } from "lucide-react";
+import { ArrowLeft, BookOpen, Briefcase, Calendar, Clock, Flame, HandHeart, Heart, Link2, Moon, Star } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,6 +13,7 @@ import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { CopyPrayerButton } from "@/components/blog/DailyPrayerExtras";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
+import { devotionCompanionGuideBySlug } from "@/data/devotionCompanionGuides";
 import { holySoulsGuideBySlug } from "@/data/holySoulsGuides";
 
 const ICONS: Record<string, LucideIcon> = {
@@ -22,6 +23,11 @@ const ICONS: Record<string, LucideIcon> = {
   "rosary-for-the-dead": Moon,
   "prayer-for-the-faithful-departed": Flame,
   "novena-for-holy-souls": Flame,
+  "novena-of-abandonment": HandHeart,
+  "novena-our-lady-undoer-of-knots": Link2,
+  "st-anthony-trezena": Heart,
+  "novena-for-finding-employment": Briefcase,
+  "three-wise-men": Star,
 };
 
 function Rich({ text }: { text: string }) {
@@ -54,7 +60,7 @@ function Rich({ text }: { text: string }) {
 export default function HolySoulsGuidePage() {
   const { pathname } = useLocation();
   const slug = pathname.replace(/^\/blog\//, "").replace(/\/$/, "");
-  const guide = holySoulsGuideBySlug(slug);
+  const guide = holySoulsGuideBySlug(slug) ?? devotionCompanionGuideBySlug(slug);
   if (!guide) return null;
 
   const pageUrl = `https://guidecatholic.com/blog/${guide.slug}/`;
@@ -135,7 +141,7 @@ export default function HolySoulsGuidePage() {
                     <a href={`#${section.id}`} className={cboLinkClass}>{section.heading}</a>
                   </li>
                 ))}
-                <li><a href="#holy-souls-prayer" className={cboLinkClass}>A prayer for the Holy Souls</a></li>
+                <li><a href="#holy-souls-prayer" className={cboLinkClass}>{guide.prayerHeading ?? "A prayer for the Holy Souls"}</a></li>
               </ol>
             </nav>
 
@@ -207,7 +213,7 @@ export default function HolySoulsGuidePage() {
               </section>
             ))}
 
-            <h2 id="holy-souls-prayer" className="scroll-mt-24 font-display text-2xl font-bold text-text mt-10 mb-4">A prayer for the Holy Souls</h2>
+            <h2 id="holy-souls-prayer" className="scroll-mt-24 font-display text-2xl font-bold text-text mt-10 mb-4">{guide.prayerHeading ?? "A prayer for the Holy Souls"}</h2>
             <p className="text-text leading-relaxed mb-4">
               This prayer was written for this guide. It is not a liturgical text from the Missal, and it does not guarantee any particular outcome.
             </p>

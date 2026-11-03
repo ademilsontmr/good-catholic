@@ -109,6 +109,8 @@ export default function PrayerOfAbandonmentCatholic() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-of-abandonment-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Prayer of Abandonment, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+              <p className="text-text leading-relaxed mb-6">If you want nine consecutive days of the same act of trust, pray the{" "}
+                <Link to="/blog/novena-of-abandonment/" className="text-accent font-semibold underline underline-offset-2">Novena of Abandonment</Link>.</p>
 
             </div>
             <BlogFAQ faqs={[

@@ -74,6 +74,8 @@ export default function CatholicAdventGuide() {
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">Advent prepares for Christmas over four weeks — hope, peace, joy, and love with violet or rose candles on the wreath. Catholics resist premature celebration, pray the O Antiphons, attend Reconciliation, and await Christ&apos;s coming in history, mystery, and majesty.</p>
+                <p className="text-text leading-relaxed mt-4 mb-0">For Advent 2026 dates, the Catholic Advent calendar, Gaudete Sunday, and the O Antiphons, start with the{" "}
+                  <Link to="/blog/advent/" className="text-accent font-semibold underline underline-offset-2">Advent 2026 guide</Link>.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 

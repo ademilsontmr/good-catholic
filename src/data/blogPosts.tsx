@@ -26,6 +26,78 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1558,
+    slug: "advent",
+    title: "Advent 2026: Catholic Calendar, Wreath & How to Prepare",
+    excerpt: "Advent 2026 starts November 29. The Catholic Advent calendar, wreath, Gaudete Sunday, O Antiphons, and how to wait for Christmas — not a second Lent.",
+    date: "2026-11-03",
+    readTime: "14 min",
+    category: "Liturgy & Worship",
+    icon: Calendar,
+    bgColor: "bg-indigo-50",
+    iconColor: "text-indigo-700"
+  },
+  {
+    id: 1557,
+    slug: "novena-of-abandonment",
+    title: "Novena of Abandonment: 9 Days of Trust in Providence",
+    excerpt: "A Catholic novena of abandonment: what holy trust is, how it differs from passivity, and how to pray nine days without treating surrender as magic.",
+    date: "2026-11-03",
+    readTime: "11 min",
+    category: "Prayers & Devotions",
+    icon: HandHeart,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1556,
+    slug: "novena-our-lady-undoer-of-knots",
+    title: "Our Lady Undoer of Knots Novena: History and How to Pray",
+    excerpt: "Our Lady Undoer of Knots: Irenaeus on Mary loosing Eve's knot, the Augsburg painting, Pope Francis, and how to pray the novena without superstition.",
+    date: "2026-11-03",
+    readTime: "11 min",
+    category: "Prayers & Devotions",
+    icon: Link2,
+    bgColor: "bg-blue-50",
+    iconColor: "text-blue-700"
+  },
+  {
+    id: 1555,
+    slug: "st-anthony-trezena",
+    title: "St. Anthony Trezena: The 13-Day Prayer before June 13",
+    excerpt: "The St. Anthony trezena is thirteen days of Catholic prayer before June 13: who Anthony was, why thirteen days, the poor, and how it differs from a nine-day novena.",
+    date: "2026-11-03",
+    readTime: "11 min",
+    category: "Prayers & Devotions",
+    icon: Heart,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-700"
+  },
+  {
+    id: 1554,
+    slug: "novena-for-finding-employment",
+    title: "Novena for Finding Employment: A Catholic Job-Search Prayer",
+    excerpt: "A Catholic novena for finding employment: providence, St. Joseph the Worker, nine days of prayer, and why looking for work is part of the prayer.",
+    date: "2026-11-03",
+    readTime: "11 min",
+    category: "Prayers & Devotions",
+    icon: Briefcase,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-800"
+  },
+  {
+    id: 1553,
+    slug: "three-wise-men",
+    title: "Three Wise Men and the Star of Bethlehem: A Catholic Guide",
+    excerpt: "Who the Magi were, what Matthew 2 actually says, gold, frankincense and myrrh, the names Caspar, Melchior and Balthasar, and the Star of Bethlehem.",
+    date: "2026-11-03",
+    readTime: "12 min",
+    category: "Scripture & Tradition",
+    icon: Star,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-600"
+  },
+  {
     id: 1552,
     slug: "november-month-of-the-holy-souls",
     title: "November: Catholic Month of the Holy Souls",

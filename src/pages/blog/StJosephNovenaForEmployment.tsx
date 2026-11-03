@@ -110,6 +110,8 @@ export default function StJosephNovenaForEmployment() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+              <p className="text-text leading-relaxed mb-6">For a job-search novena that sits beside St. Joseph rather than replacing him, see the{" "}
+                <Link to="/blog/novena-for-finding-employment/" className="text-accent font-semibold underline underline-offset-2">Novena for Finding Employment</Link>.</p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">St. Joseph Novena for employment and finding a job — 9-day Catholic prayer with full text, step-by-step guide, and when to pray for work and financial stability. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>

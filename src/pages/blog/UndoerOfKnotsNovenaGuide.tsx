@@ -110,6 +110,8 @@ export default function UndoerOfKnotsNovenaGuide() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="undoer-of-knots-novena-guide">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
+              <p className="text-text leading-relaxed mb-6">For Irenaeus, the Augsburg painting, and how this title spread, see{" "}
+                <Link to="/blog/novena-our-lady-undoer-of-knots/" className="text-accent font-semibold underline underline-offset-2">Our Lady Undoer of Knots: history and how to pray</Link>.</p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="undoer-of-knots-novena-guide">Mary Undoer of Knots novena — 9-day Catholic prayer with full text. How to pray when life feels tangled: marriage, family, work, and impossible situations. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
