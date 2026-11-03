@@ -188,6 +188,7 @@ const PrayerOfTrustInGod = lazy(() => import("./pages/blog/PrayerOfTrustInGod"))
 const SaintLifeGuidePage = lazy(() => import("./pages/blog/SaintLifeGuidePage"));
 const LiturgicalFeastGuidePage = lazy(() => import("./pages/blog/LiturgicalFeastGuidePage"));
 const AiWrittenPrayersGuide = lazy(() => import("./pages/blog/AiWrittenPrayersGuide"));
+const HolySoulsGuidePage = lazy(() => import("./pages/blog/HolySoulsGuidePage"));
 const BiblicalNumbersMeanings = lazy(() => import("./pages/blog/BiblicalNumbersMeanings"));
 const OurLadyImmaculateConceptionUSA = lazy(() => import("./pages/blog/OurLadyImmaculateConceptionUSA"));
 
@@ -1273,6 +1274,12 @@ export function AppRoutes() {
             <Route path="/blog/all-souls-day/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/biblical-numbers-meanings/" element={<BiblicalNumbersMeanings />} />
             <Route path="/blog/catholic-new-year/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/november-month-of-the-holy-souls/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/how-to-pray-for-the-dead/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/catholic-prayers-for-the-dead/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/rosary-for-the-dead/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/prayer-for-the-faithful-departed/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/novena-for-holy-souls/" element={<HolySoulsGuidePage />} />
             <Route path="/daily-catholic-prayers/" element={<Navigate to="/blog/daily-catholic-prayers/" replace />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />

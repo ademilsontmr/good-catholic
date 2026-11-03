@@ -26,6 +26,78 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1552,
+    slug: "november-month-of-the-holy-souls",
+    title: "November: Catholic Month of the Holy Souls",
+    excerpt: "Why Catholics keep November for the Holy Souls: All Souls' Day, the Nov. 1–8 cemetery indulgence, daily prayers, and a month-long plan.",
+    date: "2026-11-03",
+    readTime: "11 min",
+    category: "Prayers & Devotions",
+    icon: Calendar,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-700"
+  },
+  {
+    id: 1551,
+    slug: "how-to-pray-for-the-dead",
+    title: "How to Pray for the Dead: A Catholic Step-by-Step Guide",
+    excerpt: "Mass first, then Eternal Rest, cemetery, alms, and indulgences — the Church's order of suffrage after a death and in November.",
+    date: "2026-11-03",
+    readTime: "10 min",
+    category: "Prayers & Devotions",
+    icon: Heart,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-600"
+  },
+  {
+    id: 1550,
+    slug: "catholic-prayers-for-the-dead",
+    title: "Catholic Prayers for the Dead: Texts, When to Use Them",
+    excerpt: "Eternal Rest, Fidelium animae, De Profundis, and All Souls' texts — the prayers the Church actually uses for the faithful departed.",
+    date: "2026-11-03",
+    readTime: "11 min",
+    category: "Prayers & Devotions",
+    icon: BookOpen,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-700"
+  },
+  {
+    id: 1549,
+    slug: "rosary-for-the-dead",
+    title: "Rosary for the Dead: How Catholics Offer the Rosary for Souls",
+    excerpt: "How to offer the ordinary Rosary for the Holy Souls, including the custom of the Eternal Rest after each decade.",
+    date: "2026-11-03",
+    readTime: "10 min",
+    category: "Prayers & Devotions",
+    icon: Moon,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-600"
+  },
+  {
+    id: 1548,
+    slug: "prayer-for-the-faithful-departed",
+    title: "Prayer for the Faithful Departed: What the Phrase Means",
+    excerpt: "What “faithful departed” means in the Mass, the Memento of the Dead, and how Catholics pray without pretending to know a soul's state.",
+    date: "2026-11-03",
+    readTime: "10 min",
+    category: "Prayers & Devotions",
+    icon: Flame,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-700"
+  },
+  {
+    id: 1547,
+    slug: "novena-for-holy-souls",
+    title: "Novena for the Holy Souls: Nine Days of Prayer for the Dead",
+    excerpt: "How to pray a nine-day novena for the Holy Souls — when to start, how it sits beside Mass and indulgences, and where the daily text lives.",
+    date: "2026-11-03",
+    readTime: "10 min",
+    category: "Prayers & Devotions",
+    icon: Flame,
+    bgColor: "bg-slate-100",
+    iconColor: "text-slate-600"
+  },
+  {
     id: 1546,
     slug: "catholic-new-year",
     title: "Catholic New Year 2027: Peace, Grace & a Blessed Year",
