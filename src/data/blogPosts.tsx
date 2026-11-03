@@ -26,6 +26,30 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1546,
+    slug: "catholic-new-year",
+    title: "Catholic New Year 2027: Peace, Grace & a Blessed Year",
+    excerpt: "How to begin 2027 as a Catholic: Mass on January 1, World Day of Peace, and a year's plan for grace — without treating prosperity as a promise.",
+    date: "2026-11-02",
+    readTime: "11 min",
+    category: "Catholic Living",
+    icon: Star,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-600"
+  },
+  {
+    id: 1545,
+    slug: "biblical-numbers-meanings",
+    title: "Biblical Numbers and Their Meanings: A Catholic Guide",
+    excerpt: "What 3, 7, 12, 40, and 666 mean in Scripture — Catholic number symbolism, distinct from numerology, with the chapters to read.",
+    date: "2026-11-02",
+    readTime: "11 min",
+    category: "Scripture & Tradition",
+    icon: ListOrdered,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-700"
+  },
+  {
     id: 1544,
     slug: "all-souls-day",
     title: "All Souls' Day 2026 (Nov 2): Meaning, Mass & Indulgences",

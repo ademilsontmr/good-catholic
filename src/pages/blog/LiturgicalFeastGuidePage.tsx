@@ -28,6 +28,7 @@ const ICONS: Record<string, LucideIcon> = {
   "corpus-christi-usa": Cross,
   "catholic-christmas-traditions": TreePine,
   "all-souls-day": Flame,
+  "catholic-new-year": Star,
 };
 
 function Rich({ text }: { text: string }) {

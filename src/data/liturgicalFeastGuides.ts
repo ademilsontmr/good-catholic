@@ -1772,6 +1772,164 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
       { question: "Is Día de los Muertos Catholic?", answer: "It grew out of the Catholic feasts of All Saints and All Souls in Mexico and, kept with prayer and Mass for the dead, is a Christian custom. The Church rejects the separate cult of \"Santa Muerte.\"" },
     ],
   },
+  {
+    slug: "catholic-new-year",
+    title: "Catholic New Year 2027: Peace, Grace & a Blessed Year",
+    h1: "A Catholic New Year 2027: How to Begin in Peace, Grace, and True Prosperity",
+    description: "Catholic New Year 2027: Mass on January 1, World Day of Peace, and how to seek peace, grace, and daily bread — without treating prosperity as a promise.",
+    keywords: "catholic new year 2027, catholic new year resolutions, mary mother of god january 1 2027, world day of peace, te deum new year, veni creator, how to have a blessed year catholic, new year prayer catholic",
+    readTime: "11 min",
+    datePublished: "2026-11-02",
+    crumb: "Catholic New Year",
+    category: "Catholic Living",
+    lede: "The Church does not treat January 1 as a blank page you fill with wishes. She begins the civil year at Mass, under the title of Mary, Mother of God, and asks for peace. What follows is how a Catholic can enter 2027: not a list of guaranteed results, but the habits that actually open a year to grace.",
+    answer: "Start 2027 at Mass on Friday, January 1, the Solemnity of Mary, Mother of God, a Holy Day of Obligation in the United States. It is also the World Day of Peace. A Catholic year of peace and grace is not a set of resolutions the universe must honor. It is Sunday Mass, confession, daily prayer, honest work, and charity — begun with the Te Deum on December 31 and the Veni Creator on January 1. Prosperity, in the Gospel, is daily bread and a heart free enough to give. It is not a contract with God.",
+    facts: [
+      { label: "New Year's Day 2027", value: "Friday, January 1 — Mary, Mother of God" },
+      { label: "Obligation", value: "Yes, in the U.S. (it is not a Saturday or Monday)" },
+      { label: "Friday abstinence", value: "Does not apply: January 1 is a solemnity (canon 1251)" },
+      { label: "World Day of Peace", value: "Kept on January 1 since 1968" },
+      { label: "Gospel of the Mass", value: "Luke 2: the naming of Jesus on the eighth day" },
+      { label: "Christmas season ends", value: "Baptism of the Lord, Sunday, January 10, 2027" },
+    ],
+    timeline: [
+      { when: "Thursday, December 31, 2026", what: "Seventh day of the Christmas octave. Public Te Deum of thanksgiving; a plenary indulgence is attached, under the usual conditions. See the [[/blog/te-deum-prayer-catholic/|Te Deum]]." },
+      { when: "Friday, January 1, 2027", what: "Mary, Mother of God. Holy Day of Obligation. World Day of Peace. Public Veni Creator; a plenary indulgence is attached, under the usual conditions." },
+      { when: "Sunday, January 3", what: "Epiphany in the United States. Chalk the door; bless the house." },
+      { when: "Sunday, January 10", what: "Baptism of the Lord. The Christmas season ends; Ordinary Time begins." },
+      { when: "Wednesday, February 10", what: "Ash Wednesday. The next great reset of the year is Lent, not January 1. See [[/blog/ash-wednesday/|Ash Wednesday]]." },
+      { when: "Sunday, March 28", what: "Easter 2027. See [[/blog/catholic-easter/|Catholic Easter]]." },
+    ],
+    sections: [
+      {
+        id: "how-the-church-begins-the-year",
+        heading: "How the Church actually begins the year",
+        paragraphs: [
+          "Midnight fireworks are a civil custom. The Church's New Year is a Mass. On January 1 she keeps the Solemnity of Mary, the Holy Mother of God, the octave day of Christmas. The Gospel is the eighth day at Bethlehem: the Child is circumcised and given the name Jesus (" + `{{${CBO}luke/2/|Luke 2:16–21}}` + "). Saint Paul names the same mystery: \"when the fullness of time had come, God sent forth his Son, born of woman\" (" + `{{${CBO}galatians/4/|Galatians 4:4}}` + "). The year does not start with your plans. It starts with a Name already given.",
+          "The first reading is the blessing of Aaron: \"The Lord bless you and keep you… The Lord look upon you kindly and give you peace\" (" + `{{${CBO}numbers/6/|Numbers 6:22–27}}` + "). Peace is asked as a gift, not claimed as a mood. In 2027 the day falls on a Friday and remains a U.S. Holy Day of Obligation, because the Saturday–Monday exemption does not apply. Being a solemnity, it also lifts Friday abstinence. For the dogma behind the title, see [[/blog/mary-mother-of-god-catholic-dogma/|why Mary is called Mother of God]]. For the season around the day, see the [[/blog/catholic-christmas/|Catholic Christmas guide]].",
+        ],
+        callout: {
+          label: "World Day of Peace",
+          text: "Pope Paul VI placed a World Day of Peace on January 1, first observed in 1968, so that the civil new year would open with a prayer for peace among nations. Each year the Pope publishes a message. Read the current one from the Holy See; do not invent a theme. The peace the Mass asks is first the peace of Christ, then justice between peoples. See [[/blog/catholic-teaching-on-peace/|Catholic teaching on peace]].",
+        },
+      },
+      {
+        id: "peace",
+        heading: "A year of peace — the kind Christ gives",
+        paragraphs: [
+          "Jesus' farewell gift is not a quiet calendar. \"Peace I leave with you; my peace I give to you; not as the world gives do I give to you\" (" + `{{${CBO}john/14/|John 14:27}}` + "). The world's peace is the absence of trouble. His peace can be given in trouble. A Catholic new-year prayer for peace is a prayer to remain in that gift: in the family, in the parish, and, as far as your state of life allows, in public life.",
+        ],
+        list: [
+          "Go to Mass on January 1 and pray the Universal Prayer for peace among nations.",
+          "If a relationship is broken, take the first step you can take without lying or pretending. Peace is not the same as silence that hides a wound.",
+          "Pray the [[/blog/prayer-for-peace/|prayer for peace]] when the news is loud. Then do the next just thing in front of you.",
+          "Keep Sunday as a real rest: one day not owned by the phone, so the year has a rhythm of peace built in.",
+        ],
+        callout: {
+          label: "Peace is a fruit, not a technique",
+          text: "The Catechism calls peace \"the work of justice and the effect of charity\" (CCC 2304). No January ritual can manufacture it. Confession, forgiveness, and just dealing with other people are the ordinary Catholic means.",
+        },
+      },
+      {
+        id: "grace",
+        heading: "A year of grace — which means the sacraments",
+        paragraphs: [
+          "Grace is God's own life in the soul, not a streak of good luck. \"By grace you have been saved through faith… it is the gift of God\" (" + `{{${CBO}ephesians/2/|Ephesians 2:8}}` + "). A \"year of grace\" in Catholic speech is a year in which you actually receive what the Church already gives: the Eucharist, penance, and, if you are married or ordained, the grace of that state. Saint Paul heard, \"My grace is sufficient for you\" (" + `{{${CBO}2-corinthians/12/|2 Corinthians 12:9}}` + ") in weakness, not after a perfect January.",
+        ],
+        list: [
+          "Make a good confession before the year turns, or in the first days of January. Use an [[/blog/examination-of-conscience-guide/|examination of conscience]] and [[/blog/how-to-go-to-confession/|how to go to confession]] if you have been away.",
+          "Put Sunday Mass in the calendar first, then work and sport around it. Missing Sunday without a serious reason is not a small gap in a spiritual hobby; it is missing the source.",
+          "Add one daily prayer you will keep when the gym resolution has faded: the [[/blog/morning-offering-prayer/|Morning Offering]] takes less than a minute and gives the day to God before the day can take you.",
+          "If you can, a monthly [[/blog/how-to-do-a-holy-hour/|holy hour]]. An hour of adoration will change a year more than twenty unread books about change.",
+        ],
+        callout: {
+          label: "Two indulgences at the turn of the year",
+          text: "The Church grants a plenary indulgence, under the usual conditions, to the faithful who take part in the public recitation or singing of the Te Deum on December 31 and of the Veni Creator on January 1. Thanksgiving for the year that is ending, and a request for the Spirit at the year that is beginning: that is the Catholic \"reset.\"",
+        },
+      },
+      {
+        id: "true-prosperity",
+        heading: "What Catholics mean by a prosperous year",
+        paragraphs: [
+          "The Gospel does not promise a richer 2027 to people who pray hard enough. Jesus tells us to ask for daily bread and to \"seek first the kingdom of God and his righteousness,\" with the rest added as the Father knows we need it (" + `{{${CBO}matthew/6/|Matthew 6:33}}` + "). Saint James warns against the sentence \"today or tomorrow we will go… and get gain,\" and puts in its place: \"If the Lord wills, we shall live and we shall do this or that\" (" + `{{${CBO}james/4/|James 4:13–15}}` + ").",
+          "Catholic teaching on work and money is almost the opposite of the \"prosperity gospel.\" Work is a duty and a dignity (Catechism 2427–2436). The love of money is a snare (" + `{{${CBO}1-timothy/6/|1 Timothy 6:9–10}}` + "). God can bless a harvest, a job, and a household — " + `{{${CBO}psalms/127/|Psalm 127}}` + " says that unless the Lord builds the house, those who build it labor in vain — but he does not owe anyone a raise. A prosperous Catholic year is one in which you have enough to live, you do honest work, you pay what you owe, and you still have something to give.",
+        ],
+        table: {
+          caption: "A worldly new-year wish, and the Catholic version",
+          headers: ["The usual wish", "What to aim at instead"],
+          rows: [
+            ["\"This year I will finally have enough.\"", "Daily bread, and freedom from the lie that more would make you safe (" + `{{${CBO}matthew/6/|Matthew 6:11, 19–21}}` + ")."],
+            ["\"I will manifest abundance.\"", "Pray, then labor. \"Man does not live by bread alone\" (" + `{{${CBO}deuteronomy/8/|Deuteronomy 8:3}}` + "), and bread still has to be earned and shared."],
+            ["\"New year, new me.\"", "The same baptized person, converted a little more. Grace perfects a life; it does not replace it with a brand."],
+            ["\"I deserve a better year.\"", "\"Give thanks in all circumstances\" (" + `{{${CBO}1-thessalonians/5/|1 Thessalonians 5:18}}` + "). Gratitude is the Catholic starting point, not a prize at the end."],
+          ],
+        },
+        list: [
+          "Keep a household budget. Providence is not an excuse for chaos.",
+          "Give first: a planned gift to the parish and to the poor. The [[/blog/catholic-tithing-guide/|Catholic tithing guide]] explains the spirit of the tithe without turning it into a bargain with God.",
+          "If you are in real want, ask for help — from the parish, from family, from people who can actually give it. The Church's love for the poor is not a slogan for other people.",
+          "Thank God for what 2026 did contain. A [[/blog/prayer-of-thanksgiving/|prayer of thanksgiving]] on December 31 is more honest than a list of what the year failed to deliver.",
+        ],
+      },
+      {
+        id: "a-small-rule-of-life",
+        heading: "A small rule of life for 2027, not fifty resolutions",
+        paragraphs: [
+          "Most resolutions die in the second week because they try to rebuild a whole personality before breakfast. The Church already has a rule of life. You do not have to invent one. Choose a few of these and keep them when you fail at the rest.",
+        ],
+        table: {
+          caption: "A Catholic rule of life that can last past January",
+          headers: ["When", "What", "Why it lasts"],
+          rows: [
+            ["Every morning", "[[/blog/morning-offering-prayer/|Morning Offering]], even one sentence", "It is short enough to survive a bad week."],
+            ["Every Sunday", "Mass, on time, phone away", "The year is built of weeks. Lose Sunday and the year unravels."],
+            ["Every month", "Confession, or at least an examen you write down", "Conversion is maintenance, not a January event."],
+            ["Every Friday", "A small penance when it is not a solemnity", "Friday is still the day of the Cross in ordinary time."],
+            ["Every day, sometime", "A decade of the Rosary, or a psalm", "See [[/blog/how-to-pray-the-rosary-step-by-step/|how to pray the Rosary]] and the [[/blog/daily-catholic-prayers/|daily Catholic prayers]]."],
+            ["Once in the year", "A retreat, a pilgrimage, or a real day of silence", "A year needs one long drink, not only sips."],
+          ],
+        },
+        callout: {
+          label: "When you fail in February",
+          text: "You will. That is not the end of 2027. Confession exists. Begin again the same day. The saints are not people who never broke a resolution; they are people who returned.",
+        },
+      },
+      {
+        id: "what-to-do-this-week",
+        heading: "What to do between now and January 1",
+        paragraphs: [
+          "This guide is published while Advent is still ahead. You have weeks, not hours. Use them.",
+        ],
+        list: [
+          "Mark Friday, January 1, 2027, 10:00 a.m. or whatever Mass your parish actually offers, in the calendar now. If you will travel, look up the diocese you will be in.",
+          "Plan the Te Deum on December 31: many parishes sing it after an evening Mass or before midnight. If yours does not, pray it at home with the family.",
+          "Go to confession in Advent, while extra times are offered.",
+          "Write three thanksgivings for 2026 and one concrete work of mercy for 2027 — a name, a parish ministry, a person to visit. Vague charity does not happen.",
+          "Read " + `{{${CBO}matthew/6/|Matthew 6}}` + " once in December: the Our Father, the teaching on money, and the birds of the air. It is the best new-year examination there is.",
+          "Leave the crib up until Epiphany or the Baptism of the Lord. The year begins inside Christmas, not after you have packed it away. See [[/blog/catholic-christmas-traditions/|Catholic Christmas traditions]].",
+        ],
+      },
+    ],
+    prayer: "Holy Mary, Mother of God, on this first day we place 2027 in your hands and in the Name of your Son.\nLord Jesus, Prince of Peace, give us the peace the world cannot give: in our homes, in the Church, and among nations.\nHoly Spirit, fill the work we will do, the bread we will earn, and the gifts we will give. Teach us to seek the kingdom first, to ask for daily bread, and to say, if the Lord wills, we shall live.\nStay with those who dread this year, and make us faithful in small things until you come. Amen.",
+    related: [
+      { href: "/blog/mary-mother-of-god-catholic-dogma/", label: "Why Mary is called Mother of God" },
+      { href: "/blog/te-deum-prayer-catholic/", label: "The Te Deum of thanksgiving" },
+      { href: "/blog/morning-offering-prayer/", label: "The Morning Offering" },
+      { href: "/blog/prayer-for-peace/", label: "A prayer for peace" },
+      { href: "/blog/catholic-christmas/", label: "Catholic Christmas 2026: Mass and the octave" },
+      { href: "/blog/daily-catholic-prayers/", label: "Daily Catholic prayers" },
+    ],
+    faqs: [
+      { question: "Is January 1, 2027 a Holy Day of Obligation?", answer: "Yes, in the United States. Mary, Mother of God falls on a Friday, so the exemption that can apply when January 1 is a Saturday or Monday does not apply. Any Mass of the solemnity fulfills the obligation." },
+      { question: "Can Catholics eat meat on New Year's Day 2027?", answer: "Yes. January 1 is a solemnity, and canon 1251 lifts Friday abstinence on solemnities." },
+      { question: "What Mass does the Church keep on New Year's Day?", answer: "The Solemnity of Mary, the Holy Mother of God, the octave of Christmas. The Gospel is Luke 2:16–21, the naming of Jesus. It is also the World Day of Peace." },
+      { question: "How do Catholics pray for a good new year?", answer: "Go to Mass on January 1, thank God with the Te Deum on December 31, ask the Holy Spirit with the Veni Creator on January 1, and then keep the ordinary means of grace: Sunday Mass, confession, daily prayer, honest work, and charity. There is no Catholic formula that guarantees a painless year." },
+      { question: "Does the Catholic Church teach the prosperity gospel?", answer: "No. Catholics ask for daily bread and seek first the kingdom (Matthew 6). Work is a duty; almsgiving is a duty; God does not owe anyone wealth in return for prayer." },
+      { question: "What is the World Day of Peace?", answer: "A day of prayer for peace among nations, set on January 1 by Pope Paul VI and first observed in 1968. The Pope issues a message each year." },
+      { question: "Is there an indulgence at New Year?", answer: "Yes. A plenary indulgence, under the usual conditions, is granted for taking part in the public Te Deum on December 31 and the public Veni Creator on January 1." },
+      { question: "When does the Christmas season end in 2027?", answer: "On the Baptism of the Lord, Sunday, January 10, 2027. New Year's Day falls inside the octave of Christmas, not after it." },
+    ],
+  },
 ];
 
 export function liturgicalFeastGuideBySlug(slug: string): LiturgicalFeastGuide | undefined {
