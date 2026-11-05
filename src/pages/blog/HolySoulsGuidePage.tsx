@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowLeft, BookOpen, Briefcase, Calendar, Clock, Flame, HandHeart, Heart, Link2, Moon, Star } from "lucide-react";
+import { ArrowLeft, BookOpen, Briefcase, Calendar, Clock, Coins, Crown, Flame, HandHeart, Heart, Link2, Moon, Star } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -15,6 +15,7 @@ import { CopyPrayerButton } from "@/components/blog/DailyPrayerExtras";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 import { devotionCompanionGuideBySlug } from "@/data/devotionCompanionGuides";
 import { holySoulsGuideBySlug } from "@/data/holySoulsGuides";
+import { saintHedwigGuideBySlug } from "@/data/saintHedwigGuides";
 
 const ICONS: Record<string, LucideIcon> = {
   "november-month-of-the-holy-souls": Calendar,
@@ -28,6 +29,10 @@ const ICONS: Record<string, LucideIcon> = {
   "st-anthony-trezena": Heart,
   "novena-for-finding-employment": Briefcase,
   "three-wise-men": Star,
+  "saint-hedwig": Crown,
+  "saint-hedwig-prayer": Heart,
+  "saint-hedwig-novena": Calendar,
+  "saint-hedwig-financial-help": Coins,
 };
 
 function Rich({ text }: { text: string }) {
@@ -60,7 +65,7 @@ function Rich({ text }: { text: string }) {
 export default function HolySoulsGuidePage() {
   const { pathname } = useLocation();
   const slug = pathname.replace(/^\/blog\//, "").replace(/\/$/, "");
-  const guide = holySoulsGuideBySlug(slug) ?? devotionCompanionGuideBySlug(slug);
+  const guide = holySoulsGuideBySlug(slug) ?? devotionCompanionGuideBySlug(slug) ?? saintHedwigGuideBySlug(slug);
   if (!guide) return null;
 
   const pageUrl = `https://guidecatholic.com/blog/${guide.slug}/`;

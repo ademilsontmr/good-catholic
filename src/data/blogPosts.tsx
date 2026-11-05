@@ -26,6 +26,54 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1567,
+    slug: "saint-hedwig",
+    title: "Saint Hedwig of Silesia: Life, Feast Day & Mother of the Poor",
+    excerpt: "Saint Hedwig of Silesia (October 16): duchess, widow, Trebnitz Abbey, charity to the poor, and how Catholics ask her intercession without a bargain.",
+    date: "2026-11-05",
+    readTime: "14 min",
+    category: "Saints & Intercession",
+    icon: Crown,
+    bgColor: "bg-amber-50",
+    iconColor: "text-amber-700"
+  },
+  {
+    id: 1566,
+    slug: "saint-hedwig-prayer",
+    title: "Saint Hedwig Prayer: Catholic Petitions for Need and Charity",
+    excerpt: "Catholic prayers to Saint Hedwig: short petitions for need, gratitude, and charity — with Scripture, not a guaranteed debt miracle.",
+    date: "2026-11-05",
+    readTime: "11 min",
+    category: "Prayers & Devotions",
+    icon: Heart,
+    bgColor: "bg-rose-50",
+    iconColor: "text-rose-700"
+  },
+  {
+    id: 1565,
+    slug: "saint-hedwig-novena",
+    title: "Saint Hedwig Novena: 9 Days of Prayer for Need and Trust",
+    excerpt: "A Catholic Saint Hedwig novena: nine days of Scripture and petition for need and trust in Providence — without promising a financial miracle.",
+    date: "2026-11-05",
+    readTime: "13 min",
+    category: "Prayers & Devotions",
+    icon: Calendar,
+    bgColor: "bg-indigo-50",
+    iconColor: "text-indigo-700"
+  },
+  {
+    id: 1564,
+    slug: "saint-hedwig-financial-help",
+    title: "Saint Hedwig Financial Help: Debt, Need & Catholic Trust",
+    excerpt: "Saint Hedwig and financial help: why the indebted ask her intercession, what Scripture says about debt and alms, and how to pray without the prosperity gospel.",
+    date: "2026-11-05",
+    readTime: "12 min",
+    category: "Prayers & Devotions",
+    icon: Coins,
+    bgColor: "bg-emerald-50",
+    iconColor: "text-emerald-700"
+  },
+  {
     id: 1563,
     slug: "christmas-tree",
     title: "Christmas Tree: Catholic Meaning, History & How to Bless It",
