@@ -6,7 +6,7 @@ export interface LiturgicalFeastFact {
 export interface LiturgicalFeastSection {
   id: string;
   heading: string;
-  paragraphs: string[];
+  paragraphs?: string[];
   list?: string[];
   table?: { caption: string; headers: string[]; rows: string[][] };
   callout?: { label: string; text: string };

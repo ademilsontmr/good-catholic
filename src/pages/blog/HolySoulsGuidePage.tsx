@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import { Link, useLocation } from "react-router-dom";
-import { ArrowLeft, BookOpen, Briefcase, Calendar, Clock, Coins, Crown, Flame, HandHeart, Heart, Link2, Moon, Star } from "lucide-react";
+import { ArrowLeft, BookOpen, Briefcase, Calendar, Church, Clock, Coins, Cross, Crown, Flame, HandHeart, Heart, Home, Link2, Moon, Star } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
@@ -13,6 +13,7 @@ import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { CopyPrayerButton } from "@/components/blog/DailyPrayerExtras";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
+import { cboCompanionGuideBySlug } from "@/data/cboCompanionGuides";
 import { devotionCompanionGuideBySlug } from "@/data/devotionCompanionGuides";
 import { holySoulsGuideBySlug } from "@/data/holySoulsGuides";
 import { saintHedwigGuideBySlug } from "@/data/saintHedwigGuides";
@@ -33,6 +34,39 @@ const ICONS: Record<string, LucideIcon> = {
   "saint-hedwig-prayer": Heart,
   "saint-hedwig-novena": Calendar,
   "saint-hedwig-financial-help": Coins,
+  "catholic-saint-feast-prayers-nov-dec-jan-feb-guide": Calendar,
+  "st-andrew-prayer-catholic-guide": Church,
+  "o-antiphons-advent-prayer-guide": Calendar,
+  "advent-wreath-prayers-blessing-catholic-guide": Calendar,
+  "advent-bible-verses-catholic-scripture-guide": Calendar,
+  "catholic-christmas-prayers-complete-guide": Star,
+  "christmas-eve-prayer-vigil-creche-guide": Star,
+  "prayer-before-christmas-dinner-catholic-grace": Star,
+  "prayer-to-baby-jesus-nativity-catholic-guide": Star,
+  "st-stephen-prayer-catholic-guide": Flame,
+  "st-john-evangelist-prayer-catholic-guide": Church,
+  "holy-family-sunday-prayer-feast-guide": Home,
+  "holy-innocents-prayer-catholic-guide": Flame,
+  "mary-mother-of-god-prayer-feast-guide": Heart,
+  "catholic-prayers-january-new-year-epiphany-guide": Calendar,
+  "epiphany-prayer-three-kings-house-blessing": Star,
+  "baptism-of-the-lord-prayer-feast-guide": Star,
+  "st-john-neumann-prayer-catholic-guide": Church,
+  "st-anthony-abbot-prayer-catholic-guide": Church,
+  "st-agnes-prayer-catholic-guide": Flame,
+  "conversion-of-st-paul-prayer-catholic-guide": Church,
+  "st-john-bosco-prayer-catholic-guide": Church,
+  "presentation-of-the-lord-prayer-catholic-guide": Star,
+  "st-blaise-blessing-prayer-catholic-guide": Flame,
+  "st-valentine-prayer-catholic-guide": Heart,
+  "chair-of-st-peter-prayer-catholic-guide": Church,
+  "shrove-tuesday-catholic-prayer-guide": Cross,
+  "lent-preparation-prayer-guide": Cross,
+  "catholic-prayers-lent-preparation-guide": Cross,
+  "ash-wednesday-prayer-catholic-guide": Cross,
+  "forty-days-lent-prayers-reflections-guide": Cross,
+  "lent-repentance-examination-conscience-guide": Cross,
+  "catholic-fasting-prayer-lent-guide": Cross,
 };
 
 function Rich({ text }: { text: string }) {
@@ -65,7 +99,11 @@ function Rich({ text }: { text: string }) {
 export default function HolySoulsGuidePage() {
   const { pathname } = useLocation();
   const slug = pathname.replace(/^\/blog\//, "").replace(/\/$/, "");
-  const guide = holySoulsGuideBySlug(slug) ?? devotionCompanionGuideBySlug(slug) ?? saintHedwigGuideBySlug(slug);
+  const guide =
+    holySoulsGuideBySlug(slug) ??
+    devotionCompanionGuideBySlug(slug) ??
+    saintHedwigGuideBySlug(slug) ??
+    cboCompanionGuideBySlug(slug);
   if (!guide) return null;
 
   const pageUrl = `https://guidecatholic.com/blog/${guide.slug}/`;
@@ -172,7 +210,7 @@ export default function HolySoulsGuidePage() {
             {guide.sections.map((section) => (
               <section key={section.id} aria-labelledby={section.id}>
                 <h2 id={section.id} className="scroll-mt-24 font-display text-2xl font-bold text-text mt-10 mb-4">{section.heading}</h2>
-                {section.paragraphs.map((paragraph) => (
+                {section.paragraphs?.map((paragraph) => (
                   <p key={paragraph.slice(0, 48)} className="text-text leading-relaxed mb-6">
                     <Rich text={paragraph} />
                   </p>

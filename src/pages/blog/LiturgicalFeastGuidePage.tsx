@@ -170,7 +170,7 @@ export default function LiturgicalFeastGuidePage() {
             {guide.sections.map((section) => (
               <section key={section.id} aria-labelledby={section.id}>
                 <h2 id={section.id} className="scroll-mt-24 font-display text-2xl font-bold text-text mt-10 mb-4">{section.heading}</h2>
-                {section.paragraphs.map((paragraph) => (
+                {section.paragraphs?.map((paragraph) => (
                   <p key={paragraph.slice(0, 48)} className="text-text leading-relaxed mb-6">
                     <Rich text={paragraph} />
                   </p>

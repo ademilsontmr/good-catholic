@@ -1296,6 +1296,39 @@ export function AppRoutes() {
             <Route path="/blog/saint-hedwig-prayer/" element={<HolySoulsGuidePage />} />
             <Route path="/blog/saint-hedwig-novena/" element={<HolySoulsGuidePage />} />
             <Route path="/blog/saint-hedwig-financial-help/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/catholic-saint-feast-prayers-nov-dec-jan-feb-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-andrew-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/o-antiphons-advent-prayer-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/advent-wreath-prayers-blessing-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/advent-bible-verses-catholic-scripture-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/catholic-christmas-prayers-complete-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/christmas-eve-prayer-vigil-creche-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/prayer-before-christmas-dinner-catholic-grace/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/prayer-to-baby-jesus-nativity-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-stephen-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-john-evangelist-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/holy-family-sunday-prayer-feast-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/holy-innocents-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/mary-mother-of-god-prayer-feast-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/catholic-prayers-january-new-year-epiphany-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/epiphany-prayer-three-kings-house-blessing/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/baptism-of-the-lord-prayer-feast-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-john-neumann-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-anthony-abbot-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-agnes-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/conversion-of-st-paul-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-john-bosco-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/presentation-of-the-lord-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-blaise-blessing-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/st-valentine-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/chair-of-st-peter-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/shrove-tuesday-catholic-prayer-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/lent-preparation-prayer-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/catholic-prayers-lent-preparation-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/ash-wednesday-prayer-catholic-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/forty-days-lent-prayers-reflections-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/lent-repentance-examination-conscience-guide/" element={<HolySoulsGuidePage />} />
+            <Route path="/blog/catholic-fasting-prayer-lent-guide/" element={<HolySoulsGuidePage />} />
             <Route path="/daily-catholic-prayers/" element={<Navigate to="/blog/daily-catholic-prayers/" replace />} />
             <Route path="/blog/our-lady-immaculate-conception-patroness-usa/" element={<OurLadyImmaculateConceptionUSA />} />
             <Route path="/blog/saint-augustine-of-hippo/" element={<SaintAugustineOfHippo />} />
