@@ -117,9 +117,16 @@ export default function CatholicPrayerForProtection() {
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">3. Psalm 91: The Psalm of Protection</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-prayer-for-protection">
+              <LinkedText className="text-text leading-relaxed mb-4" currentSlug="catholic-prayer-for-protection">
                 Psalm 91 is the great biblical prayer of protection — the psalm that the devil quoted to Jesus during the temptation in the desert (Matthew 4:6), and that Jesus refused to use as a test of God's power. It is one of the most prayed psalms in the Catholic tradition, especially in times of danger or fear:
               </LinkedText>
+              <p className="text-text leading-relaxed mb-6">
+                For a full Catholic reading — dwelling, angels, Compline, and what the psalm does not promise — see the{" "}
+                <Link to="/blog/psalm-91-catholic-protection-prayer-guide/" className="text-accent font-semibold underline underline-offset-2">
+                  Psalm 91 Catholic protection prayer guide
+                </Link>
+                .
+              </p>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
                 <p className="text-text italic leading-relaxed text-sm">
                   He who dwells in the shelter of the Most High<br />

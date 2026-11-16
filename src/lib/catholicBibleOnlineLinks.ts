@@ -22,6 +22,9 @@ export const CBO_ROSARY = "https://catholicbibleonline.com/prayers/holy-rosary/"
 export const CBO_GUARDIAN_ANGEL = "https://catholicbibleonline.com/prayers/guardian-angel-prayer/";
 export const CBO_ST_MICHAEL_PRAYER = "https://catholicbibleonline.com/prayers/st-michael-prayer/";
 export const CBO_ADVENT_2026 = "https://catholicbibleonline.com/blog/advent-2026-novena-catholic-guide-dates-prayers-how-to-prepare/";
+export const CBO_PSALM_91_GUIDE =
+  "https://catholicbibleonline.com/blog/psalm-91-full-text-meaning-catholic-protection-guide/";
+export const CBO_PSALM_91 = "https://catholicbibleonline.com/bible/psalms/91/";
 
 export const cboLinkClass =
   "text-accent font-semibold underline underline-offset-2 hover:text-accent/80";

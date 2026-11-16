@@ -119,9 +119,16 @@ export default function BibleVersesAboutProtection() {
                     <p className="text-text-muted text-xs mt-2 leading-relaxed">Read Isaiah 54:17 once for the mind, once for the heart, once for the will regarding protection.</p>
                   </div>
               </div>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-protection">
+              <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-protection">
                 Psalm 91 is powerful — and misused when treated like a force field. Pray it as trust, then take prudent steps: seatbelts, wise friends, healthy boundaries. Return to the first verse after you finish the list. First impressions often reveal what your soul is actually asking God for beneath the label of protection.
               </LinkedText>
+              <p className="text-text leading-relaxed mb-6">
+                Go deeper with the{" "}
+                <Link to="/blog/psalm-91-catholic-protection-prayer-guide/" className="text-accent font-semibold underline underline-offset-2">
+                  Psalm 91 Catholic guide
+                </Link>
+                : meaning, angels, Compline, and how to pray the chapter without superstition.
+              </p>
               <QuizCTA
                 title={"How is protection affecting your walk with Christ?"}
                 description={"Get personalized next steps for Mass, Confession, and Scripture in a busy American schedule."}

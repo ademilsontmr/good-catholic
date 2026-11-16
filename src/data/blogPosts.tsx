@@ -26,6 +26,18 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1601,
+    slug: "psalm-91-catholic-protection-prayer-guide",
+    title: "Psalm 91: Catholic Meaning, Protection Prayer & How to Pray It",
+    excerpt: "A deep Catholic guide to Psalm 91 — dwelling in the Most High, angels, the noonday devil, Jesus in the desert, Compline, and how to pray it without superstition.",
+    date: "2026-11-16",
+    readTime: "18 min",
+    category: "Prayers & Devotions",
+    icon: Shield,
+    bgColor: "bg-slate-50",
+    iconColor: "text-slate-600"
+  },
+  {
     id: 1600,
     slug: "catholic-saint-feast-prayers-nov-dec-jan-feb-guide",
     title: "Catholic Feast-Day Prayers: November Through February",

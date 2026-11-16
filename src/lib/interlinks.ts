@@ -229,6 +229,8 @@ export const INTERLINK_MAP: Record<string, string> = {
   "prayer for the sick": "/blog/catholic-prayer-for-the-sick/",
   "prayer for anxiety": "/blog/catholic-prayer-for-anxiety/",
   "prayer for protection": "/blog/catholic-prayer-for-protection/",
+  "Psalm 91": "/blog/psalm-91-catholic-protection-prayer-guide/",
+  "psalm 91": "/blog/psalm-91-catholic-protection-prayer-guide/",
   "Prayer to Saint Michael": "/blog/saint-michael-prayer/",
   "St. Michael prayer": "/blog/saint-michael-prayer/",
   "Hail Mary": "/blog/hail-mary-prayer/",
