@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Regenerate public/sitemap.xml from App routes, BlogPage metadata, and URL fragment files.
+ * Regenerate public/sitemap.xml from App routes, src/data blog post metadata, and URL fragment files.
  * Run: node scripts/generate-sitemap.mjs
  */
 import fs from "fs";
@@ -20,7 +20,7 @@ function read(file) {
 
 function parseBlogDates(blogPageSource) {
   const dates = new Map();
-  for (const m of blogPageSource.matchAll(/slug: "([^"]+)"[\s\S]*?date: "(\d{4}-\d{2}-\d{2})"/g)) {
+  for (const m of blogPageSource.matchAll(/"?slug"?: "([^"]+)"[\s\S]*?"?date"?: "(\d{4}-\d{2}-\d{2})"/g)) {
     dates.set(m[1], m[2]);
   }
   return dates;
@@ -85,11 +85,17 @@ function articleLastmod(pathname, blogDates) {
 }
 
 const appSource = read("src/App.tsx");
-const blogSource = read("src/pages/BlogPage.tsx");
+// Blog listing data lives in src/data (blogPosts.tsx spreads the pope / saint / feast arrays).
+const blogSource = [
+  "src/data/blogPosts.tsx",
+  "src/data/popeBlogPosts.ts",
+  "src/data/saintOfDayBlogPosts.ts",
+  "src/data/catholicFeastDateBlogPosts.ts",
+].map(read).join("\n");
 const blogDates = parseBlogDates(blogSource);
 const blogPaths = extractAppBlogPaths(appSource);
 const totalPages = Math.ceil(
-  (blogSource.match(/slug: "/g) ?? []).length / POSTS_PER_PAGE
+  (blogSource.match(/"?slug"?: "/g) ?? []).length / POSTS_PER_PAGE
 );
 
 const staticPages = [
