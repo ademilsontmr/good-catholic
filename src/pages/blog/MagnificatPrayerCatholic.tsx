@@ -127,7 +127,7 @@ export default function MagnificatPrayerCatholic() {
               { question: "What does Magnificat mean?", answer: "It is the first word in the Latin Vulgate: Magnificat anima mea Dominum — My soul magnifies the Lord." },
               { question: "Can lay people pray the Magnificat at home?", answer: "Yes. It is a central part of Evening Prayer and can be prayed alone or with family without a priest." },
               { question: "Is the Magnificat sung or spoken?", answer: "Both. At solemn Vespers it is often chanted; in private devotion Catholics read it aloud or silently." },
-              { question: "What is the Magnificat magazine?", answer: "Magnificat is a popular U.S. monthly missal containing Mass readings, Morning and Evening Prayer, and meditations — named after this canticle." },,
+              { question: "What is the Magnificat magazine?", answer: "Magnificat is a popular U.S. monthly missal containing Mass readings, Morning and Evening Prayer, and meditations — named after this canticle." },
               { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }

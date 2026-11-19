@@ -173,7 +173,7 @@ export default function ConfessionTimesNearMe() {
               { question: "Can I go to Confession at any Catholic church?", answer: "Yes. A Catholic may usually go to Confession at any Catholic parish where a priest is available. You do not have to be registered at that parish." },
               { question: "What if I forgot the Act of Contrition?", answer: "Tell the priest. He can help you pray one, provide a simple version, or invite you to express sorrow for your sins in your own words." },
               { question: "Do I need an appointment for Confession?", answer: "Not if the parish has scheduled Confession times. If no time works for you, call the parish office and ask for an appointment with a priest." },
-              { question: "How long does Confession take?", answer: "A typical Confession can take 3 to 10 minutes. If it has been many years or you need pastoral guidance, schedule an appointment so the priest has enough time." },,
+              { question: "How long does Confession take?", answer: "A typical Confession can take 3 to 10 minutes. If it has been many years or you need pastoral guidance, schedule an appointment so the priest has enough time." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />

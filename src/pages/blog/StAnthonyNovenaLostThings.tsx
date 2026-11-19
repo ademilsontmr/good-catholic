@@ -123,7 +123,7 @@ export default function StAnthonyNovenaLostThings() {
               { question: "Can I pray for someone else?", answer: "Yes — for a child&apos;s backpack, spouse&apos;s wallet, or parent&apos;s hearing aids." },
               { question: "When is his feast day?", answer: "June 13. Parishes bless St. Anthony&apos;s Bread and hold special Masses." },
               { question: "What if I never find it?", answer: "The prayer asks for peace of mind even without recovery — that is itself a grace." },
-              { question: "Is the rhyming prayer Catholic?", answer: "Yes — the short rhyme and longer prayer are both widely used in U.S. Catholic devotion." },,
+              { question: "Is the rhyming prayer Catholic?", answer: "Yes — the short rhyme and longer prayer are both widely used in U.S. Catholic devotion." },
               { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }

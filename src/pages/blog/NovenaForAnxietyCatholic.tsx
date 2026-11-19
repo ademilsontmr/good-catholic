@@ -121,7 +121,7 @@ export default function NovenaForAnxietyCatholic() {
               { question: "How long is this novena?", answer: "Nine consecutive days at a consistent time. If you miss a day, resume rather than abandoning the novena." },
               { question: "Can I pray for someone else?", answer: "Yes. Name the person and situation in your intention — parents often pray for anxious children." },
               { question: "When should I start?", answer: "Any day — before a stressful event or whenever worry becomes overwhelming." },
-              { question: "Should I also see a therapist?", answer: "Yes when anxiety is severe or persistent. The Church teaches that prayer and responsible care belong together." },,
+              { question: "Should I also see a therapist?", answer: "Yes when anxiety is severe or persistent. The Church teaches that prayer and responsible care belong together." },
               { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }

@@ -94,11 +94,11 @@ export default function BlogPage() {
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
         <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:image" content="https://guidecatholic.com/og-image.svg" />
+        <meta property="og:image" content="https://guidecatholic.com/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={pageDescription} />
-        <meta name="twitter:image" content="https://guidecatholic.com/og-image.svg" />
+        <meta name="twitter:image" content="https://guidecatholic.com/og-image.png" />
       </Helmet>
 
       <div className="min-h-screen bg-background">

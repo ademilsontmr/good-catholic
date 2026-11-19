@@ -166,7 +166,7 @@ export default function DailyMassNearMe() {
               { question: "How long is Daily Mass?", answer: "Most weekday Masses last about 25 to 35 minutes, though this varies by parish, feast day, music, and homily length." },
               { question: "Can I receive Communion at Daily Mass?", answer: "Yes, if you are Catholic, properly disposed, and not conscious of unconfessed mortal sin. If you need Confession, go before receiving Communion." },
               { question: "Does Daily Mass fulfill the Sunday obligation?", answer: "No. A weekday Daily Mass does not fulfill the Sunday obligation. A Saturday evening Vigil Mass does fulfill the Sunday obligation." },
-              { question: "Where can I find today's Catholic Mass readings?", answer: "You can find the daily readings through the USCCB website, Catholic apps, missals, and parish worship aids." },,
+              { question: "Where can I find today's Catholic Mass readings?", answer: "You can find the daily readings through the USCCB website, Catholic apps, missals, and parish worship aids." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />

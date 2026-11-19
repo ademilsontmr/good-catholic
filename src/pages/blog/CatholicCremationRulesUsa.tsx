@@ -132,7 +132,7 @@ export default function CatholicCremationRulesUsa() {
               { question: "Can Catholics scatter ashes?", answer: "No. The Church teaches that cremated remains should be buried in a cemetery or entombed in a sacred place, not scattered or kept as mementos." },
               { question: "Why does the Church care about burial?", answer: "Burial witnesses to human dignity and resurrection hope. The body belonged to a person loved by God and is not disposable matter." },
               { question: "Can ashes be buried in the same plot as a spouse?", answer: "Yes. Catholic cemeteries commonly allow second interments or companion niches for cremated remains." },
-              { question: "What if ashes were already scattered?", answer: "Speak with a priest in Confession and for pastoral guidance. The Church focuses on repentance and honoring the dead going forward with prayer and Mass intentions." },,
+              { question: "What if ashes were already scattered?", answer: "Speak with a priest in Confession and for pastoral guidance. The Church focuses on repentance and honoring the dead going forward with prayer and Mass intentions." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />

@@ -124,7 +124,7 @@ export default function PalmSundayCatholicGuide() {
               { question: "Can I keep palms from year to year?", answer: "You may keep them as a sacramental in the home. When replacing them, return old palms to the church for respectful burning." },
               { question: "When is Palm Sunday 2026?", answer: "In 2026, Palm Sunday falls on March 29. The date moves each year because it depends on the date of Easter." },
               { question: "What color do priests wear on Palm Sunday?", answer: "Red — the color of the Passion and of martyrs, used because the Passion Gospel is proclaimed." },
-              { question: "Can I receive Communion on Palm Sunday?", answer: "Yes, if you are in a state of grace after Confession if needed. Palm Sunday is a full Mass with Eucharist." },,
+              { question: "Can I receive Communion on Palm Sunday?", answer: "Yes, if you are in a state of grace after Confession if needed. Palm Sunday is a full Mass with Eucharist." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />

@@ -158,7 +158,7 @@ export default function GloryBePrayer() {
               { question: "Is the Glory Be a Catholic prayer?", answer: "Yes. The Glory Be is a traditional Catholic doxology, but its praise of the Trinity is shared by many Christians." },
               { question: "What is a doxology?", answer: "A doxology is a short prayer of praise to God. The Glory Be is called the lesser doxology because it gives direct praise to the Father, Son, and Holy Spirit." },
               { question: "When is the Glory Be prayed in the Rosary?", answer: "It is prayed after the ten Hail Marys in each decade of the Rosary, before the Fatima Prayer if that prayer is included." },
-              { question: "Can I pray the Glory Be by itself?", answer: "Yes. It can be prayed alone anytime as a brief act of adoration, gratitude, and praise." },,
+              { question: "Can I pray the Glory Be by itself?", answer: "Yes. It can be prayed alone anytime as a brief act of adoration, gratitude, and praise." },
               { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }

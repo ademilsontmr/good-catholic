@@ -10,6 +10,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
+    "generate:article-dates": "node scripts/generate-article-dates.mjs",
     "indexnow": "node scripts/indexnow-submit.mjs",
     "preview": "vite preview"
   },

@@ -121,7 +121,7 @@ export default function NovenaBeforeSurgeryCatholic() {
               { question: "Should I receive Anointing?", answer: "Yes for serious surgery or illness — it is for the seriously ill, not only the dying." },
               { question: "Which saints for surgery?", answer: "Saint Luke, Saint Peregrine, Saint Padre Pio, and Mary Health of the Sick." },
               { question: "Does prayer replace medical care?", answer: "No — follow doctors&apos; orders; prayer complements medicine." },
-              { question: "Can I pray after surgery too?", answer: "Yes — extend prayer through rehabilitation." },,
+              { question: "Can I pray after surgery too?", answer: "Yes — extend prayer through rehabilitation." },
               { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }

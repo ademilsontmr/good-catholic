@@ -168,7 +168,7 @@ export default function GuardianAngelPrayer() {
               { question: "Is the Guardian Angel Prayer Catholic?", answer: "Yes. It is a traditional Catholic prayer asking one's guardian angel for light, protection, rule, and guidance." },
               { question: "Do Catholics worship guardian angels?", answer: "No. Worship belongs to God alone. Catholics honor angels as God's servants and ask for their help according to God's will." },
               { question: "Does everyone have a guardian angel?", answer: "Catholic tradition teaches that each person is entrusted to the care of a guardian angel, a sign of God's personal providence." },
-              { question: "When is the feast of the Guardian Angels?", answer: "The Memorial of the Holy Guardian Angels is celebrated on October 2." },,
+              { question: "When is the feast of the Guardian Angels?", answer: "The Memorial of the Holy Guardian Angels is celebrated on October 2." },
               { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }

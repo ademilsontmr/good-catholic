@@ -121,7 +121,7 @@ export default function NovenaForClarityCatholic() {
               { question: "Can I start any day?", answer: "Yes — Pentecost season is popular but not required." },
               { question: "Is clarity getting what I want?", answer: "No — clarity is knowing God&apos;s will and peace to accept it." },
               { question: "Should I use spiritual direction?", answer: "Recommended for vocation, marriage, or major career changes." },
-              { question: "Can I pray with my spouse?", answer: "Yes — couples facing decisions often pray the same novena together." },,
+              { question: "Can I pray with my spouse?", answer: "Yes — couples facing decisions often pray the same novena together." },
               { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }

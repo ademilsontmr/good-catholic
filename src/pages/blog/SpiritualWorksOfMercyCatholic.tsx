@@ -135,7 +135,7 @@ export default function SpiritualWorksOfMercyCatholic() {
               { question: "How do I instruct the ignorant?", answer: "Through catechesis, RCIA, answering sincere questions, sharing Catholic resources, and living the faith credibly." },
               { question: "Do spiritual works replace corporal works?", answer: "No. Catholics are called to both. They are two halves of one mercy." },
               { question: "What does bear wrongs patiently mean?", answer: "Enduring injustice or insult without revenge when loving correction is not possible — trusting God as judge while remaining charitable." },
-              { question: "How do I pray for the dead?", answer: "Offer Mass intentions, pray the Rosary or Eternal Rest for souls in purgatory, and remember deceased family at every Mass you attend." },,
+              { question: "How do I pray for the dead?", answer: "Offer Mass intentions, pray the Rosary or Eternal Rest for souls in purgatory, and remember deceased family at every Mass you attend." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />

@@ -121,7 +121,7 @@ export default function NovenaForFinancialHelpCatholic() {
               { question: "Can I pray while on public assistance?", answer: "Yes — there is no shame in needing help; the Church supports both prayer and social aid." },
               { question: "Should I tell my priest?", answer: "Optional but helpful — parishes often know resources." },
               { question: "Nine days only?", answer: "Classic form is nine days; continue prayer as needed." },
-              { question: "Is gambling a Catholic solution?", answer: "No — the Church warns against gambling as a fix for financial problems." },,
+              { question: "Is gambling a Catholic solution?", answer: "No — the Church warns against gambling as a fix for financial problems." },
               { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }

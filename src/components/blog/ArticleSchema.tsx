@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { ARTICLE_DATES } from "@/data/articleDates";
 
 interface ArticleSchemaProps {
   title: string;
@@ -17,8 +18,13 @@ export function ArticleSchema({
   datePublished,
   dateModified,
   author = "Guide Catholic",
-  image = "https://guidecatholic.com/og-image.svg",
+  image = "https://guidecatholic.com/og-image.png",
 }: ArticleSchemaProps) {
+  // Fall back to the blog listing date so every Article has datePublished and dateModified.
+  const slug = url.match(/\/blog\/([^/]+)\/?$/)?.[1];
+  const listedDate = slug ? ARTICLE_DATES[slug] : undefined;
+  datePublished = datePublished ?? listedDate;
+  dateModified = dateModified ?? datePublished;
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",

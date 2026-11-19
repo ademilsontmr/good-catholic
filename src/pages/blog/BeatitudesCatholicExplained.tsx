@@ -123,7 +123,7 @@ export default function BeatitudesCatholicExplained() {
               { question: "When do Catholics hear the Beatitudes?", answer: "They appear in the Lectionary, especially on All Saints Day and related feasts, and are studied in RCIA, Confirmation prep, and Bible study." },
               { question: "What does poor in spirit mean?", answer: "It is not poverty alone but spiritual humility — recognizing that we need God for everything and cannot save ourselves." },
               { question: "How many Beatitudes are there?", answer: "Matthew lists eight. Some traditions also note a ninth beatitude in Matthew 5:11–12 about persecution for Jesus' name." },
-              { question: "Did Jesus live the Beatitudes?", answer: "Yes. The Church teaches that Jesus is the perfect embodiment of every beatitude — meek, merciful, pure of heart, and persecuted for righteousness." },,
+              { question: "Did Jesus live the Beatitudes?", answer: "Yes. The Church teaches that Jesus is the perfect embodiment of every beatitude — meek, merciful, pure of heart, and persecuted for righteousness." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />

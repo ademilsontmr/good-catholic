@@ -136,7 +136,7 @@ export default function CorporalWorksOfMercyCatholic() {
               { question: "Are corporal works of mercy required?", answer: "They flow from love of neighbor and are strongly encouraged; caring for the poor is a constitutive part of the Gospel." },
               { question: "Can I fulfill them without joining a ministry?", answer: "Yes. Family generosity, helping a neighbor, donating goods, and visiting a sick relative are genuine works of mercy." },
               { question: "Where does burying the dead come from?", answer: "Honoring the dead appears in Tobit and early Christian practice. Catholic funerals witness to resurrection hope and human dignity." },
-              { question: "Do corporal works of mercy earn salvation?", answer: "No. We are saved by grace through faith. Works of mercy are fruit of that grace and union with Christ who identifies with the poor." },,
+              { question: "Do corporal works of mercy earn salvation?", answer: "No. We are saved by grace through faith. Works of mercy are fruit of that grace and union with Christ who identifies with the poor." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />

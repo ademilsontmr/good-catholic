@@ -167,7 +167,7 @@ export default function EucharisticAdorationNearMe() {
               { question: "Do I have to stay a full hour at Eucharistic Adoration?", answer: "No. A holy hour is a beautiful practice, but you may visit for 10, 15, or 30 minutes. The important thing is to pray with reverence and love." },
               { question: "Can non-Catholics attend Eucharistic Adoration?", answer: "Yes. Non-Catholics may quietly attend Adoration and pray. They should follow the chapel's reverent atmosphere and may ask a Catholic friend or parish staff member about customs." },
               { question: "What is perpetual adoration?", answer: "Perpetual adoration means the Blessed Sacrament is adored continuously, often 24 hours a day, with scheduled adorers committed to each hour." },
-              { question: "What should I bring to Adoration?", answer: "You can bring a Bible, Rosary, prayer book, journal, or nothing at all. Silence and attention are enough." },,
+              { question: "What should I bring to Adoration?", answer: "You can bring a Bible, Rosary, prayer book, journal, or nothing at all. Silence and attention are enough." },
               { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
               { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
