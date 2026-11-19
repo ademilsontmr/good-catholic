@@ -2881,12 +2881,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://guidecatholic.com/blog/list-of-all-popes-catholic-guide/</loc>
-    <lastmod>2026-11-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://guidecatholic.com/blog/list-of-saints-and-what-they-protect/</loc>
     <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -4592,12 +4586,6 @@
   </url>
   <url>
     <loc>https://guidecatholic.com/blog/what-is-advent-catholic/</loc>
-    <lastmod>2026-11-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://guidecatholic.com/blog/what-is-advent/</loc>
     <lastmod>2026-11-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

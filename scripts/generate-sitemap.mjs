@@ -35,9 +35,10 @@ function extractAppBlogPaths(appSource) {
     "/blog/:articleSlug",
   ]);
   const paths = new Set();
-  for (const m of appSource.matchAll(/path="(\/blog\/[^"]+)"/g)) {
+  for (const m of appSource.matchAll(/path="(\/blog\/[^"]+)"\s+element=\{\s*<(\w+)/g)) {
     const p = m[1];
-    if (skip.has(p) || p.includes(":")) continue;
+    // <Navigate> routes are client-side redirects, not indexable pages.
+    if (skip.has(p) || p.includes(":") || m[2] === "Navigate") continue;
     paths.add(p.endsWith("/") ? p : `${p}/`);
   }
   return [...paths].sort();
