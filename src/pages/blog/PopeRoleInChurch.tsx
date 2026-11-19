@@ -18,14 +18,14 @@ export default function PopeRoleInChurch() {
     <>
       <Helmet>
         <title>What Is the Pope's Role in the Catholic Church? Papal Authority Explained | Guide Catholic</title>
-        <meta name="description" content="Learn about the Pope's role in the Catholic Church — Peter as the first pope, apostolic succession, the three offices, papal infallibility (what it is and isn't), and how Catholics should relate to the Pope." />
+        <meta name="description" content="The Pope's role in the Catholic Church: Peter as first pope, apostolic succession, the three offices, papal infallibility, and how Catholics relate to him." />
         <meta name="keywords" content="what is the pope's role, papal authority, pope infallibility, petrine primacy, why do catholics follow the pope" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-popes-role-catholic-church/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="What Is the Pope's Role in the Catholic Church? Papal Authority Explained"
-          description="Learn about the Pope's role in the Catholic Church — Peter as the first pope, apostolic succession, the three offices, papal infallibility (what it is and isn't), and how Catholics should relate to the Pope."
+          description="The Pope's role in the Catholic Church: Peter as first pope, apostolic succession, the three offices, papal infallibility, and how Catholics relate to him."
           url="https://guidecatholic.com/blog/what-is-the-popes-role-catholic-church/"
         />
       <BreadcrumbSchema

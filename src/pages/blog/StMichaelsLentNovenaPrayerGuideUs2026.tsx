@@ -31,7 +31,7 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
         <title>St. Michael&apos;s Lent Novena 2026: 40-Day Catholic Prayer Guide (USA) | Guide Catholic</title>
         <meta
           name="description"
-          content="St. Michael's Lent 2026 runs August 15–September 29. Complete U.S. Catholic guide to the 40-day novena, fasting, spiritual warfare, calendar, and daily prayer — with links to the full novena text."
+          content="St. Michael's Lent 2026 runs August 15–September 29. U.S. Catholic guide to the 40-day novena, fasting, spiritual warfare, calendar, and daily prayer."
         />
         <meta
           name="keywords"

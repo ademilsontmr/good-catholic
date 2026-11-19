@@ -18,14 +18,14 @@ export default function CatholicPrayersGuide() {
     <>
       <Helmet>
         <title>Catholic Prayers: The Complete Guide to Essential Catholic Prayers | Guide Catholic</title>
-        <meta name="description" content="The complete guide to essential Catholic prayers — the Our Father, Hail Mary, Glory Be, Apostles' Creed, Act of Contrition, Rosary, and more. Full texts and explanations." />
+        <meta name="description" content="The complete guide to essential Catholic prayers — the Our Father, Hail Mary, Glory Be, Apostles' Creed, Act of Contrition, Rosary, and more." />
         <meta name="keywords" content="catholic prayers, essential catholic prayers, list of catholic prayers, our father prayer, hail mary prayer, apostles creed, act of contrition, glory be" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-prayers-complete-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Prayers: The Complete Guide to Essential Catholic Prayers"
-        description="The complete guide to essential Catholic prayers — the Our Father, Hail Mary, Glory Be, Apostles' Creed, Act of Contrition, Rosary, and more. Full texts and explanations."
+        description="The complete guide to essential Catholic prayers — the Our Father, Hail Mary, Glory Be, Apostles' Creed, Act of Contrition, Rosary, and more."
         url="https://guidecatholic.com/blog/catholic-prayers-complete-guide/"
       />
       <BreadcrumbSchema

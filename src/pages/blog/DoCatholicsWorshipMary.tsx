@@ -18,7 +18,7 @@ export default function DoCatholicsWorshipMary() {
     <>
       <Helmet>
         <title>Do Catholics Worship Mary? Understanding Marian Devotion | Guide Catholic</title>
-        <meta name="description" content="Do Catholics worship Mary? Learn the difference between worship and veneration, what hyperdulia means, the four Marian dogmas, and how to explain Marian devotion to non-Catholics." />
+        <meta name="description" content="Do Catholics worship Mary? The difference between worship and veneration, what hyperdulia means, the four Marian dogmas, and how to explain Marian devotion." />
         <meta name="keywords" content="do catholics worship mary, catholic mary worship, marian devotion, hyperdulia, why catholics honor mary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/do-catholics-worship-mary/" />
         <meta name="robots" content="index, follow" />

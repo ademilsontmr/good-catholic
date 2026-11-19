@@ -18,14 +18,14 @@ export default function CatholicTeachingAbortion() {
     <>
       <Helmet>
         <title>Catholic Teaching on Abortion: Why the Church Defends Every Human Life | Guide Catholic</title>
-        <meta name="description" content="Learn the Catholic Church's consistent teaching on abortion from the earliest centuries, the theological basis in human dignity, Evangelium Vitae, and how Catholics can be pro-life in practice." />
+        <meta name="description" content="The Catholic Church's consistent teaching on abortion since the earliest centuries, its basis in human dignity, Evangelium Vitae, and pro-life practice." />
         <meta name="keywords" content="catholic teaching on abortion, catholic church abortion, why catholics oppose abortion, pro-life catholic, abortion catholic doctrine" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-abortion/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Teaching on Abortion: Why the Church Defends Every Human Life"
-          description="Learn the Catholic Church's consistent teaching on abortion from the earliest centuries, the theological basis in human dignity, Evangelium Vitae, and how Catholics can be pro-life in practice."
+          description="The Catholic Church's consistent teaching on abortion since the earliest centuries, its basis in human dignity, Evangelium Vitae, and pro-life practice."
           url="https://guidecatholic.com/blog/catholic-teaching-on-abortion/"
         />
       <BreadcrumbSchema

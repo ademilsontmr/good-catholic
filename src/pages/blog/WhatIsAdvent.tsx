@@ -18,14 +18,14 @@ export default function WhatIsAdvent() {
     <>
       <Helmet>
         <title>What Is Advent? The Catholic Season of Waiting and Preparation | Guide Catholic</title>
-        <meta name="description" content="What is Advent? Learn about the Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent spiritually as a family." />
+        <meta name="description" content="What is Advent? The Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent as a family." />
         <meta name="keywords" content="what is advent catholic, advent season, advent wreath, advent calendar catholic, advent meaning, when does advent start" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-advent-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="What Is Advent? The Catholic Season of Waiting and Preparation"
-          description="What is Advent? Learn about the Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent spiritually as a family."
+          description="What is Advent? The Catholic Advent season, when it starts, the Advent wreath and candles, the O Antiphons, and how to observe Advent as a family."
           url="https://guidecatholic.com/blog/what-is-advent-catholic/"
         />
       <BreadcrumbSchema

@@ -17,14 +17,14 @@ export default function ReasonsNotToMarryCatholic() {
     <>
       <Helmet>
         <title>Reasons Not to Marry: Catholic Red Flags Before You Say Yes | Guide Catholic</title>
-        <meta name="description" content="Reasons not to marry Catholic — pressure, abuse, untreated addiction, refusal of children, fixing faith later, cohabitation trial marriage, and lack of freedom. Clarity with compassion." />
+        <meta name="description" content="Reasons not to marry Catholic — pressure, abuse, untreated addiction, refusal of children, fixing faith later, cohabitation trial marriage, and lack of freedom." />
         <meta name="keywords" content="reasons not to marry catholic, red flags before marriage catholic, should i call off wedding catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/reasons-not-to-marry-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Reasons Not to Marry: Catholic Red Flags Before You Say Yes"
-        description="Reasons not to marry Catholic — pressure, abuse, untreated addiction, refusal of children, fixing faith later, cohabitation trial marriage, and lack of freedom. Clarity with compassion."
+        description="Reasons not to marry Catholic — pressure, abuse, untreated addiction, refusal of children, fixing faith later, cohabitation trial marriage, and lack of freedom."
         url="https://guidecatholic.com/blog/reasons-not-to-marry-catholic/"
         datePublished="2026-09-22"
       />

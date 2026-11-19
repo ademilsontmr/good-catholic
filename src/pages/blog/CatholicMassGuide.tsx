@@ -18,14 +18,14 @@ export default function CatholicMassGuide() {
     <>
       <Helmet>
         <title>The Catholic Mass: A Complete Guide to Every Part of the Liturgy | Guide Catholic</title>
-        <meta name="description" content="Complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Dismissal. What happens, what it means, and how to participate fully." />
+        <meta name="description" content="Guide to the Catholic Mass, every part explained from the Introductory Rites to the Dismissal: what happens, what it means, and how to participate fully." />
         <meta name="keywords" content="catholic mass guide, parts of the mass, what happens at catholic mass, catholic mass explained, liturgy of the word, liturgy of the eucharist, mass for beginners" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-mass-complete-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Catholic Mass: A Complete Guide to Every Part of the Liturgy"
-        description="Complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Dismissal. What happens, what it means, and how to participate fully."
+        description="Guide to the Catholic Mass, every part explained from the Introductory Rites to the Dismissal: what happens, what it means, and how to participate fully."
         url="https://guidecatholic.com/blog/catholic-mass-complete-guide/"
       />
       <BreadcrumbSchema

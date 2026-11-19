@@ -18,14 +18,14 @@ export default function CatholicLastRites() {
     <>
       <Helmet>
         <title>Catholic Last Rites: What They Are, When to Call a Priest & What Happens | Guide Catholic</title>
-        <meta name="description" content="What are Catholic Last Rites? Learn about the Anointing of the Sick, Viaticum, and Apostolic Pardon — when to call a priest, what happens, and how to prepare a loved one for death." />
+        <meta name="description" content="What are Catholic Last Rites? Anointing of the Sick, Viaticum, and Apostolic Pardon: when to call a priest, what happens, and how to prepare a loved one." />
         <meta name="keywords" content="catholic last rites, anointing of the sick, viaticum catholic, last rites dying catholic, when to call priest dying, apostolic pardon catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-last-rites-explained/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Last Rites: What They Are, When to Call a Priest & What Happens"
-        description="What are Catholic Last Rites? Learn about the Anointing of the Sick, Viaticum, and Apostolic Pardon — when to call a priest, what happens, and how to prepare a loved one for death."
+        description="What are Catholic Last Rites? Anointing of the Sick, Viaticum, and Apostolic Pardon: when to call a priest, what happens, and how to prepare a loved one."
         url="https://guidecatholic.com/blog/catholic-last-rites-explained/"
       />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function WhatIsTheCatechism() {
     <>
       <Helmet>
         <title>What Is the Catechism of the Catholic Church? Complete Guide | Guide Catholic</title>
-        <meta name="description" content="Learn what the Catechism of the Catholic Church is, how it is organized, and how to use it. A complete guide to the CCC for Catholics and those curious about the faith." />
+        <meta name="description" content="What the Catechism of the Catholic Church is, how it is organized, and how to use it: a complete guide to the CCC for Catholics and the curious." />
         <meta name="keywords" content="catechism of the catholic church, what is the catechism, CCC catholic, catechism guide, catholic catechism explained" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catechism-of-the-catholic-church/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is the Catechism of the Catholic Church? Complete Guide"
-        description="Learn what the Catechism of the Catholic Church is, how it is organized, and how to use it. A complete guide to the CCC for Catholics and those curious about the faith."
+        description="What the Catechism of the Catholic Church is, how it is organized, and how to use it: a complete guide to the CCC for Catholics and the curious."
         url="https://guidecatholic.com/blog/what-is-the-catechism-of-the-catholic-church/"
       />
       <BreadcrumbSchema

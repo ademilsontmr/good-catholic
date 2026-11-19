@@ -18,14 +18,14 @@ export default function ReasonsToBecomeCatholic() {
     <>
       <Helmet>
         <title>10 Reasons to Become Catholic: Why People Are Joining the Church | Guide Catholic</title>
-        <meta name="description" content="Why are so many people becoming Catholic? 10 compelling reasons — from the Eucharist to the intellectual tradition to the Communion of Saints — that draw people to the Catholic Church." />
+        <meta name="description" content="Why are so many becoming Catholic? 10 reasons, from the Eucharist to the intellectual tradition to the Communion of Saints, that draw people to the Church." />
         <meta name="keywords" content="reasons to become catholic, why become catholic, why join the catholic church, why people convert to catholicism, benefits of being catholic, why catholicism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/reasons-to-become-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="10 Reasons to Become Catholic: Why People Are Joining the Church"
-        description="Why are so many people becoming Catholic? 10 compelling reasons — from the Eucharist to the intellectual tradition to the Communion of Saints — that draw people to the Catholic Church."
+        description="Why are so many becoming Catholic? 10 reasons, from the Eucharist to the intellectual tradition to the Communion of Saints, that draw people to the Church."
         url="https://guidecatholic.com/blog/reasons-to-become-catholic/"
       />
       <BreadcrumbSchema

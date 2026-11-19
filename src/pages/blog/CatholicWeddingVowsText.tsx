@@ -17,14 +17,14 @@ export default function CatholicWeddingVowsText() {
     <>
       <Helmet>
         <title>Catholic Wedding Vows: Official Consent USA | Guide Catholic</title>
-        <meta name="description" content="Official Catholic wedding vows from the Order of Celebrating Matrimony (USA): consent text, priest questions, rings, and why vows are sacramental consent—not custom poetry." />
+        <meta name="description" content="Official Catholic wedding vows from the Order of Celebrating Matrimony (USA): consent text, priest questions, rings, and why vows are sacramental consent." />
         <meta name="keywords" content="catholic wedding vows, catholic marriage vows text, order of celebrating matrimony vows" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-vows/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Wedding Vows: The Official Consent Text (USA)"
-        description="Official Catholic wedding vows from the Order of Celebrating Matrimony (USA): consent text, priest questions, rings, and why vows are sacramental consent—not custom poetry."
+        description="Official Catholic wedding vows from the Order of Celebrating Matrimony (USA): consent text, priest questions, rings, and why vows are sacramental consent."
         url="https://guidecatholic.com/blog/catholic-wedding-vows/"
         datePublished="2026-09-22"
       />

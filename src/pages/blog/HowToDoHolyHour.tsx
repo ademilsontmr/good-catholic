@@ -18,14 +18,14 @@ export default function HowToDoHolyHour() {
     <>
       <Helmet>
         <title>How to Do a Holy Hour: Complete Catholic Guide to Eucharistic Adoration | Guide Catholic</title>
-        <meta name="description" content="Learn how to do a Holy Hour of Eucharistic Adoration. Discover what to pray, how to structure your time, and why spending an hour with Jesus transforms your life." />
+        <meta name="description" content="How to do a Holy Hour of Eucharistic Adoration: what to pray, how to structure your time, and why an hour with Jesus transforms your life." />
         <meta name="keywords" content="holy hour catholic, how to do holy hour, eucharistic adoration guide, holy hour prayers, spending time with jesus" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-do-a-holy-hour/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Do a Holy Hour: Complete Catholic Guide to Eucharistic Adoration"
-        description="Learn how to do a Holy Hour of Eucharistic Adoration. Discover what to pray, how to structure your time, and why spending an hour with Jesus transforms your life."
+        description="How to do a Holy Hour of Eucharistic Adoration: what to pray, how to structure your time, and why an hour with Jesus transforms your life."
         url="https://guidecatholic.com/blog/how-to-do-a-holy-hour/"
       />
       <BreadcrumbSchema

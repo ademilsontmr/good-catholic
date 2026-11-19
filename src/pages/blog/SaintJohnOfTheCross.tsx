@@ -18,14 +18,14 @@ export default function SaintJohnOfTheCross() {
     <>
       <Helmet>
         <title>Saint John of the Cross: The Dark Night of the Soul & Mystical Doctor | Guide Catholic</title>
-        <meta name="description" content="Discover Saint John of the Cross — the Carmelite mystic who wrote the greatest mystical poetry in the Spanish language and mapped the soul's journey to union with God." />
+        <meta name="description" content="Saint John of the Cross: the Carmelite mystic who wrote the greatest mystical poetry in Spanish and mapped the soul's journey to union with God." />
         <meta name="keywords" content="saint john of the cross, dark night of the soul, john of the cross mysticism, carmelite mystic, doctor of the church john of the cross, feast day december 14" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-john-of-the-cross/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint John of the Cross: The Dark Night of the Soul & Mystical Doctor"
-        description="Discover Saint John of the Cross — the Carmelite mystic who wrote the greatest mystical poetry in the Spanish language and mapped the soul's journey to union with God."
+        description="Saint John of the Cross: the Carmelite mystic who wrote the greatest mystical poetry in Spanish and mapped the soul's journey to union with God."
         url="https://guidecatholic.com/blog/saint-john-of-the-cross/"
       />
       <BreadcrumbSchema

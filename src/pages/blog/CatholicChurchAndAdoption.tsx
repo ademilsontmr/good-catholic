@@ -17,7 +17,7 @@ export default function CatholicChurchAndAdoption() {
     <>
       <Helmet>
         <title>What Does the Catholic Church Teach About Adoption? | Guide Catholic</title>
-        <meta name="description" content="Catholic Church teaching on adoption — real parenthood, openness to life when conception is difficult, infant and foster adoption, and moral principles at a high level." />
+        <meta name="description" content="Catholic Church teaching on adoption: real parenthood, openness to life when conception is difficult, infant and foster adoption, and moral principles." />
         <meta name="keywords" content="catholic church adoption, catholic teaching adoption, adoptive parents catholic, foster adoption catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-church-and-adoption/" />
         <meta name="robots" content="index, follow" />

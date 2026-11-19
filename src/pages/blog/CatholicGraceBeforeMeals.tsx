@@ -18,14 +18,14 @@ export default function CatholicGraceBeforeMeals() {
     <>
       <Helmet>
         <title>Catholic Grace Before Meals: Traditional and Modern Prayers | Guide Catholic</title>
-        <meta name="description" content="Learn the traditional Catholic grace before meals — 'Bless us, O Lord' — plus other versions, the theology of blessing food, grace after meals, and tips for family mealtime prayer." />
+        <meta name="description" content="The traditional Catholic grace before meals, 'Bless us, O Lord,' plus other versions, grace after meals, and tips for family mealtime prayer." />
         <meta name="keywords" content="catholic grace before meals, blessing before meals, grace before meals prayer, bless us o lord, catholic meal prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-grace-before-meals/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Grace Before Meals: Traditional and Modern Prayers"
-          description="Learn the traditional Catholic grace before meals — 'Bless us, O Lord' — plus other versions, the theology of blessing food, grace after meals, and tips for family mealtime prayer."
+          description="The traditional Catholic grace before meals, 'Bless us, O Lord,' plus other versions, grace after meals, and tips for family mealtime prayer."
           url="https://guidecatholic.com/blog/catholic-grace-before-meals/"
         />
       <BreadcrumbSchema

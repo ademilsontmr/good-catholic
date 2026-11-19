@@ -17,12 +17,12 @@ export default function StMonicaNovenaForChildren() {
     <>
       <Helmet>
         <title>St. Monica Novena for Children: 9-Day Prayer for Conversion & Return | Guide Catholic</title>
-        <meta name="description" content="St. Monica Novena for children — 9-day Catholic prayer for wayward sons and daughters, conversion, and return to the faith. Full text for parents in the USA. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." />
+        <meta name="description" content="St. Monica Novena for children — 9-day Catholic prayer for wayward sons and daughters, conversion, and return to the faith. Full text for parents in the USA." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-monica-novena-for-children/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="St. Monica Novena for Children: 9-Day Prayer for Conversion & Return" description="St. Monica Novena for children — 9-day Catholic prayer for wayward sons and daughters, conversion, and return to the faith. Full text for parents in the USA. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/st-monica-novena-for-children/" datePublished="2026-05-30" />
+      <ArticleSchema title="St. Monica Novena for Children: 9-Day Prayer for Conversion & Return" description="St. Monica Novena for children — 9-day Catholic prayer for wayward sons and daughters, conversion, and return to the faith. Full text for parents in the USA." url="https://guidecatholic.com/blog/st-monica-novena-for-children/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

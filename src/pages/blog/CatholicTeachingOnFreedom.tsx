@@ -18,14 +18,14 @@ export default function CatholicTeachingOnFreedom() {
     <>
       <Helmet>
         <title>What Is Freedom? The Catholic Teaching on True Liberty | Guide Catholic</title>
-        <meta name="description" content="The Catholic understanding of freedom is radically different from the secular one. True freedom is not doing whatever you want — it is the capacity to choose the good and become who you are meant to be." />
+        <meta name="description" content="Catholic freedom differs from the secular idea: not doing whatever you want, but the capacity to choose the good and become who you are meant to be." />
         <meta name="keywords" content="what is freedom catholic, true freedom catholic, freedom and truth catholic, free will catholic, liberty and license catholic, catechism on freedom" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-freedom-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is Freedom? The Catholic Teaching on True Liberty"
-        description="The Catholic understanding of freedom is radically different from the secular one. True freedom is not doing whatever you want — it is the capacity to choose the good and become who you are meant to be."
+        description="Catholic freedom differs from the secular idea: not doing whatever you want, but the capacity to choose the good and become who you are meant to be."
         url="https://guidecatholic.com/blog/what-is-freedom-catholic/"
       />
       <BreadcrumbSchema

@@ -18,7 +18,7 @@ export default function WhyProtestantReformation() {
     <>
       <Helmet>
         <title>Why Did the Protestant Reformation Happen? A Catholic Perspective | Guide Catholic</title>
-        <meta name="description" content="Why did the Protestant Reformation happen? A Catholic perspective on Martin Luther, the 95 Theses, the Council of Trent, and how Catholics should view Protestants today." />
+        <meta name="description" content="Why did the Protestant Reformation happen? A Catholic view of Martin Luther, the 95 Theses, the Council of Trent, and how Catholics should view Protestants." />
         <meta name="keywords" content="why did the protestant reformation happen, protestant reformation catholic view, martin luther reformation, causes of reformation, catholic response to reformation" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-did-the-protestant-reformation-happen/" />
         <meta name="robots" content="index, follow" />

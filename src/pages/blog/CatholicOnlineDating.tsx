@@ -17,14 +17,14 @@ export default function CatholicOnlineDating() {
     <>
       <Helmet>
         <title>Is Online Dating Okay for Catholics? A Discernment Guide | Guide Catholic</title>
-        <meta name="description" content="Catholic online dating can be licit when oriented toward vocation, chastity, and marriage — not hookup culture. Discernment, red flags, apps, and parish alternatives explained." />
+        <meta name="description" content="Catholic online dating can be licit when oriented toward vocation, chastity, and marriage — not hookup culture." />
         <meta name="keywords" content="catholic online dating, online dating catholic, catholic dating apps, is online dating a sin catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-online-dating/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Is Online Dating Okay for Catholics?"
-        description="Catholic online dating can be licit when oriented toward vocation, chastity, and marriage — not hookup culture. Discernment, red flags, apps, and parish alternatives explained."
+        description="Catholic online dating can be licit when oriented toward vocation, chastity, and marriage — not hookup culture."
         url="https://guidecatholic.com/blog/catholic-online-dating/"
         datePublished="2026-09-22"
       />

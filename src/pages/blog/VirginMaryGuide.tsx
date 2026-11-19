@@ -18,14 +18,14 @@ export default function VirginMaryGuide() {
     <>
       <Helmet>
         <title>The Virgin Mary: Mother of God, Apparitions, Prayers & Catholic Devotion | Guide Catholic</title>
-        <meta name="description" content="Complete Catholic guide to the Virgin Mary — her role in salvation history, the four Marian dogmas, major apparitions, the Rosary, and how to grow in Marian devotion." />
+        <meta name="description" content="Catholic guide to the Virgin Mary: her role in salvation history, the four Marian dogmas, major apparitions, the Rosary, and growing in Marian devotion." />
         <meta name="keywords" content="virgin mary catholic, mother of god, marian devotion, our lady, hail mary prayer, marian apparitions, immaculate conception, assumption of mary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/virgin-mary-complete-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Virgin Mary: Mother of God, Apparitions, Prayers & Catholic Devotion"
-        description="Complete Catholic guide to the Virgin Mary — her role in salvation history, the four Marian dogmas, major apparitions, the Rosary, and how to grow in Marian devotion."
+        description="Catholic guide to the Virgin Mary: her role in salvation history, the four Marian dogmas, major apparitions, the Rosary, and growing in Marian devotion."
         url="https://guidecatholic.com/blog/virgin-mary-complete-guide/"
       />
       <BreadcrumbSchema

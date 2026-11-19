@@ -19,14 +19,14 @@ export default function SaintAndreBessette() {
     <>
       <Helmet>
         <title>Saint André Bessette: Life, Feast Day, and St. Joseph’s Oratory | Guide Catholic</title>
-        <meta name="description" content="Who Saint André Bessette was: the Holy Cross doorkeeper of Montreal, St. Joseph’s Oratory, his feast on January 6 or 7, and how to ask his prayers without treating oil as a cure." />
+        <meta name="description" content="Saint André Bessette, Holy Cross doorkeeper of Montreal: St. Joseph’s Oratory, feast January 6 or 7, and asking his prayers without treating oil as a cure." />
         <meta name="keywords" content="saint andre bessette, brother andre, st joseph oratory, saint andre bessette feast day, brother andre miracles, st joseph oil, holy cross brother andre" />
         <link rel="canonical" href={PAGE} />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint André Bessette: Life, Feast Day, and St. Joseph’s Oratory"
-        description="Who Saint André Bessette was: the Holy Cross doorkeeper of Montreal, St. Joseph’s Oratory, his feast on January 6 or 7, and how to ask his prayers without treating oil as a cure."
+        description="Saint André Bessette, Holy Cross doorkeeper of Montreal: St. Joseph’s Oratory, feast January 6 or 7, and asking his prayers without treating oil as a cure."
         url={PAGE}
         datePublished="2026-10-16"
         dateModified="2026-10-16"

@@ -18,14 +18,14 @@ export default function SaintJoanOfArc() {
     <>
       <Helmet>
         <title>Saint Joan of Arc: The Maid of Orléans, Her Life, Trial & Legacy | Guide Catholic</title>
-        <meta name="description" content="Discover Saint Joan of Arc — the teenage peasant girl who led France to victory, was burned at the stake at 19, and was canonized 500 years later. Her life, voices, trial, and enduring legacy." />
+        <meta name="description" content="Discover Saint Joan of Arc — the teenage peasant girl who led France to victory, was burned at the stake at 19, and was canonized 500 years later." />
         <meta name="keywords" content="saint joan of arc, maid of orleans, joan of arc life, joan of arc trial, joan of arc burned at stake, patron saint of france, feast day may 30" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-joan-of-arc/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Joan of Arc: The Maid of Orléans, Her Life, Trial & Legacy"
-        description="Discover Saint Joan of Arc — the teenage peasant girl who led France to victory, was burned at the stake at 19, and was canonized 500 years later. Her life, voices, trial, and enduring legacy."
+        description="Discover Saint Joan of Arc — the teenage peasant girl who led France to victory, was burned at the stake at 19, and was canonized 500 years later."
         url="https://guidecatholic.com/blog/saint-joan-of-arc/"
       />
       <BreadcrumbSchema

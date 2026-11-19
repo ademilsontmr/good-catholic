@@ -18,7 +18,7 @@ export default function DeuterocanonicalBooks() {
     <>
       <Helmet>
         <title>The Deuterocanonical Books: Why Catholics Have 7 More Books in the Bible | Guide Catholic</title>
-        <meta name="description" content="Why does the Catholic Bible have 7 more books than the Protestant Bible? Learn about the deuterocanonical books, the Septuagint, the Council of Trent, and how to respond to Protestant objections." />
+        <meta name="description" content="Why does the Catholic Bible have 7 more books than the Protestant one? The deuterocanonical books, the Septuagint, the Council of Trent, and objections." />
         <meta name="keywords" content="deuterocanonical books, catholic bible books, 7 extra books catholic bible, apocrypha catholic, why catholic bible has more books" />
         <link rel="canonical" href="https://guidecatholic.com/blog/deuterocanonical-books-catholic-bible/" />
         <meta name="robots" content="index, follow" />

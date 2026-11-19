@@ -18,14 +18,14 @@ export default function StayingCatholicInCollege() {
     <>
       <Helmet>
         <title>Staying Catholic in College: A Practical Guide for Catholic Students | Guide Catholic</title>
-        <meta name="description" content="How to stay Catholic in college — finding a Newman Center, navigating secular culture, maintaining your faith, and growing spiritually during your college years." />
+        <meta name="description" content="How to stay Catholic in college: finding a Newman Center, navigating secular culture, keeping your faith, and growing spiritually during your college years." />
         <meta name="keywords" content="staying catholic in college, catholic college students, newman center, catholic campus ministry, how to stay catholic, faith in college, catholic young adults" />
         <link rel="canonical" href="https://guidecatholic.com/blog/staying-catholic-in-college/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Staying Catholic in College: A Practical Guide for Catholic Students"
-        description="How to stay Catholic in college — finding a Newman Center, navigating secular culture, maintaining your faith, and growing spiritually during your college years."
+        description="How to stay Catholic in college: finding a Newman Center, navigating secular culture, keeping your faith, and growing spiritually during your college years."
         url="https://guidecatholic.com/blog/staying-catholic-in-college/"
       />
       <BreadcrumbSchema

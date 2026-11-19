@@ -344,7 +344,7 @@ export const searchGuides: SearchGuide[] = [
     slug: "st-joseph-house-novena-2026",
     h1: "St. Joseph Novena for Buying a House in 2026",
     title: "St. Joseph Novena for Buying a House (2026) | Guide Catholic",
-    description: "The 2026 St. Joseph novena if you are trying to buy a house this year: when to start the nine days, what to pray before an inspection, and what not to promise God.",
+    description: "The 2026 St. Joseph novena for buying a house this year: when to start the nine days, what to pray before an inspection, and what not to promise God.",
     keywords: "st joseph novena for buying a house 2026, st joseph house prayer 2026, novena to buy a house this year, saint joseph home buyer prayer",
     excerpt: "It is still 2026. If you are trying to buy before the year ends, the novena has a date attached to it: nine days that include the inspection, the offer, or the night you almost panic.",
     crumb: "House novena 2026",

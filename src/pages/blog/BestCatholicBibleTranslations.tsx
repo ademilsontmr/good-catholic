@@ -18,14 +18,14 @@ export default function BestCatholicBibleTranslations() {
     <>
       <Helmet>
         <title>Best Catholic Bible Translations: RSV, NAB, Douay-Rheims Compared | Guide Catholic</title>
-        <meta name="description" content="Which Catholic Bible translation is best? Compare the Douay-Rheims, RSV-CE, NAB, NABRE, Jerusalem Bible, and New Jerusalem Bible. Find the right translation for study, prayer, and Mass." />
+        <meta name="description" content="Which Catholic Bible translation is best? Compare the Douay-Rheims, RSV-CE, NAB, NABRE, Jerusalem Bible, and New Jerusalem Bible." />
         <meta name="keywords" content="best catholic bible translation, catholic bible versions, RSV-CE, NAB bible, douay rheims bible, which bible for catholics" />
         <link rel="canonical" href="https://guidecatholic.com/blog/best-catholic-bible-translations/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Best Catholic Bible Translations: RSV, NAB, Douay-Rheims Compared"
-        description="Which Catholic Bible translation is best? Compare the Douay-Rheims, RSV-CE, NAB, NABRE, Jerusalem Bible, and New Jerusalem Bible. Find the right translation for study, prayer, and Mass."
+        description="Which Catholic Bible translation is best? Compare the Douay-Rheims, RSV-CE, NAB, NABRE, Jerusalem Bible, and New Jerusalem Bible."
         url="https://guidecatholic.com/blog/best-catholic-bible-translations/"
         datePublished="2026-04-20"
         dateModified="2026-04-20"

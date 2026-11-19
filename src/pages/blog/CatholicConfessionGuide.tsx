@@ -18,14 +18,14 @@ export default function CatholicConfessionGuide() {
     <>
       <Helmet>
         <title>Catholic Confession Guide: What It Is, Why It Matters & Common Questions | Guide Catholic</title>
-        <meta name="description" content="Complete Catholic Confession guide — what the Sacrament of Reconciliation is, its biblical basis, what happens, common fears, and why regular Confession transforms your life." />
+        <meta name="description" content="Catholic Confession guide: the Sacrament of Reconciliation, its biblical basis, what happens, common fears, and why regular Confession transforms your life." />
         <meta name="keywords" content="catholic confession guide, sacrament of reconciliation, what is confession catholic, why go to confession, confession catholic church, reconciliation sacrament" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-confession-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Confession Guide: What It Is, Why It Matters & Common Questions"
-        description="Complete Catholic Confession guide — what the Sacrament of Reconciliation is, its biblical basis, what happens, common fears, and why regular Confession transforms your life."
+        description="Catholic Confession guide: the Sacrament of Reconciliation, its biblical basis, what happens, common fears, and why regular Confession transforms your life."
         url="https://guidecatholic.com/blog/catholic-confession-guide/"
       />
       <BreadcrumbSchema

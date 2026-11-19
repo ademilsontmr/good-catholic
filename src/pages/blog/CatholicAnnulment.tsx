@@ -18,14 +18,14 @@ export default function CatholicAnnulment() {
     <>
       <Helmet>
         <title>What Is an Annulment in the Catholic Church? A Complete Guide | Guide Catholic</title>
-        <meta name="description" content="Learn what a Catholic annulment is (declaration of nullity), how it differs from divorce, the grounds for annulment, the tribunal process, what happens to children, and pastoral care for divorced Catholics." />
+        <meta name="description" content="What a Catholic annulment (declaration of nullity) is, how it differs from divorce, the grounds, the tribunal process, children, and care for the divorced." />
         <meta name="keywords" content="what is annulment catholic, catholic annulment, annulment vs divorce, how to get annulment catholic, marriage tribunal" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-annulment-catholic-church/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="What Is an Annulment in the Catholic Church? A Complete Guide"
-          description="Learn what a Catholic annulment is (declaration of nullity), how it differs from divorce, the grounds for annulment, the tribunal process, what happens to children, and pastoral care for divorced Catholics."
+          description="What a Catholic annulment (declaration of nullity) is, how it differs from divorce, the grounds, the tribunal process, children, and care for the divorced."
           url="https://guidecatholic.com/blog/what-is-annulment-catholic-church/"
         />
       <BreadcrumbSchema

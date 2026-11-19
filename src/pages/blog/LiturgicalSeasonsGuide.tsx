@@ -18,14 +18,14 @@ export default function LiturgicalSeasonsGuide() {
     <>
       <Helmet>
         <title>Liturgical Seasons: Complete Catholic Guide to Advent, Christmas, Lent & Easter | Guide Catholic</title>
-        <meta name="description" content="Master the Catholic liturgical calendar. Learn the meaning, colors, and traditions of Advent, Christmas, Lent, Easter, and Ordinary Time. Complete guide to living the liturgical year." />
+        <meta name="description" content="Master the Catholic liturgical calendar. Learn the meaning, colors, and traditions of Advent, Christmas, Lent, Easter, and Ordinary Time." />
         <meta name="keywords" content="liturgical seasons, catholic calendar, advent meaning, lent traditions, easter season, ordinary time catholic, liturgical colors, catholic feast days, liturgical year guide" />
         <link rel="canonical" href="https://guidecatholic.com/blog/liturgical-seasons-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Liturgical Seasons: Complete Catholic Guide to Advent, Christmas, Lent & Easter"
-          description="Master the Catholic liturgical calendar. Learn the meaning, colors, and traditions of Advent, Christmas, Lent, Easter, and Ordinary Time. Complete guide to living the liturgical year."
+          description="Master the Catholic liturgical calendar. Learn the meaning, colors, and traditions of Advent, Christmas, Lent, Easter, and Ordinary Time."
           url="https://guidecatholic.com/blog/liturgical-seasons-guide/"
         />
       <BreadcrumbSchema

@@ -18,7 +18,7 @@ export default function CatholicFuneralRites() {
     <>
       <Helmet>
         <title>Catholic Funeral Rites: What Happens and Why It Matters | Guide Catholic</title>
-        <meta name="description" content="A complete guide to Catholic funeral rites — the Vigil, Funeral Mass, and Rite of Committal. Learn what to expect, what to wear, prayers for the dead, and the Church's teaching on cremation." />
+        <meta name="description" content="Catholic funeral rites explained: the Vigil, Funeral Mass, and Rite of Committal, what to expect, prayers for the dead, and Church teaching on cremation." />
         <meta name="keywords" content="catholic funeral rites, catholic funeral explained, what happens at catholic funeral, catholic burial traditions, catholic funeral mass" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-funeral-rites-explained/" />
         <meta name="robots" content="index, follow" />

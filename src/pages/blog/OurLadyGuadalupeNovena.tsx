@@ -18,14 +18,14 @@ export default function OurLadyGuadalupeNovena() {
     <>
       <Helmet>
         <title>Our Lady of Guadalupe Novena Guide: How to Pray the 9-Day Prayer | Guide Catholic</title>
-        <meta name="description" content="A complete guide to the Our Lady of Guadalupe Novena — the apparitions to Juan Diego, her role as Patroness of the Americas, how to pray the 9-day novena, and where to pray it online." />
+        <meta name="description" content="Guide to the Our Lady of Guadalupe Novena: the apparitions to Juan Diego, Patroness of the Americas, how to pray the 9-day novena, and where to pray online." />
         <meta name="keywords" content="our lady of guadalupe novena, how to pray guadalupe novena, novena to our lady of guadalupe, guadalupe prayer 9 days, december 12 feast day, patroness of americas novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-guadalupe-novena-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Our Lady of Guadalupe Novena Guide: How to Pray the 9-Day Prayer"
-        description="A complete guide to the Our Lady of Guadalupe Novena — the apparitions to Juan Diego, her role as Patroness of the Americas, how to pray the 9-day novena, and where to pray it online."
+        description="Guide to the Our Lady of Guadalupe Novena: the apparitions to Juan Diego, Patroness of the Americas, how to pray the 9-day novena, and where to pray online."
         url="https://guidecatholic.com/blog/our-lady-of-guadalupe-novena-guide/"
       />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function HowToTeachChildrenToPray() {
     <>
       <Helmet>
         <title>How to Teach Children to Pray: A Catholic Parent's Guide | Guide Catholic</title>
-        <meta name="description" content="Learn how to teach your children to pray as Catholics. Age-appropriate prayers, tips for building a prayer habit, and how to make prayer a natural part of family life." />
+        <meta name="description" content="How to teach your children to pray as Catholics, with age-appropriate prayers, tips for building a prayer habit, and ways to make prayer part of family life." />
         <meta name="keywords" content="how to teach children to pray, teaching kids to pray catholic, children prayer catholic, family prayer catholic, kids prayer guide" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-teach-children-to-pray/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Teach Children to Pray: A Catholic Parent's Guide"
-        description="Learn how to teach your children to pray as Catholics. Age-appropriate prayers, tips for building a prayer habit, and how to make prayer a natural part of family life."
+        description="How to teach your children to pray as Catholics, with age-appropriate prayers, tips for building a prayer habit, and ways to make prayer part of family life."
         url="https://guidecatholic.com/blog/how-to-teach-children-to-pray/"
       />
       <BreadcrumbSchema

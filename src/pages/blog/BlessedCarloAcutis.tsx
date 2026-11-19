@@ -18,14 +18,14 @@ export default function BlessedCarloAcutis() {
     <>
       <Helmet>
         <title>Blessed Carlo Acutis: The Millennial Saint and Patron of the Internet | Guide Catholic</title>
-        <meta name="description" content="Discover the life of Blessed Carlo Acutis — his Eucharistic devotion, his website cataloguing Eucharistic miracles, his death from leukemia at 15, his beatification in 2020, and canonization in 2025." />
+        <meta name="description" content="Carlo Acutis: his Eucharistic devotion, his website of Eucharistic miracles, his death from leukemia at 15, beatification in 2020, and canonization in 2025." />
         <meta name="keywords" content="blessed carlo acutis, carlo acutis saint, carlo acutis internet, carlo acutis eucharist, millennial saint" />
         <link rel="canonical" href="https://guidecatholic.com/blog/blessed-carlo-acutis/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Blessed Carlo Acutis: The Millennial Saint and Patron of the Internet"
-          description="Discover the life of Blessed Carlo Acutis — his Eucharistic devotion, his website cataloguing Eucharistic miracles, his death from leukemia at 15, his beatification in 2020, and canonization in 2025."
+          description="Carlo Acutis: his Eucharistic devotion, his website of Eucharistic miracles, his death from leukemia at 15, beatification in 2020, and canonization in 2025."
           url="https://guidecatholic.com/blog/blessed-carlo-acutis/"
         />
       <BreadcrumbSchema

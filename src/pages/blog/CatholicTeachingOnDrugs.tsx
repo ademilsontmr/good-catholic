@@ -18,14 +18,14 @@ export default function CatholicTeachingOnDrugs() {
     <>
       <Helmet>
         <title>Catholic Teaching on Drugs: What the Church Says About Substance Abuse | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about drugs and substance abuse? Learn the distinction between medicinal use and sinful abuse, and the Catholic path to recovery." />
+        <meta name="description" content="Catholic teaching on drugs and substance abuse: the distinction between medicinal use and sinful abuse, and the Catholic path to recovery." />
         <meta name="keywords" content="catholic teaching on drugs, drug use sin catholic, substance abuse catholic, addiction catholic church, marijuana catholic, drug addiction recovery catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-drugs/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Drugs: What the Church Says About Substance Abuse"
-        description="What does the Catholic Church teach about drugs and substance abuse? Learn the distinction between medicinal use and sinful abuse, and the Catholic path to recovery."
+        description="Catholic teaching on drugs and substance abuse: the distinction between medicinal use and sinful abuse, and the Catholic path to recovery."
         url="https://guidecatholic.com/blog/catholic-teaching-on-drugs/"
       />
       <BreadcrumbSchema

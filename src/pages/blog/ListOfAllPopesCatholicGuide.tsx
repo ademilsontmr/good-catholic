@@ -21,14 +21,14 @@ export default function ListOfAllPopesCatholicGuide() {
     <>
       <Helmet>
         <title>List of All Popes: Complete Guide from St. Peter to Pope Leo XIV | Guide Catholic</title>
-        <meta name="description" content="Complete list of all Catholic popes from St. Peter to Pope Leo XIV — 267 successors of Peter, historical eras, notable pontiffs, and searchable chronological table." />
+        <meta name="description" content="Complete list of Catholic popes from St. Peter to Pope Leo XIV: 267 successors of Peter, historical eras, notable pontiffs, and a chronological table." />
         <meta name="keywords" content="list of all popes, complete list of popes, catholic popes from st peter, pope list chronological, how many popes, pope leo xiv list" />
         <link rel="canonical" href="https://guidecatholic.com/blog/list-of-all-popes-catholic-complete-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="List of All Popes: Complete Guide from St. Peter to Pope Leo XIV"
-        description="Complete list of all Catholic popes from St. Peter to Pope Leo XIV — 267 successors of Peter, historical eras, notable pontiffs, and searchable chronological table."
+        description="Complete list of Catholic popes from St. Peter to Pope Leo XIV: 267 successors of Peter, historical eras, notable pontiffs, and a chronological table."
         url="https://guidecatholic.com/blog/list-of-all-popes-catholic-complete-guide/"
         datePublished="2026-05-30"
       />

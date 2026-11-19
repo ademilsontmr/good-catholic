@@ -18,14 +18,14 @@ export default function CatholicTeachingOnAlcohol() {
     <>
       <Helmet>
         <title>Catholic Teaching on Alcohol: Is Drinking a Sin? | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about alcohol? Is drinking a sin? Learn the Catholic distinction between moderate drinking and drunkenness, and the path to sobriety for those who struggle." />
+        <meta name="description" content="Is drinking a sin? Catholic teaching on alcohol, the distinction between moderate drinking and drunkenness, and the path to sobriety for those who struggle." />
         <meta name="keywords" content="catholic teaching on alcohol, is drinking a sin catholic, alcohol catholic church, drunkenness sin catholic, catholic sobriety, temperance alcohol catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-alcohol/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Alcohol: Is Drinking a Sin?"
-        description="What does the Catholic Church teach about alcohol? Is drinking a sin? Learn the Catholic distinction between moderate drinking and drunkenness, and the path to sobriety for those who struggle."
+        description="Is drinking a sin? Catholic teaching on alcohol, the distinction between moderate drinking and drunkenness, and the path to sobriety for those who struggle."
         url="https://guidecatholic.com/blog/catholic-teaching-on-alcohol/"
       />
       <BreadcrumbSchema

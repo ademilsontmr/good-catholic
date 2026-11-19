@@ -18,14 +18,14 @@ export default function ConvertingToCatholicism() {
     <>
       <Helmet>
         <title>Converting to Catholicism: What to Expect, What Changes & Real Stories | Guide Catholic</title>
-        <meta name="description" content="Thinking about converting to Catholicism? What to expect, what will change in your life, how to tell your family, and the stories of famous converts who found their home in the Church." />
+        <meta name="description" content="Thinking about converting to Catholicism? What to expect, what will change, how to tell your family, and famous converts who found a home in the Church." />
         <meta name="keywords" content="converting to catholicism, convert to catholicism, catholic conversion, converting from protestantism to catholicism, becoming catholic adult, catholic convert stories" />
         <link rel="canonical" href="https://guidecatholic.com/blog/converting-to-catholicism/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Converting to Catholicism: What to Expect, What Changes & Real Stories"
-        description="Thinking about converting to Catholicism? What to expect, what will change in your life, how to tell your family, and the stories of famous converts who found their home in the Church."
+        description="Thinking about converting to Catholicism? What to expect, what will change, how to tell your family, and famous converts who found a home in the Church."
         url="https://guidecatholic.com/blog/converting-to-catholicism/"
       />
       <BreadcrumbSchema

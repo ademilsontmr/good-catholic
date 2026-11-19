@@ -17,14 +17,14 @@ export default function HowLongShouldCatholicEngagementBe() {
     <>
       <Helmet>
         <title>How Long Should a Catholic Engagement Be? | Guide Catholic</title>
-        <meta name="description" content="How long should engagement be Catholic? No universal canon length — most U.S. dioceses need months for marriage prep, not years of delay or a three-week rush. Pastoral dispensation explained." />
+        <meta name="description" content="How long should engagement be Catholic? S. dioceses need months for marriage prep, not years of delay or a three-week rush. Pastoral dispensation explained." />
         <meta name="keywords" content="how long should engagement be catholic, catholic engagement length, how long engagement before catholic wedding" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-long-should-a-catholic-engagement-be/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How Long Should a Catholic Engagement Be?"
-        description="How long should engagement be Catholic? No universal canon length — most U.S. dioceses need months for marriage prep, not years of delay or a three-week rush. Pastoral dispensation explained."
+        description="How long should engagement be Catholic? S. dioceses need months for marriage prep, not years of delay or a three-week rush. Pastoral dispensation explained."
         url="https://guidecatholic.com/blog/how-long-should-a-catholic-engagement-be/"
         datePublished="2026-09-22"
       />

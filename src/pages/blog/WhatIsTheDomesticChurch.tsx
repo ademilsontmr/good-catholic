@@ -17,7 +17,7 @@ export default function WhatIsTheDomesticChurch() {
     <>
       <Helmet>
         <title>What Is the Domestic Church? Catholic Family Life | Guide Catholic</title>
-        <meta name="description" content="The domestic church in Catholic teaching (CCC 1655–1658, Lumen Gentium 11): home as first school of prayer, Sunday worship, mercy, hospitality, and holy marriage." />
+        <meta name="description" content="The domestic church in Catholic teaching (CCC 1655–1658, Lumen Gentium 11): the home as first school of prayer, Sunday worship, mercy, and holy marriage." />
         <meta name="keywords" content="domestic church catholic, catholic family home, domestic church meaning, family as church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-domestic-church/" />
         <meta name="robots" content="index, follow" />

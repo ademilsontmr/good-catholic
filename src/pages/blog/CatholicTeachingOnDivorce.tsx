@@ -18,14 +18,14 @@ export default function CatholicTeachingOnDivorce() {
     <>
       <Helmet>
         <title>Can Catholics Divorce? What the Church Really Teaches | Guide Catholic</title>
-        <meta name="description" content="Can Catholics get divorced? Learn what the Catholic Church teaches about divorce, civil divorce vs. annulment, reception of Communion after divorce, and remarriage." />
+        <meta name="description" content="Can Catholics get divorced? Church teaching on divorce, civil divorce vs. annulment, receiving Communion after divorce, and remarriage." />
         <meta name="keywords" content="catholic divorce, can catholics get divorced, catholic church divorce, catholic annulment vs divorce, divorce communion catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-divorce/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Can Catholics Divorce? What the Church Really Teaches"
-        description="Can Catholics get divorced? Learn what the Catholic Church teaches about divorce, civil divorce vs. annulment, reception of Communion after divorce, and remarriage."
+        description="Can Catholics get divorced? Church teaching on divorce, civil divorce vs. annulment, receiving Communion after divorce, and remarriage."
         url="https://guidecatholic.com/blog/catholic-teaching-on-divorce/"
       />
       <BreadcrumbSchema

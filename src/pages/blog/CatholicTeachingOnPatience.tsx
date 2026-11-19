@@ -18,14 +18,14 @@ export default function CatholicTeachingOnPatience() {
     <>
       <Helmet>
         <title>The Virtue of Patience: The Catholic Teaching on Bearing Suffering Well | Guide Catholic</title>
-        <meta name="description" content="Patience is one of the most needed and least cultivated virtues. Learn what patience really is, how it differs from passivity, and how to grow in it through Catholic teaching." />
+        <meta name="description" content="Patience is a needed but rarely cultivated virtue. Learn what it really is, how it differs from passivity, and how to grow in it through Catholic teaching." />
         <meta name="keywords" content="virtue of patience catholic, what is patience catholic, patience and suffering, how to grow in patience, patience in the bible, saints on patience" />
         <link rel="canonical" href="https://guidecatholic.com/blog/virtue-of-patience-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Virtue of Patience: The Catholic Teaching on Bearing Suffering Well"
-        description="Patience is one of the most needed and least cultivated virtues. Learn what patience really is, how it differs from passivity, and how to grow in it through Catholic teaching."
+        description="Patience is a needed but rarely cultivated virtue. Learn what it really is, how it differs from passivity, and how to grow in it through Catholic teaching."
         url="https://guidecatholic.com/blog/virtue-of-patience-catholic/"
       />
       <BreadcrumbSchema

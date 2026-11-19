@@ -20,14 +20,14 @@ export default function SaintFaustinaKowalska() {
     <>
       <Helmet>
         <title>Saint Faustina Kowalska: Life, Feast Day, and Divine Mercy | Guide Catholic</title>
-        <meta name="description" content="Who Saint Faustina Kowalska was: the Polish sister who received the message of Divine Mercy, her feast on October 5, the image, the chaplet, and Divine Mercy Sunday." />
+        <meta name="description" content="Saint Faustina Kowalska, the Polish sister who received the Divine Mercy message: her feast on October 5, the image, the chaplet, and Divine Mercy Sunday." />
         <meta name="keywords" content="saint faustina kowalska, st faustina, divine mercy, jesus i trust in you, faustina feast day october 5, divine mercy sunday, sister faustina diary" />
         <link rel="canonical" href={PAGE} />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Faustina Kowalska: Life, Feast Day, and Divine Mercy"
-        description="Who Saint Faustina Kowalska was: the Polish sister who received the message of Divine Mercy, her feast on October 5, the image, the chaplet, and Divine Mercy Sunday."
+        description="Saint Faustina Kowalska, the Polish sister who received the Divine Mercy message: her feast on October 5, the image, the chaplet, and Divine Mercy Sunday."
         url={PAGE}
         datePublished="2026-10-19"
         dateModified="2026-10-19"

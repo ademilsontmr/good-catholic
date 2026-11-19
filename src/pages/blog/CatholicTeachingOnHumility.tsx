@@ -18,14 +18,14 @@ export default function CatholicTeachingOnHumility() {
     <>
       <Helmet>
         <title>The Virtue of Humility: What the Catholic Church Teaches | Guide Catholic</title>
-        <meta name="description" content="Humility is the foundation of the spiritual life. Learn what humility really is, why pride is the root of all sin, and how to grow in this essential virtue according to Catholic teaching." />
+        <meta name="description" content="Humility is the foundation of the spiritual life. What it is, why pride is the root of all sin, and how to grow in this virtue according to Catholic teaching." />
         <meta name="keywords" content="virtue of humility catholic, what is humility catholic, humility definition catholic, how to grow in humility, humility and pride catholic, saints on humility" />
         <link rel="canonical" href="https://guidecatholic.com/blog/virtue-of-humility-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Virtue of Humility: What the Catholic Church Teaches"
-        description="Humility is the foundation of the spiritual life. Learn what humility really is, why pride is the root of all sin, and how to grow in this essential virtue according to Catholic teaching."
+        description="Humility is the foundation of the spiritual life. What it is, why pride is the root of all sin, and how to grow in this virtue according to Catholic teaching."
         url="https://guidecatholic.com/blog/virtue-of-humility-catholic/"
       />
       <BreadcrumbSchema

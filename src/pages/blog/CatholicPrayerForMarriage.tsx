@@ -18,14 +18,14 @@ export default function CatholicPrayerForMarriage() {
     <>
       <Helmet>
         <title>Catholic Prayers for Marriage: For Your Spouse, Your Family & Troubled Marriages | Guide Catholic</title>
-        <meta name="description" content="Powerful Catholic prayers for marriage — for your spouse, for a troubled marriage, for a future spouse, and for the grace to live the sacrament of matrimony faithfully." />
+        <meta name="description" content="Catholic prayers for marriage: for your spouse, a troubled marriage, a future spouse, and the grace to live the sacrament of matrimony faithfully." />
         <meta name="keywords" content="catholic prayer for marriage, prayer for spouse catholic, prayer for troubled marriage, prayer for future spouse catholic, catholic marriage prayer, prayer for husband wife catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-prayer-for-marriage/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Prayers for Marriage: For Your Spouse, Your Family & Troubled Marriages"
-        description="Powerful Catholic prayers for marriage — for your spouse, for a troubled marriage, for a future spouse, and for the grace to live the sacrament of matrimony faithfully."
+        description="Catholic prayers for marriage: for your spouse, a troubled marriage, a future spouse, and the grace to live the sacrament of matrimony faithfully."
         url="https://guidecatholic.com/blog/catholic-prayer-for-marriage/"
       />
       <BreadcrumbSchema

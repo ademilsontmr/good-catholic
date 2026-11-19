@@ -18,14 +18,14 @@ export default function SpiritualCommunion() {
     <>
       <Helmet>
         <title>How to Make a Spiritual Communion: The Prayer and Its Meaning | Guide Catholic</title>
-        <meta name="description" content="Learn what spiritual communion is, the traditional prayer of St. Alphonsus Liguori, when to make it, and its theological meaning for Catholics who cannot receive the Eucharist." />
+        <meta name="description" content="Learn what spiritual communion is, the prayer of St. Alphonsus Liguori, when to make it, and its meaning for Catholics who cannot receive the Eucharist." />
         <meta name="keywords" content="spiritual communion, how to make spiritual communion, spiritual communion prayer, act of spiritual communion, st alphonsus spiritual communion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-make-spiritual-communion/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="How to Make a Spiritual Communion: The Prayer and Its Meaning"
-          description="Learn what spiritual communion is, the traditional prayer of St. Alphonsus Liguori, when to make it, and its theological meaning for Catholics who cannot receive the Eucharist."
+          description="Learn what spiritual communion is, the prayer of St. Alphonsus Liguori, when to make it, and its meaning for Catholics who cannot receive the Eucharist."
           url="https://guidecatholic.com/blog/how-to-make-spiritual-communion/"
         />
       <BreadcrumbSchema

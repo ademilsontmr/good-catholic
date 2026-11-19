@@ -18,14 +18,14 @@ export default function AllSaintsAllSoulsDay() {
     <>
       <Helmet>
         <title>All Saints Day and All Souls Day: What Catholics Believe | Guide Catholic</title>
-        <meta name="description" content="Learn the Catholic meaning of All Saints Day (November 1) and All Souls Day (November 2). Discover how to honor the saints, pray for the dead, and understand Purgatory." />
+        <meta name="description" content="The Catholic meaning of All Saints Day (November 1) and All Souls Day (November 2): how to honor the saints, pray for the dead, and understand Purgatory." />
         <meta name="keywords" content="all saints day catholic, all souls day catholic, november 1 catholic, november 2 catholic, day of the dead catholic, praying for the dead" />
         <link rel="canonical" href="https://guidecatholic.com/blog/all-saints-day-all-souls-day/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="All Saints Day and All Souls Day: What Catholics Believe"
-        description="Learn the Catholic meaning of All Saints Day (November 1) and All Souls Day (November 2). Discover how to honor the saints, pray for the dead, and understand Purgatory."
+        description="The Catholic meaning of All Saints Day (November 1) and All Souls Day (November 2): how to honor the saints, pray for the dead, and understand Purgatory."
         url="https://guidecatholic.com/blog/all-saints-day-all-souls-day/"
       />
       <BreadcrumbSchema

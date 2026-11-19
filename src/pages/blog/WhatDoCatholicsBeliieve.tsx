@@ -18,14 +18,14 @@ export default function WhatDoCatholicsBeliieve() {
     <>
       <Helmet>
         <title>What Do Catholics Believe? Core Beliefs Explained | Guide Catholic</title>
-        <meta name="description" content="What do Catholics believe? A clear, complete guide to the core beliefs of the Catholic Church — God, Jesus, salvation, Mary, the sacraments, the afterlife, and more." />
+        <meta name="description" content="What do Catholics believe? A clear guide to the core beliefs of the Catholic Church: God, Jesus, salvation, Mary, the sacraments, the afterlife, and more." />
         <meta name="keywords" content="what do catholics believe, catholic beliefs, core beliefs of catholicism, catholic faith explained, what is catholicism, catholic doctrine basics" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-do-catholics-believe/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Do Catholics Believe? Core Beliefs Explained"
-        description="What do Catholics believe? A clear, complete guide to the core beliefs of the Catholic Church — God, Jesus, salvation, Mary, the sacraments, the afterlife, and more."
+        description="What do Catholics believe? A clear guide to the core beliefs of the Catholic Church: God, Jesus, salvation, Mary, the sacraments, the afterlife, and more."
         url="https://guidecatholic.com/blog/what-do-catholics-believe/"
       />
       <BreadcrumbSchema

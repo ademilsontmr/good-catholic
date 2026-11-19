@@ -19,7 +19,7 @@ export default function WhoWasThe200thPope() {
         <title>Who Was the 200th Pope? Bl. Urban V (1362–1370) | Guide Catholic</title>
         <meta
           name="description"
-          content="The 200th pope was Blessed Urban V (1362–1370). He tried to return the papacy from Avignon to Rome, reformed universities, and sent missionaries. Full Catholic guide."
+          content="The 200th pope was Blessed Urban V (1362–1370). He tried to return the papacy from Avignon to Rome, reformed universities, and sent missionaries."
         />
         <meta
           name="keywords"
@@ -30,7 +30,7 @@ export default function WhoWasThe200thPope() {
       </Helmet>
       <ArticleSchema
         title="Who Was the 200th Pope? Bl. Urban V (1362–1370)"
-        description="The 200th pope was Blessed Urban V (1362–1370). He tried to return the papacy from Avignon to Rome, reformed universities, and sent missionaries. Full Catholic guide."
+        description="The 200th pope was Blessed Urban V (1362–1370). He tried to return the papacy from Avignon to Rome, reformed universities, and sent missionaries."
         url="https://guidecatholic.com/blog/200th-pope-who-was-it/"
         datePublished="2026-08-06"
       />

@@ -18,14 +18,14 @@ export default function LectioDivina() {
     <>
       <Helmet>
         <title>Lectio Divina: How to Pray with Scripture Step by Step | Guide Catholic</title>
-        <meta name="description" content="Learn how to practice Lectio Divina step by step. Complete guide covering the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice." />
+        <meta name="description" content="How to practice Lectio Divina step by step: the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice." />
         <meta name="keywords" content="lectio divina how to, lectio divina steps, praying with scripture, lectio divina catholic, how to do lectio divina" />
         <link rel="canonical" href="https://guidecatholic.com/blog/lectio-divina-how-to-practice/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Lectio Divina: How to Pray with Scripture Step by Step"
-          description="Learn how to practice Lectio Divina step by step. Complete guide covering the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice."
+          description="How to practice Lectio Divina step by step: the 4 steps, history, common mistakes, recommended Scripture passages, and group vs individual practice."
           url="https://guidecatholic.com/blog/lectio-divina-how-to-practice/"
         />
       <BreadcrumbSchema

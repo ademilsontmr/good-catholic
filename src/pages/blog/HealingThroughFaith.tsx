@@ -18,14 +18,14 @@ export default function HealingThroughFaith() {
     <>
       <Helmet>
         <title>Healing Through Faith: Catholic Prayers for Physical and Emotional Recovery | Guide Catholic</title>
-        <meta name="description" content="Discover how faith brings healing. Learn Catholic prayers for healing, the ministry of the sick, sacraments of healing, and biblical foundations for divine healing." />
+        <meta name="description" content="How faith brings healing: Catholic prayers for healing, the ministry of the sick, the sacraments of healing, and biblical foundations for divine healing." />
         <meta name="keywords" content="healing through faith, catholic healing prayers, divine healing, sacrament of anointing, prayer for healing, faith and healing" />
         <link rel="canonical" href="https://guidecatholic.com/blog/healing-through-faith/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Healing Through Faith: Catholic Prayers for Physical and Emotional Recovery"
-          description="Discover how faith brings healing. Learn Catholic prayers for healing, the ministry of the sick, sacraments of healing, and biblical foundations for divine healing."
+          description="How faith brings healing: Catholic prayers for healing, the ministry of the sick, the sacraments of healing, and biblical foundations for divine healing."
           url="https://guidecatholic.com/blog/healing-through-faith/"
         />
       <BreadcrumbSchema

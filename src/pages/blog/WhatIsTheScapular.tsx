@@ -18,14 +18,14 @@ export default function WhatIsTheScapular() {
     <>
       <Helmet>
         <title>What Is the Brown Scapular? History, Promises, and How to Wear It | Guide Catholic</title>
-        <meta name="description" content="Learn what the Brown Scapular is, the history of Our Lady of Mount Carmel's apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it." />
+        <meta name="description" content="The Brown Scapular: Our Lady of Mount Carmel's apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it." />
         <meta name="keywords" content="brown scapular, what is the scapular, scapular catholic, our lady of mount carmel scapular, scapular promises" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-brown-scapular/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="What Is the Brown Scapular? History, Promises, and How to Wear It"
-          description="Learn what the Brown Scapular is, the history of Our Lady of Mount Carmel's apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it."
+          description="The Brown Scapular: Our Lady of Mount Carmel's apparition to St. Simon Stock, the promises of Our Lady, how to be enrolled, and how to wear it."
           url="https://guidecatholic.com/blog/what-is-the-brown-scapular/"
         />
       <BreadcrumbSchema

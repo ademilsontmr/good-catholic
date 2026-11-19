@@ -19,14 +19,14 @@ export default function CompleteRosaryGuide() {
     <>
       <Helmet>
         <title>The Complete Rosary Guide: How to Pray, All 20 Mysteries &amp; Everything You Need to Know | Guide Catholic</title>
-        <meta name="description" content="The most complete Rosary guide available — step-by-step instructions, all 20 mysteries with meditations, every prayer with full text, the promises of the Rosary, and tips for beginners." />
+        <meta name="description" content="Rosary guide: step-by-step instructions, all 20 mysteries with meditations, every prayer in full, the promises of the Rosary, and tips for beginners." />
         <meta name="keywords" content="complete rosary guide, how to pray the rosary, all 20 mysteries rosary, rosary prayers full text, rosary for beginners complete, everything about the rosary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-rosary-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Rosary Guide: How to Pray, All 20 Mysteries &amp; Everything You Need to Know"
-        description="The most complete Rosary guide available — step-by-step instructions, all 20 mysteries with meditations, every prayer with full text, the promises of the Rosary, and tips for beginners."
+        description="Rosary guide: step-by-step instructions, all 20 mysteries with meditations, every prayer in full, the promises of the Rosary, and tips for beginners."
         url="https://guidecatholic.com/blog/complete-rosary-guide/"
       />
       <BreadcrumbSchema

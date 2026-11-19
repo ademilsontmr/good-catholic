@@ -18,14 +18,14 @@ export default function CatholicTeachingOnHeaven() {
     <>
       <Helmet>
         <title>What Is Heaven Like? The Catholic Teaching on Eternal Life | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about heaven? The beatific vision, the resurrection of the body, whether we'll recognize loved ones, and what eternal life really means." />
+        <meta name="description" content="What the Catholic Church teaches about heaven: the beatific vision, the resurrection of the body, recognizing loved ones, and what eternal life means." />
         <meta name="keywords" content="what is heaven like catholic, catholic teaching on heaven, beatific vision, eternal life catholic, heaven description catholic, will we recognize each other in heaven" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-heaven-like-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is Heaven Like? The Catholic Teaching on Eternal Life"
-        description="What does the Catholic Church teach about heaven? The beatific vision, the resurrection of the body, whether we'll recognize loved ones, and what eternal life really means."
+        description="What the Catholic Church teaches about heaven: the beatific vision, the resurrection of the body, recognizing loved ones, and what eternal life means."
         url="https://guidecatholic.com/blog/what-is-heaven-like-catholic/"
       />
       <BreadcrumbSchema

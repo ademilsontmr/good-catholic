@@ -19,14 +19,14 @@ export default function ExaminationOfConscienceGuideDetailed() {
     <>
       <Helmet>
         <title>Examination of Conscience: Complete Catholic Guide Before Confession | Guide Catholic</title>
-        <meta name="description" content="Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church. Use this guide to prepare for a thorough, honest Confession." />
+        <meta name="description" content="Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church." />
         <meta name="keywords" content="examination of conscience catholic, examination of conscience before confession, catholic examination of conscience adults, how to examine conscience, confession preparation" />
         <link rel="canonical" href="https://guidecatholic.com/blog/examination-of-conscience-before-confession/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Examination of Conscience: Complete Catholic Guide Before Confession"
-        description="Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church. Use this guide to prepare for a thorough, honest Confession."
+        description="Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church."
         url="https://guidecatholic.com/blog/examination-of-conscience-before-confession/"
         datePublished="2026-04-24"
         dateModified="2026-10-20"

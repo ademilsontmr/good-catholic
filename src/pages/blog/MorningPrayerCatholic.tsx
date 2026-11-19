@@ -19,14 +19,14 @@ export default function MorningPrayerCatholic() {
     <>
       <Helmet>
         <title>Morning Prayer Catholic: Full Texts, Lauds & How to Start Your Day | Guide Catholic</title>
-        <meta name="description" content="Complete guide to Catholic morning prayer — full texts of Lauds, the Morning Offering, Psalm 63, and simple morning prayers for every Catholic. Start your day with God." />
+        <meta name="description" content="Complete guide to Catholic morning prayer — full texts of Lauds, the Morning Offering, Psalm 63, and simple morning prayers for every Catholic." />
         <meta name="keywords" content="morning prayer catholic, catholic morning prayer text, lauds prayer, morning offering catholic, psalm 63 morning prayer, start day with god" />
         <link rel="canonical" href="https://guidecatholic.com/blog/morning-prayer-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Morning Prayer Catholic: Full Texts, Lauds & How to Start Your Day"
-        description="Complete guide to Catholic morning prayer — full texts of Lauds, the Morning Offering, Psalm 63, and simple morning prayers for every Catholic. Start your day with God."
+        description="Complete guide to Catholic morning prayer — full texts of Lauds, the Morning Offering, Psalm 63, and simple morning prayers for every Catholic."
         url="https://guidecatholic.com/blog/morning-prayer-catholic/"
       />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function SpiritualDirection() {
     <>
       <Helmet>
         <title>Catholic Spiritual Direction: What It Is and How to Find a Director | Guide Catholic</title>
-        <meta name="description" content="Learn what Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director in your diocese or online." />
+        <meta name="description" content="What Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director." />
         <meta name="keywords" content="catholic spiritual direction, spiritual director catholic, how to find spiritual director, what is spiritual direction, spiritual director vs therapist" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-spiritual-direction/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Spiritual Direction: What It Is and How to Find a Director"
-          description="Learn what Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director in your diocese or online."
+          description="What Catholic spiritual direction is, how it differs from therapy and confession, what happens in a session, and how to find a spiritual director."
           url="https://guidecatholic.com/blog/catholic-spiritual-direction/"
         />
       <BreadcrumbSchema

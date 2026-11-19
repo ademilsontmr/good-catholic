@@ -18,14 +18,14 @@ export default function CompleteFastingGuide() {
     <>
       <Helmet>
         <title>The Complete Catholic Fasting Guide: Rules, Methods & Spiritual Benefits | Guide Catholic</title>
-        <meta name="description" content="Everything about Catholic fasting — the Church's rules, types of fasting, how to fast well, the spiritual benefits, and a complete fasting checklist for Lent, Advent, and year-round." />
+        <meta name="description" content="Catholic fasting explained: the Church's rules, types of fasting, how to fast well, spiritual benefits, and a checklist for Lent, Advent, and year-round." />
         <meta name="keywords" content="complete catholic fasting guide, catholic fasting rules, how to fast catholic, fasting and abstinence catholic, lent fasting guide, spiritual benefits of fasting" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-catholic-fasting-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Catholic Fasting Guide: Rules, Methods & Spiritual Benefits"
-        description="Everything about Catholic fasting — the Church's rules, types of fasting, how to fast well, the spiritual benefits, and a complete fasting checklist for Lent, Advent, and year-round."
+        description="Catholic fasting explained: the Church's rules, types of fasting, how to fast well, spiritual benefits, and a checklist for Lent, Advent, and year-round."
         url="https://guidecatholic.com/blog/complete-catholic-fasting-guide/"
       />
       <BreadcrumbSchema

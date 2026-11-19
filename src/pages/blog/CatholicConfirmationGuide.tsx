@@ -18,14 +18,14 @@ export default function CatholicConfirmationGuide() {
     <>
       <Helmet>
         <title>Catholic Confirmation: What It Is and How to Prepare | Guide Catholic</title>
-        <meta name="description" content="Complete guide to Catholic Confirmation. Learn what Confirmation is, the seven gifts of the Holy Spirit, how to choose a sponsor and confirmation name, the rite, and how to prepare spiritually." />
+        <meta name="description" content="Guide to Catholic Confirmation: what it is, the seven gifts of the Holy Spirit, choosing a sponsor and confirmation name, the rite, and how to prepare." />
         <meta name="keywords" content="catholic confirmation, confirmation sacrament, preparing for confirmation, confirmation age, confirmation sponsor" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-confirmation-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Confirmation: What It Is and How to Prepare"
-          description="Complete guide to Catholic Confirmation. Learn what Confirmation is, the seven gifts of the Holy Spirit, how to choose a sponsor and confirmation name, the rite, and how to prepare spiritually."
+          description="Guide to Catholic Confirmation: what it is, the seven gifts of the Holy Spirit, choosing a sponsor and confirmation name, the rite, and how to prepare."
           url="https://guidecatholic.com/blog/catholic-confirmation-guide/"
         />
       <BreadcrumbSchema

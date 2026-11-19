@@ -18,12 +18,12 @@ export default function TeDeumPrayerCatholic() {
     <>
       <Helmet>
         <title>Te Deum Prayer: Full Catholic Text & When the Church Sings It | Guide Catholic</title>
-        <meta name="description" content="The Te Deum laudamus with full Catholic text in English, history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations, victories)." />
+        <meta name="description" content="The Te Deum laudamus in full English text, its history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations)." />
         <meta name="keywords" content="te deum prayer, te deum laudamus, te deum full text, catholic hymn of thanksgiving, te deum english" />
         <link rel="canonical" href="https://guidecatholic.com/blog/te-deum-prayer-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Te Deum Prayer: Full Catholic Text & When the Church Sings It" description="The Te Deum laudamus with full Catholic text in English, history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations, victories)." url="https://guidecatholic.com/blog/te-deum-prayer-catholic/" datePublished="2026-05-30" />
+      <ArticleSchema title="Te Deum Prayer: Full Catholic Text & When the Church Sings It" description="The Te Deum laudamus in full English text, its history as the Church's great hymn of thanksgiving, and when it is sung in the U.S. (Easter, ordinations)." url="https://guidecatholic.com/blog/te-deum-prayer-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

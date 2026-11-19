@@ -18,14 +18,14 @@ export default function HowToReadBible() {
     <>
       <Helmet>
         <title>How to Read the Bible: A Catholic Guide to Scripture Study | Guide Catholic</title>
-        <meta name="description" content="Learn how to read the Bible as a Catholic. Discover study methods, the Catholic canon, approved translations, and how Scripture fits with Tradition and Magisterium." />
+        <meta name="description" content="Learn how to read the Bible as a Catholic: study methods, the Catholic canon, approved translations, and how Scripture fits with Tradition and Magisterium." />
         <meta name="keywords" content="how to read Bible, Catholic Bible study, Scripture reading, Bible guide, Catholic canon" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-read-bible/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="How to Read the Bible: A Catholic Guide to Scripture Study"
-          description="Learn how to read the Bible as a Catholic. Discover study methods, the Catholic canon, approved translations, and how Scripture fits with Tradition and Magisterium."
+          description="Learn how to read the Bible as a Catholic: study methods, the Catholic canon, approved translations, and how Scripture fits with Tradition and Magisterium."
           url="https://guidecatholic.com/blog/how-to-read-bible/"
         />
       <BreadcrumbSchema

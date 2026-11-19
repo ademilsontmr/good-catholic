@@ -18,14 +18,14 @@ export default function WhatIsHolyWeek() {
     <>
       <Helmet>
         <title>What Is Holy Week? A Complete Guide to the Most Sacred Week of the Year | Guide Catholic</title>
-        <meta name="description" content="What is Holy Week? Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil. Learn how to participate fully in each day." />
+        <meta name="description" content="What is Holy Week? Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil." />
         <meta name="keywords" content="what is holy week, holy week catholic, palm sunday, holy thursday, good friday, holy saturday, easter vigil" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-holy-week-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="What Is Holy Week? A Complete Guide to the Most Sacred Week of the Year"
-          description="What is Holy Week? Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil. Learn how to participate fully in each day."
+          description="What is Holy Week? Complete Catholic guide to Palm Sunday, Holy Thursday, Good Friday, Holy Saturday, and the Easter Vigil."
           url="https://guidecatholic.com/blog/what-is-holy-week-catholic/"
         />
       <BreadcrumbSchema

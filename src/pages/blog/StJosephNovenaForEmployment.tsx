@@ -17,12 +17,12 @@ export default function StJosephNovenaForEmployment() {
     <>
       <Helmet>
         <title>St. Joseph Novena for Employment: 9-Day Prayer to Find a Job (Full Text) | Guide Catholic</title>
-        <meta name="description" content="St. Joseph Novena for employment and finding a job — 9-day Catholic prayer with full text, step-by-step guide, and when to pray for work and financial stability. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." />
+        <meta name="description" content="St. Joseph Novena for employment: a 9-day Catholic prayer for finding a job, with full text, a step-by-step guide, FAQs, and prayer for financial stability." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-for-employment/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="St. Joseph Novena for Employment: 9-Day Prayer to Find a Job (Full Text)" description="St. Joseph Novena for employment and finding a job — 9-day Catholic prayer with full text, step-by-step guide, and when to pray for work and financial stability. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/st-joseph-novena-for-employment/" datePublished="2026-05-30" />
+      <ArticleSchema title="St. Joseph Novena for Employment: 9-Day Prayer to Find a Job (Full Text)" description="St. Joseph Novena for employment: a 9-day Catholic prayer for finding a job, with full text, a step-by-step guide, FAQs, and prayer for financial stability." url="https://guidecatholic.com/blog/st-joseph-novena-for-employment/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

@@ -17,7 +17,7 @@ export default function CatholicNewlywedFirstYear() {
     <>
       <Helmet>
         <title>First Year of Catholic Marriage: Newlywed Guide | Guide Catholic</title>
-        <meta name="description" content="Catholic newlywed advice for year one: Mass together, budget, in-laws, fair fighting, NFP with certified teachers, prayer, counseling, and patron saints Joseph, Mary, Anne & Joachim." />
+        <meta name="description" content="Catholic newlywed advice for year one: Mass together, budget, in-laws, fair fighting, NFP, prayer, counseling, and patron saints Joseph, Mary, Anne, Joachim." />
         <meta name="keywords" content="catholic newlywed advice, first year catholic marriage, newlywed catholic guide, catholic marriage first year" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-newlywed-first-year/" />
         <meta name="robots" content="index, follow" />

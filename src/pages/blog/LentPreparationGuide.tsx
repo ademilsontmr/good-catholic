@@ -18,14 +18,14 @@ export default function LentPreparationGuide() {
     <>
       <Helmet>
         <title>Lent Preparation Guide: How to Make the Most of the Season | Guide Catholic</title>
-        <meta name="description" content="Prepare for Lent with this complete guide. Learn how to choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation." />
+        <meta name="description" content="Prepare for Lent with this complete guide: choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation." />
         <meta name="keywords" content="Lent preparation, Lent guide, Lenten season, preparing for Lent, Lent sacrifices" />
         <link rel="canonical" href="https://guidecatholic.com/blog/lent-preparation-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Lent Preparation Guide: How to Make the Most of the Season"
-          description="Prepare for Lent with this complete guide. Learn how to choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation."
+          description="Prepare for Lent with this complete guide: choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation."
           url="https://guidecatholic.com/blog/lent-preparation-guide/"
         />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function TheMemorarePrayer() {
     <>
       <Helmet>
         <title>The Memorare: History, Full Text and How to Pray This Powerful Prayer | Guide Catholic</title>
-        <meta name="description" content="Learn the full text of the Memorare prayer, its history, meaning, and how to pray it. Discover why this ancient prayer to the Virgin Mary has comforted Catholics for centuries." />
+        <meta name="description" content="The Memorare prayer in full: its history, meaning, how to pray it, and why this ancient prayer to the Virgin Mary has comforted Catholics for centuries." />
         <meta name="keywords" content="memorare prayer, the memorare, memorare catholic prayer, remember o most gracious virgin mary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/the-memorare-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="The Memorare: History, Full Text and How to Pray This Powerful Prayer"
-          description="Learn the full text of the Memorare prayer, its history, meaning, and how to pray it. Discover why this ancient prayer to the Virgin Mary has comforted Catholics for centuries."
+          description="The Memorare prayer in full: its history, meaning, how to pray it, and why this ancient prayer to the Virgin Mary has comforted Catholics for centuries."
           url="https://guidecatholic.com/blog/the-memorare-prayer/"
         />
       <BreadcrumbSchema

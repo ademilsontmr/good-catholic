@@ -18,14 +18,14 @@ export default function SaintPeregrineNovena() {
     <>
       <Helmet>
         <title>Saint Peregrine Novena: The Patron Saint for Cancer Patients | Guide Catholic</title>
-        <meta name="description" content="Pray the Saint Peregrine Novena for healing from cancer and other illnesses. Learn about the miraculous life of the 'Cancer Saint' and how to ask for his intercession." />
+        <meta name="description" content="Pray the Saint Peregrine Novena for healing from cancer and other illnesses, and learn about the 'Cancer Saint' and how to ask for his intercession." />
         <meta name="keywords" content="saint peregrine novena, patron saint of cancer, prayer for cancer patients, st peregrine healing, catholic prayer for healing" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-peregrine-novena/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Peregrine Novena: The Patron Saint for Cancer Patients"
-        description="Pray the Saint Peregrine Novena for healing from cancer and other illnesses. Learn about the miraculous life of the 'Cancer Saint' and how to ask for his intercession."
+        description="Pray the Saint Peregrine Novena for healing from cancer and other illnesses, and learn about the 'Cancer Saint' and how to ask for his intercession."
         url="https://guidecatholic.com/blog/saint-peregrine-novena/"
       />
       <BreadcrumbSchema

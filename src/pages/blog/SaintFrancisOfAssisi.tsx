@@ -18,14 +18,14 @@ export default function SaintFrancisOfAssisi() {
     <>
       <Helmet>
         <title>Saint Francis of Assisi: Life, Stigmata, and the Franciscan Legacy | Guide Catholic</title>
-        <meta name="description" content="Discover the life of Saint Francis of Assisi — the Poor Man of Assisi who received the stigmata, founded the Franciscans, and became one of the most beloved saints in history." />
+        <meta name="description" content="Saint Francis of Assisi, the Poor Man of Assisi who received the stigmata, founded the Franciscans, and became one of the most beloved saints in history." />
         <meta name="keywords" content="saint francis of assisi, st francis of assisi, franciscan order, stigmata saint francis, prayer of saint francis, feast day october 4" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-francis-of-assisi/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Francis of Assisi: Life, Stigmata, and the Franciscan Legacy"
-        description="Discover the life of Saint Francis of Assisi — the Poor Man of Assisi who received the stigmata, founded the Franciscans, and became one of the most beloved saints in history."
+        description="Saint Francis of Assisi, the Poor Man of Assisi who received the stigmata, founded the Franciscans, and became one of the most beloved saints in history."
         url="https://guidecatholic.com/blog/saint-francis-of-assisi/"
       />
       <BreadcrumbSchema

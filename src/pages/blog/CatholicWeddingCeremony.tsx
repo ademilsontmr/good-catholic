@@ -18,14 +18,14 @@ export default function CatholicWeddingCeremony() {
     <>
       <Helmet>
         <title>Catholic Wedding Ceremony: A Complete Guide to Holy Matrimony | Guide Catholic</title>
-        <meta name="description" content="Everything you need to know about a Catholic wedding ceremony — the Rite of Marriage, exchange of vows, Nuptial Blessing, Pre-Cana, mixed marriages, and what guests should know." />
+        <meta name="description" content="The Catholic wedding ceremony explained: the Rite of Marriage, exchange of vows, Nuptial Blessing, Pre-Cana, mixed marriages, and what guests should know." />
         <meta name="keywords" content="catholic wedding ceremony, catholic wedding guide, what happens at catholic wedding, catholic marriage rite, catholic wedding traditions" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-ceremony-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Wedding Ceremony: A Complete Guide to Holy Matrimony"
-        description="Everything you need to know about a Catholic wedding ceremony — the Rite of Marriage, exchange of vows, Nuptial Blessing, Pre-Cana, mixed marriages, and what guests should know."
+        description="The Catholic wedding ceremony explained: the Rite of Marriage, exchange of vows, Nuptial Blessing, Pre-Cana, mixed marriages, and what guests should know."
         url="https://guidecatholic.com/blog/catholic-wedding-ceremony-guide/"
         datePublished="2026-04-20"
         dateModified="2026-04-20"

@@ -17,14 +17,14 @@ export default function StMichaelsLentNovenaDay29() {
     <>
       <Helmet>
         <title>{"St Michaels Lent Novena Day 29 (2026): Free Catholic Prayer | Guide Catholic"}</title>
-        <meta name="description" content={"Catholic St. Michael's Lent Novena Day 29 (September 12, 2026). Search-friendly guide for U.S. Catholics — why this day matters and where to pray the full text free."} />
+        <meta name="description" content={"Catholic St. Michael's Lent Novena Day 29 (September 12, 2026). S. Catholics — why this day matters and where to pray the full text free."} />
         <meta name="keywords" content={"st michael's lent novena day 29, st michaels lent novena day 29, st michael lent day 29 september 12, michaelmas novena day 29 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-29-september-12-2026/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title={"Pray St Michael's Lent Novena Day 29 (September 12, 2026)"}
-        description={"Catholic St. Michael's Lent Novena Day 29 (September 12, 2026). Search-friendly guide for U.S. Catholics — why this day matters and where to pray the full text free."}
+        description={"Catholic St. Michael's Lent Novena Day 29 (September 12, 2026). S. Catholics — why this day matters and where to pray the full text free."}
         url="https://guidecatholic.com/blog/st-michaels-lent-novena-day-29-september-12-2026/"
         datePublished="2026-08-14"
       />

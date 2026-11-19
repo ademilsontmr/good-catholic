@@ -18,14 +18,14 @@ export default function EucharisticPrayers() {
     <>
       <Helmet>
         <title>Eucharistic Prayers and Adoration: A Complete Guide | Guide Catholic</title>
-        <meta name="description" content="Discover Eucharistic prayers, Holy Hour devotion, and the practice of adoration. Learn how to pray before the Blessed Sacrament and encounter Christ's Real Presence." />
+        <meta name="description" content="Eucharistic prayers, Holy Hour devotion, and the practice of adoration: how to pray before the Blessed Sacrament and encounter Christ's Real Presence." />
         <meta name="keywords" content="Eucharistic prayers, adoration, Holy Hour, Blessed Sacrament, Eucharistic adoration, praying before Jesus" />
         <link rel="canonical" href="https://guidecatholic.com/blog/eucharistic-prayers/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Eucharistic Prayers and Adoration: A Complete Guide"
-          description="Discover Eucharistic prayers, Holy Hour devotion, and the practice of adoration. Learn how to pray before the Blessed Sacrament and encounter Christ's Real Presence."
+          description="Eucharistic prayers, Holy Hour devotion, and the practice of adoration: how to pray before the Blessed Sacrament and encounter Christ's Real Presence."
           url="https://guidecatholic.com/blog/eucharistic-prayers/"
         />
       <BreadcrumbSchema

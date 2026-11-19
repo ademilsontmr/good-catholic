@@ -18,14 +18,14 @@ export default function CatholicProLifeGuide() {
     <>
       <Helmet>
         <title>Catholic Pro-Life Guide: What the Church Teaches About the Sanctity of Life | Guide Catholic</title>
-        <meta name="description" content="The complete Catholic pro-life guide — what the Church teaches about abortion, euthanasia, capital punishment, and the consistent ethic of life from conception to natural death." />
+        <meta name="description" content="The Catholic pro-life guide: Church teaching on abortion, euthanasia, capital punishment, and the consistent ethic of life from conception to natural death." />
         <meta name="keywords" content="catholic pro life, catholic teaching on abortion, sanctity of life catholic, consistent ethic of life, catholic pro life prayers, evangelium vitae, catechism abortion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-pro-life-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Pro-Life Guide: What the Church Teaches About the Sanctity of Life"
-        description="The complete Catholic pro-life guide — what the Church teaches about abortion, euthanasia, capital punishment, and the consistent ethic of life from conception to natural death."
+        description="The Catholic pro-life guide: Church teaching on abortion, euthanasia, capital punishment, and the consistent ethic of life from conception to natural death."
         url="https://guidecatholic.com/blog/catholic-pro-life-guide/"
       />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function CompleteConfessionGuide() {
     <>
       <Helmet>
         <title>The Complete Guide to Catholic Confession: How to Make a Good Confession | Guide Catholic</title>
-        <meta name="description" content="Everything you need to make a good Confession — step-by-step guide, complete examination of conscience, what to say, common fears answered, and how to return after years away." />
+        <meta name="description" content="How to make a good Confession: a step-by-step guide, examination of conscience, what to say, common fears answered, and how to return after years away." />
         <meta name="keywords" content="complete guide catholic confession, how to make a good confession, what to say in confession, examination of conscience confession, first confession guide, returning to confession after years" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-catholic-confession/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Guide to Catholic Confession: How to Make a Good Confession"
-        description="Everything you need to make a good Confession — step-by-step guide, complete examination of conscience, what to say, common fears answered, and how to return after years away."
+        description="How to make a good Confession: a step-by-step guide, examination of conscience, what to say, common fears answered, and how to return after years away."
         url="https://guidecatholic.com/blog/complete-guide-to-catholic-confession/"
       />
       <BreadcrumbSchema

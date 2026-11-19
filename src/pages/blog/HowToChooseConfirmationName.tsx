@@ -18,14 +18,14 @@ export default function HowToChooseConfirmationName() {
     <>
       <Helmet>
         <title>How to Choose a Confirmation Name: A Complete Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="Learn how to choose a Catholic Confirmation name. Discover what a Confirmation name means, how to research saints, and how to make this important spiritual decision." />
+        <meta name="description" content="How to choose a Catholic Confirmation name: what a Confirmation name means, how to research saints, and how to make this important spiritual decision." />
         <meta name="keywords" content="how to choose confirmation name, confirmation name catholic, picking a confirmation name, confirmation saint name, catholic confirmation name ideas" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-choose-confirmation-name/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Choose a Confirmation Name: A Complete Catholic Guide"
-        description="Learn how to choose a Catholic Confirmation name. Discover what a Confirmation name means, how to research saints, and how to make this important spiritual decision."
+        description="How to choose a Catholic Confirmation name: what a Confirmation name means, how to research saints, and how to make this important spiritual decision."
         url="https://guidecatholic.com/blog/how-to-choose-confirmation-name/"
       />
       <BreadcrumbSchema

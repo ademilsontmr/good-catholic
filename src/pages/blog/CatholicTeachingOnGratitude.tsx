@@ -18,14 +18,14 @@ export default function CatholicTeachingOnGratitude() {
     <>
       <Helmet>
         <title>Gratitude: The Catholic Virtue of Thankfulness | Guide Catholic</title>
-        <meta name="description" content="Gratitude is the foundation of the spiritual life. Discover why the Eucharist means 'thanksgiving,' how ingratitude is a sin, and how to cultivate a grateful heart." />
+        <meta name="description" content="Gratitude is the foundation of the spiritual life. Why the Eucharist means 'thanksgiving,' how ingratitude is a sin, and how to cultivate a grateful heart." />
         <meta name="keywords" content="gratitude catholic, thankfulness catholic faith, eucharist means thanksgiving, gratitude as virtue, how to be grateful catholic, thanksgiving prayer catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/gratitude-catholic-virtue/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Gratitude: The Catholic Virtue of Thankfulness"
-        description="Gratitude is the foundation of the spiritual life. Discover why the Eucharist means 'thanksgiving,' how ingratitude is a sin, and how to cultivate a grateful heart."
+        description="Gratitude is the foundation of the spiritual life. Why the Eucharist means 'thanksgiving,' how ingratitude is a sin, and how to cultivate a grateful heart."
         url="https://guidecatholic.com/blog/gratitude-catholic-virtue/"
       />
       <BreadcrumbSchema

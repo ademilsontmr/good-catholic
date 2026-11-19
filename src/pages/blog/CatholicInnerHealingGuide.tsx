@@ -18,14 +18,14 @@ export default function CatholicInnerHealingGuide() {
     <>
       <Helmet>
         <title>Catholic Inner Healing: Complete Guide to Emotional & Spiritual Freedom | Guide Catholic</title>
-        <meta name="description" content="Discover the Catholic approach to inner healing prayer. Learn how to heal emotional wounds, break generational curses, and find freedom through Christ's healing power." />
+        <meta name="description" content="The Catholic approach to inner healing prayer: how to heal emotional wounds, break generational curses, and find freedom through Christ's healing power." />
         <meta name="keywords" content="catholic inner healing, emotional healing prayer, generational healing catholic, spiritual healing catholic, healing from trauma catholic, inner healing prayer catholic, emotional wounds healing, spiritual freedom prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-inner-healing-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Inner Healing: Complete Guide to Emotional & Spiritual Freedom"
-          description="Discover the Catholic approach to inner healing prayer. Learn how to heal emotional wounds, break generational curses, and find freedom through Christ's healing power."
+          description="The Catholic approach to inner healing prayer: how to heal emotional wounds, break generational curses, and find freedom through Christ's healing power."
           url="https://guidecatholic.com/blog/catholic-inner-healing-guide/"
         />
       <BreadcrumbSchema

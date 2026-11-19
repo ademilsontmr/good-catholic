@@ -19,14 +19,14 @@ export default function CatholicSpiritualWarfare() {
     <>
       <Helmet>
         <title>Spiritual Warfare: The Catholic Guide to Fighting Evil and Temptation | Guide Catholic</title>
-        <meta name="description" content="Spiritual warfare is real. Learn the Catholic teaching on the battle for the soul — the three enemies, the Armor of God, the Prayer to Saint Michael, and a daily spiritual warfare routine." />
+        <meta name="description" content="Catholic teaching on spiritual warfare: the three enemies, the Armor of God, the Prayer to Saint Michael, and a daily spiritual warfare routine." />
         <meta name="keywords" content="spiritual warfare catholic, how to fight spiritual warfare, catholic spiritual warfare prayers, armor of god catholic, fighting temptation catholic, demonic attack catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/spiritual-warfare-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Spiritual Warfare: The Catholic Guide to Fighting Evil and Temptation"
-        description="Spiritual warfare is real. Learn the Catholic teaching on the battle for the soul — the three enemies, the Armor of God, the Prayer to Saint Michael, and a daily spiritual warfare routine."
+        description="Catholic teaching on spiritual warfare: the three enemies, the Armor of God, the Prayer to Saint Michael, and a daily spiritual warfare routine."
         url="https://guidecatholic.com/blog/spiritual-warfare-catholic/"
       />
       <BreadcrumbSchema

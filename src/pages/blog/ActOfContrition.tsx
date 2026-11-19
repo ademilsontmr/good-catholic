@@ -19,14 +19,14 @@ export default function ActOfContrition() {
     <>
       <Helmet>
         <title>The Act of Contrition: Full Text, Meaning and How to Pray It | Guide Catholic</title>
-        <meta name="description" content="Discover the full text of the Act of Contrition, its meaning, history, and how to pray it before Confession. Essential Catholic prayer for forgiveness and reconciliation." />
+        <meta name="description" content="Full text of the Act of Contrition, its meaning and history, and how to pray it before Confession. An essential Catholic prayer for forgiveness." />
         <meta name="keywords" content="act of contrition, act of contrition prayer, catholic act of contrition, prayer before confession" />
         <link rel="canonical" href="https://guidecatholic.com/blog/act-of-contrition/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="The Act of Contrition: Full Text, Meaning and How to Pray It"
-          description="Discover the full text of the Act of Contrition, its meaning, history, and how to pray it before Confession. Essential Catholic prayer for forgiveness and reconciliation."
+          description="Full text of the Act of Contrition, its meaning and history, and how to pray it before Confession. An essential Catholic prayer for forgiveness."
           url="https://guidecatholic.com/blog/act-of-contrition/"
         />
       <BreadcrumbSchema

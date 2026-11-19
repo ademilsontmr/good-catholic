@@ -18,14 +18,14 @@ export default function CatholicSchoolsAmerica() {
     <>
       <Helmet>
         <title>Catholic Schools in America: Benefits, Costs & How to Choose the Right One | Guide Catholic</title>
-        <meta name="description" content="The US has over 6,000 Catholic schools. Learn about the academic and faith formation benefits, tuition costs, scholarships, and how to evaluate whether a school is truly Catholic." />
+        <meta name="description" content="The US has over 6,000 Catholic schools. Learn the academic and faith benefits, tuition, scholarships, and how to evaluate whether a school is truly Catholic." />
         <meta name="keywords" content="catholic schools in america, catholic school benefits, catholic school tuition, best catholic schools usa, catholic education america, should i send my child to catholic school" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-schools-in-america/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Schools in America: Benefits, Costs & How to Choose the Right One"
-        description="The US has over 6,000 Catholic schools. Learn about the academic and faith formation benefits, tuition costs, scholarships, and how to evaluate whether a school is truly Catholic."
+        description="The US has over 6,000 Catholic schools. Learn the academic and faith benefits, tuition, scholarships, and how to evaluate whether a school is truly Catholic."
         url="https://guidecatholic.com/blog/catholic-schools-in-america/"
       />
       <BreadcrumbSchema

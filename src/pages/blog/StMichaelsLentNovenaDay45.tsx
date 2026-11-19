@@ -17,14 +17,14 @@ export default function StMichaelsLentNovenaDay45() {
     <>
       <Helmet>
         <title>{"Novena to St Michael Day 45 — September 28 Guide | Guide Catholic"}</title>
-        <meta name="description" content={"St Michael Lent Novena Day 45: September 28, 2026 prayer guide. Build spiritual courage with today's unique reflection and the complete novena on Catholic Bible Online."} />
+        <meta name="description" content={"St Michael Lent Novena Day 45: September 28, 2026 prayer guide: today's reflection for spiritual courage and the full novena on Catholic Bible Online."} />
         <meta name="keywords" content={"st michael's lent novena day 45, st michaels lent novena day 45, st michael lent day 45 september 28, michaelmas novena day 45 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-novena-day-45-september-28-2026/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title={"St Michaels Lent Day 45 Novena Prayer — September 28, 2026"}
-        description={"St Michael Lent Novena Day 45: September 28, 2026 prayer guide. Build spiritual courage with today's unique reflection and the complete novena on Catholic Bible Online."}
+        description={"St Michael Lent Novena Day 45: September 28, 2026 prayer guide: today's reflection for spiritual courage and the full novena on Catholic Bible Online."}
         url="https://guidecatholic.com/blog/st-michaels-lent-novena-day-45-september-28-2026/"
         datePublished="2026-08-14"
       />

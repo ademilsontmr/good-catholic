@@ -18,14 +18,14 @@ export default function CatholicTeachingOnCharity() {
     <>
       <Helmet>
         <title>What Is Charity? The Greatest of the Three Theological Virtues | Guide Catholic</title>
-        <meta name="description" content="Charity is the greatest of the theological virtues — the love of God and neighbor that is the form of all virtues. Learn what it is, how it grows, and how the saints lived it." />
+        <meta name="description" content="Charity is the greatest of the theological virtues — the love of God and neighbor that is the form of all virtues." />
         <meta name="keywords" content="what is charity catholic, theological virtue charity, love of god and neighbor, caritas catholic, charity vs love catholic, 1 corinthians 13 catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-charity-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is Charity? The Greatest of the Three Theological Virtues"
-        description="Charity is the greatest of the theological virtues — the love of God and neighbor that is the form of all virtues. Learn what it is, how it grows, and how the saints lived it."
+        description="Charity is the greatest of the theological virtues — the love of God and neighbor that is the form of all virtues."
         url="https://guidecatholic.com/blog/what-is-charity-catholic/"
       />
       <BreadcrumbSchema

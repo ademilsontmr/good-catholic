@@ -17,14 +17,14 @@ export default function CatholicThanksgivingPrayerUsa2026() {
     <>
       <Helmet>
         <title>{"Catholic Thanksgiving Prayer 2026 — Nov 26 USA | Guide Catholic"}</title>
-        <meta name="description" content={"Thanksgiving 2026 is Thursday, Nov 26. Catholic table grace, Eucharist as thanksgiving, Mass tips, works of mercy, and a family gratitude rite for U.S. believers."} />
+        <meta name="description" content={"Thanksgiving 2026 is Thursday, Nov 26. Catholic table grace, the Eucharist as thanksgiving, Mass tips, works of mercy, and a family gratitude rite."} />
         <meta name="keywords" content={"catholic thanksgiving prayer, thanksgiving prayer 2026, catholic grace before meals thanksgiving, thanksgiving mass 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-thanksgiving-prayer-usa-2026/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title={"Catholic Thanksgiving Prayer (USA 2026): Grace, Mass & Family Rites"}
-        description={"Thanksgiving 2026 is Thursday, Nov 26. Catholic table grace, Eucharist as thanksgiving, Mass tips, works of mercy, and a family gratitude rite for U.S. believers."}
+        description={"Thanksgiving 2026 is Thursday, Nov 26. Catholic table grace, the Eucharist as thanksgiving, Mass tips, works of mercy, and a family gratitude rite."}
         url="https://guidecatholic.com/blog/catholic-thanksgiving-prayer-usa-2026/"
         datePublished="2026-09-22"
       />

@@ -18,14 +18,14 @@ export default function SaintJosephineBakhita() {
     <>
       <Helmet>
         <title>Saint Josephine Bakhita: From Slave to Saint | Guide Catholic</title>
-        <meta name="description" content="Discover Saint Josephine Bakhita — the Sudanese woman who was kidnapped into slavery as a child, found God through her suffering, and became one of the most beloved saints of the 20th century." />
+        <meta name="description" content="Saint Josephine Bakhita, the Sudanese woman kidnapped into slavery as a child, who found God through suffering and became a beloved 20th-century saint." />
         <meta name="keywords" content="saint josephine bakhita, bakhita slave saint, josephine bakhita life, patron saint of sudan, feast day february 8, canossian sister bakhita" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-josephine-bakhita/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Josephine Bakhita: From Slave to Saint"
-        description="Discover Saint Josephine Bakhita — the Sudanese woman who was kidnapped into slavery as a child, found God through her suffering, and became one of the most beloved saints of the 20th century."
+        description="Saint Josephine Bakhita, the Sudanese woman kidnapped into slavery as a child, who found God through suffering and became a beloved 20th-century saint."
         url="https://guidecatholic.com/blog/saint-josephine-bakhita/"
       />
       <BreadcrumbSchema

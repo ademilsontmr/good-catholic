@@ -18,14 +18,14 @@ export default function FaithAndWorksCatholic() {
     <>
       <Helmet>
         <title>Faith and Works: What Catholics Believe About Salvation | Guide Catholic</title>
-        <meta name="description" content="Are Catholics saved by works? Learn the Catholic teaching on faith, works, and salvation — what James 2 really means, what Luther got right and wrong, and how grace and merit relate." />
+        <meta name="description" content="Are Catholics saved by works? Catholic teaching on faith, works, and salvation: James 2, what Luther got right and wrong, and how grace and merit relate." />
         <meta name="keywords" content="faith and works catholic, are catholics saved by works, faith alone catholic, sola fide catholic, james 2 faith without works, catholic vs protestant salvation" />
         <link rel="canonical" href="https://guidecatholic.com/blog/faith-and-works-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Faith and Works: What Catholics Believe About Salvation"
-        description="Are Catholics saved by works? Learn the Catholic teaching on faith, works, and salvation — what James 2 really means, what Luther got right and wrong, and how grace and merit relate."
+        description="Are Catholics saved by works? Catholic teaching on faith, works, and salvation: James 2, what Luther got right and wrong, and how grace and merit relate."
         url="https://guidecatholic.com/blog/faith-and-works-catholic/"
       />
       <BreadcrumbSchema

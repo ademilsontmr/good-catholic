@@ -18,14 +18,14 @@ export default function CatholicTeachingOnPrayer() {
     <>
       <Helmet>
         <title>What Is Prayer? The Catholic Teaching on Talking to God | Guide Catholic</title>
-        <meta name="description" content="What is prayer? The Catholic Church teaches that prayer is the raising of the mind and heart to God. Learn the five forms, three expressions, and how to develop a real prayer life." />
+        <meta name="description" content="What is prayer? The Church teaches it is the raising of the mind and heart to God. Learn the five forms, three expressions, and how to build a prayer life." />
         <meta name="keywords" content="what is prayer catholic, catholic teaching on prayer, types of prayer catholic, how to pray catholic, prayer definition catholic, why pray catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-prayer-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is Prayer? The Catholic Teaching on Talking to God"
-        description="What is prayer? The Catholic Church teaches that prayer is the raising of the mind and heart to God. Learn the five forms, three expressions, and how to develop a real prayer life."
+        description="What is prayer? The Church teaches it is the raising of the mind and heart to God. Learn the five forms, three expressions, and how to build a prayer life."
         url="https://guidecatholic.com/blog/what-is-prayer-catholic/"
       />
       <BreadcrumbSchema

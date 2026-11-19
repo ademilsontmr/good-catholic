@@ -17,7 +17,7 @@ export default function CaringForAgingParentsCatholic() {
     <>
       <Helmet>
         <title>Caring for Aging Parents: A Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="Caring for aging parents as Catholics — Fourth Commandment, sandwich generation stress, siblings, nursing homes, Anointing of the Sick, and ordinary vs extraordinary means at a catechetical level." />
+        <meta name="description" content="Caring for aging parents as Catholics: the Fourth Commandment, sandwich generation stress, siblings, nursing homes, and the Anointing of the Sick." />
         <meta name="keywords" content="caring for aging parents catholic, fourth commandment parents, catholic nursing home, sandwich generation catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/caring-for-aging-parents-catholic/" />
         <meta name="robots" content="index, follow" />

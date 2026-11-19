@@ -18,14 +18,14 @@ export default function CatholicTeachingOnIVF() {
     <>
       <Helmet>
         <title>Catholic Teaching on IVF: What the Church Says About In Vitro Fertilization | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about IVF (in vitro fertilization)? A clear explanation from the Catechism, Donum Vitae, and Dignitas Personae — and what alternatives the Church supports." />
+        <meta name="description" content="What does the Catholic Church teach about IVF (in vitro fertilization)? An explanation from the Catechism, Donum Vitae, and Dignitas Personae." />
         <meta name="keywords" content="catholic teaching on ivf, catholic church ivf, in vitro fertilization catholic, donum vitae, dignitas personae, catholic infertility, natural family planning infertility" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-ivf/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on IVF: What the Church Says About In Vitro Fertilization"
-        description="What does the Catholic Church teach about IVF (in vitro fertilization)? A clear explanation from the Catechism, Donum Vitae, and Dignitas Personae — and what alternatives the Church supports."
+        description="What does the Catholic Church teach about IVF (in vitro fertilization)? An explanation from the Catechism, Donum Vitae, and Dignitas Personae."
         url="https://guidecatholic.com/blog/catholic-teaching-on-ivf/"
       />
       <BreadcrumbSchema

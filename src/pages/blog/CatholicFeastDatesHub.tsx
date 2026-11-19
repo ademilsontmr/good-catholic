@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Calendar, Star, ArrowRight } from "lucide-react";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { CollectionPageSchema } from "@/components/blog/CollectionPageSchema";
 import { CATHOLIC_FEAST_DATE_ARTICLES } from "@/data/catholicFeastDateArticles";
 import { catholicFeastDatePath } from "@/lib/catholicFeastDateSlugs";
 
@@ -25,6 +26,14 @@ function groupBySeason() {
   });
 }
 
+const FEAST_DESCRIPTION =
+  "Guide to Catholic feast days: Christmas, Easter, Ash Wednesday, Assumption, All Saints, Holy Days of Obligation in the USA, and 55 major liturgical dates.";
+
+// Same season order as the page sections.
+const FEAST_LIST_ITEMS = groupBySeason().flatMap(([, feasts]) =>
+  feasts.map((f) => ({ name: f.shortName, path: catholicFeastDatePath(f.slug) }))
+);
+
 export default function CatholicFeastDatesHub() {
   const holyDays = CATHOLIC_FEAST_DATE_ARTICLES.filter((a) => a.holyDayUS);
 
@@ -34,12 +43,19 @@ export default function CatholicFeastDatesHub() {
         <title>Catholic Feast Days Calendar: Complete Guide to Important Church Dates | Guide Catholic</title>
         <meta
           name="description"
-          content="Complete guide to Catholic feast days — Christmas, Easter, Ash Wednesday, Assumption, All Saints, Holy Days of Obligation in the USA, and 55 major liturgical dates explained."
+          content={FEAST_DESCRIPTION}
         />
         <meta name="keywords" content="catholic feast days, catholic liturgical calendar, holy days of obligation usa, catholic church calendar, when is ash wednesday, catholic holidays" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-feast-days/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+      <CollectionPageSchema
+        name="Catholic Feast Days Calendar: Complete Guide to Important Church Dates"
+        description={FEAST_DESCRIPTION}
+        path="/blog/catholic-feast-days/"
+        breadcrumbName="Catholic Feast Days"
+        items={FEAST_LIST_ITEMS}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

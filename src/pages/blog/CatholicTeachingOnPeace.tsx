@@ -18,14 +18,14 @@ export default function CatholicTeachingOnPeace() {
     <>
       <Helmet>
         <title>Catholic Teaching on Peace: What the Church Says About True Peace | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about peace? From Augustine's 'tranquility of order' to Pacem in Terris, discover the Catholic vision of inner and social peace." />
+        <meta name="description" content="What does the Catholic Church teach about peace? From Augustine's 'tranquility of order' to Pacem in Terris, the Catholic vision of inner and social peace." />
         <meta name="keywords" content="catholic teaching on peace, peace in catholic church, pacem in terris, what is peace catholic, inner peace catholic, peace and justice catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-peace/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Peace: What the Church Says About True Peace"
-        description="What does the Catholic Church teach about peace? From Augustine's 'tranquility of order' to Pacem in Terris, discover the Catholic vision of inner and social peace."
+        description="What does the Catholic Church teach about peace? From Augustine's 'tranquility of order' to Pacem in Terris, the Catholic vision of inner and social peace."
         url="https://guidecatholic.com/blog/catholic-teaching-on-peace/"
       />
       <BreadcrumbSchema

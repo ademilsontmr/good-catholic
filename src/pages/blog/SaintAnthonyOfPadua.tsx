@@ -18,14 +18,14 @@ export default function SaintAnthonyOfPadua() {
     <>
       <Helmet>
         <title>St. Anthony of Padua: Patron of Lost Things and Powerful Intercessor | Guide Catholic</title>
-        <meta name="description" content="Discover the life of St. Anthony of Padua — his extraordinary preaching gifts, why he is patron of lost things, the Responsory Si quaeris miracula, his feast day June 13, and a prayer to St. Anthony." />
+        <meta name="description" content="The life of St. Anthony of Padua: his preaching, why he is patron of lost things, the Responsory Si quaeris miracula, his June 13 feast, and a prayer to him." />
         <meta name="keywords" content="saint anthony of padua, st anthony prayer, patron of lost things, saint anthony lost items, prayer to st anthony" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-anthony-of-padua/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="St. Anthony of Padua: Patron of Lost Things and Powerful Intercessor"
-          description="Discover the life of St. Anthony of Padua — his extraordinary preaching gifts, why he is patron of lost things, the Responsory Si quaeris miracula, his feast day June 13, and a prayer to St. Anthony."
+          description="The life of St. Anthony of Padua: his preaching, why he is patron of lost things, the Responsory Si quaeris miracula, his June 13 feast, and a prayer to him."
           url="https://guidecatholic.com/blog/saint-anthony-of-padua/"
         />
       <BreadcrumbSchema

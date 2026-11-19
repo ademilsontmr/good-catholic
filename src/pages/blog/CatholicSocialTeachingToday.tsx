@@ -18,14 +18,14 @@ export default function CatholicSocialTeachingToday() {
     <>
       <Helmet>
         <title>Catholic Social Teaching Today: Applying Doctrine to Current Issues | Guide Catholic</title>
-        <meta name="description" content="Discover how Catholic social teaching applies to today's challenges. Learn about poverty, immigration, ecology, and economic justice from a Catholic perspective." />
+        <meta name="description" content="How Catholic social teaching applies to today's challenges, including poverty, immigration, ecology, and economic justice, from a Catholic perspective." />
         <meta name="keywords" content="Catholic social teaching, current issues, social doctrine, poverty, immigration, ecology" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-social-teaching-today/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Social Teaching Today: Applying Doctrine to Current Issues"
-          description="Discover how Catholic social teaching applies to today's challenges. Learn about poverty, immigration, ecology, and economic justice from a Catholic perspective."
+          description="How Catholic social teaching applies to today's challenges, including poverty, immigration, ecology, and economic justice, from a Catholic perspective."
           url="https://guidecatholic.com/blog/catholic-social-teaching-today/"
         />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function CatholicChurchHistory() {
     <>
       <Helmet>
         <title>Catholic Church History: A Complete Timeline from Peter to Today | Guide Catholic</title>
-        <meta name="description" content="Discover the history of the Catholic Church from St. Peter to Pope Francis. Learn about key figures, councils, and moments that shaped 2000 years of Catholic tradition." />
+        <meta name="description" content="The history of the Catholic Church from St. Peter to Pope Francis: key figures, councils, and moments that shaped 2000 years of Catholic tradition." />
         <meta name="keywords" content="Catholic Church history, Church timeline, papal history, Vatican history, Church councils" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-church-history/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Church History: A Complete Timeline from Peter to Today"
-          description="Discover the history of the Catholic Church from St. Peter to Pope Francis. Learn about key figures, councils, and moments that shaped 2000 years of Catholic tradition."
+          description="The history of the Catholic Church from St. Peter to Pope Francis: key figures, councils, and moments that shaped 2000 years of Catholic tradition."
           url="https://guidecatholic.com/blog/catholic-church-history/"
         />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function CatholicFirstCommunion() {
     <>
       <Helmet>
         <title>First Communion: What It Is, How to Prepare & What to Expect | Guide Catholic</title>
-        <meta name="description" content="Everything you need to know about Catholic First Communion — what it is, the age for First Communion, how to prepare your child, what happens at the Mass, and how to celebrate." />
+        <meta name="description" content="Catholic First Communion explained: what it is, the age for First Communion, how to prepare your child, what happens at the Mass, and how to celebrate." />
         <meta name="keywords" content="catholic first communion, first communion age, first communion preparation, first holy communion catholic, first communion mass, preparing child first communion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-first-communion-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="First Communion: What It Is, How to Prepare & What to Expect"
-        description="Everything you need to know about Catholic First Communion — what it is, the age for First Communion, how to prepare your child, what happens at the Mass, and how to celebrate."
+        description="Catholic First Communion explained: what it is, the age for First Communion, how to prepare your child, what happens at the Mass, and how to celebrate."
         url="https://guidecatholic.com/blog/catholic-first-communion-guide/"
       />
       <BreadcrumbSchema

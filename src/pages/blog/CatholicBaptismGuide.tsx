@@ -18,14 +18,14 @@ export default function CatholicBaptismGuide() {
     <>
       <Helmet>
         <title>Catholic Baptism: What It Is, How It Works, and Why It Matters | Guide Catholic</title>
-        <meta name="description" content="Complete guide to Catholic Baptism. Learn the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire." />
+        <meta name="description" content="Guide to Catholic Baptism: the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire." />
         <meta name="keywords" content="catholic baptism, infant baptism, adult baptism, baptism catholic church, what happens at catholic baptism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-baptism-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Baptism: What It Is, How It Works, and Why It Matters"
-          description="Complete guide to Catholic Baptism. Learn the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire."
+          description="Guide to Catholic Baptism: the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire."
           url="https://guidecatholic.com/blog/catholic-baptism-guide/"
         />
       <BreadcrumbSchema

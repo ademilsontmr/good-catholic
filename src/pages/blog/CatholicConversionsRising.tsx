@@ -18,14 +18,14 @@ export default function CatholicConversionsRising() {
     <>
       <Helmet>
         <title>Catholic Conversions Are Rising: Why People Are Joining the Church in 2025–2026 | Guide Catholic</title>
-        <meta name="description" content="Catholic conversions are at a 20-year high. Why are so many people — especially young adults — choosing to become Catholic? The stories, the data, and the reasons behind the revival." />
+        <meta name="description" content="Catholic conversions are at a 20-year high. Why are so many people — especially young adults — choosing to become Catholic?" />
         <meta name="keywords" content="catholic conversions rising, why people become catholic, converting to catholicism 2025, catholic revival, rcia record numbers, why join the catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-conversions-rising/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Conversions Are Rising: Why People Are Joining the Church in 2025–2026"
-        description="Catholic conversions are at a 20-year high. Why are so many people — especially young adults — choosing to become Catholic? The stories, the data, and the reasons behind the revival."
+        description="Catholic conversions are at a 20-year high. Why are so many people — especially young adults — choosing to become Catholic?"
         url="https://guidecatholic.com/blog/catholic-conversions-rising/"
       />
       <BreadcrumbSchema

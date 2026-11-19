@@ -18,14 +18,14 @@ export default function WhatIsCatholicFaith() {
     <>
       <Helmet>
         <title>What Is the Catholic Faith? A Complete Introduction | Guide Catholic</title>
-        <meta name="description" content="A complete introduction to the Catholic faith — what Catholics believe, the seven sacraments, Mary and the saints, the Pope, and how to begin exploring Catholicism." />
+        <meta name="description" content="An introduction to the Catholic faith: what Catholics believe, the seven sacraments, Mary and the saints, the Pope, and how to begin exploring Catholicism." />
         <meta name="keywords" content="what is the catholic faith, catholic faith explained, what do catholics believe, introduction to catholicism, catholic beliefs basics, catholic faith summary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-faith/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is the Catholic Faith? A Complete Introduction"
-        description="A complete introduction to the Catholic faith — what Catholics believe, the seven sacraments, Mary and the saints, the Pope, and how to begin exploring Catholicism."
+        description="An introduction to the Catholic faith: what Catholics believe, the seven sacraments, Mary and the saints, the Pope, and how to begin exploring Catholicism."
         url="https://guidecatholic.com/blog/what-is-the-catholic-faith/"
       />
       <BreadcrumbSchema

@@ -18,12 +18,12 @@ export default function PreceptsOfTheCatholicChurch() {
     <>
       <Helmet>
         <title>Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know | Guide Catholic</title>
-        <meta name="description" content="The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens." />
+        <meta name="description" content="The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. S." />
         <meta name="keywords" content="precepts of the catholic church, 5 precepts catholic, catholic church laws, sunday mass obligation, easter duty confession communion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/precepts-of-the-catholic-church/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know" description="The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens." url="https://guidecatholic.com/blog/precepts-of-the-catholic-church/" datePublished="2026-05-30" />
+      <ArticleSchema title="Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know" description="The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. S." url="https://guidecatholic.com/blog/precepts-of-the-catholic-church/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

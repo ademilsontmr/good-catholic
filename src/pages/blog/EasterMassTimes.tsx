@@ -18,14 +18,14 @@ export default function EasterMassTimes() {
     <>
       <Helmet>
         <title>Easter Mass Times 2026: How to Find Mass Near You for Easter Sunday | Guide Catholic</title>
-        <meta name="description" content="How to find Easter Mass times 2026 near you — Easter Sunday is April 5, 2026. Best tools to find Mass, what to expect at Easter Vigil, and how to prepare for Easter." />
+        <meta name="description" content="Find Easter Mass times 2026 near you. Easter Sunday is April 5, 2026: tools to find Mass, what to expect at the Easter Vigil, and how to prepare for Easter." />
         <meta name="keywords" content="easter mass times 2026, easter mass near me, easter sunday mass 2026, easter vigil 2026, catholic easter mass, when is easter 2026" />
         <link rel="canonical" href="https://guidecatholic.com/blog/easter-mass-times-2026/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Easter Mass Times 2026: How to Find Mass Near You for Easter Sunday"
-        description="How to find Easter Mass times 2026 near you — Easter Sunday is April 5, 2026. Best tools to find Mass, what to expect at Easter Vigil, and how to prepare for Easter."
+        description="Find Easter Mass times 2026 near you. Easter Sunday is April 5, 2026: tools to find Mass, what to expect at the Easter Vigil, and how to prepare for Easter."
         url="https://guidecatholic.com/blog/easter-mass-times-2026/"
       />
       <BreadcrumbSchema

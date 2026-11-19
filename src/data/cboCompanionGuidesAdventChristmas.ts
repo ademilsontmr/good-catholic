@@ -21,7 +21,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
     "slug": "catholic-saint-feast-prayers-nov-dec-jan-feb-guide",
     "title": "Catholic Feast-Day Prayers: November Through February",
     "h1": "Saint Feast Prayers from November to February: A Catholic Calendar Guide",
-    "description": "Prayers for Catholic saint feasts from November through February: All Saints, Advent, Christmas, Epiphany, and winter memorials, with 2026–27 dates and Mass tips.",
+    "description": "Prayers for Catholic saint feasts from November to February: All Saints, Advent, Christmas, Epiphany, and winter memorials, with 2026–27 dates.",
     "keywords": "catholic saint feast prayers november december january february, feast day prayers winter, advent christmas saint prayers 2026, holy days november february",
     "readTime": "17 min",
     "datePublished": "2026-11-07",

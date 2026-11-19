@@ -19,14 +19,14 @@ export default function MorningOfferingPrayer() {
     <>
       <Helmet>
         <title>Morning Offering Prayer: How to Start Your Day with God | Guide Catholic</title>
-        <meta name="description" content="Learn the Catholic Morning Offering prayer and how to consecrate your entire day to God. Discover different versions, the history, and practical tips for making this powerful prayer a daily habit." />
+        <meta name="description" content="Learn the Catholic Morning Offering prayer to consecrate your day to God: its versions, its history, and practical tips for making it a daily habit." />
         <meta name="keywords" content="morning offering prayer, catholic morning prayer, morning offering catholic, start day with prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/morning-offering-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Morning Offering Prayer: How to Start Your Day with God"
-          description="Learn the Catholic Morning Offering prayer and how to consecrate your entire day to God. Discover different versions, the history, and practical tips for making this powerful prayer a daily habit."
+          description="Learn the Catholic Morning Offering prayer to consecrate your day to God: its versions, its history, and practical tips for making it a daily habit."
           url="https://guidecatholic.com/blog/morning-offering-prayer/"
         />
       <BreadcrumbSchema

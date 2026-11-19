@@ -18,14 +18,14 @@ export default function CatholicTeachingOnJustice() {
     <>
       <Helmet>
         <title>Catholic Teaching on Justice: What the Church Says About Social Justice | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about justice? Learn about the four types of justice, Catholic social teaching, the preferential option for the poor, and how to live justly." />
+        <meta name="description" content="What does the Catholic Church teach about justice? The four types of justice, Catholic social teaching, the option for the poor, and how to live justly." />
         <meta name="keywords" content="catholic teaching on justice, social justice catholic, preferential option for the poor, catholic social teaching justice, what is justice catholic, four types of justice catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-justice/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Justice: What the Church Says About Social Justice"
-        description="What does the Catholic Church teach about justice? Learn about the four types of justice, Catholic social teaching, the preferential option for the poor, and how to live justly."
+        description="What does the Catholic Church teach about justice? The four types of justice, Catholic social teaching, the option for the poor, and how to live justly."
         url="https://guidecatholic.com/blog/catholic-teaching-on-justice/"
       />
       <BreadcrumbSchema

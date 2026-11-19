@@ -18,14 +18,14 @@ export default function CatholicismAndEvolution() {
     <>
       <Helmet>
         <title>Catholicism and Evolution: Can You Believe in Both? | Guide Catholic</title>
-        <meta name="description" content="Does the Catholic Church accept evolutionary theory? Explore the official teaching of the Popes, the compatibility of science and Genesis, and the origin of the human soul." />
+        <meta name="description" content="Does the Catholic Church accept evolution? The official teaching of the Popes, how science and Genesis fit together, and the origin of the human soul." />
         <meta name="keywords" content="catholic church and evolution, genesis and science catholic, did god create evolution, catholic position on darwism, faith and science compatibility, Humani Generis, Adam and Eve" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholicism-and-evolution-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholicism and Evolution: Can You Believe in Both?"
-        description="Does the Catholic Church accept evolutionary theory? Explore the official teaching of the Popes, the compatibility of science and Genesis, and the origin of the human soul."
+        description="Does the Catholic Church accept evolution? The official teaching of the Popes, how science and Genesis fit together, and the origin of the human soul."
         url="https://guidecatholic.com/blog/catholicism-and-evolution-guide/"
       />
       <BreadcrumbSchema

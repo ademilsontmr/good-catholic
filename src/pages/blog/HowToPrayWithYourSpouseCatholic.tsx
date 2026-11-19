@@ -17,7 +17,7 @@ export default function HowToPrayWithYourSpouseCatholic() {
     <>
       <Helmet>
         <title>How to Pray With Your Spouse: A Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="Learn how to pray with your spouse as Catholics — nightly examen, weekly Rosary, Sunday Mass, meal grace, and gentle habits when faith levels differ. No coercion, real unity." />
+        <meta name="description" content="Learn how to pray with your spouse as Catholics — nightly examen, weekly Rosary, Sunday Mass, meal grace, and gentle habits when faith levels differ." />
         <meta name="keywords" content="how to pray with your spouse, catholic couple prayer, pray together marriage, spouse prayer routine" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-with-your-spouse-catholic/" />
         <meta name="robots" content="index, follow" />

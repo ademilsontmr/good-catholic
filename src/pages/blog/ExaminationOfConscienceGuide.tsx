@@ -19,14 +19,14 @@ export default function ExaminationOfConscienceGuide() {
     <>
       <Helmet>
         <title>How to Make an Examination of Conscience: Complete Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination." />
+        <meta name="description" content="How to make an examination of conscience using the Ignatian Examen and the 10 Commandments. A Catholic guide for daily and pre-Confession examination." />
         <meta name="keywords" content="examination of conscience, how to examine conscience, catholic examination of conscience, examen prayer, daily examen" />
         <link rel="canonical" href="https://guidecatholic.com/blog/examination-of-conscience-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="How to Make an Examination of Conscience: Complete Catholic Guide"
-          description="Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination."
+          description="How to make an examination of conscience using the Ignatian Examen and the 10 Commandments. A Catholic guide for daily and pre-Confession examination."
           url="https://guidecatholic.com/blog/examination-of-conscience-guide/"
         />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function SaintRitaOfCascia() {
     <>
       <Helmet>
         <title>Saint Rita of Cascia: Patron of Impossible Causes & Desperate Cases | Guide Catholic</title>
-        <meta name="description" content="Discover Saint Rita of Cascia — the patron of impossible causes. Her life, her stigmata, her miracles, and the powerful novena that has brought hope to millions." />
+        <meta name="description" content="Saint Rita of Cascia, patron of impossible causes: her life, her stigmata, her miracles, and the novena that has brought hope to millions." />
         <meta name="keywords" content="saint rita of cascia, patron of impossible causes, saint rita prayer, saint rita novena, feast day may 22, saint rita miracles" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-rita-of-cascia/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Rita of Cascia: Patron of Impossible Causes & Desperate Cases"
-        description="Discover Saint Rita of Cascia — the patron of impossible causes. Her life, her stigmata, her miracles, and the powerful novena that has brought hope to millions."
+        description="Saint Rita of Cascia, patron of impossible causes: her life, her stigmata, her miracles, and the novena that has brought hope to millions."
         url="https://guidecatholic.com/blog/saint-rita-of-cascia/"
       />
       <BreadcrumbSchema

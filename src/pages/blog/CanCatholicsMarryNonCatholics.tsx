@@ -17,14 +17,14 @@ export default function CanCatholicsMarryNonCatholics() {
     <>
       <Helmet>
         <title>Can a Catholic Marry a Non-Catholic? Mixed Rules | Guide Catholic</title>
-        <meta name="description" content="Can a Catholic marry a non-Catholic? Canon law on mixed marriages, disparity of cult, permissions, Catholic promises about children, and sacramental form in the USA." />
+        <meta name="description" content="Can a Catholic marry a non-Catholic? Canon law on mixed marriages, disparity of cult, permissions, promises about children, and sacramental form in the USA." />
         <meta name="keywords" content="can a catholic marry a non catholic, mixed marriage catholic church, disparity of cult, catholic marry protestant" />
         <link rel="canonical" href="https://guidecatholic.com/blog/can-catholics-marry-non-catholics/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Can a Catholic Marry a Non-Catholic? Mixed Marriage Rules"
-        description="Can a Catholic marry a non-Catholic? Canon law on mixed marriages, disparity of cult, permissions, Catholic promises about children, and sacramental form in the USA."
+        description="Can a Catholic marry a non-Catholic? Canon law on mixed marriages, disparity of cult, permissions, promises about children, and sacramental form in the USA."
         url="https://guidecatholic.com/blog/can-catholics-marry-non-catholics/"
         datePublished="2026-09-22"
       />

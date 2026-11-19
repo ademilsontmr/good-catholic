@@ -18,14 +18,14 @@ export default function BestCatholicPrayerApps() {
     <>
       <Helmet>
         <title>Best Catholic Prayer Apps 2026: Hallow, Laudate &amp; More (Ranked) | Guide Catholic</title>
-        <meta name="description" content="Best Catholic prayer apps 2026 ranked — Hallow, Laudate, Universalis, Formed & more. Honest reviews, pricing, Rosary, Mass readings & which app fits your prayer life." />
+        <meta name="description" content="Best Catholic prayer apps 2026 ranked: Hallow, Laudate, Universalis, Formed and more. Honest reviews, pricing, and Rosary and Mass readings features." />
         <meta name="keywords" content="best catholic apps, best catholic prayer apps, hallow app review, laudate app catholic, catholic apps 2026, catholic prayer app iphone android" />
         <link rel="canonical" href="https://guidecatholic.com/blog/best-catholic-prayer-apps-2026/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Best Catholic Prayer Apps 2026: Hallow, Laudate & More (Ranked)"
-        description="Best Catholic prayer apps 2026 ranked — Hallow, Laudate, Universalis, Formed & more. Honest reviews, pricing, Rosary, Mass readings & which app fits your prayer life."
+        description="Best Catholic prayer apps 2026 ranked: Hallow, Laudate, Universalis, Formed and more. Honest reviews, pricing, and Rosary and Mass readings features."
         url="https://guidecatholic.com/blog/best-catholic-prayer-apps-2026/"
       />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function CatholicTeachingOnTransgender() {
     <>
       <Helmet>
         <title>Catholic Teaching on Transgender: What the Church Really Says | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about transgender identity and gender ideology? A clear explanation rooted in the Catechism, Dignitas Infinita (2024), and the theology of the body." />
+        <meta name="description" content="Catholic teaching on transgender identity and gender ideology, rooted in the Catechism, Dignitas Infinita (2024), and the theology of the body." />
         <meta name="keywords" content="catholic teaching on transgender, catholic church transgender, gender ideology catholic, dignitas infinita, catechism gender, theology of the body gender" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-transgender/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Transgender: What the Church Really Says"
-        description="What does the Catholic Church teach about transgender identity and gender ideology? A clear explanation rooted in the Catechism, Dignitas Infinita (2024), and the theology of the body."
+        description="Catholic teaching on transgender identity and gender ideology, rooted in the Catechism, Dignitas Infinita (2024), and the theology of the body."
         url="https://guidecatholic.com/blog/catholic-teaching-on-transgender/"
       />
       <BreadcrumbSchema

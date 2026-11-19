@@ -18,14 +18,14 @@ export default function GraceAfterMealsCatholic() {
     <>
       <Helmet>
         <title>Grace After Meals: Catholic Prayer Text and When to Say It | Guide Catholic</title>
-        <meta name="description" content="Grace after meals Catholic prayer with full text in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition." />
+        <meta name="description" content="Grace after meals Catholic prayer in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition." />
         <meta name="keywords" content="grace after meals catholic, catholic prayer after eating, thanksgiving after meals, grace after meals text, blessing after meals" />
         <link rel="canonical" href="https://guidecatholic.com/blog/grace-after-meals-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Grace After Meals: Catholic Prayer Text and When to Say It"
-        description="Grace after meals Catholic prayer with full text in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition."
+        description="Grace after meals Catholic prayer in English and Latin, when families say it after eating, and how thanksgiving after meals fits Catholic tradition."
         url="https://guidecatholic.com/blog/grace-after-meals-catholic/"
       />
       <BreadcrumbSchema

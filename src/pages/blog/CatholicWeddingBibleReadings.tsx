@@ -17,14 +17,14 @@ export default function CatholicWeddingBibleReadings() {
     <>
       <Helmet>
         <title>Catholic Wedding Bible Readings Guide | Guide Catholic</title>
-        <meta name="description" content="Catholic wedding Bible readings from the Order of Celebrating Matrimony: Old Testament, Epistle, Gospel options, responsorial psalms, and how to choose with your priest." />
+        <meta name="description" content="Catholic wedding Bible readings from the Order of Celebrating Matrimony: Old Testament, Epistle, Gospel options, psalms, and how to choose with your priest." />
         <meta name="keywords" content="catholic wedding bible readings, nuptial mass readings, wedding scripture catholic, responsorial psalm wedding" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-wedding-bible-readings/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Wedding Bible Readings: Best Scriptures for the Nuptial Mass"
-        description="Catholic wedding Bible readings from the Order of Celebrating Matrimony: Old Testament, Epistle, Gospel options, responsorial psalms, and how to choose with your priest."
+        description="Catholic wedding Bible readings from the Order of Celebrating Matrimony: Old Testament, Epistle, Gospel options, psalms, and how to choose with your priest."
         url="https://guidecatholic.com/blog/catholic-wedding-bible-readings/"
         datePublished="2026-09-22"
       />

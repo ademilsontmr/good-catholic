@@ -18,14 +18,14 @@ export default function CatholicTeachingOnBaptism() {
     <>
       <Helmet>
         <title>Catholic Baptism: What It Is, What It Does & Why It Matters | Guide Catholic</title>
-        <meta name="description" content="Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is necessary for salvation, and how to live out your Baptism." />
+        <meta name="description" content="Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is needed for salvation, and how to live it." />
         <meta name="keywords" content="catholic baptism explained, what does baptism do catholic, infant baptism catholic, baptism necessary for salvation, effects of baptism catholic, catechism on baptism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-baptism-explained/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Baptism: What It Is, What It Does & Why It Matters"
-        description="Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is necessary for salvation, and how to live out your Baptism."
+        description="Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is needed for salvation, and how to live it."
         url="https://guidecatholic.com/blog/catholic-baptism-explained/"
       />
       <BreadcrumbSchema

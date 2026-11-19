@@ -18,14 +18,14 @@ export default function SaintAnneAndJoachim() {
     <>
       <Helmet>
         <title>Saints Anne and Joachim: The Grandparents of Jesus | Guide Catholic</title>
-        <meta name="description" content="Discover Saints Anne and Joachim — the parents of the Virgin Mary and the grandparents of Jesus. Their story, their shrines, and why they are patrons of grandparents and families." />
+        <meta name="description" content="Saints Anne and Joachim, parents of the Virgin Mary and grandparents of Jesus: their story, their shrines, and why they are patrons of grandparents." />
         <meta name="keywords" content="saints anne and joachim, grandparents of jesus, saint anne patron saint, joachim and anne feast day, parents of mary, saint anne prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saints-anne-and-joachim/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saints Anne and Joachim: The Grandparents of Jesus"
-        description="Discover Saints Anne and Joachim — the parents of the Virgin Mary and the grandparents of Jesus. Their story, their shrines, and why they are patrons of grandparents and families."
+        description="Saints Anne and Joachim, parents of the Virgin Mary and grandparents of Jesus: their story, their shrines, and why they are patrons of grandparents."
         url="https://guidecatholic.com/blog/saints-anne-and-joachim/"
       />
       <BreadcrumbSchema

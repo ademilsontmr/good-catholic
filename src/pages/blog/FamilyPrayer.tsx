@@ -19,14 +19,14 @@ export default function FamilyPrayer() {
     <>
       <Helmet>
         <title>How to Pray as a Family: Building a Domestic Church | Guide Catholic</title>
-        <meta name="description" content="Learn how to pray as a family — the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start when you haven't been praying together." />
+        <meta name="description" content="How to pray as a family: the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start praying together." />
         <meta name="keywords" content="how to pray as a family, family prayer, family rosary, praying together as a family, domestic church prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-as-a-family/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="How to Pray as a Family: Building a Domestic Church"
-          description="Learn how to pray as a family — the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start when you haven't been praying together."
+          description="How to pray as a family: the family Rosary, grace before meals, bedtime prayers, Advent and Lent traditions, and how to start praying together."
           url="https://guidecatholic.com/blog/how-to-pray-as-a-family/"
         />
       <BreadcrumbSchema

@@ -17,7 +17,7 @@ export default function CatholicChurchTeachingOnIVF() {
     <>
       <Helmet>
         <title>Catholic Church Teaching on IVF: Doctrine &amp; Pastoral Care | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about IVF? CCC 2373–2379, Donum Vitae and Dignitas Personae at a pastoral level — marital act, embryo dignity, alternatives, infertility as cross." />
+        <meta name="description" content="What does the Catholic Church teach about IVF? CCC 2373–2379, Donum Vitae and Dignitas Personae: the marital act, embryo dignity, and alternatives." />
         <meta name="keywords" content="catholic church ivf, catholic teaching ivf, church ivf infertility, catholic ivf moral teaching" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-church-teaching-on-ivf/" />
         <meta name="robots" content="index, follow" />

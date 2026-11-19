@@ -20,7 +20,7 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
         <title>Feast of the Archangels 2026: September 29 Date, Prayers &amp; Guide | Guide Catholic</title>
         <meta
           name="description"
-          content="Feast of the Archangels 2026 is September 29 (Tuesday). Michael, Gabriel & Raphael — Mass, St. Michael Prayer, Michaelmas meaning, and how to celebrate in the USA."
+          content="Feast of the Archangels 2026 is Tuesday, September 29. Michael, Gabriel and Raphael: Mass, the St. Michael Prayer, Michaelmas meaning, and how to celebrate."
         />
         <meta
           name="keywords"
@@ -31,7 +31,7 @@ export default function FeastOfTheArchangelsSeptember29Guide() {
       </Helmet>
       <ArticleSchema
         title="Feast of the Archangels 2026: September 29 Date, Prayers & Guide"
-        description="Feast of the Archangels 2026 is September 29 (Tuesday). Michael, Gabriel & Raphael — Mass, St. Michael Prayer, Michaelmas meaning, and how to celebrate in the USA."
+        description="Feast of the Archangels 2026 is Tuesday, September 29. Michael, Gabriel and Raphael: Mass, the St. Michael Prayer, Michaelmas meaning, and how to celebrate."
         url="https://guidecatholic.com/blog/feast-of-the-archangels-september-29-2026/"
         datePublished="2026-07-30"
       />

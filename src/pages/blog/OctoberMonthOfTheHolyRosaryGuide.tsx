@@ -19,7 +19,7 @@ export default function OctoberMonthOfTheHolyRosaryGuide() {
         <title>October Month of the Holy Rosary 2026: Feast & How to Pray | Guide Catholic</title>
         <meta
           name="description"
-          content="October is the Month of the Holy Rosary. Our Lady of the Rosary feast is October 7, 2026 — history, how to pray daily, mysteries schedule, and family devotion tips."
+          content="October is the Month of the Holy Rosary, with Our Lady of the Rosary on October 7, 2026: history, daily prayer, mysteries schedule, and family devotion."
         />
         <meta
           name="keywords"
@@ -30,7 +30,7 @@ export default function OctoberMonthOfTheHolyRosaryGuide() {
       </Helmet>
       <ArticleSchema
         title="October Month of the Holy Rosary 2026: Feast & How to Pray"
-        description="October is the Month of the Holy Rosary. Our Lady of the Rosary feast is October 7, 2026 — history, how to pray daily, mysteries schedule, and family devotion tips."
+        description="October is the Month of the Holy Rosary, with Our Lady of the Rosary on October 7, 2026: history, daily prayer, mysteries schedule, and family devotion."
         url="https://guidecatholic.com/blog/october-month-of-the-holy-rosary-2026/"
         datePublished="2026-07-30"
       />

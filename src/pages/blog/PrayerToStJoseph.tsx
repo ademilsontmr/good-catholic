@@ -18,14 +18,14 @@ export default function PrayerToStJoseph() {
     <>
       <Helmet>
         <title>Prayer to St. Joseph: Powerful Intercession for Families and Workers | Guide Catholic</title>
-        <meta name="description" content="Discover powerful prayers to St. Joseph for families, workers, and those in need. Learn about his role as patron saint and how to seek his intercession in your daily life." />
+        <meta name="description" content="Prayers to St. Joseph for families, workers, and those in need, with his role as patron saint and how to seek his intercession in your daily life." />
         <meta name="keywords" content="prayer to st joseph, st joseph prayer, saint joseph prayer, prayer to saint joseph for family" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prayer-to-st-joseph/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Prayer to St. Joseph: Powerful Intercession for Families and Workers"
-          description="Discover powerful prayers to St. Joseph for families, workers, and those in need. Learn about his role as patron saint and how to seek his intercession in your daily life."
+          description="Prayers to St. Joseph for families, workers, and those in need, with his role as patron saint and how to seek his intercession in your daily life."
           url="https://guidecatholic.com/blog/prayer-to-st-joseph/"
         />
       <BreadcrumbSchema

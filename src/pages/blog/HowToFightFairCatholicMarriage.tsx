@@ -17,14 +17,14 @@ export default function HowToFightFairCatholicMarriage() {
     <>
       <Helmet>
         <title>How to Fight Fair in a Catholic Marriage | Guide Catholic</title>
-        <meta name="description" content="Learn how to fight fair in marriage as Catholics — anger vs wrath, Ephesians 4, repair after conflict, and when disagreement crosses into abuse requiring safety." />
+        <meta name="description" content="How to fight fair in marriage as Catholics: anger vs wrath, Ephesians 4, repair after conflict, and when disagreement becomes abuse requiring safety." />
         <meta name="keywords" content="how to fight fair in marriage, catholic marriage conflict, anger in marriage catholic, Ephesians 4 marriage" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-fight-fair-catholic-marriage/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Fight Fair in a Catholic Marriage"
-        description="Learn how to fight fair in marriage as Catholics — anger vs wrath, Ephesians 4, repair after conflict, and when disagreement crosses into abuse requiring safety."
+        description="How to fight fair in marriage as Catholics: anger vs wrath, Ephesians 4, repair after conflict, and when disagreement becomes abuse requiring safety."
         url="https://guidecatholic.com/blog/how-to-fight-fair-catholic-marriage/"
         datePublished="2026-09-22"
       />

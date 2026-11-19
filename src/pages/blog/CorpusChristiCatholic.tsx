@@ -18,14 +18,14 @@ export default function CorpusChristiCatholic() {
     <>
       <Helmet>
         <title>Corpus Christi: The Feast of the Body and Blood of Christ | Guide Catholic</title>
-        <meta name="description" content="What is Corpus Christi? Learn about the feast of the Body and Blood of Christ — its history, the Eucharistic procession, the prayers of St. Thomas Aquinas, and how Catholics celebrate it." />
+        <meta name="description" content="What is Corpus Christi? Learn about the feast of the Body and Blood of Christ — its history, the Eucharistic procession, the prayers of St." />
         <meta name="keywords" content="corpus christi catholic, feast of corpus christi, body and blood of christ, corpus christi procession, corpus christi 2026, eucharist feast day, thomas aquinas corpus christi" />
         <link rel="canonical" href="https://guidecatholic.com/blog/corpus-christi-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Corpus Christi: The Feast of the Body and Blood of Christ"
-        description="What is Corpus Christi? Learn about the feast of the Body and Blood of Christ — its history, the Eucharistic procession, the prayers of St. Thomas Aquinas, and how Catholics celebrate it."
+        description="What is Corpus Christi? Learn about the feast of the Body and Blood of Christ — its history, the Eucharistic procession, the prayers of St."
         url="https://guidecatholic.com/blog/corpus-christi-catholic/"
       />
       <BreadcrumbSchema

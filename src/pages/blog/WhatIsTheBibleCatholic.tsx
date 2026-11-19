@@ -18,14 +18,14 @@ export default function WhatIsTheBibleCatholic() {
     <>
       <Helmet>
         <title>What Is the Bible? The Catholic Understanding of Sacred Scripture | Guide Catholic</title>
-        <meta name="description" content="How many books are in the Catholic Bible? What does biblical inspiration mean? Why don't Catholics believe in sola scriptura? A complete Catholic guide to Sacred Scripture." />
+        <meta name="description" content="How many books are in the Catholic Bible? What does biblical inspiration mean? Why don't Catholics believe in sola scriptura?" />
         <meta name="keywords" content="what is the bible catholic, catholic understanding of the bible, how many books in the catholic bible, deuterocanonical books, bible inspiration catholic, scripture and tradition catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-bible-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is the Bible? The Catholic Understanding of Sacred Scripture"
-        description="How many books are in the Catholic Bible? What does biblical inspiration mean? Why don't Catholics believe in sola scriptura? A complete Catholic guide to Sacred Scripture."
+        description="How many books are in the Catholic Bible? What does biblical inspiration mean? Why don't Catholics believe in sola scriptura?"
         url="https://guidecatholic.com/blog/what-is-the-bible-catholic/"
       />
       <BreadcrumbSchema

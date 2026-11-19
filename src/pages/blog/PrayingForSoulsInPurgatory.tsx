@@ -18,14 +18,14 @@ export default function PrayingForSoulsInPurgatory() {
     <>
       <Helmet>
         <title>Praying for the Holy Souls in Purgatory: A Complete Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="Why do Catholics pray for the dead? Learn about the Holy Souls in Purgatory, the most powerful prayers and novenas for the departed, and how your prayers can help souls reach heaven." />
+        <meta name="description" content="Why Catholics pray for the dead: the Holy Souls in Purgatory, prayers and novenas for the departed, and how your prayers help souls reach heaven." />
         <meta name="keywords" content="praying for souls in purgatory, holy souls purgatory, prayers for the dead catholic, november souls purgatory, all souls day prayers, catholic prayers for deceased" />
         <link rel="canonical" href="https://guidecatholic.com/blog/praying-for-souls-in-purgatory/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Praying for the Holy Souls in Purgatory: A Complete Catholic Guide"
-        description="Why do Catholics pray for the dead? Learn about the Holy Souls in Purgatory, the most powerful prayers and novenas for the departed, and how your prayers can help souls reach heaven."
+        description="Why Catholics pray for the dead: the Holy Souls in Purgatory, prayers and novenas for the departed, and how your prayers help souls reach heaven."
         url="https://guidecatholic.com/blog/praying-for-souls-in-purgatory/"
       />
       <BreadcrumbSchema

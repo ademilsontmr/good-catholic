@@ -18,14 +18,14 @@ export default function HolyWaterSacramental() {
     <>
       <Helmet>
         <title>Holy Water: The Power of This Ancient Catholic Sacramental | Guide Catholic</title>
-        <meta name="description" content="Discover the power of holy water in Catholic tradition. Learn its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection." />
+        <meta name="description" content="Holy water in Catholic tradition: its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection." />
         <meta name="keywords" content="holy water, Catholic sacramental, holy water blessing, holy water font, holy water use" />
         <link rel="canonical" href="https://guidecatholic.com/blog/holy-water-sacramental/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Holy Water: The Power of This Ancient Catholic Sacramental"
-          description="Discover the power of holy water in Catholic tradition. Learn its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection."
+          description="Holy water in Catholic tradition: its history, proper use, blessing prayers, and how this simple sacramental brings grace and protection."
           url="https://guidecatholic.com/blog/holy-water-sacramental/"
         />
       <BreadcrumbSchema

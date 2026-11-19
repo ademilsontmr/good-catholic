@@ -18,14 +18,14 @@ export default function DarkNightOfTheSoul() {
     <>
       <Helmet>
         <title>The Dark Night of the Soul: What It Is and How to Navigate It | Guide Catholic</title>
-        <meta name="description" content="Learn what the dark night of the soul is in Catholic spirituality. Discover St. John of the Cross's teaching, the two dark nights, how to distinguish it from depression, and how to navigate it." />
+        <meta name="description" content="The dark night of the soul in Catholicism: St. John of the Cross's teaching, the two dark nights, how it differs from depression, and how to navigate it." />
         <meta name="keywords" content="dark night of the soul, dark night of the soul catholic, st john of the cross dark night, spiritual desolation, spiritual dryness, Mother Teresa dark night" />
         <link rel="canonical" href="https://guidecatholic.com/blog/dark-night-of-the-soul-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Dark Night of the Soul: What It Is and How to Navigate It"
-        description="Learn what the dark night of the soul is in Catholic spirituality. Discover St. John of the Cross's teaching, the two dark nights, how to distinguish it from depression, and how to navigate it."
+        description="The dark night of the soul in Catholicism: St. John of the Cross's teaching, the two dark nights, how it differs from depression, and how to navigate it."
         url="https://guidecatholic.com/blog/dark-night-of-the-soul-catholic/"
       />
       <BreadcrumbSchema

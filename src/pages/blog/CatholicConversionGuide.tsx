@@ -18,14 +18,14 @@ export default function CatholicConversionGuide() {
     <>
       <Helmet>
         <title>The Complete Guide to Converting to Catholicism: Everything You Need to Know | Guide Catholic</title>
-        <meta name="description" content="Thinking about becoming Catholic? This complete step-by-step guide covers the RCIA process, the sacraments of initiation, choosing a sponsor, and life after the Easter Vigil." />
+        <meta name="description" content="Thinking about becoming Catholic? A step-by-step guide to the RCIA process, the sacraments of initiation, choosing a sponsor, and life after the Easter Vigil." />
         <meta name="keywords" content="converting to catholicism guide, how to convert to catholicism, rcia process guide, becoming catholic step by step, catholic conversion guide, join the catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-converting-to-catholicism/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Guide to Converting to Catholicism: Everything You Need to Know"
-        description="Thinking about becoming Catholic? This complete step-by-step guide covers the RCIA process, the sacraments of initiation, choosing a sponsor, and life after the Easter Vigil."
+        description="Thinking about becoming Catholic? A step-by-step guide to the RCIA process, the sacraments of initiation, choosing a sponsor, and life after the Easter Vigil."
         url="https://guidecatholic.com/blog/complete-guide-converting-to-catholicism/"
       />
       <BreadcrumbSchema

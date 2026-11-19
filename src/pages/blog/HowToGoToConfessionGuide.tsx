@@ -18,14 +18,14 @@ export default function HowToGoToConfessionGuide() {
     <>
       <Helmet>
         <title>How to Go to Confession: Complete Step-by-Step Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="Complete guide to Catholic Confession — how to prepare, what to say, the Act of Contrition, what happens inside the confessional, and how to make a good confession after years away." />
+        <meta name="description" content="Catholic Confession guide: how to prepare, what to say, the Act of Contrition, what happens in the confessional, and a good confession after years away." />
         <meta name="keywords" content="how to go to confession, catholic confession guide, what to say in confession, act of contrition, confession near me, first confession, returning to confession" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-go-to-confession-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Go to Confession: Complete Step-by-Step Catholic Guide"
-        description="Complete guide to Catholic Confession — how to prepare, what to say, the Act of Contrition, what happens inside the confessional, and how to make a good confession after years away."
+        description="Catholic Confession guide: how to prepare, what to say, the Act of Contrition, what happens in the confessional, and a good confession after years away."
         url="https://guidecatholic.com/blog/how-to-go-to-confession-guide/"
       />
       <BreadcrumbSchema

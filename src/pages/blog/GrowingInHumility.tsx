@@ -18,14 +18,14 @@ export default function GrowingInHumility() {
     <>
       <Helmet>
         <title>How to Grow in Humility: The Catholic Path to True Greatness | Guide Catholic</title>
-        <meta name="description" content="Learn what humility really is in Catholic spirituality, the 12 degrees of humility from St. Benedict, Jesus as the model of humility, and practical exercises for growing in this foundational virtue." />
+        <meta name="description" content="Humility in Catholic spirituality: the 12 degrees of humility from St. Benedict, Jesus as the model of humility, and practical exercises to grow in it." />
         <meta name="keywords" content="how to grow in humility, catholic humility, virtue of humility, humility in catholic spirituality, st benedict humility" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-grow-in-humility-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="How to Grow in Humility: The Catholic Path to True Greatness"
-          description="Learn what humility really is in Catholic spirituality, the 12 degrees of humility from St. Benedict, Jesus as the model of humility, and practical exercises for growing in this foundational virtue."
+          description="Humility in Catholic spirituality: the 12 degrees of humility from St. Benedict, Jesus as the model of humility, and practical exercises to grow in it."
           url="https://guidecatholic.com/blog/how-to-grow-in-humility-catholic/"
         />
       <BreadcrumbSchema

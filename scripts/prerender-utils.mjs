@@ -37,6 +37,38 @@ export function routeToOutputFile(route) {
   return path.join(distDir, ...segments, "index.html");
 }
 
+/**
+ * Merge the template's default og:/twitter: tags with the page's own, tag by tag:
+ * - a tag the page sets itself replaces the template default;
+ * - title/description/url defaults are rewritten from the page's <title>, description and canonical,
+ *   so a page never shares the homepage's text or URL;
+ * - image/card/type defaults stay, so every page has a share image.
+ */
+function mergeSocialMeta(html, { title, meta, link }) {
+  const has = (key) => new RegExp(`(?:property|name)="${key}"`).test(meta);
+  const pageTitle = title.match(/<title[^>]*>([\s\S]*?)<\/title>/)?.[1]?.trim();
+  const pageDesc = meta.match(/<meta[^>]*name="description"[^>]*content="([^"]*)"/)?.[1];
+  const canonical = link.match(/<link[^>]*rel="canonical"[^>]*href="([^"]*)"/)?.[1];
+  const derived = {
+    "og:title": pageTitle,
+    "twitter:title": pageTitle,
+    "og:description": pageDesc,
+    "twitter:description": pageDesc,
+    "og:url": canonical,
+  };
+
+  return html.replace(
+    /<meta data-rh="true" (property|name)="((?:og|twitter):[^"]+)" content="[^"]*"\s*\/?>\n?/g,
+    (tag, attr, key) => {
+      if (has(key)) return "";
+      if (key in derived) {
+        return derived[key] ? `<meta data-rh="true" ${attr}="${key}" content="${derived[key]}" />\n` : "";
+      }
+      return tag;
+    }
+  );
+}
+
 export function injectPrerenderedHtml(template, bodyHtml, helmet) {
   let html = template.replace(/<div id="root"><\/div>/, `<div id="root">${bodyHtml}</div>`);
 
@@ -62,10 +94,7 @@ export function injectPrerenderedHtml(template, bodyHtml, helmet) {
       html = html.replace(/<meta data-rh="true" name="googlebot"[^>]*>\n?/g, "");
       html = html.replace(/<meta data-rh="true" name="bingbot"[^>]*>\n?/g, "");
     }
-    if (meta.includes('property="og:title"')) {
-      html = html.replace(/<meta data-rh="true" property="og:[^"]+"[^>]*>\n?/g, "");
-      html = html.replace(/<meta data-rh="true" name="twitter:[^"]+"[^>]*>\n?/g, "");
-    }
+    html = mergeSocialMeta(html, { title, meta, link });
 
     html = html.replace("</head>", `${meta}${link}${script}</head>`);
   }

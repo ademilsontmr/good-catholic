@@ -18,14 +18,14 @@ export default function DivineMercyNovenaGuide() {
     <>
       <Helmet>
         <title>Divine Mercy Novena Guide: How to Pray the 9-Day Prayer Before Easter Sunday | Guide Catholic</title>
-        <meta name="description" content="A complete guide to the Divine Mercy Novena — what it is, how to pray it step by step, the Divine Mercy Chaplet, Divine Mercy Sunday, and where to pray it online." />
+        <meta name="description" content="A guide to the Divine Mercy Novena: what it is, how to pray it step by step, the Divine Mercy Chaplet, Divine Mercy Sunday, and where to pray it online." />
         <meta name="keywords" content="divine mercy novena guide, how to pray divine mercy novena, divine mercy chaplet novena, novena to divine mercy, good friday novena, divine mercy sunday" />
         <link rel="canonical" href="https://guidecatholic.com/blog/divine-mercy-novena-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Divine Mercy Novena Guide: How to Pray the 9-Day Prayer Before Easter Sunday"
-        description="A complete guide to the Divine Mercy Novena — what it is, how to pray it step by step, the Divine Mercy Chaplet, Divine Mercy Sunday, and where to pray it online."
+        description="A guide to the Divine Mercy Novena: what it is, how to pray it step by step, the Divine Mercy Chaplet, Divine Mercy Sunday, and where to pray it online."
         url="https://guidecatholic.com/blog/divine-mercy-novena-guide/"
       />
       <BreadcrumbSchema

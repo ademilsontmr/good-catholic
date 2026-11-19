@@ -18,14 +18,14 @@ export default function SaintJudeThaddeus() {
     <>
       <Helmet>
         <title>St. Jude Thaddeus: Patron of Impossible Causes — Life, Novena & Prayer | Guide Catholic</title>
-        <meta name="description" content="Everything about St. Jude Thaddeus: who he was as an Apostle, why he became patron of impossible causes, the full Novena to St. Jude, his prayer, feast day on October 28, and his shrines worldwide." />
+        <meta name="description" content="Everything about St. Jude Thaddeus: who he was as an Apostle, why he became patron of impossible causes, the full Novena to St." />
         <meta name="keywords" content="saint jude thaddeus, prayer to saint jude, novena to saint jude, patron saint impossible causes, st jude feast day, st jude apostle" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-jude-thaddeus/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="St. Jude Thaddeus: Patron of Impossible Causes — Life, Novena & Prayer"
-        description="Everything about St. Jude Thaddeus: who he was as an Apostle, why he became patron of impossible causes, the full Novena to St. Jude, his prayer, feast day on October 28, and his shrines worldwide."
+        description="Everything about St. Jude Thaddeus: who he was as an Apostle, why he became patron of impossible causes, the full Novena to St."
         url="https://guidecatholic.com/blog/saint-jude-thaddeus/"
       />
       <BreadcrumbSchema

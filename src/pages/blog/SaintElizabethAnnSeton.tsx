@@ -18,14 +18,14 @@ export default function SaintElizabethAnnSeton() {
     <>
       <Helmet>
         <title>Saint Elizabeth Ann Seton: First American-Born Saint | Guide Catholic</title>
-        <meta name="description" content="Discover Saint Elizabeth Ann Seton — the first person born in the United States to be canonized. Her conversion, her founding of Catholic education in America, and her enduring legacy." />
+        <meta name="description" content="Saint Elizabeth Ann Seton, the first person born in the United States to be canonized: her conversion, Catholic education in America, and her legacy." />
         <meta name="keywords" content="saint elizabeth ann seton, first american born saint, elizabeth seton conversion, sisters of charity, catholic education america, feast day january 4" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-elizabeth-ann-seton/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Elizabeth Ann Seton: First American-Born Saint"
-        description="Discover Saint Elizabeth Ann Seton — the first person born in the United States to be canonized. Her conversion, her founding of Catholic education in America, and her enduring legacy."
+        description="Saint Elizabeth Ann Seton, the first person born in the United States to be canonized: her conversion, Catholic education in America, and her legacy."
         url="https://guidecatholic.com/blog/saint-elizabeth-ann-seton/"
       />
       <BreadcrumbSchema

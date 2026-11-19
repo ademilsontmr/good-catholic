@@ -18,14 +18,14 @@ export default function PopeLeoXIV() {
     <>
       <Helmet>
         <title>Who Is Pope Leo XIV? The First American Pope Explained | Guide Catholic</title>
-        <meta name="description" content="Pope Leo XIV is the first American pope in history. Learn about Robert Francis Prevost — his Chicago roots, Augustinian vocation, decades in Peru, and vision for the Church." />
+        <meta name="description" content="Pope Leo XIV is the first American pope. Meet Robert Francis Prevost: his Chicago roots, Augustinian vocation, decades in Peru, and vision for the Church." />
         <meta name="keywords" content="who is pope leo xiv, pope leo xiv, first american pope, robert prevost pope, new pope 2025" />
         <link rel="canonical" href="https://guidecatholic.com/blog/who-is-pope-leo-xiv/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Who Is Pope Leo XIV? The First American Pope Explained"
-        description="Pope Leo XIV is the first American pope in history. Learn about Robert Francis Prevost — his Chicago roots, Augustinian vocation, decades in Peru, and vision for the Church."
+        description="Pope Leo XIV is the first American pope. Meet Robert Francis Prevost: his Chicago roots, Augustinian vocation, decades in Peru, and vision for the Church."
         url="https://guidecatholic.com/blog/who-is-pope-leo-xiv/"
         datePublished="2026-04-20"
         dateModified="2026-04-20"

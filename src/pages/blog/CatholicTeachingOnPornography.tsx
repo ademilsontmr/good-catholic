@@ -18,14 +18,14 @@ export default function CatholicTeachingOnPornography() {
     <>
       <Helmet>
         <title>Catholic Teaching on Pornography: Why It's Harmful & How to Break Free | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about pornography? Learn why it is sinful, how it harms the soul and relationships, and the Catholic path to freedom and healing." />
+        <meta name="description" content="What does the Church teach about pornography? Why it is sinful, how it harms the soul and relationships, and the Catholic path to freedom and healing." />
         <meta name="keywords" content="catholic teaching on pornography, pornography sin catholic, how to stop watching pornography catholic, pornography addiction catholic, chastity pornography, catholic healing pornography" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-pornography/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Pornography: Why It's Harmful & How to Break Free"
-        description="What does the Catholic Church teach about pornography? Learn why it is sinful, how it harms the soul and relationships, and the Catholic path to freedom and healing."
+        description="What does the Church teach about pornography? Why it is sinful, how it harms the soul and relationships, and the Catholic path to freedom and healing."
         url="https://guidecatholic.com/blog/catholic-teaching-on-pornography/"
       />
       <BreadcrumbSchema

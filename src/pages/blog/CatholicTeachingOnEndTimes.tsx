@@ -18,14 +18,14 @@ export default function CatholicTeachingOnEndTimes() {
     <>
       <Helmet>
         <title>Catholic Teaching on the End Times: What the Church Really Believes | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about the end times? The Second Coming, the Rapture (which Catholics don't believe in), the Book of Revelation, the Last Judgment, and how to live in hope." />
+        <meta name="description" content="Catholic teaching on the end times: the Second Coming, why Catholics reject the Rapture, the Book of Revelation, the Last Judgment, and living in hope." />
         <meta name="keywords" content="catholic teaching on end times, catholic eschatology, second coming catholic, rapture catholic church, book of revelation catholic, are we living in end times catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-end-times/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on the End Times: What the Church Really Believes"
-        description="What does the Catholic Church teach about the end times? The Second Coming, the Rapture (which Catholics don't believe in), the Book of Revelation, the Last Judgment, and how to live in hope."
+        description="Catholic teaching on the end times: the Second Coming, why Catholics reject the Rapture, the Book of Revelation, the Last Judgment, and living in hope."
         url="https://guidecatholic.com/blog/catholic-teaching-on-end-times/"
       />
       <BreadcrumbSchema

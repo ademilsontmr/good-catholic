@@ -18,14 +18,14 @@ export default function CatholicVsProtestantBible() {
     <>
       <Helmet>
         <title>Catholic vs Protestant Bible: The 7 Missing Books Explained | Guide Catholic</title>
-        <meta name="description" content="Why does the Catholic Bible have 73 books and the Protestant Bible 66? Understand the history of the canon, the Deuterocanonical books, and Martin Luther's changes." />
+        <meta name="description" content="Why does the Catholic Bible have 73 books and the Protestant Bible 66? The history of the canon, the Deuterocanonical books, and Martin Luther's changes." />
         <meta name="keywords" content="catholic vs protestant bible, 7 missing books bible, deuterocanonical books, apocrypha, catholic canon of scripture" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-vs-protestant-bible/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic vs Protestant Bible: The 7 Missing Books Explained"
-        description="Why does the Catholic Bible have 73 books and the Protestant Bible 66? Understand the history of the canon, the Deuterocanonical books, and Martin Luther's changes."
+        description="Why does the Catholic Bible have 73 books and the Protestant Bible 66? The history of the canon, the Deuterocanonical books, and Martin Luther's changes."
         url="https://guidecatholic.com/blog/catholic-vs-protestant-bible/"
       />
       <BreadcrumbSchema

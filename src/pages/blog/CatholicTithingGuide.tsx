@@ -18,14 +18,14 @@ export default function CatholicTithingGuide() {
     <>
       <Helmet>
         <title>Catholic Tithing: What the Church Teaches About Giving, Stewardship & the 10% Rule | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about tithing? A complete guide to Catholic stewardship — the biblical basis for giving, the 10% question, Sunday obligation, and how to give generously." />
+        <meta name="description" content="Catholic teaching on tithing and stewardship: the biblical basis for giving, the 10% question, Sunday obligation, and how to give generously." />
         <meta name="keywords" content="catholic tithing, catholic giving, tithing catholic church, stewardship catholic, how much should catholics give, catholic 10 percent, offertory catholic, financial stewardship faith" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-tithing-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Tithing: What the Church Teaches About Giving, Stewardship & the 10% Rule"
-        description="What does the Catholic Church teach about tithing? A complete guide to Catholic stewardship — the biblical basis for giving, the 10% question, Sunday obligation, and how to give generously."
+        description="Catholic teaching on tithing and stewardship: the biblical basis for giving, the 10% question, Sunday obligation, and how to give generously."
         url="https://guidecatholic.com/blog/catholic-tithing-guide/"
       />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function JesusPrayerCatholic() {
     <>
       <Helmet>
         <title>Jesus Prayer: Text, Meaning & Catholic Use (Breath of the Heart) | Guide Catholic</title>
-        <meta name="description" content="The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner) with full text, meaning, and how Catholics may use it alongside the Rosary and lectio divina." />
+        <meta name="description" content="The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner): full text, meaning, and how Catholics use it with the Rosary and lectio divina." />
         <meta name="keywords" content="jesus prayer catholic, lord jesus christ son of god have mercy, jesus prayer meaning, catholic repetitive prayer, hesychasm" />
         <link rel="canonical" href="https://guidecatholic.com/blog/jesus-prayer-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Jesus Prayer: Text, Meaning & Catholic Use (Breath of the Heart)"
-        description="The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner) with full text, meaning, and how Catholics may use it alongside the Rosary and lectio divina."
+        description="The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner): full text, meaning, and how Catholics use it with the Rosary and lectio divina."
         url="https://guidecatholic.com/blog/jesus-prayer-catholic/"
       />
       <BreadcrumbSchema

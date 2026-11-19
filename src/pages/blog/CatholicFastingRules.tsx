@@ -18,14 +18,14 @@ export default function CatholicFastingRules() {
     <>
       <Helmet>
         <title>Catholic Fasting Rules: What the Church Requires and Why It Matters | Guide Catholic</title>
-        <meta name="description" content="Learn the Catholic Church's fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent. Who is bound, what counts as fasting vs abstinence, and the Eucharistic fast explained." />
+        <meta name="description" content="The Catholic Church's fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent: who is bound, fasting vs abstinence, and the Eucharistic fast." />
         <meta name="keywords" content="catholic fasting rules, fasting catholic church, ash wednesday fasting, good friday fast, friday abstinence, eucharistic fast" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-fasting-rules/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Fasting Rules: What the Church Requires and Why It Matters"
-          description="Learn the Catholic Church's fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent. Who is bound, what counts as fasting vs abstinence, and the Eucharistic fast explained."
+          description="The Catholic Church's fasting rules for Ash Wednesday, Good Friday, and Fridays of Lent: who is bound, fasting vs abstinence, and the Eucharistic fast."
           url="https://guidecatholic.com/blog/catholic-fasting-rules/"
         />
       <BreadcrumbSchema

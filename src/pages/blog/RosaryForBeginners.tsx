@@ -18,14 +18,14 @@ export default function RosaryForBeginners() {
     <>
       <Helmet>
         <title>How to Pray the Rosary Step by Step: A Beginner's Complete Guide | Guide Catholic</title>
-        <meta name="description" content="Learn how to pray the Rosary step by step. Complete beginner's guide with all prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion." />
+        <meta name="description" content="Learn how to pray the Rosary step by step: all the prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion." />
         <meta name="keywords" content="how to pray the rosary, rosary prayer step by step, rosary for beginners, how to say the rosary, rosary beads how to use, rosary mysteries" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Pray the Rosary Step by Step: A Beginner's Complete Guide"
-        description="Learn how to pray the Rosary step by step. Complete beginner's guide with all prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion."
+        description="Learn how to pray the Rosary step by step: all the prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion."
         url="https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/"
       />
       <BreadcrumbSchema

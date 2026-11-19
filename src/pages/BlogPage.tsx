@@ -7,6 +7,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { getCanonicalCategory } from "@/lib/blogCategories";
 import { blogPosts } from "@/data/blogPosts";
+import { CollectionPageSchema } from "@/components/blog/CollectionPageSchema";
 
 const trimMetaDescription = (description: string) => {
   if (description.length <= 155) return description;
@@ -100,6 +101,14 @@ export default function BlogPage() {
         <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content="https://guidecatholic.com/og-image.png" />
       </Helmet>
+      <CollectionPageSchema
+        name={pageTitle}
+        description={pageDescription}
+        path={canonicalPath}
+        breadcrumbName={currentPage > 1 ? `Page ${currentPage}` : undefined}
+        items={currentPosts.map((post) => ({ name: post.title, path: `/blog/${post.slug}/` }))}
+        order="descending"
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />
@@ -118,7 +127,7 @@ export default function BlogPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-10">
               <h1 className="font-display text-3xl md:text-5xl font-bold text-text mb-3">
-                Guide Catholic Blog
+                Guide Catholic Blog{currentPage > 1 && ` — Page ${currentPage}`}
               </h1>
               <p className="text-lg text-text-muted max-w-2xl mx-auto">
                 Articles, reflections and teachings to strengthen your faith and deepen your knowledge of Catholic doctrine.

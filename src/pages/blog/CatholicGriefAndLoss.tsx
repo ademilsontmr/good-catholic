@@ -18,14 +18,14 @@ export default function CatholicGriefAndLoss() {
     <>
       <Helmet>
         <title>Catholic Guide to Grief and Loss: Faith, Hope & Healing After Death | Guide Catholic</title>
-        <meta name="description" content="How does Catholic faith help us grieve? A compassionate guide to loss, death, and healing — with prayers, the hope of resurrection, and the comfort of the saints." />
+        <meta name="description" content="How does Catholic faith help us grieve? A compassionate guide to loss, death, and healing, with prayers, the hope of resurrection, and the saints." />
         <meta name="keywords" content="catholic grief and loss, dealing with grief catholic, death of loved one catholic, catholic healing after loss, grief faith catholic, death and dying catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-guide-to-grief-and-loss/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Guide to Grief and Loss: Faith, Hope & Healing After Death"
-        description="How does Catholic faith help us grieve? A compassionate guide to loss, death, and healing — with prayers, the hope of resurrection, and the comfort of the saints."
+        description="How does Catholic faith help us grieve? A compassionate guide to loss, death, and healing, with prayers, the hope of resurrection, and the saints."
         url="https://guidecatholic.com/blog/catholic-guide-to-grief-and-loss/"
       />
       <BreadcrumbSchema

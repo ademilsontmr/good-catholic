@@ -18,14 +18,14 @@ export default function VocationalDiscernmentGuide() {
     <>
       <Helmet>
         <title>Catholic Vocational Discernment: Complete Guide to Finding God's Will | Guide Catholic</title>
-        <meta name="description" content="Discover how to discern God's calling for your life. Learn about religious vocations, marriage, single life, and practical steps for vocational discernment in the Catholic tradition." />
+        <meta name="description" content="How to discern God's calling for your life: religious vocations, marriage, single life, and practical steps for discernment in the Catholic tradition." />
         <meta name="keywords" content="catholic vocational discernment, how to know god's will, discerning religious life, catholic marriage vocation, single vocation catholic, signs of vocation, vocational prayer, god's calling" />
         <link rel="canonical" href="https://guidecatholic.com/blog/vocational-discernment-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Vocational Discernment: Complete Guide to Finding God's Will"
-          description="Discover how to discern God's calling for your life. Learn about religious vocations, marriage, single life, and practical steps for vocational discernment in the Catholic tradition."
+          description="How to discern God's calling for your life: religious vocations, marriage, single life, and practical steps for discernment in the Catholic tradition."
           url="https://guidecatholic.com/blog/vocational-discernment-guide/"
         />
       <BreadcrumbSchema

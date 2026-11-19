@@ -18,14 +18,14 @@ export default function SaintMaryMagdalene() {
     <>
       <Helmet>
         <title>Saint Mary Magdalene: Apostle to the Apostles & Witness to the Resurrection | Guide Catholic</title>
-        <meta name="description" content="Discover the real Mary Magdalene — not the prostitute of legend, but the first witness to the Risen Christ and the 'Apostle to the Apostles' honored by Pope Francis." />
+        <meta name="description" content="The real Mary Magdalene: not the prostitute of legend, but the first witness to the Risen Christ and the 'Apostle to the Apostles' honored by Pope Francis." />
         <meta name="keywords" content="saint mary magdalene, mary magdalene apostle, mary magdalene resurrection, who was mary magdalene, mary magdalene feast day july 22, mary magdalene and jesus" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-mary-magdalene/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Mary Magdalene: Apostle to the Apostles & Witness to the Resurrection"
-        description="Discover the real Mary Magdalene — not the prostitute of legend, but the first witness to the Risen Christ and the 'Apostle to the Apostles' honored by Pope Francis."
+        description="The real Mary Magdalene: not the prostitute of legend, but the first witness to the Risen Christ and the 'Apostle to the Apostles' honored by Pope Francis."
         url="https://guidecatholic.com/blog/saint-mary-magdalene/"
       />
       <BreadcrumbSchema

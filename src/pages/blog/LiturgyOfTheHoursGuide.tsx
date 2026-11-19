@@ -18,14 +18,14 @@ export default function LiturgyOfTheHoursGuide() {
     <>
       <Helmet>
         <title>Liturgy of the Hours: Complete Guide for Laity - Divine Office Explained | Guide Catholic</title>
-        <meta name="description" content="Learn how to pray the Liturgy of the Hours (Divine Office) as a lay Catholic. Complete guide to morning prayer, evening prayer, compline, and integrating this ancient prayer into daily life." />
+        <meta name="description" content="How to pray the Liturgy of the Hours (Divine Office) as a lay Catholic: morning prayer, evening prayer, compline, and fitting it into daily life." />
         <meta name="keywords" content="liturgy of the hours, divine office, morning prayer lauds, evening prayer vespers, compline night prayer, catholic prayer book, breviary guide, praying the hours catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/liturgy-of-the-hours-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Liturgy of the Hours: Complete Guide for Laity - Divine Office Explained"
-          description="Learn how to pray the Liturgy of the Hours (Divine Office) as a lay Catholic. Complete guide to morning prayer, evening prayer, compline, and integrating this ancient prayer into daily life."
+          description="How to pray the Liturgy of the Hours (Divine Office) as a lay Catholic: morning prayer, evening prayer, compline, and fitting it into daily life."
           url="https://guidecatholic.com/blog/liturgy-of-the-hours-guide/"
         />
       <BreadcrumbSchema

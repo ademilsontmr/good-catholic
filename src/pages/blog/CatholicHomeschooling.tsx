@@ -18,14 +18,14 @@ export default function CatholicHomeschooling() {
     <>
       <Helmet>
         <title>Catholic Homeschooling: A Complete Guide for Catholic Families | Guide Catholic</title>
-        <meta name="description" content="A complete guide to Catholic homeschooling — top curricula, legal requirements, socialization, co-ops, integrating faith into every subject, and the liturgical year as a school calendar." />
+        <meta name="description" content="A guide to Catholic homeschooling: curricula, legal requirements, socialization, co-ops, faith in every subject, and the liturgical year as a calendar." />
         <meta name="keywords" content="catholic homeschooling, homeschooling catholic, catholic homeschool curriculum, why homeschool catholic, catholic classical education" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-homeschooling-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Homeschooling: A Complete Guide for Catholic Families"
-          description="A complete guide to Catholic homeschooling — top curricula, legal requirements, socialization, co-ops, integrating faith into every subject, and the liturgical year as a school calendar."
+          description="A guide to Catholic homeschooling: curricula, legal requirements, socialization, co-ops, faith in every subject, and the liturgical year as a calendar."
           url="https://guidecatholic.com/blog/catholic-homeschooling-guide/"
         />
       <BreadcrumbSchema

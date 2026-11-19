@@ -18,14 +18,14 @@ export default function DidJesusFoundTheCatholicChurch() {
     <>
       <Helmet>
         <title>Did Jesus Found the Catholic Church? The Biblical Evidence | Guide Catholic</title>
-        <meta name="description" content="Did Jesus found the Catholic Church? Explore the biblical evidence — Matthew 16:18, the keys of the Kingdom, apostolic succession — and the historical continuity of the Church." />
+        <meta name="description" content="Did Jesus found the Catholic Church? The biblical evidence, from Matthew 16:18 and the keys of the Kingdom to apostolic succession, and historical continuity." />
         <meta name="keywords" content="did jesus found the catholic church, jesus founded catholic church, matthew 16 18 catholic church, peter rock church, apostolic succession catholic, one true church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/did-jesus-found-the-catholic-church/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Did Jesus Found the Catholic Church? The Biblical Evidence"
-        description="Did Jesus found the Catholic Church? Explore the biblical evidence — Matthew 16:18, the keys of the Kingdom, apostolic succession — and the historical continuity of the Church."
+        description="Did Jesus found the Catholic Church? The biblical evidence, from Matthew 16:18 and the keys of the Kingdom to apostolic succession, and historical continuity."
         url="https://guidecatholic.com/blog/did-jesus-found-the-catholic-church/"
       />
       <BreadcrumbSchema

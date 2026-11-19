@@ -18,14 +18,14 @@ export default function CompleteEucharistGuide() {
     <>
       <Helmet>
         <title>The Complete Guide to the Eucharist: Real Presence, Adoration & Receiving Communion | Guide Catholic</title>
-        <meta name="description" content="Everything about the Eucharist — the Real Presence explained, how to receive Communion properly, a complete guide to Eucharistic adoration, Eucharistic miracles, and Spiritual Communion." />
+        <meta name="description" content="The Eucharist explained: the Real Presence, receiving Communion properly, Eucharistic adoration, Eucharistic miracles, and Spiritual Communion." />
         <meta name="keywords" content="complete guide eucharist, real presence eucharist catholic, how to receive communion, eucharistic adoration guide, what is the eucharist catholic, transubstantiation explained" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-the-eucharist/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Guide to the Eucharist: Real Presence, Adoration & Receiving Communion"
-        description="Everything about the Eucharist — the Real Presence explained, how to receive Communion properly, a complete guide to Eucharistic adoration, Eucharistic miracles, and Spiritual Communion."
+        description="The Eucharist explained: the Real Presence, receiving Communion properly, Eucharistic adoration, Eucharistic miracles, and Spiritual Communion."
         url="https://guidecatholic.com/blog/complete-guide-to-the-eucharist/"
       />
       <BreadcrumbSchema

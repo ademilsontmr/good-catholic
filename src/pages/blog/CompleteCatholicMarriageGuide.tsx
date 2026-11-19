@@ -18,14 +18,14 @@ export default function CompleteCatholicMarriageGuide() {
     <>
       <Helmet>
         <title>The Complete Catholic Marriage Guide: From Engagement to Holy Matrimony | Guide Catholic</title>
-        <meta name="description" content="Everything engaged Catholic couples need to know — Pre-Cana, required documents, the wedding ceremony explained, the exchange of vows, NFP, and how to build a holy marriage." />
+        <meta name="description" content="What engaged Catholic couples need to know: Pre-Cana, required documents, the wedding ceremony, the exchange of vows, NFP, and building a holy marriage." />
         <meta name="keywords" content="complete catholic marriage guide, catholic wedding preparation, pre-cana guide, catholic marriage requirements, sacrament of matrimony guide, catholic engagement guide" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-catholic-marriage-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Catholic Marriage Guide: From Engagement to Holy Matrimony"
-        description="Everything engaged Catholic couples need to know — Pre-Cana, required documents, the wedding ceremony explained, the exchange of vows, NFP, and how to build a holy marriage."
+        description="What engaged Catholic couples need to know: Pre-Cana, required documents, the wedding ceremony, the exchange of vows, NFP, and building a holy marriage."
         url="https://guidecatholic.com/blog/complete-catholic-marriage-guide/"
       />
       <BreadcrumbSchema

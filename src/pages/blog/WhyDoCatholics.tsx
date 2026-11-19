@@ -18,14 +18,14 @@ export default function WhyDoCatholics() {
     <>
       <Helmet>
         <title>Why Do Catholics Pray to Mary, Confess to Priests & More — Answered | Guide Catholic</title>
-        <meta name="description" content="Clear answers to the most common questions about Catholic practices: Why do Catholics pray to Mary? Why confess to a priest? Why call priests 'Father'? Why do Catholics kneel?" />
+        <meta name="description" content="Clear answers to the most common questions about Catholic practices: Why do Catholics pray to Mary? Why confess to a priest? Why call priests 'Father'?" />
         <meta name="keywords" content="why do catholics pray to mary, why do catholics confess to a priest, why do catholics call priests father, why do catholics kneel, catholic practices explained, catholic traditions why" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-do-catholics/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Why Do Catholics Pray to Mary, Confess to Priests & More — Answered"
-        description="Clear answers to the most common questions about Catholic practices: Why do Catholics pray to Mary? Why confess to a priest? Why call priests 'Father'? Why do Catholics kneel?"
+        description="Clear answers to the most common questions about Catholic practices: Why do Catholics pray to Mary? Why confess to a priest? Why call priests 'Father'?"
         url="https://guidecatholic.com/blog/why-do-catholics/"
       />
       <BreadcrumbSchema

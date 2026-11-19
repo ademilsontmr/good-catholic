@@ -18,12 +18,12 @@ export default function SpiritualWorksOfMercyCatholic() {
     <>
       <Helmet>
         <title>Spiritual Works of Mercy: Full Catholic List & Examples | Guide Catholic</title>
-        <meta name="description" content="The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. Catholic guide with U.S. examples." />
+        <meta name="description" content="The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. S. examples." />
         <meta name="keywords" content="spiritual works of mercy, 7 spiritual works of mercy, works of mercy catholic, instruct the ignorant, comfort the afflicted" />
         <link rel="canonical" href="https://guidecatholic.com/blog/spiritual-works-of-mercy-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Spiritual Works of Mercy: Full Catholic List & Examples" description="The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. Catholic guide with U.S. examples." url="https://guidecatholic.com/blog/spiritual-works-of-mercy-catholic/" datePublished="2026-05-30" />
+      <ArticleSchema title="Spiritual Works of Mercy: Full Catholic List & Examples" description="The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. S. examples." url="https://guidecatholic.com/blog/spiritual-works-of-mercy-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

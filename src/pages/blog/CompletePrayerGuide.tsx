@@ -18,14 +18,14 @@ export default function CompletePrayerGuide() {
     <>
       <Helmet>
         <title>The Complete Catholic Prayer Guide: How to Build a Life of Prayer | Guide Catholic</title>
-        <meta name="description" content="Everything you need to build a Catholic prayer life — the 5 forms of prayer, a complete daily routine, all essential prayers with full texts, and how to pray when you don't feel like it." />
+        <meta name="description" content="Build a Catholic prayer life: the 5 forms of prayer, a daily routine, essential prayers with full texts, and how to pray when you don't feel like it." />
         <meta name="keywords" content="complete catholic prayer guide, how to pray catholic, catholic prayer life, building prayer habit catholic, types of catholic prayer, daily prayer routine catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-catholic-prayer-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Catholic Prayer Guide: How to Build a Life of Prayer"
-        description="Everything you need to build a Catholic prayer life — the 5 forms of prayer, a complete daily routine, all essential prayers with full texts, and how to pray when you don't feel like it."
+        description="Build a Catholic prayer life: the 5 forms of prayer, a daily routine, essential prayers with full texts, and how to pray when you don't feel like it."
         url="https://guidecatholic.com/blog/complete-catholic-prayer-guide/"
       />
       <BreadcrumbSchema

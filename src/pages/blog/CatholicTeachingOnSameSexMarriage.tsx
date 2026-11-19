@@ -18,14 +18,14 @@ export default function CatholicTeachingOnSameSexMarriage() {
     <>
       <Helmet>
         <title>Catholic Teaching on Same-Sex Marriage: What the Church Teaches | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about same-sex marriage? A clear explanation from the Catechism (CCC 2357-2359), natural law, and the Church's understanding of marriage." />
+        <meta name="description" content="What does the Catholic Church teach about same-sex marriage? An explanation from the Catechism (CCC 2357-2359), natural law, and the meaning of marriage." />
         <meta name="keywords" content="catholic teaching on same sex marriage, catholic church gay marriage, catechism homosexuality, fiducia supplicans, catholic marriage definition, natural law marriage" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-same-sex-marriage/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Same-Sex Marriage: What the Church Teaches"
-        description="What does the Catholic Church teach about same-sex marriage? A clear explanation from the Catechism (CCC 2357-2359), natural law, and the Church's understanding of marriage."
+        description="What does the Catholic Church teach about same-sex marriage? An explanation from the Catechism (CCC 2357-2359), natural law, and the meaning of marriage."
         url="https://guidecatholic.com/blog/catholic-teaching-on-same-sex-marriage/"
       />
       <BreadcrumbSchema

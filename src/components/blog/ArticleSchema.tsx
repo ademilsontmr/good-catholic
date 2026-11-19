@@ -1,6 +1,18 @@
 import { Helmet } from "react-helmet-async";
 import { ARTICLE_DATES } from "@/data/articleDates";
 
+const MAX_HEADLINE = 110;
+
+/** Article headline for JSON-LD: drop a trailing " — subtitle" (then ": subtitle") when the title is too long. */
+function articleHeadline(title: string): string {
+  if (title.length <= MAX_HEADLINE) return title;
+  for (const sep of [" — ", " – ", ": "]) {
+    const head = title.slice(0, title.lastIndexOf(sep));
+    if (title.includes(sep) && head.length >= 30 && head.length <= MAX_HEADLINE) return head;
+  }
+  return title.slice(0, MAX_HEADLINE).replace(/\s+\S*$/, "");
+}
+
 interface ArticleSchemaProps {
   title: string;
   description: string;
@@ -28,7 +40,7 @@ export function ArticleSchema({
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
-    headline: title,
+    headline: articleHeadline(title),
     description,
     url,
     ...(datePublished ? { datePublished } : {}),

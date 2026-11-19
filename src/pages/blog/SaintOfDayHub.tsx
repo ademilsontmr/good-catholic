@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Calendar, Heart, ArrowRight } from "lucide-react";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { CollectionPageSchema } from "@/components/blog/CollectionPageSchema";
 import { SAINT_OF_DAY_ARTICLES } from "@/data/saintOfDayArticles";
 import { getTodayDateSlug, saintOfDayArticlePath } from "@/lib/saintOfDaySlugs";
 
@@ -21,6 +22,14 @@ const MONTHS = [
   { name: "December", slug: "december", days: 31 },
 ];
 
+const SAINT_DESCRIPTION =
+  "Discover today's Catholic saint of the day — 365 famous saints with complete biographies, feast days, patronages, and devotion guides.";
+
+// Calendar order (January 1 → December 31), matching the page layout.
+const SAINT_LIST_ITEMS = [...SAINT_OF_DAY_ARTICLES]
+  .sort((a, b) => a.month - b.month || a.day - b.day)
+  .map((a) => ({ name: a.name, path: saintOfDayArticlePath(a.dateSlug) }));
+
 function getSaintForDay(month: number, day: number) {
   return SAINT_OF_DAY_ARTICLES.find((a) => a.month === month && a.day === day);
 }
@@ -35,12 +44,19 @@ export default function SaintOfDayHub() {
         <title>Saint of the Day: 365 Famous Catholic Saints Calendar | Guide Catholic</title>
         <meta
           name="description"
-          content="Discover today's Catholic saint of the day — 365 famous saints with complete biographies, feast days, patronages, and devotion guides. Updated daily for every date on the calendar."
+          content={SAINT_DESCRIPTION}
         />
         <meta name="keywords" content="saint of the day, catholic saint calendar, today's saint, feast day, patron saint, daily saint biography" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-of-the-day/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
+      <CollectionPageSchema
+        name="Saint of the Day: 365 Famous Catholic Saints Calendar"
+        description={SAINT_DESCRIPTION}
+        path="/blog/saint-of-the-day/"
+        breadcrumbName="Saint of the Day"
+        items={SAINT_LIST_ITEMS}
+      />
 
       <div className="min-h-screen bg-background">
         <Navbar />

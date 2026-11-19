@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import { Cross, FileText, Clock, CheckCircle, ArrowRight, Download, Sparkles, Users, Star, TrendingUp, ChevronDown } from "lucide-react";
+import { FileText, Clock, CheckCircle, ArrowRight, Download, Sparkles, Users, Star, TrendingUp, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Navbar } from "@/components/landing/Navbar";
 import { useState } from "react";
 
 export default function QuizIntro() {
@@ -41,17 +42,9 @@ export default function QuizIntro() {
       </Helmet>
 
       <div className="min-h-screen bg-background">
-        {/* Header */}
-        <header className="bg-primary text-button-text py-4">
-          <div className="container mx-auto px-4 flex items-center justify-between">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
-                <Cross className="w-5 h-5 text-button-text" />
-              </div>
-              <span className="font-display text-xl font-bold">Guide Catholic</span>
-            </Link>
-          </div>
-        </header>
+        {/* Site navigation (same header as the rest of the site) */}
+        <Navbar />
+        <div className="h-16" aria-hidden="true" />
 
         {/* Background decoration */}
         <div className="fixed inset-0 overflow-hidden pointer-events-none">

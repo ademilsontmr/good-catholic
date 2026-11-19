@@ -18,14 +18,14 @@ export default function DailyMassReadings() {
     <>
       <Helmet>
         <title>Daily Mass Readings Catholic: How to Follow, Apps & the Lectionary | Guide Catholic</title>
-        <meta name="description" content="How to follow the Catholic daily Mass readings — what they are, the three-year cycle, the best apps and websites, and how to use them for daily prayer and Scripture study." />
+        <meta name="description" content="How to follow the Catholic daily Mass readings: what they are, the three-year cycle, the best apps and websites, and how to use them for prayer and study." />
         <meta name="keywords" content="daily mass readings catholic, catholic daily readings, mass readings today, lectionary catholic, usccb daily readings, catholic bible readings today, gospel reading today" />
         <link rel="canonical" href="https://guidecatholic.com/blog/daily-mass-readings-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Daily Mass Readings Catholic: How to Follow, Apps & the Lectionary"
-        description="How to follow the Catholic daily Mass readings — what they are, the three-year cycle, the best apps and websites, and how to use them for daily prayer and Scripture study."
+        description="How to follow the Catholic daily Mass readings: what they are, the three-year cycle, the best apps and websites, and how to use them for prayer and study."
         url="https://guidecatholic.com/blog/daily-mass-readings-catholic/"
       />
       <BreadcrumbSchema

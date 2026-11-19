@@ -18,14 +18,14 @@ export default function WhatIsOriginalSin() {
     <>
       <Helmet>
         <title>What Is Original Sin? The Catholic Teaching Explained | Guide Catholic</title>
-        <meta name="description" content="What is original sin? Learn the Catholic teaching on the fall of Adam and Eve, the effects of original sin on human nature, and how baptism restores what was lost." />
+        <meta name="description" content="What is original sin? Catholic teaching on the fall of Adam and Eve, its effects on human nature, and how baptism restores what was lost." />
         <meta name="keywords" content="what is original sin, original sin catholic, adam and eve original sin, effects of original sin, original sin baptism, catechism original sin" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-original-sin-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is Original Sin? The Catholic Teaching Explained"
-        description="What is original sin? Learn the Catholic teaching on the fall of Adam and Eve, the effects of original sin on human nature, and how baptism restores what was lost."
+        description="What is original sin? Catholic teaching on the fall of Adam and Eve, its effects on human nature, and how baptism restores what was lost."
         url="https://guidecatholic.com/blog/what-is-original-sin-catholic/"
       />
       <BreadcrumbSchema

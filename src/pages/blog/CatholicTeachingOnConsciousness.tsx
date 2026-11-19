@@ -18,14 +18,14 @@ export default function CatholicTeachingOnConsciousness() {
     <>
       <Helmet>
         <title>What Is Conscience? The Catholic Teaching on Moral Conscience | Guide Catholic</title>
-        <meta name="description" content="What does 'follow your conscience' really mean in Catholic teaching? Learn what conscience is, why it must be formed, and how to develop a well-formed Catholic conscience." />
+        <meta name="description" content="What does 'follow your conscience' mean in Catholic teaching? What conscience is, why it must be formed, and how to develop a well-formed conscience." />
         <meta name="keywords" content="what is conscience catholic, moral conscience catholic, follow your conscience catholic, catechism on conscience, erroneous conscience catholic, forming conscience catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-conscience-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is Conscience? The Catholic Teaching on Moral Conscience"
-        description="What does 'follow your conscience' really mean in Catholic teaching? Learn what conscience is, why it must be formed, and how to develop a well-formed Catholic conscience."
+        description="What does 'follow your conscience' mean in Catholic teaching? What conscience is, why it must be formed, and how to develop a well-formed conscience."
         url="https://guidecatholic.com/blog/what-is-conscience-catholic/"
       />
       <BreadcrumbSchema

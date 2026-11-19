@@ -18,14 +18,14 @@ export default function HowToStudyBibleCatholic() {
     <>
       <Helmet>
         <title>How to Study the Bible as a Catholic: Methods, Resources & Tips | Guide Catholic</title>
-        <meta name="description" content="How to study the Bible as a Catholic — Lectio Divina, the four senses of Scripture, the best study Bibles, commentaries, apps, and a practical daily reading plan." />
+        <meta name="description" content="How to study the Bible as a Catholic: Lectio Divina, the four senses of Scripture, study Bibles, commentaries, apps, and a practical daily reading plan." />
         <meta name="keywords" content="how to study the bible catholic, catholic bible study, how to read the bible catholic, lectio divina, catholic bible study methods, bible study guide catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-study-the-bible-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Study the Bible as a Catholic: Methods, Resources & Tips"
-        description="How to study the Bible as a Catholic — Lectio Divina, the four senses of Scripture, the best study Bibles, commentaries, apps, and a practical daily reading plan."
+        description="How to study the Bible as a Catholic: Lectio Divina, the four senses of Scripture, study Bibles, commentaries, apps, and a practical daily reading plan."
         url="https://guidecatholic.com/blog/how-to-study-the-bible-catholic/"
       />
       <BreadcrumbSchema

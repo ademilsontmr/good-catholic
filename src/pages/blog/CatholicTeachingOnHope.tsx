@@ -18,14 +18,14 @@ export default function CatholicTeachingOnHope() {
     <>
       <Helmet>
         <title>What Is Hope? The Catholic Virtue of Hope Explained | Guide Catholic</title>
-        <meta name="description" content="Hope is one of the three theological virtues — and the most misunderstood. Learn what Christian hope really is, the two sins against it, and how to grow in it according to Catholic teaching." />
+        <meta name="description" content="Hope is a theological virtue, and the most misunderstood. What Christian hope really is, the two sins against it, and how to grow in it as a Catholic." />
         <meta name="keywords" content="virtue of hope catholic, what is hope catholic, theological virtue hope, hope and faith catholic, christian hope meaning, catechism on hope" />
         <link rel="canonical" href="https://guidecatholic.com/blog/virtue-of-hope-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is Hope? The Catholic Virtue of Hope Explained"
-        description="Hope is one of the three theological virtues — and the most misunderstood. Learn what Christian hope really is, the two sins against it, and how to grow in it according to Catholic teaching."
+        description="Hope is a theological virtue, and the most misunderstood. What Christian hope really is, the two sins against it, and how to grow in it as a Catholic."
         url="https://guidecatholic.com/blog/virtue-of-hope-catholic/"
       />
       <BreadcrumbSchema

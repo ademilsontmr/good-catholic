@@ -19,14 +19,14 @@ export default function StMichaelChapletPrayer() {
     <>
       <Helmet>
         <title>St. Michael Chaplet: How to Pray It, Beads and Prayers (Catholic Guide) | Guide Catholic</title>
-        <meta name="description" content="Learn how to pray the St. Michael Chaplet step by step — opening prayers, nine salutations, concluding prayers, and when Catholics pray this chaplet for protection." />
+        <meta name="description" content="How to pray the St. Michael Chaplet step by step: opening prayers, nine salutations, concluding prayers, and when Catholics pray it for protection." />
         <meta name="keywords" content="st michael chaplet, saint michael chaplet how to pray, st michael chaplet prayers, catholic chaplet st michael, st michael protection prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michael-chaplet-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="St. Michael Chaplet: How to Pray It, Beads and Prayers (Catholic Guide)"
-        description="Learn how to pray the St. Michael Chaplet step by step — opening prayers, nine salutations, concluding prayers, and when Catholics pray this chaplet for protection."
+        description="How to pray the St. Michael Chaplet step by step: opening prayers, nine salutations, concluding prayers, and when Catholics pray it for protection."
         url="https://guidecatholic.com/blog/st-michael-chaplet-prayer/"
       />
       <BreadcrumbSchema

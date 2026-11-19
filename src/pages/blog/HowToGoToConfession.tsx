@@ -18,7 +18,7 @@ export default function HowToGoToConfession() {
     <>
       <Helmet>
         <title>How to Go to Confession: The Expert Guide to Reconciliation | Guide Catholic</title>
-        <meta name="description" content="Master the Sacrament of Penance. Learn the 5 steps to a perfect confession, the difference between contrition types, and the power of the Seal of the Confessional." />
+        <meta name="description" content="The Sacrament of Penance: the 5 steps to a perfect confession, the difference between types of contrition, and the power of the Seal of the Confessional." />
         <meta name="keywords" content="how to go to confession catholic, steps to a good confession, perfect vs imperfect contrition, examination of conscience guide, seal of the confessional rules" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-go-to-confession/" />
         <meta name="robots" content="index, follow" />

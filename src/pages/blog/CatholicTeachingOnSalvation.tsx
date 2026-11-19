@@ -18,14 +18,14 @@ export default function CatholicTeachingOnSalvation() {
     <>
       <Helmet>
         <title>What Does the Catholic Church Teach About Salvation? | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about salvation? Learn about justification, sanctification, faith and works, the sacraments, and how Catholics respond to 'are you saved?'" />
+        <meta name="description" content="Catholic teaching on salvation: justification, sanctification, faith and works, the sacraments, and how Catholics respond when asked 'are you saved' today." />
         <meta name="keywords" content="catholic teaching on salvation, how are catholics saved, catholic salvation doctrine, faith and works catholic, are catholics saved" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-salvation/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Does the Catholic Church Teach About Salvation?"
-        description="What does the Catholic Church teach about salvation? Learn about justification, sanctification, faith and works, the sacraments, and how Catholics respond to 'are you saved?'"
+        description="Catholic teaching on salvation: justification, sanctification, faith and works, the sacraments, and how Catholics respond when asked 'are you saved' today."
         url="https://guidecatholic.com/blog/catholic-teaching-on-salvation/"
         datePublished="2026-04-20"
         dateModified="2026-04-20"

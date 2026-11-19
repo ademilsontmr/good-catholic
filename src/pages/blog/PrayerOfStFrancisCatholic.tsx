@@ -18,12 +18,12 @@ export default function PrayerOfStFrancisCatholic() {
     <>
       <Helmet>
         <title>Prayer of St. Francis (Make Me a Channel): Full Text & Meaning | Guide Catholic</title>
-        <meta name="description" content="The Prayer of St. Francis — Make me a channel of your peace — with full text, meaning line by line, and how Catholics pray it for peace, service, and daily life." />
+        <meta name="description" content="The Prayer of St. Francis (Make me a channel of your peace): full text, meaning line by line, and how Catholics pray it for peace, service, and daily life." />
         <meta name="keywords" content="prayer of st francis, make me a channel of your peace, st francis prayer full text, peace prayer catholic, where there is hatred let me sow love" />
         <link rel="canonical" href="https://guidecatholic.com/blog/prayer-of-st-francis-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Prayer of St. Francis (Make Me a Channel): Full Text & Meaning" description="The Prayer of St. Francis — Make me a channel of your peace — with full text, meaning line by line, and how Catholics pray it for peace, service, and daily life." url="https://guidecatholic.com/blog/prayer-of-st-francis-catholic/" datePublished="2026-05-30" />
+      <ArticleSchema title="Prayer of St. Francis (Make Me a Channel): Full Text & Meaning" description="The Prayer of St. Francis (Make me a channel of your peace): full text, meaning line by line, and how Catholics pray it for peace, service, and daily life." url="https://guidecatholic.com/blog/prayer-of-st-francis-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

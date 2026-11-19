@@ -18,14 +18,14 @@ export default function CatholicTeachingOnSuffering() {
     <>
       <Helmet>
         <title>Why Does God Allow Suffering? The Catholic Answer | Guide Catholic</title>
-        <meta name="description" content="Why does God allow suffering? The Catholic answer is not a simple explanation but a Person — Jesus Christ, who entered into human suffering and transformed it from within." />
+        <meta name="description" content="Why does God allow suffering? The Catholic answer is not a simple explanation but a Person, Jesus Christ, who entered human suffering and transformed it." />
         <meta name="keywords" content="why does god allow suffering catholic, problem of suffering catholic, why does god allow pain, suffering and faith catholic, salvifici doloris, meaning of suffering catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-does-god-allow-suffering-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Why Does God Allow Suffering? The Catholic Answer"
-        description="Why does God allow suffering? The Catholic answer is not a simple explanation but a Person — Jesus Christ, who entered into human suffering and transformed it from within."
+        description="Why does God allow suffering? The Catholic answer is not a simple explanation but a Person, Jesus Christ, who entered human suffering and transformed it."
         url="https://guidecatholic.com/blog/why-does-god-allow-suffering-catholic/"
       />
       <BreadcrumbSchema

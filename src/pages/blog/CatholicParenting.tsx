@@ -18,14 +18,14 @@ export default function CatholicParenting() {
     <>
       <Helmet>
         <title>Catholic Parenting: How to Raise Children in the Faith | Guide Catholic</title>
-        <meta name="description" content="A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith. Practical tips for every age." />
+        <meta name="description" content="A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith." />
         <meta name="keywords" content="catholic parenting, raising catholic children, how to raise children in faith, catholic family, teaching children catholic faith" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-parenting-raising-children-in-faith/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Parenting: How to Raise Children in the Faith"
-          description="A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith. Practical tips for every age."
+          description="A complete guide to Catholic parenting — from baptism and First Communion to the family Rosary, Catholic schools, and raising teenagers in the faith."
           url="https://guidecatholic.com/blog/catholic-parenting-raising-children-in-faith/"
         />
       <BreadcrumbSchema

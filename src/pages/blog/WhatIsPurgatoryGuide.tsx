@@ -18,14 +18,14 @@ export default function WhatIsPurgatoryGuide() {
     <>
       <Helmet>
         <title>What Is Purgatory? The Catholic Teaching Fully Explained | Guide Catholic</title>
-        <meta name="description" content="What is Purgatory? The complete Catholic explanation — biblical basis, what Purgatory is and isn't, how to pray for the souls there, and why this doctrine reveals God's mercy." />
+        <meta name="description" content="What is Purgatory? The Catholic explanation: biblical basis, what Purgatory is and isn't, how to pray for the souls there, and how it reveals God's mercy." />
         <meta name="keywords" content="what is purgatory, purgatory catholic, is purgatory in the bible, purgatory explained, catholic teaching on purgatory, praying for souls in purgatory" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-purgatory-explained/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is Purgatory? The Catholic Teaching Fully Explained"
-        description="What is Purgatory? The complete Catholic explanation — biblical basis, what Purgatory is and isn't, how to pray for the souls there, and why this doctrine reveals God's mercy."
+        description="What is Purgatory? The Catholic explanation: biblical basis, what Purgatory is and isn't, how to pray for the souls there, and how it reveals God's mercy."
         url="https://guidecatholic.com/blog/what-is-purgatory-explained/"
       />
       <BreadcrumbSchema

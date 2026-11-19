@@ -18,14 +18,14 @@ export default function WhatIsRCIAGuide() {
     <>
       <Helmet>
         <title>What Is RCIA? The Complete Guide to the Rite of Christian Initiation | Guide Catholic</title>
-        <meta name="description" content="What is RCIA? Complete guide to the Rite of Christian Initiation of Adults — what it is, who it's for, what happens at each stage, and how to find RCIA near you." />
+        <meta name="description" content="RCIA for adults explained: the Rite of Christian Initiation of Adults, who it's for, what happens at each stage, and how to find RCIA near you." />
         <meta name="keywords" content="what is rcia, rcia catholic, rite of christian initiation of adults, rcia process explained, rcia stages, rcia near me, rcia for adults" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-rcia-explained/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is RCIA? The Complete Guide to the Rite of Christian Initiation"
-        description="What is RCIA? Complete guide to the Rite of Christian Initiation of Adults — what it is, who it's for, what happens at each stage, and how to find RCIA near you."
+        description="RCIA for adults explained: the Rite of Christian Initiation of Adults, who it's for, what happens at each stage, and how to find RCIA near you."
         url="https://guidecatholic.com/blog/what-is-rcia-explained/"
       />
       <BreadcrumbSchema

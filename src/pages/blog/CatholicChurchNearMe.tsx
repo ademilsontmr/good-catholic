@@ -18,14 +18,14 @@ export default function CatholicChurchNearMe() {
     <>
       <Helmet>
         <title>How to Find a Catholic Church Near You: A Complete Guide for Americans | Guide Catholic</title>
-        <meta name="description" content="There are over 17,000 Catholic parishes in the US. Here's how to find the right one — parish finders, what to look for, Latin Mass locations, Eastern Catholic churches, and how to register." />
+        <meta name="description" content="There are over 17,000 Catholic parishes in the US. Find the right one: parish finders, what to look for, Latin Mass, Eastern Catholic churches, registering." />
         <meta name="keywords" content="catholic church near me, find a catholic church, catholic mass near me, how to find a parish, catholic parish locator usa, returning to catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-find-catholic-church-near-me/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Find a Catholic Church Near You: A Complete Guide for Americans"
-        description="There are over 17,000 Catholic parishes in the US. Here's how to find the right one — parish finders, what to look for, Latin Mass locations, Eastern Catholic churches, and how to register."
+        description="There are over 17,000 Catholic parishes in the US. Find the right one: parish finders, what to look for, Latin Mass, Eastern Catholic churches, registering."
         url="https://guidecatholic.com/blog/how-to-find-catholic-church-near-me/"
       />
       <BreadcrumbSchema

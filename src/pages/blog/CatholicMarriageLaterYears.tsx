@@ -17,7 +17,7 @@ export default function CatholicMarriageLaterYears() {
     <>
       <Helmet>
         <title>Catholic Marriage in the Later Years: Growing Old Together | Guide Catholic</title>
-        <meta name="description" content="Catholic marriage in later years — empty nest, retirement, illness, forgiveness, caregiving, and hope when bodies and seasons change. A guide for growing old together in faith." />
+        <meta name="description" content="Catholic marriage in later years — empty nest, retirement, illness, forgiveness, caregiving, and hope when bodies and seasons change." />
         <meta name="keywords" content="catholic marriage later years, aging catholic couples, empty nest marriage catholic, caregiving spouse catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-marriage-in-the-later-years/" />
         <meta name="robots" content="index, follow" />

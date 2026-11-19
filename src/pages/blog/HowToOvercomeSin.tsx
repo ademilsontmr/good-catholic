@@ -18,14 +18,14 @@ export default function HowToOvercomeSin() {
     <>
       <Helmet>
         <title>How to Overcome Sin: A Catholic Guide to Breaking Bad Habits | Guide Catholic</title>
-        <meta name="description" content="How do Catholics overcome sin and break bad habits? A practical guide to the Catholic approach — confession, prayer, virtue, spiritual direction, and the sacraments as tools for conversion." />
+        <meta name="description" content="How Catholics overcome sin and break bad habits through confession, prayer, virtue, spiritual direction, and the sacraments as tools for conversion." />
         <meta name="keywords" content="how to overcome sin catholic, breaking bad habits catholic, overcoming temptation catholic, catholic guide to sin, confession overcome sin, growing in virtue catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-overcome-sin-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Overcome Sin: A Catholic Guide to Breaking Bad Habits"
-        description="How do Catholics overcome sin and break bad habits? A practical guide to the Catholic approach — confession, prayer, virtue, spiritual direction, and the sacraments as tools for conversion."
+        description="How Catholics overcome sin and break bad habits through confession, prayer, virtue, spiritual direction, and the sacraments as tools for conversion."
         url="https://guidecatholic.com/blog/how-to-overcome-sin-catholic/"
       />
       <BreadcrumbSchema

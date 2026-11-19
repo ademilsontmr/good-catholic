@@ -18,14 +18,14 @@ export default function CatholicMentalHealthGuide() {
     <>
       <Helmet>
         <title>Catholic Mental Health: Faith-Based Guide to Depression, Anxiety & Healing | Guide Catholic</title>
-        <meta name="description" content="Discover the Catholic approach to mental health. Learn how faith integrates with psychology, find Catholic therapists, and access spiritual resources for depression, anxiety, and trauma recovery." />
+        <meta name="description" content="The Catholic approach to mental health: how faith integrates with psychology, finding Catholic therapists, and spiritual help for depression and anxiety." />
         <meta name="keywords" content="catholic mental health, christian depression anxiety, catholic therapist, faith and psychology, spiritual depression treatment, catholic counseling, mental health prayer, catholic approach to therapy" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-mental-health-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Mental Health: Faith-Based Guide to Depression, Anxiety & Healing"
-          description="Discover the Catholic approach to mental health. Learn how faith integrates with psychology, find Catholic therapists, and access spiritual resources for depression, anxiety, and trauma recovery."
+          description="The Catholic approach to mental health: how faith integrates with psychology, finding Catholic therapists, and spiritual help for depression and anxiety."
           url="https://guidecatholic.com/blog/catholic-mental-health-guide/"
         />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function CatholicTeachingOnScience() {
     <>
       <Helmet>
         <title>Catholic Teaching on Science: Faith and Reason Are Not Enemies | Guide Catholic</title>
-        <meta name="description" content="Does the Catholic Church oppose science? Discover the truth — from Mendel and Lemaître to the Big Bang and evolution — and why faith and reason are complementary, not opposed." />
+        <meta name="description" content="Does the Catholic Church oppose science? From Mendel and Lemaître to the Big Bang and evolution, see why faith and reason are complementary, not opposed." />
         <meta name="keywords" content="catholic teaching on science, faith and science catholic, does catholic church oppose science, galileo catholic church, big bang catholic, evolution catholic church" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-science/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Science: Faith and Reason Are Not Enemies"
-        description="Does the Catholic Church oppose science? Discover the truth — from Mendel and Lemaître to the Big Bang and evolution — and why faith and reason are complementary, not opposed."
+        description="Does the Catholic Church oppose science? From Mendel and Lemaître to the Big Bang and evolution, see why faith and reason are complementary, not opposed."
         url="https://guidecatholic.com/blog/catholic-teaching-on-science/"
       />
       <BreadcrumbSchema

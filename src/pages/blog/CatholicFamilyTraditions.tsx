@@ -18,14 +18,14 @@ export default function CatholicFamilyTraditions() {
     <>
       <Helmet>
         <title>Catholic Family Traditions: Building a Domestic Church | Guide Catholic</title>
-        <meta name="description" content="Discover Catholic family traditions for building a domestic church. Learn about family prayers, liturgical year celebrations, and creating a Catholic home environment." />
+        <meta name="description" content="Catholic family traditions for building a domestic church: family prayers, liturgical year celebrations, and creating a Catholic home environment." />
         <meta name="keywords" content="Catholic family traditions, domestic church, Catholic home, family prayer, liturgical year" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-family-traditions/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Family Traditions: Building a Domestic Church"
-          description="Discover Catholic family traditions for building a domestic church. Learn about family prayers, liturgical year celebrations, and creating a Catholic home environment."
+          description="Catholic family traditions for building a domestic church: family prayers, liturgical year celebrations, and creating a Catholic home environment."
           url="https://guidecatholic.com/blog/catholic-family-traditions/"
         />
       <BreadcrumbSchema

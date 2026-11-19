@@ -18,14 +18,14 @@ export default function ConsecratYourHome() {
     <>
       <Helmet>
         <title>How to Consecrate Your Home to God: A Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="Learn how to consecrate your home to God as a Catholic — the Epiphany house blessing, the difference between blessing and consecration, sacred objects, and how to create a prayer corner." />
+        <meta name="description" content="How to consecrate your home to God as a Catholic: the Epiphany house blessing, blessing vs consecration, sacred objects, and creating a prayer corner." />
         <meta name="keywords" content="consecrate home to god, bless your home catholic, home blessing catholic, consecration of the home, catholic home blessing prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-consecrate-your-home-to-god/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="How to Consecrate Your Home to God: A Catholic Guide"
-          description="Learn how to consecrate your home to God as a Catholic — the Epiphany house blessing, the difference between blessing and consecration, sacred objects, and how to create a prayer corner."
+          description="How to consecrate your home to God as a Catholic: the Epiphany house blessing, blessing vs consecration, sacred objects, and creating a prayer corner."
           url="https://guidecatholic.com/blog/how-to-consecrate-your-home-to-god/"
         />
       <BreadcrumbSchema

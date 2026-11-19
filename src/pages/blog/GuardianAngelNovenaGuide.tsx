@@ -18,14 +18,14 @@ export default function GuardianAngelNovenaGuide() {
     <>
       <Helmet>
         <title>Guardian Angel Novena Guide: How to Pray the 9-Day Prayer to Your Heavenly Protector | Guide Catholic</title>
-        <meta name="description" content="A complete guide to the Guardian Angel Novena — who guardian angels are, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online." />
+        <meta name="description" content="A guide to the Guardian Angel Novena: who guardian angels are, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it." />
         <meta name="keywords" content="guardian angel novena guide, how to pray guardian angel novena, novena to guardian angel, guardian angel prayer 9 days, angel novena catholic, guardian angel feast day october 2" />
         <link rel="canonical" href="https://guidecatholic.com/blog/guardian-angel-novena-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Guardian Angel Novena Guide: How to Pray the 9-Day Prayer to Your Heavenly Protector"
-        description="A complete guide to the Guardian Angel Novena — who guardian angels are, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online."
+        description="A guide to the Guardian Angel Novena: who guardian angels are, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it."
         url="https://guidecatholic.com/blog/guardian-angel-novena-guide/"
       />
       <BreadcrumbSchema

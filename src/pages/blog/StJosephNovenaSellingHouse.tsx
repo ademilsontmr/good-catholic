@@ -17,12 +17,12 @@ export default function StJosephNovenaSellingHouse() {
     <>
       <Helmet>
         <title>St. Joseph Novena for Selling a House: 9-Day Catholic Prayer Guide | Guide Catholic</title>
-        <meta name="description" content="St. Joseph Novena for selling a house — 9-day Catholic prayer with full text, how to pray when listing your home, and devotion traditions in the United States. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." />
+        <meta name="description" content="St. Joseph Novena for selling a house — 9-day Catholic prayer with full text, how to pray when listing your home, and devotion traditions in the United States." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-selling-house/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="St. Joseph Novena for Selling a House: 9-Day Catholic Prayer Guide" description="St. Joseph Novena for selling a house — 9-day Catholic prayer with full text, how to pray when listing your home, and devotion traditions in the United States. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/st-joseph-novena-selling-house/" datePublished="2026-05-30" />
+      <ArticleSchema title="St. Joseph Novena for Selling a House: 9-Day Catholic Prayer Guide" description="St. Joseph Novena for selling a house — 9-day Catholic prayer with full text, how to pray when listing your home, and devotion traditions in the United States." url="https://guidecatholic.com/blog/st-joseph-novena-selling-house/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

@@ -18,14 +18,14 @@ export default function SaintVincentDePaul() {
     <>
       <Helmet>
         <title>Saint Vincent de Paul: Apostle of Charity and Patron of the Poor | Guide Catholic</title>
-        <meta name="description" content="Discover Saint Vincent de Paul — the 17th-century French priest who revolutionized Catholic charity. His life, the Vincentian family, the Society of St. Vincent de Paul, and his legacy." />
+        <meta name="description" content="Discover Saint Vincent de Paul — the 17th-century French priest who revolutionized Catholic charity. His life, the Vincentian family, the Society of St." />
         <meta name="keywords" content="saint vincent de paul, st vincent de paul society, patron of charitable works, apostle of charity, vincentian spirituality, feast day september 27" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-vincent-de-paul/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Vincent de Paul: Apostle of Charity and Patron of the Poor"
-        description="Discover Saint Vincent de Paul — the 17th-century French priest who revolutionized Catholic charity. His life, the Vincentian family, the Society of St. Vincent de Paul, and his legacy."
+        description="Discover Saint Vincent de Paul — the 17th-century French priest who revolutionized Catholic charity. His life, the Vincentian family, the Society of St."
         url="https://guidecatholic.com/blog/saint-vincent-de-paul/"
       />
       <BreadcrumbSchema

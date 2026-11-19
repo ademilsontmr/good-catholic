@@ -18,14 +18,14 @@ export default function PopeFrancisLegacy() {
     <>
       <Helmet>
         <title>Pope Francis: Life, Legacy and His Impact on the Catholic Church | Guide Catholic</title>
-        <meta name="description" content="Explore the life and legacy of Pope Francis — Jorge Mario Bergoglio — from Buenos Aires to the Vatican. His key documents, his emphasis on mercy, and his impact on the Church." />
+        <meta name="description" content="The life and legacy of Pope Francis, Jorge Mario Bergoglio, from Buenos Aires to the Vatican: his key documents, his emphasis on mercy, and his impact." />
         <meta name="keywords" content="pope francis legacy, pope francis death, pope francis life, jorge bergoglio, pope francis impact" />
         <link rel="canonical" href="https://guidecatholic.com/blog/pope-francis-legacy/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Pope Francis: Life, Legacy and His Impact on the Catholic Church"
-        description="Explore the life and legacy of Pope Francis — Jorge Mario Bergoglio — from Buenos Aires to the Vatican. His key documents, his emphasis on mercy, and his impact on the Church."
+        description="The life and legacy of Pope Francis, Jorge Mario Bergoglio, from Buenos Aires to the Vatican: his key documents, his emphasis on mercy, and his impact."
         url="https://guidecatholic.com/blog/pope-francis-legacy/"
         datePublished="2026-04-20"
         dateModified="2026-04-20"

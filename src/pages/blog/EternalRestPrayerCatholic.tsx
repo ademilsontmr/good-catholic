@@ -18,14 +18,14 @@ export default function EternalRestPrayerCatholic() {
     <>
       <Helmet>
         <title>Eternal Rest Prayer (Requiem Aeternam): Full Catholic Text | Guide Catholic</title>
-        <meta name="description" content="The Eternal Rest prayer (Requiem aeternam) with full Catholic text in English and Latin, when to pray it for the dead, and how it fits funeral Mass and November memorials." />
+        <meta name="description" content="The Eternal Rest prayer (Requiem aeternam) in English and Latin, when to pray it for the dead, and how it fits the funeral Mass and November memorials." />
         <meta name="keywords" content="eternal rest prayer, requiem aeternam prayer, catholic prayer for the dead, eternal rest grant unto them, funeral prayer catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/eternal-rest-prayer-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Eternal Rest Prayer (Requiem Aeternam): Full Catholic Text"
-        description="The Eternal Rest prayer (Requiem aeternam) with full Catholic text in English and Latin, when to pray it for the dead, and how it fits funeral Mass and November memorials."
+        description="The Eternal Rest prayer (Requiem aeternam) in English and Latin, when to pray it for the dead, and how it fits the funeral Mass and November memorials."
         url="https://guidecatholic.com/blog/eternal-rest-prayer-catholic/"
         datePublished="2026-05-30"
       />

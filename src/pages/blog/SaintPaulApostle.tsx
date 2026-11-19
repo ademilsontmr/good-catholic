@@ -18,14 +18,14 @@ export default function SaintPaulApostle() {
     <>
       <Helmet>
         <title>Saint Paul the Apostle: Conversion, Missions & Letters | Guide Catholic</title>
-        <meta name="description" content="Discover Saint Paul the Apostle — the persecutor turned missionary who wrote half the New Testament, traveled the ancient world for Christ, and was martyred in Rome." />
+        <meta name="description" content="Saint Paul the Apostle: the persecutor turned missionary who wrote half the New Testament, traveled the ancient world for Christ, and was martyred in Rome." />
         <meta name="keywords" content="saint paul apostle, paul conversion damascus, paul missionary journeys, paul letters epistles, paul and peter apostles, feast day june 29" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-paul-apostle/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Paul the Apostle: Conversion, Missions & Letters"
-        description="Discover Saint Paul the Apostle — the persecutor turned missionary who wrote half the New Testament, traveled the ancient world for Christ, and was martyred in Rome."
+        description="Saint Paul the Apostle: the persecutor turned missionary who wrote half the New Testament, traveled the ancient world for Christ, and was martyred in Rome."
         url="https://guidecatholic.com/blog/saint-paul-apostle/"
       />
       <BreadcrumbSchema

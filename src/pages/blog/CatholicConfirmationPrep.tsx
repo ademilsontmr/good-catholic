@@ -18,14 +18,14 @@ export default function CatholicConfirmationPrep() {
     <>
       <Helmet>
         <title>Catholic Confirmation Preparation: The Complete Guide for Teens & Adults | Guide Catholic</title>
-        <meta name="description" content="Everything you need to prepare for Confirmation — the 7 gifts of the Holy Spirit, how to choose a name and sponsor, what happens at the ceremony, and what comes after." />
+        <meta name="description" content="How to prepare for Confirmation: the 7 gifts of the Holy Spirit, how to choose a name and sponsor, what happens at the ceremony, and what comes after." />
         <meta name="keywords" content="catholic confirmation preparation, how to prepare for confirmation, confirmation sponsor guide, confirmation name catholic, confirmation gifts, adult confirmation catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-confirmation-preparation-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Confirmation Preparation: The Complete Guide for Teens & Adults"
-        description="Everything you need to prepare for Confirmation — the 7 gifts of the Holy Spirit, how to choose a name and sponsor, what happens at the ceremony, and what comes after."
+        description="How to prepare for Confirmation: the 7 gifts of the Holy Spirit, how to choose a name and sponsor, what happens at the ceremony, and what comes after."
         url="https://guidecatholic.com/blog/catholic-confirmation-preparation-guide/"
       />
       <BreadcrumbSchema

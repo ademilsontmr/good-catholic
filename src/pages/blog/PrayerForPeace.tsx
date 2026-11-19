@@ -16,7 +16,7 @@ import { cboLinkClass, CBO_BIBLE } from "@/lib/catholicBibleOnlineLinks";
 const PAGE = "https://guidecatholic.com/blog/prayer-for-peace/";
 const TITLE = "Catholic Prayer for Peace: For the Heart, the Home, and the World";
 const DESCRIPTION =
-  "A Catholic prayer for peace in personal conflict and in war, with Christ’s words in John 14 and a clear line between devotion and a promise that violence will end.";
+  "A Catholic prayer for peace in personal conflict and in war, with Christ’s words in John 14, and why devotion is not a promise that violence will end.";
 
 const ORIGINAL = `God of peace, quiet the fear in me and the anger I carry toward others.
 Where I have hurt someone, give me the courage to make peace.

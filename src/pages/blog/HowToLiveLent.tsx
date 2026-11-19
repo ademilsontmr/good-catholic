@@ -18,13 +18,13 @@ export default function HowToLiveLent() {
     <>
       <Helmet>
         <title>How to Live Lent: A Complete Guide to the Season of Conversion | Guide Catholic</title>
-        <meta name="description" content="Discover how to make the most of Lent through prayer, fasting, and almsgiving. Practical tips for a transformative Lenten season that bears lasting spiritual fruit." />
+        <meta name="description" content="Make the most of Lent through prayer, fasting, and almsgiving, with practical tips for a transformative Lenten season that bears lasting spiritual fruit." />
         <meta name="keywords" content="how to live lent, lent catholic, lenten practices, ash wednesday, lent fasting, lent prayer, lent almsgiving, lenten season" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-live-lent/" />
       </Helmet>
         <ArticleSchema
           title="How to Live Lent: A Complete Guide to the Season of Conversion"
-          description="Discover how to make the most of Lent through prayer, fasting, and almsgiving. Practical tips for a transformative Lenten season that bears lasting spiritual fruit."
+          description="Make the most of Lent through prayer, fasting, and almsgiving, with practical tips for a transformative Lenten season that bears lasting spiritual fruit."
           url="https://guidecatholic.com/blog/how-to-live-lent/"
         />
       <BreadcrumbSchema

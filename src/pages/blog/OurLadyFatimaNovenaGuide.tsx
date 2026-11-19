@@ -18,14 +18,14 @@ export default function OurLadyFatimaNovenaGuide() {
     <>
       <Helmet>
         <title>Our Lady of Fatima Novena Guide: How to Pray the 9-Day Prayer | Guide Catholic</title>
-        <meta name="description" content="A complete guide to the Our Lady of Fatima Novena — the message of Fatima, how to pray the 9-day novena step by step, the Fatima Prayer, and where to pray it online." />
+        <meta name="description" content="Guide to the Our Lady of Fatima Novena: the message of Fatima, how to pray the 9-day novena step by step, the Fatima Prayer, and where to pray it online." />
         <meta name="keywords" content="our lady of fatima novena guide, how to pray fatima novena, novena to our lady of fatima, fatima prayer 9 days, fatima novena catholic, may 13 fatima feast day" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-fatima-novena-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Our Lady of Fatima Novena Guide: How to Pray the 9-Day Prayer"
-        description="A complete guide to the Our Lady of Fatima Novena — the message of Fatima, how to pray the 9-day novena step by step, the Fatima Prayer, and where to pray it online."
+        description="Guide to the Our Lady of Fatima Novena: the message of Fatima, how to pray the 9-day novena step by step, the Fatima Prayer, and where to pray it online."
         url="https://guidecatholic.com/blog/our-lady-of-fatima-novena-guide/"
       />
       <BreadcrumbSchema

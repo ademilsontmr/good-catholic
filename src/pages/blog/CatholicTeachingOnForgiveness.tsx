@@ -18,14 +18,14 @@ export default function CatholicTeachingOnForgiveness() {
     <>
       <Helmet>
         <title>Catholic Teaching on Forgiveness: How to Forgive as God Forgives | Guide Catholic</title>
-        <meta name="description" content="Forgiveness is one of the hardest and most essential teachings of Christianity. Learn what the Church teaches, what forgiveness really means, and how to forgive even the deepest wounds." />
+        <meta name="description" content="Forgiveness is an essential teaching of Christianity. Learn what the Church teaches, what forgiveness really means, and how to forgive the deepest wounds." />
         <meta name="keywords" content="catholic teaching on forgiveness, how to forgive catholic, forgiveness in the bible, forgiving enemies catholic, why forgive catholic, prayer for forgiveness catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-forgiveness/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Forgiveness: How to Forgive as God Forgives"
-        description="Forgiveness is one of the hardest and most essential teachings of Christianity. Learn what the Church teaches, what forgiveness really means, and how to forgive even the deepest wounds."
+        description="Forgiveness is an essential teaching of Christianity. Learn what the Church teaches, what forgiveness really means, and how to forgive the deepest wounds."
         url="https://guidecatholic.com/blog/catholic-teaching-on-forgiveness/"
       />
       <BreadcrumbSchema

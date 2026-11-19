@@ -17,14 +17,14 @@ export default function LivingTogetherBeforeMarriageCatholic() {
     <>
       <Helmet>
         <title>Living Together Before Marriage: Catholic View | Guide Catholic</title>
-        <meta name="description" content="What the Catholic Church teaches about living together before marriage—cohabitation, chastity, CCC 2350–2353, pastoral mercy, Confession, and preparing for a holy wedding." />
+        <meta name="description" content="Catholic teaching on living together before marriage: cohabitation, chastity, CCC 2350–2353, pastoral mercy, Confession, and preparing for a holy wedding." />
         <meta name="keywords" content="living together before marriage catholic, cohabitation catholic church, catholic teaching premarital sex" />
         <link rel="canonical" href="https://guidecatholic.com/blog/living-together-before-marriage-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Living Together Before Marriage: What the Catholic Church Teaches"
-        description="What the Catholic Church teaches about living together before marriage—cohabitation, chastity, CCC 2350–2353, pastoral mercy, Confession, and preparing for a holy wedding."
+        description="Catholic teaching on living together before marriage: cohabitation, chastity, CCC 2350–2353, pastoral mercy, Confession, and preparing for a holy wedding."
         url="https://guidecatholic.com/blog/living-together-before-marriage-catholic/"
         datePublished="2026-09-22"
       />

@@ -18,14 +18,14 @@ export default function SaintAugustineOfHippo() {
     <>
       <Helmet>
         <title>Saint Augustine of Hippo: Life, Confessions & Legacy | Guide Catholic</title>
-        <meta name="description" content="Discover Saint Augustine of Hippo — his dramatic conversion, the Confessions, his theology of grace, and why he remains one of the greatest Doctors of the Church." />
+        <meta name="description" content="Saint Augustine of Hippo: his dramatic conversion, the Confessions, his theology of grace, and why he remains one of the greatest Doctors of the Church." />
         <meta name="keywords" content="saint augustine of hippo, augustine confessions, doctor of the church, augustine conversion, augustine theology, restless heart augustine, feast day august 28" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-augustine-of-hippo/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Augustine of Hippo: Life, Confessions & Legacy"
-        description="Discover Saint Augustine of Hippo — his dramatic conversion, the Confessions, his theology of grace, and why he remains one of the greatest Doctors of the Church."
+        description="Saint Augustine of Hippo: his dramatic conversion, the Confessions, his theology of grace, and why he remains one of the greatest Doctors of the Church."
         url="https://guidecatholic.com/blog/saint-augustine-of-hippo/"
       />
       <BreadcrumbSchema

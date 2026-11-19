@@ -18,14 +18,14 @@ export default function WhatIsTheCatholicMass() {
     <>
       <Helmet>
         <title>What Is the Catholic Mass? A Complete Guide to the Liturgy | Guide Catholic</title>
-        <meta name="description" content="A complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Concluding Rites, with tips for beginners and active participation." />
+        <meta name="description" content="A complete guide to the Catholic Mass, every part explained from the Introductory to the Concluding Rites, with tips for beginners and active participation." />
         <meta name="keywords" content="what is the catholic mass, catholic mass explained, parts of the mass catholic, liturgy of the word, liturgy of the eucharist, mass guide for beginners" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-mass-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="What Is the Catholic Mass? A Complete Guide to the Liturgy"
-        description="A complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Concluding Rites, with tips for beginners and active participation."
+        description="A complete guide to the Catholic Mass, every part explained from the Introductory to the Concluding Rites, with tips for beginners and active participation."
         url="https://guidecatholic.com/blog/what-is-the-catholic-mass-guide/"
       />
       <BreadcrumbSchema

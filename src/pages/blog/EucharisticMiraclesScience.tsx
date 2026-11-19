@@ -18,14 +18,14 @@ export default function EucharisticMiraclesScience() {
     <>
       <Helmet>
         <title>Eucharistic Miracles and Science: What Do the Labs Say? | Guide Catholic</title>
-        <meta name="description" content="Explore the scientific evidence behind Eucharistic miracles like Lanciano, Buenos Aires, and Tixtla. Learn about blood types, DNA, and medical findings that defy natural explanation." />
+        <meta name="description" content="The scientific evidence behind Eucharistic miracles like Lanciano, Buenos Aires, and Tixtla: blood types, DNA, and medical findings that defy explanation." />
         <meta name="keywords" content="eucharistic miracles science, lanciano miracle scientific study, buenos aires eucharist miracle, miracles and science, ab blood type eucharist, tixtla miracle mexico" />
         <link rel="canonical" href="https://guidecatholic.com/blog/eucharistic-miracles-science/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Eucharistic Miracles and Science: What Do the Medical Labs Say?"
-        description="Explore the scientific evidence behind Eucharistic miracles like Lanciano, Buenos Aires, and Tixtla. Learn about blood types, DNA, and medical findings that defy natural explanation."
+        description="The scientific evidence behind Eucharistic miracles like Lanciano, Buenos Aires, and Tixtla: blood types, DNA, and medical findings that defy explanation."
         url="https://guidecatholic.com/blog/eucharistic-miracles-science/"
       />
       <BreadcrumbSchema

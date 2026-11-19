@@ -18,14 +18,14 @@ export default function StJudeNovenaGuide() {
     <>
       <Helmet>
         <title>St. Jude Novena Guide: How to Pray the 9-Day Prayer for Impossible Cases | Guide Catholic</title>
-        <meta name="description" content="A complete guide to the St. Jude Novena — who Saint Jude is, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online." />
+        <meta name="description" content="Guide to the St. Jude Novena: who Saint Jude is, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online." />
         <meta name="keywords" content="st jude novena guide, how to pray st jude novena, saint jude novena 9 days, novena to st jude impossible cases, st jude prayer guide, patron of impossible causes novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-jude-novena-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="St. Jude Novena Guide: How to Pray the 9-Day Prayer for Impossible Cases"
-        description="A complete guide to the St. Jude Novena — who Saint Jude is, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online."
+        description="Guide to the St. Jude Novena: who Saint Jude is, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online."
         url="https://guidecatholic.com/blog/st-jude-novena-guide/"
       />
       <BreadcrumbSchema

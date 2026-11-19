@@ -17,14 +17,14 @@ export default function HolySoulsNovenaAllSouls2026() {
     <>
       <Helmet>
         <title>Holy Souls Novena for All Souls 2026 | Guide Catholic</title>
-        <meta name="description" content="Holy Souls novena for All Souls Day 2026 — nine-day prayer, Eternal Rest, Masses for the dead, indulgences explained, cemetery visits, and purgatory with charity." />
+        <meta name="description" content="Holy Souls novena for All Souls Day 2026: a nine-day prayer, Eternal Rest, Masses for the dead, indulgences, cemetery visits, and purgatory with charity." />
         <meta name="keywords" content="novena for the holy souls, all souls day 2026 novena, pray for souls in purgatory, holy souls novena november, eternal rest prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/holy-souls-novena-all-souls-2026/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Holy Souls Novena for All Souls 2026: How to Pray for the Dead"
-        description="Holy Souls novena for All Souls Day 2026 — nine-day prayer, Eternal Rest, Masses for the dead, indulgences explained, cemetery visits, and purgatory with charity."
+        description="Holy Souls novena for All Souls Day 2026: a nine-day prayer, Eternal Rest, Masses for the dead, indulgences, cemetery visits, and purgatory with charity."
         url="https://guidecatholic.com/blog/holy-souls-novena-all-souls-2026/"
         datePublished="2026-09-22"
       />

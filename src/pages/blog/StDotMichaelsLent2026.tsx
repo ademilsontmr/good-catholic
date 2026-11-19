@@ -18,14 +18,14 @@ export default function StDotMichaelsLent2026() {
     <>
       <Helmet>
         <title>{"St. Michael's Lent 2026 Calendar: Assumption to Michaelmas | Guide Catholic"}</title>
-        <meta name="description" content={"St. Michael's Lent 2026 calendar with every major feast between August 15 and September 29 — for parish planners, families, and U.S. Catholics keeping the novena."} />
+        <meta name="description" content={"St. Michael's Lent 2026 calendar with every major feast from August 15 to September 29, for parish planners, families, and U.S. Catholics keeping the novena."} />
         <meta name="keywords" content={"st. michael's lent 2026, st michael's lent calendar 2026, assumption to michaelmas 2026"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-michaels-lent-2026-calendar/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title={"St. Michael's Lent 2026 Calendar: Every Key Date from Assumption to Michaelmas"}
-        description={"St. Michael's Lent 2026 calendar with every major feast between August 15 and September 29 — for parish planners, families, and U.S. Catholics keeping the novena."}
+        description={"St. Michael's Lent 2026 calendar with every major feast from August 15 to September 29, for parish planners, families, and U.S. Catholics keeping the novena."}
         url="https://guidecatholic.com/blog/st-michaels-lent-2026-calendar/"
         datePublished="2026-08-14"
       />

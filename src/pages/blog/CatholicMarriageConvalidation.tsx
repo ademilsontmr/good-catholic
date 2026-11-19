@@ -17,14 +17,14 @@ export default function CatholicMarriageConvalidation() {
     <>
       <Helmet>
         <title>Catholic Marriage Convalidation Guide | Guide Catholic</title>
-        <meta name="description" content="Catholic marriage convalidation explained: bless a civil wedding, simple convalidation vs radical sanation, documents, consent, and why it is more than a blessing." />
+        <meta name="description" content="Catholic marriage convalidation explained: simple convalidation vs radical sanation, documents, consent, and why it is more than a blessing." />
         <meta name="keywords" content="catholic marriage convalidation, convalidation civil marriage, radical sanation marriage, bless civil wedding catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-marriage-convalidation/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Marriage Convalidation: How to Bless a Civil Wedding"
-        description="Catholic marriage convalidation explained: bless a civil wedding, simple convalidation vs radical sanation, documents, consent, and why it is more than a blessing."
+        description="Catholic marriage convalidation explained: simple convalidation vs radical sanation, documents, consent, and why it is more than a blessing."
         url="https://guidecatholic.com/blog/catholic-marriage-convalidation/"
         datePublished="2026-09-22"
       />

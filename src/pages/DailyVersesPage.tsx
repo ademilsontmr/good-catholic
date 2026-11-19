@@ -164,11 +164,17 @@ export default function DailyVersesPage() {
   const prevDay = active.index > 0 ? dailyArchive[active.index - 1] : null;
   const nextDay = active.index < dailyArchive.length - 1 ? dailyArchive[active.index + 1] : null;
   const upcoming = dailyArchive.slice(active.index + 1, active.index + 8);
-  const quote = todayVerse.text.length > 78 ? `${todayVerse.text.slice(0, 75).trim()}…` : todayVerse.text;
+  // Keep the meta description within 160 characters: shorten only the quoted verse, never the reference or date.
+  const descriptionTail = ` — ${todayVerse.ref}. Catholic verse of the day for ${shortDate}, with a reflection and a prayer.`;
+  const quoteBudget = Math.min(78, 160 - descriptionTail.length - 2);
+  const quote =
+    todayVerse.text.length > quoteBudget
+      ? `${todayVerse.text.slice(0, quoteBudget - 1).replace(/\s+\S*$/, "").replace(/[,;:]$/, "")}…`
+      : todayVerse.text;
   const pageTitle = isDated
     ? `${todayVerse.ref} — Verse of the Day (${shortDate}) | Guide Catholic`
     : `Verse of the Day (${shortDate}) | Guide Catholic`;
-  const description = `"${quote}" — ${todayVerse.ref}. Catholic verse of the day for ${shortDate}, with a reflection and a prayer.`;
+  const description = `"${quote}"${descriptionTail}`;
   const dailyCopy = copyForDate(isoDate, todayVerse.ref);
   const themeArticle = themeArticles[todayVerse.theme];
   const filtered = themeFilter ? verses.filter((verse) => verse.theme === themeFilter) : [];
@@ -229,6 +235,7 @@ export default function DailyVersesPage() {
               "url": pageUrl,
               "author": { "@type": "Organization", "name": "Guide Catholic", "url": "https://guidecatholic.com" },
               "publisher": { "@type": "Organization", "name": "Guide Catholic", "url": "https://guidecatholic.com" },
+              "image": "https://guidecatholic.com/og-image.png",
               "mainEntityOfPage": pageUrl
             },
             {
@@ -275,7 +282,7 @@ export default function DailyVersesPage() {
               {isDated ? (
                 <>
                   <p className="text-xs font-semibold tracking-[0.18em] uppercase text-accent mb-3">Catholic Verse of the Day</p>
-                  <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-3">{todayVerse.ref} — Verse of the Day</h1>
+                  <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-3">{todayVerse.ref} — Verse of the Day for <time dateTime={isoDate}>{today}</time></h1>
                   <p className="text-text-muted leading-relaxed max-w-xl mx-auto">
                     Catholic Bible verse for <time dateTime={isoDate}>{today}</time>, with the meaning of {todayVerse.ref}, a prayer, and the chapter in context.
                   </p>

@@ -18,14 +18,14 @@ export default function StAnthonyPrayer() {
     <>
       <Helmet>
         <title>St. Anthony Prayer: For Lost Things, Lost People & Impossible Causes | Guide Catholic</title>
-        <meta name="description" content="Prayers to St. Anthony of Padua — patron of lost things. The traditional prayer, the Responsory, novena, and how to ask St. Anthony to help you find what is lost." />
+        <meta name="description" content="Prayers to St. Anthony of Padua — patron of lost things. The traditional prayer, the Responsory, novena, and how to ask St." />
         <meta name="keywords" content="st anthony prayer, saint anthony prayer, prayer to st anthony for lost things, st anthony lost things, tony tony look around prayer, st anthony novena" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-anthony-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="St. Anthony Prayer: For Lost Things, Lost People & Impossible Causes"
-        description="Prayers to St. Anthony of Padua — patron of lost things. The traditional prayer, the Responsory, novena, and how to ask St. Anthony to help you find what is lost."
+        description="Prayers to St. Anthony of Padua — patron of lost things. The traditional prayer, the Responsory, novena, and how to ask St."
         url="https://guidecatholic.com/blog/st-anthony-prayer/"
       />
       <BreadcrumbSchema

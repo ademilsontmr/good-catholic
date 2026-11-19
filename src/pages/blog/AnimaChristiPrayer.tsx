@@ -18,14 +18,14 @@ export default function AnimaChristiPrayer() {
     <>
       <Helmet>
         <title>Anima Christi Prayer: Full Catholic Text, Meaning & When to Say It | Guide Catholic</title>
-        <meta name="description" content="The Anima Christi (Soul of Christ) prayer with full Catholic text in English and Latin, what each line means, and when to pray it before Communion or after Confession." />
+        <meta name="description" content="The Anima Christi (Soul of Christ) prayer in English and Latin, what each line means, and when to pray it before Communion or after Confession." />
         <meta name="keywords" content="anima christi prayer, soul of christ prayer, anima christi full text, anima christi latin, catholic prayer before communion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/anima-christi-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Anima Christi Prayer: Full Catholic Text, Meaning & When to Say It"
-        description="The Anima Christi (Soul of Christ) prayer with full Catholic text in English and Latin, what each line means, and when to pray it before Communion or after Confession."
+        description="The Anima Christi (Soul of Christ) prayer in English and Latin, what each line means, and when to pray it before Communion or after Confession."
         url="https://guidecatholic.com/blog/anima-christi-prayer/"
         datePublished="2026-05-30"
       />

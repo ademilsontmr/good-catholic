@@ -19,7 +19,7 @@ export default function NationalEucharisticRevivalGuide2026() {
         <title>National Eucharistic Revival: Complete Guide for Catholics (2026) | Guide Catholic</title>
         <meta
           name="description"
-          content="What was the U.S. National Eucharistic Revival? History, Real Presence crisis, Congress 2024, and how Catholics live Eucharistic faith in 2026 — adoration, processions, and daily practice."
+          content="The U.S. National Eucharistic Revival: its history, the Real Presence crisis, Congress 2024, and living Eucharistic faith in 2026 through adoration."
         />
         <meta
           name="keywords"

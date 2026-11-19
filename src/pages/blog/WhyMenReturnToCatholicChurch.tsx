@@ -18,14 +18,14 @@ export default function WhyMenReturnToCatholicChurch() {
     <>
       <Helmet>
         <title>Why Young Men Are Returning to the Catholic Church | Guide Catholic</title>
-        <meta name="description" content="Young men are leading the Catholic revival of 2025–2026. Why are they drawn to the Church? The crisis of masculinity, the saints as models, the Traditional Latin Mass, and the call to heroism." />
+        <meta name="description" content="Young men are leading the Catholic revival of 2025–2026: the crisis of masculinity, the saints as models, the Traditional Latin Mass, and the call to heroism." />
         <meta name="keywords" content="why men return to catholic church, young men catholicism, catholic masculinity, men and faith, catholic revival young men, masculinity and religion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/why-young-men-return-to-catholic-church/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Why Young Men Are Returning to the Catholic Church"
-        description="Young men are leading the Catholic revival of 2025–2026. Why are they drawn to the Church? The crisis of masculinity, the saints as models, the Traditional Latin Mass, and the call to heroism."
+        description="Young men are leading the Catholic revival of 2025–2026: the crisis of masculinity, the saints as models, the Traditional Latin Mass, and the call to heroism."
         url="https://guidecatholic.com/blog/why-young-men-return-to-catholic-church/"
       />
       <BreadcrumbSchema

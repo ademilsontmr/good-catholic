@@ -18,14 +18,14 @@ export default function CatholicMarriageGuide() {
     <>
       <Helmet>
         <title>Catholic Marriage: What the Church Teaches About Holy Matrimony | Guide Catholic</title>
-        <meta name="description" content="Complete guide to Catholic marriage. Learn about marriage as a sacrament, unity and indissolubility, marriage preparation, natural family planning, annulment vs divorce, and mixed marriages." />
+        <meta name="description" content="Catholic marriage: the sacrament, unity and indissolubility, marriage preparation, natural family planning, annulment vs divorce, and mixed marriages." />
         <meta name="keywords" content="catholic marriage, catholic wedding, holy matrimony, marriage in catholic church, catholic marriage preparation" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-marriage-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Marriage: What the Church Teaches About Holy Matrimony"
-          description="Complete guide to Catholic marriage. Learn about marriage as a sacrament, unity and indissolubility, marriage preparation, natural family planning, annulment vs divorce, and mixed marriages."
+          description="Catholic marriage: the sacrament, unity and indissolubility, marriage preparation, natural family planning, annulment vs divorce, and mixed marriages."
           url="https://guidecatholic.com/blog/catholic-marriage-guide/"
         />
       <BreadcrumbSchema

@@ -19,7 +19,7 @@ export const CBO_COMPANION_FEBRUARY_LENT: LiturgicalFeastGuide[] = [
     slug: "presentation-of-the-lord-prayer-catholic-guide",
     title: "Presentation of the Lord Prayer Guide: Candlemas 2027",
     h1: "Candlemas: Presentation of the Lord (February 2)",
-    description: "Candlemas 2027 on February 2: Presentation of the Lord prayers, blessing of candles, Luke 2, Simeon's Canticle, and how Catholics mark the fortieth day after Christmas before Lent.",
+    description: "Candlemas 2027 on February 2: Presentation of the Lord prayers, blessing of candles, Luke 2, Simeon's Canticle, and the fortieth day after Christmas.",
     keywords: "presentation of the lord prayer, candlemas 2027, february 2 candlemas, blessing of candles catholic, simeon nunc dimittis, forty days after christmas",
     readTime: "16 min",
     datePublished: "2026-11-07",

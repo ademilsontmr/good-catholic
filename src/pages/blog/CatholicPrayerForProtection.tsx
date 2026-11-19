@@ -19,14 +19,14 @@ export default function CatholicPrayerForProtection() {
     <>
       <Helmet>
         <title>Catholic Prayers for Protection: Against Evil, Danger & Spiritual Attack | Guide Catholic</title>
-        <meta name="description" content="The most powerful Catholic prayers for protection — against evil, danger, spiritual attack, and the devil. St. Michael prayer, St. Patrick's Breastplate, Psalm 91, and more." />
+        <meta name="description" content="The most powerful Catholic prayers for protection — against evil, danger, spiritual attack, and the devil. St. Michael prayer, St." />
         <meta name="keywords" content="catholic prayer for protection, prayer against evil catholic, st michael prayer protection, st patrick breastplate, psalm 91 catholic, prayer against spiritual attack" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-prayer-for-protection/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Prayers for Protection: Against Evil, Danger & Spiritual Attack"
-        description="The most powerful Catholic prayers for protection — against evil, danger, spiritual attack, and the devil. St. Michael prayer, St. Patrick's Breastplate, Psalm 91, and more."
+        description="The most powerful Catholic prayers for protection — against evil, danger, spiritual attack, and the devil. St. Michael prayer, St."
         url="https://guidecatholic.com/blog/catholic-prayer-for-protection/"
       />
       <BreadcrumbSchema

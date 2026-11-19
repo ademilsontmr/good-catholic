@@ -18,14 +18,14 @@ export default function SaintIgnatiusOfLoyola() {
     <>
       <Helmet>
         <title>Saint Ignatius of Loyola: Founder of the Jesuits & Spiritual Exercises | Guide Catholic</title>
-        <meta name="description" content="Discover Saint Ignatius of Loyola — the soldier-turned-mystic who founded the Jesuits and wrote the Spiritual Exercises, one of the most influential books in Christian history." />
+        <meta name="description" content="Saint Ignatius of Loyola: the soldier-turned-mystic who founded the Jesuits and wrote the Spiritual Exercises, among the most influential Christian books." />
         <meta name="keywords" content="saint ignatius of loyola, spiritual exercises ignatius, jesuits founder, ignatius of loyola conversion, society of jesus, feast day july 31" />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-ignatius-of-loyola/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Saint Ignatius of Loyola: Founder of the Jesuits & Spiritual Exercises"
-        description="Discover Saint Ignatius of Loyola — the soldier-turned-mystic who founded the Jesuits and wrote the Spiritual Exercises, one of the most influential books in Christian history."
+        description="Saint Ignatius of Loyola: the soldier-turned-mystic who founded the Jesuits and wrote the Spiritual Exercises, among the most influential Christian books."
         url="https://guidecatholic.com/blog/saint-ignatius-of-loyola/"
       />
       <BreadcrumbSchema

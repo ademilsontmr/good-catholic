@@ -18,14 +18,14 @@ export default function CatholicTeachingOnDeath() {
     <>
       <Helmet>
         <title>Catholic Teaching on Death: What Happens When We Die? | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about death? The Four Last Things, the Particular Judgment, the resurrection of the body, and how to prepare for a holy death." />
+        <meta name="description" content="What does the Catholic Church teach about death? The Four Last Things, the Particular Judgment, the resurrection of the body, and preparing for a holy death." />
         <meta name="keywords" content="catholic teaching on death, what happens when you die catholic, death and afterlife catholic, particular judgment catholic, four last things catholic, preparing for death catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-death/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Death: What Happens When We Die?"
-        description="What does the Catholic Church teach about death? The Four Last Things, the Particular Judgment, the resurrection of the body, and how to prepare for a holy death."
+        description="What does the Catholic Church teach about death? The Four Last Things, the Particular Judgment, the resurrection of the body, and preparing for a holy death."
         url="https://guidecatholic.com/blog/catholic-teaching-on-death/"
       />
       <BreadcrumbSchema

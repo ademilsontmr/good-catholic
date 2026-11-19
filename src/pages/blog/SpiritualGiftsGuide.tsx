@@ -18,14 +18,14 @@ export default function SpiritualGiftsGuide() {
     <>
       <Helmet>
         <title>Spiritual Gifts: The Complete Catholic Guide to Charisms & How to Discover Yours | Guide Catholic</title>
-        <meta name="description" content="What are spiritual gifts? The complete Catholic guide to charisms — the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them for the Church." />
+        <meta name="description" content="The Catholic guide to spiritual gifts and charisms: the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them." />
         <meta name="keywords" content="spiritual gifts catholic, gifts of the holy spirit, charisms catholic, how to discover spiritual gifts, spiritual gifts test catholic, charismatic gifts, 7 gifts holy spirit, discerning spiritual gifts" />
         <link rel="canonical" href="https://guidecatholic.com/blog/spiritual-gifts-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Spiritual Gifts: The Complete Catholic Guide to Charisms & How to Discover Yours"
-        description="What are spiritual gifts? The complete Catholic guide to charisms — the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them for the Church."
+        description="The Catholic guide to spiritual gifts and charisms: the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them."
         url="https://guidecatholic.com/blog/spiritual-gifts-guide/"
       />
       <BreadcrumbSchema

@@ -18,14 +18,14 @@ export default function CatholicAndOrthodoxDifferences() {
     <>
       <Helmet>
         <title>Catholic vs Orthodox: Key Differences Between the Two Churches | Guide Catholic</title>
-        <meta name="description" content="What are the key differences between the Catholic and Orthodox Churches? Learn about the Great Schism of 1054, the Filioque, papal authority, and the path toward reunion." />
+        <meta name="description" content="Key differences between the Catholic and Orthodox Churches: the Great Schism of 1054, the Filioque, papal authority, and the path toward reunion." />
         <meta name="keywords" content="catholic vs orthodox, differences catholic orthodox, great schism 1054, pope authority orthodox, filioque controversy, catholic orthodox reunion" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-vs-orthodox-differences/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic vs Orthodox: Key Differences Between the Two Churches"
-        description="What are the key differences between the Catholic and Orthodox Churches? Learn about the Great Schism of 1054, the Filioque, papal authority, and the path toward reunion."
+        description="Key differences between the Catholic and Orthodox Churches: the Great Schism of 1054, the Filioque, papal authority, and the path toward reunion."
         url="https://guidecatholic.com/blog/catholic-vs-orthodox-differences/"
       />
       <BreadcrumbSchema

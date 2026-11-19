@@ -18,14 +18,14 @@ export default function OurLadyOfGuadalupeScience() {
     <>
       <Helmet>
         <title>Our Lady of Guadalupe Tilma: Scientific Analysis & NASA Studies | Guide Catholic</title>
-        <meta name="description" content="Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say. Catholic guide to the evidence." />
+        <meta name="description" content="Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say." />
         <meta name="keywords" content="our lady of guadalupe science, tilma of juan diego mystery, guadalupe tilma scientific study, miracle of guadalupe, images in guadalupe eyes, nahui ollin symbolism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/miracle-of-guadalupe-science/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Our Lady of Guadalupe Tilma: Scientific Analysis & NASA Studies"
-        description="Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say. Catholic guide to the evidence."
+        description="Scientific analysis of the Our Lady of Guadalupe tilma — preservation, images in the eyes, NASA-grade imaging, and what researchers say."
         url="https://guidecatholic.com/blog/miracle-of-guadalupe-science/"
       />
       <BreadcrumbSchema

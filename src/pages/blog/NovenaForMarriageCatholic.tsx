@@ -17,12 +17,12 @@ export default function NovenaForMarriageCatholic() {
     <>
       <Helmet>
         <title>Novena for Marriage: 9-Day Catholic Prayer for Your Spouse & Relationship | Guide Catholic</title>
-        <meta name="description" content="Novena for marriage — 9-day Catholic prayer for your spouse, struggling relationship, or healing in marriage. Full prayer text and how to pray as a couple or alone. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." />
+        <meta name="description" content="Novena for marriage: a 9-day Catholic prayer for your spouse, a struggling relationship, or healing, with full prayer text, a step-by-step guide, and FAQs." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/novena-for-marriage-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Novena for Marriage: 9-Day Catholic Prayer for Your Spouse & Relationship" description="Novena for marriage — 9-day Catholic prayer for your spouse, struggling relationship, or healing in marriage. Full prayer text and how to pray as a couple or alone. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-marriage-catholic/" datePublished="2026-05-30" />
+      <ArticleSchema title="Novena for Marriage: 9-Day Catholic Prayer for Your Spouse & Relationship" description="Novena for marriage: a 9-day Catholic prayer for your spouse, a struggling relationship, or healing, with full prayer text, a step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/novena-for-marriage-catholic/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

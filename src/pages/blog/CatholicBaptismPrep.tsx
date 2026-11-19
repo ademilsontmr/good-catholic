@@ -18,14 +18,14 @@ export default function CatholicBaptismPrep() {
     <>
       <Helmet>
         <title>Catholic Baptism Preparation: Complete Guide for Parents & Godparents | Guide Catholic</title>
-        <meta name="description" content="Everything parents and godparents need to know — when to baptize, godparent requirements, the ceremony explained step by step, baptism symbols, and how to raise a Catholic child." />
+        <meta name="description" content="What parents and godparents need to know about Catholic Baptism: when to baptize, godparent requirements, the ceremony step by step, and its symbols." />
         <meta name="keywords" content="catholic baptism preparation, how to prepare for infant baptism, godparent requirements catholic, baptism class catholic, what to expect at catholic baptism, baptism gifts catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-baptism-preparation-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Baptism Preparation: Complete Guide for Parents & Godparents"
-        description="Everything parents and godparents need to know — when to baptize, godparent requirements, the ceremony explained step by step, baptism symbols, and how to raise a Catholic child."
+        description="What parents and godparents need to know about Catholic Baptism: when to baptize, godparent requirements, the ceremony step by step, and its symbols."
         url="https://guidecatholic.com/blog/catholic-baptism-preparation-guide/"
       />
       <BreadcrumbSchema

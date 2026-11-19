@@ -18,14 +18,14 @@ export default function SaintMichaelLent2026() {
     <>
       <Helmet>
         <title>{"Saint Michael Lent 2026 for Beginners | Guide Catholic"}</title>
-        <meta name="description" content={"New to Saint Michael Lent 2026? Beginner Catholic guide with three first steps, plain vocabulary, safety notes, FAQ, and novena link — August 15 to September 29."} />
+        <meta name="description" content={"New to Saint Michael Lent 2026 (August 15 to September 29)? Beginner Catholic guide with first steps, plain vocabulary, safety notes, FAQ, and novena link."} />
         <meta name="keywords" content={"saint michael lent 2026, saint michael lent for beginners, how to start st michael lent"} />
         <link rel="canonical" href="https://guidecatholic.com/blog/saint-michael-lent-2026/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title={"Saint Michael Lent 2026 for Beginners: Start Here"}
-        description={"New to Saint Michael Lent 2026? Beginner Catholic guide with three first steps, plain vocabulary, safety notes, FAQ, and novena link — August 15 to September 29."}
+        description={"New to Saint Michael Lent 2026 (August 15 to September 29)? Beginner Catholic guide with first steps, plain vocabulary, safety notes, FAQ, and novena link."}
         url="https://guidecatholic.com/blog/saint-michael-lent-2026/"
         datePublished="2026-08-14"
       />

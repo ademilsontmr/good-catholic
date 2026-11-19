@@ -18,14 +18,14 @@ export default function HowToPrayIntercessory() {
     <>
       <Helmet>
         <title>How to Pray Intercessory Prayer: A Complete Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="Learn how to pray intercessory prayer as a Catholic. Discover what intercession is, how to pray for others effectively, and why the Church calls us to be intercessors." />
+        <meta name="description" content="Learn how to pray intercessory prayer as a Catholic: what intercession is, how to pray for others well, and why the Church calls us to be intercessors." />
         <meta name="keywords" content="intercessory prayer catholic, how to pray for others, intercession prayer guide, catholic intercessory prayer, praying for others catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-intercessory-prayer/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="How to Pray Intercessory Prayer: A Complete Catholic Guide"
-        description="Learn how to pray intercessory prayer as a Catholic. Discover what intercession is, how to pray for others effectively, and why the Church calls us to be intercessors."
+        description="Learn how to pray intercessory prayer as a Catholic: what intercession is, how to pray for others well, and why the Church calls us to be intercessors."
         url="https://guidecatholic.com/blog/how-to-pray-intercessory-prayer/"
       />
       <BreadcrumbSchema

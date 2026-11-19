@@ -17,12 +17,12 @@ export default function UndoerOfKnotsNovenaGuide() {
     <>
       <Helmet>
         <title>Undoer of Knots Novena: 9-Day Prayer to Mary (Full Text & How to Pray) | Guide Catholic</title>
-        <meta name="description" content="Mary Undoer of Knots novena — 9-day Catholic prayer with full text. How to pray when life feels tangled: marriage, family, work, and impossible situations. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." />
+        <meta name="description" content="Mary Undoer of Knots novena — 9-day Catholic prayer with full text. How to pray when life feels tangled: marriage, family, work, and impossible situations." />
         <meta name="keywords" content="" />
         <link rel="canonical" href="https://guidecatholic.com/blog/undoer-of-knots-novena-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
-      <ArticleSchema title="Undoer of Knots Novena: 9-Day Prayer to Mary (Full Text & How to Pray)" description="Mary Undoer of Knots novena — 9-day Catholic prayer with full text. How to pray when life feels tangled: marriage, family, work, and impossible situations. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs." url="https://guidecatholic.com/blog/undoer-of-knots-novena-guide/" datePublished="2026-05-30" />
+      <ArticleSchema title="Undoer of Knots Novena: 9-Day Prayer to Mary (Full Text & How to Pray)" description="Mary Undoer of Knots novena — 9-day Catholic prayer with full text. How to pray when life feels tangled: marriage, family, work, and impossible situations." url="https://guidecatholic.com/blog/undoer-of-knots-novena-guide/" datePublished="2026-05-30" />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },

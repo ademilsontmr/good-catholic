@@ -18,14 +18,14 @@ export default function OurLadyOfFatimaGuide() {
     <>
       <Helmet>
         <title>Our Lady of Fatima: Complete Guide to the 1917 Apparitions & Secrets | Guide Catholic</title>
-        <meta name="description" content="Discover the complete story of Fatima apparitions, the three secrets, the miracle of the sun, and why these messages matter for Catholics today. Learn about Lucia, Francisco, and Jacinta." />
+        <meta name="description" content="Discover the complete story of Fatima apparitions, the three secrets, the miracle of the sun, and why these messages matter for Catholics today." />
         <meta name="keywords" content="our lady of fatima, fatima apparitions 1917, three secrets of fatima, miracle of the sun, lucia francisco jacinta, fatima prayers, our lady of fatima feast day, fatima prophecies" />
         <link rel="canonical" href="https://guidecatholic.com/blog/our-lady-of-fatima-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Our Lady of Fatima: Complete Guide to the 1917 Apparitions & Secrets"
-          description="Discover the complete story of Fatima apparitions, the three secrets, the miracle of the sun, and why these messages matter for Catholics today. Learn about Lucia, Francisco, and Jacinta."
+          description="Discover the complete story of Fatima apparitions, the three secrets, the miracle of the sun, and why these messages matter for Catholics today."
           url="https://guidecatholic.com/blog/our-lady-of-fatima-guide/"
         />
       <BreadcrumbSchema

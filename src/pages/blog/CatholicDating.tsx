@@ -18,14 +18,14 @@ export default function CatholicDating() {
     <>
       <Helmet>
         <title>Catholic Dating and Courtship: A Guide to Holy Relationships | Guide Catholic</title>
-        <meta name="description" content="A complete guide to Catholic dating and courtship — the purpose of dating, chastity in relationships, how to find a Catholic spouse, red flags, and preparing for marriage." />
+        <meta name="description" content="A guide to Catholic dating and courtship: the purpose of dating, chastity in relationships, finding a Catholic spouse, red flags, and preparing for marriage." />
         <meta name="keywords" content="catholic dating, catholic courtship, dating as a catholic, chastity in dating, catholic relationship advice, finding a catholic spouse" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-dating-and-courtship/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
           title="Catholic Dating and Courtship: A Guide to Holy Relationships"
-          description="A complete guide to Catholic dating and courtship — the purpose of dating, chastity in relationships, how to find a Catholic spouse, red flags, and preparing for marriage."
+          description="A guide to Catholic dating and courtship: the purpose of dating, chastity in relationships, finding a Catholic spouse, red flags, and preparing for marriage."
           url="https://guidecatholic.com/blog/catholic-dating-and-courtship/"
         />
       <BreadcrumbSchema

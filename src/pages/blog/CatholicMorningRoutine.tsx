@@ -18,14 +18,14 @@ export default function CatholicMorningRoutine() {
     <>
       <Helmet>
         <title>Catholic Morning Routine: How to Start Your Day with God | Guide Catholic</title>
-        <meta name="description" content="Build a powerful Catholic morning routine. Discover the prayers, habits, and practices that saints used to start their day with God and transform their entire day." />
+        <meta name="description" content="Build a Catholic morning routine with the prayers, habits, and practices that saints used to start their day with God and transform the whole day." />
         <meta name="keywords" content="catholic morning routine, morning prayers catholic, how to start day with god, catholic morning prayer, morning offering catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-morning-routine/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Morning Routine: How to Start Your Day with God"
-        description="Build a powerful Catholic morning routine. Discover the prayers, habits, and practices that saints used to start their day with God and transform their entire day."
+        description="Build a Catholic morning routine with the prayers, habits, and practices that saints used to start their day with God and transform the whole day."
         url="https://guidecatholic.com/blog/catholic-morning-routine/"
       />
       <BreadcrumbSchema

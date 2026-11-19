@@ -18,14 +18,14 @@ export default function CompleteSaintsGuide() {
     <>
       <Helmet>
         <title>The Complete Guide to Catholic Saints: How to Find Your Patron & Pray for Intercession | Guide Catholic</title>
-        <meta name="description" content="Everything about the Catholic saints — how to find your patron saint, the canonization process, the most popular patron saints by category, and how to develop a devotion." />
+        <meta name="description" content="The Catholic saints: how to find your patron saint, the canonization process, popular patron saints by category, and how to develop a devotion." />
         <meta name="keywords" content="complete guide catholic saints, how to pray to saints, patron saints guide, how to find patron saint, saints intercession catholic, canonization process catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-catholic-saints/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Guide to Catholic Saints: How to Find Your Patron & Pray for Intercession"
-        description="Everything about the Catholic saints — how to find your patron saint, the canonization process, the most popular patron saints by category, and how to develop a devotion."
+        description="The Catholic saints: how to find your patron saint, the canonization process, popular patron saints by category, and how to develop a devotion."
         url="https://guidecatholic.com/blog/complete-guide-to-catholic-saints/"
       />
       <BreadcrumbSchema

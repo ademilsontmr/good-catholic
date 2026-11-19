@@ -18,14 +18,14 @@ export default function CatholicTeachingOnEuthanasia() {
     <>
       <Helmet>
         <title>Catholic Teaching on Euthanasia & Assisted Suicide | Guide Catholic</title>
-        <meta name="description" content="What does the Catholic Church teach about euthanasia and assisted suicide? A complete guide from the Catechism (CCC 2276-2279), Evangelium Vitae, and the theology of suffering." />
+        <meta name="description" content="Catholic teaching on euthanasia and assisted suicide from the Catechism (CCC 2276-2279), Evangelium Vitae, and the theology of suffering." />
         <meta name="keywords" content="catholic teaching on euthanasia, catholic church assisted suicide, euthanasia catechism, evangelium vitae, right to die catholic, end of life catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-teaching-on-euthanasia/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Catholic Teaching on Euthanasia & Assisted Suicide"
-        description="What does the Catholic Church teach about euthanasia and assisted suicide? A complete guide from the Catechism (CCC 2276-2279), Evangelium Vitae, and the theology of suffering."
+        description="Catholic teaching on euthanasia and assisted suicide from the Catechism (CCC 2276-2279), Evangelium Vitae, and the theology of suffering."
         url="https://guidecatholic.com/blog/catholic-teaching-on-euthanasia/"
       />
       <BreadcrumbSchema

@@ -17,7 +17,7 @@ export default function HowToTakeYoungChildrenToMass() {
     <>
       <Helmet>
         <title>How to Take Young Children to Mass | Guide Catholic</title>
-        <meta name="description" content="Taking toddlers to Mass as Catholics — cry room vs staying in the nave, training reverence by age, and why worship is not entertainment. Practical parish tips for parents." />
+        <meta name="description" content="Taking toddlers to Mass as Catholics — cry room vs staying in the nave, training reverence by age, and why worship is not entertainment." />
         <meta name="keywords" content="taking toddlers to mass catholic, young children at mass, catholic kids sunday mass, cry room mass" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-take-young-children-to-mass/" />
         <meta name="robots" content="index, follow" />

@@ -18,14 +18,14 @@ export default function ActOfFaithHopeCharity() {
     <>
       <Helmet>
         <title>Act of Faith, Hope and Charity: Full Catholic Prayers and Meaning | Guide Catholic</title>
-        <meta name="description" content="The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts in English, what each act means, and when to pray them for Confirmation, RCIA, and daily life." />
+        <meta name="description" content="The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts, what each act means, and when to pray them for Confirmation and RCIA." />
         <meta name="keywords" content="act of faith catholic, act of hope prayer, act of charity prayer, catholic acts of faith hope charity, confirmation prayers" />
         <link rel="canonical" href="https://guidecatholic.com/blog/act-of-faith-hope-charity/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Act of Faith, Hope and Charity: Full Catholic Prayers and Meaning"
-        description="The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts in English, what each act means, and when to pray them for Confirmation, RCIA, and daily life."
+        description="The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts, what each act means, and when to pray them for Confirmation and RCIA."
         url="https://guidecatholic.com/blog/act-of-faith-hope-charity/"
       />
       <BreadcrumbSchema

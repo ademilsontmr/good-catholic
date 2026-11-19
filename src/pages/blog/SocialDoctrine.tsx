@@ -18,13 +18,13 @@ export default function SocialDoctrine() {
         <>
             <Helmet>
                 <title>The Social Doctrine of the Church: The Catholic View on Society | Guide Catholic</title>
-                <meta name="description" content="Learn the fundamental principles of the Church's Social Doctrine. Understand how Catholic faith proposes solutions to social, political, and economic challenges." />
+                <meta name="description" content="The fundamental principles of the Church's Social Doctrine, and how the Catholic faith proposes solutions to social, political, and economic challenges." />
                 <meta name="keywords" content="what is church social doctrine, social doctrine principles, common good, solidarity, subsidiarity, human dignity, church and politics" />
                 <link rel="canonical" href="https://guidecatholic.com/blog/social-doctrine/" />
             </Helmet>
         <ArticleSchema
           title="The Social Doctrine of the Church: The Catholic View on Society"
-          description="Learn the fundamental principles of the Church's Social Doctrine. Understand how Catholic faith proposes solutions to social, political, and economic challenges."
+          description="The fundamental principles of the Church's Social Doctrine, and how the Catholic faith proposes solutions to social, political, and economic challenges."
           url="https://guidecatholic.com/blog/social-doctrine/"
         />
       <BreadcrumbSchema

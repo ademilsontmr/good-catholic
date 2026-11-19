@@ -18,14 +18,14 @@ export default function CompleteDiscernmentGuide() {
     <>
       <Helmet>
         <title>The Complete Guide to Discernment: How to Know God's Will for Your Life | Guide Catholic</title>
-        <meta name="description" content="The complete Catholic guide to discernment — the Ignatian method, consolation vs. desolation, a 6-step process for major decisions, signs of God's will, and how to discern your vocation." />
+        <meta name="description" content="Catholic guide to discernment: the Ignatian method, consolation vs. desolation, a 6-step process for major decisions, signs of God's will, and your vocation." />
         <meta name="keywords" content="complete guide discernment, how to know god's will, catholic discernment guide, ignatian discernment, how to discern vocation, signs of god's will catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-discernment/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="The Complete Guide to Discernment: How to Know God's Will for Your Life"
-        description="The complete Catholic guide to discernment — the Ignatian method, consolation vs. desolation, a 6-step process for major decisions, signs of God's will, and how to discern your vocation."
+        description="Catholic guide to discernment: the Ignatian method, consolation vs. desolation, a 6-step process for major decisions, signs of God's will, and your vocation."
         url="https://guidecatholic.com/blog/complete-guide-to-discernment/"
       />
       <BreadcrumbSchema

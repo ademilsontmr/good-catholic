@@ -12,7 +12,7 @@ export const SAINT_HEDWIG_GUIDES: LiturgicalFeastGuide[] = [
     slug: "saint-hedwig",
     title: "Saint Hedwig of Silesia: Life, Feast Day & Mother of the Poor",
     h1: "Saint Hedwig of Silesia: Duchess, Widow, and Friend of the Poor",
-    description: "Saint Hedwig of Silesia (October 16): her life, Trebnitz Abbey, charity to the poor, feast day, and how Catholics ask her intercession without treating prayer as a bargain.",
+    description: "Saint Hedwig of Silesia (October 16): her life, Trebnitz Abbey, charity to the poor, and how to ask her intercession without treating prayer as a bargain.",
     keywords: "saint hedwig, st hedwig, saint hedwig of silesia, santa edwiges, hedwig feast day, october 16 saint, mother of the poor, hedwig of andechs",
     readTime: "14 min",
     datePublished: "2026-11-05",

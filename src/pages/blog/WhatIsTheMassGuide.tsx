@@ -18,7 +18,7 @@ export default function WhatIsTheMassGuide() {
     <>
       <Helmet>
         <title>What Is the Catholic Mass? A Complete Guide for Beginners | Guide Catholic</title>
-        <meta name="description" content="What is the Catholic Mass? Learn the two main parts of the Mass, what happens at each stage, what to do as a visitor, why Catholics go every Sunday, and the Real Presence of Christ." />
+        <meta name="description" content="What is the Catholic Mass? Its two main parts, what happens at each stage, what to do as a visitor, why Catholics go every Sunday, and the Real Presence." />
         <meta name="keywords" content="what is the catholic mass, catholic mass explained, parts of the mass, mass for beginners, understanding the mass" />
         <link rel="canonical" href="https://guidecatholic.com/blog/what-is-the-catholic-mass/" />
         <meta name="robots" content="index, follow" />

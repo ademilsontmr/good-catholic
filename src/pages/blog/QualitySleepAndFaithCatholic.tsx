@@ -63,7 +63,7 @@ export default function QualitySleepAndFaithCatholic() {
         <title>How Quality Sleep Strengthens Your Catholic Faith | Guide Catholic</title>
         <meta
           name="description"
-          content="Quality sleep helps Catholics pray better, resist sin, and serve others with patience. Learn how rest supports faith — plus a free sleep cycle calculator for your ideal bedtime."
+          content="Quality sleep helps Catholics pray better, resist sin, and serve with patience. How rest supports faith, plus a free sleep cycle calculator for your bedtime."
         />
         <meta
           name="keywords"
@@ -74,7 +74,7 @@ export default function QualitySleepAndFaithCatholic() {
       </Helmet>
       <ArticleSchema
         title="How Quality Sleep Strengthens Your Catholic Faith"
-        description="Quality sleep helps Catholics pray better, resist sin, and serve others with patience. Learn how rest supports faith — plus a free sleep cycle calculator for your ideal bedtime."
+        description="Quality sleep helps Catholics pray better, resist sin, and serve with patience. How rest supports faith, plus a free sleep cycle calculator for your bedtime."
         url="https://guidecatholic.com/blog/quality-sleep-and-faith-catholic/"
         datePublished="2026-08-06"
       />

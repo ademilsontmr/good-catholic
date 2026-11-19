@@ -17,7 +17,7 @@ const SLUG = "psalm-91-catholic-protection-prayer-guide";
 const PAGE_URL = `https://guidecatholic.com/blog/${SLUG}/`;
 const TITLE = "Psalm 91: Catholic Meaning, Protection Prayer & How to Pray It";
 const DESCRIPTION =
-  "A deep Catholic guide to Psalm 91 — dwelling in the Most High, angels, the noonday devil, Jesus in the desert, Compline, and how to pray it without superstition.";
+  "A deep Catholic guide to Psalm 91: the Most High, angels, the noonday devil, Jesus in the desert, Compline, and how to pray it without superstition.";
 
 export default function Psalm91CatholicGuide() {
   return (

@@ -18,14 +18,14 @@ export default function CatholicTeachingOnPride() {
     <>
       <Helmet>
         <title>Pride: Root of All Sin — Catholic Encyclopedia Guide | Guide Catholic</title>
-        <meta name="description" content="Is pride the root of all sin? Catholic encyclopedia guide — capital sin, Lucifer's fall, Catechism teaching, how pride manifests today, and how to grow in humility." />
+        <meta name="description" content="Is pride the root of all sin? Catholic guide to the capital sin, Lucifer's fall, Catechism teaching, how pride shows up today, and how to grow in humility." />
         <meta name="keywords" content="catholic encyclopedia pride root of all sin, pride sin catholic, pride root of all sin, capital sin pride, overcoming pride catholic, humility vs pride catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/pride-root-of-sin-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Pride: Root of All Sin — Catholic Encyclopedia Guide"
-        description="Is pride the root of all sin? Catholic encyclopedia guide — capital sin, Lucifer's fall, Catechism teaching, how pride manifests today, and how to grow in humility."
+        description="Is pride the root of all sin? Catholic guide to the capital sin, Lucifer's fall, Catechism teaching, how pride shows up today, and how to grow in humility."
         url="https://guidecatholic.com/blog/pride-root-of-sin-catholic/"
       />
       <BreadcrumbSchema

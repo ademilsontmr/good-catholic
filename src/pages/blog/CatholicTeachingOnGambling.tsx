@@ -18,14 +18,14 @@ export default function CatholicTeachingOnGambling() {
     <>
       <Helmet>
         <title>Is Gambling a Sin? The Catholic Teaching on Gambling | Guide Catholic</title>
-        <meta name="description" content="Is gambling a sin? Learn what the Catholic Church teaches about gambling — the distinction between moderate play and sinful excess, and the path to freedom for those who struggle." />
+        <meta name="description" content="Is gambling a sin? What the Catholic Church teaches about moderate play versus sinful excess, and the path to freedom for those who struggle." />
         <meta name="keywords" content="is gambling a sin catholic, catholic teaching on gambling, gambling mortal sin, casino catholic, lottery catholic sin, problem gambling catholic" />
         <link rel="canonical" href="https://guidecatholic.com/blog/is-gambling-a-sin-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Is Gambling a Sin? The Catholic Teaching on Gambling"
-        description="Is gambling a sin? Learn what the Catholic Church teaches about gambling — the distinction between moderate play and sinful excess, and the path to freedom for those who struggle."
+        description="Is gambling a sin? What the Catholic Church teaches about moderate play versus sinful excess, and the path to freedom for those who struggle."
         url="https://guidecatholic.com/blog/is-gambling-a-sin-catholic/"
       />
       <BreadcrumbSchema

@@ -19,7 +19,7 @@ export default function SaintWhoAdvisedEmperors() {
         <title>Saint Who Advised Emperors: St. Ambrose, St. John of Egypt & More | Guide Catholic</title>
         <meta
           name="description"
-          content="Which saint advised emperors? St. Ambrose corrected Emperor Theodosius; St. John of Egypt counseled Byzantine rulers. Catholic guide to saints who spoke truth to power."
+          content="Which saint advised emperors? St. Ambrose corrected Emperor Theodosius; St. John of Egypt counseled Byzantine rulers."
         />
         <meta
           name="keywords"
@@ -30,7 +30,7 @@ export default function SaintWhoAdvisedEmperors() {
       </Helmet>
       <ArticleSchema
         title="Saint Who Advised Emperors: St. Ambrose, St. John of Egypt & More"
-        description="Which saint advised emperors? St. Ambrose corrected Emperor Theodosius; St. John of Egypt counseled Byzantine rulers. Catholic guide to saints who spoke truth to power."
+        description="Which saint advised emperors? St. Ambrose corrected Emperor Theodosius; St. John of Egypt counseled Byzantine rulers."
         url="https://guidecatholic.com/blog/saint-who-advised-emperors/"
         datePublished="2026-08-06"
       />

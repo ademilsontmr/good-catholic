@@ -18,14 +18,14 @@ export default function CatholicTeachingOnHell() {
     <>
       <Helmet>
         <title>Does Hell Exist? The Catholic Teaching on Hell Explained | Guide Catholic</title>
-        <meta name="description" content="Does hell exist? Learn what the Catholic Church teaches about hell — its nature, who goes there, and how God's mercy and human freedom relate to eternal punishment." />
+        <meta name="description" content="Does hell exist? What the Catholic Church teaches about hell, its nature, who goes there, and how God's mercy and human freedom relate to eternal punishment." />
         <meta name="keywords" content="does hell exist catholic, catholic teaching on hell, what is hell catholic, hell eternal punishment, catechism hell, jesus teaching on hell" />
         <link rel="canonical" href="https://guidecatholic.com/blog/does-hell-exist-catholic/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
         title="Does Hell Exist? The Catholic Teaching on Hell Explained"
-        description="Does hell exist? Learn what the Catholic Church teaches about hell — its nature, who goes there, and how God's mercy and human freedom relate to eternal punishment."
+        description="Does hell exist? What the Catholic Church teaches about hell, its nature, who goes there, and how God's mercy and human freedom relate to eternal punishment."
         url="https://guidecatholic.com/blog/does-hell-exist-catholic/"
       />
       <BreadcrumbSchema
