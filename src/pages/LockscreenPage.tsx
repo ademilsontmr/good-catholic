@@ -1,435 +1,349 @@
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState, useRef, useEffect, useCallback, useMemo } from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
-import { Download, Smartphone, RefreshCw, ChevronLeft, ChevronRight, Cross, Sparkles, Heart, BookOpen, HelpCircle, ChevronDown } from "lucide-react";
+import { Download, Smartphone, RefreshCw, Shuffle, Share2, Pencil, Palette, RotateCcw, Cross, Heart, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { toast } from "sonner";
+import {
+  ALL_TEXTS,
+  DEVICES,
+  DEVICE_GROUPS,
+  PRAYERS,
+  SEASONAL,
+  THEMES,
+  VERSES,
+  VERSE_GROUPS,
+  type LockscreenText,
+} from "@/data/lockscreenTexts";
+import { drawLockscreen, CAPS_FONT, VERSE_FONT, type LockscreenDesign, type LockscreenOptions } from "@/lib/lockscreenCanvas";
 
-// ─── Data ────────────────────────────────────────────────────────────────────
+const PAGE_URL = "https://guidecatholic.com/lockscreen/";
+const TITLE = "Catholic Lockscreen Wallpaper Maker (Free) | Guide Catholic";
+const DESCRIPTION =
+  "Make a free Catholic lock screen wallpaper: pick a Bible verse, prayer or Advent and Christmas text, edit the words, choose a color and download for iPhone or Android.";
+const MAX_TEXT = 220;
+const FONTS_URL =
+  "https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap";
 
-const verses = [
-  { text: "I can do all things through Christ who strengthens me.", ref: "Philippians 4:13", theme: "Strength" },
-  { text: "The Lord is my shepherd; I shall not want.", ref: "Psalm 23:1", theme: "Trust" },
-  { text: "Be still and know that I am God.", ref: "Psalm 46:10", theme: "Peace" },
-  { text: "For God so loved the world that he gave his only Son.", ref: "John 3:16", theme: "Love" },
-  { text: "Trust in the Lord with all your heart.", ref: "Proverbs 3:5", theme: "Faith" },
-  { text: "Come to me, all you who are weary, and I will give you rest.", ref: "Matthew 11:28", theme: "Rest" },
-  { text: "For I know the plans I have for you, declares the Lord.", ref: "Jeremiah 29:11", theme: "Hope" },
-  { text: "My grace is sufficient for you, for my power is made perfect in weakness.", ref: "2 Corinthians 12:9", theme: "Grace" },
-  { text: "The Lord is my light and my salvation — whom shall I fear?", ref: "Psalm 27:1", theme: "Courage" },
-  { text: "Nothing will be able to separate us from the love of God.", ref: "Romans 8:39", theme: "Love" },
-  { text: "I am the way, the truth, and the life.", ref: "John 14:6", theme: "Faith" },
-  { text: "Pray without ceasing.", ref: "1 Thessalonians 5:17", theme: "Prayer" },
-  { text: "The peace of God, which transcends all understanding, will guard your hearts.", ref: "Philippians 4:7", theme: "Peace" },
-  { text: "You are the light of the world.", ref: "Matthew 5:14", theme: "Mission" },
-  { text: "Behold, I am the handmaid of the Lord; let it be to me according to your word.", ref: "Luke 1:38", theme: "Surrender" },
-  { text: "Do not be afraid, for I am with you.", ref: "Isaiah 41:10", theme: "Courage" },
-  { text: "Whoever believes in me will never thirst.", ref: "John 6:35", theme: "Eucharist" },
-  { text: "Create in me a clean heart, O God.", ref: "Psalm 51:10", theme: "Conversion" },
-  { text: "Rejoice in the Lord always. I will say it again: Rejoice!", ref: "Philippians 4:4", theme: "Joy" },
-  { text: "I am the resurrection and the life.", ref: "John 11:25", theme: "Hope" },
-  // 30 new verses
-  { text: "The Lord bless you and keep you; the Lord make his face shine on you and be gracious to you.", ref: "Numbers 6:24-25", theme: "Blessing" },
-  { text: "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged.", ref: "Joshua 1:9", theme: "Courage" },
-  { text: "Taste and see that the Lord is good; blessed is the one who takes refuge in him.", ref: "Psalm 34:8", theme: "Trust" },
-  { text: "Delight yourself in the Lord, and he will give you the desires of your heart.", ref: "Psalm 37:4", theme: "Joy" },
-  { text: "God is our refuge and strength, an ever-present help in trouble.", ref: "Psalm 46:1", theme: "Refuge" },
-  { text: "As the deer pants for streams of water, so my soul pants for you, my God.", ref: "Psalm 42:1", theme: "Longing" },
-  { text: "The Lord is close to the brokenhearted and saves those who are crushed in spirit.", ref: "Psalm 34:18", theme: "Comfort" },
-  { text: "Your word is a lamp to my feet and a light to my path.", ref: "Psalm 119:105", theme: "Guidance" },
-  { text: "I lift up my eyes to the mountains — where does my help come from? My help comes from the Lord.", ref: "Psalm 121:1-2", theme: "Help" },
-  { text: "Even though I walk through the darkest valley, I will fear no evil, for you are with me.", ref: "Psalm 23:4", theme: "Protection" },
-  { text: "Seek first the kingdom of God and his righteousness, and all these things will be added to you.", ref: "Matthew 6:33", theme: "Priority" },
-  { text: "Blessed are the pure in heart, for they shall see God.", ref: "Matthew 5:8", theme: "Purity" },
-  { text: "Blessed are the peacemakers, for they will be called children of God.", ref: "Matthew 5:9", theme: "Peace" },
-  { text: "With God all things are possible.", ref: "Matthew 19:26", theme: "Faith" },
-  { text: "I am the vine; you are the branches. Whoever abides in me bears much fruit.", ref: "John 15:5", theme: "Union" },
-  { text: "Greater love has no one than this: to lay down one's life for one's friends.", ref: "John 15:13", theme: "Love" },
-  { text: "Do not let your hearts be troubled. You believe in God; believe also in me.", ref: "John 14:1", theme: "Peace" },
-  { text: "The fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness.", ref: "Galatians 5:22", theme: "Holiness" },
-  { text: "I have been crucified with Christ and I no longer live, but Christ lives in me.", ref: "Galatians 2:20", theme: "Union" },
-  { text: "Do not be overcome by evil, but overcome evil with good.", ref: "Romans 12:21", theme: "Virtue" },
-  { text: "For I am convinced that neither death nor life can separate us from the love of God.", ref: "Romans 8:38-39", theme: "Love" },
-  { text: "We know that in all things God works for the good of those who love him.", ref: "Romans 8:28", theme: "Hope" },
-  { text: "Let all that you do be done in love.", ref: "1 Corinthians 16:14", theme: "Love" },
-  { text: "Love is patient, love is kind. It does not envy, it does not boast, it is not proud.", ref: "1 Corinthians 13:4", theme: "Love" },
-  { text: "Cast all your anxiety on him because he cares for you.", ref: "1 Peter 5:7", theme: "Trust" },
-  { text: "Be still before the Lord and wait patiently for him.", ref: "Psalm 37:7", theme: "Patience" },
-  { text: "The Lord is my strength and my song; he has given me victory.", ref: "Exodus 15:2", theme: "Victory" },
-  { text: "He heals the brokenhearted and binds up their wounds.", ref: "Psalm 147:3", theme: "Healing" },
-  { text: "Come to me with your ears wide open. Listen, and you will find life.", ref: "Isaiah 55:3", theme: "Surrender" },
-  { text: "Those who hope in the Lord will renew their strength. They will soar on wings like eagles.", ref: "Isaiah 40:31", theme: "Strength" },
-  // 50 new verses
-  { text: "The Lord your God is with you, the Mighty Warrior who saves. He will rejoice over you with singing.", ref: "Zephaniah 3:17", theme: "Joy" },
-  { text: "You will seek me and find me when you seek me with all your heart.", ref: "Jeremiah 29:13", theme: "Longing" },
-  { text: "Return to me with all your heart, with fasting and weeping and mourning.", ref: "Joel 2:12", theme: "Conversion" },
-  { text: "The steadfast love of the Lord never ceases; his mercies never come to an end.", ref: "Lamentations 3:22-23", theme: "Mercy" },
-  { text: "He has told you, O man, what is good; and what does the Lord require of you but to do justice, and to love kindness, and to walk humbly with your God.", ref: "Micah 6:8", theme: "Virtue" },
-  { text: "Not by might, nor by power, but by my Spirit, says the Lord of hosts.", ref: "Zechariah 4:6", theme: "Grace" },
-  { text: "The Lord is good to those who wait for him, to the soul who seeks him.", ref: "Lamentations 3:25", theme: "Patience" },
-  { text: "Blessed is the man who trusts in the Lord, whose trust is the Lord.", ref: "Jeremiah 17:7", theme: "Trust" },
-  { text: "I will give you a new heart and put a new spirit in you.", ref: "Ezekiel 36:26", theme: "Conversion" },
-  { text: "The Lord is my portion, therefore I will hope in him.", ref: "Lamentations 3:24", theme: "Hope" },
-  { text: "Whoever humbles himself like a child is the greatest in the kingdom of heaven.", ref: "Matthew 18:4", theme: "Humility" },
-  { text: "Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you.", ref: "Matthew 7:7", theme: "Prayer" },
-  { text: "You shall love the Lord your God with all your heart and with all your soul and with all your mind.", ref: "Matthew 22:37", theme: "Love" },
-  { text: "Blessed are those who mourn, for they shall be comforted.", ref: "Matthew 5:4", theme: "Comfort" },
-  { text: "Blessed are the merciful, for they shall receive mercy.", ref: "Matthew 5:7", theme: "Mercy" },
-  { text: "I am with you always, to the end of the age.", ref: "Matthew 28:20", theme: "Presence" },
-  { text: "The Son of Man came not to be served but to serve, and to give his life as a ransom for many.", ref: "Matthew 20:28", theme: "Service" },
-  { text: "What does it profit a man to gain the whole world and forfeit his soul?", ref: "Mark 8:36", theme: "Priority" },
-  { text: "All things are possible for one who believes.", ref: "Mark 9:23", theme: "Faith" },
-  { text: "My soul magnifies the Lord, and my spirit rejoices in God my Savior.", ref: "Luke 1:46-47", theme: "Joy" },
-  { text: "For nothing will be impossible with God.", ref: "Luke 1:37", theme: "Faith" },
-  { text: "Father, into your hands I commit my spirit.", ref: "Luke 23:46", theme: "Surrender" },
-  { text: "The Word became flesh and dwelt among us, full of grace and truth.", ref: "John 1:14", theme: "Incarnation" },
-  { text: "God is spirit, and those who worship him must worship in spirit and truth.", ref: "John 4:24", theme: "Worship" },
-  { text: "I am the good shepherd. The good shepherd lays down his life for the sheep.", ref: "John 10:11", theme: "Love" },
-  { text: "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you.", ref: "John 14:27", theme: "Peace" },
-  { text: "If you abide in me, and my words abide in you, ask whatever you wish, and it will be done for you.", ref: "John 15:7", theme: "Prayer" },
-  { text: "This is my commandment, that you love one another as I have loved you.", ref: "John 15:12", theme: "Love" },
-  { text: "I have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world.", ref: "John 16:33", theme: "Victory" },
-  { text: "Sanctify them in the truth; your word is truth.", ref: "John 17:17", theme: "Holiness" },
-  { text: "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God.", ref: "Ephesians 2:8", theme: "Grace" },
-  { text: "Put on the whole armor of God, that you may be able to stand against the schemes of the devil.", ref: "Ephesians 6:11", theme: "Protection" },
-  { text: "I can do all things through him who strengthens me.", ref: "Philippians 4:13", theme: "Strength" },
-  { text: "Whatever is true, whatever is honorable, whatever is just — think about these things.", ref: "Philippians 4:8", theme: "Virtue" },
-  { text: "Let the peace of Christ rule in your hearts.", ref: "Colossians 3:15", theme: "Peace" },
-  { text: "Whatever you do, in word or deed, do everything in the name of the Lord Jesus.", ref: "Colossians 3:17", theme: "Mission" },
-  { text: "For God gave us a spirit not of fear but of power and love and self-control.", ref: "2 Timothy 1:7", theme: "Courage" },
-  { text: "All Scripture is breathed out by God and profitable for teaching, for reproof, for correction.", ref: "2 Timothy 3:16", theme: "Guidance" },
-  { text: "Now faith is the assurance of things hoped for, the conviction of things not seen.", ref: "Hebrews 11:1", theme: "Faith" },
-  { text: "Let us run with endurance the race that is set before us, looking to Jesus, the founder and perfecter of our faith.", ref: "Hebrews 12:1-2", theme: "Perseverance" },
-  { text: "Jesus Christ is the same yesterday and today and forever.", ref: "Hebrews 13:8", theme: "Faith" },
-  { text: "Draw near to God, and he will draw near to you.", ref: "James 4:8", theme: "Prayer" },
-  { text: "God opposes the proud but gives grace to the humble.", ref: "James 4:6", theme: "Humility" },
-  { text: "Beloved, let us love one another, for love is from God.", ref: "1 John 4:7", theme: "Love" },
-  { text: "There is no fear in love, but perfect love casts out fear.", ref: "1 John 4:18", theme: "Love" },
-  { text: "If we confess our sins, he is faithful and just to forgive us our sins.", ref: "1 John 1:9", theme: "Mercy" },
-  { text: "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in.", ref: "Revelation 3:20", theme: "Presence" },
-  { text: "He will wipe away every tear from their eyes, and death shall be no more.", ref: "Revelation 21:4", theme: "Hope" },
-  { text: "The Lord is my rock and my fortress and my deliverer, my God, my rock, in whom I take refuge.", ref: "Psalm 18:2", theme: "Refuge" },
-  { text: "This is the day that the Lord has made; let us rejoice and be glad in it.", ref: "Psalm 118:24", theme: "Joy" },
+const DESIGNS: { id: LockscreenDesign; label: string; note: string }[] = [
+  { id: "cathedral", label: "Cathedral", note: "Gothic arch and rays of light" },
+  { id: "gilded", label: "Gilded Frame", note: "Double gold frame with corner ornaments" },
+  { id: "halo", label: "Halo", note: "Golden halo and radiant light" },
+  { id: "minimal", label: "Minimal", note: "Clean and quiet, cross and text only" },
+];
+const linkClass = "text-accent underline underline-offset-2 hover:text-accent/80";
+
+/** Pre-made samples in public/lockscreens/ (generated by scripts/generate-lockscreen-samples.mjs). */
+const GALLERY: { file: string; theme: string; design: LockscreenDesign; alt: string; text: LockscreenText }[] = [
+  { file: "advent-lockscreen-isaiah-7-14", theme: "Royal Purple", design: "cathedral", alt: "Purple cathedral-arch Advent lockscreen wallpaper with Isaiah 7:14, Emmanuel", text: SEASONAL[0] },
+  { file: "christmas-lockscreen-luke-2-14", theme: "Onyx & Gold", design: "gilded", alt: "Black and gold Christmas lockscreen wallpaper with Luke 2:14, Glory to God in the highest", text: SEASONAL[7] },
+  { file: "hail-mary-lockscreen", theme: "Deep Blue", design: "halo", alt: "Blue Hail Mary lockscreen wallpaper with a golden halo", text: PRAYERS[1] },
+  { file: "be-still-psalm-46-10-lockscreen", theme: "Midnight", design: "minimal", alt: "Minimal dark Be still and know that I am God lockscreen, Psalm 46:10", text: VERSES.find((v) => v.ref === "Psalm 46:10") ?? VERSES[0] },
+  { file: "st-michael-prayer-lockscreen", theme: "Crimson", design: "cathedral", alt: "Red St. Michael the Archangel prayer lockscreen with a gothic arch", text: PRAYERS[3] },
+  { file: "jeremiah-29-11-lockscreen", theme: "Forest Green", design: "gilded", alt: "Green and gold framed Jeremiah 29:11 Bible verse lockscreen wallpaper", text: VERSES.find((v) => v.ref === "Jeremiah 29:11") ?? VERSES[0] },
+  { file: "gaudete-rejoice-lockscreen", theme: "Rose", design: "halo", alt: "Rose Gaudete Sunday lockscreen, Rejoice in the Lord always, Philippians 4:4", text: SEASONAL[2] },
+  { file: "jesus-i-trust-in-you-lockscreen", theme: "Ivory", design: "cathedral", alt: "Ivory and gold Jesus, I trust in You Divine Mercy lockscreen wallpaper", text: PRAYERS[0] },
 ];
 
-type ThemeKey = "Deep Blue" | "Royal Purple" | "Sacred Gold" | "Forest Green" | "Crimson" | "Midnight" | "Rose" | "Slate";
-
-interface DesignTheme {
-  id: ThemeKey;
-  label: string;
-  bg1: string;
-  bg2: string;
-  bg3: string;
-  accent: string;
-  text: string;
-  sub: string;
-  tag: string;
-  tagText: string;
-  emoji: string;
-}
-
-const themes: DesignTheme[] = [
-  { id: "Deep Blue",    label: "Deep Blue",    bg1: "#0f2044", bg2: "#1a3a6e", bg3: "#0a1628", accent: "#c9a227", text: "#f5f0e8", sub: "#a8b8d0", tag: "#c9a227", tagText: "#0f2044", emoji: "✝️" },
-  { id: "Royal Purple", label: "Royal Purple", bg1: "#2d1b69", bg2: "#4a2c8a", bg3: "#1a0f3d", accent: "#f0c040", text: "#f5f0ff", sub: "#c4b0e8", tag: "#f0c040", tagText: "#2d1b69", emoji: "👑" },
-  { id: "Sacred Gold",  label: "Sacred Gold",  bg1: "#7a4f00", bg2: "#b87800", bg3: "#4a2f00", accent: "#ffd700", text: "#fff8e7", sub: "#e8d090", tag: "#fff8e7", tagText: "#7a4f00", emoji: "☀️" },
-  { id: "Forest Green", label: "Forest Green", bg1: "#0d3320", bg2: "#1a5c38", bg3: "#071a10", accent: "#7ec8a0", text: "#f0fff4", sub: "#90c8a8", tag: "#7ec8a0", tagText: "#0d3320", emoji: "🌿" },
-  { id: "Crimson",      label: "Crimson",      bg1: "#4a0a0a", bg2: "#7a1515", bg3: "#2a0505", accent: "#f5c842", text: "#fff5f5", sub: "#e8a0a0", tag: "#f5c842", tagText: "#4a0a0a", emoji: "❤️" },
-  { id: "Midnight",     label: "Midnight",     bg1: "#080c18", bg2: "#141c30", bg3: "#040810", accent: "#8ab4f8", text: "#e8eeff", sub: "#8090b0", tag: "#8ab4f8", tagText: "#080c18", emoji: "🌙" },
-  { id: "Rose",         label: "Rose",         bg1: "#4a1030", bg2: "#7a1a50", bg3: "#2a0818", accent: "#f9a8d4", text: "#fff0f8", sub: "#e8a0c0", tag: "#f9a8d4", tagText: "#4a1030", emoji: "🌹" },
-  { id: "Slate",        label: "Slate",        bg1: "#1a2030", bg2: "#2a3348", bg3: "#0e1420", accent: "#94a3b8", text: "#f1f5f9", sub: "#8090a8", tag: "#94a3b8", tagText: "#1a2030", emoji: "🕊️" },
+const FAQS = [
+  {
+    q: "Are these Catholic lockscreen wallpapers free?",
+    a: "Yes. Every wallpaper is free to make and download, with no account, email or watermark removal fee. The image is created in your browser and saved straight to your device.",
+  },
+  {
+    q: "Can I write my own text or prayer on the wallpaper?",
+    a: "Yes. Open the Edit text tab in the maker and type any verse, prayer, intention or saint quote (up to 220 characters). You can also change the reference line, the label above the text, the text size and its position on the screen.",
+  },
+  {
+    q: "What size are the wallpapers?",
+    a: "Pick your exact model in the maker: every iPhone from the iPhone SE and iPhone 11 to the iPhone 17 Pro Max and iPhone Air, Google Pixel, Samsung Galaxy S, A and Z Flip phones, other Android phones and iPad. The iPhone 17 Pro Max, for example, gets 1320 × 2868 pixels and most Android phones 1080 × 2400. If your phone is not listed, choose Custom size and enter its resolution. The download is a sharp PNG at that exact size.",
+  },
+  {
+    q: "Will the clock cover the Bible verse?",
+    a: "On recent iPhones and many Android phones the clock sits in the top third of the lock screen. The default layout keeps the verse in the middle, and the Lower position moves it further down so the clock never overlaps it.",
+  },
+  {
+    q: "Which Bible translation do the verses use?",
+    a: "The Advent and Christmas texts are quoted from the Douay-Rheims Bible, the classic Catholic English translation. Many other verses use familiar modern wording. Because you can edit the text, you can paste the exact wording of your own Bible, such as the New American Bible used at Mass in the United States.",
+  },
+  {
+    q: "Can I share these wallpapers with my parish or youth group?",
+    a: "Yes, for free personal, parish and ministry use. Please keep the small guidecatholic.com line at the bottom and do not sell the images.",
+  },
 ];
 
-// ─── Canvas renderer ─────────────────────────────────────────────────────────
-
-function wrapText(ctx: CanvasRenderingContext2D, text: string, maxWidth: number): string[] {
-  const words = text.split(" ");
-  const lines: string[] = [];
-  let current = "";
-  for (const word of words) {
-    const test = current ? `${current} ${word}` : word;
-    if (ctx.measureText(test).width > maxWidth && current) {
-      lines.push(current);
-      current = word;
-    } else {
-      current = test;
-    }
-  }
-  if (current) lines.push(current);
-  return lines;
-}
-
-function drawLockscreen(
-  canvas: HTMLCanvasElement,
-  verse: { text: string; ref: string; theme: string },
-  theme: DesignTheme,
-  scale = 1
-) {
-  const W = canvas.width;
-  const H = canvas.height;
-  const ctx = canvas.getContext("2d")!;
-  const s = scale;
-
-  // Background gradient
-  const grad = ctx.createLinearGradient(0, 0, W * 0.4, H);
-  grad.addColorStop(0, theme.bg1);
-  grad.addColorStop(0.5, theme.bg2);
-  grad.addColorStop(1, theme.bg3);
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, W, H);
-
-  // Subtle radial glow top-center
-  const glow = ctx.createRadialGradient(W / 2, H * 0.22, 0, W / 2, H * 0.22, W * 0.55);
-  glow.addColorStop(0, theme.accent + "22");
-  glow.addColorStop(1, "transparent");
-  ctx.fillStyle = glow;
-  ctx.fillRect(0, 0, W, H);
-
-  // Decorative dots pattern (subtle)
-  ctx.fillStyle = theme.text + "08";
-  for (let x = 0; x < W; x += 28 * s) {
-    for (let y = 0; y < H; y += 28 * s) {
-      ctx.beginPath();
-      ctx.arc(x, y, 1.2 * s, 0, Math.PI * 2);
-      ctx.fill();
-    }
-  }
-
-  // Top ornament line
-  const lineY = H * 0.12;
-  ctx.strokeStyle = theme.accent + "60";
-  ctx.lineWidth = 1 * s;
-  ctx.beginPath();
-  ctx.moveTo(W * 0.2, lineY);
-  ctx.lineTo(W * 0.8, lineY);
-  ctx.stroke();
-
-  // Cross symbol
-  const crossX = W / 2;
-  const crossY = H * 0.19;
-  const cW = 10 * s;
-  const cH = 16 * s;
-  ctx.fillStyle = theme.accent;
-  ctx.fillRect(crossX - cW / 2, crossY - cH / 2, cW, cH);
-  ctx.fillRect(crossX - cW, crossY - cH * 0.15, cW * 2, cW * 0.7);
-
-  // "Guide Catholic" label
-  ctx.font = `${600}  ${9 * s}px sans-serif`;
-  ctx.fillStyle = theme.sub;
-  ctx.textAlign = "center";
-  ctx.letterSpacing = `${2 * s}px`;
-  ctx.fillText("GUIDE CATHOLIC", W / 2, H * 0.28);
-  ctx.letterSpacing = "0px";
-
-  // Theme tag pill
-  const tagText = verse.theme.toUpperCase();
-  ctx.font = `bold ${10 * s}px sans-serif`;
-  const tagW = ctx.measureText(tagText).width + 24 * s;
-  const tagH = 22 * s;
-  const tagX = W / 2 - tagW / 2;
-  const tagY = H * 0.32 - tagH / 2;
-  ctx.fillStyle = theme.tag;
-  roundRect(ctx, tagX, tagY, tagW, tagH, 11 * s);
-  ctx.fillStyle = theme.tagText;
-  ctx.fillText(tagText, W / 2, H * 0.32 + 4 * s);
-
-  // Decorative quote marks
-  ctx.font = `bold ${60 * s}px Georgia, serif`;
-  ctx.fillStyle = theme.accent + "30";
-  ctx.textAlign = "left";
-  ctx.fillText("\u201C", W * 0.08, H * 0.46);
-
-  // Verse text
-  const verseMaxW = W * 0.78;
-  ctx.font = `italic bold ${18 * s}px Georgia, serif`;
-  ctx.fillStyle = theme.text;
-  ctx.textAlign = "center";
-  const lines = wrapText(ctx, `\u201C${verse.text}\u201D`, verseMaxW);
-  const lineH = 26 * s;
-  const totalH = lines.length * lineH;
-  const startY = H * 0.5 - totalH / 2;
-  lines.forEach((line, i) => {
-    ctx.fillText(line, W / 2, startY + i * lineH);
-  });
-
-  // Reference
-  ctx.font = `${13 * s}px Georgia, serif`;
-  ctx.fillStyle = theme.accent;
-  ctx.textAlign = "center";
-  ctx.fillText(`\u2014 ${verse.ref}`, W / 2, startY + totalH + 18 * s);
-
-  // Bottom divider
-  const divY = H * 0.82;
-  ctx.strokeStyle = theme.accent + "40";
-  ctx.lineWidth = 1 * s;
-  ctx.beginPath();
-  ctx.moveTo(W * 0.3, divY);
-  ctx.lineTo(W * 0.7, divY);
-  ctx.stroke();
-
-  // Bottom tagline
-  ctx.font = `${10 * s}px sans-serif`;
-  ctx.fillStyle = theme.sub;
-  ctx.textAlign = "center";
-  ctx.fillText("guidecatholic.com", W / 2, H * 0.87);
-
-  // Bottom ornament dots
-  const dotY = H * 0.91;
-  for (let d = -2; d <= 2; d++) {
-    ctx.beginPath();
-    ctx.arc(W / 2 + d * 10 * s, dotY, (d === 0 ? 3 : 2) * s, 0, Math.PI * 2);
-    ctx.fillStyle = d === 0 ? theme.accent : theme.accent + "60";
-    ctx.fill();
-  }
-}
-
-function roundRect(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, r: number) {
-  ctx.beginPath();
-  ctx.moveTo(x + r, y);
-  ctx.lineTo(x + w - r, y);
-  ctx.quadraticCurveTo(x + w, y, x + w, y + r);
-  ctx.lineTo(x + w, y + h - r);
-  ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
-  ctx.lineTo(x + r, y + h);
-  ctx.quadraticCurveTo(x, y + h, x, y + h - r);
-  ctx.lineTo(x, y + r);
-  ctx.quadraticCurveTo(x, y, x + r, y);
-  ctx.closePath();
-  ctx.fill();
-}
-
-// ─── Page component ───────────────────────────────────────────────────────────
+const HOW_TO_STEPS = [
+  { name: "Choose a text", text: "Pick a Bible verse, prayer, saint quote or Advent and Christmas text from the maker, or type your own in Edit text." },
+  { name: "Pick a color and your phone", text: "Choose a design, one of ten liturgical colors and your phone model so the image matches your screen." },
+  { name: "Download or save", text: "Tap Download wallpaper. On a phone, tap Save to Photos to send it straight to your photo library." },
+  { name: "Set it on iPhone", text: "Open Photos, tap the image, tap Share, then Use as Wallpaper, adjust it and tap Add or Set as Lock Screen." },
+  { name: "Set it on Android", text: "Open Photos or Gallery, tap the image, open the menu, choose Set as wallpaper and select Lock screen." },
+];
 
 export default function LockscreenPage() {
-  const [verseIdx, setVerseIdx] = useState(0);
-  const [themeIdx, setThemeIdx] = useState(0);
-  const [downloading, setDownloading] = useState(false);
+  const initial = SEASONAL[0];
+  const [themeIdx, setThemeIdx] = useState(3); // Royal Purple, the Advent color
+  const [design, setDesign] = useState<LockscreenDesign>("cathedral");
+  const [fontsReady, setFontsReady] = useState(0);
+  const [deviceIdx, setDeviceIdx] = useState(0); // -1 = custom size
+  const [customW, setCustomW] = useState(1080);
+  const [customH, setCustomH] = useState(2400);
+  const [text, setText] = useState(initial.text);
+  const [ref, setRef] = useState(initial.ref);
+  const [tag, setTag] = useState(initial.tag);
+  const [showTag, setShowTag] = useState(true);
+  const [fontScale, setFontScale] = useState(1);
+  const [position, setPosition] = useState<LockscreenOptions["position"]>("center");
+  const [tab, setTab] = useState<"style" | "text">("style");
+  const [picked, setPicked] = useState<LockscreenText>(initial);
+  const [busy, setBusy] = useState(false);
+  const [canShareFiles, setCanShareFiles] = useState(false);
   const previewRef = useRef<HTMLCanvasElement>(null);
+  const makerRef = useRef<HTMLDivElement>(null);
 
-  const verse = verses[verseIdx];
-  const theme = themes[themeIdx];
+  const theme = THEMES[themeIdx];
+  const clampPx = (n: number) => Math.min(4000, Math.max(600, Math.round(n) || 600));
+  const device =
+    deviceIdx === -1
+      ? { width: clampPx(customW), height: clampPx(customH) }
+      : DEVICES[deviceIdx];
+  const opts = useMemo<LockscreenOptions>(
+    () => ({ text, ref, tag, showTag, fontScale, position, design }),
+    [text, ref, tag, showTag, fontScale, position, design],
+  );
+  const edited = text !== picked.text || ref !== picked.ref || tag !== picked.tag;
 
-  const render = useCallback(() => {
+  // Preview at 390 pt wide, with the selected phone's aspect ratio.
+  const previewH = Math.round((390 * device.height) / device.width);
+  useEffect(() => {
     const canvas = previewRef.current;
     if (!canvas) return;
-    // Preview: 390×844 (iPhone 14 ratio) scaled to fit container
     canvas.width = 390;
-    canvas.height = 844;
-    drawLockscreen(canvas, verse, theme, 1);
-  }, [verse, theme]);
+    canvas.height = previewH;
+    drawLockscreen(canvas, opts, theme);
+  }, [opts, theme, previewH, fontsReady]);
 
-  useEffect(() => { render(); }, [render]);
+  // Canvas can only use a web font once its stylesheet and files have loaded; redraw when they arrive.
+  useEffect(() => {
+    if (typeof document === "undefined" || !document.fonts) return;
+    let cancelled = false;
+    const loadFaces = () =>
+      Promise.all([
+        document.fonts.load(`italic 600 32px ${VERSE_FONT}`, "Glory"),
+        document.fonts.load(`600 16px ${CAPS_FONT}`, "GLORY"),
+      ])
+        .then(() => !cancelled && setFontsReady((n) => n + 1))
+        .catch(() => undefined);
+    let link = document.querySelector<HTMLLinkElement>('link[data-lockscreen-fonts]');
+    if (!link) {
+      link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = FONTS_URL;
+      link.dataset.lockscreenFonts = "true";
+      document.head.appendChild(link);
+    }
+    if (link.sheet) loadFaces();
+    else link.addEventListener("load", loadFaces, { once: true });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    try {
+      const probe = new File([""], "probe.png", { type: "image/png" });
+      setCanShareFiles(typeof navigator !== "undefined" && !!navigator.canShare?.({ files: [probe] }));
+    } catch {
+      setCanShareFiles(false);
+    }
+  }, []);
+
+  const applyText = useCallback((t: LockscreenText, themeName?: string, designId?: LockscreenDesign) => {
+    setText(t.text);
+    setRef(t.ref);
+    setTag(t.tag);
+    setPicked(t);
+    if (themeName) {
+      const i = THEMES.findIndex((th) => th.id === themeName);
+      if (i >= 0) setThemeIdx(i);
+    }
+    if (designId) setDesign(designId);
+    makerRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
+
+  const shuffle = () => {
+    const t = ALL_TEXTS[Math.floor(Math.random() * ALL_TEXTS.length)];
+    setText(t.text);
+    setRef(t.ref);
+    setTag(t.tag);
+    setPicked(t);
+    setThemeIdx(Math.floor(Math.random() * THEMES.length));
+  };
+
+  const resetText = () => {
+    setText(picked.text);
+    setRef(picked.ref);
+    setTag(picked.tag);
+  };
+
+  const fileName = () => {
+    const base = (ref || tag || "catholic").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    return `catholic-lockscreen-${base || "wallpaper"}-${device.width}x${device.height}.png`;
+  };
+
+  const renderBlob = async () => {
+    await document.fonts?.ready;
+    return new Promise<Blob>((resolve, reject) => {
+      const hd = document.createElement("canvas");
+      hd.width = device.width;
+      hd.height = device.height;
+      drawLockscreen(hd, opts, theme);
+      hd.toBlob((b) => (b ? resolve(b) : reject(new Error("toBlob failed"))), "image/png");
+    });
+  };
 
   const handleDownload = async () => {
-    setDownloading(true);
+    if (!text.trim()) {
+      toast.error("Add some text first.");
+      return;
+    }
+    setBusy(true);
     try {
-      // Full resolution: 1290×2796 (iPhone 14 Pro Max)
-      const hd = document.createElement("canvas");
-      hd.width = 1290;
-      hd.height = 2796;
-      drawLockscreen(hd, verse, theme, 1290 / 390);
-      const url = hd.toDataURL("image/png");
+      const blob = await renderBlob();
+      const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `catholic-lockscreen-${theme.id.toLowerCase().replace(" ", "-")}.png`;
+      a.download = fileName();
+      document.body.appendChild(a);
       a.click();
-      toast.success("Lockscreen downloaded! Set it as your wallpaper 🙏");
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 4000);
+      toast.success("Wallpaper downloaded. Set it as your lock screen 🙏");
     } catch {
       toast.error("Download failed. Please try again.");
     } finally {
-      setDownloading(false);
+      setBusy(false);
     }
   };
 
-  const prevVerse = () => setVerseIdx((i) => (i - 1 + verses.length) % verses.length);
-  const nextVerse = () => setVerseIdx((i) => (i + 1) % verses.length);
+  const handleShare = async () => {
+    setBusy(true);
+    try {
+      const blob = await renderBlob();
+      const file = new File([blob], fileName(), { type: "image/png" });
+      await navigator.share({ files: [file], title: "Catholic lockscreen wallpaper" });
+    } catch (err) {
+      if ((err as Error)?.name !== "AbortError") toast.error("Sharing isn't available. Use Download instead.");
+    } finally {
+      setBusy(false);
+    }
+  };
 
-  const faqs = [
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": `${PAGE_URL}#app`,
+        name: "Catholic Lockscreen Wallpaper Maker",
+        url: PAGE_URL,
+        description: DESCRIPTION,
+        applicationCategory: "DesignApplication",
+        operatingSystem: "Any (web browser)",
+        browserRequirements: "Requires JavaScript and HTML5 Canvas",
+        isAccessibleForFree: true,
+        offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+        featureList: [
+          "Bible verses, Catholic prayers and saint quotes",
+          "Edit the text, reference and label",
+          "4 designs and 10 liturgical colors",
+          `Exact sizes for ${DEVICES.length} iPhone, Pixel, Samsung Galaxy, Android and iPad models, plus custom sizes`,
+          "Free PNG download",
+        ],
+        publisher: { "@type": "Organization", name: "Guide Catholic", url: "https://guidecatholic.com/" },
+      },
+      {
+        "@type": "HowTo",
+        name: "How to make and set a Catholic lockscreen wallpaper",
+        totalTime: "PT2M",
+        tool: { "@type": "HowToTool", name: "iPhone or Android phone" },
+        step: HOW_TO_STEPS.map((s, i) => ({ "@type": "HowToStep", position: i + 1, name: s.name, text: s.text, url: `${PAGE_URL}#how-to-set` })),
+      },
+      {
+        "@type": "ImageGallery",
+        name: "Catholic lockscreen wallpaper examples",
+        url: `${PAGE_URL}#gallery`,
+        image: GALLERY.map((g) => ({
+          "@type": "ImageObject",
+          contentUrl: `https://guidecatholic.com/lockscreens/${g.file}.svg`,
+          name: g.alt,
+          description: `${g.text.text} (${g.text.ref})`,
+          width: 390,
+          height: 846,
+        })),
+      },
+      {
+        "@type": "FAQPage",
+        mainEntity: FAQS.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://guidecatholic.com/" },
+          { "@type": "ListItem", position: 2, name: "Catholic Lockscreen Wallpapers", item: PAGE_URL },
+        ],
+      },
+    ],
+  };
+
+  const groups: { title: string; id: string; intro: string; items: LockscreenText[] }[] = [
     {
-      q: "Are these Catholic lockscreen wallpapers really free?",
-      a: "Yes — 100% free, forever. No account, no email, no payment required. Choose your verse and style, click Download, and the high-resolution PNG is saved directly to your device.",
+      title: "Advent & Christmas",
+      id: "advent-christmas",
+      intro: "For the four weeks of Advent and the twelve days of Christmas, quoted from the Douay-Rheims Bible.",
+      items: SEASONAL,
     },
     {
-      q: "What resolution are the wallpapers?",
-      a: "Downloaded wallpapers are 1290 × 2796 pixels — the native resolution of the iPhone 14 Pro Max. This ensures a crisp, sharp image on any modern smartphone, including all iPhone and Android models.",
+      title: "Catholic Prayers & Saints",
+      id: "prayers-saints",
+      intro: "Short lines from beloved Catholic prayers and sayings of the saints.",
+      items: PRAYERS,
     },
-    {
-      q: "How do I set the wallpaper on my iPhone?",
-      a: "After downloading: open the Photos app → tap the image → tap the Share icon → tap 'Use as Wallpaper' → select 'Lock Screen' → tap 'Set'. Done.",
-    },
-    {
-      q: "How do I set the wallpaper on Android?",
-      a: "After downloading: open your Gallery or Photos app → tap the image → tap the three-dot menu or 'Set as' → select 'Lock Screen' or 'Wallpaper'. Steps may vary slightly by manufacturer.",
-    },
-    {
-      q: "Can I use these wallpapers for personal and ministry use?",
-      a: "Yes. These wallpapers are free for personal use and for sharing within your Catholic community, parish, or ministry. Please do not sell them or remove the Guide Catholic attribution.",
-    },
-    {
-      q: "Why should I use a Catholic lockscreen?",
-      a: "The average person checks their phone over 90 times a day. Each unlock is an opportunity to encounter a word of God instead of a distraction. A Catholic lockscreen turns a habit into a moment of prayer — a small but powerful way to keep God at the center of your day.",
-    },
+    ...VERSE_GROUPS.map((g) => ({
+      title: `Bible Verses: ${g}`,
+      id: g.toLowerCase().replace(/[^a-z]+/g, "-"),
+      intro: "",
+      items: VERSES.filter((v) => v.group === g),
+    })),
   ];
-
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   return (
     <>
       <Helmet>
-        <title>Catholic Lockscreen Wallpapers — Free Bible Verse Wallpapers for iPhone & Android | Guide Catholic</title>
-        <meta name="description" content="Download free Catholic lockscreen wallpapers with Bible verses for your iPhone or Android. 100 Scripture passages, 8 sacred color themes, high-resolution PNG — instant free download." />
-        <meta name="keywords" content="catholic lockscreen wallpaper, catholic phone wallpaper, bible verse lockscreen, christian wallpaper iphone, catholic wallpaper free download, scripture wallpaper phone, catholic background iphone, religious lockscreen, bible verse phone wallpaper, catholic iphone wallpaper, christian phone background, free catholic wallpaper, scripture phone background, catholic home screen wallpaper, bible verse background free" />
-        <link rel="canonical" href="https://guidecatholic.com/lockscreen/" />
-        <meta name="robots" content="index, follow" />
-        {/* Open Graph */}
-        <meta property="og:title" content="Free Catholic Lockscreen Wallpapers — Bible Verses for Your Phone" />
-        <meta property="og:description" content="Download beautiful Catholic lockscreen wallpapers with Scripture verses. 8 sacred themes, 100 Bible passages, high-resolution PNG — free for iPhone and Android." />
+        <title>{TITLE}</title>
+        <meta name="description" content={DESCRIPTION} />
+        <meta
+          name="keywords"
+          content="catholic lockscreen wallpaper, catholic wallpaper maker, bible verse lockscreen, bible verse wallpaper iphone, catholic phone wallpaper, christian lock screen, advent wallpaper, christmas bible verse wallpaper, hail mary wallpaper, custom bible verse wallpaper"
+        />
+        <link rel="canonical" href={PAGE_URL} />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://guidecatholic.com/lockscreen/" />
         <meta property="og:site_name" content="Guide Catholic" />
-        {/* Twitter Card */}
+        <meta property="og:title" content="Free Catholic Lockscreen Wallpaper Maker" />
+        <meta property="og:description" content={DESCRIPTION} />
+        <meta property="og:url" content={PAGE_URL} />
+        <meta property="og:image" content="https://guidecatholic.com/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Free Catholic Lockscreen Wallpapers — Bible Verses for Your Phone" />
-        <meta name="twitter:description" content="Download beautiful Catholic lockscreen wallpapers with Scripture verses. 8 sacred themes, 100 Bible passages — free for iPhone and Android." />
-        {/* JSON-LD */}
-        <script type="application/ld+json">{JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "Catholic Lockscreen Wallpapers — Free Bible Verse Wallpapers",
-          "description": "Download free Catholic lockscreen wallpapers with Bible verses for iPhone and Android. 20 Scripture passages, 8 sacred color themes, high-resolution PNG.",
-          "url": "https://guidecatholic.com/lockscreen/",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Guide Catholic",
-            "url": "https://guidecatholic.com"
-          },
-          "mainEntity": {
-            "@type": "SoftwareApplication",
-            "name": "Catholic Lockscreen Wallpaper Generator",
-            "applicationCategory": "UtilitiesApplication",
-            "operatingSystem": "Web",
-            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-            "description": "Generate and download free Catholic lockscreen wallpapers with Bible verses. Choose from 100 Scripture passages and 8 sacred color themes."
-          },
-          "breadcrumb": {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://guidecatholic.com/" },
-              { "@type": "ListItem", "position": 2, "name": "Catholic Lockscreens", "item": "https://guidecatholic.com/lockscreen/" }
-            ]
-          },
-          "mainEntityOfPage": {
-            "@type": "FAQPage",
-            "mainEntity": faqs.map(f => ({
-              "@type": "Question",
-              "name": f.q,
-              "acceptedAnswer": { "@type": "Answer", "text": f.a }
-            }))
-          }
-        })}</script>
+        <meta name="twitter:title" content="Free Catholic Lockscreen Wallpaper Maker" />
+        <meta name="twitter:description" content={DESCRIPTION} />
+        <meta name="twitter:image" content="https://guidecatholic.com/og-image.png" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+        <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -437,269 +351,479 @@ export default function LockscreenPage() {
 
         <div className="bg-background-muted/50 py-3 mt-16">
           <div className="container mx-auto px-4">
-            <nav className="flex items-center gap-2 text-sm text-text-muted">
+            <nav aria-label="Breadcrumb" className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link>
               <span>/</span>
-              <span className="text-text">Catholic Lockscreens</span>
+              <span className="text-text">Catholic Lockscreen Wallpapers</span>
             </nav>
           </div>
         </div>
 
-        <main className="py-12">
+        <main className="py-10 md:py-12">
           <div className="container mx-auto px-4 max-w-5xl">
-
-            {/* Header */}
-            <div className="text-center mb-12">
-              <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-1.5 rounded-full text-sm font-medium mb-4">
+            <header className="text-center mb-10">
+              <p className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-1.5 rounded-full text-sm font-medium mb-4">
                 <Smartphone className="w-4 h-4" />
-                Free · High Resolution · Instant Download
-              </div>
-              <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">
-                Catholic Lockscreen Wallpapers
-              </h1>
-              <p className="text-text-muted text-lg max-w-xl mx-auto">
-                Start every day with a sacred reminder. Choose a verse, pick a style, and download your wallpaper — free, forever.
+                Free · Editable · iPhone &amp; Android
               </p>
-            </div>
+              <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">Catholic Lockscreen Wallpaper Maker</h1>
+              <p className="text-text-muted text-lg max-w-2xl mx-auto">
+                Make your own Catholic phone wallpaper in a minute. Choose a Bible verse, a Catholic prayer or a saint quote, or type your own words, pick a liturgical color and download a sharp PNG sized for your phone. Free, with no sign-up.
+              </p>
+            </header>
 
-            <div className="grid lg:grid-cols-2 gap-10 items-start">
-
-              {/* ── Left: Preview ── */}
-              <div className="flex flex-col items-center gap-6">
-                {/* Phone frame */}
+            {/* ── Maker ── */}
+            <section ref={makerRef} id="maker" aria-label="Wallpaper maker" className="scroll-mt-24 grid lg:grid-cols-2 gap-10 items-start">
+              <div className="flex flex-col items-center gap-5">
                 <div className="relative">
-                  {/* Outer phone shell */}
                   <div className="relative bg-gray-900 rounded-[3rem] p-3 shadow-2xl ring-4 ring-gray-800">
-                    {/* Notch */}
                     <div className="absolute top-3 left-1/2 -translate-x-1/2 w-24 h-6 bg-gray-900 rounded-full z-10" />
-                    {/* Screen */}
-                    <div className="rounded-[2.2rem] overflow-hidden" style={{ width: 220, height: 477 }}>
+                    <div className="rounded-[2.2rem] overflow-hidden" style={{ width: 230, height: Math.round((230 * device.height) / device.width) }}>
                       <canvas
                         ref={previewRef}
-                        style={{ width: 220, height: 477, display: "block" }}
+                        role="img"
+                        aria-label={`Wallpaper preview: ${text} ${ref}`}
+                        style={{ width: 230, height: Math.round((230 * device.height) / device.width), display: "block" }}
                       />
                     </div>
-                    {/* Home indicator */}
                     <div className="mt-2 mx-auto w-20 h-1 bg-gray-600 rounded-full" />
                   </div>
-                  {/* Glow behind phone */}
-                  <div className="absolute inset-0 -z-10 blur-3xl opacity-30 rounded-full"
-                    style={{ background: theme.bg2 }} />
+                  <div className="absolute inset-0 -z-10 blur-3xl opacity-30 rounded-full" style={{ background: theme.bg2 }} />
                 </div>
-
-                {/* Verse navigation */}
-                <div className="flex items-center gap-3">
+                <div className="flex gap-2">
                   <button
-                    onClick={prevVerse}
-                    className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-accent/10 hover:border-accent transition-colors"
+                    type="button"
+                    onClick={shuffle}
+                    className="inline-flex items-center gap-2 px-4 h-10 rounded-full border border-border text-sm text-text hover:bg-accent/10 hover:border-accent transition-colors"
                   >
-                    <ChevronLeft className="w-5 h-5 text-text" />
+                    <Shuffle className="w-4 h-4" /> Surprise me
                   </button>
-                  <span className="text-sm text-text-muted font-medium min-w-[80px] text-center">
-                    {verseIdx + 1} / {verses.length}
-                  </span>
-                  <button
-                    onClick={nextVerse}
-                    className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-accent/10 hover:border-accent transition-colors"
-                  >
-                    <ChevronRight className="w-5 h-5 text-text" />
-                  </button>
-                </div>
-
-                {/* Current verse info */}
-                <div className="bg-surface border border-border rounded-2xl p-4 w-full max-w-xs text-center">
-                  <p className="text-sm italic text-text leading-relaxed mb-2">"{verse.text}"</p>
-                  <p className="text-xs font-semibold text-accent">— {verse.ref}</p>
+                  {edited && (
+                    <button
+                      type="button"
+                      onClick={resetText}
+                      className="inline-flex items-center gap-2 px-4 h-10 rounded-full border border-border text-sm text-text hover:bg-accent/10 hover:border-accent transition-colors"
+                    >
+                      <RotateCcw className="w-4 h-4" /> Undo edits
+                    </button>
+                  )}
                 </div>
               </div>
 
-              {/* ── Right: Controls ── */}
-              <div className="flex flex-col gap-6">
-
-                {/* Theme picker */}
-                <div>
-                  <h2 className="font-display text-xl font-bold text-text mb-1">Choose a Style</h2>
-                  <p className="text-sm text-text-muted mb-4">8 sacred color themes, each inspired by Catholic tradition.</p>
-                  <div className="grid grid-cols-4 gap-2">
-                    {themes.map((t, i) => (
-                      <button
-                        key={t.id}
-                        onClick={() => setThemeIdx(i)}
-                        className={`relative rounded-xl overflow-hidden h-16 flex flex-col items-center justify-center gap-1 border-2 transition-all ${
-                          themeIdx === i
-                            ? "border-accent scale-105 shadow-lg"
-                            : "border-transparent hover:border-border"
-                        }`}
-                        style={{ background: `linear-gradient(135deg, ${t.bg1}, ${t.bg2})` }}
-                        title={t.label}
-                      >
-                        <span className="text-lg">{t.emoji}</span>
-                        <span className="text-[10px] font-semibold" style={{ color: t.text }}>
-                          {t.label.split(" ")[0]}
-                        </span>
-                        {themeIdx === i && (
-                          <div className="absolute top-1 right-1 w-3 h-3 rounded-full bg-accent" />
-                        )}
-                      </button>
-                    ))}
-                  </div>
+              <div className="flex flex-col gap-5">
+                <div role="tablist" aria-label="Maker options" className="grid grid-cols-2 gap-2 bg-background-muted rounded-xl p-1">
+                  {([
+                    ["style", "Style & size", Palette],
+                    ["text", "Edit text", Pencil],
+                  ] as const).map(([id, label, Icon]) => (
+                    <button
+                      key={id}
+                      type="button"
+                      role="tab"
+                      aria-selected={tab === id}
+                      onClick={() => setTab(id)}
+                      className={`inline-flex items-center justify-center gap-2 h-10 rounded-lg text-sm font-semibold transition-colors ${
+                        tab === id ? "bg-surface text-text shadow" : "text-text-muted hover:text-text"
+                      }`}
+                    >
+                      <Icon className="w-4 h-4" /> {label}
+                    </button>
+                  ))}
                 </div>
 
-                {/* Verse picker */}
-                <div>
-                  <h2 className="font-display text-xl font-bold text-text mb-1">Choose a Verse</h2>
-                  <p className="text-sm text-text-muted mb-4">100 carefully selected Scripture passages.</p>
-                  <div className="grid grid-cols-2 gap-2 max-h-64 overflow-y-auto pr-1">
-                    {verses.map((v, i) => (
-                      <button
-                        key={i}
-                        onClick={() => setVerseIdx(i)}
-                        className={`text-left p-3 rounded-xl border text-xs transition-all ${
-                          verseIdx === i
-                            ? "border-accent bg-accent/10 text-text"
-                            : "border-border bg-surface hover:border-accent/50 text-text-muted"
-                        }`}
-                      >
-                        <span className={`inline-block text-[10px] font-bold px-1.5 py-0.5 rounded-full mb-1 ${
-                          verseIdx === i ? "bg-accent text-white" : "bg-background-muted text-text-muted"
-                        }`}>
-                          {v.theme}
-                        </span>
-                        <p className="line-clamp-2 leading-snug">{v.ref}</p>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Download button */}
-                <div className="bg-gradient-to-br from-accent/10 to-primary/10 border border-accent/20 rounded-2xl p-6">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 rounded-full bg-accent/15 flex items-center justify-center">
-                      <Download className="w-5 h-5 text-accent" />
+                {tab === "style" ? (
+                  <div className="flex flex-col gap-5">
+                    <div>
+                      <h3 className="font-display text-lg font-bold text-text mb-2">Design</h3>
+                      <div className="grid grid-cols-2 gap-2">
+                        {DESIGNS.map((d) => (
+                          <button
+                            key={d.id}
+                            type="button"
+                            aria-pressed={design === d.id}
+                            onClick={() => setDesign(d.id)}
+                            className={`text-left rounded-xl border p-3 transition-colors ${
+                              design === d.id ? "border-accent bg-accent/10" : "border-border hover:border-accent/50"
+                            }`}
+                          >
+                            <span className="block text-sm font-semibold text-text">{d.label}</span>
+                            <span className="block text-xs text-text-muted">{d.note}</span>
+                          </button>
+                        ))}
+                      </div>
                     </div>
                     <div>
-                      <p className="font-semibold text-text text-sm">Ready to download</p>
-                      <p className="text-xs text-text-muted">1290 × 2796 px · PNG · Free</p>
+                      <h3 className="font-display text-lg font-bold text-text mb-2">Color</h3>
+                      <div className="grid grid-cols-5 gap-2">
+                        {THEMES.map((t, i) => (
+                          <button
+                            key={t.id}
+                            type="button"
+                            onClick={() => setThemeIdx(i)}
+                            aria-pressed={themeIdx === i}
+                            title={t.meaning}
+                            className={`h-14 rounded-xl border-2 text-[10px] leading-tight font-semibold px-1 transition-all ${
+                              themeIdx === i ? "border-accent scale-105 shadow-lg" : "border-transparent hover:border-border"
+                            }`}
+                            style={{ background: `linear-gradient(135deg, ${t.bg1}, ${t.bg2})`, color: t.text }}
+                          >
+                            {t.id}
+                          </button>
+                        ))}
+                      </div>
+                      <p className="text-xs text-text-muted mt-2">{theme.meaning}.</p>
+                    </div>
+                    <div>
+                      <label htmlFor="device" className="font-display text-lg font-bold text-text mb-2 block">Your phone</label>
+                      <select
+                        id="device"
+                        value={deviceIdx}
+                        onChange={(e) => setDeviceIdx(Number(e.target.value))}
+                        className="w-full h-11 rounded-xl border border-border bg-surface px-3 text-sm text-text"
+                      >
+                        {DEVICE_GROUPS.map((g) => (
+                          <optgroup key={g} label={g}>
+                            {DEVICES.map((d, i) =>
+                              d.group === g ? (
+                                <option key={d.id} value={i}>{`${d.label} (${d.width} × ${d.height})`}</option>
+                              ) : null,
+                            )}
+                          </optgroup>
+                        ))}
+                        <optgroup label="Other">
+                          <option value={-1}>Custom size…</option>
+                        </optgroup>
+                      </select>
+                      {deviceIdx === -1 && (
+                        <div className="grid grid-cols-2 gap-3 mt-3">
+                          <div>
+                            <label htmlFor="ls-w" className="text-xs font-semibold text-text mb-1 block">Width (px)</label>
+                            <input
+                              id="ls-w"
+                              type="number"
+                              inputMode="numeric"
+                              min={600}
+                              max={4000}
+                              value={customW}
+                              onChange={(e) => setCustomW(Number(e.target.value))}
+                              className="w-full h-10 rounded-xl border border-border bg-surface px-3 text-sm text-text"
+                            />
+                          </div>
+                          <div>
+                            <label htmlFor="ls-h" className="text-xs font-semibold text-text mb-1 block">Height (px)</label>
+                            <input
+                              id="ls-h"
+                              type="number"
+                              inputMode="numeric"
+                              min={600}
+                              max={4000}
+                              value={customH}
+                              onChange={(e) => setCustomH(Number(e.target.value))}
+                              className="w-full h-10 rounded-xl border border-border bg-surface px-3 text-sm text-text"
+                            />
+                          </div>
+                          <p className="col-span-2 text-xs text-text-muted">
+                            Use your screen resolution in portrait, from 600 to 4000 px. On iPhone it is listed on Apple’s tech specs page for your model.
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                    <div>
+                      <label htmlFor="pick" className="font-display text-lg font-bold text-text mb-2 block">Verse or prayer</label>
+                      <select
+                        id="pick"
+                        value={ALL_TEXTS.indexOf(picked)}
+                        onChange={(e) => {
+                          const t = ALL_TEXTS[Number(e.target.value)];
+                          setText(t.text);
+                          setRef(t.ref);
+                          setTag(t.tag);
+                          setPicked(t);
+                        }}
+                        className="w-full h-11 rounded-xl border border-border bg-surface px-3 text-sm text-text"
+                      >
+                        {["Advent & Christmas", "Prayers & Saints", ...VERSE_GROUPS].map((g) => (
+                          <optgroup key={g} label={g}>
+                            {ALL_TEXTS.map((t, i) =>
+                              t.group === g ? (
+                                <option key={i} value={i}>{`${t.ref}: ${t.text.slice(0, 48)}${t.text.length > 48 ? "…" : ""}`}</option>
+                              ) : null,
+                            )}
+                          </optgroup>
+                        ))}
+                      </select>
+                      <p className="text-xs text-text-muted mt-2">Or browse the full library below and tap “Use this”.</p>
                     </div>
                   </div>
+                ) : (
+                  <div className="flex flex-col gap-4">
+                    <div>
+                      <label htmlFor="ls-text" className="font-display text-lg font-bold text-text mb-2 block">Your text</label>
+                      <textarea
+                        id="ls-text"
+                        value={text}
+                        maxLength={MAX_TEXT}
+                        rows={4}
+                        onChange={(e) => setText(e.target.value)}
+                        placeholder="Type a verse, prayer or intention…"
+                        className="w-full rounded-xl border border-border bg-surface p-3 text-sm text-text leading-relaxed"
+                      />
+                      <p className="text-xs text-text-muted text-right">{text.length}/{MAX_TEXT}</p>
+                    </div>
+                    <div className="grid sm:grid-cols-2 gap-3">
+                      <div>
+                        <label htmlFor="ls-ref" className="text-sm font-semibold text-text mb-1 block">Reference or source</label>
+                        <input
+                          id="ls-ref"
+                          value={ref}
+                          maxLength={60}
+                          onChange={(e) => setRef(e.target.value)}
+                          placeholder="e.g. John 3:16"
+                          className="w-full h-11 rounded-xl border border-border bg-surface px-3 text-sm text-text"
+                        />
+                      </div>
+                      <div>
+                        <label htmlFor="ls-tag" className="text-sm font-semibold text-text mb-1 block">Label</label>
+                        <input
+                          id="ls-tag"
+                          value={tag}
+                          maxLength={24}
+                          onChange={(e) => setTag(e.target.value)}
+                          placeholder="e.g. Hope"
+                          className="w-full h-11 rounded-xl border border-border bg-surface px-3 text-sm text-text"
+                        />
+                      </div>
+                    </div>
+                    <label className="inline-flex items-center gap-2 text-sm text-text">
+                      <input type="checkbox" checked={showTag} onChange={(e) => setShowTag(e.target.checked)} className="w-4 h-4 accent-current" />
+                      Show the label
+                    </label>
+                    <div>
+                      <label htmlFor="ls-size" className="text-sm font-semibold text-text mb-1 block">Text size: {Math.round(fontScale * 100)}%</label>
+                      <input
+                        id="ls-size"
+                        type="range"
+                        min={0.8}
+                        max={1.3}
+                        step={0.05}
+                        value={fontScale}
+                        onChange={(e) => setFontScale(Number(e.target.value))}
+                        className="w-full"
+                      />
+                    </div>
+                    <fieldset>
+                      <legend className="text-sm font-semibold text-text mb-1">Text position</legend>
+                      <div className="grid grid-cols-2 gap-2">
+                        {([
+                          ["center", "Center"],
+                          ["lower", "Lower (clear of the clock)"],
+                        ] as const).map(([v, label]) => (
+                          <button
+                            key={v}
+                            type="button"
+                            aria-pressed={position === v}
+                            onClick={() => setPosition(v)}
+                            className={`h-10 rounded-xl border text-xs font-semibold ${
+                              position === v ? "border-accent bg-accent/10 text-text" : "border-border text-text-muted hover:border-accent/50"
+                            }`}
+                          >
+                            {label}
+                          </button>
+                        ))}
+                      </div>
+                    </fieldset>
+                  </div>
+                )}
+
+                <div className="bg-gradient-to-br from-accent/10 to-primary/10 border border-accent/20 rounded-2xl p-5">
+                  <p className="text-xs text-text-muted mb-3 text-center">
+                    {device.width} × {device.height} px · PNG · Free
+                  </p>
                   <Button
                     onClick={handleDownload}
-                    disabled={downloading}
+                    disabled={busy}
                     size="lg"
                     className="w-full bg-gradient-accent hover:opacity-90 text-button-text font-bold gap-2 text-base"
                   >
-                    {downloading ? (
-                      <><RefreshCw className="w-5 h-5 animate-spin" />Generating…</>
-                    ) : (
-                      <><Download className="w-5 h-5" />Download Wallpaper</>
-                    )}
+                    {busy ? <><RefreshCw className="w-5 h-5 animate-spin" />Creating…</> : <><Download className="w-5 h-5" />Download wallpaper</>}
                   </Button>
-                  <p className="text-xs text-text-muted text-center mt-3">
-                    iPhone 14 Pro Max resolution · Works on all phones
-                  </p>
-                </div>
-
-                {/* How to set */}
-                <div className="bg-surface border border-border rounded-2xl p-5">
-                  <h3 className="font-semibold text-text mb-3 flex items-center gap-2">
-                    <Smartphone className="w-4 h-4 text-accent" />
-                    How to set as lockscreen
-                  </h3>
-                  <ol className="space-y-2 text-sm text-text-muted">
-                    <li className="flex gap-2"><span className="w-5 h-5 rounded-full bg-accent/15 text-accent text-xs font-bold flex items-center justify-center shrink-0">1</span>Download the image above</li>
-                    <li className="flex gap-2"><span className="w-5 h-5 rounded-full bg-accent/15 text-accent text-xs font-bold flex items-center justify-center shrink-0">2</span><span><strong className="text-text">iPhone:</strong> Photos → Share → Use as Wallpaper → Lock Screen</span></li>
-                    <li className="flex gap-2"><span className="w-5 h-5 rounded-full bg-accent/15 text-accent text-xs font-bold flex items-center justify-center shrink-0">3</span><span><strong className="text-text">Android:</strong> Gallery → Set as → Lock Screen</span></li>
-                  </ol>
+                  {canShareFiles && (
+                    <Button onClick={handleShare} disabled={busy} variant="outline" size="lg" className="w-full mt-2 gap-2">
+                      <Share2 className="w-5 h-5" /> Save to Photos
+                    </Button>
+                  )}
                 </div>
               </div>
-            </div>
+            </section>
 
-            {/* Why section */}
-            <div className="mt-16 grid md:grid-cols-3 gap-6">
-              {[
-                { icon: Cross, title: "Start with God", body: "Your lockscreen is the first thing you see every morning. Make it a moment of prayer, not distraction." },
-                { icon: Heart, title: "Carry Scripture", body: "Each time you unlock your phone, you encounter the Word of God. Small moments, deep transformation." },
-                { icon: BookOpen, title: "100 Verses · 8 Styles", body: "Mix and match to find the combination that speaks to your heart. Change it whenever you need a new word." },
-              ].map(({ icon: Icon, title, body }) => (
-                <div key={title} className="bg-surface border border-border rounded-2xl p-6 text-center">
-                  <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
-                    <Icon className="w-6 h-6 text-accent" />
-                  </div>
-                  <h3 className="font-display text-lg font-bold text-text mb-2">{title}</h3>
-                  <p className="text-sm text-text-muted leading-relaxed">{body}</p>
+            {/* ── Gallery ── */}
+            <section id="gallery" className="mt-16 scroll-mt-24">
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-2">Catholic Wallpaper Ideas</h2>
+              <p className="text-text-muted mb-6">Start from one of these designs and change anything you like.</p>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                {GALLERY.map((g) => (
+                  <figure key={g.file} className="group">
+                    <button type="button" onClick={() => applyText(g.text, g.theme, g.design)} className="block w-full rounded-2xl overflow-hidden border border-border hover:border-accent transition-colors">
+                      <img
+                        src={`/lockscreens/${g.file}.svg`}
+                        alt={g.alt}
+                        width={390}
+                        height={846}
+                        loading="lazy"
+                        decoding="async"
+                        className="w-full h-auto block"
+                      />
+                    </button>
+                    <figcaption className="text-xs text-text-muted mt-2 text-center">{g.text.ref} · {g.theme}</figcaption>
+                  </figure>
+                ))}
+              </div>
+            </section>
+
+            <BlogArticleAd slot="3458521905" onlyOnBlog={false} />
+
+            {/* ── Library ── */}
+            <section id="library" className="mt-14">
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-2">Bible Verses and Prayers for Your Lock Screen</h2>
+              <p className="text-text-muted mb-6">
+                Every text in the maker, grouped by theme. Tap “Use this” to load it, then edit the words, color and size.
+              </p>
+              <nav aria-label="Library sections" className="flex flex-wrap gap-2 mb-8">
+                {groups.map((g) => (
+                  <a key={g.id} href={`#${g.id}`} className="text-xs font-semibold px-3 py-1.5 rounded-full bg-background-muted text-text-muted hover:text-accent">
+                    {g.title.replace("Bible Verses: ", "")}
+                  </a>
+                ))}
+              </nav>
+              {groups.map((g) => (
+                <div key={g.id} id={g.id} className="mb-10 scroll-mt-24">
+                  <h3 className="font-display text-xl font-bold text-text mb-1">{g.title}</h3>
+                  {g.intro && <p className="text-sm text-text-muted mb-4">{g.intro}</p>}
+                  <ul className="grid sm:grid-cols-2 gap-3 mt-3">
+                    {g.items.map((t) => (
+                      <li key={`${t.ref}-${t.text.slice(0, 12)}`} className="bg-surface border border-border rounded-xl p-4 flex flex-col gap-2">
+                        <blockquote className="text-sm italic text-text leading-relaxed">“{t.text}”</blockquote>
+                        <div className="flex items-center justify-between gap-2">
+                          <cite className="not-italic text-xs font-semibold text-accent">{t.ref}</cite>
+                          <button type="button" onClick={() => applyText(t)} className="text-xs font-semibold text-text hover:text-accent underline underline-offset-2">
+                            Use this
+                          </button>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               ))}
-            </div>
+            </section>
 
-            {/* SEO rich text block */}
-            <div className="mt-14 bg-surface border border-border rounded-2xl p-8 max-w-3xl mx-auto">
-              <h2 className="font-display text-2xl font-bold text-text mb-5">
-                Why Use a Catholic Lockscreen Wallpaper?
-              </h2>
-              <div className="space-y-4 text-text-muted text-sm leading-relaxed">
-                <p>
-                  The average person unlocks their smartphone over 90 times a day. That's 90 opportunities — most of them wasted on notifications, social media, or idle scrolling. A <strong className="text-text">Catholic lockscreen wallpaper</strong> transforms each unlock into a brief encounter with the Word of God. It's one of the simplest and most effective ways to keep your faith at the center of your daily life.
-                </p>
-                <p>
-                  Our free <strong className="text-text">Bible verse wallpapers for iPhone and Android</strong> are designed specifically for Catholic Christians who want to carry Scripture with them throughout the day. Each design features a carefully chosen passage from the Old or New Testament, rendered in a beautiful typographic layout with sacred color themes inspired by Catholic liturgical tradition.
-                </p>
-                <p>
-                  Unlike generic Christian wallpapers, our designs are rooted in the Catholic tradition — featuring the cross, liturgical colors (deep blue for Advent, crimson for martyrs, gold for solemnities), and Scripture passages that resonate with the Catholic sacramental and devotional life. Whether you're looking for a <strong className="text-text">Catholic phone wallpaper</strong> for Lent, Advent, or everyday use, you'll find a design that speaks to your heart.
-                </p>
-                <p>
-                  All wallpapers are generated at <strong className="text-text">1290 × 2796 pixels</strong> — the native resolution of the iPhone 14 Pro Max — ensuring a crisp, sharp image on any modern smartphone. They are completely free to download, with no account or email required. Simply choose your verse, pick a color theme, and tap Download.
-                </p>
+            {/* ── How to set ── */}
+            <section id="how-to-set" className="mt-6 max-w-3xl mx-auto scroll-mt-24">
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-4">How to Set Your Catholic Lockscreen</h2>
+              <h3 className="font-display text-lg font-bold text-text mt-6 mb-2">On iPhone (iOS 16 and later)</h3>
+              <ol className="list-decimal pl-5 space-y-2 text-text-muted text-sm leading-relaxed">
+                <li>Download the wallpaper, or tap <strong className="text-text">Save to Photos</strong> if your phone shows that button.</li>
+                <li>Open <strong className="text-text">Photos</strong>, tap the image, then tap the <strong className="text-text">Share</strong> icon.</li>
+                <li>Choose <strong className="text-text">Use as Wallpaper</strong>. Pinch to adjust, and turn off Depth Effect if it hides the verse.</li>
+                <li>Tap <strong className="text-text">Add</strong>, then <strong className="text-text">Set as Wallpaper Pair</strong> or customize the Home Screen separately.</li>
+              </ol>
+              <p className="text-sm text-text-muted mt-3">
+                Tip: you can link a different lock screen to a Focus. Many people keep a Bible verse wallpaper on a Sleep or Prayer Focus so it greets them first thing in the morning.
+              </p>
+              <h3 className="font-display text-lg font-bold text-text mt-6 mb-2">On Android (Pixel, Samsung and others)</h3>
+              <ol className="list-decimal pl-5 space-y-2 text-text-muted text-sm leading-relaxed">
+                <li>Download the wallpaper. It is saved to Downloads and appears in Photos or Gallery.</li>
+                <li>Open the image, tap the three-dot menu and choose <strong className="text-text">Set as wallpaper</strong>.</li>
+                <li>Select <strong className="text-text">Lock screen</strong> (or both screens) and confirm.</li>
+                <li>On Samsung: <strong className="text-text">Settings → Wallpaper and style → Change wallpapers → Gallery</strong>.</li>
+              </ol>
+            </section>
+
+            {/* ── Colors ── */}
+            <section className="mt-12 max-w-3xl mx-auto">
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-4">What the Colors Mean</h2>
+              <p className="text-text-muted text-sm leading-relaxed mb-4">
+                The palette follows the colors the Church uses in the liturgy, so your phone can keep the season with you. Read more in our{" "}
+                <Link to="/blog/liturgical-seasons-guide/" className={linkClass}>guide to the liturgical seasons</Link>.
+              </p>
+              <div className="overflow-x-auto rounded-xl border border-border">
+                <table className="w-full text-sm text-left">
+                  <thead className="bg-background-muted text-text">
+                    <tr>
+                      <th className="p-3 font-semibold">Color</th>
+                      <th className="p-3 font-semibold">Meaning and when to use it</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {THEMES.map((t) => (
+                      <tr key={t.id} className="border-t border-border">
+                        <td className="p-3 font-medium text-text whitespace-nowrap">
+                          <span className="inline-block w-3 h-3 rounded-full mr-2 align-middle" style={{ background: t.bg2 }} />
+                          {t.id}
+                        </td>
+                        <td className="p-3 text-text-muted">{t.meaning}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
+            </section>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-8 mb-5">
-                About Our Catholic Wallpaper Designs
-              </h2>
-              <div className="space-y-4 text-text-muted text-sm leading-relaxed">
-                <p>
-                  Each <strong className="text-text">Catholic lockscreen</strong> is generated in real time using HTML5 Canvas — no images are stored on our servers. The design includes a decorative cross, the verse text in an elegant serif font, the Scripture reference, a themed color tag, and the Guide Catholic watermark. The result is a clean, beautiful wallpaper that looks professional on any phone screen.
-                </p>
-                <p>
-                  We offer 8 color themes: <strong className="text-text">Deep Blue</strong> (inspired by Our Lady's mantle), <strong className="text-text">Royal Purple</strong> (the color of Advent and Lent), <strong className="text-text">Sacred Gold</strong> (for solemnities and feasts), <strong className="text-text">Forest Green</strong> (Ordinary Time), <strong className="text-text">Crimson</strong> (for martyrs and the Holy Spirit), <strong className="text-text">Midnight</strong> (for contemplative prayer), <strong className="text-text">Rose</strong> (Gaudete and Laetare Sundays), and <strong className="text-text">Slate</strong> (for peace and the Holy Spirit as dove).
-                </p>
-                <p>
-                  The 100 Scripture passages are drawn from the Psalms, the Gospels, the Letters of Saint Paul, and the prophets — covering themes of strength, peace, love, faith, hope, courage, prayer, and the Eucharist. New verses and themes will be added regularly.
-                </p>
-              </div>
-            </div>
-
-            {/* FAQ */}
-            <div className="mt-12 max-w-3xl mx-auto">
-              <BlogArticleAd slot="3458521905" onlyOnBlog={false} />
-              <h2 className="font-display text-2xl font-bold text-text mb-6 flex items-center gap-2">
-                <HelpCircle className="w-6 h-6 text-accent" />
-                Frequently Asked Questions
-              </h2>
-              <div className="space-y-3">
-                {faqs.map((faq, i) => (
-                  <div key={i} className="bg-surface border border-border rounded-xl overflow-hidden">
-                    <button
-                      onClick={() => setOpenFaq(openFaq === i ? null : i)}
-                      className="w-full flex items-center justify-between p-5 text-left hover:bg-accent/5 transition-colors"
-                    >
-                      <span className="font-semibold text-text text-sm pr-4">{faq.q}</span>
-                      <ChevronDown className={`w-5 h-5 text-accent shrink-0 transition-transform ${openFaq === i ? "rotate-180" : ""}`} />
-                    </button>
-                    {openFaq === i && (
-                      <div className="px-5 pb-5 text-sm text-text-muted leading-relaxed border-t border-border pt-4">
-                        {faq.a}
-                      </div>
-                    )}
+            {/* ── Why ── */}
+            <section className="mt-12 max-w-3xl mx-auto">
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-4">Why Put Scripture on Your Lock Screen?</h2>
+              <div className="grid sm:grid-cols-3 gap-4 mb-6">
+                {[
+                  { icon: Cross, title: "A first word for God", body: "Your lock screen is the first thing you see in the morning. Let it be a word of prayer." },
+                  { icon: Heart, title: "Prayer in small moments", body: "Each unlock becomes a two-second aspiration: read the line, offer the next hour to God." },
+                  { icon: BookOpen, title: "Scripture memorized", body: "Seeing one verse all week is one of the easiest ways to learn it by heart." },
+                ].map(({ icon: Icon, title, body }) => (
+                  <div key={title} className="bg-surface border border-border rounded-2xl p-5 text-center">
+                    <Icon className="w-6 h-6 text-accent mx-auto mb-3" />
+                    <h3 className="font-display font-bold text-text mb-1">{title}</h3>
+                    <p className="text-sm text-text-muted leading-relaxed">{body}</p>
                   </div>
                 ))}
               </div>
-            </div>
+              <div className="space-y-4 text-text-muted text-sm leading-relaxed">
+                <p>
+                  The Church has always surrounded believers with reminders of God: a crucifix on the wall, holy water by the door, an image of Our Lady at the bedside. A Catholic lockscreen wallpaper is the same instinct for the device most of us pick up dozens of times a day. Psalm 119:105 calls God’s word “a lamp to my feet,” and a verse on your screen keeps that lamp in your hand.
+                </p>
+                <p>
+                  Choose a verse for what you are living now: a line of trust before a hard week, a Marian prayer for a month of devotion, Isaiah’s promise of Emmanuel through Advent, or the angels’ song through the Christmas season. Change it with the seasons, the way the altar cloths change at Mass. For a new verse every morning, see our{" "}
+                  <Link to="/daily-verses/" className={linkClass}>daily Bible verse</Link>, or open a{" "}
+                  <Link to="/random-bible-verse/" className={linkClass}>random Bible verse</Link> and paste it into the maker.
+                </p>
+                <p>
+                  Looking for a verse on a particular need? Browse our collections of{" "}
+                  <Link to="/blog/bible-verses-about-strength/" className={linkClass}>Bible verses about strength</Link>,{" "}
+                  <Link to="/blog/bible-verses-about-peace/" className={linkClass}>peace</Link>,{" "}
+                  <Link to="/blog/bible-verses-about-hope/" className={linkClass}>hope</Link> and{" "}
+                  <Link to="/blog/bible-verses-for-anxiety-and-fear/" className={linkClass}>anxiety and fear</Link>, or read any chapter in full on{" "}
+                  <a href="https://catholicbibleonline.com/bible/" target="_blank" rel="noopener" className={linkClass}>Catholic Bible Online</a>.
+                </p>
+              </div>
+            </section>
 
-            {/* CTA */}
+            {/* ── FAQ (answers stay in the HTML for search engines) ── */}
+            <section className="mt-12 max-w-3xl mx-auto">
+              <h2 className="font-display text-2xl md:text-3xl font-bold text-text mb-4">Frequently Asked Questions</h2>
+              <div className="space-y-3">
+                {FAQS.map((f) => (
+                  <details key={f.q} className="bg-surface border border-border rounded-xl group">
+                    <summary className="cursor-pointer list-none p-5 font-semibold text-text text-sm flex justify-between gap-4 [&::-webkit-details-marker]:hidden">
+                      {f.q}
+                      <span className="text-accent group-open:rotate-45 transition-transform">+</span>
+                    </summary>
+                    <p className="px-5 pb-5 text-sm text-text-muted leading-relaxed">{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+
             <ArticleBottomCTA
-              title="How deep is your Catholic life?"
-              description="A lockscreen is a start. Discover how you're living across all 5 areas of Catholic life with our free 30-question assessment."
+              title="A wallpaper is a start"
+              description="Take our free Catholic life assessment and get a simple plan for prayer, Mass and the sacraments that fits your week."
             />
-
           </div>
         </main>
 

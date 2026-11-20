@@ -1,6 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { useNoAds } from "@/lib/adsense";
 import { QuizHeader } from "@/components/quiz/QuizHeader";
 import { ProgressBar } from "@/components/quiz/ProgressBar";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
@@ -13,6 +14,7 @@ import { useQuizSession } from "@/hooks/useQuizSession";
 const MOTIVATION_AFTER = [7, 15, 25]; // show after answering question 7, 15, 25
 
 const QuizPage = () => {
+  useNoAds();
   const navigate = useNavigate();
   const { sessionId, session, createSession, updateAnswers, clearSession } = useQuizSession();
   const [currentQuestion, setCurrentQuestion] = useState(0);

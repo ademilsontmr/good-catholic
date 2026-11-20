@@ -272,7 +272,7 @@ export default function CanCatholicsEatMeat() {
               },
               {
                 question: "What if a Friday falls on a solemnity like Christmas or a major feast?",
-                answer: "Canon 1251 explicitly states that the abstinence obligation does not apply on solemnities. If Christmas, the Assumption, or another solemnity falls on a Friday, you are not required to abstain from meat. However, this exception does not apply to the Fridays of Lent."
+                answer: "Canon 1251 explicitly states that the abstinence obligation does not apply on solemnities. If Christmas, the Assumption, or another solemnity falls on a Friday, you are not required to abstain from meat. The exception holds even in Lent: when the Solemnity of St. Joseph (March 19) or the Annunciation (March 25) falls on a Friday of Lent, abstinence is lifted that day. Good Friday itself is never a solemnity, so its fast and abstinence always apply."
               },
               {
                 question: "Does chicken count as meat for Friday abstinence?",

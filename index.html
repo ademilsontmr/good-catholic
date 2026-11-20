@@ -53,12 +53,19 @@
       #root { min-height: 100vh; }
     </style>
 
-    <!-- Google AdSense (auto ads). Publisher matches public/ads.txt. -->
-    <script
-      async
-      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7369074864505211"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Google AdSense (auto ads). Publisher matches public/ads.txt.
+         Not loaded on the quiz pages (/quiz-intro/, /quiz/); keep this path
+         check in sync with src/lib/adsense.ts. -->
+    <script>
+      (function () {
+        if (/^\/quiz(-intro)?(\/|$)/.test(location.pathname)) return;
+        var s = document.createElement("script");
+        s.async = true;
+        s.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7369074864505211";
+        s.crossOrigin = "anonymous";
+        document.head.appendChild(s);
+      })();
+    </script>
   </head>
 
   <body>

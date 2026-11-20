@@ -3,12 +3,15 @@ import { INTERLINK_MAP } from "@/lib/interlinks";
 import { POPE_INTERLINK_MAP } from "@/data/popeInterlinks";
 import { SAINT_OF_DAY_INTERLINK_MAP } from "@/data/saintOfDayInterlinks";
 import { CATHOLIC_FEAST_DATE_INTERLINK_MAP } from "@/data/catholicFeastDateInterlinks";
+import { splitScriptureRefs } from "@/lib/scriptureLinks";
 
 interface LinkedTextProps {
   children: string;
   className?: string;
   /** Slug of the current article — prevents linking to itself */
   currentSlug?: string;
+  /** Link Bible references ("Tobit 8:4–8") to their chapter on Catholic Bible Online. */
+  scripture?: boolean;
 }
 
 // Single-word pope names ("John", "Mark", "Peter", "Cornelius"…) collide with Scripture references and
@@ -34,15 +37,16 @@ function findWholePhrase(text: string, phrase: string): number {
  * Scans the text for phrases in INTERLINK_MAP and wraps them in <Link> tags.
  * Each phrase is only linked ONCE per paragraph to avoid over-optimization.
  */
-export function LinkedText({ children, className, currentSlug }: LinkedTextProps) {
+export function LinkedText({ children, className, currentSlug, scripture = false }: LinkedTextProps) {
   const text = children;
 
   // Sort phrases by length descending so longer phrases match first
   const phrases = Object.keys(COMBINED_MAP).sort((a, b) => b.length - a.length);
 
   // Build segments: array of { text: string, url?: string }
-  type Segment = { text: string; url?: string };
-  let segments: Segment[] = [{ text }];
+  // `href` marks an outbound Scripture link; those segments are left alone by the interlink pass.
+  type Segment = { text: string; url?: string; href?: string };
+  let segments: Segment[] = scripture ? splitScriptureRefs(text) : [{ text }];
   const usedUrls = new Set<string>();
 
   for (const phrase of phrases) {
@@ -56,7 +60,7 @@ export function LinkedText({ children, className, currentSlug }: LinkedTextProps
     let matched = false;
 
     for (const seg of segments) {
-      if (seg.url || matched) {
+      if (seg.url || seg.href || matched) {
         // Already a link or phrase already matched — don't re-process
         newSegments.push(seg);
         continue;
@@ -85,7 +89,17 @@ export function LinkedText({ children, className, currentSlug }: LinkedTextProps
   return (
     <p className={className}>
       {segments.map((seg, i) =>
-        seg.url ? (
+        seg.href ? (
+          <a
+            key={i}
+            href={seg.href}
+            target="_blank"
+            rel="noopener"
+            className="text-accent hover:text-accent/80 underline underline-offset-2 decoration-accent/40 hover:decoration-accent transition-colors"
+          >
+            {seg.text}
+          </a>
+        ) : seg.url ? (
           <Link
             key={i}
             to={seg.url}

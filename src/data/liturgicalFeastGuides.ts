@@ -1452,7 +1452,7 @@ export const LITURGICAL_FEAST_GUIDES: LiturgicalFeastGuide[] = [
         id: "novena-before-christmas",
         heading: "The nine days before Christmas: Las Posadas, Simbang Gabi, and the O Antiphons",
         paragraphs: [
-          "From December 16 to 24 several Catholic cultures keep a nine-day novena of festivities that leads straight into Christmas Eve.",
+          "From December 16 to 24 several Catholic cultures keep a nine-day novena of festivities that leads straight into Christmas Eve. For the 2026 night-by-night calendars, see the guides to [[/blog/las-posadas-2026/|Las Posadas 2026]] and [[/blog/simbang-gabi-2026/|Simbang Gabi 2026]].",
         ],
         table: {
           caption: "The great pre-Christmas novenas",

@@ -361,7 +361,7 @@ export const SAINT_LIFE_GUIDES: SaintLifeGuide[] = [
         heading: "How to keep the feast",
         paragraphs: [
           `Read the Gospel of the day and, if you want a verse that matches her name, stay with the light sayings in {{${CBO}john/8/|John 8 at Catholic Bible Online}}, where Jesus calls himself the light of the world. Lucy points to him. She is not a second source of light.`,
-          "A simple household custom is enough: one candle at supper, her name in the prayer, and no lecture about the legend unless a child asks. If a child asks, say the eyes are a story people told later, and the true part is that she died rather than deny Christ.",
+          "A simple household custom is enough: one candle at supper, her name in the prayer, and no lecture about the legend unless a child asks. If a child asks, say the eyes are a story people told later, and the true part is that she died rather than deny Christ. For prayers for eyesight and the other saints invoked for the eyes, see the guide to the [[/blog/patron-saint-of-eyes/|patron saints of eyes]].",
         ],
       },
       {

@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
+import { useNoAds } from "@/lib/adsense";
 import { FileText, Clock, CheckCircle, ArrowRight, Download, Sparkles, Users, Star, TrendingUp, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/landing/Navbar";
 import { useState } from "react";
 
 export default function QuizIntro() {
+  useNoAds();
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const faqs = [

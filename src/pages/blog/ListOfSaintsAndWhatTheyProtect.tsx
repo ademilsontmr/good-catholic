@@ -284,6 +284,51 @@ export default function ListOfSaintsAndWhatTheyProtect() {
                 <Link to="/blog/st-rita-novena-impossible-causes/" className="text-accent underline underline-offset-2">St. Rita novena</Link>, and articles on{" "}
                 <Link to="/blog/when-is-michaelmas-2026/" className="text-accent underline underline-offset-2">Michaelmas</Link>.
               </p>
+              <p className="text-text leading-relaxed mb-6">
+                Patron guides by need: 
+                <Link to="/blog/patron-saint-of-nurses/" className="text-accent underline underline-offset-2">nurses</Link>, 
+                <Link to="/blog/patron-saint-of-teachers/" className="text-accent underline underline-offset-2">teachers</Link>, 
+                <Link to="/blog/patron-saint-of-students/" className="text-accent underline underline-offset-2">students and exams</Link>, 
+                <Link to="/blog/patron-saint-of-firefighters/" className="text-accent underline underline-offset-2">firefighters and first responders</Link>, 
+                <Link to="/blog/patron-saint-of-pregnancy/" className="text-accent underline underline-offset-2">pregnancy and safe delivery</Link>, and 
+                <Link to="/blog/st-raphael-prayer-for-a-spouse/" className="text-accent underline underline-offset-2">St. Raphael for finding a spouse</Link>.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                Health and healing patrons: 
+                <Link to="/blog/patron-saint-of-eyes/" className="text-accent underline underline-offset-2">eyes and eyesight</Link>, 
+                <Link to="/blog/patron-saint-of-teeth/" className="text-accent underline underline-offset-2">teeth and toothache</Link>, 
+                <Link to="/blog/patron-saint-of-headaches/" className="text-accent underline underline-offset-2">headaches and migraines</Link>, 
+                <Link to="/blog/patron-saint-of-chronic-pain/" className="text-accent underline underline-offset-2">chronic and back pain</Link>, 
+                <Link to="/blog/patron-saint-of-the-deaf/" className="text-accent underline underline-offset-2">the deaf and hearing loss</Link>, and 
+                <Link to="/blog/patron-saint-of-cancer-patients/" className="text-accent underline underline-offset-2">cancer patients</Link>.
+              </p>
+              <p className="text-text leading-relaxed mb-6">
+                More patron guides:{" "}
+                <Link to="/blog/patron-saint-of-workers/" className="text-accent underline underline-offset-2">workers</Link>,{" "}
+                <Link to="/blog/patron-saint-of-fathers/" className="text-accent underline underline-offset-2">fathers</Link>,{" "}
+                <Link to="/blog/patron-saint-of-mothers/" className="text-accent underline underline-offset-2">mothers</Link>,{" "}
+                <Link to="/blog/patron-saint-of-children/" className="text-accent underline underline-offset-2">children</Link>,{" "}
+                <Link to="/blog/patron-saint-of-youth/" className="text-accent underline underline-offset-2">youth</Link>,{" "}
+                <Link to="/blog/patron-saint-of-athletes/" className="text-accent underline underline-offset-2">athletes</Link>,{" "}
+                <Link to="/blog/patron-saint-of-doctors/" className="text-accent underline underline-offset-2">doctors</Link>,{" "}
+                <Link to="/blog/patron-saint-of-travelers/" className="text-accent underline underline-offset-2">travelers</Link>,{" "}
+                <Link to="/blog/patron-saint-of-sailors/" className="text-accent underline underline-offset-2">sailors</Link>,{" "}
+                <Link to="/blog/patron-saint-of-animals/" className="text-accent underline underline-offset-2">animals</Link>,{" "}
+                <Link to="/blog/patron-saint-of-the-environment/" className="text-accent underline underline-offset-2">the environment</Link>,{" "}
+                <Link to="/blog/patron-saint-of-musicians/" className="text-accent underline underline-offset-2">musicians</Link>,{" "}
+                <Link to="/blog/patron-saint-of-police-officers/" className="text-accent underline underline-offset-2">police officers</Link>,{" "}
+                <Link to="/blog/patron-saint-of-the-military/" className="text-accent underline underline-offset-2">the military</Link>,{" "}
+                <Link to="/blog/patron-saint-of-missionaries/" className="text-accent underline underline-offset-2">missionaries</Link>,{" "}
+                <Link to="/blog/patron-saint-of-immigrants/" className="text-accent underline underline-offset-2">immigrants</Link>,{" "}
+                <Link to="/blog/patron-saint-of-impossible-causes/" className="text-accent underline underline-offset-2">impossible causes</Link>,{" "}
+                <Link to="/blog/patron-saint-of-protection/" className="text-accent underline underline-offset-2">protection against evil</Link>,{" "}
+                <Link to="/blog/patron-saint-of-pandemics/" className="text-accent underline underline-offset-2">pandemics</Link>,{" "}
+                <Link to="/blog/patron-saint-of-love/" className="text-accent underline underline-offset-2">love and couples</Link>,{" "}
+                <Link to="/blog/patron-saint-of-addiction/" className="text-accent underline underline-offset-2">addiction</Link>, and{" "}
+                <Link to="/blog/patron-saint-of-prisoners/" className="text-accent underline underline-offset-2">prisoners</Link>.
+                {" "}See also the full list of{" "}
+                <Link to="/blog/us-saints-and-blesseds/" className="text-accent underline underline-offset-2">American saints and blesseds</Link>.
+              </p>
 
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saints for pregnancy loss and infant death</h2>

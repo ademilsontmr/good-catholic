@@ -88,9 +88,9 @@ export default function ChristmasMassNearMe() {
                   <li><strong>Christmas Eve:</strong> Thursday, December 24, 2026</li>
                   <li><strong>Christmas Day:</strong> Friday, December 25, 2026 (Holy Day of Obligation)</li>
                   <li><strong>Feast of the Holy Family:</strong> Sunday, December 27, 2026</li>
-                  <li><strong>Solemnity of Mary (New Year's Day):</strong> Thursday, January 1, 2027 (Holy Day of Obligation)</li>
-                  <li><strong>Epiphany:</strong> Sunday, January 4, 2027 (in the US)</li>
-                  <li><strong>Baptism of the Lord:</strong> Sunday, January 11, 2027</li>
+                  <li><strong>Solemnity of Mary (New Year's Day):</strong> Friday, January 1, 2027 (Holy Day of Obligation)</li>
+                  <li><strong>Epiphany:</strong> Sunday, January 3, 2027 (in the US)</li>
+                  <li><strong>Baptism of the Lord:</strong> Sunday, January 10, 2027</li>
                 </ul>
               </div>
 

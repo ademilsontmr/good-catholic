@@ -160,7 +160,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "January and February memorials",
         "paragraphs": [
           "Epiphany (Sunday, January 3, 2027, in the United States) manifests Christ to the nations and closes the Christmas season for most households on that Sunday, though Candlemas on February 2 still extends the mystery of the Child presented in the Temple. The blessing of chalk and door lintels is popular devotion rooted in pilgrim kings; teach children that the custom blesses the home, not that it replaces Mass.",
-          "January 22 is the Day of Prayer for the Legal Protection of Unborn Children in the United States—a civic calendar insertion that shapes parish intercessions without changing the Marian and saint memorials around it. February 2 blesses candles and recalls Simeon's words in {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:22–40}}. Ash Wednesday 2027 falls on February 17; families who pray through Candlemas week do not yet fast as in Lent, but they can already name what must change when ashes arrive.",
+          "January 22 is the Day of Prayer for the Legal Protection of Unborn Children in the United States—a civic calendar insertion that shapes parish intercessions without changing the Marian and saint memorials around it. February 2 blesses candles and recalls Simeon's words in {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:22–40}}. Ash Wednesday 2027 falls on February 10; families who pray through Candlemas week do not yet fast as in Lent, but they can already name what must change when ashes arrive.",
           "Winter saints in January—Neumann, Anthony Abbot, Agnes, Paul's conversion, Bosco in the companion January series—show how Catholic prayer keeps working when Christmas trees are down. Their collects are short enough for breakfast tables if someone reads them from a Magnificat or diocesan worship aid."
         ],
         "list": [
@@ -670,7 +670,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
             [
               "Dec 19",
               "O Root of Jesse",
-              "Read {{https://catholicbibleonline.com/bible/isaiah/11/1|Isaiah 11:1}} aloud."
+              "Read {{https://catholicbibleonline.com/bible/isaiah/11/|Isaiah 11:1}} aloud."
             ],
             [
               "Dec 20",
@@ -1126,7 +1126,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "label": "Magnificat",
-        "value": "{{https://catholicbibleonline.com/bible/luke/1/46|Luke 1:46–55}} fits domestic Vespers"
+        "value": "{{https://catholicbibleonline.com/bible/luke/1/|Luke 1:46–55}} fits domestic Vespers"
       },
       {
         "label": "DOGM",

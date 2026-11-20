@@ -18,7 +18,7 @@ const distDir = path.join(root, "dist");
 const serverEntry = path.join(root, ".ssg-build/server/entry-server.js");
 
 const CONCURRENCY = 8;
-const SKIP_PREFIXES = ["/quiz", "/checkout", "/get-result", "/result", "/lockscreen"];
+const SKIP_PREFIXES = ["/quiz", "/checkout", "/get-result", "/result"];
 
 async function main() {
   if (!fs.existsSync(serverEntry)) {

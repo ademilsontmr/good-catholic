@@ -153,11 +153,11 @@ export default function PatronSaintsGuide() {
               </LinkedText>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li><strong>Doctors:</strong> St. Luke, St. Raphael</li>
-                <li><strong>Nurses:</strong> St. Camillus de Lellis, St. John of God</li>
-                <li><strong>Teachers:</strong> St. Thomas Aquinas, St. John Baptist de la Salle</li>
+                <li><strong><Link to="/blog/patron-saint-of-nurses/" className="text-accent underline underline-offset-2">Nurses</Link>:</strong> St. Camillus de Lellis, St. John of God</li>
+                <li><strong><Link to="/blog/patron-saint-of-teachers/" className="text-accent underline underline-offset-2">Teachers</Link>:</strong> St. Thomas Aquinas, St. John Baptist de la Salle</li>
                 <li><strong>Lawyers:</strong> St. Thomas More, St. Ivo</li>
                 <li><strong>Police officers:</strong> St. Michael the Archangel</li>
-                <li><strong>Firefighters:</strong> St. Florian</li>
+                <li><strong><Link to="/blog/patron-saint-of-firefighters/" className="text-accent underline underline-offset-2">Firefighters</Link>:</strong> St. Florian</li>
                 <li><strong>Musicians:</strong> St. Cecilia</li>
                 <li><strong>Writers:</strong> St. Francis de Sales</li>
                 <li><strong>Scientists:</strong> St. Albert the Great</li>

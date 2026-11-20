@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 846" width="390" height="846" role="img" aria-label="Be still and know that I am God. — Psalm 46:10">
+<title>Peace Catholic lockscreen wallpaper: Psalm 46:10</title>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#080c18"/><stop offset="0.55" stop-color="#141c30"/><stop offset="1" stop-color="#040810"/></linearGradient>
+<radialGradient id="glow" cx="195" cy="328.21999999999997" r="370.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8ab4f8" stop-opacity="0.2"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></radialGradient>
+<radialGradient id="ray" cx="195" cy="328.21999999999997" r="409.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8ab4f8" stop-opacity="0.2"/><stop offset="0.6" stop-color="#8ab4f8" stop-opacity="0.05"/><stop offset="1" stop-color="#8ab4f8" stop-opacity="0"/></radialGradient>
+<radialGradient id="vig" cx="0.5" cy="0.5" r="0.75"><stop offset="0.35" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.55"/></radialGradient>
+<linearGradient id="m" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="rgb(104,135,186)"/><stop offset="0.35" stop-color="rgb(191,214,251)"/><stop offset="0.5" stop-color="rgb(156,191,249)"/><stop offset="0.7" stop-color="rgb(197,218,252)"/><stop offset="1" stop-color="rgb(97,126,174)"/></linearGradient>
+</defs>
+<rect width="390" height="846" fill="url(#g)"/><rect width="390" height="846" fill="url(#glow)"/>
+<g fill="url(#ray)"></g>
+
+<rect width="390" height="846" fill="url(#vig)"/>
+<polygon points="190.6,313.9 199.4,313.9 197.1,319.7 197.1,323.0 203.5,323.0 209.3,320.7 209.3,329.5 203.5,327.2 197.1,327.2 197.1,347.1 199.4,352.9 190.6,352.9 192.9,347.1 192.9,327.2 186.5,327.2 180.7,329.5 180.7,320.7 186.5,323.0 192.9,323.0 192.9,319.7" fill="url(#m)"/>
+<text x="195" y="384.21999999999997" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="9.5" font-weight="600" letter-spacing="3.2" fill="#8ab4f8">PEACE</text>
+<g font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-style="italic" font-weight="400" font-size="22" fill="#e8eeff" text-anchor="middle"><text x="195" y="442.7">Be still and know that I am</text><text x="195" y="470.9">God.</text></g>
+<g stroke="#8ab4f8" stroke-opacity="0.7" stroke-width="0.8"><line x1="161" y1="494.53999999999996" x2="188" y2="494.53999999999996"/><line x1="202" y1="494.53999999999996" x2="229" y2="494.53999999999996"/></g>
+<rect x="192.9" y="492.43999999999994" width="4.2" height="4.2" fill="#8ab4f8" transform="rotate(45 195 494.53999999999996)"/>
+<text x="195" y="520.5" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="10.5" font-weight="600" letter-spacing="2.4" fill="#8ab4f8">PSALM 46:10</text>
+<text x="195" y="786.8" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="7" letter-spacing="2.2" fill="#8090b0" fill-opacity="0.7">GUIDECATHOLIC.COM</text>
+</svg>
