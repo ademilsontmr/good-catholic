@@ -100,6 +100,16 @@ export default function SacredHeartPromises() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Margaret Mary and the Visions at Paray-le-Monial
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">
+                Margaret Mary Alacoque was born in Burgundy in 1647 and entered the Visitation monastery at Paray-le-Monial in 1671. Between December 1673 and 1675 she reported a series of visions in which Christ showed her His Heart, burning with love and wounded by ingratitude. In the best-known vision, in June 1675 during the octave of Corpus Christi, she understood that He asked for Communion of reparation and a feast in honor of His Heart on the Friday after that octave.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">
+                Her superiors were skeptical until the Jesuit St. Claude de la Colombiere, sent to Paray as chaplain in 1675, judged her experiences authentic and became the first apostle of the devotion. Margaret Mary died in 1690. Blessed Pius IX beatified her in 1864, Pope Benedict XV canonized her in 1920, and her memorial is October 16. Claude de la Colombiere was canonized by John Paul II in 1992.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 1. The Theology: Why a "Heart"?
               </h2>
               <p className="text-text leading-relaxed mb-6">
@@ -148,6 +158,34 @@ export default function SacredHeartPromises() {
                 </p>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                What Kind of Promises These Are
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">
+                The twelve numbered promises are not a single text dictated in one sitting. They were gathered from statements scattered through Margaret Mary's letters and writings and arranged into a list long after her death, which is why wording varies between prayer books. Like all private revelations, they do not add to the deposit of faith, and no Catholic is obliged to believe them (CCC 67). What the Church has approved is the devotion itself: honoring the love of Christ symbolized by His Heart.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">
+                The Catechism expresses that core teaching in its own words: the Sacred Heart of Jesus, pierced by our sins and for our salvation, is rightly considered the chief sign and symbol of the love with which the Redeemer loves the Father and every human being (CCC 478). The promises point toward that love; they are never a mechanism that works apart from faith, repentance and a life of charity.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Scripture Roots of the Devotion
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">
+                Jesus describes Himself as meek and humble of heart and invites the weary to find rest in Him (Matthew 11:28-29). At the crucifixion a soldier's lance opens His side, and blood and water flow out (John 19:34), an image the Fathers of the Church read as the birth of the sacraments of Baptism and the Eucharist. Pius XII took the title of his encyclical Haurietis Aquas from Isaiah 12:3, which speaks of drawing water joyfully from the springs of salvation.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                How the Popes Carried the Devotion Forward
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">
+                Blessed Pius IX extended the feast of the Sacred Heart to the whole Latin Church in 1856. Through the 1899 encyclical Annum Sacrum, Leo XIII dedicated all humanity to the Sacred Heart on the eve of the Jubilee of 1900, and Pius XI wrote on reparation in Miserentissimus Redemptor in 1928. During the 350th anniversary of the Paray-le-Monial visions, Pope Francis published Dilexit Nos in October 2024, an encyclical on the human and divine love of the Heart of Christ.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Planning Your Nine First Fridays
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">
+                The practice asks you to receive Holy Communion worthily on the first Friday of nine consecutive months, with the intention of honoring the Sacred Heart and making reparation. Confession is needed only if you are conscious of serious sin, and it may be made in the days before. If you begin on Friday, December 4, 2026, the series runs through Friday, August 6, 2027, the feast of the Transfiguration; January's first Friday falls on New Year's Day, which is also a holy day of obligation. The Solemnity of the Most Sacred Heart in 2027 falls on Friday, June 4.
+              </LinkedText>
+
               <QuizCTA
                 title="Is your heart in sync with His?"
                 description="Take our quiz to analyze your interior life and see how the devotion to the Sacred Heart can ignite a new fire in your prayer routine."
@@ -163,20 +201,8 @@ export default function SacredHeartPromises() {
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
-                  "Only when we find ourselves within the Heart of Jesus do we understand our own heart." — Pope Benedict XVI
+                  "One soldier thrust his lance into his side, and immediately blood and water flowed out." — John 19:34
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">Master the 12 promises of the Sacred Heart of Jesus. Learn the history of Paray-le-Monial, the 9 First Fridays, and the theology of reparation. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-promises">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
             </div>
 
               </div>
@@ -194,8 +220,18 @@ export default function SacredHeartPromises() {
                 question: "How do I 'enthrone' the image in my house?",
                 answer: "It is a beautiful ceremony where the head of the family formally recognizes Jesus as the King of the home. Usually, it involves a priest blessing the image and the family reciting an act of consecration together."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              {
+                question: "Who received the Sacred Heart promises?",
+                answer: "St. Margaret Mary Alacoque, a Visitation nun at Paray-le-Monial, France, who reported visions of Christ between 1673 and 1675. She was canonized in 1920, and her memorial is October 16."
+              },
+              {
+                question: "Do Catholics have to believe the twelve promises?",
+                answer: "No. They come from private revelation, which the faithful are free to accept or not. The Church approves and recommends devotion to the Sacred Heart itself, which rests on Scripture and is summarized in Catechism paragraph 478."
+              },
+              {
+                question: "When is the Solemnity of the Sacred Heart in 2027?",
+                answer: "Friday, June 4, 2027. The solemnity always falls on the Friday after the second Sunday after Pentecost, nineteen days after Pentecost Sunday."
+              },
             ]} />
 
 <RelatedArticles currentSlug="sacred-heart-promises" />

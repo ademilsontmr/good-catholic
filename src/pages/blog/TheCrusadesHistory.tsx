@@ -174,19 +174,6 @@ export default function TheCrusadesHistory() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Further Reading</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">Explore related articles on Guide Catholic for popes, councils, and saints connected to this period. History deepens love for the Church when it leads to prayer and service, not cynicism.</LinkedText>
 
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">Readers often search for The Crusades: An Expert Historical and Theological Defense during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="the-crusades-fact-vs-fiction">Were the Crusades unprovoked wars of aggression? Explore the historical context, the defense of pilgrims, and the Catholic perspective on this controversial time. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -204,8 +191,6 @@ export default function TheCrusadesHistory() {
                 question: "Did the Church ever apologize for the Crusades?",
                 answer: "In the Jubilee Year 2000, St. John Paul II asked for forgiveness for the 'errors' and 'sins' committed by members of the Church during the Crusades. He apologized for the *conduct* of individuals, while the Church maintains that the original intent—defending pilgrims and the East—was a work of charity."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="the-crusades-fact-vs-fiction" />

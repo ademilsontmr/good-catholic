@@ -78,7 +78,7 @@ export default function DailyMassNearMe() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Daily Mass is offered at most Catholic parishes on weekdays — often early morning; use MassTimes.org, parish apps, or diocesan locators. Daily Mass is not obligatory but richly indulgenced; readings follow the two-year weekday cycle.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Daily Mass is offered at most Catholic parishes on weekdays — often early morning; use MassTimes.org, parish apps, or diocesan locators. Daily Mass is not obligatory but warmly encouraged; weekday first readings follow the two-year weekday cycle.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
@@ -129,35 +129,40 @@ export default function DailyMassNearMe() {
               <p className="text-text leading-relaxed mb-6">
                 The Church provides Scripture readings for every Mass of the year. Reading them before Mass helps you listen more attentively and carry the Word into the rest of the day.
               </p>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">
+                Sunday readings rotate on a three-year cycle (Years A, B, and C), but weekday readings work differently. In Ordinary Time the first reading follows a two-year cycle, Year I in odd-numbered years and Year II in even-numbered years, counted by the liturgical year that begins in Advent, while the Gospel is the same every year. In Advent, Christmas, Lent, and Easter the weekday readings are fixed for the season. Someone who attends daily Mass for two years therefore hears a large share of the Bible proclaimed in order.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reading a Parish Schedule Correctly</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>"Vigil" or "Anticipated" Mass:</strong> a Saturday evening or holy-day-eve Mass that counts for the following day, not a weekday Mass.</li>
+                <li><strong>"Communion Service" or "Liturgy of the Word with Communion":</strong> led by a deacon or lay minister when no priest is available. It is a worthy prayer service, but it is not a Mass.</li>
+                <li><strong>"TLM," "EF," or "1962 Missal":</strong> the older form of the Roman Rite, usually in Latin.</li>
+                <li><strong>"Misa en español" or other language listings:</strong> the same Mass celebrated in another language.</li>
+                <li><strong>"School Mass":</strong> open to the public but often fuller and longer, with students leading music and readings.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where to Look Beyond a Quick Search</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">
+                MassTimes.org is a useful national directory, but its listings depend on updates submitted by parishes and volunteers, so a time can lag behind a schedule change. Map listings have the same weakness. The most reliable source is the parish itself: the current bulletin, usually posted as a PDF on the parish website each week, or the recorded message on the parish office phone. Diocesan websites often keep a directory with each parish's site and phone number, which helps when a church has no searchable listing.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">
+                For weekday Mass while traveling, check the cathedral of the diocese you are visiting, Catholic hospitals, university Newman Centers, and religious communities such as Benedictine abbeys or Dominican priories, which often offer an early Mass open to visitors. Some large airports have chapels with scheduled Mass, but times are limited and worth confirming in advance.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Holy Days, Holidays, and Schedule Changes</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">
+                On a holy day of obligation, parishes replace the normal weekday schedule with extra Masses, usually including an evening vigil the day before and an evening Mass on the day itself. U.S. Catholics should also know that the obligation is dropped whenever January 1, August 15, or November 1 lands next to a Sunday, on Saturday or Monday, though parishes still mark the solemnity with Mass. On civil holidays such as Memorial Day, Independence Day, Labor Day, and Thanksgiving, many parishes offer only one morning Mass, and some cancel weekday Mass the week after Christmas or Easter while clergy rest.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Notes for Early Morning Mass</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">
+                The Eucharistic fast asks Catholics to abstain from food and drink, except water and medicine, for at least one hour before receiving Communion (canon 919). For a 6:30 AM Mass, that usually just means waiting to eat breakfast. Canon law exempts older Catholics, the infirm, and their caregivers from the hour. Weekday Masses are also a common time to have a Mass offered for a deceased relative or a living person; the parish office schedules these intentions, often weeks or months ahead.
+              </LinkedText>
 
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8 text-center">
                 <Church className="w-8 h-8 text-primary mx-auto mb-3" />
                 <p className="text-text italic">Even one weekday Mass a week can reshape your spiritual life over time.</p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Find Daily Mass near you today. Learn how to locate weekday Catholic Mass times, noon Mass, early morning Mass, readings, and parish schedules. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Readers often search for Daily Mass Near Me: Find Catholic Mass Today during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="daily-mass-near-me">Find Daily Mass near you today. Learn how to locate weekday Catholic Mass times, noon Mass, early morning Mass, readings, and parish schedules. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -167,8 +172,9 @@ export default function DailyMassNearMe() {
               { question: "Can I receive Communion at Daily Mass?", answer: "Yes, if you are Catholic, properly disposed, and not conscious of unconfessed mortal sin. If you need Confession, go before receiving Communion." },
               { question: "Does Daily Mass fulfill the Sunday obligation?", answer: "No. A weekday Daily Mass does not fulfill the Sunday obligation. A Saturday evening Vigil Mass does fulfill the Sunday obligation." },
               { question: "Where can I find today's Catholic Mass readings?", answer: "You can find the daily readings through the USCCB website, Catholic apps, missals, and parish worship aids." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Is a Communion service the same as Daily Mass?", answer: "No. A Communion service, led by a deacon or lay minister when a priest is unavailable, includes Scripture and Holy Communion from the tabernacle but no Eucharistic Prayer. It is a good devotion, but it is not a Mass." },
+              { question: "Do I need to fast before an early morning Mass?", answer: "Catholics fast from food and drink, except water and medicine, for one hour before Communion (canon 919). Older Catholics, the infirm, and their caregivers are exempt." },
+              { question: "Why are weekday readings different from last year?", answer: "In Ordinary Time the weekday first reading follows a two-year cycle: Year I in odd-numbered liturgical years and Year II in even-numbered ones. The weekday Gospels repeat every year." },
             ]} />
 
             <RelatedArticles currentSlug="daily-mass-near-me" />

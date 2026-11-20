@@ -113,10 +113,46 @@ export default function OurFatherPrayer() {
                 <li><strong>Thy kingdom come:</strong> may God's reign grow in us and in the world.</li>
                 <li><strong>Thy will be done:</strong> may we obey God with trust.</li>
                 <li><strong>Give us this day our daily bread:</strong> provide what we need, above all the Eucharist.</li>
-                <li><strong>Forgive us our trespasses:</strong> pardon our sins.</li>
-                <li><strong>As we forgive:</strong> make us merciful toward others.</li>
-                <li><strong>Deliver us from evil:</strong> protect us from sin, temptation, and the evil one.</li>
+                <li><strong>Forgive us our trespasses, as we forgive those who trespass against us:</strong> pardon our sins and make us merciful toward others.</li>
+                <li><strong>Lead us not into temptation:</strong> keep us from giving way when we are tested.</li>
+                <li><strong>Deliver us from evil:</strong> protect us from sin and the evil one.</li>
               </ol>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">
+                The Catechism notes the structure of these seven requests: the first three are centered on God (thy name, thy kingdom, thy will), and the last four present our own needs to him (CCC 2803–2806). Luke's shorter version has five petitions, while Matthew's fuller form, the one used in the liturgy, has all seven.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Teaches About the Our Father</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">
+                The Catechism of the Catholic Church closes with an extended commentary on the Lord's Prayer (CCC 2759–2865). It cites Tertullian's description of the prayer as a summary of the whole Gospel (CCC 2761) and St. Thomas Aquinas's judgment that it is the most perfect of prayers, because it asks for everything we can rightly desire and in the right order (CCC 2763). It also explains that we dare to call God "Father" only because the Son has made us adopted children, which is why the Mass introduces the prayer with words of holy boldness.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Key Words in the Original Greek</h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-6">
+                <li><strong>"Father":</strong> Jesus prayed to God as "Abba" (Mark 14:36), and Paul teaches that the Spirit lets believers cry out the same word (Romans 8:15; Galatians 4:6).</li>
+                <li><strong>"Daily bread":</strong> the Greek "epiousios" appears almost nowhere else in ancient writing. It can mean "daily," "for the coming day," or "super-substantial." St. Jerome's Latin Vulgate rendered it "supersubstantialem" in Matthew and "cotidianum" in Luke, and the Catechism reads it as both bread for the body and the Bread of Life in the Eucharist (CCC 2837).</li>
+                <li><strong>"Trespasses":</strong> Matthew's Greek literally says "debts" (opheilemata), while Luke says "sins" in the first half of the line. Traditional English uses "trespasses," but the meaning is the same.</li>
+                <li><strong>"Evil":</strong> the Greek can mean evil in general or "the evil one." The Catechism explains that the petition refers to Satan, the one who opposes God's plan (CCC 2851).</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">"Lead Us Not Into Temptation"</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">
+                This line does not mean God pushes anyone toward sin; the Letter of James says plainly that God tempts no one (James 1:13). The Catechism explains that the Greek implies both "do not allow us to enter into temptation" and "do not let us yield to temptation" (CCC 2846). Because the phrase is easy to misunderstand, some bishops' conferences have revised their translations: the French version adopted in 2017 asks God not to let us enter into temptation, and the Italian Missal approved under Pope Francis asks God not to abandon us to temptation. The English text used in the United States has not changed.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Our Father at Mass and in the Hours</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">
+                The Didache, a Christian manual from around the end of the first century, already told believers to pray the Lord's Prayer three times a day. The Church keeps a similar rhythm: it is prayed at Morning Prayer, at Evening Prayer, and at every Mass. At Mass the priest continues with a prayer called the embolism, "Deliver us, Lord, we pray, from every evil," and the people respond with the acclamation, "For the kingdom, the power and the glory are yours now and for ever." That doxology appears in the Didache and in some later manuscripts of Matthew but not in the oldest ones, which is why Catholics do not add it when praying the Our Father in the Rosary.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">
+                Adults preparing for Baptism receive the Lord's Prayer in a special rite during Lent called the Presentation of the Lord's Prayer, and they pray it for the first time with the assembly after being baptized at the Easter Vigil. The prayer is treated as a treasure handed on by the Church, not merely a text to memorize.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Our Father in Latin: Pater Noster</h2>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
+                <p className="text-text italic leading-relaxed">
+                  Pater noster, qui es in caelis, sanctificetur nomen tuum. Adveniat regnum tuum. Fiat voluntas tua, sicut in caelo et in terra. Panem nostrum quotidianum da nobis hodie, et dimitte nobis debita nostra, sicut et nos dimittimus debitoribus nostris. Et ne nos inducas in tentationem, sed libera nos a malo. Amen.
+                </p>
+              </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Say "Trespasses"</h2>
               <p className="text-text leading-relaxed mb-6">
@@ -127,32 +163,6 @@ export default function OurFatherPrayer() {
               <p className="text-text leading-relaxed mb-6">
                 Try praying one line at a time. Pause after "Our Father" and remember that God is not distant. Pause after "thy will be done" and surrender a concrete concern. Pause after "forgive us" and name where you need mercy.
               </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">Pray the Our Father with full Catholic text, the seven petitions explained, and how Jesus taught the Lord&apos;s Prayer — simple guide for daily devotion. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Our Father Prayer, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">Readers often search for Our Father Prayer: Full Text & Meaning (Lord&apos;s Prayer) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-father-prayer">Pray the Our Father with full Catholic text, the seven petitions explained, and how Jesus taught the Lord&apos;s Prayer — simple guide for daily devotion. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
             <DailyPrayersHubLink />
@@ -161,9 +171,9 @@ export default function OurFatherPrayer() {
               { question: "Is the Our Father Catholic?", answer: "The Our Father belongs to all Christians, but it has a central place in Catholic Mass, the Rosary, the Liturgy of the Hours, and sacramental prayer." },
               { question: "Why is the Our Father prayed at Mass?", answer: "It prepares the faithful for Communion by asking for daily bread, forgiveness, unity, and deliverance from evil." },
               { question: "Can I pray the Our Father every day?", answer: "Yes. Catholics are encouraged to pray it daily, slowly and with attention, because it is the model prayer given by Christ." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Why don't Catholics add 'For thine is the kingdom' in the Rosary?", answer: "That doxology is not in the oldest manuscripts of Matthew's Gospel. At Mass, Catholics do say a form of it ('For the kingdom, the power and the glory are yours now and for ever') after the priest's prayer that follows the Our Father." },
+              { question: "Does God lead us into temptation?", answer: "No. James 1:13 says God tempts no one. The Catechism explains the petition as asking God not to let us enter into or give way to temptation (CCC 2846)." },
+              { question: "What is the Our Father in Latin?", answer: "It begins 'Pater noster, qui es in caelis, sanctificetur nomen tuum' and ends 'Et ne nos inducas in tentationem, sed libera nos a malo. Amen.'" },
             ]} />
 
             <RelatedArticles currentSlug="our-father-prayer" />

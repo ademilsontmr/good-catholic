@@ -141,6 +141,50 @@ export default function SacramentOfMatrimony() {
             </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Marriage in Scripture: From Eden to Cana
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
+              The Catechism opens its treatment of marriage (CCC 1601-1666) by noting that Scripture begins with the creation of man and woman in God's image and ends with the wedding feast of the Lamb in Revelation. Genesis 2:24 describes a man leaving father and mother to cling to his wife so that the two become one flesh, and Jesus quotes that verse when He is questioned about divorce in Matthew 19.
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
+              The Church also sees significance in the setting of Christ's first public sign, which took place at a wedding in Cana (John 2:1-11). The Catechism reads this as a confirmation of the goodness of marriage and a proclamation that marriage will now be an effective sign of Christ's presence (CCC 1613). St. Paul draws the deepest connection in Ephesians 5:25-32, where the love of husband and wife is a great mystery that refers to Christ and the Church.
+            </LinkedText>
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              What Canon Law Says About the Covenant
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
+              Canon 1055 describes marriage as a covenant by which a man and a woman establish a partnership of the whole of life, ordered by its nature to the good of the spouses and to the procreation and education of offspring. Between two baptized persons, Christ raised this covenant to the dignity of a sacrament, so a valid marriage contract between baptized people is by that very fact a sacrament.
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
+              Canon 1056 names the two essential properties of every marriage: unity and indissolubility, which acquire a particular firmness in Christian marriage because of the sacrament. Canon 1057 then states that marriage is brought about by the consent of the parties, lawfully expressed between persons who are capable in law, and that no human power can supply that consent. Consent is an act of the will by which each spouse gives and accepts the other in an irrevocable covenant.
+            </LinkedText>
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Canonical Form: Why the Wedding Happens Before a Priest or Deacon
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
+              For a Catholic, consent ordinarily has to be exchanged according to canonical form: before the local bishop, the pastor, or a priest or deacon delegated by either of them, and in the presence of two witnesses (canon 1108). The Catechism explains that this public form protects the couple's consent, makes the marriage part of the Church's life, and gives the spouses rights and duties recognized by the community (CCC 1631).
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
+              When a Catholic marries a baptized non-Catholic Christian, the diocese grants permission for the mixed marriage; when the other party is not baptized, a dispensation from the impediment of disparity of cult is needed. The bishop can also dispense from canonical form for a serious reason, for example so the wedding can take place in the non-Catholic spouse's church. A Catholic who marries without form or dispensation does not enter a valid marriage in the eyes of the Church.
+            </LinkedText>
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Common Impediments the Parish Checks For
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
+              Part of preparation is a prenuptial investigation to confirm that nothing in law prevents the marriage. Canons 1083-1094 list the diriment impediments, which make an attempted marriage invalid. The ones that come up most often in American parishes are:
+            </LinkedText>
+            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+              <li>A prior marriage bond that has not been declared null (canon 1085)</li>
+              <li>Disparity of cult, when one party is not baptized (canon 1086)</li>
+              <li>Minimum age: 16 for men and 14 for women in universal law, though U.S. civil law and diocesan policy usually require more (canon 1083)</li>
+              <li>Close blood relationship, such as first cousins, which requires a dispensation (canon 1091)</li>
+              <li>Holy orders or a public perpetual vow of chastity in a religious institute (canons 1087-1088)</li>
+            </ul>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
+              Couples are usually asked for a recently issued baptismal certificate, because the parish of baptism records any later marriage or annulment in the margin. Many dioceses also use witness affidavits confirming freedom to marry and a premarital inventory such as FOCCUS or PREPARE/ENRICH. Because timelines vary, contact your parish well before reserving a reception venue; many dioceses ask for at least six months of notice.
+            </LinkedText>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Domestic Church
             </h2>
             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">
@@ -192,31 +236,6 @@ export default function SacramentOfMatrimony() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Love is patient, love is kind." - 1 Corinthians 13:4
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">Discover the theology of Catholic marriage. Learn about sacramental marriage, the vows, indissolubility, and how spouses participate in God&apos;s creative love. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">Readers often search for The Sacrament of Matrimony: Catholic Marriage Theology during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacrament-of-matrimony">Discover the theology of Catholic marriage. Learn about sacramental marriage, the vows, indissolubility, and how spouses participate in God&apos;s creative love. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -239,8 +258,18 @@ export default function SacramentOfMatrimony() {
                 question: "How can we strengthen our marriage?",
                 answer: "Pray together daily, attend Mass weekly, receive confession regularly, read about Catholic marriage, attend marriage enrichment programs, communicate openly about difficulties, serve together in ministry, and seek help early when problems arise. The sacramental grace is there—access it through these practices."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              {
+                question: "Can a Catholic get married outside a church building?",
+                answer: "Ordinarily a Catholic wedding takes place in a parish church. A Catholic marrying a non-Catholic may request permission for another suitable place, or a dispensation from canonical form so the wedding can happen elsewhere, such as the other spouse's church. Ask your pastor early, since the bishop's office handles these requests."
+              },
+              {
+                question: "Does a Catholic need permission to marry a non-Catholic?",
+                answer: "Yes. Marrying a baptized non-Catholic requires permission for a mixed marriage, and marrying an unbaptized person requires a dispensation from disparity of cult. The Catholic party promises to remain faithful and to do all in his or her power to raise the children Catholic, and the other party is informed of that promise."
+              },
+              {
+                question: "Why do we need a new copy of our baptismal certificate?",
+                answer: "The parish of baptism records later sacraments, marriages, and declarations of nullity in the margin of the register. A recently issued copy lets the marrying parish confirm that you are free to marry."
+              },
             ]} />
 
 <RelatedArticles currentSlug="sacrament-of-matrimony" />

@@ -76,13 +76,26 @@ export default function PrayerBeforeCrucifixCatholic() {
               <p className="text-text leading-relaxed mb-6">The prayer requests the theological virtues — faith, hope, and charity — and the disposition needed for Confession: sorrow for sin and purpose of amendment. It directs attention to Christ&apos;s five wounds, a classic meditation in Franciscan spirituality and in the Stations of the Cross.</p>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">St. Francis received the stigmata — the wounds of Christ — at La Verna in 1224. His devotion to the crucified Lord shaped centuries of Catholic piety, including this prayer printed in many U.S. missals and penance pamphlets.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Gain the Partial Indulgence</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Phrase by Phrase: What the Words Mean</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>&quot;Behold, O kind and most sweet Jesus&quot;</strong> — the Latin original begins <em>En ego</em>, literally &quot;Here I am,&quot; the posture of someone presenting himself honestly before the Lord.</li>
+                <li><strong>&quot;Lively sentiments of faith, hope, and charity&quot;</strong> — the three theological virtues, which the Catechism describes as gifts infused by God that relate us directly to Him (CCC 1812-1813).</li>
+                <li><strong>&quot;True repentance for my sins and a firm resolve of amendment&quot;</strong> — the two parts of contrition: sorrow for sin and the resolution not to sin again (CCC 1451).</li>
+                <li><strong>&quot;Your five most precious wounds&quot;</strong> — the nail wounds in the hands and feet and the lance wound in the side (John 19:34), which the risen Christ showed to Thomas (John 20:27).</li>
+                <li><strong>&quot;They have pierced my hands and my feet&quot;</strong> — Psalm 22, the psalm whose opening words Jesus cried out from the cross (Matthew 27:46).</li>
+              </ul>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">Read this way, the prayer moves in a clear order. It begins with self-presentation, asks for the virtues that unite the soul to God, names the sorrow and resolve that conversion requires, and then rests the eyes on the wounds through which that conversion was purchased. The Psalm verse at the end anchors the whole meditation in Scripture, showing that the Passion fulfilled what the Psalmist had foreseen.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where the Prayer Comes From</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">In Latin the prayer is known by its opening words, En ego, O bone et dulcissime Iesu. Its author is unknown. Popular devotion links it with St. Francis because of his love for the crucified Christ, but no Franciscan source shows that he composed it, and it should be treated as an anonymous prayer of the Western Church. For generations it has been printed in missals and prayer books among the prayers of thanksgiving after Holy Communion, which is also the setting the Church attaches to its indulgence.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Indulgence: Partial All Year, Plenary on Fridays of Lent</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">The Church's Enchiridion of Indulgences grants a plenary indulgence to the faithful who, on each Friday of Lent, devoutly recite this prayer after receiving Holy Communion before an image of Christ crucified. On other days of the year, praying it in the same way carries a partial indulgence.</LinkedText>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
-                <li>Be baptized, not excommunicated, and in a state of grace.</li>
-                <li>Have at least a general intention to gain indulgences.</li>
-                <li>Pray devoutly before a crucifix (this prayer or another approved text).</li>
-                <li>Within about a week: sacramental Confession, Eucharistic Communion, and prayer for the Pope&apos;s intentions.</li>
+                <li>For any indulgence: be baptized, not excommunicated, in the state of grace by the time the work is completed, and have at least a general intention to gain it.</li>
+                <li>For the partial indulgence: pray the prayer with a contrite heart before a crucifix after Communion. No further conditions are required.</li>
+                <li>For the plenary indulgence on a Friday of Lent: add sacramental Confession, Eucharistic Communion, prayer for the Pope&apos;s intentions (an Our Father and Hail Mary suffice), and detachment from all sin, even venial. Confession may be made within several days before or after.</li>
               </ol>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Choosing and Blessing a Crucifix for Your Home</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">The General Instruction of the Roman Missal requires a cross with the figure of Christ crucified on or near the altar at every Mass, clearly visible to the people (GIRM 308). A home crucifix echoes that altar cross. Any size works, but choose one where the corpus is clear enough to see the wounds the prayer names. Ask a priest or deacon to bless it after Mass; once blessed, it becomes a sacramental, and if it breaks it should be burned or buried rather than thrown away.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Pray Before a Crucifix</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
@@ -102,29 +115,15 @@ export default function PrayerBeforeCrucifixCatholic() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Connecting to the Mass and Sacraments</h2>
               <p className="text-text leading-relaxed mb-6">Every Mass re-presents the one sacrifice of Calvary. Praying before a crucifix at home extends Eucharistic faith into daily life. After Confession, pray it in thanksgiving. When unable to attend Mass, unite this devotion with a Spiritual Communion. The crucifix keeps the center of Catholic faith always in sight.</p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">Prayer before a Crucifix with full Catholic text — the indulgenced prayer of St. Francis and when to pray it. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="prayer-before-crucifix-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Prayer Before a Crucifix, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
             </div>
             <BlogFAQ faqs={[
-              { question: "Did St. Francis of Assisi write this prayer?", answer: "Tradition associates this prayer with St. Francis and Franciscan spirituality. It appears in Catholic prayer books as the Prayer Before a Crucifix and reflects his devotion to Christ&apos;s Passion." },
-              { question: "Is there an indulgence for praying before a crucifix?", answer: "Yes. The Church grants a partial indulgence for devoutly praying approved prayers before a crucifix, including this one, under the usual conditions for gaining indulgences." },
+              { question: "Did St. Francis of Assisi write this prayer?", answer: "There is no evidence that he did. The Latin prayer En ego, O bone et dulcissime Iesu is anonymous; popular devotion links it to St. Francis because of his love for the crucified Christ." },
+              { question: "Do I have to receive Communion first?", answer: "The Church attaches the indulgence to praying it after Holy Communion, which is why missals place it among thanksgiving prayers. You may pray it at any time as personal devotion; the indulgence simply follows the conditions the Church sets." },
+              { question: "Why does the prayer quote Psalm 22?", answer: "Psalm 22 describes a just man's suffering, including pierced hands and feet and the counting of his bones. Jesus prayed its opening line on the cross, and Christians have long read the psalm as a prophecy of the Passion." },
+              { question: "Is there an indulgence for praying before a crucifix?", answer: "Yes. Praying this prayer devoutly after Communion before an image of Christ crucified carries a partial indulgence on ordinary days and a plenary indulgence on the Fridays of Lent, when the usual conditions are also fulfilled." },
               { question: "What is the difference between a cross and a crucifix?", answer: "A crucifix includes the figure of Christ crucified (the corpus). Catholics use crucifixes to recall the historical sacrifice of Jesus, not only the symbol of resurrection." },
               { question: "When is the best time to pray before a crucifix?", answer: "Fridays, before Confession, during Lent, and at bedtime are traditional times. Any moment of sorrow, gratitude, or need for repentance is appropriate." },
               { question: "Must I kneel to pray it?", answer: "Kneeling is traditional and fitting but not strictly required if physically unable." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="prayer-before-crucifix-catholic" />
             <ArticleBottomCTA title="Grow in Catholic Prayer" description="Receive a personalized guide for building a deeper daily prayer life." />

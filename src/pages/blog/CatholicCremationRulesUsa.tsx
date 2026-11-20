@@ -65,14 +65,26 @@ export default function CatholicCremationRulesUsa() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Teaches (Summary)</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li>Cremation is allowed when not chosen to deny faith in the resurrection of the body (CIC 1176; Ad tuendam fidem, 2016).</li>
+                <li>Cremation is allowed when not chosen to deny faith in the resurrection of the body (CIC 1176; Ad resurgendum cum Christo, 2016).</li>
                 <li>Funeral Mass may be celebrated with cremated remains present in a worthy vessel — many U.S. dioceses prefer the body present when possible, then cremation after.</li>
                 <li>Ashes must be buried in a cemetery or entombed in a sacred place — not scattered at sea or on mountains, not kept on the mantel, not made into jewelry.</li>
                 <li>Burial reflects Christian hope and honors the body God will raise at the last day.</li>
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">History: When Cremation Became Allowed</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">For centuries the Church discouraged cremation because anti-Christian movements used it to deny resurrection. The 1963 instruction <em>Piam et constantem</em> allowed cremation unless chosen for ideological reasons. The 1983 Code of Canon Law and the 2016 Vatican document <em>Ad resurgendum cum Christo</em> clarified burial of ashes. Today more than half of U.S. deaths involve cremation — pastors must teach Catholic options before families sign contracts with funeral homes.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">For centuries the Church discouraged cremation because anti-Christian movements used it to deny resurrection. The 1963 instruction Piam et constantem allowed cremation unless chosen for ideological reasons. The 1983 Code of Canon Law and the 2016 Vatican document Ad resurgendum cum Christo clarified burial of ashes. Today more than half of U.S. deaths involve cremation — pastors must teach Catholic options before families sign contracts with funeral homes.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Ad resurgendum cum Christo Requires</h2>
+
+              <p className="text-text leading-relaxed mb-6">The Congregation for the Doctrine of the Faith issued the instruction <em>Ad resurgendum cum Christo</em> (To Rise with Christ) with Pope Francis&apos;s approval, and it was published in October 2016. It does not forbid cremation, but it sets out clear norms for what happens afterward:</p>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Burial is preferred.</strong> The Church continues to recommend burying the body, which shows greater esteem for the deceased and follows the burial of Christ.</li>
+                <li><strong>Ashes belong in a sacred place.</strong> Cremated remains are to be kept in a cemetery, a church, or an area set aside for that purpose by Church authority, so the deceased are not forgotten and remain in the community&apos;s prayer.</li>
+                <li><strong>Not at home.</strong> Keeping ashes in a private residence is not permitted, except in grave and exceptional cases that the local bishop, together with the bishops&apos; conference, may judge depend on particular cultural conditions.</li>
+                <li><strong>Not divided, scattered, or made into keepsakes.</strong> Ashes may not be split among relatives, scattered in the air, on land, or at sea, or preserved in jewelry or other objects.</li>
+                <li><strong>When a funeral must be refused.</strong> If a person clearly asked for cremation and scattering for reasons contrary to the Christian faith, a Christian funeral is to be denied.</li>
+              </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Planning a Catholic Funeral with Cremation</h2>
               <ol className="list-decimal list-inside text-text space-y-3 mb-6">
@@ -97,34 +109,18 @@ export default function CatholicCremationRulesUsa() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Burial Matters Theologically</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">The body was temple of the Holy Spirit (1 Corinthians 6:19). Jesus was buried and rose bodily. Catholic funerals pray for the deceased and witness to hope. U.S. bishops and parish priests field cremation questions constantly. Planning ahead with your parish — and pre-planning cemetery plots — avoids decisions made in grief that conflict with Catholic faith.</LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Order of Christian Funerals in the United States</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">The U.S. edition of the Order of Christian Funerals arranges the rites in three stages: the Vigil for the Deceased, often held at a funeral home or church the evening before; the Funeral Liturgy, ideally a Mass; and the Rite of Committal at the grave, tomb, or columbarium. In 1997 the Holy See granted the U.S. bishops permission to celebrate the funeral liturgy with cremated remains present, and an appendix on cremation was added to the ritual book. That appendix still expresses the Church&apos;s strong preference that the body be present for the funeral rites, with cremation taking place afterward if the family chooses it.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">When the ashes are present, they are placed in a worthy vessel on a small table where the coffin would normally stand, and the rites of sprinkling with holy water and incensation may be used. If cremation follows the funeral Mass, the committal of the ashes takes place later. Do not leave the urn at a funeral home or in a closet waiting for a decision. If ashes have been kept at home for years, call your diocesan Catholic cemetery office; staff can explain options for interment and can arrange a committal service.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Alkaline Hydrolysis and Human Composting</h2>
+
+              <p className="text-text leading-relaxed mb-6">Some states now permit alternatives to flame cremation, such as alkaline hydrolysis, sometimes marketed as water cremation, and natural organic reduction, often called human composting. In March 2023 the USCCB Committee on Doctrine issued a statement on the proper disposition of bodily remains concluding that these methods do not meet the Church&apos;s requirements for showing respect to the human body. Families considering them should speak with their pastor before signing any contract.</p>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Cremation and Money</h2>
               <p className="text-text leading-relaxed mb-6">Cremation is often cheaper than full burial in American markets, but cost alone is not a sinful motive. The Church asks that financial pressure be balanced with respect for the body and liturgy. Catholic cemeteries offer niches; parishes sometimes assist low-income families. Discuss options openly with the pastor — secrecy leads to regret when relatives learn ashes cannot be scattered as planned.</p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Catholic teaching on cremation in the United States — what is allowed, funeral Mass with cremated remains, burial requirements, and what the Church forbids. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Readers often search for Catholic Cremation Rules in the USA: What the Church Allows during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-cremation-rules-usa">Catholic teaching on cremation in the United States — what is allowed, funeral Mass with cremated remains, burial requirements, and what the Church forbids. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
             <BlogFAQ faqs={[
               { question: "Can Catholics be cremated in the United States?", answer: "Yes, since 1963 the Church permits cremation, provided it is not chosen to reject resurrection or Catholic funeral rites." },
@@ -133,8 +129,9 @@ export default function CatholicCremationRulesUsa() {
               { question: "Why does the Church care about burial?", answer: "Burial witnesses to human dignity and resurrection hope. The body belonged to a person loved by God and is not disposable matter." },
               { question: "Can ashes be buried in the same plot as a spouse?", answer: "Yes. Catholic cemeteries commonly allow second interments or companion niches for cremated remains." },
               { question: "What if ashes were already scattered?", answer: "Speak with a priest in Confession and for pastoral guidance. The Church focuses on repentance and honoring the dead going forward with prayer and Mass intentions." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "What should I do with ashes that have been kept at home for years?", answer: "Contact your diocesan Catholic cemetery office or your parish. They can explain interment options in a grave, niche, or columbarium and arrange a Rite of Committal so the remains are finally laid to rest." },
+              { question: "Is human composting or water cremation allowed for Catholics?", answer: "In 2023 the USCCB Committee on Doctrine concluded that natural organic reduction (human composting) and alkaline hydrolysis do not meet the Church's requirements for respecting the body. Speak with your pastor about acceptable options." },
+              { question: "Can cremated remains be placed in a church columbarium?", answer: "Yes. Ad resurgendum cum Christo lists a church or an area set aside by Church authority, as well as a cemetery, as suitable sacred places. Some U.S. parishes have built columbaria for this purpose." },
             ]} />
             <RelatedArticles currentSlug="catholic-cremation-rules-usa" />
             <ArticleBottomCTA />

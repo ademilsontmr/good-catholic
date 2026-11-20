@@ -107,6 +107,26 @@ export default function ActOfFaithHopeCharity() {
                 Faith believes God's revelation. Hope trusts God's mercy for the future. Charity loves God above all and loves neighbor for God's sake. Together they orient the whole Christian life toward God.
               </LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Theological Virtues Behind the Prayers</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">
+                St. Paul closes his great hymn to love with the words, So faith, hope, love abide, these three; but the greatest of these is love (1 Corinthians 13:13). The Church calls these the theological virtues because they come from God, are directed to God, and have God for their object (CCC 1812). They are not habits we build by willpower like patience or punctuality; God pours them into the soul at Baptism (CCC 1813). The three Acts are short formulas for exercising those gifts on purpose, the way an athlete exercises a muscle that is already there.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reading the Act of Faith Closely</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">
+                The Act of Faith summarizes the Creed in three movements: the Trinity, the Incarnation and Redemption, and the Last Judgment. Then it widens to all the truths the Church teaches. Its final clause carries the whole weight of the prayer. We believe not because we have verified each doctrine ourselves, but because God has revealed it, and God can neither deceive nor be deceived. That phrase comes from the First Vatican Council, and the Catechism repeats it when it explains what moves a person to believe (CCC 156). Faith, in other words, is trust in a Person before it is agreement with propositions.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reading the Act of Hope Closely</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">
+                The Act of Hope names three things we hope for — pardon, grace, and eternal life — and three reasons we dare to hope: God&apos;s almighty power, his infinite mercy, and his promises. Hebrews 10:23 puts the whole Act in one sentence: Let us hold fast the confession of our hope without wavering, for he who promised is faithful. The Catechism identifies two opposite sins against hope: despair, which gives up on God&apos;s mercy, and presumption, which expects salvation without conversion (CCC 2091-2092). The Act guards against both by resting everything on the merits of Jesus Christ rather than on our own record.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Reading the Act of Charity Closely</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">
+                The Act of Charity echoes the great commandment of Deuteronomy 6:5, which Jesus called the first and greatest (Matthew 22:37-38): heart, soul, and strength. It gives the right motive for loving God, because he is all-good and worthy of all love, not merely because he rewards us. It then grounds love of neighbor in love of God. The prayer ends with forgiveness in both directions, forgiving those who have hurt us and asking pardon of those we have hurt, recalling Jesus&apos; warning that our own forgiveness is bound up with how we forgive (Matthew 6:14-15). Many people find this last sentence the hardest to say honestly, which is exactly why it is worth saying daily.
+              </LinkedText>
+
               <QuizCTA
                 title="Grow in faith, hope, and love"
                 description="Take the Catholic life assessment for a personalized guide to prayer and virtue."
@@ -119,32 +139,19 @@ export default function ActOfFaithHopeCharity() {
                 <li>RCIA and Confirmation classes.</li>
                 <li>When doubt, discouragement, or resentment weighs on the heart.</li>
               </ul>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts in English, what each act means, and when to pray them for Confirmation, RCIA, and daily life. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where These Formulas Came From</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">
+                Catholic moral theologians long taught that believers should make explicit acts of faith, hope, and charity at certain points in life, such as on reaching the use of reason, when tempted against a virtue, and when in danger of death. Short written formulas spread through catechisms and prayer books from the eighteenth century onward, and Pope Benedict XIV encouraged them with indulgences. In the United States, generations of Catholics memorized them from the Baltimore Catechism, which is why many older Catholics still pray them with Thou and Thee. The current Enchiridion of Indulgences attaches a partial indulgence to making these acts with devotion, and it does not insist on one fixed wording: any legitimate formula will do.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Act of Faith, Hope and Charity, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">Readers often search for Act of Faith, Hope and Charity: Full Catholic Prayers and Meaning during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="act-of-faith-hope-charity">The Act of Faith, Act of Hope, and Act of Charity with full Catholic prayer texts in English, what each act means, and when to pray them for Confirmation, RCIA, and daily life. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Matching Each Act to a Struggle</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Doubt or confusion about a teaching:</strong> pray the Act of Faith slowly, then look up the doctrine in the Catechism rather than in a comment section.</li>
+                <li><strong>Discouragement after repeated sin:</strong> pray the Act of Hope, and then go to Confession, where the hope it expresses becomes concrete.</li>
+                <li><strong>A grudge you cannot shake:</strong> pray the Act of Charity and name the person silently at the words I forgive all who have injured me.</li>
+                <li><strong>Sitting with the dying:</strong> say all three aloud for or with a loved one; they are among the most fitting prayers for the last hours of life.</li>
+              </ul>
             </div>
 
             <BlogFAQ faqs={[
@@ -152,9 +159,9 @@ export default function ActOfFaithHopeCharity() {
               { question: "What is the Act of Hope?", answer: "It is a prayer expressing trust in God's power and mercy to forgive sins, give grace, and bring us to eternal life through Jesus Christ." },
               { question: "What is the Act of Charity?", answer: "It is a prayer of love for God above all things and for neighbor as oneself, with a spirit of forgiveness toward others." },
               { question: "Are the words always exactly the same?", answer: "Approved Catholic prayer books may use slightly different wording. The meaning remains: faith in God's revelation, hope in his mercy, and charity toward God and neighbor." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Why are faith, hope, and charity called theological virtues?", answer: "Because they have God as their origin, motive, and object. The Catechism (CCC 1812-1813) teaches that God infuses them into the soul at Baptism, and they are the foundation of all Christian moral life." },
+              { question: "Do the Acts of Faith, Hope, and Charity carry an indulgence?", answer: "Yes. A partial indulgence is attached to devoutly making these three acts, and the Church accepts any legitimate wording, including the older Thou and Thee versions." },
+              { question: "What does who can neither deceive nor be deceived mean?", answer: "It expresses the reason for faith taught by the First Vatican Council and quoted in CCC 156: we believe revealed truths because of the authority of God, who cannot err and cannot lie." },
             ]} />
 
             <RelatedArticles currentSlug="act-of-faith-hope-charity" />

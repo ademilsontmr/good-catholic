@@ -197,8 +197,6 @@ export default function IsTheCatholicChurchTrue() {
                 question: "Can non-Catholics be saved?",
                 answer: "The Church teaches that those who, through no fault of their own, do not know the Gospel or the Church, but seek God with a sincere heart, can achieve salvation. However, all salvation flows through Christ, and Christ is united to His Body, which is the Church."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="is-the-catholic-church-the-true-church" />

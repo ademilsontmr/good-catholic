@@ -103,7 +103,17 @@ export default function FaithAndAnxiety() {
                 Understanding Anxiety
               </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
-                Anxiety is a natural human response to perceived threats. However, when anxiety becomes chronic, excessive, or disproportionate to actual danger, it can become a disorder requiring treatment. The Catholic Church recognizes anxiety as a real condition—St. Teresa of Calcutta and St. Padre Pio both experienced severe anxiety and spiritual dryness while remaining holy.
+                Anxiety is a natural human response to perceived threats. However, when anxiety becomes chronic, excessive, or disproportionate to actual danger, it can become a disorder requiring treatment. The Church does not treat anxiety as a moral failing. Holiness and inner distress can coexist: St. Teresa of Calcutta, for example, endured decades of interior darkness, documented in her private letters, while serving the poor with visible joy.
+            </LinkedText>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Jesus in Gethsemane: Anguish Without Sin
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
+              The Gospels do not present a Christ untouched by dread. In the garden on the night before He died, Jesus told His disciples that His soul was sorrowful even to death (Mark 14:34), and Luke records that in His agony His sweat became like drops of blood falling to the ground (Luke 22:44). He asked the Father to let the cup pass, then surrendered to the Father's will. The Letter to the Hebrews adds that He was tested in every way as we are, yet without sin (Hebrews 4:15).
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
+              That scene matters for anyone who feels fear rising in the body. Feeling dread is not the same as sinning, and bringing that dread honestly to the Father is itself prayer. The Psalms show the same pattern: Why are you downcast, my soul? the psalmist asks, and then answers, Hope in God (Psalm 42:6). When the prophet Elijah collapsed under a broom tree and asked to die, God's first response was not a rebuke but food, water and sleep (1 Kings 19:4-8).
             </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
@@ -142,18 +152,38 @@ export default function FaithAndAnxiety() {
             </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              A Prayer for Freedom From Distress at Every Mass
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
+              Right after the Our Father at Mass, the priest prays that, by the help of God's mercy, we may be always free from sin and safe from all distress, as we await the blessed hope and the coming of our Savior. The Church places the request for relief from anxiety at the very heart of the liturgy. Listening for that line each Sunday is a simple way to hand over the week's worries in union with the whole parish.
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
+              Jesus' teaching on worry ends with practical advice: do not worry about tomorrow, because tomorrow will take care of itself, and each day has enough trouble of its own (Matthew 6:34). The petition for daily bread in the Our Father carries the same rhythm. Trust in Providence, in Catholic understanding, means placing the future confidently in God's hands while doing today's tasks, not forcing yourself to feel calm.
+            </LinkedText>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               The Saints Who Struggled
             </h2>
             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               Many saints experienced what we would now recognize as anxiety:
             </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
-              <li><strong>St. Thérèse of Lisieux:</strong> Experienced debilitating anxiety but offered it as sacrifice</li>
-              <li><strong>St. Ignatius of Loyola:</strong> Suffered severe scrupulosity and obsessive thoughts</li>
-              <li><strong>Venerable Matt Talbot:</strong> Overame severe anxiety and alcoholism through faith</li>
+              <li><strong>St. Thérèse of Lisieux:</strong> Describes in Story of a Soul a serious childhood illness and a long period of scruples in her early teens</li>
+              <li><strong>St. Ignatius of Loyola:</strong> Was tormented by scruples at Manresa, as his Autobiography recounts, and later wrote notes on scruples in the Spiritual Exercises</li>
+              <li><strong>Venerable Matt Talbot:</strong> A Dublin laborer who gave up heavy drinking in 1884 and relied on daily Mass and prayer to stay sober for the rest of his life</li>
             </ul>
             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               These saints show that anxiety does not indicate weak faith. Rather, faith provides resources to carry anxiety with trust in God.
+            </LinkedText>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Scrupulosity: When Anxiety Targets the Conscience
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
+              Scrupulosity is a form of anxiety in which a person sees sin where there is none or doubts that a sin was truly forgiven, often confessing the same thing repeatedly. Traditional Catholic counsel for scruples, which St. Ignatius himself followed, is to choose one regular confessor and follow that priest's guidance even when your feelings protest. The Redemptorists of Liguori, Missouri, have long run a ministry called Scrupulous Anonymous that offers free resources for people with this struggle.
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
+              When scruples are intense, they can overlap with obsessive-compulsive patterns. That is a reason to involve a mental health professional who has experience with obsessive thinking, working alongside your confessor. Many priests are glad to coordinate with a therapist when the penitent wishes, and doing so is a sign of wisdom, not weak faith.
             </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
@@ -163,12 +193,17 @@ export default function FaithAndAnxiety() {
               The Church encourages professional mental health care when needed. Signs that anxiety requires professional treatment include:
             </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
-              <li>Persistent anxiety lasting more than two weeks</li>
-              <li>Panic attacks or physical symptoms (racing heart, chest pain)</li>
+              <li>Worry that is hard to control and keeps returning over weeks or months</li>
+              <li>Panic attacks or physical symptoms such as a racing heart (chest pain should always be checked by a doctor)</li>
               <li>Avoidance of normal activities due to fear</li>
               <li>Sleep disturbances affecting daily functioning</li>
               <li>Suicidal thoughts or severe depression</li>
             </ul>
+            <div className="bg-rose-50 border border-rose-200 rounded-xl p-6 mb-6">
+              <p className="text-text leading-relaxed">
+                <strong>If you are in crisis or thinking about suicide,</strong> call or text <strong>988</strong> to reach the 988 Suicide &amp; Crisis Lifeline, staffed around the clock across the U.S. If you or someone else is in immediate danger, call 911. You can also tell a priest, a family member or a friend right now; you do not have to carry this alone.
+              </p>
+            </div>
             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">
               Catholic therapists, available through CatholicTherapists.com and similar directories, integrate faith with evidence-based treatment like CBT and medication when appropriate.
             </LinkedText>
@@ -189,31 +224,6 @@ export default function FaithAndAnxiety() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Do not be anxious about anything." - Philippians 4:6
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">Discover how Catholic faith helps overcome anxiety. Learn spiritual practices for mental health, when to seek professional help, and finding God&apos;s peace. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">Readers often search for Faith and Anxiety: Finding Peace Through Catholic Spirituality during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="faith-and-anxiety">Discover how Catholic faith helps overcome anxiety. Learn spiritual practices for mental health, when to seek professional help, and finding God&apos;s peace. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -236,8 +246,18 @@ export default function FaithAndAnxiety() {
                 question: "What prayer helps with anxiety attacks?",
                 answer: "During acute anxiety, simple prayers work best: the Jesus Prayer, Hail Mary, or even just 'Jesus, I trust in You.' The Memorare to Mary is also powerful. Focus on the words and your breathing. Remember that God is with you even in the anxiety."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              {
+                question: "Is scrupulosity a sin?",
+                answer: "No. Scrupulosity is a painful form of anxiety about sin, not a sin itself. Catholic tradition recommends a single regular confessor and obedience to his guidance, and a therapist experienced with obsessive thinking can help when scruples are severe."
+              },
+              {
+                question: "Did Jesus experience anxiety?",
+                answer: "The Gospels describe Jesus in deep anguish in Gethsemane: He said His soul was sorrowful even to death (Mark 14:34), and Luke notes His sweat like drops of blood. He experienced that distress without sin and brought it to the Father in prayer."
+              },
+              {
+                question: "What should I do if anxiety leads to thoughts of suicide?",
+                answer: "Call or text 988 to reach the 988 Suicide & Crisis Lifeline in the United States, or call 911 if you are in immediate danger. Then reach out to someone you trust, such as a family member, friend or priest, and follow up with a doctor or licensed counselor."
+              },
             ]} />
 
 <RelatedArticles currentSlug="faith-and-anxiety" />

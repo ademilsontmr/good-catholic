@@ -72,6 +72,22 @@ export default function PreceptsOfTheCatholicChurch() {
                 <li><strong>Provide for the needs of the Church</strong> according to one&apos;s ability.</li>
               </ol>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where the Precepts Come From</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Several precepts are older than the list itself. In 1215 the Fourth Lateran Council required every Catholic who had reached the age of discretion to confess at least once a year and to receive Communion at least at Easter, a law still known as the Easter duty. Catechisms of the Counter-Reformation era, including those of St. Peter Canisius and St. Robert Bellarmine, gathered such obligations into numbered lists of commandments of the Church.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">The Baltimore Catechism, used in American parishes for generations, listed six precepts. Alongside the five in today&apos;s Catechism it included observing the laws of the Church concerning marriage. The current Catechism lists five and describes them as positive laws meant to guarantee the indispensable minimum in the spirit of prayer and moral effort (CCC 2041). Marriage law remains in force in the Code of Canon Law; it is simply no longer counted among the precepts.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Canon Law Behind Each Precept</h2>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Sunday and holy days:</strong> canon 1247 obliges participation in Mass and rest from work that hinders worship; canon 1248 confirms that Mass anywhere in a Catholic rite, on the day or the evening before, satisfies it.</li>
+                <li><strong>Annual confession:</strong> canon 989 binds every Catholic past the age of discretion to confess grave sins faithfully at least once a year.</li>
+                <li><strong>Easter Communion:</strong> canon 920 sets the yearly Communion obligation and places it in the Easter season, though a just cause allows it to be fulfilled at another point in the year.</li>
+                <li><strong>Fasting and abstinence:</strong> canons 1249 to 1253 set the days of penance and allow bishops&apos; conferences to adapt them.</li>
+                <li><strong>Supporting the Church:</strong> canon 222 obliges the faithful to provide for the Church&apos;s needs for worship, apostolic and charitable works, and the support of its ministers.</li>
+              </ul>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Precept 1: Sunday Mass in the United States</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="precepts-of-the-catholic-church">The Third Commandment requires keeping the Lord&apos;s Day holy. The Church binds Catholics to Mass every Sunday and on six holy days of obligation in the U.S.: Mary Mother of God (Jan 1), Ascension (observed Thursday or Sunday per diocese), Assumption (Aug 15), All Saints (Nov 1), Immaculate Conception (Dec 8), and Christmas (Dec 25). When they fall on Saturday or Monday, some are transferred or abrogated — check your diocese annually.</LinkedText>
               <p className="text-text leading-relaxed mb-6">Serious intentional absence from Mass without grave reason can be mortal sin. Illness, caring for infants, and lack of access qualify as excuses. Saturday evening Mass fulfills the Sunday obligation (vigil Mass).</p>
@@ -82,7 +98,7 @@ export default function PreceptsOfTheCatholicChurch() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Precept 4: Fasting &amp; Abstinence (U.S. Norms)</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li><strong>Ash Wednesday and Good Friday</strong> — fasting (one full meal, two smaller) for adults 18–59; abstinence from meat for 14+.</li>
-                <li><strong>All Fridays of Lent</strong> — abstinence from meat; some dioceses permit substitute penance on other Fridays of the year.</li>
+                <li><strong>All Fridays of Lent</strong> — abstinence from meat; outside Lent, the U.S. bishops (1966) allow another form of penance in place of meatless Fridays, though Friday remains a penitential day.</li>
                 <li><strong>Fast before Communion</strong> — one hour from food and drink (except water and medicine); not part of the five precepts but universal law.</li>
               </ul>
 
@@ -91,34 +107,14 @@ export default function PreceptsOfTheCatholicChurch() {
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Precept 5: Supporting the Church</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">This means financial stewardship — weekly offering, diocesan appeals, Catholic schools and charities — and gifts of time and talent. The U.S. bishops teach proportional giving; many Catholics aim for tithing or sacrificial offertory. Supporting the Church is not paying for grace but sharing in the community that brings Christ to the world.</LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Ages, Exemptions, and Dispensations</h2>
+
+              <p className="text-text leading-relaxed mb-6">The precepts do not bind everyone in the same way. The law of abstinence applies from age 14; the law of fasting applies from 18 until the beginning of one&apos;s sixtieth year (canon 1252). People who are sick, pregnant, or doing heavy manual labor are excused from fasting when it would harm their health. The yearly confession obligation concerns grave sins, so someone without mortal sin is not strictly required to confess, though the Church warmly recommends confessing venial sins as well (CCC 1458).</p>
+
+              <p className="text-text leading-relaxed mb-6">A pastor may dispense individual parishioners or families from the obligation of a holy day or a day of penance, or commute it to another pious work, for a just reason (canon 1245). Diocesan bishops can grant broader dispensations, as many did from the Sunday obligation during the COVID-19 pandemic. If a conflict arises, such as a work shift, travel, or illness, the simplest step is to ask your pastor rather than guess.</p>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Precepts vs. Commandments vs. Counsels</h2>
               <p className="text-text leading-relaxed mb-6">The Ten Commandments are divine law. The precepts are ecclesiastical law applying them to Catholic life in the Church. Evangelical counsels (poverty, chastity, obedience) are for those called to religious life — not binding on all laity. The precepts are a floor, not a ceiling; saints exceed them through love. In the United States, RCIA and Confirmation programs teach the precepts explicitly so adult converts know the baseline.</p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Readers often search for Precepts of the Catholic Church: The 5 Laws Every Catholic Should Know during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="precepts-of-the-catholic-church">The five precepts of the Catholic Church explained — Mass on Sundays, Confession, Communion, fasting, and supporting the Church. U.S. Catholic guide for adults and teens. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
             <BlogFAQ faqs={[
               { question: "What are the precepts of the Catholic Church?", answer: "They are five minimum practices the Church sets for the faithful: Sunday Mass, annual Confession, Easter Communion, fasting/abstinence, and supporting the Church." },
@@ -127,8 +123,9 @@ export default function PreceptsOfTheCatholicChurch() {
               { question: "Do precepts bind under pain of mortal sin?", answer: "Serious violation of the Sunday Mass obligation or intentional neglect of Easter duties can be grave matter; full culpability requires knowledge and consent." },
               { question: "What are the holy days of obligation in the USA?", answer: "Six feasts: Jan 1, Ascension, Aug 15, Nov 1, Dec 8, and Dec 25 — with transfers or exceptions when they fall on certain weekdays; confirm with your diocese." },
               { question: "Do children have to follow all precepts?", answer: "Children are gradually formed. Full obligation applies at the age determined by canon law and diocesan policy — typically around the age of reason for some duties and teens for fasting." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Do I have to go to Confession every year if I have no mortal sins?", answer: "Canon 989 requires annual confession of grave sins. If you are not aware of any mortal sin, the strict obligation does not apply, but the Church strongly recommends regular confession of venial sins (CCC 1458)." },
+              { question: "Who can dispense me from a precept?", answer: "Your pastor can dispense individuals or families from a holy day obligation or a day of penance for a just cause, or change it to another good work (canon 1245). Bishops can grant wider dispensations." },
+              { question: "Why did the Baltimore Catechism list six precepts?", answer: "It counted observing the Church's marriage laws as a sixth precept. The current Catechism lists five, but those marriage laws still apply through canon law." },
             ]} />
             <RelatedArticles currentSlug="precepts-of-the-catholic-church" />
             <ArticleBottomCTA />

@@ -92,6 +92,36 @@ export default function SpiritualWorksOfMercyCatholic() {
 
               <QuizCTA title="Strengthen your Catholic witness" description="Take the Catholic life assessment for guidance on virtue, prayer, and parish involvement." />
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture Behind Each Work</h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-6">
+                <li><strong>Counsel the doubtful:</strong> Jude 22 urges mercy toward those who waver, and Jesus patiently answers Thomas's doubt (John 20:27).</li>
+                <li><strong>Instruct the ignorant:</strong> the risen Christ sends the apostles to teach all that he commanded (Matthew 28:20); Philip explains Isaiah to the Ethiopian official who asks for a guide (Acts 8:30–35).</li>
+                <li><strong>Admonish the sinner:</strong> Galatians 6:1 asks the spiritual to restore a sinner gently, and James 5:19–20 praises whoever brings back one who has wandered from the truth.</li>
+                <li><strong>Comfort the afflicted:</strong> Paul calls God the Father of mercies, who comforts us so we can comfort others (2 Corinthians 1:3–4). Job's friends did best in the first seven days, when they sat with him in silence (Job 2:13).</li>
+                <li><strong>Forgive offenses:</strong> Jesus tells Peter to forgive not seven times but seventy-seven times (Matthew 18:21–22), and Colossians 3:13 grounds our forgiveness in the Lord's.</li>
+                <li><strong>Bear wrongs patiently:</strong> Romans 12:17–21 forbids repaying evil for evil and leaves vengeance to God.</li>
+                <li><strong>Pray for the living and the dead:</strong> 1 Timothy 2:1 asks for prayers for everyone, and 2 Maccabees 12:46 praises prayer for the dead so they may be freed from sin.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where the List Comes From</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">
+                The corporal works are drawn largely from the judgment scene in Matthew 25, but the spiritual works were gathered from the wider teaching of Scripture and the Fathers. St. Thomas Aquinas discussed both lists of seven in the Summa Theologiae (II-II, q. 32, aa. 2–3), treating them as forms of almsgiving: corporal alms meet bodily needs, while spiritual alms meet the needs of the soul. He argued that spiritual alms are, in themselves, the greater gift, because the soul is greater than the body, while admitting that in a given emergency bodily help must come first.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">
+                The list returned to prominence during the Extraordinary Jubilee of Mercy (2015–2016). In the bull announcing it, Misericordiae Vultus, Pope Francis asked Catholics to rediscover both sets of works. In his message for the World Day of Prayer for the Care of Creation in September 2016, he proposed care for our common home as a complement to the traditional fourteen: in its spiritual form, grateful contemplation of God's world, and in its corporal form, simple daily gestures that respect creation.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Common Misunderstandings</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">
+                "Instruct the ignorant" is not an insult. In older English, ignorant simply meant uninformed, and the work asks for patient teaching, not a sense of superiority. Counseling the doubtful also differs from instructing: the instructor shares facts the other person lacks, while the counselor accompanies someone who knows the teaching but struggles to trust it.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">
+                Forgiving offenses and bearing wrongs patiently never require someone to remain in danger. Forgiveness releases the desire for revenge; it does not erase the need for justice, safety, or accountability. The U.S. bishops' pastoral statement on domestic violence, When I Call for Help, states clearly that no one is expected to stay in an abusive relationship. Patience with ordinary irritations and injustices is a virtue; tolerating abuse is not what this work asks.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">
+                Praying for the dead is especially woven into November. Besides the commemoration of All Souls on November 2, the first eight days of the month carry a special grace: a Catholic who prays at a cemetery during that week, meeting the usual conditions, can gain a plenary indulgence that may be offered only for someone in purgatory.
+              </LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">U.S. Parish Opportunities</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Become an RCIA sponsor or catechist — formation is provided by most dioceses.</li>
@@ -102,32 +132,6 @@ export default function SpiritualWorksOfMercyCatholic() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Fourteen Works Together</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">Tradition lists seven corporal and seven spiritual works — fourteen total. Lenten parish programs often challenge families to check off one work per week. Pope St. John Paul II and Pope Francis both emphasized that mercy is the name of God and the face the Church must show the world.</LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. Catholic guide with U.S. examples. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">Readers often search for Spiritual Works of Mercy: Full Catholic List & Examples during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="spiritual-works-of-mercy-catholic">The seven spiritual works of mercy — counsel, instruct, admonish, comfort, forgive, bear patiently, and pray for the living and dead. Catholic guide with U.S. examples. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
             <BlogFAQ faqs={[
               { question: "What are the spiritual works of mercy?", answer: "Seven acts that help others in spiritual needs — from teaching the faith to forgiving injuries and praying for souls." },
@@ -136,8 +140,9 @@ export default function SpiritualWorksOfMercyCatholic() {
               { question: "Do spiritual works replace corporal works?", answer: "No. Catholics are called to both. They are two halves of one mercy." },
               { question: "What does bear wrongs patiently mean?", answer: "Enduring injustice or insult without revenge when loving correction is not possible — trusting God as judge while remaining charitable." },
               { question: "How do I pray for the dead?", answer: "Offer Mass intentions, pray the Rosary or Eternal Rest for souls in purgatory, and remember deceased family at every Mass you attend." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Where do the spiritual works of mercy come from?", answer: "They are drawn from Scripture and early Christian teaching rather than one passage. St. Thomas Aquinas treated the seven spiritual and seven corporal works in the Summa Theologiae (II-II, q. 32), and the Catechism summarizes them in CCC 2447." },
+              { question: "Does bearing wrongs patiently mean staying in an abusive situation?", answer: "No. Patience and forgiveness do not require anyone to remain in danger. The U.S. bishops' statement When I Call for Help says no one is expected to stay in an abusive relationship." },
+              { question: "Did Pope Francis add a new work of mercy?", answer: "In September 2016 he proposed care for our common home as a complement to the traditional fourteen, with both a spiritual and a corporal dimension." },
             ]} />
             <RelatedArticles currentSlug="spiritual-works-of-mercy-catholic" />
             <ArticleBottomCTA />

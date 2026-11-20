@@ -103,6 +103,36 @@ export default function EternalRestPrayerCatholic() {
                 Praying for the dead is an act of charity — the Church on earth continues to love those being purified in purgatory. The Eternal Rest prayer is short enough for daily use and solemn enough for a funeral.
               </LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Praying for One Person: Singular Form</h2>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6 text-text italic leading-relaxed space-y-3">
+                <p>Eternal rest grant unto him (her), O Lord, and let perpetual light shine upon him (her). May he (she) rest in peace. Amen.</p>
+                <p>Requiem aeternam dona ei, Domine, et lux perpetua luceat ei. Requiescat in pace. Amen.</p>
+              </div>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">
+                When you pray for a particular person, it is natural to say their name first and then use the singular. Requiescat in pace, may he or she rest in peace, is the source of the letters R.I.P. carved on so many Catholic headstones; Requiescant is the plural.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where the Prayer Comes From</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">
+                The wording of the Requiem aeternam closely follows a passage in the apocryphal book known as 4 Esdras (printed as 2 Esdras in many English Bibles), where the nations are told to await their shepherd, who will give them everlasting rest, and that perpetual light will shine on them (2 Esdras 2:34-35). That book is not part of the Catholic canon of Scripture, but it was printed in an appendix to the Latin Vulgate and was well known to early medieval Christians, who turned its images into a petition for the dead.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">
+                The prayer became the Introit, or entrance chant, of the traditional Latin Requiem Mass, paired with Psalm 65 (64 in the Latin numbering), Te decet hymnus, Deus, in Sion. That is why a Mass for the dead came to be called a Requiem, after its first word, and why composers such as Mozart, Verdi, and Fauré all begin their Requiem settings with these words. In the older form of the Office of the Dead, the Requiem aeternam also replaced the Glory Be at the end of each psalm.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Meaning of Each Phrase</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Eternal rest:</strong> not inactivity, but the Sabbath rest that remains for the people of God (Hebrews 4:9-10) — the end of struggle and the fullness of life with him. Revelation 14:13 calls the dead who die in the Lord blessed because they rest from their labors.</li>
+                <li><strong>Grant unto them, O Lord:</strong> rest is a gift. We do not earn it for the dead; we ask God to give it out of mercy.</li>
+                <li><strong>Perpetual light:</strong> the light of the heavenly city, which needs no sun or lamp because the Lord God is its light (Revelation 22:5; compare Isaiah 60:19).</li>
+                <li><strong>May they rest in peace:</strong> peace in the biblical sense of shalom — wholeness and right relationship with God, finally complete.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Pray for the Dead</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">
+                According to the Catechism, a person who dies in friendship with God yet not fully purified is still assured of salvation, but passes through a cleansing after death so as to enter heaven's joy; the Church names this final purification purgatory (CCC 1030-1031). It points to the example of Judas Maccabeus, who made atonement for the dead so they might be delivered from their sin (2 Maccabees 12:46), and notes that Christians have remembered their dead in prayer since the first centuries, with the Mass as the highest offering made for them (CCC 958, 1032). The Eternal Rest prayer is a short, daily way of taking part in that work of love.
+              </LinkedText>
+
               <QuizCTA
                 title="Explore Catholic teaching on life, death, and hope"
                 description="Take the Catholic life assessment for a personalized guide to doctrine, prayer, and the sacraments."
@@ -115,32 +145,19 @@ export default function EternalRestPrayerCatholic() {
                 <li>After visiting a cemetery or passing a memorial.</li>
                 <li>At the conclusion of the Rosary, often after the Hail Holy Queen.</li>
               </ul>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">The Eternal Rest prayer (Requiem aeternam) with full Catholic text in English and Latin, when to pray it for the dead, and how it fits funeral Mass and November memorials. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Indulgences Linked to the Prayer</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">
+                Saying the Requiem aeternam with devotion carries a partial indulgence in the Church's handbook of indulgences, and that benefit can be offered only for the souls in purgatory. During the first eight days of November, a graveside visit with prayer for the departed can gain a plenary indulgence for them, provided the person also goes to Confession, receives Communion, prays for the Holy Father's intentions, and is free of attachment to any sin. Many Catholics pray Eternal Rest at each grave they pass during that week.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Eternal Rest Prayer (Requiem Aeternam), you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">Readers often search for Eternal Rest Prayer (Requiem Aeternam): Full Catholic Text during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eternal-rest-prayer-catholic">The Eternal Rest prayer (Requiem aeternam) with full Catholic text in English and Latin, when to pray it for the dead, and how it fits funeral Mass and November memorials. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Ways to Use It</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li>Keep a list of deceased family and friends in your missal or phone and pray Eternal Rest for one name each night.</li>
+                <li>Pray it on the anniversary of a loved one's death, and consider asking your parish to offer a Mass for that intention.</li>
+                <li>Write names in your parish's November Book of the Dead, often placed near the altar for All Souls Day.</li>
+                <li>Add it to grace after meals, where the traditional text already remembers the faithful departed.</li>
+              </ul>
             </div>
 
             <BlogFAQ faqs={[
@@ -148,9 +165,9 @@ export default function EternalRestPrayerCatholic() {
               { question: "Is Eternal Rest only for funerals?", answer: "No. Catholics pray it whenever they remember the dead — at home, in cemeteries, during November devotions, and after the Rosary." },
               { question: "What does Requiescant in pace mean?", answer: "It means May they rest in peace — the Latin form of the familiar R.I.P., expressing Christian hope in resurrection, not final extinction." },
               { question: "Can I pray Eternal Rest for non-Catholics who have died?", answer: "Yes. The Church encourages prayer for all the dead, entrusting them to God's mercy. We pray with hope that all may come to eternal life." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "How do I pray Eternal Rest for one person?", answer: "Use the singular: Eternal rest grant unto him (or her), O Lord, and let perpetual light shine upon him (or her). May he (or she) rest in peace. Amen. In Latin the endings change to ei and Requiescat." },
+              { question: "Where do the words of Eternal Rest come from?", answer: "They closely follow 2 Esdras (4 Esdras) 2:34-35, an apocryphal text printed in an appendix to the Latin Vulgate. The prayer became the entrance chant of the traditional Requiem Mass." },
+              { question: "Does praying Eternal Rest carry an indulgence?", answer: "Yes. Praying it devoutly carries a partial indulgence that may be applied to the souls in purgatory. Between November 1 and 8, a cemetery visit with prayer for the departed can gain them a plenary indulgence when the usual conditions are fulfilled." },
             ]} />
 
             <RelatedArticles currentSlug="eternal-rest-prayer-catholic" />

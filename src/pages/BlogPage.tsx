@@ -79,10 +79,6 @@ export default function BlogPage() {
     navigate('/blog/');
   };
   
-  const handlePageChange = (page: number) => {
-    navigate(getBlogPagePath(page));
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
 
   return (
     <>
@@ -175,70 +171,99 @@ export default function BlogPage() {
               })}
             </div>
 
-            {/* Pagination — smart truncated for mobile */}
+            {/* Pagination: real links so search engines can reach every archive page */}
             {totalPages > 1 && (
-              <div className="flex items-center justify-center gap-1.5">
-                {/* Prev */}
-                <button
-                  onClick={() => handlePageChange(currentPage - 1)}
-                  disabled={currentPage === 1}
-                  className={`p-2 rounded-lg border transition-colors ${
-                    currentPage === 1
-                      ? "border-border text-text-muted cursor-not-allowed opacity-40"
-                      : "border-border text-text hover:bg-accent hover:text-button-text hover:border-accent"
-                  }`}
-                >
-                  <ChevronLeft className="w-5 h-5" />
-                </button>
+              <nav aria-label="Blog pages">
+                <div className="flex items-center justify-center gap-1.5">
+                  {currentPage > 1 ? (
+                    <Link
+                      to={getBlogPagePath(currentPage - 1)}
+                      rel="prev"
+                      aria-label="Previous page"
+                      className="p-2 rounded-lg border border-border text-text transition-colors hover:bg-accent hover:text-button-text hover:border-accent"
+                    >
+                      <ChevronLeft className="w-5 h-5" />
+                    </Link>
+                  ) : (
+                    <span aria-hidden="true" className="p-2 rounded-lg border border-border text-text-muted opacity-40">
+                      <ChevronLeft className="w-5 h-5" />
+                    </span>
+                  )}
 
-                {/* Smart page numbers */}
-                {(() => {
-                  const pages: (number | "...")[] = [];
-                  if (totalPages <= 7) {
-                    for (let i = 1; i <= totalPages; i++) pages.push(i);
-                  } else {
-                    pages.push(1);
-                    if (currentPage > 3) pages.push("...");
-                    for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
-                      pages.push(i);
+                  {(() => {
+                    const pages: (number | "...")[] = [];
+                    if (totalPages <= 7) {
+                      for (let i = 1; i <= totalPages; i++) pages.push(i);
+                    } else {
+                      pages.push(1);
+                      if (currentPage > 3) pages.push("...");
+                      for (let i = Math.max(2, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+                        pages.push(i);
+                      }
+                      if (currentPage < totalPages - 2) pages.push("...");
+                      pages.push(totalPages);
                     }
-                    if (currentPage < totalPages - 2) pages.push("...");
-                    pages.push(totalPages);
-                  }
-                  return pages.map((p, idx) =>
-                    p === "..." ? (
-                      <span key={`ellipsis-${idx}`} className="w-9 h-9 flex items-center justify-center text-text-muted text-sm">
-                        …
-                      </span>
-                    ) : (
-                      <button
-                        key={p}
-                        onClick={() => handlePageChange(p as number)}
-                        className={`w-9 h-9 rounded-lg border text-sm font-medium transition-colors ${
-                          currentPage === p
-                            ? "bg-accent text-button-text border-accent"
-                            : "border-border text-text hover:bg-accent/10 hover:border-accent"
-                        }`}
-                      >
-                        {p}
-                      </button>
-                    )
-                  );
-                })()}
+                    return pages.map((p, idx) =>
+                      p === "..." ? (
+                        <span key={`ellipsis-${idx}`} className="w-9 h-9 flex items-center justify-center text-text-muted text-sm">
+                          …
+                        </span>
+                      ) : (
+                        <Link
+                          key={p}
+                          to={getBlogPagePath(p)}
+                          aria-current={currentPage === p ? "page" : undefined}
+                          className={`w-9 h-9 flex items-center justify-center rounded-lg border text-sm font-medium transition-colors ${
+                            currentPage === p
+                              ? "bg-accent text-button-text border-accent"
+                              : "border-border text-text hover:bg-accent/10 hover:border-accent"
+                          }`}
+                        >
+                          {p}
+                        </Link>
+                      )
+                    );
+                  })()}
 
-                {/* Next */}
-                <button
-                  onClick={() => handlePageChange(currentPage + 1)}
-                  disabled={currentPage === totalPages}
-                  className={`p-2 rounded-lg border transition-colors ${
-                    currentPage === totalPages
-                      ? "border-border text-text-muted cursor-not-allowed opacity-40"
-                      : "border-border text-text hover:bg-accent hover:text-button-text hover:border-accent"
-                  }`}
-                >
-                  <ChevronRight className="w-5 h-5" />
-                </button>
-              </div>
+                  {currentPage < totalPages ? (
+                    <Link
+                      to={getBlogPagePath(currentPage + 1)}
+                      rel="next"
+                      aria-label="Next page"
+                      className="p-2 rounded-lg border border-border text-text transition-colors hover:bg-accent hover:text-button-text hover:border-accent"
+                    >
+                      <ChevronRight className="w-5 h-5" />
+                    </Link>
+                  ) : (
+                    <span aria-hidden="true" className="p-2 rounded-lg border border-border text-text-muted opacity-40">
+                      <ChevronRight className="w-5 h-5" />
+                    </span>
+                  )}
+                </div>
+
+                {/* Every archive page in one list, so no article is more than a couple of clicks from /blog/ */}
+                {totalPages > 7 && (
+                  <details className="mt-6 text-center">
+                    <summary className="cursor-pointer text-sm font-medium text-accent">Browse all {totalPages} pages</summary>
+                    <div className="mt-4 flex flex-wrap justify-center gap-1.5 max-w-3xl mx-auto">
+                      {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+                        <Link
+                          key={p}
+                          to={getBlogPagePath(p)}
+                          aria-current={currentPage === p ? "page" : undefined}
+                          className={`min-w-8 h-8 px-2 flex items-center justify-center rounded-md border text-xs transition-colors ${
+                            currentPage === p
+                              ? "bg-accent text-button-text border-accent"
+                              : "border-border text-text-muted hover:border-accent hover:text-text"
+                          }`}
+                        >
+                          {p}
+                        </Link>
+                      ))}
+                    </div>
+                  </details>
+                )}
+              </nav>
             )}
           </div>
         </div>

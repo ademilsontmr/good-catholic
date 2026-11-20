@@ -106,7 +106,7 @@ export default function HolyDaysOfObligation2026Usa() {
                   <tbody>
                     {[
                       ["Mary, Mother of God", "Thursday, January 1", "Yes"],
-                      ["Ascension of the Lord", "Thursday, May 14 (5 provinces) or Sunday, May 17 (most dioceses)", "Yes (as scheduled locally)"],
+                      ["Ascension of the Lord", "Thursday, May 14 (a few provinces) or Sunday, May 17 (most dioceses)", "Yes (as scheduled locally)"],
                       ["Assumption of the BVM", "Saturday, August 15", "No — precept abrogated (Saturday)"],
                       ["All Saints", "Sunday, November 1", "Yes — coincides with Sunday"],
                       ["Immaculate Conception", "Tuesday, December 8", "Yes"],
@@ -171,39 +171,36 @@ export default function HolyDaysOfObligation2026Usa() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Ascension: Why Two Dates?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
-                In 2026, five U.S. ecclesiastical provinces keep Ascension on Thursday, May 14. Most other dioceses transfer it to Sunday, May 17. Always follow your local diocesan calendar — your parish bulletin is authoritative for where you live.
+                In 2026, a small number of U.S. ecclesiastical provinces, mostly in the Northeast, kept Ascension on Thursday, May 14 (forty days after Easter, which fell on April 5). Most other dioceses transferred it to Sunday, May 17, under permission the Holy See granted to the U.S. bishops in 1999. Always follow your local diocesan calendar — your parish bulletin is authoritative for where you live.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why the U.S. List Has Six Days Instead of Ten</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
+                Canon 1246 §1 of the Code of Canon Law names ten holy days for the universal Latin Church: Christmas, Epiphany, Ascension, the Body and Blood of Christ, Mary Mother of God, the Immaculate Conception, the Assumption, St. Joseph, Sts. Peter and Paul, and All Saints. The same canon allows a conference of bishops, with the approval of the Holy See, to suppress some of these days or transfer them to a Sunday.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
+                The U.S. bishops used that permission. Epiphany and Corpus Christi are celebrated on Sundays in the United States, so they are covered by the Sunday precept automatically. St. Joseph (March 19) and Sts. Peter and Paul (June 29) remain solemnities on the calendar, but American Catholics are not bound to attend Mass on those dates. That leaves the six days in the table above.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Saturday-or-Monday Rule, and the Days It Never Touches</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
+                The U.S. norm lifts the obligation only for three solemnities: Mary Mother of God, the Assumption and All Saints, and only when one of them lands on a Saturday or a Monday. The reasoning is pastoral: two obligatory Masses on consecutive days were a burden for many families and for priests covering several parishes. In 2026 only the Assumption was affected.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
+                Christmas is never lifted, whatever weekday it falls on. The Immaculate Conception, patronal feast of the United States, also keeps its obligation on a Saturday or Monday. The one exception is when December 8 falls on a Sunday: the liturgy moves to Monday, December 9, and the Mass obligation does not move with it, as happened in 2024. In 2026 December 8 is a Tuesday, so the ordinary obligation applies, with vigil Masses commonly offered on the evening of Monday, December 7.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Christmas 2026 Falls on a Friday</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
+                December 25, 2026 is a Friday. Canon 1251 sets Friday abstinence from meat for every Friday of the year unless a solemnity falls on it, so Catholics are free to eat meat on Christmas Day. The Mass obligation can be fulfilled at a Christmas Eve vigil on Thursday evening, December 24, at Midnight Mass, at the Mass at Dawn, or at a Mass during the day on the 25th. Canon 1248 allows any Mass celebrated in a Catholic rite on the day itself or on the evening before to satisfy the precept.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Looking Ahead: January 1, 2027</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
+                Because 2026 is not a leap year, New Year's Day 2027 falls on a Friday as well. That date is neither a Saturday nor a Monday, so the Solemnity of Mary, Mother of God will be a holy day of obligation in U.S. dioceses. As with Christmas, the solemnity takes precedence over Friday abstinence. Plan for a vigil Mass on Thursday evening, December 31, or a Mass on New Year's Day itself.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Eastern Catholic Churches</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">
                 This guide follows Latin Rite (Roman Catholic) norms for the United States. Eastern Catholic Churches sui iuris follow their own particular law and calendars. If you belong to an Eastern Catholic Church, ask your pastor which holy days bind in your Church.
               </LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">Holy Days of Obligation 2026 (USA): Full Calendar &amp; Rules Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">Readers often search for Holy Days of Obligation 2026 (USA): Full Calendar &amp; Rules during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-days-of-obligation-2026-usa">Holy Days of Obligation 2026 (USA): Full Calendar &amp; Rules — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
             <BlogFAQ
@@ -228,6 +225,18 @@ export default function HolyDaysOfObligation2026Usa() {
                 {
                   question: "What happens if I miss a holy day of obligation?",
                   answer: "Missing Mass on a holy day without a serious reason is a grave matter. Seek the Sacrament of Confession and return to Sunday Mass. Illness, caregiving, or lack of reasonable access can excuse attendance.",
+                },
+                {
+                  question: "Do Catholics have to abstain from meat on Christmas 2026?",
+                  answer: "No. Christmas 2026 is a Friday, but under Canon 1251 Friday abstinence does not apply when a solemnity falls on that day. The same is true on Friday, January 1, 2027.",
+                },
+                {
+                  question: "Is January 1, 2027 a holy day of obligation?",
+                  answer: "Yes. January 1, 2027 is a Friday, not a Saturday or Monday, so the U.S. rule that lifts the obligation does not apply. Catholics should attend Mass on New Year's Day or at a vigil on December 31.",
+                },
+                {
+                  question: "Why are Epiphany and Corpus Christi not holy days of obligation in the U.S.?",
+                  answer: "They are still observed, but the U.S. bishops transferred both to Sundays with the Holy See's approval. Attending Sunday Mass on those weekends covers them.",
                 },
                 {
                   question: "Does watching Mass online count?",

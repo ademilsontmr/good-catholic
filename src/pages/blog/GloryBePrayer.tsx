@@ -125,32 +125,37 @@ export default function GloryBePrayer() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">
                 In the Rosary, each decade ends with the Glory Be. After meditating on a mystery of Christ's life, Catholics respond with praise. This keeps the Rosary centered on God, even while asking for Mary's intercession.
               </LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">The Glory Be prayer with full Catholic text, meaning, biblical roots, and how to pray this short doxology in the Rosary, novenas, and daily prayer. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">
+                It also appears once in the opening prayers, after the three Hail Marys offered for an increase of faith, hope, and charity. Counting those, a five-decade Rosary includes six Glory Bes, each one a short pause in which the meditation turns into adoration of the Trinity.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Gloria Patri in Latin</h2>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
+                <p className="text-text italic leading-relaxed text-lg">
+                  Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen.
+                </p>
+              </div>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">
+                The closing phrase "in saecula saeculorum" literally means "unto the ages of ages," a Hebrew-style way of saying forever. The traditional English "world without end" is an old poetic rendering of that idea; it does not mean the physical world will never end. This is why the English translation used in the Liturgy of the Hours reads differently: "Glory to the Father, and to the Son, and to the Holy Spirit: as it was in the beginning, is now, and will be for ever. Amen." Both versions express the same praise.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where the Glory Be Came From</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">
+                Short doxologies run through the New Testament. Paul closes passages with praise such as "to him be glory forever" (Romans 11:36), and Jude ends his letter with glory given to God through Jesus Christ (Jude 24–25). The Trinitarian shape of the Glory Be mirrors the baptismal command in Matthew 28:19, which names the Father, the Son, and the Holy Spirit side by side.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">
+                In the fourth century the exact wording became a matter of doctrine. Some Christians prayed "Glory to the Father through the Son in the Holy Spirit," a form that followers of Arius used to suggest the Son and Spirit were lesser than the Father. St. Basil the Great defended the form that gives glory to the Father with the Son together with the Holy Spirit in his treatise On the Holy Spirit. Naming all three Persons with the same "and" became a compact confession of their equal divinity.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">
+                The second line developed in the Latin West. The Council of Vaison in Gaul (529) directed that "as it was in the beginning" be added, as was already done in Rome and elsewhere, partly to answer those who claimed the Son had not always existed. Eastern Christians kept a shorter form that praises the Trinity "now and ever and unto ages of ages," still heard in Byzantine liturgies.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Glory Be Prayer, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">Readers often search for Glory Be Prayer: Full Text, Meaning and When to Pray It during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="glory-be-prayer">The Glory Be prayer with full Catholic text, meaning, biblical roots, and how to pray this short doxology in the Rosary, novenas, and daily prayer. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Glory Be in the Liturgy</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Liturgy of the Hours:</strong> each Hour opens with "O God, come to my assistance" followed by the Glory Be, and nearly every psalm and canticle ends with it, turning Old Testament prayer into praise of the Trinity.</li>
+                <li><strong>Traditional Latin Mass:</strong> the Gloria Patri follows the psalm verse of the Introit and the Lavabo psalm, and it is customarily omitted in Passiontide and at Requiem Masses.</li>
+                <li><strong>Greater and lesser doxology:</strong> the Gloria sung at Sunday Mass ("Glory to God in the highest") is called the greater doxology; the Glory Be is the lesser one.</li>
+              </ul>
             </div>
 
             <DailyPrayersHubLink />
@@ -159,9 +164,9 @@ export default function GloryBePrayer() {
               { question: "What is a doxology?", answer: "A doxology is a short prayer of praise to God. The Glory Be is called the lesser doxology because it gives direct praise to the Father, Son, and Holy Spirit." },
               { question: "When is the Glory Be prayed in the Rosary?", answer: "It is prayed after the ten Hail Marys in each decade of the Rosary, before the Fatima Prayer if that prayer is included." },
               { question: "Can I pray the Glory Be by itself?", answer: "Yes. It can be prayed alone anytime as a brief act of adoration, gratitude, and praise." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "What is the Glory Be in Latin?", answer: "Gloria Patri, et Filio, et Spiritui Sancto. Sicut erat in principio, et nunc, et semper, et in saecula saeculorum. Amen." },
+              { question: "What does 'world without end' mean?", answer: "It is a traditional English rendering of the Latin 'in saecula saeculorum,' meaning 'unto the ages of ages,' or forever. It speaks of God's eternal glory, not of the physical world lasting forever." },
+              { question: "Why are there two English versions of the Glory Be?", answer: "The devotional version ('world without end') is centuries old. The Liturgy of the Hours uses a newer translation ending 'will be for ever.' Both translate the same Latin prayer." },
             ]} />
 
             <RelatedArticles currentSlug="glory-be-prayer" />

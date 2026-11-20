@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import { ARTICLE_DATES } from "@/data/articleDates";
+import { ARTICLE_DATES, ARTICLE_UPDATED } from "@/data/articleDates";
 
 const MAX_HEADLINE = 110;
 
@@ -36,7 +36,9 @@ export function ArticleSchema({
   const slug = url.match(/\/blog\/([^/]+)\/?$/)?.[1];
   const listedDate = slug ? ARTICLE_DATES[slug] : undefined;
   datePublished = datePublished ?? listedDate;
-  dateModified = dateModified ?? datePublished;
+  // The page's last real change (git) wins, but never earlier than the publish date.
+  const changed = slug ? ARTICLE_UPDATED[slug] : undefined;
+  dateModified = [changed, dateModified, datePublished].filter(Boolean).sort().pop();
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -48,8 +50,8 @@ export function ArticleSchema({
     image,
     author: {
       "@type": "Organization",
-      name: author,
-      url: "https://guidecatholic.com",
+      name: author === "Guide Catholic" ? "Guide Catholic Editorial Team" : author,
+      url: "https://guidecatholic.com/about/",
     },
     publisher: {
       "@type": "Organization",

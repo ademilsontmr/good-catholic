@@ -124,32 +124,40 @@ export default function HailMaryPrayer() {
               <p className="text-text leading-relaxed mb-6">
                 In the Rosary, the Hail Mary is repeated while meditating on the mysteries of Christ's life, death, and resurrection. The repetition is not empty. It creates a rhythm of prayer that helps the heart remain with Jesus.
               </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">Hail Mary prayer with full Catholic text, biblical roots in Luke, and how to pray it in the Rosary — clear meaning for every line. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">
+                A full five-decade Rosary contains fifty-three Hail Marys: ten in each decade and three in the opening prayers. The Angelus, traditionally prayed at 6 AM, noon, and 6 PM, places one Hail Mary after each of its three verses about the Incarnation.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Hail Mary in Latin: Ave Maria</h2>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
+                <p className="text-text italic leading-relaxed text-lg">
+                  Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen.
+                </p>
+              </div>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Phrase-by-Phrase Meaning</h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-6">
+                <li><strong>"Hail Mary":</strong> the Greek word in Luke 1:28, "chaire," is a greeting that also means "rejoice." Mary's name was added to the angel's words so the prayer addresses her directly.</li>
+                <li><strong>"Full of grace":</strong> Luke uses "kecharitomene," a perfect passive participle meaning one who has been, and remains, filled with God's favor. Catholic theology sees here a sign of the grace that preserved Mary from sin.</li>
+                <li><strong>"The Lord is with thee":</strong> the same assurance God gave to figures such as Gideon (Judges 6:12) when calling them to a mission.</li>
+                <li><strong>"Blessed art thou among women":</strong> Elizabeth, filled with the Holy Spirit, says this at the Visitation (Luke 1:42).</li>
+                <li><strong>"Blessed is the fruit of thy womb, Jesus":</strong> Elizabeth's words, with the holy name added. The Catechism calls Jesus the center of the prayer (CCC 2676).</li>
+                <li><strong>"Holy Mary, Mother of God":</strong> the title Theotokos was solemnly affirmed at the Council of Ephesus in 431 to protect the truth that Mary's Son is one divine Person.</li>
+                <li><strong>"Pray for us sinners, now and at the hour of our death":</strong> we ask for help in the present moment and at the moment that matters most. The Catechism notes that we entrust that hour to her as she stood by her Son's death on the Cross (CCC 2677).</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Hail Mary Prayer, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Prayer Took Its Present Form</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">
+                The two Gospel greetings were joined in Christian prayer very early; they appear together in Eastern liturgical texts, and a similar Byzantine form is still sung today. In the Latin West, the scriptural half became a common devotion by the twelfth century, and diocesan synods around 1200, including one in Paris, told clergy to teach it to the faithful along with the Our Father and the Creed. At that stage the prayer ended with the words "the fruit of thy womb," and the name of Jesus was added during the Middle Ages.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">
+                The petition "Holy Mary, Mother of God, pray for us sinners" appears in various forms during the fifteenth century, especially in Italy. Its final wording was fixed for the whole Latin Church when Pope St. Pius V published the reformed Roman Breviary in 1568, where the complete Hail Mary was printed in the form Catholics pray today.
+              </LinkedText>
 
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">Readers often search for Hail Mary Prayer: Full Text, Meaning & How to Pray during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">Hail Mary prayer with full Catholic text, biblical roots in Luke, and how to pray it in the Rosary — clear meaning for every line. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Ave Maria in Music</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-mary-prayer">
+                Few prayers have been set to music as often. Gregorian chant has an Ave Maria offertory for Advent, and composers from the Renaissance onward wrote many polyphonic settings. In the Bach-Gounod Ave Maria, Charles Gounod set the Latin text to a new melody sung over the first prelude of Bach's Well-Tempered Clavier. Franz Schubert's famous melody was originally written for a German song based on Sir Walter Scott's poem "The Lady of the Lake" and only later adapted to the Latin words of the prayer.
+              </LinkedText>
             </div>
 
             <DailyPrayersHubLink />
@@ -158,9 +166,9 @@ export default function HailMaryPrayer() {
               { question: "Do Catholics worship Mary when they pray the Hail Mary?", answer: "No. Worship belongs to God alone. The Hail Mary asks Mary to intercede for us, just as Christians ask one another for prayer." },
               { question: "When should I pray the Hail Mary?", answer: "You can pray it anytime, especially in the Rosary, Angelus, moments of temptation, before sleep, or when asking for Mary's intercession." },
               { question: "Why does the prayer say Mother of God?", answer: "Because Jesus is one divine Person who is truly God and truly man. Mary is the mother of Jesus, so the Church rightly calls her Mother of God." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "What is the Hail Mary in Latin?", answer: "Ave Maria, gratia plena, Dominus tecum. Benedicta tu in mulieribus, et benedictus fructus ventris tui, Iesus. Sancta Maria, Mater Dei, ora pro nobis peccatoribus, nunc et in hora mortis nostrae. Amen." },
+              { question: "When was the second half of the Hail Mary added?", answer: "Forms of the petition appear in the 15th century. The complete wording was fixed for the Latin Church in the Roman Breviary of Pope St. Pius V in 1568." },
+              { question: "What does 'full of grace' mean?", answer: "It translates the Greek 'kecharitomene' in Luke 1:28, describing Mary as one who has been and remains filled with God's favor. The Church sees this as pointing to her freedom from sin." },
             ]} />
 
             <RelatedArticles currentSlug="hail-mary-prayer" />

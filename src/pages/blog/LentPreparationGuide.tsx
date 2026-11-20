@@ -102,8 +102,46 @@ export default function LentPreparationGuide() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
                 The color purple, used during Lent, signifies penance, preparation, and royalty. The somber tone gradually gives way to anticipation as we approach the Triduum and Easter joy.
               </LinkedText>
+
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Where the Forty Days Come From
+            </h2>
             <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
-              The color purple, used during Lent, signifies penance, preparation, and royalty. The somber tone gradually gives way to anticipation as we approach the Triduum and Easter joy.
+              The number forty runs through Scripture as a time of testing and preparation: Moses stayed forty days on the mountain before receiving the covenant (Exodus 34:28), Elijah walked forty days to Horeb (1 Kings 19:8), and Jesus fasted forty days in the desert before His public ministry (Matthew 4:1-11). The Gospel read on Ash Wednesday, Matthew 6:1-18, is where the three practices of prayer, fasting and almsgiving come from, along with Christ's warning to do them in secret rather than for show.
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
+              A pre-Easter season is attested early. The fifth canon of the Council of Nicaea in 325 already refers to a period called the forty days. In the ancient Church, Lent was the final stage of preparation for adults to be baptized at Easter and the season when public penitents were reconciled, which is why its prayers speak so much of washing, light and return.
+            </LinkedText>
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Key Dates for Lent 2027
+            </h2>
+            <ul className="list-disc list-inside text-text space-y-3 mb-6">
+              <li><strong>Tuesday, February 9:</strong> Shrove Tuesday, the traditional day to go to Confession and clear the pantry before the fast</li>
+              <li><strong>Wednesday, February 10:</strong> Ash Wednesday, a day of fasting and abstinence</li>
+              <li><strong>Sunday, March 7:</strong> Laetare Sunday, the Fourth Sunday of Lent, when rose vestments may be worn</li>
+              <li><strong>Friday, March 19:</strong> Solemnity of St. Joseph; because it is a solemnity, the Friday abstinence does not apply</li>
+              <li><strong>Sunday, March 21:</strong> Palm Sunday of the Passion of the Lord</li>
+              <li><strong>Thursday, March 25:</strong> Holy Thursday; Lent ends as the Evening Mass of the Lord&apos;s Supper begins</li>
+              <li><strong>Friday, March 26:</strong> Good Friday, a day of fasting and abstinence</li>
+              <li><strong>Sunday, March 28:</strong> Easter Sunday</li>
+            </ul>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
+              Because March 25 falls on Holy Thursday in 2027, the Solemnity of the Annunciation is moved to Monday, April 5, after the Octave of Easter. Use the weeks before February 10 to choose your practices, put penance services on your calendar, and look up when your parish schedules Friday Stations.
+            </LinkedText>
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              The U.S. Fasting and Abstinence Rules in Detail
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
+              Canon law binds Catholics to fast from their eighteenth birthday until the beginning of their sixtieth year, and to abstain from meat from age fourteen (canon 1252). In the United States, a fast day allows one full meal and two smaller meals that together do not equal a full meal, with no eating between meals; liquids are permitted. Abstinence forbids meat from mammals and birds, while fish, eggs and dairy are allowed. Pregnant or nursing women, the sick, people whose work requires full nutrition, and anyone for whom fasting would endanger health are excused, and pastors can dispense in particular cases.
+            </LinkedText>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
+              Two further obligations often fall during Lent. Under canon 920, anyone who has already received First Communion must receive the Eucharist at least once a year in the Easter season, which in the United States runs from the First Sunday of Lent through Trinity Sunday. Canon 989 requires anyone aware of grave sin to confess at least once a year. Many Catholics also keep the voluntary paschal fast on Holy Saturday, which the Second Vatican Council recommended as a way of arriving at Easter with hunger for the Resurrection (Sacrosanctum Concilium 110).
+            </LinkedText>
+            <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+              Walking with Those Preparing for Baptism
+            </h2>
+            <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">
+              If your parish has adults preparing for Easter baptism, Lent is their final retreat. They are enrolled as the Elect at the Rite of Election, usually celebrated by the bishop on or near the First Sunday of Lent, and on the Third, Fourth and Fifth Sundays the parish celebrates the Scrutinies with the Year A Gospels of the Samaritan woman, the man born blind and the raising of Lazarus. Praying for the Elect by name and attending a Scrutiny Mass is one of the most fruitful ways to keep the original purpose of the season in view.
             </LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
@@ -214,18 +252,6 @@ export default function LentPreparationGuide() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "He must increase, but I must decrease." - John 3:30
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">Prepare for Lent with this complete guide. Learn how to choose sacrifices, deepen prayer, practice almsgiving, and make the 40 days a true spiritual transformation. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="lent-preparation-guide">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
-
             </div>
 
               </div>
@@ -238,7 +264,7 @@ export default function LentPreparationGuide() {
               },
               {
                 question: "Can I take breaks from my Lenten sacrifice on Sundays?",
-                answer: "Sundays are technically not part of Lent (they are always celebrations of the Resurrection). Traditionally, people maintain their sacrifices on Sundays but some choose to relax them. Neither approach is wrong. The key is maintaining the spirit of Lent while honoring the Lord's Day."
+                answer: "Sundays fall within the Lenten season (they are the Sundays of Lent), but every Sunday celebrates the Resurrection and is never a day of required fasting. The Church sets no rule about personal sacrifices on Sundays, so some people keep them and others relax them. Either approach is acceptable if it serves the spirit of Lent."
               },
               {
                 question: "What should I do if I fail to keep my Lenten resolution?",
@@ -248,8 +274,18 @@ export default function LentPreparationGuide() {
                 question: "Should children participate in Lent?",
                 answer: "Yes, adapted to their age. Children can give up sweets, say extra prayers, do kind deeds, or collect money for the poor. Make it positive and achievable. Teaching children Lenten discipline forms them in the faith. Family practices (like Stations of the Cross together) are especially valuable."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              {
+                question: "When does Lent 2027 begin and end?",
+                answer: "Lent 2027 begins on Ash Wednesday, February 10, and ends on Holy Thursday, March 25, when the Evening Mass of the Lord's Supper opens the Triduum. Easter Sunday is March 28, 2027."
+              },
+              {
+                question: "Can Catholics eat meat on St. Joseph's Day 2027?",
+                answer: "Yes. March 19, 2027 is a Friday of Lent, but it is the Solemnity of St. Joseph. Because a solemnity outranks the Friday penance, canon 1251 does not require abstinence that day."
+              },
+              {
+                question: "What is the Easter duty?",
+                answer: "It is the obligation in canon 920 to receive Holy Communion at least once a year during the Easter season. In the United States that window runs from the First Sunday of Lent to Trinity Sunday. Anyone conscious of grave sin should go to Confession first."
+              },
             ]} />
 
 <RelatedArticles currentSlug="lent-preparation-guide" />

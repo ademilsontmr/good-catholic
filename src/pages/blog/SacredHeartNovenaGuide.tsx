@@ -82,11 +82,6 @@ export default function SacredHeartNovenaGuide() {
                 The Sacred Heart of Jesus is one of the most beloved devotions in the Catholic Church. It refers to the physical heart of Jesus Christ as the symbol of his infinite love for humanity — a love that was pierced by a lance on the cross and continues to burn for every soul. The devotion was revealed to St. Margaret Mary Alacoque in a series of apparitions between 1673 and 1675, in which Jesus showed her his heart surrounded by flames and a crown of thorns. The feast of the Sacred Heart is celebrated on the Friday after the second Sunday after Pentecost.
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-novena-guide">
-                A novena is a nine-day prayer, traditionally prayed in preparation for a feast day or in petition for a specific intention. The word comes from the Latin <em>novem</em> (nine), recalling the nine days the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The Sacred Heart Novena is traditionally prayed in the nine days before the feast of the Sacred Heart.
-              </LinkedText>
-
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray the Sacred Heart Novena?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sacred-heart-novena-guide">
                 Jesus himself promised extraordinary graces to those devoted to his Sacred Heart. Among the 12 promises revealed to St. Margaret Mary: peace in families, consolation in troubles, fervor for the lukewarm, and the grace of final perseverance. The Sacred Heart Novena is prayed for conversion of sinners, healing of families, peace in troubled hearts, and a deeper love for Jesus in the Eucharist. It is one of the most powerful novenas in the Catholic tradition.

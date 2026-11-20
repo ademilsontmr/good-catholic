@@ -101,6 +101,14 @@ export default function AgnusDeiPrayerCatholic() {
                 The Agnus Dei echoes John the Baptist pointing to Jesus (John 1:29). At Mass it prepares the faithful to receive the Lamb who was slain — now present in the Eucharist — and to ask for mercy and peace.
               </LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Lamb in Scripture</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">
+                John the Baptist&apos;s cry, Behold, the Lamb of God, who takes away the sin of the world (John 1:29), gathers up a long biblical thread. In Exodus 12 the blood of an unblemished lamb marked the doors of Israel so that death passed over them, and the Passover meal became the memorial of liberation. Isaiah described the suffering servant as a lamb led to the slaughter who opened not his mouth (Isaiah 53:7). St. Paul wrote plainly that Christ, our paschal lamb, has been sacrificed (1 Corinthians 5:7), and the Book of Revelation shows a Lamb standing as though it had been slain, worshiped by all of heaven (Revelation 5:6). The Catechism quotes John&apos;s words to explain that Jesus is both the suffering servant who bears the sin of the multitude and the new Passover lamb (CCC 608).
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">
+                Notice one small difference. John the Baptist speaks of the sin of the world in the singular, the whole condition of humanity estranged from God. The liturgy uses the plural, peccata, the sins of the world, naming the many concrete failures for which we ask mercy. Both are true: Christ removes the root and heals each wound.
+              </LinkedText>
+
               <QuizCTA
                 title="Understand the Mass more deeply"
                 description="Take the Catholic life assessment for a personalized guide to the sacraments and Sunday worship."
@@ -110,49 +118,39 @@ export default function AgnusDeiPrayerCatholic() {
               <p className="text-text leading-relaxed mb-6">
                 The Agnus Dei follows the Lord's Prayer and the Sign of Peace, during the fraction rite when the priest breaks the consecrated Host. The third invocation may be repeated until the distribution of Communion is complete in some celebrations.
               </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">The Agnus Dei (Lamb of God) prayer with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">
+                The General Instruction of the Roman Missal explains what is happening at the altar. While the Agnus Dei is sung or said, the priest divides the Host and lets one fragment fall into the chalice, a gesture called the commingling, which signifies the unity of the Body and Blood of the Lord in the work of salvation. The chant is meant to accompany the fraction, so it may be repeated as many times as necessary until the breaking is finished, always ending with grant us peace (GIRM 83). At a large Mass, a cantor may therefore sing four or five invocations instead of three.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">
+                Immediately afterward the priest raises the Host and says, Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those called to the supper of the Lamb. That line joins John 1:29 to Revelation 19:9, where an angel calls blessed those invited to the marriage supper of the Lamb. The people answer with the words of the centurion in Matthew 8:8: Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Agnus Dei Entered the Mass</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">
+                According to the Liber Pontificalis, the ancient collection of papal biographies, Pope St. Sergius I, who reigned from 687 to 701 and came from a Syrian family, ordered that the Agnus Dei be sung by clergy and people at the breaking of the Lord&apos;s Body. In his day the fraction took a long time, because whole loaves of bread were broken for the congregation, and the chant was repeated for as long as the breaking lasted. When small unleavened hosts came into use, the fraction became brief, and by around the eleventh century the chant was fixed at three invocations, with the last changed to dona nobis pacem.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">
+                In the traditional Latin Requiem Mass the words were adapted for the dead: the first two invocations end dona eis requiem, grant them rest, and the third dona eis requiem sempiternam, grant them eternal rest. Composers from Palestrina to Bach, Mozart, and Fauré have set the Agnus Dei to music, and many people know the text first from a concert hall or a choral recording.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Agnus Dei, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Readers often search for Agnus Dei: Full Text of the Lamb of God Prayer at Mass during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">The Agnus Dei (Lamb of God) prayer with full text in English and Latin, what Catholics say at Mass before Communion, and the meaning of each invocation. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
-              {/* data-expanded-depth-3 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">History and Church Approval</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Many Catholic prayers grew from monastic communities, papal encouragement, or popular devotion validated by local bishops. Agnus Dei belongs to this living tradition — not private revelation disconnected from the Magisterium.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Praying With Your Parish</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="agnus-dei-prayer-catholic">Bring this prayer to parish adoration hours, men&apos;s groups, or family rosary time. Shared prayer strengthens faith and corrects private misunderstandings.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Praying the Agnus Dei Well at Sunday Mass</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Watch the altar.</strong> As you sing, look at the priest breaking the Host. The words and the action belong together: the Lamb is broken so that many can share him.</li>
+                <li><strong>Make the first two invocations personal.</strong> Bring to mind a specific sin or need when you sing have mercy on us.</li>
+                <li><strong>Mean the word peace.</strong> The Sign of Peace has just been exchanged; the third invocation asks for the peace only Christ gives (John 14:27).</li>
+                <li><strong>Kneel when the chant ends.</strong> In U.S. dioceses the faithful normally kneel after the Agnus Dei unless the diocesan bishop has decided otherwise.</li>
+              </ul>
 
             </div>
 
             <BlogFAQ faqs={[
               { question: "What does Agnus Dei mean?", answer: "Agnus Dei is Latin for Lamb of God. It refers to Jesus Christ, the Passover Lamb whose sacrifice takes away the sins of the world." },
               { question: "Why is Agnus Dei prayed three times?", answer: "The triple invocation expresses urgent trust in Christ's mercy. The first two ask for mercy; the third asks for peace — the fruit of reconciliation with God." },
-              { question: "Do Catholics kneel during the Agnus Dei?", answer: "In the Roman Rite, the faithful kneel from the Agnus Dei until they receive Communion, unless local custom or disability requires otherwise." },
+              { question: "Do Catholics kneel during the Agnus Dei?", answer: "In the United States, the faithful normally kneel after the Agnus Dei is finished, unless the diocesan bishop determines otherwise. Those who cannot kneel for reasons of health may stand or sit." },
               { question: "Is the Agnus Dei the same as the Agnus Dei sacramental?", answer: "No. The prayer at Mass is a liturgical text. Agnus Dei sacramentals are wax discs blessed by the Pope, a different devotion." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Who added the Agnus Dei to the Mass?", answer: "The Liber Pontificalis credits Pope St. Sergius I (687-701) with ordering that the Agnus Dei be sung by clergy and people at the breaking of the bread. It was later fixed at three invocations." },
+              { question: "What is the priest doing during the Agnus Dei?", answer: "He breaks the consecrated Host (the fraction) and drops a small piece into the chalice (the commingling). The chant accompanies this action and may be extended until it is complete." },
+              { question: "Why are the words different in an old Requiem Mass?", answer: "In the traditional Requiem, the Agnus Dei asks rest for the dead: dona eis requiem twice, then dona eis requiem sempiternam, instead of miserere nobis and dona nobis pacem." },
             ]} />
 
             <RelatedArticles currentSlug="agnus-dei-prayer-catholic" />

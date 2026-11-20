@@ -102,20 +102,20 @@ export default function OurLadyUndoerOfKnots() {
                 The History: A Marriage Saved
               </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
-                The devotion originated in Germany in the early 1700s. A couple, Wolfgang Langenmantel and Sophie Imhoff, were on the verge of divorce. Wolfgang visited a Jesuit priest, Father Jakob Rem, for advice. During their final meeting, Father Rem took the couple's wedding ribbon (used in the ceremony to bind their hands as a sign of union) and lifted it up before an image of the Blessed Virgin. 
+                The story behind the devotion begins in Bavaria in the early 1600s. According to the family tradition, a nobleman named Wolfgang Langenmantel and his wife, Sophia, were close to separating. Around 1615 Wolfgang sought counsel from Father Jakob Rem, a Jesuit at Ingolstadt known for his Marian piety. During their final meeting, Father Rem took the couple's wedding ribbon (used in the ceremony to bind their hands as a sign of union) and lifted it up before an image of the Blessed Virgin. 
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
-                As he smoothed the ribbon, it miraculously turned snow-white, and the knots that had been tied in it (representing their conflicts) disappeared. The marriage was saved. Decades later, their grandson commissioned a painting of Mary "Untying the Knots" to commemorate this miracle.
+                The tradition says that as he smoothed the ribbon, the knots came loose and the ribbon turned bright white, and the couple reconciled. This account comes from family memory and was never investigated or declared miraculous by the Church. Generations later, their grandson commissioned a painting of Mary untying the knots in thanksgiving.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 Pope Francis and the Worldwide Spread
               </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
-                For centuries, the devotion was mostly local to Bavaria. In the 1980s, a young priest from Argentina named **Jorge Mario Bergoglio** (the future Pope Francis) saw the painting in Augsburg, Germany. He was so moved by it that he brought postcards back to Argentina and began promoting the devotion.
+                For centuries, the devotion was mostly local to Bavaria. In the 1980s, a young priest from Argentina named Jorge Mario Bergoglio, the future Pope Francis, encountered the image while studying in Germany in 1986. He brought postcards of it back to Argentina and began sharing the devotion.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
-                As Archbishop of Buenos Aires and later as Pope, he has continued to spread this prayer, seeing it as the perfect remedy for the "tangled" lives of modern people.
+                As Archbishop of Buenos Aires and later as Pope, he continued to spread this prayer, seeing it as the perfect remedy for the "tangled" lives of modern people.
               </LinkedText>
 
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-6 mb-8">
@@ -129,6 +129,31 @@ export default function OurLadyUndoerOfKnots() {
                   </p>
                 </div>
               </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                The Painting: Schmidtner, Augsburg, c. 1700
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
+                The grandson was Hieronymus Ambrosius Langenmantel, a priest and canon of the church of St. Peter am Perlach in Augsburg. Around 1700 he asked the Baroque painter Johann Georg Melchior Schmidtner to create an altarpiece for the family's side altar there. The original still hangs in that church, a short walk from Augsburg's town hall, and pilgrims from Latin America now visit it regularly.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
+                Schmidtner painted Mary standing on a crescent moon beneath a crown of twelve stars, the imagery of the woman clothed with the sun in Revelation 12:1. In the lower part of the canvas a small figure walks with an angel and a dog, usually identified as Tobias guided by the Archangel Raphael from the Book of Tobit, a traveler's story that fits a man journeying to seek counsel. Some interpreters see Wolfgang himself in that figure.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Eve's Knot and Mary's Faith in the Catechism
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
+                The theology behind the image is much older than the painting. Writing around 180 in his work Against Heresies, St. Irenaeus of Lyons contrasted Eve and Mary: Eve's disobedience tied a knot that Mary's obedience loosened, because what one virgin bound by unbelief, the other set free by faith. The Catechism quotes this passage directly when it explains Mary's role in salvation (CCC 494).
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
+                The contrast rests on Scripture. Genesis 3 describes the first refusal of God's word, and Genesis 3:15 promises enmity between the serpent and the woman's offspring. At the Annunciation, Mary answers the angel with her yes, Let it be done to me according to your word (Luke 1:38). Catholic teaching is careful here: Mary does not untie anything by her own power. Her role, the Catechism explains, flows from Christ's unique mediation and depends entirely on it (CCC 970; 1 Timothy 2:5).
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                From Buenos Aires to the Wider Church
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">
+                After Bergoglio's return, a copy of the image was enthroned in 1996 at the parish of San José del Talar in Buenos Aires, where long lines of pilgrims formed, especially on the eighth day of each month. The devotion spread quickly through Argentina and Brazil and then to Hispanic communities in the United States, where many parishes now display the image. It remains a private devotion: the Church encourages it as a form of Marian prayer, but no apparition or approved miracle is attached to it.
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 What are the "Knots" in your life?
@@ -157,6 +182,8 @@ export default function OurLadyUndoerOfKnots() {
               <ul className="list-disc list-inside text-text space-y-3 mb-8">
                 <li><strong>The Angels:</strong> One angel hands Mary the tangled ribbon of our lives; the other receives the smoothed, untied ribbon on the other side.</li>
                 <li><strong>The Holy Spirit:</strong> A dove is positioned above Mary's head, showing that she acts by the power of the Spirit.</li>
+                <li><strong>The Twelve Stars and Moon:</strong> Taken from Revelation 12:1, they identify Mary as the woman who stands against the dragon.</li>
+                <li><strong>The Traveler Below:</strong> A small figure walking with an angel, commonly read as Tobias and the Archangel Raphael, a reminder that God sends guidance on hard journeys.</li>
                 <li><strong>The Serpent:</strong> Mary is shown crushing the head of the serpent, proving that the ultimate "knot" of sin has been defeated by Christ through her.</li>
               </ul>
 
@@ -164,18 +191,6 @@ export default function OurLadyUndoerOfKnots() {
                 <p className="text-text italic text-center leading-relaxed">
                   "Mary, who unties the knots, pray for us."
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">Discover the history of Our Lady Undoer of Knots, why Pope Francis loves this devotion, and how to pray the novena to untie the difficult knots in your life. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-undoer-of-knots">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Our Lady Undoer of Knots, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
             </div>
 
               </div>
@@ -193,9 +208,18 @@ export default function OurLadyUndoerOfKnots() {
                 question: "Why does Pope Francis love this devotion so much?",
                 answer: "Pope Francis often speaks about 'mercy' and 'closeness.' He sees Mary not as a distant queen, but as a mother who is willing to get her hands into the messy, tangled realities of our lives to help fix what we cannot fix ourselves."
               },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              {
+                question: "Where is the original Undoer of Knots painting?",
+                answer: "It hangs in the church of St. Peter am Perlach in Augsburg, Germany. Johann Georg Melchior Schmidtner painted it around 1700 for an altar sponsored by the Langenmantel family."
+              },
+              {
+                question: "Did the Church approve the ribbon miracle?",
+                answer: "No. The story of Father Jakob Rem smoothing the couple's wedding ribbon is a family tradition, not a miracle the Church has investigated. The devotion is approved as Marian prayer because its theology comes from St. Irenaeus and the Catechism, not from that story."
+              },
+              {
+                question: "What does it mean that Mary untied Eve's knot?",
+                answer: "St. Irenaeus taught that Eve bound humanity by unbelief and Mary loosened that bond by her faith at the Annunciation. The Catechism quotes him in paragraph 494. Mary cooperates with Christ, who alone redeems."
+              },
             ]} />
 
 <RelatedArticles currentSlug="our-lady-undoer-of-knots" />

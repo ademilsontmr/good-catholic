@@ -112,32 +112,37 @@ export default function HailHolyQueenPrayer() {
                 <li>At Compline (Night Prayer) in many monasteries and parishes.</li>
                 <li>After Benediction in some Eucharistic devotions.</li>
               </ul>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">The Hail Holy Queen (Salve Regina) with full Catholic text in English and Latin, meaning, and why Catholics pray it at the end of the Rosary every day. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Wrote the Salve Regina?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">
+                The antiphon dates from the eleventh century, and its authorship is most often credited to Hermann of Reichenau (Hermannus Contractus, 1013–1054), a Benedictine monk of the island abbey of Reichenau on Lake Constance. Hermann was severely disabled from childhood, yet he became known as a scholar of music, astronomy, and chronicle writing. Historians treat the attribution as probable rather than proven; other names, such as Bishop Adhemar of Le Puy, appear in older sources.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">
+                A popular legend says St. Bernard of Clairvaux added the three closing cries, "O clemens, O pia, O dulcis Virgo Maria," while visiting Speyer Cathedral. There is no firm evidence for the story, but it shows how closely the prayer became tied to the Cistercians, who adopted it as a daily chant in the twelfth and thirteenth centuries. The Dominicans, Carmelites, and Franciscans also took it up, and the Dominican custom of singing it in procession at the end of Compline continues in their priories today.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Phrase-by-Phrase Meaning</h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-6">
+                <li><strong>"Mother of Mercy":</strong> mercy belongs first to God; Mary is called its mother because she gave birth to Christ, who is mercy made visible.</li>
+                <li><strong>"Our life, our sweetness and our hope":</strong> these are titles of trust, not of divinity. Mary is our hope because she leads to the One in whom all Christian hope rests.</li>
+                <li><strong>"Poor banished children of Eve":</strong> a reference to Genesis 3, where Adam and Eve are sent out of Eden. The prayer places us among their descendants, still on the road home.</li>
+                <li><strong>"This valley of tears":</strong> the Latin "lacrimarum valle" echoes the Vulgate wording of Psalm 84:6 (Psalm 83 in the old numbering), the psalm of pilgrims going up to Jerusalem.</li>
+                <li><strong>"Most gracious advocate":</strong> the Catechism lists Advocate among Mary's traditional titles, explaining that her role adds nothing to Christ's unique mediation but flows from it (CCC 969–970).</li>
+                <li><strong>"Show unto us the blessed fruit of thy womb":</strong> taken from Elizabeth's words in Luke 1:42. The whole prayer ends by asking to see Jesus, not Mary.</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Hail Holy Queen (Salve Regina), you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Salve Regina in Church History</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">
+                In the older Roman Breviary, the Salve Regina was the Marian antiphon from Trinity Sunday until the start of Advent. The current Liturgy of the Hours closes Night Prayer with an antiphon to Mary; Regina Caeli is used in the Easter season, and outside it the Salve Regina is the most familiar choice. Gregorian chant preserves both a solemn melody and a simpler one, and the simple tone is the version most parishes and schools learn.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">
+                Many older American Catholics remember the Hail Holy Queen from the end of Low Mass. Pope Leo XIII prescribed a set of prayers after Low Mass in the 1880s: three Hail Marys, the Salve Regina, a closing collect, and later the Prayer to St. Michael. These "Leonine prayers" were dropped during the liturgical reforms of the mid-1960s, though some communities still pray them at the Traditional Latin Mass.
+              </LinkedText>
 
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">Readers often search for Hail Holy Queen (Salve Regina): Full Text & Rosary Closing Prayer during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">The Hail Holy Queen (Salve Regina) with full Catholic text in English and Latin, meaning, and why Catholics pray it at the end of the Rosary every day. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How It Fits the End of the Rosary</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="hail-holy-queen-prayer">
+                After the fifth decade, the Hail Holy Queen is prayed, followed by the versicle "Pray for us, O holy Mother of God" and its response. Many Catholics then add the concluding Rosary collect, which asks that by meditating on these mysteries we may imitate what they contain and obtain what they promise. The Sign of the Cross ends the devotion. Some groups also add a prayer to St. Michael or prayers for the Pope's intentions before the final blessing.
+              </LinkedText>
             </div>
 
             <DailyPrayersHubLink />
@@ -146,9 +151,9 @@ export default function HailHolyQueenPrayer() {
               { question: "Do you pray Hail Holy Queen after every Rosary?", answer: "Most Catholics do. It is the standard closing prayer of the Rosary, followed by the final prayer and the Sign of the Cross." },
               { question: "How is Hail Holy Queen different from the Hail Mary?", answer: "The Hail Mary greets Mary and asks her intercession using words from Scripture and tradition. The Hail Holy Queen honors her as Queen and Mother of Mercy and asks her to show us Jesus after our earthly exile." },
               { question: "What replaces Salve Regina in other seasons?", answer: "Alma Redemptoris Mater in Advent and Christmas, Ave Regina Caelorum in Lent, and Regina Caeli in Easter through Pentecost." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Who wrote the Salve Regina?", answer: "It is most often attributed to Hermann of Reichenau, an 11th-century Benedictine monk, though historians regard the attribution as likely rather than certain." },
+              { question: "Where does the phrase 'valley of tears' come from?", answer: "It echoes Psalm 84:6 in the Latin Vulgate, where pilgrims pass through a 'valley of tears' on their way to God's house." },
+              { question: "Why was the Hail Holy Queen prayed after Mass?", answer: "Pope Leo XIII added it to the prayers after Low Mass in the 1880s. Those prayers were removed in the mid-1960s liturgical reform, but the Salve Regina remained in the Rosary and Night Prayer." },
             ]} />
 
             <RelatedArticles currentSlug="hail-holy-queen-prayer" />

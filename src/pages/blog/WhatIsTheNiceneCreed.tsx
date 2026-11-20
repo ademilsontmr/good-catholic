@@ -119,6 +119,12 @@ export default function WhatIsTheNiceneCreed() {
                 </ul>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From Nicaea (325) to Constantinople (381)</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">Emperor Constantine summoned the bishops to Nicaea, in what is now İznik, Turkey, in 325 to settle the controversy stirred up by Arius, a priest of Alexandria who taught that the Son had a beginning. The creed the council issued focused almost entirely on the Son. Its article on the Spirit was a single line, And in the Holy Spirit, followed by condemnations of Arian slogans such as there was a time when he was not.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">The fight did not end in 325. Arian and semi-Arian bishops gained imperial support for decades, and St. Athanasius of Alexandria was exiled five times for defending Nicaea. When the Council of Constantinople met in 381 under Emperor Theodosius I, it reaffirmed Nicaea and expanded the article on the Holy Spirit against those who denied the Spirit&apos;s divinity: the Lord, the giver of life, who proceeds from the Father, who with the Father and the Son is adored and glorified, who has spoken through the prophets. It also added the lines on the Church, Baptism, the resurrection, and the life of the world to come. The Council of Chalcedon in 451 read both texts aloud, and the combined creed became the common profession of East and West. In 2025 Christians marked the 1,700th anniversary of Nicaea.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. Filioque: The Word that Split East and West
               </h2>
@@ -126,7 +132,7 @@ export default function WhatIsTheNiceneCreed() {
                 The most controversial word in the Creed's history is the Latin <strong>Filioque</strong> ("and the Son"). In the section on the Holy Spirit, Catholics say he proceeds from the Father *and the Son*. 
               </p>
               <p className="text-text leading-relaxed mb-6">
-                The Eastern Orthodox Church argues that the Holy Spirit proceeds from the Father *through* the Son. This subtle theological nuance was the main intellectual cause of the <strong>Great Schism of 1054</strong>. For Catholics, the inclusion of the *Filioque* protects the unique relationship between the Son and the Spirit as one unified Godhead.
+                Eastern Orthodox theologians hold that the Holy Spirit proceeds from the Father, and some Greek Fathers spoke of the Spirit proceeding from the Father *through* the Son. The dispute became one of the main theological issues behind the <strong>Great Schism</strong>, traditionally dated to 1054. For Catholics, the inclusion of the *Filioque* protects the unique relationship between the Son and the Spirit as one unified Godhead.
               </p>
 
               <QuizCTA
@@ -134,9 +140,19 @@ export default function WhatIsTheNiceneCreed() {
                 description="The Creed is a battle cry of the Church. Take our quiz to see if you truly understand the weight of the words you profess every Sunday."
               />
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Filioque Entered the Creed</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">The Latin word was not in the text approved at Constantinople. It appears in Spain, where the Third Council of Toledo in 589 used it while receiving the Visigothic king into the Catholic faith from Arianism, and from there it spread through the Frankish churches. Around 809 Pope Leo III affirmed the doctrine but declined to add the word to the Creed sung in Rome. Rome adopted it in the liturgy in 1014 under Pope Benedict VIII. Greek theologians objected both to the theology and to a change made to an ecumenical creed without an ecumenical council.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">The Catechism presents the Eastern and Western formulas as complementary when neither is held rigidly: the East stresses the Father as the first origin of the Spirit, while the West stresses the communion of Father and Son from whom the Spirit proceeds (CCC 246 to 248). Eastern Catholic Churches in full communion with Rome profess the Creed without the filioque, and in 1995 the Pontifical Council for Promoting Christian Unity published a clarification on the Greek and Latin traditions to help that dialogue.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why the Words Changed in 2011</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">On the First Sunday of Advent, November 27, 2011, U.S. parishes began using the third edition of the Roman Missal in a new English translation that follows the Latin more closely. The Creed changed in several places. We believe became I believe, matching the Latin Credo and making the profession a personal act of each worshiper. One in being with the Father became consubstantial with the Father, from the Latin consubstantialem, which renders the Greek homoousios of Nicaea. Seen and unseen became visible and invisible; eternally begotten became born of the Father before all ages; and born of the Virgin Mary became incarnate of the Virgin Mary, stressing that the Son took flesh rather than only that he was born.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
                  <BookOpen className="w-6 h-6 text-accent" />
-                 The "Amem": Looking Toward the Future
+                 The "Amen": Looking Toward the Future
               </h2>
               <p className="text-text leading-relaxed mb-6">
                 The Creed doesn't end with what God did in the past. It ends with an explosive hope: <strong>"I look forward to the resurrection of the dead."</strong> 
@@ -147,20 +163,8 @@ export default function WhatIsTheNiceneCreed() {
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
-                  "The Creed is not a collection of abstract ideas, but the map of the Heart of God." — Pope Benedict XVI
+                  "Whoever says 'I believe' says 'I pledge myself to what we believe.'" — Catechism of the Catholic Church, 185
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">The Nicene Creed Catholics recite at Mass — full text, Council of Nicaea history, what each line means, and why the Creed still matters in 2026. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="what-is-the-nicene-creed">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Nicene Creed, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
             </div>
 
               </div>
@@ -178,9 +182,9 @@ export default function WhatIsTheNiceneCreed() {
                 question: "Wait, so is the Creed in the Bible?",
                 answer: "The *sentences* of the Creed are all in the Bible. The *structure* was put together by the Church to summarize the Bible. Just as a map summarizes a landscape, the Creed summarizes the Gospel so we don't get lost."
               },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Why did the Creed's wording change in 2011?", answer: "The third edition of the Roman Missal brought a new English translation that follows the Latin text more closely. That is why Catholics now say 'I believe' and 'consubstantial with the Father.'" },
+              { question: "Do Eastern Catholics say the filioque?", answer: "Eastern Catholic Churches in full communion with Rome generally profess the Creed without it, as the Council of Constantinople wrote it. The Catechism treats the Eastern and Western formulas as complementary (CCC 248)." },
+              { question: "Which council wrote the part about the Holy Spirit?", answer: "The Council of Constantinople in 381 expanded Nicaea's one-line article on the Spirit, adding that he is Lord and giver of life, proceeds from the Father, is worshiped with the Father and the Son, and spoke through the prophets." },
             ]} />
 
 <RelatedArticles currentSlug="what-is-the-nicene-creed" />

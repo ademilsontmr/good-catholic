@@ -105,6 +105,14 @@ export default function HowToFindCatholicCommunity() {
                 Research consistently shows that Catholics who are connected to a parish community are far more likely to maintain their faith over time. Community provides accountability, support in difficult times, shared celebration in good times, and the practical experience of living the Gospel in relationship with others. Without community, faith tends to become private, individualistic, and eventually dormant.
               </LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Scripture and the Catechism Say About Belonging</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
+                The first Christians in Jerusalem devoted themselves to the apostles' teaching, to fellowship, to the breaking of the bread and to the prayers (Acts 2:42). The Letter to the Hebrews urges believers not to stay away from their gatherings but to encourage one another (Hebrews 10:24-25), and St. Paul describes the Church as one body whose members need each other, so that one member's suffering is shared by every other (1 Corinthians 12:26).
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
+                The Catechism describes the parish as a definite community of the faithful, established on a stable basis within a diocese, and as the place where the faithful gather for the Sunday Eucharist (CCC 2179). Canon 515 uses almost the same words. In other words, the parish is not a service provider you visit when needed; it is the concrete community the Church intends you to belong to.
+              </LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 1: Visit Several Parishes</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
                 Not all parishes are the same. They differ in size, culture, liturgical style, demographic makeup, and the quality of their programs. Before committing to a parish, visit 2-3 in your area. Attend Sunday Mass and pay attention to: the quality and depth of the homily, the warmth of the welcome (are people friendly before and after Mass?), the music and liturgy, and whether the parish seems alive and engaged.
@@ -140,23 +148,37 @@ export default function HowToFindCatholicCommunity() {
                 <li><strong>Online communities</strong> — Catholic podcasts, forums, and social media groups</li>
               </ul>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step 4: Register, and Know What Registration Does</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
+                Under canon law most parishes are territorial, meaning that everyone living within their boundaries belongs to them, but in practice American Catholics often worship at a parish outside their own neighborhood. Either way, fill out the registration form. Registration is how the parish knows you exist, and it matters on practical occasions: when you ask for a sponsor letter to be a godparent or Confirmation sponsor, when you want a child baptized, when you plan a wedding, or when you seek a parishioner rate at a Catholic school.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
+                Canon 518 also allows personal parishes, established for a language group, a rite or a particular community rather than for a territory. Many U.S. dioceses have personal parishes for Vietnamese, Korean, Polish or Spanish-speaking Catholics, and Eastern Catholic parishes such as Byzantine, Maronite or Ukrainian churches warmly receive Latin Catholics at their liturgies. If you share the language or heritage of such a community, it may be where you connect most naturally.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where to Look: Practical Tools and Long-Standing Groups</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
+                Start with your diocese's website, which usually has a parish finder with maps and links, and read a few weeks of each parish's bulletin online; it shows at a glance which groups meet, when, and how active they are. Then consider the organizations rooted in American parishes for generations.
+              </LinkedText>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                <li><strong>Knights of Columbus</strong> — founded in 1882 by Blessed Michael McGivney, a parish priest in New Haven, Connecticut, for Catholic men and their families</li>
+                <li><strong>Society of St. Vincent de Paul</strong> — parish conferences that visit people in need at home, inspired by Blessed Frederic Ozanam, who began the work in Paris in 1833</li>
+                <li><strong>Newman Centers and FOCUS</strong> — Catholic communities on college campuses, the first named after St. John Henry Newman</li>
+                <li><strong>Theology on Tap</strong> — talks for young adults in a relaxed setting, a format that began in the Archdiocese of Chicago in the early 1980s</li>
+                <li><strong>Secular Franciscans, Lay Dominicans and Secular Carmelites</strong> — lay branches with a period of formation before profession, meeting monthly in local fraternities</li>
+              </ul>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
+                Canon law recognizes the right of the faithful to form and join associations for charity, piety and the spread of the faith (canon 215), and the movements listed above exist under that freedom with Church approval. When evaluating any group, look for clear ties to the local bishop and a parish or chaplain, transparent leadership, and a life that leads members back to the sacraments rather than away from them.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple First-Month Plan</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">
+                For four Sundays, attend the same Mass at the same parish and sit in roughly the same area so familiar faces begin to recognize you. Stay for the coffee hour or the donut social if there is one. Introduce yourself to the pastor or a deacon after Mass and ask one question: where could someone like me get involved? By the fourth week, register and try one group or ministry. Friendship in a parish usually grows slowly, through repeated presence, so measure progress in months rather than in a single weekend.
+              </LinkedText>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
                 <p className="text-text italic text-center">
                   "No one can have God as Father who does not have the Church as Mother."
                 </p>
                 <p className="text-text-muted text-center mt-2">— St. Cyprian of Carthage</p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">Learn how to find a welcoming Catholic community, choose the right parish, get involved in parish life, and build lasting friendships rooted in faith. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-find-catholic-community">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
-
             </div>
 
               </div>
@@ -169,8 +191,6 @@ export default function HowToFindCatholicCommunity() {
               { question: "What are the best ministries for building community?", answer: "Small groups, Bible studies, and service ministries tend to build the deepest community because they involve regular, sustained interaction with the same people. Greeting ministry and hospitality teams are also great because they put you in contact with many parishioners." },
               { question: "What if I feel like an outsider at my parish?", answer: "This is very common, especially in large parishes. The solution is almost always to join a small group or ministry. Sunday Mass alone rarely builds community — you need a smaller setting where people can actually get to know you." },
               { question: "Are there Catholic communities for young adults?", answer: "Yes. Many dioceses have thriving young adult communities with regular events, retreats, and social activities. Check your diocesan website or search for 'Catholic young adults' in your city. Organizations like FOCUS (Fellowship of Catholic University Students) also have alumni networks." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <ArticleBottomCTA title="Discover How Your Faith Life Is" description="Take our quiz and receive a personalized assessment of your Catholic journey." />

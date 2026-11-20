@@ -78,7 +78,7 @@ export default function SevenSorrowsRosaryGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The Seven Sorrows Rosary (Servite Rosary) meditates on seven sorrows of Mary — from Simeon&apos;s prophecy to the burial of Christ. Each sorrow has seven Hail Marys; the devotion was promoted by the Servite order and grants special graces for compassion toward Mary and her Son.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Seven Sorrows Rosary (Servite Rosary) meditates on seven sorrows of Mary — from Simeon&apos;s prophecy to the burial of Christ. Each sorrow has seven Hail Marys; the devotion was spread by the Servite order to foster compassion for Mary and her Son.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
@@ -87,10 +87,10 @@ export default function SevenSorrowsRosaryGuide() {
                 <li>The prophecy of Simeon (Luke 2:34-35)</li>
                 <li>The flight into Egypt (Matthew 2:13-21)</li>
                 <li>The loss of the Child Jesus for three days (Luke 2:41-50)</li>
-                <li>Mary meets Jesus carrying the cross</li>
+                <li>Mary meets Jesus carrying the cross (tradition; compare Luke 23:27)</li>
                 <li>The crucifixion and death of Jesus (John 19:25-30)</li>
-                <li>Mary receives the body of Jesus</li>
-                <li>The burial of Jesus</li>
+                <li>Mary receives the body of Jesus (Mark 15:43-46)</li>
+                <li>The burial of Jesus (John 19:38-42)</li>
               </ol>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Chaplet Is Structured</h2>
@@ -110,6 +110,25 @@ export default function SevenSorrowsRosaryGuide() {
                 This devotion is approved and encouraged in the Church. It deepens compassion for Christ's Passion and love for Mary, who stood faithfully at the foot of the cross.
               </LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Meditating on Each Sorrow</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>The prophecy of Simeon:</strong> forty days after the birth, in the Temple, the old man tells Mary that a sword will pierce through her own soul also (Luke 2:35). Every later sorrow is the unfolding of this one. Pray for the grace to accept God&apos;s will before you understand it.</li>
+                <li><strong>The flight into Egypt:</strong> Joseph wakes Mary in the night and the family becomes refugees (Matthew 2:13-15). Pray for migrants, for families forced from home, and for trust when plans are overturned.</li>
+                <li><strong>The loss of Jesus in the Temple:</strong> three days of searching end with Mary&apos;s words, your father and I have been looking for you anxiously (Luke 2:48). Pray for parents worried about their children and for anyone who feels that Jesus is far away.</li>
+                <li><strong>Mary meets Jesus on the way to Calvary:</strong> the Gospels mention the women who followed and lamented (Luke 23:27), and Christian tradition, kept in the Fourth Station of the Cross, holds that his Mother met him on the road. Pray for those who must watch a loved one suffer and cannot stop it.</li>
+                <li><strong>The crucifixion:</strong> Mary stands by the cross, and Jesus entrusts her to the beloved disciple and the disciple to her (John 19:25-27). Pray for the dying and for the grace to remain faithful at the foot of your own crosses.</li>
+                <li><strong>Mary receives the body of Jesus:</strong> Joseph of Arimathea takes down the body (Mark 15:43-46); devotion pictures it laid in Mary&apos;s arms, the scene Michelangelo carved in his Pietà. Pray for those grieving a child or spouse.</li>
+                <li><strong>The burial:</strong> the body is wrapped with spices and laid in a new tomb in a garden (John 19:38-42). Pray for the gift of hope in the silence of Holy Saturday, when it seems that nothing is happening.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Servites and the History of the Devotion</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">
+                The Order of Servants of Mary, known as the Servites, began in Florence in 1233, when seven merchants withdrew from city life to serve God under Mary&apos;s patronage; the Church honors them together as the Seven Holy Founders on February 17. Compassion for the Mother of God at the cross became the order&apos;s characteristic spirituality, and the chaplet of seven sorrows grew up and spread through Servite preaching and confraternities. The Servites obtained a feast of the Seven Sorrows for their own use in the seventeenth century, and in 1814 Pope Pius VII extended it to the whole Church after returning to Rome from captivity under Napoleon. St. Pius X fixed the date as September 15 in 1913.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">
+                In today&apos;s calendar the memorial falls immediately after the September 14 feast of the Holy Cross, so that the Church contemplates the cross on one day and the Mother standing beside it on the next. The Mass of the memorial may include the medieval sequence Stabat Mater, which begins with Mary standing in tears near the cross; its authorship is uncertain, though it is often credited to the Franciscan Jacopone da Todi. The Catechism describes Mary&apos;s faithful union with her Son reaching even to the cross, where she stood, suffering grievously with him (CCC 964).
+              </LinkedText>
+
               <QuizCTA
                 title="Want a stronger Marian life?"
                 description="Take the Catholic life assessment for practical steps on prayer, the Rosary, and devotions."
@@ -121,32 +140,19 @@ export default function SevenSorrowsRosaryGuide() {
                 <li>Fridays in Lent or any Friday you want to unite with Christ's Passion.</li>
                 <li>When consoling someone in grief or walking through your own suffering.</li>
               </ul>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">Complete Catholic guide to the Seven Sorrows Rosary (Servite Rosary): the seven sorrows of Mary, how to pray each group of seven Hail Marys, and the devotion&apos;s graces. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Private Revelations Connected to the Chaplet</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">
+                Two private revelations are often mentioned alongside this devotion, and both should be understood as such. Popular booklets list seven promises said to have been given to St. Bridget of Sweden for those who honor Mary&apos;s tears by praying seven Hail Marys daily while meditating on her sorrows; the Church has never formally verified these promises, and Catholics are free to set them aside. More recently, the visionaries of Kibeho in Rwanda reported apparitions of Mary between 1981 and 1989, and one of them, Marie-Claire Mukangango, said Mary asked for the Seven Sorrows Rosary to be prayed. In 2001 the local bishop declared the apparitions to the three original visionaries worthy of belief. As with all private revelation, these accounts may encourage devotion but add nothing to the faith the Church requires (CCC 67).
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Seven Sorrows Rosary, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">Readers often search for Seven Sorrows Rosary: How to Pray It, Mysteries and Promises during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sorrows-rosary-guide">Complete Catholic guide to the Seven Sorrows Rosary (Servite Rosary): the seven sorrows of Mary, how to pray each group of seven Hail Marys, and the devotion&apos;s graces. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Tips for Praying It</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li>The full chaplet of 49 Hail Marys plus the closing three takes roughly 20 to 25 minutes; on busy days, pray one sorrow with its seven Hail Marys.</li>
+                <li>Pray one sorrow each day of the week, beginning on a Sunday, so the whole cycle is complete by Saturday.</li>
+                <li>Keep the Scripture passage for each sorrow open and read it before the Our Father.</li>
+                <li>Use the Fourth through Fourteenth Stations of the Cross as a visual aid for the last four sorrows during Lent.</li>
+              </ul>
             </div>
 
             <BlogFAQ faqs={[
@@ -154,9 +160,9 @@ export default function SevenSorrowsRosaryGuide() {
               { question: "Is the Seven Sorrows Rosary the same as the regular Rosary?", answer: "No. The Dominican Rosary has five decades and Joyful, Sorrowful, Glorious, and Luminous mysteries. The Seven Sorrows Rosary has seven groups of seven Hail Marys focused only on Mary's sorrows." },
               { question: "Do I need a special chaplet?", answer: "A dedicated Seven Sorrows chaplet makes counting easier, but you can also use a printed guide with any rosary by tracking seven groups of seven." },
               { question: "What are Mary's seven sorrows?", answer: "The traditional list includes the prophecy of Simeon, the flight into Egypt, the loss of Jesus in the Temple, Mary meeting Jesus on the way to Calvary, the crucifixion, Mary receiving Jesus' body, and his burial." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Who started the Seven Sorrows Rosary?", answer: "It developed among the Servites, the Order of Servants of Mary founded in Florence in 1233, who made compassion for Our Lady of Sorrows the center of their spirituality and spread the chaplet through their preaching and confraternities." },
+              { question: "Is the Seven Sorrows Rosary connected to Kibeho?", answer: "Yes. Visionaries at Kibeho, Rwanda, reported that Mary asked for this chaplet during apparitions in the 1980s. The local bishop approved those apparitions in 2001, but like all private revelation they are not binding on Catholics." },
+              { question: "What date is Our Lady of Sorrows celebrated?", answer: "It is kept every year on September 15, following the Holy Cross feast of September 14. Pope Pius VII extended the feast to the whole Church in 1814, and St. Pius X fixed it on September 15 in 1913." },
             ]} />
 
             <RelatedArticles currentSlug="seven-sorrows-rosary-guide" />

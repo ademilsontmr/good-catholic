@@ -97,7 +97,7 @@ export default function SaintWhoAdvisedEmperors() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">St. John of Egypt — Hermit Who Advised Emperors</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
-                St. John of Egypt (also called John the Hermit or John of Lycopolis, d. c. 394) lived in a desert cave for decades. Byzantine emperors and generals traveled to seek his counsel on war, justice, and the state of their souls. His feast day is March 27. He represents the Catholic truth that the holiest counsel often comes not from courtiers but from monks who have renounced the world. Read our{" "}
+                St. John of Egypt (also called John the Hermit or John of Lycopolis, d. c. 394) lived for decades in an enclosed cell near Lycopolis (modern Asyut), speaking to visitors only through a window. Emperor Theodosius I sent envoys to consult him, and early monastic writers report that he foretold the emperor's victories over the usurpers Maximus and Eugenius. His feast day is March 27. He represents the Catholic truth that the holiest counsel often comes not from courtiers but from monks who have renounced the world. Read our{" "}
                 <Link to="/blog/saint-of-the-day/march-27/" className="text-accent underline underline-offset-2">Saint of the Day for March 27</Link>.
               </LinkedText>
 
@@ -115,31 +115,31 @@ export default function SaintWhoAdvisedEmperors() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
                 These saints show that political power is accountable to divine law. Bishops and lay faithful alike may speak truth to leaders — with charity, courage, and willingness to suffer consequences. The Church never teaches blind obedience to unjust civil commands (see Catechism 2242–2243 on conscience and legitimate authority).
               </LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Life and Mission</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">Which Saint Advised Emperors? Saints are not distant legends — they are men and women who cooperated with grace in real historical circumstances. Their stories show that holiness is possible in ordinary work, family life, persecution, and service.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Seek This Saint&apos;s Intercession</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">The Church teaches that saints in heaven remain part of the communion of believers (CCC 954–959). We do not worship them; we ask their prayers as we might ask a friend on earth. Patron saints often connect to specific needs — illness, work, conversion, or protection — because of how they lived and died.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Feast Days and Parish Devotion in the U.S.</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">Parishes across the United States celebrate saint feast days with special Masses, novenas, and food traditions tied to immigrant communities. Mark the feast on your calendar, read the Mass readings that day, and consider one concrete act of charity in the saint&apos;s honor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Growing in Friendship With the Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">Choose one saint to \"befriend\" this year: read a short biography, pray a novena before their feast, and ask how their virtues — courage, humility, chastity, or mercy — apply to your state in life. Holiness spreads through imitation and intercession, not superstition.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">Readers often search for Which Saint Advised Emperors? during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">Which Saint Advised Emperors? — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Actually Happened After Thessalonica</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
+                In 390 a riot in Thessalonica killed a Roman commander, and troops acting on the emperor's order massacred thousands of citizens gathered in the circus. Ambrose did not confront Theodosius in a public scene at first. He wrote him a private letter, still preserved among his correspondence, urging repentance and stating that he could not offer the Eucharist in the emperor's presence until penance was done. Theodosius accepted, laid aside his imperial insignia, and was readmitted to Communion around Christmas of that year.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
+                The famous picture of Ambrose blocking the cathedral door with his arms outstretched comes from the church historian Theodoret, writing decades later, and historians treat that scene as a dramatized retelling. The substance is secure, however: the most powerful man in the Roman world submitted to the discipline of a bishop. Ambrose preached the emperor's funeral oration in 395 and praised him precisely for that humility.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Ambrose and Three Emperors</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
+                Theodosius was not the only ruler Ambrose shaped. For the young Western emperor Gratian he wrote the treatise On the Faith, defending the divinity of Christ against Arian teaching. In 384 he persuaded Valentinian II to refuse the Roman senator Symmachus, who had asked that the pagan Altar of Victory be restored to the Senate house. In 386, when the Arian-leaning empress mother Justina demanded a Milan basilica for Arian worship, Ambrose and his people occupied the church day and night rather than surrender it.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
+                St. Augustine, then in Milan, recorded that during that standoff Ambrose introduced the singing of hymns and psalms in the Eastern manner to keep the people's spirits up (Confessions, Book IX). Ambrose baptized Augustine at the Easter Vigil of 387. He is a Doctor of the Church, and his feast is December 7, the anniversary of his episcopal ordination in 374.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Principle Behind It: Two Powers</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
+                A century after Ambrose, Pope St. Gelasius I wrote to Emperor Anastasius in 494 that the world is governed chiefly by two powers, the sacred authority of bishops and the royal power, and that in matters of the sacraments even an emperor must bow to priests. This letter became a reference point for medieval thought on church and state. It explains why saints felt free to correct rulers: they did not claim to govern the empire, but they would not let the empire govern the altar or override the moral law.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
+                The same courage cost St. John Chrysostom, archbishop of Constantinople, dearly. His preaching against luxury and injustice angered the empress Eudoxia, and he was exiled in 404 and died on a forced march in 407. Unlike Theodosius, the Eastern court never submitted, a reminder that advising rulers was often dangerous rather than glamorous.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Later Saints Who Counseled Kings and Emperors</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="saint-who-advised-emperors">
+                In the twelfth century St. Hildegard of Bingen corresponded with Emperor Frederick Barbarossa and sharply rebuked him when he backed antipopes against the legitimate pope. St. Bernard of Clairvaux advised kings and popes alike and preached the Second Crusade before King Louis VII of France and King Conrad III of Germany. In England, St. Thomas More served Henry VIII as Lord Chancellor before refusing the oath that would have acknowledged the king's supremacy over the Church, and he was beheaded in 1535.
+              </LinkedText>
 
             </div>
 
@@ -150,6 +150,9 @@ export default function SaintWhoAdvisedEmperors() {
                 { question: "Who is the desert hermit who advised emperors?", answer: "St. John of Egypt (John of Lycopolis), a fourth-century hermit whose feast is March 27." },
                 { question: "Did any pope advise emperors?", answer: "Yes — St. Leo the Great negotiated with Attila the Hun; many popes corresponded with Byzantine and Holy Roman emperors." },
                 { question: "Is St. Catherine of Siena an answer to this question?", answer: "She advised popes during the Avignon period, not secular emperors — a related but distinct category." },
+                { question: "Did St. Ambrose really block Theodosius at the church door?", answer: "That dramatic scene comes from the historian Theodoret, writing about a generation later, and is likely embellished. Ambrose's own letter shows he privately required penance and refused to celebrate the Eucharist in the emperor's presence until Theodosius repented." },
+                { question: "Which emperor consulted St. John of Egypt?", answer: "Theodosius I, the same emperor Ambrose corrected. Early monastic sources say he sent messengers to the hermit near Lycopolis and that John predicted his victories over the usurpers Maximus and Eugenius." },
+                { question: "Did any female saints advise emperors?", answer: "Yes. St. Hildegard of Bingen wrote to Emperor Frederick Barbarossa in the twelfth century and rebuked him for supporting antipopes." },
                 { question: "Why do trivia questions ask about saints and emperors?", answer: "Church history is full of dramatic encounters between holiness and worldly power — common in Catholic quiz apps and catechism classes." },
               ]}
             />

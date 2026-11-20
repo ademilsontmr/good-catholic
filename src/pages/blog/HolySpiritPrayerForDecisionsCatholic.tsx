@@ -74,6 +74,17 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
                 </p>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where Each Line of the Prayer Comes From</h2>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>&apos;Come, Holy Spirit, fill the hearts of your faithful&apos;:</strong> an ancient Latin antiphon, Veni, Sancte Spiritus, reple tuorum corda fidelium, sung as the Alleluia verse at Pentecost.</li>
+                <li><strong>&apos;Send forth your Spirit and they shall be created&apos;:</strong> a versicle drawn from Psalm 104:30, which praises God whose breath gives life to every creature.</li>
+                <li><strong>&apos;O God, who by the light of the Holy Spirit did instruct the hearts of the faithful&apos;:</strong> adapted from the opening prayer (collect) of the Pentecost Mass in the Roman Missal used before 1970.</li>
+                <li><strong>The personal petition:</strong> the final paragraph is a modern addition you can adapt, naming your decision and asking for light, courage, humility, and peace.</li>
+              </ul>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Notice what the old prayer asks for: to be truly wise. That wisdom is a gift, not a technique. Isaiah 11:2 lists the spirit of wisdom, understanding, counsel, strength, knowledge, and fear of the Lord, and the Church counts seven gifts of the Holy Spirit (CCC 1831). The gift of counsel, which perfects the virtue of prudence, is the one most directly at work when a person must choose well among real options.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Catholic Discernment Means</h2>
               <p className="text-text leading-relaxed mb-6">Discernment is not waiting for a mystical voice. It is a prayerful process: gathering facts, consulting Scripture and Church teaching, seeking advice from a priest or spiritual director, examining your motives, and noticing interior movements of peace or unrest.</p>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">St. Ignatius of Loyola taught that spirits from God bring peace, hope, and love over time, while spirits opposed to God bring confusion, pride, or persistent anxiety disconnected from truth. The Holy Spirit prayer opens the heart to those distinctions.</LinkedText>
@@ -100,24 +111,26 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
                 <li>Make a decision in prayer; if peace follows, move forward; if not, reconsider.</li>
               </ol>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">St. Ignatius&apos;s Three Times for Making a Choice</h2>
+
+              <p className="text-text leading-relaxed mb-6">In the <em>Spiritual Exercises</em>, St. Ignatius describes three situations in which a good choice can be made. In the first, God moves the will so clearly that a person cannot doubt what to do, as with the call of St. Paul. In the second, clarity comes through experience of consolation and desolation over time. In the third, a tranquil time when the soul is not agitated, a person uses reason: listing advantages and disadvantages of each option, imagining what advice to give a stranger in the same position, and asking what choice they would want to have made at the hour of death.</p>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Ignatius adds a rule many Catholics find freeing: in a time of desolation, never make a change. Hold firm to the decision made before the darkness began and wait for clarity to return. Discouragement, panic, or exhaustion are poor guides, and the Holy Spirit prayer is often best prayed while waiting rather than while rushing to decide.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture for a Season of Discernment</h2>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>James 1:5</strong> promises that anyone lacking wisdom should ask God, who gives generously.</li>
+                <li><strong>Proverbs 3:5–6</strong> counsels trust in the Lord rather than reliance on one&apos;s own understanding.</li>
+                <li><strong>Romans 12:2</strong> asks believers to be transformed by the renewal of the mind so they can discern God&apos;s will.</li>
+                <li><strong>Acts 15:28</strong> records the apostles&apos; decision at the Council of Jerusalem as seeming good to the Holy Spirit and to us, a model of prayerful discernment made together.</li>
+              </ul>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Come, Holy Spirit in the Liturgy</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">The opening lines of this prayer come from the Veni Sancte Spiritus and the Pentecost sequence used in the Church&apos;s liturgy. American Catholics hear &quot;Come, Holy Spirit&quot; at Confirmation, at Mass during Pentecost, and in the hymn sung at ordinations. Connecting personal decisions to this liturgical prayer roots discernment in the life of the whole Church.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">The opening lines of this prayer come from an ancient Latin antiphon that, like the Pentecost Sequence, begins with the words Veni, Sancte Spiritus. American Catholics hear &quot;Come, Holy Spirit&quot; at Confirmation, at Mass during Pentecost, and in the hymn sung at ordinations. Connecting personal decisions to this liturgical prayer roots discernment in the life of the whole Church.</LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prayer Does Not Replace Responsibility</h2>
               <p className="text-text leading-relaxed mb-6">The Holy Spirit works through reason, sacraments, and community — not around them. If a decision involves finances, law, or medicine, get professional advice. If it involves sin, choose what the Church teaches. Prayer aligns the heart; it does not bypass truth.</p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Holy Spirit prayer for decisions — full Catholic text for discernment, big choices, and guidance. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="holy-spirit-prayer-for-decisions-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Holy Spirit Prayer for Decisions, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
             </div>
             <BlogFAQ faqs={[
               { question: "What is the best Catholic prayer for big decisions?", answer: "The Come, Holy Spirit prayer — combined with daily examination, Scripture, and counsel from a priest or spiritual director — is a classic Catholic approach to discernment." },
@@ -125,10 +138,10 @@ export default function HolySpiritPrayerForDecisionsCatholic() {
               { question: "Can I pray to the Holy Spirit if I am not confirmed?", answer: "Yes. All baptized Catholics may invoke the Holy Spirit. Confirmation strengthens the gifts already given at Baptism but is not required to begin praying for guidance." },
               { question: "How long should I discern before deciding?", answer: "There is no fixed rule. Simple decisions may need days; vocation or marriage discernment often takes months or years. Pray daily and avoid rushing when the matter is serious." },
               { question: "Is this the same as the novena for clarity?", answer: "Similar in purpose; the novena for clarity is nine days, while this prayer can be used daily during any discernment period." },
-              { question: "Should I talk to a priest when discerning?", answer: "Yes for serious decisions. The Holy Spirit works through the Church&apos;s ministers and wise counselors." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Should I talk to a priest when discerning?", answer: "Yes for serious decisions. The Holy Spirit works through the Church's ministers and wise counselors." },
+              { question: "Should I make a big decision when I feel spiritually low?", answer: "St. Ignatius advised never to make a change during desolation. Keep to the decisions you made in a calmer time, keep praying, and decide once peace and clarity return." },
+              { question: "What is the gift of counsel?", answer: "It is one of the seven gifts of the Holy Spirit listed in Isaiah 11:2 and CCC 1831. Counsel perfects prudence, helping a person judge rightly what to do in a concrete situation." },
+              { question: "What if both options are morally good?", answer: "Then either choice can please God. Use Ignatius's third method: weigh pros and cons, imagine advising a friend, consider which choice you would want at life's end, and choose the option that best serves love of God and neighbor." },
             ]} />
             <RelatedArticles currentSlug="holy-spirit-prayer-for-decisions-catholic" />
             <ArticleBottomCTA title="Grow in Catholic Prayer" description="Receive a personalized guide for building a deeper daily prayer life." />

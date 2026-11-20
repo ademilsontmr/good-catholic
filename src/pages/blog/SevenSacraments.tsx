@@ -131,6 +131,49 @@ export default function SevenSacraments() {
                 <li><strong>Baptism:</strong> Water (Matter) + "I baptize you..." (Form).</li>
                 <li><strong>Eucharist:</strong> Wheat Bread/Grape Wine (Matter) + Words of Institution (Form).</li>
                 <li><strong>Confirmation:</strong> Sacred Chrism (Matter) + "Be sealed..." (Form).</li>
+                <li><strong>Penance:</strong> the penitent's contrition, confession, and willingness to make satisfaction + the priest's words of absolution.</li>
+                <li><strong>Anointing of the Sick:</strong> blessed Oil of the Sick on the forehead and hands + the prayer of anointing.</li>
+                <li><strong>Holy Orders:</strong> the bishop's laying on of hands + the prayer of consecration proper to each degree.</li>
+                <li><strong>Matrimony:</strong> the free exchange of consent between a baptized man and woman, normally before a priest or deacon and two witnesses.</li>
+              </ul>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">
+                Matter and form are not the whole picture. A valid sacrament also requires a qualified minister who intends to do what the Church does, and a recipient capable of receiving it. The Catechism adds that while the sacrament acts by the power of Christ, the fruit it bears in a person's life also depends on that person's dispositions (CCC 1128). Grace is offered fully, but a closed heart receives less of it.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Where Each Sacrament Appears in Scripture
+              </h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-8">
+                <li><strong>Baptism:</strong> Jesus commands the apostles to baptize all nations (Matthew 28:19) and teaches that one must be born of water and Spirit (John 3:5).</li>
+                <li><strong>Confirmation:</strong> Peter and John lay hands on the baptized Samaritans so they receive the Holy Spirit (Acts 8:14–17).</li>
+                <li><strong>Eucharist:</strong> the Last Supper, "Do this in memory of me" (Luke 22:19–20; 1 Corinthians 11:23–26), and the Bread of Life discourse (John 6).</li>
+                <li><strong>Penance:</strong> the risen Christ breathes on the apostles and gives them power to forgive and retain sins (John 20:22–23).</li>
+                <li><strong>Anointing of the Sick:</strong> the presbyters pray over the sick and anoint them with oil in the name of the Lord (James 5:14–15).</li>
+                <li><strong>Holy Orders:</strong> the apostles lay hands on those chosen for ministry, and Paul reminds Timothy of the gift received through that laying on of hands (Acts 6:6; 2 Timothy 1:6).</li>
+                <li><strong>Matrimony:</strong> Jesus restores marriage to its original unity (Matthew 19:4–6), and Paul calls it a great mystery that refers to Christ and the Church (Ephesians 5:31–32).</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                How the Church Defined the Number Seven
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">
+                The early Church celebrated all of these rites, but the word "sacrament" was used loosely for many sacred signs for centuries. In the twelfth century, theologians such as Peter Lombard gathered the seven into a single list in his Sentences, the standard theology textbook of the medieval universities. The Second Council of Lyon (1274) and the Council of Florence (1439) affirmed the list, and the Council of Trent in 1547 solemnly taught that there are neither more nor fewer than seven sacraments instituted by Christ. The Eastern Orthodox churches, which call them the Holy Mysteries, also recognize these seven.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">
+                The Catechism gives the classic definition: the sacraments are efficacious signs of grace, instituted by Christ and entrusted to the Church, by which divine life is dispensed to us (CCC 1131). They are distinct from sacramentals such as holy water, blessings, and medals, which the Church instituted and which prepare us to receive grace rather than conferring it in the same way (CCC 1667–1670).
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Who Ministers Each Sacrament, and How Often
+              </h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-8">
+                <li><strong>Baptism:</strong> ordinarily a priest or deacon; in danger of death anyone, even a non-Christian, may baptize with the right intention. Received once.</li>
+                <li><strong>Confirmation:</strong> ordinarily the bishop; in the Latin Church a priest may confirm with faculty, as at the Easter Vigil for adult converts. Received once. In the United States, the bishops' norm sets the age between the age of discretion and about sixteen, so diocesan practice varies.</li>
+                <li><strong>Eucharist:</strong> a priest consecrates. Catholics may receive daily, and a second time on the same day when participating in the whole Mass.</li>
+                <li><strong>Penance:</strong> only a priest with the faculty to hear confessions. As often as needed, and at least once a year for serious sins.</li>
+                <li><strong>Anointing of the Sick:</strong> only a priest. For anyone in danger because of serious illness or old age, and again if the illness worsens or a new one arises.</li>
+                <li><strong>Holy Orders:</strong> only a bishop, in three degrees: deacon, priest, and bishop. Each degree is conferred once.</li>
+                <li><strong>Matrimony:</strong> the spouses minister it to each other; the priest or deacon receives their consent in the Church's name. Repeated only after the death of a spouse.</li>
               </ul>
 
               <div className="bg-blue-50 border border-blue-200 rounded-xl p-8 mb-10">
@@ -161,31 +204,6 @@ export default function SevenSacraments() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "The sacraments are forces that come forth from the Body of Christ." — CCC 1116
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">Discover the deep theology behind the seven sacraments. Learn about Matter and Form, the Indelible Character, and how grace is transmitted Ex Opere Operato. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">Readers often search for The Seven Sacraments: The \"Physicality\" of God&apos;s Love during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="seven-sacraments">Discover the deep theology behind the seven sacraments. Learn about Matter and Form, the Indelible Character, and how grace is transmitted Ex Opere Operato. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -203,8 +221,9 @@ export default function SevenSacraments() {
                 question: "Is Marriage really a sacrament?",
                 answer: "Yes. For two baptized Christians, their marriage is a sacrament. Their love becomes a visible sign of Christ's love for the Church. The spouses are actually the ministers; the priest is the witness."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Can a layperson ever administer a sacrament?", answer: "Yes, in two cases. Anyone may baptize in danger of death using water and the Trinitarian words with the intention of the Church, and in Matrimony the spouses themselves are the ministers." },
+              { question: "What is the difference between a sacrament and a sacramental?", answer: "Sacraments were instituted by Christ and confer grace by his action. Sacramentals, such as holy water, blessings, rosaries, and scapulars, were instituted by the Church and dispose us to receive grace (CCC 1667–1670)." },
+              { question: "Which sacraments can be received more than once?", answer: "The Eucharist, Penance, and Anointing of the Sick can be received repeatedly. Matrimony can be received again after a spouse's death. Baptism, Confirmation, and each degree of Holy Orders are received only once." },
             ]} />
 
 <RelatedArticles currentSlug="seven-sacraments" />

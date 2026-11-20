@@ -161,36 +161,39 @@ export default function StationsOfTheCross() {
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
-                  "No other devotion is more effective for salvation than the Way of the Cross." — St. Alphonsos Liguori
+                  "If anyone wishes to come after me, he must deny himself and take up his cross daily and follow me." — Luke 9:23
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Historical Context</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Discover the deep history of the Stations of the Cross. From the Via Dolorosa to the theology of the 14 stations, learn how this devotion heals the soul. Catholic history is the story of Christ&apos;s promise that the gates of hell will not prevail against the Church. Political empires rise and fall; the faith survives through saints, sinners, councils, and everyday believers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Primary Sources and Tradition</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Serious Catholic history relies on documents, archaeology, and the witness of contemporaries — not conspiracy theories or partisan blogs. When studying this topic, prefer encyclicals, council texts, and reputable Catholic historians.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Lessons for Catholics Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Past crises — schism, war, scandal, or persecution — show both human failure and divine faithfulness. We read history to avoid repeating errors and to thank God for those who kept the flame of faith alive for us.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Further Reading</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Explore related articles on Guide Catholic for popes, councils, and saints connected to this period. History deepens love for the Church when it leads to prayer and service, not cynicism.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Readers often search for The Way of the Cross: A Spiritual Pilgrimage to Calvary during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Discover the deep history of the Stations of the Cross. From the Via Dolorosa to the theology of the 14 stations, learn how this devotion heals the soul. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
-            </div>
-
               </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Franciscans Carried Jerusalem to Europe</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">In 1342 Pope Clement VI formally entrusted the Franciscan friars with the care of the holy places in Jerusalem, a mission still known as the Custody of the Holy Land. Pilgrims guided by the friars retraced the route from Pilate's praetorium to Golgotha, pausing at spots linked with the Passion. Returning pilgrims wanted to repeat that walk at home, and replicas of the route began to appear in European towns and friaries.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">For several centuries the number and choice of stopping points varied widely. Some late-medieval sets had seven stations, others many more, and the scenes did not always match. The fourteen familiar to Catholics today became standard only in the seventeenth and eighteenth centuries, when popes extended the Jerusalem indulgences to stations erected in Franciscan churches and then, under Clement XII in 1731, to any church where a set was properly erected.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">The great promoter of that period was St. Leonard of Port Maurice (1676-1751), a Franciscan preacher of parish missions who is credited with erecting more than five hundred sets of stations across Italy. In the Holy Year of 1750 he set up the stations inside the Colosseum in Rome with the support of Pope Benedict XIV. He was canonized in 1867, and the papal Way of the Cross at the Colosseum on Good Friday continues the custom he helped begin.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Fourteen Traditional Stations and Their Sources</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Nine of the traditional stations come directly from the Gospel accounts, while five come from the Church's memory and devotion. Knowing which is which helps you meditate honestly: the scriptural scenes can be read aloud from the Bible, and the traditional ones invite prayerful reflection on what the Gospels imply.</LinkedText>
+              <ol className="list-decimal list-inside text-text space-y-2 mb-8">
+                <li>Jesus is condemned to death (Mark 15:15; John 19:16)</li>
+                <li>Jesus takes up His cross (John 19:17)</li>
+                <li>Jesus falls the first time (tradition)</li>
+                <li>Jesus meets His Mother (tradition; compare Luke 2:35)</li>
+                <li>Simon of Cyrene helps carry the cross (Mark 15:21; Luke 23:26)</li>
+                <li>Veronica wipes the face of Jesus (tradition)</li>
+                <li>Jesus falls the second time (tradition)</li>
+                <li>Jesus speaks to the women of Jerusalem (Luke 23:27-31)</li>
+                <li>Jesus falls the third time (tradition)</li>
+                <li>Jesus is stripped of His garments (John 19:23-24)</li>
+                <li>Jesus is nailed to the cross (Luke 23:33)</li>
+                <li>Jesus dies on the cross (Luke 23:46; John 19:30)</li>
+                <li>Jesus is taken down from the cross (John 19:38)</li>
+                <li>Jesus is laid in the tomb (Matthew 27:59-60)</li>
+              </ol>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">John Paul II's Scriptural Way of the Cross (1991)</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">On Good Friday 1991, Pope John Paul II led a new form of the devotion at the Colosseum in which every station is drawn from the Gospels. It begins in the Garden of Gethsemane and moves through the betrayal by Judas, the trial before the Sanhedrin, Peter's denial, the judgment by Pilate, the scourging and crowning with thorns, the taking up of the cross, Simon of Cyrene, the women of Jerusalem, the crucifixion, the promise to the repentant thief, the words to Mary and the beloved disciple, the death of Jesus, and His burial.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">This scriptural form does not replace the traditional fourteen. The crosses and images on the walls of most American churches still follow the older sequence, and many parishes alternate between the two sets of meditations during Lent. The scriptural version is especially useful in Bible study groups and with Christians of other traditions, because each stop can be paired with a Gospel reading.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Praying the Stations in Your Parish or at Home</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">In a typical Lenten Friday service, a priest or leader moves along the nave with a cross-bearer and two candle-bearers, while the congregation turns to face each station. At every stop the leader announces the scene, the people respond with the acclamation and genuflect, a short meditation is read, and the group prays an Our Father, Hail Mary and Glory Be. A verse of the Stabat Mater is often sung while walking to the next station.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="stations-of-the-cross">Under the Church's traditional norms, a station properly consists of the small wooden cross mounted at each place; the painting or carving beneath it is a helpful aid but not the essential element. If you pray alone, walk slowly, read the relevant Gospel passage where one exists, and stay with whichever scene moves you rather than hurrying to finish. Booklets by St. Alphonsus Liguori and St. Francis of Assisi's acclamation remain the most common texts in U.S. pews.</LinkedText>
+            </div>
 
             <BlogFAQ faqs={[
               {
@@ -203,10 +206,20 @@ export default function StationsOfTheCross() {
               },
               {
                 question: "Can I pray the stations if I can't walk?",
-                answer: "Yes! For those who are physically restricted, you can gain a plenary indulgence by spending 15 minutes devoutly reading and meditating on the Way of the Cross."
+                answer: "Yes. The Enchiridion of Indulgences allows those who are legitimately impeded from making the Stations to gain the plenary indulgence by devoutly reading and meditating on the Passion and Death of the Lord for at least half an hour, with the usual conditions (sacramental Confession, Holy Communion, prayer for the Pope's intentions, and freedom from attachment to sin)."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              {
+                question: "Why are some stations not found in the Bible?",
+                answer: "Five of the fourteen traditional stations (the three falls, the meeting with Mary, and Veronica) come from the Church's devotional memory rather than the Gospel text. They are meditations on what the Passion plausibly involved, not doctrinal claims, which is why John Paul II also offered a fully scriptural version in 1991."
+              },
+              {
+                question: "Who set up the Stations of the Cross in the Colosseum?",
+                answer: "St. Leonard of Port Maurice, a Franciscan mission preacher, erected them there in the Holy Year of 1750 with Pope Benedict XIV's approval. He promoted the devotion so widely that he is credited with founding more than five hundred sets of stations."
+              },
+              {
+                question: "Does the Scriptural Way of the Cross replace the traditional one?",
+                answer: "No. Both are approved ways of meditating on the Passion. Most parish churches still display the traditional fourteen, and parishes may use either set of meditations during Lenten services."
+              },
             ]} />
 
 <RelatedArticles currentSlug="stations-of-the-cross" />

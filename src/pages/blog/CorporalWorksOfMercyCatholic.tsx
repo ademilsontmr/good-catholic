@@ -89,6 +89,14 @@ export default function CorporalWorksOfMercyCatholic() {
 
               <QuizCTA title="Put mercy into action" description="Take the Catholic life assessment for practical steps on charity, parish life, and spiritual growth." />
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the List of Seven Took Shape</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Matthew 25 names six works. Christian writers added burial of the dead from the Book of Tobit, where Tobit risks his life to bury fellow Israelites left unburied by the king (Tobit 1:17–19). By the Middle Ages the list of seven was standard catechesis. St. Thomas Aquinas discusses it in the Summa Theologiae (II-II, question 32) and records a Latin memory verse that ran visito, poto, cibo, redimo, tego, colligo, condo: I visit, give drink, feed, ransom, clothe, take in, and bury.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Notice that the medieval form included ransoming captives, a real concern when Christians were held for ransom around the Mediterranean. Religious orders such as the Trinitarians and Mercedarians were founded around 1200 largely for that work. Modern catechisms usually phrase it as visiting the imprisoned, which keeps Christ&apos;s own words, I was in prison and you visited me.</LinkedText>
+
+              <p className="text-text leading-relaxed mb-6">Pope Francis made the works of mercy a theme of the Extraordinary Jubilee of Mercy (December 2015 to November 2016). In the bull announcing it, <em>Misericordiae Vultus</em>, he asked Catholics to rediscover the corporal and spiritual works and recalled that we will be judged by them. The Catechism lists both sets and calls giving alms to the poor one of the chief witnesses of fraternal charity (CCC 2447).</p>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Corporal vs. Spiritual Works of Mercy</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Corporal works address the body; spiritual works address the soul — instructing, counseling, forgiving, praying. Catholics need both. Feeding a neighbor without caring for his eternal good is incomplete; catechizing without relieving hunger rings hollow. The Catechism treats mercy as integral to faith (CCC 2447).</LinkedText>
 
@@ -101,34 +109,22 @@ export default function CorporalWorksOfMercyCatholic() {
                 <li>During Lent, map one corporal work per week with children using a simple checklist.</li>
               </ul>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture Behind Each Work</h2>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Feeding and giving drink:</strong> Isaiah 58:7 describes the fast God desires as sharing bread with the hungry; Jesus promises that even a cup of cold water given to a disciple will not lose its reward (Matthew 10:42).</li>
+                <li><strong>Clothing:</strong> James 2:15–16 warns against wishing someone well while ignoring that they lack clothing and food.</li>
+                <li><strong>Sheltering:</strong> Hebrews 13:2 urges hospitality to strangers, noting that some have entertained angels without knowing it.</li>
+                <li><strong>Visiting the sick:</strong> James 5:14 tells the sick to call the elders of the Church to pray over them, the root of the Anointing of the Sick.</li>
+                <li><strong>Visiting prisoners:</strong> Hebrews 13:3 asks believers to remember prisoners as if imprisoned with them.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Saints and Founders Who Lived Them</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">St. Martin of Tours, a fourth-century Roman soldier, cut his military cloak in half for a freezing beggar, and tradition says Christ appeared to him that night wearing the half he had given. In 1833 Blessed Frédéric Ozanam, a Paris university student, helped found the Society of St. Vincent de Paul, whose U.S. conferences still visit families in their homes. In 1933 Dorothy Day and Peter Maurin began the Catholic Worker movement in New York, opening houses of hospitality that practiced the works daily. St. Damien of Molokai cared for people with leprosy in Hawaii until he contracted the disease himself and died in 1889.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mercy and Justice</h2>
               <p className="text-text leading-relaxed mb-6">Personal charity and social justice belong together in Catholic teaching. Voting, advocacy, and fair business practices can address root causes of hunger and homelessness while soup kitchens meet immediate need. The Church does not ask you to choose — it asks for a coherent life of love in truth.</p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">The seven corporal works of mercy explained — feed the hungry, visit the sick, bury the dead, and more. Practical ways Catholics in the United States live mercy today. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Readers often search for Corporal Works of Mercy: Catholic List & How to Live Them (USA) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="corporal-works-of-mercy-catholic">The seven corporal works of mercy explained — feed the hungry, visit the sick, bury the dead, and more. Practical ways Catholics in the United States live mercy today. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
             <BlogFAQ faqs={[
               { question: "What are the corporal works of mercy?", answer: "They are seven charitable actions toward the bodily needs of others, drawn from Matthew 25 and centuries of Catholic tradition." },
@@ -137,8 +133,9 @@ export default function CorporalWorksOfMercyCatholic() {
               { question: "Can I fulfill them without joining a ministry?", answer: "Yes. Family generosity, helping a neighbor, donating goods, and visiting a sick relative are genuine works of mercy." },
               { question: "Where does burying the dead come from?", answer: "Honoring the dead appears in Tobit and early Christian practice. Catholic funerals witness to resurrection hope and human dignity." },
               { question: "Do corporal works of mercy earn salvation?", answer: "No. We are saved by grace through faith. Works of mercy are fruit of that grace and union with Christ who identifies with the poor." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Why did older lists say 'ransom the captive'?", answer: "Medieval Christians faced real captivity and ransom around the Mediterranean, and orders like the Trinitarians and Mercedarians formed to free captives. Modern lists say 'visit the imprisoned,' echoing Matthew 25:36." },
+              { question: "Where else in Scripture do the works of mercy appear?", answer: "Beyond Matthew 25, see Isaiah 58:6–7, Tobit 1:17–19 and 4:16, James 2:14–17, and Hebrews 13:1–3. Each roots care for the body in love of God." },
+              { question: "Is giving money enough, or must I serve in person?", answer: "Donations are a real work of mercy, and the Catechism praises almsgiving (CCC 2447). Personal contact adds something money cannot: presence, dignity, and friendship with those Christ calls the least." },
             ]} />
             <RelatedArticles currentSlug="corporal-works-of-mercy-catholic" />
             <ArticleBottomCTA />

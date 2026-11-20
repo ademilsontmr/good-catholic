@@ -131,34 +131,40 @@ export default function EucharisticAdorationNearMe() {
                 Many parishes schedule Confession during Adoration because the two go naturally together. In Adoration, we see Christ's love more clearly. In Confession, we receive his mercy sacramentally.
               </p>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Types of Adoration You Will See Listed</h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-6">
+                <li><strong>Visit to the tabernacle:</strong> any time a church is open, you can pray before the Blessed Sacrament reserved in the tabernacle, marked by a burning sanctuary lamp. No schedule is needed.</li>
+                <li><strong>Exposition and Benediction:</strong> the Host is placed in a monstrance on the altar for a set period, which ends with the Tantum Ergo, a prayer, and a blessing with the monstrance by a priest or deacon.</li>
+                <li><strong>Perpetual adoration:</strong> exposition around the clock, every day, in a dedicated chapel staffed by scheduled adorers.</li>
+                <li><strong>Extended or day-long adoration:</strong> exposition for set hours, such as Wednesday 9 AM to 7 PM or every First Friday.</li>
+                <li><strong>Forty Hours devotion:</strong> an older form of extended exposition, traced to sixteenth-century Milan, which St. John Neumann organized across the Diocese of Philadelphia in the 1850s. Some U.S. parishes still hold it annually.</li>
+                <li><strong>Holy Thursday Altar of Repose:</strong> after the Evening Mass of the Lord's Supper, the Eucharist is carried to a side altar and the faithful keep watch, often until midnight.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Perpetual Adoration Chapels Ask of Adorers</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">
+                Church norms call for the exposed Blessed Sacrament never to be left without someone present, which is why perpetual chapels depend on committed adorers. Each hour of the week usually has one or more people signed up, coordinated by a volunteer called an hour captain or adoration coordinator. If you commit to an hour, you are asked to arrive on time, stay until the next adorer arrives, and arrange a substitute when you cannot come.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">
+                Many chapels lock their doors at night for safety. Committed adorers receive a door code or key fob, and some parishes ask overnight adorers to complete a short registration first. Visitors are welcome during open hours without signing up, though a sign-in book near the door helps the parish see who is present. Silence your phone, keep conversation outside, and if you are the only person there, wait for your relief before leaving.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Adore the Eucharist</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">
+                The Catechism explains that the Church offers the Eucharist the worship of adoration not only during Mass but also outside it, reserving the consecrated hosts with the utmost care and exposing them for solemn veneration (CCC 1378). The practice grew in the Middle Ages, especially after Pope Urban IV established the feast of Corpus Christi in 1264. St. Thomas Aquinas wrote hymns for that feast, and two of them, "O Salutaris Hostia" and "Tantum Ergo," are still sung at nearly every Benediction.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">
+                The Church also attaches an indulgence to this prayer. According to the Church's official handbook, the Enchiridion of Indulgences, a half hour or more spent adoring the Blessed Sacrament can gain a plenary indulgence when joined to Confession, Communion, a prayer for the Holy Father's intentions, and a heart free of attachment to any sin. A shorter visit carries a partial indulgence.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Posture and Etiquette</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">
+                Under the current norms, a genuflection on one knee is made before the Blessed Sacrament whether it is in the tabernacle or exposed in the monstrance. Some Catholics keep the older custom of kneeling on both knees and bowing before exposition, which is a reverent personal practice. After that, you may kneel, sit, or stand as your body allows. Laypeople commissioned by the pastor may expose and repose the Blessed Sacrament when no priest or deacon is available, but only a priest or deacon gives the blessing with the monstrance.
+              </LinkedText>
+
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8 text-center">
                 <MapPin className="w-8 h-8 text-primary mx-auto mb-3" />
                 <p className="text-text italic">The best Adoration chapel is the one you will actually visit. Start nearby, start small, and return often.</p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Readers often search for Eucharistic Adoration Near Me: How to Find a Holy Hour during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="eucharistic-adoration-near-me">Find Eucharistic Adoration near you. Learn how to locate adoration chapels, parish holy hours, perpetual adoration, and what to do during your first visit. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -168,8 +174,9 @@ export default function EucharisticAdorationNearMe() {
               { question: "Can non-Catholics attend Eucharistic Adoration?", answer: "Yes. Non-Catholics may quietly attend Adoration and pray. They should follow the chapel's reverent atmosphere and may ask a Catholic friend or parish staff member about customs." },
               { question: "What is perpetual adoration?", answer: "Perpetual adoration means the Blessed Sacrament is adored continuously, often 24 hours a day, with scheduled adorers committed to each hour." },
               { question: "What should I bring to Adoration?", answer: "You can bring a Bible, Rosary, prayer book, journal, or nothing at all. Silence and attention are enough." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Do I genuflect on one knee or two at Adoration?", answer: "Current norms call for a single genuflection on one knee whether the Blessed Sacrament is reserved or exposed. Kneeling on both knees before exposition is an older custom some Catholics still practice." },
+              { question: "Is there an indulgence for Eucharistic Adoration?", answer: "Yes. Yes. Thirty minutes or more of adoration, with the usual conditions, can gain a plenary indulgence according to the Enchiridion of Indulgences; a shorter visit gains a partial one." },
+              { question: "Do I need to sign up to visit a perpetual adoration chapel?", answer: "Usually not for a visit during open hours. Sign-ups are for adorers who commit to a weekly hour so the Blessed Sacrament is never left alone. Some chapels require registration for after-hours access codes." },
             ]} />
 
             <RelatedArticles currentSlug="eucharistic-adoration-near-me" />

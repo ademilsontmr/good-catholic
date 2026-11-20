@@ -99,6 +99,16 @@ export default function ApostlesCreedPrayer() {
                 It is called the Apostles' Creed because it summarizes the apostolic faith handed down by the Church. An ancient tradition associated its twelve articles with the twelve apostles, though the exact text developed over time in the early Church's baptismal profession of faith.
               </p>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From Baptismal Questions to the Text We Pray Today</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apostles-creed-prayer">The Apostles&apos; Creed grew out of the way the early Church in Rome baptized. Candidates were asked three questions, one for each Person of the Trinity: Do you believe in God the Father almighty? Do you believe in Christ Jesus, the Son of God? Do you believe in the Holy Spirit, the holy Church? After each answer of I believe, they were immersed. An early form of these questions is preserved in the Apostolic Tradition, a church order traditionally attributed to Hippolytus of Rome in the early third century, though scholars debate its authorship and date.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apostles-creed-prayer">By the fourth century these questions had become a continuous declaration that historians call the Old Roman Creed. Around the year 400, Rufinus of Aquileia wrote a commentary on it and recorded the legend that the apostles composed it together before leaving Jerusalem. The Old Roman form lacked several phrases we now say, including Creator of heaven and earth, he descended into hell, the communion of saints, and life everlasting. The full text in its present form is first attested in the Frankish realm in the early eighth century, and it eventually became the standard baptismal creed of the Latin West.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apostles-creed-prayer">The Catechism calls it the ancient baptismal symbol of the Church of Rome and uses it as the outline for its whole first part on the profession of faith (CCC 194, 196). The word symbol comes from the Greek symbolon, a token broken in half that two parties matched to recognize each other; the Creed works the same way, as a sign by which believers recognize one shared faith (CCC 188).</LinkedText>
+
+              <p className="text-text leading-relaxed mb-6">Since the 2011 English translation of the Roman Missal, the Apostles&apos; Creed may replace the Nicene Creed at Mass, especially during Lent and Easter Time, when the Church&apos;s attention turns to Baptism. When it is used, the congregation bows at the words about Christ&apos;s conception and birth from the Virgin Mary.</p>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Do Catholics Pray the Apostles' Creed?</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>At the beginning of the Rosary.</li>
@@ -122,6 +132,16 @@ export default function ApostlesCreedPrayer() {
                 <li><strong>I believe in forgiveness and resurrection:</strong> sin and death do not have the final word.</li>
               </ol>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Five Phrases Worth Slowing Down For</h2>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>&apos;Suffered under Pontius Pilate&apos;:</strong> naming a Roman prefect who governed Judea around AD 26 to 36 fixes the Passion in datable history. The Creed is not reciting a myth but recalling events that happened at a particular time and place.</li>
+                <li><strong>&apos;He descended into hell&apos;:</strong> the older English word hell here translates the realm of the dead, not the place of the damned. Christ went down as Savior to the just who had died before him (CCC 632–633).</li>
+                <li><strong>&apos;The holy catholic Church&apos;:</strong> catholic means universal. The Church is catholic because Christ is present in her and because she is sent to the whole human race (CCC 830–831).</li>
+                <li><strong>&apos;The communion of saints&apos;:</strong> this phrase has a double meaning in Catholic teaching, a sharing in holy things, above all the Eucharist, and a fellowship of holy persons in heaven, in purgatory, and on earth (CCC 948).</li>
+                <li><strong>&apos;The resurrection of the body&apos;:</strong> where the Nicene Creed says resurrection of the dead, the Apostles&apos; Creed speaks bluntly of the body. Christian hope is not escape from the flesh but its transformation, after the pattern of Christ&apos;s own risen body.</li>
+              </ul>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Apostles' Creed vs Nicene Creed</h2>
               <p className="text-text leading-relaxed mb-6">
                 The Apostles' Creed is older in form and simpler in expression. The Nicene Creed is more detailed, especially about the divinity of Christ and the Holy Spirit, because it responded to early heresies. Catholics use both, but the Nicene Creed is the normal profession at Sunday Mass.
@@ -131,19 +151,6 @@ export default function ApostlesCreedPrayer() {
               <p className="text-text leading-relaxed mb-6">
                 Pray it slowly as an act of faith, not merely as a memorized text. When you say "I believe," renew your trust in God. When you mention Christ's suffering and resurrection, remember that your life is united to his victory.
               </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apostles-creed-prayer">The Apostles&apos; Creed with full Catholic text, meaning, history, and a clear explanation of each article of faith for prayer, RCIA, and the Rosary. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apostles-creed-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apostles-creed-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="apostles-creed-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Apostles&apos; Creed, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
             </div>
 
             <DailyPrayersHubLink />
@@ -152,9 +159,9 @@ export default function ApostlesCreedPrayer() {
               { question: "Do Catholics use the Apostles' Creed?", answer: "Yes. Catholics commonly pray it in the Rosary and teach it as a basic summary of the faith." },
               { question: "What is the difference between the Apostles' Creed and the Nicene Creed?", answer: "The Apostles' Creed is shorter and often used devotionally. The Nicene Creed is more detailed and is normally professed at Sunday Mass." },
               { question: "Why does the Creed say Jesus descended into hell?", answer: "It means Christ truly entered the realm of the dead and proclaimed victory to the righteous who awaited redemption. It does not mean he suffered damnation." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Can the Apostles' Creed be said at Mass?", answer: "Yes. The Roman Missal allows the Apostles' Creed in place of the Nicene Creed, especially during Lent and Easter Time. The bow comes at the words about Christ being conceived by the Holy Spirit and born of the Virgin Mary." },
+              { question: "Who wrote the Apostles' Creed?", answer: "No single author. It developed from the baptismal questions of the early Roman church into the Old Roman Creed, and reached its present wording by the early eighth century. The tradition that the apostles each contributed a line is a legend, though the content is apostolic." },
+              { question: "Why is the Creed called a symbol?", answer: "The word comes from the Greek symbolon, a token of recognition. The Creed is the sign by which believers recognize their common faith (CCC 188)." },
             ]} />
 
             <RelatedArticles currentSlug="apostles-creed-prayer" />

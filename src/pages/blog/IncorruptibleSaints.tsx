@@ -189,8 +189,6 @@ export default function IncorruptibleSaints() {
                 question: "Can anyone's body stay incorrupt naturally?",
                 answer: "Yes, in rare cases of saponification (body fat turning to wax) or extreme dryness. However, these natural phenomena result in a very different appearance—the bodies are usually gray, oily, or shriveled, and they lack the flexibility and floral fragrance found in the miraculous cases."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="incorruptible-saints-miracle" />

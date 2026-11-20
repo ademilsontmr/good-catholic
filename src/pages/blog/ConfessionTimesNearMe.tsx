@@ -99,6 +99,24 @@ export default function ConfessionTimesNearMe() {
                 <p className="text-text text-sm">Search "Catholic confession times near me" plus your city or ZIP code. Then verify the schedule on the parish website or by phone.</p>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where Parishes Actually Post Their Confession Schedule</h2>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>The weekly bulletin:</strong> most U.S. parishes print a bulletin every weekend and post the PDF online. The box listing Mass and sacrament times, usually on the front page, is where Reconciliation hours appear, along with any cancellations for that week.</li>
+                <li><strong>The parish website:</strong> look for a page labeled Sacraments, Reconciliation, or Mass and Confession Times, and notice whether it has been updated recently. A schedule that still mentions last year&apos;s Lent is a sign to call.</li>
+                <li><strong>The diocesan website:</strong> many dioceses publish a list of every parish with links, and some post a single Lenten Confession schedule covering the whole diocese.</li>
+                <li><strong>Cathedrals and shrines:</strong> downtown cathedrals, basilicas, and shrines often hear confessions on more days of the week than neighborhood parishes because they serve commuters and visitors.</li>
+                <li><strong>Churches run by religious orders:</strong> Franciscan, Dominican, and other order-staffed churches in city centers frequently keep longer or more frequent hours.</li>
+              </ul>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Confession hours change more often than Mass times, so treat any directory or map listing as a lead rather than the final word. The current week&apos;s bulletin is usually the most reliable written source, and a two-minute phone call to the parish office removes any doubt before you drive across town.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Seasonal Opportunities: Advent, Lent, and Holy Week</h2>
+
+              <p className="text-text leading-relaxed mb-6">Lines grow before Christmas and Easter, and parishes add times to meet them. During Advent and Lent many parishes hold a communal penance service, which follows the Rite for Reconciliation of Several Penitents with individual confession and absolution. It opens with a hymn, Scripture readings, a homily, and a shared examination of conscience; then several priests, often visiting from neighboring parishes, hear confessions one at a time. You still confess privately to a single priest and receive absolution individually, so the service is a good choice for anyone who feels nervous going alone.</p>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Some dioceses also coordinate a Lenten evening when every parish keeps its confessionals open at the same hour. The Archdiocese of Washington helped popularize this under the name The Light Is On for You, and other dioceses have run the same or similar campaigns. Check your diocesan website in late February to see whether your diocese takes part. Holy Week is the busiest stretch of the year, so going earlier in Lent usually means a shorter wait than Good Friday afternoon.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What If No Confession Times Are Listed?</h2>
               <p className="text-text leading-relaxed mb-6">
                 Do not assume Confession is unavailable. Many priests hear Confessions by appointment, especially for people returning after a long absence, those preparing for marriage, or anyone carrying a serious burden of conscience.
@@ -132,6 +150,12 @@ export default function ConfessionTimesNearMe() {
                 Then confess your sins clearly and simply. You do not need long explanations unless the priest asks a question. Confession is not a performance. It is a sacrament of mercy.
               </p>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Confession While Traveling, Hospitalized, or Homebound</h2>
+
+              <p className="text-text leading-relaxed mb-6">You are not tied to your home parish for this sacrament. Under canon law, a priest who has the faculty to hear confessions from his own bishop may ordinarily use it anywhere, so a traveler can walk into any Catholic church during posted hours (canon 967). Some major U.S. airports have chapels with Catholic chaplains, and Catholic hospitals have chaplains who visit patients. If you or a relative is in the hospital, in a nursing home, or unable to leave the house, call the parish and ask for a priest to come; Confession and the Anointing of the Sick for those who cannot travel are a normal part of parish ministry.</p>
+
+              <p className="text-text leading-relaxed mb-6">If you would be more comfortable confessing in Spanish, Vietnamese, Polish, Korean, or another language, diocesan parish directories and bulletins often note which priests or parishes offer it. You may also choose how to confess: Church law requires that a confessional with a fixed screen be available for those who want anonymity, while many parishes also offer a face-to-face option (canon 964).</p>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Should Catholics Go to Confession?</h2>
               <p className="text-text leading-relaxed mb-6">
                 Catholics must confess mortal sins before receiving Holy Communion and are required to confess serious sins at least once a year. Many Catholics go monthly because regular Confession forms the conscience, strengthens humility, and gives sacramental grace to resist sin.
@@ -140,31 +164,6 @@ export default function ConfessionTimesNearMe() {
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8 text-center">
                 <MapPin className="w-8 h-8 text-primary mx-auto mb-3" />
                 <p className="text-text italic">If you feel nervous, go anyway. The priest has heard Confessions before, and Christ is waiting to forgive.</p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need to Know First</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession. American Catholics navigate civil law, diocesan policies, and parish practice — three layers that do not always say the same thing in the same words. When in doubt, your pastor and diocesan website are authoritative for sacramental questions.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Step-by-Step for U.S. Catholics</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Start with Sunday Mass and an honest examination of conscience. Gather required documents or information early if the guide involves sacraments, marriage, or RCIA. Call the parish office with specific questions rather than relying only on internet forums.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Requires vs. Encourages</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Canon law and liturgical law bind in some matters; pious customs encourage in others. Confusion often comes from treating optional devotions as obligations, or vice versa. This guide distinguishes what you must do from what helps you grow.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When to Talk to Your Pastor</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Complex cases — irregular marriage, mixed religion, health crises, or moral dilemmas — deserve personal pastoral counsel. Priests hear similar questions weekly. You will not surprise them; you will receive the mercy and clarity the Church exists to give.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Readers often search for Confession Times Near Me: How to Find Catholic Confession during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="confession-times-near-me">Find Catholic confession times near you. Learn the best parish tools, apps, search tips, what to do if no times are listed, and how to prepare for Confession. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -174,8 +173,9 @@ export default function ConfessionTimesNearMe() {
               { question: "What if I forgot the Act of Contrition?", answer: "Tell the priest. He can help you pray one, provide a simple version, or invite you to express sorrow for your sins in your own words." },
               { question: "Do I need an appointment for Confession?", answer: "Not if the parish has scheduled Confession times. If no time works for you, call the parish office and ask for an appointment with a priest." },
               { question: "How long does Confession take?", answer: "A typical Confession can take 3 to 10 minutes. If it has been many years or you need pastoral guidance, schedule an appointment so the priest has enough time." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Can I confess behind a screen instead of face to face?", answer: "Yes. Canon 964 requires that confessionals with a fixed grille be available so that any penitent who wishes may confess anonymously. Where both options are offered, the choice is yours." },
+              { question: "What is a communal penance service?", answer: "It is a parish celebration, common in Advent and Lent, with hymns, readings, a homily, and a shared examination of conscience, followed by individual confession to one of several priests. Absolution is still given to each person individually." },
+              { question: "Do Confession times change in the summer?", answer: "Often, yes. Priests take vacations and some parishes reduce weekday hours in July and August. Check the current bulletin or call ahead rather than relying on a schedule you saw months ago." },
             ]} />
 
             <RelatedArticles currentSlug="confession-times-near-me" />

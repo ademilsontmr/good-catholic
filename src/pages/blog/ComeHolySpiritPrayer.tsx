@@ -104,6 +104,40 @@ export default function ComeHolySpiritPrayer() {
                 The Holy Spirit is the third Person of the Holy Trinity, not an impersonal force. To pray Come Holy Spirit is to invite God himself to act within us.
               </p>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Latin Text</h2>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
+                <p className="text-text italic leading-relaxed">
+                  Veni, Sancte Spiritus, reple tuorum corda fidelium, et tui amoris in eis ignem accende. V. Emitte Spiritum tuum, et creabuntur. R. Et renovabis faciem terrae.
+                </p>
+                <p className="text-text italic leading-relaxed mt-4">
+                  Oremus. Deus, qui corda fidelium Sancti Spiritus illustratione docuisti, da nobis in eodem Spiritu recta sapere, et de eius semper consolatione gaudere. Per Christum Dominum nostrum. Amen.
+                </p>
+              </div>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Three Parts, Three Sources</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">
+                The familiar prayer is really three pieces joined together. The opening invocation is an ancient antiphon that the Roman Missal still uses as the Alleluia verse at Mass on Pentecost Sunday. The versicle and response, "Send forth your Spirit... and you shall renew the face of the earth," come from Psalm 104:30, which praises God as the giver of life to all creation. The closing collect, "O God, who by the light of the Holy Spirit," is an old Roman prayer that served for centuries as the opening prayer of the Pentecost Mass.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Line-by-Line Meaning</h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-6">
+                <li><strong>"Fill the hearts of your faithful":</strong> the request is for the whole Church, not only the person praying, echoing the apostles who were all filled with the Holy Spirit at Pentecost (Acts 2:4).</li>
+                <li><strong>"Kindle in them the fire of your love":</strong> fire recalls the tongues as of fire that rested on the disciples (Acts 2:3) and Jesus' saying that he came to cast fire upon the earth (Luke 12:49).</li>
+                <li><strong>"They shall be created":</strong> the same Spirit who hovered over the waters at creation (Genesis 1:2) makes believers a new creation.</li>
+                <li><strong>"Truly wise":</strong> the Latin "recta sapere" means to savor or have a taste for what is right, a wisdom of the heart and not only of the head.</li>
+                <li><strong>"Ever enjoy his consolations":</strong> Jesus calls the Spirit the Paraclete, the Advocate or Consoler who remains with the disciples (John 14:16–17).</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Not to Be Confused With</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">
+                Two other Latin texts share similar opening words. The Veni, Creator Spiritus ("Come, Creator Spirit") is a ninth-century hymn usually attributed to Rabanus Maurus; it is sung at ordinations, at the opening of a papal conclave, and on many solemn occasions, and the Church grants a plenary indulgence for reciting it publicly on January 1 or on Pentecost. The Veni, Sancte Spiritus sequence, often called the Golden Sequence and commonly attributed to Stephen Langton, Archbishop of Canterbury in the early thirteenth century, is sung or recited before the Gospel on Pentecost Sunday, one of the two days when a sequence is obligatory. The short prayer on this page is distinct from both.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Novena Before Pentecost</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">
+                The custom of a nine-day novena comes from Acts 1:14, where the apostles, together with Mary and other disciples, devoted themselves to prayer between the Ascension and Pentecost. In his 1897 encyclical on the Holy Spirit, Divinum Illud Munus, Pope Leo XIII decreed that a novena to the Holy Spirit be made each year in parish churches before Pentecost. This short invocation is a natural way to open each day of that novena, and many Confirmation candidates pray it daily in the weeks before the bishop lays hands on them and prays for the seven gifts named in Isaiah 11:2–3.
+              </LinkedText>
+
               <QuizCTA
                 title="Need clarity in your spiritual life?"
                 description="Take the Catholic life assessment and receive a personalized guide for prayer, discernment, and growth."
@@ -134,32 +168,6 @@ export default function ComeHolySpiritPrayer() {
               <p className="text-text leading-relaxed mb-6">
                 Pray slowly and honestly. Ask the Holy Spirit to show you one concrete next step: a sin to confess, a person to forgive, a truth to accept, a task to begin, or a grace to receive. The prayer becomes powerful when it leads to obedience.
               </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">The Come Holy Spirit prayer with full text, meaning, when to pray it, and a Catholic guide to asking the Holy Spirit for wisdom, courage, and renewal. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Come Holy Spirit Prayer, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">Readers often search for Come Holy Spirit Prayer: Full Text, Meaning and Catholic Guide during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="come-holy-spirit-prayer">The Come Holy Spirit prayer with full text, meaning, when to pray it, and a Catholic guide to asking the Holy Spirit for wisdom, courage, and renewal. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
             <BlogFAQ faqs={[
@@ -167,9 +175,9 @@ export default function ComeHolySpiritPrayer() {
               { question: "When should I pray Come Holy Spirit?", answer: "Pray it before Scripture reading, discernment, exams, ministry, Confession, Mass, Adoration, or any moment when you need wisdom and courage." },
               { question: "Is the Holy Spirit God?", answer: "Yes. Catholic teaching professes that the Holy Spirit is the third Person of the Holy Trinity, true God with the Father and the Son." },
               { question: "Can I pray this prayer every day?", answer: "Yes. Many Catholics pray Come Holy Spirit daily, especially at the beginning of morning prayer or before important work." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "What is Come Holy Spirit in Latin?", answer: "Veni, Sancte Spiritus, reple tuorum corda fidelium, et tui amoris in eis ignem accende. It continues with the versicle from Psalm 104:30 and the collect Deus, qui corda fidelium." },
+              { question: "Is this the same as Veni Creator Spiritus?", answer: "No. Veni Creator Spiritus is a longer ninth-century hymn used at ordinations and other solemn occasions. Come Holy Spirit is a short invocation followed by a versicle and a collect." },
+              { question: "Where does 'renew the face of the earth' come from?", answer: "From Psalm 104:30, which praises God for sending forth his Spirit to create and renew all living things." },
             ]} />
 
             <RelatedArticles currentSlug="come-holy-spirit-prayer" />

@@ -106,9 +106,9 @@ export default function ManagingDepression() {
               Many saints experienced what would today be recognized as depression. Their stories offer hope that faithfulness and depression can coexist:
             </LinkedText>
             <ul className="list-disc list-inside text-text space-y-3 mb-6">
-              <li><strong>St. Ignatius of Loyola:</strong> Experienced severe desolation and suicidal thoughts before his conversion</li>
+              <li><strong>St. Ignatius of Loyola:</strong> Experienced severe scruples, desolation, and suicidal thoughts at Manresa, shortly after his conversion</li>
               <li><strong>St. Jane Frances de Chantal:</strong> Endured years of spiritual darkness and depression</li>
-              <li><strong>Blessed Teresa of Calcutta:</strong> Lived with spiritual darkness for decades while serving the poor</li>
+              <li><strong>St. Teresa of Calcutta:</strong> Lived with spiritual darkness for decades while serving the poor</li>
               <li><strong>St. Thérèse of Lisieux:</strong> Faced periods of intense sadness and temptation to despair</li>
             </ul>
 
@@ -150,6 +150,18 @@ export default function ManagingDepression() {
               <li><strong>Medical Evaluation:</strong> To rule out physical causes</li>
             </ul>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Church Teaches About Mental Illness and Suicide</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">The Catechism treats suicide as gravely contrary to the love of self, neighbor, and God, yet it immediately adds that grave psychological disturbances, anguish, or intense fear of suffering can diminish a person&apos;s responsibility (CCC 2282). The next paragraph says we should not despair of the eternal salvation of those who have taken their own lives, that God can offer the opportunity for repentance in ways known only to him, and that the Church prays for them (CCC 2283).</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Church law reflects this. The 1917 Code of Canon Law denied church burial to those who deliberately took their own lives, but the 1983 Code no longer lists suicide among the reasons for refusing a funeral. Families who lose someone to suicide can and should ask their parish for a Catholic funeral Mass. For anyone living with depression, the takeaway is simple: the Church understands illness as illness, and seeking treatment is part of caring for the life God gave you (CCC 2288).</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Depression, Scruples, and the Dark Night</h2>
+
+              <p className="text-text leading-relaxed mb-6">Depression can masquerade as a spiritual problem. Scrupulosity, the persistent fear that one has sinned when one has not, troubled saints such as Ignatius of Loyola and Alphonsus Liguori, and it often travels with anxiety and depression. A confessor can help by giving clear, firm guidance, but repeated confessions of the same doubts usually point to something that also needs clinical attention.</p>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">In the writings of St. John of the Cross, the dark night is a purification in which God withdraws felt consolation so that faith can mature. It can resemble depression, yet the two are not the same, and spiritual directors often note that the dark night is not by itself marked by the changes in sleep, appetite, energy, and daily functioning that can accompany depression. Only a qualified professional can diagnose depression, and a spiritual director cannot replace that care. The two can work together, each within its own competence.</LinkedText>
+
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Practical Daily Strategies
             </h2>
@@ -163,6 +175,22 @@ export default function ManagingDepression() {
               <li><strong>Connection:</strong> Resist isolation; reach out even when it's hard</li>
               <li><strong>Spiritual Practice:</strong> Simplified prayer when full practice feels impossible</li>
             </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">If You Are in Crisis Right Now</h2>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>Call or text 988</strong> to reach the 988 Suicide and Crisis Lifeline, available 24 hours a day across the United States. You can also chat at 988lifeline.org. Veterans can press 1 after dialing to reach the Veterans Crisis Line.</li>
+                <li><strong>Call 911</strong> or go to the nearest emergency room if you or someone else is in immediate danger.</li>
+                <li><strong>Tell someone you trust</strong> today, whether a family member, friend, priest, or doctor. You do not have to carry this alone.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Finding Care That Respects Your Faith</h2>
+
+              <p className="text-text leading-relaxed mb-6">Start with your primary care doctor, who can screen for depression, check for medical causes, and refer you to a psychiatrist, psychologist, or licensed counselor. Catholic Charities agencies in many dioceses run counseling programs, often with fees on a sliding scale, and your parish or diocesan office can usually share local referrals. Associations of Catholic mental health professionals maintain directories as well. A good therapist does not have to be Catholic, but should respect your beliefs and never ask you to act against your conscience.</p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">For Family and Friends</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Comforting the sorrowful is one of the spiritual works of mercy, and with depression it often looks quiet and practical: driving someone to an appointment, bringing a meal, sitting with them at Mass, or checking in by text on a hard day. Avoid telling a depressed person to simply pray more or cheer up. Encourage professional help, take any mention of suicide seriously, and remember that your own limits are real; caregivers need support too.</LinkedText>
 
             <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
               Hope and Recovery
@@ -187,31 +215,6 @@ export default function ManagingDepression() {
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Come to me, all who labor and are heavy laden." - Matthew 11:28
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Discover a Catholic approach to managing depression. Learn about spiritual resources, professional treatment, and finding hope through faith during dark times. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Readers often search for Managing Depression: A Catholic Approach to Mental Health during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="managing-depression">Discover a Catholic approach to managing depression. Learn about spiritual resources, professional treatment, and finding hope through faith during dark times. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -234,8 +237,9 @@ export default function ManagingDepression() {
                 question: "When should I seek emergency help?",
                 answer: "Seek immediate help if you have thoughts of harming yourself, cannot care for basic needs, experience psychotic symptoms, or feel unable to keep yourself safe. Call emergency services, a suicide hotline (988 in the US), or go to an emergency room. Depression can become life-threatening and requires urgent care."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Does the Church still deny funerals to people who die by suicide?", answer: "No. The 1983 Code of Canon Law no longer lists suicide as a reason to refuse a Catholic funeral. The Catechism teaches that we should not despair of their salvation and that the Church prays for them (CCC 2283)." },
+              { question: "Is taking antidepressants a lack of trust in God?", answer: "No. Using medicine prescribed by a qualified physician is part of the ordinary care for health that the Church encourages. Decisions about medication belong between you and your doctor." },
+              { question: "Is depression the same as the dark night of the soul?", answer: "No. The dark night is a spiritual purification described by St. John of the Cross; depression is a medical condition that requires professional diagnosis and treatment. A person may need both a spiritual director and a clinician." },
             ]} />
 
 <RelatedArticles currentSlug="managing-depression" />

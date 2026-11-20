@@ -204,8 +204,6 @@ export default function CatholicViewOnGhosts() {
                 question: "Are 'ghosts' just energy left behind?",
                 answer: "The Church does not support the idea of 'residual energy.' Every spiritual manifestation is either an intelligent soul (human) or an intelligent spirit (angelic/demonic). Treating them as mere 'energy' can make a person lower their guard against deception."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
 <RelatedArticles currentSlug="catholic-view-on-ghosts" />

@@ -131,8 +131,6 @@ export default function AssumptionOfMaryCatholicGuide() {
               { question: "Is the Assumption in the Bible?", answer: "Revelation 12 is read typologically; the doctrine was defined by Pope Pius XII in 1950 as divinely revealed." },
               { question: "What if August 15 falls on a Saturday or Monday?", answer: "U.S. bishops may transfer or lift the obligation — check your diocese each year." },
               { question: "What is the difference between Assumption and Dormition?", answer: "The Assumption (Latin Church) and Dormition (Eastern Churches) celebrate the same truth — Mary in heavenly glory — with different emphases on how she entered that glory." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
             <RelatedArticles currentSlug="assumption-of-mary-catholic-guide" />
             <ArticleBottomCTA title="Deepen your Marian devotion" description="Get a personalized guide for Mass, prayer, and spiritual growth." />

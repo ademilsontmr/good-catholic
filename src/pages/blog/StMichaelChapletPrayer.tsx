@@ -85,21 +85,24 @@ export default function StMichaelChapletPrayer() {
 
               <StMichaelCboCTA />
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where the Chaplet Comes From</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">
+                According to the tradition handed down with the chaplet, St. Michael appeared in the eighteenth century to Antonia d'Astonac, a devout Portuguese woman remembered as a Servant of God. He is said to have asked to be honored by nine salutations, one for each of the nine choirs of angels. The chaplet later received papal approval and indulgences in the nineteenth century under Blessed Pius IX, which is why it spread through Catholic prayer books worldwide.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">
+                The promises linked with the chaplet belong to that private revelation. Tradition says St. Michael promised that anyone who honored him this way before Communion would be accompanied to the altar by an angel from each of the nine choirs, and that those who prayed it daily would enjoy his continual help in life and the assistance of the holy angels after death. The Church does not require belief in private revelations, and these promises are not guarantees; they are best read as encouragement to trust the angels' real care for us, which the Catechism affirms (CCC 336).
+              </LinkedText>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What You Need</h2>
-              <p className="text-text leading-relaxed mb-6">
-                A standard rosary can be used. The chaplet traditionally uses nine groups of nine beads (nine salutations), often separated by an Our Father bead. If your beads differ, you can still pray the nine salutations in order.
-              </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Opening (on the crucifix and first beads)</h2>
-              <p className="text-text leading-relaxed mb-4">Begin with the Sign of the Cross, then pray:</p>
-              <ul className="list-disc list-inside text-text space-y-2 mb-6">
-                <li>One Our Father</li>
-                <li>Three Hail Marys (honoring St. Michael, St. Gabriel, and St. Raphael)</li>
-              </ul>
-
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">
+                St. Michael chaplets are sold with nine sections of four beads, one larger bead for the Our Father and three smaller ones for Hail Marys, plus four extra beads on a short pendant that usually ends in a St. Michael medal. A standard rosary can stand in if you count carefully, and you can also pray on your fingers.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Opening</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">
+                Begin with the Sign of the Cross and the invocation that opens the Liturgy of the Hours: O God, come to my assistance; O Lord, make haste to help me. Follow it with a Glory Be.
+              </LinkedText>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Nine Salutations</h2>
               <p className="text-text leading-relaxed mb-4">
-                On each Our Father bead (or at the start of each group of nine), pray one Our Father. Then on each of the nine following beads, pray the corresponding salutation for that choir:
+                Pray each salutation below, then one Our Father and three Hail Marys on the four beads that follow it. Repeat for all nine choirs, moving from the highest choir to the lowest:
               </p>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6 space-y-4 text-text text-sm leading-relaxed">
                 <p><strong>1. Seraphim:</strong> By the intercession of St. Michael and the celestial Choir of Seraphim, may the Lord make us worthy to burn with the fire of perfect charity. Amen.</p>
@@ -124,39 +127,35 @@ export default function StMichaelChapletPrayer() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Concluding Prayers</h2>
               <p className="text-text leading-relaxed mb-6">
-                After the ninth salutation, it is customary to pray one Our Father in honor of each choir (nine Our Fathers), then the concluding prayer to St. Michael (texts vary slightly by booklet). End with the Sign of the Cross.
+                After the ninth salutation, pray four more Our Fathers on the pendant beads: one in honor of St. Michael, one for St. Gabriel, one for St. Raphael, and one for your Guardian Angel. Then pray the concluding prayer, which addresses Michael as prince and commander of the heavenly hosts and asks him to deliver us from evil, followed by a prayer to God asking to be conducted by the archangel into His presence at the hour of death. Wording varies slightly by booklet. End with the Sign of the Cross. The whole chaplet takes about fifteen to twenty minutes.
               </p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture Behind the Nine Choirs</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">
+                The names of the nine choirs are drawn from the Bible and were arranged into three hierarchies by the early Christian writer known as Pseudo-Dionysius in his work on the celestial hierarchy. Seraphim appear around the throne of God in Isaiah 6:2, and cherubim guard the way to the tree of life in Genesis 3:24. St. Paul names thrones, dominions, principalities and powers in Colossians 1:16 and Ephesians 1:21, and archangels are mentioned in 1 Thessalonians 4:16 and Jude 9. The ordering is a theological tradition rather than a defined doctrine, while the Catechism teaches that angels truly exist (CCC 328).
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is St. Michael?</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">
+                His Hebrew name is a question: Who is like God? Daniel's visions present Michael as a heavenly prince who comes to help and who will arise to protect Israel in the time of final distress (Daniel 10:13; 12:1). The Letter of Jude calls him the archangel who disputed with the devil, yet left judgment to the Lord (Jude 9), and Revelation 12:7-9 shows Michael and his angels casting the dragon out of heaven. The chaplet echoes that picture: each salutation asks not for Michael's own glory but for a grace that makes the soul more like God.
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray the St. Michael Chaplet</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Tuesdays (traditional day for angels and St. Michael).</li>
                 <li>In times of temptation, spiritual attack, or anxiety.</li>
                 <li>For protection of the Church, priests, and family.</li>
-                <li>During September (month of angels) or Michaelmas (Sept. 29).</li>
+                <li>Around September 29, the feast of Sts. Michael, Gabriel and Raphael, sometimes called Michaelmas.</li>
               </ul>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">Learn how to pray the St. Michael Chaplet step by step — opening prayers, nine salutations, concluding prayers, and when Catholics pray this chaplet for protection. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-michael-chaplet-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray St. Michael Chaplet, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
             </div>
 
             <BlogFAQ faqs={[
-              { question: "What is the St. Michael Chaplet?", answer: "It is a Catholic chaplet honoring the nine choirs of angels, asking St. Michael's intercession. It uses nine Our Fathers with nine corresponding salutations, plus opening and closing prayers." },
+              { question: "What is the St. Michael Chaplet?", answer: "It is a Catholic chaplet honoring the nine choirs of angels and asking St. Michael's intercession. Each of the nine salutations is followed by one Our Father and three Hail Marys, and it ends with four Our Fathers and a closing prayer." },
+              { question: "Who received the St. Michael Chaplet?", answer: "Tradition credits an eighteenth-century apparition of St. Michael to Antonia d'Astonac, a devout Portuguese woman. It is a private revelation; the chaplet itself was later approved and indulgenced under Pope Pius IX." },
+              { question: "Are the St. Michael Chaplet promises guaranteed?", answer: "No. The promises come from a private revelation, which Catholics are free to accept or not. The Church does teach that angels protect and intercede for us, so praying the chaplet with trust is spiritually sound without treating the promises as a contract." },
+              { question: "How long does the St. Michael Chaplet take?", answer: "Usually about fifteen to twenty minutes when prayed at a steady, attentive pace." },
               { question: "Is the St. Michael Chaplet the same as the St. Michael prayer?", answer: "No. The short Prayer to St. Michael ('St. Michael the Archangel, defend us in battle...') is different. The chaplet is a longer structured devotion with nine salutations for the nine choirs of angels." },
-              { question: "Can I use a rosary for the St. Michael Chaplet?", answer: "Yes. Many people use a rosary and follow a printed guide to match the Our Fathers and decades to the nine choirs." },
+              { question: "Can I use a rosary for the St. Michael Chaplet?", answer: "Yes. A rosary works if you count four prayers (one Our Father and three Hail Marys) after each salutation instead of a full decade, then add the four closing Our Fathers." },
               { question: "When should I pray the St. Michael Chaplet?", answer: "Common times include Tuesdays, the feast of St. Michael (September 29), during September, or whenever you need spiritual protection and strength." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="st-michael-chaplet-prayer" />

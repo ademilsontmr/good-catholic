@@ -97,6 +97,24 @@ export default function JesusPrayerCatholic() {
                 The Catholic Church teaches that vocal prayer can become interior when faith and love are active. The Jesus Prayer is not magic repetition; it is calling on the Person of Christ with humility, like the blind man by the road or the tax collector in the temple.
               </LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where the Words Come From in Scripture</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">
+                Almost every phrase of the Jesus Prayer is lifted from the Gospels. Blind Bartimaeus sat by the road outside Jericho and shouted, Jesus, Son of David, have mercy on me (Mark 10:47; compare Luke 18:38). In the parable told just before that scene, the tax collector stood at a distance in the Temple, beat his breast, and asked God to be merciful to him, a sinner (Luke 18:13). The title Lord Jesus Christ is the earliest Christian confession of faith (Philippians 2:11), and Son of God is the confession Peter makes at Caesarea Philippi (Matthew 16:16). Put together, the prayer is a confession of who Jesus is joined to an honest admission of who we are.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">History: From the Desert to Mount Athos</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">
+                The monks of the Egyptian and Palestinian deserts in the fourth and fifth centuries sought a way to obey St. Paul's command to pray without ceasing (1 Thessalonians 5:17). Many used a single short verse repeated throughout the day; St. John Cassian, who carried desert teaching to the West, recommended Psalm 70:1, O God, come to my assistance; O Lord, make haste to help me, which still opens every hour of the Liturgy of the Hours. Over time Eastern monks focused the short prayer on the holy name of Jesus. Writers associated with Mount Sinai, such as St. John Climacus in his Ladder of Divine Ascent, spoke of uniting the remembrance of Jesus with one's breath.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">
+                By the fourteenth century the practice was central to the hesychast movement on Mount Athos, defended theologically by St. Gregory Palamas. In 1782 St. Nikodemos of the Holy Mountain and St. Macarius of Corinth published the Philokalia, an anthology of Greek spiritual writings on prayer and watchfulness, and its later Slavonic and Russian translations made the Jesus Prayer known far beyond monasteries. The anonymous nineteenth-century Russian book The Way of a Pilgrim, in which a wanderer learns to pray the name of Jesus continually, introduced it to many Western readers, Catholics included.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">
+                The Catechism of the Catholic Church names this prayer explicitly. In its section on the way of prayer, it explains that invoking the holy name of Jesus developed under many forms in East and West, and that the most usual formulation, handed down by spiritual writers of Sinai, Syria, and Mount Athos, is the invocation Lord Jesus Christ, Son of God, have mercy on us sinners (CCC 2667). The next paragraph calls the invocation of the holy name the simplest way of praying always (CCC 2668). For a Latin Catholic, then, the Jesus Prayer is not a borrowing from outside the Church but part of the shared heritage of the undivided Christian East.
+              </LinkedText>
+
               <QuizCTA
                 title="Find your prayer rhythm"
                 description="Take the Catholic life assessment for practical guidance on daily prayer and spiritual growth."
@@ -109,36 +127,24 @@ export default function JesusPrayerCatholic() {
                 <li>Alongside the divine office or personal thanksgiving after Communion.</li>
               </ul>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Way to Begin</h2>
+              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
+                <li>Choose a set time of five to ten minutes, ideally in a quiet place or before the Blessed Sacrament.</li>
+                <li>Make the Sign of the Cross and briefly ask the Holy Spirit to teach you to pray (Romans 8:26).</li>
+                <li>Say the prayer slowly, aloud or in a whisper at first. Many people say the first half, Lord Jesus Christ, Son of God, while breathing in, and the second half, have mercy on me, a sinner, while breathing out.</li>
+                <li>When your mind wanders, do not scold yourself. Return to the name of Jesus, which is the whole point of the prayer.</li>
+                <li>End with a moment of silence and an Our Father.</li>
+              </ol>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Prayer Rope</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">
+                Eastern Christians often count the prayer on a knotted wool cord, called a chotki in Slavic usage and a komboskini in Greek. Ropes commonly have 33, 50, or 100 knots, each tied in a pattern of small crosses, and a single invocation is said on each knot. Eastern Catholic parishes in the United States, such as Byzantine and Ukrainian Catholic communities, frequently sell them. A rope is a help to attention, not a requirement; a Latin Catholic can just as well use the fingers or the beads of a rosary.
+              </LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Guidance from the Tradition</h2>
               <p className="text-text leading-relaxed mb-6">
-                If you feel dryness, distraction, or unease, speak with a trusted priest or spiritual director. Any method of prayer should lead toward deeper faith, hope, and charity — not away from the sacraments, the Church's teaching, or ordinary duties of state in life.
+                Breathing patterns and posture are aids, not the goal. The Congregation for the Doctrine of the Faith, in its 1989 letter on Christian meditation, cautioned against treating bodily techniques or pleasant feelings as if they were prayer itself. If you feel dryness, distraction, or unease, speak with a trusted priest or spiritual director. Any method of prayer should lead toward deeper faith, hope, and charity — not away from the sacraments, the Church's teaching, or ordinary duties of state in life.
               </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner) with full text, meaning, and how Catholics may use it alongside the Rosary and lectio divina. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Jesus Prayer, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">Readers often search for Jesus Prayer: Text, Meaning & Catholic Use (Breath of the Heart) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="jesus-prayer-catholic">The Jesus Prayer (Lord Jesus Christ, Son of God, have mercy on me, a sinner) with full text, meaning, and how Catholics may use it alongside the Rosary and lectio divina. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
             <BlogFAQ faqs={[
@@ -146,9 +152,9 @@ export default function JesusPrayerCatholic() {
               { question: "Is the Jesus Prayer the same as centering prayer?", answer: "No. The Jesus Prayer explicitly names Jesus Christ and asks for mercy. It should not be confused with techniques that avoid Christian content." },
               { question: "How many times should I repeat it?", answer: "There is no magic number. Some use a prayer rope or gentle rhythm with breathing; what matters is humble attention to Christ, not mechanical counting." },
               { question: "Can it replace the Rosary?", answer: "They serve different purposes. The Rosary is a Marian meditation on the mysteries of Christ. The Jesus Prayer is a compact Christ-centered cry for mercy. Many Catholics use both at different times." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Does the Catechism mention the Jesus Prayer?", answer: "Yes. CCC 2667 gives the formula Lord Jesus Christ, Son of God, have mercy on us sinners as the most usual form of invoking the name of Jesus, and CCC 2668 calls this invocation the simplest way of praying always." },
+              { question: "What is a chotki or prayer rope?", answer: "It is a knotted cord, usually wool, used in Eastern Christian traditions to count repetitions of the Jesus Prayer. Common lengths are 33, 50, or 100 knots." },
+              { question: "Can I pray the Jesus Prayer during Mass?", answer: "During Mass, give your attention to the liturgy itself. The Jesus Prayer fits well before Mass begins, in silent thanksgiving after Communion, or during adoration." },
             ]} />
 
             <RelatedArticles currentSlug="jesus-prayer-catholic" />

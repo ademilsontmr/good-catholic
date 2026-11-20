@@ -79,7 +79,7 @@ export default function SubTuumPraesidiumPrayer() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Sub Tuum Praesidium is among the oldest Marian prayers — &quot;We fly to thy patronage, O holy Mother of God&quot; — from at least the 3rd century. Catholics pray it for protection in danger; it appears in Compline traditions and papal processions.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Sub Tuum Praesidium is among the oldest Marian prayers — &quot;We fly to thy patronage, O holy Mother of God&quot; — preserved on a Greek papyrus usually dated to the 3rd or 4th century. Catholics pray it for protection in danger, and it is used in both Eastern and Western liturgies.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
@@ -102,53 +102,54 @@ export default function SubTuumPraesidiumPrayer() {
                 description="Take the Catholic life assessment for practical guidance on prayer and Catholic faith."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">History & Use Today</h2>
-              <p className="text-text leading-relaxed mb-6">
-                A Greek papyrus from Egypt (c. 250 AD) contains this prayer, making it the oldest known text invoking Mary as Theotokos — God-bearer. The Church approved it for liturgical use and includes it in the Roman Ritual. Families pray it in times of war, illness, travel, or spiritual trial.
-              </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Sub Tuum Praesidium — the oldest known Marian prayer — with full Catholic text in English and Latin, history from the 3rd century, and when to pray it today. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Papyrus That Preserves It</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">
+                The oldest surviving copy of this prayer is a small, damaged scrap of papyrus from Egypt, now held by the John Rylands Library in Manchester, England, and catalogued as Papyrus Rylands 470. It was acquired in 1917 and published by the papyrologist C. H. Roberts in 1938. Roberts first assigned it to the fourth century; other scholars have argued for the third century, and some for a later date. Most place it somewhere in the third or fourth century, which still makes it the oldest known prayer addressed to Mary.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">
+                What makes the fragment remarkable is a single word: Theotokos, God-bearer or Mother of God. The Council of Ephesus solemnly defended that title in 431 against those who wanted to call Mary only the mother of Christ. If the papyrus is as early as most scholars think, ordinary Egyptian Christians were already calling on Mary as Theotokos in their prayers before the council met, showing that the council confirmed an existing faith rather than inventing a new one.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Greek and Latin: What Changed in Translation</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">
+                The Greek prayer begins by saying that we flee for refuge under Mary's eusplanchnia, a word meaning compassion or tender mercy, rooted in the image of a mother's heart. The Latin version settled on praesidium, protection or garrison, which gives the familiar English We fly to thy patronage or protection. The Greek also ends differently, calling Mary the only pure and only blessed one, while the Latin addresses her as glorious and blessed Virgin. Both versions keep the same three movements: we run to her, we ask her not to ignore our requests, and we ask to be delivered from danger.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Phrase by Phrase</h2>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>We fly to thy protection:</strong> the language of refugees seeking a fortress. It recalls the psalmist taking refuge in the shadow of God&apos;s wings (Psalm 57:1), now through the intercession of the one who sheltered the Son of God.</li>
+                <li><strong>O holy Mother of God:</strong> the title defended at Ephesus, the basis of every other Marian honor (CCC 495).</li>
+                <li><strong>Despise not our petitions in our necessities:</strong> a frank admission that we come because we need help, like the wine running out at Cana, where Mary noticed the need before anyone asked (John 2:3).</li>
+                <li><strong>Deliver us always from all dangers:</strong> bodily and spiritual danger alike. The prayer was born in an era of persecution and plague.</li>
+                <li><strong>O glorious and blessed Virgin:</strong> the closing praise recalls Elizabeth&apos;s greeting, Blessed are you among women (Luke 1:42).</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Sub Tuum Praesidium, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Short Routine With This Prayer</h2>
+              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
+                <li>Name the danger or need plainly, in one sentence, before you begin.</li>
+                <li>Pray the Sub tuum praesidium once in English, slowly, then once in Latin if you know it.</li>
+                <li>Add a Hail Mary, the scriptural prayer that grew from the same early instinct to greet the Mother of the Lord.</li>
+                <li>Close with an act of trust addressed to Jesus, since every Marian prayer ends by leading to her Son.</li>
+              </ol>
 
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Readers often search for Sub Tuum Praesidium: Oldest Marian Prayer (Full Text & Latin) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Sub Tuum Praesidium — the oldest known Marian prayer — with full Catholic text in English and Latin, history from the 3rd century, and when to pray it today. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
-              {/* data-expanded-depth-3 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">History and Church Approval</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Many Catholic prayers grew from monastic communities, papal encouragement, or popular devotion validated by local bishops. Sub Tuum Praesidium belongs to this living tradition — not private revelation disconnected from the Magisterium.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Praying With Your Parish</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">Bring this prayer to parish adoration hours, men&apos;s groups, or family rosary time. Shared prayer strengthens faith and corrects private misunderstandings.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where It Is Prayed Today</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">
+                The prayer is shared by many ancient Christian traditions. Coptic, Byzantine, Ambrosian, and Roman liturgical traditions all use it in some form, which is unusual for a Marian prayer and a sign of how early it spread. In the Roman Rite it is one of the Marian antiphons that may conclude Night Prayer in the Liturgy of the Hours. In late September 2018, Pope Francis asked Catholics around the world to pray the Rosary daily throughout October and to end it with the Sub tuum praesidium and the Prayer to St. Michael, asking protection for the Church in a time of trial.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sub-tuum-praesidium-prayer">
+                Because it is short, the prayer suits sudden moments of need: before surgery, during a storm, when a child is out late, or when temptation strikes without warning. Many Catholics add it after the Hail Holy Queen at the end of the Rosary, or pray it each night at Compline. It is easy to memorize in Latin as well as in English, and learning the Latin connects your prayer with the same words Catholics have used for well over a thousand years.
+              </LinkedText>
 
             </div>
 
             <BlogFAQ faqs={[
               { question: "What does Sub Tuum Praesidium mean?", answer: "It means Under your protection — the opening words of the prayer in Latin: Sub tuum praesidium confugimus (We fly to thy protection)." },
-              { question: "Is Sub Tuum Praesidium the oldest Marian prayer?", answer: "The Greek text from c. 250 AD is the earliest known Marian prayer preserved in writing. It shows Christians already turned to Mary as Mother of God within decades of the apostolic age." },
+              { question: "Is Sub Tuum Praesidium the oldest Marian prayer?", answer: "It is the oldest known prayer addressed to Mary that survives in writing. The Greek papyrus that preserves it is usually dated to the third or fourth century, though scholars still debate the exact date." },
               { question: "When should I pray Sub Tuum Praesidium?", answer: "Whenever you need Mary's intercession — in danger, anxiety, before travel, during persecution, or as a daily act of trust in her maternal care." },
               { question: "Is Sub Tuum Praesidium different from the Memorare?", answer: "Yes. The Memorare is a later prayer emphasizing Mary's never-failing help. Sub Tuum Praesidium is shorter and focuses on taking refuge under her protection." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Where is the Sub Tuum Praesidium papyrus kept?", answer: "It is Papyrus Rylands 470, held by the John Rylands Library at the University of Manchester in England. It was acquired in Egypt in 1917 and first published in 1938." },
+              { question: "Why does the Greek version say mercy instead of protection?", answer: "The Greek word eusplanchnia means compassion or tender mercy. The Latin tradition rendered the idea with praesidium, protection, which shaped the English We fly to thy protection." },
+              { question: "Did Pope Francis recommend this prayer?", answer: "Yes. In September 2018 he asked the faithful to pray the Rosary every day in October and to conclude it with the Sub tuum praesidium and the Prayer to St. Michael the Archangel for the protection of the Church." },
             ]} />
 
             <RelatedArticles currentSlug="sub-tuum-praesidium-prayer" />

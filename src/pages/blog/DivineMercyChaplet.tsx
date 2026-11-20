@@ -142,6 +142,24 @@ export default function DivineMercyChaplet() {
                 </div>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray the Chaplet Step by Step</h2>
+
+              <p className="text-text leading-relaxed mb-6">The Chaplet uses ordinary rosary beads, but the words differ from the Rosary. The structure below follows the prayers recorded in St. Faustina&apos;s <em>Diary</em> (entries 475 to 476).</p>
+
+              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
+                <li><strong>Begin</strong> with the Sign of the Cross, then pray one Our Father, one Hail Mary, and the Apostles&apos; Creed. Many people add the optional opening prayer beginning, &apos;You expired, Jesus.&apos;</li>
+                <li><strong>On each large bead</strong> (the Our Father bead of every decade), pray: &apos;Eternal Father, I offer You the Body and Blood, Soul and Divinity of Your dearly beloved Son, Our Lord Jesus Christ, in atonement for our sins and those of the whole world.&apos;</li>
+                <li><strong>On each of the ten small beads,</strong> pray: &apos;For the sake of His sorrowful Passion, have mercy on us and on the whole world.&apos;</li>
+                <li><strong>Repeat</strong> for all five decades.</li>
+                <li><strong>Conclude</strong> by praying three times: &apos;Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world.&apos;</li>
+              </ol>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Words of the Chaplet Mean</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">Body and Blood, Soul and Divinity is the same phrase the Church uses to describe the whole Christ present in the Eucharist, a formula taught by the Council of Trent and repeated in the Catechism (CCC 1374). The person praying the Chaplet offers nothing of his own: he presents to the Father the one sacrifice of the Son, which is why the prayer is often called Eucharistic in spirit even though it is not a Mass.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">In atonement for our sins and those of the whole world widens the prayer beyond private needs; Faustina was asked to pray for sinners everywhere. The closing Holy God, Holy Mighty One, Holy Immortal One echoes the Trisagion, an ancient hymn still sung in the Byzantine liturgy and in the Roman Rite&apos;s Good Friday Reproaches.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. The 3:00 PM Hour: A Moment of Grace
               </h2>
@@ -157,6 +175,18 @@ export default function DivineMercyChaplet() {
                 description="The measure of grace you receive is regulated by the vessel of your trust. Take our quiz to evaluate your spiritual confidence and learn how to surrender more to His Mercy."
               />
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Was St. Faustina Kowalska?</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">Helena Kowalska was born in 1905 in the Polish village of Głogowiec, the third of ten children in a poor farming family. In 1925 she entered the Congregation of the Sisters of Our Lady of Mercy, taking the name Sister Maria Faustina, and worked as a cook, gardener, and portress in convents in Warsaw, Płock, Vilnius, and Kraków. At the request of her confessor, Fr. Michael Sopoćko, she recorded her interior experiences in a notebook published today as Divine Mercy in My Soul. She died of tuberculosis in Kraków on October 5, 1938, at age 33.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">Pope John Paul II beatified her in 1993 and canonized her on April 30, 2000, the first canonization of the Great Jubilee year. During that Mass he announced that the Second Sunday of Easter would be known throughout the Church as Divine Mercy Sunday. In 2002 the Apostolic Penitentiary attached a plenary indulgence to that Sunday under the usual conditions.</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Private Revelation the Church Has Approved</h2>
+
+              <p className="text-text leading-relaxed mb-6">The messages Faustina reported are a private revelation. The Catechism explains that such revelations do not add to the deposit of faith and that Catholics are not obliged to believe them; their role is to help people live the Gospel more fully in a particular age (CCC 67). Church approval means the devotion contains nothing contrary to faith or morals and may be practiced with confidence.</p>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">The path to approval was not smooth. In 1958 the Holy See restricted the spread of the devotion in the forms Faustina proposed, a decision connected in part to faulty translations of her writings. After a closer study of the original Polish texts, that notification was lifted in 1978. The promises quoted on this page come from her Diary and should be read in that light: as words a canonized saint reported, which the Church allows the faithful to trust, rather than as dogma.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
                  <ShieldCheck className="w-6 h-6 text-accent" />
                  The Promise for the Dying
@@ -164,39 +194,11 @@ export default function DivineMercyChaplet() {
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">
                 The most staggering promise regarding the Chaplet is for the hour of death. Jesus said: "When they say this chaplet in the presence of the dying, I will stand between My Father and the dying person, not as the just Judge but as the merciful Savior." 
               </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">
-                Exorcists also report that the Chaplet is incredibly effective in spiritual warfare, as it invokes the "sorrowful Passion" which is the very thing that defeated the enemy once and for all.
-              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Jesus, I trust in You." — The short, infinite prayer.
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">How to pray the Divine Mercy Chaplet step by step — full prayers, rosary beads, 3 o&apos;clock Hour of Mercy, and St. Faustina&apos;s promises. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Divine Mercy Chaplet, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">Readers often search for Divine Mercy Chaplet: How to Pray (Full Guide) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="divine-mercy-chaplet">How to pray the Divine Mercy Chaplet step by step — full prayers, rosary beads, 3 o&apos;clock Hour of Mercy, and St. Faustina&apos;s promises. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -214,9 +216,9 @@ export default function DivineMercyChaplet() {
                 question: "Wait, is this more important than the Rosary?",
                 answer: "The Rosary is the pre-eminent Marian prayer. The Chaplet is a pre-eminent Eucharistic/Christocentric prayer. They complement each other perfectly. Many Catholics pray the Rosary in the morning and the Chaplet at 3:00 PM."
               },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Is belief in St. Faustina's revelations required of Catholics?", answer: "No. Her messages are a private revelation. The Church has approved the devotion as consistent with faith and morals, but no Catholic is obliged to accept private revelations (CCC 67)." },
+              { question: "When is Divine Mercy Sunday?", answer: "It is the Second Sunday of Easter, one week after Easter Sunday. Pope John Paul II gave it this name for the universal Church at St. Faustina's canonization in 2000." },
+              { question: "How long does the Chaplet take to pray?", answer: "Prayed at a steady pace it usually takes about fifteen minutes, somewhat longer when sung. Many parishes pray it together at 3 p.m. on Fridays or during the novena that begins on Good Friday." },
             ]} />
 
 <RelatedArticles currentSlug="divine-mercy-chaplet" />

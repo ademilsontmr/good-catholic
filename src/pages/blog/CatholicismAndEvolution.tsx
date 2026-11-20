@@ -122,6 +122,18 @@ export default function CatholicismAndEvolution() {
                 </ul>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Says</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">The Catechism does not endorse or reject any particular scientific theory, but it speaks warmly of science. It says that studies of the origins of the world and of man have splendidly enriched our knowledge of the age and size of the cosmos, the development of life-forms, and the appearance of man, and that these discoveries should lead us to greater admiration for the Creator (CCC 283). Quoting the Second Vatican Council, it adds that research carried out in a truly scientific way and respecting the moral law can never truly conflict with faith, because the same God gives both reason and revelation (CCC 159).</LinkedText>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>CCC 366:</strong> every spiritual soul is created immediately by God, not produced by the parents, and it is immortal.</li>
+                <li><strong>CCC 390:</strong> the account of the fall in Genesis 3 uses figurative language but affirms a primeval event, a deed that took place at the beginning of human history.</li>
+                <li><strong>CCC 337:</strong> the six days of Genesis present creation symbolically as a succession of days of divine work.</li>
+              </ul>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">In 2004 the International Theological Commission, then led by Cardinal Joseph Ratzinger, published Communion and Stewardship. It noted the broad scientific agreement that the universe is billions of years old and that living things on earth are genetically related, and argued that even a genuinely contingent natural process can fall within God&apos;s providential plan. It added that claims of an unguided evolution in a sense that excludes providence are philosophical assertions, not findings of science.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. What About Adam, Eve, and Original Sin?
               </h2>
@@ -149,35 +161,20 @@ export default function CatholicismAndEvolution() {
                 <li><strong>Georges Lemaître:</strong> A Catholic priest who proposed the <strong>Big Bang Theory</strong>. When he first presented it, atheists mocked it as "too religious" because it implied a moment of "Let there be light."</li>
               </ul>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Evolution vs. Evolutionism</h2>
+
+              <p className="text-text leading-relaxed mb-6">Catholic thinkers often distinguish evolution, a scientific account of how living things change and descend from common ancestors, from evolutionism, a materialist philosophy that claims nothing exists beyond matter and chance. The first is open to scientific testing; the second is a worldview that science alone cannot prove. In a 2014 address to the Pontifical Academy of Sciences, Pope Francis said evolution in nature does not contradict the idea of creation, because evolution presupposes the creation of beings that can evolve.</p>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Church Reads Genesis</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Catholic interpretation of Genesis did not begin with Darwin. Around the year 400, St. Augustine wrote The Literal Meaning of Genesis and suggested that God created all things at once, with the days describing an order of creation rather than a sequence of 24-hour periods. In 1909 the Pontifical Biblical Commission stated that the Hebrew word for day in Genesis 1 may be taken either in its proper sense or more broadly as a period of time. The Church&apos;s concern is what the text teaches: that one God freely created everything good, that human beings bear his image, and that sin entered the world through human choice.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Lemaître himself warned against mixing physics and Scripture. After Pope Pius XII spoke approvingly of modern cosmology in a 1951 address, Lemaître reportedly urged that his theory not be presented as scientific proof of creation, and the Pope did not repeat the comparison. The episode remains a model of the Catholic view that faith and science each have their own method.</LinkedText>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Science can purify religion from error and superstition; religion can purify science from idolatry and false absolutes. Each draws the other into a wider world." — St. John Paul II
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Does the Catholic Church accept evolutionary theory? Explore the official teaching of the Popes, the compatibility of science and Genesis, and the origin of the human soul. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Readers often search for Catholicism and Evolution: A Sophisticated Harmony of Truth during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholicism-and-evolution-guide">Does the Catholic Church accept evolutionary theory? Explore the official teaching of the Popes, the compatibility of science and Genesis, and the origin of the human soul. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -185,7 +182,7 @@ export default function CatholicismAndEvolution() {
             <BlogFAQ faqs={[
               {
                 question: "Do I have to read the 6 days of Genesis literally?",
-                answer: "No. The Church has never required a literal 144-hour creation window. As early as the 4th century, St. Augustine argued that the 'days' were likely a symbolic representation of a divine order. The Bible uses the language of its time to teach eternal, theological truths."
+                answer: "No. The Church has never required a literal 144-hour creation window. Around the year 400, St. Augustine argued that the 'days' were likely a symbolic representation of a divine order. The Bible uses the language of its time to teach eternal, theological truths."
               },
               {
                 question: "What did Pope Benedict XVI say about evolution?",
@@ -195,8 +192,9 @@ export default function CatholicismAndEvolution() {
                 question: "Are Catholics 'Creationists'?",
                 answer: "In the American sense of 'Young Earth Creationism' (reading the Bible as a science book), no. However, all Catholics are 'Creationists' in the sense that we believe God is the Prime Mover and Primary Cause of everything that exists."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Does the Catechism mention evolution?", answer: "Not by name, but CCC 283 praises scientific study of the age of the cosmos, the development of life-forms, and the appearance of man. CCC 366 teaches that each human soul is created directly by God." },
+              { question: "Can a Catholic accept that the universe is about 13.8 billion years old?", answer: "Yes. The Church has no doctrine on the age of the universe. The International Theological Commission in 2004 acknowledged the scientific consensus on an ancient universe." },
+              { question: "What did Pope Francis say about evolution?", answer: "In a 2014 address to the Pontifical Academy of Sciences he said evolution is not inconsistent with creation, because evolution requires the creation of beings that evolve." },
             ]} />
 
 <RelatedArticles currentSlug="catholicism-and-evolution-guide" />

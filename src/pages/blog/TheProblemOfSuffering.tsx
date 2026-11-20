@@ -125,6 +125,24 @@ export default function TheProblemOfSuffering() {
                 </ul>
               </div>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Catechism Actually Says (CCC 309–314)</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">The Catechism begins its treatment of evil with an admission: no quick answer will do. If God the Father almighty is good, why does evil exist at all? It replies that only the Christian faith taken as a whole, from creation to the Cross to the promise of a new creation, answers the question (CCC 309).</LinkedText>
+
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>A world on a journey (CCC 310):</strong> God freely willed to create a world still moving toward its final perfection, so it contains both coming into being and passing away, and with it physical evil.</li>
+                <li><strong>Freedom and moral evil (CCC 311):</strong> angels and humans can go astray. God is in no way the cause of moral evil, but he permits it out of respect for the freedom of his creatures and knows how to draw good from it.</li>
+                <li><strong>Joseph and his brothers (CCC 312):</strong> Genesis 45 and 50 show the pattern. The brothers sold Joseph into slavery, and Joseph later tells them that what they meant for harm, God used for good, the saving of many lives.</li>
+                <li><strong>Romans 8:28 (CCC 313):</strong> God makes all things work together for the good of those who love him, a conviction the saints repeat in their own trials.</li>
+                <li><strong>Seeing face to face (CCC 314):</strong> we will fully understand God&apos;s ways only at the end, when partial knowledge gives way to sight.</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Job: The Bible Refuses the Easy Answer</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">The Book of Job is Scripture&apos;s longest meditation on innocent suffering. Job loses his children, wealth, and health, and three friends arrive with the common theology of the day: suffering is always payment for sin, so Job must repent of something. Job protests his innocence for chapter after chapter. When God finally speaks from the whirlwind in chapters 38 to 41, he gives no explanation of Job&apos;s losses; instead he shows Job the vastness of creation and a wisdom beyond human measure. At the end God rebukes the friends for not speaking rightly about him (Job 42:7), while Job, who argued honestly with God, is vindicated.</LinkedText>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Jesus rejects the same retribution logic. Asked about Galileans killed by Pilate and eighteen people crushed when the tower of Siloam fell, he says they were no worse sinners than anyone else (Luke 13:1–5). On the cross he prays the opening line of Psalm 22, My God, my God, why have you forsaken me? The lament is not a lack of faith; it is faith speaking honestly in the dark.</LinkedText>
+
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 2. The "Greatest Good" Argument
               </h2>
@@ -148,35 +166,16 @@ export default function TheProblemOfSuffering() {
                 In Catholic tradition, some are called to be "Victim Souls"—people who accept their chronic pain or tragedy as a specific mission for the Church. When a Catholic says <strong>"Offer it up,"</strong> they aren't being dismissive. They are saying: "Don't let this pain go to waste. Use it as currency for the salvation of your children, your friends, or the poor souls in Purgatory."
               </p>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Salvifici Doloris and the Good Samaritan</h2>
+
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">John Paul II dated Salvifici Doloris February 11, 1984, the memorial of Our Lady of Lourdes, a shrine known for its care of the sick. Near its end he turns to the parable of the Good Samaritan and draws a striking conclusion: suffering exists in the world partly to unleash love, to call forth works of mercy from those who see it. A Christian response to suffering is therefore never only contemplation of the Cross; it is also stopping on the road, binding wounds, and paying for the inn.</LinkedText>
+
+              <p className="text-text leading-relaxed mb-6">Offering up pain does not mean refusing relief. The Church supports medicine, surgery, and palliative care, and the Catechism treats care for the dying as a form of selfless charity, noting that painkillers may be used to ease suffering even when they carry a risk of shortening life, provided death is not intended (CCC 2279). Accepting what cannot be changed and treating what can are both acts of love.</p>
+
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-6">
                 <p className="text-text italic text-center leading-relaxed font-semibold">
                   "Apart from the Cross, there is no other ladder by which we may get to heaven." — St. Rose of Lima
                 </p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Understanding the Topic</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Explore the Catholic response to the problem of evil. Learn about redemptive suffering, Salvifici Doloris, and how God brings good from pain. Catholic faith integrates worship, moral life, and prayer. This article explains the topic in clear language so you can teach your family, prepare for sacraments, or answer questions from seekers.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How This Fits Catholic Life</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Nothing in Catholic spirituality is isolated. Doctrine supports prayer; prayer flows into charity; charity witnesses to the world. Keep this topic connected to Sunday Mass, Scripture reading, and care for the poor.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Practical Application</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Choose one habit to start this week: five minutes of morning prayer, one work of mercy, or one conversation about faith with your spouse or children. Small fidelity over years transforms souls.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Use the related articles below to continue learning. If you are new to Catholicism, consider RCIA or a parish Bible study. Growth in faith is a lifelong pilgrimage, not a single article.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Readers often search for Why Does God Allow Suffering? The Theology of the Cross during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="why-does-god-allow-suffering">Explore the Catholic response to the problem of evil. Learn about redemptive suffering, Salvifici Doloris, and how God brings good from pain. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
             </div>
 
               </div>
@@ -194,8 +193,9 @@ export default function TheProblemOfSuffering() {
                 question: "How can I help someone who is suffering without sounding insensitive?",
                 answer: "Often, the best response is the 'Ministry of Presence.' Job's friends were helpful until they started talking. Just be there. Mourn with them. And pray *for* them silently, respecting the mystery of their cross."
               },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "What does the Book of Job teach about suffering?", answer: "Job shows that suffering is not always punishment for sin. God rebukes Job's friends for claiming it was, and answers Job not with an explanation but by revealing his wisdom and presence." },
+              { question: "Is it wrong to take pain medication instead of offering it up?", answer: "No. The Church supports medical treatment and palliative care. The Catechism allows painkillers for the dying even at some risk of shortening life, as long as death is not intended (CCC 2279)." },
+              { question: "Where does the Catechism discuss why God permits evil?", answer: "The main passage is CCC 309 to 314, in the section on God's providence. It speaks of a world in a state of journeying, human freedom, and God's power to bring good out of evil." },
             ]} />
 
 <RelatedArticles currentSlug="why-does-god-allow-suffering" />

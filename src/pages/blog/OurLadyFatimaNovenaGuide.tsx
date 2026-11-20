@@ -82,14 +82,43 @@ export default function OurLadyFatimaNovenaGuide() {
                 Our Lady of Fatima appeared six times to three shepherd children — Lucia, Francisco, and Jacinta — in Fatima, Portugal, between May 13 and October 13, 1917. She asked for daily Rosary, penance, and the consecration of Russia to her Immaculate Heart. The apparitions were approved by the Church in 1930. Our Lady of Fatima is one of the most venerated Marian apparitions in history, and her message of prayer, penance, and conversion remains urgently relevant today. Her feast day is May 13.
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
-                A novena is a nine-day prayer, traditionally prayed in preparation for a feast day or in petition for a specific intention. The word comes from the Latin <em>novem</em> (nine). The Fatima Novena is traditionally prayed in the nine days before May 13, but can be prayed at any time.
-              </LinkedText>
-
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray the Our Lady of Fatima Novena?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
                 Our Lady of Fatima asked for prayer, penance, and the conversion of sinners. The Fatima Novena is prayed for world peace, the conversion of sinners, protection from evil, healing, and the intentions of the Church. It is especially powerful when combined with the daily Rosary — which Our Lady specifically requested at every apparition. Many Catholics pray this novena in May (the month of Mary) or in October (the month of the Rosary).
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The 1917 Apparitions, Month by Month</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
+                The events began a year earlier. In 1916 an angel who called himself the Angel of Peace appeared three times to the children, taught them prayers of adoration and reparation, and prepared them for what followed. Lucia dos Santos was then nine, her cousin Francisco Marto eight, and his sister Jacinta six.
+              </LinkedText>
+              <ul className="list-disc list-inside text-text space-y-3 mb-6">
+                <li><strong>May 13:</strong> A Lady brighter than the sun appears over a small holm oak at the Cova da Iria and asks the children to return on the 13th of each month and to pray the Rosary daily for peace.</li>
+                <li><strong>June 13:</strong> She tells Lucia that Jacinta and Francisco will soon be taken to heaven and that Lucia will remain to spread devotion to her Immaculate Heart.</li>
+                <li><strong>July 13:</strong> The children are shown a vision of hell and receive the message later called the secret of Fatima. Lucia records that the Lady asked them to add the O my Jesus prayer after each mystery of the Rosary.</li>
+                <li><strong>August:</strong> The local administrator detains the children on the 13th, so the apparition takes place on August 19 at Valinhos.</li>
+                <li><strong>September 13:</strong> She promises a miracle in October so that all may believe.</li>
+                <li><strong>October 13:</strong> She identifies herself as the Lady of the Rosary, and a crowd usually estimated at tens of thousands witnesses the solar phenomenon known as the Miracle of the Sun.</li>
+              </ul>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Children After Fatima</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
+                Francisco and Jacinta both caught the influenza that swept the world after the First World War. Francisco died on April 4, 1919, and Jacinta on February 20, 1920, after offering her sufferings for sinners. Pope John Paul II beatified them at Fatima on May 13, 2000, and Pope Francis canonized them there on May 13, 2017, the centenary of the first apparition. They are the youngest non-martyrs ever canonized, and their joint feast is February 20.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
+                Lucia became a Carmelite nun in Coimbra and wrote detailed memoirs of the apparitions at her bishop's request. She died on February 13, 2005, at age 97, and her cause for beatification has since been opened, with Pope Francis declaring her Venerable in 2023.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Church Approval and the Popes</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
+                After a canonical inquiry, Bishop José Alves Correia da Silva of Leiria declared on October 13, 1930, that the visions were worthy of belief and permitted public devotion to Our Lady of Fatima. Like every approved apparition, Fatima is a private revelation: Catholics are not bound to believe it, but the Church judges that nothing in it contradicts faith or morals and that its message can help the faithful (CCC 67).
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
+                Popes have engaged the message closely. Pius XII consecrated the world to the Immaculate Heart in 1942. John Paul II, who survived an assassination attempt on the feast of May 13, 1981, later had the bullet set in the crown of the statue at Fatima, renewed the consecration of the world in union with the bishops on March 25, 1984, and had the third part of the secret published in 2000 with a theological commentary. Pope Francis consecrated Russia and Ukraine to the Immaculate Heart on March 25, 2022.
+              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Adding the Five First Saturdays</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
+                In 1925, at Pontevedra in Spain, Lucia reported a further apparition in which Our Lady asked for the Communion of reparation on five first Saturdays in a row. The practice has four parts, all offered in reparation to her Immaculate Heart: going to Confession, receiving Holy Communion, praying five decades of the Rosary, and spending fifteen minutes meditating on its mysteries. If your novena overlaps the first Saturday of the month, it is a natural moment to begin the series.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">
+                For a feast-day novena, start on May 4 and finish on May 12 so that you arrive at Mass on May 13 ready to celebrate. For the October anniversary, begin on October 4. The memorial of Our Lady of Fatima on May 13 was added to the General Roman Calendar in 2002 and is kept in U.S. parishes as an optional memorial.
               </LinkedText>
 
               <QuizCTA
@@ -137,19 +166,6 @@ export default function OurLadyFatimaNovenaGuide() {
                 <a href="https://catholicbibleonline.com/novenas/our-lady-of-fatima/" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 underline underline-offset-2 font-semibold">Catholic Bible Online</a>. You can pray it directly on the site, day by day, with no registration required. Our Lady of Fatima, pray for us.
               </LinkedText>
 
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">A complete guide to the Our Lady of Fatima Novena — the message of Fatima, how to pray the 9-day novena step by step, the Fatima Prayer, and where to pray it online. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="our-lady-of-fatima-novena-guide">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Our Lady of Fatima Novena Guide, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
             </div>
 
             <BlogFAQ faqs={[
@@ -158,9 +174,9 @@ export default function OurLadyFatimaNovenaGuide() {
               { question: "What is the Fatima Prayer?", answer: "The Fatima Prayer — also called the O My Jesus prayer — was given by Our Lady at Fatima to be added after each decade of the Rosary. It reads: 'O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those most in need of Thy mercy. Amen.'" },
               { question: "Can I pray the Fatima Novena at any time of year?", answer: "Yes. While many Catholics pray the Fatima Novena in the nine days before May 13 (her feast day) or before October 13 (the anniversary of the Miracle of the Sun), you can pray it at any time of year. What matters is praying consistently for nine consecutive days." },
               { question: "Where can I find the full Our Lady of Fatima Novena prayer text?", answer: "The complete Our Lady of Fatima Novena with the full prayer text for all nine days is available for free at Catholic Bible Online (catholicbibleonline.com/novenas/our-lady-of-fatima/). You can pray it directly on the site, day by day, with no registration required." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Are the Fatima apparitions approved by the Church?", answer: "Yes. The Bishop of Leiria declared them worthy of belief on October 13, 1930. As a private revelation, Fatima is not part of the deposit of faith, but the Church encourages devotion to Our Lady of Fatima." },
+              { question: "Are Francisco and Jacinta saints?", answer: "Yes. Pope Francis canonized Francisco and Jacinta Marto at Fatima on May 13, 2017. Their feast is February 20, the anniversary of Jacinta's death." },
+              { question: "What are the Five First Saturdays?", answer: "A devotion requested in Lucia's 1925 Pontevedra apparition: on five consecutive first Saturdays, go to Confession, receive Communion, pray five decades of the Rosary, and meditate for fifteen minutes on its mysteries, all in reparation to the Immaculate Heart of Mary." },
             ]} />
 
             <RelatedArticles currentSlug="our-lady-of-fatima-novena-guide" />

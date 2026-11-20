@@ -101,6 +101,24 @@ export default function LitanyOfTheSaintsCatholic() {
                 Catholics do not worship saints. We ask them to pray with us, as we might ask a friend on earth — except the saints in heaven are perfectly alive in Christ and closer to God than we are.
               </LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Shape of the Full Litany</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">
+                The litany moves through the whole history of salvation in a deliberate order. After the opening Lord, have mercy, it calls on Mary first, then the archangels Michael, Gabriel, and Raphael, then John the Baptist and St. Joseph. Next come the apostles and evangelists, led by Peter and Paul; then martyrs such as Stephen, Ignatius of Antioch, Lawrence, Perpetua and Felicity, and Agnes; then bishops and doctors like Gregory, Augustine, Athanasius, Basil, and Martin; then founders and missionaries such as Benedict, Francis, Dominic, Francis Xavier, and John Vianney; and finally holy women like Catherine of Siena and Teresa of Jesus.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">
+                After the saints, the prayer turns to Christ himself. The leader names evils from which we ask to be freed — from all evil, from every sin, from everlasting death — and the people answer Lord, deliver us, we pray. Then come the mysteries of Christ&apos;s life, by his Incarnation, by his Death and Resurrection, by the outpouring of the Holy Spirit. The litany ends with petitions for the Church and the world, each answered Lord, we ask you, hear our prayer, and closes with a collect said by the presiding minister.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Origins: Rome, Plague, and Rogation Days</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">
+                No other Catholic litany has been prayed for as long as this one. Litanies grew out of the Church&apos;s early processions, when Christians walked through a city chanting short petitions answered by the crowd. In 590, while plague ravaged Rome, Pope St. Gregory the Great organized a great sevenfold procession of clergy, monks, widows, married people, and children converging on the basilica of St. Mary Major to beg God&apos;s mercy. In Gaul, St. Mamertus of Vienne had already introduced penitential processions on the three days before Ascension Thursday, which became the Minor Rogation Days, while Rome kept a Major Rogation on April 25. The Litany of the Saints became the standard chant for these processions through fields and streets, asking God to protect crops and spare the people from disaster.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why We Ask the Saints to Pray</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">
+                The Letter to the Hebrews pictures believers surrounded by so great a cloud of witnesses as they run the race of faith (Hebrews 12:1), and the Book of Revelation shows the elders offering golden bowls of incense, which are the prayers of the saints (Revelation 5:8). The Catechism teaches that those who dwell in heaven do not cease to intercede with the Father for us, offering the merits they won on earth through Christ, the one mediator (CCC 956). The litany puts that teaching into practice by calling on dozens of these intercessors at once.
+              </LinkedText>
+
               <QuizCTA
                 title="Want stronger Catholic foundations?"
                 description="Take the Catholic life assessment for a personalized guide to doctrine, prayer, and the saints."
@@ -110,7 +128,9 @@ export default function LitanyOfTheSaintsCatholic() {
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
                 <li>Easter Vigil — before the blessing of the baptismal water.</li>
                 <li>Ordinations of bishops, priests, and deacons.</li>
-                <li>Many confirmations and dedications of churches.</li>
+                <li>Solemn religious professions, the consecration of virgins, and the dedication of a church and altar.</li>
+                <li>The commendation of the dying, which uses a short form of the litany at the bedside.</li>
+                <li>A papal conclave, when the cardinals process into the Sistine Chapel singing it before the Veni Creator Spiritus.</li>
                 <li>Rogation processions and some pilgrimages.</li>
               </ul>
 
@@ -118,32 +138,16 @@ export default function LitanyOfTheSaintsCatholic() {
               <p className="text-text leading-relaxed mb-6">
                 Families can pray a shorter form or use a printed litany from a trusted Catholic prayer book. The goal is the same: to unite our needs with the whole communion of saints and to ask God's mercy through their intercession.
               </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">Catholic guide to the Litany of the Saints — how the responses work, when the Church prays it (Easter Vigil, ordinations, confirmations), and why we invoke the saints together. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Prostration at Ordinations</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">
+                One of the most striking sights in Catholic worship is the moment at an ordination when the men to be ordained lie face down on the floor of the cathedral while the congregation kneels and the litany is sung over them. The posture expresses total dependence on God and unworthiness for the office they are about to receive. The whole Church on earth and in heaven is, in effect, asked to pray for them in the minutes before the bishop lays hands on their heads. Religious making solemn vows may also lie prostrate during the litany.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Litany of the Saints, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">Readers often search for Litany of the Saints: How to Pray It, When It Is Used & Meaning during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">Catholic guide to the Litany of the Saints — how the responses work, when the Church prays it (Easter Vigil, ordinations, confirmations), and why we invoke the saints together. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Adding Your Own Saints</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="litany-of-the-saints-catholic">
+                The liturgical books allow names to be added in their proper place. At the Easter Vigil, the patron of the parish and the patron saints of those being baptized are often included; at an ordination, the patrons of the diocese and of the candidates. You can do the same at home. Add the saints your children are named after, the patron of your parish, and a saint connected to a current need, such as St. Joseph for a job search or St. Monica for a family member who has left the faith. Praying the litany on the anniversary of a baptism, on All Saints Day, or before a major decision turns it into a family prayer that grows with each new name.
+              </LinkedText>
             </div>
 
             <BlogFAQ faqs={[
@@ -151,9 +155,9 @@ export default function LitanyOfTheSaintsCatholic() {
               { question: "Why does the Easter Vigil include the Litany of the Saints?", answer: "It expresses the communion of saints and asks the whole company of heaven to support those about to be baptized or received into full communion." },
               { question: "Do I need a priest to lead the litany?", answer: "The full litany in the liturgy is led by ministers in official rites. At home, lay people may pray from an approved prayer book for private or family devotion." },
               { question: "Is the Litany of the Saints the same as the Litany of Loreto?", answer: "No. The Litany of Loreto (Litany of the Blessed Virgin Mary) honors titles of Mary. The Litany of the Saints invokes many saints across the history of the Church." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Why do men lie on the floor during the Litany of the Saints at ordinations?", answer: "The prostration is a sign of humility and total dependence on God. The candidates lie face down while the whole assembly asks the saints to pray for them before the bishop lays hands on them." },
+              { question: "Can I add saints to the Litany of the Saints?", answer: "Yes. The liturgical books allow the names of patron saints, such as the parish patron or the patrons of those being baptized or ordained, to be added in their proper place. At home you may add family patrons." },
+              { question: "How old is the Litany of the Saints?", answer: "It is the oldest litany still in regular Catholic use. It developed from early medieval processions in Rome and Gaul, including penitential processions in times of plague and the Rogation Days." },
             ]} />
 
             <RelatedArticles currentSlug="litany-of-the-saints-catholic" />

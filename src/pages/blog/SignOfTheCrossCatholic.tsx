@@ -130,32 +130,38 @@ export default function SignOfTheCrossCatholic() {
               <p className="text-text leading-relaxed mb-6">
                 You invoke the Father, Son, and Holy Spirit — the one God in three Persons. You unite yourself to the cross of Christ. You ask God to sanctify your mind (forehead), heart (chest), and strength (shoulders) for his service.
               </p>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">Learn how to make the Sign of the Cross the Catholic way — the words in English and Latin, left to right, when to use it, and what this ancient gesture means. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">
+                Notice that the formula says "in the name," singular, not "in the names." Christians do not invoke three gods but one God whose single divine name belongs equally to the Father, the Son, and the Holy Spirit. The words come straight from the command of the risen Jesus in Matthew 28:19, where he sends the apostles to baptize all nations in that name.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Roots in Scripture</h2>
+              <ul className="list-disc list-inside text-text space-y-4 mb-6">
+                <li><strong>Matthew 28:19:</strong> the Trinitarian baptismal formula that supplies the spoken words.</li>
+                <li><strong>Galatians 6:14:</strong> St. Paul refuses to boast of anything except the cross of our Lord Jesus Christ; the gesture is that boast made visible.</li>
+                <li><strong>1 Corinthians 1:18:</strong> the message of the cross is foolishness to some but the power of God to those being saved.</li>
+                <li><strong>Ezekiel 9:4 and Revelation 7:3:</strong> God's faithful are marked on their foreheads. Early Christian writers saw in these passages a foreshadowing of the cross traced on the brow.</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Short History of the Gesture</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">
+                The custom is very old. Around the year 200, the North African writer Tertullian described Christians tracing the sign on their foreheads at nearly every ordinary moment: going out and coming in, dressing, bathing, sitting at table, lighting lamps, and going to bed. In those early centuries it was usually a small cross made with the thumb or a finger on the forehead, much like the crosses still traced at Baptism and on Ash Wednesday.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">
+                The larger cross over the whole upper body spread later. Around 1200, Pope Innocent III described making it with three fingers to honor the Trinity, and he noted that the direction across the shoulders varied in his day. Over time the Latin West settled on left to right with an open hand, while Byzantine Christians kept right to left, often joining the thumb and first two fingers to signify the Trinity and folding the other two to signify Christ's two natures.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Sign of the Cross, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Sign of the Cross in the Liturgy</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">
+                Every Mass opens with the Sign of the Cross and closes with the priest blessing the people in the same form. Before the Gospel, the priest or deacon traces a small cross on the Book of the Gospels and then on his forehead, lips, and breast, and the congregation customarily does the same, asking that the Word be in our minds, on our lips, and in our hearts. The Catechism notes that at the start of Baptism the sign of the cross marks the person with the imprint of Christ, to whom he or she will belong (CCC 1235), and it describes the Christian beginning the day, prayers, and activities with this sign (CCC 2157).
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">
+                Dipping your fingers in holy water at the church door and signing yourself is a reminder of the baptismal font. Priests use the same gesture when they bless rosaries, homes, cars, and people, and parents in many families trace a small cross on a child's forehead at bedtime. The Church's handbook of indulgences also grants a partial indulgence to the faithful who devoutly sign themselves with the cross while saying the customary words.
+              </LinkedText>
 
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">Readers often search for Sign of the Cross: How Catholics Do It, Words and Meaning during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">Learn how to make the Sign of the Cross the Catholic way — the words in English and Latin, left to right, when to use it, and what this ancient gesture means. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Making It Reverently</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="sign-of-the-cross-catholic">
+                Because it is so familiar, the gesture can shrink into a quick wave in front of the chest. Make it large enough that it is clearly a cross, and slow enough that the words and the movement line up: "Father" at the forehead, "Son" at the chest, "Holy Spirit" across the shoulders, and "Amen" as the hands come together. Romano Guardini, the German priest and liturgical writer, urged believers to make it as a real act of faith rather than a hurried habit.
+              </LinkedText>
             </div>
 
             <DailyPrayersHubLink />
@@ -164,9 +170,9 @@ export default function SignOfTheCrossCatholic() {
               { question: "What are the words of the Sign of the Cross?", answer: "In English: In the name of the Father, and of the Son, and of the Holy Spirit. Amen. In Latin: In nomine Patris, et Filii, et Spiritus Sancti. Amen." },
               { question: "Is the Sign of the Cross only for Catholics?", answer: "Many Christians use a form of the Sign of the Cross. Catholics use it as a daily prayer, blessing, and reminder of Baptism into Christ's death and resurrection." },
               { question: "Can I bless myself with holy water?", answer: "Yes. Many Catholics bless themselves with holy water when entering a church, making the Sign of the Cross as they do." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: "Why does the prayer say 'name' and not 'names'?", answer: "Because Father, Son, and Holy Spirit are one God. The singular 'name' follows Matthew 28:19 and expresses the unity of the Trinity." },
+              { question: "How old is the Sign of the Cross?", answer: "Very old. Tertullian, writing around AD 200, describes Christians tracing a cross on their foreheads throughout the day. The larger cross over the body developed in later centuries." },
+              { question: "Why do Catholics make three small crosses before the Gospel?", answer: "The small crosses on forehead, lips, and breast ask that the Gospel be in our minds, on our lips, and in our hearts. The priest or deacon makes them first, and the people customarily follow." },
             ]} />
 
             <RelatedArticles currentSlug="sign-of-the-cross-catholic" />
