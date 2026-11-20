@@ -2,7 +2,6 @@ import { ResultLevel } from "@/data/quizQuestions";
 import { Button } from "@/components/ui/button";
 import { Download, Share2, RotateCcw, Trophy, Target, BookOpen, Cross, Heart, Star, Church, HandHeart, Sparkles, Calendar, Quote, Users, Flame, Crown, Shield, Scroll } from "lucide-react";
 import { toast } from "sonner";
-import { generateCatholicGuidePDF } from "@/utils/generateCatholicGuidePDF";
 
 interface ResultScreenProps {
   score: number;
@@ -381,8 +380,10 @@ export function ResultScreen({ score, level, userName, answers, onRestart }: Res
   const maxPoints = answers.length * 3 || 90;
   const scorePercent = Math.min(100, Math.round((score / maxPoints) * 100));
 
-  const handleDownloadGuide = () => {
+  const handleDownloadGuide = async () => {
     try {
+      // jsPDF is large: load it only when the reader asks for the PDF.
+      const { generateCatholicGuidePDF } = await import("@/utils/generateCatholicGuidePDF");
       generateCatholicGuidePDF({ userName, score: scorePercent, levelTitle: level.title, answers });
       toast.success("PDF generated successfully! Check your downloads.");
     } catch (error) {

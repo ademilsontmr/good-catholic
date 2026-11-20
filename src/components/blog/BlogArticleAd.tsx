@@ -28,7 +28,8 @@ export function BlogArticleAd({ slot = TOP_SLOT, onlyOnBlog = true }: { slot?: s
   if (!isArticle) return null;
 
   return (
-    <div className="mb-6" aria-label="Advertisement">
+    // Reserve the usual height of a responsive in-article unit so the page does not jump when the ad fills.
+    <div className="mb-6 min-h-[280px]" aria-label="Advertisement">
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}

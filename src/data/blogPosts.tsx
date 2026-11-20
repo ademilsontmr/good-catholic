@@ -832,7 +832,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1534,
     slug: "ash-wednesday",
-    title: "Ash Wednesday 2027 (Feb 10): Fasting Rules & Ashes",
+    title: "Ash Wednesday 2027: Wednesday, February 10",
     excerpt: "Ash Wednesday is February 10, 2027 — fasting, abstinence, what the ashes mean, and the road to Easter March 28.",
     date: "2026-10-31",
     readTime: "8 min",
@@ -1144,7 +1144,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1503,
     slug: "st-michaels-lent-novena-how-to-pray",
-    title: "How to Pray the St. Michael's Lent Novena",
+    title: "What to Pray Each Day of St. Michael's Lent",
     excerpt: "What the fast from August 15 to September 29 is, what to pray, and who should not try to be heroic.",
     date: "2026-10-12",
     readTime: "12 min",
@@ -1156,7 +1156,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1504,
     slug: "st-michaels-lent-46-day-novena",
-    title: "The 46-Day St. Michael's Lent Novena",
+    title: "How the 46 Days of St. Michael's Lent Are Counted",
     excerpt: "How August 15 through September 29 becomes 46 days, and what to do if you miss one.",
     date: "2026-10-12",
     readTime: "10 min",
@@ -2080,7 +2080,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1387,
     slug: "st-michael-lent-2026",
-    title: "St Michael Lent 2026: A Practical Day-by-Day Plan for Busy Catholics",
+    title: "St Michael Lent 2026: A Practical Plan for Penance, Prayer Time, and Missed Days",
     excerpt: "Practical St Michael Lent 2026 schedule for busy Catholics: 15-minute prayer, one penance, and checkpoints from August 15 to September 29.",
     date: "2026-08-14",
     readTime: "20 min",
@@ -2704,7 +2704,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1339,
     slug: "st-michaels-lent-novena-prayer-guide-us-2026",
-    title: "St. Michael's Lent Novena: 40-Day Catholic Prayer Guide (US 2026)",
+    title: "St. Michael's Lent: The Complete Catholic Guide to the Novena (US 2026)",
     excerpt: "St. Michael's Lent 2026 — August 15 to September 29. U.S. guide to the 40-day novena, fasting, spiritual warfare, calendar, and link to the full daily prayer text.",
     date: "2026-08-06",
     readTime: "20 min",
@@ -3760,7 +3760,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1047,
     slug: "liturgy-of-the-hours-guide",
-    title: "Liturgy of the Hours: Complete Guide for Laity - Divine Office Explained",
+    title: "The Liturgy of the Hours: Every Hour and Its Structure",
     excerpt: "Learn how to pray the Liturgy of the Hours (Divine Office) as a lay Catholic. Complete guide to morning prayer, evening prayer, compline, and integrating this ancient prayer into daily life.",
     date: "2026-04-16",
     readTime: "22 min",
@@ -4036,7 +4036,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1126,
     slug: "ash-wednesday-2026",
-    title: "Ash Wednesday 2026: Date, Fasting Rules, Mass Times & What to Expect",
+    title: "Ash Wednesday 2026 Fasting and Abstinence Rules, Explained in Full",
     excerpt: "Ash Wednesday 2026 falls on February 18. Everything you need to know — fasting and abstinence rules, what the ashes mean, Mass times, and how to begin Lent well.",
     date: "2026-04-24",
     readTime: "12 min",
@@ -4336,7 +4336,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1087,
     slug: "how-to-go-to-confession-guide",
-    title: "How to Go to Confession: Complete Step-by-Step Catholic Guide",
+    title: "What to Say in Confession: A Word-for-Word Script",
     excerpt: "Complete guide to Catholic Confession — how to prepare, what to say, the Act of Contrition, what happens inside the confessional, and how to make a good confession after years away.",
     date: "2026-04-24",
     readTime: "18 min",
@@ -4348,7 +4348,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1088,
     slug: "catholic-mass-complete-guide",
-    title: "The Catholic Mass: A Complete Guide to Every Part of the Liturgy",
+    title: "Order of Mass at a Glance: A Printable Outline",
     excerpt: "Complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Dismissal. What happens, what it means, and how to participate fully.",
     date: "2026-04-24",
     readTime: "20 min",
@@ -4360,7 +4360,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1089,
     slug: "catholic-confession-guide",
-    title: "Catholic Confession Guide: What It Is, Why It Matters & Common Questions",
+    title: "Why Confess to a Priest? The Biblical Basis and the Seal",
     excerpt: "Complete Catholic Confession guide — what the Sacrament of Reconciliation is, its biblical basis, what happens, common fears, and why regular Confession transforms your life.",
     date: "2026-04-24",
     readTime: "17 min",
@@ -4384,7 +4384,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1091,
     slug: "examination-of-conscience-before-confession",
-    title: "Examination of Conscience: Complete Catholic Guide Before Confession",
+    title: "Examination of Conscience by the Ten Commandments for Adults",
     excerpt: "Complete Catholic examination of conscience for adults — organized by the Ten Commandments and the precepts of the Church. Use this guide to prepare for a thorough, honest Confession.",
     date: "2026-04-24",
     readTime: "20 min",
@@ -4456,7 +4456,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1084,
     slug: "how-to-pray-the-rosary-step-by-step",
-    title: "How to Pray the Rosary Step by Step: A Beginner's Complete Guide",
+    title: "How to Pray the Rosary Step by Step, Bead by Bead",
     excerpt: "Learn how to pray the Rosary step by step. Complete beginner's guide with all prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion.",
     date: "2026-04-24",
     readTime: "18 min",
@@ -4720,7 +4720,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1029,
     slug: "st-michael-lent-guide",
-    title: "Saint Michael's Lent: A 40-Day Spiritual Journey for Protection",
+    title: "The Origins of St. Michael's Lent: St. Francis, La Verna, and the Nine Choirs of Angels",
     excerpt: "Discover the origins of St. Michael's Lent, why St. Francis of Assisi loved this devotion, and how to pray it for spiritual victory.",
     date: "2026-04-16",
     readTime: "14 min",
@@ -5044,7 +5044,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1003,
     slug: "ash-wednesday-guide",
-    title: "Ash Wednesday: Meaning, Fasting Rules, and Complete Guide",
+    title: "What Is Ash Wednesday? The Meaning of the Ashes and the Start of Lent",
     excerpt: "What is Ash Wednesday? Learn the Catholic fasting and abstinence rules, the meaning of ashes, if it's a Holy Day of Obligation, and how to start Lent.",
     date: "2026-04-16",
     readTime: "10 min",
@@ -5140,7 +5140,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 9,
     slug: "examination-conscience",
-    title: "Examination of Conscience: Daily Practice for Spiritual Growth",
+    title: "Examination of Conscience After Years Away from Confession",
     excerpt: "Learn how to examine your conscience daily and grow in holiness through self-reflection.",
     date: "2026-04-12",
     readTime: "7 min",
@@ -5404,7 +5404,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 33,
     slug: "how-to-go-to-confession",
-    title: "How to Go to Confession: Step-by-Step Guide for Catholics",
+    title: "Going Back to Confession After Many Years: What to Expect",
     excerpt: "Learn how to go to Confession step by step. Complete Catholic guide covering examination of conscience, what to say, common fears, and how often to receive the Sacrament of Reconciliation.",
     date: "2026-04-14",
     readTime: "10 min",
@@ -5416,7 +5416,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 35,
     slug: "catholic-baptism-guide",
-    title: "Catholic Baptism: What It Is, How It Works, and Why It Matters",
+    title: "Adult Baptism in the Catholic Church: OCIA, Desire, Blood",
     excerpt: "Complete guide to Catholic Baptism. Learn the theology of baptism, infant vs adult baptism, the rite, godparents, effects of baptism, and the doctrine of baptism of desire.",
     date: "2026-04-14",
     readTime: "10 min",
@@ -5488,7 +5488,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 41,
     slug: "what-is-the-catholic-mass",
-    title: "What Is the Catholic Mass? A Complete Guide for Beginners",
+    title: "What Is the Catholic Mass Like? A First-Timer's Guide",
     excerpt: "What is the Catholic Mass? Learn the two main parts of the Mass, what happens at each stage, what to do as a visitor, and why Catholics go every Sunday.",
     date: "2026-04-14",
     readTime: "13 min",
@@ -5536,7 +5536,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 45,
     slug: "rosary-complete-guide",
-    title: "The Holy Rosary: Complete Guide with All 20 Mysteries",
+    title: "The 15 Rosary Promises and the Rosary in History",
     excerpt: "Complete guide to the Holy Rosary with all 20 mysteries and meditations, step-by-step instructions, all prayers, spiritual benefits, and tips for praying with devotion.",
     date: "2026-04-14",
     readTime: "15 min",
@@ -5548,7 +5548,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 46,
     slug: "examination-of-conscience-guide",
-    title: "How to Make an Examination of Conscience: Complete Catholic Guide",
+    title: "The Daily Examen: St. Ignatius's 5 Steps and Scrupulosity",
     excerpt: "Learn how to make an examination of conscience using the Ignatian Examen and the 10 Commandments. Complete Catholic guide for daily and pre-Confession examination.",
     date: "2026-04-13",
     readTime: "11 min",
@@ -6005,7 +6005,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1107,
     slug: "divine-office-laity",
-    title: "The Divine Office for Lay Catholics: How to Pray the Liturgy of the Hours",
+    title: "How to Start Praying the Divine Office as a Layperson",
     excerpt: "Learn how lay Catholics can pray the Divine Office. Discover the hours of prayer, simplified versions, and how this liturgical prayer sanctifies daily life.",
     date: "2026-04-16",
     readTime: "14 min",
@@ -6449,7 +6449,7 @@ export const blogPosts: BlogPost[] = [
   { id: 1175, slug: "did-jesus-found-the-catholic-church", title: "Did Jesus Found the Catholic Church? The Biblical Evidence", excerpt: "Did Jesus found the Catholic Church? Explore the biblical evidence — Matthew 16:18, the keys of the Kingdom, apostolic succession — and the historical continuity of the Church.", date: "2026-04-24", readTime: "16 min", category: "Catholic Doctrine", icon: Cross, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
   { id: 1176, slug: "catholic-teaching-on-drugs", title: "Catholic Teaching on Drugs: What the Church Says About Substance Abuse", excerpt: "What does the Catholic Church teach about drugs and substance abuse? Learn the distinction between medicinal use and sinful abuse, and the Catholic path to recovery.", date: "2026-04-24", readTime: "13 min", category: "Catholic Doctrine", icon: Shield, bgColor: "bg-teal-50", iconColor: "text-teal-600" },
   { id: 1177, slug: "catholic-guide-to-grief-and-loss", title: "Catholic Guide to Grief and Loss: Faith, Hope & Healing After Death", excerpt: "How does Catholic faith help us grieve? A compassionate guide to loss, death, and healing — with prayers, the hope of resurrection, and the comfort of the saints.", date: "2026-04-24", readTime: "14 min", category: "Spiritual Life", icon: Heart, bgColor: "bg-purple-50", iconColor: "text-purple-500" },
-  { id: 1178, slug: "how-to-pray-the-rosary-complete-guide", title: "How to Pray the Rosary: Complete Step-by-Step Guide with All Mysteries", excerpt: "The most complete guide to praying the Rosary — every step, every prayer, all 20 mysteries explained, and tips for beginners and experienced pray-ers alike.", date: "2026-04-24", readTime: "22 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-500" },
+  { id: 1178, slug: "how-to-pray-the-rosary-complete-guide", title: "Rosary Mysteries by Day of the Week, With Meditations", excerpt: "The most complete guide to praying the Rosary — every step, every prayer, all 20 mysteries explained, and tips for beginners and experienced pray-ers alike.", date: "2026-04-24", readTime: "22 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-500" },
   { id: 1179, slug: "what-is-heaven-like-catholic", title: "What Is Heaven Like? The Catholic Teaching on Eternal Life", excerpt: "What does the Catholic Church teach about heaven? The beatific vision, the resurrection of the body, whether we'll recognize loved ones, and what eternal life really means.", date: "2026-04-24", readTime: "17 min", category: "Catholic Doctrine", icon: Star, bgColor: "bg-sky-50", iconColor: "text-sky-500" },
   { id: 1180, slug: "signs-of-a-vocation-priesthood-religious-life", title: "Signs of a Vocation: How to Know If God Is Calling You to the Priesthood or Religious Life", excerpt: "How do you know if God is calling you to the priesthood or religious life? Discover the signs of a vocation, how to discern, and what to do if you feel called.", date: "2026-04-24", readTime: "18 min", category: "Spiritual Life", icon: Cross, bgColor: "bg-indigo-50", iconColor: "text-indigo-500" },
   { id: 1181, slug: "catholic-teaching-on-angels", title: "Catholic Teaching on Angels: What the Church Really Believes", excerpt: "What does the Catholic Church really teach about angels? Guardian angels, archangels, the fall of Lucifer, and how Catholics relate to these spiritual beings.", date: "2026-04-24", readTime: "15 min", category: "Catholic Doctrine", icon: Sparkles, bgColor: "bg-sky-50", iconColor: "text-sky-500" },
@@ -6465,7 +6465,7 @@ export const blogPosts: BlogPost[] = [
   { id: 1191, slug: "saint-dominic-founder-dominicans", title: "Saint Dominic: Founder of the Dominicans, Preacher of Truth & the Rosary", excerpt: "Discover Saint Dominic — the Spanish priest who founded the Order of Preachers, fought heresy with truth and poverty, and gave the Church the Rosary.", date: "2026-04-25", readTime: "15 min", category: "Saints & Intercession", icon: BookOpen, bgColor: "bg-white", iconColor: "text-gray-700" },
   { id: 1192, slug: "what-is-prayer-catholic", title: "What Is Prayer? The Catholic Teaching on Talking to God", excerpt: "What is prayer? The Catholic Church teaches that prayer is the raising of the mind and heart to God. Learn the five forms, three expressions, and how to develop a real prayer life.", date: "2026-04-25", readTime: "14 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-violet-50", iconColor: "text-violet-500" },
   { id: 1193, slug: "catholic-teaching-on-marriage", title: "Catholic Teaching on Marriage: Sacrament, Indissolubility & Vocation", excerpt: "What does the Catholic Church teach about marriage? The sacrament, indissolubility, the domestic church, and how to build a holy Catholic marriage.", date: "2026-04-25", readTime: "16 min", category: "Sacraments", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-500" },
-  { id: 1194, slug: "what-is-the-catholic-mass-guide", title: "What Is the Catholic Mass? A Complete Guide to the Liturgy", excerpt: "A complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Concluding Rites, with tips for beginners and active participation.", date: "2026-04-25", readTime: "18 min", category: "Liturgy & Worship", icon: Cross, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
+  { id: 1194, slug: "what-is-the-catholic-mass-guide", title: "Why the Mass Is a Sacrifice, Not Just a Memorial", excerpt: "A complete guide to the Catholic Mass — every part explained, from the Introductory Rites to the Concluding Rites, with tips for beginners and active participation.", date: "2026-04-25", readTime: "18 min", category: "Liturgy & Worship", icon: Cross, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
   { id: 1195, slug: "saint-catherine-of-siena", title: "Saint Catherine of Siena: Doctor of the Church, Mystic & Reformer", excerpt: "Discover Saint Catherine of Siena — the Dominican mystic who never learned to read, received the stigmata, and convinced the Pope to return to Rome.", date: "2026-04-25", readTime: "16 min", category: "Saints & Intercession", icon: BookOpen, bgColor: "bg-rose-50", iconColor: "text-rose-400" },
   { id: 1196, slug: "how-to-find-catholic-church-near-me", title: "How to Find a Catholic Church Near You: A Complete Guide for Americans", excerpt: "There are over 17,000 Catholic parishes in the US. Here's how to find the right one — parish finders, what to look for, Latin Mass locations, Eastern Catholic churches, and how to register.", date: "2026-04-25", readTime: "12 min", category: "Catholic Living", icon: Church, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
   { id: 1197, slug: "catholic-holy-days-of-obligation-usa", title: "Catholic Holy Days of Obligation in the United States: Complete 2026 Guide", excerpt: "What are the 6 Holy Days of Obligation in the US? Get the 2026 dates, learn the Saturday/Monday dispensation rule, and understand what happens if you miss one.", date: "2026-04-25", readTime: "13 min", category: "Liturgy & Worship", icon: Calendar, bgColor: "bg-indigo-50", iconColor: "text-indigo-600" },
@@ -6490,7 +6490,7 @@ export const blogPosts: BlogPost[] = [
   { id: 1217, slug: "what-is-the-bible-catholic", title: "What Is the Bible? The Catholic Understanding of Sacred Scripture", excerpt: "How many books are in the Catholic Bible? What does biblical inspiration mean? Why don't Catholics believe in sola scriptura? A complete Catholic guide to Sacred Scripture.", date: "2026-04-25", readTime: "14 min", category: "Catholic Doctrine", icon: BookOpen, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
   { id: 1218, slug: "what-is-charity-catholic", title: "What Is Charity? The Greatest of the Three Theological Virtues", excerpt: "Charity is the greatest of the theological virtues — the love of God and neighbor that is the form of all virtues. Learn what it is, how it grows, and how the saints lived it.", date: "2026-04-25", readTime: "13 min", category: "Catholic Doctrine", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-500" },
   { id: 1215, slug: "catholic-teaching-on-end-times", title: "Catholic Teaching on the End Times: What the Church Really Believes", excerpt: "What does the Catholic Church teach about the end times? The Second Coming, the Rapture (which Catholics don't believe in), the Book of Revelation, the Last Judgment, and how to live in hope.", date: "2026-04-25", readTime: "15 min", category: "Catholic Doctrine", icon: Moon, bgColor: "bg-indigo-50", iconColor: "text-indigo-600" },
-  { id: 1219, slug: "catholic-baptism-explained", title: "Catholic Baptism: What It Is, What It Does & Why It Matters", excerpt: "Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is necessary for salvation, and how to live out your Baptism.", date: "2026-04-25", readTime: "14 min", category: "Sacraments", icon: Droplets, bgColor: "bg-sky-50", iconColor: "text-sky-600" },
+  { id: 1219, slug: "catholic-baptism-explained", title: "Catholic Baptism Explained: What It Is and What It Does", excerpt: "Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is necessary for salvation, and how to live out your Baptism.", date: "2026-04-25", readTime: "14 min", category: "Sacraments", icon: Droplets, bgColor: "bg-sky-50", iconColor: "text-sky-600" },
   { id: 1220, slug: "saint-mary-magdalene", title: "Saint Mary Magdalene: Apostle to the Apostles & Witness to the Resurrection", excerpt: "Discover the real Mary Magdalene — not the prostitute of legend, but the first witness to the Risen Christ and the 'Apostle to the Apostles' honored by Pope Francis.", date: "2026-04-25", readTime: "14 min", category: "Saints & Intercession", icon: Sparkles, bgColor: "bg-rose-50", iconColor: "text-rose-500" },
   { id: 1221, slug: "what-is-conscience-catholic", title: "What Is Conscience? The Catholic Teaching on Moral Conscience", excerpt: "What does 'follow your conscience' really mean in Catholic teaching? Learn what conscience is, why it must be formed, and how to develop a well-formed Catholic conscience.", date: "2026-04-25", readTime: "13 min", category: "Catholic Doctrine", icon: HelpCircle, bgColor: "bg-violet-50", iconColor: "text-violet-500" },
   { id: 1222, slug: "pride-root-of-sin-catholic", title: "Pride: The Root of All Sin — The Catholic Teaching", excerpt: "Pride is the first and greatest of the capital sins — the sin that caused the fall of Lucifer and of Adam and Eve. Learn what it is, how it manifests today, and how to overcome it.", date: "2026-04-25", readTime: "13 min", category: "Spiritual Life", icon: Shield, bgColor: "bg-red-50", iconColor: "text-red-500" },
@@ -6504,10 +6504,10 @@ export const blogPosts: BlogPost[] = [
   { id: 1230, slug: "complete-catholic-lent-guide", title: "The Complete Catholic Lent Guide: 40 Days of Prayer, Fasting & Almsgiving", excerpt: "The most complete guide to observing Lent as a Catholic — week-by-week plan, fasting rules, prayer schedule, almsgiving ideas, and a full Lent checklist.", date: "2026-05-01", readTime: "20 min", category: "Liturgy & Worship", icon: Flame, bgColor: "bg-purple-50", iconColor: "text-purple-600" },
   { id: 1231, slug: "complete-catholic-advent-guide", title: "The Complete Catholic Advent Guide: Preparing Your Heart for Christmas", excerpt: "Everything you need to observe Advent as a Catholic — the Advent wreath, week-by-week guide, family traditions, prayer schedule, and a complete Advent checklist.", date: "2026-05-01", readTime: "18 min", category: "Liturgy & Worship", icon: Star, bgColor: "bg-indigo-50", iconColor: "text-indigo-600" },
   { id: 1232, slug: "complete-guide-converting-to-catholicism", title: "The Complete Guide to Converting to Catholicism: Everything You Need to Know", excerpt: "Thinking about becoming Catholic? This complete step-by-step guide covers the RCIA process, the sacraments of initiation, choosing a sponsor, and life after the Easter Vigil.", date: "2026-05-01", readTime: "22 min", category: "Becoming Catholic", icon: Cross, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
-  { id: 1233, slug: "complete-guide-to-the-catholic-mass", title: "The Complete Guide to the Catholic Mass: Every Part Explained", excerpt: "The most comprehensive guide to the Catholic Mass — every part explained from the Introductory Rites to the Dismissal, with full prayer texts, posture guide, and tips for active participation.", date: "2026-05-01", readTime: "22 min", category: "Liturgy & Worship", icon: Church, bgColor: "bg-violet-50", iconColor: "text-violet-600" },
+  { id: 1233, slug: "complete-guide-to-the-catholic-mass", title: "Every Part of the Catholic Mass Explained, Step by Step", excerpt: "The most comprehensive guide to the Catholic Mass — every part explained from the Introductory Rites to the Dismissal, with full prayer texts, posture guide, and tips for active participation.", date: "2026-05-01", readTime: "22 min", category: "Liturgy & Worship", icon: Church, bgColor: "bg-violet-50", iconColor: "text-violet-600" },
   { id: 1234, slug: "complete-catholic-prayer-guide", title: "The Complete Catholic Prayer Guide: How to Build a Life of Prayer", excerpt: "Everything you need to build a Catholic prayer life — the 5 forms of prayer, a complete daily routine, all essential prayers with full texts, and how to pray when you don't feel like it.", date: "2026-05-01", readTime: "20 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-500" },
-  { id: 1235, slug: "complete-rosary-guide", title: "The Complete Rosary Guide: How to Pray, All 20 Mysteries & Everything You Need to Know", excerpt: "The most complete Rosary guide available — step-by-step instructions, all 20 mysteries with meditations, every prayer with full text, the promises of the Rosary, and tips for beginners.", date: "2026-05-01", readTime: "25 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-pink-50", iconColor: "text-pink-500" },
-  { id: 1236, slug: "complete-guide-to-catholic-confession", title: "The Complete Guide to Catholic Confession: How to Make a Good Confession", excerpt: "Everything you need to make a good Confession — step-by-step guide, complete examination of conscience, what to say, common fears answered, and how to return after years away.", date: "2026-05-01", readTime: "20 min", category: "Sacraments", icon: Church, bgColor: "bg-violet-50", iconColor: "text-violet-600" },
+  { id: 1235, slug: "complete-rosary-guide", title: "The Complete Rosary Guide: Prayers, Mysteries and History", excerpt: "The most complete Rosary guide available — step-by-step instructions, all 20 mysteries with meditations, every prayer with full text, the promises of the Rosary, and tips for beginners.", date: "2026-05-01", readTime: "25 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-pink-50", iconColor: "text-pink-500" },
+  { id: 1236, slug: "complete-guide-to-catholic-confession", title: "Catholic Confession: The Complete Guide to the Sacrament", excerpt: "Everything you need to make a good Confession — step-by-step guide, complete examination of conscience, what to say, common fears answered, and how to return after years away.", date: "2026-05-01", readTime: "20 min", category: "Sacraments", icon: Church, bgColor: "bg-violet-50", iconColor: "text-violet-600" },
   { id: 1237, slug: "complete-catholic-marriage-guide", title: "The Complete Catholic Marriage Guide: From Engagement to Holy Matrimony", excerpt: "Everything engaged Catholic couples need to know — Pre-Cana, required documents, the wedding ceremony explained, the exchange of vows, NFP, and how to build a holy marriage.", date: "2026-05-01", readTime: "22 min", category: "Sacraments", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-500" },
   { id: 1238, slug: "complete-guide-to-catholic-saints", title: "The Complete Guide to Catholic Saints: How to Find Your Patron & Pray for Intercession", excerpt: "Everything about the Catholic saints — how to find your patron saint, the canonization process, the most popular patron saints by category, and how to develop a devotion.", date: "2026-05-01", readTime: "18 min", category: "Saints & Intercession", icon: Sparkles, bgColor: "bg-amber-50", iconColor: "text-amber-500" },
   { id: 1239, slug: "complete-guide-to-the-eucharist", title: "The Complete Guide to the Eucharist: Real Presence, Adoration & Receiving Communion", excerpt: "Everything about the Eucharist — the Real Presence explained, how to receive Communion properly, a complete guide to Eucharistic adoration, Eucharistic miracles, and Spiritual Communion.", date: "2026-05-01", readTime: "20 min", category: "Sacraments", icon: Sun, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
@@ -6517,7 +6517,7 @@ export const blogPosts: BlogPost[] = [
   { id: 1243, slug: "catholic-bible-study-guide", title: "Catholic Bible Study Guide: How to Study Scripture the Catholic Way", excerpt: "How to study the Bible as a Catholic — which translation to use, the four senses of Scripture, Lectio Divina, the best Catholic Bible study programs, and a 30-day reading plan.", date: "2026-05-01", readTime: "18 min", category: "Bible & Faith", icon: BookOpen, bgColor: "bg-emerald-50", iconColor: "text-emerald-600" },
   { id: 1244, slug: "best-catholic-prayer-apps-2026", title: "Best Catholic Prayer Apps 2026: Hallow, Laudate & More Reviewed", excerpt: "The best Catholic apps for 2026 — Hallow, Laudate, Universalis, Formed.org, and more. Honest reviews, pricing, and which app is right for your prayer life.", date: "2026-05-01", readTime: "15 min", category: "Catholic Living", icon: Sparkles, bgColor: "bg-sky-50", iconColor: "text-sky-600" },
   { id: 1245, slug: "catholic-confirmation-preparation-guide", title: "Catholic Confirmation Preparation: The Complete Guide for Teens & Adults", excerpt: "Everything you need to prepare for Confirmation — the 7 gifts of the Holy Spirit, how to choose a name and sponsor, what happens at the ceremony, and what comes after.", date: "2026-05-01", readTime: "18 min", category: "Sacraments", icon: Flame, bgColor: "bg-orange-50", iconColor: "text-orange-600" },
-  { id: 1246, slug: "catholic-baptism-preparation-guide", title: "Catholic Baptism Preparation: Complete Guide for Parents & Godparents", excerpt: "Everything parents and godparents need to know — when to baptize, godparent requirements, the ceremony explained step by step, baptism symbols, and how to raise a Catholic child.", date: "2026-05-01", readTime: "17 min", category: "Sacraments", icon: Droplets, bgColor: "bg-sky-50", iconColor: "text-sky-600" },
+  { id: 1246, slug: "catholic-baptism-preparation-guide", title: "Preparing for Your Baby's Catholic Baptism: A Parent Guide", excerpt: "Everything parents and godparents need to know — when to baptize, godparent requirements, the ceremony explained step by step, baptism symbols, and how to raise a Catholic child.", date: "2026-05-01", readTime: "17 min", category: "Sacraments", icon: Droplets, bgColor: "bg-sky-50", iconColor: "text-sky-600" },
   { id: 1247, slug: "catholic-retreats-guide", title: "Catholic Retreats: How to Find, Choose & Make the Most of a Spiritual Retreat", excerpt: "Everything about Catholic retreats — types of retreats, how to find one near you, how to prepare, how to make the most of it, and how to make a retreat at home.", date: "2026-05-01", readTime: "16 min", category: "Spiritual Life", icon: MapPin, bgColor: "bg-green-50", iconColor: "text-green-600" },
   { id: 1248, slug: "st-jude-novena-guide", title: "St. Jude Novena Guide: How to Pray the 9-Day Prayer for Impossible Cases", excerpt: "A complete guide to the St. Jude Novena — who Saint Jude is, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online.", date: "2026-05-01", readTime: "5 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
   { id: 1249, slug: "guardian-angel-novena-guide", title: "Guardian Angel Novena Guide: How to Pray the 9-Day Prayer to Your Heavenly Protector", excerpt: "A complete guide to the Guardian Angel Novena — who guardian angels are, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online.", date: "2026-05-01", readTime: "5 min", category: "Prayer & Devotion", icon: Shield, bgColor: "bg-sky-50", iconColor: "text-sky-500" },

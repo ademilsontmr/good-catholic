@@ -12,27 +12,28 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function RosaryForBeginners() {
   return (
     <>
       <Helmet>
-        <title>How to Pray the Rosary Step by Step: A Beginner's Complete Guide | Guide Catholic</title>
-        <meta name="description" content="Learn how to pray the Rosary step by step: all the prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion." />
-        <meta name="keywords" content="how to pray the rosary, rosary prayer step by step, rosary for beginners, how to say the rosary, rosary beads how to use, rosary mysteries" />
+        <title>How to Pray the Rosary Step by Step, Bead by Bead | Guide Catholic</title>
+        <meta name="description" content="A beginner's walk around the rosary beads: what to say on the crucifix, the first large bead, the three small beads, each decade, and the closing medal." />
+        <meta name="keywords" content="how to pray the rosary step by step, rosary for beginners, what to say on each rosary bead, how to use rosary beads, rosary bead by bead, how to say the rosary" />
         <link rel="canonical" href="https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="How to Pray the Rosary Step by Step: A Beginner's Complete Guide"
-        description="Learn how to pray the Rosary step by step: all the prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion."
+        title="How to Pray the Rosary Step by Step, Bead by Bead"
+        description="A beginner's walk around the rosary beads: what to say on the crucifix, the first large bead, the three small beads, each decade, and the closing medal."
         url="https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/"
       />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
-          { name: "How to Pray the Rosary", url: "https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/" },
+          { name: "The Rosary Bead by Bead", url: "https://guidecatholic.com/blog/how-to-pray-the-rosary-step-by-step/" },
         ]}
       />
 
@@ -45,7 +46,7 @@ export default function RosaryForBeginners() {
               <span>/</span>
               <Link to="/blog" className="hover:text-accent">Blog</Link>
               <span>/</span>
-              <span className="text-text">How to Pray the Rosary</span>
+              <span className="text-text">The Rosary Bead by Bead</span>
             </nav>
           </div>
         </div>
@@ -61,13 +62,13 @@ export default function RosaryForBeginners() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Prayers & Devotions</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />April 24, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />18 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />12 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                How to Pray the Rosary Step by Step: A Beginner's Complete Guide
+                How to Pray the Rosary Step by Step, Bead by Bead
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
-                The Rosary is the most beloved Catholic prayer after the Mass. It is simple enough for a child, yet deep enough to occupy a lifetime. This step-by-step guide will teach you everything you need to know to begin praying the Rosary today.
+                Never prayed the Rosary, or never sure what goes on which bead? Hold your rosary and follow along. We start at the crucifix and move one bead at a time around the whole circle, saying exactly what to pray at each stop, until you arrive back at the medal.
               </p>
             </header>
 
@@ -78,103 +79,83 @@ export default function RosaryForBeginners() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Beginners start with one decade — one mystery, ten Hail Marys — or a single mystery set per day. Use a Rosary booklet, pray slowly, and focus on one scene from Christ&apos;s or Mary&apos;s life rather than rushing through all five decades.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Quick map: crucifix = Sign of the Cross and Creed; first large bead = Our Father; three small beads = three Hail Marys; then a Glory Be. Each of the five decades = announce a mystery, Our Father on the large bead, ten Hail Marys on the small beads, Glory Be. Finish at the medal with the Hail Holy Queen.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                What Is the Rosary?
+                First, Get to Know Your Rosary
               </h2>
-              <p className="text-text leading-relaxed mb-6">
-                The Rosary is a form of prayer that combines vocal prayer with meditation on the life of Jesus Christ as seen through the eyes of His mother, Mary. The word "rosary" comes from the Latin <em>rosarium</em>, meaning "rose garden" — a beautiful image of offering a garland of prayers to Our Lady.
-              </p>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
-                It is both simple and profound. On the surface, it is a repetition of familiar prayers — the Our Father, the Hail Mary, the Glory Be. But beneath the surface, it is a school of contemplation. As your lips pray the familiar words, your mind and heart are invited to enter into the great mysteries of salvation: the Incarnation, the Passion, the Resurrection, and the glory of heaven.
+                Lay your rosary flat on a table. You will see two parts. The short strand that hangs down is the pendant: a crucifix, then one large bead, then three small beads, then a second large bead, ending at a medal (often of Our Lady) where the strand meets the circle. The circle is the main loop: five groups of ten small beads, each group separated by a single large bead. Each group of ten is called a decade.
               </LinkedText>
-              <p className="text-text leading-relaxed mb-6">
-                Pope Saint John Paul II called the Rosary "my favorite prayer" and wrote an entire apostolic letter about it (<em>Rosarium Virginis Mariae</em>, 2002), in which he added the Luminous Mysteries to the traditional fifteen. Today the full Rosary consists of twenty mysteries.
-              </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                What You Need
-              </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
-                To pray the Rosary, you need very little:
+                The rule of thumb is simple: large beads (and the spaces near them) are for the Our Father and the Glory Be; small beads are for Hail Marys. Once that clicks, you will never be lost. The beads exist only to count for you, so that your attention can rest on Jesus instead of on numbers.
               </LinkedText>
               <ul className="list-disc pl-6 mb-6 space-y-2 text-text">
-                <li><strong>Rosary beads</strong> — a string of 59 beads arranged in a specific pattern, with a crucifix. You can find them at any Catholic bookstore, online, or in many parishes. They range from simple plastic beads to beautiful handcrafted ones.</li>
-                <li><strong>Your fingers</strong> — if you don't have beads, you can count the prayers on your fingers. Many saints prayed this way.</li>
-                <li><strong>A quiet place</strong> — ideally, though the Rosary can be prayed anywhere: in a car, on a walk, in a waiting room.</li>
-                <li><strong>This guide</strong> — until you have the prayers memorized, which won't take long.</li>
+                <li><strong>Pendant:</strong> crucifix, 1 large bead, 3 small beads, 1 large bead.</li>
+                <li><strong>Medal:</strong> the junction where the pendant joins the loop.</li>
+                <li><strong>Loop:</strong> 5 decades of 10 small beads, with 4 large beads between them.</li>
+                <li><strong>Total:</strong> 59 beads plus the crucifix and medal.</li>
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Prayers of the Rosary
+                The Walk Around the Beads
               </h2>
-              <p className="text-text leading-relaxed mb-4">
-                Before learning the structure, memorize these prayers. They are the building blocks of the Rosary.
+              <p className="text-text leading-relaxed mb-6">
+                Each stop below tells you where your fingers are and what to say. The full prayer texts are included the first time each prayer appears; after that, just say the same prayer again. If you want all the prayers printed together in one place, our <Link to="/blog/complete-rosary-guide/" className="text-accent hover:underline">complete Rosary guide</Link> has them.
               </p>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
-                <p className="text-text font-semibold mb-3">The Apostles' Creed</p>
-                <p className="text-text leading-relaxed italic text-sm">
-                  I believe in God, the Father Almighty, Creator of Heaven and earth; and in Jesus Christ, His only Son, Our Lord, Who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried. He descended into Hell; the third day He rose again from the dead; He ascended into Heaven, and sits at the right hand of God, the Father Almighty; from thence He shall come to judge the living and the dead. I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen.
-                </p>
-              </div>
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stop 1 — The crucifix: Sign of the Cross and the Creed</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                Hold the crucifix between your thumb and finger. Touch it to your forehead, chest and shoulders as you make the Sign of the Cross, saying: "In the name of the Father, and of the Son, and of the Holy Spirit. Amen." Some people kiss the crucifix at this point; that is a custom, not a rule. Still holding the crucifix, pray the Apostles' Creed, the Church's ancient summary of what we believe.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                On the crucifix, say the Creed: "I believe in God, the Father almighty, Creator of heaven and earth, and in Jesus Christ, his only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; he descended into hell; on the third day he rose again from the dead; he ascended into heaven, and is seated at the right hand of God the Father almighty; from there he will come to judge the living and the dead. I believe in the Holy Spirit, the holy catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen."
+              </LinkedText>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
-                <p className="text-text font-semibold mb-3">The Our Father (Lord's Prayer)</p>
-                <p className="text-text leading-relaxed italic text-sm">
-                  Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.
-                </p>
-              </div>
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stop 2 — The first large bead: Our Father</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                Slide your fingers up to the first large bead above the crucifix and pray the prayer Jesus taught: "Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."
+              </LinkedText>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
-                <p className="text-text font-semibold mb-3">The Hail Mary</p>
-                <p className="text-text leading-relaxed italic text-sm">
-                  Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen.
-                </p>
-              </div>
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stop 3 — The three small beads: three Hail Marys</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                Move to the three small beads. On each one, say a Hail Mary: "Hail Mary, full of grace, the Lord is with thee; blessed art thou among women, and blessed is the fruit of thy womb, Jesus. Holy Mary, Mother of God, pray for us sinners, now and at the hour of our death. Amen." By custom these three are offered for an increase of faith, hope and charity, so you might think "faith" on the first bead, "hope" on the second and "love" on the third.
+              </LinkedText>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
-                <p className="text-text font-semibold mb-3">The Glory Be (Doxology)</p>
-                <p className="text-text leading-relaxed italic text-sm">
-                  Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen.
-                </p>
-              </div>
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stop 4 — The space after the three beads: Glory Be</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                After the third Hail Mary, on the chain just before the next large bead, praise the Trinity: "Glory be to the Father, and to the Son, and to the Holy Spirit. As it was in the beginning, is now, and ever shall be, world without end. Amen." Some people say it while touching the large bead instead. Both are fine; the order of prayers is what matters.
+              </LinkedText>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
-                <p className="text-text font-semibold mb-3">The Fatima Prayer (O My Jesus)</p>
-                <p className="text-text leading-relaxed italic text-sm">
-                  O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those most in need of Thy mercy. Amen.
-                </p>
-              </div>
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stop 5 — The second large bead: announce the first mystery, then Our Father</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                Now hold the large bead nearest the medal. This is where the first decade begins. Announce the first mystery, either aloud or silently. On a Monday, for example, you would say "The First Joyful Mystery: the Annunciation" and picture the angel Gabriel coming to Mary in Nazareth. Then pray one Our Father on this same bead.
+              </LinkedText>
 
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
-                <p className="text-text font-semibold mb-3">The Hail Holy Queen (Salve Regina)</p>
-                <p className="text-text leading-relaxed italic text-sm">
-                  Hail, Holy Queen, Mother of Mercy, our life, our sweetness and our hope. To thee do we cry, poor banished children of Eve; to thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us; and after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary! Pray for us, O holy Mother of God, that we may be made worthy of the promises of Christ. Amen.
-                </p>
-              </div>
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stop 6 — Past the medal: the first ten Hail Marys</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                Pass the medal and enter the loop. Choose either direction; there is no wrong way around the circle, as long as you keep going the same way. Pray one Hail Mary on each of the ten small beads. While your lips say the words, keep the scene of the mystery in your mind: Mary listening, Mary asking her question, Mary saying yes.
+              </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Structure of the Rosary
-              </h2>
-              <p className="text-text leading-relaxed mb-4">
-                A full Rosary consists of five decades (groups of ten Hail Marys), each preceded by an Our Father and followed by a Glory Be and Fatima Prayer. Here is the complete structure:
-              </p>
-              <div className="bg-background-muted/50 border border-border rounded-xl p-6 mb-8 text-sm text-text space-y-2">
-                <p><strong>Crucifix:</strong> Apostles' Creed</p>
-                <p><strong>1st large bead:</strong> Our Father</p>
-                <p><strong>3 small beads:</strong> 3 Hail Marys (for faith, hope, and charity)</p>
-                <p><strong>Chain:</strong> Glory Be</p>
-                <p className="border-t border-border pt-2 mt-2"><strong>Announce the 1st Mystery</strong></p>
-                <p><strong>Large bead:</strong> Our Father</p>
-                <p><strong>10 small beads:</strong> 10 Hail Marys (meditating on the mystery)</p>
-                <p><strong>Chain:</strong> Glory Be + Fatima Prayer</p>
-                <p className="border-t border-border pt-2 mt-2"><em>Repeat for the 2nd, 3rd, 4th, and 5th Mysteries</em></p>
-                <p className="border-t border-border pt-2 mt-2"><strong>End:</strong> Hail Holy Queen + closing prayer</p>
-              </div>
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stop 7 — After the tenth bead: Glory Be and the Fatima Prayer</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                When you run out of small beads, you have finished a decade. On the chain before the next large bead, say the Glory Be. Many Catholics then add the short prayer associated with Fatima: "O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to heaven, especially those most in need of thy mercy. Amen." It is optional, but it is so widespread in the United States that you will hear it at almost every parish Rosary.
+              </LinkedText>
+
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stops 8 to 11 — Decades two through five</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                Every remaining decade follows the same pattern as the first. On the next large bead, announce the second mystery and pray an Our Father. On the ten small beads that follow, pray ten Hail Marys while thinking about that mystery. Close with a Glory Be (and the Fatima Prayer if you use it). Repeat for the third, fourth and fifth mysteries. Only the mystery changes; the prayers stay the same.
+              </LinkedText>
+
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Stop 12 — Back at the medal: Hail Holy Queen and closing prayer</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                After the fifth decade your fingers arrive back at the medal. Here you pray the Hail Holy Queen: "Hail, Holy Queen, Mother of Mercy, our life, our sweetness and our hope. To thee do we cry, poor banished children of Eve; to thee do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us; and after this our exile, show unto us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary."
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                In a group, the leader then says "Pray for us, O holy Mother of God," and everyone answers "That we may be made worthy of the promises of Christ." The leader continues with the closing prayer: "Let us pray. O God, whose only-begotten Son, by his life, death, and resurrection, has purchased for us the rewards of eternal life; grant, we beseech thee, that meditating upon these mysteries of the most holy Rosary of the Blessed Virgin Mary, we may imitate what they contain and obtain what they promise, through the same Christ our Lord. Amen." Finish with the Sign of the Cross, holding the crucifix once more.
+              </LinkedText>
 
               <QuizCTA
                 title="How well do you know the Rosary?"
@@ -182,160 +163,70 @@ export default function RosaryForBeginners() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The 20 Mysteries of the Rosary
+                Which Mysteries Should a Beginner Use?
               </h2>
-              <p className="text-text leading-relaxed mb-4">
-                Each decade of the Rosary is prayed while meditating on a "mystery" — a scene from the life of Jesus and Mary. There are four sets of five mysteries.
-              </p>
-
-              <h3 className="font-display text-xl font-bold text-text mt-6 mb-3">The Joyful Mysteries</h3>
-              <ol className="list-decimal pl-6 mb-4 space-y-1 text-text text-sm">
-                <li>The Annunciation — The angel Gabriel announces to Mary that she will conceive the Son of God.</li>
-                <li>The Visitation — Mary visits her cousin Elizabeth, who is pregnant with John the Baptist.</li>
-                <li>The Nativity — Jesus is born in Bethlehem.</li>
-                <li>The Presentation — Mary and Joseph present the infant Jesus in the Temple.</li>
-                <li>The Finding in the Temple — The twelve-year-old Jesus is found teaching in the Temple.</li>
-              </ol>
-
-              <h3 className="font-display text-xl font-bold text-text mt-6 mb-3">The Luminous Mysteries (Mysteries of Light)</h3>
-              <ol className="list-decimal pl-6 mb-4 space-y-1 text-text text-sm">
-                <li>The Baptism of Jesus — Jesus is baptized in the Jordan and the Father declares Him His beloved Son.</li>
-                <li>The Wedding at Cana — Jesus performs His first miracle at Mary's request.</li>
-                <li>The Proclamation of the Kingdom — Jesus preaches repentance and forgiveness.</li>
-                <li>The Transfiguration — Jesus is transfigured on Mount Tabor before Peter, James, and John.</li>
-                <li>The Institution of the Eucharist — Jesus gives us His Body and Blood at the Last Supper.</li>
-              </ol>
-
-              <h3 className="font-display text-xl font-bold text-text mt-6 mb-3">The Sorrowful Mysteries</h3>
-              <ol className="list-decimal pl-6 mb-4 space-y-1 text-text text-sm">
-                <li>The Agony in the Garden — Jesus prays in Gethsemane and accepts the Father's will.</li>
-                <li>The Scourging at the Pillar — Jesus is brutally flogged by Roman soldiers.</li>
-                <li>The Crowning with Thorns — Jesus is mocked and crowned with thorns.</li>
-                <li>The Carrying of the Cross — Jesus carries His cross to Calvary.</li>
-                <li>The Crucifixion — Jesus dies on the cross for our sins.</li>
-              </ol>
-
-              <h3 className="font-display text-xl font-bold text-text mt-6 mb-3">The Glorious Mysteries</h3>
-              <ol className="list-decimal pl-6 mb-4 space-y-1 text-text text-sm">
-                <li>The Resurrection — Jesus rises from the dead on the third day.</li>
-                <li>The Ascension — Jesus ascends to the right hand of the Father.</li>
-                <li>The Descent of the Holy Spirit — The Holy Spirit descends on the Apostles at Pentecost.</li>
-                <li>The Assumption of Mary — Mary is taken body and soul into heaven.</li>
-                <li>The Coronation of Mary — Mary is crowned Queen of Heaven and Earth.</li>
-              </ol>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                The Church suggests a set of mysteries for each day of the week, but you do not need to memorize the schedule to start. If you are unsure, begin with the Joyful Mysteries: the Annunciation, the Visitation, the Nativity, the Presentation and the Finding in the Temple. They are familiar scenes from the Christmas story and easy to picture. When you are ready, our guide to the mysteries for each day gives the weekly schedule, a Scripture passage for every mystery and a short meditation to read before each decade.
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Which Mysteries on Which Days
-              </h2>
-              <p className="text-text leading-relaxed mb-4">
-                The traditional schedule for the mysteries, as recommended by the Church:
-              </p>
-              <div className="bg-background-muted/50 border border-border rounded-xl p-6 mb-8 text-sm text-text">
-                <div className="grid grid-cols-2 gap-3">
-                  <div><strong>Monday:</strong> Joyful</div>
-                  <div><strong>Tuesday:</strong> Sorrowful</div>
-                  <div><strong>Wednesday:</strong> Glorious</div>
-                  <div><strong>Thursday:</strong> Luminous</div>
-                  <div><strong>Friday:</strong> Sorrowful</div>
-                  <div><strong>Saturday:</strong> Joyful</div>
-                  <div><strong>Sunday:</strong> Glorious</div>
-                </div>
-              </div>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Step-by-Step Instructions
-              </h2>
-              <ol className="list-decimal pl-6 mb-8 space-y-3 text-text">
-                <li>Hold the crucifix and make the Sign of the Cross.</li>
-                <li>Holding the crucifix, pray the Apostles' Creed.</li>
-                <li>On the first large bead, pray the Our Father.</li>
-                <li>On each of the three small beads, pray a Hail Mary (for faith, hope, and charity).</li>
-                <li>Pray the Glory Be on the chain between the three beads and the first decade.</li>
-                <li>Announce the first mystery aloud or in your heart (e.g., "The First Joyful Mystery: The Annunciation").</li>
-                <li>On the large bead, pray the Our Father.</li>
-                <li>On each of the ten small beads, pray a Hail Mary while meditating on the mystery.</li>
-                <li>After the ten Hail Marys, pray the Glory Be.</li>
-                <li>Pray the Fatima Prayer: "O my Jesus, forgive us our sins..."</li>
-                <li>Announce the second mystery and repeat steps 7-10.</li>
-                <li>Continue through all five mysteries.</li>
-                <li>After the fifth decade, pray the Hail Holy Queen.</li>
-                <li>Pray the closing prayer: "O God, whose only-begotten Son, by His life, death, and resurrection, has purchased for us the rewards of eternal life, grant, we beseech Thee, that meditating upon these mysteries of the Most Holy Rosary of the Blessed Virgin Mary, we may imitate what they contain and obtain what they promise, through the same Christ Our Lord. Amen."</li>
-                <li>Make the Sign of the Cross.</li>
-              </ol>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Tips for Beginners
+                A Gentle Plan for Your First Two Weeks
               </h2>
               <ul className="list-disc pl-6 mb-6 space-y-3 text-text">
-                <li><strong>Start with one decade:</strong> If a full Rosary feels overwhelming, start with just one decade — one Our Father, ten Hail Marys, one Glory Be, and one Fatima Prayer. Build from there.</li>
-                <li><strong>Use an app:</strong> Apps like "Rosary" or "Laudate" guide you through the prayers with audio, making it easy to learn while driving or walking.</li>
-                <li><strong>Don't worry about distractions:</strong> Every beginner (and every experienced pray-er) gets distracted. When you notice your mind has wandered, gently return to the mystery. The effort to return is itself a prayer.</li>
-                <li><strong>Pray it daily:</strong> The Rosary is most powerful when prayed consistently. Even one decade a day is better than a full Rosary once a week.</li>
-                <li><strong>Pray it with others:</strong> The family Rosary is one of the most powerful forms of family prayer. Our Lady of Fatima specifically asked for the daily family Rosary.</li>
+                <li><strong>Days 1–3:</strong> Pray only the opening (Stops 1–4) and a single decade. That takes about five minutes.</li>
+                <li><strong>Days 4–7:</strong> Pray the opening and two or three decades. Keep a printed card or this page open.</li>
+                <li><strong>Week 2:</strong> Pray all five decades and the closing at the medal. Try announcing each mystery from memory.</li>
+                <li><strong>After that:</strong> Choose a regular time and place. Consistency matters more than length.</li>
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The 15 Promises of the Rosary
+                Beginner Problems, Solved
               </h2>
-              <p className="text-text leading-relaxed mb-4">
-                Our Lady is said to have given Saint Dominic and Blessed Alan de la Roche fifteen promises for those who faithfully pray the Rosary. Among the most beloved:
-              </p>
-              <ul className="list-disc pl-6 mb-6 space-y-2 text-text text-sm">
-                <li>Whoever shall faithfully serve me by the recitation of the Rosary shall receive signal graces.</li>
-                <li>I promise my special protection and the greatest graces to all those who shall recite the Rosary.</li>
-                <li>The Rosary shall be a powerful armor against hell, it will destroy vice, decrease sin, and defeat heresies.</li>
-                <li>The soul which recommends itself to me by the recitation of the Rosary shall not perish.</li>
-                <li>Whoever shall recite the Rosary devoutly, applying himself to the consideration of its sacred mysteries, shall never be conquered by misfortune.</li>
-                <li>Those who are faithful to recite the Rosary shall have during their life and at their death the light of God and the plenitude of His graces.</li>
-                <li>I shall deliver from purgatory those who have been devoted to the Rosary.</li>
-                <li>The faithful children of the Rosary shall merit a high degree of glory in Heaven.</li>
+              <ul className="list-disc pl-6 mb-6 space-y-3 text-text">
+                <li><strong>"I lost count."</strong> That is what the beads are for. Look at where your fingers are and continue from there. If you said nine Hail Marys or eleven, God is not keeping score.</li>
+                <li><strong>"I forgot which mystery I was on."</strong> Count the large beads you have passed since the medal. One large bead passed means you are in the second decade, and so on.</li>
+                <li><strong>"I go too fast."</strong> Pause briefly at the comma in the middle of the Hail Mary, after the name "Jesus." That single breath slows the whole prayer.</li>
+                <li><strong>"My mind wanders."</strong> Everyone's does. Gently bring your attention back to the scene of the mystery. Each return is a small act of love.</li>
+                <li><strong>"I don't have beads."</strong> Use your ten fingers for each decade, or a free rosary card from your parish. Many Catholics pray one decade on their fingers during a short walk.</li>
               </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Praying It Aloud With Your Family
+              </h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">
+                When a family or parish group prays together, the prayers are split in two. The leader says the first half of the Our Father (through "on earth as it is in heaven") and everyone answers with the second half. For the Hail Mary, the leader prays up to "the fruit of thy womb, Jesus," and the group responds "Holy Mary, Mother of God..." For the Glory Be, the leader says the first line and the group answers "As it was in the beginning..." Children can take turns leading a decade, holding the beads, or announcing the mystery, which keeps even young ones involved.
+              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center leading-relaxed font-semibold text-lg">
-                  "The Rosary is my favorite prayer."
+                  "Hail, full of grace, the Lord is with you!"
                 </p>
-                <p className="text-text-muted text-center mt-2">— St. John Paul II</p>
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">Learn how to pray the Rosary step by step. Complete beginner&apos;s guide with all prayers, the 20 mysteries, how to hold the beads, and tips for praying with devotion. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="how-to-pray-the-rosary-step-by-step">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray How to Pray the Rosary Step by Step, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
+                <p className="text-text-muted text-center mt-2">— Luke 1:28, the angel's greeting that opens every Hail Mary</p>
+              </div>
             </div>
 
-              </div>
-
+            <TopicSeriesNav currentSlug="how-to-pray-the-rosary-step-by-step" />
             <BlogFAQ faqs={[
               {
-                question: "How long does it take to pray the Rosary?",
-                answer: "A full five-decade Rosary typically takes between 15 and 25 minutes, depending on your pace. Beginners often take a bit longer as they learn the prayers. With practice, many people find a comfortable rhythm of about 20 minutes. If time is short, praying just one decade (about 3-4 minutes) is a beautiful and valid practice."
+                question: "What do you say on the crucifix of a rosary?",
+                answer: "On the crucifix you make the Sign of the Cross and then pray the Apostles' Creed. At the very end of the Rosary you return to the crucifix for a final Sign of the Cross."
               },
               {
-                question: "Do I need Rosary beads to pray the Rosary?",
-                answer: "No — Rosary beads are a helpful tool, but they are not required. You can count the prayers on your fingers, use a knotted cord, or simply keep track mentally. Many saints prayed the Rosary without beads. That said, having a physical Rosary in your hands can help focus your attention and make the prayer more tactile and meditative."
+                question: "What prayer goes on the first large bead?",
+                answer: "The Our Father. The first large bead above the crucifix always carries an Our Father, and so does every other large bead, each of which introduces a new decade."
               },
               {
-                question: "What are the mysteries of the Rosary?",
-                answer: "The mysteries are scenes from the life of Jesus and Mary that you meditate on while praying each decade. There are 20 mysteries in four sets: the Joyful Mysteries (the Incarnation and childhood of Jesus), the Luminous Mysteries (Jesus' public ministry, added by St. John Paul II in 2002), the Sorrowful Mysteries (the Passion and death of Jesus), and the Glorious Mysteries (the Resurrection and the glory of heaven)."
+                question: "Which way do I go around the loop?",
+                answer: "Either way. There is no required direction around the circle. Just keep moving in the same direction so you do not repeat a decade."
               },
               {
-                question: "Can I pray just one decade of the Rosary?",
-                answer: "Yes, absolutely. While the full Rosary is five decades, praying even one decade is a genuine and valuable prayer. Many spiritual directors recommend starting with one decade and building up gradually. Our Lady of Fatima asked for the daily Rosary, but she also understands human limitations. One decade prayed with love and attention is worth more than five decades prayed distractedly."
+                question: "Do I say the Fatima Prayer after every decade?",
+                answer: "It is optional. Many Catholics add it after the Glory Be at the end of each decade, but the Rosary is complete without it."
               },
               {
-                question: "What is the Fatima Prayer?",
-                answer: "The Fatima Prayer (also called the 'O My Jesus' prayer) was given by Our Lady to the three shepherd children at Fatima in 1917. She asked that it be added after the Glory Be at the end of each decade of the Rosary. It reads: 'O my Jesus, forgive us our sins, save us from the fires of hell, lead all souls to Heaven, especially those most in need of Thy mercy.' It is a brief but powerful prayer for the salvation of souls."
+                question: "Should I pray the Rosary out loud or silently?",
+                answer: "Either is fine. Praying softly aloud helps many beginners keep focus and pace; praying silently is just as valid, especially in church or on public transport."
               },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
             ]} />
 
             <RelatedArticles currentSlug="how-to-pray-the-rosary-step-by-step" />

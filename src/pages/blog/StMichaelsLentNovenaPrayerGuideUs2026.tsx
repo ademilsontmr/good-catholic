@@ -23,19 +23,20 @@ import { StMichaelCboCTA, StMichaelCboLink } from "@/components/blog/StMichaelCb
 import { CBO_ST_MICHAELS_LENT_GUIDE } from "@/lib/catholicBibleOnlineLinks";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function StMichaelsLentNovenaPrayerGuideUs2026() {
   return (
     <>
       <Helmet>
-        <title>St. Michael&apos;s Lent Novena 2026: 40-Day Catholic Prayer Guide (USA) | Guide Catholic</title>
+        <title>St. Michael&apos;s Lent Novena: Complete Catholic Guide (US 2026) | Guide Catholic</title>
         <meta
           name="description"
-          content="St. Michael's Lent 2026 runs August 15–September 29. U.S. Catholic guide to the 40-day novena, fasting, spiritual warfare, calendar, and daily prayer."
+          content="The complete guide to St. Michael's Lent, August 15 to September 29: its Franciscan origin, the 46-day calendar, daily prayers, penance, and 2027 dates."
         />
         <meta
           name="keywords"
-          content="st michael's lent, st michael lent novena, st michael 40 day novena, prayer to st michael archangel, michaelmas 2026, assumption to september 29, spiritual warfare catholic usa"
+          content="st michael's lent, st michael's lent novena, what is st michael's lent, st michael's lent 2026, st michael's lent 2027, assumption to michaelmas, st michael novena guide"
         />
         <link
           rel="canonical"
@@ -44,8 +45,8 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="St. Michael's Lent Novena: 40-Day Catholic Prayer Guide (US 2026)"
-        description="St. Michael's Lent 2026 runs August 15–September 29. Complete U.S. Catholic guide to the 40-day novena, fasting, spiritual warfare, calendar, and daily prayer."
+        title="St. Michael's Lent Novena: The Complete Catholic Guide (US 2026)"
+        description="The complete guide to St. Michael's Lent, August 15 to September 29: its Franciscan origin, the 46-day calendar, daily prayers, penance, and 2027 dates."
         url="https://guidecatholic.com/blog/st-michaels-lent-novena-prayer-guide-us-2026/"
         datePublished="2026-08-06"
       />
@@ -54,7 +55,7 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
           {
-            name: "St. Michael's Lent Novena 2026",
+            name: "St. Michael's Lent: Complete Guide",
             url: "https://guidecatholic.com/blog/st-michaels-lent-novena-prayer-guide-us-2026/",
           },
         ]}
@@ -73,7 +74,7 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
                 Blog
               </Link>
               <span>/</span>
-              <span className="text-text">St. Michael&apos;s Lent Novena 2026</span>
+              <span className="text-text">St. Michael&apos;s Lent: Complete Guide</span>
             </nav>
           </div>
         </div>
@@ -104,13 +105,13 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
                 </span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                St. Michael&apos;s Lent Novena: 40-Day Catholic Prayer Guide (US 2026)
+                St. Michael&apos;s Lent: The Complete Catholic Guide to the Novena (US 2026)
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
-                Every August, American Catholics search for St. Michael&apos;s Lent — a season of prayer,
-                fasting, and penance from the Assumption (August 15) to Michaelmas (September 29). This
-                guide explains the devotion, how to live it in 2026, and where to pray the complete daily
-                novena online.
+                St. Michael&apos;s Lent is a season of prayer and penance from the Assumption (August 15)
+                to Michaelmas (September 29). This guide gathers the whole devotion in one place: what it
+                is, where it comes from, how the days are counted, what to pray, how to choose a penance,
+                and the dates for 2026 and 2027.
               </p>
             </header>
 
@@ -122,11 +123,12 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
                 <p className="text-lg text-text leading-relaxed font-medium">
-                  <strong>St. Michael&apos;s Lent</strong> is a 40-day Catholic devotion of prayer and penance
-                  honoring St. Michael the Archangel, traditionally from <strong>August 15</strong> (Assumption)
-                  to <strong>September 29</strong> (Feast of the Archangels). In 2026, U.S. Catholics pray
-                  daily, choose one sustainable penance, and ask Michael to defend souls, families, and the
-                  Church. For the full 46-day novena text with daily pages, see the{" "}
+                  <strong>St. Michael&apos;s Lent</strong> is a private Catholic devotion of prayer and penance
+                  in honor of St. Michael the Archangel, kept from <strong>August 15</strong> (the Assumption)
+                  through <strong>September 29</strong> (the feast of the Archangels): 46 days in all. It comes
+                  from St. Francis of Assisi, who kept this fast on Mount La Verna in 1224. The 2026 season has
+                  ended; the next runs from Sunday, August 15 to Wednesday, September 29, 2027. For the daily
+                  novena text, see the{" "}
                   <a
                     href={CBO_ST_MICHAELS_LENT_GUIDE}
                     target="_blank"
@@ -146,10 +148,9 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
                   Pray the Full 46-Day Novena (Free Online)
                 </h2>
                 <p className="text-text leading-relaxed mb-4">
-                  Guide Catholic explains the theology and discipline of St. Michael&apos;s Lent. For the
-                  complete daily prayer text — Sign of the Cross, St. Michael Prayer, litany, consecration,
-                  and angelic invocations for every calendar day from August 15 through September 29 — use
-                  Catholic Bible Online&apos;s dedicated novena series:
+                  Guide Catholic explains the devotion and how to keep it. The complete daily prayer text,
+                  with a page for every calendar day from August 15 through September 29, is published by
+                  Catholic Bible Online:
                 </p>
                 <a
                   href={CBO_ST_MICHAELS_LENT_GUIDE}
@@ -169,78 +170,53 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
                 className="text-text leading-relaxed mb-6"
                 currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
               >
-                St. Michael&apos;s Lent is a period of intensified prayer, fasting, and almsgiving in honor
-                of St. Michael the Archangel. It is a <em>pious custom</em> rooted in Franciscan tradition,
-                not a universal liturgical season like Lent before Easter. Still, popes, saints, and parishes
-                across the United States treat it as a serious time of spiritual combat — asking heaven&apos;s
-                prince to defend the faithful against evil, anxiety, addiction, and division.
+                St. Michael&apos;s Lent is a period of more intense prayer, fasting, and almsgiving offered in honor of St. Michael the Archangel. It is a pious custom rooted in Franciscan tradition, not a liturgical season of the universal Church like the Lent before Easter. No law requires it, no liturgical book prescribes it, and no one sins by skipping it. That freedom is part of its character: it is a gift offered, not a debt paid.
               </LinkedText>
               <LinkedText
                 className="text-text leading-relaxed mb-6"
                 currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
               >
-                The season traditionally opens on the{" "}
-                <strong>Feast of the Assumption of the Blessed Virgin Mary</strong> (August 15) and closes on
-                the <strong>Feast of Saints Michael, Gabriel, and Raphael</strong> (September 29), often
-                called Michaelmas in English-speaking countries. St. Francis of Assisi observed this period
-                with particular fervor; tradition holds that toward the end of one St. Michael&apos;s Lent he
-                received the stigmata on Mount La Verna — linking penance, angels, and the Cross in one of
-                the Church&apos;s most dramatic mystic events.
+                The season sits between two feasts. It opens with the Assumption, when the Church celebrates Mary taken body and soul into heaven, and closes on the feast of Saints Michael, Gabriel, and Raphael, often called Michaelmas in English-speaking countries. Between them, people choose one penance, pray daily, and ask Michael&apos;s protection for themselves, their families, and the Church.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
                 <BookOpen className="w-6 h-6 text-accent" />
-                Franciscan Origins: La Verna and the Stigmata
+                Where It Comes From, in Brief
               </h2>
               <LinkedText
                 className="text-text leading-relaxed mb-6"
                 currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
               >
-                In 1224, St. Francis withdrew to Mount La Verna for forty days of prayer and fasting in
-                honor of St. Michael, whom he revered as a mediator between God and humanity after the
-                Blessed Virgin. Francis had a deep devotion to the angels and saw Michael as the defender of
-                the Church and guide of souls toward Christ crucified. It was during this Lent that Francis
-                received the sacred stigmata — the wounds of Christ in his hands, feet, and side.
+                St. Francis of Assisi honored St. Michael with special devotion, and his biographer St. Bonaventure records that he kept a fast from the Assumption to Michael&apos;s feast. In the late summer of 1224, Francis made this fast on Mount La Verna in Tuscany. Around the feast of the Holy Cross that September, he received the stigmata, the wounds of Christ, after a vision of a seraph bearing the image of a crucified man. Franciscans kept the memory of that fast, and from them it spread to lay Catholics.
               </LinkedText>
               <p className="text-text leading-relaxed mb-6">
-                Franciscan communities and many lay Catholics in the U.S. still return to this devotion each
-                summer. The lesson is not that every penitent will receive extraordinary signs, but that
-                honoring the angels through sustained prayer opens the soul to deeper conformity with
-                Christ&apos;s passion — the only true victory in spiritual warfare.
+                The full story, including Francis&apos;s other &quot;Lents,&quot; the mountain itself, and the
+                nine choirs of angels that frame the devotion, is told in{" "}
+                <Link
+                  to="/blog/st-michael-lent-guide/"
+                  className="text-accent font-medium underline underline-offset-2 hover:text-accent/80"
+                >
+                  the origins of St. Michael&apos;s Lent
+                </Link>
+                .
               </p>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Why St. Michael Searches Spike in the United States
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
+                <Sword className="w-6 h-6 text-accent" />
+                Who St. Michael Is
               </h2>
               <LinkedText
                 className="text-text leading-relaxed mb-6"
                 currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
               >
-                St. Michael the Archangel ranks among the most searched saints in American Catholic life —
-                especially in states with strong devotional culture. After 2018, many pastors renewed the St.
-                Michael Prayer after Mass during crises in the Church. Pope Francis also encouraged reciting
-                it during October rosary intentions. By late summer, that devotion widens into a whole
-                season: spiritual warfare, family protection, parish renewal, and digital prayer apps that
-                popularized St. Michael&apos;s Lent for English-speaking Catholics.
+                Scripture names Michael in three books. In the Book of Daniel he is &quot;one of the chief princes&quot; who comes to help (Daniel 10:13) and &quot;the great prince&quot; who guards God&apos;s people (Daniel 12:1). The Letter of Jude calls him an archangel who, disputing with the devil, refuses to judge and says, &quot;May the Lord rebuke you&quot; (Jude 9). In Revelation 12:7-9, Michael and his angels fight the dragon and cast him down. His Hebrew name is a question, &quot;Who is like God?&quot;, and it is the opposite of the pride that refuses to serve.
               </LinkedText>
-              <ul className="list-disc list-inside text-text space-y-2 mb-6">
-                <li>
-                  <strong>Spiritual warfare</strong> — Catholics ask Michael to defend against evil, anxiety,
-                  and addiction
-                </li>
-                <li>
-                  <strong>Family protection</strong> — parents consecrate children and homes before the
-                  school year
-                </li>
-                <li>
-                  <strong>Parish renewal</strong> — men&apos;s groups, youth ministries, and RCIA cohorts
-                  adopt 40-day challenges
-                </li>
-                <li>
-                  <strong>Seasonal rhythm</strong> — Assumption to Michaelmas frames late summer as a
-                  &quot;mini-Lent&quot; before autumn feasts
-                </li>
-              </ul>
+              <LinkedText
+                className="text-text leading-relaxed mb-6"
+                currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
+              >
+                Catholic tradition honors Michael as defender of the Church, protector of the faithful in temptation, and companion of souls at the hour of death. He is a patron of police officers and soldiers. The Church celebrates him with Gabriel and Raphael on September 29, and the Guardian Angels three days later, on October 2.
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
                 St. Michael&apos;s Lent vs. the 9-Day St. Michael Novena
@@ -249,14 +225,10 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
                 className="text-text leading-relaxed mb-6"
                 currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
               >
-                Do not confuse the two devotions. <strong>St. Michael&apos;s Lent</strong> is roughly 40 days
-                of penance (August 15–September 29), often with the same daily prayer repeated each day to
-                form one sustained campaign. The <strong>9-day St. Michael novena</strong> is a classic
-                novena with different themes each day — humility, protection, courage — and can be prayed
-                anytime, not only in summer.
+                The two are easily confused. St. Michael&apos;s Lent is tied to the calendar: it starts on August 15 and ends on September 29, and the same core prayer is repeated each day so that the season forms one sustained effort. A nine-day St. Michael novena is a classic novena with a different theme on each day, and it can be prayed at any time of year, for example in the nine days before September 29 or before a hard decision.
               </LinkedText>
               <p className="text-text leading-relaxed mb-6">
-                For the seasonal lenten devotion with a daily page for every calendar day, use the{" "}
+                For the seasonal devotion with a page for every date, use the{" "}
                 <a
                   href={CBO_ST_MICHAELS_LENT_GUIDE}
                   target="_blank"
@@ -276,32 +248,102 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
               </p>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                How to Pray the St. Michael&apos;s Lent Novena (Daily Structure)
+                The Dates: 2026 and 2027
               </h2>
-              <p className="text-text leading-relaxed mb-4">
-                The full St. Michael&apos;s Lent novena on Catholic Bible Online includes, each day:
-              </p>
-              <ol className="list-decimal list-inside text-text space-y-3 mb-6">
-                <li>Sign of the Cross</li>
-                <li>
-                  <strong>Prayer to St. Michael the Archangel</strong> (&quot;defend us in battle…&quot;)
-                </li>
-                <li>Act of trust in the Sacred Heart of Jesus</li>
-                <li>
-                  Kyrie and litany invocations to St. Michael — wisdom, humility, victor over Satan,
-                  protector of the Church
-                </li>
-                <li>Lamb of God</li>
-                <li>Closing collect through St. Michael&apos;s intercession</li>
-                <li>
-                  Four Our Fathers — for St. Michael, St. Gabriel, St. Raphael, and your Guardian Angel
-                </li>
-                <li>Consecration to St. Michael for protection at the hour of death</li>
-              </ol>
+              <LinkedText
+                className="text-text leading-relaxed mb-6"
+                currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
+              >
+                Because both ends of the season are fixed feasts, the dates never move; only the weekdays do. In 2026 the Assumption fell on a Saturday, so the U.S. obligation to attend Mass that day was lifted, though many still began the season at Mass. In 2027 the Assumption falls on a Sunday, so the season opens at Sunday Mass. The table shows the main milestones and their day numbers.
+              </LinkedText>
+
+              <div className="overflow-x-auto mb-8">
+                <table className="w-full border-collapse text-sm">
+                  <thead>
+                    <tr className="bg-accent/10">
+                      <th className="border border-border p-3 text-left text-text">Milestone</th>
+                      <th className="border border-border p-3 text-left text-text">2026</th>
+                      <th className="border border-border p-3 text-left text-text">2027</th>
+                      <th className="border border-border p-3 text-left text-text">Day</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-text">
+                    <tr>
+                      <td className="border border-border p-3">Assumption: the season begins</td>
+                      <td className="border border-border p-3">Saturday, August 15</td>
+                      <td className="border border-border p-3">Sunday, August 15</td>
+                      <td className="border border-border p-3">1</td>
+                    </tr>
+                    <tr className="bg-background-muted/30">
+                      <td className="border border-border p-3">Midpoint</td>
+                      <td className="border border-border p-3">September 6</td>
+                      <td className="border border-border p-3">September 6</td>
+                      <td className="border border-border p-3">23</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-border p-3">Nativity of Mary</td>
+                      <td className="border border-border p-3">September 8</td>
+                      <td className="border border-border p-3">September 8</td>
+                      <td className="border border-border p-3">25</td>
+                    </tr>
+                    <tr className="bg-background-muted/30">
+                      <td className="border border-border p-3">Exaltation of the Holy Cross</td>
+                      <td className="border border-border p-3">September 14</td>
+                      <td className="border border-border p-3">September 14</td>
+                      <td className="border border-border p-3">31</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-border p-3">Our Lady of Sorrows</td>
+                      <td className="border border-border p-3">September 15</td>
+                      <td className="border border-border p-3">September 15</td>
+                      <td className="border border-border p-3">32</td>
+                    </tr>
+                    <tr className="bg-accent/5">
+                      <td className="border border-border p-3 font-medium">
+                        Saints Michael, Gabriel &amp; Raphael
+                      </td>
+                      <td className="border border-border p-3 font-medium">Tuesday, September 29</td>
+                      <td className="border border-border p-3 font-medium">Wednesday, September 29</td>
+                      <td className="border border-border p-3 font-medium">46</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
               <p className="text-text leading-relaxed mb-6">
-                Each day repeats this powerful text so the 40 days form one sustained campaign — not a
-                one-time recitation. The complete guide with milestone days (Day 1, Day 7, Day 32, Day 46)
-                is on{" "}
+                Why 46 days in a season called a Lent, how to find any day&apos;s number, and what to do
+                when you start late are covered in{" "}
+                <Link
+                  to="/blog/st-michaels-lent-46-day-novena/"
+                  className="text-accent font-medium underline underline-offset-2 hover:text-accent/80"
+                >
+                  how the 46 days are counted
+                </Link>
+                .
+              </p>
+
+              <QuizCTA
+                title="Are you under spiritual attack?"
+                description="Take our free Catholic assessment for personalized guidance on prayer, spiritual warfare, and building a daily routine that lasts."
+              />
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                What to Pray: An Overview
+              </h2>
+              <LinkedText
+                className="text-text leading-relaxed mb-6"
+                currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
+              >
+                The heart of the season is the Prayer to St. Michael the Archangel associated with Pope Leo XIII, which begins &quot;St. Michael the Archangel, defend us in battle.&quot; Most people pray it each day with an Our Father, a Hail Mary, and a Glory Be, and name one intention. Some add the Chaplet of St. Michael, a short daily reading from Scripture, and the prayer to their Guardian Angel.
+              </LinkedText>
+              <p className="text-text leading-relaxed mb-6">
+                The full texts, a ten-minute daily order, and Scripture for each week are on the page{" "}
+                <Link
+                  to="/blog/st-michaels-lent-novena-how-to-pray/"
+                  className="text-accent font-medium underline underline-offset-2 hover:text-accent/80"
+                >
+                  what to pray each day of St. Michael&apos;s Lent
+                </Link>
+                . The longer daily novena, with a litany and consecration, is on{" "}
                 <a
                   href={CBO_ST_MICHAELS_LENT_GUIDE}
                   target="_blank"
@@ -316,278 +358,110 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
               <div className="bg-orange-50 border border-orange-200 rounded-xl p-8 mb-10">
                 <h3 className="font-bold text-text mb-4 text-center text-lg flex items-center justify-center gap-2">
                   <Flame className="w-5 h-5 text-orange-600" />
-                  The Three Pillars of St. Michael&apos;s Lent
+                  The Three Works of St. Michael&apos;s Lent
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div className="text-center">
                     <h4 className="font-bold text-orange-800 text-sm mb-2 uppercase tracking-wide">Prayer</h4>
                     <p className="text-sm text-text-muted">
-                      Daily novena + St. Michael Prayer. Optional: Chaplet of St. Michael or Rosary.
+                      The St. Michael prayer every day, with the novena or chaplet if time allows.
                     </p>
                   </div>
                   <div className="text-center">
                     <h4 className="font-bold text-orange-800 text-sm mb-2 uppercase tracking-wide">Penance</h4>
                     <p className="text-sm text-text-muted">
-                      One sustainable fast — media, sweets, or idle talk — not extreme bodily mortification.
+                      One chosen sacrifice kept for the whole season, suited to your health and duties.
                     </p>
                   </div>
                   <div className="text-center">
                     <h4 className="font-bold text-orange-800 text-sm mb-2 uppercase tracking-wide">Charity</h4>
                     <p className="text-sm text-text-muted">
-                      Weekly work of mercy so prayer turns outward — almsgiving, visitation, or service.
+                      A regular work of mercy, so the season turns outward toward others.
                     </p>
                   </div>
                 </div>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                2026 Calendar: August 15 to September 29
+                Penance: The Principles
               </h2>
               <LinkedText
                 className="text-text leading-relaxed mb-6"
                 currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
               >
-                American Catholics often count calendar days from Assumption to Michaelmas. The Catholic Bible
-                Online novena follows that rhythm across <strong>46 calendar days</strong>. Some traditions
-                exclude Sundays from fasting counts; prayer can still be offered daily. Note: in 2026 the
-                Assumption (August 15) falls on Saturday — the U.S. Mass obligation for that solemnity is
-                abrogated, but Catholics are still encouraged to attend Mass and begin the novena that day.
+                The Church&apos;s fasting laws for Ash Wednesday and Good Friday do not apply to St. Michael&apos;s Lent. Each person chooses a penance freely, and the wise choice is usually one sacrifice kept for 46 days rather than several abandoned after a week. The penance should fit your state of life and health; children, the sick, pregnant women, and anyone with a history of disordered eating should not attempt a food fast. If a penance is severe, talk it over with a confessor first.
               </LinkedText>
-
-              <div className="overflow-x-auto mb-8">
-                <table className="w-full border-collapse text-sm">
-                  <thead>
-                    <tr className="bg-accent/10">
-                      <th className="border border-border p-3 text-left text-text">Milestone</th>
-                      <th className="border border-border p-3 text-left text-text">Date (2026)</th>
-                      <th className="border border-border p-3 text-left text-text">Novena day</th>
-                    </tr>
-                  </thead>
-                  <tbody className="text-text">
-                    <tr>
-                      <td className="border border-border p-3">Assumption of Mary — novena begins</td>
-                      <td className="border border-border p-3">August 15 (Saturday)</td>
-                      <td className="border border-border p-3">Day 1</td>
-                    </tr>
-                    <tr className="bg-background-muted/30">
-                      <td className="border border-border p-3">Queenship of Mary</td>
-                      <td className="border border-border p-3">August 22</td>
-                      <td className="border border-border p-3">Day 8</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-border p-3">St. Monica / St. Augustine</td>
-                      <td className="border border-border p-3">August 27–28</td>
-                      <td className="border border-border p-3">Days 13–14</td>
-                    </tr>
-                    <tr className="bg-background-muted/30">
-                      <td className="border border-border p-3">St. Michael&apos;s Lent midpoint</td>
-                      <td className="border border-border p-3">~September 1</td>
-                      <td className="border border-border p-3">Day 18</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-border p-3">Birth of Mary</td>
-                      <td className="border border-border p-3">September 8</td>
-                      <td className="border border-border p-3">Day 25</td>
-                    </tr>
-                    <tr className="bg-background-muted/30">
-                      <td className="border border-border p-3">Exaltation of the Holy Cross</td>
-                      <td className="border border-border p-3">September 14</td>
-                      <td className="border border-border p-3">Day 31</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-border p-3">Our Lady of Sorrows</td>
-                      <td className="border border-border p-3">September 15</td>
-                      <td className="border border-border p-3">Day 32</td>
-                    </tr>
-                    <tr className="bg-accent/5">
-                      <td className="border border-border p-3 font-medium">
-                        Feast of St. Michael, Gabriel &amp; Raphael
-                      </td>
-                      <td className="border border-border p-3 font-medium">September 29 (Tuesday)</td>
-                      <td className="border border-border p-3 font-medium">Day 46</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <QuizCTA
-                title="Are you under spiritual attack?"
-                description="Take our free Catholic assessment for personalized guidance on prayer, spiritual warfare, and building a daily routine that lasts."
-              />
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Penance &amp; Fasting: A Practical U.S. Plan
-              </h2>
               <LinkedText
                 className="text-text leading-relaxed mb-6"
                 currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
               >
-                St. Michael&apos;s Lent is &quot;mini-Lent.&quot; American lay Catholics commonly choose{" "}
-                <em>one</em> penance for the whole season rather than copying monastic rigor. Ash Wednesday
-                fasting rules do not automatically apply; the goal is sustained discipline aligned with your
-                state of life.
+                Penance belongs with mercy. A weekly work of charity, confession at least once during the season, and Mass when you can keep the devotion from turning into a private test of willpower. A good measure of success is whether the people you live with find you more patient on September 29 than on August 15.
               </LinkedText>
-              <ul className="list-disc list-inside text-text space-y-2 mb-6">
-                <li>
-                  <strong>Fasting</strong> — bread and sweets on Wednesdays or Fridays, or one meal skipped
-                  weekly
-                </li>
-                <li>
-                  <strong>Media fast</strong> — limit social media (high impact for teens and adults)
-                </li>
-                <li>
-                  <strong>Almsgiving</strong> — support pregnancy centers, food pantries, or parish St.
-                  Vincent de Paul
-                </li>
-                <li>
-                  <strong>Sacraments</strong> — monthly Confession minimum; weekly Mass if possible
-                </li>
-                <li>
-                  <strong>Angel prayers</strong> — daily novena from{" "}
-                  <a
-                    href={CBO_ST_MICHAELS_LENT_GUIDE}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent underline underline-offset-2 hover:text-accent/80"
-                  >
-                    Catholic Bible Online
-                  </a>{" "}
-                  plus the short St. Michael Prayer
-                </li>
-              </ul>
               <p className="text-text leading-relaxed mb-6">
-                Pair penance with mercy: one work of charity each week so prayer does not turn inward. The
-                Church teaches that fasting without love is empty; St. Michael&apos;s Lent should make you
-                bolder in service, not merely stricter in rules.
+                For a menu of penances, a daily schedule, and what to do when you fall behind, see the{" "}
+                <Link
+                  to="/blog/st-michael-lent-2026/"
+                  className="text-accent font-medium underline underline-offset-2 hover:text-accent/80"
+                >
+                  practical plan for St. Michael&apos;s Lent
+                </Link>
+                .
               </p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
-                <Sword className="w-6 h-6 text-accent" />
-                Spiritual Warfare: Why Americans Pray St. Michael Now
-              </h2>
-              <LinkedText
-                className="text-text leading-relaxed mb-6"
-                currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
-              >
-                Scripture presents Michael as the great prince who protects God&apos;s people (Daniel 12) and
-                the leader of heaven&apos;s armies against the dragon (Revelation 12). His name —{" "}
-                <em>Quis ut Deus?</em> / &quot;Who is like God?&quot; — is the antidote to pride. U.S.
-                Catholics invoke Michael for protection of children and schools, healing after trauma or
-                addiction, peace in divided families, defense of religious freedom, and comfort at the hour
-                of death.
-              </LinkedText>
-              <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">
-                  Prayer to St. Michael the Archangel
-                </h3>
-                <p className="text-text italic leading-relaxed text-sm">
-                  Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness
-                  and snares of the devil. May God rebuke him, we humbly pray; and do Thou, O Prince of the
-                  Heavenly Host, by the power of God, cast into hell Satan and all the evil spirits who prowl
-                  about the world seeking the ruin of souls. Amen.
-                </p>
-              </div>
-              <LinkedText
-                className="text-text leading-relaxed mb-6"
-                currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
-              >
-                Pope Leo XIII composed this prayer after a vision of spiritual battle; many U.S. parishes
-                still recite it after Mass. St. Michael does not win by his own power but by the Blood of the
-                Lamb — he helps the faithful remain at the foot of the Cross. For deeper background, see our
-                guides to the Feast of the Archangels and the Chaplet of St. Michael.
-              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4 flex items-center gap-2">
                 <Heart className="w-6 h-6 text-accent" />
-                Who Should Pray This Novena?
+                Who Keeps St. Michael&apos;s Lent?
               </h2>
               <ul className="list-disc list-inside text-text space-y-2 mb-6">
                 <li>
-                  <strong>Parents</strong> consecrating the home before the school year
+                  <strong>Parents</strong> asking protection for their children as the school year begins
                 </li>
                 <li>
-                  <strong>Police, military, firefighters</strong> — St. Michael is patron of protectors
+                  <strong>Police, military, and first responders</strong>, who claim Michael as patron
                 </li>
                 <li>
-                  <strong>Anyone in RCIA</strong> or returning to the Church seeking structure
+                  <strong>People in OCIA</strong> (formerly RCIA) or returning to the Church who want a structure for prayer
                 </li>
                 <li>
-                  <strong>Parishes</strong> running a 40-day &quot;spiritual combat&quot; group
+                  <strong>Parish groups</strong> that pray the season together, often men&apos;s or youth groups
                 </li>
                 <li>
-                  <strong>Catholics who missed Lent</strong> and want a second chance at sustained penance
+                  <strong>Anyone fighting a stubborn sin</strong> who wants a defined season to fight it
                 </li>
               </ul>
-              <p className="text-text leading-relaxed mb-6">
-                You may join late — start on today&apos;s novena day and continue through September 29.
-                Consistency matters more than perfection. If you begin after August 15, open the current day
-                on{" "}
-                <a
-                  href={CBO_ST_MICHAELS_LENT_GUIDE}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent font-medium underline underline-offset-2 hover:text-accent/80"
-                >
-                  Catholic Bible Online
-                </a>{" "}
-                and keep going.
-              </p>
+              <LinkedText
+                className="text-text leading-relaxed mb-6"
+                currentSlug="st-michaels-lent-novena-prayer-guide-us-2026"
+              >
+                Franciscan friaries and some parishes mark the season publicly, with the St. Michael prayer after Mass or a closing Mass on September 29. Ask your parish whether anything is planned; if not, the devotion works perfectly well alone or as a family at home.
+              </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Sample Daily Routine (15–20 Minutes)
-              </h2>
-              <ol className="list-decimal list-inside text-text space-y-3 mb-8">
-                <li>Sign of the Cross + one minute of silence</li>
-                <li>
-                  Read today&apos;s St. Michael&apos;s Lent novena page slowly (
-                  <a
-                    href={CBO_ST_MICHAELS_LENT_GUIDE}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-accent underline underline-offset-2 hover:text-accent/80"
-                  >
-                    Catholic Bible Online
-                  </a>
-                  )
-                </li>
-                <li>State one intention (family, nation, Church, personal struggle)</li>
-                <li>One Our Father, Hail Mary, Glory Be for the holy angels</li>
-                <li>Optional: decade of the Rosary (Our Lady, Queen of Angels)</li>
-                <li>Sign of the Cross</li>
-              </ol>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Scripture for St. Michael&apos;s Lent
+                Scripture to Keep Close
               </h2>
               <ul className="list-disc list-inside text-text space-y-2 mb-8">
                 <li>
-                  <strong>Daniel 10</strong> — Michael as heavenly helper
+                  <strong>Daniel 10 and 12</strong>: Michael, the great prince
                 </li>
                 <li>
-                  <strong>Daniel 12</strong> — Michael, the great prince
+                  <strong>Jude 9</strong>: Michael leaves judgment to God
                 </li>
                 <li>
-                  <strong>Jude 1:9</strong> — Michael contends with the devil
+                  <strong>Revelation 12:7-9</strong>: the war in heaven
                 </li>
                 <li>
-                  <strong>Revelation 12:7–9</strong> — war in heaven
-                </li>
-                <li>
-                  <strong>Ephesians 6:10–18</strong> — armor of God
-                </li>
-                <li>
-                  <strong>Luke 1:26–38</strong> — Gabriel announces Christ (honor all archangels)
+                  <strong>Ephesians 6:10-18</strong>: the armor of God
                 </li>
               </ul>
 
               <div className="rounded-xl border border-accent/30 bg-accent/5 p-6 md:p-8 mb-8">
                 <h2 className="font-display text-xl font-bold text-text mb-3 mt-0">
-                  Begin St. Michael&apos;s Lent Today
+                  Preparing for August 15, 2027
                 </h2>
                 <p className="text-text leading-relaxed mb-4">
-                  American search interest in St. Michael&apos;s Lent rises every year from Assumption through
-                  Michaelmas. Do not wait for the perfect discipline — pray the novena today, choose one
-                  penance, and ask the Prince of the Heavenly Host to defend you and those you love.
+                  You do not have to wait until August to begin. Learn the St. Michael prayer now, decide
+                  your penance in early summer, and bookmark the novena so Day 1 is ready when the
+                  Assumption comes.
                 </p>
                 <a
                   href={CBO_ST_MICHAELS_LENT_GUIDE}
@@ -595,38 +469,39 @@ export default function StMichaelsLentNovenaPrayerGuideUs2026() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-button-text transition-colors hover:bg-accent/90"
                 >
-                  Start the 46-Day Novena on Catholic Bible Online
+                  Open the 46-Day Novena on Catholic Bible Online
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </div>
             </div>
 
+            <TopicSeriesNav currentSlug="st-michaels-lent-novena-prayer-guide-us-2026" />
             <BlogFAQ
               linkAnswersSlug="st-michaels-lent-novena-prayer-guide-us-2026"
               faqs={[
                 {
-                  question: "When does St. Michael's Lent start and end in 2026?",
-                  answer: "It traditionally begins August 15 (Assumption) and ends September 29 (Feast of the Archangels). The Catholic Bible Online novena covers every calendar day in between — 46 days total.",
+                  question: "When does St. Michael's Lent start and end?",
+                  answer: "Every year it begins on August 15, the Assumption, and ends on September 29, the feast of the Archangels. In 2027 that is Sunday, August 15 through Wednesday, September 29.",
                 },
                 {
                   question: "Is St. Michael's Lent official in the Catholic Church?",
-                  answer: "It is an approved pious devotion rooted in Franciscan tradition, not a universal liturgical season like Easter Lent. Bishops and pastors may encourage it locally without imposing it as law.",
+                  answer: "It is a pious devotion rooted in Franciscan tradition, not a liturgical season of the universal Church. Pastors may encourage it, but it is never an obligation.",
                 },
                 {
-                  question: "How long is the St. Michael's Lent novena?",
-                  answer: "46 daily prayers on Catholic Bible Online — one for each calendar day from August 15 through September 29. The underlying penance is often described as 40 days.",
+                  question: "Who started St. Michael's Lent?",
+                  answer: "It goes back to St. Francis of Assisi, who kept a fast in honor of St. Michael from the Assumption to his feast, most famously on Mount La Verna in 1224.",
                 },
                 {
-                  question: "Can I start the novena if I missed August 15?",
-                  answer: "Yes. Begin on the current day and finish on September 29, or start at Day 1 and extend past the feast — consistency matters more than perfection.",
+                  question: "Is St. Michael's Lent the same as a St. Michael novena?",
+                  answer: "No. St. Michael's Lent is a 46-day season tied to fixed dates. A nine-day St. Michael novena can be prayed at any time of year.",
                 },
                 {
-                  question: "What is the difference between the St. Michael prayer and the full novena?",
-                  answer: "The short Prayer to St. Michael takes under a minute. The full St. Michael's Lent novena adds litany, consecration, and angelic intercession — about 15 minutes per day.",
+                  question: "Is Michaelmas a holy day of obligation?",
+                  answer: "No. September 29 is a feast in the U.S. calendar, not a Holy Day of Obligation, though attending Mass that day is a fitting way to end the season.",
                 },
                 {
-                  question: "Is the Assumption a holy day of obligation in 2026?",
-                  answer: "In U.S. Latin Rite dioceses, no — August 15 falls on Saturday and the Mass precept is abrogated. Catholics are still encouraged to attend Mass and begin St. Michael's Lent that day.",
+                  question: "Was the Assumption a holy day of obligation in 2026?",
+                  answer: "In U.S. Latin Church dioceses, no. August 15, 2026 fell on a Saturday, and the obligation is lifted when the Assumption falls on a Saturday or Monday.",
                 },
               ]}
             />

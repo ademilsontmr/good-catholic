@@ -13,40 +13,42 @@ import { ArticleSchema, BreadcrumbSchema, HowToSchema } from "@/components/blog/
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function ExaminationOfConscienceGuide() {
   return (
     <>
       <Helmet>
-        <title>How to Make an Examination of Conscience: Complete Catholic Guide | Guide Catholic</title>
-        <meta name="description" content="How to make an examination of conscience using the Ignatian Examen and the 10 Commandments. A Catholic guide for daily and pre-Confession examination." />
-        <meta name="keywords" content="examination of conscience, how to examine conscience, catholic examination of conscience, examen prayer, daily examen" />
+        <title>The Daily Examen: St. Ignatius&apos;s 5 Steps and Scrupulosity | Guide Catholic</title>
+        <meta name="description" content="How to pray the daily Ignatian Examen in five steps, how it differs from preparing for Confession, and how to keep a healthy conscience free of scrupulosity." />
+        <meta name="keywords" content="daily examen, ignatian examen, examen prayer steps, examination of conscience daily, scrupulosity catholic, healthy conscience" />
         <link rel="canonical" href="https://guidecatholic.com/blog/examination-of-conscience-guide/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
         <ArticleSchema
-          title="How to Make an Examination of Conscience: Complete Catholic Guide"
-          description="How to make an examination of conscience using the Ignatian Examen and the 10 Commandments. A Catholic guide for daily and pre-Confession examination."
+          title="The Daily Examen: St. Ignatius's 5 Steps and Scrupulosity"
+          description="How to pray the daily Ignatian Examen in five steps, how it differs from preparing for Confession, and how to keep a healthy conscience free of scrupulosity."
           url="https://guidecatholic.com/blog/examination-of-conscience-guide/"
+          dateModified="2026-11-19"
         />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
-          { name: "Examination of Conscience Guide", url: "https://guidecatholic.com/blog/examination-of-conscience-guide/" },
+          { name: "The Daily Examen", url: "https://guidecatholic.com/blog/examination-of-conscience-guide/" },
         ]}
       />
         <HowToSchema
-          name="How to Make an Examination of Conscience"
-          description="Complete Catholic guide to making a daily and pre-Confession examination of conscience."
+          name="How to Pray the Daily Ignatian Examen"
+          description="The five steps of St. Ignatius of Loyola's daily Examen, prayed in about ten to fifteen minutes at the end of the day."
           url="https://guidecatholic.com/blog/examination-of-conscience-guide/"
-          totalTime="PT10M"
+          totalTime="PT15M"
           steps={[
-            {"name": "Begin with Prayer", "text": "Ask the Holy Spirit to enlighten your mind and help you see your sins clearly."},
-          {"name": "Review Your Day", "text": "Go through the events of the day, noticing where you fell short of God's will."},
-          {"name": "Examine Against the Commandments", "text": "Review your thoughts, words, and actions against the Ten Commandments and Church precepts."},
-          {"name": "Express Sorrow", "text": "Acknowledge your sins with genuine sorrow and ask God for forgiveness."},
-          {"name": "Resolve to Amend", "text": "Make a firm resolution to avoid sin and its occasions, and to go to Confession if needed."}
+            {"name": "Give thanks", "text": "Recall the concrete gifts of the day and thank God for them."},
+          {"name": "Ask for light", "text": "Ask the Holy Spirit for the grace to see the day as God sees it."},
+          {"name": "Review the day", "text": "Walk through the day from waking until now, noticing where you responded to grace and where you resisted it."},
+          {"name": "Ask forgiveness", "text": "Tell God simply where you fell short and ask for His mercy."},
+          {"name": "Resolve for tomorrow", "text": "Choose one concrete change for tomorrow and ask for the grace to keep it, ending with the Our Father."}
           ]}
         />
 
@@ -60,7 +62,7 @@ export default function ExaminationOfConscienceGuide() {
               <span>/</span>
               <Link to="/blog" className="hover:text-accent">Blog</Link>
               <span>/</span>
-              <span className="text-text">Examination of Conscience Guide</span>
+              <span className="text-text">The Daily Examen</span>
             </nav>
           </div>
         </div>
@@ -89,11 +91,11 @@ export default function ExaminationOfConscienceGuide() {
               </div>
 
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                How to Make an Examination of Conscience: Complete Catholic Guide
+                The Daily Examen: St. Ignatius&apos;s 5 Steps and Scrupulosity
               </h1>
 
               <p className="text-xl text-text-muted leading-relaxed">
-                The examination of conscience is one of the most powerful spiritual practices in the Catholic tradition. Done daily, it keeps your conscience sensitive, your relationship with God honest, and your soul prepared for the grace of Confession.
+                The Examen is a short evening prayer in which you look back over the day with God. Here is how to pray its five steps, how it fits alongside Confession, and how to keep the habit healthy if you tend toward anxiety or scruples.
               </p>
             </header>
 
@@ -104,59 +106,50 @@ export default function ExaminationOfConscienceGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">An examination of conscience reviews thoughts, words, and deeds against the Ten Commandments and virtues before Confession — asking where you failed to love God and neighbor. Catholic guides often use commandment lists, Beatitudes, or vocation-specific questions for married, single, or youth.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The daily Examen takes about ten to fifteen minutes: give thanks, ask for light, review the day, ask forgiveness, and resolve for tomorrow. It is a prayer, not a sacrament — it builds self-knowledge and gratitude, while grave sin still needs Confession.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                In a culture that rarely encourages honest self-reflection, the Catholic practice of examining one's conscience stands out as countercultural and profoundly liberating. Rather than suppressing guilt or rationalizing sin, the examination of conscience invites us to look honestly at our lives in the light of God's love — not to condemn ourselves, but to receive His mercy and grow in holiness.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                There are two main forms of examination of conscience in the Catholic tradition: the Ignatian Examen, a daily prayer practice developed by St. Ignatius of Loyola, and the pre-Confession examination, which uses the Ten Commandments and other moral frameworks to prepare for the Sacrament of Reconciliation. Both are essential tools for the serious Catholic. This guide covers both in detail.
+                Most of us end the day scrolling, not praying. The Examen offers a different last word: a few quiet minutes in which you ask where God was present today, where you cooperated with His grace, and where you turned away. Practiced daily, it becomes less a self-inspection and more a conversation with Someone who already knows the day better than you do.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                What Is the Examination of Conscience?
+                Where the Examen Comes From
               </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                The examination of conscience (also called the "examen" or "examination of consciousness") is a prayerful review of one's thoughts, words, actions, and omissions in the presence of God. It is not a psychological exercise in self-analysis but a spiritual practice of standing before God and asking: "Lord, how have I lived this day? Where have I responded to Your grace? Where have I failed?"
+                St. Ignatius of Loyola (1491–1556), founder of the Society of Jesus, included a "general examination of conscience" in his Spiritual Exercises. He laid it out in five points: thanking God for benefits received, asking for grace to know one&apos;s sins, reviewing the day hour by hour, asking pardon, and resolving to amend with God&apos;s grace, followed by the Our Father. Modern versions of the Examen are adaptations of that outline.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                The Catechism of the Catholic Church teaches that "the education of the conscience is a lifelong task" (CCC 1784). The examination of conscience is the primary tool for this education. Without regular self-examination, our conscience becomes dull — we stop noticing our sins, we rationalize our failures, and we gradually drift from God without realizing it.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                St. Ignatius of Loyola considered the daily Examen so important that he said if a Jesuit could only pray one thing each day, it should be the Examen — not Mass, not the Liturgy of the Hours, but the Examen. This is a remarkable statement from a man who valued prayer above almost everything else.
+                Ignatius gave this short prayer a central place in Jesuit life, and Jesuits still pray it daily. Its strength is that it is portable: it needs no book, no chapel and no special posture, only honesty and a few minutes. The Catechism reminds us that "the education of the conscience is a lifelong task" (CCC 1784); the Examen is one of the simplest daily tools for that education.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                The Ignatian Examen: Five Steps
+                How to Pray the Examen: Five Steps
               </h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                St. Ignatius of Loyola (1491–1556), founder of the Jesuits, developed the Examen as a structured daily prayer that reviews the day in God's presence. It takes 10–15 minutes and is typically prayed at the end of the day, though some people pray it at midday as well. Here are the five steps:
-              </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-4">The Five Steps of the Ignatian Examen</h3>
                 <div className="space-y-4 text-text">
                   <div>
                     <p className="font-semibold">1. Gratitude — Give thanks</p>
-                    <p className="text-sm mt-1">Begin by recalling the gifts of the day. What are you grateful for? A conversation, a meal, a moment of beauty, a grace received? Gratitude opens the heart and sets the right tone for honest self-reflection.</p>
+                    <p className="text-sm mt-1">Name three or four specific gifts from today: the coffee with a friend, a child&apos;s laugh, an answered email, the strength to get through a hard meeting. Ignatius put thanksgiving first because gratitude reminds us that the day was God&apos;s gift before it was our project.</p>
                   </div>
                   <div>
                     <p className="font-semibold">2. Petition — Ask for light</p>
-                    <p className="text-sm mt-1">Ask the Holy Spirit to illuminate your conscience. You cannot examine yourself accurately without God's help. Pray: "Lord, show me where I have been faithful and where I have fallen short."</p>
+                    <p className="text-sm mt-1">Ask the Holy Spirit to let you see the day truthfully, neither excusing yourself nor condemning yourself. A simple line is enough: &quot;Lord, show me today as You saw it.&quot;</p>
                   </div>
                   <div>
                     <p className="font-semibold">3. Review — Walk through the day</p>
-                    <p className="text-sm mt-1">Slowly review the day from morning to now. Notice the moments of consolation (when you felt close to God, at peace, loving) and desolation (when you felt distant from God, anxious, selfish). Where did you respond well to grace? Where did you resist it?</p>
+                    <p className="text-sm mt-1">Replay the day from waking to now, like watching a film. Pause where something stands out: a moment of peace or love (consolation), or a moment of irritation, fear, or coldness toward God (desolation). Ask what was happening in your heart at those moments.</p>
                   </div>
                   <div>
-                    <p className="font-semibold">4. Contrition — Express sorrow</p>
-                    <p className="text-sm mt-1">For the moments of failure, express genuine sorrow. Not self-flagellation, but honest acknowledgment: "Lord, I was impatient with my spouse. I was dishonest in that conversation. I neglected prayer this morning. I am sorry." Ask for forgiveness and the grace to do better.</p>
+                    <p className="font-semibold">4. Forgiveness — Ask pardon</p>
+                    <p className="text-sm mt-1">Tell God plainly where you fell short: the sharp reply, the lie of convenience, the prayer you skipped. Ask for mercy. Keep it brief; you are speaking to a Father, not filing a report.</p>
                   </div>
                   <div>
-                    <p className="font-semibold">5. Resolution — Look forward</p>
-                    <p className="text-sm mt-1">End by looking to tomorrow. Is there a specific area where you want to grow? A relationship to repair? A virtue to practice? Make a concrete resolution and ask God for the grace to keep it.</p>
+                    <p className="font-semibold">5. Resolution — Look to tomorrow</p>
+                    <p className="text-sm mt-1">Pick one concrete thing for tomorrow: apologize to a coworker, put the phone in another room at dinner, pray before the commute. Ask for the grace to do it, and close with an Our Father.</p>
                   </div>
                 </div>
               </div>
@@ -167,76 +160,87 @@ export default function ExaminationOfConscienceGuide() {
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Examination Before Confession: Using the Ten Commandments
+                Consolation and Desolation: What You Are Noticing
               </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                Before going to Confession, Catholics are expected to make a thorough examination of conscience — reviewing their sins since their last Confession. The most traditional framework for this is the Ten Commandments, which cover the full range of our obligations to God and neighbor.
+                Ignatius taught people to pay attention to the movements of the heart. Consolation is any interior movement that draws you toward God, faith, hope, and love, even when it is quiet. Desolation is the opposite: restlessness, discouragement, or a pull away from prayer and charity. The Examen is not only about sins. Noticing where you felt drawn toward God helps you recognize His action in ordinary life and choose more of what leads there.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
+                Over weeks, patterns appear. You may notice that you are most impatient when you skip lunch, or most peaceful on days you pray before checking messages. Those patterns are often more useful than a list of individual faults, and they make it easier to name your habitual sins when you do go to Confession.
               </LinkedText>
 
-              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
-                Examination by the Ten Commandments
-              </h3>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>1st Commandment (No other gods):</strong> Have I put anything before God — money, pleasure, approval, comfort? Have I practiced superstition, consulted horoscopes, or engaged in occult practices?</li>
-                <li><strong>2nd Commandment (No taking God's name in vain):</strong> Have I used God's name carelessly or as a curse? Have I made promises in God's name that I didn't keep?</li>
-                <li><strong>3rd Commandment (Keep holy the Sabbath):</strong> Have I missed Mass on Sundays or holy days of obligation without a serious reason? Have I treated Sunday as just another day?</li>
-                <li><strong>4th Commandment (Honor father and mother):</strong> Have I been disrespectful to parents, teachers, or legitimate authority? Have I neglected my duties to my family?</li>
-                <li><strong>5th Commandment (Do not kill):</strong> Have I harmed anyone physically or emotionally? Have I harbored hatred, anger, or resentment? Have I supported abortion or euthanasia?</li>
-                <li><strong>6th Commandment (Do not commit adultery):</strong> Have I been faithful to my spouse in thought, word, and deed? Have I viewed pornography? Have I engaged in sexual activity outside of marriage?</li>
-                <li><strong>7th Commandment (Do not steal):</strong> Have I taken what doesn't belong to me? Have I been dishonest in business? Have I failed to pay just wages or debts?</li>
-                <li><strong>8th Commandment (Do not bear false witness):</strong> Have I lied? Have I gossiped or damaged someone's reputation? Have I failed to keep confidences?</li>
-                <li><strong>9th Commandment (Do not covet your neighbor's wife):</strong> Have I entertained lustful thoughts? Have I deliberately sought out occasions of sexual temptation?</li>
-                <li><strong>10th Commandment (Do not covet your neighbor's goods):</strong> Have I been envious of others' success, possessions, or relationships? Have I been greedy or materialistic?</li>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
+                Making the Habit Stick
+              </h2>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                <li><strong>Anchor it:</strong> pray it at the same time each night, such as after brushing your teeth or before turning off the light.</li>
+                <li><strong>Keep it short:</strong> ten minutes prayed daily is better than forty minutes once a month.</li>
+                <li><strong>Try a midday version:</strong> a two-minute pause at lunch to ask &quot;How am I doing so far?&quot; helps you course-correct before evening.</li>
+                <li><strong>Write one line:</strong> some people keep a small notebook with a single sentence of gratitude and one resolution.</li>
+                <li><strong>Pray it as a couple or family:</strong> ask everyone for one thing they are grateful for and one thing they are sorry for.</li>
+                <li><strong>Don&apos;t quit after a missed night:</strong> just pick it up again the next evening.</li>
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Daily vs. Pre-Confession Examination
+                The Examen and Confession: Different Jobs
               </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                The daily Examen and the pre-Confession examination serve different purposes. The daily Examen is a prayer practice focused on growing in self-awareness and intimacy with God. It is not primarily about cataloguing sins but about noticing the movements of grace and resistance in your soul. It takes 10–15 minutes and is done every day.
+                The Examen is a spiritual practice; Confession is a sacrament. The Examen helps you know yourself and grow day by day, and the sorrow you express in it is real prayer. But it does not absolve mortal sin. If the Examen brings a serious sin to light, make an Act of Contrition that night and go to Confession soon.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                The pre-Confession examination is more systematic and thorough. It reviews your sins since your last Confession, using the Ten Commandments or another moral framework to ensure you haven't forgotten anything serious. It is done before going to Confession — ideally the day before, so you have time to reflect without rushing.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                The two practices complement each other beautifully. The daily Examen keeps your conscience sensitive throughout the year, so that when you come to Confession, you already have a clear sense of your spiritual state. Catholics who practice the daily Examen consistently report that their Confessions become more honest, more specific, and more fruitful.
+                The two support each other. People who pray the Examen usually find their Confessions become shorter, clearer, and more honest, because they already know the patterns they need to bring. When it is time to prepare for the sacrament itself, use the full examination by the Ten Commandments elsewhere in this series instead of the daily review.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">
-                Scrupulosity vs. Healthy Conscience
+                Scrupulosity vs. a Healthy Conscience
               </h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                One important caution: the examination of conscience should lead to freedom, not anxiety. Scrupulosity is a spiritual disorder in which a person is excessively anxious about sin, confessing the same sins repeatedly, doubting whether they were truly forgiven, and living in constant fear of damnation. This is not healthy conscience — it is a distortion of it.
+                For some people, any examination of conscience turns into anxiety. Scrupulosity is a persistent, fearful preoccupation with sin: seeing sin where there is none, treating doubtful matters as certainly grave, confessing the same things repeatedly, and never feeling forgiven. It is a real affliction, not a sign of extra holiness, and it is far more common than most people assume.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                A healthy conscience is sensitive but not paralyzed. It notices sin clearly, brings it to God with genuine sorrow, receives forgiveness with trust, and moves forward without excessive guilt. St. Francis de Sales wrote: "Have patience with all things, but chiefly have patience with yourself. Do not lose courage in considering your own imperfections, but instantly set about remedying them — every day begin the task anew."
+                You are in good company if you struggle with it. St. Ignatius describes in his autobiography a period at Manresa when scruples tormented him so badly that he was tempted to despair, and his Spiritual Exercises include notes on scruples drawn from that experience. St. Alphonsus Liguori, patron of confessors and moral theologians, also suffered from scruples for much of his life.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
-                If you struggle with scrupulosity, speak with a good confessor or spiritual director. The examination of conscience is meant to be a source of peace and growth, not torment.
+                A healthy conscience is sensitive but not paralyzed. It notices sin clearly, brings it to God, accepts forgiveness, and moves on. A lax conscience sees too little; a scrupulous one sees too much and trusts too little. Both need formation, and the Examen can help either, provided it is prayed with trust in God&apos;s mercy rather than fear of punishment.
+              </LinkedText>
+
+              <h3 className="font-display text-xl font-semibold text-text mt-8 mb-3">
+                If you tend toward scruples
+              </h3>
+              <ul className="list-disc list-inside text-text space-y-2 mb-6">
+                <li><strong>Choose one regular confessor</strong> and follow his guidance, even when your feelings protest. Obedience to a wise confessor is the traditional remedy.</li>
+                <li><strong>Shorten the Examen:</strong> put the weight on gratitude and resolution; spend only a minute on faults.</li>
+                <li><strong>Don&apos;t re-examine confessed sins.</strong> Once absolved, they are forgiven. Going back over them feeds the anxiety.</li>
+                <li><strong>Treat doubts as doubts.</strong> Confessors often tell scrupulous penitents that if they are not sure a sin was mortal, they should not treat it as mortal. Ask your own confessor for the rule he wants you to follow.</li>
+                <li><strong>Get help.</strong> Scrupulosity can overlap with obsessive-compulsive disorder. A Catholic-friendly therapist and your confessor can work together; seeking treatment is not a lack of faith.</li>
+              </ul>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="examination-of-conscience-guide">
+                The aim of any examination of conscience is peace with God, not perfect certainty about yourself. If your Examen consistently leaves you more frightened than grateful, that is a sign to adjust it with your confessor or spiritual director, not to try harder.
               </LinkedText>
             </div>
 
             <DailyPrayersHubLink />
+            <TopicSeriesNav currentSlug="examination-of-conscience-guide" />
             <BlogFAQ faqs={[
               {
-                question: "What is the examination of conscience?",
-                answer: "The examination of conscience is a prayerful review of one's thoughts, words, actions, and omissions in the presence of God. It is a spiritual practice of honestly assessing how you have lived — where you have responded to God's grace and where you have fallen short — in order to grow in holiness and prepare for the Sacrament of Confession."
+                question: "What are the five steps of the Ignatian Examen?",
+                answer: "Gratitude (thank God for the day's gifts), petition (ask for light to see the day truly), review (walk through the day noticing consolation and desolation), forgiveness (ask pardon for where you fell short), and resolution (choose one concrete step for tomorrow), usually ending with the Our Father."
               },
               {
-                question: "What is the Ignatian Examen?",
-                answer: "The Ignatian Examen is a daily prayer practice developed by St. Ignatius of Loyola. It consists of five steps: gratitude (giving thanks for the day's gifts), petition (asking the Holy Spirit for light), review (walking through the day noticing consolations and desolations), contrition (expressing sorrow for failures), and resolution (looking forward with a concrete intention for tomorrow). It takes 10–15 minutes."
+                question: "Does praying the Examen replace going to Confession?",
+                answer: "No. The Examen is a spiritual practice, not a sacrament. It can deepen sorrow for sin and self-knowledge, but mortal sins must still be confessed to a priest. Many people find the daily Examen makes their Confessions clearer and more fruitful."
               },
               {
-                question: "How often should I examine my conscience?",
-                answer: "The daily Examen should be done every day, ideally at the end of the day. A more thorough pre-Confession examination should be done before each Confession. St. Ignatius considered the daily Examen so important that he said it was the one prayer a Jesuit should never omit, even if he had to skip everything else."
+                question: "What are consolation and desolation in the Examen?",
+                answer: "In Ignatian language, consolation is any interior movement that draws you toward God, faith, hope and love. Desolation is a movement away from God, such as discouragement, restlessness or a pull away from prayer. Noticing both helps you see how God is working in ordinary life."
               },
               {
-                question: "What is the difference between the daily Examen and the pre-Confession examination?",
-                answer: "The daily Examen is a prayer practice focused on growing in self-awareness and intimacy with God. It notices the movements of grace and resistance throughout the day. The pre-Confession examination is more systematic, reviewing specific sins since your last Confession using the Ten Commandments or another moral framework. Both are valuable and complement each other."
+                question: "What should I do if I skip the Examen for several nights?",
+                answer: "Simply begin again the next evening. The Examen is a habit of attention, not a quota. Anchoring it to a fixed moment, such as just before turning out the light, makes it easier to keep."
               },
               {
-                question: "What is scrupulosity and how is it different from a healthy conscience?",
-                answer: "Scrupulosity is a spiritual disorder characterized by excessive anxiety about sin — repeatedly confessing the same sins, doubting forgiveness, and living in constant fear. A healthy conscience is sensitive but not paralyzed: it notices sin clearly, brings it to God with genuine sorrow, receives forgiveness with trust, and moves forward without excessive guilt. If you struggle with scrupulosity, speak with a confessor or spiritual director."
+                question: "How do I know if I am scrupulous rather than just conscientious?",
+                answer: "Signs of scrupulosity include constant fear of having sinned, treating doubtful matters as certainly grave, confessing the same sins again and again, and never feeling forgiven. If that sounds familiar, talk to one regular confessor, follow his guidance, and consider help from a Catholic-friendly counselor."
               }
             ]} />
 

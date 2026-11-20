@@ -12,27 +12,28 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function CompleteMassGuide() {
   return (
     <>
       <Helmet>
-        <title>The Complete Guide to the Catholic Mass: Every Part Explained | Guide Catholic</title>
-        <meta name="description" content="The Catholic Mass explained part by part, from the Introductory Rites to the Dismissal, with full prayer texts, a posture guide, and tips for participation." />
-        <meta name="keywords" content="complete guide catholic mass, how to follow the mass, parts of the mass explained, catholic mass for beginners, what happens at mass, mass guide catholic" />
+        <title>Every Part of the Catholic Mass Explained, Step by Step | Guide Catholic</title>
+        <meta name="description" content="Every part of the Catholic Mass explained in order, from the Entrance to the Dismissal, with what the priest says, the people's responses, and U.S. postures." />
+        <meta name="keywords" content="parts of the mass explained, catholic mass step by step, mass responses and postures, what happens at each part of mass, liturgy of the word, liturgy of the eucharist" />
         <link rel="canonical" href="https://guidecatholic.com/blog/complete-guide-to-the-catholic-mass/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="The Complete Guide to the Catholic Mass: Every Part Explained"
-        description="The Catholic Mass explained part by part, from the Introductory Rites to the Dismissal, with full prayer texts, a posture guide, and tips for participation."
+        title="Every Part of the Catholic Mass Explained, Step by Step"
+        description="Every part of the Catholic Mass explained in order, from the Entrance to the Dismissal, with what the priest says, the people's responses, and U.S. postures."
         url="https://guidecatholic.com/blog/complete-guide-to-the-catholic-mass/"
       />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://guidecatholic.com/" },
           { name: "Blog", url: "https://guidecatholic.com/blog/" },
-          { name: "Complete Guide to the Catholic Mass", url: "https://guidecatholic.com/blog/complete-guide-to-the-catholic-mass/" },
+          { name: "Every Part of the Mass Explained", url: "https://guidecatholic.com/blog/complete-guide-to-the-catholic-mass/" },
         ]}
       />
       <div className="min-h-screen bg-background">
@@ -44,7 +45,7 @@ export default function CompleteMassGuide() {
               <span>/</span>
               <Link to="/blog" className="hover:text-accent">Blog</Link>
               <span>/</span>
-              <span className="text-text">Complete Guide to the Catholic Mass</span>
+              <span className="text-text">Every Part of the Mass Explained</span>
             </nav>
           </div>
         </div>
@@ -58,13 +59,13 @@ export default function CompleteMassGuide() {
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
                 <span className="bg-accent/10 text-accent px-3 py-1 rounded-full text-xs font-medium">Liturgy &amp; Worship</span>
                 <span className="flex items-center gap-1"><Calendar className="w-4 h-4" />May 1, 2026</span>
-                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />22 min read</span>
+                <span className="flex items-center gap-1"><Clock className="w-4 h-4" />20 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                The Complete Guide to the Catholic Mass: Every Part Explained
+                Every Part of the Catholic Mass Explained, Step by Step
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
-                The Mass is the source and summit of the Christian life. Whether you are attending for the first time or have been going for decades, this is the only guide you will ever need — every part explained, every prayer in full, and everything you need to participate actively and fruitfully.
+                This is the full walkthrough of the Roman Rite Mass as it is celebrated in U.S. parishes: each part in order, what it is for, what the priest says, how the people respond in the 2011 English Roman Missal, and whether you stand, sit, or kneel at that moment.
               </p>
             </header>
             <div className="aspect-video bg-violet-50 rounded-2xl flex items-center justify-center mb-10">
@@ -73,38 +74,29 @@ export default function CompleteMassGuide() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Catholic Mass has two main parts: the Liturgy of the Word (readings, homily, Creed) and the Liturgy of the Eucharist (Offertory, Consecration, Communion). Understanding each part helps Catholics participate fully — responses, postures, and receiving Communion in a state of grace.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">The Mass unfolds in four movements: Introductory Rites, Liturgy of the Word, Liturgy of the Eucharist, and Concluding Rites. Below, every element is explained with its spoken responses and the posture the U.S. norms call for, so you can follow along from the first hymn to the final blessing.</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                The Second Vatican Council called the Eucharist "the source and summit of the Christian life" (Lumen Gentium 11). The Catechism of the Catholic Church echoes this: "The Eucharist is 'the source and summit of the Christian life'" (CCC 1324). Everything in the Church flows from the Mass and leads back to it. Understanding what happens at Mass — and why — transforms attendance from a passive obligation into an encounter with the living God.
-              </LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What the Mass Is</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                The Mass is not a mere memorial or symbolic re-enactment of the Last Supper. It is the re-presentation — made present again — of Christ's one sacrifice on Calvary. "The Eucharist is thus a sacrifice because it re-presents (makes present) the sacrifice of the cross" (CCC 1366). At every Mass, the same Christ who died on Good Friday offers Himself to the Father through the ministry of the priest. Time collapses: Calvary and the altar are one.
+                The Second Vatican Council taught that the Eucharistic sacrifice is the fount and apex of the whole Christian life (Lumen Gentium 11), and the Catechism repeats the point in CCC 1324. That is a statement about what the Mass is. This page is about how it is celebrated: the sequence of rites set out in the Order of Mass and governed by the General Instruction of the Roman Missal (GIRM), with the adaptations approved for the dioceses of the United States.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                This is why Catholics treat the Mass with such reverence. We are not attending a religious service — we are standing at the foot of the Cross, and then receiving the Risen Lord into our bodies in Holy Communion.
+                Catholics believe that at every Mass the one sacrifice of Christ on the Cross is made present and that the bread and wine become his Body and Blood (CCC 1366, 1376). If you want the theology behind those words, the series box below links a separate article on the Mass as sacrifice. If this is your first Mass and you only need to know what to do, start with the visitor's guide in the same series. Here we walk through the rite itself.
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Two Main Parts of the Mass</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Shape of the Mass</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                The Mass has two great parts that form a single act of worship: the Liturgy of the Word and the Liturgy of the Eucharist. In the Liturgy of the Word, God speaks to us through Scripture and the Church's teaching. In the Liturgy of the Eucharist, we respond by offering ourselves with Christ to the Father, and receive Him back in Communion. These two parts are inseparable — the Word prepares us for the Eucharist, and the Eucharist fulfills the Word.
+                The Catechism describes the Mass as two great parts that form one single act of worship (CCC 1346): the Liturgy of the Word, where the Scriptures are proclaimed, and the Liturgy of the Eucharist, where the gifts are offered, consecrated, and received. Around them sit shorter rites that gather the assembly at the start and send it out at the end. The second-century description by St. Justin Martyr, quoted in CCC 1345, already shows readings, a homily, prayers, the bringing of bread and wine, a great thanksgiving, and Communion in that order.
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Complete Walkthrough: Every Part of the Mass</h2>
-
-              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Part 1: Introductory Rites</h3>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                The Introductory Rites prepare us to hear God's Word and celebrate the Eucharist. They gather the assembly, establish communion, and dispose us for worship.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Part 1: Introductory Rites</h2>
+              <p className="text-text leading-relaxed mb-6"><strong>Posture:</strong> stand from the entrance through the Collect.</p>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Entrance Procession.</strong> The priest and ministers process to the altar while the Entrance Antiphon or a hymn is sung. The priest venerates the altar with a kiss — the altar represents Christ.</li>
-                <li><strong>Sign of the Cross.</strong> "In the name of the Father, and of the Son, and of the Holy Spirit. Amen." We begin as we were baptized — in the name of the Trinity.</li>
-                <li><strong>Greeting.</strong> The priest greets the assembly: "The Lord be with you." The people respond: "And with your spirit." This ancient exchange (from Ruth 2:4) acknowledges the presence of Christ in the gathered community and in the ordained minister.</li>
-                <li><strong>Penitential Act.</strong> We acknowledge our sinfulness before approaching the holy mysteries. The most common form is the Confiteor:</li>
+                <li><strong>Entrance.</strong> The priest, deacon, and other ministers process in while the Entrance Antiphon or a hymn is sung. On reaching the sanctuary the priest and deacon kiss the altar, which stands for Christ, and the priest may incense it.</li>
+                <li><strong>Sign of the Cross.</strong> Priest: "In the name of the Father, and of the Son, and of the Holy Spirit." People: "Amen." The Mass begins with the same Trinitarian name in which every Catholic was baptized.</li>
+                <li><strong>Greeting.</strong> The priest uses one of several greetings, most simply "The Lord be with you." People: "And with your spirit." The 2011 translation restored this wording, which mirrors Paul's closing blessing to Timothy (2 Timothy 4:22).</li>
+                <li><strong>Penitential Act.</strong> After a brief silence the assembly acknowledges its sins. The Missal offers three forms: the Confiteor (below); a short exchange beginning "Have mercy on us, O Lord," answered "For we have sinned against you"; or a set of invocations to Christ answered "Lord, have mercy" and "Christ, have mercy." The priest concludes with "May almighty God have mercy on us, forgive us our sins, and bring us to everlasting life," and the people answer "Amen." On Sundays, especially in Easter Time, the blessing and sprinkling of water may replace the Penitential Act.</li>
               </ul>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">The Confiteor (I Confess)</h3>
@@ -113,8 +105,8 @@ export default function CompleteMassGuide() {
                 </p>
               </div>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Kyrie.</strong> "Lord, have mercy. Christ, have mercy. Lord, have mercy." (Or in Greek: Kyrie eleison, Christe eleison, Kyrie eleison.) This ancient litany is addressed to Christ, not the Father — it is a cry of trust, not despair.</li>
-                <li><strong>Gloria.</strong> On Sundays and feast days, the Gloria is sung or recited — a hymn of praise that echoes the angels' song at Bethlehem:</li>
+                <li><strong>Kyrie.</strong> "Lord, have mercy. Christ, have mercy. Lord, have mercy," sung or said by priest and people, unless it was already included in the third form of the Penitential Act. The Greek "Kyrie, eleison" may also be used.</li>
+                <li><strong>Gloria.</strong> Sung or said on Sundays outside Advent and Lent, on solemnities and feasts, and at some particular celebrations. It opens with the angels' song at Bethlehem (Luke 2:14):</li>
               </ul>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">The Gloria</h3>
@@ -123,18 +115,18 @@ export default function CompleteMassGuide() {
                 </p>
               </div>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Collect (Opening Prayer).</strong> The priest "collects" the prayers of the assembly into one prayer addressed to the Father, through Christ, in the Holy Spirit. The people respond "Amen" — their ratification of the prayer.</li>
+                <li><strong>Collect.</strong> The priest says "Let us pray," and everyone prays silently for a moment. He then sings or says the Collect of the day, which gathers those silent intentions into one prayer to the Father through Christ in the Holy Spirit. People: "Amen."</li>
               </ul>
 
-              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Part 2: Liturgy of the Word</h3>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Part 2: Liturgy of the Word</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>First Reading.</strong> Usually from the Old Testament (or Acts during Easter season). We sit to listen — a posture of receptive attention.</li>
-                <li><strong>Responsorial Psalm.</strong> A psalm sung or recited in response to the First Reading. The cantor sings the verses; the assembly sings the refrain. The psalms are the prayer book of the Bible.</li>
-                <li><strong>Second Reading.</strong> From the New Testament letters (epistles). On weekdays there is only one reading before the Gospel.</li>
-                <li><strong>Gospel Acclamation (Alleluia).</strong> We stand to welcome Christ present in the Gospel. "Alleluia" means "Praise the Lord." During Lent, a different acclamation replaces it.</li>
-                <li><strong>Gospel.</strong> The deacon or priest proclaims the Gospel. Before reading, he says: "The Lord be with you" — "And with your spirit." Then: "A reading from the holy Gospel according to N." — "Glory to you, O Lord." We make a small Sign of the Cross on our forehead, lips, and heart: may this Gospel be in my mind, on my lips, and in my heart. After: "The Gospel of the Lord" — "Praise to you, Lord Jesus Christ."</li>
-                <li><strong>Homily.</strong> The priest or deacon breaks open the Word of God, applying it to the life of the assembly. We sit to listen.</li>
-                <li><strong>Nicene Creed.</strong> On Sundays and solemnities, we profess our faith together:</li>
+                <li><strong>First Reading</strong> (sit). Usually from the Old Testament; in Easter Time it comes from the Acts of the Apostles. On Sundays it is chosen to harmonize with the Gospel. Reader: "The word of the Lord." People: "Thanks be to God."</li>
+                <li><strong>Responsorial Psalm</strong> (sit). A cantor sings the verses and the assembly repeats the refrain. The psalm is itself Scripture, so it is not a substitute hymn but the people's prayerful answer to the reading.</li>
+                <li><strong>Second Reading</strong> (sit). On Sundays and solemnities, a reading from the New Testament letters or Revelation, ending again with "The word of the Lord" and "Thanks be to God." Weekday Masses have only one reading before the Gospel.</li>
+                <li><strong>Gospel Acclamation</strong> (stand). The Alleluia with its verse; in Lent another acclamation replaces it, such as "Praise to you, Lord Jesus Christ, King of endless glory." The deacon or priest may carry the Book of the Gospels to the ambo, with candles and incense.</li>
+                <li><strong>Gospel</strong> (stand). "The Lord be with you." People: "And with your spirit." "A reading from the holy Gospel according to N." People: "Glory to you, O Lord," while tracing a small cross on forehead, lips, and breast. At the end: "The Gospel of the Lord." People: "Praise to you, Lord Jesus Christ."</li>
+                <li><strong>Homily</strong> (sit). Given by a priest or deacon, required on Sundays and holy days of obligation and recommended on other days. Its task is to explain the readings or texts of the Mass and apply them to the life of the hearers.</li>
+                <li><strong>Profession of Faith</strong> (stand). On Sundays and solemnities the Nicene Creed is said or sung; the Apostles' Creed may be used instead, especially in Lent and Easter Time. At the words "and by the Holy Spirit was incarnate of the Virgin Mary, and became man," all bow; on Christmas and the Annunciation, all kneel.</li>
               </ul>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">The Nicene Creed</h3>
@@ -143,15 +135,33 @@ export default function CompleteMassGuide() {
                 </p>
               </div>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Prayer of the Faithful (Universal Prayer).</strong> We pray for the Church, the world, those in need, and the local community. The deacon or lector reads the intentions; the assembly responds: "Lord, hear our prayer."</li>
+                <li><strong>Universal Prayer (Prayer of the Faithful)</strong> (stand). The priest introduces it, a deacon or lector announces the intentions, and the people answer each one with an invocation such as "Lord, hear our prayer." The GIRM lists the usual order: for the needs of the Church, for public authorities and the salvation of the world, for those burdened by any kind of difficulty, and for the local community.</li>
               </ul>
 
-              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Part 3: Liturgy of the Eucharist</h3>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Offertory (Preparation of the Gifts).</strong> Bread and wine are brought to the altar — often by members of the assembly. The priest offers them to God with quiet prayers. A collection is taken up: our material gifts represent our whole selves offered to God.</li>
-                <li><strong>Eucharistic Prayer.</strong> The great prayer of thanksgiving and consecration. There are four main Eucharistic Prayers in the Roman Rite (plus several for special occasions). All follow the same structure: Preface, Sanctus, Epiclesis (calling down the Holy Spirit), Institution Narrative (Consecration), Anamnesis (memorial), Offering, Intercessions, and Doxology.</li>
-                <li><strong>Preface and Sanctus.</strong> The priest leads the assembly in a dialogue: "Lift up your hearts" — "We lift them up to the Lord." Then the Sanctus:</li>
-              </ul>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Part 3: Liturgy of the Eucharist</h2>
+
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Preparation of the Gifts (sit)</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
+                The altar is prepared with the corporal, purificator, chalice, and Missal. Members of the assembly often bring forward the bread and wine, and the collection for the Church and the poor is taken at this point. If the priest says the blessing prayers over the bread and the wine aloud, the people answer each with "Blessed be God for ever." He then mixes a little water into the wine, washes his hands, and may incense the gifts, the altar, and the people.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
+                Everyone stands when the priest says "Pray, brethren (brothers and sisters), that my sacrifice and yours may be acceptable to God, the almighty Father." People: "May the Lord accept the sacrifice at your hands for the praise and glory of his name, for our good and the good of all his holy Church." The Prayer over the Offerings follows, and the people answer "Amen."
+              </LinkedText>
+
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Eucharistic Prayer</h3>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
+                This is the center and high point of the whole celebration. The Roman Missal contains four principal Eucharistic Prayers, with others for reconciliation and for various needs, and all share the same elements: thanksgiving in the Preface, the Sanctus acclamation, the epiclesis calling down the Holy Spirit on the gifts, the institution narrative and consecration, the anamnesis or memorial, the offering, intercessions for the Church living and dead, and the concluding doxology. The prayers differ in length and wording; a separate article in our library compares them.
+              </LinkedText>
+              <div className="bg-accent/5 border border-accent/20 rounded-xl p-5 mb-6 text-sm">
+                <p className="text-text italic">
+                  Priest: "The Lord be with you." / People: "And with your spirit."<br />
+                  Priest: "Lift up your hearts." / People: "We lift them up to the Lord."<br />
+                  Priest: "Let us give thanks to the Lord our God." / People: "It is right and just."
+                </p>
+              </div>
+              <p className="text-text leading-relaxed mb-6">
+                The Preface ends by joining the praise of the angels, and everyone sings the <strong>Sanctus</strong>, drawn from Isaiah 6:3 and the crowds' cry on Palm Sunday (Matthew 21:9):
+              </p>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">The Sanctus (Holy, Holy, Holy)</h3>
                 <p className="text-text italic leading-relaxed text-sm">
@@ -159,9 +169,10 @@ export default function CompleteMassGuide() {
                 </p>
               </div>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Consecration (Words of Institution).</strong> The most sacred moment of the Mass. The priest, acting in the person of Christ (in persona Christi), speaks the words Jesus spoke at the Last Supper: "This is my Body... This is the chalice of my Blood." At these words, the bread and wine become the Body and Blood of Christ — transubstantiation. The priest elevates the Host and the Chalice; we adore in silence.</li>
-                <li><strong>Memorial Acclamation.</strong> After the Consecration, the priest says: "The mystery of faith." The assembly responds with one of three acclamations, such as: "We proclaim your Death, O Lord, and profess your Resurrection until you come again."</li>
-                <li><strong>Great Amen.</strong> At the end of the Eucharistic Prayer, the priest raises the Host and Chalice and says: "Through him, and with him, and in him, O God, almighty Father, in the unity of the Holy Spirit, all glory and honor is yours, for ever and ever." The assembly responds with the Great Amen — the most important "Amen" of the Mass, ratifying the entire Eucharistic Prayer.</li>
+                <li><strong>Kneeling.</strong> In the United States the faithful kneel after the Sanctus and remain kneeling until after the Amen that ends the Eucharistic Prayer. Anyone unable to kneel because of health or lack of space stands and makes a profound bow when the priest genuflects after the consecration.</li>
+                <li><strong>Consecration.</strong> The priest, acting in the person of Christ, speaks the words of the Lord at the Last Supper over the bread ("This is my Body, which will be given up for you") and over the chalice. He shows the Host and then the chalice to the people and genuflects after each. In many parishes a server rings a bell at each elevation.</li>
+                <li><strong>Mystery of Faith.</strong> Priest: "The mystery of faith." The people answer with one of three acclamations: "We proclaim your Death, O Lord, and profess your Resurrection until you come again"; "When we eat this Bread and drink this Cup, we proclaim your Death, O Lord, until you come again"; or "Save us, Savior of the world, for by your Cross and Resurrection you have set us free."</li>
+                <li><strong>Doxology and Great Amen.</strong> Raising the Host and chalice, the priest sings or says, "Through him, and with him, and in him, O God, almighty Father, in the unity of the Holy Spirit, all glory and honor is yours, for ever and ever." The people's "Amen," often sung, is their assent to the whole prayer.</li>
               </ul>
 
               <QuizCTA
@@ -169,18 +180,19 @@ export default function CompleteMassGuide() {
                 description="Take our faith assessment and receive a personalized guide to deepening your understanding of the liturgy and the sacraments."
               />
 
+              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">The Communion Rite (stand, then kneel)</h3>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Our Father (Lord's Prayer).</strong> We pray together as children of God:</li>
+                <li><strong>The Lord's Prayer.</strong> All stand and pray the Our Father together. The priest continues alone with "Deliver us, Lord, we pray, from every evil," and the people conclude: "For the kingdom, the power and the glory are yours now and for ever." The "Amen" is not said after "deliver us from evil" at Mass.</li>
               </ul>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">The Our Father</h3>
                 <p className="text-text italic leading-relaxed text-sm">
-                  Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen.
+                  Our Father, who art in heaven, hallowed be thy name; thy kingdom come, thy will be done on earth as it is in heaven. Give us this day our daily bread, and forgive us our trespasses, as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil.
                 </p>
               </div>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Sign of Peace.</strong> We offer each other a sign of peace — a handshake or bow — as a sign of reconciliation and unity before receiving Communion. This is not a social greeting but a liturgical act.</li>
-                <li><strong>Agnus Dei (Lamb of God).</strong> As the priest breaks the Host (the Fraction), the assembly sings or recites:</li>
+                <li><strong>Rite of Peace.</strong> After a prayer for the peace and unity of the Church, the priest says "The peace of the Lord be with you always." People: "And with your spirit." If invited, people exchange a sign of peace with those nearest them; in the U.S. a handshake or a nod is customary.</li>
+                <li><strong>Fraction and Lamb of God.</strong> The priest breaks the consecrated Host and places a small piece in the chalice while the assembly sings or says the Agnus Dei:</li>
               </ul>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
                 <h3 className="font-display text-lg font-bold text-text mb-3">The Agnus Dei</h3>
@@ -189,71 +201,58 @@ export default function CompleteMassGuide() {
                 </p>
               </div>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Communion.</strong> The priest receives Communion first, then distributes it to the faithful. Catholics in a state of grace receive the Body of Christ (and optionally the Blood) with reverence — either on the tongue or in the hand. Non-Catholics and Catholics not in a state of grace do not receive; they may come forward with arms crossed for a blessing.</li>
-                <li><strong>Communion Prayer (Prayer After Communion).</strong> After a period of silent thanksgiving, the priest prays the Post-Communion Prayer, asking that the Eucharist bear fruit in our lives.</li>
+                <li><strong>Invitation to Communion</strong> (kneel, in most U.S. dioceses). Showing the Host, the priest says "Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those called to the supper of the Lamb." People: "Lord, I am not worthy that you should enter under my roof, but only say the word and my soul shall be healed," words adapted from the centurion in Matthew 8:8.</li>
+                <li><strong>Communion.</strong> The minister says "The Body of Christ," and the communicant answers "Amen." The U.S. norm is to bow the head before receiving. Communion may be received on the tongue or in the hand, standing or kneeling; where the chalice is offered, the minister says "The Blood of Christ" and the communicant again answers "Amen." A Communion chant is sung during the procession.</li>
+                <li><strong>After Communion.</strong> People may sit or kneel in silent prayer while the vessels are purified; a hymn of praise may be sung. All stand for the Prayer after Communion and answer "Amen."</li>
               </ul>
 
-              <h3 className="font-display text-xl font-bold text-text mt-8 mb-3">Part 4: Concluding Rites</h3>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Part 4: Concluding Rites (stand)</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Final Blessing.</strong> The priest blesses the assembly in the name of the Trinity. We bow our heads to receive it.</li>
-                <li><strong>Dismissal.</strong> The deacon or priest dismisses the assembly with one of four formulas, the most famous being: "Go forth, the Mass is ended." The Latin original — "Ite, missa est" — is the origin of the word "Mass." The dismissal is not an ending but a sending: go and live what you have celebrated.</li>
+                <li><strong>Announcements.</strong> Brief parish notices may be given here, after the Prayer after Communion.</li>
+                <li><strong>Blessing.</strong> "The Lord be with you." People: "And with your spirit." "May almighty God bless you, the Father, and the Son, and the Holy Spirit." People: "Amen." On some days the priest uses a solemn blessing or a prayer over the people, and the deacon first invites all to bow.</li>
+                <li><strong>Dismissal.</strong> The deacon or priest uses one of four formulas: "Go forth, the Mass is ended"; "Go and announce the Gospel of the Lord"; "Go in peace, glorifying the Lord by your life"; or "Go in peace." People: "Thanks be to God." The word Mass itself comes from the Latin dismissal, "Ite, missa est."</li>
+                <li><strong>Recessional.</strong> The priest and deacon kiss the altar again, bow or genuflect, and leave in procession, usually during a hymn. It is customary to stay in place until the procession has passed.</li>
               </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Postures at Mass: When to Stand, Sit, and Kneel</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">U.S. Postures at a Glance</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                Posture is not mere etiquette — it is prayer with the body. The General Instruction of the Roman Missal (GIRM) specifies the postures for each part of the Mass, and they carry meaning.
+                The GIRM (no. 42-44) treats common posture as a sign of the unity of the assembly, and no. 43 contains the specific adaptations for the dioceses of the United States. In summary: stand for the Introductory Rites, the Gospel Acclamation and Gospel, the Creed, the Universal Prayer, from "Pray, brethren" through the Sanctus, for the Lord's Prayer and Rite of Peace, and from the Prayer after Communion to the end. Sit for the readings before the Gospel, the Psalm, the homily, the Preparation of the Gifts, and the period of silence after Communion if you are not kneeling. Kneel from after the Sanctus until after the Great Amen, and after the Lamb of God unless the diocesan bishop has decided otherwise.
               </LinkedText>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Standing</strong> is the posture of the Resurrection — of those who have been raised with Christ. We stand for the Entrance Procession, the Gospel, the Creed, the Prayer of the Faithful, and the Eucharistic Prayer (in some countries).</li>
-                <li><strong>Sitting</strong> is the posture of attentive listening and receptivity. We sit for the readings, the Responsorial Psalm, and the Homily.</li>
-                <li><strong>Kneeling</strong> is the posture of adoration and penitence. In the Roman Rite, we kneel from the Sanctus through the Great Amen (the Consecration), and for the reception of Communion (in some traditions). Kneeling says: "You are God and I am not."</li>
-              </ul>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Participate Actively at Mass</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                Vatican II called for the "full, conscious, and active participation" of the faithful (Sacrosanctum Concilium 14). This does not mean doing more things — it means engaging your mind, heart, and will in what is happening at the altar.
-              </LinkedText>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li>Respond to the priest's greetings and prayers clearly and with conviction.</li>
-                <li>Sing the hymns and acclamations — singing is praying twice (St. Augustine).</li>
-                <li>Listen to the readings as if God is speaking directly to you — because He is.</li>
-                <li>During the Consecration, unite your heart with the priest's offering: offer yourself with Christ to the Father.</li>
-                <li>Receive Communion with faith and reverence, saying "Amen" as if you mean it — because you are affirming that this is truly the Body of Christ.</li>
-                <li>Spend time in silent thanksgiving after Communion — this is one of the most precious moments of the Mass.</li>
-              </ul>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">For Non-Catholics and Visitors</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                Non-Catholics are warmly welcome to attend Mass. You may participate in all the prayers and responses, stand and sit with the assembly, and observe the Consecration with reverence. However, only Catholics who are in a state of grace (free from mortal sin) and who have observed the Eucharistic fast may receive Holy Communion. This is not a sign of exclusion — it reflects the Catholic belief that Communion is a sign of full unity in faith, which has not yet been achieved between Catholics and other Christians. Non-Catholics may come forward with arms crossed over the chest to receive a blessing from the priest or deacon.
+                Two other gestures belong to the body's prayer at Mass. Genuflecting on the right knee is reserved for the Blessed Sacrament, so it is made toward the tabernacle when entering or leaving a pew. A bow of the head is made at the names of the three Divine Persons said together, at the name of Jesus, of the Blessed Virgin Mary, and of the saint being honored, and a deeper bow at the words of the Incarnation in the Creed.
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Prepare for Mass</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Changes With the Day and Season</h2>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>The Eucharistic fast.</strong> Catholics must fast from food and drink (except water and medicine) for at least one hour before receiving Communion. This physical fast is a sign of spiritual hunger for Christ.</li>
-                <li><strong>Arrive early.</strong> Arrive 5–10 minutes before Mass begins. Use this time for silent prayer, reading the day's readings, or simply quieting your mind.</li>
-                <li><strong>Examination of conscience.</strong> If you are aware of any mortal sin, go to Confession before receiving Communion. If you cannot get to Confession, make an Act of Perfect Contrition and resolve to go as soon as possible — but do not receive Communion in a state of mortal sin.</li>
-                <li><strong>Read the readings in advance.</strong> Many Catholics read the day's Scripture readings the night before. This allows the Word to take root before Mass.</li>
-                <li><strong>Dress appropriately.</strong> Modest, respectful dress honors the sacred nature of what you are about to do.</li>
+                <li><strong>Weekdays:</strong> usually no Gloria, no Creed, one reading before the Gospel, and often no music. A weekday Mass typically lasts about half an hour.</li>
+                <li><strong>Advent and Lent:</strong> no Gloria on Sundays; in Lent the Alleluia is replaced by another Gospel acclamation until the Easter Vigil.</li>
+                <li><strong>Solemnities:</strong> Gloria and Creed are used even on weekdays, and there are two readings before the Gospel.</li>
+                <li><strong>Easter Time:</strong> the first reading comes from Acts, the sprinkling rite is common on Sundays, and a double Alleluia is added to the dismissal through the Octave of Easter and on Pentecost.</li>
               </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">After Mass: Thanksgiving and Mission</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Taking Part Fully</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
-                The Mass does not end at the Dismissal — it continues in your life. The word "Mass" comes from the Latin "missa" (sending). You are sent to bring Christ to the world. After Mass, spend a few minutes in thanksgiving — either in the church or at home. Many saints recommend at least 15 minutes of thanksgiving after receiving Communion. You have just received the Body, Blood, Soul, and Divinity of Jesus Christ. Let that sink in.
+                Sacrosanctum Concilium 14 asks for full, conscious, and active participation by the faithful. In practice that means saying and singing the people's parts, keeping the silences the rite provides, listening to the readings as addressed to you, and uniting your own offering to the priest's at the Eucharistic Prayer. Reading the Sunday readings beforehand, arriving a few minutes early, and observing the one-hour Eucharistic fast all make it easier to pray the Mass rather than merely watch it.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="complete-guide-to-the-catholic-mass">
+                Catholics who are conscious of grave sin go to Confession before receiving Communion (CCC 1385). Visitors who are not Catholic are always welcome at Mass; the guidelines on Communion for other Christians and for non-Christians are explained in the first-time visitor's guide in this series.
               </LinkedText>
               <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mt-6 mb-8">
                 <p className="text-text italic text-center">
-                  "The Mass is the most perfect form of prayer."
+                  "The Eucharist is 'the source and summit of the Christian life.'"
                 </p>
-                <p className="text-text-muted text-center mt-2">— Pope Paul VI</p>
+                <p className="text-text-muted text-center mt-2">— Catechism of the Catholic Church, 1324</p>
               </div>
             </div>
 
+            <TopicSeriesNav currentSlug="complete-guide-to-the-catholic-mass" />
             <BlogFAQ faqs={[
-              { question: "Do I have to go to Mass every Sunday?", answer: "Yes. Attending Mass on Sundays and holy days of obligation is one of the precepts of the Catholic Church (CCC 2042). Missing Mass on Sunday without a serious reason (illness, caring for a sick person, no Mass available) is a mortal sin. This is not a burden but a gift — the Church is protecting your access to the greatest prayer on earth." },
-              { question: "What if I arrive late to Mass?", answer: "If you arrive after the Gospel, you have missed the Liturgy of the Word and should not receive Communion — you have not fulfilled your Sunday obligation. If you arrive before the Gospel, you may receive Communion. If you are regularly late, examine why and make arriving on time a priority." },
-              { question: "Can I receive Communion at every Mass?", answer: "You may receive Communion up to twice per day, provided you are in a state of grace (no unconfessed mortal sin), have observed the one-hour Eucharistic fast, and are a baptized Catholic who has made their First Communion. If you are aware of a mortal sin, go to Confession first." },
-              { question: "What is the difference between the Ordinary Form and the Extraordinary Form of the Mass?", answer: "The Ordinary Form (Novus Ordo) is the Mass promulgated by Pope Paul VI in 1969, celebrated in the vernacular (local language). The Extraordinary Form (Traditional Latin Mass or Tridentine Mass) is the older form of the Roman Rite, celebrated in Latin. Both are valid forms of the Roman Rite. The Extraordinary Form is now more restricted following Pope Francis's Traditionis Custodes (2021)." },
-              { question: "Why does the priest face away from the people sometimes?", answer: "In the Extraordinary Form and in some celebrations of the Ordinary Form, the priest faces the same direction as the people (ad orientem — toward the East, toward the rising sun, symbol of Christ's return). This is not the priest turning his back on the people — it is the priest and people together facing God. In the more common arrangement (versus populum), the priest faces the people across the altar." },
+              { question: "Do Catholics have to go to Mass every Sunday?", answer: "Yes. Taking part in Mass on Sundays and holy days of obligation is the first precept of the Church (CCC 2042), and the Catechism teaches that deliberately failing to do so without a serious reason, such as illness or caring for infants, is a grave sin (CCC 2181). Under canon 1248, a Mass celebrated on the evening before, such as a Saturday evening Mass, also satisfies the obligation." },
+              { question: "What if I arrive late to Mass?", answer: "Canon law does not set a minute-by-minute cutoff. The obligation is to take part in the Mass, so arriving late through carelessness, especially as a habit, is not a small matter. If you missed a substantial part through your own fault, the safest course is to attend another Mass that day. Being late does not by itself forbid you from receiving Communion. If you are unsure about your situation, ask a priest." },
+              { question: "Can I receive Communion more than once in a day?", answer: "Yes, a second time. Canon 917 allows a Catholic who has already received the Eucharist to receive it a second time on the same day, but only within a Mass in which he or she is actually participating. The usual conditions still apply: being in a state of grace and having kept the one-hour fast." },
+              { question: "What is the difference between the post-Vatican II Mass and the Traditional Latin Mass?", answer: "The Mass described here follows the Roman Missal promulgated by Pope Paul VI in 1969, usually celebrated in the language of the people. The Traditional Latin Mass follows the 1962 Missal of Pope John XXIII, celebrated in Latin with a different order of prayers. Since Pope Francis's motu proprio Traditionis Custodes (2021), celebration of the 1962 Missal depends on permission of the diocesan bishop." },
+              { question: "Why does the priest sometimes face the same direction as the people?", answer: "Celebrating 'ad orientem' means the priest and the people face the same direction, traditionally east, as a sign that all are turned together toward the Lord. Celebrating facing the people across a free-standing altar is the more common arrangement in U.S. parishes. Both are permitted in the Ordinary Form; the Eucharistic sacrifice is the same either way." },
+              { question: "Why do the postures differ slightly from one parish to another?", answer: "The GIRM sets the general norms, and its U.S. adaptations specify kneeling after the Sanctus until after the Amen and after the Lamb of God. The diocesan bishop may adjust the posture after the Lamb of God, and church layouts or the needs of the sick also lead to variation. When in doubt, follow the people around you." },
             ]} />
 
             <RelatedArticles currentSlug="complete-guide-to-the-catholic-mass" />

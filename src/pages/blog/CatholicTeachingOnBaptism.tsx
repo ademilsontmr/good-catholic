@@ -12,20 +12,21 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function CatholicTeachingOnBaptism() {
   return (
     <>
       <Helmet>
-        <title>Catholic Baptism: What It Is, What It Does & Why It Matters | Guide Catholic</title>
-        <meta name="description" content="Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is needed for salvation, and how to live it." />
-        <meta name="keywords" content="catholic baptism explained, what does baptism do catholic, infant baptism catholic, baptism necessary for salvation, effects of baptism catholic, catechism on baptism" />
+        <title>Catholic Baptism Explained: What It Is and What It Does | Guide Catholic</title>
+        <meta name="description" content="What Catholic Baptism is and what it does: its biblical roots, its effects according to the Catechism, the indelible character, and why infants are baptized." />
+        <meta name="keywords" content="catholic baptism explained, what does baptism do catholic, effects of baptism, baptismal character, infant baptism catholic, catechism on baptism" />
         <link rel="canonical" href="https://guidecatholic.com/blog/catholic-baptism-explained/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="Catholic Baptism: What It Is, What It Does & Why It Matters"
-        description="Baptism is the door to all the sacraments. Learn what Baptism does, why the Church baptizes infants, whether it is needed for salvation, and how to live it."
+        title="Catholic Baptism Explained: What It Is and What It Does"
+        description="What Catholic Baptism is and what it does: its biblical roots, its effects according to the Catechism, the indelible character, and why infants are baptized."
         url="https://guidecatholic.com/blog/catholic-baptism-explained/"
       />
       <BreadcrumbSchema
@@ -61,10 +62,10 @@ export default function CatholicTeachingOnBaptism() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />14 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-6">
-                Catholic Baptism: What It Is, What It Does & Why It Matters
+                Catholic Baptism Explained: What It Is and What It Does
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
-                Baptism is the first and foundational sacrament — the door through which we enter the Church and gain access to all the other sacraments. Without it, nothing else is possible. With it, everything changes.
+                What actually happens when a person is baptized? This guide sets out the Catholic Church&apos;s teaching on the first sacrament: where it comes from in Scripture, what it accomplishes in the soul, why it can never be repeated, and why the Church has baptized infants since ancient times.
               </p>
             </header>
             <div className="aspect-video bg-sky-50 rounded-2xl flex items-center justify-center mb-10">
@@ -73,52 +74,63 @@ export default function CatholicTeachingOnBaptism() {
             <div className="prose prose-lg max-w-none">
 
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">Baptism is the first sacrament — washing away original sin, initiating into Christ and the Church, and imprinting an indelible character. Catholics baptize infants by right of parents&apos; duty; adults receive Baptism, Confirmation, and Eucharist at the Easter Vigil through RCIA.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">Baptism is the sacrament of rebirth by water and the Spirit. It forgives original sin and all personal sins, gives sanctifying grace, makes the baptized a child of God and a member of the Church, and marks the soul with a permanent seal, so it is received only once (CCC 1213–1284).</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The Catechism of the Catholic Church calls Baptism "the basis of the whole Christian life, the gateway to life in the Spirit, and the door which gives access to the other sacraments" (CCC 1213). It is the sacrament by which we are reborn as children of God, incorporated into the Body of Christ, and made members of the Church. Every other sacrament presupposes it. Every grace we receive flows through it. To understand Baptism is to understand the very foundation of the Christian life.
+                The Catechism of the Catholic Church opens its treatment of the sacrament by calling holy Baptism "the basis of the whole Christian life, the gateway to life in the Spirit, and the door which gives access to the other sacraments" (CCC 1213). Confirmation and the Eucharist complete what it begins, and no other sacrament can be validly received without it. This page is the theological hub of our Baptism series; the companion pages cover becoming Catholic as an adult and the practical steps of preparing a baby's Baptism.
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Baptism Is: Rebirth and Incorporation into Christ</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Meaning of the Word and the Sign</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The word "baptism" comes from the Greek baptizein, meaning "to plunge" or "to immerse." This etymology captures the essential gesture of the sacrament: the person is plunged into water — or water is poured over them — as a sign of dying and rising with Christ. As St. Paul writes: "We were buried therefore with him by baptism into death, so that as Christ was raised from the dead by the glory of the Father, we too might walk in newness of life" (Romans 6:4).
+                The word comes from the Greek baptizein, "to plunge" or "to immerse." Going down into the water signifies burial with Christ; coming up signifies rising with him. St. Paul makes this the key to the sacrament: "We were buried therefore with him by baptism into death, so that as Christ was raised from the dead by the glory of the Father, we too might walk in newness of life" (Romans 6:4). The Catechism also calls Baptism "the washing of regeneration and renewal by the Holy Spirit," echoing Titus 3:5, and describes it as the sacrament of regeneration through water in the word (CCC 1213, 1215).
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The Catechism describes Baptism as "the sacrament of regeneration through water and in the Word" (CCC 1213). It is a new birth — not a physical birth, but a spiritual one. Jesus himself told Nicodemus: "Unless one is born of water and the Spirit, he cannot enter the kingdom of God" (John 3:5). This is the birth the Church has always understood as Baptism: a birth from above, a birth into divine life.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                Through Baptism, the person is incorporated into Christ — made a member of his Body, the Church. This is not a metaphor. The baptized person is genuinely united to Christ, shares in his priesthood, his prophetic mission, and his kingship. The Catechism speaks of Baptism as conferring a "priestly, prophetic, and royal dignity" on the baptized (CCC 1268).
+                The essential sign is simple. The minister immerses the person in water or pours water over the head, while saying, "I baptize you in the name of the Father, and of the Son, and of the Holy Spirit." Water and these words are the matter and form of the sacrament. Everything else in the rite unfolds what this one action means.
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Effects of Baptism</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Baptism in Scripture</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The Catholic Church teaches that Baptism produces several distinct and permanent effects, all of which are described in the Catechism (CCC 1262–1274):
+                The Church reads the whole Bible as preparing for this sacrament. The Easter Vigil's blessing of water recalls the Spirit hovering over the waters of creation, Noah's ark carried safely through the flood, and Israel passing through the Red Sea from slavery to freedom (CCC 1217–1222). Each is a figure of Baptism: water that both ends an old life and opens a new one.
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
+                Jesus himself was baptized by John in the Jordan, not because he needed cleansing, but in an act of self-emptying that numbered him among sinners and, in his words, fulfilled all righteousness (Matthew 3:15; CCC 1224). He spoke of his coming Passion as a baptism he must undergo, and from his pierced side on the Cross flowed blood and water, which the Fathers saw as signs of Baptism and the Eucharist (CCC 1225). After the Resurrection he sent the apostles to make disciples of all nations, "baptizing them in the name of the Father and of the Son and of the Holy Spirit" (Matthew 28:19). On Pentecost, Peter told the crowd, "Repent, and be baptized every one of you in the name of Jesus Christ for the forgiveness of your sins" (Acts 2:38).
+              </LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
+                To Nicodemus, Jesus said that no one can enter the kingdom of God without being born of water and the Spirit (John 3:5). The Church has always understood this new birth to be Baptism: not a second physical birth, but a birth from above into the life of God.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Baptism Does: Its Effects</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
+                Baptism is not only a public sign of faith. Catholic teaching holds that it truly accomplishes what it signifies. The Catechism summarizes its effects as purification from sins and new birth in the Holy Spirit (CCC 1262), and then spells them out:
               </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Forgiveness of original sin and all personal sins.</strong> Baptism wipes the slate completely clean. Original sin — the sin inherited from Adam and Eve — is forgiven. Any personal sins committed before Baptism are also forgiven. The baptized person emerges from the water with no sin on their soul.</li>
-                <li><strong>Infusion of sanctifying grace.</strong> Baptism does not merely forgive sin — it fills the soul with sanctifying grace, the very life of God. The baptized person becomes a "partaker of the divine nature" (2 Peter 1:4), sharing in God's own life.</li>
-                <li><strong>Incorporation into the Body of Christ.</strong> The baptized person becomes a member of the Church — not merely a member of an organization, but a living cell in the Body of Christ. This is why the Church is called the Body of Christ: because all the baptized are genuinely united to him.</li>
-                <li><strong>The theological virtues.</strong> Faith, hope, and charity are infused into the soul at Baptism, along with the gifts of the Holy Spirit. These are not merely human virtues — they are supernatural gifts that orient the person toward God.</li>
-                <li><strong>The indelible character.</strong> Baptism imprints a permanent, indelible spiritual mark on the soul — a "character" that can never be removed. This is why Baptism can never be repeated. Even if a person falls away from the faith, the baptismal character remains. It is a permanent seal of belonging to Christ.</li>
+                <li><strong>All sin is forgiven.</strong> Original sin and every personal sin are taken away, together with all punishment due to sin (CCC 1263). Some consequences remain, such as suffering, death and the inclination to sin called concupiscence, which the baptized are called to resist with grace (CCC 1264).</li>
+                <li><strong>A new creature, a child of God.</strong> The baptized becomes an adopted son or daughter of God, a partaker of the divine nature (2 Peter 1:4), a member of Christ and a temple of the Holy Spirit (CCC 1265).</li>
+                <li><strong>Sanctifying grace and the virtues.</strong> The Trinity gives sanctifying grace, with the theological virtues of faith, hope and charity, the gifts of the Holy Spirit, and the moral virtues (CCC 1266).</li>
+                <li><strong>Membership in the Church.</strong> Baptism makes us members of the Body of Christ and shares with us Christ's priestly, prophetic and royal mission (CCC 1267–1270).</li>
+                <li><strong>A bond of unity among Christians.</strong> Those validly baptized in other Christian communities are truly incorporated into Christ and rightly called Christians (CCC 1271).</li>
+                <li><strong>An indelible spiritual mark.</strong> Baptism seals the Christian with a permanent character of belonging to Christ (CCC 1272–1274).</li>
               </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Infant Baptism: Why the Church Baptizes Babies</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Indelible Character: Why Baptism Is Never Repeated</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                One of the most common questions about Catholic Baptism is: why does the Church baptize infants? Shouldn't a person be old enough to choose for themselves?
+                The Catechism teaches that the baptismal seal cannot be erased by any sin, even though sin can prevent Baptism from bearing the fruit of salvation (CCC 1272). That is why the Nicene Creed confesses "one Baptism for the forgiveness of sins." A Catholic who stops practicing the faith for decades is still baptized; returning to the Church happens through Confession, not a second Baptism. The same principle explains why the Church does not rebaptize Christians from other communities whose Baptism was validly given with water and the Trinitarian formula.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The Church's answer is clear: infant Baptism is not a later addition to Christianity — it has been practiced from the very beginning. The New Testament itself hints at it: when Cornelius and his household were baptized (Acts 10:48), when Lydia and her household were baptized (Acts 16:15), when the Philippian jailer and his household were baptized (Acts 16:33) — in each case, the "household" would have included infants and children.
+                The seal is also a promise. The Catechism describes it as marking the faithful "for the day of redemption" (CCC 1274), so that those who keep faith until the end can depart this life signed with it. Baptism is the beginning of a story God intends to finish.
+              </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why the Church Baptizes Infants</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
+                Infants are born with a fallen human nature marked by original sin, and so, the Catechism says, "children also have need of the new birth in Baptism to be freed from the power of darkness and brought into the realm of the freedom of the children of God" (CCC 1250). Baptism is pure gift; a baby cannot earn grace, but neither can an adult. Giving it early shows that salvation begins with God's initiative, not ours.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The early Church Fathers are unanimous on this point. Origen (c. 185–254) wrote that "the Church received from the Apostles the tradition of giving Baptism even to infants." St. Cyprian of Carthage (c. 200–258) argued that infants should be baptized as soon as possible after birth. There is no evidence of any early Christian community that did not baptize infants.
+                The practice is ancient. The Catechism calls infant Baptism "an immemorial tradition of the Church," with explicit testimony from the second century on, and notes that when whole households were baptized in Acts (for example Lydia's and the Philippian jailer's in Acts 16), infants may well have been included (CCC 1252). In the third century Origen wrote that the Church had received from the apostles the tradition of baptizing infants, and a council under St. Cyprian of Carthage rejected the idea of waiting until the eighth day after birth.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The theological reason is straightforward: infants are born with original sin, and Baptism is the remedy for original sin. Just as a child does not choose to be born with original sin, so the Church does not wait for the child to choose to be freed from it. Parents who love their children want to give them the greatest gift possible — and the greatest gift is the life of grace.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The Catechism puts it simply: "Born with a fallen human nature and tainted by original sin, children also have need of the new birth in Baptism to be freed from the power of darkness and brought into the realm of the freedom of the children of God" (CCC 1250).
+                Because an infant cannot yet profess faith, Baptism is given in the faith of the Church, expressed by parents and godparents. "Baptism is the sacrament of faith," the Catechism says, but that faith is never merely private: it is only within the faith of the Church that each believer can believe (CCC 1253). The child's own faith must then grow, which is why parents and godparents promise to raise the child in it (CCC 1254–1255). For the practical side of an infant Baptism, see our preparation guide for parents.
               </LinkedText>
 
               <QuizCTA
@@ -126,58 +138,36 @@ export default function CatholicTeachingOnBaptism() {
                 description="Take our assessment and receive a personalized guide to growing in your knowledge of the sacraments and Catholic teaching."
               />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Is Baptism Necessary for Salvation?</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Can Baptize</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The Church's teaching on this question is nuanced and merciful. The general principle is clear: Jesus said, "Unless one is born of water and the Spirit, he cannot enter the kingdom of God" (John 3:5), and "Whoever believes and is baptized will be saved" (Mark 16:16). Baptism is the ordinary means of salvation.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                But the Church has always recognized that God is not bound by his sacraments. The Catechism teaches that there are three forms of Baptism:
-              </LinkedText>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Baptism of water</strong> — the ordinary sacramental Baptism with water and the Trinitarian formula.</li>
-                <li><strong>Baptism of desire</strong> — for those who, through no fault of their own, do not receive sacramental Baptism but who sincerely seek God and try to do his will. The Catechism states: "Every man who is ignorant of the Gospel of Christ and of his Church, but seeks the truth and does the will of God in accordance with his understanding of it, can be saved" (CCC 1260).</li>
-                <li><strong>Baptism of blood</strong> — for those who die for the faith before receiving sacramental Baptism, such as the Holy Innocents (Matthew 2:16–18).</li>
-              </ul>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                This teaching reflects the Church's conviction that God desires all people to be saved (1 Timothy 2:4) and that his mercy is not limited to those who have received the sacraments. At the same time, the Church insists that Baptism is the ordinary and normative path to salvation, and that parents have a serious obligation to have their children baptized promptly.
+                The ordinary ministers of Baptism are bishops and priests, and in the Latin Church also deacons. In case of necessity, anyone, even a person who is not baptized, can baptize, provided they intend to do what the Church does and use the Trinitarian formula with water (CCC 1256). The Church explains this generous rule by God's will that all be saved and by the necessity of Baptism for salvation.
               </LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Rite of Baptism: What Happens</h2>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Is Baptism Necessary for Salvation?</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The essential rite of Baptism consists of immersing the candidate in water three times (or pouring water over the head three times) while pronouncing the Trinitarian formula: "I baptize you in the name of the Father, and of the Son, and of the Holy Spirit." This is the matter (water) and form (the words) of the sacrament.
+                The Lord himself affirms that Baptism is necessary for salvation, and the Church knows of no other means than Baptism to assure entry into eternal beatitude (CCC 1257). In the Catechism's words, "God has bound salvation to the sacrament of Baptism, but he himself is not bound by his sacraments." The Church therefore also teaches about baptism of blood and baptism of desire, and entrusts children who die without Baptism to God's mercy. Those questions, along with the path by which adults become Catholic, are treated in detail on our page about adult Baptism and baptism of desire and blood.
               </LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Signs That Explain the Sacrament</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                But the full rite of Baptism is rich with symbols that illuminate the meaning of what is happening:
+                The rite surrounds the pouring of water with gestures that each teach something about the new life given (CCC 1234–1245):
               </LinkedText>
               <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                <li><strong>Water</strong> — the primary symbol. Water cleanses, gives life, and can destroy. In Baptism, it cleanses from sin, gives new life in the Spirit, and destroys the power of sin and death.</li>
-                <li><strong>The anointing with chrism oil</strong> — after Baptism, the newly baptized is anointed with sacred chrism, signifying the gift of the Holy Spirit and incorporation into Christ the Anointed One (Christos means "anointed").</li>
-                <li><strong>The white garment</strong> — the newly baptized is clothed in a white garment, symbolizing the new life in Christ and the purity of the soul washed clean of sin.</li>
-                <li><strong>The baptismal candle</strong> — lit from the Easter candle, it symbolizes Christ the Light of the World, now given to the newly baptized to carry into the world.</li>
-                <li><strong>The Ephphatha rite</strong> — the priest touches the ears and mouth of the newly baptized, praying that they may hear the Word of God and proclaim the faith.</li>
+                <li><strong>The Sign of the Cross</strong> at the start marks the person as belonging to Christ, who redeemed us by his Cross.</li>
+                <li><strong>Exorcism and the oil of catechumens</strong> express liberation from sin and the devil and strength for the struggle ahead.</li>
+                <li><strong>Water</strong>, blessed with a prayer that recalls salvation history, signifies both death to sin and new life.</li>
+                <li><strong>Sacred chrism</strong>, perfumed oil consecrated by the bishop, signifies the gift of the Spirit and anointing into Christ, the Anointed One.</li>
+                <li><strong>The white garment</strong> shows that the baptized has "put on Christ" (Galatians 3:27).</li>
+                <li><strong>The candle lit from the Easter candle</strong> shows that Christ has enlightened the newly baptized, who is now to be light for the world.</li>
               </ul>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Living Out Your Baptism</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                Baptism is not merely a past event — it is a permanent reality that defines who you are. The Catechism speaks of the Christian life as a "living out" of Baptism: "The whole of the Christian life is a kind of prolongation of Baptism" (CCC 1392). Every time we make the Sign of the Cross with holy water, we recall our Baptism. Every time we renew our baptismal promises at Easter, we recommit ourselves to the life we received at the font.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                St. Paul's exhortation is the charter of the baptized life: "You have been buried with him in baptism, in which you were also raised with him through faith in the powerful working of God, who raised him from the dead" (Colossians 2:12). To live as a baptized Christian is to live as one who has died to sin and risen to new life in Christ — to let that reality shape every choice, every relationship, every moment.
-              </LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Godparents: Their Role and Responsibilities</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The tradition of godparents is ancient. At Baptism, the godparents (or sponsors) stand with the candidate and make the baptismal promises on behalf of an infant, or alongside an adult candidate. Their role does not end at the font.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                The Catechism describes the godparent's role as helping "the baptized person to lead the Christian life in keeping with Baptism, and to fulfill faithfully the obligations inherent in it" (CCC 1255). This is a serious spiritual responsibility. A godparent is called to pray for their godchild, to be a model of the faith, to support the parents in raising the child in the Catholic faith, and to be available as a spiritual mentor throughout the child's life.
-              </LinkedText>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="catholic-baptism-explained">
-                Canon law requires that a godparent be a practicing Catholic who has received Confirmation and the Eucharist, is at least 16 years old, and is not the parent of the child. A non-Catholic Christian may serve as a "Christian witness" alongside a Catholic godparent, but not as the sole godparent.
+                Baptism is a past event that shapes every present day. The baptized no longer belong to themselves but to Christ, and are called to serve others in the communion of the Church (CCC 1269). Catholics renew their baptismal promises every Easter, bless themselves with holy water when entering a church, and in Confession recover the grace of Baptism when it has been lost by serious sin. St. Paul's words to the Colossians sum it up: in Baptism we were buried with Christ and also raised with him through faith in the power of God (Colossians 2:12).
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">The Baptismal Promise</h3>
+                <h3 className="font-display text-lg font-bold text-text mb-3">The Baptismal Promises</h3>
                 <p className="text-text italic leading-relaxed text-sm">
                   "Do you renounce Satan? And all his works? And all his empty promises? Do you believe in God, the Father Almighty, Creator of heaven and earth? Do you believe in Jesus Christ, his only Son, our Lord, who was born of the Virgin Mary, suffered death and was buried, rose again from the dead and is seated at the right hand of the Father? Do you believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body, and life everlasting?"
                 </p>
@@ -191,12 +181,13 @@ export default function CatholicTeachingOnBaptism() {
               </div>
             </div>
 
+            <TopicSeriesNav currentSlug="catholic-baptism-explained" />
             <BlogFAQ faqs={[
-              { question: "What does Baptism do in the Catholic Church?", answer: "Catholic Baptism forgives original sin and all personal sins, infuses sanctifying grace (the life of God) into the soul, incorporates the person into the Body of Christ (the Church), confers the theological virtues of faith, hope, and charity, and imprints an indelible spiritual character on the soul. It is the foundational sacrament — the door to all the others." },
-              { question: "Why does the Catholic Church baptize infants?", answer: "The Church baptizes infants because infant Baptism has been practiced from the very beginning of Christianity, as attested by the New Testament (household baptisms) and the early Church Fathers. Infants are born with original sin, and Baptism is the remedy. Just as parents do not wait for a child to choose to be born, they do not wait for the child to choose to be freed from original sin and given the life of grace." },
-              { question: "Is Baptism necessary for salvation?", answer: "Baptism is the ordinary and normative means of salvation. However, the Church teaches that God is not bound by his sacraments. Those who, through no fault of their own, do not receive sacramental Baptism but sincerely seek God and try to do his will can be saved through 'Baptism of desire.' Those who die for the faith before receiving Baptism are saved through 'Baptism of blood.' But the Church insists that sacramental Baptism is the ordinary path and that parents have a serious obligation to have their children baptized." },
-              { question: "Can Baptism be repeated?", answer: "No. Baptism can never be repeated because it imprints an indelible spiritual character on the soul — a permanent mark of belonging to Christ. This is why the Nicene Creed says 'I confess one Baptism for the forgiveness of sins.' If someone was validly baptized in another Christian denomination (with water and the Trinitarian formula), the Catholic Church recognizes that Baptism as valid and does not re-baptize them when they enter the Church." },
-              { question: "What are the symbols used in Catholic Baptism?", answer: "The primary symbol is water, which cleanses, gives life, and destroys the power of sin. Other symbols include: the anointing with chrism oil (signifying the gift of the Holy Spirit), the white garment (symbolizing the new life in Christ and purity of soul), the baptismal candle (lit from the Easter candle, symbolizing Christ the Light of the World), and the Ephphatha rite (touching the ears and mouth, praying that the newly baptized may hear and proclaim the faith)." },
+              { question: "What does Baptism do in the Catholic Church?", answer: "It forgives original sin and all personal sins with their punishment, gives sanctifying grace with faith, hope and charity, makes the person an adopted child of God and a member of the Church, and marks the soul with a permanent spiritual seal (CCC 1262–1274)." },
+              { question: "Why can Baptism never be repeated?", answer: "Because it imprints an indelible character, a permanent mark of belonging to Christ that no sin can erase (CCC 1272). That is why the Creed professes one Baptism for the forgiveness of sins." },
+              { question: "Who can baptize in the Catholic Church?", answer: "Ordinarily a bishop, priest or deacon. In necessity, such as danger of death, anyone can baptize, even a non-Christian, by pouring water and saying the Trinitarian formula with the intention of doing what the Church does (CCC 1256)." },
+              { question: "Does Baptism take away the tendency to sin?", answer: "No. Baptism forgives all sin, but some temporal consequences remain, including suffering, death and concupiscence, the inclination to sin. Concupiscence is not itself a sin, and the baptized can resist it with God's grace (CCC 1264)." },
+              { question: "What do the white garment and candle mean?", answer: "The white garment shows that the baptized has put on Christ and risen with him. The candle, lit from the Easter candle, shows that Christ has enlightened the newly baptized, who is called to walk as a child of the light (CCC 1243)." },
             ]} />
 
             <RelatedArticles currentSlug="catholic-baptism-explained" />

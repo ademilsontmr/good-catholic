@@ -1,20 +1,79 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, BookOpen } from "lucide-react";
-import { blogPosts } from "@/data/blogPosts";
+import { ArrowRight, BookOpen, Church, CircleDot, Droplets, HeartHandshake, ScrollText } from "lucide-react";
+import type { LucideIcon } from "lucide-react";
 
-// Pick 3 random articles on each render (seeded by day so it changes daily)
-function getDailyArticles(count = 3) {
-  const seed = Math.floor(Date.now() / (1000 * 60 * 60 * 24)); // changes daily
-  const shuffled = [...blogPosts].sort((a, b) => {
-    const ha = Math.sin(seed * a.id) * 10000;
-    const hb = Math.sin(seed * b.id) * 10000;
-    return (ha - Math.floor(ha)) - (hb - Math.floor(hb));
-  });
-  return shuffled.slice(0, count);
+interface FeaturedPost {
+  slug: string;
+  title: string;
+  excerpt: string;
+  category: string;
+  icon: LucideIcon;
+  bgColor: string;
+  iconColor: string;
 }
 
+// The complete guide of each topic series. A fixed list keeps the prerendered HTML identical to what
+// the browser renders (no hydration re-render or layout shift) and keeps the full blog dataset out of
+// the homepage bundle.
+const FEATURED: FeaturedPost[] = [
+  {
+    slug: "complete-guide-to-the-catholic-mass",
+    title: "Every Part of the Catholic Mass Explained, Step by Step",
+    excerpt: "Each part of the Mass in order, with the people’s responses and when to stand, sit, and kneel.",
+    category: "Mass & Sacraments",
+    icon: Church,
+    bgColor: "bg-amber-100",
+    iconColor: "text-amber-600",
+  },
+  {
+    slug: "complete-rosary-guide",
+    title: "The Complete Rosary Guide: Prayers, Mysteries and History",
+    excerpt: "Every prayer of the Rosary, all twenty mysteries, its history, and how to meditate as you pray.",
+    category: "Prayers & Devotions",
+    icon: CircleDot,
+    bgColor: "bg-blue-100",
+    iconColor: "text-blue-600",
+  },
+  {
+    slug: "complete-guide-to-catholic-confession",
+    title: "Catholic Confession: The Complete Guide to the Sacrament",
+    excerpt: "What Confession is, the steps of a good confession, common fears, and how often to go.",
+    category: "Mass & Sacraments",
+    icon: HeartHandshake,
+    bgColor: "bg-rose-100",
+    iconColor: "text-rose-600",
+  },
+  {
+    slug: "examination-of-conscience-before-confession",
+    title: "Examination of Conscience by the Ten Commandments for Adults",
+    excerpt: "A thorough examination of conscience for adults, commandment by commandment, before Confession.",
+    category: "Mass & Sacraments",
+    icon: ScrollText,
+    bgColor: "bg-orange-100",
+    iconColor: "text-orange-600",
+  },
+  {
+    slug: "catholic-baptism-explained",
+    title: "Catholic Baptism Explained: What It Is and What It Does",
+    excerpt: "The theology of Baptism, its effects, the indelible character, and the signs of the rite.",
+    category: "Mass & Sacraments",
+    icon: Droplets,
+    bgColor: "bg-sky-100",
+    iconColor: "text-sky-600",
+  },
+  {
+    slug: "st-jude-novena-guide",
+    title: "St. Jude Novena Guide: How to Pray the 9-Day Prayer for Impossible Cases",
+    excerpt: "Who St. Jude was, why Catholics turn to him in desperate cases, and how to pray his novena.",
+    category: "Prayers & Devotions",
+    icon: BookOpen,
+    bgColor: "bg-emerald-100",
+    iconColor: "text-emerald-600",
+  },
+];
+
 export function FeaturedArticles() {
-  const articles = getDailyArticles(6);
+  const articles = FEATURED;
 
   return (
     <section className="py-20 bg-background-muted/30">
@@ -37,7 +96,7 @@ export function FeaturedArticles() {
             const Icon = post.icon;
             return (
               <Link
-                key={post.id}
+                key={post.slug}
                 to={`/blog/${post.slug}/`}
                 className="group bg-surface rounded-2xl overflow-hidden border border-border hover:border-accent transition-all hover:shadow-lg"
               >
@@ -63,7 +122,7 @@ export function FeaturedArticles() {
 
         <div className="text-center">
           <Link
-            to="/blog/page/1/"
+            to="/blog/"
             className="inline-flex items-center gap-2 text-accent hover:text-accent/80 font-semibold transition-colors"
           >
             View all articles

@@ -15,6 +15,7 @@ import { CopyPrayerButton } from "@/components/blog/DailyPrayerExtras";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 import { christmasMomentGuideBySlug } from "@/data/christmasMomentGuides";
 import { liturgicalFeastGuideBySlug } from "@/data/liturgicalFeastGuides";
+import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 const ICONS: Record<string, LucideIcon> = {
   "all-saints-day": Star,
@@ -236,6 +237,7 @@ export default function LiturgicalFeastGuidePage() {
             </ul>
 
             <QuizCTA />
+            <TopicSeriesNav currentSlug={guide.slug} />
             <BlogFAQ htmlAnswers faqs={guide.faqs} />
             <RelatedArticles currentSlug={guide.slug} />
             <ArticleBottomCTA />
