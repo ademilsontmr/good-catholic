@@ -37,14 +37,14 @@ export default function NovenaForFertilityCatholic() {
           <div className="container mx-auto px-4">
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link><span>/</span>
-              <Link to="/blog" className="hover:text-accent">Blog</Link><span>/</span>
+              <Link to="/blog/" className="hover:text-accent">Blog</Link><span>/</span>
               <span className="text-text">Novena for Fertility: 9-Day Catholic Pr...</span>
             </nav>
           </div>
         </div>
         <article className="py-12">
           <div className="container mx-auto px-4 max-w-4xl">
-            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8"><ArrowLeft className="w-4 h-4" />Back to Blog</Link>
+            <Link to="/blog/" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8"><ArrowLeft className="w-4 h-4" />Back to Blog</Link>
             <header className="mb-8">
               <ArticleByline />
               <div className="flex items-center gap-4 text-sm text-text-muted mb-4">
@@ -127,7 +127,7 @@ export default function NovenaForFertilityCatholic() {
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">
               <h3 className="font-display text-2xl font-bold text-text mb-4">How Deep Is Your Catholic Faith?</h3>
               <p className="text-text-muted mb-6">Take our assessment and receive a personalized guide to Catholic prayer and devotion.</p>
-              <Link to="/quiz-intro"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
+              <Link to="/quiz-intro/"><Button size="lg" className="bg-button hover:bg-button-hover text-button-text">Take the Quiz Now</Button></Link>
             </div>
           </div>
         </article>

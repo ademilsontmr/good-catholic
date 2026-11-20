@@ -43,7 +43,7 @@ export default function StAndrewChristmasNovena2026() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link>
               <span>/</span>
-              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <Link to="/blog/" className="hover:text-accent">Blog</Link>
               <span>/</span>
               <span className="text-text">St. Andrew Christmas novena</span>
             </nav>
@@ -52,7 +52,7 @@ export default function StAndrewChristmasNovena2026() {
 
         <article className="py-12">
           <div className="container mx-auto px-4 max-w-4xl">
-            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+            <Link to="/blog/" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
               <ArrowLeft className="w-4 h-4" />Back to Blog
             </Link>
 
@@ -176,7 +176,7 @@ export default function StAndrewChristmasNovena2026() {
               <p className="text-text leading-relaxed mb-6">
                 <Link to="/blog/advent-2026-start-date-when-does-advent-begin/" className="text-accent underline underline-offset-2">When Advent 2026 begins</Link> ·{" "}
                 <Link to="/blog/immaculate-conception-december-8-2026-holy-day-usa/" className="text-accent underline underline-offset-2">Immaculate Conception Dec 8, 2026</Link> ·{" "}
-                <Link to="/blog/what-is-advent/" className="text-accent underline underline-offset-2">What is Advent?</Link>
+                <Link to="/blog/advent/" className="text-accent underline underline-offset-2">What is Advent?</Link>
               </p>
 
 

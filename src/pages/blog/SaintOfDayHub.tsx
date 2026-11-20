@@ -65,7 +65,7 @@ export default function SaintOfDayHub() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link>
               <span>/</span>
-              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <Link to="/blog/" className="hover:text-accent">Blog</Link>
               <span>/</span>
               <span className="text-text">Saint of the Day</span>
             </nav>

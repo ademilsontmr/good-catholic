@@ -18,7 +18,7 @@ function PopeThumbnail({ name, image }: { name: string; image: string }) {
   return (
     <img
       src={image}
-      alt=""
+      alt={`Portrait of ${name}`}
       width={40}
       height={40}
       loading="lazy"

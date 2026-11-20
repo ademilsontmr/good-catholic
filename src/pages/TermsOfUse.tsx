@@ -22,7 +22,7 @@ export default function TermsOfUse() {
                             </div>
                             <span className="font-display text-xl font-bold">Guide Catholic</span>
                         </Link>
-                        <Link to="/quiz-intro">
+                        <Link to="/quiz-intro/">
                             <Button variant="secondary" size="sm">Take the Quiz</Button>
                         </Link>
                     </div>

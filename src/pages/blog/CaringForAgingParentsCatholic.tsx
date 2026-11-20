@@ -43,7 +43,7 @@ export default function CaringForAgingParentsCatholic() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link>
               <span>/</span>
-              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <Link to="/blog/" className="hover:text-accent">Blog</Link>
               <span>/</span>
               <span className="text-text">caring for aging parents catholic</span>
             </nav>
@@ -52,7 +52,7 @@ export default function CaringForAgingParentsCatholic() {
 
         <article className="py-12">
           <div className="container mx-auto px-4 max-w-4xl">
-            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+            <Link to="/blog/" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
               <ArrowLeft className="w-4 h-4" />Back to Blog
             </Link>
 

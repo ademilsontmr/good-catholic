@@ -135,7 +135,7 @@ const SECTIONS: Section[] = [
     id: "what-ai-cannot-do",
     heading: "What AI cannot do for your prayer life",
     paragraphs: [
-      "No tool can sit in silence before God for you, receive the Eucharist, or confess your sins. The heart of Catholic prayer is not composition but attention: [[/blog/lectio-divina/|Lectio Divina]] with the Gospel, the Rosary, a few quiet minutes in the [[/blog/morning-prayer-catholic/|morning]], and Sunday Mass.",
+      "No tool can sit in silence before God for you, receive the Eucharist, or confess your sins. The heart of Catholic prayer is not composition but attention: [[/blog/lectio-divina-how-to-practice/|Lectio Divina]] with the Gospel, the Rosary, a few quiet minutes in the [[/blog/morning-prayer-catholic/|morning]], and Sunday Mass.",
       "Use AI the way you would use a good prayer book or a [[/blog/best-catholic-prayer-apps-2026/|Catholic prayer app]]: to get started, not to finish. If you notice that you are spending more time polishing prayers than praying them, close the laptop and say the simplest prayer you know.",
     ],
   },
@@ -187,7 +187,7 @@ const FAQS = [
 const RELATED = [
   { href: "/blog/daily-catholic-prayers/", label: "Daily Catholic prayers: a simple routine" },
   { href: "/blog/how-to-pray-for-someone-catholic/", label: "How to pray for someone" },
-  { href: "/blog/lectio-divina/", label: "Lectio Divina: praying with Scripture" },
+  { href: "/blog/lectio-divina-how-to-practice/", label: "Lectio Divina: praying with Scripture" },
   { href: "/blog/best-catholic-prayer-apps-2026/", label: "The best Catholic prayer apps" },
   { href: "/blog/emojis-for-talking-about-god/", label: "Emojis for talking about God" },
 ];

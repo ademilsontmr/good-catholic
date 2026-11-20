@@ -60,7 +60,7 @@ export default function PopeArticlePage() {
           <div className="container mx-auto px-4">
             <nav className="flex items-center gap-2 text-sm text-text-muted flex-wrap">
               <Link to="/" className="hover:text-accent">Home</Link><span>/</span>
-              <Link to="/blog" className="hover:text-accent">Blog</Link><span>/</span>
+              <Link to="/blog/" className="hover:text-accent">Blog</Link><span>/</span>
               <Link to="/blog/list-of-all-popes-catholic-complete-guide/" className="hover:text-accent">All Popes</Link><span>/</span>
               <span className="text-text">{displayName}</span>
             </nav>

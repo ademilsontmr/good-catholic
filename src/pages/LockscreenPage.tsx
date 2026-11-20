@@ -24,7 +24,7 @@ import { drawLockscreen, CAPS_FONT, VERSE_FONT, type LockscreenDesign, type Lock
 const PAGE_URL = "https://guidecatholic.com/lockscreen/";
 const TITLE = "Catholic Lockscreen Wallpaper Maker (Free) | Guide Catholic";
 const DESCRIPTION =
-  "Make a free Catholic lock screen wallpaper: pick a Bible verse, prayer or Advent and Christmas text, edit the words, choose a color and download for iPhone or Android.";
+  "Make a free Catholic lock screen wallpaper: pick a Bible verse, prayer or Advent text, edit the words, choose a design and download it for iPhone or Android.";
 const MAX_TEXT = 220;
 const FONTS_URL =
   "https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap";

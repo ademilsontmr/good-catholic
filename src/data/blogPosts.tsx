@@ -6523,18 +6523,6 @@ export const blogPosts: BlogPost[] = [
     iconColor: "text-rose-400"
   },
   {
-    id: 66,
-    slug: "what-is-rcia-for-adults",
-    title: "What Is RCIA? The Complete Guide for Adults Becoming Catholic",
-    excerpt: "Everything you need to know about RCIA — the 4 stages, timeline, Easter Vigil, who it's for, what to expect in classes, choosing a sponsor, and how to find RCIA in your parish.",
-    date: "2026-04-14",
-    readTime: "13 min",
-    category: "Formation",
-    icon: BookOpen,
-    bgColor: "bg-blue-100",
-    iconColor: "text-blue-400"
-  },
-  {
     id: 67,
     slug: "catholic-homeschooling-guide",
     title: "Catholic Homeschooling: A Complete Guide for Catholic Families",

@@ -40,7 +40,7 @@ export function QuizCTA({
             </p>
           </div>
 
-          <Link to="/quiz-intro" className="shrink-0 w-full sm:w-auto">
+          <Link to="/quiz-intro/" className="shrink-0 w-full sm:w-auto">
             <Button
               size="lg"
               className="w-full sm:w-auto bg-gradient-accent hover:opacity-90 text-accent-foreground font-bold px-6 shadow-glow transition-all duration-300 group"

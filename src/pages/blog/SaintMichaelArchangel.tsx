@@ -45,7 +45,7 @@ export default function SaintMichaelArchangel() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link>
               <span>/</span>
-              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <Link to="/blog/" className="hover:text-accent">Blog</Link>
               <span>/</span>
               <span className="text-text">St. Michael the Archangel</span>
             </nav>
@@ -54,7 +54,7 @@ export default function SaintMichaelArchangel() {
 
         <article className="py-12">
           <div className="container mx-auto px-4 max-w-4xl">
-            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+            <Link to="/blog/" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
               <ArrowLeft className="w-4 h-4" />
               Back to Blog
             </Link>
@@ -166,7 +166,7 @@ export default function SaintMichaelArchangel() {
                 <p className="text-text italic leading-relaxed mb-6">
                   "Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil..."
                 </p>
-                <Link to="/blog/saint-michael-prayer-history">
+                <Link to="/blog/saint-michael-prayer/">
                   <Button variant="outline" size="sm" className="rounded-full">Read the Full History</Button>
                 </Link>
               </div>

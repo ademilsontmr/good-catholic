@@ -49,7 +49,7 @@ export function ArticleBottomCTA({
           </div>
 
           <div className="flex flex-col items-center gap-2 shrink-0">
-            <Link to="/quiz-intro" className="w-full sm:w-auto">
+            <Link to="/quiz-intro/" className="w-full sm:w-auto">
               <Button
                 size="lg"
                 className="w-full sm:w-auto h-14 px-8 bg-gradient-accent hover:opacity-90 text-accent-foreground font-bold text-base shadow-glow transition-all duration-300 group"

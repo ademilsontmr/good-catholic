@@ -56,7 +56,7 @@ export default function CatholicFeastDateArticlePage() {
           <div className="container mx-auto px-4">
             <nav className="flex items-center gap-2 text-sm text-text-muted flex-wrap">
               <Link to="/" className="hover:text-accent">Home</Link><span>/</span>
-              <Link to="/blog" className="hover:text-accent">Blog</Link><span>/</span>
+              <Link to="/blog/" className="hover:text-accent">Blog</Link><span>/</span>
               <Link to="/blog/catholic-feast-days/" className="hover:text-accent">Catholic Feast Days</Link><span>/</span>
               <span className="text-text">{article.shortName}</span>
             </nav>

@@ -57,7 +57,10 @@ export default function BlogPage() {
   const getBlogPagePath = (pageNumber: number) => pageNumber === 1 ? "/blog/" : `/blog/page/${pageNumber}/`;
   const canonicalPath = getBlogPagePath(currentPage);
   const canonicalUrl = `https://guidecatholic.com${canonicalPath}`;
-  const pageTitle = currentPage === 1 ? "Blog - Guide Catholic" : `Blog Page ${currentPage} - Guide Catholic`;
+  const pageTitle =
+    currentPage === 1
+      ? "Catholic Blog: Prayer, Saints and Sacraments | Guide Catholic"
+      : `Catholic Blog, Page ${currentPage} | Guide Catholic`;
   const pageDescription = trimMetaDescription(
     currentPosts.length > 0
       ? `Read ${pageCategories.join(", ")} articles including ${pageTopics.join("; ")}. Catholic guides for faith, prayer, sacraments and spiritual growth.`

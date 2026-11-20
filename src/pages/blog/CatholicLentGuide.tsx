@@ -42,7 +42,7 @@ export default function CatholicLentGuide() {
             <nav className="flex items-center gap-2 text-sm text-text-muted">
               <Link to="/" className="hover:text-accent">Home</Link>
               <span>/</span>
-              <Link to="/blog" className="hover:text-accent">Blog</Link>
+              <Link to="/blog/" className="hover:text-accent">Blog</Link>
               <span>/</span>
               <span className="text-text">Complete Catholic Lent Guide</span>
             </nav>
@@ -50,7 +50,7 @@ export default function CatholicLentGuide() {
         </div>
         <article className="py-12">
           <div className="container mx-auto px-4 max-w-4xl">
-            <Link to="/blog" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
+            <Link to="/blog/" className="inline-flex items-center gap-2 text-accent hover:text-accent/80 mb-8">
               <ArrowLeft className="w-4 h-4" />Back to Blog
             </Link>
             <header className="mb-8">
@@ -274,6 +274,10 @@ export default function CatholicLentGuide() {
                   "Lent is a time to say yes to God and no to yourself — so that at Easter, you can say yes to the new life He offers."
                 </p>
               </div>
+              <p className="text-text leading-relaxed mb-8">
+                For a week-by-week way to keep the season, read{" "}
+                <Link to="/blog/how-to-live-lent/" className="text-accent underline underline-offset-2">how to live Lent as a season of conversion</Link>.
+              </p>
             </div>
 
             <BlogFAQ faqs={[

@@ -473,7 +473,7 @@ export default function DailyVersesPage() {
               <p className="text-text-muted mb-6 max-w-md mx-auto">
                 This verse is just one dimension of faith. Discover how you're living across all 5 areas — Eucharist, Prayer, Formation, Devotions, and Witness — with our free assessment.
               </p>
-              <Link to="/quiz-intro">
+              <Link to="/quiz-intro/">
                 <Button size="lg" className="group">
                   Take the Catholic Life Assessment
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
