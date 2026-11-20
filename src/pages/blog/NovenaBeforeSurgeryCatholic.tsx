@@ -58,73 +58,72 @@ export default function NovenaBeforeSurgeryCatholic() {
             <div className="aspect-video bg-rose-100 rounded-2xl flex items-center justify-center mb-10"><HeartPulse className="w-24 h-24 text-rose-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A novena before surgery is nine days of Catholic prayer for the patient, medical team, and successful recovery. Start nine days before the operation if possible; receive Anointing of the Sick and Confession for serious procedures.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">{`A novena before surgery is nine days of prayer for the patient, the surgical team, and a good recovery, ideally begun nine days before the operation. Catholics entrust the surgery to Christ the Divine Physician and ask the prayers of saints such as St. Luke and St. Peregrine. For a serious operation, the Church also encourages receiving the Anointing of the Sick beforehand.`}</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Catholics invoke Christ the Divine Physician, Mary Health of the Sick, Saint Luke the evangelist-physician, Saint Peregrine (patron of cancer patients), and Saint Padre Pio for healing. Hospital chaplains across the U.S. offer sacraments before major operations.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`St. Peregrine: Healed the Night Before an Amputation`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`Peregrine Laziosi (c. 1260–1345) grew up in Forlì, Italy, in a family opposed to the papacy. As a young man he struck St. Philip Benizi, a Servite friar sent to preach reconciliation in the town, and Philip responded by offering him the other cheek. The encounter changed Peregrine’s life, and he later joined the Servite Order himself.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`Around the age of sixty, he developed a painful, open wound on his leg, usually described as cancer, and the doctors decided to amputate. The night before the operation, he dragged himself to the crucifix in the chapter room and prayed. According to the accounts of his life, he fell asleep and saw Christ reach down from the cross to touch his leg; in the morning the surgeon found the wound healed. Peregrine lived about twenty more years, and Pope Benedict XIII canonized him in 1726. He is patron of cancer patients and of anyone facing a frightening operation.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Other Patrons for the Operating Room`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`St. Luke, whom Paul calls the beloved physician (Colossians 4:14), is patron of doctors and surgeons, and his Gospel lingers with special tenderness on the sick whom Jesus touched and healed. Sts. Cosmas and Damian, twin brothers and physicians martyred in the early fourth century, are remembered for treating patients without charge.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`In the twentieth century, St. Padre Pio founded a hospital, the Casa Sollievo della Sofferenza (Home for the Relief of Suffering), which opened in San Giovanni Rotondo in 1956 and still operates today. He saw no conflict between prayer and modern medicine, and neither does this novena.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Surgery brings fear of pain, complications, or death. Nine days unite family prayer with medical expertise. The Church blesses anesthesia and surgery as good when used to heal — prayer sanctifies the wait before going under.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Scripture to Pray With`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`Read one passage each day of the novena, and on the morning of surgery if you can:`}</LinkedText>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Sirach 38:1–14 — Honor the physician, for the Lord created him; pray to the Lord, and let the doctor take his place too.`}</li>
+                <li>{`James 5:14–15 — The sick call the presbyters of the Church, who anoint them and pray over them.`}</li>
+                <li>{`Isaiah 41:10 — Do not fear, for I am with you; I will strengthen and uphold you.`}</li>
+                <li>{`Psalm 4:9 — In peace I will lie down and fall asleep, for you alone, Lord, make me secure.`}</li>
+                <li>{`Psalm 23:4 — Even in the darkest valley, I fear no harm, for you are with me.`}</li>
+                <li>{`2 Corinthians 4:16 — Though our outer self is wasting away, our inner self is being renewed day by day.`}</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`What the Church Teaches About Anointing Before Surgery`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`The Anointing of the Sick is not only for the dying. The Catechism notes that it is fitting to receive this sacrament just prior to a serious operation (CCC 1515). Its special grace brings strengthening, peace, and courage to overcome the difficulties of serious illness, and it unites the sick person to the Passion of Christ (CCC 1520–1521). If you are able, go to Confession before the operation as well.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`The Church also teaches that we have a duty to take reasonable care of our health (CCC 2288), so choosing good surgeons and following medical advice is itself a faithful act. Prayer and medicine are not competitors; both come from the same God.`}</LinkedText>
 
               <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
-              <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li>Start nine days before surgery when the date is known.</li>
-                <li><strong>Ask the parish for Anointing of the Sick</strong> — not only for the dying.</li>
-                <li>Family prays daily even if the patient is weak.</li>
-                <li>Follow all pre-op medical instructions.</li>
-                <li>Continue prayer through recovery.</li>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Nine Days, Nine Intentions`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`Count back nine days from the operation. Each morning, say the prayer below and add that day’s intention:`}</LinkedText>
+              <ol className="list-decimal pl-6 text-text space-y-3 mb-6">
+                <li>{`Trust — handing the surgery over to God (Psalm 31:6).`}</li>
+                <li>{`The surgeon, for a steady hand and clear judgment (Sirach 38:12–13).`}</li>
+                <li>{`The anesthesiologist, nurses, and the whole team (1 Corinthians 12:4–6).`}</li>
+                <li>{`Freedom from fear in the days and the final night before the operation (Psalm 4:9).`}</li>
+                <li>{`Safe passage through the procedure itself (Isaiah 43:2).`}</li>
+                <li>{`Healing without infection or complications (Jeremiah 17:14).`}</li>
+                <li>{`Strength and patience during recovery and rehabilitation (Isaiah 40:31).`}</li>
+                <li>{`The family members and caregivers who wait and help (Galatians 6:2).`}</li>
+                <li>{`Acceptance of God’s will and thanksgiving for every grace already received (Luke 22:42).`}</li>
               </ol>
-
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer Before Surgery</h3>
-                <p className="text-text italic leading-relaxed text-sm">Lord Jesus, Divine Physician, I entrust this surgery and recovery to you. Guide the hands of the medical team, calm my anxiety, and grant healing according to your holy will. Mary, Health of the Sick, Saint Luke, Saint Padre Pio, and Saint Peregrine, intercede for [name] and a successful operation. Amen.</p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">{`Daily Novena Prayer Before Surgery`}</h3>
+                <p className="text-text italic leading-relaxed mb-3">{`Lord Jesus, Divine Physician, I entrust this surgery and the recovery that follows to you. Guide the minds and hands of the surgeon, the anesthesiologist, and every member of the medical team. Calm my anxiety, keep me safe while I sleep, and grant healing according to your holy will.`}</p>
+                <p className="text-text italic leading-relaxed mb-3">{`If I must suffer, unite my pain to your Cross, and give strength to the people who love me. Mary, Health of the Sick, St. Luke, St. Peregrine, and St. Padre Pio, intercede for [name] and for a successful operation. Amen.`}</p>
               </div>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Family members often pray this novena at the bedside. Combine with St. Padre Pio novena for healing. Offer Mass intentions for the patient&apos;s recovery.</LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Novena before surgery — 9-day Catholic prayer for healing, peace, and successful operation. Full prayer text for patients and families in the United States. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Getting Ready in Body and Soul`}</h2>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Call your parish or ask for the hospital chaplain to arrange the Anointing of the Sick; many Catholic hospitals can also bring Holy Communion before or after surgery.`}</li>
+                <li>{`Follow every pre-operative instruction exactly, including fasting. Your surgeon’s orders take priority over receiving Communion that morning; the sick are not bound by the usual one-hour Eucharistic fast, but medical fasting is a different matter.`}</li>
+                <li>{`Complete an advance directive and name a health care proxy who knows your Catholic values; your diocese or a Catholic hospital can explain the Church’s guidance on end-of-life care.`}</li>
+                <li>{`Ask a priest to offer a Mass for your intention around the day of surgery.`}</li>
+                <li>{`Write down your medications and questions for the surgeon so fear does not crowd them out.`}</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Novena Before Surgery, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Readers often search for Novena Before Surgery: 9-Day Catholic Prayer for Healing & Peace during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">Novena before surgery — 9-day Catholic prayer for healing, peace, and successful operation. Full prayer text for patients and families in the United States. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`If Recovery Is Slow`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-before-surgery-catholic">{`Complications, pain, and long rehabilitation do not mean the novena was useless. St. Peregrine’s healing was dramatic, but many saints, Padre Pio among them, carried physical suffering for years and offered it to God. Keep praying through recovery, start the novena again if it helps, and let others care for you; accepting help is part of healing too.`}</LinkedText>
             </div>
             <BlogFAQ faqs={[
-              { question: "When should I start?", answer: "Nine days before surgery; if sooner, pray daily until and after the procedure." },
-              { question: "Can family pray for the patient?", answer: "Yes — one of the most common intercessory novenas." },
-              { question: "Should I receive Anointing?", answer: "Yes for serious surgery or illness — it is for the seriously ill, not only the dying." },
-              { question: "Which saints for surgery?", answer: "Saint Luke, Saint Peregrine, Saint Padre Pio, and Mary Health of the Sick." },
-              { question: "Does prayer replace medical care?", answer: "No — follow doctors&apos; orders; prayer complements medicine." },
-              { question: "Can I pray after surgery too?", answer: "Yes — extend prayer through rehabilitation." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: `Should I receive the Anointing of the Sick before surgery?`, answer: `Yes, if the operation is serious. The Catechism says it is fitting to receive the sacrament just before a serious operation (CCC 1515). Call your parish a few days ahead or ask for the hospital chaplain.` },
+              { question: `Who is the patron saint of surgery?`, answer: `St. Peregrine is invoked by people facing surgery, especially for cancer, because he was healed the night before a planned amputation. St. Luke and Sts. Cosmas and Damian are patrons of physicians and surgeons.` },
+              { question: `What if my surgery is in less than nine days?`, answer: `Begin anyway and finish the remaining days during recovery in thanksgiving. Some families divide the days so several people pray at once, completing the novena before the operation.` },
+              { question: `Can I receive Communion the morning of surgery?`, answer: `Only if your medical team allows it. Pre-surgical fasting rules exist for your safety. If you cannot receive, make a spiritual communion and ask for Communion after the operation.` },
+              { question: `Can family pray this novena if the patient is unconscious or unable to pray?`, answer: `Yes. Family members and friends can pray every day of the novena on the patient’s behalf, and a priest can still anoint a patient who cannot respond.` }
             ]} />
             <RelatedArticles currentSlug="novena-before-surgery-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

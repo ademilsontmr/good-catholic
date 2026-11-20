@@ -71,93 +71,79 @@ export default function StJudeNovenaGuide() {
               <Heart className="w-24 h-24 text-amber-600" strokeWidth={1.5} />
             </div>
             <div className="prose prose-lg max-w-none">
-
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The St. Jude novena is a nine-day prayer to the patron of hopeless causes — invoked when situations feel impossible, from illness to addiction to broken relationships. Catholics pray with hope, not magic; St. Jude Thaddeus, apostle and martyr, is among the most popular intercessors in U.S. parishes.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">{`The St. Jude novena is nine days of prayer asking St. Jude Thaddeus, apostle and martyr, to intercede in situations that seem impossible — serious illness, addiction, a marriage in crisis, a debt with no way out. You can begin it any day, though many Catholics time it to end on his feast, October 28. It is an act of hope placed in God through a friend of Jesus, not a formula that guarantees a particular result.`}</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Is Saint Jude?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">
-                Saint Jude Thaddeus is one of the twelve apostles of Jesus Christ and the author of the Letter of Jude in the New Testament. He is venerated as the patron saint of impossible causes and desperate situations — the saint to turn to when all other hope seems lost. His feast day is October 28, shared with Saint Simon the Apostle. Devotion to Saint Jude is especially strong in the United States, where his intercession has been sought by millions.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Who Is St. Jude?`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`Jude was one of the Twelve. Luke lists him as Judas the son of James (Luke 6:16; Acts 1:13), while Matthew and Mark call him Thaddeus (Matthew 10:3; Mark 3:18). John’s Gospel records a single question he asked at the Last Supper — Judas, not the Iscariot — about why Jesus would reveal himself to the disciples and not to the world (John 14:22). The short Letter of Jude in the New Testament is traditionally attributed to him.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`Ancient tradition holds that Jude preached the Gospel in the East and was martyred together with St. Simon the Zealot, which is why the Church celebrates them on the same day, October 28. Relics honored as theirs are venerated in St. Peter’s Basilica in Rome. In art Jude is often shown with a flame above his head, recalling Pentecost, and with a medallion bearing the face of Christ.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">
-                A novena is a nine-day prayer, traditionally prayed in preparation for a feast day or in petition for a specific intention. The word comes from the Latin <em>novem</em> (nine), recalling the nine days the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). Novenas are one of the most powerful forms of intercessory prayer in the Catholic tradition.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Why the Patron of Hopeless Causes?`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`No document records exactly how Jude became the saint of desperate cases. A popular explanation is that, because his name resembled that of Judas Iscariot, few people prayed to him for centuries, so he was eager to help anyone who finally asked. That is a pious reflection rather than a historical fact. What is certain is that the devotion took deep root in the twentieth century, especially in the United States.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray the St. Jude Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">
-                Saint Jude is invoked for situations that seem humanly impossible — serious illness, financial crisis, broken relationships, addiction, legal troubles, and any situation where hope has nearly run out. The tradition of praying to Saint Jude for impossible causes goes back centuries and has been confirmed by countless testimonies of answered prayers. Many Catholics who have prayed this novena report that Saint Jude's intercession brought unexpected help precisely when they had nowhere else to turn.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`St. Jude in America: Chicago and Memphis`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`In 1929 Father James Tort, a Claretian priest, began promoting devotion to St. Jude at Our Lady of Guadalupe parish in South Chicago, a congregation of steelworkers and immigrant families. As the Great Depression arrived and layoffs spread, crowds came to the novenas there, and the National Shrine of St. Jude grew out of that parish.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`The best-known American story belongs to the entertainer Danny Thomas. As a young performer with a pregnant wife and very little money, he prayed to St. Jude and promised that if he found his way in life he would build a shrine in the saint’s honor. After his career took off he kept the promise in a way few expected: St. Jude Children’s Research Hospital, which opened in Memphis, Tennessee, in 1962, to treat children with cancer and other catastrophic diseases.`}</LinkedText>
 
-              <QuizCTA
-                title="How deep is your Catholic faith?"
-                description="Take our assessment and receive a personalized guide to growing in your prayer life and devotion to the saints."
-              />
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Scripture to Pray With`}</h2>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Jude 20–21 — Build yourselves up in your most holy faith, pray in the Holy Spirit, and keep yourselves in the love of God.`}</li>
+                <li>{`Jude 24–25 — Praise to the One who is able to keep you from stumbling and present you joyful before his glory.`}</li>
+                <li>{`John 14:22–23 — Jude’s own question at the Last Supper, and Jesus’ promise to dwell with those who love him.`}</li>
+                <li>{`Mark 9:23–24 — A desperate father cries out that he believes and begs Jesus to help his unbelief.`}</li>
+                <li>{`Romans 4:18 — Abraham, hoping against hope, believed.`}</li>
+                <li>{`Romans 5:5 — Hope does not disappoint, because God’s love has been poured into our hearts.`}</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray the St. Jude Novena — Step by Step</h2>
-              <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li>
-                  <strong>Choose your intention.</strong> Be specific. Name the person or situation you are bringing to Saint Jude. Write it down if it helps.
-                </li>
-                <li>
-                  <strong>Begin on any day.</strong> The novena can be started at any time, though many begin it nine days before October 28 (his feast day) or in a moment of urgent need.
-                </li>
-                <li>
-                  <strong>Pray for nine consecutive days.</strong> Each day, pray the novena prayer once. Consistency matters — do not skip days.
-                </li>
-                <li>
-                  <strong>Pray with faith and surrender.</strong> Ask Saint Jude to intercede, but surrender the outcome to God's will. The novena is not a magic formula; it is an act of trust.
-                </li>
-                <li>
-                  <strong>Pray the full novena online.</strong> The complete St. Jude Novena — with the traditional prayer text for all nine days — is available at{" "}
-                  <a href="https://catholicbibleonline.com/novenas/st-jude/" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 underline underline-offset-2 font-semibold">Catholic Bible Online</a>. This free resource guides you through each day of the novena with the full prayer text.
-                </li>
+              <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`What the Church Teaches About Hope`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`Hope is a theological virtue: the confident desire for God and for the help of his grace, trusting in Christ’s promises rather than our own strength (CCC 1817). Hope is not optimism: you can be fully realistic about a terrible situation and still hope, because hope rests on who God is.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`Its opposite is despair, by which a person stops trusting that God will save him or forgive him (CCC 2091). The Church encourages us to seek the prayers of the saints, who share in the living tradition of prayer and continue to care for those on earth (CCC 2683) — but every grace they obtain comes from God.`}</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Nine Days, Nine Intentions`}</h2>
+              <ol className="list-decimal pl-6 text-text space-y-3 mb-6">
+                <li>{`Name the impossible situation plainly, and give it to God (Psalm 55:23).`}</li>
+                <li>{`For hope when every human door seems closed (Romans 4:18).`}</li>
+                <li>{`For faith that is honest about its weakness (Mark 9:24).`}</li>
+                <li>{`For the person at the center of this situation, by name (James 5:16).`}</li>
+                <li>{`For doctors, counselors, lawyers, or anyone who can help (Sirach 38:12–13).`}</li>
+                <li>{`For the strength to keep loving while you wait (Jude 21).`}</li>
+                <li>{`For others facing desperate cases tonight, especially the sick and the poor (Galatians 6:2).`}</li>
+                <li>{`For acceptance of God’s will, as Jesus prayed in the garden (Luke 22:42).`}</li>
+                <li>{`Thanksgiving, already, for the help God will give (Philippians 4:6).`}</li>
               </ol>
-
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`Many Catholics pray this prayer once a day for nine days, often with an Our Father, Hail Mary, and Glory Be. A complete day-by-day version of the novena is available free at Catholic Bible Online (catholicbibleonline.com/novenas/st-jude/), with no registration required.`}</LinkedText>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">The Traditional St. Jude Prayer</h3>
-                <p className="text-text italic leading-relaxed text-sm">
-                  "Most holy Apostle, Saint Jude, faithful servant and friend of Jesus, the Church honors and invokes you universally as the patron of hopeless cases, of things almost despaired of. Pray for me, I am so helpless and alone. Make use of that particular privilege given to you, to bring visible and speedy help where help is almost despaired of. Amen."
-                </p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">{`The Traditional St. Jude Prayer`}</h3>
+                <p className="text-text italic leading-relaxed mb-3">{`Most holy Apostle, Saint Jude, faithful servant and friend of Jesus, the Church honors and invokes you universally as the patron of hopeless cases, of things almost despaired of. Pray for me, I am so helpless and alone. Make use of that particular privilege given to you, to bring visible and speedy help where help is almost despaired of.`}</p>
+                <p className="text-text italic leading-relaxed mb-3">{`Come to my assistance in this great need, that I may receive the consolation and help of heaven in all my necessities, tribulations, and sufferings, particularly [name your request], and that I may praise God with you and all the saints forever. I promise, O blessed Jude, to be ever mindful of this great favor, to always honor you as my special and powerful patron, and to gratefully encourage devotion to you. Amen.`}</p>
               </div>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Note on Publishing Your Thanksgiving</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">
-                Many Catholics who pray the St. Jude novena follow the tradition of publishing a notice of thanksgiving in a newspaper or online when their prayer is answered — a practice that has spread devotion to Saint Jude for generations. If your prayer is answered, consider sharing your testimony with others. Saint Jude's intercession is most powerful when it is shared, and your testimony may give hope to someone else who is facing an impossible situation.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`How to Pray the Novena Well`}</h2>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Write your intention down on the first day so you can return to it.`}</li>
+                <li>{`Begin on any day; to finish on his feast, start on October 20.`}</li>
+                <li>{`If you miss a day, simply continue; a novena is a commitment of love, not a contract.`}</li>
+                <li>{`Pair it with Confession and Mass if you can — the sacraments are the surest channels of grace.`}</li>
+                <li>{`Keep doing every practical thing the situation requires.`}</li>
+              </ul>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">
-                Ready to begin? The complete St. Jude Novena — with the full prayer text for all nine days — is available for free at{" "}
-                <a href="https://catholicbibleonline.com/novenas/st-jude/" target="_blank" rel="noopener noreferrer" className="text-accent hover:text-accent/80 underline underline-offset-2 font-semibold">Catholic Bible Online</a>. You can pray it directly on the site, day by day, with no registration required. Saint Jude, pray for us.
-              </LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Publishing Your Thanksgiving`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`For generations, people whose prayers were answered have published a short note of thanks to St. Jude in a newspaper classified section or, more recently, online. The custom comes from the promise in the traditional prayer to encourage devotion to him. It can give hope to someone else, but it is optional; thanking God, telling a friend, or helping someone in need are equally fitting.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">{`And if the answer is not the one you asked for, Jude’s own question at the Last Supper is worth remembering. He wanted to know why Jesus would act one way and not another. Jesus did not explain everything; he promised his presence. That promise holds even when the situation does not change.`}</LinkedText>
 
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">A complete guide to the St. Jude Novena — who Saint Jude is, how to pray the 9-day novena step by step, the traditional prayer text, and where to pray it online. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-jude-novena-guide">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray St. Jude Novena Guide, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
+              <p className="text-text leading-relaxed mb-6">Related reading: <a href="https://catholicbibleonline.com/novenas/st-jude/" target="_blank" rel="noopener noreferrer" className="text-accent underline underline-offset-2 hover:text-accent/80">{`Catholic Bible Online`}</a></p>
             </div>
 
             <BlogFAQ faqs={[
-              { question: "Who is Saint Jude the patron saint of?", answer: "Saint Jude Thaddeus is the patron saint of impossible causes and desperate situations. He is one of the twelve apostles and the author of the Letter of Jude in the New Testament. His feast day is October 28." },
-              { question: "How long is the St. Jude Novena?", answer: "The St. Jude Novena is nine days long. You pray the novena prayer once each day for nine consecutive days. It can be started at any time, though many begin it nine days before his feast day on October 28." },
-              { question: "Can I start the St. Jude Novena at any time?", answer: "Yes. While many Catholics begin the novena nine days before October 28 (Saint Jude's feast day), you can start it at any time — especially in moments of urgent need. What matters is praying consistently for nine consecutive days." },
-              { question: "What is the tradition of publishing a thanksgiving after the St. Jude Novena?", answer: "Many Catholics who have their prayers answered through Saint Jude's intercession follow the tradition of publishing a notice of thanksgiving in a newspaper or online. This practice has spread devotion to Saint Jude for generations and gives hope to others facing impossible situations." },
-              { question: "Where can I find the full St. Jude Novena prayer text?", answer: "The complete St. Jude Novena with the full prayer text for all nine days is available for free at Catholic Bible Online (catholicbibleonline.com/novenas/st-jude/). You can pray it directly on the site, day by day, with no registration required." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: `Who is St. Jude the patron saint of?`, answer: `St. Jude Thaddeus is the patron of hopeless causes and desperate situations. He was one of the twelve apostles, is traditionally credited with the Letter of Jude, and shares the feast of October 28 with St. Simon.` },
+              { question: `When should I start the St. Jude novena to end on his feast day?`, answer: `Begin on October 20 so the ninth day falls on October 28. You can also start any day of the year when an urgent need arises.` },
+              { question: `Is St. Jude the same as Judas who betrayed Jesus?`, answer: `No. Jude, also called Thaddeus or Judas son of James, was a different apostle. John’s Gospel distinguishes him explicitly as Judas, not the Iscariot (John 14:22).` },
+              { question: `Do I have to publish a thanksgiving after the novena?`, answer: `No. Publishing a thank-you note is a traditional custom that spreads devotion and encourages others, but it is optional. Gratitude to God, however you express it, is what matters.` },
+              { question: `Where can I find the full St. Jude novena for all nine days?`, answer: `A complete day-by-day text is available free at Catholic Bible Online (catholicbibleonline.com/novenas/st-jude/).` }
             ]} />
 
             <RelatedArticles currentSlug="st-jude-novena-guide" />

@@ -58,73 +58,74 @@ export default function StGerardNovenaPregnancy() {
             <div className="aspect-video bg-pink-100 rounded-2xl flex items-center justify-center mb-10"><Baby className="w-24 h-24 text-pink-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Saint Gerard Majella is patron of expectant mothers and safe childbirth across the United States. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">{`The St. Gerard novena is nine days of prayer to St. Gerard Majella, the Redemptorist brother whom Catholics invoke as patron of expectant mothers, for a healthy pregnancy and a safe delivery. Couples also pray it while hoping to conceive, during a high-risk pregnancy, or after a loss. Many families pray it ending on his feast, October 16, or in the last weeks before a due date.`}</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">Saint Gerard Majella is patron of expectant mothers and safe childbirth across the United States. Catholics across the United States pray this novena in parishes, homes, and online prayer groups, trusting in God&apos;s mercy and the intercession of the saints.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Who Was St. Gerard Majella?`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`Gerard Majella was born on April 6, 1726, in Muro Lucano, a hill town in southern Italy. His father, a tailor, died when Gerard was a boy, and he went to work as an apprentice tailor and then as a servant in the household of a bishop. Frail in health, he was refused by the Capuchins before the young Redemptorist congregation, founded by St. Alphonsus Liguori, accepted him as a lay brother in 1749.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`As a brother he served as tailor, gardener, porter, and sacristan, and became known for his care for the poor and for an extraordinary life of prayer. He died of tuberculosis on October 16, 1755, at the Redemptorist house in Materdomini near Caposele, only 29 years old. Pope Leo XIII beatified him in 1893, and Pope St. Pius X canonized him in 1904.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`The Handkerchief and Why Mothers Call on Him`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`The story most associated with his patronage comes from the end of his life. During a visit to the Pirofalo family, he left behind a handkerchief. When one of the daughters ran after him to return it, he told her to keep it, because it would be useful to her one day. Years later, according to the accounts gathered after his death, she faced a dangerous labor, asked for the handkerchief, and delivered safely.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`After his death, mothers in southern Italy began asking his help in pregnancy and childbirth, and the devotion traveled with Italian immigrants to the United States. Today many hospitals and parishes distribute St. Gerard prayer cards or blessed handkerchiefs to expectant mothers. These are sacramentals, signs that invite prayer, not lucky objects.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">Nine days of sustained prayer imitate the apostles waiting for Pentecost (Acts 1:14). Unlike a single hurried prayer, a novena builds trust and discipline — especially when the need is urgent or long-standing. The Church encourages novenas as persevering prayer, not as magic.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`A Saint Who Was Falsely Accused`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`Gerard also knew what it is to suffer unjustly. In 1754 a young woman named Neria Caggiano falsely accused him of misconduct. When St. Alphonsus questioned him, Gerard chose to remain silent rather than defend himself, and he accepted the restrictions placed on him. Months later the woman retracted the accusation, and his name was cleared. Mothers carrying fears they cannot explain to others find a companion in a saint who trusted God in silence.`}</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Scripture to Pray With`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`Read one passage each day with your hand on the place where your child is growing:`}</LinkedText>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Psalm 139:13–14 — God formed your child’s inmost being and knit the child together in the womb.`}</li>
+                <li>{`Jeremiah 1:5 — Before I formed you in the womb I knew you.`}</li>
+                <li>{`Luke 1:39–45 — Elizabeth’s child leaps for joy at the greeting of Mary, who also carries a child.`}</li>
+                <li>{`1 Samuel 1:9–20 — Hannah pours out her heart in prayer, and God remembers her.`}</li>
+                <li>{`Isaiah 49:15 — Even if a mother could forget her infant, God will never forget you.`}</li>
+                <li>{`John 16:21 — The pain of labor gives way to joy that a child has been born into the world.`}</li>
+              </ul>
 
               <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
-              <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li>Name your intention clearly on day one.</li>
-                <li>Choose the same time each day for nine consecutive days.</li>
-                <li>Begin with the Sign of the Cross; end with Glory Be if you wish.</li>
-                <li><strong>Combine prayer with practical steps</strong> — medical, legal, financial, or family action.</li>
-                <li>Offer thanks when you receive grace, even if the answer differs from your first hope.</li>
-              </ol>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`What the Church Teaches About the Child in the Womb`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`The Church teaches that human life must be respected and protected absolutely from the moment of conception (CCC 2270), and that every child is a gift from God, the supreme gift of marriage (CCC 2378). Praying for your unborn child is already an act of parenthood and of faith.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`For parents who suffer a miscarriage or stillbirth, the Church entrusts children who die without Baptism to the mercy of God, who desires all to be saved, and invites hope for them (CCC 1261). In the United States there is also an approved Blessing of a Child in the Womb; any priest or deacon can give it, often after Mass.`}</LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Nine Days, Nine Intentions`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`Pray the daily prayer below, then offer the intention for that day:`}</LinkedText>
+              <ol className="list-decimal pl-6 text-text space-y-3 mb-6">
+                <li>{`Thanksgiving for the gift of this child (Psalm 127:3).`}</li>
+                <li>{`The baby’s healthy growth and development (Psalm 139:15–16).`}</li>
+                <li>{`The mother’s health, strength, and rest (Isaiah 40:29–31).`}</li>
+                <li>{`Peace in place of fear of complications (Isaiah 41:10).`}</li>
+                <li>{`Doctors, midwives, and nurses who will care for mother and child (Sirach 38:12–14).`}</li>
+                <li>{`The father and the whole family preparing to welcome the baby (Joshua 24:15).`}</li>
+                <li>{`A safe labor and delivery (John 16:21).`}</li>
+                <li>{`Mothers in high-risk pregnancies and those who have lost a child (Matthew 2:18).`}</li>
+                <li>{`The child’s Baptism and life of faith (Mark 10:14).`}</li>
+              </ol>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer</h3>
-                <p className="text-text italic leading-relaxed text-sm">O great Saint Gerard, beloved servant of Jesus Christ, perfect imitator of your meek and humble Savior, obtain for me the grace to bear my pregnancy with patience and to deliver safely. Protect [name] and her child. Amen.</p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">{`Daily Novena Prayer to St. Gerard`}</h3>
+                <p className="text-text italic leading-relaxed mb-3">{`O great St. Gerard, beloved servant of Jesus Christ, perfect imitator of your meek and humble Savior, I ask your prayers for [name] and the child she carries. Obtain for her the grace to bear this pregnancy with patience and peace, and to deliver safely.`}</p>
+                <p className="text-text italic leading-relaxed mb-3">{`Lord Jesus, who blessed the little children, watch over this baby from the womb to the day of birth and beyond. Guide the hands of everyone who cares for them. Mary, Mother of God, who carried your Son, and St. Gerard, pray for us. Amen.`}</p>
               </div>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">If this need continues, you may repeat the novena or seek related devotions on Guide Catholic. Ask your parish priest for guidance on serious moral or sacramental questions.</LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">St. Gerard Novena for pregnancy — 9-day Catholic prayer for mothers, safe delivery, and healthy babies. Full prayer text, step-by-step guide, and FAQs. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Caring for Body and Soul`}</h2>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Keep every prenatal appointment, and call your doctor or midwife right away about bleeding, severe pain, reduced fetal movement, or sudden swelling and headaches. In an emergency, call 911.`}</li>
+                <li>{`Ask your parish for the Blessing of a Child in the Womb and consider Confession and Communion before your due date.`}</li>
+                <li>{`If pregnancy brings anxiety or depression, you are not alone. The National Maternal Mental Health Hotline (1-833-852-6262) offers free, confidential support by call or text at any hour.`}</li>
+                <li>{`Many dioceses and Catholic hospitals offer support groups for parents grieving a miscarriage or infant loss; ask your parish office.`}</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray St. Gerard Novena for Pregnancy, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">Readers often search for St. Gerard Novena for Pregnancy: 9-Day Prayer for Safe Delivery during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">St. Gerard Novena for pregnancy — 9-day Catholic prayer for mothers, safe delivery, and healthy babies. Full prayer text, step-by-step guide, and FAQs. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`When the News Is Hard`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-gerard-novena-pregnancy">{`Not every pregnancy ends as parents pray it will. A difficult diagnosis or a loss does not mean St. Gerard ignored you or that your faith was too small. Let the novena become a place to bring the grief to God, give your child a name, and ask your priest about a blessing or funeral rite. Gerard, who died young and trusted God through injustice, stays close to grieving parents too.`}</LinkedText>
             </div>
             <BlogFAQ faqs={[
-              { question: "How many days is this novena?", answer: "Nine consecutive days is the standard Catholic form." },
-              { question: "Can I start on any day?", answer: "Yes — some begin before a relevant saint&apos;s feast day but any day is valid." },
-              { question: "Can someone pray the novena for me?", answer: "Yes — family and friends often offer novenas for others by name." },
-              { question: "Does prayer replace practical help?", answer: "No — especially for legal, medical, or financial needs, prayer and action belong together." },
-              { question: "What if I miss a day?", answer: "Resume the next day; many Catholics complete nine days of prayer without strict calendar reset." },
-              { question: "Is this approved by the Church?", answer: "Private novenas with orthodox content are widely encouraged; they are not the same as liturgical sacraments." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: `When is St. Gerard’s feast day?`, answer: `October 16, the day he died in 1755. Many families pray the novena from October 7 to 15 so it ends on the eve of his feast, but it can be prayed at any time during pregnancy.` },
+              { question: `Can I pray the St. Gerard novena when trying to conceive?`, answer: `Yes. Many couples hoping for a child ask his intercession. Pair the novena with good medical care and with support for the emotional weight of waiting.` },
+              { question: `What is a St. Gerard handkerchief?`, answer: `It is a small cloth, often blessed, given to expectant mothers in memory of the handkerchief Gerard left with a young woman who later had a safe delivery. It is a sacramental that invites prayer, not a guarantee.` },
+              { question: `Can a husband or grandparent pray this novena?`, answer: `Yes. Anyone can pray it for an expectant mother and her baby. Fathers, grandparents, and friends often pray it together with the mother.` },
+              { question: `Should I keep praying to St. Gerard after a miscarriage?`, answer: `If it helps you, yes. Many grieving mothers continue to ask his prayers for healing and for future pregnancies. Ask your parish about support for parents after pregnancy loss.` }
             ]} />
             <RelatedArticles currentSlug="st-gerard-novena-pregnancy" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

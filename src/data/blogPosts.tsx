@@ -1096,7 +1096,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1511,
     slug: "catholic-prayer-to-buy-a-house",
-    title: "Catholic Prayer to Buy a House",
+    title: "A Short Catholic Prayer to Buy a House",
     excerpt: "The words to say the night you are trying to buy a house, and when that one prayer should become a nine-day novena.",
     date: "2026-10-16",
     readTime: "10 min",
@@ -1108,7 +1108,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1512,
     slug: "novena-to-st-joseph-to-buy-a-house",
-    title: "Novena to St. Joseph to Buy a House",
+    title: "Novena to St. Joseph to Buy a House: 9 Daily Prayers",
     excerpt: "Nine mornings with St. Joseph: a prayer for the roof, the price, the other family, and the freedom to walk away.",
     date: "2026-10-16",
     readTime: "14 min",
@@ -1132,7 +1132,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1502,
     slug: "how-to-pray-st-joseph-novena-buying-house",
-    title: "St. Joseph Novena for Buying a House",
+    title: "Praying to St. Joseph for a House: What You May and May Not Ask",
     excerpt: "Nine days of prayer when you need a home: what to ask St. Joseph, and why the buried statue is not a sacrament.",
     date: "2026-10-12",
     readTime: "12 min",
@@ -1192,7 +1192,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1507,
     slug: "st-joseph-house-novena-2026",
-    title: "St. Joseph Novena for Buying a House in 2026",
+    title: "When to Start the St. Joseph Novena for a House in 2026",
     excerpt: "When to start the nine days in what is left of 2026, and what to pray the week you almost sign.",
     date: "2026-10-12",
     readTime: "11 min",
@@ -4696,7 +4696,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1050,
     slug: "st-joseph-novena-house",
-    title: "St. Joseph Novena to Buy a House: 9-Day Prayer Guide",
+    title: "Prayers to St. Joseph for a House: First Home, Renting, Moving",
     excerpt: "St. Joseph novena to buy a house — 9-day Catholic prayer, full text, burying the statue tradition, and how to pray for a home purchase.",
     date: "2026-04-16",
     readTime: "12 min",
@@ -6526,7 +6526,7 @@ export const blogPosts: BlogPost[] = [
   { id: 1252, slug: "divine-mercy-novena-guide", title: "Divine Mercy Novena Guide: How to Pray the 9-Day Prayer Before Easter Sunday", excerpt: "A complete guide to the Divine Mercy Novena — what it is, how to pray it step by step, the Divine Mercy Chaplet, Divine Mercy Sunday, and where to pray it online.", date: "2026-05-01", readTime: "5 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-500" },
   { id: 1253, slug: "our-lady-of-perpetual-help-novena-guide", title: "Our Lady of Perpetual Help Novena Guide: How to Pray the 9-Day Prayer", excerpt: "A complete guide to the Our Lady of Perpetual Help Novena — who she is, the meaning of the icon, how to pray the 9-day novena step by step, and where to pray it online.", date: "2026-05-01", readTime: "5 min", category: "Prayer & Devotion", icon: Heart, bgColor: "bg-rose-50", iconColor: "text-rose-600" },
   { id: 1254, slug: "our-lady-of-guadalupe-novena-guide", title: "Our Lady of Guadalupe Novena Guide: How to Pray the 9-Day Prayer", excerpt: "A complete guide to the Our Lady of Guadalupe Novena — the apparitions to Juan Diego, her role as Patroness of the Americas, how to pray the 9-day novena, and where to pray it online.", date: "2026-05-01", readTime: "5 min", category: "Prayer & Devotion", icon: Sun, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
-  { id: 1255, slug: "st-joseph-novena-buying-house-guide", title: "How to Pray to St. Joseph for a House (Novena + Statue)", excerpt: "How Catholics pray to St. Joseph when buying or selling a house — novena steps, burying the statue tradition, home blessing, and trust in Providence.", date: "2026-05-01", readTime: "5 min", category: "Prayer & Devotion", icon: Home, bgColor: "bg-yellow-50", iconColor: "text-yellow-600" },
+  { id: 1255, slug: "st-joseph-novena-buying-house-guide", title: "Burying a St. Joseph Statue: The Catholic Custom Explained", excerpt: "How Catholics pray to St. Joseph when buying or selling a house — novena steps, burying the statue tradition, home blessing, and trust in Providence.", date: "2026-05-01", readTime: "5 min", category: "Prayer & Devotion", icon: Home, bgColor: "bg-yellow-50", iconColor: "text-yellow-600" },
   { id: 1256, slug: "catholic-tithing-guide", title: "Catholic Tithing: What the Church Teaches About Giving, Stewardship & the 10% Rule", excerpt: "What does the Catholic Church teach about tithing? A complete guide to Catholic stewardship — the biblical basis for giving, the 10% question, Sunday obligation, and how to give generously.", date: "2026-05-08", readTime: "14 min", category: "Catholic Living", icon: Coins, bgColor: "bg-amber-50", iconColor: "text-amber-600" },
   { id: 1257, slug: "immaculate-conception-guide", title: "The Immaculate Conception: What It Is, What It Means & Why Catholics Believe It", excerpt: "What is the Immaculate Conception? A complete Catholic guide — what the dogma teaches, its biblical basis, the 1854 definition, the Lourdes apparitions, and why it matters for every Catholic.", date: "2026-05-08", readTime: "16 min", category: "Marian Doctrine", icon: Star, bgColor: "bg-sky-50", iconColor: "text-sky-500" },
   { id: 1258, slug: "spiritual-gifts-guide", title: "Spiritual Gifts: The Complete Catholic Guide to Charisms & How to Discover Yours", excerpt: "What are spiritual gifts? The complete Catholic guide to charisms — the 7 gifts of the Holy Spirit, charismatic gifts, how to discover your gifts, and how to use them for the Church.", date: "2026-05-08", readTime: "18 min", category: "Spiritual Life", icon: Flame, bgColor: "bg-orange-50", iconColor: "text-orange-500" },
@@ -6569,7 +6569,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 1454,
     slug: "st-joseph-novena-for-buying-a-house",
-    title: "St. Joseph Novena for Buying a House: Prayer, Statue & Trust",
+    title: "St. Joseph Novena for Buying a House: The Complete Catholic Guide",
     excerpt: "St. Joseph novena for buying a house in 2026 — nine-day prayer, buying vs selling customs, March 19 feast timing, home blessing checklist, and Providence without superstition.",
     date: "2026-09-22",
     readTime: "22 min",

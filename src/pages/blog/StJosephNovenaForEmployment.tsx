@@ -58,75 +58,73 @@ export default function StJosephNovenaForEmployment() {
             <div className="aspect-video bg-yellow-100 rounded-2xl flex items-center justify-center mb-10"><Briefcase className="w-24 h-24 text-yellow-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. St. Joseph Novena for employment and finding a job  Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">{`The St. Joseph novena for employment is nine days of prayer to St. Joseph the Worker for a job, for steady income, or for the right career move. Joseph supported the Holy Family with his own hands as a craftsman in Nazareth, and the Church gave him a feast as patron of workers in 1955. Pray it while you apply, network, and prepare — the novena asks God to open doors, not to replace the work of walking through them.`}</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">St. Joseph Novena for employment and finding a job  Catholics across the United States pray this novena in parishes, homes, and online prayer groups, trusting in God&apos;s mercy and the intercession of the saints.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`St. Joseph the Worker`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`The Gospels identify Jesus as “the carpenter’s son” (Matthew 13:55) and even as “the carpenter” himself (Mark 6:3). The Greek word, tekton, means a builder or craftsman who worked with wood and possibly stone. Joseph taught his trade to Jesus, which means the Son of God spent most of his earthly life earning a living in a small village workshop.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`In 1955, Pope Pius XII instituted the feast of St. Joseph the Worker on May 1, offering Catholics a Christian way to honor labor on the day many countries celebrate workers. Pope Leo XIII had already written about St. Joseph in his 1889 encyclical Quamquam Pluries, presenting him as a model for working people, two years before Rerum Novarum defended workers’ rights. Pope Francis’s letter Patris Corde (2020) devotes a section to Joseph as a working father and speaks of the dignity work brings to a family.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`St. Cajetan, Patron of the Unemployed`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`Alongside St. Joseph, many Catholics invoke St. Cajetan (Gaetano Thiene, 1480–1547), an Italian priest who co-founded the Theatine order in 1524. In Naples he helped found a charitable lending bank so the poor would not fall into the hands of moneylenders. He is honored as patron of job seekers and the unemployed, and every August 7 huge crowds visit his shrine in the Liniers neighborhood of Buenos Aires to pray for “bread and work.”`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">Nine days of sustained prayer imitate the apostles waiting for Pentecost (Acts 1:14). Unlike a single hurried prayer, a novena builds trust and discipline — especially when the need is urgent or long-standing. The Church encourages novenas as persevering prayer, not as magic.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Scripture to Pray With`}</h2>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Genesis 2:15 — God places the man in the garden to cultivate and care for it: work was part of creation before the fall.`}</li>
+                <li>{`Matthew 20:1–7 — Workers still standing idle at five o’clock tell the landowner, “Because no one has hired us,” and he sends them into his vineyard.`}</li>
+                <li>{`Ruth 2:1–12 — Ruth, a foreigner with nothing, goes to glean and finds work and protection in Boaz’s field.`}</li>
+                <li>{`Psalm 90:17 — May the favor of the Lord be upon us; prosper the work of our hands.`}</li>
+                <li>{`Matthew 6:25–34 — Do not be anxious about food or clothing; seek first the kingdom, and these will be given.`}</li>
+                <li>{`Colossians 3:23–24 — Whatever you do, work at it wholeheartedly, as for the Lord.`}</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`What the Church Teaches About Work`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`Catholic teaching treats work as part of human dignity, not merely a paycheck. The Catechism says that work honors the Creator’s gifts and that by enduring its toil in union with Jesus, “the carpenter of Nazareth,” we collaborate in his redemptive work (CCC 2427). It insists that “work is for man, not man for work” (CCC 2428), that access to employment should be open to all without unjust discrimination (CCC 2433), and that a just wage is a legitimate fruit of work (CCC 2434).`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`Losing a job can feel like losing your worth. The Church’s answer is that your dignity comes from being made in God’s image, not from a title or salary. Unemployment is a real hardship, and asking for help — from family, parish, or public programs — is not a failure.`}</LinkedText>
 
               <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
-              <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li>Name your intention clearly on day one.</li>
-                <li>Choose the same time each day for nine consecutive days.</li>
-                <li>Begin with the Sign of the Cross; end with Glory Be if you wish.</li>
-                <li><strong>Combine prayer with practical steps</strong> — medical, legal, financial, or family action.</li>
-                <li>Offer thanks when you receive grace, even if the answer differs from your first hope.</li>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Nine Days, Nine Intentions`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`Pray the daily prayer below and add one intention for each day of your job search:`}</LinkedText>
+              <ol className="list-decimal pl-6 text-text space-y-3 mb-6">
+                <li>{`Peace about your worth, apart from any job title (Genesis 1:27).`}</li>
+                <li>{`Clarity about the kind of work God is calling you to (Proverbs 16:3).`}</li>
+                <li>{`Strong applications and honest résumés (Proverbs 12:22).`}</li>
+                <li>{`Open doors: the right contacts, referrals, and interviews (Revelation 3:8).`}</li>
+                <li>{`Confidence and calm in interviews (Exodus 4:12).`}</li>
+                <li>{`Daily bread for your family while you wait (Matthew 6:11).`}</li>
+                <li>{`Employers, that they hire fairly and pay a just wage (James 5:4).`}</li>
+                <li>{`Everyone else searching for work, especially those supporting children alone (Matthew 20:7).`}</li>
+                <li>{`The grace to work well and gratefully in the job God provides (Colossians 3:23).`}</li>
               </ol>
-
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer</h3>
-                <p className="text-text italic leading-relaxed text-sm">Lord, hear my prayer for [intention]. Mary and all the saints, intercede for me according to God&apos;s will. Amen.</p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">{`Daily Novena Prayer to St. Joseph for Employment`}</h3>
+                <p className="text-text italic leading-relaxed mb-3">{`St. Joseph, faithful worker of Nazareth, you provided for Jesus and Mary by the labor of your hands. I come to you in need of work. You know my skills, my bills, and the people who depend on me. Ask the Lord to open the right door, to guide my applications and interviews, and to lead me to an employer who will treat me justly.`}</p>
+                <p className="text-text italic leading-relaxed mb-3">{`While I wait, keep me from discouragement and from envy, and help me use these days well. Give me a heart that works for God and not only for wages. St. Joseph the Worker, pray for me. St. Cajetan, pray for me. Amen.`}</p>
               </div>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">If this need continues, you may repeat the novena or seek related devotions on Guide Catholic. Ask your parish priest for guidance on serious moral or sacramental questions.</LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">St. Joseph Novena for employment and finding a job — 9-day Catholic prayer with full text, step-by-step guide, and when to pray for work and financial stability. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Practical Steps Alongside Prayer`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`Joseph prayed and also worked; do the same during these nine days:`}</LinkedText>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Visit an American Job Center through the U.S. Department of Labor’s CareerOneStop website for free résumé help, training, and job listings.`}</li>
+                <li>{`File for unemployment insurance in your state as soon as you are eligible; delays can cost you benefits.`}</li>
+                <li>{`Ask your parish whether it runs a job-seekers ministry, and tell parishioners what work you are looking for.`}</li>
+                <li>{`If rent or utilities are at risk, contact your local Society of St. Vincent de Paul conference or Catholic Charities.`}</li>
+              </ul>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`For another nine-day prayer to pray with St. Joseph during a long search, see the Novena for Finding Employment.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`When the Search Takes Longer`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">{`In the parable, some workers were not hired until the last hour of the day, and they still received a full day’s wage. If your novena ends without an offer, begin it again, ask someone to review your approach honestly, and keep showing up. Joseph’s life was hidden and ordinary; the ordinary work of searching is not wasted in God’s eyes.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray St. Joseph Novena for Employment, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">Readers often search for St. Joseph Novena for Employment: 9-Day Prayer to Find a Job (Full Text) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-              <p className="text-text leading-relaxed mb-6">For a job-search novena that sits beside St. Joseph rather than replacing him, see the{" "}
-                <Link to="/blog/novena-for-finding-employment/" className="text-accent font-semibold underline underline-offset-2">Novena for Finding Employment</Link>.</p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-joseph-novena-for-employment">St. Joseph Novena for employment and finding a job — 9-day Catholic prayer with full text, step-by-step guide, and when to pray for work and financial stability. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. Full prayer text, step-by-step guide, and FAQs. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <p className="text-text leading-relaxed mb-6">Related reading: <Link to="/blog/novena-for-finding-employment/" className="text-accent underline underline-offset-2 hover:text-accent/80">{`Novena for Finding Employment`}</Link></p>
             </div>
             <BlogFAQ faqs={[
-              { question: "How many days is this novena?", answer: "Nine consecutive days is the standard Catholic form." },
-              { question: "Can I start on any day?", answer: "Yes — some begin before a relevant saint&apos;s feast day but any day is valid." },
-              { question: "Can someone pray the novena for me?", answer: "Yes — family and friends often offer novenas for others by name." },
-              { question: "Does prayer replace practical help?", answer: "No — especially for legal, medical, or financial needs, prayer and action belong together." },
-              { question: "What if I miss a day?", answer: "Resume the next day; many Catholics complete nine days of prayer without strict calendar reset." },
-              { question: "Is this approved by the Church?", answer: "Private novenas with orthodox content are widely encouraged; they are not the same as liturgical sacraments." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: `Who is the patron saint of finding a job?`, answer: `St. Joseph, honored as St. Joseph the Worker on May 1, is the patron of workers. St. Cajetan is invoked as patron of the unemployed and job seekers, especially in Latin America.` },
+              { question: `When is the feast of St. Joseph the Worker?`, answer: `May 1. Pope Pius XII established it in 1955. St. Joseph’s main solemnity is March 19, and many people time a novena to end on either date.` },
+              { question: `Can I pray this novena for a better job, not just any job?`, answer: `Yes. Ask for work that uses your gifts, pays justly, and lets you care for your family. Be honest with God about what you want and open to what he gives.` },
+              { question: `Can I pray this novena for my spouse or adult child?`, answer: `Yes. Put their name in the prayer and add practical help, such as reviewing their résumé or sharing contacts.` },
+              { question: `What if I am offered a job that conflicts with my faith?`, answer: `Bring it to prayer and talk with a priest. Catholic teaching values work highly, but not at the cost of doing what is morally wrong.` }
             ]} />
             <RelatedArticles currentSlug="st-joseph-novena-for-employment" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

@@ -58,73 +58,71 @@ export default function NovenaForAnxietyCatholic() {
             <div className="aspect-video bg-blue-100 rounded-2xl flex items-center justify-center mb-10"><Brain className="w-24 h-24 text-blue-600" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">A novena for anxiety is a nine-day Catholic prayer asking Christ, Mary, and Saint Dymphna for peace when worry overwhelms you. Pray once daily for nine consecutive days, naming your intention and combining prayer with professional care when needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">{`A novena for anxiety is nine days of bringing your worry to Christ, who calmed the storm and told his disciples not to be afraid. Catholics often ask the intercession of Mary, Comforter of the Afflicted, and St. Dymphna, patroness of those who suffer mental and nervous distress. Anxiety is not a sign of weak faith, and prayer works alongside counseling, medical care, rest, and the sacraments rather than replacing them.`}</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Catholics facing anxiety turn first to Christ, who calmed the storm on the Sea of Galilee. Many also invoke Mary as Comforter of the Afflicted and Saint Dymphna — patroness of those with mental and nervous disorders — whose shrine in Massillon, Ohio, draws thousands of American pilgrims each year. Anxiety is not weak faith; it is a human condition Christ entered in the Incarnation.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`St. Dymphna and the Town of Geel`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">{`According to a thirteenth-century account of her life, Dymphna was the daughter of a pagan Irish king and a Christian mother. After her mother died, her grief-stricken father sought to marry her, and she fled across the sea with her confessor, the priest Gerebern. They settled near Geel in present-day Belgium, where her father found them and put both to death. The details cannot be verified historically, but her veneration at Geel is centuries old; her feast is May 15.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">{`What is well documented is what grew up around her shrine. Families brought relatives with mental illness to Geel to pray, and townspeople began taking them into their homes — a tradition of family foster care that continues today and is studied as one of the oldest community models of mental health care. In the United States, her national shrine is in Massillon, Ohio.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Saints Who Knew Inner Turmoil`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">{`In his autobiography, St. Ignatius of Loyola describes months at Manresa when scruples about past sins tormented him so badly that he was tempted to end his life. He did not escape alone: he confessed, sought guidance, and learned to treat the turmoil as something to resist rather than obey.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">{`After his victory on Mount Carmel, the prophet Elijah sat under a broom tree in the desert and asked to die. God answered not with a rebuke but with bread, water, and sleep (1 Kings 19:4–8). In Gethsemane, Jesus himself was so distressed that his sweat became like drops of blood (Luke 22:44). Christ does not ask you to pretend you are calm; he has been where you are.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Anxiety disorders affect tens of millions of Americans. A novena creates structure: nine days of returning to God with the same intention. Prayer does not replace therapy or medication — grace works through natural means — but sustained prayer can bring the peace that surpasses understanding (Philippians 4:7).</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Scripture to Pray With`}</h2>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Mark 4:35–41 — Jesus asleep in the boat, then rebuking the wind: Why are you terrified?`}</li>
+                <li>{`Philippians 4:6–7 — Bring every need to God with thanksgiving, and his peace, beyond all understanding, will guard your heart and mind.`}</li>
+                <li>{`1 Peter 5:7 — Cast all your worries on him, because he cares for you.`}</li>
+                <li>{`John 14:27 — “Peace I leave with you; my peace I give to you.”`}</li>
+                <li>{`Psalm 94:19 — When cares crowd in on me, your comfort gladdens my soul.`}</li>
+                <li>{`Matthew 6:34 — Do not worry about tomorrow; each day has enough trouble of its own.`}</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`What the Church Teaches About Worry and Care`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">{`The Church teaches that God’s providence holds every detail of our lives, and that Jesus asks for a childlike abandonment to the care of our heavenly Father (CCC 305). That trust is something we grow into, not a test you fail when your heart races.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">{`Life and health are gifts we must take reasonable care of (CCC 2288), and mental health is part of that care. Seeing a doctor, taking prescribed medication, or working with a counselor is stewardship, not a failure of faith. At every Mass, right after the Our Father, the priest prays that we may be safe from all distress.`}</LinkedText>
 
               <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
-              <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li><strong>Name your intention on day one</strong> — financial worry, health fears, or social anxiety.</li>
-                <li>Choose a consistent time each day.</li>
-                <li>Pray for nine consecutive days; resume if you miss a day.</li>
-                <li>Combine with therapy or medical care when needed.</li>
-                <li><strong>Surrender the outcome</strong> — ask for peace, not only changed circumstances.</li>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Nine Days, Nine Intentions`}</h2>
+              <ol className="list-decimal pl-6 text-text space-y-3 mb-6">
+                <li>{`Name your worry plainly before God, without minimizing it (Psalm 62:9).`}</li>
+                <li>{`For rest and sleep, as God gave Elijah under the broom tree (1 Kings 19:5).`}</li>
+                <li>{`For the body: a calmer heart, steady breathing, and good health (Psalm 139:14).`}</li>
+                <li>{`For release from scruples and fear of God’s punishment (1 John 4:18).`}</li>
+                <li>{`For the people and situations you fear for, entrusted by name (1 Peter 5:7).`}</li>
+                <li>{`For doctors, counselors, and anyone helping you heal (Sirach 38:1–2).`}</li>
+                <li>{`For freedom from catastrophic thoughts about tomorrow (Matthew 6:34).`}</li>
+                <li>{`For everyone who suffers anxiety, depression, or panic in silence (Galatians 6:2).`}</li>
+                <li>{`Thanksgiving for every small moment of peace this week (Philippians 4:6).`}</li>
               </ol>
-
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer for Anxiety</h3>
-                <p className="text-text italic leading-relaxed text-sm">In the name of the Father, and of the Son, and of the Holy Spirit. Amen. Lord Jesus, you calmed the storm and told your disciples not to be afraid. I bring my anxiety before you today: [name your intention]. Grant me the peace that surpasses understanding. Quiet my racing heart and help me trust you one day at a time. Mary, Comforter of the Afflicted, and Saint Dymphna, pray for me. Sacred Heart of Jesus, I place all my trust in you. Amen.</p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">{`Daily Novena Prayer for Anxiety`}</h3>
+                <p className="text-text italic leading-relaxed mb-3">{`In the name of the Father, and of the Son, and of the Holy Spirit. Amen. Lord Jesus, you slept in the boat while the storm raged, and with one word you made the sea calm. I bring you the storm inside me today: [name your worry]. You know how my thoughts race and how heavy my chest feels. Grant me the peace that the world cannot give.`}</p>
+                <p className="text-text italic leading-relaxed mb-3">{`Help me take the next small step, and only the next one. Bless those who are caring for me, and give me the humility to ask for help when I need it. Mary, Comforter of the Afflicted, hold me close. St. Dymphna, pray for me and for all who suffer in mind and heart. Sacred Heart of Jesus, I place all my trust in you. Amen.`}</p>
               </div>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">If anxiety is linked to a major decision, try a novena for clarity. For impossible situations, many Catholics turn to Saint Jude. Return to this prayer for nine days and let Christ carry what you cannot carry alone.</LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Novena for anxiety — 9-day Catholic prayer for peace, calm, and trust when worry overwhelms you. Full prayer text, step-by-step guide, and FAQs. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Practical Care Alongside Prayer`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">{`Grace builds on nature, so look after your mind and body during these nine days:`}</LinkedText>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`If you ever have thoughts of harming yourself, call or text 988, the Suicide and Crisis Lifeline, available 24 hours a day in the United States. In an emergency, call 911.`}</li>
+                <li>{`Talk with your doctor if anxiety is affecting sleep, appetite, work, or relationships.`}</li>
+                <li>{`Protect sleep, get daylight and movement, and cut back on caffeine and late-night news or scrolling.`}</li>
+                <li>{`If your anxiety centers on sin and confession, tell your confessor; scrupulosity is familiar to priests.`}</li>
+                <li>{`Pray slowly with a short phrase on each breath, such as Jesus, I trust in you.`}</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Novena for Anxiety, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Readers often search for Novena for Anxiety: 9-Day Catholic Prayer for Peace & Calm during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">Novena for anxiety — 9-day Catholic prayer for peace, calm, and trust when worry overwhelms you. Full prayer text, step-by-step guide, and FAQs. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`If the Anxiety Does Not Lift`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-anxiety-catholic">{`Some people finish this novena with a lighter heart; others feel the same but less alone. Both are graces. Anxiety disorders often need time and treatment, and a novena does not measure your faith. Keep praying, keep your appointments, and receive the sacraments. If your worry is tied to a decision you cannot make, the novena for clarity may help, and for situations that feel truly hopeless, many Catholics turn to the St. Jude novena.`}</LinkedText>
             </div>
             <BlogFAQ faqs={[
-              { question: "Can a novena cure my anxiety disorder?", answer: "A novena is persevering prayer, not a substitute for medical or psychological treatment. Many Catholics find spiritual peace through nine days of prayer; clinical anxiety often requires therapy or medication." },
-              { question: "Which saints help with anxiety?", answer: "Christ, Mary as Comforter of the Afflicted, Saint Dymphna, Saint Padre Pio, and Saint Teresa of Calcutta are commonly invoked for inner peace." },
-              { question: "How long is this novena?", answer: "Nine consecutive days at a consistent time. If you miss a day, resume rather than abandoning the novena." },
-              { question: "Can I pray for someone else?", answer: "Yes. Name the person and situation in your intention — parents often pray for anxious children." },
-              { question: "When should I start?", answer: "Any day — before a stressful event or whenever worry becomes overwhelming." },
-              { question: "Should I also see a therapist?", answer: "Yes when anxiety is severe or persistent. The Church teaches that prayer and responsible care belong together." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: `Who is the patron saint of anxiety?`, answer: `St. Dymphna is the traditional patroness of people with mental and nervous disorders, including anxiety. Catholics also turn to Mary, Comforter of the Afflicted.` },
+              { question: `Is anxiety a sin or a lack of faith?`, answer: `No. Anxiety is a human condition, often with physical and psychological causes. Jesus himself was in anguish in Gethsemane.` },
+              { question: `Can Catholics take medication for anxiety?`, answer: `Yes. The Church teaches that we should take reasonable care of our health. Medication and counseling prescribed by qualified professionals are legitimate means God can use to heal.` },
+              { question: `What is the best prayer for a panic attack?`, answer: `Short prayers work best in the moment: Jesus, I trust in you, or the name of Jesus prayed slowly with each breath.` },
+              { question: `What if my anxiety is about confession and sin?`, answer: `That may be scrupulosity, which priests recognize and know how to help. Tell your confessor, follow his guidance even when your feelings protest, and consider resources like the Redemptorists’ Scrupulous Anonymous newsletter.` }
             ]} />
             <RelatedArticles currentSlug="novena-for-anxiety-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

@@ -12,6 +12,7 @@ import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
 import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 import { searchGuideBySlug, type Inline } from "@/data/searchGuides";
+import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 const icons = {
   "how-to-read-the-catholic-bible-online": BookOpen,
@@ -126,6 +127,7 @@ export default function SearchGuidePage() {
               title="How is your Catholic life actually growing?"
               description="A short look at prayer, the Eucharist, and daily practice."
             />
+            <TopicSeriesNav currentSlug={guide.slug} />
             <BlogFAQ htmlAnswers title={guide.faqTitle} faqs={guide.faqs} />
             <RelatedArticles currentSlug={guide.slug} />
             <ArticleBottomCTA

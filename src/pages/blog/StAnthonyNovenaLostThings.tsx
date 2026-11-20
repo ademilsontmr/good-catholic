@@ -58,75 +58,76 @@ export default function StAnthonyNovenaLostThings() {
             <div className="aspect-video bg-amber-100 rounded-2xl flex items-center justify-center mb-10"><Search className="w-24 h-24 text-amber-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">The St. Anthony novena is a nine-day Catholic prayer asking Saint Anthony of Padua to intercede for the return of lost items or peace of mind. Pray daily for nine days, search responsibly, and offer thanks when the item is found.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">{`The St. Anthony novena for lost things is nine days of prayer asking St. Anthony of Padua to intercede when something precious is missing — keys, a ring, a passport, an important document. Catholics pray while they keep searching, ask for peace of mind if the object stays lost, and give thanks, often with a gift to the poor, when it turns up. It is a request for a saint’s prayers, not a spell that guarantees results.`}</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Saint Anthony of Padua (1195–1231) was a Franciscan friar and Doctor of the Church, famed for preaching across Italy and France. Devotion to him for lost things arose when a novice stole his psalter and returned it after Anthony prayed. His feast is June 13 — among the most popular saint days in U.S. parishes.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Who Was St. Anthony of Padua?`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`Anthony was born Fernando in Lisbon around 1195 and became an Augustinian canon at Coimbra. In 1220 the remains of five Franciscans martyred in Morocco were brought there, and he was so moved that he joined the Franciscans, taking the name Anthony. He sailed for Morocco, fell gravely ill, and on the way home his ship was driven by storms to Sicily.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`He lived unnoticed among the Italian friars until he was asked, unprepared, to preach at an ordination in Forlì; his learning astonished everyone, and he spent his remaining years preaching across northern Italy and southern France. He died near Padua on June 13, 1231, at about thirty-six, and was canonized less than a year later. In 1946 Pope Pius XII declared him a Doctor of the Church.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`The Story of the Stolen Psalter`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`His link to lost things comes from a story preserved in later Franciscan tradition. Anthony owned a psalter annotated with his teaching notes — precious when every book was copied by hand. A novice leaving the community took it. Anthony prayed, and the novice brought the book back and returned to the order.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`Both a book and a person were recovered, which is why Catholics also ask Anthony’s prayers for loved ones who have drifted from the faith.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Lost keys, wallets, passports, or wedding rings trigger panic in millions of households. Catholics pray to Anthony not for magic but for intercession. Many find the item during the novena; others receive peace even if it is never recovered.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Customs That Grew Around Him`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`Tuesday is traditionally his day, and some parishes keep thirteen Tuesdays in his honor. In Portuguese-speaking countries, the St. Anthony Trezena — thirteen days of prayer ending on his June 13 feast — is more common than a novena. Another custom, St. Anthony’s Bread, spread from France in the late nineteenth century: people promise alms for the hungry in thanksgiving for a favor received. The rhyme asking St. Anthony to come around because something is lost is folk piety, fine with children but not a required formula.`}</LinkedText>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Scripture to Pray With`}</h2>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Luke 15:8–10 — The woman who sweeps the house until she finds her lost coin, then calls her neighbors to celebrate.`}</li>
+                <li>{`Luke 15:4–7 — The shepherd who leaves the ninety-nine to look for one lost sheep.`}</li>
+                <li>{`1 Samuel 9:3–20 — Saul spends three days hunting for his father’s lost donkeys, and Samuel tells him not to worry, for they have been found.`}</li>
+                <li>{`Luke 2:41–50 — Mary and Joseph search anxiously for three days before finding the boy Jesus in the Temple.`}</li>
+                <li>{`Matthew 6:19–21 — Store up treasure in heaven, where neither moth nor thief can take it.`}</li>
+                <li>{`Luke 19:10 — The Son of Man came to seek and to save what was lost.`}</li>
+              </ul>
 
               <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
-              <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li>Name the lost item specifically on day one.</li>
-                <li>Begin any day, or nine days before June 13.</li>
-                <li>Pray daily with the Sign of the Cross.</li>
-                <li>Retrace steps and search while praying.</li>
-                <li>Offer thanks or alms when the item is found.</li>
-              </ol>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`What the Church Teaches: Intercession, Not Superstition`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`Catholics ask the saints to pray for them because those in heaven are united with Christ and do not stop interceding for us (CCC 956).`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`The Catechism also warns against superstition, which includes attributing the power of prayers or sacred signs to their mere external performance, apart from the interior dispositions they require (CCC 2111). Repeating a rhyme a fixed number of times or treating a medal as a guarantee misses the point; what matters is faith, honest effort, and readiness to accept God’s answer.`}</LinkedText>
 
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Nine Days, Nine Intentions`}</h2>
+              <ol className="list-decimal pl-6 text-text space-y-3 mb-6">
+                <li>{`Name exactly what is lost and why it matters to you (Luke 15:8).`}</li>
+                <li>{`For a calm mind and a good memory as you retrace your steps (Proverbs 4:23).`}</li>
+                <li>{`For anyone who may have found it — that they act honestly (Exodus 23:4).`}</li>
+                <li>{`For detachment, holding possessions lightly (Matthew 6:19–21).`}</li>
+                <li>{`For patience with yourself and with family members who are blamed (Colossians 3:12–13).`}</li>
+                <li>{`For people who have lost far more: homes, health, loved ones (Romans 12:15).`}</li>
+                <li>{`For someone you know who has drifted from faith (Luke 15:4–7).`}</li>
+                <li>{`For the grace to give generously in thanksgiving (2 Corinthians 9:7).`}</li>
+                <li>{`Thanksgiving, whether the object is found or not (1 Thessalonians 5:18).`}</li>
+              </ol>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">St. Anthony Prayer for Lost Things</h3>
-                <p className="text-text italic leading-relaxed text-sm">St. Anthony, St. Anthony, please come around; something is lost and must be found. St. Anthony, perfect imitator of Jesus, who received from God the special power of restoring lost things, grant that I may find [what is lost]. At least restore peace of mind, which afflicts me more than the material loss. Through Christ our Lord. Amen.</p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">{`St. Anthony Prayer for Lost Things`}</h3>
+                <p className="text-text italic leading-relaxed mb-3">{`St. Anthony, faithful friar and friend of the poor, you prayed for your lost book and the one who took it returned. I come to you troubled because I have lost [name the item]. Ask the Lord to clear my thoughts, guide my search, and lead me to what is missing, if it is God’s will.`}</p>
+                <p className="text-text italic leading-relaxed mb-3">{`If it is not found, obtain for me the peace of mind that troubles me more than the loss itself, and help me remember that nothing truly precious is ever lost to God. I promise to remember the poor in thanksgiving. Through Christ our Lord. Amen.`}</p>
               </div>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">For legal documents or deeper crises, combine this novena with professional help. When situations feel impossible, many also pray to Saint Jude. St. Anthony, pray for us.</LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">St. Anthony Novena for lost things — 9-day Catholic prayer with full text to find missing items, keys, wallets, and documents. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Practical Steps While You Pray`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`Anthony was a careful scholar, and a careful search honors his help:`}</LinkedText>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Search one room at a time, starting with the last place you clearly remember having it.`}</li>
+                <li>{`Ask others in the household calmly; accusation slows everyone down.`}</li>
+                <li>{`For a lost wallet, contact your bank and card issuers right away and watch your accounts.`}</li>
+                <li>{`For a lost or stolen U.S. passport, report it to the State Department promptly so it cannot be misused.`}</li>
+                <li>{`For a phone, tablet, or laptop, try the manufacturer’s device-location service from another device.`}</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`When It Stays Lost`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">{`Some things are not found. A ring or a parent’s letter can carry real grief, and that grief belongs in prayer rather than brushed aside. If the novena ends empty-handed, ask for the grace to let go; that peace of mind is exactly what the traditional prayer requests, and it is a true answer.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray St. Anthony Novena for Lost Things, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Readers often search for St. Anthony Novena for Lost Things: 9-Day Prayer (Full Text) during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-              <p className="text-text leading-relaxed mb-6">If you want the thirteen-day Lusophone custom before June 13, see the{" "}
-                <Link to="/blog/st-anthony-trezena/" className="text-accent font-semibold underline underline-offset-2">St. Anthony Trezena</Link>.</p>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="st-anthony-novena-lost-things">St. Anthony Novena for lost things — 9-day Catholic prayer with full text to find missing items, keys, wallets, and documents. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <p className="text-text leading-relaxed mb-6">Related reading: <Link to="/blog/st-anthony-trezena/" className="text-accent underline underline-offset-2 hover:text-accent/80">{`St. Anthony Trezena`}</Link></p>
             </div>
             <BlogFAQ faqs={[
-              { question: "Why is Anthony patron of lost things?", answer: "Tradition holds a novice stole his psalter and returned it after Anthony prayed — devotion spread from that story." },
-              { question: "Must it be nine days?", answer: "Nine days is classic; many pray once and find the item quickly. Use nine days for valuable or long-missing items." },
-              { question: "Can I pray for someone else?", answer: "Yes — for a child&apos;s backpack, spouse&apos;s wallet, or parent&apos;s hearing aids." },
-              { question: "When is his feast day?", answer: "June 13. Parishes bless St. Anthony&apos;s Bread and hold special Masses." },
-              { question: "What if I never find it?", answer: "The prayer asks for peace of mind even without recovery — that is itself a grace." },
-              { question: "Is the rhyming prayer Catholic?", answer: "Yes — the short rhyme and longer prayer are both widely used in U.S. Catholic devotion." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: `Why is St. Anthony the patron saint of lost things?`, answer: `Franciscan tradition tells how a novice took Anthony’s annotated psalter when he left the community. After Anthony prayed, the novice returned the book and came back to the order.` },
+              { question: `Does the St. Anthony novena always work?`, answer: `No prayer works automatically. Saints intercede; they do not control outcomes. Pray with trust, keep searching, and ask for peace if the item is never found.` },
+              { question: `What is St. Anthony’s Bread?`, answer: `It is a custom of giving alms to feed the poor in thanksgiving for a favor received through St. Anthony’s intercession.` },
+              { question: `Can I pray to St. Anthony for a lost person or lost faith?`, answer: `Yes. The psalter story involved a person as well as a book, so Catholics often ask his prayers for loved ones who have left the Church.` },
+              { question: `What is the difference between the St. Anthony novena and trezena?`, answer: `A novena lasts nine days. The trezena, popular in Portugal and Brazil, lasts thirteen days and traditionally ends on his feast, June 13, the day he died in 1231.` }
             ]} />
             <RelatedArticles currentSlug="st-anthony-novena-lost-things" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

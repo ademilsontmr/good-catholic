@@ -58,73 +58,72 @@ export default function NovenaForTheDeadCatholic() {
             <div className="aspect-video bg-gray-100 rounded-2xl flex items-center justify-center mb-10"><Moon className="w-24 h-24 text-gray-700" strokeWidth={1.5} /></div>
             <div className="prose prose-lg max-w-none">
               <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">This novena is a Catholic devotion prayed for nine consecutive days. Catholics pray novenas for the dead especially in November and after a funeral, offering suffrage for souls. Pray once daily, name your intention, and combine prayer with responsible action when medical, legal, or practical steps are needed.</p>
+                <p className="text-lg text-text leading-relaxed font-medium">{`A novena for the dead is nine days of prayer offered for a person who has died, or for all the souls in purgatory, asking God to purify them and bring them quickly into his presence. Catholics pray it after a death, before an anniversary, and throughout November, the month the Church sets aside for the faithful departed. It is an act of love that continues beyond the funeral.`}</p>
               </div>
               <BlogArticleAd slot="1906776249" />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Do Catholics Pray To?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Catholics pray novenas for the dead especially in November and after a funeral, offering suffrage for souls. Catholics across the United States pray this novena in parishes, homes, and online prayer groups, trusting in God&apos;s mercy and the intercession of the saints.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Why Catholics Pray for the Dead`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`The practice is older than Christianity. In 2 Maccabees 12:38–46, Judas Maccabeus finds that soldiers killed in battle had been wearing pagan amulets. He takes up a collection and sends it to Jerusalem for a sacrifice of atonement for them, and the text praises him for acting with the resurrection in mind. The early Church continued this custom: inscriptions in the Roman catacombs ask for prayers for the deceased, and the Eucharistic prayers have long included a remembrance of the dead.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`Catholics pray for the dead because death does not break the bond of charity in the Body of Christ. The faithful on earth, the saints in heaven, and the souls being purified are one communion, and love can still be expressed across that line.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Is a Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">A novena is a nine-day prayer rooted in the time the apostles and Mary spent in prayer between the Ascension and Pentecost (Acts 1:14). The word comes from the Latin <em>novem</em>, meaning nine. Unlike a single spontaneous prayer, a novena builds sustained trust over consecutive days.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`St. Monica’s Last Request`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`One of the most moving testimonies to this practice comes from St. Augustine’s Confessions (Book IX). In 387, as his mother Monica lay dying at Ostia, near Rome, she told her sons not to worry about where her body would be buried. Her one request was that they remember her at the altar of the Lord wherever they were.`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`Augustine, already one of the great minds of the Church, did exactly that, and he asked his readers to pray for her and for his father, Patricius. A saint asked to be prayed for, and a saint obeyed. Few stories show so clearly that praying for the dead is not doubt about their salvation but loyalty to them.`}</LinkedText>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Pray This Novena?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Nine days of sustained prayer imitate the apostles waiting for Pentecost (Acts 1:14). Unlike a single hurried prayer, a novena builds trust and discipline — especially when the need is urgent or long-standing. The Church encourages novenas as persevering prayer, not as magic.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Scripture to Pray With`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`Read one passage each day, slowly, with your loved one in mind:`}</LinkedText>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`2 Maccabees 12:43–46 — Judas offers a sacrifice for the fallen, so that they might be freed from sin.`}</li>
+                <li>{`Wisdom 3:1 — “The souls of the just are in the hand of God.”`}</li>
+                <li>{`John 11:25 — “I am the resurrection and the life,” spoken by Jesus to Martha at her brother’s tomb.`}</li>
+                <li>{`1 Corinthians 3:13–15 — Each person’s work will be tested as through fire; some will be saved, but only as through fire.`}</li>
+                <li>{`1 Thessalonians 4:13–14 — Christians grieve, but not like those who have no hope.`}</li>
+                <li>{`Revelation 21:4 — God will wipe every tear from their eyes, and death will be no more.`}</li>
+              </ul>
+
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`What the Church Teaches About Purgatory`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`The Catechism explains that those who die in God’s grace and friendship but are still imperfectly purified are assured of salvation, yet undergo purification after death to reach the holiness needed to enter heaven (CCC 1030). The Church calls this purification purgatory and stresses that it is entirely different from the punishment of the damned (CCC 1031).`}</LinkedText>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`From the beginning the Church has honored the memory of the dead and offered prayers, above all the Eucharistic sacrifice, for them; the Catechism also commends almsgiving, indulgences, and works of penance on their behalf (CCC 1032). Indulgences can be applied to the dead by way of suffrage (CCC 1471). We never know for certain where a particular soul stands, so we keep praying with confidence in God’s mercy.`}</LinkedText>
 
               <QuizCTA title="How deep is your Catholic faith?" description="Take our assessment and receive a personalized guide to growing in prayer and devotion." />
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray — Step by Step</h2>
-              <ol className="list-decimal list-inside text-text space-y-4 mb-6">
-                <li>Name your intention clearly on day one.</li>
-                <li>Choose the same time each day for nine consecutive days.</li>
-                <li>Begin with the Sign of the Cross; end with Glory Be if you wish.</li>
-                <li><strong>Combine prayer with practical steps</strong> — medical, legal, financial, or family action.</li>
-                <li>Offer thanks when you receive grace, even if the answer differs from your first hope.</li>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Nine Days, Nine Intentions`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`Pray the daily prayer below, then offer the intention for that day:`}</LinkedText>
+              <ol className="list-decimal pl-6 text-text space-y-3 mb-6">
+                <li>{`For [name], by name, entrusting their whole life to God’s mercy (Psalm 130:3–4).`}</li>
+                <li>{`For forgiveness of any sins they did not confess before death (Luke 23:42–43).`}</li>
+                <li>{`Thanksgiving for the good they did and the love they gave (Philippians 1:3).`}</li>
+                <li>{`For family members who died long ago and are rarely remembered (Sirach 44:9–10).`}</li>
+                <li>{`For those who died suddenly, alone, or without the sacraments (Luke 15:4–7).`}</li>
+                <li>{`For the souls with no one to pray for them (Matthew 25:40).`}</li>
+                <li>{`For the healing of any unresolved hurt between you and the deceased (Colossians 3:13).`}</li>
+                <li>{`For those still grieving, that they may not lose hope (Matthew 5:4).`}</li>
+                <li>{`For your own good death and the grace of final perseverance (Psalm 90:12).`}</li>
               </ol>
-
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
-                <h3 className="font-display text-lg font-bold text-text mb-3">Daily Novena Prayer</h3>
-                <p className="text-text italic leading-relaxed text-sm">Eternal rest grant unto them, O Lord, and let perpetual light shine upon them. May the souls of the faithful departed, through the mercy of God, rest in peace. I offer this novena for [name], begging your mercy and the prayers of the saints. Amen.</p>
+                <h3 className="font-display text-lg font-bold text-text mb-3">{`Daily Novena Prayer for the Faithful Departed`}</h3>
+                <p className="text-text italic leading-relaxed mb-3">{`Eternal rest grant unto [name], O Lord, and let perpetual light shine upon them. May they rest in peace. Amen. May their soul and the souls of all the faithful departed, through the mercy of God, rest in peace.`}</p>
+                <p className="text-text italic leading-relaxed mb-3">{`Merciful Father, I offer this day of the novena for [name]. Forgive what was lacking in their life, complete what you began in them, and bring them soon into the joy of your presence. Mary, Mother of Mercy, and all the saints, pray for them and for all who wait for the light of your face. Amen.`}</p>
               </div>
 
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">If this need continues, you may repeat the novena or seek related devotions on Guide Catholic. Ask your parish priest for guidance on serious moral or sacramental questions.</LinkedText>
-              {/* data-expanded-depth */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What This Prayer Means in Catholic Worship</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Novena for the dead — 9-day Catholic prayer for souls in purgatory and deceased loved ones. Full prayer text, step-by-step guide, and FAQs. Catholic prayer is never magic — it unites the heart to Christ through words the Church has tested for centuries. Whether prayed alone at home, with a parish group, or within the liturgy, this devotion opens the soul to grace and keeps doctrine on the lips.</LinkedText>
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`Practical Ways to Help the Dead`}</h2>
+              <ul className="list-disc pl-6 text-text space-y-3 mb-6">
+                <li>{`Have a Mass offered. Call the parish office to request a Mass intention for the deceased; a customary stipend supports the priest but is not the price of the grace.`}</li>
+                <li>{`Gregorian Masses are thirty Masses offered on thirty consecutive days for one soul, a custom that traces back to a story told by Pope St. Gregory the Great in his Dialogues.`}</li>
+                <li>{`Visit the grave. From November 1 to 8, the Church grants a plenary indulgence, applicable only to the souls in purgatory, for devoutly visiting a cemetery and praying for the dead, under the usual conditions of Confession, Communion, prayer for the Pope’s intentions, and detachment from sin.`}</li>
+                <li>{`Give alms or do a work of mercy in the person’s name.`}</li>
+                <li>{`Ask about your parish’s bereavement ministry, and keep the anniversary of the death on your calendar as a day of prayer.`}</li>
+              </ul>
 
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">When Catholics Pray It</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">American Catholics use this prayer at different seasons of life — before Mass, during Eucharistic adoration, in family rosary time, or in moments of fear and hope. The Church encourages regular prayer, but also spontaneous cries from the heart. If you are learning for the first time, start slowly: read the text, then pray aloud until the words become your own.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Pray With Reverence</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Begin with the Sign of the Cross. Name your intention clearly — for yourself or someone you love. Speak the prayer at a pace that lets each phrase sink in. End with a moment of silence, listening more than asking. Combine private prayer with the sacraments: Sunday Mass and Confession when needed keep devotional prayer rooted in the life of the Church.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture and the Communion of Saints</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Catholic prayer always flows from Scripture and toward Christ. Many classic prayers paraphrase or echo biblical passages; others were composed by saints whose wisdom the Church commends. When you pray Novena for the Dead, you stand in a line of believers stretching from the apostles to your own parish today — one Body, many members, one Lord.</LinkedText>
-
-              {/* data-expanded-depth-2 */}
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Questions Catholics Ask Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Readers often search for Novena for the Dead: 9-Day Catholic Prayer for Souls in Purgatory during major life transitions — marriage, illness, conversion, or parenting. The Church&apos;s answer is meant to bring peace and clarity, not anxiety. Bring specific questions to Confession or a parish appointment when your situation has unusual details.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Children and Grandchildren</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Passing on the faith in the United States means competing with screens, sports schedules, and secular assumptions. Explain this topic in simple language over the dinner table, connect it to Sunday Mass, and let children see you pray — example teaches more than lectures alone.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Related Devotions and Next Steps</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Use the related articles at the bottom of this page to continue learning. Pair reading with action: one prayer this week, one conversation with a Catholic friend, or one visit to a parish you have been avoiding. Knowledge without practice remains incomplete.</LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Trust and Perseverance</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">Novena for the dead — 9-day Catholic prayer for souls in purgatory and deceased loved ones. Full prayer text, step-by-step guide, and FAQs. — the Christian life is a marathon. Some days faith feels bright; other days dry. Persevere in small habits: Sign of the Cross, Our Father, attendance at Mass. Grace builds on faithfulness, not perfection.</LinkedText>
-
+              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">{`When Grief Lingers`}</h2>
+              <LinkedText className="text-text leading-relaxed mb-6" currentSlug="novena-for-the-dead-catholic">{`Praying for the dead does not mean grief should be over by the ninth day. Some people find the novena brings peace quickly; others pray it on every anniversary for years. Both are faithful. If your sorrow is crushing your sleep or ability to function months later, a grief counselor is a good companion to your prayer, not a rival to it.`}</LinkedText>
             </div>
             <BlogFAQ faqs={[
-              { question: "How many days is this novena?", answer: "Nine consecutive days is the standard Catholic form." },
-              { question: "Can I start on any day?", answer: "Yes — some begin before a relevant saint&apos;s feast day but any day is valid." },
-              { question: "Can someone pray the novena for me?", answer: "Yes — family and friends often offer novenas for others by name." },
-              { question: "Does prayer replace practical help?", answer: "No — especially for legal, medical, or financial needs, prayer and action belong together." },
-              { question: "What if I miss a day?", answer: "Resume the next day; many Catholics complete nine days of prayer without strict calendar reset." },
-              { question: "Is this approved by the Church?", answer: "Private novenas with orthodox content are widely encouraged; they are not the same as liturgical sacraments." },
-              { question: "Can I pray this if I am not yet Catholic?", answer: "Yes. Many prayers are open to all who seek God; the Church welcomes sincere prayer while inviting seekers toward full communion through baptism and formation." },
-              { question: "Is this article official Church teaching?", answer: "Guide Catholic explains Catholic faith in accessible language. For binding doctrinal or sacramental questions, consult the Catechism, your bishop, or parish priest." },
-              { question: "How can I go deeper after reading this?", answer: "Attend Sunday Mass, pray daily, read Scripture, and explore related articles linked below. Consider spiritual direction or parish formation programs for ongoing growth." }
+              { question: `When should I pray a novena for someone who has died?`, answer: `Any time. Many families begin on the day of death or the funeral; others pray before the first anniversary, before All Souls’ Day on November 2, or throughout November.` },
+              { question: `Can I pray for someone who was not Catholic?`, answer: `Yes. You may pray for any person who has died and entrust them to God’s mercy. Mass can also be offered for a non-Catholic; ask your parish about the arrangements.` },
+              { question: `Can I pray for someone who died by suicide?`, answer: `Yes. The Catechism teaches that we should not despair of the salvation of people who have taken their own lives, because God can provide the opportunity for repentance in ways known to him, and the Church prays for them (CCC 2283).` },
+              { question: `What if my loved one is already in heaven?`, answer: `Then your prayers are not wasted. God applies them according to his wisdom, and the saint you prayed for can now pray for you.` },
+              { question: `Should I still pray for the dead years after they died?`, answer: `Yes. The Church keeps remembering the dead at every Mass. Praying on anniversaries and during November is a lasting way to honor them.` }
             ]} />
             <RelatedArticles currentSlug="novena-for-the-dead-catholic" />
             <div className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-primary/10 rounded-2xl text-center">

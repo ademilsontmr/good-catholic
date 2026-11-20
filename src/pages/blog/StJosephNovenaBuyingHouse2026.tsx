@@ -11,19 +11,20 @@ import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema
 import { LinkedText } from "@/components/blog/LinkedText";
 import { ArticleByline } from "@/components/blog/ArticleByline";
 import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
 export default function StJosephNovenaBuyingHouse2026() {
   return (
     <>
       <Helmet>
-        <title>St. Joseph Novena for Buying a House | Guide Catholic</title>
+        <title>St. Joseph Novena for Buying a House: Complete Guide | Guide Catholic</title>
         <meta name="description" content="St. Joseph novena for buying a house — 9-day prayer, buried statue tradition without superstition, virtue checklist, home blessing, and trust in Providence." />
         <meta name="keywords" content="st joseph novena for buying a house, st joseph prayer house, burying st joseph statue, novena for home buyers catholic, st joseph real estate prayer" />
         <link rel="canonical" href="https://guidecatholic.com/blog/st-joseph-novena-for-buying-a-house/" />
         <meta name="robots" content="index, follow" />
       </Helmet>
       <ArticleSchema
-        title="St. Joseph Novena for Buying a House: Prayer, Statue & Trust"
+        title="St. Joseph Novena for Buying a House: The Complete Catholic Guide"
         description="St. Joseph novena for buying a house — 9-day prayer, buried statue tradition without superstition, virtue checklist, home blessing, and trust in Providence."
         url="https://guidecatholic.com/blog/st-joseph-novena-for-buying-a-house/"
         datePublished="2026-09-22"
@@ -64,7 +65,7 @@ export default function StJosephNovenaBuyingHouse2026() {
                 <span className="flex items-center gap-1"><Clock className="w-4 h-4" />22 min read</span>
               </div>
               <h1 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-text mb-4">
-                St. Joseph Novena for Buying a House: Prayer, Statue &amp; Trust
+                St. Joseph Novena for Buying a House: The Complete Catholic Guide
               </h1>
               <p className="text-xl text-text-muted leading-relaxed">
                 U.S. homebuyers search st joseph novena for buying a house when rates, bidding wars, and inspections overwhelm them. Joseph — foster father of Jesus, worker in wood — teaches prayer plus diligence, and a home ordered to holiness, not just square footage.
@@ -277,6 +278,7 @@ export default function StJosephNovenaBuyingHouse2026() {
               </LinkedText>
             </div>
 
+            <TopicSeriesNav currentSlug="st-joseph-novena-for-buying-a-house" />
             <BlogFAQ
               linkAnswersSlug="st-joseph-novena-for-buying-a-house"
               faqs={[

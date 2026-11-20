@@ -11,7 +11,23 @@ interface LinkedTextProps {
   currentSlug?: string;
 }
 
-const COMBINED_MAP = { ...INTERLINK_MAP, ...POPE_INTERLINK_MAP, ...SAINT_OF_DAY_INTERLINK_MAP, ...CATHOLIC_FEAST_DATE_INTERLINK_MAP };
+// Single-word pope names ("John", "Mark", "Peter", "Cornelius"…) collide with Scripture references and
+// ordinary words, so only multi-word pope phrases ("Pope John Paul II", "St. Peter") are auto-linked.
+const POPE_PHRASES = Object.fromEntries(Object.entries(POPE_INTERLINK_MAP).filter(([phrase]) => /\s/.test(phrase)));
+const COMBINED_MAP = { ...INTERLINK_MAP, ...POPE_PHRASES, ...SAINT_OF_DAY_INTERLINK_MAP, ...CATHOLIC_FEAST_DATE_INTERLINK_MAP };
+
+const isWordChar = (ch: string | undefined) => !!ch && /[\p{L}\p{N}]/u.test(ch);
+
+/** First index of `phrase` in `text` that is not part of a longer word ("Mark" must not match "Marked"). */
+function findWholePhrase(text: string, phrase: string): number {
+  let from = 0;
+  for (;;) {
+    const idx = text.indexOf(phrase, from);
+    if (idx === -1) return -1;
+    if (!isWordChar(text[idx - 1]) && !isWordChar(text[idx + phrase.length])) return idx;
+    from = idx + 1;
+  }
+}
 
 /**
  * Renders a paragraph of text with automatic contextual internal links.
@@ -46,7 +62,7 @@ export function LinkedText({ children, className, currentSlug }: LinkedTextProps
         continue;
       }
 
-      const idx = seg.text.indexOf(phrase);
+      const idx = findWholePhrase(seg.text, phrase);
       if (idx === -1) {
         newSegments.push(seg);
         continue;
