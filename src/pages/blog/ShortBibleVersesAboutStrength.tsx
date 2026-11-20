@@ -82,7 +82,7 @@ export default function ShortBibleVersesAboutStrength() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
-                When life presses hard, many American Catholics reach first for a phone search and then for a verse. That instinct is good — as long as the verse leads back to Christ, the sacraments, and a parish community that can walk with you through short strength verses. Sometimes you need one line you can memorize before a meeting or a medical scan. These short strength verses fit on a note card and in a whispered prayer.
+ That instinct is good — as long as the verse leads back to Christ, the sacraments, and a parish community that can walk with you through short strength verses. Sometimes you need one line you can memorize before a meeting or a medical scan. These short strength verses fit on a note card and in a whispered prayer.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
                 If you came here from a search for short bible verses about strength, stay long enough to pray, not only to collect quotes. The Church's goal is conversion of heart around short strength verses, not a larger screenshot folder.
@@ -90,7 +90,7 @@ export default function ShortBibleVersesAboutStrength() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">One-Line Strength Verses</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="short-bible-verses-about-strength">
-                Short lists help busy Catholics. Still, one verse prayed well beats ten verses skimmed. Focus on “One-Line Strength Verses” as a single movement of prayer, not a checklist.
+                Short lists help busy Catholics. Focus on “One-Line Strength Verses” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -120,7 +120,7 @@ export default function ShortBibleVersesAboutStrength() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
-                Memorization works best with rhythm: say the verse walking to the car, then again at the door. Short lines stick when the body moves. Catholic reading never isolates a verse from the Cross and Resurrection. Whatever you face regarding short strength verses, Christ has entered human weakness and opened a way through it — not around it.
+                Memorization works best with rhythm: say the verse walking to the car, then again at the door. Short lines stick when the body moves. Whatever you face regarding short strength verses, Christ has entered human weakness and opened a way through it — not around it.
               </LinkedText>
               <QuizCTA
                 title={"Is your prayer life matching what you believe?"}
@@ -129,7 +129,7 @@ export default function ShortBibleVersesAboutStrength() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">More Memorize-Ready Verses</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="short-bible-verses-about-strength">
-                These passages gather the Church's most prayed lines on short strength verses. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “More Memorize-Ready Verses” as a single movement of prayer, not a checklist.
+                These passages gather the Church's most prayed lines on short strength verses. Focus on “More Memorize-Ready Verses” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -149,17 +149,17 @@ export default function ShortBibleVersesAboutStrength() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on short strength verses is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on short strength verses is meant for today — not for your entire future.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Speak These Verses on Short Strength Lines</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
-                <p className="text-text leading-relaxed">Write one short strength verse on a card. Keep it in your wallet and read it before hard meetings or medical waits. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether short strength verses still masters your reactions — or whether grace is slowly reordering them.</p>
+                <p className="text-text leading-relaxed">Write one short strength verse on a card. Keep it in your wallet and read it before hard meetings or medical waits. Over a week, you will notice whether short strength verses still masters your reactions — or whether grace is slowly reordering them.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Short Prayer before Verses on Short Strength Lines</h2>
               <div className="bg-background-muted/50 border border-border rounded-xl p-6 mb-6">
-                <p className="text-text leading-relaxed">Lord Jesus, open my heart to Your Word about short strength lines. Give me honesty, courage, and the grace to live what I read. Amen.</p>
+                <p className="text-text leading-relaxed">Lord Jesus, open my heart to Your Word about short strength lines. Amen.</p>
               </div>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Daily Discipleship for Short Strength Lines</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="short-bible-verses-about-strength">
@@ -173,7 +173,7 @@ export default function ShortBibleVersesAboutStrength() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Catholic Way to Pray About short strength verses</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
-                If you are new to praying Scripture, start with one verse, not the whole page. Read it aloud. Sit for thirty seconds. Ask: What is God saying about short strength verses that I resist? Then bring that resistance to Confession or spiritual direction if it is heavy. Return to this page seasonally — Advent, Lent, or after a major life change — and notice which verse hits differently. Spiritual growth is often less about finding new lines and more about letting familiar words on short strength verses cut deeper.
+ Read it aloud. Sit for thirty seconds. Ask: What is God saying about short strength verses that I resist? Spiritual growth is often less about finding new lines and more about letting familiar words on short strength verses cut deeper.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where Short strength verses Meets Daily Discipleship</h2>
@@ -183,26 +183,26 @@ export default function ShortBibleVersesAboutStrength() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Beyond the Quote: Living short strength verses Catholically</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
-                Works of mercy translate verses into flesh: a meal for a neighbor, a patient reply, a donated hour, a refusal to gossip. If a verse on short strength verses never changes how you treat people, you have collected inspiration without conversion. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+ If a verse on short strength verses never changes how you treat people, you have collected inspiration without conversion.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Counsel for Catholics Wrestling with Short strength verses</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
-                Some Catholics treat short bible verses about strength like a last resort after every human strategy fails. Invert that order. Begin the day with the Word, then work, plan, and seek counsel. Ordering the day under God does not ignore practical wisdom; it places short strength verses inside a relationship instead of a panic cycle.
+                Some Catholics treat short bible verses about strength like a last resort after every human strategy fails. Invert that order. Ordering the day under God does not ignore practical wisdom; it places short strength verses inside a relationship instead of a panic cycle.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From Private Devotion to Communal Faith Around Short strength verses</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
-                Small groups thrive on honest sharing. Use one verse as lectio: read, silence, share, pray. Keep confidentiality. A parish that can speak truthfully about short strength verses becomes a safer place for converts and returning Catholics.
+                Small groups thrive on honest sharing. Keep confidentiality. A parish that can speak truthfully about short strength verses becomes a safer place for converts and returning Catholics.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Short strength verses</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="short-bible-verses-about-strength">
-                If your calendar is full, do not wait for a retreat to address short strength verses. Use the margins: the parking lot before Mass, the walk between meetings, the quiet after children sleep. Those minutes are enough for the Word to take root.
+                If your calendar is full, do not wait for a retreat to address short strength verses.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="short-bible-verses-about-strength">
-                As you leave this page, take one verse on short strength verses into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when short strength verses is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around short strength verses today.
+                As you leave this page, take one verse on short strength verses into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when short strength verses is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around short strength verses today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -217,13 +217,13 @@ export default function ShortBibleVersesAboutStrength() {
               linkAnswersSlug="short-bible-verses-about-strength"
               faqs={[
                 { question: "What are the best short bible verses about strength?", answer: "Key short bible verses about strength include Philippians 4:13 and the passages gathered below for meditation and memorization. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: " Both are approved. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
                 { question: "How do I memorize verses about strength?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
-                { question: "Can I share short bible verses about strength with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
-                { question: "Is it okay to write short bible verses about strength in a journal?", answer: "Yes. Copying Scripture by hand slows you down and helps retention. Note one concrete action beside the verse so short strength verses becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
+                { question: "Can I share short bible verses about strength with non-Catholics?", answer: "Yes. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: " Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
+                { question: "Is it okay to write short bible verses about strength in a journal?", answer: "Yes. Note one concrete action beside the verse so short strength verses becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
                 { question: "What if I do not feel peace after praying?", answer: "Feelings are not the measure of fidelity. Keep praying, receive the sacraments, and look for small fruits: patience, honesty, or courage related to short strength verses. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." },
-                { question: "Can children use this page?", answer: "Yes — choose the shortest verses and explain them simply. Children learn short strength verses by watching adults pray without panic. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." }
+                { question: "Can children use this page?", answer: " Children learn short strength verses by watching adults pray without panic. Keep praying with the Church, and let one verse on short strength verses stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="short-bible-verses-about-strength" />

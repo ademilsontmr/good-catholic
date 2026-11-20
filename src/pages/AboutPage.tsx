@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { BookOpen, Cross, Heart, Mail, Shield } from "lucide-react";
 import { Navbar } from "@/components/landing/Navbar";
 import { Footer } from "@/components/landing/Footer";
+import { PlainEmail } from "@/components/PlainEmail";
 
 export default function AboutPage() {
   const orgSchema = {
@@ -190,13 +191,10 @@ export default function AboutPage() {
                 <h2 className="font-display text-2xl font-bold text-text mb-4">Contact</h2>
                 <p className="text-text-muted leading-relaxed mb-4">
                   Questions, corrections, or suggestions are welcome. Reach us at{" "}
-                  <a
-                    href="mailto:smartxdigitalx@gmail.com"
-                    className="inline-flex items-center gap-1.5 text-primary font-semibold hover:underline"
-                  >
-                    <Mail className="w-4 h-4" aria-hidden="true" />
-                    smartxdigitalx@gmail.com
-                  </a>{" "}
+                  <span className="inline-flex items-center gap-1.5">
+                    <Mail className="w-4 h-4 text-primary" aria-hidden="true" />
+                    <PlainEmail email="smartxdigitalx@gmail.com" className="text-primary font-semibold hover:underline" />
+                  </span>{" "}
                   or through our{" "}
                   <Link to="/contact/" className="text-primary font-semibold hover:underline">
                     contact page

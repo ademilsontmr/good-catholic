@@ -82,7 +82,7 @@ export default function PowerfulBibleVerses() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                The Church has always placed the Word at the center of Christian life: proclaimed at Mass, prayed in the Liturgy of the Hours, and kept in the heart at home. These powerful bible verses belong in that living tradition, ready for ordinary disciples who need concrete hope. Power in Scripture is God's power made perfect in weakness. These verses are "powerful" because they change how we live, not because they sound dramatic.
+ These powerful bible verses belong in that living tradition, ready for ordinary disciples who need concrete hope. Power in Scripture is God's power made perfect in weakness. These verses are "powerful" because they change how we live, not because they sound dramatic.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
                 Print or save two references from this page. Keep one at home and one at work. When spiritual power spikes, you will already know where to look — and you will waste less energy scrolling through endless lists of powerful bible verses.
@@ -90,7 +90,7 @@ export default function PowerfulBibleVerses() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Verses of Power</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="powerful-bible-verses">
-                These passages gather the Church's most prayed lines on spiritual power. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “Verses of Power” as a single movement of prayer, not a checklist.
+                These passages gather the Church's most prayed lines on spiritual power. Focus on “Verses of Power” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -120,11 +120,11 @@ export default function PowerfulBibleVerses() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                The most powerful verses are often the quietest ones lived consistently — not the ones we quote for social media. If one verse feels overused in Christian culture, pray it for someone else first. Intercession softens cynicism and keeps spiritual power from becoming a private performance of spirituality.
+                The most powerful verses are often the quietest ones lived consistently — not the ones we quote for social media. Intercession softens cynicism and keeps spiritual power from becoming a private performance of spirituality.
               </LinkedText>
               <QuizCTA
                 title={"What would faithfulness look like in this season?"}
-                description={"Receive a practical Guide Catholic plan tailored to your current spiritual season."}
+                description={""}
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Authority and Victory</h2>
@@ -149,7 +149,7 @@ export default function PowerfulBibleVerses() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on spiritual power is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on spiritual power is meant for today — not for your entire future.
               </LinkedText>
 
 
@@ -165,41 +165,41 @@ export default function PowerfulBibleVerses() {
               </ul>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Live These Verses on Spiritual Power</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                Pick the quietest "powerful" verse on this page. Live it for 48 hours without posting about it. Power shows in fidelity. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether spiritual power still masters your reactions — or whether grace is slowly reordering them.
+                Pick the quietest "powerful" verse on this page. Live it for 48 hours without posting about it. Power shows in fidelity. Over a week, you will notice whether spiritual power still masters your reactions — or whether grace is slowly reordering them.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How the Church Reads Verses on spiritual power</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                Many people discover these verses during crisis and then keep them for ordinary days. That is healthy. Holiness is formed less by dramatic moments than by returning to the Word when spiritual power is quiet but still unfinished. For families, pick one verse for the week and place it near the dinner table. For singles and religious, keep it near your breviary or phone charger. Shared memory of Scripture builds a household culture that outlasts moods about spiritual power.
+ That is healthy. Holiness is formed less by dramatic moments than by returning to the Word when spiritual power is quiet but still unfinished. Shared memory of Scripture builds a household culture that outlasts moods about spiritual power.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From Search Query to Lived Prayer on spiritual power</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                Some days you will pray these lines with consolation; other days they will feel dry. Dryness is not failure. Keep a simple rule: one verse on spiritual power each morning for a week, then review what changed in your patience, speech, or sleep.
+ Dryness is not failure. Keep a simple rule: one verse on spiritual power each morning for a week, then review what changed in your patience, speech, or sleep.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Going Deeper: Sacraments, Saints, and spiritual power</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                Choose a saint who knew something of spiritual power — Thérèse in littleness, Joseph in quiet duty, Monica in perseverance, Ignatius in discernment. Ask their intercession after you pray a verse. Friendship with the saints keeps private devotion from becoming lonely. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+                Choose a saint who knew something of spiritual power — Thérèse in littleness, Joseph in quiet duty, Monica in perseverance, Ignatius in discernment. Ask their intercession after you pray a verse.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Word for Weary Hearts Facing Spiritual power</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                Shame often keeps people from praying honestly about spiritual power. Remember: Christ came for the sick, not for those who pretend to be well. Bring the messiest sentence of your story into prayer with one verse from this page. Then, if needed, bring the same honesty to Confession. Grace grows where truth is spoken.
+                Shame often keeps people from praying honestly about spiritual power. Grace grows where truth is spoken.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Helping Teens Encounter Scripture on Spiritual power</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                For teens, authenticity matters. Admit when spiritual power is hard for adults too. Invite them to choose a verse and put it where they will see it — locker, mirror, or phone wallpaper — and check in a week later about what changed.
+                For teens, authenticity matters. Admit when spiritual power is hard for adults too.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Spiritual power</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="powerful-bible-verses">
-                Design your week around grace, not adrenaline. Place a verse on spiritual power where temptation usually wins — the fridge, the steering wheel, or the laptop. When you fail, begin again without theatrical guilt. The saints were experts at beginning again.
+                Design your week around grace, not adrenaline. Place a verse on spiritual power where temptation usually wins — the fridge, the steering wheel, or the laptop. The saints were experts at beginning again.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="powerful-bible-verses">
-                As you leave this page, take one verse on spiritual power into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when spiritual power is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around spiritual power today.
+                As you leave this page, take one verse on spiritual power into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when spiritual power is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around spiritual power today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -214,19 +214,19 @@ export default function PowerfulBibleVerses() {
               linkAnswersSlug="powerful-bible-verses"
               faqs={[
                 { question: "What Bible verse helps most with spiritual power?", answer: "Key powerful bible verses include Romans 8:31 and the passages gathered below for meditation and memorization. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: " Both are approved. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
                 { question: "How do I memorize verses about encouragement?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
-                { question: "Can I share powerful bible verses with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
+                { question: "Can I share powerful bible verses with non-Catholics?", answer: "Yes. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: " Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
                 { question: "How often should I pray powerful bible verses?", answer: "Daily is ideal when spiritual power is intense; otherwise three times a week keeps the Word familiar without turning it into a checklist. Quality of attention matters more than volume. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
-                { question: "Which Catholic Bible translation is good for these verses?", answer: "The RSV-CE and NABRE are widely used by English-speaking Catholics. Choose one translation and stay with it long enough for the words on spiritual power to become memorable. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
+                { question: "Which Catholic Bible translation is good for these verses?", answer: " Choose one translation and stay with it long enough for the words on spiritual power to become memorable. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." },
                 { question: "Can I share these verses with a non-Catholic friend?", answer: "Yes — with humility. Offer the verse as a gift, not a debate opener. If they ask what Catholics believe about spiritual power, point them toward Christ and, when appropriate, your parish. Keep praying with the Church, and let one verse on spiritual power stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="powerful-bible-verses" />
             <ArticleBottomCTA
               title={"Bring Spiritual Power from the page into your week"}
-              description={"Receive a practical Guide Catholic plan tailored to your current spiritual season."}
+              description={""}
             />
           </div>
         </article>

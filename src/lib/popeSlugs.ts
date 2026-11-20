@@ -5,17 +5,6 @@ export interface PopeArticleContent {
   metaDescription: string;
   excerpt: string;
   readTime: string;
-  directAnswer: string;
-  intro: string;
-  earlyLife: string;
-  historicalContext: string;
-  pontificate: string;
-  papalActs: string;
-  legacy: string;
-  forCatholicsToday: string;
-  succession: string;
-  highlights: string[];
-  faqs: { question: string; answer: string }[];
   relatedPopes: { num: number; slug: string; name: string; relation: string }[];
 }
 

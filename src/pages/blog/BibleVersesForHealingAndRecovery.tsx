@@ -82,15 +82,15 @@ export default function BibleVersesForHealingAndRecovery() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                RSV-CE readers notice how often Scripture refuses shallow comfort. Verses about healing and recovery tell the truth about human weakness and God's fidelity in the same breath. That honesty is why they still console after centuries. Recovery is rarely linear — whether from surgery, addiction, or grief. These verses accompany the long middle, not only the dramatic miracle stories.
+ Verses about healing and recovery tell the truth about human weakness and God's fidelity in the same breath. Recovery is rarely linear — whether from surgery, addiction, or grief. These verses accompany the long middle, not only the dramatic miracle stories.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                Couples and families can read one verse aloud and share a single sentence of response. That simple practice turns bible verses for healing and recovery from private coping into shared discipleship around healing and recovery.
+ That simple practice turns bible verses for healing and recovery from private coping into shared discipleship around healing and recovery.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Healing and Restoration</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-for-healing-and-recovery">
-                Short lists help busy Catholics. Still, one verse prayed well beats ten verses skimmed. Focus on “Healing and Restoration” as a single movement of prayer, not a checklist.
+                Short lists help busy Catholics. Focus on “Healing and Restoration” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -120,16 +120,16 @@ export default function BibleVersesForHealingAndRecovery() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                Recovery timelines belong to God and good medicine. These verses keep bitterness from rewriting the story of your body. Ask honestly: what would change this week if I believed this verse about healing and recovery enough to rearrange one habit? Then rearrange that habit before the feeling of motivation fades.
+                Recovery timelines belong to God and good medicine. These verses keep bitterness from rewriting the story of your body. Ask honestly: what would change this week if I believed this verse about healing and recovery enough to rearrange one habit?
               </LinkedText>
               <QuizCTA
                 title={"What would faithfulness look like in this season?"}
-                description={"Receive a practical Guide Catholic plan tailored to your current spiritual season."}
+                description={""}
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Recovery Day by Day</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-for-healing-and-recovery">
-                These passages gather the Church's most prayed lines on healing and recovery. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “Recovery Day by Day” as a single movement of prayer, not a checklist.
+                These passages gather the Church's most prayed lines on healing and recovery. Focus on “Recovery Day by Day” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -149,7 +149,7 @@ export default function BibleVersesForHealingAndRecovery() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on healing and recovery is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on healing and recovery is meant for today — not for your entire future.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Sit with One Verse Today (Healing and Recovery)</h2>
@@ -161,7 +161,7 @@ export default function BibleVersesForHealingAndRecovery() {
               </ol>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Anchor These Verses on Healing and Recovery</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                During recovery, pray James 5:14-15 and ask your parish about Anointing if illness is serious. Keep medical appointments as acts of stewardship. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether healing and recovery still masters your reactions — or whether grace is slowly reordering them.
+                During recovery, pray James 5:14-15 and ask your parish about Anointing if illness is serious. Keep medical appointments as acts of stewardship. Over a week, you will notice whether healing and recovery still masters your reactions — or whether grace is slowly reordering them.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mistakes to Avoid with Verses on Healing and Recovery</h2>
@@ -174,36 +174,36 @@ export default function BibleVersesForHealingAndRecovery() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What These Verses on healing and recovery Are For</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                American parish life is busy: sports, shifts, aging parents, and screens. Short, memorable verses on healing and recovery travel well into that chaos — as long as they lead you back to the Eucharist, where the Word becomes flesh for us again. Bring one struggle related to healing and recovery to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. If illness or despair is involved, ask about Anointing of the Sick. Grace travels through the Church's ordinary means.
+ Short, memorable verses on healing and recovery travel well into that chaos — as long as they lead you back to the Eucharist, where the Word becomes flesh for us again. Bring one struggle related to healing and recovery to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. Grace travels through the Church's ordinary means.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Situations Where Verses on healing and recovery Help Most</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                Parents, caregivers, converts, and long-time Catholics all meet healing and recovery differently. A young adult may need courage for vocation; a widow may need endurance; a teenager may need language for fear. Let the same page serve different states of life without forcing one emotional script.
+                Parents, caregivers, converts, and long-time Catholics all meet healing and recovery differently.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mass, Confession, and Verses on healing and recovery</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                For families, pick one verse for the week and place it near the dinner table. For singles and religious, keep it near your breviary or phone charger. Shared memory of Scripture builds a household culture that outlasts moods about healing and recovery. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+ Shared memory of Scripture builds a household culture that outlasts moods about healing and recovery.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Priests Often Hear About Healing and recovery</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                If you are accompanying someone else through healing and recovery, do not rush to quote. Ask what they need: silence, a meal, childcare, or prayer. When the moment for Scripture comes, offer one verse gently. The goal is presence, not winning a spiritual argument about healing and recovery.
+                If you are accompanying someone else through healing and recovery, do not rush to quote. The goal is presence, not winning a spiritual argument about healing and recovery.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Healing and recovery to Family and Friends</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                Explain healing and recovery in plain speech. Children and seekers do not need jargon; they need to see that Catholics take the Bible seriously and still live in the real world. Read one short verse at dinner. Ask each person for one word it sparks. That five-minute habit forms a household culture of bible verses for healing and recovery better than rare long lectures.
+                Explain healing and recovery in plain speech. Read one short verse at dinner. Ask each person for one word it sparks. That five-minute habit forms a household culture of bible verses for healing and recovery better than rare long lectures.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Healing and recovery</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-for-healing-and-recovery">
-                Invite accountability. Tell one Catholic friend which verse on healing and recovery you are living this week and ask them to check in on Friday. Shared discipleship prevents private despair and private pride.
+                Invite accountability. Tell one Catholic friend which verse on healing and recovery you are living this week and ask them to check in on Friday.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="bible-verses-for-healing-and-recovery">
-                As you leave this page, take one verse on healing and recovery into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when healing and recovery is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around healing and recovery today.
+                As you leave this page, take one verse on healing and recovery into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when healing and recovery is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around healing and recovery today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -218,19 +218,19 @@ export default function BibleVersesForHealingAndRecovery() {
               linkAnswersSlug="bible-verses-for-healing-and-recovery"
               faqs={[
                 { question: "What are the best bible verses for healing and recovery?", answer: "Key bible verses for healing and recovery include Jeremiah 30:17 and the passages gathered below for meditation and memorization. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: " Both are approved. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
                 { question: "How do I memorize verses about healing and recovery?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
-                { question: "Can I share bible verses for healing and recovery with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
-                { question: "Is it okay to write bible verses for healing and recovery in a journal?", answer: "Yes. Copying Scripture by hand slows you down and helps retention. Note one concrete action beside the verse so healing and recovery becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
+                { question: "Can I share bible verses for healing and recovery with non-Catholics?", answer: "Yes. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: " Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
+                { question: "Is it okay to write bible verses for healing and recovery in a journal?", answer: "Yes. Note one concrete action beside the verse so healing and recovery becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
                 { question: "What if I do not feel peace after praying?", answer: "Feelings are not the measure of fidelity. Keep praying, receive the sacraments, and look for small fruits: patience, honesty, or courage related to healing and recovery. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." },
-                { question: "Can children use this page?", answer: "Yes — choose the shortest verses and explain them simply. Children learn healing and recovery by watching adults pray without panic. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." }
+                { question: "Can children use this page?", answer: " Children learn healing and recovery by watching adults pray without panic. Keep praying with the Church, and let one verse on healing and recovery stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="bible-verses-for-healing-and-recovery" />
             <ArticleBottomCTA
               title={"Keep Healing and Recovery close when life gets loud"}
-              description={"Receive a practical Guide Catholic plan tailored to your current spiritual season."}
+              description={""}
             />
           </div>
         </article>

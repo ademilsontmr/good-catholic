@@ -1,14 +1,10 @@
 import { Helmet } from "react-helmet-async";
 import { Link, useParams, Navigate } from "react-router-dom";
 import { ArrowLeft, Calendar, Clock, Crown } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
-import { QuizCTA } from "@/components/blog/QuizCTA";
-import { BlogFAQ } from "@/components/blog/BlogFAQ";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/blog/ArticleSchema";
 import { ArticleBottomCTA } from "@/components/blog/ArticleBottomCTA";
-import { LinkedText } from "@/components/blog/LinkedText";
 import { RelatedArticles } from "@/components/blog/RelatedArticles";
 import { POPE_ARTICLES_BY_SLUG } from "@/data/popeArticles";
 import { CATHOLIC_POPES } from "@/data/catholicPopes";
@@ -16,7 +12,8 @@ import { parsePopeArticleSlug, popeOrdinal } from "@/lib/popeSlugs";
 import { POPE_TABLE_ROWS } from "@/lib/popeTableData";
 import NotFound from "@/pages/NotFound";
 import { ArticleByline } from "@/components/blog/ArticleByline";
-import { BlogArticleAd } from "@/components/blog/BlogArticleAd";
+import { popeProfileComponent } from "@/components/blog/PopeProfileBody";
+import { Suspense } from "react";
 
 export default function PopeArticlePage() {
   const { articleSlug } = useParams<{ articleSlug: string }>();
@@ -35,6 +32,8 @@ export default function PopeArticlePage() {
     ? tableRow.image.replace("width=80", "width=640")
     : "";
   const canonical = `https://guidecatholic.com/blog/pope-${article.slug}/`;
+  // A written profile replaces the generated template sections when one exists for this pope.
+  const Profile = popeProfileComponent(article.slug);
 
   return (
     <>
@@ -92,7 +91,7 @@ export default function PopeArticlePage() {
                 {tableRow?.personalName ? (
                   <>
                     {" "}
-                    · <strong>Birth name:</strong> {tableRow.personalName}
+                    · <strong>Latin name:</strong> {tableRow.personalName}
                   </>
                 ) : null}
               </p>
@@ -111,80 +110,30 @@ export default function PopeArticlePage() {
                 <Crown className="w-24 h-24 text-amber-700" strokeWidth={1.5} />
               )}
             </div>
-            <div className="prose prose-lg max-w-none">
-              <div className="mb-8 p-6 bg-amber-50/80 border border-amber-200/60 rounded-xl">
-                <p className="text-lg text-text leading-relaxed font-medium">{article.directAnswer}</p>
+            {Profile ? (
+              <Suspense fallback={null}>
+                <Profile linkSlug={`pope-${article.slug}`} />
+              </Suspense>
+            ) : (
+              <p className="text-lg text-text leading-relaxed mb-8">{article.excerpt}</p>
+            )}
+            {article.relatedPopes?.length > 0 && (
+              <div className="mb-10 p-6 rounded-xl border border-amber-200/70 bg-amber-50/50">
+                <h3 className="font-display text-xl font-bold text-text mb-4">Related pontiffs</h3>
+                <ul className="space-y-2">
+                  {article.relatedPopes.map((rel) => (
+                    <li key={`${rel.relation}-${rel.num}`}>
+                      <Link
+                        to={`/blog/pope-${rel.slug}/`}
+                        className="text-primary font-semibold hover:underline"
+                      >
+                        {rel.relation}: Pope {rel.name} ({popeOrdinal(rel.num)})
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <BlogArticleAd slot="1906776249" />
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Who Was Pope {displayName.replace(/^St\.\s+/, "")}?</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
-                {article.intro}
-              </LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Early Life &amp; Background</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
-                {article.earlyLife}
-              </LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Historical Context</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
-                {article.historicalContext}
-              </LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pontificate &amp; Key Events</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
-                {article.pontificate}
-              </LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Papal Acts &amp; Achievements</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
-                {article.papalActs}
-              </LinkedText>
-
-              <QuizCTA title="Explore Catholic history" description="Take the Catholic life assessment for personalized guidance on doctrine, the papacy, and Church tradition." />
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Key Highlights</h2>
-              <ul className="list-disc list-inside text-text space-y-3 mb-6">
-                {article.highlights.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Legacy in the Catholic Church</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
-                {article.legacy}
-              </LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Study This Pope Today</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
-                {article.forCatholicsToday}
-              </LinkedText>
-
-              <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Place in the Line of Succession</h2>
-              <LinkedText className="text-text leading-relaxed mb-6" currentSlug={`pope-${article.slug}`}>
-                {article.succession}
-              </LinkedText>
-
-              {article.relatedPopes?.length > 0 && (
-                <div className="mb-10 p-6 rounded-xl border border-amber-200/70 bg-amber-50/50">
-                  <h3 className="font-display text-xl font-bold text-text mb-4">Related pontiffs</h3>
-                  <ul className="space-y-2">
-                    {article.relatedPopes.map((rel) => (
-                      <li key={`${rel.relation}-${rel.num}`}>
-                        <Link
-                          to={`/blog/pope-${rel.slug}/`}
-                          className="text-primary font-semibold hover:underline"
-                        >
-                          {rel.relation}: Pope {rel.name} ({popeOrdinal(rel.num)})
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
-
-            <BlogFAQ faqs={article.faqs} linkAnswersSlug={`pope-${article.slug}`} />
+            )}
 
             <RelatedArticles currentSlug={`pope-${article.slug}`} />
 

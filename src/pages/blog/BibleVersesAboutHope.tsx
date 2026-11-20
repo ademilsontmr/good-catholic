@@ -82,15 +82,15 @@ export default function BibleVersesAboutHope() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                RSV-CE readers notice how often Scripture refuses shallow comfort. Verses about hope tell the truth about human weakness and God's fidelity in the same breath. That honesty is why they still console after centuries. Hope is not optimism that everything will be easy. It is the theological virtue that trusts God's promises when a diagnosis, delay, or unanswered prayer makes the future look blank.
+ Verses about hope tell the truth about human weakness and God's fidelity in the same breath. Hope is not optimism that everything will be easy. It is the theological virtue that trusts God's promises when a diagnosis, delay, or unanswered prayer makes the future look blank.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                Couples and families can read one verse aloud and share a single sentence of response. That simple practice turns bible verses about hope from private coping into shared discipleship around hope.
+ That simple practice turns bible verses about hope from private coping into shared discipleship around hope.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">New Testament Hope</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-hope">
-                These passages gather the Church's most prayed lines on hope. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “New Testament Hope” as a single movement of prayer, not a checklist.
+                These passages gather the Church's most prayed lines on hope. Focus on “New Testament Hope” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -120,11 +120,11 @@ export default function BibleVersesAboutHope() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                Hebrews calls hope an anchor. Anchors do not remove storms; they keep the ship from drifting — which is why Romans 8 ties hope to patience. Ask honestly: what would change this week if I believed this verse about hope enough to rearrange one habit? Then rearrange that habit before the feeling of motivation fades.
+                Hebrews calls hope an anchor. Anchors do not remove storms; they keep the ship from drifting — which is why Romans 8 ties hope to patience. Ask honestly: what would change this week if I believed this verse about hope enough to rearrange one habit?
               </LinkedText>
               <QuizCTA
                 title={"What would faithfulness look like in this season?"}
-                description={"Receive a practical Guide Catholic plan tailored to your current spiritual season."}
+                description={""}
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Old Testament Promises of Hope</h2>
@@ -154,7 +154,7 @@ export default function BibleVersesAboutHope() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on hope is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on hope is meant for today — not for your entire future.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Sit with One Verse Today (Hope)</h2>
@@ -166,7 +166,7 @@ export default function BibleVersesAboutHope() {
               </ol>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Anchor These Verses on Hope</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                Write Romans 15:13 on a sticky note by the coffee maker. Pray it before checking email so hope — not headlines — sets the tone. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether hope still masters your reactions — or whether grace is slowly reordering them.
+                Write Romans 15:13 on a sticky note by the coffee maker. Pray it before checking email so hope — not headlines — sets the tone. Over a week, you will notice whether hope still masters your reactions — or whether grace is slowly reordering them.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mistakes to Avoid with Verses on Hope</h2>
@@ -179,36 +179,36 @@ export default function BibleVersesAboutHope() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What These Verses on hope Are For</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                American parish life is busy: sports, shifts, aging parents, and screens. Short, memorable verses on hope travel well into that chaos — as long as they lead you back to the Eucharist, where the Word becomes flesh for us again. Bring one struggle related to hope to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. If illness or despair is involved, ask about Anointing of the Sick. Grace travels through the Church's ordinary means.
+ Short, memorable verses on hope travel well into that chaos — as long as they lead you back to the Eucharist, where the Word becomes flesh for us again. Bring one struggle related to hope to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. Grace travels through the Church's ordinary means.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Situations Where Verses on hope Help Most</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                Parents, caregivers, converts, and long-time Catholics all meet hope differently. A young adult may need courage for vocation; a widow may need endurance; a teenager may need language for fear. Let the same page serve different states of life without forcing one emotional script.
+                Parents, caregivers, converts, and long-time Catholics all meet hope differently.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mass, Confession, and Verses on hope</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                For families, pick one verse for the week and place it near the dinner table. For singles and religious, keep it near your breviary or phone charger. Shared memory of Scripture builds a household culture that outlasts moods about hope. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+ Shared memory of Scripture builds a household culture that outlasts moods about hope.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Priests Often Hear About Hope</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                If you are accompanying someone else through hope, do not rush to quote. Ask what they need: silence, a meal, childcare, or prayer. When the moment for Scripture comes, offer one verse gently. The goal is presence, not winning a spiritual argument about hope.
+                If you are accompanying someone else through hope, do not rush to quote. The goal is presence, not winning a spiritual argument about hope.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Hope to Family and Friends</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                Explain hope in plain speech. Children and seekers do not need jargon; they need to see that Catholics take the Bible seriously and still live in the real world. Read one short verse at dinner. Ask each person for one word it sparks. That five-minute habit forms a household culture of bible verses about hope better than rare long lectures.
+                Explain hope in plain speech. Read one short verse at dinner. Ask each person for one word it sparks. That five-minute habit forms a household culture of bible verses about hope better than rare long lectures.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Hope</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-hope">
-                Invite accountability. Tell one Catholic friend which verse on hope you are living this week and ask them to check in on Friday. Shared discipleship prevents private despair and private pride.
+                Invite accountability. Tell one Catholic friend which verse on hope you are living this week and ask them to check in on Friday.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="bible-verses-about-hope">
-                As you leave this page, take one verse on hope into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when hope is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around hope today.
+                As you leave this page, take one verse on hope into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when hope is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around hope today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -223,19 +223,19 @@ export default function BibleVersesAboutHope() {
               linkAnswersSlug="bible-verses-about-hope"
               faqs={[
                 { question: "What are the best bible verses about hope?", answer: "Key bible verses about hope include the passages below — pray them slowly, memorize one this week, and share them with someone who needs hope. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: " Both are approved. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
                 { question: "How do I memorize verses about hope?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
-                { question: "Can I share bible verses about hope with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
+                { question: "Can I share bible verses about hope with non-Catholics?", answer: "Yes. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: " Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
                 { question: "How often should I pray bible verses about hope?", answer: "Daily is ideal when hope is intense; otherwise three times a week keeps the Word familiar without turning it into a checklist. Quality of attention matters more than volume. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
-                { question: "Which Catholic Bible translation is good for these verses?", answer: "The RSV-CE and NABRE are widely used by English-speaking Catholics. Choose one translation and stay with it long enough for the words on hope to become memorable. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
+                { question: "Which Catholic Bible translation is good for these verses?", answer: " Choose one translation and stay with it long enough for the words on hope to become memorable. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." },
                 { question: "Can I share these verses with a non-Catholic friend?", answer: "Yes — with humility. Offer the verse as a gift, not a debate opener. If they ask what Catholics believe about hope, point them toward Christ and, when appropriate, your parish. Keep praying with the Church, and let one verse on hope stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="bible-verses-about-hope" />
             <ArticleBottomCTA
               title={"Take one faithful step with Hope today"}
-              description={"Receive a practical Guide Catholic plan tailored to your current spiritual season."}
+              description={""}
             />
           </div>
         </article>

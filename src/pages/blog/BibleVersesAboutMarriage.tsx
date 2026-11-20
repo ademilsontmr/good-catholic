@@ -82,10 +82,10 @@ export default function BibleVersesAboutMarriage() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                RSV-CE readers notice how often Scripture refuses shallow comfort. Verses about marriage tell the truth about human weakness and God's fidelity in the same breath. That honesty is why they still console after centuries. Catholic marriage is a covenant, not a contract. These verses sustain spouses through romance, conflict, infertility, blended households, and ordinary Tuesday evenings.
+ Verses about marriage tell the truth about human weakness and God's fidelity in the same breath. Catholic marriage is a covenant, not a contract. These verses sustain spouses through romance, conflict, infertility, blended households, and ordinary Tuesday evenings.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                Couples and families can read one verse aloud and share a single sentence of response. That simple practice turns bible verses about marriage from private coping into shared discipleship around marriage.
+ That simple practice turns bible verses about marriage from private coping into shared discipleship around marriage.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Covenant of Marriage</h2>
@@ -120,16 +120,16 @@ export default function BibleVersesAboutMarriage() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                Ephesians 5 is mutual self-gift, not domination. Spouses who pray these verses together often find conflict softens into dialogue. Ask honestly: what would change this week if I believed this verse about marriage enough to rearrange one habit? Then rearrange that habit before the feeling of motivation fades.
+                Ephesians 5 is mutual self-gift, not domination. Spouses who pray these verses together often find conflict softens into dialogue. Ask honestly: what would change this week if I believed this verse about marriage enough to rearrange one habit?
               </LinkedText>
               <QuizCTA
                 title={"Where do you need grace connected to marriage?"}
-                description={"Answer a few questions and get a roadmap for deeper Catholic life."}
+                description={""}
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Love That Endures</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-marriage">
-                Short lists help busy Catholics. Still, one verse prayed well beats ten verses skimmed. Focus on “Love That Endures” as a single movement of prayer, not a checklist.
+                Short lists help busy Catholics. Focus on “Love That Endures” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -149,7 +149,7 @@ export default function BibleVersesAboutMarriage() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on marriage is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on marriage is meant for today — not for your entire future.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">How to Sit with One Verse Today (Marriage)</h2>
@@ -161,7 +161,7 @@ export default function BibleVersesAboutMarriage() {
               </ol>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Offer These Verses on Marriage</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                Read Ephesians 5:25-33 together or alone. Ask: where am I seeking to be served more than to serve? Act on one answer within 24 hours. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether marriage still masters your reactions — or whether grace is slowly reordering them.
+                Read Ephesians 5:25-33 together or alone. Ask: where am I seeking to be served more than to serve? Act on one answer within 24 hours. Over a week, you will notice whether marriage still masters your reactions — or whether grace is slowly reordering them.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mistakes to Avoid with Verses on Marriage</h2>
@@ -174,36 +174,36 @@ export default function BibleVersesAboutMarriage() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What These Verses on marriage Are For</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                American parish life is busy: sports, shifts, aging parents, and screens. Short, memorable verses on marriage travel well into that chaos — as long as they lead you back to the Eucharist, where the Word becomes flesh for us again. Bring one struggle related to marriage to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. If illness or despair is involved, ask about Anointing of the Sick. Grace travels through the Church's ordinary means.
+ Short, memorable verses on marriage travel well into that chaos — as long as they lead you back to the Eucharist, where the Word becomes flesh for us again. Bring one struggle related to marriage to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. Grace travels through the Church's ordinary means.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Situations Where Verses on marriage Help Most</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                Parents, caregivers, converts, and long-time Catholics all meet marriage differently. A young adult may need courage for vocation; a widow may need endurance; a teenager may need language for fear. Let the same page serve different states of life without forcing one emotional script.
+                Parents, caregivers, converts, and long-time Catholics all meet marriage differently.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Mass, Confession, and Verses on marriage</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                For families, pick one verse for the week and place it near the dinner table. For singles and religious, keep it near your breviary or phone charger. Shared memory of Scripture builds a household culture that outlasts moods about marriage. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+ Shared memory of Scripture builds a household culture that outlasts moods about marriage.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">What Priests Often Hear About Marriage</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                If you are accompanying someone else through marriage, do not rush to quote. Ask what they need: silence, a meal, childcare, or prayer. When the moment for Scripture comes, offer one verse gently. The goal is presence, not winning a spiritual argument about marriage.
+                If you are accompanying someone else through marriage, do not rush to quote. The goal is presence, not winning a spiritual argument about marriage.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Teaching Marriage to Family and Friends</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                Explain marriage in plain speech. Children and seekers do not need jargon; they need to see that Catholics take the Bible seriously and still live in the real world. Read one short verse at dinner. Ask each person for one word it sparks. That five-minute habit forms a household culture of bible verses about marriage better than rare long lectures.
+                Explain marriage in plain speech. Read one short verse at dinner. Ask each person for one word it sparks. That five-minute habit forms a household culture of bible verses about marriage better than rare long lectures.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Marriage</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-marriage">
-                Invite accountability. Tell one Catholic friend which verse on marriage you are living this week and ask them to check in on Friday. Shared discipleship prevents private despair and private pride.
+                Invite accountability. Tell one Catholic friend which verse on marriage you are living this week and ask them to check in on Friday.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="bible-verses-about-marriage">
-                As you leave this page, take one verse on marriage into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when marriage is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around marriage today.
+                As you leave this page, take one verse on marriage into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when marriage is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around marriage today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -218,19 +218,19 @@ export default function BibleVersesAboutMarriage() {
               linkAnswersSlug="bible-verses-about-marriage"
               faqs={[
                 { question: "What are the best bible verses about marriage?", answer: "Key bible verses about marriage include Ephesians 5:25 and the passages gathered below for meditation and memorization. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: " Both are approved. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
                 { question: "Which love verses are used at Catholic weddings?", answer: "1 Corinthians 13 and Ephesians 5 are frequent; use your diocese's approved reading list. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
-                { question: "Can I share bible verses about marriage with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
-                { question: "What if these verses on marriage make me feel worse?", answer: "Pause. Speak with a priest or counselor. Sometimes grief, trauma, or depression needs accompaniment before a verse can console. God is patient with your pace. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
-                { question: "Should I memorize one verse or study many?", answer: "Memorize one that names your situation; study others for breadth. A single internalized line on marriage often helps more in a crisis than a long unread list. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the Rosary?", answer: "After a decade, pray your chosen verse as a short aspiration. The Rosary and Scripture reinforce each other when marriage needs both meditation and persistence. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." }
+                { question: "Can I share bible verses about marriage with non-Catholics?", answer: "Yes. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: " Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
+                { question: "What if these verses on marriage make me feel worse?", answer: "Pause. Speak with a priest or counselor. God is patient with your pace. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
+                { question: "Should I memorize one verse or study many?", answer: " A single internalized line on marriage often helps more in a crisis than a long unread list. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the Rosary?", answer: " The Rosary and Scripture reinforce each other when marriage needs both meditation and persistence. Keep praying with the Church, and let one verse on marriage stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="bible-verses-about-marriage" />
             <ArticleBottomCTA
               title={"Bring Marriage from the page into your week"}
-              description={"Answer a few questions and get a roadmap for deeper Catholic life."}
+              description={""}
             />
           </div>
         </article>

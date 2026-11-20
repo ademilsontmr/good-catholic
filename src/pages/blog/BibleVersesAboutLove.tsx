@@ -82,7 +82,7 @@ export default function BibleVersesAboutLove() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
-                When life presses hard, many American Catholics reach first for a phone search and then for a verse. That instinct is good — as long as the verse leads back to Christ, the sacraments, and a parish community that can walk with you through love. Wedding readings get the headlines, but 1 Corinthians 13 is also a daily examination for spouses, parents, and parish volunteers. Catholic love wills the good of the other — even when feelings cool.
+ That instinct is good — as long as the verse leads back to Christ, the sacraments, and a parish community that can walk with you through love. Wedding readings get the headlines, but 1 Corinthians 13 is also a daily examination for spouses, parents, and parish volunteers. Catholic love wills the good of the other — even when feelings cool.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
                 If you came here from a search for bible verses about love, stay long enough to pray, not only to collect quotes. The Church's goal is conversion of heart around love, not a larger screenshot folder.
@@ -90,7 +90,7 @@ export default function BibleVersesAboutLove() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">The Greatest Verses on Christian Love</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-love">
-                Short lists help busy Catholics. Still, one verse prayed well beats ten verses skimmed. Focus on “The Greatest Verses on Christian Love” as a single movement of prayer, not a checklist.
+                Short lists help busy Catholics. Focus on “The Greatest Verses on Christian Love” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -120,16 +120,16 @@ export default function BibleVersesAboutLove() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
-                John 15 sets the measure: love looks like the Cross. If your definition of love never costs anything, it is not yet the charity Christ commands. Catholic reading never isolates a verse from the Cross and Resurrection. Whatever you face regarding love, Christ has entered human weakness and opened a way through it — not around it.
+                John 15 sets the measure: love looks like the Cross. If your definition of love never costs anything, it is not yet the charity Christ commands. Whatever you face regarding love, Christ has entered human weakness and opened a way through it — not around it.
               </LinkedText>
               <QuizCTA
                 title={"What would faithfulness look like in this season?"}
-                description={"Receive a practical Guide Catholic plan tailored to your current spiritual season."}
+                description={""}
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Love in Marriage and Daily Life</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-love">
-                These passages gather the Church's most prayed lines on love. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “Love in Marriage and Daily Life” as a single movement of prayer, not a checklist.
+                These passages gather the Church's most prayed lines on love. Focus on “Love in Marriage and Daily Life” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -154,17 +154,17 @@ export default function BibleVersesAboutLove() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on love is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on love is meant for today — not for your entire future.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Share These Verses on Love</h2>
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-6">
-                <p className="text-text leading-relaxed">Read 1 Corinthians 13:4-7 as an examination. Circle one failure of patience or kindness, bring it to Confession, and choose one hidden act of charity this week. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether love still masters your reactions — or whether grace is slowly reordering them.</p>
+                <p className="text-text leading-relaxed">Read 1 Corinthians 13:4-7 as an examination. Circle one failure of patience or kindness, bring it to Confession, and choose one hidden act of charity this week. Over a week, you will notice whether love still masters your reactions — or whether grace is slowly reordering them.</p>
               </div>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Short Prayer before Verses on Love</h2>
               <div className="bg-background-muted/50 border border-border rounded-xl p-6 mb-6">
-                <p className="text-text leading-relaxed">Lord Jesus, open my heart to Your Word about love. Give me honesty, courage, and the grace to live what I read. Amen.</p>
+                <p className="text-text leading-relaxed">Lord Jesus, open my heart to Your Word about love. Amen.</p>
               </div>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Daily Discipleship for Love</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-love">
@@ -178,7 +178,7 @@ export default function BibleVersesAboutLove() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Catholic Way to Pray About love</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
-                If you are new to praying Scripture, start with one verse, not the whole page. Read it aloud. Sit for thirty seconds. Ask: What is God saying about love that I resist? Then bring that resistance to Confession or spiritual direction if it is heavy. Return to this page seasonally — Advent, Lent, or after a major life change — and notice which verse hits differently. Spiritual growth is often less about finding new lines and more about letting familiar words on love cut deeper.
+ Read it aloud. Sit for thirty seconds. Ask: What is God saying about love that I resist? Spiritual growth is often less about finding new lines and more about letting familiar words on love cut deeper.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Where Love Meets Daily Discipleship</h2>
@@ -188,26 +188,26 @@ export default function BibleVersesAboutLove() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Beyond the Quote: Living love Catholically</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
-                Works of mercy translate verses into flesh: a meal for a neighbor, a patient reply, a donated hour, a refusal to gossip. If a verse on love never changes how you treat people, you have collected inspiration without conversion. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+ If a verse on love never changes how you treat people, you have collected inspiration without conversion.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Counsel for Catholics Wrestling with Love</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
-                Some Catholics treat bible verses about love like a last resort after every human strategy fails. Invert that order. Begin the day with the Word, then work, plan, and seek counsel. Ordering the day under God does not ignore practical wisdom; it places love inside a relationship instead of a panic cycle.
+                Some Catholics treat bible verses about love like a last resort after every human strategy fails. Invert that order. Ordering the day under God does not ignore practical wisdom; it places love inside a relationship instead of a panic cycle.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">From Private Devotion to Communal Faith Around Love</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
-                Small groups thrive on honest sharing. Use one verse as lectio: read, silence, share, pray. Keep confidentiality. A parish that can speak truthfully about love becomes a safer place for converts and returning Catholics.
+                Small groups thrive on honest sharing. Keep confidentiality. A parish that can speak truthfully about love becomes a safer place for converts and returning Catholics.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Love</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-love">
-                If your calendar is full, do not wait for a retreat to address love. Use the margins: the parking lot before Mass, the walk between meetings, the quiet after children sleep. Those minutes are enough for the Word to take root.
+                If your calendar is full, do not wait for a retreat to address love.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="bible-verses-about-love">
-                As you leave this page, take one verse on love into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when love is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around love today.
+                As you leave this page, take one verse on love into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when love is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around love today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -222,19 +222,19 @@ export default function BibleVersesAboutLove() {
               linkAnswersSlug="bible-verses-about-love"
               faqs={[
                 { question: "What are the best bible verses about love?", answer: "Essential Bible verses about love include 1 Corinthians 13:4-7, John 15:12-13, 1 John 4:7-8, John 3:16, and Romans 13:8. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: " Both are approved. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
                 { question: "How do I memorize verses about love?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
-                { question: "Can I share bible verses about love with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
-                { question: "Is it okay to write bible verses about love in a journal?", answer: "Yes. Copying Scripture by hand slows you down and helps retention. Note one concrete action beside the verse so love becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
+                { question: "Can I share bible verses about love with non-Catholics?", answer: "Yes. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: " Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
+                { question: "Is it okay to write bible verses about love in a journal?", answer: "Yes. Note one concrete action beside the verse so love becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
                 { question: "What if I do not feel peace after praying?", answer: "Feelings are not the measure of fidelity. Keep praying, receive the sacraments, and look for small fruits: patience, honesty, or courage related to love. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." },
-                { question: "Can children use this page?", answer: "Yes — choose the shortest verses and explain them simply. Children learn love by watching adults pray without panic. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." }
+                { question: "Can children use this page?", answer: " Children learn love by watching adults pray without panic. Keep praying with the Church, and let one verse on love stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="bible-verses-about-love" />
             <ArticleBottomCTA
               title={"Turn reading on Love into lived prayer"}
-              description={"Receive a practical Guide Catholic plan tailored to your current spiritual season."}
+              description={""}
             />
           </div>
         </article>

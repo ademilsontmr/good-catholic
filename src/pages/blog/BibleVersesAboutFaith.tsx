@@ -82,15 +82,15 @@ export default function BibleVersesAboutFaith() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Catholics who search for bible verses about faith are rarely looking for a slogan. They want language strong enough for a hospital waiting room, a restless night, or a hard conversation after Mass. Scripture gives that language — not as a shortcut around the Cross, but as a companion on the way. Faith is not a mood. Hebrews defines it as assurance of things hoped for — the kind of trust that still shows up for Sunday Mass after a dry week of prayer.
+                Catholics who search for bible verses about faith are rarely looking for a slogan. Faith is not a mood. Hebrews defines it as assurance of things hoped for — the kind of trust that still shows up for Sunday Mass after a dry week of prayer.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Start with the verses that match your situation most closely, then read the rest as a wider horizon. Bible Verses About Faith are most fruitful when one line becomes a daily aspiration and the others become backup strength for harder days of faith.
+ Bible Verses About Faith are most fruitful when one line becomes a daily aspiration and the others become backup strength for harder days of faith.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Verses That Define Faith</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-faith">
-                Short lists help busy Catholics. Still, one verse prayed well beats ten verses skimmed. Focus on “Verses That Define Faith” as a single movement of prayer, not a checklist.
+                Short lists help busy Catholics. Focus on “Verses That Define Faith” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -120,16 +120,16 @@ export default function BibleVersesAboutFaith() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Romans 10 reminds us faith comes through hearing. Reading these verses aloud — even alone — is already a small act of belief. Notice the pattern across these passages: God does not always remove the circumstance tied to faith, but He does promise presence, grace, and a path of fidelity. That is why Catholic hope is sturdy — it is anchored in a Person, not in outcomes we can schedule.
+                Romans 10 reminds us faith comes through hearing. Reading these verses aloud — even alone — is already a small act of belief. Notice the pattern across these passages: God does not always remove the circumstance tied to faith, but He does promise presence, grace, and a path of fidelity.
               </LinkedText>
               <QuizCTA
                 title={"How is faith affecting your walk with Christ?"}
-                description={"Get personalized next steps for Mass, Confession, and Scripture in a busy American schedule."}
+                description={""}
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Faith Under Trial</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-faith">
-                These passages gather the Church's most prayed lines on faith. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “Faith Under Trial” as a single movement of prayer, not a checklist.
+                These passages gather the Church's most prayed lines on faith. Focus on “Faith Under Trial” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -154,12 +154,12 @@ export default function BibleVersesAboutFaith() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on faith is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on faith is meant for today — not for your entire future.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Hold These Verses on Faith</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Speak Hebrews 11:1 aloud. Then attend one weekday Mass this week as a bodily act of faith when feelings lag behind. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether faith still masters your reactions — or whether grace is slowly reordering them.
+                Speak Hebrews 11:1 aloud. Then attend one weekday Mass this week as a bodily act of faith when feelings lag behind. Over a week, you will notice whether faith still masters your reactions — or whether grace is slowly reordering them.
               </LinkedText>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Faith: Three Faithful Habits</h2>
               <ol className="list-decimal list-inside text-text space-y-2 mb-6">
@@ -178,17 +178,17 @@ export default function BibleVersesAboutFaith() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Turn to Scripture for faith</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Catholic reading holds Scripture and Tradition together. A line about faith is interpreted with the Creed, the Catechism, and the lived wisdom of the saints — never as a private oracle against the Church. That guardrail keeps devotion from becoming superstition. Works of mercy translate verses into flesh: a meal for a neighbor, a patient reply, a donated hour, a refusal to gossip. If a verse on faith never changes how you treat people, you have collected inspiration without conversion.
+                Catholic reading holds Scripture and Tradition together. A line about faith is interpreted with the Creed, the Catechism, and the lived wisdom of the saints — never as a private oracle against the Church. That guardrail keeps devotion from becoming superstition. If a verse on faith never changes how you treat people, you have collected inspiration without conversion.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Real Moments Catholics Face faith</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Parish ministries — bereavement groups, marriage prep, youth nights, and RCIA — can use these verses without turning them into worksheets. Read one slowly. Ask two questions: Where do I see Christ? What is one act of charity this verse asks of me regarding faith?
+ Read one slowly. Ask two questions: Where do I see Christ? What is one act of charity this verse asks of me regarding faith?
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture, Charity, and faith Over Time</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Bring one struggle related to faith to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. If illness or despair is involved, ask about Anointing of the Sick. Grace travels through the Church's ordinary means. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+                Bring one struggle related to faith to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. Grace travels through the Church's ordinary means.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pastoral Notes on Faith</h2>
@@ -198,16 +198,16 @@ export default function BibleVersesAboutFaith() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Homeschool, Parish, and Dinner-Table Uses for Faith</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Catechists can weave these verses into lessons on prayer, virtue, and the sacraments. Connect faith to a saint story, then to a concrete work of mercy. Students remember Scripture when it is paired with action.
+ Connect faith to a saint story, then to a concrete work of mercy.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Faith</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-faith">
-                Keep a tiny rule: one verse on faith in the morning, a brief examination at night, and Sunday Mass without negotiation. Add Confession monthly if faith keeps wounding your peace. Small fidelity compounds. In three months you will not only know more verses — you will notice different reactions at work, at home, and in prayer.
+                Keep a tiny rule: one verse on faith in the morning, a brief examination at night, and Sunday Mass without negotiation. Add Confession monthly if faith keeps wounding your peace. Small fidelity compounds.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="bible-verses-about-faith">
-                As you leave this page, take one verse on faith into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when faith is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around faith today.
+                As you leave this page, take one verse on faith into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when faith is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around faith today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -222,19 +222,19 @@ export default function BibleVersesAboutFaith() {
               linkAnswersSlug="bible-verses-about-faith"
               faqs={[
                 { question: "What are the best bible verses about faith?", answer: "Key bible verses about faith include the passages below — pray them slowly, memorize one this week, and share them with someone who needs faith. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: " Both are approved. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
                 { question: "How do I memorize verses about faith?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
-                { question: "Can I share bible verses about faith with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
-                { question: "Is it okay to write bible verses about faith in a journal?", answer: "Yes. Copying Scripture by hand slows you down and helps retention. Note one concrete action beside the verse so faith becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
+                { question: "Can I share bible verses about faith with non-Catholics?", answer: "Yes. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: " Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
+                { question: "Is it okay to write bible verses about faith in a journal?", answer: "Yes. Note one concrete action beside the verse so faith becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
                 { question: "What if I do not feel peace after praying?", answer: "Feelings are not the measure of fidelity. Keep praying, receive the sacraments, and look for small fruits: patience, honesty, or courage related to faith. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." },
-                { question: "Can children use this page?", answer: "Yes — choose the shortest verses and explain them simply. Children learn faith by watching adults pray without panic. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." }
+                { question: "Can children use this page?", answer: " Children learn faith by watching adults pray without panic. Keep praying with the Church, and let one verse on faith stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="bible-verses-about-faith" />
             <ArticleBottomCTA
               title={"Bring Faith from the page into your week"}
-              description={"Get personalized next steps for Mass, Confession, and Scripture in a busy American schedule."}
+              description={""}
             />
           </div>
         </article>

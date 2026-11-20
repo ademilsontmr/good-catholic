@@ -332,7 +332,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "label": "Liturgical color",
-        "value": "Red for martyrdom (memorial)"
+        "value": "Red for martyrdom (feast)"
       },
       {
         "label": "Novena status",
@@ -358,7 +358,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "November 30, 2026",
-        "what": "Memorial of St. Andrew the Apostle; Mass and optional home prayer."
+        "what": "Feast of St. Andrew the Apostle; Mass and optional home prayer."
       },
       {
         "when": "December 24, 2026",
@@ -398,7 +398,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "How to pray to St. Andrew this week",
         "paragraphs": [
           "Keep the prayer brief and Christ-centered. Ask Andrew to make you a bridge, not a spotlight. End with Our Father, Hail Mary, Glory Be for missionaries if you wish.",
-          "On November 30, use the memorial collect from the Missal or a worship aid rather than a random internet chain letter. Read {{https://catholicbibleonline.com/bible/john/1/|John 1:35–42}} aloud before dinner. Children can draw a simple X cross and name one friend to invite to Christmas Mass."
+          "On November 30, use the feast's collect from the Missal or a worship aid rather than a random internet chain letter. Read {{https://catholicbibleonline.com/bible/john/1/|John 1:35–42}} aloud before dinner. Children can draw a simple X cross and name one friend to invite to Christmas Mass."
         ],
         "table": {
           "caption": "A simple Andrew week",
@@ -413,7 +413,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
             ],
             [
               "November 30",
-              "Memorial collect from the Missal or Magnificat"
+              "Collect of the feast from the Missal or Magnificat"
             ],
             [
               "Evening",
@@ -425,6 +425,31 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
             ]
           ]
         }
+      },
+      {
+        "id": "christmas-anticipation-prayer",
+        "heading": "The Christmas Anticipation Prayer: “Hail and blessed be the hour”",
+        "paragraphs": [
+          "What most people mean by the St. Andrew Christmas Novena is a single short prayer, often called the Christmas Anticipation Prayer, repeated fifteen times a day from November 30 until Christmas. Despite its name, it is not addressed to Andrew at all. It speaks to God about the hour of Christ's birth; the apostle's feast simply supplies the starting date. The text as it circulates in English reads:",
+          "“Hail and blessed be the hour and moment in which the Son of God was born of the most pure Virgin Mary, at midnight, in Bethlehem, in piercing cold. In that hour, vouchsafe, O my God, to hear my prayer and grant my desires, through the merits of Our Saviour Jesus Christ, and of His Blessed Mother. Amen.”",
+          "Three details deserve a word. “At midnight” and “in piercing cold” are devotional imagery; Luke gives neither the hour nor the weather, and the Church has never defined either. “Grant my desires” is best prayed as the desires of a heart being reshaped by Advent, so many families name one intention, such as a conversion or a reconciliation, rather than a wish list. Fifteen repetitions is a custom, not a condition: five at each meal keeps the prayer from becoming a chore. Who composed the prayer is not well documented, so treat confident claims about its author with caution. For a day-by-day schedule this year, see [[/blog/st-andrew-christmas-novena-2026/|the St. Andrew Christmas Novena 2026 guide]]."
+        ]
+      },
+      {
+        "id": "feast-readings",
+        "heading": "The Mass readings for November 30",
+        "paragraphs": [
+          "On his feast the Church reads {{https://catholicbibleonline.com/bible/romans/10/|Romans 10:9–18}}, where Paul asks how anyone can believe without hearing and how anyone can hear unless someone is sent to preach, then quotes Psalm 19 about a voice going out to all the earth. The Gospel is {{https://catholicbibleonline.com/bible/matthew/4/|Matthew 4:18–22}}: Jesus walks by the Sea of Galilee, sees Andrew and Peter casting a net, and calls them to become fishers of men. They leave their nets at once.",
+          "St. Andrew's day ranks as a feast in the Roman calendar, so the Gloria is sung and the priest wears red. Because November 30 falls on a Monday in 2026, nothing displaces it. In years when the date lands on the First Sunday of Advent, the Sunday takes precedence and Andrew's Mass is not celebrated.",
+          "Beyond his call, the Gospels show Andrew three more times, always in the same role. He points out the boy with five barley loaves and two fish in {{https://catholicbibleonline.com/bible/john/6/|John 6:8–9}}. When some Greeks ask Philip to see Jesus, Philip goes to Andrew, and the two carry the request to the Lord in {{https://catholicbibleonline.com/bible/john/12/|John 12:20–22}}. In {{https://catholicbibleonline.com/bible/mark/13/|Mark 13:3}} he sits with Peter, James, and John on the Mount of Olives asking about the end of the age, a fitting text for the first week of Advent, whose readings also look toward Christ's return."
+        ]
+      },
+      {
+        "id": "rome-constantinople",
+        "heading": "Andrew, Constantinople, and prayer for Christian unity",
+        "paragraphs": [
+          "The Church of Constantinople regards Andrew as its founding apostle, much as Rome looks to Peter. For decades the two churches have exchanged delegations on their patronal feasts: representatives of the Holy See travel to the Ecumenical Patriarchate in Istanbul for November 30, and representatives of the Patriarchate come to Rome for Saints Peter and Paul on June 29. The brothers who fished together in Galilee have become a sign of the unity their successors still seek. A household that begins the Christmas Anticipation Prayer on November 30 can add one daily petition for the reconciliation of Catholics and Orthodox, turning a private custom into intercession for the whole Church."
+        ]
       },
       {
         "id": "doctrine-devotion",
@@ -455,50 +480,10 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "mass-2026",
         "heading": "Mass on November 30, 2026",
         "paragraphs": [
-          "The memorial is not a holy day of obligation in the United States, but it is a strong day for weekday Mass if work allows. Evening prayer on November 29 already sang Advent hymns; on the 30th the sanctoral cycle remembers Andrew's blood.",
+          "The feast is not a holy day of obligation in the United States, but it is a strong day for weekday Mass if work allows. Evening prayer on November 29 already sang Advent hymns; on the 30th the sanctoral cycle remembers Andrew's blood.",
           "If you cannot attend, pray the collect at home and read the Gospel. Offer one invitation—to a liturgy, a meal, a confession time—for someone drifting from the Church."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening St. Andrew with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping St. Andrew in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When St. Andrew becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      },
-      {
-        "id": "go-deeper-2",
-        "heading": "Deepening St. Andrew with sacraments and charity (2)",
-        "paragraphs": [
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When St. Andrew becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment.",
-          "Anti-Catholic relatives at dinner need clarity without cruelty. Explain what the Church teaches before defending what culture invented. The Catechism distinguishes public revelation from private revelation and folklore (CCC 66–67). Invite questions after dessert, not as an ambush during grace. Walk away from arguments that exist to win, not to witness. Stephen's blood and Innocents' grief remind us that truth costs; charity must pay first."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      },
-      {
-        "id": "go-deeper-3",
-        "heading": "Deepening St. Andrew with sacraments and charity (3)",
-        "paragraphs": [
-          "Families keeping St. Andrew in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When St. Andrew becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Saint Andrew, you saw the Lamb of God and did not keep the news to yourself.\nYou brought Peter to Christ; bring our households to honesty, mercy, and mission.\nPray that this Advent may be repentance and welcome, not only shopping.\nMake us heralds who invite others to Jesus while we still need him ourselves.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer to St. Andrew",
     "related": [
@@ -800,21 +785,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
           "label": "No guaranteed outcome",
           "text": "Praying the O Antiphons does not guarantee family harmony or financial relief. They tune desire toward Christ; answers remain divine wisdom."
         }
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening the O Antiphons with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping the O Antiphons in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When the O Antiphons becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "O Wisdom, ordering all things with strength and gentleness,\ncome to teach us the way of prudence.\nO Emmanuel, God-with-us in Bethlehem and in our kitchens,\ndissolve the pride that blocks peace and the fear that blocks hope.\nMake our homes echo the Church's Evening Prayer this week.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for the O Antiphons week",
     "related": [
@@ -1068,34 +1039,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
           "[[/blog/advent-bible-verses-catholic-scripture-guide/|Advent Scripture]]",
           "[[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]"
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening the Advent wreath with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping the Advent wreath in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When the Advent wreath becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      },
-      {
-        "id": "go-deeper-2",
-        "heading": "Deepening the Advent wreath with sacraments and charity (2)",
-        "paragraphs": [
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When the Advent wreath becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment.",
-          "Anti-Catholic relatives at dinner need clarity without cruelty. Explain what the Church teaches before defending what culture invented. The Catechism distinguishes public revelation from private revelation and folklore (CCC 66–67). Invite questions after dessert, not as an ambush during grace. Walk away from arguments that exist to win, not to witness. Stephen's blood and Innocents' grief remind us that truth costs; charity must pay first."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord God, as these candles burn through Advent,\nburn away our laziness toward your Word and your poor.\nMake our home a place where Christ is expected, welcomed, and obeyed.\nProtect us from fire and pride; lead us to Bethlehem and to your altar.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Blessing prayer for the Advent wreath",
     "related": [
@@ -1134,10 +1078,6 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "answer": "Light the first candle on Sunday, November 29, 2026, or at your family's first Advent gathering."
       },
       {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
         "question": "What colors should candles be?",
         "answer": "Three violet or blue and one rose for Gaudete; white optional on Christmas Eve."
       },
@@ -1146,30 +1086,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "answer": "Yes. Many parishes bless wreaths after Advent Mass."
       },
       {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
         "question": "Is this required by Church law?",
         "answer": "The wreath is an optional domestic custom, not a precept of the Church."
       },
       {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
-      {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/advent-wreath-prayers-blessing-catholic-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "advent-bible-verses-catholic-scripture-guide",
@@ -1254,8 +1178,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Isaiah in the mailbox and the breviary",
         "paragraphs": [
           "Catholics approaching Advent Scripture reading need clarity before sentiment. Isaiah is not one prediction machine. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The sacred author speaks to exiled Judah and to Christ.",
-          "CCC 128 affirms multiple senses with Christ as the fullness. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Teens can track one keyword per week: remnant, stump, shoot, Emmanuel.",
-          "Busy households can still keep Advent Scripture reading without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Advent Scripture reading surfaces sin you have avoided naming."
+          "CCC 128 affirms multiple senses with Christ as the fullness. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Teens can track one keyword per week: remnant, stump, shoot, Emmanuel."
         ]
       },
       {
@@ -1263,8 +1186,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Sunday Gospels for Advent 2026",
         "paragraphs": [
           "Catholics approaching Advent Scripture reading need clarity before sentiment. Matthew 24 opens with watchfulness; do not turn it into bunker anxiety. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Luke's Annunciation on December 20 weekend deserves family reading even if you miss Mass once.",
-          "Confess gossip before reading John the Baptist's fire metaphors. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching.",
-          "Busy households can still keep Advent Scripture reading without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Advent Scripture reading surfaces sin you have avoided naming."
+          "Confess gossip before reading John the Baptist's fire metaphors. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching."
         ]
       },
       {
@@ -1281,8 +1203,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Scripture with children without falsifying difficulty",
         "paragraphs": [
           "Catholics approaching Advent Scripture reading need clarity before sentiment. Use children's Bibles that do not lie about sin. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Let them ask why Herod appears in the Christmas story later.",
-          "Coloring sheets without Bible leave a thin Christmas. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching.",
-          "Busy households can still keep Advent Scripture reading without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Advent Scripture reading surfaces sin you have avoided naming."
+          "Coloring sheets without Bible leave a thin Christmas. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching."
         ]
       },
       {
@@ -1290,8 +1211,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Pair readings with the O Antiphons",
         "paragraphs": [
           "Catholics approaching Advent Scripture reading need clarity before sentiment. After December 17, read the matching Isaiah before dinner. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Link [[/blog/o-antiphons-advent-prayer-guide/|O Antiphons guide]].",
-          "Magnificat after reading ties Mary to Israel's hope. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching.",
-          "Busy households can still keep Advent Scripture reading without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Advent Scripture reading surfaces sin you have avoided naming."
+          "Magnificat after reading ties Mary to Israel's hope. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching."
         ]
       },
       {
@@ -1299,8 +1219,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Meme verses and partisan hijacks",
         "paragraphs": [
           "Catholics approaching Advent Scripture reading need clarity before sentiment. Out-of-context Isaiah on social media fuels agendas, not adoration. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Read in the Church's order.",
-          "Politics may inform charity; it does not replace exegesis. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching.",
-          "Busy households can still keep Advent Scripture reading without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Advent Scripture reading surfaces sin you have avoided naming."
+          "Politics may inform charity; it does not replace exegesis. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture reading Christ-centered when children or guests are watching."
         ]
       },
       {
@@ -1311,21 +1230,7 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
           "Winter hub lists February memorials. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Advent Scripture Christ-centered when children or guests are watching.",
           "Busy households can still keep Advent Scripture without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Advent Scripture surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening Advent Scripture with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping Advent Scripture in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When Advent Scripture becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Word of God, you spoke through prophets and evangelists;\nopen our ears each Advent day.\nMake your Scripture a lamp for our feet and a fire for charity,\nnot a weapon for pride.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for Advent Scripture reading",
     "related": [
@@ -1360,34 +1265,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "answer": "November 29–December 24, 2026 (four Sundays plus weekdays)"
       },
       {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
         "question": "Is this required by Church law?",
         "answer": "The lectionary governs Mass; home plans are counsel, not precept."
       },
       {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
-      {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/advent-bible-verses-catholic-scripture-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "catholic-christmas-prayers-complete-guide",
@@ -1442,15 +1327,15 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "December 26–28, 2026",
-        "what": "Octave memorials: Stephen, John, Holy Innocents in sequence."
+        "what": "Octave feasts: Stephen (Sat.), Holy Innocents (Mon.); St. John yields to Holy Family Sunday on Dec. 27."
       },
       {
         "when": "December 27–28, 2026",
-        "what": "John and Innocents frame joy and grief in one week."
+        "what": "Holy Family Sunday and the Holy Innocents frame joy and grief on consecutive days."
       },
       {
         "when": "Sunday in octave",
-        "what": "Holy Family Sunday transfers within December 25–31."
+        "what": "Holy Family Sunday falls on December 27, 2026."
       },
       {
         "when": "January 1, 2027",
@@ -1462,27 +1347,51 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "meaning",
         "heading": "What Christmas solemnity and octave home prayer means in Catholic faith",
         "paragraphs": [
-          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Joy and suffering intertwine in the octave; Christmas solemnity and octave home prayer keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery.",
-          "Homes need language children and elders share. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Avoid reducing feast to consumer habits.",
-          "Busy households can still keep Christmas solemnity and octave home prayer without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas solemnity and octave home prayer surfaces sin you have avoided naming."
+          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Joy and suffering intertwine in the octave; Christmas solemnity and octave home prayer keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery."
         ]
       },
       {
         "id": "scripture",
         "heading": "Scripture and the liturgical texts",
         "paragraphs": [
-          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} and the prologue of {{https://catholicbibleonline.com/bible/john/1/|John 1}} anchor belief. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer.",
-          "Read the narrative before composing new words. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Do not attribute fake quotes to saints or the Child Jesus.",
-          "Busy households can still keep Christmas solemnity and octave home prayer without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas solemnity and octave home prayer surfaces sin you have avoided naming."
+          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} and the prologue of {{https://catholicbibleonline.com/bible/john/1/|John 1}} anchor belief. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer."
         ]
       },
       {
         "id": "practice",
         "heading": "How to practice Christmas solemnity and octave home prayer at home",
         "paragraphs": [
-          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance.",
-          "Invite a lonely neighbor; prayer without charity rings hollow. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Light the creche only after fire safety check.",
-          "Busy households can still keep Christmas solemnity and octave home prayer without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas solemnity and octave home prayer surfaces sin you have avoided naming."
+          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance."
+        ]
+      },
+      {
+        "id": "four-masses",
+        "heading": "The four Masses of Christmas and their Gospels",
+        "paragraphs": [
+          "The Roman Missal gives Christmas four distinct sets of prayers and readings. The Vigil Mass, celebrated on the evening of December 24, proclaims the genealogy and Joseph's dream in {{https://catholicbibleonline.com/bible/matthew/1/|Matthew 1:1–25}}. The Mass during the Night reads {{https://catholicbibleonline.com/bible/isaiah/9/|Isaiah 9}}, Titus 2, and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:1–14}}, ending with the angels' song. The Mass at Dawn follows the shepherds hurrying to Bethlehem in Luke 2:15–20, and the Mass during the Day turns to the prologue of {{https://catholicbibleonline.com/bible/john/1/|John 1:1–18}}, with Isaiah 52 and Hebrews 1 beside it.",
+          "Rome already celebrated more than one Christmas Mass by the time of Pope Gregory the Great around the year 600, and the sequence still teaches: night, dawn, and day move from the hidden birth to the shepherds' witness to the eternal Word made flesh. Any one of these Masses fulfills the obligation, including the Vigil on Christmas Eve. A family that attended the Vigil can still read the Day Gospel together on December 25 so that children hear the whole arc."
+        ]
+      },
+      {
+        "id": "christmas-mass-signs",
+        "heading": "Signs to watch for at Christmas Mass",
+        "paragraphs": [
+          "At every Sunday Mass the assembly bows at the words of the Creed about the Incarnation; on Christmas, and on the Solemnity of the Annunciation, everyone kneels at those words instead. Many parishes sing the Christmas Proclamation from the Roman Martyrology before the Mass during the Night, a chant that places the birth of Christ within the whole history of salvation, from creation through Abraham, Moses, and David to the Roman Empire. White or gold vestments return, the Gloria rings out after its Advent silence, and the creche is often blessed or incensed. Pointing these moments out to children beforehand turns a long liturgy into something they can follow."
+        ]
+      },
+      {
+        "id": "octave-day-by-day",
+        "heading": "Praying the octave day by day, December 25 to January 1",
+        "paragraphs": [
+          "The eight days from Christmas through January 1 are kept as one prolonged celebration, with the Gloria at every Mass. In 2026 the octave unfolds this way: Christmas on Friday; St. Stephen on Saturday, December 26; Holy Family Sunday on December 27, which means the feast of St. John the Evangelist is not celebrated at Mass this year; the Holy Innocents on Monday, December 28; St. Thomas Becket as an optional memorial on December 29; St. Sylvester I as an optional memorial on December 31; and the Solemnity of Mary, the Holy Mother of God, on Friday, January 1, 2027, a holy day of obligation in the United States this year.",
+          "A simple home pattern is one Gospel and one intention per day: the shepherds on Christmas, persecuted Christians with Stephen, your own household on Holy Family Sunday, children and the unborn with the Innocents, faithful pastors with Becket, and peace on January 1, which the Church also keeps as the World Day of Peace. Both Fridays of the octave are solemnities, so the usual Friday abstinence does not apply on December 25 or January 1. On the evening of December 31 many parishes sing the Te Deum in thanksgiving for the year, and the Church grants a plenary indulgence, under the usual conditions, for its public recitation that night, as it does for the public singing of the Veni Creator on New Year's Day."
+        ]
+      },
+      {
+        "id": "season-length",
+        "heading": "Christmas does not end on December 26",
+        "paragraphs": [
+          "The liturgical Christmas season runs well past New Year's Day. In the United States the Epiphany is transferred to Sunday, January 3, 2027, and the season closes with the Baptism of the Lord on Sunday, January 10, 2027. The Marian antiphon Alma Redemptoris Mater, sung at the end of Night Prayer since Advent, continues until the Presentation on February 2. Leaving the creche and lights up until the Baptism of the Lord, or by an older custom until Candlemas, lets the home keep pace with the Church rather than with store shelves that have already moved on to Valentine's Day."
         ]
       },
       {
@@ -1490,17 +1399,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Doctrine, devotion, and legend",
         "paragraphs": [
           "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Distinguish what the Church defines from what culture adds. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Legends may instruct if labeled stories.",
-          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas solemnity and octave home prayer Christ-centered when children or guests are watching.",
-          "Busy households can still keep Christmas solemnity and octave home prayer without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas solemnity and octave home prayer surfaces sin you have avoided naming."
+          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas solemnity and octave home prayer Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "octave",
         "heading": "Octave flow with sibling feasts",
         "paragraphs": [
-          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage.",
-          "Holy Family and Innocents name domestic and public violence. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Link guides in this series rather than praying in isolation.",
-          "Busy households can still keep Christmas solemnity and octave home prayer without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas solemnity and octave home prayer surfaces sin you have avoided naming."
+          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage."
         ]
       },
       {
@@ -1508,17 +1414,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Mass times and holy days in the U.S.",
         "paragraphs": [
           "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Christmas is obligation when it falls on Friday in 2026; abstinence is lifted. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Check parish bulletins for vigil overload.",
-          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas solemnity and octave home prayer Christ-centered when children or guests are watching.",
-          "Busy households can still keep Christmas solemnity and octave home prayer without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas solemnity and octave home prayer surfaces sin you have avoided naming."
+          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas solemnity and octave home prayer Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "pastoral",
         "heading": "Pastoral realism for 2026",
         "paragraphs": [
-          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully.",
-          "Offer one concrete alms with intercession. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Mercy before performance.",
-          "Busy households can still keep Christmas solemnity and octave home prayer without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas solemnity and octave home prayer surfaces sin you have avoided naming."
+          "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully."
         ]
       },
       {
@@ -1526,24 +1429,9 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Cross-links in this companion set",
         "paragraphs": [
           "Catholics approaching Christmas solemnity and octave home prayer need clarity before sentiment. Wreath and Advent Scripture prepared this moment. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Christmas prayers hub gathers vigil and day.",
-          "Winter feast hub carries January obligations. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). [[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]",
           "[[/blog/christmas-eve-prayer-vigil-creche-guide/|Christmas Eve]] One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas solemnity and octave home prayer surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening Christmas prayer with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping Christmas prayer in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When Christmas prayer becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord Jesus, as we keep Christmas solemnity and octave home prayer,\nkeep us honest before your manger and your cross.\nTurn our meals, carols, and quiet into worship that serves the poor.\nProtect the innocent, console the grieving, and unite our homes to your Church.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for Christmas Prayers",
     "related": [
@@ -1573,39 +1461,13 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       }
     ],
     "faqs": [
-      {
-        "question": "When should we practice this in 2026?",
-        "answer": "Friday, December 25, 2026 (solemnity)"
-      },
-      {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
-        "question": "Is this required by Church law?",
-        "answer": "Liturgical prayer is principal; home customs are optional devotion."
-      },
-      {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
+      {"question":"Is Christmas a holy day of obligation in 2026?","answer":"Yes. Christmas, Friday, December 25, 2026, is a holy day of obligation. Catholics fulfill it by attending Mass on Christmas Day or a Christmas Mass on the evening of December 24 (can. 1248)."},
+      {"question":"Which Christmas Mass should I attend?","answer":"Any of them. The Vigil Mass, the Mass during the Night, the Mass at Dawn, and the Mass during the Day each fulfill the obligation, and each has its own readings."},
       {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/catholic-christmas-prayers-complete-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "christmas-eve-prayer-vigil-creche-guide",
@@ -1660,15 +1522,15 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "December 26–28, 2026",
-        "what": "Octave memorials: Stephen, John, Holy Innocents in sequence."
+        "what": "Octave feasts: Stephen (Sat.), Holy Innocents (Mon.); St. John yields to Holy Family Sunday on Dec. 27."
       },
       {
         "when": "December 27–28, 2026",
-        "what": "John and Innocents frame joy and grief in one week."
+        "what": "Holy Family Sunday and the Holy Innocents frame joy and grief on consecutive days."
       },
       {
         "when": "Sunday in octave",
-        "what": "Holy Family Sunday transfers within December 25–31."
+        "what": "Holy Family Sunday falls on December 27, 2026."
       },
       {
         "when": "January 1, 2027",
@@ -1680,27 +1542,45 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "meaning",
         "heading": "What Christmas Eve Vigil and creche means in Catholic faith",
         "paragraphs": [
-          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Joy and suffering intertwine in the octave; Christmas Eve Vigil and creche keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery.",
-          "Homes need language children and elders share. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Avoid reducing feast to consumer habits.",
-          "Busy households can still keep Christmas Eve Vigil and creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas Eve Vigil and creche surfaces sin you have avoided naming."
+          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Joy and suffering intertwine in the octave; Christmas Eve Vigil and creche keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery."
         ]
       },
       {
         "id": "scripture",
         "heading": "Scripture and the liturgical texts",
         "paragraphs": [
-          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Vigil Mass proclaims {{https://catholicbibleonline.com/bible/matthew/1/|Matthew 1}} or Luke infancy narrative. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer.",
-          "Read the narrative before composing new words. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Do not attribute fake quotes to saints or the Child Jesus.",
-          "Busy households can still keep Christmas Eve Vigil and creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas Eve Vigil and creche surfaces sin you have avoided naming."
+          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Vigil Mass proclaims {{https://catholicbibleonline.com/bible/matthew/1/|Matthew 1}} or Luke infancy narrative. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer."
         ]
       },
       {
         "id": "practice",
         "heading": "How to practice Christmas Eve Vigil and creche at home",
         "paragraphs": [
-          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance.",
-          "Invite a lonely neighbor; prayer without charity rings hollow. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Light the creche only after fire safety check.",
-          "Busy households can still keep Christmas Eve Vigil and creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas Eve Vigil and creche surfaces sin you have avoided naming."
+          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance."
+        ]
+      },
+      {
+        "id": "greccio-1223",
+        "heading": "Greccio, 1223: how the creche began",
+        "paragraphs": [
+          "The household nativity scene traces its inspiration to St. Francis of Assisi. For Christmas of 1223, at the hill town of Greccio in central Italy, he arranged a manger with hay, an ox, and a donkey so that people could see with their own eyes the poverty into which Christ was born. Mass was celebrated over the manger, and Francis, who was a deacon, chanted the Gospel and preached. The earliest accounts come from his biographers Thomas of Celano and St. Bonaventure.",
+          "Francis did not invent devotion to the manger; Rome had venerated relics of the crib at the Basilica of St. Mary Major long before. But Greccio made the scene something ordinary believers could build and pray before. Pope Francis signed his apostolic letter on the nativity scene, Admirabile Signum, at Greccio on December 1, 2019, encouraging families to keep setting up creches at home, at work, and in public places. The ox and donkey come from {{https://catholicbibleonline.com/bible/isaiah/1/|Isaiah 1:3}}, where the ox knows its owner and the donkey its master's manger, a verse early Christians read alongside Luke 2."
+        ]
+      },
+      {
+        "id": "blessing-the-creche",
+        "heading": "Blessing the creche at home on Christmas Eve",
+        "paragraphs": [
+          "The Book of Blessings includes an order for blessing a Christmas manger or nativity scene, and the USCCB's Catholic Household Blessings and Prayers offers a form suited to the home that a parent may lead. A natural moment is Christmas Eve, before or after the Vigil Mass: gather at the empty manger, read {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:1–14}}, lay the figure of the Christ Child in the crib, and pray that the household will receive Christ as the shepherds did. Sprinkle holy water if you have it.",
+          "Many families build the scene in stages through Advent: the stable first, then the animals, then Mary and Joseph, with the Infant held back until Christmas Eve and the Magi set across the room so they can travel toward the manger and arrive on Epiphany, Sunday, January 3, 2027. The youngest child often carries the Infant to the crib. None of this is required, but each step gives the waiting a visible shape."
+        ]
+      },
+      {
+        "id": "vigil-customs",
+        "heading": "Christmas Eve customs across Catholic cultures",
+        "paragraphs": [
+          "Christmas Eve gathers some of the Church's best-loved family traditions. Polish families keep Wigilia, a meatless supper that traditionally begins when the first star appears, after the household shares the opłatek, a thin wafer stamped with a nativity scene, exchanging forgiveness and good wishes. Many Italian-American homes serve a meal of several fish dishes, often called the Feast of the Seven Fishes. Mexican and Mexican-American parishes complete Las Posadas, nine evenings from December 16 to 24 that reenact Mary and Joseph seeking shelter, and Filipino communities finish Simbang Gabi, the nine Masses at dawn or in the evening before Christmas.",
+          "Many of these customs are meatless because Christmas Eve was once a required day of fasting and abstinence. The general law no longer imposes that, so no Catholic is bound to fast on December 24 today, though a family may keep a lighter supper by choice. In 2026 Christmas Eve is a Thursday, and midnight opens a Friday solemnity on which meat is permitted."
         ]
       },
       {
@@ -1708,17 +1588,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Doctrine, devotion, and legend",
         "paragraphs": [
           "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Distinguish what the Church defines from what culture adds. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Legends may instruct if labeled stories.",
-          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas Eve Vigil and creche Christ-centered when children or guests are watching.",
-          "Busy households can still keep Christmas Eve Vigil and creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas Eve Vigil and creche surfaces sin you have avoided naming."
+          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas Eve Vigil and creche Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "octave",
         "heading": "Octave flow with sibling feasts",
         "paragraphs": [
-          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage.",
-          "Holy Family and Innocents name domestic and public violence. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Link guides in this series rather than praying in isolation.",
-          "Busy households can still keep Christmas Eve Vigil and creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas Eve Vigil and creche surfaces sin you have avoided naming."
+          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage."
         ]
       },
       {
@@ -1726,17 +1603,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Mass times and holy days in the U.S.",
         "paragraphs": [
           "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Christmas is obligation when it falls on Friday in 2026; abstinence is lifted. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Check parish bulletins for vigil overload.",
-          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas Eve Vigil and creche Christ-centered when children or guests are watching.",
-          "Busy households can still keep Christmas Eve Vigil and creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas Eve Vigil and creche surfaces sin you have avoided naming."
+          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas Eve Vigil and creche Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "pastoral",
         "heading": "Pastoral realism for 2026",
         "paragraphs": [
-          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully.",
-          "Offer one concrete alms with intercession. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Mercy before performance.",
-          "Busy households can still keep Christmas Eve Vigil and creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas Eve Vigil and creche surfaces sin you have avoided naming."
+          "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully."
         ]
       },
       {
@@ -1744,24 +1618,9 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Cross-links in this companion set",
         "paragraphs": [
           "Catholics approaching Christmas Eve Vigil and creche need clarity before sentiment. Wreath and Advent Scripture prepared this moment. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Christmas prayers hub gathers vigil and day.",
-          "Winter feast hub carries January obligations. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). [[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]",
           "[[/blog/christmas-eve-prayer-vigil-creche-guide/|Christmas Eve]] One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas Eve Vigil and creche surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening Christmas Eve with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping Christmas Eve in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When Christmas Eve becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord Jesus, as we keep Christmas Eve Vigil and creche,\nkeep us honest before your manger and your cross.\nTurn our meals, carols, and quiet into worship that serves the poor.\nProtect the innocent, console the grieving, and unite our homes to your Church.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for Christmas Eve",
     "related": [
@@ -1791,39 +1650,13 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       }
     ],
     "faqs": [
-      {
-        "question": "When should we practice this in 2026?",
-        "answer": "Friday, December 25, 2026 (solemnity)"
-      },
-      {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
-        "question": "Is this required by Church law?",
-        "answer": "Liturgical prayer is principal; home customs are optional devotion."
-      },
-      {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
+      {"question":"Does Christmas Eve Mass count for Christmas?","answer":"Yes. A Mass celebrated on the evening of December 24 is a Christmas Mass and satisfies the Christmas obligation (can. 1248)."},
+      {"question":"When should the Infant be placed in the creche?","answer":"Many families leave the manger empty through Advent and lay the figure of the Infant in it on Christmas Eve, before or after Mass. The Magi are traditionally added at Epiphany."},
       {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/christmas-eve-prayer-vigil-creche-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "prayer-before-christmas-dinner-catholic-grace",
@@ -1878,15 +1711,15 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "December 26–28, 2026",
-        "what": "Octave memorials: Stephen, John, Holy Innocents in sequence."
+        "what": "Octave feasts: Stephen (Sat.), Holy Innocents (Mon.); St. John yields to Holy Family Sunday on Dec. 27."
       },
       {
         "when": "December 27–28, 2026",
-        "what": "John and Innocents frame joy and grief in one week."
+        "what": "Holy Family Sunday and the Holy Innocents frame joy and grief on consecutive days."
       },
       {
         "when": "Sunday in octave",
-        "what": "Holy Family Sunday transfers within December 25–31."
+        "what": "Holy Family Sunday falls on December 27, 2026."
       },
       {
         "when": "January 1, 2027",
@@ -1898,27 +1731,45 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "meaning",
         "heading": "What Christmas table grace means in Catholic faith",
         "paragraphs": [
-          "Catholics approaching Christmas table grace need clarity before sentiment. Joy and suffering intertwine in the octave; Christmas table grace keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery.",
-          "Homes need language children and elders share. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Avoid reducing feast to consumer habits.",
-          "Busy households can still keep Christmas table grace without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas table grace surfaces sin you have avoided naming."
+          "Catholics approaching Christmas table grace need clarity before sentiment. Joy and suffering intertwine in the octave; Christmas table grace keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery."
         ]
       },
       {
         "id": "scripture",
         "heading": "Scripture and the liturgical texts",
         "paragraphs": [
-          "Catholics approaching Christmas table grace need clarity before sentiment. Eucharist means thanksgiving; table grace echoes {{https://catholicbibleonline.com/bible/luke/22/|Luke 22}} and Bethlehem. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer.",
-          "Read the narrative before composing new words. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Do not attribute fake quotes to saints or the Child Jesus.",
-          "Busy households can still keep Christmas table grace without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas table grace surfaces sin you have avoided naming."
+          "Catholics approaching Christmas table grace need clarity before sentiment. Eucharist means thanksgiving; table grace echoes {{https://catholicbibleonline.com/bible/luke/22/|Luke 22}} and Bethlehem. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer."
         ]
       },
       {
         "id": "practice",
         "heading": "How to practice Christmas table grace at home",
         "paragraphs": [
-          "Catholics approaching Christmas table grace need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance.",
-          "Invite a lonely neighbor; prayer without charity rings hollow. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Light the creche only after fire safety check.",
-          "Busy households can still keep Christmas table grace without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas table grace surfaces sin you have avoided naming."
+          "Catholics approaching Christmas table grace need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance."
+        ]
+      },
+      {
+        "id": "grace-texts",
+        "heading": "Traditional Catholic graces before and after meals",
+        "paragraphs": [
+          "The most familiar Catholic table prayer in English is short enough for any child to learn: “Bless us, O Lord, and these thy gifts, which we are about to receive from thy bounty, through Christ our Lord. Amen.” The traditional thanksgiving after meals is just as brief: “We give thee thanks, almighty God, for all thy benefits, who livest and reignest forever and ever. Amen.” Many families then add, “May the souls of the faithful departed, through the mercy of God, rest in peace. Amen,” especially when a chair at the table is newly empty.",
+          "On Christmas those familiar words can be lengthened with one line from the day's Scripture. The angels' song in {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:14}} works well: “Glory to God in the highest and on earth peace to those on whom his favor rests.” So does the refrain of Psalm 98 at the Mass during the Day, which proclaims that all the ends of the earth have seen the saving power of God. A child can read the verse, the eldest at the table can lead the grace, and the meal begins."
+        ]
+      },
+      {
+        "id": "house-of-bread",
+        "heading": "Bethlehem, the manger, and the Eucharist",
+        "paragraphs": [
+          "The Christmas story is full of food imagery. Bethlehem means “house of bread” in Hebrew, and Luke mentions three times that the newborn was laid in a manger, a feeding trough for animals ({{https://catholicbibleonline.com/bible/luke/2/|Luke 2:7, 12, 16}}). Christian writers have long noticed the connection: the One who calls himself the bread of life in {{https://catholicbibleonline.com/bible/john/6/|John 6}} was first placed where animals eat.",
+          "That is why a Christmas grace is more than politeness before a large meal. It links the family table to the altar where Christ gives himself, and the word Eucharist itself means thanksgiving. If the household went to Mass that morning or the night before, the grace can say so plainly: we have received the Bread of Life, and now we share this bread with one another."
+        ]
+      },
+      {
+        "id": "friday-table-2026",
+        "heading": "A Friday Christmas and the table customs of 2026",
+        "paragraphs": [
+          "Christmas falls on a Friday in 2026. Because it is a solemnity, the ordinary Friday abstinence from meat does not apply, so the ham, turkey, tamales, or roast can stay on the menu without scruple. The same holds on Friday, January 1, 2027, the Solemnity of Mary, the Holy Mother of God. Christmas Eve, a Thursday this year, carries no fasting obligation either, though many families keep a meatless supper out of custom.",
+          "Some table customs preach without a word. Polish households set an extra place at the Christmas Eve table for the unexpected guest or wanderer, remembering that the Holy Family found no room. Others place a candle at the center of the table, light it at grace, and let it burn through the meal as a sign of Christ the light. Inviting someone who would otherwise eat alone, such as a widowed neighbor, a student far from home, or a family new to the parish, turns the custom into charity."
         ]
       },
       {
@@ -1926,17 +1777,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Doctrine, devotion, and legend",
         "paragraphs": [
           "Catholics approaching Christmas table grace need clarity before sentiment. Distinguish what the Church defines from what culture adds. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Legends may instruct if labeled stories.",
-          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas table grace Christ-centered when children or guests are watching.",
-          "Busy households can still keep Christmas table grace without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas table grace surfaces sin you have avoided naming."
+          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas table grace Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "octave",
         "heading": "Octave flow with sibling feasts",
         "paragraphs": [
-          "Catholics approaching Christmas table grace need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage.",
-          "Holy Family and Innocents name domestic and public violence. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Link guides in this series rather than praying in isolation.",
-          "Busy households can still keep Christmas table grace without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas table grace surfaces sin you have avoided naming."
+          "Catholics approaching Christmas table grace need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage."
         ]
       },
       {
@@ -1944,17 +1792,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Mass times and holy days in the U.S.",
         "paragraphs": [
           "Catholics approaching Christmas table grace need clarity before sentiment. Christmas is obligation when it falls on Friday in 2026; abstinence is lifted. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Check parish bulletins for vigil overload.",
-          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas table grace Christ-centered when children or guests are watching.",
-          "Busy households can still keep Christmas table grace without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas table grace surfaces sin you have avoided naming."
+          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Christmas table grace Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "pastoral",
         "heading": "Pastoral realism for 2026",
         "paragraphs": [
-          "Catholics approaching Christmas table grace need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully.",
-          "Offer one concrete alms with intercession. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Mercy before performance.",
-          "Busy households can still keep Christmas table grace without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas table grace surfaces sin you have avoided naming."
+          "Catholics approaching Christmas table grace need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully."
         ]
       },
       {
@@ -1962,37 +1807,9 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Cross-links in this companion set",
         "paragraphs": [
           "Catholics approaching Christmas table grace need clarity before sentiment. Wreath and Advent Scripture prepared this moment. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Christmas prayers hub gathers vigil and day.",
-          "Winter feast hub carries January obligations. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). [[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]",
           "[[/blog/christmas-eve-prayer-vigil-creche-guide/|Christmas Eve]] One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Christmas table grace surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening Christmas table grace with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping Christmas table grace in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When Christmas table grace becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      },
-      {
-        "id": "go-deeper-2",
-        "heading": "Deepening Christmas table grace with sacraments and charity (2)",
-        "paragraphs": [
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When Christmas table grace becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment.",
-          "Anti-Catholic relatives at dinner need clarity without cruelty. Explain what the Church teaches before defending what culture invented. The Catechism distinguishes public revelation from private revelation and folklore (CCC 66–67). Invite questions after dessert, not as an ambush during grace. Walk away from arguments that exist to win, not to witness. Stephen's blood and Innocents' grief remind us that truth costs; charity must pay first."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord Jesus, as we keep Christmas table grace,\nkeep us honest before your manger and your cross.\nTurn our meals, carols, and quiet into worship that serves the poor.\nProtect the innocent, console the grieving, and unite our homes to your Church.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for Christmas Grace",
     "related": [
@@ -2022,39 +1839,13 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       }
     ],
     "faqs": [
-      {
-        "question": "When should we practice this in 2026?",
-        "answer": "Friday, December 25, 2026 (solemnity)"
-      },
-      {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
-        "question": "Is this required by Church law?",
-        "answer": "Liturgical prayer is principal; home customs are optional devotion."
-      },
-      {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
+      {"question":"Can Catholics eat meat on Christmas 2026, since it falls on a Friday?","answer":"Yes. Christmas is a solemnity, and canon 1251 lifts Friday abstinence on solemnities, so meat is permitted on Friday, December 25, 2026."},
+      {"question":"Can a child lead grace at Christmas dinner?","answer":"Yes. Any member of the family may lead table prayer. A child can say a short traditional grace or read one line from the Christmas Gospel in Luke 2."},
       {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/prayer-before-christmas-dinner-catholic-grace/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "prayer-to-baby-jesus-nativity-catholic-guide",
@@ -2109,15 +1900,15 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "December 26–28, 2026",
-        "what": "Octave memorials: Stephen, John, Holy Innocents in sequence."
+        "what": "Octave feasts: Stephen (Sat.), Holy Innocents (Mon.); St. John yields to Holy Family Sunday on Dec. 27."
       },
       {
         "when": "December 27–28, 2026",
-        "what": "John and Innocents frame joy and grief in one week."
+        "what": "Holy Family Sunday and the Holy Innocents frame joy and grief on consecutive days."
       },
       {
         "when": "Sunday in octave",
-        "what": "Holy Family Sunday transfers within December 25–31."
+        "what": "Holy Family Sunday falls on December 27, 2026."
       },
       {
         "when": "January 1, 2027",
@@ -2129,27 +1920,45 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "meaning",
         "heading": "What devotion to the Infant Christ in the creche means in Catholic faith",
         "paragraphs": [
-          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Joy and suffering intertwine in the octave; devotion to the Infant Christ in the creche keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery.",
-          "Homes need language children and elders share. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Avoid reducing feast to consumer habits.",
-          "Busy households can still keep devotion to the Infant Christ in the creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when devotion to the Infant Christ in the creche surfaces sin you have avoided naming."
+          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Joy and suffering intertwine in the octave; devotion to the Infant Christ in the creche keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery."
         ]
       },
       {
         "id": "scripture",
         "heading": "Scripture and the liturgical texts",
         "paragraphs": [
-          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. The manger scene rests on {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}}; do not invent new dogmas. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer.",
-          "Read the narrative before composing new words. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Do not attribute fake quotes to saints or the Child Jesus.",
-          "Busy households can still keep devotion to the Infant Christ in the creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when devotion to the Infant Christ in the creche surfaces sin you have avoided naming."
+          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. The manger scene rests on {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}}; do not invent new dogmas. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer."
         ]
       },
       {
         "id": "practice",
         "heading": "How to practice devotion to the Infant Christ in the creche at home",
         "paragraphs": [
-          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance.",
-          "Invite a lonely neighbor; prayer without charity rings hollow. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Light the creche only after fire safety check.",
-          "Busy households can still keep devotion to the Infant Christ in the creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when devotion to the Infant Christ in the creche surfaces sin you have avoided naming."
+          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance."
+        ]
+      },
+      {
+        "id": "infant-in-scripture",
+        "heading": "What the Gospels tell us about the Infant",
+        "paragraphs": [
+          "Every sound devotion to the Christ Child starts from a handful of verses. In {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:7}}, Mary wraps her firstborn son in swaddling clothes and lays him in a manger because there was no room for them in the inn. The angel gives the shepherds that same detail as a sign in Luke 2:12, and they find the child exactly so in Luke 2:16. Matthew adds the Magi, who find the child with Mary his mother and do him homage ({{https://catholicbibleonline.com/bible/matthew/2/|Matthew 2:11}}).",
+          "The Catechism draws the lesson from those scenes: Jesus was born in the humility of a stable, and becoming a child in relation to God is the condition for entering the kingdom (CCC 525–526). Devotion to the Infant is therefore not sentimentality about babies. It is adoration of the eternal Son who chose weakness, and a school of the spiritual childhood Jesus asks of his disciples in {{https://catholicbibleonline.com/bible/matthew/18/|Matthew 18:3}}."
+        ]
+      },
+      {
+        "id": "infant-images",
+        "heading": "The Infant of Prague, the Santo Niño, and other images",
+        "paragraphs": [
+          "Several images of the Christ Child have shaped Catholic piety. The Infant Jesus of Prague, a small wooden statue coated in wax, was given to the Discalced Carmelites of Our Lady of Victory in Prague in 1628 by Princess Polyxena of Lobkowicz, and devotion spread from there around the world. The Santo Niño de Cebú, brought to the Philippines by Magellan's expedition in 1521, is the oldest Christian image in the country; Filipinos keep its feast on the third Sunday of January with the Sinulog festival.",
+          "St. Thérèse of Lisieux took the religious name Thérèse of the Child Jesus and of the Holy Face, and her little way of trust is spiritual childhood lived in ordinary duties. Such images and saints are aids, not substitutes. The Church honors a statue for the One it represents, not for its wood or wax, and no image adds a promise the Gospel does not make."
+        ]
+      },
+      {
+        "id": "bambinelli-home",
+        "heading": "Bringing the Infant home: Bambinelli Sunday and Christmas Eve",
+        "paragraphs": [
+          "In Rome, children bring the Infant figures from their family nativity scenes to St. Peter's Square on Gaudete Sunday, the Third Sunday of Advent, for the pope to bless at the Angelus. Some American parishes have adopted the custom. In 2026 Gaudete Sunday falls on December 13, so a family could bring its Infant to Mass that day, ask the priest for a blessing, and keep the figure wrapped and out of sight until Christmas Eve.",
+          "When the Infant is finally laid in the crib, a short act of adoration fits: kneel, read Luke 2:7, and let each person say in one sentence what they want to offer the newborn King, whether patience with a sibling, an hour of service, or a confession made before New Year's. Through the octave the figure can be carried to the manger before dinner, and some families let children kiss the Infant after night prayers, as congregations in Italy and the Philippines often do at the end of Christmas Mass."
         ]
       },
       {
@@ -2157,17 +1966,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Doctrine, devotion, and legend",
         "paragraphs": [
           "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Distinguish what the Church defines from what culture adds. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Legends may instruct if labeled stories.",
-          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep devotion to the Infant Christ in the creche Christ-centered when children or guests are watching.",
-          "Busy households can still keep devotion to the Infant Christ in the creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when devotion to the Infant Christ in the creche surfaces sin you have avoided naming."
+          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep devotion to the Infant Christ in the creche Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "octave",
         "heading": "Octave flow with sibling feasts",
         "paragraphs": [
-          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage.",
-          "Holy Family and Innocents name domestic and public violence. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Link guides in this series rather than praying in isolation.",
-          "Busy households can still keep devotion to the Infant Christ in the creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when devotion to the Infant Christ in the creche surfaces sin you have avoided naming."
+          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage."
         ]
       },
       {
@@ -2175,17 +1981,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Mass times and holy days in the U.S.",
         "paragraphs": [
           "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Christmas is obligation when it falls on Friday in 2026; abstinence is lifted. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Check parish bulletins for vigil overload.",
-          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep devotion to the Infant Christ in the creche Christ-centered when children or guests are watching.",
-          "Busy households can still keep devotion to the Infant Christ in the creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when devotion to the Infant Christ in the creche surfaces sin you have avoided naming."
+          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep devotion to the Infant Christ in the creche Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "pastoral",
         "heading": "Pastoral realism for 2026",
         "paragraphs": [
-          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully.",
-          "Offer one concrete alms with intercession. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Mercy before performance.",
-          "Busy households can still keep devotion to the Infant Christ in the creche without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when devotion to the Infant Christ in the creche surfaces sin you have avoided naming."
+          "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully."
         ]
       },
       {
@@ -2193,24 +1996,9 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Cross-links in this companion set",
         "paragraphs": [
           "Catholics approaching devotion to the Infant Christ in the creche need clarity before sentiment. Wreath and Advent Scripture prepared this moment. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Christmas prayers hub gathers vigil and day.",
-          "Winter feast hub carries January obligations. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). [[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]",
           "[[/blog/christmas-eve-prayer-vigil-creche-guide/|Christmas Eve]] One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when devotion to the Infant Christ in the creche surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening the Infant Jesus with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping the Infant Jesus in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When the Infant Jesus becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord Jesus, as we keep devotion to the Infant Christ in the creche,\nkeep us honest before your manger and your cross.\nTurn our meals, carols, and quiet into worship that serves the poor.\nProtect the innocent, console the grieving, and unite our homes to your Church.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for Baby Jesus",
     "related": [
@@ -2240,39 +2028,13 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       }
     ],
     "faqs": [
-      {
-        "question": "When should we practice this in 2026?",
-        "answer": "Friday, December 25, 2026 (solemnity)"
-      },
-      {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
-        "question": "Is this required by Church law?",
-        "answer": "Liturgical prayer is principal; home customs are optional devotion."
-      },
-      {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
+      {"question":"Is it right to pray to the Infant Jesus?","answer":"Yes. Devotion to the Child Jesus is prayer to Christ himself in the mystery of his Incarnation. The Infant of Prague and the Santo Niño are long-standing popular devotions in the Church."},
+      {"question":"What is Bambinelli Sunday?","answer":"A Roman custom in which children bring the Infant figures from their family creches to be blessed by the Pope on the Third Sunday of Advent. In 2026 that Sunday is December 13."},
       {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/prayer-to-baby-jesus-nativity-catholic-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "st-stephen-prayer-catholic-guide",
@@ -2327,15 +2089,15 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "December 26–28, 2026",
-        "what": "Octave memorials: Stephen, John, Holy Innocents in sequence."
+        "what": "Octave feasts: Stephen (Sat.), Holy Innocents (Mon.); St. John yields to Holy Family Sunday on Dec. 27."
       },
       {
         "when": "December 27–28, 2026",
-        "what": "John and Innocents frame joy and grief in one week."
+        "what": "Holy Family Sunday and the Holy Innocents frame joy and grief on consecutive days."
       },
       {
         "when": "Sunday in octave",
-        "what": "Holy Family Sunday transfers within December 25–31."
+        "what": "Holy Family Sunday falls on December 27, 2026."
       },
       {
         "when": "January 1, 2027",
@@ -2347,27 +2109,45 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "meaning",
         "heading": "What St. Stephen on December 26 means in Catholic faith",
         "paragraphs": [
-          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Joy and suffering intertwine in the octave; St. Stephen on December 26 keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery.",
-          "Homes need language children and elders share. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Avoid reducing feast to consumer habits.",
-          "Busy households can still keep St. Stephen on December 26 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. Stephen on December 26 surfaces sin you have avoided naming."
+          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Joy and suffering intertwine in the octave; St. Stephen on December 26 keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery."
         ]
       },
       {
         "id": "scripture",
         "heading": "Scripture and the liturgical texts",
         "paragraphs": [
-          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. {{https://catholicbibleonline.com/bible/acts/7/|Acts 7}} is the primary narrative; pray for persecuted Christians. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer.",
-          "Read the narrative before composing new words. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Do not attribute fake quotes to saints or the Child Jesus.",
-          "Busy households can still keep St. Stephen on December 26 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. Stephen on December 26 surfaces sin you have avoided naming."
+          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. {{https://catholicbibleonline.com/bible/acts/7/|Acts 7}} is the primary narrative; pray for persecuted Christians. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer."
         ]
       },
       {
         "id": "practice",
         "heading": "How to practice St. Stephen on December 26 at home",
         "paragraphs": [
-          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance.",
-          "Invite a lonely neighbor; prayer without charity rings hollow. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Light the creche only after fire safety check.",
-          "Busy households can still keep St. Stephen on December 26 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. Stephen on December 26 surfaces sin you have avoided naming."
+          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance."
+        ]
+      },
+      {
+        "id": "stephen-in-acts",
+        "heading": "Stephen's life and death in Acts 6–7",
+        "paragraphs": [
+          "Everything certain about Stephen comes from the Acts of the Apostles. When Greek-speaking widows were being neglected in the daily distribution of food, the apostles asked the community to choose seven reputable men for the service, and Stephen is named first, described as a man filled with faith and the Holy Spirit ({{https://catholicbibleonline.com/bible/acts/6/|Acts 6:1–6}}). The Church has long counted the Seven as the first deacons. Acts says he worked great wonders and signs among the people, and that those who debated him could not withstand the wisdom and the Spirit with which he spoke.",
+          "Brought before the Sanhedrin on charges of speaking against the Temple and the law, Stephen gives the longest speech in Acts, retelling Israel's history from Abraham through Moses to Solomon's Temple ({{https://catholicbibleonline.com/bible/acts/7/|Acts 7}}). At its close he looks up and sees the heavens opened and the Son of Man standing at the right hand of God. He is driven out of the city and stoned. His last words echo Christ's on the cross: “Lord Jesus, receive my spirit,” and “Lord, do not hold this sin against them.” The witnesses lay their cloaks at the feet of a young man named Saul, the future Apostle Paul."
+        ]
+      },
+      {
+        "id": "mass-december-26",
+        "heading": "The Mass of December 26, 2026",
+        "paragraphs": [
+          "St. Stephen's feast falls on Saturday, December 26, 2026, the second day of the Christmas octave. The first reading joins Acts 6:8–10 to Acts 7:54–59, and the Gospel is {{https://catholicbibleonline.com/bible/matthew/10/|Matthew 10:17–22}}, where Jesus warns that his disciples will be handed over to courts and that the Spirit of the Father will speak through them. Red vestments replace the white of Christmas Day, yet the Gloria is still sung because the octave continues. It is not a holy day of obligation, and a Saturday evening Mass that day is normally the anticipated Mass of Holy Family Sunday rather than the feast of Stephen.",
+          "The placement is deliberate. The Office of Readings for the day offers a sermon of St. Fulgentius of Ruspe that sets the two days side by side: yesterday the eternal King was born in the flesh, today his soldier wins his crown. The name Stephen comes from the Greek word for crown. The Church sets a martyr beside the manger so that no one mistakes Christmas for mere coziness; the Child was born so that men and women could give their lives for him."
+        ]
+      },
+      {
+        "id": "relics-carols-boxing-day",
+        "heading": "Relics, a carol, and Boxing Day",
+        "paragraphs": [
+          "In 415 a priest named Lucian reported finding Stephen's tomb near Jerusalem, and relics were soon carried around the Mediterranean. St. Augustine, in the last book of The City of God, recorded healings reported at shrines of Stephen in North Africa. The English carol Good King Wenceslas, written by John Mason Neale in the nineteenth century, is set on the feast of Stephen and tells of a king carrying food and firewood to a poor man in the snow.",
+          "The carol suits the day, because Stephen was chosen to serve the poor before he ever preached. In Britain and much of the Commonwealth, December 26 is Boxing Day, traditionally linked with gifts to servants and the needy. An American household can borrow that spirit: take leftovers to a shelter, drop off a gift card at the parish office, or write to a Christian imprisoned for the faith through a reputable advocacy group. Pray for persecuted Christians by name and region, and for their persecutors, as Stephen did."
         ]
       },
       {
@@ -2375,17 +2155,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Doctrine, devotion, and legend",
         "paragraphs": [
           "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Distinguish what the Church defines from what culture adds. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Legends may instruct if labeled stories.",
-          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep St. Stephen on December 26 Christ-centered when children or guests are watching.",
-          "Busy households can still keep St. Stephen on December 26 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. Stephen on December 26 surfaces sin you have avoided naming."
+          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep St. Stephen on December 26 Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "octave",
         "heading": "Octave flow with sibling feasts",
         "paragraphs": [
-          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage.",
-          "Holy Family and Innocents name domestic and public violence. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Link guides in this series rather than praying in isolation.",
-          "Busy households can still keep St. Stephen on December 26 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. Stephen on December 26 surfaces sin you have avoided naming."
+          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage."
         ]
       },
       {
@@ -2393,17 +2170,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Mass times and holy days in the U.S.",
         "paragraphs": [
           "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Christmas is obligation when it falls on Friday in 2026; abstinence is lifted. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Check parish bulletins for vigil overload.",
-          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep St. Stephen on December 26 Christ-centered when children or guests are watching.",
-          "Busy households can still keep St. Stephen on December 26 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. Stephen on December 26 surfaces sin you have avoided naming."
+          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep St. Stephen on December 26 Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "pastoral",
         "heading": "Pastoral realism for 2026",
         "paragraphs": [
-          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully.",
-          "Offer one concrete alms with intercession. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Mercy before performance.",
-          "Busy households can still keep St. Stephen on December 26 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. Stephen on December 26 surfaces sin you have avoided naming."
+          "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully."
         ]
       },
       {
@@ -2411,24 +2185,9 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Cross-links in this companion set",
         "paragraphs": [
           "Catholics approaching St. Stephen on December 26 need clarity before sentiment. Wreath and Advent Scripture prepared this moment. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Christmas prayers hub gathers vigil and day.",
-          "Winter feast hub carries January obligations. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). [[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]",
           "[[/blog/christmas-eve-prayer-vigil-creche-guide/|Christmas Eve]] One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. Stephen on December 26 surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening St. Stephen with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping St. Stephen in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When St. Stephen becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord Jesus, as we keep St. Stephen on December 26,\nkeep us honest before your manger and your cross.\nTurn our meals, carols, and quiet into worship that serves the poor.\nProtect the innocent, console the grieving, and unite our homes to your Church.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for St. Stephen",
     "related": [
@@ -2458,39 +2217,13 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       }
     ],
     "faqs": [
-      {
-        "question": "When should we practice this in 2026?",
-        "answer": "Friday, December 25, 2026 (solemnity)"
-      },
-      {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
-        "question": "Is this required by Church law?",
-        "answer": "Liturgical prayer is principal; home customs are optional devotion."
-      },
-      {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
+      {"question":"Why is St. Stephen's feast the day after Christmas?","answer":"The Church places the first martyr beside the Nativity to show that the Child born at Christmas is the Lord for whom Christians give their lives. The West has kept his feast on December 26 since the early centuries."},
+      {"question":"Is St. Stephen's Day a holy day of obligation?","answer":"No. In the United States, December 26 is a feast but not a day of obligation. In 2026 it falls on a Saturday, and that evening's Mass is the vigil of Holy Family Sunday."},
       {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/st-stephen-prayer-catholic-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "st-john-evangelist-prayer-catholic-guide",
@@ -2545,15 +2278,15 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "December 26–28, 2026",
-        "what": "Octave memorials: Stephen, John, Holy Innocents in sequence."
+        "what": "Octave feasts: Stephen (Sat.), Holy Innocents (Mon.); St. John yields to Holy Family Sunday on Dec. 27."
       },
       {
         "when": "December 27–28, 2026",
-        "what": "John and Innocents frame joy and grief in one week."
+        "what": "Holy Family Sunday and the Holy Innocents frame joy and grief on consecutive days."
       },
       {
         "when": "Sunday in octave",
-        "what": "Holy Family Sunday transfers within December 25–31."
+        "what": "Holy Family Sunday falls on December 27, 2026."
       },
       {
         "when": "January 1, 2027",
@@ -2565,27 +2298,45 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "meaning",
         "heading": "What St. John the Evangelist on December 27 means in Catholic faith",
         "paragraphs": [
-          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Joy and suffering intertwine in the octave; St. John the Evangelist on December 27 keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery.",
-          "Homes need language children and elders share. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Avoid reducing feast to consumer habits.",
-          "Busy households can still keep St. John the Evangelist on December 27 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. John the Evangelist on December 27 surfaces sin you have avoided naming."
+          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Joy and suffering intertwine in the octave; St. John the Evangelist on December 27 keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery."
         ]
       },
       {
         "id": "scripture",
         "heading": "Scripture and the liturgical texts",
         "paragraphs": [
-          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Read {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/1-john/4/|1 John 4}} for love and light. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer.",
-          "Read the narrative before composing new words. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Do not attribute fake quotes to saints or the Child Jesus.",
-          "Busy households can still keep St. John the Evangelist on December 27 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. John the Evangelist on December 27 surfaces sin you have avoided naming."
+          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Read {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/1-john/4/|1 John 4}} for love and light. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer."
         ]
       },
       {
         "id": "practice",
         "heading": "How to practice St. John the Evangelist on December 27 at home",
         "paragraphs": [
-          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance.",
-          "Invite a lonely neighbor; prayer without charity rings hollow. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Light the creche only after fire safety check.",
-          "Busy households can still keep St. John the Evangelist on December 27 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. John the Evangelist on December 27 surfaces sin you have avoided naming."
+          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance."
+        ]
+      },
+      {
+        "id": "john-and-holy-family-2026",
+        "heading": "Why St. John's Mass is not celebrated on December 27, 2026",
+        "paragraphs": [
+          "St. John's feast normally falls on December 27, but in 2026 that date is a Sunday. The Feast of the Holy Family is assigned to the Sunday within the Christmas octave, and as a feast of the Lord it takes precedence, so the Mass of St. John is not celebrated this year. The same thing happened in 2020 and recurs whenever December 27 is a Sunday. Nothing prevents a family from honoring the apostle at home: read his Gospel prologue at breakfast, pray for theologians and writers, and keep the wine blessing described below.",
+          "When the feast is celebrated, its readings repay attention. The first is the opening of {{https://catholicbibleonline.com/bible/1-john/1/|1 John 1:1–4}}, where the author testifies to what he has heard, seen with his eyes, and touched with his hands concerning the Word of life. The Gospel is {{https://catholicbibleonline.com/bible/john/20/|John 20:1–8}}: Mary Magdalene reports the empty tomb, Peter and the other disciple run, the other disciple arrives first, and when he goes in he sees and believes. In the middle of Christmas the Church reads an Easter Gospel, because the Child in the manger is the Lord who rose."
+        ]
+      },
+      {
+        "id": "beloved-disciple",
+        "heading": "The beloved disciple in Scripture and early tradition",
+        "paragraphs": [
+          "Church tradition identifies John, son of Zebedee and brother of James, with the disciple whom Jesus loved, who reclines beside Jesus at the Last Supper ({{https://catholicbibleonline.com/bible/john/13/|John 13:23}}) and stands at the cross when Jesus entrusts his mother to him with the words “Behold, your mother” ({{https://catholicbibleonline.com/bible/john/19/|John 19:26–27}}). With Peter and James, John witnesses the Transfiguration and the agony in Gethsemane. Tradition attributes to him the Fourth Gospel, three letters, and the Book of Revelation, whose author says he received his visions on the island of Patmos (Revelation 1:9).",
+          "Early writers add memorable details. Tertullian reports that John was plunged into boiling oil at Rome and came out unharmed before being exiled. St. Jerome tells of the aged apostle at Ephesus, too weak to preach, carried into the assembly and repeating only that his little children should love one another; asked why he said nothing else, he answered that it was the Lord's command and was enough. John is generally held to be the one apostle who died a natural death, at Ephesus. His symbol is the eagle, because his Gospel soars from its first verse to the eternal Word."
+        ]
+      },
+      {
+        "id": "st-john-wine",
+        "heading": "The blessing of St. John's wine",
+        "paragraphs": [
+          "One of the oldest customs of the day is the blessing of wine, known in German-speaking lands as Johannisminne, St. John's Love. It rests on a legend preserved in medieval sources such as The Golden Legend: John was handed a cup of poisoned wine, blessed it, and drank without harm. That is why some images show him holding a chalice with a serpent rising from it. The older Roman Ritual contained a blessing of wine for his feast, and families who ask may find a priest willing to bless their wine or cider after Mass.",
+          "At home the custom is simple. After the blessing, or a prayer of your own, the head of the household raises a glass and toasts the others in the spirit of John's command to love one another, and each person drinks to the one beside them. Children can share grape juice. Some families keep a little of the blessed wine for the sick during the year. In 2026, when the Sunday Mass is of the Holy Family, the toast can close the family's Holy Family dinner; the apostle who took Mary into his home is not out of place there."
         ]
       },
       {
@@ -2593,17 +2344,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Doctrine, devotion, and legend",
         "paragraphs": [
           "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Distinguish what the Church defines from what culture adds. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Legends may instruct if labeled stories.",
-          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep St. John the Evangelist on December 27 Christ-centered when children or guests are watching.",
-          "Busy households can still keep St. John the Evangelist on December 27 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. John the Evangelist on December 27 surfaces sin you have avoided naming."
+          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep St. John the Evangelist on December 27 Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "octave",
         "heading": "Octave flow with sibling feasts",
         "paragraphs": [
-          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage.",
-          "Holy Family and Innocents name domestic and public violence. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Link guides in this series rather than praying in isolation.",
-          "Busy households can still keep St. John the Evangelist on December 27 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. John the Evangelist on December 27 surfaces sin you have avoided naming."
+          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage."
         ]
       },
       {
@@ -2611,17 +2359,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Mass times and holy days in the U.S.",
         "paragraphs": [
           "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Christmas is obligation when it falls on Friday in 2026; abstinence is lifted. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Check parish bulletins for vigil overload.",
-          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep St. John the Evangelist on December 27 Christ-centered when children or guests are watching.",
-          "Busy households can still keep St. John the Evangelist on December 27 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. John the Evangelist on December 27 surfaces sin you have avoided naming."
+          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep St. John the Evangelist on December 27 Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "pastoral",
         "heading": "Pastoral realism for 2026",
         "paragraphs": [
-          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully.",
-          "Offer one concrete alms with intercession. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Mercy before performance.",
-          "Busy households can still keep St. John the Evangelist on December 27 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. John the Evangelist on December 27 surfaces sin you have avoided naming."
+          "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully."
         ]
       },
       {
@@ -2629,24 +2374,9 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Cross-links in this companion set",
         "paragraphs": [
           "Catholics approaching St. John the Evangelist on December 27 need clarity before sentiment. Wreath and Advent Scripture prepared this moment. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Christmas prayers hub gathers vigil and day.",
-          "Winter feast hub carries January obligations. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). [[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]",
           "[[/blog/christmas-eve-prayer-vigil-creche-guide/|Christmas Eve]] One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when St. John the Evangelist on December 27 surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening St. John the Evangelist with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping St. John the Evangelist in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When St. John the Evangelist becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord Jesus, as we keep St. John the Evangelist on December 27,\nkeep us honest before your manger and your cross.\nTurn our meals, carols, and quiet into worship that serves the poor.\nProtect the innocent, console the grieving, and unite our homes to your Church.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for St. John",
     "related": [
@@ -2676,39 +2406,13 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       }
     ],
     "faqs": [
-      {
-        "question": "When should we practice this in 2026?",
-        "answer": "Friday, December 25, 2026 (solemnity)"
-      },
-      {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
-        "question": "Is this required by Church law?",
-        "answer": "Liturgical prayer is principal; home customs are optional devotion."
-      },
-      {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
+      {"question":"Why is there no Mass of St. John on December 27, 2026?","answer":"The Feast of the Holy Family is kept on the Sunday within the Christmas octave. In 2026 that Sunday is December 27, so it takes the place of the feast of St. John that year."},
+      {"question":"Which books of the Bible are attributed to St. John?","answer":"Tradition attributes to him the Fourth Gospel, three letters, and the Book of Revelation. Scholars discuss how these writings relate to the apostle himself."},
       {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/st-john-evangelist-prayer-catholic-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "holy-family-sunday-prayer-feast-guide",
@@ -2763,15 +2467,15 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "December 26–28, 2026",
-        "what": "Octave memorials: Stephen, John, Holy Innocents in sequence."
+        "what": "Octave feasts: Stephen (Sat.), Holy Innocents (Mon.); St. John yields to Holy Family Sunday on Dec. 27."
       },
       {
         "when": "December 27–28, 2026",
-        "what": "John and Innocents frame joy and grief in one week."
+        "what": "Holy Family Sunday and the Holy Innocents frame joy and grief on consecutive days."
       },
       {
         "when": "Sunday in octave",
-        "what": "Holy Family Sunday transfers within December 25–31."
+        "what": "Holy Family Sunday falls on December 27, 2026."
       },
       {
         "when": "January 1, 2027",
@@ -2783,27 +2487,52 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "meaning",
         "heading": "What Holy Family Sunday in the Christmas octave means in Catholic faith",
         "paragraphs": [
-          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Joy and suffering intertwine in the octave; Holy Family Sunday in the Christmas octave keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery.",
-          "Homes need language children and elders share. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Avoid reducing feast to consumer habits.",
-          "Busy households can still keep Holy Family Sunday in the Christmas octave without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Holy Family Sunday in the Christmas octave surfaces sin you have avoided naming."
+          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Joy and suffering intertwine in the octave; Holy Family Sunday in the Christmas octave keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery."
         ]
       },
       {
         "id": "scripture",
         "heading": "Scripture and the liturgical texts",
         "paragraphs": [
-          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:22–40}} and flight to Egypt themes appear in liturgy. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer.",
-          "Read the narrative before composing new words. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Do not attribute fake quotes to saints or the Child Jesus.",
-          "Busy households can still keep Holy Family Sunday in the Christmas octave without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Holy Family Sunday in the Christmas octave surfaces sin you have avoided naming."
+          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:22–40}} and flight to Egypt themes appear in liturgy. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer."
         ]
       },
       {
         "id": "practice",
         "heading": "How to practice Holy Family Sunday in the Christmas octave at home",
         "paragraphs": [
-          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance.",
-          "Invite a lonely neighbor; prayer without charity rings hollow. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Light the creche only after fire safety check.",
-          "Busy households can still keep Holy Family Sunday in the Christmas octave without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Holy Family Sunday in the Christmas octave surfaces sin you have avoided naming."
+          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance."
+        ]
+      },
+      {
+        "id": "date-2026",
+        "heading": "When Holy Family Sunday falls in 2026",
+        "paragraphs": [
+          "The Feast of the Holy Family is kept on the Sunday within the octave of Christmas. In 2026 that Sunday is December 27, so the feast takes the date St. John the Evangelist would otherwise have, and the apostle's Mass is omitted this year. In years when Christmas itself falls on a Sunday and no other Sunday lies inside the octave, the feast moves to December 30. Because it is a Sunday this year, the ordinary Sunday obligation applies, and a Saturday evening Mass on December 26 normally anticipates it.",
+          "The day sits between two holy days of obligation in the United States: Christmas on Friday, December 25, 2026, and the Solemnity of Mary, the Holy Mother of God, on Friday, January 1, 2027. Families who want to reach all three without exhaustion can choose Mass times for Christmas, the weekend, and New Year's together before relatives arrive."
+        ]
+      },
+      {
+        "id": "readings-year-b",
+        "heading": "The readings for Year B",
+        "paragraphs": [
+          "Advent 2026 opens Year B of the Sunday lectionary, and the Holy Family readings this year offer a choice. The readings available every year are {{https://catholicbibleonline.com/bible/sirach/3/|Sirach 3:2–6, 12–14}}, on honoring father and mother and caring for them in old age, and {{https://catholicbibleonline.com/bible/colossians/3/|Colossians 3:12–21}}, on compassion, forgiveness, and household relationships. The optional Year B readings turn to Abraham and Sarah: God's promise of descendants in Genesis 15, Isaac's birth in Genesis 21, and Hebrews 11 praising the faith that let Abraham offer Isaac.",
+          "The Year B Gospel is {{https://catholicbibleonline.com/bible/luke/2/|Luke 2:22–40}}. Mary and Joseph present Jesus in the Temple, Simeon takes him in his arms and foretells that a sword will pierce Mary's heart, and the prophetess Anna speaks about the child to all awaiting the redemption of Jerusalem. The passage ends with the family back in Nazareth, where the child grows strong, filled with wisdom, with the favor of God upon him. It portrays a family that keeps the law, meets sorrow, and lets God's plan lead."
+        ]
+      },
+      {
+        "id": "feast-history",
+        "heading": "A young feast: how Holy Family Sunday entered the calendar",
+        "paragraphs": [
+          "Devotion to Jesus, Mary, and Joseph as a household flourished in the seventeenth century, notably in New France, where Bishop François de Laval promoted it in Quebec. Pope Leo XIII encouraged the devotion in the late nineteenth century, and in 1921 Pope Benedict XV extended the feast to the whole Latin Church, assigning it to the Sunday after Epiphany. The 1969 reform of the calendar moved it to its present place within the Christmas octave, so that the family of Nazareth is contemplated in the light of the Nativity itself.",
+          "That history explains its tone. The feast does not celebrate a household without trouble; its Gospels include a census journey, exile in Egypt, a twelve-year-old lost in Jerusalem, and Simeon's prophecy of a sword. The Catechism calls the Christian family a domestic church (CCC 1656), the place where faith is first heard and practiced. That title is a vocation, not a compliment, and it belongs to single-parent, blended, and grieving families as much as to any other."
+        ]
+      },
+      {
+        "id": "family-blessing",
+        "heading": "Blessing one another on Holy Family Sunday",
+        "paragraphs": [
+          "The Book of Blessings includes orders for blessing a family and for blessing children, and a parent may lead a household form. After Mass on December 27, gather by the creche, read Colossians 3:12–17 aloud, and let each parent trace a cross on each child's forehead. Spouses can renew their marriage promises in their own words, and grandparents can bless grandchildren. Close with the prayer the family knows best. If tempers are short by the third day of houseguests, let Paul's call to bear with one another and forgive be the whole homily."
         ]
       },
       {
@@ -2811,17 +2540,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Doctrine, devotion, and legend",
         "paragraphs": [
           "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Distinguish what the Church defines from what culture adds. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Legends may instruct if labeled stories.",
-          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Holy Family Sunday in the Christmas octave Christ-centered when children or guests are watching.",
-          "Busy households can still keep Holy Family Sunday in the Christmas octave without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Holy Family Sunday in the Christmas octave surfaces sin you have avoided naming."
+          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Holy Family Sunday in the Christmas octave Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "octave",
         "heading": "Octave flow with sibling feasts",
         "paragraphs": [
-          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage.",
-          "Holy Family and Innocents name domestic and public violence. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Link guides in this series rather than praying in isolation.",
-          "Busy households can still keep Holy Family Sunday in the Christmas octave without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Holy Family Sunday in the Christmas octave surfaces sin you have avoided naming."
+          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage."
         ]
       },
       {
@@ -2829,17 +2555,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Mass times and holy days in the U.S.",
         "paragraphs": [
           "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Christmas is obligation when it falls on Friday in 2026; abstinence is lifted. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Check parish bulletins for vigil overload.",
-          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Holy Family Sunday in the Christmas octave Christ-centered when children or guests are watching.",
-          "Busy households can still keep Holy Family Sunday in the Christmas octave without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Holy Family Sunday in the Christmas octave surfaces sin you have avoided naming."
+          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep Holy Family Sunday in the Christmas octave Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "pastoral",
         "heading": "Pastoral realism for 2026",
         "paragraphs": [
-          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully.",
-          "Offer one concrete alms with intercession. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Mercy before performance.",
-          "Busy households can still keep Holy Family Sunday in the Christmas octave without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Holy Family Sunday in the Christmas octave surfaces sin you have avoided naming."
+          "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully."
         ]
       },
       {
@@ -2847,24 +2570,9 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Cross-links in this companion set",
         "paragraphs": [
           "Catholics approaching Holy Family Sunday in the Christmas octave need clarity before sentiment. Wreath and Advent Scripture prepared this moment. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Christmas prayers hub gathers vigil and day.",
-          "Winter feast hub carries January obligations. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). [[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]",
           "[[/blog/christmas-eve-prayer-vigil-creche-guide/|Christmas Eve]] One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when Holy Family Sunday in the Christmas octave surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening the Holy Family with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping the Holy Family in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When the Holy Family becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord Jesus, as we keep Holy Family Sunday in the Christmas octave,\nkeep us honest before your manger and your cross.\nTurn our meals, carols, and quiet into worship that serves the poor.\nProtect the innocent, console the grieving, and unite our homes to your Church.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for Holy Family",
     "related": [
@@ -2894,39 +2602,13 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       }
     ],
     "faqs": [
-      {
-        "question": "When should we practice this in 2026?",
-        "answer": "Friday, December 25, 2026 (solemnity)"
-      },
-      {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
-        "question": "Is this required by Church law?",
-        "answer": "Liturgical prayer is principal; home customs are optional devotion."
-      },
-      {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
+      {"question":"Is Holy Family Sunday a day of obligation?","answer":"It falls on a Sunday, so the ordinary Sunday obligation applies. In 2026 that is Sunday, December 27."},
+      {"question":"When is the Feast of the Holy Family if Christmas falls on a Sunday?","answer":"When there is no Sunday within the Christmas octave, the feast is celebrated on Friday, December 30."},
       {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/holy-family-sunday-prayer-feast-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   },
 {
     "slug": "holy-innocents-prayer-catholic-guide",
@@ -2981,15 +2663,15 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       },
       {
         "when": "December 26–28, 2026",
-        "what": "Octave memorials: Stephen, John, Holy Innocents in sequence."
+        "what": "Octave feasts: Stephen (Sat.), Holy Innocents (Mon.); St. John yields to Holy Family Sunday on Dec. 27."
       },
       {
         "when": "December 27–28, 2026",
-        "what": "John and Innocents frame joy and grief in one week."
+        "what": "Holy Family Sunday and the Holy Innocents frame joy and grief on consecutive days."
       },
       {
         "when": "Sunday in octave",
-        "what": "Holy Family Sunday transfers within December 25–31."
+        "what": "Holy Family Sunday falls on December 27, 2026."
       },
       {
         "when": "January 1, 2027",
@@ -3001,27 +2683,45 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "id": "meaning",
         "heading": "What the Holy Innocents on December 28 means in Catholic faith",
         "paragraphs": [
-          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Joy and suffering intertwine in the octave; the Holy Innocents on December 28 keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery.",
-          "Homes need language children and elders share. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Avoid reducing feast to consumer habits.",
-          "Busy households can still keep the Holy Innocents on December 28 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when the Holy Innocents on December 28 surfaces sin you have avoided naming."
+          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Joy and suffering intertwine in the octave; the Holy Innocents on December 28 keeps Christ at the center. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Liturgical prayer already names the mystery."
         ]
       },
       {
         "id": "scripture",
         "heading": "Scripture and the liturgical texts",
         "paragraphs": [
-          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. {{https://catholicbibleonline.com/bible/matthew/2/|Matthew 2:16–18}} names Rachel weeping; pair with charity for mothers and the unborn. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer.",
-          "Read the narrative before composing new words. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Do not attribute fake quotes to saints or the Child Jesus.",
-          "Busy households can still keep the Holy Innocents on December 28 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when the Holy Innocents on December 28 surfaces sin you have avoided naming."
+          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. {{https://catholicbibleonline.com/bible/matthew/2/|Matthew 2:16–18}} names Rachel weeping; pair with charity for mothers and the unborn. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. The Missal collect is the best short prayer."
         ]
       },
       {
         "id": "practice",
         "heading": "How to practice the Holy Innocents on December 28 at home",
         "paragraphs": [
-          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance.",
-          "Invite a lonely neighbor; prayer without charity rings hollow. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Light the creche only after fire safety check.",
-          "Busy households can still keep the Holy Innocents on December 28 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when the Holy Innocents on December 28 surfaces sin you have avoided naming."
+          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Keep prayers brief on crowded days. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Sing one carol with theological substance."
+        ]
+      },
+      {
+        "id": "matthew-2-account",
+        "heading": "The massacre in Matthew 2",
+        "paragraphs": [
+          "The Holy Innocents appear only in {{https://catholicbibleonline.com/bible/matthew/2/|Matthew 2}}. After the Magi leave without reporting back, an angel warns Joseph in a dream to take the child and his mother to Egypt. Herod, furious at being deceived, orders the killing of all the boys in Bethlehem and its vicinity two years old and under, according to the time he had learned from the Magi. Matthew sees in the grief a fulfillment of {{https://catholicbibleonline.com/bible/jeremiah/31/|Jeremiah 31:15}}: Rachel weeping for her children and refusing to be consoled, because they are no more.",
+          "Matthew gives no number. Bethlehem was a small town, the victims may have been few, and no other ancient historian mentions the event, though the cruelty fits what is known of Herod, who had members of his own family put to death. Later liturgical traditions, especially in the East, assigned very large figures, but those are devotional rather than historical. The Church honors the children as martyrs because they died in Christ's place; an older collect of the feast says they confessed Christ not by speaking but by dying."
+        ]
+      },
+      {
+        "id": "mass-december-28",
+        "heading": "The Mass of December 28, 2026",
+        "paragraphs": [
+          "The feast falls on Monday, December 28, 2026, the fourth day of the Christmas octave. The first reading, {{https://catholicbibleonline.com/bible/1-john/1/|1 John 1:5–2:2}}, proclaims that God is light and that Jesus Christ is expiation for our sins and for those of the whole world. The Gospel is Matthew 2:13–18, the flight into Egypt and the massacre. The priest wears red for martyrdom; older Roman books used violet as a sign of mourning. The Gloria is sung, because the joy of the octave surrounds the grief.",
+          "The Office of Readings for the day gives a sermon of St. Quodvultdeus, a fifth-century bishop of Carthage, who confronts Herod and marvels that infants who could not yet speak already bear witness to Christ. The feast is not a holy day of obligation, but a weekday Mass during the Christmas break is often easier to reach than usual, and it gives parents who have lost a child a place to bring that grief inside the liturgy."
+        ]
+      },
+      {
+        "id": "honoring-children",
+        "heading": "Honoring children and grieving parents",
+        "paragraphs": [
+          "Medieval England called the day Childermas, and in some cathedrals and monasteries a boy bishop presided over parts of the season's ceremonies. In Spain and Latin America, December 28 is the Día de los Santos Inocentes, now marked with pranks much like April Fools' Day, a folk custom far from the feast's meaning but a sign that the day has long belonged to the young. A household might let the youngest child choose the dinner menu or lead grace, and each parent can bless each child; the Book of Blessings includes orders for blessing children that a parent may use.",
+          "The feast also belongs to parents whose children have died through miscarriage, stillbirth, illness, or violence, and to those who grieve an abortion. Name such children aloud at prayer and entrust them to God's mercy; the Catechism allows the Church to hope that there is a way of salvation for children who have died without Baptism (CCC 1261). In the United States the theme returns on January 22, the Day of Prayer for the Legal Protection of Unborn Children. A practical response is to support a pregnancy resource center, a refugee family, or a parish ministry to bereaved parents, so that Rachel's weeping meets a Church that stays to console."
         ]
       },
       {
@@ -3029,17 +2729,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Doctrine, devotion, and legend",
         "paragraphs": [
           "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Distinguish what the Church defines from what culture adds. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Legends may instruct if labeled stories.",
-          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep the Holy Innocents on December 28 Christ-centered when children or guests are watching.",
-          "Busy households can still keep the Holy Innocents on December 28 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when the Holy Innocents on December 28 surfaces sin you have avoided naming."
+          "Christology remains Nicene; manger piety serves it. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep the Holy Innocents on December 28 Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "octave",
         "heading": "Octave flow with sibling feasts",
         "paragraphs": [
-          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage.",
-          "Holy Family and Innocents name domestic and public violence. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Link guides in this series rather than praying in isolation.",
-          "Busy households can still keep the Holy Innocents on December 28 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when the Holy Innocents on December 28 surfaces sin you have avoided naming."
+          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Stephen's blood follows Bethlehem's song. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. John's love follows Stephen's courage."
         ]
       },
       {
@@ -3047,17 +2744,14 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Mass times and holy days in the U.S.",
         "paragraphs": [
           "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Christmas is obligation when it falls on Friday in 2026; abstinence is lifted. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Check parish bulletins for vigil overload.",
-          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep the Holy Innocents on December 28 Christ-centered when children or guests are watching.",
-          "Busy households can still keep the Holy Innocents on December 28 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when the Holy Innocents on December 28 surfaces sin you have avoided naming."
+          "Eucharist is thanksgiving before turkey or tamales. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Keep the Holy Innocents on December 28 Christ-centered when children or guests are watching."
         ]
       },
       {
         "id": "pastoral",
         "heading": "Pastoral realism for 2026",
         "paragraphs": [
-          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully.",
-          "Offer one concrete alms with intercession. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). Mercy before performance.",
-          "Busy households can still keep the Holy Innocents on December 28 without fifteen apps or guilt spirals. One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when the Holy Innocents on December 28 surfaces sin you have avoided naming."
+          "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Grief, deployment, and divorce reshape tables. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Pray truthfully."
         ]
       },
       {
@@ -3065,24 +2759,9 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
         "heading": "Cross-links in this companion set",
         "paragraphs": [
           "Catholics approaching the Holy Innocents on December 28 need clarity before sentiment. Wreath and Advent Scripture prepared this moment. The Roman Rite already orders the season; home prayer should echo the altar, not compete with it. Christmas prayers hub gathers vigil and day.",
-          "Winter feast hub carries January obligations. Popular manuals sometimes treat devotion like a contract for favors; the Catechism refuses that bargain. Intercession is real; outcomes stay divine wisdom (CCC 2739). [[/blog/catholic-christmas-prayers-complete-guide/|Christmas prayers]]",
           "[[/blog/christmas-eve-prayer-vigil-creche-guide/|Christmas Eve]] One honest minute beats a theatrical hour performed for Instagram. Resume after missed days; God is Father, not a scorekeeper of consecutive checkboxes. Link this custom to Mass and confession when the Holy Innocents on December 28 surfaces sin you have avoided naming."
         ]
-      },
-      {
-        "id": "go-deeper-1",
-        "heading": "Deepening the Holy Innocents with sacraments and charity (1)",
-        "paragraphs": [
-          "Families keeping the Holy Innocents in 2026 face inflation, travel delays, and screens that never sleep. The Church still offers a calendar thicker than algorithms. Parish bulletins, diocesan ordo, and a worn missal beat frantic internet searches on Christmas week. When grandparents cannot travel, video prayer after a shared reading still unites generations if someone names the feast aloud. College students away from home should not pretend independence means skipping the mysteries parents taught. One honest phone call with the same collect from Mass can heal more than a performative postcard.",
-          "Confession before major feasts clears resentment that poisons table grace. The sacrament is ordinary medicine, not emergency only. {{https://catholicbibleonline.com/bible/john/1/|John 1}} and {{https://catholicbibleonline.com/bible/luke/2/|Luke 2}} belong to the same Christ who meets you in the confessional. Priests in busy parishes add hours in December; arrive early instead of complaining online. Children learn mercy when parents confess without theatrics. Do not promise kids that prayer fixes marriage if adults refuse the hard conversations prayer demands.",
-          "Almsgiving belongs beside every custom in this series. Food pantries, pregnancy centers, and refugee resets swell in winter. Naming one recipient in intercession keeps Bethlehem's poor before the camera roll. When the Holy Innocents becomes aesthetic only, prophets still cry woe. Return to Mass as the benchmark: if the week had no Eucharist and only candles, reorder next week. God is patient; lethargy is not the same as discernment."
-        ],
-        "callout": {
-          "label": "Formation, not superstition",
-          "text": "Missing a day of private prayer does not void the season. Neglecting deliberate Sunday Mass without grave reason is a different question."
-        }
-      }
-    ],
+      }    ],
     "prayer": "Lord Jesus, as we keep the Holy Innocents on December 28,\nkeep us honest before your manger and your cross.\nTurn our meals, carols, and quiet into worship that serves the poor.\nProtect the innocent, console the grieving, and unite our homes to your Church.\nThrough Christ our Lord. Amen.",
     "prayerHeading": "Prayer for Holy Innocents",
     "related": [
@@ -3112,39 +2791,13 @@ export const CBO_COMPANION_ADVENT_CHRISTMAS: LiturgicalFeastGuide[] = [
       }
     ],
     "faqs": [
-      {
-        "question": "When should we practice this in 2026?",
-        "answer": "Friday, December 25, 2026 (solemnity)"
-      },
-      {
-        "question": "Does this replace Mass?",
-        "answer": "No. Domestic prayer extends liturgy; holy days and Sundays require the assembly when able."
-      },
-      {
-        "question": "What if we start late?",
-        "answer": "Begin today without superstition. Private customs are help, not law."
-      },
-      {
-        "question": "Is this required by Church law?",
-        "answer": "Liturgical prayer is principal; home customs are optional devotion."
-      },
-      {
-        "question": "Can children lead?",
-        "answer": "Yes, with short texts and patience for wiggles."
-      },
-      {
-        "question": "Does prayer guarantee family peace?",
-        "answer": "No. It orients desire; God answers with mercy that may include the cross."
-      },
+      {"question":"Who were the Holy Innocents?","answer":"The boys of Bethlehem killed on the orders of King Herod after the visit of the Magi, as Matthew 2:16–18 records. The Church honors them as martyrs who died in place of Christ."},
+      {"question":"Is December 28 a holy day of obligation?","answer":"No. The feast of the Holy Innocents is not a holy day of obligation in the United States. In 2026 it falls on Monday, December 28."},
       {
         "question": "Where is the twin article?",
         "answer": "https://catholicbibleonline.com/blog/holy-innocents-prayer-catholic-guide/"
-      },
-      {
-        "question": "How does this series fit Advent–Christmas?",
-        "answer": "Each guide uses the same slug on Guide Catholic and Catholic Bible Online with cross-links."
       }
-    ]
+      ]
   }
 ];
 

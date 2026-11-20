@@ -4,6 +4,7 @@ import { ArrowLeft, Mail, Instagram, Youtube, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/landing/Footer";
 import { Navbar } from "@/components/landing/Navbar";
+import { PlainEmail } from "@/components/PlainEmail";
 
 export default function Contact() {
     return (
@@ -55,7 +56,7 @@ export default function Contact() {
                                         </div>
                                         <div>
                                             <h3 className="font-semibold text-text">Email</h3>
-                                            <p className="text-text-muted">smartxdigitalx@gmail.com</p>
+                                            <p className="text-text-muted"><PlainEmail email="smartxdigitalx@gmail.com" className="hover:text-accent" /></p>
                                         </div>
                                     </div>
 

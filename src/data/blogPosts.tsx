@@ -26,6 +26,18 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1602,
+    slug: "jesse-tree-catholic-advent-guide",
+    title: "The Jesse Tree: A Catholic Family Guide to Advent 2026, Day by Day",
+    excerpt: "The full Jesse Tree calendar for Advent 2026, November 29 to December 24: the Scripture reading and ornament for every day, what the symbols mean, and how to keep it as a family.",
+    date: "2026-11-19",
+    readTime: "14 min",
+    category: "Prayers & Devotions",
+    icon: TreePine,
+    bgColor: "bg-emerald-50",
+    iconColor: "text-emerald-700"
+  },
+  {
     id: 1601,
     slug: "psalm-91-catholic-protection-prayer-guide",
     title: "Psalm 91: Catholic Meaning, Protection Prayer & How to Pray It",

@@ -82,15 +82,15 @@ export default function InspirationalBibleVerses() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                Catholics who search for inspirational bible verses are rarely looking for a slogan. They want language strong enough for a hospital waiting room, a restless night, or a hard conversation after Mass. Scripture gives that language — not as a shortcut around the Cross, but as a companion on the way. Inspiration without conversion fades by lunchtime. These verses aim higher: they stir the will toward holiness, vocation, and courageous charity.
+                Catholics who search for inspirational bible verses are rarely looking for a slogan. Inspiration without conversion fades by lunchtime. These verses aim higher: they stir the will toward holiness, vocation, and courageous charity.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                Start with the verses that match your situation most closely, then read the rest as a wider horizon. Inspirational Bible Verses are most fruitful when one line becomes a daily aspiration and the others become backup strength for harder days of inspiration.
+ Inspirational Bible Verses are most fruitful when one line becomes a daily aspiration and the others become backup strength for harder days of inspiration.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Live Inspired by the Word</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="inspirational-bible-verses">
-                Short lists help busy Catholics. Still, one verse prayed well beats ten verses skimmed. Focus on “Live Inspired by the Word” as a single movement of prayer, not a checklist.
+                Short lists help busy Catholics. Focus on “Live Inspired by the Word” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -120,16 +120,16 @@ export default function InspirationalBibleVerses() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                Let inspiration lead to a concrete yes: volunteering, Confession, or a hard apology. Feeling moved is only the first mile. Notice the pattern across these passages: God does not always remove the circumstance tied to inspiration, but He does promise presence, grace, and a path of fidelity. That is why Catholic hope is sturdy — it is anchored in a Person, not in outcomes we can schedule.
+                Let inspiration lead to a concrete yes: volunteering, Confession, or a hard apology. Feeling moved is only the first mile. Notice the pattern across these passages: God does not always remove the circumstance tied to inspiration, but He does promise presence, grace, and a path of fidelity.
               </LinkedText>
               <QuizCTA
                 title={"Where do you need grace connected to encouragement?"}
-                description={"Answer a few questions and get a roadmap for deeper Catholic life."}
+                description={""}
               />
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Call to Action</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="inspirational-bible-verses">
-                These passages gather the Church's most prayed lines on inspiration. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “Call to Action” as a single movement of prayer, not a checklist.
+                These passages gather the Church's most prayed lines on inspiration. Focus on “Call to Action” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -149,12 +149,12 @@ export default function InspirationalBibleVerses() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on inspiration is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on inspiration is meant for today — not for your entire future.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pray These Verses on Inspiration</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                After reading, make one concrete yes: Confession this week, a volunteer hour, or a hard apology. Inspiration must become obedience. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether inspiration still masters your reactions — or whether grace is slowly reordering them.
+                After reading, make one concrete yes: Confession this week, a volunteer hour, or a hard apology. Inspiration must become obedience. Over a week, you will notice whether inspiration still masters your reactions — or whether grace is slowly reordering them.
               </LinkedText>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Inspiration: Three Faithful Habits</h2>
               <ol className="list-decimal list-inside text-text space-y-2 mb-6">
@@ -173,17 +173,17 @@ export default function InspirationalBibleVerses() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Turn to Scripture for inspiration</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                Catholic reading holds Scripture and Tradition together. A line about inspiration is interpreted with the Creed, the Catechism, and the lived wisdom of the saints — never as a private oracle against the Church. That guardrail keeps devotion from becoming superstition. Works of mercy translate verses into flesh: a meal for a neighbor, a patient reply, a donated hour, a refusal to gossip. If a verse on inspiration never changes how you treat people, you have collected inspiration without conversion.
+                Catholic reading holds Scripture and Tradition together. A line about inspiration is interpreted with the Creed, the Catechism, and the lived wisdom of the saints — never as a private oracle against the Church. That guardrail keeps devotion from becoming superstition. If a verse on inspiration never changes how you treat people, you have collected inspiration without conversion.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Real Moments Catholics Face inspiration</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                Parish ministries — bereavement groups, marriage prep, youth nights, and RCIA — can use these verses without turning them into worksheets. Read one slowly. Ask two questions: Where do I see Christ? What is one act of charity this verse asks of me regarding inspiration?
+ Read one slowly. Ask two questions: Where do I see Christ? What is one act of charity this verse asks of me regarding inspiration?
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture, Charity, and inspiration Over Time</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                Bring one struggle related to inspiration to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. If illness or despair is involved, ask about Anointing of the Sick. Grace travels through the Church's ordinary means. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+                Bring one struggle related to inspiration to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. Grace travels through the Church's ordinary means.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pastoral Notes on Inspiration</h2>
@@ -193,16 +193,16 @@ export default function InspirationalBibleVerses() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Homeschool, Parish, and Dinner-Table Uses for Inspiration</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                Catechists can weave these verses into lessons on prayer, virtue, and the sacraments. Connect inspiration to a saint story, then to a concrete work of mercy. Students remember Scripture when it is paired with action.
+ Connect inspiration to a saint story, then to a concrete work of mercy.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Inspiration</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="inspirational-bible-verses">
-                Keep a tiny rule: one verse on inspiration in the morning, a brief examination at night, and Sunday Mass without negotiation. Add Confession monthly if inspiration keeps wounding your peace. Small fidelity compounds. In three months you will not only know more verses — you will notice different reactions at work, at home, and in prayer.
+                Keep a tiny rule: one verse on inspiration in the morning, a brief examination at night, and Sunday Mass without negotiation. Add Confession monthly if inspiration keeps wounding your peace. Small fidelity compounds.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="inspirational-bible-verses">
-                As you leave this page, take one verse on inspiration into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when inspiration is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around inspiration today.
+                As you leave this page, take one verse on inspiration into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when inspiration is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around inspiration today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -217,19 +217,19 @@ export default function InspirationalBibleVerses() {
               linkAnswersSlug="inspirational-bible-verses"
               faqs={[
                 { question: "What are the best inspirational bible verses?", answer: "Key inspirational bible verses include Micah 6:8 and the passages gathered below for meditation and memorization. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
-                { question: "Which Bible should Catholics use for these verses?", answer: "NABRE is used at Mass in the United States; RSV-CE is excellent for study and memorization. Both are approved. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
+                { question: "Which Bible should Catholics use for these verses?", answer: " Both are approved. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
                 { question: "How do I memorize verses about encouragement?", answer: "Start with the shortest line. Repeat morning and night for a week. Write it by hand once a day. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
-                { question: "Can I share inspirational bible verses with non-Catholics?", answer: "Yes. Invite them also to Mass or a parish Bible study so the Word is heard in community. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
-                { question: "How do these verses relate to the sacraments?", answer: "Scripture prepares the heart for Confession and Eucharist, and the sacraments deepen our power to live the Word. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
-                { question: "Is it okay to write inspirational bible verses in a journal?", answer: "Yes. Copying Scripture by hand slows you down and helps retention. Note one concrete action beside the verse so inspiration becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
+                { question: "Can I share inspirational bible verses with non-Catholics?", answer: "Yes. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
+                { question: "How do these verses relate to the sacraments?", answer: " Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
+                { question: "Is it okay to write inspirational bible verses in a journal?", answer: "Yes. Note one concrete action beside the verse so inspiration becomes discipleship, not only emotion. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
                 { question: "What if I do not feel peace after praying?", answer: "Feelings are not the measure of fidelity. Keep praying, receive the sacraments, and look for small fruits: patience, honesty, or courage related to inspiration. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." },
-                { question: "Can children use this page?", answer: "Yes — choose the shortest verses and explain them simply. Children learn inspiration by watching adults pray without panic. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." }
+                { question: "Can children use this page?", answer: " Children learn inspiration by watching adults pray without panic. Keep praying with the Church, and let one verse on inspiration stay with you until Sunday Mass." }
               ]}
             />
             <RelatedArticles currentSlug="inspirational-bible-verses" />
             <ArticleBottomCTA
               title={"Build a prayer life that holds Inspiration"}
-              description={"Answer a few questions and get a roadmap for deeper Catholic life."}
+              description={""}
             />
           </div>
         </article>

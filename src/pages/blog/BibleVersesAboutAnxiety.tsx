@@ -82,15 +82,15 @@ export default function BibleVersesAboutAnxiety() {
               <BlogArticleAd slot="1906776249" />
 
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Catholics who search for bible verses about anxiety are rarely looking for a slogan. They want language strong enough for a hospital waiting room, a restless night, or a hard conversation after Mass. Scripture gives that language — not as a shortcut around the Cross, but as a companion on the way. Nighttime spirals, Sunday distraction, and dread before appointments are common confession topics in U.S. parishes. These verses train the anxious mind to pray with thanksgiving instead of rehearsing catastrophe.
+                Catholics who search for bible verses about anxiety are rarely looking for a slogan. Nighttime spirals, Sunday distraction, and dread before appointments are common confession topics in U.S. parishes. These verses train the anxious mind to pray with thanksgiving instead of rehearsing catastrophe.
               </LinkedText>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Start with the verses that match your situation most closely, then read the rest as a wider horizon. Bible Verses About Anxiety are most fruitful when one line becomes a daily aspiration and the others become backup strength for harder days of anxiety.
+ Bible Verses About Anxiety are most fruitful when one line becomes a daily aspiration and the others become backup strength for harder days of anxiety.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Core Verses When Anxiety Feels Overwhelming</h2>
               <LinkedText className="text-text leading-relaxed mb-4" currentSlug="bible-verses-about-anxiety">
-                These passages gather the Church's most prayed lines on anxiety. Read them slowly; speed-reading Scripture usually skips the conversion. Focus on “Core Verses When Anxiety Feels Overwhelming” as a single movement of prayer, not a checklist.
+                These passages gather the Church's most prayed lines on anxiety. Focus on “Core Verses When Anxiety Feels Overwhelming” as a single movement of prayer, not a checklist.
               </LinkedText>
               <div className="space-y-4 mb-8">
                   <div className="bg-accent/5 border border-accent/20 rounded-xl p-4">
@@ -120,7 +120,7 @@ export default function BibleVersesAboutAnxiety() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Philippians 4 does not say "pretend you are fine." It says bring everything to God — with thanks — and receive a peace that guards the heart. Notice the pattern across these passages: God does not always remove the circumstance tied to anxiety, but He does promise presence, grace, and a path of fidelity. That is why Catholic hope is sturdy — it is anchored in a Person, not in outcomes we can schedule.
+                Philippians 4 does not say "pretend you are fine." It says bring everything to God — with thanks — and receive a peace that guards the heart. Notice the pattern across these passages: God does not always remove the circumstance tied to anxiety, but He does promise presence, grace, and a path of fidelity.
               </LinkedText>
               <QuizCTA
                 title={"Is worry crowding out your prayer life?"}
@@ -154,12 +154,12 @@ export default function BibleVersesAboutAnxiety() {
                   </div>
               </div>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                After these verses, pause before rushing to the next article. Ask the Holy Spirit which line on anxiety is meant for today — not for your entire future. Obedience in small things prepares the heart for larger crosses.
+ Ask the Holy Spirit which line on anxiety is meant for today — not for your entire future.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pray These Verses on Anxiety</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Stand still. Pray 1 Peter 5:7 once. Name the fear out loud to God. Then make the call. If anxiety is constant, add pastoral care and professional support — Scripture walks with treatment. Repeat the verse once more before you sleep, and once more when you wake. Over a week, you will notice whether anxiety still masters your reactions — or whether grace is slowly reordering them.
+                Stand still. Pray 1 Peter 5:7 once. Name the fear out loud to God. Then make the call. If anxiety is constant, add pastoral care and professional support — Scripture walks with treatment. Over a week, you will notice whether anxiety still masters your reactions — or whether grace is slowly reordering them.
               </LinkedText>
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Anxiety: Three Faithful Habits</h2>
               <ol className="list-decimal list-inside text-text space-y-2 mb-6">
@@ -178,17 +178,17 @@ export default function BibleVersesAboutAnxiety() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Why Catholics Turn to Scripture for anxiety</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Catholic reading holds Scripture and Tradition together. A line about anxiety is interpreted with the Creed, the Catechism, and the lived wisdom of the saints — never as a private oracle against the Church. That guardrail keeps devotion from becoming superstition. Works of mercy translate verses into flesh: a meal for a neighbor, a patient reply, a donated hour, a refusal to gossip. If a verse on anxiety never changes how you treat people, you have collected inspiration without conversion.
+                Catholic reading holds Scripture and Tradition together. A line about anxiety is interpreted with the Creed, the Catechism, and the lived wisdom of the saints — never as a private oracle against the Church. That guardrail keeps devotion from becoming superstition. If a verse on anxiety never changes how you treat people, you have collected inspiration without conversion.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Real Moments Catholics Face anxiety</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Parish ministries — bereavement groups, marriage prep, youth nights, and RCIA — can use these verses without turning them into worksheets. Read one slowly. Ask two questions: Where do I see Christ? What is one act of charity this verse asks of me regarding anxiety?
+ Read one slowly. Ask two questions: Where do I see Christ? What is one act of charity this verse asks of me regarding anxiety?
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Scripture, Charity, and anxiety Over Time</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Bring one struggle related to anxiety to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. If illness or despair is involved, ask about Anointing of the Sick. Grace travels through the Church's ordinary means. Keep returning to the verses above until one line becomes the prayer you can say without looking at a screen.
+                Bring one struggle related to anxiety to Confession with concrete details, not vague guilt. Receive the Eucharist as medicine, not reward. Grace travels through the Church's ordinary means.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Pastoral Notes on Anxiety</h2>
@@ -198,16 +198,16 @@ export default function BibleVersesAboutAnxiety() {
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">Homeschool, Parish, and Dinner-Table Uses for Anxiety</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Catechists can weave these verses into lessons on prayer, virtue, and the sacraments. Connect anxiety to a saint story, then to a concrete work of mercy. Students remember Scripture when it is paired with action.
+ Connect anxiety to a saint story, then to a concrete work of mercy.
               </LinkedText>
 
               <h2 className="font-display text-2xl font-bold text-text mt-10 mb-4">A Simple Rule of Life for Anxiety</h2>
               <LinkedText className="text-text leading-relaxed mb-6" currentSlug="bible-verses-about-anxiety">
-                Keep a tiny rule: one verse on anxiety in the morning, a brief examination at night, and Sunday Mass without negotiation. Add Confession monthly if anxiety keeps wounding your peace. Small fidelity compounds. In three months you will not only know more verses — you will notice different reactions at work, at home, and in prayer.
+                Keep a tiny rule: one verse on anxiety in the morning, a brief examination at night, and Sunday Mass without negotiation. Add Confession monthly if anxiety keeps wounding your peace. Small fidelity compounds.
               </LinkedText>
 
               <LinkedText className="text-text leading-relaxed mb-6 mt-8" currentSlug="bible-verses-about-anxiety">
-                As you leave this page, take one verse on anxiety into the next hour of your life. Speak it in the car, at the sink, or before a difficult email. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when anxiety is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around anxiety today.
+                As you leave this page, take one verse on anxiety into the next hour of your life. The Word of God is living and active — and it is meant for the Catholics who still show up, still pray, and still hope when anxiety is unfinished. If this page helped you, share one verse — not the whole article — with someone who needs courage around anxiety today.
               </LinkedText>
 
               <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mt-10">
@@ -227,7 +227,7 @@ export default function BibleVersesAboutAnxiety() {
                 { question: "How do I pray when panic starts?", answer: "Whisper a short verse, breathe slowly, and contact someone if you feel unsafe. In the U.S., call or text 988. Keep praying with the Church, and let one verse on anxiety stay with you until Sunday Mass." },
                 { question: "Is anxiety a lack of trust?", answer: "Not necessarily. It can be neurological, situational, or spiritual dryness. Trust is practiced, not pretended. Keep praying with the Church, and let one verse on anxiety stay with you until Sunday Mass." },
                 { question: "How often should I pray bible verses about anxiety?", answer: "Daily is ideal when anxiety is intense; otherwise three times a week keeps the Word familiar without turning it into a checklist. Quality of attention matters more than volume. Keep praying with the Church, and let one verse on anxiety stay with you until Sunday Mass." },
-                { question: "Which Catholic Bible translation is good for these verses?", answer: "The RSV-CE and NABRE are widely used by English-speaking Catholics. Choose one translation and stay with it long enough for the words on anxiety to become memorable. Keep praying with the Church, and let one verse on anxiety stay with you until Sunday Mass." },
+                { question: "Which Catholic Bible translation is good for these verses?", answer: " Choose one translation and stay with it long enough for the words on anxiety to become memorable. Keep praying with the Church, and let one verse on anxiety stay with you until Sunday Mass." },
                 { question: "Can I share these verses with a non-Catholic friend?", answer: "Yes — with humility. Offer the verse as a gift, not a debate opener. If they ask what Catholics believe about anxiety, point them toward Christ and, when appropriate, your parish. Keep praying with the Church, and let one verse on anxiety stay with you until Sunday Mass." }
               ]}
             />

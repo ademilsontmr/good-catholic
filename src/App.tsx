@@ -210,6 +210,7 @@ const SaintJuniperoSerra = lazy(() => import("./pages/blog/SaintJuniperoSerra"))
 const SaintMaximilianKolbe = lazy(() => import("./pages/blog/SaintMaximilianKolbe"));
 const CatholicPrayerForProtection = lazy(() => import("./pages/blog/CatholicPrayerForProtection"));
 const Psalm91CatholicGuide = lazy(() => import("./pages/blog/Psalm91CatholicGuide"));
+const JesseTreeCatholicGuide = lazy(() => import("./pages/blog/JesseTreeCatholicGuide"));
 
 // Lote 3
 const HowToPrayNovena = lazy(() => import("./pages/blog/HowToPrayNovena"));
@@ -1345,6 +1346,7 @@ export function AppRoutes() {
             <Route path="/blog/saint-maximilian-kolbe/" element={<SaintMaximilianKolbe />} />
             <Route path="/blog/catholic-prayer-for-protection/" element={<CatholicPrayerForProtection />} />
             <Route path="/blog/psalm-91-catholic-protection-prayer-guide/" element={<Psalm91CatholicGuide />} />
+            <Route path="/blog/jesse-tree-catholic-advent-guide/" element={<JesseTreeCatholicGuide />} />
             <Route path="/blog/how-to-pray-a-novena-guide/" element={<HowToPrayNovena />} />
             <Route path="/blog/is-it-a-sin-to-miss-mass/" element={<IsItSinToMissMass />} />
             <Route path="/blog/what-is-pentecost-catholic/" element={<WhatIsPentecost />} />
