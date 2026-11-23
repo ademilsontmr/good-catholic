@@ -339,6 +339,11 @@ export default function RosaryPage() {
             </div>
           </header>
 
+          {/* Ad unit "guide rosary", above the guided Rosary */}
+          <div className="container mx-auto px-4 max-w-4xl">
+            <BlogArticleAd slot="4761486940" onlyOnBlog={false} />
+          </div>
+
           {/* Guided Rosary */}
           <section id="pray" className="py-12 bg-background-muted/40 scroll-mt-20" aria-labelledby="pray-title">
             <div className="container mx-auto px-4 max-w-5xl">
