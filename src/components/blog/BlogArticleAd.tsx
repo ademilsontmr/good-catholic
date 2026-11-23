@@ -28,8 +28,9 @@ export function BlogArticleAd({ slot = TOP_SLOT, onlyOnBlog = true }: { slot?: s
   if (!isArticle) return null;
 
   return (
-    // Reserve the usual height of a responsive in-article unit so the page does not jump when the ad fills.
-    <div className="mb-6 min-h-[280px]" aria-label="Advertisement">
+    // Reserve the height the responsive unit actually takes so the page does not jump when it fills:
+    // on phones AdSense serves a full-width square (as tall as the screen is wide), elsewhere 280px.
+    <div className="ad-slot mb-6" aria-label="Advertisement">
       <ins
         className="adsbygoogle"
         style={{ display: "block" }}

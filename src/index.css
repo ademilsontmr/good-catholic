@@ -288,3 +288,14 @@
 body {
   overflow-x: hidden;
 }
+
+/* Space reserved for AdSense units (BlogArticleAd). Measured on guidecatholic.com: full-width responsive
+   units are square on phones (360px tall at 360px wide, 390px at 390px) and 280px tall from 768px up. */
+.ad-slot {
+  min-height: 280px;
+}
+@media (max-width: 767px) {
+  .ad-slot {
+    min-height: min(100vw, 480px);
+  }
+}
