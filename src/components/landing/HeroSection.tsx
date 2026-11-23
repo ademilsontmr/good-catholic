@@ -33,14 +33,13 @@ export function HeroSection() {
           </div>
 
           {/* Headline */}
-          <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-primary mb-5 leading-tight animate-slide-up">
+          {/* No entrance animation: this heading is the LCP element, and starting it at opacity 0 delays LCP. */}
+          <h1 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold text-primary mb-5 leading-tight">
             Catholic guides for prayer, Scripture, and the sacraments
           </h1>
 
           {/* Subheadline */}
-          <p className="text-base md:text-xl text-text-muted mb-8 max-w-2xl mx-auto animate-slide-up" style={{
-          animationDelay: "0.1s"
-        }}>
+          <p className="text-base md:text-xl text-text-muted mb-8 max-w-2xl mx-auto">
             Read original articles on the Mass, Confession, the Rosary, the saints, and daily Catholic life. Then open today’s verse or take the faith assessment if you want a next step.
           </p>
 
