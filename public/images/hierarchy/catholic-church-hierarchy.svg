@@ -11,7 +11,7 @@
 <text x="360" y="215" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Cardinals</text>
 <text x="360" y="238" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Advise the Pope; electors under 80 choose a new Pope</text>
 <polygon points="176.66666666666669,268 543.3333333333333,268 572.375,346 147.625,346" fill="#5b3a8c"/>
-<text x="360" y="301" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Patriarchs & Archbishops</text>
+<text x="360" y="301" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Patriarchs &amp; Archbishops</text>
 <text x="360" y="324" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Lead major sees and ecclesiastical provinces</text>
 <polygon points="142.5,354 577.5,354 606.5416666666666,432 113.45833333333334,432" fill="#6d4aa8"/>
 <text x="360" y="387" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Bishops</text>
@@ -26,7 +26,7 @@
 <text x="360" y="645" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#0f263d">Lay faithful</text>
 <text x="360" y="668" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0f263d" fill-opacity="0.92">Consecrated religious and all the baptized</text>
 <path d="M 715 102 h 14 v 238 h -14" fill="none" stroke="#d5a015" stroke-width="3"/>
-<text x="741" y="217.0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0f263d">Offices & titles</text>
+<text x="741" y="217.0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0f263d">Offices &amp; titles</text>
 <text x="741" y="237.0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4b5b6b">held by bishops</text>
 <path d="M 715 360 h 14 v 238 h -14" fill="none" stroke="#0d4b92" stroke-width="3"/>
 <text x="741" y="475.0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0f263d">Holy Orders</text>
