@@ -31,6 +31,30 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: 1675,
+    slug: "what-does-catholic-mean",
+    title: "What Does Catholic Mean? The Word, Its Origin and Use",
+    excerpt: "Catholic means \"universal,\" from the Greek katholikos. Where the word comes from, who first called the Church Catholic, and Catholic vs. Christian.",
+    date: "2026-11-23",
+    readTime: "11 min",
+    category: "Catholic Doctrine",
+    icon: Church,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
+    id: 1676,
+    slug: "catholic-church-hierarchy",
+    title: "Catholic Church Hierarchy Explained: Chart, Ranks & Titles",
+    excerpt: "The Catholic Church hierarchy explained: Pope, cardinals, archbishops, bishops, priests, monsignors and deacons, how each is chosen, and how to address them.",
+    date: "2026-11-23",
+    readTime: "12 min",
+    category: "Catholic Doctrine",
+    icon: Church,
+    bgColor: "bg-sky-50",
+    iconColor: "text-sky-700"
+  },
+  {
     id: 1663,
     slug: "joyful-mysteries-of-the-rosary",
     title: "Joyful Mysteries of the Rosary: Meaning & Meditations",

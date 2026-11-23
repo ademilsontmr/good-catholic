@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760" role="img" aria-labelledby="t d">
+<title id="t">Catholic Church hierarchy</title>
+<desc id="d">Chart of the Catholic Church hierarchy from the Pope to the lay faithful. Bishop, priest and deacon are the three degrees of Holy Orders; Pope, cardinal and archbishop are offices held by bishops.</desc>
+<rect width="900" height="760" fill="#faf8f2"/>
+<text x="450.0" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" fill="#0f263d">The Catholic Church Hierarchy</text>
+<text x="450.0" y="74" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#4b5b6b">From the Pope to the lay faithful</text>
+<polygon points="245.0,96 475.0,96 504.04166666666663,174 215.95833333333334,174" fill="#7a1f2b"/>
+<text x="360" y="129" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Pope</text>
+<text x="360" y="152" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Bishop of Rome, successor of St. Peter</text>
+<polygon points="210.83333333333334,182 509.16666666666663,182 538.2083333333334,260 181.79166666666666,260" fill="#b3262f"/>
+<text x="360" y="215" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Cardinals</text>
+<text x="360" y="238" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Advise the Pope; electors under 80 choose a new Pope</text>
+<polygon points="176.66666666666669,268 543.3333333333333,268 572.375,346 147.625,346" fill="#5b3a8c"/>
+<text x="360" y="301" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Patriarchs & Archbishops</text>
+<text x="360" y="324" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Lead major sees and ecclesiastical provinces</text>
+<polygon points="142.5,354 577.5,354 606.5416666666666,432 113.45833333333334,432" fill="#6d4aa8"/>
+<text x="360" y="387" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Bishops</text>
+<text x="360" y="410" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Shepherd a diocese; fullness of Holy Orders</text>
+<polygon points="108.33333333333334,440 611.6666666666666,440 640.7083333333333,518 79.29166666666669,518" fill="#0d4b92"/>
+<text x="360" y="473" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Priests</text>
+<text x="360" y="496" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Celebrate Mass and the sacraments; pastors of parishes</text>
+<polygon points="74.16666666666663,526 645.8333333333334,526 674.875,604 45.125,604" fill="#2f6db3"/>
+<text x="360" y="559" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#ffffff">Deacons</text>
+<text x="360" y="582" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#ffffff" fill-opacity="0.92">Serve at the altar, preach, baptize, witness marriages</text>
+<polygon points="40.0,612 680.0,612 700.0,690 20.0,690" fill="#d9c48a"/>
+<text x="360" y="645" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#0f263d">Lay faithful</text>
+<text x="360" y="668" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#0f263d" fill-opacity="0.92">Consecrated religious and all the baptized</text>
+<path d="M 715 102 h 14 v 238 h -14" fill="none" stroke="#d5a015" stroke-width="3"/>
+<text x="741" y="217.0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0f263d">Offices & titles</text>
+<text x="741" y="237.0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4b5b6b">held by bishops</text>
+<path d="M 715 360 h 14 v 238 h -14" fill="none" stroke="#0d4b92" stroke-width="3"/>
+<text x="741" y="475.0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#0f263d">Holy Orders</text>
+<text x="741" y="495.0" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13" fill="#4b5b6b">bishop · priest · deacon</text>
+<text x="450.0" y="742" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#6b7785">guidecatholic.com</text>
+</svg>

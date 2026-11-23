@@ -49,6 +49,7 @@ const COLUMNS: { title: string; links: FooterLink[] }[] = [
     title: "Learn the Faith",
     links: [
       { to: "/blog/what-do-catholics-believe/", label: "What Catholics Believe" },
+      { to: "/blog/catholic-church-hierarchy/", label: "Church Hierarchy" },
       { to: "/blog/complete-guide-to-the-catholic-mass/", label: "The Catholic Mass" },
       { to: "/blog/complete-guide-to-catholic-confession/", label: "Confession" },
       { to: "/blog/seven-deadly-sins/", label: "Seven Deadly Sins" },

@@ -22,9 +22,9 @@ import {
 import { drawLockscreen, CAPS_FONT, VERSE_FONT, type LockscreenDesign, type LockscreenOptions } from "@/lib/lockscreenCanvas";
 
 const PAGE_URL = "https://guidecatholic.com/lockscreen/";
-const TITLE = "Catholic Lockscreen Wallpaper Maker (Free) | Guide Catholic";
+const TITLE = "Catholic Wallpaper Maker: Free iPhone & Android Lockscreens | Guide Catholic";
 const DESCRIPTION =
-  "Make a free Catholic lock screen wallpaper: pick a Bible verse, prayer or Advent text, edit the words, choose a design and download it for iPhone or Android.";
+  "Make a free Catholic wallpaper for your phone: pick a Bible verse, prayer or Advent text, edit the words, choose a design and download it for iPhone or Android.";
 const MAX_TEXT = 220;
 const FONTS_URL =
   "https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@1,500;1,600&display=swap";
@@ -334,7 +334,7 @@ export default function LockscreenPage() {
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Guide Catholic" />
-        <meta property="og:title" content="Free Catholic Lockscreen Wallpaper Maker" />
+        <meta property="og:title" content="Free Catholic Wallpaper & Lockscreen Maker" />
         <meta property="og:description" content={DESCRIPTION} />
         <meta property="og:url" content={PAGE_URL} />
         <meta property="og:image" content="https://guidecatholic.com/og-image.png" />
@@ -366,7 +366,7 @@ export default function LockscreenPage() {
                 <Smartphone className="w-4 h-4" />
                 Free · Editable · iPhone &amp; Android
               </p>
-              <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">Catholic Lockscreen Wallpaper Maker</h1>
+              <h1 className="font-display text-4xl md:text-5xl font-bold text-text mb-4">Catholic Wallpaper &amp; Lockscreen Maker</h1>
               <p className="text-text-muted text-lg max-w-2xl mx-auto">
                 Make your own Catholic phone wallpaper in a minute. Choose a Bible verse, a Catholic prayer or a saint quote, or type your own words, pick a liturgical color and download a sharp PNG sized for your phone. Free, with no sign-up.
               </p>

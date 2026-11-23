@@ -16,6 +16,7 @@ import { cboLinkClass } from "@/lib/catholicBibleOnlineLinks";
 import { christmasMomentGuideBySlug } from "@/data/christmasMomentGuides";
 import { liturgicalFeastGuideBySlug } from "@/data/liturgicalFeastGuides";
 import { rosaryGuideBySlug } from "@/data/rosaryGuides";
+import { faithGuideBySlug } from "@/data/faithGuides";
 import { RosaryHubCTA } from "@/components/blog/RosaryHubCTA";
 import { TopicSeriesNav } from "@/components/blog/TopicSeriesNav";
 
@@ -72,7 +73,7 @@ export default function LiturgicalFeastGuidePage() {
   const { pathname } = useLocation();
   const slug = pathname.replace(/^\/blog\//, "").replace(/\/$/, "");
   const rosaryGuide = rosaryGuideBySlug(slug);
-  const guide = liturgicalFeastGuideBySlug(slug) ?? christmasMomentGuideBySlug(slug) ?? rosaryGuide;
+  const guide = liturgicalFeastGuideBySlug(slug) ?? christmasMomentGuideBySlug(slug) ?? rosaryGuide ?? faithGuideBySlug(slug);
   if (!guide) return null;
 
   const pageUrl = `https://guidecatholic.com/blog/${guide.slug}/`;
@@ -96,6 +97,7 @@ export default function LiturgicalFeastGuidePage() {
         url={pageUrl}
         datePublished={published}
         dateModified={published}
+        {...(guide.image ? { image: `https://guidecatholic.com${guide.image.src}` } : {})}
       />
       <BreadcrumbSchema
         items={[
@@ -140,6 +142,20 @@ export default function LiturgicalFeastGuidePage() {
             </div>
             <BlogArticleAd slot="1906776249" />
             {rosaryGuide && <RosaryHubCTA />}
+            {guide.image && (
+              <figure className="mb-10 rounded-2xl border border-border bg-surface p-3 md:p-4">
+                <img
+                  src={guide.image.src}
+                  width={guide.image.width}
+                  height={guide.image.height}
+                  alt={guide.image.alt}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-auto rounded-xl"
+                />
+                <figcaption className="text-sm text-text-muted text-center mt-2">{guide.image.caption}</figcaption>
+              </figure>
+            )}
 
             <nav aria-labelledby="toc-heading" className="mb-10 rounded-xl border border-border bg-background-muted/40 p-6">
               <p id="toc-heading" className="text-sm font-semibold uppercase tracking-wide text-text-muted mb-3">In this guide</p>

@@ -32,6 +32,8 @@ export interface LiturgicalFeastGuide {
   prayerHeading?: string;
   /** Heading for the timeline block; defaults to "Key dates". */
   timelineHeading?: string;
+  /** Optional figure shown after the answer box (served from /public). */
+  image?: { src: string; alt: string; caption: string; width: number; height: number };
   related: { href: string; label: string }[];
   faqs: { question: string; answer: string }[];
 }

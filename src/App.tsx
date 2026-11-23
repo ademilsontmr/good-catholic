@@ -1338,6 +1338,8 @@ export function AppRoutes() {
             <Route path="/blog/biblical-numbers-meanings/" element={<BiblicalNumbersMeanings />} />
             <Route path="/blog/catholic-new-year/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/advent/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/what-does-catholic-mean/" element={<LiturgicalFeastGuidePage />} />
+            <Route path="/blog/catholic-church-hierarchy/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/joyful-mysteries-of-the-rosary/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/sorrowful-mysteries-of-the-rosary/" element={<LiturgicalFeastGuidePage />} />
             <Route path="/blog/glorious-mysteries-of-the-rosary/" element={<LiturgicalFeastGuidePage />} />

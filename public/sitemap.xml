@@ -5956,4 +5956,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/what-does-catholic-mean/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://guidecatholic.com/blog/catholic-church-hierarchy/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://guidecatholic.com/images/hierarchy/catholic-church-hierarchy.svg</image:loc></image:image>
+  </url>
 </urlset>
